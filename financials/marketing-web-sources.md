@@ -1,0 +1,52 @@
+---
+title: Webbronnen voor contactbedrijven instellen | Microsoft Docs
+description: Beschrijft hoe u webbronnen voor contacten gebruikt in Financials
+services: project-madeira
+documentationcenter: 
+author: jswymer
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: internet
+ms.date: 03/28/2017
+ms.author: jswymer
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 8a452619aeeee907cf61fd5d1a8fce409ad2e42d
+ms.contentlocale: nl-be
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="setting-up-web-sources-for-contact-companies"></a>Webbronnen voor contactbedrijven instellen
+U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines en websites op internet aan te geven die u wilt gebruiken om informatie over de contacten te zoeken. Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.
+
+Webbronnen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de webbroncode. U hoeft deze stap slechts eenmaal uit te voeren voor elke webbron. Als u een webbroncode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
+
+## <a name="to-define-a-web-source-code"></a>Een webbroncode definiëren
+1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Webbronnen** in en klik op de gerelateerde koppeling.
+2. Kies de **Nieuw**-acties.
+3. Vul de velden **Code**, **Omschrijving** en **URL** in.
+
+    Typ %1 in het veld **URL** om een tijdelijke aanduiding in te voegen voor een zoekwoord in de URL. Wanneer u de webbron start vanaf een contact, wordt %1 automatisch vervangen door de zoekterm die u in het venster **Contact webbronnen** hebt ingevoerd, bijvoorbeeld de naam van het bedrijf.
+
+Herhaal deze stappen om het gewenste aantal webbronnen in te stellen.
+
+## <a name="to-assign-web-sources-to-a-contact-company"></a>Webbronnen toewijzen aan een contactbedrijf
+Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.
+
+1. Open het contact.
+2. Kies de actie **Bedrijf** en kies vervolgens de actie **Webbronnen**. Het venster **Contact webbronnen** wordt geopend.
+3. Kies in het veld **Webbroncode** de webbron die u wilt toewijzen.
+4. Voer in het veld **Zoekterm** de zoekterm in die moet worden gebruikt bij het zoeken naar de informatie.
+
+Herhaal deze stappen om het gewenste aantal webbronnen toe te wijzen.
+
+U kunt ook webbronnen toewijzen vanuit het venster **Contactoverzicht** door dezelfde procedure te volgen.
+
+## <a name="see-also"></a>Zie ook
+[Contactbedrijven maken](marketing-create-contact-companies.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

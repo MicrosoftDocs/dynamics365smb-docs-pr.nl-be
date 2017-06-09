@@ -1,0 +1,43 @@
+---
+title: Afsluitingsoverzichten voorbereiden | Microsoft Docs
+description: Biedt een overzicht van de rapporten die nuttig kunnen zijn bij het afsluiten van het jaar.
+services: project-madeira
+documentationcenter: 
+author: jswymer
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
+ms.date: 03/21/2017
+ms.author: jswymer
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.contentlocale: nl-be
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="preparing-closing-statements"></a>Afsluitingsoverzichten voorbereiden
+Er staat een aantal standaardrapporten tot uw beschikking voor het verzamelen van de informatie die u nodig hebt voor het voorbereiden van de afsluitingsoverzichten van uw bedrijf.
+
+De volgende tabel beschrijft een aantal rapporten die nuttig kunnen zijn bij dit proces, met koppelingen naar de onderwerpen waar deze worden beschreven.
+
+| Als u dit wilt doen | Dit rapport raadplegen |
+| --- | --- |
+| Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen. |Proefbalans |
+| Een overzicht te krijgen van rekeningen met vorderingen, met de ouderdom van te ontvangen bedragen, berekend vanaf de vervaldatum, boekdatum of documentdatum. |Vervallen vorderingen |
+| Een overzicht te krijgen van rekeningen met schulden, met de ouderdom van te betalen bedragen, berekend vanaf de vervaldatum, boekdatum of documentdatum. |Vervallen betalingen |
+| De proefbalans te vergelijken met een budget. |Proefbalans/Budget |
+| Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen, berekend voor een aantal perioden. |Proefbalans per periode |
+| Een rapportageschema af te drukken om de cijfers in grootboekrekeningen te analyseren, of om werkelijke grootboekposten te vergelijken met budgetposten voor het grootboek. |Rapportageschema |
+| Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |Klant- en leveranciersrekeningen reconciliëren |
+
+Om een rapport te openen, kiest u in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport] (media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voert u de naam in zoals die in de tabel is vermeld en klik op de gerelateerde koppeling.
+
+## <a name="see-also"></a>Zie ook
+[Afsluitingsjaren en -perioden](year-close-years-periods.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
