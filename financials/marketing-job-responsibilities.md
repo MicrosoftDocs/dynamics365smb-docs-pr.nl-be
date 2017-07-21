@@ -1,6 +1,6 @@
 ---
 title: Functiegroepen instellen voor contacten | Microsoft Docs
-description: Beschrijft functiegroepen voor contacten in Financials
+description: "U kunt een functiegroepcode definiëren en vervolgens toewijzen aan een contact om de taken aan te geven waarvoor uw contact verantwoordelijk is in hun bedrijf, bijvoorbeeld, IT of productie."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 610ae314502e60b959f0e2ff705a48b936d79d68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-job-responsibilities-for-contact-persons"></a>Functiegroepen instellen voor contactpersonen
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Procedure: Functiegroepen instellen voor contactpersonen
 U kunt informatie over de functiegroepen van contactpersonen toevoegen om aan te geven waar de contactpersoon verantwoordelijk voor is binnen het bedrijf, bijvoorbeeld IT, beheer of productie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
 
 Functiegroepen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de functiegroepcode. U hoeft deze stap slechts eenmaal uit te voeren voor elke functiegroep. Als u een functiegroep hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
 
-## <a name="tp-define-a-job-responsibility-code"></a>Een functiegroepcode definiëren
+## <a name="to-define-a-job-responsibility-code"></a>Een functiegroepcode definiëren
 De functiegroepcode bepaalt het type of de categorie van het project, MARKETING of INKOOP. U kunt meerdere functiegroepcodes hebben. Als u de functiegroep wilt definiëren, gebruikt u het venster **Functiegroepen**.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Functiegroepen** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Functiegroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Functiegroepen toewijzen aan een contactpersoon

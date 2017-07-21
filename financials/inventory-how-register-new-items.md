@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Nieuwe artikelen registreren | Microsoft Docs'
-description: Maak kaarten voor nieuwe fysieke producten die u uit voorraad verkoopt, bijvoorbeeld in stuks, of voor services, die u als uren verkoopt.
+title: Artikelkaarten maken voor goederen of services| Microsoft Docs
+description: U maakt artikelkaarten voor services die u als uren en voor fysieke producten verkoopt, zoals componenten, gereedgemelde goederen, onderdelen of grondstoffen, die u uit uw voorraad verkoopt.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ De artikelkaart kan van het type **Voorraad** of **Service** zijn, om aan te gev
 
 Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt naar een stuklijst verwezen als een assemblagestuklijst. U gebruikt assemblagestuklijsten om bovenliggende artikelen te structureren die u verkoopt als kits bestaande uit de onderdelen van de bovenliggende artikelen, of die u voor orders of voor voorraad assembleert. Zie [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
-**Opmerking**: als klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
+> [!NOTE]  
+>   Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
 1. Kies op de startpagina de actie **Artikelen** om de lijst met bestaande artikelen te openen.  

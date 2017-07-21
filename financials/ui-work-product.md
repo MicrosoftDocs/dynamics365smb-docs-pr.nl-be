@@ -1,6 +1,6 @@
 ---
-title: Werken met Financials | Microsoft Docs
-description: Werken met Dynamics 365 for Financials
+title: Werken met de algemene functionaliteit in Dynamics 365 for Financials | Microsoft Docs
+description: Beschrijft de algemene functies die u gebruikt om te werken met gegevens in Financials, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/12/2017
+ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9593131a1c0a18f5599ebbe8a253f007e4fc6c4b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0a50b92a952c0d4be2b68dc4278cedd9362348f0
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,14 +32,16 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 | Zien welke velden moeten worden ingevuld. |[Verplichte velden](ui-mandatory-fields.md) |
 | Met Zoeken naar een bepaalde pagina of bepaald rapport zoeken. |[Zoeken naar pagina of rapport gebruiken](ui-search.md) |
 | Leren over het sorteren van gegevens. |[Sorteren](ui-sorting.md) |
-| Wijzigen hoe u lijsten van bijvoorbeeld klanten, leveranciers of artikelen weergeeft. |[Lijsten weergeven in verschillende weergaven](across-display-lists-different-views.md) |
+| Wijzigen hoe u lijsten van bijvoorbeeld klanten, leveranciers of artikelen weergeeft. |[Lijsten weergeven op verschillende manieren](across-display-lists-different-views.md) |
 | De gekleurde indicatoren voor indicatiestapels wijzigen. |[Procedure: Een gekleurde indicator instellen voor indicatiestapels](ui-how-setup-colored-indicator-cues.md) |
 | Basisinstellingen wijzigen zoals bedrijf of werkdatum. |[Basisinstellingen wijzigen](ui-change-basic-settings.md) |
 | Het rolcentrum en de relateerde startpagina wijzigen om bij uw rol te passen. |[Procedure: Het rolcentrum wijzigen](change-role.md) |
 | Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen. |[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md) |
+| Lijsten ophalen om gegevens uit bepaalde datumbereiken weer te geven. |[Datumbereiken invoeren in Dynamics 365 for Financials](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

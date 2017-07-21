@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten| Microsoft Docs'
-description: Beschrijft hoe u OCR gebruikt om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
+title: OCR gebruiken om van PDF e-facturen te maken| Microsoft Docs
+description: Beschrijft hoe u een OCR-service kunt gebruiken voor het converteren van inkomende PDF- of afbeeldingsbestanden naar elektronische documenten in Financials.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7be94659e8f00021446314acf6558ae01b158971
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Omdat OCR is gebaseerd op optische herkenning, is het waarschijnlijk dat de OCR-
 Het verkeer van bestanden van en naar de OCR-service wordt verwerkt door een specifiek taakwachtrij-item, dat automatisch wordt gemaakt als u de gerelateerde serviceverbinding inschakelt. Zie [Procedure: Inkomende documenten instellen](across-how-setup-income-documents.md) voor meer informatie.
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Een PDF-of afbeeldingsbestand verzenden naar de OCR-service vanuit het venster **Inkomende documenten**
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en kies de gerelateerde koppeling.
 2. Maak een nieuwe inkomende documentrecord en koppel het bestand eraan. Zie [Procedure: Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
 3. Selecteer in het venster **Inkomende documenten** een of meer regels en kies vervolgens de actie **Verzenden naar taakwachtrij**.
 
@@ -45,14 +45,16 @@ Vanuit uw e-mailtoepassing kunt u een e-mailbericht verzenden naar de aanbieder 
 
 Omdat er geen inkomende documentrecord bestaat voor het bestand, wordt automatisch een nieuwe record gemaakt in het venster **Inkomende documenten** wanneer u het resulterende elektronische document ontvangt van de OCR-service. Zie [Procedure: Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.
 
-**Opmerking**: als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie voor meer informatie het gedeelte "Inkomende documentrecords maken door een foto te maken" in [Procedure: Inkomende documentrecords maken](across-how-create-income-document-records.md).
+> [!NOTE]  
+>   Als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie voor meer informatie het gedeelte "Inkomende documentrecords maken door een foto te maken" in [Procedure: Inkomende documentrecords maken](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Het resulterende elektronische document ontvangen van de OCR-service
 Het elektronische document dat door de OCR-service van het PDF- of het afbeeldingsbestand wordt gemaakt, wordt automatisch ontvangen in het **venster Inkomende documenten** door de verwerkingswachtrijpost die wordt ingesteld wanneer u de OCR-service inschakelt.
 
 Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt ontvangen dan volgens het verwerkingswachtrijschema wordt verwacht, kunt u de knop**Ontvangen van OCR-service**kiezen. Hiermee worden alle documenten opgehaald die door de OCR-service zijn voltooid.
 
-**Opmerking**: als de OCR-service zo is ingesteld dat handmatige verificatie van verwerkte documenten is vereist, bevat het veld **OCR-status****In afwachting van verificatie**. In dat geval voert u de volgende stappen uit om u aan te melden bij de website van de OCR-service om een OCR-document handmatig te verifiëren.
+> [!NOTE]  
+>   Als de OCR-service zo is ingesteld dat handmatige verificatie van verwerkte documenten is vereist, bevat het veld **OCR-status** de waarde **In afwachting van verificatie**. In dat geval voert u de volgende stappen uit om u aan te melden bij de website van de OCR-service om een OCR-document handmatig te verifiëren.
 
 1. Kies in het veld**OCR-status**de hyperlink **In afwachting van verificatie**. Kies de tegel **In afwachting van verificatie**op de startpagina.
 2. Meld u bij de website van de OCR-service aan met de aanmeldgegevens van uw OCR-serviceaccount. Dit zijn de aanmeldgegevens die ook bij het instellen van de service worden gebruikt. Zie het gedeelte "Een OCR-service instellen"in [Procedure: Inkomende documenten instellen](across-how-setup-income-documents.md)voor meer informatie.
@@ -71,7 +73,8 @@ U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Een inkoopfactuur op basis van een elektronisch document ontvangen van de OCR-service maken
 Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt.
 
-**Opmerking**: de velden**Omschrijving** en**Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt dit doen als artikelkruisverwijzingen, documentregels van het soort Artikel of als tekst-aan-rekening toewijzingen voor document- of dagboekregels van het soort Grootboekrekening. Zie voor meer informatie de knopinfo voor de actie **Kruisverwijzingen**op artikelkaarten en de gerelateerde procedure [Procedure: Tekst in terugkerende betalingen toewijzen aan accounts voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+> [!NOTE]  
+>   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt dit doen als artikelkruisverwijzingen, documentregels van het soort Artikel of als tekst-aan-rekening toewijzingen voor document- of dagboekregels van het soort Grootboekrekening. Zie voor meer informatie de knopinfo voor de actie **Kruisverwijzingen**op artikelkaarten en de gerelateerde procedure [Procedure: Tekst in terugkerende betalingen toewijzen aan accounts voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 Voor inkomende documenten gebruikt u meestal de actie **Tekst toewijzen aan rekening**om te definiëren daten bepaalde tekst op een leveranciersfactuurontvangen van OCR-service, is toegewezen aan een bepaalde leveranciersrekening. In elk onderdeel van de omschrijving van het binnenkomende document dat als een toewijzingstekst aanwezig is, wordt in het veld**Nr.** in het resulterende document of de resulterende dagboekregels van het soort grootboekrekening ingevuld met de desbetreffende leverancier.
 
@@ -100,7 +103,7 @@ Omdat OCR is gebaseerd op optische herkenning, is het waarschijnlijk dat de OCR-
 
 Het venster **Correctie OCR-gegevens**, dat u opent vanuit het venster **Inkomend document**, bevat de velden van het sneltabblad **Financiële informatie** in twee kolommen. Een kolom met de bewerkbare OCR-gegevens en een kolom met de alleen-lezen OCR-gegevens. Wanneer u de knop **OCR-feedback verzenden** kiest, wordt de inhoud van het venster **Correctie OCR-gegevens** naar de OCR-service verzonden. De volgende keer dat de service PDF- of afbeeldingsbestanden verwerkt die de betreffende gegevens bevatten, worden uw correcties meegenomen om dezelfde fouten te voorkomen.
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en kies de gerelateerde koppeling.
 2. Open een inkomende documentrecord die gegevens bevat die van de OCR-service zijn ontvangen en die u wilt corrigeren.
 3. Kies in het venster **Inkomend document** de actie **Correctie OCR-gegevens**.
 4. Overschrijf in het venster **Correctie OCR-gegevens** de gegevens in de bewerkbare kolom voor elk veld dat een onjuiste waarde heeft.

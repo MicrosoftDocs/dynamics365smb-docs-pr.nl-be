@@ -1,6 +1,6 @@
 ---
 title: Contactpersonen maken | Microsoft Docs
-description: Beschrijft hoe u contactpersonen maakt in Financials
+description: Beschrijft hoe u een contactkaart maakt voor elke nieuw persoon of prospect waarmee u contact onderhoudt of een zakelijke relatie hebt.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,23 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7f35e0b2b98d45f0e28bfb9e0bd43e18d60a3b79
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a4558787532b1e4713a2a0681bb8acf910519504
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="create-contact-persons"></a>Contacten maken
+# <a name="how-to-create-contact-persons"></a>Procedure: contactpersonen maken
 U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarmee u een zakelijke relatie hebt. Voor elk contactbedrijf kunt u het gewenste aantal contacten invoeren. U kunt ook contactkaarten maken voor de personen die u wilt vastleggen als onafhankelijk persoon.
 
-**Tip**: voordat u een contact maakt, kunt u de instellingen voor **Overerving** controleren in het venster **Marketinginstellingen**. Als u overerving instelt, kan informatie over contactbedrijven die gemeenschappelijk is voor contactpersonen, zoals adresdetails, automatisch worden gekopieerd vanuit het contactbedrijf naar de contactpersoon, elke keer dat u een contactpersoon maakt voor een vastgelegd contactbedrijf.
+> [!TIP]  
+>   Voordat u een contact maakt, kunt u de instellingen voor **Overerving** controleren in het venster **Marketinginstellingen**. Als u overerving instelt, kan informatie over contactbedrijven die gemeenschappelijk is voor contactpersonen, zoals adresdetails, automatisch worden gekopieerd vanuit het contactbedrijf naar de contactpersoon, elke keer dat u een contactpersoon maakt voor een vastgelegd contactbedrijf.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Een contactkaart voor een persoon maken
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer voor het contact in.
 
@@ -34,13 +35,14 @@ U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarm
 4. Selecteer **Persoon** in het veld **Soort**.
 5. Vul de overige velden op de contactkaart in.
 
-**Opmerking**: de inhoud van de velden die u hebt geselecteerd in het gedeelte **Overerving** van het venster **Marketinginstellingen**, wordt gekopieerd van het bedrijf naar de personen binnen dat bedrijf.
+> [!NOTE]  
+>   De inhoud van de velden die u hebt geselecteerd in het gedeelte **Overerving** van het venster **Marketinginstellingen**, wordt gekopieerd van het bedrijf naar de personen binnen dat bedrijf.
 
 ## <a name="see-also"></a>Zie ook
 [CRM instellen](marketing-setup-marketing.md)  
 [Mailinggroepen toewijzen aan een contact](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Functiegroepen instellen voor contacten](marketing-job-responsibilities.md)  
-[Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md)  
+[Procedure: Functiegroepen instellen voor contacten](marketing-job-responsibilities.md)  
+[Procedure: Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md)  
 [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Werken met Financials](ui-work-product.md)  
 

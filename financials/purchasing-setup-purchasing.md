@@ -1,6 +1,6 @@
 ---
-title: Inkoop instellen | Microsoft Docs
-description: Inkoop instellen
+title: Overzicht van taken om inkoop in te stellen | Microsoft Docs
+description: "Beschrijft de taken voor het definiëren van het inkoopbeleid van uw bedrijf en het instellen van uw inkoopprocessen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,6 @@ Inkoopinstellingen met betrekking tot financiën, zoals betalingswijzen en valut
 | --- | --- |
 | Maak een leverancierkaart voor elke leverancier bij wie u inkoopt. |[Procedure: Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md) |
 | Voer de verschillende kortingen en speciale prijzen in die leveranciers u verlenen, afhankelijk van artikel, hoeveelheden en/of datum. |[Procedure: afspraken over prijzen, kortingen en betalingen van inkopen vastleggen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Leer hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de winst op handel optimaliseert als u speciale prijs en kortingsovereenkomsten registreert.|[Geavanceerd: De beste prijs berekenen](advanced-best-price-calculation.md) |
 | Leveranciers in een prioriteitsvolgorde plaatsen. |[Procedure: leveranciers in een prioriteitsvolgorde plaatsen](purchasing-how-prioritize-vendors.md) |
 | Inkopers instellen. |[Procedure: Inkopers instellen](purchasing-how-setup-purchasers.md) |
 

@@ -1,6 +1,9 @@
 ---
-title: De extensie PayPal Payments Standard | Microsoft Docs
-description: Bevat informatie over de extensie PayPal-betalingsstandaard
+title: De PayPal-extensie Payments Standard gebruiken | Microsoft Docs
+description: >-
+  Beschrijft hoe u de extensie gebruikt om klanten de mogelijkheid te bieden betalingen te doen met PayPal
+
+  .
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +16,10 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fdd5df534c0ffd1ae325e0959fe01b1d0f00974a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +41,7 @@ De service PayPal-betalingsstandaard biedt de volgende voordelen:
 Zie [Procedure: Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Batchverwerkingen uitvoeren | Microsoft Docs'
-description: Leren hoe batchverwerkingen in Dynamics 365 voor Financials werken.
+title: Een batchverwerking maken en uitvoeren | Microsoft Docs
+description: U voert batchverwerkingen uit om gegevens te verwerken en gegevens bij te werken om bijvoorbeeld periodieke boekhoudactiviteiten uit te voeren en berekeningen uit te voeren.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1f4678ce0cfb18a746374226bb33020f70bf874d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Een batchtaak is een routine waarmee gegevens in batches worden verwerkt, zoals 
 Een batchverwerking lijkt op een lijst, alleen wordt bij een batchverwerking het resultaat van de bewerking niet gebruikt om de resultaten af te drukken, maar om gegevens direct bij te werken.
 
 ## <a name="to-run-a-batch-job"></a>Een batchverwerking uitvoeren
-1. Als u het aanvraagvenster voor de betreffende batchverwerking wilt openen, kiest u in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voert u de naam van de batchverwerking in en kiest u vervolgens de gerelateerde koppeling.
+1. Als u het aanvraagvenster voor de betreffende batchverwerking wilt openen, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u de naam van de batchverwerking in en kiest u vervolgens de gerelateerde koppeling.
 2. Als het sneltabblad **Opties** aanwezig is voor de batchverwerking, vult u de velden in om te bepalen wat er met de batchverwerking gebeurt.
 3. Het venster kan een of meer sneltabbladen met filters bevatten waarmee u kunt beperken welke gegevens worden gebruikt in de batchverwerking. U kunt criteria in de voorgestelde velden invoeren of meer filters toevoegen.
 4. Kies **OK** om de batchverwerking te starten.

@@ -1,6 +1,6 @@
 ---
-title: Contactpersonen | Microsoft Docs
-description: In Financials kunt u contacten maken op basis van bestaande contactbedrijven of op basis van onafhankelijke contacten.
+title: Contactpersonen maken | Microsoft Docs
+description: "Schetst de taken om een contactkaart voor een persoon te maken, bijvoorbeeld een prospect of leverancier, om de relatie te helpen definiëren en communicatie af te stemmen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bfc992a09bfe3b93d682dd5c38cdab6c7dc1617b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="contact-persons"></a>Contactpersonen
+# <a name="creating-contact-persons"></a>Contactpersonen maken
 U kunt een contact maken door een contactkaart voor die persoon in te stellen. U kunt contacten maken op basis van bestaande contactbedrijven of u kunt onafhankelijke contacten maken.
 
 Nadat u bijvoorbeeld kennis hebt gemaakt met een potentieel bedrijf, ontmoet u de inkoper. U kunt een contactkaart voor deze persoon maken zodat u de communicatie beter kunt afstemmen.
@@ -35,8 +35,8 @@ De volgende tabel bevat een reeks taken met koppelingen naar de onderwerpen waar
 | --- | --- |
 | Informatie over een contactpersoon opgeven. |[Procedure: Contactpersonen maken](marketing-how-create-contact-persons.md) |
 | Een alternatief adres voor een contact instellen. |[Procedure: Alternatieve adressen toewijzen](marketing-how-assign-alternate-address.md) |
-| De zakenrelatie van een bedrijfscontact beschrijven. |[Functiegroepen instellen voor contacten](marketing-job-responsibilities.md) |
-| Het organisatieniveau van uw contacten beschrijven. |[Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md) |
+| De zakenrelatie van een bedrijfscontact beschrijven. |[Procedure: Functiegroepen instellen voor contacten](marketing-job-responsibilities.md) |
+| Het organisatieniveau van uw contacten beschrijven. |[Procedure: Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md) |
 | Mailinggroepen aan uw contacten toewijzen. |[Mailinggroepen toewijzen aan een contact](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Zie ook

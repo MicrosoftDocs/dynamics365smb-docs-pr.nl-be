@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials opzeggen | Microsoft Docs
-description: Beschrijft hoe uw Dynamics 365 voor Financials-ervaring te annuleren.
+title: Dynamics 365 for Financials annuleren | Microsoft Docs
+description: Beschrijft hoe u uw Dynamics 365 for Financials-ervaring verwijdert.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7cac3c42b47358e35b35891f42300b209bf37ec3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="canceling-dynamics-365-for-financials"></a>Dynamics 365 for Financials opzeggen
-Wanneer u zich hebt aangemeld voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u er op elk moment voor kiezen uw abonnement te annuleren. U kunt ook het bedrijf opnieuw instellen dat u met [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt gebruikt. Een kort overzicht hiervan vindt u op [de blog [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] verwijderen, op beginwaarden instellen of het abonnement erop stoppen
+Wanneer u zich hebt aangemeld voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u er op elk moment voor kiezen uw abonnement te annuleren. U kunt ook het bedrijf opnieuw instellen dat u met [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt gebruikt. Zie voor een snel overzicht [het [!INCLUDE[d365fin](includes/d365fin_md.md)]-blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Abonnement opzeggen door [!INCLUDE[d365fin](includes/d365fin_md.md)] te verwijderen uit uw Office 365-omgeving
 Als u zich hebt aangemeld voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met een bestaande Office 365-bedrijfsaccount, moet u uw Office 365-beheerder vragen de [!INCLUDE[d365fin](includes/d365fin_md.md)]-licentie uit uw gebruikersaccount te verwijderen.  
@@ -32,13 +32,14 @@ Als u zich hebt aangemeld voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met e
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgeving opnieuw instellen
 Als u gegevens aan uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-voorbeeld hebt toegevoegd en opnieuw wilt beginnen met een nieuwe omgeving, kunt u een nieuw bedrijf maken en vervolgens het eerste bedrijf opnieuw instellen. Als u de pagina **Bedrijven** opent, kunt u een kopie van uw huidige bedrijf maken, u afmelden en u bij het nieuwe bedrijf aanmelden en vervolgens het oorspronkelijke bedrijf opnieuw instellen.  
-**Opmerking**: als u een bedrijf dat u opnieuw instelt, met andere personen van uw organisatie, deelt moet u ervoor zorgen dat andere personen niet zijn aangemeld wanneer u het bedrijf opnieuw instelt.  
+> [!NOTE]  
+>   Als u een bedrijf opnieuw instelt dat u deelt met andere personen van uw organisatie, moet u ervoor zorgen dat andere personen niet zijn aangemeld wanneer u het bedrijf opnieuw instelt.  
 
 ## <a name="removing-included365finincludesd365finmdmd-from-your-app-launcher"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] verwijderen uit uw opstartprogramma voor apps
 Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] in uw opstartprogramma voor apps wilt verbergen, kunt u het eenvoudig losmaken. Er worden dan geen gegevens verwijderd en uw abonnement wordt niet geannuleerd.  
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Office-portal](https://portal.office.com)  
 [Hoe lang duurt de proeftijd en hoe kan ik opzeggen?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 

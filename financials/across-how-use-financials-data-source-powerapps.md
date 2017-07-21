@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials gebruiken als gegevensbron voor PowerApps | Microsoft Docs
-description: U kunt uw Financials-gegevens als gegevensbron beschikbaar maken in PowerApps.
+title: Gebruik uw gegevens om een app te maken| Microsoft Docs
+description: U kunt uw Financials-gegevens als gegevensbron beschikbaar maken en een OData-URL van uw webservices opgeven om een bedrijfsapp te maken met PowerApps.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cedc95b23481b8cb76da85e8459a97b1880a4218
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-as-a-powerapps-data-source"></a>Dynamics 365 for Financials gebruiken als gegevensbron voor PowerApps
+# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Verbinding met uw Financials-gegevens maken om een bedrijfsapp te maken met PowerApps
 U kunt uw gegevens [!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron beschikbaar maken in PowerApps.  
 
-**Opmerking**: u moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en PowerApps hebben.  
+> [!NOTE]  
+>   U moet een geldig account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en PowerApps hebben.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron in PowerApps toevoegen
 1. Navigeer in de browser naar [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) en meld u aan.
@@ -48,13 +49,14 @@ U kunt uw gegevens [!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron 
 8. Kies de tabel die u voor uw PowerApp wilt gebruiken en kies de knop **Verbinding maken**.
 9. Herhaal de vorige stappen om aanvullende [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens aan uw Power BI-gegevensmodel toe te voegen.
 
-   **Opmerking**: zodra u verbinding hebt gemaakt met [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt u niet weer gevraagd om de URL, gebruikersnaam of het wachtwoord van OData.
+   > [!NOTE]  
+>    Zodra u verbinding hebt gemaakt met [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt u niet weer gevraagd om de URL, gebruikersnaam of het wachtwoord van OData.
 
 Nu hebt u met succes een verbinding gemaakt met uw Dynamics 365-gegevens en kunt u uw PowerApp gaan maken. Zie de [PowerApps-documentatie](https://powerapps.microsoft.com/tutorials/getting-started/) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md)  
+[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Financiën](finance.md)  
 

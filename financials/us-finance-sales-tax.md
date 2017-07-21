@@ -1,6 +1,6 @@
 ---
-title: Sales tax en belastinggroepen in de VS en Canada | Microsoft Docs
-description: Leer meer over hoe u btw instelt en hoe belastinggroepen, belastinggebieden, belastingjurisdicties en belastingdetails werken.
+title: Belastinggroepen, gebieden, en jurisdicties instellen in de Verenigde Staten en Canada | Microsoft Docs
+description: Meer leren over hoe u btw instelt en hoe belastinggroepen, belastinggebieden (staten, provincies, steden en lokaliteiten), belastingjurisdicties en belastingdetails werken.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Sales tax en belastinggroepen in de VS en Canada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Sales Tax rapporteren in de Verenigde Staten en Canada
 Wanneer u voor het eerst gaat werken met [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u een begeleide instelling uitvoeren om snel en gemakkelijk btw-gegevens voor uw bedrijf, klanten en leveranciers in te stellen. In enkele minuten bent u gereed om verkoopdocumenten en inkoopdocumenten te maken waarvoor de btw correct is berekend. Dit wordt uitgelegd [in onze blogpost](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Als u naar het lege Mijn bedrijf gaat, is het raadzaam dat u elke handleiding voor begeleide instelling gaat gebruiken, inclusief de handleiding voor btw. Als u btw liever zelf instelt, wordt in dit artikel uitgelegd waarmee u rekening moet houden.  
 

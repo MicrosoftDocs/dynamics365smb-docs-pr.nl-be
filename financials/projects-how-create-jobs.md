@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Projecten maken | Microsoft Docs'
-description: Beschrijft hoe u een project maakt.
+title: Een projectkaart voor een project maken en taken opgeven| Microsoft Docs'
+description: Voor een nieuw project maakt u een projectkaart met projecttaken en planningsregels om u te helpen voortgang en budgetten te beheren.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c9dcf1c235f3d510cde85502ac6ec40af748893b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,23 +29,26 @@ De tweede laag bestaat uit projectplanningregels, waarin gedetailleerd het verbr
 
 Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en dus specifieke details gebruiken voor budgettering, offertes en registratie. Daarnaast krijgt u inzicht in hoe een project verloopt. Zo kunt u bijvoorbeeld bijhouden of u aan aangewezen mijlpalen voldoet of op koers zit wat de budgetverwachtingen betreft.
 
-**Opmerking**: de actie **Nieuw project** in het rolcentrum van **Projectmanager** start een begeleide instelling die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert.
+> [!NOTE]  
+>   De actie **Nieuw project** in het rolcentrum **Projectmanager** start een begeleide instelling die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert.
 
-**Opmerking**: voor deze functionaliteit is vereist dat uw ervaring is ingesteld op **Pakket**. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.
+> [!NOTE]  
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-create-a-job-card"></a>Een projectkaart maken
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u het project wilt opgeven met informatie over andere projecten, kiest u de actie **Project kopiëren**, vult u de benodigde velden in en kiest u de knop **OK**.
 
-**OPMERKING**: als u urenstaten in uw project gebruikt, moet u ook een verantwoordelijke aanwijzen. Deze persoon kan urenstaten goedkeuren voor de werknemertaken die aan het project zijn gekoppeld. Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
+> [!NOTE]  
+>   Als u urenstaten in uw project gebruikt, moet u ook een verantwoordelijke aanwijzen. Deze persoon kan urenstaten goedkeuren voor de werknemertaken die aan het project zijn gekoppeld. Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
 
 ## <a name="to-create-tasks-for-a-job"></a>Taken maken voor een project
 Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. Dit doet u door nieuwe regels toe te voegen op het sneltabblad **Taken** in het venster **Projectkaart**, met één taak per regel. Elk project moet minimaal één taak hebben.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de projectkaart voor een relevant project.
 3. Vul op het sneltabblad **Taken** indien nodig de velden in op een nieuwe regel.
 4. Als u taken wilt laten inspringen en een hiërarchie wilt maken, kiest u de actie **Taken** en vervolgens de actie **Projecttaken inspringen**.
@@ -65,7 +68,7 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 
 **Opmerking**. Tijdens het invoeren van gegevens op projectplanningsregels worden de kostprijsgegevens automatisch ingevuld. De kosten, de prijs en de korting voor resources en artikelen zijn bijvoorbeeld in eerste instantie gebaseerd op de gegevens die op de resource- en artikelkaarten staan.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende projectkaart.
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
 4. Vul in het venster **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
@@ -75,6 +78,6 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  
 [Inkoop](purchasing-manage-purchasing.md)         
-[Verkopen](sales-manage-sales.md)      
+[Verkoop](sales-manage-sales.md)      
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

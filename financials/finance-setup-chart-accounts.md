@@ -1,6 +1,6 @@
 ---
-title: De rekeningschema&quot;s instellen| Microsoft Docs
-description: Beschrijft hoe u het rekeningschema wijzigt.
+title: De rekeningschema's instellen| Microsoft Docs
+description: U wijzigt de standaardrekeningen in het rekeningschema en u kunt nieuwe rekeningen toevoegen.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 48202a9e9a763dcb22bed9975aa9c4a39d2dc4ae
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Echter, kunt u de standaardrekeningen wijzigen en u kunt nieuwe rekeningen toevo
 ## <a name="adding-or-changing-accounts"></a>Rekeningen toevoegen of wijzigen
 Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen.
 
-**Opmerking**: u kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
+> [!NOTE]  
+>   U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
 
 * Het saldo op de rekening moet nul zijn.  
 * Het veld **Grootboekrek.-verwijdering toestaan voor** moet zijn ingesteld in het venster **Grootboekinstelling** en de rekening mag geen grootboekposten op of na die datum hebben.  
@@ -38,7 +39,7 @@ Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen t
 ## <a name="see-also"></a>Zie ook
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)  
-[Dimensies](finance-dimensions.md)  
+[Werken met dimensies](finance-dimensions.md)  
 [Importeren uit andere financiële systemen](upload-data.md)  
 [Procedure: Met GIFI-codes werken in Canada](ca-finance-work-gifi-codes.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

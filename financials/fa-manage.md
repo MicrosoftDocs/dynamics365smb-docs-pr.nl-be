@@ -1,6 +1,6 @@
 ---
-title: Vaste activa| Microsoft Docs
-description: Hierin wordt beschreven hoe u vaste activa kunt beheren.
+title: Vaste activa beheren| Microsoft Docs
+description: Leren over de vaste-activafunctionaliteit in Financials en een overzicht krijgen van hoe u met vaste activa werkt.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d57603202d9e2e5304c899eaf764dde8cfa6369d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,11 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 
 Elk vast activum kan aan een of meer verzekeringspolissen zijn gekoppeld. Op deze manier kunt u gemakkelijk nagaan of de bedragen in de verzekeringspolis overeenkomen met de waarde van de activa die aan de polis zijn gekoppeld. Hierdoor kunt u bovendien de jaarpremies controleren.
 
-**Opmerking**: u kunt de transacties voor vaste activa registreren in het venster **Financieel dagboek voor vaste activa** of in het venster **Dagboek voor vaste activa**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven. Zie [Procedure: Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
+> [!NOTE]  
+>   U kunt transacties voor vaste activa registreren in het venster **VA fin. dagboek** of in het venster **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven. Zie [Procedure: Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
-**Opmerking**: voor deze functionaliteit is vereist dat uw ervaring is ingesteld op **Pakket**. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.
+> [!NOTE]  
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 Voordat u vaste activa gaat beheren, moet u standaardwaarden, boekhouding voor vaste activa, boekingsgroepen, verdeelsleutels, dagboeken en boekingssoorten instellen. Zie [Vaste activa instellen](fa-setup.md) voor meer informatie.
 
@@ -54,7 +56,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Vaste activa instellen](fa-setup.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
 [Financiën](finance.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

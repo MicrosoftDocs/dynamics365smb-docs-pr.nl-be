@@ -1,6 +1,6 @@
 ---
-title: Rapportlay-outs beheren | Microsoft Docs
-description: Leren over over rapportlay-outs.
+title: Werken met aangepaste en ingebouwde lay-outs voor rapporten en documenten | Microsoft Docs
+description: Gebruik rapportlay-outs om documenten aan te passen, bijvoorbeeld om het lettertype of logo aan te passen of pagina-instellingen of PDF-bestanden die u naar klanten verzendt.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
 
-**Opmerking:** In [!INCLUDE[d365fin](includes/d365fin_md.md)] omvat de term“rapport“ ook documenten die extern worden verspreid, zoals verkoopfacturen en orderbevestigingen die u aan klanten als pdf-bestanden verzendt.
+> [!NOTE]  
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)] omvat de term 'rapport' ook documenten die extern worden verspreid, zoals verkoopfacturen en orderbevestigingen die u aan klanten als pdf-bestanden verzendt.
 
 Met een rapportlay-out wordt met name het volgende ingesteld:
 

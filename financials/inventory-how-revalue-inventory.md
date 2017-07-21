@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Voorraad herwaarderen| Microsoft Docs'
-description: Beschrijft hoe u de waarde vermeerdert of vermindert van een of meer artikelen in voorraad door de huidige, berekende waarde ervan te boeken.
+title: Nieuwe waardeposten maken voor artikelen in de voorraad| Microsoft Docs
+description: Beschrijft hoe u de waardeposten vermeerdert of vermindert van een of meer artikelen in de voorraad door de huidige, berekende waarde ervan te boeken.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0f7137b3ac4e2c68c1c9a9b94b3ba73e0438a4a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1935f53db068047921e44109cd4b23bbb51f0890
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een bepaalde artikelpost wilt vermeerderen of verminderen.
 
 ## <a name="to-revalue-inventory"></a>Voorraad herwaarderen
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Herwaarderingsdagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Herwaarderingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Voorraadwaarde berekenen**.
 3. Vul in het venster **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **Ok**.

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials gebruiken in Microsoft Flow | Microsoft Docs
-description: U kunt uw Financials-gegevens als gegevensbron beschikbaar maken in PowerApps.
+title: Uw gegevens verbinden met Flow| Microsoft Docs
+description: U kunt uw Financials-gegevens als gegevensbron beschikbaar maken en een OData-URL van uw webservices opgeven om een geautomatiseerde werkstroom te maken.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 03/15/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 76d24ed80adb08083c6167040be8cc6a4bcc3167
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-in-microsoft-flow"></a>Dynamics 365 for Financials gebruiken in Microsoft Flow
+# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
 U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.  
 
-**Opmerking**: u moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.  
+> [!NOTE]  
+>   U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron in Flow toevoegen
 1. Navigeer in uw browser naar [flow.microsoft.com](https://flow.microsoft.com/en-us/) en meld u aan.
@@ -46,9 +47,9 @@ U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van
 Nu hebt u met succes een verbinding gemaakt met uw Dynamics 365-gegevens en kunt u uw Flow gaan maken. Zie de [Flow-documentatie](https://flow.microsoft.com/documentation/getting-started/) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md)  
+[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Financiën](finance.md)  
 

@@ -1,7 +1,6 @@
 ---
-title: Dynamics 365 for Financials aanpassen met extensies | Microsoft Docs
-description: Dynamics 365 for Financials aanpassen met extensies
-services: project-madeira
+title: Extensies installeren om Dynamics 365 for Financials aan te passen | Microsoft Docs
+description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Dynamics 365 for Financials door extensies te installeren.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.search.keywords: app, add-in, manifest, customize
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1de01d9944489f862dfc6db145c1542c3d0dd2e3
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,13 +28,15 @@ Maar als er een andere extensie beschikbaar komt die integratie met een andere b
 
 U beheert de extensies in het venster **Extensiebeheer**. U kunt tot dit venster toegang krijgen via de startpagina. U kunt ook in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport") kiezen. Voer vervolgens **Extensie** in en klik op de gerelateerde koppeling.  
 
-**Opmerking**: Als u denkt u dat toegang tot een extensie zou moeten hebben maar de functionaliteit ervan niet vindt, kijk dan in het venster **Extensiebeheer**. Als de extensie daar niet wordt vermeld, kunt u de extensie installeren zoals beschreven in het volgende gedeelte.  
+> [!NOTE]  
+>   Als u denkt u dat toegang tot een extensie zou moeten hebben maar de functionaliteit ervan niet vindt, kijk dan in het venster **Extensiebeheer**. Als de extensie daar niet wordt vermeld, kunt u de extensie installeren zoals beschreven in het volgende gedeelte.  
 
 ## <a name="installing-an-extension"></a>Een extensie installeren
-U kunt nieuwe extensies verkrijgen via de marktplaats op [AppSource.microsoft.com](https://appsource.microsoft.com/). Hier kunt u alle beschikbare extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken en kunt u apps, extensies en inhoudpakketten voor andere Microsoft-producten verkrijgen. Stel de gewenste filters in, bekijk de gegevens voor elke extensie en haal een extensie voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)] op.  
-**Opmerking:** meld u aan bij [AppSource.microsoft.com](https://appsource.microsoft.com/) met de e-mailaccount die u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
+U kunt nieuwe extensies verkrijgen via de marktplaats op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Hier kunt u alle beschikbare extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken en kunt u apps, extensies en inhoudpakketten voor andere Microsoft-producten verkrijgen. Stel de gewenste filters in, bekijk de gegevens voor elke extensie en haal een extensie voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)] op.  
+> [!NOTE]  
+>   Meld u bij [AppSource.microsoft.com](https://appsource.microsoft.com/) aan met het e-mailaccount dat u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
 
-U kunt ook naar de marktplaats gaan vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. In het venster **Extensiebeheer** kunt u de extensies bekijken die momenteel zijn geïnstalleerd en kunt u de pagina **Extensiemarktplaats** openen waarop de extensies van [!INCLUDE[d365fin](includes/d365fin_md.md)] worden weergegeven die momenteel beschikbaar zijn in AppSource. Als u de koppeling *Meer apps* kiest, komt u terecht op [AppSource.microsoft.com](https://appsource.microsoft.com/).  
+U kunt ook naar de marktplaats gaan vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. In het venster **Extensiebeheer** kunt u de extensies bekijken die momenteel zijn geïnstalleerd en kunt u de pagina **Extensiemarktplaats** openen waarop de extensies van [!INCLUDE[d365fin](includes/d365fin_md.md)] worden weergegeven die momenteel beschikbaar zijn in AppSource. Als u de koppeling *Meer apps* kiest, komt u terecht op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Als u een extensie kiest, kunt u lezen over wat de extensie doet en kunt u Help opvragen voor de extensie voor meer informatie. Wanneer u een extensie wilt verkrijgen, moet u akkoord gaan met de gebruiksvoorwaarden. Als u de extensie van de AppSource-website ophaalt, wordt u aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)] om de installatie uit te voeren.  
 
@@ -57,13 +58,20 @@ Microsoft biedt de volgende extensies:
 * [Quickbooks-salarisbestand importeren](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
+* [Accountantportal](ui-extensions-accountant-portal.md)  
+* [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Zie ook
 [Procedure: De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)  
 [Procedure: Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
 [de extensie GetAddress.io UK Postcode instellen](uk-setup-postal-code-service.md)  
-[Extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] van andere providers] (ui-extensions-other.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

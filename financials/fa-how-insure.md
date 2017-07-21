@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Vaste activa verzekeren| Microsoft Docs'
-description: Beschrijft hoe u een vast activum kunt verzekeren.
+title: Vaste activa verzekeren| Microsoft Docs
+Description: U kunt een vast activum aan een verzekeringspolis toewijzen, die wordt vertegenwoordigd door een verzekeringskaart.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4d7a2037327d362b6ef191d948c521576c9e04d1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,7 +29,8 @@ Daarnaast kunt u een vast activum koppelen aan een verzekeringspolis en dekkings
 
 Als het selectievakje **Autom. verzekering boeken** in het venster **VA-instellingen** niet is ingeschakeld, worden door aanschaf te boeken in het financieel dagboek voor vaste activa, regels gemaakt in het venster **Verzekeringsdagboek**. Deze moet u dan handmatig boeken.
 
-**Waarschuwing**: als u het selectievakje **Autom. verzekering boeken** niet inschakelt in het venster **VA-instellingen**, moet uw verzekeringsdagboek op een dagboeksjabloon zonder een nummerreeks worden gebaseerd. Dit komt doordat de ingevoegde documentnummers van de dagboekregel voor vaste activa anders in strijd zijn met de nummerreeks van het verzekeringsdagboek. Zie [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie over dagboeksjablonen en -batches.
+> [!WARNING]  
+>   Als u het selectievakje **Autom. verzekering boeken** niet inschakelt in het venster **VA-instellingen**, moet uw verzekeringsdagboek op een dagboeksjabloon zonder een nummerreeks worden gebaseerd. Dit komt doordat de ingevoegde documentnummers van de dagboekregel voor vaste activa anders in strijd zijn met de nummerreeks van het verzekeringsdagboek. Zie [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie over dagboeksjablonen en -batches.
 
 Nadat u een vast activum aan een verzekeringspolis hebt toegewezen, wordt het selectievakje **Verzekerd** ingeschakeld voor het vaste activum. Wanneer u het vaste activum verkoopt, wordt het selectievakje automatisch uitgeschakeld.
 
@@ -38,7 +39,7 @@ Een verzekeringspolis voor een vast activum moet worden vertegenwoordigd door ee
 
 Als u informatie ontvangt over wijzigingen in het verzekerde bedrag, moet u de nieuwe informatie in het venster **Verzekering** invoeren om ervoor te zorgen dat u de verzekeringspolisdekking juist analyseert.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe kaart voor een verzekeringspolis te maken. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. U kunt ook de verzekeringspolis selecteren die u wilt wijzigen en vervolgens de actie **Bewerken** kiezen.
 
@@ -47,24 +48,26 @@ U wijst een vast activum aan een verzekeringspolis toe door het naar de verzeker
 
 In de volgende procedure wordt uitgelegd hoe u een verzekeringsdagboekregel handmatig maakt. Als het selectievakje **Autom. verzekering boeken** in het venster **VA-instellingen** is ingeschakeld, worden er automatisch verzekeringsdagboekregels gemaakt wanneer u aanschafkosten boekt. In dat geval hoeft u alleen het dagboek te boeken.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het relevante dagboek en vul indien nodig de dagboekregels in.  
-3. Als u meerdere vaste activa wilt toewijzen aan één verzekeringspolis, maakt u dagboekregels met dezelfde waarde in het veld **Verzekeringsnr.** veld en verschillende waarden in **VA-nr.** in.  
+3. Als u meerdere vaste activa wilt toewijzen aan één verzekeringspolis, maakt u dagboekregels met dezelfde waarde in het veld **Verzekeringsnr.** veld en verschillende waarden in **VA-nr.** veld.  
 4. Kies de actie **Boeken**.  
 
-    **Opmerking**: de posten van een verzekeringsdagboek worden uitsluitend naar dekkingsposten geboekt.  
+    > [!NOTE]  
+>   De posten uit een verzekeringsdagboek worden uitsluitend naar dekkingsposten geboekt.  
 
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>De verzekeringswaarde van een vast activum bijwerken
 Met de batchverwerking **Verzekering indexeren** kunt u de waarde wijzigen van de vaste activa die onder de dekking vallen.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekering indexeren** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekering indexeren** in en kies vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de velden in.
 
-    **Opmerking**: voer in het veld **Indexcijfer** een afname van 5% in, bijvoorbeeld als 95 terwijl u een toename van 2% als 102 invoert.  
+    > [!NOTE]  
+>   Voer in het veld **Indexcijfer** een afname van 5% in, bijvoorbeeld als 95 terwijl u een toename van 2% als 102 invoert.  
 3. Kies de knop **Ok**.  
 
    Met de batchverwerking wordt het nieuwe bedrag als een percentage van de totale verzekerde waarde berekend, zoals vermeld in het venster **Verzekeringsstatistiek**, en vervolgens wordt een regel in het verzekeringsdagboek gemaakt.  
-4. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+4. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 5. Open het relevante verzekeringsdagboek, controleer de gemaakte waarden en boek deze naar de dekkingsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Verzekeringsdekking controleren
@@ -90,13 +93,13 @@ U kunt controleren of u niet bent vergeten om een vast activum toe te wijzen aan
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Verzekeringsdekkingsposten bekijken
 Het is mogelijk om de posten te bekijken die u hebt gemaakt in de dekkingsposten.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de betreffende verzekeringspolis en kies vervolgens de actie **Verzekeringsdekkingsposten**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>De totale verzekerde waarde van vaste activa bekijken
 In een speciaal matrixvenster worden de verzekeringswaarden weergegeven die voor elke verzekeringspolis zijn geregistreerd voor elk vast activum als een resultaat van verzekeringsgerelateerde bedragen die u hebt geboekt.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de betreffende verzekeringspolis en kies vervolgens de actie **Totale verzekerde waarde per VA**.  
 3. Vul indien nodig de velden in.  
 4. Kies de actie **Matrix weergeven**.  
@@ -105,7 +108,7 @@ In een speciaal matrixvenster worden de verzekeringswaarden weergegeven die voor
 ## <a name="to-correct-insurance-coverage-entries"></a>Dekkingsposten corrigeren
 Als een vast activum is gekoppeld aan de verkeerde verzekeringspolis, kunt u dit corrigeren door twee herindelingsposten in het verzekeringsdagboek te maken.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak één dagboekregel voor een vast activum en de juiste verzekeringspolis waarvoor de waarde in het veld **Bedrag** positief is.  
 3. Maak een andere dagboekregel voor het vaste activum en de onjuiste verzekeringspolis waarvoor de waarde in het veld **Bedrag** negatief is.  
 4. Kies de actie **Boeken**.  

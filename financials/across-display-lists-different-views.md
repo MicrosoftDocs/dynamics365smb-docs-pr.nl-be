@@ -1,6 +1,6 @@
 ---
-title: Lijsten weergeven in verschillende weergaven | Microsoft Docs
-description: Lijsten weergeven in verschillende weergaven
+title: De hoeveelheid details aanpassen die u ziet in overzichten | Microsoft Docs
+description: U kunt gedetailleerde weergaven in lijsten weergegeven die meer informatie bieden, of als tekens die gemakkelijk visueel te scannen zijn.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 09/08/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0b5ce8ff631061dd2fafb685efb638947f8b6752
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="displaying-lists-in-different-views"></a>Lijsten weergeven in verschillende weergaven
+# <a name="displaying-lists-in-different-ways"></a>Lijsten weergeven op verschillende manieren
 In de rechterhoek van elke lijst in [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u pictogrammen waarmee u in de lijst kunt wisselen van weergave. Een lijst kan worden weergegeven als een gedetailleerde lijst. Dit is de standaardweergave. Maar u kunt ook naar een ´tegelweergave´ overschakelen. Hierin worden minder gedetailleerde gegevens over de specifieke record weergegeven en worden de items als tegels gestapeld. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat op elk item gemakkelijker kan worden getikt.
 
 ## <a name="items-list"></a>Artikeloverzicht

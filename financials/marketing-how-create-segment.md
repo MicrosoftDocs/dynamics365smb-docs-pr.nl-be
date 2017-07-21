@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Segmenten maken | Microsoft Docs'
-description: Beschrijft hoe u segmenten maakt voor contacten in Financials
+title: Segmenten maken | Microsoft Docs
+description: Beschrijft hoe u een segment maakt voor een groep contacten in Financials, bijvoorbeeld om verschillende contacten een direct mail te sturen.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2b251406c07881f8df502d67c0184a21d3e1f241
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 U kunt segmenten maken om een groep contacten te selecteren als u een interactie wilt maken voor verschillende contacten, bijvoorbeeld direct mail.
 
 ## <a name="to-create-a-segment"></a>Een segment maken
-1. Kies op de startpagina **Actieve segmenten**. Of kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en klik op de gerelateerde koppeling.
+1. Kies op de startpagina **Actieve segmenten**. Of kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het gedeelte **Algemeen** in het veld **Nr.** een nummer voor het segment in.
 

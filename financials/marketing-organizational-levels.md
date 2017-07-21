@@ -1,6 +1,6 @@
 ---
 title: Organisatieniveaus instellen voor contactpersonen | Microsoft Docs
-description: Beschrijft organisatieniveaus voor contacten in Financials
+description: "U kunt een organisatieniveau definiëren en aan uw contact toewijzen om de positie aan te geven die ze binnen hun bedrijf hebben, bijvoorbeeld directie."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bde26a2d5fcb7ec10dcd70fdd30c74893bcb34d5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-organizational-levels-for-contact-persons"></a>Organisatieniveaus instellen voor contactpersonen
+# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Procedure: Organisatieniveaus instellen voor contactpersonen
 U kunt organisatieniveaus voor uw contacten gebruiken om op te geven welke functie ze hebben in het bedrijf, bijvoorbeeld directie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
 
 Organisatieniveaus gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de organisatieniveaucode. U hoeft deze stap slechts eenmaal uit te voeren voor elk organisatieniveau. Als u een organisatieniveaucode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
@@ -28,7 +28,7 @@ Organisatieniveaus gebruiken voor contacten is een proces van twee stappen. Eers
 ## <a name="to-define-an-organizational-level-code"></a>Een organisatieniveaucode definiëren
 Het organisatieniveau bepaalt het type of de categorie van het organisatieniveau, bijvoorbeeld CEO of CFO. U kunt meerdere organisatieniveaucodes hebben. Als u het organisatieniveau wilt definiëren, gebruikt u het venster **Organisatieniveaus**.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Niveaus binnen de organisatie** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Organisatieniveaus** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Organisatieniveaus toewijzen aan een contactpersoon

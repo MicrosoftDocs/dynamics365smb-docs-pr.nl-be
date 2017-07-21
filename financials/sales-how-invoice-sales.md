@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Verkopen factureren | Microsoft Docs'
-description: Hierin wordt beschreven hoe u verkoopfacturen kunt gebruiken.
+title: Een verkoopfactuur of verkooporder maken | Microsoft Docs
+description: Beschrijft hoe u een koopbrief, of een verkoopfactuur of verkooporder maakt, om de overeenkomst met een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Procedure: Verkoopbewerkingen
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
 
-**Opmerking:** Er zijn enkele scenario's waarin u een verkooporder moet gebruiken in plaats van een verkoopfactuur:  
+> [!NOTE]  
+>   Er zijn enkele scenario's waarin u een verkooporder moet gebruiken in plaats van een verkoopfactuur:  
 
 * Als u slechts een deel van een bestelaantal moet verzenden, bijvoorbeeld omdat het totale aantal niet beschikbaar is.  
 * Als u artikelen verkoopt die uw leverancier rechtstreeks aan uw klant levert, via zogeheten doorverzending. Zie [Procedure: Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie.  
@@ -59,14 +60,15 @@ U kunt nu verkoopfactuurregels invullen voor producten die u aan de klant verkoo
 
 Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Terugkerende verkoopregels ophalen** te kiezen.  
 9. Selecteer op het sneltabblad **Regels** in het veld **Soort** het type product, kosten of transactie die u wilt boeken voor de klant met deze verkoopregel.
-10. Selecteer in het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
+10. Voer in het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
 
  Laat het veld **Nr.** leeg in de volgende gevallen: - Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
  - Als de regel voor een niet-voorraadartikel is. Kies de actie **Niet-voorraadartikelen selecteren**. Zie voor meer informatie [Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
 
 11. Voer in het veld **Aantal** hoeveel eenheden van het artikel, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
 
-    **Opmerking:** Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
+    > [!NOTE]  
+>   Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
 
     De waarde in het veld **Regelbedrag** wordt berekend als *Eenheidsprijs* x *Aantal*.  
 
@@ -91,5 +93,6 @@ Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het
 [Verkopen instellen](sales-setup-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Massaal factureren vanuit Microsoft Bookings in Dynamics 365 for Financials](finance-bookings.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

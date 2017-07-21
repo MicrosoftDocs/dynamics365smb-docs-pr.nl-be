@@ -1,6 +1,6 @@
 ---
-title: De extensie QuickBooks Data Migration | Microsoft Docs
-description: Bevat informatie over de extensie QuickBooks-gegevensmigratie
+title: De QuickBooks-extensie Migratie gebruiken | Microsoft Docs
+description: Beschrijft hoe u de extensie gebruikt om klanten, leveranciers, artikelen en rekeningen van QuickBooks Desktop naar Dynamics 365 Financials te importeren.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 860ee6b26071e8264deb68bec3b039f384c7be0f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 37d90316ea0be5489fb5abe33645de3fe0d3cf90
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,5 +37,5 @@ De geëxporteerde gegevens worden opgeslagen als een IIF-bestand dat u vervolgen
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
 

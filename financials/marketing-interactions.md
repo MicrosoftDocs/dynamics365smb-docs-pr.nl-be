@@ -1,6 +1,6 @@
 ---
-title: Interacties | Microsoft Docs
-description: Beschrijft het gebruik van interacties met contacten in Financials
+title: Interacties met uw contacten beheren | Microsoft Docs
+description: U kunt alle soorten communicatie of interactie tussen uw bedrijf en uw contacten beheren. Bijvoorbeeld brieven, telefoongesprekken, vergaderingen, enzovoort.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a423f5581f6803b60a0351d0b91f2c08ebafeba7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,17 +29,17 @@ Met het gebied relatiebeheer kunt u alle interactie registreren die u met uw con
 * Interacties maken voor contacten of segmenten  
 * Geregistreerde interacties weergeven en beheren  
 
-##  <a name="set-up-interaction-templates"></a>Interactiesjablonen instellen
+##  <a name="setting-up-interaction-templates"></a>Interactiesjablonen instellen
 Voordat u interacties kunt maken en registreren moet u interactiesjablonen instellen. Wanneer u interacties maakt, moet u de interactiesjablonen opgeven waarop de interacties zijn gebaseerd. Een interactiesjabloon is een model dat de basiskenmerken van een interactie definieert.
 U stelt een interactiesjabloon in het venster **Interactiesjablonen** in.  
 
-## <a name="create-interactions"></a>Interacties maken
+## <a name="creating-interactions"></a>Interacties maken
 Er zijn twee manieren om interacties te registreren:
 
 * U kunt handmatig  interacties maken die zijn gekoppeld aan een enkel contact of een segment. Zie voor meer informatie [Procedure: Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md).  
 * U kunt automatisch interacties registreren wanneer u acties uitvoert in de toepassing, bijvoorbeeld wanneer u een factuur of offerte afdrukt. Zie voor meer informatie [Automatisch interacties met contacten registreren](marketing-auto-record-interactions.md).
 
-## <a name="view-and-manage-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren
+## <a name="viewing-and-managing-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren
 U kunt alle geregistreerde interacties die niet zijn verwijderd, weergeven in het venster **Interactielogposten**. U kunt dit venster openen door:
 
 * Het pictogram **Zoeken naar pagina of rapport** gebruiken om te zoeken naar **Interactielogposten**.
@@ -51,7 +51,7 @@ In dit venster kunt u:
 * De status van interacties weergegeven.
 * Interacties markeren als geannuleerd.
 
-U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voert u **Geannuleerde interactielogposten verwijderen** in en kiest u vervolgens de gerelateerde koppeling. Vul de gewenste informatie in.
+U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Geannuleerde interactielogposten verwijderen** in en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

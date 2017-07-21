@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Verkoopretouren of annuleringen verwerken | Microsoft Docs'
-description: 'Procedure: Verkoopretouren of annuleringen verwerken'
+title: Een verkoopcreditnota gebruiken om verkoopretouren of annuleringen te verwerken | Microsoft Docs
+description: Beschrijft hoe u een verkoopcreditnota maakt om een retour, een annulering of terugbetaling te verwerken voor artikelen of diensten waarvoor u betaling hebt ontvangen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procedure: Verkoopretouren of annuleringen verwerken
 Als een klant artikelen of services wil retourneren of terugbetalingen wil krijgen voor artikelen of services die u aan de klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de juiste verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota maken op basis van de geboekte verkoopfactuur, of kunt u een kopieerfunctie gebruiken.  
 
-**Opmerking:** Als een geboekte verkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** voor de geboekte verkoopfactuur gebruiken om de betreffende transacties automatisch tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retouren of annuleringen. Zie [Procedure: Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) voor meer informatie.
+> [!NOTE]  
+>   Als een geboekte verkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** voor de geboekte verkoopfactuur gebruiken om transacties tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retouren of annuleringen. Zie [Procedure: Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) voor meer informatie.
 
 Naast de oorspronkelijke geboekte verkoopfactuur kunt u de verkoopcreditnota op andere verkoopdocumenten toepassen, bijvoorbeeld een andere geboekte verkoopfactuur, omdat de klant ook artikelen terugzendt die met die factuur zijn geleverd.
 
 Een retour of terugbetaling kan betrekking hebben op slechts enkele artikelen of services op de oorspronkelijke verkoopfactuur. In dat geval moet u gegevens over de regels op de verkoopcreditnota bewerken. Wanneer u de verkoopcreditnota boekt, worden de door de wijziging beïnvloede verkoopdocumenten tegengeboekt en een terugbetaling voor de klant worden gemaakt.  
 
-U kunt de geboekte verkoopcreditnota naar de klant verzenden om de retournering of annulering te bevestigen en mede te delen dat de betreffende waarde wordt terugbetaald, bijvoorbeeld wanneer de artikelen zijn geretourneerd.  
+U kunt de geboekte verkoopcreditnota naar de klant verzenden om de retournering of annulering te bevestigen en mede te delen dat de betreffende waarde wordt terugbetaald, bijvoorbeeld wanneer de artikelen zijn geretourneerd.
+
+De creditnotaboeking draait ook eventuele artikeltoeslagen terug die aan het geboekte document zijn toegewezen, zodat de waardeposten van het artikel hetzelfde zijn als voordat de artikeltoeslag is toegewezen.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopfacturen** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het venster **Geboekte verkoopfacturen** de geboekte verkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken**.
 
     De koptekst van de verkoopcreditnota bevat enkele gegevens uit de geboekte verkoopfactuur. U kunt deze gegevens bewerken, bijvoorbeeld met nieuwe gegevens die overeenkomen met de retourovereenkomst.  
@@ -54,7 +57,7 @@ Het dialoogvenster **Boeken en verzenden bevestigen** wordt geopend met de gepre
 De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu tegengeboekt en een terugbetaling kan worden gemaakt voor de klant. De verkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de lijst met geboekte verkoopcreditnota's.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>Een geheel nieuwe verkoopcreditnota maken
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopfacturen** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
 3. Voer in het veld **Klant** de naam in van een bestaande klant.
 4. Kies de actie **Document kopiëren**.

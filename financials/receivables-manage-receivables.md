@@ -1,6 +1,6 @@
 ---
-title: Tegoeden beheren | Microsoft Docs
-description: Tegoeden beheren
+title: Overzicht van taken om tegoeden te beheren | Microsoft Docs
+description: Beschrijft taken om tegoeden te beheren en betalingen te vereffenen met klanten- of leveranciersposten.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 03/29/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 62d59546331a5faa5ecb7aea0f9bb8dedea719f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 79b64e3cacdf582d4c1737b46dc197929b8a1450
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -41,7 +41,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Vereffen betalingen met openstaande klantposten op basis van handmatige invoer in een lijst met onbetaalde verkoopdocumenten. |[Procedure: Klantbetalingen van een lijst met onbetaalde verkoopdocumenten handmatig reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Boek ontvangsten of terugbetalingen voor klanten in het ontvangstendagboek en vereffen deze met klantposten via het dagboek of via geboekte posten. |[Procedure: Klantbetalingen handmatig reconciliëren](receivables-how-apply-sales-transactions-manually.md) |
 | Klanten te herinneren aan achterstallige bedragen, rente en rentefacturen te berekenen en rekeningen met vorderingen te beheren. |[Procedure: Openstaande saldi innen](receivables-collect-outstanding-balances.md) |
-
+|Zorg dat u de kosten van verzonden artikelen kent door toegevoegde artikelkosten op te tellen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt nadat u hebt verkocht.|[Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

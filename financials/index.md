@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,16 +33,17 @@ Raadpleeg voor enkele snelle, handige trucs:
 * [Filters instellen](ui-enter-criteria-filters.md)  
 * [Gegevens in lijsten sorteren](ui-sorting.md)  
 
-Zie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) voor meer informatie.  
+Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
 Als u klaar bent voor het serieuzere werk, en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](madeira-business-functionality.md). Voor een overzicht van actuele mogelijkheden en toekomstige mogelijkheden bekijkt u onze routekaart via [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>De startpagina's
 Op startpagina´s wordt een op rolcentrumontwerp gebruikt om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende startpagina´s door het pictogram **Instellingen** te kiezen! ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het Rolcentrum om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie [Het rolcentrum wijzigen](change-role.md) voor meer informatie.  
 
-Elke startpagina bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md) voor meer informatie.  
+Elke startpagina bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
 
-**Opmerking:** de lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Pakket**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.  
+> [!NOTE]  
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Pakket**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
 
 In het venster **Begeleide instelling** vindt u het volgende in de **Pakket**-ervaring:
 
@@ -72,11 +73,11 @@ Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende ti
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md)  
+[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Financiën](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](madeira-outlook.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Microsoft Dynamics 365-documentatie](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

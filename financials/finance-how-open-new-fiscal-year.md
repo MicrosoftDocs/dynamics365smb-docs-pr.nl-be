@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Een nieuw boekjaar openen| Microsoft Docs'
-description: Beschrijft hoe u boekperioden opent.
+title: Een nieuw boekjaar openen| Microsoft Docs
+description: "U moet een boekjaar openen en boekhoudperioden definiëren voordat u in een boekjaar kunt boeken."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 02bd101bca987d30730766531687738f8e5f7d81
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Voordat u naar een boekjaar kunt boeken, moet u het boekjaar openen en de boekhoudperioden opgeven.
 
 ## <a name="to-open-a-new-fiscal-year"></a>Een nieuw boekjaar openen
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Boekingsperioden** de actie **Nieuw jaar**.
 3. Vul de velden in om de structuur van het boekjaar te definiëren.
 

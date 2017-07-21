@@ -1,6 +1,6 @@
 ---
-title: Toeleveringsketen | Microsoft Docs
-description: Leren over belangrijke concepten en processen voor de toeleveringsketen.
+title: Toeleveringsketenfuncties die worden ondersteund door Financials | Microsoft Docs
+description: Een productoverzicht krijgen en leren over belangrijke toeleveringsketenconcepten en -processen die deel uitmaken van de ERP-oplossing.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Toeleveringsketen
+# <a name="overview-of-supply-chain-functionality"></a>Overzicht van toeleveringsketenfunctionaliteit
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt gebruikelijke leveringsketenprocessen, hoewel beperkt tot de vereisten van groothandels- en distributiebedrijven zonder beheerde magazijnverwerking.
 
 Naast verkoopfactuurdocumenten kunt u uw orderafhandeling beheren met verkooporders, zodat u onderdelen van een orderaantal kunt verzenden, bijvoorbeeld omdat het volledige aantal niet in één keer beschikbaar is. U kunt artikelen direct laten doorverzenden van een leverancier naar een klant door de verkooporder te koppelen aan de gerelateerde inkooporder.
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Als u dit wilt doen | Zie |
 | --- | --- |
 | Registreer nieuwe klanten, maak verkoopaanbiedingen, verkoop producten of facturen, bijvoorbeeld als doorverzendingen, en beheer verkoopretouren. |[Verkoop](sales-manage-sales.md) |
-| Registreer nieuwe leveranciers, koop producten op orders of facturen in, bijvoorbeeld gestart vanuit een verkoopfactuur, en beheer verkoopretouren. |[Inkoop](purchasing-manage-purchasing.md) |
+| Registreer nieuwe leveranciers, koop artikelen op orders of facturen in, bijvoorbeeld gestart vanuit een verkoopfactuur, en beheer verkoopretouren. |[Inkoop](purchasing-manage-purchasing.md) |
 | Registreer nieuwe fysieke of serviceproducten, pas voorraadaantallen aan en beheer de voorraadwaarde door aangepaste kosten naar het grootboek te boeken. |[Voorraad](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>Zie ook

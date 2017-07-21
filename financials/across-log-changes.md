@@ -1,6 +1,6 @@
 ---
-title: Wijzigingen in Dynamics 365 for Financials registreren | Microsoft Docs
-description: Door gebruikers aangebrachte wijzigingen registreren.
+title: Gebruikersactiviteit bijhouden in een wijzigingslogbestand| Microsoft Docs
+Description: U kunt een gebruikerslogboek activeren zodat u een historie hebt van eventuele wijzigingen in gegevens in getraceerde tabellen.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 03/04/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 470931febc303ace8fa1e8015453c20b587762b0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

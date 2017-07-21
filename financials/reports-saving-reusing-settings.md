@@ -1,6 +1,6 @@
 ---
-title: Opgeslagen instellingen in rapporten
-description: Beschrijft hoe u opgeslagen instellingen gebruikt in rapporten.
+title: Opgeslagen instellingen wijzigen en toepassen | Microsoft Docs
+description: Beschrijft het gebruik van vooraf gedefinieerde opties en filters om een lijst aan te passen en de juiste gegevens te genereren.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 12/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7afbd31e77a4f53ee99fbb192dd8a32a660f87eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e5f7417579a5ba0629032cf9fa664e0060b9cbf
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ U kunt de opgeslagen instellingen die beschikbaar voor u zijn voor een rapport, 
 ## <a name="administer-saved-report-settings-for-users"></a>Opgeslagen rapportinstellingen beheren voor gebruikers
 Als u de juiste machtigingen hebt, kunt u de opgeslagen instellingen voor alle gebruikers in een bedrijf weergeven, maken en wijzigen. U kunt opgeslagen instellingen voor een rapport toewijzen aan afzonderlijke gebruikers of aan alle gebruikers in het bedrijf.
 
-U beheert opgeslagen instellingen vanaf pagina 1506 **Rapportinstellingen**. Om deze pagina te openen, kiest u in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rapportinstellingen** in en klik op de gerelateerde koppeling.
+U beheert opgeslagen instellingen vanaf pagina 1506 **Rapportinstellingen**. Als u deze pagina wilt openen, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Rapportinstellingen** in en kiest u vervolgens de gerelateerde koppeling.
 
 Vanaf de pagina **Rapportinstellingen** kunt u nieuwe instellingen maken of kunt u een kopie maken en bestaande instellingen wijzigen. Om de opties en filters voor een instelling te wijzigen, kiest u de actie **Bewerken**.
 

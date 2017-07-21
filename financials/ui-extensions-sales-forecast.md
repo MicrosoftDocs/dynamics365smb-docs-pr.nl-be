@@ -1,6 +1,6 @@
 ---
-title: Verkoop- en voorraadprognose | Microsoft Docs
-description: Bevat informatie over de extensie Verkoop- en voorraadprognose.
+title: De extensie Verkoop- en voorraadprognose gebruiken om voorraad te beheren | Microsoft Docs
+description: Deze extensie helpt verkopen voorspellen om een duidelijk overzicht te krijgen van verwachte nulvoorraden en helpt u zelfs aanvullingsorders voor leveranciers te maken.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ebaea8b98264e981f9ad2e0abda592e2e4a72427
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,5 +34,5 @@ U kunt de extensie ook gebruiken om voorstellen te doen met betrekking tot bevoo
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 

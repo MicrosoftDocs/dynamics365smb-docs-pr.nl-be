@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Producten verkopen | Microsoft Docs'
-description: Hierin wordt beschreven hoe u verkooporders kunt gebruiken.
+title: Een verkooporder maken en producten verkopen | Microsoft Docs
+description: Beschrijft hoe u een verkooporder maakt om uw overeenkomst vast te leggen met een klant om producten onder bepaalde voorwaarden te verkopen of te verhandelen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 03/09/2017
+ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a587a9eab63223f7fab94bc4f513d2b6816f0d14
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7516e79a7cd5585629bb39ac7d97a4e6ba929712
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-sell-products"></a>Procedure: Producten verkopen
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
 
-**Opmerking**: u gebruikt verkooporders als uw verkoopproces vereist dat u delen van een orderhoeveelheid kunt verzenden, bijvoorbeeld omdat de volledige hoeveelheid niet in één keer beschikbaar is. Als u artikelen verkoopt door rechtstreeks van uw leverancier bij de klant te leveren, als een doorverzending, moet u ook verkooporders gebruiken. Zie [Procedure: Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie. Wat betreft alle andere aspecten werken verkooporders op dezelfde manier als verkoopfacturen. Zie [Procedure: Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
+> [!NOTE]  
+>   U gebruikt verkooporders als uw verkoopproces vereist dat u delen van een orderhoeveelheid kunt verzenden, bijvoorbeeld omdat de volledige hoeveelheid niet in één keer beschikbaar is. Als u artikelen verkoopt door rechtstreeks van uw leverancier bij de klant te leveren, als een doorverzending, moet u ook verkooporders gebruiken. Zie [Procedure: Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie. Wat betreft alle andere aspecten werken verkooporders op dezelfde manier als verkoopfacturen. Zie [Procedure: Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 
 U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkooporder wanneer er een overeenkomst is. Zie [Procedure: Voorstellen maken](sales-how-make-offers.md) voor meer informatie.
 
@@ -61,7 +62,8 @@ U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van 
 9. Voer op het sneltabblad **Regels** in het veld **Artikel** het nummer van een voorraadartikel of een service in.  
 10. Geef in het veld **Aantal** op hoeveel artikelen u wilt verkopen.
 
-    **Opmerking**: voor artikelen van de soort Service is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.
+    > [!NOTE]  
+>   Voor artikelen van de soort Service is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.
 
     Het veld **Regelbedrag** wordt bijgewerkt met de waarde in het veld **Eenheidsprijs**, vermenigvuldigd met de waarde in het veld **Aantal**.
 
@@ -88,9 +90,10 @@ U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van 
     Laat het veld **Nr.** leeg in de volgende gevallen: - Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
     - Als de regel voor een niet-voorraadartikel is. Kies de actie **Niet-voorraadartikelen selecteren**. Zie voor meer informatie [Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
 
-11. Voer in het veld **Aantal** hoeveel eenheden van het artikel, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
+11. Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
 
-    **Opmerking:** Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
+    > [!NOTE]  
+>   Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
 
     De waarde in het veld **Regelbedrag** wordt berekend als *Eenheidsprijs* x *Aantal*.  
 

@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: Klantbetalingen via betalingsservices inschakelen | Microsoft Docs'
+title: Klantbetalingen via betalingsservices inschakelen | Microsoft Docs
 description: Maak het makkelijker voor klanten om facturen te betalen, door betalingsservices in te schakelen.
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 769fd885e5c6070f8a4f6c9082900ea7f5f6ab8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 49e75c5f43b495bfc053c58b27e06feace62971c
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Nadat u een betalingsservice hebt ingeschakeld in [!INCLUDE[d365fin](includes/d3
 De extensies PayPal Payments Standard en WorldPay Payments Standard zijn geïnstalleerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] en u hoeft ze alleen maar in te schakelen.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Een betalingsservice inschakelen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Betalingsservices** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsservices** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Betalingsservices** de actie **Nieuw**.  
 3. Selecteer de betalingsservice en sluit vervolgens het venster.  
 4. Kies in het venster **Betalingsservices** de actie **Instellen**.  
@@ -40,11 +40,12 @@ De extensies PayPal Payments Standard en WorldPay Payments Standard zijn geïnst
 2. Open de verkoopfactuur die u wilt betalen door middel van de betalingsservice.  
 3. Kies in het veld **Betalingsservice** de gewenste betalingsservice.  
   
-    **Opmerking:** Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
+    > [!NOTE]  
+>   Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
 
 ## <a name="see-also"></a>Zie ook  
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

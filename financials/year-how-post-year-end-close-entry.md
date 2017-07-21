@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Jaareinde-ultimopost boeken | Microsoft Docs'
-description: Hierin wordt uitgelegd hoe u de jaareinde-ultimopost boekt.
+title: Jaareinde-ultimopost controleren en boeken | Microsoft Docs
+description: Beschrijft hoe u het dagboek opent dat u hebt opgegeven in de batchverwerking Afsluiten WenV-rekening en vervolgens de jaareinde-ultimopost controleert en boekt.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,23 +13,24 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe04f75ed84a959cbacd9e9d4806d43d41186edb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-post-year-end-closing-entry"></a>Procedure: Jaareinde-ultimopost boeken
+# <a name="how-to-post-the-year-end-closing-entry"></a>Procedure: de jaareinde-ultimopost boeken
 Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Diversendagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Diversendagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Diversendagboek** in het veld **Batchnaam** de batch die de ultimoposten bevat.
 3. Controleer de posten.
 4. Kies de actie **Boeken** om het dagboek te boeken.
 
-**Opmerking**: als een fout wordt gedetecteerd, wordt een foutbericht weergegeven. Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald. Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.
+> [!NOTE]  
+>   Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven. Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald. Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.
 
 ## <a name="see-also"></a>Zie ook
 [Procedure: Boekhoudperioden afsluiten](year-close-account-periods.md)  

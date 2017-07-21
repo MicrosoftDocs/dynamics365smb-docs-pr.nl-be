@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Uitgebreide artikeltekst instellen | Microsoft Docs'
-description: Beschrijft hoe u uitgebreide tekst instelt.
+title: "Extra regels toevoegen om uitgebreide tekst te definiëren voor een artikelbeschrijving | Microsoft Docs"
+description: U kunt extra regels toevoegen om de standaardtekst uit te breiden die een artikel beschrijft.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6974e57f7969fa41731d59ffd12ad6c4a3af35eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 147ce327e3a30f27166fb44226fa60c1e15721c4
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

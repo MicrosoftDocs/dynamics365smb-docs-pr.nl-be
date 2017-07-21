@@ -1,6 +1,6 @@
 ---
-title: Uw klantrelaties beheren met Dynamics 365 for Sales vanuit Dynamics 365 for Financials | Microsoft Docs
-description: "Als u Dynamics 365 for Sales gebruikt voor contacten met klanten, kunt u Dynamics 365 for Financials gebruiken voor orderverwerking en financiën en profiteren van naadloze integratie in het proces van potentiële klant naar inkomsten."
+title: Klanten beheren met Dynamics 365 for Sales| Microsoft Docs
+description: "U kunt 365 Dynamics for Sales vanuit Dynamics 365 for Financials gebruiken om gegevens te koppelen en naadloze integratie en synchronisatie te hebben in het potentiële klant-naar-contanten proces."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Uw klantrelaties beheren met Dynamics 365 for Sales vanuit Dynamics 365 for Financials
@@ -23,16 +23,19 @@ Als u Dynamics 365 for Sales gebruikt voor contacten met klanten, kunt u [!INCLU
 
 Als uw toepassing is ingesteld voor integratie met Dynamics 365 for Sales, hebt u toegang tot gegevens in Sales vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] en in sommige gevallen ook andersom. Dankzij deze integratie kunt u werken met gegevenstypen die voor beide services worden gebruikt, zoals klanten, contacten en verkoopinformatie, deze gegevenstypen synchroniseren en de gegevens in beide locaties up-to-date houden.  
 
-**Opmerking:** In de huidige versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt Dynamics 365 for Sales ook wel Dynamics CRM genoemd. Omwille van de overzichtelijkheid wordt in de rest van dit artikel de terminologie aangehouden die wordt gebruikt in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   In de huidige versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt Dynamics 365 for Sales ook wel Dynamics CRM genoemd. Omwille van de overzichtelijkheid wordt in de rest van dit artikel de terminologie aangehouden die wordt gebruikt in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 De verkoper in Dynamics CRM kan bijvoorbeeld prijslijsten van [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken bij het opstellen van een verkooporder. Als hij het artikel toevoegt aan de verkooporderregel in Dynamics CRM, kan hij ook het voorraadniveau (de beschikbaarheid) van het artikel zien vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze informatie wordt gepubliceerd als onderdeel van de begeleide instelling **Dynamics CRM-verbinding instellen**.  
 
-**Opmerking**: voor deze functionaliteit is vereist dat uw ervaring is ingesteld op **Pakket**. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.  
+> [!NOTE]  
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>De verbinding instellen
 Vanaf de startpagina kunt u de begeleide instelling **Dynamics CRM-verbinding instellen** starten, die u helpt bij het instellen van de verbinding. Als dat is uitgevoerd, hebt u een naadloze koppeling tussen records in Dynamics CRM en records in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-**Opmerking:** Hierna wordt de begeleide instelling toegelicht, maar u kunt dezelfde stappen ook handmatig uitvoeren in het venster **Instellingen CRM-verbinding**.
+> [!NOTE]  
+>   Hierna wordt de begeleide instelling toegelicht, maar u kunt dezelfde stappen ook handmatig uitvoeren in het venster **Instellingen CRM-verbinding**.
 
 In de begeleide instelling kunt u kiezen welke gegevens tussen de twee services moeten worden gesynchroniseerd. U kunt ook opgeven dat u uw bestaande Dynamics CRM-oplossing wilt importeren. In dat geval moet u een beheeraccount opgeven.
 
@@ -67,7 +70,8 @@ In bepaalde gebieden koppelt de functie waar u gebruik van maakt bepaalde gegeve
 * Artikelen en resourceprijzen  
   * Koppel klantenprijsgroepen eerst aan Dynamics CRM-prijzen  
 
-**Opmerking:** Als u prijzen in een vreemde valuta gebruikt, moet u ervoor zorgen dat u valuta's koppelt aan transactievaluta in Dynamics CRM.
+> [!NOTE]  
+>   Als u prijzen in een vreemde valuta gebruikt, moet u ervoor zorgen dat u valuta's koppelt aan transactievaluta in Dynamics CRM.
 
 Verkooporders in Dynamics CRM zijn afhankelijk van aanvullende informatie zoals klanten, eenheden, valuta, klantenprijsgroepen, artikelen en/of resources. Om verkooporders in Dynamics CRM naadloos te laten werken, moet u eerst klanten, eenheden, valuta, klantprijsgroepen, artikelen en/of resources koppelen.
 

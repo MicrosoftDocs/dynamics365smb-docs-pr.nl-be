@@ -1,6 +1,6 @@
 ---
-title: Verkopen instellen | Microsoft Docs
-description: Hierin wordt beschreven hoe u verkoopprocessen kunt instellen.
+title: Overzicht van taken om verkoopprocessen te configureren | Microsoft Docs
+description: "Schetst taken om regels en waarden in te stellen om uw verkoopbeleid en -processen te definiëren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 03/29/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1c7625953d74d48e917a29b0d2748fa015527aa8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,6 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 | Maak een klantenkaart voor elke klant aan wie u verkoopt. |[Procedure: Nieuwe klanten registreren](sales-how-register-new-customers.md) |
 | Bied klanten de mogelijkheid om via PayPal te betalen door het PayPal-logo op verkoopdocumenten te kiezen. |[Procedure: Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) |
 | Het invoeren van de verschillende kortingen en speciale prijzen voor de klanten afhankelijk van artikel, aantallen en/of datum. |[Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Leer hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de winst op handel optimaliseert als u speciale prijs en kortingsovereenkomsten registreert.|[Geavanceerd: De beste prijs berekenen](advanced-best-price-calculation.md) |
 | Stel verkopers in zodat u ze kunt toewijzen aan klantcontactpersonen of meet de prestaties van verkopers als basis om de commissie of bonus voor verkopen te berekenen. |[Procedure: Verkopers instellen](sales-how-setup-salespeople.md) |
 | Geef voor individuele klanten of voor alle klanten op hoe verkoopdocumenten standaard worden verzonden wanneer u de actie **Boeken en verzenden** kiest. |[Procedure: Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) |
 | Stel uw e-mail zo in dat deze een overzicht bevat van informatie in het verkoopdocument dat wordt verzonden. |[Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md). |

@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Nieuwe leveranciers registreren | Microsoft Docs'
-description: Leren hoe u leveranciers aan Financials toevoegt.
+title: Een klantenkaart maken om nieuwe klanten te registreren | Microsoft Docs
+description: Meer informatie over hoe u een leverancierskaart maakt om een nieuwe leverancier te registreren.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Voordat u nieuwe leveranciers kunt vastleggen, moet u verschillende inkoopcodes 
 
 Leverancierskaarten bevatten de informatie die is vereist om producten van de leverancier te kunnen kopen. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md) en [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-**Opmerking**: als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
+> [!NOTE]  
+>   Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-vendor-card"></a>Een nieuwe leverancierskaart maken
 1. Kies op de startpagina **Leveranciers** om de lijst met bestaande leveranciers te openen.  

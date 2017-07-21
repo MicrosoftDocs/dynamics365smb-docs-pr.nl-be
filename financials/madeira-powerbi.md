@@ -1,6 +1,6 @@
 ---
-title: De Dynamics 365 for Financials Content Packs voor Power BI gebruiken | Microsoft Docs
-description: Inzicht krijgen in uw Financials-gegevens is gemakkelijk met Power BI en de Financials Content Packs.
+title: Dynamics 365 for Financials en Power BI Content Packs| Microsoft Docs
+description: Inzicht, bedrijfsinformatie en KPI's krijgen uit uw Financials-gegevens is gemakkelijk met Power BI en de Financials Content Packs.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ De Content Packs zijn vooraf geconfigureerd om te werken met verkoopgegevens en 
 * Vergrendel deze aangepaste weergave op het dashboard om door te gaan met tracking.  
   Het dashboard en onderliggende rapporten worden dagelijks vernieuwd. U kunt het vernieuwingsschema bepalen en de frequentie wijzigen voor de gegevensset.  
 
-**Opmerking:** U kunt ook uw eigen rapporten en dashboards in Power BI samenstellen op basis van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Zie voor meer informatie [Dynamics 365 for Financials gebruiken als gegevensbron voor Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   U kunt ook uw eigen rapporten en dashboards in Power BI samenstellen op basis van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Zie voor meer informatie [Uw bedrijfsgegevens verbinden met Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Toegang krijgen tot [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 Als u uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens in Power BI wilt zien, moet u het volgende hebben:  
@@ -74,7 +75,8 @@ Het [!INCLUDE[d365fin](includes/d365fin_md.md)]-dashboard bevat de meeste algeme
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Opmerking**: als u de naam van een van deze webservices wijzigt, worden de gegevens niet weergegeven in Power BI.  
+> [!NOTE]  
+>   Als u de naam van een van deze webservices wijzigt, worden de gegevens niet weergegeven in Power BI.  
 Als u andere gegevens wilt toevoegen aan Power BI, moet u de tabellen zoeken in [!INCLUDE[d365fin](includes/d365fin_md.md)], ze beschikbaar maken als webservices en ze vervolgens toevoegen aan het Content Pack. Dit is een geavanceerd scenario en het is raadzaam te beginnen met de gegevens die al in Power BI beschikbaar zijn.  
 
 ## <a name="troubleshooting"></a>Problemen oplossen
@@ -98,7 +100,8 @@ Als u de fout "Aanmelding mislukt" krijgt wanneer u zich aanmeldt bij het dashbo
     Controleer uw gebruikersaccount in [!INCLUDE[d365fin](includes/d365fin_md.md)] en let erop dat u de juiste webservicetoegangssleutel als wachtwoord gebruikt. Probeer het vervolgens opnieuw.  
 * Het [!INCLUDE[d365fin](includes/d365fin_md.md)]-exemplaar waarmee u verbinding probeert te maken, heeft geen geldig SSL-certificaat. In dit geval ziet u een gedetailleerde foutmelding ("kan geen vertrouwde SSL-relatie tot stand brengen").
 
-    **Opmerking**: zelfondertekende certificaten worden niet ondersteund.  
+    > [!NOTE]  
+>   Zelfondertekende certificaten worden niet ondersteund.  
 
 **"Oops"**  
 Als u een "Oops"-foutdialoogvenster ziet na het verificatiedialoogvenster, komt dat meestal door een probleem bij het maken van verbinding met de gegevens voor het Content Pack.
@@ -114,10 +117,10 @@ Als u een "Oops"-foutdialoogvenster ziet na het verificatiedialoogvenster, komt 
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken als gegevensbron voor Power BI](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken als gegevensbron voor PowerApps](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken als PowerApps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

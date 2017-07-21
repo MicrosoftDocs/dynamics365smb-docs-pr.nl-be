@@ -1,6 +1,6 @@
 ---
-title: De extensie Dynamics GP Data Migration | Microsoft Docs
-description: Bevat informatie over de extensie Dynamics GP Data Migration
+title: Gegevens uit Dynamics GP migreren met de extensie Gegevensmigratie | Microsoft Docs
+description: Gebruik de Dynamics GP-extensie Gegevensmigratie om klanten, leveranciers, voorraadartikelen en rekeningen te migreren van Dynamics GP naar Dynamics 365 for Financials.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a94afbd0ee689f6bd9157d0b441959f252230f08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 31b698aea884da162cc18f16a912ebd57e35aed9
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,5 +34,5 @@ De extensie Dynamics GP Data Migration wijst automatisch de geëxporteerde gegev
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Webbronnen voor contactbedrijven instellen | Microsoft Docs
-description: Beschrijft hoe u webbronnen voor contacten gebruikt in Financials
+description: "U kunt internet- of webbronnen definiëren en toewijzen aan een contactbedrijf om te helpen aangeven hoe u informatie wilt zoeken over uw contacten."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: internet
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8a452619aeeee907cf61fd5d1a8fce409ad2e42d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-web-sources-for-contact-companies"></a>Webbronnen voor contactbedrijven instellen
+# <a name="how-to-set-up-web-sources-for-contact-companies"></a>Procedure: Webbronnen voor contactbedrijven instellen
 U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines en websites op internet aan te geven die u wilt gebruiken om informatie over de contacten te zoeken. Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.
 
 Webbronnen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de webbroncode. U hoeft deze stap slechts eenmaal uit te voeren voor elke webbron. Als u een webbroncode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
 
 ## <a name="to-define-a-web-source-code"></a>Een webbroncode definiëren
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Webbronnen** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Webbronnen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de **Nieuw**-acties.
 3. Vul de velden **Code**, **Omschrijving** en **URL** in.
 

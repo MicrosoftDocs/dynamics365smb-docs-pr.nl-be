@@ -1,6 +1,6 @@
 ---
-title: Voorraad | Microsoft Docs
-description: Beschrijft hoe u fysieke artikelen beheert.
+title: Voorraad beheren| Microsoft Docs
+description: Beschrijft hoe u de fysieke producten beheert waarin u handelt, bijvoorbeeld de voorraad in uw magazijn.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b53cae82cfa532fb0620cc9e1f305216c2321785
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -28,21 +28,23 @@ Om het overzicht van artikelen te verhogen en deze te zoeken, kunt u artikelen c
 
 U moet ervoor zorgen dat de kosten van uw artikelen worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van deze artikelen factureert. Dit wordt kostenherwaardering genoemd en u kunt dat handmatig doen of instellen dat het automatisch gebeurt wanneer u een artikeltransactie boekt.
 
-Wijzigingen in voorraadwaarde van handel worden automatisch met uw financiële boeken afgestemd wanneer u artikeltransacties boekt.
+## <a name="inventory-reconciliation"></a>Voorraadreconciliatie
+Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden naar de voorraadrekening geboekt, de correctierekening en de KPV-rekening in het grootboek.
 
-|Als u dit wilt doen |Zie |
+Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie Procedure: Artikelkosten herwaarderen voor meer informatie.
+
+|Aan |Zie |
 |---|----|
 |Maak artikelkaarten voor voorraadartikelen waarin u handelt.|[Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md)|
-|Bovenliggende artikelen structureren die u als pakketten verkoopt bestaande uit de onderdelen van de bovenliggende artikelen, of die u op bestelling of voor voorraad monteert.|[Procedure: Met stuklijsten werken](inventory-how-work-BOMs.md)|
+|Bovenliggende artikelen structureren die u als pakketten verkoopt bestaande uit de onderdelen van de bovenliggende artikelen, of die u op bestelling of voor voorraad monteert.|[Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)|
 |Onderhoud een overzicht van artikelen en help artikelen te zoeken en te sorteren door ze in categorieën te organiseren.|[Procedure: Artikelen categoriseren](inventory-how-categorize-items.md)|
 |Wijs artikelkenmerken van verschillende waardesoorten aan uw artikelen toe zodat u artikelen gemakkelijker kunt sorteren en vinden.|[Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md)|
 |Maak speciale artikelkaarten voor artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt.|[Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md)|
-|Verlaag of verhoog het voorraadaantal van een artikel, bijvoorbeeld na een inventarisering of als eenvoudige manier om inkoopontvangsten vast te leggen.|[Procedure: Voorraad wijzigen](inventory-how-adjust-inventory.md)|
-|Beschikbaarheid van artikelen weergeven op vestiging, op periode, op verkoop- of inkoopgebeurtenis, of op het gebruik op assemblagestuklijsten.|[Procedure: Een beschikbaarheidoverzicht krijgen](inventory-how-availability-overview.md)|
+|Inventarisatie uitvoeren, negatieve of positieve correcties uitvoeren en gegevens wijzigen, zoals locatie of lotnummer, in artikelposten of magazijnposten.|[Procedure: Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md)|
+|Beschikbaarheid van artikelen weergeven op vestiging, op periode, op verkoop- of inkoopgebeurtenis, of op het gebruik op assemblagestuklijsten.|[Procedure: beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|
 |Voorraadartikelen verplaatsen tussen vestigingen met transferorders, om magazijnactiviteiten te beheren, of met het artikelherindelingsdagboek.|[Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|
 |Vermeerder of verminder de waarde van een of meer artikelen in voorraad door de huidige, berekende waarde ervan te boeken.|[Procedure: Voorraad herwaarderen](inventory-how-revalue-inventory.md)|
 |Herwaardeer artikelkosten, automatisch of handmatig, om kostenwijzigingen door te sturen van inkomende posten naar de gerelateerde uitgaande posten.|[Procedure: Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)|
-|Leren hoe wijzigingen in voorraadwaarde van handel automatisch met uw financiële boeken worden afgestemd.|[Geavanceerd: Voorraadreconciliatie](advanced-inventory-reconciliation.md)|
 
 ## <a name="see-also"></a>Zie ook  
 [Inkoop](purchasing-manage-purchasing.md)  

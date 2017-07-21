@@ -1,6 +1,6 @@
 ---
-title: Afsluitingsoverzichten voorbereiden | Microsoft Docs
-description: Biedt een overzicht van de rapporten die nuttig kunnen zijn bij het afsluiten van het jaar.
+title: Overzicht van rapporten om ultimoafschriften te helpen voorbereiden | Microsoft Docs
+description: "Levert een overzicht van de lijsten die u kunt gebruiken om gegevens te verzamelen om de ultimoafschriften van uw bedrijf voor te bereiden wanneer het financiële jaar wordt gesloten."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,9 +35,10 @@ De volgende tabel beschrijft een aantal rapporten die nuttig kunnen zijn bij dit
 | Een rapportageschema af te drukken om de cijfers in grootboekrekeningen te analyseren, of om werkelijke grootboekposten te vergelijken met budgetposten voor het grootboek. |Rapportageschema |
 | Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |Klant- en leveranciersrekeningen reconciliëren |
 
-Om een rapport te openen, kiest u in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport] (media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voert u de naam in zoals die in de tabel is vermeld en klik op de gerelateerde koppeling.
+Als u een rapport wilt bekijken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Bedrijfsinformatie](bi.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Een beschikbaarheidoverzicht krijgen| Microsoft Docs'
-description: Beschrijft hoe u de beschikbaarheid van artikelen in de verschillende vestigingen, per verkoop- of inkoopgebeurtenis, per periode of per positie van het artikel in een assemblagestuklijst kunt weergeven.
+title: Een beschikbaarheidsoverzicht krijgen| Microsoft Docs
+description: U kunt informatie verkrijgen over de beschikbaarheid van artikelen of voorraad in verschillende vestigingen, per verkoop- of inkoopgebeurtenis, per periode of per positie van het artikel in een assemblagestuklijst.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,36 +9,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47071e5e325de8a31663b8d5a59d1ce93e5d0111
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-get-an-availability-overview"></a>Procedure: Een beschikbaarheidoverzicht krijgen
+# <a name="how-to-view-the-availability-of-items"></a>Procedure: beschikbaarheid van artikelen weergeven
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
 
 U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt de beschikbaarheid van elk artikel per gebeurtenis, per periode, of per vestiging weergegeven. Een gebeurtenis is elke geplande artikeltransactie, bijvoorbeeld een verkoopverzending of een inkomende transferontvangst.
 
-**Opmerking**: beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie voor meer informatie [Procedure: Vestigingen instellen](inventory-how-setup-locations.md).
+> [!NOTE]  
+>   Beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie voor meer informatie [Procedure: Vestigingen instellen](inventory-how-setup-locations.md).
 
 In [[!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers weergegeven in twee verschillende velden, elk met een andere definitie:
 
 * Het veld **In voorraad** bevat het werkelijke aantal van vandaag op basis van geboekte artikelposten.
 * Het veld **Geplande voorraad** wordt berekend en toont de beschikbare hoeveelheid plus geplande ontvangsten minus brutobehoeften. (In [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken omvatten geplande ontvangsten hoeveelheden op inkooporders en inkomende transferorders. Brutobehoeften omvatten aantallen op verkooporders en uitgaande transferorders.)
 
-**Tip**: het geplande beschikbare saldo is met name van belang voor weergave in de vensters **Beschikbaarheid per periode** en **Artikelbeschikbaarheid per gebeurtenis**, aangezien deze de datumdimensie bevatten.  
+> [!TIP]  
+>   Het geplande beschikbare saldo is met name van belang voor weergave in de vensters **Beschikbaarheid per periode** en **Artikelbeschikbaarheid per gebeurtenis**, aangezien deze de datumdimensie bevatten.  
 
-**Opmerking**: in de volgende procedures wordt beschreven hoe geavanceerde beschikbaarheidsgegevens worden weergegeven vanuit het artikeloverzicht en de artikelkaart. U kunt ook toegang tot de informatie krijgen vanuit verkoopdocumentregels, voor het artikel op de regel. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+> [!NOTE]  
+>   In de volgende procedures wordt beschreven hoe geavanceerde beschikbaarheidsgegevens worden weergegeven vanuit het artikeloverzicht en de artikelkaart. U kunt ook toegang tot de informatie krijgen vanuit verkoopdocumentregels, voor het artikel op de regel. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
 U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltransacties in het venster **Artikelbeschikbaarheid per gebeurtenis**.
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Gebeurtenis**.
 
@@ -48,7 +51,7 @@ U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltra
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>De beschikbaarheid van een artikel in verschillende perioden weergeven
 U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde perioden weer in het venster **Beschikbaarheid per periode**.
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Periode**.
 
@@ -58,7 +61,7 @@ U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
 U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar het is opgeslagen, weer in het venster **Artikelbeschikbaarheid per vestiging**.
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Vestiging**.
 
@@ -69,7 +72,7 @@ U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>De beschikbaarheid weergeven van alle artikelen op de vestiging waar ze zijn opgeslagen
 U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer in het venster **Artikelen per vestiging**.
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelen per vestiging**.
 
     Het venster **Artikelen per vestiging** toont voor al uw artikelen hoeveel er in elke vestiging beschikbaar zijn.
@@ -89,7 +92,8 @@ Op elke regel in het venster voor zowel hoofdartikelen als onderliggende artikel
 
 Het venster **Artikelbeschikbaarheid per stuklijstniveau** bevat gegevens voor het artikel op de kaart of de documentregel waarvoor het venster wordt geopend. Het artikel wordt altijd weergegeven op de bovenste regel. U kunt informatie voor andere artikelen of voor alle items weergeven door de waarde te wijzigen in het veld **Artikelfilter**.
 
-**Opmerking**: standaard wordt met beschikbaarheidscijfers op de regels de totale beschikbaarheid van alle artikelen onder het topartikel weergegeven. Deze cijfers worden weergegeven in het veld **Beschikbaar aantal** en de focus ligt op het topartikel. Informatie over hoeveel subassemblages u kunt maken is echter mogelijk vervormd. Als u een ware indicatie wilt krijgen van het aantal weergegeven subassemblages dat u kunt maken, moet u het selectievakje **Totale beschikbaarheid weergeven** uitschakelen en vervolgens het cijfer in het veld **Bovenliggende kan worden gemaakt** bekijken.
+> [!NOTE]  
+>   Standaard geven beschikbaarheidscijfers op de regels de totale beschikbaarheid van alle artikelen onder het topartikel aan. Deze cijfers worden weergegeven in het veld **Beschikbaar aantal** en de focus ligt op het topartikel. Informatie over hoeveel subassemblages u kunt maken is echter mogelijk vervormd. Als u een ware indicatie wilt krijgen van het aantal weergegeven subassemblages dat u kunt maken, moet u het selectievakje **Totale beschikbaarheid weergeven** uitschakelen en vervolgens het cijfer in het veld **Bovenliggende kan worden gemaakt** bekijken.
 
 Met het veld **Knelpunt** wordt opgegeven welk artikel in de stuklijststructuur ervoor zorgt dat u geen grotere hoeveelheid kunt maken dan wordt weergegeven in het veld **Topartikel kan worden gemaakt**. Het knelpuntartikel kan bijvoorbeeld een aangeschaft onderdeel zijn met een verwachte ontvangstdatum die te laat is om extra eenheden van het topartikel te maken voor de datum in het veld **Vereist per datum**.
 

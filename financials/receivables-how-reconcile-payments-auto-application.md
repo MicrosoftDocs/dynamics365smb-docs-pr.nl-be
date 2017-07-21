@@ -1,6 +1,6 @@
 ---
-title: "Procedure: Betalingen reconciliëren met automatische vereffening | Microsoft Docs"
-description: "Procedure: Betalingen reconciliëren met automatische vereffening"
+title: "Automatische vereffening gebruiken om betalingen te reconciliëren | Microsoft Docs"
+description: "Beschrijft hoe u de automatische vereffeningsfunctie gebruikt om betalingen of kasontvangsten te vereffenen met de gerelateerde openstaande posten, en om betalingen te reconciliëren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 423b141969c131688542cc10bb5361085f247a68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,10 +37,11 @@ Op dagboekregels waar een betaling automatisch is vereffend met een of meer open
 
 Voor elke dagboekregel in het venster **Dagboek betalingsreconciliatie** kunt u het venster **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Procedure: Betalingen controleren of vereffenen na automatische vereffening](receivables-how-review-apply-payments-auto-application.md) voor meer informatie.
 
-**Opmerking**: u kunt het importeren van banktransacties starten op het moment dat u het venster **Dagboek betalingsreconciliatie** opent voor een bestaand betalingsreconciliatiedagboek in het venster **Betalingsreconciliatiedagboeken**. In de volgende procedure wordt beschreven hoe u banktransacties importeert in het venster **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
+> [!NOTE]  
+>   U kunt het importeren van banktransacties starten op het moment dat u het venster **Betalingsreconciliatiedagboek** opent voor een bestaand betalingsreconciliatiedagboek in het venster **Betalingsreconciliatiedagboeken**. In de volgende procedure wordt beschreven hoe u banktransacties importeert in het venster **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Als u in een nieuw betalingsreconciliatiedagboek wilt werken, kiest u de actie **Nieuw dagboek**.
 3. Selecteer in het venster **Bankrekeninglijst betaling** de bankrekening waarvoor u betalingen wilt vereffenen en kies vervolgens de knop **OK**.
    Het venster **Dagboek betalingsreconciliatie** wordt geopend en is voorbereid op de geselecteerde bankrekening.
@@ -63,7 +64,8 @@ Als u het dagboek van de betalingsreconciliatie boekt, worden de vereffende open
 
 U kunt de waarde in het veld **Saldo op bankrekening na boeking** met de waarde in het veld **Eindsaldo afschrift** vergelijken om te traceren wanneer de bankrekening wordt gereconcilieerd op basis van betalingen die u boekt.
 
-**Opmerking**: als u de bankrekening van het venster **Dagboek betalingsreconciliatie** niet wilt reconciliëren, moet u het venster **Bankreconciliatie** gebruiken. Zie [Procedure: Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
+> [!NOTE]  
+>   Als u de bankrekening vanuit het venster **Betalingsreconciliatiedagboek** niet wilt reconciliëren, moet u het venster **Bankreconciliatie** gebruiken. Zie [Procedure: Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  

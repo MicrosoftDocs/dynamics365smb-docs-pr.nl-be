@@ -1,6 +1,6 @@
 ---
-title: "Procedure: Betalingen reconciliëren die niet automatisch kunnen worden vereffend | Microsoft Docs"
-description: "Procedure: Betalingen reconciliëren die niet automatisch kunnen worden vereffend"
+title: "De functie Verschil overboeken naar account gebruiken om betalingen te reconciliëren | Microsoft Docs"
+description: Beschrijft hoe u betalingen verwerkt die niet met een document kunnen worden vereffend, bijvoorbeeld wanneer een wisselkoers ertoe leidt dat bedragen verschillen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7b4c109ebda260ee86e2b955a17389b54493de65
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 37d2d8af5086a9f633cb90abb380578b4ca73136
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,10 +30,11 @@ Betalingen die niet kunnen worden vereffend, kunnen op de volgende verschillende
 
 Als u dergelijke betalingen wilt reconciliëren, kunt u de knop Verschil overboeken naar rekening kiezen en vervolgens opgeven naar welke rekening het bedrag in het veld Verschil wordt geboekt wanneer u het dagboek van de betalingsreconciliatie boekt.
 
-**Opmerking**: er bestaat een vergelijkbare functionaliteit om automatische reconciliatie van terugkerende betalingen in te stellen die niet kunnen worden vereffend met gerelateerde openstaande klant-, leveranciers- of bankrekeningposten. Zie [Procedure: Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
+> [!NOTE]  
+>   Er bestaat een vergelijkbare functionaliteit om automatische reconciliatie van terugkerende betalingen in te stellen die niet kunnen worden vereffend met gerelateerde openstaande klant-, leveranciers- of bankrekeningposten. Zie [Procedure: Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Betalingen reconciliëren die niet kunnen worden vereffend
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een betalingreconciliatiedagboek. Zie voor meer informatie [Procedure: Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. Kies **Verschil overboeken naar rekening**. Het venster **Verschil overboeken naar rekening** wordt geopend.
 4. Geef in het veld **Rekeningsoort** het soort rekening op waarnaar het betalingsbedrag wordt geboekt.

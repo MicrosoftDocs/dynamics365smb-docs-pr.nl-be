@@ -1,6 +1,6 @@
 ---
-title: Meer informatie over het uitbreiden van Dynamics 365 for Financials | Microsoft Docs
-description: Uw Dynamics 365 for Financials-extensies maken, demonstreren en promoten
+title: Dynamics 365 for Financials opzeggen aanpassen | Microsoft Docs
+description: Uw extensies voor Dynamics 365 for Financials maken, demonstreren en promoten.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="extend-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] uitbreiden
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] uitbreiden
 Voor makers van apps levert het gebruik van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] als een platform veel voordelen op:
 
 * Verrijk [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], een bewezen online oplossing van Microsoft, met uw deskundigheid  
@@ -68,13 +68,13 @@ Deze [Veelgestelde vragen](https://go.microsoft.com/fwlink/?linkid=841520) geven
 
 ## <a name="further-resources"></a>Meer resources
 Raadpleeg voor meer resources voor appontwikkeling onze DLP-onderwerppagina [DLP-onderwerppagina](https://mbspartner.microsoft.com/BFI/Topic/76). Een aantal geselecteerde resources zijn hieronder beschikbaar:
--    [Gebruikersregistratie en latere facturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Gebruikersregistratie en latere facturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

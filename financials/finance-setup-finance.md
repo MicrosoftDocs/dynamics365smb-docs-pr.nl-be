@@ -1,6 +1,6 @@
 ---
-title: "Financiën instellen | Microsoft Docs"
-description: "Financiën instellen"
+title: "Financiële processen instellen| Microsoft Docs"
+description: "Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 87b4f85333fdf1660493f2a77009f0c763f03d59
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,19 +27,19 @@ Er zijn echter bepaalde zaken die uzelf moet instellen. Als u bijvoorbeeld dimen
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
-| Bepaal hoe u uw leveranciers wilt betalen. |[Betalingsmethoden](finance-payment-methods.md) |
+| Bepaal hoe u uw leveranciers wilt betalen. |[Betalingsmethoden definiëren](finance-payment-methods.md) |
+| Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
 | Stel boekperioden in. |[Procedure: Nieuw boekjaar openen](finance-how-open-new-fiscal-year.md) |
-| Stel extra valuta's in of werk ze bij als u met internationale handel te maken hebt. |[Procedure: Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
-| Stel unieke identificatiecodes in. |[Nummerreeksen maken](ui-create-number-series.md) |
-| Voeg dimensies toe voor betere bedrijfsinformatie. |[Dimensies instellen](finance-setup-dimensions.md) |
+| Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
+| Instellen hoe u extra valuta's bijwerkt als u internationaal handelt. |[Procedure: Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
 | Voeg nieuwe rekeningen aan bestaande rekeningschema's. |[Het rekeningschema instellen](finance-setup-chart-accounts.md) |
 | Stel de BI-diagrammen (Business Intelligence) in om cashflow te analyseren. |[Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)  
-[Dimensies](finance-dimensions.md)  
+[Werken met dimensies](finance-dimensions.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

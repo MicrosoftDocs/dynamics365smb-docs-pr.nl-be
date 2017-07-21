@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Conversieservice voor bankgegevens instellen| Microsoft Docs'
-description: 'Procedure: Conversieservice voor bankgegevens instellen'
+title: Conversie van bankgegevens instellen| Microsoft Docs
+description: U kunt bankrekeningen instellen om transacties bij te houden en bankfeeds, zoals Yodlee, te importeren of exporteren.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 84834fab38217fb161ed16e3215a34978a4c6137
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,13 +31,15 @@ Als alternatief voor het importeren van bankafschriften met de conversieservice 
 
 Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening en de bankrekeningen van uw leveranciers instellen. Zie voor meer informatie [Procedure: Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 
-**Opmerking**: de conversieservice voor bankgegevens kan een limiet aan het aantal regels opleggen dat in één bestand mag worden geëxporteerd. Er wordt een foutbericht gestuurd als de limiet wordt overschreden. Het wordt aangeraden dat bankafschriftbestanden de 1000 regels niet overschrijden omdat de verwerkingstijd in de conversieservice van de bankgegevens anders beduidend kan toenemen.
+> [!NOTE]  
+>   De conversieservice voor bankgegevens kan een limiet aan het aantal regels opleggen dat in een bestand mag worden geëxporteerd. Er wordt een foutbericht gestuurd als de limiet wordt overschreden. Het wordt aangeraden dat bankafschriftbestanden de 1000 regels niet overschrijden omdat de verwerkingstijd in de conversieservice van de bankgegevens anders beduidend kan toenemen.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Uw bedrijf aanmelden voor de conversieservice van bankgegevens
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.  
 2. Het venster **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de conversieservice voor bankgegevens.
 
-    **Opmerking**: in de demodatabase CRONUS International Ltd. worden de velden Gebruikersnaam en Wachtwoord vooraf ingevuld met demoaanmeldgegevens, die u vervangt door de werkelijke gegevens van uw bedrijf wanneer u zich aanmeldt bij de conversieservice voor bankgegevens.
+    > [!NOTE]  
+>   In de CRONUS International Ltd. worden de velden Gebruikersnaam en Wachtwoord vooraf ingevuld met demoaanmeldgegevens, die u vervangt door de werkelijke gegevens van uw bedrijf wanneer u zich aanmeldt bij de conversieservice voor bankgegevens.
 3. Kies in het veld **Inschrijvings-URL** de browserknop om de aanmeldingspagina van de serviceprovider te openen.  
 4. Voer op de inschrijvingspagina van de serviceprovider van bankgegevens de gebruikersnaam en het wachtwoord in van het abonnement van uw bedrijf op de service en voltooi vervolgens het aanmeldingsproces volgens de instructies van de serviceprovider.
 
@@ -52,13 +54,14 @@ We raden u aan de aanmeldgegevens te beveiligen die u invoert in het venster **I
 2. Schakel in het venster **Beheer gegevensversleuteling** versleuteling van uw gegevens in.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>De lijst met momenteel ondersteunde bankgegevensindelingen weergeven of bijwerken
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Instelling gegevensconv.service bank** de actie **Banknaam - Gegevensconversielijst** om de lijst met banknamen te openen die bankgegevensindelingen vertegenwoordigen die door de conversieservice worden ondersteund.
 3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken**.
 
 De lijst met bankgegevensindelingen die door de conversieservice voor bankgegevens worden ondersteund, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** in het venster **Bankrekeningkaart**.
 
-**Opmerking**: de bijwerking van ondersteunde bankgegevensindelingen treedt ook op wanneer u een waarde selecteert of invoert in het veld **Banknaam - Gegevensconversie** voor de bankrekening.
+> [!NOTE]  
+>   De bijwerking van ondersteunde bankgegevensindelingen treedt ook op wanneer u een waarde selecteert of invoert in het veld **Banknaam - Gegevensconversie** voor de bankrekening.
 
 U bent nu aangemeld voor de conversieservice van bankgegevens. Ga verder om de inschrijvingsinformatie door te voeren voor elke bankrekening die de service zal gebruiken.
 

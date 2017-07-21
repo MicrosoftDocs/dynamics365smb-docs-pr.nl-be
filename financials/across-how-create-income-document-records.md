@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Inkomende documentrecords maken| Microsoft Docs'
-description: 'Procedure: Inkomende documentrecords maken'
+title: Records maken van inkomende documenten| Microsoft Docs
+description: U kunt records maken van inkomende documenten, zoals e-facturen, en OCR-taken, eCommerce en documentuitwisseling beheren.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,13 +30,14 @@ Voordat u de functie Inkomende documenten gebruikt, moet u de benodigde instelli
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Een inkomend document goedkeuren of weigeren
 Als u gebruikers niet wilt toestaan om facturen of dagboekregels te maken van inkomende documentrecords, tenzij ze zijn goedgekeurd, kunt u goedkeurders instellen die de records moeten goedkeuren voordat ze kunnen worden verwerkt.
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en kies de gerelateerde koppeling.
 2. Selecteer de regel met het document dat u wilt goedkeuren of weigeren en kies vervolgens de actie **Goedkeuren** of **Weigeren**.
 
 Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegeven** op de regel van het inkomende document geselecteerd. De gebruiker die verantwoordelijk is voor het aanmaken van, bijvoorbeeld, inkoopfacturen kan doorgaan om de record te verwerken.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Een inkomende documentrecord maken door een foto te maken
-**Opmerking**: de volgende procedure geldt alleen voor de tablet- en telefoonclients van [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]  
+>   De volgende procedure geldt alleen voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet- en Telefoon-client.
 
 1. Kies op de app-balk de tegel **Inkomend document maken van camera** en ga vervolgens naar stap 4.
 2. U kunt ook op de app-bar de optieknop kiezen, **Inkomende documenten** kiezen en **Alle** kiezen.
@@ -46,7 +47,8 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Een afbeelding aan een inkomende documentrecord koppelen door een foto te maken
-**Opmerking**: de volgende procedure geldt alleen voor de tablet- en telefoonclients van [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]  
+>   De volgende procedure geldt alleen voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet- en Telefoon-client.
 
 1. Kies op de app-bar de optieknop, kies **Inkomende documenten** en kies **Alle**.
 2. Open de kaart voor een bestaande inkomende documentrecord.
@@ -56,7 +58,7 @@ Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
 De afbeelding wordt gekoppeld aan de inkomende documentrecord.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Een inkomend documentrecord handmatig maken
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en kies de gerelateerde koppeling.
 2. Kies de actie **Maken van bestand**.  
 3. Selecteer in het venster **Bestand invoegen** een bestand en kies vervolgens **Openen**.
 

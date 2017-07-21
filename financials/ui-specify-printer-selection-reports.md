@@ -1,6 +1,6 @@
 ---
-title: Printerselectie opgeven voor rapporten | Microsoft Docs
-description: Printers opgeven voor rapporten.
+title: Rapporten instellen op afdrukken op specifieke printers | Microsoft Docs
+description: Leren over het opgeven van een printer voor een lijst en het gebruik van het venster Printerselecties.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Financials configureren | Microsoft Docs
-description: Financials configureren
+title: Overzicht van taken om Dynamics 365 for Financials in te stellen| Microsoft Docs
+description: Beschrijft taken om Dynamics 365 for Financials in te stellen, te initialiseren en te configureren naar uw behoeften.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, k
 | Configureren hoe u vaste activa wilt verzekeren, onderhouden en afschrijven en hoe u de kosten van vaste activa in de boekhouding van uw bedrijf vastlegt. |[Vaste activa instellen](fa-setup.md) |
 | Unieke id-codes toewijzen voor records zoals kaarten, documenten, en dagboekregels, zodat u ze in het systeem kunt bijhouden. |[Nummerreeksen maken](ui-create-number-series.md) |
 | Het venster **SMTP-mailinstellingen** configureren om e-mailberichten te verzenden en te ontvangen vanuit documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procedure: E-mail instellen](madeira-how-setup-email.md) |
+| Stel unieke identificatiecodes in. |[Procedure: Nummerreeksen maken](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,6 +1,6 @@
 ---
-title: Probleemoplossing voor aanmelden bij Self-Service | Microsoft Docs
-description: Azure AD-problemen bij aanmelden oplossen.
+title: Manieren om problemen op te lossen of te omzeilen met aanmelden bij Self-Service | Microsoft Docs
+description: Meer informatie over de meest voorkomende redenen waarom u de inschrijving bij Dynamics 365 for Financials niet kunt voltooien, en manieren om het op te lossen.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,7 +39,7 @@ In veel gevallen kunt u uw registratie voor [!INCLUDE[d365fin](includes/d365fin_
 | E-mailadres is geen Office 365-ID. U ontvangt tijdens de aanmelding een bericht zoals het volgende:<br /><br />**We kunnen u niet vinden op contoso.com. Gebruikt u een andere ID op het werk of op school? Probeer daarmee aan te melden en als het niet werkt, neemt u contact op met de IT-afdeling.** |Uw organisatie gebruikt ID´s voor aanmelding bij Office 365 en andere Microsoft-services die anders zijn dan uw e-mailadres. Uw e-mailadres kan bijvoorbeeld Nancy.Smith@contoso.com zijn, maar uw id is nancys@contoso.com. Om de aanmelding te voltooien, gebruikt u de ID die uw organisatie heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services. Als u niet weet wat dit is, neemt u contact op met uw IT-beheerder. Als u zich nog steeds niet kunt aanmelden en een geavanceerder instellingsproces kunt uitvoeren, kunt u zich registreren voor een nieuw Office 365-proefabonnement en dat e-mailadres voor aanmelding gebruiken. |
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

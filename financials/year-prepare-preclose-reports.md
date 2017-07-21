@@ -1,6 +1,6 @@
 ---
-title: Rapporten voorbereiden die voorafgaan aan een afsluiting | Microsoft Docs
-description: Biedt een overzicht van de rapporten die nuttig kunnen zijn bij het afsluiten van het jaar.
+title: "Overzicht van vooraf sluiten van rapporten om rekeningnauwkeurigheid te verifiëren | Microsoft Docs"
+description: "Biedt een overzicht van de rapporten die u kunt gebruiken om de nauwkeurigheid te verifiëren van rekeningen voordat de boeken worden gesloten aan het eind van een jaar of een periode."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Rapporten voorbereiden die voorafgaan aan een afsluiting
+# <a name="using-pre-closing-reports"></a>Vooraf sluiten van rapporten gebruiken
 Er staan veel standaardrapporten tot uw beschikking voor het verifiëren van de nauwkeurigheid van de rekeningen voor u de boeken sluit aan het eind van een jaar of een periode. U kunt bijvoorbeeld het rapport **Klant - Proefbalans** gebruiken om na te gaan of het saldo van een klantboekingsgroep gelijk is aan het saldo op de overeenkomstige grootboekrekening op een bepaalde datum.
 
 In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die nuttig kunnen zijn in dit proces.
@@ -36,7 +36,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 | Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen. |Proefbalans |
 | Een proefbalans af te drukken voor een geconsolideerd bedrijf. |Consolidatie - Proefbalans |
 
-Om een rapport te openen, kiest u in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport] (media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voert u de naam in zoals die in de tabel is vermeld en klik op de gerelateerde koppeling.
+Als u een rapport wilt bekijken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  

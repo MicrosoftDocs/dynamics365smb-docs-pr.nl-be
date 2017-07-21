@@ -1,6 +1,6 @@
 ---
-title: "Procedure: Bankrekeningen apart reconciliëren| Microsoft Docs"
-description: "Procedure: Bankrekeningen apart reconciliëren"
+title: "Bankrekeningen apart reconciliëren| Microsoft Docs"
+description: Beschrijft hoe uw voorraadwaarde wordt gereconcilieerd met het grootboek.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Procedure: Bankrekeningen apart reconciliëren
 Als u bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt reconciliëren met afschriften die u van de bank hebt ontvangen, moet u de regels invullen in het venster **Bankreconciliatie**.
 
-**Opmerking**: u kunt bankrekeningen ook reconciliëren in het venster **Betalingsreconciliatiedagboek**. Eventuele open bankrekeningposten die gerelateerd zijn aan de vereffende klant- of leveranciersposten, worden gesloten wanneer u de actie **Betalingen boeken en bankrekening reconciliëren** kiest. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt. Zie voor meer informatie [Procedure: Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   U kunt bankrekeningen ook reconciliëren in het venster **Betalingsreconciliatiedagboek**. Eventuele open bankrekeningposten die gerelateerd zijn aan de vereffende klant- of leveranciersposten, worden gesloten wanneer u de actie **Betalingen boeken en bankrekening reconciliëren** kiest. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt. Zie voor meer informatie [Procedure: Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst de feedservice van de Envestnet Yodlee Bank instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [Procedure: De feedservice van de Envestnet Yodlee Bank instellen](bank-how-setup-bank-statement-service.md).
 
@@ -38,10 +39,11 @@ U kunt het deelvenster **Bankafschriftregels** in het venster **Bankreconciliati
 
 Wanneer de waarde in het veld **Totaalsaldo** in het deelvenster **Bankafschriftregels** gelijk is aan de waarde in het veld **Af te stemmen saldo** in het deelvenster **Bankposten**, kunt u de actie **Boeken** kiezen om de vereffende bankposten te vereffenen. Niet-vereffende bankposten blijven in het venster. Dit geeft aan dat betalingen die zijn verwerkt voor de bankrekening, niet worden weergegeven op het laatste bankafschrift of dat voor sommige betalingen cheques zijn ontvangen.
 
-**Opmerking**: als bankafschriftregels op chequeposten betrekking hebben, kunt u de afstemfuncties niet gebruiken. In plaats hiervan moet u de actie **Posten vereffenen** kiezen en de relevante chequepost selecteren om de bankafschriftregel mee af te stemmen.
+> [!NOTE]  
+>   Als bankafschriftregels op chequeposten betrekking hebben, kunt u de gewenste afstemfuncties niet gebruiken. In plaats hiervan moet u de actie **Posten vereffenen** kiezen en de relevante chequepost selecteren om de bankafschriftregel mee af te stemmen.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Bankreconciliatieregels vullen door een bankafschrift te importeren
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Bankreconciliatie** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankreconciliatie** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Selecteer in het veld **Bankrekeningnr.** de relevante bankrekening. De bankposten die bestaan voor de bankrekening, worden weergegeven in het deelvenster **Bankposten**.
 4. Voer de datum van het rekeningoverzicht van de bank in het veld **Afschriftdatum** in.

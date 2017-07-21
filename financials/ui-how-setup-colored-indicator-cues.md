@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Een gekleurde indicator instellen voor indicatiestapels | Microsoft Docs'
-description: Leer hoe u gekleurde indicators gebruikt voor indicatiestapels in uw Rolcentrum.
+title: Gekleurde indicators opgeven om visuele signalen aan te passen over de activiteit van een indicatiestapel | Microsoft Docs
+description: Stel een gekleurde indicator op een indicatiestapeltegel in om een aangepast visueel signaal van de activiteit van de indicatiestapel te bieden.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c5aff53c522729a95763485eb79d13c0f051831
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0cb10770954f485d9c0a3474615e6c69411de321
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,7 @@ De volgende tabel bevat de kleuren die overeenkomen met de opties van de velden 
 
 | Optie | Kleur |
 | --- | --- |
-| **Geen** |Geen kleur (dezelfde kleur als de indicatiestapeltegel) |
+| **Geen** |Geen kleur (dezelfde kleur als de indicatiestapeltegel |
 | **Gunstig** |Groen |
 | **Ongunstig** |Rood |
 | **Dubbelzinnig** |Geel |

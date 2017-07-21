@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Gebruik voor projecten vastleggen | Microsoft Docs'
-description: Beschrijft hoe u gebruik van artikelen of resources voor projecten registreert.
+title: Factureerbaar en gebudgetteerd gebruik van projectresources registreren| Microsoft Docs
+description: Beschrijft hoe u het verbruik of gebruik van artikelen of resources in projecten registreert om projectbeheer te vergemakkelijken.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 896b26e11042155860d6c933d937066f9c9aec73
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,10 +25,10 @@ In het venster **Projectplanningsregels** kunt u het gebruik bekijken en vastleg
 
 Zo kunt u bijvoorbeeld voor planningsregels van het soort **Budget** de hoeveelheid van een resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar het projectdagboek. Als het soort van de planningsregel **Factureerbaar** is, kunt u de hoeveelheid van de resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar een factuur. Door de hoeveelheid die is doorgegeven aan het dagboek of de factuur te vergelijken met het resterend aantal, kunt u snel informatie over het gebruik bekijken.
 
-In de volgende procedures wordt beschreven hoe u werkelijke (factureerbare) of gebudgetteerde projectprijzen en -kosten vastlegt. Voor informatie over het inschatten van gebudgetteerde waarde tijdens planning raadpleegt u [[Procedure: Projectbudgetten beheren](projects-how-manage-budgets.md).
+In de volgende procedures wordt beschreven hoe u werkelijke (factureerbare) of gebudgetteerde projectprijzen en -kosten vastlegt. Voor informatie over het inschatten van gebudgetteerde waarde tijdens planning raadpleegt u [Procedure: Projectbudgetten beheren](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Gebruik vastleggen voor een projectplanningsregel van het soort Budget
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Projectplanningsregels**.
 3. Selecteer een projectplanningsregel van het soort **Budget** of het soort **Budget en factureerbaar** waarvoor u gebruik wilt vastleggen.
 4. In het veld **Aantal te verplaatsen naar dagboek** voert u het aantal in dat u wilt overbrengen. De standaardhoeveelheid is de waarde die u invoert in het veld **Aantal**.
@@ -44,7 +44,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (factureerbare) of g
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Gebruik vastleggen voor een projectplanningsregel van het soort Factureerbaar
 In de volgende taak kunt u eveneens gebruik bijhouden, maar dan voor een projectplanningsregel van het soort **Factureerbaar**. Meestal factuurt u in dit geval uw gebruik, maar u kunt het ook overbrengen naar een dagboek. Wanneer u dat echter doet, wordt een projectplanningsregel van het type **Budget** gemaakt voor afstemming met de factureerbare regel. Zie [Procedure: Projectbudgetten beheren](projects-how-manage-budgets.md) voor meer informatie.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het betreffende project en kies vervolgens de actie **Projectplanningsregels**.  
 3. Selecteer een projectplanningsregel van het soort **Factureerbaar** waarvoor u gebruik wilt vastleggen.
 4. Voer in het veld **Aantal te verplaatsen naar factuur** het aantal in dat u wilt overbrengen. De standaardhoeveelheid is de waarde die u invoert in het veld **Aantal**.
@@ -61,7 +61,7 @@ In de volgende taak kunt u eveneens gebruik bijhouden, maar dan voor een project
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Projectdagboekregels maken uit projectplanningsregels
 Wanneer u klaar bent om financiële gegevens voor projecten te boeken, moet u projectdagboekregels maken die u kunt boeken.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant open project en kies vervolgens de actie **Projectplanningsregels**.  
 3. Voer in het venster **Projectplanningsregels** op een relevante projectplanningsregel in het veld **Aant. te verplaatsen naar dagboek** het aantal in dat u wilt verplaatsen naar een projectdagboek.  
 4. Kies de actie **Projectdagboekregels maken**.
@@ -71,7 +71,7 @@ Wanneer u klaar bent om financiële gegevens voor projecten te boeken, moet u pr
 8. Wanneer de projectdagboekregels zijn voltooid, kiest u de actie **Boeken**.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Handmatig projectdagboekregels maken
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Batchnaam** een relevante projectdagboekbatch.  
 3. Voer op een nieuwe regel documentnummer, projectnummer, projecttaaknummer, soort en aantal van het verbruikte soort in.  
 4. Wanneer de projectdagboekregels zijn voltooid, kiest u de actie **Boeken**.  
@@ -79,9 +79,10 @@ Wanneer u klaar bent om financiële gegevens voor projecten te boeken, moet u pr
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Planningsregels voor een projectpost controleren
 Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zijn gekoppeld aan de projectdagboekposten die zijn geboekt.
 
-**Opmerking**: hiertoe moet het selectievakje **Gebruikslink toepassen** zijn ingeschakeld voor het project of de standaardinstelling voor alle projecten in uw organisatie zijn. Zie [Procedure: Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
+> [!NOTE]  
+>   Hiertoe moet het selectievakje **Gebruikslink toepassen** zijn ingeschakeld voor het project of de standaardinstelling voor alle projecten in uw organisatie zijn. Zie [Procedure: Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Posten**.  
 3. Kies in het venster **Projectposten** de actie **Gekoppelde projectplanningsregels weergeven**.
 
@@ -89,6 +90,6 @@ Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zi
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  
 [Inkoop](purchasing-manage-purchasing.md)         
-[Verkopen](sales-manage-sales.md)      
+[Verkoop](sales-manage-sales.md)      
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

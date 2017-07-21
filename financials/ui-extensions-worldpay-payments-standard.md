@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Als u de extensie inschakelt en een verkoopfactuur of een verkooporder per e-mai
 Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](includes/d365fin_md.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Procedure: Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

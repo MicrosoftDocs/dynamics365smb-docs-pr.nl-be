@@ -1,5 +1,5 @@
 ---
-title: Verkopen | Microsoft Docs
+title: Overzicht van taken om verkoop te beheren | Microsoft Docs
 description: Hierin wordt beschreven hoe u verkoopactiviteiten kunt beheren.
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,6 +46,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Maak een verkoopofferte waarbij u producten aanbiedt tegen overeen te komen condities voordat de offerte wordt omgezet in een verkoopfactuur. |[Procedure: Voorstellen maken](sales-how-make-offers.md) |
 | Maak een verkoopfactuur om uw overeenstemming met een klant vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. |[Procedure: Verkopen factureren](sales-how-invoice-sales.md) |
 | Verwerk een verkooporder die betrekking heeft op gedeeltelijke verzending of doorverzending. |[Procedure: Producten verkopen](sales-how-sell-products.md) |
+|Standaardverkoop- of inkoopregels instellen die u snel kunt invoegen in documenten, bijvoorbeeld voor terugkerende aanvullingsorders.|[Procedure: Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)|  
 | Koppel een verkooporder aan een inkooporder om een doorverzendartikel te verkopen dat direct vanaf de leverancier bij de klant wordt geleverd. |[Procedure: Doorverzendingen maken](sales-how-drop-shipment.md) |
 | Voer een actie op een onbetaalde geboekte verkoopfactuur uit om automatisch een creditnota te maken en de verkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Procedure: Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) |
 | Maak een verkoopcreditnota om een bepaalde geboekte verkoopfactuur terug te boeken om te weerspiegelen welke producten de klant terugstuurt en welk betalingsbedrag u zult terugbetalen. |[Procedure: Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) |
@@ -61,3 +62,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

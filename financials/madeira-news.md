@@ -1,6 +1,6 @@
 ---
 title: Nieuwe functies in Dynamics 365 for Financials | Microsoft Docs
-description: Nieuwe functies in Dynamics 365 for Financials
+description: Beschrijft het laatste nieuws en updates voor Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nieuwe functies in Dynamics 365 for Financials
 Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]! Als u zich nog niet hebt aangemeld voor een evaluatie, doe dit dan nu, laat ons u door de basis begeleiden van wat u kunt doen met [!INCLUDE[d365fin](includes/d365fin_md.md)] en probeer vervolgens dingen op eigen houtje uit. Wanneer u klaar bent, kunt u een leeg bedrijf openen en zelf zaken instellen.  
 
@@ -54,7 +54,7 @@ In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogel
 ### <a name="more-flexibility-in-your-sales-processes"></a>Meer flexibiliteit in uw verkoopprocessen
 Deze update voegt meer flexibiliteit toe in wat u verkoopt:
 - U kunt nu niet-voorraadartikelen configureren: artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt. Zie voor meer informatie [Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
-- U kunt nu op een verkooporder een artikel markeren voor doorverzending en direct een inkooporder voor dit artikel maken. Zo kunt u een artikel aan een klant verkopen, het inkopen bij de leverancier en het rechtstreeks van de leverancier naar uw klant laten verzenden. Zie voor meer informatie [Procedure: Producten inkopen voor een verkoop](purchasing-how-purchase-products-sale.md).
+- U kunt nu op een verkooporder een artikel markeren voor doorverzending en direct een inkooporder voor dit artikel maken. Zo kunt u een artikel aan een klant verkopen, het inkopen bij de leverancier en het rechtstreeks van de leverancier naar uw klant laten verzenden. Zie voor meer informatie [Procedure: Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Artikelen in uw voorraad categoriseren
 Met deze update kunt u een hiërarchie van artikelcategorieën maken en artikelkenmerken aan elke artikelcategorie toewijzen. Zie [Procedure: Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
@@ -88,26 +88,26 @@ In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogel
 Deze update voegt acties toe aan het leverancierdashboard in de Outlook-invoegtoepassing, zodat u rechtstreeks kunt werken met bijlagen bij de gerelateerde e-mail. Door middel van acties zendt u de e-mailbijlagen rechtstreeks naar de lijst **Inkomende documenten** of naar de OCR-service, en verzendt u een goedkeuringsaanvraag voor het inkomende document. Zie voor meer informatie [Inkomende documenten beheren](across-income-documents.md).
 
 ### <a name="create-invoices-in-your-outlook-calendar"></a>Facturen aanmaken in uw Outlook-agenda
-De Outlook-invoegtoepassing werkt nu ook in de Outlook-agenda. Vanuit een agenda-afspraak kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen en een overzicht ophalen voor de klant die is gerelateerd aan de afspraak. Vervolgens kunt u een factuur maken voor de services die in de vergadering zijn geleverd, rechtstreeks in de Outlook-agenda zelf. Zie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md) voor meer informatie.  
+De Outlook-invoegtoepassing werkt nu ook in de Outlook-agenda. Vanuit een agenda-afspraak kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen en een overzicht ophalen voor de klant die is gerelateerd aan de afspraak. Vervolgens kunt u een factuur maken voor de services die in de vergadering zijn geleverd, rechtstreeks in de Outlook-agenda zelf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markt voor extensies
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). Hier kunt u extensies zoeken en vinden. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) voor meer informatie.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). Hier kunt u extensies zoeken en vinden. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Expediteurs en artikelkenmerken
 U kunt de kenmerken toevoegen aan uw voorraadartikelen, waardoor het zeer makkelijk wordt om het juiste product te vinden dat uw klant zoekt. Zie [Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.  
 
 ### <a name="new-extensions-made-available"></a>Nieuwe extensies beschikbaar
 Met deze update kunt u kiezen uit nog meer extensies in het venster **Extensiebeheer**.
-Zie voor meer informatie [Extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] van andere providers](ui-extensions-other.md).  
+Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Uw klantrelaties beheren met Microsoft Dynamics CRM vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider, die u leidt door het configuratieproces waarmee verbinding maakt met Dynamics CRM. Als dat is uitgevoerd, hebt u een naadloze koppeling tussen records in Dynamics CRM en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties beheren met Microsoft Dynamics CRM vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)
+We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider, die u leidt door het configuratieproces waarmee verbinding maakt met Dynamics CRM. Als dat is uitgevoerd, hebt u een naadloze koppeling tussen records in Dynamics CRM en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics CRM beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Update mei 2016
 In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogelijkheden toegevoegd, zoals [aangekondigd op de blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Nieuwe extensies beschikbaar
-Neem eens een kijkje in het venster **Extensiebeheer**: de update voegt nieuwe extensies toe, inclusief Sana Commerce voor [!INCLUDE[d365fin](includes/d365fin_md.md)], dat mogelijkheden voor B2B-commerce biedt, en ChargeLogic Payments dat mogelijkheden voor verwerking van betalingen en creditcards biedt. De extensies worden niet automatisch voor u geïnstalleerd, maar in het venster **Extensiebeheer** kunt u alle extensie installeren die u wilt gebruiken. Zie voor meer informatie [Extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] van andere providers](ui-extensions-other.md).  
+Neem eens een kijkje in het venster **Extensiebeheer**: de update voegt nieuwe extensies toe, inclusief Sana Commerce voor [!INCLUDE[d365fin](includes/d365fin_md.md)], dat mogelijkheden voor B2B-commerce biedt, en ChargeLogic Payments dat mogelijkheden voor verwerking van betalingen en creditcards biedt. De extensies worden niet automatisch voor u geïnstalleerd, maar in het venster **Extensiebeheer** kunt u alle extensie installeren die u wilt gebruiken. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filteren op niet-verwerkte inkomende documenten
 We voeren met de update van deze maand ook enkele wijzigingen door in de kernfunctionaliteit: de lijst met inkomende documenten wordt nu gefilterd, zodat alleen regels worden getoond waar nog geen geboekte documenten mee zijn gemaakt. Zie voor meer informatie [Inkomende documenten beheren](across-income-documents.md).  
@@ -116,19 +116,19 @@ We voeren met de update van deze maand ook enkele wijzigingen door in de kernfun
 In de rechterbovenhoek, naast het menu Instellingen, ziet u nu het kloksymbool dat u waarschijnlijk al kent van andere Office-producten: het menu Berichten. Hier ontvangt u berichten over nieuwe mails en agendaherinneringen rechtstreeks, terwijl u werkt in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="april-2016-preview"></a>Voorbeeldversie april 2016
-In april 2016 lanceerden we de voorbeeldversie van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alles was nieuw en we moedigden u om de Aan de slag-gids te starten in het demobedrijf waartoe u toegang krijgt wanneer u zich aanmeldt. De Aan de slag-gids begeleidt u door belangrijke scenario's. Zie [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md) voor meer informatie.  
+In april 2016 lanceerden we de voorbeeldversie van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alles was nieuw en we moedigden u om de Aan de slag-gids te starten in het demobedrijf waartoe u toegang krijgt wanneer u zich aanmeldt. De Aan de slag-gids begeleidt u door belangrijke scenario's. Zie voor meer informatie [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
 
 Belangrijke scenario's om in uw eentje uit te proberen:  
 
 - [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](madeira-no-outlook.md)  
-- [[!INCLUDE[d365fin](includes/d365fin_md.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)  
+- [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 - [Uw bedrijfsgegevens toegankelijk maken voor Power BI](madeira-powerbi.md)  
 - [Het rolcentrum wijzigen](change-role.md)  
 
 
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365-routekaart](https://roadmap.dynamics.com/)  
 

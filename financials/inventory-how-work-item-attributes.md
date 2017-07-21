@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Werken met artikelkenmerken| Microsoft Docs'
-description: "Hierin wordt beschreven hoe u artikelkenmerken kunt instellen en toewijzen aan artikelen en artikelcategorieën."
+title: Artikelkenmerken instellen en toewijzen aan artikelen| Microsoft Docs
+description: "Beschrijft hoe u kenmerkwaarden instelt die bijvoorbeeld kunnen worden gebruikt als zoekwoorden, en deze toewijst aan artikelen en artikelcategorieën."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 04/20/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 82fee2e5b1ae3e87e607cd930973a8be32045e71
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,20 +25,24 @@ Wanneer klanten informeren naar een artikel, via correspondentie of via een geï
 
 U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens worden toegepast op de artikelen die de artikelcategorieën gebruiken. Zie [Procedure: Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
+> [!Tip]  
+> Als u afbeeldingen aan artikelen koppelt, kan de extensie Afbeeldingsanalyse kenmerken in de afbeelding detecteren en de kenmerken voorstellen, zodat u kunt besluiten of u deze toewijst. De extensie is klaar. U hoeft deze alleen in te schakelen. Zie voor meer informatie [De extensie Afbeeldingsanalyse voor Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+
 ## <a name="to-create-item-attributes"></a>Artikelkenmerken maken
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Artikelkenmerken** de actie **Nieuw**.
 3. Vul in het venster **Artikelkenmerk** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Opmerking**: als u **Optie** selecteert in het veld **Soort**, kunt u de actie **Artikelkenmerkwaarden** kiezen om waarden voor het artikelkenmerk te maken. Zie het gedeelte "Waarden voor artikelkenmerken van het soort Optie maken" voor meer informatie.  
+> [!NOTE]  
+>   Als u **Optie** selecteert in het veld **Soort**, kunt u de actie **Artikelkenmerkwaarden** kiezen om waarden voor het artikelkenmerk te maken. Zie het gedeelte "Waarden voor artikelkenmerken van het soort Optie maken" voor meer informatie.  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Waarden voor artikelkenmerken van het soort Optie maken
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Artikelkenmerken** een artikelkenmerk van het soort **Optie** waarvoor u waarden wilt maken, en kies vervolgens de actie **Artikelkenmerkwaarden**.
 3. Vul in het venster **Artikelkenmerkwaarden** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Artikelkenmerken aan artikelen toewijzen
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Artikelen** het artikel waaraan u kenmerkwaarden wilt toewijzen, en kies vervolgens de actie **Kenmerken**.
 3. Kies in het venster **Artikelkenmerkwaarden** de actie **Nieuw**.
 4. Kies de zoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk. U kunt ook de actie **Nieuw** kiezen om eerst een nieuw artikelkenmerk te maken, zoals is uitgelegd in het gedeelte "Artikelkenmerken maken".
@@ -47,22 +51,24 @@ U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens wo
 7. Herhaal stap 4 tot en met 6 voor alle artikelkenmerken die u wilt toewijzen aan het artikel.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Artikelkenmerken aan artikelcategorieën toewijzen
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelcategorieën** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelcategorieën** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Artikelcategorieën** de artikelcategorie waaraan u artikelkenmerken wilt toewijzen en kies vervolgens de actie **Bewerken**.
 3. Kies in het venster **Artikelcategoriekaart** op het sneltabblad **Kenmerken** de actie **Nieuw**.
 4. Kies de zoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk. U kunt ook de actie **Nieuw** kiezen om eerst een nieuw artikelkenmerk te maken, zoals is uitgelegd in het gedeelte "Artikelkenmerken maken".
 5. Kies in het veld **Standaardwaarde** de zoekknop en selecteer een artikelkenmerkwaarde.
 6. Herhaal stap 4 en 5 voor alle artikelkenmerken die u wilt toewijzen aan de artikelcategorie.
 
-**Opmerking**: artikelkenmerken voor bovenliggende artikelcategorieën worden doorgegeven aan onderliggende artikelcategorieën. Dit wordt aangegeven door het veld **Overgenomen van** op het sneltabblad **Kenmerken**. Zie [Procedure: Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
+> [!NOTE]  
+>   Artikelkenmerken voor bovenliggende artikelcategorieën worden doorgegeven aan onderliggende artikelcategorieën. Dit wordt aangegeven door het veld **Overgenomen van** op het sneltabblad **Kenmerken**. Zie [Procedure: Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
 ## <a name="to-filter-by-item-attributes"></a>Filteren op artikelkenmerken
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Artikelen** de actie **Filteren op kenmerken**.
 3. Kies in het venster **Filteren op kenmerken** de opzoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk.
 4. Kies in het veld **Waarde** de zoekknop en selecteer een kenmerkwaarde om artikelen op te filteren.
 
-    **Opmerking**: u kunt alleen rechtstreeks waarden selecteren voor artikelkenmerken die vaste waarden hebben, zoals Kleur. Voor artikelkenmerken die variabele waarden hebben, zoals Breedte, moet u de artikelkenmerkwaarde opgeven door eerst een voorwaarde te selecteren. Zie stap 5.
+    > [!NOTE]  
+>   U kunt alleen rechtstreeks waarden selecteren voor artikelkenmerken die vaste waarden hebben, zoals Kleur. Voor artikelkenmerken die variabele waarden hebben, zoals Breedte, moet u de artikelkenmerkwaarde opgeven door eerst een voorwaarde te selecteren. Zie stap 5.
 5. Kies in het veld **Waarde** voor een variabel artikelkenmerk de zoekknop.
 6. Kies in het venster **Filterwaarde opgeven**, in het veld **Voorwaarde** de vervolgkeuzepijl en selecteer een voorwaarde.
 7. Voer in het veld **Waarde** een kenmerkwaarde in om artikelen op te filteren.

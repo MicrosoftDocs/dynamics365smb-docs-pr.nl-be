@@ -1,5 +1,5 @@
 ---
-title: Excel gebruiken om verouderde gegevens in Financials op te halen | Microsoft Docs
+title: Excel gebruiken om gegevens in Financials te importeren | Microsoft Docs
 description: Gebruik het standaardconfiguratiepakket om klantgegevens in Excel toe te voegen en weer in Dynamics 365 for Financials te importeren.
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0151b1c3d8bddd4692c494d1c0e5d1c036da424e
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -22,6 +22,9 @@ ms.lasthandoff: 05/04/2017
 U kunt gegevens en bepaalde transactiegegevens van andere financiële systemen importeren op basis van het standaardconfiguratiepakket in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In het venster **Pakketten voor configuratie** kunt u met het pakket werken om de gegevens te importeren en te valideren voordat u het pakket toepast.  
 
 Als u vertrouwd bent met RapidStart-services voor Microsoft Dynamics, zijn configuratiezendingen ook bekend voor u. Het standaardconfiguratiepakket ondersteunt de vaakst gebruikte soorten gegevens die u van een verouderd systeem wilt importeren. In Excel kunt u de gegevens vervolgens van het verouderde systeem toevoegen en instellen op basis van de bedrijfslogica van [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+
+> [!TIP]  
+>   U kunt ook gegevensmigratiewizards gebruiken om gegevens in QuickBooks of Dynamics GP te importeren. Zie voor meer informatie [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md) of [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="working-with-data-in-excel"></a>Werken met gegevens in Excel
 Wanneer u het standaardconfiguratiepakket exporteert naar Excel, bevat de gegenereerde werkmap een werkblad voor elke tabel in het pakket. Om uw taken te vereenvoudigen, kunt u de XML-manipulatiehulpprogramma's gebruiken die in Excel zijn ingebouwd. U kunt ook ingebouwde functies van Excel gebruiken om te helpen met het opmaken van gegevens en deze in de correcte cel te plaatsen. Voeg bijvoorbeeld een werkblad toe en kopieer de verouderde gegevens naar het werkblad. Maak vervolgens een Excel-formule om gegevens in het transformatiewerkblad te koppelen met de velden in het geëxporteerde werkblad en de oude klantgegevens. Nadat u alle gegevens hebt gekoppeld, kopieert u het gegevensbereik naar het werkblad met de tabel.  
@@ -64,5 +67,8 @@ Nadat de klantgegevens zijn ingevoerd in Excel, importeert u de gegevens in [!IN
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
+[QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  
+[Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

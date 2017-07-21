@@ -1,6 +1,6 @@
 ---
 title: Welkom | Microsoft Docs
-description: Uzelf gereedmaken om zaken te doen.
+description: Schetst de begeleide instellingen, video's, Help-onderwerpen en pagina's en vensters die u kunt gebruiken om u gereed te maken voor het doen van zaken om Dynamics 365 for Financials.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
@@ -23,9 +23,10 @@ Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[d365fin](includes/d
 
 Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar het venster **Bedrijfsassistentie**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. U opent dit venster vanuit het diagram in het rolcentrum **Bedrijfsmanager** door het vervolgkeuzemenu **Bedrijfsassistentie** te openen en daarin de actie **Instellings- en Help-resources weergeven** te kiezen. Wanneer u de pagina vernieuwt, wordt het diagram vervangen door de resources voor configuratie en help.
 
-Op de startpagina vindt u onderaan het navigatiedeelvenster het menu **Instellingen en extensies**. Vouw de knop **Home** uit om het navigatievenster weer te geven. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md) voor meer informatie.
+Op de startpagina vindt u onderaan het navigatiedeelvenster het menu **Instellingen en extensies**. Vouw de knop **Home** uit om het navigatievenster weer te geven. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
 
-**Opmerking:** de lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Pakket**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.
+> [!NOTE]  
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Pakket**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het volgende:
 
@@ -58,7 +59,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de ver
 Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Mijn bedrijf** van de pagina **Start** om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingregistratie te maken.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
 

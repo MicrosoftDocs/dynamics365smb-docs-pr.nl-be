@@ -1,6 +1,6 @@
 ---
-title: Jaren en perioden afsluiten | Microsoft Docs
-description: Hierin wordt uitgelegd hoe u een boekjaar en perioden afsluit.
+title: Overzicht van taken om een boekjaar en boekingsperioden af te sluiten | Microsoft Docs
+description: "Schetst de taken om een boekjaar of boekhoudperiode te sluiten, bijvoorbeeld, ervoor zorgen dat documenten en dagboeken worden geboekt en banksaldi verifiëren."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,6 +31,7 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 | Haal een overzicht op van activiteiten die gewoonlijk aan het einde van een periode worden uitgevoerd, zoals het boeken van alle documenten en dagboeken of het uitvoeren van rapportageschema's. |[Perioden afsluiten](year-how-complete-period-end-processes.md) |
 | Wisselkoersen bij te werken en de wisselkoersen van geboekte klant-, leveranciers- en bankrekeningposten aan te passen. |[Procedure: Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
 | Kosten en inkomsten te verdelen over rekeningen en dimensies. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
+| Aangifte van btw-bedragen die u hebt geïnd voor verkopen, aan de webservice van de belastingdienst voorbereiden. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
 | Rapporten af te drukken om saldo's van het grootboek, klanten, leveranciers en bankrekeningen te verifiëren voor het sluiten van een periode. |[Rapporten voorbereiden die voorafgaan aan een afsluiting](year-prepare-preclose-reports.md) |
 | Sluit boekingsperioden en boekjaar, boek saldi van resultatenrekeningen over naar balansrekeningen en boek de jaareinde-ultimopost. |[Boeken afsluiten](year-close-books.md) |
 | Rapporten af te drukken die u kunnen helpen bij het maken van financiële overzichten. |[Afsluitingsoverzichten voorbereiden](year-prepare-close-statement.md) |

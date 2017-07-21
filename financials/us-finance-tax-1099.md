@@ -1,6 +1,6 @@
 ---
 title: 1099-transacties rapporteren in de Verenigde Staten | Microsoft Docs
-description: In uw inkoopdocumenten kunt u opgeven dat het document onder 1099 valt en u kunt de 1099-code voor de leverancier opgeven.
+description: De IRS vereist het belastingformulier 1099 voor betalingen aan leveranciers en u kunt opgeven dat een inkoopdocument 1099-plichtig is en de code 1099 opgeven voor de leverancier.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>1099-transacties rapporteren in de Verenigde Staten
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Transacties rapporteren als 1099-plichtig in de Verenigde Staten
+
 De Internal Revenue Service (IRS) vereist een of meerdere versies van het 1099-belastingformulier voor betalingen aan leveranciers. Kopieën van deze formulieren moeten jaarlijks op of voor de laatste dag van januari aan leveranciers worden verzonden. In uw inkoopdocumenten kunt u opgeven dat het document onder 1099 valt en u kunt de 1099-code voor de leverancier opgeven.  
 
 ## <a name="1099-codes"></a>1099-codes

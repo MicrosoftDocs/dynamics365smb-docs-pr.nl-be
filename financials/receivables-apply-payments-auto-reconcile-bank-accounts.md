@@ -1,6 +1,6 @@
 ---
-title: "Betalingen automatisch vereffenen en bankrekeningen reconciliëren | Microsoft Docs"
-description: "Betalingen automatisch vereffenen en bankrekeningen reconciliëren"
+title: "Taken om bankrekeningen te reconciliëren en betalingen te vereffenen met gerelateerde posten | Microsoft Docs"
+description: "Schetst taken om uw bank-, tegoeden- en schuldenrekeningen te reconciliëren, kasontvangsten of onkosten te boeken en betalingen automatisch te vereffenen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0c56da9bc395ed16a5be223e65c9e9594e643993
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f828fce295b15db9e50034a51e1531b29b064c85
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

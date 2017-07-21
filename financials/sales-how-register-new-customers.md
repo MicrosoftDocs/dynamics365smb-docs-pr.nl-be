@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Nieuwe klanten registreren | Microsoft Docs'
-description: 'Procedure: Nieuwe klanten registreren'
+title: Een klantenkaart maken om nieuwe klanten registreren | Microsoft Docs
+description: "Beschrijft hoe u een klantenkaart maakt om informatie te registreren over elke nieuwe klant of cliënt aan wie u verkoopt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ Klanten zijn de bron van uw inkomsten. U moet elke klant aan wie u verkoopt regi
 
 Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes instellen waaruit u kunt selecteren bij het invullen van klantenkaarten. Zie [Verkopen instellen](sales-setup-sales.md) voor meer informatie.
 
-**Opmerking**: als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.
+> [!NOTE]  
+>   Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
 1. Kies op de startpagina de actie **Klanten** om de lijst met bestaande klanten te openen.  

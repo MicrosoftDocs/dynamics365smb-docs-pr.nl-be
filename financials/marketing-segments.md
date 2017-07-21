@@ -1,6 +1,6 @@
 ---
-title: Segmenten beheren | Microsoft Docs
-description: Beschrijft segmenten voor contacten in Financials
+title: Segmenten beheren en contacten selecteren om op te nemen| Microsoft Docs
+description: Schetst de taken voor het maken van een segment om een groep contacten op basis van specifieke criteria te selecteren, bijvoorbeeld, contacten in een bepaalde branche waarop u zich wilt richten.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 430199404ebab6d72f2f7748bb90e5ed3cd223c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | --- | --- |
 | Segmenten maken waarmee u een groep contacten kunt selecteren. Bijvoorbeeld direct mail. |[Procedure: Segmenten maken](marketing-how-create-segment.md) |
 | De contacten beheren die zijn toegewezen aan segmenten. |[Procedure: Contactpersonen toevoegen aan segmenten](marketing-add-contact-segment.md) |
-| Meer informatie over interacties en segmenten, inclusief registratie. |[Interactie en segmenten](marketing-interaction-segments.md) |
+| Meer informatie over interacties en segmenten, inclusief registratie. |[Interactie en segmenten beheren](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  

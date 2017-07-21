@@ -1,6 +1,6 @@
 ---
-title: Inkopen | Microsoft Docs
-description: Hierin wordt beschreven hoe u inkoopactiviteiten kunt beheren.
+title: Overzicht van taken om inkoop te beheren | Microsoft Docs
+description: Schetst taken om uw inkoop- of verwervingsprocessen te beheren, onder andere hoe inkoopfacturen en inkooporders werken.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Als u dit wilt doen | Zie |
 | --- | --- |
 | Maak een inkoopfactuur om uw overeenstemming met een leverancier vast te leggen om producten tegen bepaalde leverings- en betalingscondities te kopen. |[Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md) |
-| Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Procedure: Producten inkopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
+| Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Procedure: Producten kopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
 | Voer een actie op een onbetaalde, geboekte inkoopfactuur uit om automatisch een creditmemo te maken en de inkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Procedure: Niet-betaalde verkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Procedure: Inkoopretouren of annuleringen verwerken](purchasing-how-register-new-vendors.md) |
 | Maak een leverancierkaart voor elke leverancier bij wie u inkoopt. |[Procedure: Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md) |

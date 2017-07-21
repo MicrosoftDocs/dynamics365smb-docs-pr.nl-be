@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Afsluiten WenV-rekening | Microsoft Docs'
-description: Hierin wordt uitgelegd hoe u een WenV-rekening afsluit.
+title: Resultatenrekeningen sluiten | Microsoft Docs
+description: Bij jaarafsluiting moet u de batchverwerking Afsluiten WenV-rekening uitvoeren om de boekhoudperioden te sluiten die het boekjaar vormen.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dde7b93c6a3dcf78173494f1c6fa09a38207e676
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="close-income-statement"></a>Afsluiten WenV-rekening
+# <a name="how-to-close-income-statement-accounts"></a>Procedure: Resultatenrekeningen sluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten. Voer hiervoor de batchverwerking **Afsluiten WenV-rekening** uit. Met deze taak wordt het jaarresultaat overgeboekt naar een rekening op de balans en worden de resultatenrekeningen afgesloten. In een dagboek worden regels gemaakt die u vervolgens kunt boeken.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>De batchverwerking Afsluiten WenV-rekening uitvoeren
 1. Sluit het boekjaar. Het boekjaar moet zijn afgesloten voordat u de batchverwerking kunt uitvoeren. Zie [Procedure: Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
-2. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Afsluiten WenV-rekening** in en klik op de gerelateerde koppeling.
+2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afsluiten WenV-rekening** in en kies vervolgens de gerelateerde koppeling.
 3. Kies **OK** om de batchverwerking te starten.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Informatie over de batchverwerking Afsluiten WenV-rekening

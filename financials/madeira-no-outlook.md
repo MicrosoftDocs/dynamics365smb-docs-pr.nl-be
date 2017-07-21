@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Financials gebruiken zonder Outlook | Microsoft Docs
-description: Dynamics 365 for Financials gebruiken zonder Outlook
+description: "U kunt Dynamics 365 voor Financials Dynamics gebruiken als uw bedrijfsinbox, omdat deze is geïntegreerd met Office 365. U kunt echter ook zonder Outlook in een browser werken of op uw mobiele apparaat."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,17 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 43ef56ed29c25ccd3cea53b9332cbf73f04c8e1f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Dynamics 365 for Financials gebruiken zonder Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft diepe Office 365-integratie en u kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook. Maar als u Outlook niet hebt, kunt u met [!INCLUDE[d365fin](includes/d365fin_md.md)] in de browser of op uw mobiele apparaat werken.  
 

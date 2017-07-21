@@ -1,6 +1,6 @@
 ---
-title: Contacten synchroniseren met klanten, leveranciers en bankrekeningen | Microsoft Docs
-description: Beschrijft het synchroniseren van contacten met klanten, leveranciers en bankrekeningen in Financials
+title: Contacten synchroniseren met klanten en leveranciers| Microsoft Docs
+description: "U koppelt of synchroniseert contactgegevens van contacten die tevens klanten, leveranciers of bankrekeningen zijn, zodat u de gegevens slechts op één locatie hoeft bij te werken."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b28cd00659b077403e3174ac69c32ad5d9a8bf83
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,7 +42,8 @@ Wanneer het contact wordt gesynchroniseerd met de klant-, leveranciers- of bankr
 * Als u een contact verwijdert dat aan een klant, leverancier of bankrekening is gekoppeld, wordt alleen het contact verwijderd. De klant, leverancier of bankrekening blijft.
 * Als u een klant, leverancier of bankrekening verwijdert die aan een contact is gekoppeld, blijft het contact.
 
-**Opmerking**: sommige details, zoals facturerings- en boekingsgegevens, worden niet weergegeven op de contactkaart. Mogelijk wilt u deze handmatig toevoegen op de klanten-, leveranciers- of bankrekeningkaart wanneer u klanten, leveranciers of bankrekeningen van contacten maakt.
+> [!NOTE]  
+>   Sommige details, zoals facturerings- en boekingsgegevens, worden niet weergegeven op de contactkaart. Mogelijk wilt u deze handmatig toevoegen op de klanten-, leveranciers- of bankrekeningkaart wanneer u klanten, leveranciers of bankrekeningen van contacten maakt.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

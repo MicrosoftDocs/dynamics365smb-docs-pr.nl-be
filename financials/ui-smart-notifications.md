@@ -1,6 +1,6 @@
 ---
-title: Slimme berichten | Microsoft Docs
-description: Slimme berichten geven u advies en doen aanbevelingen.
+title: Werken met slimme berichten en opgeven wanneer u deze ziet | Microsoft Docs
+description: U kunt berichten ontvangen die u informeren over statusveranderingen of gebeurtenissen, bijvoorbeeld een achterstallig saldo of lage voorraad.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Als u begint te werken met [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn alle
 Bovendien kunt u voor sommige berichten de voorwaarden opgeven wanneer deze moeten worden verzonden. Bijvoorbeeld als u wilt worden gewaarschuwd wanneer de voorraad te klein is, maar alleen voor artikelen die u inkoopt bij een bepaalde leverancier.  
 Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is alleen voor u van toepassing.  
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Mijn berichten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mijn berichten** in en kies vervolgens de gerelateerde koppeling.
 2. Als u een bericht wilt in- of uitschakelen, schakelt u het selectievakje **Geactiveerd** in of uit.
 3. Als u voorwaarden wilt opgeven die een bericht activeren, kiest u de koppeling **Filtergegevens weergeven** en vult u de velden in.  
 

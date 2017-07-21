@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Gebruikers en machtigingen beheren | Microsoft Docs'
-description: Machtigingensets beheren voor gebruikers nadat u gebruikers in Office 365 hebt gemaakt.
+title: Gebruikersmachtigingen toewijzen en machtigingensets maken of wijzigen | Microsoft Docs
+description: Beschrijft hoe u Office 365-gebruikers toevoegt aan Financials en vervolgens machtigingen, toegangsrechten en beveiligingsinstellingen toewijst.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Als gebruikers in Office 365 zijn aangemaakt, kunnen ze worden geïmporteerd in 
 
 U kunt vervolgens machtigingensets aan gebruikers toewijzen om te bepalen tot welke databaseobjecten (en daardoor tot welke UI-elementen) zij toegang hebben en in welke bedrijven.
 
-**Belangrijk:** Als de database meerdere bedrijven bevat, moet ten minste één gebruiker een lid van de gebruikersgroep SUPER zijn in alle bedrijven.
-
 Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de database. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Er zijn standaard verschillende vooraf gedefinieerde machtigingensets beschikbaar. U kunt de machtigingensets gebruiken zoals deze zijn gedefinieerd, u kunt de sets aanpassen of u kunt uw eigen machtigingensets maken.
 
 U kunt gebruikers toevoegen aan gebruikersgroepen. Hierdoor wordt het gemakkelijker om dezelfde machtigingensets aan meerdere gebruikers toe te wijzen.
 
-**Opmerking:** Deze functionaliteit vereist dat uw ervaring is ingesteld op Pakket. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.
+Beheerders kunnen het venster **Gebruikersinstellingen** gebruiken om perioden te definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld.
+
+> [!NOTE]  
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op Pakket. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Machtigingen toewijzen aan een gebruiker
-1. Kies in de rechterbovenhoek het pictogram Zoeken naar pagina of rapport, voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de gebruiker waaraan u machtigingen wilt toewijzen.
 Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven in het feitenblok **Machtigingensets**.
 3. Kies de actie **Bewerken** om het venster **Gebruikerskaart** te openen.
@@ -45,7 +46,7 @@ Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven
 ## <a name="to-group-users-in-user-groups"></a>Gebruikers in gebruikersgroepen samenvoegen
 U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren voor groepen gebruikers in uw bedrijf. U kunt een functie gebruiken om alle machtigingensets van een bestaande gebruikersgroep naar de nieuwe gebruikersgroep te kopiëren. De leden van de gebruikersgroep worden niet gekopieerd.
 
-1. Kies in de rechterbovenhoek het pictogram Zoeken naar pagina of rapport, voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. U kunt ook in het venster **Gebruikers** de actie **Gebruikersgroepen** kiezen.
 3. Selecteer in het venster **Gebruikersgroepen** een bestaande gebruikersgroep die u wilt kopiëren en kies de actie **Gebruikersgroep kopiëren**.
 4. Geef in het veld **Nieuwe gebruikersgroepcode** de naam van de nieuwe gebruikersgroep en kies de knop **OK**.
@@ -60,7 +61,7 @@ U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren vo
 Als de standaard machtigingensets van [!INCLUDE[d365fin](includes/d365fin_md.md)] ontoereikend zijn of niet geschikt zijn voor uw organisatie, kunt u nieuwe machtigingensets maken. En als de afzonderlijke objectmachtigingen die een machtigingenset definiëren niet voldoende zijn, kunt een machtigingenset aanpassen. U kunt een machtigingenset handmatig maken, of u kunt een opnamefunctie gebruiken die uw acties vastlegt terwijl u door scenario navigeert en daarmee de vereiste machtigingenset genereert.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Machtigingensets handmatig maken of wijzigen
-1. Kies in de rechterbovenhoek het pictogram Zoeken naar pagina of rapport, voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Gebruikers** de actie **Machtigingensets**.
 3. Kies in het venster **Machtigingensets** de actie **Nieuw**.
 4. Vul op een nieuwe regel de velden indien nodig in.
@@ -82,7 +83,7 @@ Als de standaard machtigingensets van [!INCLUDE[d365fin](includes/d365fin_md.md)
 9. Herhaal stap 7 en 8 en voeg aan de machtigingenset machtigingen toe voor aanvullende objecten.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Machtigingensets maken of bewerken door uw acties op te nemen
-1. Kies in de rechterbovenhoek het pictogram Zoeken naar pagina of rapport, voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Gebruikers** de actie **Machtigingensets**.
 3. Kies in het venster **Machtigingensets** de actie **Nieuw**.
 4. Vul op een nieuwe regel de velden indien nodig in.
@@ -101,8 +102,16 @@ Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, **Verkoop-boeke
 
 De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel **Inkoopregel** om de codeunit uit te voeren. Als de gebruiker indirecte machtiging heeft voor de tabel **Inkoopregel**, kan de codeunit **Verkoop-boeken** worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel **Inkoopregel** wijzigen door de codeunit **Verkoop-boeken** of een ander object uit te voeren dat machtiging heeft om de tabel **Inkoopregel** te wijzigen. De gebruiker kan alleen de tabel **Inkoopregel** wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
 
+## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
+Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers.
+
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
+2. Kies in het venster **Gebruikersinstellingen** dat wordt geopend, de actie **Nieuw**.
+3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
+4. Vul indien nodig de velden in.
+
 ## <a name="see-also"></a>Zie ook
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Speciale verkoopprijzen en kortingen registreren | Microsoft Docs'
-description: 'Procedure: Speciale verkoopprijzen en kortingen registreren'
+title: Speciale verkoopprijzen en kortingen voor klanten instellen | Microsoft Docs
+description: Beschrijft hoe u de alternatieve prijsstelling en kortingsovereenkomsten definieert die u op verkoopdocumenten wilt toepassen tijdens de verkoop aan verschillende klanten.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 03/29/2017
+ms.date: 07/03/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5ceddded2f95e15a6a7449bf2776b7776ce8a55c
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: 41558d6eec29a277db3cf8f156ae476faf315238
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-record-special-sales-prices-and-discounts"></a>Procedure: Speciale verkoopprijzen en kortingen registreren
 De verschillende prijs- en kortingsovereenkomsten voor de verkoop aan verschillende klanten moeten zijn vastgesteld zodat de overeengekomen regels en waarden worden toegepast op verkoopdocumenten die u maakt voor de klanten.
 
-Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie voor meer informatie [Geavanceerd: De beste prijs berekenen](advanced-best-price-calculation.md).
+Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie voor meer informatie de sectie 'De beste prijs berekenen'.
 
 U kunt een speciale verkoopprijs op verkoopregels laten invoegen als een bepaalde combinatie bestaat van klant, artikel, minimumaantal, maateenheid of begin- en einddatum.
 
@@ -37,14 +37,14 @@ U kunt twee soorten verkoopkortingen instellen en gebruiken:
 Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinatie van artikel en klant, kunt u dit ook configureren vanaf de artikelkaart van het artikel waarop de regels en waarden van toepassing zijn.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Een verkoopprijs voor een klant instellen
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Prijzen**.
 
     Het veld **Verkoopsoort** wordt vooraf ingevuld met de waarde **Klant** en het veld **Verkoopcode** wordt vooraf ingevuld met het klantnummer.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopprijs aan de klant wordt verleend.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen**.
 
     Het veld **Verkoopsoort** wordt vooraf ingevuld met de waarde **Klant** en het veld **Verkoopcode** wordt vooraf ingevuld met het klantnummer.
@@ -53,11 +53,12 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
 Wanneer u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, geeft u de factuurkortingscode op de klantenkaarten op en stelt u de voorwaarden voor elke code in.
 
-1. In de rechterbovenhoek, kies het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de klantenkaart voor een klant die voor factuurkortingen in aanmerking komt.
 3. Selecteer in het veld **Factuurkortingscode** een code voor de desbetreffende factuurkortingsvoorwaarden die moeten worden gehanteerd voor het berekenen van factuurkortingen voor de klant.
 
-    **Opmerking**: factuurkortingscodes worden vertegenwoordigd door bestaande klantenkaarten. Zo kunt u snel factuurkortingsvoorwaarden aan klanten toewijzen door de naam van een andere klant te kiezen die dezelfde voorwaarden heeft.
+    > [!NOTE]  
+>   Factuurkortingscodes worden vertegenwoordigd door bestaande klantenkaarten. Zo kunt u snel factuurkortingsvoorwaarden aan klanten toewijzen door de naam van een andere klant te kiezen die dezelfde voorwaarden heeft.
 
     Ga door met het instellen van de nieuwe voorwaarden voor de nieuwe verkoopfactuurkorting.
 4. Kies in het venster **Klantenkaart** de actie **Factuurkortingen**. Het venster **Verkoopfactuurkorting** verschijnt.
@@ -68,8 +69,50 @@ Wanneer u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, 
 
 De factuurkorting is nu ingesteld en toegewezen aan de klant in kwestie. Wanneer u de klantcode selecteert in het veld **Factuurkortingscode** op andere klantenkaarten, wordt dezelfde factuurkorting toegewezen aan die klanten.
 
+## <a name="sales-invoice-discounts-and-service-charges"></a>Verkoopfactuurkortingen en administratiekosten
+Wanneer u factuurkortingen gebruikt, wordt op basis van het factuurbedrag bepaald welke korting wordt verleend.  
+
+In het venster **Verkoopfactuurkorting** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  
+
+U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens hebt opgegeven. U moet bepalen:  
+
+- welke klanten in aanmerking komen voor dit soort korting;  
+- welke kortingspercentages u gebruikt.  
+
+Als u factuurkortingen automatisch wilt berekenen, kunt u dit instellen in het venster Verkoopinstellingen.  
+
+Voor elke klant kunt u opgeven of u factuurkortingen verleent als aan de voorwaarde is voldaan (als dus het factuurbedrag hoog genoeg is). U kunt condities voor verkoopfacturen definiëren in de lokale valuta voor binnenlandse klanten en in een vreemde valuta voor buitenlandse klanten.  
+
+U koppelt kortingspercentages aan specifieke factuurbedragen in **Verkoopfactuurkortingen**-vensters. U kunt een willekeurig aantal percentages invoeren in elk venster. Elke klant kan een eigen venster hebben, of u kunt verschillende klanten aan hetzelfde venster koppelen.  
+
+Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan een specifiek factuurbedrag koppelen.  
+
+> [!TIP]  
+>  Voordat u deze gegevens opgeeft, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zodoende kunt u gemakkelijker zien welke klanten u kunt koppelen aan hetzelfde venster Factuurkorting. Hoe minder vensters u hebt ingesteld, des te sneller kunt u de basisgegevens opgeven.  
+
+## <a name="best-price-calculation"></a>Berekening van beste prijs
+Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen.
+
+De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorting op een bepaalde datum. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt dit automatisch berekend wanneer de eenheidsprijs en het regelkortingspercentage voor artikelen op nieuwe document- en dagboekregels worden ingevoegd.
+
+> [!NOTE]  
+>   Hierna wordt beschreven hoe de beste prijs voor verkoop wordt berekend. De berekening is hetzelfde voor inkopen.
+
+1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de combinatie van de factuurklant en het artikel gecontroleerd en vervolgens worden de eenheidsprijs en het regelkortingspercentage die van toepassing zijn berekend op basis van de volgende criteria:
+
+    - Is er een prijs-/kortingsafspraak voor de klant of behoort de klant tot een groep waarvoor een dergelijke afspraak geldt?
+    - Zijn er dergelijke prijs-/kortingsafspraken van toepassing op het artikel of de artikelkortingsgroep op de regel?
+    - Valt de besteldatum (of de boekingsdatum van de factuur en creditnota) binnen de begin- en einddatum van de prijs-/kortingsafspraak?
+    - Is er een eenheidscode opgegeven? In dat geval controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] op prijzen/kortingen met dezelfde eenheidscode en op prijzen/kortingen zonder eenheidscode.
+
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert of eventuele prijs-/kortingsafspraken van toepassing zijn op gegevens in het document of de dagboekregel, en voegt vervolgens de betreffende eenheidsprijs en het regelkortingspercentage in op basis van de volgende criteria:
+
+    - Is er een minimale hoeveelheidsvereiste in de prijs-/kortingsafspraak waaraan wordt voldaan?
+    - Is er een valutavereiste in de prijs-/kortingsafspraak waaraan wordt voldaan? Zo ja, dan worden de laagste prijs en de hoogste regelkorting voor deze valuta ingevoegd, zelfs als de lokale valuta een betere prijs geeft. Als er geen prijs-/kortingsafspraak voor de opgegeven valutacode is, worden in [!INCLUDE[d365fin](includes/d365fin_md.md)] de laagste prijs en de hoogste regelkorting in lokale valuta ingevoegd.
+
+Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
+
 ## <a name="see-also"></a>Zie ook
-[Geavanceerd: De beste prijs berekenen](advanced-best-price-calculation.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

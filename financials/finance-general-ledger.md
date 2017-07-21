@@ -1,6 +1,6 @@
 ---
-title: Het grootboek en het rekeningschema| Microsoft Docs
-description: "Beschrijft het grootboek, het rekeningschema en de rekeningcategorieën."
+title: Leren over grootboek en COA| Microsoft Docs
+description: "Beschrijft het grootboek, het rekeningschema en rekeningcategorieën."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Het grootboek en het rekeningschema
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Het grootboek en COA begrijpen
 In het grootboek worden uw financiële gegevens opgeslagen en het rekeningschema bevat de rekeningen waarnaar alle grootboekposten worden geboekt. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Grootboekinstellingen en algemene boekingsinstellingen
@@ -64,5 +64,5 @@ De volgende keer dat u rapportageschema's genereert, bevat uw saldo-overzicht ee
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
 [De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)  
-[Rapportageschema's](finance-account-schedule.md)  
+[Bedrijfsinformatie](bi.md)  
 

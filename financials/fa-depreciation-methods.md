@@ -1,6 +1,6 @@
 ---
 title: Afschrijvingsmethoden|Microsoft Docs
-description: Beschrijft de zeven methoden die u kunt gebruiken om vaste activa af te schrijven.
+description: Leren over de verschillende methoden om vaste activa af te schrijven of in waarde te verminderen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ U hebt de beschikking over acht afschrijvingsmethoden:
 * Eigen definitie  
 * Handmatig  
 
-  **Opmerking:** u kunt deze methode gebruiken voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.  
+  > [!NOTE]  
+>   Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.  
 * Halfjaarlijkse afspraak  
 
-  **Opmerking:** wanneer u deze methode gebruikt, wordt elk jaar hetzelfde bedrag afgeschreven voor een vast activum.  
+  > [!NOTE]  
+>    Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.  
 
 ## <a name="straight-line-depreciation"></a>Lineaire afschrijving
 Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opties opgeven in het afschrijvingsboek voor vaste activa:  
@@ -56,7 +58,7 @@ De boekwaarde kan worden verminderd door de geboekte waardevermeerdering, waarde
 ### <a name="fixed-yearly-percentage"></a>Vast jaarpercentage
 Als u een vast jaarpercentage invult, wordt de volgende formule gebruikt om het afschrijvingsbedrag te berekenen:  
 
-Afschrijvingsbedrag = (Lineair % x Afschrijvingsbasis x Aantal afschrijvingsdagen) / (100 * 360) dagen) / 100 x 360)  
+Afschrijvingsbedrag = (Lineair % x Afschrijvingsbasis x Aantal afschrijvingsdagen) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Vast jaarbedrag
 Als u een vast jaarbedrag invult, wordt de volgende formule gebruikt om het afschrijvingsbedrag te berekenen:  
@@ -85,7 +87,7 @@ Dit is een versnelde afschrijvingsmethode waarbij het grootste gedeelte van de k
 
 Met de volgende formule worden afschrijvingsbedragen berekend:  
 
-*Afschrijvingsbedrag = (Boekwaarde afschr. % x Aantal afschrijvingsdagen) x Afschrijvingsbasis) / (100 x 360)*  
+*Afschrijvingsbedrag = (Boekwaarde afschr. % x Aantal afschrijvingsdagen x Afschrijvingsbasis) / (100 x 360)*  
 
 De afschrijvingsbasis is de boekwaarde, verminderd met de geboekte afschrijving sinds de begindatum van het lopende boekjaar.  
 
@@ -203,7 +205,7 @@ Eerste jaar:
 
 *Boekwaarde-afschrijvingsbedrag: 25% van 100.000 = 25.000 = 12.500 + 12.500*  
 
-*Lineair afschrijvingsbedrag = 100.000/8 = 12.500 + 6.250 + 6.250*  
+*Lineair afschrijvingsbedrag = 100.000/8 = 12.500 = 6.250 + 6.250*  
 
 Het boekwaarde-afschrijvingsbedrag wordt gebruikt, omdat dit het hoogste bedrag is.  
 
@@ -222,7 +224,7 @@ Voor het instellen van een eigen methode gebruikt u het venster **Afschrijvingst
 
 De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:  
 
-Afschrijvingsbedrag = (Afschrijvingen % x Aantal afschrijvingsdagen x Afschrijvingsbasis) basis) x (100/360)  
+Afschrijvingsbedrag = (Afschrijvingen % x Aantal afschrijvingsdagen x Afschrijvingsbasis) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Afschrijving op basis van aantal eenheden
 Deze eigen methode kan ook worden gebruikt om af te schrijven op basis van het aantal eenheden, bijvoorbeeld in het geval van productiemachines met een vastgestelde capaciteit gedurende hun levensduur. In het venster **Afschrijvingstabellen** kunt u het aantal eenheden invullen dat per periode (maand, kwartaal, jaar of boekhoudperiode) kan worden geproduceerd.  
@@ -230,7 +232,7 @@ Deze eigen methode kan ook worden gebruikt om af te schrijven op basis van het a
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Eigen afschrijvingsmethoden instellen
 In het venster **Afschrijvingstabel** kunt u een eigen afschrijvingsmethoden instellen. U kunt bijvoorbeeld afschrijving instellen op basis van het aantal eenheden.  
 
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingstabellen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingstabellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Afschrijvingstabeloverzicht** de actie **Nieuw**.  
 3. Vul in het venster **Afschrijvingstabel** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Deze afschrijvingsmethode kan worden gebruikt in samenhang met de volgende afsch
 
 Als u de halfjaarlijkse afspraak toepast, heeft een vast activum een afschrijving van zes maanden in het eerste boekjaar, ongeacht de inhoud van het veld **Begindatum afschrijving**.  
 
-**Opmerking:** de verwachte levensduur van een vast activum na het eerste boekjaar, bedraagt altijd een half jaar bij de halfjaarlijkse afspraak. Om de halfjaarlijkse afspraak dus juist toe te passen, moet het veld **Einddatum afschrijving** in het venster **VA-afschrijvingsboeken** altijd een datum bevatten die precies zes maanden voor de laatste datum van het boekjaar ligt waarin het vaste activum volledig is afgeschreven.  
+> [!NOTE]  
+>   De verwachte levensduur van een vast activum na het eerste boekjaar, bedraagt altijd een half jaar bij de halfjaarlijkse afspraak. Om de halfjaarlijkse afspraak dus juist toe te passen, moet het veld **Einddatum afschrijving** in het venster **VA-afschrijvingsboeken** altijd een datum bevatten die precies zes maanden voor de laatste datum van het boekjaar ligt waarin het vaste activum volledig is afgeschreven.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Voorbeeld - afschrijving volgens halfjaarlijkse afspraak
 De aanschafkosten van een vast activum bedragen LV 100.000. De **Begindatum afschr.** is 03-01-10. De verwachte levensduur is vijf jaar, dus de **Einddatum afschr.** moet 06-30-15 zijn. De batchverwerking **Afschrijving berekenen** wordt jaarlijks uitgevoerd. Dit voorbeeld is gebaseerd op een agendaboekjaar.  
@@ -297,7 +300,7 @@ De VA-posten zien er als volgt uit:
 | 31-12-12 |Afschrijvingen |360 |-20.000,00 |50,000.00 |
 | 31-12-13 |Afschrijvingen |360 |-20.000,00 |30,000.00 |
 | 31-12-14 |Afschrijvingen |360 |-20.000,00 |10,000.00 |
-| 31-12-15 |Afschrijvingen |180 |-10.000,00 |  0.00 |
+| 31-12-15 |Afschrijvingen |180 |-10.000,00 |0.00 |
 
 * Begindatum afschrijving  
 
@@ -314,7 +317,7 @@ De VA-posten zien er als volgt uit:
 | 31-12-12 |Afschrijvingen |360 |-19.200,00 |28,800.00 |
 | 31-12-13 |Afschrijvingen |360 |-11.520,00 |17,280.00 |
 | 31-12-14 |Afschrijvingen |360 |-11.520,00 |5.760,00 Lin |
-| 31-12-15 |Afschrijvingen |180 |  -5.760,00 |0,00 Lin |
+| 31-12-15 |Afschrijvingen |180 |-5.760,00 |0,00 Lin |
 
 * Begindatum afschrijving  
 
@@ -343,14 +346,16 @@ Als er drie afschrijvingsboeken zijn, B1, B2 en B3, en u wilt posten uit B1 naar
 
 Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het veld **Duplicatielijst gebruiken** inschakelt, wordt de post tijdens het boeken naar B2 en B3 in het dagboek voor vaste activa gedupliceerd.  
 
-**Opmerking:** U kunt niet in hetzelfde dagboek en dezelfde dagboekbatch dupliceren als waar u vanuit dupliceert. Als u posten in het financieel dagboek voor vaste activa boekt, kunt u deze met behulp van een andere batch dupliceren in het dagboek voor vaste activa of in het financieel dagboek voor vaste activa.  
+> [!NOTE]  
+>   U kunt niet in hetzelfde dagboek en dezelfde dagboekbatch dupliceren als waar u vanuit dupliceert. Als u posten in het financieel dagboek voor vaste activa boekt, kunt u deze met behulp van een andere batch dupliceren in het dagboek voor vaste activa of in het financieel dagboek voor vaste activa.  
 
-**Opmerking**: u kunt niet dezelfde nummerreeks gebruiken in het financieel dagboek voor vaste activa en het dagboek voor vaste activa. Wanneer u posten in het financieel dagboek voor vaste activa boekt, moet u het veld **Documentnr.** leeg laten. Als u een nummer in het veld invoert, wordt het nummer gedupliceerd in het VA-dagboek. U moet het documentnummer handmatig wijzigen voordat u het dagboek kunt boeken.  
+> [!NOTE]  
+>   U kunt niet dezelfde nummerreeks gebruiken in het financieel dagboek voor vaste activa en het dagboek voor vaste activa. Wanneer u posten in het financieel dagboek voor vaste activa boekt, moet u het veld **Documentnr.** leeg laten. Als u een nummer in het veld invoert, wordt het nummer gedupliceerd in het VA-dagboek. U moet het documentnummer handmatig wijzigen voordat u het dagboek kunt boeken.  
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

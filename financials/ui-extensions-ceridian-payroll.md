@@ -1,6 +1,6 @@
 ---
-title: De extensie Ceridian Payroll | Microsoft Docs
-description: Bevat informatie over de extensie Ceridian Payroll
+title: Loon- of salarisgegevens importeren met de extensie Ceridian Payroll | Microsoft Docs
+description: Gebruik deze extensie om salaristransacties te importeren vanuit de services Ceridian HR/Payroll (VS) en Ceridian PowerPay (Canada).
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b3e5786788f9d5bc88ac6d6b170ebe8a6f03d89e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverw
 Met de extensie Ceridian Payroll kunt u loonlijsttransacties van de services Ceridian HR/Payroll (VS) en Ceridian PowerPay (Canada) importeren.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md)    
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies ](ui-extensions.md)    
 [Financiën](finance.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

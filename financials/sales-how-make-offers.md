@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Voorstellen maken| Microsoft Docs'
-description: 'Procedure: Voorstellen maken'
+title: Een verkoopaanbod of verkoopofferte maken | Microsoft Docs
+description: Beschrijft hoe u een verkoopaanbieding of een offerteaanvraagdocument maakt om uw aanbod aan een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e04af16b9fcd08217e2a3efc60288805a4db26f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -49,9 +49,10 @@ Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandel
  Laat het veld **Nr.** leeg in de volgende gevallen: - Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
  - Als de regel voor een niet-voorraadartikel is. Kies de actie **Niet-voorraadartikelen selecteren**. Zie voor meer informatie [Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
 
-11. Voer in het veld **Aantal** hoeveel eenheden van het artikel, de kosten of de transactie met de regel voor de klant worden geregistreerd.
+11. Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.
 
-    **Opmerking:** Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
+    > [!NOTE]  
+>   Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
 
     De waarde in het veld **Regelbedrag** wordt berekend als *Eenheidsprijs* x *Aantal*.  
 

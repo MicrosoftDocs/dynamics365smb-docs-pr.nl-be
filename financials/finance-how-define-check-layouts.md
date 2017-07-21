@@ -1,6 +1,6 @@
 ---
-title: "Procedure: Cheque-indelingen definiëren| Microsoft Docs"
-description: Meer informatie over welke cheque-indelingen in Financials beschikbaar zijn.
+title: De lay-out opgeven van een cheque| Microsoft Docs
+description: U kunt uw cheques ontwerpen en afdrukken in verschillende indelingen, om te voldoen aan standaards.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6081b6d09fa75b868138817442d6df4d9a8d0d7f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
 
 ## <a name="to-define-check-layouts"></a>Cheque-indelingen definiëren
-1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rapportselecties bankrekening** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Rapportselecties bankrekening** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Rapportselectie - Bankrekening** in het veld **Gebruik** **Cheque**.
 3. Selecteer een van de volgende rapport-id's.
 
@@ -36,7 +36,7 @@ Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canades
 | 10401 |Cheque (strook/strook/cheque) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/strook/cheque. |
 | 10411 |Cheque (strook/cheque/strook) |Dit rapport is ontworpen om cheques af te drukken in de indeling cheque/strook/cheque. |
 
-Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit het venster **Betalingsdagboek**. Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
+Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit het venster **Betalingsdagboek**. Zie voor meer informatie [Procedure: Werken met cheques](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Zie ook
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
