@@ -1,0 +1,1 @@
+Dit is een functionaliteit waaraan nog steeds wordt gewerkt. De functionaliteit en de inhoud op deze pagina kunnen nog worden gewijzigd. Raadpleeg de [Microsoft Dynamics 365-routekaart](https://go.microsoft.com/fwlink/?linkid=842139) voor meer informatie over toekomstige functies.
