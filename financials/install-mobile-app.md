@@ -15,23 +15,24 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Dynamics 365 for Financials installeren op uw mobiele apparaat
-Toegang tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Office 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.
+# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a><span data-ttu-id="fef36-103">Dynamics 365 for Financials installeren op uw mobiele apparaat</span><span class="sxs-lookup"><span data-stu-id="fef36-103">Getting Dynamics 365 for Financials on Your Mobile Device</span></span>
+<span data-ttu-id="fef36-104">Toegang tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens krijgen vanaf uw mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="fef36-104">Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device.</span></span> <span data-ttu-id="fef36-105">U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Office 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen.</span><span class="sxs-lookup"><span data-stu-id="fef36-105">You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera.</span></span> <span data-ttu-id="fef36-106">Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.</span><span class="sxs-lookup"><span data-stu-id="fef36-106">Follow the steps below to download the app and get started.</span></span>
 
-## <a name="to-get-the-app-on-my-mobile-device"></a>De app ophalen op mijn mobiele apparaat
-1. Installeer de [!INCLUDE[d365fin](includes/d365fin_md.md)]-app op uw mobiele apparaat door de app te downloaden van de Windows Store, App Store of Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)  
-2. Start de app vanaf uw mobiele apparaat.
-3. Voer uw gebruikersnaam en wachtwoord in, die u hebt gemaakt tijdens de aanmelding bij [!INCLUDE[d365fin](includes/d365fin_md.md)], en volg de instructies op het scherm.
+## <a name="to-get-the-app-on-my-mobile-device"></a><span data-ttu-id="fef36-107">De app ophalen op mijn mobiele apparaat</span><span class="sxs-lookup"><span data-stu-id="fef36-107">To get the app on my mobile device</span></span>
+1. <span data-ttu-id="fef36-108">Installeer de [!INCLUDE[d365fin](includes/d365fin_md.md)]-app op uw mobiele apparaat door de app te downloaden van de Windows Store, App Store of Google Play.</span><span class="sxs-lookup"><span data-stu-id="fef36-108">Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.</span></span>  
+<span data-ttu-id="fef36-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)</span><span class="sxs-lookup"><span data-stu-id="fef36-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)</span></span>  
+2. <span data-ttu-id="fef36-110">Start de app vanaf uw mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="fef36-110">Launch the app from your mobile device.</span></span>
+3. <span data-ttu-id="fef36-111">Voer uw gebruikersnaam en wachtwoord in, die u hebt gemaakt tijdens de aanmelding bij [!INCLUDE[d365fin](includes/d365fin_md.md)], en volg de instructies op het scherm.</span><span class="sxs-lookup"><span data-stu-id="fef36-111">Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.</span></span>
 
-U moet nu toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben en gegevens kunnen bekijken en bewerken.
+<span data-ttu-id="fef36-112">U moet nu toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben en gegevens kunnen bekijken en bewerken.</span><span class="sxs-lookup"><span data-stu-id="fef36-112">You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.</span></span>
 
-## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="fef36-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="fef36-113">See Also</span></span>
+<span data-ttu-id="fef36-114">[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="fef36-114">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="fef36-115">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fef36-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

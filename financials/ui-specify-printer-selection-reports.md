@@ -16,14 +16,13 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="specify-printer-selection-for-reports"></a>Printerselectie opgeven voor rapporten
-Op deze pagina is leeg omdat u nog geen specifieke printers voor bepaalde rapporten hebt ingesteld. Er wordt gewerkt aan een oplossing hiervoor.
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="60605-103">Printerselectie opgeven voor rapporten</span><span class="sxs-lookup"><span data-stu-id="60605-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="60605-104">Op deze pagina is leeg omdat u nog geen specifieke printers voor bepaalde rapporten hebt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="60605-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="60605-105">Er wordt gewerkt aan een oplossing hiervoor.</span><span class="sxs-lookup"><span data-stu-id="60605-105">We are working on solving this.</span></span>
 
-Totdat dit is gebeurt, moet u, als u een rapport wilt afdrukken, het rapport eerst downloaden als pdf-document met de knop **Verzenden naar**. Vervolgens selecteert u het bestandstype waarin u het rapport wilt downloaden. Kies hier **PDF-document**. Nu kunt u het pdf-document meteen openen en afdrukken, of het opslaan en later afdrukken.
+<span data-ttu-id="60605-106">Totdat dit is gebeurt, moet u, als u een rapport wilt afdrukken, het rapport eerst downloaden als pdf-document met de knop **Verzenden naar**.</span><span class="sxs-lookup"><span data-stu-id="60605-106">In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="60605-107">Vervolgens selecteert u het bestandstype waarin u het rapport wilt downloaden. Kies hier **PDF-document**.</span><span class="sxs-lookup"><span data-stu-id="60605-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="60605-108">Nu kunt u het pdf-document meteen openen en afdrukken, of het opslaan en later afdrukken.</span><span class="sxs-lookup"><span data-stu-id="60605-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -46,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procedure: Batchverwerkingen uitvoeren](ui-how-run-batch-jobs.md)  
-[Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="60605-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="60605-109">See Also</span></span>
+<span data-ttu-id="60605-110">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="60605-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="60605-111">Procedure: Batchverwerkingen uitvoeren</span><span class="sxs-lookup"><span data-stu-id="60605-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="60605-112">Procedure: Documenten per e-mail verzenden</span><span class="sxs-lookup"><span data-stu-id="60605-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 

@@ -16,37 +16,36 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 146fc08f389a5c068044358c59b7d8911f0b3343
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-locations"></a>Procedure: vestigingen instellen
-Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren.
+# <a name="how-to-set-up-locations"></a><span data-ttu-id="01a84-103">Procedure: vestigingen instellen</span><span class="sxs-lookup"><span data-stu-id="01a84-103">How to: Set Up Locations</span></span>
+<span data-ttu-id="01a84-104">Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren.</span><span class="sxs-lookup"><span data-stu-id="01a84-104">If you buy, store, or sell items at more than one place or warehouse, you must set each location up with a location card and define transfer routes.</span></span>
 
-U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarheid per locatie weergeven en voorraad tussen locaties overbrengen. Zie [Voorraad beheren](inventory-manage-inventory.md) voor meer informatie.
+<span data-ttu-id="01a84-105">U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarheid per locatie weergeven en voorraad tussen locaties overbrengen.</span><span class="sxs-lookup"><span data-stu-id="01a84-105">You can then create document lines for a specific location, view availability by location, and transfer inventory between locations.</span></span> <span data-ttu-id="01a84-106">Zie [Voorraad beheren](inventory-manage-inventory.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="01a84-106">For more information, see [Manage Inventory](inventory-manage-inventory.md).</span></span>
 
 > [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   <span data-ttu-id="01a84-107">Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**.</span><span class="sxs-lookup"><span data-stu-id="01a84-107">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="01a84-108">Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="01a84-108">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-create-a-location-card"></a>Een vestigingskaart maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en kies vervolgens de gerelateerde koppeling.
-2. Kies de actie **Nieuw**.
-3. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
+## <a name="to-create-a-location-card"></a><span data-ttu-id="01a84-109">Een vestigingskaart maken</span><span class="sxs-lookup"><span data-stu-id="01a84-109">To create a location card</span></span>
+1. <span data-ttu-id="01a84-110">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="01a84-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>
+2. <span data-ttu-id="01a84-111">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="01a84-111">Choose the **New** action.</span></span>
+3. <span data-ttu-id="01a84-112">Vul indien nodig de velden in het venster **Vestigingskaart** in.</span><span class="sxs-lookup"><span data-stu-id="01a84-112">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="01a84-113">Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.</span><span class="sxs-lookup"><span data-stu-id="01a84-113">Repeat steps 2 and 3 for every location where you want to keep inventory.</span></span>
 
-## <a name="to-create-a-transfer-route"></a>Een transferroute maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferroutes** in en kies de gerelateerde koppeling.
-2. U kunt ook vanuit elk **Vestiging**-venster de actie **Transferroutes** kiezen.
-3. Kies de actie **Nieuw**.
-4. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-create-a-transfer-route"></a><span data-ttu-id="01a84-114">Een transferroute maken</span><span class="sxs-lookup"><span data-stu-id="01a84-114">To create a transfer route</span></span>
+1. <span data-ttu-id="01a84-115">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferroutes** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="01a84-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Routes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="01a84-116">U kunt ook vanuit elk **Vestiging**-venster de actie **Transferroutes** kiezen.</span><span class="sxs-lookup"><span data-stu-id="01a84-116">Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.</span></span>
+3. <span data-ttu-id="01a84-117">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="01a84-117">Choose the **New** action.</span></span>
+4. <span data-ttu-id="01a84-118">Vul indien nodig de velden in het venster **Vestigingskaart** in.</span><span class="sxs-lookup"><span data-stu-id="01a84-118">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-U kunt nu voorraadartikelen tussen twee vestigingen overbrengen. Zie voor meer informatie [Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).    
+<span data-ttu-id="01a84-119">U kunt nu voorraadartikelen tussen twee vestigingen overbrengen.</span><span class="sxs-lookup"><span data-stu-id="01a84-119">You can now transfer inventory items between two locations.</span></span> <span data-ttu-id="01a84-120">Zie voor meer informatie [Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).</span><span class="sxs-lookup"><span data-stu-id="01a84-120">For more information, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).</span></span>    
 
-## <a name="see-also"></a>Zie ook
-[Voorraad beheren](inventory-manage-inventory.md)  
-[Toeleveringsketen](madeira-supply-chain.md)  
-[Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)    
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
-[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="01a84-121">Zie ook</span><span class="sxs-lookup"><span data-stu-id="01a84-121">See Also</span></span>
+[<span data-ttu-id="01a84-122">Voorraad beheren</span><span class="sxs-lookup"><span data-stu-id="01a84-122">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="01a84-123">Toeleveringsketen</span><span class="sxs-lookup"><span data-stu-id="01a84-123">Supply Chain</span></span>](madeira-supply-chain.md)  
+<span data-ttu-id="01a84-124">[Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)  </span><span class="sxs-lookup"><span data-stu-id="01a84-124">[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  </span></span>  
+<span data-ttu-id="01a84-125">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="01a84-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="01a84-126">[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="01a84-126">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>  
+[<span data-ttu-id="01a84-127">Algemene bedrijfsfunctionaliteit</span><span class="sxs-lookup"><span data-stu-id="01a84-127">General Business Functionality</span></span>](ui-across-business-areas.md)
 

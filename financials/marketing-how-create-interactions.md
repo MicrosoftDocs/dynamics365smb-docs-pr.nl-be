@@ -16,44 +16,43 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procedure: Interacties maken voor contacten en segmenten
-U kunt interacties maken om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld direct mail.
+# <a name="how-to-create-interactions-on-contacts-and-segments"></a><span data-ttu-id="1df73-103">Procedure: Interacties maken voor contacten en segmenten</span><span class="sxs-lookup"><span data-stu-id="1df73-103">How to: Create Interactions on Contacts and Segments</span></span>
+<span data-ttu-id="1df73-104">U kunt interacties maken om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld direct mail.</span><span class="sxs-lookup"><span data-stu-id="1df73-104">You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.</span></span>
 
-Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer informatie [Interactiesjablonen instellen](marketing-interactions.md).
+<span data-ttu-id="1df73-105">Voordat u interacties maakt, moet u interactiesjablonen instellen.</span><span class="sxs-lookup"><span data-stu-id="1df73-105">Before you create interactions, you must set up interaction templates.</span></span> <span data-ttu-id="1df73-106">Zie voor meer informatie [Interactiesjablonen instellen](marketing-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="1df73-106">For more information, see  [Set Up Interaction Templates](marketing-interactions.md).</span></span>
 
-## <a name="to-create-an-interaction"></a>Een interactie maken
-1. Open het contact, de verkoper of de interactielogpost.
-2. Kies de actie **Interactie maken**.
-3. Vul de velden in en kies de knop **OK**.
+## <a name="to-create-an-interaction"></a><span data-ttu-id="1df73-107">Een interactie maken</span><span class="sxs-lookup"><span data-stu-id="1df73-107">To create an interaction</span></span>
+1. <span data-ttu-id="1df73-108">Open het contact, de verkoper of de interactielogpost.</span><span class="sxs-lookup"><span data-stu-id="1df73-108">Open the contact, salesperson, or interaction log entry.</span></span>
+2. <span data-ttu-id="1df73-109">Kies de actie **Interactie maken**.</span><span class="sxs-lookup"><span data-stu-id="1df73-109">Choose the **Create Interaction** action.</span></span>
+3. <span data-ttu-id="1df73-110">Vul de velden in en kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="1df73-110">Fill in the fields, and then choose the **OK** button.</span></span>
 
 > [!NOTE]  
->   Als u nog een andere taak wilt uitvoeren voordat u de interactie voltooit, kunt u **Annuleren** kiezen en ervoor kiezen de interactie op een later tijdstip te voltooien. Dit stelt de interactie uit.
+>   <span data-ttu-id="1df73-111">Als u nog een andere taak wilt uitvoeren voordat u de interactie voltooit, kunt u **Annuleren** kiezen en ervoor kiezen de interactie op een later tijdstip te voltooien.</span><span class="sxs-lookup"><span data-stu-id="1df73-111">If you need to perform another task before finishing the interaction, you can choose **Cancel** and then finish the interaction at a later time.</span></span> <span data-ttu-id="1df73-112">Dit stelt de interactie uit.</span><span class="sxs-lookup"><span data-stu-id="1df73-112">This postpones the interaction.</span></span>
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Uitgestelde interacties voltooien en verwijderen
-1. Open het contact, de verkoper of de interactielogpost.
-2. Kies **Uitgestelde interacties**.
-3. Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
+## <a name="to-finish-and-delete-postponed-interactions"></a><span data-ttu-id="1df73-113">Uitgestelde interacties voltooien en verwijderen</span><span class="sxs-lookup"><span data-stu-id="1df73-113">To finish and delete postponed interactions</span></span>
+1. <span data-ttu-id="1df73-114">Open het contact, de verkoper of de interactielogpost.</span><span class="sxs-lookup"><span data-stu-id="1df73-114">Open the contact, salesperson, or interaction log entry.</span></span>
+2. <span data-ttu-id="1df73-115">Kies **Uitgestelde interacties**.</span><span class="sxs-lookup"><span data-stu-id="1df73-115">Choose **Postponed Interactions**.</span></span>
+3. <span data-ttu-id="1df73-116">Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.</span><span class="sxs-lookup"><span data-stu-id="1df73-116">Select the interaction you want to finish, and then choose the **Resume** action.</span></span>
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
-1. Kies op de startpagina **Actieve segmenten** of kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
-2. Vul in het venster **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
+## <a name="to-create-an-interaction-on-a-segment"></a><span data-ttu-id="1df73-117">Een interactie voor een segment maken</span><span class="sxs-lookup"><span data-stu-id="1df73-117">To create an interaction on a segment</span></span>
+1. <span data-ttu-id="1df73-118">Kies op de startpagina **Actieve segmenten** of kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="1df73-118">On the Home page, choose **Active Segments**, or choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1df73-119">Vul in het venster **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.</span><span class="sxs-lookup"><span data-stu-id="1df73-119">In the **Segment window**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.</span></span>
 
-    Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels in het venster **Segment**.  
-3. Om het segment en de interacties vast te leggen kiest u de actie **Logbestand**. Het venster **Segment registreren** wordt geopend.
-4. Als u een nieuw segment wilt maken met dezelfde contacten, schakelt u het selectievakje **Opvolgingssegm. maken** in. Voordat het opvolgingssegment kan worden gemaakt, moet u nummerreeksen voor segmenten hebben ingesteld in het venster **Marketinginstellingen**.
+    <span data-ttu-id="1df73-120">Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels in het venster **Segment**.</span><span class="sxs-lookup"><span data-stu-id="1df73-120">After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines in the **Segment** window.</span></span>  
+3. <span data-ttu-id="1df73-121">Om het segment en de interacties vast te leggen kiest u de actie **Logbestand**.</span><span class="sxs-lookup"><span data-stu-id="1df73-121">To log the segment and interactions, choose the **Log** action.</span></span> <span data-ttu-id="1df73-122">Het venster **Segment registreren** wordt geopend.</span><span class="sxs-lookup"><span data-stu-id="1df73-122">The **Log Segment** window opens.</span></span>
+4. <span data-ttu-id="1df73-123">Als u een nieuw segment wilt maken met dezelfde contacten, schakelt u het selectievakje **Opvolgingssegm. maken** in.</span><span class="sxs-lookup"><span data-stu-id="1df73-123">If you want to create a new segment containing the same contacts, select the **Create Follow-up Segment** check box.</span></span> <span data-ttu-id="1df73-124">Voordat het opvolgingssegment kan worden gemaakt, moet u nummerreeksen voor segmenten hebben ingesteld in het venster **Marketinginstellingen**.</span><span class="sxs-lookup"><span data-stu-id="1df73-124">To create a follow-up segment, you must have specified number series for segments in the **Marketing Setup** window.</span></span>
 
-Een interactie wordt geregistreerd voor elk contact binnen het segment in de tabel **Interactielogpost** en het segment wordt geregistreerd. Geregistreerde segmenten kunt u vinden in het venster **Geregistreerd segment**.
+<span data-ttu-id="1df73-125">Een interactie wordt geregistreerd voor elk contact binnen het segment in de tabel **Interactielogpost** en het segment wordt geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="1df73-125">An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged.</span></span> <span data-ttu-id="1df73-126">Geregistreerde segmenten kunt u vinden in het venster **Geregistreerd segment**.</span><span class="sxs-lookup"><span data-stu-id="1df73-126">Logged segments can be found in the **Logged Segment** window.</span></span>
 
-Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er automatisch een nieuw segment gemaakt met dezelfde contacten als in het segment dat u zojuist hebt geregistreerd.
+<span data-ttu-id="1df73-127">Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er automatisch een nieuw segment gemaakt met dezelfde contacten als in het segment dat u zojuist hebt geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="1df73-127">If you have selected the **Create Follow-up Segment** check box, a new segment is created that contains the same contacts as the segment you have just logged.</span></span>
 
-## <a name="see-also"></a>Zie ook
-[Interacties registreren](marketing-interactions.md)  
-[Contactpersonen beheren](marketing-contacts.md)  
-[Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
-[CRM instellen](marketing-setup-marketing.md)  
-[Werken met Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="1df73-128">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1df73-128">See Also</span></span>
+[<span data-ttu-id="1df73-129">Interacties registreren</span><span class="sxs-lookup"><span data-stu-id="1df73-129">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="1df73-130">Contactpersonen beheren</span><span class="sxs-lookup"><span data-stu-id="1df73-130">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="1df73-131">Verkoopopportunities beheren</span><span class="sxs-lookup"><span data-stu-id="1df73-131">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="1df73-132">CRM instellen</span><span class="sxs-lookup"><span data-stu-id="1df73-132">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="1df73-133">Werken met Financials</span><span class="sxs-lookup"><span data-stu-id="1df73-133">Working with Financials</span></span>](ui-work-product.md)
 

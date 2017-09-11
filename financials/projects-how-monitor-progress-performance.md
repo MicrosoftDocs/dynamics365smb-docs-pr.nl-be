@@ -16,87 +16,86 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Procedure: Projectvoortgang en -prestaties bewaken
-Naarmate een project vordert, worden materialen, resources en overige zaken verbruikt en moeten hiervoor boekingen plaatsvinden op het project. Onderhanden werk (OHW) is een functie waarmee u de financiële waarde van projecten in het grootboek kunt schatten gedurende de projecten. In veel gevallen kunt u kosten voor een project boeken voordat u het project factureert. Wanneer alleen kosten zijn geboekt, klopt het financiële afschrift niet. Zie [OHW-methoden](projects-understanding-wip.md) voor meer informatie.
+# <a name="how-to-monitor-job-progress-and-performance"></a><span data-ttu-id="597c5-102">Procedure: Projectvoortgang en -prestaties bewaken</span><span class="sxs-lookup"><span data-stu-id="597c5-102">How to: Monitor Job Progress and Performance</span></span>
+<span data-ttu-id="597c5-103">Naarmate een project vordert, worden materialen, resources en overige zaken verbruikt en moeten hiervoor boekingen plaatsvinden op het project.</span><span class="sxs-lookup"><span data-stu-id="597c5-103">As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job.</span></span> <span data-ttu-id="597c5-104">Onderhanden werk (OHW) is een functie waarmee u de financiële waarde van projecten in het grootboek kunt schatten gedurende de projecten.</span><span class="sxs-lookup"><span data-stu-id="597c5-104">Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing.</span></span> <span data-ttu-id="597c5-105">In veel gevallen kunt u kosten voor een project boeken voordat u het project factureert.</span><span class="sxs-lookup"><span data-stu-id="597c5-105">In many cases, you might post expenses for a job before invoicing a job.</span></span> <span data-ttu-id="597c5-106">Wanneer alleen kosten zijn geboekt, klopt het financiële afschrift niet.</span><span class="sxs-lookup"><span data-stu-id="597c5-106">When only expenses have been posted, your financial statement will be inaccurate.</span></span> <span data-ttu-id="597c5-107">Zie [OHW-methoden](projects-understanding-wip.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="597c5-107">For more information, see [Understanding WIP Methods](projects-understanding-wip.md).</span></span>
 
-Als u de waarde in het grootboek wilt volgen, kunt u het OHW-bedrag berekenen en de waarde boeken in het grootboek.
+<span data-ttu-id="597c5-108">Als u de waarde in het grootboek wilt volgen, kunt u het OHW-bedrag berekenen en de waarde boeken in het grootboek.</span><span class="sxs-lookup"><span data-stu-id="597c5-108">To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.</span></span>
 
-U kunt het OHW-bedrag berekenen op basis van de volgende zaken:
+<span data-ttu-id="597c5-109">U kunt het OHW-bedrag berekenen op basis van de volgende zaken:</span><span class="sxs-lookup"><span data-stu-id="597c5-109">You can calculate WIP based on the following:</span></span>
 
-* Kostprijs
-* Verkoopprijs
-* Kostprijs van omzet
-* Percentage voltooid
-* Contract voltooid
+* <span data-ttu-id="597c5-110">Kostprijs</span><span class="sxs-lookup"><span data-stu-id="597c5-110">Cost Value</span></span>
+* <span data-ttu-id="597c5-111">Verkoopprijs</span><span class="sxs-lookup"><span data-stu-id="597c5-111">Sales Value</span></span>
+* <span data-ttu-id="597c5-112">Kostprijs van omzet</span><span class="sxs-lookup"><span data-stu-id="597c5-112">Recognizable Cost</span></span>
+* <span data-ttu-id="597c5-113">Percentage voltooid</span><span class="sxs-lookup"><span data-stu-id="597c5-113">Percentage of Completion</span></span>
+* <span data-ttu-id="597c5-114">Contract voltooid</span><span class="sxs-lookup"><span data-stu-id="597c5-114">Completed Contract</span></span>
 
-Als u het resultaat met een andere methode wilt bekijken, kunt u de methode wijzigen en het OHW-bedrag nogmaals berekenen. U kunt net zo vaak het OHW-bedrag berekenen als u wilt. Het OHW-bedrag wordt alleen berekend en wordt niet geboekt in het grootboek. Na het berekenen van het OHW-bedrag, kunt u het OHW-bedrag boeken in het grootboek.
+<span data-ttu-id="597c5-115">Als u het resultaat met een andere methode wilt bekijken, kunt u de methode wijzigen en het OHW-bedrag nogmaals berekenen.</span><span class="sxs-lookup"><span data-stu-id="597c5-115">If you want to view the result using a different method, you can change the method and calculate WIP again.</span></span> <span data-ttu-id="597c5-116">U kunt net zo vaak het OHW-bedrag berekenen als u wilt.</span><span class="sxs-lookup"><span data-stu-id="597c5-116">There is no limit to the number of times that you calculate WIP.</span></span> <span data-ttu-id="597c5-117">Het OHW-bedrag wordt alleen berekend en wordt niet geboekt in het grootboek.</span><span class="sxs-lookup"><span data-stu-id="597c5-117">WIP is only calculated, it does not get posted to the general ledger.</span></span> <span data-ttu-id="597c5-118">Na het berekenen van het OHW-bedrag, kunt u het OHW-bedrag boeken in het grootboek.</span><span class="sxs-lookup"><span data-stu-id="597c5-118">After you have calculated WIP, you can post to the general ledger.</span></span>
 
-## <a name="to-create-a-job-wip-method"></a>Een OHW-methode voor een project maken
-U kunt een OHW-methode voor een project maken die de behoeften van uw organisatie weerspiegelt. Nadat u deze methode hebt gemaakt, kunt u deze instellen als standaard OHW-berekeningsmethode voor een project die wordt gebruikt in uw organisatie.  
+## <a name="to-create-a-job-wip-method"></a><span data-ttu-id="597c5-119">Een OHW-methode voor een project maken</span><span class="sxs-lookup"><span data-stu-id="597c5-119">To create a job WIP method</span></span>
+<span data-ttu-id="597c5-120">U kunt een OHW-methode voor een project maken die de behoeften van uw organisatie weerspiegelt.</span><span class="sxs-lookup"><span data-stu-id="597c5-120">You can create a job WIP method that reflects the needs of your organization.</span></span> <span data-ttu-id="597c5-121">Nadat u deze methode hebt gemaakt, kunt u deze instellen als standaard OHW-berekeningsmethode voor een project die wordt gebruikt in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="597c5-121">After you have created it, you can set it as the default job WIP calculation method that will be used in your organization.</span></span>  
 
-**Opmerking**. Nadat u uw nieuwe methode hebt gebruikt om OHW-posten te maken, kunt u de methode niet meer verwijderen of wijzigen.  
+<span data-ttu-id="597c5-122">**Opmerking**.</span><span class="sxs-lookup"><span data-stu-id="597c5-122">**Note**.</span></span> <span data-ttu-id="597c5-123">Nadat u uw nieuwe methode hebt gebruikt om OHW-posten te maken, kunt u de methode niet meer verwijderen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="597c5-123">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **OHW-methoden taak** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Sluit het venster.   
-4. Als u van deze nieuwe methode de standaard wilt maken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.  
-5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
+1. <span data-ttu-id="597c5-124">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **OHW-methoden taak** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="597c5-125">Kies de actie **Nieuw** en vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="597c5-125">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="597c5-126">Sluit het venster.</span><span class="sxs-lookup"><span data-stu-id="597c5-126">Close the window.</span></span>   
+4. <span data-ttu-id="597c5-127">Als u van deze nieuwe methode de standaard wilt maken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-127">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="597c5-128">Kies in het veld **Standaard OHW-methode** de methode uit de lijst.</span><span class="sxs-lookup"><span data-stu-id="597c5-128">In the **Default WIP Method** field, choose the method from the list.</span></span>
 
-## <a name="to-define-a-wip-method-for-a-job"></a>Een OHW-methode voor een project definiëren
-Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is. In sommige gevallen is de OHW-methode voor het project die u kunt gebruiken standaard voor u ingesteld.
+## <a name="to-define-a-wip-method-for-a-job"></a><span data-ttu-id="597c5-129">Een OHW-methode voor een project definiëren</span><span class="sxs-lookup"><span data-stu-id="597c5-129">To define a WIP method for a job</span></span>
+<span data-ttu-id="597c5-130">Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="597c5-130">When you create a new job, you must specify which job WIP method that applies.</span></span> <span data-ttu-id="597c5-131">In sommige gevallen is de OHW-methode voor het project die u kunt gebruiken standaard voor u ingesteld.</span><span class="sxs-lookup"><span data-stu-id="597c5-131">In some cases, which Job WIP method that you can use has been set up for you as a default.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
-2. Kies de actie **Nieuw**. Zie [Procedure: Projecten maken](projects-how-create-jobs.md) voor meer informatie.  
-3. Selecteer in het venster **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
+1. <span data-ttu-id="597c5-132">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="597c5-133">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="597c5-133">Choose the **New** action.</span></span> <span data-ttu-id="597c5-134">Zie [Procedure: Projecten maken](projects-how-create-jobs.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="597c5-134">For more information, see [How to: Create Jobs](projects-how-create-jobs.md).</span></span>  
+3. <span data-ttu-id="597c5-135">Selecteer in het venster **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst.</span><span class="sxs-lookup"><span data-stu-id="597c5-135">In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list.</span></span> <span data-ttu-id="597c5-136">Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.</span><span class="sxs-lookup"><span data-stu-id="597c5-136">If a default method has been defined, you can select another option if needed.</span></span>  
 
-## <a name="to-calculate-wip"></a>OHW berekenen
-U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. U gebruikt hiervoor de batchverwerking **OHW voor project berekenen**.  
+## <a name="to-calculate-wip"></a><span data-ttu-id="597c5-137">OHW berekenen</span><span class="sxs-lookup"><span data-stu-id="597c5-137">To calculate WIP</span></span>
+<span data-ttu-id="597c5-138">U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode.</span><span class="sxs-lookup"><span data-stu-id="597c5-138">You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="597c5-139">U gebruikt hiervoor de batchverwerking **OHW voor project berekenen**.</span><span class="sxs-lookup"><span data-stu-id="597c5-139">You use the **Job Calculate WIP** batch job to do this.</span></span>  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **OHW voor project berekenen** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **OHW berekenen**.
-3. Vul in het venster **OHW voor project berekenen** indien nodig de velden in.
-4. Kies de knop **OK**.  
-
-> [!NOTE]  
->   De batchverwerking berekent alleen het OHW. Het wordt niet geboekt in het grootboek. Hiervoor moet u de batchverwerking **OHW naar GB boeken** uitvoeren wanneer u het onderhanden werk hebt berekend. Zie de volgende procedure voor meer informatie.
-
-## <a name="to-post-wip"></a>OHW boeken
-Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage. Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.
-
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Project-OHW naar GB boeken** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul in het venster **Project-OHW naar GB boeken** indien nodig de velden in.  
-3. Kies de knop **Ok**.
-
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Projectgebruikschattingen weergeven en updates boeken
-U kunt in één stap het projectgebruik tot aan de voltooiing van een project bekijken. Hiervoor gebruikt u de batchverwerking **Project - Resterend gebruik berekenen** voor alle taken tot en met het einde van een project.  
-
-Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met de werkelijke resultaten en zo nodig wijzigingen aanbrengen of nieuwe posten maken. U hebt bijvoorbeeld mogelijk geschat dat een project 10 uur vereist en tot op heden zijn er al 15 uur aan besteed. U kunt de extra vijf uur aan de bestaande dagboekregel toevoegen of een nieuwe dagboekregel maken om deze vijf uur als overuren te rapporteren. Dit is een ander werksoort. De juiste kosten en prijzen worden berekend die vervolgens naar het dagboek kunnen worden geboekt.  
+1. <span data-ttu-id="597c5-140">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **OHW voor project berekenen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Calculate WIP**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="597c5-141">Kies de actie **OHW berekenen**.</span><span class="sxs-lookup"><span data-stu-id="597c5-141">Choose the **Calculate WIP** action.</span></span>
+3. <span data-ttu-id="597c5-142">Vul in het venster **OHW voor project berekenen** indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="597c5-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="597c5-143">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="597c5-143">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
->   Artikelposten maken artikeljournaalposten en verkleinen de voorraadhoeveelheid. De batchverwerking **Voorraadwaarde boeken** brengt de kosten van de voorraad over naar het grootboek. Resourceposten maken resourceposten.  
+>   <span data-ttu-id="597c5-144">De batchverwerking berekent alleen het OHW.</span><span class="sxs-lookup"><span data-stu-id="597c5-144">The batch job only calculates the WIP.</span></span> <span data-ttu-id="597c5-145">Het wordt niet geboekt in het grootboek.</span><span class="sxs-lookup"><span data-stu-id="597c5-145">It is not posted to the general ledger.</span></span> <span data-ttu-id="597c5-146">Hiervoor moet u de batchverwerking **OHW naar GB boeken** uitvoeren wanneer u het onderhanden werk hebt berekend.</span><span class="sxs-lookup"><span data-stu-id="597c5-146">To do so, you must run the **Post WIP to G/L** batch job when you have calculated the WIP.</span></span> <span data-ttu-id="597c5-147">Zie de volgende procedure voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="597c5-147">For more information, see the following procedure.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Resterend gebruik berekenen**.  
-3. Voer in het venster **Project - Resterend gebruik berekenen** het documentnummer en de boekingsdatum in die in het dagboek moeten worden ingevoegd, en kies vervolgens de knop **OK**.  
-4. Werk het dagboek bij met eventuele wijzigingen die nodig zijn.  
-5. Kies de actie **Boeken**.
+## <a name="to-post-wip"></a><span data-ttu-id="597c5-148">OHW boeken</span><span class="sxs-lookup"><span data-stu-id="597c5-148">To post WIP</span></span>
+<span data-ttu-id="597c5-149">Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage.</span><span class="sxs-lookup"><span data-stu-id="597c5-149">When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="597c5-150">Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.</span><span class="sxs-lookup"><span data-stu-id="597c5-150">You use the **Job Post WIP to G/L** batch job to do this.</span></span>
 
-## <a name="to-view-job-ledger-entries"></a>Projectposten bekijken
-Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1. Vanuit het projectjournaal hebt u een overzicht van alle projectposten.    
+1. <span data-ttu-id="597c5-151">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Project-OHW naar GB boeken** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Post WIP to G/L**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="597c5-152">Vul in het venster **Project-OHW naar GB boeken** indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="597c5-152">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="597c5-153">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="597c5-153">Choose the **OK** button.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer een relevant journaal en kies vervolgens de actie **Projectposten**.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><span data-ttu-id="597c5-154">Projectgebruikschattingen weergeven en updates boeken</span><span class="sxs-lookup"><span data-stu-id="597c5-154">To view job usage estimates and post updates</span></span>
+<span data-ttu-id="597c5-155">U kunt in één stap het projectgebruik tot aan de voltooiing van een project bekijken.</span><span class="sxs-lookup"><span data-stu-id="597c5-155">You can view job usage up to the completion of a project in one step.</span></span> <span data-ttu-id="597c5-156">Hiervoor gebruikt u de batchverwerking **Project - Resterend gebruik berekenen** voor alle taken tot en met het einde van een project.</span><span class="sxs-lookup"><span data-stu-id="597c5-156">To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.</span></span>  
 
-Het venster **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
+<span data-ttu-id="597c5-157">Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met de werkelijke resultaten en zo nodig wijzigingen aanbrengen of nieuwe posten maken.</span><span class="sxs-lookup"><span data-stu-id="597c5-157">This lets you track and compare your original estimates against actual results and make modifications or new entries as needed.</span></span> <span data-ttu-id="597c5-158">U hebt bijvoorbeeld mogelijk geschat dat een project 10 uur vereist en tot op heden zijn er al 15 uur aan besteed.</span><span class="sxs-lookup"><span data-stu-id="597c5-158">For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours.</span></span> <span data-ttu-id="597c5-159">U kunt de extra vijf uur aan de bestaande dagboekregel toevoegen of een nieuwe dagboekregel maken om deze vijf uur als overuren te rapporteren. Dit is een ander werksoort.</span><span class="sxs-lookup"><span data-stu-id="597c5-159">You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type.</span></span> <span data-ttu-id="597c5-160">De juiste kosten en prijzen worden berekend die vervolgens naar het dagboek kunnen worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="597c5-160">The appropriate cost and price are calculated, and you can then post to the journal.</span></span>  
 
-## <a name="see-also"></a>Zie ook
-[Projecten beheren](projects-manage-projects.md)  
-[Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)         
-[Verkoop](sales-manage-sales.md)      
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+> [!NOTE]  
+>   <span data-ttu-id="597c5-161">Artikelposten maken artikeljournaalposten en verkleinen de voorraadhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="597c5-161">Item entries create item ledger entries and reduce the inventory quantity.</span></span> <span data-ttu-id="597c5-162">De batchverwerking **Voorraadwaarde boeken** brengt de kosten van de voorraad over naar het grootboek.</span><span class="sxs-lookup"><span data-stu-id="597c5-162">The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger.</span></span> <span data-ttu-id="597c5-163">Resourceposten maken resourceposten.</span><span class="sxs-lookup"><span data-stu-id="597c5-163">Resource entries create resource ledger entries.</span></span>  
+
+1. <span data-ttu-id="597c5-164">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="597c5-165">Selecteer een relevant projectdagboek en kies vervolgens de actie **Resterend gebruik berekenen**.</span><span class="sxs-lookup"><span data-stu-id="597c5-165">Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.</span></span>  
+3. <span data-ttu-id="597c5-166">Voer in het venster **Project - Resterend gebruik berekenen** het documentnummer en de boekingsdatum in die in het dagboek moeten worden ingevoegd, en kies vervolgens de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="597c5-166">In the **Job Calc. Remaining Usage** window, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.</span></span>  
+4. <span data-ttu-id="597c5-167">Werk het dagboek bij met eventuele wijzigingen die nodig zijn.</span><span class="sxs-lookup"><span data-stu-id="597c5-167">Update the journal with any modifications that may be needed.</span></span>  
+5. <span data-ttu-id="597c5-168">Kies de actie **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="597c5-168">Choose the **Post**.</span></span>
+
+## <a name="to-view-job-ledger-entries"></a><span data-ttu-id="597c5-169">Projectposten bekijken</span><span class="sxs-lookup"><span data-stu-id="597c5-169">To view job ledger entries</span></span>
+<span data-ttu-id="597c5-170">Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1.</span><span class="sxs-lookup"><span data-stu-id="597c5-170">All job-related entries are recorded in job registers and are numbered sequentially, starting with 1.</span></span> <span data-ttu-id="597c5-171">Vanuit het projectjournaal hebt u een overzicht van alle projectposten.</span><span class="sxs-lookup"><span data-stu-id="597c5-171">From the job register, you can get an overview of all job ledger entries.</span></span>    
+
+1. <span data-ttu-id="597c5-172">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="597c5-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Registers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="597c5-173">Selecteer een relevant journaal en kies vervolgens de actie **Projectposten**.</span><span class="sxs-lookup"><span data-stu-id="597c5-173">Select a relevant register, and then choose **Job Ledger** action.</span></span>
+
+<span data-ttu-id="597c5-174">Het venster **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.</span><span class="sxs-lookup"><span data-stu-id="597c5-174">In the **Job Ledger Entries** window you can review the entries that are associated with any job.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="597c5-175">Zie ook</span><span class="sxs-lookup"><span data-stu-id="597c5-175">See Also</span></span>
+[<span data-ttu-id="597c5-176">Projecten beheren</span><span class="sxs-lookup"><span data-stu-id="597c5-176">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="597c5-177">Financiën</span><span class="sxs-lookup"><span data-stu-id="597c5-177">Finance</span></span>](finance.md)  
+<span data-ttu-id="597c5-178">[Inkoop](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="597c5-178">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="597c5-179">[Verkoop](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="597c5-179">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="597c5-180">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="597c5-180">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

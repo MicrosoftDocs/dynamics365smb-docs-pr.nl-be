@@ -16,147 +16,147 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Procedure: Urenstaten gebruiken voor projecten
-U gebruikt de batchverwerking **Urenstaten maken** om urenstaten in te stellen voor een opgegeven aantal perioden of weken. U moet machtigingen hebben om urenstaten te maken.
+# <a name="how-to-use-time-sheets-for-jobs"></a><span data-ttu-id="efc3c-103">Procedure: Urenstaten gebruiken voor projecten</span><span class="sxs-lookup"><span data-stu-id="efc3c-103">How to: Use Time Sheets for Jobs</span></span>
+<span data-ttu-id="efc3c-104">U gebruikt de batchverwerking **Urenstaten maken** om urenstaten in te stellen voor een opgegeven aantal perioden of weken.</span><span class="sxs-lookup"><span data-stu-id="efc3c-104">You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="efc3c-105">U moet machtigingen hebben om urenstaten te maken.</span><span class="sxs-lookup"><span data-stu-id="efc3c-105">You must have permissions to be able to create time sheets.</span></span>
 
-U kunt uw projectplanningsregels kopiëren en gebruiken in een urenstaat. Op die manier hoeft u de gegevens slechts op één plaats in te voeren en zijn de regelgegevens altijd correct.
+<span data-ttu-id="efc3c-106">U kunt uw projectplanningsregels kopiëren en gebruiken in een urenstaat.</span><span class="sxs-lookup"><span data-stu-id="efc3c-106">You can copy and use your job planning lines in a time sheet.</span></span> <span data-ttu-id="efc3c-107">Op die manier hoeft u de gegevens slechts op één plaats in te voeren en zijn de regelgegevens altijd correct.</span><span class="sxs-lookup"><span data-stu-id="efc3c-107">In that way, you must only enter the information in one place and the line information is always correct.</span></span>
 
-Nadat u urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek of resourcedagboek.
+<span data-ttu-id="efc3c-108">Nadat u urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek of resourcedagboek.</span><span class="sxs-lookup"><span data-stu-id="efc3c-108">After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.</span></span>
 
-Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een beheerder en een of meer fiatteurs van urenstaten opgeven. Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
-
-## <a name="to-create-a-time-sheet"></a>Een urenstaat maken
-U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed.
-
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
-2. Kies de actie **Urenstaten maken** in het venster **Overzicht urenstaat**.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+<span data-ttu-id="efc3c-109">Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een beheerder en een of meer fiatteurs van urenstaten opgeven.</span><span class="sxs-lookup"><span data-stu-id="efc3c-109">Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets.</span></span> <span data-ttu-id="efc3c-110">Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="efc3c-110">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
 > [!NOTE]  
->   De velden **Urenstaat gebruiken** en **Gebruikers-id eigenaar urenstaat** moeten worden ingevuld op de kaart voor de resource van de urenstaat.
+>   <span data-ttu-id="efc3c-111">Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-111">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="efc3c-112">Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="efc3c-112">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-1. Kies de knop **Ok**.  
+## <a name="to-create-a-time-sheet"></a><span data-ttu-id="efc3c-113">Een urenstaat maken</span><span class="sxs-lookup"><span data-stu-id="efc3c-113">To create a time sheet</span></span>
+<span data-ttu-id="efc3c-114">U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken.</span><span class="sxs-lookup"><span data-stu-id="efc3c-114">You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="efc3c-115">Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed.</span><span class="sxs-lookup"><span data-stu-id="efc3c-115">Then, the time sheet owner can open it and record time that has been spent on a task.</span></span>
 
-U kunt de urenstaten die u hebt gemaakt, bekijken in het venster **Overzicht urenstaat**.
+1. <span data-ttu-id="efc3c-116">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="efc3c-117">Kies de actie **Urenstaten maken** in het venster **Overzicht urenstaat**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-117">In the **Time Sheet List** window, choose the **Create Time Sheets** action.</span></span>
+3. <span data-ttu-id="efc3c-118">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="efc3c-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Projectplanningsregels kopiëren naar een urenstaat
-De volgende procedure beschrijft hoe u snel projectplanningsregels toevoegt aan een urenstaat.
+> [!NOTE]  
+>   <span data-ttu-id="efc3c-119">De velden **Urenstaat gebruiken** en **Gebruikers-id eigenaar urenstaat** moeten worden ingevuld op de kaart voor de resource van de urenstaat.</span><span class="sxs-lookup"><span data-stu-id="efc3c-119">The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer in het **Overzicht urenstaat** een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.  
-3. Kies de actie **Regels maken van projectplanning**. Eventuele projectplanningsregels in de urenstaatperiode worden gekopieerd naar de urenstaat voor de machine of persoon in het veld **Resourcenr.** op de urenstaat.
+1. <span data-ttu-id="efc3c-120">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-120">Choose the **OK** button.</span></span>  
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Werksoorten definiëren en er een toevoegen aan een urenstaat
-U kunt de werksoort voor alle urenstaatregels voor projecten definiëren. Op deze manier kunt u gegevens toevoegen die u nodig hebt om de klant te factureren voor verschillende soorten werk.
+<span data-ttu-id="efc3c-121">U kunt de urenstaten die u hebt gemaakt, bekijken in het venster **Overzicht urenstaat**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-121">You can view the time sheets that you have created in the **Time Sheet list** window.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.   
-2. Open de relevante urenstaat.
-3. Kies het veld **Omschrijving**.  
-4. Kies in het venster **Projectdetail urenstaatregel** het veld **Werksoort** en selecteer een werksoort in de lijst, bijvoorbeeld **Km**.  
-5. Als er geen werksoorten bestaan, kiest u de actie **Nieuw**.
-6. Vul indien nodig in het venster **Werksoorten** de velden in.
-7. Herhaal stap 4 om de nieuwe werksoort aan de urenstaat toe te wijzen.
+## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><span data-ttu-id="efc3c-122">Projectplanningsregels kopiëren naar een urenstaat</span><span class="sxs-lookup"><span data-stu-id="efc3c-122">To copy job planning lines to a time sheet</span></span>
+<span data-ttu-id="efc3c-123">De volgende procedure beschrijft hoe u snel projectplanningsregels toevoegt aan een urenstaat.</span><span class="sxs-lookup"><span data-stu-id="efc3c-123">The following procedure describes how to quickly add job planning lines to a time sheet.</span></span>
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Urenstaatregels in andere urenstaten opnieuw gebruiken
-Als uw urenstaatinformatie van periode tot periode gelijk blijft, kunt u tijd besparen door de regels te kopiëren uit de vorige periode. Vervolgens voert u alleen het tijdsgebruik voor de nieuwe periode in.
+1. <span data-ttu-id="efc3c-124">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="efc3c-125">Selecteer in het **Overzicht urenstaat** een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-125">In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="efc3c-126">Kies de actie **Regels maken van projectplanning**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-126">Choose the **Create lines from job planning** action.</span></span> <span data-ttu-id="efc3c-127">Eventuele projectplanningsregels in de urenstaatperiode worden gekopieerd naar de urenstaat voor de machine of persoon in het veld **Resourcenr.**</span><span class="sxs-lookup"><span data-stu-id="efc3c-127">Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.**</span></span> <span data-ttu-id="efc3c-128">op de urenstaat.</span><span class="sxs-lookup"><span data-stu-id="efc3c-128">field on the time sheet.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
-2. Open de urenstaat voor een periode na de periode voor een bestaande urenstaat met regels.  
-3. Kies de actie **Regels kopiëren van vorige urenstaat**.
+## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><span data-ttu-id="efc3c-129">Werksoorten definiëren en er een toevoegen aan een urenstaat</span><span class="sxs-lookup"><span data-stu-id="efc3c-129">To define work types and add one to a time sheet</span></span>
+<span data-ttu-id="efc3c-130">U kunt de werksoort voor alle urenstaatregels voor projecten definiëren.</span><span class="sxs-lookup"><span data-stu-id="efc3c-130">You can define the work type for all time sheet lines for jobs.</span></span> <span data-ttu-id="efc3c-131">Op deze manier kunt u gegevens toevoegen die u nodig hebt om de klant te factureren voor verschillende soorten werk.</span><span class="sxs-lookup"><span data-stu-id="efc3c-131">In this way, you can add information that you need to bill the customer for different types of work.</span></span>
 
-De regels worden gekopieerd, inclusief details zoals het type en beschrijving. Als de regel bijvoorbeeld is gekoppeld aan een project, wordt het **Projectnr.** gekopieerd. Alle gekopieerde regels hebben de status **Open**. U kunt nu indien nodig de regels wijzigen.
+1. <span data-ttu-id="efc3c-132">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>   
+2. <span data-ttu-id="efc3c-133">Open de relevante urenstaat.</span><span class="sxs-lookup"><span data-stu-id="efc3c-133">Open the relevant time sheet.</span></span>
+3. <span data-ttu-id="efc3c-134">Kies het veld **Omschrijving**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-134">Choose the **Description** field.</span></span>  
+4. <span data-ttu-id="efc3c-135">Kies in het venster **Projectdetail urenstaatregel** het veld **Werksoort** en selecteer een werksoort in de lijst, bijvoorbeeld **Km**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-135">In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.</span></span>  
+5. <span data-ttu-id="efc3c-136">Als er geen werksoorten bestaan, kiest u de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-136">If no work types exist, chose the **New** action.</span></span>
+6. <span data-ttu-id="efc3c-137">Vul indien nodig in het venster **Werksoorten** de velden in.</span><span class="sxs-lookup"><span data-stu-id="efc3c-137">In the **Work Types** window, fill in the fields as necessary.</span></span>
+7. <span data-ttu-id="efc3c-138">Herhaal stap 4 om de nieuwe werksoort aan de urenstaat toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-138">Repeat step 4 to assign the new work type to the time sheet.</span></span>
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Urenstaatregels invullen en ter goedkeuring verzenden
-Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor resources. Een urenstaat bevat standaard de algemene werkdagen van maandag tot en met vrijdag.
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><span data-ttu-id="efc3c-139">Urenstaatregels in andere urenstaten opnieuw gebruiken</span><span class="sxs-lookup"><span data-stu-id="efc3c-139">To reuse time sheet lines in other time sheets</span></span>
+<span data-ttu-id="efc3c-140">Als uw urenstaatinformatie van periode tot periode gelijk blijft, kunt u tijd besparen door de regels te kopiëren uit de vorige periode.</span><span class="sxs-lookup"><span data-stu-id="efc3c-140">If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period.</span></span> <span data-ttu-id="efc3c-141">Vervolgens voert u alleen het tijdsgebruik voor de nieuwe periode in.</span><span class="sxs-lookup"><span data-stu-id="efc3c-141">Then, you just enter your time usage for the new period.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.  
-3. Vul de velden indien nodig op een regel in. Voer het aantal uren in dat door de resource op elke dag van de week wordt gebruikt.
+1. <span data-ttu-id="efc3c-142">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-142">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="efc3c-143">Open de urenstaat voor een periode na de periode voor een bestaande urenstaat met regels.</span><span class="sxs-lookup"><span data-stu-id="efc3c-143">Open the time sheet for a period later than the period for an existing time sheet with lines.</span></span>  
+3. <span data-ttu-id="efc3c-144">Kies de actie **Regels kopiëren van vorige urenstaat**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-144">Choose the **Copy Lines from Previous Time Sheet** action.</span></span>
+
+<span data-ttu-id="efc3c-145">De regels worden gekopieerd, inclusief details zoals het type en beschrijving.</span><span class="sxs-lookup"><span data-stu-id="efc3c-145">The lines are copied, including details such as type and description.</span></span> <span data-ttu-id="efc3c-146">Als de regel bijvoorbeeld is gekoppeld aan een project, wordt het **Projectnr.**</span><span class="sxs-lookup"><span data-stu-id="efc3c-146">For example, if the line is related to a job, the **Job No.**</span></span> <span data-ttu-id="efc3c-147">gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="efc3c-147">is copied.</span></span> <span data-ttu-id="efc3c-148">Alle gekopieerde regels hebben de status **Open**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-148">All copied lines have the status **Open**.</span></span> <span data-ttu-id="efc3c-149">U kunt nu indien nodig de regels wijzigen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-149">You can now modify the lines as needed.</span></span>
+
+## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a><span data-ttu-id="efc3c-150">Urenstaatregels invullen en ter goedkeuring verzenden</span><span class="sxs-lookup"><span data-stu-id="efc3c-150">To fill in a time sheet lines and submit for approval</span></span>
+<span data-ttu-id="efc3c-151">Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor resources.</span><span class="sxs-lookup"><span data-stu-id="efc3c-151">Time sheet registration is tracked in hours, the standard base unit of measure for resources.</span></span> <span data-ttu-id="efc3c-152">Een urenstaat bevat standaard de algemene werkdagen van maandag tot en met vrijdag.</span><span class="sxs-lookup"><span data-stu-id="efc3c-152">By default, a time sheet shows the common work days of Monday through Friday.</span></span>
+
+1. <span data-ttu-id="efc3c-153">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-153">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="efc3c-154">Selecteer een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-154">Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="efc3c-155">Vul de velden indien nodig op een regel in.</span><span class="sxs-lookup"><span data-stu-id="efc3c-155">Fill in the fields on a line as necessary.</span></span> <span data-ttu-id="efc3c-156">Voer het aantal uren in dat door de resource op elke dag van de week wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="efc3c-156">Enter the number of hours used by the resource on each day of the week.</span></span>
 
     > [!TIP]  
->   U kunt de som controleren van de urenstaaturen die u hebt ingevoerd in het feitenblok **Overzicht van werkelijk/gebudgetteerd**.  
-4. Herhaal stap 3 voor andere werksoorten die de resource uitvoert.
-5. Kies de **Verzenden**-actie en kies vervolgens de actie **Alle geopende regels** om alle regels te verzenden of kies de actie **Alleen geselecteerde regel(s)** om alleen de regels te verzenden die zijn geselecteerd in het venster **Urenstaat**.  
+>   <span data-ttu-id="efc3c-157">U kunt de som controleren van de urenstaaturen die u hebt ingevoerd in het feitenblok **Overzicht van werkelijk/gebudgetteerd**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-157">You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.</span></span>  
+4. <span data-ttu-id="efc3c-158">Herhaal stap 3 voor andere werksoorten die de resource uitvoert.</span><span class="sxs-lookup"><span data-stu-id="efc3c-158">Repeat step 3 for other work types that the resource performs.</span></span>
+5. <span data-ttu-id="efc3c-159">Kies de **Verzenden**-actie en kies vervolgens de actie **Alle geopende regels** om alle regels te verzenden of kies de actie **Alleen geselecteerde regel(s)** om alleen de regels te verzenden die zijn geselecteerd in het venster **Urenstaat**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-159">Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.</span></span>  
 
     > [!NOTE]  
->   U kunt alleen urenstaatregels verzenden waarvoor u tijd hebt ingevoerd.  
-6. Als u gegevens wilt wijzigen op een regel die is ingesteld op **Ingediend**, selecteert u de regel en kiest u de actie **Opnieuw openen**.
+>   <span data-ttu-id="efc3c-160">U kunt alleen urenstaatregels verzenden waarvoor u tijd hebt ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="efc3c-160">You can only submit time sheet lines for which you have entered time.</span></span>  
+6. <span data-ttu-id="efc3c-161">Als u gegevens wilt wijzigen op een regel die is ingesteld op **Ingediend**, selecteert u de regel en kiest u de actie **Opnieuw openen**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-161">To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.</span></span>
 
     > [!NOTE]  
->   Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als u een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
-7. Kies de knop **Ok**.
+>   <span data-ttu-id="efc3c-162">Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden.</span><span class="sxs-lookup"><span data-stu-id="efc3c-162">A manager may reject a time sheet line that is submitted for approval.</span></span> <span data-ttu-id="efc3c-163">Als u een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-163">If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.</span></span>  
+7. <span data-ttu-id="efc3c-164">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-164">Choose the **OK** button.</span></span>
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Een urenstaat goedkeuren of weigeren
-Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kunt afzonderlijke regels goedkeuren en weigeren op een urenstaat of deze terugsturen naar de indiener voor aanvullende actie. Een urenstaat kan worden goedgekeurd op twee manieren:
+## <a name="to-approve-or-reject-a-time-sheet"></a><span data-ttu-id="efc3c-165">Een urenstaat goedkeuren of weigeren</span><span class="sxs-lookup"><span data-stu-id="efc3c-165">To approve or reject a time sheet</span></span>
+<span data-ttu-id="efc3c-166">Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="efc3c-166">A time sheet must be submitted for approval before it can be used.</span></span> <span data-ttu-id="efc3c-167">U kunt afzonderlijke regels goedkeuren en weigeren op een urenstaat of deze terugsturen naar de indiener voor aanvullende actie.</span><span class="sxs-lookup"><span data-stu-id="efc3c-167">You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action.</span></span> <span data-ttu-id="efc3c-168">Een urenstaat kan worden goedgekeurd op twee manieren:</span><span class="sxs-lookup"><span data-stu-id="efc3c-168">A time sheet can be approved in two ways:</span></span>
 
-* Een beheerder van urenstaten kan een urenstaat goedkeuren.
-* De persoon die is opgegeven in het veld **Gebruikers-id van fiatteur van urenstaat** op een resourcekaart kan urenstaten van die resource goedkeuren. Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
+* <span data-ttu-id="efc3c-169">Een beheerder van urenstaten kan een urenstaat goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="efc3c-169">A time sheet administrator can approve any time sheet.</span></span>
+* <span data-ttu-id="efc3c-170">De persoon die is opgegeven in het veld **Gebruikers-id van fiatteur van urenstaat** op een resourcekaart kan urenstaten van die resource goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="efc3c-170">The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets.</span></span> <span data-ttu-id="efc3c-171">Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="efc3c-171">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstatenmanager** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer een urenstaat in de lijst.  
-3. Kies in het venster **Urenstaat** de actie **Goedkeuren** en kies vervolgens de actie **Alle verzonden regels** om alle regels goed te keuren of kies de actie **Alleen geselecteerde regels** om alleen de regels toe te keuren die zijn geselecteerd in het venster **Urenstaat**.
-4. Kies de knop **Ok**.  
-5. U kunt ook de actie **Weigeren** kiezen en stap 4 tot en met 5 volgen.  
+1. <span data-ttu-id="efc3c-172">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstatenmanager** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="efc3c-173">Selecteer een urenstaat in de lijst.</span><span class="sxs-lookup"><span data-stu-id="efc3c-173">Select a time sheet from the list.</span></span>  
+3. <span data-ttu-id="efc3c-174">Kies in het venster **Urenstaat** de actie **Goedkeuren** en kies vervolgens de actie **Alle verzonden regels** om alle regels goed te keuren of kies de actie **Alleen geselecteerde regels** om alleen de regels toe te keuren die zijn geselecteerd in het venster **Urenstaat**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-174">In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="efc3c-175">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-175">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="efc3c-176">U kunt ook de actie **Weigeren** kiezen en stap 4 tot en met 5 volgen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-176">Alternatively, choose the **Reject** action and follow steps 4 through 5.</span></span>  
 
 > [!TIP]  
->   Gebruik de feitenblokken **Status urenstaat** en **Overzicht van werkelijk/gebudgetteerd** om een overzicht te krijgen van urenstaatgegevens.
+>   <span data-ttu-id="efc3c-177">Gebruik de feitenblokken **Status urenstaat** en **Overzicht van werkelijk/gebudgetteerd** om een overzicht te krijgen van urenstaatgegevens.</span><span class="sxs-lookup"><span data-stu-id="efc3c-177">Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.</span></span>
 
-Nadat u een urenstaat hebt goedgekeurd of geweigerd, kan deze niet meer worden gewijzigd tenzij deze eerst opnieuw wordt geopend. In de volgende procedure wordt uitgelegd hoe u een goedgekeurde of geweigerde urenstaat opnieuw opent.
+<span data-ttu-id="efc3c-178">Nadat u een urenstaat hebt goedgekeurd of geweigerd, kan deze niet meer worden gewijzigd tenzij deze eerst opnieuw wordt geopend.</span><span class="sxs-lookup"><span data-stu-id="efc3c-178">After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened.</span></span> <span data-ttu-id="efc3c-179">In de volgende procedure wordt uitgelegd hoe u een goedgekeurde of geweigerde urenstaat opnieuw opent.</span><span class="sxs-lookup"><span data-stu-id="efc3c-179">The following procedure explains how to reopen an approved or rejected time sheet.</span></span>
 
-## <a name="to-reopen-a-time-sheet"></a>Een urenstaat opnieuw openen
-1. Kies het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Urenstatenmanager** of **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
-2. Open een urenstaat uit de lijst.  
-
-    > [!NOTE]  
->   U kunt alleen regels met de status **Goedgekeurd** opnieuw openen. U kunt geen regels met de status **Afgewezen** opnieuw openen. U kunt een urenstaat niet opnieuw openen als deze is geboekt.  
-3. Kies in het venster **Urenstaat** de actie **Opnieuw openen** en kies vervolgens de actie **Alle verzonden regels** om alle regels opnieuw te openen of kies de actie **Alleen geselecteerde regels** om alleen de regels opnieuw te openen die zijn geselecteerd in het venster **Urenstaat**.
-4. Kies de knop **Ok**. De status van de urenstaatregel of -regels verandert in **Verzonden**.  
-
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Urenstaatregels naar een resourcedagboek boeken
-Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeken naar het relevante resourcedagboek.
-
-1. Kies het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png ""pictogram Zoeken naar pagina of rapport"), voer **Resourcedagboek** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Regels voorstellen uit urenstaten**.  
-3. Vul indien nodig de velden in.  
-4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het resourcedagboek, waarin u informatie desgewenst kunt wijzigen.  
-5. Kies de actie **Boeken**.  
-6. Als u de boeking wilt controleren, kiest u de actie **Posten**. Het venster **Resourceposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
-
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Urenstaatregels in een projectdagboek boeken
-Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek.
-
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboek** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Regels voorstellen uit urenstaten**.  
-3. Vul indien nodig de velden in.  
-4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het projectdagboek, waarin u de informatie desgewenst kunt wijzigen.  
+## <a name="to-reopen-a-time-sheet"></a><span data-ttu-id="efc3c-180">Een urenstaat opnieuw openen</span><span class="sxs-lookup"><span data-stu-id="efc3c-180">To reopen a time sheet</span></span>
+1. <span data-ttu-id="efc3c-181">Kies het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Urenstatenmanager** of **Urenstaten** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-181">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="efc3c-182">Open een urenstaat uit de lijst.</span><span class="sxs-lookup"><span data-stu-id="efc3c-182">Open a time sheet from the list.</span></span>  
 
     > [!NOTE]  
->   Gegevens over het werksoort en of het werk factureerbaar is , wordt uit de urenstaatregel gekopieerd. U kunt indien nodig het aantal uren verminderen en een gedeeltelijke boeking doen. Als u het aantal vermindert, bevat de gemaakte regel de volgende keer dat u de actie **Regels voorstellen uit urenstaten** kiest, het resterende aantal uren.  
-5. Kies de actie **Boeken**.  
-6. Als u de boeking wilt controleren, kiest u de actie **Posten**. Het venster **Projectposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
+>   <span data-ttu-id="efc3c-183">U kunt alleen regels met de status **Goedgekeurd** opnieuw openen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-183">You can only reopen lines that have the status **Approved**.</span></span> <span data-ttu-id="efc3c-184">U kunt geen regels met de status **Afgewezen** opnieuw openen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-184">You cannot reopen lines that have the status **Rejected**.</span></span> <span data-ttu-id="efc3c-185">U kunt een urenstaat niet opnieuw openen als deze is geboekt.</span><span class="sxs-lookup"><span data-stu-id="efc3c-185">You cannot reopen a time sheet if it has been posted.</span></span>  
+3. <span data-ttu-id="efc3c-186">Kies in het venster **Urenstaat** de actie **Opnieuw openen** en kies vervolgens de actie **Alle verzonden regels** om alle regels opnieuw te openen of kies de actie **Alleen geselecteerde regels** om alleen de regels opnieuw te openen die zijn geselecteerd in het venster **Urenstaat**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-186">In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="efc3c-187">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-187">Choose the **OK** button.</span></span> <span data-ttu-id="efc3c-188">De status van de urenstaatregel of -regels verandert in **Verzonden**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-188">The status of the time sheets line or lines is changes to **Submitted**.</span></span>  
 
-## <a name="to-archive-time-sheets"></a>Urenstaten verplaatsen naar archief
-Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag. Alle urenstatenregels moeten worden geboekt voordat een urenstaat kan worden gearchiveerd.
+## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><span data-ttu-id="efc3c-189">Urenstaatregels naar een resourcedagboek boeken</span><span class="sxs-lookup"><span data-stu-id="efc3c-189">To post time sheet lines in a resource journal</span></span>
+<span data-ttu-id="efc3c-190">Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeken naar het relevante resourcedagboek.</span><span class="sxs-lookup"><span data-stu-id="efc3c-190">After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.</span></span>
+
+1. <span data-ttu-id="efc3c-191">Kies het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png ""pictogram Zoeken naar pagina of rapport"), voer **Resourcedagboek** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-191">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="efc3c-192">Kies de actie **Regels voorstellen uit urenstaten**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-192">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="efc3c-193">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="efc3c-193">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="efc3c-194">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-194">Choose the **OK** button.</span></span> <span data-ttu-id="efc3c-195">Posten voor gebruik worden gemaakt in het resourcedagboek, waarin u informatie desgewenst kunt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-195">Entries for usage are created in the resource journal, where you can modify the information as needed.</span></span>  
+5. <span data-ttu-id="efc3c-196">Kies de actie **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-196">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="efc3c-197">Als u de boeking wilt controleren, kiest u de actie **Posten**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-197">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="efc3c-198">Het venster **Resourceposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.</span><span class="sxs-lookup"><span data-stu-id="efc3c-198">The **Resource Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><span data-ttu-id="efc3c-199">Urenstaatregels in een projectdagboek boeken</span><span class="sxs-lookup"><span data-stu-id="efc3c-199">To post time sheet lines in a job journal</span></span>
+<span data-ttu-id="efc3c-200">Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek.</span><span class="sxs-lookup"><span data-stu-id="efc3c-200">After you have approved time sheet entries for a job, you can post them to the relevant job journal.</span></span>
+
+1. <span data-ttu-id="efc3c-201">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboek** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-201">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="efc3c-202">Kies de actie **Regels voorstellen uit urenstaten**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-202">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="efc3c-203">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="efc3c-203">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="efc3c-204">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-204">Choose the **OK** button.</span></span> <span data-ttu-id="efc3c-205">Posten voor gebruik worden gemaakt in het projectdagboek, waarin u de informatie desgewenst kunt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-205">Entries for usage are created in the job journal, where you can modify the information as needed.</span></span>  
+
+    > [!NOTE]  
+>   <span data-ttu-id="efc3c-206">Gegevens over het werksoort en of het werk factureerbaar is , wordt uit de urenstaatregel gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="efc3c-206">Information about work type and whether the work is chargeable is copied from the time sheet line.</span></span> <span data-ttu-id="efc3c-207">U kunt indien nodig het aantal uren verminderen en een gedeeltelijke boeking doen.</span><span class="sxs-lookup"><span data-stu-id="efc3c-207">If needed, you can reduce the quantity of hours and do a partial posting.</span></span> <span data-ttu-id="efc3c-208">Als u het aantal vermindert, bevat de gemaakte regel de volgende keer dat u de actie **Regels voorstellen uit urenstaten** kiest, het resterende aantal uren.</span><span class="sxs-lookup"><span data-stu-id="efc3c-208">If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.</span></span>  
+5. <span data-ttu-id="efc3c-209">Kies de actie **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-209">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="efc3c-210">Als u de boeking wilt controleren, kiest u de actie **Posten**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-210">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="efc3c-211">Het venster **Projectposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.</span><span class="sxs-lookup"><span data-stu-id="efc3c-211">The **Job Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-archive-time-sheets"></a><span data-ttu-id="efc3c-212">Urenstaten verplaatsen naar archief</span><span class="sxs-lookup"><span data-stu-id="efc3c-212">To archive time sheets</span></span>
+<span data-ttu-id="efc3c-213">Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag.</span><span class="sxs-lookup"><span data-stu-id="efc3c-213">After you have posted time sheets, you can archive them for future reference.</span></span> <span data-ttu-id="efc3c-214">Alle urenstatenregels moeten worden geboekt voordat een urenstaat kan worden gearchiveerd.</span><span class="sxs-lookup"><span data-stu-id="efc3c-214">All time sheets lines must be posted before a time sheet can be archived.</span></span>
 
 > [!NOTE]  
->   Bij het archiveren van een urenstaat wordt de urenstaat verwijderd uit de lijst in het venster **Urenstaten** en het venster **Urenstaatmanager**.
+>   <span data-ttu-id="efc3c-215">Bij het archiveren van een urenstaat wordt de urenstaat verwijderd uit de lijst in het venster **Urenstaten** en het venster **Urenstaatmanager**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-215">When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.</span></span>
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten verplaatsen naar archief** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul de overige velden desgewenst in en kies de knop **OK**.  
-3. Als u gearchiveerde urenstaten wilt bekijken, kiest u in de rechterbovenhoek het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Urenstatenarchieven** of **Urenstaatarchiefbeheer** in en kiest u de gerelateerde koppeling.
+1. <span data-ttu-id="efc3c-216">Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten verplaatsen naar archief** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-216">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Move Time Sheets to Archive**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="efc3c-217">Vul de overige velden desgewenst in en kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="efc3c-217">Fill in the fields as necessary, and then choose the **OK** button.</span></span>  
+3. <span data-ttu-id="efc3c-218">Als u gearchiveerde urenstaten wilt bekijken, kiest u in de rechterbovenhoek het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Urenstatenarchieven** of **Urenstaatarchiefbeheer** in en kiest u de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efc3c-218">To review archived time sheets, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Zie ook
-[Projectbeheer](projects-manage-projects.md)  
-[Projectbeheer instellen](projects-setup-projects.md)    
-[Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)         
-[Verkoop](sales-manage-sales.md)     
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="efc3c-219">Zie ook</span><span class="sxs-lookup"><span data-stu-id="efc3c-219">See Also</span></span>
+[<span data-ttu-id="efc3c-220">Projectbeheer</span><span class="sxs-lookup"><span data-stu-id="efc3c-220">Project Management</span></span>](projects-manage-projects.md)  
+<span data-ttu-id="efc3c-221">[Projectbeheer instellen](projects-setup-projects.md)  </span><span class="sxs-lookup"><span data-stu-id="efc3c-221">[Setting Up Project Management](projects-setup-projects.md)  </span></span>  
+[<span data-ttu-id="efc3c-222">Financiën</span><span class="sxs-lookup"><span data-stu-id="efc3c-222">Finance</span></span>](finance.md)  
+<span data-ttu-id="efc3c-223">[Inkoop](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="efc3c-223">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="efc3c-224">[Verkoop](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="efc3c-224">[Sales](sales-manage-sales.md)   </span></span>  
+<span data-ttu-id="efc3c-225">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="efc3c-225">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
