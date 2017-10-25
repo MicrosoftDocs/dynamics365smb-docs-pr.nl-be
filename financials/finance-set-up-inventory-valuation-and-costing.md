@@ -1,0 +1,44 @@
+---
+title: Voorraadwaardering en kostprijsberekening instellen | Microsoft Docs
+description: In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/06/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: aa5ee6d9942390a2b4ad0aa8787172b0f7b141d0
+ms.contentlocale: nl-be
+ms.lasthandoff: 09/22/2017
+
+---
+# <a name="setting-up-inventory-valuation-and-costing"></a><span data-ttu-id="ce521-103">Voorraadwaardering en kostprijsberekening instellen</span><span class="sxs-lookup"><span data-stu-id="ce521-103">Setting Up Inventory Valuation and Costing</span></span>
+<span data-ttu-id="ce521-104">Als u ervoor wilt zorgen dat voorraadkosten correct worden vastgelegd, moet u verschillende velden en vensters instellen voordat u artikeltransacties gaat maken.</span><span class="sxs-lookup"><span data-stu-id="ce521-104">To make sure that inventory costs are recorded correctly, you must set up various fields and windows before you begin to make item transactions.</span></span>
+
+<span data-ttu-id="ce521-105">In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="ce521-105">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+
+|<span data-ttu-id="ce521-106">**Als u dit wilt doen**</span><span class="sxs-lookup"><span data-stu-id="ce521-106">**To**</span></span>|<span data-ttu-id="ce521-107">**Zie**</span><span class="sxs-lookup"><span data-stu-id="ce521-107">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="ce521-108">Een waarderingsmethode in te stellen voor elk artikel om te bepalen hoe de inkomende kostprijs ervan wordt gebruikt om voorraadwaarde en de kostprijs van verkochte goederen vast te leggen.</span><span class="sxs-lookup"><span data-stu-id="ce521-108">Set a costing method for each item to govern how its incoming cost is used to assess inventory value and the cost of goods sold.</span></span>|[<span data-ttu-id="ce521-109">Procedure: Nieuwe artikelen registreren</span><span class="sxs-lookup"><span data-stu-id="ce521-109">How to: Register New Items</span></span>](inventory-how-register-new-items.md)|  
+|<span data-ttu-id="ce521-110">Ervoor te zorgen dat de kostprijs automatisch wordt geboekt in het grootboek elke keer wanneer een voorraadtransactie wordt geboekt.</span><span class="sxs-lookup"><span data-stu-id="ce521-110">Ensure that the cost is automatically posted to the general ledger whenever an inventory transaction is posted.</span></span>|<span data-ttu-id="ce521-111">Het veld **Autom. voorraadwaarde boeken** op de pagina **Voorraadinstelling**</span><span class="sxs-lookup"><span data-stu-id="ce521-111">**Automatic Cost Posting** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="ce521-112">Ervoor te zorgen dat verwachte kosten worden geboekt in het grootboek om vanuit de interimgrootboekrekeningen een schatting te kunnen zien van de te betalen bedragen en de kostprijs van de verhandelde artikelen voordat ze worden gefactureerd.</span><span class="sxs-lookup"><span data-stu-id="ce521-112">Ensure that expected costs are posted to the general ledger to see from the interim G/L accounts an estimate of the amounts due and the cost of the traded items before they are actually invoiced.</span></span>|<span data-ttu-id="ce521-113">Het veld **Verw. kostprijs naar GB boeken** op de pagina **Voorraadinstelling**</span><span class="sxs-lookup"><span data-stu-id="ce521-113">**Expected Cost Posting to G/L** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="ce521-114">Het systeem in te stellen zodat het bij het boeken van voorraadtransacties automatisch wordt aangepast in het geval van eventuele wijzigingen van de kostprijs.</span><span class="sxs-lookup"><span data-stu-id="ce521-114">Set the system up to adjust for any cost changes automatically every time you post inventory transactions.</span></span>|[<span data-ttu-id="ce521-115">Procedure: Artikelkosten herwaarderen</span><span class="sxs-lookup"><span data-stu-id="ce521-115">How to: Adjust Item Costs</span></span>](inventory-how-adjust-item-costs.md)|  
+|<span data-ttu-id="ce521-116">Definieer of de gemiddelde kostprijs alleen moet worden berekend per artikel of per artikel voor elke voorraadunit en voor elke variant van het artikel.</span><span class="sxs-lookup"><span data-stu-id="ce521-116">Define if the average cost is to be calculated per item only or per item for each stockkeping unit and for each variant of the item.</span></span>|<span data-ttu-id="ce521-117">Het veld **Gem. kostprijsberekeningsoort** op de pagina **Voorraadinstelling**</span><span class="sxs-lookup"><span data-stu-id="ce521-117">**Average Cost Calc. Type** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="ce521-118">De tijdsperiode te selecteren die het programma moet gebruiken voor het berekenen van de gewogen gemiddelde kostprijs van artikelen die gebruik maken van de gemiddelde waarderingsmethode.</span><span class="sxs-lookup"><span data-stu-id="ce521-118">Select the period of time you would like the program to use for calculating the weighted average cost of items that use the average costing method.</span></span>|<span data-ttu-id="ce521-119">Het veld **Periode gemiddelde kostprijsberekening** op de pagina **Voorraadinstelling**</span><span class="sxs-lookup"><span data-stu-id="ce521-119">**Average Cost Period** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="ce521-120">Voorraadperioden te definiëren om de voorraadwaarde in het verloop van tijd te controleren door het boeken van transacties niet toe te staan in gesloten voorraadperioden.</span><span class="sxs-lookup"><span data-stu-id="ce521-120">Define inventory periods to control inventory value over time by disallowing transaction posting in closed inventory periods.</span></span>|[<span data-ttu-id="ce521-121">Procedure: werken met voorraadperioden</span><span class="sxs-lookup"><span data-stu-id="ce521-121">How to: Work with Inventory Periods</span></span>](finance-how-to-work-with-inventory-periods.md)|  
+|<span data-ttu-id="ce521-122">Zorg dat verkoopretouren worden vereffend met de oorspronkelijke uitgaande transactie om voorraadwaarde te behouden.</span><span class="sxs-lookup"><span data-stu-id="ce521-122">Ensure that sales returns are applied to the original outbound transaction to preserve inventory value.</span></span>|<span data-ttu-id="ce521-123">Het veld **Precieze kostenvereff. verplicht** op de pagina **Verkopen en Klanten**</span><span class="sxs-lookup"><span data-stu-id="ce521-123">**Exact Cost Reversing Mandatory** field in the **Sales & Receivables** page</span></span>|  
+|<span data-ttu-id="ce521-124">Zorg dat inkoopretouren worden vereffend met de oorspronkelijke inkomende transactie om voorraadwaarde te behouden.</span><span class="sxs-lookup"><span data-stu-id="ce521-124">Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.</span></span>|<span data-ttu-id="ce521-125">Het veld **Precieze kostenvereff. verplicht** op de pagina **Inkopen en Leveranciers**</span><span class="sxs-lookup"><span data-stu-id="ce521-125">**Exact Cost Reversing Mandatory** field in the **´Purchases & Payables** page</span></span>|
+|<span data-ttu-id="ce521-126">De afrondingsregels in te stellen die van toepassing zijn bij het aanpassen of suggereren van artikelprijzen en bij het aanpassen of suggereren van vaste verrekenprijzen.</span><span class="sxs-lookup"><span data-stu-id="ce521-126">Set up the rounding rules to apply when adjusting or suggesting item prices and when adjusting or suggesting standard costs.</span></span>|<span data-ttu-id="ce521-127">De pagina **Afrondingsmethode**</span><span class="sxs-lookup"><span data-stu-id="ce521-127">**Rounding Method** page</span></span>|  
+
+## <a name="see-also"></a><span data-ttu-id="ce521-128">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ce521-128">See Also</span></span>  
+[<span data-ttu-id="ce521-129">Voorraadkosten beheren</span><span class="sxs-lookup"><span data-stu-id="ce521-129">Managing Inventory Costs</span></span>](finance-manage-inventory-costs.md)  
+[<span data-ttu-id="ce521-130">Werken met Financials</span><span class="sxs-lookup"><span data-stu-id="ce521-130">Working with Financials</span></span>](ui-work-product.md)  
+[<span data-ttu-id="ce521-131">Financiën</span><span class="sxs-lookup"><span data-stu-id="ce521-131">Finance</span></span>](finance.md)  
+

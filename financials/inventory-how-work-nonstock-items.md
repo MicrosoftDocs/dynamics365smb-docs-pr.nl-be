@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b51c163dc8eafc462a1fd489d498d44eaeafd24a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # Procedure: Werken met niet-voorraadartikelen
@@ -32,25 +32,25 @@ Een niet-voorraadartikel heeft doorgaans het artikelnummer van de leverancier di
 ## Een niet-voorraadartikel maken
 Niet-voorraadartikelkaarten hebben minder informatie dan normale artikelkaarten omdat u deze alleen gebruikt op offertes en op andere manieren. Om die reden moeten ze naar normale artikelkaarten worden converteerd voordat u er verkooptransacties voor kunt boeken.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Instellen hoe niet-voorraadartikelnummers naar uw eigen nummering worden geconverteerd
 Als u conversie van een niet-voorraadartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe de leverancierartikelnummering naar uw eigen artikelnummeropmaak wordt geconverteerd.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelinstellingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul indien nodig de velden in.
 
 ## Een niet-voorraadartikel converteren naar een normaal artikel
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelen** in en klik vervolgens op de gerelateerde koppeling.
 2. Open de kaart voor een niet-voorraadartikel dat u wilt converterennaar een normaal artikel.
 3. Kies in het venster **Niet-voorraadartikelkaart** de actie **Artikel maken**.
 
 Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het niet-voorraadartikel, en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
 
 ## Een niet-voorraadartikel verkopen en converteren naar een normaal artikel
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Vul de velden op het sneltabblad **Algemeen** in, zoals u dat voor elke verkooporder doet. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Selecteer op een nieuwe verkoopregel in het veld **Soort** **Artikel**, maar laat het veld **Nr.** leeg laten.
 4. Kies de actie **Regel** en kies vervolgens de actie **Niet-voorraadartikelen selecteren**.
@@ -66,6 +66,7 @@ U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewe
 
 ## Zie ook
 [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
+[Procedure: Speciale orders maken](sales-how-to-create-special-orders.md)|  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
