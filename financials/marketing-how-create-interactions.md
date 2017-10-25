@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procedure: Interacties maken voor contacten en segmenten
@@ -39,7 +38,7 @@ Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer
 3. Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
-1. Kies op de startpagina **Actieve segmenten** of kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies op de startpagina **Actieve segmenten** of Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul in het venster **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
 
     Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels in het venster **Segment**.  

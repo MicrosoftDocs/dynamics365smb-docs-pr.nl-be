@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 82089770524e6fb6614f86cada7c5792bedf162f
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-vendors"></a>Procedure: Nieuwe leveranciers registreren
@@ -38,6 +37,9 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van de le
 3. Kies in het venster **Selecteer een sjabloon voor een nieuwe leverancier** de sjabloon die u wilt gebruiken voor de nieuwe leverancierskaart.
 4. Kies de knop **Ok**. Een nieuwe leverancierskaart wordt geopend met enkele velden ingevuld met informatie uit de sjabloon.
 5. Ga door met velden op de leverancierskaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]  
+>   Als u het factuuradres dat voor elke factuur van een leverancier wordt gebruikt niet kent, vult u het veld **Betaaladres** niet in. Kies in dat geval het nummer van de factuurleverancier nadat u een inkoopofferte, inkooporder of inkoopkop hebt ingesteld.
 
 De leverancier is nu geregistreerd en de leverancierskaart is klaar om voor inkoopdocumenten te worden gebruikt.
 

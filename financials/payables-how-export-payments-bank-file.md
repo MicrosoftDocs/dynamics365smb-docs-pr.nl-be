@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Procedure: Betalingen naar een bankbestand exporteren
-Wanneer u klaar bent om betalingen te doen naar uw leveranciers met behulp van het venster **Betalingsdagboek**, kunt u een bestand met de betalingsgegevens op de dagboekregels exporteren. Vervolgens kunt u het bestand uploaden naar uw elektronische banksite voor verwerking van de verwante overboekingen.
+Wanneer u klaar bent om betalingen aan uw leveranciers of vergoedingen aan uw werknemers uit te voeren, kunt u een bestand met de betalingsgegevens op de dagboekregels exporteren vanuit het venster **Betalingsdagboek**. Vervolgens kunt u het bestand uploaden naar uw bank voor verwerking van de betreffende overboekingen.
 
 In de algemene versie van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] wordt een algemene provider van services ingesteld en verbonden die bankgegevens converteert naar een bestandsindeling die uw bank vereist. In Noordamerikaanse versies kan dezelfde service worden gebruikt om betalingbestanden te verzenden als Elektronische overboeking (EFT), maar met een licht afwijkend proces. Zie stap 6 in het gedeelte "Betalingen naar een bankbestand exporteren".    
 
@@ -31,14 +30,12 @@ In de algemene versie van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] 
 U gebruikt het venster **Krediettransferregisters** om de betalingsbestanden weer te geven die vanuit het betalingsdagboek zijn geëxporteerd. Vanuit dit venster kunt u ook betalingsbestanden opnieuw exporteren, in het geval van technische fouten of bestandswijzigingen. Let er echter op dat geëxporteerde EFT-bestanden niet in dit venster worden weergegeven en niet opnieuw kunnen worden geëxporteerd.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul betalingsdagboekregels in, bijvoorbeeld met behulp van de functie **Leveranciersbetalingen voorstellen**. Zie voor meer informatie [Procedure: Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
 3. Vul de velden op de betalingsdagboekregels in met de gewenste gegevens. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Als u EFT gebruikt, moet u **Elektronische betaling** of **Elektronische betaling-IAT** in het veld **Betalingssoort** selecteren.
-
-    Andere services voor bestandsexport en de verschillende indelingen vereisen andere waarden in de vensters **Bankrekeningkaart** en **Bankrekening leverancier**. U wordt over verkeerde of ontbrekende instellingswaarden geïnformeerd als u het bestand probeert te exporteren.
+> [!NOTE]  
+>   Als u EFT gebruikt, moet u **Elektronische betaling** of **Elektronische betaling-IAT** in het veld **Betalingssoort** selecteren. Andere services voor bestandsexport en de verschillende indelingen vereisen andere waarden in de vensters **Bankrekeningkaart** en **Bankrekening leverancier**. U wordt over verkeerde of ontbrekende instellingswaarden geïnformeerd als u het bestand probeert te exporteren.
 
 4. Wanneer u alle betalingsdagboekregels hebt voltooid, kiest u de actie **Exporteren**.
 5. Vul in het venster **Elektronische betalingen exporteren** de vereiste waarden in.
@@ -46,7 +43,7 @@ U gebruikt het venster **Krediettransferregisters** om de betalingsbestanden wee
     Eventuele foutmeldingen worden weergegeven in het feitenblok **Fouten betalingsbestand**, waar u ook een foutbericht kunt kiezen om gedetailleerde gegevens te bekijken. U moet alle fouten oplossen voordat het betalingsbestand kan worden geëxporteerd.
 
     > [!TIP]  
->   Wanneer u de functie voor conversie van bankgegevens gebruikt, wordt een algemeen foutbericht weergegeven met de melding dat het bankrekeningnummer niet de lengte heeft die uw bank vereist. Om de fout te voorkomen of op te lossen moet u de waarde in het veld **IBAN** in het venster **Bankrekeningkaart** verwijderen en vervolgens in het veld **Bankrekeningnr.** een bankrekeningnummer invoeren in de indeling die uw bank vereist.
+>   Wanneer u de functie voor conversie van bankgegevens gebruikt, wordt een algemeen foutbericht weergegeven met de melding dat het bankrekeningnummer niet de lengte heeft die uw bank vereist. Als u de fout wilt oplossen, moet u de waarde verwijderen uit het veld **IBAN** in het venster **Bankrekeningkaart** en vervolgens in het veld **Bankrekeningnr.** een bankrekeningnummer invoeren in de indeling die uw bank vereist.
 
 6. Geef in het venster **Opslaan als** de locatie op waar het bestand naartoe wordt geëxporteerd en kies vervolgens **Opslaan**.
 
@@ -85,7 +82,7 @@ U kunt betalingsbestanden opnieuw exporteren vanuit het venster **Krediettransfe
 > [!NOTE]  
 >   Geëxporteerde EFT-bestanden worden niet in het venster **Krediettransferregisters** weergegeven en kunnen niet opnieuw worden geëxporteerd.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Krediettransferregisters** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Krediettransferregisters** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer een betalingexport die u opnieuw wilt exporteren en kies de actie **Betalingen opnieuw exporteren naar bestand**.
 
 ## <a name="see-also"></a>Zie ook
@@ -94,3 +91,4 @@ U kunt betalingsbestanden opnieuw exporteren vanuit het venster **Krediettransfe
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

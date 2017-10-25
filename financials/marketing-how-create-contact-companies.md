@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Procedure: contactbedrijven maken
@@ -28,7 +27,7 @@ Er zijn twee manieren om een contact maken: volledig nieuw of van een bestaande 
 Voordat u een contact maakt, kunt u de instellingen controleren in het venster **Marketinginstellingen**. Zie voor meer informatie [CRM instellen](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Een geheel nieuw bedrijfscontact maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer in voor het contact.
 
@@ -42,7 +41,7 @@ Als u al een aantal klanten, leveranciers of bankrekeningen hebt ingesteld, kunt
 > [!NOTE]  
 >   Voordat u op deze manier contactbedrijven kunt maken, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen in het venster **Marketinginstellingen**. Als u contacten van bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen in het venster **Grootboekinstellingen**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer een van de volgende in, afhankelijk van waar u contacten wilt maken, en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer een van de volgende in, afhankelijk van waar u contacten wilt maken, en klik vervolgens op de gerelateerde koppeling.
    * **Contacten maken van klanten**
    * **Contacten maken van leveranciers**
    * **Contacten maken van bankrekeningen**

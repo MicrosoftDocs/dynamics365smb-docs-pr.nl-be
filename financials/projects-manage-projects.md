@@ -1,6 +1,6 @@
 ---
-title: Projectbeheer | Microsoft Docs
-description: Beschrijft hoe u resources, urenstaten en taken gebruikt om projecten te beheren.
+title: Projecttaken die resources en urenstaten gebruiken | Microsoft Docs
+description: Hier wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten te beheren.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Projectbeheer
@@ -25,7 +24,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projec
 
 Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen. Raadpleeg voor meer informatie [Projectbeheer instellen](projects-setup-projects.md).  
 
-**Opmerking**: voor deze functionaliteit is vereist dat uw ervaring is ingesteld op **Pakket**. Zie [Uw ervaring in [!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen](ui-experiences.md) voor meer informatie.
+> [!NOTE]  
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
@@ -44,7 +44,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook
 [Projectbeheer instellen](projects-setup-projects.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)      
-[Inkopen](purchasing-manage-purchasing.md)         
+[Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)    
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

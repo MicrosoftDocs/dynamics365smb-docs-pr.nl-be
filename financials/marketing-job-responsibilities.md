@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Procedure: Functiegroepen instellen voor contactpersonen
@@ -28,7 +27,7 @@ Functiegroepen gebruiken voor contacten is een proces van twee stappen. Eerst de
 ## <a name="to-define-a-job-responsibility-code"></a>Een functiegroepcode definiëren
 De functiegroepcode bepaalt het type of de categorie van het project, MARKETING of INKOOP. U kunt meerdere functiegroepcodes hebben. Als u de functiegroep wilt definiëren, gebruikt u het venster **Functiegroepen**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Functiegroepen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Functiegroepen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Functiegroepen toewijzen aan een contactpersoon

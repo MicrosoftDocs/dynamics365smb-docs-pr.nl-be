@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 41804dc183f9fa05ec1599db34c2b4f76a790a72
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-inventory-between-locations"></a>Procedure: Voorraad overbrengen tussen vestigingen
@@ -33,14 +32,14 @@ Met het herindelingsdagboek hoeft u alleen de velden **Vestigingscode** en **Nie
 Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingesteld. Zie voor meer informatie [Procedure: Vestigingen instellen](inventory-how-setup-locations.md).
 
 > [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Artikelen overbrengen met een transferorder
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferorders** in en kies de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferorders** in en klik op de gerelateerde koppeling.
 2. Vul in het venster **Transferorder** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Als u de velden **Transitcode**, **Expediteur** en **Servicecode expediteur** hebt ingevuld in het venster **Transferroutegegevens** toen u de transferroute instelde, worden de corresponderende velden op de transferorder automatisch ingevuld.
+>   Als u tijdens het instellen van de transferroute tussen deze vestigingen de velden **Transitcode**, **Expediteur** en **Expediteurservice** in het venster **Transferroutegegevens** hebt ingevuld, worden de bijbehorende velden op de transferorder automatisch ingevuld.
 
     Wanneer u het veld **Servicecode expediteur** invult, wordt de ontvangstdatum in de ontvangstvestiging berekend door de verzendtijd van de expediteurservice op te tellen bij de verzenddatum.
 
@@ -53,7 +52,7 @@ Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingeste
 4. Kies de actie **Boeken**, kies de optie **Ontvangen** en kies vervolgens de knop **OK**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Artikelen overbrengen met het artikelherindelingsdagboek
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelherindelingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelherindelingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul in het venster **Artikelherindelingsdagboeken** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voer in het veld **Vestiging** de vestiging in waar de artikelen momenteel zijn opgeslagen.
 
@@ -65,7 +64,7 @@ Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingeste
 ## <a name="see-also"></a>Zie ook
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Procedure: Vestigingen instellen](inventory-how-setup-locations.md)  
-[Toeleveringsketen](madeira-supply-chain.md)  
+  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

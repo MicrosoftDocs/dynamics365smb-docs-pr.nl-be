@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 63d414f4c81a9e20b4bb81b632edd9c91fb34a87
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Het grootboek en COA begrijpen
@@ -40,7 +39,8 @@ In het rekeningschema worden alle grootboekrekeningen weergegeven. In het rekeni
 * Rapporten weergeven waarin grootboekposten en saldi worden weergegeven.  
 * Sluit uw resultatenrekening.  
 * Open de grootboekrekeningkaart om instellingen toe te voegen of te wijzigen.  
-* Bekijk een lijst met boekingsgroepen waarmee naar die rekening wordt geboekt.  
+* Bekijk een lijst met boekingsgroepen waarmee naar die rekening wordt geboekt.
+* Afzonderlijke debet- en creditsaldo's voor één rekening bekijken  
 
 U kunt grootboekrekeningen toevoegen, wijzigen of verwijderen. Om verschillen te voorkomen, kunt u echter geen grootboekrekening verwijderen als deze gegevens worden gebruikt in het rekeningschema.  
 

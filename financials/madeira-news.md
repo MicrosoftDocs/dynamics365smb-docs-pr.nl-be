@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nieuwe functies in Dynamics 365 for Financials
@@ -31,10 +30,10 @@ Op deze pagina kunt u zien welke gebieden beschikbaar werden toen we nog in de v
 Zoals aangekondigd op de blog zijn we nu een service die u gebruikt in uw bedrijf. Maar in deze wijziging worden ook nieuwe mogelijkheden en een nieuwe extensie toegevoegd.
 
 ### <a name="project-management"></a>Projectbeheer
-Als u overstapt op de Pakket-ervaring gaat, kunt u projecten beheren en werken met resources, urenstaten en projecten. Wanneer u voor het eerst u aanmeldt met een projectmanagerrol, helpt een begeleide instelling u bij het instellen van het beheer van uw projecten. U kunt in het voorbeeldbedrijf werken met de accounts, projecten, resources e.d. in de voorbeeldgegevens en de functionaliteit leren kennen. Zie [Projecten beheren](projects-manage-projects.md) voor meer informatie.
+Als u overstapt op de Suite-ervaring gaat, kunt u projecten beheren en werken met resources, urenstaten en projecten. Wanneer u voor het eerst u aanmeldt met een projectmanagerrol, helpt een begeleide instelling u bij het instellen van het beheer van uw projecten. U kunt in het voorbeeldbedrijf werken met de accounts, projecten, resources e.d. in de voorbeeldgegevens en de functionaliteit leren kennen. Zie [Projecten beheren](projects-manage-projects.md) voor meer informatie.
 
 ### <a name="fixed-assets"></a>Vaste activa
-In de Pakket-ervaring kunt u vaste activa beheren, inclusief de afschrijving en verzekering ervan. Standaardinstellingen worden meegeleverd, maar u kunt deze wijzigen wanneer u wilt. U kunt de inkoop van vaste activa vastleggen in specifieke VA-financieel dagboeken, waarin waarin u vaste activa ook buiten gebruik kunt stellen. De juiste boekhoudingposten worden automatisch gemaakt. Zie [Vaste activa](fa-manage.md) voor meer informatie.
+In de Suite-ervaring kunt u vaste activa beheren, inclusief de afschrijving en verzekering ervan. Standaardinstellingen worden meegeleverd, maar u kunt deze wijzigen wanneer u wilt. U kunt de inkoop van vaste activa vastleggen in specifieke VA-financieel dagboeken, waarin waarin u vaste activa ook buiten gebruik kunt stellen. De juiste boekhoudingposten worden automatisch gemaakt. Zie [Vaste activa](fa-manage.md) voor meer informatie.
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Nieuwe extensie voor het migreren van gegevens vanuit Dynamics GP
 Als uw bedrijf momenteel Dynamics GP gebruikt, kunt u door middel van een begeleide instelling hoofdrecords migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. U moet gegevens van sommige of alle bestaande klanten, leveranciers, voorraadartikelen en rekeningen geëxporteerd hebben door middel van de Dynamics GP-functionaliteit voor gegevensexport. De extensie Dynamics GP Data Migration wijst automatisch de geëxporteerde gegevens toe, zodat u de bestaande gegevens snel in uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt invoeren. Zie voor meer informatie [De extensie Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
@@ -91,7 +90,7 @@ Deze update voegt acties toe aan het leverancierdashboard in de Outlook-invoegto
 De Outlook-invoegtoepassing werkt nu ook in de Outlook-agenda. Vanuit een agenda-afspraak kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen en een overzicht ophalen voor de klant die is gerelateerd aan de afspraak. Vervolgens kunt u een factuur maken voor de services die in de vergadering zijn geleverd, rechtstreeks in de Outlook-agenda zelf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markt voor extensies
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). Hier kunt u extensies zoeken en vinden. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). U kunt in de markt naar extensies zoeken. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Expediteurs en artikelkenmerken
 U kunt de kenmerken toevoegen aan uw voorraadartikelen, waardoor het zeer makkelijk wordt om het juiste product te vinden dat uw klant zoekt. Zie [Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.  
@@ -100,8 +99,8 @@ U kunt de kenmerken toevoegen aan uw voorraadartikelen, waardoor het zeer makkel
 Met deze update kunt u kiezen uit nog meer extensies in het venster **Extensiebeheer**.
 Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Uw klantrelaties beheren met Microsoft Dynamics CRM vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider, die u leidt door het configuratieproces waarmee verbinding maakt met Dynamics CRM. Als dat is uitgevoerd, hebt u een naadloze koppeling tussen records in Dynamics CRM en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics CRM beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Uw klantrelaties beheren met Microsoft Dynamics 365 for Sales vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]
+We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider die u leidt door het configuratieproces om verbinding te maken met Dynamics 365 for Sales. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics 365 for Sales beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Update mei 2016
 In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogelijkheden toegevoegd, zoals [aangekondigd op de blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

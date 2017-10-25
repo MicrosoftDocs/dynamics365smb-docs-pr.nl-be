@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Verkoopopportunities beheren
@@ -25,9 +24,9 @@ Iedere inkomende lead kan als verkoopopportunity worden beschouwd. U kunt opport
 
 Voordat u opportunitybeheer in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Wanneer u opportunities maakt, dient u niet alleen informatie over het contact, de verkoper, de verkoopcyclus en datums op te geven, maar ook de geschatte verkoopwaarde van de opportunity en de geschatte kans op succes.
 
-De volgende tabel bevat een reeks taken met koppelingen naar de onderwerpen waarin deze taken worden beschreven. De taken worden weergegeven in de volgorde waarin deze taken gewoonlijk worden uitgevoerd.
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. 
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
 | Stel de verkoopcycli in die u meestal volgt, en de verschillende fasen binnen elke opportunityverkoopcyclus. |[Procedure: Verkoopcycli instellen voor opportunities en cyclusfasen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Verkoopopportunities maken op basis van uw contacten. |[Procedure: Opportunities maken](marketing-how-create-opportunities.md) |

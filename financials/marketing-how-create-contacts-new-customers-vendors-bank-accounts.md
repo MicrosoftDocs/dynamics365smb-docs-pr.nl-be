@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 142c1649438ad31b604767d6b6f35a1caeb3f9e4
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Procedure: Een contact maken van een klant, leverancier of bankrekening
@@ -26,7 +25,7 @@ Mogelijk wilt u een aantal van uw bestaande contacten vastleggen als klanten, le
 Voordat u op deze manier contacten kunt vastleggen, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen in het venster **Marketinginstellingen**. Als u contacten vastlegt als bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen in het venster **Grootboekinstellingen**.
 
 ## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>Een contact maken als klant, leverancier of bankrekening
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer het contact dat u als klant, leverancier of bankrekening wilt maken.
 3. Kies de actie **Maken als** en kies vervolgens **Klant**, **Leverancier** of **Bank**.
 4. Bevestig het bericht.

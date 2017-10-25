@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] uitbreiden
@@ -48,6 +47,9 @@ Door alleen maar de functies en functionaliteit van uw app op te sommen worden p
 + Uw app publiceren  
 Voordat we publiceren, moeten we met u samenwerken om ervoor te zorgen dat uw app op Microsoft AppSource en op uw eigen landingspagina opvalt. We moeten uw app valideren om ervoor te zorgen dat het gedegen, betrouwbaar en actueel in de markt wordt gezet.
 Download voor meer informatie over het validatieproces en over het publiceren van uw app het document [Uw app publiceren.pdf](https://go.microsoft.com/fwlink/?linkid=841517) van het Downloadcentrum.
+
+## <a name="learn-more-about-extensions-v20"></a>Meer informatie over extensies v2.0
+De nieuwe ontwikkelingshulpmiddelen, waarmee u extensies v2.0 kunt maken, zijn nu in de voorbeeldfase en worden binnenkort geactiveerd in de Dynamics 365 for Financials-service. Als u al vertrouwd wilt raken met de nieuwe hulpmiddelen of meer informatie wilt over extensies 2.0, bekijkt u [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Hulp nodig?
 Als u begeleiding wilt, kunt u via de volgende lijst contact opnemen met een deskundige op het gebied van appinhoud:

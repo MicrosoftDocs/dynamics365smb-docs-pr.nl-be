@@ -1,8 +1,6 @@
 ---
 title: Veel gestelde vragen over het configureren van Financials| Microsoft Docs
 description: Antwoorden op veel gestelde vragen over hoe u zich aanmeldt voor Financials en wat u moet doen om aan de slag te gaan.
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/02/2017
+ms.date: 07/27/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
@@ -29,9 +26,9 @@ Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-ma
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken. Zie [Aanmelden bij Troubleshooting Self-Service](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Moet ik Office 365 aanschaffen?
-Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Office 365 is geïntegreerd, kunt u zich [hier](https://products.office.com/try) aanmelden voor een gratis proefversie van Office 365 van een maand.  
+Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Office 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Office 365 van een maand [hier](https://products.office.com/try).  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Waar gaat de integratie met 365 Office over?
+## <a name="what-is-the-integration-with-office-365-about"></a>Waar gaat de integratie met Office 365 over?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is volledig geïntegreerd met Office 365 zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan ik mijn abonnement annuleren?
@@ -45,6 +42,9 @@ Ja. Als u uw proefperiode wilt verlengen, moet u contact opnemen met Microsoft o
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds dezelfde startpagina in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw Rolcentrum niet gewijzigd en gebruikersgroepen toegewezen die voldoen aan de nieuwe licentie. In wezen wordt uw toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaald door het type plan (licentie) dat u hebt - hiermee worden machtigingen en uw standaardstartpagina ingesteld. U kunt uw Rolcentrum handmatig wijzigen in Mijn Instellingen, maar als u naar een ander plan wordt verplaatst, zoals van het Bedrijfsplan naar het Teamledenplan, ziet u mogelijk de oude startpagina omdat uw machtigingen niet zijn gewijzigd.  
+
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Waarom kan ik die mogelijkheid niet vinden in mijn [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk nog niet geüpgraded naar de laatste versie. Als de mogelijkheid als een extensie in AppSource is gepubliceerd, is er een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource.
 
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

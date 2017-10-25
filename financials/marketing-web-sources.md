@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-web-sources-for-contact-companies"></a>Procedure: Webbronnen voor contactbedrijven instellen
@@ -26,7 +25,7 @@ U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines 
 Webbronnen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de webbroncode. U hoeft deze stap slechts eenmaal uit te voeren voor elke webbron. Als u een webbroncode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
 
 ## <a name="to-define-a-web-source-code"></a>Een webbroncode definiëren
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Webbronnen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Webbronnen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de **Nieuw**-acties.
 3. Vul de velden **Code**, **Omschrijving** en **URL** in.
 

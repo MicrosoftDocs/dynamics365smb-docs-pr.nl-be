@@ -1,8 +1,6 @@
 ---
 title: Klanten herinneren aan of beboeten voor achterstallige betalingen | Microsoft Docs
 description: Beschrijft hoe u een aanmaning aan een klant verzendt over een betaling die achterstallig is, en kosten aan de betaling toevoegt voor de vertraging.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Procedure: Openstaande saldi innen
@@ -49,7 +46,7 @@ Nadat u de rentefacturen hebt gemaakt, kunt u ze aanpassen. De tekst die wordt a
 Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de rentefacturen versturen, meestal via e-mail.  
 
 ## <a name="to-send-the-customer-statement-report"></a>Het rekeningoverzichten van de klant verzenden
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klant - Rekeningoverzicht** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klant - Rekeningoverzicht** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Geef onder **Uitvoeropties** aan hoe de lijst aan het rapport aan de klant moet worden verzonden.
 
@@ -59,7 +56,7 @@ Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kun
 ## <a name="to-set-up-reminder-terms"></a>U kunt aanmaningscondities als volgt instellen
 Als klanten betalingen hebben openstaan, moet u bepalen wanneer en hoe u hen wilt aanmanen. Daarnaast kunt u hun rekening eventueel debiteren met rente of kosten. U kunt zoveel aanmaningscondities instellen als u wilt. Voor elke aanmaningsconditiecode kunt u een onbeperkt aantal aanmaningsniveaus definiëren.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningscondities** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.  
 3. Als u meer dan één combinatie van aanmaningscondities wilt gebruiken, stelt u een code in voor elke.
 
@@ -68,7 +65,7 @@ De instelling van niveau 1 wordt gebruikt als er voor het eerst een aanmaning wo
 
 Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden de voorwaarden van het hoogste niveau gebruikt. U kunt zoveel aanmaning maken als ingesteld in het veld **Max. aantal aanmaningen** in de aanmaningscondities.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningscondities** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer in het venster **Aanmaningscondities** de regel met de condities waarvoor u niveaus wilt instellen en kies vervolgens de actie **Niveaus**.  
 3. Vul indien nodig de velden in.  
 
@@ -99,14 +96,14 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 |%11|De bedrijfsnaam|  
 |%12|Inhoud van het veld **Toeslag per regel** in de aanmaningskop|  
 
-Als u bijvoorbeeld schrijft **U bent %7 %9 verschuldigd op %2.**, bevat de resulterende aanmaning de volgende tekst: **U bent 1,200.50 LV verschuldigd op 02\-02\-2014.**.
+Als u schrijft **U bent %9 %7 verschuldigd op %2**, bevat de resulterende aanmaning bijvoorbeeld de volgende tekst: U bent **USD 1200,50 verschuldigd op 02-02-2014.**
 
 Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst), voert u een van de codes in op elke klantenkaart. Zie [Procedure: Nieuwe klanten registreren](sales-how-register-new-customers.md) voor meer informatie.
 
 ## <a name="to-create-a-reminder-automatically"></a>Automatisch een aanmaningen maken
 Een herinnering is te vergelijken met een factuur. Wanneer u een aanmaning maakt, moeten een aanmaningskop, evenals een of meer aanmaningsregels, worden ingevuld. U kunt een functie gebruiken om automatisch aanmaningen te maken voor alle klanten.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Aanmaning** de actie **Aanmaningen maken**.
 3. Vul in het venster **Aanmaningen maken** de velden in om te definiëren hoe en naar wie de aanmaningen worden gemaakt.
 4. Kies de knop **OK**.
@@ -114,7 +111,7 @@ Een herinnering is te vergelijken met een factuur. Wanneer u een aanmaning maakt
 ## <a name="to-create-a-reminder-manually"></a>Handmatig aanmaningen maken
 In het venster **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invullen en de regels vervolgens automatisch laten invullen.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op het sneltabblad **Algemeen** in.
 4. Kies de actie **Aanmaningsregels voorstellen**.
@@ -129,7 +126,7 @@ In het venster **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invul
 ## <a name="to-replace-reminder-texts"></a>Aanmaningsteksten vervangen  
 U kunt op verschillende manieren bepalen hoe u tekst wilt weergegeven op de afgedrukte aanmaning. In sommige gevallen kunt u de begin- en eindtekst die u hebt gedefinieerd voor het huidige niveau vervangen door de tekst van een ander niveau.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en klik vervolgens op de gerelateerde koppeling.
 2. Open de relevante aanmaning en kies de actie **Aanmaningstekst bijwerken**.
 3. Voer in het venster **Aanmaningstekst bijwerken** het vereiste niveau in het veld **Aanmaningsniveau** in.
 3. Klik op **OK** om de begin- en eindtekst bij te werken.
@@ -151,7 +148,7 @@ Als de selectievakjes **Rente boeken** of **Toeslag boeken** in het venster **Aa
 
 Daarnaast kunnen btw-posten worden gemaakt als u de aanmaning verzendt.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Aanmaningen** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer de desbetreffende aanmaning en kies vervolgens de actie **Verzenden**.
 3. Vul in het venster **Aanmaningen verzenden** de benodigde velden in.
 4. Kies de knop **Ok**.
@@ -163,15 +160,17 @@ U moet een code instellen waarmee elke renteberekening wordt aangeduid. Vervolge
 
 U berekent rentefacturen via de rentedagenmethode of de methode voor openstaande saldi.
 
-Bij de methode Openstaand bedrag is de rente een percentage van het openstaande bedrag.
-**Methode Openstaand bedrag** - Rente = openstaand bedrag x (rentepercentage/100)
+Bij de methode Openstaand bedrag is de rente een percentage van het openstaande bedrag:  
 
-Bij de methode Rentedagen wordt rekening gehouden met het aantal dagen dat de betalingstermijn is overschreden.
-Methode **Rentedagen** - Rente = openstaand bedrag x (dagen overschreden/renteperiode) x (rentepercentage/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Bij de methode Rentedagen wordt rekening gehouden met het aantal dagen dat de betalingstermijn is overschreden:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Elke code in de tabel Rentefactuurconditie is bovendien gekoppeld aan de subtabel Rentefactuurtekst. Voor elke set rentefactuurcondities kunt u een begin- en/of eindtekst definiëren die op de rentefactuur wordt opgenomen.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefactuurcondities** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefactuurcondities** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.  
 3. Als u meer dan één combinatie van rentefactuurcondities wilt gebruiken, stelt u een code in voor elke.
 
@@ -201,18 +200,16 @@ Elke code in de tabel Rentefactuurconditie is bovendien gekoppeld aan de subtabe
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Handmatig rentefacturen maken  
 Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en de regels automatisch invullen of u kunt automatisch rentefacturen voor alle klanten maken.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefacturen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in.  
 3. Kies de actie **Rentefactuurregels voorstellen**.
-4. In het veld **Rentefactuurregels voorstellen  
-6.  Stel een filter in op het sneltabblad **Klantenpost** als u alleen rentefacturen voor specifieke posten wilt maken.  
-
-7.  Kies **OK** om de batchverwerking te starten.  
+4. Stel in het venster **Rentefactuur** een filter in op het sneltabblad **Klantenpost** als u alleen rentefacturen voor specifieke posten wilt maken.  
+5.  Kies **OK** om de batchverwerking te starten.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>De rentefactuurteksten bijwerken  
 Het kan zijn dat u de begin- en eindtekst die u voor de rentefactuurcondities hebt ingesteld, wilt bijwerken. Als u dat doet op een moment waarop u de rentefacturen hebt gemaakt, maar nog niet hebt verzonden, kunt u de facturen bijwerken met de gewijzigde tekst.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefactuur** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefactuur** in en klik vervolgens op de gerelateerde koppeling.  
 2. open de rentefactuur waarvoor u tekst wilt wijzigen en kies vervolgens de actie **Rentefactuurtekst bijwerken**.
 3. Op het sneltabblad **Rentefactuurtekst bijwerken** kunt u een filter instellen als u verschillende facturen wilt bijwerken.
 4. Klik op **OK** om de begin- en eindtekst bij te werken.  
@@ -232,7 +229,7 @@ Als de selectievakjes **Rente boeken** of **Toeslag boeken** in het venster **Re
 
 Daarnaast kunnen btw-posten worden gemaakt als u de rentefactuur verzendt.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Rentefacturen** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer de desbetreffende rentefactuur en kies vervolgens de actie **Verzenden**.
 3. Vul in het venster **Rentefacturen verzenden** de benodigde velden in.
 4. Kies de knop **Ok**.
@@ -241,7 +238,7 @@ Een rentefactuur wordt afgedrukt of verzonden naar een opgegeven e-mailadres als
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Aanmanings- en renteposten weergeven  
 Zodra u een aanmaning verzendt, wordt in het venster **Aanmanings-/renteposten** een aanmaningspost gemaakt voor elke aanmaningsregel met een klantenpost. U kunt vervolgens in een overzicht weergeven welke aanmaningsposten u voor een bepaalde klant hebt gemaakt.    
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Posten**.
 3. Selecteer in het venster **Klantenposten** de regel met de post waarvan u de aanmaningsposten wilt weergeven, en kies de actie **Aanmanings-/rentefactuurposten**.
 

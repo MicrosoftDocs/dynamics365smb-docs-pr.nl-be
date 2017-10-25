@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>Procedure: Het rolcentrum wijzigen
@@ -28,8 +27,7 @@ De inhoud van de startpagina is gebaseerd op het geselecteerde rolcentrum. Het s
 ## <a name="to-change-role-center"></a>Het rolcentrum wijzigen
 1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
 2. Selecteer in het venster **Instellingen** in het veld **Rolcentrum** het rolcentrum dat u als standaard wilt instellen. Selecteer bijvoorbeeld **Accountant**.
-3. Kies de knop **Ok**.
-4. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren.
+3. Kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

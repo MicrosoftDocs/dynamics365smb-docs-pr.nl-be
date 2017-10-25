@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Contactpersonen maken
@@ -29,9 +28,9 @@ Mogelijk wilt u ook enkele publicaties over uw producten laten vertalen en kiest
 
 Door zoveel mogelijk details over een contact te registreren zorgt u ervoor dat alle afdelingen in uw bedrijf de relevante informatie kunnen vinden.
 
-De volgende tabel bevat een reeks taken met koppelingen naar de onderwerpen waarin deze taken worden beschreven. De taken worden weergegeven in de volgorde waarin deze taken gewoonlijk worden uitgevoerd.
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. 
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
 | Informatie over een contactpersoon opgeven. |[Procedure: Contactpersonen maken](marketing-how-create-contact-persons.md) |
 | Een alternatief adres voor een contact instellen. |[Procedure: Alternatieve adressen toewijzen](marketing-how-assign-alternate-address.md) |
@@ -41,6 +40,6 @@ De volgende tabel bevat een reeks taken met koppelingen naar de onderwerpen waar
 
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  
-[Contactpersonen maken en beheren](marketing-create-contact-persons.md)  
+[Contactpersonen maken en beheren]()  
 [Werken met Financials](ui-work-product.md)
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
@@ -72,7 +71,7 @@ De begeleide instelling gebruiken:
 
 Een handmatig proces gebruiken:  
 
-1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en kies vervolgens de gerelateerde koppeling.  
+1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
 2. Vouw het sneltabblad **Cortana Intelligence** uit en kies vervolgens het selectievakje **Cortana Intelligence ingeschakeld**.  
 3. Kies op de startpagina **Cashflowprognose** boven het diagram en kies vervolgens **Prognose herberekenen**.  
 
@@ -83,11 +82,11 @@ Een handmatig proces gebruiken:
 U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Microsoft Dynamics 365 for Financials**. Dit voorspellende model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Cortana Intelligence-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Zoek naar **Prognosemodel voor Microsoft Dynamics 365 voor Financials** en open het model in Azure Machine Learning Studio.  
+2. Zoek naar **Prognosemodel voor Microsoft Dynamics 365 for Financials** en open het model in Azure Machine Learning Studio.  
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
-6. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Cashflowinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+6. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Cashflowinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
 7. Vouw het sneltabblad **Cortana Intelligence** uit en vul de velden in.  
 
 ## <a name="see-also"></a>Zie ook

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Procedure: Inkopen vastleggen
@@ -35,7 +34,7 @@ U kunt een geboekte inkoopfactuur gemakkelijk corrigeren of annuleren voordat u 
 Artikelen kunnen van het type **Voorraad** of **Service** zijn. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie. Het inkoopfactuurproces is gelijk voor beide artikelsoorten.
 
 > [!NOTE]  
->   De inkooporderfunctionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   De inkooporderfunctionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 U kunt leveranciersvelden op de inkoopfactuur op twee manieren invullen afhankelijk van of de leverancier reeds is geregistreerd.
 
@@ -58,7 +57,7 @@ U kunt leveranciersvelden op de inkoopfactuur op twee manieren invullen afhankel
 
     > [!NOTE]  
 >   Als u terugkerende inkoopregels voor de leverancier hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de factuur door de actie **Terugkerende inkoopregels ophalen** te kiezen.
-10. Voer op het sneltabblad **Regels** in het veld **Artikelnr.** het nummer in van een voorraadartikel of service.
+10. Voer op het sneltabblad **Regels** in het veld **Artikelnr.** het nummer van een voorraadartikel of een service in.
 11. Voer in het veld **Aantal** het in te kopen aantal van een artikel in.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ De inkoop wordt nu weerspiegeld in de voorraad en financiële records, en de lev
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  
+[Procedure: Offertes aanvragen](purchasing-how-request-quotes.md)  
 [Procedure: Producten kopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
 [Procedure: Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Procedure: Doorverzendingen voorbereiden](sales-how-drop-shipment.md)  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-time-sheets-for-jobs"></a>Procedure: Urenstaten gebruiken voor projecten
@@ -30,12 +29,12 @@ Nadat u urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken na
 Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een beheerder en een of meer fiatteurs van urenstaten opgeven. Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
 
 > [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-create-a-time-sheet"></a>Een urenstaat maken
 U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Urenstaten maken** in het venster **Overzicht urenstaat**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -49,14 +48,14 @@ U kunt de urenstaten die u hebt gemaakt, bekijken in het venster **Overzicht ure
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Projectplanningsregels kopiëren naar een urenstaat
 De volgende procedure beschrijft hoe u snel projectplanningsregels toevoegt aan een urenstaat.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer in het **Overzicht urenstaat** een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.  
-3. Kies de actie **Regels maken van projectplanning**. Eventuele projectplanningsregels in de urenstaatperiode worden gekopieerd naar de urenstaat voor de machine of persoon in het veld **Resourcenr.** op de urenstaat.
+3. Kies de actie **Regels maken van projectplanning**. Alle projectplanningsregels in de urenstaatperiode worden gekopieerd naar het veld **Resourcenr.** op de urenstaat voor de machine of persoon.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Werksoorten definiëren en er een toevoegen aan een urenstaat
 U kunt de werksoort voor alle urenstaatregels voor projecten definiëren. Op deze manier kunt u gegevens toevoegen die u nodig hebt om de klant te factureren voor verschillende soorten werk.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.   
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.   
 2. Open de relevante urenstaat.
 3. Kies het veld **Omschrijving**.  
 4. Kies in het venster **Projectdetail urenstaatregel** het veld **Werksoort** en selecteer een werksoort in de lijst, bijvoorbeeld **Km**.  
@@ -67,7 +66,7 @@ U kunt de werksoort voor alle urenstaatregels voor projecten definiëren. Op dez
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Urenstaatregels in andere urenstaten opnieuw gebruiken
 Als uw urenstaatinformatie van periode tot periode gelijk blijft, kunt u tijd besparen door de regels te kopiëren uit de vorige periode. Vervolgens voert u alleen het tijdsgebruik voor de nieuwe periode in.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Open de urenstaat voor een periode na de periode voor een bestaande urenstaat met regels.  
 3. Kies de actie **Regels kopiëren van vorige urenstaat**.
 
@@ -76,7 +75,7 @@ De regels worden gekopieerd, inclusief details zoals het type en beschrijving. A
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Urenstaatregels invullen en ter goedkeuring verzenden
 Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor resources. Een urenstaat bevat standaard de algemene werkdagen van maandag tot en met vrijdag.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.  
 3. Vul de velden indien nodig op een regel in. Voer het aantal uren in dat door de resource op elke dag van de week wordt gebruikt.
 
@@ -99,7 +98,7 @@ Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kun
 * Een beheerder van urenstaten kan een urenstaat goedkeuren.
 * De persoon die is opgegeven in het veld **Gebruikers-id van fiatteur van urenstaat** op een resourcekaart kan urenstaten van die resource goedkeuren. Zie [Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstatenmanager** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstatenmanager** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer een urenstaat in de lijst.  
 3. Kies in het venster **Urenstaat** de actie **Goedkeuren** en kies vervolgens de actie **Alle verzonden regels** om alle regels goed te keuren of kies de actie **Alleen geselecteerde regels** om alleen de regels toe te keuren die zijn geselecteerd in het venster **Urenstaat**.
 4. Kies de knop **Ok**.  
@@ -111,7 +110,7 @@ Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kun
 Nadat u een urenstaat hebt goedgekeurd of geweigerd, kan deze niet meer worden gewijzigd tenzij deze eerst opnieuw wordt geopend. In de volgende procedure wordt uitgelegd hoe u een goedgekeurde of geweigerde urenstaat opnieuw opent.
 
 ## <a name="to-reopen-a-time-sheet"></a>Een urenstaat opnieuw openen
-1. Kies het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Urenstatenmanager** of **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Urenstatenmanager** of **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.
 2. Open een urenstaat uit de lijst.  
 
     > [!NOTE]  
@@ -122,7 +121,7 @@ Nadat u een urenstaat hebt goedgekeurd of geweigerd, kan deze niet meer worden g
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Urenstaatregels naar een resourcedagboek boeken
 Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeken naar het relevante resourcedagboek.
 
-1. Kies het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png ""pictogram Zoeken naar pagina of rapport"), voer **Resourcedagboek** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of Rapport](media/ui-search/search_small.png ""pictogram Zoeken naar pagina of rapport"), voer **Resourcedagboek** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies de actie **Regels voorstellen uit urenstaten**.  
 3. Vul indien nodig de velden in.  
 4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het resourcedagboek, waarin u informatie desgewenst kunt wijzigen.  
@@ -132,7 +131,7 @@ Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeke
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Urenstaatregels in een projectdagboek boeken
 Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboek** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboek** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies de actie **Regels voorstellen uit urenstaten**.  
 3. Vul indien nodig de velden in.  
 4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het projectdagboek, waarin u de informatie desgewenst kunt wijzigen.  
@@ -148,7 +147,7 @@ Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag. Alle u
 > [!NOTE]  
 >   Bij het archiveren van een urenstaat wordt de urenstaat verwijderd uit de lijst in het venster **Urenstaten** en het venster **Urenstaatmanager**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten verplaatsen naar archief** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten verplaatsen naar archief** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul de overige velden desgewenst in en kies de knop **OK**.  
 3. Als u gearchiveerde urenstaten wilt bekijken, kiest u in de rechterbovenhoek het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Urenstatenarchieven** of **Urenstaatarchiefbeheer** in en kiest u de gerelateerde koppeling.
 

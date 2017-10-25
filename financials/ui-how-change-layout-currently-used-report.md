@@ -3,7 +3,7 @@ title: De weergave van een rapport wijzigen door een andere lay-out te kiezen | 
 description: U kunt verschillende lay-outs voor een lijst gebruiken en schakelen tussen lay-outs om te bepalen hoe een rapport eruitziet.
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
-ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 677b7319baff476671c4c8ade4afed843f936c36
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Procedure: Wijzigen welke lay-out momenteel in een rapport wordt gebruikt
@@ -25,7 +25,7 @@ Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indi
 Afhankelijk van de lay-outs die voor een rapport beschikbaar zijn, kunt u ervoor kiezen een ingebouwde RDLC-rapportlay-out, een ingebouwde Word-rapportlay-out of een aangepaste lay-out te maken. Zie [Rapportlay-outs beheren](ui-manage-report-layouts.md) voor meer informatie over RDLC- en Word-rapportlay-outs, ingebouwde en aangepaste lay-outs.
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>De lay-out wijzigen die in een rapport wordt gebruikt
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Search for Page or Report icon"), voer **Selectie van rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
    Het venster **Selectie rapportlay-out** bevat een overzicht van alle rapporten die beschikbaar zijn voor het bedrijf dat in het veld Bedrijf boven aan het venster wordt opgegeven. Met het veld Geselecteerde lay-out wordt de lay-out opgegeven die momenteel in het rapport wordt gebruikt.
 2. Stel het veld **Bedrijf** boven in het venster in op het bedrijf dat het rapport bevat.
 3. Als u de lay-out wilt wijzigen die door een rapport wordt gebruikt, stelt u in de rij voor het rapport in de lijst het veld **Geselecteerde lay-out** in op een van de volgende opties:

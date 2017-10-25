@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0c76b481d4a4c49b9cf0db353edaf1e2885fd4d6
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="defining-payment-methods"></a>Betalingsmethoden definiëren
@@ -26,7 +25,7 @@ Betalingswijzen worden gekoppeld aan leveranciers om op te geven hoe een factuur
 
 ## <a name="to-set-up-a-payment-methods"></a>Een betalingswijze instellen
 Verschillende veel voorkomende betalingswijzen zijn al gedefinieerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt nieuwe betalingswijzen in het venster **Betalingsmethoden** opgeven, dat u met de zoekfunctie kunt vinden of het veld **Betalingswijze** op een leveranciers- of een klantenkaart openen.
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsmethoden** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsmethoden** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Zie ook

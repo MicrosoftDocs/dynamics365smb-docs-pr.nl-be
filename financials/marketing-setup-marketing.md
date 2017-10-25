@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
@@ -54,13 +53,10 @@ Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Een nummerreeks toewijzen aan opportunity's en contacten
 U kunt een nummerreeks instellen voor contacten en opportunities. Als u een nummerreeks hebt ingesteld voor contacten, wordt automatisch het volgende beschikbare contactnummer ingevoerd wanneer u een contact maakt en op Enter drukt in het veld Nr.
 
-Zie voor meer informatie over nummerreeksen [Nummerreeksen maken](ui-create-number-series.md).
+Zie voor meer informatie over nummerreeksen [Procedure: Nummerreeksen maken](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Dubbele contacten zoeken als contacten worden gemaakt
 U kunt het programma automatisch laten zoeken naar dubbele records telkens wanneer u een contactbedrijf maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door het programma, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd.
-
-## <a name="setting-up-email-logging"></a>E-mailregistratie instellen
-U kunt e-mailberichten uitwisselen met bijvoorbeeld uw contacten, klanten of leveranciers. U kunt e-mailberichten vanuit de toepassing of vanuit Outlook verzenden en ontvangen. Voordat u op deze manier berichten kunt uitwisselen en deze op het systeem kunt laten opslaan en in de wachtrij plaatsen, moet u enkele parameters instellen, zoals de frequentie waarmee het programma controleert of er e-mailberichten zijn die moeten worden verwerkt en de profielnaam voor het bijhouden van e-mail.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

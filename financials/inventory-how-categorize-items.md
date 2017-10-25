@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-categorize-items"></a>Procedure: Artikelen categoriseren
@@ -26,7 +25,7 @@ Om een overzicht van uw artikelen bij te houden en u te helpen artikelen te sort
 Als u artikelen op basis van kenmerken wilt zoeken, kunt u artikelkenmerken aan artikelen en ook aan artikelcategorieën toewijzen. Zie [Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.
 
 ## <a name="to-create-an-item-category"></a>Een artikelcategorie maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelcategorieën** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelcategorieën** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Artikelcategorieën** de actie **Nieuw**.
 3. Vul indien nodig de velden in het venster **Artikelcategoriekaart** op het sneltabblad **Algemeen** in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Geef op het sneltabblad **Kenmerken** alle artikelkenmerken voor de artikelcategorie op. Zie het gedeelte "Artikelkenmerken aan een artikelcategorie toewijzen" in [Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md) in.
@@ -38,7 +37,7 @@ Als u artikelen op basis van kenmerken wilt zoeken, kunt u artikelkenmerken aan 
 >   Opmerking: artikelkenmerken die u aan een artikelcategorie toewijst, worden automatisch toegepast op het artikel waaraan de artikelcategorie is toegewezen.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Een artikelcategorie aan een artikel toewijzen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
 2. Open de kaart voor het artikel dat u aan een artikelcategorie wilt toewijzen.
 3. Kies in het veld **Artikelcategoriecode** de zoekknop en selecteer een bestaande artikelcategorie. U kunt ook de actie **Nieuw** kiezen om eerst een nieuwe artikelcategorie te maken, zoals is uitgelegd in het gedeelte "Een artikelcategorie maken".
 

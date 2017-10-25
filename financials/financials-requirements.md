@@ -1,6 +1,6 @@
 ---
-title: Minimale vereisten voor het gebruik van Dynamics 365 for Financials | Microsoft Docs
-description: Systeemvereisten voor het gebruik van Dynamics 365 for Financials
+title: Minimale vereisten voor het gebruik van Financials | Microsoft Docs
+description: Lees de minimale systeemvereisten en versievereisten voor het gebruik van Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fad8d80a94971c5ad73d76175e0a31ba5dc4f29a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Minimale vereisten voor het gebruik van Dynamics 365 for Financials
@@ -41,5 +40,5 @@ Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] opent, is het raadzaam dat
 **Platforms:** wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-invoegtoepassing in OWA voor iPhone, OWA voor iPad en OWA voor Android gebruikt, vereist de invoegtoepassing dat uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

@@ -1,7 +1,6 @@
 ---
 title: Vaste activa instellen| Microsoft Docs
 description: Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.
-services: project-madeira
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -10,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-fixed-assets"></a>Vaste activa instellen
@@ -32,6 +30,9 @@ De onderstaande tabel heeft koppelingen naar meer informatie. Als u deze zaken h
 >   U kunt transacties voor vaste activa registreren in het venster **VA fin. dagboek** of **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven.  
 
 Als u een activiteit van een vast activum inschakelt in de sectie **Grootboekintegratie** in het venster **Afschrijvingsboek**, wordt het venster **Financieel dagboek voor vaste activa** gebruikt om transacties voor de activiteit te boeken.
+
+> [!NOTE]  
+>  Deze functionaliteit vereist dat de ervaring is ingesteld op **Suite**. Zie [Uw Financials-ervaring aanpassen](ui-experiences.md) voor meer informatie.  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 

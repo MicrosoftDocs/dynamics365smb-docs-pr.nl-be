@@ -11,16 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 11c046fbd074f9542e496ad07560005873f84f15
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="sorting"></a>Sorteervolgorde
-Met de sorteerfunctie kunt u snel een overzicht van de gegevens opvragen. Als u bijvoorbeeld veel klanten hebt, kunt u ervoor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** om het benodigde overzicht te krijgen.
+Met de sorteerfunctie kunt u snel een overzicht van de gegevens opvragen. Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.
 
 Kies een kolomkop en gebruik de kleine pijl om oplopend of aflopend te sorteren.  
 
@@ -30,5 +29,4 @@ Kies een kolomkop en gebruik de kleine pijl om oplopend of aflopend te sorteren.
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Criteria in filters invoeren](ui-enter-criteria-filters.md)
-
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Afsluitingsoverzichten voorbereiden
@@ -33,7 +32,7 @@ De volgende tabel beschrijft een aantal rapporten die nuttig kunnen zijn bij dit
 | De proefbalans te vergelijken met een budget. |Proefbalans/Budget |
 | Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen, berekend voor een aantal perioden. |Proefbalans per periode |
 | Een rapportageschema af te drukken om de cijfers in grootboekrekeningen te analyseren, of om werkelijke grootboekposten te vergelijken met budgetposten voor het grootboek. |Rapportageschema |
-| Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |Klant- en leveranciersrekeningen reconciliëren |
+| Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |Recon. klant- en lev.-rek. |
 
 Als u een rapport wilt bekijken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 

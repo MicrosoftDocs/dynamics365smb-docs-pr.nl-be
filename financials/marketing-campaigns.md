@@ -1,6 +1,6 @@
 ---
 title: Marketingcampagnes instellen in Financials | Microsoft Docs
-description: Beschrijft hoe u marketingcampagnes in Dynamics 365 for Financials instelt en uitvoert.
+description: Hier wordt beschreven hoe u marketingcampagnes in Dynamics 365 for Financials instelt en uitvoert om prospects te vinden en aan te trekken en klanten vast te houden.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/31/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Marketingcampagnes beheren
@@ -39,7 +38,9 @@ Wanneer u uw campagne hebt ingesteld en hebt besloten op welke segmenten de camp
 
  Wanneer u verkoopprijzen/regelkortingen en de segmenten op de campagnekaart hebt ingesteld, moet u deze activeren zodat de campagneprijzen/kortingen op de regels verschijnen.
 
-**Opmerking:** als u de verkoopprijs/regelkortingen wilt activeren, moet u aangeven of het volledige segment of alleen enkele contacten de doelpersonen van de campagne zijn. Als de verkoopprijzen/regelkortingen betrekking hebben op alle contacten in het segment, selecteer het veld **Campagnedoel** in op het sneltabblad **Campagne** van de **segment** kaart.
+> [!NOTE]  
+>   Als u de verkoopprijs/regelkortingen wilt activeren, moet u aangeven of het volledige segment of alleen enkele contacten de doelpersonen van de campagne zijn. Als de verkoopprijzen/regelkortingen betrekking hebben op alle contacten in het segment, selecteer het veld **Campagnedoel** in op het sneltabblad **Campagne** van de **segment** kaart.
+
 Als de verkoopprijzen/regelkortingen niet aan alle contacten in het segment moeten worden aangeboden, kunt u het selectievakje **Campagnedoel** uitschakelen voor de betreffende contacten. Als u dit veld niet kunt zien, kunt u dit aan de weergave toevoegen. Zie [Persoonlijke gebruikersinstellingen](ui-user-personalization.md) voor meer informatie.
 
 ## <a name="conducting-campaigns"></a>Campagnes uitvoeren

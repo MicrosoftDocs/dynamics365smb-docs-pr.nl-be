@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-mailing-groups-for-contacts"></a>Procedure: Mailinggroepen voor contacten instellen
@@ -28,7 +27,7 @@ Mailinggroepen gebruiken voor contacten is een proces van twee stappen. Eerst de
 ## <a name="to-define-mailing-group-codes"></a>Mailinggroepcodes definiëren
 De mailinggroepscode bepaalt het type of de categorie van de groep, zoals VERHUIZING voor een kantoorverhuizing of GESCHENK voor relatiegeschenken. U kunt meerdere sectorcodes hebben. Als u de groepen wilt definiëren, gebruikt u het venster **Mailinggroepen**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mailinggroepen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mailinggroepen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
 
 ## <a name="AssignMailGroupContact"></a> Mailinggroepen toewijzen aan een contact

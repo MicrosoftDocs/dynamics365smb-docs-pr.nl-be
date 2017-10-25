@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29f9caa8f01fe8e4cfd0f65cc290d82a49fb36bb
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Procedure: Verkoopcycli instellen voor opportunities en cyclusfasen
@@ -28,7 +27,7 @@ Het implementeren van opportunityverkoopcycli betreft het instellen van de verko
 In dit onderwerp wordt ook beschreven hoe u taken en activiteiten instelt en hoe u taken toewijst aan activiteiten. Zie voor meer informatie de sectie 'Activiteiten instellen met taken'.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Opportunityverkoopcycluscodes instellen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopcycli** in en kies vervolgens de gerelateerde koppeling. Het venster **Verkoopcycli** wordt geopend en be vat alle bestaande verkoopcycli.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopcycli** in en klik vervolgens op de gerelateerde koppeling. Het venster **Verkoopcycli** wordt geopend en be vat alle bestaande verkoopcycli.
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Herhaal deze stappen om het gewenste aantal verkoopcycli in te stellen. Nadat u de opportunityverkoopcycli hebt ingesteld, kunt u de verschillende fases instellen binnen elke cyclus.
@@ -45,7 +44,7 @@ Nadat u de opportunityfasecyclus toevoegt, kunt u beginnen om verkoopopportuniti
 ## <a name="to-set-up-activities-with-tasks"></a>Activiteiten instellen met taken
 U kunt meerdere taken combineren, bijvoorbeeld taken die elk een stap in activiteiten vertegenwoordigen. Activiteittaken worden gerelateerd aan elkaar met een datumformule. U kunt activiteiten aan opportunities, verkopers of contacten toewijzen.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Activiteiten** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Activiteiten** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul indien nodig de velden in.
 3. Vul op het sneltabblad **Regels** de velden indien nodig in om een of meer taken in de activiteit te definiëren.
 
@@ -55,7 +54,7 @@ Wanneer u een taak hebt ingesteld, kunt u deze toewijzen aan een verkoopopportun
 > [!NOTE]  
 >   In deze procedure wordt beschreven hoe u activiteittaken toekent aan opportunities. de stappen zijn soortgelijk wanneer u taken toewijst aan contacten en verkopers.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Opportunity's** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Opportunity's** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer een opportunity en kies vervolgens de actie **Taken**.
 3. Kies in het venster **Taakoverzicht** de actie **Taak maken**.
 4.  Vul in het venster **Taak maken** de benodigde velden in.

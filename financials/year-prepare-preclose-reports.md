@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Vooraf sluiten van rapporten gebruiken
@@ -26,7 +25,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 
 | Als u dit wilt doen: | Raadpleeg dit rapport: |
 | --- | --- |
-| Een gedetailleerd proefbalansrapport af te drukken van één of meer bankrekeningen met aanvullende informatie over afzonderlijke posten. |Bankrekening - gedetailleerde proefbalans |
+| Een gedetailleerd proefbalansrapport af te drukken van één of meer bankrekeningen met aanvullende informatie over afzonderlijke posten. |Bank - Proefbalans Detail |
 | Een gedetailleerd proefbalansrapport af te drukken voor bepaalde klanten. |Klant: proefbalans |
 | Een gedetailleerd proefbalansrapport af te drukken met uitvoerige informatie over afzonderlijke posten, voor bepaalde klanten gedurende een bepaalde periode. |Klant - Historie |
 | Een gedetailleerd proefbalansrapport af te drukken voor bepaalde leveranciers. |Leverancier - Proefbalans |

@@ -9,25 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Procedure: Goedkeuringswerkstromen gebruiken
 Wanneer een record, zoals een inkoopdocument of klantenkaart, door iemand in uw organisatie moet worden goedgekeurd, stuurt u een goedkeuringsaanvraag als onderdeel van een werkstroom. Op basis van de instellingen van de werkstroom krijgt de betreffende fiatteur vervolgens het bericht dat hij of zij de record moet goedkeuren.
 
-U stelt goedkeuringswerkstromen in het venster **Werkstroom** in.
+U stelt goedkeuringswerkstromen in het venster **Werkstroom** in. Zie voor meer informatie [Werkstromen instellen](across-set-up-workflows.md).
+
+Naast werkstromen voor goedkeuring die in dit onderwerp worden beschreven kunt u verschillende andere werkstroomtaken uitvoeren. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).
 
 Kerngoedkeuringswerkstromen voor inkoopdocumenten, verkoopdocumenten, betalingsdagboeken, klantenkaarten en artikelkaarten zijn gereed om als begeleide instellingen te dienen. Zie [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md) voor meer informatie.
 
 > [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Goedkeuring van een record aanvragen
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker.
@@ -48,23 +49,12 @@ Het kan voorkomen dat een klant wijzigingen wil aanbrengen in een order nadat de
 
 Als de goedkeuringsaanvraag is geannuleerd, wordt de status voor de gerelateerde goedkeuringspost veranderd in **Geannuleerd**. De status van de record wordt bijgewerkt van **Wacht op goedkeuring** naar **Open**. Het goedkeuringsproces kan vervolgens opnieuw beginnen.
 
-## <a name="to-make-minor-changes-to-approved-records"></a>Kleine wijzigingen in goedgekeurde records aanbrengen
-Als u een kleine wijziging in een record wilt maken nadat deze is goedgekeurd, kunt u de record openen, de wijziging aanbrengen, en dan vrijgeven. Voor kleine wijzigingen kunt u dit met de knoppen **Opnieuw openen** en **Vrijgeven** doen.
-
-1. Open het venster met de record, bijvoorbeeld een inkoopfactuur, en kies de actie **Opnieuw openen**.
-
-    Het veld **Documentstatus** is gewijzigd in **Open**.
-2. Breng de gewenste wijzigingen aan in de record, bijvoorbeeld het adres van de leverancier.
-3. Kies de actie **Vrijgeven**.
-
-Wanneer u de bronrecord opnieuw opent, blijft de status van de gerelateerde goedkeuringspost Goedgekeurd in het venster **Goedkeuringsposten**.
-
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Aanvragen voor goedkeuring goedkeuren of afwijzen
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechten.
 
 U kunt goedkeuringsaanvragen verwerken in het venster **Aanvragen ter goedkeuring**, bijvoorbeeld om meerdere aanvragen tegelijk goed te keuren. U kunt ook elke aanvraag voor de gerelateerde record verwerken zoals het venster **Inkoopfactuur**, door de koppeling te kiezen in het bericht dat u ontvangt.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Aanvragen ter goedkeuring** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Aanvragen ter goedkeuring** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer een of meer regels voor de record of records die u wilt goedkeuren of afwijzen.
 3. Kies de actie **Goedkeuren**, **Weigeren** of **Delegeren**.
 
@@ -79,7 +69,7 @@ De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechte
 
 De aanvrager en de goedkeuringsbeheerder kunnen een goedkeuringsaanvraag delegeren aan de vervangende fiatteur om te voorkomen dat documenten zich ophopen of anderszins de werkstroom blokkeren. De vervanger kan een aangewezen vervanger, de directe fiatteur of de goedkeuringsbeheerder zijn, in die volgorde van prioriteit. Deze functie wordt doorgaans gebruikt wanneer een fiatteur niet op kantoor is en aanvragen niet kan goedkeuren voor de vervaldatum.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Aanvragen ter goedkeuring** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Aanvragen ter goedkeuring** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer een of meer regels voor de goedkeuringsaanvragen die u wilt delegeren aan een vervangende fiatteur, en kies vervolgens de actie **Delegeren**.
 
 Er wordt een bericht met het verzoek om de aanvraag goed te keuren, verstuurd naar de vervangende fiatteur.
@@ -91,12 +81,12 @@ Met regelmatige intervallen moet u gebruikers van goedkeuringswerkstromen herinn
 
 Met de functie **Berichten over achterstallige goedkeuringen verzenden** controleert u op alle openstaande goedkeuringsaanvragen die op dat moment achterstallig zijn. Elke fiatteur waarvoor ten minste één goedkeuringspost achterstallig is, ontvangt een bericht met een overzicht van alle achterstallige goedkeuringsaanvragen. Het bericht wordt ook verzonden naar hun fiatteurs en alle aanvragers die de achterstallige goedkeuringen hebben ingediend. Dit komt van pas wanneer de achterstallige goedkeuringspost moet worden overgedragen aan een vervanger.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vervallen goedkeuringsaanvragen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vervallen goedkeuringsaanvragen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Vervallen goedkeuringsaanvragen** de actie **Berichten over vervallen goedkeuringen verzenden**.
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)    
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

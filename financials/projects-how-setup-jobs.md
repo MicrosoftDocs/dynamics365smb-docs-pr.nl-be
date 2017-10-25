@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-jobs"></a>Procedure: projecten instellen
@@ -26,7 +25,7 @@ In het venster **Projectinstellingen** moet u opgeven hoe u bepaalde functies wi
 Op de afzonderlijke projectkaarten moet u prijzen instellen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
 
 ## <a name="to-set-general-information-for-jobs"></a>Algemene gegevens voor projecten instellen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -42,7 +41,7 @@ Wanneer het selectievakje **Gebruikslink toepassen** is ingeschakeld en het soor
 > [!NOTE]  
 >   Als het selectievakje **Gebruikslink toepassen** op de projectkaart is ingeschakeld, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er nieuwe projectplanningregels van het type **Budget** gemaakt wanneer u journaalregels voor het project boekt. Als het selectievakje **Gebruikslink toepassen** op de projectkaart niet is ingeschakeld, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er geen nieuwe taakplanningregels gemaakt wanneer u journaalregels voor het project boekt. Zie voor meer informatie [Procedure: Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer of deselecteer **Gebruikslink toepassen**.
 
 > [!NOTE]  
@@ -51,7 +50,7 @@ Wanneer het selectievakje **Gebruikslink toepassen** is ingeschakeld en het soor
 ## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
 U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor het venster **Resourceprijzen voor project**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Resource**.
 3. Vul in het venster **Resourceprijzen project** indien nodig de velden in.
 
@@ -65,7 +64,7 @@ De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsreg
 ## <a name="to-set-up-prices-for-job-items"></a>Prijzen instellen voor projectartikelen
 U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor het venster **Artikelprijzen project**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Artikel**.
 3. Vul in het venster **Artikelprijzen project** indien nodig de velden in.
 
@@ -79,7 +78,7 @@ De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplan
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Prijzen instellen voor GB-rekeningen voor een project
 U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U kunt hiervoor het venster **GB-rekeningprijzen project** gebruiken.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening**.  
 3. Vul in het venster **GB-rekeningprijzen project** indien nodig de velden in.
 
@@ -93,7 +92,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 > [!NOTE]  
 >   U moet de benodigde rekeningen in het rekeningschema instellen voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectboekingsgroepen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul de accountvelden in zoals is beschreven in de volgende tabel.  
 
 | Het veld Rekeningnr. | Omschrijving |

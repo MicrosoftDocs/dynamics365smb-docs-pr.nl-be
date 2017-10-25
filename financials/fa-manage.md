@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="fixed-assets"></a>Vast activum
@@ -35,7 +34,7 @@ Elk vast activum kan aan een of meer verzekeringspolissen zijn gekoppeld. Op dez
 >   U kunt transacties voor vaste activa registreren in het venster **VA fin. dagboek** of in het venster **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven. Zie [Procedure: Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
 > [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 Voordat u vaste activa gaat beheren, moet u standaardwaarden, boekhouding voor vaste activa, boekingsgroepen, verdeelsleutels, dagboeken en boekingssoorten instellen. Zie [Vaste activa instellen](fa-setup.md) voor meer informatie.
 

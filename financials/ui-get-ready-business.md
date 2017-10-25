@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
@@ -26,7 +26,7 @@ Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar het vens
 Op de startpagina vindt u onderaan het navigatiedeelvenster het menu **Instellingen en extensies**. Vouw de knop **Home** uit om het navigatievenster weer te geven. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
 
 > [!NOTE]  
->   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Pakket**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Suite**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het volgende:
 
@@ -39,7 +39,7 @@ In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het vol
 | Office-invoegtoepassingen instellen |Hiermee wordt de mogelijkheid ingesteld om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken en te starten vanuit Outlook. |
 | Goedkeuringswerkstroom inst. |Stelt de mogelijkheid in om automatisch een fiatteur te informeren wanneer een gebruiker probeert bepaalde waarden in documenten, dagboekregels of kaarten te wijzigen, zoals een bedrag boven een opgegeven limiet. |
 | E-maillogboekregistratie instellen |Hiermee wordt de mogelijkheid ingesteld om e-mailcorrespondentie te registreren in [!INCLUDE[d365fin](includes/d365fin_md.md)] om interacties op te volgen. |
-| Dynamics CRM-verbinding instellen |Stelt een verbinding met Dynamics CRM in waarmee u gegevens kunt synchroniseren zoals contacten en verkoopordergegevens. |
+| Connector voor Dynamics 365 instellen |Hiermee wordt een verbinding met Dynamics 365 for Sales ingesteld waarmee u gegevens kunt synchroniseren zoals contacten en verkoopordergegevens. |
 
 Wanneer u een begeleide instelling uitvoert, wordt deze gemarkeerd als **Voltooid**. Als u de begeleide instelling wilt uitvoeren, kiest u de drie puntjes die ook het contextmenu worden genoemd, en selecteert u vervolgens **Instelling starten**.
 
@@ -51,7 +51,7 @@ Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te ma
 Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat in dit venster doen.    
 
 ## <a name="adding-users-and-permissions"></a>Gebruikers en machtigingen toevoegen
-Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn aangemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
 
 ## <a name="getting-help"></a>Help opvragen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. In elke knopinfo vindt u een koppeling met de naam **Meer informatie** die u naar de product-Help brengt. Het vraagteken in de rechterbovenhoek verwijst u ook naar product-Help.

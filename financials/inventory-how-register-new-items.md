@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/02/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-items"></a>Procedure: Nieuwe artikelen registreren
@@ -26,10 +25,12 @@ Artikelkaarten bevatten de informatie die is vereist om artikelen te kopen, op t
 
 De artikelkaart kan van het type **Voorraad** of **Service** zijn, om aan te geven of het artikel een fysieke eenheid is of arbeidstijd. Behalve enkele velden die over de materiële aspecten van een artikel gaan, functioneren alle velden op een artikelkaart op dezelfde manier voor voorraadartikelen en services. Zie voor meer informatie over het verkopen van een artikel [Procedure: Producten verkopen](sales-how-sell-products.md) of [Procedure: Verkoop factureren](sales-how-invoice-sales.md).
 
-Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt naar een stuklijst verwezen als een assemblagestuklijst. U gebruikt assemblagestuklijsten om bovenliggende artikelen te structureren die u verkoopt als kits bestaande uit de onderdelen van de bovenliggende artikelen, of die u voor orders of voor voorraad assembleert. Zie [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
+Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
 > [!NOTE]  
 >   Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
+
+Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De leveranciers worden vervolgens weergegeven in het venster **Artikelleveranciers**, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
 
 ## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
 1. Kies op de startpagina de actie **Artikelen** om de lijst met bestaande artikelen te openen.  
@@ -39,6 +40,11 @@ Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuk
 3. Kies in het venster **Selecteer een sjabloon voor een nieuw artikel** de sjabloon die u wilt gebruiken voor de nieuwe artikelkaart.
 4. Kies de knop **Ok**. Een nieuwe artikelkaart wordt geopend met enkele velden met informatie uit de sjabloon.
 5. Ga door met velden op de artikelkaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> In het veld **Waarderingsmethode** bepaalt u hoe de eenheidskostprijs van het artikel wordt berekend door de veronderstellingen die worden gemaakt over de stroom van artikelen in het bedrijf. Afhankelijk van het type item zijn vijf waarderingsmethoden beschikbaar. Zie [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) voor meer informatie.
+>
+> Als u de waarderingsmethode **Gemiddeld** gebruikt, worden de eenheidskosten van een artikel berekend als de gemiddelde eenheidskosten op een bepaald moment na een aanschaf. Voorraad wordt gewaardeerd met de aanname dat alle voorraad tegelijkertijd wordt verkocht. Met deze instelling kunt u het veld **Kostprijs** kiezen en zo in het venster **Overzicht gemiddelde-kostenberekening** de historie bekijken van de transacties waaruit de gemiddelde kostprijs wordt berekend.
 
 Op het sneltabblad **Prijs en boeken** kunt u speciale prijzen of kortingen weergeven die u voor het artikel verleent als aan bepaalde criteria wordt voldaan, zoals klant, minimaal orderaantal of einddatum. Elke rij vertegenwoordigt een speciale prijs of regelkorting. Elke kolom vertegenwoordigt een criterium dat moet worden toegepast om de speciale prijs te garanderen die u invoert in het veld **Eenheidsprijs** of de regelkorting die u invoert in het veld **Regelkorting %**. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,6 +61,18 @@ Als u deze artikelkaart als sjabloon wilt gebruiken wanneer u nieuwe artikelkaar
 
 De artikelsjabloon wordt toegevoegd aan de lijst met artikelsjablonen, zodat u deze kunt gebruiken om nieuwe artikelkaarten te maken.
 
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Meerdere leveranciers voor een artikel instellen  
+Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie over elk van deze leveranciers invoeren, bijvoorbeeld informatie over prijzen, levertermijn, kortingen, enzovoort.  
+
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+2.  Selecteer het betreffende artikel en kies vervolgens de actie **Bewerken**.  
+3.  Kies de actie **Leveranciers**.  
+4.  Klik op het veld **Leveranciersnr.** en selecteer vervolgens de leverancier waarvoor u het artikel wilt instellen.  
+5.  Het invullen van de overige velden is optioneel.  
+6.  Herhaal stap 2 t/m 5 voor elke leverancier waarbij u het artikel wilt kunnen inkopen.
+
+Deze leveranciers worden vervolgens weergegeven in het venster **Artikelleveranciers**, dat u opent vanuit de artikelkaart, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
+
 ## <a name="see-also"></a>Zie ook
   [Voorraad](inventory-manage-inventory.md)  
   [Inkoop](purchasing-manage-purchasing.md)  
@@ -62,3 +80,4 @@ De artikelsjabloon wordt toegevoegd aan de lijst met artikelsjablonen, zodat u d
   [Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

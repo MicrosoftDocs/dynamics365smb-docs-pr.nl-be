@@ -1,8 +1,6 @@
 ---
-title: Welkom bij Dynamics 365 for Financials | Microsoft Docs
-description: Dynamics 365 for Financials is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.
-services: project-madeira
-documentationcenter: 
+title: Kennismaken met Dynamics 365 for Financials | Microsoft Docs
+description: Kom meer te weten over de mogelijkheden en werkscenario's in Dynamics 365 for Financials, een beheeroplossing voor kleine en middelgrote organisaties.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] zullen bepaalde dingen vertrouwd 
 Raadpleeg voor enkele snelle, handige trucs:  
 
 * [Dingen zoeken](ui-search.md)  
-* [Filters instellen](ui-enter-criteria-filters.md)  
-* [Gegevens in lijsten sorteren](ui-sorting.md)  
+* [Lijsten zoeken, filteren en sorteren](ui-enter-criteria-filters.md)  
+* [Gegevens invoeren](ui-enter-data.md)  
 
 Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -43,9 +40,9 @@ Op startpagina´s wordt een op rolcentrumontwerp gebruikt om u snel toegang te v
 Elke startpagina bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
 
 > [!NOTE]  
->   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Pakket**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Suite**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
 
-In het venster **Begeleide instelling** vindt u het volgende in de **Pakket**-ervaring:
+In het venster **Begeleide instelling** vindt u het volgende in de **Suite**-ervaring:
 
 | Begeleide instelling | Omschrijving |
 | --- | --- |
@@ -60,16 +57,19 @@ In het venster **Begeleide instelling** vindt u het volgende in de **Pakket**-er
 | Rapportage instellen |Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
 | Een artikelgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding naar een fiatteur te verzenden wanneer een gebruiker een artikel wijzigt of maakt. |
 | Een betalingsgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding te sturen naar een fiatteur wanneer een gebruiker betalingsdagboekregels voor goedkeuring verzendt. |
-| Dynamics CRM-verbinding instellen |Hiermee wordt een verbinding met Dynamics CRM ingesteld waarmee u gegevens kunt synchroniseren zoals contacten en verkoopordergegevens. |
+| De Dynamics 365-connector instellen |Hiermee wordt een verbinding met Dynamics 365 for Sales ingesteld waarmee u gegevens, zoals contacten en verkoopordergegevens, kunt synchroniseren. |
 | Btw instellen |Hiermee wordt u geholpen om aan de slag te gaan met standaardbelastinggroepen en het toewijzen van tax area codes die u kunt toewijzen aan klanten en leveranciers om automatisch btw in verkoop- of inkoopdocumenten te berekenen. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Zaken in uw eigen bedrijf uitproberen
-Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf overschakelen en een eigen bedrijf maken en erin werken. Dit is een prachtige manier om uit te zoeken of u een abonnement wilt. Instellingen voor financiële zaken worden verschaft. U hoeft alleen uw artikelen, klanten en leveranciers te maken en te importeren. Daarna kunt u facturen boeken en bedrijfsinformatiehulpmiddelen gebruiken om uw bedrijf te analyseren. U kunt uw bedrijf gratis gebruiken tijdens een proefperiode van 30 dagen. Als u zich gedurende die tijd abonneert op [!INCLUDE[d365fin](includes/d365fin_md.md)], bent u al actief en kunt u gewoon verder werken. U kunt dan doorgaan met het werk waarmee u tijdens de proefperiode bezig was.  
+Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf overschakelen en een eigen bedrijf maken en erin werken. Dit is een prachtige manier om uit te zoeken of u een abonnement wilt. Instellingen voor financiële zaken zijn al geconfigureerd, u hoeft alleen maar uw klanten, leveranciers en de door u verkochte producten of services te maken of te importeren. Daarna kunt u facturen boeken en bedrijfsinformatiehulpmiddelen gebruiken om uw bedrijf te analyseren. U kunt uw bedrijf gratis gebruiken tijdens een proefperiode van 30 dagen. Als u zich gedurende die tijd abonneert op [!INCLUDE[d365fin](includes/d365fin_md.md)], bent u al actief en kunt u gewoon verder werken. U kunt dan doorgaan met het werk waarmee u tijdens de proefperiode bezig was.  
 
 Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf**. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u de startpagina en zoekt u de actie **Begeleide instelling**.  
 
 ## <a name="ready-to-subscribe"></a>Klaar om een abonnement te nemen?
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, gebruikt u de koppeling in de melding om in contact te komen met Microsoft. U kunt ook naar [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707) gaan.
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, gebruikt u de koppeling in de melding om in contact te komen met Microsoft. U kunt ook contact opnemen met het [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales-team via [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365-apps
+Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](https://docs.microsoft.com/dynamics365) in de blauwe banner boven aan deze pagina. Ook op de [Dynamics 365-website](https://www.microsoft.com/en-us/dynamics365/) vindt u meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende ti
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Microsoft Dynamics 365-documentatie](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

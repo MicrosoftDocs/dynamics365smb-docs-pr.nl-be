@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ce397b4a492a727211b49d7db2a231bea40d8c43
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9bf3c588b5a9434440494df44c76d62880e31552
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
@@ -34,62 +33,47 @@ U kunt handmatig btw-berekeningen instellen, maar dit kan lastig en tijdrovend z
 > [!NOTE]  
 >   U kunt de begeleide instelling alleen gebruiken als u een Mijn bedrijf hebt gemaakt en geen transacties hebt geboekt die inclusief btw zijn. Anders zouden er gemakkelijk per ongeluk andere btw-tarieven worden gebruikt en onnauwkeurige btw-gerelateerde rapporten worden gemaakt.  
   
-Als u btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over elke stap, bevat dit onderwerp omschrijvingen van elke stap. De omschrijvingen geven aan hoe u het volgende kunt doen:  
-  
-* Btw-bedrijfsboekingsgroepen instellen om btw-tarieven te definiëren voor de markten waarin u werkt. U wijst deze toe aan klanten en leveranciers.  
-* Btw-productboekingsgroepen instellen om btw-tarieven in te stellen voor de producten en services die u koopt of verkoopt.  
-  
-   > [!NOTE]  
->   De concepten achter btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen zijn vergelijkbaar met algemene boekingsgroepen. Zie [Boekingsgroepinstellingen](finance-posting-groups.md) voor meer informatie.
-* Btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen combineren om btw-instellingen te maken waarmee btw-bedragen op verkopen en inkopen worden berekend.  
-* Btw-productboekingsgroepen toewijzen aan de grootboekrekeningen die u voor verkopen en inkopen, en artikelen en resources gebruikt.  
+Als u btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over elke stap, bevat dit onderwerp omschrijvingen van elke stap.
 
-   > [!NOTE]  
->   Als u btw wilt instellen voor resources, moet u de gebruikerservaring **Pakket** voor uw bedrijf inschakelen. Zie [Uw Dynamics 365 for Financials-ervaring aanpassen](ui-experiences.md) voor meer informatie.
-* Btw-verlegging gebruiken voor handel tussen EU-landen/-regio's  
-* Btw-afronding voor documenten begrijpen  
-* Clausules instellen om het gebruik van niet-standaard btw-tarieven uit te leggen
-* Btw-nummers controleren
-
-## <a name="use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>De begeleide instelling Btw-instelling gebruiken om btw in te stellen (aanbevolen)
+## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>De begeleide instelling Btw-instelling gebruiken om btw in te stellen (aanbevolen)
 Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te stellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 Ga als volgt te werk om de begeleide instelling te starten:
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") en voer **Begeleide instelling** in.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") en voer **Begeleide instelling** in.  
 2. Kies **Btw-instelling**.
 
-## <a name="set-up-vat-business-posting-groups"></a>Btw-bedrijfsboekingsgroepen instellen
+## <a name="to-set-up-vat-business-posting-groups"></a>Btw-bedrijfsboekingsgroepen instellen
 Met btw-bedrijfsboekingsgroepen worden de markten vertegenwoordigd waarin u zaken doet met klanten en leveranciers en wordt bepaald hoe u btw in elke markt berekent en boekt. Voorbeelden van btw-bedrijfsboekingsgroepen zijn **Binnenlands** en **Europese Unie (EU)**.  
 
 Gebruik codes die eenvoudig te onthouden zijn en die de bedrijfsboekinggroep beschrijven, zoals **EU**, **Niet-EU** of **Binnenlands**. Deze code moet uniek zijn. U kunt zoveel codes instellen als u nodig hebt, maar u kunt dezelfde code niet meer dan één keer in een tabel gebruiken.
   
 Ga als volgt te werk om een btw-bedrijfsboekingsgroep in te stellen:
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-bedrijfsboekingsgroep** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-bedrijfsboekingsgroep** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 
 Als u standaard btw-bedrijfsboekingsgroepen wilt instellen, koppelt u deze aan bedrijfsboekingsgroepen. [!INCLUDE[d365fin](includes/d365fin_md.md)] wijst de btw-bedrijfsboekingsgroep automatisch toe wanneer u de bedrijfsboekingsgroep toewijst aan een klant, leverancier of grootboekrekening. 
 
-## <a name="set-up-vat-product-posting-groups"></a>Btw-productboekingsgroepen instellen
+## <a name="to-set-up-vat-product-posting-groups"></a>Btw-productboekingsgroepen instellen
 Met btw-productboekingsgroepen worden de artikelen en resources vertegenwoordigd die u koopt of verkoopt en wordt bepaald hoe btw wordt berekend en geboekt volgens het soort artikel of resource, dat wordt aangeschaft of verkocht.  
 Het is aan te raden codes te gebruiken die u gemakkelijk kunt onthouden en waarmee het tarief wordt beschreven, zoals **Geen btw** of **Nul**, **Btw10** of **Gereduceerd** voor 10% btw en **Btw21** of **Standaard** voor 21%.
 
 Ga als volgt te werk om een btw-bedrijfsboekingsgroep in te stellen:
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-productboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul indien nodig de velden in.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-productboekingsgroepen** in en klik vervolgens op de gerelateerde koppeling.  
+2. Vul de velden in.
 
-## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Btw-boekingsgroepen in btw-boekingsinstellingen combineren
+## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Btw-boekingsgroepen in btw-boekingsinstellingen combineren
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden btw-bedragen berekend op verkopen en inkopen op basis van btw-boekingsinstellingen, die combinaties zijn van btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen. Voor elke combinatie kunt u het btw-percentage, het soort btw-berekening en grootboekrekeningen opgeven voor het boeken van btw voor verkopen, inkopen en btw-verlegging. U kunt ook opgeven of btw moet worden herberekend wanneer een betalingskorting wordt toegepast of ontvangen.  
 
 U kunt zo veel combinaties instellen als u nodig hebt. Als u combinaties van btw-boekingsinstellingen met soortgelijke kenmerken wilt groeperen, kunt u een **Btw-identificatie** definiëren voor elke groep en de identificatie toewijzen aan de groepsleden.
 
 Ga als volgt te werk om btw-boekingsinstellingen te combineren:
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul indien nodig de velden in.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-boekingsinstellingen** in en klik vervolgens op de gerelateerde koppeling.
+2. Vul de velden in.
 
-## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Standaard btw-boekingsgroepen toewijzen aan meerdere entiteiten
+## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Standaard btw-boekingsgroepen toewijzen aan meerdere entiteiten
 Als u dezelfde btw-boekingsgroepen op meerdere entiteiten wilt toepassen, kunt u [!INCLUDE[d365fin](includes/d365fin_md.md)] instellen om dat standaard te doen. Er zijn enkele manieren om dit te doen:
 
 * U kunt btw-bedrijfsboekingsgroepen toewijzen aan algemene bedrijfsboekingsgroepen of klant- of leveranciersjablonen 
@@ -97,34 +81,37 @@ Als u dezelfde btw-boekingsgroepen op meerdere entiteiten wilt toepassen, kunt u
 
 De btw-bedrijfsboekingsgroep of btw-productboekingsgroep wordt toegewezen wanneer u een bedrijfs- of productboekingsgroep voor een klant, leverancier, artikel of resource kiest.
 
-## <a name="assign-vat-posting-groups-to-individual-accounts-customers-vendors-items-and-resources"></a>Btw-boekingsgroepen aan afzonderlijke rekeningen, klanten, leveranciers, artikelen en resources toewijzen
+## <a name="to-assign-vat-posting-groups-to-individual-accounts-customers-vendors-items-and-resources"></a>Btw-boekingsgroepen aan afzonderlijke rekeningen, klanten, leveranciers, artikelen en resources toewijzen
 In de volgende gedeelten wordt beschreven hoe u btw-boekingsgroepen aan afzonderlijke entiteiten kunt toewijzen.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Btw-boekingsgroepen toewijzen aan afzonderlijke grootboekrekeningen 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
-2. Open de **Grootboekrekening** voor de rekening.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+2. Open de **Grootboekrekening** voor de rekening.  
 3. Kies op het sneltabblad **Boeken** in het veld **Algemeen boekingssoort** **Verkoop** of **Inkoop**.  
 5. Kies de btw-boekingsgroepen die u wilt gebruiken voor de verkoop- of inkooprekening.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Btw-bedrijfsboekingsgroepen toewijzen aan klanten en leveranciers  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Klant** of **Leverancier** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vouw op de kaart **Klant** of **Leverancier** het sneltabblad **Facturering** uit.  
 3. Kies de btw-bedrijfsboekingsgroep.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Btw-productboekingsgroepen toewijzen aan afzonderlijke artikelen en resources.  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikel** of **Resource** in en kies vervolgens de gerelateerde koppeling.  
-2. Ga op een van de volgende manieren te werk:
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikel** of **Resource** in en klik vervolgens op de gerelateerde koppeling.  
+2. Ga op een van de volgende manieren te werk:  
+
 * Vouw op de **Artikel**kaart het sneltabblad **Prijs en boeking** uit en kies vervolgens **Meer weergeven** om het veld **Btw-productboekingsgroep** weer te geven.  
 * Vouw op de kaart **Resource** het sneltabblad **Facturering** uit.  
-3. Kies de btw-productboekingsgroep.
+3. Kies de btw-productboekingsgroep.  
 
-## <a name="set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Clausules instellen om het gebruik van niet-standaard btw-tarieven uit te leggen
+## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Clausules instellen om het gebruik van niet-standaard btw-tarieven uit te leggen
 U stelt een btw-clausule in om informatie te geven over het soort btw dat wordt toegepast. De informatie kan nodig zijn voor overheidsregelgeving. Nadat u een btw-clausule hebt ingesteld en deze hebt gekoppeld aan een btw-boekingsinstelling, wordt de btw-clausule weergegeven op afgedrukte verkoopdocumenten waarin de btw-boekingsinstellingengroep wordt gebruikt. 
 
 Indien nodig kunt u ook opgeven hoe u btw-clausules naar andere talen vertaalt. Vervolgens wordt wanneer u een verkoopdocument maakt dat een btw-identificatie bevat, de vertaalde btw-clausule in het afgedrukte document opgenomen. Met de taalcode die op de klantenkaart is opgegeven, wordt de taal bepaald.
+
+U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een gegenereerde lijst weergegeven. [!INCLUDE[d365fin](includes/d365fin_md.md)] houdt echter geen historie van de wijziging bij. Op de lijst worden de omschrijvingen van btw-clausules afgedrukt en weergegeven voor alle regels in de lijst naast het btw-bedrag en het btw-basisbedrag. Als er geen btw-clausule is gedefinieerd voor de regels op het verkoopdocument, wordt het hele gedeelte weggelaten wanneer de lijst wordt afgedrukt.
   
 ### <a name="to-set-up-vat-clauses"></a>Btw-clausules instellen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-clausules** in en klik vervolgens op de gerelateerde koppeling.  
 2. Maak een nieuwe regel op de pagina **Btw-clausules**.  
 3. Voer in het veld **Code** een ID voor de clausule in. U gebruikt deze code om de clausule toe te wijzen aan btw-boekingsgroepen.  
 4. Voer in het veld **Omschrijving** de tekst in die u wilt weergeven op documenten die btw kunnen bevatten. Geef indien nodig in het veld **Omschrijving 2** eventuele aanvullende tekst op. De tekst wordt op nieuwe regels weergegeven.  
@@ -132,36 +119,36 @@ Indien nodig kunt u ook opgeven hoe u btw-clausules naar andere talen vertaalt. 
 6. Optioneel: als u wilt opgeven hoe de btw-clausule moet worden vertaald, kiest u de actie **Vertalingen**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Een btw-clausule aan een btw-boekingsgroepinstelling toewijzen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-boekingsinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in de kolom **Btw-clausule** de clausule die u wilt gebruiken voor elke btw-boekingsinstelling waarop deze van toepassing is.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Vertalingen opgeven voor btw-clausules
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-clausules** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies de actie **Vertalingen**.  
 3. Kies in het veld **Taalcode** de taal waarin u vertaalt.  
 4. Voer de vertalingen van de omschrijvingen in de velden **Omschrijving** en **Omschrijving 2** in. Deze tekst wordt weergegeven in de vertaalde btw-rapportdocumenten.  
   
-## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Een btw-boekingsinstelling maken om import-btw te verwerken
+## <a name="to-create-a-vat-posting-setup-to-handle-import-vat"></a>Een btw-boekingsinstelling maken om import-btw te verwerken
 U gebruikt de functie voor import-btw wanneer u een document moet boeken waarbij het volledige bedrag btw is. U gebruikt dit als u een factuur van de belastingdienst ontvangt voor btw op geïmporteerde goederen.  
   
 Ga als volgt te werk om codes voor import-btw in te stellen:  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-productboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-productboekingsgroepen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Stel op de pagina Btw-productboekingsgroepen een nieuwe btw-productboekingsgroep in voor import-btw.  
-3. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+3. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-boekingsinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
 4. Open de pagina Btw-boekingsinstellingen, maak een nieuwe regel of gebruik een bestaande btw-bedrijfsboekingsgroep in combinatie met de nieuwe btw-productboekingsgroep voor import-btw.  
 5. Kies in het veld **Btw-berekening** **Volledig**.  
 6. Voer in het veld **Inkoop-btw-rekening** de grootboekrekening in die moet worden gebruikt om import-btw te boeken. Alle andere rekeningen zijn optioneel.  
   
-## <a name="verify-vat-registration-numbers"></a>Btw-nummers controleren
+## <a name="to-verify-vat-registration-numbers"></a>Btw-nummers controleren
 Het is belangrijk dat de btw-registratienummers die u voor klanten, leveranciers en contactpersonen hebt, geldig zijn. Bedrijven wijzigen bijvoorbeeld soms hun belastingschuldstatus, en in sommige landen kan de belastingdienst u vragen om rapporten te verschaffen, zoals het rapport Verkoopoverzicht EU, waarin de btw-registratienummers worden weergegeven die u gebruikt wanneer u zaken doet. 
   
 De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u moeite besparen. U kunt namelijk de VIES-service om btw-nummers voor klanten, leveranciers en contactpersonen te valideren en bij te houden, rechtstreeks van de klanten-, leveranciers en contactkaarten gebruiken. De service in [!INCLUDE[d365fin](includes/d365fin_md.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar op de pagina **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen aanmelding vereist.
 
 Wanneer u onze serviceverbinding gebruikt, registreren we een overzicht van btw-nummers en verificaties voor elke klant, leverancier of contactpersoon in het **Btw-log**, zodat u deze eenvoudig kunt bijhouden. Het logboek is specifiek voor elke klant. Het logboek is bijvoorbeeld handig om te bewijzen dat u hebt gecontroleerd dat het huidige btw-nummer juist is. Wanneer u een btw-nummer verifieert, wordt in de kolom **Aanvraag-id** in het logboek aangegeven dat u actie hebt ondernomen. 
 
-U kunt het btw-log weergeven op de klanten-, leveranciers- of contactkaarten op het sneltabblad **Facturering** door de zoekknop in het veld **Btw-nummer** veld.  
+U kunt het btw-log weergeven op de klanten-, leveranciers- of contactkaarten, op het sneltabblad **Facturering**, door de zoekknop te kiezen in het veld **Btw-nummer**.  
 
-Onze service kan u ook wat tijd besparen als u een klant of een leverancier maakt. Als u het btw-nummer van de klant weet, kunt u het invoeren in het veld **Btw-nummer** in de klanten- of leverancierskaarten. De klantnaam wordt dan voor u ingevuld door ons. Sommige landen verschaffen ook bedrijfsadressen in een gestructureerde indeling. In deze landen wordt het adres ook door ons ingevuld.  
+Onze service kan u ook wat tijd besparen als u een klant of een leverancier maakt. Als u het btw-nummer van de klant weet, kunt u het in het veld **Btw-nummer** op de klanten- of leverancierskaart invoeren. De klantnaam wordt dan voor u ingevuld. Sommige landen verschaffen ook bedrijfsadressen in een gestructureerde indeling. In deze landen wordt het adres ook door ons ingevuld.  
 
 > [!NOTE]  
 > Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIES-service voor btw-nummervalidatie:
@@ -184,12 +171,65 @@ Btw wordt niet berekend op verkopen aan btw-plichtige bedrijven in andere EU-lan
 Om op de juiste wijze btw op verkopen aan EU-landen te berekenen, moet u:  
   
 * Stel een regel in voor verkopen met dezelfde informatie voor inkopen. Als u reeds regels hebt ingesteld op de pagina Btw-boekingsinstellingen voor inkopen uit EU-landen/-regio's, kunt u de regels ook voor verkopen gebruiken.  
-* De btw-bedrijfsboekingsgroepen toewijzen in het veld **Btw-bedrijfsboekingsgroep** op het sneltabblad **Facturering** van de klantenkaart van elke leverancier van de EU. U moet ook het btw-nummer van de klant invoeren in het veld **Btw-nummer** op het sneltabblad **Buitenlandse handel**.  
+* De btw-bedrijfsboekingsgroepen toewijzen in het veld **Btw-bedrijfsboekingsgroep** op het sneltabblad **Facturering** van de klantenkaart van elke leverancier van de EU. U moet het u btw-nummer van de klant invoeren in het veld **Btw-nummer** op het sneltabblad **Buitenlandse handel**.  
 
 Wanneer u een verkoop aan een klant in een ander EU-land/-regio boekt, wordt het btw-bedrag berekend en wordt een btw-post gemaakt met de informatie over de btw-verlegging en het btw-basisbedrag (het bedrag dat gebruikt wordt om het btw-bedrag te berekenen). In het grootboek worden geen posten naar de btw-rekeningen geboekt.
 
 ## <a name="understanding-vat-rounding-for-documents"></a>Btw-afronding voor documenten
 Bedragen in documenten die nog niet zijn geboekt, worden afgerond en weergegeven zodat ze overeenkomen met de uiteindelijke afronding van bedragen die daadwerkelijk zijn geboekt. Btw wordt berekend voor een volledig document, wat betekent dat de btw die in het document is berekend, is gebaseerd op de som van alle regels met dezelfde btw-identificatie in het document.
 
+## <a name="understanding-the-vat-rate-conversion-process"></a>Het proces voor het converteren van btw-tariefswijzigingen begrijpen.  
+De tool voor het wijzigen van het btw-tarief voert op verschillende manieren conversies uit voor hoofdgegevens, dagboeken en orders. De geselecteerde stamgegevens en dagboeken worden bijgewerkt door de nieuwe algemene productboekingsgroep of de btw-productboekingsgroep. Als u een order volledig of gedeeltelijk hebt verzonden, blijven de verzonden artikelen onderdeel van de huidige algemene productboekingsgroep of btw-productboekingsgroep. Een nieuwe orderregel wordt gemaakt voor de niet verzonden items en bijgewerkt om overeen te komen met de huidige en de nieuwe BTW- of productboekingsgroepen. Bovendien worden gegevens over artikeltoeslagtoewijzigingen, reserveringen en artikeltracering dienovereenkomstig bijgewerkt.  
+  
+Er zijn echter een aantal dingen die niet worden geconverteerd door de tool:
+
+* Verkoop- of inkooporders en facturen waar verzendingen zijn geboekt. Deze documenten zijn geboekt met het huidige btw-tarief.  
+* Documenten met geboekte vooruitbetalingsfacturen. U hebt bijvoorbeeld vooruitbetalingen gedaan of ontvangen op facturen die nog niet zijn voltooid voordat u het wijzigingstool btw-tarief gaat gebruiken. In dit geval is er een verschil tussen de verschuldigde btw en de betaalde btw in de vooruitbetalingen wanneer de factuur is voltooid. Het wijzigingstool btw-tarief slaat deze documenten over en u moet deze handmatig bijwerken.  
+* Doorverzendingen of speciale orders.  
+* Verkoop- of inkooporders met magazijnintegratie als deze gedeeltelijk zijn verzonden of ontvangen.  
+* Servicecontracten.  
+
+### <a name="to-prepare-vat-rate-change-conversions"></a>Conversies van btw-tariefswijziging voorbereiden  
+Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidingen treffen.
+
+* Als u transacties met verschillende tarieven hebt, moeten deze vervolgens worden gescheiden in verschillende groepen door voor elke tarief nieuwe grootboekrekeningen te maken of door met gegevensfilters transacties per tarief te groeperen.  
+* Als u nieuwe grootboekrekeningen maakt, moet u nieuwe algemene boekingsgroepen maken.  
+* Om het aantal documenten dat wordt geconverteerd zo klein mogelijk te maken, moet u zoveel mogelijk documenten boeken en niet-geboekte documenten tot een minimum beperken.  
+* Back-up van gegevens maken.
+
+### <a name="to-set-up-the-vat-rate-change-tool"></a>Het wijzigingstool btw-tarief instellen  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellen BTW-tariefswijziging** in en klik vervolgens op de gerelateerde koppeling.  
+2. Op de sneltabbladen **Hoofdgegevens**, **Dagboeken** en **Documenten** kiest u een boekingsgroepwaarde in de lijst met opties voor verplichte velden.  
+  
+### <a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellen BTW-tariefswijziging** in en klik vervolgens op de gerelateerde koppeling.  
+2. Kies op de pagina **Instellen BTW-tariefswijziging** op het tabblad **Start** in de groep **Verwerken** de optie **Btw-productboekingsgroepconv.** of **Productboekingsgroepconv.**  
+3. Voer in het veld **Van code** de huidige boekingsgroep in.  
+4. Voer in het veld **Tot code** de nieuwe boekingsgroep in.  
+
+### <a name="to-perform-vat-rate-change-conversion"></a>Een conversie voor een btw-tariefswijziging uitvoeren  
+U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief van btw te beheren. U kunt btw en algemene boekingsgroepconversies uitvoeren om btw-tarieven te wijzigen en nauwkeurige btw-rapportage te onderhouden. Afhankelijk van uw instellingen worden de volgende wijzigingen aangebracht:  
+  
+* Btw- en algemene boekingsgroepen worden geconverteerd.  
+* Wijzigingen worden doorgevoerd in grootboekrekeningen, klanten, leveranciers, geopende documenten, dagboekregels, enzovoort.  
+  
+> [!IMPORTANT]  
+>  Voordat u de conversie van de btw-tariefswijziging uitvoert, kunt u de conversie testen. Hiervoor volgt u de onderstaande stappen, maar zorg ervoor dat u de selectievakjes **Conversie uitvoeren** en **Wijzigingstool BTW-tarief voltooid** uitschakelt. Tijdens testconversie wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** gewist en is het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** leeg. Kies nadat de conversie is voltooid de optie **Wijzigingslogposten btw-tarief** om de resultaten van de testconversie weer te geven. Controleer elke post voordat u de conversie uitvoert. Controleer met name transacties met een oud btw-tarief.     
+
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Wijziging btw-tarief** in en klik vervolgens op de koppeling **Instellen BTW-tariefswijziging**.  
+2. Controleer of u de conversie van de btw-productboekingsgroep of de conversie van de algemene productboekingsgroep al hebt ingesteld.  
+3. Schakel het selectievakje **Conversie uitvoeren** in.  
+  
+> [!IMPORTANT]  
+    >  Schakel het selectievakje **Wijzigingstool BTW-tarief voltooid** uit. Het selectievakje wordt automatisch ingeschakeld wanneer de conversie btw-tariefswijziging is voltooid.  
+  
+4. Kies de actie **Converteren**.  
+5. Kies nadat de conversie is voltooid op het tabblad **Start** in de groep **Proces** de optie **Wijzigingslogposten btw-tarief** om de resultaten van de conversie weer te geven.  
+  
+> [!IMPORTANT]  
+>  Nadat de conversie is voltooid, wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** ingeschakeld en bevat het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** de conversiedatum.  
+  
 ## <a name="see-also"></a>Zie ook  
-[Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)
+[Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)  
+[Procedure: Btw rapporteren aan een belastingdienst](finance-how-report-vat.md)  
+[Procedure: Met btw werken bij verkoop en inkoop](finance-work-with-vat.md)  

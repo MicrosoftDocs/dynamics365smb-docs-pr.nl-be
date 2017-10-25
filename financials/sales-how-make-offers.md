@@ -1,5 +1,5 @@
 ---
-title: Een verkoopaanbod of verkoopofferte maken | Microsoft Docs
+title: Een verkoopaanbod voor een klant maken | Microsoft Docs
 description: Beschrijft hoe u een verkoopaanbieding of een offerteaanvraagdocument maakt om uw aanbod aan een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Procedure: Voorstellen maken
@@ -70,7 +69,7 @@ Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandel
 16. Vul in het venster **E-mail verzenden** eventuele overige velden in en controleer de ingesloten verkoopofferte. Zie [Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
 17. Als de klant de offerte accepteert, kiest u de actie **Factuur maken** of de actie **Order maken**.
 
-De verkoopofferte wordt verwijderd uit de database. Een verkoopfactuur of een verkooporder wordt gemaakt op basis van de informatie in de verkoopofferte waarin u de verkoop kunt verwerken. In het veld **Offertenr.** op de verkoopfactuur of verkooporder ziet u het nummer van de verkoopofferte op basis waarvan deze is gemaakt. Zie [Procedure: Verkopen factureren](sales-how-invoice-sales.md) of [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+De verkoopofferte wordt verwijderd uit de database. Een verkoopfactuur of een verkooporder wordt gemaakt op basis van de informatie in de verkoopofferte waarin u de verkoop kunt verwerken. Op de verkoopfactuur of verkooporder vermeldt het veld **Offertenr.** het nummer van de verkoopofferte van waaruit het is gemaakt. Zie [Procedure: Verkopen factureren](sales-how-invoice-sales.md) of [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

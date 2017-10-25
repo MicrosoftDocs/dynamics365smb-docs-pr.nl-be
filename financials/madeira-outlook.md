@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Financials gebruiken met Outlook| Microsoft Docs
-description: Dynamics 365 for Financials heeft diepe integratie met Office 365. U kunt al uw bedrijfinteracties en post met klanten en leveranciers rechtstreeks in Outlook beheren.
+description: "Dynamics 365 for Financials is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Financials als uw bedrijfsinbox gebruiken in Outlook
@@ -53,7 +52,7 @@ In de invoegtoepassing Document Links kunt u acties wijzigen en uitvoeren met he
 ## <a name="adding-the-add-ins-manually"></a>Invoegtoepassingen handmatig toevoegen
 In sommige gevallen worden de invoegtoepassingen niet automatisch aan Outlook toegevoegd. Zelfs als u of een collega de begeleide instelling namens het bedrijf hebt uitgevoerd, is [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk niet zichtbaar in Outlook. Als u dit probleem tegenkomt, kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen handmatig toevoegen.  
 
-Eerst moet u controleren dat u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u Financials voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
+Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u Financials voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
 
 U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt vermeld in het venster **Invoegtoepassingen beheren**.  
 

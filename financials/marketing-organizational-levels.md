@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Procedure: Organisatieniveaus instellen voor contactpersonen
@@ -28,7 +27,7 @@ Organisatieniveaus gebruiken voor contacten is een proces van twee stappen. Eers
 ## <a name="to-define-an-organizational-level-code"></a>Een organisatieniveaucode definiëren
 Het organisatieniveau bepaalt het type of de categorie van het organisatieniveau, bijvoorbeeld CEO of CFO. U kunt meerdere organisatieniveaucodes hebben. Als u het organisatieniveau wilt definiëren, gebruikt u het venster **Organisatieniveaus**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Organisatieniveaus** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Organisatieniveaus** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Organisatieniveaus toewijzen aan een contactpersoon

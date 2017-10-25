@@ -14,19 +14,18 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-specify-posting-periods"></a>Procedure: boekingsperioden opgeven
 Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek kunnen boeken.  
 
 ## <a name="to-specify-posting-periods"></a>Boekingsperioden opgeven
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
 2. In het venster **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
 
 > [!NOTE]  

@@ -1,6 +1,6 @@
 ---
 title: E-mail instellen | Microsoft Docs
-description: Beschrijft hoe u de SMTP-server van het bedrijf gebruikt om e-mailberichten te verzenden en ontvangen binnen Financials, of hoe u de e-mailserverinstellingen gebruikt die met het Office 365-abonnement zijn gemaakt.
+description: Hier wordt beschreven hoe u de SMTP-server van het bedrijf gebruikt om e-mailberichten te verzenden en ontvangen binnen Financials, of hoe u de e-mailserverinstellingen gebruikt die met het Office 365-abonnement zijn gemaakt.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Procedure: E-mail handmatig instellen of de begeleide instelling gebruiken
@@ -28,8 +27,8 @@ Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin
 U kunt uw e-mail handmatig instellen of u help kunt krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>E-mail instellen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **SMTP-e-mailinstellingen** in en klik vervolgens op de gerelateerde koppeling.
+2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Of u kiest de actie **Office 365 Server-instellingen toepassen** om alle informatie in te voegen die al voor uw Office 365-abonnement is gedefinieerd.
 4. Als alle velden correct zijn ingevuld, kiest u de actie **Instelling e-mail testen**.
 5. Als de test is geslaagd, sluit u het venster.

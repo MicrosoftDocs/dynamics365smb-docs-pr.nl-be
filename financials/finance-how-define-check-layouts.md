@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Procedure: Cheque-indelingen definiëren
@@ -26,8 +25,8 @@ U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
 
 ## <a name="to-define-check-layouts"></a>Cheque-indelingen definiëren
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Rapportselecties bankrekening** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer in het venster **Rapportselectie - Bankrekening** in het veld **Gebruik** **Cheque**.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Rapportselecties bankrekening** in en klik vervolgens op de gerelateerde koppeling.
+2. Selecteer in het venster **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
 3. Selecteer een van de volgende rapport-id's.
 
 | Rapport-id | Rapportnaam | Omschrijving |

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-maintenance"></a>Procedure: Onderhoud van vaste activa instellen
@@ -26,20 +25,20 @@ Als u onderhoud voor vaste activa wilt beheren, moet u eerst enkele algemene ond
 ## <a name="to-set-up-general-maintenance-information"></a>Algemene onderhoudsgegevens instellen
 Als u de velden voor onderhoud instelt, kunt u onderhoudskosten boeken vanuit een dagboek voor vaste activa.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vaste activa** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u verzekeringsdekking wilt definiëren en kies vervolgens de actie **Bewerken**.
 3. Vul indien nodig de velden op het sneltabblad **Onderhoud** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Onderhoudscodes instellen
 Als u onderhoudskosten boekt vanuit een algemeen dagboek, vult u het veld **Onderhoudscode** in om te registreren wat voor onderhoud is uitgevoerd, zoals periodiek onderhoud of reparatie.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Onderhoud** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Onderhoud** in en klik vervolgens op de gerelateerde koppeling.
 2. Stel in het venster **Onderhoud** codes voor verschillende soorten onderhoudswerk in.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Onderhoudskostenrekeningen instellen
 Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren in het venster **VA-boekingsgroepen**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **VA-productboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **VA-productboekingsgroepen** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul voor elke boekingsgroep het veld **Onderhoudskostenrek.** in.
 
 > [!NOTE]  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Segmenten beheren
@@ -28,9 +27,9 @@ Er zijn twee hoofdtaken voor het maken van een segment:
 * Voer algemene informatie over het segment in. Voordat u de contacten in het segment kunt selecteren, moet u eerst het segment maken.
 * Selecteer de contacten die u in het segment wilt opnemen.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. De taken staan in de volgorde waarin ze meestal worden uitgevoerd.
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. 
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
 | Segmenten maken waarmee u een groep contacten kunt selecteren. Bijvoorbeeld direct mail. |[Procedure: Segmenten maken](marketing-how-create-segment.md) |
 | De contacten beheren die zijn toegewezen aan segmenten. |[Procedure: Contactpersonen toevoegen aan segmenten](marketing-add-contact-segment.md) |

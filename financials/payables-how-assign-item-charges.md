@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
@@ -41,14 +40,14 @@ Voor zowel inkoop- als verkoopdocumenten kunt u een artikeltoeslag op twee manie
 ## <a name="to-set-up-item-charge-numbers"></a>Artikeltoeslagnummers instellen
 De verschillende soorten artikeltoeslagen die in uw bedrijf worden gebruikt, onderscheidt u van elkaar met artikeltoeslagnummers.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeltoeslagen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeltoeslagen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Artikeltoeslagen** de actie **Nieuw** om een nieuwe regel te maken.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, volgt u deze procedure.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.
 2. Maak een nieuwe inkoopfactuur. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Zorg ervoor dat de inkoopfactuur een of meer regels van de soort Artikel bevat.
 4. Selecteer op een nieuwe regel in het veld **Type** **Toeslag (Artikel)**.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Procedure: Inkomende documentrecords maken
@@ -30,7 +29,7 @@ Voordat u de functie Inkomende documenten gebruikt, moet u de benodigde instelli
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Een inkomend document goedkeuren of weigeren
 Als u gebruikers niet wilt toestaan om facturen of dagboekregels te maken van inkomende documentrecords, tenzij ze zijn goedgekeurd, kunt u goedkeurders instellen die de records moeten goedkeuren voordat ze kunnen worden verwerkt.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en kies de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en klik op de gerelateerde koppeling.
 2. Selecteer de regel met het document dat u wilt goedkeuren of weigeren en kies vervolgens de actie **Goedkeuren** of **Weigeren**.
 
 Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegeven** op de regel van het inkomende document geselecteerd. De gebruiker die verantwoordelijk is voor het aanmaken van, bijvoorbeeld, inkoopfacturen kan doorgaan om de record te verwerken.
@@ -44,7 +43,7 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 3. Kies in het venster **Inkomende documenten** de selectieknop en kies vervolgens **Make vanaf camera**. De camera op de tablet of de telefoon wordt ingeschakeld.
 4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK**.
 
-Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
+    Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Een afbeelding aan een inkomende documentrecord koppelen door een foto te maken
 > [!NOTE]  
@@ -55,14 +54,12 @@ Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
 3. Kies in het venster **Inkomende documenten** de selectieknop en kies vervolgens **Afbeelding van camera bijvoegen**. De camera op de tablet of de telefoon wordt ingeschakeld.
 4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK**.
 
-De afbeelding wordt gekoppeld aan de inkomende documentrecord.
+    De afbeelding wordt gekoppeld aan de inkomende documentrecord.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Een inkomend documentrecord handmatig maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en kies de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkomende documenten** en klik op de gerelateerde koppeling.
 2. Kies de actie **Maken van bestand**.  
-3. Selecteer in het venster **Bestand invoegen** een bestand en kies vervolgens **Openen**.
-
-    Het bestand wordt automatisch gekoppeld.
+3. Selecteer in het venster **Bestand invoegen** een bestand en kies vervolgens **Openen**. Het bestand wordt automatisch gekoppeld.
 4. U kunt ook de actie **Nieuw** kiezen.
 5. Als u een bestand wilt bijvoegen, kiest u de actie **Bestand koppelen**.
 6. In het venster **Bestand invoegen**, selecteert u het bestand dat het betreffende inkomende document vertegenwoordigt. Kies vervolgens de knop **Openen**.

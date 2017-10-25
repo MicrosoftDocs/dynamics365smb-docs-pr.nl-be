@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Basisinstellingen wijzigen
@@ -49,8 +48,11 @@ De standaardwerkdatum is meestal de datum van vandaag. U moet de werkdatum mogel
 > [!IMPORTANT]  
 >   De werkdatum wordt alleen gewijzigd totdat u het bedrijf sluit of totdat de datum verandert. Als u een ander bedrijf opent of hetzelfde bedrijf de dag erop weer opent en nog steeds een andere werkdatum moet gebruiken, moet u de werkdatum opnieuw instellen.
 
-## <a name="confirmation-dialogs"></a>Bevestigingsdialoogvensters
-Gebruik de opties in deze sectie als u bepaalde extra controles wilt opgeven voor boekingsdocumenten. Deze opties worden standaard ingeschakeld, maar u kunt de selectievakjes uitschakelen om te voorkomen dat u specifieke waarschuwingen of berichten krijgt.
+## <a name="region"></a>Regio
+De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.   
+
+## <a name="change-when-i-receive-notifications"></a>Wijzigen wanneer ik berichten ontvang
+Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Zie voor meer informatie [Slimme berichten](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -12,19 +12,18 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-add-contacts-to-segments"></a>Procedure: contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels in het venster **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Contacten toevoegen aan een segment
-1. Kies op de startpagina **Actieve segmenten**. Of kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies op de startpagina **Actieve segmenten**. Of Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer het segment en kies vervolgens de actie **Contacten toevoegen**. Het batchverwerkingsvenster **Contacten toevoegen** wordt geopend.
 3. Stel in het gedeelte **Contact** filters in om de gegevens op te geven op basis waarvan u contacten wilt selecteren.
 

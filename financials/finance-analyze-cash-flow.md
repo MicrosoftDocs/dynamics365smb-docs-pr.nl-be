@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
@@ -30,7 +29,6 @@ Het spreekwoord luidt Geld moet rollen. De diagrammen in het rolcentrum Accounta
 | Lijken de getallen slecht voor een periode?</br> Moet ik dit onderzoeken? |Inkomsten en uitgaven |
 | Wanneer kan een kasoverschot of -tekort plaatsvinden?</br> Moet ik afbetalen of lenen om te voldoen aan verwachte kosten? |Cashflowprognoses |
 
-## <a name="dig-into-the-numbers"></a>De getallen bekijken
 In het rolcentrum Accountant vindt u onder **Rapportageschema** de diagrammen **Cashcyclus**, **Cashflow** en **Inkomsten en uitgaven** waarmee u cashflow kunt analyseren:  
 
 * Bekijk cijfers voor een bepaalde periode met de tijdlijnschuifregelaar.  
@@ -46,7 +44,7 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 * Schulden aftrekt en tegoeden optelt.  
 * Dubbele verkooporders en inkooporders overslaat.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Een cashflowvoorstel weergeven
+## <a name="to-view-a-cash-flow-worksheet"></a>Een cashflowvoorstel weergeven
 1. Zoek **Cashflowinstellingen** en kies vervolgens de verwante koppeling.  
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  

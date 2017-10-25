@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2016
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>Procedure: Vele inkomende documentrecords beheren
@@ -35,7 +34,7 @@ Het selectievakje **Verwerkt** wordt automatisch ingeschakeld voor inkomende doc
 1. Selecteer in het venster **Inkomende documenten** een of meer regels voor inkomende documentrecords die u uit de standaardweergave wilt verwijderen.
 2. Kies de actie **Instellen op verwerkt**.
 
-De inkomende documentrecords worden verwijderd uit de standaardweergave en het selectievakje **Verwerkt** wordt ingeschakeld op de regels.
+    De inkomende documentrecords worden verwijderd uit de standaardweergave en het selectievakje **Verwerkt** wordt ingeschakeld op de regels.
 
 > [!NOTE]  
 >   U kunt deze actie uitvoeren voor de afzonderlijke contactkaart in het venster **Kaart inkomend document**.

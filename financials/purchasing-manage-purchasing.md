@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 03/29/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f9a932a521cd14e52e2a73e69544d2950235ea35
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="purchasing"></a>Inkopen
@@ -31,22 +30,25 @@ Producten kunnen zowel voorraadartikelen als services zijn. Zie [Procedure: Nieu
 
 Voor alle inkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeeld om te vereisen dat grote inkopen worden goedgekeurd door de administrateur. Zie voor meer informatie [Goedkeuringsworkflows gebruiken](across-how-use-approval-workflows.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. De taken worden weergegeven in de volgorde waarin deze taken gewoonlijk worden uitgevoerd.
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
 | Maak een inkoopfactuur om uw overeenstemming met een leverancier vast te leggen om producten tegen bepaalde leverings- en betalingscondities te kopen. |[Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md) |
+|Maak een inkoopofferte om een offerteaanvraag van uw leverancier weer te geven, die u later in een inkooporder kunt omzetten.|[Procedure: Offertes aanvragen](purchasing-how-request-quotes.md)|
 | Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Procedure: Producten kopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
 | Voer een actie op een onbetaalde, geboekte inkoopfactuur uit om automatisch een creditmemo te maken en de inkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Procedure: Niet-betaalde verkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Procedure: Inkoopretouren of annuleringen verwerken](purchasing-how-register-new-vendors.md) |
-| Maak een leverancierkaart voor elke leverancier bij wie u inkoopt. |[Procedure: Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md) |
+|Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Procedure: Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|
+| Leer hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop instellen](purchasing-setup-purchasing.md)  
+[Procedure: Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Projecten beheren](projects-manage-projects.md)    
-[Toeleveringsketen](madeira-supply-chain.md)      
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

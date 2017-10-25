@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-prioritize-vendors"></a>Procedure: leveranciers in een prioriteitsvolgorde plaatsen
@@ -26,7 +25,7 @@ ms.lasthandoff: 07/07/2017
 Eerst moet u aan uw leveranciers eerst een prioriteit toewijzen door nummers aan hen toe te wijzen.
 
 ## <a name="to-prioritize-vendors"></a>Leveranciers in een prioriteitsvolgorde plaatsen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer de relevante leverancier en kies **Bewerken**.
 3. Voer in het veld **Prioriteit** een nummer in.
 

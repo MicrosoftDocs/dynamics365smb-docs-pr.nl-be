@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Procedure: Analyselijsten maken
@@ -43,7 +43,7 @@ Vervolgens kunt u de volgende kolommen instellen:
 - % van omzet vorige maand  
 
 > [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Regel- en kolomindelingen instellen  
  In het venster **Analyserapport** kunt u afhankelijk van uw instellingen verschillende regel- en kolomindelingen bekijken, volgens wat u hebt ingesteld. U stelt uw regels of regelsjablonen in het venster **Analyseregelsjablonen** in. In dit venster kunt u de naam van de lijst definiëren en de objecten die u in de regels van de lijst wilt weergeven. U stelt de kolommen in het venster **Analysekolomsjablonen** in. In dit venster kunt u de naam van de kolomsjabloon definiëren en de analyseparameters die u in de kolommen van de lijst wilt weergeven. Iedere regel in het venster **Analysekolomsjablonen** staat voor een kolom in de lijst. Analyseregels en analysekolommen zijn niet aan elkaar gekoppeld.  
@@ -67,7 +67,7 @@ In een analyselijst worden de analyseparameters als kolommen weergegeven. Met ee
 
 De regels op een sjabloon vertegenwoordigen stuk voor stuk de analysekolommen die u in de analyselijst ziet. Als u een kolom wilt definiëren, moet u een code voor het soort analyse aan een regel toewijzen. Deze code voor het soort analyse bepaalt het type brongegevens in de artikelposten waarop de analyse wordt gebaseerd. Brongegevens omvatten kosten, totale omzet of aantal en hun bijbehorende waardeposten. U kunt zoveel kolomsjablonen instellen als u wilt en deze vervolgens gebruiken om nieuwe analyselijsten te maken.    
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analysekolomsjablonen verkoop** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analysekolomsjablonen verkoop** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer de eerste lege regel en vul de benodigde velden in.
 3. Kies de actie **Kolommen**.  
 4. Geef in de velden in het venster **Analysekolommen** op welke kolommen u in de analyselijst wilt opnemen.  
@@ -85,7 +85,7 @@ De objecten die u wilt analyseren worden in een analyselijst op de regels weerge
 
 Een sjabloon bevat een set regels die de analyseregels in de analyselijst vertegenwoordigen. Per regel kunt u één of meerdere artikelen, klanten, leveranciers of groepen opgeven. U kunt ook een formule invoegen om de bovenliggende regels te totaliseren. U kunt zoveel regelsjablonen maken als u wilt en deze vervolgens gebruiken om nieuwe analyselijsten te maken.    
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyseregelsjablonen verkoop** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyseregelsjablonen verkoop** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer de eerste lege regel en vul de benodigde velden in.
 3. Kies de actie **Regels**.  
 4. Maak in het venster **Analyseregels** regels voor de artikelen, klanten, leveranciers of verkopers waarvan of voor wie u cijfers in de analyselijst wilt bekijken. U bent verplicht de velden **Soort**, **Reeks** en **Omschrijving** in te vullen.  
@@ -98,7 +98,7 @@ De volgende procedure is gebaseerd op analyserapporten voor verkopen. De stappen
 
 Met verkoopanalyselijsten kunt u de dynamiek van uw omzet analyseren op basis van geselecteerde indicatoren voor verkoopprestaties, bijvoorbeeld de omzetbedragen en -aantallen, de bijdrage aan de brutowinst en de progressie van de werkelijke verkoop ten opzichte van het budget. U kunt de rapporten ook gebruiken om de gemiddelde verkoopprijs te analyseren en de prestaties van het verkoopteam te evalueren.  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopanalyserapporten** in en kies vervolgens de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopanalyserapporten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in het venster **Analyserapport verkoop** de actie **Nieuw**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Analyserapport bewerken**.

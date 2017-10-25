@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Slimme berichten
@@ -27,11 +26,13 @@ Als u ervoor kiest details over een bericht te bekijken, kunt u actie ondernemen
 Berichten kunnen onervaren gebruikers helpen onbekende taken uit te voeren en verminderen de productiviteit van de meer ervaren gebruiker niet.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Berichten in- en uitschakelen en bepalen wanneer ze worden verzonden
-Als u begint te werken met [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn alle berichten ingeschakeld, maar kunt u deze naar wens in- of uitschakelen, bijvoorbeeld als u niet geïnteresseerd bent in een bepaalde gebeurtenis of status.   
+Als u begint te werken met [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn alle berichten ingeschakeld, maar kunt u deze naar wens in- of uitschakelen, bijvoorbeeld als u niet geïnteresseerd bent in een bepaalde gebeurtenis of status.  
+  
 Bovendien kunt u voor sommige berichten de voorwaarden opgeven wanneer deze moeten worden verzonden. Bijvoorbeeld als u wilt worden gewaarschuwd wanneer de voorraad te klein is, maar alleen voor artikelen die u inkoopt bij een bepaalde leverancier.  
+  
 Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is alleen voor u van toepassing.  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mijn berichten** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mijn berichten** in en klik vervolgens op de gerelateerde koppeling.
 2. Als u een bericht wilt in- of uitschakelen, schakelt u het selectievakje **Geactiveerd** in of uit.
 3. Als u voorwaarden wilt opgeven die een bericht activeren, kiest u de koppeling **Filtergegevens weergeven** en vult u de velden in.  
 

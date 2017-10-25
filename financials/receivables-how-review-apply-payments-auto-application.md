@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Procedure: Betalingen na automatische vereffening handmatig controleren of vereffenen
@@ -26,7 +25,7 @@ Voor elke dagboekregel die een betaling vertegenwoordigt in het venster **Dagboe
 > [!IMPORTANT]  
 >   Wanneer de bankrekening waarvoor u betalingen reconcilieert, is ingesteld voor de lokale valuta, bevat het venster **Betalingsvereffening** alle openstaande posten in de lokale valuta, inclusief openstaande posten voor documenten die oorspronkelijk in vreemde valuta's zijn gefactureerd. Betalingen die worden vereffend met posten met omgerekende valuta's, kunnen daarom worden geboekt met andere bedragen dan op het oorspronkelijke document, vanwege de mogelijk verschillende wisselkoersen die worden gebruikt door de bank dan wel [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Daarom is het raadzaam dat u controleert op vreemde valutacodes in het veld **Valutacode** in het venster **Betalingsvereffening** om te zien of vereffeningen zijn gebaseerd op omgezette valuta's. Als u het oorspronkelijke documentbedrag in de vreemde valuta wilt controleren en als u de gebruikte wisselkoers wilt zien, kiest u het veld **Vereffenen met postnr.** en kiest u vervolgens in het snelmenu de detailknop om het venster **Klantposten** of **Leveranciersposten** te openen.
+Daarom is het raadzaam dat u controleert op vreemde valutacodes in het veld **Valutacode** in het venster **Betalingsvereffening** om te zien of vereffeningen zijn gebaseerd op omgezette valuta's. Als u het oorspronkelijke documentbedrag in de buitenlandse valuta wilt controleren en de gebruikte wisselkoers wilt zien, kiest u het veld **Vereffenen met postnr.** en kiest u in het snelmenu de knop Drilldown om het venster **Customer Ledger Klantenposten** of **Leveranciersposten** te openen.
 
 Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet automatisch afgehandeld door [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -40,7 +39,7 @@ Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet au
 >   U kunt een betaling slechts met één rekening vereffenen. Als u de vereffening over meerdere openstaande posten wilt splitsen, bijvoorbeeld om een betaling ineens te vereffenen, moeten de openstaande posten voor dezelfde rekening zijn. Zie voor meer informatie stap 7 en 8 in de procedure in dit onderwerp.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Betalingen na automatische vereffening controleren of vereffenen
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik vervolgens op de gerelateerde koppeling.
 2. Open het betalingreconciliatiedagboek voor een bankrekening waarvoor u betalingen wilt reconciliëren. Zie voor meer informatie [Procedure: Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. In het venster **Dagboek betalingsreconciliatie** selecteert u een betaling die u wilt controleren of handmatig vereffenen met een of meer openstaande posten. Vervolgens kiest u de actie **Handmatig vereffenen**.
 4. Schakel het selectievakje **Vereffend** in op de regel voor de openstaande post waarmee u de betaling wilt vereffenen.
