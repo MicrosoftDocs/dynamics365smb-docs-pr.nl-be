@@ -50,13 +50,12 @@ Vervolgens kunt u de volgende kolommen instellen:
 
 Op basis van de regels en de kolommen die u hebt ingesteld, wordt het resultaat van de lijst in het venster **Analyselijst** opgesteld met behulp van een matrix. Een voorbeeld:  
 
-|||||  
+| |Omzet lopende maand|Omzet vorige maand|% van omzet vorige maand|  
 |-|-|-|-|  
-||Omzet lopende maand|Omzet vorige maand|% van omzet vorige maand|  
-|Computers||||  
-|Monitoren||||  
-|Reserveonderdelen||||  
-|Totaal||||  
+|Computers| | | |  
+|Monitoren| | | |  
+|Reserveonderdelen| | | |  
+|Totaal| | | |  
 
  U kunt één set met regels en verschillende sets met kolomindelingen instellen, bijvoorbeeld om lijsten per maand en per jaar weer te geven.
 

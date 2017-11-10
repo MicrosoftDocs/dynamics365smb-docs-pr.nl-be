@@ -67,7 +67,6 @@ Om de wijzigingen in het voorzieningsplan te implementeren, moet u de resulteren
  |Groene cirkel met een pictogram in de vorm van een schijf met een rood kruis|Voorgestelde voorzieningsorder met planningsboodschap *Annuleren*.<br /><br /> -   Kan niet worden gewijzigd.<br />-   Zichtbaar wanneer het veld **Planningsuggesties opnemen** is geselecteerd (groene grafiek).|  
  |Groene cirkel met een pictogram in de vorm van een schijf met een ster|Voorgestelde voorzieningsorders met planningsboodschap *Nieuw*.<br /><br /> -   Kan worden gewijzigd.<br />-   Zichtbaar wanneer het veld **Planningsuggesties opnemen** is geselecteerd (groene grafiek).|  
  |Groene cirkel met een pictogram in de vorm van een schijf met een of twee pijlen|Voorgestelde voorzieningenorders met planningsboodschap *Herplannen*, *Aantal wijzigingen* of *Herplannen en aantal wijzigingen*<br /><br /> -   Kan worden gewijzigd.<br />-   Zichtbaar wanneer het veld **Planningsuggesties opnemen** is geselecteerd (groene grafiek).<br /><br /> De pijlen geven de richting van de planningsuggestie aan. Bijvoorbeeld een pijl-links samen met een pijl-omhoog geeft een planningsboodschap *Herplannen en Aantal wijzigen* aan die uit een achterwaartse herplanning en een toename van het aantal bestaat.|  
- ||  
 
 Wanneer u het vervolgkeuzemenu voor het sneltabblad **Tijdlijn** opent, worden de volgende functies weergegeven, afhankelijk van wat u kiest  
 
