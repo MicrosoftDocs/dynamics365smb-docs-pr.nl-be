@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
@@ -46,7 +46,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 4.  Vul de velden in zoals beschreven in de volgende tabel.  
 
-    |Veld|[Beschrijving]|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Geef een code op ter identificatie van het XML-schema.|  
     |**Beschrijving**|Geef een omschrijving op van het XML-schema.|  
@@ -66,7 +66,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 2.  Vul de velden in voor de kop, zoals in de volgende tabel is beschreven.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Schemacode XML**|Geef het XML-schemabestand op dat u hebt geladen in stap 5 in het gedeelte "Een XML-schemabestand laden".|  
     |**Nieuw XMLport-nummer**|Geef het nummer op van de XMLport die is gemaakt op basis van dit XML-schema wanneer u de actie **XMLPort genereren** kiest.|  
@@ -79,7 +79,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 4.  Kies op het tabblad **Start** in de groep **Weergeven** een van de volgende acties om te wijzigen welke knooppunten worden weergegeven.  
 
-    |**Actie**|Description|  
+    |**Actie**|Omschrijving|  
     |----------------|---------------------------------------|  
     |**Alles weergeven**|Alle knooppunten worden weergegeven.|  
     |**Niet-verplicht verbergen**|Alleen knooppunten die elementen vertegenwoordigen die vereist zijn volgens het XML-schema, worden weergegeven. Deze knooppunten worden doorgaans aangegeven met een **1** in het veld **MinOcurrs**.<br /><br /> Kies **Alles weergeven** om de weergave om te keren.|  

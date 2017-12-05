@@ -13,10 +13,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-item-attributes"></a>Procedure: Werken met artikelkenmerken
@@ -25,7 +25,7 @@ Wanneer klanten informeren naar een artikel, via correspondentie of via een geï
 U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens worden toegepast op de artikelen die de artikelcategorieën gebruiken. Zie [Procedure: Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
 > [!Tip]  
-> Als u afbeeldingen aan artikelen koppelt, kan de extensie Afbeeldingsanalyse kenmerken in de afbeelding detecteren en de kenmerken voorstellen, zodat u kunt besluiten of u deze toewijst. De extensie is klaar. U hoeft deze alleen in te schakelen. Zie voor meer informatie [De extensie Afbeeldingsanalyse voor Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+> Als u afbeeldingen aan artikelen koppelt, kan de extensie Afbeeldingsanalyse kenmerken in de afbeelding detecteren en de kenmerken voorstellen, zodat u kunt besluiten of u deze toewijst. De extensie is klaar. U hoeft deze alleen in te schakelen. Zie voor meer informatie [De extensie Afbeeldingsanalyse voor Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Artikelkenmerken maken
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en klik vervolgens op de gerelateerde koppeling.

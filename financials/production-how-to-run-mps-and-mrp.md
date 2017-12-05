@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Procedure: Volledige planning, MPS en MRP uitvoeren
-De termen 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Procedure: Volledige Planning, MPS of MRP uitvoeren
+De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  
 
--   *MPS* wordt gedefinieerd als de berekening van een hoofdproductieschema op basis van de werkelijke behoefte en de productieprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden "MPS-artikelen" genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
--   *MRP* wordt gedefinieerd als de berekening van het benodigde materiaal op basis van de werkelijke behoefte aan materiaal en de productieprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
+-   MPS wordt gedefinieerd als de berekening van een hoofdproductieschema op basis van de werkelijke behoefte en de productieprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden MPS-artikelen genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
+-   MRP wordt gedefinieerd als de berekening van het benodigde materiaal op basis van de werkelijke behoefte aan materiaal en de productieprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
 
 De planningsalgoritmen die worden gebruikt voor MPS en MRP zijn identiek. De planningsalgoritmen hebben betrekking op de nettoberekening, het hergebruik van bestaande aanvullingsorders en planningsboodschappen. Er wordt door het planningssysteem gekeken naar wat er nodig is of zal zijn (behoefte) en wat er in voorraad is of verwacht wordt (voorziening.) Wanneer deze aantallen tegen elkaar tot een nettowaarde worden teruggebracht, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] planningsboodschappen af. Planningsboodschappen zijn suggesties voor het opstellen van een nieuwe order, het wijzigen van een order (aantal of datum), of het annuleren van een order die al is besteld. De term 'order' omvat inkooporders, assemblageorders, productieorders en transferorders.
 
@@ -51,7 +51,7 @@ Voor elke geplande methode, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] vo
 2.  Kies de actie **Regeneratief plan berekenen** om het venster **Planning berekenen** te openen.  
 3.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Selecteer de optie on de berekening van een hoofdproductieschema te initiëren. Artikelen met open verkooporders en/of productieprognoses worden meegenomen in deze procedure.|  
     |**MRP**|Selecteer de optie om de berekening van de materiaalbehoefteplanning te initiëren. Artikelen met afhankelijke vraag worden meegenomen in deze procedure. Normaal gesproken worden MPS en MRP gelijktijdig uitgevoerd. Als u MPS en MRP gelijktijdig wilt uitvoeren, moet er een vinkje worden gezet in het veld **Gecombineerd MPS/MRP berek.** op het sneltabblad **Planning** in het venster **Productie-instellingen**.|  
@@ -69,7 +69,7 @@ Voor elke geplande methode, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] vo
 1.  Kies in het venster **Planningsvoorstel** de actie **Planningsboodschap uitvoeren**.  
 2.  Op het sneltabblad **Opties** moet u opgeven hoe de voorzieningen gemaakt moeten worden. Vul de velden in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Productieorder**|Geef op hoe u productieorders wilt maken. U kunt dit ook rechtstreeks doen vanaf de planningsregelvoorstellen. U kunt geplande of vast geplande productieorders opstellen.|  
     |**Assemblageorder**|Geef op hoe u assemblageorders wilt maken. U kunt dit ook rechtstreeks doen vanaf de planningsregelvoorstellen.|  
@@ -97,7 +97,7 @@ Wanneer u de planningsboodschap hebt bekeken en u hebt bepaald of u enkele of al
 
 Als reactie op een gebrek aan evenwichtigheid tussen voorzieningen en vraag worden de volgende planningsboodschappen gegenereerd.  
 
-|Planningsboodschap|Description|  
+|Planningsboodschap|Omschrijving|  
 |--------------------|---------------------------------------|  
 |**Nieuw**|Als in een vraag niet kan worden voorzien door het voorstellen van de planningsboodschappen **Aantal wijzigen**, **Herplannen** of **Herplannen en aantal wijzigen** van bestaande orders, wordt de planningsboodschap **Nieuw** gegenereerd, hetgeen een nieuwe order suggereert. Daarnaast wordt de planningsboodschap **Nieuw** afgegeven als er geen bestaande orders voor voorzieningen zijn binnen de bestelfrequentie van het betreffende artikel. Deze parameter bepaalt het aantal perioden voorwaarts en achterwaarts in het beschikbaarheidsprofiel bij het zoeken naar een order om te herplannen.|  
 |**Aantal wijzigen**|Wanneer een vraag die wordt getraceerd naar een of meer orders voor voorzieningen te maken krijgt met een wijziging van het aantal, wordt de planningsboodschap **Aantal wijzigen** afgegeven, waarmee wordt aangegeven dat de betreffende voorziening moet worden gewijzigd met betrekking tot de wijziging in de behoefte. Als zich een nieuwe vraag voordoet, zoekt [!INCLUDE[d365fin](includes/d365fin_md.md)] binnen de bestelfrequentie naar de dichtstbijzijnde order voor voorzieningen die nog niet gereserveerd is en geeft de planningsboodschap Wijzigen af voor die order.|  

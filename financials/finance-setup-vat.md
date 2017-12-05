@@ -13,10 +13,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9bf3c588b5a9434440494df44c76d62880e31552
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -143,6 +143,9 @@ Ga als volgt te werk om codes voor import-btw in te stellen:
 Het is belangrijk dat de btw-registratienummers die u voor klanten, leveranciers en contactpersonen hebt, geldig zijn. Bedrijven wijzigen bijvoorbeeld soms hun belastingschuldstatus, en in sommige landen kan de belastingdienst u vragen om rapporten te verschaffen, zoals het rapport Verkoopoverzicht EU, waarin de btw-registratienummers worden weergegeven die u gebruikt wanneer u zaken doet. 
   
 De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u moeite besparen. U kunt namelijk de VIES-service om btw-nummers voor klanten, leveranciers en contactpersonen te valideren en bij te houden, rechtstreeks van de klanten-, leveranciers en contactkaarten gebruiken. De service in [!INCLUDE[d365fin](includes/d365fin_md.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar op de pagina **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen aanmelding vereist.
+
+> [!Note]
+> Als u de validatieservice van EU-btw-nummers wilt inschakelen, moet u over beheerdertoegangsrechten beschikken.
 
 Wanneer u onze serviceverbinding gebruikt, registreren we een overzicht van btw-nummers en verificaties voor elke klant, leverancier of contactpersoon in het **Btw-log**, zodat u deze eenvoudig kunt bijhouden. Het logboek is specifiek voor elke klant. Het logboek is bijvoorbeeld handig om te bewijzen dat u hebt gecontroleerd dat het huidige btw-nummer juist is. Wanneer u een btw-nummer verifieert, wordt in de kolom **Aanvraag-id** in het logboek aangegeven dat u actie hebt ondernomen. 
 

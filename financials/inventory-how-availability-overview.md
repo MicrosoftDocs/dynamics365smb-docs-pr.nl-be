@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Procedure: beschikbaarheid van artikelen weergeven
@@ -26,10 +26,10 @@ U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt de
 > [!NOTE]  
 >   Beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie voor meer informatie [Procedure: Vestigingen instellen](inventory-how-setup-locations.md).
 
-In [[!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers weergegeven in twee verschillende velden, elk met een andere definitie:
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers weergegeven in twee verschillende velden, elk met een andere definitie:
 
 * Het veld **In voorraad** bevat het werkelijke aantal van vandaag op basis van geboekte artikelposten.
-* Het veld **Geplande voorraad** wordt berekend en toont de beschikbare hoeveelheid plus geplande ontvangsten minus brutobehoeften. (In [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken omvatten geplande ontvangsten hoeveelheden op inkooporders en inkomende transferorders. Brutobehoeften omvatten aantallen op verkooporders en uitgaande transferorders.)
+* Het veld **Geplande voorraad** wordt berekend en toont de beschikbare hoeveelheid plus geplande ontvangsten minus brutobehoeften. (In [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken omvatten geplande ontvangsten hoeveelheden op inkooporders en inkomende transferorders. Brutobehoeften omvatten aantallen op verkooporders en uitgaande transferorders.)
 
 > [!TIP]  
 >   Het geplande beschikbare saldo is met name van belang voor weergave in de vensters **Beschikbaarheid per periode** en **Artikelbeschikbaarheid per gebeurtenis**, aangezien deze de datumdimensie bevatten.  
@@ -119,6 +119,6 @@ Als een of meer assemblageonderdelen niet beschikbaar zijn, wordt dit weerspiege
 [Procedure: Vestigingen instellen](inventory-how-setup-locations.md)  
 [Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)  
 [Procedure: Producten verkopen](sales-how-sell-products.md)      
-[Werken met Financials](ui-work-product.md)  
+[Werken met Dynamics 365](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

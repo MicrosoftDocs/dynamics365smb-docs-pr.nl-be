@@ -1,6 +1,6 @@
 ---
 title: Gebruikersactiviteit bijhouden in een wijzigingslogbestand| Microsoft Docs
-Description: U kunt een gebruikerslogboek activeren zodat u een historie hebt van eventuele wijzigingen in gegevens in getraceerde tabellen.
+Description: You can activate a user log so that you have a history of any changes made to data in tracked tables.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-for-financials"></a>Wijzigingen in Dynamics 365 for Financials registreren
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Wijzigingen registreren in Dynamics 365 Business edition 
 U kunt het wijzigingslogbestand in [!INCLUDE[d365fin](includes/d365fin_md.md)] inschakelen, zodat u een overzicht van activiteiten hebt. Het logboek is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. In het wijzigingslogbestand worden posten chronologisch geordend en worden wijzigingen weergeven die worden aangebracht in de velden in de opgegeven tabellen. In het wijzigingslogbestand verzamelt alle wijzigingen die in de tabel worden aangebracht.  
 
 ## <a name="working-with-the-change-log"></a>Werken met het wijzigingslogbestand

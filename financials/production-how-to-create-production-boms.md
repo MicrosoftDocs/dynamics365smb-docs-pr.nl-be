@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 54bbe338b71ece1322b10e0e4203489cf8ab2f49
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-production-boms"></a>Procedure: productiestuklijsten maken
@@ -26,8 +26,8 @@ Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzameli
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
-- Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie voor meer informatie [Procedure: Nieuwe producten registreren](inventory-how-register-new-items.md).
-- Er zijn productieresources ingesteld Zie voor meer informatie [Procedure: Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
+- Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
+- Er zijn productieresources ingesteld. Zie voor meer informatie [Procedure: Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Een productiestuklijst maken  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productiestuklijst** in en klik op de gerelateerde koppeling.  
@@ -47,7 +47,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 9.  In het veld **Bewerkingsplankoppeling** voert u een code in om het materiaal aan een bepaalde bewerking te koppelen (zie Bewerkingsplankoppelingen maken). Zie de sectie Bewerkingsplankoppelingen maken in [Procedure: bewerkingsplannen maken](production-how-to-create-routings.md) voor meer informatie.
 10. Als u regels wilt kopiëren uit een bestaande productiestuklijst, kiest u **Stuklijst kopiëren** om bestaande regels te selecteren.  
 11.  Certificeer de productiestuklijst.  
-12.  U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen. Zie voor meer informatie [Procedure: Nieuwe producten registreren](inventory-how-register-new-items.md).  
+12.  U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.  
 
 > [!NOTE]  
 >  Als u de vaste verrekenprijs van het artikel opnieuw wilt berekenen, kiest u de actie **Productie** en vervolgens **Vaste verrekenprijs berekenen**.  

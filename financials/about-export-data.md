@@ -1,6 +1,6 @@
 ---
 title: Uw Financials-gegevens exporteren naar Excel| Microsoft Docs
-description: "U kunt uw financiële rapporten en bedrijfsinformatiegegevens uit Dynamics 365 for Financials exporteren naar Excel of uw Financials-gegevens in Excel openen."
+description: "U kunt uw financiële rapporten en bedrijfsinformatiegegevens uit Dynamics 365 Business edition exporteren naar Excel of uw Financials-gegevens in Excel openen."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
@@ -67,5 +67,5 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Financiën](finance.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

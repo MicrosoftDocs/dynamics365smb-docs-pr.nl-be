@@ -1,6 +1,6 @@
 ---
 title: Klanten beheren met Dynamics 365 for Sales| Microsoft Docs
-description: "U kunt Dynamics 365 for Sales vanuit Dynamics 365 for Financials gebruiken om gegevens te koppelen en naadloze integratie en synchronisatie te hebben in het potentiële klant-naar-contanten proces."
+description: "U kunt Dynamics 365 for Sales vanuit Dynamics 365 Business edition gebruiken om gegevens toe te wijzen voor een naadloze integratie en synchronisatie in het proces van potentiële klant naar inkomsten."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Uw klantrelaties beheren met Dynamics 365 for Sales vanuit Dynamics 365 for Financials
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Klanten en verkopen beheren die in Dynamics 365 for Sales zijn gemaakt
 Als u Dynamics 365 for Sales gebruikt voor contacten met klanten, kunt u [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken voor orderverwerking en financiën en profiteren van naadloze integratie in het proces van potentiële klant naar inkomsten.
 
 Als uw toepassing is ingesteld voor integratie met Dynamics 365 for Sales, hebt u toegang tot gegevens in Sales vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] en in sommige gevallen ook andersom. Dankzij deze integratie kunt u werken met gegevenstypen die voor beide services worden gebruikt, zoals klanten, contacten en verkoopinformatie, deze gegevenstypen synchroniseren en de gegevens in beide locaties up-to-date houden.  
 
-De verkoper in Dynamics 365 for Sales kan bijvoorbeeld prijslijsten van [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken bij het opstellen van een verkooporder. Als hij het artikel toevoegt aan de verkooporderregel in Dynamics 365 for Sales, kan hij ook het voorraadniveau (de beschikbaarheid) van het artikel zien vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze gegevens worden gepubliceerd als onderdeel van de begeleide instelling **Dynamics 365-verbinding instellen**.  
+De verkoper in Dynamics 365 for Sales kan bijvoorbeeld prijslijsten van [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken bij het opstellen van een verkooporder. Als hij het artikel toevoegt aan de verkooporderregel in Dynamics 365 for Sales, kan hij ook het voorraadniveau (de beschikbaarheid) van het artikel zien vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>De verbinding instellen
-Vanaf de startpagina kunt u de begeleide instelling **Dynamics 365-verbinding instellen** starten om de verbinding tot stand te brengen. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vanaf de startpagina kunt u de begeleide instelling **Dynamics 365 for Sales-verbinding instellen** starten om de verbinding tot stand te brengen. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->   Hierna wordt de begeleide instelling toegelicht, maar u kunt dezelfde stappen ook handmatig uitvoeren in het venster **Dynamics 365-verbinding instellen**.
+>   Hierna wordt de begeleide instelling toegelicht, maar u kunt dezelfde stappen ook handmatig uitvoeren in het venster **Dynamics 365 for Sales-verbinding instellen**.
 
 In de begeleide instelling kunt u kiezen welke gegevens tussen de twee services moeten worden gesynchroniseerd. U kunt ook opgeven dat u uw bestaande Dynamics 365 for Sales-oplossing wilt importeren. In dat geval moet u een beheeraccount opgeven.
 
@@ -77,7 +77,7 @@ Aan het eind van de begeleide instelling kunt u de actie **Volledige synchronisa
 
 Als u de voortgang van afzonderlijke taken in een volledige synchronisatie wilt controleren, zoomt u in op een van de velden **Status van taakwachtrijpost**, **Naar projectstatus van integratietabel** of **Van projectstatus van integratietabel** in het venster **Controle van volledige CRM-synchronisatie** in.
 
-Vanuit het venster **Dynamics 365-verbinding instellen** kunt u informatie over de volledige synchronisatie op ieder gewenst moment oproepen. Van hieruit kunt u ook het venster **Toewijzingen van integratietabellen** openen, waarin u details van de tabellen in Financials en in de te synchroniseren Dynamics 365 for Sales-oplossing kunt zien.
+Vanuit het venster **Dynamics 365-verbinding instellen** kunt u informatie over de volledige synchronisatie op ieder gewenst moment oproepen. Van hieruit kunt u ook het venster **Toewijzingen van integratietabellen** openen waarin u details van de tabellen in Dynamics 365 Business edition en in de te synchroniseren Dynamics 365 for Sales-oplossing kunt zien.
 
 ## <a name="see-also"></a>Zie ook
 [Relatiebeheer](marketing-relationship-management.md)  

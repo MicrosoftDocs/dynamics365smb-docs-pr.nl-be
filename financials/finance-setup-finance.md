@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
@@ -26,7 +26,7 @@ Er zijn echter bepaalde zaken die uzelf moet instellen. Als u bijvoorbeeld dimen
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Aan | Zie |
+| Als u dit wilt doen | Zie |
 | --- | --- |
 | Bepaal hoe u uw leveranciers wilt betalen. |[Betalingsmethoden definiëren](finance-payment-methods.md) |
 | Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
@@ -40,7 +40,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Procedure: Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Zie ook
-[Financiën](finance.md)]  
+[Financiën](finance.md)  
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  

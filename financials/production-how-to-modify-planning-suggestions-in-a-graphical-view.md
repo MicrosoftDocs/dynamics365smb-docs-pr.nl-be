@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Procedure: planningsuggesties in een grafische weergave wijzigen
@@ -47,7 +47,7 @@ De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door
 5.  Houd de muisknop ingedrukt terwijl u de aanwijzer omhoog of omlaag sleept om het aantal aan te passen. Houd de muisknop ingedrukt terwijl u de aanwijzer naar links of rechts sleept om de vervaldatum aan te passen.  
 6.  Naast het verplaatsen van elementen door slepen en neerzetten, kunt u planningsvoorstellen aanpassen door een aantal functies in het vervolgkeuzemenu te gebruiken. Open het vervolgkeuzemenu voor de groene cirkel van een voorgesteld voorzieningselement en selecteer een van de volgende functies  
 
-    |Functie|Description|  
+    |Functie|Omschrijving|  
     |--------------|---------------------------------------|  
     |**Nieuwe voorraad maken**|Hiermee wordt een nieuw element gemaakt op het punt waar u het vervolgkeuzemenu opent. Dit vertegenwoordigt een nieuwe voorgestelde aanvulorder. Het wordt een nieuwe regel in het planningsvoorstel wanneer u **Wijzigingen opslaan** kiest.<br /><br /> **OPMERKING:** als het veld **Vestigingsfilter** of **Variantfilter** op het tabblad **Options** leeg is of meer dan één filterwaarde bevat, wordt de nieuwe voorziening gemaakt en later opgeslagen naar het plannings- of inkoopvoorstel met de volgende codes:<br /><br /> * Als het filterveld leeg is, wordt de nieuwe voorziening gemaakt zonder een vestigings- of variantcode.<br /><br /> * Als er meer dan één filterwaarde is gedefinieerd, wordt de nieuwe voorziening gemaakt voor de eerste filterwaarde volgens de sorteermethode.<br /><br /> Als u een andere variant- of vestigingscode wilt, moet u dat handmatig wijzigen op de nieuwe planningsregel.|  
     |**Voorziening automatisch aanpassen**|Optimaliseert een nieuwe voorziening die u in de grafiek hebt gemaakt door ervoor te zorgen dat deze resulteert in nul-voorraad voor de volgende voorziening.|  
@@ -59,7 +59,7 @@ De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door
 Om de wijzigingen in het voorzieningsplan te implementeren, moet u de resulterende planningsboodschappen van het plannings- of inkoopvoorstel opvolgen. Zie voor meer informatie Planningsboodschap uitvoeren - Plan.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbolen en pictogrammen op het sneltabblad Tijdlijn
- |Symbool/pictogram|Description|  
+ |Symbool/pictogram|Omschrijving|  
  |------------------|---------------------------------------|  
  |Zwart kruis|Orders (zowel vraag als aanbod).<br /><br /> -   Kan niet worden gewijzigd.<br />-   Zichtbaar wanneer het veld **Geplande voorraad weergeven** is geselecteerd (oranje grafiek).|  
  |Rode cirkel|Bestaande voorzieningsorders die geen deel uitmaken van planningsvoorstellen.<br /><br /> -   Kan niet worden gewijzigd.<br />-   Zichtbaar wanneer het veld **Geplande voorraad weergeven** is geselecteerd (oranje grafiek).|  
@@ -70,7 +70,7 @@ Om de wijzigingen in het voorzieningsplan te implementeren, moet u de resulteren
 
 Wanneer u het vervolgkeuzemenu voor het sneltabblad **Tijdlijn** opent, worden de volgende functies weergegeven, afhankelijk van wat u kiest  
 
- |Functie|Description|  
+ |Functie|Omschrijving|  
  |--------------|---------------------------------------|  
  |**Nieuwe voorraad maken**|Hiermee wordt een nieuw element gemaakt op het punt waar u het vervolgkeuzemenu opent. Dit vertegenwoordigt een nieuwe voorgestelde aanvulorder. Het wordt een nieuwe regel in het planningsvoorstel wanneer u **Wijzigingen opslaan** kiest op het tabblad **Verwerken**.<br /><br /> Filterwaarden die worden gedefinieerd in het veld **Vestigingsfilter** of **Variantfilter** op het sneltabblad **Opties**, worden toegepast op de nieuwe voorzieningenorder. **Opmerking:** als de filtervelden leeg zijn of meer dan één filterwaarde bevatten, wordt de nieuwe voorzieningsorder gemaakt met behulp van de volgende codes: <ul><li>Als het filterveld leeg is, wordt de nieuwe voorziening gemaakt zonder een vestigings- of variantcode.</li><li>Als er meer dan één filterwaarde is gedefinieerd, wordt de nieuwe voorziening gemaakt met behulp van de eerste filterwaarde op basis van de sorteervolgorde.</li></ul> Als u een andere variant- of vestigingscode wilt in de nieuwe voorzieningsorder, moet u deze handmatig wijzigen op de nieuwe planningsregel.|  
  |**Voorziening automatisch aanpassen**|Hiermee wordt een nieuwe voorziening geoptimaliseerd die u in de grafiek hebt gemaakt door ervoor te zorgen dat er een nul-voorraad ontstaat vóór de volgende voorziening.|  
@@ -82,7 +82,7 @@ Wanneer u het vervolgkeuzemenu voor het sneltabblad **Tijdlijn** opent, worden d
 
 Behalve de toetsenbordacties die eerder werden vermeld, kunt u ook de volgende toetsenbordacties gebruiken op het sneltabblad **Tijdlijn**.  
 
- |Toetsenbordactie|Description|  
+ |Toetsenbordactie|Omschrijving|  
  |---------------------|---------------------------------------|  
  |Ctrl + muiswiel|Hiermee wordt de schaal van de x-as gewijzigd.|  
  |Selecteer een element en druk vervolgens op Shift + pijl|Hiermee wordt het element verplaatst in de richting waarnaar de pijl wijst.|  

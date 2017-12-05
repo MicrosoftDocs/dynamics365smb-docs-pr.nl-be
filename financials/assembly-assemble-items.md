@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d945858b3a26126a2def48d88ff1132f598c0916
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 9ddb096b1d09962d96baee9aeefdc5239aa4597a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
 
- Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat.
+ Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat. Zie [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
- Assemblageorders zijn, evenals productieorders, interne orders die worden gebruikt om het assemblageproces te beheren en om de verkoopvereisten aan de betrokken magazijnactiviteiten te koppelen. Assemblageorders verschillen van andere typen omdat deze bij het boeken zowel betrekking kunnen hebben op uitvoer als op verbruik. De assemblageorderkop gedraagt zich op een soortgelijke wijze als een verkooporderregel en de assemblageorderregels gedragen zich op een soortgelijke wijze als verbruiksdagboekregels. Zie voor meer informatie Assemblageorder.  
+ Assemblageorders zijn, evenals productieorders, interne orders die worden gebruikt om het assemblageproces te beheren en om de verkoopvereisten aan de betrokken magazijnactiviteiten te koppelen. Assemblageorders verschillen van andere typen omdat deze bij het boeken zowel betrekking kunnen hebben op uitvoer als op verbruik. De assemblageorderkop gedraagt zich op een soortgelijke wijze als een verkooporderregel en de assemblageorderregels gedragen zich op een soortgelijke wijze als verbruiksdagboekregels.  
 
  Ter ondersteuning van een just-in-time voorraadstrategie en de mogelijkheid tot het aanpassen van producten op basis van klantaanvragen, kunnen assemblageorders zodra de verkooporderregel is gemaakt automatisch worden gemaakt en worden gekoppeld. De koppeling tussen de verkoopvraag en het assemblage-aanbod stelt de verkooporderverwerkers in staat om het assemblageartikel in een handomdraai aanpassen, om leveringsdatums af te spreken op basis van de beschikbaarheid van componenten en om de uitvoer en verzending van het geassembleerde artikel rechtstreeks vanuit hun verkooporderinterface te boeken. Zie voor meer informatie [Procedure: op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 

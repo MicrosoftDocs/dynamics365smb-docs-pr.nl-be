@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-persons"></a>Contactpersonen maken
@@ -28,9 +28,9 @@ Mogelijk wilt u ook enkele publicaties over uw producten laten vertalen en kiest
 
 Door zoveel mogelijk details over een contact te registreren zorgt u ervoor dat alle afdelingen in uw bedrijf de relevante informatie kunnen vinden.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. 
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Aan | Zie |
+| Als u dit wilt doen | Zie |
 | --- | --- |
 | Informatie over een contactpersoon opgeven. |[Procedure: Contactpersonen maken](marketing-how-create-contact-persons.md) |
 | Een alternatief adres voor een contact instellen. |[Procedure: Alternatieve adressen toewijzen](marketing-how-assign-alternate-address.md) |
@@ -41,5 +41,5 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  
 [Contactpersonen maken en beheren]()  
-[Werken met Financials](ui-work-product.md)
+[Werken met Dynamics 365](ui-work-product.md)
 

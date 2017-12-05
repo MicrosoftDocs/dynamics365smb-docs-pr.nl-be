@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Contactbedrijven maken
@@ -26,9 +26,9 @@ Door zoveel mogelijk gegevens over een specifiek bedrijf toe te wijzen garandeer
 
 U kunt ook de zakenrelatie met een contact definiëren. Een contact kan bijvoorbeeld een prospect, bank of contractant zijn.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. 
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Aan | Zie |
+| Als u dit wilt doen | Zie |
 | --- | --- |
 | Een nieuw contact voor een bedrijf instellen, geheel nieuw of op basis van een klant, leverancier of bankrekening. |[Procedure: Contactbedrijven maken](marketing-how-create-contact-companies.md) |
 | Informatie synchroniseren in contacten met gemeenschappelijke informatie in klanten, leveranciers en bankrekeningen. |[Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
@@ -40,5 +40,5 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen maken](marketing-create-contact-persons.md)   
-[Werken met Financials](ui-work-product.md)
+[Werken met Dynamics 365](ui-work-product.md)
 

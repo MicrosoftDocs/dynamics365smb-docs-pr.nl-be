@@ -1,6 +1,6 @@
 ---
-title: Extensies installeren om Dynamics 365 for Financials aan te passen | Microsoft Docs
-description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Dynamics 365 for Financials door extensies te installeren.
+title: Extensies installeren om Dynamics 365 Business edition aan te passen | Microsoft Docs
+description: Kom meer te weten over het toevoegen van functionaliteit en het aanpassen van Dynamics 365 Business edition door extensies te installeren.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Dynamics 365 for Financials aanpassen met extensies
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Dynamics 365, Business edition aanpassen met extensies
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
 Wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst start, zijn bepaalde extensies al voor u geïnstalleerd. In de loop van de tijd zullen meer extensies beschikbaar voor u worden gemaakt en u kunt dan zelf bepalen of u de extensie wilt gebruiken of niet.
 
@@ -61,6 +61,8 @@ Microsoft biedt de volgende extensies:
 * [QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
 * [Accountantportal](ui-extensions-accountant-portal.md)  
 * [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
+* [Betalingen en afstemmingen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [C5-gegevensmigratie](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

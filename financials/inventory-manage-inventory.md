@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -26,14 +26,15 @@ Positieve en negatieve voorraadmutaties worden natuurklijk ook geregistreerd wan
 
 Om het overzicht van artikelen te verhogen en deze te zoeken, kunt u artikelen categoriseren en er kenmerken aan toewijzen op basis waarvan u ze kunt zoeken en sorteren.
 
-> []!NOTE] Naar de fysieke verwerking van artikelen wordt verwezen als magazijnactiviteiten. Zie voor meer informatie [Magazijnbeheer](warehouse-manage-warehouse.md).
+> [!NOTE]
+> Naar de fysieke verwerking van artikelen wordt verwezen als magazijnactiviteiten. Zie voor meer informatie [Magazijnbeheer](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Voorraadreconciliatie
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek. Zie voor meer informatie [Procedure: Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie [Procedure: Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md) voor meer informatie.
 
-|Aan |Zie |
+|Als u dit wilt doen |Zie |
 |---|----|
 |Maak artikelkaarten voor voorraadartikelen waarin u handelt.|[Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md)|
 |Bovenliggende artikelen structureren die u als pakketten verkoopt bestaande uit de onderdelen van de bovenliggende artikelen, of die u op bestelling of voor voorraad monteert.|[Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)|

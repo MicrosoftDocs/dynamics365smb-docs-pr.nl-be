@@ -13,13 +13,13 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Lijstgegevens weergeven in Power BI-rapporten in Dynamics 365 for Financials
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Lijstgegevens weergeven in Power BI-rapporten in Dynamics 365 Business edition 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een Feitenblok-besturingselement op een aantal belangrijke lijstpagina's, waarmee een aanvullend inzicht in de gegevens wordt geboden. Wanneer u tussen rijen in de lijst verplaatst, wordt het rapport bijgewerkt en voor de geselecteerde post gefilterd. U kunt aangepaste rapporten maken voor weergave in dit besturingselement, maar er zijn enkele regels die moeten worden gevolgd bij het maken van de rapporten om te zorgen voor het gewenste gedrag.  
 
 > [!NOTE]  

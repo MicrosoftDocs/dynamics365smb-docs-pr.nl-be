@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
@@ -79,10 +79,10 @@ Een handmatig proces gebruiken:
 >   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Cortana Intelligence niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  
 
 ## <a name="AnchorText"> </a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
-U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Microsoft Dynamics 365 for Financials**. Dit voorspellende model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
+U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Microsoft Dynamics 365 Business edition**. Dit voorspellende model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Cortana Intelligence-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Zoek naar **Prognosemodel voor Microsoft Dynamics 365 for Financials** en open het model in Azure Machine Learning Studio.  
+2. Zoek naar **Prognosemodel voor Microsoft Dynamics 365 Business edition** en open het model in Azure Machine Learning Studio.  
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials en Power BI Content Packs| Microsoft Docs
-description: Inzicht, bedrijfsinformatie en KPI's krijgen uit uw Financials-gegevens is gemakkelijk met Power BI en de Financials Content Packs.
+title: Dynamics 365 Business edition en Power BI Content Packs | Microsoft Docs
+description: Met de inhoudspakketten voor Power BI en Dynamics 365 haalt u eenvoudig meer inzichten, bedrijfsinformatie en KPI's uit uw Dynamics 365-gegevens.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfgegevens gereed maken voor Power BI
@@ -22,7 +22,7 @@ Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is ge
 
 Microsoft heeft de volgende Content Packs gepubliceerd:
 
-| App | Description |
+| App | Omschrijving |
 | --- | --- |
 | Microsoft Dynamics 365 for Financials | Een dashboard met belangrijke financiële gegevens voor een bepaalde periode, zoals inkomsten tegenover onkosten, de bedrijfsmarge en de cashcyclus.|
 | Microsoft Dynamics 365 for Financials - CRM | Een dashboard met belangrijke gegevens over verkoopopportunities en contacten.  |
@@ -44,7 +44,7 @@ De Content Packs zijn vooraf geconfigureerd om te werken met gegevens van het vo
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Toegang krijgen tot [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 Als u uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens in Power BI wilt zien, moet u het volgende hebben:  
 
-* Toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Dynamics 365 Business edition-community](http://go.microsoft.com/fwlink/?LinkID=759714) voor meer informatie.  
 * Toegang tot Power BI. Zie voor meer informatie [Power BI](https://powerbi.microsoft.com).
 
 Op de Power BI-site vindt u meer informatie over het [verbinding maken met services door middel van Content Packs voor Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

@@ -1,8 +1,6 @@
 ---
 title: De QuickBooks-extensie Migratie gebruiken | Microsoft Docs
-description: Beschrijft hoe u de extensie gebruikt om klanten, leveranciers, artikelen en rekeningen van QuickBooks Online naar Financials te migreren.
-services: project-madeira
-documentationcenter: 
+description: Hier wordt beschreven hoe u de extensie gebruikt om klanten, leveranciers, artikelen en rekeningen van QuickBooks Online naar Dynamics 365 te migreren.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>De extensie QuickBooks Online-gegevensmigratie voor Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>De extensie QuickBooks Online-gegevensmigratie voor Dynamics 365 Business edition
 Deze extensie wordt opgenomen in de begeleide instelling **Gegevensmigratie**, om u te helpen belangrijke bedrijfsgegevens te migreren van QuickBooks Online naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dat is bijvoorbeeld handig als uw bedrijf groeit en u hebt besloten uw app voor bedrijfsmanagement te upgraden door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gaan gebruiken.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welke gegevens kan ik uit QuickBooks Online importeren?
@@ -29,7 +27,7 @@ U kunt de volgende gegevens uit QuickBooks Online importeren naar [!INCLUDE[d365
 * Klanten
 * Leveranc.
 * Artikelen
-* Rekeningschema 
+* Rekeningschema
 * Beginsaldotransactie in het grootboek
 * In voorraad aantallen voor voorraadartikelen
 * Open documenten voor klanten en leveranciers, zoals facturen, creditnota's en betalingen
@@ -41,7 +39,7 @@ Wij migreren alleen hele bedragen op verkoop- en inkoopdocumenten. We werken gee
 
 ## <a name="before-you-start"></a>Voordat u begint
 Een belangrijk deel van het migratieproces is de rekeningen opgeven waarnaar transacties moeten worden gemigreerd. Het is aan te raden deze koppeling te plannen voordat u gegevens migreert. Bijvoorbeeld, de rekeningen waarnaar u transacties boekt voor:  
-  
+
 * De verkoop van artikelen of services aan klanten.
 * De aankoop van artikelen of services van leveranciers.  
 * Herwaarderingen in het grootboek.  

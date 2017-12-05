@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials verkopen | Microsoft Docs
-description: Bepaal hoe u uw zakelijke opportunities kunt uitbreiden en word een Microsoft-partner en reseller van Dynamics 365 for Financials.
+title: Dynamics 365 Business edition verkopen | Microsoft Docs
+description: Kom erachter hoe u uw zakelijke mogelijkheden kunt vergroten en een Microsoft-partner en reseller van Dynamics 365 Business edition wordt.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,16 +13,16 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
-Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analyse, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Financials een nieuwe kans voor u.   
+Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analytics, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Dynamics 365 een nieuwe kans voor u.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
 

@@ -16,13 +16,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-for-financials"></a>De extensie PayPal Payments Standard voor Dynamics 365 for Financials
+# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>De extensie PayPal Payments Standard voor Dynamics 365 Business edition 
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal-betalingsstandaard helpt u uw klantenservice te verbeteren.
 
 Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten aanbieden met hun PayPal-rekening te betalen. Wanneer u een verkoopfactuur of verkooporder verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Wanneer klanten de koppeling kiezen, wordt de servicepagina van hun PayPal-account geopend waarin de betalingsdetails voor de verkoop worden weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials gebruiken met Outlook| Microsoft Docs
-description: "Dynamics 365 for Financials is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren."
+title: Dynamics 365 Business edition gebruiken met Outlook | Microsoft Docs
+description: "Dynamics 365 Business edition is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,24 +13,24 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Financials als uw bedrijfsinbox gebruiken in Outlook
+# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Finance and Operations, Business edition gebruiken als uw bedrijfsinbox in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
 ## <a name="get-the-add-in"></a>De invoegtoepassing ophalen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] is een van de stappen in de begeleide instelling Aan de slag in het venster **Uw bedrijf beheren binnen Office 365**. Als u in dat venster **Instellen in Outlook** kiest, moet u uw gebruikersnaam en wachtwoord voor Office 365 opgeven. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook.  
 
-Wanneer u daarna Outlook start, ziet u een e-mailbericht van de Financials-beheerder. De nieuwe invoegtoepassing wordt toegevoegd aan het Outlook-lint en in Outlook-webtoegang kunt u deze zien in het invoegtoepassinglint, direct boven de hoofdtekst van het e-mailbericht. De invoegtoepassing zelf wordt regelmatig bijgewerkt, en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
+Wanneer u daarna Outlook start, wordt er een e-mailbericht van de Dynamics 365-beheerder weergegeven. De nieuwe invoegtoepassing is toegevoegd aan het Outlook-lint en in Outlook Web Access is deze zichtbaar in het lint van de invoegtoepassing, direct boven de hoofdtekst van het e-mailbericht. De invoegtoepassing zelf wordt regelmatig bijgewerkt, en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
 Sommige bedrijven die Office 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Office 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Office 365 gratis uitproberen](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>De invoegtoepassing Contact Insights gebruiken
-Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de Financials-invoegtoepassing openen, die de afzender als een klant herkent en de klantkaart voor diens bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuwe klant is, kunt u deze als nieuwe klant toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zonder Outlook te verlaten.  
+Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen, die de afzender als een klant herkent en de klantkaart voor diens bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuwe klant is, kunt u deze als nieuwe klant toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zonder Outlook te verlaten.  
 
 In de invoegtoepassing kunt u een verkoopofferte maken en deze naar de klant verzenden zonder Outlook te verlaten. Alle informatie die u in de verkoopofferte moet verzenden, is beschikbaar in uw bedrijfsinbox in Outlook.  
 Nadat u de gegevens hebt ingevoerd, kunt u de offerte boeken. U kunt deze vervolgens via e-mail verzenden. [!INCLUDE[d365fin](includes/d365fin_md.md)] genereert een .pdf-bestand met de verkoopofferte en koppelt dat aan het e-mailbericht dat u opstelt in de invoegtoepassing.  
@@ -52,14 +52,14 @@ In de invoegtoepassing Document Links kunt u acties wijzigen en uitvoeren met he
 ## <a name="adding-the-add-ins-manually"></a>Invoegtoepassingen handmatig toevoegen
 In sommige gevallen worden de invoegtoepassingen niet automatisch aan Outlook toegevoegd. Zelfs als u of een collega de begeleide instelling namens het bedrijf hebt uitgevoerd, is [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk niet zichtbaar in Outlook. Als u dit probleem tegenkomt, kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen handmatig toevoegen.  
 
-Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u Financials voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
+Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
 
 U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt vermeld in het venster **Invoegtoepassingen beheren**.  
 
 In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog steeds niet beschikbaar is, moet u de manifestbestanden van de invoegtoepassing ophalen. Neem contact op met uw Office 365-beheerder voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

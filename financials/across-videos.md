@@ -1,5 +1,5 @@
 ---
-title: Hoe bekijk ik video's over het gebruik van Dynamics 365 for Financials| Microsoft Docs
+title: Hoe bekijk ik video's over het gebruik van Dynamics 365 Business edition | Microsoft Docs
 description: Biedt toegang tot Aan de slag-video's die illustreren hoe u veel voorkomende taken uitvoert.
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
@@ -35,10 +35,12 @@ U kunt op meerdere manieren toegang tot de video's krijgen. Als u al werkt in [!
 * Vanuit het rolcentrum **Bedrijfsmanager** door **Bedrijfsassistentie** te kiezen en vervolgens **Instellings- en Help-resources weergeven**.  
 
 > [!Tip]  
-> Naast video's bevat **Bedrijfsassistentie** resources zoals koppelingen naar onderwerpen en begeleide instellingen die het eenvoudiger maken zaken in te stellen. Deze resources vervangen het diagram in het rolcentrum. Nadat u resources hebt bekeken, kunt u teruggaan naar het diagram in het menu **Bedrijfsassistentie** door **Diagram weergeven** te kiezen.  
+> Video's in de bibliotheek worden in een vrij klein kader weergegeven. U kunt dit kader groter maken door op de dubbelzijdige pijl in de rechterbovenhoek van het kader te klikken. Vervolgens worden video's in het grotere kader weergegeven tot u dit weer kleiner maakt.  
+
+Naast video's bevat **Bedrijfsassistentie** resources zoals koppelingen naar onderwerpen en begeleide instellingen die het eenvoudiger maken zaken in te stellen. Deze resources vervangen het diagram in het rolcentrum. Nadat u resources hebt bekeken, kunt u teruggaan naar het diagram in het menu **Bedrijfsassistentie** door **Diagram weergeven** te kiezen.  
   
 U kunt onze procedurevideo's en veel andere inhoud bekijken in het YouTube-kanaal dat we hebben gemaakt voor Microsoft Dynamics 365. Als u het kanaal nu wilt bezoeken, [klikt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

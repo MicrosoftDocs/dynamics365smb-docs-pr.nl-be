@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Procedure: op order geassembleerde artikelen verkopen
@@ -50,7 +50,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
     U kunt de volgorde ook aanpassen door de hoeveelheid van één standaard artikel in de kit te verhogen. U kunt dit doen door de waarde in het veld **Aantal per** op de specifieke assemblageorderregel te verhogen.  
 
     > [!NOTE]  
-    >  Het venster **Op orderregels assembleren** bevat alleen de basisvelden die een verkoper moet gebruiken om het onderdeeloverzicht aan te passen, artikeltraceringsnummers toe te voegen of problemen met de beschikbaarheid op te lossen. Voor meer informatie over assemblageorders, zoals de begindatum van een assemblageorder, kies op het tabblad **Start** in de groep **Proces** de optie **Documenten weergeven**. Hiermee opent u een volledige weergave van de assemblageorder die is gekoppeld aan de verkooporderregel. U kunt de inhoud van de meeste velden op de assemblageorderkop niet wijzigen en u kunt de assemblageuitvoer niet boeken omdat u de optie verzending boeken van de verkooporderregel moet gebruiken.  
+    >  Het venster **Op orderregels assembleren** bevat alleen de basisvelden die een verkoper moet gebruiken om het onderdeeloverzicht aan te passen, artikeltraceringsnummers toe te voegen of problemen met de beschikbaarheid op te lossen. Voor meer informatie over assemblageorders, zoals de begindatum van een assemblageorder, kiest u de actie **Documenten weergeven**. Hiermee opent u een volledige weergave van de assemblageorder die is gekoppeld aan de verkooporderregel. U kunt de inhoud van de meeste velden op de assemblageorderkop niet wijzigen en u kunt de assemblageuitvoer niet boeken omdat u de optie verzending boeken van de verkooporderregel moet gebruiken.  
     >   
     >  Op de kop van gekoppelde assemblageorders kan alleen het veld **Begindatum** worden gewijzigd zodat assemblagemedewerkers een eerdere datum dan de vervaldatum kunnen opgeven wanneer zij het proces starten. Alle velden op de regels van de gekoppelde assemblageorder kunnen worden gewijzigd, zodat magazijnmedewerkers verbruikcijfers kunnen invoeren tijdens het proces.  
 

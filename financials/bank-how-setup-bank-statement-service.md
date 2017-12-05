@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procedure: De service Envestnet Yodlee Bank Feeds instellen
@@ -118,6 +118,6 @@ In het venster **Betalingsreconciliatiedagboek** worden elk uur nieuwe betalinge
 [Bankieren instellen](bank-setup-banking.md)  
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

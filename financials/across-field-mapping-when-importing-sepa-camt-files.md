@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 95d4104be55bcaf77dffd47e1bec0afcbe95a1da
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6588f01c557b1c0586097766aa8a6f84d545bc6e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Veldtoewijzing bij het importeren van SEPA CAMT-bestanden
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/22/2017
  Elementen in het knooppunt **Ntry** die worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] maar niet aan velden worden toegewezen, worden opgeslagen in de tabel **Kolomdef. boekingsuitwisseling**. Gebruikers kunnen deze elementen vanuit de vensters **Betalingsreconciliatiedagboek**, **Betalingsvereffening** en **Bankreconciliatie** weergeven door de actie **Details bankrekeningafschriftregel** te kiezen. Zie voor meer informatie [Procedure: Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)  
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [Procedure: Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md)   
 [Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Procedure: Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  

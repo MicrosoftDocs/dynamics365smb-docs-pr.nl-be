@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
@@ -35,7 +35,7 @@ Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen ter
 Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunnen uw gegevens worden verwijderd of bewaard. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md) annuleren.  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Waar ga ik met mijn vragen naartoe?
-Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Dynamics 365 for Financials-community. Zie [Dynamics 365, Business edition-community](https://community.dynamics.com/business) voor meer informatie. Ook worden tips en trucs door ons Ondersteuningsteam gepubliceerd. Zie [Dynamics 365 for Financials-ondersteuningsblog](https://blogs.msdn.microsoft.com/dyn365finsupport) voor meer informatie.  
+Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Dynamics 365 Business edition-community. Zie [Dynamics 365, Business edition-community](https://community.dynamics.com/business) voor meer informatie. Ook worden tips en trucs door ons Ondersteuningsteam gepubliceerd. Zie de [ondersteuningsblog voor Dynamics 365 Business edition](https://blogs.msdn.microsoft.com/dyn365finsupport) voor meer informatie.  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Is het mogelijk mijn “Nieuw bedrijf”-proefperiode te verlengen?
 Ja. Als u uw proefperiode wilt verlengen, moet u contact opnemen met Microsoft op 1-888-477-7989 (VS) of 1-800-741-9206 (Canada). OPMERKING: het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
@@ -51,5 +51,5 @@ Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken zonder Outlook](madeira-no-outlook.md)  
 [Procedure: Het rolcentrum wijzigen](change-role.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

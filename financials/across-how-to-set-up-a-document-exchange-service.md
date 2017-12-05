@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1191313565e813a92c13fa07b6278e7263eeaf19
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-a-document-exchange-service"></a>Procedure: Een service voor documentuitwisseling instellen
-U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners. Zie [Gegevens als elektronische documenten uitwisselen](across-data-exchange.md) voor meer informatie.  
+U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen service doc.uitw.** in en klik op de gerelateerde koppeling.  
 2. Vul de velden in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Gebruikersagent**|Voer elke willekeurige tekst in die kan worden gebruikt om uw bedrijf te identificeren in processen voor documentuitwisseling.|  
     |**Tenant-id doc.uitw.**|Voer de tenant in de service voor documentuitwisseling in die uw bedrijf vertegenwoordigt. Deze wordt geleverd door de aanbieder van de service voor documentuitwisseling.|  
@@ -46,5 +46,5 @@ U gebruikt een externe serviceprovider om elektronische documenten uit te wissel
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)
 

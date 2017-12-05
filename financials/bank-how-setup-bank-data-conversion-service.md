@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Procedure: Conversieservice voor bankgegevens instellen
@@ -24,7 +24,7 @@ Een algemene provider van services om betalingsgegevens naar elke willekeurige g
 
 U kunt betalingsregels uit het venster **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Procedure: Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md).
 
-U kunt bankafschriftbestanden in het venster **Betalingsreconciliatiedagboek** importeren door de conversieservice voor bankgegevens te gebruiken om een bestand te converteren dat u van de bank ontvangt, naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Procedure: Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+U kunt bankafschriftbestanden in het venster **Betalingsreconciliatiedagboek** importeren door de conversieservice voor bankgegevens te gebruiken om een bestand te converteren dat u van de bank ontvangt, naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Als alternatief voor het importeren van bankafschriften met de conversieservice bankgegevens, kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [Procedure: De feedservice van de Envestnet Yodlee Bank instellen](bank-how-setup-bank-statement-service.md).
 

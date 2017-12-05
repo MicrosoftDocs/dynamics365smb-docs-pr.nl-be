@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c41e8c59ced776591b1740930effa2420803eb65
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: eb9a20547c7eef346fa199eaa136211dcdd09dab
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-send-electronic-documents"></a>Procedure: Elektronische documenten verzenden
@@ -55,6 +55,6 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 [Procedure: Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Procedure: Een service voor documentuitwisseling instellen](across-how-to-set-up-a-document-exchange-service.md)  
 [Procedure: Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)  
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 

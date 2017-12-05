@@ -1,6 +1,6 @@
 ---
 title: De extensie van de Afbeeldingsanalyse gebruiken | Microsoft Docs
-description: Met deze extensie kunt u afbeeldingen analyseren van contacten en artikelen om kenmerken te zoeken, zodat u deze snel kunt toewijzen in Financials.
+description: Met deze extensie kunt u afbeeldingen analyseren van contacten en artikelen om kenmerken te zoeken, zodat u deze snel kunt toewijzen in Dynamics 365.
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c981c5528c7a622f9d78ed6a77c27e2ceeba44e3
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-for-financials"></a>De extensie Afbeeldingsanalyse voor Microsoft Dynamics 365 for Financials
+# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>De extensie Afbeeldingsanalyse voor Microsoft Dynamics 365 Business edition
 De extensie Afbeeldingsanalyse gebruikt krachtige afbeeldingsanalyse die wordt verschaft door de Computer Vision-API voor Cognitieve services van Microsoft om kenmerken te detecteren in de afbeeldingen die u importeert voor artikelen en contactpersonen, zodat u deze gemakkelijk kunt bekijken en toewijzen. Voor artikelen kunnen kenmerken bijvoorbeeld zijn of het artikel een tafel of een auto is en of het rood of blauw is. Voor contactpersonen kunnen kenmerken geslacht of leeftijd zijn.
 
 Afbeeldingsanalyse stelt kenmerken voor op basis van tags die de Computer Vision-API vindt, en een vertrouwensniveau. Standaard worden alleen kenmerken voorgesteld als het ten minste 80% zeker is dat het kenmerk klopt. U kunt een ander vertrouwensniveau instellen, indien nodig. Als u meer wilt weten over hoe de tags en vertrouwensniveaus worden bepaald, raadpleegt u [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476)  
@@ -48,12 +48,12 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365f
 > Als u de extensie Afbeeldinganalyse wilt inschakelen, moet u een beheerder zijn. Zorg ervoor dat aan u de machtigingenset **SUPER** is toegewezen.
 
 1. Als u de extensie Afbeeldingsanalyse wilt inschakelen, voert u een van de volgende handelingen uit:
-  
+
 * Open een artikel- of contactkaart. Kies op de berichtbalk **Afbeeldingen analyseren** en volg vervolgens de stappen in de begeleide instelling.  
 * Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Serviceverbindingen** in en kies vervolgens **Afbeeldingsanalyse**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
 
 >   [!TIP]  
->   De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren. 
+>   De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Een afbeelding van een artikel analyseren
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
@@ -74,16 +74,16 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
 
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Uw eigen account gebruiken voor de Computer Vision API
 U kunt ook uw eigen account gebruiken voor de Computer Vision-API, bijvoorbeeld als u meer afbeeldingen wilt analyseren dan we toestaan.  
-  
+
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Instelling van afbeeldingsanalyse** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul de **API-URI** en **API-sleutel** in die u voor de Computer Vision-API hebt ontvangen.  
-  
+
 >   [!NOTE]  
 >   U moet **/analyze** aan het eind van de API-URI toevoegen, als het niet al aanwezig is. Bijvoorbeeld: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Zien hoeveel analyses u in de huidige periode over hebt
 U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de huidige periode nog kunt doen.  
-  
+
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Instelling van afbeeldingsanalyse** in en klik vervolgens op de gerelateerde koppeling.  
 2. De **Limietsoort**, **Limietwaarde** en **Analyses uitgevoerd** bieden de gebruiksinformatie.  
 
@@ -94,6 +94,5 @@ U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de hui
 ## <a name="see-also"></a>Zie ook
 [Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

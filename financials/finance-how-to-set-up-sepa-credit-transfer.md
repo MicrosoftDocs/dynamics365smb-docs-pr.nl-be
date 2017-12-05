@@ -1,8 +1,6 @@
 ---
 title: SEPA-krediettransfer instellen | Microsoft Docs
-description: Leer hoe u SEPA-krediettransfers maakt in Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: 
+description: Leer hoe u SEPA-krediettransfers maakt in Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 88ac086fa0532892af9c770c14134723e0da2eaf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-credit-transfer"></a>Procedure: SEPA-krediettransfer instellen
@@ -67,5 +65,5 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procedure: Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)  
 [Procedure: Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)  
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Documenten zonder bijlagen zoeken| Microsoft Docs
-Description: "U kunt grootboekposten zoeken voor geboekte inkoop- en verkoopdocumenten die geen elektronische inkomende documenten hebben, zoals geïmporteerde facturen."
+Description: You can search for general ledger entries for posted purchase and sales documents that do not have incoming electronic documents, such as imported invoices.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 263146eca72e4c83b4ad6887a84844e7aa15dd87
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8219b8a054901f81785ef1376c6f86763560cc31
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-find-posted-documents-without-incoming-document-records"></a>Procedure: Geboekte documenten zonder inkomende documentrecords zoeken
@@ -41,5 +41,5 @@ Als er geen relevante inkomende documentrecord in het venster **Inkomende docume
 [Inkomende documenten verwerken](across-process-income-documents.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

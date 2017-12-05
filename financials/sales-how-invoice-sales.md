@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>Procedure: Verkoopbewerkingen
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
 
-> [!NOTE]  
->   Er zijn enkele scenario's waarin u een verkooporder moet gebruiken in plaats van een verkoopfactuur:  
+Er zijn enkele scenario's waarin u een verkooporder moet gebruiken in plaats van een verkoopfactuur:  
 
 * Als u slechts een deel van een bestelaantal moet verzenden, bijvoorbeeld omdat het totale aantal niet beschikbaar is.  
 * Als u artikelen verkoopt die uw leverancier rechtstreeks aan uw klant levert, via zogeheten doorverzending. Zie [Procedure: Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie.  
@@ -37,7 +36,7 @@ In bedrijfsomgevingen waar de klant moet betalen voordat producten worden geleve
 
 U kunt een geboekte verkoopfactuur gemakkelijk corrigeren of annuleren voordat het is betaald. Dit is bijvoorbeeld handig als u een typfout wilt corrigeren of als de klant in het begin van het orderproces verzoekt om een wijziging. Zie [Procedure: Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) voor meer informatie. Als de geboekte verkoopfactuur is betaald, moet u een verkoopcreditnota maken om de verkoop tegen te boeken. Zie [Procedure: Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) voor meer informatie.
 
-Artikelen kunnen zowel voorraadartikelen als services zijn, aangeduid met de typen **Artikel - Voorraad** en **Artikel - Service** op de verkoopregels. Het verkoopfactureringsproces is hetzelfde voor beide artikeltypen. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
+Artikelen kunnen zowel voorraadartikelen als services zijn, aangeduid met de typen **Voorraad** en **Service** op de artikelkaart. Het verkoopfactureringsproces is hetzelfde voor beide artikeltypen. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
 
 U kunt klantvelden op de verkoopfactuur op twee manieren invullen afhankelijk van de vraag of de klant reeds is geregistreerd. Zie de stappen 2 en 3 in de volgende procedure.
 
@@ -67,7 +66,7 @@ Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandel
 11. Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
 
     > [!NOTE]  
->   Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
+>   Als het een artikel van de soort **Service** betreft of als het veld **Type** de waarde **Resource** bevat, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.  
 
     De waarde in het veld **Regelbedrag** wordt berekend als *Eenheidsprijs* x *Aantal*.  
 
@@ -92,6 +91,6 @@ Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het
 [Verkopen instellen](sales-setup-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Massaal factureren vanuit Microsoft Bookings in Dynamics 365 for Financials](finance-bookings.md)  
+[Massaal factureren vanuit Microsoft Bookings in Dynamics 365 Business edition](finance-bookings.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

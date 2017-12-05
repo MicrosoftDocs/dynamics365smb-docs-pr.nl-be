@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d260cf22980d097637e26d97282ad5e4f344120a
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 2939c4bf99b0fec05fd3625af589f05710a05a3c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
@@ -28,7 +28,7 @@ U kunt ook uitgaande betalingen handmatig vereffenen in het venster **Betalingsd
 
 In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met koppelingen naar de beschrijvende onderwerpen.
 
-| Aan | Zie |
+| Als u dit wilt doen | Zie |
 | --- | --- |
 | Genereer verschuldigde leveranciersbetalingen of werknemersvergoedingen, bereid betalingen via cheques voor en exporteer betalingen naar een bankbestand tijdens het boeken. |[Betalingen uitvoeren](payables-make-payments.md) |
 | Vereffen leveranciersbetalingen automatisch met niet-betaalde inkoopfacturen door een bankafschriftbestand te importeren. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |

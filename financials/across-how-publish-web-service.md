@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 278515fc479a72957fb52dad71ce2f98d354ee32
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Procedure: Een webservice publiceren
@@ -44,27 +44,13 @@ Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. 
 
 #### <a name="to-verify-the-availability-of-a-web-service"></a>De beschikbaarheid van een webservice verifiëren  
 
-1.  Voer in de browser de relevante URL in. De volgende tabel illustreert de soorten URL's die u kunt invullen. Gebruik voor SOAP-webservices de volgende notatie voor uw URI.  
+1.  Voer in de browser de relevante URL in. De volgende tabel illustreert de soorten URL's die u kunt invullen.  
 
-    <table>
-    <tr>
-    <th>Type webservice</th>
-    <th>Syntaxis</th>
-    <th>Opmerking</th>
-    </tr>
-    <tr>
-    <td>SOAP</td>
-    <td>https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/</td>
-    <td>https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com</td>
-    </tr>
-    <tr>
-    <td>OData</td>
-    <td>https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')</td>
-    <td>https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com
-
-         The company name is case-sensitive.</td>
-    </tr>
-    </table>
+    >    [!div class="mx-tdBreakAll"]
+    >    |Type webservice|Syntaxis|Opmerking|  
+    >    |----------------|------|-------|
+    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
+    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    De bedrijfsnaam is hoofdlettergevoelig.|
 
 2.  Controleer de informatie die verschijnt in de browser. Controleer of u de naam ziet van de webservice die u hebt gemaakt.  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69ca175c1b73e18dfbad1d0682d877021b5d94d7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Veldtoewijzing bij het exporteren van betalingsbestanden via conversieservice bankgegevens
@@ -25,7 +25,7 @@ Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor ban
 
 In de volgende tabel staan de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] waaruit de gegevens naar de serviceprovider kunnen worden geëxporteerd.  
 
-|Toegewezen veld|Veld in tabel|Tafel|Omschrijving]-->|  
+|Toegewezen veld|Veld in tabel|Tafel|Omschrijving|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Crediteurnummer|Crediteurnummer|Bankrekening|De identificatie die door uw bank aan uw bedrijf is toegewezen om betalingen te innen|  
 |Bankrekeningnummer afzender|Bankrekeningnr./IBAN|Bankrekening|Het bankrekeningnummer van uw bedrijf (IBAN of ander) dat is opgegeven op de bankrekeningkaart|  
@@ -69,7 +69,7 @@ In de volgende tabel staan de velden in [!INCLUDE[d365fin](includes/d365fin_md.m
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)
 [Procedure: Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md)   
 [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

@@ -1,6 +1,6 @@
 ---
-title: Bedrijfsfunctionaliteit die door Financials wordt ondersteund | Microsoft Docs
-Description: "Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals Financiën, Voorraad, en Projectbeheer."
+title: Ondersteunde bedrijfsfunctionaliteit door Dynamics 365 Business edition | Microsoft Docs
+Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5438d1808bff9509d1a938f601139d3faeab2a82
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="overview-of-business-functionality"></a>Overzicht van bedrijfsfunctionaliteit
+# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Overzicht van bedrijfsfunctionaliteit in Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Op uw startpagina kunt u toegang krijgen tot handleidingen voor begeleide instelling die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
@@ -43,7 +43,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Zorg voor een effectieve stroom van goederen die worden ontvangen en verzonden.|[Magazijnbeheer](warehouse-manage-warehouse.md)|
 |Plan serviceoproepen en stel serviceorders in, en houd reparatieonderdelen en verbruiksmaterialen bij.|[CRM - Service](service-service.md)|
 |Werkstromen instellen en gebruiken die taken verbinden die worden uitgevoerd door verschillende gebruikers of door het systeem, zoals automatisch boeken. Het aanvragen en verlenen van goedkeuringen om documenten te maken of te boeken, zijn voorbeelden van veelvoorkomende werkstroomstappen.|[Werkstroom](across-workflow.md)|
-|Gebruikers de mogelijkheid geven om gegevens uit te wisselen met externe bronnen voor dagelijkse taken, zoals het versturen/ontvangen van elektronische documenten, bankbestanden importeren/exporteren en wisselkoersen bijwerken.|[Gegevens als elektronische documenten uitwisselen ](across-data-exchange.md)|
+|Gebruikers de mogelijkheid geven om gegevens uit te wisselen met externe bronnen voor dagelijkse taken, zoals het versturen/ontvangen van elektronische documenten, bankbestanden importeren/exporteren en wisselkoersen bijwerken.|[Gegevens elektronisch uitwisselen](across-data-exchange.md)|
 |Leg externe documenten vast in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusief de bestandbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 
 

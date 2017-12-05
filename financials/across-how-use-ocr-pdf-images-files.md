@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Procedure: OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
@@ -70,23 +70,34 @@ Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt
 U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords voor de ontvangen elektronische documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie de volgende procedure voor meer informatie. U kunt ook de nieuwe inkomende documentrecord aan een bestaand geboekt of niet-geboekt document koppelen zodat het bronbestand gemakkelijk toegankelijk is vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Procedure: Inkomende documenten verwerken](across-process-income-documents.md) voor meer informatie.
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Een inkoopfactuur op basis van een elektronisch document ontvangen van de OCR-service maken
-Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt.
+Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt of een verkoopretourorder van een klant.
 
 > [!NOTE]  
->   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt dit doen als artikelkruisverwijzingen, documentregels van het soort Artikel of als tekst-aan-rekening toewijzingen voor document- of dagboekregels van het soort Grootboekrekening. Zie voor meer informatie de knopinfo voor de actie **Kruisverwijzingen**op artikelkaarten en de gerelateerde procedure [Procedure: Tekst in terugkerende betalingen toewijzen aan accounts voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt deze toewijzing als artikelkruisverwijzingen uitvoeren, voor documentregels van het type Artikel. U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie het gedeelte Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening voor meer informatie.
 
+Als u de artikelnummers in het document aan uw omschrijvingen van de leveranciersartikelen wilt toewijzen, opent u de kaart en kiest u vervolgens de actie **Kruisverwijzingen** om kruisverwijzingen tussen uw artikelomschrijvingen en die van de leverancier in te stellen. Zie de knopinfo voor de actie **Kruisverwijzingen** op artikelkaarten voor meer informatie.
+
+1. Selecteer de regel voor het inkomende document en kies de actie **Document maken**.
+
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen. Gegevens worden in de nieuwe inkoopfactuur ingevoegd op basis van de toewijzing die u als kruisverwijzing of als toewijzing van tekst aan rekening hebt opgegeven.
+
+Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie het gedeelte "Fouten afhandelen bij de ontvangst van elektronische documenten"voor meer informatie.
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Tekst in een inkomend document aan een bepaalde leveranciersrekening toewijzen
 Voor inkomende documenten gebruikt u meestal de actie **Tekst toewijzen aan rekening**om te definiëren daten bepaalde tekst op een leveranciersfactuurontvangen van OCR-service, is toegewezen aan een bepaalde leveranciersrekening. In elk onderdeel van de omschrijving van het binnenkomende document dat als een toewijzingstekst aanwezig is, wordt in het veld**Nr.** in het resulterende document of de resulterende dagboekregels van het soort grootboekrekening ingevuld met de desbetreffende leverancier.
 
 U kunt niet alleen aan een leveranciersrekening of aan grootboekrekeningen toewijzen, maar ook aan een bankrekening. Dit is bijvoorbeeld handig voor elektronische documenten voor kosten die al zijn betaald en waarvoor u een dagboekregel wilt maken die kan worden geboekt naar een bankrekening.
 
-1. Selecteer de regel van het inkomende document voor het elektronische leveranciersdocument dat is ontvangen van de OCR-service.
-2. Als u tekst in het document aan de rekening van de leverancier wilt toewijzen, een debetrekening, kiest u de actie **Tekst aan rekening toewijzen**en vult u vervolgens het venster **Toewijzing tekst aan rekening** met gegevens die voortaan op de leverancier worden toegepast. Zie [Procedure: Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
-3. Als u de artikelnummers in het document aan uw omschrijvingen van de leveranciersartikelen wilt toewijzen, opent u de kaart en kiest u vervolgens de actie **Kruisverwijzingen** om kruisverwijzingen tussen uw artikelomschrijvingen en die van de leverancier in te stellen.
-4. Kies in het venster **Inkomende documenten** de actie **Document maken**.
+1. Selecteer de betreffende inkomende documentregel en kies de actie **Tekst afstemmen op rekening**. Het venster **Toewijzing tekst aan rekening** wordt geopend.
+3. In het veld **Toewijzing tekst** voert u de tekst in die moet worden opgenomen in leveranciersfacturen waarvoor u inkoopdocumenten of dagboekregels wilt maken. U kunt maximaal 50 tekens invoeren.
+4. In het veld **Leveranciersnr.** voert u de leverancier in waarvoor het resulterende inkoopdocument of de dagboekregel wordt gemaakt.
+5. In het veld **Debetrekeningnr.** voert u de debetgrootboekrekening in die wordt ingevoegd in het resulterende inkoopdocument of op de dagboekregel van het type Grootboekrekening.
+6. In het veld **Creditrekeningnr.** voert u de creditgrootboekrekening in die wordt ingevoegd in het resulterende inkoopdocument of op de dagboekregel van het type Grootboekrekening.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen.
+    > [!NOTE]
+    > Gebruik de velden **Bronsoort saldo** en **Bronnr. saldo** niet in combinatie met inkomende documenten. Deze worden alleen gebruikt voor automatische betalingsreconciliatie. Zie [Procedure: Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
 
-Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie het gedeelte "Fouten afhandelen bij de ontvangst van elektronische documenten"voor meer informatie.
+7. Herhaal stap 2 tot en met 5 voor alle tekst in inkomende documenten waarvoor u automatisch documenten wilt maken.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Fouten afhandelen bij de ontvangst van elektronische documenten
 1. Selecteer in het venster **Inkomende documenten** de regel voor een elektronisch document dat met fouten is ontvangen van de OCR-service. Dit wordt aangegeven door de waarde Fout in het veld **OCR-status**.

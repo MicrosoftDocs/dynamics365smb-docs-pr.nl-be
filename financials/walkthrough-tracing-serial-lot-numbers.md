@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedure: Serie-/lotnummers traceren
@@ -141,7 +141,6 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 2.  Kies de groep **Nieuw**.  
 3.  Maak een nieuwe vrijgegeven productieorder door de volgende velden in te vullen.  
 
-    ||||  
     |-|-|-|  
     |Bronnr.|Aantal|Serienr.|  
     |1002|2|SN1|  
@@ -189,7 +188,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     |Klant|Artikel|Aantal|Serienr.|  
     |--------------|----------|----------|----------------|  
-    |Anton Geestig Adviezen|1002|0|SN1|  
+    |Anton Geestig Adviezen|1002|1|SN1|  
 
 3.  Om het serienummer in te voeren, kiest u de actie **Artikeltraceringsregels** en vult u vervolgens het nummer in het veld **Serienr.** in het venster **Artikeltraceringsregels** in.  
 4.  Kies de actie **Boeken**, selecteer de optie **Verzenden en factureren** en kies vervolgens de knop **OK**.  
@@ -201,7 +200,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     |Klant|Artikel|Aantal|Serienr.|  
     |--------------|----------|----------|----------------|  
-    |Van Terp Kantoorinrichting|1002|0|SN2|  
+    |Van Terp Kantoorinrichting|1002|1|SN2|  
 
 7.  Om het serienummer in te voeren, kiest u de actie **Artikeltraceringsregels** en vult u vervolgens het nummer in het veld **Serienr.** in het venster **Artikeltraceringsregels** in.  
 8.  Kies de actie **Boeken**, selecteer de optie **Verzenden en factureren** en kies vervolgens de knop **OK**.  

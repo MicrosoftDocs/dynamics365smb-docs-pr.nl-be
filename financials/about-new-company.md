@@ -1,6 +1,6 @@
 ---
 title: Nieuwe bedrijven maken met een begeleide instelling | Microsoft Docs
-description: Het is eenvoudig een nieuw leeg bedrijf te maken in Dynamics 365 for Financials. Een begeleide instelling helpt u door de stappen en u kunt uw bestaande bedrijfsgegevens importeren.
+description: U maakt eenvoudig een nieuw leeg bedrijf in Dynamics 365 Business edition. Een begeleide instelling helpt u door de stappen en u kunt uw bestaande bedrijfsgegevens importeren.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Nieuwe bedrijven maken in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ Als u zich aanmeldt bij een nieuw bedrijf, wordt de wizard **Bedrijfsinstelling*
 
 Uw bedrijfsadres wordt bijvoorbeeld opgenomen in facturen en andere documenten, uw bankgegevens worden gebruikt in betalingen en de waarderingsmethode wordt gebruikt om prijzen en voorraadwaarde te berekenen.  
 
-Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie [Dynamics 365 for Financials instellen](setup.md) voor meer informatie.  
+Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie [Dynamics 365 Business edition instellen](setup.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
-[Dynamics 365 for Financials configureren](setup.md)  
+[Dynamics 365 Business edition instellen](setup.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

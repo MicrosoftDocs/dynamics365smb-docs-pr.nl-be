@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials opzeggen aanpassen | Microsoft Docs
-description: Uw extensies voor Dynamics 365 for Financials maken, demonstreren en promoten.
+title: Dynamics 365 Business edition aanpassen | Microsoft Docs
+description: Maak, demonstreer en promoot uw extensies voor Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
-ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] uitbreiden
@@ -49,7 +49,7 @@ Voordat we publiceren, moeten we met u samenwerken om ervoor te zorgen dat uw ap
 Download voor meer informatie over het validatieproces en over het publiceren van uw app het document [Uw app publiceren.pdf](https://go.microsoft.com/fwlink/?linkid=841517) van het Downloadcentrum.
 
 ## <a name="learn-more-about-extensions-v20"></a>Meer informatie over extensies v2.0
-De nieuwe ontwikkelingshulpmiddelen, waarmee u extensies v2.0 kunt maken, zijn nu in de voorbeeldfase en worden binnenkort geactiveerd in de Dynamics 365 for Financials-service. Als u al vertrouwd wilt raken met de nieuwe hulpmiddelen of meer informatie wilt over extensies 2.0, bekijkt u [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+De nieuwe ontwikkelingshulpmiddelen, waarmee u v2.0-extensies kunt maken, zijn nu in de evaluatiefase en worden binnenkort geactiveerd in de Dynamics 365 Business edition-service. Als u al vertrouwd wilt raken met de nieuwe hulpmiddelen of meer informatie wilt over extensies 2.0, bekijkt u [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Hulp nodig?
 Als u begeleiding wilt, kunt u via de volgende lijst contact opnemen met een deskundige op het gebied van appinhoud:
@@ -70,7 +70,7 @@ Deze [Veelgestelde vragen](https://go.microsoft.com/fwlink/?linkid=841520) geven
 
 ## <a name="further-resources"></a>Meer resources
 Raadpleeg voor meer resources voor appontwikkeling onze DLP-onderwerppagina [DLP-onderwerppagina](https://mbspartner.microsoft.com/BFI/Topic/76). Een aantal geselecteerde resources zijn hieronder beschikbaar:
--   [Gebruikersregistratie en latere facturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Gebruikersregistratie en latere facturering](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00792adb8b4c7deccee262982cd532423884c8f5
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
@@ -30,7 +30,7 @@ Nadat de betalingen in uw bank worden gemaakt, moet u deze met de relateerde ope
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Aan | Zie |
+| Als u dit wilt doen | Zie |
 | --- | --- |
 |In het venster **Betalingsdagboek**, dat is gebaseerd op van het dagboek, kunt u betalingen aan leveranciers of werknemers boeken.|[Werken met diversendagboeken](ui-work-general-journals.md)|
 | Gebruik een functie om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Procedure: Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |

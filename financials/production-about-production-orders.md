@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 339515e73f65c0f0f37405d52c670f0597811934
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  
 
-Voordat wordt doorgegaan met de productie, voeren de meeste bedrijven een voorraadplanning uit, doorgaans een keer in de week, om te berekenen hoeveel productieorders en inkooporders moeten worden uitgevoerd om te voldoen aan de verkoopvraag van die week. Inkooporders vullen de componenten aan die volgens de productiestuklijst vereist zijn om de eindartikelen te produceren. 
+Voordat wordt doorgegaan met de productie, voeren de meeste bedrijven een voorraadplanning uit, doorgaans een keer in de week, om te berekenen hoeveel productieorders en inkooporders moeten worden uitgevoerd om te voldoen aan de verkoopvraag van die week. Inkooporders vullen de componenten aan die volgens de productiestuklijst vereist zijn om de eindartikelen te produceren.
 
 Productieorders vormen de centrale onderdelen van de productiefunctionaliteit van het programma en bevatten de volgende informatie:  
 
@@ -46,7 +46,6 @@ Productieorders worden opgesteld met informatie uit:
 
 - Artikelen  
 - Productiestuklijsten
-- Assemblagestuklijsten
 - Bewerkingsplannen  
 - Bewerkingsplaatsen  
 - Afdelingen  

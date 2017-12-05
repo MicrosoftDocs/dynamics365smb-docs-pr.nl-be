@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 81781676adf27a4f1c1d478bb2b4bd8248551468
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="exchanging-data"></a>Gegevens uitwisselen
@@ -38,8 +38,8 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)  
-[Procedure: Verkoopbewerkingen](sales-how-invoice-sales.md)   
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)  
+[Procedure: Verkopen factureren](sales-how-invoice-sales.md)   
 [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  

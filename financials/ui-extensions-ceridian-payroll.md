@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c67d6bd4d24d5b58462fa05168f2ac764b2c695
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-ceridian-payroll-extension-to-dynamics-365-for-financials"></a>De extensie Ceridian-Payroll naar Dynamics 365 for Financials
+# <a name="the-ceridian-payroll-extension-to-dynamics-365-business-edition"></a>De extensie Ceridian-Payroll naar Dynamics 365 Business edition 
 Als u salarisbetalingen en gerelateerde transacties wilt verantwoorden, moet u financiële transacties die zijn uitgevoerd door uw leverancier van salarisverwerking, importeren en boeken naar het grootboek.
 
 Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverwerking ontvangt, in het venster **Fin. dagboek**. Vervolgens kunt u de externe rekeningen in het loonlijstbestand toewijzen aan de betreffende grootboekrekeningen. Als laatste boekt u de loonlijsttransacties op basis van de rekeningtoewijzing. Zie [Procedure: Salaristransacties importeren](finance-how-import-payroll-transactions.md) voor meer informatie.
@@ -27,7 +27,7 @@ Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverw
 Met de extensie Ceridian Payroll kunt u loonlijsttransacties van de services Ceridian HR/Payroll (VS) en Ceridian PowerPay (Canada) importeren.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies ](ui-extensions.md)    
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)    
 [Financiën](finance.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

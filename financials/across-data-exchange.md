@@ -1,5 +1,5 @@
 ---
-title: Elektronische documenten in Dynamics 365 for Financials | Microsoft Docs
+title: Elektronische documenten in Dynamics 365 Business edition | Microsoft Docs
 description: Inleiding op de verzending en ontvangst van elektronische documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,17 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c0ca1b5da823d31bba4961e8724dfb98e842317
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-## <a name="exchanging-data-as-electronic-documents"></a>Gegevens als elektronische documenten uitwisselen  
-Als alternatief voor het e-mailen van bestandsbijlagen kunt u documenten elektronisch verzenden en ontvangen. Een elektronisch document is een genormeerd bestand waarin een bedrijfsdocument wordt gerepresenteerd, zoals een factuur van een leverancier die u kunt ontvangen en converteren naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf. Als u ondersteuning voor andere elektronisch documentindelingen wilt bieden, moet u nieuwe gegevensuitwisselingsdefinities maken met het kader voor gegevensuitwisseling.  
+
+# <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
+U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het uitwisselen van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden uw zakelijke partners.
+
+## <a name="electronic-documents"></a>Elektronische documenten
+Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een genormeerd bestand waarin een bedrijfsdocument wordt gerepresenteerd, zoals een factuur van een leverancier die u kunt ontvangen en converteren naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf. Als u ondersteuning voor andere elektronisch documentindelingen wilt bieden, moet u nieuwe gegevensuitwisselingsdefinities maken met het kader voor gegevensuitwisseling.  
 
 Vanuit PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen kunt u een externe OCR-service (Optical Character Recognition; optische tekenherkenning) elektronische documenten laten maken die u vervolgens naar documentrecords kunt converteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals u doet voor elektronische PEPPOL-documenten. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanuit het venster **Inkomende documenten**. Na enkele seconden krijgt u het bestand weer terug als elektronische factuur die kan worden geconverteerd naar een inkoopfactuur voor de leverancier. Als u het bestand per e-mail naar de OCR-service verzendt, wordt automatisch een nieuwe inkomende documentrecord gemaakt wanneer u het elektronische document terugkrijgt.  
 
@@ -46,17 +50,17 @@ Voor alle uitwisselingen van gegevens in XML-bestanden kunt u de instellingen va
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
-|Aan|Zie|  
+|Als u dit wilt doen|Zie|  
 |--------|---------|  
 |Meer leren over hoe het kader voor gegevensuitwisseling werkt.|[Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md)|  
 |Gegevensuitwisseling in een bestand voorbereiden door het XML-schema van het bestand te hergebruiken. Definities voor gegevensuitwisseling instellen. Stel stamgegevens in voor het elektronisch verzenden van documenten. Stel diverse velden in voor bankimport/-export.|[Gegevensuitwisseling instellen](across-set-up-data-exchange.md)|  
-|Verzend PEPPOL-facturen, ontvang PEPPOL-facturen, importeer bankafschriften en exporteer bankbetalingsbestanden op basis van gegevensuitwisselingsdefinities.|[Gegevensuitwisseling](across-exchange-data.md)|  
+|Verzend PEPPOL-facturen, ontvang PEPPOL-facturen, importeer bankafschriften en exporteer bankbetalingsbestanden op basis van gegevensuitwisselingsdefinities.|[Gegevens uitwisselen](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md)  
 [Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
-[Gegevensuitwisseling](across-exchange-data.md)  
+[Gegevens uitwisselen](across-exchange-data.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

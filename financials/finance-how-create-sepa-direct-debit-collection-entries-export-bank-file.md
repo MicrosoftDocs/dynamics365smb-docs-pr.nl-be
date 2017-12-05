@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f6ebcafa1585d4f722802a6891a20a895aa96060
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 34fb52bd39036477b479a4de626225876cfe5800
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Procedure: SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand
@@ -29,7 +29,7 @@ Om de bank het bedrag van de bankrekening van de klant over te laten maken naar 
 2. Kies in het venster **Incasso-opdrachten** op het tabblad **Start** in de groep **Nieuw** de optie **Incasso-opdracht maken**.  
 3. Vul in het venster **Incasso-opdracht maken** de velden in zoals wordt beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Vanaf vervaldatum**|Geef de eerste betalingsvervaldatum aan op de verkoopfacturen die u wilt maken voor een incasso-opdracht.|  
     |**Tot vervaldatum**|Geef de laatste betalingsvervaldatum aan op de verkoopfacturen die u wilt maken voor een automatische incasso-verzameling.|  

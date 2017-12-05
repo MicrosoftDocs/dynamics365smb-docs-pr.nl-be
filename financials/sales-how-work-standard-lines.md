@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Procedure: Periodieke verkoop- en inkoopregels maken
@@ -40,7 +40,7 @@ In de volgende procedure wordt beschreven hoe u werkt met standaardverkoopregels
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Meerdere verkoopfacturen maken op basis van standaardverkoopregels
 U kunt de batchverwerking **Periodieke verkoopfacturen maken** gebruiken om verkoopfacturen te maken volgens de standaardverkoopregels die zijn toegewezen aan de klanten, en met boekingsdatums binnen de datums voor geldig vanaf en geldig tot die u in de standaardverkoopcode opgeeft.
 
-In het venster **Periodieke verkoopregels** kunt u ook een betalingsmethode voor automatische incasso en machtiging voor automatische incasso opgeven. De verkoopfacturen die zijn gemaakt met de batchverwerking **Periodieke verkoopfacturen maken** bevatten dan informatie die nodig is om de betaling voor de verkoopfacturen met automatische incasso van SEPA te innen. Zie voor meer informatie Betalingen verzamelen via automatische incasso van SEPA.
+In het venster **Periodieke verkoopregels** kunt u ook een betalingsmethode voor automatische incasso en machtiging voor automatische incasso opgeven. De verkoopfacturen die zijn gemaakt met de batchverwerking **Periodieke verkoopfacturen maken** bevatten dan informatie die nodig is om de betaling voor de verkoopfacturen met automatische incasso van SEPA te innen. Zie voor meer informatie [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Periodieke verkoopfacturen aanmaken** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul de velden in het venster **Periodieke verkoopfacturen maken** in met de benodigde gegevens.

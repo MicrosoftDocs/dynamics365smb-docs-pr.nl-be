@@ -1,8 +1,6 @@
 ---
 title: Manieren om problemen op te lossen of te omzeilen met aanmelden bij Self-Service | Microsoft Docs
-description: Meer informatie over de meest voorkomende redenen waarom u de inschrijving bij Dynamics 365 for Financials niet kunt voltooien, en manieren om het op te lossen.
-services: project-madeira
-documentationcenter: 
+description: Kom meer te weten over de meest voorkomende redenen waarom u de inschrijving bij Dynamics 365 Business edition niet kunt voltooien, en manieren om het op te lossen.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Probleemoplossing voor aanmelden bij Self-Service
 Aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] is eenvoudig en kan erg snel worden uitgevoerd. U kunt een gratis account maken, zelfs als u een bestaande organisatie bent. In dit artikel worden problemen behandeld die u tijdens het aanmelden kunt tegenkomen.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Welk e-mailadres kan ik gebruiken bij Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Welk e-mailadres kan ik gebruiken met Dynamics 365?
 Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken.
@@ -40,5 +38,4 @@ In veel gevallen kunt u uw registratie voor [!INCLUDE[d365fin](includes/d365fin_
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

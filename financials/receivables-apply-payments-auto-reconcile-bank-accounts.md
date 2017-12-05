@@ -13,13 +13,13 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f828fce295b15db9e50034a51e1531b29b064c85
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: b12a298fd9dc8d03d04790debb7a66715cc96458
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
-# <a name="apply-payments-automatically-and-reconcile-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
+# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde onbetaalde facturen en creditnota's of andere openstaande posten in [!INCLUDE[d365fin](includes/d365fin_long_md.md)].  
 
 U kunt deze taak in het venster **Dagboek betalingsreconciliatie** uitvoeren door een bankafschriftbestand of -feed te importeren om de betalingen snel in project te registreren. Betalingen worden vereffend met openstaande leveranciers- of klantenposten, op basis van overeenkomsten tussen de betalingtekst en de informatie in de posten. U kunt automatische vereffeningen controleren en wijzigen voordat u het dagboek boekt. U kunt ervoor kiezen om openstaande bankrekeningposten met betrekking tot de vereffende posten te sluiten wanneer u het dagboek boekt. De bankrekening wordt automatisch gereconcilieerd wanneer alle betalingen worden vereffend.  

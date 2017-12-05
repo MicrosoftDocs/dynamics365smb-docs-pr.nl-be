@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a7af6821affcef2c81499e904f2ed9520086323
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procedure: Afdelingen en bewerkingsplaatsen instellen
@@ -50,7 +50,7 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 10.  Schakel het selectievakje **Specifieke kostprijs** in wanneer u de afdelingskostprijs wilt definiëren op de bewerkingsplanregel waarop deze wordt gebruikt. Dit kan nodig zijn voor bewerkingen waarvan de capaciteitskosten enorm verschillen met die van bewerkingen die normaal op de afdeling worden uitgevoerd.  
 11.  Selecteer in het veld **Afboekingsmethode** of de outputboeking op deze afdeling handmatig moet worden berekend en geboekt of dat dit automatisch moet gebeuren op een van de volgende wijzen.  
 
-    |Optie|Description|  
+    |Optie|Omschrijving|  
     |----------------------------------|---------------------------------------|  
     |**Handmatig**|Verbruik wordt handmatig geboekt in het outputdagboek of het productiedagboek.|
     |**Voorwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt vrijgegeven.|  
@@ -65,7 +65,7 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
     > [!NOTE]  
     > Als u kiest voor het gebruik van dagen, moet u eraan denken dat 1 dag bestaat uit 24 uur en niet uit 8 (werkuren).
 
-13.  Definieer in het veld **Capaciteit** of er op de afdeling meer dan één machine of persoon tegelijkertijd aan het werk zijn. Wanneer in **Productnaam** niet de module Bewerkingsplaats is geïnstalleerd, moet de waarde in dit veld **1** zijn.  
+13.  Definieer in het veld **Capaciteit** of er op de afdeling meer dan één machine of persoon tegelijkertijd aan het werk zijn. Wanneer in [!INCLUDE[d365fin](includes/d365fin_md.md)] niet de module Bewerkingsplaats is geïnstalleerd, moet de waarde in dit veld **1** zijn.  
 14.  Voer in het veld **Efficiëntie** het percentage van de verwachte standaardoutput in dat deze afdeling werkelijk oplevert. Wanneer u hier **100** invoert, betekent dit dat de werkelijke output van de afdeling net zo hoog is als de standaardoutput.  
 15. Schakel het selectievakje **Geconsolideerde agenda** in als u ook bewerkingsplaatsen gebruikt. Hierdoor worden agendaposten berekend op basis van bewerkingsplaatsagenda's.  
 16.  Selecteer een productieagenda in het veld **Productieagendacode**. Zie voor meer informatie [Procedure: Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
@@ -79,6 +79,24 @@ Als er meerdere bewerkingsplaatsen (bijvoorbeeld 210 Verpakkingsruimte 1, 310 Ve
 Wanneer echter identieke bewerkingsplaatsen (bijvoorbeeld 210 Verpakkingsruimte 1 en 220 Verpakkingsruimte 2) worden gecombineerd op een afdeling, kan de afdeling worden beschouwd als het totaal van de toegewezen bewerkingsplaatsen. De afdeling zou dan worden weergegeven met een capaciteit van nul. Als u het veld **Geconsolideerde agenda** inschakelt, wordt de totale capaciteit toegewezen aan de afdeling.
 
 Als de capaciteit van afdelingen niet moet bijdragen aan de totale capaciteit, kunt u dit instellen met efficiëntie = 0.
+
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Een bewerkingsplaats of afdeling met beperkte capaciteit instellen
+U kunt een beperkte werklast toewijzen aan productieresources die als kritiek worden beschouwd door deze te markeren, in plaats van de onbeperkte werklast die door andere resources worden geaccepteerd. Een resource met beperkte capaciteit kan een afdeling of bewerkingsplaats zijn die als knelpunt wordt beschouwd en waarvoor u een beperkte (begrensde) werklast wilt instellen.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt geen ondersteuning voor gedetailleerd werkvloerbeheer. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.
+
+In het venster **Capaciteitsbegrensde resource** kunt u instellingen configureren waarmee overbelasting van specifieke resources kan worden voorkomen, en kunt u ervoor zorgen dat alle capaciteit wordt toegewezen als dit de omlooptijd van een productieorder kan verhogen. In het veld **Demping (% van totale capaciteit)** kunt u dempingstijd aan resources toevoegen om bewerkingsplitsen te verkleinen. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.
+
+Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen resources boven de gedefinieerde capaciteit (kritieke werklastpercentage) worden geladen. Dit gebeurt door elke bewerking toe te wijzen aan de dichtstbijzijnde beschikbare periode. Als de periode niet groot genoeg is om de hele bewerking uit te voeren, wordt de bewerking in twee of meer delen gesplitst in de dichtstbijgelegen perioden.
+
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Capaciteitsbegrensde resources** in en klik vervolgens op de gerelateerde koppeling.
+2. Kies de actie **Nieuw**.
+3. Vul de velden in.
+
+> [!NOTE]
+> Bewerkingen op afdelingen of bewerkingsplaatsen die zijn ingesteld als beperkte resources, worden altijd in serie gepland. Dit betekent dat als een beperkte bron meerdere capaciteiten heeft, die capaciteiten alleen in volgorde kunnen worden gepland. Dit kan niet parallel, zoals het geval zou zijn als de afdelings- of bewerkingsplaats niet is ingesteld als beperkte resource. In een begrensde resource, is het veld Capaciteit op de afdeling of bewerkingsplaats groter is dan 1.
+
+> In het geval van gesplitste bewerkingen wordt de insteltijd slechts eenmaal toegewezen omdat ervan wordt uitgegaan dat enige handmatige aanpassing wordt uitgevoerd om de planning te optimaliseren.
 
 ## <a name="see-also"></a>Zie ook  
 [Procedure: Productieagenda's maken](production-how-to-create-work-center-calendars.md)  

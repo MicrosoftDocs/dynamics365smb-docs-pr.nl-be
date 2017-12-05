@@ -1,8 +1,6 @@
 ---
 title: Voorgestelde veldwaarden instellen | Microsoft Docs
-description: Als u handmatige berekeningen wilt voorkomen en taken snel en accuraat wilt voltooien, kunt u automatische gegevensinvoer instellen, zodat Financials geselecteerde velden invult.
-services: project-madeira
-documentationcenter: 
+description: Als u handmatige berekeningen wilt voorkomen en taken snel en accuraat wilt voltooien, kunt u automatische gegevensinvoer instellen, zodat Dynamics 365 geselecteerde velden invult.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,13 +10,13 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ca73c8298101eb02aac397894f87f7a5f58a5c2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] waarden laten voorstellen
+# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] waarden laten voorstellen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren. Hoewel dergelijke automatische gegevensinvoer altijd correct is, kunt u deze later wijzigen als u wilt.
 
 De functionaliteit waarmee veldwaarden voor u worden ingevoerd, wordt meestal aangeboden voor taken waarin u grote volumes transactiegegevens invoert en fouten wilt voorkomen en tijd wilt besparen. Dit onderwerp bevat een selectie van deze functionaliteit. In toekomstige updates van [!INCLUDE[d365fin](includes/d365fin_md.md)] worden meer secties toegevoegd.
@@ -44,6 +42,6 @@ Uw hoofdacties in het venster bestaan eruit het selectievakje **Is betaald** en 
 3. Open het venster **Betalingregistratie** en ga door met het verwerken van inkomende klantbetalingen met de beschreven functie voor automatische invoer van een veldwaarde.
 
 ## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Financiën](finance.md)
 

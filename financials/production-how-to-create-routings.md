@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Procedure: bewerkingsplannen maken
@@ -28,7 +28,7 @@ Voor productiestuklijsten worden de bewerkingsplannen toegewezen aan het product
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
-- Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie voor meer informatie [Procedure: Nieuwe producten registreren](inventory-how-register-new-items.md).
+- Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
 - Er zijn productieresources ingesteld. Zie voor meer informatie [Procedure: Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Een bewerkingsplan maken  
@@ -53,7 +53,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 12.  Ga door met het invullen van de regels voor alle bewerkingen die betrokken zijn bij de productie van het desbetreffende artikel.  
 13.  Als u regels wilt kopiëren uit een bestaand bewerkingsplan, kiest u de actie **Bewerkingsplan kopiëren** om bestaande regels te selecteren.  
 14. Certificeer het bewerkingsplan.  
-15. U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen door het veld **Bew.-plannr.** in te vullen. Zie voor meer informatie [Procedure: Nieuwe producten registreren](inventory-how-register-new-items.md).  
+15. U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen door het veld **Bew.-plannr.** in te vullen. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.  
 
 > [!NOTE]  
 >  Zorg ervoor dat u de vaste verrekenprijs van het artikel opnieuw berekent vanuit de kaart **Artikel**: kies hiervoor achtereenvolgens de acties **Productie**, **Vaste verrekenprijs berekenen** en **Alle niveaus**.  

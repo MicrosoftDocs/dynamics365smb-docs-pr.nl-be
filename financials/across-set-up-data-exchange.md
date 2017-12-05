@@ -1,6 +1,6 @@
 ---
 title: Gegevensuitwisseling instellen | Microsoft Docs
-description: Stel het kader voor gegevensuitwisseling in Dynamics 365 for Financials in.
+description: Stel het kader voor gegevensuitwisseling in Dynamics 365 Business edition in.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5c0fcfd6ef178c5917a4a07ba81a9bef9b4522aa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 593904835c55d4ce9b137d0af387ea897603795f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
-Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals stamgegevens voor klanten aan wie u elektronische facturen verzendt, of de conversieservice voor bankgegevens als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens als elektronische documenten uitwisselen](across-data-exchange.md) voor meer informatie.  
+Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals stamgegevens voor klanten aan wie u elektronische facturen verzendt, of de conversieservice voor bankgegevens als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
  Wanneer [!INCLUDE[d365fin](includes/d365fin_md.md)] is ingesteld voor gegevensuitwisseling met externe bestanden, kunnen gebruikers de instellingen gebruiken in algemene bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  
 
@@ -39,8 +39,8 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |Stel het kader voor gegevensuitwisseling in zodat gebruikers een nieuwe inkoopdocumentindeling kunnen ontvangen, een nieuwe verkoopdocumentindeling kunnen verzenden, een nieuw bankbestand kunnen importeren of een andere gegevensuitwisseling kunnen uitvoeren.|[Procedure: Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## <a name="see-also"></a>Zie ook  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)  
-[Gegevensuitwisseling](across-exchange-data.md)   
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)  
+[Gegevens uitwisselen](across-exchange-data.md)   
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 

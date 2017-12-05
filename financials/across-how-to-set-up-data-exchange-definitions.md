@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 111eb2f627f63edd31c6224f0fd664bf68417079
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Procedure: Definities voor gegevensuitwisseling instellen
-U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens als elektronische documenten uitwisselen](across-data-exchange.md) voor meer informatie.  
+U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
 Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in het gedeelte “De opmaak van regels en kolommen in het bestand beschrijven”. Zie [Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
@@ -71,7 +71,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
     >   
     >  Voor export van betalingen kunt u een regel voor elk betalingstype maken dat u wilt exporteren. In dat geval toont het sneltabblad **Kolomdefinities** verschillende kolommen voor elke betalingssoort.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Voer een code in om de regel in het bestand te identificeren.|  
     |**Naam**|Voer een naam in die de regel in het bestand beschrijft.|  
@@ -87,7 +87,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 7. Selecteer in het venster **Bestandsstructuur ophalen** het gerelateerde structuurbestand en kies vervolgens de knop **OK**. De regels op het sneltabblad **Kolomdefinities** worden ingevuld op basis van de structuur van het gegevensbestand.  
 8. Vul op het sneltabblad **Kolomdefinities** de velden in of bewerk ze zoals in de volgende tabel wordt beschreven.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Kolomnr.**|Geef het nummer op dat de kolompositie op de regel in het bestand aangeeft.<br /><br /> Geef voor XML-bestanden het nummer op dat het type element in het bestand aangeeft dat de gegevens bevat.|  
     |**Naam**|Geef de naam van de kolom op.<br /><br /> Geef voor XML-bestanden de markering op waarmee de uit te wisselen gegevens worden gemarkeerd.|  
@@ -111,10 +111,10 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 1. Selecteer op het sneltabblad **Regeldefinities** de regel waarvoor u kolommen aan velden wilt toewijzen en kies vervolgens **Veldtoewijzing**. Het venster **Toewijzing gegevensuitwisseling** wordt geopend.  
 2. Geef op het sneltabblad **Algemeen** de toewijzingsinstelling op door de velden in te vullen zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Tabel-id**|Geef de tabel op met de velden waarheen of vanwaar gegevens worden uitgewisseld volgens de toewijzing.|  
-    |**Gebruiken als tussentijdse tabel**|Geef op dat de tabel die u selecteert in het veld **Tabel-id** een tussentijdse tabel is waarin de geïmporteerde gegevens worden opgeslagen voordat deze aan de doeltabel worden toegewezen.<br /><br /> Meestal gebruikt u een tijdelijke tabel als de definitie van de gegevensuitwisseling wordt gebruikt om elektronische documenten te importeren en om te zetten, zoals leveranciersfacturen naar inkoopfacturen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Gegevens als elektronische documenten uitwisselen](across-data-exchange.md) voor meer informatie.|  
+    |**Gebruiken als tussentijdse tabel**|Geef op dat de tabel die u selecteert in het veld **Tabel-id** een tussentijdse tabel is waarin de geïmporteerde gegevens worden opgeslagen voordat deze aan de doeltabel worden toegewezen.<br /><br /> Meestal gebruikt u een tijdelijke tabel als de definitie van de gegevensuitwisseling wordt gebruikt om elektronische documenten te importeren en om te zetten, zoals leveranciersfacturen naar inkoopfacturen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.|  
     |**Naam**|Voer een naam in voor de instelling van de toewijzing.|  
     |**Codeunit toewijzing vooraf**|Geef de codeunit aan die de koppeling voorbereidt tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens.|  
     |**Toewijzing van  Codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
@@ -122,7 +122,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 
 3.  Geef op het sneltabblad **Veldtoewijzing** op welke kolommen aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn toegewezen door de velden in te vullen zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Kolomnr.**|Geef op voor welke kolom in het gegevensbestand u een toewijzing wilt definiëren.<br /><br /> U kunt alleen kolommen selecteren die worden vertegenwoordigd door regels op het sneltabblad **Kolomdefinities** in het venster **Definitie van gegevensuitwisseling**.|  
     |**Veld-id**|Geef op aan welk veld de kolom in het veld **Kolomnr.** wordt toegewezen.<br /><br /> U kunt alleen velden selecteren die bestaan in de tabel die u hebt opgegeven in het veld **Tabel** op het sneltabblad **Algemeen**.|  

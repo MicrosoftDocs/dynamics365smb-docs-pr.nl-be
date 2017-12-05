@@ -1,6 +1,6 @@
 ---
 title: Gebruikersmachtigingen toewijzen en machtigingensets maken of wijzigen | Microsoft Docs
-description: Hier wordt beschreven hoe u Office 365-gebruikers toevoegt aan Financials en vervolgens machtigingen, toegangsrechten en beveiligingsinstellingen toewijst.
+description: Hier wordt beschreven hoe u Office 365-gebruikers toevoegt aan Dynamics 365 Business edition en vervolgens machtigingen, toegangsrechten en beveiligingsinstellingen toewijst.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/27/2017
+ms.date: 10/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Procedure: Gebruikers en machtigingen beheren
@@ -54,53 +54,8 @@ U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren vo
 7. Als u nieuwe of extra machtingensets wilt toevoegen, kiest u in het venster **Gebruikersgroep** de actie **Machtigingensets van gebruikersgroep**.
 8. Vul in het venster **Machtigingensets van gebruikersgroep** op een nieuwe regel de velden waar nodig in door bestaande machtigingensets te selecteren.
 
-## <a name="to-create-or-modify-permission-sets"></a>Machtigingensets maken of wijzigen
-Als de standaard machtigingensets van [!INCLUDE[d365fin](includes/d365fin_md.md)] ontoereikend zijn of niet geschikt zijn voor uw organisatie, kunt u nieuwe machtigingensets maken. En als de afzonderlijke objectmachtigingen die een machtigingenset definiëren niet voldoende zijn, kunt een machtigingenset aanpassen. U kunt een machtigingenset handmatig maken, of u kunt een opnamefunctie gebruiken die uw acties vastlegt terwijl u door scenario navigeert en daarmee de vereiste machtigingenset genereert.
-
-### <a name="to-create-or-modify-permission-sets-manually"></a>Machtigingensets handmatig maken of wijzigen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.
-2. Kies in het venster **Gebruikers** de actie **Machtigingensets**.
-3. Kies in het venster **Machtigingensets** de actie **Nieuw**.
-4. Vul op een nieuwe regel de velden indien nodig in.
-5. Kies de actie **Machtigingen**.
-6. Vul in het venster **Machtigingen** waar nodig de velden in de koptekst in.
-7. Vul op een nieuwe regel de vijf velden voor de verschillende machtigingstypen in zoals beschreven in de volgende tabel.
-
-    |Optie|Omschrijving|
-    |------|-----------|
-    |Leeg|Geeft aan dat het machtigingstype niet voor het object is verleend.|
-    |**Ja**|Geeft aan dat het machtigingstype is verleend met directe toegang tot het object.|
-    |**Indirect**|Geeft aan dat het machtigingstype is verleend met indirecte toegang tot het object.|
-
-    Indirechte machtiging voor een tabel in betekent dat u de tabel niet kunt openen en lezen, maar u kunt de gegevens in de tabel weergeven via een ander object, zoals een pagina, waarvoor u een directe toegangsmachtiging hebt. Zie het onderdeel “Voorbeeld: indirecte machtiging” in dit onderwerp voor meer informatie.
-
-8. Voer in het veld **Beveiligingsfilter** een filter in dat u op de machtiging wilt toepassen, door het veld te selecteren waarvoor u de toegang van een gebruiker wilt beperken.
-
-    Als u bijvoorbeeld een beveiligingsfilter wilt maken zodat een gebruiker alleen verkopen met een bepaalde verkopercode kan weergeven, kiest u het veldnummer voor het veld **Verkoperscode**. Voer vervolgens in het veld **Veldfilter** de waarde in waarmee u de toegang wilt beperken. Als u de toegang van een gebruiker wilt beperken tot de verkopen van Annette Hill, voert u AH in.
-9. Herhaal stap 7 en 8 en voeg aan de machtigingenset machtigingen toe voor aanvullende objecten.
-
-### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Machtigingensets maken of bewerken door uw acties op te nemen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.
-2. Kies in het venster **Gebruikers** de actie **Machtigingensets**.
-3. Kies in het venster **Machtigingensets** de actie **Nieuw**.
-4. Vul op een nieuwe regel de velden indien nodig in.
-5. Kies de actie **Machtigingen**.
-6. Kies in het venster **Machtigingen** de actie **Starten**.
-
-    Een opnameproces wordt gestart, dat al uw acties in de gebruikersinterface vastlegt.
-7. Ga naar de verschillende vensters en activiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] waartoe u gebruikers met deze machtigingenset toegang wilt verlenen. U moet de taken uitvoeren waarvoor u machtigingen wilt opnemen.
-8. Om de opname te stoppen, gaat u terug naar het venster **Machtigingen** en kiest u de actie **Stoppen**.
-9. Kies de knop **Ja** om de opgenomen toegangsrechten aan de nieuwe machtigingenset toe te voegen.
-10. Geef voor elk object in de opgenomen lijst aan of gebruikers records mogen invoegen, wijzigen of verwijderen in de opgenomen tabellen. Zie stap 7 in het gedeelte "Machtigingensets handmatig maken of wijzigen".
-
-### <a name="example---indirect-permission"></a>Voorbeeld: indirecte machtiging
-U kunt een indirecte machtiging toewijzen om een object enkel door middel van een ander object te laten gebruiken.
-Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, **Verkoop-boeken**, uit te voeren. De codeunit **Verkoop-boeken** voert veel taken uit, waaronder het wijzigen van tabel 37, **Inkoopregel**. Wanneer de gebruiker een verkoopdocument boekt, de codeunit **Verkoop-boeken**, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] of de gebruiker de machtiging heeft om de tabel **Inkoopregel** te wijzigen. Als dat niet het geval is, kan de codeunit de taken niet uitvoeren en ontvangt de gebruiker een foutmelding. Indien dit wel zo is, wordt de codeunit uitgevoerd.
-
-De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel **Inkoopregel** om de codeunit uit te voeren. Als de gebruiker indirecte machtiging heeft voor de tabel **Inkoopregel**, kan de codeunit **Verkoop-boeken** worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel **Inkoopregel** wijzigen door de codeunit **Verkoop-boeken** of een ander object uit te voeren dat machtiging heeft om de tabel **Inkoopregel** te wijzigen. De gebruiker kan alleen de tabel **Inkoopregel** wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
-
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
-Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers.
+Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Procedure: Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersinstellingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Gebruikersinstellingen** dat wordt geopend, de actie **Nieuw**.
@@ -109,7 +64,7 @@ Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken
 
 ## <a name="see-also"></a>Zie ook
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Installatie en beheer in Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Installatie en beheer in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

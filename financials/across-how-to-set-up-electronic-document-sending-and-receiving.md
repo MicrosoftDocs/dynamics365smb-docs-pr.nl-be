@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Procedure: Verzending en ontvangst van elektronische documenten instellen
@@ -47,7 +47,7 @@ Het onderwerp bevat de volgende procedures:
 1. Geef in het tekstvak **Zoeken** **Bedrijfsgegevens** op en kies vervolgens de gerelateerde koppeling.  
 2. Vul op het sneltabblad **Algemeen** de velden in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identificeer uw bedrijf.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het element **EndPointID** onder het knooppunt **AccountingSupplierParty** in het bestand in te vullen. Het nummer is gebaseerd op de GS1-norm die voldoet aan ISO 6523.|  
     |**Btw-registratienummer**|Geeft het btw-nummer van uw bedrijf op.|  
@@ -57,7 +57,7 @@ Het onderwerp bevat de volgende procedures:
 1. Voer in het tekstvak **Zoeken** de tekst **Btw-boekingsinstellingen** in en kies de gerelateerde koppeling.  
 2. Voor elke regel voor btw-boekingsinstellingen die u gebruikt voor elektronische documenten, vult u het veld in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Belastingcategorie**|Geef de btw-categorie op.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het element **TaxApplied** onder het knooppunt **AccountingSupplierParty** in het bestand in te vullen. De code is gebaseerd op de UNCL5305-norm.|  
 
@@ -65,7 +65,7 @@ Het onderwerp bevat de volgende procedures:
 1. Voer in het tekstvak **Zoeken** **Landen/regio's** in en kies vervolgens de gerelateerde koppeling.  
 2. Voor elk land of elke regio waarmee u elektronische documenten uitwisselt, vult u het veld in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Btw-regeling**|Identificeer de nationale instantie die het btw-nummer van het land\/de regio uitgeeft in verband met het verzenden van elektronische documenten.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het kenmerk **SchemeID** voor het element **EndPointID** onder de knooppunten **AccountingSupplierParty** en **AccountingCustomerParty** in het bestand in te vullen.<br /><br /> Het veld **Btw-regeling** wordt alleen gebruikt als het veld **GLN** in het venster **Bedrijfsgegevens** niet is ingevuld. **Opmerking:** de waarde in het veld **Code** in het venster **Landen\/regio's** moet voldoen aan ISO 3166\-1:Alpha2.|  
 
@@ -73,7 +73,7 @@ Het onderwerp bevat de volgende procedures:
 1. Geef in het vak **Zoeken** **Artikelen** op en kies vervolgens de gerelateerde koppeling.  
 2. Voor elk artikel dat u koopt of verkoopt op elektronische documenten, vult u het veld in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identificeert het artikel met betrekking tot het verzenden en ontvangen van elektronische documenten. Voor de PEPPOL-indeling wordt het veld als volgt gebruikt:<br /><br /> Als voor het element **StandardItemIdentification\/ID** het kenmerk **SchemeID** is ingesteld op **GTIN**, wordt het element toegewezen aan het veld **GTIN** op de artikelkaart.|  
 
@@ -81,7 +81,7 @@ Het onderwerp bevat de volgende procedures:
 1. Voer in het tekstvak **Zoeken** de tekst **Eenheden** in en kies vervolgens de gerelateerde koppeling.  
 2. Voor elke eenheid die u gebruikt voor artikelen op elektronische documenten, vult u het veld in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Internationale standaardcode**|Geef de eenheidscode op volgens de UNECERec20-norm in verband met het verzenden van elektronische documenten.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het kenmerk **unitCode** van het element **InvoicedQuantity** onder het knooppunt **InvoiceLine** in het bestand in te vullen. **Opmerking:** als het veld **Eenheid** op de verkoopregel leeg is, wordt de UNECERe20-standaardwaarde voor Stuks \(H87\) standaard ingevoegd. Zie voor meer informatie en een lijst met geldige eenheidcodes [Recommendation No. 20 \- Units of Measure used in International Trade](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
@@ -89,7 +89,7 @@ Het onderwerp bevat de volgende procedures:
 1. Geef in het **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
 2. Voor elke klant aan wie u elektronische documenten verzendt, vult u de velden in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identificeer de klant.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het element **EndPointID** onder het knooppunt **AccountingCustomerParty** in het bestand in te vullen. Het nummer is gebaseerd op de GS1-norm die voldoet aan ISO 6523.<br /><br /> Als het veld **GLN** leeg is, wordt de waarde in het veld **Btw-nummer** gebruikt.|  
     |**Btw-registratienummer**|Geef het btw-nummer van de klant op. **Tip:** kies de detailknop om de webservice te gebruiken die verifieert of het nummer in het bedrijfregister van het land of de regio bestaat.|  
@@ -114,7 +114,7 @@ Het onderwerp bevat de volgende procedures:
 1. Geef in het vak **Zoeken** **Leveranciers** op en kies vervolgens de gerelateerde koppeling.  
 2. Voor elke leverancier van wie u elektronische documenten ontvangt, vult u de velden in zoals beschreven in de volgende tabel.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identificeer de leverancier.<br /><br /> Bijvoorbeeld, als u elektronische facturen ontvangt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het element **EndPointID** onder het knooppunt **AccountingSupplierParty** in het bestand in te vullen. Het nummer is gebaseerd op de GS1-norm die voldoet aan ISO 6523.<br /><br /> Als het veld **GLN** leeg is, wordt de waarde in het veld **Btw-nummer** gebruikt.|  
     |**Btw-registratienummer**|Geef het btw-nummer van de leverancier op. **Tip:** kies de detailknop om de webservice te gebruiken die verifieert of het nummer in het bedrijfregister van het land of de regio bestaat.|  
@@ -132,12 +132,12 @@ Het onderwerp bevat de volgende procedures:
 1. Voer in het vak **Zoeken** de tekst **Inkopen en leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul in het sneltabblad **Gegevensuitwisseling** het veld in, zoals in de volgende tabel is beschreven.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Grootboekrekening voor niet-artikelregels**|Geeft de Grootboekrekening aan die automatisch wordt ingevoegd op inkoopregels die aan de hand van elektronische documenten worden gemaakt wanneer de inkomende documentregels geen identificeerbaar artikel bevatten. Elke inkomende documentregel die geen GTIN of artikelnummer van de leverancier heeft, wordt geconverteerd naar een inkoopregel van het soort **Grootboekrekening** en het veld **Nr.** op de inkoopregel bevat de rekening die u selecteert in het veld **Grootboekrekening voor niet-artikelregels**.<br /><br /> Als u niets invult in het veld **Grootboekrekening voor niet-artikelregels** en het inkomende document regels heeft zonder identificeerbare artikelen, wordt het inkoopdocument niet gemaakt. In een foutbericht krijgt u de instructie om het veld **Grootboekrekening voor niet-artikelregels** in te vullen voordat u de taak kunt voltooien.|  
 
 ## <a name="see-also"></a>Zie ook  
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)   
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Procedure: Verkopen factureren](sales-how-invoice-sales.md)   
 [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md)
 

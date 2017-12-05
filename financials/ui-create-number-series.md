@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Nummerreeksen maken | Microsoft Docs'
-description: Leren hoe u nummerreeksen instelt die unieke ID-codes toewijzen aan rekeningen en documenten in Dynamics 365 for Financials.
+description: Leer hoe u nummerreeksen instelt die unieke ID-codes toewijzen aan rekeningen en documenten in Dynamics 365 Business edition.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Procedure: Nummerreeksen maken
@@ -44,7 +44,7 @@ In de volgende procedure wordt beschreven hoe u nummerreeksen instelt voor de mo
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopen en Klanten** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer in het venster **Verkopen en klanten** op het sneltabblad **Nummerreeksen** de gewenste nummerreeksen voor iedere verkoopkaart of -document.
 
-Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.**  op de kaart of het document, afhankelijk van de instellingen die u hebt ingevoerd op de nummerreeksregel.
+Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of het document, afhankelijk van de instellingen die u hebt ingevoerd op de nummerreeksregel.
 
 ## <a name="to-create-relationships-between-number-series"></a>Relaties maken tussen nummerreeksen
 Als u meerdere nummerreekscodes hebt ingesteld voor hetzelfde soort basisgegevens of transacties, kunt u relaties tussen de codes instellen. Met deze functie kunt u een code kiezen wanneer u een nummer gebruikt.

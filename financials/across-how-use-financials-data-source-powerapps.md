@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Verbinding met uw Financials-gegevens maken om een bedrijfsapp te maken met PowerApps
@@ -32,7 +32,7 @@ U kunt uw gegevens [!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron 
 
    PowerApps Studio for Windows is een bureaubladtoepassing die wordt gebruikt om PowerApps te maken en te publiceren. PowerApps Studio for Web is de online oplossing die wordt gebruikt om PowerApps te maken en te publiceren.
 4. De volgende stap om een PowerApp te maken bestaat eruit uw gegevens te selecteren. Kies het pijlpictogram en kies vervolgens de optie **Nieuwe verbinding** linksboven in de pagina.
-5. In de lijst met beschikbare verbindingen kiest u **Dynamics 365 for Financials**.
+5. In de lijst met beschikbare verbindingen kiest u **Dynamics 365 Business edition**.
 6. Met PowerApps wordt een verbindingspagina weergegeven waarin u wordt gevraagd om de gegevens die zijn vereist om verbinding te maken met uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Als u verbinding wilt maken, moet u een URL, gebruikersnaam, wachtwoord en bedrijfsnaam voor OData opgeven.
 
    Voor de *OData-URL* kunt u de URL van OData V4 kopiëren van een van de webservices die worden weergegeven op de pagina **Webservices** in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  

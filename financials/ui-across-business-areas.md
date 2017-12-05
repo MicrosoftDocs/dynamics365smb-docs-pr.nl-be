@@ -1,6 +1,6 @@
 ---
 title: Algemene functionaliteit gebruiken in bedrijfsgebieden | Microsoft Docs
-description: Meer informatie over de functionaliteit en functies die worden gebruikt in bedrijfsgebieden in Dynamics 365 for Financials.
+description: Kom meer te weten over de functionaliteit en functies die worden gebruikt in bedrijfsgebieden in Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/22/2017
 
 De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onderwerpen waarin deze worden beschreven.
 
-| Aan | Zie |
+| Als u dit wilt doen | Zie |
 | --- | --- |
 | Standaardteksten instellen zodat u standaardtekst kunt uitbreiden door extra regels toe te voegen en voorwaarden voor het gebruik van de extra regels kunt instellen. |[Procedure: Uitgebreide tekst definiëren](ui-how-define-ext-text.md) |
 | Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met diversendagboeken](ui-work-general-journals.md) |
@@ -36,7 +36,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. |[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md) |
 |Werkstromen instellen en gebruiken die taken verbinden die worden uitgevoerd door verschillende gebruikers of door het systeem, zoals automatisch boeken. Het aanvragen en verlenen van goedkeuringen om documenten te maken of te boeken, zijn voorbeelden van veelvoorkomende werkstroomstappen.|[Werkstroom](across-workflow.md)|
 |Leg externe documenten vast in Financials, inclusief de bestandsbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
-| Stel definities voor de uitwisseling van gegevens in om elektronische documenten te kunnen verzenden en ontvangen. |[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md) |
+| Stel definities voor de uitwisseling van gegevens in om elektronische documenten te kunnen verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

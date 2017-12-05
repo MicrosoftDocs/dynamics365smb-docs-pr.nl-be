@@ -1,6 +1,6 @@
 ---
-title: Nieuwe functies in Dynamics 365 for Financials | Microsoft Docs
-description: Beschrijft het laatste nieuws en updates voor Dynamics 365 for Financials.
+title: Nieuwe functies in Dynamics 365 Business edition | Microsoft Docs
+description: Het laatste nieuws en updates voor Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,18 +13,18 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>Nieuwe functies in Dynamics 365 for Financials
-Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]! Als u zich nog niet hebt aangemeld voor een evaluatie, doe dit dan nu, laat ons u door de basis begeleiden van wat u kunt doen met [!INCLUDE[d365fin](includes/d365fin_md.md)] en probeer vervolgens dingen op eigen houtje uit. Wanneer u klaar bent, kunt u een leeg bedrijf openen en zelf zaken instellen.  
+# <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nieuwe functies in Dynamics 365 for Finance and Operations, Business edition
+Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Als u zich nog niet hebt aangemeld voor een evaluatie, doe dit dan nu, laat ons u door de basis begeleiden van wat u kunt doen met [!INCLUDE[d365fin](includes/d365fin_md.md)] en probeer vervolgens dingen op eigen houtje uit. Wanneer u klaar bent, kunt u een leeg bedrijf openen en zelf zaken instellen.  
 
-We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE[d365fin](includes/d365fin_md.md)] en brengen nieuwe [extensies](ui-extensions.md) uit. Voor een overzicht van wat er momenteel verkrijgbaar is en wat op stapel staat verwijzen we u naar de [Dynamics 365-routekaart](https://roadmap.dynamics.com/); en vergeet niet te filteren op [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE[d365fin](includes/d365fin_md.md)] en brengen nieuwe [extensies](ui-extensions.md) uit. Voor een overzicht van wat er momenteel verkrijgbaar is en wat op stapel staat verwijzen we u naar de [Dynamics 365 Roadmap](https://roadmap.dynamics.com/); en vergeet niet te filteren op [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Op deze pagina kunt u zien welke gebieden beschikbaar werden toen we nog in de voorbeeldfase waren. Updates voor de toekomst vindt u in de [Dynamics 365-routekaart](https://roadmap.dynamics.com/).
+Op deze pagina kunt u zien welke gebieden beschikbaar werden toen we nog in de voorbeeldfase waren. Updates voor de toekomst vindt u in de [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>November 2016: lancering van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Zoals aangekondigd op de blog zijn we nu een service die u gebruikt in uw bedrijf. Maar in deze wijziging worden ook nieuwe mogelijkheden en een nieuwe extensie toegevoegd.
@@ -100,7 +100,7 @@ Met deze update kunt u kiezen uit nog meer extensies in het venster **Extensiebe
 Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Uw klantrelaties beheren met Microsoft Dynamics 365 for Sales vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider die u leidt door het configuratieproces om verbinding te maken met Dynamics 365 for Sales. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics 365 for Sales beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider die u leidt door het configuratieproces om verbinding te maken met Dynamics 365 for Sales. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics 365 for Sales beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Update mei 2016
 In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogelijkheden toegevoegd, zoals [aangekondigd op de blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -129,5 +129,5 @@ Belangrijke scenario's om in uw eentje uit te proberen:
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365-routekaart](https://roadmap.dynamics.com/)  
+[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

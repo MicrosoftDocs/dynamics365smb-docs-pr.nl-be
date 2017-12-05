@@ -1,6 +1,6 @@
 ---
 title: Gegevens uit Dynamics GP migreren met de extensie Gegevensmigratie | Microsoft Docs
-description: Gebruik de Dynamics GP-extensie Gegevensmigratie om klanten, leveranciers, voorraadartikelen en rekeningen te migreren van Dynamics GP naar Dynamics 365 for Financials.
+description: Gebruik de Dynamics GP-extensie Gegevensmigratie om klanten, leveranciers, voorraadartikelen en rekeningen te migreren van Dynamics GP naar Dynamics 365 Business edition.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 31b698aea884da162cc18f16a912ebd57e35aed9
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b97c074b1283a981522b7a9651fcc7c552f1f930
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-for-financials"></a>De extensie Dynamics GP Data Migration voor Dynamics 365 for Financials
+# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-business-edition"></a>De extensie Dynamics GP Data Migration voor Dynamics 365 Business edition 
 Met deze extensie kunt u gemakkelijk klanten, leveranciers, voorraadartikelen en accounts vanuit Dynamics GP naar [!INCLUDE[d365fin](includes/d365fin_md.md)] migreren. Als uw bedrijf momenteel Dynamics GP gebruikt, kunt u de relevante masterrecords exporteren en vervolgens een handleiding voor begeleide instelling openen om de gegevens toe te voegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md) voor meer informatie.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Gegevens exporteren uit Dynamics GP
@@ -33,5 +33,5 @@ De extensie Dynamics GP Data Migration wijst automatisch de geëxporteerde gegev
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 

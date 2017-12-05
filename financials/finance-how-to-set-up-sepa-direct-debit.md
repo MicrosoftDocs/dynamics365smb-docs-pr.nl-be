@@ -1,6 +1,6 @@
 ---
 title: Automatische incasso via SEPA instellen | Microsoft Docs
-description: Leer hoe u SEPA-incasso's maakt in Dynamics 365 for Financials.
+description: Leer hoe u SEPA-incasso's maakt in Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Procedure: Automatische incasso via SEPA instellen
@@ -38,7 +38,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 2. Kies de actie **Nieuw**.  
 3. Een betalingswijze instellen. Vul de specifieke velden voor automatische incasso in, zoals in de volgende tabel is beschreven.  
 
-    |Veld|[Omschrijving|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Incasso**|Geef aan of de betalingsmethode wordt gebruikt voor verzameling automatische incasso van SEPA.|  
     |**Betalingscondities van betaling per incasso**|Geef de betalingsvoorwaarden, bijvoorbeeld NIET BETALEN die worden weergegeven op de verkoopfacturen die worden betaald via automatische incasso van SEPA om aan te geven aan de klant dat de betaling automatisch wordt geïnd. U kunt het veld ook leeg laten.|  
@@ -59,7 +59,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 4. Selecteer in het venster **Bankrekeningen klant** de bankrekening van de klant die wordt gebruikt voor automatische incasso en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Machtigingen voor automatische incasso**.  
 5. Vul in het venster **SEPA Incasso Machtiging** de velden in, zoals is beschreven in de volgende tabel.  
 
-    |[Veld|Omschrijving]|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Bankrekeningcode van klant**|Geeft de bankrekening op waarop betalingen voor automatische incasso worden verzameld. Dit veld wordt automatisch ingevuld.|  
     |**Geldig vanaf**|Geef de datum op wanneer de incassomachtiging begint.|  
@@ -78,5 +78,5 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procedure: Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)
 [Procedure: Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)
-[Gegevens als elektronische documenten uitwisselen](across-data-exchange.md)
+[Gegevens elektronisch uitwisselen](across-data-exchange.md)
 

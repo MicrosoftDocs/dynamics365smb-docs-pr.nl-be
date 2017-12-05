@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Ontwerpdetails: Gemiddelde kostprijs
@@ -25,7 +25,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 ## <a name="setting-up-average-cost-calculation"></a>Berekening voor de gemiddelde kosten instellen  
  In de volgende tabel worden de twee velden in het venster **Voorraadinstelling** beschreven die moet worden ingevuld om berekening van de gemiddelde kosten mogelijk te maken.  
 
-|Veld|Description|  
+|Veld|Omschrijving|  
 |---------------------------------|---------------------------------------|  
 |**Periode gemiddelde kostprijsberekening**|Geeft op in welke periode de gemiddelde kostprijs is berekend. De volgende opties zijn mogelijk:<br /><br /> -   **Dag**<br />-   **Week**<br />-   **Maand**<br />-   **Boekingsperiode**<br /><br /> Aan alle voorraadafnamen die tijdens de gemiddelde-kostprijsperiode zijn geboekt, wordt de gemiddelde kostprijs toegewezen die voor die periode is berekend.|  
 |**Gem. kostprijsberekeningsoort**|Geeft aan hoe de gemiddelde kostprijs wordt berekend. De volgende opties zijn mogelijk:<br /><br /> -   **Artikel**<br />-   **Artikel, variant en vestiging**<br />     Met deze optie wordt de gemiddelde inkoopprijs berekend voor elk artikel, voor elke vestiging en voor elke variant van het artikel. Dit betekent dat de gemiddelde kostprijs van het artikel afhankelijk is van waar het is opgeslagen en van de variant die u hebt geselecteerd (bijvoorbeeld de kleur).|  
@@ -57,8 +57,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|0|20.00|0|  
-|01-01-20|Inkoop|0|40.00|2|  
+|01-01-20|Inkoop|1|20.00|1|  
+|01-01-20|Inkoop|1|40.00|2|  
 |01-01-20|Verkoop|-1|-20,00|3|  
 |01-02-20|Verkoop|-1|-40,00|4|  
 |02-02-20|Inkoop|1|100.00|5|  
@@ -71,8 +71,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |**Artikelnr.**|**Variant**|**Vestiging**|**Waarderingsdatum**|**Kostprijs geherwaardeerd**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ART1||BLAUW|01-01-20|Nr.|  
-|ART1||BLAUW|01-02-20|Nr.|  
+|ART1||BLAUW|01-01-20|Nee|  
+|ART1||BLAUW|01-02-20|Nee|  
 |ART1||BLAUW|02-02-20|Nee|  
 |ART1||BLAUW|03-02-20|Nee|  
 
@@ -80,8 +80,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|0|20.00|0|  
-|01-01-20|Inkoop|0|40.00|2|  
+|01-01-20|Inkoop|1|20.00|1|  
+|01-01-20|Inkoop|1|40.00|2|  
 |01-01-20|Verkoop|-1|-30,00|3|  
 |01-02-20|Verkoop|-1|-30,00|4|  
 |02-02-20|Inkoop|1|100.00|5|  
@@ -96,8 +96,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|0|20.00|0|  
-|01-01-20|Inkoop|0|40.00|2|  
+|01-01-20|Inkoop|1|20.00|1|  
+|01-01-20|Inkoop|1|40.00|2|  
 |01-01-20|Verkoop|-1|-20,00|3|  
 |01-02-20|Verkoop|-1|-40,00|4|  
 |02-02-20|Inkoop|1|100.00|5|  
@@ -110,8 +110,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |**Artikelnr.**|**Variant**|**Vestiging**|**Waarderingsdatum**|**Kostprijs geherwaardeerd**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ART1||BLAUW|31-01-20|Nr.|  
-|ART1||BLAUW|28-02-20|Nr.|  
+|ART1||BLAUW|31-01-20|Nee|  
+|ART1||BLAUW|28-02-20|Nee|  
 
 > [!NOTE]  
 >  De waarderingsdatum wordt ingesteld op de laatste dag in de periode voor gemiddelde kostprijsberekening, in dit geval de laatste dag van de maand.  
@@ -120,8 +120,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|0|20.00|0|  
-|01-01-20|Inkoop|0|40.00|2|  
+|01-01-20|Inkoop|1|20.00|1|  
+|01-01-20|Inkoop|1|40.00|2|  
 |01-01-20|Verkoop|-1|-30,00|3|  
 |01-02-20|Verkoop|-1|-65,00|4|  
 |02-02-20|Inkoop|1|100.00|5|  
@@ -138,7 +138,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |Scenario|Boekingsdatum|Gewaardeerd aantal|Herwaardering|Waarderingsdatum|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Positief|Nr.|Boekingsdatum van artikelpost|  
+|1||Positief|Nee|Boekingsdatum van artikelpost|  
 |2|Later dan de laatste waarderingsdatum van vereffende waardeposten|Negatief|Nee|Boekingsdatum van artikelpost|  
 |3|Eerder dan de laatste waarderingsdatum van vereffende waardeposten|Positief|Nee|Laatste waarderingsdatum van de vereffende waardeposten|  
 |4||Negatief|Ja|Boekingsdatum van herwaarderingswaardepost|  
@@ -148,7 +148,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |Scenario|Boekingsdatum|Artikelboekingssoort|Waarderingsdatum|Gewaardeerd aantal|Tot. werk. kosten|Artikelpostnr.|Postnr.|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Inkoop|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Inkoop|01-01-20|2|20.00|1|1|  
 |2|15-01-20|(Artikeltoeslag)|01-01-20|2|8.00|1|2|  
 |3|01-02-20|Verkoop|01-02-20|-1|-14,00|2|3|  
 |4|01-03-20|(Herwaardering)|01-03-20|1|-.4.00|1|4|  
@@ -187,8 +187,8 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |Waarderingsdatum|Aantal|Tot. werk. kosten|Postnr.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
 |15-02-20|-1|-15,00|3|  
 |16-02-20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
 |Waarderingsdatum|Aantal|Tot. werk. kosten|Postnr.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
-|03-01-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
+|03-01-20|1|21.00|5|  
 |15-02-20|-1|-17,00|3|  
 |16-02-20|-1|-17,00|4|  
 

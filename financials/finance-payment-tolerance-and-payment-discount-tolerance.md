@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Procedure: Werken met betalingstolerantie en contantkortingstolerantie
@@ -31,7 +31,7 @@ Documenten hebben altijd dezelfde betalingstolerantie, ongeacht of ze afzonderli
 
 *contantkortingsdatum < betaaldatum in geselecteerde post <= betalingstolerantiedatum*  
 
-Deze regel wordt ook gebruikt om te bepalen of er waarschuwingen moeten worden weergegeven wanneer u betalingstolerantie op meerdere documenten toepast. De waarschuwing voor contantkortingstolerantie wordt voor elke post weergegeven die voldoet aan de datumcriteria. Zie 'Voorbeeld 2 - Tolerantieberekeningen voor meervoudige documenten' voor meer informatie. 
+Deze regel wordt ook gebruikt om te bepalen of er waarschuwingen moeten worden weergegeven wanneer u betalingstolerantie op meerdere documenten toepast. De waarschuwing voor contantkortingstolerantie wordt voor elke post weergegeven die voldoet aan de datumcriteria. Zie 'Voorbeeld 2 - Tolerantieberekeningen voor meervoudige documenten' voor meer informatie.
 
 U kunt kiezen om een waarschuwing weer te geven die is gebaseerd op tolerantie in verschillende situaties.  
 
@@ -95,11 +95,12 @@ Scenario's met alternatief A of B vertegenwoordigen het volgende:
 - **A** In dit geval is de waarschuwing voor contantkortingstolerantie uitgeschakeld OF heeft de gebruiker de waarschuwing aan staan en geselecteerd om de late contantkorting toe te staan (het saldo boeken als betalingstolerantie).  
 - **B** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd de late contantkorting niet toe te staan (Saldo laten als Restbedrag).  
 
-|—|Factuur|Contantk.|Max.<br /><br /> Bet.-tol.|Datum contantk.|Contantk.-tol. Datum|Betaaldatum|Bet.|Tolerantiesoort|Alle posten gesloten|Contantk.-tol. <br /> GB/vlottende passiva|Bet.<br /><br /> Tol.<br /><br /> GB|  
+[!div class="mx-tdBreakAll"]  
+|—|Factuur|Contantk.|Max. bet.-tol.|Datum contantk.|Contantk.-tol. Datum|Betaaldatum|Bet.|Tolerantiesoort|Alle posten gesloten|Contantk.-tol. GB/vlottende passiva|Bet.-tol. GB|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|15-01-03|20-01-03|<=15.01.03|985|Bet.-tol.|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**15.01.03**|**01/20/03**|**<=15.01.03**|**980**|**Geen**|**Ja**|**0**|**0**|  
-|3|1.000|20|5|15-01-03|20.01.03|<=15.01.03|975|Bet.-tol.|Ja|0|5|  
+|3|1.000|20|5|15-01-03|l|<=15.01.03|975|Bet.-tol.|Ja|0|5|  
 |4A|1.000|20|5|15-01-03|20-01-03|16-01-03 20-01-03|1005|Contantk.-tol.|Nee, 25 op de bet.|20/-20|0|  
 |5A|1.000|20|5|15-01-03|20-01-03|16-01-03 20-01-03|1000|Contantk.-tol.|Nee, 20 op de bet.|20/-20|0|  
 |6A|1.000|20|5|15-01-03|20-01-03|16-01-03 20-01-03|995|Contantk.-tol.|Nee, 15 op de bet.|20/-20|0|  
@@ -166,7 +167,9 @@ Scenario's met alternatief A, B, C of D vertegenwoordigen het volgende:
 - **C** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd om de late contantkorting toe te staan voor de eerste factuur, maar niet voor de tweede.  
 - **D** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd om de late contantkorting niet toe te staan voor de eerste factuur, maar wel voor de tweede.  
 
-|—|Factuur|Contantk.|Max. bet.-tol.|Datum contantk.|Contantk.-tol. Datum|Betaaldatum|Bet.|Tolerantiesoort|Alle posten gesloten|Contantk.-tol. <br /> GB/vlottende passiva|Bet.-tol.<br /><br /> GB|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Factuur|Contantk.|Max. bet.-tol.|Datum contantk.|Contantk.-tol. Datum|Betaaldatum|Bet.|Tolerantiesoort|Alle posten gesloten|Contantk.-tol. GB/vlottende passiva|Bet.-tol. GB|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1.000 <br />1.000|60 <br />30|5 <br />5|15-01-03 <br />17-01-03|20-01-03 <br />22.01.03|<=15.01.03|1920|Bet.-tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=15.01.03**|**1910**|**Geen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  

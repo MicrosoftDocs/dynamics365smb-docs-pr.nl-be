@@ -1,6 +1,6 @@
 ---
 title: Segmenten maken | Microsoft Docs
-description: Beschrijft hoe u een segment maakt voor een groep contacten in Financials, bijvoorbeeld om verschillende contacten een direct mail te sturen.
+description: Hier wordt beschreven hoe u een segment maakt voor een groep contacten in Dynamics 365 Business edition, bijvoorbeeld om verschillende contacten een direct mail te sturen.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-segments"></a>Procedure: segmenten maken

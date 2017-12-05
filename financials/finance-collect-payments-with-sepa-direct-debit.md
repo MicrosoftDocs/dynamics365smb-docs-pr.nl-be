@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d9f60bfb92336227e85b0476a856bcc1173c71cd
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
-# <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
+# <a name="collecting-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
 Met instemming van de klant, kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-notatie.  
 
  Stel eerst de exportindeling van het bankbestand in waarmee u uw bank opdracht geeft een automatische incasso uit te voeren. Installeer vervolgens de betalingswijze van de klant. Stel tot slot de machtiging voor automatische incasso in die overeenkomt met uw overeenkomst met de klant voor het verzamelen van hun betalingen in een bepaalde overeenkomstperiode.  
