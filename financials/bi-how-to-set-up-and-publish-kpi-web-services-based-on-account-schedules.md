@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0f2f91a9813b07b0868043a4a2a3ed0b3f838536
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Procedure: KPI-webservices instellen en publiceren op basis van rekeningschema's
@@ -27,7 +27,7 @@ In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe d
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen rapportageschema KPI-webservice** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul in het sneltabblad **Algemeen** de velden in, zoals in de volgende tabel is beschreven.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Start prognose waarden**|Geef op op welk tijdstip voorspelde waarden in de KPI-illustratie van het rapportageschema worden weergegeven.<br /><br /> De voorspelde waarden worden opgehaald uit het budget dat u hebt geselecteerd in het veld **Budget**. **Opmerking:** als u KPI's wilt verkrijgen die voorspelde cijfers na een bepaalde datum en werkelijke cijfers voor die datum tonen, kunt u het veld **Boeken toegest. vanaf** wijzigen in het venster **Grootboekinstellingen**. Zie Boeken toegest. vanaf voor meer informatie.|  
     |**Budgetnaam**|Geef de naam op van het grootboekbudget dat voorspelde waarden aan de KPI-webservice van het rapportageschema levert.|  
@@ -39,7 +39,7 @@ In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe d
 
 3.  Vul in het sneltabblad **Rapportageschema's** de velden in, zoals in de volgende tabel is beschreven.  
 
-    |Veld|Description|  
+    |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Rapportageschema**|Geef het rekeningschema op waarop de KPI-webservice is gebaseerd.|  
     |**Omschrijving rapportageschema**|Geef de omschrijving op van het rekeningschema waarop de KPI-webservice is gebaseerd.|  
@@ -49,8 +49,8 @@ In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe d
 6.  Om de gegevens van de rapportageschema KPI weer te geven die u hebt ingesteld, kiest u de actie **Rapportageschema KPI-webservice**.  
 7.  Als u de KPI-webservice van het rapportageschema wilt publiceren, kiest u de actie **Webservice publiceren**. De webservice wordt toegevoegd aan de lijst met gepubliceerde webservices in het venster **Webservices**.  
 
-    > [!NOTE]  
-    >  U kunt de KPI-webservice ook publiceren door te wijzen naar het paginaobject **Instellingen rapportageschema KPI-webservice** vanuit het venster **Webservices**. Zie voor meer informatie [Procedure: Een webservice publiceren instellen](https://msdn.microsoft.com/en-us/library/dd338978.aspx) op MSDN.  
+> [!NOTE]  
+>  U kunt de KPI-webservice ook publiceren door te wijzen naar het paginaobject **Instellingen rapportageschema KPI-webservice** vanuit het venster **Webservices**. Zie voor meer informatie [Procedure: Een webservice publiceren instellen](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Zie ook  
 [Bedrijfsinformatie](bi.md)  

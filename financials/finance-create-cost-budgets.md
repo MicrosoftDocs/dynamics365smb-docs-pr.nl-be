@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e66e9f915772a6e5f9000ea6fe207e425ee25bb
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 19fbfd60beb973dc65a09b7bfeee95b976a89905
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="creating-cost-budgets"></a>Kostenbudgetten maken
 Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een kostenbudget wordt gemaakt op basis van kostensoorten zoals een budget voor het grootboek wordt gemaakt op basis van grootboekrekeningen.  
 
-Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Procedure: Budgetten maken](finance-how-create-budgets.md) voor meer informatie.
+Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
 U gebruikt de volgende vensters om kostenbudgetten te maken en te analyseren. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") om een venster te vinden en lees vervolgens de knopinfo voor elk venster.
 
-|Aan|Zie|  
+|Als u dit wilt doen|Zie|  
 |--------|---------|  
 |Budgetten overboeken vanuit het grootboek|Batchverwerking **Budget kopiëren naar kostprijsboekhouding**|  
 |Kostenbegrotingen kopiëren.|Batchverwerking **Kostenbudget kopiëren**|  
@@ -36,7 +36,7 @@ U gebruikt de volgende vensters om kostenbudgetten te maken en te analyseren. Kl
 
 ## <a name="see-also"></a>Zie ook  
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
-[Procedure: budgetten maken](finance-how-create-budgets.md)  
+[Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md)  
 [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

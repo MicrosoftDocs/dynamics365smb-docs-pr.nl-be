@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Procedure: Werkelijke bedragen analyseren in vergelijking met budgetbedragen.
 Als onderdeel van het verzamelen, analyseren en delen van uw bedrijfsgegevens bekijkt u werkelijke bedragen in vergelijking met gebudgetteerde bedragen voor alle rekeningen en voor meerdere perioden.
 
-Als u gebudgetteerde bedragen wilt analyseren, moet u eerst budgetten maken. Zie [Procedure: Budgetten maken](finance-how-create-budgets.md) voor meer informatie.
+Als u gebudgetteerde bedragen wilt analyseren, moet u eerst grootboekbudgetten maken. Zie [Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
 > [!NOTE]  
 >   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>Een begroting bekijken
+## <a name="to-view-a-gl-budget"></a>Grootboekbudget bekijken
 In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotingen bekijken.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekbudgetten** in en klik vervolgens op de gerelateerde koppeling.
@@ -68,7 +68,7 @@ In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde period
 4. Als u een specificatie voor een weergegeven bedrag wilt bekijken, moet u het veld kiezen.  
 
 ## <a name="see-also"></a>Zie ook
-[Bedrijfsinformatie](bi.md)
+[Bedrijfsinformatie](bi.md)  
 [Procedure: Werken met rapportageschema's](bi-how-work-account-schedule.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  

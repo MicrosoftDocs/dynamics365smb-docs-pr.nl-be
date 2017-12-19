@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Magazijninstellingen | Microsoft Docs'
-description: De magazijnfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie.
-services: project-madeira
-documentationcenter: 
+description: De magazijnfunctionaliteit in Dynamics 365 bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
@@ -39,9 +37,9 @@ Zie voor meer informatie over elke granule [[!INCLUDE[d365fin](includes/d365fin_
 
 In de volgende tabel wordt getoond welke granules vereist zijn om de verschillende niveaus van magazijncomplexiteit te definiëren, welke UI-documenten elk niveau ondersteunen en welke vestigingscode deze niveaus aanduiden in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstratiedatabase.  
 
-|Complexiteitniveau|Description|UI-document|CRONUS-locatie|Minimale granulevereiste|  
+|Complexiteitniveau|Omschrijving|UI-document|CRONUS-locatie|Minimale granulevereiste|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.|Order|BLAUW|Basisvoorraad|  
+|1|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.|Order|BLAUW|Basisvoorraad|  
 |2|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.<br /><br /> Opslaglocatie is vereist.|Order met opslaglocatiecode|ZILVER|Basisvoorraad/opslaglocatie|  
 |3 <br /><br /> **OPMERKING**: hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.|Elementaire magazijnactiviteit, order-voor-order.<br /><br /> Boeking uit voorraadopslag/pickdocumenten ontvangen/verzenden. <br /><br /> Opslaglocatie is vereist.|Voorraadopslag/Voorraadverplaatsing/Voorraadpick. met opslaglocatiecode|(ZILVER + opslag vereist of opslag vereist)|Basisvoorraad/Opslaglocatie/Opslag/Pick|  
 |4|Geavanceerde magazijnactiviteit, voor meerdere orders.<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Pickvoorstel|GROEN|Basisvoorraad/Magazijnontvangst/Opslag/Pick/Magazijnverzending|  
@@ -69,14 +67,14 @@ Er kan slechts één standaardopslaglocatie per artikel per vestiging zijn.
 ## <a name="bin-type"></a>Opslaglocatiesoort  
 In WMS-installaties kunt u de magazijnactiviteiten die voor een opslaglocatie toegestaan zijn, beperken door er een opslaglocatiesoort aan toe te wijzen. De volgende typen opslaglocaties bestaan:  
 
-|Opslaglocatiesoort|Description|  
+|Opslaglocatiesoort|Omschrijving|  
 |------------------|---------------------------------------|  
 |ONTVANGST|Artikelen worden geboekt als ontvangen, maar worden nog niet opgeslagen.|  
 |VERZENDEN|Artikelen die zijn gepickt voor magazijnverzendregels, maar die nog niet zijn geboekt als verzonden.|  
 |OPSLAG|Meestal items die in grote eenheden worden opgeslagen, maar die u niet wilt picken. Aangezien deze opslaglocaties niet worden gebruikt voor het picken, hetzij voor productieorders of verzendingen, is het gebruik van een opslaglocatie voor opslag mogelijk beperkt, maar deze opslaglocatiesoort kan nuttig zijn indien u een grote hoeveelheid items hebt aangeschaft. Dit soort opslaglocaties moeten altijd een lage rangschikking van opslaglocaties hebben, zodat wanneer ontvangen artikelen opgeslagen zijn, andere opslaglocaties van het type OPSLAGPICK- met een hogere rangschikking- die bij het item horen eerder opgeslagen worden. Indien u dit type opslaglocatie gebruikt, moet u regelmatig een opslaglocatieaanvulling uitvoeren, zodat de items in deze opslaglocaties ook beschikbaar zijn in de opslaglocaties van het type OPSLAGPICK of PICK.|  
 |PICK|Artikelen die alleen voor picken moeten worden gebruikt. De aanvulling van deze opslaglocaties kan alleen worden gemaakt via verplaatsing, niet via opslag.|  
 |OPSL-PICK|Artikelen in opslaglocaties die worden voorgesteld voor de opslag- en pickfuncties. Opslaglocaties van dit soort beschikken waarschijnlijk over verschillende zonevolgordes. U kunt locaties voor bulkopslag bijvoorbeeld instellen als een laaggeclassificeerde versie van dit soort, in tegenstelling tot de normale pickopslaglocaties of een pickopslaggebied.|  
-|QC|Deze opslaglocatie wordt gebruikt voor voorraadaanpassing indien u deze opslaglocatie opgeeft in het veld **Code aanpassing opslaglocatie** op de locatiekaart. U kunt dit soort locaties ook instellen voor defecte artikelen en artikelen die worden geïnspecteerd. Als u bepaalde artikelen ontoegankelijk wilt maken voor de normale artikelenstroom, kunt u de artikelen eveneens verplaatsen naar dit soort opslaglocatie. **OPMERKING:** in tegenstelling tot alle andere soorten opslaglocaties is bij de opslaglocatie van het type **QC** geen enkel selectievakje voor de verwerking van artikelen standaard ingeschakeld. Dit geeft aan dat alle inhoud die u in een opslaglocatie van QC plaatst uitgesloten is van de stroom van artikelen.|  
+|QC|Deze opslaglocatie wordt gebruikt voor voorraadaanpassing indien u deze opslaglocatie opgeeft in het veld **Code aanpassing opslaglocatie** op de locatiekaart. U kunt dit soort locaties ook instellen voor defecte artikelen en artikelen die worden geïnspecteerd. Als u bepaalde artikelen ontoegankelijk wilt maken voor de normale artikelenstroom, kunt u de artikelen eveneens verplaatsen naar dit soort opslaglocatie. **OPMERKING:**  in tegenstelling tot alle andere soorten opslaglocaties is bij de opslaglocatie van het type **QC** geen enkel selectievakje voor de verwerking van artikelen standaard ingeschakeld. Dit geeft aan dat alle inhoud die u in een opslaglocatie van QC plaatst uitgesloten is van de stroom van artikelen.|  
 
 Voor alle opslaglocatiesoorten, behalve PICK, OPSL-PICK en OPSLAG, is geen andere activiteit voor de opslaglocatie toegestaan dan wat is gedefinieerd voor de opslaglocatiesoort. Een opslaglocatie van de soort **Ontvangen** kan bijvoorbeeld alleen worden gebruikt om artikelen te ontvangen of artikelen uit te picken.  
 

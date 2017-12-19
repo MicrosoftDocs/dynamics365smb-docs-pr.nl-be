@@ -1,6 +1,6 @@
 ---
 title: Beheertaken in Dynamics 365 | Microsoft Docs
-description: Sommige taken in [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten centraal worden beheerd en ingesteld. Zie om welke taken het gaat en wat u hiermee doet.
+description: Sommige taken in Dynamics 365 moeten centraal worden beheerd en ingesteld. Zie om welke taken het gaat en wat u hiermee doet.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09c3460a50088098bfe5c2fb633e76dccbac0794
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: c7e5efe85dddcc7db84b05879f0c71990167c775
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-and-administration-in-dynamics-365-for-financials"></a>Installatie en beheer in Dynamics 365 for Financials
@@ -40,7 +40,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een nieuwe bedrijfsunit instellen op basis van sjablonen|[Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
 ## <a name="see-also"></a>Zie ook
-[Overzicht van bedrijffunctionaliteit](madeira-business-functionality.md)  
+[Bedrijfsfunctionaliteit](madeira-business-functionality.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

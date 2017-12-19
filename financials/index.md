@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ Raadpleeg voor enkele snelle, handige trucs:
 
 Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Als u klaar bent voor het serieuzere werk, en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](madeira-business-functionality.md). Voor een overzicht van actuele mogelijkheden en toekomstige mogelijkheden bekijkt u onze routekaart via [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](madeira-business-functionality.md). Voor een overzicht van actuele mogelijkheden en toekomstige mogelijkheden bekijkt u onze routekaart via [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>De startpagina's
 Op startpagina´s wordt een op rolcentrumontwerp gebruikt om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende startpagina´s door het pictogram **Instellingen** te kiezen! ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het Rolcentrum om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie [Het rolcentrum wijzigen](change-role.md) voor meer informatie.  

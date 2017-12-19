@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procedure: Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.
 
-Als u meer controle wilt hebben over het verkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het retourneren van artikelen van meerdere verkoopdocumenten bij één enkele retourzending, kunt u verkoopretourorders maken. Een verkoopretourorder geeft automatisch de gerelateerde verkoopcreditnota en andere retourgerelateerde documenten uit, zoals een vervangende verkooporder, indien noodzakelijk. Zie voor meer informatie de sectie "Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten".
+Als u meer controle wilt hebben over het verkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het ontvangen van artikelen van meerdere verkoopdocumenten bij één enkele verkoopretourzending, kunt u verkoopretourorders maken. Een verkoopretourorder geeft automatisch de gerelateerde verkoopcreditnota en andere retourgerelateerde documenten uit, zoals een vervangende verkooporder, indien noodzakelijk. Zie voor meer informatie de sectie "Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten".
 
 > [!NOTE]  
 >   Als een geboekte verkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** voor de geboekte verkoopfactuur gebruiken om transacties tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retouren of annuleringen. Zie [Procedure: Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) voor meer informatie.
@@ -38,7 +38,7 @@ Om de juiste voorraadwaardering te behouden, wilt u meestal retourartikelen in d
 
 Er zijn twee functies om kosten automatisch exact tegen te boeken.   
 
-|Functie|Description|  
+|Functie|Omschrijving|  
 |------------------|---------------------------------------|  
 |De functie **Geboekte documentregels ophalen voor tegenboeking** in het venster **Verkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de verkoopretourorder worden tegengeboekt. Zie voor meer informatie de sectie "Een verkoopretourorder en een gerelateerde verkoopcreditnota maken voor een of meer geboekte verkoopfacturen".|  
 |De functie **Document kopiëren** in de vensters **Verkoopcreditnota** en **Verkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld in het venster **Instellingen van verkoop en tegoeden**.|
@@ -142,7 +142,7 @@ U kunt automatisch vervangende verkooporders, verkoopretourorders en vervangings
 
 1. Kies in het venster **Verkoopretourorder** voor een actief retourproces de actie **Retourgerel. documenten maken**.
 2. Voer in het veld **Leveranciersnr.** het nummer van een leverancier in, als u leverancierdocumenten automatisch wilt laten maken.
-3. Als een geretourneerd artikel moet worden geretourneerd naar de leverancier, schakelt u het selectievakje  **Inkoopretourorder maken** in.
+3. Als een geretourneerd artikel moet worden geretourneerd naar de leverancier, schakelt u het selectievakje **Inkoopretourorder maken** in.
 4. Als een geretourneerd artikel moet worden besteld bij de leverancier, schakelt u het selectievakje **Inkooporder maken** in.
 5. Als een vervangingsverkooporder moet worden gemaakt, schakelt u het selectievakje **Verkooporder maken** in.
 

@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 83d4d7b10ce9bd09e9947f48eee0c1094815aa1e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 3996ccaf34615e4350f894b4d003d7bf0e3e46bd
 ms.contentlocale: nl-be
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-bank-accounts"></a>Procedure: bankrekeningen instellen
@@ -28,7 +28,7 @@ U gebruikt bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] om uw b
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Procedure: Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie. U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instellingsprocedure in **Bedrijfsgegevens migreren**. Zie [Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md) voor meer informatie.
+> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Procedure: Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie. U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instellingsprocedure in **Bedrijfsgegevens migreren**. Zie voor meer informatie [Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
 Velden op het sneltabblad **Transfer** in het venster **Bankrekeningkaart** zijn gerelateerd om bankfeeds en -bestanden te importeren en te exporteren. Zie [Procedure: Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md) en [Procedure: De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md) voor meer informatie.
@@ -47,9 +47,6 @@ Velden op het sneltabblad **Transfer** in het venster **Bankrekeningkaart levera
 2. Open de kaart voor een leverancier naar wiens bankrekening u betalingsbankbestanden exporteert.
 3. Kies de actie **Bankrekeningen**.
 3. Vul indien nodig de velden in het venster **Bankrekeningkaart leverancier** op het sneltabblad **Transfer** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## <a name="to-set-the-opening-balance-on-new-bank-accounts"></a>Het beginsaldo op nieuwe bankrekeningen instellen
-
 
 ## <a name="see-also"></a>Zie ook
 [Bankieren instellen](bank-setup-banking.md)  

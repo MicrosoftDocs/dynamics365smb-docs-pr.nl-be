@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. En om taken te ondersteunen die specifiek zijn voor uw bedrijfsgebied, kunt u gebruik maken van diverse algemene zakelijke functies, zoals het definiëren van uitgebreide tekst voor documentregels en het organiseren van verbindende zakelijke taken in werkstromen.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](madeira-business-functionality.md).
+
+Om de taken te ondersteunen die specifiek zijn voor uw bedrijfsgebied, kunt u gebruikmaken van diverse algemene zakelijke functies, zoals het definiëren van uitgebreide tekst voor documentregels en het organiseren van verbindende zakelijke taken in werkstromen.
+
+
 
 De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onderwerpen waarin deze worden beschreven.
 

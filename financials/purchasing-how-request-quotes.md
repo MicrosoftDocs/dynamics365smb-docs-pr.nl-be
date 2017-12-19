@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fe51ade7a46ab7a8fdf77419a0098ac47fe2e5d1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-request-quotes"></a>Procedure: Offertes aanvragen
@@ -31,7 +31,7 @@ Wanneer u de leveranciersofferte hebt geaccepteerd, kunt u deze omzetten naar ee
 
 1. Open eeen inkoopofferte die klaar is om te worden geconverteerd en kies de actie **Order maken**.
 
-De inkoopofferte wordt verwijderd uit de database. Een inkoopfactuur of een verkooporder wordt gemaakt op basis van de informatie in de inkoopofferte waarin u de inkoop kunt verwerken. Op de inkoopfactuur of inkooporder vermeldt het veld **Offertenr.** het nummer van de inkoopofferte van waaruit het is gemaakt.
+De inkoopofferte wordt verwijderd uit de database. Een inkoopfactuur of -order wordt gemaakt op basis van de informatie in de inkoopofferte waarin u de inkoop kunt verwerken. Op de inkoopfactuur of inkooporder vermeldt het veld **Offertenr.** het nummer van de inkoopofferte van waaruit het is gemaakt.
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  

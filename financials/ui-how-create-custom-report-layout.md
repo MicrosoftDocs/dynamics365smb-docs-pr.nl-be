@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d0cb7491300e9c108af4d1b0e746e65130886c15
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Procedure: Een aangepaste lay-out voor een rapport of document maken en wijzigen
@@ -57,7 +57,7 @@ Als u een rapportlay-out wilt wijzigen, moet u de rapportlay-out eerst als een b
 
       Als u een Word-lay-out wijzigt, wordt het lay-outdocument in Word geopend. Zie voor het bewerken van gegevens de volgende sectie [Wijzigingen aanbrengen in de rapportlay-out](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
 
-      RDLC-rapportlay-outs zijn geavanceerder dan Word-RDLC-rapportlay-outs. Zie voor meer informatie over het aanpassen van een RDLC-rapportlay-out [RDLC-rapportlay-outs ontwerpen](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+      RDLC-rapportlay-outs zijn geavanceerder dan Word-RDLC-rapportlay-outs. Zie voor meer informatie over het aanpassen van een RDLC-rapportlay-out [RDLC-rapportlay-outs ontwerpen](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
       Sla uw wijzigingen op wanneer u klaar bent.
 

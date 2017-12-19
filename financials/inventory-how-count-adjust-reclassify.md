@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Procedure: Voorraad tellen, corrigeren en herindelen
@@ -26,7 +26,7 @@ Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, 
 
 Als u vastgelegde voorraadhoeveelheden moet aanpassen, in verband met de inventarisatie of om andere redenen, kunt u een artikeldagboek gebruiken om het voorraadgrootboek direct te wijzigen zonder zakelijke transacties te hoeven boeken. U kunt ook een correctie voor één artikel uitvoeren op de artikelkaart.
 
-Als u kenmerken én hoeveelheden van posten in het artikelgrootboek én wilt wijzigen, kunt u daarvoor het artikelherindelingsdagboek gebruiken. Typische kenmerken voor herindeling zijn serie-/lotnummers, vervaldatums en dimensies.
+Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelherindelingsdagboek gebruiken. Typische kenmerken voor herindeling zijn dimensies en verkoopcampagnecodes, maar u kunt ook systeemtransfers uitvoeren door opslaglocatie- en vestigingscodes te herindelen. Speciale stappen zijn van toepassing wanneer u serie- of lotnummers en hun vervaldatums wilt herindelen. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)..
 
 > [!NOTE]
 > In geavanceerde magazijnconfiguraties worden artikelen in opslaglocaties geregistreerd als magazijnposten, niet als artikelposten. Daarom voert u inventarisaties, aanpassingen en herindelingen uit in speciale magazijndagboeken die opslaglocaties ondersteunen. Vervolgens gebruikt u speciale functies om de nieuwe of gewijzigde magazijnposten met de gerelateerde artikelposten te synchroniseren om de wijzigingen in voorraadaantallen en waarden weer te geven. Dit wordt hieronder in bepaalde procedures beschreven, waar relevant.
@@ -209,13 +209,19 @@ U moet op basis van toepasselijke intervallen, zoals deze via bedrijfsbeleid zij
 6.  Boek de dagboekregels om de verschillen in aantal in te voeren op de artikelposten. De voorraad in de opslaglocaties van het magazijn komt nu precies overeen met de voorraad op de artikelposten.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Het lotnummer van een artikel herindelen
+Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelherindelingsdagboek gebruiken. Typische kenmerken voor herindeling zijn dimensies en verkoopcampagnecodes, maar u kunt ook systeemtransfers uitvoeren door opslaglocatie- en vestigingscodes te herindelen.
+
+Speciale stappen zijn van toepassing wanneer u serie- of lotnummers en hun vervaldatums wilt herindelen. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
+
+Het volgende voorbeeld is gebaseerd op een vestigingscode. De stappen zijn vergelijkbaar voor andere soorten artikelkenmerken.
+
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelherindelingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
 2. Vul in het venster **Artikelherindelingsdagboeken** indien nodig de velden in.
-3. Voer in het veld **Lotnr.** het huidige lotnummer van het artikel in.
-4. Voer in het veld **Nieuw lotnr.** het nieuwe lotnummer van het artikel in.
+3. In het veld **Vestiging** voert u de huidige vestigingscode voor het artikel in.
+4. In het veld **Nieuwe vestiging** voert u de nieuwe vestigingscode voor het artikel in.
 5. Kies de actie **Boeken**.
 
-Voor het herindelen van serie- of lotnummers gelden speciale stappen. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)..
+Zie [Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md) voor het overbrengen van artikelen met volledige controle over verzonden en ontvangen hoeveelheden.
 
 ## <a name="see-also"></a>Zie ook
 [Voorraad](inventory-manage-inventory.md)

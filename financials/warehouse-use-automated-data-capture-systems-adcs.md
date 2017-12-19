@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Procedure: Geautomatiseerd systeem voor gegevensvastlegging (ADCS) inschakelen
@@ -28,7 +28,7 @@ Op basis van de magazijnbehoeften bepaalt u welke informatie wordt weergegeven i
 - Tekstgegevens.  
 - Berichten die bevestigingen of fouten weergeven over activiteiten die zijn uitgevoerd en geregistreerd door de gebruiker van draagbare apparatuur .
 
-Raadpleeg [Een geautomatiseerd systeem voor gegevensvastlegging configureren](https://msdn.microsoft.com/en-us/library/dd338742.aspx) op MSDN.
+Raadpleeg [Een geautomatiseerd systeem voor gegevensvastlegging configureren](/dynamics-nav/Configuring-Automated-Data-Capture-System) in de Help voor ontwikkelaars en IT-professionals voor meer informatie.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Magazijn instellen om ADCS te gebruiken  
 Als u ADCS wilt gebruiken, moet u opgeven welke magazijnlocaties de technologie gebruiken.  
@@ -107,7 +107,7 @@ Wanneer u een miniform hebt gemaakt, volgt u de volgende stappen om functies te 
 
 Bewerk in de ontwikkelomgeving [!INCLUDE[d365fin](includes/d365fin_md.md)] de code voor het veld **Afhandeling codeunit** om code te maken of te wijzigen voor het uitvoeren van de vereiste actie of reactie.
 
-Raadpleeg [Een geautomatiseerd systeem voor gegevensvastlegging configureren](https://msdn.microsoft.com/en-us/library/dd338742.aspx) op MSDN.
+Raadpleeg [Een geautomatiseerd systeem voor gegevensvastlegging configureren](/dynamics-nav/Configuring-Automated-Data-Capture-System) in de Help voor ontwikkelaars en IT-professionals voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

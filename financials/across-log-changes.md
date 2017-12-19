@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Wijzigingen registreren in Dynamics 365 Business edition 
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Wijzigingen registreren in Dynamics 365, Business edition 
 U kunt het wijzigingslogbestand in [!INCLUDE[d365fin](includes/d365fin_md.md)] inschakelen, zodat u een overzicht van activiteiten hebt. Het logboek is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. In het wijzigingslogbestand worden posten chronologisch geordend en worden wijzigingen weergeven die worden aangebracht in de velden in de opgegeven tabellen. In het wijzigingslogbestand verzamelt alle wijzigingen die in de tabel worden aangebracht.  
 
 ## <a name="working-with-the-change-log"></a>Werken met het wijzigingslogbestand

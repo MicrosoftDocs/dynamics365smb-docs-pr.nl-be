@@ -1,8 +1,6 @@
 ---
 title: 'Procedure: picken en verzenden in standaardmagazijnconfiguraties | Microsoft Docs'
-description: In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.
-services: project-madeira
-documentationcenter: 
+description: In Dynamics 365 kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
@@ -69,8 +67,8 @@ U moet het volgende doen om deze procedure uit te voeren:
 
         |Boekingssoort|Artikelnummer|Vestiging|Opslaglocatie|Aantal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Pos. correctie|LS-81|ZILVER|S-01-0001 **Opmerking:** de standaardopslaglocatie voor het artikel in CRONUS|2.0|  
-        |Pos. correctie|LS-81|ZILVER|S-01-0002|2.0|  
+        |Pos. correctie|LS-81|ZILVER|S-01-0001 **Opmerking:** de standaardopslaglocatie voor het artikel in CRONUS|20|  
+        |Pos. correctie|LS-81|ZILVER|S-01-0002|20|  
 
     3.  Kies de actie **Boeken** en selecteer de knop **Ja**.  
 

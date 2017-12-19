@@ -13,16 +13,16 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Finance and Operations, Business edition gebruiken als uw bedrijfsinbox in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
-## <a name="get-the-add-in"></a>De invoegtoepassing ophalen
+## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] is een van de stappen in de begeleide instelling Aan de slag in het venster **Uw bedrijf beheren binnen Office 365**. Als u in dat venster **Instellen in Outlook** kiest, moet u uw gebruikersnaam en wachtwoord voor Office 365 opgeven. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook.  
 
 Wanneer u daarna Outlook start, wordt er een e-mailbericht van de Dynamics 365-beheerder weergegeven. De nieuwe invoegtoepassing is toegevoegd aan het Outlook-lint en in Outlook Web Access is deze zichtbaar in het lint van de invoegtoepassing, direct boven de hoofdtekst van het e-mailbericht. De invoegtoepassing zelf wordt regelmatig bijgewerkt, en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
@@ -39,10 +39,10 @@ En als u een e-mail van een leverancier ontvangt, kunt u net zo de invoegtoepass
 
 Soms wilt u meer velden bekijken dan u in de invoegtoepassing kunt weergeven, zoals wanneer u regels in een factuur wilt invullen. Als u wat meer ruimte wilt krijgen om mee te werken kunt u de invoegtoepassing in een apart venster openen. Het is nog deel van Outlook, maar u hebt meer ruimte. Terwijl u in de pop-upweergave gegevens voor het document invoert, worden de wijzigingen automatisch opgeslagen. Wanneer u klaar bent met het invoeren van gegevens voor het document, klikt u op **OK**. Als u het invoegtoepassingsframe kiest in Outlook, wordt het document automatisch vernieuwd met de wijzigingen die u in de pop-upweergave hebt aangebracht.  
 
-## <a name="create-invoices-from-your-meeting-appointments"></a>Facturen maken op basis van uw vergaderafspraken
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Facturen maken op basis van uw vergaderafspraken
 Sommige bedrijven registreren alle factureerbare afspraken in de Outlook-agenda. Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u de factuur voor de klant rechtstreeks op basis van het agenda-item maken. Open de afspraak, start vervolgens de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing , zoek bestaande gegevens op of maak meteen een factuur of een ander verkoopdocument aan.  
 
-## <a name="quick-document-lookup"></a>Snel documenten opzoeken
+## <a name="doing-quick-document-lookup"></a>Snel documenten opzoeken
 De invoegtoepassing [!INCLUDE[d365fin](includes/d365fin_md.md)] Document Links geeft u snel toegang tot documenten die worden genoemd in e-mailberichten. De invoegtoepassing is beschikbaar voor een e-mailbericht als een documentnummer wordt genoemd in de hoofdtekst van het bericht. Als u de invoegtoepassing opent, hebt u snel toegang tot het document.  
 
 Als u bijvoorbeeld een e-mailbericht ontvangt met de tekst *S-QUO100*, identificeert [!INCLUDE[d365fin](includes/d365fin_md.md)] het als een verkoopofferte en kunt u het document dus openen in Outlook. Kies in Outlook de knop **Documentkoppelingen**, direct boven de hoofdtekst van het e-mailbericht. Kies in de Outlook-webapp de tekst *S-QUO1001* in het hoofdgedeelte van het e-mailbericht.  

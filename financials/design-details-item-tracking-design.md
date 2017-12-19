@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Ontwerp artikeltracering | Microsoft Docs'
-description: In dit onderwerp wordt het ontwerp achter artikeltracering in [!INCLUDE[d365fin](includes/d365fin_md.md)] beschreven.
-services: project-madeira
-documentationcenter: 
+description: In dit onderwerp komt het ontwerp achter artikeltracering in Dynamics 365 aan bod.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
@@ -38,7 +36,7 @@ Het centrale boekingsobject is opnieuw ontworpen om de unieke subclassificatie v
 
 Codeunit 22, **Artikeldagboek. - Regel boeken** splitst nu de boeking volgens de artikeltraceringsnummers die zijn opgegeven op de documentregel. Voor ieder uniek artikeltraceringsnummer op de regel wordt een eigen artikelpost voor het artikel gemaakt. Dit betekent dat de koppeling van de geboekte documentregel naar de bijbehorende artikelposten nu een één-op-veel relatie is. Deze relatie wordt uitgevoerd door de volgende tabellen met artikeltraceringrelaties.  
 
-|Veld|Description|  
+|Veld|Omschrijving|  
 |---------------|---------------------------------------|  
 |**Artikelpostrelatie** (T6507)|Relateert verzonden of ontvangen regels aan artikelposten|  
 |**Waardepostrelatie** (T6508)|Relateert gefactureerde regels aan waardeposten|  

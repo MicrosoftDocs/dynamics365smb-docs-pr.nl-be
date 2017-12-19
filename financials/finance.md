@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Financiën
@@ -37,7 +37,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
 | Het grootboek en het rekeningschema begrijpen. |[Het grootboek en COA begrijpen](finance-general-ledger.md) |
 | Voeg dimensies toe voor betere bedrijfsinformatie. |[Werken met dimensies](finance-dimensions.md) |
-| Maak budgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Procedure: budgetten maken](finance-how-create-budgets.md) |
+| Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md) |
 |Registreer inkomsten of kosten rechtstreeks in het grootboek zonder specifieke bedrijfsdocumenten te boeken.|[Procedure: Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
 |Boek tegenboekingen om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Procedure: boekingen tegenboeken](finance-how-reverse-journal-posting.md)|
 |Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. |[Procedure: Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |

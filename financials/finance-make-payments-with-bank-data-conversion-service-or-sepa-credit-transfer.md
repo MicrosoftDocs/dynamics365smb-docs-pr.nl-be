@@ -1,5 +1,5 @@
 ---
-title: De methode voor elektronische betalingen kiezen | Microsoft Docs
+title: Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking | Microsoft Docs
 description: Verwerk betalingen aan uw leveranciers door samen met de betalingsgegevens van de dagboekregels een bestand te exporteren.
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 20ae505bc76b8971c678de9e2664653aa5032d6e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking
+# <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking
 U kunt in het venster **Betalingsdagboek** betalingen naar uw leveranciers verwerken door samen met de betalingsgegevens van de dagboekregels een bestand te exporteren. Vervolgens kunt u het bestand uploaden naar uw elektronische banksite waar de gerelateerde overboekingen worden verwerkt. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-kredietoverboekingen, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.   
 
  Voor het mogelijk maken van SEPA-kredietoverboekingen moet u eerst een bankrekening, leverancier, en dagboekbatch instellen waarop het betalingsdagboek is gebaseerd. Bereid vervolgens betalingen aan leveranciers voor door het venster **Betalingsdagboek** automatisch te vullen met verschuldigde betalingen met een opgegeven boekingsdatum.  
@@ -33,7 +33,6 @@ U kunt in het venster **Betalingsdagboek** betalingen naar uw leveranciers verwe
 |Stel een bankrekening, leverancier en betalingsdagboek in voor SEPA-kredietoverboeking.|[Procedure: SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Vul het betalingsdagboek met regels voor verschuldigde betalingen aan leveranciers, met de mogelijkheid boekingsdatums in te voegen op basis van de vervaldatum van de verwante inkoopdocumenten.|[Betalingsverplichtingen beheren](payables-manage-payables.md)|  
 |Exporteer betalingsdagboekregels naar een bestand in de SEPA-overmakingsindeling.|[Procedure: Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)|  
-|Controleer welke betalingen zijn geëxporteerd en in welke bestanden.|Krediettransferregisters|  
 |Wanneer de elektronische betaling is verwerkt door de bank, boekt u de betalingen.|[Werken met diversendagboeken](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Zie ook  

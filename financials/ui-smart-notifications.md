@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 08/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="smart-notifications"></a>Slimme berichten
@@ -25,11 +25,11 @@ Als u ervoor kiest details over een bericht te bekijken, kunt u actie ondernemen
 
 Berichten kunnen onervaren gebruikers helpen onbekende taken uit te voeren en verminderen de productiviteit van de meer ervaren gebruiker niet.  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Berichten in- en uitschakelen en bepalen wanneer ze worden verzonden
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Berichten in- en uitschakelen en bepalen wanneer ze worden verzonden
 Als u begint te werken met [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn alle berichten ingeschakeld, maar kunt u deze naar wens in- of uitschakelen, bijvoorbeeld als u niet geïnteresseerd bent in een bepaalde gebeurtenis of status.  
-  
+
 Bovendien kunt u voor sommige berichten de voorwaarden opgeven wanneer deze moeten worden verzonden. Bijvoorbeeld als u wilt worden gewaarschuwd wanneer de voorraad te klein is, maar alleen voor artikelen die u inkoopt bij een bepaalde leverancier.  
-  
+
 Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is alleen voor u van toepassing.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mijn berichten** in en klik vervolgens op de gerelateerde koppeling.

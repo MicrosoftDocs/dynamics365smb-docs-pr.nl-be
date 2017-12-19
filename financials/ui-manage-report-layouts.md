@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
@@ -42,7 +42,7 @@ Een Word-rapportlay-out wordt gebaseerd op een Word-document (.docx-bestandstype
  ![Voorbeeld van een Word-rapportlay-outdocument voor NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Overzicht van de RDLC-lay-out
-RDLC-lay-outs zijn gebaseerd op clientrapportdefinitielay-outs (.rdlc- of .rdl-bestandstypen). Deze lay-outs worden gemaakt en gewijzigd vanuit SQL Server Report Builder. Het ontwerpconcept voor RDLC-lay-outs lijkt op Word-lay-outs, waarbij de lay-out de algemene indeling van het rapport definieert en bepaalt welke velden uit de database worden opgenomen. RDLC-lay-outs ontwerpen is geavanceerder dan Word-lay-outs ontwerpen. Zie voor meer informatie [RDLC-rapportlay-outs ontwerpen](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+RDLC-lay-outs zijn gebaseerd op clientrapportdefinitielay-outs (.rdlc- of .rdl-bestandstypen). Deze lay-outs worden gemaakt en gewijzigd vanuit SQL Server Report Builder. Het ontwerpconcept voor RDLC-lay-outs lijkt op Word-lay-outs, waarbij de lay-out de algemene indeling van het rapport definieert en bepaalt welke velden uit de database worden opgenomen. RDLC-lay-outs ontwerpen is geavanceerder dan Word-lay-outs ontwerpen. Zie voor meer informatie [RDLC-rapportlay-outs ontwerpen](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Ingebouwde en aangepaste rapportlay-outs
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende geïntegreerde lay-outs. Ingebouwde lay-outs zijn vooraf gedefinieerde lay-outs die voor bepaalde rapporten zijn ontworpen. Rapporten in [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben een geïntegreerde lay-out zoals een RDLC-rapportlay-out, Word-rapportlay-outs of in bepaalde gevallen beide. U kunt een geïntegreerde rapportlay-out niet vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen, maar u gebruikt deze als uitgangspunt voor het maken van uw eigen aangepaste rapportlay-outs.

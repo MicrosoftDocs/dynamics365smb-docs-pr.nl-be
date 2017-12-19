@@ -24,6 +24,7 @@
 ## [Dynamics 365 waarden laten voorstellen](ui-let-system-suggest-values.md)
 ## [Een rapport afdrukken](ui-work-report.md#PrintReport)
 ## [Video's over veel voorkomende taken](across-videos.md)
+## [Toegankelijkheid en sneltoetsen](ui-accessibility.md)
 ## [Taal en landinstellingen](about-locale-language.md)  
 ## [Talen van de documenten](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Uw externe accountant uitnodigen voor uw Dynamics 365](finance-invite-external-accountant.md)  
 ## [Het grootboek en COA begrijpen](finance-general-ledger.md)
 ## [Werken met dimensies](finance-dimensions.md)
-## [Procedure: budgetten maken](finance-how-create-budgets.md)
+## [Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md)
 ## [Procedure: Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 ## [Procedure: boekingen tegenboeken](finance-how-reverse-journal-posting.md)
 ## [Procedure: Kosten en inkomsten toewijzen](year-allocate-costs-income.md)

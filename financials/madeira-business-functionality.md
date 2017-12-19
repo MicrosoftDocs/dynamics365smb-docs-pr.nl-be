@@ -1,5 +1,5 @@
 ---
-title: Ondersteunde bedrijfsfunctionaliteit door Dynamics 365 Business edition | Microsoft Docs
+title: Ondersteunde bedrijfsfunctionaliteit door Dynamics 365, Business edition | Microsoft Docs
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,14 +13,14 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Overzicht van bedrijfsfunctionaliteit in Dynamics 365 for Finance and Operations, Business edition
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening.
+# <a name="business-functionality"></a>Bedrijfsfunctionaliteit
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund. 
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Op uw startpagina kunt u toegang krijgen tot handleidingen voor begeleide instelling die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
 

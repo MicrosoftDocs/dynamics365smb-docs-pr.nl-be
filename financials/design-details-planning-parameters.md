@@ -1,8 +1,6 @@
 ---
 title: Ontwerpdetails - Planningsparameters | Microsoft Docs
-description: Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-services: project-madeira
-documentationcenter: 
+description: Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in Dynamics 365.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
@@ -64,7 +62,7 @@ Het planningssysteem volgt, onafhankelijk van het bestelbeleid, meestal deze log
 ### <a name="reordering-policies"></a>Bestelbeleid  
 Het volgende bestelbeleid heeft invloed op het aantal dat wordt besteld.  
 
-|Bestelbeleid|Description|  
+|Bestelbeleid|Omschrijving|  
 |-----------------------|---------------------------------------|  
 |**Vast bestelaantal**|Het orderaantal zal minimaal gelijk zijn aan het bestelaantal. Het kan worden verhoogd om aan de vraag of het gewenste voorraadniveau te voldoen. Dit bestelbeleid wordt gewoonlijk gebruikt met een bestelpunt.|  
 |**Maximum aantal**|Het orderaantal wordt berekend om te voldoen aan de maximale voorraad. Als aantalbepalingen worden gebruikt, kan de maximale voorraad worden overschreden. We adviseren het tijdsinterval niet samen met het maximumaantal te gebruiken. Het tijdsinterval wordt meestal genegeerd. Dit bestelbeleid wordt gewoonlijk gebruikt met een bestelpunt.|  
@@ -74,7 +72,7 @@ Het volgende bestelbeleid heeft invloed op het aantal dat wordt besteld.
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimaliseren wanneer en hoe u bestelt  
 Om een rationeel voorzieningenplan te verkrijgen, stemt een planner planningsparameters af om voorstellen voor herplanning te beperken, vraag samen te voegen (dynamisch bestelaantal), of onbelangrijke planningsacties te voorkomen. De volgende bestelperiodevelden helpen te optimaliseren wanneer en hoeveel moet worden besteld.  
 
-|Veld|Description|  
+|Veld|Omschrijving|  
 |---------------------------------|---------------------------------------|  
 |**Herplanningsperiode**|Dit veld wordt gebruikt om te bepalen of de planningsboodschap een bestaande order opnieuw moet plannen, of moet annuleren en een nieuwe order moet maken. De bestaande order wordt opnieuw gepland binnen één herplanningsperiode vóór de huidige voorziening en tot één herplanningsperiode na de huidige voorziening.|  
 |**Lotaccumulatieperiode**|Met het bestelbeleid Lot-for-Lot wordt dit veld gebruikt om meerdere voorzieningen samen te voegen in één voorzieningenorder. Vanaf de eerste geplande voorziening worden alle voorzieningsvereisten in de volgende lotaccumulatieperiode samengevoegd in één voorziening, die wordt geplaatst op de datum van de eerste voorziening. Vraag buiten de lotaccumulatieperiode wordt niet gedekt door deze voorziening.|  
