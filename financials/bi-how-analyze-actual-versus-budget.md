@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Procedure: Werkelijke bedragen analyseren in vergelijking met budgetbedragen.
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Werkelijke bedragen analyseren in vergelijking met budgetbedragen
 Als onderdeel van het verzamelen, analyseren en delen van uw bedrijfsgegevens bekijkt u werkelijke bedragen in vergelijking met gebudgetteerde bedragen voor alle rekeningen en voor meerdere perioden.
 
-Als u gebudgetteerde bedragen wilt analyseren, moet u eerst grootboekbudgetten maken. Zie [Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+Als u gebudgetteerde bedragen wilt analyseren, moet u eerst grootboekbudgetten maken. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
 ## <a name="to-view-a-gl-budget"></a>Grootboekbudget bekijken
 In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotingen bekijken.
@@ -69,7 +66,7 @@ In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde period
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  
-[Procedure: Werken met rapportageschema's](bi-how-work-account-schedule.md)  
+[Werken met rekeningschema's](bi-how-work-account-schedule.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  

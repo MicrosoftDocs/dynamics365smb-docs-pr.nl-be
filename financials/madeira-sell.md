@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition verkopen | Microsoft Docs
-description: Kom erachter hoe u uw zakelijke mogelijkheden kunt vergroten en een Microsoft-partner en reseller van Dynamics 365 Business edition wordt.
+title: Finance and Operations, Business edition verkopen | Microsoft Docs
+description: Kom erachter hoe u uw zakelijke mogelijkheden kunt vergroten en een Microsoft-partner en reseller van Finance and Operations, Business edition wordt.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,18 +13,18 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
-Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analytics, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Dynamics 365 een nieuwe kans voor u.   
+Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analyse, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Finance and Operations, Business edition een nieuwe kans voor u.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
 
 ## <a name="get-started"></a>Aan de slag
 Meld u aan voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Preview op [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  

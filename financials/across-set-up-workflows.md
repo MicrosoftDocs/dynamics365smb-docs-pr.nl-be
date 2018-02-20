@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflows"></a>Werkstromen instellen
@@ -32,15 +32,15 @@ U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden di
 
 |**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  
-|Werkstroomgebruikers en gebruikersgroepen instellen|[Procedure: Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)|  
-|Werkstroomgebruikers die deelnemen aan werkstromen voor goedkeuring, instellen.|[Procedure: Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)|  
+|Werkstroomgebruikers en gebruikersgroepen instellen|[Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)|  
+|Werkstroomgebruikers die deelnemen aan werkstromen voor goedkeuring, instellen.|[Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)|  
 |Aangeven hoe werkstroomgebruikers op hoogte worden gebracht van werkstroomstappen, inclusief goedkeuringsaanvragen.|[Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)|  
-|Geef op wanneer gebruikers berichten ontvangen en of berichten in een periode moeten worden geaggregeerd om het aantal berichten zo klein mogelijk te maken.|[Procedure: Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|De lay-out en algemene inhoud van nieuwe e-mails voor werkstroomberichten instellen, of bestaande sjablonen exporteren, wijzigen en weer importeren.|[Procedure: Berichtsjablonen beheren](across-how-to-manage-notification-templates.md)|  
-|Stel een SMTP-server in om communicatie per e-mail in en vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] in te schakelen.|[Procedure: E-mail instellen](madeira-how-setup-email.md)|
-|De verschillende stappen van een werkstroom opgeven door werkstroomgebeurtenissen te koppelen aan werkstroomantwoorden.|[Procedure: Werkstromen maken](across-how-to-create-workflows.md)|  
-|Gebruik werkstroomsjablonen om nieuwe werkstromen te maken.|[Procedure: Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Werkstromen delen met andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-databases.|[Procedure: Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)|  
+|Geef op wanneer gebruikers berichten ontvangen en of berichten in een periode moeten worden geaggregeerd om het aantal berichten zo klein mogelijk te maken.|[Opgeven wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
+|De lay-out en algemene inhoud van nieuwe e-mails voor werkstroomberichten instellen, of bestaande sjablonen exporteren, wijzigen en weer importeren.|[Berichtsjablonen beheren](across-how-to-manage-notification-templates.md)|  
+|Stel een SMTP-server in om communicatie per e-mail in en vanuit  in te schakelen. [!INCLUDE[d365fin](includes/d365fin_md.md)]|[E-mail instellen](madeira-how-setup-email.md)|
+|De verschillende stappen van een werkstroom opgeven door werkstroomgebeurtenissen te koppelen aan werkstroomantwoorden.|[Werkstromen maken](across-how-to-create-workflows.md)|  
+|Gebruik werkstroomsjablonen om nieuwe werkstromen te maken.|[Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Werkstromen delen met andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-databases.|[Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)|  
 |Lees meer informatie over het instellen van een werkstroom voor de goedkeuring van verkoopdocumenten door een end-to-end procedure te volgen.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Voeg ondersteuning toe voor een bedrijfsscenario dat nieuwe werkstroomgebeurtenissen of -antwoorden vereist, door de toepassingscode aan te passen.|[Procedure: Nieuwe werkstroomgebeurtenissen en -reacties implementeren](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 

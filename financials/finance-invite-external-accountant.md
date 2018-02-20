@@ -1,6 +1,6 @@
 ---
 title: Uw externe accountant toevoegen aan uw Financials | Microsoft Docs
-description: Leer hoe u uw externe accountant uitnodigt voor uw Dynamics 365 Business edition.
+description: Leer hoe u uw externe accountant uitnodigt voor uw Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens.
 
 Als de accountant toegang heeft gekregen tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kan hij of zij het rolcentrum **Accountant** gebruiken, dat eenvoudig toegang tot de meest relevante vensters voor hun werk biedt.  
-
-> [!NOTE]  
->  Deze functionaliteit vereist dat de ervaring is ingesteld op **Suite**. Zie [Uw Dynamics 365-ervaring aanpassen](ui-experiences.md) voor meer informatie.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Uw accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In de laatste versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben we het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. Open gewoon het venster **Gebruikers** en kies de actie **Externe accountant uitnodigen** op het lint. Er wordt een e-mail voor u gemaakt. Voeg het werke-mailadres van uw accountant eraan toe en verzend de uitnodiging.  
@@ -45,7 +42,7 @@ Een van de licentiesoorten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] is d
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
-[Procedure: E-mail handmatig instellen of de begeleide instelling gebruiken](madeira-how-setup-email.md)  
-[Accountantervaringen in Dynamics 365 Business edition](finance-accounting.md)  
-[Dynamics 365 voor accountants op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[E-mail handmatig instellen of de begeleide instelling gebruiken](madeira-how-setup-email.md)  
+[Accountantervaringen binnen Finance and Operations, Business edition](finance-accounting.md)  
+[Finance and Operations, Business edition voor accountants op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

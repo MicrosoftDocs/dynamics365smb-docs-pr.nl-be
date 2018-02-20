@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: Werknemersafwezigheid beheren | Microsoft Docs'
+title: Werknemersafwezigheid beheren | Microsoft Docs
 description: Beschrijft hoe u werknemersafwezigheid registreert en afwezigheidsstatistieken analyseert.
 services: project-madeira
 documentationcenter: 
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 09/08/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c5ce7e72c7084995b16b574f3ad670c815ef9ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 13461418fd89c8eb743b88b5a2ed98f24a520571
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-employee-absence"></a>Procedure: Werknemersafwezigheid beheren
+# <a name="manage-employee-absence"></a>Werknemersafwezigheid beheren
 Als u de afwezigheid van een werknemer wilt beheren, moet u de afwezigheid registreren in het venster **Afwezigheidsregistratie**. Het kan dan op verschillende manieren voor analyse- en rapportagedoeleinden worden weergegeven.
 
 U kunt werknemersafwezigheid weergeven in twee verschillende vensters:

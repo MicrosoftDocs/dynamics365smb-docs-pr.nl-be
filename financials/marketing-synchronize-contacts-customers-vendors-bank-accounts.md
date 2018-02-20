@@ -13,10 +13,10 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b85c52378a351dbc1a0809ec540b1f53c8074ef
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Contacten synchroniseren met klanten, leveranciers en bankrekeningen
@@ -27,7 +27,7 @@ Voordat u uw contacten kunt synchroniseren met klanten, leveranciers of bankreke
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Andere manieren om contacten te synchroniseren met klanten, leveranciers en bankrekeningen
 U kunt de contacten met drie methoden synchroniseren met klanten, leveranciers en/of bankrekeningen:
 
-* Contacten koppelen aan bestaande klanten, leveranciers en/of bankrekeningen op de contactkaart. Zie voor meer informatie [Procedure: Contacten koppelen aan klanten, leveranciers en bankrekeningen](marketing-how-link-contact.md).
+* Contacten koppelen aan bestaande klanten, leveranciers en/of bankrekeningen op de contactkaart. Zie voor meer informatie [Contacten koppelen aan klanten, leveranciers en bankrekeningen](marketing-how-link-contact.md).
 * Maak klanten,, leveranciers of bankrekeningen vanuit het contact. Zie voor meer informatie [Een klant, leverancier of bankrekening maken van een contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 * Contacten maken van klanten, leveranciers of bankrekeningen. Zie voor meer informatie [Een bedrijfscontact maken van een klant, leverancier of bankrekening](marketing-how-create-contact-companies.md).
 

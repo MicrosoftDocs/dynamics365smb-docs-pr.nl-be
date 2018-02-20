@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
@@ -158,14 +158,14 @@ U hebt nu een eenvoudige goedkeuringswerkstroom ingesteld en getest op basis van
 
 De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal werkstroomsjablonen voor scenario's die worden ondersteund door de toepassingscode. De meeste hiervan zijn voor goedkeuringswerkstromen. Zie Werkstroomsjablonen voor meer informatie.  
 
-U definieert variaties van werkstromen door velden op werkstroomregels in te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Procedure: Werkstromen maken](across-how-to-create-workflows.md).  
+U definieert variaties van werkstromen door velden op werkstroomregels in te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 Als een bedrijfsscenario een werkstroomgebeurtenis of -reactie vereist die niet wordt ondersteund, moet een Microsoft-partner ze implementeren door de toepassingscode aan te passen. Raadpleeg [Procedure: Nieuwe werkstroomgebeurtenissen en -reacties implementeren](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in de Help voor ontwikkelaars en IT-professionals voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
+[Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)   
-[Procedure: Werkstromen maken](across-how-to-create-workflows.md)   
-[Procedure: Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)   
+[Werkstromen maken](across-how-to-create-workflows.md)   
+[Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)   
 [Werkstroom](across-workflow.md)
 

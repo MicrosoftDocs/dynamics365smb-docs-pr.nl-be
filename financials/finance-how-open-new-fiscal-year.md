@@ -11,13 +11,13 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1ae20c24b4a75a897a1bc7bc7f34898539a75449
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da22c77f35c1a893d3ee80fb6468553670977686
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-open-a-new-fiscal-year-and-create-accounting-periods"></a>Procedure: Een nieuw boekjaar openen en boekingsperioden maken
+# <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Een nieuw boekjaar openen en boekingsperioden maken
 Voordat u naar een boekjaar kunt boeken, moet u het boekjaar openen en de boekhoudperioden opgeven.  
 
 Voor veel bedrijven valt het boekjaar niet samen met het kalenderjaar. Boekhoudperioden kunnen in andere tijdeenheden, zoals maanden of kwartalen, worden gemeten. U kunt het venster **Boekjaar maken** gebruiken om de boekhoudperioden in te stellen die passen bij uw zakelijke behoeften. Echter,   
@@ -34,8 +34,8 @@ De boekhoudperioden worden toegevoegd aan de pagina met de velden **Begindatum**
 
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: boekingsperioden opgeven](finance-how-specify-posting-periods.md)  
-[Procedure: de jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  
+[Boekingsperioden opgeven](finance-how-specify-posting-periods.md)  
+[De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

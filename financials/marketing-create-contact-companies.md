@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Contactbedrijven maken
@@ -30,15 +30,15 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 | Als u dit wilt doen | Zie |
 | --- | --- |
-| Een nieuw contact voor een bedrijf instellen, geheel nieuw of op basis van een klant, leverancier of bankrekening. |[Procedure: Contactbedrijven maken](marketing-how-create-contact-companies.md) |
+| Een nieuw contact voor een bedrijf instellen, geheel nieuw of op basis van een klant, leverancier of bankrekening. |[Contactbedrijven maken](marketing-how-create-contact-companies.md) |
 | Informatie synchroniseren in contacten met gemeenschappelijke informatie in klanten, leveranciers en bankrekeningen. |[Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | De zakenrelatie van een bedrijfscontact beschrijven. |[Bedrijfsrelaties instellen voor contactbedrijven](marketing-business-relations.md) |
-| Plaats een contactbedrijf in de juiste sector, bijvoorbeeld de detailhandel. |[Procedure: Sectoren instellen voor contactbedrijven](marketing-industry-groups.md) |
-| De mailinggroepen instellen aan de hand waarvan u groepen contacten kunt identificeren die u dezelfde informatie wilt sturen. |[Procedure: Mailinggroepen instellen voor contactbedrijven](marketing-mailing-groups.md) |
-| Een alternatief adres voor een contact instellen. |[Procedure: Alternatieve adressen toewijzen aan een contact](marketing-how-assign-alternate-address.md) |
-| Webbronnen (zoekmachines en websites) toewijzen aan uw contacten om aan geven waar op internet u wilt zoeken naar informatie over de contacten. |[Procedure: Webbronnen instellen voor contacten](marketing-web-sources.md) |
+| Plaats een contactbedrijf in de juiste sector, bijvoorbeeld de detailhandel. |[Sectoren instellen voor contactbedrijven](marketing-industry-groups.md) |
+| De mailinggroepen instellen aan de hand waarvan u groepen contacten kunt identificeren die u dezelfde informatie wilt sturen. |[Mailinggroepen instellen voor contactbedrijven](marketing-mailing-groups.md) |
+| Een alternatief adres voor een contact instellen. |[Alternatieve adressen toewijzen aan een contact](marketing-how-assign-alternate-address.md) |
+| Webbronnen (zoekmachines en websites) toewijzen aan uw contacten om aan geven waar op internet u wilt zoeken naar informatie over de contacten. |[Webbronnen instellen voor contacten](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen maken](marketing-create-contact-persons.md)   
-[Werken met Dynamics 365](ui-work-product.md)
+[Werken met Finance and Operations, Business edition](ui-work-product.md)
 

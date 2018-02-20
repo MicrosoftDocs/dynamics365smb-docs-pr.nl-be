@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Procedure: magazijn herstructureren
+# <a name="restructure-warehouses"></a>Magazijnen herstructureren
 Misschien wilt u op een dag de magazijnstructuur aanpassen en nieuwe opslaglocaties en kenmerken instellen. Dit zal niet vaak voorkomen, maar in sommige gevallen is een aanpassing van het magazijn noodzakelijk om een meer efficiënte bedrijfsvoering te bereiken of behouden. Voorbeeld:  
 
 - Misschien wilt u omschakelen naar opslaglocaties die het gebruik van automatische gegevensverwerking ondersteunen, bijvoorbeeld met draagbare apparatuur.  
@@ -45,12 +45,12 @@ U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standa
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Herstructureren van een geavanceerd magazijn met gestuurde opslag en pick  
 
-1.  Maak de nieuwe opslaglocaties aan die u voortaan wilt gebruiken. Zie [Procedure: Opslaglocaties maken](warehouse-how-to-create-individual-bins.md) voor meer informatie.  
+1.  Maak de nieuwe opslaglocaties aan die u voortaan wilt gebruiken. Zie voor meer informatie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md).  
 2.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
 
     1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnherindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
     2.  Als u opslaglocaties hebt waarvan de inhoud niet wordt verplaatst, maakt u een regel voor elke huidige opslaglocatie in het **magazijnherindelingsdagboek**. Hierin neemt u zowel de oude opslaglocatie **Van opslaglocatie** als de nieuwe opslaglocatie **Naar opslaglocatie** op.  
-    3.  Als sommige verplaatsingen fysiek moeten worden uitgevoerd door magazijnmedewerkers, gebruikt u **Verplaatsingsvoorstellen** om verplaatsingsinstructies te maken. U gebruikt in dit geval niet het herindelingsdagboek van het magazijn. Zie [Procedure: Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) voor meer informatie.  
+    3.  Als sommige verplaatsingen fysiek moeten worden uitgevoerd door magazijnmedewerkers, gebruikt u **Verplaatsingsvoorstellen** om verplaatsingsinstructies te maken. U gebruikt in dit geval niet het herindelingsdagboek van het magazijn. Zie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) voor meer informatie.  
 
 3.  Wanneer de oude opslaglocaties worden leeggemaakt, moeten ze als opslaglocatie van het type **QC** worden ingedeeld zodat ze niet worden opgenomen in de artikelstroom.  
 
@@ -58,7 +58,7 @@ U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standa
     2.  Selecteer de regel met de locatie en kies vervolgens de actie **Opslaglocaties**.  
     3.  Voer in het venster **Opslaglocaties**, in het veld **Code opslaglocatiesoort**, **QC** in voor elk van de oude opslaglocaties die u in stap 3 in de vorige procedure hebt leeggemaakt.  
 
-U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw ingedeeld als QC-opslaglocaties. Dit zijn opslaglocaties die niet beschikken over de activiteitenvelden in het venster **Opslaglocatiesoorten** en daarom niet door de artikelstroom worden meegenomen. Zie [Procedure: Opslaglocatiesoorten instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.  
+U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw ingedeeld als QC-opslaglocaties. Dit zijn opslaglocaties die niet beschikken over de activiteitenvelden in het venster **Opslaglocatiesoorten** en daarom niet door de artikelstroom worden meegenomen. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.  
 
 ## <a name="to-delete-a-bin"></a>Een opslaglocatie verwijderen  
 

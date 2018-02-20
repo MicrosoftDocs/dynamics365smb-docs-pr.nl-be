@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3a257ba6434f8689a78e975811a0c5897b3836f8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-and-export-a-report-or-document-layout"></a>Procedure: Een lay-out voor een rapport of document importeren en exporteren
+# <a name="import-and-export-a-report-or-document-layout"></a>Een rapport- of documentlay-out importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  
   
 > [!IMPORTANT]  
@@ -52,6 +52,6 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
  De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
   
 ## <a name="see-also"></a>Zie ook  
- [Procedure: Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
+ [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
  [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten](ui-work-report.md)    

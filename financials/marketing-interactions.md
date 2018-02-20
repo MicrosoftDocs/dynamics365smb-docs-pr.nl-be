@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Interacties beheren met contacten
-In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, fax, e-mail, telefoon, vergaderingen, enzovoort zijn.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, fax, e-mail, telefoon, vergaderingen, enzovoort zijn.
 
 Met het gebied relatiebeheer kunt u alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren. Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
 
@@ -35,7 +35,7 @@ U stelt een interactiesjabloon in het venster **Interactiesjablonen** in.
 ## <a name="creating-interactions"></a>Interacties maken
 Er zijn twee manieren om interacties te registreren:
 
-* U kunt handmatig  interacties maken die zijn gekoppeld aan een enkel contact of een segment. Zie voor meer informatie [Procedure: Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md).  
+* U kunt handmatig  interacties maken die zijn gekoppeld aan een enkel contact of een segment. Zie voor meer informatie [Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md).  
 * U kunt automatisch interacties registreren wanneer u acties uitvoert in de toepassing, bijvoorbeeld wanneer u een factuur of offerte afdrukt. Zie voor meer informatie [Automatisch interacties met contacten registreren](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren

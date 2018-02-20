@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Procedure: Nieuwe artikelen registreren
+# <a name="register-new-items"></a>Nieuwe artikelen registreren
 Artikelen vormen met andere producten de basis van uw bedrijf, de goederen of services waarin u handelt. Elk artikelproduct moet worden geregistreerd als een artikelkaart.
 
 Artikelkaarten bevatten de informatie die is vereist om artikelen te kopen, op te slaan, te verkopen, te leveren en te verantwoorden.
 
-De artikelkaart kan van het type **Voorraad** of **Service** zijn, om aan te geven of het artikel een fysieke eenheid is of arbeidstijd. Behalve enkele velden die over de materiële aspecten van een artikel gaan, functioneren alle velden op een artikelkaart op dezelfde manier voor voorraadartikelen en services. Zie voor meer informatie over het verkopen van een artikel [Procedure: Producten verkopen](sales-how-sell-products.md) of [Procedure: Verkoop factureren](sales-how-invoice-sales.md).
+De artikelkaart kan van het type **Voorraad** of **Service** zijn, om aan te geven of het artikel een fysieke eenheid is of arbeidstijd. Behalve enkele velden die over de materiële aspecten van een artikel gaan, functioneren alle velden op een artikelkaart op dezelfde manier voor voorraadartikelen en services. Zie voor meer informatie over het verkopen van een artikel [Producten verkopen](sales-how-sell-products.md) of [Verkoop factureren](sales-how-invoice-sales.md).
 
-Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
+Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
 > [!NOTE]  
 >   Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
@@ -77,7 +77,5 @@ Deze leveranciers worden vervolgens weergegeven in het venster **Artikelleveranc
   [Voorraad](inventory-manage-inventory.md)  
   [Inkoop](purchasing-manage-purchasing.md)  
   [Verkoop](sales-manage-sales.md)  
-  [Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

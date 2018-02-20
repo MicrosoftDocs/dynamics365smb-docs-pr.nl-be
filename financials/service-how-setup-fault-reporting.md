@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Procedure: Probleemrapportage instellen
+# <a name="set-up-fault-reporting"></a>Foutrapportage instellen
 Met probleemrapportage kunt u standaarden voor het vastleggen van probleemgegevens voor service-items bepalen. U kunt bijvoorbeeld opgeven wat het probleem is, welke symptomen u ziet, wat de oorzaak van het probleem is en hoe het probleem moet worden verholpen.  
 
-Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernomen acties met betrekking tot serviceartikelen beschreven. Afhankelijk van het niveau van probleemrapportage in het bedrijf, moet u wellicht probleemgebiedcodes en symptoomcodes instellen voordat u probleemcodes instelt. Met probleemgebieden worden gebieden van serviceartikelproblemen beschreven. Met probleemoorzaakcodes kan de oorzaak voor serviceartikelproblemen worden omschreven en kan zo nodig worden aangegeven of garantie- en contractkortingen moeten worden uitgesloten. U kunt bijvoorbeeld garantie- en contractkortingen uitsluiten wanneer de klant op enige manier verantwoordelijk is voor het serviceartikelprobleem. U wijst probleemoorzaakcodes toe aan serviceorders. Zie voor meer informatie [Procedure: Werken aan servicetaken](service-how-to-work-on-service-tasks.md).  
+Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernomen acties met betrekking tot serviceartikelen beschreven. Afhankelijk van het niveau van probleemrapportage in het bedrijf, moet u wellicht probleemgebiedcodes en symptoomcodes instellen voordat u probleemcodes instelt. Met probleemgebieden worden gebieden van serviceartikelproblemen beschreven. Met probleemoorzaakcodes kan de oorzaak voor serviceartikelproblemen worden omschreven en kan zo nodig worden aangegeven of garantie- en contractkortingen moeten worden uitgesloten. U kunt bijvoorbeeld garantie- en contractkortingen uitsluiten wanneer de klant op enige manier verantwoordelijk is voor het serviceartikelprobleem. U wijst probleemoorzaakcodes toe aan serviceorders. Zie voor meer informatie [Werken aan servicetaken](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Het algemene probleemrapportageniveau voor gebruik opgeven
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Service-instellingen** in en klik vervolgens op de gerelateerde koppeling. 

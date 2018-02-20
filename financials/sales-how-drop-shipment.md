@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 03/29/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 087ead3b0a28d09cd687c1fcb60f6fee2c914c4a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-make-drop-shipments"></a>Procedure: Doorverzendingen maken
+# <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 Een doorverzending is de directe verzending van artikelen van een van uw leveranciers naar een van uw klanten.
 
 Wanneer een verkooporder voor doorverzending is gemarkeerd en u maakt een inkooporder waarin de klant in het veld **Orderklantnr.** is opgegeven, kunt u de twee documenten koppelen en daarbij de leverancier opdragen om direct naar de klant te verzenden.
@@ -27,16 +27,13 @@ Wanneer een verkooporder voor doorverzending is gemarkeerd en u maakt een inkoop
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Een verkooporder voor doorverzending maken
 Ter voorbereiding op een doorverzending maakt u een verkooporder voor een artikel zoals u dat normaal doet, maar u moet wel op de verkoopregel aangeven dat voor de verkoop doorverzending vereist is.
 
-1. Maak een verkooporder voor een artikel. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
-2. Op de verkooporderregel voor de doorverzending schakelt u het selectievakje **Doorverzending** in. Gebruik de functie **Kolommen kiezen** als het veld niet zichtbaar is. Zie [Persoonlijke gebruikersinstellingen](ui-user-personalization.md) voor meer informatie.
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+1. Maak een verkooporder voor een artikel. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+2. Op de verkooporderregel voor de doorverzending schakelt u het selectievakje **Doorverzending** in. Gebruik de functie **Kolommen kiezen** als het veld niet zichtbaar is. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>De inkooporder voor doorverzendingen maken
 Ter voorbereiding op een doorverzending van het artikel dat u wilt verkopen, maakt u een inkooporder zoals u dat normaal doet, maar u moet op de inkooporder wel aangeven dat het artikel naar de klant moet worden verzonden en niet naar uzelf.
 
-1. Inkooporder maken. Vul geen velden op de regels in. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).
+1. Inkooporder maken. Vul geen velden op de regels in. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 2. Selecteer in het veld **Orderklantnr.** de klant aan wie u verkoopt.
 3. Kies de actie **Doorverzendingen** en kies vervolgens de actie **Verkooporder ophalen**.
 4. Selecteer in het venster **Verkoopoverzicht** de verkooporder die u hebt voorbereid in de sectie "Een verkooporder voor doorverzending maken".
@@ -59,9 +56,9 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 5. Kies vervolgens **de optie Verzenden** om later te factureren of de optie **Verzenden en factureren** om meteen te factureren.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Speciale orders maken](sales-how-to-create-special-orders.md)|  
-[Procedure: Producten verkopen](sales-how-sell-products.md)  
-[Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md)  
+[Speciale orders maken](sales-how-to-create-special-orders.md)|  
+[Producten verkopen](sales-how-sell-products.md)  
+[Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

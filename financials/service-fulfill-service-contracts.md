@@ -13,10 +13,10 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 08/23/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 338fc294813487438073391495035d40635f9202
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Servicecontracten voldoen 
@@ -29,12 +29,12 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Een serviceartikel onder meerdere contracten verwerken. | [Meervoudige contracten](service-multiple-contracts.md)|  
-|Servicecontracten handmatig of op basis van een servicecontractofferte maken.| [Procedure: Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Het jaarlijkse bedrag van een servicecontract of contractofferte wijzigen, dus zorg ervoor dat u het juiste bedrag factureert.|[Procedure: Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Servicecontracten handmatig of op basis van een servicecontractofferte maken.| [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Het jaarlijkse bedrag van een servicecontract of contractofferte wijzigen, dus zorg ervoor dat u het juiste bedrag factureert.|[Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Zie ook 
 [Service plannen](service-plan-service.md)  
 [Service leveren](service-deliver-service.md)  
 [CRM - Service instellen](service-setup-service.md)  
-[Procedure: Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 

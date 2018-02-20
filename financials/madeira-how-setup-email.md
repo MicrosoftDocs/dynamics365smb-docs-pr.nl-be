@@ -1,6 +1,6 @@
 ---
-title: E-mail instellen in Dynamics 365 Business edition | Microsoft Docs
-description: Hier wordt beschreven hoe u de SMTP-server van het bedrijf gebruikt om e-mailberichten te verzenden en te ontvangen binnen Dynamics 365 of hoe u de e-mailserverinstellingen gebruikt die met het Office 365-abonnement zijn gemaakt.
+title: E-mail instellen in Finance and Operations, Business edition | Microsoft Docs
+description: Hier wordt beschreven hoe u de SMTP-server van het bedrijf gebruikt om e-mailberichten te verzenden en ontvangen binnen Finance and Operations, Business edition, of hoe u de e-mailserverinstellingen gebruikt die met het Office 365-abonnement zijn gemaakt.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Procedure: E-mail handmatig instellen of de begeleide instelling gebruiken
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>E-mail handmatig instellen of de begeleide instelling gebruiken
 Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de velden in het venster **SMTP-mailinstellingen** invullen.
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ U kunt uw e-mail handmatig instellen of u help kunt krijgen door de begeleide in
 ## <a name="see-also"></a>Zie ook  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)

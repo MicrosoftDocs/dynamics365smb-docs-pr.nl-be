@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Procedure: Productie uitbesteden
+# <a name="subcontract-manufacturing"></a>Productie uitbesteden
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
 
 Het programma biedt verscheidene tools voor het beheren van uitbesteed werk:  
@@ -41,12 +41,12 @@ Uitbestedingsafdelingen kunnen op dezelfde manier als reguliere afdelingen worde
 
 U kunt een bewerkingsplan instellen dat gebruikmaakt van een externe afdeling als standaard bewerkingsstap. Aan de andere kant kunt u ook het bewerkingsplan voor een bepaalde productieorder wijzigen zodat deze een externe bewerking bevat. Dit kan nodig zijn in een noodsituatie, zoals het niet correct werken van een server, of wanneer er tijdelijk sprake is van een grotere vraag, waarbij werk dat gewoonlijk binnenshuis wordt uitgevoerd naar een toeleverancier moet worden gestuurd.  
 
-Zie [Procedure: Bewerkingsplannen maken](production-how-to-create-routings.md) voor meer informatie.  
+Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Uitbestedingsvoorstel  
 Zodra u het uitbestedingsvoorstel hebt berekend, wordt het relevante document (in dit geval een inkooporder) opgesteld.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Procedure: uitbestedingsvoorstel berekenen en uitbestedingsinkooporders maken
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Uitbestedingsvoorstel berekenen en uitbestedingsinkooporders maken
 Het venster **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de benodigde voorziening te berekenen van, in dit geval inkooporders, die u in het voorstel bekijkt en vervolgens met de functie **Planningsboodschap uitvoeren** maakt.  
 
 > [!NOTE]  

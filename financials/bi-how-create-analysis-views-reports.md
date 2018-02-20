@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Procedure: Analyselijsten maken
+#  <a name="create-analysis-reports"></a>Analyselijsten maken
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde.  
 
 Met analyselijsten kunt u persoonlijke lijsten genereren op basis van records van geboekte transacties, bijvoorbeeld verkoop, inkoop, transfers en voorraadherwaarderingen. In persoonlijke lijsten kunt u de brongegevens, die worden afgeleid van artikelposten (met bijbehorende waardeposten), combineren, vergelijken en presenteren op de door u gewenste manier. In deze zin lijkt de analyselijst in grote mate op een draaitabelrapport in Microsoft Excel.  
@@ -28,7 +28,7 @@ In een persoonlijke lijst kunt u zich richten op de totale omzet (in bedragen en
 
 De analyselijst bestaat uit regels met de te analyseren objecten (bijvoorbeeld klanten, klantgroepen, verkopers, enzovoort) en de analyseparameters. Dat wil zeggen: de wijze waarop u het object in de bijbehorende kolommen wilt analyseren (bijvoorbeeld winstberekeningen, periodieke vergelijkingen van totale omzet en volumes of periodieke vergelijkingen van werkelijke en gebudgetteerde cijfers).
 
-Naast analyselijsten kunt u soortgelijke informatie maken en weergeven in analyseweergaven, die zijn gebaseerd op dimensies. Zie voor meer informatie [Procedure: gegevens analyseren per dimensies](bi-how-analyze-data-dimension.md).
+Naast analyselijsten kunt u soortgelijke informatie maken en weergeven in analyseweergaven, die zijn gebaseerd op dimensies. Zie voor meer informatie [Gegevens analyseren per dimensies](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Opmerking  
 U kunt bijvoorbeeld de volgende regels instellen:  
@@ -41,9 +41,6 @@ Vervolgens kunt u de volgende kolommen instellen:
 - Omzet lopende maand  
 - Omzet vorige maand  
 - % van omzet vorige maand  
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Regel- en kolomindelingen instellen  
  In het venster **Analyserapport** kunt u afhankelijk van uw instellingen verschillende regel- en kolomindelingen bekijken, volgens wat u hebt ingesteld. U stelt uw regels of regelsjablonen in het venster **Analyseregelsjablonen** in. In dit venster kunt u de naam van de lijst definiëren en de objecten die u in de regels van de lijst wilt weergeven. U stelt de kolommen in het venster **Analysekolomsjablonen** in. In dit venster kunt u de naam van de kolomsjabloon definiëren en de analyseparameters die u in de kolommen van de lijst wilt weergeven. Iedere regel in het venster **Analysekolomsjablonen** staat voor een kolom in de lijst. Analyseregels en analysekolommen zijn niet aan elkaar gekoppeld.  

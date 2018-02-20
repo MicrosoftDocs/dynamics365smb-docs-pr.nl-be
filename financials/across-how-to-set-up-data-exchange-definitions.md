@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Procedure: Definities voor gegevensuitwisseling instellen
+# <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
-Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in het gedeelte “De opmaak van regels en kolommen in het bestand beschrijven”. Zie [Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
+Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in het gedeelte “De opmaak van regels en kolommen in het bestand beschrijven”. Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
 Doorgaans stelt u gegevensuitwisselingsdefinities in het venster **Definitie van gegevensuitwisseling** in. Maar als u een gegevensuitwisselingsdefinitie instelt voor de service voor het vernieuwen van wisselkoersen, begint u het proces in het vereenvoudigde venster **Kaart update-instellingen wisselkoersen**.  
 
@@ -81,7 +81,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 
 5. Herhaal stap 4 om een regel te maken voor elk type bestandsgegevens dat u wilt exporteren.  
 
-     Geef op het sneltabblad **Kolomdefinities** de opmaak van kolommen in het gegevensbestand op door de velden in te vullen zoals beschreven in de onderstaande tabel. U kunt het structuurbestand, zoals een .XSD-bestand, voor het gegevensbestand gebruiken om het sneltabblad vooraf te vullen met de relevante elementen. Zie [Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
+     Geef op het sneltabblad **Kolomdefinities** de opmaak van kolommen in het gegevensbestand op door de velden in te vullen zoals beschreven in de onderstaande tabel. U kunt het structuurbestand, zoals een .XSD-bestand, voor het gegevensbestand gebruiken om het sneltabblad vooraf te vullen met de relevante elementen. Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
 6. Kies op het sneltabblad **Kolomdefinities** de optie **Bestandsstructuur ophalen**.  
 7. Selecteer in het venster **Bestandsstructuur ophalen** het gerelateerde structuurbestand en kies vervolgens de knop **OK**. De regels op het sneltabblad **Kolomdefinities** worden ingevuld op basis van de structuur van het gegevensbestand.  
@@ -133,7 +133,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
     |**Bijschrift bij doelveld**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef de naam van het veld in de doeltabel op waaraan de waarde in het veld **Kolomomschrijving** wordt toegewezen wanneer u een tussentijdse tabel gebruikt voor gegevensimport.|  
     |**Optioneel**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef aan of de toewijzing moet worden overgeslagen als het veld leeg is. Als u dit selectievakje niet inschakelt, treedt een exportfout op als het veld leeg is.|  
 
- De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Procedure: Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Procedure: SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md), [Procedure: Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md) en [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
+ De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md), [Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md) en [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
 
     Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek gegevensbestand, kunt u de definitie van gegevensuitwisseling exporteren als XML-bestand dat kan worden gebruikt om de import van het gegevensbestand in kwestie snel in te schakelen. Dit wordt in de volgende procedure beschreven.  
 
@@ -154,9 +154,9 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
-[Procedure: Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Procedure: SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Procedure: Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)  
+[Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)  
 [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  

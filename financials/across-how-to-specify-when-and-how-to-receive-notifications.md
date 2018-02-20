@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Procedure: Vastleggen wanneer en hoe gebruikers berichten ontvangen
+# <a name="specify-when-and-how-to-receive-notifications"></a>Opgeven wanneer en hoe gebruikers berichten ontvangen
 Wanneer u gebruikers in goedkeuringswerkstromen instelt, moet u in de vensters **Berichtinstellingen** en **Berichtplanning** opgeven hoe en wanneer iedere gebruiker berichten ontvangt over stappen in de goedkeuringswerkstroom. Individuele gebruikers kunnen hun berichtinstellingen ook wijzigen door de knop **Berichtinstellingen wijzigen** op een bericht te kiezen.  
 
- Voordat u voorkeuren voor gebruikersberichten over goedkeuring kunt instellen, moet u de gebruiker als goedkeuringsgebruiker instellen. Zie voor meer informatie, [Procedure: Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).  
+ Voordat u voorkeuren voor gebruikersberichten over goedkeuring kunt instellen, moet u de gebruiker als goedkeuringsgebruiker instellen. Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).  
 
- U definieert de lay-out en inhoud van berichten door berichtsjablonen in te stellen. Zie voor meer informatie [Procedure: Berichtsjablonen beheren](across-how-to-manage-notification-templates.md).  
+ U definieert de lay-out en inhoud van berichten door berichtsjablonen in te stellen. Zie voor meer informatie [Berichtsjablonen beheren](across-how-to-manage-notification-templates.md).  
 
  In veel goedkeuringswerkstroomstappen wordt aan gebruikers gemeld dat er een gebeurtenis is opgetreden waarop ze moeten reageren. Bijvoorbeeld, de gebeurtenis in een werkstroomstap kan zijn dat Gebruiker 1 de goedkeuring van een nieuwe record aanvraagt. Het gerelateerde antwoord is dat er een bericht wordt verzonden naar Gebruiker 2, de fiatteur. In de volgende werkstroomstap kan de gebeurtenis zijn dat Gebruiker 2 de record goedkeurt. Het gerelateerde antwoord is dat er een bericht wordt verzonden naar Gebruiker 3 om een proces te starten met de goedgekeurde record. Voor werkstroomstappen die betrekking hebben op goedkeuring, is elk bericht gekoppeld aan een goedkeuringspost. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
 
@@ -59,8 +59,8 @@ Wanneer u gebruikers in goedkeuringswerkstromen instelt, moet u in de vensters *
 2.  In het venster **Berichtinstellingen** wijzigt u de berichtvoorkeuren zoals beschreven in de vorige procedure.  
 
 ## <a name="see-also"></a>Zie ook  
- [Procedure: Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
- [Procedure: Berichtsjablonen beheren](across-how-to-manage-notification-templates.md)   
+ [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
+ [Berichtsjablonen beheren](across-how-to-manage-notification-templates.md)   
  [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)   
  [Werkstromen instellen](across-set-up-workflows.md)   
  [Werkstromen gebruiken](across-use-workflows.md)

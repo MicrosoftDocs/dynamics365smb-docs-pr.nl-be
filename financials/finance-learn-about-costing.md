@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>Over voorraadwaardering
@@ -36,8 +36,8 @@ Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van op
 |Het herwaarderingsmechanisme voor kosten te begrijpen, dat ervoor zorgt dat kosten naar voren komen, zelfs wanneer voorraadtransacties willekeurig plaatsvinden.|[Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)|  
 |Te lezen waarom vaste verrekenprijzen vaak worden gebruikt door productiebedrijven als een waarderingsbasis voor onderdelen en eindartikelen.|[Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)|  
 |Te begrijpen hoe de voorraadwaarde wordt weerspiegeld in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Meer te weten te komen over hoe artikeltoeslagen, zoals verzendkosten en verzekering, extra kostenonderdelen kunnen toewijzen aan de eenheidsprijs van een artikel.|[Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|  
-|Te lezen hoe voorraadperioden een bedrijf kunnen helpen de voorraadwaarde gedurende de tijd te beheren door kortere perioden te definiëren die gedurende het boekjaar voor boeking kunnen worden gesloten.|[Procedure: werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)|  
+|Meer te weten te komen over hoe artikeltoeslagen, zoals verzendkosten en verzekering, extra kostenonderdelen kunnen toewijzen aan de eenheidsprijs van een artikel.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|  
+|Te lezen hoe voorraadperioden een bedrijf kunnen helpen de voorraadwaarde gedurende de tijd te beheren door kortere perioden te definiëren die gedurende het boekjaar voor boeking kunnen worden gesloten.|[Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)|  
 |Alle mechanismen in de kostprijsberekeningengine begrijpen, inclusief wat er gebeurt wanneer u assemblage- en productietransacties boekt.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>Zie ook

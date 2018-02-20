@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Procedure: Werken met betalingstolerantie en contantkortingstolerantie
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 U kunt een betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt. U kunt een contantkortingstolerantie instellen om een contantkorting te verlenen nadat de datum van de betalingskorting is verstreken.  
 
 U kunt betalingstoleranties gebruiken, zodat elk openstaand bedrag een vastgestelde maximumbetalingstolerantie heeft. Als aan de betalingstolerantie wordt voldaan, wordt het betalingsbedrag geanalyseerd. Als het betalingsbedrag ontoereikend is, wordt het openstaande bedrag volledig afgesloten door de ontoereikende betaling. Er wordt een gedetailleerde post op de betalingspost geboekt, zodat er geen restbedrag overblijft op de vereffende factuurpost. Als het betalingsbedrag te hoog is, wordt een nieuwe gedetailleerde post geboekt op de betalingspost, zodat er geen restbedrag overblijft op de betalingspost.

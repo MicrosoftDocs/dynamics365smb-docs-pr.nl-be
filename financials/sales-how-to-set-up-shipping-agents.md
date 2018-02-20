@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84a5d9eb8757dc82834c17327ffbb510cd15fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b6ab539048f3f802cc4575e023c43632025dccf5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shipping-agents"></a>Procedure: expediteurs instellen
+# <a name="set-up-shipping-agents"></a>Expediteurs instellen
 U kunt een code instellen voor al uw expediteurs en gegevens over hen opgeven.  
 
-Als u een Internet-adres opgeeft voor een expediteur die services biedt waarmee zendingen via het Internet kunnen worden getraceerd, kunt u de functie voor het automatisch traceren van zendingen gebruiken. Zie [Procedure: zendingen traceren](sales-how-track-packages.md) voor meer informatie.
+Als u een Internet-adres opgeeft voor een expediteur die services biedt waarmee zendingen via het Internet kunnen worden getraceerd, kunt u de functie voor het automatisch traceren van zendingen gebruiken. Zie [Pakketten traceren](sales-how-track-packages.md) voor meer informatie.
 
 Wanneer u expediteurs instelt op uw verkooporders, kunt u ook opgeven welke services elke expediteur aanbiedt.  
 Voor elke expediteur kunt u een onbeperkt aantal services inclusief bijbehorende verzendtijd opgeven.  
 
-Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt de verzendtijd van de service opgenomen op de berekening van de ordertoezegging voor die regel. Zie voor meer informatie [Procedure: ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md).
+Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt de verzendtijd van de service opgenomen op de berekening van de ordertoezegging voor die regel. Zie voor meer informatie [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Een expediteur instellen  
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Expediteurs** in en klik vervolgens op de gerelateerde koppeling.  
@@ -39,7 +39,7 @@ Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt
 >  Als u de expediteur op de orderregel verwijdert, wordt ook de code voor de expediteurservice verwijderd. Vervolgens wordt de inhoud van de velden die gedeeltelijk op de expediteurservice zijn gebaseerd opnieuw berekend.  
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: zendingen traceren](sales-how-track-packages.md)    
+[Pakketten traceren](sales-how-track-packages.md)    
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     

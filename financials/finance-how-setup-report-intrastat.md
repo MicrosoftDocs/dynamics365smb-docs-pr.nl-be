@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedure: Intrastat instellen en rapporteren
@@ -85,7 +85,7 @@ Met de batchverwerking worden alle artikelposten in de statistiekperiode opgehaa
 > [!IMPORTANT]  
 >  Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Procedure: Intrastat rapporteren in een formulier of een bestand
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat rapporteren in een formulier of een bestand
 Als u de gegevens wilt ophalen die nodig zijn op het Intrastat-formulier van de betreffende instanties voor statistiekbeheer, moet u de lijst **Intrastat - Formulier** afdrukken. Voordat u dit kunt doen, moet u het Intrastat-dagboek voorbereiden en invullen. Als u zowel verkoop- als inkooptransacties hebt, moet u een apart formulier invullen voor elke soort. U moet de lijst dus tweemaal afdrukken.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
@@ -95,7 +95,7 @@ Als u de gegevens wilt ophalen die nodig zijn op het Intrastat-formulier van de 
 5. Voeg een filter **Soort** toe in het sneltabblad **Intrastat-dagboekregel** en geef op of dit een **Ontvangst** of **Verzending** is.  
 6. Kies **Verzenden** om het rapport af te drukken.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Procedure: Intrastat in een bestand rapporteren
+### <a name="report-intrastat-in-a-file"></a>Intrastat in een bestand rapporteren
 U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, kunt u een controlelijst afdrukken met dezelfde gegevens als in het bestand.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboek** in en klik vervolgens op de gerelateerde koppeling.  
@@ -106,7 +106,7 @@ U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, 
 6. Kies **Opslaan**.  
 7. Blader naar de locatie waar u het bestand wilt opslaan, voer de bestandsnaam in en kies **Opslaan**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Procedure: Intrastat-dagboeken opnieuw indelen
+## <a name="reorganize-intrastat-journals"></a>Intrastat-dagboeken opnieuw indelen
 Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport een nieuwe dagboekbatch maakt, hebt u na verloop van tijd veel dagboekbatches. De dagboekregels worden niet automatisch verwijderd. U wilt de dagboekbatchnamen mogelijk periodiek wijzigen. Hiervoor verwijdert u de dagboekbatches die u niet meer gebruikt. De dagboekregels in deze batches worden ook verwijderd.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
@@ -115,6 +115,4 @@ Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport
 
 ## <a name="see-also"></a>Zie ook
 [Financieel beheer](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

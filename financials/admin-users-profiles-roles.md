@@ -1,6 +1,6 @@
 ---
 title: Gebruikers en rollen beheren | Microsoft Docs
-description: Leer hoe u gebruikers en rolcentra beheert in Dynamics 365 for Financials.
+description: Leren hoe u gebruikers en rolcentra beheert in Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8989767618962a2db861b2df60aa03a2ca2b484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b06c5ee737db74e5011c7854601a21bc04d8872a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="users-profiles-and-role-centers-in-dynamics-365-for-financials"></a>Gebruikers, profielen en rolcentra in Dynamics 365 for Financials
+# <a name="users-profiles-and-role-centers-in-finance-and-operations-business-edition"></a>Gebruikers, profielen en rolcentra in Finance and Operations, Business edition
 Aan alle personen in het bedrijf die toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben, wordt een *profiel* toegewezen dat ze toegang biedt tot een *rolcentrum*. Als beheerder kunt u profielen toewijzen en wijzigen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Daarnaast kunt u gebruikers toevoegen en verwijderen als onderdeel van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement.  
 
 ## <a name="adding-users"></a>Gebruikers toevoegen
-Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
 
 ## <a name="profiles"></a>Profielen
 Profielen zijn verzamelingen [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die hetzelfde rolcentrum delen. Een rolcentrum is een soort pagina waarop u de verschillende onderdelen kunt plaatsen. Elk deel is een container waarin u andere pagina's of vooraf gedefinieerde systeemdelen kunt hosten, zoals Outlook-onderdelen voor het toevoegen van taken, meldingen of notities.  
@@ -41,7 +41,7 @@ De beheerder configureert de gebruikersinterface voor meerdere gebruikers door d
 Gebruikers passen de gebruikersinterface van hun persoonlijke versie aan door de gebruikersinterface onder hun eigen gebruikersaanmelding te wijzigen. Deze personalisatie kan worden verwijderd door de beheerder.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)  
+[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)  
 <!-- [Customize the User Interface](../customize-the-user-interface.md)   
  [Security Overview](../Security%20Overview.md)-->
 

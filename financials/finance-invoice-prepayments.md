@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Vooruitbetalingen factureren
@@ -28,9 +28,9 @@ Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een ve
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Vooruitbetalingsboekingsgroepen en nummerreeksen instellen en standaardvooruitbetalingspercentages instellen voor klanten, leveranciers en artikelen.|[Procedure: Vooruitbetalingen instellen](finance-set-up-prepayments.md)|
-|Een order te maken, vooruitbetalingsbedragen aan te passen en een factuur te verzenden voor vooruitbetalingsbedragen.|[Procedure: vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)|  
-|Een aanvullende vooruitbetalingsfactuur te verzenden, voor aanvullende artikelen of voor een aanvullende borgsom op de oorspronkelijke order, of om een creditnota voor een vooruitbetaling te verzenden.|[Procedure: Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)|  
+|Vooruitbetalingsboekingsgroepen en nummerreeksen instellen en standaardvooruitbetalingspercentages instellen voor klanten, leveranciers en artikelen.|[Vooruitbetalingen instellen](finance-set-up-prepayments.md)|
+|Een order te maken, vooruitbetalingsbedragen aan te passen en een factuur te verzenden voor vooruitbetalingsbedragen.|[Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)|  
+|Een aanvullende vooruitbetalingsfactuur te verzenden, voor aanvullende artikelen of voor een aanvullende borgsom op de oorspronkelijke order, of om een creditnota voor een vooruitbetaling te verzenden.|[Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

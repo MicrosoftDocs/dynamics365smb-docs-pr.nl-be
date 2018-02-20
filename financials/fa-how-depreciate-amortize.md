@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>Procedure: Vaste activa afschrijven of aflossen
+# <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  
 
  U kunt een afschrijving op twee manieren boeken:  
@@ -27,7 +27,7 @@ Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en 
 * Automatisch, door de batchverwerking **Afschrijving berekenen** uit te voeren.  
 * Handmatig, met behulp van het financieel dagboek voor vaste activa.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dagelijkse afschrijving worden berekend zodat u de afschrijving voor elke willekeurige periode kunt berekenen. Zodoende kunt u de huidige bedrijfsresultaten per maand, per kwartaal of jaarlijks analyseren. Bij deze berekening worden een standaardjaar van 360 dagen en een standaardmaand van 30 dagen gebruikt. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] In  kan dagelijkse afschrijving worden berekend zodat u de afschrijving voor elke willekeurige periode kunt berekenen. Zodoende kunt u de huidige bedrijfsresultaten per maand, per kwartaal of jaarlijks analyseren. Bij deze berekening worden een standaardjaar van 360 dagen en een standaardmaand van 30 dagen gebruikt. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie.  
 
 Als verschillende afdelingen een vast activum gebruiken, kan de periodieke afschrijving automatisch worden toegewezen aan deze afdelingen volgens een door de gebruiker gedefinieerde toewijzingstabel.  
 
@@ -52,10 +52,10 @@ U kunt de batchverwerking **Afschrijving berekenen** eens per maand, of op een t
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **VA fin. dagboek** in en klik vervolgens op de gerelateerde koppeling.  
 2. Maak een eerste dagboekregel en vul de velden indien nodig in.  
 3. In het veld **VA-boekingssoort** selecteert u **Afschrijving**.  
-4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie het gedeelte "Boekingsgroepen voor vaste activa instellen" in de [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
+4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
 5. Kies op het tabblad **Start** de optie **Boeken** om het dagboek te boeken.  
 
-Als u verdeelsleutels voor vaste activa hebt ingesteld om bedragen over verschillende afdelingen of projecten te verdelen, worden de bedragen tijdens de boeking verdeeld. Zie [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
+Als u verdeelsleutels voor vaste activa hebt ingesteld om bedragen over verschillende afdelingen of projecten te verdelen, worden de bedragen tijdens de boeking verdeeld. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Verdelingen in het financieel dagboek voor vaste activa berekenen
 Als een vast activum door verschillende afdelingen wordt gebruikt, kan de periodieke afschrijving automatisch worden toegewezen aan deze afdelingen volgens een zelfgedefinieerde toewijzingstabel.  

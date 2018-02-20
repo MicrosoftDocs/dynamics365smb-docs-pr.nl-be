@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7402899cb7fe369503eee1b451dc652180e96264
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-mailing-groups-for-contacts"></a>Procedure: Mailinggroepen voor contacten instellen
+# <a name="set-up-mailing-groups-for-contacts"></a>Mailinggroepen voor contacten instellen
 U kunt mailinggroepen gebruiken om groepen contacten aan te geven die dezelfde informatie moeten ontvangen. U kunt bijvoorbeeld een mailinggroep instellen voor de contacten aan wie u een verhuisbericht voor uw kantoor wilt sturen, of een andere groep om relatiegeschenken aan te zenden.
 
 Mailinggroepen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de mailinggroepcode. U hoeft deze stap slechts eenmaal uit te voeren voor elke mailinggroep. Als u een mailinggroepcode hebt, kunt u beginnen de code toe te wijzen aan contactbedrijven.
@@ -39,7 +39,7 @@ Herhaal deze stappen om het gewenste aantal mailinggroepen toe te wijzen. U kunt
 
 Het aantal mailinggroepen dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal mailinggroepen** van het gedeelte **Segmentatie** in het venster **Contact**.
 
-Nadat u mailinggroepen hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Procedure: Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
+Nadat u mailinggroepen hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  

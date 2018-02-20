@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f7420a54a15616252ac4977c0c036a6096723af7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cb536c2d5f36385cacb91371cf1562c322e766f6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Kostenposten overbrengen en boeken
@@ -30,7 +30,7 @@ Voordat u kostenverdelingen definieert, moet u begrijpen hoe kostenposten uit de
 |**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  
 |Criteria voor het overbrengen van kostenposten vanuit het grootboek.|[Criteria voor het overbrengen van grootboekposten naar kostenposten.](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Grootboekposten met behulp van een batchverwerking overbrengen naar kostenposten.|[Procedure: grootboekposten overbrengen naar kostenposten.](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
+|Grootboekposten met behulp van een batchverwerking overbrengen naar kostenposten.|[Grootboekposten overbrengen naar kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
 |Zie de resultaten van de overboeking.|[Resultaten van de overboeking](finance-results-of-the-transfer.md)|  
 
 ## <a name="see-also"></a>Zie ook  

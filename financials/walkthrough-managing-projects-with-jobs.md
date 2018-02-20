@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
@@ -425,7 +425,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
     |Regel|Projecttaaknr.|Description|Soort projecttaak|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |0|1000|Betaling - Aanbetaling|Boeken|  
+    |1|1000|Betaling - Aanbetaling|Boeken|  
     |2|2000|Gebruik|Rekening|  
     |3|3000|Betaling - Halverwege|Rekening|  
     |4|4000|Betaling - Voltooiing|Boeken|  
@@ -481,8 +481,8 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
  [Projectbeheer instellen](projects-setup-projects.md)   
- [Procedure: Resources gebruiken](projects-how-use-resources.md)   
- [Procedure: Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)   
- [Procedure: Projecten factureren](projects-how-invoice-jobs.md)  
+ [Resources gebruiken](projects-how-use-resources.md)   
+ [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)   
+ [Projecten factureren](projects-how-invoice-jobs.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

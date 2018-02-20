@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>Procedure: Het rolcentrum wijzigen
+# <a name="change-the-role-center"></a>Het rolcentrum wijzigen
 De startpagina is uw belangrijkste toegangspunt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hier kunt u een overzicht krijgen van de dagelijkse werktaken en de status ervan. Taken die u vaak uitvoert, worden geopend via de tegels in het inhoudsgebied, het navigatiedeelvenster aan de linkerkant en door acties op het lint.
 
 De inhoud van de startpagina is gebaseerd op het geselecteerde rolcentrum. Het standaardrolcentrum voor [!INCLUDE[d365fin](includes/d365fin_md.md)] is **Bedrijfsmanager**, maar u kunt dit wijzigen en kiezen uit een aantal rolcentra.

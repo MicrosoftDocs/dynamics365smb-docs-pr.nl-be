@@ -13,22 +13,22 @@ ms.search.keywords: components, service item, service
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 956c211781b26311e927642ecf7d86864d6a2124
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 36bb2a053c2376a2999be9f8ecf39d4cdb628e96
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-service-offerings"></a>Procedure: Serviceaanbod instellen
+# <a name="set-up-service-offerings"></a>Serviceaanbiedingen instellen
 Bij het instellen van servicebeheer dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken. Een service is een type taak die door een of meerdere resources wordt uitgevoerd en die aan een klant wordt geleverd. Een service kan bijvoorbeeld een type computerreparatie zijn. Een serviceartikel bestaat uit de apparatuur of het artikel waarvoor de service moet worden uitgevoerd, bijvoorbeeld de computer die moet worden gerepareerd en ter plekke bij een klant is geïnstalleerd. U kunt services instellen als onderdeel van een groep aan elkaar gerelateerde reparatie- en onderhoudsartikelen.  
   
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
   
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Informatie invoeren over de serviceartikelen die uw serviceorganisatie bijhoudt.|[Procedure: Serviceartikelen maken](service-how-to-create-service-items.md)|  
-|Een werkstroom voor de service vaststellen wanneer de serviceartikelen uit verschillende onderdelen bestaan. De lijst met onderdelen is altijd gekoppeld aan een serviceartikel, maar deze onderdelen kunnen ook worden gebaseerd op stuklijsten.|[Procedure: Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)|  
+|Informatie invoeren over de serviceartikelen die uw serviceorganisatie bijhoudt.|[Serviceartikelen maken](service-how-to-create-service-items.md)|  
+|Een werkstroom voor de service vaststellen wanneer de serviceartikelen uit verschillende onderdelen bestaan. De lijst met onderdelen is altijd gekoppeld aan een serviceartikel, maar deze onderdelen kunnen ook worden gebaseerd op stuklijsten.|[Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)|  
   
 ## <a name="see-also"></a>Zie ook  
 [CRM - Service instellen](service-setup-service.md)   

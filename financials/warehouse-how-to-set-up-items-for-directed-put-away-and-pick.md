@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Procedure: Artikelen en locaties instellen voor gestuurde opslag en pick
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Artikelen en locaties instellen voor gestuurde opslag en pick
 Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick nieuwe functionaliteit beschikbaar om u te helpen om het magazijn op de meest efficiënte wijze te beheren. Als u deze functionaliteit ten volle wilt benutten, geeft u extra informatie op over de artikelen, zodat het eenvoudiger wordt om de berekeningen uit te voeren die zijn vereist voor het voorstellen van de meest efficiënte en de meest doeltreffende wijzen voor het uitvoeren van magazijnactiviteiten. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>U kunt als volgt een artikelen instellen voor gestuurde opslag en pick  
@@ -44,7 +44,7 @@ U hoeft de andere velden op de vestigingskaart pas later in het installatieproce
 > [!NOTE]  
 >  U kunt het gebruik van opslaglocaties niet voor het magazijn instellen als voor de vestiging nog artikelposten openstaan.  
 
-De volgende stap bestaat uit het definiëren van het soort opslaglocatie waarmee u wilt werken. Zie [Procedure: Opslaglocatiesoorten instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie. Hiermee geeft u aan hoe een bepaalde opslaglocatie wordt gebruikt bij de verwerking van de artikelenstroom in het magazijn. U kunt een bepaald soort opslag toewijzen aan zowel een zone als een opslaglocatie.  
+De volgende stap bestaat uit het definiëren van het soort opslaglocatie waarmee u wilt werken. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie. Hiermee geeft u aan hoe een bepaalde opslaglocatie wordt gebruikt bij de verwerking van de artikelenstroom in het magazijn. U kunt een bepaald soort opslag toewijzen aan zowel een zone als een opslaglocatie.  
 
 Als bepaalde artikelen onder verschillende omstandigheden moeten worden opgeslagen in het magazijn, kunt u ook magazijnklassen definiëren. Magazijnklassen worden gebruikt voor het voorstellen van de plaatsing van artikelen in opslaglocaties. U wijst magazijnklassen toe aan productgroepen, die vervolgens worden toegewezen aan artikelen en SKU's of zones en opslaglocaties die kunnen voldoen aan de opslagvoorwaarden die de magazijnklasse vereist.  
 
@@ -60,9 +60,9 @@ Wanneer u een zoneparameter wijzigt, worden de nieuwe kenmerken toegepast op all
 > [!NOTE]  
 >  Als u zonder zones wilt werken, moet u toch één zonecode maken die alleen voor de code is gedefinieerd.  
 
-De volgende stap bij het instellen van het magazijn bestaat uit het definiëren van opslaglocaties. Zie [Procedure: gebruik van opslaglocaties voor locaties instellen](warehouse-how-to-set-up-locations-to-use-bins.md) voor meer informatie.  
+De volgende stap bij het instellen van het magazijn bestaat uit het definiëren van opslaglocaties. Zie [Gebruik van opslaglocaties voor locaties instellen](warehouse-how-to-set-up-locations-to-use-bins.md) voor meer informatie.  
 
-Daarnaast moet u opslagsjablonen en tellingsperioden maken. Zie voor meer informatie [Procedure: Opslagsjablonen instellen](warehouse-how-to-set-up-put-away-templates.md).  
+Daarnaast moet u opslagsjablonen en tellingsperioden maken. Zie voor meer informatie [Opslagsjablonen instellen](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

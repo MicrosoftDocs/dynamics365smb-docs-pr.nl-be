@@ -1,6 +1,6 @@
 ---
 title: Vaste activa verzekeren| Microsoft Docs
-Description: U kunt een vast activum aan een verzekeringspolis toewijzen, die wordt vertegenwoordigd door een verzekeringskaart.
+Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,23 +13,23 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Procedure: Vaste activa verzekeren
+# <a name="insure-fixed-assets"></a>Vaste activa verzekeren
 Een verzekeringspolis voor een vast activum wordt vertegenwoordigd door een verzekeringskaart. U kunt één vast activum aan één verzekeringspolis toewijzen, maar u kunt ook meerdere vaste activa aan één verzekeringspolis toewijzen.
 
 U wijst een vast activum toe aan een verzekeringspolis door te boeken naar de dekkingsposten via het venster **Verzekeringsdagboek**.
 
-Daarnaast kunt u een vast activum koppelen aan een verzekeringspolis en dekkingsposten maken wanneer u de bijbehorende aanschafkosten boekt. Dit doet u door de aanschafkosten vanuit het financieel dagboek voor vaste activa te boeken terwijl het veld **Verzekeringsnr.** is ingevuld. Het selectievakje **Autom. verzekering boeken** in het venster **VA-instellingen** moet zijn ingeschakeld. Zie het gedeelte "De aanschaf van een vast activum handmatig boeken met het financieel dagboek voor vaste activa" in [Procedure: Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
+Daarnaast kunt u een vast activum koppelen aan een verzekeringspolis en dekkingsposten maken wanneer u de bijbehorende aanschafkosten boekt. Dit doet u door de aanschafkosten vanuit het financieel dagboek voor vaste activa te boeken terwijl het veld **Verzekeringsnr.** is ingevuld. Het selectievakje **Autom. verzekering boeken** in het venster **VA-instellingen** moet zijn ingeschakeld. Zie het gedeelte 'De aanschaf van een vast activum handmatig boeken met het financieel dagboek voor vaste activa' in [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
 
 Als het selectievakje **Autom. verzekering boeken** in het venster **VA-instellingen** niet is ingeschakeld, worden door aanschaf te boeken in het financieel dagboek voor vaste activa, regels gemaakt in het venster **Verzekeringsdagboek**. Deze moet u dan handmatig boeken.
 
 > [!WARNING]  
->   Als u het selectievakje **Autom. verzekering boeken** niet inschakelt in het venster **VA-instellingen**, moet uw verzekeringsdagboek op een dagboeksjabloon zonder een nummerreeks worden gebaseerd. Dit komt doordat de ingevoegde documentnummers van de dagboekregel voor vaste activa anders in strijd zijn met de nummerreeks van het verzekeringsdagboek. Zie [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie over dagboeksjablonen en -batches.
+>   Als u het selectievakje **Autom. verzekering boeken** niet inschakelt in het venster **VA-instellingen**, moet uw verzekeringsdagboek op een dagboeksjabloon zonder een nummerreeks worden gebaseerd. Dit komt doordat de ingevoegde documentnummers van de dagboekregel voor vaste activa anders in strijd zijn met de nummerreeks van het verzekeringsdagboek. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie over dagboeksjablonen en -batches.
 
 Nadat u een vast activum aan een verzekeringspolis hebt toegewezen, wordt het selectievakje **Verzekerd** ingeschakeld voor het vaste activum. Wanneer u het vaste activum verkoopt, wordt het selectievakje automatisch uitgeschakeld.
 
@@ -70,7 +70,7 @@ Met de batchverwerking **Verzekering indexeren** kunt u de waarde wijzigen van d
 5. Open het relevante verzekeringsdagboek, controleer de gemaakte waarden en boek deze naar de dekkingsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Verzekeringsdekking controleren
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat bepaalde rapporten en statistiekvensters voor gebruik bij het analyseren van verzekeringspolissen en om te controleren of uw vaste activa onder- of oververzekerd zijn.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  bevat bepaalde rapporten en statistiekvensters voor gebruik bij het analyseren van verzekeringspolissen en om te controleren of uw vaste activa onder- of oververzekerd zijn.  
 
 ### <a name="overview-of-insurance-policies"></a>Overzicht van verzekeringspolissen
 Om een overzicht van uw verzekeringspolissen te verkrijgen bekijkt u een voorbeeld van het rapport **Verzekering - Lijst** of drukt u het af. Het rapport bevat alle polissen en de belangrijkste velden van de verzekeringskaarten.  

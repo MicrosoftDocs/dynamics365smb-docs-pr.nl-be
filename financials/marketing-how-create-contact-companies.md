@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed0f75f1e0ee8a282b58458e4fed3b4eef7c46fb
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-companies"></a>Procedure: contactbedrijven maken
+# <a name="create-contact-companies"></a>Contactbedrijven maken
 U kunt een contactkaart maken voor elk nieuw bedrijf waarmee u een zakelijke relatie hebt, bijvoorbeeld een klant, leverancier, potentiële klant, bank, advocatenkantoor, consultant, enzovoort.
 
 Er zijn twee manieren om een contact maken: volledig nieuw of van een bestaande klant, leverancier of bankrekening.,
@@ -58,6 +58,6 @@ Als u al een aantal klanten, leveranciers of bankrekeningen hebt ingesteld, kunt
 [Zakenrelaties toewijzen aan een contact](marketing-business-relations.md#AssignBusRelContact)  
 [Sectoren toewijzen aan een contact](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Mailinggroepen aan een contact toewijzen](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Procedure: contactpersonen maken](marketing-create-contact-persons.md)  
-[Werken met Dynamics 365](ui-work-product.md)
+[Contacten maken](marketing-create-contact-persons.md)  
+[Werken met Finance and Operations, Business edition](ui-work-product.md)
 

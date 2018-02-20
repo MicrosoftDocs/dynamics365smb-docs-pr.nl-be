@@ -1,1 +1,1 @@
-U kunt wijzigen hoe bepaalde gebruikersinterface-elementen worden weergegeven. Zie [Persoonlijke gebruikersinstellingen](../ui-user-personalization.md) voor meer informatie.
+U kunt wijzigen hoe bepaalde gebruikersinterface-elementen worden weergegeven. Zie [Uw werkruimte personaliseren](../ui-personalization-user.md) voor meer informatie.

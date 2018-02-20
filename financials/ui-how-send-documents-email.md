@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: afc73b146ce3c95ea47ac935e826b27f0a18d325
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-documents-by-email"></a>Procedure: Documenten per e-mail verzenden
+# <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
 Om de inhoud van bedrijfsdocumenten snel aan uw zakelijke partners door te geven, zoals de betalingsgegevens over verkoopdocumenten aan klanten, kunt u de functie Rapportlay-out gebruiken om documentspecifieke inhoud te definiëren die automatisch wordt ingevoegd in hoofdteksten van e-mail. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
 
 Als u e-mails vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt inschakelen, start u de begeleide instelling **E-mail instellen** op de startpagina.
@@ -40,8 +40,8 @@ In de volgende procedure wordt beschreven hoe u het rapport **Verkoop - factuur*
 
     Met rapportlay-outs wordt zowel de stijl als de inhoud van de e-mailhoofdtekst gedefinieerd, inclusief de standaardtekst die voorafgaat aan de basisdocumentinformatie in de hoofdtekst van de e-mail. U kunt alle beschikbare lijstindelingen bekijken als u de knop **Selecteren vanuit volledige lijst** kiest in de vervolgkeuzelijst.
 6. Als u de lay-out wilt weergeven of bewerken waarop de e-mailhoofdtekst is gebaseerd, selecteert u in het venster **Aangepaste rapportlay-outs** de gewenste lay-out en vervolgens de actie **Lay-out bewerken**.
-7. Als u klanten wilt aanbieden om voor verkoop elektronisch te betalen, kunt u de gerelateerde betalingsservice, zoals PayPal, instellen en vervolgens ook de PayPal-informatie en hyperlink in de hoofdtekst van de e-mail invoegen. Zie [Procedure: Klantbetalingen mogelijk maken via PayPal](sales-how-enable-payment-service-extensions.md) voor meer informatie.
-8. Kies de knop **Ok**.
+7. Als u klanten wilt aanbieden om voor verkoop elektronisch te betalen, kunt u de gerelateerde betalingsservice, zoals PayPal, instellen en vervolgens ook de PayPal-informatie en hyperlink in de hoofdtekst van de e-mail invoegen. Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
+8. Kies de knop **OK**.
 
 Wanneer u nu bijvoorbeeld de actie **Verzenden** kiest in het venster **Geboekte verkoopfactuur**, bevat de e-mailhoofdtekst de documentgegevens van rapport 1306, voorafgegaan door standaardtekst die is geformatteerd volgens de rapportlay-out die u in stap 5 hebt geselecteerd.
 
@@ -50,8 +50,8 @@ In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als 
 ## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer de relevante geboekte verkoopfactuur en kies de actie **Verzenden**. Het venster **Document verzenden naar** verschijnt.
-3. Selecteer in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Procedure: Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
-4. Kies de knop **Ok**. Het venster **E-mail verzenden** wordt geopend.
+3. Selecteer in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
+4. Kies de knop **OK**. Het venster **E-mail verzenden** wordt geopend.
 5. Voer in het veld **Aan** een geldig e-mailadres. De standaardwaarde is het e-mailadres van de klant.
 6. Voer in het veld **Onderwerp** een beschrijvende onderwerptekst in. De standaardwaarde is de naam van de klant en het factuurnummer.
 7. In het veld **Bijlage** wordt de gegenereerde factuur standaard gekoppeld als een PDF-bestand. Kies de opzoekknop om het bestand te openen of nog een bestand bij te voegen.
@@ -61,11 +61,11 @@ In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als 
 9. Kies de knop **OK** om het e-mailbericht te verzenden.
 
 > [!NOTE]  
->   Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van het venster **Document verzenden naar** selecteren. In dat geval wordt het venster **E-mail verzenden** niet geopend. Zie stap 4. Zie [Procedure: Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
+>   Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van het venster **Document verzenden naar** selecteren. In dat geval wordt het venster **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)  
-[Procedure: E-mail instellen](madeira-how-setup-email.md)  
-[Procedure: Verkopen factureren](sales-how-invoice-sales.md)  
+[E-mail instellen](madeira-how-setup-email.md)  
+[Verkopen factureren](sales-how-invoice-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Welkom | Microsoft Docs
-description: Schetst de begeleide instellingen, video's, Help-onderwerpen en pagina's en vensters die u kunt gebruiken om u gereed te maken voor het doen van zaken in Dynamics 365 Business edition.
+description: Schetst de begeleide instellingen, video's, Help-onderwerpen en pagina's en vensters die u kunt gebruiken om u gereed te maken voor het doen van zaken in Finance and Operations, Business edition.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
@@ -39,7 +39,7 @@ In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het vol
 | Office-invoegtoepassingen instellen |Hiermee wordt de mogelijkheid ingesteld om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken en te starten vanuit Outlook. |
 | Goedkeuringswerkstroom inst. |Stelt de mogelijkheid in om automatisch een fiatteur te informeren wanneer een gebruiker probeert bepaalde waarden in documenten, dagboekregels of kaarten te wijzigen, zoals een bedrag boven een opgegeven limiet. |
 | E-maillogboekregistratie instellen |Hiermee wordt de mogelijkheid ingesteld om e-mailcorrespondentie te registreren in [!INCLUDE[d365fin](includes/d365fin_md.md)] om interacties op te volgen. |
-| Connector voor Dynamics 365 instellen |Hiermee wordt een verbinding met Dynamics 365 for Sales ingesteld waarmee u gegevens kunt synchroniseren zoals contacten en verkoopordergegevens. |
+| De Finance and Operations, Business edition-connector instellen |Hiermee wordt een verbinding met Dynamics 365 for Sales ingesteld waarmee u gegevens kunt synchroniseren zoals contacten en verkoopordergegevens. |
 
 Wanneer u een begeleide instelling uitvoert, wordt deze gemarkeerd als **Voltooid**. Als u de begeleide instelling wilt uitvoeren, kiest u de drie puntjes die ook het contextmenu worden genoemd, en selecteert u vervolgens **Instelling starten**.
 
@@ -51,7 +51,7 @@ Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te ma
 Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat in dit venster doen.    
 
 ## <a name="adding-users-and-permissions"></a>Gebruikers en machtigingen toevoegen
-Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
 
 ## <a name="getting-help"></a>Help opvragen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. In elke knopinfo vindt u een koppeling met de naam **Meer informatie** die u naar de product-Help brengt. Het vraagteken in de rechterbovenhoek verwijst u ook naar product-Help.
@@ -61,5 +61,5 @@ Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe 
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
+[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
 

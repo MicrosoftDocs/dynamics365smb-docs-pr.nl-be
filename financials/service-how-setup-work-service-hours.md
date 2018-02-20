@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 043f1b9044e65e4aba52690f5f62cebcbd397f8d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 630875f80f4107522962c79734284569cbc2b6f7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-hours-and-service-hours"></a>Procedure: Service- en werkuren instellen
+# <a name="set-up-work-hours-and-service-hours"></a>Service- en werkuren instellen
 Met een servicebeheersysteem worden de resource-uren en serviceorderstatus bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft ingebouwde tools die u kunt aanpassen om dit soort informatie vast te leggen.  
   
 Nadat u de standaardservice-uren van uw bedrijf hebt ingesteld, kunt u responstijden voor serviceorders berekenen of waarschuwingen verzenden wanneer serviceoproepen worden ontvangen. De waarschuwingsfunctie wordt in combinatie met de projectplanner geïmplementeerd.   
@@ -29,7 +29,7 @@ Terwijl u aan serviceorder werkt, is het handig om de status te kunnen bijwerken
 ## <a name="to-set-up-default-service-hours"></a>Standaardservice-uren instellen  
 In het venster **Std. service-uren** kunt u de gebruikelijke servicewerkuren in het bedrijf instellen. Deze service-uren worden gebruikt om de responsdatum en -tijd voor serviceorders en -offertes te berekenen en om responstijdwaarschuwingen te verzenden. De standaardservice-uren voor servicecontracten worden gebruikt tenzij u speciale service-uren voor een contract opgeeft.  
   
-1. Klik op het pictogram ![Zoeken naar pagina of rapport]pictogram (media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Std. service-uren** in en klik vervolgens op de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport")-pictogram, voer **Std. service-uren** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  

@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6dfdfce56a06c779881eb0a0f9553d19b6abd1ef
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
@@ -33,13 +33,13 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Als u dit wilt doen | Zie |
 | --- | --- |
 |In het venster **Betalingsdagboek**, dat is gebaseerd op van het dagboek, kunt u betalingen aan leveranciers of werknemers boeken.|[Werken met diversendagboeken](ui-work-general-journals.md)|
-| Gebruik een functie om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Procedure: Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
-|Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Procedure: kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
-| Geef cheques uit voor leveranciersbetalingen, als afdrukken of computercheques. Cheques nietig verklaren voor of na het boeken. |[Procedure: Werken met cheques](payables-how-work-checks.md) |
-| De leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Procedure: inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
-| Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Procedure: Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
-|Exporteer betalingen vanuit het venster **Betalingsdagboek** naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (electronic funds transfer) in Noord-Amerika. |[Procedure: Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)|
-|Maak elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
+| Gebruik een functie om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
+|Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
+| Geef cheques uit voor leveranciersbetalingen, als afdrukken of computercheques. Cheques nietig verklaren voor of na het boeken. |[Werken met cheques](payables-how-work-checks.md) |
+| De leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
+|Exporteer betalingen vanuit het venster **Betalingsdagboek** naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (electronic funds transfer) in Noord-Amerika. |[Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)|
+|Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Zie ook
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 04d7703df0c1b5e4da8996f00b5f1eed293cbf56
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd090720943d0d7271200e087642a80157cbdbbd
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-prepayment-invoices"></a>Procedure: vooruitbetalingsfacturen maken
+# <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie voor vooruitbetalingen gebruiken.  
 
 Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u een vooruitbetalingsnota maken. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen. U kunt bijvoorbeeld een totaalbedrag opgeven voor de hele order.  
@@ -28,7 +28,7 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
 
 ## <a name="to-create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
-2. Maak een nieuwe verkooporder. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
+2. Een nieuwe verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 
     Op het sneltabblad **Vooruitbetaling**, wordt het veld **vooruitbetaling %** op de kop automatisch ingevuld als de klantenkaart een standaardvooruitbetalingspercentage bevat. U kunt de inhoud van het veld wijzigen. Het vooruitbetalingspercentage wordt alleen vanuit de kop gekopieerd naar regels waarnaar het standaardvooruitbetalingspercentage van het artikel niet wordt gekopieerd.  
 

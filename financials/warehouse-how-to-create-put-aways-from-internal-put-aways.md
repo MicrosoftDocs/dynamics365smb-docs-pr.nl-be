@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Procedure: Picken en opslaan zonder een brondocument
+# <a name="pick-and-put-away-without-a-source-document"></a>Picken en opslaan zonder een brondocument
 Artikelen die worden opgeslagen om te worden gepickt voor een productieorder of verzending, maken deel uit van de beschikbare voorraad in het magazijn.  
 
 Er kunnen situaties ontstaan waarbij artikelen tijdelijk uit de magazijn-opslaglocaties gehaald moeten worden om bijvoorbeeld als demonstratiemodel te dienen tijdens een verkooppresentatie. Deze artikelen zijn nog steeds eigendom van het bedrijf en maken deel uit van de voorraad, maar ze zijn niet beschikbaar voor picken. Ze worden geregistreerd in een speciale opslaglocatie die u voor dit doel maakt; officieel bevinden de artikelen zich in het magazijn, maar fysiek kunnen ze in een vergadering of demonstratie in gebruik zijn.  

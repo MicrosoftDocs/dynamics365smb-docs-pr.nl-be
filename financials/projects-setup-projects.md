@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4334dd85d5dff1989e7435814e552fabad04a6ca
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-project-management"></a>Projectbeheer instellen
@@ -28,9 +28,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 | Als u dit wilt doen | Zie |
 | --- | --- |
-| Stel uw resources en de gerelateerde kosten en prijzen in voor afzonderlijke resources, resourcegroepen of alle beschikbare resources van het bedrijf. |[Procedure: Resources instellen](projects-how-setup-resources.md) |
-| Schakel resources in om tijdgebruik te rapporteren voor een persoon of een machine en schakel een beheerder in die het gebruik en de toewijzing ervan controleert. |[Procedure: Urenstaten instellen](projects-how-setup-time-sheets.md) |
-| Maak projectkaarten en bereid projecttaken voor. Stel prijzen in voor projectartikelen en projectresources, en definieer projectboekingsgroepen. |[Procedure: projecten instellen](projects-how-setup-jobs.md) |
+| Stel uw resources en de gerelateerde kosten en prijzen in voor afzonderlijke resources, resourcegroepen of alle beschikbare resources van het bedrijf. |[Resources instellen](projects-how-setup-resources.md) |
+| Schakel resources in om tijdgebruik te rapporteren voor een persoon of een machine en schakel een beheerder in die het gebruik en de toewijzing ervan controleert. |[Urenstaten instellen](projects-how-setup-time-sheets.md) |
+| Maak projectkaarten en bereid projecttaken voor. Stel prijzen in voor projectartikelen en projectresources, en definieer projectboekingsgroepen. |[Projecten instellen](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Projecten beheren](projects-manage-projects.md)  

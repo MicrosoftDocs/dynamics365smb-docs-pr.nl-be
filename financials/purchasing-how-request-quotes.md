@@ -12,19 +12,19 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3fe5eca9c26380248471facbd945838b1bf47a1d
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-request-quotes"></a>Procedure: Offertes aanvragen
+# <a name="request-quotes"></a>Offertes aanvragen
 U kunt een inkoopofferte als conceptversie van de inkooporder gebruiken. De order kan vervolgens in een inkoopfactuur of een order worden omgezet.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Een inkoopofferte maken
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopoffertes** in en klik vervolgens op de gerelateerde koppeling.
-2. Maak een nieuw document op dezelfde manier als u een inkooporder maakt. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).
+2. Maak een nieuw document op dezelfde manier als u een inkooporder maakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Een inkoopofferte omzetten in een inkooporder
 Wanneer u de leveranciersofferte hebt geaccepteerd, kunt u deze omzetten naar een inkoopfactuur of order om de inkoop te verwerken.
@@ -36,6 +36,6 @@ De inkoopofferte wordt verwijderd uit de database. Een inkoopfactuur of -order w
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  
-[Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

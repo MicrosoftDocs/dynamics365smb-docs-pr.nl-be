@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
   
 | Aan | Zie |
 | --- | --- |
-| Codes instellen waarmee automatisch regels in servicedocumenten worden toegewezen voor services die u vaak levert. |[Procedure: Codes voor standaardservices instellen](service-how-setup-service-coding.md)|
-| Algemene instellingen opgeven om aspecten van processen van CRM - Service te configureren.|[Procedure: Serviceprocessen configureren](service-setup-service-processes.md)|
-| Definiëren hoe uw organisatie met probleemrapportage werkt. |[Procedure: Probleemrapportage instellen](service-how-setup-fault-reporting.md) |
-| Het serviceaanbod van uw bedrijf aan klanten instellen.|[Procedure: Serviceaanbod instellen](service-how-setup-service-offerings.md)|
-| Richtlijnen voor troubleshooting opgeven waarmee servicevertegenwoordigers sneller service kunnen leveren. |[Procedure: Richtlijnen voor troubleshooting instellen](service-how-setup-troubleshooting.md) |
-| Resourcetoewijzing instellen om het gemakkelijk te maken de juiste resource aan een servicetaak toe te wijzen. |[Procedure: Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) |
-| Prijzen voor services opgeven en aanvullende servicekosten instellen voor evaluatie in serviceorders. |[Procedure: Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)|
-| Alles zo instellen dat resource-uren en de serviceorderstatus worden bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften.|[Procedure: Service- en werkuren instellen](service-how-setup-work-service-hours.md)|
-| Herstelstatusopties instellen waarmee u de voortgang betreffende reparaties kunt bewaken. | [Procedure: Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)|
-| Een programma voor uitleenartikelen opzetten, zodat u een vervangend artikel kunt uitlenen terwijl u aan een serviceartikel werkt. |[Procedure: Uitleenprogramma instellen](service-how-setup-loaner-program.md) |
-| Serviceartikelen en serviceartikelonderdelen instellen. |[Procedure: Serviceartikelen instellen](service-how-setup-service-items.md) |
-| De basis leggen voor het maken van servicecontracten en contractoffertes. |[Procedure: Servicecontracten opstellen](service-how-setup-service-contracts.md) |
+| Codes instellen waarmee automatisch regels in servicedocumenten worden toegewezen voor services die u vaak levert. |[Codes voor standaardservices instellen](service-how-setup-service-coding.md)|
+| Algemene instellingen opgeven om aspecten van processen van CRM - Service te configureren.|[Serviceprocessen configureren](service-setup-service-processes.md)|
+| Definiëren hoe uw organisatie met probleemrapportage werkt. |[Foutrapportage instellen](service-how-setup-fault-reporting.md) |
+| Het serviceaanbod van uw bedrijf aan klanten instellen.|[Serviceaanbiedingen instellen](service-how-setup-service-offerings.md)|
+| Richtlijnen voor troubleshooting opgeven waarmee servicevertegenwoordigers sneller service kunnen leveren. |[Troubleshooting instellen](service-how-setup-troubleshooting.md) |
+| Resourcetoewijzing instellen om het gemakkelijk te maken de juiste resource aan een servicetaak toe te wijzen. |[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) |
+| Prijzen voor services opgeven en aanvullende servicekosten instellen voor evaluatie in serviceorders. |[Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)|
+| Alles zo instellen dat resource-uren en de serviceorderstatus worden bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften.|[Service- en werkuren instellen](service-how-setup-work-service-hours.md)|
+| Herstelstatusopties instellen waarmee u de voortgang betreffende reparaties kunt bewaken. | [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)|
+| Een programma voor uitleenartikelen opzetten, zodat u een vervangend artikel kunt uitlenen terwijl u aan een serviceartikel werkt. |[Uitleenprogramma instellen](service-how-setup-loaner-program.md) |
+| Serviceartikelen en serviceartikelonderdelen instellen. |[Serviceartikelen instellen](service-how-setup-service-items.md) |
+| De basis leggen voor het maken van servicecontracten en contractoffertes. |[Servicecontracten instellen](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Zie ook 
 [CRM - Service](service-service.md)  

@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>Procedure: Onderhoud van vaste activa instellen
+# <a name="set-up-fixed-asset-maintenance"></a>Onderhoud van vaste activa instellen
 Als u onderhoud voor vaste activa wilt beheren, moet u eerst enkele algemene onderhoudsgegevens instellen, een boekingsrekening voor onderhoudskosten en onderhoudscodes voor soorten werk, zoals periodiek onderhoud of reparatie.
 
 ## <a name="to-set-up-general-maintenance-information"></a>Algemene onderhoudsgegevens instellen
@@ -42,7 +42,7 @@ Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren in 
 2. Vul voor elke boekingsgroep het veld **Onderhoudskostenrek.** in.
 
 > [!NOTE]  
->   Als u wilt definiëren dat onderhoudskosten worden verdeeld over afdelingen of projecten, stelt u een verdeelsleutel in. Zie [Procedure: Algemene functies voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
+>   Als u wilt definiëren dat onderhoudskosten worden verdeeld over afdelingen of projecten, stelt u een verdeelsleutel in. Zie [Algemene functies voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  

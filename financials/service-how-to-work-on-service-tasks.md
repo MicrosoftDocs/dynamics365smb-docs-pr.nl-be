@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>Procedure: Werken aan servicetaken
+# <a name="work-on-service-tasks"></a>Werken aan servicetaken
 Wanneer u een serviceorder of -offerte hebt gemaakt, serviceartikelregels hebt geregistreerd en resources aan de serviceartikelen in de order of offerte hebt toegewezen, kunt u beginnen met het herstel en onderhoud van de serviceartikelen.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een venster **Servicetaken** dat u een overzicht biedt van alle serviceartikelen die aandacht vereisen. Beschouw dit venster als uw servicedashboard, waar u kunt zien welke orders in behandeling zijn, waar u reserveonderdelen kunt zoeken en registreren, en waar u de voorraad up-to-date kunt houden.  
@@ -106,7 +106,7 @@ Nadat u een serviceartikel hebt hersteld, kunt u de probleemcode en de oplossing
 4. Vul de regel in. Kies de combinatie van probleem- en oplossingscodes, en kies **OK** om deze naar het serviceartikel te kopiëren. Als de juiste combinatie niet wordt gevonden, kunt u een nieuwe combinatie in het venster instellen.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Probleemrapportage instellen](service-how-setup-fault-reporting.md)
+[Probleemrapportage instellen](service-how-setup-fault-reporting.md)
 [Toewijzingsstatus en herstelstatus](service-allocation-status-and-repair-status.md)  
 [Serviceboekingen](service-service-posting.md)  
 

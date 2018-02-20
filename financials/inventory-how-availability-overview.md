@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Procedure: beschikbaarheid van artikelen weergeven
+# <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
 
 U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt de beschikbaarheid van elk artikel per gebeurtenis, per periode, of per vestiging weergegeven. Een gebeurtenis is elke geplande artikeltransactie, bijvoorbeeld een verkoopverzending of een inkomende transferontvangst.
 
 > [!NOTE]  
->   Beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie voor meer informatie [Procedure: Vestigingen instellen](inventory-how-setup-locations.md).
+>   Beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie [Vestigingen instellen](inventory-how-setup-locations.md) voor meer informatie.
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers weergegeven in twee verschillende velden, elk met een andere definitie:
 
@@ -35,7 +35,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers
 >   Het geplande beschikbare saldo is met name van belang voor weergave in de vensters **Beschikbaarheid per periode** en **Artikelbeschikbaarheid per gebeurtenis**, aangezien deze de datumdimensie bevatten.  
 
 > [!NOTE]  
->   In de volgende procedures wordt beschreven hoe geavanceerde beschikbaarheidsgegevens worden weergegeven vanuit het artikeloverzicht en de artikelkaart. U kunt ook toegang tot de informatie krijgen vanuit verkoopdocumentregels, voor het artikel op de regel. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+>   In de volgende procedures wordt beschreven hoe geavanceerde beschikbaarheidsgegevens worden weergegeven vanuit het artikeloverzicht en de artikelkaart. U kunt ook toegang tot de informatie krijgen vanuit verkoopdocumentregels, voor het artikel op de regel. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
 U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltransacties in het venster **Artikelbeschikbaarheid per gebeurtenis**.
@@ -115,10 +115,10 @@ Als een of meer assemblageonderdelen niet beschikbaar zijn, wordt dit weerspiege
 ## <a name="see-also"></a>Zie ook
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)    
-[Procedure: Vestigingen instellen](inventory-how-setup-locations.md)  
-[Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)  
-[Procedure: Producten verkopen](sales-how-sell-products.md)      
-[Werken met Dynamics 365](ui-work-product.md)  
+[Werken met stuklijsten](inventory-how-work-BOMs.md)    
+[Vestigingen instellen](inventory-how-setup-locations.md)  
+[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)  
+[Producten verkopen](sales-how-sell-products.md)      
+[Werken met Finance and Operations, Business edition](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

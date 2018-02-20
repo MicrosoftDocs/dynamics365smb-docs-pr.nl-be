@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Verkoopcycli en cyclusfasen instellen voor opportunities| Microsoft Docs'
-description: Hier wordt beschreven hoe u verkoopstadia definieert, van eerste contact tot sluiten, om een verkoopcyclus te maken en toe te wijzen aan opportunities in Dynamics 365 Business edition.
+description: Hier wordt beschreven hoe u verkoopstadia definieert, van eerste contact tot sluiten, om een verkoopcyclus te maken en toe te wijzen aan opportunities in Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Procedure: Verkoopcycli instellen voor opportunities en cyclusfasen
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Verkoopcycli instellen voor opportunities en cyclusfasen
 Voordat u verkoopopportunities in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Een verkoopcyclus bestaat uit een reeks fasen vanaf het eerste contact tot aan het sluiten van een verkoop. Elke fase kan bepaalde vereisten hebben waaraan moet worden voldaan, zoals een verkoopofferte, voordat een opportunity naar de volgende fase kan gaan. U kunt ook aangeven of een fase kan worden overgeslagen. U kunt elk gewenst aantal verkoopcycli instellen en u kunt binnen een verkoopcyclus elk gewenst aantal verkoopcyclusfasen instellen.
 
 Het implementeren van opportunityverkoopcycli betreft het instellen van de verkoopcycluscode, het definiëren van de verschillende fasen van de cyclus en het toewijzen van de cyclus aan opportunities. Het toekennen van de relevante activiteit of taken aan de opportunity kan ook deel uitmaken van het instellen van een verkoopcyclus.
@@ -37,7 +37,7 @@ Herhaal deze stappen om het gewenste aantal verkoopcycli in te stellen. Nadat u 
 Herhaal deze stappen om het gewenste aantal fasen binnen de verkoopcyclus in te stellen.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>Verkoopfasecycli aan opportunities toewijzen
-Nadat u de opportunityfasecyclus toevoegt, kunt u beginnen om verkoopopportunities toe te voegen en vervolgens de fasecyclus aan opportunities toewijzen door het veld **Verkoopcycluscode** in te stellen. Zie voor meer informatie [Procedure: Verkoopopportunities maken](marketing-how-create-opportunities.md).
+Nadat u de opportunityfasecyclus toevoegt, kunt u beginnen om verkoopopportunities toe te voegen en vervolgens de fasecyclus aan opportunities toewijzen door het veld **Verkoopcycluscode** in te stellen. Zie voor meer informatie [Verkoopopportunities maken](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>Activiteiten instellen met taken
 U kunt meerdere taken combineren, bijvoorbeeld taken die elk een stap in activiteiten vertegenwoordigen. Activiteittaken worden gerelateerd aan elkaar met een datumformule. U kunt activiteiten aan opportunities, verkopers of contacten toewijzen.

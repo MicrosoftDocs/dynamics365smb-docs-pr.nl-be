@@ -1,6 +1,6 @@
 ---
 title: Interacties maken voor contacten en segmenten | Microsoft Docs
-description: Hier wordt beschreven hoe u interacties maakt voor uw communicatie met contacten en segmenten in Dynamics 365, bijvoorbeeld direct mail.
+description: Beschrijft hoe u interacties maakt voor communicatie die u hebt met uw contacten en segmenten in Finance and Operations, Business edition, bijvoorbeeld direct mail.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procedure: Interacties maken voor contacten en segmenten
+# <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
 U kunt interacties maken om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld direct mail.
 
 Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer informatie [Interactiesjablonen instellen](marketing-interactions.md).
@@ -54,5 +54,5 @@ Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er 
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [CRM instellen](marketing-setup-marketing.md)  
-[Werken met Dynamics 365](ui-work-product.md)
+[Werken met Finance and Operations, Business edition](ui-work-product.md)
 

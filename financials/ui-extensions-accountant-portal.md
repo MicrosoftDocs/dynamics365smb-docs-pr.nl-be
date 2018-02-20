@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d0efd02b14cf1b93b18b187b5f9bebfb8618d6a8
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Accountantportal voor Dynamics 365 Business edition
+# <a name="accountant-portal-for-finance-and-operations-business-edition"></a>Accountantportal voor Finance and Operations, Business edition
 Deze toepassing biedt een dashboard met overzichtsgegevens van elke cliënt van een accountant. De portal toont financiële KPI's en een directe koppeling met de financiële toepassing van de cliënt.  
 
 Het dashboard bevat een zeer gespecialiseerd rolcentrum voor een beter overzicht van uw cliënten.  
@@ -28,7 +28,7 @@ Wanneer u de extensie voor het eerst installeert, helpt een voorbeeldbedrijf u a
 ## <a name="installing-the-extension"></a>De extensie installeren
 Wanneer u de extensie in uw [!INCLUDE[d365fin](includes/d365fin_md.md)] installeert, wordt u gevraagd of u deze nu wilt gebruiken. Zo ja, dan moet u zich afmelden en opnieuw aanmelden, omdat de extensie uw huidige rolcentrum vervangt en machtigingen toevoegt aan uw gebruikersprofiel.  
 
-Zie [Accountantervaringen in Dynamics 365 Business edition](finance-accounting.md) voor meer informatie.  
+Zie voor meer informatie [Accountantervaringen in Finance and Operations, Business edition ](finance-accounting.md).  
 
 > [!NOTE]  
 >  De huidige versie van de extensie vereist dat uw cliënten [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken.  
@@ -39,6 +39,6 @@ De extensie wordt over een aantal maanden buiten gebruik gesteld. We raden u aan
 Zie [Welkom bij Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
-[Accountantervaringen in Dynamics 365 Business edition](finance-accounting.md)  
+[Accountantervaringen binnen Finance and Operations, Business edition](finance-accounting.md)  
 [Financiën](finance.md)  
 

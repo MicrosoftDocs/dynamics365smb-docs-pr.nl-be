@@ -1,6 +1,6 @@
 ---
 title: Valutawisselkoersen bijwerken | Microsoft Docs
-description: Als u meerdere valuta's in uw bedrijf wilt gebruiken, kunt u een code voor elke gebruikte valuta instellen en een externe wisselkoersservice gebruiken, bijvoorbeeld Yahoo.
+description: Als u meerdere valuta's in uw bedrijf wilt gebruiken, kunt u een code voor elke gebruikte valuta instellen en een externe wisselkoersservice gebruiken, bijvoorbeeld FloatRates.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Procedure: Valutawisselkoersen bijwerken
+# <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 U moet een code instellen voor elke gebruikte valuta als u in andere valuta's dan uw lokale valuta inkoopt of verkoopt, in een andere valuta tegoeden of schulden hebt of grootboektransacties in verschillende valuta's vastlegt.  
 
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiën in meer dan één valuta kunnen controleren of rapporteren. In het programma wordt het gebruik van meerdere valuta;s ondersteund. Binnen het programma wordt uw grootboek ingesteld met uw lokale valuta (LV) en wordt een andere valuta ingesteld als een extra valuta, waaraan een huidige wisselkoers wordt toegewezen.  
@@ -41,11 +41,8 @@ Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bied
 
 Verschillende rapporten in de module Financieel zijn gebaseerd op grootboekposten. Als u de financiële gegevens in de lijst in de extra rapportagevaluta wilt weergeven, plaatst u eenvoudigweg een vinkje in het veld **Bedragen in rapp.-valuta weergeven** in het betreffende grootboeklijstvenster.  
 
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Een wisselkoersservice instellen
-U kunt een externe service gebruiken om valutawisselkoersen actueel te houden. De Yahoo Currency Exchange Rates-service is vooraf geïnstalleerd en kan worden ingeschakeld.
+U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Valutawisselkoersservices** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.

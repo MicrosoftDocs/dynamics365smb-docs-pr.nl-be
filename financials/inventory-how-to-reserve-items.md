@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Procedure: Artikelen reserveren
+# <a name="reserve-items"></a>Artikelen reserveren
 U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande document- of dagboekregels. U voert de handelingen hiervoor uit in het venster **Reservering**.
 
 Elke regel in het venster **Reservering**, dat u opent om artikelen te reserveren, geeft informatie over één soort regel (verkoop, inkoop, dagboek) of voorraadpost. Op de regels wordt beschreven hoeveel artikelen van elk soort regel of post beschikbaar zijn voor reservering.
@@ -81,14 +81,14 @@ Soms wilt u een artikelreservering annuleren.
 4.  Bevestig het volgende bericht met de knop **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reserveren van een bepaald serie- of lotnummer  
-Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of productiecomponentlijsten, kunt u specifieke serie- of lotnummers reserveren. Dit kan nuttig zijn als u bijvoorbeeld productiecomponenten van een specifieke partij nodig hebt om consistentie met eerdere productiepartijen te waarborgen of omdat een klant een specifiek serienummer heeft aangevraagd. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)..
+Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of productiecomponentlijsten, kunt u specifieke serie- of lotnummers reserveren. Dit kan nuttig zijn als u bijvoorbeeld productiecomponenten van een specifieke partij nodig hebt om consistentie met eerdere productiepartijen te waarborgen of omdat een klant een specifiek serienummer heeft aangevraagd. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
 Dit heet een specifieke reservering, omdat u reserveert van het aantal van Artikel X dat hoort bij Partij X. Als u gewoon uit aantallen van artikel X reserveert, is het een normale, niet-specifieke, reservering. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en reservering](design-details-item-tracking-and-reservations.md).
 
 De volgende procedure is gebaseerd op een verkooporder.    
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
 2. Maak een verkooporderregel voor een artikel met artikeltracering.  
-3. Wijs serie- en lotnummers toe aan de verkooporderregel. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)..
+3. Wijs serie- en lotnummers toe aan de verkooporderregel. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 4. Kies op de verkooporderregel de actie **Reserveren**.  
 5. Klik op de knop **Ja** om specifieke serie- of lotnummers te reserveren.  
 6. Selecteer in het venster **Artikeltraceringsoverzicht** de combinatie van serie- en lotnummer die u zojuist hebt toegekend.  
@@ -99,6 +99,6 @@ De volgende procedure is gebaseerd op een verkooporder.
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
-[Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
+[Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6dc45cfcff07bfb36f363121298cd0f68b9ce7fe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
@@ -25,7 +25,7 @@ In het venster **Taakwachtrijposten** worden alle bestaande posten weergegeven. 
 
 Stel desgewenst in het veld **Categoriefilter taakwachtrij** een filter in. U kunt taakwachtrijcategorieën gebruiken om taken in de lijst te groeperen.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de taken automatisch uitgevoerd op basis van de opgegeven schema's voor elke taakwachtrijpost. U kunt een taakwachtrijpost ook starten, stoppen en handmatig in de wacht zetten.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] In  worden de taken automatisch uitgevoerd op basis van de opgegeven schema's voor elke taakwachtrijpost. U kunt een taakwachtrijpost ook starten, stoppen en handmatig in de wacht zetten.
 
 ### <a name="log-files"></a>Logbestanden
 Fouten worden weergegeven in het venster **Logposten taakwachtrij**, dat u kunt openen via het lint. U kunt ook problemen met verwerkingswachtrijen oplossen. Gegevens die worden gegenereerd wanneer een verwerkingswachtrij wordt uitgevoerd, worden opgeslagen in de database.  
@@ -35,7 +35,7 @@ Taakwachtrijen zijn een effectief hulpmiddel voor het plannen van de uitvoering 
 
  U wilt mogelijk ook boekingen plannen voor tijden die geschikt zijn voor uw organisatie. Het kan bijvoorbeeld zinvol zijn in uw bedrijf bepaalde routines uit te voeren wanneer de meeste van de gegevensinvoer voor de dag is afgesloten. U kunt dat bereiken door de taakwachtrij in te stellen om diverse batchverwerkingsrapporten uit te voeren, zoals **Batchboeken verkooporders**, **Batchboeken verkoopfacturen** en **Batchboeken verk.-creditnota**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt boeken op de achtergrond voor de volgende documentsoorten:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  ondersteunt boeken op de achtergrond voor de volgende documentsoorten:  
 
 -   Verkoop: verkooporder, retourorder, creditnota, factuur  
 
@@ -52,7 +52,7 @@ U stelt dit gebruik van de taakwachtrij in het venster **Instellingen van verkoo
 >  Wanneer u een taak voor het boeken en afdrukken van documenten instelt en er op de printer een dialoogvenster wordt weergegeven, zoals een verzoek om aanmeldingsgegevens of een waarschuwing over een laag printerinktniveau, dan wordt het document geboekt, maar niet afgedrukt. De overeenkomstige invoer van de taakwachtrij krijgt uiteindelijk een time-out en het veld **Status** wordt ingesteld op **Fout**. Dienovereenkomstig is het raadzaam dat u geen printerinstellingen gebruikt waarvoor interactie met de weergave van printerdialoogvensters nodig is in combinatie met boeken op de achtergrond.  
 
 ## <a name="use-the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij gebruiken
-In het onderdeel **Mijn taakwachtrij** deel worden de taakwachtrijen weergegeven die een gebruiker heeft gestart, maar die nog niet zijn voltooid. Standaard is het onderdeel niet zichtbaar, zodat u het moet toevoegen aan uw rolcentrum. Zie [Procedure: Een rolcentrum wijzigen](change-role.md) voor meer informatie.  
+In het onderdeel **Mijn taakwachtrij** deel worden de taakwachtrijen weergegeven die een gebruiker heeft gestart, maar die nog niet zijn voltooid. Standaard is het onderdeel niet zichtbaar, zodat u het moet toevoegen aan uw rolcentrum. Zie [Een rolcentrum wijzigen](change-role.md) voor meer informatie.  
 
 In dit onderdeel ziet u de documenten die worden verwerkt of die in de wachtrij zijn gezet en waarvoor uw id is opgegeven in het veld **Toegewezen gebruikers-id**. Het onderdeel helpt u bij het bijhouden van alle taakwachtrijposten, inclusief de posten die betrekking hebben op boeken op de achtergrond. Het onderdeel kan u in één oogopslag laten zien of er een fout is opgetreden bij het boeken van een document en of er fouten zijn opgetreden in een taakwachtrijpost. Met het onderdeel kunt u een documentboeking annuleren als deze niet wordt uitgevoerd.  
 
@@ -68,6 +68,6 @@ Wanneer een taakwachtrij handmatig is geactiveerd, wordt deze uitgevoerd met de 
 De record van de taakwachtrijpost heeft veel velden om de parameters in een codeunit te plaatsen die u hebt opgegeven voor het uitvoeren met een taakwachtrij. Dit betekent ook dat codeunits die moeten worden uitgevoerd via de taakwachtrij, moeten worden gespecificeerd met de taakwachtrijrecord als een parameter in de **OnRun** trigger. Dit biedt een extra beveiligingsniveau aangezien het voorkomt dat gebruikers willekeurige codeunits uitvoeren via de taakwachtrij. Als de gebruiker parameters aan een rapport moet doorgeven, kan dit enkel door de lijstuitvoering in een codeunit te plaatsen die vervolgens de invoerparameters parseert en deze in de lijst plaatst voordat deze wordt uitgevoerd.  
 
 ## <a name="see-also"></a>Zie ook  
-[Installatie en beheer in Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Dynamics 365 for Financials configureren](setup.md)  
+[Instelling en administratie in Finance and Operations, Business edition](admin-setup-and-administration.md)  
+[Finance and Operations, Business edition instellen](setup.md)  
 

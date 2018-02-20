@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: nl-be
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procedure: De service Envestnet Yodlee Bank Feeds instellen
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De service Envestnet Yodlee Bank Feeds instellen
 U kunt elektronische bankafschriften van uw bank importeren om snel het venster **Betalingsreconciliatiedagboek** in te vullen, zodat u betalingen kunt vereffenen en de bankrekening kunt reconciliëren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 De feedservice van de Envestnet Yodlee Bank wordt geïnstalleerd als een extensie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] en kan worden ingeschakeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
@@ -63,7 +63,7 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
     Nadat het proces is voltooid, wordt de naam van de bank in het deelvenster **Mijn rekeningen** op het tabblad **Gekoppeld** weergegeven. Het nummer tussen haakjes geeft aan hoeveel online bankrekeningen zijn gekoppeld.  
 7. Kies de knop **Ok**.
 
-    Als u slechts één online bankrekening koppelt, wordt het venster **Bankrekeningkaart** geopend en wordt de naam van de online bankrekening weergegeven. In dit geval is de koppeling van de bankrekening voltooid. Alleen de bankrekening hoeft nog te worden ingesteld. Zie voor meer informatie [Procedure: Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
+    Als u slechts één online bankrekening koppelt, wordt het venster **Bankrekeningkaart** geopend en wordt de naam van de online bankrekening weergegeven. In dit geval is de koppeling van de bankrekening voltooid. Alleen de bankrekening hoeft nog te worden ingesteld. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 
     Als u meerdere online bankrekeningen koppelt, wordt het venster **Bankrekening koppelen** geopend met de aanvullende online bankrekeningen die nog niet zijn gekoppeld aan bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In dat geval volgt u de volgende stap.  
 8. Selecteer in het venster **Bankrekening koppelen** de regel voor een online bankrekening en kies vervolgens de actie **Koppelen aan nieuwe bankrekening**.  

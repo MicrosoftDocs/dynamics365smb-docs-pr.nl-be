@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5ffaed472ab61d086e2b57579523340504bde119
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 341fccc4cb11f27e11d80558bbd9651ae4ad91be
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompany-transacties beheren
@@ -39,13 +39,16 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
  |Aan |Zie|
  |---|---|
- |Maak uw IC-leveranciers en -klanten als zogenaamde IC-partners en stel een IC-rekeningschema in.|[Procedure: Intercompany instellen](intercompany-how-setup.md)|
- |Gebruik IC-documenten of -dagboeken om transacties met uw IC-partners te boeken.|[Procedure: Werken met intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md)|
- |Organiseer en verwerk inkomend en uitgaande transacties die u uitwisselt met uw IC-partners.|[Procedure: De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md)|
+ |Maak uw IC-leveranciers en -klanten als zogenaamde IC-partners en stel een IC-rekeningschema in.|[Intercompany instellen](intercompany-how-setup.md)|
+ |Gebruik IC-documenten of -dagboeken om transacties met uw IC-partners te boeken.|[Werken met intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md)|
+ |Organiseer en verwerk inkomend en uitgaande transacties die u uitwisselt met uw IC-partners.|[De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

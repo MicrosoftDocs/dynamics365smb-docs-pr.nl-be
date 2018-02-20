@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c7e5d7cda12abd94a999031af3bc8d505b7f6c5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebd7ed1c2ae9426b481edabbb8e4957073a5d21
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-special-orders"></a>Procedure: Speciale orders maken
-U kunt een speciale order maken om een bepaald artikel, dat niet op voorraad is, te verzenden aan een bepaalde klant. Het artikel wordt door uw leverancier verzonden naar uw magazijn, zodat u het vervolgens afzonderlijk of samen met artikelen van een andere order kunt verzenden aan uw klant.  
+# <a name="create-special-orders"></a>Speciale orders maken
+U kunt een speciale order maken om een bepaald artikel dat niet op voorraad is, te verzenden aan een bepaalde klant. Het artikel wordt door uw leverancier verzonden naar uw magazijn, zodat u het vervolgens afzonderlijk of samen met artikelen van een andere order kunt verzenden aan uw klant.  
 
 Speciale orders maken het mogelijk een inkooporder en een verkooporder aan elkaar te koppelen zodat het artikel dat niet op voorraad is wordt gepickt en aan de klant wordt geleverd.  
 
@@ -26,7 +26,7 @@ U kunt deze functie pas gebruiken als u de klanten-, leveranciers- en artikelkaa
 
 ## <a name="to-create-a-special-order"></a>Speciale orders maken  
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporder** in en klik vervolgens op de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**. Maak een  verkooporder voor het artikel en vul deze in. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+2. Kies de actie **Nieuw**. Maak een  verkooporder voor het artikel en vul deze in. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3.  Ga naar het sneltabblad **Regels** en vul de verkoopregel in. Selecteer in het veld **Inkoopcode** een inkoopcode waarbij een vinkje staat in het veld **Speciale order**.
 
     U moet nu een inkooporder maken op basis van een inkoopvoorstel.  
@@ -44,9 +44,9 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 >  U kunt de functionaliteit voor speciale volgorde niet gebruiken als het item al is gereserveerd. Zorg er daarom voor dat voor artikelen die zijn verkocht op speciale orders het veld **Reserveren** op de artikelkaart niet is ingesteld op **Altijd**.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md)  
+[Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md)  
 [Verkoop](sales-manage-sales.md)  
-[Procedure: Doorverzendingen maken](sales-how-drop-shipment.md)   
+[Doorverzendingen uitvoeren](sales-how-drop-shipment.md)   
 [Ontwerpdetails: Bestelbeleid](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

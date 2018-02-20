@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
@@ -31,14 +31,14 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsprincipes.|De pagina **Productie-instellingen**.|  
-|Een standaardwerkweek in de productieafdeling definiëren met de begin- en eindtijd van elke werkdag en de bijbehorende dienst.|[Procedure: Productieagenda's maken](production-how-to-create-work-center-calendars.md)|  
-|Vaste waarden en vereisten van productieresources indelen als afdelingen of bewerkingsplaatsen om de productie-output te bepalen.|[Procedure: Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)|
-|Productiebewerkingen in de vereiste volgorde indelen en met de vereiste werktijden toewijzen aan afdelingen of bewerkingsplaatsen.|[Procedure: bewerkingsplannen maken](production-how-to-create-routings.md)|
-|Productiematerialen of halffabricaten indelen onder een geproduceerd hoofdartikel en de stuklijst voor uitvoering certificeren in afdelingen.|[Procedure: productiestuklijsten maken](production-how-to-create-production-boms.md)|
-|Controleren of het juiste onderdeelaantal beschikbaar is als geproduceerde artikelen in één eenheid in voorraad zijn, maar in een andere eenheid worden geproduceerd.|[Procedure: Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Productfamilies met productieartikelen definiëren met soortgelijke productieprocessen om op verbruik te besparen. Uit één vel kunnen bijvoorbeeld tegelijkertijd vier stuks van het ene artikel en tien stuks van een ander artikel worden geproduceerd.|[Procedure: Werken met productfamilies](production-how-work-family.md)|
-|Standaardtaken gebruiken om het maken van bewerkingsplannen te vereenvoudigen door extra informatie bij te voegen voor terugkerende bewerkingen.|[Procedure: Standaard bewerkingsplanregels instellen](production-how-set-up-standard-routing-lines.md)|  
-|Afdelingen en bewerkingsplannen voor uitbestede productiebewerkingen voorbereiden.|[Procedure: Productie uitbesteden](production-how-to-subcontract-manufacturing.md)|  
+|Een standaardwerkweek in de productieafdeling definiëren met de begin- en eindtijd van elke werkdag en de bijbehorende dienst.|[Productieagenda's maken](production-how-to-create-work-center-calendars.md)|  
+|Vaste waarden en vereisten van productieresources indelen als afdelingen of bewerkingsplaatsen om de productie-output te bepalen.|[Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)|
+|Productiebewerkingen in de vereiste volgorde indelen en met de vereiste werktijden toewijzen aan afdelingen of bewerkingsplaatsen.|[Bewerkingsplannen maken](production-how-to-create-routings.md)|
+|Productiematerialen of halffabricaten indelen onder een geproduceerd hoofdartikel en de stuklijst voor uitvoering certificeren in afdelingen.|[Productiestuklijsten maken](production-how-to-create-production-boms.md)|
+|Controleren of het juiste onderdeelaantal beschikbaar is als geproduceerde artikelen in één eenheid in voorraad zijn, maar in een andere eenheid worden geproduceerd.|[Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Productfamilies met productieartikelen definiëren met soortgelijke productieprocessen om op verbruik te besparen. Uit één vel kunnen bijvoorbeeld tegelijkertijd vier stuks van het ene artikel en tien stuks van een ander artikel worden geproduceerd.|[Werken met productfamilies](production-how-work-family.md)|
+|Standaardtaken gebruiken om het maken van bewerkingsplannen te vereenvoudigen door extra informatie bij te voegen voor terugkerende bewerkingen.|[Standaardbewerkingsplanregels instellen](production-how-set-up-standard-routing-lines.md)|  
+|Afdelingen en bewerkingsplannen voor uitbestede productiebewerkingen voorbereiden.|[Productie uitbesteden](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Zie ook
 [Productie](production-manage-manufacturing.md)    

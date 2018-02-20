@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb165c8ccb196f687c11f4cb4353d88c71de3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b2607dce0b62a3a1433362491692687d4c868d06
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-price-management"></a>Beheer serviceprijs
@@ -67,6 +67,6 @@ De volgende tabel geeft een beschrijving van de berekeningen.
 |**Minimum**|Dit betekent dat u een ondergrens stelt aan wat u aan uw klant berekent, onafhankelijk van de werkelijke kosten of gebruikelijke toeslagen. Als u deze optie selecteert, wordt de serviceprijsherwaardering alleen uitgevoerd als het totale bedrag minder is dan het bedrag dat is opgegeven in de serviceprijsgroep.|  
   
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
+[Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
 [CRM - Service instellen](service-setup-service.md)  
 

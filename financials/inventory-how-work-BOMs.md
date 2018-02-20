@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Procedure: Werken met stuklijsten
+# <a name="work-with-bills-of-material"></a>Werken met stuklijsten
 U gebruikt stuklijsten om bovenliggende artikelen te structureren die door resources of bewerkingsplaatsen moeten worden geassembleerd of geproduceerd van onderdelen. Er kan ook een assemblagestuklijst worden gebruikt om een hoofdartikel als pakketten bestaande uit de onderdelen te verkopen.
 
 ## <a name="assembly-boms-or-production-boms"></a>Assemblagestuklijsten of productiestuklijsten
@@ -29,9 +29,9 @@ Assemblagestuklijsten worden in dit onderwerp beschreven.
 
 U gebruikt productieorders voor het maken van eindartikelen van onderdelen in een complex proces, waarvoor een productiebewerkingsplan en bewerkingsplaatsen of -afdelingen nodig zijn die productiecapaciteit vertegenwoordigen. Een productieproces kan bijvoorbeeld zijn het knippen van stalen platen in één bewerking, deze lassen in een volgende bewerking en het eindartikel verfen in de laatste bewerking. Zie [Productie](production-manage-manufacturing.md) voor meer informatie.  
 
-Een productiestuklijst is de stamgegevens die een productieartikel en de componenten erin definieert. voor componenten moet de productiestuklijst worden gecertificeerd en toegewezen aan het productieartikel voordat het in een productieorder kan worden gebruikt. Wanneer u het productieartikel op een productieorderregel handmatig of door het vernieuwen van de order invoert, wordt de inhoud van de productiestuklijst omgezet in de onderdelen van de productieorder . Zie voor meer informatie [Procedure: productiestuklijsten maken](production-how-to-create-production-boms.md).  
+Een productiestuklijst is de stamgegevens die een productieartikel en de componenten erin definieert. voor componenten moet de productiestuklijst worden gecertificeerd en toegewezen aan het productieartikel voordat het in een productieorder kan worden gebruikt. Wanneer u het productieartikel op een productieorderregel handmatig of door het vernieuwen van de order invoert, wordt de inhoud van de productiestuklijst omgezet in de onderdelen van de productieorder . Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-production-boms.md).  
 
-Het concept van bronnen in de productie is veel geavanceerder dan in de assemblage. Werkplaatsen en machinecentra fungeren als bronnen en productiestappen worden vertegenwoordigd door bewerkingen die zijn toegewezen aan bronnen in productiebewerkingsplannen. Zie [Procedure: Bewerkingsplannen maken](production-how-to-create-routings.md) voor meer informatie.
+Het concept van bronnen in de productie is veel geavanceerder dan in de assemblage. Werkplaatsen en machinecentra fungeren als bronnen en productiestappen worden vertegenwoordigd door bewerkingen die zijn toegewezen aan bronnen in productiebewerkingsplannen. Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-routings.md).
 
 Zowel assemblage- als productieorders kunnen rechtstreeks aan verkooporders worden gekoppeld. U kunt echter alleen assemblageorders gebruiken om het eindartikel rechtstreeks voor een klantverzoek aan de verkooporder te koppelen.
 
@@ -42,13 +42,13 @@ Assemblagestuklijsten bevatten gewoonlijk artikelen, maar kunnen ook een of meer
 
 Assemblagestuklijsten kunnen meerdere niveaus bevatten, wat betekent dat een onderdeel op de assemblagestuklijst zelf ook een assemblageartikel kan zijn. In dat geval bevat het veld **Assemblagestuklijst** op de assemblagestuklijstregel **Ja**.
 
-Er gelden speciale vereisten voor artikelen op assemblagestuklijsten met betrekking tot beschikbaarheid. Zie het gedeelte 'De beschikbaarheid van een artikel bekijken op basis van het gebruik ervan in assemblagestuklijsten' in [Procedure: De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
+Er gelden speciale vereisten voor artikelen op assemblagestuklijsten met betrekking tot beschikbaarheid. Zie het gedeelte 'De beschikbaarheid van een artikel bekijken op basis van het gebruik ervan in assemblagestuklijsten' in [De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 
 Het maken van een assemblagestuklijst bestaat uit twee delen:
 - Een nieuw artikel instellen
 - De stuklijststructuur van het assemblageartikel definiëren.
 
-1. Stel een nieuw artikel in. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
+1. Stel een nieuw artikel in. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
     Ga verder om onderdelen of resources in de assemblagestuklijst in te voeren.  
 2. Kies in het venster **Artikel** voor een assemblageartikel de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
@@ -80,7 +80,7 @@ Alle velden op de verkoopfactuurregel voor het assemblageartikel worden worden g
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>De vaste verrekenprijs van een assemblageartikel berekenen
 U berekent de kostprijs van een assemblageartikel door de kostprijs van elk onderdeel en elke resource in de assemblagestuklijst bij elkaar op te tellen.
 
-U kunt de vaste verrekenprijs voor een of meerdere artikelen ook berekenen en bijwerken in het venster **Vaste-verrekenprijsvoorstel**. Zie [Procedure: Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.  
+U kunt de vaste verrekenprijs voor een of meerdere artikelen ook berekenen en bijwerken in het venster **Vaste-verrekenprijsvoorstel**. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.  
 
 De kostprijs van een assemblagestuklijst is altijd gelijk aan het totaal van de kostprijzen van de verschillende componenten, inclusief overige assemblagestuklijsten, en eventuele resources.
 
@@ -100,8 +100,8 @@ De kostprijs van een assemblagestuklijst is altijd gelijk aan het totaal van de 
 De kosten van de artikelen waaruit de assemblagestuklijst bestaat, worden gekopieerd van artikelkaarten van de componenten. De kosten van elk artikel worden vermenigvuldigd met het aantal, en de totale kostprijs wordt weergegeven in het venster **Kostprijs** op de artikelkaart.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
-[Procedure: beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)     
+[Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
+[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)     
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

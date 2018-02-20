@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Procedure: artikelen opslaan met magazijnopslag
-Wanneer voor de vestiging magazijnopslag- en -ontvangstverwerking vereist zijn, beheert u de opslag van artikelen met de functie voor magazijnopslagdocumenten.  
+# <a name="put-items-away-with-warehouse-put-aways"></a>Artikelen opslaan met magazijnopslag
+Wanneer voor de vestiging magazijnopslag- en -ontvangstverwerking is vereist, beheert u de opslag van artikelen met de functie voor magazijnopslagdocumenten.  
 
 Als u een magazijnontvangst boekt, worden de brondocumenten zoals inkooporder, inkomende transferorder of verkoopretourorder bijgewerkt, de ontvangen aantallen geboekt in de artikelposten en de regels over de ontvangen artikelen naar de opslagfunctie van het magazijn verzonden. Als u met interne opslag en pick werkt, kunnen ook opslagregels worden gegenereerd door de interne opslag.  
 
-Afhankelijk van de magazijninstellingen worden de regels beschikbaar gemaakt in het opslagvoorstel of worden direct opslaginstructies gemaakt. Zie voor meer informatie [Procedure: plannen van opslagactiviteiten in werkbladen](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Afhankelijk van de magazijninstellingen worden de regels beschikbaar gemaakt in het opslagvoorstel of worden direct opslaginstructies gemaakt. Zie [Opslag plannen in voorstellen](warehouse-how-to-plan-put-aways-in-worksheets.md) voor meer informatie.  
 
 Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit onderwerp worden beschreven, kunt u opslag maken vanuit de bijbehorende geboekte magazijnontvangst. Dit is nuttig als u opslagregels hebt verwijderd of als u gestuurde opslag en pick gebruikt en het opslagwerkblad niet wilt gebruiken omdat u opslaginstructies (opnieuw) kunt maken van de geboekte ontvangstregels.  
 
@@ -56,7 +56,7 @@ Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit 
 
 Op locaties die zijn ingesteld voor gestuurde opslag en pick, zijn de volgende instellingen vereisten voor bovenstaande procedure:  
 
-- Er wordt een opslagsjablonen ingesteld. Zie voor meer informatie [Procedure: Opslagsjablonen instellen](warehouse-how-to-set-up-put-away-templates.md).  
+- Er wordt een opslagsjablonen ingesteld. Zie voor meer informatie [Opslagsjablonen instellen](warehouse-how-to-set-up-put-away-templates.md).  
 - Het gewicht, het volume en de speciale opslagvereisten van het artikel of de SKU worden opgegeven. Zie voor meer informatie Brutogewicht.  
 - De capaciteit, de soort opslaglocatie en de volgorde van de opslaglocaties. Zie Opslaglocatievolgorde voor meer informatie .  
 

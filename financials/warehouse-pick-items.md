@@ -1,6 +1,6 @@
 ---
 title: Artikelen picken | Microsoft Docs
-description: De magazijnactiviteit van artikelen picken voordat deze worden verzonden of verbruikt, wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit van [setup](../configure-warehouse-processes.md) varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd.
+description: De magazijnactiviteit van het picken van artikelen voordat deze worden verzonden of verbruikt, wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit van de [instelling](../configure-warehouse-processes.md) varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Artikelen picken
@@ -35,15 +35,15 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 |**Als u dit wilt doen**|**Zie**|
 |------------|-------------|  
-|De verzending van artikelen direct boeken in het document voor uitgaande orders, omdat er geen magazijnfuncties zijn. (Werkt hetzelfde voor verkooporders, uitgaande transferorders en retourverzendingen.)|[Procedure: Artikelen verzenden](warehouse-how-ship-items.md)|  
-|Artikelen per order picken en de verzending in dezelfde activiteit boeken, in een standaardmagazijnconfiguratie.|[Procedure: artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Artikelen opslaan voor meerdere orders in een geavanceerde magazijnconfiguratie.|[Procedure: artikelen picken met een magazijnpick](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Onderdelen picken voor productie of assemblage in een standaard- of geavanceerde magazijnconfiguratie.|[Procedure: Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md)|  
-|Geoptimaliseerde pickinstructies plannen voor een aantal verzendingen, in plaats van magazijnmedewerkers direct laten handelen naar geboekte verzendingen.|[Procedure: picks plannen in het voorstel](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Artikelen technisch picken voor een speciaal doel, zoals een productieafdeling die extra onderdelen nodig heeft, zodanig dat de artikelen technisch het magazijn niet verlaten.|[Procedure: Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|De verzending van artikelen direct boeken in het document voor uitgaande orders, omdat er geen magazijnfuncties zijn. (Werkt hetzelfde voor verkooporders, uitgaande transferorders en retourverzendingen.)|[Artikelen verzenden](warehouse-how-ship-items.md)|  
+|Artikelen per order picken en de verzending in dezelfde activiteit boeken, in een standaardmagazijnconfiguratie.|[Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Artikelen opslaan voor meerdere orders in een geavanceerde magazijnconfiguratie.|[Artikelen picken met een magazijnpick](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Onderdelen picken voor productie of assemblage in een standaard- of geavanceerde magazijnconfiguratie.|[Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md)|  
+|Geoptimaliseerde pickinstructies plannen voor een aantal verzendingen, in plaats van magazijnmedewerkers direct laten handelen naar geboekte verzendingen.|[Picks plannen in het voorstel](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Artikelen technisch picken voor een speciaal doel, zoals een productieafdeling die extra onderdelen nodig heeft, zodanig dat de artikelen technisch het magazijn niet verlaten.|[Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Begrijpen hoe artikelen automatisch worden gepickt op basis van de vervaldatum, bijvoorbeeld beperkt houdbare artikelen.|[Picken op basis van FEFO](warehouse-picking-by-fefo.md)|
-|Een pickregel in meerdere regels splitsen, bijvoorbeeld omdat er onvoldoende artikelen beschikbaar zijn in de aangewezen opslaglocatie.|[Procedure: magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Direct toegang verkrijgen tot picks die aan u als magazijnmedewerker zijn toegewezen.|[Procedure: magazijntoewijzingen zoeken](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Een pickregel in meerdere regels splitsen, bijvoorbeeld omdat er onvoldoende artikelen beschikbaar zijn in de aangewezen opslaglocatie.|[Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Direct toegang verkrijgen tot picks die aan u als magazijnmedewerker zijn toegewezen.|[Magazijntoewijzingen zoeken](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

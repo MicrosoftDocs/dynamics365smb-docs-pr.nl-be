@@ -1,6 +1,6 @@
 ---
 title: Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties | Microsoft Docs
-description: Indien itembewerkingen plaatsvinden op uw magazijnvestiging, moet u mogelijk items tussen interne opslaglocaties verplaatsen om te reageren op interne brondocumenten, zoals productie, assemblage of serviceorders op de locatie.
+description: Indien artikelbewerkingen plaatsvinden in uw magazijnvestiging, moet u mogelijk artikelen tussen interne opslaglocaties verplaatsen om te reageren op interne brondocumenten, zoals productie-, assemblage- of serviceorders in de vestiging.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Procedure: Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties
 Indien artikelbewerkingen plaatsvinden in uw magazijnvestiging, moet u mogelijk artikelen tussen interne opslaglocaties verplaatsen om te reageren op interne brondocumenten, zoals productie-, assemblage- of serviceorders in de vestiging.  
 
 > [!NOTE]  
 >  Zie voor informatie over het verplaatsen van artikelen tussen opslaglocaties zonder brondocumenten Interne verplaatsing.  
 
-Bij geavanceerde magazijnconfiguraties, locaties die gebruikmaken van de instelling **Gestuurde opslag en pick**, kunt u het venster **Verplaatsingsvoorstel** gebruiken om artikelen tussen opslaglocaties te verplaatsen. Zie voor meer informatie [Procedure: Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Bij geavanceerde magazijnconfiguraties, locaties die gebruikmaken van de instelling **Gestuurde opslag en pick**, kunt u het venster **Verplaatsingsvoorstel** gebruiken om artikelen tussen opslaglocaties te verplaatsen. Zie voor meer informatie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Bij standaard magazijnconfiguraties, dat zijn locaties die gebruik maken van de instelling **Opslaglocatie verplicht** en **Pick vereist**, kunt u verplaatsing van items naar interne activiteitengebieden registreren op basis van interne brondocumenten op de volgende manieren:  
 
@@ -44,7 +44,7 @@ Ook kan een magazijnmedewerker deze maken door verwijzing naar de betreffende vr
 > [!NOTE]  
 >  Indien de verplaatsing voor een assemblageorder is waar het item voor een verkooporder wordt samengesteld, kunt u definiëren dat het voorraadverplaatsingdocument automatisch gemaakt wordt wanneer u het voorraad-pickdocument maakt dat het voltooide assemblageartikel neemt en de verzending boekt. Als u dit wilt instellen, selecteert u het veld **Verplaatsingen automatisch aanmaken** in het venster **Assemblage-instelling**  
 >   
->  Zie voor meer informatie over assemblageorders en standaardmagazijnconfiguraties de sectie Op-order-assembleren-artikelen met voorraadpicks afhandelen in [Procedure: Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md).  
+>  Zie voor meer informatie over assemblageorders en standaardmagazijnconfiguraties de sectie 'Op-order-assembleren-artikelen met voorraadpicks afhandelen' in [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md).  
 
 Deze procedure laat zien hoe u een voorraadverplaatsing uit het venster **Voorraadverplaatsing** kunt maken door te verwijzen naar een vrijgegeven assemblageorder als brondocument. De procedure is hetzelfde als u onderdelen verplaatst voor productie- en serviceorders.  
 

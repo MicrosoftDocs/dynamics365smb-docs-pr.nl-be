@@ -1,6 +1,6 @@
 ---
 title: Gebruikersmachtigingen toewijzen en machtigingensets maken of wijzigen | Microsoft Docs
-description: Hier wordt beschreven hoe u Office 365-gebruikers toevoegt aan Dynamics 365 Business edition en vervolgens machtigingen, toegangsrechten en beveiligingsinstellingen toewijst.
+description: Hier wordt beschreven hoe u Office 365-gebruikers toevoegt aan Finance and Operations, Business edition en vervolgens machtigingen, toegangsrechten en beveiligingsinstellingen toewijst.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-users-and-permissions"></a>Procedure: Gebruikers en machtigingen beheren
+# <a name="manage-users-and-permissions"></a>Gebruikers en machtigingen beheren
 Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. Aan gebruikers worden machtigingensets toegewezen op basis van het plan dat aan de gebruiker is toegewezen in Office 365.
@@ -29,9 +29,6 @@ Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de
 U kunt gebruikers toevoegen aan gebruikersgroepen. Hierdoor wordt het gemakkelijker om dezelfde machtigingensets aan meerdere gebruikers toe te wijzen.
 
 Beheerders kunnen het venster **Gebruikersinstellingen** gebruiken om perioden te definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld.
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op Suite. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Machtigingen toewijzen aan een gebruiker
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.
@@ -55,7 +52,7 @@ U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren vo
 8. Vul in het venster **Machtigingensets van gebruikersgroep** op een nieuwe regel de velden waar nodig in door bestaande machtigingensets te selecteren.
 
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
-Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Procedure: Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
+Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersinstellingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Gebruikersinstellingen** dat wordt geopend, de actie **Nieuw**.
@@ -64,7 +61,7 @@ Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken
 
 ## <a name="see-also"></a>Zie ook
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Installatie en beheer in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Installatie en beheer in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

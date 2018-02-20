@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Procedure: productieorderkoppen maken
+# <a name="create-production-order-headers"></a>Productieorderkoppen maken
 U kunt een productieorder handmatig maken. De eerste stap is het maken van een productieorderkop.
 
 Productieorders worden meestal automatisch op basis van een planningsfunctie gemaakt om te voldoen aan een bekende vraag. Zie [Planning](production-planning.md) voor meer informatie.   
@@ -32,11 +32,11 @@ In de volgende procedure wordt een vast geplande productieorder gemaakt. U kunt 
 3.  Selecteer in het veld **Nr.** het volgende nummer uit de reeks in.  
 4.  Selecteer in het veld **Bronsoort** de bron van de productieorder.
 
-    Hier kunt u opgeven of er voor een familie van artikelen moet worden geproduceerd. Zie [Procedure: Werken met productfamilies](production-how-work-family.md) voor meer informatie.
+    Hier kunt u opgeven of er voor een familie van artikelen moet worden geproduceerd. Zie [Werken met productfamilies](production-how-work-family.md) voor meer informatie.
 5.  Selecteer in het veld **Bronnr.** het artikelnummer, de productfamilie of de verkoopkop waarvoor de productieorder moet worden gegenereerd.  
 6.  Vul de velden **Aantal** en **Vervaldatum** in op basis van de specificaties.  
 
-Wanneer productievereisten veranderen, bijvoorbeeld onderdelen of bewerkingen, kunt u de productieorder snel herplannen. Zie [Procedure: Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md) voor meer informatie. 
+Wanneer productievereisten veranderen, bijvoorbeeld onderdelen of bewerkingen, kunt u de productieorder snel herplannen. Zie [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md) voor meer informatie. 
 
 ## <a name="see-also"></a>Zie ook  
 [Productie](production-manage-manufacturing.md)    

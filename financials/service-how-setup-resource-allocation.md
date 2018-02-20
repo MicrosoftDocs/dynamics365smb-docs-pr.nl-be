@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Procedure: Resourcetoewijzing instellen
+# <a name="set-up-resource-allocation"></a>Resourcetoewijzing instellen
 Om ervoor te zorgen dat een servicetaak goed wordt uitgevoerd, is het belangrijk een resource te vinden die gekwalificeerd is om het werk uit te voeren. U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat het eenvoudig is om iemand toe te wijzen die over de juiste bekwaamheden voor het project beschikt. In [!INCLUDE[d365fin](includes/d365fin_md.md)] noemen we dit _resourcetoewijzing_. U kunt resources toewijzen op basis van hun vaardigheden, beschikbaarheid en locatie (of ze zich in dezelfde serviceregio als de klant bevinden). 
 
 U moet het volgende instellen om resourcetoewijzing te gebruiken:  
@@ -80,10 +80,10 @@ Wilt u de bekwaamheidscodes wijzigen die aan artikelen zijn toegewezen, bijvoorb
     * De bekwaamheidscodes verwijderen of hun relatie bijwerken: selecteer deze optie als u alleen voor dit artikel de bekwaamheidscode wilt wijzigen. De bekwaamheidscode voor de gerelateerde serviceartikelen wordt opnieuw toegewezen, dat wil zeggen dat het veld **Toegewezen vanuit** wordt bijgewerkt.  
   
 ## <a name="see-also"></a>Zie ook
-[Procedure: Resources toewijzen](service-how-to-allocate-resources.md)  
-[Procedure: Service- en werkuren instellen](service-how-setup-work-service-hours.md)  
-[Procedure: Probleemrapportage instellen](service-how-setup-fault-reporting.md)  
-[Procedure: Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
+[Resources toewijzen](service-how-to-allocate-resources.md)  
+[Service- en werkuren instellen](service-how-setup-work-service-hours.md)  
+[Foutrapportage instellen](service-how-setup-fault-reporting.md)  
+[Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
  
 
 

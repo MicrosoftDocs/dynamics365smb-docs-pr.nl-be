@@ -1,6 +1,6 @@
 ---
-title: Uw boekingen factureren in Dynamics 365 | Microsoft Docs
-description: Leren hoe u massaal factureert vanuit Microsoft Bookings in Dynamics 365 Business edition.
+title: Uw boekingen factureren in Finance and Operations, Business edition | Microsoft Docs
+description: Leren hoe u massaal factureert vanuit Microsoft Bookings in Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massale facturering voor Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,11 +28,11 @@ Als u bijvoorbeeld klanten wilt synchroniseren tussen Bookings en [!INCLUDE[d365
 ## <a name="invoice-appointments"></a>Afspraken factureren
 Wanneer het tijd is om facturen te verzenden voor de voltooide boekingen, gaat u naar de pagina **Niet-gefactureerde Bookings**. Afhankelijk van hoe vaak de gegevens worden gesynchroniseerd, is de lijst lang of kort. U kunt facturen maken voor alle boekingen in de lijst of voor één tegelijkertijd. U kunt een of meer posten in het overzicht selecteren en alleen die factureren.  
 
-De ondersteuning voor het factureren van afspraken vanuit Bookings is eenvoudiger dan de volledigere werkstroom voor het werken met verkoopoffertes, verkooporders en verkoopfacturen. Zie [Procedure: Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie. U kunt uw services verkopen met [!INCLUDE[d365fin](includes/d365fin_md.md)] of kiezen om Bookings te gebruiken, afhankelijk van uw zakelijke behoeften.  
+De ondersteuning voor het factureren van afspraken vanuit Bookings is eenvoudiger dan de volledigere werkstroom voor het werken met verkoopoffertes, verkooporders en verkoopfacturen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie. U kunt uw services verkopen met [!INCLUDE[d365fin](includes/d365fin_md.md)] of kiezen om Bookings te gebruiken, afhankelijk van uw zakelijke behoeften.  
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
-[Procedure: Verkopen factureren](sales-how-invoice-sales.md)  
+[Verkopen factureren](sales-how-invoice-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

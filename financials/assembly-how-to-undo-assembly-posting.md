@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Procedure: boeken van assemblage ongedaan maken
+# <a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
 Soms moet u mogelijk een geboekte assemblageorder verwijderen, zoals wanneer de order is geboekt met fouten die moeten worden gecorrigeerd of omdat deze niet geboekt had mogen worden en moet worden teruggedraaid.
 
 Wanneer u een geboekte assemblageorder ongedaan wilt maken, wordt er een set met corrigerende artikelposten gemaakt om de oorspronkelijke posten terug te draaien. Elke positieve uitvoerpost voor het assemblageartikel wordt via een negatieve uitvoerpost teruggedraaid. Elk negatieve verbruiksartikelpost voor een assemblagecomponent wordt via een positieve verbruikspost teruggedraaid. Er wordt automatisch een vaste kostenvereffening gemaakt tussen de corrigerende en de oorspronkelijke posten om een exacte kostenterugboeking te garanderen.  
@@ -39,7 +39,7 @@ Verder kunnen bestaande assemblageorders uitsluitend worden teruggedraaid als he
 > [!TIP]  
 >  Als u conflicten ten gevolge van regelwijzigingen wilt oplossen, kunt de wijzigingen op de desbetreffende regels handmatig ongedaan maken voordat u de bijbehorende assemblageorder boekt. U kunt de assemblageorder ook volledig boeken en er vervolgens voor kiezen om deze opnieuw te maken wanneer u de boeking ongedaan maakt.  
 
-De volgende procedure beschrijft het ongedaan maken van geboekte assemblageorders waarvoor artikelen zijn geassembleerd voor voorraad. Als u geboekte assemblageorders waarvoor artikelen zijn geassembleerd ten behoeve van een verkooporder ongedaan wilt maken, moet u de functie **Verzending ongedaan maken** gebruiken voor de geboekte verzending die betrekking heeft op de geboekte assemblageorder. Zie voor meer informatie [Procedure: Boekingen tegenboeken](finance-how-reverse-journal-posting.md). Het ongedaan het maken van de geboekte assemblageorder geschiedt vervolgens automatisch en op dezelfde wijze als in dit onderwerp is beschreven.  
+De volgende procedure beschrijft het ongedaan maken van geboekte assemblageorders waarvoor artikelen zijn geassembleerd voor voorraad. Als u geboekte assemblageorders waarvoor artikelen zijn geassembleerd ten behoeve van een verkooporder ongedaan wilt maken, moet u de functie **Verzending ongedaan maken** gebruiken voor de geboekte verzending die betrekking heeft op de geboekte assemblageorder. Zie voor meer informatie [Boekingen tegenboeken](finance-how-reverse-journal-posting.md). Het ongedaan het maken van de geboekte assemblageorder geschiedt vervolgens automatisch en op dezelfde wijze als in dit onderwerp is beschreven.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Het boeken van een assemblageorder ongedaan maken  
 1.  Als u een volledig of gedeeltelijk geboekte assemblyorder ongedaan wilt maken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Geboekte assemblyorders** in en kiest u de gerelateerde koppeling.  
@@ -57,9 +57,9 @@ Het veld **Tegengeboekt** in de assemblageorder verandert in **Ja**. De assembla
 
 ## <a name="see-also"></a>Zie ook  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Procedure: boekingen tegenboeken](finance-how-reverse-journal-posting.md)  
-[Procedure: Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)    
-[Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)  
+[Boekingen tegenboeken](finance-how-reverse-journal-posting.md)  
+[Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)    
+[Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

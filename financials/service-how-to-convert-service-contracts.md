@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Procedure: Servicecontracten met btw-bedragen converteren
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Servicecontracten met btw-bedragen converteren
 Omdat het wijzigingstool btw-tarief servicecontracten niet kan converteren, moeten deze contracten handmatig worden geconverteerd. In dit onderwerp worden diverse alternatieve methoden beschreven die u voor de conversie van het servicecontract kunt gebruiken.  
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ In de volgende procedure wordt beschreven hoe u nieuwe contracten kunt maken doo
 ### <a name="to-create-a-new-credit-memo"></a>Een nieuwe creditnota maken  
 In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de batchtaak **Vooruitbetaalde contractposten ophalen** kunt maken. Posten van januari 2017 tot en met juni 2017 die u niet wilt corrigeren, worden verwijderd.  
 
-1. Voer de Wijzigingstool btw-tarief op 1 juli 2017 uit. De algemene productboekingsgroep of de btw-productboekingsgroep wordt gewijzigd. Zie voor meer informatie [Procedure: Met btw werken bij verkoop en inkoop](finance-work-with-vat.md).  
+1. Voer de Wijzigingstool btw-tarief op 1 juli 2017 uit. De algemene productboekingsgroep of de btw-productboekingsgroep wordt gewijzigd. Zie voor meer informatie [Met btw werken bij verkoop en inkoop](finance-work-with-vat.md).  
 2. Voer na het uitvoeren van het wijzigingstool btw-tarief een contractvervaldatum voor het servicecontract in. U kunt nu de servicecontractregel verwijderen en een nieuwe regel maken die identiek is aan de oude.  
 3. Maak een nieuwe factuur voor de periode januari 2017 tot en met december 2012 met het nieuwe btw-tarief.  
 4. Om een andere creditnota te maken, kiest u in het venster **Servicecreditnota's** de optie **Nieuw** om een nieuwe servicecreditnota te maken.  
@@ -64,8 +64,8 @@ In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de bat
 6. Nadat de conversie is voltooid, zijn de btw en de serviceposten correct.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Werken met servicecontracten en servicecontractoffertes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Werken met servicecontracten en servicecontractoffertes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Financiën](finance.md)  
-[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)  
-[Procedure: Met btw werken bij verkoop en inkoop](finance-work-with-vat.md)  
+[Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)  
+[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 

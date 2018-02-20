@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Procedure: Resources toewijzen
-Het belangrijkste element van servicebeheer bestaat uit de personen die de service uitvoeren. U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat de juiste personen aan de betreffende projecten worden toegewezen. Toewijzingen kunnen worden gebaseerd op serviceregio's waarin de personen zich bevinden of waarin de service plaatsvindt. U kunt resources ook groeperen in reactie op serviceaanvragen. Zie [Procedure: Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) voor meer informatie.
+# <a name="allocate-resources"></a>Resources toewijzen
+Het belangrijkste element van servicebeheer bestaat uit de personen die de service uitvoeren. U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat de juiste personen aan de betreffende projecten worden toegewezen. Toewijzingen kunnen worden gebaseerd op serviceregio's waarin de personen zich bevinden of waarin de service plaatsvindt. U kunt resources ook groeperen in reactie op serviceaanvragen. Zie [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) voor meer informatie.
 
 U kunt resources, bijvoorbeeld technici, toewijzen via het **planbord** of vanuit een serviceorder. U kunt de beschikbaarheid van resources gebruiken om resources toe te wijzen die de servicetaken in de orders of offertes moeten uitvoeren.
 
@@ -142,6 +142,6 @@ U kunt resourcetoewijzingen voor servicetaken annuleren zonder de taken opnieuw 
     > De optie **Hertoewijzing vereist** wordt automatisch geselecteerd in het veld **Status**. Als de herstelstatus van het serviceartikel in de post de waarde **Eerste** heeft, wordt de herstelstatus gewijzigd in **Toegewezen**, dat wil zeggen, er is nog geen service begonnen. Heeft de herstelstatus de waarde **In verwerking**, dan wordt de herstelstatus gewijzigd in **Deels service verleend**, dat wil zeggen, een deel van de service is voltooid.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
+[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
 [Toewijzingsstatus en herstelstatus](service-allocation-status-and-repair-status.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>Procedure: Artikelen ontvangen
+# <a name="receive-items"></a>Artikelen ontvangen
 Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking niet is ingesteld, registreert u de ontvangst in het gerelateerde bedrijfsdocument, zoals een inkooporder, verkoopretourorder of inkomende transferorder.
 
 Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking is ingesteld, moet u de regels ophalen van het vrijgegeven brondocument waaruit de ontvangst voortkomt. Als u met opslaglocaties werkt, kunt u de voorgestelde standaardopslaglocatie accepteren of, als het artikel nog niet in het magazijn is gebruikt, een andere opslaglocatie voor het artikel invullen. Vervolgens moet u de aantallen van de ontvangen artikelen invullen en de ontvangst boeken.  
@@ -27,7 +27,7 @@ Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking
 ## <a name="to-receive-items-with-a-purchase-order"></a>Artikelen ontvangen met een inkooporder
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stappen zijn vergelijkbaar voor verkoopretourorders en transferorders.  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkooporders** in en klik vervolgens op de gerelateerde koppeling.
-2. Open een bestaande inkooporder of maak een nieuwe. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).
+2. Open een bestaande inkooporder of maak een nieuwe. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Voer in het veld **Te ontvangen aantal** het aantal in dat u hebt ontvangen.
 
     De waarde in het veld **Ontvangen aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke ontvangst is, is de waarde lager dan de waarde in het veld **Aantal**.

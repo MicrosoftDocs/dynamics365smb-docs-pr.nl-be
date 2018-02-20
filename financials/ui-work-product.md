@@ -1,6 +1,6 @@
 ---
-title: Werken met de algemene functionaliteit in Dynamics 365 Business edition | Microsoft Docs
-description: Hier worden de algemene functies beschreven die u gebruikt om te werken met gegevens in Dynamics 365, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
+title: Werken met de algemene functionaliteit in Finance and Operations, Business edition | Microsoft Docs
+description: Beschrijft de algemene functies die u gebruikt om te werken met gegevens in Finance and Operations, Business edition, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d9f0fd40b34637a8a31e28871b19bd2adb3aab40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="working-with-included365finlongincludesd365finlongmdmd"></a>Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="working-with-included365finincludesd365finmdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
 U kunt bijvoorbeeld de grootte en positie van elk venster aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
@@ -32,15 +32,16 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 | Met Zoeken naar een bepaalde pagina of bepaald rapport zoeken. |[Zoeken naar pagina of rapport gebruiken](ui-search.md) |
 | Leren over het sorteren van gegevens. |[Sorteren](ui-sorting.md) |
 | Wijzigen hoe u lijsten van bijvoorbeeld klanten, leveranciers of artikelen weergeeft. |[Lijsten weergeven op verschillende manieren](across-display-lists-different-views.md) |
-| De gekleurde indicatoren voor indicatiestapels wijzigen. |[Procedure: Een gekleurde indicator instellen voor indicatiestapels](ui-how-setup-colored-indicator-cues.md) |
+| De gekleurde indicatoren voor indicatiestapels wijzigen. |[Een gekleurde indicator instellen voor indicatiestapels](ui-how-setup-colored-indicator-cues.md) |
 | Basisinstellingen wijzigen zoals bedrijf of werkdatum. |[Basisinstellingen wijzigen](ui-change-basic-settings.md) |
-| Het rolcentrum en de relateerde startpagina wijzigen om bij uw rol te passen. |[Procedure: Het rolcentrum wijzigen](change-role.md) |
+| Het rolcentrum en de relateerde startpagina wijzigen om bij uw rol te passen. |[Het rolcentrum wijzigen](change-role.md) |
 | Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen. |[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md) |
-| Lijsten ophalen om gegevens uit bepaalde datumbereiken weer te geven. |[Datumbereiken invoeren in Dynamics 365 Business edition](ui-enter-date-ranges.md) |
+| Lijsten ophalen om gegevens uit bepaalde datumbereiken weer te geven. |[Datumbereiken invoeren in Finance and Operations, Business edition](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Uw [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-ervaring aanpassen](ui-experiences.md)  
+[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
 
-## [!INCLUDE[free_trial](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

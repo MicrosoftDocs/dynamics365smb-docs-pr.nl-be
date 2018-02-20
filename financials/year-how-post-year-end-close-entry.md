@@ -13,13 +13,13 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78039e9387866ce17ff3be5a2ff509545e8439d2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-the-year-end-closing-entry"></a>Procedure: de jaareinde-ultimopost boeken
+# <a name="post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
 Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
@@ -32,7 +32,7 @@ Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaare
 >   Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven. Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald. Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Boekhoudperioden afsluiten](year-close-account-periods.md)  
+[Boekhoudperioden afsluiten](year-close-account-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
 [Afsluiten WenV-rekening](year-close-income-statement.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

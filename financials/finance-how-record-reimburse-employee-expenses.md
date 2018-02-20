@@ -13,14 +13,14 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c12561f4851cd75bdc4098e506c113e50d3bc3be
 ms.contentlocale: nl-be
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-and-reimburse-employees-expenses"></a>Procedure: kosten van werknemers registreren en terugbetalen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt transacties voor een werknemer op dezelfde manier als voor leveranciers. Daarom zijn er werknemersboekingsgroepen om te zorgen dat werknemersposten worden geboekt naar de relevante rekeningen in het grootboek.
+# <a name="record-and-reimburse-employees-expenses"></a>Kosten van werknemers registreren en terugbetalen
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ondersteunt transacties voor een werknemer op dezelfde manier als voor leveranciers. Daarom zijn er werknemersboekingsgroepen om te zorgen dat werknemersposten worden geboekt naar de relevante rekeningen in het grootboek.
 
 > [!NOTE]  
 > Werknemerstransacties kunnen alleen in de lokale valuta worden geboekt. Terugbetalingen aan werknemers ondersteunen geen kortingen en betalingstoleranties.
@@ -47,12 +47,12 @@ U betaalt werknemers terug door betalingen te boeken naar hun bankrekening in he
 5. Kies de actie **Boeken** om de terugbetaling te registreren.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Terugbetalingen reconciliëren met werknemersposten
-U vereffent werknemersbetalingen met de gerelateerde open werknemersposten op dezelfde manier als u dat doet voor leveranciersbetalingen, bijvoorbeeld in het venster **Betalingsreconciliatiedagboek**, op basis van de gerelateerde bankafschriftposten. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md). U kunt ook handmatig vereffenen in het venster **Werknemerposten**. Zie voor meer informatie de gerelateerde [Procedure: Leveranciersbetalingen handmatig reconciliëren](payables-how-apply-purchase-transactions-manually.md).  
+U vereffent werknemersbetalingen met de gerelateerde open werknemersposten op dezelfde manier als u dat doet voor leveranciersbetalingen, bijvoorbeeld in het venster **Betalingsreconciliatiedagboek**, op basis van de gerelateerde bankafschriftposten. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md). U kunt ook handmatig vereffenen in het venster **Werknemerposten**. Zie voor meer informatie het gerelateerde [Leveranciersbetalingen handmatig reconciliëren](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
+[Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Procedure: boekingen tegenboeken](finance-how-reverse-journal-posting.md)  
+[Boekingen tegenboeken](finance-how-reverse-journal-posting.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

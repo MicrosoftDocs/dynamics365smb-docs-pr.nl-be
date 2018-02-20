@@ -1,6 +1,6 @@
 ---
 title: Uw Financials-gegevens exporteren naar Excel| Microsoft Docs
-description: "U kunt uw financiële rapporten en bedrijfsinformatiegegevens uit Dynamics 365 Business edition exporteren naar Excel of uw Financials-gegevens in Excel openen."
+description: "U kunt uw financiële rapporten en bedrijfsinformatiegegevens uit Finance and Operations, Business edition exporteren naar Excel of uw Financials-gegevens in Excel openen."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
-Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.
+Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[d365fin](includes/d365fin_md.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.
 
 ## <a name="opening-lists-in-excel"></a>Lijsten openen in Excel
 U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U opent gewoon de gewenste pagina en kiest vervolgens **Openen in Excel**. Open bijvoorbeeld de lijst met klanten (zoek naar **Klanten**) en kies vervolgens **Openen in Excel**. Uw browser vraagt of u het gegenereerde Excel-werkboek wilt openen of opslaan.  
@@ -60,12 +60,12 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 * Verkopers  
 
 > [!NOTE]  
->   Als u meer dan één bedrijf in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] hebt ingesteld, moet u de relevante gegevens van elk bedrijf exporteren.
+>   Als u meer dan één bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt ingesteld, moet u de relevante gegevens van elk bedrijf exporteren.
 
 ## <a name="see-also"></a>Zie ook
-[Uw abonnement voor [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md) annuleren  
+[Uw abonnement voor [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md) annuleren  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Financiën](finance.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

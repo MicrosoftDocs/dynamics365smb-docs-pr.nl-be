@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Procedure: servicefacturen of creditnota's maken
+# <a name="create-service-invoices-or-credit-memos"></a>Servicefacturen of creditnota's maken
 Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt op elk gewenst moment een factuur naar uw klanten verzenden of u kunt periodiek facturen opstellen.  
   
 Als u direct een factuur wilt maken, gebruikt u het venster **Servicecontract**. U kunt uw systeem ook zodanig instellen dat een servicetechnicus op locatie een factuur kan maken voor services die niet aan een contract of order zijn verbonden.  
@@ -99,7 +99,7 @@ Servicecreditnotadocumenten worden meestal gebruikt wanneer klanten artikelen te
 4. Voer op de creditnotaregels gegevens in over de artikelen die zijn teruggestuurd of verwijderd of over de vergoeding die aan de klant zal worden gegeven.  
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Servicefacturen boeken](service-how-to-post-service-orders.md)  
+[Servicefacturen boeken](service-how-to-post-service-orders.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Serviceboekingen](service-service-posting.md)  
 

@@ -13,14 +13,14 @@ ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
-Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
+Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 Echter, kunt u de standaardrekeningen wijzigen en u kunt nieuwe rekeningen toevoegen.  
 
 ## <a name="adding-or-changing-accounts"></a>Rekeningen toevoegen of wijzigen
@@ -33,7 +33,7 @@ Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen t
 * Het veld **Grootboekrek.-verwijdering toestaan voor** moet zijn ingesteld in het venster **Grootboekinstelling** en de rekening mag geen grootboekposten op of na die datum hebben.  
 * Als het veld **Grootboekrek.-gebruik controleren** in het venster **Grootboekinstellingen** is geselecteerd, mag de rekening niet worden gebruikt in boekingsgroepen of boekingsinstellingen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voorkomt dat u een grootboekrekening verwijdert die gegevens bevat die nodig zijn in het rekeningschema.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  voorkomt dat u een grootboekrekening verwijdert die gegevens bevat die nodig zijn in het rekeningschema.  
 
 ## <a name="see-also"></a>Zie ook
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  

@@ -1,6 +1,6 @@
 ---
 title: De extensie van de Afbeeldingsanalyse gebruiken | Microsoft Docs
-description: Met deze extensie kunt u afbeeldingen analyseren van contacten en artikelen om kenmerken te zoeken, zodat u deze snel kunt toewijzen in Dynamics 365.
+description: Met deze extensie kunt u afbeeldingen analyseren van contacten en artikelen om kenmerken te zoeken, zodat u deze snel kunt toewijzen in Finance and Operations, Business edition.
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>De extensie Afbeeldingsanalyse voor Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>De extensie Afbeeldingsanalyse voor Microsoft Finance and Operations, Business edition
 De extensie Afbeeldingsanalyse gebruikt krachtige afbeeldingsanalyse die wordt verschaft door de Computer Vision-API voor Cognitieve services van Microsoft om kenmerken te detecteren in de afbeeldingen die u importeert voor artikelen en contactpersonen, zodat u deze gemakkelijk kunt bekijken en toewijzen. Voor artikelen kunnen kenmerken bijvoorbeeld zijn of het artikel een tafel of een auto is en of het rood of blauw is. Voor contactpersonen kunnen kenmerken geslacht of leeftijd zijn.
 
 Afbeeldingsanalyse stelt kenmerken voor op basis van tags die de Computer Vision-API vindt, en een vertrouwensniveau. Standaard worden alleen kenmerken voorgesteld als het ten minste 80% zeker is dat het kenmerk klopt. U kunt een ander vertrouwensniveau instellen, indien nodig. Als u meer wilt weten over hoe de tags en vertrouwensniveaus worden bepaald, raadpleegt u [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476)  
@@ -92,7 +92,7 @@ U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de hui
 2. Schakel het selectievakje **Afbeeldingsanalyse inschakelen** uit.  
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
+[Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

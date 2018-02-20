@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Procedure: Een sandboxomgeving maken
+# <a name="create-a-sandbox-environment"></a>Een sandboxomgeving maken
 Een sandboxomgeving (voorbeeld) is een niet-productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.
 
 ## <a name="to-create-a-sandbox-environment"></a>Een sandboxomgeving maken
@@ -44,7 +44,7 @@ In de sandboxomgeving wordt een gloednieuwe tenant gemaakt. Deze tenant wordt ge
 > [!NOTE]  
 >  Wanneer u de sandboxomgeving herstelt, wordt deze volledig verwijderd en vervolgens opnieuw gemaakt met de standaarddemonstratiegegevens.  
 
-8.  Als u wilt schakelen tussen uw productie- en sandboxomgeving, kunt u het startprogramma voor apps van Dynamics 365 gebruiken.
+8.  Als u wilt schakelen tussen uw productie- en sandboxomgeving, kunt u het startprogramma voor apps van Finance and Operations, Business edition gebruiken.
 ![Dynamics 365-menu in sandbox](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Een beheerder of een andere gebruiker kan de toegang tot de sandboxomgeving voor sommige gebruikers beperken of zelfs blokkeren. Dit kunt u doen met de standaardbeveiligingsfuncties van het product, zoals de kaart Gebruiker, gebruikersgroepen en machtigingensets.

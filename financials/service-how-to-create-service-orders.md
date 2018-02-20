@@ -1,6 +1,6 @@
 ---
 title: Serviceorders maken | Microsoft Docs
-description: In het venster **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, bijvoorbeeld herstel en onderhoud.
+description: In het venster **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Procedure: Serviceorders maken
+# <a name="create-service-orders"></a>Serviceorders maken
 In het venster **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud.  
   
 Wanneer u een serviceorder maakt, hoeft u slechts een paar velden in te vullen. Sommige velden zijn optioneel en veel worden automatisch ingevuld wanneer u verwante velden invult.  
@@ -52,7 +52,7 @@ U kunt automatisch serviceorders voor het onderhoud van serviceartikelen maken o
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Een serviceofferte omzetten in een serviceorder
 Wanneer een klant een servicecontractofferte heeft geaccepteerd, zet u deze om in een serviceorder. De offerte wordt verwijderd en er wordt een nieuwe serviceorder ingesteld met dezelfde omschrijving als de serviceofferte. De responsdatum en -tijd worden opnieuw berekend voor de serviceorder en de status van de serviceorder wordt ingesteld op **In behandeling**. De herstelstatus van de serviceartikelen in de order wordt gewijzigd in **Eerste**.  
   
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gezocht naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] zoekt naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
 
 1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de serviceofferte die u wilt omzetten in een serviceorder.  
@@ -79,7 +79,7 @@ Als u er zeker van wilt zijn dat een artikel voor een serviceorder beschikbaar i
 5. Op de pagina **Reservering** kiest u **Huidige regel reserveren**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Regels invoegen op basis van standaardservicecodes  
-Als u standaardservicecodes hebt ingesteld en deze hebt toegewezen aan serviceartikelgroepen, kunt u de standaardregels invoegen die zijn gekoppeld aan de standaardservicecodes op servicedocumenten. Zie voor meer informatie [Procedure: Standaardservicecodes instellen](service-how-setup-service-coding.md).   
+Als u standaardservicecodes hebt ingesteld en deze hebt toegewezen aan serviceartikelgroepen, kunt u de standaardregels invoegen die zijn gekoppeld aan de standaardservicecodes op servicedocumenten. Zie voor meer informatie [Standaardservicecodes instellen](service-how-setup-service-coding.md).   
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceorders** in en klik op de gerelateerde koppeling.  
 2. Maak een nieuwe serviceorder.  
@@ -106,8 +106,8 @@ Serviceorders worden echter niet automatisch verwijderd als het totale aantal op
 
 ## <a name="see-also"></a>Zie ook  
 [Serviceboekingen](service-service-posting.md)  
-[Procedure: Een serviceorder boeken](service-how-to-post-service-orders.md)  
+[Een serviceorder boeken](service-how-to-post-service-orders.md)  
 [CRM - Service instellen](service-setup-service.md)  
-[Procedure: Werken aan servicetaken](service-how-to-work-on-service-tasks.md)  
-[Procedure: Resources toewijzen](service-how-to-allocate-resources.md)  
+[Werken aan servicetaken](service-how-to-work-on-service-tasks.md)  
+[Resources toewijzen](service-how-to-allocate-resources.md)  
 

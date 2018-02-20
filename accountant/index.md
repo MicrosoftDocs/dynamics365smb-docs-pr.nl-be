@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 021ca5cebb5de3357a36c802a725d806c592e40f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 419c13f4d7b35f66fae04d71d269208d9c172613
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Welkom bij [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
@@ -26,7 +26,7 @@ Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE[d365acc]
 
 U kunt toegang tot [!INCLUDE[d365acc](includes/d365acc_md.md)] krijgen door u aan te melden via [Dynamics 365 — Accountant Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Het is gratis en u kunt eenvoudig aan de slag gaan en uw cliënten toevoegen aan het dashboard. Zie [Aan de slag met Accountant Hub](get-started.md) voor meer informatie.  
 
-In de huidige versie van [!INCLUDE[d365acc](includes/d365acc_md.md)] kunt u cliënten toevoegen die [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken om hun bedrijf uit te voeren.  
+In de huidige versie van [!INCLUDE[d365acc](includes/d365acc_md.md)] kunt u cliënten toevoegen die [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruiken om hun bedrijf uit te voeren.  
 
 ## <a name="see-also"></a>Zie ook
 [Microsoft Dynamics 365-documentatie](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

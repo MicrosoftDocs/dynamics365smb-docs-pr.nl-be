@@ -13,13 +13,13 @@ ms.search.keywords: incoming document
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5cf49fa7b1c2d4385cd05f44e10237078e1214a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abeb3ee24434ca3549e7ed88ecfae54cc395002d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-the-intercompany-inbox-and-outbox"></a>Procedure: De intercompany-inbox en outbox beheren
+# <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
 Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  
 
 ## <a name="organizing-the-inbox"></a>De IC-inbox ordenen  
@@ -58,7 +58,7 @@ Als u een IC-partner hebt die zich niet in dezelfde database bevindt als uw bedr
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.
 2. Sla het bestand op naar de locatie die u hebt opgegeven in het veld **Details IC-inbox** in het venster **Bedrijfsgegevens**.  
-3. Klik op het pictogram ![Zoeken naar pagina of rapport]pictogram (media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.
+3. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport")-pictogram, voer **IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.
 4. Kies in het venster **IC-inboxtransacties** de actie **Transactiebestand importeren**.  
 5. Selecteer in het venster dat wordt geopend het .xml-bestand dat de transacties bevat en klik vervolgens op **Openen**.  
 
@@ -67,7 +67,7 @@ De transacties worden geïmporteerd in de inbox en u kunt ze nu verwerken.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Inkomende IC-transacties verwerken  
 Wanneer uw IC-partners u IC-transacties toesturen, komen de transacties terecht in uw IC-inbox. U moet elke transactie in uw inbox evalueren en verwerken.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport]pictogram (media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport")-pictogram, voer **IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer in het venster **IC-inboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Goedkeuren**.
 3. Vul in het venster **Bewerking IC-inbox voltooien** de velden in met de benodigde gegevens. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **OK**.  

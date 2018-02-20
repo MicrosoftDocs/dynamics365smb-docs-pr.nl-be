@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e4cc14212f30c7b42aaf9d08c848488ab65444f6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6effbb7bd316eed24b20943e71f4e0bf8e9e8a3e
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -112,7 +112,7 @@ Het venster **Statistiek servicecreditnota's** biedt een statistisch overzicht v
 * Algemene informatie over de klant, zoals de kredietlimiet van de klant en het rekeningsaldo.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Serviceorders maken](service-how-to-create-service-orders.md)   
-[Procedure: Serviceartikelen maken](service-how-to-create-service-items.md)   
+[Serviceorders maken](service-how-to-create-service-orders.md)   
+[Serviceartikelen maken](service-how-to-create-service-items.md)   
 [Service plannen](service-plan-service.md)  
 

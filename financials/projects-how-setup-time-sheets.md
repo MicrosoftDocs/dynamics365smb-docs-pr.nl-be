@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a5b2027649e2adddfd3e59b4376303059f575a99
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-time-sheets"></a>Procedure: urenstaten instellen
+# <a name="set-up-time-sheets"></a>Urenstaten instellen
 Urenstaten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwerken tijdsregistraties in wekelijkse termijnen van zeven dagen. U gebruikt ze om de tijd te volgen die aan projecten wordt besteed en u kunt ze gebruiken om eenvoudige registratie van resourcetijd vast te leggen. Voordat u urenstaten kunt gebruiken, moet u opgeven hoe u wilt dat ze worden ingesteld en geconfigureerd.
 
 Nadat u hebt ingesteld hoe uw organisatie urenstaten gaat gebruiken, kunt u opgeven of en hoe urenstaten worden goedgekeurd. Afhankelijk van de wensen van uw organisatie kunt u het volgende aangeven:
@@ -27,7 +27,7 @@ Nadat u hebt ingesteld hoe uw organisatie urenstaten gaat gebruiken, kunt u opge
 * Een of meer gebruikers als urenstatenbeheerders en fiatteurs voor alle urenstaten.
 * Een urenstaatgoedkeurder voor elke resource.
 
-Wanneer u urenstaten hebt ingesteld, kunt u urenstaten maken voor resources, ze toewijzen een projectplanningsregels en urenstaatregels boeken. Zie [Procedure: Urenstaten gebruiken](projects-how-use-time-sheets.md) voor meer informatie.
+Wanneer u urenstaten hebt ingesteld, kunt u urenstaten maken voor resources, ze toewijzen een projectplanningsregels en urenstaatregels boeken. Zie [Urenstaten gebruiken](projects-how-use-time-sheets.md) voor meer informatie.
 
 ## <a name="to-set-up-general-information-for-time-sheets"></a>Algemene informatie instellen voor urenstaten
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png ""pictogram Zoeken naar pagina of rapport"), voer **Resource-instellingen** in en klik vervolgens op de gerelateerde koppeling.  
@@ -42,7 +42,7 @@ Wanneer u urenstaten hebt ingesteld, kunt u urenstaten maken voor resources, ze 
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Een beheerder van urenstaten toewijzen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
-2. Voeg een nieuwe gebruiker toe als de lijst met gebruikers niet de persoon bevat die de beheerder van urenstaten moet zijn. Zie [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
+2. Voeg een nieuwe gebruiker toe als de lijst met gebruikers niet de persoon bevat die de beheerder van urenstaten moet zijn. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
 3. Selecteer een gebruiker als beheerder van urenstaten en schakel vervolgens het selectievakje **Urenstaat-admin** in.  
 
 > [!TIP]  

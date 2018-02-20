@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
@@ -52,7 +52,7 @@ De volgende belangrijke kostenelementen vormen samen de totale directe kosten va
 -   Directe materiaalkosten worden gevormd door een gefactureerd bedrag voor aangeschafte grondstoffen of de verwerkingskosten van een subassemblage.  
 -   Indirecte materiaalkosten (ofwel *overheads*) kunnen bijvoorbeeld bestaan uit de opslagkosten voor voltooide artikelen nadat deze zijn geproduceerd.  
 
-De instelling van de materiaalkosten voor aangeschafte artikelen die invloed hebben op directe en indirecte kosten wordt bepaald door de waarderingsmethode die is geselecteerd voor het opgeven artikel. U stelt kostengegevens in voor beide waarderingsmethoden op de artikelkaart. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
+De instelling van de materiaalkosten voor aangeschafte artikelen die invloed hebben op directe en indirecte kosten wordt bepaald door de waarderingsmethode die is geselecteerd voor het opgeven artikel. U stelt kostengegevens in voor beide waarderingsmethoden op de artikelkaart. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 Ook uitvalkosten (alleen productie) vormen een bijkomende factor die moet worden meegewogen bij de berekening van de totale materiaalkosten. Het uitvallen van een bepaalde hoeveelheid grondstoffen tijdens het assembleren of produceren van artikelen zorgt vaak voor een toename van het aantal onderdelen dat nodig is om het artikel te produceren. Dit leidt tot een toename van de materiaalkosten van de onderdelen die worden gebruikt tijdens het produceren van een hoofdartikel. U kunt uitvalkosten voor materialen instellen in de productiestuklijst of in het bewerkingsplan.  
 
@@ -98,13 +98,13 @@ Om de vaste verrekenprijs van assemblageartikelen bij te werken of te berekenen,
 Het proces van bijwerken of berekenen van vaste verrekenprijzen bestaat gewoonlijk uit de volgende taken:  
 
 1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerkingen **Vaste verrekenprijs artikel voorstellen** en **Vaste verrekenprijs capaciteit voorstellen**.  
-2.  Het consolideren en berekenen van de materiaal- en capaciteitskosten om de totale assemblage- of productiekosten van de artikelen te berekenen. Zie voor meer informatie de sectie 'De vaste verrekenprijs van een assemblageartikel berekenen' in [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md).  
+2.  Het consolideren en berekenen van de materiaal- en capaciteitskosten om de totale assemblage- of productiekosten van de artikelen te berekenen. Zie voor meer informatie de sectie 'De vaste verrekenprijs van een assemblageartikel berekenen' in [Werken met stuklijsten](inventory-how-work-BOMs.md).  
 3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Zie voor meer informatie de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren**.  
-4.  De wijzigingen implementeren om het veld **Kostprijs** op de artikelkaart bij te werken en voorraadherwaardering uit te voeren. Zie [Procedure: Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
+4.  De wijzigingen implementeren om het veld **Kostprijs** op de artikelkaart bij te werken en voorraadherwaardering uit te voeren. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)   
- [Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)   
- [Procedure: vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md)   
+ [Werken met stuklijsten](inventory-how-work-BOMs.md)   
+ [Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)   
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)
 

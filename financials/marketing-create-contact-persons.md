@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Contactpersonen maken
@@ -30,16 +30,16 @@ Door zoveel mogelijk details over een contact te registreren zorgt u ervoor dat 
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
-| Informatie over een contactpersoon opgeven. |[Procedure: Contactpersonen maken](marketing-how-create-contact-persons.md) |
-| Een alternatief adres voor een contact instellen. |[Procedure: Alternatieve adressen toewijzen](marketing-how-assign-alternate-address.md) |
-| De zakenrelatie van een bedrijfscontact beschrijven. |[Procedure: Functiegroepen instellen voor contacten](marketing-job-responsibilities.md) |
-| Het organisatieniveau van uw contacten beschrijven. |[Procedure: Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md) |
+| Informatie over een contactpersoon opgeven. |[Contacten maken](marketing-how-create-contact-persons.md) |
+| Stel een alternatief adres voor een contact in. |[Alternatieve adressen toewijzen](marketing-how-assign-alternate-address.md) |
+| De zakenrelatie van een bedrijfscontact beschrijven. |[Functiegroepen instellen voor contacten](marketing-job-responsibilities.md) |
+| Het organisatieniveau van uw contacten beschrijven. |[Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md) |
 | Mailinggroepen aan uw contacten toewijzen. |[Mailinggroepen toewijzen aan een contact](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  
 [Contactpersonen maken en beheren]()  
-[Werken met Dynamics 365](ui-work-product.md)
+[Werken met Finance and Operations, Business edition](ui-work-product.md)
 

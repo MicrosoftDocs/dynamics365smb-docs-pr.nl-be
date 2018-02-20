@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: Verdeelsleutels in dagboeken gebruiken | Microsoft Docs'
+title: Verdeelsleutels in dagboeken gebruiken | Microsoft Docs
 description: Leren hoe u verdeelsleutels in dagboeken gebruikt.
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ee3e0f325623666eb720e3cc2656cfd1f6332eb
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-allocation-keys-in-general-journals"></a>Procedure: verdeelsleutels in dagboeken gebruiken
+# <a name="use-allocation-keys-in-general-journals"></a>Verdeelsleutels in dagboeken gebruiken
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.
 
 ## <a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen

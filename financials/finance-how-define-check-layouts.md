@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Procedure: Cheque-indelingen definiëren
+# <a name="define-check-layouts"></a>Cheque-indelingen definiëren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
@@ -35,7 +35,7 @@ Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canades
 | 10401 |Cheque (strook/strook/cheque) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/strook/cheque. |
 | 10411 |Cheque (strook/cheque/strook) |Dit rapport is ontworpen om cheques af te drukken in de indeling cheque/strook/cheque. |
 
-Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit het venster **Betalingsdagboek**. Zie voor meer informatie [Procedure: Werken met cheques](payables-how-work-checks.md).
+Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit het venster **Betalingsdagboek**. Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Zie ook
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

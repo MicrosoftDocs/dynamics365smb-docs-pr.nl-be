@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -52,7 +52,7 @@ Voor de btw-aangifte kunt u de posten opgeven die u wilt opnemen:
 * Alleen posten uit de opgegeven perioden indienen of ook posten uit eerdere perioden opnemen. Dit is handig om een btw-retour bij te werken die u al hebt ingediend, bijvoorbeeld als u leverancier u een late factuur stuurt.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Verbinding maken met de webservice van uw belastingdienst
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt serviceverbindingen met belastingdienstwebsites. Als u zich bijvoorbeeld in het VK bevindt, kunt u de **GovTalk**-serviceverbinding inschakelen om het Verkoopoverzicht EU en de btw-aangifte elektronisch in te dienen. Als u de lijst handmatig wilt verzenden, bijvoorbeeld door uw gegevens op de website van de belastingdienst in te voeren, is dit niet vereist.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  biedt serviceverbindingen met belastingdienstwebsites. Als u zich bijvoorbeeld in het VK bevindt, kunt u de **GovTalk**-serviceverbinding inschakelen om het Verkoopoverzicht EU en de btw-aangifte elektronisch in te dienen. Als u de lijst handmatig wilt verzenden, bijvoorbeeld door uw gegevens op de website van de belastingdienst in te voeren, is dit niet vereist.   
 
 Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met de webservice van de belastingdienst. Hiertoe moet u een account instellen bij uw belastingdienst. Wanneer u een account hebt ingesteld, kunt u een serviceverbinding inschakelen die we aanbieden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d
 4. Als u de lijst voor verzending wilt valideren en voorbereiden, kiest u de actie **Vrijgeven**.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert of het rapport correct is ingesteld. Als de validatie mislukt, worden de fouten weergegeven onder **Fouten en waarschuwingen**, zodat u weet wat u moet corrigeren. Als het bericht gaat over een ontbrekende instelling in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u op het bericht kunt klikken om de pagina te openen met de te verbeteren informatie.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]  controleert of het rapport correct is ingesteld. Als de validatie mislukt, worden de fouten weergegeven onder **Fouten en waarschuwingen**, zodat u weet wat u moet corrigeren. Als het bericht gaat over een ontbrekende instelling in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u op het bericht kunt klikken om de pagina te openen met de te verbeteren informatie.  
 5. Als u de lijst wilt verzenden, kiest u de actie **Verzenden**.  
 
 Als u de lijst hebt verzonden, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] de service en wordt een record van uw communicatie bijgehouden. Het veld **Status** geeft aan waar in het proces de lijst zich bevindt. Als de belastingdienst uw rapport bijvoorbeeld verwerkt, verandert de status van het rapport in **Succesvol**. Als de belastingdienst fouten in de lijst heeft gevonden die u hebt verzonden, wordt de status van de lijst **Mislukt**. U kunt de fouten bekijken onder **Fouten en waarschuwingen**, deze corrigeren en vervolgens de lijst opnieuw verzenden. Als u een overzicht wilt van al uw verkoopoverzichten EU, gaat naar de pagina **Rapporten verkoopoverzicht EU**.  
@@ -114,7 +114,7 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 
 ## <a name="see-also"></a>Zie ook 
 [Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)  
-[Procedure: Met btw werken bij verkoop en inkoop](finance-work-with-vat.md)  
+[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Procedure: Verkopen factureren](sales-setup-sales.md)  
+[Verkopen factureren](sales-setup-sales.md)  
 

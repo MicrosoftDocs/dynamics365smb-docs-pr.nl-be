@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c17f14809ecfe9a335c3f8e6bb7ddeb4e26e1e9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-segments"></a>Segmenten beheren
@@ -31,8 +31,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 | Aan | Zie |
 | --- | --- |
-| Segmenten maken waarmee u een groep contacten kunt selecteren. Bijvoorbeeld direct mail. |[Procedure: Segmenten maken](marketing-how-create-segment.md) |
-| De contacten beheren die zijn toegewezen aan segmenten. |[Procedure: Contactpersonen toevoegen aan segmenten](marketing-add-contact-segment.md) |
+| Segmenten maken waarmee u een groep contacten kunt selecteren. Bijvoorbeeld direct mail. |[Segmenten maken](marketing-how-create-segment.md) |
+| De contacten beheren die zijn toegewezen aan segmenten. |[Contacten toevoegen aan segmenten](marketing-add-contact-segment.md) |
 | Meer informatie over interacties en segmenten, inclusief registratie. |[Interactie en segmenten beheren](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Zie ook

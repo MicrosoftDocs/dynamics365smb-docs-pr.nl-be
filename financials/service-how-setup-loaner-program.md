@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Procedure: Uitleenprogramma instellen
+# <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
 Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  
   
 * Een notitie of opmerking over het uitleenartikel invoeren.  
@@ -33,7 +33,7 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 5. Kies de betreffende eenheidscode in het veld **Eenheidscode**.  
   
 ## <a name="see-also"></a>Zie ook
-[Procedure: Uitleenartikelen uitlenen en ontvangen](service-how-to-lend-receive-loaners.md)  
+[Uitleenartikelen uitlenen en ontvangen](service-how-to-lend-receive-loaners.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Service leveren](service-deliver-service.md)  
 

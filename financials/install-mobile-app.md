@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 gebruiken op uw mobiele apparaat | Microsoft Docs
-description: U kunt uw Dynamics 365-gegevens op uw telefoon of tablet bekijken en bewerken.
+title: Finance and Operations, Business edition gebruiken op uw mobiele apparaat | Microsoft Docs
+description: U kunt uw gegevens van Finance and Operations, Business edition bekijken op uw telefoon of tablet.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14bd909e8ec09a940285317a5980c76d0ba22b99
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Dynamics 365 for Finance and Operations installeren op uw mobiele apparaat
+# <a name="getting-finance-and-operations-business-edition-for-finance-and-operations-on-your-mobile-device"></a>Finance and Operations, Business edition for Finance and Operations op uw mobiele apparaat krijgen
 Toegang tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Office 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>De app ophalen op mijn mobiele apparaat

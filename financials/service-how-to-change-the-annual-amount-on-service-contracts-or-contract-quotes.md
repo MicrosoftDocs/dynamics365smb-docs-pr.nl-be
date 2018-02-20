@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 541eed23db807d62c570834ab0efbef6fc4f4083
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: afeaeb66ee6ff9f45b642e56c9a06ec484fe9669
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Procedure: Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
 U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen  
@@ -26,7 +26,7 @@ U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractoffert
 2. Kies het contract of de contractofferte.  
 3. Kies de actie **Contract openen** om het contract of de contractofferte te openen en bewerken.  
 4. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u het jaarlijkse bedrag wilt wijzigen en het verschil in het jaarlijkse bedrag handmatig wilt verdelen over de contractregels. Schakel anders het selectievakje uit om het verschil in het jaarlijkse bedrag automatisch te verdelen over de contractregels nadat u het jaarlijkse bedrag hebt gewijzigd.  
-5. Wijzig de inhoud van het veld **Jaarlijks bedrag**. Als het jaarlijkse bedrag negatief is, kunt u het servicecontract niet ondertekenen (omzetten in een servicecontract als u aan een contractofferte werkt) of vergrendelen. Als u het jaarlijkse bedrag instelt op nul, moet de inhoud van het veld **Factuurperiode****Geen** zijn als u het servicecontract ondertekent of vergrendelt.  
+5. Wijzig de inhoud van het veld **Jaarlijks bedrag**. Als het jaarlijkse bedrag negatief is, kunt u het servicecontract niet ondertekenen (omzetten in een servicecontract als u aan een contractofferte werkt) of vergrendelen. Als u het jaarlijkse bedrag instelt op nul, moet de inhoud van het veld **Factuurperiode** **Geen** zijn als u het servicecontract ondertekent of vergrendelt.  
 6. Afhankelijk van of het selectievakje **Bedragen in onbalans toestaan** is ingeschakeld, voert u de handmatige of automatische verdeling van het verschil in het jaarlijkse bedrag uit. De contractregels worden zodanig bijgewerkt dat de waarde in het veld **Berekend jaarlijks bedrag** gelijk is aan het nieuwe jaarlijkse bedrag.  
 
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Verschillen tussen nieuwe en berekende jaarlijks bedragen verdelen
@@ -186,6 +186,6 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 |Artikel 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [CRM - Service instellen](service-setup-service.md)  
 

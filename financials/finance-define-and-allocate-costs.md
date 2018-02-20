@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 050b0bd997629ca189cfbe035e361de7a252d079
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04e5a95b7a926528cc26c254390d08e3bce6ad8a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
@@ -38,7 +38,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 |Aan|Zie|  
 |--------|---------|  
-|Een verdelingsbron en de doelen ervoor instellen.|[Procedure: een verdelingsbron en verdeeldoelen instellen.](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Een verdelingsbron en de doelen ervoor instellen.|[Een verdelingsbron en de doelen ervoor instellen](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Filters instellen voor dynamische toewijzingsgrondslagen.|[Filters instellen voor dynamische toewijzingsgrondslagen](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |Zie een voorbeeld van hoe een statische toewijzing kan worden gedefinieerd.|[Voorbeeld scenario: statische toewijzingen op basis van de verdeelsleutel definiëren](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |Zie een voorbeeld van hoe een dynamische toewijzing kan worden gedefinieerd.|[Voorbeeld scenario: dynamische toewijzingen op basis van de verkochte artikelen definiëren](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  

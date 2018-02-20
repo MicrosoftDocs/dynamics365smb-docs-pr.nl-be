@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Wijzigingen registreren in Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Wijzigingen registreren in Finance and Operations, Business edition 
 U kunt het wijzigingslogbestand in [!INCLUDE[d365fin](includes/d365fin_md.md)] inschakelen, zodat u een overzicht van activiteiten hebt. Het logboek is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. In het wijzigingslogbestand worden posten chronologisch geordend en worden wijzigingen weergeven die worden aangebracht in de velden in de opgegeven tabellen. In het wijzigingslogbestand verzamelt alle wijzigingen die in de tabel worden aangebracht.  
 
 ## <a name="working-with-the-change-log"></a>Werken met het wijzigingslogbestand
@@ -32,8 +32,8 @@ Nadat u het wijzigingslogbestand hebt ingesteld, hebt geactiveerd en gegevens he
 
 ## <a name="see-also"></a>Zie ook
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
-[Sorteren](ui-sorting.md)  
+[Sorteervolgorde](ui-sorting.md)  
 [Zoeken naar pagina of rapport gebruiken](ui-search.md)  
-[Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
+[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

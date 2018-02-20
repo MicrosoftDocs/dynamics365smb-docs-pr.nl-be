@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Procedure: ordertoezeggingsdatums berekenen
+# <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
 Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met het venster **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporderregel.  
 
 Op basis van de bekende en verwachte beschikbaarheidsdatums van een item berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] onmiddellijk verzend- en leverdatums, die vervolgens aan de klant kunnen worden toegezegd.  
@@ -39,7 +39,7 @@ Als u geen aangevraagde leverdatum op een verkooporderregel hebt opgegeven of al
 ## <a name="about-order-promising"></a>Informatie over ordertoezeggingen
 Met de functionaliteit Ordertoezegging kunt u orders toezeggen, die op een bepaalde datum moeten worden verzonden of geleverd. De datum voor ATP (Available To Promise) of CTP (Capable To Promise) van een artikel wordt berekend en er worden orderregels gemaakt voor de datums die u accepteert. Met deze functionaliteit wordt de vroegst mogelijke datum berekend waarop een artikel beschikbaar is voor verzending of levering. De functie maakt ook aanvraagregeles, voor het geval dat de artikelen eerst moeten worden ingekocht, voor de datums die u accepteert.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] maakt gebruik van twee fundamentele begrippen:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  maakt gebruik van twee fundamentele begrippen:  
 
 - Available to Promise (ATP)  
 - Capable to promise (CTP)  
@@ -48,8 +48,10 @@ Met de functionaliteit Ordertoezegging kunt u orders toezeggen, die op een bepaa
 Available to promise (ATP, ook wel aangeduid als 'Beschikbare voorraad') berekent datums op basis van het reserveringssysteem. Het voert een beschikbaarheidscontrole uit van de niet-gereserveerde aantallen in voorraad met betrekking tot de geplande productie, inkoop, transfers en verkoopretouren. Op basis van deze informatie berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de leverdatum van de order van de klant, omdat de artikelen beschikbaar zijn in voorraad of na geplande ontvangsten.  
 
 ### <a name="capable-to-promise"></a>Capable to Promise  
-CTP gebruikt een 'wat als' scenario waar het item niet in voorraad is en er geen orders zijn gepland. Op basis van dit scenario berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] de vroegste datum waarop het artikel beschikbaar wordt als het wordt geproduceerd, gekocht of overgebracht.  
+Capable to promise (CTP) gaat uit van een 'wat als'-scenario, dat uitsluitend van toepassing is op artikelaantallen die niet in voorraad zijn of op geplande orders staan. Op basis van dit scenario berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] de vroegste datum waarop het artikel beschikbaar wordt als het wordt geproduceerd, gekocht of overgebracht.
 
+#### <a name="example"></a>Opmerking
+Als er een order voor 10 stuks is en 6 stuks in de voorraad of in geplande orders beschikbaar zijn, wordt de CTP-berekening gebaseerd op 4 stuks.
 
 ### <a name="calculations"></a>Berekeningen  
 Wanneer [!INCLUDE[d365fin](includes/d365fin_md.md)] de leverdatum van de klant berekent, worden twee taken uitgevoerd:  
@@ -62,7 +64,7 @@ Als de klant niet om een specifieke leverdatum vraagt, wordt de verzenddatum gel
 - Verzenddatum + Uitgaand magazijn + Geplande verzending + verwerkingstijd = Datum  
 - Geplande verzenddatum + Verzendtijd = Geplande leverdatum  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] controleert vervolgens of de berekende leverdatum realistisch is door terug in tijd te rekenen om te bepalen wanneer het item beschikbaar moet zijn om te voldoen aan de toegezegde datum. Dit gebeurt aan de hand van de volgende formules:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  controleert vervolgens of de berekende leverdatum realistisch is door terug in tijd te rekenen om te bepalen wanneer het item beschikbaar moet zijn om te voldoen aan de toegezegde datum. Dit gebeurt aan de hand van de volgende formules:  
 
 - Geplande leverdatum - Verzendtijd = Geplande verzenddatum  
 - Geplande verzenddatum - Uitgaande magazijnverwerking = Verzenddatum  
@@ -73,7 +75,7 @@ Op basis van de nieuwe datums en tijden, worden alle gerelateerde datums bereken
 
 De orderverwerker voltooit het CTP-proces door de datums te accepteren. Dit betekent dat een planningsregel en een reserveringspost voor het artikel worden gemaakt vóór de berekende datum om ervoor te zorgen dat aan de order kan worden voldaan.  
 
-Naast de externe ordertoezegging die u kunt uitvoeren in het venster **Ordertoezeggingsregels**, kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Procedure: beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
+Naast de externe ordertoezegging die u kunt uitvoeren in het venster **Ordertoezeggingsregels**, kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Ordertoezegging instellen  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ordertoezeggingsinstellingen** in en klik op de gerelateerde koppeling.  

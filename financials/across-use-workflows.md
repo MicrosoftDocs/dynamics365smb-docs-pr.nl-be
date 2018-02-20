@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Werkstromen gebruiken
@@ -31,11 +31,11 @@ U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden di
 
 |**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  
-|Stel in dat een werkstroom start wanneer de eerste invoerpuntgebeurtenis plaatsvindt.|[Procedure: Werkstromen inschakelen](across-how-to-enable-workflows.md)|  
-|Vraag goedkeuring van een taak aan, als fiatteur, accepteer, weiger of delegeer goedkeuringen en verzend of bekijk goedkeuringsberichten.|[Procedure: Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)|  
-|Maak werkstroomstappen die voorkomen dat een bepaald recordtype wordt gebruikt voordat een bepaalde gebeurtenis plaatsvindt, bijvoorbeeld de goedkeuring van de record.|[Procedure: Het gebruik van een record verhinderen en toestaan](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Geef instanties van werkstroomstappen met de status Voltooid weer.|[Procedure: Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)|  
-|Verwijder een werkstroom als u zeker weet dat u die niet meer gebruikt.|[Procedure: Werkstromen verwijderen](across-how-to-delete-workflows.md)|  
+|Stel in dat een werkstroom start wanneer de eerste invoerpuntgebeurtenis plaatsvindt.|[Werkstromen inschakelen](across-how-to-enable-workflows.md)|  
+|Vraag goedkeuring van een taak aan, als fiatteur, accepteer, weiger of delegeer goedkeuringen en verzend of bekijk goedkeuringsberichten.|[Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)|  
+|Maak werkstroomstappen die voorkomen dat een bepaald recordtype wordt gebruikt voordat een bepaalde gebeurtenis plaatsvindt, bijvoorbeeld de goedkeuring van de record.|[Gebruik van een record beperken en toestaan](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Geef instanties van werkstroomstappen met de status Voltooid weer.|[Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)|  
+|Verwijder een werkstroom als u zeker weet dat u die niet meer gebruikt.|[Werkstromen verwijderen](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Werkstromen instellen](across-set-up-workflows.md)   

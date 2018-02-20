@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f56e94d0914aaacc722381790688faedbb75ffda
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ceebeeac325c00d6aef25d8ca51fcfee1ab4e1d5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Factuurafronding instellen
@@ -34,7 +34,7 @@ Als u automatische factuurafronding wilt gebruiken, moet u het volgende doen:
 > [!NOTE]  
 >  U kunt factuurbedragen niet alleen afronden met de functies voor factuurafronding, maar ook met de functie voor prijsafronding en de functie voor bedragafronding.  
  
-## <a name="how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Procedure: grootboekrekeningen voor factuurafrondingsverschillen instellen
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Grootboekrekeningen voor factuurafrondingsverschillen instellen
 Als u de functie voor automatische factuurafronding wilt gebruiken, moet u de grootboekrekening(en) instellen waarnaar de afrondingsverschillen moeten worden geboekt. Als u dit wilt doen, moet u Btw-productboekingsgroepen instellen. Zie voor meer informatie [Btw instellen](finance-setup-vat.md).  
   
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Grootboekrekeningen voor factuurafrondingsverschillen instellen  
@@ -45,7 +45,7 @@ Als u de functie voor automatische factuurafronding wilt gebruiken, moet u de gr
   
 U kunt nu de factuurafrondingsrekening toewijzen aan boekingsgroepen in het venster **Leveranciersboekingsgroepen**.  <!-- Why only the vendor posting groups? -->
 
-## <a name="how-to-set-up-rounding-for-foreign-and-local-currencies"></a>Procedure: afronding instellen voor vreemde en lokale valuta's
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Afronding instellen voor vreemde en lokale valuta's
 Voordat u de automatische factuurafrondingsfunctie kunt gebruiken, moet u afrondingsregels instellen voor vreemde en lokale valuta's.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Afronding instellen voor vreemde valuta's  
@@ -56,12 +56,12 @@ Voordat u de automatische factuurafrondingsfunctie kunt gebruiken, moet u afrond
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul op de pagina **Boekhoudinstellingen** op het sneltabblad **Algemeen** de velden **Factuurafr.-precisie** en **Factuurafr.-methode** in.  
 
-## <a name="how-to-activate-the-invoice-rounding-function"></a>Procedure: De functie voor factuurafronding inschakelen  
+## <a name="activate-the-invoice-rounding-function"></a>Functie voor factuurafronding inschakelen  
 Om ervoor te zorgen dat verkoop- en inkoopfacturen automatisch worden afgerond, moet u de functie voor factuurafronding inschakelen. U kunt factuurafronding apart instellen voor verkoopfacturen en inkoopfacturen.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen van verkoop en tegoeden** of **Inkoopinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies op het sneltabblad **Algemeen** het selectievakje **Factuurafronding**.  
   
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Verkopen factureren](sales-how-invoice-sales.md)  
-[Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md)
+[Verkopen factureren](sales-how-invoice-sales.md)  
+[Inkopen vastleggen](purchasing-how-record-purchases.md)

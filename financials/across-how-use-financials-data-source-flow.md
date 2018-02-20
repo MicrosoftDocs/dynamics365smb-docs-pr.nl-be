@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 06/02/2017
-ms.author: edupont
+ms.date: 01/25/2018
+ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
@@ -28,27 +28,31 @@ U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van
 1. Navigeer in uw browser naar [flow.microsoft.com](https://flow.microsoft.com/en-us/) en meld u aan.
 2. Kies **Mijn Flows** vanuit het lint boven aan de pagina.
 3. Kies in het venster **Mijn Flows** de optie **Geheel nieuw maken**.
-4. Selecteer in de lijst met beschikbare triggers een van de twee beschikbare [!INCLUDE[d365fin](includes/d365fin_md.md)]-triggers: *Wanneer een record wordt gemaakt* of *Wanneer een record wordt gewijzigd*.
-5. Met Flow wordt een verbindingspagina weergegeven waarin u wordt gevraagd om de gegevens die zijn vereist om verbinding te maken met uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Als u verbinding wilt maken, moet u een naam voor de verbinding, een URL, gebruikersnaam, wachtwoord en bedrijfsnaam voor OData opgeven.
+4. Selecteer in de lijst met beschikbare triggers een van de beschikbare [!INCLUDE[d365fin](includes/d365fin_md.md)]-triggers:  
+    *Wanneer een record wordt gemaakt*,  
+    *Wanneer een record wordt verwijderd*,  
+    *Wanneer een record wordt gewijzigd*,  
+    *Wanneer een klantgoedkeuring wordt aangevraagd*,  
+    *Wanneer goedkeuring van een dagboekbatch wordt aangevraagd*,  
+    *Wanneer goedkeuring van een dagboekregel wordt aangevraagd*,  
+    *Wanneer goedkeuring van een artikel wordt aangevraagd*,  
+    *Wanneer goedkeuring van een inkoopdocument wordt aangevraagd*,  
+    *Wanneer goedkeuring van een verkoopdocument wordt aangevraagd*, of  
+    *Wanneer goedkeuring van een leverancier wordt aangevraagd*.
+5. Flow vraagt u om de gegevens die nodig zijn om verbinding te maken met uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Als u een van de volgende triggers hebt geselecteerd, moet u een bedrijfsnaam en een tabelnaam selecteren: *Wanneer een record wordt gemaakt*, *Wanneer een record wordt gewijzigd* of *Wanneer een record wordt verwijderd*. Met andere triggers is alleen de bedrijfsnaam nodig om verbinding te maken.
 
-   Voor de *OData-URL* kunt u de URL van OData V4 kopiëren van een van de webservices die worden weergegeven op de pagina **Webservices** in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
-
-   Voor *Bedrijfsnaam* gebruikt u de naam van het veld **Naam** in het venster **Bedrijfsgegevens** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als [!INCLUDE[d365fin](includes/d365fin_md.md)] meerdere bedrijven bevat, kies u de relevante bedrijfsnaam in de lijst van het venster **Bedrijven**. In beide gevallen moet u ervoor zorgen dat de naam die u in de PowerApps-wizard opgeeft, exact overeenkomt met de tekst die in [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt weergegeven, zoals `My Company`.
-
-   Voor de gebruikersnaam en het wachtwoord gebruikt u de naam en de toegangssleutel van de webservice die voor uw account worden weergegeven in het venster **Gebruikers** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uw gebruikersnaam is bijvoorbeeld *ADMIN* en de webservicetoegangssleutel die dient als uw wachtwoord, is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*. Zie [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
-6. Kies de knop **Maken** onder aan de pagina als u wilt doorgaan.
-
-   Met Flow wordt een lijst met tabellen weergegeven die beschikbaar zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Met deze tabellen, of eindpunten, worden alle webservices vertegenwoordigd die u hebt gepubliceerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
+   Met Flow wordt een lijst met bedrijven en tabellen weergegeven die beschikbaar zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Met deze tabellen, of eindpunten, worden alle webservices vertegenwoordigd die u hebt gepubliceerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    U kunt ook een nieuwe webservice-URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] maken met behulp van de actie **Gegevensset maken** op de pagina **Webservices** met de begeleide instelling **Rapportage instellen** of door de actie **Bewerken in Excel** in de lijsten te kiezen.
-7. Kies de gegevens die u in Flow wilt gebruiken.
 
-Nu hebt u met succes een verbinding gemaakt met uw Dynamics 365-gegevens en kunt u uw Flow gaan maken. Zie de [Flow-documentatie](https://flow.microsoft.com/documentation/getting-started/) voor meer informatie.
+Nu hebt u met succes een verbinding gemaakt met uw Finance and Operations, Business edition-gegevens en kunt u uw stroom gaan maken. Zie de [Flow-documentatie](https://flow.microsoft.com/documentation/getting-started/) voor meer informatie.
+
+Zie voor het oplossen van problemen met Microsoft Flow [Problemen oplossen met integratie met Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
-[Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
+[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Financiën](finance.md)  
 

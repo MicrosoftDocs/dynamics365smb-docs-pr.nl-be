@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Procedure: Werken met serie- en lotnummers
+# <a name="work-with-serial-and-lot-numbers"></a>Werken met serie- en lotnummers
 U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert de handelingen hiervoor uit in het venster **Artikeltraceringsregels**.
 
 De matrix van aantalvelden bovenin het venster **Artikeltraceringsregels** geeft de aantallen en totalen van artikeltraceringsnummers weer die op de regels worden gedefinieerd. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde 0.
 
 Ten behoeve van de prestaties wordt de beschikbare informatie in het venster **Artikeltraceringsregels** slechts éénmaal verzameld, wanneer u het venster opent. Dat betekent dat de beschikbaarheidsgegevens niet worden bijgewerkt wanneer het venster geopend is, zelfs niet wanneer gedurende die tijd wijzigingen optreden in de voorraad of in andere documenten.
 
-Artikelen met serie-/lotnummers kunnen voorwaarts of achterwaarts worden getraceerd in hun toeleveringsketen. Dit is handig voor algemene kwaliteitsmeting en voor terugroepacties. Zie voor meer informatie [Procedure: artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md).
+Artikelen met serie-/lotnummers kunnen voorwaarts of achterwaarts worden getraceerd in hun toeleveringsketen. Dit is handig voor algemene kwaliteitsmeting en voor terugroepacties. Zie voor meer informatie [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Serie- of lotnummers picken in het magazijn
 Het verwerken van uitgaande serie- of lotnummers is een taak die vaak plaatsvindt tijdens vele verschillende magazijnprocessen.  
@@ -236,7 +236,7 @@ U kunt de velden **Serienummer** en **Lotnr.** niet bewerken. U kunt echter voll
 Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wijzigt in een nieuw nummer of de vervaldatum wijzigt in een nieuwe datum. Als u met lots werkt, is het ook mogelijk om meerdere lots samen te voegen tot één lot. U kunt deze taken uitvoeren met behulp van het artikelherindelingsdagboek.
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Art.-herindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Vul de betreffende informatie in op de regel. Zie voor meer informatie [Procedure: Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).
+2.  Vul de betreffende informatie in op de regel. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).
 3.  Kies de actie **Artikeltraceringsregels**.  
 4.  Selecteer in het veld **Serienummer** of **Lotnr.** het huidige serie- of lotnummer.  
 5.  Als u een nieuw artikeltraceringsnummer wilt opgeven, doet u dat in het veld **Nieuw serienr.** of **Nieuw lotnummer**. U kunt ook meerdere lots samenvoegen tot één nieuw of bestaand lot.  
@@ -259,10 +259,10 @@ Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wij
 8.  Boek het dagboek om de vernieuwde artikeltraceringsnummers of vervaldatums te koppelen aan de bijbehorende artikelpost.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)   
+[Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
-[Procedure: Artikelen reserveren](inventory-how-to-reserve-items.md)  
+[Artikelen reserveren](inventory-how-to-reserve-items.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

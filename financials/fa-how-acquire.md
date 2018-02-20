@@ -13,18 +13,18 @@ ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a0c3c67952a7b33771329f8e9ecb45744b64830c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-acquire-fixed-assets"></a>Procedure: Vaste activa aanschaffen
+# <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Een afschrijvingsboek moeten eerst worden ingesteld en toegewezen aan elk vast activum voordat u het kunt aanschaffen.
 
 Wanneer een vast activum is ingesteld en een afschrijvingsboek is toegewezen, moet u het vaste activum aanschaffen. Als u een vast activum wilt aanschaffen, registreert u de bijbehorende aanschafkosten in de betreffende grootboekrekening, bankrekening of leverancier door een aanschaftransactie te boeken in het venster **Financieel dagboek voor vaste activa**. U kunt het venster **voor begeleide aanschaf van vaste activa** gebruiken om de vereiste dagboekregels automatisch te maken en te boeken.
 
-De restwaarde is de resterende waarde van een vast activum als dit niet langer meer kan worden gebruikt. U kunt de restwaarde tegelijk met het boeken van de aanschafkosten boeken. Zie [Procedure: Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md) voor meer informatie.
+De restwaarde is de resterende waarde van een vast activum als dit niet langer meer kan worden gebruikt. U kunt de restwaarde tegelijk met het boeken van de aanschafkosten boeken. Zie [Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md) voor meer informatie.
 
 Indexering wordt gebruikt om waarden aan te passen voor algemene prijswijzigingen. De batchverwerking **Vast activum indexeren** kan worden gebruikt om de aanschafkosten te berekenen bij vervangingskosten.
 
@@ -34,7 +34,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum kunt maken en v
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vaste activa** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul vervolgens indien nodig de velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vul op het sneltabblad **Afschrijvingsboek** indien nodig de velden in. Met deze stap wordt een afschrijvingsboek aan het vaste activum toegewezen.  
-4. Als u meer dan één afschrijvingsboek aan het vaste activum moet toewijzen, kiest u de actie **Meer afschrijvingsboeken toevoegen**. Zie het gedeelte "Een afschrijvingsboek aan een vast activum toewijzen" in [Procedure: Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
+4. Als u meer dan één afschrijvingsboek aan het vaste activum moet toewijzen, kiest u de actie **Meer afschrijvingsboeken toevoegen**. Zie het gedeelte 'Een afschrijvingsboek aan een vast activum toewijzen' in [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
     Wanneer alle velden die nodig zijn om een vast activum aan te schaffen zijn ingevuld, verschijnt boven aan de pagina de melding dat **u het vaste activum nu kunt aanschaffen**.
 5. Kies de actie **Aanschaffen** in de melding.
@@ -70,7 +70,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt 
 4. Kies de actie **Boeken**.  
 
 > [!TIP]  
->   Als u tijdens het boeken van de aanschafkosten het veld **Verzekeringsnr.** invult in het dagboek, worden de aanschafkosten van het vaste activum door [!INCLUDE[d365fin](includes/d365fin_md.md)] ook naar de verzekeringsdekkingsposten geboekt. Zie [Procedure: Vaste activa verzekeren](fa-how-insure.md) voor meer informatie.
+>   Als u tijdens het boeken van de aanschafkosten het veld **Verzekeringsnr.** invult in het dagboek, worden de aanschafkosten van het vaste activum door [!INCLUDE[d365fin](includes/d365fin_md.md)] ook naar de verzekeringsdekkingsposten geboekt. Zie [Vaste activa verzekeren](fa-how-insure.md) voor meer informatie.
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>De boeking van aanschafkosten voor één vast activum annuleren
 Als u een fout maakt wanneer u aanschafkosten boekt, kunt u de post verwijderen met de batchverwerking **VA-posten annuleren** en vervolgens de juiste aanschafpost boeken. De foutieve posten worden overgebracht naar het venster **Foutieve VA-posten**.

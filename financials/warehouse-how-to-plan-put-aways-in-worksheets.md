@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Procedure: plannen van opslagactiviteiten in werkbladen
+# <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
 Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van het programma voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  
 
 Als u voor het magazijn wilt instellen dat ontvangstregels direct na boeking voor u beschikbaar zijn in het opslagvoorstel, selecteert u het veld **Opslagvoorstel gebruiken** op het sneltabblad **Magazijn** op de vestigingskaart. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
@@ -58,7 +58,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 
     -   U kunt de opslaginstructie toewijzen aan een bepaalde magazijnmedewerker.  
     -   U kunt de regels met opslaginstructies sorteren als in het werkblad of door middel van rangschikking van opslaglocaties. Wanneer u sorteert op basis van rangschikking van opslaglocaties, worden de nemen-regels eerst weergegeven, aangezien de meeste ontvangst-opslaglocaties een opslaglocatie-rangschikking van 0 hebben en worden de plaatsen-regels als laatste weergegeven, beginnend met de opslaglocaties met de laagste opslaglocatie-rangschikking. Indien u uw magazijn hebt gestructureerd zodat opslaglocaties met een soortgelijke opslaglocatie-rangschikking bij elkaar staan, bespaart het sorteren van regels op deze manier uiteindelijk stappen voor uw magazijnmedewerkers.  
-    -   Wanneer een bepaalde eenheid wordt opgesplitst in kleinere eenheden, worden er extra splitsingsregels weergegeven. Als u deze tussenliggende regels niet wilt weergeven, selecteert u **Breakbulkfilter plaatsen**. Zie [Procedure: Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md) voor meer informatie.  
+    -   Wanneer een bepaalde eenheid wordt opgesplitst in kleinere eenheden, worden er extra splitsingsregels weergegeven. Als u deze tussenliggende regels niet wilt weergeven, selecteert u **Breakbulkfilter plaatsen**. Zie [Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md) voor meer informatie.  
     -   U kunt het veld **Te verwerken aantal** op de opslaginstructies automatisch laten invullen.  
     -   Indien gewenst kunt u het document direct afdrukken.  
 

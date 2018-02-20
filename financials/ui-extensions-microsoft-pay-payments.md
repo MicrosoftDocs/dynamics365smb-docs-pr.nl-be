@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6fb27bb277d3ad1b5363da40c26d879663ff616b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e92ac00e08008e8de6a60ec46e0d71500bb03eaa
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>De extensie Microsoft Pay voor [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -31,7 +31,7 @@ De extensie Microsoft Pay biedt de volgende voordelen:
 - De Microsoft Pay-koppeling kan automatisch worden ingesloten op elk factuurdocument of de gebruiker kan deze laten opnemen.
 - Aangezien deze functie als extensie wordt samengesteld, hebt u de volledige controle om deze in te schakelen wanneer uw bedrijfsprocessen dit vereisen.
 
-Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](includes/d365fin_md.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Procedure: Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
+Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](includes/d365fin_md.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  

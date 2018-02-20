@@ -1,8 +1,6 @@
 ---
-title: Dynamics 365 Business edition gebruiken met Outlook | Microsoft Docs
-description: "Dynamics 365 Business edition is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren."
-services: project-madeira
-documentationcenter: 
+title: Finance and Operations, Business edition gebruiken met Outlook | Microsoft Docs
+description: "Deze service is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Finance and Operations, Business edition gebruiken als uw bedrijfsinbox in Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Finance and Operations, Business edition gebruiken als uw bedrijfsinbox in Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
 ## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] is een van de stappen in de begeleide instelling Aan de slag in het venster **Uw bedrijf beheren binnen Office 365**. Als u in dat venster **Instellen in Outlook** kiest, moet u uw gebruikersnaam en wachtwoord voor Office 365 opgeven. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook.  
 
-Wanneer u daarna Outlook start, wordt er een e-mailbericht van de Dynamics 365-beheerder weergegeven. De nieuwe invoegtoepassing is toegevoegd aan het Outlook-lint en in Outlook Web Access is deze zichtbaar in het lint van de invoegtoepassing, direct boven de hoofdtekst van het e-mailbericht. De invoegtoepassing zelf wordt regelmatig bijgewerkt, en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
+Wanneer u daarna Outlook start, ziet u een e-mailbericht van de Finance and Operations, Business edition-beheerder. De nieuwe invoegtoepassing wordt toegevoegd aan het Outlook-lint en in Outlook-webtoegang kunt u deze zien in het invoegtoepassinglint, direct boven de hoofdtekst van het e-mailbericht. De invoegtoepassing zelf wordt regelmatig bijgewerkt, en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
 Sommige bedrijven die Office 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Office 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Office 365 gratis uitproberen](https://products.office.com/try).  
 

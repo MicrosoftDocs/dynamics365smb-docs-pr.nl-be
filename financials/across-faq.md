@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
-Dit gedeelte bevat antwoorden op veelgestelde vragen over aanmelding bij en gebruik van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
+Dit gedeelte bevat antwoorden op veelgestelde vragen over aanmelding bij en gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Voor  moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken. Zie [Aanmelden bij Troubleshooting Self-Service](ui-troubleshoot-self-signup.md).  
 
@@ -35,7 +35,7 @@ Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen ter
 Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunnen uw gegevens worden verwijderd of bewaard. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md) annuleren.  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Waar ga ik met mijn vragen naartoe?
-Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Dynamics 365 Business edition-community. Zie [Dynamics 365, Business edition-community](https://community.dynamics.com/business) voor meer informatie. Ook worden tips en trucs door ons Ondersteuningsteam gepubliceerd. Zie de [ondersteuningsblog voor Dynamics 365 Business edition](https://blogs.msdn.microsoft.com/dyn365finsupport) voor meer informatie.  
+Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Finance and Operations, Business edition-community. Zie voor meer informatie [Dynamics 365 for Finance and Operations, Business edition-community](https://community.dynamics.com/business). Ook worden tips en trucs door ons Ondersteuningsteam gepubliceerd. Zie voor meer informatie [Dynamics 365 for Finance and Operations, Business edition-ondersteuningsblog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Is het mogelijk mijn “Nieuw bedrijf”-proefperiode te verlengen?
 Ja. Als u uw proefperiode wilt verlengen, moet u contact opnemen met Microsoft op 1-888-477-7989 (VS) of 1-800-741-9206 (Canada). OPMERKING: het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
@@ -50,6 +50,6 @@ Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken zonder Outlook](madeira-no-outlook.md)  
-[Procedure: Het rolcentrum wijzigen](change-role.md)  
-[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Het rolcentrum wijzigen](change-role.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

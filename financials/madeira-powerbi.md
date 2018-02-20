@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition en Power BI Content Packs | Microsoft Docs
-description: Met de inhoudspakketten voor Power BI en Dynamics 365 haalt u eenvoudig meer inzichten, bedrijfsinformatie en KPI's uit uw Dynamics 365-gegevens.
+title: Inhoudspakketten van Finance and Operations, Business edition en Power BI | Microsoft Docs
+description: Inzicht, bedrijfsinformatie en KPI's krijgen uit uw gegevens van Finance and Operations, Business edition is gemakkelijk met Power BI en de inhoudspakketten van Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfgegevens gereed maken voor Power BI
@@ -22,11 +22,11 @@ Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is ge
 
 Microsoft heeft de volgende Content Packs gepubliceerd:
 
-| App | Omschrijving |
+| App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Een dashboard met belangrijke financiële gegevens voor een bepaalde periode, zoals inkomsten tegenover onkosten, de bedrijfsmarge en de cashcyclus.|
-| Microsoft Dynamics 365 for Financials - CRM | Een dashboard met belangrijke gegevens over verkoopopportunities en contacten.  |
-| Microsoft Dynamics 365 for Financials - Sales | Een dashboard met belangrijke gegevens over verkopen en voorraad. |
+| Microsoft Finance and Operations, Business edition | Een dashboard met belangrijke financiële gegevens voor een bepaalde periode, zoals inkomsten tegenover onkosten, de bedrijfsmarge en de cashcyclus.|
+| Microsoft Finance and Operations, Business edition - CRM | Een dashboard met belangrijke gegevens over verkoopopportunities en contacten.  |
+| Microsoft Finance and Operations, Business edition - Sales | Een dashboard met belangrijke gegevens over verkopen en voorraad. |
 
 ## <a name="using-the-dashboards"></a>De dashboards gebruiken
 Elk Content Pack bevat rapporten met verschillende detailniveaus:
@@ -44,7 +44,7 @@ De Content Packs zijn vooraf geconfigureerd om te werken met gegevens van het vo
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Toegang krijgen tot [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 Als u uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens in Power BI wilt zien, moet u het volgende hebben:  
 
-* Toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Dynamics 365 Business edition-community](http://go.microsoft.com/fwlink/?LinkID=759714) voor meer informatie.  
+* Toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Toegang tot Power BI. Zie voor meer informatie [Power BI](https://powerbi.microsoft.com).
 
 Op de Power BI-site vindt u meer informatie over het [verbinding maken met services door middel van Content Packs voor Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Als u een "Oops"-foutdialoogvenster ziet na het verificatiedialoogvenster, komt 
 [Bedrijfsinformatie](bi.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken als PowerApps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als PowerApps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

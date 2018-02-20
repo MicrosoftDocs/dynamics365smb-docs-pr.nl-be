@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Procedure: Inkoopretouren of annuleringen verwerken
+# <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
 Als u artikelen wilt retourneren naar uw leverancier of services die u hebt aangeschaft, wilt annuleren, kunt u een inkoopcreditnota maken en boeken met de aangevraagde wijziging voor de oorspronkelijke inkoopfactuur. Als u de correcte inkoopfactuurinformatie wilt opnemen, kunt u de inkoopcreditnota rechtstreeks vanuit de geboekte inkoopfactuur maken, of een nieuwe inkoopcreditnota maken met gekopieerde informatie uit de factuur.
 
 Als u meer controle wilt hebben over het inkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het terugsturen van meerdere inkoopdocumenten bij één enkele inkoopretourzending, kunt u inkoopretourorders maken. Een inkoopretourorder geeft automatisch de bijbehorende inkoopcreditnota aan. Zie voor meer informatie de sectie "Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten".
 
 > [!NOTE]  
->   Als een geboekte inkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** op de geboekte inkoopfactuur gebruiken om de betreffende transacties automatisch tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retourneringen of annuleringen. Zie voor meer informatie [Procedure: Onbetaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+>   Als een geboekte inkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** op de geboekte inkoopfactuur gebruiken om de betreffende transacties automatisch tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retourneringen of annuleringen. Zie voor meer informatie [Onbetaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Doorgaans maakt u een inkoopcreditnota of een inkoopretourorder als reactie op een creditnota die u ontvangt van een leverancier. De inkoopcreditnota of de inkoopretourorder vormt uw interne documentatie van het creditnotaproces ten behoeve van de boekhouding of om de verzending van de betrokken artikelen te regelen.
 
@@ -134,7 +134,7 @@ U kunt met de leverancier afspreken dat deze een ingekocht artikel vervangt. Het
 1.  Maak in het venster **Inkoopretourorder** voor een actief retourproces op een lege regel een negatieve post aan voor het vervangende artikel, door een negatief bedrag in te voeren in het veld **Aantal**.  
 2. Kies de actie **Negatieve regels verplaatsen**.  
 3. Vul in het venster **Neg. inkoopregels verplaatsen** in de velden de gewenste gegevens in.
-4. Kies de knop **OK**. De negatieve regel wordt verwijderd uit de inkoopretourorder en er wordt een nieuwe inkooporder gemaakt. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).  
+4. Kies de knop **OK**. De negatieve regel wordt verwijderd uit de inkoopretourorder en er wordt een nieuwe inkooporder gemaakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Een inkooptegoed maken  
 Als u van de leverancier artikelen ontvangt die niet naar wens zijn, bijvoorbeeld omdat ze licht zijn beschadigd, de verkeerde kleur of het verkeerde formaat hebben, biedt de leverancier u misschien een inkooptegoed aan.  
@@ -150,7 +150,7 @@ U kunt deze korting op de inkoopkosten als artikeltoeslag op een creditnota of r
     Stel desgewenst een speciaal artikeltoeslagnummer voor inkooptegoeden in.  
 6.  Geef **1** op in het veld **Aantal**.  
 7.  Typ in het veld **Directe kostprijs** het bedrag van het inkooptegoed.  
-8.  Nu moet u het inkooptegoed als artikeltoeslag toewijzen aan de artikelen op de geboekte ontvangst. Zie voor meer informatie [Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar het venster **Inkoopcreditnota**.
+8.  Nu moet u het inkooptegoed als artikeltoeslag  toewijzen aan de artikelen op de geboekte ontvangst. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar het venster **Inkoopcreditnota**.
 
 Wanneer u de inkoopretourorder boekt, wordt het inkooptegoed opnieuw toegevoegd aan het bedrag van de betreffende inkooppost. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.  
 
@@ -183,7 +183,7 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
-[Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md)  
-[Procedure: Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Inkopen vastleggen](purchasing-how-record-purchases.md)  
+[Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

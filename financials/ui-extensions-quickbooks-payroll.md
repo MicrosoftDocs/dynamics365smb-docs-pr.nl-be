@@ -13,16 +13,17 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c826ab2f82b2fb0d53339690a2da4978d79ab643
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b87eaa6bfe53f7b6e119006df9254876f4117a9
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-business-edition"></a>De extensie voor import van Quickbooks-salarisbestanden naar Dynamics 365 Business edition 
+# <a name="the-quickbooks-payroll-file-import-extension-to-finance-and-operations-business-edition"></a>De extensie QuickBooks
+-salarisbestand importeren voor Finance and Operations, Business edition 
 Als u salarisbetalingen en gerelateerde transacties wilt verantwoorden, moet u financiële transacties die zijn uitgevoerd door uw leverancier van salarisverwerking, importeren en boeken naar het grootboek.
 
-Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverwerking ontvangt, in het venster **Fin. dagboek**. Vervolgens kunt u de externe rekeningen in het loonlijstbestand toewijzen aan de betreffende grootboekrekeningen. Als laatste boekt u de loonlijsttransacties op basis van de rekeningtoewijzing. Zie [Procedure: Salaristransacties importeren](finance-how-import-payroll-transactions.md) voor meer informatie.
+Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverwerking ontvangt, in het venster **Fin. dagboek**. Vervolgens kunt u de externe rekeningen in het loonlijstbestand toewijzen aan de betreffende grootboekrekeningen. Als laatste boekt u de loonlijsttransacties op basis van de rekeningtoewijzing. Zie [Salaristransacties importeren](finance-how-import-payroll-transactions.md) voor meer informatie.
 
 Met de Quickbooks-extensie voor import van salarisbestanden kunt u salaristransacties importeren uit de Quickbooks-salarisservice.
 

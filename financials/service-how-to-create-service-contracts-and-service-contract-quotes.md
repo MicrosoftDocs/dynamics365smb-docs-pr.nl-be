@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Procedure: Werken met servicecontracten en servicecontractoffertes
-U kunt een servicecontract handmatig of op basis van een servicecontractofferte maken. U kunt een servicecontractofferte gebruiken als voorloper van een servicecontract, waarin uw bedrijf een aanbieding doet aan de klant en daarvoor goedkeuring van de klant verkrijgt, voordat u deze kunt omzetten in een servicecontract. De procedures voor het maken van een servicecontract of een servicecontractofferte zijn vergelijkbaar.  
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Werken met servicecontracten en servicecontractoffertes
+U kunt een servicecontract handmatig of uit een servicecontractofferte maken. U kunt een servicecontractofferte gebruiken als voorloper van een servicecontract, waarin uw bedrijf een aanbieding doet aan de klant en daarvoor goedkeuring van de klant verkrijgt, voordat u deze kunt omzetten in een servicecontract. De procedures voor het maken van een servicecontract of een servicecontractofferte zijn vergelijkbaar.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Een servicecontract of servicecontractofferte maken  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Servicecontracten** of **Servicecontractoffertes** in en klik vervolgens op de gerelateerde koppeling.  
@@ -199,7 +199,7 @@ Als een contract is verlopen of door u of de klant is geannuleerd, moet u het be
 U kunt servicecontracten en contractoffertes op elk moment archiveren om een kopie van het contract of de contractofferte vast te leggen. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiveert servicecontracten automatisch wanneer u contractoffertes omzet in servicecontracten of servicecontracten annuleert. U kunt een contract of offerte zelf archiveren met de actie **Contract archiveren** op de pagina **Servicecontracten** of **Servicecontractoffertes**. Als u uw gearchiveerde contracten van offertes wilt weergeven, zoekt u op **Gearchiveerde contracten**.
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Servicecontracten opstellen](service-how-setup-service-contracts.md)  
+[Servicecontracten instellen](service-how-setup-service-contracts.md)  
 [CRM - Service](service-service.md)  
-[Procedure: Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)  
+[Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)  
 

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ca8cf74ca844b2ec0119497e79ccfc7cc7df5026
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-sell-items-assembled-to-order"></a>Procedure: op order geassembleerde artikelen verkopen
+# <a name="sell-items-assembled-to-order"></a>Assembleren voor order-artikelen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op order assembleren**, wordt niet verwacht dat het artikel in voorraad is, en moet het worden samengesteld op een verkooporder. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.  
 
 > [!NOTE]  
->  Als sommige op-order-assembleren-artikelen al in de voorraad zijn, kunt u die hoeveelheid aftrekken van de assemblageorder en reserveren uit de voorraad. Zie voor meer informatie [Procedure: voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  Als sommige op-order-assembleren-artikelen al in de voorraad zijn, kunt u die hoeveelheid aftrekken van de assemblageorder en reserveren uit de voorraad. Zie voor meer informatie [Voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
 In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samengesteld volgens de specificaties die zijn aangevraagd door de klant. De stappen omvatten het initiëren van de verkooporderregel, het aanpassen van het assemblageartikel door het bewerken van de onderdelen en bronnen, controle van de beschikbaarheid om een leverdatum vast te stellen en het vrijgeven van de verkooporder voor onmiddelijke assemblage en verzending.  
 
@@ -32,7 +32,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Een artikel verkopen dat is samengesteld voor een order  
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Een verkooporder maken. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
+2.  Een verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3.  Selecteer in het veld **Nr.** een artikel in dat is ingesteld om op order te worden geassembleerd.  
 4.  Definieer vanuit welke vestiging het artikel moet worden verkocht in het veld **Vestiging**. Het assemblageproces wordt uitgevoerd in die vestiging.  
 5.  Voer het aantal te verkopen artikelen in in het veld **Hoeveelheid**.  
@@ -42,7 +42,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 
     Een assemblageorder wordt nu automatisch gemaakt en gekoppeld aan de verkooporderregel. De vervaldatum van de assemblageorder wordt gesynchroniseerd met de verzenddatum van de verkooporderregel.  
 
-    Het te verkopen aantal wordt gekopieerd naar het veld **Aantal voor op order assembleren**. Dat geeft aan dat de artikelinstellingen verwacht dat het volledige aantal op de verkoopregel wordt geassembleerd op order. U kunt een kleinere hoeveelheid op order assembleren, bijvoorbeeld als u weet dat sommige items al beschikbaar zijn. Zie voor meer informatie [Procedure: voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+    Het te verkopen aantal wordt gekopieerd naar het veld **Aantal voor op order assembleren**. Dat geeft aan dat de artikelinstellingen verwacht dat het volledige aantal op de verkoopregel wordt geassembleerd op order. U kunt een kleinere hoeveelheid op order assembleren, bijvoorbeeld als u weet dat sommige items al beschikbaar zijn. Zie voor meer informatie [Voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Om aan te geven dat de klant nog een artikel in een kit wil, kiest u op het sneltabblad **Regels** de actie **Regel**, kiest u de actie **Op order assembleren** en kiest u vervolgens de actie **Op orderregels assembleren** om de standaard assemblagecomponenten weer te geven en te wijzigen. U kunt ook het veld **Aantal voor op order assembleren** kiezen.  
 7.  In het venster **Op orderregels assembleren** maakt u een nieuwe regel van het type **Artikel** voor de gevraagde aanvullende kit-inhoud. De regel verwijst naar een extra assemblagecomponent.  
@@ -57,11 +57,11 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 8.  Op problemen met de beschikbaarheid componenten of controleren. Selecteer bijvoorbeeld een beschikbaar vervangingsartikel of stel een latere vervaldatum in.  
 9. Sluit het venster **Op orderregels assembleren**. De gekoppelde assemblageorder is nu klaar om de aangepaste items op de vervaldatum te assembleren.  
 10. Kies in de verkooporder de actie **Vrijgeven** om de assemblageafdeling te informeren dat het assemblageproces kan worden gestart.  
-11. Voer de stappen uit van de montage van de artikelen die in deze procedure worden verkocht in de montageafdeling. Zie [Procedure: Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie.  
+11. Voer de stappen uit van de montage van de artikelen die in deze procedure worden verkocht in de montageafdeling. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)  
+[Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

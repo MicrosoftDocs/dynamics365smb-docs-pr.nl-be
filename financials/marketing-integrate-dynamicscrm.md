@@ -1,6 +1,6 @@
 ---
 title: Klanten beheren met Dynamics 365 for Sales| Microsoft Docs
-description: "U kunt Dynamics 365 for Sales vanuit Dynamics 365 Business edition gebruiken om gegevens toe te wijzen voor een naadloze integratie en synchronisatie in het proces van potentiële klant naar inkomsten."
+description: "U kunt Dynamics 365 for Sales vanuit Finance and Operations, Business edition gebruiken om gegevens toe te wijzen voor een naadloze integratie en synchronisatie in het proces van potentiële klant naar inkomsten."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Klanten en verkopen beheren die in Dynamics 365 for Sales zijn gemaakt
@@ -25,8 +25,7 @@ Als uw toepassing is ingesteld voor integratie met Dynamics 365 for Sales, hebt 
 
 De verkoper in Dynamics 365 for Sales kan bijvoorbeeld prijslijsten van [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken bij het opstellen van een verkooporder. Als hij het artikel toevoegt aan de verkooporderregel in Dynamics 365 for Sales, kan hij ook het voorraadniveau (de beschikbaarheid) van het artikel zien vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
+Orderverwerkers in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen ook de speciale kenmerken verwerken van verkooporders die automatisch of handmatig zijn overgebracht uit Dynamics 365 for Sales, zoals het automatisch maken en boeken van geldige verkooporderregels voor artikelen of resources die in Sales zijn ingevoerd als inschrijfproducten. Zie voor meer informatie het gedeelte "Speciale verkoopordergegevens verwerken".  
 
 ## <a name="setting-up-the-connection"></a>De verbinding instellen
 Vanaf de startpagina kunt u de begeleide instelling **Dynamics 365 for Sales-verbinding instellen** starten om de verbinding tot stand te brengen. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,14 +41,14 @@ Om een bestaande oplossing in Dynamics 365 for Sales te importeren, maakt de beg
 * Systeembeheerder  
 * Oplossingsaanpasser  
 
-Zie voor meer informatie [Gebruikers maken en beveiligingsrollen voor Microsoft Dynamics 365 (online) toewijzen](https://technet.microsoft.com/library/jj191623.aspx) op techNet en [Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md).  
+Zie voor meer informatie [Gebruikers maken en beveiligingsrollen voor Microsoft Finance and Operations, Business edition (online) toewijzen](https://technet.microsoft.com/library/jj191623.aspx) op techNet en [Gebruikers en machtigingen beheren](ui-how-users-permissions.md).  
 
 Deze account wordt alleen gebruikt tijdens het instellen. Nadat de oplossing is geïmporteerd [!INCLUDE[d365fin](includes/d365fin_md.md)], is de account niet meer nodig.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>De gebruikersaccount instellen voor synchronisatie
-De integratie is gebaseerd op een gedeelde gebruikersaccount. In uw Office 365-abonnement moet u een specifieke gebruiker maken die voor synchronisatie tussen de twee services wordt gebruikt. Deze rekening moet al een geldige gebruiker in Dynamics 365 for Sales zijn, maar u hoeft geen beveiligingsrollen aan de account toe te wijzen, omdat de begeleide instelling dit voor u doet. U moet deze gebruikersaccount een of meerdere malen opgeven in de begeleide instelling, afhankelijk van hoeveel synchronisatie u wilt inschakelen. Zie voor meer informatie [Gebruikers maken en beveiligingsrollen voor Microsoft Dynamics 365 (online) toewijzen](https://technet.microsoft.com/library/jj191623.aspx) op techNet.
+De integratie is gebaseerd op een gedeelde gebruikersaccount. In uw Office 365-abonnement moet u een specifieke gebruiker maken die voor synchronisatie tussen de twee services wordt gebruikt. Deze rekening moet al een geldige gebruiker in Dynamics 365 for Sales zijn, maar u hoeft geen beveiligingsrollen aan de account toe te wijzen, omdat de begeleide instelling dit voor u doet. U moet deze gebruikersaccount een of meerdere malen opgeven in de begeleide instelling, afhankelijk van hoeveel synchronisatie u wilt inschakelen. Zie voor meer informatie [Gebruikers maken en beveiligingsrollen voor Microsoft Finance and Operations, Business edition (online) toewijzen](https://technet.microsoft.com/library/jj191623.aspx) op techNet.
 
-Als u ervoor kiest *artikelbeschikbaarheid* in te schakelen, moet de account van de integratiegebruiker een webservicetoegangssleutel hebben. Deze instelling omvat twee stappen: in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina voor deze gebruikersaccount moet u op de knop **Sleutel van webservice wijzigen** klikken en in de begeleide instelling voor de Dynamics 365-verbinding moet u die gebruiker opgeven als de gebruiker van de OData-webservice.
+Als u ervoor kiest *artikelbeschikbaarheid* in te schakelen, moet de account van de integratiegebruiker een webservicetoegangssleutel hebben. Deze instelling omvat twee stappen: in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina voor deze gebruikersaccount moet u de knop **Sleutel van webservice wijzigen** kiezen en in de begeleide instelling voor de Dynamics 365 for Sales-verbinding moet u die gebruiker opgeven als de gebruiker van de OData-webservice.
 
 Als u ervoor kiest *verkooporderintegratie* in te schakelen, moet u een gebruiker opgeven die de synchronisatie verwerkt: de integratiegebruiker of een andere gebruikersaccount.
 
@@ -77,14 +76,15 @@ Aan het eind van de begeleide instelling kunt u de actie **Volledige synchronisa
 
 Als u de voortgang van afzonderlijke taken in een volledige synchronisatie wilt controleren, zoomt u in op een van de velden **Status van taakwachtrijpost**, **Naar projectstatus van integratietabel** of **Van projectstatus van integratietabel** in het venster **Controle van volledige CRM-synchronisatie** in.
 
-Vanuit het venster **Dynamics 365-verbinding instellen** kunt u informatie over de volledige synchronisatie op ieder gewenst moment oproepen. Van hieruit kunt u ook het venster **Toewijzingen van integratietabellen** openen waarin u details van de tabellen in Dynamics 365 Business edition en in de te synchroniseren Dynamics 365 for Sales-oplossing kunt zien.
+Vanuit het venster **Dynamics 365 for Sales-verbinding instellen** kunt u informatie over de volledige synchronisatie op ieder gewenst moment oproepen. Van hieruit kunt u ook het venster **Toewijzingen van integratietabellen** openen waarin u details van de tabellen in Finance and Operations, Business edition en in de te synchroniseren Dynamics 365 for Sales-oplossing kunt zien.
 
 ## <a name="see-also"></a>Zie ook
 [Relatiebeheer](marketing-relationship-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
-[Procedure: Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
-[Uw organisatie en gebruikers onboarden in Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
+[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
+[Uw organisatie en gebruikers onboarden in Finance and Operations, Business edition (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

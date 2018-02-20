@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Financiën
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
 De standaardconfiguratie omvat een rekeningschema en standaardboekingsgroepen die het proces vormen van het efficiënter toewijzen van standaardgrootboekrekeningen aan klanten, leveranciers en artikelen.  
 
@@ -37,19 +37,19 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
 | Het grootboek en het rekeningschema begrijpen. |[Het grootboek en COA begrijpen](finance-general-ledger.md) |
 | Voeg dimensies toe voor betere bedrijfsinformatie. |[Werken met dimensies](finance-dimensions.md) |
-| Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md) |
-|Registreer inkomsten of kosten rechtstreeks in het grootboek zonder specifieke bedrijfsdocumenten te boeken.|[Procedure: Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
-|Boek tegenboekingen om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Procedure: boekingen tegenboeken](finance-how-reverse-journal-posting.md)|
-|Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. |[Procedure: Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
-| Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
-|Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Procedure: kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
+| Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Grootboekbudgetten maken](finance-how-create-budgets.md) |
+|Registreer inkomsten of kosten rechtstreeks in het grootboek zonder specifieke bedrijfsdocumenten te boeken.|[Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
+|Boek tegenboekingen om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Boekingen tegenboeken](finance-how-reverse-journal-posting.md)|
+|Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
+| Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
+|Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 | Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Procedure: Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
-|Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Procedure: Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
-| Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Procedure: Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
+|Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
+| Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
 | De stroom van kas in en uit uw bedrijf controleren. |[Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md) |
 | Werken met financiële overzichten in Excel. |[Financiële overzichten analyseren in Excel:](finance-analyze-excel.md) |
 | Voorbereiden om een boekjaar of -periode af te sluiten. |[Afsluitingsjaren en -perioden](year-close-years-periods.md) |
-|Een rapport voorbereiden met btw van verkopen en het rapport verzenden aan een belastingdienst in de EU. | [Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
+|Een rapport voorbereiden met btw van verkopen en het rapport verzenden aan een belastingdienst in de EU. | [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Financiën instellen](finance-setup-finance.md)  
@@ -61,5 +61,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

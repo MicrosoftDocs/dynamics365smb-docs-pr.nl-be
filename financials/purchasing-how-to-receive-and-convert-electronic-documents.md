@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Procedure: Elektronische documenten ontvangen en converteren
+# <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
 De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document in het venster Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Naast het rechtstreeks ontvangen van elektronische documenten van handelspartners, kunt u elektronische documenten ontvangen van een OCR-service die van uw PDF- of afbeeldingsbestanden elektronische documenten heeft gemaakt.  
 
- Voordat u elektronische documenten via de documentuitwisselingsservice kunt ontvangen, moet u eerst diverse mastergegevens, zoals bedrijfsgegevens, leveranciers, artikelen en maateenheden instellen. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens en elementen in het inkomende documentbestand worden geconverteerd naar velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Procedure: Een service voor documentuitwisseling instellen](across-how-to-set-up-a-document-exchange-service.md) voor meer informatie.  
+ Voordat u elektronische documenten via de documentuitwisselingsservice kunt ontvangen, moet u eerst diverse mastergegevens, zoals bedrijfsgegevens, leveranciers, artikelen en maateenheden instellen. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens en elementen in het inkomende documentbestand worden geconverteerd naar velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Een service voor documentuitwisseling instellen](across-how-to-set-up-a-document-exchange-service.md) voor meer informatie.  
 
- Voordat u elektronische documenten via de OCR-service kunt ontvangen, moet u de vooraf geconfigureerde serviceverbinding instellen en inschakelen. Zie [Procedure: Inkomende documenten instellen](across-how-setup-income-documents.md) voor meer informatie.  
+ Voordat u elektronische documenten via de OCR-service kunt ontvangen, moet u de vooraf geconfigureerde serviceverbinding instellen en inschakelen. Zie voor meer informatie [Inkomende documenten instellen](across-how-setup-income-documents.md).  
 
  Het verkeer van elektronische documenten in en uit [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt beheerd door de functie Taakwachtrij. Voordat u elektronische documenten kunt ontvangen, moet de relevante taakwachtrij worden gestart.  
 
@@ -45,7 +45,7 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 
 2.  Selecteer de regel voor de inkomende documentrecord die een nieuwe elektronische factuur representeert, en kies vervolgens op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**.  
 
-     In het venster **Kaart inkomend document** wordt het gerelateerde XML-bestand gekoppeld en worden de meeste velden vooraf ingevuld met informatie uit de elektronische factuur. Zie [Procedure: Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
+     In het venster **Kaart inkomend document** wordt het gerelateerde XML-bestand gekoppeld en worden de meeste velden vooraf ingevuld met informatie uit de elektronische factuur. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
 
 3.  Kies in het veld **Soort gegevensuitwisseling** de optie **PEPPOL-factuur** of **OCR-factuur**, afhankelijk van de bron van het elektronische document.  
 
@@ -60,7 +60,7 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 ## <a name="see-also"></a>Zie ook  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkomende documenten](across-income-documents.md)  
-[Procedure: Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 

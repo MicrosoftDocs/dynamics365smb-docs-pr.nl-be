@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>De boeken sluiten
@@ -31,7 +31,7 @@ Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
     Een boekjaar wordt gedefinieerd als één of meer open perioden die zijn gedefinieerd in het venster **Boekhoudperioden**. Een boekjaar bestaat over het algemeen uit 12 perioden van een maand, maar u kunt een jaar ook anders definiëren.
 
-    Zie [Procedure: Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
+    Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
 2. Naboekingen registreren.
 
     Wanneer u een boekjaar sluit, moet u een aantal administratieve transacties invoeren (zoals vooraf betaalde en te betalen artikelen). De transacties worden herwaarderingsposten genoemd. Er zijn geen speciale regels voor het boeken van deze posten, en het veld **Naboeking** is (zoals bij de overige posten) geselecteerd als ze worden geboekt op een datum in een gesloten boekjaar. Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten voor boeken.
@@ -44,7 +44,7 @@ Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
     Wanneer de batchverwerking Afsluiten WenV-rekening is voltooid, boekt u de posten die zijn gegenereerd door de batchverwerking. Als u geen rekening Resultaat Lopend Boekjaar heeft gespecificeerd in de batchverwerking, voert u een regel in met een tegenboeking waarmee het netto inkomen wordt geboekt naar de juiste grootboekrekening onder de vermogensrekening van de eigenaren op de balans. Boek ten slotte het dagboek.
 
-    Zie [Procedure: Jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md) voor meer informatie.
+    Zie [Jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md) voor meer informatie.
 
 ## <a name="what-happens-when-you-close"></a>Wat er gebeurt wanneer u afsluit
 Wanneer u het boekjaar aan het einde van het jaar afsluit, verplaatst het systeem uw resultaten van de berekende resultaten. Het systeem markeert tevens het boekjaar als "afgesloten," en markeert alle volgende posten voor het afgesloten jaar als "posten van het vorige jaar."
@@ -54,6 +54,6 @@ Het systeem genereert vervolgens een ultimopost, maar boekt de post niet automat
 U kunt in een eerder boekjaar boeken, zelfs nadat de resultatenrekeningen zijn gesloten, als u nadien nogmaals de batchverwerking Afsluiten WenV-rekening uitvoert.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
+[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

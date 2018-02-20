@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 19fbfd60beb973dc65a09b7bfeee95b976a89905
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25094427b1e87002de11afad487ecd09a8af2e30
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Kostenbudgetten maken
 Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een kostenbudget wordt gemaakt op basis van kostensoorten zoals een budget voor het grootboek wordt gemaakt op basis van grootboekrekeningen.  
 
-Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
+Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
 U gebruikt de volgende vensters om kostenbudgetten te maken en te analyseren. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") om een venster te vinden en lees vervolgens de knopinfo voor elk venster.
 
@@ -36,7 +36,7 @@ U gebruikt de volgende vensters om kostenbudgetten te maken en te analyseren. Kl
 
 ## <a name="see-also"></a>Zie ook  
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
-[Procedure: Grootboekbudgetten maken](finance-how-create-budgets.md)  
+[Grootboekbudgetten maken](finance-how-create-budgets.md)  
 [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

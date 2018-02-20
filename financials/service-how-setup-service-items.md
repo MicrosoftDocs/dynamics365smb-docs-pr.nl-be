@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 80071e9fd584ad3232b8ae55169948f9a05d22be
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 068d141ee8490cc34e8b2092b7dcfda36139660d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-service-items-and-service-item-components"></a>Procedure: Serviceartikelen en serviceartikelonderdelen instellen
+# <a name="set-up-service-items-and-service-item-components"></a>Serviceartikelen en serviceartikelonderdelen instellen
 Als u met serviceartikelen wilt werken, moet u het volgende instellen
 
 * Serviceartikelgroepen. 
@@ -60,8 +60,8 @@ Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderde
 U kunt serviceschappen instellen om de opslaglocatie van uw serviceartikelen aan te duiden. U wijst serviceschappen toe aan serviceartikelen op de pagina's **Serviceorder** en **Serviceartikelwerkbon**.  
   
 1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceschappen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de velden in.
+2. Vul de benodigde velden in.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Codes voor standaardservices instellen](service-how-setup-service-coding.md)   
-[Procedure: Richtlijnen voor troubleshooting instellen](service-how-setup-troubleshooting.md)
+[Codes voor standaardservices instellen](service-how-setup-service-coding.md)   
+[Troubleshooting instellen](service-how-setup-troubleshooting.md)

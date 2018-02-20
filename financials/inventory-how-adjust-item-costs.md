@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Procedure: Artikelkosten herwaarderen
+# <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
 De kostprijs van een artikel (voorraadwaarde) dat u inkoopt en later verkoopt, kan tijdens de levensduur veranderen, bijvoorbeeld omdat vrachtkosten worden toegevoegd aan aanschafkosten nadat u het artikel hebt verkocht. Kostenherwaardering is met name belangrijk als u goederen verkoopt voordat u de inkoop van deze goederen factureert. Als u altijd de juiste voorraadwaarde wilt weten, moeten artikelkosten daarom regelmatig worden geherwaardeerd. Hierdoor worden verkoop- en winststatistieken bijgewerkt en gezorgd dat de financiële KPI's kloppen. Zie [Ontwerpdetails: kostenwaardering](design-details-cost-adjustment.md) voor meer informatie.
 
 Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kostprijs** op de artikelkaart doorgaans gebaseerd op de vaste verrekenprijs. Voor artikelen met alle andere waarderingsmethoden is de waarde gebaseerd op de berekening van de beschikbare voorraad (gefactureerde kosten en verwachte kosten) gedeeld door het aantal in voorraad. Zie het gedeelte "Kostprijsberekening" voor meer informatie.
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden artikelkosten automatisch 
 
 U kunt een functie ook gebruiken om de kosten van een of meer artikelen handmatig aan te passen. Dit is bijvoorbeeld handig als u weet dat artikelkosten om andere redenen dan artikeltransacties zijn gewijzigd.
 
-Artikelkosten worden geherwaardeerd met de waarderingsmethode FIFO of Gemiddeld, afhankelijk van uw keuze in de begeleide instelling **Mijn bedrijf instellen** of in het veld **Waarderingsmethode** op de artikelkaart. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.  
+Artikelkosten worden geherwaardeerd met de waarderingsmethode FIFO of Gemiddeld, afhankelijk van uw keuze in de begeleide instelling **Mijn bedrijf instellen** of in het veld **Waarderingsmethode** op de artikelkaart. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 Als u de waarderingsmethode FIFO gebruikt, zijn de eenheidskosten van een artikel de werkelijke waarde van een ontvangst van het artikel. Voorraad wordt gewaardeerd met de aanname dat de eerste in voorraad geplaatste artikelen het eerst worden verkocht.
 
@@ -63,7 +63,7 @@ Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kost
  Wat u in het veld **Waarderingsmethode** invult, beïnvloedt hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] de inhoud van het veld **Kostprijs** berekent op de regels.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Waarderingsmethode FIFO, LIFO, Specifiek of Gemiddeld  
- De inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel wordt door [!INCLUDE[d365fin](includes/d365fin_md.md)] berekend volgens deze formule:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent de inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel met deze formule:  
 
  Kostprijs (LV) = (Directe kostprijs - (Totale korting/ Aantal)) * (1 + Indirecte kosten % / 100) + Overheadtarief  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Vast activum
@@ -31,10 +31,7 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 Elk vast activum kan aan een of meer verzekeringspolissen zijn gekoppeld. Op deze manier kunt u gemakkelijk nagaan of de bedragen in de verzekeringspolis overeenkomen met de waarde van de activa die aan de polis zijn gekoppeld. Hierdoor kunt u bovendien de jaarpremies controleren.
 
 > [!NOTE]  
->   U kunt transacties voor vaste activa registreren in het venster **VA fin. dagboek** of in het venster **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven. Zie [Procedure: Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   U kunt transacties voor vaste activa registreren in het venster **VA fin. dagboek** of in het venster **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
 Voordat u vaste activa gaat beheren, moet u standaardwaarden, boekhouding voor vaste activa, boekingsgroepen, verdeelsleutels, dagboeken en boekingssoorten instellen. Zie [Vaste activa instellen](fa-setup.md) voor meer informatie.
 
@@ -42,14 +39,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 | Als u dit wilt doen | Zie |
 | --- | --- |
-| Vaste activa maken, afschrijvingsmethoden toewijzen, aankopen boeken, restwaarden boeken en VA-lijsten afdrukken. |[Procedure: Vaste activa aanschaffen](fa-how-acquire.md) |
-| Onderhoudsbeurten registreren, onderhoudskosten boeken en onderhoudskosten controleren. |[Procedure: Vaste activa onderhouden](fa-how-maintain.md). |
-| Verzekeringsinformatie bijwerken, aanschafkosten boeken naar verzekeringspolissen, verzekeringsdekking wijzigen, verzekeringsstatistieken bekijken en een lijst met verzekeringspolissen weergeven. |[Procedure: Vaste activa verzekeren](fa-how-insure.md) |
-| Vaste activa herindelen, vaste activa naar andere locaties verplaatsen, activa opsplitsen of combineren. |[Procedure: Vaste activa verplaatsen, splitsen of combineren](fa-how-trans-split-combine.md) |
-| Waarden van vaste activa aanpassen, waardevermeerderings- en waardeverminderingstransacties boeken. |[Procedure: Vaste activa herwaarderen](fa-how-revalue.md) |
-| Afschrijving berekenen, afschrijving boeken en afschrijving analyseren in rapporten voor vaste activa. |[Procedure: Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md) |
-| Buitengebruikstellingstransacties boeken, buitengebruikstellingsposten bekijken en gedeeltelijke buitengebruikstellingen boeken. |[Procedure: Vaste activa buiten gebruik stellen of afstoten](fa-how-dispose-retire.md) |
-| Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Procedure: Budgetten beheren voor vaste activa](fa-how-manage-budgets.md) |
+| Vaste activa maken, afschrijvingsmethoden toewijzen, aankopen boeken, restwaarden boeken en VA-lijsten afdrukken. |[Vaste activa aanschaffen](fa-how-acquire.md) |
+| Onderhoudsbeurten registreren, onderhoudskosten boeken en onderhoudskosten controleren. |[Vaste activa onderhouden](fa-how-maintain.md) |
+| Verzekeringsinformatie bijwerken, aanschafkosten boeken naar verzekeringspolissen, verzekeringsdekking wijzigen, verzekeringsstatistieken bekijken en een lijst met verzekeringspolissen weergeven. |[Vaste activa verzekeren](fa-how-insure.md) |
+| Vaste activa herindelen, vaste activa naar andere locaties verplaatsen, activa opsplitsen of combineren. |[Vaste activa overboeken, splitsen of combineren](fa-how-trans-split-combine.md) |
+| Waarden van vaste activa aanpassen, waardevermeerderings- en waardeverminderingstransacties boeken. |[Vaste activa herwaarderen](fa-how-revalue.md) |
+| Afschrijving berekenen, afschrijving boeken en afschrijving analyseren in rapporten voor vaste activa. |[Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md) |
+| Buitengebruikstellingstransacties boeken, buitengebruikstellingsposten bekijken en gedeeltelijke buitengebruikstellingen boeken. |[Vaste activa afstoten of van de hand doen](fa-how-dispose-retire.md) |
+| Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren.](fa-how-manage-budgets.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  
@@ -58,4 +55,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

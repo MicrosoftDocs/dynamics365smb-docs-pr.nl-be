@@ -13,10 +13,10 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9f1c3573137d7cd15c8b98813da514f8b8f2e1cd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d479727b8d0cbb4b4ec9f127136f4e0578b8afb7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultaten van het overbrengen van grootboekposten naar kostenposten
@@ -38,8 +38,8 @@ Voor enkele kostenposten wordt de boekingstekst door [!INCLUDE[d365fin](includes
 In de tabel **Kostenregister**, wordt door [!INCLUDE[d365fin](includes/d365fin_md.md)] een post gemaakt met de bronoverdracht van het grootboek. Door de post worden de eerste en laatste nummers van de overgebrachte grootboekposten vastgelegd, evenals de eerste en laatste nummers van de kostenposten die zijn gemaakt.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: grootboekposten overbrengen naar kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
-[Criteria voor het overbrengen van grootboekposten naar kostenposten](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
+[Grootboekposten overbrengen naar kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+[Criteria voor het overbrengen van grootboekposten naar kostenposten.](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
 [Automatische overdracht en gecombineerde posten](finance-automatic-transfer-combined-entries.md)   
 [Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)  
 

@@ -1,24 +1,22 @@
 ---
 title: Grootboek VA instellen| Microsoft Docs
 description: Voordat u werkt met vaste activa, moet u standaardgrootboekrekeningen instellen, boekingsgroepen, verdeelsleutels, dagboeksjablonen en batches, en klassecodes.
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
-ms.author: sgroespe
+ms.date: 29/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Procedure: Algemene gegevens voor vaste activa instellen
+# <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Algemene standaardwaarden instellen voor vaste activa
@@ -38,10 +36,10 @@ Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Post
 >   Om ervoor te zorgen dat tegenrekeningen voor verschillende boekingen van vaste activa automatisch worden ingevoegd als u de actie **VA-tegenrekening invoegen** op dagboekregels kiest, voert u op basis van boeking van waardevermeerdering de volgende stap uit.
 4. Selecteer op het sneltabblad **Tegenrekening** in het veld **Tegenrekening waardevermeerdering** de grootboekrekening waarnaar u tegenrekeningsposten wilt boeken voor afschrijving.
 
-Zie voor meer informatie over het gebruik van de actie **VA-tegenrekening invoegen** voor regels van het financieel dagboek voor vaste activa bijvoorbeeld [Procedure: Vaste activa herwaarderen](fa-how-revalue.md).
+Zie voor meer informatie over het gebruik van de actie **VA-tegenrekening invoegen** voor regels van het financieel dagboek voor vaste activa bijvoorbeeld [Vaste activa herwaarderen](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Verdeelsleutels voor vaste activa instellen
-Transacties kunnen over diverse afdelingen of projecten worden verdeeld, volgens een zelfgedefinieerde verdeelsleutel. U kunt bijvoorbeeld een verdeelsleutel instellen waarbij de afschrijvingskosten op bedrijfswagens voor 35 procent worden toegewezen aan de administratie en voor 65 procent aan de verkoopafdeling. Zie voor meer informatie [Procedure: Kosten en inkomsten toewijzen](year-allocate-costs-income.md).
+Transacties kunnen over diverse afdelingen of projecten worden verdeeld, volgens een zelfgedefinieerde verdeelsleutel. U kunt bijvoorbeeld een verdeelsleutel instellen waarbij de afschrijvingskosten op bedrijfswagens voor 35 procent worden toegewezen aan de administratie en voor 65 procent aan de verkoopafdeling. Zie voor meer informatie [Kosten en inkomsten toewijzen](year-allocate-costs-income.md).
 
 Verdeelsleutels zijn van toepassing op klassen voor vaste activa en niet op afzonderlijke activa.
 
@@ -53,7 +51,7 @@ Verdeelsleutels zijn van toepassing op klassen voor vaste activa en niet op afzo
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Dagboeksjablonen voor vaste activa instellen
 Een sjabloon is een vooraf gedefinieerd model voor een dagboek. De sjabloon bevat informatie over traceringscodes, lijsten en nummerreeksen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjabloon voor vaste activa gemaakt als u het venster **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] maakt automatisch een dagboeksjabloon voor vaste activa als u het venster **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **VA-dagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -103,23 +101,25 @@ Als u de module Vaste activa in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor
 
 1. Controleer of u de procedures voor de basisinstellingen van vaste activa hebt voltooid.  
 2. Maak een kaart voor ieder bestaand activum.  
-3. Stel VA-afschrijvingsboeken in.  
-4. Schakel grootboekintegratie in door de volgende stappen uit te voeren.
-5. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingsboeken** in en klik vervolgens op de gerelateerde koppeling.  
-6. De relevante afschrijvingsboekkaart selecteren. Kies op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**, als u het venster **Afschrijvingsboek** wilt openen.
-7. Schakel alle velden op het sneltabblad **Integratie** uit door de vinkjes te verwijderen. Als u meer dan één afschrijvingsboek hebt, schakelt u de grootboekintegratie voor elk afschrijvingsboek in.  
-8. In het dagboek voor vaste activa voert u voor elk activum de volgende regels in:
+3. Maak een VA-afschrijvingsboek voor elk afschrijvingsdoel (zoals voor belasting en financiële overzichten). Voor elk afschrijvingsboek moet u de voorwaarden en bepalingen instellen, bijvoorbeeld of het dagboek al dan niet is geïntegreerd met het grootboek.  
+
+    Schakel grootboekintegratie in door de volgende stappen uit te voeren. Eerst moet u ervoor zorgen dat de grootboekintegratie voor alle afschrijvingsboeken is uitgeschakeld en dan boekt u de openingsposten. Tenslotte schakelt u grootboekintegratie in.  
+4. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingsboeken** in en klik vervolgens op de gerelateerde koppeling.  
+5. De relevante afschrijvingsboekkaart selecteren. Kies op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**, als u het venster **Afschrijvingsboek** wilt openen.
+6. Schakel alle velden op het sneltabblad **Integratie** uit door de vinkjes te verwijderen. Als u meer dan één afschrijvingsboek hebt, schakelt u de grootboekintegratie voor elk afschrijvingsboek uit.  
+7. In het dagboek voor vaste activa voert u voor elk activum de volgende regels in:
    * Een regel met de aanschafkosten.
    * Een regel met de gecumuleerde afschrijving tot het einde van het vorige boekjaar.
    * Een regel met de gecumuleerde afschrijving vanaf het begin van het lopende boekjaar tot de datum waarop [!INCLUDE[d365fin](includes/d365fin_md.md)] is ingesteld om te beginnen met het berekenen van de afschrijving.
 
-Als er nog andere beginsaldi zijn, zoals waardevermindering of waardevermeerdering, kunt u deze nu ook opgeven.  
+    Als er nog andere beginsaldi zijn, zoals waardevermindering of waardevermeerdering, kunt u deze nu ook opgeven.  
+8. Nadat u de dagboekregels voor elk activum hebt ingevoerd en geboekt, schakelt u grootboekintegratie in de afschrijvingsboeken in.
 
-Als de vaste activa niet zijn geïntegreerd met het grootboek, kunt u stap 4 tot en met 7 overslaan.
+Als de vaste activa niet zijn geïntegreerd met het grootboek, slaat u de stappen 6 en 8 over.
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  
-[Vaste activa](fa-manage.md)  
+[Vast activum](fa-manage.md)  
 [Financiën](finance.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

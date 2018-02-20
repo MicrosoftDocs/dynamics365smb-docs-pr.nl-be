@@ -1,6 +1,6 @@
 ---
 title: Artikelen opslaan met een voorraadopslag | Microsoft Docs
-description: Als voor uw vestiging wel een opslagverwerking, maar geen ontvangstverwerking vereist is, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een productieorder waarvan de output kan worden opgeslagen.
+description: Als voor uw vestiging wel een opslagverwerking maar geen ontvangstverwerking is vereist, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een productieorder waarvan de output kan worden opgeslagen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Procedure: artikelen opslaan met een voorraadopslag
+# <a name="put-items-away-with-inventory-put-aways"></a>Artikelen opslaan met voorraadopslag
 Als voor uw vestiging wel een opslagverwerking, maar geen ontvangstverwerking vereist is, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een assemblage- of productieorder waarvan de output kan worden opgeslagen.  
 
 U kunt een voorraadopslag op drie manieren maken:  
@@ -39,7 +39,7 @@ Voor inkooporders, verkoopretourorders, inkomende transferorders en assemblageor
 4. Kies de actie **Ink. magazijnontvangst maken**.  
 
 > [!NOTE]  
->  U kunt de inkomende magazijnaanvraag ook maken door het selectievakje **Inkomend verzoek maken** in te schakelen bij het vernieuwen van de productieorder. Zie [Procedure: Productieorders vernieuwen of opnieuw plannen](production-how-to-replan-refresh-production-orders.md) voor meer informatie.  
+>  U kunt de inkomende magazijnaanvraag ook maken door het selectievakje **Inkomend verzoek maken** in te schakelen bij het vernieuwen van de productieorder. Zie [Productieorders opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md) voor meer informatie.  
 
 Wanneer het magazijnverzoek is gemaakt, ziet de magazijnmedewerker verantwoordelijk voor de opslag van artikelen dat het brondocument gereed is en dat hij een nieuw voorraadopslagdocument kan maken.  
 
@@ -68,7 +68,7 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadopslag m
 2. In het veld **Opslaglocatie** op de opslagregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waarin de artikelen moeten worden opgeslagen. De opslaglocatie in dit venster kunt u desgewenst wijzigen.  
 3. Voer de opslag uit en voer het werkelijk opgeslagen aantal in het veld **Te verwerken aantal** in.
 
-    Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de functie **Regel splitsen** op het sneltabblad **Regels**. Zie voor meer informatie over het splitsen van regels [Procedure: Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)  
+    Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de functie **Regel splitsen** op het sneltabblad **Regels**. Zie voor meer informatie over het splitsen van regels [Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)  
 4. Als u de opslag hebt uitgevoerd, kiest u de actie **Boeken**.  
 
 Tijdens het boekingsproces wordt de ontvangst, in het geval van productieorders de output, geboekt van de brondocumentregels die zijn opgeslagen. Als in de vestiging opslaglocaties worden gebruikt, worden ook magazijnposten gemaakt, waarin de gewijzigde aantallen van de opslaglocaties worden geboekt.

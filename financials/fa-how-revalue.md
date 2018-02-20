@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e578b2d22cf715407fee0b796b1ea49ef592057d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b7ed3e38b4a697de678e11a8735869b666910081
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-revalue-fixed-assets"></a>Procedure: Vaste activa herwaarderen
+# <a name="revalue-fixed-assets"></a>Vaste activa herwaarderen
 De herwaardering van vaste activa kan bestaan uit waardevermeerderingen, waardeverminderingen of algemene waardecorrecties.
 
 Als de waarde van een vast activum is gestegen, boekt u een dagboekregel met een hoger bedrag, een waardevermeerdering, naar het afschrijvingsboek. Het nieuwe bedrag wordt als een waardevermeerdering vastgelegd op basis van de instelling van de boeking van het vaste activum.
@@ -34,7 +34,7 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de waardevermeerdering is ingesteld.
 
     > [!NOTE]  
->   Stap 4 werkt alleen als u het volgende hebt ingesteld: in het venster **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardevermeerderingsrekening** de gootboekdebetrekening en het veld **Tegenrekening waardevermeerdering** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor waardevermeerdering wilt boeken. Zie het gedeelte "Boekingsgroepen voor vaste activa instellen" in de [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
+>   Stap 4 werkt alleen als u het volgende hebt ingesteld: in het venster **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardevermeerderingsrekening** de gootboekdebetrekening en het veld **Tegenrekening waardevermeerdering** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor waardevermeerdering wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
 5. Kies de actie **Boeken**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Een waardevermindering boeken vanuit het financieel dagboek voor vaste activa
@@ -44,7 +44,7 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de waardevermindering is ingesteld.
 
     > [!NOTE]  
->   Stap 4 werkt alleen als u het volgende hebt ingesteld: in het venster **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardeverminderingsrekening** de grootboekrekening en het veld **Waardeverminderingskostenrekening** bevat de grootboekdebetrekening waarnaar u tegenrekeningsposten voor waardeverminderingen wilt boeken. Zie het gedeelte "Boekingsgroepen voor vaste activa instellen" in de [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
+>   Stap 4 werkt alleen als u het volgende hebt ingesteld: in het venster **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardeverminderingsrekening** de grootboekrekening en het veld **Waardeverminderingskostenrekening** bevat de grootboekdebetrekening waarnaar u tegenrekeningsposten voor waardeverminderingen wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
 5. Kies de actie **Boeken**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Algemene herwaardering van vaste activa uitvoeren
@@ -54,7 +54,7 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 2. Vul indien nodig de velden in.
 3. Kies de knop **Ok**.
 
-    De herwaardering regels worden gemaakt op basis van uw instellingen in stap 2. De regels worden gemaakt in het dagboek voor vaste activa of het financieel dagboek voor vaste activa, afhankelijk van uw sjabloon en batchinstellingen in het venster **VA-dagboekinstellingen**. Zie [Procedure: Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
+    De herwaardering regels worden gemaakt op basis van uw instellingen in stap 2. De regels worden gemaakt in het dagboek voor vaste activa of het financieel dagboek voor vaste activa, afhankelijk van uw sjabloon en batchinstellingen in het venster **VA-dagboekinstellingen**. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
 4. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **VA-fin. dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
 5. Selecteer het dagboek met de vaste activa die u wilt herwaarderen en kies vervolgens de actie **Posten**.  
 6. Controleer de gemaakte posten en kies vervolgens de actie **Boeken** om het dagboek te boeken.
@@ -63,7 +63,7 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 >   Als de indexcijfers alleen voor simulaties worden gebruikt, kunt u een speciaal afschrijvingsboek maken om ze in op te slaan. Deze posten zijn dan niet van invloed op de andere afschrijvingsboeken.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Aanvullende aanschafkosten boeken
-   U boekt extra aanschafkosten voor een vast activum op dezelfde manier als u de oorspronkelijke aanschafkosten boekt: vanaf een inkoopfactuur of vanuit een dagboek voor vaste activa. Zie [Procedure: Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.  
+   U boekt extra aanschafkosten voor een vast activum op dezelfde manier als u de oorspronkelijke aanschafkosten boekt: vanaf een inkoopfactuur of vanuit een dagboek voor vaste activa. Zie [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.  
 
 Als de afschrijving al is berekend voor het vaste activum, schakelt u het selectievakje **Afschrijving aanschafkosten** in om de extra aanschafkosten af te schrijven, verminderd met de restwaarde. Dit bedrag is evenredig aan het bedrag dat al op het eerder aangeschafte vaste activum is afgeschreven. Hiermee wordt ervoor gezorgd dat de afschrijvingsperiode niet wordt gewijzigd.  
 

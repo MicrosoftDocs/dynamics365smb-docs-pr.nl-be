@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
@@ -58,7 +58,7 @@ Als u deze wilt instellen, kunt u zoeken naar **cashflowrekeningen**, de koppeli
 ## <a name="set-up-cash-flow-forecasts"></a>Cashflowprognoses instellen
 In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met de begeleide instelling kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) moet worden ingeschakeld.  
 
-Cashflowprognoses kunnen Cortana Intelligence gebruiken om documenten met een vervaldatum in de toekomst op te nemen. Het resultaat is een uitvoerigere voorspelling. De verbinding met Cortana Intelligence is al voor u ingesteld. U hoeft het alleen in te schakelen. Wanneer u zich bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] aanmeldt, verschijnt er een melding in een blauwe balk en wordt er een koppeling verschaft naar de standaardcashflowinstellingen. De melding wordt slechts eenmaal weergegeven. Als u de melding sluit, maar besluit Cortana Intelligence in te schakelen, kunt u de begeleide instelling gebruiken of een handmatig proces.  
+Cashflowprognoses kunnen Cortana Intelligence gebruiken om documenten met een vervaldatum in de toekomst op te nemen. Het resultaat is een uitvoerigere voorspelling. De verbinding met Cortana Intelligence is al voor u ingesteld. U hoeft het alleen in te schakelen. Wanneer u zich bij [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldt, verschijnt er een melding in een blauwe balk en wordt er een koppeling verschaft naar de standaardcashflowinstellingen. De melding wordt slechts eenmaal weergegeven. Als u de melding sluit, maar besluit Cortana Intelligence in te schakelen, kunt u de begeleide instelling gebruiken of een handmatig proces.  
 
 > [!NOTE]  
 >   U kunt ook uw eigen voorspellende webservice gebruiken. Zie [Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken](#AnchorText).  
@@ -79,10 +79,10 @@ Een handmatig proces gebruiken:
 >   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Cortana Intelligence niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  
 
 ## <a name="AnchorText"> </a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
-U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Microsoft Dynamics 365 Business edition**. Dit voorspellende model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
+U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Microsoft Finance and Operations, Business edition**. Dit voorspellende model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Cortana Intelligence-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Zoek naar **Prognosemodel voor Microsoft Dynamics 365 Business edition** en open het model in Azure Machine Learning Studio.  
+2. Zoek naar **Prognosemodel voor Microsoft Finance and Operations, Business edition** en open het model in Azure Machine Learning Studio.  
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  

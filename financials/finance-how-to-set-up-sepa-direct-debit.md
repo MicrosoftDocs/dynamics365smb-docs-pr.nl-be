@@ -1,6 +1,6 @@
 ---
 title: Automatische incasso via SEPA instellen | Microsoft Docs
-description: Leer hoe u SEPA-incasso's maakt in Dynamics 365 Business edition.
+description: Leer hoe u SEPA Incasso instelt in Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Procedure: Automatische incasso via SEPA instellen
+# <a name="set-up-sepa-direct-debit"></a>Automatische incasso via SEPA instellen
 Vanuit het venster **Incasso-opdrachten** kunt u instructies aan uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-incasso's, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.  
 
-Als u de export van bankbestandsindelingen die niet standaard worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk wilt maken, kunt u een gegevensuitwisselingsdefinitie instellen met behulp van het kader voor gegevensuitwisseling. Zie [Procedure: Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
+Als u de export van bankbestandsindelingen die niet standaard worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk wilt maken, kunt u een gegevensuitwisselingsdefinitie instellen met behulp van het kader voor gegevensuitwisseling. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
 
 Voordat u betalingen van klanten elektronisch kunt verwerken door instructies voor automatische incasso te exporteren in de SEPA-indeling voor incasso, moet u de volgende instellingenstappen uitvoeren:  
 
@@ -72,11 +72,11 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 
 6.  Herhaal stap 1 tot en met 5 voor alle klanten die u wilt instellen voor automatische incasso van SEPA.  
 
- De incassomachtiging wordt automatisch ingevoegd in het veld **Machtigingsnummer voor incasso** wanneer u een verkoopfactuur maakt voor de klant die u in stap 2 hebt geselecteerd. Zie voor meer informatie [Procedure: Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).  
+ De incassomachtiging wordt automatisch ingevoegd in het veld **Machtigingsnummer voor incasso** wanneer u een verkoopfactuur maakt voor de klant die u in stap 2 hebt geselecteerd. Zie voor meer informatie [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Zie ook  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Procedure: Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)
-[Procedure: Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)
+[Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)
+[Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
 

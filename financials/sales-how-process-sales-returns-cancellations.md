@@ -11,19 +11,19 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eac8f4fdd6a5333662e272c8c71e585cf1fb876a
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-returns-or-cancellations"></a>Procedure: Verkoopretouren of annuleringen verwerken
+# <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.
 
 Als u meer controle wilt hebben over het verkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het ontvangen van artikelen van meerdere verkoopdocumenten bij één enkele verkoopretourzending, kunt u verkoopretourorders maken. Een verkoopretourorder geeft automatisch de gerelateerde verkoopcreditnota en andere retourgerelateerde documenten uit, zoals een vervangende verkooporder, indien noodzakelijk. Zie voor meer informatie de sectie "Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten".
 
 > [!NOTE]  
->   Als een geboekte verkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** voor de geboekte verkoopfactuur gebruiken om transacties tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retouren of annuleringen. Zie [Procedure: Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) voor meer informatie.
+>   Als een geboekte verkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** voor de geboekte verkoopfactuur gebruiken om transacties tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retouren of annuleringen. Zie voor meer informatie [Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md).
 
 Een retour of terugbetaling kan betrekking hebben op slechts enkele artikelen of services op de oorspronkelijke verkoopfactuur. In dat geval moet u de gegevens in de regels van de verkoopcreditnota of de verkoopretourorder bewerken. Wanneer u de verkoopcreditnota of de verkoopretourorder boekt, worden de door de wijziging beïnvloede verkoopdocumenten tegengeboekt en een terugbetaling voor de klant kan worden gemaakt. Zie voor meer informatie [Betalingen doen](payables-make-payments.md).  
 
@@ -65,7 +65,7 @@ Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inv
     Nadat u de nodige verkoopcreditnotaregels hebt gemaakt of bewerkt en de enkele of meerdere vereffeningen zijn opgegeven, kunt u de verkoopcreditnota boeken.   
 8. Kies de actie **Boeken en verzenden**.  
 
-Het dialoogvenster **Boeken en verzenden bevestigen** wordt geopend met de geprefereerde verzendmethode voor de klant. U kunt de verzendmethode wijzigen door de opzoekknop voor het veld **Document verzenden naar** te kiezen. Zie [Procedure: Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
+Het dialoogvenster **Boeken en verzenden bevestigen** wordt geopend met de geprefereerde verzendmethode voor de klant. U kunt de verzendmethode wijzigen door de opzoekknop voor het veld **Document verzenden naar** te kiezen. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
 De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu tegengeboekt en een terugbetaling kan worden gemaakt voor de klant. De verkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de lijst met geboekte verkoopcreditnota's.
 
@@ -135,7 +135,7 @@ U kunt een klant compenseren voor een artikel dat u deze hebt verkocht door het 
 1. Maak in het venster **Verkoopretourorder** voor een actief retourproces op een lege regel een negatieve post aan voor het vervangende artikel, door een negatief bedrag in te voeren in het veld **Aantal**.  
 2. Kies de actie **Negatieve regels verplaatsen**.
 3. Vul in het venster **Neg. verkoopregels verplaatsen** in de velden de gewenste gegevens in.
-4. Kies de knop **OK**. De negatieve regel voor het vervangende artikel wordt verwijderd uit de verkoopretourorder en toegevoegd in een nieuw venster **Verkooporder**. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+4. Kies de knop **OK**. De negatieve regel voor het vervangende artikel wordt verwijderd uit de verkoopretourorder en toegevoegd in een nieuw venster **Verkooporder**. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Retourgerelateerde documenten maken uit een verkoopretourorder
 U kunt automatisch vervangende verkooporders, verkoopretourorders en vervangingsverkooporders laten aanmeken in het verkoopretourproces. Dit is bijvoorbeeld nuttig in situaties waarin u artikelen wilt verwerken met door de leveranciers aangeboden garantie.
@@ -153,7 +153,7 @@ U kunt deze verhoogde kosten als artikeltoeslag boeken in een creditnota of reto
 
 1. Open het venster **Verkoopretourorder** voor een actief retourproces.
 2. Selecteer op een nieuwe regel in het veld **Type** **Toeslag (Artikel)**.  
-3. Vul de velden in net als voor eventuele artikeltoeslagregels. Zie voor meer informatie [Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)  
+3. Vul de velden in net als voor eventuele artikeltoeslagregels. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)  
 
 Wanneer u de verkoopretourorder boekt, wordt de toeslag opnieuw bevoorraden toegevoegd aan het bijbehorende verkooppostbedrag. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.  
 
@@ -169,7 +169,7 @@ U kunt deze gereduceerde prijs als artikeltoeslag boeken in een creditnota of re
      Mogelijk wilt u een speciaal artikeltoeslagnummer toewijzen voor verkoopprijskortingen.  
 6.  Geef **1** op in het veld **Aantal**.  
 7.  Geef het bedrag voor de verkoopprijskorting op in het veld **Eenheidsprijs**.  
-8.  Nu kunt u de verkoopprijskorting als artikeltoeslag toewijzen aan de artikelen op de geboekte verzending. Zie voor meer informatie [Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar het venster **Verkoopcreditnota**.  
+8.  Nu kunt u de verkoopprijskorting als artikeltoeslag  toewijzen aan de artikelen op de geboekte verzending. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar het venster **Verkoopcreditnota**.  
 
 Wanneer u de verkoopretourorder boekt, wordt de verkoopprijskorting toegevoegd aan het bijbehorende verkooppostbedrag. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.
 
@@ -218,6 +218,6 @@ U kunt afzonderlijke retourorders ook handmatig verwijderen.
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Procedure: Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

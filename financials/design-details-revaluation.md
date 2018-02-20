@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
@@ -76,7 +76,7 @@ De waarderingsdatum wordt ingesteld op de datum van de verbruikboeking (01-02-20
 
 |Boekingsdatum|Artikel|Boekingssoort|Aantal|Postnr.|  
 |------------------|----------|----------------|--------------|---------------|  
-|15-02-20|KETTING|Output|0|3|  
+|15-02-20|KETTING|Output|1|3|  
 
 **3W:** de gebruiker voert de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit, waarmee de keten wordt geboekt als gefactureerd om aan te geven dat alle materiaalverbruik volledig is gefactureerd. Vanuit een financieel oogpunt zijn de koppelingen niet langer deel van OHW-voorraad wanneer de output volledig is gefactureerd en geherwaardeerd. De volgende tabel toont de twee soorten resulterende waardeposten.  
 

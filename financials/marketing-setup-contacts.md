@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Het instellen van contactpersonen voorbereiden
@@ -31,11 +31,11 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Aan | Zie |
 | --- | --- |
 | De zakenrelatie met uw contacten instellen, bijvoorbeeld prospect, bank, consultant en serviceleverancier. |[Bedrijfsrelaties instellen voor contactbedrijven](marketing-business-relations.md) |
-| De sector instellen waartoe uw contacten behoren, bijvoorbeeld de detailhandel of de automobielindustrie. |[Procedure: Sectoren instellen voor contactbedrijven](marketing-industry-groups.md) |
-| De mailinggroepen instellen aan de hand waarvan u groepen contacten kunt identificeren die u dezelfde informatie wilt sturen. |[Procedure: Mailinggroepen instellen voor contactbedrijven](marketing-mailing-groups.md) |
+| De sector instellen waartoe uw contacten behoren, bijvoorbeeld de detailhandel of de automobielindustrie. |[Sectoren instellen voor contactbedrijven](marketing-industry-groups.md) |
+| De mailinggroepen instellen aan de hand waarvan u groepen contacten kunt identificeren die u dezelfde informatie wilt sturen. |[Mailinggroepen instellen voor contactbedrijven](marketing-mailing-groups.md) |
 | De functiegroepen van uw contactpersonen instellen. |[Functiegroepen instellen voor contacten](marketing-job-responsibilities.md) |
-| De niveaus binnen de organisatie instellen die u wilt gebruiken voor uw contactpersonen. |[Procedure: Organisatieniveaus instellen voor contacten](marketing-organizational-levels.md) |
-| Webbronnen (zoekprogramma's en websites) instellen die u kunt gebruiken bij het opzoeken van informatie over uw contacten. |[Procedure: Webbronnen instellen voor contacten](marketing-web-sources.md) |
+| De niveaus binnen de organisatie instellen die u wilt gebruiken voor uw contactpersonen. |[Organisatieniveaus instellen voor contacten](marketing-organizational-levels.md) |
+| Webbronnen (zoekprogramma's en websites) instellen die u kunt gebruiken bij het opzoeken van informatie over uw contacten. |[Webbronnen instellen voor contacten](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

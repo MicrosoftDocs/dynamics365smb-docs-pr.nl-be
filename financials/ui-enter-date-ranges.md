@@ -1,6 +1,6 @@
 ---
-title: Datumbereiken instellen in Dynamics 365 Business edition | Microsoft Docs
-description: Leer hoe u een rapport met gegevens uit specifieke perioden op basis van datumbereiken in Dynamics 365 Business edition maakt.
+title: Datumbereiken instellen in Finance and Operations, Business edition | Microsoft Docs
+description: Leer hoe u een rapport met gegevens uit specifieke perioden op basis van datumbereiken in Finance and Operations, Business edition maakt.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Datumbereiken invoeren in Dynamics 365 Business edition 
+# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Datumbereiken invoeren in Finance and Operations, Business edition 
 U kunt filters met een begin- en einddatum instellen om alleen de gegevens in dat datumbereik of tijdsinterval in te stellen. Voor het instellen van een datumbereik gelden speciale regels. Neem als voorbeeld de **Klanten top 10**:
 
 ![Een datumbereik instellen op de aanvraagpagina voor de lijst Klanten top 10](./media/ui-enter-date-ranges/customer-top10-list.png)

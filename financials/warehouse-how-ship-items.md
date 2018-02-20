@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0ca92ce0266c6a57d211f9ddb70dc5499f4f9648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-ship-items"></a>Procedure: Artikelen verzenden
+# <a name="ship-items"></a>Artikelen verzenden
 Wanneer u artikelen verzendt vanuit een magazijn waarvoor magazijnverzendingsverwerking niet is ingesteld, registreert u de verzending in het gerelateerde bedrijfsdocument, zoals een verkooporder, serviceorder, inkoopretourorder of uitgaande transferorder.
 
 Als u artikelen verzendt vanuit een magazijn met magazijnverzendingsverwerking, kunt u artikelen alleen verzenden op basis van brondocumenten die door andere afdelingen zijn vrijgegeven voor magazijnactiviteiten.
 
 > [!NOTE]
-> Als u in uw magazijn met cross-docking en opslaglocaties werkt, kunt u voor elke regel u zien hoeveel artikelen in de cross-dockopslaglocaties zijn geplaatst. Deze aantallen worden automatisch berekend wanneer de velden op de verzending worden bijgewerkt. Als dit de artikelen voor de voorbereide verzending zijn, kunt u een pick maken voor alle regels en de verzendingen vervolgens voltooien. Zie [Procedure: Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
+> Als u in uw magazijn met cross-docking en opslaglocaties werkt, kunt u voor elke regel u zien hoeveel artikelen in de cross-dockopslaglocaties zijn geplaatst. Deze aantallen worden automatisch berekend wanneer de velden op de verzending worden bijgewerkt. Als dit de artikelen voor de voorbereide verzending zijn, kunt u een pick maken voor alle regels en de verzendingen vervolgens voltooien. Zie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Artikelen verzenden met een verkooporder
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stappen zijn vergelijkbaar voor inkoopretourorders, serviceorders en uitgaande transferorders.  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
-2. Open een bestaande verkooporder of maak een nieuwe. Zie [Procedure: Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+2. Open een bestaande verkooporder of maak een nieuwe. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Voer in het veld **Te verzenden aantal** het aantal in dat u hebt ontvangen.
 
     De waarde in het veld **Verzonden aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke verzending is, is de waarde lager dan de waarde in het veld **Aantal**.
@@ -91,12 +91,12 @@ Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geop
     De velden **Te verzenden aantal** en **Documentstatus** op de kop van het verzenddocument worden bijgewerkt. De gepickte artikelen zijn niet meer beschikbaar voor een andere verzending of voor interne bewerkingen.
 7. Druk de verzenddocumenten af, bereid de zending voor en boek de zending.
 
-Zie [Procedure: Artikelen picken voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md) voor meer informatie over het picken voor magazijnverzendingen.
+Zie [Artikelen picken voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md) voor meer informatie over het picken voor magazijnverzendingen.
 
-U kunt in het pickvoorstel verschillende pickinstructies combineren tot één instructie (voor verschillende verzendingen) en zo de artikelen in het magazijn nog efficiënter picken. Zie [Procedure: picks plannen in het voorstel](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.
+U kunt in het pickvoorstel verschillende pickinstructies combineren tot één instructie (voor verschillende verzendingen) en zo de artikelen in het magazijn nog efficiënter picken. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.
 
 > [!NOTE]
-> Als u de ontvangst van bepaalde artikelen in het magazijn afwacht en met cross-docken werkt, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] voor elke verzend- of pickvoorstelregel het aantal van het artikel in de cross-dockopslaglocatie. Dit veld wordt bijgewerkt telkens wanneer u het verzenddocument of het voorstel opent of sluit. Zie [Procedure: Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
+> Als u de ontvangst van bepaalde artikelen in het magazijn afwacht en met cross-docken werkt, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] voor elke verzend- of pickvoorstelregel het aantal van het artikel in de cross-dockopslaglocatie. Dit veld wordt bijgewerkt telkens wanneer u het verzenddocument of het voorstel opent of sluit. Zie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

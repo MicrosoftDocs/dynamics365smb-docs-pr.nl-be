@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 27f3dd2e3ff6b15798c9d483480f4443992dc024
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
@@ -70,7 +70,7 @@ De volgende tabel toont de artikelvereffeningspost die wordt gemaakt wanneer u e
   
 |Boekingsdatum|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|Artikelpostnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
   
 ## <a name="inventory-decrease"></a>Negatieve voorraadmutatie  
 Wanneer u een negatieve voorraadmutatie boekt, wordt een artikelvereffeningspost gemaakt die de negatieve voorraadmutatie koppelt aan een positieve voorraadmutatie. Deze koppeling wordt door de waarderingsmethode van het artikel gebruikt als een richtlijn. Voor artikelen die de waarderingsmethoden FIFO, Standaard en Gemiddeld gebruiken, wordt de koppeling gebaseerd op het FIFO-principe. De negatieve voorraadmutatie wordt vereffend met de positieve voorraadmutatie met de vroegste boekingsdatum. Voor artikelen die de waarderingsmethoden LIFO gebruiken, wordt de koppeling gebaseerd op het LIFO-principe. De negatieve voorraadmutatie wordt vereffend met de positieve voorraadmutatie met de meest recente boekingsdatum.  
@@ -84,8 +84,8 @@ De volgende tabel toont de twee artikelvereffeningsposten die resulteren uit res
   
 |Boekingsdatum|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|Artikelpostnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|03-01-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|03-01-20|1|2|-5|2|  
   
 ## <a name="fixed-application"></a>Vaste toepassing  
 U maakt een vaste vereffening wanneer u opgeeft dat de kosten van een positieve voorraadmutatie moeten worden vereffend met een specifieke negatieve voorraadmutatie, of andersom. De vaste vereffening beïnvloedt de resterende aantallen van de posten, en zorgt tevens voor een tegenboeking van de precieze kosten van de oorspronkelijke post waarmee of waarnaar u vereffent.  
@@ -103,7 +103,7 @@ De volgende tabel toont artikelposten die afkomstig zijn uit het scenario.
   
 |**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Artikelpostnr.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|04-01-20|Inkoop|10|10.00|0|  
+|04-01-20|Inkoop|10|10.00|1|  
 |05-01-20|Inkoop|10|20.00|2|  
 |06-01-20|Inkoop (retour)|-10|-20,00|3|  
   
@@ -113,7 +113,7 @@ De volgende tabel toont de artikelvereffeningspost die resulteert uit de vaste v
   
 |Boekingsdatum|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|Artikelpostnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06-01-20|0|3|10|3|  
+|06-01-20|1|3|10|3|  
   
 De kosten van de tweede inkoop, LV 20,00, worden dan op de juiste wijze doorgegeven aan de inkoopretour.  
   
@@ -130,8 +130,8 @@ De volgende tabel toont het resultaat van het scenario op de waardeposten van he
   
 |Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|0|200.00||Nr.|0|0|  
-|01-01-20|Inkoop|0|1000.00||Nee|2|2|  
+|01-01-20|Inkoop|1|200.00||Nr.|1|1|  
+|01-01-20|Inkoop|1|1000.00||Nee|2|2|  
 |01-01-20|Inkoop|-1|-1000|2|Nee|3|3|  
 |01-01-20|Inkoop|1|100.00||Nee|4|4|  
 |01-01-20|Verkoop|-2|-300,00||Ja|5|5|  
@@ -142,8 +142,8 @@ De volgende tabel toont het resultaat van de waardeposten van het artikel als st
   
 |Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|0|200.00||Nr.|0|0|  
-|01-01-20|Inkoop|0|1000.00||Nee|2|2|  
+|01-01-20|Inkoop|1|200.00||Nr.|1|1|  
+|01-01-20|Inkoop|1|1000.00||Nee|2|2|  
 |01-01-20|Inkoop|-1|433,33||Ja|3|3|  
 |01-01-20|Inkoop|1|100.00||Nee|4|4|  
 |01-01-20|Verkoop|-2|866,67||Ja|5|5|  
@@ -169,7 +169,7 @@ De volgende tabel toont het resultaat van scenariostappen 1 t/m 3 voor de waarde
   
 |Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|0|1000.00||0|0|  
+|01-01-20|Inkoop|1|1000.00||1|1|  
 |01-02-20|Verkoop|-1|1000.00||2|2|  
 |01-03-20|Verkoop (creditnota)|1|1000|2|3|3|  
   
@@ -177,16 +177,16 @@ De volgende tabel toont de waardepost die resulteert uit scenariostap 4, het boe
   
 |Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-04-20|(Artikeltoeslag)|0|100.00||0|4|  
+|01-04-20|(Artikeltoeslag)|1|100.00||1|4|  
   
 De volgende tabel toont het effect van de exacte kostenterugboeking op de waardeposten van het artikel.  
   
 |Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|0|1000.00||0|0|  
+|01-01-20|Inkoop|1|1000.00||1|1|  
 |01-02-20|Verkoop|-1|1100.00||2|2|  
 |01-03-20|Verkoop (creditnota)|1|1100.00|2|3|3|  
-|01-04-20|(Artikeltoeslag)|0|100.00||0|4|  
+|01-04-20|(Artikeltoeslag)|1|100.00||1|4|  
   
 Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert, worden de toegenomen kosten van de inkooppost als gevolg van de artikeltoeslag doorgestuurd naar de verkooppost volgnummer 2. De verkooppost stuurt vervolgens deze verhoogde kosten door naar de verkoopcreditpost (volgnummer 3). Het eindresultaat is dat de kosten correct zijn tegengeboekt.  
   
@@ -210,8 +210,8 @@ De volgende tabel toont het effect van de transfer op de waardeposten van het ar
   
 |Boekingsdatum|Artikelboekingssoort|Vestiging|Gewaardeerd aantal|Tot. werk. kosten|Postnr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|BLAUW|0|10.00|0|  
-|01-01-20|Inkoop|BLAUW|0|20.00|2|  
+|01-01-20|Inkoop|BLAUW|1|10.00|1|  
+|01-01-20|Inkoop|BLAUW|1|20.00|2|  
 |01-02-20|Transfer|BLAUW|-1|15.00|3|  
 |01-02-20|Transfer|ROOD|1|15.00|4|  
   
@@ -225,7 +225,7 @@ De volgende tabel toont het effect van de transfer op de waardeposten van het ar
   
 |Boekingsdatum|Artikelboekingssoort|Vestiging|Gewaardeerd aantal|Tot. werk. kosten|Postnr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|BLAUW|0|10.00|0|  
+|01-01-20|Inkoop|BLAUW|1|10.00|1|  
 |01-02-20|Transfer|BLAUW|-1|10.00|2|  
 |01-02-20|Transfer|ROOD|1|10.00|3|  
   

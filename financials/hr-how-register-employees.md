@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Procedure: Werknemers registreren
+# <a name="register-employees"></a>Werknemers registreren
 Als u de Human Resources-functionaliteit wilt gebruiken, moet u eerst elke werknemer registreren door een kaart met alle kern- en bijbehorende gegevens te maken.
 
 U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de gegevens over uw werknemers up-to-date te houden, maakt u de personeelsadministratie eenvoudiger. Stel bijvoorbeeld dat het adres van een werknemer verandert, dan kunt u dit registreren op de werknemerskaart.
@@ -27,7 +27,7 @@ U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de gegeve
 In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maakt en hoe u twee soorten werknemerdetails aan een werknemer toewijst. Daarnaast kunt u verschillende andere relevante informatie, zoals kwalificaties en redenen voor inactiviteit, toewijzen. U kunt werknemergegevens toewijzen door een veld of een actie te kiezen in het venster **Werknemerskaart**.
 
 > [!NOTE]  
-> U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** in het venster **Werknemer**. Zie voor meer informatie [Procedure: uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
+> U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** in het venster **Werknemer**. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Werknemers instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werknemers** in en klik vervolgens op de gerelateerde koppeling.
@@ -57,7 +57,7 @@ U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bi
 5. Herhaal stap 4 voor elk alternatief adres.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
+[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)

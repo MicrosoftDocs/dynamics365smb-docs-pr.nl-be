@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2185a1fc40ddae772e20994f6531b02d7e703e17
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-budgets-for-fixed-assets"></a>Procedure: Budgetten beheren voor vaste activa
+# <a name="manage-budgets-for-fixed-assets"></a>Budgetten voor vaste activa beheren.
 U kunt gebudgetteerde vaste activa instellen. Hiermee kunt u bijvoorbeeld verwachte aan- en verkopen opnemen in lijsten.  
 
 Als u de gebudgetteerde resultaten, de gebudgetteerde balans en het kasbudget wilt voorbereiden, hebt u informatie nodig over toekomstige investeringen, buitengebruikstellingen en afschrijvingen van vaste activa. U kunt deze informatie vinden in de lijst **Vast activum - Geschatte waarde**. Voordat u deze lijst afdrukt, moet u het budget voorbereiden.  
-
-> [!NOTE]  
->   Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>De aanschafkosten van een vast activum budgetteren
 U kunt een budget voorbereiden door kaarten in stellen voor de vaste activa die u in de toekomst wilt kopen. De gebudgetteerde vaste activa worden ingesteld als gewone vaste activa instellen, maar deze moeten zo worden ingesteld dat ze niet naar het grootboek worden geboekt.
@@ -35,7 +32,7 @@ Wanneer u de aanschafkosten boekt, voert u het nummer van het gebudgetteerde vas
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vaste activa** in en klik vervolgens op de gerelateerde koppeling.
 2. Als u een nieuwe VA-kaart wilt maken voor het gebudgetteerde vaste activum, kiest u de actie **Nieuw**.
 3. Schakel het selectievakje **Gebudgetteerd activum** in om boekingen naar het grootboek te voorkomen.
-4. Vul de overige velden in, wijs een afschrijvingsboek toe en boek vervolgens de eerste aanschafkosten met het gebudgetteerde vaste activum dat in het veld **VA-nr. (budget)** op de dagboekregel is ingevoerd Zie [Procedure: Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
+4. Vul de overige velden in, wijs een afschrijvingsboek toe en boek vervolgens de eerste aanschafkosten met het gebudgetteerde vaste activum dat in het veld **VA-nr. (budget)** op de dagboekregel is ingevoerd Zie [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>De buitengebruikstelling van een vast activum budgetteren
 Als u activa binnen de budgetperiode wilt verkopen, kunt u informatie over verkoopprijzen en -datums opgeven.

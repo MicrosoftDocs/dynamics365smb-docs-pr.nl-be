@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Serviceboekingen
@@ -23,7 +23,7 @@ Met de functionaliteit voor serviceboekingen kunt u uw documenten op een effici�
 > [!NOTE]  
 >  Het volgende beschrijft serviceboekingen, ongeacht hoe artikelen fysiek worden verwerkt in het magazijn.  
 >   
->  Op een locatie waarvoor magazijnverwerking niet is ingesteld, boekt u rechtstreeks vanuit het venster **Serviceregels**. In vestigingen met magazijnverwerking, worden de beschreven boekingen, met uitzondering van verzenden en verbruiken, indirect uitgevoerd met variërende verzendfuncties, afhankelijk van de instellingen. Zie voor meer informatie [Procedure: artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Op een locatie waarvoor magazijnverwerking niet is ingesteld, boekt u rechtstreeks vanuit het venster **Serviceregels**. In vestigingen met magazijnverwerking, worden de beschreven boekingen, met uitzondering van verzenden en verbruiken, indirect uitgevoerd met variërende verzendfuncties, afhankelijk van de instellingen. Zie voor meer informatie [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Verzenden  
 Met de optie Verzenden kunt u de betreffende artikelen en perioden registreren die zijn ingevoerd op de regels van een serviceorder nadat de service is uitgevoerd. Er wordt een geboekte verzending gemaakt en het uit voorraad halen van de artikelen en verzenden hiervan naar de klanten wordt bijgewerkt in de voorraadmodule en in andere modules in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit houdt in dat er artikelposten, waardeposten, serviceposten en garantieposten worden geproduceerd.  
@@ -56,6 +56,6 @@ In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruik
     Het venster **Serviceorderstatistiek** verschijnt. Het venster bevat informatie over aantallen, bedragen, btw, kosten, winst en kredietlimiet voor de klant voor het geboekte document.
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Serviceorders boeken](service-how-to-post-service-orders.md)   
-[Procedure: Serviceorders maken](service-how-to-create-service-orders.md)
+[Serviceorders boeken](service-how-to-post-service-orders.md)   
+[Serviceorders maken](service-how-to-create-service-orders.md)
 

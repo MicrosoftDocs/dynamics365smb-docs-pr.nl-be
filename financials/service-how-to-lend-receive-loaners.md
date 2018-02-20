@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>Procedure: Uitleenartikelen uitlenen en ontvangen
+# <a name="lend-and-receive-loaners"></a>Uitleenartikelen uitlenen en ontvangen
 U kunt uitleenartikelen uitlenen aan klanten als tijdelijke vervanging van serviceartikelen die u voor service hebt ontvangen.  
   
 ## <a name="to-lend-a-loaner-item"></a>Uitleenartikelen uitlenen    
@@ -47,5 +47,5 @@ In het venster **Algemeen Serviceopmerking** kunt u opmerkingen over geregistree
 5. Voer in het veld **Opmerking** de opmerkingen in. U kunt maximaal 80 tekens invoeren. Als u extra tekst wilt invoeren, gaat u naar de volgende regel. U kunt zoveel regels invullen als u nodig hebt.  
   
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Uitleenprogramma instellen](service-how-setup-loaner-program.md)   
+[Uitleenprogramma instellen](service-how-setup-loaner-program.md)   
 

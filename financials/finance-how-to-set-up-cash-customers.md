@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>Procedure: Contant betalende klanten instellen
+# <a name="set-up-cash-customers"></a>Contant betalende klanten instellen
 U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkopen waarbij u geen gegevens voor een klantenrekening hoeft in te voeren.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Een contant betalende klant instellen  
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klant** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Maak een nieuwe **klant**-kaart. Zie [Procedure: Nieuwe klanten registreren](sales-how-register-new-customers.md) voor meer informatie.
+2.  Maak een nieuwe **klant**-kaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).
 3.  Selecteer in het veld **Nr.** bijvoorbeeld **Kas** in.  
 4.  Geef in het veld **Naam** bijvoorbeeld **Contante verkoop** op.  
 5.  Vul op het sneltabblad **Facturering** de velden **Klantboekingsgroep** en **Bedrijfsboekingsgroep** in.  
@@ -38,7 +38,7 @@ U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkop
 
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  
-[Procedure: Nieuwe klanten registreren](sales-how-register-new-customers.md)    
+[Nieuwe klanten registreren](sales-how-register-new-customers.md)    
 [Financiën](finance.md)  
 
 

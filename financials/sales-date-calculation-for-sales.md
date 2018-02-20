@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e8bc9e8b99db8afda83edb4aff13f5daf9f5a31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5cb056c7287f4c12b84dcece595a8e97c0a6214
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="date-calculation-for-sales"></a>Datumberekening voor verkoop
-[!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
 
 Als de klant om een specifieke leverdatum heeft verzocht, wordt berekend op welke datum de artikelen moeten kunnen worden gepickt, zodat ze op deze datum kunnen worden geleverd.
 
@@ -45,6 +45,6 @@ Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als
 
 ## <a name="see-also"></a>Zie ook  
  [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)   
- [Procedure: ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
+ [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

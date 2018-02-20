@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
-Om u snel aan de slag te helpen, bevat [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] standaardconfiguraties voor de meeste financiële processen. U kunt de configuraties aanpassen aan uw bedrijf. Vanaf de startpagina kunt u bijvoorbeeld gebruik maken van een begeleide instelling om het btw-tarief voor uw locatie in te stellen.  
+Om u snel aan de slag te helpen, bevat [!INCLUDE[d365fin](includes/d365fin_md.md)] standaardconfiguraties voor de meeste financiële processen. U kunt de configuraties aanpassen aan uw bedrijf. Vanaf de startpagina kunt u bijvoorbeeld gebruik maken van een begeleide instelling om het btw-tarief voor uw locatie in te stellen.  
 
 Er zijn echter bepaalde zaken die uzelf moet instellen. Als u bijvoorbeeld dimensies wilt gebruiken als basis voor bedrijfsinformatie.  
 
@@ -30,14 +30,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | --- | --- |
 | Bepaal hoe u uw leveranciers wilt betalen. |[Betalingsmethoden definiëren](finance-payment-methods.md) |
 | Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
-|Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Procedure: Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Stel boekperioden in. |[Procedure: Nieuw boekjaar openen](finance-how-open-new-fiscal-year.md) |
+|Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Stel boekperioden in. |[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md) |
 | Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
-| Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Procedure: Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
+| Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Voeg nieuwe rekeningen aan bestaande rekeningschema's. |[Het rekeningschema instellen](finance-setup-chart-accounts.md) |
 | Stel de BI-diagrammen (Business Intelligence) in om cashflow te analyseren. |[Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md) |
-|Facturering van een klant te schakelen die niet in het systeem is opgenomen.|[Procedure: Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md)|
-| Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Procedure: Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
+|Facturering van een klant te schakelen die niet in het systeem is opgenomen.|[Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md)|
+| Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
@@ -47,5 +47,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en voor boekingsmethoden voor btw instellen
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[d365fin](includes/d365fin_md.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende: 
 
 * Aan wie u verkoopt  
@@ -40,7 +40,20 @@ Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te
 
 Ga als volgt te werk om de begeleide instelling te starten:
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") en voer **Begeleide instelling** in.  
-2. Kies **Btw-instelling**.
+2. Kies **Btw instellen**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>BTW-nummers instellen voor uw land of regio
+Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land of de regio.
+
+Als u btw-nummers wilt instellen, gaat u als volgt te werk:
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") en voer **Landen/regio's** in.
+2. Kies het land of de regio, en kies de actie **Btw-nummernotaties**.
+3. Definieer in het veld **Notaties** de notatie door een of meer van de volgende tekens in te voeren:  
+  
+    |----|----| | # | Vereist een getal van één cijfer. | | @ | Vereist een letter. De tekst is niet hoofdlettergevoelig. | | ? | Staat elk teken toe. |
+  
+    > [!Tip]
+    > U kunt andere tekens gebruiken zolang deze aanwezig zijn in de notatie van het land of de regio. Als u bijvoorbeeld een punt of een streepje wilt opnemen in een reeks cijfers, kunt u de notatie definiëren als ##.####.### of @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Btw-bedrijfsboekingsgroepen instellen
 Met btw-bedrijfsboekingsgroepen worden de markten vertegenwoordigd waarin u zaken doet met klanten en leveranciers en wordt bepaald hoe u btw in elke markt berekent en boekt. Voorbeelden van btw-bedrijfsboekingsgroepen zijn **Binnenlands** en **Europese Unie (EU)**.  
@@ -64,7 +77,7 @@ Ga als volgt te werk om een btw-bedrijfsboekingsgroep in te stellen:
 2. Vul de velden in.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Btw-boekingsgroepen in btw-boekingsinstellingen combineren
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden btw-bedragen berekend op verkopen en inkopen op basis van btw-boekingsinstellingen, die combinaties zijn van btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen. Voor elke combinatie kunt u het btw-percentage, het soort btw-berekening en grootboekrekeningen opgeven voor het boeken van btw voor verkopen, inkopen en btw-verlegging. U kunt ook opgeven of btw moet worden herberekend wanneer een betalingskorting wordt toegepast of ontvangen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] In  worden btw-bedragen berekend op verkopen en inkopen op basis van btw-boekingsinstellingen, die combinaties zijn van btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen. Voor elke combinatie kunt u het btw-percentage, het soort btw-berekening en grootboekrekeningen opgeven voor het boeken van btw voor verkopen, inkopen en btw-verlegging. U kunt ook opgeven of btw moet worden herberekend wanneer een betalingskorting wordt toegepast of ontvangen.  
 
 U kunt zo veel combinaties instellen als u nodig hebt. Als u combinaties van btw-boekingsinstellingen met soortgelijke kenmerken wilt groeperen, kunt u een **Btw-identificatie** definiëren voor elke groep en de identificatie toewijzen aan de groepsleden.
 
@@ -235,4 +248,4 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 ## <a name="see-also"></a>Zie ook  
 [Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)  
 [Procedure: Btw rapporteren aan een belastingdienst](finance-how-report-vat.md)  
-[Procedure: Met btw werken bij verkoop en inkoop](finance-work-with-vat.md)  
+[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  

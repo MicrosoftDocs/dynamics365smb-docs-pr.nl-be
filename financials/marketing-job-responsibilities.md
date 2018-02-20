@@ -13,13 +13,13 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Procedure: Functiegroepen instellen voor contactpersonen
+# <a name="set-up-job-responsibilities-for-contact-persons"></a>Functiegroepen instellen voor contactpersonen
 U kunt informatie over de functiegroepen van contactpersonen toevoegen om aan te geven waar de contactpersoon verantwoordelijk voor is binnen het bedrijf, bijvoorbeeld IT, beheer of productie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
 
 Functiegroepen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de functiegroepcode. U hoeft deze stap slechts eenmaal uit te voeren voor elke functiegroep. Als u een functiegroep hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
@@ -41,7 +41,7 @@ Herhaal deze stappen om het gewenste aantal functiegroepen toe te wijzen. U kunt
 
 Het aantal functiegroepen dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal functiegroepen** in het gedeelte **Segmentatie** in het venster **Contact**.
 
-Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Procedure: Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
+Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen maken](marketing-create-contact-persons.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
@@ -34,7 +34,7 @@ In deze procedure worden de volgende taken omschreven:
 ### <a name="prerequisites"></a>Vereisten  
 U moet het volgende doen om deze procedure uit te voeren:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installeren.  
 - De cashflowvoorstelregels worden geregistreerd.  
 
 ## <a name="roles"></a>Rollen  
@@ -62,7 +62,7 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
 ### <a name="to-set-up-account-schedule-lines"></a>Nieuwe rapportageschemaregels instellen  
 
 1.  In het venster **Rapportageschema's** selecteert u de nieuwe naam voor het rapportageschema **Prognose** dat u hebt gemaakt. Klik op het tabblad **Start** in de groep **Verwerken** op **Rekeningschema bewerken**.  
-2.  Voer in het venster **Account Schedule** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
+2.  Voer in het venster **Rapportageschema** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
 
     > [!NOTE]  
     >  Met de functie **CF rekeningen invoegen** kunt u snel de cashflowrekeningen in het schema met cashflowrekeningen markeren en deze naar rapportageschemaregels kopiëren.  
@@ -88,7 +88,7 @@ Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.
 3.  Kies de actie **Afdrukken** om de cashflowprognose af te drukken.  
 
 ## <a name="see-also"></a>Zie ook  
- [Procedure: Werken met rapportageschema's](bi-how-work-account-schedule.md)   
+ [Werken met rekeningschema's](bi-how-work-account-schedule.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

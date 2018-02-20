@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Procedure: Serviceprocessen configureren
+# <a name="configure-service-processes"></a>Serviceprocessen configureren
 Hier volgende enkele voorbeelden van de instellingen die u op processen voor servicebeheer kunt toepassen:  
   
 * Enkele algemene instellingen voor verschillende processen, zoals waarschuwingen, volgende serviceberekeningen voor serviceartikelen, het te evalueren starttarief, het te gebruiken probleemrapportageniveau, enzovoort.  
@@ -30,13 +30,13 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Algemene en verplichte instellingen opgeven
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Service-instellingen** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Probleemrapportage instellen](service-how-setup-fault-reporting.md)  
-[Procedure: Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
-[Procedure: Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
-[Procedure: Aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
-[Procedure: Richtlijnen voor troubleshooting instellen](service-how-setup-troubleshooting.md)  
+[Foutrapportage instellen](service-how-setup-fault-reporting.md)  
+[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
+[Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
+[Aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
+[Troubleshooting instellen](service-how-setup-troubleshooting.md)  
 [CRM - Service](service-service.md)  
 

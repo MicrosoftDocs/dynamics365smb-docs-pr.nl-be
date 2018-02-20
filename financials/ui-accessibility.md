@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Toegankelijkheid en sneltoetsen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/
 -   Ondersteuning voor algemene ondersteunende technologieën  
 
 ##  <a name="Keyboard"></a> Sneltoetsen in de browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de sneltoetsen die door de meeste webbrowsers worden ondersteund. De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  ondersteunt de sneltoetsen die door de meeste webbrowsers worden ondersteund. De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.  
 
 |Actie|Drukken|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/
  Een omschrijvende tekst voor afbeeldingen wordt ingesteld met het kenmerk ALT in de IMG-tag. Een omschrijvende tekst voor hyperlinks wordt ingesteld met het titelkenmerk in de A-tag.  
 
 ##  <a name="AssistiveTech"></a> Ondersteunende technologieën  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware. Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware. Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's.  
 
 ## <a name="for-more-accessibility-information"></a>Meer informatie over toegankelijkheid  
 Meer informatie over toegankelijkheid voor Microsoft-producten en ondersteunende technologieën vindt u op de site [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Werken met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
 

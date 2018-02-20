@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0c4cf74ef7b0b2e48a8608a0859a71b919e46397
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Procedure: Een contact maken van een klant, leverancier of bankrekening
+# <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Een klant, leverancier of bankrekening maken van een contact
 Mogelijk wilt u een aantal van uw bestaande contacten vastleggen als klanten, leveranciers of bankrekeningen. Als u een klant, leverancier of bankrekening maakt van een contact, kunt u bestaande gegevens gebruiken. Wanneer u op deze manier een klant, leverancier of bankrekening maakt, wordt deze gesynchroniseerd met het contact. Synchronisatie maakt gegevens die gemeenschappelijk zijn voor contacten en klanten, leveranciers of bankrekeningen hetzelfde.
 
 Voordat u op deze manier contacten kunt vastleggen, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen in het venster **Marketinginstellingen**. Als u contacten vastlegt als bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen in het venster **Grootboekinstellingen**.
@@ -33,11 +33,11 @@ Voordat u op deze manier contacten kunt vastleggen, moet u een zakenrelatiecode 
 De contactgegevens worden nu overgebracht van de kaart **Contact** naar de kaart **Bankrekening**, **Klant**, of **Leverancier**. Mogelijk wilt u specifieke informatie toevoegen aan elk van de kaarten, bijvoorbeeld gegevens over facturering en betaling.
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Contactbedrijven maken](marketing-create-contact-companies.md)  
-[Procedure: Contactpersonen maken](marketing-create-contact-persons.md)  
+[Contactbedrijven maken](marketing-create-contact-companies.md)  
+[Contacten maken](marketing-create-contact-persons.md)  
 [CRM instellen](marketing-setup-marketing.md)  
 [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Procedure: Contacten koppelen aan bestaande klanten, leveranciers of bankrekeningen](marketing-how-link-contact.md)  
+[Contacten koppelen aan bestaande klanten, leveranciers of bankrekeningen](marketing-how-link-contact.md)  
 [Zakenrelaties toewijzen aan een contact](marketing-business-relations.md#AssignBusRelContact)  
-[Werken met Dynamics 365](ui-work-product.md)
+[Werken met Finance and Operations, Business edition](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Basisinstellingen wijzigen
@@ -29,7 +29,7 @@ In het midden vindt u de tegels Activiteiten. Bij Activiteiten worden actuele ge
 
 U kunt ook een lijst met favoriete klanten maken op de startpagina voor de accounts met wie u vaak zaken doet of aan wie u speciale aandacht moet geven. Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te maken om specifieke gegevens weer te geven. Boven aan de startpagina vindt u alle acties die op de huidige inhoud kunnen worden toegepast. Dit kan ook worden samengevouwen en u hoeft alleen te klikken of te tikken binnen het samengevouwen gebied om het opnieuw weer te geven.
 
-Het standaardrolcentrum is **Bedrijfsmanager**, maar u kunt een ander rolcentrum selecteren dat beter aan uw behoeften voldoet. Zie [Procedure: Het rolcentrum wijzigen](change-role.md) voor meer informatie.
+Het standaardrolcentrum is **Bedrijfsmanager**, maar u kunt een ander rolcentrum selecteren dat beter aan uw behoeften voldoet. Zie [Het rolcentrum wijzigen](change-role.md) voor meer informatie.
 
 ## <a name="company"></a>Bedrijf
 Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
@@ -56,6 +56,6 @@ Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt o
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procedure: Het rolcentrum wijzigen](change-role.md)  
+[Het rolcentrum wijzigen](change-role.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
 

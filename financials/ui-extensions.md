@@ -1,6 +1,6 @@
 ---
-title: Extensies installeren om Dynamics 365 Business edition aan te passen | Microsoft Docs
-description: Kom meer te weten over het toevoegen van functionaliteit en het aanpassen van Dynamics 365 Business edition door extensies te installeren.
+title: Extensies installeren om Finance and Operations, Business edition aan te passen | Microsoft Docs
+description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Finance and Operations, Business edition door extensies te installeren.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Dynamics 365, Business edition aanpassen met extensies
+# <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Finance and Operations, Business edition aanpassen met extensies
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
 Wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst start, zijn bepaalde extensies al voor u geïnstalleerd. In de loop van de tijd zullen meer extensies beschikbaar voor u worden gemaakt en u kunt dan zelf bepalen of u de extensie wilt gebruiken of niet.
 
@@ -68,12 +68,13 @@ Microsoft biedt de volgende extensies:
 >  Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)  
-[Procedure: Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md)  
+[De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)  
+[Klantbetalingen inschakelen via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
 [De extensie GetAddress.io UK Postcode instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

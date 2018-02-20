@@ -1,6 +1,6 @@
 ---
 title: Afdelingen en bewerkingsplaatsen instellen | Microsoft Docs
-description: Op een **afdelingskaart** staan alle vaste waarden en behoeften van de desbetreffende productieresource bij elkaar. Op die manier wordt de productie-output van die afdeling bepaald.
+description: Op een **afdelingskaart** staan alle vaste waarden en behoeften van de desbetreffende productieresource bij elkaar. Op die manier wordt de productie-output die op die afdeling wordt uitgevoerd door de kaart bepaald.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procedure: Afdelingen en bewerkingsplaatsen instellen
+# <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 Er wordt onderscheid gemaakt tussen drie soorten capaciteit. Deze zijn hiërarchisch gerangschikt. Elk niveau bestaat uit onderliggende niveaus.  
 
 Het bovenste niveau is de afdelingsgroep. Aan de afdelingsgroepen worden afdelingen toegewezen. Iedere afdeling kan slechts aan één afdelingsgroep worden gekoppeld.
@@ -28,7 +28,7 @@ U kunt aan iedere afdeling meerdere bewerkingsplaatsen toewijzen. Een bewerkings
 
 De geplande capaciteit van een afdeling bestaat uit de beschikbaarheid van de bijbehorende bewerkingsplaatsen en de extra geplande beschikbaarheid van de afdeling. De geplande beschikbaarheid van de afdelingsgroep is dus het totaal van de beschikbaarheid van corresponderende bewerkingsplaatsen en afdelingen.  
 
-De beschikbaarheid wordt opgeslagen in agendaposten. Voordat u afdelingen of bewerkingsplaatsen instelt, kunt u productieagenda's instellen. Zie voor meer informatie [Procedure: Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
+De beschikbaarheid wordt opgeslagen in agendaposten. Voordat u afdelingen of bewerkingsplaatsen instelt, kunt u productieagenda's instellen. Zie voor meer informatie [Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Een afdeling instellen
 Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor het instellen van een bewerkingsplaatsagenda komen overeen, met uitzondering van het sneltabblad **Bewerkingsplaninstelling**.  
@@ -37,7 +37,7 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 2.  Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Afdelingsgroep** de hoger gelegen resourcegroep waaronder de afdeling is georganiseerd, indien van toepassing. Kis de actie **Nieuw** in de vervolgkeuzelijst.  
-5.  Selecteer het veld **Geblokkeerd** als u wilt voorkomen dat de afdeling wordt gebruikt in de verwerking. Dit betekent dat er geen output kan worden geboekt voor een artikel dat in de afdeling wordt geproduceerd. Zie voor meer informatie [Procedure: Productie-output boeken](production-how-to-post-output-quantity.md).
+5.  Selecteer het veld **Geblokkeerd** als u wilt voorkomen dat de afdeling wordt gebruikt in de verwerking. Dit betekent dat er geen output kan worden geboekt voor een artikel dat in de afdeling wordt geproduceerd. Zie voor meer informatie [Productie-output boeken](production-how-to-post-output-quantity.md).
 6.  Voer in het veld **Directe kostprijs** de productiekosten voor deze afdeling in voor één eenheid, zonder daarin andere kostenelementen te betrekken. Deze kosten worden vaak het *tarief directe lonen* genoemd.  
 7.  In het veld **Indirecte kosten %** voert u de algemene bewerkingskosten van het gebruik van de afdeling als percentage van de directe kostprijs. Voor de berekening van de kostprijs wordt dit percentage bij de directe kosten opgeteld.  
 8.  In het veld **Overheadtarief** voert u alle niet-bewerkingskosten van de afdeling, zoals onderhoudskosten, als absoluut bedrag in.  
@@ -68,7 +68,7 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 13.  Definieer in het veld **Capaciteit** of er op de afdeling meer dan één machine of persoon tegelijkertijd aan het werk zijn. Wanneer in [!INCLUDE[d365fin](includes/d365fin_md.md)] niet de module Bewerkingsplaats is geïnstalleerd, moet de waarde in dit veld **1** zijn.  
 14.  Voer in het veld **Efficiëntie** het percentage van de verwachte standaardoutput in dat deze afdeling werkelijk oplevert. Wanneer u hier **100** invoert, betekent dit dat de werkelijke output van de afdeling net zo hoog is als de standaardoutput.  
 15. Schakel het selectievakje **Geconsolideerde agenda** in als u ook bewerkingsplaatsen gebruikt. Hierdoor worden agendaposten berekend op basis van bewerkingsplaatsagenda's.  
-16.  Selecteer een productieagenda in het veld **Productieagendacode**. Zie voor meer informatie [Procedure: Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
+16.  Selecteer een productieagenda in het veld **Productieagendacode**. Zie voor meer informatie [Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
 17.  In het veld **Wachttijd voor bew.** geeft u op hoeveel tijd er moet verstrijken voordat toegewezen werk op deze afdeling kan beginnen. De wachttijd wordt toegevoegd aan de overige niet-productieve tijdselementen, zoals wachttijd na bewerking en transporttijd, die u kunt definiëren op de bewerkingsplanregels die gebruikmaken van deze afdeling.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Voorbeeld - Verschillende bewerkingsplaatsen die aan een afdeling zijn toegewezen
@@ -83,7 +83,7 @@ Als de capaciteit van afdelingen niet moet bijdragen aan de totale capaciteit, k
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Een bewerkingsplaats of afdeling met beperkte capaciteit instellen
 U kunt een beperkte werklast toewijzen aan productieresources die als kritiek worden beschouwd door deze te markeren, in plaats van de onbeperkte werklast die door andere resources worden geaccepteerd. Een resource met beperkte capaciteit kan een afdeling of bewerkingsplaats zijn die als knelpunt wordt beschouwd en waarvoor u een beperkte (begrensde) werklast wilt instellen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt geen ondersteuning voor gedetailleerd werkvloerbeheer. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  biedt geen ondersteuning voor gedetailleerd werkvloerbeheer. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.
 
 In het venster **Capaciteitsbegrensde resource** kunt u instellingen configureren waarmee overbelasting van specifieke resources kan worden voorkomen, en kunt u ervoor zorgen dat alle capaciteit wordt toegewezen als dit de omlooptijd van een productieorder kan verhogen. In het veld **Demping (% van totale capaciteit)** kunt u dempingstijd aan resources toevoegen om bewerkingsplitsen te verkleinen. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.
 
@@ -99,7 +99,7 @@ Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen
 > In het geval van gesplitste bewerkingen wordt de insteltijd slechts eenmaal toegewezen omdat ervan wordt uitgegaan dat enige handmatige aanpassing wordt uitgevoerd om de planning te optimaliseren.
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Productieagenda's maken](production-how-to-create-work-center-calendars.md)  
+[Productieagenda's maken](production-how-to-create-work-center-calendars.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)    
 [Gepland](production-planning.md)   

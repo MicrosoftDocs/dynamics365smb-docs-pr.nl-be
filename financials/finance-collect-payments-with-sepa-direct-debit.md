@@ -1,5 +1,5 @@
 ---
-title: SEPA-incasso in Dynamics 365 | Microsoft Docs
+title: SEPA Incasso in Finance and Operations, Business edition | Microsoft Docs
 description: U kunt betalingen rechtstreeks van de bankrekening van de klant verzamelen volgens de SEPA-indeling.
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
@@ -35,10 +35,10 @@ Met instemming van de klant, kunt u betalingen rechtstreeks vanaf de bankrekenin
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Bankrekening-indelingen, betalingsmethoden en klant overeenkomsten voor automatische incasso van SEPA voorbereiden.|[Procedure: Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Vraag uw bank bedragen van betalingen van bankrekeningen van uw klanten over te brengen naar uw bedrijfsrekening volgens uw instellingen voor automatische incasso van SEPA.|[Procedure: SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Standaard klantverkoopcodes voor automatische incasso-facturen instellen en verkoopfacturen met automatische incasso-informatie genereren wanneer de facturen betaald moeten worden.|[Procedure: Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)|  
-|Betalingen gemaakt als SEPA-incasso's boeken.|[Procedure: SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Bankrekening-indelingen, betalingsmethoden en klantovereenkomsten voor automatische incasso van SEPA voorbereiden.|[Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Vraag uw bank bedragen van betalingen van bankrekeningen van uw klanten over te brengen naar uw bedrijfsrekening volgens uw instellingen voor automatische incasso van SEPA.|[SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Standaard klantverkoopcodes voor automatische incasso-facturen instellen en verkoopfacturen met automatische incasso-informatie genereren wanneer de facturen betaald moeten worden.|[Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)|  
+|Betalingen gemaakt als SEPA-incasso's boeken.|[SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Tegoeden beheren](receivables-manage-receivables.md)

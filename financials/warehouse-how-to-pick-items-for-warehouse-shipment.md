@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-for-warehouse-shipment"></a>Procedure: picken van artikelen voor magazijnverzending
-Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking vereist is, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  
+# <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
+Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  
 
 Een magazijn-pickdocument kan niet van het begin af gemaakt worden, omdat een pick-activiteit altijd onderdeel is van een werkstroom, zowel bij een pull- als bij een push-scenario.  
 
 U kunt magazijn-pickdocumenten op een pull-manier maken door het openen van een leeg document voor magazijnverzending, detecteren van brondocumenten die zijn vrijgegeven voor verzending en vervolgens maken van magazijnpickregels voor deze verzendingen. U kunt de functies **Brondocumenten ophalen** of **Filter gebruiken om brondocumenten op te halen** voor het detecteren van brondocumenten die gereed zijn voor verzending.
 
-U kunt ook het venster **Werkblad Pick** gebruiken om pickregels in de batchmodus te halen en te maken. Zie [Procedure: picks plannen in het voorstel](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.  
+U kunt ook het venster **Werkblad Pick** gebruiken om pickregels in de batchmodus te halen en te maken. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.  
 
 U kunt ook magazijn-pickdocumenten op push-wijze vanuit het venster **Magazijnverzending** maken door **Pick maken** te selecteren.  
 
@@ -37,7 +37,7 @@ U kunt ook magazijn-pickdocumenten op push-wijze vanuit het venster **Magazijnve
 >   
 >  Zie de sectie Op-order-assembleren-artikelen in magazijnverzendingen afhandelen voor meer informatie.  
 >   
->  Zie [Procedure: Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
+>  Zie [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending  
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnpicks** in en klik vervolgens op de gerelateerde koppeling.  
@@ -52,9 +52,9 @@ U kunt ook magazijn-pickdocumenten op push-wijze vanuit het venster **Magazijnve
 
 4.  Als u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
-De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, in het venster **Mag. -verzending**. Zie [Procedure: Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
+De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, in het venster **Mag. -verzending**. Zie [Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
 
-Naast het picken voor brondocumenten zoals beschreven in dit onderwerp kunt u artikelen tussen opslaglocaties nemen en plaatsen zonder te verwijzen naar de brondocumenten. Zie [Procedure: Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+Naast het picken voor brondocumenten zoals beschreven in dit onderwerp kunt u artikelen tussen opslaglocaties nemen en plaatsen zonder te verwijzen naar de brondocumenten. Zie voor meer informatie [Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Op-order-assembleren-artikelen in magazijnverzendingen afhandelen
 In scenario's voor het assembleren op order, wordt het veld **Te verzenden aantal** op magazijnverzendingsregels gebruikt om vast te leggen hoeveel eenheden worden geassembleerd. Het opgegeven aantal wordt vervolgens geboekt als assemblageuitvoer wanneer de magazijnverzending wordt geboekt.

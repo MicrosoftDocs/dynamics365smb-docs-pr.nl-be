@@ -1,6 +1,6 @@
 ---
 title: Verkoopopportunities maken | Microsoft Docs
-description: Hier wordt beschreven hoe u verkoopopportunities maakt vanuit een verkoper of contact in Dynamics 365 Business edition.
+description: Hier wordt beschreven hoe u opportunities maakt vanuit een verkoper of contact in Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Procedure: Verkoopopportunities maken
+# <a name="create-sales-opportunities"></a>Verkoopopportunities maken
 U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten. Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.
 
 U kunt opportunities maken in het venster **Opportunity-overzicht**. Maar u maakt opportunities meestal van het desbetreffende contact of de desbetreffende verkoper.
 
-Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen. Zie voor meer informatie [Procedure: Opportunityverkoopcycli en -fasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Een opportunity maken van een verkoper
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers** in en klik vervolgens op de gerelateerde koppeling.
@@ -45,5 +45,5 @@ Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
-[Werken met Dynamics 365](ui-work-product.md)
+[Werken met Finance and Operations, Business edition](ui-work-product.md)
 

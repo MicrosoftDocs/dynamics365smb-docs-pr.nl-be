@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kosten rapporteren en afstemmen met het grootboek
@@ -30,9 +30,9 @@ Aan het einde van boekhoudperioden (maandelijks, jaarlijks of anderszins) moet e
 |De voorraadwaarde te bekijken van geselecteerde productieorders in uw OHW-voorraad (onderhanden werk), zoals de hoeveelheden en waarden van verbruik, capaciteitgebruik en output in lopende productieorders.|Rapport **Voorraadwaardering - OHW**|  
 |De voorraadwaarde te bekijken van geselecteerde artikelen, inclusief de werkelijke en verwachte kostprijs op de gespecificeerde datum.|Rapport **Voorraadwaard. - Kostenspec.**|  
 |Een lijst te gebruiken om de redenen voor kostenvariaties te analyseren of om inzicht te krijgen in de kostenaandelen van verkochte goederen (KPV).|Rapport **Analyse aandeel in kosten**|  
-|De waardeposten van artikeltransacties periodiek te boeken van voorraadgrootboek naar de gerelateerde grootboekrekeningen om de twee grootboeken in overeenstemming te brengen.|[Procedure: voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Eén venster te gebruiken om de reconciliatie tussen het voorraadgrootboek en het grootboek te controleren.|[Procedure: voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Het OHW-bedrag te bepalen dat geboekt moet worden naar balansrekeningen voor eindrapportage van een periode.|[Procedure: Projectvoortgang en -prestaties bewaken](projects-how-monitor-progress-performance.md)|
+|De waardeposten van artikeltransacties periodiek te boeken van voorraadgrootboek naar de gerelateerde grootboekrekeningen om de twee grootboeken in overeenstemming te brengen.|[Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Eén venster te gebruiken om de reconciliatie tussen het voorraadgrootboek en het grootboek te controleren.|[Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Het OHW-bedrag te bepalen dat geboekt moet worden naar balansrekeningen voor eindrapportage van een periode.|[Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Zie ook  
 [Voorraadwaardering en kostprijsberekening instellen](finance-set-up-inventory-valuation-and-costing.md)  

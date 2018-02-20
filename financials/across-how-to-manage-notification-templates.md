@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Procedure: Berichtsjablonen beheren
+# <a name="manage-notification-templates"></a>Berichtsjablonen beheren
 Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over stappen die ze moeten zetten of om ze te informeren over de status van werkstroomstappen. U stelt in wie berichten ontvangt en wanneer door goedkeuringsgebruikers, een planning van gebruikersberichten en de betrokken werkstroomantwoorden in te stellen om de ontvanger van het bericht te definiëren. Zie voor meer informatie [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md).  
 
  Berichten zijn gebaseerd op sjablonen waarin de lay-out en inhoud van het bericht zijn vastgelegd. U kunt de inhoud van een berichtsjabloon exporteren, bewerken en vervolgens de inhoud importeren in dezelfde of een nieuwe berichtsjabloon. Dit wordt in de volgende procedures beschreven.  
@@ -76,10 +76,10 @@ Parameterwaarden worden automatisch in berichten ingevoegd op basis van het soor
 
 ## <a name="see-also"></a>Zie ook  
  [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)   
- [Procedure: E-mail instellen](madeira-how-setup-email.md)   
- [Procedure: Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)   
- [Procedure: Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
- [Procedure: Werkstromen maken](across-how-to-create-workflows.md)   
+ [E-mail instellen](madeira-how-setup-email.md)   
+ [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)   
+ [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
+ [Werkstromen maken](across-how-to-create-workflows.md)   
  [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)   
  [Werkstroom](across-workflow.md)   
 

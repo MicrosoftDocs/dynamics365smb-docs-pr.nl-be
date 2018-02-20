@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
@@ -77,7 +77,7 @@ Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzendi
 
 |Volgnummer|Artikelpostnr.|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde boeken naar GB** uit om deze voorraadtransacties te reconciliëren met het grootboek.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
@@ -36,7 +36,7 @@ Assemblageartikelen worden gekenmerkt door hun aanvullingsmethode en assemblages
 -   Een assemblagestuklijst maken die assemblageonderdelen en de resource voor het assemblageartikel aangeeft.  
 
 ### <a name="selling-customized-assembly-items"></a>Aangepaste assemblageartikelen verkopen  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt de flexibiliteit om een voorraadaantal en een hoeveelheid voor assembleren op order in te voeren op één verkooporderregel. In deze sectie komen de volgende taken aan bod:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  biedt de flexibiliteit om een voorraadaantal en een hoeveelheid voor assembleren op order in te voeren op één verkooporderregel. In deze sectie komen de volgende taken aan bod:  
 
 -   Er wordt een zuivere ATO-verkooporderregel gemaakt waarbij de volledige aantal niet beschikbaar is en vóór verzending moet worden geassembleerd.  
 -   ATO-items aanpassen.  
@@ -179,10 +179,10 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     |**Soort**|**Nr.**|**Aantal per**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Artikel|80001|0|  
-    |Artikel|80011|0|  
-    |Artikel|80209|0|  
-    |Bron|Tsing|0|  
+    |Artikel|80001|1|  
+    |Artikel|80011|1|  
+    |Artikel|80209|1|  
+    |Bron|Tsing|1|  
 
 6.  Maak het tweede assemblageartikel op basis van de volgende gegevens.  
 
@@ -202,10 +202,10 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     |**Soort**|**Nr.**|**Aantal per**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Artikel|80005|0|  
-    |Artikel|80014|0|  
-    |Artikel|80210|0|  
-    |Bron|Tsing|0|  
+    |Artikel|80005|1|  
+    |Artikel|80014|1|  
+    |Artikel|80210|1|  
+    |Bron|Tsing|1|  
 
 ### <a name="selling-the-assembly-items"></a>De assemblageartikelen verkopen  
 
@@ -237,7 +237,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     |Type|Nr.|Aantal per|  
     |----------|---------|------------------|  
-    |Artikel|80203|0|  
+    |Artikel|80203|1|  
 
 9. Sluit het venster **Op orderregels assembleren**.  
 
@@ -432,10 +432,10 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ## <a name="see-also"></a>Zie ook  
  [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Procedure: artikelen samenstellen](assembly-how-to-assemble-items.md)   
- [Procedure: picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Procedure: op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)   
- [Procedure: artikelen samenstellen](assembly-how-to-assemble-items.md)   
+ [artikelen samenstellen](assembly-how-to-assemble-items.md)   
+ [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)   
+ [artikelen samenstellen](assembly-how-to-assemble-items.md)   
  [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)   
  [Ontwerpdetails: Inkomende magazijnstromen](design-details-internal-warehouse-flows.md)   
  [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)   

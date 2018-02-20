@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Procedure: Serviceorders en creditnota's boeken
+# <a name="post-service-orders-and-credit-memos"></a>Serviceorders en creditnota's boeken
 Wanneer u een serviceorder hebt gemaakt, de benodigde gegevens hebt ingevuld en eventuele wijzigingen hebt aangebracht, kunt u de serviceorder boeken. De order moet minimaal één serviceartikelregel en één serviceregel bevatten voordat u deze kunt boeken. Als de order meer dan één serviceregel bevat, worden alle regels tegelijk geboekt.  
 
 Als u een groot aantal serviceorders hebt, kunt u tijd besparen door deze tegelijkertijd in een batchverwerking te boeken. U kunt de batchverwerking vanuit elke serviceorder uitvoeren.
@@ -99,7 +99,7 @@ De volgende procedure laat zien hoe u de verzending van serviceregelartikelen ku
   
 4. Kies **Acties**, **Boeken** en **Boeken**. Kies **Verzenden** in het venster dat wordt weergegeven.  
   
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] In  worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
   
 Als magazijnverwerking verplicht is voor de vestiging, dan verloopt het verzenden en verplaatsen van serviceregelartikelen net zoals bij andere brondocumenten. Het enige verschil is dat serviceregelartikelen extern of intern kunnen worden verbruikt, en er daarom twee verschillende functies vereist zijn voor het vrijgeven van orders.  
   
@@ -133,5 +133,5 @@ De volgende procedure beschrijft het boeken van verzendingen rechtstreeks vanuit
   
 ## <a name="see-also"></a>Zie ook  
 [Boeken in CRM - Service](service-service-posting.md)  
-[Procedure: Serviceorders maken](service-how-to-create-service-orders.md)  
+[Een serviceorder maken](service-how-to-create-service-orders.md)  
 

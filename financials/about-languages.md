@@ -1,6 +1,6 @@
 ---
 title: Inhoud in andere talen weergeven | Microsoft Docs
-description: U kunt de Help-inhoud voor Dynamics 365 Business edition in andere talen weergeven.
+description: U kunt de Help-inhoud voor Finance and Operations, Business edition in andere talen weergeven.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 581591949fdfe314ef73ec98eb482dba6d13bf87
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f40fa0b9e5aa423be6a2bfd45d34be428bd8640d
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="languages-of-the-included365finincludesd365finmdmd-docs"></a>Talen van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-documenten

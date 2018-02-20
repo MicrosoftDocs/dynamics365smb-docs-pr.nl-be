@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b4f49d7d103bebeb6512d825a68c5941c8835214
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6151889b4c002fd6e72dbf0a9f5585f039509bbb
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="sales-and-inventory-forecast-for-dynamics-365-business-edition"></a>Verkoop- en voorraadprognose voor Dynamics 365 Business edition 
+# <a name="sales-and-inventory-forecast-for-finance-and-operations-business-edition"></a>Verkoop- en voorraadprognose voor Finance and Operations, Business edition 
 Voorraadbeheer is een wisselwerking tussen klantenservice en het beheren van uw kosten. Enerzijds is voor weinig voorraad minder werkkapitaal nodig, maar anderzijds leiden nulvoorraden mogelijk tot gemiste verkopen. De extensie Verkoop- en voorraadprognose voorspelt potentiële verkopen aan de hand van historische gegevens en biedt een helder overzicht van verwachte nulvoorraden. Op basis van de prognose helpt de extensie aanvullingsaanvragen aan leveranciers te maken en bespaart u tijd.  
 
 ## <a name="setting-up-forecasting"></a>Prognose instellen

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Procedure: opslaglocatie-inhoud maken
+# <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
 Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen in het venster **Opslaglocatie-inhoud** of automatisch met het venster **Opslaglocatie-inhoud maken**.
 
 ## <a name="to-create-bin-content-manually"></a>Opslaglocatie-inhoud handmatig maken  
@@ -56,7 +56,7 @@ Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslag
 In dit voorstel werkt u met een aantal regels voor de inhoud van verschillende opslaglocaties, zodat u een goed overzicht krijgt van de inhoud van de opslaglocaties in een bepaalde zone, gang of rek.  
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Opslagloc.-aanvulling berekenen](warehouse-how-to-calculate-bin-replenishment.md)    
+[Opslaglocatieaanvulling berekenen](warehouse-how-to-calculate-bin-replenishment.md)    
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     

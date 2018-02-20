@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d126a89064c3e899f864e63647e76f5e59e1666
 ms.contentlocale: nl-be
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Bankrekeningen beheren
@@ -31,8 +31,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Als u dit wilt doen | Zie |
 | --- | --- |
 | Bankrekeningen reconciliëren met betrekking tot betalingsverwerking in het venster **Betalingsreconciliatiedagboek**. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Bankrekeningen reconciliëren, inclusief chequeposten als afzonderlijke taak in het venster **Bankreconciliatie**. |[Procedure: Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) |
-| Transacties boeken tussen bankrekeningen in dezelfde valuta of in verschillende valuta's. |[Procedure: Bankfondsen overboeken](bank-how-transfer-bank-funds.md) |
+| Bankrekeningen reconciliëren, inclusief chequeposten als afzonderlijke taak in het venster **Bankreconciliatie**. |[Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) |
+| Transacties boeken tussen bankrekeningen in dezelfde valuta of in verschillende valuta's. |[Bankfondsen overboeken](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Bankieren instellen](bank-setup-banking.md)  
@@ -40,4 +40,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Betalingsverplichtingen beheren](payables-manage-payables.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

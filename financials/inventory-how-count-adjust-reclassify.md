@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Procedure: Voorraad tellen, corrigeren en herindelen
+# <a name="count-adjust-and-reclassify-inventory"></a>Voorraad tellen, corrigeren en herindelen
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
 
 Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, wilt u sommige artikelen misschien vaker tellen omdat ze waardevoller zijn of snel worden omgezet en belangrijk zijn voor het bedrijf. U kunt tellingsperioden instellen en toewijzen aan magazijnartikelen. Voor dit doel kunt u speciale telperioden aan die artikelen toewijzen. Zie voor meer informatie de sectie 'Clustertellingen uitvoeren'.
 
 Als u vastgelegde voorraadhoeveelheden moet aanpassen, in verband met de inventarisatie of om andere redenen, kunt u een artikeldagboek gebruiken om het voorraadgrootboek direct te wijzigen zonder zakelijke transacties te hoeven boeken. U kunt ook een correctie voor één artikel uitvoeren op de artikelkaart.
 
-Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelherindelingsdagboek gebruiken. Typische kenmerken voor herindeling zijn dimensies en verkoopcampagnecodes, maar u kunt ook systeemtransfers uitvoeren door opslaglocatie- en vestigingscodes te herindelen. Speciale stappen zijn van toepassing wanneer u serie- of lotnummers en hun vervaldatums wilt herindelen. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)..
+Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelherindelingsdagboek gebruiken. Typische kenmerken voor herindeling zijn dimensies en verkoopcampagnecodes, maar u kunt ook systeemtransfers uitvoeren door opslaglocatie- en vestigingscodes te herindelen. Speciale stappen zijn van toepassing wanneer u serie- of lotnummers en hun vervaldatums wilt herindelen. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > In geavanceerde magazijnconfiguraties worden artikelen in opslaglocaties geregistreerd als magazijnposten, niet als artikelposten. Daarom voert u inventarisaties, aanpassingen en herindelingen uit in speciale magazijndagboeken die opslaglocaties ondersteunen. Vervolgens gebruikt u speciale functies om de nieuwe of gewijzigde magazijnposten met de gerelateerde artikelposten te synchroniseren om de wijzigingen in voorraadaantallen en waarden weer te geven. Dit wordt hieronder in bepaalde procedures beschreven, waar relevant.
@@ -99,7 +99,7 @@ Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijki
     De gerelateerde velden worden dienovereenkomstig bijgewerkt.
 
     > [!NOTE]  
->   Als de verschillen in de telling worden veroorzaakt door artikelen die met de verkeerde vestigingscode zijn geboekt, moet u de verschillen niet invoeren in het inventarisatiedagboek. Gebruik in plaats daarvan het herindelingsdagboek of een transferorder om items om te leiden naar de juiste vestigingen. Zie voor meer informatie Art.-herindelingsdagboek of Procedure: transferorders maken.
+>   Als de verschillen in de telling worden veroorzaakt door artikelen die met de verkeerde vestigingscode zijn geboekt, moet u de verschillen niet invoeren in het inventarisatiedagboek. Gebruik in plaats daarvan het herindelingsdagboek of een transferorder om items om te leiden naar de juiste vestigingen. Zie voor meer informatie Art.-herindelingsdagboek of Transferorders maken.
 
 2. Als de berekende aantallen wilt aanpassen aan de feitelijk getelde aantallen, kiest u de actie **Boeken**.
 
@@ -169,10 +169,10 @@ Nadat u een fysieke telling hebt uitgevoerd van een artikel in uw voorraadgebied
 
 De voorraad van het artikel is nu aangepast. Het nieuwe aantal wordt weergegeven in het veld **Huidige voorraad** in het venster **Voorraad wijzigen** en in het veld **Voorraad** in het venster **Artikelkaart** .
 
-U kunt ook de functie **Voorraad wijzigen** gebruiken als eenvoudige manier om gekochte artikelen op voorraad te plaatsen als u geen inkoopfacturen of orders gebruikt om uw inkopen te registreren. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).
+U kunt ook de functie **Voorraad wijzigen** gebruiken als eenvoudige manier om gekochte artikelen op voorraad te plaatsen als u geen inkoopfacturen of orders gebruikt om uw inkopen te registreren. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Als u voorraad hebt aangepast, moet u deze bijwerken met de huidige, berekende waarde. Zie [Procedure: Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
+>   Als u voorraad hebt aangepast, moet u deze bijwerken met de huidige, berekende waarde. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Het voorraadaantal van meerdere artikelen in standaardmagazijnconfiguraties aanpassen
 In het venster **Artikeldagboek** kunt u rechtstreeks artikeltransacties boeken om uw voorraad aan te passen in verband met inkopen, verkopen en positieve of negatieve mutaties, zonder documenten te gebruiken.
@@ -184,7 +184,7 @@ Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregel
 3. Kies de actie **Boeken** om de voorraadherwaarderingen te maken.
 
 > [!NOTE]  
->   Als u voorraad hebt aangepast, moet u deze bijwerken met de huidige, berekende waarde. Zie [Procedure: Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
+>   Als u voorraad hebt aangepast, moet u deze bijwerken met de huidige, berekende waarde. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Opslaglocatieaantallen in geavanceerde magazijnconfiguraties aanpassen  
 Als uw locatie met gestuurde opslag en pick werkt, wordt het **Mag.artikeldagboek** gebruikt om, buiten de context van de inventarisatie, alle positieve en negatieve correcties van het artikelaantal te boeken waarbij het gaat om werkelijke winst (bijvoorbeeld "verloren" artikelen die worden teruggevonden) of werkelijk verlies, bijvoorbeeld breekbare artikelen die stukgaan.  
@@ -211,7 +211,7 @@ U moet op basis van toepasselijke intervallen, zoals deze via bedrijfsbeleid zij
 ## <a name="to-reclassify-an-items-lot-number"></a>Het lotnummer van een artikel herindelen
 Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelherindelingsdagboek gebruiken. Typische kenmerken voor herindeling zijn dimensies en verkoopcampagnecodes, maar u kunt ook systeemtransfers uitvoeren door opslaglocatie- en vestigingscodes te herindelen.
 
-Speciale stappen zijn van toepassing wanneer u serie- of lotnummers en hun vervaldatums wilt herindelen. Meer informatie over het dit onderwerp vindt u in [Procedure: Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
+Speciale stappen zijn van toepassing wanneer u serie- of lotnummers en hun vervaldatums wilt herindelen. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
 Het volgende voorbeeld is gebaseerd op een vestigingscode. De stappen zijn vergelijkbaar voor andere soorten artikelkenmerken.
 
@@ -221,7 +221,7 @@ Het volgende voorbeeld is gebaseerd op een vestigingscode. De stappen zijn verge
 4. In het veld **Nieuwe vestiging** voert u de nieuwe vestigingscode voor het artikel in.
 5. Kies de actie **Boeken**.
 
-Zie [Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md) voor het overbrengen van artikelen met volledige controle over verzonden en ontvangen hoeveelheden.
+Zie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md) voor het overbrengen van artikelen met volledige controle over verzonden en ontvangen hoeveelheden.
 
 ## <a name="see-also"></a>Zie ook
 [Voorraad](inventory-manage-inventory.md)

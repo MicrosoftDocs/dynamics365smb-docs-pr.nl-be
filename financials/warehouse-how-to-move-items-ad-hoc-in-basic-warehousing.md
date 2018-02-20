@@ -1,6 +1,6 @@
 ---
 title: Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties | Microsoft Docs
-description: Mogelijk moet u soms items verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, items naar een inspectiegebied te brengen of extra items naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.
+description: Mogelijk moet u soms items verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 38361c04f4ede35afd20e1fe84128fcdbfe104d0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c64734d9bb5cced1dbe9cb9c98385004885fa67
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-items-ad-hoc-in-basic-warehouse-configurations"></a>Procedure: Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
+# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
 Mogelijk moet u soms artikelen verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.  
 
 Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Opslaglocatie verplicht** en eventueel de instellingen **Pick vereist** en **Opslag vereist**, kunt u zonder brondocumenten ad hoc verplaatsingen registreren op de volgende manieren:  
@@ -56,10 +56,10 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
     > [!NOTE]  
     >  Wanneer u de voorraadverplaatsing hebt gemaakt, worden de regels van de interne verplaatsing verwijderd.  
 
-    U voert de rest van de ad hoc verplaatsing in het venster **Voorraadverplaatsing** op dezelfde manier uit als bij een verplaatsing op basis van brondocumenten. Zie voor meer informatie bijvoorbeeld [Procedure: onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    U voert de rest van de ad hoc verplaatsing in het venster **Voorraadverplaatsing** op dezelfde manier uit als bij een verplaatsing op basis van brondocumenten. Zie voor meer informatie bijvoorbeeld [Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Artikelen verplaatsen met het artikelherindelingsdagboek
-In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Procedure: Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).   
+In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).   
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Art.-herindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Definieer op elke dagboekregel de opslaglocaties waaruit en waarnaar u items wilt verplaatsen door de velden **Code Opslaglocatie** en **Code Nieuwe opslaglocatie** in te vullen.  
 

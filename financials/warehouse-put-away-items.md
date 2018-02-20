@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Artikelen opslaan
@@ -32,14 +32,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|De ontvangst van artikelen direct boeken vanuit het inkomende orderdocument en daarmee de opslag registreren omdat er geen magazijnconfiguratie bestaat.|[Procedure: Artikelen ontvangen](warehouse-how-receive-items.md)|  
-|Artikelen per order opslaan en de ontvangst in dezelfde activiteit boeken, in een standaardmagazijnconfiguratie.|[Procedure: artikelen opslaan met een voorraadopslag](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Artikelen opslaan voor meerdere orders in een geavanceerde magazijnconfiguratie.|[Procedure: artikelen opslaan met magazijnopslag](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Geproduceerde of geassembleerde artikelen opslaan in een standaard- of geavanceerde magazijnconfiguratie.|[Procedure: Productie- of assemblageoutput opslaan](warehouse-how-to-put-away-production-output.md)|
-|Geoptimaliseerde opslaginstructies plannen voor een aantal geboekte magazijnontvangsten in plaats van dat magazijnmedewerkers direct naar ontvangsten moeten handelen.|[Procedure: plannen van opslagactiviteiten in werkbladen](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Artikelen terugplaatsen die technisch zijn gepickt met een interne pick, bijvoorbeeld voor een productieorder die niet de verwachte hoeveelheid heeft verbruikt.|[Procedure: Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Een opslagregel splitsen om een deel van de opslaghoeveelheid in beschikbare opslaglocaties te plaatsen omdat de aangewezen locatie vol is.|[Procedure: magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Direct toegang verkrijgen tot voorraadopslag die aan u als magazijnmedewerker is toegewezen.|[Procedure: magazijntoewijzingen zoeken](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|De ontvangst van artikelen direct boeken vanuit het inkomende orderdocument en daarmee de opslag registreren omdat er geen magazijnconfiguratie bestaat.|[Artikelen ontvangen](warehouse-how-receive-items.md)|  
+|Artikelen per order opslaan en de ontvangst in dezelfde activiteit boeken, in een standaardmagazijnconfiguratie.|[Artikelen opslaan met voorraadopslag](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Artikelen opslaan voor meerdere orders in een geavanceerde magazijnconfiguratie.|[Artikelen opslaan met magazijnopslag](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Geproduceerde of geassembleerde artikelen opslaan in een standaard- of geavanceerde magazijnconfiguratie.|[Productie- of assemblageoutput opslaan](warehouse-how-to-put-away-production-output.md)|
+|Geoptimaliseerde opslaginstructies plannen voor een aantal geboekte magazijnontvangsten in plaats van dat magazijnmedewerkers direct naar ontvangsten moeten handelen.|[Plannen van opslagactiviteiten in werkbladen](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Artikelen terugplaatsen die technisch zijn gepickt met een interne pick, bijvoorbeeld voor een productieorder die niet de verwachte hoeveelheid heeft verbruikt.|[Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Een opslagregel splitsen om een deel van de opslaghoeveelheid in beschikbare opslaglocaties te plaatsen omdat de aangewezen locatie vol is.|[Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Direct toegang verkrijgen tot voorraadopslag die aan u als magazijnmedewerker is toegewezen.|[Magazijntoewijzingen zoeken](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

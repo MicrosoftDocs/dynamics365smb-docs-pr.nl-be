@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f52353ec74b10983b0acfd04169d6b146c70eb84
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b8ddfc5e255dbaf20027c27c9c0210e4479a681
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="moving-items"></a>Artikelen verplaatsen
@@ -24,7 +24,7 @@ De magazijnactiviteit van het verplaatsen van artikelen in het magazijn wordt op
 
 Artikelen in één magazijnlocatie moeten soms tussen opslaglocaties worden verplaatst ter ondersteuning van de dagelijkse magazijnactiviteiten die worden uitgevoerd om artikelen in het magazijn te laten stromen. Sommige verplaatsingen houden rechtstreeks verband met interne bewerkingen, zoals een productieorder waarvoor componenten moeten worden geleverd of waarvoor eindartikelen moeten worden opgeslagen. Andere verplaatsingen vinden plaats ten behoeve van magazijnruimteoptimalisatie of als ad hoc verplaatsingen naar en van bewerkingen.
 
-Het verplaatsen van artikelen naar andere vestigingen heeft zijn weerslag op de artikelposten en moet daarom met een transferorder worden uitgevoerd. Zie voor meer informatie [Procedure: Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).  
+Het verplaatsen van artikelen naar andere vestigingen heeft zijn weerslag op de artikelposten en moet daarom met een transferorder worden uitgevoerd. Zie voor meer informatie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).  
 
 Aanvullende verplaatsingstaken zijn bedoeld om periodiek pickopslaglocaties shopflooropslaglocaties aan te vullen en de informatie over de inhoud van de opslaglocaties te wijzigen.  
 
@@ -32,12 +32,12 @@ Aanvullende verplaatsingstaken zijn bedoeld om periodiek pickopslaglocaties shop
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Verplaats artikelen op elk gewenst moment en zonder brondocumenten tussen opslaglocaties in standaardmagazijnconfiguraties.|[Procedure: Artikelen verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Gebruik het magazijnverplaatsingsvoorstel om artikelen in geavanceerde magazijnconfiguraties ad hoc of voor brondocumenten te verplaatsen.|[Procedure: Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Breng componentartikelen naar interne bewerkingen in standaardmagazijnconfiguraties, zoals via brondocumenten voor deze bewerkingen wordt aangevraagd.|[Procedure: Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Plannen welke opslaglocaties moeten worden gevuld of geleegd om een efficiënte stroom te behouden, zoals het legen van een bulkopslaggebied voor een grote ontvangst.|[Procedure: plannen van magazijnverplaatsingen in werkbladen](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|De frequentie bijwerken waarmee opslaglocaties, zoals pickingopslaglocaties, moeten worden aangevuld als gevolg van schommelingen in de vraag.|[Procedure: Opslagloc.-aanvulling berekenen](warehouse-how-to-calculate-bin-replenishment.md)|
-|De magazijnstructuur aanpassen met nieuwe opslaglocatiecodes en -kenmerken.|[Procedure: magazijn herstructureren](warehouse-how-to-restructure-warehouses.md)|  
+|Verplaats artikelen op elk gewenst moment en zonder brondocumenten tussen opslaglocaties in standaardmagazijnconfiguraties.|[Artikelen verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
+|Gebruik het magazijnverplaatsingsvoorstel om artikelen in geavanceerde magazijnconfiguraties ad hoc of voor brondocumenten te verplaatsen.|[Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
+|Breng componentartikelen naar interne bewerkingen in standaardmagazijnconfiguraties, zoals via brondocumenten voor deze bewerkingen wordt aangevraagd.|[Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
+|Plannen welke opslaglocaties moeten worden gevuld of geleegd om een efficiënte stroom te behouden, zoals het legen van een bulkopslaggebied voor een grote ontvangst.|[Plannen van magazijnverplaatsingen in werkbladen](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
+|De frequentie bijwerken waarmee opslaglocaties, zoals pickingopslaglocaties, moeten worden aangevuld als gevolg van schommelingen in de vraag.|[Opslaglocatieaanvulling berekenen](warehouse-how-to-calculate-bin-replenishment.md)|
+|De magazijnstructuur aanpassen met nieuwe opslaglocatiecodes en -kenmerken.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

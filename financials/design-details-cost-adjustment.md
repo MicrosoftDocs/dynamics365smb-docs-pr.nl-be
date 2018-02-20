@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
@@ -171,7 +171,7 @@ Als u de automatische kostenwaardering hebt ingesteld om toe te passen op boekin
 Als u automatische kostenwaardering hebt ingesteld om toe te passen op boekingen die plaatsvinden binnen een dag of een week vanaf de huidige werkdatum, wordt de automatische kostprijsaanpassing niet uitgevoerd, en worden de kosten van de inkoop niet naar de verkoop doorgestuurd totdat u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert.  
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)   
+[Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)   
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
 [Ontwerpdetails: Reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md)   
 [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md)   

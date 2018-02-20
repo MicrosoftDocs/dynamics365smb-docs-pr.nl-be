@@ -1,6 +1,6 @@
 ---
-title: Nieuwe functies in Dynamics 365 Business edition | Microsoft Docs
-description: Het laatste nieuws en updates voor Dynamics 365 Business edition.
+title: Nieuwe functies in Finance and Operations, Business edition | Microsoft Docs
+description: Beschrijft het laatste nieuws en updates voor Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nieuwe functies in Dynamics 365 for Finance and Operations, Business edition
 Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Als u zich nog niet hebt aangemeld voor een evaluatie, doe dit dan nu, laat ons u door de basis begeleiden van wat u kunt doen met [!INCLUDE[d365fin](includes/d365fin_md.md)] en probeer vervolgens dingen op eigen houtje uit. Wanneer u klaar bent, kunt u een leeg bedrijf openen en zelf zaken instellen.  
 
-We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE[d365fin](includes/d365fin_md.md)] en brengen nieuwe [extensies](ui-extensions.md) uit. Voor een overzicht van wat er momenteel verkrijgbaar is en wat op stapel staat verwijzen we u naar de [Dynamics 365 Roadmap](https://roadmap.dynamics.com/); en vergeet niet te filteren op [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE[d365fin](includes/d365fin_md.md)] en brengen nieuwe [extensies](ui-extensions.md) uit. Voor een overzicht van wat er momenteel verkrijgbaar is en wat op stapel staat verwijzen we u naar de [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/); en vergeet niet te filteren op [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Op deze pagina kunt u zien welke gebieden beschikbaar werden toen we nog in de voorbeeldfase waren. Updates voor de toekomst vindt u in de [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+Op deze pagina kunt u zien welke gebieden beschikbaar werden toen we nog in de voorbeeldfase waren. U vindt de updates voortaan in de [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>November 2016: lancering van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Zoals aangekondigd op de blog zijn we nu een service die u gebruikt in uw bedrijf. Maar in deze wijziging worden ook nieuwe mogelijkheden en een nieuwe extensie toegevoegd.
 
 ### <a name="project-management"></a>Projectbeheer
-Als u overstapt op de Suite-ervaring gaat, kunt u projecten beheren en werken met resources, urenstaten en projecten. Wanneer u voor het eerst u aanmeldt met een projectmanagerrol, helpt een begeleide instelling u bij het instellen van het beheer van uw projecten. U kunt in het voorbeeldbedrijf werken met de accounts, projecten, resources e.d. in de voorbeeldgegevens en de functionaliteit leren kennen. Zie [Projecten beheren](projects-manage-projects.md) voor meer informatie.
+U kunt projecten beheren en werken met resources, urenstaten en projecten. Wanneer u voor het eerst u aanmeldt met een projectmanagerrol, helpt een begeleide instelling u bij het instellen van het beheer van uw projecten. U kunt in het voorbeeldbedrijf werken met de accounts, projecten, resources e.d. in de voorbeeldgegevens en de functionaliteit leren kennen. Zie [Projecten beheren](projects-manage-projects.md) voor meer informatie.
 
 ### <a name="fixed-assets"></a>Vaste activa
-In de Suite-ervaring kunt u vaste activa beheren, inclusief de afschrijving en verzekering ervan. Standaardinstellingen worden meegeleverd, maar u kunt deze wijzigen wanneer u wilt. U kunt de inkoop van vaste activa vastleggen in specifieke VA-financieel dagboeken, waarin waarin u vaste activa ook buiten gebruik kunt stellen. De juiste boekhoudingposten worden automatisch gemaakt. Zie [Vaste activa](fa-manage.md) voor meer informatie.
+U kunt vaste activa beheren, inclusief afschrijving en verzekering. Standaardinstellingen worden meegeleverd, maar u kunt deze wijzigen wanneer u wilt. U kunt de inkoop van vaste activa vastleggen in specifieke VA-financieel dagboeken, waarin waarin u vaste activa ook buiten gebruik kunt stellen. De juiste boekhoudingposten worden automatisch gemaakt. Zie [Vaste activa](fa-manage.md) voor meer informatie.
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Nieuwe extensie voor het migreren van gegevens vanuit Dynamics GP
 Als uw bedrijf momenteel Dynamics GP gebruikt, kunt u door middel van een begeleide instelling hoofdrecords migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. U moet gegevens van sommige of alle bestaande klanten, leveranciers, voorraadartikelen en rekeningen geëxporteerd hebben door middel van de Dynamics GP-functionaliteit voor gegevensexport. De extensie Dynamics GP Data Migration wijst automatisch de geëxporteerde gegevens toe, zodat u de bestaande gegevens snel in uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt invoeren. Zie voor meer informatie [De extensie Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
@@ -52,17 +52,17 @@ In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogel
 
 ### <a name="more-flexibility-in-your-sales-processes"></a>Meer flexibiliteit in uw verkoopprocessen
 Deze update voegt meer flexibiliteit toe in wat u verkoopt:
-- U kunt nu niet-voorraadartikelen configureren: artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt. Zie voor meer informatie [Procedure: Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
-- U kunt nu op een verkooporder een artikel markeren voor doorverzending en direct een inkooporder voor dit artikel maken. Zo kunt u een artikel aan een klant verkopen, het inkopen bij de leverancier en het rechtstreeks van de leverancier naar uw klant laten verzenden. Zie voor meer informatie [Procedure: Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md).
+- U kunt nu niet-voorraadartikelen configureren: artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt. Zie voor meer informatie [Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
+- U kunt nu op een verkooporder een artikel markeren voor doorverzending en direct een inkooporder voor dit artikel maken. Zo kunt u een artikel aan een klant verkopen, het inkopen bij de leverancier en het rechtstreeks van de leverancier naar uw klant laten verzenden. Zie voor meer informatie [Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Artikelen in uw voorraad categoriseren
-Met deze update kunt u een hiërarchie van artikelcategorieën maken en artikelkenmerken aan elke artikelcategorie toewijzen. Zie [Procedure: Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
+Met deze update kunt u een hiërarchie van artikelcategorieën maken en artikelkenmerken aan elke artikelcategorie toewijzen. Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
 ### <a name="send-purchase-orders-to-vendors"></a>Inkooporders naar leveranciers zenden
-Nu kunt u inkooporders invoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Procedure: Inkopen vastleggen](purchasing-how-record-purchases.md).
+Nu kunt u inkooporders invoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Verbeterde kwaliteit van inkomende documenten
-U kunt fouten in gescande documenten nu eenvoudig corrigeren voordat u het resulterende document ontvangt. Op deze manier traint u de service om in de toekomst de fouten te voorkomen. Zie [Procedure: OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md) voor meer informatie.
+U kunt fouten in gescande documenten nu eenvoudig corrigeren voordat u het resulterende document ontvangt. Op deze manier traint u de service om in de toekomst de fouten te voorkomen. Zie [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md) voor meer informatie.
 
 ## <a name="august-2016-update"></a>Update augustus 2016
 In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogelijkheden toegevoegd, zoals [aangekondigd op de blog](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -90,10 +90,10 @@ Deze update voegt acties toe aan het leverancierdashboard in de Outlook-invoegto
 De Outlook-invoegtoepassing werkt nu ook in de Outlook-agenda. Vanuit een agenda-afspraak kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen en een overzicht ophalen voor de klant die is gerelateerd aan de afspraak. Vervolgens kunt u een factuur maken voor de services die in de vergadering zijn geleverd, rechtstreeks in de Outlook-agenda zelf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markt voor extensies
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). U kunt in de markt naar extensies zoeken. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). U kunt in de markt naar extensies zoeken. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Expediteurs en artikelkenmerken
-U kunt de kenmerken toevoegen aan uw voorraadartikelen, waardoor het zeer makkelijk wordt om het juiste product te vinden dat uw klant zoekt. Zie [Procedure: Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.  
+U kunt de kenmerken toevoegen aan uw voorraadartikelen, waardoor het zeer makkelijk wordt om het juiste product te vinden dat uw klant zoekt. Zie [Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.  
 
 ### <a name="new-extensions-made-available"></a>Nieuwe extensies beschikbaar
 Met deze update kunt u kiezen uit nog meer extensies in het venster **Extensiebeheer**.
@@ -129,5 +129,5 @@ Belangrijke scenario's om in uw eentje uit te proberen:
 ## <a name="see-also"></a>Zie ook
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/)  
 

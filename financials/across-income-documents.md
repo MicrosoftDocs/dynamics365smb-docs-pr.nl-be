@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Inkomende documenten
@@ -41,7 +41,7 @@ Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste act
 
 | Als u dit wilt doen | Zie |
 | --- | --- |
-| De functie Inkomende documenten instellen en de OCR-service instellen. |[Procedure: Inkomende documenten instellen](across-how-setup-income-documents.md) |
+| De functie Inkomende documenten instellen en de OCR-service instellen. |[Inkomende documenten instellen](across-how-setup-income-documents.md) |
 | Maak inkomende documentrecords, koppel bestanden, gebruik OCR om PDF-bestanden om te zetten in elektronische documenten, converteer elektronische documenten naar documentrecords, controleer inkomende documentrecords uit geboekte verkoop- en inkoopdocumenten. |[Inkomende documenten verwerken](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>Zie ook

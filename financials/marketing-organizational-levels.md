@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b6934b6ea4c07f6e3d90885dfa25d73e14bbb82
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Procedure: Organisatieniveaus instellen voor contactpersonen
+# <a name="set-up-organizational-levels-for-contact-persons"></a>Organisatieniveaus instellen voor contactpersonen
 U kunt organisatieniveaus voor uw contacten gebruiken om op te geven welke functie ze hebben in het bedrijf, bijvoorbeeld directie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
 
 Organisatieniveaus gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de organisatieniveaucode. U hoeft deze stap slechts eenmaal uit te voeren voor elk organisatieniveau. Als u een organisatieniveaucode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
@@ -38,7 +38,7 @@ U kunt organisatieniveaus alleen toewijzen aan contactpersonen, niet aan contact
 
 Nadat u niveaus binnen de organisatie aan de contacten hebt toegewezen, kunt u deze gegevens gebruiken om segmenten te maken.
 
-Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Procedure: Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
+Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  

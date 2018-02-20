@@ -13,22 +13,22 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b92692cc2bafd0c1d15d54f532c9ea62542d52e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Afsluitingsjaren en -perioden
 Aan het einde van een boekjaar moet u een aantal administratieve taken uitvoeren, zoals ervoor zorgen dat alle documenten en dagboeken worden geboekt, dat valutagegevens actueel zijn, de boeken afsluiten, enzovoort. De werkelijke taken hangen van uw bedrijf af.
 
-De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een jaar en periode af te sluiten. 
+De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een jaar en periode af te sluiten.
 
 | Aan | Zie |
 | --- | --- |
-| Geef boekingsdatumbereiken voor het gehele systeem of een specifieke gebruiker op. Afhankelijk van uw zakelijke behoeften kunt u boekingsdatumbereiken voor een gebruiker beperken aan het begin van het periode-eindeproces of erna. |[Procedure: boekingsperioden opgeven](finance-how-specify-posting-periods.md) |
+| Geef boekingsdatumbereiken voor het gehele systeem of een specifieke gebruiker op. Afhankelijk van uw zakelijke behoeften kunt u boekingsdatumbereiken voor een gebruiker beperken aan het begin van het periode-eindeproces of erna. |[Boekingsperioden opgeven](finance-how-specify-posting-periods.md) |
 | Haal een overzicht op van activiteiten die gewoonlijk aan het einde van een periode worden uitgevoerd, zoals het boeken van alle documenten en dagboeken of het uitvoeren van rapportageschema's. |[Perioden afsluiten](year-how-complete-period-end-processes.md) |
-| Wisselkoersen bij te werken en de wisselkoersen van geboekte klant-, leveranciers- en bankrekeningposten aan te passen. |[Procedure: Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
+| Wisselkoersen bij te werken en de wisselkoersen van geboekte klant-, leveranciers- en bankrekeningposten aan te passen. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
 | Kosten en inkomsten te verdelen over rekeningen en dimensies. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
 | Aangifte van btw-bedragen die u hebt geïnd voor verkopen, aan de webservice van de belastingdienst voorbereiden. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
 | Rapporten af te drukken om saldo's van het grootboek, klanten, leveranciers en bankrekeningen te verifiëren voor het sluiten van een periode. |[Rapporten voorbereiden die voorafgaan aan een afsluiting](year-prepare-preclose-reports.md) |
@@ -36,6 +36,9 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 | Rapporten af te drukken die u kunnen helpen bij het maken van financiële overzichten. |[Afsluitingsoverzichten voorbereiden](year-prepare-close-statement.md) |
 
 ## <a name="see-also"></a>Zie ook
-[Procedure: Nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
+[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

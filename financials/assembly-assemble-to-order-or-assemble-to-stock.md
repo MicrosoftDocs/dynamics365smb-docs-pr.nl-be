@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5be31ebb84542e1762ffda9bc76a3aa38485095
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a263eb848556c60702124b37fc62e250b8a954a0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Op voorraad assembleren of Op order assembleren begrijpen
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  
 
 -   Op order assembleren.  
 -   Op voorraad assembleren.  
 
-## Op order assembleren  
+## <a name="assemble-to-order"></a>Op order assembleren  
 U gebruikt meestal *Op order assembleren* voor artikelen die u niet op voorraad wilt hebben omdat u verwacht deze op speciale klantverzoeken af te kunnen stemmen of omdat u de voorraadkosten wilt minimaliseren. De ondersteunende functionaliteit omvat:  
 
 -   De mogelijkheid om assemblage-artikelen aan te passen bij het opnemen van een verkooporder.  
@@ -38,29 +38,29 @@ U gebruikt meestal *Op order assembleren* voor artikelen die u niet op voorraad 
 
 Het artikel wordt in het proces voor assembleren op basis van orders geassembleerd in reactie op een verkooporder, waarbij er sprake is van een één-op-één koppeling tussen de assemblageorder en de verkooporder.  
 
-Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoopregel, wordt er automatisch een assemblageorder gemaakt met een kop die is gebaseerd op de verkoopregel en met regels die zijn gebaseerd op de assemblagestuklijst van het artikel vermenigvuldigd met het bestelaantal. U kunt het venster met **regels voor op order assembleren** gebruiken om de gekoppelde assemblageorderregels weer te geven om u te helpen bij het aanpassen van het assemblageartikel en het vaststellen van een leveringsdatum die is gebaseerd op informatie over de beschikbaarheid van componenten. Zie voor meer informatie [Procedure: op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
+Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoopregel, wordt er automatisch een assemblageorder gemaakt met een kop die is gebaseerd op de verkoopregel en met regels die zijn gebaseerd op de assemblagestuklijst van het artikel vermenigvuldigd met het bestelaantal. U kunt het venster met **regels voor op order assembleren** gebruiken om de gekoppelde assemblageorderregels weer te geven om u te helpen bij het aanpassen van het assemblageartikel en het vaststellen van een leveringsdatum die is gebaseerd op informatie over de beschikbaarheid van componenten. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
->  Hoewel dit geen onderdeel van het standaardproces is, kunt u voorraadaantallen verkopen met aantallen voor assembleren op basis van orders. Zie voor meer informatie [Procedure: voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+>  Hoewel dit geen onderdeel van het standaardproces is, kunt u voorraadaantallen verkopen met aantallen voor assembleren op basis van orders. Zie voor meer informatie [Voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
  Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Assemblage voor order**.  
 
-## Op voorraad assembleren  
+## <a name="assemble-to-stock"></a>Op voorraad assembleren  
  U gebruikt gewoonlijk *Op voorraad assembleren* voor artikelen die u voorafgaand aan de verkoop wilt assembleren, zoals bij het voorbereiden op een kit-campagne, en die u in voorraad wilt houden totdat deze worden besteld. Deze artikelen betreffen meestal standaardartikelen, zoals verpakte kits die u niet aanbiedt voor het aanpassen van aanvragen van klanten.  
 
- In het proces voor het assembleren voor voorraad, wordt het artikel geassembleerd zonder dat er sprake is van een onmiddellijke verkoopvraag en wordt het artikel opgeslagen als een voorraadartikel voor latere verkoop of verbruik als een halffabricaat. Zie [Procedure: Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie. Vanaf dit punt wordt het artikel gepickt en verwerkt als één artikel en wordt het behandeld als een voltooid productieartikel.  
+ In het proces voor het assembleren voor voorraad, wordt het artikel geassembleerd zonder dat er sprake is van een onmiddellijke verkoopvraag en wordt het artikel opgeslagen als een voorraadartikel voor latere verkoop of verbruik als een halffabricaat. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie. Vanaf dit punt wordt het artikel gepickt en verwerkt als één artikel en wordt het behandeld als een voltooid productieartikel.  
 
  Wanneer u een artikel voor het assembleren voor voorraad op een verkoopregel invoert, is de regel hetzelfde als bij elk ander artikel dat uit de voorraad wordt verkocht. Beschikbaarheid wordt bijvoorbeeld alleen gecontroleerd voor het assemblageartikel alleen.  
 
 > [!NOTE]  
->  Hoewel het geen onderdeel is van het standaardproces, kunt u een artikel assembleren ten behoeve van orders wanneer dit is ingesteld voor assembleren voor de voorraad. Zie voor meer informatie [Procedure: op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  Hoewel het geen onderdeel is van het standaardproces, kunt u een artikel assembleren ten behoeve van orders wanneer dit is ingesteld voor assembleren voor de voorraad. Zie voor meer informatie [Op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
  Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Op voorraad assembleren**.  
 
-## Combinatiescenario 's  
+## <a name="combination-scenarios"></a>Combinatiescenario 's  
  Een algemeen beginsel van assemblagebeheer is dat in het geval van combinatie op een verkooporderregel, aantallen voor het assembleren voor orders moeten worden verzonden voor voorraadaantallen.  
 
- Als een assemblageorder is gekoppeld aan een verkooporderregel, wordt de waarde in het veld **Aant. op order assembleren** op de verkooporderregel gekopieerd naar het veld **Te assembleren aantal**, via het veld **Aantal** in de assemblageorderkoptekst. Zie voor meer informatie [Procedure: op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
+ Als een assemblageorder is gekoppeld aan een verkooporderregel, wordt de waarde in het veld **Aant. op order assembleren** op de verkooporderregel gekopieerd naar het veld **Te assembleren aantal**, via het veld **Aantal** in de assemblageorderkoptekst. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
  Daarnaast is de waarde in het veld **Te assembleren aantal** gerelateerd aan het veld **Te verzenden aantal** op de verkooporderregel. Deze relatie beheert de verzending van aantallen voor assembleren voor orders zowel gedeeltelijk als volledig. Dit geldt zowel wanneer het volledige verkoopregelaantal wordt geassembleerd ten behoeve van orders, als in combinatiescenario's waarin een deel van het verkoopregelaantal wordt geassembleerd voor orders en een ander deel wordt verzonden vanuit de voorraad. In het combinatiescenario beschikt u echter over extra flexibiliteit met betrekking tot deelverzending omdat u het veld **Te assembleren aantal** binnen vooraf gedefinieerde regels kunt wijzigen om op te geven hoeveel eenheden vanuit voorraad en hoeveel eenheden via assemblage voor orders moeten worden verzonden.  
 
@@ -85,9 +85,9 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 -   Het minimumaantal dat u kunt invoeren is 1. Dit is omdat u ten minste één eenheid moet assembleren om de vier eenheden te kunnen verkopen, waarbij wordt aangenomen dat de overige drie eenheden in de voorraad beschikbaar zijn.  
 -   Het maximumaantal dat u kunt invoeren is 4. Zo wordt ervoor gezorgd dat u niet meer van dit assembleren-voor-order artikel assembleert dan wat nodig is voor de verkoop.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Procedure: Werken met stuklijsten](inventory-how-work-BOMs.md)  
+[Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

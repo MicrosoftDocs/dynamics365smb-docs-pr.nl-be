@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: nl-be
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Procedure: bewerkingsplannen maken
+# <a name="create-routings"></a>Bewerkingsplannen maken
 Productiebedrijven maken gebruik van bewerkingsplannen om het productieproces te visualiseren en aan te sturen.
 
 Een bewerkingsplan vormt de basis voor procesplanning, capaciteitsplanning, de geplande toewijzing van materiaalbehoeften en productiedocumenten.  
@@ -28,8 +28,8 @@ Voor productiestuklijsten worden de bewerkingsplannen toegewezen aan het product
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
-- Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.
-- Er zijn productieresources ingesteld. Zie voor meer informatie [Procedure: Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
+- Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+- Er zijn productieresources ingesteld. Zie voor meer informatie [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Een bewerkingsplan maken  
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bewerkingsplannen** in en klik op de gerelateerde koppeling.  
@@ -53,13 +53,13 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 12.  Ga door met het invullen van de regels voor alle bewerkingen die betrokken zijn bij de productie van het desbetreffende artikel.  
 13.  Als u regels wilt kopiëren uit een bestaand bewerkingsplan, kiest u de actie **Bewerkingsplan kopiëren** om bestaande regels te selecteren.  
 14. Certificeer het bewerkingsplan.  
-15. U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen door het veld **Bew.-plannr.** in te vullen. Zie [Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md) voor meer informatie.  
+15. U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen door het veld **Bew.-plannr.** in te vullen. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Zorg ervoor dat u de vaste verrekenprijs van het artikel opnieuw berekent vanuit de kaart **Artikel**: kies hiervoor achtereenvolgens de acties **Productie**, **Vaste verrekenprijs berekenen** en **Alle niveaus**.  
 
 ## <a name="to-create-routing-links"></a>Bewerkingsplankoppelingen maken
-Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen koppelen dat hun relatie behouden blijft ook al wordt de productiestuklijst of het bewerkingsplan gewijzigd. Ook kunnen hierdoor gemakkelijker materialen nog op het laatste moment worden afgeboekt, namelijk op het moment dat de specifieke gekoppelde bewerking wordt opgestart in plaats van wanneer de gehele productieorder wordt vrijgegeven. Zie voor meer informatie [Procedure: materialen afboeken op basis van de uitvoer van een bewerking](production-how-to-flush-components-according-to-operation-output.md).  
+Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen koppelen dat hun relatie behouden blijft ook al wordt de productiestuklijst of het bewerkingsplan gewijzigd. Ook kunnen hierdoor gemakkelijker materialen nog op het laatste moment worden afgeboekt, namelijk op het moment dat de specifieke gekoppelde bewerking wordt opgestart in plaats van wanneer de gehele productieorder wordt vrijgegeven. Zie voor meer informatie [Materialen afboeken op basis van de uitvoer van een bewerking](production-how-to-flush-components-according-to-operation-output.md).  
 
 Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is dat beide elementen in een logische processtructuur worden weergegeven wanneer u het venster **Productiedagboek** gebruikt voor het boeken van output en verbruik.  
 
@@ -80,14 +80,14 @@ Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is 
 
     Nu worden bewerkingsplankoppelingen aan bewerkingen toegewezen. Vervolgens moet u de feitelijke koppeling maken door dezelfde codes toe te wijzen aan bepaalde materialen in de desbetreffende productiestuklijst.  
 
-6.  Open de **productiestuklijst** met de onderdelen die aan de bovenstaande bewerkingen moeten worden gekoppeld. Zie voor meer informatie [Procedure: productiestuklijsten maken](production-how-to-create-production-boms.md).
+6.  Open de **productiestuklijst** met de onderdelen die aan de bovenstaande bewerkingen moeten worden gekoppeld. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-production-boms.md).
 7.  Controleer of de status van de stuklijst **In ontwikkeling** is.  
 8.  Op de regel van de desbetreffende productiestuklijst in het veld **Bewerkingsplankoppeling** selecteert u de code die u zojuist hebt toegewezen aan de desbetreffende bewerking.  
 9. Ga door met het toevoegen van materialen aan unieke bewerkingen waar dat nodig is.  
 10. Stel de status van de productiestuklijst in op **Gecertificeerd**.  
 
     > [!NOTE]  
-    >  In een bestaande productieorder kunnen de bewerkingsplankoppelingen pas worden gebruikt nadat u die order hebt vernieuwd. Zie voor meer informatie [Procedure: productieorders maken](production-how-to-create-production-orders.md).  
+    >  In een bestaande productieorder kunnen de bewerkingsplankoppelingen pas worden gebruikt nadat u die order hebt vernieuwd. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
 
 De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zodra u een productieorder maakt of vernieuwt met behulp van de desbetreffende productiestuklijst en het desbetreffende bewerkingsplan. Dit is in het venster **Prod.-ordermaterialen** te zien onder de productieorder. In dit venster kunt u ook op elk moment bewerkingsplankoppelingen verwijderen en toevoegen.
 
@@ -119,7 +119,7 @@ Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan
 De geldigheid van de versie wordt aangegeven in het veld **Begindatum**.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: productiestuklijsten maken](production-how-to-create-production-boms.md)  
+[Productiestuklijsten maken](production-how-to-create-production-boms.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)    
 [Gepland](production-planning.md)   

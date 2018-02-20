@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Meervoudige contracten
@@ -35,7 +35,7 @@ Bij de verwerking van een serviceartikel onder meerdere contracten, kunt u het v
 Bij het gebruik van meervoudige contracten kunt u de volgende voorbeelden in aanmerking nemen.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Meervoudige contracten maken per serviceartikel  
-U kunt handmatig een servicecontract of servicecontractofferte maken voor serviceartikelen die al zijn geregistreerd in niet-geannuleerde contracten van dezelfde klant. Hiervoor volgt u de standaardprocedure voor het maken van servicecontracten en servicecontractoffertes. Zie voor meer informatie [Procedure: Werken met servicecontracten en servicecontractoffertes](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+U kunt handmatig een servicecontract of servicecontractofferte maken voor serviceartikelen die al zijn geregistreerd in niet-geannuleerde contracten van dezelfde klant. Hiervoor volgt u de standaardprocedure voor het maken van servicecontracten en servicecontractoffertes. Zie voor meer informatie [Werken met servicecontracten en servicecontractoffertes](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Als u op een contractregel een serviceartikel toevoegt dat is geregistreerd in andere servicecontracten of servicecontractoffertes, wordt een bericht weergegeven met de waarschuwing dat het serviceartikel al hoort bij een of meer servicecontracten of servicecontractoffertes. Als u dit bericht bevestigt, wordt alle relevante informatie over het serviceartikel gekopieerd naar een nieuwe contractregel.  
   
@@ -47,5 +47,5 @@ U kunt handmatig een serviceorder maken voor een serviceartikel dat is geregistr
   
 ## <a name="see-also"></a>Zie ook  
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
-[Procedure: Serviceorders maken](service-how-to-create-service-orders.md)  
+[Serviceorders maken](service-how-to-create-service-orders.md)  
 

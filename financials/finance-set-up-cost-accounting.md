@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9fb79b0eaeca7428646c67a77b824cbdca7a652b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b652ca286f7b93c82fa5941449be96729a1e95f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cost-accounting"></a>Kostenboekhouding instellen
@@ -26,10 +26,10 @@ Voordat u begint te werken met kostprijsboekhouding, moet u insteltaken uitvoere
 
 |Aan|Zie|  
 |--------|---------|  
-|Maak het kostensoortschema.|[Procedure: kostensoorten instellen](finance-how-to-set-up-cost-types.md)|  
+|Maak het kostensoortschema.|[Kostensoorten instellen](finance-how-to-set-up-cost-types.md)|  
 |Informatie over de verbinding tussen het kostensoort en de grootboekrekening.|[De relatie tussen de kostensoorten en grootboekrekeningen definiëren](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
-|Maak het schema van kostenplaatsen.|[Procedure: kostenplaatsen instellen](finance-how-to-set-up-cost-centers.md)|  
-|Maak het schema van kostenplaatsen.|[Procedure: kostenobjecten instellen](finance-how-to-set-up-cost-objects.md)|  
+|Maak het schema van kostenplaatsen.|[Kostenplaatsen instellen](finance-how-to-set-up-cost-centers.md)|  
+|Maak het schema van kostenplaatsen.|[Kostenobjecten instellen](finance-how-to-set-up-cost-objects.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
