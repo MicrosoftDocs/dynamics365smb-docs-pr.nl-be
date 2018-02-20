@@ -13,36 +13,36 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Procedure: SKU's instellen:
-In SKU's kunt u gegevens opnemen over de artikelen voor een bepaalde vestiging of een bepaalde variantcode.  
+# <a name="set-up-stockkeeping-units"></a><span data-ttu-id="43d63-103">SKU's instellen</span><span class="sxs-lookup"><span data-stu-id="43d63-103">Set Up Stockkeeping Units</span></span>
+<span data-ttu-id="43d63-104">In SKU's kunt u gegevens opnemen over de artikelen voor een bepaalde vestiging of een bepaalde variantcode.</span><span class="sxs-lookup"><span data-stu-id="43d63-104">You can use stockkeeping units to record information about your items for a specific location or a specific variant code.</span></span>  
 
- SKU's zijn een aanvulling op de artikelkaarten. Ze vervangen ze niet, hoewel ze wel zijn gekoppeld. Met SKU's kunt u voor een bepaald artikel onderscheid maken tussen gegevens betreffende een bepaalde vestiging (bijvoorbeeld een magazijn of distributiecentrum) of een bepaalde variant (bijvoorbeeld verschillende opslaglocatienummers of aanvullingsgegevens).  
+ <span data-ttu-id="43d63-105">SKU's zijn een aanvulling op de artikelkaarten.</span><span class="sxs-lookup"><span data-stu-id="43d63-105">Stockkeeping units are a supplement to item cards.</span></span> <span data-ttu-id="43d63-106">Ze vervangen ze niet, hoewel ze wel zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="43d63-106">They do not replace them, although they are related to them.</span></span> <span data-ttu-id="43d63-107">Met SKU's kunt u voor een bepaald artikel onderscheid maken tussen gegevens betreffende een bepaalde vestiging (bijvoorbeeld een magazijn of distributiecentrum) of een bepaalde variant (bijvoorbeeld verschillende opslaglocatienummers of aanvullingsgegevens).</span><span class="sxs-lookup"><span data-stu-id="43d63-107">Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution center, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.</span></span>  
 
-## SKU's instellen  
+## <a name="to-set-up-a-stockkeeping-unit"></a><span data-ttu-id="43d63-108">SKU's instellen</span><span class="sxs-lookup"><span data-stu-id="43d63-108">To set up a stockkeeping unit</span></span>  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
-3.  Vul de velden op de kaart in. De volgende velden zijn vereist: **Artikelnr.**, **Vestigingscode** en/of **variantcode**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1.  <span data-ttu-id="43d63-109">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="43d63-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="43d63-110">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="43d63-110">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="43d63-111">Vul de velden op de kaart in.</span><span class="sxs-lookup"><span data-stu-id="43d63-111">Fill in the fields on the card.</span></span> <span data-ttu-id="43d63-112">De volgende velden zijn vereist: **Artikelnr.**, **Vestigingscode** en/of **variantcode**.</span><span class="sxs-lookup"><span data-stu-id="43d63-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Als u de eerste SKU voor een artikel hebt ingesteld, wordt het selectievakje **SKU bestaat** op de kaart **Artikel** ingeschakeld.  
+<span data-ttu-id="43d63-113">Als u de eerste SKU voor een artikel hebt ingesteld, wordt het selectievakje **SKU bestaat** op de kaart **Artikel** ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="43d63-113">When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** check box on the **Item** card is selected.</span></span>  
 
-Als u meerdere SKU's voor een artikel wilt maken, kunt u de batchverwerking **SKU maken** gebruiken.  
+<span data-ttu-id="43d63-114">Als u meerdere SKU's voor een artikel wilt maken, kunt u de batchverwerking **SKU maken** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="43d63-114">To create several stockkeeping units for an item, use the **Create Stockkeeping Unit** batch job.</span></span>  
 
 > [!NOTE]  
->  De gegevens op de **SKU**-kaart hebben voorrang op de gegevens op de **artikelkaart**.  
+>  <span data-ttu-id="43d63-115">De gegevens op de **SKU**-kaart hebben voorrang op de gegevens op de **artikelkaart**.</span><span class="sxs-lookup"><span data-stu-id="43d63-115">The information on the **Stockkeeping Unit** card has priority over the **Item** card.</span></span>  
 
-## Zie ook  
-[Procedure: Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
-[Voorraad](inventory-manage-inventory.md)  
-[Assemblagebeheer](assembly-assemble-items.md)    
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="43d63-116">Zie ook</span><span class="sxs-lookup"><span data-stu-id="43d63-116">See Also</span></span>  
+[<span data-ttu-id="43d63-117">Nieuwe artikelen registreren</span><span class="sxs-lookup"><span data-stu-id="43d63-117">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="43d63-118">Magazijnbeheer instellen</span><span class="sxs-lookup"><span data-stu-id="43d63-118">Setting Up Warehouse Management</span></span>](warehouse-setup-warehouse.md)  
+[<span data-ttu-id="43d63-119">Magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="43d63-119">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
+[<span data-ttu-id="43d63-120">Voorraad</span><span class="sxs-lookup"><span data-stu-id="43d63-120">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="43d63-121">[Assemblagebeheer](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="43d63-121">[Assembly Management](assembly-assemble-items.md)  </span></span>  
+[<span data-ttu-id="43d63-122">Ontwerpdetails: Magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="43d63-122">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="43d63-123">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="43d63-123">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

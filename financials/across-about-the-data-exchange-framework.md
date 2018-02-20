@@ -11,26 +11,26 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 6df3619f0b458c3215ed5032dd24aabcfe7fe4a6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5da0214548d1bcc2584db681a1974ada8d265ee
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="06b4b-103">Over het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="06b4b-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
-<span data-ttu-id="06b4b-104">De bestandsindeling voor het uitwisselen van gegevens in bankbestanden, elektronische documenten, valutawisselkoersen en andere met ERP-systemen varieert afhankelijk van de aanbieder van het gegevensbestand of de stream en van het land of de regio.</span><span class="sxs-lookup"><span data-stu-id="06b4b-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="06b4b-105"> ondersteunt verschillende bankbestandsindelingen en normen voor gegevensservices.</span><span class="sxs-lookup"><span data-stu-id="06b4b-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="06b4b-106">Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.</span><span class="sxs-lookup"><span data-stu-id="06b4b-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="06b4b-107">Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="06b4b-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="904f8-103">Over het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="904f8-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
+<span data-ttu-id="904f8-104">De bestandsindeling voor het uitwisselen van gegevens in bankbestanden, elektronische documenten, valutawisselkoersen en andere met ERP-systemen varieert afhankelijk van de aanbieder van het gegevensbestand of de stream en van het land of de regio.</span><span class="sxs-lookup"><span data-stu-id="904f8-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="904f8-105"> ondersteunt verschillende bankbestandsindelingen en normen voor gegevensservices.</span><span class="sxs-lookup"><span data-stu-id="904f8-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="904f8-106">Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.</span><span class="sxs-lookup"><span data-stu-id="904f8-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="904f8-107">Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="904f8-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
 
- <span data-ttu-id="06b4b-108">De volgende diagrammen bevatten de architectuur van het kader voor gegevensuitwisseling.</span><span class="sxs-lookup"><span data-stu-id="06b4b-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
+ <span data-ttu-id="904f8-108">De volgende diagrammen bevatten de architectuur van het kader voor gegevensuitwisseling.</span><span class="sxs-lookup"><span data-stu-id="904f8-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
 
  ![Raamwerk voor gegevensuitwisseling-import](media/across-data-exchange/dataexchangeframework_import.png)  
 
  ![Raamwerk voor gegevensuitwisseling-export](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="see-also"></a><span data-ttu-id="06b4b-111">Zie ook</span><span class="sxs-lookup"><span data-stu-id="06b4b-111">See Also</span></span>  
-[<span data-ttu-id="06b4b-112">Gegevens elektronisch uitwisselen</span><span class="sxs-lookup"><span data-stu-id="06b4b-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
-[<span data-ttu-id="06b4b-113">Procedure: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden</span><span class="sxs-lookup"><span data-stu-id="06b4b-113">How to: Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[<span data-ttu-id="06b4b-114">Gegevensuitwisseling instellen</span><span class="sxs-lookup"><span data-stu-id="06b4b-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
-[<span data-ttu-id="06b4b-115">Gegevens uitwisselen</span><span class="sxs-lookup"><span data-stu-id="06b4b-115">Exchanging Data</span></span>](across-exchange-data.md)  
-[<span data-ttu-id="06b4b-116">Inkomende documenten</span><span class="sxs-lookup"><span data-stu-id="06b4b-116">Incoming Documents</span></span>](across-income-documents.md)  
-[<span data-ttu-id="06b4b-117">Algemene bedrijfsfunctionaliteit</span><span class="sxs-lookup"><span data-stu-id="06b4b-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
+## <a name="see-also"></a><span data-ttu-id="904f8-111">Zie ook</span><span class="sxs-lookup"><span data-stu-id="904f8-111">See Also</span></span>  
+[<span data-ttu-id="904f8-112">Gegevens elektronisch uitwisselen</span><span class="sxs-lookup"><span data-stu-id="904f8-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
+[<span data-ttu-id="904f8-113">XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden</span><span class="sxs-lookup"><span data-stu-id="904f8-113">Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[<span data-ttu-id="904f8-114">Gegevensuitwisseling instellen</span><span class="sxs-lookup"><span data-stu-id="904f8-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
+[<span data-ttu-id="904f8-115">Gegevens uitwisselen</span><span class="sxs-lookup"><span data-stu-id="904f8-115">Exchanging Data</span></span>](across-exchange-data.md)  
+[<span data-ttu-id="904f8-116">Inkomende documenten</span><span class="sxs-lookup"><span data-stu-id="904f8-116">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="904f8-117">Algemene bedrijfsfunctionaliteit</span><span class="sxs-lookup"><span data-stu-id="904f8-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
 
