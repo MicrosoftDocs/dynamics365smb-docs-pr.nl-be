@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
@@ -39,7 +39,7 @@ Als u geen aangevraagde leverdatum op een verkooporderregel hebt opgegeven of al
 ## <a name="about-order-promising"></a>Informatie over ordertoezeggingen
 Met de functionaliteit Ordertoezegging kunt u orders toezeggen, die op een bepaalde datum moeten worden verzonden of geleverd. De datum voor ATP (Available To Promise) of CTP (Capable To Promise) van een artikel wordt berekend en er worden orderregels gemaakt voor de datums die u accepteert. Met deze functionaliteit wordt de vroegst mogelijke datum berekend waarop een artikel beschikbaar is voor verzending of levering. De functie maakt ook aanvraagregeles, voor het geval dat de artikelen eerst moeten worden ingekocht, voor de datums die u accepteert.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  maakt gebruik van twee fundamentele begrippen:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] maakt gebruik van twee fundamentele begrippen:  
 
 - Available to Promise (ATP)  
 - Capable to promise (CTP)  
@@ -64,7 +64,7 @@ Als de klant niet om een specifieke leverdatum vraagt, wordt de verzenddatum gel
 - Verzenddatum + Uitgaand magazijn + Geplande verzending + verwerkingstijd = Datum  
 - Geplande verzenddatum + Verzendtijd = Geplande leverdatum  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  controleert vervolgens of de berekende leverdatum realistisch is door terug in tijd te rekenen om te bepalen wanneer het item beschikbaar moet zijn om te voldoen aan de toegezegde datum. Dit gebeurt aan de hand van de volgende formules:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] controleert vervolgens of de berekende leverdatum realistisch is door terug in tijd te rekenen om te bepalen wanneer het item beschikbaar moet zijn om te voldoen aan de toegezegde datum. Dit gebeurt aan de hand van de volgende formules:  
 
 - Geplande leverdatum - Verzendtijd = Geplande verzenddatum  
 - Geplande verzenddatum - Uitgaande magazijnverwerking = Verzenddatum  

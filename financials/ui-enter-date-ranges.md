@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 0494a04e67803049df71cfefe779c831c9f31674
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Datumbereiken invoeren in Finance and Operations, Business edition 
+# <a name="entering-date-ranges"></a>Datumbereiken invoeren 
 U kunt filters met een begin- en einddatum instellen om alleen de gegevens in dat datumbereik of tijdsinterval in te stellen. Voor het instellen van een datumbereik gelden speciale regels. Neem als voorbeeld de **Klanten top 10**:
 
 ![Een datumbereik instellen op de aanvraagpagina voor de lijst Klanten top 10](./media/ui-enter-date-ranges/customer-top10-list.png)

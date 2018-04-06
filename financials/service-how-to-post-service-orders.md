@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Serviceorders en creditnota's boeken
@@ -99,7 +99,7 @@ De volgende procedure laat zien hoe u de verzending van serviceregelartikelen ku
   
 4. Kies **Acties**, **Boeken** en **Boeken**. Kies **Verzenden** in het venster dat wordt weergegeven.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] In  worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
   
 Als magazijnverwerking verplicht is voor de vestiging, dan verloopt het verzenden en verplaatsen van serviceregelartikelen net zoals bij andere brondocumenten. Het enige verschil is dat serviceregelartikelen extern of intern kunnen worden verbruikt, en er daarom twee verschillende functies vereist zijn voor het vrijgeven van orders.  
   

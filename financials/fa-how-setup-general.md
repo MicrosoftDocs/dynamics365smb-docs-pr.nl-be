@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
@@ -51,7 +51,7 @@ Verdeelsleutels zijn van toepassing op klassen voor vaste activa en niet op afzo
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Dagboeksjablonen voor vaste activa instellen
 Een sjabloon is een vooraf gedefinieerd model voor een dagboek. De sjabloon bevat informatie over traceringscodes, lijsten en nummerreeksen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] maakt automatisch een dagboeksjabloon voor vaste activa als u het venster **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjabloon voor vaste activa gemaakt als u het venster **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **VA-dagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.

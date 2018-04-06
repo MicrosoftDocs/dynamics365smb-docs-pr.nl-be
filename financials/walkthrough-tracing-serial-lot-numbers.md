@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedure: Serie-/lotnummers traceren
@@ -77,7 +77,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     |Omschrijving|Basiseenheid|Prod.-boekingsgroep|Btw-productboekingsgroep|Voorraadboekingsgroep|Artikeltraceringscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
-    |Raceframe|Per stuk|GRONDSTOF|BTW19|GRONDSTOF|LOTALL|  
+    |Raceframe|Per stuk|GRONDSTOF|BTW25|GRONDSTOF|LOTALL|  
 
     > [!NOTE]  
     >  U kunt de basiseenheid invoeren door de knop **Nieuw** te kiezen en vervolgens **PSC** te selecteren in het venster **Artikeleenheden**.  
@@ -89,7 +89,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     |Omschrijving|Basiseenheid|Prod.-boekingsgroep|Btw-productboekingsgroep|Voorraadboekingsgroep|Aanvullingsmethode|Artikeltraceringscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
-    |Racefiets|Per stuk|DET.HANDEL|BTW19|GEREED|Prod.-order|SNALLE|  
+    |Racefiets|Per stuk|DET.HANDEL|BTW25|GEREED|Prod.-order|SNALLE|  
 
     > [!NOTE]  
     >  U kunt de basiseenheid invoeren door de knop **Nieuw** te kiezen en vervolgens **PSC** te selecteren in het venster **Artikeleenheden**.  

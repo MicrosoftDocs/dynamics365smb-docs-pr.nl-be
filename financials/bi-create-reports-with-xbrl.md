@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
@@ -27,7 +27,7 @@ XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde
  • Niet-financiële informatie  
  • Wettelijke archivering, zoals jaarlijkse en driemaandelijkse financiële overzichten  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  maakt het bedrijven mogelijk gegevens in XBRL te implementeren en te profiteren van de hierdoor mogelijk gemaakte flexibiliteit en automatisering voor het verzamelen en delen van gegevens.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt het bedrijven mogelijk gegevens in XBRL te implementeren en te profiteren van de hierdoor mogelijk gemaakte flexibiliteit en automatisering voor het verzamelen en delen van gegevens.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is een op XML gebaseerde taal voor financiële verslaglegging. XBRL biedt een standaardindeling waarmee een uniforme rapportage mogelijk wordt voor alle gebruikers die betrokken zijn bij de financiële gegevensstroom, zoals overheidsbedrijven en particuliere bedrijven, accountants, regelgevende instanties, analisten, investeringsmaatschappijen, de kapitaalmarkt en financiers, alsmede belangrijke derden zoals softwareontwikkelaars en gegevensbanken.  

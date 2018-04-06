@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
@@ -128,7 +128,7 @@ Voor **DISTRICT** voegt u de volgende dimensiewaarden toe:
 | Code | Name | Dimensiewaardesoort |
 | --- | --- | --- |
 | 10 |Noord- en Zuid-Amerika |Begintotaal |
-| 2.0 |Noord-Amerika |Standaard |
+| 20 |Noord-Amerika |Standaard |
 | 30 |Stille Oceaan |Standaard |
 | 40 |Zuid-Amerika |Standaard |
 | 50 |Noord- en Zuid-Amerika, totaal |Eindtotaal |

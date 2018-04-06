@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
@@ -67,13 +67,15 @@ De begeleide instelling gebruiken:
 
 1. Kies in het rolcentrum Accountant onder het diagram **Cashflowprognose** de actie **Begeleide instelling openen**.  
 2. Vul de velden in elke stap van de begeleiding in.  
-3. Kies op de startpagina **Cashflowprognose** boven het diagram en kies vervolgens **Prognose herberekenen**.  
+3. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Cashflowprognose** in en klik vervolgens op de gerelateerde koppeling.
+4. Kies in het venster **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 Een handmatig proces gebruiken:  
 
 1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
 2. Vouw het sneltabblad **Cortana Intelligence** uit en kies vervolgens het selectievakje **Cortana Intelligence ingeschakeld**.  
-3. Kies op de startpagina **Cashflowprognose** boven het diagram en kies vervolgens **Prognose herberekenen**.  
+3. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Cashflowprognose** in en klik vervolgens op de gerelateerde koppeling.
+4. Kies in het venster **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 > [!TIP]  
 >   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Cortana Intelligence niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  

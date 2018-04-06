@@ -13,10 +13,10 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 46e2150432c4e304fbfce63ae5eecea443391efe
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nieuwe functies in Dynamics 365 for Finance and Operations, Business edition
@@ -90,7 +90,7 @@ Deze update voegt acties toe aan het leverancierdashboard in de Outlook-invoegto
 De Outlook-invoegtoepassing werkt nu ook in de Outlook-agenda. Vanuit een agenda-afspraak kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen en een overzicht ophalen voor de klant die is gerelateerd aan de afspraak. Vervolgens kunt u een factuur maken voor de services die in de vergadering zijn geleverd, rechtstreeks in de Outlook-agenda zelf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markt voor extensies
-[!INCLUDE[d365fin](includes/d365fin_md.md)] extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). U kunt in de markt naar extensies zoeken. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-extensies zijn nu beschikbaar in de AppSource-markt op [AppSource.microsoft.com](https://appsource.microsoft.com/). U kunt in de markt naar extensies zoeken. U kunt informatie over de extensies zien, zoals marketingmateriaal, schermopnamen, video's en koppelingen naar aanvullende informatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Expediteurs en artikelkenmerken
 U kunt de kenmerken toevoegen aan uw voorraadartikelen, waardoor het zeer makkelijk wordt om het juiste product te vinden dat uw klant zoekt. Zie [Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.  
@@ -100,7 +100,7 @@ Met deze update kunt u kiezen uit nog meer extensies in het venster **Extensiebe
 Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies door andere providers](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Uw klantrelaties beheren met Microsoft Dynamics 365 for Sales vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We hebben een nieuwe begeleide instelling toegevoegd aan de startpagina Bedrijfsleider die u leidt door het configuratieproces om verbinding te maken met Dynamics 365 for Sales. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics 365 for Sales beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
+We hebben een nieuwe begeleide instelling toegevoegd aan het rolcentrum van Bedrijfsmanager die u leidt door het configuratieproces om verbinding te maken met Dynamics 365 for Sales. Als dat is gedaan, hebt u een naadloze koppeling tussen records in Dynamics 365 for Sales en records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Uw klantrelaties met Microsoft Dynamics 365 for Sales beheren vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Update mei 2016
 In deze update van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn nieuwe mogelijkheden toegevoegd, zoals [aangekondigd op de blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -122,7 +122,7 @@ Belangrijke scenario's om in uw eentje uit te proberen:
 - [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](madeira-no-outlook.md)  
 - [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 - [Uw bedrijfsgegevens toegankelijk maken voor Power BI](madeira-powerbi.md)  
-- [Het rolcentrum wijzigen](change-role.md)  
+- [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 
 
 

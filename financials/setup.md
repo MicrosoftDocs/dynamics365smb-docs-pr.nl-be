@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 73407196730468646f8f2bb051d4df35c2157f0b
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw bedrijf.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw bedrijf.
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.
 
-Op uw startpagina kunt u toegang krijgen tot handleidingen voor begeleide instelling die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingsvensters opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
+Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingsvensters opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
+
+> [!NOTE]
+> U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, kan handmatig worden ingesteld, naast de begeleide configuratie. Hieronder volgt een overzicht van enkele functies die u handmatig kunt configureren.
 
@@ -37,13 +40,15 @@ Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, k
 | Configureren hoe u vaste activa wilt verzekeren, onderhouden en afschrijven en hoe u de kosten van vaste activa in de boekhouding van uw bedrijf vastlegt. |[Vaste activa instellen](fa-setup.md) |
 |De algemene regels en waarden voor magazijnprocessen en de specifieke afhandeling op iedere locatie definiëren.|[Magazijnbeheer instellen](warehouse-setup-warehouse.md)|
 |Productiestuklijsten en bewerkingsplannen voorbereiden om te bepalen hoe eindartikelen worden geproduceerd en bewerkingsplaatsen of afdelingen voorbereiden om de vereiste bewerkingen uit te voeren.|[Productie instellen](production-configure-production-processes.md)|
+|Lees best practices voor het instellen van artikelen voor voorraadkostprijsberekening en voorraadplanning.|[Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)|
+|Stel een SMTP-server in om communicatie per e-mail in en vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] in te stellen.| [E-mail handmatig instellen of de begeleide instelling gebruiken](madeira-how-setup-email.md)|
 | Unieke id-codes toewijzen voor records zoals kaarten, documenten, en dagboekregels, zodat u ze in het systeem kunt bijhouden. |[Nummerreeksen maken](ui-create-number-series.md) |
-| Het venster **SMTP-mailinstellingen** configureren om e-mailberichten te verzenden en te ontvangen vanuit documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[E-mail instellen](madeira-how-setup-email.md) |
-| Stel unieke identificatiecodes in. |[Nummerreeksen maken](ui-create-number-series.md) |
+|Stel een basisagenda in en wijs deze toe aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden dan berekend aan de hand van de werkdagen die zijn opgegeven in de agenda.|[Basisagenda's instellen](across-how-to-assign-base-calendars.md)|  
 
-Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement zijn. Zie [Installatie en beheer in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md) voor meer informatie.  
+Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement zijn. Zie [Beheer](admin-setup-and-administration.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
+[Beheer](admin-setup-and-administration.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

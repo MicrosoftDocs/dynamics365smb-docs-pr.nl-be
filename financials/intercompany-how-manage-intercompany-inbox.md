@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: abeb3ee24434ca3549e7ed88ecfae54cc395002d
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
@@ -81,7 +81,7 @@ Voor regels die u verwerkt met de actie **Retour door partner** moet u nu een co
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Uitgaande IC-transacties verwerken  
 Wanneer u een IC-dagboek of -document boekt of een IC-orderbevestiging verzendt, worden de transacties verzonden naar uw IC-outbox. Als u deze wilt doorsturen naar uw IC-partners, moet u de outbox openen en de transacties verwerken.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport]pictogram(media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **IC-outboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **IC-outboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer in het venster **IC-outboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Terug naar inbox**.
 
 Regels die u verwerkt met de actie **Verzenden naar IC-partner** worden verzonden naar de inbox van de betreffende partner.
@@ -95,7 +95,7 @@ Het kan voorkomen dat u een transactie in de inbox of outbox opnieuw wilt maken.
 
 In de volgende procedure wordt beschreven hoe u inboxtransacties opnieuw kunt maken. De procedure voor de outbox is hetzelfde.
 
-  1.  Klik op het pictogram ![Zoeken naar pagina of rapport]pictogram(media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Verwerkte IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
+  1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Verwerkte IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
 
   2.  Open het venster **Verwerkte IC-inboxtransacties**, selecteer de regel met de transactie die u opnieuw wilt maken in de inbox en selecteer de actie **Inboxtransacties opnieuw maken**.  
 

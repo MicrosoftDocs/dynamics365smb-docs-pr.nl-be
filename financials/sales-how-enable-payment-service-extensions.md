@@ -13,10 +13,10 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: cfa15ee7b85f1bd01077493d295f230e836239a7
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c8f3faa68280a1c6157ab62ca2a19ce964bdbfd4
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Klantbetalingen via betalingsservices inschakelen
@@ -35,7 +35,7 @@ De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standa
 6. Sluit het venster.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Een betalingsservice selecteren op een verkoopfactuur
-1. Kies op de startpagina **Verkoopfacturen**.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Open de verkoopfactuur die u wilt betalen door middel van de betalingsservice.  
 3. Kies in het veld **Betalingsservice** de gewenste betalingsservice.  
 

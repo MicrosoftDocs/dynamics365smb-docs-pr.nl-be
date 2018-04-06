@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
 Om u te helpen snel aan de slag te gaan maken we een bibliotheek met procedurevideo's die illustreren hoe u verschillende processen uitvoert in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit zijn enkele voorbeelden van waar de bibliotheek video's over bevat:  
 
-* Bedrijfsgegevens migreren uit andere financiële apps in  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Bedrijfsgegevens migreren uit andere financiële apps in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Dimensies instellen, zodat u verschillende documenten en entiteiten kunt bijhouden en analyseren
 * [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met Microsoft Dynamics 365 for Sales
 * Goedkeuringswerkstromen instellen  
-* Power BI gebruiken met  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* E-mail instellen en documenten verzenden direct vanuit  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Power BI gebruiken met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* E-mail instellen en documenten verzenden direct vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 U kunt op meerdere manieren toegang tot de video's krijgen. Als u al werkt in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u op twee manieren naar de bibliotheek gaan:
 

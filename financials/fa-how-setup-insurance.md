@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Verzekering van vaste activa instellen
@@ -42,7 +42,7 @@ Gegevens over verzekeringspolissen kunt u invoeren op de verzekeringskaart.
 3. Vul indien nodig de velden in.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Verzekeringsdagboeksjablonen instellen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] maakt automatisch een verzekeringsdagboeksjabloon als u het venster **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
+Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzekeringsdagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.

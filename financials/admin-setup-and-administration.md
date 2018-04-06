@@ -8,36 +8,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2de32e0acb9e3aeb57a0331aa54bbde4d5dae44d
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: acf94bd4f048e1f76ae2e84c66e8831dd4e46c81
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="setup-and-administration-in-finance-and-operations-business-edition"></a>Instelling en administratie in Finance and Operations, Business edition
+# <a name="administration"></a>Beheer
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers, aanpassen van de gebruikersinterface en het beheer van encryptiesleutels zijn.  
 
 Voor het succes van nieuwe zakelijke software is het van belang dat vanaf het begin de juiste instellingswaarden worden ingevoerd. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal begeleide instellingen waarmee u hoofdgegevens kunt instellen. Zie voor meer informatie [Finance and Operations, Business edition instellen](setup.md).
 
-<!--Whether you use [!INCLUDE[rim](../../includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.-->  
+Ongeacht of u RapidStart Services gebruikt om instellingswaarden te implementeren of ze handmatig invoert in het nieuwe bedrijf, u kunt uw installatiebeslissingen ondersteunen met enkele algemene aanbevelingen voor bepaalde instellingsvelden die, als ze niet goed zijn ingesteld, de oplossing inefficiënt laten werken.  
 
-Een supergebruiker of gebruiker kan het kader voor gegevensuitwisseling instellen zodat gebruikers gegevens in bank- en salarisbestanden kunnen importeren en exporteren. bijvoorbeeld voor verschillende processen in kasbeheer.  
+Een supergebruiker of gebruiker kan het kader voor gegevensuitwisseling instellen zodat gebruikers gegevens in bank- en salarisbestanden kunnen importeren en exporteren. bijvoorbeeld voor verschillende processen in kasbeheer.
+
+> [!NOTE]
+> U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Gebruikers, profielen en rolcentra in Finance and Operations, Business edition](admin-users-profiles-roles.md)|  
-|Alle rechtstreekse wijzigingen bijhouden die gebruikers aanbrengen in databasegegevens, zodat de herkomst van fouten en wijzigingen in gegevens kan worden vastgesteld.|[Wijzigingen registreren in Finance and Operations, Business edition](across-log-changes.md)|  
-|Steun uw instellingsbeslissingen met aanbevelingen voor geselecteerde velden waarvan bekend is dat ze mogelijkerwijs de oplossing inefficiënt maken wanneer ze onjuist zijn ingesteld|[Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)|  
-|Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|  
-|Een SMTP-server instellen om communicatie per e-mail in en vanuit Finance and Operations, Business edition in te stellen| [E-mail handmatig instellen of de begeleide instelling gebruiken](madeira-how-setup-email.md)|  
+|Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen en rolcentra](admin-users-profiles-roles.md)|  
+|Machtigingen toewijzen aan gebruikers, machtigingensets aanpassen, en gebruikers groeperen op hun machtigingen|[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)|
+|Een nieuwe bedrijfsunit instellen op basis van sjablonen|[Nieuwe bedrijven maken](about-new-company.md)|
+| Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen. |[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+|Alle rechtstreekse wijzigingen bijhouden die gebruikers aanbrengen in databasegegevens, zodat de herkomst van fouten en wijzigingen in gegevens kan worden vastgesteld.|[Wijzigingen registreren](across-log-changes.md)|  
 |Eenmalige of periodieke verzoeken voor het uitvoeren van rapporten of code-units invoeren.|[Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)|  
-|Documenten beheren, verwijderen of comprimeren|[Documenten beheren](admin-manage-documents.md)|  
-|Een nieuwe bedrijfsunit instellen op basis van sjablonen|[Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
+|Documenten beheren, verwijderen of comprimeren|[Documenten verwijderen](admin-manage-documents.md)|  
+|Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsfunctionaliteit](madeira-business-functionality.md)  

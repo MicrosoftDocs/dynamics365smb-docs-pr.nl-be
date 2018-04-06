@@ -1,8 +1,6 @@
 ---
 title: Ontwerpdetails - Artikelvereffening | Microsoft Docs
 description: In dit onderwerp wordt beschreven waar het voorraadaantal en de voorraadwaarde worden geregistreerd wanneer u een voorraadtransactie boekt.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: nl-be
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
@@ -242,11 +240,12 @@ Vanwege de manier waarop de kostprijs van een artikel wordt berekend, kan een on
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een functie voor het analyseren en corrigeren van artikelvereffeningen. Dit werk wordt uitgevoerd in het venster **Vereffeningsvoorstel**.  
 
 ## <a name="see-also"></a>Zie ook  
-[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
-[Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)   
+[Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
+[Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)   
-[Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)
+[Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

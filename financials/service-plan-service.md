@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Services plannen
 Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u de standaardtaken instellen die nodig zijn om te kunnen voldoen aan de vereisten van de klantenservice. Hiervoor moet u bepalen welke serviceartikelen en welk serviceaanbod uw serviceorganisatie ondersteunt en tegen welke prijs.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
   
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
   

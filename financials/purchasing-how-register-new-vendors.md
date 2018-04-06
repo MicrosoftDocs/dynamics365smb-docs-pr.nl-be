@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
@@ -30,7 +30,7 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van de le
 >   Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-vendor-card"></a>Een nieuwe leverancierskaart maken
-1. Kies op de startpagina **Leveranciers** om de lijst met bestaande leveranciers te openen.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in het venster **Leveranciers** **Nieuw**.
 
     Wanneer er meer dan één leveranciersjabloon bestaat, opent er een venster waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.

@@ -12,17 +12,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 29304bbbac28926247dfd6a6304647770dcd8114
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-without-outlook"></a>Finance and Operations, Business edition gebruiken zonder Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is nauw geïntegreerd met Office 365 en u kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox in Outlook gebruiken. Maar als u Outlook niet hebt, kunt u met [!INCLUDE[d365fin](includes/d365fin_md.md)] in de browser of op uw mobiele apparaat werken.  
 
 ## <a name="sending-email"></a>E-mail verzenden
-U kunt documenten zoals facturen als e-mail verzenden met behulp van uw bedrijfse-mailadres. Vanaf uw startpagina kunt u toegang krijgen tot een begeleide instelling die u helpt uw e-mail in te stellen. Als u geen Office 365-e-mailaccount gebruikt, moet u technische informatie over uw e-mailserver opgeven. Als u deze informatie niet beschikbaar hebt, raadpleegt u uw ondersteunend IT-personeel.  
+U kunt documenten zoals facturen als e-mail verzenden met behulp van uw bedrijfse-mailadres. Vanuit uw rolcentrum kunt u toegang krijgen tot een begeleide instelling die u helpt uw e-mail in te stellen. Als u geen Office 365-e-mailaccount gebruikt, moet u technische informatie over uw e-mailserver opgeven. Als u deze informatie niet beschikbaar hebt, raadpleegt u uw ondersteunend IT-personeel.  
 
 
 ## <a name="see-also"></a>Zie ook

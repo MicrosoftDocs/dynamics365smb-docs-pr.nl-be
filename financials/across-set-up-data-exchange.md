@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a043ad387455cf93182689b0c58025be7186c0cd
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
@@ -27,14 +27,14 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  
 |Stel de vooraf geconfigureerde service voor documentuitwisseling in voor het verzenden en ontvangen van elektronische documenten van en naar [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Een service voor documentuitwisseling instellen](across-how-to-set-up-a-document-exchange-service.md)|  
-|De vooraf geconfigureerde OCR-service instellen om PDF- of afbeeldingsbestanden in elektronische documenten om te zetten die kunnen worden geconverteerd naar documentrecords in  [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Inkomende documenten instellen](across-how-setup-income-documents.md)|  
+|De vooraf geconfigureerde OCR-service instellen om PDF- of afbeeldingsbestanden in elektronische documenten om te zetten die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Inkomende documenten instellen](across-how-setup-income-documents.md)|  
 |Stel één van twee vooraf geconfigureerde services voor bijgewerkte wisselkoersen in om de meest recente valutawisselkoersen in het venster **Valuta's** te bekijken.|[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|  
-|Diverse hoofdgegevens instellen, zoals bedrijfsgegevens, klanten, leveranciers, artikelen en eenheden, die betrekking hebben op het toewijzen van gegevens in  [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
+|Diverse hoofdgegevens instellen, zoals bedrijfsgegevens, klanten, leveranciers, artikelen en eenheden, die betrekking hebben op het toewijzen van gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Stel een bankrekening, leverancier en betalingsdagboek in voor SEPA-kredietoverboeking.|[SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Bankrekening-indelingen, betalingsmethoden en klant overeenkomsten voor automatische incasso van SEPA voorbereiden.|[Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)|  
 |Gebruikersverificatie en de URL van de conversieserviceprovider van de bankgegevens instellen, die is vereist om bankbestanden om te zetten in de indeling van uw bank.|[Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md)|  
 |Stel en schakel een externe service in waarmee u bankafschriften direct kunt importeren als bankfeeds.|[De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)|  
-|Bankrekeningen koppelen in  als de bankafschriftservice is ingeschakeld [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Bankrekeningen instellen](bank-how-setup-bank-accounts.md)|  
+|Bankrekeningen koppelen in [!INCLUDE[d365fin](includes/d365fin_md.md)] als de bankafschriftservice is ingeschakeld|[Bankrekeningen instellen](bank-how-setup-bank-accounts.md)|  
 |Bereid de configuratie van een nieuwe gegevensuitwisselingsdefinitie voor een gegevensbestand of een gegevensstroom voor door met behulp van het XML-schema van het bestand het sneltabblad **Kolomdefinities** in het venster **Uitwisselingsdefinitie van boeking** vooraf te vullen.|[XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Stel het kader voor gegevensuitwisseling in zodat gebruikers een nieuwe inkoopdocumentindeling kunnen ontvangen, een nieuwe verkoopdocumentindeling kunnen verzenden, een nieuw bankbestand kunnen importeren of een andere gegevensuitwisseling kunnen uitvoeren.|[Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)|  
 

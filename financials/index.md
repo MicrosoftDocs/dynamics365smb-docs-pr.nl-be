@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 09/14/2017
+ms.date: 01/31/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9ffe72d64d8cb9a3db426ad299af8c2025ec31f5
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.
 Wanneer u zich aanmeldt voor het [!INCLUDE[d365fin](includes/d365fin_md.md)]-voorbeeld, krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf uw eigen verkoopdocumenten maken of een bankrekening instellen.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] leren kennen
@@ -35,16 +35,16 @@ Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](madeira-business-functionality.md). Voor een overzicht van actuele mogelijkheden en toekomstige mogelijkheden bekijkt u onze routekaart via [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>De startpagina's
-Op startpagina´s wordt een op rolcentrumontwerp gebruikt om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende startpagina´s door het pictogram **Instellingen** te kiezen! ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het Rolcentrum om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie [Het rolcentrum wijzigen](change-role.md) voor meer informatie.  
+Op startpagina´s wordt een op rolcentrumontwerp gebruikt om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende startpagina´s door het pictogram **Instellingen** te kiezen! ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het Rolcentrum om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
 Elke startpagina bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
 
 > [!NOTE]  
->   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Suite**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Essentieel**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).  
 
-In het venster **Begeleide instelling** vindt u het volgende in de **Suite**-ervaring:
+In het venster **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
 
-| Begeleide instelling | Omschrijving |
+| Begeleide instelling | Description |
 | --- | --- |
 | Bedrijfsgegevens migreren |Hiermee kunt u uw bedrijfsgegevens importeren zoals klanten, leveranciers, en artikelen vanuit Excel of Quickbooks. |
 | Mijn bedrijf instellen |Hiermee wordt een nieuw proefbedrijf voor u gemaakt, waarin u gegevens kunt invoeren en [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt uitproberen. Als u de Aan de slag-rondleiding hebt gevolgd, is dit waarschijnlijk al **Voltooid**. |
@@ -53,7 +53,7 @@ In het venster **Begeleide instelling** vindt u het volgende in de **Suite**-erv
 | Een goedkeuringswerkstroom voor klanten instellen |Hiermee wordt de mogelijkheid ingesteld om een fiatteur automatisch te informeren wanneer een gebruiker een klantenkaart probeert te maken of te wijzigen. |
 | E-mail instellen |Hiermee wordt u voorbereid op het direct verzenden van e-mailberichten uit bijvoorbeeld verkooporders of contacten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | E-maillogboekregistratie instellen |Hiermee wordt de mogelijkheid ingesteld om e-mailcorrespondentie te registreren in [!INCLUDE[d365fin](includes/d365fin_md.md)] om interacties op te volgen. |
-| Outlook instellen voor  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Hiermee wordt de mogelijkheid ingesteld om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken en te starten vanuit Outlook. |
+| Outlook instellen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] |Hiermee wordt de mogelijkheid ingesteld om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken en te starten vanuit Outlook. |
 | Rapportage instellen |Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
 | Een artikelgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding naar een fiatteur te verzenden wanneer een gebruiker een artikel wijzigt of maakt. |
 | Een betalingsgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding te sturen naar een fiatteur wanneer een gebruiker betalingsdagboekregels voor goedkeuring verzendt. |
@@ -66,7 +66,7 @@ Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf oversch
 Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf**. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u de startpagina en zoekt u de actie **Begeleide instelling**.  
 
 ## <a name="ready-to-subscribe"></a>Klaar om een abonnement te nemen?
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, gebruikt u de koppeling in de melding om in contact te komen met Microsoft. U kunt ook contact opnemen met het [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales-team](https://go.microsoft.com/fwlink/?linkid=828707).  
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, gebruikt u de koppeling in de melding om in contact te komen met Microsoft. U kunt ook contact opnemen met het [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-finance-and-operations-business-edition-apps"></a>Andere Finance and Operations, Business edition-apps
 Navigeer naar inhoud over de andere Finance and Operations, Business edition-apps door de koppeling [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) te kiezen in de blauwe banner boven aan deze pagina. U kunt ook meer leren op de [website van Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
@@ -83,5 +83,6 @@ Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](in
 [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

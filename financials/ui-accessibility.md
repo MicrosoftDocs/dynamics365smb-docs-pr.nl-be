@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Toegankelijkheid en sneltoetsen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/d365fin_md.md)] toegankelijk maken voor mensen met een handicap. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de volgende toegankelijkheidsfuncties:  
 
--   Sneltoetsen  
+-   Sneltoetsen
+
+    Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md)
 
 -   Navigatie  
 
@@ -30,18 +32,21 @@ Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/
 
 -   Ondersteuning voor algemene ondersteunende technologieën  
 
-##  <a name="Keyboard"></a> Sneltoetsen in de browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  ondersteunt de sneltoetsen die door de meeste webbrowsers worden ondersteund. De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Actie|Drukken|  
+|To do this|Press|  
 |----------------|-----------|  
-|De focus verplaatsen naar het volgende of vorige (besturings)element op een pagina, bijvoorbeeld knoppen, velden of items in een lijst.|Tab, Shift+Tab|  
-|Het (besturings)element met focus inschakelen of openen.|Enter|  
-|Naar boven en naar beneden bladeren in een lijst met items.|Pijl-omhoog, Pijl-omlaag|  
-|Naar links en naar rechts bladeren in een lijst met items.|Pijl-links, Pijl-rechts|  
-|Een vervolgkeuzelijst openen of een waarde voor een veld zoeken.|Alt+Pijl-omlaag|  
-|Focus naar het volgende element buiten de lijst verplaatsen.|Ctrl+Enter|  
-|De transacties bekijken die in een berekende waarde in een veld hebben geresulteerd.|Alt+Pijl rechts|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigatie  
  Met het toetsenbord kunt u navigeren tussen de tabbladen en acties in het lint, elementen in het navigatiedeelvenster en andere besturingselementen in [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's en -rapporten. Als u de focus wilt verplaatsen naar het volgende tabblad, de volgende actie of het volgende besturingselement, drukt u op Tab. Druk op Shift+Tab om naar het vorige tabblad, de vorige actie of het vorige besturingselement te gaan.  
@@ -55,7 +60,7 @@ Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/
  Een omschrijvende tekst voor afbeeldingen wordt ingesteld met het kenmerk ALT in de IMG-tag. Een omschrijvende tekst voor hyperlinks wordt ingesteld met het titelkenmerk in de A-tag.  
 
 ##  <a name="AssistiveTech"></a> Ondersteunende technologieën  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware. Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware. Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's.  
 
 ## <a name="for-more-accessibility-information"></a>Meer informatie over toegankelijkheid  
 Meer informatie over toegankelijkheid voor Microsoft-producten en ondersteunende technologieën vindt u op de site [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).

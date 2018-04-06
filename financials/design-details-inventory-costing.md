@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4f14118e435051c6d63f95a05ebee2e7107ce054
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 2ee8988a89e4bd01683a6945e66e08ab9608af2e
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
@@ -25,7 +25,9 @@ Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastle
 ## <a name="in-this-section"></a>In dit gedeelte  
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
+[Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
+[Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)  
 [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)  
 [Ontwerpdetails: Verschil](design-details-variance.md)  

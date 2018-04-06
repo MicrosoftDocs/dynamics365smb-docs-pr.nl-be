@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
@@ -34,7 +34,7 @@ In deze procedure worden de volgende taken omschreven:
 ### <a name="prerequisites"></a>Vereisten  
 U moet het volgende doen om deze procedure uit te voeren:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installeren.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren.  
 - De cashflowvoorstelregels worden geregistreerd.  
 
 ## <a name="roles"></a>Rollen  

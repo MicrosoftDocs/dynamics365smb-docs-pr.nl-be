@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Gebruikers en machtigingen beheren
@@ -22,11 +22,9 @@ Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], 
 
 Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. Aan gebruikers worden machtigingensets toegewezen op basis van het plan dat aan de gebruiker is toegewezen in Office 365.
 
-U kunt vervolgens machtigingensets aan gebruikers toewijzen om te bepalen tot welke databaseobjecten (en daardoor tot welke UI-elementen) zij toegang hebben en in welke bedrijven.
+U kunt vervolgens machtigingensets aan gebruikers toewijzen om te bepalen tot welke databaseobjecten (en daardoor tot welke UI-elementen) zij toegang hebben en in welke bedrijven. U kunt gebruikers toevoegen aan gebruikersgroepen. Hierdoor wordt het gemakkelijker om dezelfde machtigingensets aan meerdere gebruikers toe te wijzen.
 
 Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de database. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Er zijn standaard verschillende vooraf gedefinieerde machtigingensets beschikbaar. U kunt de machtigingensets gebruiken zoals deze zijn gedefinieerd, u kunt de sets aanpassen of u kunt uw eigen machtigingensets maken.
-
-U kunt gebruikers toevoegen aan gebruikersgroepen. Hierdoor wordt het gemakkelijker om dezelfde machtigingensets aan meerdere gebruikers toe te wijzen.
 
 Beheerders kunnen het venster **Gebruikersinstellingen** gebruiken om perioden te definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld.
 
@@ -42,13 +40,9 @@ U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren vo
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersgroepen** in en klik vervolgens op de gerelateerde koppeling.
 2. U kunt ook in het venster **Gebruikers** de actie **Gebruikersgroepen** kiezen.
-3. Selecteer in het venster **Gebruikersgroepen** een bestaande gebruikersgroep die u wilt kopiëren en kies de actie **Gebruikersgroep kopiëren**.
-4. Geef in het veld **Nieuwe gebruikersgroepcode** de naam van de nieuwe gebruikersgroep en kies de knop **OK**.
-
-    Als alternatief voor het kopiëren kunt u de actie Nieuw gebruiken om een nieuwe regel voor een lege gebruikersgroep te maken, die u vervolgens handmatig invult.
-5. Als u nieuwe of extra gebruikers wilt toevoegen, kiest u in het venster **Gebruikersgroep** de actie **Gebruikersgroepsleden**.
-6. Vul in het venster **Gebruikersgroepsleden** op een nieuwe regel de velden waar nodig in door bestaande gebruikers te selecteren.
-7. Als u nieuwe of extra machtingensets wilt toevoegen, kiest u in het venster **Gebruikersgroep** de actie **Machtigingensets van gebruikersgroep**.
+3. Kies in het venster **Gebruikersgroep** de actie **Gebruikersgroepsleden**.
+6. Kies in het venster **Gebruikersgroepsleden** de actie **Gebruikers toevoegen**.
+7. Als u nieuwe of extra machtigingensets wilt toevoegen, kiest u in het venster **Gebruikersgroepen** de actie **Machtigingensets van gebruikersgroep**.
 8. Vul in het venster **Machtigingensets van gebruikersgroep** op een nieuwe regel de velden waar nodig in door bestaande machtigingensets te selecteren.
 
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen

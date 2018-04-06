@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
@@ -36,7 +36,7 @@ Assemblageartikelen worden gekenmerkt door hun aanvullingsmethode en assemblages
 -   Een assemblagestuklijst maken die assemblageonderdelen en de resource voor het assemblageartikel aangeeft.  
 
 ### <a name="selling-customized-assembly-items"></a>Aangepaste assemblageartikelen verkopen  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  biedt de flexibiliteit om een voorraadaantal en een hoeveelheid voor assembleren op order in te voeren op één verkooporderregel. In deze sectie komen de volgende taken aan bod:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt de flexibiliteit om een voorraadaantal en een hoeveelheid voor assembleren op order in te voeren op één verkooporderregel. In deze sectie komen de volgende taken aan bod:  
 
 -   Er wordt een zuivere ATO-verkooporderregel gemaakt waarbij de volledige aantal niet beschikbaar is en vóór verzending moet worden geassembleerd.  
 -   ATO-items aanpassen.  
@@ -140,8 +140,8 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     |**Artikelnr.**|**Zone**|**Opslaglocatie**|**Aantal**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|PICK|W-01-0001|2.0|  
-    |80005|PICK|W-01-0001|2.0|  
+    |80001|PICK|W-01-0001|20|  
+    |80005|PICK|W-01-0001|20|  
     |80011|PICK|W-01-0001|20|  
     |80014|PICK|W-01-0001|20|  
     |80203|PICK|W-01-0001|20|  

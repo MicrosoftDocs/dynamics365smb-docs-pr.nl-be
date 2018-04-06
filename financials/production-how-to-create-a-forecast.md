@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-a-production-forecast"></a>Een productieprognose maken
@@ -55,7 +55,7 @@ Dit kan worden geconfigureerd in de productie-instellingen. Het is wel zo dat in
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productieprognose** in en klik op de gerelateerde koppeling.  
 2.  Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Prod.-prognose**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
-3.  Selecteer in het veld **Vestigingsfilter**de vestiging waarop deze prognose van toepassing is.  
+3.  Selecteer in het veld **Vestigingsfilter** de vestiging waarop deze prognose van toepassing is.  
 4.  Selecteer in het veld **Prognosesoort** **Verkoopartikel**, **Component** of **Beide**. Als u **Verkoopartikel** of **Component** selecteert, kunt u het aantal per periode bewerken. Als u **Beide** selecteert, kunt u het aantal niet bewerken, maar wel de knop met de pijl omlaag kiezen om de posten voor de productieprognose weer te geven.  
 5.  Geef een **datumfilter** op als u de hoeveelheid gegevens die wordt weergegeven wilt beperken.  
 6.  Op het sneltabblad **Matrix voor productieprognose** kunt u de voorspelde aantallen **Verkoopartikelen** of de **Materiaalprognose** voor de verschillende perioden opgeven.  

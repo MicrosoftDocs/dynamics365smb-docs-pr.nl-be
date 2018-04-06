@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
@@ -104,7 +104,7 @@ Het onderwerp bevat de volgende procedures:
 4. Selecteer in het veld **Elektronisch document** de optie **Ja (via service voor documentuitwisseling)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  detecteert automatisch of het document een factuur of creditnota is en kiest de bijbehorende PEPPOL-indeling.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] detecteert automatisch of het document een factuur of creditnota is en kiest de bijbehorende PEPPOL-indeling.  
 
 5. Als u dit verzendprofiel wilt toepassen op alle klanten, schakelt u het selectievakje **Standaard** op het sneltabblad **Algemeen** in. Als u het profiel alleen wilt toepassen op specifieke klanten, vult u het veld **Verzendprofiel van document** op de desbetreffende klantenkaarten in. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 

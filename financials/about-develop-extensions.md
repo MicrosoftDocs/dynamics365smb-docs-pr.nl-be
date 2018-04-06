@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8c8f01a97fa215932fff0adc6baff2be13621585
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 72e0a33326eaff03250b448275fa10715eb56e95
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] uitbreiden
@@ -54,7 +54,7 @@ De nieuwe ontwikkelingshulpmiddelen, waarmee u v2.0-extensies kunt maken, zijn n
 ## <a name="need-help"></a>Hulp nodig?
 Als u begeleiding wilt, kunt u via de volgende lijst contact opnemen met een deskundige op het gebied van appinhoud:
 
-* Cloud Ready Software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
+* Cloudvoorbereide software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
 * Dynamics App Alliance, [http://dynamicsappalliance.com](http://dynamicsappalliance.com/)
 
 Partners in deze lijst:

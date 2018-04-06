@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
@@ -55,16 +55,12 @@ Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt
 > [!NOTE]  
 >   Als de OCR-service zo is ingesteld dat handmatige verificatie van verwerkte documenten is vereist, bevat het veld **OCR-status** de waarde **In afwachting van verificatie**. In dat geval voert u de volgende stappen uit om u aan te melden bij de website van de OCR-service om een OCR-document handmatig te verifiëren.
 
-1. Kies in het veld**OCR-status**de hyperlink **In afwachting van verificatie**. Kies de tegel **In afwachting van verificatie**op de startpagina.
+1. Kies in het veld**OCR-status**de hyperlink **In afwachting van verificatie**.
 2. Meld u bij de website van de OCR-service aan met de aanmeldgegevens van uw OCR-serviceaccount. Dit zijn de aanmeldgegevens die ook bij het instellen van de service worden gebruikt. Zie het gedeelte 'Een OCR-service instellen' in [Inkomende documenten instellen](across-how-setup-income-documents.md)voor meer informatie.
-
-    Als u de website via het veld **OCR-status**opent, wordt het desbetreffende document direct na aanmelding weergegeven. Als u de website opent door de tegel op de startpagina te kiezen, moet u op de eerste OCR-servicepagina die wordt geopend, de knop **Start**op het tabblad **Verifiëren**kiezen of dubbelklikken op het document dat u wilt verifiëren.
 
     De gegevens voor het OCR-document worden weergegeven met zowel de broninhoud van het PDF- of afbeeldingsbestand als de resulterende OCR-veldwaarden.
 3. Controleer handmatig de verschillende veldwaarden en bewerk of typ handmatig waarden in de velden die de OCR-service heeft gemarkeerd als onbepaald.
 4. Kies de knop **Ok**. Het OCR-proces is voltooid en het resulterende elektronische document wordt verzonden naar het venster **Inkomende documenten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] in overeenstemming met het verwerkingswachtrijschema.
-
-    Als u de website opent door de tegel op de startpaginate kiezen, wordt elk ander OCR-document dat moet worden geverifieerd, automatisch op de website weergegeven.
 5. Herhaal stap 4 voor elk ander OCR-document dat moet worden geverifieerd.
 
 U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords voor de ontvangen elektronische documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie de volgende procedure voor meer informatie. U kunt ook de nieuwe inkomende documentrecord aan een bestaand geboekt of niet-geboekt document koppelen zodat het bronbestand gemakkelijk toegankelijk is vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Procedure: Inkomende documenten verwerken](across-process-income-documents.md) voor meer informatie.

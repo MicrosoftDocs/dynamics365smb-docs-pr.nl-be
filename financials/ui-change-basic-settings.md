@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Basisinstellingen wijzigen
@@ -27,9 +27,13 @@ Het rolcentrum vertegenwoordigt de startpagina, een pagina die is ontworpen voor
 
 In het midden vindt u de tegels Activiteiten. Bij Activiteiten worden actuele gegevens weergegeven en u kunt klikken en tikken op de activiteiten voor gemakkelijke toegang tot het geselecteerde document. De KPI´s (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven.
 
-U kunt ook een lijst met favoriete klanten maken op de startpagina voor de accounts met wie u vaak zaken doet of aan wie u speciale aandacht moet geven. Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te maken om specifieke gegevens weer te geven. Boven aan de startpagina vindt u alle acties die op de huidige inhoud kunnen worden toegepast. Dit kan ook worden samengevouwen en u hoeft alleen te klikken of te tikken binnen het samengevouwen gebied om het opnieuw weer te geven.
+U kunt ook een lijst met favoriete klanten maken op de startpagina voor de accounts met wie u vaak zaken doet of aan wie u speciale aandacht moet geven. Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te maken om specifieke gegevens weer te geven. Boven aan de startpagina vindt u alle acties die op de huidige inhoud kunnen worden toegepast. Dit kan ook worden samengevouwen en u hoeft alleen het samengevouwen gebied te kiezen om het opnieuw weer te geven.
 
-Het standaardrolcentrum is **Bedrijfsmanager**, maar u kunt een ander rolcentrum selecteren dat beter aan uw behoeften voldoet. Zie [Het rolcentrum wijzigen](change-role.md) voor meer informatie.
+### <a name="to-change-role-center"></a>Het rolcentrum wijzigen
+Het standaardrolcentrum is **Bedrijfsmanager**, maar u kunt een ander rolcentrum selecteren dat beter aan uw behoeften voldoet.
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
+2. Selecteer in het venster **Instellingen** in het veld **Rolcentrum** het rolcentrum dat u als standaard wilt instellen. Selecteer bijvoorbeeld **Accountant**.
+3. Kies de knop **OK**.
 
 ## <a name="company"></a>Bedrijf
 Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
@@ -56,6 +60,5 @@ Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt o
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Het rolcentrum wijzigen](change-role.md)  
 [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
 

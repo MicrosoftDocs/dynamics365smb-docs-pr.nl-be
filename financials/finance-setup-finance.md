@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 5ec4748db61410128b7a61336e52ea6f066fae34
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
-Om u snel aan de slag te helpen, bevat [!INCLUDE[d365fin](includes/d365fin_md.md)] standaardconfiguraties voor de meeste financiële processen. U kunt de configuraties aanpassen aan uw bedrijf. Vanaf de startpagina kunt u bijvoorbeeld gebruik maken van een begeleide instelling om het btw-tarief voor uw locatie in te stellen.  
+Om u snel aan de slag te helpen, bevat [!INCLUDE[d365fin](includes/d365fin_md.md)] standaardconfiguraties voor de meeste financiële processen. U kunt de configuraties aanpassen aan uw bedrijf. Vanuit het rolcentrum kunt u bijvoorbeeld gebruik maken van een begeleide instelling om het btw-tarief voor uw locatie in te stellen.  
 
 Er zijn echter bepaalde zaken die uzelf moet instellen. Als u bijvoorbeeld dimensies wilt gebruiken als basis voor bedrijfsinformatie.  
 

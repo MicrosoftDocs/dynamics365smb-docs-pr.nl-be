@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[d365fin](includes/d365f
 
 De instellingswizard biedt drie sjablonen:
 
--   **Suite-evaluatie**  
+-   **Evaluatie - Voorbeeldgegevens**  
     Hierdoor ontstaat een bedrijf dat lijkt op het demonstratiebedrijf met voorbeeldgegevens en instellingsgegevens.  
--   **Suite-productie**  
-    Hierdoor ontstaat een bedrijf dat lijkt op **Mijn bedrijf**, met instellingsgegevens maar zonder voorbeeldgegevens.  
--   **Nieuw**  
+-   **Productie - Alleen instellingsgegevens**  
+    Hierdoor ontstaat een bedrijf dat lijkt op **Mijn bedrijf**, met instellingsgegevens maar zonder voorbeeldgegevens.
+-   **Geavanceerde evaluatie - Volledige voorbeeldgegevens** Hiermee wordt een bedrijf gemaakt met instellingsgegevens en volledige voorbeeldgegevens voor alle functies, inclusief Productie en Servicebeheer.
+-   **Nieuw maken - Geen gegevens**  
     Hierdoor ontstaat een leeg bedrijf zonder instellingsgegevens.  
 
-Als u eenvoudig aan de slag wilt gaan met een nieuw bedrijf, kiest u **Suite-productie** en importeert u uw eigen bedrijfsgegevens, zoals klanten, artikelen, en leveranciers. Kies de sjabloon **Nieuw** als u alles nieuw wilt instellen. In dat geval kunt u de begeleide instellingswizard **Bedrijfsinstelling** gebruiken om u te helpen aan de slag te gaan met essentiële instellingsgegevens.  
+Als u eenvoudig aan de slag wilt gaan met een nieuw bedrijf, kiest u **Productie - Alleen instellingsgegevens** en importeert u uw eigen bedrijfsgegevens, zoals klanten, artikelen, en leveranciers. Kies de sjabloon **Nieuw** als u alles nieuw wilt instellen. In dat geval kunt u de begeleide instelling **Bedrijfsinstelling** gebruiken om u te helpen aan de slag te gaan met essentiële instellingsgegevens.  
 
 > [!NOTE]  
 >   Wanneer u een nieuw bedrijf maakt, duurt het enkele minuten voordat u er toegang toe kunt krijgen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De instellingsstatus in het venster **Bedrijven** toont wanneer het nieuwe bedrijf gereed voor u is. Vervolgens kunt u naar het nieuwe bedrijf overschakelen door **Mijn instellingen** te kiezen.  
@@ -44,10 +45,11 @@ Als u zich aanmeldt bij een nieuw bedrijf, wordt de wizard **Bedrijfsinstelling*
 
 Uw bedrijfsadres wordt bijvoorbeeld opgenomen in facturen en andere documenten, uw bankgegevens worden gebruikt in betalingen en de waarderingsmethode wordt gebruikt om prijzen en voorraadwaarde te berekenen.  
 
-Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie voor meer informatie [Finance and Operations, Business edition instellen](setup.md).  
+Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).  
 
 ## <a name="see-also"></a>Zie ook
-[Finance and Operations, Business edition instellen](setup.md)  
+[Finance and Operations, Business edition aanpassen](ui-customizing-overview.md)  
+[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

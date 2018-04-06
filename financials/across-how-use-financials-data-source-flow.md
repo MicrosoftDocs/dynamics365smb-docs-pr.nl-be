@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
@@ -29,9 +29,6 @@ U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van
 2. Kies **Mijn Flows** vanuit het lint boven aan de pagina.
 3. Kies in het venster **Mijn Flows** de optie **Geheel nieuw maken**.
 4. Selecteer in de lijst met beschikbare triggers een van de beschikbare [!INCLUDE[d365fin](includes/d365fin_md.md)]-triggers:  
-    *Wanneer een record wordt gemaakt*,  
-    *Wanneer een record wordt verwijderd*,  
-    *Wanneer een record wordt gewijzigd*,  
     *Wanneer een klantgoedkeuring wordt aangevraagd*,  
     *Wanneer goedkeuring van een dagboekbatch wordt aangevraagd*,  
     *Wanneer goedkeuring van een dagboekregel wordt aangevraagd*,  
@@ -39,11 +36,7 @@ U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van
     *Wanneer goedkeuring van een inkoopdocument wordt aangevraagd*,  
     *Wanneer goedkeuring van een verkoopdocument wordt aangevraagd*, of  
     *Wanneer goedkeuring van een leverancier wordt aangevraagd*.
-5. Flow vraagt u om de gegevens die nodig zijn om verbinding te maken met uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Als u een van de volgende triggers hebt geselecteerd, moet u een bedrijfsnaam en een tabelnaam selecteren: *Wanneer een record wordt gemaakt*, *Wanneer een record wordt gewijzigd* of *Wanneer een record wordt verwijderd*. Met andere triggers is alleen de bedrijfsnaam nodig om verbinding te maken.
-
-   Met Flow wordt een lijst met bedrijven en tabellen weergegeven die beschikbaar zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Met deze tabellen, of eindpunten, worden alle webservices vertegenwoordigd die u hebt gepubliceerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   U kunt ook een nieuwe webservice-URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] maken met behulp van de actie **Gegevensset maken** op de pagina **Webservices** met de begeleide instelling **Rapportage instellen** of door de actie **Bewerken in Excel** in de lijsten te kiezen.
+5. Flow vraagt u een bedrijf in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant te selecteren. Aangezien elke stap in Flow onafhankelijk is van de volgende, moet u het bedrijf mogelijk meerdere malen definiëren wanneer u een [!INCLUDE[d365fin](includes/d365fin_md.md)]-sjabloon gebruikt.
 
 Nu hebt u met succes een verbinding gemaakt met uw Finance and Operations, Business edition-gegevens en kunt u uw stroom gaan maken. Zie de [Flow-documentatie](https://flow.microsoft.com/documentation/getting-started/) voor meer informatie.
 

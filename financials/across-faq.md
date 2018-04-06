@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 Dit gedeelte bevat antwoorden op veelgestelde vragen over aanmelding bij en gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Voor  moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
+Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken. Zie [Aanmelden bij Troubleshooting Self-Service](ui-troubleshoot-self-signup.md).  
 
@@ -29,7 +29,7 @@ Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u ee
 Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Office 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Office 365 van een maand [hier](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Waar gaat de integratie met Office 365 over?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is volledig geïntegreerd met Office 365 zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is volledig geïntegreerd met Office 365 zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan ik mijn abonnement annuleren?
 Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunnen uw gegevens worden verwijderd of bewaard. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md) annuleren.  
@@ -50,6 +50,9 @@ Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken zonder Outlook](madeira-no-outlook.md)  
-[Het rolcentrum wijzigen](change-role.md)  
+[Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

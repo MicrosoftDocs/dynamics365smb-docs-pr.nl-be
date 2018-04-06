@@ -1,8 +1,6 @@
 ---
 title: Ontwerpdetails - Kostenwaardering | Microsoft Docs
 description: Het belangrijkste doel van kostenherwaardering is wijzigingen in kosten van kostenbronnen door te sturen naar kostenontvangers, volgens de waarderingsmethode van een artikel, om de juiste voorraadwaardering te bieden.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
@@ -171,13 +169,20 @@ Als u de automatische kostenwaardering hebt ingesteld om toe te passen op boekin
 Als u automatische kostenwaardering hebt ingesteld om toe te passen op boekingen die plaatsvinden binnen een dag of een week vanaf de huidige werkdatum, wordt de automatische kostprijsaanpassing niet uitgevoerd, en worden de kosten van de inkoop niet naar de verkoop doorgestuurd totdat u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert.  
 
 ## <a name="see-also"></a>Zie ook
+<<<<<<< HEAD [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)  
+[Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
+[Ontwerpdetails: Reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md)  
+[Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md)  
+[Ontwerpdetails: Verschil](design-details-variance.md)  
+=======
 [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)   
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
 [Ontwerpdetails: Reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md)   
 [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md)   
 [Ontwerpdetails: Verschil](design-details-variance.md)   
-[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)   
-[Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Ontwerp: Assemblageorderboeking](design-details-assembly-order-posting.md)   
+[Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

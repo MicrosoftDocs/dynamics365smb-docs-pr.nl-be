@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Financiën
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
 De standaardconfiguratie omvat een rekeningschema en standaardboekingsgroepen die het proces vormen van het efficiënter toewijzen van standaardgrootboekrekeningen aan klanten, leveranciers en artikelen.  
 
@@ -33,6 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Laat uw klanten betalen voordat u naar hen verzendt of betaal uw leveranciers voordat zij aan u verzenden.|[Vooruitbetalingen factureren](finance-invoice-prepayments.md)|
 | Bankrekeningen reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen beheren](bank-manage-bank-accounts.md) |
 |IC-partners instellen en transacties handmatig of automatisch verwerken tussen rechtspersonen binnen hetzelfde bedrijf.|[Intercompany-transacties beheren](intercompany-manage.md)|
+|Combineert grootboekposten van meerdere bedrijven in één virtueel 'geconsolideerd bedrijf' voor financiële analyses.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
 |De kosten analyseren van het uitvoeren van uw bedrijf door werkelijke en gebudgetteerde kosten van bewerkingen, afdelingen, producten en projecten toe te wijzen aan kostenplaatsen.|[Kosten verantwoorden](finance-manage-cost-accounting.md)|
 |Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
 | Het grootboek en het rekeningschema begrijpen. |[Het grootboek en COA begrijpen](finance-general-ledger.md) |

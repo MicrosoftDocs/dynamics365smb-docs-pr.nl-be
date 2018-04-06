@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
@@ -63,7 +63,7 @@ Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kost
  Wat u in het veld **Waarderingsmethode** invult, beïnvloedt hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] de inhoud van het veld **Kostprijs** berekent op de regels.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Waarderingsmethode FIFO, LIFO, Specifiek of Gemiddeld  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent de inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel met deze formule:  
+ De inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel wordt door [!INCLUDE[d365fin](includes/d365fin_md.md)] berekend volgens deze formule:  
 
  Kostprijs (LV) = (Directe kostprijs - (Totale korting/ Aantal)) * (1 + Indirecte kosten % / 100) + Overheadtarief  
 

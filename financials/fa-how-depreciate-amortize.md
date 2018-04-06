@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
@@ -27,7 +27,7 @@ Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en 
 * Automatisch, door de batchverwerking **Afschrijving berekenen** uit te voeren.  
 * Handmatig, met behulp van het financieel dagboek voor vaste activa.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] In  kan dagelijkse afschrijving worden berekend zodat u de afschrijving voor elke willekeurige periode kunt berekenen. Zodoende kunt u de huidige bedrijfsresultaten per maand, per kwartaal of jaarlijks analyseren. Bij deze berekening worden een standaardjaar van 360 dagen en een standaardmaand van 30 dagen gebruikt. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dagelijkse afschrijving worden berekend zodat u de afschrijving voor elke willekeurige periode kunt berekenen. Zodoende kunt u de huidige bedrijfsresultaten per maand, per kwartaal of jaarlijks analyseren. Bij deze berekening worden een standaardjaar van 360 dagen en een standaardmaand van 30 dagen gebruikt. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie.  
 
 Als verschillende afdelingen een vast activum gebruiken, kan de periodieke afschrijving automatisch worden toegewezen aan deze afdelingen volgens een door de gebruiker gedefinieerde toewijzingstabel.  
 

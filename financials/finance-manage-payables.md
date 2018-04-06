@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  heeft alles wat u nodig hebt om uw betalingsverplichtingen efficiënt te beheren.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] heeft alles wat u nodig hebt om uw betalingsverplichtingen efficiënt te beheren.  
 
 ## <a name="payments"></a>Betalingen
 U kunt eenvoudig betalingen prioriteit geven, rekening houden met boetes voor late betalingen en kortingen voor tijdige betalingen verwerken.
@@ -32,10 +32,10 @@ U kunt betalingen registreren in een diversendagboek en vervolgens cheques afdru
 U kunt betalingen vereffenen om facturen te sluiten wanneer u de betaling boekt of nadat u de betaling hebt geboekt. Met het veld **Vereffeningsmethode** dat is opgegeven voor de leverancier (op de **Leverancierskaart**), wordt bepaald of u de betaling handmatig of automatisch vereffend. U kunt transacties altijd handmatig vereffenen. Als de vereffeningsmethode voor de leverancier echter is ingesteld op **Toepassen op oudste** en u geen document opgeeft waarmee de betaling wordt vereffend, wordt de betaling vereffend met de oudste open post van de leverancier.
 
 ## <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  heeft een functie die voorstellen kan doen voor betalingen aan leveranciers. Zo krijgt u bijvoorbeeld een bericht als de vervaldatum voor een betaling nadert of als voor een betaling een korting mogelijk is. In het betalingsvoorstel kan een bedrag worden meegenomen dat u opgeeft als beschikbaar kapitaal, en geschiktheid voor contantkortingen.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] heeft een functie die voorstellen kan doen voor betalingen aan leveranciers. Zo krijgt u bijvoorbeeld een bericht als de vervaldatum voor een betaling nadert of als voor een betaling een korting mogelijk is. In het betalingsvoorstel kan een bedrag worden meegenomen dat u opgeeft als beschikbaar kapitaal, en geschiktheid voor contantkortingen.
 
 ## <a name="issue-checks"></a>Cheques uitgeven
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Met  kunt u cheques elektronisch en handmatig uitgeven aan leveranciers. Dit doet u beide in het venster **Betalingsdagboeken**, waarin u cheques ook ongeldig kunt maken en chequeposten kunt bekijken.
+Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u cheques elektronisch en handmatig uitgeven aan leveranciers. Dit doet u beide in het venster **Betalingsdagboeken**, waarin u cheques ook ongeldig kunt maken en chequeposten kunt bekijken.
 
 ## <a name="export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
 Wanneer u klaar bent om een leverancier te betalen, kunt u met behulp van het venster **Betalingsdagboek** een bestand met de betalingsgegevens exporteren van de dagboekregels. Vervolgens kunt u het bestand uploaden naar uw elektronische bank voor verwerking van de overboekingen.

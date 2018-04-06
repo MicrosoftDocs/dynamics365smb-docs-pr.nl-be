@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-service-orders"></a>Serviceorders maken
@@ -52,7 +52,7 @@ U kunt automatisch serviceorders voor het onderhoud van serviceartikelen maken o
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Een serviceofferte omzetten in een serviceorder
 Wanneer een klant een servicecontractofferte heeft geaccepteerd, zet u deze om in een serviceorder. De offerte wordt verwijderd en er wordt een nieuwe serviceorder ingesteld met dezelfde omschrijving als de serviceofferte. De responsdatum en -tijd worden opnieuw berekend voor de serviceorder en de status van de serviceorder wordt ingesteld op **In behandeling**. De herstelstatus van de serviceartikelen in de order wordt gewijzigd in **Eerste**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] zoekt naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gezocht naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
 
 1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de serviceofferte die u wilt omzetten in een serviceorder.  

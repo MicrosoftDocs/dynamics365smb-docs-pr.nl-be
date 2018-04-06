@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -24,11 +24,11 @@ Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fi
 
 Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analyse, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Finance and Operations, Business edition een nieuwe kans voor u.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
 
 ## <a name="get-started"></a>Aan de slag
-Meld u aan voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Preview op [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  
-Geef ons uw feedback op [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Aanmelden voor de [!INCLUDE[d365fin](includes/d365fin_md.md)]-preview op [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  
+Feedback verzenden op [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
 Als u meer wilt weten over hoe u een reseller voor [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt, neemt u contact op met ons via [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
 
 ## <a name="see-also"></a>Zie ook

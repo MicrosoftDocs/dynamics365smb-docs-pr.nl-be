@@ -1,0 +1,1 @@
+De Isabel-functies zijn alleen beschikbaar voor on-premises implementaties.
