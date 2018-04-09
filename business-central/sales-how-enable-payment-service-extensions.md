@@ -38,7 +38,7 @@ De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standa
 3. Kies in het veld **Betalingsservice** de gewenste betalingsservice.  
 
     > [!NOTE]  
-    >   Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
+    > Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
 
 ## <a name="see-also"></a>Zie ook  
 [Verkopen instellen](sales-setup-sales.md)  

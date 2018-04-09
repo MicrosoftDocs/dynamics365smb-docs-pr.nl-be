@@ -95,7 +95,6 @@ Scenario's met alternatief A of B vertegenwoordigen het volgende:
 - **A** In dit geval is de waarschuwing voor contantkortingstolerantie uitgeschakeld OF heeft de gebruiker de waarschuwing aan staan en geselecteerd om de late contantkorting toe te staan (het saldo boeken als betalingstolerantie).  
 - **B** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd de late contantkorting niet toe te staan (Saldo laten als Restbedrag).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Factuur|Contantk.|Max. bet.-tol.|Datum contantk.|Contantk.-tol. Datum|Betaaldatum|Bet.|Tolerantiesoort|Alle posten gesloten|Contantk.-tol. GB/vlottende passiva|Bet.-tol. GB|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|15-01-03|20-01-03|<=15.01.03|985|Bet.-tol.|Ja|0|-5|  
@@ -166,8 +165,6 @@ Scenario's met alternatief A, B, C of D vertegenwoordigen het volgende:
 - **B** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd de late contantkorting voor geen enkele factuur toe te staan.  
 - **C** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd om de late contantkorting toe te staan voor de eerste factuur, maar niet voor de tweede.  
 - **D** In dit geval heeft de gebruiker de waarschuwing ingeschakeld en geselecteerd om de late contantkorting niet toe te staan voor de eerste factuur, maar wel voor de tweede.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Factuur|Contantk.|Max. bet.-tol.|Datum contantk.|Contantk.-tol. Datum|Betaaldatum|Bet.|Tolerantiesoort|Alle posten gesloten|Contantk.-tol. GB/vlottende passiva|Bet.-tol. GB|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
