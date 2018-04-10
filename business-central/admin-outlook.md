@@ -11,8 +11,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 20184c026ff12b3367aee3d3c6b0ca66c77e5c64
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -57,7 +57,7 @@ U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](incl
 In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog steeds niet beschikbaar is, moet u de manifestbestanden van de invoegtoepassing ophalen. Neem contact op met uw Office 365-beheerder voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

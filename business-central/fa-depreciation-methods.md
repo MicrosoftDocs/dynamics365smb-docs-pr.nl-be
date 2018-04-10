@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ U hebt de beschikking over acht afschrijvingsmethoden:
 * Handmatig  
 
   > [!NOTE]  
->   Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.  
+  >   Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.  
 * Halfjaarlijkse afspraak  
 
   > [!NOTE]  
->    Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.  
+  >    Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.  
 
 ## <a name="straight-line-depreciation"></a>Lineaire afschrijving
 Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opties opgeven in het afschrijvingsboek voor vaste activa:  
@@ -352,9 +352,9 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het ve
 >   U kunt niet dezelfde nummerreeks gebruiken in het financieel dagboek voor vaste activa en het dagboek voor vaste activa. Wanneer u posten in het VA-financieel dagboek boekt, moet u het veld **Documentnr.** leeg laten. Als u een nummer in het veld invoert, wordt het nummer gedupliceerd in het VA-dagboek. U moet het documentnummer handmatig wijzigen voordat u het dagboek kunt boeken.  
 
 ## <a name="see-also"></a>Zie ook
-[Vaste activa](fa-manage.md)  
+[Vast activum](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

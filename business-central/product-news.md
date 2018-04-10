@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/16/2018
+ms.date: 03/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bfef92f4b9a6f29ec443677fd77eec3ba26a580
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b9a3b7b0415a971797cba22b16a25dbdc521b0f3
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -25,11 +25,12 @@ We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE
 Op deze pagina ziet u koppelingen naar versienotities, maar vindt u ook de nieuwste updates in de [Business Central Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="dynamics-365-spring-18-release-notes"></a>Versienotities van Dynamics 365 Voorjaar ‘18
-Ontdek de laatste mutaties in onze zakelijke toepassingen, alsmede allerlei nieuwe mogelijkheden om uw eigen toepassingen en extensies boven op ons platform te bouwen. [Download](https://aka.ms/businessappsreleasenotes) de versienotities van Dynamics 365 Voorjaar '18.
+Ontdek de laatste mutaties in onze zakelijke toepassingen, alsmede allerlei nieuwe mogelijkheden om uw eigen toepassingen en extensies boven op ons platform te bouwen. U vindt een overzicht van nieuwe functies in alle Dynamics 365-apps en het platform in de versienotities van de versie Voorjaar '18, [hier](https://aka.ms/businessappsreleasenotes).
 
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Central Roadmap](https://roadmap.dynamics.com/)  
+[Dynamics 365-community](https://community.dynamics.com/business/)  
 

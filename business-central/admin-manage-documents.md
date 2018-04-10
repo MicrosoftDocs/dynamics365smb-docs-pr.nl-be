@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 292231a907970de2821daeba87003eca7bf54cdc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -32,5 +32,5 @@ Gefactureerde servicefacturen worden doorgaans automatisch verwijderd als ze vol
 Serviceorders worden echter niet automatisch verwijderd als het totale aantal op de order niet vanuit de serviceorder zelf is geboekt, maar vanuit het venster **Servicefactuur**. In dit geval zult u wellicht gefactureerde orders die niet zijn verwijderd, zelf moeten verwijderen. Hiervoor kunt u de batchverwerking **Gefactureerde serviceorders verwijderen** uitvoeren.  
 
 ## <a name="see-also"></a>Zie ook  
-[Instellingen en beheer in Business Central](admin-setup-and-administration.md)  
+[Beheer](admin-setup-and-administration.md)  
 

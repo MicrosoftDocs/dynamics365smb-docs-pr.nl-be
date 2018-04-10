@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 In het venster **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Rolcentrum
-Het rolcentrum vertegenwoordigt de startpagina, een pagina die is ontworpen voor de vereisten van de rol. Het rolcentrum biedt een overzicht van het bedrijf, met informatie, taken en prioriteiten van uw rol. 
+Het rolcentrum vertegenwoordigt de startpagina en is ontworpen voor de vereisten van de rol. Het rolcentrum biedt een overzicht van het bedrijf, met informatie, taken en prioriteiten van uw rol.
 
 Langs de bovenkant van het rolcentrum ziet u een navigatiebalk die u gemakkelijk toegang biedt tot veelvoorkomende entiteiten voor de rol, zoals klanten, leveranciers, artikelen, enzovoort.
 
@@ -41,7 +41,7 @@ Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes
 Het standaardbedrijf heet CRONUS en bevat alleen demogegevens.
 
 > [!TIP]  
->   Als u een andere benaming voor uw bedrijf wilt weergeven in de toepassing (bijvoorbeeld op de startpagina van het rolcentrum), stelt u het veld **Naam** op de pagina **Bedrijfsgegevens** of het veld **Weergavenaam** op de pagina **Bedrijven** in.  
+>   Als u een andere naam voor uw bedrijf wilt weergeven in de toepassing (bijvoorbeeld in het rolcentrum), stelt u het veld **Naam** op de pagina **Bedrijfsgegevens** of het veld **Weergavenaam** op de pagina **Bedrijven** in.  
 
 ## <a name="work-date"></a>Werkdatum
 De standaardwerkdatum is meestal de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet de huidige datum is.

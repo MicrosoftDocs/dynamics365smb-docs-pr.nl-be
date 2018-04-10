@@ -1,5 +1,6 @@
-# [Aan de slag](index.md)
-## [Minimumbehoeften](financials-requirements.md)
+# [Welkom bij Business Central](index.md)
+# [Aan de slag](product-get-started.md)
+## [Minimumbehoeften](product-requirements.md)
 ## [Veelgestelde vragen](across-faq.md)
 ## [Video's over veel voorkomende taken](across-videos.md)
 ## [Overzicht van bedrijffunctionaliteit](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Service leveren](service-deliver-service.md)
 
 # [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+## [Documentregels traceren](across-how-to-track-document-lines.md)
 ## [Documenten verzenden via e-mail](ui-how-send-documents-email.md)
 ## [Uitgebreide artikeltekst toevoegen](ui-how-define-ext-text.md)
 ## [Gebruikerstaken definiëren](across-user-tasks.md)

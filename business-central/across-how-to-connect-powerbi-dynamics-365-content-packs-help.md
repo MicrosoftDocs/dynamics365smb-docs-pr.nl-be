@@ -8,36 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/16/2018
+ms.date: 04/03/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 315d4b188cdd834e82676a0c5ef77272ad873eb7
+ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
+ms.openlocfilehash: 7b9140611a47b8b823274763731cf000258c681e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
-# <a name="connecting-power-bi-to-business-central-content-packs"></a>Power BI verbinden met Business Central-inhoudspakketten
+# <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Power BI verbinden met Dynamics 365 Business Central-inhoudspakketten
 Inzicht krijgen in uw Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens is gemakkelijk met Power BI en de inhoudspakketten van Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.
 
-> [!NOTE]  
->  U moet een geldig account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden.  
->  Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
+U moet een geldig account bij Dynamics 365 en Power BI hebben. U moet ook [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
 ![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+
+U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in het rolcentrum naar **Rapportselectie** in het onderdeel Power BI-rolcentrum. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar de servicebibliotheek in Power BI, die ook wordt gefilterd op alleen weergave van inhoudspakketten die verband houden met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+
 2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een venster geopend met de **AppSource** en **Apps voor Power BI-apps**.  
 ![Inhoudspakketten kiezen uit online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Selecteer **Apps** op het tabblad **Apps voor Power BI-apps** en kies het inhoudspakket van **Microsoft Dynamics 365 Business Central**-inhoudspakket dat u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
+3. Selecteer **Apps** op het tabblad **Apps voor Power BI-apps** en kies het **Microsoft Dynamics 365 Business Central**-inhoudspakket dat u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
-4. Voer wanneer daarom wordt gevraagd de naam van *uw bedrijf* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dit is niet de weergavenaam.  
+4. Voer wanneer daarom wordt gevraagd de naam van *uw bedrijf* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dit is niet de weergavenaam. De bedrijfsnaam kan op de pagina Bedrijven worden gevonden binnen uw [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-exemplaar. 
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
-5. Nadat verbinding is gemaakt, worden automatisch een dashboard, rapport en gegevensset geladen in uw Power BI-werkruimte. Wanneer dit is voltooid, worden de tegels bijgewerkt met gegevens uit uw account.
+5. Nadat verbinding is gemaakt, worden automatisch een dashboard, rapport en gegevensset geladen in uw Power BI-werkruimte. Wanneer dit is voltooid, worden de tegels bijgewerkt met gegevens uit uw [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-bedrijf.
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="what-now"></a>Wat nu?
 
+- Probeer [een vraag te stellen in het vraag- en antwoordvak](https://docs.microsoft.com/en-us/power-bi/service-q-and-a) boven aan het dashboard.
 - [Wijzig de tegels](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) in het dashboard.  
 - [Selecteer een tegel](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
 - Terwijl uw gegevensset wordt gepland om dagelijks te worden vernieuwd, kunt u het vernieuwingsschema wijzigen of op verzoek proberen te vernieuwen met **Nu vernieuwen**.
@@ -45,50 +47,77 @@ Inzicht krijgen in uw Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long
 ## <a name="system-requirements"></a>Systeemvereisten
 Als u de gegevens [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Power BI wilt importeren, moet u machtigingen hebben voor de webservices die worden gebruikt om gegevens op te halen. De webservices die voor elk inhoudspakket vereist zijn omvatten:
 
+## <a name="role-center-reports"></a>Rolcentrumrapporten
+
 **Microsoft Dynamics 365 Business Central – CRM**
-- SalesOpportunities
-- ExcelTemplateViewCompany
+- Verkoopopportunities
+- Excel-sjabloonweergave Bedrijf
+- Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Verkoop**
-- ItemSalesbyCustomer
-- SalesDashboard
-- ExcelTemplateViewCompany
-
-**Microsoft Dynamics 365 Business Central – Financiën**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
-- ExcelTemplateViewCompany
+- Excel-sjabloonweergave Bedrijf
+- Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Projecten**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Projectoverzicht
 - Projectplanningsregels
 - Projecttaakregels
+- Labels van Power BI-rapport
+- Excel-sjabloonweergave Bedrijf
 
-**Microsoft Dynamics 365 Business Central – Lijst met klanten**
-- ItemSalesbyCustomer
-- Power_BI_Item_Purchase_List
-- Power_BI_Item_Sales_List
-- SalesDashboard
-- Power_BI_Customer_List
-- ExcelTemplateViewCompany
+**Microsoft Dynamics 365 Business Central - Sales**
+- Verkoopdashboard
+- Excel-sjabloonweergave Bedrijf
+- Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Lijst met artikelen**
-- ItemSalesbyCustomer
-- Power_BI_Item_Purchase_List
-- Power_BI_Item_Sales_List
-- Artikelen
-- SalesDashboard
-- ExcelTemplateViewCompany
+## <a name="list-page-reports"></a>Lijstpaginarapporten 
 
-**Microsoft Dynamics 365 Business Central – Lijst met leveranciers**
-- ItemSalesbyCustomer
-- Power_BI_Item_Purchase_List
-- Power_BI_Item_Sales_List
-- Artikelen
-- SalesDashboard
-- Power_BI_Customer_List
-- ItemSalesbyCustomer
-- Power_BI_Vendor_List
+**Microsoft Dynamics 365 Business Central – Customers List**
+- Artikelverkopen per klant
+- Power BI-artikelinkoopoverzicht
+- Power BI-artikelverkoopoverzicht
+- Verkoopdashboard
+- Power BI-klantenoverzicht
 - ExcelTemplateViewCompany
+- Labels van Power BI-rapport 
+
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+- Power BI-overzicht met grootboekbedragen
+- Power BI gebudgetteerd grootboekbedrag
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Items List**
+- Artikelverkopen per klant
+- Power BI-artikelinkooplijst
+- Power BI-artikelverkooplijst
+- Verkoopdashboard
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Jobs List**
+- Power BI-projectenoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+- Power BI-inkoopoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
+- Power BI-verkoopoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+
+**Microsoft Dynamics 365 Business Central – Vendors List**
+- Power BI-artikelinkooplijst
+- Power BI-artikelverkooplijst
+- Power BI-leveranciersoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
 
 ## <a name="web-services"></a>Webservices
 Een eenvoudige manier om de webservices te vinden is te zoeken naar webservices in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. In de lijst moet u ervoor zorgen het vakje Publiceren is gemarkeerd voor de hierboven genoemde webservices.
@@ -105,13 +134,13 @@ De gebruikersnaam en het wachtwoord die worden gebruikt om verbinding te maken, 
 De inhoudspakketten vereisen ook dat u een Microsoft-[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] hebt. Zodra u uw aanmeldingsgegevens invoert, worden eventuele Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-tenants waartoe u toegang hebt, automatisch gevonden. Als u geen gelicentieerd of proef Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-account hebt, wordt een foutbericht weergegeven.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen
-Als u niet een geldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u de foutmelding "De sleutel kwam met geen rijen uit de tabel overeen" krijgen. Geef de juiste bedrijfsnaam op en probeer opnieuw verbinding te maken.
+Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u de foutmelding "De sleutel kwam met geen rijen uit de tabel overeen" krijgen. Geef de juiste bedrijfsnaam op en probeer opnieuw verbinding te maken.
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag met Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
-[Power BI - Basisconcepten](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)
+[Power BI-basisconcepten](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Bedrijfsinformatie](bi.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Financiën](finance.md)  

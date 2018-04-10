@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven
 4. Vul op het sneltabblad **Gebruikersmachtigingensets** waar nodig de velden in op een nieuwe regel. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Gebruikers in gebruikersgroepen samenvoegen
-U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren voor groepen gebruikers in uw bedrijf. U kunt een functie gebruiken om alle machtigingensets van een bestaande gebruikersgroep naar de nieuwe gebruikersgroep te kopiëren. De leden van de gebruikersgroep worden niet gekopieerd.
+U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren voor groepen gebruikers in uw bedrijf.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersgroepen** in en klik vervolgens op de gerelateerde koppeling.
 2. U kunt ook in het venster **Gebruikers** de actie **Gebruikersgroepen** kiezen.
@@ -45,17 +45,28 @@ U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren vo
 7. Als u nieuwe of extra machtigingensets wilt toevoegen, kiest u in het venster **Gebruikersgroepen** de actie **Machtigingensets van gebruikersgroep**.
 8. Vul in het venster **Machtigingensets van gebruikersgroep** op een nieuwe regel de velden waar nodig in door bestaande machtigingensets te selecteren.
 
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Een gebruikersgroep en alle bijbehorende machtigingensets kopiëren
+Als u snel een nieuwe gebruikersgroep wilt definiëren, kopieert u alle machtigingensets van een bestaande gebruikersgroep naar de nieuwe gebruikersgroep.
+
+De leden van de gebruikersgroep worden niet gekopieerd naar de nieuwe gebruikersgroep. Dit moet u handmatig achteraf doen.
+
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersgroepen** in en klik vervolgens op de gerelateerde koppeling.
+2. Selecteer de gebruikersgroep die u wilt kopiëren, en kies vervolgens de actie **Gebruikersgroep kopiëren**.
+3. Voer in het veld **Nieuwe gebruikersgroepcode** een naam voor de groep in en kies vervolgens de knop **OK**.
+
+De nieuwe gebruikersgroep wordt toegevoegd aan het venster **Gebruikersgroepen**. Voeg gebruikers toe. Zie voor meer informatie het gedeelte "Gebruikers in gebruikersgroepen samenvoegen".
+
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
 Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersinstellingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Gebruikersinstellingen** dat wordt geopend, de actie **Nieuw**.
 3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
-4. Vul de velden in.
+4. Vul de benodigde velden in.
 
 ## <a name="see-also"></a>Zie ook
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Installatie en beheer in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Beheer](admin-setup-and-administration.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

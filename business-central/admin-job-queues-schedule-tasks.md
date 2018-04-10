@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Wanneer een taakwachtrij handmatig is geactiveerd, wordt deze uitgevoerd met de 
 De record van de taakwachtrijpost heeft veel velden om de parameters in een codeunit te plaatsen die u hebt opgegeven voor het uitvoeren met een taakwachtrij. Dit betekent ook dat codeunits die moeten worden uitgevoerd via de taakwachtrij, moeten worden gespecificeerd met de taakwachtrijrecord als een parameter in de **OnRun** trigger. Dit biedt een extra beveiligingsniveau aangezien het voorkomt dat gebruikers willekeurige codeunits uitvoeren via de taakwachtrij. Als de gebruiker parameters aan een rapport moet doorgeven, kan dit enkel door de lijstuitvoering in een codeunit te plaatsen die vervolgens de invoerparameters parseert en deze in de lijst plaatst voordat deze wordt uitgevoerd.  
 
 ## <a name="see-also"></a>Zie ook  
-[Instellingen en beheer in Business Central](admin-setup-and-administration.md)  
+[Beheer](admin-setup-and-administration.md)  
 [Business Central instellen](setup.md)  
 

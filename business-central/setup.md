@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -59,9 +59,9 @@ Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[d365fin](includes/d36
 [Productie](production-manage-manufacturing.md)  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Installatie en beheer in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Beheer](admin-setup-and-administration.md)  
 [Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Welkom bij [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

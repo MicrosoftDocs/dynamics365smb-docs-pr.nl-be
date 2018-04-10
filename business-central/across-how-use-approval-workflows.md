@@ -12,8 +12,8 @@ ms.search.keywords: reject, delegate, request
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bcceb5356352d43d95c4546a1e32fbbc9a9250b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0b83fbb4ec39a1a7596fd788e5dad985bacb30c2
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ U stelt goedkeuringswerkstromen in het venster **Werkstroom** in. Zie voor meer 
 
 Naast werkstromen voor goedkeuring die in dit onderwerp worden beschreven kunt u verschillende andere werkstroomtaken uitvoeren. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).
 
-Kerngoedkeuringswerkstromen voor inkoopdocumenten, verkoopdocumenten, betalingsdagboeken, klantenkaarten en artikelkaarten zijn gereed om als begeleide instellingen te dienen. Zie voor meer informatie [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+Kerngoedkeuringswerkstromen voor inkoopdocumenten, verkoopdocumenten, betalingsdagboeken, klantenkaarten en artikelkaarten zijn gereed om als begeleide instellingen te dienen. Zie voor meer informatie [Aan de slag](product-get-started.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Goedkeuring van een record aanvragen
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker.

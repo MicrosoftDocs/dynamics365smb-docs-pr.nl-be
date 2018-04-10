@@ -1,8 +1,6 @@
 ---
 title: Analyselijsten maken| Microsoft Docs
 description: Beschrijft hoe u nieuwe analyselijsten maakt voor verkopen, inkopen en voorraad, en analysesjablonen instelt.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ De regels op een sjabloon vertegenwoordigen stuk voor stuk de analysekolommen di
 4. Geef in de velden in het venster **Analysekolommen** op welke kolommen u in de analyselijst wilt opnemen.  
 
     > [!NOTE]  
->   Als u een kolom wilt definiëren, moet u het veld **Code soort analyse** invullen voor alle soorten kolommen, behalve **Formule**. Stel de analysetypecodes in het venster **Soorten analyse** in.  
-
-    **Opmerking**. Als u **Artikelposten** selecteert in het veld **Boekingssoort grootboek**, worden de werkelijke cijfers van de artikelpost gekopieerd. Selecteert u hier **Artikelbudgetposten**, dan worden de gebudgetteerde cijfers van het budget gekopieerd.  
+    >   Als u een kolom wilt definiëren, moet u het veld **Code soort analyse** invullen voor alle soorten kolommen, behalve **Formule**. Stel de analysetypecodes in het venster **Soorten analyse** in.  
+    Als u **Artikelposten** selecteert in het veld **Boekingssoort grootboek**, worden de werkelijke cijfers van de artikelpost ook gekopieerd. Selecteert u hier **Artikelbudgetposten**, dan worden de gebudgetteerde cijfers van het budget gekopieerd.  
 5.  Kies de knop **OK** om de wijzigingen op te slaan.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analyseregelsjablonen instellen  

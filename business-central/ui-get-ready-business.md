@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het vol
 
 Wanneer u een begeleide instelling uitvoert, wordt deze gemarkeerd als **Voltooid**. Als u de begeleide instelling wilt uitvoeren, kiest u de drie puntjes die ook het contextmenu worden genoemd, en selecteert u vervolgens **Instelling starten**.
 
-## <a name="role-center-home-page"></a>Startpagina van rolcentrum
-Op de startpagina van het rolcentrum hebt u een overzicht van het bedrijf. Aan de linkerkant ziet u een navigatiebalk die u gemakkelijk toegang geeft aan klanten, leveranciers, artikelen, enzovoort. In het midden vindt u de tegels **Activiteiten**. Bij **Activiteiten** worden actuele gegevens weergegeven en u kunt klikken en tikken op de activiteiten voor gemakkelijke toegang tot het geselecteerde document. De **KPI´s** (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met **Favoriete klanten** maken op de startpagina van het rolcentrum voor accounts waarmee u vaak zaken doet of waaraan u speciale aandacht moet geven.
-Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te maken om specifieke gegevens weer te geven. Boven aan de startpagina van het rolcentrum vindt u alle acties die op de huidige inhoud kunnen worden toegepast. Dit kan ook worden samengevouwen en u hoeft alleen te klikken of te tikken binnen het samengevouwen gebied om het opnieuw weer te geven.
+## <a name="role-center"></a>Rolcentrum
+In het rolcentrum hebt u een overzicht van het bedrijf. Aan de linkerkant ziet u een navigatiebalk die u gemakkelijk toegang geeft aan klanten, leveranciers, artikelen, enzovoort. In het midden vindt u de tegels **Activiteiten**. Bij **Activiteiten** worden actuele gegevens weergegeven en u kunt klikken en tikken op de activiteiten voor gemakkelijke toegang tot het geselecteerde document. De **KPI´s** (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met **Favoriete klanten** maken in het rolcentrum voor accounts waarmee u vaak zaken doet of waaraan u speciale aandacht moet geven.
+Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te maken om specifieke gegevens weer te geven. Boven aan het rolcentrum vindt u alle acties die op de huidige inhoud kunnen worden toegepast. Dit kan ook worden samengevouwen en u hoeft alleen te klikken of te tikken binnen het samengevouwen gebied om het opnieuw weer te geven.
 
 > [!TIP]  
-> U kunt naar de startpagina van het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
+> U kunt naar het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
 
 ## <a name="company-information"></a>Bedrijfsgegevens
 Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat in dit venster doen.    
@@ -63,7 +63,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de ver
 Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Mijn bedrijf** van de pagina **Start** om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingregistratie te maken.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
 

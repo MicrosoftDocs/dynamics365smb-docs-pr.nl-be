@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u ge
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Is het mogelijk mijn “Nieuw bedrijf”-proefperiode te verlengen?
 Ja. Als u uw proefperiode wilt verlengen, moet u contact opnemen met Microsoft op 1-888-477-7989 (VS) of 1-800-741-9206 (Canada). OPMERKING: het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds dezelfde startpagina in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds hetzelfde rolcentrum in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw Rolcentrum niet gewijzigd en gebruikersgroepen toegewezen die voldoen aan de nieuwe licentie. In wezen wordt uw toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaald door het type plan (licentie) dat u hebt - hiermee worden machtigingen en uw standaard rolcentrumstartpagina ingesteld. U kunt uw Rolcentrum handmatig wijzigen in Mijn Instellingen, maar als u naar een ander plan wordt verplaatst, zoals van het Bedrijfsplan naar het Teamledenplan, ziet u mogelijk de oude startpagina omdat uw machtigingen niet zijn gewijzigd.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Waarom kan ik die mogelijkheid niet vinden in mijn [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk nog niet geüpgraded naar de laatste versie. Als de mogelijkheid als een extensie in AppSource is gepubliceerd, is er een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource.
 
 ## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken zonder Outlook](admin-no-outlook.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

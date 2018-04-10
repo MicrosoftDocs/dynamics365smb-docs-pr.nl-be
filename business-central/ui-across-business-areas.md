@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 
 | Aan | Zie |
 | --- | --- |
+|Lopende, geboekte of gearchiveerde documenten weergeven die gerelateerd zijn aan verkoop- en inkooporderregels.|[Documentregels traceren](across-how-to-track-document-lines.md)|
 | Deel de inhoud van bedrijfsdocumenten snel met uw zakelijke partners, zoals doorgeven van betalingsgegevens over verkoopdocumenten aan klanten. |[Documenten verzenden via e-mail](ui-how-send-documents-email.md) |
 | Standaardteksten instellen zodat u standaardtekst kunt uitbreiden door extra regels toe te voegen en voorwaarden voor het gebruik van de extra regels kunt instellen. |[Uitgebreide tekst definiëren](ui-how-define-ext-text.md) |
 |Taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.|[Gebruikerstaken definiëren](across-user-tasks.md)|

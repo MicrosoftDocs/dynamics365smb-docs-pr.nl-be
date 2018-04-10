@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Post
 3. Vul indien nodig de velden in het venster **VA-boekingsgroep** in.
 
     > [!NOTE]  
->   Om ervoor te zorgen dat tegenrekeningen voor verschillende boekingen van vaste activa automatisch worden ingevoegd als u de actie **VA-tegenrekening invoegen** op dagboekregels kiest, voert u op basis van boeking van waardevermeerdering de volgende stap uit.
+    >   Om ervoor te zorgen dat tegenrekeningen voor verschillende boekingen van vaste activa automatisch worden ingevoegd als u de actie **VA-tegenrekening invoegen** op dagboekregels kiest, voert u op basis van boeking van waardevermeerdering de volgende stap uit.
 4. Selecteer op het sneltabblad **Tegenrekening** in het veld **Tegenrekening waardevermeerdering** de grootboekrekening waarnaar u tegenrekeningsposten wilt boeken voor afschrijving.
 
 Zie voor meer informatie over het gebruik van de actie **VA-tegenrekening invoegen** voor regels van het financieel dagboek voor vaste activa bijvoorbeeld [Vaste activa herwaarderen](fa-how-revalue.md).
@@ -121,6 +121,6 @@ Als de vaste activa niet zijn geïntegreerd met het grootboek, slaat u de stappe
 [Vaste activa instellen](fa-setup.md)  
 [Vast activum](fa-manage.md)  
 [Financiën](finance.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

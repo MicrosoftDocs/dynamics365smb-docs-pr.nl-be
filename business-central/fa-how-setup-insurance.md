@@ -13,8 +13,8 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 076fdb197a2fef45f67d4c2738eaac0503c91e51
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ed03191f683b1b1f9f60351712d51b97ad53e98e
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -59,8 +59,8 @@ Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De 
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  
-[Vaste activa](fa-manage.md)  
+[Vast activum](fa-manage.md)  
 [Financiën](finance.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

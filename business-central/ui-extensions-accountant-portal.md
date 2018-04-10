@@ -11,8 +11,8 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2bbe5af160a3512c83cc33057252ff6c2eb6a6fc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e7778f0a118280ef18c2ddb61a1c0b0ee7b2452
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Zie [Accountantervaringen in Business Central](finance-accounting.md) voor meer 
 ## <a name="using-the-extension"></a>De extensie gebruiken
 De extensie wordt over een aantal maanden buiten gebruik gesteld. We raden u aan deze extensie niet te installeren en u in plaats daarvan aan te melden voor [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] via [Financials for Accountants op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).
 
-Zie [Welkom bij Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md) voor meer informatie.  
+Zie [Welkom bij Dynamics 365 — Accountant Hub](/dynamics365/accountants/index) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
 [Accountantervaringen in Business Central](finance-accounting.md)  

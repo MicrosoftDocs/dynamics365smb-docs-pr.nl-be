@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Als u de fout "Aanmelding mislukt" krijgt wanneer u zich aanmeldt bij het dashbo
 * Het [!INCLUDE[d365fin](includes/d365fin_md.md)]-exemplaar waarmee u verbinding probeert te maken, heeft geen geldig SSL-certificaat. In dit geval ziet u een gedetailleerde foutmelding ("kan geen vertrouwde SSL-relatie tot stand brengen").
 
     > [!NOTE]  
->   Zelfondertekende certificaten worden niet ondersteund.  
+    >   Zelfondertekende certificaten worden niet ondersteund.  
 
 **"Oops"**  
 Als u een "Oops"-foutdialoogvenster ziet na het verificatiedialoogvenster, komt dat meestal door een probleem bij het maken van verbinding met de gegevens voor het Content Pack.
@@ -118,7 +118,7 @@ Als u een "Oops"-foutdialoogvenster ziet na het verificatiedialoogvenster, komt 
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als PowerApps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  

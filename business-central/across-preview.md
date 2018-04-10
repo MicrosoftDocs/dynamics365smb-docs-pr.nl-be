@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: nl-be
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Zie voor meer informatie [Ontwerper gebruiken](https://docs.microsoft.com/en-us/
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies waarmee u uw eigen invoegtoepassing kunt implementeren en functionaliteit kunt insluiten om nieuwe branche-eigen end-to-end ervaringen toe te voegen of oplossingen van derden te integreren. U kunt bijvoorbeeld een API gebruiken om een verbonden toepassing te maken om gegevens uit te wisselen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en uw loonlijstapp. Verbonden apps kunnen ook extensies gebruiken om pagina's te maken die worden gebruikt voor instelling, configuratie of ter ondersteuning van app-specifieke functies. Zie voor meer informatie [Apps ontwikkelen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
