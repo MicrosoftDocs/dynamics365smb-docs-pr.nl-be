@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f6969d05cfde9ba7ce5767a961d4af1c7b3bd983
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 87285ffae204d57f337332f443988cf39a83e75a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-gl-budgets"></a><span data-ttu-id="7f199-103">Grootboekbudgetten maken</span><span class="sxs-lookup"><span data-stu-id="7f199-103">Create G/L Budgets</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-create-a-new-gl-budget"></a><span data-ttu-id="7f199-118">Een nieuw grootboekbudget maken</span><span class="sxs-lookup"><span data-stu-id="7f199-118">To create a new G/L budget</span></span>  
 1. <span data-ttu-id="7f199-119">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekbudgetten** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="7f199-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="7f199-120">Kies de actie **Lijst bewerken** en vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="7f199-120">Choose the **Edit List** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="7f199-120">Kies de actie **Lijst bewerken** en vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="7f199-120">Choose the **Edit List** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="7f199-121">Kies de actie **Budget bewerken**.</span><span class="sxs-lookup"><span data-stu-id="7f199-121">Choose the **Edit Budget** action.</span></span>
 4. <span data-ttu-id="7f199-122">Vul boven in het venster **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="7f199-122">At the top of the **Budget** window, fill in the fields as necessary to define what is displayed.</span></span>  
 

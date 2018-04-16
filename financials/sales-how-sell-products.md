@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="3f53f-103">Producten verkopen</span><span class="sxs-lookup"><span data-stu-id="3f53f-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="3f53f-146">Wanneer u de klantenkaart hebt ingevuld, kiest u de knop **OK** om terug te keren naar het venster **Verkooporder**.</span><span class="sxs-lookup"><span data-stu-id="3f53f-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="3f53f-147">Verschillende velden op de verkooporder worden nu ingevuld met gegevens die u hebt opgegeven op de nieuwe klantenkaart.</span><span class="sxs-lookup"><span data-stu-id="3f53f-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="3f53f-148">Vul indien nodig de overige velden in het venster **Verkooporder** in.</span><span class="sxs-lookup"><span data-stu-id="3f53f-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="3f53f-148">Vul indien nodig de overige velden in het venster **Verkooporder** in.</span><span class="sxs-lookup"><span data-stu-id="3f53f-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="3f53f-149">U kunt nu de verkooporderregels invullen met voorraadartikelen of services die u aan de klant wilt verkopen.</span><span class="sxs-lookup"><span data-stu-id="3f53f-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="3f53f-152">Geef in het veld **Aantal** op hoeveel artikelen u wilt verkopen.</span><span class="sxs-lookup"><span data-stu-id="3f53f-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="3f53f-153">Voor artikelen van de soort Service is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.</span><span class="sxs-lookup"><span data-stu-id="3f53f-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="3f53f-153">Voor artikelen van de soort Service is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.</span><span class="sxs-lookup"><span data-stu-id="3f53f-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="3f53f-154">Het veld **Regelbedrag** wordt bijgewerkt met de waarde in het veld **Eenheidsprijs**, vermenigvuldigd met de waarde in het veld **Aantal**.</span><span class="sxs-lookup"><span data-stu-id="3f53f-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="3f53f-163">In een nieuwe klantenkaart wordt de informatie uit de geselecteerde klantensjabloon getoond.</span><span class="sxs-lookup"><span data-stu-id="3f53f-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="3f53f-164">Vul de overige velden in.</span><span class="sxs-lookup"><span data-stu-id="3f53f-164">Fill in the remaining fields.</span></span> <span data-ttu-id="3f53f-165">Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="3f53f-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="3f53f-166">Wanneer u de klantenkaart hebt ingevuld, kiest u de knop **OK** om terug te keren naar het venster **Verkooporder**.</span><span class="sxs-lookup"><span data-stu-id="3f53f-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="3f53f-167">Verschillende velden op de verkooporder worden nu ingevuld met gegevens die u hebt opgegeven op de nieuwe klantenkaart.</span><span class="sxs-lookup"><span data-stu-id="3f53f-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="3f53f-168">Vul indien nodig de overige velden in het venster **Verkooporder** in.</span><span class="sxs-lookup"><span data-stu-id="3f53f-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="3f53f-167">Verschillende velden op de verkooporder worden nu ingevuld met gegevens die u hebt opgegeven op de nieuwe klantenkaart.</span><span class="sxs-lookup"><span data-stu-id="3f53f-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="3f53f-168">Vul indien nodig de overige velden in het venster **Verkooporder** in.</span><span class="sxs-lookup"><span data-stu-id="3f53f-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="3f53f-169">U kunt nu verkooporderregels invullen voor producten die u aan de klant verkoopt of voor elke transactie met de klant die u in een grootboekrekening wilt registreren.</span><span class="sxs-lookup"><span data-stu-id="3f53f-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="3f53f-169">U kunt nu verkooporderregels invullen voor producten die u aan de klant verkoopt of voor elke transactie met de klant die u in een grootboekrekening wilt registreren.</span><span class="sxs-lookup"><span data-stu-id="3f53f-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="3f53f-170">Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Terugkerende verkoopregels ophalen** te kiezen.</span><span class="sxs-lookup"><span data-stu-id="3f53f-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="3f53f-170">Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Terugkerende verkoopregels ophalen** te kiezen.</span><span class="sxs-lookup"><span data-stu-id="3f53f-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="3f53f-171">Selecteer op het sneltabblad **Regels** in het veld **Soort** het type product, kosten of transactie die u wilt boeken voor de klant met deze verkoopregel.</span><span class="sxs-lookup"><span data-stu-id="3f53f-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="3f53f-172">Voer in het veld **Nr.**</span><span class="sxs-lookup"><span data-stu-id="3f53f-172">In the **No.**</span></span> <span data-ttu-id="3f53f-173">een record die u wilt boeken op basis van de waarde in het veld **Soort**.</span><span class="sxs-lookup"><span data-stu-id="3f53f-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="3f53f-180">Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="3f53f-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="3f53f-181">Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.</span><span class="sxs-lookup"><span data-stu-id="3f53f-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="3f53f-182">Zie [Artikeleenheden instellen](inventory-how-setup-units-of-measure.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="3f53f-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="3f53f-181">Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.</span><span class="sxs-lookup"><span data-stu-id="3f53f-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="3f53f-182">Zie [Artikeleenheden instellen](inventory-how-setup-units-of-measure.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="3f53f-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="3f53f-183">De waarde in het veld **Regelbedrag** wordt berekend als *Eenheidsprijs* x *Aantal*.</span><span class="sxs-lookup"><span data-stu-id="3f53f-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 

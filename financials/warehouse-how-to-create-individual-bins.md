@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fab392260f07405156c8c9874f141b05d24e681b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-bins"></a><span data-ttu-id="fd8fa-103">Opslaglocaties maken</span><span class="sxs-lookup"><span data-stu-id="fd8fa-103">Create Bins</span></span>
 <span data-ttu-id="fd8fa-104">De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-104">The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card.</span></span> <span data-ttu-id="fd8fa-105">U kunt ook een functie in het venster **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-105">You can also use a function in the **Bin Creation Worksheet** window to create bins automatically.</span></span>  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a><span data-ttu-id="fd8fa-106">Een opslaglocatie maken vanaf de vestigingskaart</span><span class="sxs-lookup"><span data-stu-id="fd8fa-106">To create a bin from the location card</span></span>  
-1.  <span data-ttu-id="fd8fa-107">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.</span></span>  
-2.  <span data-ttu-id="fd8fa-108">Selecteer de vestiging waarvan u een opslaglocatie wilt maken en kies de actie **Opslaglocaties**.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-108">Select the location that you want to create a bin from, and then choose the **Bins** action.</span></span>  
+1. <span data-ttu-id="fd8fa-107">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.</span></span>  
+2. <span data-ttu-id="fd8fa-108">Selecteer de vestiging waarvan u een opslaglocatie wilt maken en kies de actie **Opslaglocaties**.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-108">Select the location that you want to create a bin from, and then choose the **Bins** action.</span></span>  
 3. <span data-ttu-id="fd8fa-109">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-109">Choose the **New** action.</span></span>
-4. <span data-ttu-id="fd8fa-110">Vul de velden in.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. <span data-ttu-id="fd8fa-110">Vul de velden in.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-110">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a><span data-ttu-id="fd8fa-111">Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties</span><span class="sxs-lookup"><span data-stu-id="fd8fa-111">To create bins individually in the bin creation worksheet</span></span>  
 1.  <span data-ttu-id="fd8fa-112">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorstel opslaglocatieaanmaak** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="fd8fa-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and choose the related link.</span></span>  

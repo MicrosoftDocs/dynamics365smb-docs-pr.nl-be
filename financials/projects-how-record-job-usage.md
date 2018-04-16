@@ -13,10 +13,10 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 15bddf7d0e1ed651bc4b2be6fafd24db360f952c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-usage-for-jobs"></a><span data-ttu-id="2652c-103">Gebruik voor projecten vastleggen</span><span class="sxs-lookup"><span data-stu-id="2652c-103">Record Usage for Jobs</span></span>
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/22/2018
 
     <span data-ttu-id="2652c-118">Het **Resterend aantal** bevat het resterende aantal om het project te voltooien en dat moet worden overgebracht naar het dagboek.</span><span class="sxs-lookup"><span data-stu-id="2652c-118">The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.</span></span>  
 5. <span data-ttu-id="2652c-119">Kies de actie **Projectdagboekregels maken**.</span><span class="sxs-lookup"><span data-stu-id="2652c-119">Choose the **Create Job Journal Lines** action.</span></span>
-6. <span data-ttu-id="2652c-120">Vul in het venster **Projectplanningsregel taakoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="2652c-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. <span data-ttu-id="2652c-120">Vul in het venster **Projectplanningsregel taakoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="2652c-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. <span data-ttu-id="2652c-121">Kies de actie **Projectdagboek openen**.</span><span class="sxs-lookup"><span data-stu-id="2652c-121">Choose the **Open Job Journal** action.</span></span>  
 8. <span data-ttu-id="2652c-122">Selecteer in het venster **Projectdagboek** de relevante regel en kies vervolgens de actie **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="2652c-122">In the **Job Journal** window, select the relevant line and then choose the **Post** action.</span></span>
 9. <span data-ttu-id="2652c-123">Bekijk in het venster **Projectplanningsregels** het vastgelegde gebruik door te kijken naar de velden **Aantal**, **Resterend aantal** en **Aantal te verplaatsen naar dagboek**.</span><span class="sxs-lookup"><span data-stu-id="2652c-123">In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.</span></span>  

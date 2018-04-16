@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: cad8f8a66646abce97d73e76b34ea8886603d905
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3b506400edac4a5aecc69e41cbe09d260f3d5011
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="export-and-post-domiciliations"></a><span data-ttu-id="9930f-104">Domiciliëringen exporteren en boeken</span><span class="sxs-lookup"><span data-stu-id="9930f-104">Export and Post Domiciliations</span></span>
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 <span data-ttu-id="9930f-105">U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren.</span><span class="sxs-lookup"><span data-stu-id="9930f-105">You can submit domiciliations to your bank by exporting the data to a file.</span></span> <span data-ttu-id="9930f-106">Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.</span><span class="sxs-lookup"><span data-stu-id="9930f-106">When you export to a file, you can choose to automatically post the lines to the general ledger.</span></span>  
 

@@ -13,10 +13,10 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8460dac8478fa101a255d93110578fa9ea20516f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6307db87dd8c637f45697735fb223c4db5e073a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="revalue-inventory"></a><span data-ttu-id="27ec7-103">Voorraad herwaarderen</span><span class="sxs-lookup"><span data-stu-id="27ec7-103">Revalue Inventory</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-revalue-inventory"></a><span data-ttu-id="27ec7-105">Voorraad herwaarderen</span><span class="sxs-lookup"><span data-stu-id="27ec7-105">To revalue inventory</span></span>
 1. <span data-ttu-id="27ec7-106">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Herwaarderingsdagboek** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="27ec7-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
 2. <span data-ttu-id="27ec7-107">Kies de actie **Voorraadwaarde berekenen**.</span><span class="sxs-lookup"><span data-stu-id="27ec7-107">Choose the **Calculate Inventory Value** action.</span></span>
-3. <span data-ttu-id="27ec7-108">Vul in het venster **Voorraadwaarde berekenen** indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="27ec7-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="27ec7-108">Vul in het venster **Voorraadwaarde berekenen** indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="27ec7-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="27ec7-109">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="27ec7-109">Choose the **OK** button.</span></span>
 5. <span data-ttu-id="27ec7-110">Voer op elke regel in het venster **Herwaarderingsdagboek** het veld **Kostprijs (Geherwaardeerd)** in en voer de nieuwe eenheidskosten in.</span><span class="sxs-lookup"><span data-stu-id="27ec7-110">On each line in the **Revaluation Journal** window, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="27ec7-111">U kunt ook het nieuwe totale bedrag in het veld **Voorraadwaarde (Geherwaardeerd)** invoeren.</span><span class="sxs-lookup"><span data-stu-id="27ec7-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 

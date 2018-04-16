@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3228d82190e81198817d0e1fa5c86f6c9d0f784f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a57ab953304a89f0caeedd66f6be55e3cf5030bb
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-purchases"></a><span data-ttu-id="4a1ca-103">Inkopen vastleggen</span><span class="sxs-lookup"><span data-stu-id="4a1ca-103">Record Purchases</span></span>
@@ -48,17 +48,17 @@ ms.lasthandoff: 03/22/2018
 8. <span data-ttu-id="4a1ca-138">Wanneer u de leverancierskaart hebt voltooid, kiest u de knop **OK** om terug te keren naar het venster **Inkoopfactuur**.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-138">When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.</span></span>
 
     <span data-ttu-id="4a1ca-139">Verschillende velden in het venster **Inkoopfactuur** worden gevuld met gegevens die u op de nieuwe leverancierskaart hebt opgegeven.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-139">Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.</span></span>
-9. <span data-ttu-id="4a1ca-140">Vul indien nodig de overige velden in het venster **Inkoopfactuur** in.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. <span data-ttu-id="4a1ca-140">Vul indien nodig de overige velden in het venster **Inkoopfactuur** in.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="4a1ca-141">U kunt nu de inkoopfactuurregels invullen met voorraadartikelen of services die u hebt gekocht van de leverancier.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-141">You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="4a1ca-142">Als u terugkerende inkoopregels voor de leverancier hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de factuur door de actie **Terugkerende inkoopregels ophalen** te kiezen.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
+   >   <span data-ttu-id="4a1ca-142">Als u terugkerende inkoopregels voor de leverancier hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de factuur door de actie **Terugkerende inkoopregels ophalen** te kiezen.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
 10. <span data-ttu-id="4a1ca-143">Voer op het sneltabblad **Regels** in het veld **Artikelnr.** het nummer van een voorraadartikel of een service in.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-143">On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.</span></span>
 11. <span data-ttu-id="4a1ca-144">Voer in het veld **Aantal** het in te kopen aantal van een artikel in.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-144">In the **Quantity** field, enter the number of items to be purchased.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="4a1ca-145">Voor artikelen van de soort **Service** is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="4a1ca-145">Voor artikelen van de soort **Service** is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="4a1ca-146">Het veld **Regelbedrag** wordt bijgewerkt met de waarde in het veld **Directe kostprijs**, vermenigvuldigd met de waarde in het veld **Aantal**.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-146">The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="4a1ca-148">In het veld **Kortingsbedrag op factuur** voert u een bedrag in dat moet worden afgetrokken van de waarde in het veld **Totaal incl. btw** onder in de factuur.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-148">In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="4a1ca-149">Als u factuurkortingen voor de leverancier hebt opgegeven, wordt het percentage automatisch ingevoegd in het veld **Kortingspercentage op leveranciersfactuur** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Kortingsbedrag op factuur**.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
+    >   <span data-ttu-id="4a1ca-149">Als u factuurkortingen voor de leverancier hebt opgegeven, wordt het percentage automatisch ingevoegd in het veld **Kortingspercentage op leveranciersfactuur** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Kortingsbedrag op factuur**.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
 13. <span data-ttu-id="4a1ca-150">Als u de ingekochte artikelen of diensten ontvangt, kiest u **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-150">When you receive the purchased items or services, choose **Post**.</span></span>
 
 <span data-ttu-id="4a1ca-151">De inkoop wordt nu weerspiegeld in de voorraad en financiële records, en de leveranciersbetaling is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-151">The purchase is now reflected in inventory and financial records, and the vendor payment is activated.</span></span> <span data-ttu-id="4a1ca-152">De inkoopfactuur wordt verwijderd uit het overzicht met inkoopfacturen en wordt vervangen door een nieuw document in het overzicht van geboekte inkoopfacturen.</span><span class="sxs-lookup"><span data-stu-id="4a1ca-152">The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.</span></span>

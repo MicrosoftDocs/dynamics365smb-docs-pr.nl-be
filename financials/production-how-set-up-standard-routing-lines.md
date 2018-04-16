@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ab9bdd105fefc44781ecabd8b7cfa7ac9145fc41
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a><span data-ttu-id="3599e-103">Standaardbewerkingsplanregels instellen</span><span class="sxs-lookup"><span data-stu-id="3599e-103">Set Up Standard Routing Lines</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-a-standard-task"></a><span data-ttu-id="3599e-106">Een standaardtaak instellen</span><span class="sxs-lookup"><span data-stu-id="3599e-106">To set up a standard task</span></span>
 1. <span data-ttu-id="3599e-107">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaardtaken** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="3599e-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.</span></span>
 2. <span data-ttu-id="3599e-108">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="3599e-108">Choose the **New** action.</span></span>
-3. <span data-ttu-id="3599e-109">Vul de velden in.</span><span class="sxs-lookup"><span data-stu-id="3599e-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="3599e-109">Vul de velden in.</span><span class="sxs-lookup"><span data-stu-id="3599e-109">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="3599e-110">Kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.</span><span class="sxs-lookup"><span data-stu-id="3599e-110">Choose the **Tools**, **Personnel**, **Description**, or **Tools** action.</span></span>
 5. <span data-ttu-id="3599e-111">In het venster dat wordt geopend, beschrijft u de betreffende standaardtaak.</span><span class="sxs-lookup"><span data-stu-id="3599e-111">In the window that opens, describe the standard task in question.</span></span>
 

@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ad5ef973847a8a86556e042596d6424449861eb4
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 #  <a name="create-analysis-reports"></a><span data-ttu-id="db25c-103">Analyselijsten maken</span><span class="sxs-lookup"><span data-stu-id="db25c-103">Create Analysis Reports</span></span>
@@ -69,10 +69,10 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="db25c-154">Geef in de velden in het venster **Analysekolommen** op welke kolommen u in de analyselijst wilt opnemen.</span><span class="sxs-lookup"><span data-stu-id="db25c-154">In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="db25c-155">Als u een kolom wilt definiëren, moet u het veld **Code soort analyse** invullen voor alle soorten kolommen, behalve **Formule**.</span><span class="sxs-lookup"><span data-stu-id="db25c-155">To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**.</span></span> <span data-ttu-id="db25c-156">Stel de analysetypecodes in het venster **Soorten analyse** in.</span><span class="sxs-lookup"><span data-stu-id="db25c-156">Set up the analysis type codes in the **Analysis Types** window.</span></span>  
+   >   <span data-ttu-id="db25c-155">Als u een kolom wilt definiëren, moet u het veld **Code soort analyse** invullen voor alle soorten kolommen, behalve **Formule**.</span><span class="sxs-lookup"><span data-stu-id="db25c-155">To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**.</span></span> <span data-ttu-id="db25c-156">Stel de analysetypecodes in het venster **Soorten analyse** in.</span><span class="sxs-lookup"><span data-stu-id="db25c-156">Set up the analysis type codes in the **Analysis Types** window.</span></span>  
 
     <span data-ttu-id="db25c-157">**Opmerking**.</span><span class="sxs-lookup"><span data-stu-id="db25c-157">**Note**.</span></span> <span data-ttu-id="db25c-158">Als u **Artikelposten** selecteert in het veld **Boekingssoort grootboek**, worden de werkelijke cijfers van de artikelpost gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="db25c-158">In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied.</span></span> <span data-ttu-id="db25c-159">Selecteert u hier **Artikelbudgetposten**, dan worden de gebudgetteerde cijfers van het budget gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="db25c-159">If you select **Item Budget Entries**, the budgeted figures from the budget are copied.</span></span>  
-5.  <span data-ttu-id="db25c-160">Kies de knop **OK** om de wijzigingen op te slaan.</span><span class="sxs-lookup"><span data-stu-id="db25c-160">Choose the **OK** button to save your changes.</span></span>  
+5. <span data-ttu-id="db25c-160">Kies de knop **OK** om de wijzigingen op te slaan.</span><span class="sxs-lookup"><span data-stu-id="db25c-160">Choose the **OK** button to save your changes.</span></span>  
 
 ## <a name="to-set-up-analysis-line-templates"></a><span data-ttu-id="db25c-161">Analyseregelsjablonen instellen</span><span class="sxs-lookup"><span data-stu-id="db25c-161">To set up analysis line templates</span></span>  
 <span data-ttu-id="db25c-162">De volgende procedure is gebaseerd op analyserapporten voor verkopen.</span><span class="sxs-lookup"><span data-stu-id="db25c-162">The following procedure is based on analysis reports for sales.</span></span> <span data-ttu-id="db25c-163">De stappen lijken hierop voor inkoop- en voorraadanalyserapporten.</span><span class="sxs-lookup"><span data-stu-id="db25c-163">The steps are similar for purchase and inventory analysis reports.</span></span>
@@ -96,7 +96,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="db25c-183">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopanalyserapporten** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="db25c-183">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Analysis Reports**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="db25c-184">Kies in het venster **Analyserapport verkoop** de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="db25c-184">In the **Analysis Report Sale** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="db25c-185">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="db25c-185">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="db25c-185">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="db25c-185">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="db25c-186">Kies de actie **Analyserapport bewerken**.</span><span class="sxs-lookup"><span data-stu-id="db25c-186">Choose the **Edit Analysis Report** action.</span></span>
 5. <span data-ttu-id="db25c-187">Kies in het venster **Verkoopanalyserapport** de actie **Matrix weergeven**.</span><span class="sxs-lookup"><span data-stu-id="db25c-187">In the **Sales Analysis Report** window, choose the **Show Matrix** action</span></span>  
 

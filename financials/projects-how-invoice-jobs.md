@@ -13,10 +13,10 @@ ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4c00ce50f70cbae3ad0557f0703e80f6b115995a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b830629d80b4bef9bbcd581336b20cfa397f83ad
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="invoice-jobs"></a><span data-ttu-id="3bd0a-103">Projecten factureren</span><span class="sxs-lookup"><span data-stu-id="3bd0a-103">Invoice Jobs</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="3bd0a-113">Vanuit het venster **Projecten** kunt u een klant factureren door het project te selecteren en vervolgens de actie **Projectverkoopfactuur maken** te kiezen.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-113">From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action.</span></span> <span data-ttu-id="3bd0a-114">In de volgende procedure wordt beschreven hoe u een batchverwerking gebruikt om meerdere projecten te factureren.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-114">The following procedure shows how to use a batch job to invoice multiple jobs.</span></span>  
 
 1. <span data-ttu-id="3bd0a-115">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopfactuur project maken** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="3bd0a-116">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="3bd0a-116">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-116">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="3bd0a-117">Stel filters in als u de projecten wilt beperken die door de batchverwerking worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-117">Set filters if you want to limit the jobs that the batch job will process.</span></span>
 4. <span data-ttu-id="3bd0a-118">Kies de knop **OK** om de facturen te maken.</span><span class="sxs-lookup"><span data-stu-id="3bd0a-118">Choose the **OK** button to create the invoices.</span></span>  
 

@@ -13,10 +13,10 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fca44f18a43a1d3f4a5ad10678e7cd4fd3801aa0
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-purchasers"></a><span data-ttu-id="fb679-103">Inkopers instellen</span><span class="sxs-lookup"><span data-stu-id="fb679-103">Set Up Purchasers</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-purchasers"></a><span data-ttu-id="fb679-106">Inkopers instellen</span><span class="sxs-lookup"><span data-stu-id="fb679-106">To set up purchasers</span></span>
 1. <span data-ttu-id="fb679-107">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers/Inkopers** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="fb679-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
 2. <span data-ttu-id="fb679-108">Kies in het venster **Verkopers/Inkopers** de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="fb679-108">In the **Salespeople/Purchasers** window, choose **New**.</span></span>
-3. <span data-ttu-id="fb679-109">Vul in de velden in het venster **Verkopers/Inkopers** de gewenste waarden in.</span><span class="sxs-lookup"><span data-stu-id="fb679-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="fb679-109">Vul in de velden in het venster **Verkopers/Inkopers** de gewenste waarden in.</span><span class="sxs-lookup"><span data-stu-id="fb679-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="fb679-110">Inkopers toewijzen aan leveranciers</span><span class="sxs-lookup"><span data-stu-id="fb679-110">To assign purchasers to vendors</span></span>
 1. <span data-ttu-id="fb679-111">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="fb679-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>

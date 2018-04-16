@@ -151,7 +151,7 @@
 
 # [Financiën](finance.md)
 ## [Tegoeden beheren](receivables-manage-receivables.md)
-###[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Klantbetalingen van een lijst met onbetaalde verkoopdocumenten handmatig reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Klantbetalingen handmatig vereffenen](receivables-how-apply-sales-transactions-manually.md)  
 ### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)

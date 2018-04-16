@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 9f4f44e0d604fea842f674fbe3c0add2901c3462
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 1e5802f1848f5c65478f33082a0acaf3f196073e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="archive-ibs-log-entries"></a><span data-ttu-id="dc2b2-104">IBS-logposten archiveren</span><span class="sxs-lookup"><span data-stu-id="dc2b2-104">Archive IBS Log Entries</span></span>
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 <span data-ttu-id="dc2b2-105">IBS-logboekregels met de verwerkingsstatus **Verwerkt** kunnen worden gearchiveerd.</span><span class="sxs-lookup"><span data-stu-id="dc2b2-105">IBS log lines that have a process status of **Processed** can be archived.</span></span> <span data-ttu-id="dc2b2-106">IBS-logboeken bevatten gegevens over bestanden voor elektronisch bankieren die tijdens elektronische banktransfers van Isabel worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="dc2b2-106">IBS logs contain information about electronic banking files that are created during Isabel electronic bank transfers.</span></span>  
 

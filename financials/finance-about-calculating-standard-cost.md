@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6f6ec5d60325ecfdad3c7fb29cf2208b0d1aa557
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a><span data-ttu-id="7f225-104">Informatie over het berekenen van vaste verrekenprijzen</span><span class="sxs-lookup"><span data-stu-id="7f225-104">About Calculating Standard Cost</span></span>
@@ -80,8 +80,8 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="7f225-167">U stelt de tarieven voor al deze tijdtypen voor iedere afdeling of bewerkingsplaats in op een afzonderlijke stuklijst.</span><span class="sxs-lookup"><span data-stu-id="7f225-167">You set up the rates for each time type for each machine or work center on an individual routing.</span></span>  
 
-> [!NOTE]  
-    >  <span data-ttu-id="7f225-168">Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast.</span><span class="sxs-lookup"><span data-stu-id="7f225-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="7f225-169">Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte.</span><span class="sxs-lookup"><span data-stu-id="7f225-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="7f225-170">U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.</span><span class="sxs-lookup"><span data-stu-id="7f225-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
+> [!NOTE]
+>  <span data-ttu-id="7f225-168">Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast.</span><span class="sxs-lookup"><span data-stu-id="7f225-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="7f225-169">Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte.</span><span class="sxs-lookup"><span data-stu-id="7f225-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="7f225-170">U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.</span><span class="sxs-lookup"><span data-stu-id="7f225-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
 
 <span data-ttu-id="7f225-171">Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** in het venster **Productie-instelling**.</span><span class="sxs-lookup"><span data-stu-id="7f225-171">To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field in the **Manufacturing Setup** window.</span></span>  
 

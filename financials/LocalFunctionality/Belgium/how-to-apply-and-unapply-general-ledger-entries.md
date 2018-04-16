@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: ccd55fda375ee7df5fa4ed6e5b0353cde0211df2
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b4fd03cc99583534a604d257d4a64afeb5c1566f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a><span data-ttu-id="304b4-104">Grootboekposten vereffenen en de vereffening ervan ongedaan maken</span><span class="sxs-lookup"><span data-stu-id="304b4-104">Apply and Unapply General Ledger Entries</span></span>
@@ -28,9 +28,9 @@ ms.lasthandoff: 03/22/2018
 - <span data-ttu-id="304b4-109">Financiële transactietransfers van het ene systeem naar het andere, waarbij een deel van de gegevens tijdelijk op het oorspronkelijke systeem staat.</span><span class="sxs-lookup"><span data-stu-id="304b4-109">Financial transaction transfers from one system to another in which part of the information temporarily resides on the original system.</span></span>  
 - <span data-ttu-id="304b4-110">Transacties waarvoor u een verkoopfactuur hebt verzonden naar een klant maar nog niet de bijbehorende inkoopfactuur van de leverancier hebt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="304b4-110">Transactions for which you have issued a sales invoice to a customer but have not yet received the corresponding purchase invoice from the vendor.</span></span>  
 
- <span data-ttu-id="304b4-111">Nadat de posten zijn verwerkt, kunt u de functie voor postenvereffening gebruiken om de geboekte posten en het boekingsrekeningsoort bij te werken.</span><span class="sxs-lookup"><span data-stu-id="304b4-111">When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.</span></span>  
+  <span data-ttu-id="304b4-111">Nadat de posten zijn verwerkt, kunt u de functie voor postenvereffening gebruiken om de geboekte posten en het boekingsrekeningsoort bij te werken.</span><span class="sxs-lookup"><span data-stu-id="304b4-111">When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.</span></span>  
 
- <span data-ttu-id="304b4-112">U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervolgens de gesloten posten openen om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="304b4-112">You can unapply the applied general ledger entries and then open the closed entries to make changes.</span></span>  
+  <span data-ttu-id="304b4-112">U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervolgens de gesloten posten openen om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="304b4-112">You can unapply the applied general ledger entries and then open the closed entries to make changes.</span></span>  
 
 ## <a name="to-apply-general-ledger-entries"></a><span data-ttu-id="304b4-113">Grootboekposten vereffenen</span><span class="sxs-lookup"><span data-stu-id="304b4-113">To apply general ledger entries</span></span>  
 

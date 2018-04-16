@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ec586482ca074a11183a53faf7368ed357a21355
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-base-calendars"></a><span data-ttu-id="08fcc-104">Basisagenda's instellen</span><span class="sxs-lookup"><span data-stu-id="08fcc-104">Set Up Base Calendars</span></span>
@@ -106,12 +106,12 @@ ms.lasthandoff: 03/22/2018
 2.  <span data-ttu-id="08fcc-178">Open de **Klantenkaart** waarvoor u een aangepaste agenda wilt instellen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-178">Open the **Customer** card for whom you will assign a base calendar.</span></span>  
 3.  <span data-ttu-id="08fcc-179">Op het sneltabblad **Verzending** in de het veld **Basisagendacode** selecteert u de basisagenda die u wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-179">On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.</span></span>  
 
-> [!IMPORTANT]  
->  -   <span data-ttu-id="08fcc-180">Als u geen basisagenda toewijst aan een bedrijf, worden alle datums berekend als werkdagen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="08fcc-181">Als u geen vestiging invoert op een orderregel, worden alle datums berekend als werkdagen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="08fcc-182">Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - <span data-ttu-id="08fcc-180">Als u geen basisagenda toewijst aan een bedrijf, worden alle datums berekend als werkdagen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="08fcc-181">Als u geen vestiging invoert op een orderregel, worden alle datums berekend als werkdagen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="08fcc-182">Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.</span><span class="sxs-lookup"><span data-stu-id="08fcc-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
+> 
+> [!NOTE]
 >  <span data-ttu-id="08fcc-183">U moet eerst een basisagenda toewijzen aan het bedrijf, voordat u aangepaste agendaposten kunt maken.</span><span class="sxs-lookup"><span data-stu-id="08fcc-183">Before you can make customized calendar entries, you must first assign a base calendar to the company.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="08fcc-184">Zie ook</span><span class="sxs-lookup"><span data-stu-id="08fcc-184">See Also</span></span>

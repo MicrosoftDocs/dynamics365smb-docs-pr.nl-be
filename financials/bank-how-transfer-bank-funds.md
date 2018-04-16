@@ -13,10 +13,10 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d3bd448ef67f742794e3a162bd828e38366775bb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f19fbdd0f0059e62080d0076bdc419712560d4f2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="transfer-bank-funds"></a><span data-ttu-id="6f9cf-103">Bankfondsen overboeken</span><span class="sxs-lookup"><span data-stu-id="6f9cf-103">Transfer Bank Funds</span></span>
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="6f9cf-133">Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-133">In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="6f9cf-134">Als de gebruikte wisselkoersen in het dagboek verschillen van de wisselkoersen in het venster **Valutawisselkoersen**, voert u een derde regel in voor de wisselkoerswinsten of -verliezen.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="6f9cf-135">Geef **Grootboekrekening** op in het veld **Rekeningsoort**.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="6f9cf-136">Voer in het veld **Rekeningnr.** het grootboekrekeningnummer voor wisselkoerswinst of -verlies in.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="6f9cf-137">Voer de wisselkoerswinst of - verlies in het veld **Bedrag** in met of zonder een minteken voor respectievelijk debet- en creditbedragen.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
+    >   <span data-ttu-id="6f9cf-134">Als de gebruikte wisselkoersen in het dagboek verschillen van de wisselkoersen in het venster **Valutawisselkoersen**, voert u een derde regel in voor de wisselkoerswinsten of -verliezen.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="6f9cf-135">Geef **Grootboekrekening** op in het veld **Rekeningsoort**.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="6f9cf-136">Voer in het veld **Rekeningnr.** het grootboekrekeningnummer voor wisselkoerswinst of -verlies in.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="6f9cf-137">Voer de wisselkoerswinst of - verlies in het veld **Bedrag** in met of zonder een minteken voor respectievelijk debet- en creditbedragen.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
 13. <span data-ttu-id="6f9cf-138">Boek het dagboek.</span><span class="sxs-lookup"><span data-stu-id="6f9cf-138">Post the journal.</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="6f9cf-139">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6f9cf-139">See Also</span></span>

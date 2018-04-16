@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ecb4bdc57f538a17a0149513cef1be318d131a9b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a><span data-ttu-id="5e6ff-103">Periodieke verkoop- en inkoopregels maken</span><span class="sxs-lookup"><span data-stu-id="5e6ff-103">Create Recurring Sales and Purchase Lines</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-standard-sales-lines"></a><span data-ttu-id="5e6ff-107">Standaardverkoopregels instellen</span><span class="sxs-lookup"><span data-stu-id="5e6ff-107">To set up standard sales lines</span></span>  
 1. <span data-ttu-id="5e6ff-108">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaardverkoopcodes** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="5e6ff-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Sales Codes**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="5e6ff-109">Kies in het venster **Standaardverkoopregels** de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="5e6ff-109">In the **Standard Sales Lines** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="5e6ff-110">Vul de benodigde velden in op het sneltabblad **Algemeen**.</span><span class="sxs-lookup"><span data-stu-id="5e6ff-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="5e6ff-110">Vul de benodigde velden in op het sneltabblad **Algemeen**.</span><span class="sxs-lookup"><span data-stu-id="5e6ff-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. <span data-ttu-id="5e6ff-111">Voer op het sneltabblad **Regels** gegevens in de velden in om verkoopregels voor te bereiden die de standaardregels reflecteren die u verwacht te gebruiken als terugkerende regels in verkoopdocumenten.</span><span class="sxs-lookup"><span data-stu-id="5e6ff-111">On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.</span></span>  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a><span data-ttu-id="5e6ff-112">Standaardverkoopregels invoegen op een verkoopfactuur</span><span class="sxs-lookup"><span data-stu-id="5e6ff-112">To insert standard sales lines on a sales invoice</span></span>

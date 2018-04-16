@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a00f88aaf70464c8911d59b829b08dda900dc474
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 25c32365ea662bb5c2ad1015aa03a5aab2307d17
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="about-planning-functionality"></a><span data-ttu-id="84458-103">Informatie over het plannen van functionaliteit</span><span class="sxs-lookup"><span data-stu-id="84458-103">About Planning Functionality</span></span>
@@ -24,8 +24,8 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="84458-105">Zie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md) voor gedetailleerde informatie.</span><span class="sxs-lookup"><span data-stu-id="84458-105">For detailed information, see [Design Details: Supply Planning](design-details-supply-planning.md).</span></span>  
 
-> [!NOTE]  
-> <span data-ttu-id="84458-106">Voor alle velden die in dit onderwerp worden genoemd, kunt u de knopinfo lezen om de functie te begrijpen.</span><span class="sxs-lookup"><span data-stu-id="84458-106">For all the fields that are mentioned in this topic, read the tooltip to understand their function.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> <span data-ttu-id="84458-106">Voor alle velden die in dit onderwerp worden genoemd, kunt u de knopinfo lezen om de functie te begrijpen.</span><span class="sxs-lookup"><span data-stu-id="84458-106">For all the fields that are mentioned in this topic, read the tooltip to understand their function.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="demand-and-supply"></a><span data-ttu-id="84458-107">Vraag en voorzieningen</span><span class="sxs-lookup"><span data-stu-id="84458-107">Demand and Supply</span></span>  
 <span data-ttu-id="84458-108">Planning bestaat uit twee elementen: vraag en voorzieningen.</span><span class="sxs-lookup"><span data-stu-id="84458-108">Planning has two elements: demand and supply.</span></span> <span data-ttu-id="84458-109">Deze moeten in evenwicht worden gehouden, zodat op tijd en op een kosteneffectieve wijze aan de vraag wordt voldaan.</span><span class="sxs-lookup"><span data-stu-id="84458-109">These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.</span></span>  

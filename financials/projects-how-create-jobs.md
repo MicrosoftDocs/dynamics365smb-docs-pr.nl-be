@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ece0a95f83868ac2657fdf41330e7d0a9cce37d6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 5f17824bcbe9d69174b31f5dffacecf012a4470b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-jobs"></a><span data-ttu-id="bfc85-103">Projecten maken</span><span class="sxs-lookup"><span data-stu-id="bfc85-103">Create Jobs</span></span>
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="bfc85-115">U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.</span><span class="sxs-lookup"><span data-stu-id="bfc85-115">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
 1. <span data-ttu-id="bfc85-116">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="bfc85-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="bfc85-117">Kies de actie **Nieuw** en vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="bfc85-117">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="bfc85-117">Kies de actie **Nieuw** en vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="bfc85-117">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="bfc85-118">Als u het project wilt opgeven met informatie over andere projecten, kiest u de actie **Project kopiëren**, vult u de benodigde velden in en kiest u de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="bfc85-118">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
 > [!NOTE]  

@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0e79dcc4b9015a0b2ec37262048c2c98c192df5e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="depreciation-methods"></a><span data-ttu-id="4a3eb-103">Afschrijvingsmethoden</span><span class="sxs-lookup"><span data-stu-id="4a3eb-103">Depreciation Methods</span></span>
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="4a3eb-111">Handmatig</span><span class="sxs-lookup"><span data-stu-id="4a3eb-111">Manual</span></span>  
 
   > [!NOTE]  
->   <span data-ttu-id="4a3eb-112">Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="4a3eb-113">U moet afschrijving invoeren in het VA-financiële dagboek.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="4a3eb-114">Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+  >   <span data-ttu-id="4a3eb-112">Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="4a3eb-113">U moet afschrijving invoeren in het VA-financiële dagboek.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="4a3eb-114">Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
 * <span data-ttu-id="4a3eb-115">Halfjaarlijkse afspraak</span><span class="sxs-lookup"><span data-stu-id="4a3eb-115">Half-Year Convention</span></span>  
 
   > [!NOTE]  
->    <span data-ttu-id="4a3eb-116">Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
+  >    <span data-ttu-id="4a3eb-116">Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
 ## <a name="straight-line-depreciation"></a><span data-ttu-id="4a3eb-117">Lineaire afschrijving</span><span class="sxs-lookup"><span data-stu-id="4a3eb-117">Straight-Line Depreciation</span></span>
 <span data-ttu-id="4a3eb-118">Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opties opgeven in het afschrijvingsboek voor vaste activa:</span><span class="sxs-lookup"><span data-stu-id="4a3eb-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="4a3eb-438">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingstabellen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-438">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="4a3eb-439">Kies in het venster **Afschrijvingstabeloverzicht** de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-439">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="4a3eb-440">Vul in het venster **Afschrijvingstabel** indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="4a3eb-440">Vul in het venster **Afschrijvingstabel** indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="4a3eb-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a><span data-ttu-id="4a3eb-441">Voorbeeld - door gebruiker ingestelde afschrijving</span><span class="sxs-lookup"><span data-stu-id="4a3eb-441">Example - User-defined Depreciation</span></span>
 <span data-ttu-id="4a3eb-442">U gebruikt een afschrijvingsmethode waarmee u activa versneld kunt afschrijven (omdat u hierdoor minder inkomstenbelasting hoeft te betalen).</span><span class="sxs-lookup"><span data-stu-id="4a3eb-442">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  

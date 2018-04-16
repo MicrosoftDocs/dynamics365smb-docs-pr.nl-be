@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 48b2f9e4e489da7a15f8bd70ed4ad1a4229dd8cb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6d4c4f43390584da8f6e7e2bed5bd5bac4b244f2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-electronic-banking"></a><span data-ttu-id="c5957-103">Elektronisch bankieren instellen</span><span class="sxs-lookup"><span data-stu-id="c5957-103">Set Up Electronic Banking</span></span>
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 <span data-ttu-id="c5957-104">Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden.</span><span class="sxs-lookup"><span data-stu-id="c5957-104">With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.</span></span>  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: bf5c4f7c90cc627e08b582255f6dd3c174f77cd0
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><span data-ttu-id="8a739-103">Artikelen en locaties instellen voor gestuurde opslag en pick</span><span class="sxs-lookup"><span data-stu-id="8a739-103">Set Up Items and Locations for Directed Put-away and Pick</span></span>
@@ -51,9 +51,9 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="8a739-131">U bent nu gereed om zones instellen als u in uw magazijn wilt werken met zones.</span><span class="sxs-lookup"><span data-stu-id="8a739-131">You are now ready to set up zones, if you want to operate zones in your warehouse.</span></span> <span data-ttu-id="8a739-132">Met zones vermindert u het aantal velden dat u moet invullen wanneer u uw opslaglocaties instelt omdat opslaglocaties die in zones zijn gemaakt verschillende eigenschappen van de zone overnemen.</span><span class="sxs-lookup"><span data-stu-id="8a739-132">Using zones reduces the number of fields you need to fill in when you set up your bins, because bins created within zones inherit several properties from the zone.</span></span> <span data-ttu-id="8a739-133">Zones kunnen het bovendien voor nieuwe of tijdelijke werknemers eenvoudiger maken om zich in uw magazijn te oriënteren.</span><span class="sxs-lookup"><span data-stu-id="8a739-133">Zones can also make it easier for new or temporary employees to orient themselves in your warehouse.</span></span> <span data-ttu-id="8a739-134">Houd er rekening mee dat de stroom wordt beheerd door opslaglocaties, waardoor het mogelijk is om met opslaglocaties en slechts één zone te werken.</span><span class="sxs-lookup"><span data-stu-id="8a739-134">Note that flow is controlled by bins, therefore it is possible to operate with bins and only one zone.</span></span>  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a><span data-ttu-id="8a739-135">U kunt als volgt een zone instellen in het magazijn</span><span class="sxs-lookup"><span data-stu-id="8a739-135">To set up a zone in your warehouse</span></span>  
-1.  <span data-ttu-id="8a739-136">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="8a739-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="8a739-137">Selecteer de vestiging waarin u een zone wilt instellen, open de vestigingskaart en kies de actie **Zones**.</span><span class="sxs-lookup"><span data-stu-id="8a739-137">Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.</span></span>  
-3.  <span data-ttu-id="8a739-138">Vul de velden in het venster **Zones** naar wens in.</span><span class="sxs-lookup"><span data-stu-id="8a739-138">In the **Zones** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="8a739-136">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="8a739-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8a739-137">Selecteer de vestiging waarin u een zone wilt instellen, open de vestigingskaart en kies de actie **Zones**.</span><span class="sxs-lookup"><span data-stu-id="8a739-137">Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.</span></span>  
+3. <span data-ttu-id="8a739-138">Vul de velden in het venster **Zones** naar wens in.</span><span class="sxs-lookup"><span data-stu-id="8a739-138">In the **Zones** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 <span data-ttu-id="8a739-139">Wanneer u een zoneparameter wijzigt, worden de nieuwe kenmerken toegepast op alle nieuwe opslaglocaties in de zone. De kenmerken van bestaande opslaglocaties blijven echter ongewijzigd.</span><span class="sxs-lookup"><span data-stu-id="8a739-139">When you change a zone parameter, all bins created thereafter in that zone will have the new characteristics, but the original bins will not be changed.</span></span>  
 

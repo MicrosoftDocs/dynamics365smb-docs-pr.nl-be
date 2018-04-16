@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d2a2ee196be4562f62604afd4faed608ff07411f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c588e4273fa9b23f9ace044a85f5132e12112916
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a><span data-ttu-id="21d84-103">Ontwerpdetails: Voorraadprofielen laden</span><span class="sxs-lookup"><span data-stu-id="21d84-103">Design Details: Loading the Inventory Profiles</span></span>
@@ -28,15 +28,15 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="21d84-112">Over het algemeen beschouwt het planningssysteem alle voorzieningenorders na de begindatum van de planning als vatbaar voor wijziging om aan vraag te voldoen.</span><span class="sxs-lookup"><span data-stu-id="21d84-112">In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand.</span></span> <span data-ttu-id="21d84-113">Zodra echter een aantal vanuit een voorzieningenorder is geboekt, kan deze niet meer in het planningssysteem worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="21d84-113">However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system.</span></span> <span data-ttu-id="21d84-114">De volgende verschillende orders kunnen niet opnieuw worden gepland:</span><span class="sxs-lookup"><span data-stu-id="21d84-114">Accordingly, the following different orders cannot be replanned:</span></span>  
 
--   <span data-ttu-id="21d84-115">Vrijgegeven productieorders waarbij het verbruik of de output is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-115">Released production orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="21d84-115">Vrijgegeven productieorders waarbij het verbruik of de output is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-115">Released production orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="21d84-116">Assemblageorders waarbij het verbruik of de output is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-116">Assembly orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="21d84-116">Assemblageorders waarbij het verbruik of de output is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-116">Assembly orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="21d84-117">Transferorders waarop verzending is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-117">Transfer orders where shipment has been posted.</span></span>  
+- <span data-ttu-id="21d84-117">Transferorders waarop verzending is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-117">Transfer orders where shipment has been posted.</span></span>  
 
--   <span data-ttu-id="21d84-118">Inkooporders waarop ontvangst is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-118">Purchase orders where receipt has been posted.</span></span>  
+- <span data-ttu-id="21d84-118">Inkooporders waarop ontvangst is geboekt.</span><span class="sxs-lookup"><span data-stu-id="21d84-118">Purchase orders where receipt has been posted.</span></span>  
 
- <span data-ttu-id="21d84-119">Afgezien van het laden van typen vraag en aanbod, worden bepaalde soorten geladen met het oog op speciale regels en afhankelijkheden die worden beschreven in het volgende.</span><span class="sxs-lookup"><span data-stu-id="21d84-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
+  <span data-ttu-id="21d84-119">Afgezien van het laden van typen vraag en aanbod, worden bepaalde soorten geladen met het oog op speciale regels en afhankelijkheden die worden beschreven in het volgende.</span><span class="sxs-lookup"><span data-stu-id="21d84-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
 
 ## <a name="item-dimensions-are-separated"></a><span data-ttu-id="21d84-120">Artikeldimensies worden gescheiden</span><span class="sxs-lookup"><span data-stu-id="21d84-120">Item Dimensions are Separated</span></span>  
  <span data-ttu-id="21d84-121">Het voorzieningenplan moet worden berekend per combinatie van artikeldimensies, zoals variant en vestiging.</span><span class="sxs-lookup"><span data-stu-id="21d84-121">The supply plan must be calculated per combination of the item dimensions, such as variant and location.</span></span> <span data-ttu-id="21d84-122">Er is echter geen reden om elke theoretische combinatie te berekenen.</span><span class="sxs-lookup"><span data-stu-id="21d84-122">However, there is no reason to calculate any theoretical combination.</span></span> <span data-ttu-id="21d84-123">Alleen combinaties met vraag en/of aanbod moeten worden berekend.</span><span class="sxs-lookup"><span data-stu-id="21d84-123">Only those combinations that carry a demand and/or supply need to be calculated.</span></span>  

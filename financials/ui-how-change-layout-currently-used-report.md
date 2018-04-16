@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 0cf867dc453b01b074010ee47c7c4c6560195361
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: adbae31d6c9b601f4a484b8ea8bacecf0179a408
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a><span data-ttu-id="cdd3e-103">Wijzigen welke lay-out momenteel in een rapport wordt gebruikt</span><span class="sxs-lookup"><span data-stu-id="cdd3e-103">Change Which Layout is Currently Used on a Report</span></span>
@@ -34,8 +34,8 @@ ms.lasthandoff: 03/22/2018
    * <span data-ttu-id="cdd3e-115">Aangepast, gebruikt een aangepaste lay-out in het rapport.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-115">Custom, uses a custom layout on the report.</span></span>  
      <span data-ttu-id="cdd3e-116">U kunt zien welke aangepaste lay-outs voor het rapport beschikbaar zijn in het feitenblok Rapportlay-outonderdeel.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-116">You can see which custom layouts are available for the report in the Report Layouts Part FactBox.</span></span> <span data-ttu-id="cdd3e-117">Als er geen aangepaste lay-outs voor het rapport zijn, moet u er eerst een maken.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-117">If there are no custom layouts for the report, then you will have to create one first.</span></span> <span data-ttu-id="cdd3e-118">Als u deze optie kiest, gaat u naar de volgende procedure om de aangepaste lay-out op te geven die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-118">If you choose this option, go to the next procedure to specify the custom layout that you want to use.</span></span>
 
-    > [!NOTE]  
-    >   <span data-ttu-id="cdd3e-119">Als u **RDLC (ingebouwd)** of **Word (ingebouwd)** kiest en een foutbericht krijgt dat het rapport geen lay-out van de opgegeven soort heeft, moet u een andere lay-outoptie kiezen of een aangepaste rapportlay-out maken van het soort dat u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-119">If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.</span></span>
+     > [!NOTE]  
+     >   <span data-ttu-id="cdd3e-119">Als u **RDLC (ingebouwd)** of **Word (ingebouwd)** kiest en een foutbericht krijgt dat het rapport geen lay-out van de opgegeven soort heeft, moet u een andere lay-outoptie kiezen of een aangepaste rapportlay-out maken van het soort dat u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-119">If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.</span></span>
 
 <span data-ttu-id="cdd3e-120">Als u een ingebouwde RDLC- of Word-rapportlay-out hebt geselecteerd, is er verder geen actie vereist en wordt de lay-out gebruikt als het rapport de volgende keer wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="cdd3e-120">If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.</span></span>
 

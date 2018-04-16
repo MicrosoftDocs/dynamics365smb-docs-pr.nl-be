@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: aa25b3b809b27160f1493408fc8f61f14b651b67
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a><span data-ttu-id="c2e55-103">SKU's instellen</span><span class="sxs-lookup"><span data-stu-id="c2e55-103">Set Up Stockkeeping Units</span></span>
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a><span data-ttu-id="c2e55-108">SKU's instellen</span><span class="sxs-lookup"><span data-stu-id="c2e55-108">To set up a stockkeeping unit</span></span>  
 
-1.  <span data-ttu-id="c2e55-109">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="c2e55-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="c2e55-110">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="c2e55-110">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="c2e55-111">Vul de velden op de kaart in.</span><span class="sxs-lookup"><span data-stu-id="c2e55-111">Fill in the fields on the card.</span></span> <span data-ttu-id="c2e55-112">De volgende velden zijn vereist: **Artikelnr.**, **Vestigingscode** en/of **variantcode**.</span><span class="sxs-lookup"><span data-stu-id="c2e55-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="c2e55-109">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="c2e55-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="c2e55-110">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="c2e55-110">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="c2e55-111">Vul de velden op de kaart in.</span><span class="sxs-lookup"><span data-stu-id="c2e55-111">Fill in the fields on the card.</span></span> <span data-ttu-id="c2e55-112">De volgende velden zijn vereist: **Artikelnr.**, **Vestigingscode** en/of **variantcode**.</span><span class="sxs-lookup"><span data-stu-id="c2e55-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 <span data-ttu-id="c2e55-113">Als u de eerste SKU voor een artikel hebt ingesteld, wordt het selectievakje **SKU bestaat** op de kaart **Artikel** ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="c2e55-113">When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** check box on the **Item** card is selected.</span></span>  
 

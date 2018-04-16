@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b560d61d39ba22f0008e6cb5ef11d2f6c9aa9e0
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ee8fe08f9c8e9d9e32052bc55539a0fa3e56e4d4
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a><span data-ttu-id="a5e09-103">Ontwerpdetails: Beschikbaarheid in het magazijn</span><span class="sxs-lookup"><span data-stu-id="a5e09-103">Design Details: Availability in the Warehouse</span></span>
@@ -51,16 +51,16 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="a5e09-128">Het zou mogelijk moeten zijn om alle artikelen in voorraad te reserveren, met uitzondering van artikelen waarvoor uitgaande verwerking is gestart.</span><span class="sxs-lookup"><span data-stu-id="a5e09-128">It should be possible to reserve all items in inventory, except those that have started outbound processing.</span></span> <span data-ttu-id="a5e09-129">Het aantal dat kan worden gereserveerd, wordt gedefinieerd als het aantal in alle documenten en alle typen opslaglocaties, behalve de volgende uitgaande aantallen:</span><span class="sxs-lookup"><span data-stu-id="a5e09-129">Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:</span></span>  
 
--   <span data-ttu-id="a5e09-130">Aantal in niet-geregistreerde pickdocumenten</span><span class="sxs-lookup"><span data-stu-id="a5e09-130">Quantity on unregistered pick documents</span></span>  
--   <span data-ttu-id="a5e09-131">Aantal in verzendopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-131">Quantity in shipment bins</span></span>  
--   <span data-ttu-id="a5e09-132">Aantal in naar-productieopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-132">Quantity in to-production bins</span></span>  
--   <span data-ttu-id="a5e09-133">Aantal in grijpvoorraadlocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-133">Quantity in open shop floor bins</span></span>  
--   <span data-ttu-id="a5e09-134">Aantal in naar-assemblageopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-134">Quantity in to-assembly bins</span></span>  
--   <span data-ttu-id="a5e09-135">Aantal in correctieopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-135">Quantity in adjustment bins</span></span>  
+- <span data-ttu-id="a5e09-130">Aantal in niet-geregistreerde pickdocumenten</span><span class="sxs-lookup"><span data-stu-id="a5e09-130">Quantity on unregistered pick documents</span></span>  
+- <span data-ttu-id="a5e09-131">Aantal in verzendopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-131">Quantity in shipment bins</span></span>  
+- <span data-ttu-id="a5e09-132">Aantal in naar-productieopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-132">Quantity in to-production bins</span></span>  
+- <span data-ttu-id="a5e09-133">Aantal in grijpvoorraadlocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-133">Quantity in open shop floor bins</span></span>  
+- <span data-ttu-id="a5e09-134">Aantal in naar-assemblageopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-134">Quantity in to-assembly bins</span></span>  
+- <span data-ttu-id="a5e09-135">Aantal in correctieopslaglocaties</span><span class="sxs-lookup"><span data-stu-id="a5e09-135">Quantity in adjustment bins</span></span>  
 
- <span data-ttu-id="a5e09-136">Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** in het venster **Reservation**.</span><span class="sxs-lookup"><span data-stu-id="a5e09-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="a5e09-136">Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** in het venster **Reservation**.</span><span class="sxs-lookup"><span data-stu-id="a5e09-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
 
- <span data-ttu-id="a5e09-137">Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** in het venster **Reservering**.</span><span class="sxs-lookup"><span data-stu-id="a5e09-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="a5e09-137">Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** in het venster **Reservering**.</span><span class="sxs-lookup"><span data-stu-id="a5e09-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a><span data-ttu-id="a5e09-138">Het aantal berekenen dat beschikbaar is voor reservering</span><span class="sxs-lookup"><span data-stu-id="a5e09-138">Calculating the Quantity Available to Reserve</span></span>  
  <span data-ttu-id="a5e09-139">Het aantal dat beschikbaar is voor reserveringen, wordt als volgt berekend:</span><span class="sxs-lookup"><span data-stu-id="a5e09-139">The quantity available to reserve is calculated as follows:</span></span>  

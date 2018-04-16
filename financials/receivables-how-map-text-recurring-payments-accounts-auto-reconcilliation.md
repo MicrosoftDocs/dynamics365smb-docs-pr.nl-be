@@ -13,10 +13,10 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c5f6f041083e291feca4544f42d43d5ebe3b7e9c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b10995edffd00b29615e48a7a87ccf98c9fcbf80
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><span data-ttu-id="d2300-103">Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie</span><span class="sxs-lookup"><span data-stu-id="d2300-103">Map Text on Recurring Payments to Accounts for Automatic Reconciliation</span></span>
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="d2300-120">Voer in het veld **Toewijzingstekst** willekeurige tekst in die voorkomt op betalingen die u, zonder deze met een openstaande post te vereffenen, wilt boeken naar opgegeven rekeningen.</span><span class="sxs-lookup"><span data-stu-id="d2300-120">In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry.</span></span> <span data-ttu-id="d2300-121">U kunt maximaal 50 tekens invoeren.</span><span class="sxs-lookup"><span data-stu-id="d2300-121">You can enter up to 50 characters.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="d2300-122">Als er geen andere betalingen met de betreffende koppelingstekst zijn, vindt de toewijzing van tekst aan rekening ook plaats wanneer slechts een deel van de tekst op de betaling als toewijzingstekst bestaat.</span><span class="sxs-lookup"><span data-stu-id="d2300-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
+   >   <span data-ttu-id="d2300-122">Als er geen andere betalingen met de betreffende koppelingstekst zijn, vindt de toewijzing van tekst aan rekening ook plaats wanneer slechts een deel van de tekst op de betaling als toewijzingstekst bestaat.</span><span class="sxs-lookup"><span data-stu-id="d2300-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
 5. <span data-ttu-id="d2300-123">Voer in het veld **Leveranciersnr.** de leverancier in waarnaar de betalingen worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="d2300-123">In the **Vendor No.** field, enter the vendor that the payments will be posted to.</span></span>
 6. <span data-ttu-id="d2300-124">Geef in het veld **Bronsoort saldo** op of de betaling naar een grootboekrekening of een klanten- of een leveranciersrekening wordt geboekt.</span><span class="sxs-lookup"><span data-stu-id="d2300-124">In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.</span></span>
 7. <span data-ttu-id="d2300-125">Geef in het veld **Bronnr. saldo** de rekening op waarnaar de betaling wordt geboekt, afhankelijk van uw keuze in het veld **Bronsoort saldo**.</span><span class="sxs-lookup"><span data-stu-id="d2300-125">In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.</span></span>
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 | --- | --- | --- | --- | --- |
 | <span data-ttu-id="d2300-140">Shell</span><span class="sxs-lookup"><span data-stu-id="d2300-140">Shell</span></span> |<span data-ttu-id="d2300-141">LEEG</span><span class="sxs-lookup"><span data-stu-id="d2300-141">BLANK</span></span> |<span data-ttu-id="d2300-142">8510</span><span class="sxs-lookup"><span data-stu-id="d2300-142">8510</span></span> |<span data-ttu-id="d2300-143">Grootboekrekening</span><span class="sxs-lookup"><span data-stu-id="d2300-143">G/L Account</span></span> |<span data-ttu-id="d2300-144">LEEG</span><span class="sxs-lookup"><span data-stu-id="d2300-144">BLANK</span></span> |
 
-> [!TIP]  
+> [!TIP]
 >   <span data-ttu-id="d2300-145">Zie voor meer informatie over het werken met velden en kolommen [Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span><span class="sxs-lookup"><span data-stu-id="d2300-145">For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span></span> <span data-ttu-id="d2300-146">Zie [Zoeken](ui-search.md) voor meer informatie over het zoeken naar specifieke pagina's.</span><span class="sxs-lookup"><span data-stu-id="d2300-146">For more information about how to find specific pages, see [Search](ui-search.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="d2300-147">Zie ook</span><span class="sxs-lookup"><span data-stu-id="d2300-147">See Also</span></span>
