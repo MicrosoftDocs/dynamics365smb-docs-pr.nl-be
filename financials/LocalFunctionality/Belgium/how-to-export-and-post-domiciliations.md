@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.  
 

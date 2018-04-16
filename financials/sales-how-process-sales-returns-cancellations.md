@@ -107,17 +107,17 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 
     De volgende processen worden dan uitgevoerd:  
 
-    -   Voor geboekte documentregels van het type **Artikel** wordt een nieuwe documentregel gemaakt die een kopie is van de geboekte documentregel, met het aantal dat nog niet is tegengeboekt. In het veld **Vereffenen met artikelpost** wordt indien nodig het nummer van de artikelpost van de geboekte documentregel ingevuld.  
+   - Voor geboekte documentregels van het type **Artikel** wordt een nieuwe documentregel gemaakt die een kopie is van de geboekte documentregel, met het aantal dat nog niet is tegengeboekt. In het veld **Vereffenen met artikelpost** wordt indien nodig het nummer van de artikelpost van de geboekte documentregel ingevuld.  
 
-    -   Voor geboekte documentregels die niet van het type **Artikel** zijn, zoals artikeltoeslagen, wordt een nieuwe documentregel gemaakt die een kopie is van de oorspronkelijke geboekte documentregel.  
+   - Voor geboekte documentregels die niet van het type **Artikel** zijn, zoals artikeltoeslagen, wordt een nieuwe documentregel gemaakt die een kopie is van de oorspronkelijke geboekte documentregel.  
 
-    -   Het veld **Kostprijs (LV)** wordt op de nieuwe regel berekend uit de kosten op de overeenkomstige artikelposten.  
+   - Het veld **Kostprijs (LV)** wordt op de nieuwe regel berekend uit de kosten op de overeenkomstige artikelposten.  
 
-    -   Als het gekopieerde document een geboekte verzending, geboekte ontvangst, geboekte retourontvangst of geboekte retourzending is, wordt de kostprijs berekend uit de artikelkaart.  
+   - Als het gekopieerde document een geboekte verzending, geboekte ontvangst, geboekte retourontvangst of geboekte retourzending is, wordt de kostprijs berekend uit de artikelkaart.  
 
-    -   Als het gekopieerde document een geboekte factuur of creditnota is, worden de kostprijs, factuurkortingen en regelkortingen gekopieerd uit de geboekte documentregel.  
+   - Als het gekopieerde document een geboekte factuur of creditnota is, worden de kostprijs, factuurkortingen en regelkortingen gekopieerd uit de geboekte documentregel.  
 
-    -   Als de geboekte documentregel artikeltraceringsregels bevat, wordt het veld **Vereffenen met artikelpost** op de artikeltraceringsregel gevuld met de desbetreffende artikelpostnummers uit de geboekte artikeltraceringsregels.  
+   - Als de geboekte documentregel artikeltraceringsregels bevat, wordt het veld **Vereffenen met artikelpost** op de artikeltraceringsregel gevuld met de desbetreffende artikelpostnummers uit de geboekte artikeltraceringsregels.  
 
      Wanneer u vanuit een geboekte factuur of geboekte creditnota kopieert, worden alle relevante factuurkortingen en regelkortingen die geldig zijn op het moment van boeking, gekopieerd van het geboekte document naar de nieuwe documentregel. Houd er echter rekening mee dat als de optie **Factuurkorting berekenen** is geactiveerd in het venster **Verkoopinstellingen**, de factuurkorting opnieuw wordt berekend als u de nieuwe documentregel boekt. Het kan daardoor gebeuren dat het regelbedrag voor de nieuwe regel afwijkt van het regelbedrag voor de geboekte documentregel, afhankelijk van de nieuwe berekening van de factuurkorting.  
 

@@ -22,15 +22,16 @@ ms.lasthandoff: 03/22/2018
 <!--NAV # Customizing Dynamics NAV -->
 Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw collega's toegang hebben tot de functies, de functionaliteit en de gegevens die u het hardst nodig hebt. En dat op een manier die het best bij uw dagelijks werk past. Wie de wijzigingen ziet, is afhankelijk van wat u doet, zoals beschreven in deze tabel.
 
-| Wat kunt u doen    |  Description  |  Who ziet de wijzigingen  |  Meer informatie  |
-|-----|---------------|---------|-------|
-|Een extensie installeren|De extensies zijn als kleine toepassingen die functionaliteit toevoegen, gedrag wijzigen, toegang bieden tot nieuwe online services en meer. Zo verschaft Microsoft een extensie die integratie met PayPal Payments Standard biedt.|Alle gebruikers in alle bedrijven|[Aanpassen met behulp van extensies](ui-extensions.md)|
-|De ervaring wijzigen|Eén instelling, de instelling *Ervaring*, bepaalt hoeveel van de kernfunctionaliteit beschikbaar is. Momenteel zijn er twee niveaus: Basis en Essentieel.|Alle gebruikers in een specifiek bedrijf.|[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)|
-|Uw werkruimte personaliseren|De lay-out en de inhoud van uw pagina's wijzigen|Alleen u.|[Het personaliseren van uw werkruimte](ui-personalization-user.md)|
+
+|      Wat kunt u doen       |                                                                                                              Description                                                                                                               |       Who ziet de wijzigingen       |                                       Meer informatie                                       |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
+|    Een extensie installeren    | De extensies zijn als kleine toepassingen die functionaliteit toevoegen, gedrag wijzigen, toegang bieden tot nieuwe online services en meer. Zo verschaft Microsoft een extensie die integratie met PayPal Payments Standard biedt. |   Alle gebruikers in alle bedrijven    |                       [Aanpassen met behulp van extensies](ui-extensions.md)                       |
+|   De ervaring wijzigen    |                                     Eén instelling, de instelling *Ervaring*, bepaalt hoeveel van de kernfunctionaliteit beschikbaar is. Momenteel zijn er twee niveaus: Basis en Essentieel.                                      | Alle gebruikers in een specifiek bedrijf. | [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md) |
+| Uw werkruimte personaliseren |                                                                                              De lay-out en de inhoud van uw pagina's wijzigen                                                                                              |            Alleen u.             |                  [Het personaliseren van uw werkruimte](ui-personalization-user.md)                  |
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

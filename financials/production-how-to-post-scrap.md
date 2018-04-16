@@ -27,7 +27,7 @@ Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd
 
 ## <a name="to-post-scrap-manually"></a>Uitval handmatig boeken  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Outputdagboek** in en klik vervolgens op de gerelateerde koppeling.  
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Vul de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Voer in het veld **Uitgevallen aantal** het uitvalaantal in.  
 4. Voer in het veld **Uitvalcode** de uitvalcode in.  
 5. Kies de actie **Boeken** om de opgegeven uitval per bewerking te boeken.  

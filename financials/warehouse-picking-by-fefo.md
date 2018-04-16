@@ -24,24 +24,24 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
 
  Deze functie werkt alleen wanneer aan de volgende criteria wordt voldaan:  
 
--   Het artikel moet een serie-/partijnummer hebben.  
--   Op de tracking-code van het artikel moet het veld **Serienr. specifieke magazijn tracering** of **Partij-specifieke magazijn tracering** worden geselecteerd.  
--   Het artikel moet met een verloopdatum naar de voorraad worden geboekt.  
--   Op de vestigingskaart moet het selectievakje **Picken vereisen** zijn ingeschakeld.  
--   Op de vestigingskaart moet het selectievakje **Picken volgens FEFO** zijn ingeschakeld.  
--   Op de vestigingskaart moet het selectievakje **Opslaglocatie verplicht** zijn ingeschakeld.  
+- Het artikel moet een serie-/partijnummer hebben.  
+- Op de tracking-code van het artikel moet het veld **Serienr. specifieke magazijn tracering** of **Partij-specifieke magazijn tracering** worden geselecteerd.  
+- Het artikel moet met een verloopdatum naar de voorraad worden geboekt.  
+- Op de vestigingskaart moet het selectievakje **Picken vereisen** zijn ingeschakeld.  
+- Op de vestigingskaart moet het selectievakje **Picken volgens FEFO** zijn ingeschakeld.  
+- Op de vestigingskaart moet het selectievakje **Opslaglocatie verplicht** zijn ingeschakeld.  
 
- Wanneer aan alle criteria wordt voldaan, worden artikelen met serie- of partijnummers die moeten worden gepickt, gesorteerd met de oudste eerst bij alle picks en verplaatsingen, behalve artikelen waarvoor specifieke tracering van Serienr. of partijnummer plaatsvindt.  
+  Wanneer aan alle criteria wordt voldaan, worden artikelen met serie- of partijnummers die moeten worden gepickt, gesorteerd met de oudste eerst bij alle picks en verplaatsingen, behalve artikelen waarvoor specifieke tracering van Serienr. of partijnummer plaatsvindt.  
 
 > [!NOTE]  
 >  Indien voor sommige artikelen met serie- of partijnummers specifieke tracering plaatsvindt, wordt dit eerst nageleefd en worden daarna de overige, niet-specifieke, serie- en partijnummers gerangschikt volgens FEFO.  
 
  Als twee artikelen met serie- of lotnummer dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer geselecteerd. Als de lot- of serienummers gelijk zijn, wordt het artikel geselecteerd dat als eerste is geregistreerd.  
 
-> [!NOTE]  
->  -   Tijdens het picken van artikelen met een serie-/lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepicked volgens FEFO.  
-> -   U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij in het venster **Voorraadverplaatsing** of **Werkblad verplaatsing**, door het veld **Uit opslaglocatie** leeg te maken.  
-> -   Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artikelen die niet zijn verlopen, opgenomen in de pick. Dit geldt ook als u niet picken volgens FEFO gebruikt.  
+> [!NOTE]
+> - Tijdens het picken van artikelen met een serie-/lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepicked volgens FEFO.  
+>   -   U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij in het venster **Voorraadverplaatsing** of **Werkblad verplaatsing**, door het veld **Uit opslaglocatie** leeg te maken.  
+>   -   Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artikelen die niet zijn verlopen, opgenomen in de pick. Dit geldt ook als u niet picken volgens FEFO gebruikt.  
 
 ## <a name="see-also"></a>Zie ook  
 [artikelen picken](warehouse-pick-items.md)   

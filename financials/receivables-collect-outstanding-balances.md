@@ -47,7 +47,7 @@ Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kun
 
 ## <a name="to-send-the-customer-statement-report"></a>Het rekeningoverzichten van de klant verzenden
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klant - Rekeningoverzicht** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Geef onder **Uitvoeropties** aan hoe de lijst aan het rapport aan de klant moet worden verzonden.
 
 > [!NOTE]  

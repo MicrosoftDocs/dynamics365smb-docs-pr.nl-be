@@ -25,7 +25,7 @@ Als er verschillende inkopers bij uw bedrijf werken, kunt u deze in een venster 
 ## <a name="to-set-up-purchasers"></a>Inkopers instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers/Inkopers** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Verkopers/Inkopers** de actie **Nieuw**.
-3. Vul in de velden in het venster **Verkopers/Inkopers** de gewenste waarden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul in de velden in het venster **Verkopers/Inkopers** de gewenste waarden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Inkopers toewijzen aan leveranciers
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.

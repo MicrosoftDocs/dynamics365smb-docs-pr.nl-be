@@ -28,12 +28,12 @@ Bij het uitvoeren van de services moeten vaak servicedocumenten worden opgesteld
   
 ## <a name="to-set-up-a-standard-service-code"></a>Standaardservicecodes instellen    
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaardservicecodes** in en klik vervolgens op de gerelateerde koppeling.  
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Vul de serviceregels in die zijn gekoppeld aan deze servicecode.  
+2. Vul de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Vul de serviceregels in die zijn gekoppeld aan deze servicecode.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Een standaardservicecode toewijzen aan een serviceartikelgroep
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceartikelgroepen** in en klik vervolgens op de gerelateerde koppeling.  
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vul de serviceregels in die zijn gekoppeld aan deze servicecode.  
 
 ## <a name="see-also"></a>Zie ook

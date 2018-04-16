@@ -39,29 +39,29 @@ Afhankelijk van het soort pagina en wat deze bevat, kunt u het volgende doen:
 
     ![Personalisatiemodus](media/ui_personalize_mode_small.png "Personalisatiemodus")
 
-2.  Open de pagina die u wilt personaliseren.
+2. Open de pagina die u wilt personaliseren.
 
-    Als u een vergrendelingspictogram in de banner ziet, moet u [Waarom is de pagina vergrendeld](ui-personalization-locked.md) raadplegen voor meer informatie.
+   Als u een vergrendelingspictogram in de banner ziet, moet u [Waarom is de pagina vergrendeld](ui-personalization-locked.md) raadplegen voor meer informatie.
 
-3.  Wijs naar een gebied dat u wilt personaliseren, zoals een veld of kolomkop in een lijst. Alls wat u kunt personaliseren wordt onmiddellijk gemarkeerd met een pijl of rand.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Wijs naar een gebied dat u wilt personaliseren, zoals een veld of kolomkop in een lijst. Alls wat u kunt personaliseren wordt onmiddellijk gemarkeerd met een pijl of rand.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Deze tabel kunt u gebruiken bij het maken van wijzigingen:     <table>
-        <tr><th>Wat u wilt doen?</td><th>Hoe kunt u het doen?</th></tr>
-        <tr><td>Iets verplaatsen, zoals een veld, een kolom in lijst, een tegel of onderdeel</td><td> Wijs naar alles wat u wilt verplaatsen en sleep dit naar de nieuwe locatie. De locatie wordt aangegeven door een dikke horizontale of verticale lijn.</td></tr>
-        <tr><td>Iets verwijderen</td><td>Selecteer de pijlpunt en kies <b>Verwijderen</b>. </td></tr>
-        <tr><td>Een kolom of veld toevoegen</td><td>In de banner <b>Personaliseren</b> kiest u <b>Meer</b> en kiest u <b>Veld</b>.<br /></br>Het deelvenster <b>Veld toevoegen aan pagina</b> wordt aan de rechterkant weergegeven. Hier staan de velden die u aan de pagina kunt toevoegen. Velden die zijn gemarkeerd als <b>Geplaatst</b> bevinden zich al op de pagina. Velden die zijn gemarkeerd als <b>Gereed</b> bevinden zich momenteel niet op de pagina.<br /></br>Als u een veld wilt toevoegen, moet u het uit het deelvenster slepen naar de locatie waar u het hebben wilt. De locatie wordt aangegeven door een dikke horizontale of verticale lijn.</td></tr>
-        <tr><td>Het bevroren deelvenster in een lijst naar een andere kolom wijzigen.</td><td>Selecteer de pijlpunt van de kolom die u als laatste van het bevroren deelvenster hebben wilt, en kies vervolgens <b>Bevroren deelvenster instellen</b>.<br /><br/>Als u het bevroren deelvenster terug wilt verplaatsen naar de oorspronkelijke locatie waarvoor het bestemd was, selecteert u de pijlpunt voor de kolom met het huidige bevroren deelvenster en kiest u <b>Bevroren deelvenster wissen</b>. Opmerking: u kunt dit bevroren deelvenster niet verwijderen.</td></tr>
-      </table>
+4. Deze tabel kunt u gebruiken bij het maken van wijzigingen:     <table>
+       <tr><th>Wat u wilt doen?</td><th>Hoe kunt u het doen?</th></tr>
+       <tr><td>Iets verplaatsen, zoals een veld, een kolom in lijst, een tegel of onderdeel</td><td> Wijs naar alles wat u wilt verplaatsen en sleep dit naar de nieuwe locatie. De locatie wordt aangegeven door een dikke horizontale of verticale lijn.</td></tr>
+       <tr><td>Iets verwijderen</td><td>Selecteer de pijlpunt en kies <b>Verwijderen</b>. </td></tr>
+       <tr><td>Een kolom of veld toevoegen</td><td>In de banner <b>Personaliseren</b> kiest u <b>Meer</b> en kiest u <b>Veld</b>.<br /></br>Het deelvenster <b>Veld toevoegen aan pagina</b> wordt aan de rechterkant weergegeven. Hier staan de velden die u aan de pagina kunt toevoegen. Velden die zijn gemarkeerd als <b>Geplaatst</b> bevinden zich al op de pagina. Velden die zijn gemarkeerd als <b>Gereed</b> bevinden zich momenteel niet op de pagina.<br /></br>Als u een veld wilt toevoegen, moet u het uit het deelvenster slepen naar de locatie waar u het hebben wilt. De locatie wordt aangegeven door een dikke horizontale of verticale lijn.</td></tr>
+       <tr><td>Het bevroren deelvenster in een lijst naar een andere kolom wijzigen.</td><td>Selecteer de pijlpunt van de kolom die u als laatste van het bevroren deelvenster hebben wilt, en kies vervolgens <b>Bevroren deelvenster instellen</b>.<br /><br/>Als u het bevroren deelvenster terug wilt verplaatsen naar de oorspronkelijke locatie waarvoor het bestemd was, selecteert u de pijlpunt voor de kolom met het huidige bevroren deelvenster en kiest u <b>Bevroren deelvenster wissen</b>. Opmerking: u kunt dit bevroren deelvenster niet verwijderen.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   U kunt een lijst niet meer wijzigen als deze als tegels wordt weergegeven. U moet de pagina eerst in de lijstweergave weergeven door het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "pijl-links Als overzicht weergeven") te selecteren.
+   > [!IMPORTANT]  
+   >   U kunt een lijst niet meer wijzigen als deze als tegels wordt weergegeven. U moet de pagina eerst in de lijstweergave weergeven door het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "pijl-links Als overzicht weergeven") te selecteren.
 
-5.  U kunt doorgaan met het aanbrengen van wijzigingen op dezelfde pagina of naar een andere pagina gaan. Uw wijzigingen worden automatisch opgeslagen terwijl u ze aanbrengt. Als u klaar bent in de banner **Personaliseren** kiest u **Gereed**.
+5. U kunt doorgaan met het aanbrengen van wijzigingen op dezelfde pagina of naar een andere pagina gaan. Uw wijzigingen worden automatisch opgeslagen terwijl u ze aanbrengt. Als u klaar bent in de banner **Personaliseren** kiest u **Gereed**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Personalisatie wissen om een pagina terug naar de oorspronkelijke opmaak te wijzigen
 Op een bepaald moment wilt u misschien alle personalisatiewijzigingen wissen die u in de loop van de tijd op deze pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Als u dit wilt doen, kiest u in het deelvenster **Personaliseren** de optie **Meer** en **Personalisatie wissen**.

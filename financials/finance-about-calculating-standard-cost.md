@@ -80,8 +80,8 @@ Teneinde de standaardcapaciteitskosten te berekenen, moet u de standaardtijdtari
 
 U stelt de tarieven voor al deze tijdtypen voor iedere afdeling of bewerkingsplaats in op een afzonderlijke stuklijst.  
 
-> [!NOTE]  
-    >  Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast. Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte. U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.  
+> [!NOTE]
+>  Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast. Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte. U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.  
 
 Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** in het venster **Productie-instelling**.  
 

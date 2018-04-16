@@ -35,17 +35,17 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
     >  De functie **Kostensoorten registreren in rekeningschema** werkt de relatie tussen het rekeningschema en het kostensoortschema bij. Het veld **Nr.** wordt ingevuld en gecontroleerd om ervoor te zorgen dat iedere grootboekrekening slechts aan één kostensoort is gerelateerd. De functie wordt automatisch uitgevoerd voordat deze van grootboekposten naar kostprijsboekhouding wordt overgebracht.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Nieuwe kostensoorten instellen in het venster Kostensoortschema  
-1.  Open het venster **Kostensoortschema** in de bewerkmodus.  
-2.  Vul de velden indien nodig in zoals beschreven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Open het venster **Kostensoortschema** in de bewerkmodus.  
+2. Vul de velden indien nodig in zoals beschreven. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  U kunt kostensoorten instellen en onderhouden in het venster **Kostensoortkaart** of in het venster **Kostensoortschema**. In deze procedure stelt u kostensoorten in het venster **Kostensoortschema** in.
+   > [!NOTE]  
+   >  U kunt kostensoorten instellen en onderhouden in het venster **Kostensoortkaart** of in het venster **Kostensoortschema**. In deze procedure stelt u kostensoorten in het venster **Kostensoortschema** in.
 
-3.  Nadat u alle kostensoorten hebt gemaakt, kiest u de actie **Kostensoorten inspringen**. Kies in het dialoogvenster de knop **Ja**.  
-4.  Koppel het nieuwe kostensoort aan de corresponderende grootboekrekening.  
+3. Nadat u alle kostensoorten hebt gemaakt, kiest u de actie **Kostensoorten inspringen**. Kies in het dialoogvenster de knop **Ja**.  
+4. Koppel het nieuwe kostensoort aan de corresponderende grootboekrekening.  
 
-    > [!IMPORTANT]  
-    >  Als u definities hebt ingevoerd in de **Samentelling**-velden voor het regelsoort **Eindtotaal** voordat u de functie **Kostensoorten inspringen** uitvoert, moet u de definities opnieuw invoeren omdat de functie de waarden in alle velden **Eindtotaal** overschrijft.  
+   > [!IMPORTANT]  
+   >  Als u definities hebt ingevoerd in de **Samentelling**-velden voor het regelsoort **Eindtotaal** voordat u de functie **Kostensoorten inspringen** uitvoert, moet u de definities opnieuw invoeren omdat de functie de waarden in alle velden **Eindtotaal** overschrijft.  
 
 ## <a name="to-update-cost-types"></a>Kostensoorten bijwerken  
 1.  In het venster **Instelling kostprijsboekhouding** selecteert u of het kostensoortschema automatisch wilt laten bijwerken als het rekeningschema wordt gewijzigd.  

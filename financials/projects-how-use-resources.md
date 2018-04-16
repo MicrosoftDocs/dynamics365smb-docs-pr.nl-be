@@ -29,7 +29,7 @@ U wijst resources aan projecten toe door projectplanningsregels voor het project
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Resourceverbruik voor een project vastleggen
 1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en kies de gerelateerde koppeling.
-2. Open een relevante projectdagboekbatch en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Open een relevante projectdagboekbatch en vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wanneer het dagboek compleet is, kiest u de actie **Boeken**.
 
 ## <a name="to-adjust-resource-prices"></a>Resourceprijzen aanpassen

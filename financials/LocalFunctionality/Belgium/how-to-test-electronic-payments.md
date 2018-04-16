@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="test-electronic-payments"></a>Elektronische betalingen testen
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
 

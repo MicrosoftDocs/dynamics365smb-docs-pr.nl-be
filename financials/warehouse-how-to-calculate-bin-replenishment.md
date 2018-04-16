@@ -38,14 +38,14 @@ Als u aan de bulkopslaglocaties alleen de activiteit **Opslag** hebt toegewezen,
 
 De volgende keer dat u de aanvulling van de opslaglocaties berekent, worden de verwijderde voorstellen automatisch opnieuw gemaakt,op voorwaarde dat deze voorstellen nog steeds geldig zijn.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Als aan de volgende voorwaarden wordt voldaan voor een artikel:  
->   
->  -   het artikel heeft een vervaldatum en  
-> -   Het veld **Picken volgens FEFO** op de vestigingskaart is geselecteerd, en  
-> -   u gebruikt de functionaliteit **Opslaglocatieaanvulling berekenen**,  
->   
->  zijn de velden **Van zone** en **Van opslaglocatie** leeg, omdat het algoritme waarmee wordt berekend waar vandaan de artikelen worden verplaatst, alleen wordt geactiveerd als u de functie **Verplaatsing maken** activeert.  
+> 
+> - het artikel heeft een vervaldatum en  
+>   -   Het veld **Picken volgens FEFO** op de vestigingskaart is geselecteerd, en  
+>   -   u gebruikt de functionaliteit **Opslaglocatieaanvulling berekenen**,  
+> 
+>   zijn de velden **Van zone** en **Van opslaglocatie** leeg, omdat het algoritme waarmee wordt berekend waar vandaan de artikelen worden verplaatst, alleen wordt geactiveerd als u de functie **Verplaatsing maken** activeert.  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

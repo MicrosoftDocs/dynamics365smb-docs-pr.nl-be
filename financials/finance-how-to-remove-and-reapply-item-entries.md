@@ -34,24 +34,24 @@ Gebruik indien mogelijk een document om een artikelpost opnieuw toe te passen. A
 
 Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren van een vereffening, als u bijvoorbeeld een vaste vereffening moet corrigeren, gebruikt u het venster **Vereffeningsvoorstel** om een vereffening te corrigeren.
 
-> [!Warning]  
+> [!Warning]
 > Houd het volgende in gedachten wanneer u met het toepassingsvoorstel werkt:
-    - U moet het opnieuw uitvoeren van een vereffening voor vereffeningsposten niet langere tijd uitstellen, omdat andere gebruikers de artikelen niet kunnen verwerken totdat u de vereffeningsposten opnieuw vereffent of het venster **Vereffeningsvoorstel** sluit. Gebruikers die acties willen uitvoeren voor een vereffeningspost waarvan de vereffening handmatig ongedaan is gemaakt, ontvangen het volgende foutmelding: "U kunt deze handeling niet uitvoeren omdat de posten voor artikel XXX niet vereffend zijn in het vereffeningsvoorstel door gebruiker XXX."
-    - U moet artikelposten alleen buiten de gebruikelijke werktijden opnieuw vereffenen. Zo voorkomt u eventuele conflicten met andere gebruikers die transacties voor dezelfde artikelen boeken.
-    - Wanneer u het vereffeningsvoorstel sluit, voert [!INCLUDE[d365fin](includes/d365fin_md.md)] een controle uit om ervoor te zorgen dat alle posten zijn toegepast. Als u bijvoorbeeld een aantalvereffening verwijdert en geen nieuwe vereffening maakt, zal bij het sluiten van het vereffeningsvoorstel alsnog een nieuwe vereffening worden aangemaakt. Zo blijven de kosten intact. Als u echter een vaste vereffening verwijdert, wordt niet automatisch een nieuwe vaste vereffening gemaakt bij het sluiten van het voorstel. U moet dan zelf een nieuwe vereffening aanmaken in het voorstel.
-    - U kunt in het toepassingsvoorstel vereffeningen uit meerdere posten tegelijk verwijderen. Aangezien het vereffenen van posten echter invloed heeft op de posten die beschikbaar zijn voor vereffening, kunt u geen vereffening maken voor meerdere posten tegelijk.
-    - Het toepassingsvoorstel kan onder de volgende omstandigheden geen vereffening maken: als er onvoldoende aantallen in voorraad zijn om te vereffenen, kan het toepassingsvoorstel geen vereffening maken wanneer u een negatieve voorraadmutatiepost zonder artikeltraceringsinformatie probeert te vereffenen met een positieve voorraadmutatiepost met artikeltraceringsinformatie.
+>     - U moet het opnieuw uitvoeren van een vereffening voor vereffeningsposten niet langere tijd uitstellen, omdat andere gebruikers de artikelen niet kunnen verwerken totdat u de vereffeningsposten opnieuw vereffent of het venster **Vereffeningsvoorstel** sluit. Gebruikers die acties willen uitvoeren voor een vereffeningspost waarvan de vereffening handmatig ongedaan is gemaakt, ontvangen het volgende foutmelding: "U kunt deze handeling niet uitvoeren omdat de posten voor artikel XXX niet vereffend zijn in het vereffeningsvoorstel door gebruiker XXX."
+>     - U moet artikelposten alleen buiten de gebruikelijke werktijden opnieuw vereffenen. Zo voorkomt u eventuele conflicten met andere gebruikers die transacties voor dezelfde artikelen boeken.
+>     - Wanneer u het vereffeningsvoorstel sluit, voert [!INCLUDE[d365fin](includes/d365fin_md.md)] een controle uit om ervoor te zorgen dat alle posten zijn toegepast. Als u bijvoorbeeld een aantalvereffening verwijdert en geen nieuwe vereffening maakt, zal bij het sluiten van het vereffeningsvoorstel alsnog een nieuwe vereffening worden aangemaakt. Zo blijven de kosten intact. Als u echter een vaste vereffening verwijdert, wordt niet automatisch een nieuwe vaste vereffening gemaakt bij het sluiten van het voorstel. U moet dan zelf een nieuwe vereffening aanmaken in het voorstel.
+>     - U kunt in het toepassingsvoorstel vereffeningen uit meerdere posten tegelijk verwijderen. Aangezien het vereffenen van posten echter invloed heeft op de posten die beschikbaar zijn voor vereffening, kunt u geen vereffening maken voor meerdere posten tegelijk.
+>     - Het toepassingsvoorstel kan onder de volgende omstandigheden geen vereffening maken: als er onvoldoende aantallen in voorraad zijn om te vereffenen, kan het toepassingsvoorstel geen vereffening maken wanneer u een negatieve voorraadmutatiepost zonder artikeltraceringsinformatie probeert te vereffenen met een positieve voorraadmutatiepost met artikeltraceringsinformatie.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening verwijderen met het Vereffeningsvoorstel  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vereffeningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Het venster **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
-3.  Voer filters in op het sneltabblad **Algemeen** om de artikelpost waarvoor u de vereffening wilt wijzigen makkelijker te kunnen vinden.  
-4.  Selecteer de artikelpost en kies de actie **Vereffende posten**. Het venster **Vereffende posten weergeven - Vereffende posten** wordt geopend, met daarin de artikelpost of de artikelposten die met de geselecteerde post zijn vereffend.  
-5.  Selecteer de artikelpost waarvoor u de vereffening wilt verwijderen.  
-6.  Kies de actie **Vereffening verwijderen**. De artikelvereffeningspost die de twee artikelposten koppelt, wordt dan verwijderd en naar het venster **Vereffende posten weergeven - Niet-vereffende posten** verplaatst.  
-7.  Sluit het venster **Vereffende posten weergeven - Vereffende posten**.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vereffeningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+2. Het venster **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
+3. Voer filters in op het sneltabblad **Algemeen** om de artikelpost waarvoor u de vereffening wilt wijzigen makkelijker te kunnen vinden.  
+4. Selecteer de artikelpost en kies de actie **Vereffende posten**. Het venster **Vereffende posten weergeven - Vereffende posten** wordt geopend, met daarin de artikelpost of de artikelposten die met de geselecteerde post zijn vereffend.  
+5. Selecteer de artikelpost waarvoor u de vereffening wilt verwijderen.  
+6. Kies de actie **Vereffening verwijderen**. De artikelvereffeningspost die de twee artikelposten koppelt, wordt dan verwijderd en naar het venster **Vereffende posten weergeven - Niet-vereffende posten** verplaatst.  
+7. Sluit het venster **Vereffende posten weergeven - Vereffende posten**.  
 
- Het veld **Resterend aantal** van de twee artikelposten worden verhoogd met het niet-vereffende aantal. De verwijderde artikelpost kan nu opnieuw worden vereffend in het venster **Vereffende posten weergeven - Niet-vereffende posten**.  
+   Het veld **Resterend aantal** van de twee artikelposten worden verhoogd met het niet-vereffende aantal. De verwijderde artikelpost kan nu opnieuw worden vereffend in het venster **Vereffende posten weergeven - Niet-vereffende posten**.  
 
 > [!IMPORTANT]  
 >  U moet het opnieuw uitvoeren van een vereffening voor vereffeningsposten niet langere tijd uitstellen, omdat andere gebruikers de betrokken artikelen niet kunnen verwerken totdat u de vereffeningsposten opnieuw vereffent of het venster **Vereffeningsvoorstel** sluit. De volgende foutmelding wordt weergegeven als u probeert bewerkingen uit te voeren waar een handmatig niet-vereffende vereffeningspost in is opgenomen:  

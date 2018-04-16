@@ -31,21 +31,21 @@ Stel dat elk voorraadprofiel een reeks vraaggebeurtenissen bevat (gesorteerd op 
   
      Als de timing van het aanbod niet geschikt is, kan het aanbod wellicht als volgt opnieuw worden gepland:  
   
-    1.  Als het aanbod eerder wordt geplaatst dan de vraag, kan het aanbod mogelijk opnieuw uit worden gepland, zodat de voorraad zo klein mogelijk is.  
-    2.  Als het aanbod later dan de vraag is geplaatst, kan het aanbod mogelijk opnieuw worden ingepland. Anders stelt het systeem nieuw aanbod voor.  
-    3.  Als het aanbod op de datum voldoet aan de vraag, kan het planningssysteem doorgaan met te analyseren of het aantal van het aanbod aan de vraag kan voldoen.  
+   1. Als het aanbod eerder wordt geplaatst dan de vraag, kan het aanbod mogelijk opnieuw uit worden gepland, zodat de voorraad zo klein mogelijk is.  
+   2. Als het aanbod later dan de vraag is geplaatst, kan het aanbod mogelijk opnieuw worden ingepland. Anders stelt het systeem nieuw aanbod voor.  
+   3. Als het aanbod op de datum voldoet aan de vraag, kan het planningssysteem doorgaan met te analyseren of het aantal van het aanbod aan de vraag kan voldoen.  
   
-     Als de timing eenmaal duidelijk is, kan het juiste, te leveren aantal als volgt worden berekend:  
+      Als de timing eenmaal duidelijk is, kan het juiste, te leveren aantal als volgt worden berekend:  
   
-    1.  Als het aanbodaantal kleiner is dan de vraag, is het mogelijk dat het aanbodaantal kan worden vergroot (of niet, indien beperkt door een beleid voor maximaal aantal).  
-    2.  Als het aanbodaantal groter is dan de vraag, is het mogelijk dat het aanbodaantal kan worden verminderd (of niet, indien beperkt door een beleid voor minimaal aantal).  
+   4. Als het aanbodaantal kleiner is dan de vraag, is het mogelijk dat het aanbodaantal kan worden vergroot (of niet, indien beperkt door een beleid voor maximaal aantal).  
+   5. Als het aanbodaantal groter is dan de vraag, is het mogelijk dat het aanbodaantal kan worden verminderd (of niet, indien beperkt door een beleid voor minimaal aantal).  
   
-     Op dit punt bestaat een van de volgende twee situaties:  
+      Op dit punt bestaat een van de volgende twee situaties:  
   
-    1.  De huidige vraag kan worden verwerkt. In dat geval kan het worden afgesloten en kan de planning voor de volgende vraag beginnen.  
-    2.  De voorziening heeft het maximum bereikt, waardoor een deel van het vraagaantal niet gedekt is. In dit geval kan het planningssysteem de huidige voorraad sluiten en doorgaan naar de volgende.  
+   6. De huidige vraag kan worden verwerkt. In dat geval kan het worden afgesloten en kan de planning voor de volgende vraag beginnen.  
+   7. De voorziening heeft het maximum bereikt, waardoor een deel van het vraagaantal niet gedekt is. In dit geval kan het planningssysteem de huidige voorraad sluiten en doorgaan naar de volgende.  
   
- De procedure begint overnieuw met de volgende vraag en de huidige voorziening of andersom. De huidige voorzieningen kunnen mogelijk deze volgende vraag ook verwerken, of de huidige vraag is nog niet volledig verwerkt.  
+   De procedure begint overnieuw met de volgende vraag en de huidige voorziening of andersom. De huidige voorzieningen kunnen mogelijk deze volgende vraag ook verwerken, of de huidige vraag is nog niet volledig verwerkt.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Regels betreffende acties voor voorzieningsgebeurtenissen  
 Wanneer het planningssysteem een verticale berekening uitvoert waarin de voorziening moet voldoen aan de vraag, wordt de vraag als een gegeven feit genomen. Dit wil zeggen dat de vraag buiten de invloed van het planningssysteem ligt. De aanbodzijde kan echter worden beheerd. Het planningssysteem stelt daarom voor om nieuwe voorzieningsorders te maken, bestaande orders opnieuw te plannen, en/of het orderaantal te wijzigen. Als een bestaande voorzieningenorder overbodig wordt, stelt het planningssysteem voor dat de gebruiker deze annuleert.  

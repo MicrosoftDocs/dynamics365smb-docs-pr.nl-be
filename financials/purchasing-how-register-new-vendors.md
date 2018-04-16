@@ -36,7 +36,7 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van de le
     Wanneer er meer dan één leveranciersjabloon bestaat, opent er een venster waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
 3. Kies in het venster **Selecteer een sjabloon voor een nieuwe leverancier** de sjabloon die u wilt gebruiken voor de nieuwe leverancierskaart.
 4. Kies de knop **Ok**. Een nieuwe leverancierskaart wordt geopend met enkele velden ingevuld met informatie uit de sjabloon.
-5. Ga door met velden op de leverancierskaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Ga door met velden op de leverancierskaart in te vullen of te wijzigen. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Als u het factuuradres dat voor elke factuur van een leverancier wordt gebruikt niet kent, vult u het veld **Betaaladres** niet in. Kies in dat geval het nummer van de factuurleverancier nadat u een inkoopofferte, inkooporder of inkoopkop hebt ingesteld.
@@ -47,7 +47,7 @@ Als u deze leverancierskaart als sjabloon wilt gebruiken wanneer u nieuwe levera
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>De leverancierskaart als sjabloon opslaan
 1. Kies in het venster **Leverancierskaart** de actie **Opslaan als sjabloon**. Het venster **Leveranciersjabloon** opent de weergave van de leverancierkaart als sjabloon.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. Het venster **Dimensiesjablonen** geeft alle dimensiecodes weer die voor de leverancier zijn ingesteld.
 4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe leverancierkaarten die worden gemaakt met de sjabloon.
 5. Wanneer u de nieuwe leveranciersjabloon hebt voltooid, kiest u de knop **OK**.  

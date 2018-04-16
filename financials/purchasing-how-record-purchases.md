@@ -48,17 +48,17 @@ U kunt leveranciersvelden op de inkoopfactuur op twee manieren invullen afhankel
 8. Wanneer u de leverancierskaart hebt voltooid, kiest u de knop **OK** om terug te keren naar het venster **Inkoopfactuur**.
 
     Verschillende velden in het venster **Inkoopfactuur** worden gevuld met gegevens die u op de nieuwe leverancierskaart hebt opgegeven.
-9. Vul indien nodig de overige velden in het venster **Inkoopfactuur** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. Vul indien nodig de overige velden in het venster **Inkoopfactuur** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     U kunt nu de inkoopfactuurregels invullen met voorraadartikelen of services die u hebt gekocht van de leverancier.
 
     > [!NOTE]  
->   Als u terugkerende inkoopregels voor de leverancier hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de factuur door de actie **Terugkerende inkoopregels ophalen** te kiezen.
+   >   Als u terugkerende inkoopregels voor de leverancier hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de factuur door de actie **Terugkerende inkoopregels ophalen** te kiezen.
 10. Voer op het sneltabblad **Regels** in het veld **Artikelnr.** het nummer van een voorraadartikel of een service in.
 11. Voer in het veld **Aantal** het in te kopen aantal van een artikel in.
 
     > [!NOTE]  
->   Voor artikelen van de soort **Service** is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.
+    >   Voor artikelen van de soort **Service** is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.
 
     Het veld **Regelbedrag** wordt bijgewerkt met de waarde in het veld **Directe kostprijs**, vermenigvuldigd met de waarde in het veld **Aantal**.
 
@@ -66,7 +66,7 @@ U kunt leveranciersvelden op de inkoopfactuur op twee manieren invullen afhankel
 12. In het veld **Kortingsbedrag op factuur** voert u een bedrag in dat moet worden afgetrokken van de waarde in het veld **Totaal incl. btw** onder in de factuur.
 
     > [!NOTE]  
->   Als u factuurkortingen voor de leverancier hebt opgegeven, wordt het percentage automatisch ingevoegd in het veld **Kortingspercentage op leveranciersfactuur** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Kortingsbedrag op factuur**.
+    >   Als u factuurkortingen voor de leverancier hebt opgegeven, wordt het percentage automatisch ingevoegd in het veld **Kortingspercentage op leveranciersfactuur** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Kortingsbedrag op factuur**.
 13. Als u de ingekochte artikelen of diensten ontvangt, kiest u **Boeken**.
 
 De inkoop wordt nu weerspiegeld in de voorraad en financiële records, en de leveranciersbetaling is ingeschakeld. De inkoopfactuur wordt verwijderd uit het overzicht met inkoopfacturen en wordt vervangen door een nieuw document in het overzicht van geboekte inkoopfacturen.

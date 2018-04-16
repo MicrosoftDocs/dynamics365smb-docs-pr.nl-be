@@ -36,7 +36,7 @@ Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes inst
     Als er meer dan één klantensjabloon bestaat, wordt er een venster geopend waarin u een klantensjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
 3. Kies in het venster **Selecteer een sjabloon voor een nieuwe klant** de sjabloon die u wilt gebruiken voor de nieuwe klantenkaart.
 4. Kies de knop **Ok**. Een nieuwe klantenkaart wordt geopend waarin in sommige velden informatie uit de sjabloon is ingevuld.  
-5. Ga indien nodig door met het invullen of wijzigen van velden op de klantenkaart. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Ga indien nodig door met het invullen of wijzigen van velden op de klantenkaart. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Op het sneltabblad **Verkoopprijzen** kunt u speciale prijzen of kortingen weergeven die u voor de klant verleent als aan bepaalde criteria, zoals artikel, minimaal orderaantal of einddatum, wordt voldaan. Elke rij vertegenwoordigt een speciale prijs of regelkorting. Elke kolom vertegenwoordigt een criterium dat moet worden toegepast om de speciale prijs te garanderen die u invoert in het veld **Eenheidsprijs** of de regelkorting die u invoert in het veld **Regelkorting %**. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -46,7 +46,7 @@ Als u deze klantenkaart als sjabloon wilt gebruiken wanneer u nieuwe klantenkaar
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>De klantenkaart als sjabloon opslaan
 1. Kies in het venster **Klantenkaart** de actie **Opslaan als sjabloon**. Het venster **Klantensjabloon** opent de weergave van de klantenkaart als sjabloon.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. Het venster **Dimensiesjablonen** wordt geopend en toont alle dimensiecodes die voor de klant zijn ingesteld.
 4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe klantenkaarten die worden gemaakt met de sjabloon.  
 5. Wanneer u de nieuwe klantensjabloon hebt voltooid, kiest u de knop **OK**.

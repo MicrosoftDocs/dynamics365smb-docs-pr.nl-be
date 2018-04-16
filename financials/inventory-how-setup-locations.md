@@ -27,7 +27,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 ## <a name="to-create-a-location-card"></a>Een vestigingskaart maken
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferroutes** in en klik op de gerelateerde koppeling.
 2. U kunt ook vanuit elk **Vestiging**-venster de actie **Transferroutes** kiezen.
 3. Kies de actie **Nieuw**.
-4. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 U kunt nu voorraadartikelen tussen twee vestigingen overbrengen. Zie voor meer informatie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).    
 

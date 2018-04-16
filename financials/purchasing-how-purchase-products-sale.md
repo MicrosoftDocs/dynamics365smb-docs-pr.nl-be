@@ -21,6 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
 Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
+
 |Functie|Description|
 |--------|-----------|
 |**Inkooporders maken**|Vanuit een verkooporder maakt deze functie een inkooporder voor elk van de artikelen op de verkooporder. U kunt het inkoopaantal wijzigen voordat u de inkooporders maakt. Alleen niet-beschikbare verkoopaantallen worden voorgesteld.
@@ -39,11 +40,11 @@ Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de v
 4. Als u een ander aantal wilt aanschaffen dan het niet-beschikbare verkoopaantal, bewerkt u de waarde in het veld **In te kopen aantal**.
 
     > [!NOTE]  
->   U kunt ook het veld **In te kopen aantal** wijzigen op grijze regels, ook al vertegenwoordigen deze volledig beschikbare verkoopaantallen.
+   >   U kunt ook het veld **In te kopen aantal** wijzigen op grijze regels, ook al vertegenwoordigen deze volledig beschikbare verkoopaantallen.
 5. Kies de knop **OK**.
 
     Een inkooporder wordt gemaakt voor elke leverancier van artikelen op de verkooporder, inclusief aantalwijzigingen die u aanbrengt in het venster **Inkooporders maken**.
-7. Ga verder met het verwerken van de inkooporder of -orders, bijvoorbeeld door inkooporderregels te bewerken of toe te voegen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
+6. Ga verder met het verwerken van de inkooporder of -orders, bijvoorbeeld door inkooporderregels te bewerken of toe te voegen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Een inkoopfactuur van een verkooporder of verkoopfactuur maken

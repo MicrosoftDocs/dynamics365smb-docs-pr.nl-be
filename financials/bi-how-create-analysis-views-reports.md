@@ -69,10 +69,10 @@ De regels op een sjabloon vertegenwoordigen stuk voor stuk de analysekolommen di
 4. Geef in de velden in het venster **Analysekolommen** op welke kolommen u in de analyselijst wilt opnemen.  
 
     > [!NOTE]  
->   Als u een kolom wilt definiëren, moet u het veld **Code soort analyse** invullen voor alle soorten kolommen, behalve **Formule**. Stel de analysetypecodes in het venster **Soorten analyse** in.  
+   >   Als u een kolom wilt definiëren, moet u het veld **Code soort analyse** invullen voor alle soorten kolommen, behalve **Formule**. Stel de analysetypecodes in het venster **Soorten analyse** in.  
 
     **Opmerking**. Als u **Artikelposten** selecteert in het veld **Boekingssoort grootboek**, worden de werkelijke cijfers van de artikelpost gekopieerd. Selecteert u hier **Artikelbudgetposten**, dan worden de gebudgetteerde cijfers van het budget gekopieerd.  
-5.  Kies de knop **OK** om de wijzigingen op te slaan.  
+5. Kies de knop **OK** om de wijzigingen op te slaan.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analyseregelsjablonen instellen  
 De volgende procedure is gebaseerd op analyserapporten voor verkopen. De stappen lijken hierop voor inkoop- en voorraadanalyserapporten.
@@ -96,7 +96,7 @@ Met verkoopanalyselijsten kunt u de dynamiek van uw omzet analyseren op basis va
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopanalyserapporten** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in het venster **Analyserapport verkoop** de actie **Nieuw**.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Analyserapport bewerken**.
 5. Kies in het venster **Verkoopanalyserapport** de actie **Matrix weergeven**.  
 

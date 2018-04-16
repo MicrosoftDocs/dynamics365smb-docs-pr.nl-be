@@ -38,22 +38,22 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 ## <a name="to-test-custom-report-layout-updates"></a>Updates van aangepaste rapportlay-outs testen  
   
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
   
-2.  Kies in het venster **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
+2. Kies in het venster **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
   
- Wijzigingen in de rapportlay-outs worden getest, maar niet toegepast op de werkelijke rapportlay-outs. Het venster **Bijwerklogboek rapportlay-out** verschijnt waarin de status van potentiële updates voor elke rapportlay-out wordt aangegeven. Als er fouten voor een rapportlay-out zijn, kunt u de rapportlay-out van het bericht direct benaderen en bewerken om eventuele problemen te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
+   Wijzigingen in de rapportlay-outs worden getest, maar niet toegepast op de werkelijke rapportlay-outs. Het venster **Bijwerklogboek rapportlay-out** verschijnt waarin de status van potentiële updates voor elke rapportlay-out wordt aangegeven. Als er fouten voor een rapportlay-out zijn, kunt u de rapportlay-out van het bericht direct benaderen en bewerken om eventuele problemen te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
   
 ##  <a name="UpdateLimitations"></a> Beperking voor update van aangepaste rapportlay-out  
  Er zijn verschillende soorten wijzigingen die de automatische update kan toepassen op aangepaste rapportlay-outs, bijvoorbeeld als een veld dat in de lay-out wordt gebruikt, in verwijderd uit de gegevensset van het rapport. De automatische update kan de volgende wijzigingen in de gegevensset van een rapport echter bijwerken.  
   
-1.  Verwijderde velden, labels of gegevensitems.  
+1. Verwijderde velden, labels of gegevensitems.  
   
-2.  Dubbele veldnamen in de rapportlay-out nadat de naam van een veld in de gegevensset is gewijzigd. Dit moet worden behandeld als een ontwerpfout.  
+2. Dubbele veldnamen in de rapportlay-out nadat de naam van een veld in de gegevensset is gewijzigd. Dit moet worden behandeld als een ontwerpfout.  
   
-3.  Upgradescenario's met meerdere iteraties van een rapportlay-out die tot gevolg hebben dat namen van dezelfde velden, labels of gegevensitems meerdere keren worden gewijzigd.  
+3. Upgradescenario's met meerdere iteraties van een rapportlay-out die tot gevolg hebben dat namen van dezelfde velden, labels of gegevensitems meerdere keren worden gewijzigd.  
   
- Als tijdens het updateproces een van deze problemen wordt gedetecteerd, kan de update niet worden toegepast. U moet de problemen handmatig verhelpen, bijvoorbeeld door de rapportlay-out te bewerken in Word, of programmatisch met behulp van upgrade-codeunits.  
+   Als tijdens het updateproces een van deze problemen wordt gedetecteerd, kan de update niet worden toegepast. U moet de problemen handmatig verhelpen, bijvoorbeeld door de rapportlay-out te bewerken in Word, of programmatisch met behulp van upgrade-codeunits.  
   
 ##  <a name="FixErrors"></a> Fouten corrigeren  
  Als er een foutbericht verschijnt tijdens het bijwerken of testen van updates van de rapportlay-out, moet u waarschijnlijk de rapportlay-out wijzigen om het probleem op te lossen. Zie de foutmelding om de oorzaak van het probleem te achterhalen.  

@@ -32,15 +32,15 @@ Verschil wordt gedefinieerd als het verschil tussen de werkelijke kosten en de v
 ## <a name="example"></a>Opmerking  
  In het volgende voorbeeld ziet u hoe het verschil wordt berekend voor aangeschafte artikelen. Het is gebaseerd op het volgende scenario:  
 
-1.  De gebruiker koopt een artikel tegen LV 90,00, maar de vaste verrekenprijs is LV 100,00. Het inkoopverschil is dus LV -10,00.  
-2.  LV 10,00 wordt gecrediteerd naar de inkoopverschillenrekening.  
-3.  De gebruiker boekt een artikeltoeslag van LV 20,00. De werkelijke kosten worden verhoogd tot LV 110,00 en de waarde van het inkoopverschil wordt LV 10,00.  
-4.  LV 20,00 wordt gedebiteerd naar de inkoopverschillenrekening. Het netto-inkoopverschil wordt LV 10,00.  
-5.  De gebruiker herwaardeert het artikel van LV 100,00 naar LV 70,00. Dit heeft geen invloed op de verschilberekening, alleen op de voorraadwaarde.  
+1. De gebruiker koopt een artikel tegen LV 90,00, maar de vaste verrekenprijs is LV 100,00. Het inkoopverschil is dus LV -10,00.  
+2. LV 10,00 wordt gecrediteerd naar de inkoopverschillenrekening.  
+3. De gebruiker boekt een artikeltoeslag van LV 20,00. De werkelijke kosten worden verhoogd tot LV 110,00 en de waarde van het inkoopverschil wordt LV 10,00.  
+4. LV 20,00 wordt gedebiteerd naar de inkoopverschillenrekening. Het netto-inkoopverschil wordt LV 10,00.  
+5. De gebruiker herwaardeert het artikel van LV 100,00 naar LV 70,00. Dit heeft geen invloed op de verschilberekening, alleen op de voorraadwaarde.  
 
- De volgende tabel toont de twee soorten resulterende waardeposten.  
+   De volgende tabel toont de twee soorten resulterende waardeposten.  
 
- ![Berekening van het inkoopverschil](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Berekening van het inkoopverschil](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>De standaardkosten bepalen  
  De vaste verrekenprijs wordt gebruikt bij het berekenen van het te kapitaliseren verschil en aantal. Aangezien de vaste verrekenprijs na verloop van tijd kan worden gewijzigd als gevolg van handmatige updateberekeningen, hebt u een tijdstip nodig waarop de vaste verrekenprijs wordt vastgesteld voor verschilberekening. Dit punt is wanneer de voorraadtoename wordt gefactureerd. Voor geproduceerde of geassembleerde artikelen worden standaardkosten bepaald wanneer de kosten worden gewaardeerd.  

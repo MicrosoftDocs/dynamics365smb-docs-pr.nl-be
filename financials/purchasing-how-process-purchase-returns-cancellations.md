@@ -89,45 +89,45 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
     - Met de functie **Geboekte documentregels ophalen voor tegenboeking** kopieert u een of meer geboekte documentregels uit een of meer geboekte documenten. Deze functie boekt altijd exact de kosten tegen vanuit de geboekte documentregel. Deze functie wordt in de volgende stappen beschreven.    
     - Met de functie **Document kopiëren** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** in het venster **Verkoopinstellingen** is ingeschakeld.  
 
-4. Kies de actie **Geboekte documentregels ophalen voor tegenboeking**.
-5. Schakel bovenaan in het venster **Geboekte inkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als bijvoorbeeld een aantal op een geboekte inkoopfactuur al is geretourneerd, wilt u dat aantal misschien niet opnemen op een nieuw inkoopretourdocument.
+5. Kies de actie **Geboekte documentregels ophalen voor tegenboeking**.
+6. Schakel bovenaan in het venster **Geboekte inkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als bijvoorbeeld een aantal op een geboekte inkoopfactuur al is geretourneerd, wilt u dat aantal misschien niet opnemen op een nieuw inkoopretourdocument.
 
     > [!NOTE]  
     >  Dit veld werkt alleen voor geboekte ontvangsten en geboekte factuurregels, en niet voor geboekte retouren of geboekte creditnotaregels.  
 
     Links in het venster worden de andere documenttypen weergegeven. Het aantal tussen haakjes geeft aan hoeveel documenten beschikbaar zijn van elk documenttype.
 
-6. Selecteer in het veld **Documentsoortfilter**, het soort geboekte documentregels dat u wilt gebruiken.  
-7. Selecteer de regels die u naar het nieuwe document wilt kopiëren.  
+7. Selecteer in het veld **Documentsoortfilter**, het soort geboekte documentregels dat u wilt gebruiken.  
+8. Selecteer de regels die u naar het nieuwe document wilt kopiëren.  
 
     > [!NOTE]  
     >  Als u Ctrl+A gebruikt om alle regels te selecteren, worden alle regels gekopieerd binnen het filter dat u hebt ingesteld, maar wordt geen rekening gehouden met het filter **Alleen tegengeboekte regels** weergeven. Stel dat u bijvoorbeeld de regels hebt gefilterd op een bepaald documentnummer met twee regels, waarvan er een al is geretourneerd. Zelfs als het veld **Alleen tegengeboekte regels weergeven** is geselecteerd, worden als u op Ctrl+A drukt om alle regels te kopiëren, twee regels gekopieerd in plaats van alleen de regel die nog niet is tegengeboekt.  
 
-8. Kies de knop **OK** om de regels te kopiëren naar het nieuwe document.  
+9. Kies de knop **OK** om de regels te kopiëren naar het nieuwe document.  
 
     De volgende processen worden dan uitgevoerd:  
 
-    -   Voor geboekte documentregels van het type **Artikel** wordt een nieuwe documentregel gemaakt die een kopie is van de geboekte documentregel, met het aantal dat nog niet is tegengeboekt. In het veld **Vereffeningsnr. artikelpost** wordt indien nodig het nummer van de artikelpost van de geboekte documentregel ingevuld.  
+   - Voor geboekte documentregels van het type **Artikel** wordt een nieuwe documentregel gemaakt die een kopie is van de geboekte documentregel, met het aantal dat nog niet is tegengeboekt. In het veld **Vereffeningsnr. artikelpost** wordt indien nodig het nummer van de artikelpost van de geboekte documentregel ingevuld.  
 
-    -   Voor geboekte documentregels die niet van het type **Artikel** zijn, zoals artikeltoeslagen, wordt een nieuwe documentregel gemaakt die een kopie is van de oorspronkelijke geboekte documentregel.  
+   - Voor geboekte documentregels die niet van het type **Artikel** zijn, zoals artikeltoeslagen, wordt een nieuwe documentregel gemaakt die een kopie is van de oorspronkelijke geboekte documentregel.  
 
-    -   Het veld **Kostprijs (LV)** wordt op de nieuwe regel berekend uit de kosten op de overeenkomstige artikelposten.  
+   - Het veld **Kostprijs (LV)** wordt op de nieuwe regel berekend uit de kosten op de overeenkomstige artikelposten.  
 
-    -   Als het gekopieerde document een geboekte verzending, geboekte ontvangst, geboekte retourontvangst of geboekte retourzending is, wordt de kostprijs berekend uit de artikelkaart.  
+   - Als het gekopieerde document een geboekte verzending, geboekte ontvangst, geboekte retourontvangst of geboekte retourzending is, wordt de kostprijs berekend uit de artikelkaart.  
 
-    -   Als het gekopieerde document een geboekte factuur of creditnota is, worden de kostprijs, factuurkortingen en regelkortingen gekopieerd uit de geboekte documentregel.  
+   - Als het gekopieerde document een geboekte factuur of creditnota is, worden de kostprijs, factuurkortingen en regelkortingen gekopieerd uit de geboekte documentregel.  
 
-    -   Als de geboekte documentregel artikeltraceringsregels bevat, wordt het veld **Vereffenen met artikelpost** op de artikeltraceringsregel gevuld met de desbetreffende artikelpostnummers uit de geboekte artikeltraceringsregels.  
+   - Als de geboekte documentregel artikeltraceringsregels bevat, wordt het veld **Vereffenen met artikelpost** op de artikeltraceringsregel gevuld met de desbetreffende artikelpostnummers uit de geboekte artikeltraceringsregels.  
 
      Wanneer u vanuit een geboekte factuur of geboekte creditnota kopieert, worden alle relevante factuurkortingen en regelkortingen die geldig zijn op het moment van boeking, gekopieerd van het geboekte document naar de nieuwe documentregel. Houd er echter rekening mee dat als de optie **Factuurkorting berekenen** is geactiveerd in het venster **Inkoopinstellingen**, de factuurkorting opnieuw wordt berekend als u de nieuwe documentregel boekt. Het kan daardoor gebeuren dat het regelbedrag voor de nieuwe regel afwijkt van het regelbedrag voor de geboekte documentregel, afhankelijk van de nieuwe berekening van de factuurkorting.  
 
-    > [!NOTE]  
-    >  Als een deel van de hoeveelheid van de geboekte documentregel als is tegengeboekt of verkocht of geconsumeerd, wordt alleen een regel gemaakt voor de hoeveelheid die nog in voorraad is of die nog niet is geretourneerd. Als de volledige hoeveelheid van de geboekte documentregels al is tegengeboekt, wordt geen nieuwe documentregel gemaakt.  
-    >   
-    >  Als de goederenstroom in het geboekte document gelijk is aan de goederenstroom in het nieuwe document, wordt gewoon een kopie van de oorspronkelijke geboekte documentregel gemaakt in het nieuwe document. Het veld **Vereffenen met artikelpost** wordt niet ingevuld, omdat in dit geval het exact tegenboeken van kosten niet mogelijk is. Als u bijvoorbeeld met de functie **Geboekte documentregels ophalen voor tegenboeking** een geboekte inkoopcreditnotaregel wilt ophalen voor een nieuwe inkoopcreditnota, wordt alleen de oorspronkelijke creditnotaregel naar de nieuwe creditnota gekopieerd.  
+     > [!NOTE]  
+     >  Als een deel van de hoeveelheid van de geboekte documentregel als is tegengeboekt of verkocht of geconsumeerd, wordt alleen een regel gemaakt voor de hoeveelheid die nog in voorraad is of die nog niet is geretourneerd. Als de volledige hoeveelheid van de geboekte documentregels al is tegengeboekt, wordt geen nieuwe documentregel gemaakt.  
+     >   
+     >  Als de goederenstroom in het geboekte document gelijk is aan de goederenstroom in het nieuwe document, wordt gewoon een kopie van de oorspronkelijke geboekte documentregel gemaakt in het nieuwe document. Het veld **Vereffenen met artikelpost** wordt niet ingevuld, omdat in dit geval het exact tegenboeken van kosten niet mogelijk is. Als u bijvoorbeeld met de functie **Geboekte documentregels ophalen voor tegenboeking** een geboekte inkoopcreditnotaregel wilt ophalen voor een nieuwe inkoopcreditnota, wordt alleen de oorspronkelijke creditnotaregel naar de nieuwe creditnota gekopieerd.  
 
-8. Selecteer in het venster **Inkoopretourorder** in het veld **Retourreden** op elke regel de reden voor de retour.
-9. Kies de actie **Boeken**.
+10. Selecteer in het venster **Inkoopretourorder** in het veld **Retourreden** op elke regel de reden voor de retour.
+11. Kies de actie **Boeken**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Een vervangende inkooporder maken vanuit een inkoopretourorder
 U kunt met de leverancier afspreken dat deze een ingekocht artikel vervangt. Het vervangende artikel kan hetzelfde of een ander artikel zijn. Dit kan voorkomen als de leverancier per ongeluk het verkeerde artikel verzendt.  

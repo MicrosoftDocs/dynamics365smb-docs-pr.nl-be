@@ -30,7 +30,7 @@ Tussen het veld **Status** in het venster **Serviceorder**, en de herstelstatus 
 * De serviceorderstatus die aan elke herstelstatus is gekoppeld. Zie voor meer informatie Serviceorderstatus.  
 * Het prioriteitsniveau van elke optie voor serviceorderstatus. Zie voormeer informatie Prioriteit.  
   
- Wanneer u een serviceofferte omzet in een serviceorder, wordt de herstelstatus van elk serviceartikel in de order gewijzigd in **Eerste** en de serviceorderstatus in **In behandeling**.  
+  Wanneer u een serviceofferte omzet in een serviceorder, wordt de herstelstatus van elk serviceartikel in de order gewijzigd in **Eerste** en de serviceorderstatus in **In behandeling**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Serviceorderstatus opgeven voor herstelstatus  
 Elke herstelstatus is gekoppeld aan een bepaalde serviceorderstatus. De opties voor de serviceorderstatus zijn als volgt: **In behandeling**, **In verwerking**, **Afwachten** en **Gereedgemeld**. De volgende herstelstatusopties zijn beschikbaar: **Eerste**, **In verwerking**, **Toegewezen**, **Deels service verleend**, **Offerte gereed**, **Wachten op klant**, **Reserveonderdeel besteld**, **Reserveonderdeel ontvangen** en **Gereedgemeld**.  

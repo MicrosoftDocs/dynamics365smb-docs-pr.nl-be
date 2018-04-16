@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="archive-ibs-log-entries"></a>IBS-logposten archiveren
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 IBS-logboekregels met de verwerkingsstatus **Verwerkt** kunnen worden gearchiveerd. IBS-logboeken bevatten gegevens over bestanden voor elektronisch bankieren die tijdens elektronische banktransfers van Isabel worden gemaakt.  
 

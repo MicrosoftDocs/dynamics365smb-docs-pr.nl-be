@@ -31,17 +31,17 @@ Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Ve
 4. Selecteer op het sneltabblad **Regels** de actie **Verzendregels ophalen**.  
 5. Selecteer de verzendregels die u wilt opnemen in de factuur:  
 
-    - Als u alle regels wilt invoegen, selecteert u alle regels en klikt u op **OK**.  
-    - Als u specifieke regels wilt invoegen, selecteert u deze regels en klikt u op **OK**. Gebruik de Ctrl-toets om meerdere niet-aaneengesloten regels te selecteren.  
+   - Als u alle regels wilt invoegen, selecteert u alle regels en klikt u op **OK**.  
+   - Als u specifieke regels wilt invoegen, selecteert u deze regels en klikt u op **OK**. Gebruik de Ctrl-toets om meerdere niet-aaneengesloten regels te selecteren.  
 
-    Als u de verkeerde verzendregel hebt geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de factuur verwijderen en de functie **Verzendregels ophalen** opnieuw uitvoeren.  
-7. Kies de actie **Boeken** om de factuur te boeken.  
+     Als u de verkeerde verzendregel hebt geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de factuur verwijderen en de functie **Verzendregels ophalen** opnieuw uitvoeren.  
+6. Kies de actie **Boeken** om de factuur te boeken.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Verzendingen automatisch op één factuur combineren  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzamelfacturering** in en klik vervolgens o de gerelateerde koppeling. Het opvraagvenster voor de batchverwerking wordt geopend.  
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Schakel het selectievakje **Facturen boeken** in.  
-4.  Kies de knop **OK**.  
+4. Kies de knop **OK**.  
 
 > [!NOTE]  
 >  U moet de facturen handmatig boeken als het selectievakje **Facturen boeken** niet was ingeschakeld bij de batchverwerking.  

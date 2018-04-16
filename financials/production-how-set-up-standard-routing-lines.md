@@ -25,7 +25,7 @@ Met behulp van standaardtaken vereenvoudigt u het maken en onderhouden van bewer
 ## <a name="to-set-up-a-standard-task"></a>Een standaardtaak instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaardtaken** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 5. In het venster dat wordt geopend, beschrijft u de betreffende standaardtaak.
 

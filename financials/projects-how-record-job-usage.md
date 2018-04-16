@@ -34,7 +34,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (factureerbare) of g
 
     Het **Resterend aantal** bevat het resterende aantal om het project te voltooien en dat moet worden overgebracht naar het dagboek.  
 5. Kies de actie **Projectdagboekregels maken**.
-6. Vul in het venster **Projectplanningsregel taakoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Vul in het venster **Projectplanningsregel taakoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Kies de actie **Projectdagboek openen**.  
 8. Selecteer in het venster **Projectdagboek** de relevante regel en kies vervolgens de actie **Boeken**.
 9. Bekijk in het venster **Projectplanningsregels** het vastgelegde gebruik door te kijken naar de velden **Aantal**, **Resterend aantal** en **Aantal te verplaatsen naar dagboek**.  

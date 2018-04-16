@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="upload-payment-files-to-an-isabel-server"></a>Betalingsbestanden uploaden naar een Isabel-server
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Betalingsbestanden kunnen worden geüpload via het venster **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** in het venster **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**.  
 

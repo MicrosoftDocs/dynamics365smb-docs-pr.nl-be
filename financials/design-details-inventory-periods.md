@@ -26,11 +26,11 @@ Geantidateerde boekingen of kostprijscorrecties zijn vaak van invloed op saldi e
 
  Om te zorgen dat alle transactieposten in een afgesloten periode definitief zijn, moet aan de volgende voorwaarden worden voldaan voordat een voorraadperiode kan worden afgesloten:  
 
--   Alle uitgaande artikelposten in de periode moeten worden gesloten (geen negatieve voorraad).  
--   Alle artikelkosten in de periode moeten worden bijgewerkt.  
--   Van alle vrijgegeven en gereedgemelde productieorders in de periode moeten de kosten worden aangepast.  
+- Alle uitgaande artikelposten in de periode moeten worden gesloten (geen negatieve voorraad).  
+- Alle artikelkosten in de periode moeten worden bijgewerkt.  
+- Van alle vrijgegeven en gereedgemelde productieorders in de periode moeten de kosten worden aangepast.  
 
- Wanneer u een voorraadperiode hebt afgesloten, wordt een voorraadperiodepost gemaakt door het nummer te gebruiken van het laatste artikeljournaal dat in de voorraadperiode bestaat. Bovendien worden de tijd, de datum, en de gebruikercode van de gebruiker die de periode sluit, in de voorraadperiodepost geregistreerd. Door deze gegevens te gebruiken met het laatste artikeljournaal voor de vorige periode kunt u zien welke voorraadtransacties zijn geboekt in de voorraadperiode. Het is ook mogelijk een voorraadperiode opnieuw te openen als u moet boeken in een afgesloten periode. Wanneer u een voorraadperiode opnieuw opent, wordt een voorraadperiodepost gemaakt.  
+  Wanneer u een voorraadperiode hebt afgesloten, wordt een voorraadperiodepost gemaakt door het nummer te gebruiken van het laatste artikeljournaal dat in de voorraadperiode bestaat. Bovendien worden de tijd, de datum, en de gebruikercode van de gebruiker die de periode sluit, in de voorraadperiodepost geregistreerd. Door deze gegevens te gebruiken met het laatste artikeljournaal voor de vorige periode kunt u zien welke voorraadtransacties zijn geboekt in de voorraadperiode. Het is ook mogelijk een voorraadperiode opnieuw te openen als u moet boeken in een afgesloten periode. Wanneer u een voorraadperiode opnieuw opent, wordt een voorraadperiodepost gemaakt.  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  

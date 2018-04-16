@@ -22,12 +22,12 @@ ms.lasthandoff: 03/22/2018
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedure: Goederen automatisch plannen
 Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.  
 
--   MPS wordt gedefinieerd als de berekening van een hoofdproductieschema op basis van de werkelijke behoefte en de productieprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden "MPS-artikelen" genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
--   MRP wordt gedefinieerd als de berekening van het benodigde materiaal op basis van de werkelijke behoefte aan materiaal en de productieprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
+- MPS wordt gedefinieerd als de berekening van een hoofdproductieschema op basis van de werkelijke behoefte en de productieprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden "MPS-artikelen" genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
+- MRP wordt gedefinieerd als de berekening van het benodigde materiaal op basis van de werkelijke behoefte aan materiaal en de productieprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
 
- De planningsalgoritmen die worden gebruikt voor MPS en MRP zijn identiek. De planningsalgoritmen maken gebruik van netting, hergebruik van bestaande voorraadorders, en actieberichten. Er wordt door het planningssysteem gekeken naar wat er nodig is of zal zijn (behoefte) en wat er beschikbaar is of verwacht wordt (voorziening). Als deze hoeveelheden tegen elkaar zijn weggestreept, worden actieberichten weergegeven in het planningsvoorstel. Actieberichten zijn suggesties voor het maken van een nieuwe voorraadorder, het wijzigen van een voorraadorder (hoeveelheid of datum), of het annuleren van een bestaande voorraadorder. Voorraadorders kunnen productieorders, inkooporders of transferorders zijn. Zie voor meer informatie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md).  
+  De planningsalgoritmen die worden gebruikt voor MPS en MRP zijn identiek. De planningsalgoritmen maken gebruik van netting, hergebruik van bestaande voorraadorders, en actieberichten. Er wordt door het planningssysteem gekeken naar wat er nodig is of zal zijn (behoefte) en wat er beschikbaar is of verwacht wordt (voorziening). Als deze hoeveelheden tegen elkaar zijn weggestreept, worden actieberichten weergegeven in het planningsvoorstel. Actieberichten zijn suggesties voor het maken van een nieuwe voorraadorder, het wijzigen van een voorraadorder (hoeveelheid of datum), of het annuleren van een bestaande voorraadorder. Voorraadorders kunnen productieorders, inkooporders of transferorders zijn. Zie voor meer informatie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md).  
 
- Het planningsresultaat wordt deels berekend op basis van de vraag-aanbodsets in de database en deels op basis van de SKU-kaarten of artikelkaarten, productiestuklijsten en bewerkingsplannen.  
+  Het planningsresultaat wordt deels berekend op basis van de vraag-aanbodsets in de database en deels op basis van de SKU-kaarten of artikelkaarten, productiestuklijsten en bewerkingsplannen.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
  In dit overzicht ziet u hoe u het voorraadplanningsysteem kunt gebruiken om automatisch alle inkoop- en productieorders te plannen die nodig zijn om 15 toerfietsen te produceren die worden gevraagd volgens verschillende verkooporders. Voor een duidelijk en realistisch overzicht wordt het aantal planningsregels beperkt door alle andere vraag-aanbodsets in het demobedrijf CRONUS International Ltd. uit te filteren behalve de verkoopvraag op de vestiging BLAUW.  
@@ -73,17 +73,19 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-change-selected-planning-parameters"></a>Geselecteerde planningsparameters wijzigen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Open de BLAUW SKU-kaart voor artikel 1100, Voorwiel.  
-3.  Vul de velden op het sneltabblad **Gepland** in, zoals in de volgende tabel is beschreven.  
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.  
+2. Open de BLAUW SKU-kaart voor artikel 1100, Voorwiel.  
+3. Vul de velden op het sneltabblad **Gepland** in, zoals in de volgende tabel is beschreven.  
 
-    |Bestelbeleid|Veiligheidsvoorraad|Lotaccumulatieperiode|Herplanningsperiode|  
-    |-------------------------------------------|-----------------------------------------------|-------------------------------------------------|---------------------------------------------|  
-    |Lot-for-Lot|Leeg|2W|2W|  
 
-4.  Herhaal stap 2 en 3 voor alle SKU´s in het getallenbereik tussen 1100 en 1300.  
+   | Bestelbeleid | Veiligheidsvoorraad | Lotaccumulatieperiode | Herplanningsperiode |
+   |-------------------|-----------------------|-------------------------|---------------------|
+   |    Lot-for-Lot    |         Leeg         |           2W            |         2W          |
 
- Hiermee is de voorbereiding van voorbeeldgegevens voor het overzicht voltooid.  
+
+4. Herhaal stap 2 en 3 voor alle SKU´s in het getallenbereik tussen 1100 en 1300.  
+
+   Hiermee is de voorbereiding van voorbeeldgegevens voor het overzicht voltooid.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Een regeneratief voorraadplan maken  
  In reactie op een nieuwe verkooporder voor vijf toerfietsen, start Ricardo het planningsproces door filters, opties, planningsinterval in te stellen en alle andere vraag, behalve die uit de eerste week van februari op de vestiging BLAUW, uit te sluiten. Hij begint met de berekening van een MPS (hoofdproductieschema) en berekent vervolgens een volledig voorraadplan voor alle vraag op lager niveau (MRP).  
@@ -165,43 +167,45 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-view-more-order-tracking-entries"></a>Meer ordertraceringsposten weergeven  
 
-1.  Selecteer de planningsregel voor artikel 1110 Velg en kies de actie **Ordertracering**.  
+1. Selecteer de planningsregel voor artikel 1110 Velg en kies de actie **Ordertracering**.  
 
-     Het venster **Ordertracering** geeft aan dat vijf velgen per productieorder nodig zijn voor respectievelijk voor- en achterwielen.  
+    Het venster **Ordertracering** geeft aan dat vijf velgen per productieorder nodig zijn voor respectievelijk voor- en achterwielen.  
 
-     Dezelfde ordertracering geldt voor de planningsregels voor de artikelen 1120, 1160 en 1170. Voor artikel 1120 is het veld **Aantal per** op de productiestuklijst van elk wielartikel ingesteld op 50 stuks, wat een totaal van 100 oplevert.  
+    Dezelfde ordertracering geldt voor de planningsregels voor de artikelen 1120, 1160 en 1170. Voor artikel 1120 is het veld **Aantal per** op de productiestuklijst van elk wielartikel ingesteld op 50 stuks, wat een totaal van 100 oplevert.  
 
-     De planningsregel voor artikel 1150 voor zes stuks lijkt onregelmatig. Ga door om te analyseren.  
+    De planningsregel voor artikel 1150 voor zes stuks lijkt onregelmatig. Ga door om te analyseren.  
 
-2.  Selecteer de planningsregel voor artikel 1150 en kies de actie **Ordertracering**.  
+2. Selecteer de planningsregel voor artikel 1150 en kies de actie **Ordertracering**.  
 
-     Het venster **Ordertracering** toont dat vijf eenheden worden getraceerd naar het voorwiel, en één eenheid niet is getraceerd. Ga door het niet-getraceerde aantal weer te geven.  
+    Het venster **Ordertracering** toont dat vijf eenheden worden getraceerd naar het voorwiel, en één eenheid niet is getraceerd. Ga door het niet-getraceerde aantal weer te geven.  
 
-3.  Selecteer het veld **Niet getraceerd aantal**.  
+3. Selecteer het veld **Niet getraceerd aantal**.  
 
-     In het venster **Niet-getraceerde planningselementen** blijkt dat artikel 1150 een planningsparameter Vaste lotgrootte gebruikt met de waarde 2.00. Dit geeft aan dat het artikel moet worden besteld in aantallen die deelbaar zijn door 2. Het getal dat het dichtst bij 5 ligt en dat deelbaar is door 2, is 6.  
+    In het venster **Niet-getraceerde planningselementen** blijkt dat artikel 1150 een planningsparameter Vaste lotgrootte gebruikt met de waarde 2.00. Dit geeft aan dat het artikel moet worden besteld in aantallen die deelbaar zijn door 2. Het getal dat het dichtst bij 5 ligt en dat deelbaar is door 2, is 6.  
 
-     Dezelfde ordertracering geldt voor planningsregels voor voornaafonderdelen, artikelen 1151 en 1155, behalve dat elke behoefte wordt vermenigvuldigd met het uitvalpercentage dat is ingesteld voor artikel 1150 in het veld **Uitvalpercentage** op de artikelkaart.  
+    Dezelfde ordertracering geldt voor planningsregels voor voornaafonderdelen, artikelen 1151 en 1155, behalve dat elke behoefte wordt vermenigvuldigd met het uitvalpercentage dat is ingesteld voor artikel 1150 in het veld **Uitvalpercentage** op de artikelkaart.  
 
- Hiermee is de analyse van het oorspronkelijke voorraadplan voltooid. Het selectievakje **Planningsboodschap accepteren** is ingeschakeld in alle planningsregels, wat aangeeft dat ze gereed zijn om te worden geconverteerd naar voorzieningenorders.  
+   Hiermee is de analyse van het oorspronkelijke voorraadplan voltooid. Het selectievakje **Planningsboodschap accepteren** is ingeschakeld in alle planningsregels, wat aangeeft dat ze gereed zijn om te worden geconverteerd naar voorzieningenorders.  
 
 ## <a name="carrying-out-action-messages"></a>Planningsboodschappen uitvoeren  
  Vervolgens converteert Eduardo de voorgestelde planningsregels naar voorraadorders met de functie **Planningsboodschap uitvoeren**.  
 
 ### <a name="to-automatically-create-the-suggested-supply-orders"></a>Automatisch de voorgestelde voorraadorders maken  
 
-1.  Schakel het selectievakje **Planningsboodschap accepteren** in op alle planningsregels met een waarschuwing van het soort Uitzondering.  
-2.  Kies de actie **Planningsboodschap uitvoeren**.  
-3.  Vul in het venster **Planningsboodschap uitvoeren - Plan.** de velden in, zoals is beschreven in de volgende tabel.  
+1. Schakel het selectievakje **Planningsboodschap accepteren** in op alle planningsregels met een waarschuwing van het soort Uitzondering.  
+2. Kies de actie **Planningsboodschap uitvoeren**.  
+3. Vul in het venster **Planningsboodschap uitvoeren - Plan.** de velden in, zoals is beschreven in de volgende tabel.  
 
-    |Productieorder|Inkooporder|Transferorder|  
-    |----------------------|--------------------|--------------------|  
-    |Vast gepland|Inkooporders maken|Transferorders maken|  
 
-4.  Klik op **OK** om automatisch alle voorgestelde voorraadorders te maken.  
-5.  Sluit het lege venster **Planningsvoorstel**.  
+   | Productieorder |   Inkooporder   |   Transferorder   |
+   |------------------|--------------------|--------------------|
+   |   Vast gepland   | Inkooporders maken | Transferorders maken |
 
- Hiermee is de oorspronkelijke berekening, de analyse en het maken van een voorraadplan voor de vraag op de vestiging BLAUW in de eerste week van februari voltooid. In het volgende gedeelte bestelt een andere klant tien toerfietsen en moet Eduardo opnieuw plannen.  
+
+4. Klik op **OK** om automatisch alle voorgestelde voorraadorders te maken.  
+5. Sluit het lege venster **Planningsvoorstel**.  
+
+   Hiermee is de oorspronkelijke berekening, de analyse en het maken van een voorraadplan voor de vraag op de vestiging BLAUW in de eerste week van februari voltooid. In het volgende gedeelte bestelt een andere klant tien toerfietsen en moet Eduardo opnieuw plannen.  
 
 ## <a name="creating-a-net-change-plan"></a>Een mutatieplan maken  
  De volgende dag, voordat er voorraadorders zijn gestart of geboekt, arriveert een nieuwe verkooporder van Libros S.A. voor tien toerfietsen die moeten worden verzonden op 12 februari 2014. Eduardo krijgt bericht van de nieuwe vraag en hij plant opnieuw om het huidige voorzieningsplan aan te passen. Eduardo gebruikt de functie Mutatieplan berekenen om alleen de wijzigingen te berekenen die zijn aangebracht in vraag of aanbod sinds de laatste planningsrun. Bovendien breidt hij de planningsperiode uit naar 14 februari 2014 om de nieuwe verkoopvraag op 12 februari 2014 mee te nemen.  
@@ -210,30 +214,34 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>De nieuwe verkoopvraag maken en dienovereenkomstig opnieuw plannen  
 
-1.  Kies de actie **Nieuw**.  
-2.  Vul in het venster **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
+1. Kies de actie **Nieuw**.  
+2. Vul in het venster **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
-    |Naam|Verzenddatum|Artikelnr.|Vestiging|Aantal|  
-    |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.A.|12-02-2014|1001|BLAUW|10|  
 
-3.  Accepteer de beschikbaarheidswaarschuwing en klik op **Ja** om het gevraagde aantal vast te leggen.  
-4.  Plan vervolgens opnieuw voor aanpassing van het huidige voorraadplan.  
-5.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
-6.  Kies de actie **Mutatieplan berekenen**.  
-7.  Vul in het venster **Plan berekenen - Planningsvoorstel** de velden in, zoals beschreven in de volgende tabel.  
+   | Naam | Verzenddatum | Artikelnr. | Vestiging | Aantal |
+   |-----------------------|---------------|----------|----------|----------|
+   |      Libros S.A.      |  12-02-2014   |   1001   |   BLAUW   |    10    |
 
-    |Planning berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot|  
-    |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Ja|23-01-2014|14-02-2014|1001..1300|Vestigingsfilter = BLAUW|  
 
-8.  Kies **OK** om de planning te starten.  
+3. Accepteer de beschikbaarheidswaarschuwing en klik op **Ja** om het gevraagde aantal vast te leggen.  
+4. Plan vervolgens opnieuw voor aanpassing van het huidige voorraadplan.  
+5. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+6. Kies de actie **Mutatieplan berekenen**.  
+7. Vul in het venster **Plan berekenen - Planningsvoorstel** de velden in, zoals beschreven in de volgende tabel.  
 
- In totaal zijn er 14 planningsregels gemaakt. In de eerste planningsregel ziet u dat in het veld **Planningsboodschap** de tekst **Nieuw** wordt weergegeven, in het veld **Aantal** staat 10 en in het veld **Vervaldatum** staat 12 februari 2014. Deze nieuwe regel voor het bovenliggende artikel, 1001, toerfiets, is gemaakt omdat het artikel gebruikmaakt van een bestelbeleid volgens **Order**, wat betekent dat deze moet worden geleverd in een één-op-één-relatie met de vraag, de verkooporder van tien stuks.  
 
- De volgende twee planningsregels zijn de productieorders voor de wielen van de toerfiets. Elke bestaande order van vijf, in het veld **Oorspr. aantal**, wordt verhoogd tot 15 in het veld **Aantal**. Beide productieorders hebben ongewijzigde vervaldatums, zoals aangegeven in het veld **Planningsboodschap** dat **Aantal wijzigen** bevat. Dit is ook het geval voor de planningsregel voor artikel 1300, behalve dat diens lotgrootte van 10,00 de getraceerde vraag voor 15 stuks afrondt naar 20.  
+   |             Planning berekenen              | Begindatum | Einddatum | Resultaten weergeven: |    Totalen beperken tot     |
+   |-----------------------------------------|---------------|-------------|---------------|------------------------|
+   | **MPS** = Ja<br /><br /> **MRP** = Ja |  23-01-2014   | 14-02-2014  |  1001..1300   | Vestigingsfilter = BLAUW |
 
- Alle andere planningsregels hebben een planningsboodschap met **Herplannen en aantal wijzigen**. Dit betekent dat, los van een verhoging in aantal, de vervaldatums worden verplaatst conform het voorraadplan om het extra aantal op te nemen in de beschikbare productietijd (capaciteit). Ingekochte materialen worden opnieuw gepland en verhoogd om voor de productieorders te leveren. Ga door om de nieuwe planning te analyseren.  
+
+8. Kies **OK** om de planning te starten.  
+
+   In totaal zijn er 14 planningsregels gemaakt. In de eerste planningsregel ziet u dat in het veld **Planningsboodschap** de tekst **Nieuw** wordt weergegeven, in het veld **Aantal** staat 10 en in het veld **Vervaldatum** staat 12 februari 2014. Deze nieuwe regel voor het bovenliggende artikel, 1001, toerfiets, is gemaakt omdat het artikel gebruikmaakt van een bestelbeleid volgens **Order**, wat betekent dat deze moet worden geleverd in een één-op-één-relatie met de vraag, de verkooporder van tien stuks.  
+
+   De volgende twee planningsregels zijn de productieorders voor de wielen van de toerfiets. Elke bestaande order van vijf, in het veld **Oorspr. aantal**, wordt verhoogd tot 15 in het veld **Aantal**. Beide productieorders hebben ongewijzigde vervaldatums, zoals aangegeven in het veld **Planningsboodschap** dat **Aantal wijzigen** bevat. Dit is ook het geval voor de planningsregel voor artikel 1300, behalve dat diens lotgrootte van 10,00 de getraceerde vraag voor 15 stuks afrondt naar 20.  
+
+   Alle andere planningsregels hebben een planningsboodschap met **Herplannen en aantal wijzigen**. Dit betekent dat, los van een verhoging in aantal, de vervaldatums worden verplaatst conform het voorraadplan om het extra aantal op te nemen in de beschikbare productietijd (capaciteit). Ingekochte materialen worden opnieuw gepland en verhoogd om voor de productieorders te leveren. Ga door om de nieuwe planning te analyseren.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Het gewijzigde planningsresultaat analyseren  
  Omdat alle lot-voor-lot-geplande artikelen in het filter, 1100 tot 1300, een herplanningsperiode van twee weken hebben, worden de bestaande leveringsorders allemaal gewijzigd om aan de nieuwe vraag te voldoen, die binnen de opgegeven twee weken plaatsvindt.  
@@ -256,11 +264,11 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-view-an-existing-order"></a>Een bestaande order bekijken  
 
-1.  Selecteer in de planningsregel voor artikel 1250 het veld **Referentieordernummer**. veld.  
-2.  In het het venster **Vast geplande productieorder** voor de achternaaf. De bestaande order voor tien stuks die u in de eerste planning hebt gemaakt, opent.  
-3.  Sluit de vast geplande productieorder.  
+1. Selecteer in de planningsregel voor artikel 1250 het veld **Referentieordernummer**. veld.  
+2. In het het venster **Vast geplande productieorder** voor de achternaaf. De bestaande order voor tien stuks die u in de eerste planning hebt gemaakt, opent.  
+3. Sluit de vast geplande productieorder.  
 
- Hiermee is het overzicht voltooid van de manier waarop het planningsysteem wordt gebruikt om automatisch de vraag te detecteren, de juiste voorraadorders te berekenen overeenkomstig de vraag en de planningsparameters, en vervolgens automatisch verschillende soorten voorraadorders te maken met de juiste datums en aantallen.  
+   Hiermee is het overzicht voltooid van de manier waarop het planningsysteem wordt gebruikt om automatisch de vraag te detecteren, de juiste voorraadorders te berekenen overeenkomstig de vraag en de planningsparameters, en vervolgens automatisch verschillende soorten voorraadorders te maken met de juiste datums en aantallen.  
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   

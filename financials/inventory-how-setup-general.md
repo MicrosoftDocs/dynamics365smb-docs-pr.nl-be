@@ -24,7 +24,7 @@ U geeft uw algemene voorraadinstellingen op in het venster **Voorraadinstelling*
 
 ## <a name="to-set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadinstellingen** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul in het venster **Voorraadinstelling** de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul in het venster **Voorraadinstelling** de benodigde velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad, in het venster **Voorraadinstellingen**, en de vestiging. Zie voor meer informatie [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md).  
 

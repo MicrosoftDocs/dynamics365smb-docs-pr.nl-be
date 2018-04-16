@@ -106,12 +106,12 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 2.  Open de **Klantenkaart** waarvoor u een aangepaste agenda wilt instellen.  
 3.  Op het sneltabblad **Verzending** in de het veld **Basisagendacode** selecteert u de basisagenda die u wilt toewijzen.  
 
-> [!IMPORTANT]  
->  -   Als u geen basisagenda toewijst aan een bedrijf, worden alle datums berekend als werkdagen.  
-> -   Als u geen vestiging invoert op een orderregel, worden alle datums berekend als werkdagen.  
-> -   Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Als u geen basisagenda toewijst aan een bedrijf, worden alle datums berekend als werkdagen.  
+>   -   Als u geen vestiging invoert op een orderregel, worden alle datums berekend als werkdagen.  
+>   -   Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.
+> 
+> [!NOTE]
 >  U moet eerst een basisagenda toewijzen aan het bedrijf, voordat u aangepaste agendaposten kunt maken.  
 
 ## <a name="see-also"></a>Zie ook

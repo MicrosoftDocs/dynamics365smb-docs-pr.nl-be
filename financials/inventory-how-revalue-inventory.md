@@ -25,7 +25,7 @@ Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een
 ## <a name="to-revalue-inventory"></a>Voorraad herwaarderen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Herwaarderingsdagboek** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Voorraadwaarde berekenen**.
-3. Vul in het venster **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul in het venster **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **Ok**.
 5. Voer op elke regel in het venster **Herwaarderingsdagboek** het veld **Kostprijs (Geherwaardeerd)** in en voer de nieuwe eenheidskosten in. U kunt ook het nieuwe totale bedrag in het veld **Voorraadwaarde (Geherwaardeerd)** invoeren.
 

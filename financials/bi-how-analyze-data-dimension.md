@@ -32,7 +32,7 @@ Met een analyse op basis van dimensies geeft u een geselecteerde combinatie van 
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyseweergaven** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in het venster **Analyseweergaveoverzicht** de actie **Nieuw**.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u andere dimensiecodes wilt toevoegen naast de vier op het sneltabblad **Dimensies**, kiest u de actie **Filteren**, vult u de velden in en kiest u de knop **OK**.  
 5. Als u de weergave wilt bijwerken, kiest u de actie **Bijwerken**.
 

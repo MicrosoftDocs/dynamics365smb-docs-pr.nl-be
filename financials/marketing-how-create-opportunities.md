@@ -30,7 +30,7 @@ Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer de verkoper in de lijst voor wie u een opportunity wilt maken.
 3. Kies de actie **Opportunities** en kies vervolgens **Overzicht**.
-4. Kies de actie **Nieuw** en voer vervolgens de gewenste waarden in de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Kies de actie **Nieuw** en voer vervolgens de gewenste waarden in de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

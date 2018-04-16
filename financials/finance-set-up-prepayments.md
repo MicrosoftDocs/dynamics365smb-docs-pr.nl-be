@@ -59,7 +59,7 @@ Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor a
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
 2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages**.  
-3. Vul in het venster **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul in het venster **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in.
 

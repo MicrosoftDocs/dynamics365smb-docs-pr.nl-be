@@ -30,8 +30,8 @@ U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder 
 3. Selecteer in het veld **Nr.** een nummer op voor de serviceofferte. Als u in het venster **Servicebeheerinstellingen** nummerreeksen voor serviceoffertes hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare serviceoffertenummer in te voeren.  
 4. Voer in het veld **Klantnr.**  de betreffende klant uit de lijst.  
 
-  > [!Note]  
-  >  De klantvelden worden automatisch ingevuld met gegevens uit de **Klantenkaart**. Als er geen **klantenkaart** bestaat voor de klant en u een klantensjabloon hebt ingesteld, kunt u de klant vanuit de serviceofferte maken. Vul de relevante velden in en kies de actie **Klant maken**.  
+   > [!Note]  
+   >  De klantvelden worden automatisch ingevuld met gegevens uit de **Klantenkaart**. Als er geen **klantenkaart** bestaat voor de klant en u een klantensjabloon hebt ingesteld, kunt u de klant vanuit de serviceofferte maken. Vul de relevante velden in en kies de actie **Klant maken**.  
   
 5. Afhankelijk van de instellingen op het sneltabblad **Verplichte velden** in het venster **CRM - Service-instellingen** moet u wellicht het veld **Serviceordersoort** en het veld **Verkoper** invullen.  
 6. Vul de serviceartikelregels in.  

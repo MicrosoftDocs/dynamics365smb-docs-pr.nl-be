@@ -32,7 +32,7 @@ In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maak
 ## <a name="to-set-up-an-employee"></a>Werknemers instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werknemers** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul indien nodig de velden in het venster **Werknemerskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in het venster **Werknemerskaart** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
 Als u een afbeelding van een werknemer in BMP-indeling hebt, kunt u deze afbeelding invoegen op de werknemerskaart.

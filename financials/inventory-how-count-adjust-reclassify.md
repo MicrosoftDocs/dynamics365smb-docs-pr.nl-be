@@ -99,7 +99,7 @@ Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijki
     De gerelateerde velden worden dienovereenkomstig bijgewerkt.
 
     > [!NOTE]  
->   Als de verschillen in de telling worden veroorzaakt door artikelen die met de verkeerde vestigingscode zijn geboekt, moet u de verschillen niet invoeren in het inventarisatiedagboek. Gebruik in plaats daarvan het herindelingsdagboek of een transferorder om items om te leiden naar de juiste vestigingen. Zie voor meer informatie Art.-herindelingsdagboek of Transferorders maken.
+   >   Als de verschillen in de telling worden veroorzaakt door artikelen die met de verkeerde vestigingscode zijn geboekt, moet u de verschillen niet invoeren in het inventarisatiedagboek. Gebruik in plaats daarvan het herindelingsdagboek of een transferorder om items om te leiden naar de juiste vestigingen. Zie voor meer informatie Art.-herindelingsdagboek of Transferorders maken.
 
 2. Als de berekende aantallen wilt aanpassen aan de feitelijk getelde aantallen, kiest u de actie **Boeken**.
 
@@ -134,7 +134,7 @@ Een inventarisatie wordt gewoonlijk periodiek uitgevoerd, bijvoorbeeld maandelij
 U stelt de inventarisatieperioden in die u wilt gebruiken en wijst er vervolgens één toe aan elk artikel. Wanneer u een inventarisatie uitvoert en **Tellingsperiode berekenen** in het inventarisatiedagboek gebruikt, worden de regels voor de artikelen automatisch gemaakt.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadtellingsperioden** in en klik vervolgens op de gerelateerde koppeling.  
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Een tellingsperiode toewijzen aan een artikel  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
@@ -180,7 +180,7 @@ In het venster **Artikeldagboek** kunt u rechtstreeks artikeltransacties boeken 
 Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregels te boeken, bijvoorbeeld met betrekking tot materiële consumptie, kunt u het venster **Standaardartikeldagboek** gebruiken om deze terugkerende taak gemakkelijker te maken. Zie de sectie 'Standaarddagboeken' in [Werken met dagboeken](ui-work-general-journals.md) voor meer informatie.
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeldagboeken** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Kies de actie **Boeken** om de voorraadherwaarderingen te maken.
 
 > [!NOTE]  

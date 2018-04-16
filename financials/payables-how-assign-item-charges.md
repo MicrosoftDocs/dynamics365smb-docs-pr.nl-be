@@ -42,7 +42,7 @@ De verschillende soorten artikeltoeslagen die in uw bedrijf worden gebruikt, ond
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeltoeslagen** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Artikeltoeslagen** de actie **Nieuw** om een nieuwe regel te maken.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, volgt u deze procedure.
@@ -53,7 +53,7 @@ Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, v
 4. Selecteer op een nieuwe regel in het veld **Type** **Toeslag (Artikel)**.
 5. Typ in het veld **Aantal** het gewenste aantal eenheden van de artikeltoeslag waarvoor u een factuur hebt ontvangen.
 6. Typ in het veld **Directe kostprijs** het bedrag van de artikeltoeslag.
-7. Vul indien nodig de resterende velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Vul indien nodig de resterende velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     In de volgende stappen volgt voert u de feitelijke toewijzing uit. Tot de artikeltoeslag volledig is toegewezen, wordt de waarde in het veld **Toe te wijzen aantal** in rood weergegeven.
 8. Kies op het tabblad **Regels** de actie **Artikeltoeslagtoewijzing**.

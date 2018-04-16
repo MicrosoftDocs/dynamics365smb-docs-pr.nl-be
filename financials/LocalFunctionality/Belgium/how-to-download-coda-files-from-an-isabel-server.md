@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="download-coda-files-from-an-isabel-server"></a>CODA-bestanden van een Isabel-server downloaden
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 CODA-bestanden kunnen handmatig of in de modus Met toezicht worden gedownload.  
 

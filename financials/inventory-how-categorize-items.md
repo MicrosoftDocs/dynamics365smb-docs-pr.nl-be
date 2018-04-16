@@ -27,7 +27,7 @@ Als u artikelen op basis van kenmerken wilt zoeken, kunt u artikelkenmerken aan 
 ## <a name="to-create-an-item-category"></a>Een artikelcategorie maken
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelcategorieën** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies in het venster **Artikelcategorieën** de actie **Nieuw**.
-3. Vul indien nodig de velden in het venster **Artikelcategoriekaart** op het sneltabblad **Algemeen** in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in het venster **Artikelcategoriekaart** op het sneltabblad **Algemeen** in: [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Geef op het sneltabblad **Kenmerken** alle artikelkenmerken voor de artikelcategorie op. Zie het gedeelte 'Artikelkenmerken aan een artikelcategorie toewijzen' in [Werken met artikelkenmerken](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

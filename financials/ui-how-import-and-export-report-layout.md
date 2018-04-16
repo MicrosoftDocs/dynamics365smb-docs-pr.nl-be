@@ -37,19 +37,19 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
   
 ### <a name="to-import-a-report-layout-file"></a>Een rapportlay-outbestand importeren uit een bestand  
   
-1.  Zorg ervoor dat het relevante bestand dat de rapportlay-out definieert, beschikbaar is op uw computer of in uw netwerk.  
+1. Zorg ervoor dat het relevante bestand dat de rapportlay-out definieert, beschikbaar is op uw computer of in uw netwerk.  
   
-     Een bestand met een Word-rapportlay-out moet de bestandsextensie .docx hebben. Een bestand met een RDLC-rapportlay-out moet de bestandsextensie .rdlc of .rdl hebben.  
+    Een bestand met een Word-rapportlay-out moet de bestandsextensie .docx hebben. Een bestand met een RDLC-rapportlay-out moet de bestandsextensie .rdlc of .rdl hebben.  
   
-2.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
+2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
   
-3.  Selecteer de rij voor het rapport waarnaar u de rapportlay-out wilt importeren, en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Aangepaste lay-outs**.  
+3. Selecteer de rij voor het rapport waarnaar u de rapportlay-out wilt importeren, en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Aangepaste lay-outs**.  
   
-4.  Selecteer in het venster **Rapportlay-outs** de rapportlay-out waarnaar u het bestand wilt importeren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Lay-out importeren**.  
+4. Selecteer in het venster **Rapportlay-outs** de rapportlay-out waarnaar u het bestand wilt importeren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Lay-out importeren**.  
   
-5.  Selecteer in het dialoogvenster **Microsoft Office-sjabloon importeren** het Word-document dat de rapportlay-out definieert en kies vervolgens **Openen**.  
+5. Selecteer in het dialoogvenster **Microsoft Office-sjabloon importeren** het Word-document dat de rapportlay-out definieert en kies vervolgens **Openen**.  
   
- De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
+   De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
   
 ## <a name="see-also"></a>Zie ook  
  [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   

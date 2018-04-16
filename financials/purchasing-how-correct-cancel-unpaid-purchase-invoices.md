@@ -31,7 +31,7 @@ In het venster **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de k
 2. Selecteer de geboekte inkoopfactuur die u wilt corrigeren.  
 
     > [!NOTE]  
->   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte inkoopfactuur niet corrigeren omdat deze al is gecorrigeerd of geannuleerd.
+   >   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte inkoopfactuur niet corrigeren omdat deze al is gecorrigeerd of geannuleerd.
 3. Kies in het venster **Geboekte inkoopfactuur** **Corrigeren**.
 
     Een nieuwe inkoopfactuur met dezelfde gegevens wordt gemaakt waar u de correctie kunt maken. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md). Het veld **Geannuleerd** op de eerste geboekte inkoopfactuur is gewijzigd in **Ja**.
@@ -44,7 +44,7 @@ In het venster **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de k
 2. Selecteer de geboekte inkoopfactuur die u wilt annuleren.
 
     > [!NOTE]  
->   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte inkoopfactuur niet annuleren omdat deze al is geannuleerd of gecorrigeerd.
+   >   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte inkoopfactuur niet annuleren omdat deze al is geannuleerd of gecorrigeerd.
 3. Kies in het venster **Geboekte inkoopfactuur** **Annuleren**.
 
     Een inkoopcreditnota wordt automatisch gemaakt en geboekt om de oorspronkelijke geboekte inkoopfactuur nietig te verklaren. Het veld **Geannuleerd** op de eerste geboekte inkoopfactuur is gewijzigd in **Ja**.

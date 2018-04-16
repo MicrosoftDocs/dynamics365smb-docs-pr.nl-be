@@ -26,7 +26,7 @@ Op de afzonderlijke projectkaarten moet u prijzen instellen voor projectartikele
 
 ## <a name="to-set-general-information-for-jobs"></a>Algemene gegevens voor projecten instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Het selectievakje **Gebruikslink toepassen** is tamelijk complex en wordt daarom in het volgende gedeelte uitgelegd.

@@ -33,7 +33,7 @@ U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te ste
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Urenstaten** in en klik vervolgens op de gerelateerde koppeling.
 2. Kies de actie **Urenstaten maken** in het venster **Overzicht urenstaat**.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   De velden **Urenstaat gebruiken** en **Gebruikers-id eigenaar urenstaat** moeten worden ingevuld op de kaart voor de resource van de urenstaat.
@@ -77,16 +77,16 @@ Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor r
 3. Vul de velden indien nodig op een regel in. Voer het aantal uren in dat door de resource op elke dag van de week wordt gebruikt.
 
     > [!TIP]  
->   U kunt de som controleren van de urenstaaturen die u hebt ingevoerd in het feitenblok **Overzicht van werkelijk/gebudgetteerd**.  
+   >   U kunt de som controleren van de urenstaaturen die u hebt ingevoerd in het feitenblok **Overzicht van werkelijk/gebudgetteerd**.  
 4. Herhaal stap 3 voor andere werksoorten die de resource uitvoert.
 5. Kies de **Verzenden**-actie en kies vervolgens de actie **Alle geopende regels** om alle regels te verzenden of kies de actie **Alleen geselecteerde regel(s)** om alleen de regels te verzenden die zijn geselecteerd in het venster **Urenstaat**.  
 
     > [!NOTE]  
->   U kunt alleen urenstaatregels verzenden waarvoor u tijd hebt ingevoerd.  
+   >   U kunt alleen urenstaatregels verzenden waarvoor u tijd hebt ingevoerd.  
 6. Als u gegevens wilt wijzigen op een regel die is ingesteld op **Ingediend**, selecteert u de regel en kiest u de actie **Opnieuw openen**.
 
     > [!NOTE]  
->   Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als u een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
+   >   Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als u een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
 7. Kies de knop **Ok**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Een urenstaat goedkeuren of weigeren
@@ -111,7 +111,7 @@ Nadat u een urenstaat hebt goedgekeurd of geweigerd, kan deze niet meer worden g
 2. Open een urenstaat uit de lijst.  
 
     > [!NOTE]  
->   U kunt alleen regels met de status **Goedgekeurd** opnieuw openen. U kunt geen regels met de status **Afgewezen** opnieuw openen. U kunt een urenstaat niet opnieuw openen als deze is geboekt.  
+   >   U kunt alleen regels met de status **Goedgekeurd** opnieuw openen. U kunt geen regels met de status **Afgewezen** opnieuw openen. U kunt een urenstaat niet opnieuw openen als deze is geboekt.  
 3. Kies in het venster **Urenstaat** de actie **Opnieuw openen** en kies vervolgens de actie **Alle verzonden regels** om alle regels opnieuw te openen of kies de actie **Alleen geselecteerde regels** om alleen de regels opnieuw te openen die zijn geselecteerd in het venster **Urenstaat**.
 4. Kies de knop **Ok**. De status van de urenstaatregel of -regels verandert in **Verzonden**.  
 
@@ -134,7 +134,7 @@ Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken
 4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het projectdagboek, waarin u de informatie desgewenst kunt wijzigen.  
 
     > [!NOTE]  
->   Gegevens over het werksoort en of het werk factureerbaar is , wordt uit de urenstaatregel gekopieerd. U kunt indien nodig het aantal uren verminderen en een gedeeltelijke boeking doen. Als u het aantal vermindert, bevat de gemaakte regel de volgende keer dat u de actie **Regels voorstellen uit urenstaten** kiest, het resterende aantal uren.  
+   >   Gegevens over het werksoort en of het werk factureerbaar is , wordt uit de urenstaatregel gekopieerd. U kunt indien nodig het aantal uren verminderen en een gedeeltelijke boeking doen. Als u het aantal vermindert, bevat de gemaakte regel de volgende keer dat u de actie **Regels voorstellen uit urenstaten** kiest, het resterende aantal uren.  
 5. Kies de actie **Boeken**.  
 6. Als u de boeking wilt controleren, kiest u de actie **Posten**. Het venster **Projectposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
 

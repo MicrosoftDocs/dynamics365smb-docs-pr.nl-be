@@ -31,11 +31,11 @@ U hebt de beschikking over acht afschrijvingsmethoden:
 * Handmatig  
 
   > [!NOTE]  
->   Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.  
+  >   Gebruik deze methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die deze afschrijvingsmethode gebruiken.  
 * Halfjaarlijkse afspraak  
 
   > [!NOTE]  
->    Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.  
+  >    Wanneer u deze methode gebruikt, wordt een vast activum elk jaar met hetzelfde bedrag afgeschreven.  
 
 ## <a name="straight-line-depreciation"></a>Lineaire afschrijving
 Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opties opgeven in het afschrijvingsboek voor vaste activa:  
@@ -233,7 +233,7 @@ In het venster **Afschrijvingstabel** kunt u een eigen afschrijvingsmethoden ins
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingstabellen** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in het venster **Afschrijvingstabeloverzicht** de actie **Nieuw**.  
-3. Vul in het venster **Afschrijvingstabel** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Vul in het venster **Afschrijvingstabel** indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Voorbeeld - door gebruiker ingestelde afschrijving
 U gebruikt een afschrijvingsmethode waarmee u activa versneld kunt afschrijven (omdat u hierdoor minder inkomstenbelasting hoeft te betalen).  

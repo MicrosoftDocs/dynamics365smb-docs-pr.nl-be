@@ -30,7 +30,7 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Algemene en verplichte instellingen opgeven
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Service-instellingen** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Vul de benodigde velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Zie ook  
 [Foutrapportage instellen](service-how-setup-fault-reporting.md)  

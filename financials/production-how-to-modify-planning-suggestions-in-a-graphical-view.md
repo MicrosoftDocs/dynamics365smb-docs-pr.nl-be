@@ -59,6 +59,7 @@ De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door
 Om de wijzigingen in het voorzieningsplan te implementeren, moet u de resulterende planningsboodschappen van het plannings- of inkoopvoorstel opvolgen. Zie voor meer informatie Planningsboodschap uitvoeren - Plan.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbolen en pictogrammen op het sneltabblad Tijdlijn
+
  |Symbool/pictogram|Omschrijving|  
  |------------------|---------------------------------------|  
  |Zwart kruis|Orders (zowel vraag als aanbod).<br /><br /> -   Kan niet worden gewijzigd.<br />-   Zichtbaar wanneer het veld **Geplande voorraad weergeven** is geselecteerd (oranje grafiek).|  

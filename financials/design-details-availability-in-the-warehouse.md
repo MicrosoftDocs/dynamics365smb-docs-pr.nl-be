@@ -51,16 +51,16 @@ Het systeem moet een constante controle op artikelbeschikbaarheid in het magazij
 
  Het zou mogelijk moeten zijn om alle artikelen in voorraad te reserveren, met uitzondering van artikelen waarvoor uitgaande verwerking is gestart. Het aantal dat kan worden gereserveerd, wordt gedefinieerd als het aantal in alle documenten en alle typen opslaglocaties, behalve de volgende uitgaande aantallen:  
 
--   Aantal in niet-geregistreerde pickdocumenten  
--   Aantal in verzendopslaglocaties  
--   Aantal in naar-productieopslaglocaties  
--   Aantal in grijpvoorraadlocaties  
--   Aantal in naar-assemblageopslaglocaties  
--   Aantal in correctieopslaglocaties  
+- Aantal in niet-geregistreerde pickdocumenten  
+- Aantal in verzendopslaglocaties  
+- Aantal in naar-productieopslaglocaties  
+- Aantal in grijpvoorraadlocaties  
+- Aantal in naar-assemblageopslaglocaties  
+- Aantal in correctieopslaglocaties  
 
- Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** in het venster **Reservation**.  
+  Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** in het venster **Reservation**.  
 
- Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** in het venster **Reservering**.  
+  Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** in het venster **Reservering**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Het aantal berekenen dat beschikbaar is voor reservering  
  Het aantal dat beschikbaar is voor reserveringen, wordt als volgt berekend:  

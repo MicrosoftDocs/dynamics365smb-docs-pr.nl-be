@@ -39,7 +39,7 @@ Wanneer u een geboekte verkoopfactuur wijzigt of annuleert, wordt de corrigerend
 2. Selecteer de geboekte verkoopfactuur die u wilt corrigeren.
 
     > [!NOTE]  
->   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte verkoopfactuur niet corrigeren omdat deze al is gecorrigeerd of geannuleerd.
+   >   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte verkoopfactuur niet corrigeren omdat deze al is gecorrigeerd of geannuleerd.
 3. Kies in het venster **Geboekte verkoopfactuur** de actie **Corrigeren**.  
 4. Een nieuwe verkoopfactuur met dezelfde gegevens wordt gemaakt waar u de correctie kunt maken. Het veld **Geannuleerd** op de eerste geboekte verkoopfactuur is gewijzigd in **Ja**.
 
@@ -51,7 +51,7 @@ Wanneer u een geboekte verkoopfactuur wijzigt of annuleert, wordt de corrigerend
 2. Selecteer de geboekte verkoopfactuur die u wilt annuleren.
 
     > [!NOTE]  
->   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte verkoopfactuur niet annuleren omdat deze al is gecorrigeerd of geannuleerd.
+   >   Als het selectievakje **Geannuleerd** is geselecteerd, kunt u de geboekte verkoopfactuur niet annuleren omdat deze al is gecorrigeerd of geannuleerd.
 3. Kies in het venster **Geboekte verkoopfactuur** de actie **Annuleren**.
 
     Een verkoopcreditnota wordt automatisch gemaakt en geboekt om de oorspronkelijke geboekte verkoopfactuur nietig te verklaren. Het veld **Geannuleerd** op de eerste geboekte verkoopfactuur is gewijzigd in **Ja**.

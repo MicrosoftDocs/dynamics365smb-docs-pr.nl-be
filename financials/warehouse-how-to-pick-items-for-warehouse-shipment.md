@@ -72,7 +72,7 @@ Na het boeken van de magazijnverzending, worden verschillende velden op de order
 
 > [!NOTE]
 > In combinatiescenario's waarbij een deel van de hoeveelheid eerst moet worden geassembleerd en een ander deel uit voorraad moet worden verzonden, worden twee magazijnverzendregels gemaakt. Eén voor het op-order-assembleren-aantal, en één voor het voorraadaantal.
-
+> 
 > In dat geval wordt het op-order-assembleren-aantal verwerkt zoals beschreven in dit onderwerp, en het voorraadaantal wordt verwerkt als een gewone magazijnverzendregel. Zie voor meer informatie over combinatiescenario's [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Zie ook  

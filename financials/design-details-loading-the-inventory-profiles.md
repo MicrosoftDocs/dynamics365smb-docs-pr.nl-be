@@ -28,15 +28,15 @@ Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningss
 
  Over het algemeen beschouwt het planningssysteem alle voorzieningenorders na de begindatum van de planning als vatbaar voor wijziging om aan vraag te voldoen. Zodra echter een aantal vanuit een voorzieningenorder is geboekt, kan deze niet meer in het planningssysteem worden gewijzigd. De volgende verschillende orders kunnen niet opnieuw worden gepland:  
 
--   Vrijgegeven productieorders waarbij het verbruik of de output is geboekt.  
+- Vrijgegeven productieorders waarbij het verbruik of de output is geboekt.  
 
--   Assemblageorders waarbij het verbruik of de output is geboekt.  
+- Assemblageorders waarbij het verbruik of de output is geboekt.  
 
--   Transferorders waarop verzending is geboekt.  
+- Transferorders waarop verzending is geboekt.  
 
--   Inkooporders waarop ontvangst is geboekt.  
+- Inkooporders waarop ontvangst is geboekt.  
 
- Afgezien van het laden van typen vraag en aanbod, worden bepaalde soorten geladen met het oog op speciale regels en afhankelijkheden die worden beschreven in het volgende.  
+  Afgezien van het laden van typen vraag en aanbod, worden bepaalde soorten geladen met het oog op speciale regels en afhankelijkheden die worden beschreven in het volgende.  
 
 ## <a name="item-dimensions-are-separated"></a>Artikeldimensies worden gescheiden  
  Het voorzieningenplan moet worden berekend per combinatie van artikeldimensies, zoals variant en vestiging. Er is echter geen reden om elke theoretische combinatie te berekenen. Alleen combinaties met vraag en/of aanbod moeten worden berekend.  

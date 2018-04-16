@@ -32,7 +32,7 @@ In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Z
 
 ## <a name="to-create-a-new-gl-budget"></a>Een nieuw grootboekbudget maken  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekbudgetten** in en klik vervolgens op de gerelateerde koppeling.  
-2. Kies de actie **Lijst bewerken** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Kies de actie **Lijst bewerken** en vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Kies de actie **Budget bewerken**.
 4. Vul boven in het venster **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.  
 

@@ -25,7 +25,7 @@ Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de priori
 - Aan eventuele vraag wordt voldaan door voldoende aanbod.  
 - Elk aanbod dient een doel.  
 
- Over het algemeen worden deze doelstellingen bereikt door aanbod met vraag af te stemmen.  
+  Over het algemeen worden deze doelstellingen bereikt door aanbod met vraag af te stemmen.  
 
 ## <a name="in-this-section"></a>In dit gedeelte  
 [Ontwerpdetails: Vraag en aanbod](design-details-demand-and-supply.md)  

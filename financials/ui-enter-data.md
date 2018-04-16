@@ -75,14 +75,14 @@ Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te v
 # <a name="entering-negative-numbers"></a>Negatieve getallen invoeren
 U kunt negatieve getallen op twee manieren invoeren. Nummer -20.5 kan worden ingevoerd als:  
 
--   -20,5  
+- -20,5  
 
-    of
--   20,5-  
+  of
+- 20,5-  
 
- In beide gevallen wordt het bedrag als -20,5 geregistreerd.  
+  In beide gevallen wordt het bedrag als -20,5 geregistreerd.  
 
- Als het laatste teken van de expressie een **+** of een **-** is, wordt de volledige expressie vastgelegd met dat teken. Een voorbeeld: **10-20+** resulteert in 10 en niet -10.  
+  Als het laatste teken van de expressie een **+** of een **-** is, wordt de volledige expressie vastgelegd met dat teken. Een voorbeeld: **10-20+** resulteert in 10 en niet -10.  
 
 ## <a name="entering-dates-and-times"></a>Datums en tijden invoeren
 U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan datums (datumvelden). U kunt datums met of zonder scheidingstekens invoeren.
@@ -93,15 +93,15 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 ### <a name="entering-dates"></a>Datums invoeren  
  Een datumveld kan twee, vier, zes of acht cijfers bevatten:  
 
--   Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.  
+- Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.  
 
--   Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd.  
+- Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd.  
 
--   Als de ingevoerde datum in de reeks 01/01/1930 tot en met 31/12/2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.  
+- Als de ingevoerde datum in de reeks 01/01/1930 tot en met 31/12/2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.  
 
- U kunt een datum ook invoeren als een weekdag gevolgd door een weeknummer en eventueel het jaar (Ma25 of ma25 duidt bijvoorbeeld op maandag in week 25).  
+  U kunt een datum ook invoeren als een weekdag gevolgd door een weeknummer en eventueel het jaar (Ma25 of ma25 duidt bijvoorbeeld op maandag in week 25).  
 
- U kunt in plaats van een specifieke datum ook een van de volgende codes invoeren.  
+  U kunt in plaats van een specifieke datum ook een van de volgende codes invoeren.  
 
 |Code|Resultaat|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 
  Hier volgen enkele voorbeelden van het gebruik van datumformules:  
 
--   De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.  
+- De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.  
 
--   De datumformule in het veld Respijtperiode van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum (of de datum van de vorige aanmaning) moet zijn verstreken voordat een aanmaning wordt gemaakt.  
+- De datumformule in het veld Respijtperiode van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum (of de datum van de vorige aanmaning) moet zijn verstreken voordat een aanmaning wordt gemaakt.  
 
--   De datumformule in het veld Vervaldatumformule bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.  
+- De datumformule in het veld Vervaldatumformule bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.  
 
- In de berekeningsformule voor de datum kunt u maximaal 20 tekens gebruiken (cijfers en/of letters). U kunt de volgende letters gebruiken als afkorting voor tijdsaanduidingen.  
+  In de berekeningsformule voor de datum kunt u maximaal 20 tekens gebruiken (cijfers en/of letters). U kunt de volgende letters gebruiken als afkorting voor tijdsaanduidingen.  
 
 |||  
 |-|-|  

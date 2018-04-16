@@ -69,7 +69,7 @@ Wanneer uw IC-partners u IC-transacties toesturen, komen de transacties terecht 
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport")-pictogram, voer **IC-inboxtransacties** in en klik vervolgens op de gerelateerde koppeling.  
 2. Selecteer in het venster **IC-inboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Goedkeuren**.
-3. Vul in het venster **Bewerking IC-inbox voltooien** de velden in met de benodigde gegevens. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul in het venster **Bewerking IC-inbox voltooien** de velden in met de benodigde gegevens. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **OK**.  
 
 Bij regels die u verwerkt met de actie **Goedkeuren**, worden document- of dagboekregels aangemaakt in uw bedrijf. Open elk document of dagboek, breng de gewenste wijzigingen aan en boek de regels.  

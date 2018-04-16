@@ -38,7 +38,7 @@ Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld
 4. Voer in het veld **Toewijzingstekst** willekeurige tekst in die voorkomt op betalingen die u, zonder deze met een openstaande post te vereffenen, wilt boeken naar opgegeven rekeningen. U kunt maximaal 50 tekens invoeren.
 
     > [!NOTE]  
->   Als er geen andere betalingen met de betreffende koppelingstekst zijn, vindt de toewijzing van tekst aan rekening ook plaats wanneer slechts een deel van de tekst op de betaling als toewijzingstekst bestaat.
+   >   Als er geen andere betalingen met de betreffende koppelingstekst zijn, vindt de toewijzing van tekst aan rekening ook plaats wanneer slechts een deel van de tekst op de betaling als toewijzingstekst bestaat.
 5. Voer in het veld **Leveranciersnr.** de leverancier in waarnaar de betalingen worden geboekt.
 6. Geef in het veld **Bronsoort saldo** op of de betaling naar een grootboekrekening of een klanten- of een leveranciersrekening wordt geboekt.
 7. Geef in het veld **Bronnr. saldo** de rekening op waarnaar de betaling wordt geboekt, afhankelijk van uw keuze in het veld **Bronsoort saldo**.
@@ -57,7 +57,7 @@ Als u brandstofkosten die bij Shell-benzinestations worden betaald, altijd wilt 
 | --- | --- | --- | --- | --- |
 | Shell |LEEG |8510 |Grootboekrekening |LEEG |
 
-> [!TIP]  
+> [!TIP]
 >   Zie voor meer informatie over het werken met velden en kolommen [Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Zie [Zoeken](ui-search.md) voor meer informatie over het zoeken naar specifieke pagina's.
 
 ## <a name="see-also"></a>Zie ook

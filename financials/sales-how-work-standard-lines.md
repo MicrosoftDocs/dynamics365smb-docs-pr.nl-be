@@ -27,7 +27,7 @@ In de volgende procedure wordt beschreven hoe u werkt met standaardverkoopregels
 ## <a name="to-set-up-standard-sales-lines"></a>Standaardverkoopregels instellen  
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaardverkoopcodes** in en klik vervolgens op de gerelateerde koppeling.  
 2. Kies in het venster **Standaardverkoopregels** de actie **Nieuw**.  
-3. Vul de benodigde velden in op het sneltabblad **Algemeen**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Vul de benodigde velden in op het sneltabblad **Algemeen**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Voer op het sneltabblad **Regels** gegevens in de velden in om verkoopregels voor te bereiden die de standaardregels reflecteren die u verwacht te gebruiken als terugkerende regels in verkoopdocumenten.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Standaardverkoopregels invoegen op een verkoopfactuur
