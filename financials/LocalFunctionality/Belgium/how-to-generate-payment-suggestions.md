@@ -1,6 +1,7 @@
 ---
 title: Betalingsvoorstellen genereren
 description: Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.
+redirect_url: belgian-electronic-payments
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +14,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 1c7a748f48cb36b30851795119a072ab6d77c961
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: adb693695327f0aeae89f56d659b7d4ae4cad90a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="generate-payment-suggestions"></a><span data-ttu-id="00750-104">Betalingsvoorstellen genereren</span><span class="sxs-lookup"><span data-stu-id="00750-104">Generate Payment Suggestions</span></span>
