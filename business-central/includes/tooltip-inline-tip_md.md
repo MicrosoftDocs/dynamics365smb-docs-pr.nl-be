@@ -1,1 +1,1 @@
-Kies een veld om een korte omschrijving van het veld of een koppeling naar meer informatie te lezen.
+Wijs een veld aan om een korte omschrijving te lezen.

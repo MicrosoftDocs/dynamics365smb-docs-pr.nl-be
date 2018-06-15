@@ -10,20 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 06/02/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b14f779a34f44bc8c41bb13b42ec06bea359c9b7
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 32f5b2b19dc74d3849a313e3d93fdb70146cdb23
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Bankrekeningen apart reconciliëren
-Als u bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt reconciliëren met afschriften die u van de bank hebt ontvangen, moet u de regels invullen in het venster **Bankreconciliatie**.
+Als u bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt reconciliëren met afschriften die worden ontvangen van de bank, begint u met het linkerdeelvenster in het venster **Bankreconciliatie** in te vullen met bankafschriftgegevens die u dan reconcilieert met bankrekeningposten in het rechterdeelvenster. Een slimme manier om bankafschriftregels in te vullen is een bankafschriftbestand of -feed te importeren.
 
 > [!NOTE]  
->   U kunt bankrekeningen ook reconciliëren in het venster **Betalingsreconciliatiedagboek**. Eventuele open bankrekeningposten die gerelateerd zijn aan de vereffende klant- of leveranciersposten, worden gesloten wanneer u de actie **Betalingen boeken en bankrekening reconciliëren** kiest. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
+> In Noord-Amerikaanse versies kunt u dit werk ook doen in het venster **Werkblad bankreconciliatie**, dat geschikter is voor cheques en borgsommen, maar geen importeren van bankafschriftbestanden biedt. Als u dit venster wilt gebruiken in plaats van het venster **Bankreconciliatie**, schakelt u het veld **Bankreconciliatie met automatische afstemming** uit in het venster **Boekhoudinstellingen**. Zie voor meer informatie het gedeelte "Bankrekeningen reconciliëren" onder Lokale functionaliteit voor de Verenigde Staten.
+
+> [!TIP]  
+> U kunt bankrekeningen ook reconciliëren in het venster **Betalingsreconciliatiedagboek**. Eventuele open bankrekeningposten die gerelateerd zijn aan de vereffende klant- of leveranciersposten, worden gesloten wanneer u de actie **Betalingen boeken en bankrekening reconciliëren** kiest. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst de feedservice van de Envestnet Yodlee Bank instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De feedservice van de Envestnet Yodlee Bank instellen](bank-how-setup-bank-statement-service.md).
 
@@ -58,6 +61,8 @@ Wanneer de waarde in het veld **Totaalsaldo** in het deelvenster **Bankafschrift
 5. Kies de knop **Ok**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Bankafschriftregels automatisch afstemmen met bankrekeningposten
+Het venster biedt automatische afstemmingsfunctionaliteit waarmee betalingen worden vereffend met de gerelateerde open posten op basis van een afstemming van tekst op een bankafschriftregel (linkerdeelvenster) met tekst in een of meer bankrekeningposten (rechterdeelvenster). U kunt de voorgestelde automatische vereffeningen overschrijven en u kunt ervoor kiezen helemaal geen automatische vereffening te gebruiken. Zie de volgende procedure voor meer informatie.
+
 1. Kies in het venster **Bankreconciliatie** de actie **Automatisch afstemmen**. Het venster **Bankposten afstemmen** verschijnt.
 2. Geef in het veld **Datumtolerantie van transactie (dagen)** het aantal dagen op vóór en na de boekingsdatum van de bankpost waarbinnen de functie naar overeenkomstige transactiedatums in het bankafschrift zoekt.
 
@@ -84,6 +89,7 @@ Soms bevat een bankafschrift bedragen voor in rekening gebrachte rente of toesla
 
     Het venster **Diversendagboek** wordt geopend met nieuwe dagboekregels voor bankafschriftregels met ontbrekende posten.
 3. Vul de dagboekregel met de relevante gegevens, zoals de tegenrekening. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
+4. Als u het resultaat van de boeking wilt controleren voordat u boekt, kiest u de actie **Testrapport**. Het rapport **Bankrekeningafschrift** wordt geopend en bevat dezelfde velden als de koptekst van het venster **Bankreconciliatie**.
 4. Kies de actie **Boeken**.
 
     Wanneer de post wordt geboekt, stemt u de banktransactie ermee af.

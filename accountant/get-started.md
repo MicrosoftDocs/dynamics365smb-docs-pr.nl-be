@@ -8,43 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/10/2017
+ms.date: 05/09/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 591ca492802166610f00ad5be09badd719fdb64a
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
-# <a name="get-started-with-included365acclongincludesd365acclongmdmd"></a>Aan de slag met [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Aan de slag met [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+[!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE[d365acc](includes/d365acc_md.md)] als uw dashboard gebruiken voor een beter overzicht van uw cliënten.  
+Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE [d365acc](includes/d365acc_md.md)] als uw dashboard gebruiken voor een beter overzicht van uw cliënten.  
 
-U kunt toegang tot [!INCLUDE[d365acc](includes/d365acc_md.md)] krijgen door u aan te melden vanuit [Dynamics 365 — Accountant Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
+U kunt toegang tot [!INCLUDE [d365acc](includes/d365acc_md.md)] krijgen door u aan te melden vanuit [Dynamics 365 — Accountant Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
-> [!TIP]  
->  Als u zich voor [!INCLUDE[d365acc](includes/d365acc_md.md)] registreert, moet u uw werk-e-mailadres opgeven, bijvoorbeeld *me@accountant.com*. Het is raadzaam hetzelfde e-mailadres te gebruiken als wanneer u werkt in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] van uw cliënten, zodat u gemakkelijk tussen cliënten kunt schakelen. Het e-mailadres moet een werkadres op basis van Active Directory zijn.
+> [!TIP]
+>  Als u zich voor [!INCLUDE [d365acc](includes/d365acc_md.md)] registreert, moet u uw werk-e-mailadres opgeven, bijvoorbeeld <em>me@accountant.com</em>. Het is raadzaam hetzelfde e-mailadres te gebruiken als wanneer u werkt in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] van uw cliënten, zodat u gemakkelijk tussen cliënten kunt schakelen. Het e-mailadres moet een werkadres op basis van Active Directory zijn.
 
 ## <a name="working-with-individual-clients"></a>Werken met afzonderlijke cliënten
 Het dashboard bevat de belangrijkste gegevens van iedere cliënt.  
 ![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
 
-De kolom **Cliëntnaam** bevat de namen van uw cliënten en de kolom **Bedrijfsnaam** bevat alle bedrijven als de cliënt meerdere bedrijven heeft in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Er zijn ook velden waarin de taken worden weergegeven die in het bedrijf van de cliënt aan u zijn toegewezen, inclusief achterstallige taken.  
+De kolom **Cliëntnaam** bevat de namen van uw cliënten en de kolom **Bedrijfsnaam** bevat alle bedrijven als de cliënt meerdere bedrijven heeft in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]. Er zijn ook velden waarin de taken worden weergegeven die in het bedrijf van de cliënt aan u zijn toegewezen, inclusief achterstallige taken.  
 
 U kunt het dashboard aanpassen om de gegevenspunten weer te geven die u wilt zien door kolommen toe te voegen of te verwijderen. Bijvoorbeeld, u wilt belastingen zien die verschuldigd zijn, hoeveel open verkoopdocumenten elke cliënt heeft of het aantal inkoopfacturen dat volgende week moet worden betaald. U kunt de weergave aanpassen aan uw behoeften. Wanneer u veel cliënten hebt, kunt u filters gebruiken om de weergave te sorteren.  
 
 De beletseltekens (...) naast de cliëntnaam duiden een kort menu aan:
 
--   Het huidige bedrijf vernieuwen en nieuwe gegevens krijgen voor de cliënt  
--   Ga naar de [!INCLUDE[d365fin](includes/d365fin_md.md)] van de cliënt  
--   Meer cliënten selecteren  
+- Het huidige bedrijf vernieuwen en nieuwe gegevens krijgen voor de cliënt  
+- Ga naar de [!INCLUDE [d365fin](includes/d365fin_md.md)] van de cliënt  
+- Meer cliënten selecteren  
 
 U kunt bijvoorbeeld ook het vervolgmenu **Cliëntoverzicht** gebruiken om alle bedrijven te vernieuwen.  
 
-> [!TIP]  
->  Kies om toegang te krijgen tot de [!INCLUDE[d365fin](includes/d365fin_md.md)] van een cliënt de menuoptie **Ga naar cliënt**. U wordt automatisch aangemeld.
+> [!TIP]
+>  Kies om toegang te krijgen tot de [!INCLUDE [d365fin](includes/d365fin_md.md)] van een cliënt de menuoptie **Ga naar cliënt**. U wordt automatisch aangemeld.
 
 ## <a name="company-details"></a>Bedrijfsdetails
 U kunt meer informatie over de gegevens van uw cliënten zien door de naam te kiezen van het bedrijf waarover u meer wilt leren. Hiermee opent u het deelvenster **Bedrijfsdetails**, waarin u aanvullende informatie, zoals het volgende kunt bekijken:  
@@ -56,22 +56,22 @@ U kunt meer informatie over de gegevens van uw cliënten zien door de naam te ki
 
 ![Gegevens van cliëntbedrijf in accountantdashboard](./media/accountant-get-started/accountant-company-details.png)
 
-Technisch gezien bent u nu aangemeld bij de [!INCLUDE[d365fin](includes/d365fin_md.md)] van de cliënt en de gegevens die u ziet, zijn live. Als u de gegevens nader wilt bekijken, bijvoorbeeld een achterstallige inkoopfactuur, kiest u de koppeling en wordt u naar het cliëntbedrijf geleid.  
+Technisch gezien bent u nu aangemeld bij de [!INCLUDE [d365fin](includes/d365fin_md.md)] van de cliënt en de gegevens die u ziet, zijn live. Als u de gegevens nader wilt bekijken, bijvoorbeeld een achterstallige inkoopfactuur, kiest u de koppeling en wordt u naar het cliëntbedrijf geleid.  
 
-> [!TIP]  
->  U kunt vooraf gedefinieerde Excel-werkmappen starten via het tabblad **Rapporten** in het lint. Deze Excel-werkmappen zijn ontworpen om belangrijke financiële overzichten en rapporten af te drukken, maar u kunt deze ook naar wens aanpassen. Zie [Financiële overzichten analyseren in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in de Help voor [!INCLUDE[d365fin](includes/d365fin_md.md)] voor meer informatie.  
+> [!TIP]
+>  U kunt vooraf gedefinieerde Excel-werkmappen starten via het tabblad **Rapporten** in het lint. Deze Excel-werkmappen zijn ontworpen om belangrijke financiële overzichten en rapporten af te drukken, maar u kunt deze ook naar wens aanpassen. Zie [Financiële overzichten analyseren in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in de Help voor [!INCLUDE [d365fin](includes/d365fin_md.md)] voor meer informatie.  
 
 Anders sluit u het detailvenster en gaat u naar de volgende cliënt.  
 
 ## <a name="assigned-tasks"></a>Toegewezen taken
-In de [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgeving van uw cliënt kunt u taken toewijzen aan uzelf en anderen, en anderen kunnen taken aan u toewijzen. Uw dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)] biedt u een overzicht van toegewezen taken voor elke cliënt en u kunt een lijst met alle toegewezen taken openen door **Mijn gebruikerstaken** te kiezen in het linkernavigatievenster.  
+In de [!INCLUDE [d365fin](includes/d365fin_md.md)]-omgeving van uw cliënt kunt u taken toewijzen aan uzelf en anderen, en anderen kunnen taken aan u toewijzen. Uw dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] biedt u een overzicht van toegewezen taken voor elke cliënt en u kunt een lijst met alle toegewezen taken openen door **Mijn gebruikerstaken** te kiezen in het linkernavigatievenster.  
 
 In het cliëntbedrijf zijn er ook indicatiestapels waarmee taken worden aangeroepen die aan u zijn toegewezen in deze cliënt.
 
 ![Taken die aan de accountant in het cliëntbedrijf zijn toegewezen](./media/accountant-get-started/accountant-company-details-tasks.png)
 
 ### <a name="my-user-tasks"></a>Mijn gebruikerstaken
-Met de lijst **Mijn gebruikerstaken** in [!INCLUDE[d365acc](includes/d365acc_md.md)] kunt u de prioriteiten voor uw dag bepalen door meer informatie over aan u toegewezen taken voor al uw cliënten weer te geven.  
+Met de lijst **Mijn gebruikerstaken** in [!INCLUDE [d365acc](includes/d365acc_md.md)] kunt u de prioriteiten voor uw dag bepalen door meer informatie over aan u toegewezen taken voor al uw cliënten weer te geven.  
 
 ![Lijst met taken die aan mij als externe accountant zijn toegewezen](./media/accountant-get-started/accountant-tasklist.png)
 
@@ -84,7 +84,7 @@ Wanneer u een taak hebt voltooid, moet u deze gewoon als voltooid markeren.
 ## <a name="see-also"></a>Zie ook
 [Cliënten toevoegen aan uw dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Welkom bij [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Financiële overzichten analyseren in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
-[Accountantervaringen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json)  
+[Financiële overzichten analyseren in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Accountantervaringen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

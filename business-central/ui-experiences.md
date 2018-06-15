@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 03/16/2018
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f1c5b49185621a960c84e599bbd267bd534a3730
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 0a94d94e58b2aa3f04639a00904b5370c91b1132
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
-# <a name="customizing-your-included365finincludesd365finmdmd-experience"></a>Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen
+# <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften dor extensies toe te voegen uit AppSource of door de instelling Ervaring te wijzigen voor uw bedrijf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) of het gedeelte "Een gebruikerservaring kiezen om functies weer te geven of te verbergen" hieronder.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Een gebruikerservaring kiezen om functies weer te geven of te verbergen
@@ -36,10 +36,33 @@ In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar z
 | **Premium** |Hier worden alle acties en velden voor alle bedrijfsfuncties weergegeven, inclusief Productie en Servicebeheer.|
 
 > [!NOTE]  
-> Welke ervaringen u kunt selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], is afhankelijk van uw oplossingslicentie, een abonnement genaamd. Voor informatie over de abonnementen **Essentieel** en **Premium** raadpleegt u [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) op de marketingsite van Microsoft Dynamics 365. 
+> Welke ervaringen u kunt selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], is afhankelijk van uw oplossingslicentie, een abonnement genaamd. Voor informatie over de abonnementen **Essentieel** en **Premium** raadpleegt u [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) op de marketingsite van Microsoft Dynamics 365.
+
+> [!IMPORTANT]  
+> Alle normale gebruikers in een oplossing moeten aan hetzelfde plan worden toegewezen, Essential of Premium, voordat die ervaring kan worden geselecteerd voor het bedrijf. Een gebruiker kan daarom geen Premium-functies gebruiken als een of meer andere gebruikers alleen toegang hebben tot Essential-functies. Dit geldt niet voor niet-normale gebruikers van het type Teamlid, Interne admin, Externe accountant en Gedelegeerde admin, die allemaal aan een ander plan kunnen zijn toegewezen dan andere gebruikers in de oplossing.
+
+## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-functies inschakelen na een upgrade van het plan
+Gebruikers worden aan plannen toegewezen in Office 365, in verband met het algemene werk om de Business Central-gebruikers te maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+
+Vervolgens kunt u definiëren tot welke specifieke functies en vensters binnen de ervaring die gebruikers toegang hebben, door machtigingensets toe te wijzen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
+
+### <a name="to-update-plan-changes-in-users-groups"></a>Planwijzigingen bijwerken in gebruikersgroepen
+Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Office 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u de wijziging doorvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+1. Meld u aan als beheerder.
+2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.
+3. Kies in het venster **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen**.
+
+Alle nieuwe informatie over de plannen van gebruikers en hun toegewezen gebruikersgroepen worden nu bijgewerkt volgens de planwijzigingen.
+
+### <a name="to-select-the-premium-experience"></a>De Premium-ervaring selecteren
+U kunt nu doorgaan met de nieuwe ervaring te selecteren.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.
+2. Selecteer in het venster **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
 
 ## <a name="see-also"></a>Zie ook 
 [Nieuwe bedrijven maken](about-new-company.md)  
+[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

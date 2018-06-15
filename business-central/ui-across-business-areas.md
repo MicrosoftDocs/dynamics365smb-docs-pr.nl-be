@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/20/2018
+ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
@@ -35,7 +35,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|
 |Leg externe documenten vast in Financials, inclusief de bestandsbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 |Werkstromen instellen en gebruiken die taken verbinden die worden uitgevoerd door verschillende gebruikers of door het systeem, zoals automatisch boeken. Het aanvragen en verlenen van goedkeuringen om documenten te maken of te boeken, zijn voorbeelden van veelvoorkomende werkstroomstappen.|[Werkstroom](across-workflow.md)|
-| Stel definities voor de uitwisseling van gegevens in om elektronische documenten te kunnen verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
+| Stel definities in voor de uitwisseling van gegevens, zodat u elektronische documenten kunt verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/16/2018
+ms.date: 05/24/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: 443c04799e9aa2b9aa4ede15006ecb5e9773ce6b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Gebruikers en machtigingen beheren
@@ -24,9 +24,11 @@ Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het
 
 U kunt vervolgens machtigingensets aan gebruikers toewijzen om te bepalen tot welke databaseobjecten (en daardoor tot welke UI-elementen) zij toegang hebben en in welke bedrijven. U kunt gebruikers toevoegen aan gebruikersgroepen. Hierdoor wordt het gemakkelijker om dezelfde machtigingensets aan meerdere gebruikers toe te wijzen.
 
-Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de database. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Er zijn standaard verschillende vooraf gedefinieerde machtigingensets beschikbaar. U kunt de machtigingensets gebruiken zoals deze zijn gedefinieerd, u kunt de sets aanpassen of u kunt uw eigen machtigingensets maken.
+Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de database. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Er zijn standaard verschillende vooraf gedefinieerde machtigingensets beschikbaar.  
 
 Beheerders kunnen het venster **Gebruikersinstellingen** gebruiken om perioden te definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld.
+
+Een ander systeem dat definieert waartoe gebruikers toegang hebben, is de instelling Ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Machtigingen toewijzen aan een gebruiker
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.

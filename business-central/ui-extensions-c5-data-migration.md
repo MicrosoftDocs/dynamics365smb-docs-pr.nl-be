@@ -1,6 +1,6 @@
 ---
 title: De extensie C5-gegevensmigratie gebruiken | Microsoft Docs
-description: Gebruik deze extensie om klanten, leveranciers, artikelen en grootboekrekeningen te migreren van Microsoft Dynamics C5 2012 naar Financials.
+description: Gebruik deze extensie om klanten, leveranciers, artikelen en grootboekrekeningen te migreren van Microsoft Dynamics C5 2012 naar Business Central.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Deze extensie maakt het eenvoudidiger om klanten, leveranciers, artikelen en uw 
 > [!Note]
 > Het bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] mag geen gegevens bevatten. Bovendien mag u, nadat u een migratie start, geen klanten, leveranciers, artikelen of rekeningen maken totdat de migratie is voltooid.
 
-##<a name="what-data-is-migrated"></a>Welke gegevens worden gemigreerd?
+## <a name="what-data-is-migrated"></a>Welke gegevens worden gemigreerd?
 De volgende gegevens worden voor elke entiteit gemigreerd:
 
 **Klanten**
@@ -86,6 +86,13 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 > [!Note]
 > Als er open transacties zijn die vreemde valuta's gebruiken, wordt de wisselkoers voor deze valuta ook gemigreerd. Andere wisselkoersen worden niet gemigreerd.
 
+**Rekeningschema**  
+* Standaarddimensies: afdeling, kostenplaats, doel  
+* Historische G/L-transacties  
+
+> [!Note]
+> Historische G/L-transacties worden iets anders behandeld. Wanneer u gegevens migreert, stelt u de parameter **Huidige periode** in. Deze parameter bepaalt hoe G/L-transacties worden verwerkt. Transacties na deze datum worden afzonderlijk gemigreerd. Transacties vóór deze datum worden bijeengevoegd per rekening en als één bedrag gemigreerd. Stel dat er transacties zijn in 2015, 2016, 2017 en 2018, en dat u 1 januari 2017 opgeeft in het veld Huidige periode. Voor elke rekening worden bedragen voor transacties op of vóór 31 december 2106 in één dagboekregel gecombineerd voor elke grootboekrekening. Alle transacties na deze datum worden afzonderlijk gemigreerd.
+
 ## <a name="to-migrate-data"></a>Gegevens te migreren
 Er zijn slechts enkele stappen nodig om gegevens vanuit C5 te exporteren en deze te importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Gebruik de pagina **Gegevensmigratieoverzicht** om het resultaat van de migratie
 
 > [!Note]
 > Terwijl u op de resultaten van de migratie wacht, moet u de pagina vernieuwen om de resultaten weer te geven.
+
+## <a name="how-to-avoid-double-posting"></a>Dubbele boekingen voorkomen
+Om dubbele boekingen te helpen voorkomen worden de volgende tegenrekeningen gebruikt voor open transacties:  
+  
+* Voor leveranciers wordt de leveranciersrekening uit de leveranciersboekingsgroep gebruikt.  
+* Voor klanten wordt de klantenrekening uit de klantenboekingsgroep gebruikt.  
+* Voor artikelen wordt een algemene boekingsinstelling gemaakt waarbij de correctierekening de rekening is die is opgegeven als de voorraadrekening in de voorraadboekingsinstelling.  
 
 ## <a name="correcting-errors"></a>Fouten corrigeren
 Als er iets misgaat en zich een fout voordoet, wordt in het veld **Status** **Voltooid met fouten** weergegeven en in het veld **Aantal fouten** aangegeven hoeveel fouten er zijn. Als u een lijst met fouten wilt zien, kunt u de pagina met de **gegevensmigratiefouten** openen door het volgende te selecteren:  
@@ -119,13 +133,12 @@ Op de pagina met de **gegevensmigratiefouten** kunt een foutbericht kiezen om ee
 ## <a name="verifying-data-after-migrating"></a>Het verifiëren van gegevens na de migratie
 Eén manier om te controleren of uw gegevens correct zijn gemigreerd is te kijken naar de volgende pagina's in C5 en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Klantenposten| Financiële dagboeken|
-|Leveranciersposten| Financiële dagboeken|
-|Artikelposten| Artikeldagboeken|
-
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] krijgt de batch voor de gemigreerde gegevens de naam **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Te gebruiken batchverwerking |
+|-----|-----|-----|
+|Klantenposten| Financiële dagboeken| CUSTMIGR |
+|Leveranciersposten| Financiële dagboeken| VENDMIGR|
+|Artikelposten| Artikeldagboeken| ITEMMIGR |
+|Grootboekposten| Financiële dagboeken| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>De gegevensmigratie beëindigen
 U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kiezen. Als u dat doet, worden alle wachtende migraties ook beëindigd.

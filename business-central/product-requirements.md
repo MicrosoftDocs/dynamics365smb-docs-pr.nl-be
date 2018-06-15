@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 09/22/2017
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 41788b3fb69c9294990a06643e855f4082c750ab
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: a1910acdfb80de7a7e6a4d1b701bf1108b384996
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
@@ -36,6 +36,9 @@ Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] opent, is het raadzaam dat
 **Outlook-toepassingen:** als u [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox in Outlook wilt gebruiken, hebt u Outlook 2013 of later, Outlook-webapp, OWA voor iPhone, OWA voor iPad of OWA voor Android nodig.  
 **Browsers:** wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruikt in de Outlook-webapp (OWA), vereist de invoegtoepassing dat uw computer een van de eerder in dit artikel vermelde ondersteunde browsers gebruikt.  
 **Platforms:** wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-invoegtoepassing in OWA voor iPhone, OWA voor iPad en OWA voor Android gebruikt, vereist de invoegtoepassing dat uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
+
+## <a name="excel"></a>Excel
+**Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[d365fin](includes/d365fin_md.md)] terug te sturen, hebt u Excel 2016 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

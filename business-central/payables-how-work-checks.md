@@ -8,41 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 04/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0c1b37616b4aafc9535f2d3fbf60b915c490dd0b
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
-# <a name="work-with-checks"></a>Werken met cheques
+# <a name="make-check-payments"></a>Chequebetalingen doen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
 
-Bij het proces voor het uitgeven van cheques worden betalingen voorgesteld, worden posten gemaakt en worden de computercheques afgedrukt.
+In de volgende procedure wordt beschreven hoe u een leverancier betaalt met een computercheque door de betaling te vereffenen met de relevante leveranciersfactuur, de cheque af te drukken en vervolgens de betaling te boeken als betaald. Dit leidt tot positieve leveranciersposten die worden vereffend met negatieve bankposten en fysieke cheques voor verwerking in de bank.
+
+U kunt met twee soorten cheques betalen. Voor beide soorten moet het veld **Tegenrekeningtype** of **Rekeningsoort** **Bankrekening** bevatten.
+
+- **Automatische cheque**: selecteer deze optie als u een cheque wilt afdrukken voor het bedrag op de betalingsdagboekregel. U moet de cheques afdrukken voordat u de dagboekregels kunt boeken. U kunt **Automatische cheque** alleen selecteren als
+- **Handmatige cheque**: selecteer deze optie als u handmatig een cheque hebt gemaakt en er een bijbehorende chequepost moet worden gemaakt voor dit bedrag. Met deze optie kunt u de cheque niet afdrukken.
 
 > [!NOTE]  
->   Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. Zie voor meer informatie [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md).
+> Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. Zie voor meer informatie [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md).
 
 De printer moet correct zijn ingesteld op het afdrukken van chequeformulieren en u moet bepalen welke indeling wordt gebruikt. Zie voor meer informatie [Cheque-indelingen definiëren](finance-how-define-check-layouts.md)
 
-## <a name="to-issue-checks"></a>Cheques uitgeven
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Een leverancier betalen met een automatische cheque
+Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.
+
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul het dagboek met relevante betalingen, bijvoorbeeld met behulp van de functie Leveranciersbetalingen voorstellen. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
-3. Selecteer een van de volgende opties in het veld **Betalingssoort** op dagboekregels voor betalingen die u wilt doen met cheques:
+2. Vul de betalingsdagboekregels in. Zie voor meer informatie [Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md).
+3. Selecteer **Cheque** in het veld **Betalingswijze**.
+4. Selecteer **Automatische cheque** in het veld **Betalingssoort**.
+5. Kies de actie **Cheque afdrukken**.
+6. Vul indien nodig de velden in het venster **Cheque** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Kies de knop **Verzenden naar**, selecteer de optie **PDF-document**, en kies de knop **OK**.
 
-   * **Automatische cheque**: selecteer deze optie als u een cheque wilt afdrukken voor het bedrag op de betalingsdagboekregel. U moet de cheques afdrukken voordat u de dagboekregels kunt boeken. U kunt **Automatische cheque** alleen selecteren als het **Tegenrekeningsoort** of het **Rekeningsoort** **Bankrekening** is.
-   * **Handmatige cheque**: selecteer deze optie als u handmatig een cheque hebt gemaakt en er een bijbehorende chequepost moet worden gemaakt voor dit bedrag. Met deze optie kunt u geen cheques afdrukken vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt **Handmatige cheque** alleen selecteren als het **Tegenrekeningsoort** of het **Rekeningsoort** **Bankrekening** is.
+    De fysieke cheques kunnen nu naar de bank worden gebracht voor verwerking. Boek de betaling zoals vereffend met de leverancier en daarmee betaald in het systeem.
+8. Kies de actie **Boeken**.
 
-     > [!NOTE]  
-     >   U moet computercheques afdrukken voordat u de gerelateerde dagboekregels boekt.
-4. In het geval van automatische cheques kiest u **Cheque afdrukken**.
-5. Vul indien nodig de velden in het venster **Cheque** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-6. Klik op **Afdrukken**.
+Er worden volledig vereffende leveranciersposten en bankposten gemaakt.
 
 > [!NOTE]  
->   Als u cheques in meerdere valuta's van verschillende bankrekeningen wilt afdrukken, moet u de batchverwerking **Cheque afdrukken** voor elke valuta afzonderlijk uitvoeren en de juiste bankrekening opgeven.
+> Als u cheques in meerdere valuta's van verschillende bankrekeningen wilt afdrukken en betalen, moet u de batchverwerking **Cheque afdrukken** voor elke valuta afzonderlijk uitvoeren en de juiste bankrekening opgeven.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Afgedrukte cheques annuleren die niet zijn geboekt
 U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **Ongeldige cheque** in het venster **Betalingsdagboek** te gebruiken.
@@ -58,7 +65,13 @@ Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verkl
 4. Schakel het selectievakje **Cheque alleen nietig verklaren** in.
 5. Kies de knop **OK**.
 
+## <a name="to-view-a-summary-of-posted-checks"></a>Een overzicht weergeven van geboekte cheques
+Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te verifiëren die aan één leverancier zijn betaald, kunt u het rapport **Bank - Cheques Detail** gebruiken.
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bank - Cheques Detail** in en klik vervolgens op de gerelateerde koppeling.
+2. Stel filters als relevant in en kies de knop **Voorbeeld**.
+
 ## <a name="see-also"></a>Zie ook
+[Betalingen uitvoeren](payables-make-payments.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)  

@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 09/05/2017
+ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: c7359c5246ebbc588673409740fdfbad01685308
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfgegevens gereed maken voor Power BI
 Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is gemakkelijk met Power BI en de [!INCLUDE[d365fin](includes/d365fin_md.md)] Content Packs. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
+
+U moet een geldig account bij Dynamics 365 en Power BI hebben. U moet ook [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
 Microsoft heeft de volgende Content Packs gepubliceerd:
 
@@ -41,85 +43,128 @@ De Content Packs zijn vooraf geconfigureerd om te werken met gegevens van het vo
 > [!NOTE]  
 >   U kunt ook uw eigen rapporten en dashboards in Power BI samenstellen op basis van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Zie voor meer informatie [Uw bedrijfsgegevens verbinden met Power BI](across-how-use-financials-data-source-powerbi.md).  
 
-## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Toegang krijgen tot [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
-Als u uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens in Power BI wilt zien, moet u het volgende hebben:  
+## <a name="how-to-connect"></a>Verbinding maken
+1. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
+![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-* Toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Business Central](http://go.microsoft.com/fwlink/?LinkID=759714).  
-* Toegang tot Power BI. Zie voor meer informatie [Power BI](https://powerbi.microsoft.com).
+U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in het rolcentrum naar **Rapportselectie** in het onderdeel Power BI-rolcentrum. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar de servicebibliotheek in Power BI, die ook wordt gefilterd op alleen weergave van inhoudspakketten die verband houden met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-Op de Power BI-site vindt u meer informatie over het [verbinding maken met services door middel van Content Packs voor Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
+2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een venster geopend met de **AppSource** en **Apps voor Power BI-apps**.  
+![Inhoudspakketten kiezen uit online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
+3. Selecteer **Apps** op het tabblad **Apps voor Power BI-apps** en kies het **Microsoft Dynamics 365 Business Central**-inhoudspakket dat u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
+![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+4. Voer wanneer daarom wordt gevraagd de naam van *uw bedrijf* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dit is niet de weergavenaam. De bedrijfsnaam kan op de pagina Bedrijven worden gevonden binnen uw [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-exemplaar.  
+![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+5. Nadat verbinding is gemaakt, worden automatisch een dashboard, rapport en gegevensset geladen in uw Power BI-werkruimte. Wanneer dit is voltooid, worden de tegels bijgewerkt met gegevens uit uw [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-bedrijf.
+![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-Om toegang te krijgen tot de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens in Power BI moet u op de verbindingspagina de volgende gegevens opgeven:
+## <a name="what-now"></a>Wat nu?
 
-| Veld | Omschrijving |
-| --- | --- |
-| **URL van OData-feed** |De OData-URL, zodat Power BI toegang kan krijgen tot de gegevens van uw bedrijf, zoals https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
-| **Verificatiemethode** |Kies **Basis**. |
-| **Gebruikersnaam** |Voer uw naam in zoals deze wordt getoond voor uw account in [!INCLUDE[d365fin](includes/d365fin_md.md)], bijvoorbeeld *Jan Smit*. |
-| **Wachtwoord** |Dit is de webservicetoegangssleutel voor uw gebruikersaccount in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
+- Probeer [een vraag te stellen in het vraag- en antwoordvak](https://docs.microsoft.com/en-us/power-bi/service-q-and-a) boven aan het dashboard.
+- [Wijzig de tegels](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) in het dashboard.  
+- [Selecteer een tegel](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
+- Terwijl uw gegevensset wordt gepland om dagelijks te worden vernieuwd, kunt u het vernieuwingsschema wijzigen of op verzoek proberen te vernieuwen met **Nu vernieuwen**.
 
-Dit betekent dat u twee verschillende gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] moet krijgen: de *OData-URL* en de *webservicetoegangssleutel* voor uw gebruikersaccount.  
+## <a name="system-requirements"></a>Systeemvereisten
+Als u de gegevens [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Power BI wilt importeren, moet u machtigingen hebben voor de webservices die worden gebruikt om gegevens op te halen. De webservices die voor elk inhoudspakket vereist zijn omvatten:
 
-### <a name="getting-the-url"></a>De URL ophalen
-Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] toevoegt aan Power BI, moet u een URL opgeven zodat Power BI toegang kan krijgen tot gegevens uit uw bedrijf. Op de verbindingspagina wordt naar de URL verwezen als **URL van OData-feed** en deze moet de volgende notatie hebben:
+## <a name="role-center-reports"></a>Rolcentrumrapporten
 
-         https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In dit voorbeeld is *mybusiness* de naam van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-service en is *CRONUS US* de naam van het demobedrijf, waarbij *%20* staat voor de spatie in de naam.   
-Als u de URL wilt krijgen, zoekt u in [!INCLUDE[d365fin](includes/d365fin_md.md)] het venster **Webservices** en opent u dit. Dit venster bevat de webservices die momenteel beschikbaar zijn en kunt u de koppeling uit het veld **OData-URL** kopiëren voor een van de standaard OData-webservices.  
+**Microsoft Dynamics 365 Business Central – CRM**
+- Verkoopopportunities
+- Excel-sjabloonweergave Bedrijf
+- Labels van Power BI-rapport
 
-### <a name="getting-the-user-name-and-the-web-service-access-key"></a>De gebruikersnaam en de webservicetoegangssleutel krijgen
-Om gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)] te kunnen gebruiken in Power BI, moet u in het venster **verbinden met Financials** een gebruikersnaam en een wachtwoord opgeven. De gebruikersnaam is uw naam zoals deze voor uw account wordt getoond in [!INCLUDE[d365fin](includes/d365fin_md.md)], zodat Power BI de aanmelding bij [!INCLUDE[d365fin](includes/d365fin_md.md)] kan uitvoeren. Het wachtwoord is de webservicetoegangssleutel die voor uw account is ingesteld in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Microsoft Dynamics 365 Business Central – Finance**
+- PowerBIFinance
+- Excel-sjabloonweergave Bedrijf
+- Labels van Power BI-rapport
 
-Om deze informatie te vinden, zoekt u in [!INCLUDE[d365fin](includes/d365fin_md.md)] het venster **Gebruikers**. Open hierin de kaart voor uw gebruikersaccount. Kopieer op het sneltabblad **Algemeen** de inhoud van het veld **Gebruikersnaam** en kopieer op het sneltabblad **Toegang tot webservice** de inhoud van het veld **Toegangssleutel voor webservice**. Als het veld **Toegangssleutel voor webservice** leeg is, kiest u op het lint **Toegangssleutel voor webservice wijzigen**, kiest u het veld **Sleutel verloopt nooit** en klikt u vervolgens op OK. U kunt vervolgens de sleutel kopiëren.  
+**Microsoft Dynamics 365 Business Central – Jobs**
+- Projectoverzicht
+- Projectplanningsregels
+- Projecttaakregels
+- Labels van Power BI-rapport
+- Excel-sjabloonweergave Bedrijf
 
-## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Gegevens ophalen uit [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Het [!INCLUDE[d365fin](includes/d365fin_md.md)]-dashboard bevat de meeste algemene rapporten die u zult willen gebruiken om uw bedrijf te traceren. De gegevens worden uit uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf opgehaald door middel van webservices die live gegevens uitlezen. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden in het venster **Webservices** de webservices weergegeven die voor u zijn ingesteld.
+**Microsoft Dynamics 365 Business Central - Sales**
+- Verkoopdashboard
+- Excel-sjabloonweergave Bedrijf
+- Labels van Power BI-rapport
 
-> [!NOTE]  
->   Als u de naam van een van deze webservices wijzigt, worden de gegevens niet weergegeven in Power BI.  
-Als u andere gegevens wilt toevoegen aan Power BI, moet u de tabellen zoeken in [!INCLUDE[d365fin](includes/d365fin_md.md)], ze beschikbaar maken als webservices en ze vervolgens toevoegen aan het Content Pack. Dit is een geavanceerd scenario en het is raadzaam te beginnen met de gegevens die al in Power BI beschikbaar zijn.  
+## <a name="list-page-reports"></a>Lijstpaginarapporten
+
+**Microsoft Dynamics 365 Business Central – Customers List**
+- Artikelverkopen per klant
+- Power BI-artikelinkoopoverzicht
+- Power BI-artikelverkoopoverzicht
+- Verkoopdashboard
+- Power BI-klantenoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+- Power BI-overzicht met grootboekbedragen
+- Power BI gebudgetteerd grootboekbedrag
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Items List**
+- Artikelverkopen per klant
+- Power BI-artikelinkooplijst
+- Power BI-artikelverkooplijst
+- Verkoopdashboard
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Jobs List**
+- Power BI-projectenoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+- Power BI-inkoopoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
+- Power BI-verkoopoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+
+**Microsoft Dynamics 365 Business Central – Vendors List**
+- Power BI-artikelinkooplijst
+- Power BI-artikelverkooplijst
+- Power BI-leveranciersoverzicht
+- ExcelTemplateViewCompany
+- Labels van Power BI-rapport
+
+## <a name="web-services"></a>Webservices
+Een eenvoudige manier om de webservices te vinden is te zoeken naar webservices in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. In de lijst moet u ervoor zorgen het vakje Publiceren is gemarkeerd voor de hierboven genoemde webservices.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
-Het dashboard van Power BI gebruikt de gepubliceerde webservices die hierboven worden genoemd en bevat gegevens van het demobedrijf of uw eigen bedrijf als u gegevens importeert uit uw huidige financiële oplossing. Als er echter iets verkeerd gaat, biedt deze sectie een oplossing voor de meest voorkomende problemen.  
+Het dashboard van Power BI gebruikt de gepubliceerde webservices die hierboven worden genoemd en bevat gegevens van het demobedrijf of uw eigen bedrijf als u gegevens importeert uit uw huidige financiële oplossing. Als er echter iets verkeerd gaat, biedt deze sectie een oplossing voor de meest voorkomende problemen.
 
-**"Parametervalidatie mislukt; zorg dat alle parameters geldig zijn"**  
-Als u deze fout ziet deze nadat u de URL van uw [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt ingevoerd, controleert u of aan de volgende vereisten is voldaan:  
+### <a name="incorrect-company-name"></a>Onjuiste bedrijfsnaam  
+Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in plaats van de bedrijfsnaam. Als u de bedrijfsnaam wilt vinden, zoekt u naar **Bedrijven**. Gebruik vervolgens het veld **Naam** wanneer u uw bedrijfsnaam invoert.
 
-* De URL volgt exact dit patroon:
+### <a name="incorrect-user-name-and-password"></a>Onjuiste gebruikersnaam en wachtwoord  
+De gebruikersnaam en het wachtwoord die worden gebruikt om verbinding te maken, zijn hetzelfde als wat wordt gebruikt om verbinding te maken met uw Microsoft Office 365-account.  
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-* Verwijder eventuele tekst na de bedrijfsnaam tussen haakjes  
-* Zorg ervoor dat er geen voorwaartse eindslash aan het eind van de URL staat.  
-* Controleer of het een veilige verbinding is zoals aangegeven door de URL die begint met *https*.  
+De inhoudspakketten vereisen ook dat u een Microsoft-[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] hebt. Zodra u uw aanmeldingsgegevens invoert, worden eventuele Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-tenants waartoe u toegang hebt, automatisch gevonden. Als u geen gelicentieerd of proef Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-account hebt, wordt een foutbericht weergegeven.
 
-**"Aanmelding mislukt"**  
-Als u de fout "Aanmelding mislukt" krijgt wanneer u zich aanmeldt bij het dashboard met uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-referenties, kan dat een van de volgende oorzaken hebben:
-
-* De account die u gebruikt, heeft geen machtigingen om de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens uit uw account te lezen.
-
-    Controleer uw gebruikersaccount in [!INCLUDE[d365fin](includes/d365fin_md.md)] en let erop dat u de juiste webservicetoegangssleutel als wachtwoord gebruikt. Probeer het vervolgens opnieuw.  
-* Het [!INCLUDE[d365fin](includes/d365fin_md.md)]-exemplaar waarmee u verbinding probeert te maken, heeft geen geldig SSL-certificaat. In dit geval ziet u een gedetailleerde foutmelding ("kan geen vertrouwde SSL-relatie tot stand brengen").
-
-    > [!NOTE]  
-    >   Zelfondertekende certificaten worden niet ondersteund.  
-
-**"Oops"**  
-Als u een "Oops"-foutdialoogvenster ziet na het verificatiedialoogvenster, komt dat meestal door een probleem bij het maken van verbinding met de gegevens voor het Content Pack.
-
-* Controleer of de URL het patroon volgt dat eerder is opgegeven:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
-* Een veel voorkomende vergissing is de volledige URL op te geven voor een specifieke webservice:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
-* Of het kan zijn dat u vergeten bent de bedrijfsnaam op te geven:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen
+Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u de foutmelding "De sleutel kwam met geen rijen uit de tabel overeen" krijgen. Geef de juiste bedrijfsnaam op en probeer opnieuw verbinding te maken.
 
 ## <a name="see-also"></a>Zie ook
+[Aan de slag met Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
+[Power BI-basisconcepten](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Bedrijfsinformatie](bi.md)  
 [Aan de slag](product-get-started.md)  
-[Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
+[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
+[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als PowerApps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)   

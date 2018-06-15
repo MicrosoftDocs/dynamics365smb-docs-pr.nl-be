@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 11/17/2017
+ms.date: 04/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fb3a95c63963c2f209dfa8d6c04711a3e5dc8339
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 6b912e8f54fd0e3fb4ac4a1eee3c376c209ffe65
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
@@ -30,16 +30,17 @@ Nadat de betalingen in uw bank worden gemaakt, moet u deze met de relateerde ope
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
-|In het venster **Betalingsdagboek**, dat is gebaseerd op van het dagboek, kunt u betalingen aan leveranciers of werknemers boeken.|[Werken met diversendagboeken](ui-work-general-journals.md)|
-| Gebruik een functie om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
-|Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
-| Geef cheques uit voor leveranciersbetalingen, als afdrukken of computercheques. Cheques nietig verklaren voor of na het boeken. |[Werken met cheques](payables-how-work-checks.md) |
+|Basisfuncties begrijpen van het venster **Betalingsdagboek**, dat is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
+|Boek betalingen aan leveranciers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
+| Gebruik een functie in het venster **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
+| Geef cheques uit voor leveranciersbetalingen of terugbetalingen aan klanten, hetzij als afdrukken, hetzij als automatische cheques. Cheques nietig verklaren voor of na het boeken. |[Chequebetalingen doen](payables-how-work-checks.md) |
+|Doe elektronische betalingen door betalingen te exporteren naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (Electronic Funds Transfer) in Noord-Amerika. |[Elektronische betalingen doen](payables-how-export-payments-bank-file.md)|
+|Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | De leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
+|Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
-|Exporteer betalingen vanuit het venster **Betalingsdagboek** naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (electronic funds transfer) in Noord-Amerika. |[Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)|
-|Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Zie ook
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

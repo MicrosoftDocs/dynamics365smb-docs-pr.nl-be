@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>De extensie Microsoft Pay voor [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ De extensie Microsoft Pay biedt de volgende voordelen:
 - Klantbetalingen komen sneller binnen op uw bankrekening.
 - Klanten kunnen op meer manieren facturen betalen.
 - Microsoft Pay biedt een betrouwbare betalingsservice die klanten liever gebruiken dan dat ze creditcardinformatie op onbekende websites invoeren.
-- Microsoft Pay biedt meerdere manieren om betalingen te verwerken, inclusief creditcardverwerking, WePay, PayPal en andere bronnen.
+- Microsoft Pay biedt meerdere manieren om betalingen te verwerken, inclusief creditcardverwerking, zoals PayPal en Stripe.
 - De Microsoft Pay-koppeling kan automatisch worden ingesloten op elk factuurdocument of de gebruiker kan deze laten opnemen.
 - Aangezien deze functie als extensie wordt samengesteld, hebt u de volledige controle om deze in te schakelen wanneer uw bedrijfsprocessen dit vereisen.
 

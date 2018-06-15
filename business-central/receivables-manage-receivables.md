@@ -10,25 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 08/10/2017
+ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ffd3b31dcef871ceb30eae6a041f68a4972b2cb
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="managing-receivables"></a>Tegoeden beheren
-Een veel voorkomende stap in het financiële ritme is het reconciliëren van bankrekeningen. Hierbij moet u betalingen vereffenen met klant- of leveranciersposten, om verkoopfacturen en inkoopcreditnota's te sluiten.  
+Een veel voorkomende stap in het financiële ritme is het reconciliëren van bankrekeningen. Hierbij moet u inkomende betalingen vereffenen met klant- of leveranciersposten, om verkoopfacturen en inkoopcreditnota's te sluiten als betaald.
+
+Terwijl de meeste klanten in B2B-omgevingen enige tijd na levering betalen, waarbij de geboekte verkoopfacturen open blijven zodat de afdeling Vorderingen deze kan sluiten (vereffenen) wanneer betaling wordt ontvangen, kunnen sommige verkoopfacturen direct worden betaald, bijvoorbeeld met PayPal. Dergelijke facturen worden direct als betaald vereffend wanneer deze worden geboekt en worden daarom niet weergegeven als betalingen die moeten worden verwerkt in Crediteuren. Zie voor meer informatie bijvoorbeeld [Verkopen factureren](sales-how-invoice-sales.md).  
 
 Een van de snelste manieren om in [!INCLUDE[d365fin](includes/d365fin_md.md)] betalingen vast te leggen in het venster **Dagboek betalingsreconciliatie** is door een bankafschriftbestand of -feed te importeren. Betalingen worden vereffend met openstaande leveranciers- of klantenposten, op basis van overeenkomsten in de gegevens tussen de betalingtekst en de informatie in de posten. U kunt de resultaten controleren en wijzigen voordat u het dagboek boekt en bankrekeningposten voor posten sluiten wanneer u het dagboek boekt. De bankrekening wordt gereconcilieerd wanneer alle betalingen zijn vereffend.
 
-Er zijn echter andere plekken in de toepassingen om betalingen te vereffenen en bankrekeningen te reconciliëren:  
+Er zijn andere vensters waarin u betalingen kunt vereffenen of bankrekeningen kunt reconciliëren:
 
-* Het venster **Bankreconciliaties**, waarin u ook posten kunt controleren. Zie [Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.  
-* Het venster **Betalingsregistratie**, waar u betalingen kunt vereffenen en handmatig controleren, die zijn ontvangen als contant, cheque of banktransactie, aan de hand van een gegenereerde lijst met niet-betaalde verkoopdocumenten. Deze functionaliteit is alleen beschikbaar voor verkoopdocumenten.  
-* Het venster **Ontvangstendagboek**, waar u handmatig ontvangsten kunt boeken op de betreffende grootboek- of klantrekening of een andere rekening, door een betalingsregel in te voeren. U kunt de ontvangst of terugbetaling vereffenen met een of meer openstaande posten, voordat u het ontvangstendagboek boekt of via de klantposten.  
+* Het venster **Bankreconciliaties**, waarin u bankrekeningen reconcilieert door geïmporteerde regels van bankrekeningafschriften te koppelen aan uw bankrekeningposten. Hier kunt u ook chequebetalingen reconciliëren. Zie [Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie. Hier kunt u geen betalingen vereffenen.
+* Het venster **Betalingsregistratie**, waar u betalingen handmatig kunt vereffenen die zijn ontvangen als contant, cheque of banktransactie, aan de hand van een gegenereerde lijst met niet-betaalde verkoopdocumenten. Deze functionaliteit is alleen beschikbaar voor verkoopdocumenten. Hier kunt u geen uitgaande betalingen vereffenen en kunt u geen bankrekeningen reconciliëren.
+* Het venster **Ontvangstendagboek**, waar u handmatig ontvangsten kunt boeken op de betreffende grootboek- of klantrekening of een andere rekening, door een betalingsregel in te voeren. U kunt de ontvangst of terugbetaling vereffenen met een of meer openstaande posten, voordat u het ontvangstendagboek boekt of via de klantposten. Hier kunt u geen bankrekeningen reconciliëren.  
 
 Een andere taak bij het beheer van tegoeden is het innen van openstaande saldi, inclusief rentefacturen, en het versturen van aanmaningen. [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt ook manieren om deze taken uit te voeren. Zie voor meer informatie [Openstaande saldi innen](receivables-collect-outstanding-balances.md).  
 

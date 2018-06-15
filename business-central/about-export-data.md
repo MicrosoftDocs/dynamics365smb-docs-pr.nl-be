@@ -13,10 +13,10 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: adc21c24476cc7e4ab9f19ee1b028138bd086a7a
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: dee56e0f56dc3878cbb6de0ba6391b52c46625e7
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
@@ -64,7 +64,7 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 
 ## <a name="see-also"></a>Zie ook
 [Uw abonnement voor [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md) annuleren  
-[Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
+[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Financiën](finance.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 293db25c6ab3ea2a70d9bb1d3e24383dbc0ee5c6
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: ae4695029c3bcb125b533cf4ad089f791ff80680
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
@@ -32,6 +32,6 @@ Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
+[Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

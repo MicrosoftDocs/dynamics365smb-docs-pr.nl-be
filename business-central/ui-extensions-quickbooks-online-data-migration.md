@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f84d2bcccb8876588e7292708ba2cc98fcbe50fb
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -64,6 +64,6 @@ Er zijn enkele dingen die u met name moet doen:
 * Controleer de beginsaldi voor de rekeningen in het grootboek. Online QuickBooks slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
 ## <a name="see-also"></a>Zie ook
-[Bedrijfsgegevens importeren uit andere financiële systemen](upload-data.md)  
+[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 

@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Als u btw-nummers wilt instellen, gaat u als volgt te werk:
 2. Kies het land of de regio, en kies de actie **Btw-nummernotaties**.
 3. Definieer in het veld **Notaties** de notatie door een of meer van de volgende tekens in te voeren:  
 
-    |----|----| | # | Vereist een getal van één cijfer. | | @ | Vereist een letter. De tekst is niet hoofdlettergevoelig. | | ? | Staat elk teken toe. |
+* # <a name="--requires-a-single-digit-number"></a>- Vereist een getal van één cijfer.
+* @ - Vereist een letter. De tekst is niet hoofdlettergevoelig.
+* ? - Staat elk teken toe.
 
     > [!Tip]
     > U kunt andere tekens gebruiken zolang deze aanwezig zijn in de notatie van het land of de regio. Als u bijvoorbeeld een punt of een streepje wilt opnemen in een reeks cijfers, kunt u de notatie definiëren als ##.####.### of @@-###-###.  

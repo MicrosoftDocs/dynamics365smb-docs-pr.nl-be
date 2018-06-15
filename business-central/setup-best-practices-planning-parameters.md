@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6054136dc0722be673b5a7593a371cbec2948e6c
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Aanbevolen procedures instellen: Planningparameters
@@ -26,8 +26,7 @@ Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsk
 |-----------------|-------------------|-------------|  
 |Bestelbeleid||Zie voor meer informatie [Aanbevolen procedures instellen: Bestelbeleid](setup-best-practices-reordering-policies.md).|  
 |Reserveren|Selecteer **nooit** wanneer het artikel is gepland met behulp van een bestelpunt.<br /><br /> Selecteer in de productie **nooit** om het planningssysteem alle aanvragen te laten dekken.<br /><br /> Selecteer **optioneel** voor artikelen die u wilt reserveren voor de belangrijkste klanten.<br /><br /> Selecteer **altijd** voor niet-unieke artikelen, zoals artikelen van het type divers die op specifieke aanvraag binnenkomen.|Reserveringen neutraliseren algemeen het doel van de planning, die bestemd is om vraag en aanbod op elkaar af te stemmen. Daarom mogen items die zijn ingesteld voor planning over het algemeen niet worden gereserveerd.<br /><br /> Als de gebruiker een voorraadaantal voor toekomstige vraag reserveert, wordt de planning verstoord en is bestelpunt mogelijk niet correct. Zelfs als de geplande voorraad met betrekking tot het bestelpunt aanvaardbaar is, zijn de hoeveelheden mogelijk niet beschikbaar vanwege de reservering.|  
-|Dempingsperiode|Instellen met het oog op de flexibiliteit van de leverancier.|Als de leverancier wijzigingen in de laatste orders accepteert, kunt u een langere periode gebruiken. Als de leverancier een vaste planning vereist, moet u uw periode zo veel mogelijk inkorten.<br /><br /> Zie [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md) voor informatie over de algemene instellingen.|  
-|Dempingsaantal||Zie [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md) voor informatie over de algemene instellingen.|  
+|Dempingsperiode|Instellen met het oog op de flexibiliteit van de leverancier.<br /><br /> Met een langere periode kunt u betere klantenservice bieden, maar het leidt ook tot meer herplanningsacties.|Als de leverancier last-minute wijzigingen in orders accepteert, gebruikt u een langere periode, maar wees voorbereid op meer herplanningsacties. Als de leverancier een vaste planning vereist, moet u de periode zo veel mogelijk inkorten.<br /><br /> Zie voor informatie over het veld **Dempingsperiode** [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md).|  
 |Inclusief voorraad|Altijd selecteren wanneer u het Lot-per-Lot bestelbeleid gebruikt.|Niet alleen selecteren in speciale situaties, zoals wanneer voorraadartikelen niet verkoopbaar zijn.|  
 |Veiligheidstijd|Ingesteld tussen 1D en 6D<br /><br /> Stel een veiligheidstijd in van ten minste één dag om ervoor te zorgen dat de goederen beschikbaar zijn op de dag voordat ze nodig zijn.<br /><br /> Als u een nieuwe leverancier gebruikt, stel dan een langere tijd in totdat hun leveringsprestaties bekend zijn.<br /><br /> Definieer langere levertijden voor kritieke onderdelen in de productie.|Leveringen die door het systeem gepland zijn om voorraaduitputting te voorkomen, worden geleverd op de dag dat de uitputting zich voordoet. Dit kan verscheidene uren te laat zijn indien, bijvoorbeeld de vraag 's ochtends nodig is en de levering in de namiddag gebeurt. **Opmerking:** het veld **Veiligheidstijd** gebruikt de basisagenda. 14D is dus niet noodzakelijkerwijs twee weken.|  
 |Veiligheidsvoorraad|Gebruiken voor artikelen met grote schommelingen in de vraag.<br /><br /> Gebruiken in de productie voor kritieke onderdelen.<br /><br /> Gebruiken voor artikelen die onder serviceovereenkomsten vallen.|Als het veld **Bestelpunt** niet is ingevuld, werkt de veiligheidsvoorraad ook als bestelpunt.|  

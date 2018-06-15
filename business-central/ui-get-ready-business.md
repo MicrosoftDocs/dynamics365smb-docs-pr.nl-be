@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
@@ -26,7 +26,7 @@ Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar het vens
 In het rolcentrum vindt u op de navigatiebalk bovenin het menu **Instellingen en extensies**. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
 
 > [!NOTE]  
->   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Essentieel**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Essentieel**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
 In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het volgende:
 

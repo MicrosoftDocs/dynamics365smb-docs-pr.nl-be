@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
@@ -76,7 +76,7 @@ Om een rationeel voorzieningenplan te verkrijgen, stemt een planner planningspar
 |---------------------------------|---------------------------------------|  
 |**Herplanningsperiode**|Dit veld wordt gebruikt om te bepalen of de planningsboodschap een bestaande order opnieuw moet plannen, of moet annuleren en een nieuwe order moet maken. De bestaande order wordt opnieuw gepland binnen één herplanningsperiode vóór de huidige voorziening en tot één herplanningsperiode na de huidige voorziening.|  
 |**Lotaccumulatieperiode**|Met het bestelbeleid Lot-for-Lot wordt dit veld gebruikt om meerdere voorzieningen samen te voegen in één voorzieningenorder. Vanaf de eerste geplande voorziening worden alle voorzieningsvereisten in de volgende lotaccumulatieperiode samengevoegd in één voorziening, die wordt geplaatst op de datum van de eerste voorziening. Vraag buiten de lotaccumulatieperiode wordt niet gedekt door deze voorziening.|  
-|**Dempingsperiode**|Dit veld wordt gebruikt om het op kleine schaal opnieuw plannen van bestaande voorzieningen te voorkomen. Wijzigingen vanaf de voorzieningsdatum tot aan één dempingsperiode vanaf de voorzieningsdatum genereren geen planningsboodschappen.<br /><br /> Hierdoor is een positieve delta tussen de voorgestelde nieuwe voorzieningsdatum en de oorspronkelijk voorzieningsdatum altijd groter dan de dempingsperiode.|  
+|**Dempingsperiode**|Dit veld wordt gebruikt om het op kleine schaal opnieuw plannen van bestaande voorzieningen te voorkomen. Wijzigingen vanaf de voorzieningsdatum tot aan één dempingsperiode vanaf de voorzieningsdatum genereren geen planningsboodschappen.<br /><br /> Met de dempingsperiode wordt een periode opgegeven waarbinnen u niet wilt dat het planningssysteem voorstelt bestaande aanvulorders opnieuw en eerder te plannen. Dit beperkt het aantal onbeduidende herplanningen van bestaande leveringen op een later tijdstip als de opnieuw geplande datum binnen de dempingsperiode valt.<br /><br /> Hierdoor is een positieve delta tussen de voorgestelde nieuwe voorzieningsdatum en de oorspronkelijke voorzieningsdatum altijd groter dan de dempingsperiode.|  
 
 De timing van de herplanningsperiode, dempingsperiode en lotaccumulatieperiode is gebaseerd op een voorzieningsdatum. Het tijdsinterval wordt gebaseerd op de begindatum van de planning, zoals in de onderstaande afbeelding is weergegeven.  
 

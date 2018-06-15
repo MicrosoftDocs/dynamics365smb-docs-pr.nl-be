@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -28,29 +28,29 @@ De sneltoetsen worden ondersteund door de meeste webbrowsers, maar het gedrag ka
 
 De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.
 
+De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is; enkele sneltoetsen verschillen echter voor macOS. Deze zijn tussen haakjes vermeld in de tabellen in de volgende secties.
+
 ##  <a name="Keyboard"></a> Algemene sneltoetsen
-De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van verschillende elementen van een pagina, zoals acties, vervolgkeuzelijsten, opzoekacties, enzovoort. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen. 
+De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van verschillende elementen van een pagina, zoals acties, vervolgkeuzelijsten, opzoekacties, enzovoort. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
 
 |Druk op deze toetsen|Actie|  
 |----------------|-----------|  
-|Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.| 
+|Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld knoppen, velden of lijstkoppen.|   
 |Enter|Het (besturings)element met focus inschakelen of openen.|   
 |Alt+Pijl-omlaag|Een vervolgkeuzelijst openen of een waarde voor een veld opzoeken.|    
 |Alt+Pijl rechts|De transacties bekijken die in een berekende waarde in een veld hebben geresulteerd.|  
+|Esc|Sluit de huidige pagina of vervolgkeuzelijst.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
 De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebruiken. De sneltoetsactie is afhankelijk van of de pagina in de lijstweergave of de tegelweergave wordt weergegeven.
 
-De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is; enkele sneltoetsen verschillen echter voor macOS en Windows. Deze zijn ook tussen haakjes vermeld in de tabel.
+> [!Note]
+> In de tabel die volgt, verwijst de term *actieveld* naar een veld waarmee u iets kunt doen, bijvoorbeeld een waarde wijzigen of koppelen met een andere pagina. Over het algemeen slaan de sneltoetsen velden in de lijst over die informatie weergeven die u niet kunt wijzigen (met andere woorden: velden die alleen-lezen zijn).
 
->[!Note]
->In de tabel die volgt, verwijst de term *actieveld* naar een veld waarmee u iets kunt doen, bijvoorbeeld een waarde wijzigen of koppelen met een andere pagina. Over het algemeen slaan de sneltoetsen velden in de lijst over die informatie weergeven die u niet kunt wijzigen (met andere woorden: velden die alleen-lezen zijn).
-
-
-|Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een lijstweergave |Opmerkingen|
+|Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |Opmerkingen|
 |-----------------|-------|-------|-------|
 |Pijl omhoog|Naar het veld in de bovenliggende rij in dezelfde kolom gaan.| In dezelfde kolom naar de tegel in de rij erboven gaan.  |  | 
 |Pijl-omlaag|In dezelfde kolom naar het veld in de rij eronder gaan. |In dezelfde kolom naar de tegel in de rij eronder gaan. | |
@@ -75,8 +75,25 @@ De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows 
 |Shift+Page Down<br />(Shift+Fn+pijl omlaag)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing||
 |Ctrl+Enter|Focus naar het volgende element buiten de lijst verplaatsen.|Focus naar het volgende element buiten de lijst verplaatsen.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Toetsenbordsneltoetsen in de agenda (datumkiezer)
+Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
+
+|Druk op deze toetsen<br />(in macOS)|Actie|
+|-----------------|-------|
+|Page up|Naar de vorige maand gaan.|  
+|Page Down|Naar de volgende maand gaan.|
+|Ctrl+Home|De agenda openen als deze is gesloten.|
+|Ctrl+Home<br />(Cmd+Home)|Naar de huidige maand, huidige dag gaan.|
+|Ctrl + pijl-links<br />(Cmd+Pijl links)|Naar de vorige dag gaan.|
+|Ctrl + pijl-rechts<br />(Cmd+Pijl rechts)|Naar de volgende dag gaan.|
+|Ctrl + pijl-omhoog<br />(Cmd+Pijl omhoog)|Naar de vorige week, dezelfde dag van de week gaan.|
+|Ctrl + pijl-omlaag<br />(Cmd+Pijl omlaag)|Naar de volgende week, dezelfde dag van de week gaan.|
+|Enter|De datum met de focus selecteren.|
+|Ctrl+End<br />(Cmd+End)|De agenda sluiten en de huidige datum verwijderen.|
+|Esc|De agenda sluiten zonder een selectie; huidige datum behouden.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

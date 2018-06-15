@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a44fccc118d5a52877309f1bf5e635e0f76068c9
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 45943ef97eee9d6bf24fd679e5dbbab96f5177f8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
@@ -45,6 +45,6 @@ U kunt nu voorraadartikelen tussen twee vestigingen overbrengen. Zie voor meer i
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
+[Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

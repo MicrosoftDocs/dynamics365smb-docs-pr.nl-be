@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Business Central aanpassen
@@ -25,7 +25,7 @@ Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw coll
 | Wat kunt u doen    |  Description  |  Who ziet de wijzigingen  |  Meer informatie  |
 |-----|---------------|---------|-------|
 |Een extensie installeren|De extensies zijn als kleine toepassingen die functionaliteit toevoegen, gedrag wijzigen, toegang bieden tot nieuwe online services en meer. Zo verschaft Microsoft een extensie die integratie met PayPal Payments Standard biedt.|Alle gebruikers in alle bedrijven|[Aanpassen met behulp van extensies](ui-extensions.md)|
-|De ervaring wijzigen|De instelling **Ervaring** bepaalt hoeveel van de functionaliteit in de gebruikersinterface wordt weergegeven. Kies tussen Basis, Essentieel, en Premium.|Alle gebruikers in een specifiek bedrijf.|[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)|
+|Wijzigen welke gebruikersinterface-elementen zichtbaar zijn.|De instelling **Ervaring** bepaalt hoeveel van de functionaliteit in de gebruikersinterface wordt weergegeven. Kies tussen Basis, Essentieel, en Premium.|Alle gebruikers in een specifiek bedrijf.|[Wijzigen welke functies worden weergegeven](ui-experiences.md)|
 |Uw werkruimte personaliseren|De lay-out en de inhoud van uw pagina´s wijzigen|Alleen u.|[Het personaliseren van uw werkruimte](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Zie ook

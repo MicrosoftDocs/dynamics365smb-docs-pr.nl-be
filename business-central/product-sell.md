@@ -13,10 +13,10 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 75f4b4e38af350a054c5b04e703c98ccc5ec4756
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: e47877a6cf6e7d9b976b8624786e725b87b0ee1f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -33,6 +33,6 @@ Als u meer wilt weten over hoe u een reseller voor [!INCLUDE[d365fin](includes/d
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
-[Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
+[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
 

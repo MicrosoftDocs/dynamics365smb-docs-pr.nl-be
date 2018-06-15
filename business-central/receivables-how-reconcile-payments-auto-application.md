@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 03/29/2017
+ms.date: 05/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75b030e6fc1a2cc5cf3c1068337dfd8c1c905543
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
 In het venster **Dagboek betalingsreconciliatie** worden inkomende of uitgaande betalingen opgegeven die als transacties zijn vastgelegd op uw online bankrekening en die u kunt vereffenen met de gerelateerde openstaande, klant-, leveranciers- en bankrekeningposten. De dagboekregels worden ingevuld door een bankafschrift als een bankfeed of bestand te importeren.
+
+> [!NOTE]
+> Het venster biedt automatische afstemmingsfunctionaliteit waarmee betalingen worden vereffend met de gerelateerde open posten op basis van een afstemming van tekst op een bankafschriftregel (dagboekregel) met tekst in een of meer open posten. U kunt de voorgestelde automatische vereffeningen overschrijven en u kunt ervoor kiezen helemaal geen automatische vereffening te gebruiken. Zie stap 7 voor meer informatie.
 
 Een betalingsreconciliatiedagboek is gerelateerd aan één bankrekening in [!INCLUDE[d365fin](includes/d365fin_md.md)] waarmee de online bankrekening wordt weergegeven waarin de betalingstransacties worden vastgelegd. Eventuele open bankrekeningposten die gerelateerd zijn aan de vereffende klant- of leveranciersposten, worden gesloten wanneer u de actie **Betalingen boeken en bankrekening reconciliëren** kiest. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt.
 
@@ -30,14 +33,14 @@ Met de actie **Tekst afstemmen op rekening** kunt u toewijzingen instellen tusse
 
 Er bestaat vergelijkbare functionaliteit om te grote bedragen op de dagboekregels voor betalingreconciliatie op ad-hocbasis te reconciliëren. Zie [Betalingen reconciliëren die niet kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md) voor meer informatie.
 
-U gebruikt de functie **Automatisch vereffenen** automatisch wanneer u een bankbestand of -feed met betalingstransacties importeert of wanneer u de functie activeert, om betalingen te vereffenen met de gerelateerde openstaande posten op basis van een afstemming van gegevens op een dagboekregel met gegevens in een of meer openstaande posten.
+U gebruikt de functie **Automatisch vereffenen** automatisch wanneer u een bankbestand of -feed met betalingstransacties importeert of wanneer u de functie activeert, om betalingen te vereffenen met de gerelateerde openstaande posten op basis van een afstemming van tekst op een bankafschriftregel (dagboekregel) met tekst in een of meer openstaande posten.
 
 Op dagboekregels waar een betaling automatisch is vereffend met een of meer openstaande posten, heeft het veld **Zekerheid afstemming** een waarde tussen Laag en Hoog om de kwaliteit aan te geven van de gegevensafstemming waarop de voorgestelde betalingsvereffening is gebaseerd. Bovendien worden de velden **Rekeningtype** en **Rekeningnr.** gevuld met informatie over de klant of leverancier waarmee de betaling wordt vereffend. Als u geen tekst-naar-rekening toewijzing hebt ingesteld, kan de automatische vereffening leiden tot de afstemmingszekerheidswaarde **Hoog - Tekst-aan-rekening toewijzing**.
 
 Voor elke dagboekregel in het venster **Dagboek betalingsreconciliatie** kunt u het venster **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Betalingen controleren of vereffenen na automatische vereffening](receivables-how-review-apply-payments-auto-application.md) voor meer informatie.
 
 > [!NOTE]  
->   U kunt het importeren van banktransacties starten op het moment dat u het venster **Betalingsreconciliatiedagboek** opent voor een bestaand betalingsreconciliatiedagboek in het venster **Betalingsreconciliatiedagboeken**. In de volgende procedure wordt beschreven hoe u banktransacties importeert in het venster **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
+> U kunt het importeren van banktransacties starten op het moment dat u het venster **Betalingsreconciliatiedagboek** opent voor een bestaand betalingsreconciliatiedagboek in het venster **Betalingsreconciliatiedagboeken**. In de volgende procedure wordt beschreven hoe u banktransacties importeert in het venster **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik vervolgens op de gerelateerde koppeling.
@@ -57,7 +60,11 @@ Voor elke dagboekregel in het venster **Dagboek betalingsreconciliatie** kunt u 
     Als u klaar bent met de handmatige vereffening, bevat het veld **Zekerheid afstemming** op de dagboekregel die u handmatig hebt verwerkt, **Goedgekeurd**.
 8. Selecteer een niet-vereffende dagboekregel voor een periodieke ontvangst of periodieke kosten, zoals een aankoop van autobenzine, en kies vervolgens de actie **Tekst afstemmen op rekening**. Zie [Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
 9. Wanneer u de toewijzing van betalingstekst aan rekeningen hebt voltooid, kiest u de actie **Handmatig vereffenen**.
-10. Wanneer u tevreden bent dat alle betalingen op de dagboekregels correct worden vereffend of zijn ingesteld op direct boeken, kiest u de actie **Boeken**.
+10. Wanneer u tevreden bent dat alle betalingen op de dagboekregels correct worden vereffend of zijn ingesteld op direct boeken, kiest u de actie **Boeken** en kiest u vervolgens een van de opties:
+
+    - **Betalingen boeken en bankrekening reconciliëren** - Om de betalingen te boeken als vereffend en ook de gerelateerde bankposten te sluiten als gereconcilieerd.
+    - **Alleen betalingen boeken** - Om alleen de betalingen te boeken als vereffend, maar de gerelateerde bankrekeningposten open te laten. Vereist dat u de bankrekening afzonderlijk reconcilieert, bijvoorbeeld: zie voor meer informatie [Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md).
+    - **Testrapport** - Als u het resultaat van de boeking wilt controleren voordat u boekt. Het rapport **Bankrekeningafschrift** wordt geopend en bevat dezelfde velden als de onderzijde van het venster **Betalingsreconciliatiedagboek**.
 
 Als u het dagboek van de betalingsreconciliatie boekt, worden de vereffende openstaande-postennota's gesloten en worden de gerelateerde klant-, leverancier- of grootboekrekeningen bijgewerkt. Voor betalingen op dagboekregels die zijn gebaseerd op tekst-aan-rekening toewijzing, worden de opgegeven klant-, leveranciers- en grootboekrekeningen bijgewerkt. Voor alle dagboekregels worden bankposten gemaakt. Als u de actie **Betalingen boeken en bankrekening reconciliëren** kiest, worden eventuele open bankrekeningposten gesloten die zijn gerelateerd aan de vereffende klant- of leveranciersposten. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt.
 

@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 06/02/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfc83194a1010e3ac628484952bd0c6b1046481b
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: dd3068cc1af6a16a43f982d3b48cdec42a7d7eca
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Bankrekeningen beheren
-U moet met vaste intervallen uw bankposten reconciliëren in [!INCLUDE[d365fin](includes/d365fin_md.md)] met de gerelateerde banktransacties in bankrekeningen bij uw bank, en vervolgens het saldo boeken naar uw bankrekening. U kunt deze taak uitvoeren als onderdeel van de verwerking van betalingen op een bankafschrift in het **Betalingsreconciliatiedagboek**. U kunt de taak ook apart van betalingsverwerking uitvoeren in het venster **Bankreconciliatie**, dat chequeposten ondersteunt. In beide gevallen vult u de vensters in door het bankafschrift te importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+U moet met vaste intervallen uw bankposten reconciliëren in [!INCLUDE[d365fin](includes/d365fin_md.md)] met de gerelateerde banktransacties in bankrekeningen bij uw bank, en vervolgens het saldo boeken naar uw bankrekening. U kunt deze taak uitvoeren als onderdeel van de verwerking van betalingen op een bankafschrift in het **Betalingsreconciliatiedagboek**. U kunt de taak ook apart van de betalingsverwerking uitvoeren in het venster **Bankreconciliatie**, waar u bankafschriftregels in het linkerdeelvenster reconcilieert met uw interne bankposten in het rechterdeelvenster. In beide vensters kunt u de bankafschriftinformatie invullen door een bestand of een feed te importeren en kunt u automatische afstemmingsvoorstellen gebruiken.
+
+> [!NOTE]  
+> In Noord-Amerikaanse versies kunt u bankreconciliatie ook uitvoeren in het venster **Werkblad bankreconciliatie**, dat geschikter is voor cheques en borgsommen, maar geen importeren van bankafschriftbestanden biedt. Als u dit venster wilt gebruiken in plaats van het venster **Bankreconciliatie**, schakelt u het veld **Bankreconciliatie met automatische afstemming** uit in het venster **Boekhoudinstellingen**. Zie voor meer informatie het gedeelte "Bankrekeningen reconciliëren" onder Lokale functionaliteit voor de Verenigde Staten.
 
 Soms moet u bedragen overboeken tussen bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] om transfers bij uw bank weer te geven. U voert deze taak in het venster **Dagboek** op verschillende manieren uit, afhankelijk van de valuta van de gelden.
 

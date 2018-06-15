@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Basisinstellingen wijzigen
-In het venster **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In het venster **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
 
 ## <a name="role-center"></a>Rolcentrum
-Het rolcentrum vertegenwoordigt de startpagina en is ontworpen voor de vereisten van de rol. Het rolcentrum biedt een overzicht van het bedrijf, met informatie, taken en prioriteiten van uw rol.
+Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen voor de vereisten van een specifieke rol in een organisatie. Afhankelijk van uw rol krijgt u in het Rolcentrum een overzicht van het bedrijf, uw afdeling of uw persoonlijke taken. Het helpt u ook navigeren naar uw dagelijkse taken en werk te zoeken dat aan u is toegewezen.
 
-Langs de bovenkant van het rolcentrum ziet u een navigatiebalk die u gemakkelijk toegang biedt tot veelvoorkomende entiteiten voor de rol, zoals klanten, leveranciers, artikelen, enzovoort.
+-   Bovenaan kunt u met de navigatie schakelen tussen klanten, leveranciers, artikelen en andere belangrijke lijsten met informatie. Op dezelfde manier kunt u met acties taken starten, zoals een nieuwe verkoopfactuur maken, direct vanuit het Rolcentrum.
 
-Wat in het hoofdinhoudsgebied wordt weergegeven, is afhankelijk van het specifieke rolcentrum. In de meeste rolcentra vindt u bijvoorbeeld de activiteitentegels met huidige gegevens. Er kan op worden geklikt of getikt voor gemakkelijke toegang tot het geselecteerde document. KPI's (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. Met sommige rolcentra kunt u een overzicht maken van favoriete entiteiten, zoals klanten en leveranciers, of de Rapportinbox weergeven.
+-   In het midden vindt u **Activiteiten**. Activiteiten tonen huidige gegevens en er kan op worden geklikt of getikt om meer gedetailleerde informatie weer te geven. KPI's (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met favoriete klanten maken op de startpagina voor accounts met wie u vaak zaken doet of aan wie u speciale aandacht moet geven.
 
 ### <a name="to-change-role-center"></a>Het rolcentrum wijzigen
 Het standaardrolcentrum is **Bedrijfsmanager**, maar u kunt een ander rolcentrum selecteren dat beter aan uw behoeften voldoet.
@@ -55,10 +55,16 @@ De standaardwerkdatum is meestal de datum van vandaag. U moet de werkdatum mogel
 ## <a name="region"></a>Regio
 De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.   
 
+
+## <a name="language"></a>Taal
+Wijzigt de weergavetaal. Dit veld wordt alleen weergegeven als uit meerdere talen kan worden gekozen. 
+
+De aanvankelijke taal wordt bepaald door de beheerder of door uw browserinstellingen als u zich aanmeldt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. De taal die u instelt, wordt op alle apparaten gebruikt waarop u zich aanmeldt, zoals een telefoon of tablet. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Wijzigen wanneer ik berichten ontvang
 Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Zie voor meer informatie [Slimme berichten](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)  
+[Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 

@@ -1,22 +1,20 @@
 ---
-title: Werken met rapportageschema's| Microsoft Docs
+title: "Financiële rapporten maken met rapportageschema's"
 description: "Beschrijft hoe u rapportageschema's gebruikt om diverse weergaven en lijsten te maken om financiële prestatiegegevens te analyseren."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Werken met rekeningschema's
@@ -72,7 +70,98 @@ U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin gr
 8. Stel op het sneltabblad **Dimensiefilters** het begrotingsfilter in met de gewenste filternaam.  
 9. Kies de knop **Ok**.  
 
-Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.
+Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Boekingsperioden vergelijken met behulp van periodeformules
+Uw rapportageschema kan de resultaten vergelijken van verschillende boekingsperioden, zoals deze maand vergeleken met dezelfde maand vorig jaar. Daarvoor voegt u een kolom met het veld **Periodevergelijkingsformule** toe en stelt u dat veld in op een periodeformule.  
+
+Een boekhoudperiode hoeft niet gelijk te zijn aan een agendaperiode, maar ieder boekjaar moet hetzelfde aantal boekhoudperioden hebben, zelfs wanneer de boekhoudperioden onderling in lengte verschillen.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de periodeformule om het bedrag uit de vergelijkingsperiode te berekenen in verhouding tot de periode die wordt voorgesteld door het datumfilter in de rapportaanvraag. De vergelijkingsperiode is gebaseerd op de begindatum van het datumfilter. Dit zijn de afkortingen voor periodenpecificaties:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Afkorting</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>P</p></td>
+<td><p>Periode</p></td>
+</tr>
+<tr class="even">
+<td><p>LP</p></td>
+<td><p>Laatste periode van een boekjaar, half jaar of kwartaal.</p></td>
+</tr>
+<tr class="odd">
+<td><p>HP</p></td>
+<td><p>Huidige periode van een boekjaar, half jaar of kwartaal.</p></td>
+</tr>
+<tr class="even">
+<td><p>BJ</p></td>
+<td><p>Boekjaar. Met BJ[1..3] wordt bijvoorbeeld het eerste kwartaal van het huidige boekjaar aangeduid.</p></td>
+</tr>
+</tbody>
+</table>
+
+Voorbeelden van formules:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formule</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;Leeg&gt;</p></td>
+<td><p>Huidige periode</p></td>
+</tr>
+<tr class="even">
+<td><p>-1P</p></td>
+<td><p>Vorige periode</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1BJ[1..LP]</p></td>
+<td><p>Volledig vorig boekjaar</p></td>
+</tr>
+<tr class="even">
+<td><p>-1BJ</p></td>
+<td><p>Huidige periode in vorig boekjaar</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1BJ[1..3]</p></td>
+<td><p>Eerste kwartaal van vorig boekjaar</p></td>
+</tr>
+<tr class="even">
+<td><p>-1BJ[1..HP]</p></td>
+<td><p>Van het begin van het vorige boekjaar tot en met de huidige periode in het vorige boekjaar</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1BJ[HP..LP]</p></td>
+<td><p>Van de huidige periode in het vorige boekjaar tot en met de laatste periode van het vorige boekjaar</p></td>
+</tr>
+</tbody>
+</table>
+
+Als u de berekening volgens normale tijdsperioden wilt uitvoeren, moet u in plaats daarvan een formule in het veld **Datumvergelijkingsformule** invoeren.
+
+> [!NOTE]
+> Het is niet altijd transparant welke perioden u vergelijkt omdat u een datumfilter op een rapport kunt instellen dat andere datums omvat dan de boekingsperioden die worden gereflecteerd in de gegevens in het rekeningschema. U maakt bijvoorbeeld een rapportageschema waarin u deze periode wilt vergelijken met dezelfde periode vorig jaar, dus u stelt het veld **Filter van vergelijkingsdatumperiode** in op *-1BJ*. Vervolgens voert u het rapport uit op 28 februari en stelt u het datumfilter in op januari en februari. Daardoor vergelijkt het rapportageschema januari en februari dit jaar met januari vorig jaar, wat de enige voltooide boekingsperiode van de twee voor vorig jaar is.  
+
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  
