@@ -46,5 +46,5 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

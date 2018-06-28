@@ -170,5 +170,5 @@ Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

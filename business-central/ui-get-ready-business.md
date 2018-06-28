@@ -68,5 +68,5 @@ Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe 
 [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

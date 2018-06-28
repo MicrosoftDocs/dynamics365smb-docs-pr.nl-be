@@ -49,5 +49,5 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

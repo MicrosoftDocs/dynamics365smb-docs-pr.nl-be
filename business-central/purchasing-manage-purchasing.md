@@ -51,5 +51,5 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
