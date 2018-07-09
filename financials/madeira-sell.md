@@ -1,38 +1,10 @@
 ---
-title: Finance and Operations, Business edition verkopen | Microsoft Docs
-description: Kom erachter hoe u uw zakelijke mogelijkheden kunt vergroten en een Microsoft-partner en reseller van Finance and Operations, Business edition wordt.
-services: project-madeira
-documentationcenter: 
-author: edupont04
-ms.service: dynamics365-financials
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: microsoft partner
-ms.date: 06/02/2017
-ms.author: edupont
+redirect_url: /dynamics365/business-central/product-sell
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
+ms.sourcegitcommit: 2cce334e74ebcf37d53224d1b3246b2d0f9bd0fb
+ms.openlocfilehash: e3f73894974f7711a0d230dacaa4bcf2eb29eba1
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
-# <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-
-Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analyse, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Finance and Operations, Business edition een nieuwe kans voor u.   
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
-
-## <a name="get-started"></a>Aan de slag
-Aanmelden voor de [!INCLUDE[d365fin](includes/d365fin_md.md)]-preview op [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  
-Feedback verzenden op [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
-Als u meer wilt weten over hoe u een reseller voor [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt, neemt u contact op met ons via [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
-
-## <a name="see-also"></a>Zie ook
-[Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Bedrijfsgegevens migreren uit andere financiële systemen](upload-data.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
 
