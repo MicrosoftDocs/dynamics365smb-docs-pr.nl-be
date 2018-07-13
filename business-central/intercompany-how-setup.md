@@ -1,8 +1,6 @@
 ---
 title: IC-transactieboeking instellen| Microsoft Docs
 description: Maak uw IC-leveranciers en -klanten als zogenaamde IC-partners en stel een IC-rekeningschema in.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Intercompany instellen
@@ -52,19 +50,19 @@ Als uw bedrijf het bovenliggende bedrijf is en het definiërende IC-rekeningsche
 Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met het gemeenschappelijke IC-rekeningschema, volgt u de procedure 'Het IC-rekeningschema importeren'.  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Het definiërende IC-rekeningschema instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in het venster **IC-rekeningschema** elke rekening in op een regel in het venster.  
 3. Als uw IC-rekeningschema identiek is aan uw normale rekeningschema of erop lijkt, kunt u het venster automatisch invullen door de actie **Kopiëren uit rekeningschema** te kiezen. U kunt de nieuwe regels zo nodig bewerken.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Het IC-rekeningschema exporteren
 Als u uw IC-partners wilt toestaan het rekeningschema te importeren, moet u het naar een bestand exporteren.      
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **IC-rekeningschema** de actie **Exporteren** en kies de knop **Opslaan**.
 3. Geef de bestandsnaam en de locatie op waar u het XML-bestand wilt opslaan en klik vervolgens op **Opslaan**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Het IC-rekeningschema importeren  
 Wanneer een bestand bestaat voor het definiërende IC-rekeningschema, kunnen IC-partners het importeren om ervoor te zorgen dat ze dezelfde rekeningen hebben.  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **IC-rekeningschema** de actie **Importeren**.  
 3. Selecteer de bestandsnaam en de locatie van het XML-bestand en klik op **Openen**.  
 
@@ -75,7 +73,7 @@ Wanneer u het IC-rekeningschema hebt gedefinieerd of geïmporteerd dat u en uw I
 
 Als rekeningen in het IC-rekeningschema dezelfde rekeningnummers hebben als de corresponderende rekeningen in het rekeningschema van uw bedrijf, kunt u de rekeningen automatisch koppelen.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de regels die u automatisch wilt koppelen en kies vervolgens de actie **Koppelen aan schema met hetzelfde nr.**  
 3. Voor elke IC-grootboekrekening waarnaar die niet automatisch is gekoppeld, vult u het veld **Toegewezen grootboekrek.nr.** in.  
 
@@ -96,7 +94,7 @@ Als uw bedrijf het hoofdbedrijf is en de definiërende set IC-dimensies heeft di
 Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met de IC-dimensies die uw groep gaat gebruiken als algemene referentie, volgt u de procedure: 'IC-dimensies importeren'.
 
 ### <a name="to-define-the-intercompany-dimensions"></a>IC-dimensies definiëren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-dimensies** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-dimensies** in en kies de gerelateerde koppeling.  
 2. Voer elke dimensie in op een regel in het venster **IC-dimensies**.
 
     Als uw IC-dimensies lijken op of identiek zijn aan de dimensies van uw bedrijf, kunt u het venster automatisch invullen door de functie **Kopiëren van dimensies** te gebruiken. Vervolgens kunt u de resulterende regels bewerken.  
@@ -105,8 +103,8 @@ Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met de IC
 
 ### <a name="to-import-the-intercompany-dimensions"></a>De IC-dimensies importeren  
 Wanneer een bestand bestaat voor de definiërende IC-dimensies, kunnen IC-partners het importeren om ervoor te zorgen dat ze dezelfde dimensies hebben.  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-dimensies** in en klik vervolgens op de gerelateerde koppeling.  
-2. Kies in het venster **IC-rekeningschema** de actie **Importeren**.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-dimensies** in en kies de gerelateerde koppeling.  
+2. Kies in het venster **IC-dimensies** de actie **Importeren**.  
 3. Geef de bestandsnaam en de locatie van het XML-bestand op en klik op **Openen**.  
 
 De regels in het venster **IC-dimensies** en het venster **IC-dimensiewaarden** worden geïmporteerd.  
@@ -116,7 +114,7 @@ Wanneer u de dimensies hebt gedefinieerd of geïmporteerd die u en uw IC-partner
 
 Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in de lijst met dimensies van uw bedrijf, kunt u de dimensies automatisch koppelen en vervolgens de rekeningen automatisch toewijzen.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-dimensies** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-dimensies** in en kies de gerelateerde koppeling.
 2. Selecteer in het venster **IC-dimensies** de regels die u automatisch wilt koppelen en kies vervolgens de actie **Koppelen aan dim. met dezelfde code**.
 3. Voor elke IC-dimensie die niet automatisch wordt gekoppeld, vult u het veld **Toewijzing dimensiecode** in.
 4. Kies de actie **IC-dimensiewaarden**.

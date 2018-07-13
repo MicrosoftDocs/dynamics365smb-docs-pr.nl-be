@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 2e5f27c156fd02641d65a4653c51553664c2322c
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 97116be5c1a0fbbef2564120ac95030f488aafbc
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="invoice-sales"></a>Verkopen factureren
@@ -28,7 +28,7 @@ Er zijn enkele scenario's waarin u een verkooporder moet gebruiken in plaats van
 
 Wat betreft alle andere aspecten werken verkooporders en verkoopfacturen op dezelfde wijze. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
-U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur wanneer er een overeenkomst is. Zie voor meer informatie [Aanbiedingen doen](sales-how-make-offers.md).
+U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur wanneer er een overeenkomst is. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).
 
 Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u ook het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
 

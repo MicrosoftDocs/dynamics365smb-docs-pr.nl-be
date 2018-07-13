@@ -1,29 +1,29 @@
 ---
 title: Aan de slag | Microsoft Docs
 description: Leer meer over de mogelijkheden en werkscenario's in Business Central, een beheeroplossing voor kleine en middelgrote organisaties.
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem. Als u hulp wilt met uw abonnement te helpen, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
 Wanneer u zich aanmeldt voor het [!INCLUDE[d365fin](includes/d365fin_md.md)]-voorbeeld, krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf uw eigen verkoopdocumenten maken of een bankrekening instellen.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] leren kennen
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. In het demonstratiebedrijf wordt aan de hand van visuele hulpen de kernfunctionaliteit uitgelegd, en kunt u dagelijkse taken uitproberen zoals het maken van verkoopfacturen en het weergeven van een rapport. Als u wilt terugkeren nadat u een begeleiding hebt verlaten, bijvoorbeeld om [!INCLUDE[d365fin](includes/d365fin_md.md)] zelfstandig te verkennen, gaat u terug naar het rolcentrum en start u de rondleiding Aan de slag.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. In het demonstratiebedrijf wordt aan de hand van visuele hulpen de kernfunctionaliteit uitgelegd, en kunt u dagelijkse taken uitproberen zoals het maken van verkoopfacturen en het weergeven van een rapport. Als u wilt terugkeren nadat u een begeleiding hebt verlaten, bijvoorbeeld om [!INCLUDE[d365fin](includes/d365fin_md.md)] zelfstandig te verkennen, gaat u terug naar het rolcentrum en start u de rondleiding Aan de slag. Als u meer hulp wilt, kunt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner zoeken.  
 
 > [!TIP]  
 > U kunt naar het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
@@ -71,8 +71,10 @@ Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf oversch
 
 Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf**. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u het rolcentrum en zoekt u de actie **Begeleide instelling**.  
 
+Of zoek [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.
+
 ## <a name="ready-to-subscribe"></a>Klaar om een abonnement te nemen?
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, gebruikt u de koppeling in de melding om in contact te komen met Microsoft. U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365-apps
 Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](https://docs.microsoft.com/dynamics365) in de blauwe banner boven aan deze pagina. U kunt ook meer leren op de [website van Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](in
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

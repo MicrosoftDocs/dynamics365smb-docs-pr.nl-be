@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Toegang krijgen tot de preview van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -43,7 +43,7 @@ Zie voor meer informatie [Ontwerper gebruiken](https://docs.microsoft.com/en-us/
 3.  Kies **Maken**. Er wordt een tabblad geopend waarop u de instelling van de sandbox kunt voltooien.
 
     > [!Note]
-    > Als u pop-upblokkering hebt ingeschakeld in uw browser, wijzigt u deze om URL's van het adres *.financials.dynamics.com* toe te staan.  
+    > Als u pop-upblokkering hebt ingeschakeld in uw browser, wijzigt u deze om URL's van het adres *.businesscentral.dynamics.com* toe te staan.  
 
 4.  Wanneer de sandbox gereed is, wordt een welkomstpagina weergegeven.  
 5.  Als u wilt lezen over scenario's die u in een sandbox kunt proberen, bijvoorbeeld hoe u extensies ontwikkelt, kiest u de koppeling **Meer informatie**. Anders kiest u **Sluiten** om door te gaan naar het rolcentrum van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandboxexemplaar.  
@@ -67,7 +67,7 @@ Zie voor meer informatie [Ontwerper gebruiken](https://docs.microsoft.com/en-us/
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies waarmee u uw eigen invoegtoepassing kunt implementeren en functionaliteit kunt insluiten om nieuwe branche-eigen end-to-end ervaringen toe te voegen of oplossingen van derden te integreren. U kunt bijvoorbeeld een API gebruiken om een verbonden toepassing te maken om gegevens uit te wisselen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en uw loonlijstapp. Verbonden apps kunnen ook extensies gebruiken om pagina's te maken die worden gebruikt voor instelling, configuratie of ter ondersteuning van app-specifieke functies. Zie voor meer informatie [Apps ontwikkelen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

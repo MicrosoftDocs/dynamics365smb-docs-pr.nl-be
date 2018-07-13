@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/19/2017
+ms.date: 06/12/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b767588b4dae6953371e112fd4e8e5cd4af7b1e0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: f40f51ffec0d052e26bcaf34c928ef63e9adde4d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 
@@ -28,8 +28,8 @@ De Afbeeldingsanalyse is gratis in [!INCLUDE[d365fin](includes/d365fin_md.md)], 
 
 Nadat u de extensie hebt ingeschakeld, wordt de Afbeeldingsanalyse steeds uitgevoerd wanneer u een afbeelding of contactpersoon importeert. U ziet direct de kenmerken, het vertrouwensniveau en de details en kunt besluiten wat er met elk kenmerk moet gebeuren. Als u afbeeldingen hebt geïmporteerd voordat u de Afbeeldingsanalyse hebt ingeschakeld, moet u naar de artikel- of contactpersoonkaarten gaan en de actie **Afbeelding analyseren** kiezen.  
 
->   [!NOTE]  
->   Door deze extensie in te schakelen gaat u ermee akkoord dat Microsoft uw gegevens mag opslaan en gebruiken om Microsoft-services te verbeteren, bijvoorbeeld om de Computer Vision API beter te maken. Om te helpen uw privacy te beschermen nemen we stappen om uw gegevens anoniem en veilig te maken. We publiceren uw gegevens niet en laten anderen deze niet gebruiken. U kunt de afbeelding van het artikel in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwijderen, maar de Computer Vision API bevat het dan nog in de niet-geïdentificeerde vorm. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
+## <a name="privacy-notice"></a>Privacyverklaring 
+Deze extensie gebruikt de Computer Vision API uit Microsoft Cognitive Services, die andere niveaus van nalevingsverplichtingen kan hebben dan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wanneer u de extensie Image Analyzer inschakelt, worden klantgegevens zoals een afbeelding van een contactpersoon of een artikel verzonden naar de Computer Vision API. Door deze extensie te installeren gaat u ermee akkoord dat deze beperkte set gegevens wordt verzonden naar de Computer Vision API. U kunt de extensie Image Analyzer altijd uitschakelen of verwijderen als u deze functionaliteit niet meer wilt gebruiken. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Vereisten
 Er zijn enkele vereisten voor de afbeeldingen:
@@ -37,9 +37,6 @@ Er zijn enkele vereisten voor de afbeeldingen:
 * Afbeeldingsindelingen: JPEG, PNG, GIF, BMP  
 * Maximale bestandsgrootte: minder dan 4 MB  
 * Afbeeldingdimensies: groter dan 50 x 50 pixels  
-
-## <a name="blacklisting-suggested-attributes"></a>Op zwarte lijst plaatsen van voorgestelde kenmerken
-Als de analyse een kenmerk voorstelt dat u niet wilt zien, kunt u het op de zwarte lijst plaatsen. Wees echter voorzichtig. Kenmerken op de zwarte lijst worden ook niet voorgesteld voor andere artikelen of contactpersonen. Als u betreurt dat een kenmerk op de zwarte lijst staat, kunt u **Op de zwarte lijst gezette kenmerken** kiezen en het kenmerk van de lijst verwijderen.
 
 ## <a name="to-enable-image-analyzer"></a>Afbeeldingsanalyse inschakelen
 De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U hoeft het alleen in te schakelen.
@@ -52,8 +49,8 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365f
 * Open een artikel- of contactkaart. Kies op de berichtbalk **Afbeeldingen analyseren** en volg vervolgens de stappen in de begeleide instelling.  
 * Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Serviceverbindingen** in en kies vervolgens **Afbeeldingsanalyse**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
 
->   [!TIP]  
->   De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
+    > [!TIP]  
+    > De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Een afbeelding van een artikel analyseren
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
@@ -62,8 +59,8 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
 2. Kies het artikel en kies vervolgens de actie **Afbeelding analyseren**.  
 3. De pagina **Kenmerken van afbeeldinganalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de opties **Uit te voeren acties** om aan te geven wat er met het kenmerk moet gebeuren.  
 
->   [!TIP]  
->   U kunt de naam van het kenmerk toevoegen aan de artikelomschrijving door **Toevoegen aan artikelomschrijving** te kiezen. Bijvoorbeeld, het kan handig zijn om snel details toe te voegen.  
+    > [!TIP]  
+    > U kunt de naam van het kenmerk toevoegen aan de artikelomschrijving door **Toevoegen aan artikelomschrijving** te kiezen. Bijvoorbeeld, het kan handig zijn om snel details toe te voegen.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Een afbeelding van een contactpersoon analyseren
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
@@ -72,14 +69,17 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
 2. Kies de contactpersoon en kies vervolgens de actie **Afbeelding analyseren**.  
 3. Op het sneltabblad **Profielvragenlijst** controleert u de voorstellen en maakt u correcties, indien nodig.  
 
+## <a name="blacklisting-suggested-attributes"></a>Op zwarte lijst plaatsen van voorgestelde kenmerken
+Als de analyse een kenmerk voorstelt dat u niet wilt zien, kunt u het op de zwarte lijst plaatsen. Wees echter voorzichtig. Kenmerken op de zwarte lijst worden ook niet voorgesteld voor andere artikelen of contactpersonen. Als u betreurt dat een kenmerk op de zwarte lijst staat, kunt u **Op de zwarte lijst gezette kenmerken** kiezen en het kenmerk van de lijst verwijderen.
+
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Uw eigen account gebruiken voor de Computer Vision API
 U kunt ook uw eigen account gebruiken voor de Computer Vision-API, bijvoorbeeld als u meer afbeeldingen wilt analyseren dan we toestaan.  
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Instelling van afbeeldingsanalyse** in en klik vervolgens op de gerelateerde koppeling.  
 2. Vul de **API-URI** en **API-sleutel** in die u voor de Computer Vision-API hebt ontvangen.  
 
->   [!NOTE]  
->   U moet **/analyze** aan het eind van de API-URI toevoegen, als het niet al aanwezig is. Bijvoorbeeld: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > [!NOTE]  
+    > U moet **/analyze** aan het eind van de API-URI toevoegen, als het niet al aanwezig is. Bijvoorbeeld: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Zien hoeveel analyses u in de huidige periode over hebt
 U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de huidige periode nog kunt doen.  

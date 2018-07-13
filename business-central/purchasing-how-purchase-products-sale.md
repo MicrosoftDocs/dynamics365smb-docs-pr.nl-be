@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 01/25/2018
+ms.date: 06/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
-Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
+Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.  
+
 |Functie|Description|
 |--------|-----------|
 |**Inkooporders maken**|Vanuit een verkooporder maakt deze functie een inkooporder voor elk van de artikelen op de verkooporder. U kunt het inkoopaantal wijzigen voordat u de inkooporders maakt. Alleen niet-beschikbare verkoopaantallen worden voorgesteld.

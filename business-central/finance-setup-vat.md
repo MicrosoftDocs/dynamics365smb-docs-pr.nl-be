@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Als u btw-nummers wilt instellen, gaat u als volgt te werk:
 2. Kies het land of de regio, en kies de actie **Btw-nummernotaties**.
 3. Definieer in het veld **Notaties** de notatie door een of meer van de volgende tekens in te voeren:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Vereist een getal van één cijfer.
-* @ - Vereist een letter. De tekst is niet hoofdlettergevoelig.
-* ? - Staat elk teken toe.
+* **#** Vereist een getal van één cijfer.  
+* **@** Vereist een letter. De tekst is niet hoofdlettergevoelig.  
+* **?** Staat elk teken toe.  
 
     > [!Tip]
     > U kunt andere tekens gebruiken zolang deze aanwezig zijn in de notatie van het land of de regio. Als u bijvoorbeeld een punt of een streepje wilt opnemen in een reeks cijfers, kunt u de notatie definiëren als ##.####.### of @@-###-###.  
@@ -116,6 +116,29 @@ In de volgende gedeelten wordt beschreven hoe u btw-boekingsgroepen aan afzonder
 * Vouw op de kaart **Resource** het sneltabblad **Facturering** uit.  
 3. Kies de btw-productboekingsgroep.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Btw-aangiftesjablonen en btw-aangiftenamen instellen
+De belastingdienst kan de vereisten om btw te boeken wijzigen en doet dat ook. **Btw-aangiftesjablonen** en **btw-aangiftenamen** kunnen u helpen voorbereiden op aankomende wijzigingen en een soepele overgang te krijgen naar de nieuwe vereisten. U kunt btw-aangiftesjablonen gebruiken om de velden te definiëren die u in uw btw-aangifte wilt opnemen en die weer de berekeningen definiëren, en u kunt een nieuwe btw-aangiftesjabloon maken wanneer de vereisten veranderen. Eén sjabloon kan bijvoorbeeld btw voor dit jaar berekenen op basis van de huidige vereisten en een andere sjabloon kan btw berekenen op basis van vereisten voor volgend jaar. Sjablonen zijn ook een manier om een historie te bewaren van btw-aangifte-indelingen, bijvoorbeeld, zodat u terug kunt kijken en kunt zien hoe u in vorige jaren btw hebt berekend.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Btw-aangiften definiëren en er een voorbeeld van bekijken
+Met btw-aangiften kunt u het btw-vereffeningsbedrag voor een bepaalde periode berekenen, bijvoorbeeld voor een kwartaal. Nadat u een btw-aangifte hebt gedefinieerd, kunt u er een voorbeeld van bekijken om te controleren of het aan uw wensen voldoet. 
+
+Als u een btw-aangifte wilt definiëren, volgt u deze stappen:
+
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Btw-aangiften** in en kies de gerelateerde koppeling.  
+2. Kies het veld **Naam** kies vervolgens **Nieuw** op de pagina **Btw-aangiftes**. 
+3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> U kunt de gegevens filteren die het afschrift zal bevatten, afhankelijk van uw keuze in het veld **Soort**. **Rekeningsamentelling** is handig als u de btw van een bepaalde rekening wilt.
+**Btw-postentotaal** haalt btw van de rekeningen die zijn toegewezen aan de selecties in de velden **Algemeen boekingssoort**, **Btw-bedr.-boekingsgroep** en/of **Btw-prod.-boekingsgroep**. Met **Vak-/Rubrieksamentelling** kunt u een waarde of snelfiltercriterium invoeren in het veld **Vak-/Rubrieksamentelling**. Zie voor meer informatie [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md). **Omschrijving** wordt vaak gebruikt om een notitie aan de aangifte toe te voegen. U kunt het bijvoorbeeld gebruiken als een kop wanneer u vak/rubrieksamentelling gebruikt.
+
+Als u een voorbeeld van de btw-aangifte wilt weergeven, volgt u deze stappen:
+
+1. Kies **Voorbeeld**.
+2. Voer een datumfilter in om de aangifte te beperken tot een specifieke periode. Zie voor meer informatie over het aanpassen van de pagina om het datumfilter weer te geven [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md).
+3. U kunt verschillende opties selecteren om het soort btw-posten aan te geven dat u in de aangifte wilt opnemen.
+4. Op de regels waarop het veld **Soort** de waarde **Btw-postentotaal** bevat, kunt u een lijst zien met btw-posten door het bedrag in het veld **Bedrag** te kiezen.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Clausules instellen om het gebruik van niet-standaard btw-tarieven uit te leggen
 U stelt een btw-clausule in om informatie te geven over het soort btw dat wordt toegepast. De informatie kan nodig zijn voor overheidsregelgeving. Nadat u een btw-clausule hebt ingesteld en deze hebt gekoppeld aan een btw-boekingsinstelling, wordt de btw-clausule weergegeven op afgedrukte verkoopdocumenten waarin de btw-boekingsinstellingengroep wordt gebruikt.
 
@@ -166,8 +189,7 @@ U kunt het btw-log weergeven op de klanten-, leveranciers- of contactkaarten, op
 
 Onze service kan u ook wat tijd besparen als u een klant of een leverancier maakt. Als u het btw-nummer van de klant weet, kunt u het in het veld **Btw-nummer** op de klanten- of leverancierskaart invoeren. De klantnaam wordt dan voor u ingevuld. Sommige landen verschaffen ook bedrijfsadressen in een gestructureerde indeling. In deze landen wordt het adres ook door ons ingevuld.  
 
-> [!NOTE]  
-> Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIES-service voor btw-nummervalidatie:
+Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIES-service voor btw-nummervalidatie:
 
 * De service gebruikt het http-protocol, wat betekent dat gegevens die door de server worden overgebracht, niet zijn versleuteld.  
 * Deze service wordt mogelijk onderbroken. Hiervoor is Microsoft niet verantwoordelijk. De service maakt deel uit van een breed EU-netwerk van nationale btw-journalen.

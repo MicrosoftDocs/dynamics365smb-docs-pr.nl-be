@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6381fc0949c3f6789a6b3387d119051403bcbb4a
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ea5673f341954960852de33cb94ee5722c8dbe26
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-incoming-documents"></a>Inkomende documenten instellen
@@ -46,13 +46,10 @@ Wanneer fiatteurs zijn ingesteld in het venster **Fiatteurs inkomende documenten
 
 ## <a name="to-set-up-an-ocr-service"></a>Een OCR-service instellen
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen van OCR-service** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-encrypt-your-login-information"></a>Uw aanmeldgegevens versleutelen
-We raden u aan de aanmeldgegevens te beveiligen die u invoert in het venster **Instellingen van OCR-service**. U kunt gegevens op de server versleutelen door nieuwe encryptiesleutels te genereren of bestaande sleutels te importeren die u inschakelt op de serverinstantie die verbinding maakt met de database.
-
-1. Kies in het venster **Instellingen van OCR-service** de actie **Versleutelingsbeheer**.
-2. Schakel in het venster **Beheer gegevensversleuteling** versleuteling van uw gegevens in.
+> [!NOTE]  
+> Uw aanmeldgegevens worden automatisch versleuteld.
 
 ## <a name="see-also"></a>Zie ook
 [Inkomende documenten verwerken](across-process-income-documents.md)  

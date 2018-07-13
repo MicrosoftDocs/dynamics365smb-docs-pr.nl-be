@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/20/2017
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 44b9d4b0f1a57920ad4be0ccb4a13f17df88ff3b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
@@ -30,6 +30,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | --- | --- |
 | Bepaal hoe u uw leveranciers wilt betalen. |[Betalingsmethoden definiëren](finance-payment-methods.md) |
 | Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
+|Maak rapportageschema's en definieer rekeningcategorieën om de inhoud van financiële grafieken en rapporten te definiëren, zoals de rapporten Balans en Resultatenrekening.|[Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)|
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Stel boekperioden in. |[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md) |
 | Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
@@ -48,5 +49,5 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

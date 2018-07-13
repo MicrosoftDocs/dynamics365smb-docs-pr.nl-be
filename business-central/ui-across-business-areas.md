@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
@@ -33,7 +33,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 | Standaardteksten instellen zodat u standaardtekst kunt uitbreiden door extra regels toe te voegen en voorwaarden voor het gebruik van de extra regels kunt instellen. |[Uitgebreide tekst definiëren](ui-how-define-ext-text.md) |
 |Taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.|[Gebruikerstaken definiëren](across-user-tasks.md)|
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|
-|Leg externe documenten vast in Financials, inclusief de bestandsbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
+|Leg externe documenten vast, inclusief de bestandsbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 |Werkstromen instellen en gebruiken die taken verbinden die worden uitgevoerd door verschillende gebruikers of door het systeem, zoals automatisch boeken. Het aanvragen en verlenen van goedkeuringen om documenten te maken of te boeken, zijn voorbeelden van veelvoorkomende werkstroomstappen.|[Werkstroom](across-workflow.md)|
 | Stel definities in voor de uitwisseling van gegevens, zodat u elektronische documenten kunt verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
 
@@ -42,5 +42,5 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 [Beheer](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

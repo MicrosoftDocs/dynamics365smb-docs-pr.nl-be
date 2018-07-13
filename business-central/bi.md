@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 05/31/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
@@ -32,7 +32,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Aan | Zie |
 | --- | --- |
 |Werkelijke bedragen bekijken vergeleken met gebudgetteerde bedragen voor alle rekeningen en voor verschillende perioden.|[Werkelijke bedragen analyseren in vergelijking met budgetbedragen](bi-how-analyze-actual-versus-budget.md)|
-|Nieuwe rapportageschema's maken voor financiële overzichten voor rapportage of voor weergave als grafieken.|[Werken met rekeningschema's](bi-how-work-account-schedule.md)|
+|Nieuwe rapportageschema's maken voor financiële overzichten voor rapportage of voor weergave als grafieken.|[Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)|
 |Uw financiële prestaties analyseren door KPI's in te stellen op basis van rapportageschema's, en die vervolgens publiceren als webservices. De gepubliceerde rapportageschema-KPI's kunnen worden weergegeven op een website of naar Microsoft Excel worden geïmporteerd met OData-webservices.|[KPI-webservices instellen en publiceren op basis van rekeningschema's](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Analyseweergaven instellen om gegevens te analyseren met dimensies.|[Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)|
 |Nieuwe analyselijsten te maken voor verkopen, inkopen en voorraad en om analysesjablonen in te stellen.|[Analyselijsten maken](bi-how-create-analysis-views-reports.md)|
@@ -40,11 +40,11 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)    
-[Financials gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
+[Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
 [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

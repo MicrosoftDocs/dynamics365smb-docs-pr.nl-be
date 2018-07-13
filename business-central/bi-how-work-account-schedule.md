@@ -8,24 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/16/2018
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 69034b0eb97b595d0fbf5795e1fac34ecd775afe
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
 
 ---
-# <a name="work-with-account-schedules"></a>Werken met rekeningschema's
-Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in diagrammen in uw rolcentrum, zoals het cashflowdiagram.  
+# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
+Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken in uw rolcentrum, zoals het Cashflowdiagram, en in rapporten, zoals de Resultatenrekening en de Balans.
+
+U opent deze twee rapporten, bijvoorbeeld, met de actie **Financiële afschriften** in de rolcentra Bedrijfsmanager en Accountant.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een aantal voorbeeldrapportageschema's die u direct kunt gebruiken, of u kunt uw eigen rijen en kolommen instellen om de te vergelijken cijfers op te geven. U kunt bijvoorbeeld rapportageschema's maken om winstmarges te berekenen voor dimensies, zoals afdelingen of klantengroepen. U kunt zoveel aangepaste financiële overzichten maken als u wilt.  
 
 Het instellen van rapportageschema's vereist begrip van de financiële gegevens in het rekeningschema. U kunt bijvoorbeeld grootboekposten weergeven als percentages van budgetposten. Hiertoe moeten budgetten worden gemaakt. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
 ## <a name="account-categories-and-account-schedules"></a>Rekeningcategorieën en rekeningschema's
-U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld in het venster **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het saldo-overzicht, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie voor meer informatie [Het grootboek en het rekeningschema](finance-general-ledger.md).  
+U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld in het venster **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport Balans, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie voor meer informatie het gedeelte "Rekeningcategorieën" in [Het grootboek en COA begrijpen](finance-general-ledger.md).  
 
 ## <a name="to-create-new-account-schedules"></a>Nieuwe rekeningstelsels maken  
  U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
@@ -41,7 +43,12 @@ U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financi�
 7. Vul indien nodig in het venster **Kolomindeling** de velden in.
 
 > [!NOTE]  
->   Als u geen standaardkolomindeling hebt toegewezen aan het rapportageschema, moet u de kolommen handmatig instellen.   
+> Als u geen standaardkolomindeling hebt toegewezen aan het rapportageschema, moet u de kolommen handmatig instellen.
+
+### <a name="to-copy-an-existing-account-schedule"></a>Een bestaand rekeningschema kopiëren
+De rapportageschema's in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn de basis van de financiële standaardrapporten, die mogelijk niet overeenkomen met de wensen van uw bedrijf. Als u snel uw eigen financiële rapporten wilt maken, kunt u beginnen met een bestaand rapportageschema te kopiëren.
+1. Selecteer in het venster **Rapportageschema** een rapportageschema en kies vervolgens de actie **Rapportageschema kopiëren**.
+2. Vul in het venster **Rapportageschema kopiëren** de benodigde velden in en kies vervolgens de knop **OK**.
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Een kolom maken die percentages berekent  
 U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van een totaal te berekenen. U hebt bijvoorbeeld een aantal rijen die zijn onderverdeeld op dimensie, en u wilt wellicht een kolom maken om het percentage aan te geven van de totale verkoop van elke rij.

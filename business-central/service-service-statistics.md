@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 73d0044308d619f92e0379cc7b678301c72ce31c
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 
 # <a name="viewing-service-statistics"></a>Servicestatistieken weergeven
-Financials kan bepaalde statistische gegevens bieden die u kunt gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
+U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Statistieken voor serviceorders weergeven
 De functie serviceorderstatistiek biedt u een overzicht van de inhoud van de volledige serviceorder, de details op de serviceregels en gegevens met betrekking tot facturering, verzending en verbruik, evenals het saldo van de klant.  

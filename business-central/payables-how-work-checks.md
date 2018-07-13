@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/25/2018
+ms.date: 06/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: bcd0e21bc40b63c99f37618ae3406395b3c31b10
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
@@ -31,6 +31,8 @@ U kunt met twee soorten cheques betalen. Voor beide soorten moet het veld **Tege
 > Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. Zie voor meer informatie [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md).
 
 De printer moet correct zijn ingesteld op het afdrukken van chequeformulieren en u moet bepalen welke indeling wordt gebruikt. Zie voor meer informatie [Cheque-indelingen definiëren](finance-how-define-check-layouts.md)
+
+U kunt maximaal 10 facturen op een pagina voor een chequestrook afdrukken. Als een cheque betrekking heeft op meer dan 10 facturen en u de strook afdrukt, maken we de cheque ongeldig op de eerste pagina en drukken we het woord VERNIETIGD op de cheque af. We drukken vervolgens de rest van de facturen en het totale chequebedrag op de tweede pagina af. 
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Een leverancier betalen met een automatische cheque
 Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.

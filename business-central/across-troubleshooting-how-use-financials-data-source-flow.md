@@ -1,6 +1,6 @@
 ---
 title: Problemen oplossen met integratie met Microsoft Flow| Microsoft Docs
-description: Problemen oplossen met hoe u uw Financials-gegevens als gegevensbron beschikbaar kunt maken en een OData-URL van uw webservices kunt opgeven om een geautomatiseerde werkstroom te maken.
+description: Problemen oplossen met uw Business Central-gegevens als gegevensbron beschikbaar maken en een OData-URL van uw webservices opgeven om een geautomatiseerde werkstroom te maken.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 6d1c65fd226526912d83bb8acec2cae0ff19de86
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 80bc35f6ea8c4264c2cd8960be3370e5966b88e3
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Problemen oplossen met integratie met Microsoft Flow - Aanvraag-URL te lang

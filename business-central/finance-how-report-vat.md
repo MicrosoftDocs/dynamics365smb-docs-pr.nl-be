@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d
     >   In het Verkoopoverzicht EU kunt u de transacties bekijken die in de aangifteregels zijn opgenomen, voordat u de aangifte indient. Kies hiervoor de regel en kies vervolgens de actie **Btw-posten weergeven**.  
 4. Als u de lijst voor verzending wilt valideren en voorbereiden, kiest u de actie **Vrijgeven**.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert of het rapport correct is ingesteld. Als de validatie mislukt, worden de fouten weergegeven onder **Fouten en waarschuwingen**, zodat u weet wat u moet corrigeren. Als het bericht gaat over een ontbrekende instelling in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u op het bericht kunt klikken om de pagina te openen met de te verbeteren informatie.  
 5. Als u de lijst wilt verzenden, kiest u de actie **Verzenden**.  
 
@@ -91,10 +91,10 @@ Als u een andere methode gebruikt om de lijst te verzenden, bijvoorbeeld door de
 ## <a name="vat-settlement"></a>Btw-vereffening
 U moet periodiek de netto-btw afdragen aan de belastingdienst. Als u vaak btw moet vereffenen, kunt u de batchverwerking **Btw-vereffening berekenen en boeken** uitvoeren om de open btw-posten te sluiten en inkoop- en verkoop-btw-bedragen over te boeken naar de btw-vereffeningsrekening.
 
-Wanneer u btw-bedragen overmaakt naar de vereffeningsrekening, worden de bedragen die voor de opgegeven periode zijn berekend, opgeteld bij de rekening voor inkoop-btw en afgetrokken van de rekening voor verkoop-btw. Het nettobedrag wordt opgeteld of afgetrokken als het inkoop-btw-bedrag groter is, bij de btw-vereffeningsrekening. U kunt de vereffening meteen boeken of eerst een controlelijst afdrukken.
+Wanneer u btw-bedragen overmaakt naar de vereffeningsrekening, worden de bedragen die voor de opgegeven periode zijn berekend, opgeteld bij de rekening voor inkoop-btw en afgetrokken van de rekening voor verkoop-btw. Het nettobedrag wordt opgeteld of afgetrokken als het inkoop-btw-bedrag groter is, bij de btw-vereffeningsrekening. U kunt de vereffening meteen boeken of eerst een controlelijst afdrukken.  
 
->    [!NOTE]  
->    Wanneer u de batchverwerking **Btw-vereffening berekenen en boeken** gebruikt en u geen **Btw-bedrijfsboekingsgroep** en **Btw-productboekingsgroep** opgeeft, worden posten met alle bedrijfsboekingsgroepen en productboekingsgroepscodes opgenomen.
+> [!Note]
+> Wanneer u de batchverwerking **Btw-vereffening berekenen en boeken** gebruikt en u geen **Btw-bedrijfsboekingsgroep** en **Btw-productboekingsgroep** opgeeft, worden posten met alle bedrijfsboekingsgroepen en productboekingsgroepscodes opgenomen.
 
 ## <a name="configuring-your-own-vat-reports"></a>Uw eigen btw-rapporten configureren
 U kunt het verkoopoverzicht EU kant-en-klaar gebruiken, maar u kunt ook uw eigen lijsten maken. Hiertoe moet u enkele codeunits maken. Als u hierbij hulp nodig hebt, neemt u contact op met een Microsoft-partner.  
@@ -107,14 +107,14 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 |Inhoud | De indeling van het rapport bepalen. Bijvoorbeeld of het XML of JSON is. De te gebruiken indeling is afhankelijk van de webservice van uw belastingdienst. |
 |Verzending | Bepaal hoe en wanneer u de lijst verzendt, op basis van de behoeften van uw belastingdienst. |
 |Antwoordmanager | Behandel de retournering van de belastingdienst. Bijvoorbeeld, er kan een e-mailbericht naar de contactpersoon van uw bedrijf zijn verzonden. |
-|Annuleren | Verzend een annulering of btw-rapport dat eerder is ingediend naar de belastingdienst. |
+|Annuleren | Verzend een annulering of btw-rapport dat eerder is ingediend naar de belastingdienst. |  
 
-> [!NOTE]  
->   Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2017** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.  
-
+> [!Note]
+> Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2017** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.
+ 
 ## <a name="see-also"></a>Zie ook 
 [Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Verkopen factureren](sales-setup-sales.md)  
+[Verkopen factureren](sales-how-invoice-sales.md)  
 

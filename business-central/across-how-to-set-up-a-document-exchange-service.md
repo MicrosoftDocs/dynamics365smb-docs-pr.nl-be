@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen
@@ -37,12 +37,8 @@ U gebruikt een externe serviceprovider om elektronische documenten uit te wissel
     |**Token**|Voer de 3 legged sleutel voor OAuth voor het token in. Deze wordt geleverd door de aanbieder van de service voor documentuitwisseling.|  
     |**Tokengeheim**|Voer het geheim in dat het token beveiligt. Deze wordt geleverd door de aanbieder van de service voor documentuitwisseling.|  
 
-> [!NOTE]  
->  We raden u aan de aanmeldgegevens te beveiligen die u invoert in het venster **Instellingen van VAN-service**. U kunt gegevens op de server versleutelen door nieuwe encryptiesleutels te genereren of bestaande sleutels te importeren die u inschakelt op de serverinstantie die verbinding maakt met de database. Dit wordt in de volgende procedure beschreven.  
-
-## <a name="to-encrypt-your-logon-information"></a>Uw aanmeldgegevens versleutelen  
-1. Kies in het venster **Instellingen van VAN-service** de actie **Versleutelingsbeheer**.  
-2. Schakel in het venster **Beheer gegevensversleuteling** versleuteling van uw gegevens in. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > Uw aanmeldgegevens worden automatisch versleuteld.
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  

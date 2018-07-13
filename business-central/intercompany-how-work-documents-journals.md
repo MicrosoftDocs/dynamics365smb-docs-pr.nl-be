@@ -1,8 +1,6 @@
 ---
 title: Intercompany-documenten en -dagboeken boeken | Microsoft Docs
 description: IC-documenten te gebruiken om transacties met uw IC-partners te boeken.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/21/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f56dd9746ab065628f5785715153b82fa02a155
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ab05b9d596af65936d81c649fbace0f250efe076
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Werken met intercompany-documenten en -dagboeken
@@ -43,7 +41,7 @@ In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invulle
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Een IC-dagboek invullen en boeken
 Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een corresponderende dagboekregel gemaakt in uw IC-outbox, die u kunt overbrengen naar uw partner. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-diversendagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-diversendagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul indien nodig de velden in.
 4. In het veld **Grootboekrekeningnr. IC-partner** voert u de IC-grootboekrekening in waarop het bedrag wordt geboekt in het bedrijf van uw partner.
@@ -52,7 +50,7 @@ Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een correspond
     > Dit veld moet worden ingevuld op een regel met een bankrekening of grootboekrekening in het veld **Rek.-nr.** of in het veld **Tegenrekeningnr.**  
 5. Kies de actie **Boeken**.
 
-De betreffende posten worden geboekt in uw bedrijf en een dagboek met de bijbehorende posten wordt gemaakt in uw IC-outbox, die u naar uw partnerbedrijf kunt verzenden. Zie voor meer informatie [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md). 
+De betreffende posten worden geboekt in uw bedrijf en een dagboek met de bijbehorende posten wordt gemaakt in uw IC-outbox, die u naar uw partnerbedrijf kunt verzenden. Zie voor meer informatie [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Zie ook
 [Intercompany-transacties beheren](intercompany-manage.md)  

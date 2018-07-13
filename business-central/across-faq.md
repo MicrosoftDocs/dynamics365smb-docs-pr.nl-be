@@ -1,6 +1,6 @@
 ---
-title: Veel gestelde vragen over het configureren van Financials| Microsoft Docs
-description: Antwoorden op veel gestelde vragen over hoe u zich aanmeldt voor Financials en wat u moet doen om aan de slag te gaan.
+title: Veelgestelde vragen over het gebruik van Business Central | Microsoft Docs
+description: Antwoorden op veel gestelde vragen over hoe u zich aanmeldt voor Business Central en wat u moet doen om aan de slag te gaan.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 04/19/2018
+ms.date: 06/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
@@ -38,22 +38,27 @@ Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d36
 Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Business Central-community. Zie [Dynamics 365 Business Central-community](https://community.dynamics.com/business) voor meer informatie. Ook worden tips en trucs door ons Ondersteuningsteam gepubliceerd. Zie het [ondersteuningsblog voor Dynamics 365 Business Central](https://blogs.msdn.microsoft.com/dyn365finsupport) voor meer informatie.  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Is het mogelijk mijn “Nieuw bedrijf”-proefperiode te verlengen?
-Ja. Als u uw proefperiode wilt verlengen, moet u contact opnemen met Microsoft op 1-888-477-7989 (VS) of 1-800-741-9206 (Canada). OPMERKING: het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
+Ja. Als u de proef wilt uitbreiden, neemt u contact met Microsoft op via 1-800-865-9408. OPMERKING: het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds hetzelfde rolcentrum in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw Rolcentrum niet gewijzigd en gebruikersgroepen toegewezen die voldoen aan de nieuwe licentie. In wezen wordt uw toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaald door het type plan (licentie) dat u hebt - hiermee worden machtigingen en uw standaard rolcentrumstartpagina ingesteld. U kunt uw Rolcentrum handmatig wijzigen in Mijn Instellingen, maar als u naar een ander plan wordt verplaatst, zoals van het Bedrijfsplan naar het Teamledenplan, ziet u mogelijk de oude startpagina omdat uw machtigingen niet zijn gewijzigd.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Waarom kan ik die mogelijkheid niet vinden in mijn [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk nog niet geüpgraded naar de laatste versie. Als de mogelijkheid als een extensie in AppSource is gepubliceerd, is er een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource.
+Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk nog niet geüpgraded naar de laatste versie. Als de mogelijkheid als een extensie in AppSource is gepubliceerd, is er een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource.  
+
+## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan ik training krijgen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Ja, dat kan. Maar momenteel moet u dit bij uw doorverkopende partner vragen. Als u weet niet wie dat is, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een Business Central-partner.  
+
+Als u toegang tot Microsoft CustomerSource hebt, kunt u toegang krijgen tot de Imagine Academy met eLearning-materiaal. Voor meer informatie over hoe u toegang krijgt, raadpleegt u de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Waarom zijn sommige gebruikersinterface-elementen die ik in Dynamics NAV gebruikte, niet zichtbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u met het toepassingsgebiedsysteem en de Ervaring-opties relevante delen van het product weergeven of verbergen in overeenstemming met het aangeschafte plan (Essential of Premium) en op basis van uw bedrijfsbehoeften.
 
 Deze mogelijkheden zijn gebruikt om de gebruikersinterface in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] te vereenvoudigen. Velden die niet veel worden gebruikt, zoals **Fax**, zijn bijvoorbeeld verwijderd en op linten en in kaarten zijn dubbele acties verwijderd en worden de meest gebruikte acties benadrukt. Enkele complete functies, zoals Opmerkingen, worden momenteel geoptimaliseerd voor de webclient en zijn daarom niet beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Bepaalde gebruikersinterface-elementen die zichtbaar zijn in de standaardversie van Dynamics NAV, zijn niet zichtbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De desbetreffende besturingselementen hebben momenteel de tag #Advanced in het toepassingsgebied. 
+Bepaalde gebruikersinterface-elementen die zichtbaar zijn in de standaardversie van Dynamics NAV, zijn niet zichtbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De desbetreffende besturingselementen hebben momenteel de tag #Advanced in het toepassingsgebied.
 
-Als u wilt dat uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing dezelfde gebruikersinterface-elementen bevat als uw Dynamics NAV-oplossing, moet u enkele stappen uitvoeren in de ontwikkelingsomgeving om de #Advanced besturingselementen weer te geven met behulp van een extensie. Zie voor meer informatie [Toepassingsgebieden uitbreiden](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
+Als u wilt dat uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing dezelfde gebruikersinterface-elementen bevat als uw Dynamics NAV-oplossing, moet u enkele stappen uitvoeren in de ontwikkelingsomgeving om de #Advanced besturingselementen weer te geven met behulp van een extensie. Zie voor meer informatie [Toepassingsgebieden uitbreiden](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
@@ -63,5 +68,4 @@ Als u wilt dat uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing dezelfde
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

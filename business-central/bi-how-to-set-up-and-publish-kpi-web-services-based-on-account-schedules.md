@@ -1,29 +1,28 @@
 ---
 title: KPI-webservices instellen en publiceren voor rekeningschema's | Microsoft Docs
-description: In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe de KPI-gegevens van het rapportageschema worden weergegeven en op welke specifieke rapportageschema's de KPI's zijn gebaseerd.
+description: In dit onderwerp wordt beschreven hoe u de KPI-gegevens uit het rapportageschema weergeeft op basis van specifieke rapportageschema's.
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
-ms.author: sgroespe
+ms.date: 05/31/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc1226724d1f953a3cf14a148e6d229ac0736bd3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KPI-webservices instellen en publiceren op basis van rekeningschema's
 In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe de KPI-gegevens van het rapportageschema worden weergegeven en op welke specifieke rapportageschema's de KPI's zijn gebaseerd. Wanneer u de knop **Webservice publiceren** kiest, worden de opgegeven gegevens van de rapportageschema-KPI toegevoegd aan de lijst met gepubliceerde webservices in het venster **Webservices**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Een KPI-webservice instellen en publiceren die is gebaseerd op rekeningschema's  
-
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen rapportageschema KPI-webservice** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul in het sneltabblad **Algemeen** de velden in, zoals in de volgende tabel is beschreven.  
 
@@ -35,7 +34,7 @@ In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe d
     |**Weergeven per**|Geef op in welk tijdsinterval de rapportageschema-KPI wordt weergegeven.|  
     |**Webservicenaam**|Geef de naam op van de KPI-webservice van het rapportageschema.<br /><br /> Deze naam wordt weergegeven in het veld **Servicenaam** in het venster **Webservices**.|  
 
-    U kunt nu doorgaan om een of meer rapportageschema's op te geven die u wilt publiceren als KPI-webservice volgens de instellingen die u in de vorige tabel hebt gemaakt.  
+    Geef een of meer rapportageschema's op die u wilt publiceren als KPI-webservice volgens de instellingen die u in de vorige tabel hebt gemaakt.  
 
 3.  Vul in het sneltabblad **Rapportageschema's** de velden in, zoals in de volgende tabel is beschreven.  
 

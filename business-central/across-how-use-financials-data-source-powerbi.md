@@ -1,6 +1,6 @@
 ---
 title: Rapportage voor Business Central instellen in Power BI | Microsoft Docs
-description: U kunt uw Financials-gegevens als gegevensbron in Power BI beschikbaar maken en krachtige rapporten maken van de status van uw bedrijf.
+description: Maak uw gegevens als gegevensbron in Power BI beschikbaar en maak krachtige rapporten met de status van uw bedrijf.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: c7782d6f74a56f72b40dfb6cfd59a44ab4a33ae7
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gebruiken als Power BI-gegevensbron voor het maken van rapporten

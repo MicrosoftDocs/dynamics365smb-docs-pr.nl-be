@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 55de1952941f6f8d01d76c657fcf8c48d7ada6b1
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 45ae07cd542d53ea71af0a3009ea57e09340fc0c
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
@@ -31,7 +31,7 @@ U beheert de extensies in het venster **Extensiebeheer**. U kunt tot dit venster
 >   Als u denkt u dat toegang tot een extensie zou moeten hebben maar de functionaliteit ervan niet vindt, kijk dan in het venster **Extensiebeheer**. Als de extensie daar niet wordt vermeld, kunt u de extensie installeren zoals beschreven in het volgende gedeelte.  
 
 ## <a name="installing-an-extension"></a>Een extensie installeren
-U kunt nieuwe extensies vinden in de markt op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Hier vindt u een overzicht van alle beschikbare extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)], en u kunt apps, extensies en inhoudspakketten krijgen voor andere producten van Microsoft. Stel de gewenste filters in, bekijk de gegevens voor elke extensie en haal een extensie voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)] op.  
+U kunt nieuwe extensies verkrijgen via de marktplaats op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Hier kunt u alle beschikbare extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken en kunt u apps, extensies en inhoudpakketten voor andere Microsoft-producten verkrijgen. Stel de gewenste filters in, bekijk de gegevens voor elke extensie en haal een extensie voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)] op.  
 > [!NOTE]  
 >   Meld u bij [AppSource.microsoft.com](https://appsource.microsoft.com/) aan met het e-mailaccount dat u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
 
@@ -77,5 +77,5 @@ Microsoft biedt de volgende extensies:
 [Aan de slag](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
