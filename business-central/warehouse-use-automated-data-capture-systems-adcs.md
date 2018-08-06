@@ -8,8 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
 ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
@@ -94,7 +95,6 @@ Wanneer u een miniform hebt gemaakt, volgt u de volgende stappen om functies te 
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  
-
     ```  
 2.  Open in de ontwikkelomgeving [!INCLUDE[d365fin](includes/d365fin_md.md)] tabel 7702 en voeg een code toe die de nieuwe toets vertegenwoordigt. In dit voorbeeld maakt u een toets met de naam **F6**.  
 3.  Voeg C/AL-code toe aan de desbetreffende functie van de miniformgebonden codeunit voor het afhandelen van de functietoets.  
