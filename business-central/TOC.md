@@ -266,6 +266,7 @@
 ## [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)
 ## [Artikelen reserveren](inventory-how-to-reserve-items.md)
 ## [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)
+## [Artikelen blokkeren](inventory-how-block-items.md)
 ## [Werken met divisies](inventory-responsibility-centers.md)
 
 # [Projectbeheer](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 ## [Ontwerpdetails: dagboekboekingsregel](design-details-general-journal-post-line.md)
 
-# Lokale functionaliteit
+# [Lokale functionaliteit](about-localization.md)
 ## [Australië](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Oostenrijk](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [België](LocalFunctionality/Belgium/belgium-local-functionality.md)

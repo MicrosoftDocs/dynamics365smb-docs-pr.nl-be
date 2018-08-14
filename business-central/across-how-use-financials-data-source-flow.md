@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
@@ -60,7 +60,7 @@ Nu hebt u met succes een verbinding gemaakt met uw Business Central-gegevens en 
 11. Flow vraagt u een bedrijf in uw [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-tenant te selecteren. Aangezien elke stap in de stroom onafhankelijk is van de volgende, moet u het bedrijf mogelijk meerdere malen definiëren wanneer u een [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon gebruikt.
 
 > [!NOTE]  
-> De [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon is geïntegreerd met de kernwerkstroomengine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Dat betekent dat telkens wanneer u een van deze sjablonen gebruikt om een stroom te maken, een corresponderende werkstroom wordt gemaakt in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Zie [Werkstroom](across-workflow.md) voor meer informatie.
+> De [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon is geïntegreerd met de kernwerkstroomengine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Dat betekent dat telkens wanneer u een van deze sjablonen gebruikt om een stroom te maken, een corresponderende werkstroom wordt gemaakt in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Tevens moet de persoon die de stroom maakt worden ingesteld als fiatteur in de begeleide instelling. Zie [Werkstroom](across-workflow.md) voor meer informatie.
 
 Zie de [Flow-documentatie](https://docs.microsoft.com/en-us/flow/getting-started) voor meer informatie.
 

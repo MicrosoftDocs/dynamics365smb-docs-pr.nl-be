@@ -47,7 +47,7 @@ Het standaardbedrijf heet CRONUS en bevat alleen demogegevens.
 De standaardwerkdatum is meestal de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet de huidige datum is.
 
 > [!TIP]  
->   Typ **w** als u de werkdatum snel in een datumveld wilt invoeren. Als u de huidige datum snel in het datumveld wilt invoeren, typt u **t**.
+>   Typ **w** als u de werkdatum snel in een datumveld wilt invoeren. Als u de huidige datum snel in het datumveld wilt invoeren, typt u **h**.
 
 > [!IMPORTANT]  
 >   De werkdatum wordt alleen gewijzigd totdat u het bedrijf sluit of totdat de datum verandert. Als u een ander bedrijf opent of hetzelfde bedrijf de dag erop weer opent en nog steeds een andere werkdatum moet gebruiken, moet u de werkdatum opnieuw instellen.

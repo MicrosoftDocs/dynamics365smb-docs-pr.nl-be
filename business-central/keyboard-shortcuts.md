@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -92,6 +92,22 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Ctrl+End<br />(Cmd+End)|De agenda sluiten en de huidige datum verwijderen.|
 |Esc|De agenda sluiten zonder een selectie; huidige datum behouden.|
 
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Sneltoetsen in de rapportweergave
+
+|Druk op deze toetsen<br />(in macOS)|Actie|
+|-----------------|-------|
+|Pijl-omlaag|Omlaag schuiven op de pagina.|  
+|Pijl omhoog|Omhoog schuiven op de pagina.|
+|Pijl rechts|Schuif naar de rechterzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
+|Pijl links|Schuif naar de linkerzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
+|Ctrl+0 (nul)<br />(Cmd+0)|De hele pagina wordt weergegeven in het venster. |
+|Ctrl+Home<br />(Cmd+Home)|Naar de eerste pagina's van het rapport gaan.|
+|Ctrl+End<br />(Cmd+Home)|Naar de laatste pagina's van het rapport gaan.|
+|Page Down<br />(Fn+pijl omlaag)|Naar de volgende pagina's van het rapport gaan.|
+|Pagina Upbr /> (Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
+
+
 <!--
 ## Keyboard shortcuts in list (shown as tiles)
 
@@ -111,7 +127,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Enter<br />(Fn+down Arrow)|Opens the record (when a card page is available).|
 -->
 
-## <a name="see-also"></a>Zie ook 
+## <a name="see-also"></a>Zie ook
 [Assisterende functies](ui-accessibility.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

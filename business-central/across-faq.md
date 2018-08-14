@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
@@ -50,6 +50,10 @@ Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid
 Ja, dat kan. Maar momenteel moet u dit bij uw doorverkopende partner vragen. Als u weet niet wie dat is, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een Business Central-partner.  
 
 Als u toegang tot Microsoft CustomerSource hebt, kunt u toegang krijgen tot de Imagine Academy met eLearning-materiaal. Voor meer informatie over hoe u toegang krijgt, raadpleegt u de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar in mijn land?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie [Ondersteunde landen en vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) voor meer informatie.  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Waarom zijn sommige gebruikersinterface-elementen die ik in Dynamics NAV gebruikte, niet zichtbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u met het toepassingsgebiedsysteem en de Ervaring-opties relevante delen van het product weergeven of verbergen in overeenstemming met het aangeschafte plan (Essential of Premium) en op basis van uw bedrijfsbehoeften.

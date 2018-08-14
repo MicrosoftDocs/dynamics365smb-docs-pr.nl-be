@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d48a4cd8d805870527249c414285867c83a6de9
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Werkstroomberichten instellen
@@ -26,7 +26,7 @@ In veel werkstroomantwoorden wordt aan een gebruiker gemeld dat er een gebeurten
 >  De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt berichten als e-mail en als interne opmerking.  
 
 > [!IMPORTANT]  
->  Alle werkstroomberichten worden verzonden via een taakwachtrij. Zorg ervoor dat de verwerkingswachtrij in uw oplossing. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
+>  Alle werkstroomberichten worden verzonden via een taakwachtrij. Zorg dat de taakwachtrij in uw installatie is ingesteld om werkstroomberichten te verwerken en dat het selectievakje **Automatisch starten van server** is ingeschakeld. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
 U stelt verschillende aspecten van werkstroomberichten op de volgende plaatsen in:  
 

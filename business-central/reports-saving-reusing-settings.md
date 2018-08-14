@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Opgeslagen instellingen in rapporten beheren
@@ -33,7 +33,7 @@ U kunt de opgeslagen instellingen die beschikbaar voor u zijn voor een rapport, 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Opgeslagen instellingen maken en wijzigen voor alle gebruikers
 Als u de juiste machtigingen hebt, kunt u de opgeslagen instellingen voor alle gebruikers in een bedrijf weergeven, maken en wijzigen. U kunt opgeslagen instellingen voor een rapport toewijzen aan afzonderlijke gebruikers of aan alle gebruikers in het bedrijf.
 
-U beheert opgeslagen instellingen vanaf pagina 1506 **Rapportinstellingen**. Als u deze pagina wilt openen, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Rapportinstellingen** in en kiest u vervolgens de gerelateerde koppeling.
+U beheert opgeslagen instellingen vanaf pagina 1560 **Rapportinstellingen**. Als u deze pagina wilt openen, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Rapportinstellingen** in en kiest u vervolgens de gerelateerde koppeling.
 
 Vanaf de pagina **Rapportinstellingen** kunt u nieuwe instellingen maken of kunt u een kopie maken en bestaande instellingen wijzigen. Om de opties en filters voor een instelling te wijzigen, kiest u de actie **Bewerken**.
 
