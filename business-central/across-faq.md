@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Als u toegang tot Microsoft CustomerSource hebt, kunt u toegang krijgen tot de I
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie [Ondersteunde landen en vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) voor meer informatie.  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Waarom zijn sommige gebruikersinterface-elementen die ik in Dynamics NAV gebruikte, niet zichtbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u met het toepassingsgebiedsysteem en de Ervaring-opties relevante delen van het product weergeven of verbergen in overeenstemming met het aangeschafte plan (Essential of Premium) en op basis van uw bedrijfsbehoeften.
 
 Deze mogelijkheden zijn gebruikt om de gebruikersinterface in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] te vereenvoudigen. Velden die niet veel worden gebruikt, zoals **Fax**, zijn bijvoorbeeld verwijderd en op linten en in kaarten zijn dubbele acties verwijderd en worden de meest gebruikte acties benadrukt. Enkele complete functies, zoals Opmerkingen, worden momenteel geoptimaliseerd voor de webclient en zijn daarom niet beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)].
