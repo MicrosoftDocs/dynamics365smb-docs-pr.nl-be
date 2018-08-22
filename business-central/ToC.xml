@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="Help" Page="product-get-started.html">
+  <Node Name="" DisplayName="Aan de slag" Page="across-get-started.html">
+    <Node Name="" DisplayName="Overzicht van bedrijfsfunctionaliteit" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Bedrijfsgegevens importeren uit andere financiële systemen" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Business Central op uw mobiele apparaat krijgen" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Synchroniseren met contactpersonen in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Business Central gebruiken als uw bedrijfsinbox in Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Uw bedrijfgegevens gereed maken voor Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Business Central gebruiken als een Power BI-gegevensbron" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Business Central aanpassen met extensies" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Tips en trucs" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Werken met Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Zoeken naar pagina of rapport gebruiken" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Basisinstellingen wijzigen" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Procedure: Het rolcentrum wijzigen" Page="change-role.html"/>
+    <Node Name="" DisplayName="Business Central aanpassen" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Business Central waarden laten voorstellen" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Een rapport afdrukken" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Video's over veel voorkomende taken" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Business Central instellen" Page="setup.html">
+    <Node Name="" DisplayName="Installatie en beheer" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Wijzigingen registreren" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Nieuwe bedrijven maken" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Gebruikers, profielen en rolcentra" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="Procedure: Gebruikers en machtigingen beheren" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Gebruik van taakwachtrijen om taken te plannen" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="Procedure: Een webservice publiceren" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Financiën instellen" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Betalingsmethoden definiëren" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Boekingsgroepen instellen" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="Procedure: Werken met betalingstolerantie en contantkortingstolerantie" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="Procedure: nieuw boekjaar openen" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Btw instellen" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="Procedure: Valutawisselkoersen bijwerken" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Het rekeningschema instellen" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Cashflowanalyse instellen" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="Procedure: Contant betalende klanten instellen" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="Procedure: Intrastat-rapportage instellen" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="Procedure: Met de lijst Consolidatie - Proefbalans werken" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Bankieren instellen" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="Procedure: bankrekeningen instellen" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedure: Conversieservice voor bankgegevens instellen" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Verkopen instellen" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="Procedure: Nieuwe klanten registreren" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="Procedure: Klantbetalingen via betalingsservices inschakelen" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="Procedure: Speciale verkoopprijzen en kortingen registreren" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Procedure: Verkopers instellen" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="Procedure: Verzendprofielen voor documenten instellen" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="Procedure: Documenten per e-mail verzenden" Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="Procedure: btw-nummers verifiëren" Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="Procedure: expediteurs instellen" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Inkoop instellen" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="Procedure: Nieuwe leveranciers registreren" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="Procedure: Speciale inkoopprijzen en kortingen registreren" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Procedure: leveranciers in een prioriteitsvolgorde plaatsen" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="Procedure: inkopers instellen" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Voorraad instellen" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="Procedure: Algemene voorraadinformatie instellen" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="Procedure: Werken met divisies" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="Procedure: vestigingen instellen" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="Procedure: Nieuwe artikelen registreren" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="Procedure: SKU's instellen:" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="Procedure: Artikelen categoriseren" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Projectbeheer instellen" Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="Procedure: Resources instellen" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="Procedure: urenstaten instellen" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="Procedure: projecten instellen" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Vaste activa instellen" Page="fa-setup.html">
+      <Node Name="" DisplayName="Procedure: Algemene gegevens voor vaste activa instellen" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="Procedure: Afschrijving van vaste activa instellen" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="Procedure: Verzekering voor vaste activa instellen" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="Procedure: Onderhoud van vaste activa instellen" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Magazijnbeheer instellen" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Ontwerpdetails: Magazijnoverzicht" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="Procedure: Opslaglocatiesoorten instellen" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="Procedure: Opslaglocaties maken" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="Procedure: opslaglocatie-inhoud maken" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="Procedure: Opslagsjablonen instellen" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="Procedure: Magazijnmedewerkers instellen" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="Procedure: gebruik van opslaglocaties voor locaties instellen" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="Procedure: converteren van bestaande locaties naar magazijnlocaties" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="Procedure: standaard magazijnen met bewerkingsgebieden instellen" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="Procedure: Artikelen en locaties instellen voor gestuurde opslag en pick" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Procedure: Voorraad tellen, corrigeren of herindelen" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="Procedure: Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Procedure: Picken volgens FEFO inschakelen" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="Procedure: Geautomatiseerd systeem voor gegevensvastlegging (ADCS) inschakelen" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="Procedure: magazijn herstructureren" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Productie instellen" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="Procedure: afdelingsagenda's maken" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="Procedure: Afdelingen en bewerkingsplaatsen instellen" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="Procedure: bewerkingsplannen maken" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="Procedure: productiestuklijsten maken" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="Procedure: Werken met productiebatcheenheden" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="Procedure: Werken met productfamilies" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="Procedure: Standaard bewerkingsplanregels instellen" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="Procedure: Productie uitbesteden" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="CRM - Service instellen" Page="service-setup-service.html">
+      <Node Name="" DisplayName="Procedure: Standaardservicecodes instellen" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="Procedure: Serviceprocessen configureren" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="Procedure: Probleemrapportage instellen" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="Procedure: Serviceaanbod instellen" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="Procedure: Richtlijnen voor troubleshooting instellen" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="Procedure: Resourcetoewijzing instellen" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="Procedure: Prijzen en aanvullende kosten voor services instellen" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="Procedure: Serviceartikelen en serviceartikelonderdelen instellen" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="Procedure: Service- en werkuren instellen" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="Procedure: Statussen instellen voor serviceorders en reparaties" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="Procedure: Uitleenprogramma instellen" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="Procedure: Servicecontracten opstellen" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Afschrijvingsmethoden" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="Procedure: E-mail instellen" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="Procedure: Nummerreeksen maken" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="Procedure: Uitgebreide artikeltekst instellen" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Procedure: basisagenda's instellen" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Complexe toepassingsgebieden instellen met aanbevolen procedures" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Aanbevolen procedures instellen: Voorraadplanning" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Aanbevolen procedures voor instellen: Waarderingsmethoden" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Financiën" Page="finance.html">
+    <Node Name="" DisplayName="Tegoeden beheren" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Betalingen automatisch vereffenen en bankrekeningen reconciliëren" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedure: Klantbetalingen van een lijst met onbetaalde verkoopdocumenten handmatig reconciliëren" Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="Procedure: Klantbetalingen handmatig vereffenen" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="Procedure: Openstaande saldi innen" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="Procedure: Werken met betalingstolerantie en contantkortingstolerantie" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Betalingsverplichtingen beheren" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Betalingen uitvoeren" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Betalingen automatisch vereffenen en bankrekeningen reconciliëren" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedure: Leveranciersbetalingen handmatig reconciliëren" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Vooruitbetalingen factureren" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="Procedure: Vooruitbetalingen instellen" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="Procedure: vooruitbetalingsfacturen maken" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="Procedure: Vooruitbetalingen storneren" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Bankrekeningen beheren" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Betalingen automatisch vereffenen en bankrekeningen reconciliëren" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedure: Bankrekeningen apart reconciliëren" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Procedure: Bankfondsen overboeken" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Intercompany-transacties beheren" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="Procedure: Intercompany instellen" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="Procedure: Werken met intercompany-documenten en -dagboeken" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="Procedure: De intercompany-inbox en outbox beheren" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Kosten verantwoorden" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Terminologie in kostprijsboekhouding" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="Kostprijsboekhouding" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Kostenboekhouding instellen" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Kostenposten overbrengen en boeken" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Kosten definiëren en toewijzen" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Kostenbudgetten maken" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Voorraadkosten beheren" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="Over voorraadwaardering" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Voorraadwaardering en kostprijsberekening instellen" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="Procedure: Voorraad herwaarderen" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="Procedure: Artikelkosten herwaarderen" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="Procedure: Voorraad- en productiekosten verwerken" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="Procedure: vaste verrekenprijzen aanpassen" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Kosten rapporteren en afstemmen met het grootboek" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Ontwerpdetails: Voorraadwaardering" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Het grootboek en COA begrijpen" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Werken met dimensies" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="Procedure: budgetten maken" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="Procedure: Transacties direct naar het grootboek boeken" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="Procedure: boekingen tegenboeken" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Procedure: Kosten en inkomsten toewijzen" Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="Procedure: kosten van werknemers registreren en terugbetalen" Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="Procedure: Inkomsten en kosten uitstellen" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="Procedure: Salaristransacties importeren " Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Procedure: Btw rapporteren aan de belastingdienst" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="Procedure: Met btw werken bij verkoop en inkoop" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="Procedure: Servicecontracten met btw-bedragen converteren" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Financiële overzichten analyseren in Excel" Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Cashflows in uw bedrijf analyseren" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Afsluitingsjaren en -perioden" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="Procedure: boekingsperioden opgeven" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="Perioden afsluiten" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Procedure: Valutawisselkoersen bijwerken" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Procedure: Kosten en inkomsten toewijzen" Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="Procedure: Btw rapporteren aan de belastingdienst" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Rapporten voorbereiden die voorafgaan aan een afsluiting" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Boeken afsluiten" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Afsluitingsoverzichten voorbereiden" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Bedrijfsinformatie" Page="bi.html">
+    <Node Name="" DisplayName="Procedure: Werkelijke bedragen analyseren in vergelijking met budgetbedragen." Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met rapportageschema's" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="Procedure: KPI-webservices instellen en publiceren op basis van rekeningschema's" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="Procedure: Gegevens analyseren per dimensie" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="Procedure: Analyselijsten maken" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="Procedure: Rapporten maken met XBRL" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="Verkoop" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="Procedure: Voorstellen maken" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="Procedure: Verkoopbewerkingen" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="Procedure: Producten verkopen" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="Procedure: Periodieke verkoop- en inkoopregels maken" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="Procedure: Doorverzendingen maken" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="Procedure: Speciale orders maken" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="Procedure: Niet-betaalde verkoopfacturen corrigeren of annuleren" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="Procedure: Verkoopretouren of annuleringen verwerken" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met verkoopraamcontracten" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="Procedure: verzendingen combineren op één factuur" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="Procedure: ordertoezeggingsdatums berekenen" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="Procedure: zendingen traceren" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Inkopen" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="Procedure: Inkopen vastleggen" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="Procedure: Offertes aanvragen" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="Procedure: Producten kopen voor een verkoop" Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="Procedure: Niet-betaalde inkoopfacturen corrigeren of annuleren" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="Procedure: Ontvangsten combineren op één factuur" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="Procedure: Inkoopretouren of annuleringen verwerken" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Datumberekening voor inkoop" Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Voorraad" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="Procedure: Nieuwe artikelen registreren" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met stuklijsten" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Procedure: Artikelen categoriseren" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met artikelkenmerken" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met niet-voorraadartikelen" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="Procedure: Voorraad tellen, corrigeren en herindelen" Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="Procedure: beschikbaarheid van artikelen weergeven" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="Procedure: Voorraad overbrengen tussen vestigingen" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="Procedure: Artikelen reserveren" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met serie- en lotnummers" Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met divisies" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Projectbeheer" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="Procedure: Projecten maken" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="Procedure: Resources gebruiken voor projecten" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="Procedure: Urenstaten gebruiken voor projecten" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="Procedure: Projectbudgetten beheren" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="Procedure: Gebruik voor projecten vastleggen" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="Procedure: Projectvoorraden beheren" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="OHW-methoden" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="Procedure: Projectvoortgang en -prestaties bewaken" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="Procedure: Projecten factureren" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Vast activum" Page="fa-manage.html">
+    <Node Name="" DisplayName="Procedure: Vaste activa aanschaffen" Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="Procedure: Vaste activa onderhouden." Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="Procedure: Vaste activa verzekeren" Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="Procedure: Vaste activa verplaatsen, splitsen of combineren." Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="Procedure: Vaste activa herwaarderen" Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="Procedure: Vaste activa afschrijven of aflossen" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="Procedure: Vaste activa buiten gebruik stellen of afstoten" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="Procedure: Budgetten beheren voor vaste activa" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Relatiebeheer" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="CRM instellen" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Contactpersonen beheren" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Segmenten beheren" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Interacties registreren" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Verkoopopportunities beheren" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Klanten en verkopen beheren die in Dynamics 365 for Sales zijn gemaakt" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Human Resources" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="Procedure: Werknemers registreren" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Procedure: Werknemersafwezigheid beheren" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Planning" Page="production-planning.html">
+    <Node Name="" DisplayName="Informatie over het plannen van functionaliteit" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="Procedure: Productie uitbesteden" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Planning met of zonder vestigingen" Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="Procedure: een prognose maken" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="Procedure: productieorders maken op basis van verkooporders" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="Procedure: projectorders plannen" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="Procedure: Nieuwe vraag order voor order plannen" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="Procedure: Volledige Planning, MPS of MRP uitvoeren" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="Procedure: Productieorders direct opnieuw plannen of vernieuwen" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="Procedure: Relatie tussen vraag en aanbod bijhouden" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="Procedure: planningsuggesties in een grafische weergave wijzigen" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Assemblagebeheer" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Op voorraad assembleren of Op order assembleren begrijpen" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="Procedure: een offerte maken voor een op-order-assembleren-verkoop" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="Procedure: artikelen samenstellen" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="Procedure: op order geassembleerde artikelen verkopen" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="Procedure: voorraadartikelen in assembleren-op-order-stromen verkopen" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="Procedure: op-order-assembleren-artikelen en voorraadartikelen samen verkopen" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="Procedure: boeken van assemblage ongedaan maken" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="Procedure: Werken met stuklijsten" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Ontwerpdetails: Assemblageorderboeking" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Productie" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="Informatie over productieorders" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="Procedure: Productieorders maken:" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="Procedure: Productie uitbesteden" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Procedure: Verbruik en output boeken voor één vrijgegeven productieorderregel" Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="Procedure: Verbruik in batches boeken" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="Procedure: Output en bewerkingstijd in batches boeken" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="Procedure: Uitval boeken" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Procedure: De werklast in afdelingen en bewerkingsplaatsen weergeven" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="Procedure: capaciteit boeken" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="Over de kosten van de gereedgemelde productieorder" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Magazijnbeheer" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="Procedure: Artikelen ontvangen" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="Procedure: artikelen cross-docken" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Artikelen opslaan" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Artikelen verplaatsen" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="artikelen picken" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="Procedure: Artikelen verzenden" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="CRM - Service" Page="service-service.html">
+    <Node Name="" DisplayName="Service plannen" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Servicecontracten voldoen" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Service leveren" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="Algemene bedrijfsfunctionaliteit" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="Procedure: Uitgebreide artikeltekst instellen" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Werken met diversendagboeken" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="Procedure: Documenten per e-mail verzenden" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Werken met rapporten" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Lay-outs van rapporten en documenten beheren" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Wijzigingen registreren in Business Central" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Procedure: Gebruikers en machtigingen beheren" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Business Central aanpassen met extensies" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Inkomende documenten" Page="across-income-documents.html">
+      <Node Name="" DisplayName="Procedure: Inkomende documenten instellen" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Inkomende documenten verwerken" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Werkstroom" Page="across-workflow.html">
+      <Node Name="" DisplayName="Werkstromen instellen" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Werkstromen gebruiken" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Gegevens elektronisch uitwisselen" Page="across-data-exchange.html">
+      <Node Name="" DisplayName="Over het kader voor gegevensuitwisseling" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Gegevensuitwisseling instellen" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Gegevens uitwisselen" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Gebruikerstaken definiëren" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Procedures voor bedrijfsprocessen" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Procedure: Een verkoopcampagne uitvoeren" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Procedure: Vooruitbetalingen verkoop instellen en factureren" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Procedure: ontvangen en opslaan in geavanceerde magazijnconfiguraties" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Analyse: Leveringen handmatig plannen" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Analyse: Leveringen automatisch plannen" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Procedure: kits verkopen, assembleren en verzenden" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Analyse: Projecten beheren met taken" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Analyse: Onderhanden werk voor een project berekenen" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Procedure: picken en verzenden in standaardmagazijnconfiguraties" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Procedure: Serie-/lotnummers traceren" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Ontwerpdetails" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Ontwerpdetails: Dimensiesetposten" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Ontwerpdetails: Voorzieningsplanning" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Ontwerpdetails: Voorraadwaardering" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Ontwerpdetails: Magazijnbeheer" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Ontwerpdetails: Artikeltracering" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Ontwerpdetails: dagboekboekingsregel" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Lokale functionaliteit" Page="index.html">
+    <Node Name="" DisplayName="Australië" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Oostenrijk" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="België" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Canada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Denemarken" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Finland" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="Frankrijk" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Duitsland" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="IJsland" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Italië" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Mexico" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Nederland" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="Nieuw-Zeeland" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Noorwegen" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Rusland" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Spanje" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Zweden" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Zwitserland" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Verenigd Koninkrijk" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Verenigde Staten" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>
