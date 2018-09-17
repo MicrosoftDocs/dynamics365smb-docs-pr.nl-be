@@ -29,10 +29,9 @@ Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers ee
 
 > [!IMPORTANT]  
 >   Als u wilt profiteren van contantkortingen en een beschikbaar bedrag hebt ingevoerd, wordt dit bedrag gebruikt voor de volgende posten:  
-
-* Prioritaire openstaande leveranciersposten eerst, in volgorde van prioriteit.  
-* Achterstallige posten zonder prioriteitsnummer.  
-* Openstaande leveranciersposten die voor contantkortingen in aanmerking komen, geordend op leveranciersnummer.  
+    * Prioritaire openstaande leveranciersposten eerst, in volgorde van prioriteit.   
+    * Achterstallige posten zonder prioriteitsnummer.  
+    * Openstaande leveranciersposten die voor contantkortingen in aanmerking komen, geordend op leveranciersnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>De functie Leveranciersbetalingen voorstellen gebruiken
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
