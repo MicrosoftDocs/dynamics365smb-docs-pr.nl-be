@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Vraag en aanbod afsluiten | Microsoft Docs'
-description: Wanneer de vereffeningsprocedures voor voorzieningen zijn uitgevoerd, zijn er drie mogelijke eindsituaties.
+title: 'Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen | Microsoft Docs'
+description: Codevoorbeelden die gewijzigde patronen tonen in dimensiecodewijziging en migratie voor vijf verschillende scenario's. De codevoorbeelden in eerdere versies worden vergeleken met de codevoorbeelden in Business Central.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a><span data-ttu-id="9de53-103">Ontwerpdetails: Vraag en aanbod afsluiten</span><span class="sxs-lookup"><span data-stu-id="9de53-103">Design Details: Closing Demand and Supply</span></span>
-<span data-ttu-id="9de53-104">Wanneer de vereffeningsprocedures voor voorzieningen zijn uitgevoerd, zijn er drie mogelijke eindsituaties:</span><span class="sxs-lookup"><span data-stu-id="9de53-104">When the supply balancing procedures have been performed, there are three possible end situations:</span></span>  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="6dbd0-104">Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen</span><span class="sxs-lookup"><span data-stu-id="6dbd0-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="6dbd0-105">In dit onderwerp vindt u codevoorbeelden om gewijzigde patronen te tonen in dimensiecodewijziging en migratie voor vijf verschillende scenario's.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="6dbd0-106">De codevoorbeelden in eerdere versies worden vergeleken met de codevoorbeelden in Business Central.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
--   <span data-ttu-id="9de53-105">Er is voldaan aan het benodigde aantal en de datum van de vraaggebeurtenissen en de planning hiervoor kan worden afgesloten.</span><span class="sxs-lookup"><span data-stu-id="9de53-105">The required quantity and date of the demand events have been met and the planning for them can be closed.</span></span> <span data-ttu-id="9de53-106">De voorzieningsgebeurtenis is nog open en kan de volgende vraag verwerken, zodat de vereffeningsprocedure overnieuw kan starten met de huidige voorzieningsgebeurtenis en de volgende vraag.</span><span class="sxs-lookup"><span data-stu-id="9de53-106">The supply event is still open and may be able to cover the next demand, so the balancing procedure can start over with the current supply event and the next demand.</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="6dbd0-107">Een dagboekregel boeken</span><span class="sxs-lookup"><span data-stu-id="6dbd0-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="6dbd0-108">Belangrijke wijzigingen worden als volgt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="6dbd0-108">Key changes are listed as follows:</span></span>  
+  
+- <span data-ttu-id="6dbd0-109">Dagboekregeldimensietabellen worden verwijderd.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-109">Journal line dimension tables are removed.</span></span>  
+  
+- <span data-ttu-id="6dbd0-110">Een dimensieset-id die in het veld **Dimensieset-id** is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+  
+<span data-ttu-id="6dbd0-111">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="6dbd0-111">**Earlier Versions**</span></span>  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a><span data-ttu-id="6dbd0-112">Een document boeken</span><span class="sxs-lookup"><span data-stu-id="6dbd0-112">Posting a Document</span></span>  
+ <span data-ttu-id="6dbd0-113">Wanneer u een document in [!INCLUDE[d365fin](includes/d365fin_md.md)] boekt, hoeft u niet meer de documentdimensies te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+  
+ <span data-ttu-id="6dbd0-114">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="6dbd0-114">**Earlier Versions**</span></span>  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="6dbd0-115">Dimensies uit een document bewerken</span><span class="sxs-lookup"><span data-stu-id="6dbd0-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="6dbd0-116">U kunt dimensies uit een document bewerken.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="6dbd0-117">U kunt bijvoorbeeld een verkooporderregel bewerken.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-117">For example, you can edit a sales order line.</span></span>  
+  
+ <span data-ttu-id="6dbd0-118">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="6dbd0-118">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="6dbd0-119">Dimensies van geboekte posten weergeven</span><span class="sxs-lookup"><span data-stu-id="6dbd0-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="6dbd0-120">U kunt dimensies van geboekte posten tonen, zoals verkoopverzendregels.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+  
+ <span data-ttu-id="6dbd0-121">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="6dbd0-121">**Earlier Versions**</span></span>  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="6dbd0-122">Standaarddimensies ophalen voor een document</span><span class="sxs-lookup"><span data-stu-id="6dbd0-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="6dbd0-123">U kunt standaarddimensies krijgen voor een document, zoals een verkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="6dbd0-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+  
+ <span data-ttu-id="6dbd0-124">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="6dbd0-124">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   <span data-ttu-id="9de53-107">De voorzieningenorder kan niet worden aangepast om alle vraag te verwerken.</span><span class="sxs-lookup"><span data-stu-id="9de53-107">The supply order cannot be modified to cover all of the demand.</span></span> <span data-ttu-id="9de53-108">De vraaggebeurtenis is nog open, met een niet-gedekt aantal dat mogelijk kan worden gedekt door de volgende voorzieningsgebeurtenis.</span><span class="sxs-lookup"><span data-stu-id="9de53-108">The demand event is still open, with some uncovered quantity that may be covered by the next supply event.</span></span> <span data-ttu-id="9de53-109">De huidige voorzieningsgebeurtenis wordt dus afgesloten, zodat de vereffeningsprocedure opnieuw kan starten met de huidige vraag en de volgende voorzieningsgebeurtenis.</span><span class="sxs-lookup"><span data-stu-id="9de53-109">Thus the current supply event is closed, so the balancing act can start over with the current demand and the next supply event.</span></span>  
+```  
 
--   <span data-ttu-id="9de53-110">Alle vraag is gedekt; er is geen verdere vraag (of er is helemaal geen vraag geweest).</span><span class="sxs-lookup"><span data-stu-id="9de53-110">All of the demand has been covered; there is no subsequent demand (or there has been no demand at all).</span></span> <span data-ttu-id="9de53-111">Als er eventuele surplusvoorziening is, kan deze worden verlaagd (of geannuleerd) en vervolgens gesloten.</span><span class="sxs-lookup"><span data-stu-id="9de53-111">If there is any surplus supply, it may be decreased (or canceled) and then closed.</span></span> <span data-ttu-id="9de53-112">Het is mogelijk dat er verder in de keten aanvullende voorzieninggebeurtenissen zijn en die moeten ook worden geannuleerd.</span><span class="sxs-lookup"><span data-stu-id="9de53-112">It is possible that additional supply events exist further along in the chain, and they should also be canceled.</span></span>  
-
- <span data-ttu-id="9de53-113">Als laatste maakt het planningssysteem een ordertraceringskoppeling tussen de voorziening en de vraag.</span><span class="sxs-lookup"><span data-stu-id="9de53-113">Last, the planning system will create an order tracking link between the supply and the demand.</span></span>  
-
-## <a name="creating-the-planning-line-suggested-action"></a><span data-ttu-id="9de53-114">De planningsregel (voorgestelde actie) maken</span><span class="sxs-lookup"><span data-stu-id="9de53-114">Creating the Planning Line (Suggested Action)</span></span>  
- <span data-ttu-id="9de53-115">Als een actie - Nieuw, Aantal wijzigen, Herplannen, Herplannen en aantal wijzigen of Annuleren- wordt voorgesteld om de voorzieningenorder te herzien, maakt het planningssysteem een planningsregel in het planningsvoorstel.</span><span class="sxs-lookup"><span data-stu-id="9de53-115">If any action – New, Change Quantity, Reschedule, Reschedule and Change Quantity, or Cancel – is suggested to revise the supply order, the planning system creates a planning line in the planning worksheet.</span></span> <span data-ttu-id="9de53-116">Vanwege ordertracering wordt de planningsregel niet alleen gemaakt wanneer de voorzieningsgebeurtenis wordt afgesloten, maar ook als de vraaggebeurtenis wordt afgesloten, zelfs als de voorzieningsgebeurtenis nog openstaat en nog kan veranderen als de volgende vraaggebeurtenis wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="9de53-116">Due to order tracking, the planning line is created not only when the supply event is closed, but also if the demand event is closed, even though the supply event is still open and may be subject to additional changes when the next demand event is processed.</span></span> <span data-ttu-id="9de53-117">Dit betekent dat nadat de planningsregel is gemaakt, deze weer kan worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="9de53-117">This means that when first created, the planning line may be changed again.</span></span>  
-
- <span data-ttu-id="9de53-118">Om databasetoegang te beperken bij het verwerken van productieorders, kan de planningsregel worden onderhouden op drie niveaus terwijl wordt geprobeerd het minst veeleisende onderhoudsniveau uit te voeren:</span><span class="sxs-lookup"><span data-stu-id="9de53-118">To minimize database access when handling production orders, the planning line can be maintained in three levels, while aiming to perform the least demanding maintenance level:</span></span>  
-
--   <span data-ttu-id="9de53-119">Maak alleen de planningsregel met de huidige vervaldatum en aantal maar zonder het bewerkingsplan en materialen.</span><span class="sxs-lookup"><span data-stu-id="9de53-119">Create only the planning line with the current due date and quantity but without the routing and components.</span></span>  
-
--   <span data-ttu-id="9de53-120">Bewerkingsplan opnemen: het geplande bewerkingsplan wordt opgesteld inclusief de berekening van begin- en einddatums en -tijden.</span><span class="sxs-lookup"><span data-stu-id="9de53-120">Include routing: the planned routing is laid out including calculation of starting and ending dates and times.</span></span> <span data-ttu-id="9de53-121">Dit is vereist voor wat betreft de databasetoegang.</span><span class="sxs-lookup"><span data-stu-id="9de53-121">This is demanding in terms of database accesses.</span></span> <span data-ttu-id="9de53-122">Voor het bepalen van de eind- en vervaldatums kan het noodzakelijk zijn om dit te berekenen, zelfs als de voorzieningsgebeurtenis niet is afgesloten (in het geval van voorwaartse planning).</span><span class="sxs-lookup"><span data-stu-id="9de53-122">To determine the ending and due dates, it may be necessary to calculate this even if the supply event has not been closed (in the case of forward scheduling).</span></span>  
-
--   <span data-ttu-id="9de53-123">Ontwikkeling stuklijst opnemen: dit kan wachten tot vlak voordat de voorzieningsgebeurtenis wordt gesloten.</span><span class="sxs-lookup"><span data-stu-id="9de53-123">Include BOM explosion: this can wait until just before the supply event is closed.</span></span>  
-
- <span data-ttu-id="9de53-124">Hiermee worden de omschrijvingen afgerond van hoe vraag en voorzieningen worden geladen, prioriteit krijgen en worden vereffend door het planningssysteem.</span><span class="sxs-lookup"><span data-stu-id="9de53-124">This concludes the descriptions of how demand and supply is loaded, prioritized, and balanced by the planning system.</span></span> <span data-ttu-id="9de53-125">Bij integratie met deze voorraadplanningactiviteit moet het systeem ervoor zorgen dat het vereiste voorraadniveau van elk gepland artikel wordt onderhouden op basis van het bestelbeleid.</span><span class="sxs-lookup"><span data-stu-id="9de53-125">In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="9de53-126">Zie ook</span><span class="sxs-lookup"><span data-stu-id="9de53-126">See Also</span></span>  
- <span data-ttu-id="9de53-127">[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="9de53-127">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
- <span data-ttu-id="9de53-128">[Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="9de53-128">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
- [<span data-ttu-id="9de53-129">Ontwerpdetails: Voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="9de53-129">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
-
+## <a name="see-also"></a><span data-ttu-id="6dbd0-125">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6dbd0-125">See Also</span></span>  
+<span data-ttu-id="6dbd0-126">[Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="6dbd0-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="6dbd0-127">[Ontwerpdetails: Tabelstructuur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="6dbd0-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="6dbd0-128">Ontwerpdetails: Codeunit 408 dimensiebeheer</span><span class="sxs-lookup"><span data-stu-id="6dbd0-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)

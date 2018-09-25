@@ -110,7 +110,6 @@
 ### [Voorraad tellen, corrigeren of herindelen](inventory-how-count-adjust-reclassify.md)
 ### [Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Picken volgens FEFO inschakelen](warehouse-picking-by-fefo.md)
-### [Geautomatiseerd systeem voor gegevensvastlegging (ADCS) inschakelen](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)
 ## [Productie instellen](production-configure-production-processes.md)
 ### [Afdelingsagenda's maken](production-how-to-create-work-center-calendars.md)
