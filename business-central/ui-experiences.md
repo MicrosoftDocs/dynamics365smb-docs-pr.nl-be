@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 05/27/2018
+ms.date: 07/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
@@ -36,7 +36,7 @@ In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar z
 | **Premium** |Hier worden alle acties en velden voor alle bedrijfsfuncties weergegeven, inclusief Productie en Servicebeheer.|
 
 > [!NOTE]  
-> Welke ervaringen u kunt selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], is afhankelijk van uw oplossingslicentie, een abonnement genaamd. Voor informatie over de abonnementen **Essentieel** en **Premium** raadpleegt u [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) op de marketingsite van Microsoft Dynamics 365. Zie ook de [!INCLUDE[d365fin](includes/d365fin_md.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Welke ervaringen u kunt selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], is afhankelijk van uw oplossingslicentie, een abonnement genaamd. Voor informatie over de abonnementen **Essentieel** en **Premium** raadpleegt u [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) op de marketingsite van Microsoft Dynamics 365. Zie ook de [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Alle normale gebruikers in een oplossing moeten aan hetzelfde plan worden toegewezen, Essential of Premium, voordat die ervaring kan worden geselecteerd voor het bedrijf. Een gebruiker kan daarom geen Premium-functies gebruiken als een of meer andere gebruikers alleen toegang hebben tot Essential-functies. Dit geldt niet voor niet-normale gebruikers van het type Teamlid, Interne admin, Externe accountant en Gedelegeerde admin, die allemaal aan een ander plan kunnen zijn toegewezen dan andere gebruikers in de oplossing.
@@ -69,5 +69,4 @@ U kunt nu doorgaan met de nieuwe ervaring te selecteren.
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

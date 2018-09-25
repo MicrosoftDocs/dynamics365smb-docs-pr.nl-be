@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
@@ -40,8 +40,8 @@ De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie va
 |Definiëren wanneer en hoe artikelen in magazijnvestigingen voor onderhoud of voor financiële verslaglegging worden geteld.|[Voorraad tellen, corrigeren of herindelen](inventory-how-count-adjust-reclassify.md)|
 |Magazijnmedewerkers in staat stellen een grotere eenheid in kleinere eenheden op te breken om aan de eisen van brondocumenten te voldoen.|[Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Het magazijn zo instellen dat het automatisch die artikelen voor picken voorstelt die het eerst vervallen.|[Picken volgens FEFO inschakelen](warehouse-picking-by-fefo.md)|
-|Streepjescodelezers integreren in de magazijnbeheeroplossing.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|  
+|Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Streepjescodelezers integreren in de magazijnbeheeroplossing.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

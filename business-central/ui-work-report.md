@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Werken met rapporten
 In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
 
-U treft de rapporten aan op het tabblad **Rapporten** op geselecteerde pagina's, of u kunt door middel van zoeken rapporten op hun naam vinden. Wanneer u een rapport opent, ziet u een pagina waarop u informatie kunt opgeven door middel van opties en filters, waarmee u bepaalt u wat u in het rapport wilt opnemen. Afhankelijk van het rapport kunt u bijvoorbeeld een datumbereik opgeven, of een specifieke record zoals een klant, of een sorteervolgorde. Hier volgt een voorbeeld:
+U kunt rapporten vinden op het tabblad **Rapporten** op geselecteerde pagina's of u kunt zoeken ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") om rapporten op naam te zoeken.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>De gegevens opgeven die in het rapport moeten worden opgenomen
+Wanneer u een rapport opent, ziet u meestal een pagina waarop u verschillende opties en filters kunt kiezen die bepalen wat er in het rapport wordt opgenomen. Deze pagina wordt de rapportaanvraagpagina genoemd. Op de rapportaanvraagpagina kunt u bijvoorbeeld een rapport voor een specifieke klant maken, een bepaald datumbereik of de informatie in het rapport sorteren. Hier volgt een voorbeeld van een rapportaanvraagpagina:
 
 ![Rapportopties](media/report_options.png "Rapportopties")
+
+### <a name="SavedSettings"></a>Opgeslagen instellingen gebruiken
+Met sommige rapporten, afhankelijk van hoe ze zijn ontworpen, kan de rapportpagina het gedeelte **Opgeslagen instellingen** bevatten dat een of meer vermeldingen in het vak **Standaardwaarde gebruiken uit** bevat. De vermeldingen in dit vak worden *opgeslagen instellingen* genoemd. Een opgeslagen instelling is een vooraf gedefinieerde groep opties en filters, die u op het rapport kunt toepassen voordat u er een voorbeeld van bekijkt of het rapport naar een bestand stuurt. De opgeslagen instelling met de naam **Laatst gebruikte opties en filters** is altijd beschikbaar. Deze vermelding stelt het rapport in op de opties en filters die waren ingesteld toen het rapport voor de laatste keer werd bekeken.
+
+Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten. Nadat u het vak **Standaardwaarde gebruiken uit** hebt ingesteld op een vermelding van een opgeslagen instelling, kunt u de opties en filters aanpassen voordat u een voorbeeld van het rapport bekijkt of het opslaat. De wijzigingen die u aanbrengt, worden niet opgeslagen in de vermelding van opgeslagen instellingen die u hebt geselecteerd, maar ze worden wel opgeslagen in de **Laatst gebruikte opties en filters**.
+
+>[!NOTE]
+>Als u beheerder bent, kunt u de opgeslagen instellingen van rapporten maken en beheren voor alle gebruikers. Zie voor meer informatie [Opgeslagen instellingen in rapporten beheren](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Opties en filters instellen
+Als u de gegevens die in een rapport worden opgenomen verder wilt beperken of verfijnen, kunt u aanvullende filters en opties instellen.
+
+Met filters kunt u gegevens weergeven op basis van bepaalde criteria. Filters worden gegroepeerd door de entiteit waartoe ze behoren, zoals **Klant** in de illustratie hierboven. U definieert een filter door het vak **Waar** in te stellen op het veld waarop u wilt filteren en vervolgens het criterium toe te voegen in het vak **is:**. In de illustratie hierboven bijvoorbeeld is er één filter dat het rapport maakt voor de klant van wie het **Nr.** gelijk is aan **01121212**.
+
+U kunt meer filters toevoegen door de vakken **Toevoegen** in te stellen. Als u meer dan één filter hebt, worden alleen resultaten die aan de criteria van alle filters voldoen, opgenomen in het rapport.
+
+Afhankelijk van het type veld dat u filtert, kunt u de filtercriteria opgeven om een exacte overeenkomst te zoeken, een gedeeltelijke overeenkomst, een bereik waarden en meer. Zie voor hulp bij het instellen van filters:
+-   [Filteren](ui-enter-criteria-filters.md#FilterCriteria)
+-   [Datumbereiken invoeren](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Een voorbeeldweergave van een rapport openen
 Klik op **Voorbeeld** om het rapport te openen in uw internetbrowser. Wijs met de muisaanwijzer een gebied in het rapport aan om de menubalk op te roepen.  
@@ -57,14 +80,6 @@ U kunt een rapport plannen wanneer u een rapport opent. U kiest de actie **Plann
 
 ## <a name="PrintReport"></a>Een rapport afdrukken
 U kunt een rapport afdrukken via de knop **Afdrukken** op de optiepagina die wordt weergegeven als u het rapport opent of via de menubalk in Voorbeeld.
-
-## <a name="using-saved-settings"></a>Opgeslagen instellingen gebruiken
-Een rapport kan een of meer vermeldingen bevatten in het vak **Opgeslagen instellingen**. *Opgeslagen instellingen* is een groep vooraf gedefinieerde opties en filters, die u op het rapport kunt toepassen voordat u de voorbeeldweergave maakt of het rapport als een bestand opslaat. Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten.
-
-De opgeslagen instelling met de naam **Laatst gebruikte opties en filters** is altijd beschikbaar. Deze vermelding stelt het rapport in op de opties en filters die waren ingesteld toen het rapport voor de laatste keer werd bekeken.
-
->[!NOTE]
->Als beheerder kunt u de opgeslagen instellingen van rapporten configureren en beheren voor alle gebruikers. Zie voor meer informatie [Opgeslagen instellingen in rapporten beheren](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>De lay-out en weergave van een rapport weergeven
 Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is ingedeeld en hoe het is opgemaakt. Zie [Wijzigen welke lay-out momenteel in een rapport wordt gebruikt](ui-how-change-layout-currently-used-report.md) als u naar een andere lay-out wilt schakelen. Of zie [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md) als u uw eigen rapportlay-out wilt aanpassen.
