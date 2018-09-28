@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9628976ace37f672f86e23b365e49a7ce2f49aea
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="1c2a9-103">Ontwerpdetails: Artikelvereffening</span><span class="sxs-lookup"><span data-stu-id="1c2a9-103">Design Details: Item Application</span></span>
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="1c2a9-106">Bovendien wordt een artikelvereffening gemaakt om de kostenontvanger aan zijn kostenbron te koppelen om te zorgen voor doorsturen van kosten volgens de waarderingsmethode.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="1c2a9-107">Zie [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1c2a9-108"> maakt twee soorten artikelvereffening.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="1c2a9-108">maakt twee soorten artikelvereffening.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-108"> makes two types of item application.</span></span>  
 
 |<span data-ttu-id="1c2a9-109">Soort vereffening</span><span class="sxs-lookup"><span data-stu-id="1c2a9-109">Application type</span></span>|<span data-ttu-id="1c2a9-110">Description</span><span class="sxs-lookup"><span data-stu-id="1c2a9-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -237,7 +237,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="1c2a9-524">U wilt de vereffening negeren die automatisch wordt gemaakt wanneer u boekt, volgens de waarderingsmethode van het artikel.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="1c2a9-525">U moet een artikel retourneren waarop een verkoop al handmatig is toegepast zonder de functie **Geboekte documentregels ophalen voor tegenboeking** te gebruiken en u moet daarom de vereffening ongedaan maken.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1c2a9-526"> biedt een functie voor het analyseren en corrigeren van artikelvereffeningen.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="1c2a9-527">Dit werk wordt uitgevoerd in het venster **Vereffeningsvoorstel**.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="1c2a9-526">biedt een functie voor het analyseren en corrigeren van artikelvereffeningen.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="1c2a9-527">Dit werk wordt uitgevoerd in het venster **Vereffeningsvoorstel**.</span><span class="sxs-lookup"><span data-stu-id="1c2a9-527">This work is performed in the **Application Worksheet** window.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="1c2a9-528">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1c2a9-528">See Also</span></span>  
 [<span data-ttu-id="1c2a9-529">Ontwerpdetails: bekend probleem met artikelvereffening</span><span class="sxs-lookup"><span data-stu-id="1c2a9-529">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2a888b95bd0572d23ee3c331b501ec246685213
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 74de4512b918dd56e91cba42c2aac2b80703ab03
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-intrastat-third-party-declarations"></a><span data-ttu-id="31a57-104">Intrastat-aangiftes van derden exporteren</span><span class="sxs-lookup"><span data-stu-id="31a57-104">Export Intrastat Third-Party Declarations</span></span>

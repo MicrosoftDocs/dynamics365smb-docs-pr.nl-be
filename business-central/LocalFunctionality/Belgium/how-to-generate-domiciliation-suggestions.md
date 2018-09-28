@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf633fb5a142a59ea54e5cac0552cabecb015e9d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 192696338f47d400ea54b95dbae0c2efe70a2ef6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="generate-domiciliation-suggestions"></a><span data-ttu-id="d3ad7-104">Domiciliëringsvoorstellen genereren</span><span class="sxs-lookup"><span data-stu-id="d3ad7-104">Generate Domiciliation Suggestions</span></span>

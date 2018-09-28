@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e04b3b54ae69691f3af75d4c57f73f1f78a4c2fd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b3c5d1116ab5deeab86433f72c103f9fdffc4d23
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="automatically-transfer-and-post-coda-statements"></a><span data-ttu-id="be414-103">CODA-afschriften automatisch overbrengen en boeken</span><span class="sxs-lookup"><span data-stu-id="be414-103">Automatically Transfer and Post CODA Statements</span></span>

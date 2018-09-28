@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4aa1af479ed945cb2a99e7dbca196919221820f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d686633d74d1a494d71f300d57af928ab826a036
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a><span data-ttu-id="c9880-104">Domiciliëringsregels bewerken en verwijderen</span><span class="sxs-lookup"><span data-stu-id="c9880-104">Edit and Delete Domiciliation Lines</span></span>

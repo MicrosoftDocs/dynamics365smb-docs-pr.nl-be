@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="693b0-105">Gebruik van taakwachtrijen om taken te plannen</span><span class="sxs-lookup"><span data-stu-id="693b0-105">Use Job Queues to Schedule Tasks</span></span>
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="693b0-127">U wilt mogelijk ook boekingen plannen voor tijden die geschikt zijn voor uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="693b0-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="693b0-128">Het kan bijvoorbeeld zinvol zijn in uw bedrijf bepaalde routines uit te voeren wanneer de meeste van de gegevensinvoer voor de dag is afgesloten.</span><span class="sxs-lookup"><span data-stu-id="693b0-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="693b0-129">U kunt dat bereiken door de taakwachtrij in te stellen om diverse batchverwerkingsrapporten uit te voeren, zoals **Batchboeken verkooporders**, **Batchboeken verkoopfacturen** en **Batchboeken verk.-creditnota**.</span><span class="sxs-lookup"><span data-stu-id="693b0-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="693b0-130"> ondersteunt boeken op de achtergrond voor de volgende documentsoorten:</span><span class="sxs-lookup"><span data-stu-id="693b0-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="693b0-130">ondersteunt boeken op de achtergrond voor de volgende documentsoorten:</span><span class="sxs-lookup"><span data-stu-id="693b0-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="693b0-131">Verkoop: verkooporder, retourorder, creditnota, factuur</span><span class="sxs-lookup"><span data-stu-id="693b0-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 

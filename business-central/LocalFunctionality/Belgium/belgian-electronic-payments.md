@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/31/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3da762ff74d8065e1c2af18ccfa4a8390092c316
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea8ae79a6d45a9dcdd0e36cc5a780b24fc9b8e98
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="belgian-electronic-payments"></a><span data-ttu-id="44709-103">Belgische elektronische betalingen</span><span class="sxs-lookup"><span data-stu-id="44709-103">Belgian Electronic Payments</span></span>

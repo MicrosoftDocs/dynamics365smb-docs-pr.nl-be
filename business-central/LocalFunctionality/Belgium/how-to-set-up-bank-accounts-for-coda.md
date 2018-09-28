@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8dbf9b9bfe002cab8481c91c53da978745d5817f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9dd266506dcc8980bf2cc88fd5a2fc79d8134282
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-bank-accounts-for-coda"></a><span data-ttu-id="65865-103">Bankrekeningen instellen voor CODA</span><span class="sxs-lookup"><span data-stu-id="65865-103">Set Up Bank Accounts for CODA</span></span>

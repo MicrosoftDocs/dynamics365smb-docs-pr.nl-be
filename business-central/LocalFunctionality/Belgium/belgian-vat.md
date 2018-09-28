@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/31/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 243c13d8f0dccaf8fb3e26dc0ab97ea6975cd0af
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6091e33600641d1d5fa6624c0dce48bd663ddb48
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="belgian-vat"></a><span data-ttu-id="e36b7-103">Belgische btw</span><span class="sxs-lookup"><span data-stu-id="e36b7-103">Belgian VAT</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="e36b7-104"> bevat Belgische uitbreidingen op de btw-rapportagefunctie waarmee u btw-transactiedetails kunt afdrukken.</span><span class="sxs-lookup"><span data-stu-id="e36b7-104"> includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details.</span></span> <span data-ttu-id="e36b7-105">U moet de volgende rapporten aan de Belgische belastingdienst versturen:</span><span class="sxs-lookup"><span data-stu-id="e36b7-105">You must send the following reports to the Belgian tax authorities:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="e36b7-104">bevat Belgische uitbreidingen op de btw-rapportagefunctie waarmee u btw-transactiedetails kunt afdrukken.</span><span class="sxs-lookup"><span data-stu-id="e36b7-104"> includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details.</span></span> <span data-ttu-id="e36b7-105">U moet de volgende rapporten aan de Belgische belastingdienst versturen:</span><span class="sxs-lookup"><span data-stu-id="e36b7-105">You must send the following reports to the Belgian tax authorities:</span></span>  
 
 -   <span data-ttu-id="e36b7-106">Aangifte per maand/kwartaal - Dit rapport wordt gebruikt om maandelijkse of driemaandelijkse btw-aangiftes te maken, afhankelijk van uw bedrijfsinkomsten.</span><span class="sxs-lookup"><span data-stu-id="e36b7-106">Monthly/Quarterly declaration - This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.</span></span>  
 

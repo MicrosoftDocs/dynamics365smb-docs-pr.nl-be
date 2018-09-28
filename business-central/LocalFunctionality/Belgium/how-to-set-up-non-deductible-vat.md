@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9bc5416852f31457166a982538093f387c6b4698
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8dd5807899ea8c70aef08e3528bac7b3445c8db9
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-non-deductible-vat"></a><span data-ttu-id="4953e-103">Niet-aftrekbare btw instellen</span><span class="sxs-lookup"><span data-stu-id="4953e-103">Set Up Non-Deductible VAT</span></span>

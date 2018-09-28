@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b4a4d0f44a35289baa99655c5b8ad2311fac2d5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3ce907b08f925c28e682b0fcd07df72677e0a379
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="direct-debit-using-domiciliation"></a><span data-ttu-id="ef5fd-104">Incasso via domiciliëring</span><span class="sxs-lookup"><span data-stu-id="ef5fd-104">Direct Debit Using Domiciliation</span></span>

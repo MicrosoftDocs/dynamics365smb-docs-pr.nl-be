@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 84933111ee87468f5d018b6399b4bb80359ac5fc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 35406d6af618e4a04aec0ecff23d3a71570e6413
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a><span data-ttu-id="013c2-103">Leveranciers voor automatische betalingsvoorstellen instellen</span><span class="sxs-lookup"><span data-stu-id="013c2-103">Set Up Vendors for Automatic Payment Suggestions</span></span>

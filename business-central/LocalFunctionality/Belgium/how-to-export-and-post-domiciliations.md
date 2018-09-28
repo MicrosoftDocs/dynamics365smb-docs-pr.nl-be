@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940496c083e342f1ee88aecbfe0ad449ff830d65
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8bbfbf5c035a65863a1cfc497bfcd18c00518a52
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-and-post-domiciliations"></a><span data-ttu-id="e0dda-104">Domiciliëringen exporteren en boeken</span><span class="sxs-lookup"><span data-stu-id="e0dda-104">Export and Post Domiciliations</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e978d7faf708574e24490f31fa6520a21ebd879
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b38cc5fda1718d38e947b456bf404e15f06c8aad
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="test-electronic-payments"></a><span data-ttu-id="bd009-103">Elektronische betalingen testen</span><span class="sxs-lookup"><span data-stu-id="bd009-103">Test Electronic Payments</span></span>

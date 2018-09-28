@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9279805e75e0729616a6c5eea3761dc69f310cf7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f6289c2bf0d4336f874cc6fc2209b7e70949b87a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-iblc-blwi-transaction-codes"></a><span data-ttu-id="7c31d-103">IBLC-BLWI-transactiecodes instellen</span><span class="sxs-lookup"><span data-stu-id="7c31d-103">Set Up IBLC-BLWI Transaction Codes</span></span>

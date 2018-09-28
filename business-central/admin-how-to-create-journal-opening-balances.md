@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-journal-opening-balances"></a><span data-ttu-id="2be43-104">Beginsaldi van dagboeken maken</span><span class="sxs-lookup"><span data-stu-id="2be43-104">Create Journal Opening Balances</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="2be43-105"> bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf.</span><span class="sxs-lookup"><span data-stu-id="2be43-105"> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company.</span></span> <span data-ttu-id="2be43-106">U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.</span><span class="sxs-lookup"><span data-stu-id="2be43-106">You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="2be43-105">bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf.</span><span class="sxs-lookup"><span data-stu-id="2be43-105"> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company.</span></span> <span data-ttu-id="2be43-106">U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.</span><span class="sxs-lookup"><span data-stu-id="2be43-106">You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.</span></span>
 
 <span data-ttu-id="2be43-107">De eerste stap is het maken van een configuratiepakket dat de instellingentabellen voor deze dagboeken bevat.</span><span class="sxs-lookup"><span data-stu-id="2be43-107">The first step is to create a configuration package that includes the setup tables for those journals.</span></span> <span data-ttu-id="2be43-108">In de volgende procedure wordt ervan uitgegaan dat deze stap is voltooid.</span><span class="sxs-lookup"><span data-stu-id="2be43-108">The following procedure assumes that this step is completed.</span></span> <span data-ttu-id="2be43-109">Zie [Bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="2be43-109">For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md).</span></span> <span data-ttu-id="2be43-110">In de procedure worden de daaropvolgende stappen beschreven, waaronder de toepassing van het pakket dat wordt geleverd door een partner.</span><span class="sxs-lookup"><span data-stu-id="2be43-110">This procedure describes the subsequent steps, which include applying the package that is provided by a partner.</span></span>  
 

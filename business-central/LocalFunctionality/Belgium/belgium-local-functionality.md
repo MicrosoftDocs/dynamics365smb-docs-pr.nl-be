@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: fbdb60ddedb5c7dfa0d2e54978c32e2539b544b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 58086868abfe9c3e7407c5d14f7a6e7fed23cf1b
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="belgium-local-functionality"></a><span data-ttu-id="652ed-103">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="652ed-103">Belgium Local Functionality</span></span>

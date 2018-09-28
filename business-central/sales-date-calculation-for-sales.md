@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc73a03c44896bda5d1fdf789a8b349f796c6e58
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7de382530c1872155903bfa015866cf99a9f5566
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="date-calculation-for-sales"></a><span data-ttu-id="ab7e2-104">Datumberekening voor verkoop</span><span class="sxs-lookup"><span data-stu-id="ab7e2-104">Date Calculation for Sales</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ab7e2-105"> berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="ab7e2-105"> automatically calculates the earliest possible date that an item on a sales order line can be shipped.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ab7e2-105">berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="ab7e2-105"> automatically calculates the earliest possible date that an item on a sales order line can be shipped.</span></span>
 
 <span data-ttu-id="ab7e2-106">Als de klant om een specifieke leverdatum heeft verzocht, wordt berekend op welke datum de artikelen moeten kunnen worden gepickt, zodat ze op deze datum kunnen worden geleverd.</span><span class="sxs-lookup"><span data-stu-id="ab7e2-106">If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.</span></span>
 

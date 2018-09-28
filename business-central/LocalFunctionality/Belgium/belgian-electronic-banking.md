@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/31/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad713473e3d4991e5e7b5e09f1de63f3a381de10
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3c6beb7dec4b5b2594ee3232ea6c28dffa4a501a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="belgian-electronic-banking"></a><span data-ttu-id="cb235-105">Elektronisch bankieren voor België</span><span class="sxs-lookup"><span data-stu-id="cb235-105">Belgian Electronic Banking</span></span>
