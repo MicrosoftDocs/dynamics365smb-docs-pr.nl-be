@@ -1,17 +1,15 @@
 ---
 title: Overzicht van taken om crediteuren te beheren | Microsoft Docs
 description: Schetst taken om crediteuren te beheren, bijvoorbeeld crediteuren betalen of uitgaande betalingen vereffenen met posten om facturen of creditnota's te sluiten.
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
 ms.openlocfilehash: 5482579cb453b119be1b6eb5c24d5adc9441ea8b
@@ -20,6 +18,7 @@ ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
+
 Een belangrijk deel van het beheer van uw betalingsverplichtingen is het betalen van uw leveranciers of het vergoeden van kosten die uw werknemers maken. U kunt functies gebruiken om in het venster **Betalingsdagboek** automatisch betalingsregels toe te voegen voor inkoopfacturen die betaald moeten worden. Als u banktransacties naar uw bank wilt verzenden, kunt u meerdere betalingsdagboekregels naar een bestand exporteren, dat u vervolgens naar uw bank uploadt. U kunt ook betalingen per cheque doen, inclusief deze verzenden als elektronische betalingen.
 
 Een andere veel voorkomende taak is uitgaande betalingen met de relateerde leveranciers- of werknemersposten te vereffenen om daarmee de gerelateerde inkoopfacturen, inkoopcreditnota's of onkostendeclaraties te sluiten als zijnde betaald. U kunt dit werk in het venster **Betalingsreconciliatiedagboek** doen door een bankafschriftbestand te importeren om de betalingen te registreren. De betalingen worden vereffend met openstaande leveranciers-, klanten- of werknemersposten, door de betalingtekst te vergelijken met de informatie in de posten. Er zijn verschillende manieren om de overeenkomsten te controleren en te wijzigen voordat u het dagboek boekt. U kunt ervoor kiezen om openstaande bankrekeningposten met betrekking tot de vereffende posten te sluiten wanneer u het dagboek boekt. De bankrekening wordt automatisch gereconcilieerd wanneer alle betalingen worden vereffend.
@@ -43,5 +42,4 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
