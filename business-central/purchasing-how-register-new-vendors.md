@@ -1,5 +1,5 @@
 ---
-title: Een klantenkaart maken om nieuwe klanten te registreren | Microsoft Docs
+title: Een leverancierskaart maken om nieuwe leveranciers te registreren | Microsoft Docs
 description: Meer informatie over hoe u een leverancierskaart maakt om een nieuwe leverancier te registreren.
 services: project-madeira
 documentationcenter: 
