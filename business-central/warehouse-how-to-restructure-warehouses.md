@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1f84075772f4862d762c9bf2179614f357fd4ca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="restructure-warehouses"></a>Magazijnen herstructureren
@@ -29,11 +29,11 @@ Misschien wilt u op een dag de magazijnstructuur aanpassen en nieuwe opslaglocat
 Indien voor het magazijn opslaglocaties worden gebruikt, maar niet gestuurde opslag en pick, kunt u het magazijn herstructureren door nieuwe opslaglocaties te maken die u in de toekomst wilt gebruiken.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Herstructureren van een standaardmagazijn dat alleen opslaglocaties gebruikt  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Stel op het sneltabblad **Magazijn** het veld **Std. opslaglocatieselectie** in op **Laatst gebruikte opslaglocatie**.  
 3.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
 
-    1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelherindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
+    1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelherindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
     2.  Selecteer een dagboekregel en kies de actie **Opslaglocatie-inhoud ophalen**.  
     3.  Stel op het sneltabblad **Opslaglocatie-inhoud** filters in de velden **Locatiecode**, **Opslaglocatiecode** en **Artikelnr.** in voor het opgeven van de inhoud die u wilt verplaatsen.  
     4.  Kies de knop **OK** om een dagboekregel te vullen.  
@@ -48,13 +48,13 @@ U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standa
 1.  Maak de nieuwe opslaglocaties aan die u voortaan wilt gebruiken. Zie voor meer informatie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md).  
 2.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
 
-    1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnherindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
+    1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnherindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
     2.  Als u opslaglocaties hebt waarvan de inhoud niet wordt verplaatst, maakt u een regel voor elke huidige opslaglocatie in het **magazijnherindelingsdagboek**. Hierin neemt u zowel de oude opslaglocatie **Van opslaglocatie** als de nieuwe opslaglocatie **Naar opslaglocatie** op.  
     3.  Als sommige verplaatsingen fysiek moeten worden uitgevoerd door magazijnmedewerkers, gebruikt u **Verplaatsingsvoorstellen** om verplaatsingsinstructies te maken. U gebruikt in dit geval niet het herindelingsdagboek van het magazijn. Zie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) voor meer informatie.  
 
 3.  Wanneer de oude opslaglocaties worden leeggemaakt, moeten ze als opslaglocatie van het type **QC** worden ingedeeld zodat ze niet worden opgenomen in de artikelstroom.  
 
-    1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+    1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
     2.  Selecteer de regel met de locatie en kies vervolgens de actie **Opslaglocaties**.  
     3.  Voer in het venster **Opslaglocaties**, in het veld **Code opslaglocatiesoort**, **QC** in voor elk van de oude opslaglocaties die u in stap 3 in de vorige procedure hebt leeggemaakt.  
 
@@ -62,7 +62,7 @@ U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw inged
 
 ## <a name="to-delete-a-bin"></a>Een opslaglocatie verwijderen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waar u opslaglocaties wilt gebruiken en kies de actie **Opslaglocaties**.  
 3.  Selecteer de regels voor de opslaglocaties die u wilt verwijderen.  
 4.  Kies de actie **Verwijderen**.  
@@ -73,7 +73,7 @@ Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aa
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Een opslaglocatie een andere naam geven en de opslaglocatie in alle records wijzigen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waar u de naam of code van een opslaglocatie wilt wijzigen en kies vervolgens de actie **Opslaglocaties**.  
 3.  Selecteer de opslaglocatie die u wilt wijzigen en voer in het veld **Code** een code voor een nieuwe opslaglocatie in.  
 4.  Kies de knop **Ja**.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2daa52e1ee4546356ecb7d94b5c01ab9e22bbbd6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ee07ca7ba498858fac794f1ee1f27f281de8ae02
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>SEPA-betalingsontvangsten via automatische incasso boeken
@@ -23,7 +23,7 @@ Wanneer een incasso-opdracht wordt verwerkt door uw bank, kunt u doorgaan met he
 U kunt de betalingsontvangst van het venster **Incasso-opdrachten** of het venster **Verzamelingsposten van incasso** direct boeken. U kunt ook het werk aan een andere gebruiker doorgeven door de dagboekregels voor te bereiden.  
 
 ## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-window"></a>Een betalingsontvangst van een automatische incasso boeken vanuit het venster Verzamelingen van automatische incasso  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Incasso-opdrachten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Incasso-opdrachten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een regel voor een verzameling automatische incasso die is geëxporteerd naar een bankbestand en verwerkt door de bank. Zie voor meer informatie [SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 3. Kies de actie **Betalingsontvangsten boeken**.  
 4. Vul in het venster **Incasso-opdracht boeken** de velden in, zoals is beschreven in de volgende tabel.  

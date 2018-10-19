@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0f518b96cb21a9637ae9b6e64e4c9e22a5fc6512
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d66ad263235d7f123f731263b0f13a009a1e20fd
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Plannen van magazijnverplaatsingen in werkbladen
@@ -25,7 +25,7 @@ Met de functie voor de opslaglocatieaanvulling kunt u verplaatsingen plannen in 
 ## <a name="to-calculate-a-replenishment-movement"></a>U kunt als volgt aanvullingsverplaatsingen berekenen  
 Naarmate meer artikelen worden verzonden naar klanten, bevatten de opslaglocaties met de hoogste classificatie steeds minder artikelen. Als u deze opslaglocaties met de hoogste classificatie wilt vullen, voert u de functie **Opslagloc.-aanvulling berekenen** uit in het venster **Verplaatsingsvoorstel**
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verplaatsingsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocatieaanvulling berekenen**.  
 
     [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt regels die precies aangeven hoe u artikelen moet verplaatsen van laag- naar hooggeclassificeerde opslaglocaties.  
@@ -46,7 +46,7 @@ Naarmate meer artikelen worden verzonden naar klanten, bevatten de opslaglocatie
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>U kunt de volledige inhoud van een of meer opslaglocaties verplaatsen met de functie Opslaglocatie-inhoud ophalen  
 Met het verplaatsingsvoorstel kunt u ook andere verplaatsingen van magazijnartikelen uitvoeren. Als u bijvoorbeeld artikelen in een opslaglocatie wilt plaatsen voor kwaliteitscontrole, kunt u deze actie met het voorstel plannen en vervolgens een verplaatsing maken met instructies voor een werknemer.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verplaatsingsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocatie-inhoud ophalen**. Gebruik het aanvraagvenster om te filteren op de opslaglocaties en artikelen die op de verplaatsingsvoorstelregels moeten verschijnen.  
 3.  Vul de relevante velden in het aanvraagvenster voor de batchverwerking in. Als u bijvoorbeeld de opslaglocatie-inhoud van alle opslaglocaties in een bepaalde zone van de vestiging wilt weergeven, vult u het veld **Zone** in. Als u regels wilt ophalen voor elke opslaglocatie met een bepaald artikel, vult u het veld **Artikelnr.** in.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-employees"></a>Werknemers registreren
@@ -30,14 +30,14 @@ In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maak
 > U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** in het venster **Werknemer**. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Werknemers instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werknemers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in het venster **Werknemerskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
 Als u een afbeelding van een werknemer in BMP-indeling hebt, kunt u deze afbeelding invoegen op de werknemerskaart.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werknemers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.
 3. In het feitenblok **Werknemerafbeelding** kiest u de vervolgkeuzeknop en vervolgens **Importeren**.
 4. In het venster **Een afbeelding selecteren om te uploaden** kiest u de knop **Kiezen**.
@@ -50,7 +50,7 @@ Op de werknemerskaart kunt u gegevens instellen, zoals vakbondslidmaatschap, fam
 
 U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bijvoorbeeld in het buitenland zijn gestationeerd, een lange zakenreis maken, of tijdelijk in een vakantiehuisje wonen.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werknemers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.
 3. Kies de actie **Alternatieve adressen**.
 4. Vul in het venster **Alt. adressenoverzicht** indien nodig de velden in.

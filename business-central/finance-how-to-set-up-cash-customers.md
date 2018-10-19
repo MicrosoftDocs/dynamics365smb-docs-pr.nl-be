@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 93c28879417b12bc142c84c38c054828b380cc53
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b904daec68261af855e789829791505e69f3f07a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cash-customers"></a>Contant betalende klanten instellen
 U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkopen waarbij u geen gegevens voor een klantenrekening hoeft in te voeren.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Een contant betalende klant instellen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klant** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** in en kies vervolgens de gerelateerde koppeling.  
 2.  Maak een nieuwe **klant**-kaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).
 3.  Selecteer in het veld **Nr.** bijvoorbeeld **Kas** in.  
 4.  Geef in het veld **Naam** bijvoorbeeld **Contante verkoop** op.  

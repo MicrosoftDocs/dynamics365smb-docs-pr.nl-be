@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
@@ -40,7 +40,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
 U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltransacties in het venster **Artikelbeschikbaarheid per gebeurtenis**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Gebeurtenis**.
 
@@ -50,7 +50,7 @@ U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltra
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>De beschikbaarheid van een artikel in verschillende perioden weergeven
 U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde perioden weer in het venster **Beschikbaarheid per periode**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Periode**.
 
@@ -60,7 +60,7 @@ U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
 U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar het is opgeslagen, weer in het venster **Artikelbeschikbaarheid per vestiging**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Vestiging**.
 
@@ -71,7 +71,7 @@ U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>De beschikbaarheid weergeven van alle artikelen op de vestiging waar ze zijn opgeslagen
 U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer in het venster **Artikelen per vestiging**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelen per vestiging**.
 
     Het venster **Artikelen per vestiging** toont voor al uw artikelen hoeveel er in elke vestiging beschikbaar zijn.

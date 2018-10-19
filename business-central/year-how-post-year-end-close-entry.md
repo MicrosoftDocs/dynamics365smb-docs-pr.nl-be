@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4263f6b3260dd5b8e8fad4f515dcdb61e12eb012
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a5eaa15fdfbc1d578d755b246b0304030a82b1c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
 Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Diversendagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Fin. dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Diversendagboek** in het veld **Batchnaam** de batch die de ultimoposten bevat.
 3. Controleer de posten.
 4. Kies de actie **Boeken** om het dagboek te boeken.

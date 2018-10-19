@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6114149372b786c20ee7edbe13022abe688ed9a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-capacities"></a>Capaciteit boeken
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  
 
 ## <a name="to-post-capacities"></a>Capaciteit boeken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png ""pictogram Zoeken naar pagina of rapport"), voer **Capaciteitsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Capaciteitsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden **Boekingsdatum** en **Documentnr.** in.  
 3.  Voer in het veld **Soort** het soort capaciteit in dat u wilt boeken, dat kan **Bewerkingsplaats** of **Afdeling** zijn.  
 4.  Selecteer in het veld **Nr.** het nummer in van de bewerkingsplaats of afdeling.  
@@ -32,7 +32,7 @@ In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegeweze
 
 ## <a name="to-view-work-center-ledger-entries"></a>Afdelingsposten weergeven  
 In de vensters **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capaciteit als gevolg van gereedgemelde productieorders bekijken.    
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afdelingen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Capaciteitsposten**.  
 
 Het venster **Capaciteitsposten** bevat de geboekte posten van de afdeling, in de volgorde waarin deze zijn geboekt.   

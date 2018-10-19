@@ -1,7 +1,6 @@
 ---
 title: Een verkoopfactuur of verkooporder maken | Microsoft Docs
 description: Beschrijft hoe u een koopbrief, of een verkoopfactuur of verkooporder maakt, om de overeenkomst met een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 97116be5c1a0fbbef2564120ac95030f488aafbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="invoice-sales"></a>Verkopen factureren
@@ -30,22 +29,17 @@ Wat betreft alle andere aspecten werken verkooporders en verkoopfacturen op deze
 
 U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur wanneer er een overeenkomst is. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).
 
-Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u ook het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
+Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u ook het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie. Als de klant de factuur dan betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Zie voor meer informatie het gedeelte [Betalingen registreren](#registering-payments).  
 
-In ondernemingsomgevingen waar de klant enige tijd na levering betaalt, volgens de betalingsconditie, blijft een geboekte verkoopfactuur open (onbetaald) totdat de afdeling Vorderingen controleert of de betaling is ontvangen en de betaling vereffent met de geboekte verkoopfactuur. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
-
-In ondernemingsomgevingen waar de klant direct betaalt, bijvoorbeeld met PayPal of contant, wordt de betaling direct geregistreerd wanneer u de verkoopfactuur boekt, dat wil zeggen, de geboekte verkoopfactuur wordt gesloten als volledig vereffend. U selecteert de relevante methode in het veld **Betalingswijze** in de verkooporder. Zie onder stap 8. Voor elektronische betalingen, zoals PayPal, moet u ook het veld **Betalingsservice** invullen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
-
-U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken door eerst een kaart voor een contant betalende klant te maken, waarnaar u verwijst op de verkoopfactuur. Raadpleeg voor meer informatie [Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md).  
 
 U kunt een geboekte verkoopfactuur gemakkelijk corrigeren of annuleren voordat het is betaald. Dit is bijvoorbeeld handig als u een typfout wilt corrigeren of als de klant in het begin van het orderproces verzoekt om een wijziging. Zie voor meer informatie [Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md). Als de geboekte verkoopfactuur is betaald, moet u een verkoopcreditnota maken om de verkoop tegen te boeken. Zie [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) voor meer informatie.
 
-Artikelen kunnen zowel voorraadartikelen als services zijn, aangeduid met het type **Voorraad** of **Service** op de artikelkaart. Het verkoopfactureringsproces is hetzelfde voor beide artikeltypen. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+De artikelkaart kan van het type **Voorraad**, **Service** en **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt gehouden, is. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het verkoopfactureringsproces is hetzelfde voor alle drie de artikeltypen.
 
 U kunt klantvelden op de verkoopfactuur op twee manieren invullen afhankelijk van de vraag of de klant reeds is geregistreerd. Zie de stappen 2 en 3 in de volgende procedure.
 
 ## <a name="to-create-a-sales-invoice"></a>Een verkoopfactuur maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Klant** de naam in van een bestaande klant.
 
    Overige velden in het venster **Verkoopfactuur** bevatten standaardinformatie over de geselecteerde klant. Als de klant niet is geregistreerd, volgt u deze stappen:
@@ -70,7 +64,7 @@ U kunt klantvelden op de verkoopfactuur op twee manieren invullen afhankelijk va
     Laat het veld **Nr.** leeg in de volgende gevallen:
 
     * Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
-    * Als de regel voor een niet-voorraadartikel is. Kies de actie **Niet-voorraadartikelen selecteren**. Zie voor meer informatie [Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
+    * Als de regel voor een catalogusartikel is. Kies de actie **Catalogusartikelen selecteren**. Zie voor meer informatie [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).
 
 11. Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
 
@@ -93,7 +87,19 @@ U kunt klantvelden op de verkoopfactuur op twee manieren invullen afhankelijk va
 
 Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop de klant de documenten wil ontvangen. U kunt de verzendmethode wijzigen door de opzoekknop voor het veld **Document verzenden naar** te kiezen. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 
-Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkoopfactuur is uitvoer als een PDF-document. De verkoopfactuur wordt verwijderd uit de lijst met verkoopfacturen en wordt vervangen door een nieuw document in de lijst met geboekte verkoopfacturen.
+Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkoopfactuur is uitvoer als een PDF-document. De verkoopfactuur wordt verwijderd uit de lijst met verkoopfacturen en wordt vervangen door een nieuw document in de lijst met geboekte verkoopfacturen.  
+
+## <a name="registering-payments"></a>Betalingen registreren
+
+Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
+
+U kunt de betalingen rechtstreeks vanaf de klantenkaart of de klantenposten verwerken. Gebruik de functie **Klantbetalingen registreren** om een overzicht te krijgen van onbetaalde facturen voor die klant. Markeer de factuur vervolgens als volledig of gedeeltelijk betaald. Deze betalingsreconciliatie verwerkt uw klantbetalingen door op uw bankrekening ontvangen bedragen te vergelijken met de gerelateerde onbetaalde verkoopfacturen. Vervolgens worden de betalingen geboekt. Zie voor meer informatie [Betalingen afzonderlijk reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+
+In ondernemingsomgevingen waar de klant enige tijd na levering betaalt, volgens de betalingsconditie, blijft een geboekte verkoopfactuur open (onbetaald) totdat de afdeling Vorderingen controleert of de betaling is ontvangen en de betaling vereffent met de geboekte verkoopfactuur. Dit kan handmatig of automatisch worden uitgevoerd. Zie voor meer informatie [Klantbetalingen handmatig reconciliëren](receivables-how-apply-sales-transactions-manually.md) en [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
+
+In ondernemingsomgevingen waar de klant direct betaalt, bijvoorbeeld met PayPal of contant, wordt de betaling direct geregistreerd wanneer u de verkoopfactuur boekt, dat wil zeggen, de geboekte verkoopfactuur wordt gesloten als volledig vereffend. U selecteert de relevante methode in het veld **Betalingswijze** in de verkooporder. Zie onder stap 8. Voor elektronische betalingen, zoals PayPal, moet u ook het veld **Betalingsservice** invullen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.  
+
+U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken door eerst een kaart voor een contant betalende klant te maken, waarnaar u verwijst op de verkoopfactuur. Raadpleeg voor meer informatie [Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md).  
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

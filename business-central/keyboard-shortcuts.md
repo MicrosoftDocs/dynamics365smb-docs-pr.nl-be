@@ -1,25 +1,27 @@
 ---
 title: Toetsenbordsneltoetsen
-description: Lijst met sneltoetsen voor navigatie in lijsten.
+description: "De volledige lijst met toetsenbordsneltoetsen om efficiënt met uw gegevens te werken."
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/18/2018
+ms.search.keywords: accessibility, shortcuts, keyboarding, keys
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+
+[Afdrukbaar overzicht van toetsenbordsneltoetsen](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Overzicht
 Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficiënter te navigeren naar verschillende gebieden en elementen op een pagina.
@@ -35,8 +37,9 @@ De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van ve
 
 |Druk op deze toetsen|Actie|  
 |----------------|-----------|  
+|Alt+Q|Vak **Vertel u wat u wilt doen** openen dat u kan helpen een pagina, een rapport, een actie op de huidige pagina of een artikel in de documentatie te vinden.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
-|Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld knoppen, velden of lijstkoppen.|   
+|Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|   
 |Enter|Het (besturings)element met focus inschakelen of openen.|   
 |Alt+Pijl-omlaag|Een vervolgkeuzelijst openen of een waarde voor een veld opzoeken.|    
 |Alt+Pijl rechts|De transacties bekijken die in een berekende waarde in een veld hebben geresulteerd.|  
@@ -46,36 +49,60 @@ De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van ve
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
 De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebruiken. De sneltoetsactie is afhankelijk van of de pagina in de lijstweergave of de tegelweergave wordt weergegeven.
-
+<!-- 
 > [!Note]
-> In de tabel die volgt, verwijst de term *actieveld* naar een veld waarmee u iets kunt doen, bijvoorbeeld een waarde wijzigen of koppelen met een andere pagina. Over het algemeen slaan de sneltoetsen velden in de lijst over die informatie weergeven die u niet kunt wijzigen (met andere woorden: velden die alleen-lezen zijn).
+> In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
+-->
+
+### <a name="navigateshortcuts"></a> Navigeren tussen rijen en kolommen
 
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |Opmerkingen|
 |-----------------|-------|-------|-------|
 |Pijl omhoog|Naar het veld in de bovenliggende rij in dezelfde kolom gaan.| In dezelfde kolom naar de tegel in de rij erboven gaan.  |  | 
 |Pijl-omlaag|In dezelfde kolom naar het veld in de rij eronder gaan. |In dezelfde kolom naar de tegel in de rij eronder gaan. | |
-|Pijl rechts|In dezelfde rij naar het volgende actieveld naar rechts gaan.| In dezelfde rij naar de volgende tegel naar rechts gaan. |Dit geldt niet als de lijst bewerkbaar is.|
-|Pijl links|In dezelfde rij naar het vorige veld naar links gaan. | In dezelfde rij naar de vorige tegel naar links gaan. |Dit geldt niet als de lijst bewerkbaar is.|
+|Pijl rechts|In een alleen-lezen lijst in dezelfde rij naar het volgende veld naar rechts gaan.<br /><br />In een bewerkbare lijst in het huidige veld naar rechts gaan.| In dezelfde rij naar de volgende tegel naar rechts gaan. ||
+|Pijl links|In een alleen-lezen lijst in dezelfde rij naar het vorige veld naar links gaan. <br /><br />In een bewerkbare lijst in het huidige veld naar links gaan.| In dezelfde rij naar de vorige tegel naar links gaan. ||
+|Tab|In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan.|Niet van toepassing.||
+|Shift + tab|In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. ||
 |Thuis<br />(Fn+pijl links)|Naar het eerste veld in de rij gaan|Naar de eerste tegel in de rij gaan||
-|End<br />(Fn+pijl rechts)|Naar het laatste actieveld in de rij gaan.|Naar de laatste tegel in de rij gaan||
-|Page up<br />(Fn+pijl omhoog)|In dezelfde kolom naar de bovenste zichtbare rij gaan.|In dezelfde kolom naar de bovenste zichtbare rij gaan.||
-|Page Down<br />(Fn+pijl omlaag)|In dezelfde kolom naar de onderste zichtbare rij gaan.|In dezelfde kolom naar de onderste zichtbare rij gaan.||
+|End<br />(Fn+pijl rechts)|Naar het laatste veld in de rij gaan.|Naar de laatste tegel in de rij gaan||
+|Page up<br />(Fn+pijl omhoog)|Schuiven om de set rijen boven de huidige rijen in de weergave weer te geven. |Schuiven om de set tegels boven de huidige tegels in de weergave weer te geven. ||
+|Page Down<br />(Fn+pijl omlaag)|Schuiven om de set rijen onder de huidige rijen in de weergave weer te geven.|Schuiven om de set tegels onder de huidige tegels in de weergave weer te geven.||
 |Enter<br />(Fn+pijl omlaag)|De record openen die is gekoppeld aan het veld.|Opent de record.| Slechts van belang als een kaartpagina aan de record is gekoppeld.|
-|Ctrl+Home<br />(Fn+Ctrl+pijl links)|Selecteer de eerste rij de lijst; focus gaat naar het eerste actieveld in rij|Naar de eerste tegel in de eerste rij in de lijst gaan||
-|Ctrl+End<br />(Fn+Ctrl+pijl rechts)|Selecteer de laatste rij in de lijst; de focus gaat naar het eerste actieveld in rij|Naar de eerste tegel in de laatste rij in de lijst gaan||
-|Ctrl+klikken<br />(Cmd+klikken)|De selectie van rijen uitbreiden en de rij toevoegen waarop u klikt.|Niet van toepassing||
-|Shift+klikken|De selectie van rijen uitbreiden en de rij toevoegen waarop u klikt en alle rijen ertussen.|Niet van toepassing|U kunt dit gebruiken nadat u Ctrl+pijl omhoog of Ctrl+pijl omlaag hebt gebruikt om uw selectie uit te breiden.|
-|Ctrl + pijl-omhoog<br />(Ctrl+Cmd+pijl omhoog )|Focus verplaatsen naar de hogere rij en de huidige rij geselecteerd houden.|Niet van toepassing||
-|Ctrl + pijl-omlaag<br />(Ctrl+Cmd+pijl omlaag)|Focus verplaatsen naar de lagere rij en de huidige rij geselecteerd houden.|Niet van toepassing||
-|Ctrl+Spatiebalk<br />(Ctrl+Cmd+Spatiebalk)|De selectie van rijen uitbreiden en de rij met de focus toevoegen.|Niet van toepassing|U kunt dit gebruiken nadat u Ctrl+pijl omhoog of Ctrl+pijl omlaag hebt gebruikt om uw selectie uit te breiden.|
-|Ctrl+A|Alle rijen selecteren.|Niet van toepassing||
-|Shift+pijl omhoog|De selectie van rijen uitbreiden en de hogere rij toevoegen.|Niet van toepassing||
-|Shift+pijl omlaag|De selectie van rijen uitbreiden en de lagere rij toevoegen.|Niet van toepassing||
-|Shift+Page Up<br />(Shift+Fn+pijl omhoog)|De selectie van rijen uitbreiden en alle zichtbare rijen boven de huidige selectie van rijen toevoegen.|Niet van toepassing||
-|Shift+Page Down<br />(Shift+Fn+pijl omlaag)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing||
 |Ctrl+Enter|Focus naar het volgende element buiten de lijst verplaatsen.|Focus naar het volgende element buiten de lijst verplaatsen.||
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Toetsenbordsneltoetsen in de agenda (datumkiezer)
+### <a name="CopyRows"></a>Selecteren, kopiëren en plakken
+|Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |Opmerkingen|
+|-----------------|-------|-------|-------|
+|Ctrl+Home<br />(Fn+Ctrl+pijl links)|De eerste rij in de lijst selecteren; focus gaat naar het eerste veld in de rij.|Naar de eerste tegel in de eerste rij gaan. ||
+|Ctrl+End<br />(Fn+Ctrl+pijl rechts)|De laatste rij in de lijst selecteren; focus gaat naar het laatste veld in de rij.|Naar de laatste tegel in de laatste rij gaan||
+|Ctrl+klikken<br />(Cmd+klikken)|De selectie van rijen uitbreiden en de rij toevoegen waarop u klikt.|Niet van toepassing.||
+|Shift+klikken|De selectie van rijen uitbreiden en de rij toevoegen waarop u klikt en alle rijen ertussen.|Niet van toepassing.|U kunt dit gebruiken nadat u Ctrl+pijl omhoog of Ctrl+pijl omlaag hebt gebruikt om uw selectie uit te breiden.|
+|Ctrl + pijl-omhoog<br />(Ctrl+Cmd+pijl omhoog)|Focus verplaatsen naar de hogere rij en de huidige rij geselecteerd houden.|Niet van toepassing.||
+|Ctrl + pijl-omlaag<br />(Ctrl+Cmd+pijl omlaag)|Focus verplaatsen naar de lagere rij en de huidige rij geselecteerd houden.|Niet van toepassing.||
+|Ctrl+Spatiebalk<br />(Ctrl+Cmd+Spatiebalk)|De selectie van rijen uitbreiden en de rij met de focus toevoegen.|Niet van toepassing.|U kunt dit gebruiken nadat u Ctrl+pijl omhoog of Ctrl+pijl omlaag hebt gebruikt om uw selectie uit te breiden.|
+|Ctrl+A|Alle rijen selecteren.|Niet van toepassing.||
+|Shift+pijl omhoog|De selectie van rijen uitbreiden en de hogere rij toevoegen.|Niet van toepassing.||
+|Shift+pijl omlaag|De selectie van rijen uitbreiden en de lagere rij toevoegen.|Niet van toepassing.||
+|Shift+Page Up<br />(Shift+Fn+pijl omhoog)|De selectie van rijen uitbreiden en alle zichtbare rijen boven de huidige selectie van rijen toevoegen.|Niet van toepassing.||
+|Shift+Page Down<br />(Shift+Fn+pijl omlaag)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing.||
+|Ctrl+C<br />(Cmd+C)|De geselecteerde rijen naar het Klembord kopiëren.|Niet van toepassing.||
+|Ctrl+V<br />(Cmd+V)|De geselecteerde rijen uit het Klembord plakken op de huidige pagina of in het huidige document, zoals Microsoft Excel of Outlook-e-mail.|Niet van toepassing.|U kunt dit alleen doen in bewerkbare lijsten.|
+|F8|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken.|Niet van toepassing.|U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een Tab om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|
+
+### <a name="KeyboardFilter"></a> Toetsenbordsneltoetsen voor zoeken en filteren van lijsten
+
+|Druk op deze toetsen<br />(in macOS)|Actie|
+|-----------------|-------|
+|F3|Schakelt het zoekvak in of uit.<ul><li>Activeert het zoekvak, zodat u kunt beginnen met typen van uw zoektekst.</li><li>Als het zoekvak al is geactiveerd, keert F3 terug naar de lijst zonder de zoektekst te wissen.</li><ul>|  
+|Shift+F3|Opent en sluit het filterdeelvenster.<ul><li> Als het filterdeelvenster nog niet is geopend, wordt het met Shift+F3 geopend en wordt gefocust op de actie **+ Filter** onder **Filter lijst op**, zodat u alleen op Enter hoeft te drukken om te beginnen met het toevoegen van een veldfilter.</li><li>Als het filterdeelvenster nog openstaat, sluit Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>|
+|Ctrl+Shift+F3|Opent en sluit het filterdeelvenster.<ul><li> Als het filterdeelvenster niet is geopend, wordt het met Ctrl+Shift+F3 geopend en wordt gefocust op de actie **+ Filter** onder **Filter totaal op**, zodat u alleen op Enter hoeft te drukken om te beginnen met het toevoegen van een totalenfilter.</li><li>Als het filterdeelvenster al openstaat, sluit Ctrl+Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>  |
+|Alt+F3|Schakelt filtering op deze waarde in of uit.<ul><li>Past een kolomfilter op de geselecteerde veldwaarde in de lijst toe. Dit doet hetzelfde als **Filteren op deze waarde** kiezen vanuit een kolomkop. Opent het filterdeelvenster, stelt het filter in op de geselecteerde waarde en de focus blijft op de cel in de lijst.</li><li>Als de kolom al is gefilterd, wist Alt+F3 het filter op die kolom.</li></ul> |
+|Shift+Alt+F3|Opent het filterdeelvenster en voegt een filter toe op de geselecteerde kolom in de lijst. De focus is op het nieuwe filterveld waardoor u meteen kunt beginnen met typen van het filtercriterium.<br /><br /> Dit doet hetzelfde als **Filter** selecteren vanuit de kolomkop. menu er. Geeft het filterdeelvenster weer, voegt het filter toe, stelt focus erop in, zodat de gebruiker een waarde kan typen om op te filteren.<br /><br />Als er al een filter op het veld is, wordt een nieuw filter toegevoegd. |
+|Ctrl+Shift+Alt+F3|Stelt filters opnieuw in. Dit doet hetzelfde als **Filters opnieuw instellen** kiezen in het filterdeelvenster en geldt voor veld- en totalenfilters.<br /><br /> Filters krijgen weer de standaardfilters voor de huidige weergave. Als de huidige weergave **Alle** is, is dit het equivalent van terugkeren naar een ongefilterde weergave met alle records. |
+|Ctrl+Enter|Keert terug naar de lijst vanuit het filterdeelvenster.|
+ 
+## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Toetsenbordsneltoetsen in de kalender (datumkiezer)
 Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
@@ -92,9 +119,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Ctrl+End<br />(Cmd+End)|De agenda sluiten en de huidige datum verwijderen.|
 |Esc|De agenda sluiten zonder een selectie; huidige datum behouden.|
 
-
-## <a name="keyboard-shortcuts-in-the-report-preview"></a>Sneltoetsen in de rapportweergave
-
+## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Sneltoetsen in de rapportweergave
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |-----------------|-------|
 |Pijl-omlaag|Omlaag schuiven op de pagina.|  
@@ -105,7 +130,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Ctrl+Home<br />(Cmd+Home)|Naar de eerste pagina's van het rapport gaan.|
 |Ctrl+End<br />(Cmd+Home)|Naar de laatste pagina's van het rapport gaan.|
 |Page Down<br />(Fn+pijl omlaag)|Naar de volgende pagina's van het rapport gaan.|
-|Pagina Upbr /> (Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
+|Page up<br />(Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
 
 
 <!--

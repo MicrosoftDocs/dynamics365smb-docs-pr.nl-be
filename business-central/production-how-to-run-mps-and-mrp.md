@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
 De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  
 
--   MPS wordt gedefinieerd als de berekening van een hoofdproductieschema op basis van de werkelijke behoefte en de productieprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden MPS-artikelen genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
--   MRP wordt gedefinieerd als de berekening van het benodigde materiaal op basis van de werkelijke behoefte aan materiaal en de productieprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
+-   MPS is de berekening van een hoofdproductieschema op basis van de werkelijke vraag en de vraagprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden MPS-artikelen genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
+-   MRP is de berekening van het benodigde materiaal op basis van de werkelijke vraag naar materiaal en de vraagprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
 
 De planningsalgoritmen die worden gebruikt voor MPS en MRP zijn identiek. De planningsalgoritmen hebben betrekking op de nettoberekening, het hergebruik van bestaande aanvullingsorders en planningsboodschappen. Er wordt door het planningssysteem gekeken naar wat er nodig is of zal zijn (behoefte) en wat er in voorraad is of verwacht wordt (voorziening.) Wanneer deze aantallen tegen elkaar tot een nettowaarde worden teruggebracht, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] planningsboodschappen af. Planningsboodschappen zijn suggesties voor het opstellen van een nieuwe order, het wijzigen van een order (aantal of datum), of het annuleren van een order die al is besteld. De term 'order' omvat inkooporders, assemblageorders, productieorders en transferorders.
 
@@ -35,7 +35,7 @@ De juistheid van de planningsresultaten hangt af van de instellingen in de artik
 
 -   **Regeneratief plan berekenen:** met deze functie verwerkt of regenereert u het materiaalplan. Dit proces begint met het verwijderen van alle geplande voorzieningenorders die op dat moment geladen zijn. Alle artikelen in de database worden herpland.  
 -   **Mutatieplan berekenen**: met deze functie verwerkt u een mutatieplan. Artikelen worden meegenomen in een mutatieplanning van twee soorten wijzigingen:  
-    - **Wijzigingen in behoefte/voorzieningen**: deze omvatten wijzigingen in de aantallen op verkooporders, productieprognoses, assemblageorders, productieorders en inkooporders. Een niet/geplande voorraadwijziging wordt ook beschouwd als een wijziging van het aantal.  
+    - **Wijzigingen in vraag en aanbod**: deze omvatten wijzigingen in de aantallen op verkooporders, vraagprognoses, assemblageorders, productieorders of inkooporders. Een niet/geplande voorraadwijziging wordt ook beschouwd als een wijziging van het aantal.  
     - **Wijzigingen in de planningsparameters**: deze omvatten wijzigingen in de veiligheidsvoorraad, bestelpunt, bewerkingsplan, stuklijst en wijzigingen in het tijdsinterval of de levertermijn.  
 -   **Planningsboodschappen ophalen**: deze functie doet dienst als een planningstool voor de korte termijn, doordat planningsboodschappen worden afgegeven om de gebruiker op de hoogte te stellen van wijzigingen die zijn doorgevoerd sinds het laatste regeneratieve of mutatieplan is berekend.  
 
@@ -47,13 +47,13 @@ Voor elke geplande methode, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] vo
 >  De functie Planningsboodschappen ophalen kan worden uitgevoerd tussen de uitvoering van mutatieplanberekening en regeneratieve planning om onmiddellijk een overzicht te krijgen van de effecten van wijzigingen in het schema, maar is niet bedoeld als vervanging voor volledige mutatieplanberekening of regeneratieve planning.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Een planningsvoorstel berekenen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstellen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstellen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen** om het venster **Planning berekenen** te openen.  
 3.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
-    |**MPS**|Selecteer de optie on de berekening van een hoofdproductieschema te initiëren. Artikelen met open verkooporders en/of productieprognoses worden meegenomen in deze procedure.|  
+    |**MPS**|Selecteer de optie on de berekening van een hoofdproductieschema te initiëren. Artikelen met open verkooporders of vraagprognoses worden meegenomen in deze procedure.|  
     |**MRP**|Selecteer de optie om de berekening van de materiaalbehoefteplanning te initiëren. Artikelen met afhankelijke vraag worden meegenomen in deze procedure. Normaal gesproken worden MPS en MRP gelijktijdig uitgevoerd. Als u MPS en MRP gelijktijdig wilt uitvoeren, moet er een vinkje worden gezet in het veld **Gecombineerd MPS/MRP berek.** op het sneltabblad **Planning** in het venster **Productie-instellingen**.|  
     |**Begindatum**|Deze datum wordt gebruikt om de beschikbaarheid van voorraad te evalueren. Als van een artikel minder in voorraad is dan vastgelegd voor het bestelpunt, wordt met voorwaartse planning een aanvullingsorder opgesteld vanaf deze datum. Als van een artikel minder is dan de veiligheidsvoorraad (met ingang van de begindatum), wordt met achterwaartse planning een aanvullingsorder opgesteld met de begindatum van de planning als vervaldatum.|  
     |**Einddatum**|Dit is de einddatum van de planningshorizon. Na deze datum wordt noch met vraag noch met voorzieningen rekening gehouden. Als de bestelfrequentie zich uitstrekt voorbij de einddatum, is de effectieve planningshorizon voor dat artikel gelijk aan de orderdatum + bestelfrequentie.<br /><br /> De planningshorizon is de hoeveelheid tijd waarover het plan zich uitstrijkt. Als de horizon te kort is, worden artikelen met een langere doorlooptijd niet op tijd besteld. Als de horizon te kort is, wordt te veel tijd besteed aan het bekijken en verwerken van informatie die waarschijnlijk gewijzigd wordt voordat deze nodig is. Het is mogelijk om één planningshorizon in te stellen voor productie en een langere voor inkoop, maar dit is niet vereist. Er moet een planningshorizon voor inkoop en productie worden ingesteld die de cumulatieve doorlooptijd voor onderdelen bestrijkt.|  

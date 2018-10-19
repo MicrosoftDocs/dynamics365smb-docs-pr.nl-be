@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 6ca938a5bcd0fd160c98358d89740e4dfd756e79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
@@ -28,7 +28,7 @@ Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes inst
 >   Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Klanten** de actie **Nieuw**.
 
     Als er slechts één klantensjabloon bestaat, wordt vervolgens een nieuwe klantenkaart geopend waarin sommige velden zijn ingevuld met informatie van de sjabloon.

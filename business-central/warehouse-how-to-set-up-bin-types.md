@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 0af456e420c9b485e242c15e660367a348c75536
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-bin-types"></a>Opslaglocatiesoorten instellen
@@ -25,7 +25,7 @@ U kunt de stroom van artikelen beheren via opslaglocaties die door u zijn gedefi
 Er zijn zes soorten. U kunt binnen uw magazijn met alle zes mogelijke opslaglocatiesoorten werken of kunt u werken met alleen de opslaglocatiesoorten ONTVANGEN, OPSLAGPICK, VERZENDEN en QC. Bij deze vier soorten opslaglocaties kunnen suggesties worden aangebracht die de stroom van artikelen ondersteunen en het vastleggen van voorraadafwijkingen mogelijk maken.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>U kunt als volgt de gewenste soorten opslaglocatie instellen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Opslaglocatiesoorten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslaglocatiesoorten** in en kies vervolgens de gerelateerde koppeling.  
 2.  In het venster **Opslaglocatiesoorten** geeft u een code op voor het soort opslaglocatie (10 cijfers en/of letters).  
 3.  Selecteer de activiteiten die bij elke opslaglocatiesoort kunnen worden uitgevoerd.  
 

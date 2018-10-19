@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f879d933822e061913975c1dbac2bf883ad9bbc1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a950b87b7e7947de1602db76805a0b1f41d8274
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Zakenrelaties instellen voor contactbedrijven
@@ -30,7 +30,7 @@ Zakenrelaties gebruiken voor contacten is een proces van twee stappen. Eerst def
 ## <a name="to-define-a-business-relation-code"></a>Een zakenrelatiecode definiëren
 De zakenrelatiecode geeft een categorie of soort aan van de zakenrelatie, zoals BANK of JURIDISCH. U kunt meerdere zakenrelatiecodes hebben. Als u de zakenrelatie wilt definiëren, gebruikt u het venster **Zakenrelaties**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Zakenrelaties** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Zakenrelaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
 
 ## <a name="AssignBusRelContact"></a> Zakenrelaties toewijzen aan contacten

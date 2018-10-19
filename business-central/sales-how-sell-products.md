@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: ad8936e09a8f093f5855a87c8d78e05839afefc1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-products"></a>Producten verkopen
@@ -37,12 +37,12 @@ U kunt zelfs direct betaalde orders voor niet-geregistreerde klanten maken door 
 
 U kunt een geboekte verkoopfactuur die het resultaat is van een verkooporder gemakkelijk corrigeren of annuleren voordat deze wordt betaald. Dit is handig als u een typfout wilt corrigeren of als de klant om een wijziging in het begin van het orderproces verzoekt. Zie voor meer informatie [Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md). Als de geboekte verkoopfactuur is betaald, moet u een verkoopcreditnota maken om de verkoop tegen te boeken. Zie [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) voor meer informatie.
 
-Artikelen kunnen zowel voorraadartikelen als services zijn, aangeduid met het type **Voorraad** en **Service** op de artikelkaart. Het verkooporderproces is hetzelfde voor beide artikeltypen. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+De artikelkaart kan van het type **Voorraad**, **Service** en **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt gehouden, is. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het verkooporderproces is hetzelfde voor alle drie de artikeltypen.
 
 U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van de vraag of de klant reeds is geregistreerd. Zie de stappen 2 en 3 in de volgende procedure.
 
 ## <a name="to-create-a-sales-order"></a>Een verkooporder maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in het veld **Klant** de naam in van een bestaande klant.
 
     Overige velden in het venster **Verkooporder** worden nu ingevuld met de standaardinformatie over de geselecteerde klant. Als de klant niet is geregistreerd, volgt u deze stappen:
@@ -95,7 +95,7 @@ U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van 
     Laat het veld **Nr.** leeg in de volgende gevallen:
 
     * Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
-    * Als de regel voor een niet-voorraadartikel is. Kies de actie **Niet-voorraadartikelen selecteren**. Zie voor meer informatie [Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md).
+    * Als de regel voor een catalogusartikel is. Kies de actie **Catalogusartikelen selecteren**. Zie voor meer informatie [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).
 
 19. Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
 

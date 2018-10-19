@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c064bc8a5aaff42a75b10b133225f9d2cb87d786
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="smart-notifications"></a>Slimme berichten
@@ -32,7 +32,7 @@ Bovendien kunt u voor sommige berichten de voorwaarden opgeven wanneer deze moet
 
 Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is alleen voor u van toepassing.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mijn berichten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mijn berichten** in en kies vervolgens de gerelateerde koppeling.
 2. Als u een bericht wilt in- of uitschakelen, schakelt u het selectievakje **Geactiveerd** in of uit.
 3. Als u voorwaarden wilt opgeven die een bericht activeren, kiest u de koppeling **Filtergegevens weergeven** en vult u de velden in.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d9e299ff00dae0d07a1f1b924bdef798655357d0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
@@ -33,7 +33,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 > 2.  Voer deze stap uit voor alle gewenste opslaginstructies, totdat u alle regels hebt verwijderd waarmee u in het voorstel aan de slag wilt. Klik nu op **Opslagvoorstellen** en ga door met de planning.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>U kunt als volgt instructies plannen in het opslagvoorstel  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Opslagvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Magazijndocumenten ophalen**. Het venster **Opslagselectie** verschijnt.  
 
     Dit venster bevat alle geboekte ontvangsten en geregistreerde interne opslagactiviteiten die zijn doorgestuurd naar de opslagfunctie, inclusief de activiteiten waarvoor de opslaginstructies al zijn gemaakt. De lijst bevat geen documenten met opslagregels die volledig zijn uitgevoerd en geregistreerd.  

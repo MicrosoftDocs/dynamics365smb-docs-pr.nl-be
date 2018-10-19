@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
@@ -53,7 +53,7 @@ Bij methode A, B en C worden de acties ontvangen en opslaan in één stap gecomb
 ## <a name="basic-warehouse-configurations"></a>Standaardmagazijnconfiguraties  
 In het volgende diagram worden de inkomende magazijnstromen aangegeven op documentsoort in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-![Inkomende stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Inkomende stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_inbound_basic_flow.png "Inkomende stroom in standaardmagazijnconfiguraties")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Brondocument vrijgeven/Voorraadopslag maken  
 Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die verantwoordelijk is voor ontvangst, het brondocument vrij (zoals een inkooporder of inkomende transferorder) als teken voor magazijnmedewerkers dat de ontvangen artikelen in voorraad kunnen worden opgeslagen. Of de gebruiker maakt door pushing voorraadopslagdocumenten voor afzonderlijke orderregels, op basis van te verwerken specifieke opslaglocaties en aantallen.  
@@ -72,7 +72,7 @@ Er worden positieve artikelposten gemaakt, er worden magazijnposten gemaakt en h
 ## <a name="advanced-warehouse-configurations"></a>Geavanceerde magazijnconfiguraties  
 In het volgende diagram wordt de inkomende magazijnstroom aangegeven op documentsoort in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-![Inkomende stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Inkomende stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_inbound_advanced_flow.png "Inkomende stroom in geavanceerde magazijnconfiguraties")  
 
 ### <a name="1-release-source-document"></a>1: Brondocument vrijgeven  
 Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die verantwoordelijk is voor ontvangst, het brondocument vrij (zoals een inkooporder of inkomende transferorder) als teken voor magazijnmedewerkers dat de ontvangen artikelen in voorraad kunnen worden opgeslagen.  

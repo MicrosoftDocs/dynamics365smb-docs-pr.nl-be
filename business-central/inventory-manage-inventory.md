@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 07/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 745da790218ee57e4fb44b8c0bab2bce504eda3b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1f79c20cb68ff1802bb97914a7ac1e458ca28f3a
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
 # <a name="inventory"></a>Voorraad
-Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als niet-voorraadartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
+Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
 Positieve en negatieve voorraadmutaties worden natuurklijk ook geregistreerd wanneer u respectievelijk inkoop- en verkoopdocumenten boekt. Zie voor meer informatie [Inkopen registreren](purchasing-how-record-purchases.md), [Producten verkopen](sales-how-sell-products.md) en [Verkopen factureren](sales-how-invoice-sales.md). De transfers tussen vestigingen wijzigen de voorraadaantallen in alle magazijnen van het bedrijf.   
 
@@ -40,7 +40,7 @@ Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de k
 |Bovenliggende artikelen structureren die u als pakketten verkoopt bestaande uit de onderdelen van de bovenliggende artikelen, of die u op bestelling of voor voorraad monteert.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|
 |Onderhoud een overzicht van artikelen en help artikelen te zoeken en te sorteren door ze in categorieën te organiseren.|[Artikelen categoriseren](inventory-how-categorize-items.md)|
 |Wijs artikelkenmerken van verschillende waardesoorten aan uw artikelen toe zodat u artikelen gemakkelijker kunt sorteren en vinden.|[Werken met artikelkenmerken](inventory-how-work-item-attributes.md)|
-|Maak speciale artikelkaarten voor artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt.|[Werken met niet-voorraadartikelen](inventory-how-work-nonstock-items.md)|
+|Maak speciale artikelkaarten voor artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt.|[Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)|
 |Inventarisatie uitvoeren, negatieve of positieve correcties uitvoeren en gegevens wijzigen, zoals locatie of lotnummer, in artikelposten of magazijnposten.|[Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md)|
 |Beschikbaarheid van artikelen weergeven op vestiging, periode, verkoop- of inkoopgebeurtenis, of het gebruik in assemblage- of productiestuklijsten.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|
 |Voorraadartikelen verplaatsen tussen vestigingen met transferorders, om magazijnactiviteiten te beheren, of met het artikelherindelingsdagboek.|[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|

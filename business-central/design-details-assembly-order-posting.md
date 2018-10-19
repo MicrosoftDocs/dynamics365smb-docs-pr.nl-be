@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
@@ -33,14 +33,14 @@ De volgende dagboekboekingen treden op tijdens assemblageorderboekingen:
 
 Het volgende diagram bevat de structuur van artikel- en resourceposten die het gevolg zijn van assemblageorderboeking.  
 
-![Resource- en capaciteitskosten](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Artikel-, resource- en capaciteitsposten die het resultaat zijn van boeking van assemblyorders](media/design_details_assembly_posting_1.png "Artikel-, resource- en capaciteitsposten die het resultaat zijn van boeking van assemblyorders")  
 
 > [!NOTE]  
 >  Bewerkingsplaatsen en afdelingen zijn opgenomen om te illustreren dat capaciteitsposten zowel worden gemaakt vanuit productie als vanuit assemblage.  
 
 In het volgende diagram wordt aangegeven hoe assemblagegegevens in posten stromen tijdens het boeken:  
 
-![Gegevensstroom tijdens het boeken](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Assemblagegerelateerde invoerstroom tijdens boeking](media/design_details_assembly_posting_2.png "Assemblagegerelateerde invoerstroom tijdens boeking")  
 
 ## <a name="posting-sequence"></a>Boekingsvolgorde  
 De boeking van een assemblageorder vindt plaats in de volgende volgorde:  
@@ -71,7 +71,7 @@ De detectiefunctie op orderniveau wordt gebruikt voor conversiescenario's, produ
 
 De volgende afbeelding toont de structuur van de herwaarderingspost en hoe assemblagekosten worden aangepast.  
 
-![Structuur van herwaarderingspost](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Assemblagegerelateerde invoerstroom tijdens kostenwaardering](media/design_details_assembly_posting_3.png "Assemblagegerelateerde invoerstroom tijdens kostenwaardering")  
 
 ### <a name="performing-the-adjustment"></a>De aanpassing doorvoeren  
 De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de assemblyuitvoerposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Deze bevat de functie Aanpassing op meerdere niveaus aanbrengen, die bestaat uit de volgende twee elementen:  
@@ -79,7 +79,7 @@ De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de 
 -   Assemblageordercorrectie aanbrengen - hiermee worden kosten van materiaal en resourcegebruik doorgestuurd naar de assemblage-uitvoerpost. Regel 5 en 6 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 -   Correcties op één niveau aanbrengen - hiermee worden kosten voor afzonderlijke artikelen doorgestuurd met behulp van de waarderingsmethode ervan. Regels 9 en 10 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 
-![Algoritme van assemblageherwaardering](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Overzicht van het kostenwaarderingsalgoritme voor assemblageboeking](media/design_details_assembly_posting_4.jpg "Overzicht van het kostenwaarderingsalgoritme voor assemblageboeking")  
 
 > [!NOTE]  
 >  Het element voor het maken van OHW- herwaarderingen op regel 7 en 8 is verantwoordelijk voor het doorsturen van productiemateriaal en capaciteitsverbruik naar de output van onvoltooide productieorders. Dit wordt niet gebruikt bij het aanpassen van assemblageorderkosten aangezien het concept OHW niet van toepassing is op assemblage.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97b79683ba6c770912349c772f1f7adb443b94ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen
@@ -35,7 +35,7 @@ Vergelijkbare functionaliteit is beschikbaar wanneer u assemblageartikelen uit v
 Vervang in deze procedure de aantallen voor assembleren op basis van orders met de voorraadaantallen op een verkooporderregel. De stappen omvatten het opsporen of beschikbaarheid bestaat, het aftrekken van die hoeveelheid van de gekoppelde assemblageorder en vervolgens het reserveren van de voorraadhoeveelheid om ervoor te zorgen dat deze wordt gepickt en voor de order worden verzonden.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Een verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3.  Op een verkooporderregel voor een op-order-assembleren-artikel voert u in het veld **Hoeveelheid** de gevraagde hoeveelheid in.  
 4.  In het feitenblok **Verkoopregeldetails** bepaalt u of de gevraagde hoeveelheid geheel of gedeeltelijk beschikbaar is.  

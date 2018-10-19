@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e271b160d8a4969be296861f6746163fcfea6ba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties
@@ -49,7 +49,7 @@ Ook kan een magazijnmedewerker deze maken door verwijzing naar de betreffende vr
 Deze procedure laat zien hoe u een voorraadverplaatsing uit het venster **Voorraadverplaatsing** kunt maken door te verwijzen naar een vrijgegeven assemblageorder als brondocument. De procedure is hetzelfde als u onderdelen verplaatst voor productie- en serviceorders.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadverplaatsing** in en klik vervolgens op de betreffende koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadverplaatsing** in en kies vervolgens de relevante koppeling.  
 2.  Vul het veld **Nr.** op het sneltabblad **Algemeen** in . te kiezen. U kunt op de Enter-toets drukken om te selecteren uit de nummerreeks.  
 3.  Voer in het veld **Locatiecode** de locatie in waar de verplaatsing plaatsvindt.  
 4.  Kies de actie **Brondocumenten ophalen**. U kunt ook het veld **Brondocument** invullen en vervolgens de knop **AssistEdit** in het veld **Bronnr.** kiezen.  

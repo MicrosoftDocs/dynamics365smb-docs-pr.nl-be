@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fefde17c8e8063b7b1f373196bab29ff1caec452
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Service- en werkuren instellen
@@ -29,7 +29,7 @@ Terwijl u aan serviceorder werkt, is het handig om de status te kunnen bijwerken
 ## <a name="to-set-up-default-service-hours"></a>Standaardservice-uren instellen  
 In het venster **Std. service-uren** kunt u de gebruikelijke servicewerkuren in het bedrijf instellen. Deze service-uren worden gebruikt om de responsdatum en -tijd voor serviceorders en -offertes te berekenen en om responstijdwaarschuwingen te verzenden. De standaardservice-uren voor servicecontracten worden gebruikt tenzij u speciale service-uren voor een contract opgeeft.  
   
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport")-pictogram, voer **Std. service-uren** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Std. service-uren** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +38,7 @@ In het venster **Std. service-uren** kunt u de gebruikelijke servicewerkuren in 
 ## <a name="to-set-up-work-hour-templates"></a>Werkuursjablonen instellen
 In het venster **Werkuursjabloon** kunt u sjablonen instellen met de standaardwerkuren in het bedrijf. U kunt bijvoorbeeld sjablonen maken voor technici met een volledige baan en voor technici met een deeltijdbaan. U kunt werkuursjablonen gebruiken wanneer u capaciteit toevoegt aan resources.  
   
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werkuursjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkuursjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +49,7 @@ In het venster **Service-uren** kunt u specifieke service-uren instellen voor de
   
 Als u geen specifieke service-uren voor het servicecontract instelt, worden de standaardservice-uren voor servicecontracten gebruikt.  
   
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Servicecontracten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het servicecontract waarvoor u specifieke service-uren wilt instellen en kies **Service-uren**.  
 4. Als u service-uren op basis van standaardservice-uren wilt instellen, kiest u de actie **Std. service-uren kopiëren**.  
 5. De velden in de posten voor service-uren bewerken. Invoegen of verwijderen van vermeldingen voor het instellen van de service-uren voor het contract. Merk op dat de velden **Dag**, **Begintijd** en **Eindtijd** zijn vereist voor elke regel.  

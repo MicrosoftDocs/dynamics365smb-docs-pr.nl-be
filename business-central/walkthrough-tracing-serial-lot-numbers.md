@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: babe5bef3f0afac595b9e63276c8ce196d167f98
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedure: Serie-/lotnummers traceren
@@ -71,7 +71,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
 ### <a name="to-create-the-items"></a>De artikelen maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer in het veld **Nr.** Voer in het veld **2000** in en vul de volgende velden in.  
 
@@ -107,7 +107,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens schaft u raceframes van Custom Metals Incorporated aan.  
 
 ### <a name="to-purchase-components"></a>Materialen kopen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Maak een inkooporder voor de leverancier Custom Metals Incorporated door de volgende regelvelden in te vullen.  
 
@@ -121,7 +121,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 7.  Kies de actie **Boeken**, selecteer de optie **Ontvangen en factureren** en kies vervolgens de knop **OK**.  
 
     Als volgende, koopt u racingframes van Coolwood Technologies.  
-8.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+8.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
 9. Kies de actie **Nieuw**.
 10. Maak een inkooporder voor de leverancier Coolwood Technologies door de volgende regelvelden in te vullen.  
 
@@ -137,7 +137,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens maakt u twee racefietsen, SN1 en SN2.  
 
 ### <a name="to-produce-end-items"></a>Eindproducten produceren  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vrijgegeven prod.-orders** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de groep **Nieuw**.  
 3.  Maak een nieuwe vrijgegeven productieorder door de volgende velden in te vullen.  
 
@@ -158,7 +158,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Maak als volgende nog twee racefietsen, SN3 en SN4.  
 
-11. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vrijgegeven prod.-orders** in en klik op de gerelateerde koppeling.  
+11. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 12. Kies de actie **Nieuw**.  
 13. Maak een nieuwe vrijgegeven productieorder door de volgende velden in de kop in te vullen.  
 
@@ -183,7 +183,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens gaat u racefietsen verkopen. Eest verkoopt u de racefiets met SN1 aan Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>De eindpoducten verkopen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienr.|  
@@ -195,7 +195,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Vervolgens gaat u de racefiets met SN2 aan Cannon Group PLC verkopen.  
 
-5.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 6.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienr.|  
@@ -207,7 +207,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Ten slotte moet u een paar raceframes afzonderlijk verkopen. Van Terp Kantoorinrichting bestelt ook vier afzonderlijke raceframes voor hun eigen assemblagelijn.  
 
-9. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+9. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 10. Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienummer|  
@@ -225,7 +225,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
  Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie kan hij bepalen waar de voltooide racefiets voor het laatst is gebruikt, in dit geval bij de verkoopverzending aan Selangorian Ltd. Vervolgens moet de kwaliteitscontroleur deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte frame afkomstig is en welke leverancier deze heeft geleverd.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Vaststellen uit welke partij het defecte frame afkomstig is en wie deze heeft geleverd  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeltracering** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer in het veld **Artikeltracering** de tekst **SN1** in het veld **Serienr.-filter** in en voer vervolgens **1002** in het veld **Artikelfilter** in.  
 3.  Laat de standaardinstelling **Met artikeltracering** staan in het veld **Onderdelen weergeven** en houd de standaardtraceringsmethode **Gebruik - oorsprong** bij **Traceringsmethode**.  
 4.  Kies de actie **Traceren**.  

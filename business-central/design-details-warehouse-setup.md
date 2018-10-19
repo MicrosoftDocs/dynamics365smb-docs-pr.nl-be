@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: ff625189c5004f682f45fe1c1796ba6afe2e7fdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
 ms.contentlocale: nl-be
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
@@ -30,10 +30,10 @@ Er zijn de volgende magazijngerelateerde granules:
 -   Magazijnverzending (4210)  
 -   Magazijnbeheersystemen (4620)  
 -   Interne picks en interne opslag (4630)  
--   <!-- Automated Data Capture System (4640) -->  
+-   Geautomatiseerd systeem voor gegevensvastlegging (4640) 
 -   Instelling opslaglocatie (4660)  
 
-Zie voor meer informatie over elke granule [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prijsvoorstellen](http://go.microsoft.com/fwlink/?LinkId=238341) (vereist een PartnerSource-account).  
+Zie voor meer informatie over elke granule [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prijsvoorstellen](https://go.microsoft.com/fwlink/?LinkId=238341) (vereist een PartnerSource-account).  
 
 In de volgende tabel wordt getoond welke granules vereist zijn om de verschillende niveaus van magazijncomplexiteit te definiëren, welke UI-documenten elk niveau ondersteunen en welke vestigingscode deze niveaus aanduiden in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstratiedatabase.  
 
@@ -44,7 +44,7 @@ In de volgende tabel wordt getoond welke granules vereist zijn om de verschillen
 |3 <br /><br /> **OPMERKING**: hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.|Elementaire magazijnactiviteit, order-voor-order.<br /><br /> Boeking uit voorraadopslag/pickdocumenten ontvangen/verzenden. <br /><br /> Opslaglocatie is vereist.|Voorraadopslag/Voorraadverplaatsing/Voorraadpick. met opslaglocatiecode|(ZILVER + opslag vereist of opslag vereist)|Basisvoorraad/Opslaglocatie/Opslag/Pick|  
 |4|Geavanceerde magazijnactiviteit, voor meerdere orders.<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Pickvoorstel|GROEN|Basisvoorraad/Magazijnontvangst/Opslag/Pick/Magazijnverzending|  
 |5|Geavanceerde magazijnactiviteit, voor meerdere orders.<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Pickvoorstel/Opslagvoorstel met opslaglocatiecode|(GROEN + opslaglocatie verplicht)|Basisvoorraad/Opslaglocatie/Magazijnontvangst/Opslag/Pick/Magazijnverzending|  
-|6 <br /><br /> **Opmerking**: dit niveau wordt WMS genoemd, omdat het de meest geavanceerde granule vereist: Warehouse Management Systems.|Geavanceerde magazijnactiviteit, voor meerdere orders<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.<br /><br /> De zone-/klassecode is optioneel.<br /><br /> Magazijnmedewerkers geleid door werkstroom<br /><br /> Planning aanvulling opslaglocatie<br /><br /> Opslaglocatievolgorde<br /><br /> Instelling opslaglocatie op capaciteit<br /><br /> Plaatsen <!-- Hand-held device integration -->|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Magazijnverplaatsing/Pickvoorstel/Opslagvoorstel/Interne mag.- pick/Interne magazijnopslag met opslaglocatie/klasse/zonecode<br /><br /> Diverse voorstellen voor opslaglocatiebeheer <!-- ADCS screens  -->|WIT|Basisvoorraad/Opslaglocatie/Opslag/Magazijnontvangst/Pick/Magazijnverzending/Magazijnbeheersystemen/Interne picks en opslag/Opslaglocatie-instelling/<!-- Automated Data Capture System/ -->Opslaglocatie-instelling|  
+|6 <br /><br /> **Opmerking**: dit niveau wordt WMS genoemd, omdat het de meest geavanceerde granule vereist: Warehouse Management Systems.|Geavanceerde magazijnactiviteit, voor meerdere orders<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.<br /><br /> De zone-/klassecode is optioneel.<br /><br /> Magazijnmedewerkers geleid door werkstroom<br /><br /> Planning aanvulling opslaglocatie<br /><br /> Opslaglocatievolgorde<br /><br /> Instelling opslaglocatie op capaciteit<br /><br /> Plaatsen <!-- Hand-held device integration -->|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Magazijnverplaatsing/Pickvoorstel/Opslagvoorstel/Interne mag.- pick/Interne magazijnopslag met opslaglocatie/klasse/zonecode<br /><br /> Diverse voorstellen voor opslaglocatiebeheer<br /><br /> ADCS-schermen|WIT|Basisvoorraad/Opslaglocatie/Opslag/Magazijnontvangst/Pick/Magazijnverzending/Magazijnbeheersystemen/Interne picks en opslag/Opslaglocatie-instelling/<!-- Automated Data Capture System/ -->Opslaglocatie-instelling|  
 
 Zie voor voorbeelden van hoe UI-documenten worden gebruikt per niveau van magazijncomplexiteit [Ontwerpdetails: Inkomende magazijnstroom](design-details-outbound-warehouse-flow.md).  
 

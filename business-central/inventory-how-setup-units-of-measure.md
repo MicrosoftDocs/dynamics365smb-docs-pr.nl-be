@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d756fbf4cb4ca31c913792a286c373de052aee64
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Artikeleenheden instellen
@@ -28,7 +28,7 @@ U kunt meerdere eenheden voor een artikel instellen zodat u eenheden kunt toewij
 Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen**. Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd. Zie voor meer informatie [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
 
 ## <a name="to-set-up-a-unit-of-measure"></a>Een eenheid instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de artikelkaart waarvoor u alternatieve eenheden wilt instellen.
 3. Kies de actie **Eenheden**. Het venster **Artikeleenheden** wordt geopend.
 4. Als het veld **Basiseenheid** op de artikelkaart is ingevuld, is die eenheid al ingesteld.
@@ -42,7 +42,7 @@ U kunt nu afwisselende eenheden gebruiken op inkoop-, productie- en verkoopdocum
 ## <a name="to-set-up-unit-of-measure-translations"></a>Eenheidsvertalingen instellen
 Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelijk opgeven in de taal van de klant. Als u dit wilt doen, moet u de benodigde eenheidsvertalingen instellen.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Eenheden** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de code waarvoor u vertalingen wilt instellen en kies de actie **Vertalingen**.
 3. Selecteer in het veld **Taal** de pijl-omlaag voor een overzicht van de beschikbare taalcodes. Selecteer de taalcode waarvoor u een vertaling wilt invoeren en kies de knop OK om de code naar het veld te kopiëren.
 4. Voer de gewenste tekst in het veld **Omschrijving** in.
@@ -51,7 +51,7 @@ Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelij
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties
 Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt u verschillende eenheden opgeven voor inkopen en verkopen. U moet hiervoor de eenheden instellen in het venster **Artikeleenheden**.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende artikelkaart waarvoor u een standaardeenheidscode voor verkopen of inkopen wilt opgeven.
 3. Open voor verkopen op het sneltabblad **Factureren** in het veld **Verkoopeenheid** het venster **Artikeleenheden**.
 4. Open voor inkopen op het sneltabblad **Aanvulling** in het veld **Ink.-eenheid** het venster **Artikeleenheden**.

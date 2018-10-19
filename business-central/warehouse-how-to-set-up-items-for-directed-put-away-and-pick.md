@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6c71912f559aa8d1de361a581115ea1eb153cf35
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Artikelen en locaties instellen voor gestuurde opslag en pick
 Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick nieuwe functionaliteit beschikbaar om u te helpen om het magazijn op de meest efficiënte wijze te beheren. Als u deze functionaliteit ten volle wilt benutten, geeft u extra informatie op over de artikelen, zodat het eenvoudiger wordt om de berekeningen uit te voeren die zijn vereist voor het voorstellen van de meest efficiënte en de meest doeltreffende wijzen voor het uitvoeren van magazijnactiviteiten. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>U kunt als volgt een artikelen instellen voor gestuurde opslag en pick  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de kaart voor het artikel dat u wilt instellen voor gestuurde opslag en pick.
 3. Door de velden op het sneltabblad **Magazijn** van het artikel in te vullen geeft u aan hoe het artikel in het magazijn wordt verwerkt.  
 4.  Kies de actie **Eenheden**.
@@ -35,7 +35,7 @@ Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick ni
 Met gestuurde opslag en pick beschikt u over geavanceerde magazijnconfiguratiefuncties, waardoor de efficiëntie en de betrouwbaarheid van gegevens sterk kunnen worden verbeterd. Als u deze functionaliteit wilt gebruiken, moet u eerst een aantal parameters instellen in uw magazijn.  
 
 Als u de functionaliteit van gestuurde opslag en pick wilt gebruiken, moet u deze functionaliteit activeren op de vestigingskaart.    
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarin u gestuurde opslag en pick wilt gebruiken en kies de actie **Bewerken**.  
 3.  Schakel het selectievakje **Gestuurde opslag en pick** op het sneltabblad **Magazijn** in.  
 
@@ -51,7 +51,7 @@ Als bepaalde artikelen onder verschillende omstandigheden moeten worden opgeslag
 U bent nu gereed om zones instellen als u in uw magazijn wilt werken met zones. Met zones vermindert u het aantal velden dat u moet invullen wanneer u uw opslaglocaties instelt omdat opslaglocaties die in zones zijn gemaakt verschillende eigenschappen van de zone overnemen. Zones kunnen het bovendien voor nieuwe of tijdelijke werknemers eenvoudiger maken om zich in uw magazijn te oriënteren. Houd er rekening mee dat de stroom wordt beheerd door opslaglocaties, waardoor het mogelijk is om met opslaglocaties en slechts één zone te werken.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>U kunt als volgt een zone instellen in het magazijn  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarin u een zone wilt instellen, open de vestigingskaart en kies de actie **Zones**.  
 3.  Vul de velden in het venster **Zones** naar wens in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

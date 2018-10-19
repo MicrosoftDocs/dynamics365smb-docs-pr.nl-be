@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 23a9cd7a8a7f579f63937ac4fc28e6d4958f3f9a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="close-accounting-periods"></a>Boekhoudperioden afsluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten.
 
 ## <a name="to-close-accounting-periods"></a>Boekhoudperioden afsluiten
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsperioden** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Boekingsperioden** de actie **Jaar afsluiten**.
 
     Als er meerdere boekjaren zijn geopend, wordt het vroegste boekjaar automatisch geselecteerd om te worden afgesloten. Er verschijnt een bericht waarin wordt aangegeven welk jaar wordt afgesloten en welke gevolgen dit heeft.

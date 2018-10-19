@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3747515bbea41a207c9467600065b5049b7f3575
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
@@ -50,7 +50,7 @@ Een rapportageschema bestaat uit een cashflowrekening met een reeks regels en ee
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Een nieuwe naam voor een rekeningstelsel instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportageschema's** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een cashflowrekening te maken.  
 3.  Voer in het veld **Naam** de tekst **Prognose** in.  
 4.  Voer in het veld **Omschrijving** **Cashflowprognose** in.  
@@ -68,7 +68,7 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
     >  Met de functie **CF rekeningen invoegen** kunt u snel de cashflowrekeningen in het schema met cashflowrekeningen markeren en deze naar rapportageschemaregels kopiëren.  
 
     |Rijnr.|Beschrijving|Samentellingssoort|Samentelling|Rijsoort|Bedragsoort|Weergeven|  
-    |-------|-----------|-------------|--------|--------|---  ------|----| ||C10|Bedrag|Mutatie|Posten|Nettobedrag|Altijd|  
+    |-------|-----------|-------------|--------|--------|---  ------|----| |C10|Bedrag|Mutatie|Posten|Nettobedrag|Altijd|  
     |C20|Bedrag tot datum|Saldo t/m datum|Posten|Nettobedrag|Altijd|  
     |C30|Volledig boekjaar|Volledig boekjaar|Posten|Nettobedrag|Altijd|  
 

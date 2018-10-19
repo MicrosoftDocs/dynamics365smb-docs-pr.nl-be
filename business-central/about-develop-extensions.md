@@ -1,7 +1,6 @@
 ---
 title: Dynamics 365 Business Central aanpassen | Microsoft Docs
 description: Uw apps en extensies maken, demonstreren en promoten voor Business Central.
-services: project-madeira
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fc926afbf0c1442bb610531b28507fbb2c1b1cf4
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] uitbreiden
@@ -38,7 +37,7 @@ Uw [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-services naar Microsoft
 **Individuele apps** – waar u uw branche-ervaring naar de markt brengt.  
 **Pakketten met consultingservices** – waar u kant-en-klare pakketten naar de markt brengt.
 
-Met de nieuwe ontwikkelingshulpprogramma's kunt u extensies maken voor gebruikers van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Als u vertrouwd wilt raken met de nieuwe hulpmiddelen of meer informatie wilt over extensies 2.0, kijk dan naar [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Met de nieuwe ontwikkelingshulpprogramma's kunt u extensies maken voor gebruikers van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Als u vertrouwd wilt raken met de nieuwe hulpmiddelen of meer informatie wilt over extensies 2.0, kijk dan naar [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Zoek informatie over apps en consultingservices die momenteel beschikbaar zijn op [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -71,9 +70,9 @@ Als u meer wilt weten over aanbod van Microsoft AppSource-consultingservices, se
 ## <a name="the-ready-to-go-program"></a>Het Ready to Go-programma
 Het Ready to Go-programma is bedoeld om u te helpen uw Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-aanbod binnen Microsoft Appsource te halen. Het programma bevat: 
 
-- [Online leren](http://aka.ms/ReadyToGoOnlineLearning)
-- [Training en workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Microsoft Collaborate-platform](http://aka.ms/Collaborate)
+- [Online leren](https://aka.ms/ReadyToGoOnlineLearning)
+- [Training en workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Microsoft Collaborate-platform](https://aka.ms/Collaborate)
 
 Meer informatie over het maken van een [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-aanbod in het [Ready to Go-programma](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Als u vragen of feedback hebt over het **Ready to Go**-programma, kunt u [contact met ons opnemen](mailto:dyn365bep@microsoft.com). 
 

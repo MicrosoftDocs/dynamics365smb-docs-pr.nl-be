@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2a4fbc87be6f6c78feabe04ca0461ee1725c16e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
@@ -42,7 +42,7 @@ Verder kunnen bestaande assemblageorders uitsluitend worden teruggedraaid als he
 De volgende procedure beschrijft het ongedaan maken van geboekte assemblageorders waarvoor artikelen zijn geassembleerd voor voorraad. Als u geboekte assemblageorders waarvoor artikelen zijn geassembleerd ten behoeve van een verkooporder ongedaan wilt maken, moet u de functie **Verzending ongedaan maken** gebruiken voor de geboekte verzending die betrekking heeft op de geboekte assemblageorder. Zie voor meer informatie [Boekingen tegenboeken](finance-how-reverse-journal-posting.md). Het ongedaan het maken van de geboekte assemblageorder geschiedt vervolgens automatisch en op dezelfde wijze als in dit onderwerp is beschreven.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Het boeken van een assemblageorder ongedaan maken  
-1.  Als u een volledig of gedeeltelijk geboekte assemblyorder ongedaan wilt maken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Geboekte assemblyorders** in en kiest u de gerelateerde koppeling.  
+1.  Als u een volledig of gedeeltelijk geboekte assemblyorder ongedaan wilt maken, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geboekte assemblageorders** in en kiest u de gerelateerde koppeling.  
 
     Het venster **Geboekte assemblageorders** wordt geopend met een of meer assemblageorders die zijn geboekt voor de assemblageorder in kwestie. Elke gedeeltelijke boeking leidt tot het maken van een afzonderlijk geboekte assemblageorder.  
 2.  Open de geboekte assemblyorder die u ongedaan wilt maken en kies vervolgens de actie **Assemblage ongedaan maken**.  

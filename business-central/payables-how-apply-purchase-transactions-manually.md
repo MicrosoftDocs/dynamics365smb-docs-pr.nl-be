@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6b0ab4131f26a91953b28991276d3a19a8918ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Leveranciersbetalingen handmatig reconciliëren
@@ -39,7 +39,7 @@ U kunt leveranciersbetalingen handmatig op de gerelateerde inkoopdocumenten toep
 U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalingen worden weergegeven als negatieve banktransacties bij uw bank. In het venster **Dagboek betalingsreconciliatie** kunt u functies voor het importeren van bankafschriften, automatische vereffening en bankrekeningvereffening gebruiken. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Een betaling vereffenen met een of meer leveranciersposten
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in het venster **Betalingsdagboek** op de eerste dagboekregel de betreffende gegevens over de betalingspost in.
 3. Eén leverancierspost vereffenen:
    1. Selecteer in het veld **Vereffeningsnr.** het veld voor het openen van het venster **Leveranciersposten vereffenen**.
@@ -57,7 +57,7 @@ U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalin
 6. Kies de actie **Boeken** om het betalingsdagboek te boeken.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Een creditnota vereffenen met een of meer leveranciersposten:
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoop - Creditnota** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopcreditnota** in en kies vervolgens de gerelateerde koppeling.
 2. Open de creditnota die u wilt vereffenen.
 3. Voer de betreffende gegevens in de kop in.
 4. Als u een enkele leverancierspost wilt vereffenen, selecteert u op het sneltabblad **Vereffening** in het veld **Vereffeningsnr.**, de post waarmee u het krediet wilt vereffenen. In het veld **Te vereffenen bedrag** voert u vervolgens het bedrag in waarmee de post moet worden vereffend.
@@ -74,7 +74,7 @@ U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalin
 7. Kies de knop **Boeken** om de inkoopcreditnota te boeken.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Geboekte leveranciersposten vereffenen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende leverancier met posten die reeds zijn geboekt.
 3. Kies de actie **Posten** en kies vervolgens de actie **Posten vereffenen**.
 4. In het venster **Leveranciersposten vereffenen** ziet u de openstaande posten voor de leverancier.
@@ -95,7 +95,7 @@ Als u van een leverancier koopt in de ene valuta en betaalt in de andere, kunt u
 
 Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een andere valuta, wordt de boekingsdatum van Post 1 gebruikt om de juiste wisselkoers te bepalen voor de conversie van de bedragen van Post 2. De juiste wisselkoers wordt opgezocht in het venster **Valutawisselkoersen**. In dat geval moet u vereffening van leveranciersposten in verschillende valuta's inschakelen. Zie voor meer informatie [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Open het journaal dat u wilt gebruiken en vul de eerste lege dagboekregel in met een valutacode.
 3. Kies de actie **Posten vereffenen**.
 4. Selecteer de regel met de post waarmee u de post in het betalingsdagboek wilt vereffenen, kies de actie **Id toekennen** en selecteer vervolgens de post waarmee u wilt vereffenen.
@@ -108,7 +108,7 @@ Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>De vereffening van leveranciersposten ongedaan maken
 Als u een verkeerde vereffening ongedaan maakt, worden er stornoposten gemaakt die identiek zijn aan de oorspronkelijke post maar met een tegengesteld teken in het bedragveld, en geboekt voor alle posten, inclusief alle GB-boekingen die uit de vereffening voortkomen zoals contantkortingen en valutawinst- en verlies. De posten die waren afgesloten door de toepassing worden heropend.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart.
 3. Kies de actie **Posten**.
 4. Selecteer de betreffende post en kies de actie **Vereffening posten ongedaan maken**.

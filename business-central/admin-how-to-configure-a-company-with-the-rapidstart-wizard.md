@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Een bedrijf configureren met de wizard RapidStart
@@ -38,10 +38,10 @@ In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, da
 6. Vouw het sneltabblad **Stap 5** uit. Opgeven welk Rolcentrum u standaard wilt gebruiken voor het nieuwe bedrijf.  
 
     > [!IMPORTANT]  
-    >  Wijzig uw rolcentrum pas nadat u de configuratie van het bedrijf hebt voltooid. Als u met meer instellingsgegevens rekening moet houden en meer wijzigingen moet doorvoeren, moet u eerst het configuratiewerkblad gebruiken om door te gaan met uw werk. Ga vervolgens terug naar de wizard voor het bijwerken van uw Rolcentrum-profiel of kies de actie **Volledige installatie**.
+    >  Wijzig uw Rolcentrum pas nadat u de configuratie van het bedrijf hebt voltooid. Als u met meer instellingsgegevens rekening moet houden en meer wijzigingen moet doorvoeren, moet u eerst het configuratiewerkblad gebruiken om door te gaan met uw werk. Ga vervolgens terug naar de wizard voor het bijwerken van uw Rolcentrum-profiel of kies de actie **Volledige installatie**.
 
 7. Kies de knop **OK**.  
-8. U kunt controleren of de configuratiegegevens zijn toegepast op het nieuwe bedrijf. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en kies en vervolgens de gerelateerde koppeling.
+8. U kunt controleren of de configuratiegegevens zijn toegepast op het nieuwe bedrijf. Kies het ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "pictogram Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies en vervolgens de gerelateerde koppeling.
 
 Het venster **Bedrijfsgegevens** bevat gegevens die u hebt opgegeven.   
 

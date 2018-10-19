@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25dd4bf914a4bf971e329b48fddac03f7536b00f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="cross-dock-items"></a>Artikelen cross-docken
@@ -43,14 +43,14 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
 
     Als u zones gebruikt, maakt u een zone voor de cross-dockopslaglocaties en selecteert u het veld **Cross-dockopslaglocatiezone**. Zie voor meer informatie [Gebruik van opslaglocaties voor locaties instellen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestiging** in en klik vervolgens op de gerelateerde koppeling.  
+2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locatie** in en kies vervolgens de gerelateerde koppeling.  
 3.  In het venster **Vestiging** selecteert u de vestiging waar u het magazijn voor cross-docken wilt instellen. Vervolgens kiest u de actie **Bewerken**.  
 4.  Schakel op het sneltabblad **Magazijn** het selectievakje **Cross-docken gebruiken** in en vul in het veld **Cross-dockvervaldatum berekenen** de periode in waarin er moet worden gezocht naar cross-dockmogelijkheden.
 
     De optie **Cross-docken** gebruiken is alleen beschikbaar als u de velden **Ontvangst vereist**, **Verzending vereist**, **Pick vereist** en **Opslag vereist** selecteert.  
 
 5.  Als u met opslaglocaties werkt, vult u in het veld **Cross-dockopslaglocatie** op het sneltabblad **Opslaglocaties** de code in van de opslaglocatie die u als standaardcross-dockopslaglocatie wilt gebruiken.  
-6.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU** in en klik vervolgens op de gerelateerde koppeling.  
+6.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU** in en selecteer vervolgens de gerelateerde koppeling.  
 7.  Selecteer alle items of SKU's die in aanmerking komen voor cross-docking en kies de actie **Bewerken**.
 8. Schakel in het venster **SKU** het selectievakje **Cross-docken gebruiken** in.  
 
@@ -58,7 +58,7 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
 >  Cross-docken is alleen mogelijk als voor de vestiging magazijnontvangst- en magazijnopslagverwerking is vereist.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>U kunt als volgt artikelen cross-docken zonder de mogelijkheden te bekijken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnontvangsten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Maak een magazijnontvangst voor een artikel dat is aangekomen en dat misschien kan worden gecross-dockt. Zie [Artikelen ontvangen](warehouse-how-receive-items.md) voor meer informatie.  
 3.  Vul het veld **Te ontvangen aantal** in en kies de actie **Cross-dock berekenen**.  
 
@@ -75,7 +75,7 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
 7.  Klik op de actie **Registreren** om de artikelen na cross-docking als opgeslagen en pickbaar te registreren.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Artikelen cross-docken na de mogelijkheden bekeken te hebben  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnontvangsten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Maak een magazijnontvangst voor een artikel dat is aangekomen en dat misschien kan worden gecross-dockt. Zie [Artikelen ontvangen](warehouse-how-receive-items.md) voor meer informatie.  
 
     U wilt de ontvangst mogelijk pas boeken nadat u hebt weergegeven op welke regels in de brondocumenten de artikelen voorkomen.  

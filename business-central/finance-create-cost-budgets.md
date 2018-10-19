@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ab66e5b2404f512816d1a4fcb3b110a95265e1f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Kostenbudgetten maken
@@ -24,14 +24,14 @@ Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een
 
 Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
-U gebruikt de volgende vensters om kostenbudgetten te maken en te analyseren. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") om een venster te vinden en lees vervolgens de knopinfo voor elk venster.
+U gebruikt de volgende vensters om kostenbudgetten te maken en te analyseren. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om een venster te vinden en lees vervolgens de knopinfo voor elk venster.
 
-|Als u dit wilt doen|Zie|  
+|Aan|Zie|  
 |--------|---------|  
 |Budgetten overboeken vanuit het grootboek|Batchverwerking **Budget kopiëren naar kostprijsboekhouding**|  
 |Kostenbegrotingen kopiëren.|Batchverwerking **Kostenbudget kopiëren**|  
-|Begrotingen toewijzen.|Pagina **Kostenverdeling**|  
-|Zie de kostenbudgetregisters en de kostenbudgetposten.|Pagina **Kostenbudgetregisters**|  
+|Begrotingen toewijzen.|Venster **Kostenverdeling**|  
+|Zie de kostenbudgetregisters en de kostenbudgetposten.|Venster **Kostenbudgetregisters**|  
 |Vergelijkingen tussen kostenbudgetten afdrukken met behulp van diverse rapporten.|Rapport **Saldo/Budget kostprijsboekhouding**<br /><br /> Rapport **Rekeningoverzicht/Budget kostprijsboekhouding**<br /><br /> Rapport **Kostenbudget per kostenplaats**<br /><br /> Rapport **Kostenbudget per kostenobject**|  
 
 ## <a name="see-also"></a>Zie ook  

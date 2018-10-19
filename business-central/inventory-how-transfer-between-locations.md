@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 653fee8d327635f2e53a2f3c890f0b52649697f9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e21299ab25f05f465b8a33d3a12bc35d9037d0b
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="transfer-inventory-between-locations"></a>Voorraad overbrengen tussen vestigingen
@@ -30,7 +30,7 @@ Met het herindelingsdagboek hoeft u alleen de velden **Vestigingscode** en **Nie
 Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingesteld. Zie [Vestigingen instellen](inventory-how-setup-locations.md) voor meer informatie.
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Artikelen overbrengen met een transferorder
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferorders** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferorders** in en kies vervolgens de gerelateerde koppeling.
 2. Vul in het venster **Transferorder** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
@@ -47,7 +47,7 @@ Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingeste
 4. Kies de actie **Boeken**, kies de optie **Ontvangen** en kies vervolgens de knop **OK**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Artikelen overbrengen met het artikelherindelingsdagboek
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelherindelingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelherindelingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul in het venster **Artikelherindelingsdagboeken** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voer in het veld **Vestiging** de vestiging in waar de artikelen momenteel zijn opgeslagen.
 

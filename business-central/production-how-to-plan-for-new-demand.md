@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
@@ -26,14 +26,14 @@ U kunt het venster **Orderplanning** op twee manieren openen, afhankelijk van uw
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Een nieuwe productieordervraag plannen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geplande productieorders** in en klik op de gerelateerde koppeling. U kunt deze stappen uitvoeren voor geplande, vast geplande of vrijgegeven productieorders.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies vervolgens de gerelateerde koppeling. U kunt deze stappen uitvoeren voor geplande, vast geplande of vrijgegeven productieorders.
 2.  Open de productieorder waarvoor u wilt plannen en kies de actie **Planning**.  
 3.  Kies in het venster **Orderplanning** de actie **Plan berekenen**.  
 
 In het venster worden planningsregels weergegeven volgens het weergavefilter **Productievraag**. Dit zijn niet-gerealiseerde materiaalregels van alle bestaande productieorders. Vraag voor slechts één productieorder wordt niet weergegeven omdat het nodig is om één productieorder te plannen met een overzicht van de vraag voor mogelijk eerdere materiaalregels. Planningsregels voor de productieorder in context worden uitgevouwen.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Eventuele nieuwe vraag plannen  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Orderplanning** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Orderplanning** de actie **Plan berekenen**.
 3.  Kies de knop **Uitvouwen (+)** in het veld **Benodigde datum** als u de onderliggende planningsregels wilt bekijken, die vraagregels met onvoldoende beschikbaarheid vertegenwoordigen.  
 4.  Voor elke uitgevouwen planningsregel, oftewel vraagregel, kunt u de waarden weergeven in gegevensvelden onder in het venster.  
@@ -85,7 +85,7 @@ In het venster worden planningsregels weergegeven volgens het weergavefilter **P
 >   Als u een datum later dan de benodigde datum invoert, ontvangt u een waarschuwingsbericht.  
 
 ## <a name="to-make-supply-orders"></a>Orders voor voorzieningen maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geplande productieorders** in en klik op de gerelateerde koppeling. U kunt deze stappen uitvoeren voor een geplande, vast gepland of vrijgegeven productieorder.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies vervolgens de gerelateerde koppeling. U kunt deze stappen uitvoeren voor een geplande, vast gepland of vrijgegeven productieorder.  
 2.  Open de productieorder waarvoor u wilt plannen en kies de actie **Planning**.  
 3.  Plaats de cursor op een relevante planningsregel en kies de actie **Orders maken**.  
 4.  Selecteer een van de volgende opties in het venster **Orders voor voorzieningen maken** op het sneltabblad **Orderplanning**, in de groep **Orders maken voor**.  

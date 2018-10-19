@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bd8bf55a69833745739a5c575bee2a3818cb7634
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe294cd56c01e1440ff04f7146fada64774f4e8b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-for-production-or-assembly"></a>Picken voor productie of assemblage
@@ -39,7 +39,7 @@ Een eerste systeemvereiste voor het picken of verplaatsen van componenten voor b
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Onderdelen picken in standaardmagazijnconfiguraties
 In standaardmagazijnconfiguraties waarbij de locatie alleen is ingesteld voor het gebruik van picken, kunt u onderdelen voor productieactiviteiten kiezen via het venster **Voorraadpick**. Zie voor meer informatie [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadpicks** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Brondocumenten ophalen** en selecteer de vrijgegeven productieorder om de productieorderonderdelen te openen.  
 3.  Voer de pick uit en leg de pickinformatie vast in het veld **Gepickt aantal**.  
 4.  Wanneer de regels gereed zijn voor boeken, kiest u de actie **Boeken**. Het boeken leidt tot het maken van de benodigde magazijnposten en tot het boeken van het verbruik van de artikelen.  
@@ -86,11 +86,11 @@ Als u een pick-verzoek wilt maken, bij zowel een pull- als een push-scenario, mo
  |Brondocument|Vrijgavemethode|  
  |---------------------|--------------------|  
  |Productieorder|Wijzig de ordersoort in vrijgegeven productieorder.|  
- |Assemblageorder|Wijzig de status in Vrijgegeven.|  
+ |Assemblageorder|Status wijzigen in Vrijgegeven.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Onderdelen picken op basis van het pickvoorstel  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Pickvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Magazijndocumenten ophalen** en selecteer vervolgens de onderdeelregels van de vrijgegeven productieorder.  
 3.  Inspecteer en sorteer de regels om een efficiënte pickronde samen te stellen en combineer ze eventueel met andere voorstelregels zodat de werknemer zo min mogelijk tijd nodig heeft.  
 4.  Kies de actie **Pick maken**.  

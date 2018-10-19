@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f514f05f5333bc8f2b473c50324e267d19c70d6f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ca7052fd5353ec93f6544aa7a9056fb492b638e2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually"></a>Klantbetalingen handmatig reconciliëren
 Wanneer u een bedrag ontvangt van een klant of een terugbetaling doet, moet u bedenken of de ontvangst of betaling moet worden vereffend om een of meer openstaande debet- of creditposten te sluiten. U kunt het exacte bedrag opgeven dat u wilt vereffenen. U kunt bijvoorbeeld gedeeltelijke betalingen vereffenen met klantenposten. Het sluiten van klantenposten garandeert dat gegevens zoals bijvoorbeeld klantstatistieken, rekeningoverzichten, en rente correct zijn.
 
 > [!NOTE]  
->   In het venster **Klantenposten** betekent een rood lettertype dat de gerelateerde betaling over de vervaldatum is.
+>   In het venster **Klantenposten** betekent een rood lettertype dat de gerelateerde betaling over de vervaldatum is. Als te late betalingen een probleem worden, kunnen we u helpen de frequentie ervan te verminderen. U kunt de extensie **Voorspelling van te late betalingen** inschakelen, die een voorspellend model gebruikt dat is ontwikkeld in Azure Machine Learning om de timing van betalingen te voorspellen. Deze voorspellingen helpen u openstaande tegoeden te reduceren en uw inningsstrategie te verfijnen. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen. Zie [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md) voor meer informatie.  
 
 U kunt klantposten vereffenen op verschillende manieren:
 
@@ -34,10 +34,10 @@ U kunt klantposten vereffenen op verschillende manieren:
 
 In het venster **Ontvangstendagboek** kunt u klantbetalingen handmatig vereffenen. Een ontvangstendagboek is een soort algemeen dagboek, waarmee u transacties boekt naar grootboek-, bank-, klanten-, leveranciers- en vaste-activumrekeningen. U kunt de betaling met een of meer debetposten vereffenen wanneer u de betaling boekt of u kunt deze later vanuit de geboekte posten vereffenen.
 
-U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betalingsreconciliatie** vereffenen door middel van functies voor import van bankafschriften, automatische vereffening en bankrekeningreconciliatie. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md). U kunt klantbetalingen ook reconciliëren op basis van een lijst met onbetaalde verkoopdocumenten in het venster **Betalingsregistratie**. Zie [Klantbetalingen van een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) voor meer informatie
+U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betalingsreconciliatie** vereffenen door middel van functies voor import van bankafschriften, automatische vereffening en bankrekeningreconciliatie. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md). U kunt klantbetalingen ook reconciliëren op basis van een lijst met onbetaalde verkoopdocumenten in het venster **Betalingsregistratie**. Zie [Klantbetalingen van een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) voor meer informatie.
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Een ontvangstendagboek invullen en boeken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ontvangstendagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Dagboek bewerken**.
 3. Selecteer in het veld **Batchnaam** de juiste batch.
 4. Vul het veld **Boekingsdatum** in.  
@@ -53,7 +53,7 @@ U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betali
 12. Boek het dagboek.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Een betaling vereffenen met één klantenpost
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ontvangstendagboek** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Dagboek bewerken**.
 3. Geef op de eerste dagboekregel de betreffende gegevens op over de post die u wilt vereffenen.
 4. Voer **Betaling** in het veld **Documentsoort** in.
@@ -68,7 +68,7 @@ U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betali
 11. Boek het ontvangstendagboek.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Een betaling vereffenen met meerdere klantenposten
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ontvangstendagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Dagboek bewerken**.
 3. Geef op de eerste dagboekregel de betreffende gegevens op over de post die u wilt vereffenen.
 4. Voer **Betaling** in het veld **Documentsoort** in.
@@ -84,7 +84,7 @@ U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betali
 12. Boek het ontvangstendagboek.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Een creditnota vereffenen met één klantenpost
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopcreditnota's** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante verkoopcreditnota.
 3. Als u de creditnota tijdens het boeken wilt toepassen op één klantenpost, selecteert u in het veld **Vereffeningsnr.** de post waarop u de betaling wilt toepassen.
 4. Voer op de regel in het veld **Te vereffenen bedrag** het bedrag op waarmee u de post wilt vereffenen.  
@@ -94,7 +94,7 @@ U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betali
 6. Boek de creditnota.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Een creditnota vereffenen met meerdere klantenposten
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopcreditnota's** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante verkoopcreditnota.
 3. Kies de actie **Posten vereffenen** als u de creditnota tijdens het boeken wilt vereffenen met meerdere klantposten.
 4. Selecteer de regels met de posten die u met de vereffeningspost wilt vereffenen en kies de actie **Id toekennen** .
@@ -105,7 +105,7 @@ U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betali
 7. Boek de creditnota.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Geboekte klantenposten vereffenen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de klantenkaart voor de klant met de posten die u wilt vereffenen.
 3. Kies de actie **Posten** en selecteer de regel met de post die u als de vereffeningspost wilt gebruiken.
 4. Kies de actie **Posten vereffenen**. Het venster **Klantposten vereffenen** wordt geopend met daarin de openstaande posten voor de klant.
@@ -117,7 +117,7 @@ U kunt klantbetalingen en leveranciersbetalingen in het venster **Dagboek betali
 8. Kies de knop **OK** om de vereffening te boeken.
 
     Als de vereffening geboekt is en dit heeft tot resultaat gehad dat klantenposten zijn afgesloten, staat er geen vinkje meer bij deze grootboekposten in het veld **Open**.    
-9. Als u de posten wilt zien, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Klanten** in en kiest u vervolgens de gerelateerde koppeling. Ga naar de kaart voor de relevante klant om de posten te zien.  
+9. Als u de posten wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling. Ga naar de kaart voor de relevante klant om de posten te zien.  
 
 In het overzicht met posten kunt u zien dat het selectievakje **Open** is uitgeschakeld op de regel met de post die volledig is vereffend.  
 
@@ -131,7 +131,7 @@ Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een 
 
 Het vereffenen van klantposten in verschillende valuta's moet zijn ingeschakeld. Zie voor meer informatie [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ontvangstendagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Open het dagboek dat u wilt gebruiken en vul de eerste lege dagboekregel in met een valutacode.
 3. Kies de actie **Posten vereffenen**.
 4. Selecteer de regel met de post waarmee u de post in het ontvangstendagboek wilt vereffenen, kies de actie **Id toekennen** en selecteer vervolgens de post waarmee u wilt vereffenen.
@@ -142,9 +142,9 @@ Het vereffenen van klantposten in verschillende valuta's moet zijn ingeschakeld.
 >   Wanneer u posten in verschillende valuta's vereffent, worden de posten omgezet in USD. Alhoewel een vaste wisselkoers wordt gehanteerd tussen de twee relevante valuta's, bijvoorbeeld USD en EUR, kan er een klein verschilbedrag ontstaan wanneer bedragen worden omgezet in de lokale valuta. Deze kleine verschilbedragen worden als winst- of verliesbedragen geboekt naar de rekening die u hebt opgegeven in de velden **Gereal. koerswinstrekening** of **Gereal. koersverliesrekening** van het venster **Valuta's**. Het veld **Bedrag (lokale valuta)** wordt ook aangepast in de leveranciersposten.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Een vereffening van klantposten corrigeren
-Als u een vereffening corrigeert, worden er stornoposten gemaakt die identiek zijn aan de oorspronkelijke post maar met een tegengesteld teken in het bedragveld. Deze stornoposten worden geboekt voor alle posten, inclusief alle GB-boekingen die uit de vereffening voortkomen zoals contantkortingen en valutawinst- en verlies. De posten die waren afgesloten door de toepassing worden heropend.  
+Als u een vereffening corrigeert, worden er stornoposten gemaakt die identiek zijn aan de oorspronkelijke post maar met een tegengesteld teken in het bedragveld. Deze stornoposten worden geboekt voor alle posten, inclusief alle GB-boekingen die uit de vereffening voortkomen zoals contantkortingen en valutawinst- en verlies. De posten die waren afgesloten door de toepassing, worden heropend.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante klantenkaart.
 3. Kies de actie **Posten**.
 4. Selecteer de betreffende post en kies de actie **Vereffening posten ongedaan maken**.

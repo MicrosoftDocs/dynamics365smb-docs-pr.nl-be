@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/30/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ed2ffa433c2bee2b29971aacd25430d2148ecc56
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75ee26e612627f7d24e47db87cb520d56a331ef6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
@@ -32,7 +32,7 @@ Als het veld **E-mail** in het venster **Document verzenden naar** is ingesteld 
 In de volgende procedure wordt beschreven hoe u het rapport **Verkoop - factuur** zo instelt dat het kan worden gebruikt voor documentspecifieke e-mailhoofdteksten wanneer u geboekte verkoopfacturen via e-mail verstuurt.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Een documentspecifieke e-mailhoofdtekst instellen voor verkoopfacturen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportselectie - Verkoop** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur**.
 3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
 4. Schakel het selectievakje **Gebruiken voor hoofdtekst van e-mailbericht** in.
@@ -48,7 +48,7 @@ Wanneer u nu bijvoorbeeld de actie **Verzenden** kiest in het venster **Geboekte
 In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als een e-mailbericht verzendt met het document als een PDF-bestand bijgevoegd en met een documentspecifieke e-mailhoofdtekst.
 
 ## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de relevante geboekte verkoopfactuur en kies de actie **Verzenden**. Het venster **Document verzenden naar** verschijnt.
 3. Selecteer in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 4. Kies de knop **OK**. Het venster **E-mail verzenden** wordt geopend.

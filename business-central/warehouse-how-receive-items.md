@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 52290609eca12eb09f9d1065b1013baeee5b8a5b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="receive-items"></a>Artikelen ontvangen
@@ -26,7 +26,7 @@ Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Artikelen ontvangen met een inkooporder
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stappen zijn vergelijkbaar voor verkoopretourorders en transferorders.  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkooporders** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open een bestaande inkooporder of maak een nieuwe. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Voer in het veld **Te ontvangen aantal** het aantal in dat u hebt ontvangen.
 
@@ -34,7 +34,7 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stap
 4. Kies de actie **Boeken**.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Artikelen ontvangen met een magazijnontvangst
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnontvangsten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  

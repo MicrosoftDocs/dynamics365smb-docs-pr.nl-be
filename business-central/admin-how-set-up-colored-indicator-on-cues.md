@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5814a1719ccba38967ee64d28fddae617487b43c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
@@ -29,7 +29,7 @@ Vanuit het venster **Instelling indicatiestapel** kunt u indicatoren instellen v
 Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die de drie bereiken van gegevenswaarden definiëren (laag, gemiddeld en hoog) waarop u een andere kleur (of stijl) kunt toepassen.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Gekleurde indicatoren instellen voor indicatiestapels  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instelling indicatiestapel** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van indicatiestapel** in en kies vervolgens de gerelateerde koppeling.  
   
      Het venster **Instelling indicatiestapel** wordt geopend. Het venster bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam**. Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam**.  
   

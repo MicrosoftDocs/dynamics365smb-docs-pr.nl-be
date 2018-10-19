@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/26/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
@@ -30,7 +30,7 @@ U gebruikt het venster **Krediettransferregisters** om de betalingsbestanden wee
 ## <a name="to-export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
 Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de betalingsdagboekregels in. Zie voor meer informatie [Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -72,7 +72,7 @@ U kunt betalingsbestanden opnieuw exporteren vanuit het venster **Krediettransfe
 > [!NOTE]  
 >   Geëxporteerde EFT-bestanden worden niet in het venster **Krediettransferregisters** weergegeven en kunnen niet opnieuw worden geëxporteerd.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Krediettransferregisters** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Krediettransferregisters** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een betalingexport die u opnieuw wilt exporteren en kies de actie **Betalingen opnieuw exporteren naar bestand**.
 
 ## <a name="see-also"></a>Zie ook

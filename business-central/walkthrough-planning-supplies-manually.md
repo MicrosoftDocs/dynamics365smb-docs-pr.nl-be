@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2992c2a9cbd2142e69cfb59294791ec31ce4dcb1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
@@ -69,7 +69,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### <a name="to-use-the-order-planning-window"></a>Het venster Orderplanning gebruiken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Orderplanning** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling.  
 
      Als het venster **Orderplanning** voor het eerst wordt geopend, moet er een planning worden berekend om de nieuwe vraag weer te geven sinds deze voor het laatst is berekend.  
 
@@ -227,7 +227,7 @@ The **Order Planning** window can be accessed from several different locations o
 
      Het bericht geeft aan dat nu in alle vereiste artikelen is voorzien. Controleer de vast gepland productieorders die worden gemaakt.  
 
-13. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vast geplande productieorders** in en klik op de gerelateerde koppeling.  
+13. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 
      Bekijk in het venster **Vast geplande productieorders** hoe de begin- en eindtijden van afzonderlijke orders nu zijn gepland volgens de productstructuur. De onderdelen op het laagste niveau worden het eerst geproduceerd. Daarom moet u orders met meerdere niveaus plannen zoals is gedemonstreerd in deze planningswerkstroom.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e519a1628342f7c4711b3266f53ac857d4865e71
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Bestaande locaties converteren naar magazijnlocaties
@@ -30,7 +30,7 @@ U kunt voor of na de omzetting zones en opslaglocaties maken. De enige opslagloc
 >  Voordat u de locatie omzet voor magazijnactiviteiten, kunt u alle negatieve voorraad en open magazijndocumenten leegmaken door een rapport te draaien dat voor de locatie de artikelen met negatieve voorraad en open magazijndocumenten aangeeft. Zie voor meer informatie Op negatieve voorraad controleren.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Een bestaande vestiging als een magazijnvestiging laten functioneren  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnvestiging maken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnvestiging maken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef in het veld **Locatiecode** de locatie op die geschikt moet zijn voor magazijnverwerking.  
 3.  Geef in het veld **Wijzig opslaglocatiecode** de opslaglocatie op van de locatie waar de niet-gesynchroniseerde magazijnposten worden opgeslagen. Zie de sectie 'De aangepaste magazijnposten synchroniseren met de gerelateerde artikelposten' in [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md) voor meer informatie.  
 

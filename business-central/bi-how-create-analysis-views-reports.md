@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Analyselijsten maken
@@ -61,7 +61,7 @@ In een analyselijst worden de analyseparameters als kolommen weergegeven. Met ee
 
 De regels op een sjabloon vertegenwoordigen stuk voor stuk de analysekolommen die u in de analyselijst ziet. Als u een kolom wilt definiëren, moet u een code voor het soort analyse aan een regel toewijzen. Deze code voor het soort analyse bepaalt het type brongegevens in de artikelposten waarop de analyse wordt gebaseerd. Brongegevens omvatten kosten, totale omzet of aantal en hun bijbehorende waardeposten. U kunt zoveel kolomsjablonen instellen als u wilt en deze vervolgens gebruiken om nieuwe analyselijsten te maken.    
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analysekolomsjablonen verkoop** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopkolomsjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de eerste lege regel en vul de benodigde velden in.
 3. Kies de actie **Kolommen**.  
 4. Geef in de velden in het venster **Analysekolommen** op welke kolommen u in de analyselijst wilt opnemen.  
@@ -78,7 +78,7 @@ De objecten die u wilt analyseren worden in een analyselijst op de regels weerge
 
 Een sjabloon bevat een set regels die de analyseregels in de analyselijst vertegenwoordigen. Per regel kunt u één of meerdere artikelen, klanten, leveranciers of groepen opgeven. U kunt ook een formule invoegen om de bovenliggende regels te totaliseren. U kunt zoveel regelsjablonen maken als u wilt en deze vervolgens gebruiken om nieuwe analyselijsten te maken.    
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyseregelsjablonen verkoop** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopregelsjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de eerste lege regel en vul de benodigde velden in.
 3. Kies de actie **Regels**.  
 4. Maak in het venster **Analyseregels** regels voor de artikelen, klanten, leveranciers of verkopers waarvan of voor wie u cijfers in de analyselijst wilt bekijken. U bent verplicht de velden **Soort**, **Reeks** en **Omschrijving** in te vullen.  
@@ -91,7 +91,7 @@ De volgende procedure is gebaseerd op analyserapporten voor verkopen. De stappen
 
 Met verkoopanalyselijsten kunt u de dynamiek van uw omzet analyseren op basis van geselecteerde indicatoren voor verkoopprestaties, bijvoorbeeld de omzetbedragen en -aantallen, de bijdrage aan de brutowinst en de progressie van de werkelijke verkoop ten opzichte van het budget. U kunt de rapporten ook gebruiken om de gemiddelde verkoopprijs te analyseren en de prestaties van het verkoopteam te evalueren.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopanalyserapporten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopanalyserapporten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Analyserapport verkoop** de actie **Nieuw**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Analyserapport bewerken**.

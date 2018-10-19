@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e56c6d07bcb501e3e461c9b16a6b5be8e2b68834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f1c27e93dedb12b3b4895cbfc9a22d255fa2120
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
@@ -30,7 +30,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 - Er zijn productieresources ingesteld. Zie voor meer informatie [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Een productiestuklijst maken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productiestuklijst** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productiestuklijst** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u de stuklijst wilt bewerken, stelt u het veld **Status** in op **Nieuw** of **In ontwikkeling**. Als u het wilt inschakelen, stelt u het veld **Status** in op **Gecertificeerd**.  
@@ -57,7 +57,7 @@ Nieuwe versies van productiestuklijsten worden bijvoorbeeld gebruikt wanneer een
 
 De begindatum geeft het begin aan van de periode waarin deze versie geldig is. De begindatum wordt gebruikt als filtercriterium voor berekeningen en evaluaties. De stuklijstversie is geldig tot aan de begindatum van de volgende versie.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productiestuklijst** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productiestuklijst** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de productiestuklijst die u wilt kopiëren en kies de actie **Versies**.  
 3.  Kies op het tabblad **Start** in de groep **Nieuw** de optie **Nieuw**.  
 4. Vul de velden in.

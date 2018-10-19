@@ -1,6 +1,6 @@
 ---
-title: Een productieprognose maken | Microsoft Docs
-description: U kunt verkoop- en productieprognoses maken in het venster **Productieprognose**.
+title: Een vraagprognose maken | Microsoft Docs
+description: U kunt verkoop- en productieprognoses maken in het venster **Vraagprognose**.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Een productieprognose maken
-U kunt verkoop- en productieprognoses maken in het venster **Productieprognose**.  
+# <a name="create-a-demand-forecast"></a>Een vraagprognose maken
+U kunt verkoop- en productieprognoses maken in het venster **Vraagprognose**.  
 
 De prognosefunctionaliteit wordt gebruikt om een verwachte vraag aan te maken; de werkelijke vraag komt voort uit verkoop- en productieorders. Tijdens het opstellen van het MPS (Master Production Schedule) wordt de prognose tot een nettowaarde teruggebracht tegen de verkoop- en productieorders. De optie *Onderdeel* op de prognose bepaalt met welke soort vraag rekening wordt gehouden in het proces van het berekenen van de nettowaarde. Als de prognose wordt uitgevoerd voor een verkoopartikel, worden alleen verkooporders gebruikt tegen de prognose. Als het materialen betreft, wordt alleen afhankelijke vraag van productieordermaterialen gebruikt tegen de prognose.  
 
@@ -34,7 +34,7 @@ De prognosefunctionaliteit in het programma kan worden gebruikt voor het maken v
 
 In de meeste gevallen wijzigt dus de productieplanner de verkoopprognose zodat deze past bij de productieomstandigheden, terwijl toch aan de verkoopprognose wordt voldaan.  
 
-U kunt handmatig prognoses maken in het venster **Productieprognose**. Er kunnen in het systeem meerdere prognoses bestaan, die aan de hand van de naam en de soort van elkaar worden onderscheiden. Prognoses kunnen desgewenst worden gekopieerd en bewerkt. Het is wel zo dat op elk moment slechts één prognose geldig kan zijn voor planningsdoeleinden.  
+U kunt handmatig prognoses maken in het venster **Vraagprognose**. Er kunnen in het systeem meerdere prognoses bestaan, die aan de hand van de naam en de soort van elkaar worden onderscheiden. Prognoses kunnen desgewenst worden gekopieerd en bewerkt. Het is wel zo dat op elk moment slechts één prognose geldig kan zijn voor planningsdoeleinden.  
 
 De prognose bestaat uit een aantal records, die elk het artikelnummer, de prognosedatum en het prognoseaantal bevatten. De prognose van een artikel bestrijkt een periode, die wordt bepaald door de prognosedatum en de prognosedatum van de volgende (latere) prognoserecord. Vanuit het oogpunt van planning moet het prognoseaantal beschikbaar zijn bij aanvang van de vraagperiode.  
 
@@ -49,16 +49,16 @@ Omdat de materiaalprognose is ontworpen om opties te definiëren voor een hoofda
  De prognoseperiode is geldig vanaf de begindatum tot de datum waarop de volgende prognose begint. Het tijdsintervalvenster biedt u meerdere keuzemogelijkheden om de vraag op en bepaalde datum in een periode in te voegen. Het is daarom raadzaam om het bereik van de prognoseperiode niet te wijzigen, tenzij u alle prognoseposten naar de begindatum van deze periode wilt verplaatsen.  
 
 ## <a name="forecast-by-locations"></a>Prognose per locatie  
-Dit kan worden geconfigureerd in de productie-instellingen. Het is wel zo dat indien op locatie gebaseerde prognoses los van elkaar worden bekeken, de totale prognose mogelijk niet representatief is.
+In de productie-instellingen kan worden gesteld dat u prognoses wilt filteren volgens locatie wanneer u een plan berekent. Het is wel zo dat indien op locatie gebaseerde prognoses los van elkaar worden bekeken, de totale prognose mogelijk niet representatief is.
 
-## <a name="to-create-a-production-forecast"></a>Een productieprognose maken
+## <a name="to-create-a-demand-forecast"></a>Een vraagprognose maken
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productieprognose** in en klik op de gerelateerde koppeling.  
-2.  Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Prod.-prognose**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vraagprognose** in en kies vervolgens de gerelateerde koppeling.  
+2.  Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Vraagprognosenaam**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
 3.  Selecteer in het veld **Vestigingsfilter** de vestiging waarop deze prognose van toepassing is.  
-4.  Selecteer in het veld **Prognosesoort** **Verkoopartikel**, **Component** of **Beide**. Als u **Verkoopartikel** of **Component** selecteert, kunt u het aantal per periode bewerken. Als u **Beide** selecteert, kunt u het aantal niet bewerken, maar wel de knop met de pijl omlaag kiezen om de posten voor de productieprognose weer te geven.  
+4.  Selecteer in het veld **Prognosesoort** **Verkoopartikel**, **Component** of **Beide**. Als u **Verkoopartikel** of **Component** selecteert, kunt u het aantal per periode bewerken. Als u **Beide** selecteert, kunt u het aantal niet bewerken, maar wel de knop met de pijl omlaag kiezen om de posten voor de vraagprognose weer te geven.  
 5.  Geef een **datumfilter** op als u de hoeveelheid gegevens die wordt weergegeven wilt beperken.  
-6.  Op het sneltabblad **Matrix voor productieprognose** kunt u de voorspelde aantallen **Verkoopartikelen** of de **Materiaalprognose** voor de verschillende perioden opgeven.  
+6.  Op het sneltabblad **Matrix voor vraagprognose** kunt u de voorspelde aantallen **Verkoopartikelen** of de **Materiaalprognose** voor de verschillende perioden opgeven.  
 7.  Op het sneltabblad **Matrixopties** stelt u het tijdsinterval in het veld **Weergeven per** in, waarmee u de weergegeven periode per kolom kunt wijzigen. U kunt kiezen uit de volgende intervallen: **Dag**, **Week**, **Maand**, **Kwartaal**, **Jaar** of de **Boekingsperiode**, zoals ingesteld in Financieel beheer.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Dit kan worden geconfigureerd in de productie-instellingen. Het is wel zo dat in
 8.  Selecteer in het veld **Weergeven als** hoe de voorspelde aantallen voor het tijdsinterval moeten worden weergegeven. Als u **Mutatie** selecteert, wordt de mutatie in het saldo weergegeven voor het tijdsinterval. Als u **Saldo t/m datum** selecteert, wordt in het venster het saldo van de laatste dag van het tijdsinterval weergegeven.  
 
 > [!NOTE]  
->  U kunt ook een bestaande prognose bewerken. Kies in het venster **Matrix voor productieprognose** de actie **Prod.-prognose kopiëren** en vul het venster **Prod.-prognose** met een bestaande prognose. U kunt de aantallen waar nodig wijzigen.  
+>  U kunt ook een bestaande prognose bewerken. Kies in het venster **Matrix voor vraagprognose** de actie **Vraagprognose kopiëren** en vul het venster **Vraagprognose** met een bestaande prognose. U kunt de aantallen waar nodig wijzigen.  
 
 ## <a name="see-also"></a>Zie ook  
 [Productie instellen](production-configure-production-processes.md)  

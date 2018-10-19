@@ -1,6 +1,6 @@
 ---
-title: Niet-voorraadartikelen maken en beheren| Microsoft Docs
-description: Beschrijft hoe u handelt in niet-inventariseerbare artikelen of artikelen die niet in voorraad worden beheerd.
+title: Catalogusartikelen maken en beheren | Microsoft Docs
+description: Beschrijft hoe u handelt in artikelen die voorkomen in artikellijsten van uw leveranciers, maar niet in uw eigen artikellijsten.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,54 +9,58 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cdfca33d0d9ea4b66b8e1c15cd66eaf9fa79b819
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="work-with-nonstock-items"></a>Werken met niet-voorraadartikelen
-U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze artikelen pas in voorraad houden als u ze gaat verkopen. Wanneer u deze artikelen in voorraad gaat houden, kunt u ze op twee manieren naar normale artikelkaarten converteren.
+# <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
+U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze artikelen pas in uw systeem beheren als u ze gaat verkopen. Wanneer u deze artikelen wilt gaan beheren in uw systeem, kunt u ze op twee manieren naar normale artikelkaarten converteren.
 
-* Maak op basis van een sjabloon een nieuwe artikelkaart in een niet-voorraadartikelkaart.
-* Selecteer een niet-voorraadartikel op een verkooporderregel van het type **Artikel** met een leeg veld voor *Nr.* Er wordt automatisch een artikelkaart gemaakt voor het niet-voorraadartikel.
+* Maak vanuit een catalogusartikelkaart een nieuwe artikelkaart op basis van een sjabloon.
+* Selecteer een catalogusartikel op een verkooporderregel van het type **Artikel** met een leeg veld voor **Nr.** Er wordt dan automatisch een artikelkaart gemaakt voor het catalogusartikel.
 
 > [!NOTE]  
->   U kunt geen niet-voorraadartikel selecteren in het venster **Verkoopfactuur**. U kunt een niet-voorraadartikel in het venster **Verkoopofferte** selecteren, maar het niet-voorraadartikel wordt niet geconverteerd naar een normaal artikel wanneer u de functie **Order maken** gebruikt.
+> U kunt geen catalogusartikel selecteren in het venster **Verkoopfactuur**.<br /><br />
+> U kunt een catalogusartikel in het venster **Verkoopofferte** selecteren, maar het catalogusartikel wordt niet geconverteerd naar een normaal artikel wanneer u de functie **Order maken** gebruikt.
 
-Een niet-voorraadartikel heeft doorgaans het artikelnummer van de leverancier die het levert. Als u conversie van een niet-voorraadartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe leverancierartikelnummering naar uw eigen artikelnummering wordt geconverteerd.   
+Een catalogusartikel heeft doorgaans het artikelnummer van de leverancier die het levert. Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe leverancierartikelnummering naar uw eigen artikelnummering wordt geconverteerd.   
 
-## <a name="to-create-a-nonstock-item"></a>Een niet-voorraadartikel maken
-Niet-voorraadartikelkaarten hebben minder informatie dan normale artikelkaarten omdat u deze alleen gebruikt op offertes en op andere manieren. Om die reden moeten ze naar normale artikelkaarten worden converteerd voordat u er verkooptransacties voor kunt boeken.
+> [!Important]
+> Catalogusartikelen moeten niet worden verward met niet-voorraadartikelen. Dat zijn normale artikelen die het type **Niet-voorraad krijgen** om ze uit beschikbaarheid en kostprijsberekeningen te houden, bijvoorbeeld omdat ze alleen intern worden gebruikt en lage kosten hebben. Zie voor meer informatie [Over artikeltypen](inventory-about-item-types.md).
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelen** in en klik vervolgens op de gerelateerde koppeling.
+## <a name="to-create-a-catalog-item"></a>Een catalogusartikel maken
+Catalogusartikelkaarten hebben minder informatie dan normale artikelkaarten omdat u deze alleen gebruikt op offertes en op andere manieren. Om die reden moeten ze naar normale artikelkaarten worden converteerd voordat u er verkooptransacties voor kunt boeken.
+
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Instellen hoe niet-voorraadartikelnummers naar uw eigen nummering worden geconverteerd
-Als u conversie van een niet-voorraadartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe de leverancierartikelnummering naar uw eigen artikelnummeropmaak wordt geconverteerd.
+## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Instellen hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd
+Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe de leverancierartikelnummering naar uw eigen artikelnummeropmaak wordt geconverteerd.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelinstellingen** in en klik vervolgens op de gerelateerde koppeling.
-2. Vul indien nodig de velden in.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling catalogusartikel** in en kies vervolgens de gerelateerde koppeling.
+2. Vul de benodigde velden in.
 
-## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Een niet-voorraadartikel converteren naar een normaal artikel
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Niet-voorraadartikelen** in en klik vervolgens op de gerelateerde koppeling.
-2. Open de kaart voor een niet-voorraadartikel dat u wilt converterennaar een normaal artikel.
-3. Kies in het venster **Niet-voorraadartikelkaart** de actie **Artikel maken**.
+## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Een catalogusartikel converteren naar een normaal artikel
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling.
+2. Open de kaart voor een catalogusartikel dat u wilt converteren naar een normaal artikel.
+3. Kies in het venster **Catalogusartikelkaart** de actie **Artikel maken**.
 
-Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het niet-voorraadartikel, en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Een niet-voorraadartikel verkopen en converteren naar een normaal artikel
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
+## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Een catalogusartikel verkopen en converteren naar een normaal artikel
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Vul de velden op het sneltabblad **Algemeen** in, zoals u dat voor elke verkooporder doet. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Selecteer op een nieuwe verkoopregel in het veld **Soort** **Artikel**, maar laat het veld **Nr.** leeg laten.
-4. Kies de actie **Regel** en kies vervolgens de actie **Niet-voorraadartikelen selecteren**.
+4. Kies de actie **Regel** en kies vervolgens de actie **Catalogusartikelen selecteren**.
 
-    Het niet-voorraadartikel wordt naar een normaal artikel geconverteerd. Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het niet-voorraadartikel, en een relevante artikelsjabloon gemaakt.
-5. Selecteer in het venster **Niet-voorraadartikelen** het niet-voorraadartikel dat u wilt verkopen en klik vervolgens op **OK**.
+    Het catalogusartikel wordt naar een normaal artikel geconverteerd. Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt.
+5. Selecteer in het venster **Catalogusartikelen** het catalogusartikel dat u wilt verkopen en klik vervolgens op **OK**.
 6. Wanneer de verkooporder is ingevuld, kiest u de actie **Boeken**.
 
 U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).

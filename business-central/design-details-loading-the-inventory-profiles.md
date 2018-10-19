@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Ontwerpdetails: Voorraadprofielen laden
@@ -82,7 +82,7 @@ Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningss
  De veiligheidsvoorraad is een voorraadhoeveelheid die opzij is gezet om onzekerheden in de vraag te compenseren tijdens de aanvullingslevertermijn. Deze voorraad kan echter worden verbruikt als deze moet worden gebruikt om aan vraag te voldoen. In dat geval zorgt het planningssysteem ervoor dat de veiligheidsvoorraad snel wordt aangevuld, door een voorzieningenorder voor te stellen om het verbruikte deel van de veiligheidsvoorraad aan te vullen op de datum waarop het is verbruikt. Deze planningsregel zal een pictogram van een uitzonderingswaarschuwing bevatten, zodat de planner weet dat de veiligheidsvoorraad gedeeltelijk of volledig is verbruikt door een uitzonderingsorder voor het ontbrekende aantal.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Prognosevraag wordt verlaagd door verkooporders  
- De productieprognose drukt de verwachte toekomstige vraag uit. Wanneer werkelijke vraag wordt ingevoerd, meestal als verkooporders voor geproduceerde artikelen, wordt de prognose verbruikt.  
+ De vraagprognose drukt de verwachte toekomstige vraag uit. Wanneer werkelijke vraag wordt ingevoerd, meestal als verkooporders voor geproduceerde artikelen, wordt de prognose verbruikt.  
 
  De prognose zelf wordt niet verminderd door verkooporders; deze blijft gelijk. De prognoseaantallen die in de planningsberekening worden gebruikt, worden echter verlaagd (met de verkooporderaantallen) voordat het eventuele resterende aantal in het vraagvoorraadprofiel wordt opgenomen. Wanneer het planningssysteem de werkelijke verkoop in een periode onderzoekt, worden zowel openstaande verkooporders als artikelposten uit verzonden verkoop meegenomen, tenzij ze zijn afgeleid van een raamcontract.  
 

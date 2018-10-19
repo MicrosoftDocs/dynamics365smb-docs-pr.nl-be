@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2182b34721a3272ce784986de200cc87f51c2c37
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
 Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen in het venster **Opslaglocatie-inhoud** of automatisch met het venster **Opslaglocatie-inhoud maken**.
 
 ## <a name="to-create-bin-content-manually"></a>Opslaglocatie-inhoud handmatig maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de locatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Opslaglocaties**.  
 3.  Selecteer de opslaglocatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Inhoud**.  
 4.  Voor elk artikel dat u in de vestiging wilt opslaan voert u de juiste informatie in op een regel in het venster **Opslaglocatie-inhoud**. Sommige velden zijn al automatisch ingevuld met gegevens over de opslaglocatie.  
@@ -41,7 +41,7 @@ Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Opslaglocatie-inhoud met een voorstel maken  
 Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslaglocatie-inhoud instellen wat u in per opslaglocatie wilt opslaan.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorstel opslaglocatie-inhoudaanmaak** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatie-inhoudaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het voorstel van de vestiging waarvoor u de opslaglocatie-inhoud wilt maken in het veld **Naam** op de voorstelkop.  
 3.  Selecteer de opslaglocatie waarvan u de inhoud wilt definiëren in het veld **Opslaglocatie**.   
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Werkstromen maken
@@ -32,7 +32,7 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 >  Alle berichten over werkstroomstappen worden verzonden via een taakwachtrij. Zorg dat de taakwachtrij in uw installatie is ingesteld om werkstroomberichten te verwerken, en dat het selectievakje **Automatisch starten van NAS** is geselecteerd. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Een workflow maken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werkstromen** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Het venster **Werkstroom** verschijnt.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
 4. Als u de werkstroom wilt maken van een werkstroomsjabloon, kiest u in het venster **Werkstromen** de actie **Werkstroom maken van sjabloon**. Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 >  Schakel het een werkstroom pas in als u zeker weet dat de werkstroom af is en dat de betreffende werkstroomstappen kunnen beginnen.  
 
 > [!TIP]  
->  Als u relaties wilt zien tussen tabellen die in werkstromen worden gebruikt, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") en voert u **Werkstroom - Tabelrelaties** in.  
+>  Als u relaties wilt zien tussen tabellen die in werkstromen worden gebruikt, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voert u **Werkstroom - Tabelrelaties** in.  
 
 ## <a name="see-also"></a>Zie ook  
 [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)   

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Planning
@@ -38,12 +38,12 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een korte inleiding krijgen over de wijze waarop het planningssysteem kan worden gebruikt voor het inschatten van de vraag en het maken van een gebalanceerd leveringsplan.|[Informatie over het plannen van functionaliteit](production-about-planning-functionality.md)|
 |Begrijpen hoe alle aspecten van het planningssysteem werken en hoe de algoritmen kunnen worden aangepast om te voldoen aan planningsvereisten in verschillende omgevingen.|[Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)|
 |Leren hoe met de planninglogica onderscheid wordt gemaakt tussen de vraag bij vestigingen volgens de SKU-instellingen en de vraag zonder vestigingscodes.|[Planning met of zonder vestigingen](production-planning-with-without-locations.md)|
-|De productievraag aan de hand van verwachte verkoop- en productieorders voorspellen.|[Een productieprognose maken](production-how-to-create-a-forecast.md)|  
+|Vraag aan de hand van verwachte verkoop- en productiecomponenten voorspellen.|[Een vraagprognose maken](production-how-to-create-a-forecast.md)|  
 |Automatisch een-op-een-productieorders maken op basis van een verkooporder voor de exacte vraag van de betreffende verkooporderregel.|[Productieorders maken op basis van verkooporders](production-how-to-create-production-orders-from-sales-orders.md)|
 |Een projectproductieorder maken rechtstreeks op basis van een verkooporder met meerdere regels voor een productieproject.|[Projectorders plannen](production-how-to-plan-project-orders.md)|
 |Het venster **Orderplanning** gebruiken om een handmatige planning te maken voor de verkoop- of productievraag, voor één productiestuklijstniveau tegelijk.|[Nieuwe vraag order voor order plannen](production-how-to-plan-for-new-demand.md)|
 |Het venster **Planningsvoorstel** gebruiken om de MPS- en MRP-opties uit te voeren om automatisch een leveringsplan op hoog niveau of een gedetailleerd leveringsplan op alle artikelniveaus te maken.|[Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)|
-|Het inkoopvoorstel gebruiken om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|De pagina **Inkoopvoorstel**|  
+|Het inkoopvoorstel gebruiken om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|Venster **Inkoopvoorstel**|  
 |Een productieorder starten of bijwerken als ruw geplande bewerkingen in het hoofdproductieschema.|[Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)|
 |Afdelings- of bewerkingsplaatsagenda's opnieuw berekenen wegens planningswijzigingen.|De sectie "Een afdelingsagenda berekenen" in [Productieagenda's instellen](production-how-to-create-work-center-calendars.md)|
 |De ordervraag (getraceerd aantal), prognose , raamverkooporder of planningparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.|[Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)|
@@ -60,5 +60,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

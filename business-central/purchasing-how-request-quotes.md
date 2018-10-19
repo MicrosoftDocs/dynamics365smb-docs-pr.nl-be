@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19e7b8e55d3276730c16401b1d5d0d8203b7e7c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a243df7928e6468cc3490966331b325134f6cc37
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="request-quotes"></a>Offertes aanvragen
@@ -23,7 +23,7 @@ U kunt een inkoopofferte als conceptversie van de inkooporder gebruiken. De orde
 
 
 ## <a name="to-create-a-purchase-quote"></a>Een inkoopofferte maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopoffertes** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopoffertes** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een nieuw document op dezelfde manier als u een inkooporder maakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Een inkoopofferte omzetten in een inkooporder

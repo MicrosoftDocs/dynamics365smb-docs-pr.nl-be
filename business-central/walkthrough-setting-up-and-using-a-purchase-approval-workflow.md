@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
@@ -58,7 +58,7 @@ U moet op de lokale computer en in [!INCLUDE[d365fin](includes/d365fin_md.md)] e
 7.  Sluit het venster **Lokale gebruikers en groepen**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Alicia toevoegen als gebruiker in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Windows-gebruikers** op het tabblad **Start** in de groep **Nieuw** de optie **Nieuw**.  
 3.  Voer in het venster **Gebruikerskaart** in het veld **Gebruikersnaam** de waarde Alicia in.  
 4.  Klik in het veld **Windows-gebruikersnaam** op de knop AssistEdit.  
@@ -72,7 +72,7 @@ U moet op de lokale computer en in [!INCLUDE[d365fin](includes/d365fin_md.md)] e
 Stel met de Windows-gebruiker die u zojuist hebt gemaakt Alicia in als goedkeuringsgebruiker met uzelf als fiatteur. Stel uw goedkeuringsrechten in en geef op hoe en wanneer u bericht over goedkeuringsaanvragen wilt ontvangen.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Uzelf en Alicia instellen als goedkeuringsgebruikers  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikersinstellingen voor goedkeuring** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Gebruikersinstellingen goedkeuring** op het tabblad **Start** in de groep **Nieuw** de optie **Nieuw**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Geef op hoe en wanneer u bericht van goedkeuringsaanvragen wilt ontvangen.
  Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroomsjabloon Goedkeuringswerkstroom inkooporder te kopiëren. Laat de bestaande werkstroomstappen ongewijzigd en schakel vervolgens de werkstroom in.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Een werkstoorm voor goedkeuring van inkooporders maken en inschakelen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Werkstromen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Werkstromen** op het tabblad **Acties** in de groep **Algemeen** de optie **Werkstroom maken van sjabloon**.  
 3.  Kies op het tabblad **Acties** in de groep **Algemeen** de optie **Werkstroom maken van sjabloon**. Het venster **Werkstroomsjablonen** verschijnt.  
 4.  Selecteer de werkstroomsjabloon genaamd Goedkeuringswerkstroom inkooporder en klik vervolgens op de knop **OK**.  
@@ -115,7 +115,7 @@ Geef op hoe en wanneer u bericht van goedkeuringsaanvragen wilt ontvangen.
 Zorg dat een taakwachtrij in uw installatie is ingesteld om werkstroomberichten te verwerken.  
 
 ### <a name="to-start-the-notify-job-queue"></a>De taakwachtrij MELDEN starten  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Taakwachtrijen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het venster **Taakwachtrijen** de regel voor de taakwachtrij MELDEN en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Taakwachtrij starten**.  
 
 ## <a name="using-the-approval-workflow"></a>De goedkeuringswerkstroom gebruiken  
@@ -133,7 +133,7 @@ Als u zich bij [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt aanmelden als ee
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Goedkeuring aanvragen voor een inkooporder als Alicia  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de regel voor openstaande inkooporder 104001 en kies vervolgens op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**.  
 3.  Kies in het venster **Inkooporder** op het tabblad **Acties** in de groep **Goedkeuring** de optie **Goedkeuringsaanvraag verzenden**.  
 

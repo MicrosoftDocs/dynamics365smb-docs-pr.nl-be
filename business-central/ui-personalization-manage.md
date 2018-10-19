@@ -10,34 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 07/26/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4914c0b7c269d5f725f33c839eb677455293cea0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Personalisaties beheren als beheerder
-<!--NAV in the Web client-->
-Gebruikers kunnen hun werkruimte aan hun eigen voorkeuren aanpassen. Als beheerder kunt u personalisaties bewaken en beheren door voor gebruikers de mogelijkheid uit te schakelen om pagina´s te personaliseren, en door alle personalisaties die door gebruikers zijn gemaakt, te wissen.
+<!--NAV in the Web client--> Gebruikers kunnen hun werkruimte aan hun eigen voorkeuren aanpassen. Als beheerder kunt u personalisaties bewaken en beheren door voor gebruikers de mogelijkheid uit te schakelen om pagina´s te personaliseren, en door alle personalisaties die door gebruikers zijn gemaakt, te wissen.
 
 ## <a name="disable-personalization-for-a-profile"></a>Personalisatie uitschakelen voor een profiel
 U kunt voorkomen dat alle gebruikers die tot een bepaald profiel behoren, in staat zijn hun pagina's te personaliseren.
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Profielen** in en klik vervolgens op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen** in en kies vervolgens de gerelateerde koppeling.
 2.  Selecteer in de lijst het profiel dat u wilt wijzigen.
 3. Selecteer het selectievakje **Personalisering deactiveren** en kies vervolgens de knop **OK**.
 
 ## <a name="clear-user-personalizations"></a>Gebruikerspersonalisaties wissen
 
-Door paginapersonalisaties te wissen wordt de pagina teruggezet naar de oorspronkelijke layout die deze had voordat de personalisatie werd doorgevoerd. Er zijn twee manieren om de personalisaties te wissen die door gebruikers aan pagina's zijn aangebracht: met de pagina **Pers. gebruikersinstellingen verwijderen** en met de pagina **Gebruikerspersonalisatiekaart**.
+Door paginapersonalisaties te wissen wordt de pagina teruggezet naar de oorspronkelijke layout die deze had voordat de personalisatie werd doorgevoerd. Er zijn twee manieren om de personalisaties te wissen die door gebruikers aan pagina's zijn aangebracht: met het venster **Pers. gebruikersinstellingen verwijderen** en met het venster **Gebruikerspersonalisatiekaart**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Personalisaties wissen met de pagina Pers. gebruikersinstellingen verwijderen.
 
-Met de pagina **Pers. gebruikersinstellingen verwijderen** kunt u personalisaties voor elke gebruiker afzonderlijk per pagina wissen.
+Met het venster **Pers. gebruikersinstellingen verwijderen** kunt u personalisaties voor elke gebruiker afzonderlijk per pagina wissen.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Pers. gebruikersinstellingen verwijderen** in en klik vervolgens op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pers. gebruikersinstellingen verwijderen** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina bevat alle pagina's die zijn gepersonaliseerd en gebruiker waartoe ze behoren.
 
@@ -50,11 +49,11 @@ Met de pagina **Pers. gebruikersinstellingen verwijderen** kunt u personalisatie
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Personalisaties wissen met de pagina Gebruikerspersonalisatiekaart.
 
-Met de pagina **Gebruikerspersonalisatiekaart** kunt u de personalisaties op alle pagina´s voor een bepaalde gebruiker wissen. Hiervoor hebt u schrijfmachtiging nodig voor tabel 2000000072 **Profiel**.
+Met het venster **Gebruikerspersonalisatiekaart** kunt u de personalisaties op alle pagina's voor een bepaalde gebruiker wissen. Hiervoor hebt u schrijfmachtiging nodig voor tabel 2000000072 **Profiel**.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikerspersonalisatie** in en klik vervolgens op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pers. gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
 
-    De pagina **Gebruikerspersonalisatie** bevat alle gebruikers waarvoor mogelijk gepersonaliseerde pagina's voorkomen. Als u een gebruikers-ID niet kunt vinden in de lijst, bestaan er geen gepersonaliseerde pagina´s voor.
+    Het venster **Gebruikerspersonalisatie** bevat alle gebruikers waarvoor mogelijk gepersonaliseerde pagina's voorkomen. Als u een gebruikers-ID niet kunt vinden in de lijst, bestaan er geen gepersonaliseerde pagina´s voor.
 
 2. Selecteer de gebruiker in de lijst en kies vervolgens de actie **Bewerken**.
 

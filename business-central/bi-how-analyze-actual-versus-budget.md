@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900a14c46a6e5c027b3cf8888bb59765902e50cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Werkelijke bedragen analyseren in vergelijking met budgetbedragen
@@ -27,7 +27,7 @@ Als u gebudgetteerde bedragen wilt analyseren, moet u eerst grootboekbudgetten m
 ## <a name="to-view-a-gl-budget"></a>Grootboekbudget bekijken
 In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotingen bekijken.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekbudgetten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.
 2. Open het budget dat u wilt weergeven in het venster **Grootboekbudgetten**.  
 3. Vul boven in het venster de benodigde velden in om te definiëren wat wordt weergegeven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotin
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Werkelijke en gebudgetteerde bedragen bekijken voor de rekeningen  
 U kunt grootboekbudgetten bekijken en ze vergelijken met werkelijke cijfers in verschillende onderdelen van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Rekeningschema** de actie **Saldo/Budget (Grootboek)**.
 3. Vul boven in het venster de benodigde velden in om te definiëren wat wordt weergegeven.  
 4. Als u een specificatie wilt bekijken die deel uitmaakt van een weergegeven bedrag, moet u het veld kiezen.  
@@ -59,7 +59,7 @@ Het rekeningschema wordt weergegeven in de kolommen aan de linkerzijde. In de ee
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Werkelijke en gebudgetteerde bedragen bekijken voor verschillende perioden  
 In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde periode te bekijken voor alle rekeningen, kunt u een aantal perioden voor een afzonderlijke rekening bekijken.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het venster **Rekeningschema** de betreffende grootboekrekening en kies de actie **Rekeningsaldo/Budget**.  
 3. Vul boven in het venster de benodigde velden in om te definiëren wat wordt weergegeven.   
 4. Als u een specificatie voor een weergegeven bedrag wilt bekijken, moet u het veld kiezen.  

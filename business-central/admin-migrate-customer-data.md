@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
@@ -39,8 +39,8 @@ Zorg ervoor, voordat u begint, dat u zich in het rolcentrum RapidStart Services-
 >   
 > Tabellen die verschillende primaire sleutels en velden met verschillende gegevenssoorten hebben, kunnen niet succesvol geïmporteerd worden. Als in het configuratiepakket bijvoorbeeld tabel **50000 Klant staat** met de primaire sleutel **Code20** en in het configuratiepakket van de database die u wilt importeren, tabel **50000 Bankrekening klant** staat met de primaire sleutel **Code20 + Code 20**, worden de gegevens niet geïmporteerd.  
 
-1. Open het nieuw bedrijf.  
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Open het nieuwe bedrijf.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Pakket importeren**. Navigeer naar het .rapidstart-pakketbestand dat u wilt importeren en kies vervolgens de actie **Openen**. Tijdens het importeren wordt de inhoud van het pakket gedecomprimeerd en wordt de pakketrecord gemaakt.  
 
     Wanneer het importeren voltooid is, kunt u het aantal configuratietabellen dat is geïmporteerd bekijken in het veld **Aantal tabellen**.  
@@ -57,7 +57,7 @@ Als de selectie van tabellen niet aan uw behoeften voldoet, kunt u een of meer n
 ## <a name="to-create-a-data-migration-file"></a>Een gegevensmigratiebestand maken
 U kunt nieuwe gegevensmigratiebestanden maken en aanpassen voor uw bedrijf. Een bestand kan echter alleen worden gebruikt voor het migreren van een veld waarvan de eigenschap **Veldklasse** is ingesteld op **Normaal**.  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakket** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakket** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer en open het pakket dat u wilt gebruiken om gegevens te migreren en kies de actie **Tabellen ophalen**. Het venster **Pakkettabel ophalen** wordt geopend.  
 3. Voer in het veld **Tabel-ID** een tabelnummer in of selecteer een tabel in de lijst, bijvoorbeeld tabel 18, **Klant**. Het veld **Tabelnaam** wordt automatisch ingevuld.  
 4. Selecteer de nieuwe migratietabel en kies op het tabblad **Tabellen** de actie **Velden**. Het venster **Migratievelden** wordt geopend.  
@@ -73,7 +73,7 @@ Er wordt een nieuwe migratietabel gemaakt.
 ## <a name="to-export-data-migration-files"></a>Gegevensmigratiebestanden exporteren
 Nadat u hebt bepaald naar welke tabellen u klantgegevens wilt overbrengen, kunt u de bestanden exporteren.  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer en open het pakket dat u wilt gebruiken voor het exporteren.
 3. Selecteer de tabel of tabellen die u wilt exporteren en kies vervolgens de actie **Naar Excel exporteren**.
 4. Sla het geëxporteerde Excel-bestand op.  
@@ -94,7 +94,7 @@ Als u gegevens vereffent die u hebt geïmporteerd uit Excel of uit een RapidStar
 
 In de volgende procedures moet u van tevoren kijken welke waarden u wilt behouden tijdens het migratieproces. Als u de volgende procedures wilt uitvoeren, hebt u gegevensmigratiebestanden (.xlsx) nodig die u hebt geëxporteerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie het gedeelte "Gegevensmigratiebestanden exporteren".
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.
 2. Open het pakket voor het betreffende bedrijf.  
 3. Selecteer de tabel waarvoor u waarden wilt toewijzen, en kies op het sneltabblad **Tabellen** de actie **Velden**.  
 4. Voor elk veld dat u wilt toewijzen, kiest u de actie **Toewijzing**.  
@@ -112,7 +112,7 @@ In het volgende voorbeeld ziet u hoe [!INCLUDE[d365fin](includes/d365fin_md.md)]
 3. Wanneer u gegevens vereffent, wordt de toewijzing die u voor het veld **Code** in de tabel **Verkoper/Inkoper** hebt opgegeven, ook meegenomen tijdens het verwerken van de velden **Verkoperscode** en **Inkoperscode**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Aanvullende waarden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u extra waarden wilt toevoegen, en kies op het tabblad **Tabellen** de actie **Velden**.  
 3. Voor de velden waarvoor u wilt dat [!INCLUDE[d365fin](includes/d365fin_md.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  
 4. Importeer de klantgegevens. Zie voor meer informatie het gedeelte "Klantgegevens importeren".

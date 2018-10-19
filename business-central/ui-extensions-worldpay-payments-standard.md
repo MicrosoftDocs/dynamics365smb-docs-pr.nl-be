@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8a3f80966531cac7ebc5b3cacbab1ae16071485a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ca48d31490446dd72c5d2f4997c5068a0acfd460
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-worldpay-payments-standard-extension-to-included365finincludesd365finlongmdmd"></a>De extensie WorldPay Payments Standard voor [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard. Daarnaast komen betalingen via betalingsservices doorgaans sneller aan op uw bankrekening.
 Als u de extensie inschakelt en een verkoopfactuur of een verkooporder per e-mail verzendt, bevat het document een koppeling naar de betalingsservice in het e-mailbericht en in het bijgevoegde pdf-document. De klant klikt op de koppeling en voert vervolgens de betaling uit via de betalingsservice.
 
@@ -28,3 +28,4 @@ Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](in
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

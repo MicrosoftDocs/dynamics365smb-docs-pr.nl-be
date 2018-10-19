@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bbda802c686c125420319151b4dea97f7f94994
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
@@ -56,8 +56,8 @@ Zelfs als u een of meer combinaties hebt ingesteld voor het afhandelen van impor
 Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief btw, kunt u de btw over de contantkorting terugboeken wanneer de contantkorting wordt verleend. U moet de optie **Aanpassen bij cont.-korting** zowel op het tabblad Algemeen in het venster Boekhoudinstellingen als in het venster Boekingsgroepinstellingen inschakelen, voor specifieke combinaties van btw-bedrijfsboekingsgroep en btw-productboekingsgroep.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Handmatig btw opgeven in verkoopdocumenten  
-1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
-2. Schakel op de pagina **Verkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
+1. Geef in het veld **Boekhoudinstellingen** een **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
+2. Schakel in het venster **Verkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Btw wijzigen voor een verkoopdocument  
 1. Open de betreffende verkooporder.  
@@ -71,11 +71,11 @@ Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief 
 U kunt btw-bedragen ook aanpassen in algemene, verkoop- en inkoopdagboeken. Het is mogelijk nodig dit te doen wanneer u een leveranciersfactuur boekt in uw dagboek en er een verschil is tussen het btw-bedrag dat in [!INCLUDE[d365fin](includes/d365fin_md.md)] is berekend en het btw-bedrag in de leveranciersfactuur.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Voordat u BTW handmatig in een dagboek gaat invoeren  
-1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
-2. Schakel het selectievakje **Btw-verschil toegestaan** in voor het relevante dagboek op de pagina **Fin. dagboeksjablonen**.  
+1. Geef in het veld **Boekhoudinstellingen** een **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
+2. Schakel het selectievakje **Btw-verschil toegestaan** in voor het relevante dagboek in het venster **Fin. dagboeksjablonen**.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Voordat u handmatig btw in verkoop- en inkoopdagboeken kunt invoeren  
-1. Schakel op de pagina **Inkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
+1. Schakel in het venster **Inkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 2. Nadat u de hierboven beschreven instellingen hebt voltooid, kunt u het veld **Btw-bedrag** corrigeren in de regel van het algemene dagboek of het veld **Btw-bedrag tegenrek.** in de verkoop- of inkoopdagboekregel. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gecontroleerd of het verschil niet groter is dan het opgegeven maximum.  
   
     > [!NOTE]  
@@ -87,14 +87,14 @@ Voor het boeken van een factuur met invoer-btw kunt u een inkoopfactuur gebruike
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Inkopen instellen voor het boeken van import-btw-facturen  
 1. Een leverancierskaart instellen voor de importinstantie die u de import-btw-factuur stuurt. De **Bedrijfsboekingsgroep** en **Btw-bedrijfsboekingsgroep** moeten worden ingesteld op dezelfde manier als de grootboekrekening voor import-btw.  
 2. Maak een **Prod.-boekingsgroep** voor de invoerbelasting en stel een **btw-productboekingsgroep** voor invoer-btw in voor de bijbehorende **Prod.-boekingsgroep**.  
-3. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 4. Selecteer de import-btw-grootboekrekening en klik vervolgens op het tabblad **Start** in de groep **Beheren** op **Bewerken**.  
 5. Selecteer op het sneltabblad **Boeken** de instelling van de **Productboekingsgroep** voor import-btw. [!INCLUDE[d365fin](includes/d365fin_md.md)] vult automatisch het veld **Btw-productboekingsgroep** in.  
-6. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsgroepinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
+6. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Algemene boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 7. Maak een combinatie van **Bedrijfsboekingsgroep** voor de btw-instantie en **Alg. prod. bkgr.** voor invoer-btw. Selecteer voor deze nieuwe combinatie in het veld **Ink.-rekening** de grootboekrekening voor invoer-btw.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Een nieuwe factuur voor de importinstantieleverancier maken na het voltooien van de instelling  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe inkoopfactuur.  
 3. Selecteer in het veld **Orderleveranciersnr.** de importinstantieleverancier en kies vervolgens de knop **OK**.  
 4. Selecteer op de inkoopregel in het veld **Soort** de optie **Grootboekrekening** en selecteer in het veld **Nr.** de grootboekrekening voor invoer-btw.  
@@ -106,7 +106,7 @@ Voor het boeken van een factuur met invoer-btw kunt u een inkoopfactuur gebruike
 Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de klant een certificaat van levering sturen dat de klant moet ondertekenen en aan u moet retourneren. De volgende procedures zijn voor het verwerken van certificaten van levering voor verkoopverzendingen, maar dezelfde stappen gelden voor serviceverzendingen van artikelen en retourzendingen aan leveranciers.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Details van een certificaat van levering weergeven  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopverzendingen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de relevante verkoopverzending aan een klant in een ander EU-land of een andere EU-regio.  
 3. Kies **Details certificaat van levering**.  
 4. Als in de instelling van de btw-boekingsgroep voor de klant het selectievakje **Certificaat van levering vereist** is ingeschakeld, is het veld **Status** standaard ingesteld op **Vereist**. U kunt het veld bijwerken om aan te geven of de klant het certificaat heeft geretourneerd.  
@@ -125,25 +125,25 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
     >  U kunt een voorbeeld van het document bekijken of het document afdrukken. Wanneer u **Certificaat van levering afdrukken** kiest en het document afdrukt, wordt het selectievakje **Afgedrukt** automatisch ingeschakeld. Als het nog niet is opgegeven, wordt de status van het certificaat bovendien ingesteld op **Vereist**. Zo nodig neemt u het afgedrukte certificaat in de verzending op.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Een certificaat van levering afdrukken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopverzendingen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de relevante verkoopverzending aan een klant in een ander EU-land of een andere EU-regio.  
 3. Kies de actie **Certificaat van levering afdrukken**.  
 
     > [!NOTE]  
-    >  U kunt ook een certificaat afdrukken vanaf de pagina **Certificaat van levering**.  
+    >  U kunt ook een certificaat afdrukken vanuit het venster **Certificaat van levering**.  
 
 4. Als u informatie uit de regels in het verzenddocument wilt opnemen in het certificaat, schakelt u het selectievakje **Regeldetails afdrukken** in.  
 5. Schakel het selectievakje **Certificaten van levering maken als deze nog niet zijn gemaakt** in om [!INCLUDE[d365fin](includes/d365fin_md.md)]-certificaten te maken voor geboekte verzendingen die er op het moment van uitvoering geen hebben. Wanneer u het selectievakje inschakelt, worden nieuwe certificaten gemaakt voor alle geboekte verzendingen die geen certificaten in het geselecteerde bereik hebben.  
 6. De filterinstellingen zijn standaard voor het verzenddocument dat u hebt geselecteerd. Vul de filterinformatie in om een specifiek certificaat van levering te selecteren dat u wilt afdrukken.  
-7. Kies op de pagina **Certificaat van levering** de actie **Afdrukken** om het rapport af te drukken of kies de actie **Voorbeeld** om deze weer te geven.  
+7. Kies in het venster **Certificaat van levering** de actie **Afdrukken** om het rapport af te drukken of kies de actie **Voorbeeld** om het weer te geven.  
 
     > [!Note]  
-    > Het veld **Status van certificaat van levering** en het veld **Afgedrukt** worden bijgewerkt voor de verzending op de pagina **Certificaten van levering**.  
+    > Het veld **Status van certificaat van levering** en het veld **Afgedrukt** worden bijgewerkt voor de verzending in het venster **Certificaten van levering**.  
 
 8. Verzend het afgedrukte certificaat van levering ter ondertekening naar de klant.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>De status van een certificaat van levering voor een verzending bijwerken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte verkoopverzendingen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de relevante verkoopverzending aan een klant in een ander EU-land of een andere EU-regio.  
 3. Kies in het veld **Status** de relevante optie.  
 
@@ -156,7 +156,7 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
 Als u een groep certificaten wilt weergeven, begint u in het venster **Certificaten van levering** en werkt u de informatie over de status van openstaande certificaten bij wanneer u ze terug ontvangt van uw klanten. Dit kan handig zijn als u wilt zoeken naar alle certificaten die een bepaalde status hebben, bijvoorbeeld **Vereist**, waarvoor u de status wilt bijwerken naar **Niet ontvangen**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>De status van een groep certificaten bijwerken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Certificaten van levering** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Certificaten van levering** in en kies vervolgens de gerelateerde koppeling.  
 2. Filter het veld **Status** op de waarde die u wilt om de lijst met certificaten te maken die u wilt beheren.  
 3. Als u de statusinformatie wilt bijwerken, kiest u **Lijst bewerken**  
 4. Kies in het veld **Status** de relevante optie.  

@@ -13,16 +13,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 356f01706f40bdb8fd46871e3dbde73577a78117
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-business-central"></a>De extensie PayPal Payments Standard voor Business Central 
+# <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal-betalingsstandaard helpt u uw klantenservice te verbeteren.
 
 Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten aanbieden met hun PayPal-rekening te betalen. Wanneer u een verkoopfactuur of verkooporder verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Wanneer klanten de koppeling kiezen, wordt de servicepagina van hun PayPal-account geopend waarin de betalingsdetails voor de verkoop worden weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.

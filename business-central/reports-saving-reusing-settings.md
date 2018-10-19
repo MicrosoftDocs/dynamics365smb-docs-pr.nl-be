@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: nl-be
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Opgeslagen instellingen in rapporten beheren
@@ -35,12 +35,12 @@ Als u de juiste machtigingen hebt, kunt u de opgeslagen instellingen voor alle g
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Opgeslagen instellingen maken en wijzigen voor alle gebruikers
 U beheert opgeslagen instellingen vanaf pagina 1560 **Rapportinstellingen**. Er zijn twee manieren om deze pagina te openen:
--   Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportinstellingen** in en kies de gerelateerde koppeling.
+-   Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportinstellingen** in en kies vervolgens de gerelateerde koppeling.
 -   Open een rapport, kies de opzoekactie naast het vak **Standaardwaarden gebruiken uit**, kies **Selecteren vanuit volledige lijst**.
 
 De pagina bevat alle bestaande opgeslagen instellingsvermeldingen voor alle gebruikers. Als er een gebruikersnaam in de kolom **Toegewezen aan** staat, kan alleen deze gebruiker de opgeslagen instellingen voor het corresponderende rapport gebruiken. Als er een selectievakje in de kolom **Gedeeld met alle gebruikers** staat, kunnen alle gebruikers de opgeslagen instellingen voor het rapport gebruiken.
 
-Vanaf de pagina **Rapportinstellingen** kunt u het volgende doen:
+Vanuit het venster **Rapportinstellingen** kunt u het volgende doen:
 -   **Nieuw** kiezen om een geheel nieuwe vermelding met opgeslagen instellingen te maken.
 -   Een vermelding met opgeslagen instellingen selecteren en **Kopiëren** kiezen om een kopie te maken.
 -   Een vermelding met opgeslagen instellingen in de lijst selecteren en **Bewerken** kiezen om een vermelding met opgeslagen instellingen te wijzigen.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3bee6f999a9553bbf8832d3cb65c88080f2d36ef
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Voorbeeld scenario: dynamische toewijzingen op basis van de verkochte artikelen definiëren
@@ -27,7 +27,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kostenverdelingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Kostenverdeling** de actie **Nieuw**.  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
 4.  Geef **1** op in het veld **Niveau**.  

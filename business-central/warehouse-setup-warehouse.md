@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22d79f478486bc2a7a58545345d604ac3ddd9755
 ms.contentlocale: nl-be
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
@@ -41,7 +41,7 @@ De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie va
 |Magazijnmedewerkers in staat stellen een grotere eenheid in kleinere eenheden op te breken om aan de eisen van brondocumenten te voldoen.|[Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Het magazijn zo instellen dat het automatisch die artikelen voor picken voorstelt die het eerst vervallen.|[Picken volgens FEFO inschakelen](warehouse-picking-by-fefo.md)|
 |Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|
-<!-- |Streepjescodelezers integreren in de magazijnbeheeroplossing.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
+|Streepjescodelezers integreren in de magazijnbeheeroplossing.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)|
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

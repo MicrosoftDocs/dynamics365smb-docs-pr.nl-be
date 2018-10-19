@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 15/01/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5aa1a2c09e5d4ecc2af04aa9d8b3758d96dc7b3f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
@@ -29,7 +29,7 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsgroepinstellingen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Algemene boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. In het venster **Boekingsgroepinstellingen** vult u de volgende velden in:  
 
     - **Vooruitbetalingsrekening verkoop**  
@@ -39,13 +39,13 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Nummerreeks instellen voor vooruitbetalingsdocumenten  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen van verkoop en tegoeden** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van verkoop en tegoeden** in en kies vervolgens de gerelateerde koppeling.
 2. Vul in het venster **Instellingen van verkoop en tegoeden** de volgende velden in:  
 
    - **Geboekte vooruitbetalingsfactuurnrs.**
    - **Geboekte vooruitbetalingscreditnotanrs.**
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopinstellingen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul in het venster **Inkoopinstellingen** de volgende velden in:
 
     - **Geboekte vooruitbetalingsfactuurnrs.**
@@ -57,13 +57,13 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers  
 Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages**.  
 3. Vul in het venster **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een klant.
 3. Vul het veld **Vooruitbetaling %** in.
 4. Herhaal de stappen voor andere voor klanten of leveranciers.  

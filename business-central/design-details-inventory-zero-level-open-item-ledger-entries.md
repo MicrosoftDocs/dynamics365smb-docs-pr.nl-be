@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
@@ -36,8 +36,6 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
      |333|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|-1|-10|-1|-1|Ja|  
      |334|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|1|10|1|1|Ja|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Grondbeginselen van artikelvereffening  
  Een artikelvereffeningspost wordt gemaakt voor elke voorraadtransactie om de kostenontvanger te koppelen aan de kostenbron, zodat de kosten op basis van de waarderingsmethode kunnen worden doorgestuurd. Zie [Ontwerpdetails: artikelvereffening](design-details-item-application.md) voor meer informatie.  
 
@@ -49,14 +47,14 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
 
 -   Aantalvereffening  
 
--   Kostenvereffening  
+-   Vereffeningskosten  
 
 ### <a name="quantity-application"></a>Aantalvereffening  
  Aantalvereffeningen worden gemaakt voor alle voorraadtransacties en worden automatisch gemaakt of in speciale processen handmatig. Wanneer ze handmatig worden gemaakt, wordt naar aantalvereffeningen verwezen als vaste vereffening.  
 
  Het volgende diagram toont hoe aantalvereffeningen worden gemaakt.  
 
-![Waarom is voorraad nul 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Stroom van kostenwaardering van inkoop tot verkoop](media/helene/TechArticleInventoryZero2.png "Stroom van kostenwaardering van inkoop tot verkoop")
 
  Hierboven is artikelpost 1 (Inkoop) zowel de leverancier van het artikel als de kostenbron voor de vereffende artikelpost, artikelpost 2 (Verkoop).  
 
@@ -72,7 +70,6 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|-1|-10|-1|-1|Ja|  
 |334|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|1|10|1|1|Ja|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Hierboven is inkomende artikelpost 3 (Verkoopretour) een kostenontvanger voor de oorspronkelijke uitgaande artikelpost 2 (Verkoop).  
 
@@ -81,7 +78,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het volgende diagram illustreert de kostenstroom.  
 
-![Waarom is voorraad nul 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Stroom van kostenwaardering van verkoop tot verkoopretour](media/helene/TechArticleInventoryZero4.png "Stroom van kostenwaardering van verkoop tot verkoopretour")
 
  Hierboven worden de kosten doorgestuurd naar artikelpost 2 (Verkoop), vervolgens naar artikelpost 3 (Verkoopretour) en uiteindelijk naar artikelpost 4 (Verkoop 2).  
 
@@ -94,7 +91,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het volgende diagram illustreert hoe artikelvereffeningen in beide scenario's worden uitgevoerd.  
 
-![Waarom is voorraad nul 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Stroom van kostenwaardering gaat in beide richtingen](media/helene/TechArticleInventoryZero6.png "Stroom van kostenwaardering gaat in beide richtingen")  
 
  Er wordt een kostenvereffening gemaakt (vertegenwoordigd door de blauwe pijlen) om te zorgen dat artikelpost 2 (Verkoopretour) dezelfde kosten toegewezen krijgt als de artikelpost die ermee wordt tegengeboekt, artikelpost 1 (Verkoop 1). Echter, een aantalvereffening (vertegenwoordigd door de rode pijlen) wordt niet uitgevoerd.  
 
@@ -115,7 +112,6 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|-1|-10|-1|-1|Ja|Nr.|  
 |334|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|1|10|1|1|Ja|**Ja**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   Voer in het venster **Geboekte verkoopverzending** een opzoekactie uit vanuit het veld **Vereffenen met artikelpost** om te zien of het veld gevuld is en in dat geval met welke artikelpost de retourontvangst wordt kostenvereffend.  
 

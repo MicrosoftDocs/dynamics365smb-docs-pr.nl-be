@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 | --- | --- |
 | Basisinstellingen wijzigen zoals bedrijf, werkdatum en rolcentrum. |[Basisinstellingen wijzigen](ui-change-basic-settings.md) |
 | Een bepaalde pagina of rapport zoeken. |[Zoeken naar pagina of rapport gebruiken](ui-search.md) |
-| Gegevens in weergaven, rapporten of functies filteren door speciale symbolen en tekens te gebruiken. |[Criteria in filters invoeren](ui-enter-criteria-filters.md) |
+| Gegevens in weergaven, rapporten of functies filteren door speciale symbolen en tekens te gebruiken. |[Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md) |
 | Leren over het sorteren van gegevens. |[Gegevens sorteren](ui-sorting.md) |
 | Gegevens in specifieke datumbereiken weergeven of verwerken. |[Datumbereiken invoeren](ui-enter-date-ranges.md) |
 | Zien welke velden moeten worden ingevuld. |[Verplichte velden detecteren](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 |Leren over functies en mogelijkheden die [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar maken voor mensen met beperkingen.|[Toegankelijkheid en sneltoetsen](ui-accessibility.md)|
 |Video's bekijken over specifieke functionaliteit om u aan de slag te helpen.|[Video's over veel voorkomende taken](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Werken in Business Central
+Hier volgt een korte video van hoe u werkt in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
 [Business Central instellen](setup.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

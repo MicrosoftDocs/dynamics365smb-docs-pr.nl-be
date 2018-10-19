@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 01f094c5325773b2c4e9675412fce7d7a29449bd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2244fa1eb4af58eea7381da937bed7fafe3d9f6c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-create-a-depreciation-book"></a>Een afschrijvingsboek maken
 In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden afgeschreven. Het is mogelijk om meerdere afschrijvingsboeken in te stellen om diverse afschrijvingsmethoden toe te passen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingsboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Lijst met afschrijvingsboeken** de actie **Nieuw**.
 3. Vul in het venster **Afschrijvingsboek** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -35,7 +35,7 @@ In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden af
 5. Herhaal stap 2 t/m 4 voor elke afschrijvingsmethode of boekingsmethode die u aan vaste activa als afschrijvingsboek wilt toewijzen.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Een afschrijvingsboek aan een vast activum toewijzen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vaste activa** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u een afschrijvingsboek voor vaste activa wilt instellen.
 3. Vul op het sneltabblad **Afschrijvingsboek** indien nodig de velden in.
 4. Als u meer dan één afschrijvingsboek aan het vaste activum moet toewijzen, kiest u de actie **Meer afschrijvingsboeken toevoegen**.
@@ -47,7 +47,7 @@ In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden af
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Een afschrijvingsboek aan meerdere vaste activa toewijzen met een batchverwerking
 Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de batchverwerking **VA-afschr.-boeken maken** gebruiken om VA-afschrijvingsboeken te maken.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vaste activa** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waaraan u een afschrijvingsboek wilt toewijzen en kies vervolgens de actie **Bewerken**.
 3. In het venster **Afschrijvingsboek** kiest u de actie **VA-afschrijvingsboeken maken**.
 4. In het venster **VA-afschrijvingsboeken maken** vult u het veld **Afschrijvingsboek** in.
@@ -60,7 +60,7 @@ Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de 
 ## <a name="to-set-up-depreciation-posting-types"></a>Boekingssoorten voor afschrijving instellen
 Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] diverse boekingssoorten moet verwerken. Bijvoorbeeld, of de boeking debet of credit moet zijn, en of het boekingssoort moet worden opgenomen in de afschrijvingsbasis.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingsboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het afschrijvingsboek dat u wilt instellen en kies vervolgens de actie **VA-boekingssoortinstellingen**.
 3. Vul indien nodig de velden in het venster **VA-boekingssoortinstellingen** in.
 
@@ -72,7 +72,7 @@ Het wordt aangeraden om de instellingen van afschrijvingsboeken waarvoor al post
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Standaardsjablonen en batches instellen voor afschrijvingsboeken voor vaste activa
 Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en batches. U gebruikt deze standaardwaarden om regels van het ene dagboek naar het andere dagboek te dupliceren, dagboekregels te maken met de batchverwerkingen **Afschrijving berekenen** of **Vaste activa indexeren** of aanschafkosten in het verzekeringsdagboek te dupliceren.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingsboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het afschrijvingsboek waarvoor u standaarddagboeken posten wilt definiëren en kies vervolgens de actie **VA-dagboekinstellingen**.  
 3. Als u voor elke gebruiker een standaardinstelling wilt gebruiken, kiest u het veld **Gebruikers-id** om een selectie te maken in het venster **Gebruikers**.  
 4. In de andere velden selecteert u de dagboeksjabloon of dagboekbatch die standaard moet worden gebruikt.  

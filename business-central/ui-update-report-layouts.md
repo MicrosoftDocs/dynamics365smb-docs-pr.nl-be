@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90fa2b52444d057149b39da87f5dfab6d91e8681
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Rapport- of documentlay-outs bijwerken
@@ -30,7 +30,7 @@ Niet alle wijzigingen in de gegevensset van rapporten kunnen automatisch worden 
   
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Een of meer aangepaste rapportlay-outs bijwerken  
   
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportlay-outs** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportlay-outs** in en kies vervolgens de gerelateerde koppeling.  
   
 2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst in het venster **Rapportlay-outs** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
 
@@ -38,7 +38,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 ## <a name="to-test-custom-report-layout-updates"></a>Updates van aangepaste rapportlay-outs testen  
   
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
   
 2.  Kies in het venster **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
   

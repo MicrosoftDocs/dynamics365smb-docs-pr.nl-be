@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Als u meer geavanceerde instellingen voor de consolidatie nodig hebt, kunt u de 
 Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een lijst met te consolideren bedrijven instellen, de boekhoudgegevens vóór de consolidatie controleren, bestanden importeren en consolidatierapporten genereren.  
 
 1. Meld u aan bij het geconsolideerde bedrijf.
-2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsunits** in en klik vervolgens op de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies **Nieuw** en vul vervolgens de vereiste velden in.  
 
 Als de bedrijfsunit een vreemde valuta gebruikt, moet u de wisselkoers opgeven die in de consolidatie moet worden gebruikt. U moet ook consolidatiegegevens invoeren over de grootboekrekeningen van de bedrijfsunit. Deze processen worden beschreven in de volgende secties.
@@ -63,7 +63,7 @@ Als de bedrijfsunit een vreemde valuta gebruikt, moet u de wisselkoers opgeven d
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Grootboekrekeningen voor consolidatie voorbereiden
 Als het rekeningschema van de bedrijfsunit afwijkt van dat van het geconsolideerde bedrijf, moet u grootboekrekeningen voorbereiden voor consolidatie. U kunt de rekeningen voor het boeken van debet- en creditbedragen opgeven en instellen welke methode moet worden gebruikt voor de vertaling van valuta in het geconsolideerde bedrijf. Dit is bijvoorbeeld nuttig als u het rapport vaak uitvoert.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart voor de rekening en vul de velden op het sneltabblad **Consolidatie** in.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Wisselkoersen opgeven voor consolidaties
@@ -82,9 +82,9 @@ In de volgende tabel worden de wisselkoersmethoden beschreven die u voor rekenin
 
 Ga als volgt te werk om wisselkoersen voor bedrijfsunits op te geven:
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsunits** in en klik vervolgens op de gerelateerde koppeling.  
-2. Kies op de pagina **Overzicht bedrijfsunits** de bedrijfsunit en kies vervolgens de actie **Gemiddelde koers (Handmatig)**.   
-3. Op de pagina **Wisselkoers wijzigen** is de inhoud van het veld **Gerel. wisselkoers** gekopieerd uit de tabel **Valutawisselkoers**, maar u kunt deze wijzigen. Sluit de pagina.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies in het venster **Overzicht bedrijfsunits** de bedrijfsunit en kies vervolgens de actie **Gemiddelde koers (Handmatig)**.   
+3. In het venster **Wisselkoers wijzigen** is de inhoud van het veld **Gerel. wisselkoers** gekopieerd uit de tabel **Valutawisselkoers**, maar u kunt deze wijzigen. Sluit de pagina.  
 4. Kies de actie **Wisselkoers (Balans)**.  
 5. Voer in het veld **Gerel. wisselkoersbedrag** de wisselkoers in.
 
@@ -108,7 +108,7 @@ Als u slechts een deel van een bedrijf bezit, kunt u een percentage van elke tra
 U kunt uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbrengt. [!INCLUDE[d365fin](includes/d365fin_md.md)] zoekt naar verschillen in de gegevens in de bedrijfsunits en in het geconsolideerde bedrijf. Er wordt bijvoorbeeld gecontroleerd of rekeningnummers of dimensiecodes afwijken. U moet fouten corrigeren voordat u het rapport kunt uitvoeren. U kunt de database testen, als u gegevens uit een XML-bestand importeert, of het bestand testen.   
 
 1. Open het geconsolideerde bedrijf.  
-2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsunits** in en klik vervolgens op de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
 3. Ga op een van de volgende manieren te werk:  
 
     * Als u een bestand wilt testen, kiest u de actie **Bestand testen**, voert u de naam van het bestand in en kiest u **Afdrukken**.  

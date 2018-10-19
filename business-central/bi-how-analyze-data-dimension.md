@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
@@ -30,7 +30,7 @@ Door gegevens met dimensies te analyseren krijgt u een beter inzicht in uw bedri
 ## <a name="to-set-up-an-analysis-view"></a>Een analyseweergave instellen  
 Met een analyse op basis van dimensies geeft u een geselecteerde combinatie van dimensies weer. U kunt elke ingestelde analyse opslaan en ophalen. De gegevens voor het instellen van een analyse worden op een **Analyseweergave**kaart opgeslagen om analyse in de toekomst te vereenvoudigen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyseweergaven** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Analyseweergaveoverzicht** de actie **Nieuw**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u andere dimensiecodes wilt toevoegen naast de vier op het sneltabblad **Dimensies**, kiest u de actie **Filteren**, vult u de velden in en kiest u de knop **OK**.  
@@ -42,7 +42,7 @@ U kunt de matrix **Analyse per dimensie** gebruiken om de bedragen in uw grootbo
 - De kolommen aan de verre linkerzijde bevatten gegevens op basis van de selectie in het veld **Als regels weergeven** in de kop.  
 - De kolommen aan de verre rechterzijde bevatten gegevens op basis van de selectie in het veld **Als kolommen weergeven** in de kop.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyse per dimensie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyse per dimensie** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de relevante analyseweergave en kies vervolgens de actie **Analyseweergave bewerken**.
 3. Vul boven in het venster **Analyse per dimensie** de velden in om te definiëren wat wordt weergegeven.
 4. 5. Als u wilt weten uit welke bedragen een bedrag in de matrix bestaat, selecteert u het bedrag.  
@@ -61,7 +61,7 @@ Met de bedragen die worden weergegeven in het venster **Analyse per dimensies**,
 
 Met de volgende procedure kunt u een analyseweergave bijwerken vanuit het venster **Analyse per dimensies**. De stappen zijn vergelijkbaar vanuit het venster **Analyseweergave** en **Analyseweergaveoverzicht**.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Analyse per dimensie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyse per dimensie** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Analyse per dimensie** het veld **Analyseweergavecode**.  
 3. Selecteer de regel met de gewenste analyseweergave.  
 4. Kies de actie **Bijwerken**.  

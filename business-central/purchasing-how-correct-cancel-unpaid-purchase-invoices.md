@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7d5b59d15304a497dc4f3c35ac1d19dcd491aaed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2ed3520b3724f9703fca128a2d20c28183795a93
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Niet-betaalde inkoopfacturen corrigeren of annuleren
@@ -25,7 +25,7 @@ Als u al hebt betaald voor producten op de geboekte inkoopfactuur, kunt u deze n
 In het venster **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de knop **Annuleren** kiezen. Wanneer u een geboekte inkoopfactuur wijzigt of annuleert, wordt de corrigerende inkoopcreditnota toegepast op alle algemene grootboekposten en inventarisatieposten die werden gemaakt toen de aanvankelijke inkoopfactuur werd geboekt. Hiermee voert u een tegenboeking uit van de geboekte inkoopfactuur in uw financiële records en laat u de gecorrigeerde inkoopcreditnota staan voor uw auditcontrole. Hieronder wordt het gebruik van **Corrigeren** en **Annuleren** beschreven.
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Een geboekte inkoopfactuur corrigeren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte inkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de geboekte inkoopfactuur die u wilt corrigeren.  
 
     > [!NOTE]  
@@ -38,7 +38,7 @@ In het venster **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de k
 4. Kies **Corrigerende creditnota tonen** om de geboekte inkoopcreditnota weer te geven die de in eerste instantie geboekte inkoopfactuur nietig verklaart.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Een geboekte inkoopfactuur annuleren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte inkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de geboekte inkoopfactuur die u wilt annuleren.
 
     > [!NOTE]  

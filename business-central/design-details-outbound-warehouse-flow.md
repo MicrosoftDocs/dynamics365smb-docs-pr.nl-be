@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
@@ -47,8 +47,6 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 |L|Picken en verzending van een magazijnverzendingdocument boeken|||X|5-4-6|  
 |D|Picken van een magazijnpickdocument en verzending van een magazijnverzendingdocument boeken||X|X|5-4-6|  
 
- Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom]().  
-
  Het selecteren van een aanpak hangt af van de toegestane praktijken van het bedrijf en het niveau van de organisatorische complexiteit. In een per-order omgeving met duidelijke processen en een eenvoudige opslaglocatiestructuur is methode A, picken en verzenden vanaf de orderregel, geschikt. In andere op-order bedrijven waar artikelen voor één orderregel kunnen komen uit meerdere opslaglocaties of waar magazijnmedewerkers niet met orderdocumenten kunnen werken, is het gebruik van aparte pickdocumenten geschikt. Dat is methode B. Als de pick- en verzendprocessen van een bedrijf het verwerken van meerdere orders betreffen en dus meer controle en overzicht nodig is, kan het bedrijf ervoor kiezen een magazijnverzenddocument en een magazijnpickdocument te gebruiken om de pick- en verzendtaken te scheiden. Dat zijn methode C en D.  
 
  Bij methode A, B en C worden de acties picken en verzenden in één stap gecombineerd wanneer het corresponderende document als verzonden wordt geboekt. Bij methode D wordt eerst de pick geregistreerd en wordt de verzending vervolgens op een later moment geboekt vanuit een ander document.  
@@ -56,7 +54,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 ## <a name="basic-warehouse-configurations"></a>Standaardmagazijnconfiguraties  
  In het volgende diagram worden de uitgaande magazijnstromen aangegeven op documentsoort in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
- ![Uitgaande stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Uitgaande stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_outbound_basic_flow.png "Uitgaande stroom in standaardmagazijnconfiguraties")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Brondocument vrijgeven/Voorraadpick of verplaatsing maken  
  Wanneer een gebruiker die verantwoordelijk is voor brondocumenten, zoals een verkooporderverwerker of productieplanner, gereed is voor de uitgaande magazijnactiviteit, kan hij of zij het brondocument vrijgeven als teken voor magazijnmedewerkers dat verkochte artikelen of onderdelen kunnen worden gepickt en in de opgegeven opslaglocaties kunnen worden geplaatst. De gebruiker kan als alternatief ook pick- of verplaatsingsdocumenten voor voorraad maken voor de afzonderlijke orderregels met push-functionaliteit, op basis van opgegeven opslaglocaties en te verwerken aantallen.  
@@ -78,7 +76,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 ## <a name="advanced-warehouse-configurations"></a>Geavanceerde magazijnconfiguraties  
  In het volgende diagram wordt de uitgaande magazijnstroom aangegeven op documentsoort in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
- ![Uitgaande stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Uitgaande stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_outbound_advanced_flow.png "Uitgaande stroom in geavanceerde magazijnconfiguraties")  
 
 ### <a name="1-release-source-document"></a>1: Brondocument vrijgeven  
  Wanneer een gebruiker die verantwoordelijk is voor brondocumenten, zoals een verkooporderverwerker of productieplanner, gereed is voor de uitgaande magazijnactiviteit, kan hij of zij het brondocument vrijgeven als teken voor magazijnmedewerkers dat verkochte artikelen of onderdelen kunnen worden gepickt en in de opgegeven opslaglocaties kunnen worden geplaatst.  

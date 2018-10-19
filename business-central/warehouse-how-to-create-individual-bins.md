@@ -10,26 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2e7388bb03ce47f3ef7fe232c5c5d8e7b43c23d1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-bins"></a>Opslaglocaties maken
 De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart. U kunt ook een functie in het venster **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Een opslaglocatie maken vanaf de vestigingskaart  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarvan u een opslaglocatie wilt maken en kies de actie **Opslaglocaties**.  
 3. Kies de actie **Nieuw**.
 4. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorstel opslaglocatieaanmaak** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatieaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op elke regel de velden in die nodig zijn om de opslaglocaties een naam te geven en er speciale kenmerken voor in te stellen.  
 3.  Kies de actie **Opslaglocaties maken**.  
 
@@ -41,7 +41,7 @@ Voordat u begint met het automatisch maken van opslaglocaties, moet u bepalen we
 
 Voor gebruik van het venster **Voorstel opslaglocatieaanmaak** moet u zijn ingesteld als magazijnmedewerker op de locatie waar de opslaglocaties bestaan. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorstel opslaglocatieaanmaak** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatieaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocaties berekenen**.
 3. Selecteer in het venster **Opslaglocaties berekenen** in het veld **Opslaglocatiesjabloon** de sjabloon waarop u de overige opslaglocaties wilt baseren.
 4.  Voer een omschrijving in voor de opslaglocaties die u wilt maken.  

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 46492cbd6ae3134b3ba5a9ceb5b524d51649f46c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-segments"></a>Segmenten maken
 U kunt segmenten maken om een groep contacten te selecteren als u een interactie wilt maken voor verschillende contacten, bijvoorbeeld direct mail.
 
 ## <a name="to-create-a-segment"></a>Een segment maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het gedeelte **Algemeen** in het veld **Nr.** een nummer voor het segment in.
 

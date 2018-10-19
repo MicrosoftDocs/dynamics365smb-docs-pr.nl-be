@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: internet
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fb61c804d1f01326349d7733e52de48811c18e3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Webbronnen voor contactbedrijven instellen
@@ -25,7 +25,7 @@ U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines 
 Webbronnen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de webbroncode. U hoeft deze stap slechts eenmaal uit te voeren voor elke webbron. Als u een webbroncode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
 
 ## <a name="to-define-a-web-source-code"></a>Een webbroncode definiëren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Webbronnen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webbronnen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de **Nieuw**-acties.
 3. Vul de velden **Code**, **Omschrijving** en **URL** in.
 

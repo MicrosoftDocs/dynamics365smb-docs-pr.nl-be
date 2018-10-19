@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: af8102b8f8ea51cbe0831388fab6d6bfc3a45101
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-jobs"></a>Projecten maken
@@ -34,7 +34,7 @@ Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en d
 ## <a name="to-create-a-job-card"></a>Een projectkaart maken
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u het project wilt opgeven met informatie over andere projecten, kiest u de actie **Project kopiëren**, vult u de benodigde velden in en kiest u de knop **OK**.
 
@@ -44,7 +44,7 @@ U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplannin
 ## <a name="to-create-tasks-for-a-job"></a>Taken maken voor een project
 Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. Dit doet u door nieuwe regels toe te voegen op het sneltabblad **Taken** in het venster **Projectkaart**, met één taak per regel. Elk project moet minimaal één taak hebben.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de projectkaart voor een relevant project.
 3. Vul op het sneltabblad **Taken** indien nodig de velden in op een nieuwe regel.
 4. Als u taken wilt laten inspringen en een hiërarchie wilt maken, kiest u de actie **Taken** en vervolgens de actie **Projecttaken inspringen**.
@@ -64,7 +64,7 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 
 **Opmerking**. Tijdens het invoeren van gegevens op projectplanningsregels worden de kostprijsgegevens automatisch ingevuld. De kosten, de prijs en de korting voor resources en artikelen zijn bijvoorbeeld in eerste instantie gebaseerd op de gegevens die op de resource- en artikelkaarten staan.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende projectkaart.
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
 4. Vul in het venster **Projectplanningsregels** op een nieuwe regel de benodigde velden in.

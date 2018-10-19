@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7fecd72242d30291d3741ee99fcb3ee5bc09af9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 83ae54e61c5881cce9a58c6684bbf82c4b3ad750
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-put-away-templates"></a>Opslagsjablonen instellen
@@ -25,7 +25,7 @@ Dankzij gestuurde opslag en pick kan op elk tijdstip de meest geschikte opslaglo
 U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren als hoofdsjabloon voor opslagactiviteiten in uw magazijn. U kunt ook een bepaalde opslagsjabloon koppelen aan een artikel of SKU waarvoor speciale opslagvereisten gelden.  
 
 ## <a name="to-set-up-put-away-templates"></a>U kunt als volgt opslagsjablonen instellen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Opslagsjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagsjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Voer een unieke id in voor de sjabloon die u wilt maken.  
 4.  Typ desgewenst een korte omschrijving.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1dbca885e47b19c9ce1b78d092d1dc15dc23449e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 995d181496dc1827f21c0b3edd9e52dd6c15c297
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-job-budgets"></a>Projectbudgetten maken
@@ -27,8 +27,8 @@ In de volgende procedure wordt beschreven hoe u gebudgetteerde kosten inschat ti
 ## <a name="JobBudgetCosts"></a> De gebudgetteerde kosten voor een project schatten
 Wanneer een klant de prijs wil weten van een project dat op basis van gebruik wordt gefactureerd, moet u de gebudgetteerde kosten voor het project bepalen. U gebruikt hiervoor het venster **Projecttaakregels**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
-2. Open het betreffende project.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+2. Open een relevant project.
 3. Selecteer een taakregel van het soort Boeking en kies vervolgens de actie **Projectplanningsregels**.
 4. Vul op een nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 

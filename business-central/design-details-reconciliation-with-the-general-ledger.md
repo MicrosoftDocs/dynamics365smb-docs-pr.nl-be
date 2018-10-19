@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Ontwerpdetails: Reconciliatie met het grootboek
@@ -84,16 +84,16 @@ De volgende tabel toont hoe de afdeling op de afdelingskaart is ingesteld.
     1. De tussenrekeningen worden leeg gemaakt. (Verkoop)  
     2. Kosten van verkochte goederen (KPV) worden geboekt. (Verkoop)  
 
-        ![Resultaten van verkoopboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Resultaten van verkoopboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultaten van verkoopboeking naar grootboekrekeningen")  
 5. De gebruiker boekt het verbruik van 150 schakels, wat het aantal schakels is dat wordt gebruikt om één ketting te genereren. (Verbruik, materiaal)  
 
-    ![Resultaten van materiaalboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Resultaten van materiaalboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_material.png "Resultaten van materiaalboeking naar grootboekrekeningen")  
 6. De afdeling gebruikt 60 minuten om de ketting te genereren. De gebruiker boekt de conversiekosten. (Verbruik, Capaciteit)  
 
     1. De directe kosten worden geboekt. (Verbruik, Capaciteit)  
     2. De indirecte kosten worden berekend en geboekt. (Verbruik, Capaciteit)  
 
-        ![Resultaten van capaciteitboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Resultaten van capaciteitsboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultaten van capaciteitsboeking naar grootboekrekeningen")  
 7. De gebruiker boekt de verwachte kosten van één ketting. (Output)  
 8. De gebruiker eindigt de productieorder en voert de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit. (Output)  
 
@@ -102,7 +102,7 @@ De volgende tabel toont hoe de afdeling op de afdelingskaart is ingesteld.
     3. De indirecte kosten (overhead) worden overgemaakt van de rekening voor indirecte kosten naar de voorraadrekening. (Output)  
     4. Dit resulteert in een verschilbedrag van LV 157,00. Verschillen worden alleen berekend voor artikelen met een vaste verrekenprijs. (Output)  
 
-        ![Resultaten van outputboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Resultaten van outputboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_output.png "Resultaten van outputboeking naar grootboekrekeningen")  
 
         > [!NOTE]  
         >  Omwille van de eenvoud wordt slechts één verschilrekening weergegeven. In werkelijkheid bestaan er vijf verschillende rekeningen:  
@@ -115,7 +115,7 @@ De volgende tabel toont hoe de afdeling op de afdelingskaart is ingesteld.
 
 9. De gebruiker herwaardeert de ketting van LV 150,00 naar LV 140,00. (Correctie/Herwaardering/Afronding/Transfer)  
 
-    ![Resultaten van herwaarderingsboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Resultaten van herwaarderingsboeking naar grootboekrekeningen](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultaten van herwaarderingsboeking naar grootboekrekeningen")  
 
 Voor meer informatie over de relatie tussen de rekeningsoorten en de verschillende typen waardeposten raadpleegt u [Ontwerpdetails: rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  
 

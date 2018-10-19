@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d821771e8bbf832a358581e03a372d758a690707
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6a6707c9968bca856fda51984283277b27e8e84
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Ontvangsten combineren op één factuur
@@ -27,7 +27,7 @@ Een gecombineerde inkoopontvangst kan pas worden gemaakt wanneer meer inkoopontv
 Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, wordt een geboekte inkoopfactuur gemaakt voor de gefactureerde regels. Het veld **Gefactureerd aantal** op de oorspronkelijke inkooporder of het oorspronkelijke inkoopraamcontract wordt bijgewerkt op basis van het gefactureerde aantal. Dit oorspronkelijke inkoopdocument wordt echter niet verwijderd, zelfs als dit volledig is ontvangen en gefactureerd en daarom moet u het inkoopdocument zelf verwijderen.  
 
 ## <a name="to-combine-receipts"></a>Ontvangsten combineren  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
 3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen**.  
 4. Selecteer meerdere ontvangstregels die u wilt opnemen in de factuur.  
@@ -36,7 +36,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 5. Kies de actie **Boeken** om de factuur te boeken.  
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Open inkooporders verwijderen na gecombineerde ontvangstboeking  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gefact. inkooporders verwijderen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefact. inkooporders verwijderen** in en selecteer de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Kies de knop **OK**.  
 

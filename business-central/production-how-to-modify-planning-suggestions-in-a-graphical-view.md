@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f005baaeed8a3469258db5f2cde594291b384ba2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Planningsuggesties in een grafische weergave wijzigen
@@ -37,7 +37,7 @@ Wanneer u **Wijzigingen opslaan** kiest in het venster **Artikelbeschikbaarheid 
 De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door slepen en neerzetten. Als alternatief kunt u de velden **Vervaldatum** en **Aantal** wijzigen op het sneltabblad **Event Changes** en de wijzigingen direct grafisch zien in het tabblad **Timeline** van het venster **Planningsvoorstel**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Voorgestelde voorzieningsorders in de grafische weergave wijzigen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelbeschikbaarheid per tijdlijn** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelbeschikbaarheid per tijdlijn** in en kies vervolgens de gerelateerde koppeling.  
 
     Het venster **Artikelbeschikbaarheid per tijdlijn** wordt geopend met het artikelnummer, de vestiging en de variant van het artikel op de geselecteerde planningsregel vooraf ingevuld op de velden op het sneltabblad **Opties**. Het sneltabblad **Tijdlijn** toont een grafische weergave van de verwachte voorraad van het artikel, inclusief planningsvoorstellen.  
 

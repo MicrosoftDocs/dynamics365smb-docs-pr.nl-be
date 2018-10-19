@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e05bcfbfee3f07beb32a8f145eb7dd4b1888edcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
@@ -22,7 +22,7 @@ U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractoffert
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Servicecontracten** of **Servicecontractoffertes** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** of **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het contract of de contractofferte.  
 3. Kies de actie **Contract openen** om het contract of de contractofferte te openen en bewerken.  
 4. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u het jaarlijkse bedrag wilt wijzigen en het verschil in het jaarlijkse bedrag handmatig wilt verdelen over de contractregels. Schakel anders het selectievakje uit om het verschil in het jaarlijkse bedrag automatisch te verdelen over de contractregels nadat u het jaarlijkse bedrag hebt gewijzigd.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/03/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gebruiken als Power BI-gegevensbron voor het maken van rapporten
@@ -27,7 +27,7 @@ U moet een geldig account bij [!INCLUDE[d365fin_long_md](includes/d365fin_long_m
 2. Kies in het venster **Gegevens ophalen** achtereenvolgens **Online Services**, **Microsoft Dynamics 365 Business Central** en kies vervolgens de knop **Verbinden**.
 3. Power BI geeft een wizard weer die u door het [verbindingsproces](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md) begeleidt. U wordt gevraagd u aan te melden voor de service. Selecteer **Aanmelden** en kies het account waaronder u zich wilt aanmelden. Dit moet hetzelfde account zijn als waarmee u zich aanmeldt bij [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 4. Kies de knop **Verbinding maken** om door te gaan. De Power BI-wizard bevat een lijst met Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijven en -gegevensbronnen. Met deze gegevensbron worden alle webservices vertegenwoordigd die u hebt gepubliceerd vanuit elk bedrijf in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-5. U kunt ook een nieuwe webservice-URL in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] maken met behulp van de actie **Gegevensset maken** op de pagina **Webservices** met de begeleide instelling **Rapportage instellen** of door de actie **Bewerken in Excel** in de lijsten te kiezen.
+5. U kunt ook een nieuwe webservice-URL in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] maken met behulp van de actie **Gegevensset maken** in het venster **Webservices** met de begeleide instelling **Rapportage instellen** of door de actie **Bewerken in Excel** in de lijsten te kiezen.
 6. Geef de gegevens op die u aan uw gegevensmodel wilt toevoegen en kies vervolgens de knop **Laden**.
 7. Herhaal de vorige stappen om aanvullende Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
 

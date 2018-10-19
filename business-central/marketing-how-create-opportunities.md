@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d0a3cd974742e9b5745ca3ca08fa582dff1522a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Verkoopopportunities maken
@@ -27,7 +27,7 @@ U kunt opportunities maken in het venster **Opportunity-overzicht**. Maar u maak
 Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Een opportunity maken van een verkoper
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de verkoper in de lijst voor wie u een opportunity wilt maken.
 3. Kies de actie **Opportunities** en kies vervolgens **Overzicht**.
 4. Kies de actie **Nieuw** en voer vervolgens de gewenste waarden in de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Een opportunity maken van een contact
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het contact in de lijst voor wie u een opportunity wilt maken.
 3. Ga op een van de volgende manieren te werk:
    * Kies de actie **Opportunity maken**.

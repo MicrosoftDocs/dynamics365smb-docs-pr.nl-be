@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f27160f551a002d1d19fa64b86aa637d8fadcf8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Werken met stuklijsten
@@ -57,7 +57,7 @@ Het maken van een assemblagestuklijst bestaat uit twee delen:
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>De onderdelen van een assemblageartikel weergeven terwijl het is ingesprongen volgens de stuklijststructuur
 Vanuit het venster **Assemblagestuklijst** kunt u een afzonderlijk venster openen dat de onderdelen en resources bevat die zijn ingesprongen op basis van hun stuklijstpositie onder het assemblageartikel.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een assemblageartikel. (Het veld **Assemblagestuklijst** in het venster **Artikelen** bevat **Ja**.)
 3. Kies in het venster **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
 4. Kies in het venster **Assemblagestuklijst** de actie **Stuklijst weergeven**.

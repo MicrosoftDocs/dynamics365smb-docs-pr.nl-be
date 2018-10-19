@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 05/15/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 02f063daf5afeea85832c8a322183b3db120d8d2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7d2ebaf1efe49c8a66e6d562ab7655d45e181044
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
@@ -34,7 +34,7 @@ Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers ee
     * Openstaande leveranciersposten die voor contantkortingen in aanmerking komen, geordend op leveranciersnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>De functie Leveranciersbetalingen voorstellen gebruiken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het desbetreffende dagboek en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Kies de knop **Ok**.  

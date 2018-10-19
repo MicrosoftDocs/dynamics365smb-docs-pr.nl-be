@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64f3f214d014faff6ee0e71180b1cb928bb15d86
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Servicecontracten met btw-bedragen converteren
@@ -29,7 +29,7 @@ Omdat het wijzigingstool btw-tarief servicecontracten niet kan converteren, moet
 >  In dit voorbeeld moet u de werkdatum wijzigen in 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Een factuur voor een vooruitbetaald servicecontract corrigeren  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contractbeheer** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contractbeheer** in en kies vervolgens de gerelateerde koppeling.  
 2. Onder **Lijsten** kiest u **Servicecontracten**.  
 3. Maak een nieuw vooruitbetaald servicecontract. Voer de begindatum **01-01-2017** en een factuurperiodejaar in voor de klant **20000**.  
 4. Dit contract moet worden ondertekend. Klik op het tabblad **Start** in de groep **Verwerken** op **Contract tekenen**.  

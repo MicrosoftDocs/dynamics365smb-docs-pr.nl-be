@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedure: Een verkoopcampagne uitvoeren
@@ -62,7 +62,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ### <a name="to-set-up-a-campaign"></a>Een campagne instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Campagnes** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Campagnes** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** om een nieuwe campagne te maken. Ga naar de campagnekaart en druk op Enter om automatisch een campagnenummer in te voegen.  
 3.  Geef in het veld **Omschrijving** een omschrijving op voor de campagne, bijvoorbeeld **FUTURUS-beurs**.  
 4.  Kies het veld **Statuscode** en selecteer een statuscode in de lijst die wordt geopend in het venster **Campagnestatus**.  
@@ -148,11 +148,11 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 9. De bijlagen worden verzonden. Wanneer het proces is voltooid, kiest u de knop **OK** voor het bericht dat aangeeft dat het segment is geregistreerd.  
 
-     De brieven worden automatisch afgedrukt en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het verplaatst naar de lijst met geregistreerde segmenten. Als u de lijst wilt zien, klikt u op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Geregistreerde segmenten** in en klikt u vervolgens op de gerelateerde koppeling.  
+     De brieven worden automatisch afgedrukt en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het verplaatst naar de lijst met geregistreerde segmenten. Als u die lijst wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geregistreerde segmenten** in en kiest u vervolgens de gerelateerde koppeling.  
 
 10. Nadat het segment is geregistreerd, wordt elke brief die wordt verzonden geregistreerd als een interactie, die u in het logboek kunt bekijken.  
 
-     Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Interactielogposten** in en klik vervolgens op de gerelateerde koppeling. Er is een vermelding voor elke verzonden brief.  
+     Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interactielogposten** in en kies vervolgens de gerelateerde koppeling. Er is een vermelding voor elke verzonden brief.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Een e-mailbericht verzenden naar een contactpersoon  
 
@@ -165,7 +165,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 7.  Schakel het selectievakje **Opvolgingssegm. maken** in.  
 8.  Kies de knop **OK**.  
 
-     De brieven worden automatisch per e-mail verzonden en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het opgeslagen in de lijst met geregistreerde segmenten. Als u de lijst wilt zien, klikt u op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Geregistreerde segmenten** in en klikt u vervolgens op de gerelateerde koppeling.  
+     De brieven worden automatisch per e-mail verzonden en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het opgeslagen in de lijst met geregistreerde segmenten. Als u die lijst wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geregistreerde segmenten** in en kiest u vervolgens de gerelateerde koppeling.  
 
 ## <a name="registering-campaign-responses"></a>Campagnerespons vastleggen  
  De prospects reageren in de volgende weken op de brief. De marketingmanager wil de reacties bijhouden en registreert deze in het programma.  

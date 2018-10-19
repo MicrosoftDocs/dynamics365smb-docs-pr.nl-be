@@ -1,31 +1,39 @@
 ---
 title: Dagboeken gebruiken om direct naar grootboek te boeken| Microsoft Docs
-description: "Leren over het gebruik van diversendagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen."
-author: SorenGP
+description: "Leren over het gebruik van dagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen."
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 090a0141583795757a0d59b358ba4d553100d976
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-general-journals"></a>Werken met diversendagboeken
-De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Voor zakelijke activiteiten die niet door een document worden vertegenwoordigd in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals kleinere ontvangsten of kasontvangsten, kunt u de gerelateerde transacties maken door dagboekregels te boeken in het venster **Diversendagboek**. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).
+
+De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoopprocessen, betaling of terugbetaling van werknemersonkosten verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+De meeste dagboeken zijn gebaseerd op het *Diversendagboek* en u kunt alle transacties in het venster **Diversendagboek** verwerken. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).  
 
 U kunt bijvoorbeeld de uitgaven boeken die werknemers uit eigen portemonnee doen, zodat u hen later kunt terugbetalen. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
 
+Maar in veel gevallen kunt u de dagboeken willen gebruiken die voor bepaalde soorten transacties zijn geoptimaliseerd, zoals het **Betalingsdagboek** voor het registreren van betalingen. Zie voor meer informatie [Betalingen en terugbetalingen vastleggen in het betalingsdagboek](payables-how-post-payments-refunds.md).  
+
 Met diversendagboeken kunt u financiële transacties direct naar grootboekrekeningen en andere rekeningen boeken, zoals bank-, klant-, leveranciers- en werknemersrekeningen. Door te boeken met een dagboek worden er altijd posten gemaakt in grootboekrekeningen. Dit geldt zelfs ook als u bijvoorbeeld een dagboekregel naar een klantrekening boekt, omdat een post via een boekingsgroep is geboekt naar een rekening met vorderingen in het grootboek.
+
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 De informatie die u invoert in een dagboek is tijdelijk en kan in het dagboek worden gewijzigd. Wanneer u het dagboek boekt, wordt de informatie overgedragen naar de posten van afzonderlijke rekeningen, waar de informatie niet meer kan worden gewijzigd. U kunt echter de vereffening van geboekte posten ongedaan maken en u kunt tegenboekingen of corrigerende boekingen maken. Zie voor meer informatie [Boekingen tegenboeken](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Dagboeksjablonen en -batches gebruiken
+
 Er zijn verschillende sjablonen voor diversendagboeken. Elk dagboeksjabloon wordt vertegenwoordigd door een speciaal venster met specifieke functies en de velden die nodig zijn om die functies te ondersteunen, zoals het venster **Dagboek betalingsreconciliatie**, om bankbetalingen te verwerken en het venster **Betalingsdagboek** om uw leveranciers te betalen en kosten van uw werknemers te vergoeden. Zie voor meer informatie [Betalingen doen](payables-make-payments.md) en [Klantbetalingen handmatig reconciliëren](receivables-how-apply-sales-transactions-manually.md).
 
 Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een dagboekbatch. U kunt bijvoorbeeld uw eigen dagboekbatch definiëren voor het betalingsdagboek dat uw persoonlijke lay-out en instellingen heeft. De volgende tip is een voorbeeld van hoe u een dagboek aanpast.
@@ -34,7 +42,7 @@ Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een
 > Als u het selectievakje **Salderingsbedrag voorstellen** inschakelt op de regel voor uw batch in het venster **Fin. dagboekbatches**, wordt het veld **Bedrag** op bijvoorbeeld diversendagboekregels voor hetzelfde documentnummer automatisch vooraf ingevuld met de waarde die is vereist om het document sluitend te maken. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] waarden laten voorstellen](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hoofdrekeningen en tegenrekeningen
-Als u op de pagina **Dagboeken** standaardtegenrekeningen hebt ingesteld voor de dagboekbatches, wordt de tegenrekening automatisch ingevuld wanneer u het veld **Rekeningnr.** invult. Anders vult u zowel het veld **Rekeningnr.** als het veld **Tegenrekeningnr.** handmatig in. Een positief bedrag in het veld **Bedrag** wordt gedebiteerd van de hoofdrekening en gecrediteerd naar de tegenrekening. Een negatief bedrag wordt gecrediteerd naar de hoofdrekening en gedebiteerd van de tegenrekening.
+Als u in het venster **Dagboeken** standaardtegenrekeningen hebt ingesteld voor de dagboekbatches, wordt de tegenrekening automatisch ingevuld wanneer u het veld **Rekeningnr.** invult. Anders vult u zowel het veld **Rekeningnr.** als het veld **Tegenrekeningnr.** handmatig in. Een positief bedrag in het veld **Bedrag** wordt gedebiteerd van de hoofdrekening en gecrediteerd naar de tegenrekening. Een negatief bedrag wordt gecrediteerd naar de hoofdrekening en gedebiteerd van de tegenrekening.
 
 > [!NOTE]  
 >   Btw wordt afzonderlijk berekend voor de hoofdrekening en de tegenrekening, zodat er gebruik kan worden gemaakt van verschillende percentages.
@@ -85,9 +93,8 @@ Net als in een periodiek dagboek hoeft u een toewijzing maar eenmaal in te voere
 
 Als de periodieke methode in het periodieke dagboek is ingesteld op **Saldo** of **Omgekeerd saldo**, wordt geen rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dit betekent dat als u in het venster **Verdeelsleutels** een periodieke regel verdeelt over verschillende dimensiewaarden, er slechts één tegenpost wordt gemaakt. Wanneer u een periodieke dagboekregel verdeelt die een dimensiewaardecode bevat, moet u dezelfde code daarom niet invoeren in het venster **Verdeelsleutels**. Als u dat wel doet, zijn de dimensiewaarden onjuist.
 
-####<a name="example-allocating-rent-payments-to-different-departments"></a>Voorbeeld: huurbetalingen aan verschillende kostenplaatsen toewijzen
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Voorbeeld: huurbetalingen aan verschillende kostenplaatsen toewijzen
 U betaalt elke maand huur en u hebt het huurbedrag dus ingevoerd op de kasrekening op een periodieke dagboekregel. In het venster **Verdeelsleutels** kunt u de kosten verdelen over verschillende kostenplaatsen (dimensie Kostenplaats), afhankelijk van het aantal vierkante meter per kostenplaats. De berekening is gebaseerd op het verdelingspercentage op elke regel. U kunt verschillende rekeningen invoeren op verschillende verdelingsdagboekregels (als de huur ook wordt verdeeld over verschillende rekeningen). U kunt ook dezelfde rekening invoeren, maar op elke regel een andere dimensiewaardecode voor de dimensie Kostenplaats opgeven.
-
 
 ## <a name="working-with-standard-journals"></a>Werken met standaarddagboeken
 Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnlijk later opnieuw moet maken, kunt u ze als een standaarddagboek opslaan voordat u het artikeldagboek boekt. Deze functie geldt voor artikeldagboeken en diversendagboeken.
@@ -96,7 +103,7 @@ Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnli
 >   De volgende procedure heeft betrekking op het artikeldagboek, maar de informatie is ook van toepassing op het standaarddagboek.
 
 ### <a name="to-save-a-standard-journal"></a>Opslaan als standaarddagboek
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeldagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Voer een of meer dagboekregels in.
 3. Selecteer de dagboekregels die u opnieuw wilt gebruiken.
 4. Kies de actie **Opslaan als standaarddagboek**.
@@ -111,7 +118,7 @@ Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnli
 Wanneer u het standaardartikeldagboek hebt opgeslagen, wordt het venster Artikeldagboek weergegeven zodat u het dagboek kunt boeken met in uw achterhoofd dat het dagboek eenvoudig opnieuw kan worden gemaakt als u later dezelfde of vergelijkbare regels opnieuw moet boeken.
 
 ### <a name="to-reuse-a-standard-journal"></a>Een standaarddagboek opnieuw gebruiken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeldagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Standaarddagboeken ophalen**.
 
     Het venster Standaardartikeldagboeken wordt weergegeven, met de codes en omschrijvingen van alle standaardartikeldagboeken.
@@ -143,9 +150,9 @@ Deze functie werkt ook op de gefilterde weergaven.
 
 Het wijzigen van documentnummers in verband met verwante vereffeningen, zoals een betalingsaanvraag die is ingediend vanuit het document op de dagboekregel naar een leveranciersrekening. Zo kunt u ook de velden **Vereffenings-id** en **Vereffeningsnr.** op de betrokken posten bijwerken.
 
-De volgende procedure is gebaseerd op het venster **Diversendagboek**, maar is van toepassing op alle overige journalen die u op het dagboek zijn gebaseerd, zoals het venster **Betalingsdagboek**.
+De volgende procedure is gebaseerd in het venster **Diversendagboek**, maar is van toepassing op alle overige journalen die u op het dagboek zijn gebaseerd, zoals het venster **Betalingsdagboek**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Dagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Als u klaar bent om het dagboek te boeken, kiest u de actie **Documentnummers opnieuw nummeren**.
 
 De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist, zodat het documentnummer op afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde wordt weergegeven. Nadat de documenten opnieuw zijn genummerd, kunt u doorgaan met het boeken van het dagboek.

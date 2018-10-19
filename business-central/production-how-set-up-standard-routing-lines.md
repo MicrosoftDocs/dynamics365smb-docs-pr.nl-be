@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a9ade86e4cce957967afa12f18e3e7ec0168b2b0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Standaardbewerkingsplanregels instellen
 Met behulp van standaardtaken vereenvoudigt u het maken en onderhouden van bewerkingsplannen. Hiermee kunt u snel aanvullende informatie aan terugkerende bewerkingen koppelen.
 
 ## <a name="to-set-up-a-standard-task"></a>Een standaardtaak instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaardtaken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardtaken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 5. In het venster dat wordt geopend, beschrijft u de betreffende standaardtaak.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Een standaardtaak toevoegen aan een bewerking
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bewerkingsplannen** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.
 2. Open het betreffende bewerkingsplan.
 3. Selecteer een relevant bewerkingsplan, kies de actie **Bewerkingen** en kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 

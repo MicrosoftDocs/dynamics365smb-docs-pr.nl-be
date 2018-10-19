@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: d17ed41b7beb6ba342c17e007496314d9be743f0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: faf2ce7b68c2f54e05c6bfc9b45b736e7f3e7ab8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
@@ -30,7 +30,7 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van de le
 >   Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-vendor-card"></a>Een nieuwe leverancierskaart maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Leveranciers** **Nieuw**.
 
     Wanneer er meer dan één leveranciersjabloon bestaat, opent er een venster waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 05/16/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 1695a6950dabc1b2f0a2f85ad9e0c565012c92e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -32,7 +32,7 @@ Als u sjablonen wilt gebruiken met de API-bibliotheek, moet u eerst eigenschappe
 
 Als u een sjabloon wilt toewijzen aan een API, moet u de volgende stappen uitvoeren.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **API-instelling** in en kies de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **API-instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Nieuw** en kies de waarde **Volgorde** voor de record.  
 Als er meer dan één sjabloon is geselecteerd voor een API (Pagina-id), worden de sjablonen toegepast in de volgorde die is gedefinieerd in de kolom **Volgorde**.   
 Wanneer elke sjabloon wordt toegepast, worden veldwaarden die in de sjabloon zijn gedefinieerd, alleen toegepast op velden waarvoor nog geen waarde is gedefinieerd, hetzij expliciet in de sjabloon, hetzij in een eerder toegepaste sjabloon in de volgorde. 

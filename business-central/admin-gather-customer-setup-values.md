@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a1333567069d24bc5eff48d668dca8b480b85914
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
@@ -47,9 +47,9 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 -   Magazijninstellingen  
 
 > [!NOTE]  
->  Als u een volledige lijst met instellingstabellen wilt zien, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Instellingen** in en kiest u de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
+>  Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Instellingen** in en kiest u vervolgens de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Het venster **Vragenlijst voor configuratie** wordt geopend.  
 3. Kies de actie **Vraaggebieden**. Het venster **Vragengebieden** wordt geopend.  
 4. Kies de actie **Nieuw**. Het venster **Vragengebied voor configuratie** wordt geopend.  
@@ -72,7 +72,7 @@ U gebruikt de configuratievragenlijst om een uitvoerige discussie te structurere
 >  U kunt ook uw eigen configuratievragenlijst maken die aan uw behoeften voldoet.  
 
 1. Open het bedrijf waarvoor u de vragenlijst wilt voltooien.
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 3. Selecteer de vragenlijst voor het bedrijf en kies de actie **Naar Excel exporteren**, optioneel de actie **Naar XML exporteren**.
 4. Laat de klant de configuratievragenlijst invullen door de antwoorden in te voeren in de Excel-werkmap. Er zijn werkbladen voor elk vraaggebied dat is gemaakt voor de vragenlijst.   
 5. Kies de actie **Vanuit Excel importeren** en selecteer het .xlsx-bestand met de antwoorden van de klant.  
@@ -105,7 +105,7 @@ Wanneer u de validatie hebt voltooid, zijn de gegevens gereed om te worden toege
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Antwoorden uit de configuratievragenlijst toepassen
 Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalideerd, kunt u de installatiegegevens overbrengen naar of toepassen op de bijbehorende tabellen in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. Het venster **Vragenlijst voor configuratie** wordt geopend.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. Het venster **Vragenlijst voor configuratie** wordt geopend.  
 2. Selecteer een configuratievragenlijst in de lijst en kies vervolgens de actie **Lijst bewerken**.  
 3. U kunt antwoorden op twee manieren toepassen.  
 
@@ -113,7 +113,7 @@ Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalid
 - Als u antwoorden alleen voor een specifiek **Vragengebied** wilt toepassen, kiest u de actie **Vraaggebieden**, selecteert u een **Vragengebied** in de lijst en kiest u de actie **Antwoorden toepassen**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Controleren dat antwoorden met succes zijn toegepast  
-1. Controleer de installatievensters op de verschillende functionele gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om de pagina Marketinginstellingen te vinden, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u de naam van het instellingenvenster in en kiest u de gerelateerde koppeling.  
+1. Controleer de installatievensters op de verschillende functionele gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u het venster zoekt, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van het instellingsvenster in en kiest u de gerelateerde koppeling.  
 2. Controleer of de velden zijn gevuld met de juiste gegevens uit de verschillende vragengebieden in de configuratievragenlijst.  
 
 De installatie is nu geconfigureerd met de zakelijke gegevens en regels van de klant.

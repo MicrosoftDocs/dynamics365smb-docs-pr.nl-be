@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/19/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 545ad2e348ba4acc3a1c4cde741acaa2a9b824ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
@@ -33,7 +33,7 @@ De beschikbaarheid wordt opgeslagen in agendaposten. Voordat u afdelingen of bew
 ## <a name="to-set-up-a-work-center"></a>Een afdeling instellen
 Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor het instellen van een bewerkingsplaatsagenda komen overeen, met uitzondering van het sneltabblad **Bewerkingsplaninstelling**.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afdelingen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Afdelingsgroep** de hoger gelegen resourcegroep waaronder de afdeling is georganiseerd, indien van toepassing. Kis de actie **Nieuw** in de vervolgkeuzelijst.  
@@ -89,7 +89,7 @@ In het venster **Capaciteitsbegrensde resource** kunt u instellingen configurere
 
 Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen resources boven de gedefinieerde capaciteit (kritieke werklastpercentage) worden geladen. Dit gebeurt door elke bewerking toe te wijzen aan de dichtstbijzijnde beschikbare periode. Als de periode niet groot genoeg is om de hele bewerking uit te voeren, wordt de bewerking in twee of meer delen gesplitst in de dichtstbijgelegen perioden.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Capaciteitsbegrensde resources** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Capaciteitsbegrensde resources** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in.
 

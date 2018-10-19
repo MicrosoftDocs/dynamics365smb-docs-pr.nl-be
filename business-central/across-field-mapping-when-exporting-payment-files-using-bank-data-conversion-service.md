@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f30a7c08db374b7f5571b8e48d4b91a2bb7ddc2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Veldtoewijzing bij het exporteren van betalingsbestanden via conversieservice bankgegevens
 Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor bankgegevens, worden de gegevens die u exporteert, zichtbaar voor de aanbieder van de conversiefunctie. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Voor meer informatie over de werking van de functie Conversieservice bankgegevens raadpleegt u [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).  
 
 > [!CAUTION]  
->  Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor bankgegevens, worden sommige van uw bedrijfsgegevens zichtbaar voor de aanbieder van de service. De serviceprovider, AMC Consult A/S, is verantwoordelijk voor de privacy van deze informatie. Zie [AMC-privacybeleid](http://go.microsoft.com/fwlink/?LinkId=510158) voor meer informatie.  
+>  Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor bankgegevens, worden sommige van uw bedrijfsgegevens zichtbaar voor de aanbieder van de service. De serviceprovider, AMC Consult A/S, is verantwoordelijk voor de privacy van deze informatie. Zie [AMC-privacybeleid](https://go.microsoft.com/fwlink/?LinkId=510158) voor meer informatie.  
 
 In de volgende tabel staan de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] waaruit de gegevens naar de serviceprovider kunnen worden geëxporteerd.  
 

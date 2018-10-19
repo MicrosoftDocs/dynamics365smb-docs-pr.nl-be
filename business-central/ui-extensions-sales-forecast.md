@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: edddda48fe91ed2e31b9c709a546730ce50dc6d4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 568cc364b868d9edf2b0126b38ecd2cbc4a5447e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="sales-and-inventory-forecast-for-business-central"></a>Verkoop- en voorraadprognose voor Business Central 
+# <a name="the-sales-and-inventory-forecast-extension"></a>De extensie Verkoop- en voorraadprognose
 Voorraadbeheer is een wisselwerking tussen klantenservice en het beheren van uw kosten. Enerzijds is voor weinig voorraad minder werkkapitaal nodig, maar anderzijds leiden nulvoorraden mogelijk tot gemiste verkopen. De extensie Verkoop- en voorraadprognose voorspelt potentiële verkopen aan de hand van historische gegevens en biedt een helder overzicht van verwachte nulvoorraden. Op basis van de prognose helpt de extensie aanvullingsaanvragen aan leveranciers te maken en bespaart u tijd.  
 
-## <a name="setting-up-forecasting"></a>Prognose instellen
+## <a name="setting-up-forecasting"></a>Prognoses instellen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] is de verbinding met [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) al voor u ingesteld. Maar u kunt de prognose configureren voor gebruik van een ander soort rapportageperiode. Zo kunt u overschakelen van prognose per maand naar prognose per kwartaal. U kunt ook het aantal perioden kiezen op basis waarvan de prognose moet worden berekend, afhankelijk van hoe specifiek u de prognose wilt. We stellen voor dat u een prognose maakt per maand en met een horizon van 12 maanden voor de prognose.  
 
 ## <a name="using-the-forecasts"></a>De prognoses gebruiken

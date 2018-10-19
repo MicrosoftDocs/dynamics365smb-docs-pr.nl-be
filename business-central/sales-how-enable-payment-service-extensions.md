@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 07/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5853080ef39196e95c293415e9b81502ff03d5ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 883eb47f59a060befc67bdb702053810517fb5a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Klantbetalingen via betalingsservices inschakelen
@@ -25,7 +25,7 @@ Nadat u een betalingsservice hebt ingeschakeld in [!INCLUDE[d365fin](includes/d3
 De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standard zijn geïnstalleerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] en u hoeft ze alleen maar in te schakelen.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Een betalingsservice inschakelen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsservices** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsservices** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Betalingsservices** de actie **Nieuw**.  
 3. Selecteer de betalingsservice en sluit vervolgens het venster.  
 4. Kies in het venster **Betalingsservices** de actie **Instellen**.  
@@ -33,7 +33,7 @@ De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standa
 6. Sluit het venster.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Een betalingsservice selecteren op een verkoopfactuur
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de verkoopfactuur die u wilt betalen door middel van de betalingsservice.  
 3. Kies in het veld **Betalingsservice** de gewenste betalingsservice.  
 

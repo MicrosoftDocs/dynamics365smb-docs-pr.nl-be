@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30a16901fb20ac3361ed61bbe8d6eabc6dfb67cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 64bef8820ec10bb293ccda88e7384d5d9e868e1f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-companies"></a>Contactbedrijven maken
@@ -27,7 +27,7 @@ Er zijn twee manieren om een contact maken: volledig nieuw of van een bestaande 
 Voordat u een contact maakt, kunt u de instellingen controleren in het venster **Marketinginstellingen**. Zie voor meer informatie [CRM instellen](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Een geheel nieuw bedrijfscontact maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer in voor het contact.
 
@@ -41,7 +41,7 @@ Als u al een aantal klanten, leveranciers of bankrekeningen hebt ingesteld, kunt
 > [!NOTE]  
 >   Voordat u op deze manier contactbedrijven kunt maken, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen in het venster **Marketinginstellingen**. Als u contacten van bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen in het venster **Grootboekinstellingen**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer een van de volgende in, afhankelijk van waar u contacten wilt maken, en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer een van de volgende in, afhankelijk van waaruit u contacten wilt maken en kies vervolgens de gerelateerde koppeling.
    * **Contacten maken van klanten**
    * **Contacten maken van leveranciers**
    * **Contacten maken van bankrekeningen**

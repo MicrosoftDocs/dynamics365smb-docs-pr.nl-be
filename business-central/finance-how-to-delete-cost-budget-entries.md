@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: acd8e0f25a3909ceab3dd63e04509ab48a300bb6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten verwijderen
@@ -26,7 +26,7 @@ Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u 
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten verwijderen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kostenbudgetposten verwijderen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenbudgetposten verwijderen** in en kies vervolgens de gerelateerde koppeling.  
 
     Het veld **Naar journaalnr.** bevat het nummer van de laatste journaalpost en kan niet worden gewijzigd.  
 

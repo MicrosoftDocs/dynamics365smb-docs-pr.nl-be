@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ U kunt dezelfde resource, bijvoorbeeld een technicus, of resourcegroep toewijzen
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Een overzicht weergeven van de serviceorders en serviceoffertes  
 U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes die voldoen aan bepaalde voorwaarden, zodat u specifieke acties er één voor één op kunt uitvoeren. U moet bijvoorbeeld resources toewijzen aan serviceorders van een bepaalde klant.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planbord** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Documentfilter** het soort documenten dat u wilt bekijken.
 3. Als u een lijst met documenten wilt krijgen die servicetaken bevatten waaraan een bepaalde resource of resourcegroep is toegewezen, vult u de velden **Resourcefilter** en **Resourcegroepfilter** in en drukt u op Enter.  
 4. Als u een lijst wilt krijgen met documenten met een bepaalde responsdatum of responsdatums binnen een bepaalde periode, vult u het veld **Responsdatumfilter** in en drukt u op **Enter**.  
@@ -36,10 +36,10 @@ U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes d
 6. Als u een lijst wilt krijgen met documenten die bij een bepaald(e) contract/klant/zone horen, vult u het veld **Contractfilter/Klantfilter/Zonefilter** in en drukt u op **Enter**.  
 7. Kies een regel die bij een serviceorder of -offerte hoort en kies de actie **Document weergeven**.  
 
-    De pagina **Serviceorder** of **Serviceofferte** wordt geopend en u kunt werken met het document. Klik op **OK** om terug te keren naar de pagina **Planbord**.
+    Het venster **Serviceorder** of **Serviceofferte** wordt geopend en u kunt werken met het document. Klik op **OK** om terug te keren naar het venster **Planbord**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Resources toewijzen op basis van resource- of resourcegroepbeschikbaarheid    
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planbord** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies de gerelateerde koppeling.  
 2. Kies de serviceorder en kies vervolgens de actie **Resourcetoewijzingen**.  
 3. Kies de post met de servicetaak waaraan u een resource wilt toewijzen.  
 4. Kies de actie **Resourcebeschikbaarheid** of **Res.-groepbeschikbaarheid**.  
@@ -59,7 +59,7 @@ U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes d
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Resources toewijzen met een serviceorder  
 Als u een serviceorder of contractofferte hebt gemaakt en ingevuld, kunt u resources, bijvoorbeeld technici, toewijzen voor het uitvoeren van servicetaken die zijn geregistreerd als serviceartikelregels in het document.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceorders** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de serviceorder en kies **Bewerken**.  
 3. Kies de serviceartikelregel die overeenkomt met de servicetaak waaraan u een resource wilt toewijzen.  
 4. Kies **Resourcetoewijzingen**.
@@ -79,7 +79,7 @@ U kunt resources rechtstreeks opnieuw toewijzen vanuit een serviceorder of servi
 * Als de service niet is gestart terwijl de toewijzing de waarde **Actief** heeft, verandert de toewijzingsstatus van **Hertoewijzing vereist** in **Geannuleerd**.  
 * Bij het opnieuw toewijzen van een serviceorder die is ontstaan vanuit een offerte wordt de status van de geregistreerde toewijzingsposten voor de offerte altijd gewijzigd in **Gereedgemeld** tijdens het opnieuw toewijzen van de serviceartikelen in de serviceorder.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceorders** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de betreffende serviceorder.  
 3. Selecteer de serviceartikelregel die overeenkomt met de servicetaak waaraan u een resource wilt toewijzen.  Kies **Acties**, kies **Regel** en kies **Resourcetoewijzingen**.  
 4. Selecteer in het venster **Resourcetoewijzingen** een toewijzingspost met de servicetaak waaraan u de resource opnieuw wilt toewijzen. Selecteer de juiste resource in het veld **Resourcenr.**. Hiermee wordt de bestaande resource in het veld overschreven.  
@@ -89,7 +89,7 @@ U kunt resources rechtstreeks opnieuw toewijzen vanuit een serviceorder of servi
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Resources opnieuw toewijzen met het planbord  
 Als de resource die is toegewezen aan een servicetaak het werk niet kan uitvoeren, moet deze servicetaak opnieuw worden toegewezen. Meestal wijst u resources opnieuw toe aan een servicetaak met behulp van het **planbord**.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planbord** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het veld **Toewijzingsfilter** de optie **Hertoewijzing vereist**. In het venster **Planbord** wordt nu de lijst met serviceorders weergegeven met servicetaken die u opnieuw moet toewijzen.  
 3. Selecteer de betreffende serviceorder. Kies op het tabblad **Navigatie** in de groep **Planning** de optie **Resourcetoewijzingen**. Het venster **Brontoewijzingen** wordt geopend.  
 4. Selecteer de toewijzingspost met de servicetaak waaraan u opnieuw een resource wilt toewijzen.  
@@ -111,7 +111,7 @@ U kunt dezelfde procedure gebruiken om uren te registreren in het venster **Serv
 
 Als dezelfde resource werkt aan alle serviceartikelen in de serviceorder, hoeft u de totale resource-uren slechts voor één serviceartikel te registreren. Vervolgens kunt u de resourceregel opsplitsen om de resource-uren aan andere serviceartikelen toe te wijzen.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Servicetaken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicetaken** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel met het betreffende serviceartikel en kies de actie **Artikelwerkbon**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -120,7 +120,7 @@ Als dezelfde resource, bijvoorbeeld een technicus, werkt aan alle serviceartikel
 
 Met de volgende procedure wordt aangegeven hoe u resourceregels in het venster **Servicefactuurregels** kunt opsplitsen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceorders** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de betreffende serviceorder.  
 3. Op het sneltabblad **Regels** kiest u **Acties**. Vervolgens kiest u **Order** en **Serviceregels**. Het venster **Serviceregels** wordt geopend.  
 4. Selecteer de resourceregel die u wilt opsplitsen. De inhoud van het veld **Aantal** wordt verdeeld over alle serviceartikelen in de order.  
@@ -131,7 +131,7 @@ Met de volgende procedure wordt aangegeven hoe u resourceregels in het venster *
 ## <a name="to-cancel-an-allocation"></a>Toewijzingen annuleren  
 U kunt resourcetoewijzingen voor servicetaken annuleren zonder de taken opnieuw toe te wijzen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planbord** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de serviceorder en kies vervolgens de actie **Resourcetoewijzingen**.  
 3. Kies de toewijzingspost met de servicetaak waarvoor u de toewijzing wilt annuleren.  
 4. Kies de actie **Toewijzing annuleren**.  

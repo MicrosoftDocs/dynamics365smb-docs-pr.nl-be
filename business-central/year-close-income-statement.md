@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cea438b7d3dc1b14baaf76ae1b7ff97195f2191
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 20bc194772d1aa0a8caadf0605911d0a214a9ab2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="close-income-statement-accounts"></a>Resultatenrekeningen sluiten
@@ -24,7 +24,7 @@ Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>De batchverwerking Afsluiten WenV-rekening uitvoeren
 1. Sluit het boekjaar. Het boekjaar moet zijn afgesloten voordat u de batchverwerking kunt uitvoeren. Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
-2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afsluiten WenV-rekening** in en klik vervolgens op de gerelateerde koppeling.
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afsluiten WenV-rekening** in en kies vervolgens de gerelateerde koppeling.
 3. Kies **OK** om de batchverwerking te starten.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Informatie over de batchverwerking Afsluiten WenV-rekening

@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 07/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
 ms.contentlocale: nl-be
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-reports"></a>Werken met rapporten
-In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
+In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. Het venster **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
 
-U kunt rapporten vinden op het tabblad **Rapporten** op geselecteerde pagina's of u kunt zoeken ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport") om rapporten op naam te zoeken.
+U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zoeken in ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om rapporten op naam te vinden.
 
 
 ## <a name="specifying-the-data-to-include-in-the-report"></a>De gegevens opgeven die in het rapport moeten worden opgenomen

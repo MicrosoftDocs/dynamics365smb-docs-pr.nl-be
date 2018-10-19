@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 06/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
-Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.  
+Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
+
+> [!Note]
+> Deze functionaliteit is voor het aanvullen van verkoopartikelen in uw eigen voorraad. Als u artikelen inkoopt voor directe levering van de leverancier aan uw klant, moet u een doorverzending maken. Zie [Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie.   
 
 |Functie|Description|
 |--------|-----------|
@@ -28,7 +31,7 @@ Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopd
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Een of meerdere inkooporders van een verkooporder maken
 Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de verkooporder, gebruikt u de functie **Inkooporders maken**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open een verkooporder waarvoor u artikelen wilt inkopen.
 3. Kies de actie **Inkooporders maken**.
 
@@ -51,7 +54,7 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 > [!NOTE]  
 >   Deze functie maakt een inkoopfactuur voor het exacte artikelaantal op het geselecteerde verkoopdocument. Als u het inkoopaantal wilt wijzigen, moet u de inkoopfactuur wijzigen nadat deze is gemaakt.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open een verkoopfactuur waarvoor u artikelen wilt inkopen.
 3. Selecteer een of meer verkoopfactuurregels die u wilt gebruiken op de inkoopfactuur. Als u alle verkoopfactuurregels wilt gebruiken, selecteert u ze allemaal of selecteert u helemaal geen regels.
 4. Kies de actie **Inkoopfactuur maken**.

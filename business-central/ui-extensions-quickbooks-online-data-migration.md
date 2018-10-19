@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 05/24/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-business-central"></a>De extensie QuickBooks Online-gegevensmigratie voor Business Central
+# <a name="the-quickbooks-online-data-migration-extension"></a>De extensie QuickBooks Online-gegevensmigratie
 Deze extensie wordt opgenomen in de begeleide instelling **Gegevensmigratie**, om u te helpen belangrijke bedrijfsgegevens te migreren van QuickBooks Online naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dat is bijvoorbeeld handig als uw bedrijf groeit en u hebt besloten uw app voor bedrijfsmanagement te upgraden door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gaan gebruiken.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welke gegevens kan ik uit QuickBooks Online importeren?
@@ -51,11 +51,11 @@ Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een 
 ## <a name="how-do-i-start-using-the-extension"></a>Hoe kan ik beginnen de extensie te gebruiken?
 Aan de slag gaan is eenvoudig. Het enige wat u moet doen is de begeleide instelling **Gegevensmigratie** uitvoeren. U doet dat als volgt:
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Begeleide instelling** in en kies vervolgens **Bedrijfsgegevens migreren**.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens **Bedrijfsgegevens migreren**.
 2. Volg de instructies in elke stap in de begeleide instelling.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Wat doe ik nadat ik gegevens heb gemigreerd?
-Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar de pagina **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar de pagina **Betalingsdagboeken**.   
+Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar het venster **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar het venster **Betalingsdagboeken**.   
 
 Er zijn enkele dingen die u met name moet doen:
 

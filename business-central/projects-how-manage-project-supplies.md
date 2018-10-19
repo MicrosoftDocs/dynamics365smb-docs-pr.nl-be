@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 958439cc8faa62baa044fcfac160797d609323ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 95e2a1938585f1ce68e8c1ae51b8a85596fe44e5
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-job-supplies"></a>Projectvoorraden beheren
@@ -27,7 +27,7 @@ Als voor het inkoopproces de fysieke transactie niet apart hoeft te worden vastg
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Artikelen of services inkopen voor een project
 In de volgende procedure wordt beschreven hoe u een inkoopfactuur gebruikt om producten voor een project te kopen. Dezelfde stappen gelden bij gebruik van een inkooporder.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Selecteer in de velden **Projectnr.** en **Projecttaaknr.** de gegevens van het project waarvoor u artikelen of services wilt inkopen. Gebruik de functie **Kolommen kiezen** als het veld niet zichtbaar is. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
@@ -35,8 +35,8 @@ In de volgende procedure wordt beschreven hoe u een inkoopfactuur gebruikt om pr
 4. Kies de actie **Boeken**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>De waarde van aankopen voor een project weergeven
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.
-2. Open de betreffende projectkaart.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
+2. Open een relevante projectkaart.
 
     In het sneltabblad **Taken** bevat het veld **Openstaande orders** het totale uitstaande bedrag in de lokale valuta van voorraadartikelen en -services op inkoopdocumenten voor de projecttaakregel.  
 
@@ -46,7 +46,7 @@ In de volgende procedure wordt beschreven hoe u een inkoopfactuur gebruikt om pr
 ## <a name="to-post-a-job-related-expense"></a>Projectkosten boeken
 Als u buitengewone of eenmalige projectkosten maakt, kunt u het venster **GB-dagboek project** gebruiken om ze direct te boeken naar de relevante projectrekening.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **GB-dagboeken voor project** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **GB-dagboeken voor project** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe regel en voer gegevens voor de kosten in, zoals in de velden **Projectnr.** en **Projecttaaknr**.  
 3. Wanneer het dagboek compleet is, kiest u de actie **Boeken**.
 

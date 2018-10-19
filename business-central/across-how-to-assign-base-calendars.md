@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 47fbadb76b56d202bc422167d5cefe5b721d0615
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Basisagenda's instellen
 U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda. De belangrijkste taak bij het instellen van een nieuwe basisagenda is het opgeven en definiëren van de vrije dagen die u wilt toepassen.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Een basisagenda instellen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Basisagenda** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Basisagenda** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul het veld **Code** in.  
 4. Kies de actie **Basisagendawijzigingen bewerken**.
@@ -66,7 +66,7 @@ In een basisagenda worden bijvoorbeeld alle zaterdagen gemarkeerd als vrije dage
 
 In de volgende procedure wordt de vestiging als voorbeeld gebruikt. De taak Een basisagenda instellen hebt u op dit moment al uitgevoerd.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt bijwerken en selecteer het veld **Gepersonaliseerde agenda**. Houd er rekening mee dat een agenda moet worden geselecteerd in het veld **Basisagendacode**.
 3. In het venster **Gepersonaliseerde agendaposten** kiest u de actie **Gepers. agendawijzigingen bewerken**.
 4. In het venster **Gepersonaliseerde agendawijzigingen** voegt u regels toe voor gepersonaliseerde agendaposten.
@@ -102,7 +102,7 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 -   Op de kaart **Vestiging** wordt de basisagenda toegewezen op het sneltabblad **Magazijn**.  
 -   In het venster **Expediteurs** wordt de basisagenda toegewezen in het venster **Expediteurservices**.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de **Klantenkaart** waarvoor u een aangepaste agenda wilt instellen.  
 3.  Op het sneltabblad **Verzending** in de het veld **Basisagendacode** selecteert u de basisagenda die u wilt toewijzen.  
 

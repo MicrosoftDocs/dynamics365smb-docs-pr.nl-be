@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Artikelen opslaan met voorraadopslag
@@ -31,11 +31,11 @@ U kunt een voorraadopslag op drie manieren maken:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Een voorraadopslag aanvragen door het brondocument vrij te geven
 Voor inkooporders, verkoopretourorders, inkomende transferorders en assemblageorders maakt u het magazijnverzoek door de order vrij te geven. Hieronder wordt beschreven hoe u dit doet vanuit een inkooporder.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Inkooporders** in en klik vervolgens op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de inkooporder die u wilt vrijgeven en kies de actie **Vrijgeven**.  
 
     Voor productieorders maakt u het magazijnverzoek door een inkomend verzoek te maken vanuit de vrijgegeven productieorder.  
-3.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vrijgegeven productieorders** in en klik op de gerelateerde koppeling.  
+3.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven productieorders** in en kies vervolgens de gerelateerde koppeling.  
 4. Kies de actie **Ink. magazijnontvangst maken**.  
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ Wanneer het magazijnverzoek is gemaakt, ziet de magazijnmedewerker verantwoordel
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Een voorraadopslag maken op basis van het brondocument
 Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadopslag maken op basis van het vrijgegeven brondocument.   
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadopslag** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Selecteer in het veld **Brondocument** het soort brondocument waarvoor u opslaat.  
 4. Selecteer het brondocument in het veld **Bronnr.**  
@@ -58,7 +58,7 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadopslag m
 3. Kies de knop **OK**. Er wordt een nieuwe voorraadopslag gemaakt.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Meerdere voorraadopslagactiviteiten maken met een batchverwerking  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadopslag/-pick maken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick maken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Gebruik op het sneltabblad **Magazijnverzoek** van het opgevraagde venster de velden **Brondocument** en **Bronnr.** om te filteren op bepaalde soorten documenten of reeksen documentnummers.  
 3.  Schakel op het sneltabblad **Opties** het selectievakje **Voorraadopslag maken** in.
 4.  Kies de knop **OK**. De opgegeven voorraadopslagactiviteiten worden gemaakt.

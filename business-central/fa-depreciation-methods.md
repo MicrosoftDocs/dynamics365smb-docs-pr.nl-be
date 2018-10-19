@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="depreciation-methods"></a>Afschrijvingsmethoden
@@ -231,7 +231,7 @@ Deze eigen methode kan ook worden gebruikt om af te schrijven op basis van het a
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Eigen afschrijvingsmethoden instellen
 In het venster **Afschrijvingstabel** kunt u een eigen afschrijvingsmethoden instellen. U kunt bijvoorbeeld afschrijving instellen op basis van het aantal eenheden.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afschrijvingstabellen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingstabellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Afschrijvingstabeloverzicht** de actie **Nieuw**.  
 3. Vul in het venster **Afschrijvingstabel** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

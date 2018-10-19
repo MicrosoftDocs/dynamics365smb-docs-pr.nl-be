@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3a7b7d9921c1cdc4a0024a3ee8208798d00e0701
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 540f26a9fa464f28c5b3744826cd2221567e45f9
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
@@ -30,7 +30,7 @@ Betalingen die worden geboekt op basis van tekst-naar-rekening toewijzingen, wor
 Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld op boeking volgens de tekst-aan-rekening toewijzing, bevat het veld **Zekerheid afstemming** de waarde **Hoog - Toewijzing tekst aan rekening** en bevatten de velden **Rekeningsoort** en **Rekeningnr.** de toegewezen rekeningen.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een betalingreconciliatiedagboek. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. Kies de actie **Tekst afstemmen op rekening**. Het venster **Toewijzing tekst aan rekening** wordt geopend.
 4. Voer in het veld **Toewijzingstekst** willekeurige tekst in die voorkomt op betalingen die u, zonder deze met een openstaande post te vereffenen, wilt boeken naar opgegeven rekeningen. U kunt maximaal 50 tekens invoeren.

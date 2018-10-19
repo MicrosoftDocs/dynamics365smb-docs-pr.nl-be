@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-persons"></a>Contacten maken
@@ -24,7 +24,7 @@ U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarm
 >   Voordat u een contact maakt, kunt u de instellingen voor **Overerving** controleren in het venster **Marketinginstellingen**. Als u overerving instelt, kan informatie over contactbedrijven die gemeenschappelijk is voor contactpersonen, zoals adresdetails, automatisch worden gekopieerd vanuit het contactbedrijf naar de contactpersoon, elke keer dat u een contactpersoon maakt voor een vastgelegd contactbedrijf.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Een contactkaart voor een persoon maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer voor het contact in.
 

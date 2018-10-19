@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f153bd8ff54ed00604ad5ac894b9368575050505
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-receivables"></a>Tegoeden beheren
@@ -42,6 +42,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Vereffen betalingen met openstaande klantposten op basis van handmatige invoer in een lijst met onbetaalde verkoopdocumenten. |[Klantbetalingen van een lijst met onbetaalde verkoopdocumenten handmatig reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Boek ontvangsten of terugbetalingen voor klanten in het ontvangstendagboek en vereffen deze met klantposten via het dagboek of via geboekte posten. |[Klantbetalingen handmatig reconciliëren](receivables-how-apply-sales-transactions-manually.md) |
 | Klanten te herinneren aan achterstallige bedragen, rente en rentefacturen te berekenen en rekeningen met vorderingen te beheren. |[Openstaande saldi innen](receivables-collect-outstanding-balances.md) |
+| Voorspellen wanneer betalingen te laat worden gedaan voor verkoopdocumenten. | [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md) |
+|Blokkeer een klant van worden ingevoerd in documenten of van boeken, bijvoorbeeld vanwege insolventie.|[Klanten blokkeren](receivables-how-block-customers.md)|
 |Zorg dat u de kosten van verzonden artikelen kent door toegevoegde artikelkosten op te tellen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt nadat u hebt verkocht.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## <a name="see-also"></a>Zie ook
@@ -51,5 +53,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

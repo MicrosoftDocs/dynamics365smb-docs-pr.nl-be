@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: bcfe657407f4060e9f3ce12b8a87e4ff65e3bf79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Artikelen verplaatsen in geavanceerde magazijnconfiguraties
@@ -23,12 +23,12 @@ Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties met gestuurde op
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>artikelen met het magazijnverplaatsingswerkblad verplaatsen
 Het venster **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automatisch kunnen worden ingevuld. De eerste functie is **Opslaglocatieaanvulling berekenen**. Deze functie gebruikt de rangorde van de opslaglocatie om aanvulling voor te stellen voor hogere gerangschikte opslaglocaties van lage gerangschikte opslaglocaties. De tweede post is de functie **Opslaglocatie-inhoud ophalen**, waarmee de voorstelregels worden gevuld met de volledige opslaglocatie-inhoud van de opslaglocatie of de opslaglocaties die u opgeeft.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verplaatsingsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de magazijnverplaatsingsgegevens in op de voorstelregels.  
 3. Kies de actie **Verplaatsing maken** om een magazijnverplaatsingsdocument te maken dat vervolgens kan worden geregistreerd wanneer de magazijnverplaatsing is voltooid.  
 
 ### <a name="to-register-the-warehouse-movement"></a>De magazijnverplaatsing als registreren  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verplaatsingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de magazijnverplaatsing die u wilt verwerken.  
 3.  Specificeer op de regels van de actiesoort **Plaats** waar, welk en wanneer het betrokken artikel verplaatst moet worden door het bewerken van het veld **Code Zone**, **Opslaglocatiecode**, **Te verwerken aantal** of **Vervaldatum**.  
 
@@ -43,7 +43,7 @@ Het venster **Verplaatsingsvoorstel** heeft twee functies waarmee de regels auto
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>U kunt als volgt verplaatsingen van een artikel registreren die eerder zijn uitgevoerd  
 Als in de vestiging gestuurde opslag en pick wordt gebruikt en u artikelen naar andere opslaglocaties moet verplaatsen zonder een bestaande opslag, pick of verplaatsing te gebruiken, kunt u de correcte plaatsing van de artikelen in het magazijn registreren in het **magazijnherindelingsdagboek.**
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mag. herindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. herindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden **Artikelnr.**, **Van zone**, **Van opslaglocatie**, **Naar zone** en **Naar opslaglocatie** in.  
 3.  Kies de actie **Registreren**.  
 

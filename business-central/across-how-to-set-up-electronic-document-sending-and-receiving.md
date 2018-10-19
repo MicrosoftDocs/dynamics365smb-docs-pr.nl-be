@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
@@ -83,7 +83,7 @@ Het onderwerp bevat de volgende procedures:
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
-    |**Internationale standaardcode**|Geef de eenheidscode op volgens de UNECERec20-norm in verband met het verzenden van elektronische documenten.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het kenmerk **unitCode** van het element **InvoicedQuantity** onder het knooppunt **InvoiceLine** in het bestand in te vullen. **Opmerking:** als het veld **Eenheid** op de verkoopregel leeg is, wordt de UNECERe20-standaardwaarde voor Stuks \(H87\) standaard ingevoegd. Zie voor meer informatie en een lijst met geldige eenheidcodes [Recommendation No. 20 \- Units of Measure used in International Trade](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Internationale standaardcode**|Geef de eenheidscode op volgens de UNECERec20-norm in verband met het verzenden van elektronische documenten.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het kenmerk **unitCode** van het element **InvoicedQuantity** onder het knooppunt **InvoiceLine** in het bestand in te vullen. **Opmerking:** als het veld **Eenheid** op de verkoopregel leeg is, wordt de UNECERe20-standaardwaarde voor Stuks \(H87\) standaard ingevoegd. Zie voor meer informatie en een lijst met geldige eenheidcodes [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Klanten instellen voor de verzending van elektronische documenten.  
 1. Geef in het **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  

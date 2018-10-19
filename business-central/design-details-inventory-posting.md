@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f046690ff69912fb14dfa01851532237f82b1c5d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
@@ -33,7 +33,7 @@ Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzendi
 
  Met regelmatige intervallen worden waardeposten die worden gemaakt in het voorraadgrootboek, geboekt naar het grootboek om de twee grootboeken om financiële controleredenen af te stemmen. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Invoerstroom tussen voorraad en G&#47;L](media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
+ ![Invoerstroom tijdens afstemming van voorraad met grootboek](media/design_details_inventory_costing_1_entry_flow.png "Invoerstroom tijdens afstemming van voorraad met grootboek")  
 
 ## <a name="example"></a>Opmerking  
  In het volgende voorbeeld wordt getoond hoe artikelposten, waardeposten en artikelvereffeningsposten resulteren in grootboekposten.  

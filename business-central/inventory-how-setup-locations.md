@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 45943ef97eee9d6bf24fd679e5dbbab96f5177f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
@@ -25,7 +25,7 @@ Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt,
 U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarheid per locatie weergeven en voorraad tussen locaties overbrengen. Zie [Voorraad beheren](inventory-manage-inventory.md) voor meer informatie.
 
 ## <a name="to-create-a-location-card"></a>Een vestigingskaart maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
@@ -34,7 +34,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 > Veel velden op de vestigingskaart verwijzen naar de verwerking van artikelen in inkomende en uitgaande magazijnprocessen. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Een transferroute maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transferroutes** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferroutes** in en kies vervolgens de gerelateerde koppeling.
 2. U kunt ook vanuit elk **Vestiging**-venster de actie **Transferroutes** kiezen.
 3. Kies de actie **Nieuw**.
 4. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

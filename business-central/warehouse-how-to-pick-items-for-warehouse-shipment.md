@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e58c5da8b1364b2c9035188c847176f1ea0aaf73
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
@@ -40,7 +40,7 @@ U kunt ook magazijn-pickdocumenten op push-wijze vanuit het venster **Magazijnve
 >  Zie [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnpicks** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 
     Als u een bepaalde pick wilt bewerken, selecteert u het pickformulier of het overzicht. U kunt het overzicht ook filteren op picks die speciaal aan u zijn toegewezen. De pickkaart openen.  
 2.  Indien het veld **Toegewezen gebruikers-ID** leeg is, voert u uw ID in om uzelf te identificeren indien nodig.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bf300745543ef476c6dfd7d58dc50457e694cdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3b213e85e6b162e875a31f0ab69e3e1f4af9653f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-a-new-company"></a>Een nieuw bedrijf maken
@@ -28,7 +28,7 @@ Voorbeeldconfiguratiepakketten, inclusief land-/regiospecifieke bestanden, zijn 
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Het voorbeeldconfiguratiepakket BASICCONFIG gebruiken  
 1. Open het bedrijf CRONUS International Ltd. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies het pakket BASICCONFIG in de lijst en kies vervolgens de actie **Pakket exporteren**.  
 
 Gebruik de onderstaande procedure om een nieuw bedrijf aan te maken en gebruik het pakket BASICCONFIG als deel van het proces.  

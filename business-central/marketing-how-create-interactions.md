@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: aa6be34f1b43dfe0b1f82cbb6a2cefd06edb0f83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ee1c27157febaf848c417eb163adea2eaa586e1f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
@@ -38,7 +38,7 @@ Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer
 3. Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul in het venster **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
 
     Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels in het venster **Segment**.  

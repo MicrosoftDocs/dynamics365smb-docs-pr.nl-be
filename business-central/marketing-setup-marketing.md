@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac38294ce65d767133e70880b6104c7325d9bb3a
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
@@ -24,7 +24,7 @@ Voordat u met uw contacten en marketing gaat werken, moet u enkele beslissingen 
 
 Door uw contacten te beheren en een strategie te volgen waarmee u klanten vaststelt, aantrekt en behoudt, kunt u beter uw bedrijf optimaliseren en klanten tevreden stellen. Met behulp van een goed systeem voor contactbeheer kunt u ook relaties met uw klanten opbouwen en onderhouden. Communicatie is essentieel bij deze relaties. Bedrijven kunnen alleen succesvol zijn als ze communicatie met potentiële en bestaande klanten, leveranciers en zakenpartners kunnen aanpassen aan hun behoeften. Als eerste stap dient u een strategie op te zetten en vast te stellen hoe contactgegevens in uw bedrijf worden gebruikt. Deze informatie wordt door allerlei groepen in uw bedrijf bekeken, dus als u over een goed systeem beschikt, helpt u iedereen productiever te zijn.
 
-U stelt marketing en contactbeheer in vanuit het venster **Marketinginstellingen**. Om de pagina **Marketinginstellingen** te openen, kiest u in de rechterbovenhoek het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Marketinginstellingen** in en klikt u op de gerelateerde koppeling.
+U stelt marketing en contactbeheer in vanuit het venster **Marketinginstellingen**. Als u het venster **Marketinginstellingen** wilt openen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Marketinginstellingen** in en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Bepaalde informatie automatisch kopiëren van de contactbedrijven naar de contactpersonen.
 Een aantal gegevens voor de contactbedrijven is gelijk aan de gegevens voor de contacten die in deze bedrijven werken, bijvoorbeeld de adresgegevens. In het gedeelte **Overerving** van het venster **Marketinginstellingen** kunt u instellen dat de toepassing automatisch specifieke velden kopieert van de contactbedrijfkaart naar de contactpersoonskaart, elke keer dat u een contactpersoon maakt voor een contactbedrijf. Bijvoorbeeld kunt u selecteren om de verkoperscode, de adresgegevens (adres, adres 2, postcode, plaats en land,) en de communicatiegegevens (faxnummer, telexantwoord en telefoonnummer) en meer te kopiëren.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3152e16f5f4ebba4a20d4905def77d45e3f051ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
@@ -37,7 +37,7 @@ Als u de waarderingsmethode Gemiddeld gebruikt, worden de eenheidskosten van een
 De kostenherwaardering verwerkt alleen posten die nog niet zijn geherwaardeerd. Als de functie een post aantreft waarbij gewijzigde inkomende kosten moeten worden doorgeschoven naar de bijbehorende uitgaande posten, worden nieuwe waardeposten gemaakt. Deze posten zijn op de gegevens van de oorspronkelijke waardeposten gebaseerd, maar bevatten het geherwaardeerde bedrag. De kostenherwaarderingsfunctie gebruikt de boekingsdatum van de oorspronkelijke waardepost in de herwaarderingspost, tenzij die datum in een afgesloten voorraadperiode valt. In dat geval wordt de begindatum van de volgende open voorraadperiode gehanteerd. Als de voorraadperioden niet worden gebruikt, bepaalt de datum in het veld **Boeken toegest. vanaf** in het venster **Boekhoudinstellingen** wanneer de herwaarderingspost wordt geboekt.
 
 ## <a name="to-adjust-item-costs-manually"></a>Artikelkosten handmatig herwaarderen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kostprijs herwaarderen - Artikelposten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostprijs herwaarderen - Artikelposten** in en kies vervolgens de gerelateerde koppeling.
 2. Geef in het venster **Kostprijs herwaarderen - Artikelposten** op voor welke artikelen kosten moeten worden aangepast.
 3. Kies de knop **OK**.
 
@@ -46,7 +46,7 @@ Als u de directe kostprijs voor een aantal artikelen moet wijzigen, kunt u de ba
 
  De batchverwerking past de inhoud aan van het veld **Eenheidsprijs** op de artikelkaart. Dit veld wordt gewijzigd voor alle artikelen of voor geselecteerde artikelen. De batchverwerking vermenigvuldigt de waarde in het veld met een aanpassingsfactor die u opgeeft.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelprijzen herwaarderen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelprijzen herwaarderen** in en kies vervolgens de gerelateerde koppeling.  
 2. Geef in het veld **Aan te passen prijs** op welk artikel- of SKU-kaartveld u wilt aanpassen.  
 3. Geef in het veld **Herwaarderingsfactor** de factor op waarmee de waarde wordt aangepast. Voer bijvoorbeeld **1.5** in om de waarde met 50% te verhogen.  
 4. Stel op het sneltabblad **Artikel** filters in om, bijvoorbeeld, op te geven welke artikelen moeten worden verwerkt met de batchverwerking.  

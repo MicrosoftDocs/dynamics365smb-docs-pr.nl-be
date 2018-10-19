@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12e62f47ee6ac0db6d2dab4daea271456804609b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cbaa41df97a119d79290d234817137cb42e50db6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-declaration-types"></a>Aangiftesoorten instellen
@@ -25,9 +25,9 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zijn er twee soorten aangif
 - Vereenvoudigde aangifte  
 - Uitgebreide aangifte  
 
-Het soort aangifte is afhankelijk van het bedrag aan verzonden of ontvangen goederen. Als u wilt bepalen wat voor soort btw-aangifte u moet gebruiken, raadpleegt u de website van de [Nationale bank van België](http://go.microsoft.com/fwlink/?LinkId=163064).  
+Het soort aangifte is afhankelijk van het bedrag aan verzonden of ontvangen goederen. Als u wilt bepalen wat voor soort aangifte u moet gebruiken, raadpleegt u de website van de [Nationale bank van België](https://aka.ms/BelgianNationalBank).  
 
-Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat-aangifte voor elke verzendmethode instellen. Als u het veld **Incoterm in Intrastat-aangifte** niet op de pagina **Verzendwijze** ziet, kunt u de pagina aanpassen en het veld toevoegen. 
+Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat-aangifte voor elke verzendmethode instellen. Als u het veld **Incoterm in Intrastat-aangifte** niet in het venster **Verzendwijze** ziet, kunt u de pagina aanpassen en het veld toevoegen.
 
 ## <a name="to-set-up-declaration-types"></a>Aangiftesoorten instellen  
 

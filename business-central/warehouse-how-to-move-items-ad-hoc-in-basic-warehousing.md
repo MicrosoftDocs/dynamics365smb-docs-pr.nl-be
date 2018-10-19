@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fd6588adb1a7d2dff268d0a8e73c168ca24ff1d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
@@ -29,7 +29,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
 >  Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Gestuurde opslag en Pick**, gebruikt u het venster **Werkblad Verplaatsing** of het venster **Interne mag. Pick** of **Interne mag. Opslag** voor het ad hoc verplaatsen van artikelen tussen opslaglocaties.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Items verplaatsen als een interne verplaatsing  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Interne verplaatsing** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne verplaatsing** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul het veld **Nr.** op het sneltabblad **Algemeen** in . in door het veld te verlaten of door **AssistEdit** te kiezen om een selectie uit de nummerreeks te maken.  
 3.  Voer in het veld **Locatiecode** de locatie in waar de verplaatsing plaatsvindt.  
 
@@ -58,7 +58,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Artikelen verplaatsen met het artikelherindelingsdagboek
 In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).   
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Art.-herindelingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Art.-herindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Definieer op elke dagboekregel de opslaglocaties waaruit en waarnaar u items wilt verplaatsen door de velden **Code Opslaglocatie** en **Code Nieuwe opslaglocatie** in te vullen.  
 
     1.  Als u de gehele inhoud van een opslaglocatie wilt verplaatsen naar een andere opslaglocatie, kiest u de actie **Opslaglocatie-inhoud ophalen**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 91928287d24c2b6199ea243bdc00e48e136adcfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 77c6711c619d8f54597648a5addcdf831a6ef8a5
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-service-quotes"></a>Serviceoffertes maken:
@@ -25,7 +25,7 @@ U kunt serviceoffertes als de basis voor serviceorders zien. Ze zijn zelfs vrijw
 U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.  
   
 ## <a name="to-create-a-service-quote"></a>Serviceoffertes maken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Serviceoffertes** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Een nieuwe serviceofferte maken.  
 3. Selecteer in het veld **Nr.** een nummer op voor de serviceofferte. Als u in het venster **Servicebeheerinstellingen** nummerreeksen voor serviceoffertes hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare serviceoffertenummer in te voeren.  
 4. Voer in het veld **Klantnr.**  de betreffende klant uit de lijst.  

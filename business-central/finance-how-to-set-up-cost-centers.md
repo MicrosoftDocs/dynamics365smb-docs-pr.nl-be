@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 92d3e28fc9d7dc5aa9b2c5e25df6a0c965ab725d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Kostenplaatsen instellen
@@ -27,7 +27,7 @@ Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengs
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensiewaarden in het grootboek overbrengen naar het schema van kostenplaatsen  
 1.  Stel een dimensie als kostenplaats in met het venster **Dimensies kostprijsboekhouding bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
-2.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kostenplaatsschema** in en klik vervolgens op de gerelateerde koppeling.  
+2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenplaatsschema** in en kies vervolgens de gerelateerde koppeling.  
 3.  Op het tabblad **Acties** in de groep **Functies** kiest u **Kostenplaatsen ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenplaatsen. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
     > [!NOTE]  

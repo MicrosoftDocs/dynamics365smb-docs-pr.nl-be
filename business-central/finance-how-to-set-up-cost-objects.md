@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c871eaea1eb7d7755b4b9fce6b6db87a15e1eed5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Kostenobjecten instellen
@@ -27,7 +27,7 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Door de dimensiewaarden vanuit het grootboek over te brengen naar het schema van kostenobjecten.  
 1.  Stel een dimensie als kostenobjectdimensie in met het venster **CA-dimensies bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
-2.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kostenobjectschema** in en klik vervolgens op de gerelateerde koppeling.  
+2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenobjectschema** in en kies vervolgens de gerelateerde koppeling.  
 3.  Kies de actie **Kostenobjecten ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenobjecten. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
     > [!NOTE]  

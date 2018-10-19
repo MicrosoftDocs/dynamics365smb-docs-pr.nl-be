@@ -1,26 +1,27 @@
 ---
 title: Overzicht van taken om betalingen aan leveranciers te beheren | Microsoft Docs
 description: Schetst taken om betalingen aan leveranciers en schuldeisers te beheren, bijvoorbeeld het boeken van betalingsregels en het ophalen van een overzicht van het verschuldigde saldo.
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/26/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 6b912e8f54fd0e3fb4ac4a1eee3c376c209ffe65
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
-Als u betalingen aan leveranciers of vergoedingen aan uw werknemers uitvoert, boekt u de relateerde betalingsregels in het venster **Betalingsdagboek**. U kunt de functie **Leveranciersbetalingen voorstellen** gebruiken om verschuldigde leveranciersbetalingen te vinden. U kunt ook het rapport **Leverancier - Open posten** gebruiken om een overzicht te krijgen van verschuldigde leveranciersbetalingen.
+
+Als u betalingen aan leveranciers of klanten doet of vergoedingen aan uw werknemers uitvoert, boekt u de gerelateerde betalingsregels in het venster **Betalingsdagboek**. Het betalingsdagboek is een diversendagboek dat is geoptimaliseerd voor het doen van betalingen en bevat een aantal krachtige functies zoals de functie **Leveranciersbetalingen voorstellen**, die verschuldigde betalingen zoekt, en het rapport **Leverancier - Open posten** dat een overzicht bevat van verschuldigde leveranciersbetalingen.  
+
+U kunt het betalingsproces starten vanuit de lijsten, kaarten, en posten voor leveranciers, klanten en medewerkers. Elk van de pagina's heeft een knop die de betalingsstroom start en u helpt het betalingsdagboek in te vullen.  
 
 Vanuit het betalingsdagboek kunt u automatische cheques afdrukken of vastleggen wanneer cheques worden uitgeschreven. Wanneer **Automatische cheque** is geselecteerd in het veld **Betalingssoort**, moeten de cheques worden afgedrukt voordat de dagboekregels kunnen worden geboekt.
 
@@ -33,7 +34,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Aan | Zie |
 | --- | --- |
 |Basisfuncties begrijpen van het venster **Betalingsdagboek**, dat is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
-|Boek betalingen aan leveranciers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
+|Boek betalingen aan leveranciers of werknemers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
 | Gebruik een functie in het venster **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
 | Geef cheques uit voor leveranciersbetalingen of terugbetalingen aan klanten, hetzij als afdrukken, hetzij als automatische cheques. Cheques nietig verklaren voor of na het boeken. |[Chequebetalingen doen](payables-how-work-checks.md) |
 |Doe elektronische betalingen door betalingen te exporteren naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (Electronic Funds Transfer) in Noord-Amerika. |[Elektronische betalingen doen](payables-how-export-payments-bank-file.md)|

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Berichtsjablonen beheren
@@ -27,7 +27,7 @@ Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over st
  De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt geleverd met drie berichtsjablonen: een voor informeren over goedkeuringsverzoeken, een voor informeren over nieuwe records en een voor informeren over vervallen goedkeuringsaanvragen. De drie vooraf gedefinieerde berichtsjablonen ondersteunen **E-mail** en **Opmerking** als berichtmethode. Voor informatie over het weergeven van de inhoud van de drie berichtsjablonen raadpleegt u het onderdeel "Inhoud van de berichtsjablonen" in dit onderwerp.
 
 ## <a name="to-create-a-new-notification-template"></a>Een nieuwe berichtsjabloon maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Berichtsjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Berichtjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Berichtsjablonen** de actie **Nieuw** .  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
@@ -40,7 +40,7 @@ Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over st
     |**Standaard**|Geef aan of de berichtsjabloon standaard wordt gebruikt.|  
 
 ## <a name="to-modify-a-notification-template"></a>Een berichtsjabloon wijzigen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Berichtsjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Berichtjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het venster **Berichtsjablonen** de berichtsjabloon die u wilt wijzigen.  
 3.  Kies de actie **Sjablooninhoud exporteren**.  
 4.  Klik in het venster **Bestand exporteren** op de knop **Opslaan**, voer de bestandsnaam in en sla het HTML-bestand in een geschikte locatie op.  

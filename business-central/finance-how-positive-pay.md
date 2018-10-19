@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 04/10/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 1f8a34fe1312627038b1f5b28b7ce7ed9f234fea
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
@@ -25,13 +25,13 @@ Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verreken
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is vooraf geconfigureerd om Positive Pay-bestanden te ondersteunen voor Bank of America en City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Een bankrekening voor Positive Pay instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de bank waarvoor u Positive Pay wilt gebruiken.
 3. Voer in het veld **Positive Pay-exportcode** POSPAYBANK in.
 4. Sluit het venster.
 
 ## <a name="to-export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de bankrekening waarvoor u een Positive Pay-bestand wilt exporteren.
 3. Kies de actie **Positive Pay exporteren**.
 
@@ -44,7 +44,7 @@ Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verreken
 
 Geëxporteerde Positive Pay-records weergeven
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de bankrekening waarvoor u Positive Pay-exportrecords wilt weergeven.
 3. Kies de actie **Positive Pay-posten**.
 
@@ -54,7 +54,7 @@ Geëxporteerde Positive Pay-records weergeven
 
 Positive Pay-bestanden opnieuw exporteren
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de bankrekening waarvoor u Positive Pay-bestanden opnieuw wilt exporteren.
 3. Kies de actie **Positive Pay-posten**.
 4. Selecteer de regel van het Positive Pay-exportbestand dat u opnieuw wilt exporteren.

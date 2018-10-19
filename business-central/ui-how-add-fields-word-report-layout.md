@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30d515822fd3e1ca3bf5b83e2bbc4e0841bea9cc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Velden toevoegen aan een Word-rapportlay-out
@@ -33,7 +33,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
   
 2.  Geef het tabblad **Ontwikkelaar** weer in het lint van Microsoft Word.  
   
-     Het tabblad **Ontwikkelaar** wordt standaard niet weergegeven in het lint. Zie voor meer informatie [Het tabblad Ontwikkelaar op het lint weergeven](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Het tabblad **Ontwikkelaar** wordt standaard niet weergegeven in het lint. Zie voor meer informatie [Het tabblad Ontwikkelaar op het lint weergeven](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Kies op het tabblad **Ontwikkelaar** de optie **deelvenster XML-toewijzing**.  
   
@@ -107,7 +107,7 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Afsluitend element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Aangepast XML-onderdeel in Word  
- In Word opent u het aangepaste XML gedeelte in het deelvenster **XML-toewijzing** en gebruikt u het deelvenster om elementen toe te wijzen aan inhoudsbesturingselementen in het Word-document. Het deelvenster **XML-toewijzing** is toegankelijk vanaf het tabblad **Ontwikkelaar** (zie [Het tabblad Ontwikkelaar op het lint weergeven](http://go.microsoft.com/fwlink/?LinkID=389631) voor meer informatie).  
+ In Word opent u het aangepaste XML gedeelte in het deelvenster **XML-toewijzing** en gebruikt u het deelvenster om elementen toe te wijzen aan inhoudsbesturingselementen in het Word-document. Het deelvenster **XML-toewijzing** is toegankelijk vanaf het tabblad **Ontwikkelaar** (zie [Het tabblad Ontwikkelaar op het lint weergeven](https://go.microsoft.com/fwlink/?LinkID=389631) voor meer informatie).  
   
  De elementen in het deelvenster **XML-toewijzing** staan in een structuur die lijkt op de XML-bron. Labelvelden worden gegroepeerd onder een gemeenschappelijk **Labels**-element en gegevensitems en kolommen worden gerangschikt in een hiërarchische structuur die met de XML-bron overeenkomt, met de kolommen weergegeven in alfabetische volgorde. Elementen worden geïdentificeerd op basis van hun naam, zoals gedefinieerd door de eigenschap Naam in Report Dataset Designer in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/19/2019
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09bb0425a8908b17939ebfa52258353e12f577f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
@@ -78,7 +78,7 @@ De orderverwerker voltooit het CTP-proces door de datums te accepteren. Dit bete
 Naast de externe ordertoezegging die u kunt uitvoeren in het venster **Ordertoezeggingsregels**, kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Ordertoezegging instellen  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ordertoezeggingsinstellingen** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ordertoezeggingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Uitsteltijd** een nummer en tijdseenheidscode in. Selecteer een van de volgende codes.  
 
     |Code|Omschrijving|  
@@ -96,14 +96,14 @@ Naast de externe ordertoezegging die u kunt uitvoeren in het venster **Ordertoez
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Inslagtijd invoeren in het venster met de voorraadinstellingen  
 Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad en de vestiging.    
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstelling** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Inslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
 
 > [!NOTE]  
 >  Als u het veld **Inslagtijd** op de **vestigingskaart** hebt ingevuld voor de vestiging, wordt de inhoud van het veld gebruikt als standaardinslagtijd.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Inslagtijd invoeren op vestigingskaarten  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestiging** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locatie** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de relevante vestigingskaart.  
 3.  Voer in het veld **Inslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
 
@@ -113,14 +113,14 @@ Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Uitslagtijd invoeren in het venster met de voorraadinstellingen  
 Als u een uitslagtijd wilt instellen voor de berekening van de ordertoezegging op de verkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstelling** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Uitslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
 
 > [!NOTE]  
 >  Als u het veld **Uitslagtijd** op de vestigingskaart hebt ingevuld voor de vestiging, wordt de inhoud van het veld gebruikt als standaarduitslagtijd.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Uitslagtijd invoeren op vestigingskaarten  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de relevante vestigingskaart.  
 3.  Voer in het veld **Uitslagtijd** op het sneltabblad **Magazijn** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
 
@@ -129,12 +129,12 @@ Als u een uitslagtijd wilt instellen voor de berekening van de ordertoezegging o
 
 ## <a name="to-make-an-item-critical"></a>Artikelen als kritiek aanmerken  
 Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zijn gemarkeerd als kritiek. Deze instellingen zorgen dat de niet-kritieke artikelen niet leiden tot irrelevante ordertoezeggingsberekeningen   
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de relevante artikelkaart.  
 3.  Selecteer op het sneltabblad **Planning** het veld **Kritisch**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Een ordertoezeggingsdatum berekenen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporder** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporder** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de betreffende verkooporder en selecteer de verkooporderregels die moeten worden berekend.  
 3.  Kies de actie **Ordertoezegging** en kies daarna de actie **Ordertoezeggingsregels**.  
 4.  Selecteer een regel en selecteer vervolgens een van de volgende opties:  

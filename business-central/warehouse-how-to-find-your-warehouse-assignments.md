@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7aa7cd50e7670998962acf8c33bfef8755e7b354
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Magazijntoewijzingen zoeken
 Als u uw magazijntoewijzingen wilt weergeven, opent u het kaartvenster voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>U kunt als volgt zoeken naar een instructie die aan u is toegewezen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnopslag**, **Magazijnpicks** of **Magazijnverplaatsing** in en klik vervolgens op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag**, **Magazijnpicks** of **Magazijnverplaatsing** in en kies vervolgens de gerelateerde koppeling.
 
     In alle drie de vensters worden toewijzingen voor alle magazijnvestigingen weergegeven.  
 

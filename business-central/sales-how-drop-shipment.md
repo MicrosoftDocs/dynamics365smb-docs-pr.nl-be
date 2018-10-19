@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
@@ -49,14 +49,15 @@ U kunt de leverancier nu opdragen om de artikelen naar de klant te verzenden, bi
 ## <a name="to-post-a-drop-shipment"></a>Een doorverzending boeken
 Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken als verzonden. U kunt de inkooporder ook boeken, maar alleen met de optie **Ontvangen**, totdat de verkooporder is gefactureerd.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open de verkooporder die u hebt gemaakt in de sectie "Een verkooporder voor een doorverzending maken".
 3. Geef in het veld **Te verzenden aantal** op hoeveel van de orderhoeveelheid moet worden verzonden, de volledige of gedeeltelijke orderhoeveelheid.
 4. Kies de actie **Boeken** of **Boeken en verzenden**.
 5. Kies vervolgens **de optie Verzenden** om later te factureren of de optie **Verzenden en factureren** om meteen te factureren.
 
 ## <a name="see-also"></a>Zie ook
-[Speciale orders maken](sales-how-to-create-special-orders.md)|  
+[Speciale orders maken:](sales-how-to-create-special-orders.md)  
+[Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
 [Producten verkopen](sales-how-sell-products.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkoop](sales-manage-sales.md)  

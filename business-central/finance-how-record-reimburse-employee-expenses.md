@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 06/28/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 604b8ee545269707ebcabd3712aee0d4daf253a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Kosten van werknemers registreren en terugbetalen
@@ -29,7 +29,7 @@ Als medewerkers hun eigen geld uitgeven tijdens zakelijke activiteiten, kunt u d
 
 ## <a name="to-record-an-employees-expense"></a>Onkosten van een werknemer registreren
 U boekt onkosten van een werknemer in het venster **Diversendagboek**.
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Dagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul op een nieuwe dagboekregel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 4. Herhaal stap 3 voor alle kosten die de werknemer heeft betaald.
@@ -40,7 +40,7 @@ U boekt onkosten van een werknemer in het venster **Diversendagboek**.
 
 ## <a name="to-reimburse-an-employee"></a>Een werknemer terugbetalen
 U betaalt werknemers terug door betalingen te boeken naar hun bankrekening in het venster **Betalingsdagboek**.
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante betalingsdagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul indien nodig de velden in. Zie voor meer informatie [Betalingen doen](payables-make-payments.md).
 4. Of kies de actie **Werknemersbetalingen voorstellen** om automatisch dagboekregels in te voegen voor werknemersterugbetalingen die in behandeling zijn.

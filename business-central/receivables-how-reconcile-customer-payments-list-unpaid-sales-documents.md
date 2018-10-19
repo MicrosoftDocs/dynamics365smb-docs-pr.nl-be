@@ -1,7 +1,6 @@
 ---
 title: Betalingen vereffenen met onbetaalde verkoopdocumenten | Microsoft Docs
 description: U vereffent door klanten betaalde bedragen met gerelateerde verkoopdocumenten en boekt de betaling om de klant, het grootboek en bankposten bij te werken.
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,35 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: cd2496fef564004cabebc4c3010c0d3164fd28dc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6207e13540e2eed5f7707c551c2772aed33c5540
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Klantbetalingen van een lijst met onbetaalde verkoopdocumenten handmatig reconciliëren
-Als uw klanten betalingen naar uw elektronische bankrekening hebben gedaan, moet u ieder betaald bedrag vereffenen met het gerelateerde verkoopdocument en vervolgens de betaling boeken om de klant-, dagboek- en bankposten bij te werken.
+Als uw klanten betalingen naar uw elektronische bankrekening hebben gedaan, moet u ieder betaald bedrag vereffenen met het gerelateerde verkoopdocument en vervolgens de betaling boeken om de klant-, dagboek- en bankposten bij te werken. Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
 
 > [!NOTE]  
 >   U kunt dezelfde taken, zoals leveranciersbetalingen, uitvoeren in het venster **Betalingsreconciliatiedagboek** met functies voor import van bankafschriften, automatische vereffening en bankrekeningreconciliatie. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
-Het venster **Betalingsregistratie** is gemaakt om u te ondersteunen bij taken die deel uitmaken van het controleren van interne rekeningen met actuele geldcijfers om te zorgen voor effectieve inning bij klanten. Met dit hulpmiddel voor betalingsverwerking kunt u snel individuele of lump-sum betalingen boeken, gekorte betalingen verwerken en specifieke onbetaalde documenten vinden waarvoor een betaling is gemaakt.
+Het venster **Klantbetalingen registreren** is ontworpen om u te ondersteunen bij taken die deel uitmaken van het afstemmen van interne rekeningen met actuele cashcijfers om te zorgen voor effectieve inning van betalingen bij klanten. Met dit hulpmiddel voor betalingsverwerking kunt u snel individuele of lump-sum betalingen boeken, gekorte betalingen verwerken en specifieke onbetaalde documenten vinden waarvoor een betaling is gemaakt.
 
 Betalingen voor verschillende klanten met verschillende betalingsdatums moeten als afzonderlijke betalingen worden geboekt. Betalingen voor dezelfde klant met dezelfde betaaldatum kunnen worden geboekt als lump-sum bedrag. Dit is handig, bijvoorbeeld een klant een enkele betaling heeft gemaakt die over meerdere verkoopfacturen is verspreid.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Instellen van het betalingregistratiedagboek
-Omdat u verschillende betalingssoorten naar verschillende tegenrekeningen kunt boeken, moet u een tegenrekening in het venster **Instelling van betalingsregistratie** selecteren voordat u betalingen begint te verwerken. Als u altijd naar dezelfde tegenrekening boekt, kunt u die rekening instellen als standaard en deze stap elke keer dat u het venster **Betalingsregistratie** opent, vermijden.  
+Omdat u verschillende betalingssoorten naar verschillende tegenrekeningen kunt boeken, moet u een tegenrekening in het venster **Instelling van betalingsregistratie** selecteren voordat u betalingen begint te verwerken. Als u altijd naar dezelfde tegenrekening boekt, kunt u die rekening instellen als de standaard en deze stap elke keer dat u het venster **Klantbetalingen registreren** opent, vermijden.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen van betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.
 
-    U kunt ook in het venster **Betalingsregistratie** de actie **Instellingen** kiezen.    
+    U kunt ook in het venster **Klantbetalingen registreren** de actie **Instellingen** kiezen.    
 2. Vul de velden van het venster **Instelling van betalingsregistratie** in. Kies een veld om een korte omschrijving van het veld of een koppeling naar gerelateerde informatie te lezen.  
 
-## <a name="to-reconcile-payments-individually"></a>Betalingen afzonderlijk reconciliëren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.  
+## <a name="to-register-customer-payments-individually"></a>Klantbetalingen afzonderlijk registreren
+
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantbetalingen registreren** in en kies vervolgens de gerelateerde koppeling.  
+ 
+    De pagina **Klantbetalingen registreren** bevat alle geboekte documenten waarvoor een betaling kan worden geregistreerd. Dezelfde pagina is ook beschikbaar vanuit de lijst **Klanten** en de klantenkaart, waar deze automatisch wordt gefilterd voor de opgegeven klant.  
 2. Schakel het selectievakje **Is betaald** in op de regel die het geboekte document vertegenwoordigt waarvoor een betaling is gemaakt.
 
     Als het selectievakje **Ontvangstdatum automatisch invullen** in het venster **Instelling van betalingsregistratie** is geselecteerd, wordt de werkdatum ingevoerd in het veld **Ontvangen op** .  
@@ -53,7 +55,7 @@ De betalingsgegevens worden geboekt voor documenten die worden vertegenwoordigd 
 Betalingenposten worden geboekt naar grootboek-, bank- en klantrekeningen. Elke betaling wordt toegepast op het bijbehorende geboekte verkoopdocument.  
 
 ## <a name="to-reconcile-lump-payments"></a>Lump-sum betalingen reconciliëren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel het selectievakje **Is betaald** in op de regels die geboekte documenten vertegenwoordigen voor dezelfde klant voor wie een lump-sum betaling is verricht.  
 
     > [!NOTE]  
@@ -88,7 +90,7 @@ In de onderstaande procedure worden vier verschillende procedures uitgelegd voor
 * Het betalingsbedrag is hoger dan het resterende gekorte bedrag. U boekt de betalingen in de huidige hoedanigheid. Alleen het restbedrag wordt geboekt. Het bijkomende bedrag is gecrediteerd aan de klant.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Een betalingsbedrag verwerken dat gelijk is aan het gekorte bedrag en waar de betaaldatum voor de kortingsdatum is
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer het betalingsbedrag in het veld **Ontvangen bedrag** in. Het bedrag is gelijk aan het bedrag in het veld **Rest. bedrag na korting**.
 
     Het selectievakje **Is betaald** wordt automatisch ingeschakeld en het veld **Ontvangen op** wordt ingevuld met de werkdatum.    
@@ -97,7 +99,7 @@ In de onderstaande procedure worden vier verschillende procedures uitgelegd voor
 5. Kies de actie **Betalingen boeken** om de volledige gehele betaling te boeken naar de grootboek-, bank-, en klantrekeningen.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Een betalingsbedrag verwerken dat gelijk is aan het gekorte bedrag, maar waar de betaaldatum na de kortingsdatum is
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer het betalingsbedrag in het veld **Ontvangen bedrag** in. Het bedrag is gelijk aan het bedrag in het veld **Rest. bedrag na korting**.
 
     Het selectievakje **Is betaald** wordt automatisch ingeschakeld en het veld **Ontvangen op** wordt ingevuld met de werkdatum.
@@ -115,7 +117,7 @@ In de onderstaande procedure worden vier verschillende procedures uitgelegd voor
 Het bijbehorende document blijft open.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Een betaling verwerken die lager is dan het resterende gekorte bedrag
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer het betalingsbedrag in het veld **Ontvangen bedrag** in. Het bedrag is lager dan het bedrag in het veld **Rest. bedrag na korting**.
 
     Het selectievakje **Is betaald** wordt automatisch ingeschakeld en het veld **Ontvangen op** wordt ingevuld met de werkdatum.  
@@ -126,7 +128,7 @@ Het bijbehorende document blijft open.
 Het bijbehorende document blijft open.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Een betaling verwerken die groter is dan het resterende gekorte bedrag
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer het betalingsbedrag in het veld **Ontvangen bedrag** in. Het bedrag is hoger dan het bedrag in het veld **Rest. bedrag na korting**.  
 
     Het selectievakje **Is betaald** wordt automatisch ingeschakeld en het veld **Ontvangen op** wordt ingevuld met de werkdatum.    
@@ -148,7 +150,7 @@ In het venster **Documenten zoeken** kunt u zoeken in documenten die nog niet vo
 
 De volgende procedure laat zien hoe u een specifiek document kunt vinden door beide zoekcriteria te gebruiken.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.
 2. Kies met de aanwijzer op een regel de actie **Documenten zoeken**.
 3. In het venster **Documenten zoeken** voert u een zoekwaarde in het veld **Documentnr.** in.  
 
@@ -167,16 +169,15 @@ Als een of meer documenten overeenkomen met de criteria, wordt het venster **Res
 Als een betaling in een bank niet wordt weergegeven in een document in [!INCLUDE[d365fin](includes/d365fin_md.md)], dan kunt u een vooraf ingevulde diversendagboekregel in het venster **Betalingsregistratie** openen om de betaling direct bij de tegenrekening te boeken zonder de betaling in een document te verwerken. U kunt de betaling ook in het dagboek registreren tot de oorsprong van de betaling is opgelost.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Een betaling zonder een gekoppeld document registreren of boeken
-Als een betaling in een bank niet wordt weergegeven in een document in [!INCLUDE[d365fin](includes/d365fin_md.md)], dan kunt u een vooraf ingevulde diversendagboekregel in het venster **Betalingsregistratie** openen om de betaling direct bij de tegenrekening te boeken zonder de betaling in een document te verwerken. U kunt de betaling ook in het dagboek registreren tot de oorsprong van de betaling duidelijk is.  
+Als een betaling in een bank niet wordt vertegenwoordigd door een document in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u een vooraf ingevulde diversendagboekregel in het venster **Betalingsregistratie** openen om de betaling direct bij de tegenrekening te boeken zonder de betaling in een document te verwerken. U kunt de betaling ook in het dagboek registreren tot de oorsprong van de betaling duidelijk is.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsregistratie** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.  
 
-Ga door om een niet gedocumenteerde betaling te registreren.  
-
-1. Kies de actie **Diversendagboek**.  
+    Ga door om een niet gedocumenteerde betaling te registreren.  
+2. Kies de actie **Diversendagboek**.  
 
     Het venster **Dagboek** wordt geopend met een vooraf ingevulde regel met de tegenrekening van de dagboekbatch die is ingesteld in het venster **Instelling van betalingsregistratie**.  
-2. Vul de overige velden op de dagboekregel in, zoals het bedrag en het klantnummer of andere informatie van het bankafschrift. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).  
+3. Vul de overige velden op de dagboekregel in, zoals het bedrag en het klantnummer of andere informatie van het bankafschrift. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).  
 
 U kunt evenwel de dagboekregel boeken om het totaal op de tegenrekening bij te werken. U kunt de journaalregel ook ongeboekt laten en deze misschien toevoegen met een notitie dat voor de betaling meer analyse nodig is.  
 

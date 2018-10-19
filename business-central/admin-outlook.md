@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
@@ -50,7 +50,7 @@ In de invoegtoepassing Document Links kunt u acties wijzigen en uitvoeren met he
 ## <a name="adding-the-add-ins-manually"></a>Invoegtoepassingen handmatig toevoegen
 In sommige gevallen worden de invoegtoepassingen niet automatisch aan Outlook toegevoegd. Zelfs als u of een collega de begeleide instelling namens het bedrijf hebt uitgevoerd, is [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk niet zichtbaar in Outlook. Als u dit probleem tegenkomt, kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen handmatig toevoegen.  
 
-Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
+Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Hiermee wordt het venster **Invoegtoepassingen beheren** geopend, waarin u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
 
 U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt vermeld in het venster **Invoegtoepassingen beheren**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
@@ -76,7 +76,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-prepare-the-sample-data"></a>De voorbeeldgegevens voorbereiden  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Resources** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** om een nieuwe resourcekaart te maken.  
 3.  Voer op het sneltabblad **Algemeen** de volgende informatie in:  
 
@@ -99,7 +99,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-create-a-job-journal-batch"></a>Een projectdagboekbatch maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Projectdagboek** het veld **Batchnaam**. Het venster **Projectdagboekbatches** wordt geopend.  
 3.  Kies de actie **Nieuw** om een nieuwe regel te maken met de volgende informatie:  
 
@@ -114,7 +114,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-set-up-a-job"></a>Een project instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** om een nieuwe kaart te maken.  
 3.  Voer op het sneltabblad **Algemeen** de volgende informatie in:  
 
@@ -235,7 +235,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-calculate-remaining-usage"></a>Het resterende gebruik berekenen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open in het venster **Projectdagboek** in het veld **Batchnaam** de lijst **Projectdagboekbatches**. Selecteer de projectdagboekbatch **Tricia**.  
 3.  Kies de actie **Resterend gebruik berekenen**.  
 4.  Kies in het venster **Resterend gebruik berekenen**, op het sneltabblad **Projecttaak** het veld **Projectnr.** en selecteer het relevante projectnummer, meestal project J00010.  
@@ -251,7 +251,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-create-a-job-sales-invoice"></a>Een projectverkoopfactuur maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het project dat u eerder hebt gemaakt en kies de actie **Projectverkoopfactuur maken**.  
 3.  Schakel op het sneltabblad **Projecttaak** alle filters voor **Projecttaaknr.** uit om het project te factureren. Selecteer het relevante project in het veld **Projectnr.**.  
 4.  Vul op het sneltabblad **Opties** de boekingsdatum in en of u één factuur per taak wilt maken of slechts één factuur voor alle taken.  
@@ -261,7 +261,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-post-a-new-sales-invoice"></a>Een nieuwe verkoopfactuur boeken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de factuur voor klantnr. 01445544. U ziet de gegevens die zijn ingevoerd op de planningsregels.  
 3.  Kies de actie **Boeken**. Kies **Ja** om de boeking te bevestigen.  
 
@@ -275,7 +275,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-open-the-statistics-window"></a>Het venster Statistiek openen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Statistieken**. U kunt gedetailleerde informatie over de projectprijzen, -kosten en -winsten bekijken in zowel lokale als vreemde valuta's.  
 3.  Kies de knop **Sluiten** om het venster **Projectstatistiek** te sluiten.  
 
@@ -284,7 +284,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Vaste prijzen beheren in projecten  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het projectnummer **Guildford** en kies de actie **Projecttaakregels**.  
 3.  Selecteer regel 1120 en klik in het veld **Planning (totale kostprijs)** met de rechtermuisknop op het bedrag en kies **DrillDown**.  
 
@@ -306,7 +306,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Uren invoeren in het projectdagboek  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Maak een nieuwe regel met de volgende informatie:  
 
     -   **Regelsoort**: **(blanco)**  
@@ -365,7 +365,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-copy-a-job"></a>Een project kopiëren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** om een nieuw project te maken. Geef de volgende informatie op:  
 
     -   **Omschrijving**: **10 conferentieruimten inrichten**  
@@ -390,7 +390,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 
 ### <a name="to-set-up-a-new-account"></a>Een nieuwe rekening instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Rekeningschema** de actie **Nieuw** om een nieuwe kaart te maken.  
 3.  Geef op de kaart **Nieuwe grootboekrekening** de volgende gegevens op:  
 

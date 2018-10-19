@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 92ee1838f977ed7a9faed32f5ad6eac6fa4626c3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3e099dde3ab51a2757bf42ffd4c3044c8007ee0a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-item-attributes"></a>Werken met artikelkenmerken
@@ -23,10 +23,10 @@ Wanneer klanten informeren naar een artikel, via correspondentie of via een geï
 U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens worden toegepast op de artikelen die de artikelcategorieën gebruiken. Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
 > [!Tip]  
-> Als u afbeeldingen aan artikelen koppelt, kan de extensie Afbeeldingsanalyse kenmerken in de afbeelding detecteren en de kenmerken voorstellen, zodat u kunt besluiten of u deze toewijst. De extensie is klaar. U hoeft deze alleen in te schakelen. Zie voor meer informatie [De extensie Afbeeldingsanalyse voor Microsoft Business Central](ui-extensions-image-analyzer.md).
+> Als u afbeeldingen aan artikelen koppelt, kan de extensie Afbeeldingsanalyse kenmerken in de afbeelding detecteren en de kenmerken voorstellen, zodat u kunt besluiten of u deze toewijst. De extensie is klaar. U hoeft deze alleen in te schakelen. Zie [De extensie Afbeeldingsanalyse](ui-extensions-image-analyzer.md) voor meer informatie.
 
 ## <a name="to-create-item-attributes"></a>Artikelkenmerken maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelkenmerken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Artikelkenmerken** de actie **Nieuw**.
 3. Vul in het venster **Artikelkenmerk** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -34,12 +34,12 @@ U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens wo
 >   Als u **Optie** selecteert in het veld **Soort**, kunt u de actie **Artikelkenmerkwaarden** kiezen om waarden voor het artikelkenmerk te maken. Zie het gedeelte "Waarden voor artikelkenmerken van het soort Optie maken" voor meer informatie.  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Waarden voor artikelkenmerken van het soort Optie maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelkenmerken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelkenmerken** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Artikelkenmerken** een artikelkenmerk van het soort **Optie** waarvoor u waarden wilt maken, en kies vervolgens de actie **Artikelkenmerkwaarden**.
 3. Vul in het venster **Artikelkenmerkwaarden** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Artikelkenmerken aan artikelen toewijzen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Artikelen** het artikel waaraan u kenmerkwaarden wilt toewijzen, en kies vervolgens de actie **Kenmerken**.
 3. Kies in het venster **Artikelkenmerkwaarden** de actie **Nieuw**.
 4. Kies de zoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk. U kunt ook de actie **Nieuw** kiezen om eerst een nieuw artikelkenmerk te maken, zoals is uitgelegd in het gedeelte "Artikelkenmerken maken".
@@ -48,7 +48,7 @@ U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens wo
 7. Herhaal stap 4 tot en met 6 voor alle artikelkenmerken die u wilt toewijzen aan het artikel.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Artikelkenmerken aan artikelcategorieën toewijzen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelcategorieën** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelcategorieën** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Artikelcategorieën** de artikelcategorie waaraan u artikelkenmerken wilt toewijzen en kies vervolgens de actie **Bewerken**.
 3. Kies in het venster **Artikelcategoriekaart** op het sneltabblad **Kenmerken** de actie **Nieuw**.
 4. Kies de zoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk. U kunt ook de actie **Nieuw** kiezen om eerst een nieuw artikelkenmerk te maken, zoals is uitgelegd in het gedeelte "Artikelkenmerken maken".
@@ -59,7 +59,7 @@ U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens wo
 >   Artikelkenmerken voor bovenliggende artikelcategorieën worden doorgegeven aan onderliggende artikelcategorieën. Dit wordt aangegeven door het veld **Overgenomen van** op het sneltabblad **Kenmerken**. Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
 ## <a name="to-filter-by-item-attributes"></a>Filteren op artikelkenmerken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Artikelen** de actie **Filteren op kenmerken**.
 3. Kies in het venster **Filteren op kenmerken** de opzoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk.
 4. Kies in het veld **Waarde** de zoekknop en selecteer een kenmerkwaarde om artikelen op te filteren.

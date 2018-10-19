@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
@@ -80,25 +80,25 @@ Om een rationeel voorzieningenplan te verkrijgen, stemt een planner planningspar
 
 De timing van de herplanningsperiode, dempingsperiode en lotaccumulatieperiode is gebaseerd op een voorzieningsdatum. Het tijdsinterval wordt gebaseerd op de begindatum van de planning, zoals in de onderstaande afbeelding is weergegeven.  
 
-![Tijdsintervalelementen](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Tijdsintervalelementen](media/supply_planning_5_time_bucket_elements.png "Tijdsintervalelementen")  
 
 In de volgende voorbeelden geven de zwarte pijlen bestaand aanbod (omhoog) en bestaande vraag (omlaag) aan. Rode, groene en oranje pijlen zijn planningsuggesties.  
 
 **Voorbeeld 1**: De gewijzigde datum ligt buiten de herplanningsperiode, waardoor de bestaande voorziening wordt geannuleerd. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag in de lotaccumulatieperiode.  
 
-![Herplanningsperiode, Lotaccumulatieperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Herplanningsperiode en lotaccumulatieperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Herplanningsperiode en lotaccumulatieperiode")  
 
 **Voorbeeld 2**: De gewijzigde datum ligt in de herplanningsperiode, waardoor de bestaande voorziening opnieuw wordt gepland. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag buiten de lotaccumulatieperiode.  
 
-![Herplanningsperiode, Lotaccumulatieperiode, Herplannen](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Herplanningsperiode, lotaccumulatieperiode en herplanning](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Herplanningsperiode, lotaccumulatieperiode en herplanning")  
 
 **Voorbeeld 3**: Er is vraag in de dempingsperiode en het voorzieningsaantal in de lotaccumulatieperiode komt overeen met het voorzieningsaantal. De volgende vraag wordt blootgelegd en er wordt een nieuwe voorziening voorgesteld.  
 
-![Dempingsperiode, Lotaccumulatieperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
+![Dempingsperiode en lotaccumulatieperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dempingsperiode en lotaccumulatieperiode")  
 
 **Voorbeeld 4**: Er is vraag in de dempingsperiode en het aanbod blijft op dezelfde datum. Het huidige voorzieningaantal is echter niet voldoende om te voldoen aan de vraag in de lotaccumulatieperiode, zodat een wijzigingsactie voor het aantal wordt voorgesteld voor de bestaande voorzieningenorder.  
 
-![Dempingsperiode, Lotaccumulatieperiode, Aantal wijzigen](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
+![Dempingsperiode, lotaccumulatieperiode en aantal wijzigen](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dempingsperiode, lotaccumulatieperiode en aantal wijzigen")  
 
 **Standaardwaarden:** de standaardwaarde van het veld **Tijdsinterval** en de drie bestelperiodevelden is leeg. Voor alle velden behalve het veld **Dempingsperiode** betekent dit 0D (nul dagen). Als het veld **Dempingsperiode** leeg is, wordt de globale waarde in het veld **Standaard dempingsperiode** in het venster **Productie-instellingen** gebruikt.  
 

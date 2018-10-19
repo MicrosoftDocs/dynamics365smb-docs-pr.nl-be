@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30a1d6e6e5db6b94787b6b2e250a2824ba3fc8b3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
@@ -37,14 +37,14 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 > Als u niet wilt dat een artikel ooit met korting wordt verkocht, laat u kortingsvelden op de artikelkaart leeg en neemt u het artikel niet op in instellingen van regelkorting.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Een verkoopprijs voor een klant instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Prijzen**.
 
     Het veld **Verkoopsoort** wordt vooraf ingevuld met de waarde **Klant** en het veld **Verkoopcode** wordt vooraf ingevuld met het klantnummer.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopprijs aan de klant wordt verleend.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen**.
 
     Het veld **Verkoopsoort** wordt vooraf ingevuld met de waarde **Klant** en het veld **Verkoopcode** wordt vooraf ingevuld met het klantnummer.
@@ -53,7 +53,7 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
 Wanneer u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, geeft u de factuurkortingscode op de klantenkaarten op en stelt u de voorwaarden voor elke code in.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de klantenkaart voor een klant die voor factuurkortingen in aanmerking komt.
 3. Selecteer in het veld **Factuurkortingscode** een code voor de desbetreffende factuurkortingsvoorwaarden die moeten worden gehanteerd voor het berekenen van factuurkortingen voor de klant.
 
@@ -116,7 +116,7 @@ Als er geen speciale prijs kan worden berekend voor het artikel op de regel, wor
 ## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren  
 Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele klant naar een klantenprijsgroep, moet u de batchverwerking **Verkoopprijsvoorstellen maken**  batchverwerking. U vindt de batchverwerking in het venster **Verkoopprijsvoorstel**.    
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopprijsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Verkoopprijsvoorstellen maken** .  
 3.  Vul op het sneltabblad **Verkoopprijzen** in de velden **Verkoopsoort** en **Verkoopcode** de waarden in van de oorspronkelijke verkoopprijzen die u wilt kopiëren.  
 4.  Gebruik in het bovenste gedeelte van het aanvraagvenster de velden **Verkoopsoort** en **Verkoopcode** om aan te geven waarnaar u de verkoopprijzen wilt kopiëren.  

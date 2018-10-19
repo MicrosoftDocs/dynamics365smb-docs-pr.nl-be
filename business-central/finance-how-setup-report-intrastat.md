@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2cd83f8dccef2d5d34a809522f302e21aed44312
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 497f952684cd893bddd954378c02f55f45224f84
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedure: Intrastat instellen en rapporteren
-Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt de pagina **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
+Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt het venster **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
 
 ## <a name="required-and-optional-setups"></a>Vereiste en optionele instellingen
 Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporteren, moet u meerdere zaken instellen:  
@@ -44,7 +44,7 @@ U kunt de posten exporteren naar een bestand dat u aan de Intrastat-autoriteiten
 >  [!Note]
 > Wij raden u aan voor elke maand een Intrastat-dagboekbatch in te stellen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Een sjabloon maken voor elk Intrastat-formulier dat u gebruikt.  
 3. Als u batches wilt maken, kiest u het tabblad **Navigeren** en vervolgens **Batches**.  
 4. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Maak een sjabloon voor elk Intrastat-formulier dat u gebruikt.  
@@ -55,27 +55,34 @@ U kunt de posten exporteren naar een bestand dat u aan de Intrastat-autoriteiten
 ### <a name="to-set-up-commodity-codes"></a>Basisproductcodes instellen
 Alle artikelen die u koopt of verkoopt moeten een basisproductcode hebben.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Basisproductcodes** in en kies de gerelateerde koppeling.  
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Als u een basisproductcode aan een artikel wilt toewijzen, gaat u naar de pagina **Artikel**, vouwt u het sneltabblad **Kosten en boeking** uit en voert u de code in het veld **Basisproductcode** in.   
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Basisproductcodes** in en kies vervolgens de gerelateerde koppeling.  
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Als u een basisproductcode aan een artikel wilt toewijzen, gaat u naar het venster **Artikel**, vouwt u het sneltabblad **Kosten en boeking** uit en voert u de code in het veld **Basisproductcode** in.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Transactieaardcodes instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transactieaardcodes** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transactieaardcodes** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
-> Als u vaak een bepaalde transactieaardcode gebruikt, kunt u van deze code de standaardcode maken. Hiervoor gaat u naar de pagina **Intrastat-instellingen** en kiest u de code.
+> Als u vaak een bepaalde transactieaardcode gebruikt, kunt u van deze code de standaardcode maken. Hiervoor gaat u naar het venster **Intrastat-instellingen** en kiest u de code.
 
 ### <a name="to-set-up-transport-methods"></a>Transportmethoden instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transportmethoden** in en klik vervolgens op de gerelateerde koppeling.  
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transportmethodes** in en kies vervolgens de gerelateerde koppeling.  
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Instellen welke Intrastat-rapportvelden verplicht zijn
+In sommige landen, zoals Spanje en het Verenigd Koninkrijk, vereist de belastingdienst dat Intrastat-rapporten bijvoorbeeld de verzendmethode bevatten voor inkopen of andere waarden wanneer de verkoop boven een bepaalde drempel ligt. In het venster **Intrastat-instelling** kunt u selecteren dat **Intrastat-controlelijst instellen** verplichte velden instelt in het venster **Intrastat-dagboek**.
+
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Kiest de actie **Intrastat-controlelijst instellen**.
+3. Klik in het venster **Intrastat-controlelijst instellen** op **Veldnaam** om het Intrastat-rapportveld te kiezen dat u verplicht wilt maken. 
 
 ## <a name="to-report-intrastat"></a>Intrastat rapporteren
-Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijst** afdrukken om te controleren of alle gegevens in het dagboek correct zijn. Vervolgens kunt u een Intrastat-rapport afdrukken als formulier of een bestand maken om naar de belastingdienst in uw land of regio te verzenden.  
+Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstrapport** uitvoeren om te zorgen dat alle gegevens in het dagboek correct zijn. Verplichte velden die u in het venster **Intrastat-controlelijst instellen** hebt ingesteld en waarvoor waarden ontbreken, worden weergegeven in het feitenblok Fouten en waarschuwingen in het venster **Intrastat-dagboek**. Vervolgens kunt u een Intrastat-rapport afdrukken als formulier of een bestand maken om naar de belastingdienst in uw land of regio te verzenden.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Intrastat-dagboeken invullen  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboek** in en klik vervolgens op de gerelateerde koppeling.  
-2. Kies op de pagina **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam** en kies **OK**.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboek** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies in het venster **Intrastat-dagboek** in het veld **Batchnaam** de relevante dagboekbatch en kies vervolgens **OK**.  
 3. Kies de actie **Regels voorstellen**. In de velden **Begindatum** en **Einddatum** zijn al de datums opgenomen die voor de statistiekperiode in de dagboekbatch zijn opgegeven.  
 4. U kunt een percentage voor transport en verzekering opgeven in het veld **Indirecte kosten %**. Als u een percentage opgeeft, wordt de inhoud van het veld **Statistiekwaarde** verhoudingsgewijs aangepast op basis van dit percentage.  
 5. Kies **OK** om de batchverwerking te starten.  
@@ -83,13 +90,13 @@ Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijst*
 Met de batchverwerking worden alle artikelposten in de statistiekperiode opgehaald en als regels in het Intrastat-dagboek ingevoegd. U kunt de regels zo nodig bewerken.  
 
 > [!IMPORTANT]  
->  Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren.  
+>  Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd in het venster **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat rapporteren in een formulier of een bestand
 Als u de gegevens wilt ophalen die nodig zijn op het Intrastat-formulier van de betreffende instanties voor statistiekbeheer, moet u de lijst **Intrastat - Formulier** afdrukken. Voordat u dit kunt doen, moet u het Intrastat-dagboek voorbereiden en invullen. Als u zowel verkoop- als inkooptransacties hebt, moet u een apart formulier invullen voor elke soort. U moet de lijst dus tweemaal afdrukken.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
-2. Kies op de pagina **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam**.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies in het venster **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam**.  
 3. Als u dit nog niet hebt gedaan, vult u het dagboek handmatig in of kiest u **Regels voorstellen**.  
 4. Kies de actie **Hiermee wordt het Intrastat-dagboek afgedrukt**.  
 5. Voeg een filter **Soort** toe in het sneltabblad **Intrastat-dagboekregel** en geef op of dit een **Ontvangst** of **Verzending** is.  
@@ -98,7 +105,7 @@ Als u de gegevens wilt ophalen die nodig zijn op het Intrastat-formulier van de 
 ### <a name="report-intrastat-in-a-file"></a>Intrastat in een bestand rapporteren
 U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, kunt u een controlelijst afdrukken met dezelfde gegevens als in het bestand.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboek** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het venster **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam**.  
 3. Als u dit nog niet hebt gedaan, vult u het dagboek handmatig in of kiest u **Regels voorstellen**.  
 4. Kies de actie **Bestand maken**.  
@@ -109,7 +116,7 @@ U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, 
 ## <a name="reorganize-intrastat-journals"></a>Intrastat-dagboeken opnieuw indelen
 Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport een nieuwe dagboekbatch maakt, hebt u na verloop van tijd veel dagboekbatches. De dagboekregels worden niet automatisch verwijderd. U wilt de dagboekbatchnamen mogelijk periodiek wijzigen. Hiervoor verwijdert u de dagboekbatches die u niet meer gebruikt. De dagboekregels in deze batches worden ook verwijderd.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u de opties wilt zien, kiest u het veld **Batchnaam**.  
 3. Kies de dagboekbatches die moeten worden verwijderd, en kies **Verwijderen**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f674db7efd24e0fd77e8a3ca5aebeb928b63901c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 15c43bff82cf76ffed2153cd0f7e7ec3e07ff930
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="belgian-intrastat-reporting"></a>Belgische Intrastat-rapportage
@@ -25,7 +25,7 @@ Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/re
 - Vereenvoudigde aangifte  
 - Uitgebreide aangifte  
 
-Als u wilt bepalen wat voor soort btw-aangifte u moet gebruiken, raadpleegt u de website van de [Nationale bank van België](http://go.microsoft.com/fwlink/?LinkId=163064).  
+Als u wilt bepalen wat voor soort aangifte u moet gebruiken, raadpleegt u de website van de [Nationale bank van België](https://aka.ms/BelgianNationalBank).  
 
 ## <a name="submitting-the-intrastat-report"></a>Het Intrastat-rapport indienen  
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de Intrastat-aangiften exporteren naar een bestand dat u vervolgens indient op de OneGate-portal. Zie voor meer informatie [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md).  
@@ -38,5 +38,4 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de Intrastat-aangift
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)   
  [Intrastat-rapportage instellen](../../finance-how-setup-report-intrastat.md)  
-
 

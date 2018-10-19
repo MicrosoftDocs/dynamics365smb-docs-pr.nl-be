@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Een offerte maken voor een assembleren voor order-verkoop
@@ -28,7 +28,7 @@ Als u een ander soort artikel verkoopt, kunt u ook een verkoopofferte maken voor
 >  Zoals alle soorten van offertes worden de aantallen op assemblageoffertes niet gebruikt in beschikbaarheid, plannen of reserveringen.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Een verkoopofferte voor een op-order-assembleren-artikel maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopofferte** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopofferte** in en kies vervolgens de gerelateerde koppeling.  
 2.  Maak een nieuwe verkoopofferteregel met één regel voor een assemblageartikel. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).  
 3.  Voer de volledige aantal het in veld **Aantal voor op order assembleren** in.
 

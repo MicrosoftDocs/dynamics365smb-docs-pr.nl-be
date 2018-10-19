@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dbf3a53272a6da5c7e2adbb43557159b6f266f52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
@@ -55,14 +55,14 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   CRONUS International Ltd. installeren.  
 -   Maak van uzelf een magazijnwerknemer bij vestiging ZILVER door de volgende stappen uit te voeren:  
 
-    1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnwerknemers** in en klik vervolgens op de gerelateerde koppeling.  
+    1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
     2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount in het venster **Gebruikers**.  
     3.  Voer ZILVER in het veld **Vestiging** in.  
     4.  Selecteer het veld **Standaard**.  
 
 -   Maak artikel LS-81 beschikbaar op locatie ZILVER door deze stappen te volgen:  
 
-    1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeldagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+    1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
     2.  Open het standaarddagboek en maak twee artikeldagboekregels met de volgende informatie over de werkdatum (23 januari).  
 
         |Boekingssoort|Artikelnummer|Vestiging|Opslaglocatie|Aantal|  
@@ -79,7 +79,7 @@ Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickver
 De instellingen van het venster **Vestiging** definiëren de magazijnstromen van het bedrijf.  
 
 ### <a name="to-set-up-the-location"></a>Een vestiging instellen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de vestigingskaart ZILVER.  
 3.  Selecteer het selectievakje **Pick vereist**.  
 
@@ -87,7 +87,7 @@ De instellingen van het venster **Vestiging** definiëren de magazijnstromen van
 Verkooporders zijn de meest gebruikte soort uitgaand brondocument.  
 
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Maak een verkooporder voor klant 10000 op 23 januari (werkdatum) met de volgende verkooporderregel.  
 
@@ -105,7 +105,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 In het venster **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor een bepaald brondocument, zoals een verkooporder, beheren.  
 
 ### <a name="to-pick-and-ship-items"></a>U kunt als volgt artikels picken en verzenden  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadpicks** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer het veld **Brondocument** en selecteer vervolgens **Verkooporder**.  
 4.  Selecteer het veld **Bronnr.**, selecteer de regel voor de verkoop aan klant 10000, en kies vervolgens de knop **OK**.  

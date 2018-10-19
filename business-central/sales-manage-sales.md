@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Verkoop
@@ -36,14 +36,15 @@ Voor alle verkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbee
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Als u dit wilt doen | Zie |
+| Aan | Zie |
 | --- | --- |
+|Maak een klantenkaart voor elke klant aan wie u verkoopt.|[Nieuwe klanten registreren](sales-how-register-new-customers.md)|
 | Maak een verkoopofferte waarbij u producten aanbiedt tegen overeen te komen condities voordat de offerte wordt omgezet in een verkoopfactuur. |[Verkoopoffertes maken](sales-how-make-offers.md) |
 | Maak een verkoopfactuur om uw overeenstemming met een klant vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. |[Verkopen factureren](sales-how-invoice-sales.md) |
 | Verwerk een verkooporder die betrekking heeft op gedeeltelijke verzending of doorverzending. |[Producten verkopen](sales-how-sell-products.md) |
 |Standaardverkoop- of inkoopregels instellen die u snel kunt invoegen in documenten, bijvoorbeeld voor terugkerende aanvullingsorders.|[Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)|  
 | Koppel een verkooporder aan een inkooporder om een doorverzendartikel te verkopen dat direct vanaf de leverancier bij de klant wordt geleverd. |[Doorverzendingen uitvoeren](sales-how-drop-shipment.md) |
-|Laat een niet-voorraadartikel verzenden van een leverancier naar uw magazijn, zodat u het artikel naar uw klant kunt verzenden.|[Speciale orders maken:](sales-how-to-create-special-orders.md)|
+|Laat een catalogusartikel verzenden van een leverancier naar uw magazijn, zodat u het artikel naar uw klant kunt verzenden.|[Speciale orders maken:](sales-how-to-create-special-orders.md)|
 | Voer een actie op een onbetaalde geboekte verkoopfactuur uit om automatisch een creditnota te maken en de verkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) |
 | Maak een verkoopcreditnota om een bepaalde geboekte verkoopfactuur terug te boeken om te weerspiegelen welke producten de klant terugstuurt en welk betalingsbedrag u zult terugbetalen. |[Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) |
 |Beheer de toezegging van de klant om grote aantallen in te kopen, die in de loop van de tijd in meerdere verzendingen worden geleverd.|[Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)|
@@ -61,5 +62,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

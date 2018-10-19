@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Ontwerpdetails: Onder het overflowniveau blijven
 Wanneer de beleidsopties Maximum aantal en Vast bestelaantal worden gebruikt, richt het planningssysteem zich alleen op de geplande voorraad in het betreffende tijdsinterval. Dit betekent dat het planningssysteem overbodige voorziening kan voorstellen wanneer negatieve vraag- of positieve voorzieningswijzigingen buiten het betreffende tijdsinterval plaatsvinden. Als om deze reden een overbodige voorziening wordt voorgesteld, berekent het planningssysteem tot welk aantal de voorziening moet worden teruggebracht (of verwijderd) om de overbodige voorziening te voorkomen. Dit aantal wordt het overflowniveau genoemd. De overflow wordt gecommuniceerd als een planningsregel met een actie **Aantal wijzigen (afname)** of **Annuleren** en het volgende waarschuwingsbericht:  
 
-*Let op: De geplande voorraad [xx] is groter dan het overflowniveau [xx] op de Vervaldatum] [xx].*  
+*Let op: De geplande voorraad [xx] is groter dan het overflowniveau [xx] op de Vervaldatum [xx].*  
 
-![Overflowniveau voorraad](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Voorraadoverflowniveau](media/supplyplanning_2_overflow1_new.png "Voorraadoverflowniveau")  
 
 ##  <a name="calculating-the-overflow-level"></a>Het overflowniveau berekenen  
 Het overflowniveau wordt op verschillende manieren berekend, afhankelijk van de planningsinstelling.  
@@ -100,7 +100,7 @@ In dit scenario verandert een klant een verkooporder van 70 in 40 stuks tussen t
 ### <a name="resulting-planning-lines"></a>Resulterende planningsregels  
  Er wordt één planningsregel (waarschuwing) gemaakt om de inkoop met 30 te reduceren, van 90 tot 60, om de geplande voorraad op 100 te houden, op basis van het overflowniveau.  
 
-![Plannen op basis van overflowniveau](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Plannen volgens overflowniveau](media/nav_app_supply_planning_2_overflow2.png "Plannen volgens overflowniveau")  
 
 > [!NOTE]  
 >  Zonder de overflowfunctie wordt er geen waarschuwing gemaakt als het geplande voorraadniveau boven de maximale voorraad is. Dit kan een overbodige voorziening van 30 genereren.  

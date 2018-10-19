@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 17b01bdec7f5b785b22ad7c295e1c1c3002a4b70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 94fe194350eeb7e83ce443452cf876f6e498ca27
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-pre-closing-reports"></a>Vooraf sluiten van rapporten gebruiken
@@ -35,7 +35,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 | Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen. |Proefbalans |
 | Een proefbalans af te drukken voor een geconsolideerd bedrijf. |Consolidatie - Proefbalans |
 
-Als u een rapport wilt bekijken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
+Als u een rapport wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel staat en kiest u de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: ab05b9d596af65936d81c649fbace0f250efe076
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1573335edd2c3a52074b4a15ab66f86d4f2616ce
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Werken met intercompany-documenten en -dagboeken
@@ -29,7 +29,7 @@ U kunt verkoop- en inkooporders en retourorders verzenden voordat u deze boekt. 
 
 In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invullen en verzenden. Dezelfde stappen gelden voor IC-inkooporders en -retourorders en voor geboekte IC-facturen en -creditnota's.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies **Nieuw** om een nieuwe verkooporder te maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Controleer of de klant een IC-partner is.
@@ -41,7 +41,7 @@ In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invulle
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Een IC-dagboek invullen en boeken
 Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een corresponderende dagboekregel gemaakt in uw IC-outbox, die u kunt overbrengen naar uw partner. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IC-diversendagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-diversendagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul indien nodig de velden in.
 4. In het veld **Grootboekrekeningnr. IC-partner** voert u de IC-grootboekrekening in waarop het bedrag wordt geboekt in het bedrijf van uw partner.

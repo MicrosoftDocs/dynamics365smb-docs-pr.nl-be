@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b9e701f102f1a2fc7ccbd4882dfec37f65cfe3b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
@@ -28,15 +28,15 @@ In de volgende procedure wordt ervan uitgegaan dat u uw nieuwe bedrijf hebt ge√Ø
 
 ## <a name="to-import-a-configuration-package"></a>Een configuratiepakket importeren  
 1. Open het nieuwe bedrijf in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en selecteer vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Pakket importeren**.  
 4. Navigeer naar de locatie waar u het .rapidstart-configuratiepakketbestand hebt opgeslagen, en kies vervolgens de knop **Openen**.  
-5. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling. Voer informatie over het bedrijf in op de bedrijfsgegevenskaart. Neem informatie op, zoals bankgegevens. U kunt ook een logo voor het bedrijf opgeven.  
+5. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling. Voer informatie over het bedrijf in op de bedrijfsgegevenskaart. Neem informatie op, zoals bankgegevens. U kunt ook een logo voor het bedrijf opgeven.  
 
 Alle tabellen die u hebt aangewezen voor opname in het nieuwe bedrijf worden ge√Ømporteerd. Op dit punt kunt u de gegevens van het pakket toepassen op de database of de tabelgegevens aanpassen en wijzigen om te voldoen aan de specificaties van de klant.  
 
 ## <a name="to-apply-package-data"></a>Pakketgegevens toepassen  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u gegevens wilt wijzigen en kies vervolgens de actie **Gegevens toepassen**. Kies de knop **Ja** om de toepassing te bevestigen.
 3. Ga terug naar het venster **Configuratiewerkblad** om te bevestigen dat de gegevens zich nu in de database bevinden en dat de toepassing is geslaagd, en kies de actie **Databasegegevens**.  
 
@@ -44,7 +44,7 @@ Alle tabellen die u hebt aangewezen voor opname in het nieuwe bedrijf worden ge√
 >  Nadat u gegevens hebt toegepast, kunt u deze alleen bekijken in de database. Zij bevinden zich niet langer in het pakket.  
 
 ## <a name="to-modify-and-apply-package-data"></a>Pakketgegevens wijzigen en toepassen  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u gegevens wilt wijzigen en kies vervolgens de actie **Pakketgegevens**.  
 3. Breng uw wijzigingen aan in het venster **Pakketrecords voor configuratie**. Zo kunt u bijvoorbeeld opties verwijderen die niet van toepassing zijn.  
 4. Kies de actie **Gegevens toepassen** en kies vervolgens de knop **OK**.  
@@ -53,7 +53,7 @@ Alle tabellen die u hebt aangewezen voor opname in het nieuwe bedrijf worden ge√
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Een configuratiefout zoeken en identificeren  
 Er zijn bepaalde typen fouten die kunnen optreden wanneer u gegevens toepast op een database. De meest voorkomende fout is dat vereiste tabellen niet zijn opgenomen. U corrigeert dergelijke fouten in het configuratiewerkblad.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Selecteer het pakket dat u wilt controleren en kies vervolgens de actie **Bewerken**.  
 
     Een tabel met fouten wordt gemarkeerd weergegeven. Het aantal pakketfouten wordt weergegeven in het veld **Aantal pakketfouten**.  
@@ -62,7 +62,7 @@ Er zijn bepaalde typen fouten die kunnen optreden wanneer u gegevens toepast op 
 
 ### <a name="to-fix-an-error"></a>Een fout corrigeren  
 1. Open het bedrijf dat is gebaseerd op uw configuratiepakket.  
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en selecteer vervolgens de gerelateerde koppeling.  
 3. Corrigeer fouten, zoals ontbrekende gerelateerde tabellen, in het werkblad.  
 4. Voeg de tabellen toe aan het bestaande configuratiepakket of maak een nieuw pakket dat alleen de nieuwe tabellen bevat. Zie [Een configuratiepakket voorbereiden](admin-how-to-prepare-a-configuration-package.md) voor meer informatie.  
 5. Open het nieuwe bedrijf waarvoor u de configuratie implementeert.  

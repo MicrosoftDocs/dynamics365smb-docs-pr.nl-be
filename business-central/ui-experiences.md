@@ -1,6 +1,6 @@
 ---
 title: De gebruikerservaring kiezen om geavanceerde functies weer te geven of te verbergen | Microsoft Docs
-description: Meer weten over wat de ervaringslagen Basis en Essentieel betekenen voor de gebruikersinterface, toepassingsgebieden en uw bedrijf.
+description: Meer weten over wat de ervaringslagen Essential en Premium betekenen voor de gebruikersinterface, toepassingsgebieden en uw bedrijf.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: nl-be
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
@@ -31,8 +31,7 @@ In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar z
 
 | Ervaring | Effect op gebruikersinterface |
 | --- | --- |
-| **Basis** |Hier worden alleen kernacties en -velden in de meest gebruikte bedrijfsfuncties weergegeven, zoals verkoop, inkoop, voorraad en financiën. |
-| **Essentieel** |Hier worden alle acties en velden voor alle gemeenschappelijke bedrijfsfuncties weergegeven.|
+| **Essential** |Hier worden alle acties en velden voor alle gemeenschappelijke bedrijfsfuncties weergegeven.|
 | **Premium** |Hier worden alle acties en velden voor alle bedrijfsfuncties weergegeven, inclusief Productie en Servicebeheer.|
 
 > [!NOTE]  
@@ -50,17 +49,20 @@ Vervolgens kunt u definiëren tot welke specifieke functies en vensters binnen d
 Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Office 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u de wijziging doorvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Meld u aan als beheerder.
-2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gebruikers** in en klik vervolgens op de gerelateerde koppeling.
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
 3. Kies in het venster **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen**.
 
 Alle nieuwe informatie over de plannen van gebruikers en hun toegewezen gebruikersgroepen worden nu bijgewerkt volgens de planwijzigingen.
 
 ### <a name="to-select-the-premium-experience"></a>De Premium-ervaring selecteren
 U kunt nu doorgaan met de nieuwe ervaring te selecteren.
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
 
-## <a name="see-also"></a>Zie ook 
+## <a name="help-assumes-premium-experience"></a>In de Help wordt uitgegaan van de Premium-ervaring
+Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten. Er wordt een tekstnotitie in Help-onderwerpen op hoog niveau ingevoegd voor de functiegebieden Productie en Servicebeheer die aangeeft dat deze de **Premium**-ervaring vereisen.
+
+## <a name="see-also"></a>Zie ook
 [Nieuwe bedrijven maken](about-new-company.md)  
 [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

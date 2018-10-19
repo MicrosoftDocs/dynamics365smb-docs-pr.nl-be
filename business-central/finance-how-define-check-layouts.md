@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d48b7954402b96c1bb5d3a2a63c70f48c6a4f9d7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d8546cd2f713416e50474848e783d61b4b1dc810
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="define-check-layouts"></a>Cheque-indelingen definiëren
@@ -25,7 +25,7 @@ U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
 
 ## <a name="to-define-check-layouts"></a>Cheque-indelingen definiëren
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Rapportselecties bankrekening** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekening van rapportselecties** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
 3. Selecteer een van de volgende rapport-id's.
 

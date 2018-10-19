@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0a7de9af414851d3bdcfe1a8be4d3de13929bca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels in het venster **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Contacten toevoegen aan een segment
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Segmenten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het segment en kies vervolgens de actie **Contacten toevoegen**. Het batchverwerkingsvenster **Contacten toevoegen** wordt geopend.
 3. Stel in het gedeelte **Contact** filters in om de gegevens op te geven op basis waarvan u contacten wilt selecteren.
 

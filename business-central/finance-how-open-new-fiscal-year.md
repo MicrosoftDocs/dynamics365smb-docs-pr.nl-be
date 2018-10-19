@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028bb6554f84fc4e8d1343070121f8b0143329ce
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Een nieuw boekjaar openen en boekingsperioden maken
@@ -23,7 +23,7 @@ Voordat u naar een boekjaar kunt boeken, moet u het boekjaar openen en de boekho
 Voor veel bedrijven valt het boekjaar niet samen met het kalenderjaar. Boekhoudperioden kunnen in andere tijdeenheden, zoals maanden of kwartalen, worden gemeten. U kunt het venster **Boekjaar maken** gebruiken om de boekhoudperioden in te stellen die passen bij uw zakelijke behoeften. Echter,   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Een nieuw boekjaar openen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsperioden** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Boekingsperioden** de actie **Nieuw jaar**.
 3. Vul de velden in om de structuur van het boekjaar te definiëren.
 

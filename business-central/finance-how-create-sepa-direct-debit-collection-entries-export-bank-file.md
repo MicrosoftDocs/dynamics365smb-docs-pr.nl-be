@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d732f7a6ae26d36a0d4444fa852f0901cd0fd41
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d05a12251046b0c911387cda1d5a7a7c9a026d6b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand
@@ -25,7 +25,7 @@ Om de bank het bedrag van de bankrekening van de klant over te laten maken naar 
 
 ### <a name="to-create-a-direct-debit-collection"></a>Een incasso-opdracht maken  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Incasso-opdrachten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Incasso-opdrachten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Incasso-opdrachten** op het tabblad **Start** in de groep **Nieuw** de optie **Incasso-opdracht maken**.  
 3. Vul in het venster **Incasso-opdracht maken** de velden in zoals wordt beschreven in de volgende tabel.  
 

@@ -7,27 +7,40 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 06/20/2018
+ms.search.keywords: profiles, users
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 6d1b6a31bb4476471ccd1f351291f6fcec34d556
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1a94d023424c6eceb93af6e9ca89a90a3a94e996
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Gebruikers, profielen en rolcentra
-Aan alle personen in het bedrijf die toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben, wordt een *profiel* toegewezen dat ze toegang biedt tot een *rolcentrum*. Als beheerder kunt u profielen toevoegen en verwijderen als onderdeel van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement en kunt u gebruikersmachtigingen toewijzen met behulp van gebruikersgroepen.  
+
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden gebruikers toegevoegd door een beheerder die gebruikers tevens toegang geeft tot de gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)] die ze voor hun werk nodig hebben.  
+
+Toegang tot functionaliteit wordt beheerd door middel van *gebruikersgroepen* en *profielen*. Als beheerder kunt u profielen toevoegen en verwijderen als onderdeel van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement en kunt u gebruikersmachtigingen toewijzen met behulp van gebruikersgroepen.  
 
 ## <a name="adding-users"></a>Gebruikers toevoegen
-Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Vervolgens kan de beheerder machtigingen toewijzen aan elke gebruiker en groep gebruikers. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+
+Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://aka.ms/CreateOffice365Users).
+
+Vervolgens kan de beheerder machtigingen toewijzen aan elke gebruiker en groep gebruikers. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+
+### <a name="users-of-on-premises-deployments"></a>Gebruikers van on-premises implementaties
+
+Voor on-premises implementaties van [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de beheerder kiezen tussen verschillende autorisatiemechanismen voor referenties voor gebruikers. Wanneer u dan een gebruiker maakt, geeft u verschillende informatie op, afhankelijk van het referentietype dat u in de specifieke [!INCLUDE[server](includes/server.md)]-instantie gebruikt. Zie voor meer informatie [Verificatie en referentietypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in het gedeelte Beheer van de ontwikkelaars- en ITPro-inhoud voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="profiles"></a>Profielen
-Profielen zijn verzamelingen [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die hetzelfde rolcentrum delen.  Een rolcentrum is het invoerpunt en de homepage voor [!INCLUDE[d365fin](includes/d365fin_md.md)], waarmee u snel toegang krijgt tot de belangrijkste taken en verschillende inzichten en KPI's over uw werk kunt weergeven.  
+
+Aan alle personen in het bedrijf die toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben, wordt een *profiel* toegewezen dat ze toegang biedt tot een *rolcentrum*.
+
+Profielen zijn verzamelingen [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die hetzelfde rolcentrum delen. Een rolcentrum is het invoerpunt en de homepage voor [!INCLUDE[d365fin](includes/d365fin_md.md)], waarmee u snel toegang krijgt tot de belangrijkste taken en verschillende inzichten en KPI's over uw werk kunt weergeven.  
 
 > [!NOTE]  
->  In de huidige release van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u geen profielen toevoegen, bewerken of verwijderen.
+>  In de huidige versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] online kunt u geen profielen toevoegen, bewerken of verwijderen.  
 
 ## <a name="configuration-and-personalization"></a>Configuratie en personalisatie
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  

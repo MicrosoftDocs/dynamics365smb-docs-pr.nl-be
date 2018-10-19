@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Maak rapportageschema's en definieer rekeningcategorieën om de inhoud van financiële grafieken en rapporten te definiëren, zoals de rapporten Balans en Resultatenrekening.|[Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)|
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Stel boekperioden in. |[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md) |
-| Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
+| Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
 | Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Voeg nieuwe rekeningen aan bestaande rekeningschema's. |[Het rekeningschema instellen](finance-setup-chart-accounts.md) |
 | Stel de BI-diagrammen (Business Intelligence) in om cashflow te analyseren. |[Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md) |
@@ -49,5 +49,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

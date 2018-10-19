@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15676c264736b4547dd32cd7a37b252757f73b2a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Artikelen met artikeltracering traceren
@@ -32,7 +32,7 @@ U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en 
 
 ## <a name="to-trace-item-tracked-items"></a>Artikelen met artikeltracering traceren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeltracering** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
 2.  In de filtervelden boven aan het venster geeft u de specifieke artikelnummers op of een filter voor de artikelnummers die u wilt traceren.  
 3.  Selecteer in het veld **Onderdelen weergeven** of u ook wilt zien waar de onderdelen voor de artikelen vandaan komen. U beschikt over de volgende opties in dit veld.  
 
@@ -61,7 +61,7 @@ U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en 
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Artikelen met artikeltracering zoeken met Navigeren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Navigeren** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Navigeren** in en selecteer vervolgens de gerelateerde koppeling.  
 2.  Voer op het sneltabblad **Artikeltracering** in de velden **Serienr.** en **Lotnr.** de artikeltraceringsnummers in die u wilt traceren.  
 3.  Kies de actie **Zoeken** om alle exemplaren van het serie- of lotnummer in de database te zoeken.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 349a4d54a95999e3e2c2b19cc2a40c2dd1afd445
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
@@ -56,7 +56,7 @@ U kunt ook een aantal globale dimensies en shortcutdimensies instellen:
 ### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standaarddimensies instellen voor klanten, leveranciers en andere rekeningen
 U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie wordt naar het dagboek of document gekopieerd wanneer u het rekeningnummer op een regel invoert, maar u kunt de code op de regel desgewenst verwijderen of wijzigen. U kunt ook een dimensie maken die is vereist om een post te boeken met een specifiek rekeningsoort.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Dimensies** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensies** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het venster **Dimensies** de relevante dimensie en kies de actie **Std. dimensierekeningsoort**.  
 4.  Vul een regel in voor elke nieuwe standaarddimensie die u wilt instellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie
 ### <a name="to-set-up-default-dimension-priorities"></a>Standaarddimensieprioriteiten instellen  
 U kunt verschillende standaarddimensies instellen voor verschillende rekeningsoorten, bijvoorbeeld een klantrekening en een artikelrekening. Er kunnen dus meerdere standaarddimensies worden voorgesteld voor een dimensie op een post. Als u dergelijke conflicten wilt voorkomen, kunt u prioriteitregels toepassen op verschillende bronnen.  
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Standaarddimensieprioriteiten** in en kies de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaarddimensieprioriteiten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer in het venster **Standaarddimensieprioriteiten** in het veld **Broncode** de broncode voor de invoertabel in waarop prioriteiten voor standaarddimensies van toepassing zijn.  
 3.  Vul een regel in voor elke prioriteit voor standaarddimensies die u wilt instellen voor de geselecteerde broncode.
 4.  Herhaal de procedure voor elke broncode waarvoor u prioriteiten voor standaarddimensies wilt instellen.  
@@ -83,7 +83,7 @@ U kunt verschillende standaarddimensies instellen voor verschillende rekeningsoo
 ### <a name="to-set-up-dimension-combinations"></a>Dimensiecombinaties instellen  
 U kunt bepaalde combinaties van twee dimensies blokkeren of beperken om te voorkomen dat u posten boekt met tegenstrijdige of onjuiste dimensies. Een geblokkeerde dimensiecombinatie betekent dat u beide dimensies niet naar dezelfde post kunt boeken, ongeacht de dimensiewaarden. Voor een beperkte dimensiecombinatie kunt u beide dimensies naar dezelfde post boeken, maar alleen voor bepaalde combinaties van dimensiewaarden.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Dimensiecombinaties** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensiecombinaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Dimensiecombinaties** het veld met de dimensiecombinatie en selecteer een van de volgende opties.  
 
     |Veld|Description|
@@ -163,7 +163,7 @@ Globale dimensies zijn altijd gedefinieerd en benoemd door het bedrijf. Als u de
 
 In een venster met posten kunt u bekijken of er globale dimensies van toepassing zijn op de posten. In tegenstelling tot de overige dimensies kunnen de twee globale dimensies overal in [!INCLUDE[d365fin](includes/d365fin_md.md)] als filter worden toegepast.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het venster **Rekeningschema** de actie **Posten**.  
 3.  Stel een of meer filters in het venster in om alleen de gewenste posten weer te geven.  
 4.  Als u alle dimensies voor een post wilt zien, selecteert u de post en kiest u vervolgens de actie **Dimensies**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c11f7d19fdcaef78a97db9e9da6ed7c420c365a9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9a9ac84f3a62a4515568aa017ba5fc5d4ed1e450
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="isabel-6"></a>Isabel 6
@@ -26,14 +26,14 @@ Als u de bankbestanden wilt uploaden of downloaden, moet u uw omgeving instellen
 
 Ga als volgt te werk om uw systeem geschikt te maken voor samenwerking met Isabel:  
 
-- Installeer de Isabel-beveiligingsonderdelen. Raadpleeg voor meer informatie het downloadgedeelte op de [Isabel-website](http://go.microsoft.com/fwlink/?LinkId=210323).  
+- Installeer de Isabel-beveiligingsonderdelen. Raadpleeg voor meer informatie het downloadgedeelte op de [Isabel-website](https://go.microsoft.com/fwlink/?LinkId=210323).  
 
 - Installeer de COM-wrapper van de Isabel-organisatie. Deze wrapper is opgenomen in het Isabel GO 6.20-pakket.  
 
 - Registreer de COM-wrapper op uw computer. Zoek de CIS.dll bij de opdrachtprompt en voer vervolgens de opdracht **regsvr32 CISComWrapper.dll** uit.  
 
 ## <a name="see-also"></a>Zie ook  
- [Isabel-website](http://go.microsoft.com/fwlink/?LinkId=210323)   
+ [Isabel-website](https://go.microsoft.com/fwlink/?LinkId=210323)   
  [Elektronisch bankieren voor België](belgian-electronic-banking.md)   
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)
 

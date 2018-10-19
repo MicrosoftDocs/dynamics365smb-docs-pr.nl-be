@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9296fe5b8773d894fe76a2e87271f139cb3b2b91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
@@ -29,7 +29,7 @@ Het kan ook voorkomen dat het magazijn op korte termijn een nieuwe voorraad verw
 Als u aan de bulkopslaglocaties alleen de activiteit **Opslag** hebt toegewezen, waarbij de activiteit **Pick** is niet geselecteerd voor de opslaglocatiesoort, moet u er altijd zelf voor zorgen dat de pickopslaglocaties worden aangevuld. Er worden namelijk geen voorstellen gedaan voor pickactiviteiten uit opslaglocaties.  
 
 ## <a name="to-replenish-pick-bins"></a>U kunt als volgt pickopslaglocaties aanvullen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verplaatsingsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocatieaanvulling berekenen** om de rapportaanvraagpagina te openen.  
 3.  Geef in het opvraagvenster voor de batchverwerking criteria op om het aantal aanvullingsvoorstellen te beperken dat wordt berekend. Wellicht bent u alleen geïnteresseerd in bepaalde artikelen, zones of opslaglocaties.  
 4.  Kies de knop **Ok**. Er worden regels gemaakt voor de aanvullingsverplaatsingen die moeten worden uitgevoerd. Dit gebeurt op basis van de voorschriften die zijn opgesteld voor de opslaglocaties en de bijhorende inhoud, zijnde artikelen in de opslaglocaties.  

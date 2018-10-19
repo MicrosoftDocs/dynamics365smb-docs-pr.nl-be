@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 07/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-salespeople"></a>Verkopers instellen
@@ -23,7 +23,7 @@ Veel bedrijven willen de individuele prestaties van een werknemer volgen om op b
 Wanneer u een verkoper in het venster **Verkopers** hebt ingesteld, kunt u deze in het veld **Verkoperscode** selecteren voor alle relevante records, zoals grootboekrekeningen, klanten, leveranciers, contacten en campagnekaarten. Vervolgens wordt bij het boeken of instellen van facturen, creditnota's, dagboekregels, rentefactuuractiviteiten, enzovoort de verkoperscode overgebracht naar de resulterende posten.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Een verkoperscode instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Verkopers** de actie **Nieuw**.
 
 U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijvoorbeeld taken toewijzen aan verkopers, zodat de taken worden opgenomen in verkoopopportunity's waaraan de verkoper is toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).

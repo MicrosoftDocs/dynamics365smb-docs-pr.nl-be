@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Voorraad instellen
@@ -31,7 +31,8 @@ Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met bet
 | Definieer de algemene voorraadinstellingen, zoals nummerreeksen en hoe u vestigingen gebruikt. |[Algemene voorraadgegevens instellen](inventory-how-setup-general.md) |
 |Een efficiënt distributiemodel configureren met een combinatie van verschillende locaties en divisies die aan zakelijke partners of medewerkers zijn toegewezen.|[Werken met divisies](inventory-responsibility-centers.md)|
 | Orden uw voorraad op verschillende locaties, inclusief transferroutes. |[Vestigingen instellen](inventory-how-register-new-items.md) |
-| Maak artikelkaarten voor voorraadartikelen waarin u handelt. |[Nieuwe artikelen registreren](inventory-how-register-new-items.md) |
+| Maak artikelkaarten voor voorraad-, niet-voorraad- of serviceartikelen waarin u handelt. |[Nieuwe artikelen registreren](inventory-how-register-new-items.md) |
+|Leer hoe u het veld **Soort** op artikelkaarten invult volgens het bedrijfsdoel.|[Over artikeltypen](inventory-about-item-types.md)| 
 |Stel meerdere eenheden in voor een artikel die u kunt gebruiken als alternatieve maateenheden, bijvoorbeeld in verkoop-, inkoop- of productietransacties.|[Artikeleenheden instellen](inventory-how-setup-units-of-measure.md)|
 |Als aanvulling op vestigingskaarten kunt u gegevens opnemen over de artikelen in een bepaalde vestiging of een bepaalde variant.|[SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)|
 | Artikelen toewijzen aan categorieën en er kenmerken aan toewijzen om u en klanten te helpen artikelen te vinden. |[Artikelen categoriseren](inventory-how-categorize-items.md) |

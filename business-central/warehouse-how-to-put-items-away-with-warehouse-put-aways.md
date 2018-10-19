@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf7b58fad1aa587079b51b505e9d757bb66f39c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Artikelen opslaan met magazijnopslag
@@ -29,7 +29,7 @@ Afhankelijk van de magazijninstellingen worden de regels beschikbaar gemaakt in 
 Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit onderwerp worden beschreven, kunt u opslag maken vanuit de bijbehorende geboekte magazijnontvangst. Dit is nuttig als u opslagregels hebt verwijderd of als u gestuurde opslag en pick gebruikt en het opslagwerkblad niet wilt gebruiken omdat u opslaginstructies (opnieuw) kunt maken van de geboekte ontvangstregels.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Artikelen opslaan zonder gestuurde opslag en pick  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnopslag** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslag** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de magazijnopslag die gereed is om te verwerken.  
 
     U kunt de opslagregels op grond van diverse criteria sorteren, bijvoorbeeld op artikel, schapnummer of vervaldatum en op deze manier het opslagproces optimaliseren.  
@@ -37,7 +37,7 @@ Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit 
 4.  Als u de opslag van artikelen hebt voltooid, kiest u de actie **Opslag registreren** om de voltooiing van de activiteit te registreren en de artikelen beschikbaar te maken voor pickacties.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Artikelen opslaan met gestuurde opslag en pick  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnopslag** in en klik vervolgens op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslag** in en kies vervolgens de gerelateerde koppeling.
     Als er opslaginstructies zijn gemaakt, wordt er een magazijnopslag weergegeven.  
 2.  Open de magazijnopslag waaraan u wilt werken.  
 3.  Als voor het magazijn een gebruikers-id is vereist, voert u deze eerst in op het sneltabblad **Algemeen**. Daarna kunt u de gewenste opslag bewerken.  
@@ -65,7 +65,7 @@ De opslaglocatievolgorde wordt gebruikt wanneer meerdere opslaglocaties voldoen 
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Een magazijnopslag maken vanuit een geboekte ontvangst  
  Als bij uw vestiging zowel opslagverwerking als ontvangstverwerking wordt gebruikt en u opslagregels hebt verwijderd, of als u gestuurde opslag en pick gebruikt en het opslagwerkblad niet wilt gebruiken, kunt u opslaginstructies (opnieuw) maken voor de geboekte ontvangstregels.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Geboekte magazijnontvangsten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een geboekte ontvangst die mogelijk moet worden opgeslagen.  
 3.  Kies de actie **Kaart**.  
 

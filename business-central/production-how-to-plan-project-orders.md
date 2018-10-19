@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6102c71bac7338c959e61045962d5a3452a2a0f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 08cd8c323e8f5221bd6915618582441a739e77c8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-project-orders"></a>Projectorders plannen
@@ -24,12 +24,12 @@ Deze planningstaak wordt gestart vanaf een verkooporder en gebruikt het venster 
 
 ## <a name="to-create-a-project-production-order"></a>Een projectproductieorder maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de verkooporder die het productieproject vertegenwoordigt en kies de actie **Planning**.  
 4.  Kies in het venster **Verkooporderplanning** de actie **Prod.-order maken**.  
 5.  Selecteer in het venster **Prod.order voor verkooporder maken** de optie **Projectorder** in het veld **Ordersoort**.  
 6.  Kies de knop **Ja**.  
-7.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productieorders** in en klik vervolgens op de gerelateerde koppeling.
+7.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieorders** in en kies vervolgens de gerelateerde koppeling.
 8. Open de zojuist gemaakte productieorder.  
 
     Het veld **Bronsoort** van de productieorder bevat **Verkoopkop** en de order heeft meerdere regels (één voor elk verkoopregelartikel dat moet worden geproduceerd).  

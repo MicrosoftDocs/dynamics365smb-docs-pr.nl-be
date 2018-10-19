@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a8d77f57072be841a521271efa7f0fd643363b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedure: Onderhanden werk voor een project berekenen
@@ -59,7 +59,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 ### <a name="to-calculate-wip"></a>OHW berekenen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in de lijst **Projecten** het project **Deerfield** en kies de actie **Bewerken**. Hiermee opent u de projectkaart in de bewerkmodus.  
 
      OHW kan worden berekend op basis van Kostprijs, Verkoopprijs, Kostprijs van omzet, Percentage voltooid of Contract voltooid. In dit voorbeeld wordt door CRONUS de methode Kostprijs toegepast.  
@@ -91,7 +91,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 ### <a name="to-review-wip-warnings"></a>OHW-waarschuwingen bekijken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Cockpit OHW taak** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cockpit OHW taak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het project **Deerfield** en kies vervolgens de actie **Waarschuwingen weergeven**.  
 3.  Controleer in het venster **OHW-waarschuwingen project** de waarschuwing waaraan de taak is gekoppeld.  
 

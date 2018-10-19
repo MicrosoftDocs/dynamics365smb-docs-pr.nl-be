@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
@@ -26,11 +26,11 @@ Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar het vens
 In het rolcentrum vindt u op de navigatiebalk bovenin het menu **Instellingen en extensies**. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
 
 > [!NOTE]  
->   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Basis**-ervaring geeft minder toegangsrechten dan de **Essentieel**-ervaring verleent. De eerste keer dat u zich aanmeldt, gebruikt u de basiservaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
+>   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de Essential-ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
-In het venster **Begeleide instelling** vindt u in de **Basis**-ervaring het volgende:
+In het venster **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
 
-| Begeleide instelling | Omschrijving |
+| Begeleide instelling | Description |
 | --- | --- |
 | Uw bedrijf instellen |Hiermee maakt u een nieuw evaluatiebedrijf, waarin u gegevens kunt invoeren om [!INCLUDE[d365fin](includes/d365fin_md.md)] uit te proberen. Als u de Aan de slag-rondleiding hebt gevolgd, is dit waarschijnlijk al **Voltooid**. |
 | Bedrijfsgegevens migreren |Hiermee kunt u uw bedrijfsgegevens importeren zoals klanten, leveranciers, en artikelen vanuit Excel of Quickbooks. |
@@ -60,7 +60,7 @@ Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheerce
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. In elke knopinfo vindt u een koppeling met de naam **Help opvragen** die u naar de product-Help brengt. Het vraagteken in de rechterbovenhoek verwijst u ook naar product-Help.
 
 ## <a name="next-steps"></a>Volgende stappen
-Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Mijn bedrijf** van de pagina **Start** om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingregistratie te maken.
+Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Mijn bedrijf** van het venster **Start** om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingsregistratie te maken.
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

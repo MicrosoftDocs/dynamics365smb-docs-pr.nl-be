@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5e23bdd507cd4b08cede911fa8572458b91eb94
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
@@ -43,7 +43,7 @@ Deze instellingen zijn standaardinstellingen die beheren hoe de verkoop en regel
 In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op voorraad geassembleerd worden, wat betekent dat er geen gekoppelde verkooporder is. De stappen zijn het starten van de assemblageorder, afhandelen van eventuele problemen met de beschikbaarheid van onderdelen en gedeeltelijk boeken van output van het assemblageartikel .
 
 ## <a name="to-assemble-an-item"></a>Een item assembleren  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Assemblageorders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**. Het venster **Nieuwe assemblageorder** wordt geopend.  
 3.  Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Artikelnr.** het assemblageartikel dat u wilt verwerken. Het veld is gefilterd, zodat alleen de artikelen die zijn ingesteld voor assemblage weergegeven worden, wat betekent dat ze een assemblagestuklijst toegewezen hebben gekregen.  

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 09/25/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: a2e2140a6a86391272882d4fbe8bf9e9b2cc5ae2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -34,7 +34,7 @@ Lees voor meer informatie het artikel over de extensie voor uw QuickBooks-app:
 * [De extensie QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Klaar?
-Als u klaar bent om aan de slag te gaan, klikt u op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Begeleide instelling** in en klikt u op de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
+Als u klaar bent om nu aan de slag te gaan, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Begeleide instelling** in en kiest u vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  

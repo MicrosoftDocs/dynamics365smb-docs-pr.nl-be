@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
@@ -30,7 +30,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
 
 ## <a name="to-open-the-configuration-worksheet"></a>Het configuratiewerkblad openen  
 1.  Open in [!INCLUDE[d365fin](includes/d365fin_md.md)] het bedrijf dat de basislijn voor configuratie vormt en open vervolgens het Rolcentrum RapidStart Services-implementatie.  
-2.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Een tabel toevoegen aan het werkblad  
 1.  Kies in het venster **Werkblad voor configuratie** de actie **Lijst bewerken**.  

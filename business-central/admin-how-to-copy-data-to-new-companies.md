@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4598d059d40e231de0230b43fe7863759005db70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Gegevens kopiëren naar nieuwe bedrijven
@@ -24,7 +24,7 @@ U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw 
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Gegevens kopiëren naar een nieuw bedrijf met behulp van RapidStart Services  
 1. Open het nieuw bedrijf.  
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Gegevens uit bedrijf kopiëren**.  
 4. Kies in het venster **Bedrijfsgegevens kopiëren** een bedrijf om uit te kopiëren in het veld **Kopiëren van** en kies de knop **OK**.  
 5. Selecteer een tabel uit een van de configuratiepakketten die u hebt geïmporteerd, en kies de actie **Gegevens kopiëren**.

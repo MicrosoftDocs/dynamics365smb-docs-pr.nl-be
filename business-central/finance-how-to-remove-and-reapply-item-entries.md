@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 89fa84f814f3d7f53a842b1d675bf8143416b4d5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b3df27011c482905b0b59ff03570449ac8df3cba
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Artikelposten verwijderen en opnieuw toepassen
@@ -43,7 +43,7 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
     - Het toepassingsvoorstel kan onder de volgende omstandigheden geen vereffening maken: als er onvoldoende aantallen in voorraad zijn om te vereffenen, kan het toepassingsvoorstel geen vereffening maken wanneer u een negatieve voorraadmutatiepost zonder artikeltraceringsinformatie probeert te vereffenen met een positieve voorraadmutatiepost met artikeltraceringsinformatie.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening verwijderen met het Vereffeningsvoorstel  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vereffeningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Het venster **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
 3.  Voer filters in op het sneltabblad **Algemeen** om de artikelpost waarvoor u de vereffening wilt wijzigen makkelijker te kunnen vinden.  
 4.  Selecteer de artikelpost en kies de actie **Vereffende posten**. Het venster **Vereffende posten weergeven - Vereffende posten** wordt geopend, met daarin de artikelpost of de artikelposten die met de geselecteerde post zijn vereffend.  
@@ -59,7 +59,7 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
 >  **U kunt deze handeling niet uitvoeren omdat posten voor artikel <item> niet vereffend zijn in het Vereffeningsvoorstel door gebruiker <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening opnieuw vereffenen met het Vereffeningsvoorstel  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vereffeningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Het venster **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
 3.  Als u posten opnieuw wilt vereffenen die zijn verwijderd na het openen van het voorstel, selecteert u de artikelpost die u opnieuw wilt vereffenen. Kies op het tabblad **Acties** in de groep **Functies** de optie **Opnieuw vereffenen**.  
 

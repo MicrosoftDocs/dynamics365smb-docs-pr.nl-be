@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dd3be77519075b67a942402bd01d5a2a562a1c32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
@@ -31,7 +31,7 @@ U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken 
 In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Zie [Procedure: Kostenbudgetten maken](finance-create-cost-budgets.md) voor meer informatie.    
 
 ## <a name="to-create-a-new-gl-budget"></a>Een nieuw grootboekbudget maken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekbudgetten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Lijst bewerken** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Kies de actie **Budget bewerken**.
 4. Vul boven in het venster **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.  

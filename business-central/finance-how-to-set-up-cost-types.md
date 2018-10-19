@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2e915eb443a7f726cb002ddf6a1d32f9302d9c08
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-types"></a>Kostensoorten instellen
@@ -26,7 +26,7 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
 -   Maak nieuwe kostensoortschema's of voeg nieuwe kostensoorten toe aan bestaande kostensoortschema's. U moet elke nieuwe kostensoort afzonderlijk maken.  
 
 ## <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Het grootboekrekeningschema overbrengen naar het kostensoortschema  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kostensoortschema** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostensoortschema** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Kostensoorten ophalen uit rekeningschema**. Kies in dialoogvenster de knop **Ja** om de overdracht te bevestigen. De functie maakt gebruik van het rekeningschema om een kostensoortschema te maken.  
 
     Het kostensoortschema bevat nu alle resultatenrekeningen in het grootboek inclusief koppen en subtotalen. U kunt het kostensoortschema zo nodig wijzigen. U kunt bijvoorbeeld dubbele kostensoorten verwijderen.  

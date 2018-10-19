@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 69034b0eb97b595d0fbf5795e1fac34ecd775afe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
@@ -32,7 +32,7 @@ U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financi�
 ## <a name="to-create-new-account-schedules"></a>Nieuwe rekeningstelsels maken  
  U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportageschema's** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een rekeningschema te maken.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Rapportageschema bewerken**.
@@ -53,7 +53,7 @@ De rapportageschema's in de standaardversie van [!INCLUDE[d365fin](includes/d365
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Een kolom maken die percentages berekent  
 U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van een totaal te berekenen. U hebt bijvoorbeeld een aantal rijen die zijn onderverdeeld op dimensie, en u wilt wellicht een kolom maken om het percentage aan te geven van de totale verkoop van elke rij.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportageschema's** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een rapportageschema in het venster **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken** om een rapportageschemarij te definiëren die de totalen moet berekenen waarop de percentages worden gebaseerd.  
 4. Voeg een regel in rechtstreeks boven de eerste rij waarvoor u een percentage wilt weergeven.  
@@ -65,7 +65,7 @@ U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Rekeningstelsels met overzichten instellen  
 U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en begrotingscijfers van grootboeken worden vergeleken.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Rapportageschema's** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een rapportageschema in het venster **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken**  
 4. Selecteer in het venster **Rapportageschema** in het veld **Naam** de naam van het standaardrapportageschema.

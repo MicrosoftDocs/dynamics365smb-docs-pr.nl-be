@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Migratie van klantgegevens voorbereiden
@@ -44,7 +44,7 @@ Wanneer u een bestaande gegevenssjabloon selecteert, moet u beoordelen of de sja
 > [!TIP]  
 >  U kunt gegevenssjablonen ook gebruiken om snel nieuwe lijsten te maken. Gebruik deze om sneller en nauwkeuriger gegevens te maken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiesjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het venster **Sjabloonoverzicht voor configuratie** een gegevenssjabloon in de lijst, en kies de actie **Bewerken**.  
 
 Als de standaardsjablonen niet aan uw behoeften voldoen, kunt u nieuwe sjablonen maken of velden toevoegen aan een bestaande sjabloon. Als de standaardsjablonen voldoende zijn, kunt u deze gebruiken om records te maken op basis van hoofdgegevenssjablonen.
@@ -75,7 +75,7 @@ Elke sjabloon bestaat uit een kop en regels. Wanneer u een sjabloon maakt, kunt 
 ## <a name="to-export-to-a-template-in-excel"></a>Exporteren naar een sjabloon in Excel
 U kunt snel een Excel-werkmap maken als sjabloon die is gebaseerd op de structuur van een bestaande databasetabel. U kunt vervolgens de sjabloon gebruiken om klantgegevens te verzamelen in een consistente indeling die u later kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Voeg een tabel toe aan de lijst of selecteer een bestaande tabel. Zie voor meer informatie [De bedrijfsconfiguratie beheren in een werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definieer de velden uit de tabel die u wilt opnemen in de sjabloon.
 4. Kies de actie **Exporteren naar sjabloon**.
@@ -100,11 +100,11 @@ U kunt de structuur van de gegevens in de gegevenssjablonen gebruiken om uw info
 
 De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgegevenssjabloon. U kunt met dezelfde procedure een record maken van elke gegevenssjabloon.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiesjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de **artikel**sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie het gedeelte "Een gegevenssjabloon maken".
 3. Kies de actie **Instantie maken**. Er wordt een artikelkaart gemaakt.  
 4. Kies de knop **OK**.  
-5. Als u de nieuwe artikelkaart wilt controleren, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Artikelen** in en klikt u vervolgens op de gerelateerde koppeling.  
+5. Als u de nieuwe artikelkaart wilt bekijken, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Artikelen** in en kiest u vervolgens de gerelateerde koppeling.  
 6. Open de nieuwe artikelkaart.  
 7. Vouw verschillende sneltabbladen uit en controleer of de gegevens erop kloppen.  
 

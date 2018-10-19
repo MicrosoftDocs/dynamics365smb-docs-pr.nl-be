@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Een sandboxomgeving (voorbeeld) is een niet-productie-exemplaar van [!INCLUDE[d3
 U moet een abonnement op [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben om een sandboxomgeving te maken. Per abonnement kan er slechts één sandboxomgeving bestaan.
 
 1. Meld aan bij uw productie-exemplaar van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-service.
-2. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Sandboxomgeving** in en kies vervolgens de gerelateerde koppeling.
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Sandboxomgeving** in en kies vervolgens de gerelateerde koppeling.
 ![Instellingen van sandboxomgeving](./media/across-sandbox/sandbox-environment-setup.png)
 3. Selecteer **Maken**.  
   Er wordt een ander tabblad in uw browser geopend waarin u de instelling van uw sandboxomgeving kunt voltooien.
@@ -40,7 +40,7 @@ U moet een abonnement op [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben om e
 6. Boven in het rolcentrum verschijnt een bericht om u te laten weten dat dit een sandboxomgeving is. Ook in de titelbalk van de client wordt de soort omgeving weergegeven.
 ![Bericht in rolcentrum van sandbox](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 In de sandboxomgeving wordt een gloednieuwe tenant gemaakt. Deze tenant wordt geladen met standaarddemonstratiegegevens voor het CRONUS-bedrijf. Tijdens het maken van de sandbox worden er geen gegevens gekopieerd of anderszins overgebracht vanuit de productieomgeving.
-7.  U kunt op elk moment terugkeren naar de pagina **Sandboxomgeving** en de sandboxomgeving herstellen.
+7.  U kunt op elk moment terugkeren naar het venster **Sandboxomgeving** en de sandboxomgeving herstellen.
 > [!NOTE]  
 >  Wanneer u de sandboxomgeving herstelt, wordt deze volledig verwijderd en vervolgens opnieuw gemaakt met de standaarddemonstratiegegevens.  
 
@@ -58,7 +58,7 @@ In een sandboxomgeving is de functie voor in-clientontwerper ingeschakeld. U kun
 ![In-clientontwerper](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
-Het is mogelijk om de geavanceerde (volledige) functionaliteit van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen.
+Het is mogelijk om de geavanceerde (volledige) functionaliteit van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen door het veld **Ervaring** in het venster **Bedrijfsgegevens** in te stellen.
 
 ![Geavanceerde sandboxomgeving](./media/across-sandbox/sandbox-advanced.png)
 

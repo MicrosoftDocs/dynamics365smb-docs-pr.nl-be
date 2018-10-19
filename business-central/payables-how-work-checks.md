@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: bcd0e21bc40b63c99f37618ae3406395b3c31b10
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
@@ -37,7 +37,7 @@ U kunt maximaal 10 facturen op een pagina voor een chequestrook afdrukken. Als e
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Een leverancier betalen met een automatische cheque
 Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de betalingsdagboekregels in. Zie voor meer informatie [Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md).
 3. Selecteer **Cheque** in het veld **Betalingswijze**.
 4. Selecteer **Automatische cheque** in het veld **Betalingssoort**.
@@ -61,7 +61,7 @@ U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **O
 ## <a name="to-void-checks"></a>Cheques nietig verklaren
 Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verklaren) vanuit de resulterende bankposten.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de betreffende bankrekening, kies de actie **Bewerken** en kies vervolgens de actie **Chequeposten**.
 3. Kies in het venster **Chequeposten** de actie **Ongeldige cheque**.
 4. Schakel het selectievakje **Cheque alleen nietig verklaren** in.
@@ -69,7 +69,7 @@ Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verkl
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Een overzicht weergeven van geboekte cheques
 Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te verifiëren die aan één leverancier zijn betaald, kunt u het rapport **Bank - Cheques Detail** gebruiken.
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bank - Cheques Detail** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank - Cheques Detail** in en kies vervolgens de gerelateerde koppeling.
 2. Stel filters als relevant in en kies de knop **Voorbeeld**.
 
 ## <a name="see-also"></a>Zie ook

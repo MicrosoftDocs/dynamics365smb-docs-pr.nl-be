@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b03cc5a21ca49f85fa859736b074bd72cb5c6499
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7dbdc368350687c9ac8ab78d13312aa059f1c385
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a>Assembleren voor order-artikelen verkopen
@@ -31,7 +31,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 >  De volgende procedure bevat niet de standaard verkooporderstappen die u moet volgen vóór de stap waarin u het op-order-assembleren-artikel invoert op een verkooporderregel.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Een artikel verkopen dat is samengesteld voor een order  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Een verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3.  Selecteer in het veld **Nr.** een artikel in dat is ingesteld om op order te worden geassembleerd.  
 4.  Definieer vanuit welke vestiging het artikel moet worden verkocht in het veld **Vestiging**. Het assemblageproces wordt uitgevoerd in die vestiging.  

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
@@ -23,17 +23,19 @@ Artikelen vormen met andere producten de basis van uw bedrijf, de goederen of se
 
 Artikelkaarten bevatten de informatie die is vereist om artikelen te kopen, op te slaan, te verkopen, te leveren en te verantwoorden.
 
-De artikelkaart kan van het type **Voorraad** of **Service** zijn, om aan te geven of het artikel een fysieke eenheid is of arbeidstijd. Behalve enkele velden die over de materiële aspecten van een artikel gaan, functioneren alle velden op een artikelkaart op dezelfde manier voor voorraadartikelen en services. Zie voor meer informatie over het verkopen van een artikel [Producten verkopen](sales-how-sell-products.md) of [Verkoop factureren](sales-how-invoice-sales.md).
+De artikelkaart kan van het type **Voorraad**, **Service** of **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt getraceerd, is. Zie voor meer informatie [Over artikeltypen](inventory-about-item-types.md).
 
 Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
-> [!NOTE]  
->   Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
-
 Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De leveranciers worden vervolgens weergegeven in het venster **Artikelleveranciers**, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
 
+Artikelen die u aan uw klanten aanbiedt, maar die u niet in uw systeem wilt beheren tot u ze begint te verkopen, kunnen worden ingesteld als catalogusartikelen. Catalogusartikelen moeten niet worden verward met normale artikelen van het type **Niet-voorraad**. Zie voor meer informatie [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).  
+
+> [!NOTE]  
+> Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
+
 ## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het venster **Artikelen** de actie **Nieuw**.
 
     Als er slechts één artikelsjabloon bestaat, wordt vervolgens een nieuwe artikelkaart geopend waarin enkele velden zijn ingevuld met informatie van de sjabloon.
@@ -64,7 +66,7 @@ De artikelsjabloon wordt toegevoegd aan de lijst met artikelsjablonen, zodat u d
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Meerdere leveranciers voor een artikel instellen  
 Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie over elk van deze leveranciers invoeren, bijvoorbeeld informatie over prijzen, levertermijn, kortingen, enzovoort.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het betreffende artikel en kies vervolgens de actie **Bewerken**.  
 3.  Kies de actie **Leveranciers**.  
 4.  Klik op het veld **Leveranciersnr.** en selecteer vervolgens de leverancier waarvoor u het artikel wilt instellen.  

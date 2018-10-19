@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4828da068f1e17d031300948e930c9685a2f274d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
@@ -92,8 +92,8 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
     |**Kolomnr.**|Geef het nummer op dat de kolompositie op de regel in het bestand aangeeft.<br /><br /> Geef voor XML-bestanden het nummer op dat het type element in het bestand aangeeft dat de gegevens bevat.|  
     |**Naam**|Geef de naam van de kolom op.<br /><br /> Geef voor XML-bestanden de markering op waarmee de uit te wisselen gegevens worden gemarkeerd.|  
     |**Gegevenstype**|Geef op of de uit te wisselen gegevens van het type **Tekst**, **Datum** of **Decimaal** zijn.|  
-    |**Gegevensopmaak**|Geef de eventuele indeling van de gegevens op. Bijvoorbeeld **MM-dd-yyyy** als de gegevenssoort **Datum** is. **Opmerking:** voor exporteren geeft u de gegevensindeling op volgens [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor importeren geeft u de gegevensindeling op volgens .NET Framework. Zie [Standaardnotaties voor datum en tijd](http://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie.|  
-    |**Cultuur gegevensopmaak**|Geef de eventuele cultuur van de gegevensindeling op. Bijvoorbeeld **en-US** als het gegevenstype **Decimaal** is om te zorgen dat de komma wordt gebruikt als .000-scheidingsteken, volgens de Amerikaanse indeling. Zie [Standaardnotaties voor datum en tijd](http://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie. **Opmerking:** dit veld is alleen relevant voor importeren.|  
+    |**Gegevensopmaak**|Geef de eventuele indeling van de gegevens op. Bijvoorbeeld **MM-dd-yyyy** als de gegevenssoort **Datum** is. **Opmerking:** voor exporteren geeft u de gegevensindeling op volgens [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor importeren geeft u de gegevensindeling op volgens .NET Framework. Zie [Standaardnotaties voor datum en tijd](https://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie.|  
+    |**Cultuur gegevensopmaak**|Geef de eventuele cultuur van de gegevensindeling op. Bijvoorbeeld **en-US** als het gegevenstype **Decimaal** is om te zorgen dat de komma wordt gebruikt als .000-scheidingsteken, volgens de Amerikaanse indeling. Zie [Standaardnotaties voor datum en tijd](https://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie. **Opmerking:** dit veld is alleen relevant voor importeren.|  
     |**Lengte**|Geef de lengte op van de regel met vaste breedte die de kolom bevat als het gegevensbestand het type **Vaste tekst** is.|  
     |**Beschrijving**|Voer een omschrijving van de kolom in, ter informatie.|  
     |**Pad**|Geef de positie op van het element in het gerelateerde XML-schema.|  

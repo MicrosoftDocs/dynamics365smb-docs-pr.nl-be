@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Ontwerpdetails: Verwachte negatieve voorraad verwerken
@@ -28,28 +28,20 @@ Het bestelpunt drukt de verwachte vraag uit tijdens de doorlooptijd van het arti
 
  In de volgende illustratie staat aanbod D voor een noodorder om een correctie uit te voeren voor negatieve voorraad.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Suggestie van noodplanning om negatieve voorraad te voorkomen](media/nav_app_supply_planning_2_negative_inventory.png "Suggestie van noodplanning om negatieve voorraad te voorkomen")  
 
 1.  Voorziening **A**, de oorspronkelijk geplande voorraad, is onder het bestelpunt.  
-
 2.  Er is een nieuwe voorwaarts-geplande voorziening gemaakt (**C**).  
 
      (Aantal = Maximale voorraad – Gepland voorraadniveau)  
-
 3.  Voorziening **A** wordt afgesloten door vraag **B**, die niet volledig is verwerkt.  
 
      (Vraag **B** zou kunnen proberen Aanbod C in te plannen, maar dat gebeurt niet op basis van het tijdsintervalconcept.)  
-
 4.  Er wordt nieuw aanbod (**D**) gemaakt om te voldoen aan het resterende aantal van de vraag **B**.  
-
 5.  Vraag **B** wordt gesloten (waarbij een aanmaning voor de geplande voorraad wordt gemaakt).  
-
 6.  De nieuwe voorziening **D** is afgesloten.  
-
 7.  Geplande voorraad wordt gecontroleerd; bestelpunt is niet overschreden.  
-
 8.  Voorziening **C** is afgesloten (er bestaat geen vraag meer).  
-
 9. Laatste controle: Er bestaan geen openstaande voorraadniveauaanmaningen.  
 
 > [!NOTE]  

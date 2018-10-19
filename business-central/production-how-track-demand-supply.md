@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72632dfd729806f9b96bff886d5dfce40bf8cb18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Relaties tussen vraag en aanbod bijhouden
@@ -29,7 +29,7 @@ Met behulp van ordertracering kunt u nagaan hoe verkooporders, productieorders e
 
 Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande productieorder traceert. De stappen voor alle andere soorten orders en vanuit planningsvoorstelregels zijn vergelijkbaar.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vast geplande productieorder** in en klik op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende vast geplande productieorder in de lijst.
 3. Op het sneltabblad **Regels** kiest u de actie **Functies** en vervolgens **Ordertracering**.
 

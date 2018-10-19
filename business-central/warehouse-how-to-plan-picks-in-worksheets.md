@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 073cc86b9df5845fbce18804756f980649f94081
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Picks plannen in het voorstel
@@ -39,11 +39,11 @@ Bij een sortering op vervaldatum hebt u de keuze om de regels die geen directe a
 >  Zie [Picken voor assemblage of productie in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>U kunt als volgt picks plannen in het voorstel  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Pickvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Magazijndocumenten ophalen**.  
 3.  Selecteer de verzendingen waarvoor u een pick wilt voorbereiden. Hoewel u de regels nog in beperkte mate kunt sorteren, zal de sortering niet meer worden overgenomen op de pickinstructie. U kunt ook bepaalde regels verwijderen om een nog efficiëntere pick te maken. Als er bijvoorbeeld regels zijn met artikelen die in cross-docklocaties zijn geplaatst, kunt u een pick maken voor alle regels die verbonden zijn aan deze regels. De cross-dockartikelen worden dan verzonden, samen met de andere artikelen in de verzending, en in de cross-docklocaties komt ruimte vrij voor andere binnenkomende artikelen.  
 4.  Kies de actie **Pick maken** en vul het aanvraagvenster **Pick maken** in. De nieuwe pickregels worden gesorteerd volgens de methode die u hier kiest. Stel dat u voor elke zone één pick maakt, dan kunt u de regels binnen elke pick sorteren op rangorde van opslaglocatie.  
-5.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnpicks** in en klik vervolgens op de gerelateerde koppeling. Het venster **Picks** wordt geopend.  
+5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling. Het venster **Picks** wordt geopend.  
 6.  U kunt de pickopdracht die u hebt gemaakt nu opzoeken door op Pick, Overzicht te klikken en de pick met het hoogste nummer te selecteren.  
 7.  U kunt indien nodig de toegewezen gebruikers-id en sortering van de regels van de pick nog wijzigen.  
 8.  Kies de actie **Afdrukken** om de pickinstructies af te drukken.  

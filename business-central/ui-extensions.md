@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 0baa6494bb9d41514122b06037020140a8c2c79f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e3c0dfdc1eb1739a1d756fcb359c99e51ceec1e7
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
@@ -25,7 +25,7 @@ Wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst start, zijn
 Zo verschaft Microsoft een extensie die integratie met PayPal Payments Standard biedt. Deze extensie is standaard geïnstalleerd.
 Maar als er een andere extensie beschikbaar komt die integratie met een andere betalingsservice biedt, kunt u de nieuwe extensie installeren en vervolgens bepalen welke van de services moeten worden gebruikt.  
 
-U beheert de extensies in het venster **Extensiebeheer**. U kunt tot dit venster toegang krijgen via de startpagina. U kunt ook in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport** ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport") kiezen. Voer vervolgens **Extensie** in en klik op de gerelateerde koppeling.  
+U beheert de extensies in het venster **Extensiebeheer**. U kunt tot dit venster toegang krijgen via de startpagina. Of kies het pictogram **Zoeken naar pagina of rapport** ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") in de rechterbovenhoek, voer **Extensie** in en kies vervolgens de gerelateerde koppeling.  
 
 > [!NOTE]  
 >   Als u denkt u dat toegang tot een extensie zou moeten hebben maar de functionaliteit ervan niet vindt, kijk dan in het venster **Extensiebeheer**. Als de extensie daar niet wordt vermeld, kunt u de extensie installeren zoals beschreven in het volgende gedeelte.  
@@ -35,7 +35,7 @@ U kunt nieuwe extensies verkrijgen via de marktplaats op [AppSource.microsoft.co
 > [!NOTE]  
 >   Meld u bij [AppSource.microsoft.com](https://appsource.microsoft.com/) aan met het e-mailaccount dat u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
 
-U kunt ook naar de marktplaats gaan vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. In het venster **Extensiebeheer** kunt u de extensies bekijken die momenteel zijn geïnstalleerd en kunt u de pagina **Extensiemarktplaats** openen waarop de extensies van [!INCLUDE[d365fin](includes/d365fin_md.md)] worden weergegeven die momenteel beschikbaar zijn in AppSource. Als u de koppeling *Meer apps* kiest, komt u terecht op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+U kunt ook naar de marktplaats gaan vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. In het venster **Extensiebeheer** kunt u de extensies bekijken die momenteel zijn geïnstalleerd en kunt u het venster **Extensiemarktplaats** openen waarin de extensies van [!INCLUDE[d365fin](includes/d365fin_md.md)] worden weergegeven die momenteel beschikbaar zijn in AppSource. Als u de koppeling *Meer apps* kiest, komt u terecht op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Als u een extensie kiest, kunt u lezen over wat de extensie doet en kunt u Help opvragen voor de extensie voor meer informatie. Wanneer u een extensie wilt verkrijgen, moet u akkoord gaan met de gebruiksvoorwaarden. Als u de extensie van de AppSource-website ophaalt, wordt u aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)] om de installatie uit te voeren.  
 
@@ -64,6 +64,7 @@ Microsoft biedt de volgende extensies:
 * [Betalingen en afstemmingen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [C5-gegevensmigratie](ui-extensions-c5-data-migration.md)  
 * [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)  
+* [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md  )
 
 > [!NOTE]  
 >  Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

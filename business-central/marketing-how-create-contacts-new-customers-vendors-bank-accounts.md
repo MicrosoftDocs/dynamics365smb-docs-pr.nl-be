@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e1f1d9e89d4164f36fb90c027cd636da67bc40d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 07c56f109ee2e4c348c0f654ceadc4018174c0d5
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Een klant, leverancier of bankrekening maken van een contact
@@ -25,7 +25,7 @@ Mogelijk wilt u een aantal van uw bestaande contacten vastleggen als klanten, le
 Voordat u op deze manier contacten kunt vastleggen, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen in het venster **Marketinginstellingen**. Als u contacten vastlegt als bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen in het venster **Grootboekinstellingen**.
 
 ## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>Een contact maken als klant, leverancier of bankrekening
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het contact dat u als klant, leverancier of bankrekening wilt maken.
 3. Kies de actie **Maken als** en kies vervolgens **Klant**, **Leverancier** of **Bank**.
 4. Bevestig het bericht.

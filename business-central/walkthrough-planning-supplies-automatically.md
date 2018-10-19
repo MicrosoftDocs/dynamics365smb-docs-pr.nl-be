@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedure: Goederen automatisch plannen
 Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.  
 
--   MPS wordt gedefinieerd als de berekening van een hoofdproductieschema op basis van de werkelijke behoefte en de productieprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden "MPS-artikelen" genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
--   MRP wordt gedefinieerd als de berekening van het benodigde materiaal op basis van de werkelijke behoefte aan materiaal en de productieprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
+-   MPS is de berekening van een hoofdproductieschema op basis van de werkelijke vraag en de vraagprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden "MPS-artikelen" genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
+-   MRP is de berekening van het benodigde materiaal op basis van de werkelijke vraag naar materiaal en de vraagprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
 
  De planningsalgoritmen die worden gebruikt voor MPS en MRP zijn identiek. De planningsalgoritmen maken gebruik van netting, hergebruik van bestaande voorraadorders, en actieberichten. Er wordt door het planningssysteem gekeken naar wat er nodig is of zal zijn (behoefte) en wat er beschikbaar is of verwacht wordt (voorziening). Als deze hoeveelheden tegen elkaar zijn weggestreept, worden actieberichten weergegeven in het planningsvoorstel. Actieberichten zijn suggesties voor het maken van een nieuwe voorraadorder, het wijzigen van een voorraadorder (hoeveelheid of datum), of het annuleren van een bestaande voorraadorder. Voorraadorders kunnen productieorders, inkooporders of transferorders zijn. Zie voor meer informatie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md).  
 
@@ -73,7 +73,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-change-selected-planning-parameters"></a>Geselecteerde planningsparameters wijzigen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **SKU's** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de BLAUW SKU-kaart voor artikel 1100, Voorwiel.  
 3.  Vul de velden op het sneltabblad **Gepland** in, zoals in de volgende tabel is beschreven.  
 
@@ -90,7 +90,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul in het venster **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
@@ -102,7 +102,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Een regeneratief plan maken om aan de vraag op de vestiging BLAUW te voldoen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Vul in het venster **Plan berekenen - Planningsvoorstel** de velden in, zoals beschreven in de volgende tabel.  
 
@@ -125,7 +125,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>MRP berekenen om onderliggende materiaalbehoeften op te nemen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Vul in het venster **Plan berekenen - Planningsvoorstel** de velden in, zoals beschreven in de volgende tabel.  
 
@@ -219,7 +219,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 3.  Accepteer de beschikbaarheidswaarschuwing en klik op **Ja** om het gevraagde aantal vast te leggen.  
 4.  Plan vervolgens opnieuw voor aanpassing van het huidige voorraadplan.  
-5.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 6.  Kies de actie **Mutatieplan berekenen**.  
 7.  Vul in het venster **Plan berekenen - Planningsvoorstel** de velden in, zoals beschreven in de volgende tabel.  
 

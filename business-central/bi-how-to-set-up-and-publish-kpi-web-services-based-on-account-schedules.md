@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9e7adbe575df0b9253ead53ca2a5c782fa27e064
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KPI-webservices instellen en publiceren op basis van rekeningschema's
 In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe de KPI-gegevens van het rapportageschema worden weergegeven en op welke specifieke rapportageschema's de KPI's zijn gebaseerd. Wanneer u de knop **Webservice publiceren** kiest, worden de opgegeven gegevens van de rapportageschema-KPI toegevoegd aan de lijst met gepubliceerde webservices in het venster **Webservices**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Een KPI-webservice instellen en publiceren die is gebaseerd op rekeningschema's  
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Instellingen rapportageschema KPI-webservice** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen rapportageschema KPI-webservice** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul in het sneltabblad **Algemeen** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Omschrijving|  
@@ -49,7 +49,7 @@ In het venster **Instellingen rapportageschema KPI-webservice** stelt u in hoe d
 7.  Als u de KPI-webservice van het rapportageschema wilt publiceren, kiest u de actie **Webservice publiceren**. De webservice wordt toegevoegd aan de lijst met gepubliceerde webservices in het venster **Webservices**.  
 
 > [!NOTE]  
->  U kunt de KPI-webservice ook publiceren door te wijzen naar het paginaobject **Instellingen rapportageschema KPI-webservice** vanuit het venster **Webservices**. Zie voor meer informatie [Een webservice publiceren](across-how-publish-web-service.md).  
+>  U kunt de KPI-webservice ook publiceren door te wijzen naar het vensterobject **Instellingen rapportageschema KPI-webservice** vanuit het venster **Webservices**. Zie voor meer informatie [Een webservice publiceren](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Zie ook  
 [Bedrijfsinformatie](bi.md)  

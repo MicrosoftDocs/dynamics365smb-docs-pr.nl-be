@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75e170f10927844ca37a001812e78e062e88c451
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Werken met verkoopraamcontracten
@@ -30,7 +30,7 @@ Een verkoopraamcontract kan bijvoorbeeld worden gebruikt als een klant belt om e
 > Inkoopraamcontracten functioneren op een soortgelijke manier als verkoopraamcontracten. Deze documentatie gaat niet in op inkoopraamcontracten.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Een verkoopraamcontract maken.  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopraamcontracten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Laat het veld **Besteldatum** leeg. Als de afzonderlijke verkooporders worden gemaakt uit het raamcontract, wordt de orderdatum van de verkoopdatum ingesteld op de werkelijke werkdatum.
@@ -58,7 +58,7 @@ Het volgende geldt voor verkooporders nadat ze zijn gemaakt uit verkoopraamcontr
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>De status van een inkoopraamcontract weergeven  
 U kunt de status van een verkoopraamcontract in het venster **Verkooporderstatistiek** bekijken. Dit kan nodig zijn wanneer u de order die is gemaakt vanuit het inkoopraamcontract gaat factureren.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopraamcontracten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een verkoopraamcontract en kies de actie **Statistieken**.  
 3.  Op het sneltabblad **Algemeen** in het venster **Inkooporderstatistiek** kunt u een samenvatting van de hele order bekijken, gebaseerd op het totaal van alle velden **Aantal** op de inkoopraamcontractregels.  
 
@@ -70,7 +70,7 @@ U kunt de status van een verkoopraamcontract in het venster **Verkooporderstatis
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Niet-geboekte en geboekte verkoopraamcontractregels weergeven   
 De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder en een eventueel ander verkoopdocument blijft na het boeken behouden als een lijst van geboekte en niet-geboekte verkooporderfactuurregels.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopraamcontracten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de verkoopraamorder die u wilt bekijken.
 3. Als u ongeboekte posten wilt weergeven, selecteert u de bewuste regel, klikt u op de actie **Regel** en kiest u vervolgens de actie **Ongeboekte regels**. Kies een van de volgende opties.  
 

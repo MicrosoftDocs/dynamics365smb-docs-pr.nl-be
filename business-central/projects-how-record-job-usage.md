@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad2e8a7ed2aed00a1795a7ac8f09d6a5c40ce159
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Gebruik voor projecten vastleggen
-In het venster **Projectplanningsregels** kunt u het gebruik bekijken en vastleggen voor verschillende delen van uw project. Het gebruik wordt automatisch bijgewerkt wanneer u gegevens wijzigt en uitwisselt tussen projecten en projectdagboeken of projectfacturen. Hiervoor moet u een project hebt ingesteld zodat **Gebruikslink toepassen** is ingeschakeld. Zie [Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
+In het venster **Projectplanningsregels** kunt u het gebruik bekijken en vastleggen voor verschillende delen van uw project. Het gebruik wordt automatisch bijgewerkt wanneer u gegevens wijzigt en uitwisselt tussen projecten en projectdagboeken of projectfacturen. Hiervoor moet u een project hebt ingesteld zodat **Gebruikslink standaard toepassen** is ingeschakeld. Zie [Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
 
 Zo kunt u bijvoorbeeld voor planningsregels van het soort **Budget** de hoeveelheid van een resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar het projectdagboek. Als het soort van de planningsregel **Factureerbaar** is, kunt u de hoeveelheid van de resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar een factuur. Door de hoeveelheid die is doorgegeven aan het dagboek of de factuur te vergelijken met het resterend aantal, kunt u snel informatie over het gebruik bekijken.
 
 In de volgende procedures wordt beschreven hoe u werkelijke (factureerbare) of gebudgetteerde projectprijzen en -kosten vastlegt. Voor informatie over het inschatten van gebudgetteerde waarde tijdens planning raadpleegt u [Projectbudgetten beheren](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Gebruik vastleggen voor een projectplanningsregel van het soort Budget
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Projectplanningsregels**.
 3. Selecteer een projectplanningsregel van het soort **Budget** of het soort **Budget en factureerbaar** waarvoor u gebruik wilt vastleggen.
 4. In het veld **Aantal te verplaatsen naar dagboek** voert u het aantal in dat u wilt overbrengen. De standaardhoeveelheid is de waarde die u invoert in het veld **Aantal**.
@@ -43,7 +43,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (factureerbare) of g
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Gebruik vastleggen voor een projectplanningsregel van het soort Factureerbaar
 In de volgende taak kunt u eveneens gebruik bijhouden, maar dan voor een projectplanningsregel van het soort **Factureerbaar**. Meestal factuurt u in dit geval uw gebruik, maar u kunt het ook overbrengen naar een dagboek. Wanneer u dat echter doet, wordt een projectplanningsregel van het type **Budget** gemaakt voor afstemming met de factureerbare regel. Zie [Projectbudgetten beheren](projects-how-manage-budgets.md) voor meer informatie.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het betreffende project en kies vervolgens de actie **Projectplanningsregels**.  
 3. Selecteer een projectplanningsregel van het soort **Factureerbaar** waarvoor u gebruik wilt vastleggen.
 4. Voer in het veld **Aantal te verplaatsen naar factuur** het aantal in dat u wilt overbrengen. De standaardhoeveelheid is de waarde die u invoert in het veld **Aantal**.
@@ -60,7 +60,7 @@ In de volgende taak kunt u eveneens gebruik bijhouden, maar dan voor een project
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Projectdagboekregels maken uit projectplanningsregels
 Wanneer u klaar bent om financiële gegevens voor projecten te boeken, moet u projectdagboekregels maken die u kunt boeken.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant open project en kies vervolgens de actie **Projectplanningsregels**.  
 3. Voer in het venster **Projectplanningsregels** op een relevante projectplanningsregel in het veld **Aant. te verplaatsen naar dagboek** het aantal in dat u wilt verplaatsen naar een projectdagboek.  
 4. Kies de actie **Projectdagboekregels maken**.
@@ -70,7 +70,7 @@ Wanneer u klaar bent om financiële gegevens voor projecten te boeken, moet u pr
 8. Wanneer de projectdagboekregels zijn voltooid, kiest u de actie **Boeken**.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Handmatig projectdagboekregels maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Batchnaam** een relevante projectdagboekbatch.  
 3. Voer op een nieuwe regel documentnummer, projectnummer, projecttaaknummer, soort en aantal van het verbruikte soort in.  
 4. Wanneer de projectdagboekregels zijn voltooid, kiest u de actie **Boeken**.  
@@ -79,9 +79,9 @@ Wanneer u klaar bent om financiële gegevens voor projecten te boeken, moet u pr
 Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zijn gekoppeld aan de projectdagboekposten die zijn geboekt.
 
 > [!NOTE]  
->   Hiertoe moet het selectievakje **Gebruikslink toepassen** zijn ingeschakeld voor het project of de standaardinstelling voor alle projecten in uw organisatie zijn. Zie [Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
+>   Hiertoe moet het selectievakje **Gebruikslink standaard toepassen** zijn ingeschakeld voor het project of de standaardinstelling voor alle projecten in uw organisatie zijn. Zie [Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Posten**.  
 3. Kies in het venster **Projectposten** de actie **Gekoppelde projectplanningsregels weergeven**.
 

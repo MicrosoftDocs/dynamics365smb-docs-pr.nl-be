@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d100ec6888fbd2e8fa55ce0facef8645a079dc76
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 429002d1eb6bfa487e5a21e54964ce33de175441
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Verzendingen combineren op één factuur
@@ -25,7 +25,7 @@ Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Ve
  Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen voor dezelfde klant in dezelfde valuta boeken. U moet dus twee of meer verkooporders invullen en deze als verzonden maar niet als gefactureerd boeken. Om verzendingen te combineren moet het selectievakje **Verzendingen combineren** zijn ingeschakeld op het sneltabblad **Verzending** van de **klantenkaart**.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Verzendingen handmatig op één factuur combineren  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkoopfacturen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 3. Voer in het veld **Orderklantnr.** de klant in die de factuur voor de verzonden artikelen zal ontvangen.  
 4. Selecteer op het sneltabblad **Regels** de actie **Verzendregels ophalen**.  
@@ -38,7 +38,7 @@ Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Ve
 7. Kies de actie **Boeken** om de factuur te boeken.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Verzendingen automatisch op één factuur combineren  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzamelfacturering** in en klik vervolgens o de gerelateerde koppeling. Het opvraagvenster voor de batchverwerking wordt geopend.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendingen combineren** in en kies vervolgens de gerelateerde koppeling. Het opvraagvenster voor de batchverwerking wordt geopend.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Schakel het selectievakje **Facturen boeken** in.  
 4.  Kies de knop **OK**.  
@@ -51,7 +51,7 @@ Als verzendingen worden gecombineerd op een factuur en worden geboekt, wordt er 
 
 Als u op deze manier verzendingen factureert, blijven de orders van waaruit de verzending zijn geboekt bestaan, ook als ze volledig zijn verzonden en gefactureerd.   
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gefact. verk.-orders verwijderen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde verkooporders verwijderen** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Geef in het filterveld **Nr.** op welke verkooporders moeten worden verwijderd.  
 3. Kies de knop **Ok**.  
 

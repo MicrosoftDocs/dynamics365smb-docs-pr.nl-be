@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 29a55ec7b0e9b7c625b81361cc5e2e028dc5e3f5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 51973bfb135c3cf207aae40a60d7dab9de515204
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Verdeelsleutels in dagboeken gebruiken
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.
 
 ## <a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Periodiek dagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies het veld **Batchnaam** om het venster **Fin. dagboekbatches** te openen.
 3. U kunt verdeelsleutels in een bestaande batch in de lijst wijzigen of u kunt een nieuwe batch met verdeelsleutels maken.
    * Als u een nieuwe batch wilt maken, kiest u de actie **Nieuw** en gaat u naar de volgende stap.
@@ -38,7 +38,7 @@ U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u 
 11. Boek het dagboek.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Een reeds ingestelde verdeelsleutel wijzigen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Periodiek dagboek** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Periodiek dagboek** het dagboek met de verdeling.
 3. Kies de regel met de verdeelsleutel en kies vervolgens **Verdeelsleutels**.
 4. Pas de relevante velden aan en kies vervolgens de knop **OK**.

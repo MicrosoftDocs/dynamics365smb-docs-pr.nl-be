@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fd098170ac96b03f6f1da64b8de23b3f500c565
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-routings"></a>Bewerkingsplannen maken
@@ -32,7 +32,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 - Er zijn productieresources ingesteld. Zie voor meer informatie [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Een bewerkingsplan maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bewerkingsplannen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Soort** de optie **Serieel** om bewerkingen in het productiebewerkingsplan te berekenen op basis van de waarde in het veld **Bewerkingsnr.**. te kiezen.   
@@ -63,7 +63,7 @@ Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen
 
 Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is dat beide elementen in een logische processtructuur worden weergegeven wanneer u het venster **Productiedagboek** gebruikt voor het boeken van output en verbruik.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bewerkingsplannen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open het bewerkingsplan dat de bewerkingen bevat die moeten worden gekoppeld.  
 
     Controleer of de status van het bewerkingsplan **In ontwikkeling** is.  
@@ -94,7 +94,7 @@ De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zo
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Medewerkers, tools en kwaliteitsmetingen toewijzen aan bewerkingsplannen
 Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis of speciale autorisaties nodig hebt, kunt u deze medewerkers toewijzen aan de bewerking. Daarnaast kunt u tools en kwaliteitsvereisten toewijzen aan de bewerking. In deze procedure wordt beschreven hoe u personeel toewijst. De stappen zijn vergelijkbaar voor andere soorten bewerkinginformatie.
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bewerkingsplannen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open het betreffende bewerkingsplan.  
 3.  Op het sneltabblad **Regels** selecteert u de regel die u wilt verwerken en vervolgens kiest u de actie **Medewerkers**.  
 4.  Vul de velden in het venster **Medewerkers bewerkingsplan** in.  
@@ -103,7 +103,7 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Nieuwe versies maken van bewerkingsplannen  
 Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan te beheren. De structuur van de bewerkingsplanversie komt overeen met de structuur van het bewerkingsplan: een bewerkingsplanversiekop en -regels. Het belangrijkste verschil wordt bepaald door de begindatum.  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bewerkingsplannen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het bewerkingsplan dat u wilt kopiëren en kies de actie **Versies**.  
 3. Kies in het venster **Bewerkingsplanversies** de actie **Nieuw**.
 4. Vul de velden in.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fd7acef0c0c4a132eb0975f6e145ef861703afba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5a10b42849f283cdd77c1f754d039dbcd7515f8a
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-scrap-manually"></a>Uitval handmatig boeken
@@ -26,7 +26,7 @@ Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd
 > Het outputaantal neemt echter niet toe door het uitvalaantal.  
 
 ## <a name="to-post-scrap-manually"></a>Uitval handmatig boeken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Outputdagboek** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Voer in het veld **Uitgevallen aantal** het uitvalaantal in.  
 4. Voer in het veld **Uitvalcode** de uitvalcode in.  

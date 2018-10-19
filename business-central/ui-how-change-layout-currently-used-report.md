@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cea5e41e53106fafdaaf3d3f59e50d03da953f87
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Wijzigen welke lay-out momenteel in een rapport wordt gebruikt
@@ -25,7 +25,7 @@ Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indi
 Afhankelijk van de lay-outs die voor een rapport beschikbaar zijn, kunt u ervoor kiezen een ingebouwde RDLC-rapportlay-out, een ingebouwde Word-rapportlay-out of een aangepaste lay-out te maken. Zie [Rapportlay-outs beheren](ui-manage-report-layouts.md) voor meer informatie over RDLC- en Word-rapportlay-outs, ingebouwde en aangepaste lay-outs.
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>De lay-out wijzigen die in een rapport wordt gebruikt
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Selectie van rapportlay-out** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
    Het venster **Selectie rapportlay-out** bevat een overzicht van alle rapporten die beschikbaar zijn voor het bedrijf dat in het veld Bedrijf boven aan het venster wordt opgegeven. Met het veld Geselecteerde lay-out wordt de lay-out opgegeven die momenteel in het rapport wordt gebruikt.
 2. Stel het veld **Bedrijf** boven in het venster in op het bedrijf dat het rapport bevat.
 3. Als u de lay-out wilt wijzigen die door een rapport wordt gebruikt, stelt u in de rij voor het rapport in de lijst het veld **Geselecteerde lay-out** in op een van de volgende opties:

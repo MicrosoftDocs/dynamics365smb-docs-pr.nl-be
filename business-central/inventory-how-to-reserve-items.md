@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3f99d23f2e4a43aeb1face2f39dd6384ff672214
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reserve-items"></a>Artikelen reserveren
@@ -26,7 +26,7 @@ Elke regel in het venster **Reservering**, dat u opent om artikelen te reservere
 
 ## <a name="to-reserve-items-for-sales"></a>Artikelen reserveren voor verkopen
 Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. De stappen voor inkoop-, service- en assemblageorders komen hiermee overeen.  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in een verkooporder op het sneltabblad **Regels** de actie **Reserveren**. Het venster **Reservering** verschijnt.  
 3. Klik op de regel waarvan u de artikelen wilt reserveren.  
 4. Kies een van de volgende acties.  
@@ -44,7 +44,7 @@ Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. D
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
 In de volgende procedure wordt een vast geplande productieorder gebruikt.   
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vast geplande productieorder** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de vast geplande productieorder waarvoor u bovenliggende artikelen wilt reserveren.  
 3. Selecteer de relevante productieorderregel.  
 4. Kies op het sneltabblad **Regels** de actie **Reserveren**.
@@ -56,7 +56,7 @@ Het aantal dat u hebt ingevoerd op de vast geplande productieorderregel is nu ge
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
 In de volgende procedure wordt een vast geplande productieorder gebruikt.    
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vast geplande productieorder** in en klik op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de vast geplande productieorder waarvoor u artikelonderdelen wilt reserveren.  
 3. Selecteer de relevante productieorderregel.  
 4. Klik op het sneltabblad **Regels** op **Regel** en vervolgens op **Materialen**.  
@@ -86,7 +86,7 @@ Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of prod
 Dit heet een specifieke reservering, omdat u reserveert van het aantal van Artikel X dat hoort bij Partij X. Als u gewoon uit aantallen van artikel X reserveert, is het een normale, niet-specifieke, reservering. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en reservering](design-details-item-tracking-and-reservations.md).
 
 De volgende procedure is gebaseerd op een verkooporder.    
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Maak een verkooporderregel voor een artikel met artikeltracering.  
 3. Wijs serie- en lotnummers toe aan de verkooporderregel. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 4. Kies op de verkooporderregel de actie **Reserveren**.  

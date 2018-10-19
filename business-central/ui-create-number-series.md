@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 03/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
@@ -50,13 +50,13 @@ Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, w
 > Als u handmatige nummering moet inschakelen op, bijvoorbeeld, nieuwe artikelkaarten die zijn gemaakt met een gegevensmigratieproces, waarop het **Nr.** standaard is verborgen, gaat u naar het venster **Voorraadinstellingen** en kiest u het veld **Artikelnrs.** om de gerelateerde nummerreeks te openen en in te stellen op **Handm. nummering**.
 
 ## <a name="to-create-a-new-number-series"></a>Een nieuwe nummerreeks maken
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Nr.-reeksen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeksen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul op de nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Instellen waar een nummerreeks wordt gebruikt
 In de volgende procedure wordt beschreven hoe u nummerreeksen instelt voor de module Verkoop. De stappen zijn vergelijkbaar voor andere modules.
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopen en Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopen en Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het venster **Verkopen en klanten** op het sneltabblad **Nummerreeksen** de gewenste nummerreeksen voor iedere verkoopkaart of -document.
 
 Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of het document, afhankelijk van de instellingen die u hebt ingevoerd op de nummerreeksregel.
@@ -64,7 +64,7 @@ Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of he
 ## <a name="to-create-relationships-between-number-series"></a>Relaties maken tussen nummerreeksen
 Als u meerdere nummerreekscodes hebt ingesteld voor hetzelfde soort basisgegevens of transacties, kunt u relaties tussen de codes instellen. Met deze functie kunt u een code kiezen wanneer u een nummer gebruikt.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Nr.-reeksen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeksen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel met de nummerreeks waarvoor u relaties wilt instellen en kies vervolgens **Relaties**.
 3. Geef in het veld **Reeks** de code op voor de nummerreeks die u wilt koppelen aan de reeks die u in stap 2 hebt geselecteerd.
 4. Voeg een regel toe voor elke code die u wilt koppelen aan de geselecteerde nummerreeksen.

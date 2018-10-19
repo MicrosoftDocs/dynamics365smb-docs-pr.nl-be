@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d302483ca2d66870670aaa0914533472a807d04f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
@@ -29,7 +29,7 @@ In de volgende secties wordt uitgelegd hoe u:
 * Voorraadperioden opnieuw openen.  
 
 ## <a name="to-create-an-inventory-period"></a>Een voorraadperiode maken  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadperioden** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies vervolgens de gerelateerde koppeling.  
 2. Een nieuwe regel maken.  
 3. Voer in het veld **Einddatum** de laatste datum van de voorraadperiode in die u wilt definiëren. Wanneer de periode is afgesloten, kunt u geen voorraadwijzigingen vóór deze datum boeken.  
 4. Typ een beschrijvende naam in het veld **Naam**. Kies de knop **Ok**.  
@@ -61,7 +61,7 @@ Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verk
 Nadat u de voorraadperiode hebt afgesloten, kunt u deze niet verwijderen. U kunt de periode echter wel weer opnieuw openen als u boekingen vóór de einddatum van de voorraadperiode wilt toestaan. Wanneer u een periode opnieuw opent, worden alle voorraadperioden met latere einddatums ook weer geopend.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Een voorraadperiode opnieuw openen  
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Voorraadperioden** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de voorraadperiode die u opnieuw wilt openen.  
 3. Kies de periodeactie **Periode opnieuw openen**. Bevestig dat u de periode opnieuw wilt openen.  
 4. Alle voorraadperioden met latere einddatums dan de geselecteerde periode worden eveneens opnieuw geopend.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b36df4ccf85ce9126fe1090e86d2549737e3195
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Verbruik en output registreren voor één vrijgegeven productieorderregel
@@ -29,7 +29,7 @@ Het gaat hier om een uitvoeringstaak die wordt uitgevoerd in het venster **Produ
 >  materialen zonder bewerkingsplankoppelingen worden in het dagboek als eerste weergegeven.  
 
 ## <a name="to-register-consumption-and-output"></a>Verbruik en output registreren  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vrijgegeven prod.-orders** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open een vrijgegeven productieorderregel die gereed is voor registratie en kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Productiedagboek**.  
 
     Het venster **Productiedagboek** wordt geopend met dagboekregels voor de productieorderregel volgens de vensters **Materiaalregel** en **Prod.-orderbewerkingsplan**. Deze regels zijn afkomstig uit de productiestuklijst en het bewerkingsplan die zijn toegewezen aan het artikel dat wordt geproduceerd. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-routings.md).  

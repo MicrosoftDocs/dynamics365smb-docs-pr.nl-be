@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
@@ -32,7 +32,7 @@ Zorg ervoor dat u zich in het rolcentrum RapidStart Services-implementatie bevin
 >  U kunt een configuratiepakket importeren dat is geëxporteerd uit een database met een ander schema dan de doeldatabase. Tabellen of velden in het configuratiepakket die niet voorkomen de doeldatabase, worden echter niet geïmporteerd. Tabellen met verschillende primaire sleutels en velden met verschillende gegevenssoorten worden niet succesvol geïmporteerd. Als in het configuratiepakket bijvoorbeeld tabel **50000, Klant** staat met de primaire sleutel **Code20** en in het configuratiepakket van de database die u wilt importeren, tabel **50000, Bankrekening klant** staat met de primaire sleutel **Code20 + Code 20**, worden de gegevens niet geïmporteerd.  
 
 ## <a name="to-create-a-configuration-package"></a>Een configuratiepakket maken  
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul op het sneltabblad **Algemeen** de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Als u de tabellen voor configuratievragenlijsten, -sjablonen en -werkblad niet in het pakket wilt opnemen, schakelt u het selectievakje **Configuratietabellen uitsluiten** in. Anders worden deze tabellen automatisch toegevoegd aan de lijst met pakkettabellen bij het exporteren van het pakket.  
@@ -79,7 +79,7 @@ U kunt het bestand opslaan met een naam die voor u zinvol is, maar u kunt de ext
 ### <a name="to-copy-a-configuration-package"></a>Een configuratiepakket kopiëren  
 Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt u dit als basis gebruiken voor het maken van vergelijkbare pakketten. Hiermee kan de implementatie worden versneld en de herhaalbaarheid van RapidStart Services worden verbeterd.
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een pakket in de lijst en kies vervolgens de actie **Pakket kopiëren**.  
 3. Voer in het veld **Nieuwe pakketcode** een code in voor het nieuwe pakket.  
 4. Schakel het selectievakje **Gegevens kopiëren** in als u ook databasegegevens wilt kopiëren vanuit het bestaande pakket.  
@@ -88,7 +88,7 @@ Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt
 ## <a name="to-customize-a-configuration-package"></a>Een configuratiepakket aanpassen
 Gebruik het configuratiewerkblad voor het verzamelen en categoriseren van de gegevens die u wilt gebruiken voor het configureren van een nieuw bedrijf en voor het op een logische manier rangschikken van tabellen. De opmaak van het werkblad is gebaseerd op een eenvoudige hiërarchie: gebieden bevatten groepen, die weer tabellen bevatten. Gebieden en groepen zijn optioneel, maar zijn nodig als u een overzicht van het configuratieproces wilt inschakelen in het Rolcentrum RapidStart Services.
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het veld **Regelsoort** de optie **Gebied**. Voer in het veld **Naam** een beschrijvende naam in.  
 3.  Kies in het veld **Regelsoort** de optie **Groep**. Voer in het veld **Naam** een beschrijvende naam in.  
 4.  Kies in het veld **Regelsoort** de optie **Tabel**. Selecteer in het veld **Tabel-id** de tabel die u wilt opnemen in het werkblad.  
@@ -105,7 +105,7 @@ Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de
 > [!NOTE]  
 >  U kunt ook rechtstreeks een pakket maken en hier tabellen aan toevoegen. Zie voor meer informatie het gedeelte "Een configuratiepakket maken".
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het configuratiewerkblad een regel of groep regels die u wilt toewijzen aan een configuratiepakket en kies vervolgens **Pakket toewijzen**.  
 3.  Selecteer een pakket in de lijst of kies de actie **Nieuw** om een nieuw pakket te maken en kies vervolgens de knop **OK**.  
 
@@ -115,7 +115,7 @@ Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de
 ## <a name="to-review-or-customize-existing-database-data"></a>Bestaande databasegegevens controleren en aanpassen
 Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare databasegegevens weergeven en aanpassen aan de behoeften van uw klant. De databasetabel moet over een bijbehorende pagina beschikken.  
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Bepaal in het configuratiewerkblad van welke tabellen u de gegevens wilt bekijken of aanpassen.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
 Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met het kopiëren van gegevens naar uw productieomgeving. U maakt een nieuw bedrijf in dezelfde database.
 
 1. Open en initialiseer het nieuwe bedrijf.  
-2. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Gegevens kopiëren van bedrijf**.  
 4. Kies in het venster **Bedrijfsgegevens kopiëren** het veld **Kopiëren van**. Het venster **Bedrijven** wordt geopend.  
 5. Selecteer het bedrijf waaruit u gegevens wilt kopiëren en kies vervolgens de knop **OK**. Er wordt een lijst geopend met tabellen die zijn geselecteerd op het configuratiewerkblad. In deze lijst worden alleen tabellen opgenomen die records bevatten.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c73a6ed721cd8deda48cd2fa8a3470733b9f672
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c18edefc22d96f2c4037f7f51cca488e04c35d92
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
@@ -27,12 +27,12 @@ In het venster **Verzendprofielen van documenten** kunt u verschillende verzendp
 Wanneer u de actie **Boeken en verzenden** in een verkoopdocument kiest, wordt in het dialoogvenster **Boeken en verzenden bevestigen** het gebruikte verzendprofiel getoond. Dit is het voor de klant ingestelde profiel of het standaardprofiel voor alle klanten. In het dialoogvenster kunt u het verzendprofiel voor het verkoopdocument wijzigen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verzendprofielen van documenten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendprofielen van documenten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het venster **Verzendprofielen van documenten** de actie **Nieuw**.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Een verzendprofiel op een klantenkaart opgeven
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van de klant voor wie u een verzendprofiel wilt instellen.
 3. Selecteer op het sneltabblad **Verzendprofiel van document** een profiel dat u hebt ingesteld, zoals beschreven in de vorige procedure.
 

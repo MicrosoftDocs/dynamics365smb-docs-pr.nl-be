@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>De extensie C5-gegevensmigratie voor Business Central
+# <a name="the-c5-data-migration-extension"></a>De extensie C5-gegevensmigratie
 Deze extensie maakt het eenvoudidiger om klanten, leveranciers, artikelen en uw grootboekrekeningen van Microsoft Dynamics C5 2012 te migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt historische posten voor grootboekrekeningen ook migreren.
 
 > [!Note]
@@ -30,6 +30,7 @@ Deze extensie maakt het eenvoudidiger om klanten, leveranciers, artikelen en uw 
 De volgende gegevens worden voor elke entiteit gemigreerd:
 
 **Klanten**
+* Contacten  
 * Vestiging
 * Land
 * Klantdimensies (afdeling, centrum, doel)
@@ -47,6 +48,7 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 * Open transacties (klantenposten)
 
 **Leveranc.**
+* Contacten
 * Vestiging
 * Land
 * Leveranciersdimensies (afdeling, centrum, doel)
@@ -75,6 +77,7 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 * Maateenheden
 * Artikeltraceringscode
 * Klantenprijsgroep
+* Assemblagestuklijsten
 
 Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 
@@ -97,32 +100,34 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 Er zijn slechts enkele stappen nodig om gegevens vanuit C5 te exporteren en deze te importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. Gebruik in C5 de functie **Database exporteren** om de gegevens te exporteren. Verzend vervolgens de exportmap naar een gecomprimeerde (gezipte) map.  
-2. Klik in [!INCLUDE[d365fin](includes/d365fin_md.md)] op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Gegevensmigratie** in en kies vervolgens **Gegevensmigratie**.  
+2. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensmigratie** in en kies vervolgens **Gegevensmigratie**.  
 3. Voer de stappen uit in het handleiding met begeleide instellingen. Zorg dat u **Importeren vanuit Microsoft Dynamics C5 2012** als gegevensbron kiest.  
 
 > [!Note]
 > Bedrijven voegen vaak velden toe om C5 aan te passen aan de behoeften van hun specifieke branche. [!INCLUDE[d365fin](includes/d365fin_md.md)] migreert geen gegevens van aangepaste velden. Ook mislukt de migratie als u meer dan 10 aangepaste velden hebt.
 
 ## <a name="viewing-the-status-of-the-migration"></a>De status van de migratie weergeven
-Gebruik de pagina **Gegevensmigratieoverzicht** om het resultaat van de migratie bekijken. De pagina bevat gegevens zoals het aantal entiteiten dat de migratie omvat, de status van de migratie, het aantal items dat is gemigreerd en of dat is gelukt. De pagina toont ook het aantal fouten, en stelt u in staat te onderzoeken wat er mis is gegaan. Ook bent u zo in staat om, indien mogelijk, gemakkelijk naar de entiteit gaan en de problemen op te lossen. Zie de volgende sectie in dit onderwerp voor meer informatie.  
+Gebruik het venster **Overzicht van gegevensmigratie** om het resultaat van de migratie bekijken. De pagina bevat gegevens zoals het aantal entiteiten dat de migratie omvat, de status van de migratie, het aantal items dat is gemigreerd en of dat is gelukt. De pagina toont ook het aantal fouten, en stelt u in staat te onderzoeken wat er mis is gegaan. Ook bent u zo in staat om, indien mogelijk, gemakkelijk naar de entiteit gaan en de problemen op te lossen. Zie de volgende sectie in dit onderwerp voor meer informatie.  
 
 > [!Note]
 > Terwijl u op de resultaten van de migratie wacht, moet u de pagina vernieuwen om de resultaten weer te geven.
 
 ## <a name="how-to-avoid-double-posting"></a>Dubbele boekingen voorkomen
 Om dubbele boekingen te helpen voorkomen worden de volgende tegenrekeningen gebruikt voor open transacties:  
-  
+
 * Voor leveranciers wordt de leveranciersrekening uit de leveranciersboekingsgroep gebruikt.  
 * Voor klanten wordt de klantenrekening uit de klantenboekingsgroep gebruikt.  
 * Voor artikelen wordt een algemene boekingsinstelling gemaakt waarbij de correctierekening de rekening is die is opgegeven als de voorraadrekening in de voorraadboekingsinstelling.  
 
 ## <a name="correcting-errors"></a>Fouten corrigeren
-Als er iets misgaat en zich een fout voordoet, wordt in het veld **Status** **Voltooid met fouten** weergegeven en in het veld **Aantal fouten** aangegeven hoeveel fouten er zijn. Als u een lijst met fouten wilt zien, kunt u de pagina met de **gegevensmigratiefouten** openen door het volgende te selecteren:  
+Als er iets misgaat en zich een fout voordoet, wordt in het veld **Status** **Voltooid met fouten** weergegeven en in het veld **Aantal fouten** aangegeven hoeveel fouten er zijn. Als u een lijst met fouten wilt zien, kunt u het venster met de **Fouten met gegevensmigratie** openen door het volgende te kiezen:  
 
 * Het aantal in het veld **Aantal fouten** voor de entiteit.  
 * Op de entiteit en vervolgens op de actie **Fouten weergeven** te klikken.  
 
-Op de pagina met de **gegevensmigratiefouten** kunt een foutbericht kiezen om een fout op te lossen, selecteert u vervolgens **Record bewerken** om een pagina te openen met de gemigreerde gegevens voor de entiteit. Nadat u een of meer fouten hebt opgelost, kunt u **Migreren** kiezen om alleen de entiteiten te migreren die u hebt hersteld, zonder dat u geheel op nieuw moet beginnen met de migratie.  
+In het venster **Fouten met gegevensmigratie** kunt u een foutbericht kiezen om een fout op te lossen en vervolgens **Record bewerken** kiezen om de gemigreerde gegevens voor de entiteit weer te geven. Als u meerdere fouten moet corrigeren, kunt u **Fouten bulksgewijs corrigeren** kiezen om de entiteiten in een lijst te bewerken. U moet echter nog afzonderlijke records openen als de fout is veroorzaakt door een gerelateerd item. Een leverancier wordt bijvoorbeeld niet gemigreerd als een e-mailadres van een van de contactpersonen een ongeldige indeling heeft.
+
+Nadat u een of meer fouten hebt opgelost, kunt u **Migreren** kiezen om alleen de entiteiten te migreren die u hebt hersteld, zonder dat u geheel op nieuw moet beginnen met de migratie.  
 
 > [!Tip]
 > Als u meer dan één fout hebt verholpen, kunt u de functie **Meer selecteren** gebruiken om meerdere regels te selecteren om te migreren. Of u kunt fouten die niet noodzakelijkerwijs moeten worden opgelost, selecteren en vervolgens **Selecties overslaan** kiezen.
@@ -145,5 +150,5 @@ U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kieze
 
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[Aan de slag](product-get-started.md) 
+[Aan de slag](product-get-started.md)
 

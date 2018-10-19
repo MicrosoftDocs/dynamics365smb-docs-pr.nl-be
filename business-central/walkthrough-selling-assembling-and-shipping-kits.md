@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 368fa149736392431a9756d416a1711d95130780
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
@@ -81,14 +81,14 @@ Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:
 -   Installeer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Maak van uzelf een magazijnwerknemer bij vestiging WIT door de volgende stappen uit te voeren:  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Magazijnwerknemers** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount in het venster **Gebruikers**.  
 3.  Voer WIT in het veld **Vestiging** in.  
 4.  Selecteer het veld **Standaard**.  
 
 Bereid de vestiging WIT voor assemblageverwerking voor door de volgende stappen uit te voeren:  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Vestigingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de vestigingskaart voor de vestiging WIT.  
 3.  Voer op het sneltabblad **Opslaglocaties** in het veld **Opslaglocatie Naar-assemblage** de waarde **W-10-0001** in.  
 
@@ -100,7 +100,7 @@ Bereid de vestiging WIT voor assemblageverwerking voor door de volgende stappen 
 
 Verwijder de standaarddoorlooptijd voor interne processen door de volgende stappen uit te voeren:  
 
-1.  Klik op het pictogram ![pictogram Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Productie-instellingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productie-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Verwijder in het venster **Productie-instellingen** op het sneltabblad **Planning** de waarde in het veld **Std. veiligheidstijd**.  
 
 Maak voorraad voor assemblageonderdelen door de sectie "Voorbeeldgegevens voorbereiden" in dit scenario te volgen.  
@@ -134,7 +134,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ## <a name="setting-up-the-sample-data"></a>Voorbeeldgegevens instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Mag.-artikeldagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag.-artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies het veld **Batchnaam** en selecteer vervolgens het standaarddagboek.  
 3.  Maakt positieve voorraadherwaarderingen bij vestiging WIT op de werkdatum, 23 januari, door de volgende informatie in te voeren.  
 
@@ -151,14 +151,14 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Synchroniseer vervolgens de nieuwe magazijnposten met de voorraad.  
 
-5.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikeldagboeken** in en klik vervolgens op de gerelateerde koppeling. Het venster **Artikeldagboek** wordt geopend.  
+5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling. Het venster **Artikeldagboek** wordt geopend.  
 6.  Kies op het tabblad **Acties** in de groep **Functies** de optie **Mag.correctie berekenen**.  
 7.  Klik in het venster **Magazijnherwaardering berekenen** op de knop **OK**.  
 8.  Kies in het venster **Artikeldagboek** op het tabblad **Acties** in de groep **Functies** de optie **Boeken** en kies vervolgens de knop **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>De assemblageartikelen maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Klik op het tabblad **Start** in de groep **Beheren** op **Nieuw**.  
 3.  Maak het eerste assemblageartikel op basis van de volgende gegevens.  
 
@@ -209,7 +209,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ### <a name="selling-the-assembly-items"></a>De assemblageartikelen verkopen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Klik op het tabblad **Start** in de groep **Beheren** op **Nieuw**.  
 3.  Maak twee verkooporderregels voor klant 62000, de Onderdelenwinkel, op de werkdatum met de volgende informatie.  
 
@@ -262,7 +262,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planning voor de niet-beschikbare ATS-artikelen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Planningsvoorstel** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies op het tabblad **Actie** in de groep **Functies** de optie **Regeneratief plan berekenen**.  
 3.  Stel in het venster **Plan berekenen** de volgende filters in.  
 
@@ -280,7 +280,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Het eerste ATO-aantal assembleren en verzenden  
 
-1.  Klik op het pictogram ![pictogram Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Mag. -verzending** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzending** in en kies vervolgens de gerelateerde koppeling.  
 
     > [!NOTE]  
     >  In deze sectie is de persoon die verantwoordelijk is voor de verzending tevens belast met het vastleggen van de voltooide ATO-assemblageactiviteiten op de magazijnverzendingsregel. Deze werkstroom kan optreden in omgevingen waar de assemblageactiviteiten worden uitgevoerd door de persoon die verantwoordelijk is voor verzending of door assemblagemedewerkers op de verzendlocatie.  
@@ -299,7 +299,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Voer vervolgens de taak van de picker uit.  
 
-4.  Klik op het pictogram ![pictogram Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Magazijnpicks** in en klik vervolgens op de gerelateerde koppeling.  
+4.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 5.  Open het magazijnpickdocument dat u hebt gemaakt in stap 3 van deze sectie.  
 
     Let op de waarde in het veld **Brondocument**. Bovendien ziet u dat alle pickregels assemblageonderdelen betreffen.  
@@ -340,7 +340,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>De tweede ATO-hoeveelheid assembleren en vastleggen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Assemblageorders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling.  
 
     Merk op dat de ATO-order voor verzonden eenheden voor kit B nog steeds in de lijst staat, hoewel het veld **Resterend aantal** leeg is. Dit komt omdat de gekoppelde verkooporder nog steeds niet volledig is gefactureerd.  
 
@@ -364,7 +364,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ### <a name="assembling-the-ats-quantity"></a>Het ATS-aantal assembleren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Assemblageorders** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de assemblageorder voor tien eenheden van Kit A.  
 
     Merk op dat het veld **Te assembleren aantal** wordt gevuld met het verwachte aantal.  
@@ -376,7 +376,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Voer vervolgens de taak van de picker uit.  
 
-5.  Klik op het pictogram ![pictogram Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Magazijnpicks** in en klik vervolgens op de gerelateerde koppeling.  
+5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 6.  Open het magazijnpickdocument dat u hebt gemaakt in stap 4 van deze sectie.  
 
      Registreer vervolgens de pick zonder de standaardgegevens te wijzigen.  
@@ -392,7 +392,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>De overige artikelen verzenden gedeeltelijk uit voorraad en gedeeltelijk geassembleerd op de order  
 
-1.  Klik op het pictogram ![pictogram Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Mag. -verzending** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzending** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de meest recente magazijnverzending die bij vestiging WIT is gemaakt.  
 
     Zoals u ziet, zijn de velden **Te verzenden aantal** en **Gepickt aantal** leeg op de regel voor tien eenheden van kit A.  
@@ -403,7 +403,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Voer daarna de laatste taak van de picker uit voor deze magazijnverzending.  
 
-4.  Klik op het pictogram ![pictogram Zoeken naar pagina of rapport](media/ui-search/search_small.png "Zoeken naar pagina of rapport"), voer **Magazijnpicks** in en klik vervolgens op de gerelateerde koppeling.  
+4.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 5.  Open het magazijnpickdocument dat u hebt gemaakt in stap 3 van deze sectie.  
 
     Zoals u ziet, is deze pickdocument bedoeld voor assemblageartikelen niet voor assemblageonderdelen.  
@@ -423,7 +423,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Het magazijnverzendingsdocument wordt verwijderd, waarmee wordt aangegeven dat de betrokken magazijnactiviteiten zijn voltooid. Controleer vervolgens of de verkooporder is verwerkt.  
 
-10. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkooporders** in en klik vervolgens op de gerelateerde koppeling.  
+10. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 11. Open de verkooporder voor de Onderdelenwinkel.  
 
     Merk op dat op beide regels het veld **Verzonden aantal** het volledige aantal bevat.  

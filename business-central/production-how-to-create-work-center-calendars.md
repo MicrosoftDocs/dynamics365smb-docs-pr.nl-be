@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a22dc01284fc0edca46d1f733f0bef83e61adbde
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Productieagenda's instellen
@@ -27,7 +27,7 @@ Voordat een bepaalde afdelings- of bewerkingsplaatsagenda kan worden berekend, m
 Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van bewerkingsplaatsagenda's zijn de stappen vergelijkbaar.  
 
 ## <a name="to-create-work-shifts"></a>Ploegen maken  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Ploegen** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ploegen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op om de ploeg aan te duiden, bijvoorbeeld **1**.  
 3.  Geef een omschrijving voor de ploeg in het veld **Omschrijving**, bijvoorbeeld **Vroege ploeg**.  
 4.  Vul eventueel regels voor een tweede of derde ploeg in.  
@@ -35,7 +35,7 @@ Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van be
 Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcode worden opgegeven.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Een productieagenda instellen  
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Productieagenda's** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieagenda's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op ter aanduiding van de productieagenda.  
 3.  Beschrijf de productieagenda in het veld **Omschrijving**.  
 4.  Kies de actie **Werkdagen**.
@@ -70,7 +70,7 @@ Nu kan de productieagenda worden toegewezen aan een afdeling om de afdelingsagen
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Een afdelingsagenda berekenen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Afdelingen** in en klik op de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de afdeling die u wilt bijwerken.  
 3. Geef in het veld **Productieagendacode** op welke productieagenda moet worden gebruikt als basis voor de agenda van de afdeling.  
 4. Kies de actie **Agenda**.  

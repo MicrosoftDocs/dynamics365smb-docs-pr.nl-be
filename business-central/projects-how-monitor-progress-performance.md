@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 07/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 95a14b122c5e6b878ec8d7f8314c81de957853b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Voortgang en prestaties van projecten bewaken
@@ -38,23 +38,23 @@ U kunt een OHW-methode voor een project maken die de behoeften van uw organisati
 > [!NOTE]
 > Nadat u uw nieuwe methode hebt gebruikt om OHW-posten te maken, kunt u de methode niet meer verwijderen of wijzigen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **OHW-methoden taak** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW-methoden taak** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sluit het venster.   
-4. Als u van deze nieuwe methode de standaard wilt maken, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.  
+4. Als u van deze nieuwe methode de standaard wilt maken, kiest u pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Een OHW-methode voor een project definiëren
 Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is. In sommige gevallen is de OHW-methode voor het project die u kunt gebruiken standaard voor u ingesteld.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projecten** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).  
 3. Selecteer in het venster **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
 
 ## <a name="to-calculate-wip"></a>OHW berekenen
 U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. U gebruikt hiervoor de batchverwerking **OHW voor project berekenen**.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **OHW voor project berekenen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW voor project berekenen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **OHW berekenen**.
 3. Vul in het venster **OHW voor project berekenen** indien nodig de velden in.
 4. Kies de knop **OK**.  
@@ -65,7 +65,7 @@ U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor
 ## <a name="to-post-wip"></a>OHW boeken
 Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage. Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Project-OHW naar GB boeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Project-OHW naar GB boeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul in het venster **Project-OHW naar GB boeken** indien nodig de velden in.  
 3. Kies de knop **Ok**.
 
@@ -77,7 +77,7 @@ Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met d
 > [!NOTE]  
 >   Artikelposten maken artikeljournaalposten en verkleinen de voorraadhoeveelheid. De batchverwerking **Voorraadwaarde boeken** brengt de kosten van de voorraad over naar het grootboek. Resourceposten maken resourceposten.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Resterend gebruik berekenen**.  
 3. Voer in het venster **Project - Resterend gebruik berekenen** het documentnummer en de boekingsdatum in die in het dagboek moeten worden ingevoegd, en kies vervolgens de knop **OK**.  
 4. Werk het dagboek bij met eventuele wijzigingen die nodig zijn.  
@@ -86,7 +86,7 @@ Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met d
 ## <a name="to-view-job-ledger-entries"></a>Projectposten bekijken
 Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1. Vanuit het projectjournaal hebt u een overzicht van alle projectposten.    
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectjournalen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een relevant journaal en kies vervolgens de actie **Projectposten**.
 
 Het venster **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  

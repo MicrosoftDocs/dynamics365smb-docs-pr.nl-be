@@ -12,20 +12,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 82f16c5e719fe5e1ebaa7b30c2a655e4871a5056
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-posting-periods"></a>Boekingsperioden opgeven
 Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek kunnen boeken.  
 
 ## <a name="to-specify-posting-periods"></a>Boekingsperioden opgeven
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. In het venster **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
 
 > [!NOTE]  

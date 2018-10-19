@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 05/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8ef6ef563fd34471c4e82398ffa8c1d4e49c5a59
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
@@ -43,7 +43,7 @@ Voor elke dagboekregel in het venster **Dagboek betalingsreconciliatie** kunt u 
 > U kunt het importeren van banktransacties starten op het moment dat u het venster **Betalingsreconciliatiedagboek** opent voor een bestaand betalingsreconciliatiedagboek in het venster **Betalingsreconciliatiedagboeken**. In de volgende procedure wordt beschreven hoe u banktransacties importeert in het venster **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Als u in een nieuw betalingsreconciliatiedagboek wilt werken, kiest u de actie **Nieuw dagboek**.
 3. Selecteer in het venster **Bankrekeninglijst betaling** de bankrekening waarvoor u betalingen wilt vereffenen en kies vervolgens de knop **OK**.
    Het venster **Dagboek betalingsreconciliatie** wordt geopend en is voorbereid op de geselecteerde bankrekening.

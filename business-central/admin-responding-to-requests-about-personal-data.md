@@ -5,16 +5,16 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 05/25/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -31,7 +31,7 @@ De volgende tabel bevat voorbeelden van de typen aanvragen waarop u kunt reagere
 |Aanvraagsoort|Beschrijving en voorgestelde reactie|
 |-----|-----|
 |Portabiliteitsaanvragen|Een gegevensonderwerp kan een portabiliteitsaanvraag voor gegevens doen, wat onder andere betekent dat u de persoonlijke gegevens van het gegevensonderwerp uit uw systemen moet exporteren en moet verschaffen in een gestructureerde, gangbare indeling. Als u op deze aanvragen wilt reageren, kunt u het **hulpprogramma Gegevensprivacy** gebruiken om persoonlijke gegevens naar een Excel-bestand of een RapidStart-configuratiepakket te exporteren. Met Excel kunt u de persoonlijke gegevens opslaan in een gangbare, door een machine leesbare indeling, zoals .csv of .xml. Voor RapidStart-configuratiepakketten kunt u hoofdgegevenstabellen en de gerelateerde tabellen ervan configureren die persoonlijke gegevens bevatten. <br><br> **Opmerking:** als u gegevens exporteert, geeft u een minimumgevoeligheidsniveau op. De export bevat het minimale gevoeligheidsniveau en alle niveaus erboven. Als u er bijvoorbeeld voor kiest gegevens te exporteren die zijn geclassificeerd als Persoonlijk, bevat de export ook gegevens die zijn geclassificeerd als Vertrouwelijk. <br><br>Wanneer u gegevens exporteert die gerelateerd zijn aan een gegevensonderwerp, zoekt het **hulpprogramma Gegevensprivacy** directe relaties tussen het gegevensonderwerp en gegevens die gerelateerd zijn aan het gegevensonderwerp. Indirecte relaties tussen gegevens die gerelateerd zijn aan het gegevensonderwerp en andere gegevens worden niet automatisch geëxporteerd door het hulpprogramma **Gegevensprivacy**. De tabel Contactpersoon heeft bijvoorbeeld direct gerelateerde Profielantwoorden contact-gegevens en de tabel Profielantwoorden contact is verder gerelateerd aan Profielvragen-gegevens. Als u ook Profielvragen-gegevens wilt exporteren, moet u deze tabel handmatig als rij toevoegen met de juiste filters in het configuratiepakket dat het hulpprogramma **Gegevensprivacy** maakt.|
-|Aanvragen van verwijdering|Een gegevensonderwerp kan erom verzoeken dat u de persoonlijke gegevens ervan verwijdert. Er zijn verschillende manieren om persoonlijke gegevens te verwijderen met de mogelijkheden voor aanpassing, maar de beslissing en implementatie is uw verantwoordelijkheid. In sommige gevallen kiest u er wellicht voor uw gegevens rechtstreeks te bewerken, bijvoorbeeld een contactpersoon verwijderen en dan de batchverwerking Geannuleerde interactie verwijderen uitvoeren om interacties voor de contactpersoon te verwijderen. <br><br> **Opmerking:** als u een datum hebt opgegeven in het veld **Documentverwijdering toestaan voor** op de pagina **Instellingen van verkoop en tegoeden** of **Inkoopinstellingen**, moet u de datum mogelijk wijzigen, zodat u geboekte verkoop- en inkoopdocumenten kunt verwijderen die u hebt afgedrukt en die een boekingsdatum hebben op of vóór die datum.|
+|Aanvragen van verwijdering|Een gegevensonderwerp kan erom verzoeken dat u de persoonlijke gegevens ervan verwijdert. Er zijn verschillende manieren om persoonlijke gegevens te verwijderen met de mogelijkheden voor aanpassing, maar de beslissing en implementatie is uw verantwoordelijkheid. In sommige gevallen kiest u er wellicht voor uw gegevens rechtstreeks te bewerken, bijvoorbeeld een contactpersoon verwijderen en dan de batchverwerking Geannuleerde interactie verwijderen uitvoeren om interacties voor de contactpersoon te verwijderen. <br><br> **Opmerking:** als u een datum hebt opgegeven in het veld **Documentverwijdering toestaan voor** in het venster **Instellingen van verkoop en tegoeden** of **Inkoopinstellingen**, moet u de datum mogelijk wijzigen, zodat u geboekte verkoop- en inkoopdocumenten kunt verwijderen die u hebt afgedrukt en die een boekingsdatum hebben op of vóór die datum.|
 |Aanvragen van correcties|Een gegevensonderwerp kan aanvragen dat u onnauwkeurige persoonlijke gegevens corrigeert. Dit kunt u op verschillende manieren doen. In sommige gevallen kunt u lijsten naar Excel exporteren om snel bulksgewijs meerdere records te bewerken en vervolgens de bijgewerkte gegevens importeren. Zie voor meer informatie [Uw bedrijfsgegevens exporteren naar Excel](about-export-data.md). U kunt velden ook handmatig bewerken die persoonlijke gegevens bevatten, zoals informatie over een klant op de klantenkaart wijzigen. Transactierecords zoals grootboek-, klant- en belastingposten zijn echter essentieel voor de integriteit van het ERP-systeem. Als u persoonlijke gegevens in bedrijftransactierecords opslaat, denk dan na over de aanpassingsmogelijkheden om dergelijke persoonlijke gegevens te wijzigen.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Gegevensverwerking voor een gegevensonderwerp beperken

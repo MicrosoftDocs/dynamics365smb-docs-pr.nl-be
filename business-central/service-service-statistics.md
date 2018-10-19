@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -87,7 +87,7 @@ Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contr
 |**Winst/verlies contract (Reden)**|Het winst-/verliescontract per redencode weergeven.|  
 |**Winst/verlies contract (Divisie)**|Het winst-/verliescontract per divisie weergeven.|  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer de naam in van de pagina die moet worden weergegeven en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam van de weer te geven pagina in en kies de gerelateerde koppeling.  
 2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld in het venster **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter**.  
 3. Kies de actie **Matrix weergeven**.
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 416fe8425d2b21f1f1f72b2f159bb6a863bc1d8b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 883446d479af1432f569410a9412e1291e60477d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Ontwerpdetails: Dimensiecombinaties zoeken
@@ -26,7 +26,7 @@ Wanneer u een venster sluit nadat u een dimensieset hebt bewerkt, evalueert [!IN
 ### <a name="example-1"></a>Voorbeeld 1  
  Het volgende diagram vertegenwoordigt een zoekactiestructuur met zes dimensiesets. Alleen de onderscheidende dimensiesetpost wordt weergegeven in het diagram.  
 
- ![Dimensieboomstructuur](media/nav2013_dimension_tree.png "NAV2013_Dimension_Tree")  
+ ![Voorbeeld van dimensieboomstructuur](media/nav2013_dimension_tree.png "Voorbeeld van dimensieboomstructuur")  
 
  In de volgende tabel wordt een volledig overzicht beschreven van dimensiesetposten waaruit elke dimensieset bestaan.  
 
@@ -45,7 +45,7 @@ Wanneer u een venster sluit nadat u een dimensieset hebt bewerkt, evalueert [!IN
 
  Eerst werkt [!INCLUDE[d365fin](includes/d365fin_md.md)] ook de tabel **Boomstructuurpunt dimensieset** bij om ervoor te zorgen dat de zoekstructuur lijkt op het volgende diagram. Zodoende wordt dimensieset 7 een onderliggend niveau van dimensieset 5.  
 
- ![NAV2013&#95;Dimensie&#95;Structuur&#95;Voorbeeld 2](media/nav2013_dimension_tree_example2.png "NAV2013_Dimension_Tree_Example2")  
+ ![Voorbeeld van dimensieboomstructuur in NAV 2013](media/nav2013_dimension_tree_example2.png "Voorbeeld van dimensieboomstructuur in NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Dimensieset-id zoeken  
  Op conceptueel niveau zijn **Hoofd-id**, **Dimensie** en **Dimensiewaarde** in de zoekstructuur gecombineerd en gebruikt als de primaire sleutel omdat [!INCLUDE[d365fin](includes/d365fin_md.md)] de structuur doorloopt in dezelfde volgorde als de dimensieposten. De functie GET (record) wordt gebruikt om te zoeken naar dimensieset-id. In het volgende codevoorbeeld wordt aangegeven hoe u de dimensieset-id kunt vinden als er drie dimensiewaarden zijn.  

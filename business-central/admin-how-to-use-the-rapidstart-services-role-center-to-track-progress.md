@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Het rolcentrum RapidStart Services-implementatie gebruiken
@@ -27,7 +27,7 @@ Als u met uw werk verdergaat, kunt u aan elke tabel de status toewijzen die aang
 Wanneer u een tabel toevoegt aan het configuratiewerkblad, is de status hiervan standaard leeg. Dit betekent dat de configuratie van de tabel nog niet is begonnen. Dit wordt weerspiegeld in de waarde bij **Niet gestart** in de tegel **Activiteiten**.  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>De status van een configuratietabel bijwerken  
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Lijst bewerken**.  
 3.  Selecteer een tabel en kies in het veld **Status** de gewenste status.  
 4.  Kies de knop **OK**.  

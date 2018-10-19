@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Interacties beheren met contacten
@@ -30,7 +30,9 @@ Met het gebied relatiebeheer kunt u alle interactie registreren die u met uw con
 
 ##  <a name="setting-up-interaction-templates"></a>Interactiesjablonen instellen
 Voordat u interacties kunt maken en registreren moet u interactiesjablonen instellen. Wanneer u interacties maakt, moet u de interactiesjablonen opgeven waarop de interacties zijn gebaseerd. Een interactiesjabloon is een model dat de basiskenmerken van een interactie definieert.
-U stelt een interactiesjabloon in het venster **Interactiesjablonen** in.  
+U stelt een interactiesjabloon in het venster **Interactiesjablonen** in.
+
+Nadat u de gegevens voor de interactiesjabloon hebt ingevoerd, kunt u een bijlage maken, bijvoorbeeld een Microsoft Word-document. Herhaal de stappen om het gewenste aantal interactiesjablonen in te stellen.  
 
 ## <a name="creating-interactions"></a>Interacties maken
 Er zijn twee manieren om interacties te registreren:
@@ -50,7 +52,7 @@ In dit venster kunt u:
 * De status van interacties weergegeven.
 * Interacties markeren als geannuleerd.
 
-U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voert u **Geannuleerde interactielogposten verwijderen** in en kiest u vervolgens de gerelateerde koppeling.
+U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geannuleerde interactielogposten verwijderen** in en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

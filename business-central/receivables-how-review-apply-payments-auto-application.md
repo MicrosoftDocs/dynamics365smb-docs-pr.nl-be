@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 774cd3d3b4482f5fef80014feac72b1f9e1d43bd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fd9fc95be5b6abb180dc523266b74674fe7d721
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren of vereffenen
@@ -39,7 +39,7 @@ Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet au
 >   U kunt een betaling slechts met één rekening vereffenen. Als u de vereffening over meerdere openstaande posten wilt splitsen, bijvoorbeeld om een betaling ineens te vereffenen, moeten de openstaande posten voor dezelfde rekening zijn. Zie voor meer informatie stap 7 en 8 in de procedure in dit onderwerp.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Betalingen na automatische vereffening controleren of vereffenen
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsreconciliatiedagboeken** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open het betalingreconciliatiedagboek voor een bankrekening waarvoor u betalingen wilt reconciliëren. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. In het venster **Dagboek betalingsreconciliatie** selecteert u een betaling die u wilt controleren of handmatig vereffenen met een of meer openstaande posten. Vervolgens kiest u de actie **Handmatig vereffenen**.
 4. Schakel het selectievakje **Vereffend** in op de regel voor de openstaande post waarmee u de betaling wilt vereffenen.
