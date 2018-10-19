@@ -1,6 +1,6 @@
 ---
-title: Datumbereiken instellen in Business Central | Microsoft Docs
-description: Leren hoe u een rapport kunt verkrijgen om gegevens te tonen uit specifieke tijdperioden met behulp van datumbereiken in Business Central.
+title: Datums en tijden invoeren in Business Central | Microsoft Docs
+description: Leren hoe u datums en tijden invoert, inclusief verschillende productiviteitstips, zoals steno, en expressies en bereiken. Lijsten of rapporten filteren op specifieke datums of perioden.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,104 +8,350 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: dates, reporting, filter
-ms.date: 07/05/2018
-ms.author: edupont
+ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
+ms.date: 10/01/2018
+ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ff63ae71a78f956dddb7b5247ee66f9416cf7cf1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="entering-date-ranges"></a><span data-ttu-id="ce932-103">Datumbereiken invoeren</span><span class="sxs-lookup"><span data-stu-id="ce932-103">Entering Date Ranges</span></span>
-<span data-ttu-id="ce932-104">U kunt filters met een begin- en einddatum instellen om alleen de gegevens in dat datumbereik of tijdsinterval in te stellen.</span><span class="sxs-lookup"><span data-stu-id="ce932-104">You can set filters containing a start date and an end date to display only the data contained in that date range or time interval.</span></span> <span data-ttu-id="ce932-105">Voor het instellen van een datumbereik gelden speciale regels.</span><span class="sxs-lookup"><span data-stu-id="ce932-105">Special rules apply to the way you set date ranges.</span></span> <span data-ttu-id="ce932-106">Neem als voorbeeld de **Klanten top 10**:</span><span class="sxs-lookup"><span data-stu-id="ce932-106">Let's take the **Customer Top 10** as an example:</span></span>
 
-![Een datumbereik instellen op de aanvraagpagina voor de lijst Klanten top 10](./media/ui-enter-date-ranges/customer-top10-list.png)
+# <a name="working-with-calendar-dates-and-times"></a><span data-ttu-id="45bc1-104">Werken met agendadatums en -tijden</span><span class="sxs-lookup"><span data-stu-id="45bc1-104">Working with Calendar Dates and Times</span></span>
+[!INCLUDE[d365fin](includes/d365fin_long_md.md)] <span data-ttu-id="45bc1-105">biedt meerdere manieren om datums en tijden in te voeren, inclusief krachtige functies die gegevensinvoer versnellen of u helpen complexe agenda-expressies te schrijven.</span><span class="sxs-lookup"><span data-stu-id="45bc1-105">offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions.</span></span> <span data-ttu-id="45bc1-106">Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren.</span><span class="sxs-lookup"><span data-stu-id="45bc1-106">There are various places throughout the application where you can enter dates and times in fields.</span></span> <span data-ttu-id="45bc1-107">Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen.</span><span class="sxs-lookup"><span data-stu-id="45bc1-107">For example, on a sales order, you can set the shipment date.</span></span> <span data-ttu-id="45bc1-108">Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.</span><span class="sxs-lookup"><span data-stu-id="45bc1-108">When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.</span></span>
 
-<span data-ttu-id="ce932-108">Hier kunt u de lijst tot een datumbereik beperken, zoals de afgelopen 2 weken of een totaal van 6 weken, of wat voor bereik u ook nodig hebt.</span><span class="sxs-lookup"><span data-stu-id="ce932-108">Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want.</span></span> <span data-ttu-id="ce932-109">Als u datumbereiken wilt invoeren, voert u datums in en gebruikt u **..**</span><span class="sxs-lookup"><span data-stu-id="ce932-109">To set date ranges, you enter dates and then use either **..**</span></span> <span data-ttu-id="ce932-110">of **|** om het bereik in te stellen.</span><span class="sxs-lookup"><span data-stu-id="ce932-110">or **|** to set the range.</span></span> <span data-ttu-id="ce932-111">Als u in ons voorbeeld de top 10 klanten voor de eerste twee weken van mei wilt invoeren, stelt u het datumfilter in op *05 01 17..05 14 17*.</span><span class="sxs-lookup"><span data-stu-id="ce932-111">In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.</span></span>
-<span data-ttu-id="ce932-112">Hier volgen enkele andere voorbeelden:</span><span class="sxs-lookup"><span data-stu-id="ce932-112">Here are a couple of other examples:</span></span>
+## <a name="check-your-region-and-language-settings"></a><span data-ttu-id="45bc1-109">Uw regio- en taalinstellingen controleren</span><span class="sxs-lookup"><span data-stu-id="45bc1-109">Check your region and language settings</span></span>
+<span data-ttu-id="45bc1-110">Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 " Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") worden de **Regio** en de **Taal** opgegeven die u in de toepassing gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-110">The [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page specifies the **Region** and **Language** that you are using in the application.</span></span> <span data-ttu-id="45bc1-111">Deze instellingen bepalen hoe u datums en tijden invoert.</span><span class="sxs-lookup"><span data-stu-id="45bc1-111">These settings influence how you enter dates and times.</span></span> 
 
-| <span data-ttu-id="ce932-113">Betekenis</span><span class="sxs-lookup"><span data-stu-id="ce932-113">Meaning</span></span> | <span data-ttu-id="ce932-114">Opmerking</span><span class="sxs-lookup"><span data-stu-id="ce932-114">Example</span></span> | <span data-ttu-id="ce932-115">Opgenomen posten</span><span class="sxs-lookup"><span data-stu-id="ce932-115">Entries included</span></span> |
-|---|---|---|
-|<span data-ttu-id="ce932-116">Gelijk aan</span><span class="sxs-lookup"><span data-stu-id="ce932-116">Equal to</span></span>| <span data-ttu-id="ce932-117">12 15 16</span><span class="sxs-lookup"><span data-stu-id="ce932-117">12 15 16</span></span> |<span data-ttu-id="ce932-118">Alleen posten die zijn geboekt op 15 december 2016.</span><span class="sxs-lookup"><span data-stu-id="ce932-118">Only those posted on December 15 2016.</span></span>|
-|<span data-ttu-id="ce932-119">Interval</span><span class="sxs-lookup"><span data-stu-id="ce932-119">Interval</span></span>| <span data-ttu-id="ce932-120">12 15 16..01 15 17</span><span class="sxs-lookup"><span data-stu-id="ce932-120">12 15 16..01 15 17</span></span><br /><br /><span data-ttu-id="ce932-121">..12 15 16</span><span class="sxs-lookup"><span data-stu-id="ce932-121">..12 15 16</span></span>|<span data-ttu-id="ce932-122">Posten die zijn geboekt in de periode tussen en tot en met 15 december 2016 en 15 januari 2017.</span><span class="sxs-lookup"><span data-stu-id="ce932-122">Those posted on dates between and including December 15 2016 and January 15 2017.</span></span><br /><br /><span data-ttu-id="ce932-123">Posten die zijn geboekt op 15 december 2016 of eerder.</span><span class="sxs-lookup"><span data-stu-id="ce932-123">Those posted on December 15 2016 or earlier.</span></span>|
-|<span data-ttu-id="ce932-124">Of/of</span><span class="sxs-lookup"><span data-stu-id="ce932-124">Either/or</span></span>|<span data-ttu-id="ce932-125">12 15 16&#124;12 16 16</span><span class="sxs-lookup"><span data-stu-id="ce932-125">12 15 16&#124;12 16 16</span></span>|<span data-ttu-id="ce932-126">Posten die zijn geboekt op 15 december of 16 december 2016.</span><span class="sxs-lookup"><span data-stu-id="ce932-126">Those posted on either December 15 or December 16 2016.</span></span> <span data-ttu-id="ce932-127">Als deze posten zijn geboekt op beide dagen, worden ze allebei weergegeven.</span><span class="sxs-lookup"><span data-stu-id="ce932-127">If there are entries posted on both days, they will all be displayed.</span></span>|
+-   <span data-ttu-id="45bc1-112">De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.</span><span class="sxs-lookup"><span data-stu-id="45bc1-112">The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.</span></span>
 
-<span data-ttu-id="ce932-128">U kunt de verschillende notatiesoorten ook combineren.</span><span class="sxs-lookup"><span data-stu-id="ce932-128">You can also combine the various format types.</span></span>
-
-| <span data-ttu-id="ce932-129">Opmerking</span><span class="sxs-lookup"><span data-stu-id="ce932-129">Example</span></span> | <span data-ttu-id="ce932-130">Opgenomen posten</span><span class="sxs-lookup"><span data-stu-id="ce932-130">Entries included</span></span> |
-|---|---|
-|<span data-ttu-id="ce932-131">12 15 16&#124;12 01 16..05 31 17</span><span class="sxs-lookup"><span data-stu-id="ce932-131">12 15 16&#124;12 01 16..05 31 17</span></span> | <span data-ttu-id="ce932-132">Posten die zijn geboekt op 15 december 2016 of op datums tussen en tot en met 1 december 2016 en 31 mei 2017.</span><span class="sxs-lookup"><span data-stu-id="ce932-132">Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017.</span></span> |
-|<span data-ttu-id="ce932-133">..12 14 16&#124;12 30 16..</span><span class="sxs-lookup"><span data-stu-id="ce932-133">..12 14 16&#124;12 30 16..</span></span> | <span data-ttu-id="ce932-134">Posten die zijn geboekt op 14 december of eerder, of posten die zijn geboekt op 30 december of later. Dit wil zeggen, alle posten behalve die zijn geboekt tussen 15 december en 29 december tot en met.</span><span class="sxs-lookup"><span data-stu-id="ce932-134">Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29.</span></span> |
-
-<span data-ttu-id="ce932-135">U ziet dat we hier de Amerikaanse datumnotatie MMDDYY hebben gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ce932-135">Note that we have used the US date format MMDDYY here.</span></span> <span data-ttu-id="ce932-136">Zodra [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar wordt in andere markten, zult u de indelingen kunnen gebruiken die u gewend bent.</span><span class="sxs-lookup"><span data-stu-id="ce932-136">As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.</span></span>
-
-## <a name="using-date-formulas"></a><span data-ttu-id="ce932-137">Datumformules gebruiken</span><span class="sxs-lookup"><span data-stu-id="ce932-137">Using Date Formulas</span></span>
-<span data-ttu-id="ce932-138">Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend.</span><span class="sxs-lookup"><span data-stu-id="ce932-138">A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates.</span></span> <span data-ttu-id="ce932-139">U kunt datumformules invoeren in verschillende datumberekeningsvelden en in de frequentievelden van periodieke dagboeken.</span><span class="sxs-lookup"><span data-stu-id="ce932-139">You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.</span></span>
+-   <span data-ttu-id="45bc1-113">Voor datumpatronen met woorden moet de taal van de woorden overeenkomen met de instelling **Taal**.</span><span class="sxs-lookup"><span data-stu-id="45bc1-113">For date patterns that involve words, the language of the words that you use must correspond to the **Language** setting.</span></span>
 
 > [!NOTE]
->  <span data-ttu-id="ce932-140">In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode.</span><span class="sxs-lookup"><span data-stu-id="ce932-140">In all data formula fields, one day is automatically included to cover today as the day when the period starts.</span></span> <span data-ttu-id="ce932-141">Als u dus bijvoorbeeld **1W** invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook is opgenomen.</span><span class="sxs-lookup"><span data-stu-id="ce932-141">Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included.</span></span> <span data-ttu-id="ce932-142">Als u een periode van zeven dagen (exact één week) wilt opgeven, inclusief de begindatum van de periode, moet u **6D** of **1W\-1D**. opgeven.</span><span class="sxs-lookup"><span data-stu-id="ce932-142">To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.</span></span>
+> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] <span data-ttu-id="45bc1-114">gebruikt het Gregoriaanse kalendersysteem.</span><span class="sxs-lookup"><span data-stu-id="45bc1-114">uses the Gregorian calendar system.</span></span>
 
-<span data-ttu-id="ce932-143">Hier volgen enkele voorbeelden van het gebruik van datumformules:</span><span class="sxs-lookup"><span data-stu-id="ce932-143">Here are some examples of how date formulas can be used:</span></span>
+<!-- 
+The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
+-->
+## <a name="entering-dates"></a><span data-ttu-id="45bc1-115">Datums invoeren</span><span class="sxs-lookup"><span data-stu-id="45bc1-115">Entering Dates</span></span>
+<span data-ttu-id="45bc1-116">In een datumveld kunt u een datum invoeren met de standaardnotatie voor uw regio-instelling.</span><span class="sxs-lookup"><span data-stu-id="45bc1-116">In a date field, you can enter a date using the standard format for your region setting.</span></span> <span data-ttu-id="45bc1-117">Verschillende regio's kunnen verschillende scheidingstekens hebben tussen de dagen, maanden en jaren.</span><span class="sxs-lookup"><span data-stu-id="45bc1-117">Different regions can use different separators between the days, months and years.</span></span> <span data-ttu-id="45bc1-118">Sommige regio's gebruiken bijvoorbeeld streepjes (mm-dd-jjjj) en andere gebruiken voorwaartse schuine strepen (mm/dd/jjjj).</span><span class="sxs-lookup"><span data-stu-id="45bc1-118">For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy).</span></span> <span data-ttu-id="45bc1-119">U kunt echter elk scheidingsteken gebruiken, zelfs een spatie, en de datum wordt automatisch aangepast aan het scheidingsteken dat overeenkomt met uw regio.</span><span class="sxs-lookup"><span data-stu-id="45bc1-119">However, you can use any separators, even a space, and the date will automatically be changed to use separators that match your region.</span></span>
 
--   <span data-ttu-id="ce932-144">De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="ce932-144">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>
+<span data-ttu-id="45bc1-120">De notatie waarin datums in afgedrukte rapporten of ge-e-mailde documenten worden weergegeven, wordt niet beïnvloed door uw persoonlijke keuze van de regio-instelling.</span><span class="sxs-lookup"><span data-stu-id="45bc1-120">Note that the format in which dates are displayed on printed reports or emailed documents is not influenced by your personal choice of region setting.</span></span>
 
--   <span data-ttu-id="ce932-145">De datumformule in het veld **Respijtperiode** van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum (of de vervaldatum van de vorige aanmaning) moet zijn verstreken voordat een aanmaning wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="ce932-145">The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.</span></span>
+<span data-ttu-id="45bc1-121">Als u productiever met datums en tijden wilt werken, kunt u elke methode of notatie gebruiken die in de volgende gedeelten wordt beschreven.</span><span class="sxs-lookup"><span data-stu-id="45bc1-121">To work more productively with dates and times, you can use any of the methods or formats that are described in the following sections.</span></span> 
 
--   <span data-ttu-id="ce932-146">De datumformule in het veld **Vervaldatumformule** bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="ce932-146">The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.</span></span>
+### <a name="picking-dates-from-the-calendar"></a><span data-ttu-id="45bc1-122">Datums ophalen uit de kalender</span><span class="sxs-lookup"><span data-stu-id="45bc1-122">Picking dates from the calendar</span></span>
+<span data-ttu-id="45bc1-123">Een veld waarbij een kalenderpictogram wordt weergegeven, kan worden ingesteld met de kalenderdatumkiezer.</span><span class="sxs-lookup"><span data-stu-id="45bc1-123">Any field displaying a calendar icon can be set using the calendar date picker.</span></span> <span data-ttu-id="45bc1-124">Als u de kalenderdatumkiezer wilt weergeven, activeert u het kalenderpictogram of drukt u op de toetsenbordsneltoets Ctrl+Home in het veld.</span><span class="sxs-lookup"><span data-stu-id="45bc1-124">To display the calendar date picker, activate the calendar icon or press the Ctrl + Home keyboard shortcut in the field.</span></span>
 
-<span data-ttu-id="ce932-147">In de berekeningsformule voor de datum kunt u maximaal 20 tekens gebruiken (cijfers en/of letters).</span><span class="sxs-lookup"><span data-stu-id="ce932-147">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="ce932-148">U kunt de volgende letters gebruiken als afkorting voor tijdsaanduidingen.</span><span class="sxs-lookup"><span data-stu-id="ce932-148">You can use the following letters, which are abbreviations for time specifications.</span></span>
+<span data-ttu-id="45bc1-125">![Datumvelden](media/ui-date-field.png "Voorbeeld van een datumveld")</span><span class="sxs-lookup"><span data-stu-id="45bc1-125">![Date fields](media/ui-date-field.png "Example of a date field")</span></span>
 
-|  <span data-ttu-id="ce932-149">Letter</span><span class="sxs-lookup"><span data-stu-id="ce932-149">Letter</span></span>  |  <span data-ttu-id="ce932-150">Tijdspecificatie</span><span class="sxs-lookup"><span data-stu-id="ce932-150">Time specification</span></span>  |
+<span data-ttu-id="45bc1-126">Zie ook [Toetsenbordsneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md#calendarshortcuts)</span><span class="sxs-lookup"><span data-stu-id="45bc1-126">See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts)</span></span>
+
+### <a name="today"></a><span data-ttu-id="45bc1-127">Vandaag</span><span class="sxs-lookup"><span data-stu-id="45bc1-127">Today</span></span>
+<span data-ttu-id="45bc1-128">Voer voor `today` in de taal die is ingesteld door **Taal**, het woord in waarmee de datum op de huidige datum wordt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="45bc1-128">Enter the word for `today`, in the language set by **Language** setting, that will set the date to the current date.</span></span> <span data-ttu-id="45bc1-129">In plaats van het hele woord in te voeren kunt u een deel van het woord invoeren, te beginnen met het begin, bijvoorbeeld `t` of `tod`, zolang het niet ook het begin van een ander woord is.</span><span class="sxs-lookup"><span data-stu-id="45bc1-129">Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as `t` or `tod`, as long as it is not also the start of another word.</span></span>
+
+### <a name="day-week-year-pattern"></a><span data-ttu-id="45bc1-130">Dag\-week\-jaar patroon</span><span class="sxs-lookup"><span data-stu-id="45bc1-130">Day\-week\-year pattern</span></span>
+<span data-ttu-id="45bc1-131">U kunt een datum als dag van de week invoeren, gevolgd door een weeknummer en desgewenst een jaar.</span><span class="sxs-lookup"><span data-stu-id="45bc1-131">You can enter a date as a weekday followed by a week number and, optionally, a year.</span></span> <span data-ttu-id="45bc1-132">Bijvoorbeeld `Mon25` of `mon25` betekent maandag in week 25.</span><span class="sxs-lookup"><span data-stu-id="45bc1-132">For example, `Mon25` or `mon25` means Monday in week 25.</span></span> <span data-ttu-id="45bc1-133">Als u geen jaar invoert, wordt het jaar van de werkdatum gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-133">If you do not enter a year, the year of the work date is used.</span></span>
+
+<span data-ttu-id="45bc1-134">U kunt in plaats van het volledige woord voor de dag van de week een deel van het woord invoeren, vanaf het begin.</span><span class="sxs-lookup"><span data-stu-id="45bc1-134">Instead of entering the entire word for the day of the week, you can enter part of the word, starting from the beginning.</span></span> <span data-ttu-id="45bc1-135">In het geval van conflicten (zoals met `s`, wat zowel Saturday als Sunday kan zijn), worden de dagen geëvalueerd op basis van de instellingen van de regio.</span><span class="sxs-lookup"><span data-stu-id="45bc1-135">In case of conflicts (such as with `s` which could be Saturday or Sunday), the days are evaluated according to the region setting.</span></span> <span data-ttu-id="45bc1-136">De invoer wordt ook eerst geëvalueerd tegen `workdate` en `today`, dus houd daar rekening mee wanneer u afkortingen gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-136">The input is first evaluated against `workdate` and `today` as well, so keep this in mind when abbreviating.</span></span> <span data-ttu-id="45bc1-137">`t` betekent bijvoorbeeld al vandaag, dus het kan niet ook Tuesday of Thursday betekenen.</span><span class="sxs-lookup"><span data-stu-id="45bc1-137">For example, `t` already means today, so it cannot mean Tuesday or Thursday.</span></span>
+
+<span data-ttu-id="45bc1-138">Het schema van het weeknummer is altijd ISO 8601, waar week 1 de week met 4 januari erin is of de week met de eerste donderdag van het jaar.</span><span class="sxs-lookup"><span data-stu-id="45bc1-138">The week number scheme is always ISO 8601, where week 1 is the week with 4 January in it, or the week with the first Thursday of the year.</span></span>
+
+### <a name="digit-patterns"></a><span data-ttu-id="45bc1-139">Cijferpatronen</span><span class="sxs-lookup"><span data-stu-id="45bc1-139">Digit patterns</span></span>
+<span data-ttu-id="45bc1-140">Een datumveld kan twee, vier, zes of acht cijfers bevatten:</span><span class="sxs-lookup"><span data-stu-id="45bc1-140">In a date field you can enter two, four, six, or eight digits:</span></span>
+
+-   <span data-ttu-id="45bc1-141">Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-141">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>
+
+-   <span data-ttu-id="45bc1-142">Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-142">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span> <span data-ttu-id="45bc1-143">De volgorde van de dag en de maand wordt bepaald door uw regio-instellingen.</span><span class="sxs-lookup"><span data-stu-id="45bc1-143">The order of the day and month is determined by your region settings.</span></span> <span data-ttu-id="45bc1-144">Zelfs als uw regio-instellingen het jaar vóór de dag en de maand bevatten, worden vier cijfers geïnterpreteerd als de dag en de maand.</span><span class="sxs-lookup"><span data-stu-id="45bc1-144">Even if your region settings have the year before the day and month, four digits are interpreted as the day and month.</span></span>
+
+-   <span data-ttu-id="45bc1-145">Als de ingevoerde datum in de reeks 01/01/1930 tot en met 31/12/2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.</span><span class="sxs-lookup"><span data-stu-id="45bc1-145">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>
+
+### <a name="current-work-date"></a><span data-ttu-id="45bc1-146">Huidige werkdatum</span><span class="sxs-lookup"><span data-stu-id="45bc1-146">Current work date</span></span>
+<span data-ttu-id="45bc1-147">Met de werkdatumfunctie kunt u transacties vastleggen met een datum die afwijkt van de huidige datum.</span><span class="sxs-lookup"><span data-stu-id="45bc1-147">The work date feature allows you to record transations using a date that is different from the current date.</span></span>
+
+<span data-ttu-id="45bc1-148">Het woord voor 'werkdatum' in de taal die is ingesteld door de instelling **Taal**, stelt de datum in op de huidige ingestelde werkdatum die wordt opgegeven op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "Ga direct naar de pagina met uw gebruikersinstellingen in Business Central").</span><span class="sxs-lookup"><span data-stu-id="45bc1-148">The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page.</span></span> <span data-ttu-id="45bc1-149">U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin, bijvoorbeeld 'w' of 'werk'.</span><span class="sxs-lookup"><span data-stu-id="45bc1-149">Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.</span></span>
+
+<span data-ttu-id="45bc1-150">Als u geen werkdatum hebt gedefinieerd, wordt de huidige datum als de werkdatum gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-150">If you have not defined a work date, the current date will be used as the work date.</span></span> <span data-ttu-id="45bc1-151">Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.</span><span class="sxs-lookup"><span data-stu-id="45bc1-151">You may want to use a work date if you have many transactions with a date other than today's date.</span></span>
+
+<span data-ttu-id="45bc1-152">Zie ook [Basisinstellingen wijzigen, zoals de werkdatum](ui-change-basic-settings.md#work-date)</span><span class="sxs-lookup"><span data-stu-id="45bc1-152">See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date)</span></span>
+
+### <a name="closing-date"></a><span data-ttu-id="45bc1-153">Ultimodatum</span><span class="sxs-lookup"><span data-stu-id="45bc1-153">Closing Date</span></span>
+<span data-ttu-id="45bc1-154">Als u een boekjaar afsluit, kunt u ultimodatums gebruiken om aan te geven dat het om een ultimopost gaat.</span><span class="sxs-lookup"><span data-stu-id="45bc1-154">When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry.</span></span> <span data-ttu-id="45bc1-155">Een ultimodatum ligt technisch gezien tussen twee datums in, zoals tussen 31 december en 1 januari.</span><span class="sxs-lookup"><span data-stu-id="45bc1-155">A closing date technically is between two dates, for example between Dec 31 and Jan 1.</span></span>
+
+<span data-ttu-id="45bc1-156">Als u een datum wilt opgeven die een ultimodatum is, plaatst u `C` vlak vóór de datum, bijvoorbeeld `C123101`.</span><span class="sxs-lookup"><span data-stu-id="45bc1-156">To specify that a date is a closing date, put `C` just before the date, such as `C123101`.</span></span> <span data-ttu-id="45bc1-157">Dit kan in combinatie met alle datumpatronen worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-157">This can be used in combination with all the date patterns.</span></span>
+
+### <a name="examples"></a><span data-ttu-id="45bc1-158">Voorbeelden</span><span class="sxs-lookup"><span data-stu-id="45bc1-158">Examples</span></span>
+<span data-ttu-id="45bc1-159">De volgende tabel bevat voorbeelden van datums met alle indelingen.</span><span class="sxs-lookup"><span data-stu-id="45bc1-159">The following table contains examples of dates using all the formats.</span></span> <span data-ttu-id="45bc1-160">Er wordt uitgegaan van regio-instellingen die datums noteren volgens: **jaar.maand.dag.**, een week na maandag en de Engelse taal.</span><span class="sxs-lookup"><span data-stu-id="45bc1-160">It assumes region settings that format dates according to: **year.month.day.**, a week starting on Monday, and the English language.</span></span>
+
+|<span data-ttu-id="45bc1-161">**Invoer**</span><span class="sxs-lookup"><span data-stu-id="45bc1-161">**Entry**</span></span>      |<span data-ttu-id="45bc1-162">**Interpretatie**</span><span class="sxs-lookup"><span data-stu-id="45bc1-162">**Interpretation**</span></span>      |
+|---------------|------------------------|
+|`2018.12.31.`|<span data-ttu-id="45bc1-163">2018.12.31.</span><span class="sxs-lookup"><span data-stu-id="45bc1-163">2018.12.31.</span></span>|
+|`181231`|<span data-ttu-id="45bc1-164">2018.12.31.</span><span class="sxs-lookup"><span data-stu-id="45bc1-164">2018.12.31.</span></span>|
+|`18.12.31.`|<span data-ttu-id="45bc1-165">2018.12.31.</span><span class="sxs-lookup"><span data-stu-id="45bc1-165">2018.12.31.</span></span>|
+|`18.12.31.`|<span data-ttu-id="45bc1-166">2018.12.31.</span><span class="sxs-lookup"><span data-stu-id="45bc1-166">2018.12.31.</span></span>|
+|`20181231`|<span data-ttu-id="45bc1-167">2018.12.31.</span><span class="sxs-lookup"><span data-stu-id="45bc1-167">2018.12.31.</span></span>|
+|`18/12,31`|<span data-ttu-id="45bc1-168">2018.12.31.</span><span class="sxs-lookup"><span data-stu-id="45bc1-168">2018.12.31.</span></span>|
+|`11`|<span data-ttu-id="45bc1-169">jaar van werkdatum.maand van werkdatum.11.</span><span class="sxs-lookup"><span data-stu-id="45bc1-169">work date year.work date month.11.</span></span>|
+|`1112`|<span data-ttu-id="45bc1-170">jaar van werkdatum.11.12.</span><span class="sxs-lookup"><span data-stu-id="45bc1-170">work date year.11.12.</span></span>|
+|<span data-ttu-id="45bc1-171">`t` of `today`</span><span class="sxs-lookup"><span data-stu-id="45bc1-171">`t` or `today`</span></span>|<span data-ttu-id="45bc1-172">datum van vandaag</span><span class="sxs-lookup"><span data-stu-id="45bc1-172">today's date</span></span>|
+|<span data-ttu-id="45bc1-173">`w` of `workdate`</span><span class="sxs-lookup"><span data-stu-id="45bc1-173">`w` or `workdate`</span></span>|<span data-ttu-id="45bc1-174">de werkdatum</span><span class="sxs-lookup"><span data-stu-id="45bc1-174">the working date</span></span>|
+|<span data-ttu-id="45bc1-175">`m` of `Monday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-175">`m` or `Monday`</span></span>|<span data-ttu-id="45bc1-176">Maandag van de werkdatumweek</span><span class="sxs-lookup"><span data-stu-id="45bc1-176">Monday of the work date week</span></span>|
+|<span data-ttu-id="45bc1-177">`tu` of `Tuesday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-177">`tu` or `Tuesday`</span></span>|<span data-ttu-id="45bc1-178">Dinsdag van de werkdatumweek</span><span class="sxs-lookup"><span data-stu-id="45bc1-178">Tuesday of the work date week</span></span>|
+|<span data-ttu-id="45bc1-179">`sa` of `Saturday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-179">`sa` or `Saturday`</span></span>|<span data-ttu-id="45bc1-180">Zaterdag van de werkdatumweek</span><span class="sxs-lookup"><span data-stu-id="45bc1-180">Saturday of the work date week</span></span>|
+|<span data-ttu-id="45bc1-181">`s` of `Sunday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-181">`s` or `Sunday`</span></span>|<span data-ttu-id="45bc1-182">Zondag van de werkdatumweek</span><span class="sxs-lookup"><span data-stu-id="45bc1-182">Sunday of the work date week</span></span>|
+|`t23`|<span data-ttu-id="45bc1-183">Dinsdag van week 23 van het werkdatumjaar</span><span class="sxs-lookup"><span data-stu-id="45bc1-183">Tuesday of week 23 of the work date year</span></span>|
+|`t 23`|<span data-ttu-id="45bc1-184">Dinsdag van week 23 van het werkdatumjaar</span><span class="sxs-lookup"><span data-stu-id="45bc1-184">Tuesday of week 23 of the work date year</span></span>|
+|`t-1`|<span data-ttu-id="45bc1-185">Dinsdag van week 1 van het werkdatumjaar</span><span class="sxs-lookup"><span data-stu-id="45bc1-185">Tuesday of week 1 of the work date year</span></span>|
+
+##  <a name="BKMK_SettingDateRanges"></a> <span data-ttu-id="45bc1-186">Datumbereiken instellen</span><span class="sxs-lookup"><span data-stu-id="45bc1-186">Setting Ranges</span></span>
+<span data-ttu-id="45bc1-187">In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en datumtijden. De filters kunnen een begindatum en desgewenst een einddatum bevatten om alleen de gegevens uit dat bereik weer te geven.</span><span class="sxs-lookup"><span data-stu-id="45bc1-187">On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range.</span></span> <span data-ttu-id="45bc1-188">Voor het instellen van een datumbereik gelden de standaardregels.</span><span class="sxs-lookup"><span data-stu-id="45bc1-188">The standard rules apply to the way you set date ranges.</span></span>
+
+|<span data-ttu-id="45bc1-189">**Betekenis**</span><span class="sxs-lookup"><span data-stu-id="45bc1-189">**Meaning**</span></span>|<span data-ttu-id="45bc1-190">**Voorbeeldexpressie (datum)**</span><span class="sxs-lookup"><span data-stu-id="45bc1-190">**Sample expression (Date)**</span></span>|<span data-ttu-id="45bc1-191">**Gegevens opgenomen in het filter**</span><span class="sxs-lookup"><span data-stu-id="45bc1-191">**Data included in the filter**</span></span>|
+|-----------|---------------------|--------------------|
+|<span data-ttu-id="45bc1-192">Interval</span><span class="sxs-lookup"><span data-stu-id="45bc1-192">Interval</span></span>|<span data-ttu-id="45bc1-193">`12 15 00..01 15 01`  \n`..12 15 00`</span><span class="sxs-lookup"><span data-stu-id="45bc1-193">`12 15 00..01 15 01`  \n`..12 15 00`</span></span>|<span data-ttu-id="45bc1-194">Records met datums tussen 12 15 00 en 01 15 01.</span><span class="sxs-lookup"><span data-stu-id="45bc1-194">Records with dates between and including 12 15 00 and 01 15 01.</span></span>  <span data-ttu-id="45bc1-195">\nRecords met datums van 12 15 00 of eerder.</span><span class="sxs-lookup"><span data-stu-id="45bc1-195">\nRecords with dates of 12 15 00 or earlier.</span></span>|
+|<span data-ttu-id="45bc1-196">Of/of</span><span class="sxs-lookup"><span data-stu-id="45bc1-196">Either/or</span></span>|<span data-ttu-id="45bc1-197">\`12 15 00</span><span class="sxs-lookup"><span data-stu-id="45bc1-197">\`12 15 00</span></span>|<span data-ttu-id="45bc1-198">12 16 00\`</span><span class="sxs-lookup"><span data-stu-id="45bc1-198">12 16 00\`</span></span>|<span data-ttu-id="45bc1-199">Records met datums van of 12 15 00 of 12 16 00.</span><span class="sxs-lookup"><span data-stu-id="45bc1-199">Records with dates of either 12 15 00 or 12 16 00.</span></span> <span data-ttu-id="45bc1-200">Als er records zijn met datums op beide dagen, worden ze allemaal weergegeven.</span><span class="sxs-lookup"><span data-stu-id="45bc1-200">If there are records with dates on both days, they will all be displayed.</span></span>|
+|<span data-ttu-id="45bc1-201">Combinatie</span><span class="sxs-lookup"><span data-stu-id="45bc1-201">Combination</span></span>|<span data-ttu-id="45bc1-202">\`12 15 00</span><span class="sxs-lookup"><span data-stu-id="45bc1-202">\`12 15 00</span></span>|<span data-ttu-id="45bc1-203">12 01 00..12 10 00`  \n`..12 14 00</span><span class="sxs-lookup"><span data-stu-id="45bc1-203">12 01 00..12 10 00`  \n`..12 14 00</span></span>|<span data-ttu-id="45bc1-204">12 30 00..\`</span><span class="sxs-lookup"><span data-stu-id="45bc1-204">12 30 00..\`</span></span>|<span data-ttu-id="45bc1-205">Records met datums van 12-15-00 of op datums in de periode 12-01-00 t/m 12-10-00.</span><span class="sxs-lookup"><span data-stu-id="45bc1-205">Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.</span></span>  <span data-ttu-id="45bc1-206">\nRecords met datums van 12-14 00 of eerder, of datums van 12 30 00 of later. Dit wil zeggen, alle records, behalve records met datums tussen 12 15 00 en 12 29 00.</span><span class="sxs-lookup"><span data-stu-id="45bc1-206">\nRecords with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.</span></span>|
+
+<span data-ttu-id="45bc1-207">U kunt iedere geldige indeling in datumbereikfilters gebruiken.</span><span class="sxs-lookup"><span data-stu-id="45bc1-207">You can use any of the valid formats in date range filters.</span></span> <span data-ttu-id="45bc1-208">Bijvoorbeeld `mon14 3..t 4p`, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.</span><span class="sxs-lookup"><span data-stu-id="45bc1-208">For example, `mon14 3..t 4p` applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.</span></span>
+
+
+## <a name="using-date-formulas"></a><span data-ttu-id="45bc1-209">Datumformules gebruiken</span><span class="sxs-lookup"><span data-stu-id="45bc1-209">Using Date Formulas</span></span>
+<span data-ttu-id="45bc1-210">Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend.</span><span class="sxs-lookup"><span data-stu-id="45bc1-210">A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates.</span></span> <span data-ttu-id="45bc1-211">U kunt datumformules invoeren in verschillende datumberekeningsvelden of -filters.</span><span class="sxs-lookup"><span data-stu-id="45bc1-211">You can enter date formulas in various date calculation fields or filters.</span></span>
+
+> [!NOTE]
+>  <span data-ttu-id="45bc1-212">In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode.</span><span class="sxs-lookup"><span data-stu-id="45bc1-212">In all data formula fields, one day is automatically included to cover today as the day when the period starts.</span></span> <span data-ttu-id="45bc1-213">Als u dus bijvoorbeeld `1W` invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook wordt opgenomen.</span><span class="sxs-lookup"><span data-stu-id="45bc1-213">Accordingly, for example, if you enter `1W`, then the period is actually eight days because today is included.</span></span> <span data-ttu-id="45bc1-214">Als u een periode van zeven dagen \(exact één week\) wilt opgeven, inclusief de begindatum van de periode, moet u `6D` of `1W-1D` invoeren.</span><span class="sxs-lookup"><span data-stu-id="45bc1-214">To specify a period of seven days \(one true week\) including the period starting date, then you must enter `6D` or `1W-1D`.</span></span>
+
+<span data-ttu-id="45bc1-215">Hier volgen enkele voorbeelden van het gebruik van datumformules:</span><span class="sxs-lookup"><span data-stu-id="45bc1-215">Here are some examples of how date formulas can be used:</span></span>
+
+-   <span data-ttu-id="45bc1-216">De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-216">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>
+
+-   <span data-ttu-id="45bc1-217">De datumformule in het veld **Respijtperiode** van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum \(of de datum van de vorige aanmaning\) moet zijn verstreken voordat een aanmaning wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-217">The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date \(or from the date of the previous reminder\) before a reminder will be created.</span></span>
+
+-   <span data-ttu-id="45bc1-218">De datumformule in het veld **Vervaldatumformule** bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="45bc1-218">The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.</span></span>
+
+<span data-ttu-id="45bc1-219">De datumformule kan maximaal 20 tekens bevatten (cijfers en letters).</span><span class="sxs-lookup"><span data-stu-id="45bc1-219">The date formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="45bc1-220">U kunt de volgende letters gebruiken als afkorting voor kalendereenheden.</span><span class="sxs-lookup"><span data-stu-id="45bc1-220">You can use the following letters, which are abbreviations for calendar units.</span></span>
+
+|  <span data-ttu-id="45bc1-221">Letter</span><span class="sxs-lookup"><span data-stu-id="45bc1-221">Letter</span></span>  |  <span data-ttu-id="45bc1-222">Betekenis</span><span class="sxs-lookup"><span data-stu-id="45bc1-222">Meaning</span></span>  |
 |----------|----------------------|
-|<span data-ttu-id="ce932-151">U</span><span class="sxs-lookup"><span data-stu-id="ce932-151">C</span></span>|<span data-ttu-id="ce932-152">Actueel</span><span class="sxs-lookup"><span data-stu-id="ce932-152">Current</span></span>|
-|<span data-ttu-id="ce932-153">D</span><span class="sxs-lookup"><span data-stu-id="ce932-153">D</span></span>|<span data-ttu-id="ce932-154">Dag\(en\)</span><span class="sxs-lookup"><span data-stu-id="ce932-154">Day\(s\)</span></span>|
-|<span data-ttu-id="ce932-155">W</span><span class="sxs-lookup"><span data-stu-id="ce932-155">W</span></span>|<span data-ttu-id="ce932-156">We(e)k\(en\)</span><span class="sxs-lookup"><span data-stu-id="ce932-156">Week\(s\)</span></span>|
-|<span data-ttu-id="ce932-157">M</span><span class="sxs-lookup"><span data-stu-id="ce932-157">M</span></span>|<span data-ttu-id="ce932-158">Maand\(en\)</span><span class="sxs-lookup"><span data-stu-id="ce932-158">Month\(s\)</span></span>|
-|<span data-ttu-id="ce932-159">K</span><span class="sxs-lookup"><span data-stu-id="ce932-159">Q</span></span>|<span data-ttu-id="ce932-160">Kwarta(a)l\(en\)</span><span class="sxs-lookup"><span data-stu-id="ce932-160">Quarter\(s\)</span></span>|
-|<span data-ttu-id="ce932-161">J</span><span class="sxs-lookup"><span data-stu-id="ce932-161">Y</span></span>|<span data-ttu-id="ce932-162">Ja(a)r\(en\)</span><span class="sxs-lookup"><span data-stu-id="ce932-162">Year\(s\)</span></span>|
+|`C`|<span data-ttu-id="45bc1-223">Actueel</span><span class="sxs-lookup"><span data-stu-id="45bc1-223">Current</span></span>|
+|`D`|<span data-ttu-id="45bc1-224">Dag\(en\)</span><span class="sxs-lookup"><span data-stu-id="45bc1-224">Day\(s\)</span></span>|
+|`W`|<span data-ttu-id="45bc1-225">We(e)k\(en\)</span><span class="sxs-lookup"><span data-stu-id="45bc1-225">Week\(s\)</span></span>|
+|`M`|<span data-ttu-id="45bc1-226">Maand\(en\)</span><span class="sxs-lookup"><span data-stu-id="45bc1-226">Month\(s\)</span></span>|
+|`Q`|<span data-ttu-id="45bc1-227">Kwarta(a)l\(en\)</span><span class="sxs-lookup"><span data-stu-id="45bc1-227">Quarter\(s\)</span></span>|
+|`Y`|<span data-ttu-id="45bc1-228">Ja(a)r\(en\)</span><span class="sxs-lookup"><span data-stu-id="45bc1-228">Year\(s\)</span></span>|
 
-<span data-ttu-id="ce932-163">Er zijn drie soorten datumformules.</span><span class="sxs-lookup"><span data-stu-id="ce932-163">You can construct a date formula in three ways.</span></span>
+<span data-ttu-id="45bc1-229">Er zijn drie soorten datumformules.</span><span class="sxs-lookup"><span data-stu-id="45bc1-229">You can construct a date formula in three ways.</span></span>
 
-<span data-ttu-id="ce932-164">In het volgende voorbeeld wordt weergegeven hoe **C** kan worden gebruikt voor huidig en een tijdseenheid.</span><span class="sxs-lookup"><span data-stu-id="ce932-164">The following example shows how to use **C**, for current, and a time unit.</span></span>
+<span data-ttu-id="45bc1-230">In het volgende voorbeeld wordt weergegeven hoe `C` kan worden gebruikt voor huidig en een tijdseenheid.</span><span class="sxs-lookup"><span data-stu-id="45bc1-230">The following example shows how to use `C`, for current, and a time unit.</span></span>
 
-|  <span data-ttu-id="ce932-165">Expressie</span><span class="sxs-lookup"><span data-stu-id="ce932-165">Expression</span></span>  |  <span data-ttu-id="ce932-166">Betekenis</span><span class="sxs-lookup"><span data-stu-id="ce932-166">Meaning</span></span>  |
+|  <span data-ttu-id="45bc1-231">Expressie</span><span class="sxs-lookup"><span data-stu-id="45bc1-231">Expression</span></span>  |  <span data-ttu-id="45bc1-232">Betekenis</span><span class="sxs-lookup"><span data-stu-id="45bc1-232">Meaning</span></span>  |
 |--------------|-----------|
-|<span data-ttu-id="ce932-167">LW</span><span class="sxs-lookup"><span data-stu-id="ce932-167">CW</span></span>|<span data-ttu-id="ce932-168">Lopende week</span><span class="sxs-lookup"><span data-stu-id="ce932-168">Current week</span></span>|
-|<span data-ttu-id="ce932-169">LM</span><span class="sxs-lookup"><span data-stu-id="ce932-169">CM</span></span>|<span data-ttu-id="ce932-170">Lopende maand</span><span class="sxs-lookup"><span data-stu-id="ce932-170">Current month</span></span>|
+|`CW`|<span data-ttu-id="45bc1-233">Lopende week</span><span class="sxs-lookup"><span data-stu-id="45bc1-233">Current week</span></span>|
+|`CM`|<span data-ttu-id="45bc1-234">Lopende maand</span><span class="sxs-lookup"><span data-stu-id="45bc1-234">Current month</span></span>|
 
-<span data-ttu-id="ce932-171">In het volgende voorbeeld wordt weergegeven hoe een getal en een tijdseenheid moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ce932-171">The following example shows how to use a number and a time unit.</span></span> <span data-ttu-id="ce932-172">Nummers mogen niet groter zijn dan 9999.</span><span class="sxs-lookup"><span data-stu-id="ce932-172">A number cannot be larger than 9999.</span></span>
+<span data-ttu-id="45bc1-235">In het volgende voorbeeld wordt weergegeven hoe een getal en een tijdseenheid moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-235">The following example shows how to use a number and a time unit.</span></span> <span data-ttu-id="45bc1-236">Nummers mogen niet groter zijn dan 9999.</span><span class="sxs-lookup"><span data-stu-id="45bc1-236">A number cannot be larger than 9999.</span></span>
 
-|  <span data-ttu-id="ce932-173">Expressie</span><span class="sxs-lookup"><span data-stu-id="ce932-173">Expression</span></span>  |  <span data-ttu-id="ce932-174">Betekenis</span><span class="sxs-lookup"><span data-stu-id="ce932-174">Meaning</span></span>  |
+|  <span data-ttu-id="45bc1-237">Expressie</span><span class="sxs-lookup"><span data-stu-id="45bc1-237">Expression</span></span>  |  <span data-ttu-id="45bc1-238">Betekenis</span><span class="sxs-lookup"><span data-stu-id="45bc1-238">Meaning</span></span>  |
 |--------------|-----------|
-|<span data-ttu-id="ce932-175">10D</span><span class="sxs-lookup"><span data-stu-id="ce932-175">10D</span></span>|<span data-ttu-id="ce932-176">10 dagen vanaf vandaag</span><span class="sxs-lookup"><span data-stu-id="ce932-176">10 days from today</span></span>|
-|<span data-ttu-id="ce932-177">2W</span><span class="sxs-lookup"><span data-stu-id="ce932-177">2W</span></span>|<span data-ttu-id="ce932-178">2 weken vanaf vandaag</span><span class="sxs-lookup"><span data-stu-id="ce932-178">2 weeks from today</span></span>|
+|`10D`|<span data-ttu-id="45bc1-239">10 dagen vanaf vandaag</span><span class="sxs-lookup"><span data-stu-id="45bc1-239">10 days from today</span></span>|
+|`2W`|<span data-ttu-id="45bc1-240">2 weken vanaf vandaag</span><span class="sxs-lookup"><span data-stu-id="45bc1-240">2 weeks from today</span></span>|
 
-<span data-ttu-id="ce932-179">In het volgende voorbeeld wordt weergegeven hoe een tijdseenheid en een getal moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ce932-179">The following example shows how to use a time unit and a number.</span></span>
+<span data-ttu-id="45bc1-241">In het volgende voorbeeld wordt weergegeven hoe een tijdseenheid en een getal moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-241">The following example shows how to use a time unit and a number.</span></span>
 
-|  <span data-ttu-id="ce932-180">Expressie</span><span class="sxs-lookup"><span data-stu-id="ce932-180">Expression</span></span>  |  <span data-ttu-id="ce932-181">Betekenis</span><span class="sxs-lookup"><span data-stu-id="ce932-181">Meaning</span></span>  |
+|  <span data-ttu-id="45bc1-242">Expressie</span><span class="sxs-lookup"><span data-stu-id="45bc1-242">Expression</span></span>  |  <span data-ttu-id="45bc1-243">Betekenis</span><span class="sxs-lookup"><span data-stu-id="45bc1-243">Meaning</span></span>  |
 |--------------|-----------|
-|<span data-ttu-id="ce932-182">D10</span><span class="sxs-lookup"><span data-stu-id="ce932-182">D10</span></span>|<span data-ttu-id="ce932-183">De volgende tiende dag van een maand</span><span class="sxs-lookup"><span data-stu-id="ce932-183">The next 10th day of a month</span></span>|
-|<span data-ttu-id="ce932-184">WD4</span><span class="sxs-lookup"><span data-stu-id="ce932-184">WD4</span></span>|<span data-ttu-id="ce932-185">De volgende vierde dag van een week \(donderdag\)</span><span class="sxs-lookup"><span data-stu-id="ce932-185">The next 4th day of a week \(Thursday\)</span></span>|
+|`D10`|<span data-ttu-id="45bc1-244">De volgende tiende dag van een maand</span><span class="sxs-lookup"><span data-stu-id="45bc1-244">The next 10th day of a month</span></span>|
+|`WD4`|<span data-ttu-id="45bc1-245">De volgende vierde dag van een week \(donderdag\)</span><span class="sxs-lookup"><span data-stu-id="45bc1-245">The next 4th day of a week \(Thursday\)</span></span>|
 
-<span data-ttu-id="ce932-186">Het volgende voorbeeld geeft weer hoe u deze drie soorten naar wens kunt combineren.</span><span class="sxs-lookup"><span data-stu-id="ce932-186">The following example shows how you can combine these three forms as needed.</span></span>
+<span data-ttu-id="45bc1-246">Het volgende voorbeeld geeft weer hoe u deze drie soorten naar wens kunt combineren.</span><span class="sxs-lookup"><span data-stu-id="45bc1-246">The following example shows how you can combine these three forms as needed.</span></span>
 
-|  <span data-ttu-id="ce932-187">Expressie</span><span class="sxs-lookup"><span data-stu-id="ce932-187">Expression</span></span>  |  <span data-ttu-id="ce932-188">Betekenis</span><span class="sxs-lookup"><span data-stu-id="ce932-188">Meaning</span></span>  |
+|  <span data-ttu-id="45bc1-247">Expressie</span><span class="sxs-lookup"><span data-stu-id="45bc1-247">Expression</span></span>  |  <span data-ttu-id="45bc1-248">Betekenis</span><span class="sxs-lookup"><span data-stu-id="45bc1-248">Meaning</span></span>  |
 |--------------|-----------|
-|<span data-ttu-id="ce932-189">CM\+10D</span><span class="sxs-lookup"><span data-stu-id="ce932-189">CM\+10D</span></span>|<span data-ttu-id="ce932-190">Lopende maand \+ 10 dagen</span><span class="sxs-lookup"><span data-stu-id="ce932-190">Current month \+ 10 days</span></span>|
+|`CM+10D`|<span data-ttu-id="45bc1-249">Lopende maand \+ 10 dagen</span><span class="sxs-lookup"><span data-stu-id="45bc1-249">Current month \+ 10 days</span></span>|
 
-<span data-ttu-id="ce932-191">In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het verleden aan te duiden.</span><span class="sxs-lookup"><span data-stu-id="ce932-191">The following example shows how you can use a minus sign to indicate a date in the past.</span></span>
+<span data-ttu-id="45bc1-250">In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het verleden aan te duiden.</span><span class="sxs-lookup"><span data-stu-id="45bc1-250">The following example shows how you can use a minus sign to indicate a date in the past.</span></span>
 
-|  <span data-ttu-id="ce932-192">Expressie</span><span class="sxs-lookup"><span data-stu-id="ce932-192">Expression</span></span>  |  <span data-ttu-id="ce932-193">Betekenis</span><span class="sxs-lookup"><span data-stu-id="ce932-193">Meaning</span></span>  |
+|  <span data-ttu-id="45bc1-251">Expressie</span><span class="sxs-lookup"><span data-stu-id="45bc1-251">Expression</span></span>  |  <span data-ttu-id="45bc1-252">Betekenis</span><span class="sxs-lookup"><span data-stu-id="45bc1-252">Meaning</span></span>  |
 |--------------|-----------|
-|<span data-ttu-id="ce932-194">-1J</span><span class="sxs-lookup"><span data-stu-id="ce932-194">-1Y</span></span>|<span data-ttu-id="ce932-195">1 jaar geleden vanaf vandaag</span><span class="sxs-lookup"><span data-stu-id="ce932-195">1 year ago from today</span></span>|
+|`-1Y`|<span data-ttu-id="45bc1-253">1 jaar geleden vanaf vandaag</span><span class="sxs-lookup"><span data-stu-id="45bc1-253">1 year ago from today</span></span>|
 
 > [!IMPORTANT]
->  <span data-ttu-id="ce932-196">Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag.</span><span class="sxs-lookup"><span data-stu-id="ce932-196">If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days.</span></span> <span data-ttu-id="ce932-197">Bijvoorbeeld: **1W** betekent zeven werkdagen.</span><span class="sxs-lookup"><span data-stu-id="ce932-197">For example, **1W**  means seven working days.</span></span>
+>  <span data-ttu-id="45bc1-254">Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag.</span><span class="sxs-lookup"><span data-stu-id="45bc1-254">If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days.</span></span> <span data-ttu-id="45bc1-255">Bijvoorbeeld: `1W` betekent zeven werkdagen.</span><span class="sxs-lookup"><span data-stu-id="45bc1-255">For example, `1W`  means seven working days.</span></span>
+<!--
+# Entering Date Ranges
+You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-## <a name="see-also"></a><span data-ttu-id="ce932-198">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ce932-198">See Also</span></span>
-<span data-ttu-id="ce932-199">[Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ce932-199">[Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="ce932-200">Datumberekening voor inkoop</span><span class="sxs-lookup"><span data-stu-id="ce932-200">Date Calculation for Purchases</span></span>](purchasing-date-calculation-for-purchases.md)  
-[<span data-ttu-id="ce932-201">Criteria in filters invoeren</span><span class="sxs-lookup"><span data-stu-id="ce932-201">Entering Criteria in Filters </span></span>](ui-enter-criteria-filters.md)  
+![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+
+Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
+Here are a couple of other examples:
+
+| Meaning | Example | Entries included |
+|---|---|---|
+|Equal to| 12 15 16 |Only those posted on December 15 2016.|
+|Interval| 12 15 16..01 15 17<br /><br />..12 15 16|Those posted on dates between and including December 15 2016 and January 15 2017.<br /><br />Those posted on December 15 2016 or earlier.|
+|Either/or|12 15 16&#124;12 16 16|Those posted on either December 15 or December 16 2016. If there are entries posted on both days, they will all be displayed.|
+
+You can also combine the various format types.
+
+| Example | Entries included |
+|---|---|
+|12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
+|..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
+
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+
+## Using Date Formulas
+A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
+
+> [!NOTE]
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+
+Here are some examples of how date formulas can be used:
+
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+
+-   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+
+-   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+
+The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
+
+|  Letter  |  Time specification  |
+|----------|----------------------|
+|C|Current|
+|D|Day\(s\)|
+|W|Week\(s\)|
+|M|Month\(s\)|
+|Q|Quarter\(s\)|
+|Y|Year\(s\)|
+
+You can construct a date formula in three ways.
+
+The following example shows how to use **C**, for current, and a time unit.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|CW|Current week|
+|CM|Current month|
+
+The following example shows how to use a number and a time unit. A number cannot be larger than 9999.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|10D|10 days from today|
+|2W|2 weeks from today|
+
+The following example shows how to use a time unit and a number.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|D10|The next 10th day of a month|
+|WD4|The next 4th day of a week \(Thursday\)|
+
+The following example shows how you can combine these three forms as needed.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|CM\+10D|Current month \+ 10 days|
+
+The following example shows how you can use a minus sign to indicate a date in the past.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|-1Y|1 year ago from today|
+
+> [!IMPORTANT]
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+
+-->
+
+## <a name="entering-times"></a><span data-ttu-id="45bc1-256">Tijden invoeren</span><span class="sxs-lookup"><span data-stu-id="45bc1-256">Entering Times</span></span>
+<span data-ttu-id="45bc1-257">Wanneer u tijden invoert, kunt u alle gewenste niet-spatie scheidingstekens invoegen tussen de eenheden, maar als u dubbele cijfers gebruikt voor elke eenheid tot aan milliseconden, is het niet vereist.</span><span class="sxs-lookup"><span data-stu-id="45bc1-257">When you enter times, you can insert any non-space separators that you want between the units, but if you use double digits for each unit up to milliseconds, then it is not required.</span></span>
+
+<span data-ttu-id="45bc1-258">U hoeft de alleen grootste eenheden te gebruiken die u nodig hebt. De rest wordt op nul ingesteld.</span><span class="sxs-lookup"><span data-stu-id="45bc1-258">You only have to write the largest units that you require; the rest will be set to zero.</span></span> <span data-ttu-id="45bc1-259">U kunt de AM/PM-indicator ook weglaten.</span><span class="sxs-lookup"><span data-stu-id="45bc1-259">You can also leave out any AM/PM indicator.</span></span>
+
+<span data-ttu-id="45bc1-260">In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren en hoe de invoer wordt geïnterpreteerd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-260">The following table lists the various ways in which times can be entered and how they are interpreted.</span></span> <span data-ttu-id="45bc1-261">Er wordt uitgegaan van een regio-instelling die tijden noteert volgens: **Uren:Minuten:Seconden.Milliseconden.**</span><span class="sxs-lookup"><span data-stu-id="45bc1-261">It assumes region settings that format times according to: **Hours:Minutes:Seconds.Milliseconds.**</span></span> <span data-ttu-id="45bc1-262">en die respectievelijk de indicatoren 'AM' en 'PM' gebruikt.</span><span class="sxs-lookup"><span data-stu-id="45bc1-262">and use the AM and PM indicators of 'AM' and 'PM', respectively.</span></span>
+
+|<span data-ttu-id="45bc1-263">**Invoer**</span><span class="sxs-lookup"><span data-stu-id="45bc1-263">**Entry**</span></span>      |<span data-ttu-id="45bc1-264">**Interpretatie**</span><span class="sxs-lookup"><span data-stu-id="45bc1-264">**Interpretation**</span></span>      |
+|---------------|------------------------|
+|`05:23:17`|<span data-ttu-id="45bc1-265">05:23:17</span><span class="sxs-lookup"><span data-stu-id="45bc1-265">05:23:17</span></span>|
+|`5`|<span data-ttu-id="45bc1-266">05:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-266">05:00:00</span></span>|
+|`5AM`|<span data-ttu-id="45bc1-267">05:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-267">05:00:00</span></span>|
+|`5P`|<span data-ttu-id="45bc1-268">17:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-268">17:00:00</span></span>|
+|`12`|<span data-ttu-id="45bc1-269">12:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-269">12:00:00</span></span>|
+|`12A`|<span data-ttu-id="45bc1-270">00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-270">00:00:00</span></span>|
+|`12P`|<span data-ttu-id="45bc1-271">12:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-271">12:00:00</span></span>|
+|`17`|<span data-ttu-id="45bc1-272">17:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-272">17:00:00</span></span>|
+|`5:30`|<span data-ttu-id="45bc1-273">05:30:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-273">05:30:00</span></span>|
+|`0530`|<span data-ttu-id="45bc1-274">05:30:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-274">05:30:00</span></span>|
+|`5:30:5`|<span data-ttu-id="45bc1-275">05:30:05</span><span class="sxs-lookup"><span data-stu-id="45bc1-275">05:30:05</span></span>|
+|`053005`|<span data-ttu-id="45bc1-276">05:30:05</span><span class="sxs-lookup"><span data-stu-id="45bc1-276">05:30:05</span></span>|
+|`5:30:5,50`|<span data-ttu-id="45bc1-277">05:30:05,5</span><span class="sxs-lookup"><span data-stu-id="45bc1-277">05:30:05.5</span></span>|
+|`053005050`|<span data-ttu-id="45bc1-278">05:30:05.05</span><span class="sxs-lookup"><span data-stu-id="45bc1-278">05:30:05.05</span></span>|
+
+<span data-ttu-id="45bc1-279">Houd er rekening mee dat milliseconden als decimale notatie worden geïnterpreteerd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-279">You should be aware that milliseconds are interpreted as decimal notation.</span></span> <span data-ttu-id="45bc1-280">Bijvoorbeeld `3`, `30` en `300` betekenen allemaal 300 milliseconden, en `03` betekent `30` en `003` betekent 3 milliseconden.</span><span class="sxs-lookup"><span data-stu-id="45bc1-280">So, for example, `3`, `30`, and `300` all mean 300 milliseconds, while `03` means `30` and `003` means 3 milliseconds.</span></span>
+
+<span data-ttu-id="45bc1-281">U kunt `24:00` niet voor middernacht gebruiken of gebruiken als waarde groter dan 24:00.</span><span class="sxs-lookup"><span data-stu-id="45bc1-281">You cannot use `24:00` to mean midnight, or use any value greater than 24:00.</span></span>
+
+<span data-ttu-id="45bc1-282">Het woord voor 'tijd' in de taal die [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="45bc1-282">The word for 'time' in the language used by [!INCLUDE[d365fin](includes/d365fin_long_md.md)] will be evaluated to the current time on your computer or mobile device.</span></span> <span data-ttu-id="45bc1-283">U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals `t` of `TIM`.</span><span class="sxs-lookup"><span data-stu-id="45bc1-283">You can enter any part of the word, starting from the beginning, such as `t` or `TIM`.</span></span>
+
+## <a name="entering-combined-dates-and-times"></a><span data-ttu-id="45bc1-284">Gecombineerde datums en tijden invoeren</span><span class="sxs-lookup"><span data-stu-id="45bc1-284">Entering combined Dates and Times</span></span>
+<span data-ttu-id="45bc1-285">Wanneer u een datumtijd invoert (een datum en een tijd gecombineerd tot één veld), moet u een spatie invoeren tussen de datum en de tijd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-285">When you enter datetimes, which are a date and time combined into one field, you must enter a space between the date and the time.</span></span> <span data-ttu-id="45bc1-286">Het datumdeel kan alleen spaties in de vorm van het officiële datumscheidingsteken van uw regio-instellingen bevatten.</span><span class="sxs-lookup"><span data-stu-id="45bc1-286">The date part can only contain spaces in the form of the official date separator of your region settings.</span></span> <span data-ttu-id="45bc1-287">De tijd kan spaties bevatten rond de AM/PM-indicator.</span><span class="sxs-lookup"><span data-stu-id="45bc1-287">The time can contain spaces around the AM/PM indicator.</span></span>
+
+<span data-ttu-id="45bc1-288">Het is ook mogelijk alleen een datum in een datumtijdveld in te voeren, maar u kunt niet alleen een tijd invoeren.</span><span class="sxs-lookup"><span data-stu-id="45bc1-288">It is also possible to enter only a date in a datetime field, but it is not possible to enter only a time.</span></span>
+
+<span data-ttu-id="45bc1-289">In de volgende tabel staan enkele voorbeelden van datum/tijd-combinaties.</span><span class="sxs-lookup"><span data-stu-id="45bc1-289">The following table lists some examples of date/time combinations.</span></span> <span data-ttu-id="45bc1-290">Met de regio-instellingen in de voorbeelden worden datums weergegeven in de notatie dag\-maand\-jaar, met AM/PM-indicatoren, Engelse taal en zondag als begin van de week.</span><span class="sxs-lookup"><span data-stu-id="45bc1-290">The region settings in the examples displays dates in the day\-month\-year format, using AM/PM designators, English language, and Sunday as the start of the week.</span></span>
+
+|<span data-ttu-id="45bc1-291">**Invoer**</span><span class="sxs-lookup"><span data-stu-id="45bc1-291">**Entry**</span></span>      |<span data-ttu-id="45bc1-292">**Interpretatie**</span><span class="sxs-lookup"><span data-stu-id="45bc1-292">**Interpretation**</span></span>      |
+|---------------|------------------------|
+|`08-01-2016 05:48:12 PM`|<span data-ttu-id="45bc1-293">08\-01\-2016 05:48:12 PM</span><span class="sxs-lookup"><span data-stu-id="45bc1-293">08\-01\-2016 05:48:12 PM</span></span>|
+|`131202 132455`|<span data-ttu-id="45bc1-294">13\-12\-2002 13:24:55</span><span class="sxs-lookup"><span data-stu-id="45bc1-294">13\-12\-2002 13:24:55</span></span>|
+|`1-12-02 10`|<span data-ttu-id="45bc1-295">01\-12\-2002 10:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-295">01\-12\-2002 10:00:00</span></span>|
+|`1.12.02 5`|<span data-ttu-id="45bc1-296">01\-12\-2002 05:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-296">01\-12\-2002 05:00:00</span></span>|
+|`1.12.02`|<span data-ttu-id="45bc1-297">01\-12\-2002 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-297">01\-12\-2002 00:00:00</span></span>|
+|`11 12`|<span data-ttu-id="45bc1-298">11\-werkdatummaand\-werkdatumjaar 12:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-298">11\-work date month\-work date year 12:00:00</span></span>|
+|`1112 12`|<span data-ttu-id="45bc1-299">11\-12\-werkdatumjaar 12:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-299">11\-12\-work date year 12:00:00</span></span>|
+|<span data-ttu-id="45bc1-300">`t` of `today`</span><span class="sxs-lookup"><span data-stu-id="45bc1-300">`t` or `today`</span></span>|<span data-ttu-id="45bc1-301">huidige datum 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-301">today's date 00:00:00</span></span>|
+|`t 10:30`|<span data-ttu-id="45bc1-302">huidige datum 10:30:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-302">today's date 10:30:00</span></span>|
+|`t 3:3:3`|<span data-ttu-id="45bc1-303">huidige datum 03:03:03</span><span class="sxs-lookup"><span data-stu-id="45bc1-303">today's date 03:03:03</span></span>|
+|<span data-ttu-id="45bc1-304">`w` of `workdate`</span><span class="sxs-lookup"><span data-stu-id="45bc1-304">`w` or `workdate`</span></span>|<span data-ttu-id="45bc1-305">de werkdatum 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-305">the working date 00:00:00</span></span>|
+|<span data-ttu-id="45bc1-306">`m` of `Monday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-306">`m` or `Monday`</span></span>|<span data-ttu-id="45bc1-307">Maandag van de werkdatumweek 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-307">Monday of the work date week 00:00:00</span></span>|
+|<span data-ttu-id="45bc1-308">`tu` of `Tuesday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-308">`tu` or `Tuesday`</span></span>|<span data-ttu-id="45bc1-309">Dinsdag van de werkdatumweek 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-309">Tuesday of the work date week 00:00:00</span></span>|
+|<span data-ttu-id="45bc1-310">`sa` of `Saturday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-310">`sa` or `Saturday`</span></span>|<span data-ttu-id="45bc1-311">Zaterdag van de werkdatumweek 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-311">Saturday of the work date week 00:00:00</span></span>|
+|<span data-ttu-id="45bc1-312">`s` of `Sunday`</span><span class="sxs-lookup"><span data-stu-id="45bc1-312">`s` or `Sunday`</span></span>|<span data-ttu-id="45bc1-313">Zondag van de werkdatumweek 00:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-313">Sunday of the work date week 00:00:00</span></span>|
+|`tu 10:30`|<span data-ttu-id="45bc1-314">Dinsdag van de werkdatumweek 10:30:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-314">Tuesday of the work date week 10:30:00</span></span>|
+|`tu 3:3:3`|<span data-ttu-id="45bc1-315">Dinsdag van de werkdatumweek 03:03:03</span><span class="sxs-lookup"><span data-stu-id="45bc1-315">Tuesday of the work date week 03:03:03</span></span>|
+|`t23 t`|<span data-ttu-id="45bc1-316">Dinsdag van week 23 van het werkdatumjaar huidige tijd van dag</span><span class="sxs-lookup"><span data-stu-id="45bc1-316">Tuesday of week 23 of the work date year, current time of day</span></span>|
+|`t23`|<span data-ttu-id="45bc1-317">Dinsdag van week 23 van het werkdatumjaar</span><span class="sxs-lookup"><span data-stu-id="45bc1-317">Tuesday of week 23 of the work date year</span></span>|
+|`t 23`|<span data-ttu-id="45bc1-318">Vandaag 23:00:00</span><span class="sxs-lookup"><span data-stu-id="45bc1-318">Today 23:00:00</span></span>|
+|`t-1`|<span data-ttu-id="45bc1-319">Dinsdag van week 1 van het werkdatumjaar</span><span class="sxs-lookup"><span data-stu-id="45bc1-319">Tuesday of week 1 of the work date year</span></span>|
+
+## <a name="entering-duration"></a><span data-ttu-id="45bc1-320">Duur invoeren</span><span class="sxs-lookup"><span data-stu-id="45bc1-320">Entering Duration</span></span>
+<span data-ttu-id="45bc1-321">Sommige velden in toepassingsmodule vertegenwoordigen een duur of hoeveelheid verstreken tijd, in plaats van een specifieke datum of tijd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-321">Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time.</span></span> <span data-ttu-id="45bc1-322">De duur moet worden ingevoerd als een getal gevolgd door de eenheid.</span><span class="sxs-lookup"><span data-stu-id="45bc1-322">You enter a duration as a number followed by its unit of measure.</span></span>
+
+<span data-ttu-id="45bc1-323">Hier volgen enkele voorbeelden.</span><span class="sxs-lookup"><span data-stu-id="45bc1-323">Here are some examples.</span></span>
+
+|<span data-ttu-id="45bc1-324">**Duur**</span><span class="sxs-lookup"><span data-stu-id="45bc1-324">**Duration**</span></span>|<span data-ttu-id="45bc1-325">**Eenheid**</span><span class="sxs-lookup"><span data-stu-id="45bc1-325">**Unit of measure**</span></span>|
+|------------|-------------------|
+|`2h`|<span data-ttu-id="45bc1-326">2 uur</span><span class="sxs-lookup"><span data-stu-id="45bc1-326">2 hrs</span></span>|
+|`6h 30 m`|<span data-ttu-id="45bc1-327">6 uur en 30 minuten</span><span class="sxs-lookup"><span data-stu-id="45bc1-327">6 hrs 30 mins</span></span>|
+|`6.5h`|<span data-ttu-id="45bc1-328">6 uur en 30 minuten</span><span class="sxs-lookup"><span data-stu-id="45bc1-328">6 hrs 30 mins</span></span>|
+|`90m`|<span data-ttu-id="45bc1-329">1 uur en 30 minuten</span><span class="sxs-lookup"><span data-stu-id="45bc1-329">1 hr 30 mins</span></span>|
+|`2d 6h 30m`|<span data-ttu-id="45bc1-330">2 dagen, 6 uur en 30 minuten</span><span class="sxs-lookup"><span data-stu-id="45bc1-330">2 days 6 hrs 30 mins</span></span>|
+|`2d 6h 30m 56s 600ms`|<span data-ttu-id="45bc1-331">2 dagen, 6 uur, 30 minuten, 56 seconden en 600 milliseconden</span><span class="sxs-lookup"><span data-stu-id="45bc1-331">2 days 6 hrs 30 mins 56 secs 600 msecs</span></span>|
+
+<span data-ttu-id="45bc1-332">U kunt ook een getal invoeren, dat automatisch naar een duur wordt geconverteerd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-332">You can also enter a number, which will be automatically converted to a duration.</span></span> <span data-ttu-id="45bc1-333">Dit gebeurt op basis van de standaardeenheid die in het veld Duur is ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-333">The number you enter is converted according to the default unit of measure that has been specified for the duration field.</span></span>
+
+<span data-ttu-id="45bc1-334">Als u wilt nagaan welke eenheid wordt gebruikt in het veld Duur, voert u een getal in en bekijkt u in welke eenheid het getal wordt omgezet.</span><span class="sxs-lookup"><span data-stu-id="45bc1-334">To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.</span></span>
+
+<span data-ttu-id="45bc1-335">Als de maateenheid uren is, wordt het getal `5` bijvoorbeeld naar 5 uur geconverteerd.</span><span class="sxs-lookup"><span data-stu-id="45bc1-335">For example, if the unit of measure is hours, the number `5` is converted to 5 hrs.</span></span>
+
+
+## <a name="see-also"></a><span data-ttu-id="45bc1-336">Zie ook</span><span class="sxs-lookup"><span data-stu-id="45bc1-336">See Also</span></span>
+<span data-ttu-id="45bc1-337">[Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="45bc1-337">[Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="45bc1-338">Datumberekening voor inkoop</span><span class="sxs-lookup"><span data-stu-id="45bc1-338">Date Calculation for Purchases</span></span>](purchasing-date-calculation-for-purchases.md)  
+[<span data-ttu-id="45bc1-339">Criteria in filters invoeren</span><span class="sxs-lookup"><span data-stu-id="45bc1-339">Entering Criteria in Filters </span></span>](ui-enter-criteria-filters.md)  
 
