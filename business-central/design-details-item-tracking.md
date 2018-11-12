@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -25,12 +25,12 @@ Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het
 Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.  
 
 ## <a name="in-this-section"></a>In dit gedeelte  
-* [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  
-* [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md)  
-* [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md)  
-* [Ontwerpdetails: Venster Artikeltraceringsregels](design-details-item-tracking-lines-window.md)  
-* [Ontwerpdetails: Beschikbaarheid artikeltracering](design-details-item-tracking-availability.md)  
-* [Ontwerpdetails: Artikeltracering en planning](design-details-item-tracking-and-planning.md)  
-* [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
-* [Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)
+[Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  
+[Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md)  
+[Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md)  
+[Ontwerpdetails: Venster Artikeltraceringsregels](design-details-item-tracking-lines-window.md)  
+[Ontwerpdetails: Beschikbaarheid artikeltracering](design-details-item-tracking-availability.md)  
+[Ontwerpdetails: Artikeltracering en planning](design-details-item-tracking-and-planning.md)  
+[Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
+[Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)
 
