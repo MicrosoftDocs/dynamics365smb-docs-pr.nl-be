@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e167935f1bb4815093a1a9bd345da8213219ca08
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 2419755f5788eb7cb8ed464ac97fccd7e63e795c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
@@ -30,7 +30,7 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsprincipes.|Het venster **Productie-instellingen**.|  
+|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsprincipes.|De pagina **Productie-instellingen**.|  
 |Een standaardwerkweek in de productieafdeling definiëren met de begin- en eindtijd van elke werkdag en de bijbehorende dienst.|[Productieagenda's maken](production-how-to-create-work-center-calendars.md)|  
 |Vaste waarden en vereisten van productieresources indelen als afdelingen of bewerkingsplaatsen om de productie-output te bepalen.|[Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)|
 |Productiebewerkingen in de vereiste volgorde indelen en met de vereiste werktijden toewijzen aan afdelingen of bewerkingsplaatsen.|[Bewerkingsplannen maken](production-how-to-create-routings.md)|
