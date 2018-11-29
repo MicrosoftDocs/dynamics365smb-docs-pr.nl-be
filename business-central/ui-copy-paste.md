@@ -63,7 +63,7 @@ U kunt zoveel rijen kopiëren als u in beeld hebt geschoven. Als u bijvoorbeeld 
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Moet ik exact hetzelfde aantal kolommen hebben wanneer ik rijen plak?
 Ja. Ongeacht of u rijen kopieert uit [!INCLUDE[d365fin](includes/d365fin_md.md)], uit Excel of uit een andere tabelbron, de rijen die u plakt, moeten exact overeenkomende kolommen hebben; niet meer en niet minder.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Waarom krijg ik fouten wanneer ik rijen plak? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Waarom krijg ik fouten wanneer ik rijen plak?
 Wanneer u plakt in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt elke rij gecontroleerd om ervoor te zorgen dat waarden in elke kolom geldig zijn. Als een kolom een waarde bevat die niet geldig is, wordt het plakken gestopt en wordt een foutbericht weergegeven. Als u dit wilt vermijden, zorgt u dat de kolommen geldige waarden bevatten voordat u deze plakt.
 
 
