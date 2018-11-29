@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 20da63166ab377c65a5d5ada8fc082cffe8004e4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/28/2018
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a><span data-ttu-id="4379f-142">Moet ik exact hetzelfde aantal kolommen hebben wanneer ik rijen plak?</span><span class="sxs-lookup"><span data-stu-id="4379f-142">Must I have the exact same number of columns when pasting rows?</span></span>
 <span data-ttu-id="4379f-143">Ja.</span><span class="sxs-lookup"><span data-stu-id="4379f-143">Yes.</span></span> <span data-ttu-id="4379f-144">Ongeacht of u rijen kopieert uit [!INCLUDE[d365fin](includes/d365fin_md.md)], uit Excel of uit een andere tabelbron, de rijen die u plakt, moeten exact overeenkomende kolommen hebben; niet meer en niet minder.</span><span class="sxs-lookup"><span data-stu-id="4379f-144">Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.</span></span>
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a><span data-ttu-id="4379f-145">Waarom krijg ik fouten wanneer ik rijen plak?</span><span class="sxs-lookup"><span data-stu-id="4379f-145">Why do I get errors when pasting rows?</span></span> 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a><span data-ttu-id="4379f-145">Waarom krijg ik fouten wanneer ik rijen plak?</span><span class="sxs-lookup"><span data-stu-id="4379f-145">Why do I get errors when pasting rows?</span></span>
 <span data-ttu-id="4379f-146">Wanneer u plakt in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt elke rij gecontroleerd om ervoor te zorgen dat waarden in elke kolom geldig zijn.</span><span class="sxs-lookup"><span data-stu-id="4379f-146">When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid.</span></span> <span data-ttu-id="4379f-147">Als een kolom een waarde bevat die niet geldig is, wordt het plakken gestopt en wordt een foutbericht weergegeven.</span><span class="sxs-lookup"><span data-stu-id="4379f-147">If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed.</span></span> <span data-ttu-id="4379f-148">Als u dit wilt vermijden, zorgt u dat de kolommen geldige waarden bevatten voordat u deze plakt.</span><span class="sxs-lookup"><span data-stu-id="4379f-148">To avoid this, make sure that the columns have valid values before you paste them.</span></span>
 
 
