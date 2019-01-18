@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contactpersonen in Business Central synchroniseren met contactpersonen in Microsoft Outlook
@@ -23,9 +23,9 @@ U kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] dezelfde contactpersonen z
 Een speciale map in Outlook maakt het gemakkelijk contactpersonen te vinden en u kunt een filter instellen om alleen de contactpersonen uit [!INCLUDE[d365fin](includes/d365fin_md.md)] te synchroniseren die u in Outlook wilt zien. Als de synchronisatie van contactpersonen is ingesteld, kunt u de synchronisatie handmatig starten of een automatische synchronisatie instellen die de contacten op geplande basis gesynchroniseerd houdt.  
 
 ## <a name="set-up-synchronization"></a>Synchronisatie instellen
-U stelt in hoe u contactpersonen wilt synchroniseren met Outlook in het venster **Instelling van Exchange-synchronisatie** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als vereiste moet uw gebruikersprofiel in [!INCLUDE[d365fin](includes/d365fin_md.md)] uw Office 365 e-mailaccount opgeven. U kunt dit controleren in de sectie **Office 365-verificatie** van uw gebruikersprofiel in de lijst **Gebruikers**.  
+U stelt in hoe u contactpersonen wilt synchroniseren met Outlook op de pagina **Instelling van Exchange-synchronisatie** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als vereiste moet uw gebruikersprofiel in [!INCLUDE[d365fin](includes/d365fin_md.md)] uw Office 365 e-mailaccount opgeven. U kunt dit controleren in de sectie **Office 365-verificatie** van uw gebruikersprofiel in de lijst **Gebruikers**.  
 
-Vervolgens kunt u in het venster **Instelling van Exchange-synchronisatie** controleren of de verbinding met Exchange werkt en vervolgens synchronisatie van contactpersonen instellen. Open het venster **Instelling van contactsynchronisatie** en start de synchronisatie. Stel desgewenst een filter in voor welke contactpersonen worden gesynchroniseerd tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. U kunt bijvoorbeeld een filter instellen op naam, type, bedrijf of iets soortgelijks. U kunt ook de standaardnaam wijzigen van de map waarmee de contactpersonen in Outlook worden gesynchroniseerd. De standaardnaam is *Business Central*.  
+Vervolgens kunt u op de pagina **Instelling van Exchange-synchronisatie** controleren of de verbinding met Exchange werkt en vervolgens synchronisatie van contactpersonen instellen. Open de pagina **Instelling van contactsynchronisatie** en start de synchronisatie. Stel desgewenst een filter in voor welke contactpersonen worden gesynchroniseerd tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. U kunt bijvoorbeeld een filter instellen op naam, type, bedrijf of iets soortgelijks. U kunt ook de standaardnaam wijzigen van de map waarmee de contactpersonen in Outlook worden gesynchroniseerd. De standaardnaam is *Business Central*.  
 
 Wanneer deze synchronisatie is ingesteld, worden wijzigingen die u in de contactpersoon aanbrengt in Outlook of [!INCLUDE[d365fin](includes/d365fin_md.md)], met de andere gesynchroniseerd.  
 

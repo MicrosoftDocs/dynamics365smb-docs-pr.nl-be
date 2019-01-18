@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a52997195a95ff43eb049025b7b8ab3038381039
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b728815592975091a683eb96f87b1a632da62567
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Ontwerpdetails: Inkomende magazijnstromen
@@ -28,12 +28,12 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
  In elementaire magazijnconfiguraties draait de stroom van artikelen tussen opslaglocaties binnen het bedrijf om het picken van onderdelen en het opslaan van eindartikelen voor productie- of assemblageorders en ad-hoc verplaatsingen, zoals aanvullingen van opslaglocaties, zonder relatie met brondocumenten.  
 
 ### <a name="flows-to-and-from-production"></a>Stroomt naar en van productie  
- De belangrijkste integratie tussen productieorders en standaardmagazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid productiecomponenten te picken via de vensters **Voorraadpick** of **Voorraadverplaatsing**.  
+ De belangrijkste integratie tussen productieorders en standaardmagazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid productiecomponenten te picken via de pagina's **Voorraadpick** of **Voorraadverplaatsing**.  
 
 > [!NOTE]  
->  In het venster **Voorraadpick** wordt het componentverbruik geboekt met de pickboeking. Met het venster **Voorraadverplaatsing** worden alleen opslaglocatiecorrecties geregistreerd; er worden geen artikelboekingen uitgevoerd.  
+>  Op de pagina **Voorraadpick** wordt het componentverbruik geboekt met de pickboeking. Met de pagina **Voorraadverplaatsing** worden alleen opslaglocatiecorrecties geregistreerd; er worden geen artikelboekingen uitgevoerd.  
 
- Naast verwerking van onderdelen bestaat de integratie uit het vermogen geproduceerde artikelen op te slaan met het venster **Voorraadopslag**.  
+ Naast verwerking van onderdelen bestaat de integratie uit het vermogen geproduceerde artikelen op te slaan met de pagina **Voorraadopslag**.  
 
  De velden **Code verbruikslocatie**, **Code opslaglocatie gereed product** en **Code grijpvoorraadlocatie** op de vestigingskaart of de kaart van afdelingen/bewerkingsplaatsen definiëren de standaardstromen van en naar productiegebieden.  
 
@@ -42,13 +42,13 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 ### <a name="flows-to-and-from-assembly"></a>Stroomt naar en van assemblage  
  De belangrijkste integratie tussen assemblageorders en standaardmagazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid assemblagecomponenten te verplaatsen naar het assemblagegebied.  
 
- Hoewel er geen specifieke magazijnfunctionaliteit bestaat voor de opslag van componenten, kan de opslaglocatiecode op de assemblageorderkop worden ingesteld op een standaardopslaglocatie. Het boeken van de assemblageorder fungeert dan als het boeken van een opslag. De magazijnactiviteit van het verplaatsen van componenten in het magazijn kan worden beheerd in het venster **Interne verplaatsing**, zonder relatie met de assemblageorder.  
+ Hoewel er geen specifieke magazijnfunctionaliteit bestaat voor de opslag van componenten, kan de opslaglocatiecode op de assemblageorderkop worden ingesteld op een standaardopslaglocatie. Het boeken van de assemblageorder fungeert dan als het boeken van een opslag. De magazijnactiviteit van het verplaatsen van componenten in het magazijn kan worden beheerd op de pagina **Interne verplaatsing**, zonder relatie met de assemblageorder.  
 
  Er zijn de volgende assemblagestromen.  
 
 |Workflow|Omschrijving|  
 |----------|---------------------------------------|  
-|Op voorraad assembleren|De onderdelen zijn nodig voor een assemblageorder waar de output wordt opgeslagen in het magazijn.<br /><br /> Deze magazijnstroom wordt beheerd in het venster **Voorraadverplaatsing**. Een nemen-regel specificeert waar de onderdelen moeten worden genomen. Een plaatsen-regel specificeert waar de onderdelen moeten worden geplaatst.|  
+|Op voorraad assembleren|De onderdelen zijn nodig voor een assemblageorder waar de output wordt opgeslagen in het magazijn.<br /><br /> Deze magazijnstroom wordt beheerd op de pagina **Voorraadverplaatsing**. Een nemen-regel specificeert waar de onderdelen moeten worden genomen. Een plaatsen-regel specificeert waar de onderdelen moeten worden geplaatst.|  
 |Op order assembleren|De onderdelen zijn nodig voor een assemblageorder die is gekoppeld aan een verkooporder die wordt verzonden wanneer het verkochte artikel wordt geassembleerd.|  
 
 > [!NOTE]  
@@ -60,26 +60,26 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 >  Het veld **Opslagloc. verz. asm.-op-order** werkt als de opslaglocatie vanuit assemblage in op-order-assembleren-scenario's.  
 
 ### <a name="ad-hoc-movements"></a>Ad hoc verplaatsingen  
- In standaardmagazijnomgevingen wordt de verplaatsing van artikelen van opslaglocatie naar opslaglocatie, zonder relatie met brondocumenten, uitgevoerd in het venster **Interne verplaatsing**, dat werkt in combinatie met het venster **Voorraadverplaatsing**.  
+ In standaardmagazijnomgevingen wordt de verplaatsing van artikelen van opslaglocatie naar opslaglocatie, zonder relatie met brondocumenten, uitgevoerd op de pagina **Interne verplaatsing**, dat werkt in combinatie met de pagina **Voorraadverplaatsing**.  
 
- Een andere manier om artikelen ad hoc te verplaatsen tussen opslaglocaties is door positieve posten te boeken in het veld **Nieuwe opslaglocatie** in het venster **Art.-herindelingsdagboek**.  
+ Een andere manier om artikelen ad hoc te verplaatsen tussen opslaglocaties is door positieve posten te boeken in het veld **Nieuwe opslaglocatie** op de pagina **Art.-herindelingsdagboek**.  
 
 ## <a name="internal-flows-in-advanced-warehousing"></a>Interne stromen in geavanceerde magazijnomgevingen  
  In geavanceerde magazijnconfiguraties draait de stroom van artikelen tussen opslaglocaties in het bedrijf om het picken van onderdelen en het opslaan van eindartikelen voor productieorders en het picken van onderdelen voor assemblageorders. Bovendien doen interne stromen zich voor als ad-hoc verplaatsingen, zoals opslaglocatieaanvullingen, zonder relatie met brondocumenten.  
 
 ### <a name="flows-to-and-from-production"></a>Stroomt naar en van productie  
- De belangrijkste integratie tussen productieorders en geavanceerde magazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid productiecomponenten te picken, in het venster **Magazijnpick** en het venster **Pickvoorstel**, en de mogelijkheid geproduceerde artikelen op te slaan via het venster **Interne mag.-opslag**.  
+ De belangrijkste integratie tussen productieorders en geavanceerde magazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid productiecomponenten te picken, op de pagina **Magazijnpick** en de pagina **Pickvoorstel**, en de mogelijkheid geproduceerde artikelen op te slaan via de pagina **Interne mag.-opslag**.  
 
- Een ander integratiepunt in productie wordt verschaft door het venster **Magazijnverplaatsing**, samen met het venster Verplaatsingsvoorstel, waarmee u onderdelen kunt plaatsen en geproduceerde artikelen kunt kiezen voor vrijgegeven productieorders.  
+ Een ander integratiepunt in productie wordt verschaft door de pagina **Magazijnverplaatsing**, samen met de pagina Verplaatsingsvoorstel, waarmee u onderdelen kunt plaatsen en geproduceerde artikelen kunt kiezen voor vrijgegeven productieorders.  
 
  De velden **Code verbruikslocatie**, **Code opslaglocatie gereed product** en **Code grijpvoorraadlocatie** op de vestigingskaart of de kaart van afdelingen/bewerkingsplaatsen definiëren de standaardstromen van en naar productiegebieden.  
 
  Voor meer informatie over hoe componentenverbruik wordt afgeboekt vanuit de opslaglocaties Naar productie of Grijpvoorraad raadpleegt u het gedeelte "Productiecomponenten afboeken in het magazijn" in dit onderwerp.  
 
 ### <a name="flows-to-and-from-assembly"></a>Stroomt naar en van assemblage  
- De belangrijkste integratie tussen assemblageorders en geavanceerde magazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid assemblagecomponenten te picken, zowel via het venster **Magazijnpick** als het venster **Pickvoorstel**. Deze functionaliteit werkt net als bij het picken van onderdelen voor productieorders.  
+ De belangrijkste integratie tussen assemblageorders en geavanceerde magazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid assemblagecomponenten te picken, zowel via de pagina **Magazijnpick** als de pagina **Pickvoorstel**. Deze functionaliteit werkt net als bij het picken van onderdelen voor productieorders.  
 
- Hoewel er geen specifieke magazijnfunctionaliteit bestaat voor de opslag van componenten, kan de opslaglocatiecode op de assemblageorderkop worden ingesteld op een standaardopslaglocatie. Het boeken van de assemblageorder fungeert dan als het boeken van een opslag. De magazijnactiviteit van het verplaatsen van componenten in het magazijn kan worden beheerd in het venster **Verplaatsingsvoorstel** of het venster **Interne mag.-opslag**, zonder relatie met de assemblageorder.  
+ Hoewel er geen specifieke magazijnfunctionaliteit bestaat voor de opslag van componenten, kan de opslaglocatiecode op de assemblageorderkop worden ingesteld op een standaardopslaglocatie. Het boeken van de assemblageorder fungeert dan als het boeken van een opslag. De magazijnactiviteit van het verplaatsen van componenten in het magazijn kan worden beheerd op de pagina **Verplaatsingsvoorstel** of de pagina **Interne mag.-opslag**, zonder relatie met de assemblageorder.  
 
 > [!NOTE]  
 >  Als artikelen op order worden geassembleerd, activeert de magazijnverzending van de gekoppelde verkooporder een magazijnpick voor alle betreffende assemblagecomponenten, niet alleen voor het verkochte artikel zoals wanneer voorraadartikelen worden verzonden.  
@@ -87,7 +87,7 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
  De velden **Opslaglocatie Naar-assemblage** en **Opslagloc.code Vanuit-assembl.** op de vestigingskaart definiëren standaardstromen van en naar assemblagegebieden.  
 
 ### <a name="ad-hoc-movements"></a>Ad hoc verplaatsingen  
- In geavanceerde magazijnomgevingen wordt de verplaatsing van artikelen van opslaglocatie naar opslaglocatie, zonder relatie met brondocumenten, beheerd in het venster **Verplaatsingsvoorstel** en geregistreerd in het venster Magazijnverplaatsing.  
+ In geavanceerde magazijnomgevingen wordt de verplaatsing van artikelen van opslaglocatie naar opslaglocatie, zonder relatie met brondocumenten, beheerd op de pagina **Verplaatsingsvoorstel** en geregistreerd op de pagina Magazijnverplaatsing.  
 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Productieonderdelen in het magazijn afboeken  
  Indien ingesteld op de artikelkaart worden onderdelen met magazijnpicks geboekt als verbruikt door de consumptieorder wanneer de magazijnpick wordt geregistreerd. Met de afboekingsmethode **Pick + Voorwaarts** en **Pick + Achterwaarts** activeert de pickregistratie de verwante verbruikboeking respectievelijk wanneer de eerste bewerking wordt gestart of wanneer de laatste bewerking wordt beëindigd.  

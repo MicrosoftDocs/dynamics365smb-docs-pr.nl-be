@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 53b063598cf21ca5b5de72d953995b48a17d64a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Werkstroomberichten instellen
@@ -30,17 +30,17 @@ In veel werkstroomantwoorden wordt aan een gebruiker gemeld dat er een gebeurten
 
 U stelt verschillende aspecten van werkstroomberichten op de volgende plaatsen in:  
 
-1.  Voor goedkeuringswerkstromen kunt u de ontvangers van werkstroomberichten instellen door in het venster **Gebruikersinstellingen voor goedkeuring** een regel in te vullen voor elke gebruiker die deelneemt aan de werkstroom. Als bijvoorbeeld Gebruiker 2 wordt opgegeven in het veld **Fiatteur-id** op de regel voor Gebruiker 1, wordt het bericht over de goedkeuringsaanvraag verzonden naar Gebruiker 1. Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).  
-2.  U stelt in wanneer en hoe gebruikers werkstroomberichten ontvangen door het venster **Berichtplanning** in te vullen voor elke werkstroomgebruiker. Zie voor meer informatie [Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  U stelt de algemene inhoud en opmaak van berichten in, inclusief berichten over achterstallige werkstroomantwoorden, door berichtsjablonen in te stellen in het venster **Berichtsjablonen**. U kunt de standaardsjablonen gebruiken die worden geleverd bij [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-4.  U stelt specifieke inhoud en regels van een werkstroombericht in als u de betreffende werkstroom maakt. U doet dit door opties te selecteren in het **Opties werkstroomreactie** voor het werkstroomantwoord dat het bericht representeert. Zie voor meer informatie stap 9 in [Werkstromen maken](across-how-to-create-workflows.md).  
+1.  Voor goedkeuringswerkstromen kunt u de ontvangers van werkstroomberichten instellen door op de pagina **Gebruikersinstellingen voor goedkeuring** een regel in te vullen voor elke gebruiker die deelneemt aan de werkstroom. Als bijvoorbeeld Gebruiker 2 wordt opgegeven in het veld **Fiatteur-id** op de regel voor Gebruiker 1, wordt het bericht over de goedkeuringsaanvraag verzonden naar Gebruiker 1. Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).  
+2.  U stelt in wanneer en hoe gebruikers werkstroomberichten ontvangen door de pagina **Berichtplanning** in te vullen voor elke werkstroomgebruiker. Zie voor meer informatie [Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+3.  Als u wilt, kunt u de inhoud van het e-mailbericht wijzigen door rapport 1320, Berichte-mail te wijzigen. Zie voor meer informatie [Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md).  
+4.  U stelt specifieke inhoud en regels van een werkstroombericht in als u de betreffende werkstroom maakt. U doet dit door opties te selecteren op de pagina **Opties werkstroomreactie** voor het werkstroomantwoord dat het bericht representeert. Zie voor meer informatie stap 9 in [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="see-also"></a>Zie ook  
  [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)   
  [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)   
  [Opgeven wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Werkstromen maken](across-how-to-create-workflows.md)   
- [Berichtsjablonen beheren](across-how-to-manage-notification-templates.md)   
+ [Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md)   
  [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)   
  [E-mail instellen](admin-how-setup-email.md)   
  [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

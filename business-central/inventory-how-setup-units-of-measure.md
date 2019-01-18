@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Artikeleenheden instellen
@@ -30,7 +30,7 @@ Als een artikel in één eenheid in voorraad is, maar in een andere eenheid word
 ## <a name="to-set-up-a-unit-of-measure"></a>Een eenheid instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de artikelkaart waarvoor u alternatieve eenheden wilt instellen.
-3. Kies de actie **Eenheden**. Het venster **Artikeleenheden** wordt geopend.
+3. Kies de actie **Eenheden**. De pagina **Artikeleenheden** wordt geopend.
 4. Als het veld **Basiseenheid** op de artikelkaart is ingevuld, is die eenheid al ingesteld.
 5. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.
 6. Voer in het veld **Code** de naam van de eenheid in. Of kies het veld waaruit u de eenheidscodes in de database wilt selecteren.
@@ -49,12 +49,12 @@ Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelij
 5. Herhaal stap 2 tot en met 4 voor de maateenheidscodes en de talen waarvoor u vertalingen wilt invoeren.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties
-Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt u verschillende eenheden opgeven voor inkopen en verkopen. U moet hiervoor de eenheden instellen in het venster **Artikeleenheden**.
+Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt u verschillende eenheden opgeven voor inkopen en verkopen. U moet hiervoor de maateenheden instellen op de pagina **Artikeleenheden**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende artikelkaart waarvoor u een standaardeenheidscode voor verkopen of inkopen wilt opgeven.
-3. Open voor verkopen op het sneltabblad **Factureren** in het veld **Verkoopeenheid** het venster **Artikeleenheden**.
-4. Open voor inkopen op het sneltabblad **Aanvulling** in het veld **Ink.-eenheid** het venster **Artikeleenheden**.
+3. Open voor verkopen op het sneltabblad **Factureren** in het veld **Verkoopeenheid** de pagina **Artikeleenheden**.
+4. Open voor inkopen op het sneltabblad **Aanvulling** in het veld **Ink.-eenheid** de pagina **Artikeleenheden**.
 5. Selecteer de code die u als standaardeenheid voor respectievelijk verkopen of inkopen wilt instellen en kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook

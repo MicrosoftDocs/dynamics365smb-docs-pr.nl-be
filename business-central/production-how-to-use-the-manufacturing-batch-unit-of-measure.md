@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c76ce91b58d6cdba09652c54696dc38a87f950
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5db99544cea6cb4f34789a4b2a5cae602cc1f75
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Werken met productiebatcheenheden
 Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen**. Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Een productiestuklijst maken met behulp van een batcheenheid  
-1.  De productiebatcheenheid wordt ingesteld als alternatieve eenheid in het venster **Artikeleenheden** bij het artikel dat moet worden geproduceerd. De batcheenheid komt niet in de plaats van de basiseenheid van het artikel.  
+1.  De productiebatcheenheid wordt ingesteld als alternatieve eenheid op de pagina **Artikeleenheden** bij het artikel dat moet worden geproduceerd. De batcheenheid komt niet in de plaats van de basiseenheid van het artikel.  
 2.  Maak een productiestuklijst voor het artikel dat is ingesteld met de productiebatcheenheid. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-production-boms.md).  
 3.  Selecteer de eenheidscode voor de productiebatcheenheid in het veld **Eenheidscode**.  
 4.  Voer voor elke productiestuklijstregel in het veld **Aantal per** het aantal van dit onderdeelartikel in dat nodig is om deze batcheenheid te maken.  

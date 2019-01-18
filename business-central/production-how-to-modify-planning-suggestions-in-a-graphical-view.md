@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Planningsuggesties in een grafische weergave wijzigen
 Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.
 
-In het venster **Artikelbeschikbaarheid per tijdlijn** kunt u bepaalde aanvulorders en suggesties wijzigen door elementen langs de x-as te slepen om het aantal te wijzigen of langs de y-as te slepen om de vervaldatum te wijzigen.  
+Op de pagina **Artikelbeschikbaarheid per tijdlijn** kunt u bepaalde aanvulorders en suggesties wijzigen door elementen langs de x-as te slepen om het aantal te wijzigen of langs de y-as te slepen om de vervaldatum te wijzigen.  
 
- In het venster **Artikelbeschikbaarheid per tijdlijn** en het venster **Planningsvoorstel** kunt u de volgende wijzigingen aanbrengen:  
+ Op de pagina **Artikelbeschikbaarheid per tijdlijn** en de pagina **Planningsvoorstel** kunt u de volgende wijzigingen aanbrengen:  
 
 -   Een voorgestelde voorzieningsorder die alleen als een planningsregel bestaat wijzigen.  
 -   Een bestaande voorzieningsorder die het planningssysteem voorstelt wijzigen.  
@@ -32,14 +32,14 @@ In het venster **Artikelbeschikbaarheid per tijdlijn** kunt u bepaalde aanvulord
 
 Zie voor meer informatie over de typen planningsregels die worden weergegeven het veld Omschrijving op het sneltabblad **Gebeurteniswijzigingen**.  
 
-Wanneer u **Wijzigingen opslaan** kiest in het venster **Artikelbeschikbaarheid per tijdlijn**, worden de wijzigingen die u hebt aangebracht gekopieerd naar de planning of het inkoopvoorstel. U kunt ze nu implementeren met de functie **Planningsboodschap uitvoeren - Plan**.  
+Wanneer u **Wijzigingen opslaan** kiest op de pagina **Artikelbeschikbaarheid per tijdlijn**, worden de wijzigingen die u hebt aangebracht gekopieerd naar de planning of het inkoopvoorstel. U kunt ze nu implementeren met de functie **Planningsboodschap uitvoeren - Plan**.  
 
-De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door slepen en neerzetten. Als alternatief kunt u de velden **Vervaldatum** en **Aantal** wijzigen op het sneltabblad **Event Changes** en de wijzigingen direct grafisch zien in het tabblad **Timeline** van het venster **Planningsvoorstel**.  
+De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door slepen en neerzetten. Als alternatief kunt u de velden **Vervaldatum** en **Aantal** wijzigen op het sneltabblad **Gebeurteniswijzigingen** en de wijzigingen direct grafisch zien in het tabblad **Tijdlijn** van de pagina **Planningsvoorstel**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Voorgestelde voorzieningsorders in de grafische weergave wijzigen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelbeschikbaarheid per tijdlijn** in en kies vervolgens de gerelateerde koppeling.  
 
-    Het venster **Artikelbeschikbaarheid per tijdlijn** wordt geopend met het artikelnummer, de vestiging en de variant van het artikel op de geselecteerde planningsregel vooraf ingevuld op de velden op het sneltabblad **Opties**. Het sneltabblad **Tijdlijn** toont een grafische weergave van de verwachte voorraad van het artikel, inclusief planningsvoorstellen.  
+    De pagina **Artikelbeschikbaarheid per tijdlijn** wordt geopend met het artikelnummer, de vestiging en de variant van het artikel op de geselecteerde planningsregel vooraf ingevuld op de velden op het sneltabblad **Opties**. Het sneltabblad **Tijdlijn** toont een grafische weergave van de verwachte voorraad van het artikel, inclusief planningsvoorstellen.  
 
 2.  Zorg ervoor dat het veld **Planningsvoorstellen opnemen** is geselecteerd.  
 3.  Zoek de voorgestelde voorzieningsorder die u wilt wijzigen. U kunt de aanpasbare elementen vinden door de groene cirkel en een pictogram van de schijf. Zie voor meer informatie over de verschillende symbolen de sectie Symbolen en pictogrammen op het sneltabblad Tijdlijn.  
@@ -53,7 +53,7 @@ De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door
     |**Voorziening automatisch aanpassen**|Optimaliseert een nieuwe voorziening die u in de grafiek hebt gemaakt door ervoor te zorgen dat deze resulteert in nul-voorraad voor de volgende voorziening.|  
     |**Voorziening verwijderen**|Hiermee verwijdert u het element in het sneltabblad **Tijdlijn** en verwijdert u de planningsregel wanneer u **Wijzigingen opslaan** kiest. Het pictogram verandert in een schijf met een rood kruis wanneer de voorziening is verwijderd.<br /><br /> **OPMERKING:** u kunt alleen een voorziening van het type planningsboodschap **Nieuw** verwijderen. Nadat u **Wijzigingen opslaan** kiest, moet u handmatig de betreffende planningsregel verwijderen in het plannings- of inkoopvoorstel.|  
 
-7.  Kies de actie **Opnieuw laden** als u alle wijzigingen wilt terugdraaien die u hebt aangebracht nadat u het venster **Artikelbeschikbaarheid per tijdlijn** voor het laatst hebt geopend of **Opnieuw laden** hebt geselecteerd.  
+7.  Kies de actie **Opnieuw laden** als u alle wijzigingen wilt terugdraaien die u hebt aangebracht nadat u de pagina **Artikelbeschikbaarheid per tijdlijn** voor het laatst hebt geopend of **Opnieuw laden** hebt geselecteerd.  
 8. Wanneer de elementen zijn geplaatst waar u ze wilt in het schema, klikt u op **Wijzigingen opslaan** om het aangepaste aantal en de datumwijzigingen te kopiëren naar de plannings- of inkoopregels die de grafische elementen weergeven.  
 
 Om de wijzigingen in het voorzieningsplan te implementeren, moet u de resulterende planningsboodschappen van het plannings- of inkoopvoorstel opvolgen. Zie voor meer informatie Planningsboodschap uitvoeren - Plan.

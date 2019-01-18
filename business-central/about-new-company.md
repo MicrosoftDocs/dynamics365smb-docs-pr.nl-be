@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de containers voor bedrijfsgegevens die behoren tot een bedrijfsunit of rechtspersoon, een *bedrijf* genoemd. Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], krijgt u een demonstratiebedrijf en een leeg bedrijf, *Mijn bedrijf*. Schakelen tussen de bedrijven is eenvoudig: ga gewoon naar **Mijn instellingen** en ga naar het andere bedrijf. Maar u kunt ook nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)], afhankelijk van uw zakelijke behoeften. Wanneer u een nieuw bedrijf maakt, helpt een begeleide instelling u de basis in te stellen. Vervolgens kunt u relevante gegevens importeren uit uw oude systeem of een ander bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Nieuw bedrijf maken
-Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u de begeleide instellingswizard **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. De instellingswizard is beschikbaar vanuit het venster **Bedrijven** en vanuit de opzoekactie in het veld **Bedrijf** in **Mijn instellingen**.  
+Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u de begeleide instellingswizard **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. De instellingswizard is beschikbaar vanuit de pagina **Bedrijven** en vanuit de opzoekactie in het veld **Bedrijf** in **Mijn instellingen**.  
 
 De instellingswizard biedt drie sjablonen:
 
@@ -36,7 +36,7 @@ De instellingswizard biedt drie sjablonen:
 Als u eenvoudig aan de slag wilt gaan met een nieuw bedrijf, kiest u **Productie - Alleen instellingsgegevens** en importeert u uw eigen bedrijfsgegevens, zoals klanten, artikelen, en leveranciers. Kies de sjabloon **Nieuw** als u alles nieuw wilt instellen. In dat geval kunt u de begeleide instelling **Bedrijfsinstelling** gebruiken om u te helpen aan de slag te gaan met essentiële instellingsgegevens.  
 
 > [!NOTE]  
->   Wanneer u een nieuw bedrijf maakt, duurt het enkele minuten voordat u er toegang toe kunt krijgen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De instellingsstatus in het venster **Bedrijven** toont wanneer het nieuwe bedrijf gereed voor u is. Vervolgens kunt u naar het nieuwe bedrijf overschakelen door **Mijn instellingen** te kiezen.  
+>   Wanneer u een nieuw bedrijf maakt, duurt het enkele minuten voordat u er toegang toe kunt krijgen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De instellingsstatus op de pagina **Bedrijven** toont wanneer het nieuwe bedrijf gereed voor u is. Vervolgens kunt u naar het nieuwe bedrijf overschakelen door **Mijn instellingen** te kiezen.  
 
 Tijdens uw proef van 30 dagen kunt u een willekeurig aantal nieuwe bedrijven maken, maar deze zijn alleen tijdens de proef beschikbaar. Neem voor meer informatie contact op met uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 

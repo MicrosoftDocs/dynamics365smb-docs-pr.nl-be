@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 30d10c443bd69acfec9a30bacef5a8f0d8aece3f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Kosten van werknemers registreren en terugbetalen
@@ -28,18 +28,21 @@ ms.lasthandoff: 09/28/2018
 Als medewerkers hun eigen geld uitgeven tijdens zakelijke activiteiten, kunt u de kosten boeken naar de rekening van de werknemer. Vervolgens kunt u de werknemer terugbetalen door een betaling te doen naar de bankrekening van de werknemer, net zoals u leveranciers betaalt.
 
 ## <a name="to-record-an-employees-expense"></a>Onkosten van een werknemer registreren
-U boekt onkosten van een werknemer in het venster **Diversendagboek**.
+U boekt onkosten van een werknemer op de pagina **Diversendagboek**.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul op een nieuwe dagboekregel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+
+    > [!NOTE]
+    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Herhaal stap 3 voor alle kosten die de werknemer heeft betaald.
 
     > [!TIP]  
-    > Als u meerdere onkostenregels boven één tegenrekeningsregel wilt invoeren voor de bankrekening van de werknemer, selecteert u het selectievakje **Salderingsbedrag voorstellen** op de regel voor uw batch in het venster **Fin. dagboekbatches**. Vervolgens wordt het veld **Bedrag** op de tegenrekeningsregel automatisch ingevuld met de waarde die nodig is om de onkosten in balans te brengen.
+    > Als u meerdere onkostenregels boven één tegenrekeningsregel wilt invoeren voor de bankrekening van de werknemer, selecteert u het selectievakje **Salderingsbedrag voorstellen** op de regel voor uw batch op de pagina **Fin. dagboekbatches**. Vervolgens wordt het veld **Bedrag** op de tegenrekeningsregel automatisch ingevuld met de waarde die nodig is om de onkosten in balans te brengen.
 5. Kies de actie **Boeken** om de kosten op de rekening van de werknemer te registreren.
 
 ## <a name="to-reimburse-an-employee"></a>Een werknemer terugbetalen
-U betaalt werknemers terug door betalingen te boeken naar hun bankrekening in het venster **Betalingsdagboek**.
+U betaalt werknemers terug door betalingen te boeken naar hun bankrekening op de pagina **Betalingsdagboek**.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante betalingsdagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul indien nodig de velden in. Zie voor meer informatie [Betalingen doen](payables-make-payments.md).
@@ -47,7 +50,7 @@ U betaalt werknemers terug door betalingen te boeken naar hun bankrekening in he
 5. Kies de actie **Boeken** om de terugbetaling te registreren.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Terugbetalingen reconciliëren met werknemersposten
-U vereffent werknemersbetalingen met de gerelateerde open werknemersposten op dezelfde manier als u dat doet voor leveranciersbetalingen, bijvoorbeeld in het venster **Betalingsreconciliatiedagboek**, op basis van de gerelateerde bankafschriftposten. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md). U kunt ook handmatig vereffenen in het venster **Werknemerposten**. Zie voor meer informatie het gerelateerde [Leveranciersbetalingen handmatig reconciliëren](payables-how-apply-purchase-transactions-manually.md).  
+U vereffent werknemersbetalingen met de gerelateerde open werknemersposten op dezelfde manier als u dat doet voor leveranciersbetalingen, bijvoorbeeld op de pagina **Betalingsreconciliatiedagboek**, op basis van de gerelateerde bankafschriftposten. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md). U kunt ook handmatig vereffenen op de pagina **Werknemerposten**. Zie voor meer informatie het gerelateerde [Leveranciersbetalingen handmatig reconciliëren](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Zie ook
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  

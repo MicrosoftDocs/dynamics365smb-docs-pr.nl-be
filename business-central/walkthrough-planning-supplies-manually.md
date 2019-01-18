@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
-In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u het venster **Orderplanning**, een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
+In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u de pagina **Orderplanning**, een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
  In deze procedure worden de volgende taken beschreven:  
@@ -48,30 +48,30 @@ In het volgende overzicht ziet u het proces voor het plannen van voorraadorders 
 ## <a name="story"></a>Scenario  
  Eduardo, de productieplanner van een klein productiebedrijf is bezig met het plannen van de productie en inkooporders om te voldoen aan de nieuwe verkoopvraag.  
 
- Aangezien de producten uit slechts enkele stuklijstniveaus bestaan en de orderstroom tamelijk gering is, gebruikt Eduardo het venster **Orderplanning** om de orders voor voorzieningen handmatig te maken, met één productniveau tegelijk.  
+ Aangezien de producten uit slechts enkele stuklijstniveaus bestaan en de orderstroom tamelijk gering is, gebruikt Eduardo de pagina **Orderplanning** om de orders voor voorzieningen handmatig te maken, met één productniveau tegelijk.  
 
  In een meer complexe productieomgeving wordt het planningsvoorstel gebruikt om de voorraad te plannen op basis van artikelparameters als herplanningsperiode, veiligheidstijd, bestelpunt en batchberekeningen van de geconsolideerde aanvraag van alle productniveaus.  
 
 ## <a name="setting-up-the-sample-data"></a>Voorbeeldgegevens instellen  
  In het standaarddemobedrijf CRONUS is momenteel sprake van een grote hoeveelheid niet-geplande vraag. Tijdens de verschillende planningstaken in deze procedure moet u afwijken van de realistische bedrijfswerkstroom door de vraag met vervaldatums in de nabije toekomst te negeren en in plaats daarvan de vraag te gebruiken met latere vervaldatums.  
 
-## <a name="using-the-order-planning-window"></a>Het venster Orderplanning gebruiken  
+## <a name="using-the-order-planning-page"></a>De pagina Orderplanning gebruiken  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### <a name="to-use-the-order-planning-window"></a>Het venster Orderplanning gebruiken  
+### <a name="to-use-the-order-planning-page"></a>De pagina Orderplanning gebruiken  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling.  
 
-     Als het venster **Orderplanning** voor het eerst wordt geopend, moet er een planning worden berekend om de nieuwe vraag weer te geven sinds deze voor het laatst is berekend.  
+     Als de pagina **Orderplanning** voor het eerst wordt geopend, moet er een planning worden berekend om de nieuwe vraag weer te geven sinds deze voor het laatst is berekend.  
 
 2.  Kies de actie **Plan berekenen**.  
 
@@ -79,9 +79,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Op basis van de totale beschikbaarheid wordt de benodigde hoeveelheid voor elke vraagregel berekend. Deze berekening wordt per order uitgevoerd. Dit betekent dat de order met de vraagregel met de vroegste verval- of verzenddatum eerst wordt berekend. Vervolgens worden aanvullende vraagregels in dezelfde volgorde berekend, ongeacht de vervaldatum of de verzenddatum.  
 
-3.  Het venster **Orderplanning** moet zijn gemaximaliseerd en de afmetingen van de kolomvelden moeten zo zijn ingesteld dat alle standaardveldnamen zichtbaar zijn.  
+3.  De pagina **Orderplanning** moet zijn gemaximaliseerd en de afmetingen van de kolomvelden moeten zo zijn ingesteld dat alle standaardveldnamen zichtbaar zijn.  
 
-     Wanneer de berekening is voltooid, worden in het venster alle niet-afgehandelde vraagregels weergegeven als samengevouwen orderkopregels gesorteerd op de vroegste vraagdatum.  
+     Wanneer de berekening is voltooid, worden in de pagina alle niet-afgehandelde vraagregels weergegeven als samengevouwen orderkopregels gesorteerd op de vroegste vraagdatum.  
 
      U ziet dat CRONUS diverse orders heeft met niet-afgehandelde vraag. Elke vette planningsregel geeft een order weer, verkoop of productie, met inbegrip van ten minste één orderregel met onvoldoende beschikbaarheid.  
 
@@ -98,7 +98,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Vouw de eerste regel uit (klik op het symbool +).  
 2.  Kies de eerste vraagregel met, artikel, **LSU-15** en kies de actie **Document weergeven**.  
-3.  Sluit de geopende productieorder om terug te keren naar het venster **Orderplanning**.  
+3.  Sluit de geopende productieorder om terug te keren naar de pagina **Orderplanning**.  
 4.  Selecteer **Inkoop** in het veld **Aanvullingsmethode**.  
 
      De standaardwaarde komt van de artikelkaart (of SKU-kaart), maar u kunt dit wijzigen in een van de volgende opties:  
@@ -118,13 +118,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  Als voor de onderdelen een standaardleveranciernummer is ingesteld op de artikelkaarten, zijn de regels vooraf ingevuld.  
 
 6.  Kies het veld **Aanleveren van**.  
-7.  Kies in het venster **Artikelleveranciers** de actie **Nieuw** en selecteer leverancier **30000**.  
-8.  Kies de knop **OK** om terug te gaan naar het venster **Orderplanning**.  
+7.  Kies op de pagina **Artikelleveranciers** de actie **Nieuw** en selecteer leverancier **30000**.  
+8.  Kies de knop **OK** om terug te gaan naar de pagina **Orderplanning**.  
 9. Kopieer leveranciernummer **30000** naar de overige regels voor luidsprekeronderdelen in deze productieorder.  
 
      U kunt nu een inkooporder gaan maken.  
 
-10. Kies de actie **Orders maken**. Het venster **Orders voor voorzieningen maken** wordt geopend.  
+10. Kies de actie **Orders maken**. De pagina **Orders voor voorzieningen maken** wordt geopend.  
 11. Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order**.  
 12. Kies op het sneltabblad **Opties** in het veld **Inkooporder maken** de optie **Inkooporders maken**.  
 13. Klik op **OK** om inkooporders te maken voor alle onderdelen van de order.  
@@ -144,15 +144,15 @@ The **Order Planning** window can be accessed from several different locations o
      Voor het artikel is het aanvulsysteem geselecteerd en de standaardleverancier wordt weergegeven.  
 
     > [!NOTE]  
-    >  Onder aan het venster staan vier informatievelden. In het veld **Vroegste beschikbaarheidsdatum** zijn de tien stuks die nodig zijn, beschikbaar via een inkomende voorraadorder, maar pas negen dagen na de huidige vervaldatum. Als dat te laat is voor de klant, bevat het veld **Beschikbaar voor transfer** 13 stuks van het artikel op een andere locatie. U gaat voor deze voorraad een planning maken.  
+    >  Onder aan de pagina staan vier informatievelden. In het veld **Vroegste beschikbaarheidsdatum** zijn de tien stuks die nodig zijn, beschikbaar via een inkomende voorraadorder, maar pas negen dagen na de huidige vervaldatum. Als dat te laat is voor de klant, bevat het veld **Beschikbaar voor transfer** 13 stuks van het artikel op een andere locatie. U gaat voor deze voorraad een planning maken.  
 
-3.  Kies het veld **Beschikbaar voor transfer** om het venster **Alternatieve voorziening ophalen** te openen.  
+3.  Kies het veld **Beschikbaar voor transfer** om de pagina **Alternatieve voorziening ophalen** te openen.  
 4.  Klik op **OK** om de tien beschikbare artikelen te boeken.  
 
     > [!NOTE]  
     >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie GROEN. Met de functie **Orders maken** maakt u een transferorder van GROEN naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
 
-5.  Kies de actie **Orders maken**. Het venster **Aanvulorders maken** wordt geopend.  
+5.  Kies de actie **Orders maken**. De pagina **Orders voor voorzieningen maken** wordt geopend.  
 6.  Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order**.  
 7.  Selecteer op het sneltabblad **Opties** in het veld **Transferorder maken** de optie **Transferorders maken**.  
 8.  Klik op **OK** om de transferorder te maken om te voldoen aan de verkooporder.  
@@ -168,26 +168,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      Deze vraag is een verkoopregel maar voor het artikel is het aanvulsysteem **Prod.-order** gedefinieerd. Voeg een tweede bel toe aan de onderdelenlijst voor elke fiets.  
 
-2.  Kies de actie **Materialen** om het venster **Planningsmaterialen** te openen.  
+2.  Kies de actie **Materialen** om de pagina **Planningsmaterialen** te openen.  
 3.  Wijzig in de regel voor de fietsbel het veld **Aantal per** van **1** in **2**.  
-4.  Bekijk in het venster **Orderplanning** de planningsalternatieven. In dit geval zijn er geen alternatieve leveringsmethoden, geen transfer, geen vervangend artikel en geen latere levering. U moet de voorgestelde voorzieningsorder, een productieorder, maken.  
+4.  Bekijk op de pagina **Orderplanning** de planningsalternatieven. In dit geval zijn er geen alternatieve leveringsmethoden, geen transfer, geen vervangend artikel en geen latere levering. U moet de voorgestelde voorzieningsorder, een productieorder, maken.  
 5.  Kies de actie **Orders maken** om de productieorder te maken.  
 
-     U ziet dat in het venster **Orderplanning** de planningregel voor verkooporder **1001** niet meer bestaat en dat aan de eerste verkoopvraag is voldaan.  
+     U ziet dat op de pagina **Orderplanning** de planningsregel voor verkooporder **1001** niet meer bestaat en dat aan de eerste verkoopvraag is voldaan.  
 
-6.  Sluit het venster **Orderplanning**.  
+6.  Sluit de pagina **Orderplanning**.  
 
-     U zou nu in deze weergave kunnen blijven om alle planningstaken te voltooien. In plaats daarvan neemt u nu de rol van de productieplanner op en gaat u naar de zojuist gemaakte productieorder om het venster **Orderplanning** te openen.  
+     U zou nu in deze weergave kunnen blijven om alle planningstaken te voltooien. In plaats daarvan neemt u nu de rol van de productieplanner op en gaat u naar de zojuist gemaakte productieorder om de pagina **Orderplanning** te openen.  
 
  Als productieplanner moet u nu een specifieke productieorder plannen.  
 
 ### <a name="to-plan-a-specific-production-order"></a>Een specifieke productieorder plannen  
 
 1.  Open de productieorder **101001** (voor tien fietsen) die u hebt gemaakt met de functie **Orders maken**.  
-2.  Open het venster **Prod.-ordermaterialen** om te controleren of de extra bel wordt weergegeven op de productieorder.  
+2.  Open de pagina **Prod.-ordermaterialen** om te controleren of de extra bel wordt weergegeven op de productieorder.  
 3.  Kies de actie **Planning**.  
 
-     Het venster **Orderplanning** wordt geopend in een weergave die altijd wordt gefilterd op de specifieke productievraag. De verkoopvraag wordt niet weergegeven. U moet eerst een planning berekenen voordat een nieuwe vraag wordt weergegeven.  
+     De pagina **Orderplanning** wordt geopend in een weergave die altijd wordt gefilterd op de specifieke productievraag. De verkoopvraag wordt niet weergegeven. U moet eerst een planning berekenen voordat een nieuwe vraag wordt weergegeven.  
 
 4.  Kies de actie **Plan berekenen**.  
 
@@ -207,11 +207,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Lees, voordat u de knop **OK** kiest, de tekst op het sneltabblad **Orderplanning**. Deze tekst is belangrijk omdat u weet dat de productstructuur van de fiets een aantal geproduceerde onderdelen (subassemblages) bevat die in de vraag worden opgenomen wanneer u deze productieorder maakt.  
 
-7.  Kies in het venster **Orders voor voorzieningen maken** in het veld **Orders maken voor** de optie **Alle regels** en kies vervolgens de knop **OK** om productieorders te maken voor het tweede productniveau van de order.  
+7.  Kies op de pagina **Orders voor voorzieningen maken** in het veld **Orders maken voor** de optie **Alle regels** en kies vervolgens de knop **OK** om productieorders te maken voor het tweede productniveau van de order.  
 
      U ziet dat de hoogste productievraag voor productieorder 101001 niet meer bestaat. Dat betekent dat de aanvankelijke productievraag voor subassemblages nu is ingepland.  
 
-     Bereken in het venster **Orderplanning** nogmaals de planning om de fietsstructuur te plannen.  
+     Bereken op de pagina **Orderplanning** nogmaals de planning om de fietsstructuur te plannen.  
 
 8.  Kies de actie **Planning berekenen** om de planning opnieuw te berekenen volgens de instructies uit de Help-tekst.  
 
@@ -229,7 +229,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 13. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 
-     Bekijk in het venster **Vast geplande productieorders** hoe de begin- en eindtijden van afzonderlijke orders nu zijn gepland volgens de productstructuur. De onderdelen op het laagste niveau worden het eerst geproduceerd. Daarom moet u orders met meerdere niveaus plannen zoals is gedemonstreerd in deze planningswerkstroom.  
+     Bekijk op de pagina **Vast geplande productieorders** hoe de begin- en eindtijden van afzonderlijke orders nu zijn gepland volgens de productstructuur. De onderdelen op het laagste niveau worden het eerst geproduceerd. Daarom moet u orders met meerdere niveaus plannen zoals is gedemonstreerd in deze planningswerkstroom.  
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   

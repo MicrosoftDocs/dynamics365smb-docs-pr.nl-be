@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
@@ -36,10 +36,10 @@ Zorg ervoor dat u zich in het rolcentrum RapidStart Services-implementatie bevin
 2. Kies de actie **Nieuw**.  
 3. Vul op het sneltabblad **Algemeen** de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Als u de tabellen voor configuratievragenlijsten, -sjablonen en -werkblad niet in het pakket wilt opnemen, schakelt u het selectievakje **Configuratietabellen uitsluiten** in. Anders worden deze tabellen automatisch toegevoegd aan de lijst met pakkettabellen bij het exporteren van het pakket.  
-5. Kies de actie **Tabellen ophalen**. Het batchverwerkingsvenster **Pakkettabellen ophalen** wordt geopend.  
-6. Kies het veld **Tabellen selecteren**. Het venster **Selectie voor configuratie** wordt geopend.  
+5. Kies de actie **Tabellen ophalen**. De batchverwerkingspagina **Pakkettabellen ophalen** wordt geopend.  
+6. Kies het veld **Tabellen selecteren**. De pagina **Selectie voor configuratie** wordt geopend.  
 7. Kies de actie **Alles selecteren** om alle tabellen aan het pakket toe te voegen of schakel het selectievakje **Geselecteerd** in voor elke tabel in de lijst die u wilt toevoegen.
-8. Kies de knop **Ok**. Het aantal tabellen dat u hebt geselecteerd wordt vermeld in het veld **Tabellen selecteren**. Geef extra opties op en kies de knop **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen worden toegevoegd aan de regels van het venster **Pakket voor configuratie**.  
+8. Kies de knop **Ok**. Het aantal tabellen dat u hebt geselecteerd wordt vermeld in het veld **Tabellen selecteren**. Geef extra opties op en kies de knop **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen worden toegevoegd aan de regels van de pagina **Pakket voor configuratie**.  
 
     > [!NOTE]  
     >  U kunt dit ook doen in het configuratiewerkblad. Selecteer de tabellen die u wilt opnemen in het pakket en kies vervolgens de actie **Pakket toewijzen**.
@@ -64,13 +64,13 @@ Nadat u de lijst met velden die u wilt opnemen uit een tabel hebt verfijnd, kunt
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Een sjabloon opnemen voor toepassing op een tabel  
 Voor bepaalde tabellen, zoals een tabel met hoofdgegevens, kunt u een sjabloon opgeven die kan worden toegepast op de gegevens. De sjabloon kan de vereiste velden bevatten die u wilt toepassen op alle hoofdgegevens en die nooit mogen variëren. Zo kunt u bijvoorbeeld een sjabloon maken die kan worden gebruikt met klantgegevens. De sjabloon kan alle vereiste velden bevatten waarmee vervolgens op consistente wijze gestandaardiseerde gegevens kunnen worden geïmporteerd. Informatie die niet kan worden gestandaardiseerd, zoals de naam van de klant, wordt vervolgens behandeld als u klantgegevens importeert.
 
-1. Selecteer een tabel in het venster **Pakketkaart voor configuratie** en kies vervolgens het veld **Gegevenssjabloon**. Er wordt een lijst met sjablonen weergegeven die zijn gebaseerd op de tabel.
+1. Selecteer een tabel op de pagina **Pakketkaart voor configuratie** en kies vervolgens het veld **Gegevenssjabloon**. Er wordt een lijst met sjablonen weergegeven die zijn gebaseerd op de tabel.
 2. Selecteer een sjabloon en kies vervolgens de knop **OK**.  
 
 Nadat het pakket is voltooid, gebruikt u de volgende procedure om het pakket op te slaan in een bestand. Vervolgens kunt u het pakket aan een klant of partner geven om te gebruiken.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Een configuratiepakket opslaan en exporteren  
-- Kies in het venster **Pakketkaart voor configuratie** de actie **Pakket exporteren**.  
+- Kies op de pagina **Pakketkaart voor configuratie** de actie **Pakket exporteren**.  
 
 Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de pakketinhoud in een gecomprimeerde indeling aanlevert. Configuratievragenlijsten, -sjablonen en het configuratiewerkblad worden automatisch toegevoegd aan het pakket tenzij u deze uitdrukkelijk uitsluit.  
 
@@ -121,7 +121,7 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
     > [!NOTE]  
     >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.
 
-3. Kies de actie **Databasegegevens**. Het venster voor de gerelateerde pagina wordt geopend.
+3. Kies de actie **Databasegegevens**. De pagina voor de gerelateerde pagina wordt geopend.
 4. Bekijk de beschikbare informatie. Wijzig deze zo nodig door records te verwijderen die niet relevant zijn of door nieuwe records toe te voegen.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Gegevens kopiëren van een testomgeving naar een productieomgeving  
@@ -130,9 +130,9 @@ Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met h
 1. Open en initialiseer het nieuwe bedrijf.  
 2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Gegevens kopiëren van bedrijf**.  
-4. Kies in het venster **Bedrijfsgegevens kopiëren** het veld **Kopiëren van**. Het venster **Bedrijven** wordt geopend.  
+4. Kies op de pagina **Bedrijfsgegevens kopiëren** het veld **Kopiëren van**. De pagina **Bedrijven** wordt geopend.  
 5. Selecteer het bedrijf waaruit u gegevens wilt kopiëren en kies vervolgens de knop **OK**. Er wordt een lijst geopend met tabellen die zijn geselecteerd op het configuratiewerkblad. In deze lijst worden alleen tabellen opgenomen die records bevatten.
-6. Selecteer de tabellen waaruit u gegevens wilt kopiëren en kies vervolgens de actie **Gegevens kopiëren**. Kies in het venster **Bedrijfsgegevens kopiëren** de knop **OK**.  
+6. Selecteer de tabellen waaruit u gegevens wilt kopiëren en kies vervolgens de actie **Gegevens kopiëren**. Kies op de pagina **Bedrijfsgegevens kopiëren** de knop **OK**.  
 
 ## <a name="see-also"></a>Zie ook  
 [Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)  

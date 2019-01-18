@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Ontwerpdetails: Beschikbaarheid in het magazijn
@@ -32,7 +32,7 @@ Het systeem moet een constante controle op artikelbeschikbaarheid in het magazij
 ## <a name="quantity-available-to-pick"></a>Beschikbaar aantal voor picken  
  Wanneer het pickalgoritme bijvoorbeeld geen rekening houdt met artikelaantallen die zijn gereserveerd voor een wachtende verkooporderverzending, kunnen die artikelen worden gepickt voor een andere verkooporder die eerder wordt verzonden, wat voorkomt dat aan de eerste verkoop wordt voldaan. Om deze situatie te voorkomen, wordt met het algoritme voor picken aantallen afgetrokken die zijn gereserveerd voor andere uitgaande documenten, aantallen op bestaande pickdocumenten, en aantallen die zijn gepickt maar nog niet verzonden of verbruikt.  
 
- Het resultaat wordt weergegeven in het veld **Beschikb. te picken aantal** in het venster **Pick Worksheet**, waar het veld dynamisch wordt berekend. De waarde wordt ook berekend wanneer gebruikers magazijnpicks direct voor uitgaande documenten maken. Dergelijke uitgaande documenten kunnen verkooporders, productieverbruik of uitgaande transfers zijn, waar het resultaat wordt weergegeven in de bijbehorende velden met aantallen, zoals **Te verwerken aantal**.  
+ Het resultaat wordt weergegeven in het veld **Beschikb. te picken aantal** op de pagina **Pickvoorstel**, waar het veld dynamisch wordt berekend. De waarde wordt ook berekend wanneer gebruikers magazijnpicks direct voor uitgaande documenten maken. Dergelijke uitgaande documenten kunnen verkooporders, productieverbruik of uitgaande transfers zijn, waar het resultaat wordt weergegeven in de bijbehorende velden met aantallen, zoals **Te verwerken aantal**.  
 
 > [!NOTE]  
 >  Voor wat betreft de prioriteit van reserveringen wordt het te reserveren aantal afgetrokken van het aantal dat beschikbaar is voor picken. Als het beschikbare aantal in pickopslaglocaties bijvoorbeeld 5 eenheden is, maar 100 eenheden zich in opslaglocaties bevinden en u probeert meer dan 5 eenheden voor een andere order te reserveren, wordt een foutbericht weergegeven omdat het extra aantal in pickopslaglocaties beschikbaar moet zijn.  
@@ -58,9 +58,9 @@ Het systeem moet een constante controle op artikelbeschikbaarheid in het magazij
 -   Aantal in naar-assemblageopslaglocaties  
 -   Aantal in correctieopslaglocaties  
 
- Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** in het venster **Reservation**.  
+ Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.  
 
- Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** in het venster **Reservering**.  
+ Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** op de pagina **Reservering**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Het aantal berekenen dat beschikbaar is voor reservering  
  Het aantal dat beschikbaar is voor reserveringen, wordt als volgt berekend:  

@@ -1,6 +1,6 @@
 ---
 title: 'Ontwerpdetails: De rol van het tijdsinterval | Microsoft Docs'
-description: Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdvenster te verzamelen om een gezamenlijke voorzieningenorder te maken.
+description: Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdskader te verzamelen om een gezamenlijke voorzieningenorder te maken.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -14,14 +14,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c258c13a08e9556caddf55a0d14962ad85cd8ca7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ff748a192d8d1650a708ab70ec33ccc7bfd53c48
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Ontwerpdetails: De rol van het tijdsinterval
-Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdvenster te verzamelen om een gezamenlijke voorzieningenorder te maken.  
+Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdskader te verzamelen om een gezamenlijke voorzieningenorder te maken.  
 
  Voor bestelbeleid dat een bestelpunt gebruikt, kunt u een tijdsinterval opgeven. Dit zorgt ervoor dat de vraag in dezelfde periode wordt opgeteld voordat wordt gecontroleerd wat het effect op de geplande voorraad is en of het bestelpunt is verstreken. Als het bestelpunt is overschreden, wordt een nieuwe voorzieningenorder voorwaarts gepland vanaf het einde van de periode die wordt gedefinieerd door het tijdsinterval. De tijdsintervallen beginnen op de begindatum van de planning.  
 

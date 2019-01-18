@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
@@ -26,9 +26,9 @@ Een magazijn-pickdocument kan niet van het begin af gemaakt worden, omdat een pi
 
 U kunt magazijn-pickdocumenten op een pull-manier maken door het openen van een leeg document voor magazijnverzending, detecteren van brondocumenten die zijn vrijgegeven voor verzending en vervolgens maken van magazijnpickregels voor deze verzendingen. U kunt de functies **Brondocumenten ophalen** of **Filter gebruiken om brondocumenten op te halen** voor het detecteren van brondocumenten die gereed zijn voor verzending.
 
-U kunt ook het venster **Werkblad Pick** gebruiken om pickregels in de batchmodus te halen en te maken. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.  
+U kunt ook de pagina **Werkblad Pick** gebruiken om pickregels in de batchmodus te halen en te maken. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.  
 
-U kunt ook magazijn-pickdocumenten op push-wijze vanuit het venster **Magazijnverzending** maken door **Pick maken** te selecteren.  
+U kunt ook magazijn-pickdocumenten op push-wijze vanuit de pagina **Magazijnverzending** maken door **Pick maken** te selecteren.  
 
 > [!NOTE]  
 >  Het picken voor magazijnverzending van artikelen die worden samengesteld voor de verkooporder die wordt verzonden volgt dezelfde stappen als gewone magazijnpicks voor verzending, zoals beschreven in dit onderwerp. Het aantal pickregels per te verzenden aantal is mogelijk echter veel-op-één omdat u de componenten pickt, niet het assemblageartikel.  
@@ -52,7 +52,7 @@ U kunt ook magazijn-pickdocumenten op push-wijze vanuit het venster **Magazijnve
 
 4.  Als u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
-De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, in het venster **Mag. -verzending**. Zie [Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
+De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, op de pagina **Mag. -verzending**. Zie [Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
 
 Naast het picken voor brondocumenten zoals beschreven in dit onderwerp kunt u artikelen tussen opslaglocaties nemen en plaatsen zonder te verwijzen naar de brondocumenten. Zie voor meer informatie [Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Voor andere magazijnverzendingsregels is de waarde in het veld **Te verzenden aa
 
 Wanneer werknemers die verantwoordelijk zijn voor het assembleren klaar zijn met het assembleren van onderdelen of de volledige hoeveelheid voor op order assembleren, registreren ze dit in het veld **Te verzenden aantal** op de magazijnverzendingsregel en kiezen ze de actie **Verzending boeken**. Het resultaat is dat de bijbehorende assemblageuitvoer wordt geboekt, inclusief het materiaalverbruik. Een verkoopverzending voor de hoeveelheid wordt geboekt voor de verkooporder.
 
-Op de assemblageorder kunt u **Magazijnverzendregel op order assembleren** om toegang te krijgen tot de magazijnverzendregel. Dit is handig voor werknemers die gewoonlijk niet het venster **Magazijnverzending** gebruiken.
+Op de assemblageorder kunt u **Magazijnverzendregel op order assembleren** om toegang te krijgen tot de magazijnverzendregel. Dit is handig voor werknemers die gewoonlijk niet de pagina **Magazijnverzending** gebruiken.
 
 Na het boeken van de magazijnverzending, worden verschillende velden op de orderregel bijgewerkt om de voortgang in het magazijn weer te geven. De volgende velden worden ook bijgewerkt om weer te geven hoeveel op-order-assembleren-aantallen nog moeten worden geassembleerd en verzonden:
 

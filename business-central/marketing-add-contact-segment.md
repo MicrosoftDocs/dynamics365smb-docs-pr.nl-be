@@ -13,18 +13,18 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
-Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels in het venster **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
+Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Contacten toevoegen aan een segment
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer het segment en kies vervolgens de actie **Contacten toevoegen**. Het batchverwerkingsvenster **Contacten toevoegen** wordt geopend.
+2. Selecteer het segment en kies vervolgens de actie **Contacten toevoegen**. De batchverwerkingspagina **Contacten toevoegen** wordt geopend.
 3. Stel in het gedeelte **Contact** filters in om de gegevens op te geven op basis waarvan u contacten wilt selecteren.
 
 Herhaal deze procedure in de overige gedeelten als u extra filters wilt invoeren en klik vervolgens op de knop **OK**.
@@ -32,10 +32,10 @@ Herhaal deze procedure in de overige gedeelten als u extra filters wilt invoeren
 Als u per ongeluk contacten hebt toegevoegd en één stap wilt teruggaan, kiest u de actie **Ga terug**.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Het aantal contacten verfijnen
-Nadat u de contacten in een segment hebt geselecteerd, kunt u bepalen welke contacten u wilt verwijderen en welke contacten u wilt behouden. U kunt contacten handmatig verwijderen van de regels in het venster **Segment**, maar het is eenvoudiger en sneller om de functie **Contacten verfijnen** te gebruiken.
+Nadat u de contacten in een segment hebt geselecteerd, kunt u bepalen welke contacten u wilt verwijderen en welke contacten u wilt behouden. U kunt contacten handmatig verwijderen van de regels op de pagina **Segment**, maar het is eenvoudiger en sneller om de functie **Contacten verfijnen** te gebruiken.
 
 1. Open het segment.
-2. Kies **Contacten** en kies vervolgens de actie **Contacten verfijnen**. Het venster **Contacten verwijderen - verfijnen** wordt geopend.
+2. Kies **Contacten** en kies vervolgens de actie **Contacten verfijnen**. De pagina **Contacten verwijderen - verfijnen** wordt geopend.
 3. Voer in het gedeelte **Contact** filters in om de gegevens op te geven die u wilt gebruiken om de contacten te selecteren die moeten worden verwijderd uit het segment.
 4. Voeg indien nodig extra filters toe en kies vervolgens de knop **OK**.
 
@@ -44,10 +44,10 @@ U kunt een segment een onbeperkt aantal keren verfijnen. Als u het segment per o
 Als u een lijst wilt zien met de segmentcriteria die u hebt gebruikt, kiest u in het gedeelte **Algemeen** het veld **Aantal criteria**.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Het aantal contacten reduceren
-Nadat u de contacten binnen een segment hebt geselecteerd, kunt u eventueel een aantal contacten verwijderen. U kunt dit doen door de contacten handmatig te verwijderen op de regels in het venster Segment, maar het is eenvoudiger en sneller om de functie Contacten reduceren te gebruiken om aan te geven welke moeten worden verwijderd, en de functie Contacten verfijnen om aan te geven welke contacten moeten worden behouden.
+Nadat u de contacten binnen een segment hebt geselecteerd, kunt u eventueel een aantal contacten verwijderen. U kunt dit doen door de contacten handmatig te verwijderen op de regels op de pagina Segment, maar het is eenvoudiger en sneller om de functie Contacten reduceren te gebruiken om aan te geven welke moeten worden verwijderd, en de functie Contacten verfijnen om aan te geven welke contacten moeten worden behouden.
 
 1. Open het segment.
-2. Kies Contacten en kies vervolgens de actie **Contacten reduceren**. Het venster **Contacten verwijderen - verminderen** wordt geopend.
+2. Kies Contacten en kies vervolgens de actie **Contacten reduceren**. De pagina **Contacten verwijderen - verminderen** wordt geopend.
 3. Voer in het gedeelte **Contact** filters in om de gegevens op te geven die u wilt gebruiken om de contacten te selecteren die moeten worden verwijderd uit het segment.
 4. Voeg indien nodig extra filters toe en kies vervolgens de knop **OK**.
 

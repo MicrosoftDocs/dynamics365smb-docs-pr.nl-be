@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ddd5ac6a8252b066700b8fd0058f7f772e4fd01b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="revalue-fixed-assets"></a>Vaste activa herwaarderen
@@ -34,7 +34,7 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de waardevermeerdering is ingesteld.
 
     > [!NOTE]  
-    >   Stap 4 werkt alleen als u het volgende hebt ingesteld: in het venster **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardevermeerderingsrekening** de gootboekdebetrekening en het veld **Tegenrekening waardevermeerdering** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor waardevermeerdering wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
+    >   Stap 4 werkt alleen als u het volgende hebt ingesteld: op de pagina **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardevermeerderingsrek.** de grootboekdebetrekening en het veld **Tegenrek. waardevermeerdering** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor afschrijving wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
 5. Kies de actie **Boeken**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Een waardevermindering boeken vanuit het financieel dagboek voor vaste activa
@@ -44,17 +44,17 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de waardevermindering is ingesteld.
 
     > [!NOTE]  
-    >   Stap 4 werkt alleen als u het volgende hebt ingesteld: in het venster **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardeverminderingsrekening** de grootboekrekening en het veld **Waardeverminderingskostenrekening** bevat de grootboekdebetrekening waarnaar u tegenrekeningsposten voor waardeverminderingen wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
+    >   Stap 4 werkt alleen als u het volgende hebt ingesteld: op de pagina **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Waardeverminderingsrekening** de grootboekrekening en het veld **Waardeverminderingskostenrekening** bevat de grootboekdebetrekening waarnaar u tegenrekeningsposten voor waardeverminderingen wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
 5. Kies de actie **Boeken**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Algemene herwaardering van vaste activa uitvoeren
-Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op basis van algemene prijswijzigingen. Met de batchverwerking **Vaste activa indexeren** kunt u diverse bedragen wijzigen, zoals waardeverminderingsbedragen en waardevermeerderingsbedragen. Het selectievakje **Indexering toegestaan** in het venster **Afschrijvingsboek** moet zijn ingeschakeld.
+Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op basis van algemene prijswijzigingen. Met de batchverwerking **Vaste activa indexeren** kunt u diverse bedragen wijzigen, zoals waardeverminderingsbedragen en waardevermeerderingsbedragen. Het selectievakje **Indexering toegestaan** op de pagina **Afschrijvingsboek** moet zijn ingeschakeld.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast activum indexeren** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 3. Kies de knop **Ok**.
 
-    De herwaardering regels worden gemaakt op basis van uw instellingen in stap 2. De regels worden gemaakt in het dagboek voor vaste activa of het financieel dagboek voor vaste activa, afhankelijk van uw sjabloon en batchinstellingen in het venster **VA-dagboekinstellingen**. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
+    De herwaardering regels worden gemaakt op basis van uw instellingen in stap 2. De regels worden gemaakt in het dagboek voor vaste activa of het financieel dagboek voor vaste activa, afhankelijk van uw sjabloon en batchinstellingen op de pagina **VA-dagboekinstellingen**. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
 4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 5. Selecteer het dagboek met de vaste activa die u wilt herwaarderen en kies vervolgens de actie **Posten**.  
 6. Controleer de gemaakte posten en kies vervolgens de actie **Boeken** om het dagboek te boeken.

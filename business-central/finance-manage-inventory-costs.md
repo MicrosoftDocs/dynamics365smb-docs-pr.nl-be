@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028a2812b9af134c8d164ad7a59d4f06205fc621
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Voorraadkosten beheren
@@ -29,12 +29,15 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Lees conceptuele informatie voor het begrip van de principes en definities die functionaliteit voor voorraadwaarderingsboekhouding in [!INCLUDE[d365fin](includes/d365fin_md.md)] beheren.|[Over voorraadwaardering](finance-learn-about-costing.md)|  
+|Te lezen hoe voorraadperioden een bedrijf kunnen helpen de voorraadwaarde gedurende de tijd te beheren door kortere perioden te definiëren die gedurende het boekjaar voor boeking kunnen worden gesloten.|[Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)|
+|Te lezen waarom vaste verrekenprijzen vaak worden gebruikt door productiebedrijven als een waarderingsbasis voor onderdelen en eindartikelen.|[Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)|
 |Stel voorraadperioden, waarderingsmethoden en afrondingsmethoden in.|[Voorraadwaardering en kostprijsberekening instellen](finance-set-up-inventory-valuation-and-costing.md)|
 |Vermeerder of verminder de waarde van een of meer artikelen in voorraad door de huidige, berekende waarde ervan te boeken.|[Voorraad herwaarderen](inventory-how-revalue-inventory.md)|
 |Herwaardeer artikelkosten, automatisch of handmatig, om kostenwijzigingen door te sturen van inkomende posten naar de gerelateerde uitgaande posten.|[Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)|
 |Speciale waarderingsfuncties gebruiken voor dagelijkse artikeltransacties in de artikelbewerkingen.|[Voorraad- en productiekosten verwerken](finance-handle-inventory-and-manufacturing-costs.md)|  
 |U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken in assemblage- of productiestuklijsten en de nieuwe kosten tot aan het hoofdartikel berekenen.|[Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)|
-|Controle- en rapportagetaken uit te voeren voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|U kunt bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|
+|Controle- en rapportagetaken uit te voeren voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
 |Meer informatie over alle mechanisme in het kostprijsberekeningsysteem.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Zie ook  

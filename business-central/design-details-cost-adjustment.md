@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
@@ -71,7 +71,7 @@ Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posti
 Kostenherwaardering kan op twee manieren worden uitgevoerd:  
 
 * Handmatig door de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit te voeren. U kunt deze batchverwerking uitvoeren voor alle artikelen of alleen voor bepaalde artikelen of artikelcategorieën. Met deze batchverwerking wordt een kostenherwaardering uitgevoerd voor de artikelen op voorraad waarvoor een inkomende transactie is gemaakt, zoals een aankoop. Voor artikelen die de gemiddelde waarderingsmethode gebruiken, maakt de batchverwerking ook een correctie als uitgaande transacties worden gemaakt.  
-* Automatisch, door telkens kosten aan te passen wanneer u een voorraadtransactie boekt en wanneer u een productieorder beëindigt. De kostenherwaardering wordt alleen uitgevoerd voor specifieke artikel(en) die worden beïnvloed door het boeken. Dit wordt ingesteld wanneer u het selectievakje **Automatische kostenwaardering** in het venster **Voorraadinstelling** inschakelt.  
+* Automatisch, door telkens kosten aan te passen wanneer u een voorraadtransactie boekt en wanneer u een productieorder beëindigt. De kostenherwaardering wordt alleen uitgevoerd voor specifieke artikel(en) die worden beïnvloed door het boeken. Dit wordt ingesteld wanneer u het selectievakje **Automatische kostenwaardering** op de pagina **Voorraadinstelling** inschakelt.  
 
 Het is goed om de kostenwaardering automatisch uit te voeren wanneer u boekt, omdat eenheidskosten vaker worden bijgewerkt en daarom accurater zijn. Het nadeel is dat de prestaties van de database kunnen worden beïnvloed door de kostenherwaardering zo vaak uit te voeren.  
 
@@ -79,7 +79,7 @@ Omdat het belangrijk is de kostprijs van een artikel bijgewerkt te houden, wordt
 
 Ongeacht of u kostenwaardering handmatig of automatisch uitvoert, het waarderingsproces en de gevolgen ervan zijn hetzelfde. [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent de waarde van de inkomende transactie en stuurt die kosten door naar uitgaande transacties, zoals verkopen of verbruik, die met de inkomende transactie zijn vereffend. Door de kostenherwaardering worden waardeposten gemaakt die correctiebedragen bevatten en bedragen die afrondingen compenseren.  
 
-De nieuwe waardeposten voor herwaardering en afronding hebben de boekingsdatum van de bijbehorende factuur. Uitzonderingen zijn als de waardeposten in een afgesloten voorraadperiode of boekhoudperiode vallen of als de boekingsdatum eerder is dan de datum in het veld **Boeken toegest. vanaf** in het venster **Grootboekinstellingen**. Als dit gebeurt, wordt door de batchverwerking de boekingsdatum toegewezen als de eerste datum van de volgende open periode.  
+De nieuwe waardeposten voor herwaardering en afronding hebben de boekingsdatum van de bijbehorende factuur. Uitzonderingen zijn als de waardeposten in een afgesloten voorraadperiode of boekhoudperiode vallen of als de boekingsdatum eerder is dan de datum in het veld **Boeken toegest. vanaf** op de pagina **Grootboekinstellingen**. Als dit gebeurt, wordt door de batchverwerking de boekingsdatum toegewezen als de eerste datum van de volgende open periode.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Batchverwerking Voorraadwaarde (Werk.-kosten)  
 Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert, hebt u de mogelijkheid de batchverwerking voor alle artikelen of alleen voor bepaalde artikelen of categorieën uit te voeren.  
@@ -143,7 +143,7 @@ Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd o
 |15-01-20|[KPV-rekening]|7290||2.00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatische kostenwaardering  
-Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, gebruikt u het veld **Automatische kostenwaardering** in het venster **Voorraadinstelling**. Dit veld biedt u de mogelijkheid te selecteren hoe lang vóór de huidige werkdatum automatische kostenwaardering mag worden uitgevoerd. De volgende opties zijn mogelijk.  
+Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, gebruikt u het veld **Automatische kostenwaardering** op de pagina **Voorraadinstelling**. Dit veld biedt u de mogelijkheid te selecteren hoe lang vóór de huidige werkdatum automatische kostenwaardering mag worden uitgevoerd. De volgende opties zijn mogelijk.  
 
 |Optie|Description|  
 |----------------------------------|---------------------------------------|  

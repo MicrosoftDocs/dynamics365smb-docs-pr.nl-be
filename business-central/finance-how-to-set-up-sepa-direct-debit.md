@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Automatische incasso via SEPA instellen
-Vanuit het venster **Incasso-opdrachten** kunt u instructies aan uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-incasso's, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.  
+Vanuit de pagina **Incasso-opdrachten** kunt u instructies aan uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-incasso's, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.  
 
 Als u de export van bankbestandsindelingen die niet standaard worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk wilt maken, kunt u een gegevensuitwisselingsdefinitie instellen met behulp van het kader voor gegevensuitwisseling. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
 
@@ -47,8 +47,8 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
     > [!NOTE]  
     >  Voer geen waarde in het veld **Tegenrekeningnr.** in.  
 
-4. Kies de knop **OK** om het venster **Betalingsmethoden** te sluiten.  
-5. Geef in het **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
+4. Kies de knop **OK** om de pagina **Betalingsmethoden** te sluiten.  
+5. Geef in het vak **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
 6. Open de klantkaart voor de klant die u wilt instellen voor verzameling van automatische incasso van SEPA.  
 7. Kies het veld **Betalingswijze** en selecteer vervolgens de code voor de betalingswijze die u hebt opgegeven in stap 3.  
 8. Herhaal stap 6 tot en met 7 voor alle klanten die u wilt instellen voor verzameling van automatische incasso van SEPA.  
@@ -57,8 +57,8 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 1. Geef in het **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart voor de klant die u wilt instellen voor automatische incasso van SEPA.  
 3. Kies de actie **Bankrekeningen**.  
-4. Selecteer in het venster **Bankrekeningen klant** de bankrekening van de klant die wordt gebruikt voor automatische incasso en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Machtigingen voor automatische incasso**.  
-5. Vul in het venster **SEPA Incasso Machtiging** de velden in, zoals is beschreven in de volgende tabel.  
+4. Selecteer op de pagina **Bankrekeningen klant** de bankrekening van de klant die wordt gebruikt voor automatische incasso en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Machtigingen voor automatische incasso**.  
+5. Vul op de pagina **SEPA Incasso Machtiging** de velden in, zoals is beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  

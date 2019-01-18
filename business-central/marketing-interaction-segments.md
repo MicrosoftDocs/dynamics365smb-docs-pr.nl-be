@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Interactie voor segmenten beheren
-Het venster **Segment** is een soort werkblad waarop u het volgende kunt doen:
+De pagina **Segment** is een soort werkblad waarop u het volgende kunt doen:
 
 * Segmenten maken.
 * De segmentcriteria opslaan die u hebt gebruikt om contacten te selecteren.
@@ -35,14 +35,14 @@ Er zijn verschillende manieren om segmenten te maken:
 * U kunt opgeslagen segmentcriteria opnieuw gebruiken.
 
 ## <a name="interactions"></a>Interacties
-In het venster **Segment** kunt u tegelijkertijd interacties maken voor verschillende contacten. U kunt bijvoorbeeld een segment samenvoegen met een Microsoft Word-document, zodat u een brief kunt verzenden naar alle contacten in het segment.
+Op de pagina **Segment** kunt u tegelijkertijd interacties maken voor verschillende contacten. U kunt bijvoorbeeld een segment samenvoegen met een Microsoft Word-document, zodat u een brief kunt verzenden naar alle contacten in het segment.
 
 U kunt informatie opgeven over de interactie voor het segment in de **Segment**-kop. U kunt bijvoorbeeld bepalen welke interactiesjabloon u voor alle contacten wilt gebruiken, een omschrijving, correspondentietype, enzovoort opgeven. U kunt deze gegevens echter voor elk contact wijzigen op de segmentregel, bijvoorbeeld door een andere omschrijving op te geven voor één contact. Als u een segment samenvoegt met een Microsoft Word-document, kunt u het te verzenden document persoonlijk aanpassen voor één of meer contacten in het segment, bijvoorbeeld door persoonlijke opmerkingen toe te voegen aan het document.
 
 ## <a name="logging"></a>Registreren
-Wanneer u in het venster **Segment** klikt op **Logbestand**, worden de interacties vastgelegd in de tabel **Interactielogpost** en wordt het segment geregistreerd. Alleen in het venster **Geregistreerde segmenten** kunt u het segment bekijken dat u hebt geregistreerd.
+Wanneer u op de pagina **Segment** klikt op **Logbestand**, worden de interacties vastgelegd op de pagina **Interactielogpost** en wordt het segment geregistreerd. Alleen op de pagina **Geregistreerde segmenten** kunt u het segment bekijken dat u hebt geregistreerd.
 
-In het venster **Geregistreerde segmenten** kunt u besluiten een follow-upsegment te maken met dezelfde contacten als het segment dat u hebt geregistreerd.
+Op de pagina **Geregistreerde segmenten** kunt u besluiten een follow-upsegment te maken met dezelfde contacten als het segment dat u hebt geregistreerd.
 
 ## <a name="see-also"></a>Zie ook
 [Segmenten maken](marketing-how-create-segment.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Magazijnen herstructureren
@@ -56,9 +56,9 @@ U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standa
 
     1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
     2.  Selecteer de regel met de locatie en kies vervolgens de actie **Opslaglocaties**.  
-    3.  Voer in het venster **Opslaglocaties**, in het veld **Code opslaglocatiesoort**, **QC** in voor elk van de oude opslaglocaties die u in stap 3 in de vorige procedure hebt leeggemaakt.  
+    3.  Voer op de pagina **Opslaglocaties**, in het veld **Code opslaglocatiesoort**, **QC** in voor elk van de oude opslaglocaties die u in stap 3 in de vorige procedure hebt leeggemaakt.  
 
-U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw ingedeeld als QC-opslaglocaties. Dit zijn opslaglocaties die niet beschikken over de activiteitenvelden in het venster **Opslaglocatiesoorten** en daarom niet door de artikelstroom worden meegenomen. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.  
+U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw ingedeeld als QC-opslaglocaties. Dit zijn opslaglocaties die niet beschikken over de activiteitenvelden op de pagina **Opslaglocatiesoorten** en daarom niet door de artikelstroom worden meegenomen. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.  
 
 ## <a name="to-delete-a-bin"></a>Een opslaglocatie verwijderen  
 
@@ -69,7 +69,7 @@ U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw inged
 
 Als u op **Ja** klikt, wordt de opslaglocatie verwijderd voor toekomstig gebruik. De opslaglocatie blijft echter ongewijzigd voor alle geboekte magazijnposten.  
 
-Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aan de opslaglocatie eveneens worden hernoemd, kunt u deze wijziging doorvoeren in het venster **Opslaglocaties**. Het gaat hierbij om regels met opslaglocatie-inhoud, magazijnactiviteiten, magazijnvoorstelregels, regels voor magazijnontvangst, magazijnverzending en magazijnposten.  
+Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aan de opslaglocatie eveneens worden hernoemd, kunt u deze wijziging doorvoeren op de pagina **Opslaglocaties**. Het gaat hierbij om regels met opslaglocatie-inhoud, magazijnactiviteiten, magazijnvoorstelregels, regels voor magazijnontvangst, magazijnverzending en magazijnposten.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Een opslaglocatie een andere naam geven en de opslaglocatie in alle records wijzigen  
 

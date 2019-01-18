@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Werken met stuklijsten
@@ -51,16 +51,16 @@ Het maken van een assemblagestuklijst bestaat uit twee delen:
 1. Stel een nieuw artikel in. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
     Ga verder om onderdelen of resources in de assemblagestuklijst in te voeren.  
-2. Kies in het venster **Artikel** voor een assemblageartikel de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
-3. Vul indien nodig de velden in het venster **Assemblagestuklijst** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Kies op de pagina **Artikel** voor een assemblageartikel de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
+3. Vul indien nodig de velden op de pagina **Assemblagestuklijst** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>De onderdelen van een assemblageartikel weergeven terwijl het is ingesprongen volgens de stuklijststructuur
-Vanuit het venster **Assemblagestuklijst** kunt u een afzonderlijk venster openen dat de onderdelen en resources bevat die zijn ingesprongen op basis van hun stuklijstpositie onder het assemblageartikel.
+Vanuit de pagina **Assemblagestuklijst** kunt u een afzonderlijke pagina openen die de onderdelen en resources bevat die zijn ingesprongen op basis van hun stuklijstpositie onder het assemblageartikel.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
-2. Open de kaart voor een assemblageartikel. (Het veld **Assemblagestuklijst** in het venster **Artikelen** bevat **Ja**.)
-3. Kies in het venster **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
-4. Kies in het venster **Assemblagestuklijst** de actie **Stuklijst weergeven**.
+2. Open de kaart voor een assemblageartikel. (Het veld **Assemblagestuklijst** op de pagina **Artikelen** bevat **Ja**.)
+3. Kies op de pagina **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
+4. Kies op de pagina **Assemblagestuklijst** de actie **Stuklijst weergeven**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Het assemblageartikel in documentregels vervangen door de samenstellende onderdelen
 Vanuit ieder in- of verkoopdocument dat een assemblageartikel bevat, kunt u de regel voor dit artikel door middel van een speciale functie vervangen door nieuwe regels voor de samenstellende onderdelen ervan. Deze functie bijvoorbeeld nuttig als u de onderdelen wilt verkopen als een kit die samen het assemblageartikel vertegenwoordigen.
@@ -75,19 +75,19 @@ De volgende procedure is gebaseerd op een verkoopfactuur. Dezelfde stappen zijn 
 
 Alle velden op de verkoopfactuurregel voor het assemblageartikel worden worden gewist, behalve de velden **Artikel** en **Beschrijving**. Volledige verkoopfactuurregels worden ingevoegd voor de onderdelen en mogelijke resources, waaruit het assemblageartikel is opgebouwd.
 
-**Opmerking**: De functie Stuklijst weergeven is ook beschikbaar in het venster **Assemblagestuklijst**.
+**Opmerking**: de functie Stuklijst weergeven is ook beschikbaar op de pagina **Assemblagestuklijst**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>De vaste verrekenprijs van een assemblageartikel berekenen
 U berekent de kostprijs van een assemblageartikel door de kostprijs van elk onderdeel en elke resource in de assemblagestuklijst bij elkaar op te tellen.
 
-U kunt de vaste verrekenprijs voor een of meerdere artikelen ook berekenen en bijwerken in het venster **Vaste-verrekenprijsvoorstel**. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.  
+U kunt de vaste verrekenprijs voor een of meerdere artikelen ook berekenen en bijwerken op de pagina **Vaste-verrekenprijsvoorstel**. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.  
 
 De kostprijs van een assemblagestuklijst is altijd gelijk aan het totaal van de kostprijzen van de verschillende componenten, inclusief overige assemblagestuklijsten, en eventuele resources.
 
 1. Kies in de rechterbovenhoek het pictogram **Zoeken naar pagina of rapport**, voer **Artikelen** in en klik vervolgens op de gerelateerde koppeling.
-2. Open de kaart voor een assemblageartikel. (Het veld **Assemblagestuklijst** in het venster **Artikelen** bevat **Ja**.)
-3. Kies in het venster **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
-4. Kies in het venster **Assemblagestuklijst** de actie **Vaste verrekenprijs berekenen**.
+2. Open de kaart voor een assemblageartikel. (Het veld **Assemblagestuklijst** op de pagina **Artikelen** bevat **Ja**.)
+3. Kies op de pagina **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
+4. Kies op de pagina **Assemblagestuklijst** de actie **Vaste verrekenprijs berekenen**.
 5. Selecteer een van de volgende opties en kies de knop **OK**.
 
 |Optie |Description |

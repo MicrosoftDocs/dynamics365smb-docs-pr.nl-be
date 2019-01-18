@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-jobs"></a>Projecten maken
@@ -42,7 +42,7 @@ U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplannin
 >   Als u urenstaten in uw project gebruikt, moet u ook een verantwoordelijke aanwijzen. Deze persoon kan urenstaten goedkeuren voor de werknemertaken die aan het project zijn gekoppeld. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
 
 ## <a name="to-create-tasks-for-a-job"></a>Taken maken voor een project
-Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. Dit doet u door nieuwe regels toe te voegen op het sneltabblad **Taken** in het venster **Projectkaart**, met één taak per regel. Elk project moet minimaal één taak hebben.
+Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. Dit doet u door nieuwe regels toe te voegen op het sneltabblad **Taken** op de pagina **Projectkaart**, met één taak per regel. Elk project moet minimaal één taak hebben.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de projectkaart voor een relevant project.
@@ -67,7 +67,7 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende projectkaart.
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
-4. Vul in het venster **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
+4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
 
 ## <a name="see-also"></a>Zie ook

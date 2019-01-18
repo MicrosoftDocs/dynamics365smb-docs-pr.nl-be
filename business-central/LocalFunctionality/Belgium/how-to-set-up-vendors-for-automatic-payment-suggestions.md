@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 84933111ee87468f5d018b6399b4bb80359ac5fc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Leveranciers voor automatische betalingsvoorstellen instellen
@@ -25,7 +25,7 @@ U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier
 ## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a>Instellen dat een leverancier wordt opgenomen in de betalingsvoorstelbatch  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Selecteer in het venster **Leveranciers** een relevante leverancier en kies de actie **Bewerken**.  
+2.  Selecteer op de pagina **Leveranciers** een relevante leverancier en kies de actie **Bewerken**.  
 3.  Schakel op het sneltabblad **Betalingen** het selectievakje **Betalingen voorstellen** in.  
 
     Als dit selectievakje niet is ingeschakeld, worden er geen betalingsvoorstellen voor de leverancier gegenereerd.  

@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -39,14 +39,14 @@ Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](across-business-functionality.md). Voor een overzicht van actuele mogelijkheden en toekomstige mogelijkheden bekijkt u onze routekaart via [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-role-centers"></a>De rolcentra
-Het venster Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende rolcentra door het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te kiezen in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het rolcentrum te kiezen om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
+De pagina Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende rolcentra door het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te kiezen in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het rolcentrum te kiezen om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
-Elk rolcentrum bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
+Elk rolcentrum bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenpagina's te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
 
 > [!NOTE]  
 >   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de Essential-ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
 
-In het venster **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
+Op de pagina **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
 
 | Begeleide instelling | Description |
 | --- | --- |

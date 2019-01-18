@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Verzekering van vaste activa instellen
@@ -38,11 +38,11 @@ U kunt uw verzekeringspolissen in categorieën indelen, bijvoorbeeld diefstalver
 Gegevens over verzekeringspolissen kunt u invoeren op de verzekeringskaart.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Verzekering** de actie **Nieuw** om een nieuwe verzekeringskaart te maken.  
-3. Vul indien nodig de velden in.
+2. Kies op de pagina **Verzekering** de actie **Nieuw** om een nieuwe verzekeringskaart te maken.  
+3. Vul de benodigde velden in.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Verzekeringsdagboeksjablonen instellen
-Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
+Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u de pagina **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -52,7 +52,7 @@ Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De 
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een verzekeringsdagboeksjabloon en kies vervolgens de actie **Batches**.
-3. Vul in het venster **Verzekeringsdagboekbatches** indien nodig de velden in.
+3. Vul op de pagina **Verzekeringsdagboekbatches** indien nodig de velden in.
 
 > [!NOTE]  
 >   Nummers hebben een speciale functie in dagboeknamen. Als een dagboeksjabloon of dagboekbatch een nummer bevat, wordt dit nummer bij elke boeking van het dagboek automatisch verhoogd. Als HH1 bijvoorbeeld is opgegeven in het veld **Naam**, verandert de naam van het dagboek in HH2 als het dagboek met de naam HH1 is geboekt.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
@@ -53,7 +53,7 @@ Een taxonomie kan bestaan uit een basistaxonomie, zoals us-gaap of IAS, waaraan 
 ## <a name="linkbases"></a>Linkbases  
  In de XBRL-specificatie. 2 wordt de taxonomie beschreven in verschillende XML-bestanden. Het primaire XML-bestand is het taxonomieschemabestand zelf (.xsd-bestand) dat alleen een ongeordende lijst van elementen of feiten bevat die moeten worden gerapporteerd. Naast deze zijn er meestal enkele linkbasebestanden (.xml) aan gekoppeld. De linkbasebestanden bevatten gegevens die een aanvulling op de ruwe taxonomie (.xsd-bestand) vormen. Er zijn zes soorten linkbase bestanden, waarvan er vier relevant zijn voor Productnaam XBRL. Dit zijn:  
 
--   Label linkbase: deze linkbase bevat labels of namen voor de elementen. Het bevat mogelijk labels in verschillende talen en deze worden aangeduid met een XML-eigenschap die 'lang' wordt genoemd. De XML-taalidentifier bevat meestal een afkorting van twee letters en hoewel gemakkelijk te raden moeten zijn wat de afkorting betekent, is er geen verbinding met de Windows- taalcode of de taalcodes in de demonstratiegegevens. Dus wanneer de gebruiker zoekt naar de talen voor een bepaalde taxonomie, ziet hij de labels voor het eerste element in de taxonomie, wat betekent dat hij dan een voorbeeld van elke taal kan zien. Aan een taxonomie kunnen meerdere label-linkbases gekoppeld zijn zolang deze linkbases verschillende talen bevatten.  
+-   Label linkbase: deze linkbase bevat labels of namen voor de elementen. Het bevat mogelijk labels in verschillende talen en deze worden aangeduid met een XML-eigenschap die 'lang' wordt genoemd. De XML-taal-id bevat normaal gesproken een afkorting van twee letters en hoewel het vrij gemakkelijk moet zijn te raden wat de afkorting betekent, is er geen link met de Windows-taalcode of de taalcodes die zijn gedefinieerd in de demonstratiegegevens. Dus wanneer de gebruiker zoekt naar de talen voor een bepaalde taxonomie, ziet hij de labels voor het eerste element in de taxonomie, wat betekent dat hij dan een voorbeeld van elke taal kan zien. Aan een taxonomie kunnen meerdere label-linkbases gekoppeld zijn zolang deze linkbases verschillende talen bevatten.  
 
 -   Presentatielinkbase: deze linkbase bevat informatie over de onderdelenstructuur. U kunt dit beschouwen als het voorstel van de taxonomie-uitgever voor de wijze waarop de taxonomie door het programma aan de gebruiker wordt gepresenteerd. De linkbase bevat een reeks koppelingen die elk twee elementen verbinden als bovenliggende en onderliggende. Als alle koppelingen worden toegepast, kunnen de onderdelen hiërarchisch worden weergegeven. De presentatielinkbase heeft één functie: elementen aan de gebruiker presenteren.  
 
@@ -67,7 +67,7 @@ Als u de taxonomie hebt geïmporteerd of bijgewerkt, moeten de schemaregels van 
 U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan de gegevens in uw grootboek.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer in het venster **XBRL-taxonomieën** een taxonomie uit de lijst.  
+2.  Selecteer op de pagina **XBRL-taxonomieën** een taxonomie uit de lijst.  
 3.  Kies de actie **Regels**.  
 4.  Selecteer een regel en vul de velden in.   
 5.  Kies de actie **Informatie** voor meer informatie over wat u moet invullen.  
@@ -84,10 +84,10 @@ U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan
 De eerste stap bij het werken met de XBRL-functie is het importeren van een taxonomie in de database van uw bedrijf. Een taxonomie bestaat uit een of meer schema's en een aantal linkbases. Nadat u de schema's en linkbases hebt geïmporteerd en de linkbases op het schema hebt toegepast, kunt u de regels instellen en de grootboekrekeningen in het rekeningstelsel koppelen aan de juiste taxonomieregels.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling.  
-2.  Maak in het venster **XBRL-taxonomieën** een nieuwe regel en voer de naam en de omschrijving van de taxonomie in.  
+2.  Maak op de pagina **XBRL-taxonomieën** een nieuwe regel en voer de naam en de omschrijving van de taxonomie in.  
 3.  Kies de actie **Schema's** en voeg de omschrijving van het schema in.  
-4.  Om het schema te importeren, kiest u in het venster **XBRL-schema's** de actie **Importeren** en selecteert u een map en een XSD-bestand. Kies de knop **Openen**.  
-5.  Om de linkbase te importeren, kiest u in het venster **XBRL-schema's** de actie **Linkbases** en selecteert u een map en een XML-bestand. Kies de knop **Openen**.  
+4.  Om het schema te importeren, kiest u op de pagina **XBRL-schema's** de actie **Importeren** en selecteert u een map en een XSD-bestand. Kies de knop **Openen**.  
+5.  Om de linkbase te importeren, kiest u op de pagina **XBRL-schema's** de actie **Linkbases** en selecteert u een map en een XML-bestand. Kies de knop **Openen**.  
 6.  U kunt de linkbase nu op het stelsel toepassen. Doe hetzelfde om de overige linkbases te importeren.  
 7. Kies de actie **Op taxonomie toepassen** om de linkbase op het schema toe te passen.  
 
@@ -98,7 +98,7 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerken. De reden voor de update kan een gewijzigd schema, een gewijzigde linkbase of een nieuwe linkbase zijn. Nadat u de taxonomie hebt bijgewerkt, moet u alleen nog de regels koppelen voor de gewijzigde of nieuwe regels.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **XBRL-taxonomieën** de actie **Schema's**.  
+2.  Kies op de pagina **XBRL-taxonomieën** de actie **Schema's**.  
 3.  Werk een schema bij door het schema te selecteren dat u wilt bijwerken en kies de actie **Importeren**.  
 4.  Kies de actie **Linkbases** voor het bijwerken of toevoegen van een nieuwe linkbase.  
 5.  Selecteer de betreffende linkbase of druk op Ctrl+N voor een nieuwe regel, selecteer het soort linkbase en voer een omschrijving in.  

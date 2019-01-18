@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
@@ -30,23 +30,23 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Algemene boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. In het venster **Boekingsgroepinstellingen** vult u de volgende velden in:  
+2. Op de pagina **Boekingsgroepinstellingen** vult u de volgende velden in:  
 
     - **Vooruitbetalingsrekening verkoop**  
     - **Vooruitbetalingsrekening inkoop**  
 
-Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u dat in het venster **Grootboekrekeningoverzicht** doen.  
+Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u dat op de pagina **Grootboekrekeningoverzicht** doen.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Nummerreeks instellen voor vooruitbetalingsdocumenten  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van verkoop en tegoeden** in en kies vervolgens de gerelateerde koppeling.
-2. Vul in het venster **Instellingen van verkoop en tegoeden** de volgende velden in:  
+2. Vul op de pagina **Instellingen van verkoop en tegoeden** de volgende velden in:  
 
    - **Geboekte vooruitbetalingsfactuurnrs.**
    - **Geboekte vooruitbetalingscreditnotanrs.**
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul in het venster **Inkoopinstellingen** de volgende velden in:
+2. Vul op de pagina **Inkoopinstellingen** de volgende velden in:
 
     - **Geboekte vooruitbetalingsfactuurnrs.**
     - **Geboekte vooruitbetalingscreditnotanrs.**
@@ -59,7 +59,7 @@ Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor a
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages**.  
-3. Vul in het venster **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul op de pagina **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in.
 

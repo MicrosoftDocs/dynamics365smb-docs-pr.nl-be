@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Opgeslagen instellingen in rapporten beheren
@@ -40,7 +40,7 @@ U beheert opgeslagen instellingen vanaf pagina 1560 **Rapportinstellingen**. Er 
 
 De pagina bevat alle bestaande opgeslagen instellingsvermeldingen voor alle gebruikers. Als er een gebruikersnaam in de kolom **Toegewezen aan** staat, kan alleen deze gebruiker de opgeslagen instellingen voor het corresponderende rapport gebruiken. Als er een selectievakje in de kolom **Gedeeld met alle gebruikers** staat, kunnen alle gebruikers de opgeslagen instellingen voor het rapport gebruiken.
 
-Vanuit het venster **Rapportinstellingen** kunt u het volgende doen:
+Vanaf de pagina **Rapportinstellingen** kunt u het volgende doen:
 -   **Nieuw** kiezen om een geheel nieuwe vermelding met opgeslagen instellingen te maken.
 -   Een vermelding met opgeslagen instellingen selecteren en **Kopiëren** kiezen om een kopie te maken.
 -   Een vermelding met opgeslagen instellingen in de lijst selecteren en **Bewerken** kiezen om een vermelding met opgeslagen instellingen te wijzigen.

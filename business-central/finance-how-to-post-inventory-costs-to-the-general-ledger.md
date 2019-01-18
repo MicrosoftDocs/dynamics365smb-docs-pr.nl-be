@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Voorraadkosten reconciliëren met het grootboek
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek.
 
-Automatisch voorraadwaarde boeken wordt gedefinieerd door het veld **Autom. voorraadwaarde boeken** in het venster **Voorraadinstelling**.
+Automatisch voorraadwaarde boeken wordt gedefinieerd door het veld **Autom. voorraadwaarde boeken** op de pagina **Voorraadinstelling**.
 
 Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md) voor meer informatie.
 
@@ -37,7 +37,7 @@ Als u een lijst met de fouten wilt weergeven voordat u de boekingsbatchverwerkin
 Als u een overzicht wilt zien van de waarden die naar het grootboek kunnen worden geboekt zonder de boeking daadwerkelijk uit te voeren, voert u de batchverwerking **Voorraadwaarde boeken** uit. U doet dit door het selectievakje **Boeken** in het aanvraagvenster uit te schakelen. Wanneer u de batchverwerking dan uitvoert, wordt alleen een lijst gemaakt met de waarden die klaar zijn om naar het grootboek te worden geboekt. Deze worden echter niet geboekt.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>De reconciliatie controleren tussen het voorraadgrootboek en het grootboek
-Het venster **Reconciliatie Voorraadbeheer - GB** biedt de volgende opties:
+De pagina **Reconciliatie Voorraadbeheer - GB** biedt de volgende opties:
 
 - De reconciliatieverschillen weer te geven door te vergelijken wat er in het grootboek is vastgelegd en wat er is vastgelegd in het voorraadjournaal (waardeposten).
 - De niet-gereconcilieerde totale kosten in de waardeposten in het voorraadjournaal weer te geven alsof die zijn toegewezen aan overeenkomende voorraadrekeningen in het grootboek, en die te vergelijken met de totalen die daadwerkelijk zijn aangemaakt op de rekeningen in het grootboek.
@@ -57,11 +57,11 @@ In de kolom **GB-totaal** staan de bedragen (vet weergegeven) van elke grootboek
 
 De kolom **Verschil** vertegenwoordigt het verschil tussen de waarde in de velden **GB-totaal** en **Totaal**.
 
-Boven in het venster **Reconciliatie Voorraadbeheer - GB** kunt u filters instellen om bijvoorbeeld de tijdsperiode te beperken waarvan u gegevens wilt opvragen.
+Boven aan de pagina **Reconciliatie Voorraadbeheer - GB** kunt u filters instellen om bijvoorbeeld de tijdsperiode te beperken waarvan u gegevens wilt opvragen.
 
 Als u het selectievakje **Waarschuwing weergeven** inschakelt, krijgt u een waarschuwing in het veld **Waarschuwing** wanneer er een verschil tussen de voorraadtotalen en de grootboektotalen wordt aangetroffen. Als u het veld Waarschuwing kiest, krijgt u meer informatie over de betekenis van de waarschuwing.
 
-Wanneer u alle relevante filters hebt ingevoerd, kiest u de actie **Matrix weergeven**. De gegevens worden berekend en het matrixvenster wordt weergegeven.
+Wanneer u alle relevante filters hebt ingevoerd, kiest u de actie **Matrix weergeven**. De gegevens worden berekend en de matrixpagina wordt weergegeven.
 
 In de uiterst linkse kolom van het raster kunt u de diverse grootboekrekeningsoorten bekijken die aan voorraad zijn gekoppeld. In de kolommen daarna worden voor elke rekeningsoort ook de gefactureerde totalen, de niet-gefactureerde (interim) totalen en de OHW-voorraden weergegeven. Deze totalen worden op basis van de waardeposten berekend.
 

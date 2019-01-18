@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
@@ -45,16 +45,16 @@ Met toleranties voor dagen en bedragen kunt u een factuur ook afsluiten als het 
 
 U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt ingesteld, boekingsmethoden voor zowel contantkortingstolerantie als betalingstolerantie hebt opgegeven en vervolgens de batchverwerking **Betalingstolerantie wijzigen** hebt uitgevoerd.  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Algemene boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Stel in het venster **Boekingsgroepinstellingen** een debet- en een creditrekening voor verkoopbetalingstolerantie in en een debet- en creditrekening voor inkoopbetalingstolerantie.  
+2. Open de pagina **Boekingsgroepinstellingen**. Stel debet- en creditrekeningen voor verkoopbetalingstolerantie en debet- en creditrekeningen voor inkoopbetalingstolerantie in.  
 3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.    
-4. Stel in het venster **Klantboekingsgroepen** een debet- en een creditrekening voor betalingstolerantie in. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
+4. Stel op de pagina **Klantboekingsgroepen** een debet- en een creditrekening voor betalingstolerantie in. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
 5. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciersboekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-6. Stel in het venster **Leveranciersboekingsgroepen** een debet- en een creditrekening voor betalingstolerantie in.  
+6. Stel op de pagina **Leveranciersboekingsgroepen** een debet- en een creditrekening voor betalingstolerantie in.  
 7. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-8. Open het venster **Boekhoudinstellingen**.  
+8. Open de pagina **Boekhoudinstellingen**.  
 9. Vul op het sneltabblad **Vereffening** de velden **Betalingstolerantieboeking**, **Respijtperiode contantkorting** en **Betalingstolerantieboeking** in.   
 10. Kies de actie **Betalingstolerantie wijzigen**.
-11. Vul in het venster **Betalingstolerantie wijzigen** de velden **Betalingstolerantie %** en **Max. betalingstolerantiebedrag** in en kies vervolgens de knop **OK**.
+11. Vul op de pagina **Betalingstolerantie wijzigen** de velden **Betalingstolerantie %** en **Max. betalingstolerantiebedrag** in en kies vervolgens de knop **OK**.
 
 > [!IMPORTANT]  
 >  U hebt nu alleen voor de lokale valuta een tolerantie ingesteld. Als u wilt dat tolerantie voor betalingen, creditnota's en terugbetalingen in een vreemde valuta worden afgehandeld door [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de batchverwerking **Betalingstolerantie wijzigen** uitvoeren met een waarde in het veld **Valutacode**.  
@@ -69,10 +69,10 @@ U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt i
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Betalingstolerantiewaarschuwingen in- of uitschakelen
 De betalingstolerantiewaarschuwing verschijnt wanneer u een vereffening boekt die een saldo heeft binnen de toegestane tolerantie. Vervolgens kiest u hoe u het saldo wilt boeken en vastleggen.    
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Schakel in het venster **Grootboekinstellingen** op het sneltabblad **Vereffening** het selectievakje **Betalingstolerantiewaarschuwing** in om de waarschuwing te activeren. Schakel het selectievakje uit als u de waarschuwing wilt deactiveren.  
+2. Schakel op de pagina **Grootboekinstellingen** op het sneltabblad **Vereffening** het selectievakje **Betalingstolerantiewaarschuwing** in om de waarschuwing te activeren. Schakel het selectievakje uit als u de waarschuwing wilt deactiveren.  
 
 > [!NOTE]  
->  De standaardoptie voor het venster **Betalingstolerantiewaarschuwing** is **Saldo behouden als restbedrag**. De standaardoptie voor het venster **Cont.-kortingstolerantiewaarschuwing** is **Late contantkorting niet aanvaarden**.
+>  De standaardoptie voor de pagina **Betalingstolerantiewaarschuwing** is **Saldo behouden als restbedrag**. De standaardoptie voor de pagina **Cont.-kortingstolerantiewaarschuwing** is **Late contantkorting niet aanvaarden**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Betalingstolerantie voor klanten blokkeren  
 Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie wilt toestaan voor een bepaalde klant of leverancier, moet u de tolerantie op de desbetreffende klanten- of leverancierskaart blokkeren. Hierna wordt beschreven hoe u dit doet voor een klant. De stappen zijn vergelijkbaar voor een leverancier.
@@ -86,7 +86,7 @@ Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie w
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Voorbeeld 1 - tolerantieberekeningen voor één document
 Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld.  
 
-Het venster **Grootboekinstellingen** bevat de volgende instellingen:
+De pagina **Grootboekinstellingen** bevat de volgende instellingen:
 - Respijtperiode contantkorting: 5 dagen  
 - Max. betalingstolerantie: 5  
 
@@ -155,7 +155,7 @@ Normale vereffeningsregels
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Voorbeeld 2 - tolerantieberekeningen voor meerdere documenten
 Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld. De voorbeelden zijn beperkt tot de scenario's waarbij alle posten bij de vereffening worden afgesloten.  
 
-Het venster **Grootboekinstellingen** bevat de volgende instellingen:
+De pagina **Grootboekinstellingen** bevat de volgende instellingen:
 - Respijtperiode contantkorting 5 dagen  
 - Max. betalingstolerantie 5  
 

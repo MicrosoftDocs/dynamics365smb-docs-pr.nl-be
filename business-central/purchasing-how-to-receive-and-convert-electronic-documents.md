@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
-De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document in het venster Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document op de pagina Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Naast het rechtstreeks ontvangen van elektronische documenten van handelspartners, kunt u elektronische documenten ontvangen van een OCR-service die van uw PDF- of afbeeldingsbestanden elektronische documenten heeft gemaakt.  
 
@@ -33,7 +33,7 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 > [!NOTE]  
 >  Wanneer u elektronische documenten die van de OCR-service worden ontvangen, converteert naar documenten of journaalregels in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden meerdere regels in het brondocument op één regel gecombineerd. De ene regel krijgt het type Grootboekrekening en de velden **Omschrijving** en **Nr.** (van grootboekrekening) zijn leeg. De waarde in het veld **Bedrag** is gelijk aan het totaalbedrag, exclusief btw van alle regels in het brondocument.  
 >   
->  Om ervoor te zorgen dat de velden **Omschrijving** en **Nr.** worden ingevuld, kunt u de knop **Tekst afstemmen op rekening** kiezen in het venster **Inkomende documenten** om te definiëren dat een bepaalde factuurtekst altijd aan een bepaalde debet- of creditrekening in het grootboek wordt toegewezen. Het veld **Omschrijving** op document- of dagboekregels die zijn gemaakt van een elektronisch document voor die leverancier of klant wordt gevuld met de betreffende tekst en het veld **Nr.** (van grootboekrekening) wordt gevuld met de betreffende rekening.  
+>  Om ervoor te zorgen dat de velden **Omschrijving** en **Nr.** worden ingevuld, kunt u de knop **Tekst afstemmen op rekening** kiezen op de pagina **Inkomende documenten** om te definiëren dat een bepaalde factuurtekst altijd aan een bepaalde debet- of creditrekening in het grootboek wordt toegewezen. Het veld **Omschrijving** op document- of dagboekregels die zijn gemaakt van een elektronisch document voor die leverancier of klant wordt gevuld met de betreffende tekst en het veld **Nr.** (van grootboekrekening) wordt gevuld met de betreffende rekening.  
 >   
 >  In plaats van toe te wijzen aan een grootboekrekening kunt u ook toewijzen aan een bankrekening. Dit is bijvoorbeeld handig voor elektronische documenten voor kosten die al zijn betaald en waarvoor u een dagboekregel wilt maken die kan worden geboekt naar een bankrekening.  
 
@@ -45,11 +45,11 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 
 2.  Selecteer de regel voor de inkomende documentrecord die een nieuwe elektronische factuur representeert, en kies vervolgens op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**.  
 
-     In het venster **Kaart inkomend document** wordt het gerelateerde XML-bestand gekoppeld en worden de meeste velden vooraf ingevuld met informatie uit de elektronische factuur. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
+     Op de pagina **Kaart inkomend document** wordt het gerelateerde XML-bestand gekoppeld en worden de meeste velden vooraf ingevuld met informatie uit de elektronische factuur. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
 
 3.  Kies in het veld **Soort gegevensuitwisseling** de optie **PEPPOL-factuur** of **OCR-factuur**, afhankelijk van de bron van het elektronische document.  
 
-4.  Als u tekst in de leveranciersfactuur wilt toewijzen aan een specifieke debetrekening, kiest u op het tabblad **Acties** in de groep **Algemeen** de optie **Tekst afstemmen op rekening**. Vervolgens vult u het venster **Toewijzing tekst aan rekening** in.  
+4.  Als u tekst in de leveranciersfactuur wilt toewijzen aan een specifieke debetrekening, kiest u op het tabblad **Acties** in de groep **Algemeen** de optie **Tekst afstemmen op rekening**. Vervolgens vult u de pagina **Toewijzing tekst aan rekening** in.  
 
 5.  Kies op het tabblad **Acties** in de groep **Algemeen** de optie **Document maken**.  
 

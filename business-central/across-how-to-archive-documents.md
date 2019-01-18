@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Documenten archiveren
@@ -27,7 +27,7 @@ U kunt automatische archivering van verkoop- en inkooporders, offertes, raamcont
 
 In de volgende procedure wordt beschreven hoe u automatische archivering van verkoopdocumenten instelt. De stappen zijn vergelijkbaar voor inkoopdocumenten.
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van verkoop en tegoeden** in en kies vervolgens de gerelateerde koppeling.
-2. Vul in het venster **Instellingen van verkoop en tegoeden** de velden als volgt in:
+2. Vul op de pagina **Instellingen van verkoop en tegoeden** de velden als volgt in:
 
 |Veld|Description|
 |-----|-----------|
@@ -42,7 +42,7 @@ In de volgende procedure wordt beschreven hoe u een verkooporder archiveert. De 
 2.  Open een verkooporder die u wilt archiveren.  
 3.  Kies de actie **Document archiveren**.
 
-De verkooporder wordt gearchiveerd. U kunt deze bekijken in het venster **Gearchiveerde verkooporders**. Van hieruit kunt u deze ook gebruiken om de verkooporder waaruit deze is gearchiveerd, opnieuw te maken.
+De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**. Van hieruit kunt u deze ook gebruiken om de verkooporder waaruit deze is gearchiveerd, opnieuw te maken.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Een verkooporder maken vanuit het archief
 In de volgende procedure wordt beschreven hoe u een verkooporder opnieuw maakt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
@@ -50,13 +50,13 @@ In de volgende procedure wordt beschreven hoe u een verkooporder opnieuw maakt. 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearchiveerde verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2.  Selecteer de gearchiveerde verkooporder die u opnieuw wilt maken en kies vervolgens de actie **Herstellen**.  
 
-De verkooporder wordt gemaakt en toegevoegd aan het venster **Verkooporders**.
+De verkooporder wordt gemaakt en toegevoegd aan de pagina **Verkooporders**.
 
 ## <a name="to-delete-archived-sales-orders"></a>Gearchiveerde verkooporders verwijderen
 In de volgende procedure wordt beschreven hoe gearchiveerde verkooporders verwijdert. De stappen lijken op andere gearchiveerde inkoop- en verkoopdocumenten.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearch. verk.-orderversies verwijderen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer in het venster **Gearch. verk.-orderversies verwijderen** de gewenste filters.  
+2.  Selecteer op de pagina **Gearch. verk.-orderversies verwijderen** de gewenste filters.  
 3.  Kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook

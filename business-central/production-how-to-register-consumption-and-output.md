@@ -1,6 +1,6 @@
 ---
 title: "Verbruik en output registreren voor één productieorder | Microsoft Docs"
-description: "Het gaat hier om een uitvoeringstaak die wordt uitgevoerd in het venster **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten."
+description: "Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Verbruik en output registreren voor één vrijgegeven productieorderregel
-Het gaat hier om een uitvoeringstaak die wordt uitgevoerd in het venster **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten. De waarden worden geboekt naar posten onder de vrijgegeven productieorder. Verbruiksaantallen worden geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost. Die geboekte waarden kunnen ook onder in het dagboek worden weergegeven als werkelijke aantallen.  
+Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten. De waarden worden geboekt naar posten onder de vrijgegeven productieorder. Verbruiksaantallen worden geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost. Die geboekte waarden kunnen ook onder in het dagboek worden weergegeven als werkelijke aantallen.  
 
 > [!NOTE]  
 >  Omdat de gegevens over het verbruik tegelijk met de gegevens over de output worden verwerkt, biedt dit dagboek de gelegenheid om gekoppelde materialen en bewerkingen in een logische processtructuur weer te geven. Materialen worden ingesprongen onder de bijbehorende bewerking. Dit vereist het gebruik van bewerkingsplankoppelingen.  
@@ -32,7 +32,7 @@ Het gaat hier om een uitvoeringstaak die wordt uitgevoerd in het venster **Produ
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open een vrijgegeven productieorderregel die gereed is voor registratie en kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Productiedagboek**.  
 
-    Het venster **Productiedagboek** wordt geopend met dagboekregels voor de productieorderregel volgens de vensters **Materiaalregel** en **Prod.-orderbewerkingsplan**. Deze regels zijn afkomstig uit de productiestuklijst en het bewerkingsplan die zijn toegewezen aan het artikel dat wordt geproduceerd. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-routings.md).  
+    De pagina **Productiedagboek** wordt geopend met dagboekregels voor de productieorderregel volgens de pagina's **Materiaalregel** en **Prod.-orderbewerkingsplan**. Deze regels zijn afkomstig uit de productiestuklijst en het bewerkingsplan die zijn toegewezen aan het artikel dat wordt geproduceerd. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-routings.md).  
 
 3.  Boven in het dagboek voert u in het veld **Boekingsdatum** een boekingsdatum in die voor alle regels geldt. Standaard wordt de werkdatum ingevoerd. Het veld is bedoeld om boekingsdatums eventueel snel op alle regels af te kunnen stemmen.  
 
@@ -45,7 +45,7 @@ Het gaat hier om een uitvoeringstaak die wordt uitgevoerd in het venster **Produ
 
     Wanneer het dagboek wordt geopend, zijn de aantallen die moeten worden geboekt al ingevuld. Wanneer er tot dusver nog niets is geboekt, wordt standaard in alle aantalvelden het verwachte aantal dat de productieorder zal opleveren, weergegeven. Als er deelboekingen zijn uitgevoerd, wordt op de aantalvelden op de regels het resterende aantal weergegeven. De aantallen en tijden die al geboekt zijn, worden onder in het dagboek weergegeven als werkelijke posten.  
 
-    Wat betreft aantallen in het veld **Outputaantal** kunt u de waarden instellen die automatisch moeten worden weergegeven wanneer het dagboek voor het eerst wordt geopend. Dit doet u vanuit het venster **Productie-instellingen** op het sneltabblad **Algemeen** in het veld **Vooraf ingestelde outputaantal**.
+    Wat betreft aantallen in het veld **Outputaantal** kunt u de waarden instellen die automatisch moeten worden weergegeven wanneer het dagboek voor het eerst wordt geopend. Dit doet u vanuit de pagina **Productie-instellingen**, op het sneltabblad **Algemeen** in het veld **Vooraf ingestelde outputaantal**.
 
 5.  Ga door met het invoeren van aantallen in de bewerkbare velden voor verbruik en output.  
 
@@ -64,7 +64,7 @@ Als er nog waarden moeten worden geboekt, bevat het dagboek deze resterende waar
 >  als u het dagboek sluit zonder te boeken, gaan de wijzigingen verloren.  
 
 > [!WARNING]  
->  Het venster **Productiedagboek** kan niet worden gebruikt door twee gebruikers tegelijk. Dit betekent dat als Gebruiker 2 het venster opent en de gegevens invoert wanneer Gebruiker 1 al werkt in het venster, Gebruiker 2 gegevens kan verliezen wanneer Gebruiker 1 het venster sluit.  
+>  De pagina **Productiedagboek** kan niet worden gebruikt door twee gebruikers tegelijk. Dit betekent dat als Gebruiker 2 de pagina opent en de gegevens invoert wanneer Gebruiker 1 al werkt op de pagina, Gebruiker 2 gegevens kan verliezen wanneer Gebruiker 1 de pagina sluit.  
 
 ## <a name="see-also"></a>Zie ook  
 [Productie](production-manage-manufacturing.md)    

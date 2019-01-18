@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedure: Onderhanden werk voor een project berekenen
@@ -45,7 +45,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 ## <a name="calculating-wip"></a>OHW berekenen  
  CRONUS heeft een langdurig project aangenomen dat nu is uitgebreid tot over meerdere rapportageperioden. Tricia, een lid van het projectteam berekent het onderhanden werk (OHW) om ervoor te zorgen dat de financiële rapportage van het bedrijf accuraat is.  
 
- Tijdens deze procedure selecteert Tricia een bepaalde groep taken die wordt opgenomen in de OHW-berekening. In het venster **Projecttaakregels** kan ze deze regels opgeven in de kolom **OHW-totaal**.  
+ Tijdens deze procedure selecteert Tricia een bepaalde groep taken die wordt opgenomen in de OHW-berekening. Op de pagina **Projecttaakregels** kan ze deze regels opgeven in de kolom **OHW-totaal**.  
 
  De volgende tabel beschrijft de volgende drie opties.  
 
@@ -77,10 +77,10 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
     |1310|Exclusief|  
 
 5.  Kies de actie **OHW** en kies vervolgens de actie **OHW berekenen**.  
-6.  In het venster **OHW voor project berekenen** kunt u een project selecteren waarvoor u OHW wilt berekenen. Selecteer op het sneltabblad **Project** **Deerfield** in het veld **Nr.**. te kiezen.  
+6.  Selecteer op de pagina **OHW voor project berekenen** een project waarvoor u OHW wilt berekenen. Selecteer op het sneltabblad **Project** **Deerfield** in het veld **Nr.**. te kiezen.  
 7.  Voer in het veld **Boekingsdatum** een datum in die na de werkdatum ligt.
 8.  Typ **1** in het veld **Documentnr.**. Hiermee maakt u een document waar u later, als u het wilt traceren, naar kunt verwijzen.  
-9. Kies **OK** om de batchverwerking te starten. Er wordt een bericht weergegeven. Kies de knop **OK** om door te gaan. Sluit het venster **Projecttaakregels**.  
+9. Kies **OK** om de batchverwerking te starten. Er wordt een bericht weergegeven. Kies de knop **OK** om door te gaan. Sluit de pagina **Projecttaakregels**.  
 
     > [!NOTE]  
     >  Het bericht geeft aan dat er waarschuwingen zijn in verband met de OHW-berekening. U gaat de waarschuwingen bekijken in de volgende procedure.  
@@ -93,7 +93,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cockpit OHW taak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het project **Deerfield** en kies vervolgens de actie **Waarschuwingen weergeven**.  
-3.  Controleer in het venster **OHW-waarschuwingen project** de waarschuwing waaraan de taak is gekoppeld.  
+3.  Controleer op de pagina **OHW-waarschuwingen project** de waarschuwing waaraan de taak is gekoppeld.  
 
  Na deze boekingsperiode moet Tricia het OHW opnieuw berekenen om het tot dan toe voltooide werk op te nemen.  
 
@@ -101,10 +101,10 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 1.  Op de kaart **Project** kiest u de actie **OHW-posten** om de OHW-berekening weer te geven.  
 
-     In het venster **OHW-posten project** ziet u de OHW-posten die de laatste keer zijn berekend voor een project ook als het OHW nog niet in het grootboek is geboekt.  
+     Op de pagina **OHW-posten project** ziet u de OHW-posten die de laatste keer zijn berekend voor een project ook als het OHW nog niet in het grootboek is geboekt.  
 
-2.  U kunt de stappen volgen in de procedure waarin wordt uitgelegd hoe u OHW kunt herberekenen. Elke keer als het OHW wordt berekend, wordt een post gemaakt in het venster **OHW-posten project**.  
-3.  Sluit het venster.  
+2.  U kunt de stappen volgen in de procedure waarin wordt uitgelegd hoe u OHW kunt herberekenen. Elke keer als het OHW wordt berekend, wordt een post gemaakt op de pagina **OHW-posten**.  
+3.  Sluit de pagina.  
 
 > [!NOTE]  
 >  Onderhanden werk en Verantwoording worden alleen berekend. Het wordt niet geboekt in het grootboek. Als u dat wel wilt doen, moet u de batchverwerking **OHW naar GB boeken** uitvoeren nadat u OHW en verantwoording hebt berekend.
@@ -116,18 +116,18 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 1.  Selecteer het project **Deerfield** in de lijst **Projecten**.  
 2.  Kies de actie **OHW** en kies vervolgens de actie **OHW naar GB boeken**.  
-3.  Selecteer in het venster **Project-OHW naar GB boeken** de waarde **Deerfield** in het veld **Nr.** op het sneltabblad **Project**. veld.  
+3.  Selecteer op de pagina **Project-OHW naar GB boeken** **Deerfield** in het veld **Nr.** op het sneltabblad **Project**. toe te wijzen.  
 4.  Geef in het sneltabblad **Opties** in het veld **Tegenboekingsdocumentnr.** **1** op.  
 5.  Kies de knop **OK** om OHW naar het grootboek te boeken.  
-6.  Klik op **OK** om het bevestigingsvenster af te sluiten.  
+6.  Kies de knop **OK** om de bevestigingspagina te sluiten.  
 
-     Nadat u de boeking hebt voltooid, kunt u de boekingsinformatie bekijken in het venster **GB-posten OHW**.  
+     Nadat u de boeking hebt voltooid, kunt u de boekingsinformatie bekijken op de pagina **GB-posten OHW**.  
 
 7.  Selecteer in de lijst **Projecten** het project **Deerfield** en kies de actie **GB-posten OHW**.  
 
-     In het venster **GB-posten OHW project** ziet u dat het OHW naar het grootboek is geboekt.  
+     Op de pagina **GB-posten OHW project** ziet u dat het OHW naar het grootboek is geboekt.  
 
-8.  Sluit het venster.  
+8.  Sluit de pagina.  
 9. Open de kaart **Project** voor het project **Deerfield**.  
 10. Zoals u ziet is nu op het sneltabblad **OHW en verantwoording** in de kolom **Geboekt** het veld **Verantw. totale kosten GB** ingevuld, waarmee wordt aangegeven met het OHW met succes naar het grootboek is geboekt.  
 11. Kies de knop **OK** om de kaart te sluiten.  
@@ -139,16 +139,16 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 1.  Selecteer het project **Deerfield** in de lijst **Projecten**.  
 2.  Kies de actie **OHW** en kies vervolgens de actie **OHW naar GB boeken**.  
-3.  Selecteer in het venster **Project-OHW naar GB boeken** de waarde **Deerfield** in het veld **Nr.** op het sneltabblad **Project**. veld.  
+3.  Selecteer op de pagina **Project-OHW naar GB boeken** **Deerfield** in het **Nr.** op het sneltabblad **Project**. toe te wijzen.  
 4.  Geef in het sneltabblad **Opties** in het veld **Tegenboekingsdocumentnr.** **1** op.  
 5.  Geef de oorspronkelijke boekingsdatum op in het veld **Tegenboekingsdatum**. Dit moet dezelfde datum zijn als u hebt gebruikt toen u voor het eerst het OHW berekende.  
 6.  Schakel het selectievakje **Alleen tegenboeken** in. Hiermee wordt het eerder geboekte OHW teruggedraaid en het nieuwe OHW naar het grootboek geboekt.  
-7.  Kies de knop **OK** om de batchverwerking uit te voeren en kies vervolgens de knop **OK** om het bevestigingsvenster te sluiten.  
+7.  Kies de knop **OK** om de batchverwerking uit te voeren en kies vervolgens de knop **OK** om de bevestigingspagina te sluiten.  
 8.  Open de kaart **Project** voor **Deerfield**.  
 9. Controleer op het sneltabblad **OHW en verantwoording** of er geen geboekte OHW-posten zijn.  
-10. Sluit dit venster.  
+10. Sluit deze pagina.  
 11. Selecteer in de lijst **Projecten** het project **Deerfield**, kies de actie **OHW** en kies vervolgens de actie **GB-posten OHW**. Bij de OHW-posten is het selectievakje **Omgekeerd** ingeschakeld.  
-12. Sluit dit venster.  
+12. Sluit deze pagina.  
 13. U kunt teruggaan naar de **Projecttaakregels** voor het project, de vereiste onderdelen van het project in de OHW-berekening opnemen, het OHW opnieuw berekenen en de nieuwe waarde naar het grootboek boeken.  
 
     > [!NOTE]  

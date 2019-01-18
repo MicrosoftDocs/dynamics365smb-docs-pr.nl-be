@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Functiegroepen instellen voor contactpersonen
@@ -25,7 +26,7 @@ U kunt informatie over de functiegroepen van contactpersonen toevoegen om aan te
 Functiegroepen gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de functiegroepcode. U hoeft deze stap slechts eenmaal uit te voeren voor elke functiegroep. Als u een functiegroep hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
 
 ## <a name="to-define-a-job-responsibility-code"></a>Een functiegroepcode definiëren
-De functiegroepcode bepaalt het type of de categorie van het project, MARKETING of INKOOP. U kunt meerdere functiegroepcodes hebben. Als u de functiegroep wilt definiëren, gebruikt u het venster **Functiegroepen**.
+De functiegroepcode bepaalt het type of de categorie van het project, MARKETING of INKOOP. U kunt meerdere functiegroepcodes hebben. Als u de functiegroep wilt definiëren, gebruikt u de pagina **Functiegroepen**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Functiegroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
@@ -34,12 +35,12 @@ De functiegroepcode bepaalt het type of de categorie van het project, MARKETING 
 U kunt functiegroepen toewijzen aan contactbedrijven.
 
 1. Open de contactpersoon.
-2. Kies de actie **Persoon** en kies vervolgens de actie **Functiegroepen**. Het venster **Contact functiegroepen** wordt geopend.
+2. Kies de actie **Persoon** en kies vervolgens de actie **Functiegroepen**. De pagina **Contact functiegroepen** wordt geopend.
 3. Selecteer in het veld **Functiegroepcode** de functiegroep die u wilt toewijzen.
 
 Herhaal deze stappen om het gewenste aantal functiegroepen toe te wijzen. U kunt functiegroepen ook toewijzen vanuit het contactoverzicht door dezelfde procedure te volgen.
 
-Het aantal functiegroepen dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal functiegroepen** in het gedeelte **Segmentatie** in het venster **Contact**.
+Het aantal functiegroepen dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal functiegroepen** in het gedeelte **Segmentatie** op de pagina **Contact**.
 
 Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 

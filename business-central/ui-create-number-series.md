@@ -12,17 +12,17 @@ ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
 
 > [!NOTE]  
->   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld in het venster **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[d365fin](includes/d365fin_md.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
+>   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[d365fin](includes/d365fin_md.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
 
 U maakt een nummeringssysteem door een of meer codes in te stellen voor elk soort hoofdgegevens of document. U kunt bijvoorbeeld een code instellen voor het nummeren van klanten, een andere code voor het nummeren van verkoopfacturen en weer een andere code voor het nummeren van documenten in algemene dagboeken. Nadat u een code hebt ingesteld, moet u minimaal één nummerreeksregel instellen. De nummerreeksregel bevat gegevens, zoals het eerste en laatste nummer in de reeks en de begindatum. U kunt meer dan één nummerreeksregel per nummerreekscode invoeren, met een andere begindatum voor elke regel. De reeks wordt opeenvolgend gebruikt, waarbij elke reeks wordt gestart op de betreffende begindatum.
 
@@ -38,16 +38,16 @@ Het veld **Nr.** kan op drie manieren worden gevuld:
 1. Als er slechts één nummerreeks voor het soort document of kaart bestaat waarbij het veld **Autom. nummering** is ingeschakeld en het veld **Handm. nummering** niet is ingeschakeld, wordt het veld automatisch gevuld met het volgende nummer in de reeks en is het veld **Nr.** niet zichtbaar.
 
     > [!NOTE]  
-    > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen in het venster **Nr.-reeksoverzicht**.
+    > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen op de pagina **Nr.-reeksoverzicht**.
 
-2. Als er meer dan één nummerreeks voor het soort document of kaart bestaat en het selectievakje **Autom. nummering** niet is ingeschakeld voor de nummerreeks die momenteel is toegewezen, is het veld **Nr.** zichtbaar en kunt u opzoeken naar het venster **Nr.-reeksoverzicht** en de nummerreeks selecteren die u wilt gebruiken. Het volgende nummer in de reeks wordt dan ingevoegd in het **Nr.** veld.
+2. Als er meer dan één nummerreeks voor het soort document of kaart bestaat en het selectievakje **Autom. nummering** niet is ingeschakeld voor de nummerreeks die momenteel is toegewezen, is het veld **Nr.** zichtbaar en kunt u opzoeken naar de pagina **Nr.-reeksoverzicht** en de nummerreeks selecteren die u wilt gebruiken. Het volgende nummer in de reeks wordt dan ingevoegd in het **Nr.** veld.
 
 3. Als u geen nummerreeks voor het type document of kaart hebt ingesteld of als het veld **Handm. nummering** is ingeschakeld voor de nummerreeks, is het veld **Nr.** zichtbaar en moet u het nummer handmatig invoeren. U kunt maximaal 20 tekens invoeren (cijfers en/of letters).
 
-Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, wordt het relevante venster **Instelling nummerreeks** geopend, zodat u een nummerreeks kunt instellen voor dat type document of kaart voordat u doorgaat met verdere gegevensinvoer.
+Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, wordt de relevante pagina **Instelling nummerreeks** geopend, zodat u een nummerreeks kunt instellen voor dat type document of kaart voordat u doorgaat met verdere gegevensinvoer.
 
 > [!NOTE]  
-> Als u handmatige nummering moet inschakelen op, bijvoorbeeld, nieuwe artikelkaarten die zijn gemaakt met een gegevensmigratieproces, waarop het **Nr.** standaard is verborgen, gaat u naar het venster **Voorraadinstellingen** en kiest u het veld **Artikelnrs.** om de gerelateerde nummerreeks te openen en in te stellen op **Handm. nummering**.
+> Als u handmatige nummering moet inschakelen op, bijvoorbeeld, nieuwe artikelkaarten die zijn gemaakt met een gegevensmigratieproces, waarop het **Nr.** standaard is verborgen, gaat u naar de pagina **Voorraadinstellingen** en kiest u het veld **Artikelnrs.** om de gerelateerde nummerreeks te openen en in te stellen op **Handm. nummering**.
 
 ## <a name="to-create-a-new-number-series"></a>Een nieuwe nummerreeks maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeksen** in en kies vervolgens de gerelateerde koppeling.
@@ -57,7 +57,7 @@ Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, w
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Instellen waar een nummerreeks wordt gebruikt
 In de volgende procedure wordt beschreven hoe u nummerreeksen instelt voor de module Verkoop. De stappen zijn vergelijkbaar voor andere modules.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopen en Klanten** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer in het venster **Verkopen en klanten** op het sneltabblad **Nummerreeksen** de gewenste nummerreeksen voor iedere verkoopkaart of -document.
+2. Selecteer op de pagina **Verkopen en klanten** op het sneltabblad **Nummerreeksen** de gewenste nummerreeksen voor iedere verkoopkaart of -document.
 
 Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of het document, afhankelijk van de instellingen die u hebt ingevoerd op de nummerreeksregel.
 
@@ -68,7 +68,7 @@ Als u meerdere nummerreekscodes hebt ingesteld voor hetzelfde soort basisgegeven
 2. Selecteer de regel met de nummerreeks waarvoor u relaties wilt instellen en kies vervolgens **Relaties**.
 3. Geef in het veld **Reeks** de code op voor de nummerreeks die u wilt koppelen aan de reeks die u in stap 2 hebt geselecteerd.
 4. Voeg een regel toe voor elke code die u wilt koppelen aan de geselecteerde nummerreeksen.
-5. Sluit het venster.
+5. Sluit de pagina.
 
 Wanneer u nu iets instelt waarvoor u een nummer nodig hebt, kunt u de relaties gebruiken die u hebt ingesteld om te kiezen tussen de gekoppelde nummerreeksen.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Artikelen en locaties instellen voor gestuurde opslag en pick
@@ -27,9 +27,9 @@ Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick ni
 2.  Open de kaart voor het artikel dat u wilt instellen voor gestuurde opslag en pick.
 3. Door de velden op het sneltabblad **Magazijn** van het artikel in te vullen geeft u aan hoe het artikel in het magazijn wordt verwerkt.  
 4.  Kies de actie **Eenheden**.
-5. Vul de velden in het venster **Artikeleenheden** in om aan te geven in welke eenheden de artikeltransacties worden uitgevoerd. Voer ook de hoogte, breedte, lengte, kubieke inhoud en het gewicht in voor de verschillende eenheden.
+5. Vul de velden op de pagina **Artikeleenheden** in om aan te geven in welke eenheden de artikeltransacties worden uitgevoerd. Voer ook de hoogte, breedte, lengte, kubieke inhoud en het gewicht in voor de verschillende eenheden.
 6. Kies de actie **Opslaglocatie-inhoud**.
-7. In het venster **Opslaglocatie-inhoud** kunt u de vestiging en opslaglocatie definiëren waaraan u het artikel wilt toewijzen. Het veld **Standaard** wordt niet gebruikt wanneer de vestiging is ingesteld voor gestuurde opslag en pick.  
+7. Op de pagina **Opslaglocatie-inhoud** kunt u de vestiging en opslaglocatie definiëren waaraan u het artikel wilt toewijzen. Het veld **Standaard** wordt niet gebruikt wanneer de vestiging is ingesteld voor gestuurde opslag en pick.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Om gestuurde opslag en pick te activeren  
 Met gestuurde opslag en pick beschikt u over geavanceerde magazijnconfiguratiefuncties, waardoor de efficiëntie en de betrouwbaarheid van gegevens sterk kunnen worden verbeterd. Als u deze functionaliteit wilt gebruiken, moet u eerst een aantal parameters instellen in uw magazijn.  
@@ -53,7 +53,7 @@ U bent nu gereed om zones instellen als u in uw magazijn wilt werken met zones. 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>U kunt als volgt een zone instellen in het magazijn  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarin u een zone wilt instellen, open de vestigingskaart en kies de actie **Zones**.  
-3.  Vul de velden in het venster **Zones** naar wens in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Vul de vereiste velden op de pagina **Zone** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Wanneer u een zoneparameter wijzigt, worden de nieuwe kenmerken toegepast op alle nieuwe opslaglocaties in de zone. De kenmerken van bestaande opslaglocaties blijven echter ongewijzigd.  
 

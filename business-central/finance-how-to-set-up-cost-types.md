@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Kostensoorten instellen
@@ -34,12 +35,12 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
     > [!IMPORTANT]  
     >  De functie **Kostensoorten registreren in rekeningschema** werkt de relatie tussen het rekeningschema en het kostensoortschema bij. Het veld **Nr.** wordt ingevuld en gecontroleerd om ervoor te zorgen dat iedere grootboekrekening slechts aan één kostensoort is gerelateerd. De functie wordt automatisch uitgevoerd voordat deze van grootboekposten naar kostprijsboekhouding wordt overgebracht.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Nieuwe kostensoorten instellen in het venster Kostensoortschema  
-1.  Open het venster **Kostensoortschema** in de bewerkmodus.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Nieuwe kostensoorten instellen op de pagina Kostensoortschema  
+1.  Open de pagina **Kostensoortschema** in de bewerkmodus.  
 2.  Vul de velden indien nodig in zoals beschreven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  U kunt kostensoorten instellen en onderhouden in het venster **Kostensoortkaart** of in het venster **Kostensoortschema**. In deze procedure stelt u kostensoorten in het venster **Kostensoortschema** in.
+    >  U kunt kostensoorten instellen en onderhouden op de pagina **Kostensoortkaart** of op de pagina **Kostensoortschema**. In deze procedure stelt u kostensoorten op de pagina **Kostensoortschema** in.
 
 3.  Nadat u alle kostensoorten hebt gemaakt, kiest u de actie **Kostensoorten inspringen**. Kies in het dialoogvenster de knop **Ja**.  
 4.  Koppel het nieuwe kostensoort aan de corresponderende grootboekrekening.  
@@ -48,7 +49,7 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
     >  Als u definities hebt ingevoerd in de **Samentelling**-velden voor het regelsoort **Eindtotaal** voordat u de functie **Kostensoorten inspringen** uitvoert, moet u de definities opnieuw invoeren omdat de functie de waarden in alle velden **Eindtotaal** overschrijft.  
 
 ## <a name="to-update-cost-types"></a>Kostensoorten bijwerken  
-1.  In het venster **Instelling kostprijsboekhouding** selecteert u of het kostensoortschema automatisch wilt laten bijwerken als het rekeningschema wordt gewijzigd.  
+1.  Op de pagina **Instelling kostprijsboekhouding** selecteert u of het kostensoortschema automatisch wilt laten bijwerken als het rekeningschema wordt gewijzigd.  
 2.  In het veld **Grootboekrekening afstemmen** kunt u kiezen uit de volgende opties.  
 
 - in **Geen uitlijning** - er wordt geen overeenkomstige wijziging in het kostensoortschema doorgevoerd als u het rekeningschema wijzigt.  
@@ -57,7 +58,6 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
 
 ## <a name="see-also"></a>Zie ook  
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
-[De relatie tussen de kostensoorten en grootboekrekeningen definiëren](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Kostenplaatsen en kostenobjecten voor rekeningschema's definiëren](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldi tussen kostensoort, kostenplaats en kostenobject](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)   

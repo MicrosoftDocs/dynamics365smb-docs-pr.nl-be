@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7fb0ddd7f635f20d61163b0bfae950c9aa065230
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 86ce737314b5e98c735e22a5b50a9700f4a5d668
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="print-payment-files"></a>Betalingsbestanden afdrukken
@@ -39,7 +39,7 @@ In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels in
 
 3.  Kies de actie **Betalingsregels controleren**.
 
-    Het venster **Logboeken voor controlefouten exporteren** bevat eventuele fouten die kunnen bestaan. Als er fouten zijn, moet u deze oplossen voordat u verder kunt gaan.
+    De pagina **Logboeken voor controlefouten exporteren** bevat eventuele fouten die kunnen bestaan. Als er fouten zijn, moet u deze oplossen voordat u verder kunt gaan.
 
 4. Als er geen fouten zijn, kiest u de actie **Betalingsregels exporteren**.  
 

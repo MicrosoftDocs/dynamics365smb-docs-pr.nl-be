@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
@@ -44,7 +44,7 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
 4. Als u één vooruitbetalingspercentage wilt toepassen op de hele order, wijzigt u het veld **Vooruitbetaling %** op de kop nadat u de regels hebt ingevuld.  
 5. Als u het totale vooruitbetalingsbedrag wilt weergeven, kiest u de actie **Statistieken**.
 
-    Als u het totale vooruitbetaalde bedrag voor de order wilt aanpassen, kunt u de inhoud van het veld **Vooruitbetaling** in het venster **Verkooporderstatistiek** wijzigen.  
+    Als u het totale vooruitbetaalde bedrag voor de order wilt aanpassen, kunt u de inhoud van het veld **Vooruitbetaling** op de pagina **Verkooporderstatistiek** wijzigen.  
 
     Als het veld **Prijzen inclusief btw** is geselecteerd, kan het veld **Vooruitbetalingsbedrag incl. btw** worden bewerkt.  
 

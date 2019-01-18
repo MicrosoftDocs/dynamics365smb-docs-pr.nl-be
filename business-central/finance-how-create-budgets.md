@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
@@ -34,11 +34,11 @@ In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Z
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Lijst bewerken** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Kies de actie **Budget bewerken**.
-4. Vul boven in het venster **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.  
+4. Vul boven aan de pagina **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.  
 
-    Alleen posten met de budgetnaam die u hebt ingevoerd in het veld **Budgetnaam** worden weergegeven. Aangezien de begrotingsnaam net is gemaakt, zijn er geen posten die overeenkomen met het filter. Daarom is het venster leeg.  
-5. Voer een bedrag in door op de betreffende cel in de matrix te klikken. Het venster **Grootboekbudgetposten** verschijnt.  
-6. Maak een nieuwe regel en vul het veld **Bedrag** in. Sluit het venster **Grootboekbudgetposten**.  
+    Alleen posten met de budgetnaam die u hebt ingevoerd in het veld **Budgetnaam** worden weergegeven. Aangezien de begrotingsnaam net is gemaakt, zijn er geen posten die overeenkomen met het filter. Daarom is de pagina leeg.  
+5. Voer een bedrag in door op de betreffende cel in de matrix te klikken. De pagina **Grootboekbudgetposten** verschijnt.  
+6. Maak een nieuwe regel en vul het veld **Bedrag** in. Sluit de pagina **Grootboekbudgetposten**.  
 7. Herhaal stap 5 tot en met 6 totdat u alle budgetbedragen hebt ingevoerd.  
 
 > [!NOTE]  

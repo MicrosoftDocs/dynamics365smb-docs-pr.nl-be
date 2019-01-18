@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
-Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen in het venster **Opslaglocatie-inhoud** of automatisch met het venster **Opslaglocatie-inhoud maken**.
+Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen op de pagina **Opslaglocatie-inhoud** of automatisch met de pagina **Opslaglocatie-inhoud maken**.
 
 ## <a name="to-create-bin-content-manually"></a>Opslaglocatie-inhoud handmatig maken  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de locatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Opslaglocaties**.  
 3.  Selecteer de opslaglocatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Inhoud**.  
-4.  Voor elk artikel dat u in de vestiging wilt opslaan voert u de juiste informatie in op een regel in het venster **Opslaglocatie-inhoud**. Sommige velden zijn al automatisch ingevuld met gegevens over de opslaglocatie.  
+4.  Voor elk artikel dat u in de vestiging wilt opslaan voert u de juiste informatie in op een regel op de pagina **Opslaglocatie-inhoud**. Sommige velden zijn al automatisch ingevuld met gegevens over de opslaglocatie.  
 5.  Vul eerst het veld **Artikelnr.** in en vervolgens, als u gestuurde opslag en pick gebruikt, de andere velden, zoals **Eenheidscode**, **Max. Aantal** en **Min. Aantal**.  
 
 Selecteer het veld **Vast** indien nodig. Indien de opslaglocatie als standaardopslaglocatie voor het item moet worden gebruikt, selecteert u het veld **Standaardopslaglocatie**.  
 
-Als u met gestuurde opslag en pick werkt en via de artikelkaart de juiste gegevens hebt ingevoerd over de maten van elk artikel, wordt het maximumaantal dat u opgeeft in het venster **Opslaglocatie-inhoud** automatisch vergeleken met de fysieke capaciteit van de opslaglocatie. Vervolgens worden de minimum- en maximumwaarden gebruikt bij het berekenen van aanvullingen en bij het maken van opslagvoorstellen.  
+Als u met gestuurde opslag en pick werkt en via de artikelkaart de juiste gegevens hebt ingevoerd over de maten van elk artikel, wordt het maximumaantal dat u opgeeft op de pagina **Opslaglocatie-inhoud** automatisch vergeleken met de fysieke capaciteit van de opslaglocatie. Vervolgens worden de minimum- en maximumwaarden gebruikt bij het berekenen van aanvullingen en bij het maken van opslagvoorstellen.  
 
 Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. Dit betekent dat [!INCLUDE[d365fin](includes/d365fin_md.md)] zal proberen het artikel in de opslaglocatie te plaatsen als er ruimte voor is. Bovendien blijft de record behouden waarin het artikel is gekoppeld aan de opslaglocatie, ook als het aantal in de opslaglocatie 0 is. Andere artikelen kunnen in de opslaglocatie worden opgeslagen, ook als een bepaald artikel aan de opslaglocatie is toegewezen.  
 
 > [!NOTE]  
->  U kunt de inhoud van meerdere opslaglocaties tegelijkertijd instellen in het **opslaglocatie-inhoudmaakvoorstel**.  
+>  U kunt de inhoud van meerdere opslaglocaties tegelijkertijd instellen op de pagina **Voorstel opslaglocatie-inhoudaanmaak**.  
 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Opslaglocatie-inhoud met een voorstel maken  
 Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslaglocatie-inhoud instellen wat u in per opslaglocatie wilt opslaan.

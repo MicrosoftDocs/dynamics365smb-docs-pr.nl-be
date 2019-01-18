@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
@@ -22,11 +22,11 @@ Mogelijk moet u soms artikelen verplaatsen tussen interne opslaglocaties, opslag
 
 Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Opslaglocatie verplicht** en eventueel de instellingen **Pick vereist** en **Opslag vereist**, kunt u zonder brondocumenten ad hoc verplaatsingen registreren op de volgende manieren:  
 
-- Met het venster **Interne verplaatsing**.  
-- Open het venster **Artikel-herindelingsdagboek**.  
+- Met de pagina **Interne verplaatsing**.  
+- Open de pagina **Artikelherindelingsdagboek**.  
 
 > [!NOTE]  
->  Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Gestuurde opslag en Pick**, gebruikt u het venster **Werkblad Verplaatsing** of het venster **Interne mag. Pick** of **Interne mag. Opslag** voor het ad hoc verplaatsen van artikelen tussen opslaglocaties.  
+>  Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Gestuurde opslag en Pick**, gebruikt u de pagina **Werkblad Verplaatsing** of de pagina **Interne mag. Pick** of **Interne mag. Opslag** voor het ad hoc verplaatsen van artikelen tussen opslaglocaties.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Items verplaatsen als een interne verplaatsing  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne verplaatsing** in en kies vervolgens de gerelateerde koppeling.  
@@ -36,7 +36,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
     Indien de vestiging als magazijnmedewerker als standaardlocatie is ingesteld, wordt de vestigingscode automatisch ingevoegd.  
 4.  Voer in het veld **Code naar opslaglocatie** een code in voor de opslaglocatie waarnaar u het item wilt verplaatsen. Voor productiedoeleinden zou dit bijvoorbeeld de code voor de grijpvoorraadlocatie kunnen zijn, zoals gedefinieerd op de vestigingskaart of afdeling.  
 5.  Voer in het veld **Vervaldatum** de datum in waarop de verplaatsing moet worden voltooid.  
-6.  Kies op het sneltabblad **Regels** het veld **Artikelnr.** om het venster **Opslaglocatie-inhoudsoverzicht** te openen en selecteer het artikel dat moet worden verplaatst, op basis van de beschikbaarheid in opslaglocaties. U kunt ook de actie **Opslaglocatie-inhoud ophalen** kiezen om de interne verplaatsingsregels te vullen op basis van uw filters. Zie de knopinfo voor de actie **Opslaglocatie-inhoud ophalen** voor meer informatie.   
+6.  Kies op het sneltabblad **Regels** het veld **Artikelnr.** om de pagina **Opslaglocatie-inhoudsoverzicht** te openen en selecteer het artikel dat moet worden verplaatst, op basis van de beschikbaarheid in opslaglocaties. U kunt ook de actie **Opslaglocatie-inhoud ophalen** kiezen om de interne verplaatsingsregels te vullen op basis van uw filters. Zie de knopinfo voor de actie **Opslaglocatie-inhoud ophalen** voor meer informatie.   
 
     Wanneer u het item hebt geselecteerd, wordt het veld **Code Van opslaglocatie** automatisch gevuld op basis van de geselecteerde opslaglocatie-inhoud, maar u kunt dit wijzigen in een andere opslaglocatie waar het artikel beschikbaar is.  
 
@@ -54,7 +54,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
     > [!NOTE]  
     >  Wanneer u de voorraadverplaatsing hebt gemaakt, worden de regels van de interne verplaatsing verwijderd.  
 
-    U voert de rest van de ad hoc verplaatsing in het venster **Voorraadverplaatsing** op dezelfde manier uit als bij een verplaatsing op basis van brondocumenten. Zie voor meer informatie bijvoorbeeld [Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    U voert de rest van de ad hoc verplaatsing op de pagina **Voorraadverplaatsing** op dezelfde manier uit als bij een verplaatsing op basis van brondocumenten. Zie voor meer informatie bijvoorbeeld [Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Artikelen verplaatsen met het artikelherindelingsdagboek
 In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54857d668cdceb9cc1d4e035a496d621b1d9459b
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
@@ -40,7 +40,7 @@ Als twee artikelen met serie- of lotnummer dezelfde vervaldatum hebben, wordt he
 <br /><br />
 Tijdens het picken van artikelen met een serie-/lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepicked volgens FEFO.  
 <br /><br />
-U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij in het venster **Voorraadverplaatsing** of **Werkblad verplaatsing**, door het veld **Uit opslaglocatie** leeg te maken.  
+U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**, door het veld **Uit opslaglocatie** leeg te maken.  
 <br /><br />
 Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artikelen die niet zijn verlopen, opgenomen in de pick. Dit geldt ook als u niet picken volgens FEFO gebruikt.
 

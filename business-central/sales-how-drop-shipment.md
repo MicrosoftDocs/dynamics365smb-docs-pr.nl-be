@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
@@ -36,7 +36,7 @@ Ter voorbereiding op een doorverzending van het artikel dat u wilt verkopen, maa
 1. Inkooporder maken. Vul geen velden op de regels in. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 2. Selecteer in het veld **Orderklantnr.** de klant aan wie u verkoopt.
 3. Kies de actie **Doorverzendingen** en kies vervolgens de actie **Verkooporder ophalen**.
-4. Selecteer in het venster **Verkoopoverzicht** de verkooporder die u hebt voorbereid in de sectie "Een verkooporder voor doorverzending maken".
+4. Selecteer op de pagina **Verkoopoverzicht** de verkooporder die u hebt voorbereid in de sectie "Een verkooporder voor doorverzending maken".
 5. Kies de knop **Ok**.
 
 De regelgegevens van de verkooporder worden ingevoegd op de inkooporderregel(s).

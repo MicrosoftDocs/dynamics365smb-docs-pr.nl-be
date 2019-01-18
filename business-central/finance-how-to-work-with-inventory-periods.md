@@ -13,10 +13,10 @@ ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
@@ -52,7 +52,7 @@ Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verk
 
      Voer de batchverwerking **Voorraadwaarde boeken** uit om ervoor te zorgen dat alle kosten naar het grootboek zijn geboekt.  
 3. Kies de actie **Van Voorraadbeheer naar GB boeken**.  
-4. Selecteer in het venster **Voorraadperioden** de voorraadperiode die u wilt sluiten.  
+4. Selecteer op de pagina **Voorraadperioden** de voorraadperiode die u wilt sluiten.  
 5. Kies de actie **Periode afsluiten**. Wanneer de voorraadperiode eenmaal is afgesloten, kunt u geen voorraadwijzigingen boeken vóór de einddatum. U dient de kosten van alle artikelen te herwaarderen met de batchverwerking **Kostprijs herwaarderen - Artikelposten** voordat u de voorraadperiode afsluit.  
 6. Kies de knop **Ja** om te bevestigen dat u de periode wilt afsluiten of kies **Nee** om het afsluiten te annuleren.  
 7. De voorraadperiode wordt afgesloten en daarna wordt een bevestigingsbericht weergegeven.  

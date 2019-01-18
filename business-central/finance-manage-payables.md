@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
@@ -36,10 +36,10 @@ U kunt betalingen vereffenen om facturen te sluiten wanneer u de betaling boekt 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft een functie die voorstellen kan doen voor betalingen aan leveranciers. Zo krijgt u bijvoorbeeld een bericht als de vervaldatum voor een betaling nadert of als voor een betaling een korting mogelijk is. In het betalingsvoorstel kan een bedrag worden meegenomen dat u opgeeft als beschikbaar kapitaal, en geschiktheid voor contantkortingen.
 
 ## <a name="issue-checks"></a>Cheques uitgeven
-Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u cheques elektronisch en handmatig uitgeven aan leveranciers. Dit doet u beide in het venster **Betalingsdagboeken**, waarin u cheques ook ongeldig kunt maken en chequeposten kunt bekijken.
+Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u cheques elektronisch en handmatig uitgeven aan leveranciers. Dit doet u beide op de pagina **Betalingsdagboeken**, waarin u cheques ook ongeldig kunt maken en chequeposten kunt bekijken.
 
 ## <a name="export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
-Wanneer u klaar bent om een leverancier te betalen, kunt u met behulp van het venster **Betalingsdagboek** een bestand met de betalingsgegevens exporteren van de dagboekregels. Vervolgens kunt u het bestand uploaden naar uw elektronische bank voor verwerking van de overboekingen.
+Wanneer u klaar bent om een leverancier te betalen, kunt u met behulp van de pagina **Betalingsdagboek** een bestand met de betalingsgegevens exporteren van de dagboekregels. Vervolgens kunt u het bestand uploaden naar uw elektronische bank voor verwerking van de overboekingen.
 
 Als u geen betalingsdagboekregel voor een geëxporteerde betaling wilt boeken, bijvoorbeeld omdat u op bevestiging wacht dat de transactie door de bank is verwerkt, kunt u de dagboekregel gewoon verwijderen. Wanneer u later een betalingsdagboekregel maakt om het restbedrag op de factuur te betalen, bevat het veld **Totaal geëxporteerd bedrag** het gedeelte van het betalingsbedrag dat al is geëxporteerd. U kunt ook gedetailleerde gegevens vinden over het geëxporteerde totaal door de knop **Krediettransferregisterposten** te kiezen.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Artikelen verzenden
@@ -50,22 +50,22 @@ Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is een maga
 
     > [!NOTE]  
     >  Als u artikelen wilt verzenden met andere magazijnklassen dan de magazijnklasse van de opslaglocatie in het veld **Opslaglocatie** in de documentkop, moet u de inhoud van het veld **Opslaglocatie** in de kop verwijderen voordat u de brondocumentregels voor de artikelen ophaalt.  
-3.  Kies de actie **Brondocumenten ophalen**. Het venster **Brondocumenten** verschijnt.
+3.  Kies de actie **Brondocumenten ophalen**. De pagina **Brondocumenten** verschijnt.
 
-    U kunt vanuit een nieuwe of geopende magazijnverzending het venster **Filters om brondoc. op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden verzonden.
+    U kunt vanuit een nieuwe of geopende magazijnverzending de pagina **Filters om brondoc. op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden verzonden.
 
     1. Kies de actie **Filters om brondoc. op te halen gebruiken**.  
     2. U stelt een nieuw filter in door een omschrijvende code in te voeren in het veld **Code** en vervolgens de actie **Wijzigen** te kiezen.  
     3. Definieer het soort brondocumentregels dat u wilt ophalen door de relevante filtervelden in te vullen.  
     4. Kies de actie **Uitvoeren**.  
 
-    Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden nu ingevoegd in het venster **Mag. -verzending** van waaruit u de filterfunctie hebt geactiveerd.  
+    Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden nu ingevoegd op de pagina **Mag. -verzending** van waaruit u de filterfunctie hebt geactiveerd.  
 
-    De filtercombinaties die u definieert, worden opgeslagen in het venster **Filters om brondoc. op te halen** tot de volgende keer dat u deze nodig hebt. U kunt een onbeperkt aantal filtercombinaties maken. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
+    De filtercombinaties die u definieert, worden opgeslagen op de pagina **Filters om brondoc. op te halen** tot de volgende keer dat u deze nodig hebt. U kunt een onbeperkt aantal filtercombinaties maken. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
 
 4.  Selecteer de brondocumenten waarvoor u artikelen wilt verzenden en klik op **OK**.  
 
-De regels van de brondocumenten verschijnen in het venster **Mag. -verzending**. Het veld **Te verzenden aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke verzendregel een opslaglocatie invullen.  
+De regels van de brondocumenten verschijnen op de pagina **Mag. -verzending**. Het veld **Te verzenden aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke verzendregel een opslaglocatie invullen.  
 
 > [!NOTE]  
 >  U kunt niet meer artikelen verzenden dan het aantal in het veld **Openstaand aantal** op de brondocumentregel. Als u meer artikelen wilt verzenden, haalt u een ander brondocument op dat een regel voor het item bevat. U gebruikt de filterfunctie om brondocumenten met het artikel op te halen.  
@@ -76,7 +76,7 @@ Als u alle regels voor de verzending hebt, kunt u het proces starten dat deze do
 Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geopend door een magazijnmedewerker die verantwoordelijk is voor pickactiviteiten.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de magazijnverzending waarvoor u wilt picken en kies de actie **Pick maken**.
-3. Vul de velden in het venster in en klik vervolgens op de knop **OK**. Het opgegeven magazijnpickdocument wordt gemaakt.
+3. Vul de velden op de pagina in en klik vervolgens op de knop **OK**. Het opgegeven magazijnpickdocument wordt gemaakt.
 
     U kunt ook een bestaande magazijnpick openen.
 4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling. Selecteer de magazijnpick waaraan u wilt werken.

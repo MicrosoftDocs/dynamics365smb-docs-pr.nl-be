@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="administration"></a>Beheer
@@ -44,6 +44,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Documenten beheren, verwijderen of comprimeren|[Documenten verwijderen](admin-manage-documents.md)|  
 |Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|
 |Als onderdeel van het maken van Connect-apps tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en oplossingen van derden door middel van REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen van een entiteit te vullen wanneer u een POST-actie maakt met een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|
+|Versleutel gegevens op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  

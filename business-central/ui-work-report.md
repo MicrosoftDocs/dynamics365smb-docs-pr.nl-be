@@ -13,14 +13,14 @@ ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-reports"></a>Werken met rapporten
-In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. Het venster **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
+In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
 
 U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zoeken in ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om rapporten op naam te vinden.
 
@@ -58,7 +58,7 @@ Met de menubalk kunt u de volgende handelingen uitvoeren:
 
 -   Door pagina's bladeren
 -   In- en uitzoomen
--   Het formaat aanpassen aan de afmetingen van het venster
+-   Het formaat aanpassen aan de afmetingen van de pagina
 -   Tekst selecteren
 
     U kunt tekst van rapport kopiëren en dit vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] of in Microsoft Word.  Met een muis kunt u bijvoorbeeld klikken op het punt van waaraf u wilt kopiëren, de muisknop ingedrukt houden en de muis verplaatsen om een of meer woorden, zinnen of alinea's te selecteren. Vervolgens klikt u met de rechtermuisknop en selecteert u **Kopiëren**. U kunt de geselecteerde tekst op elke gewenste plek plakken.

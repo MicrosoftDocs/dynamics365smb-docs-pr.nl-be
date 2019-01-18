@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365f
 * Kies het ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies vervolgens **Instelling van afbeeldingsanalyse**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
 
     > [!TIP]  
-    > Het venster **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
+    > De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Een afbeelding van een artikel analyseren
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het artikel en kies vervolgens de actie **Afbeelding analyseren**.  
-3. Het venster **Kenmerken van afbeeldingsanalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de opties **Uit te voeren acties** om aan te geven wat er met het kenmerk moet gebeuren.  
+3. De pagina **Kenmerken van afbeeldinganalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de opties **Uit te voeren acties** om aan te geven wat er met het kenmerk moet gebeuren.  
 
     > [!TIP]  
     > U kunt de naam van het kenmerk toevoegen aan de artikelomschrijving door **Toevoegen aan artikelomschrijving** te kiezen. Bijvoorbeeld, het kan handig zijn om snel details toe te voegen.  

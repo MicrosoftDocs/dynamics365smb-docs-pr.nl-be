@@ -13,16 +13,16 @@ ms.search.keywords: project management, material, purchase
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95e2a1938585f1ce68e8c1ae51b8a85596fe44e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68505a6507901511578dc3672de013175a3e36ef
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-job-supplies"></a>Projectvoorraden beheren
 Het beheren van projectgoederen van artikelen, services en onkosten is een integraal en zeer belangrijk aspect van de uitvoering van alle projecten. U kunt voorraadhoeveelheden gebruiken of projectspecifieke inkopen doen met behulp van inkooporders of inkoopfacturen. Stel bijvoorbeeld dat bij een serviceproject voor een computer een nieuwe schijf vereist is. U maakt een inkoopfactuur om een nieuwe schijf te kopen en legt het project vast waarvoor deze wordt gebruikt.
 
-Als voor het inkoopproces de fysieke transactie niet apart hoeft te worden vastgelegd, kan een aankoop worden verwerkt in het venster **GB-dagboek project**. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
+Als voor het inkoopproces de fysieke transactie niet apart hoeft te worden vastgelegd, kan een aankoop worden verwerkt op de pagina **GB-dagboek project**. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Artikelen of services inkopen voor een project
 In de volgende procedure wordt beschreven hoe u een inkoopfactuur gebruikt om producten voor een project te kopen. Dezelfde stappen gelden bij gebruik van een inkooporder.  
@@ -41,10 +41,10 @@ In de volgende procedure wordt beschreven hoe u een inkoopfactuur gebruikt om pr
     In het sneltabblad **Taken** bevat het veld **Openstaande orders** het totale uitstaande bedrag in de lokale valuta van voorraadartikelen en -services op inkoopdocumenten voor de projecttaakregel.  
 
     Het veld **Ontv./Niet gefact. bedrag** bevat de waarde van artikelen die worden geleverd op inkoopdocumenten, maar die nog niet zijn gefactureerd.  
-3. Kies een van de velden om het venster **Inkoopregels** te openen. In dit venster kunt u informatie bekijken over de gerelateerde inkoopdocumentregels, inclusief welke artikelen of services zijn ontvangen.
+3. Kies een van de velden om de pagina **Inkoopregels** te openen. Op deze pagina kunt u informatie bekijken over de gerelateerde inkoopdocumentregels, inclusief welke artikelen of services zijn ontvangen.
 
 ## <a name="to-post-a-job-related-expense"></a>Projectkosten boeken
-Als u buitengewone of eenmalige projectkosten maakt, kunt u het venster **GB-dagboek project** gebruiken om ze direct te boeken naar de relevante projectrekening.
+Als u buitengewone of eenmalige projectkosten maakt, kunt u de pagina **GB-dagboek project** gebruiken om ze direct te boeken naar de relevante projectrekening.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **GB-dagboeken voor project** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe regel en voer gegevens voor de kosten in, zoals in de velden **Projectnr.** en **Projecttaaknr**.  

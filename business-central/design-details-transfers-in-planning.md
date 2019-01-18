@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Ontwerpdetails: Transfers in planning
@@ -33,7 +33,7 @@ Een transferorder lijkt veel op andere orders in het programma. Achter de scherm
 
 Eén belangrijk aspect waardoor transfers in planning verschillen van inkoop- en productieorders is dat een transferregel tegelijkertijd vraag en aanbod vertegenwoordigt. Het uitgaande deel dat wordt verzonden vanuit de oude vestiging, is de vraag. Het inkomende deel, dat moet worden ontvangen bij de nieuwe vestiging, is voorziening op die vestiging.  
 
-![Inhoud van het venster Transferorder](media/nav_app_supply_planning_7_transfers3.png "Inhoud van het venster Transferorder")  
+![Inhoud van de pagina Transferorder](media/nav_app_supply_planning_7_transfers3.png "Inhoud van de pagina Transferorder")  
 
 Dit betekent dat wanneer het systeem de voorzieningenzijde van de transfer manipuleert, een vergelijkbare wijziging aan de vraagkant moet worden gemaakt.  
 
@@ -64,7 +64,7 @@ De transferniveaucode is een intern veld dat automatisch wordt berekend en opges
 
 De transferniveaucode is 0 voor SKU's met de aanvullingsmethode Inkoop of Productieorder, -1 voor het eerste transferniveau, -2 voor het tweede, enzovoort. In de hierboven beschreven transferketen zouden de niveaus daarom zijn -1 voor ROOD en -2 voor GROEN, zoals aangegeven in de volgende illustratie.  
 
-![Inhoud van het venster SKU-kaart](media/nav_app_supply_planning_7_transfers6.gif "Inhoud van het venster SKU-kaart")  
+![Inhoud van de pagina SKU-kaart](media/nav_app_supply_planning_7_transfers6.gif "Inhoud van de pagina SKU-kaart")  
 
 Tijdens het bijwerken van een SKU detecteert het planningssysteem of SKU's met de aanvullingsmethode Transfer zijn ingesteld met kringverwijzingen.  
 
@@ -135,7 +135,7 @@ In dit voorbeeld betekent dit het volgende:
 * Einddatum + Inslagtijd = Ontvangstdatum  
 
 ## <a name="safety-lead-time"></a>Veiligheidstijd  
-Het veld Std. veiligheidstijd in het venster Productie-instellingen en het gerelateerde veld Veiligheidstijd op de artikelkaart worden niet meegenomen in de berekening van een transferorder. De veiligheidstijd beïnvloedt echter de totale planning zoals deze de aanvullingsorder (inkoop of productie) beïnvloedt aan het begin van de transferketen, wanneer de artikelen worden geplaatst in de vestiging van waaruit ze zullen worden overgedragen.  
+Het veld Std. veiligheidstijd op de pagina Productie-instellingen en het gerelateerde veld Veiligheidstijd op de artikelkaart worden niet meegenomen in de berekening van een transferorder. De veiligheidstijd beïnvloedt echter de totale planning zoals deze de aanvullingsorder (inkoop of productie) beïnvloedt aan het begin van de transferketen, wanneer de artikelen worden geplaatst in de vestiging van waaruit ze zullen worden overgedragen.  
 
 ![Elementen van de transfervervaldatum](media/nav_app_supply_planning_7_transfers14.png "Elementen van de transfervervaldatum")  
 

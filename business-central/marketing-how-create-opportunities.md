@@ -13,16 +13,16 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Verkoopopportunities maken
 U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten. Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.
 
-U kunt opportunities maken in het venster **Opportunity-overzicht**. Maar u maakt opportunities meestal van het desbetreffende contact of de desbetreffende verkoper.
+U kunt opportunities maken op de pagina **Opportunity-overzicht**. Maar u maakt opportunities meestal van het desbetreffende contact of de desbetreffende verkoper.
 
 Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

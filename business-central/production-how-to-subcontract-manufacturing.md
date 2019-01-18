@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
@@ -46,7 +46,7 @@ Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-rout
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Uitbestedingsvoorstel berekenen en uitbestedingsinkooporders maken  
 Zodra u het uitbestedingsvoorstel hebt berekend, wordt het relevante document (in dit geval een inkooporder) opgesteld.  
 
-Het venster **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de benodigde voorziening te berekenen van, in dit geval inkooporders, die u in het voorstel bekijkt en vervolgens met de functie **Planningsboodschap uitvoeren** maakt.  
+De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de benodigde voorziening te berekenen van, in dit geval inkooporders, die u in het voorstel bekijkt en vervolgens met de functie **Planningsboodschap uitvoeren** maakt.  
 
 > [!NOTE]  
 >  Alleen productieorders met de status **Vrijgegeven** zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
@@ -54,10 +54,10 @@ Het venster **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door d
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Het uitbestedingsvoorstel berekenen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Als u het voorstel wilt berekenen, klikt u op de actie **Uitbestedingen berekenen**.  
-3.  Stel in het venster **Uitbestedingen berekenen** filters in voor de uitbestede bewerkingen of de werkplaatsen waar ze worden uitgevoerd, om zo alleen de relevante productieorders te berekenen.  
-4.  Kies de knop **Ok**.  
+3.  Stel op de pagina **Uitbestedingen berekenen** filters in voor de uitbestede bewerkingen of de werkplaatsen waar ze worden uitgevoerd, om zo alleen de relevante productieorders te berekenen.  
+4.  Kies de knop **OK**.  
 
-    Bekijk de regels in het venster **Uitbestedingsvoorstel**. De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
+    Bekijk de regels op de pagina **Uitbestedingsvoorstel**. De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>De uitbestedingsinkooporder genereren  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  

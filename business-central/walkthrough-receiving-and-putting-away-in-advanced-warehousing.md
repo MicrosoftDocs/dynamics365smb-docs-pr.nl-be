@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 651ec85ead0859b5be34e624c47331292958e4db
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties
@@ -32,7 +32,7 @@ Zie voor meer informatie [Ontwerpdetails: Inkomende magazijnstroom](design-detai
 De volgende procedure geeft methode D in de vorige tabel weer.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
-In geavanceerde magazijnconfiguraties waarbij voor uw vestiging is ingesteld dat naast de opslag ook de ontvangst moet worden verwerkt, gebruikt u het venster **Magazijnontvangst** om de ontvangst van artikelen op meerdere inkomende orders vast te leggen en te boeken. Wanneer de magazijnontvangst wordt geboekt, worden een of meer magazijnopslagdocumenten gemaakt om magazijnmedewerkers te instrueren het ontvangen artikel op aangewezen locaties te plaatsen, op basis van opslaglocatie-instellingen of in verschillende opslaglocaties. De specifieke plaatsing van de artikelen wordt geregistreerd wanneer de magazijnopslag wordt geregistreerd. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder, assemblageorder of productieorder met output die kan worden opgeslagen. Als de ontvangst van een inkomende order is gemaakt, kan meer dan een inkomend brondocument worden opgehaald voor de ontvangst. Met deze methode kunt u diverse artikelen die worden afgeleverd van verschillende aankomend inkomende orders, registreren met één ontvangst.  
+In geavanceerde magazijnconfiguraties waarbij voor uw vestiging is ingesteld dat naast de opslag ook de ontvangst moet worden verwerkt, gebruikt u de pagina **Magazijnontvangst** om de ontvangst van artikelen op meerdere inkomende orders vast te leggen en te boeken. Wanneer de magazijnontvangst wordt geboekt, worden een of meer magazijnopslagdocumenten gemaakt om magazijnmedewerkers te instrueren het ontvangen artikel op aangewezen locaties te plaatsen, op basis van opslaglocatie-instellingen of in verschillende opslaglocaties. De specifieke plaatsing van de artikelen wordt geregistreerd wanneer de magazijnopslag wordt geregistreerd. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder, assemblageorder of productieorder met output die kan worden opgeslagen. Als de ontvangst van een inkomende order is gemaakt, kan meer dan een inkomend brondocument worden opgehaald voor de ontvangst. Met deze methode kunt u diverse artikelen die worden afgeleverd van verschillende aankomend inkomende orders, registreren met één ontvangst.  
 
 In deze procedure worden de volgende taken gedemonstreerd.  
 
@@ -56,7 +56,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   U maakt van uzelf een magazijnwerknemer bij vestiging WIT door de volgende stappen uit te voeren:  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount in het venster **Gebruikers**.  
+2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
 3.  Voer WIT in het veld **Vestiging** in.  
 4.  Selecteer het veld **Standaard**.  
 
@@ -64,7 +64,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 Ellen, de magazijnmanager bij CRONUS International Ltd., maakt twee inkooporders voor accessoires van leverancier 10000 en 20000 om te worden afgeleverd bij magazijn WIT. Als de leveringen in het magazijn aankomen, gebruikt Sammy, die verantwoordelijk is voor de ontvangst van artikelen van leveranciers 10000 en 20000, een filter om ontvangstregels te maken voor inkooporders van de twee leveranciers. Sammy boekt de artikelen als ontvangen in voorraad in een magazijnontvangst en maakt de artikelen beschikbaar voor verkoop of andere vraag. De magazijnmedewerker Johanna neemt de artikelen uit de opslaglocatie en zet ze weg. Hij zet alle eenheden in hun standaardopslaglocaties, behalve 40 van 100 ontvangen scharnieren die hij opslaat in de montageafdeling door de opslagregel te splitsen. Wanneer John de opslag registreert, wordt de inhoud van de opslaglocatie bijgewerkt en worden de artikelen beschikbaar gemaakt om vanuit het magazijn te worden gepickt.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Instellingen van de vestiging WIT controleren  
-De instellingen van het venster **Vestiging** definiëren de magazijnstromen van het bedrijf.  
+De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van het bedrijf.  
 
 ### <a name="to-review-the-location-setup"></a>De vestigingsinstellingen controleren  
 
@@ -111,7 +111,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
     De leveringen van artikelen van leveranciers 10000 en 20000 zijn aangekomen in magazijn WIT en Sammy begint inkoopontvangsten te verwerken.  
 
 ## <a name="receiving-the-items"></a>De artikelen ontvangen  
-In het venster **Magazijnontvangst** kunt u meerdere inkomende orders beheren voor brondocumenten, zoals een inkooporder.  
+Op de pagina **Magazijnontvangst** kunt u meerdere inkomende orders beheren voor brondocumenten, zoals een inkooporder.  
 
 ### <a name="to-receive-the-items"></a>De artikelen ontvangen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
@@ -122,14 +122,14 @@ In het venster **Magazijnontvangst** kunt u meerdere inkomende orders beheren vo
 6.  Typ in het veld **Omschrijving** de tekst **Leveranciers 10000 en 20000**.  
 7.  Kies de actie **Wijzigen**.  
 8.  Voer op het sneltabblad **Inkoop** in het veld **Orderleveranciernr. Filter** de waarde **10000&#124;20000** in.  
-9. Kies de actie **Uitvoeren**. De magazijnontvangst wordt gevuld met vier regels die inkooporderregels voor de opgegeven leveranciers vertegenwoordigen. Het veld **Te ontvangen aantal** is ingevuld omdat u niet het selectievakje **Te verwerken aantal niet opvullen** in het venster **Filters om brondoc. op te halen** hebt ingeschakeld.  
+9. Kies de actie **Uitvoeren**. De magazijnontvangst wordt gevuld met vier regels die inkooporderregels voor de opgegeven leveranciers vertegenwoordigen. Het veld **Te ontvangen aantal** is ingevuld omdat u niet het selectievakje **Te verwerken aantal niet opvullen** op de pagina **Filters om brondoc. op te halen** hebt ingeschakeld.  
 10. Als u een filter wilt gebruiken zoals eerder in dit gedeelte beschreven, kunt u ook de actie **Brondocument ophalen** kiezen en vervolgens inkooporders van de leverancier in kwestie selecteren.  
 11. Kies de actie **Ontvangst boeken** en kies vervolgens de knop **Ja**.  
 
     Er worden positieve artikelposten gemaakt die de geboekte inkoopontvangsten van leveranciers 10000 en 20000 aangeven, en de artikelen zijn gereed om in het magazijn van de ontvangende opslaglocatie te worden opgeslagen.  
 
 ## <a name="putting-the-items-away"></a>Artikelen opslaan  
-In het venster **Magazijnopslag** kunt u opslagactiviteiten beheren voor een specifiek magazijnontvangstdocument dat van toepassing is op meerdere brondocumenten. Net als alle magazijnactiviteitsdocumenten wordt elk artikel in de magazijnopslag weergegeven door een Nemen-regel en een Plaatsen-regel. In de volgende procedure is de opslaglocatie op de Nemen-regels de standaardopslaglocatie op vestiging WIT, W-08-0001.  
+Op de pagina **Magazijnopslag** kunt u opslagactiviteiten beheren voor een specifiek magazijnontvangstdocument dat van toepassing is op meerdere brondocumenten. Net als alle magazijnactiviteitsdocumenten wordt elk artikel in de magazijnopslag weergegeven door een Nemen-regel en een Plaatsen-regel. In de volgende procedure is de opslaglocatie op de Nemen-regels de standaardopslaglocatie op vestiging WIT, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>De artikelen opslaan  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslag** in en kies vervolgens de gerelateerde koppeling.  
@@ -139,7 +139,7 @@ In het venster **Magazijnopslag** kunt u opslagactiviteiten beheren voor een spe
 
     De magazijnmedewerker wordt verteld dat er 40 scharnieren op de montageafdeling nodig zijn. Hij splitst de ene Plaatsen-regel om een tweede Plaatsen-regel voor opslaglocatie W-02-0001 op te geven op de montageafdeling waar hij dat een deel van de ontvangen scharnieren plaatst.  
 
-3.  Selecteer de tweede regel in het venster **Magazijnopslag**, de Plaatsen-regel, voor artikel 70200.  
+3.  Selecteer de tweede regel op de pagina **Magazijnopslag**, de Plaatsen-regel, voor artikel 70200.  
 4.  Wijzig de waarde in het veld **Te verwerken aantal** van 100 in 60.  
 5.  Kies op het sneltabblad **Regels** de optie **Functies** en kies vervolgens **Regel splitsen**. Er wordt een nieuwe regel ingevoegd voor artikel 70200 met 40 in veld **Te verwerken aantal**.  
 6.  Voer W-02-0001 in het veld **Opslaglocatie** in. Het veld **Zonecode** wordt automatisch ingevuld.  

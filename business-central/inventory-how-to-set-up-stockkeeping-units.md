@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3c368af3347c72f2cf355876ed5574151095f993
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d5582e1857481d32ad146d0732f4c60d1b678c74
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a>SKU's instellen
@@ -35,7 +35,11 @@ Als u de eerste SKU voor een artikel hebt ingesteld, wordt het selectievakje **S
 Als u meerdere SKU's voor een artikel wilt maken, kunt u de batchverwerking **SKU maken** gebruiken.  
 
 > [!NOTE]  
->  De gegevens op de **SKU**-kaart hebben voorrang op de gegevens op de **artikelkaart**.  
+>  De gegevens op de **SKU**-kaart hebben voorrang op de gegevens op de **artikelkaart**.
+
+> [!Warning]
+> Wanneer de SKU wordt geleverd via productie, wordt het veld **Vaste verrekenprijs** niet gebruikt bij de facturering en de berekening van de werkelijke kosten van een geproduceerd artikel. In plaats daarvan wordt het veld **Vaste verrekenprijs** van de onderliggende artikelkaart gebruikt en worden eventuele afwijkingen berekend tegen het kostenaandeel van dat artikel.<br /><br />
+> Omdat productiestuklijsten en routering niet kunnen worden toegewezen aan SKU´s, zijn de berekening van kosten per eenheid en de bijbehorende berekening van het kostenaandeel ook niet beschikbaar voor SKU's. Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) voor nadere informatie
 
 ## <a name="see-also"></a>Zie ook  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  

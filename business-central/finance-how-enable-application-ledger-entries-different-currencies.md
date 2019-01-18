@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8216885adb734dde214570c65b5f6036caa37d2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Vereffening van posten in verschillende valuta's inschakelen
@@ -24,7 +24,7 @@ Als de betaling in een andere valuta dan de valuta van de inkoop wordt ingediend
 
 Als u aan een klant verkoopt in een bepaalde valuta en een betaling in een andere valuta ontvangt, kunt u de betaling ook vereffenen met de verkoopfactuur.
 
-In de volgende procedure wordt beschreven hoe u dit instelt voor leveranciersposten in het venster **Inkoopinstellingen**. De instelling is soortgelijk voor klantenposten in het venster **Verkoopinstellingen**.
+In de volgende procedure wordt beschreven hoe u dit instelt voor leveranciersposten op de pagina **Inkoopinstellingen**. De instelling is soortgelijk voor klantenposten op de pagina **Verkoopinstellingen**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Vereffening van leveranciersposten in verschillende valuta's inschakelen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.

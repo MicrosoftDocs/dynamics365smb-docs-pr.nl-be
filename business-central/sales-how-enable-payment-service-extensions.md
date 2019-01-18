@@ -11,10 +11,10 @@ ms.search.keywords: online payment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 883eb47f59a060befc67bdb702053810517fb5a2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: eac58a651989fff8b1d2cc6b6dbed2a380ae8ef8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Klantbetalingen via betalingsservices inschakelen
@@ -26,11 +26,11 @@ De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standa
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Een betalingsservice inschakelen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsservices** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Betalingsservices** de actie **Nieuw**.  
-3. Selecteer de betalingsservice en sluit vervolgens het venster.  
-4. Kies in het venster **Betalingsservices** de actie **Instellen**.  
-5. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Sluit het venster.  
+2. Kies op de pagina **Betalingsservices** de actie **Nieuw**.  
+3. Selecteer de betalingsservice en sluit vervolgens de pagina.  
+4. Kies op de pagina **Betalingsservices** de actie **Instellingen**.  
+5. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+6. Sluit de pagina.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Een betalingsservice selecteren op een verkoopfactuur
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  

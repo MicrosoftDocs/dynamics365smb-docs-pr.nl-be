@@ -11,19 +11,19 @@ ms.search.keywords: accountant, accounting
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 2408d7df92a8367505bd068dcad22283a7082126
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bb514cdfcaf2ea0a05b669cb5b5963da79a94d0e
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens.
 
-Als de accountant toegang heeft gekregen tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kan hij of zij het rolcentrum **Accountant** gebruiken, dat eenvoudig toegang tot de meest relevante vensters voor hun werk biedt.  
+Als de accountant toegang heeft gekregen tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kan hij of zij het rolcentrum **Accountant** gebruiken, dat eenvoudig toegang tot de meest relevante pagina's voor hun werk biedt.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Uw accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In de laatste versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben we het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. Open gewoon het venster **Gebruikers** en kies de actie **Externe accountant uitnodigen** op het lint. Er wordt een e-mail voor u gemaakt. Voeg het werke-mailadres van uw accountant eraan toe en verzend de uitnodiging.  
+In de laatste versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben we het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. Open gewoon de pagina **Gebruikers** en kies de actie **Externe accountant uitnodigen** op het lint. Er wordt een e-mail voor u gemaakt. Voeg het werke-mailadres van uw accountant eraan toe en verzend de uitnodiging.  
 
 ![Uw accountant uitnodigen](./media/finance-invite-accountant/invite-accountant.png)
 

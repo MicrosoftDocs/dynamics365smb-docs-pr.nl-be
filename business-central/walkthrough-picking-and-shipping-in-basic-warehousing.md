@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
@@ -32,7 +32,7 @@ Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](design-detai
 De volgende procedure geeft methode B in de vorige tabel weer.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
-In standaardmagazijnconfiguraties waarbij voor uw vestiging wel een pickverwerking vereist is, maar geen verzendingsverwerking, gebruikt u het venster **Voorraadpick** om pick- en verzendingsinformatie voor de uitgaande brondocumenten te verzamelen en boeken. Het uitgaand brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder met daarop de materiaalbehoefte.  
+In standaardmagazijnconfiguraties waarbij voor uw vestiging wel een pickverwerking vereist is, maar geen verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om pick- en verzendingsinformatie voor de uitgaande brondocumenten te verzamelen en boeken. Het uitgaand brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder met daarop de materiaalbehoefte.  
 
 In deze procedure worden de volgende taken gedemonstreerd:  
 
@@ -56,7 +56,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   Maak van uzelf een magazijnwerknemer bij vestiging ZILVER door de volgende stappen uit te voeren:  
 
     1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
-    2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount in het venster **Gebruikers**.  
+    2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
     3.  Voer ZILVER in het veld **Vestiging** in.  
     4.  Selecteer het veld **Standaard**.  
 
@@ -73,12 +73,12 @@ U moet het volgende doen om deze procedure uit te voeren:
     3.  Kies de actie **Boeken** en selecteer de knop **Ja**.  
 
 ## <a name="story"></a>Scenario  
-Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken in het venster **Voorraadpick**, dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
+Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
 
 ## <a name="setting-up-the-location"></a>De locatie instellen  
-De instellingen van het venster **Vestiging** definiëren de magazijnstromen van het bedrijf.  
+De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van het bedrijf.  
 
-### <a name="to-set-up-the-location"></a>Een vestiging instellen  
+### <a name="to-set-up-the-location"></a>De vestiging instellen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de vestigingskaart ZILVER.  
 3.  Selecteer het selectievakje **Pick vereist**.  
@@ -102,7 +102,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
     John gaat door met het picken en verzenden van de verkochte artikelen.  
 
 ## <a name="picking-and-shipping-items"></a>Artikelen picken en verzenden  
-In het venster **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor een bepaald brondocument, zoals een verkooporder, beheren.  
+Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor een bepaald brondocument, zoals een verkooporder, beheren.  
 
 ### <a name="to-pick-and-ship-items"></a>U kunt als volgt artikels picken en verzenden  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  

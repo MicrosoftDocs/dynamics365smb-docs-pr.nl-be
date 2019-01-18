@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
@@ -41,8 +41,8 @@ Voor zowel inkoop- als verkoopdocumenten kunt u een artikeltoeslag op twee manie
 De verschillende soorten artikeltoeslagen die in uw bedrijf worden gebruikt, onderscheidt u van elkaar met artikeltoeslagnummers.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltoeslagen** in en kies vervolgens de gerelateerde koppeling.
-2. Kies in het venster **Artikeltoeslagen** de actie **Nieuw** om een nieuwe regel te maken.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Kies op de pagina **Artikeltoeslagen** de actie **Nieuw** om een nieuwe regel te maken.
+3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, volgt u deze procedure.
@@ -58,9 +58,9 @@ Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, v
     In de volgende stappen volgt voert u de feitelijke toewijzing uit. Tot de artikeltoeslag volledig is toegewezen, wordt de waarde in het veld **Toe te wijzen aantal** in rood weergegeven.
 8. Kies op het tabblad **Regels** de actie **Artikeltoeslagtoewijzing**.
 
-    Het venster **Artikeltoeslagtoewijzing** wordt geopend met één regel voor elke regel van de soort Artikel op de inkoopfactuur. Als u de artikeltoeslag aan een of meer factuurregels wilt toewijzen, kunt u een functie gebruiken die de kosten voor u toewijst en distribueert, of kunt u het veld **Toe te wijzen aantal** handmatig invullen. In de volgende stappen wordt beschreven hoe de functie Artikeltoeslag voorstellen gebruikt.
+    De pagina **Artikeltoeslagtoewijzing** wordt geopend met één regel voor elke regel van de soort Artikel op de inkoopfactuur. Als u de artikeltoeslag aan een of meer factuurregels wilt toewijzen, kunt u een functie gebruiken die de kosten voor u toewijst en distribueert, of kunt u het veld **Toe te wijzen aantal** handmatig invullen. In de volgende stappen wordt beschreven hoe de functie Artikeltoeslag voorstellen gebruikt.
 
-9. Kies in het venster **Artikeltoeslagtoewijzing** de actie **Artikeltoeslag voorstellen**.
+9. Kies op de pagina **Artikeltoeslagtoewijzing** de actie **Artikeltoeslag voorstellen**.
 10. Als er meerdere factuurregels van de soort Artikel zijn, kiest u een van de vier verdelingopties.  
 
 Als de artikeltoeslag volledig is toegewezen, wordt de waarde in het veld **Toe te wijzen aantal** op de inkoopfactuur nul.
@@ -70,8 +70,8 @@ De artikeltoeslag wordt nu toegewezen aan de inkoopfactuur. Als u de ontvangst v
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag vanuit een aparte factuur rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 Als u een factuur hebt ontvangen voor de artikeltoeslag nadat u de oorspronkelijke inkoopontvangst hebt geboekt, volgt u deze procedure.
 1. Herhaal stap 1 tot en met 8 in de sectie 'Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel'.
-2. Kies in het venster **Artikeltoeslagtoewijzing** de actie **Ontvangstregels ophalen**.
-3. Selecteer in het venster **Inkoopontvangstregels** de geboekte inkoopontvangst voor het artikel waaraan u de artikeltoeslag wilt toewijzen, en kies vervolgens de knop **OK**.
+2. Kies op de pagina **Artikeltoeslagtoewijzing** de actie **Ontvangstregels ophalen**.
+3. Selecteer op de pagina **Inkoopontvangstregels** de geboekte inkoopontvangst voor het artikel waaraan u de artikeltoeslag wilt toewijzen, en kies vervolgens de knop **OK**.
 4. Kies de actie **Artikeltoeslag voorstellen**.
 
 De artikeltoeslag op de afzonderlijke inkoopfactuur wordt nu toegewezen aan het artikel op de geboekte inkoopontvangst, waardoor de voorraadwaarde van het artikel wordt bijgewerkt met de kosten van de artikeltoeslag.

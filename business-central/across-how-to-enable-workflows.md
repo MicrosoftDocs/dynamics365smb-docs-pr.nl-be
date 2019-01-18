@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df48a8c8335e73a304c7f423aea4bbe8018be060
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ee751670e39d1abe0e1d3e5faa04e57ce1fcc07
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-workflows"></a>Werkstromen inschakelen
 Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.  
 
- In het venster **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
+ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Een workflow inschakelen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de werkstroom die u wilt inschakelen.  
-3.  Schakel in het venster **Werkstroom** het selectievakje **Ingeschakeld** in.  
+3.  Schakel op de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
 
 ## <a name="see-also"></a>Zie ook  
  [Werkstromen maken](across-how-to-create-workflows.md)   

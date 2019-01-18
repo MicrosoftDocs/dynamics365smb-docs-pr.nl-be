@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Voortgang en prestaties van projecten bewaken
@@ -40,7 +40,7 @@ U kunt een OHW-methode voor een project maken die de behoeften van uw organisati
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW-methoden taak** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Sluit het venster.   
+3. Sluit de pagina.   
 4. Als u van deze nieuwe methode de standaard wilt maken, kiest u pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
@@ -49,14 +49,14 @@ Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het pro
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).  
-3. Selecteer in het venster **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
+3. Selecteer op de pagina **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
 
 ## <a name="to-calculate-wip"></a>OHW berekenen
 U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. U gebruikt hiervoor de batchverwerking **OHW voor project berekenen**.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW voor project berekenen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **OHW berekenen**.
-3. Vul in het venster **OHW voor project berekenen** indien nodig de velden in.
+3. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.
 4. Kies de knop **OK**.  
 
 > [!NOTE]  
@@ -66,8 +66,8 @@ U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor
 Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage. Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Project-OHW naar GB boeken** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul in het venster **Project-OHW naar GB boeken** indien nodig de velden in.  
-3. Kies de knop **Ok**.
+2. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
+3. Kies de knop **OK**.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>Projectgebruikschattingen weergeven en updates boeken
 U kunt in één stap het projectgebruik tot aan de voltooiing van een project bekijken. Hiervoor gebruikt u de batchverwerking **Project - Resterend gebruik berekenen** voor alle taken tot en met het einde van een project.  
@@ -79,7 +79,7 @@ Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met d
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Resterend gebruik berekenen**.  
-3. Voer in het venster **Project - Resterend gebruik berekenen** het documentnummer en de boekingsdatum in die in het dagboek moeten worden ingevoegd, en kies vervolgens de knop **OK**.  
+3. Voer op de pagina **Project - Resterend gebruik berekenen** het documentnummer en de boekingsdatum in die in het dagboek moeten worden ingevoegd, en kies vervolgens de knop **OK**.  
 4. Werk het dagboek bij met eventuele wijzigingen die nodig zijn.  
 5. Kies de actie **Boeken**.
 
@@ -89,7 +89,7 @@ Alle posten met betrekking tot een project worden in projectjournalen opgeslagen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een relevant journaal en kies vervolgens de actie **Projectposten**.
 
-Het venster **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
+De pagina **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
 
 ## <a name="see-also"></a>Zie ook
 [Projecten beheren](projects-manage-projects.md)

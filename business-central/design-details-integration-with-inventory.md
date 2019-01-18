@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: df77e655c58b6eba6f431ef66be3152f56ac634f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dda69814c0f8b2a21a3e927e2e357817090549f4
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-integration-with-inventory"></a>Ontwerpdetails: Integratie met voorraad
 De module Magazijnbeheer en de module Voorraad kunnen met elkaar communiceren in inventarisatie en in voorraad- of magazijnherwaardering.  
   
-## <a name="physical-inventory"></a>Physical Inventory  
- Het venster **Mag.-inventarisatiedagboek** wordt gebruikt met het venster **Inventarisatiedagboek** voor alle geavanceerd magazijnvestigingen. De voorraad op het niveau van opslaglocaties wordt berekend en er wordt een afgedrukte lijst geleverd voor de magazijnmedewerker. Het overzicht toont welke artikelen in welke opslaglocaties moeten worden geteld.  
+## <a name="physical-inventory"></a>Inventarisatieoverzicht  
+ De pagina **Mag.-inventarisatiedagboek** wordt gebruikt met de pagina **Inventarisatiedagboek** voor alle geavanceerd magazijnvestigingen. De voorraad op het niveau van opslaglocaties wordt berekend en er wordt een afgedrukte lijst geleverd voor de magazijnmedewerker. Het overzicht toont welke artikelen in welke opslaglocaties moeten worden geteld.  
   
- De magazijnmedewerker voert het getelde aantal in het venster **Mag.-inventarisatiedagboek** in en boekt vervolgens het dagboek.  
+ De magazijnmedewerker voert het getelde aantal op de pagina **Mag.-inventarisatiedagboek** in en boekt vervolgens het dagboek.  
   
  Als het getelde aantal groter is dan het aantal op de dagboekregel, wordt een verplaatsing voor dit verschil geboekt van de standaard herwaarderingsopslaglocatie naar de getelde opslaglocatie. Hiermee wordt het aantal in de getelde opslaglocatie verhoogd en het aantal in de standaardherwaarderingsopslaglocatie verlaagd.  
   
@@ -36,7 +36,7 @@ De module Magazijnbeheer en de module Voorraad kunnen met elkaar communiceren in
  Wanneer u het inventarisatiedagboek boekt, wordt de voorraad en de standaardherwaarderingsopslaglocatie bijgewerkt.  
   
 ### <a name="warehouse-adjustments-to-the-item-ledger"></a>Magazijncorrecties in de artikelpost  
- U gebruikt het venster **Artikeldagboek** en de functie **Magazijnherwaardering berekenen** om voorraad op de artikelpost aan te passen in overeenstemming met een aanpassing die is gemaakt in het artikelaantal in een magazijnopslaglocatie. Als u een koppeling tussen de voorraad en het magazijn wilt maken, moet u een standaardherwaarderingsopslaglocatie per vestiging definiëren.  
+ U gebruikt de pagina **Artikeldagboek** en de functie **Magazijnherwaardering berekenen** om voorraad op de artikelpost aan te passen in overeenstemming met een aanpassing die is gemaakt in het artikelaantal in een magazijnopslaglocatie. Als u een koppeling tussen de voorraad en het magazijn wilt maken, moet u een standaardherwaarderingsopslaglocatie per vestiging definiëren.  
   
  De standaardcorrectieopslaglocatie registreert artikelen in het magazijn wanneer u een toename voor de voorraad boekt. Als u echter een afname boekt, wordt het aantal op de standaardopslaglocatie ook verlaagd. In beide gevallen worden artikelposten en magazijnposten gemaakt.  
   

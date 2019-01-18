@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
@@ -24,7 +24,7 @@ U moet een code instellen voor elke gebruikte valuta als u in andere valuta's da
 
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiën in meer dan één valuta kunnen controleren of rapporteren. In het programma wordt het gebruik van meerdere valuta;s ondersteund. Binnen het programma wordt uw grootboek ingesteld met uw lokale valuta (LV) en wordt een andere valuta ingesteld als een extra valuta, waaraan een huidige wisselkoers wordt toegewezen.  
 
- Door een tweede valuta in te stellen als een aanvullende rapportagevaluta, slaat [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch bedragen op in de LV en in deze extra rapportagevaluta bij elke boeking in het grootboek en andere boekingen, zoals btw-boekingen. Wanneer het programma grootboekpostenbedragen berekent in een extra rapportagevaluta, wordt de informatie gebruikt van het venster **Valutawisselkoersen** om de relevante wisselkoers te vinden.  
+ Door een tweede valuta in te stellen als een aanvullende rapportagevaluta, slaat [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch bedragen op in de LV en in deze extra rapportagevaluta bij elke boeking in het grootboek en andere boekingen, zoals btw-boekingen. Wanneer het programma grootboekpostenbedragen berekent in een extra rapportagevaluta, wordt de informatie gebruikt van de pagina **Valutawisselkoersen** om de relevante wisselkoers te vinden.  
 
 > [!WARNING]  
 >  De functie Extra rapportagevaluta mag NIET worden gebruikt als basis voor de vertaling van een financieel overzicht. Het is geen programma dat een vertaling kan uitvoeren van financiële overzichten van buitenlandse dochterondernemingen als onderdeel van een bedrijfsconsolidatie. De extra rapportagevalutafunctie biedt alleen de optie om rapporten in een andere valuta voor te bereiden, alsof die valuta de lokale valuta van het bedrijf was.
@@ -39,21 +39,21 @@ Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bied
 
 - Bedrijven die tevens rapporten in een internationale handelsvaluta in plaats van hun eigen lokale valuta willen weergeven.  
 
-Verschillende rapporten in de module Financieel zijn gebaseerd op grootboekposten. Als u de financiële gegevens in de lijst in de extra rapportagevaluta wilt weergeven, plaatst u eenvoudigweg een vinkje in het veld **Bedragen in rapp.-valuta weergeven** in het betreffende grootboeklijstvenster.  
+Verschillende rapporten in de module Financieel zijn gebaseerd op grootboekposten. Als u de financiële gegevens in de lijst in de extra rapportagevaluta wilt weergeven, plaatst u eenvoudigweg een vinkje in het veld **Bedragen in rapp.-valuta weergeven** op de betreffende grootboeklijstpagina.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Een wisselkoersservice instellen
 U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valutawisselkoersservices** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul in het venster **Valutawisselkoersservice** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul op de pagina **Valutawisselkoersservice** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies het selectievakje **Ingeschakeld** om de service in te schakelen.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Valutawisselkoersen bijwerken met een service
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Wisselkoersen bijwerken**.
 
-De waarde in het veld **Wisselkoers** in het venster **Valuta´s** wordt bijgewerkt met de laatste wisselkoers.
+De waarde in het veld **Wisselkoers** op de pagina **Valuta's** wordt bijgewerkt met de laatste wisselkoers.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  

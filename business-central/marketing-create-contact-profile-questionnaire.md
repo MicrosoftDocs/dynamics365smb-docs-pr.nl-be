@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Nadat u een vragenlijst hebt gemaakt, moet u contactbeoordelingen maken om uw co
 > Als u een automatisch te beantwoorden vraag invoert, klikt u op <STRONG>Regel</STRONG> en kiest u vervolgens <STRONG>Vraagdetails</STRONG> om de criteria in te voeren voor het beantwoorden van de vraag.
 
 ## <a name="the-automatic-classification-of-contacts"></a>De automatische classificatie van contactpersonen
-U kunt de contacten automatisch indelen op basis van klant-, leveranciers- en contactgegevens, door automatisch beantwoorde profielvragen in te stellen in het venster **Profielvragenlijstinstellingen**.  
+U kunt de contacten automatisch indelen op basis van klant-, leveranciers- en contactgegevens, door automatisch beantwoorde profielvragen in te stellen op de pagina **Profielvragenlijstinstellingen**.  
 
 > [!NOTE]
 > Een classificatie op basis van klantgegevens kan alleen worden toegewezen aan contacten die als klant zijn geregistreerd. Een classificatie op basis van leveranciersgegevens kan alleen worden toegewezen aan contacten die als leverancier zijn geregistreerd. De automatische classificatie wordt niet automatisch bijgewerkt. Daarom wilt u de profielvragenlijsten mogelijk bijwerken, nadat u de klant-, leveranciers- of contactgegevens waarop de profielvragenlijsten zijn gebaseerd, hebt bijgewerkt.  
@@ -73,13 +73,13 @@ U kunt de contacten indelen op basis van de aantallen die ze bij u hebben gekoch
 <td><p>contacten die voor tussen 100.000 en 499.999 LV hebben gekocht</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>U</p></td>
 <td><p>contacten die voor 99.999 LV of minder hebben gekocht</p></td>
 </tr>
 </tbody>
 </table>
 
-Hiervoor moet u het venster **Profielvragenlijstinstellingen** als volgt invullen:
+Hiervoor moet u de pagina **Profielvragenlijstinstellingen** als volgt invullen:
 
 
 <table>
@@ -93,7 +93,7 @@ Hiervoor moet u het venster **Profielvragenlijstinstellingen** als volgt invulle
 <thead>
 <tr class="header">
 <th><strong>Soort</strong></th>
-<th><strong>Omschrijving</strong></th>
+<th><strong>Beschrijving</strong></th>
 <th><strong>Automatische indeling</strong></th>
 <th><strong>Van waarde</strong></th>
 <th><strong>Naar waarde</strong></th>
@@ -104,34 +104,34 @@ Hiervoor moet u het venster **Profielvragenlijstinstellingen** als volgt invulle
 <td><p>Vraag</p></td>
 <td><p>ABC-classificatie</p></td>
 <td><p>Klik op het selectievakje om het in te schakelen</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Antwoord</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500.000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Antwoord</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100.000</p></td>
-<td><p>499.999</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Antwoord</p></td>
-<td><p>L</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99.999</p></td>
+<td><p>U</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Vul vervolgens het venster **Profielvraagdetails** als volgt in:
+Vul vervolgens de pagina **Profielvraagdetails** als volgt in:
 <table>
 <colgroup>
 <col style="width: 50%" />

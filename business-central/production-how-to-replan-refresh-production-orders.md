@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Productieorders direct opnieuw plannen of vernieuwen
@@ -41,7 +41,7 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 4.  Voeg een materiaal toe. (Dat is een geproduceerd artikel of subassemblage.)  
 5.  Kies vanuit de productieorder de actie **Herplannen**.  
 
-    Definieer in het venster **Productieorder herplannen** wat en op welke wijze u wilt herplannen.  
+    Definieer op de pagina **Productieorder herplannen** wat en op welke wijze u wilt herplannen.  
 6.  Selecteer een van de volgende opties in het veld **Planningsrichting**.  
 
     |Optie|Description|  
@@ -68,7 +68,7 @@ Als u productieorderregels, materialen of bewerkingsplanregels hebt aangepast, m
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
 3.  Kies de actie **Vernieuwen**.
-4. Selecteer in het venster **Productieorder vernieuwen** een van de volgende opties:
+4. Selecteer op de pagina **Productieorder vernieuwen** een van de volgende opties:
 
     |Optie|Description|  
     |----------------------------------|---------------|---------------------------------------|  

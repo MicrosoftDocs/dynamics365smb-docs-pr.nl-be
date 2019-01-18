@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
@@ -38,7 +38,7 @@ Alle tabellen die u hebt aangewezen voor opname in het nieuwe bedrijf worden ge√
 ## <a name="to-apply-package-data"></a>Pakketgegevens toepassen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u gegevens wilt wijzigen en kies vervolgens de actie **Gegevens toepassen**. Kies de knop **Ja** om de toepassing te bevestigen.
-3. Ga terug naar het venster **Configuratiewerkblad** om te bevestigen dat de gegevens zich nu in de database bevinden en dat de toepassing is geslaagd, en kies de actie **Databasegegevens**.  
+3. Ga terug naar de pagina **Configuratiewerkblad** om te bevestigen dat de gegevens zich nu in de database bevinden en dat de toepassing is geslaagd, en kies de actie **Databasegegevens**.  
 
 > [!NOTE]  
 >  Nadat u gegevens hebt toegepast, kunt u deze alleen bekijken in de database. Zij bevinden zich niet langer in het pakket.  
@@ -46,9 +46,9 @@ Alle tabellen die u hebt aangewezen voor opname in het nieuwe bedrijf worden ge√
 ## <a name="to-modify-and-apply-package-data"></a>Pakketgegevens wijzigen en toepassen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u gegevens wilt wijzigen en kies vervolgens de actie **Pakketgegevens**.  
-3. Breng uw wijzigingen aan in het venster **Pakketrecords voor configuratie**. Zo kunt u bijvoorbeeld opties verwijderen die niet van toepassing zijn.  
+3. Breng uw wijzigingen aan op de pagina **Pakketrecords voor configuratie**. Zo kunt u bijvoorbeeld opties verwijderen die niet van toepassing zijn.  
 4. Kies de actie **Gegevens toepassen** en kies vervolgens de knop **OK**.  
-5. Ga terug naar het venster **Configuratiewerkblad** om te bevestigen dat de gegevens zich nu in de database bevinden en dat de toepassing is geslaagd, en kies de actie **Databasegegevens**.  
+5. Ga terug naar de pagina **Configuratiewerkblad** om te bevestigen dat de gegevens zich nu in de database bevinden en dat de toepassing is geslaagd, en kies de actie **Databasegegevens**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Een configuratiefout zoeken en identificeren  
 Er zijn bepaalde typen fouten die kunnen optreden wanneer u gegevens toepast op een database. De meest voorkomende fout is dat vereiste tabellen niet zijn opgenomen. U corrigeert dergelijke fouten in het configuratiewerkblad.
@@ -58,7 +58,7 @@ Er zijn bepaalde typen fouten die kunnen optreden wanneer u gegevens toepast op 
 
     Een tabel met fouten wordt gemarkeerd weergegeven. Het aantal pakketfouten wordt weergegeven in het veld **Aantal pakketfouten**.  
 
-3. Kies het veld **Aantal pakketfouten** om het venster **Pakketrecords voor configuratie** te openen, met de lijst met records met fouten.  
+3. Kies het veld **Aantal pakketfouten** om de pagina **Pakketrecords voor configuratie** te openen, met de lijst met records met fouten.  
 
 ### <a name="to-fix-an-error"></a>Een fout corrigeren  
 1. Open het bedrijf dat is gebaseerd op uw configuratiepakket.  

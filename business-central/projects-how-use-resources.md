@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Resources gebruiken voor projecten
@@ -46,8 +46,8 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijswijzigingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Res.prijsvoorstellen (Prijs)** en vul indien nodig de velden in.
-3. Kies de knop **Ok**.  
-4. Nadat de batchverwerking is voltooid, bevat het venster **Resourceprijswijzigingen** de resultaten van de batchverwerking.
+3. Kies de knop **OK**.  
+4. Nadat de batchverwerking is voltooid, bevat de pagina **Resourceprijswijzigingen** de resultaten van de batchverwerking.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Resourceprijsvoorstellen ophalen op basis van standaardverkoopprijzen
 Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de standaardverkoopprijzen op de resourcekaarten, kunt u een batchverwerking gebruiken.  
@@ -55,7 +55,7 @@ Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de stand
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijswijzigingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Res.prijsvoorstellen (Res.)** en vul indien nodig de velden in.  
 3. Kies de knop **Ok**.  
-4. Nadat de batchverwerking is voltooid, opent u het venster **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
+4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Suggesties voor wijzigingen van resourceprijzen krijgen op basis van alternatieve prijzen
 Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, kunt u een batchverwerking gebruiken om meerdere alternatieve resourceprijzen in te stellen.
@@ -63,7 +63,7 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Res.prijsvoorstellen (Prijs)** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 3. Kies de knop **Ok**.  
-4. Nadat de batchverwerking is voltooid, opent u het venster **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
+4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
 
 ## <a name="see-also"></a>Zie ook
 [Projectbeheer](projects-manage-projects.md)  

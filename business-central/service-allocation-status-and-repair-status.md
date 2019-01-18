@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Toewijzingsstatus en herstelstatus van serviceartikelen
-Tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten voor de serviceartikelen bestaat een bepaalde relatie in de module Servicebeheer. De toewijzingsstatus verandert wanneer u de herstelstatus van het serviceartikel wijzigt in **Gereedgemeld** of **Deels service verleend** en een serviceofferte omzet in een serviceorder. De herstelstatus van het serviceartikel verandert wanneer u de toewijzing van het serviceartikel wijzigt of het serviceartikel toewijst aan een andere resource. U kunt de herstelstatus van serviceartikelen bekijken in het venster **Servicetaken** en bijwerken in het veld **Herstelstatuscode** in het venster **Serviceartikelwerkbon**. U kunt de toewijzingsstatus bekijken in het veld **Status** in het venster **Resourcetoewijzingen**.  
+Tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten voor de serviceartikelen bestaat een bepaalde relatie in de module Servicebeheer. De toewijzingsstatus verandert wanneer u de herstelstatus van het serviceartikel wijzigt in **Gereedgemeld** of **Deels service verleend** en een serviceofferte omzet in een serviceorder. De herstelstatus van het serviceartikel verandert wanneer u de toewijzing van het serviceartikel wijzigt of het serviceartikel toewijst aan een andere resource. U kunt de herstelstatus van serviceartikelen bekijken op de pagina **Servicetaken** en bijwerken in het veld **Herstelstatuscode** op de pagina **Serviceartikelwerkbon**. U kunt de toewijzingsstatus bekijken in het veld **Status** op de pagina **Resourcetoewijzingen**.  
   
 ## <a name="changing-repair-status"></a>Herstelstatus wijzigen  
 Wanneer u de herstelstatus van een serviceartikel op een serviceartikelregel wijzigt, wordt voor dit serviceartikel automatisch naar een bijbehorende toewijzingspost met de status **Actief** gezocht. Als een dergelijke toewijzingspost wordt gevonden, wordt de status op een van de volgende manieren bijgewerkt:  
   
 * Als u de herstelstatus wijzigt in **Gereedgemeld**, wordt de toewijzingsstatus van **Actief** gewijzigd in **Gereedgemeld**.  
 * Wijzigt u de herstelstatus in **Deels service verleend** (dat wil zeggen: een deel van de service is voltooid) of **Toegewezen** (dat wil zeggen: er is geen service uitgevoerd), dan wordt de toewijzingsstatus van **Actief** gewijzigd in **Hertoewijzing vereist**.  
-* Wanneer een toewijzingspost wordt gemaakt voor een serviceorder met de aanduiding dat er geen resource is toegewezen, wordt het veld **Status** in het venster **Resourcetoewijzingen** ingesteld op **Niet-actief**.  
+* Wanneer een toewijzingspost wordt gemaakt voor een serviceorder met de aanduiding dat er geen resource is toegewezen, wordt het veld **Status** op de pagina **Resourcetoewijzingen** ingesteld op **Niet-actief**.  
 * De status van de toewijzingspost wordt ingesteld op **Geannuleerd** wanneer u het toegewezen serviceartikel in de toewijzingspost van de serviceorder opnieuw toewijst. Hiermee wordt aangegeven dat de toegewezen resource of resourcegroep nog niet is begonnen met de servicetaak.  
   
 Met de toewijzingsstatus wordt aangegeven wanneer het serviceproces is voltooid of wanneer een andere resource nodig is om de service voor het serviceartikel te voltooien.  

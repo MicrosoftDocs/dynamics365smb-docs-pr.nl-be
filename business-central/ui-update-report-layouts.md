@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Rapport- of documentlay-outs bijwerken
@@ -32,7 +32,7 @@ Niet alle wijzigingen in de gegevensset van rapporten kunnen automatisch worden 
   
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportlay-outs** in en kies vervolgens de gerelateerde koppeling.  
   
-2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst in het venster **Rapportlay-outs** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
+2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst op de pagina **Rapportlay-outs** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
 
 Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs. Als zich fouten voordoen, verschijnt er een bericht waarin de fouten worden aangegeven. U moet de aangepaste rapportlay-out dan handmatig bewerken om de fout te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
 
@@ -40,9 +40,9 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
   
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
   
-2.  Kies in het venster **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
+2.  Kies op de pagina **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
   
- Wijzigingen in de rapportlay-outs worden getest, maar niet toegepast op de werkelijke rapportlay-outs. Het venster **Bijwerklogboek rapportlay-out** verschijnt waarin de status van potentiële updates voor elke rapportlay-out wordt aangegeven. Als er fouten voor een rapportlay-out zijn, kunt u de rapportlay-out van het bericht direct benaderen en bewerken om eventuele problemen te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
+ Wijzigingen in de rapportlay-outs worden getest, maar niet toegepast op de werkelijke rapportlay-outs. De pagina **Bijwerklogboek rapportlay-out** verschijnt waarin de status van potentiële updates voor elke rapportlay-out wordt aangegeven. Als er fouten voor een rapportlay-out zijn, kunt u de rapportlay-out van het bericht direct benaderen en bewerken om eventuele problemen te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
   
 ##  <a name="UpdateLimitations"></a> Beperking voor update van aangepaste rapportlay-out  
  Er zijn verschillende soorten wijzigingen die de automatische update kan toepassen op aangepaste rapportlay-outs, bijvoorbeeld als een veld dat in de lay-out wordt gebruikt, in verwijderd uit de gegevensset van het rapport. De automatische update kan de volgende wijzigingen in de gegevensset van een rapport echter bijwerken.  

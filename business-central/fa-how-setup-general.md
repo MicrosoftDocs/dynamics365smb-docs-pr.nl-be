@@ -10,17 +10,17 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d72a39b0fbccc0275a1f9d486d5385428d36fd85
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Algemene standaardwaarden instellen voor vaste activa
-U definieert het algemene gedrag of de functionaliteit voor vaste activa en stelt de documentnummerreeks in het venster **VA-instellingen** in.
+U definieert het algemene gedrag of de functionaliteit voor vaste activa en stelt de documentnummerreeks op de pagina **VA-instellingen** in.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Post
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.
-3. Vul indien nodig de velden in het venster **VA-boekingsgroep** in.
+3. Vul indien nodig de velden op de pagina **VA-boekingsgroep** in.
 
     > [!NOTE]  
     >   Om ervoor te zorgen dat tegenrekeningen voor verschillende boekingen van vaste activa automatisch worden ingevoegd als u de actie **VA-tegenrekening invoegen** op dagboekregels kiest, voert u op basis van boeking van waardevermeerdering de volgende stap uit.
@@ -44,14 +44,14 @@ Transacties kunnen over diverse afdelingen of projecten worden verdeeld, volgens
 Verdeelsleutels zijn van toepassing op klassen voor vaste activa en niet op afzonderlijke activa.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **VA-boekingsgroepen** de actie **Verdeelsleutels** en kies vervolgens een boekingssoort.
-3. Vul indien nodig in het venster **VA-verdeelsleutels** de velden in.
+2. Kies op de pagina **VA-boekingsgroepen** de actie **Verdeelsleutels** en kies vervolgens een boekingssoort.
+3. Vul indien nodig op de pagina **VA-verdeelsleutels** de velden in.
 4. Herhaal stap 2 en 3 voor elk boekingssoort waarvoor u verdeelsleutels wilt definiëren.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Dagboeksjablonen voor vaste activa instellen
 Een sjabloon is een vooraf gedefinieerd model voor een dagboek. De sjabloon bevat informatie over traceringscodes, lijsten en nummerreeksen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjabloon voor vaste activa gemaakt als u het venster **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjabloon voor vaste activa gemaakt als u de pagina **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -61,10 +61,10 @@ U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke da
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
-3. Vul in het venster **VA-dagboekbatches** indien nodig de velden in.
+3. Vul op de pagina **VA-dagboekbatches** indien nodig de velden in.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Herindelingsdagboeksjablonen voor vaste activa instellen
-U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet verplaatsen, combineren of splitsen. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een herindelingsdagboeksjabloon voor vaste activa gemaakt wanneer u het venster **VA-herindelingsdagboek** voor het eerst opent, maar u kunt extra VA-herindelingsdagboeksjablonen instellen. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
+U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet verplaatsen, combineren of splitsen. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een herindelingsdagboeksjabloon voor vaste activa gemaakt wanneer u de pagina **VA-herindelingsdagboek** voor het eerst opent, maar u kunt extra VA-herindelingsdagboeksjablonen instellen. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-herindelingsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -74,7 +74,7 @@ U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke he
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-herindelingsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
-3. Vul in het venster **VA-herindelingsdagboekbatches** indien nodig de velden in.
+3. Vul op de pagina **VA-herindelingsdagboekbatches** indien nodig de velden in.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Categorieën voor vaste activa instellen
 U kunt categorieën voor vaste activa gebruiken om vaste activa te groeperen, bijvoorbeeld in materiële en immateriële activa.
@@ -105,7 +105,7 @@ Als u de module Vaste activa in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor
 
     Schakel grootboekintegratie in door de volgende stappen uit te voeren. Eerst moet u ervoor zorgen dat de grootboekintegratie voor alle afschrijvingsboeken is uitgeschakeld en dan boekt u de openingsposten. Tenslotte schakelt u grootboekintegratie in.  
 4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
-5. De relevante afschrijvingsboekkaart selecteren. Kies op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**, als u het venster **Afschrijvingsboek** wilt openen.
+5. De relevante afschrijvingsboekkaart selecteren. Kies op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**, als u de pagina **Afschrijvingsboek** wilt openen.
 6. Schakel alle velden op het sneltabblad **Integratie** uit door de vinkjes te verwijderen. Als u meer dan één afschrijvingsboek hebt, schakelt u de grootboekintegratie voor elk afschrijvingsboek uit.  
 7. In het dagboek voor vaste activa voert u voor elk activum de volgende regels in:
    * Een regel met de aanschafkosten.

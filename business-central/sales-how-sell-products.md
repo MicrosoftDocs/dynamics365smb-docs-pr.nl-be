@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-products"></a>Producten verkopen
@@ -45,17 +45,17 @@ U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in het veld **Klant** de naam in van een bestaande klant.
 
-    Overige velden in het venster **Verkooporder** worden nu ingevuld met de standaardinformatie over de geselecteerde klant. Als de klant niet is geregistreerd, volgt u deze stappen:
+    Overige velden op de pagina **Verkooporder** worden nu ingevuld met de standaardinformatie over de geselecteerde klant. Als de klant niet is geregistreerd, volgt u deze stappen:
 3. Voer in het veld **Klant** de naam van de nieuwe klant in.
 4. Kies in dialoogvenster voor het registreren van de nieuwe klant de knop **Ja**.
-5. Kies in het venster **Selecteer een sjabloon voor een nieuwe klant** een sjabloon waarop u de nieuwe klantenkaart wilt baseren en kies vervolgens de knop **OK**.
+5. Kies op de pagina **Selecteer een sjabloon voor een nieuwe klant** een sjabloon waarop u de nieuwe klantenkaart wilt baseren en kies vervolgens de knop **OK**.
 
     Een nieuwe klantenkaart wordt geopend, die vooraf is ingevuld met de informatie over de geselecteerde klantensjabloon. Het veld **Naam** is vooraf ingevuld met de naam van de nieuwe klant die u op de verkooporder hebt ingevoerd.
 6. Ga door met het invullen van de overige velden op de klantenkaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
-7. Wanneer u de klantenkaart hebt ingevuld, kiest u de knop **OK** om terug te keren naar het venster **Verkooporder**.
+7. Wanneer u de klantenkaart hebt voltooid, kiest u de knop **OK** om terug te keren naar de pagina **Verkooporder**.
 
     Verschillende velden op de verkooporder worden nu ingevuld met gegevens die u hebt opgegeven op de nieuwe klantenkaart.
-8. Vul indien nodig de overige velden in het venster **Verkooporder** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Vul desgewenst de overige velden op de pagina **Verkooporder** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Als u toestaat dat de klant direct betaalt, bijvoorbeeld met creditcard of PayPal, vult u het veld **Betalingswijze** in. De betaling wordt vervolgens geregistreerd zodra u de verkooporder als gefactureerd boekt. Als u CONTANT selecteert, wordt de betaling geregistreerd in een opgegeven tegenrekening.
@@ -80,10 +80,10 @@ U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van 
 
     De totalen onder de regels worden automatisch berekend wanneer u regels maakt of wijzigt.
 14. In een nieuwe klantenkaart wordt de informatie uit de geselecteerde klantensjabloon getoond. Vul de overige velden in. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
-15. Wanneer u de klantenkaart hebt ingevuld, kiest u de knop **OK** om terug te keren naar het venster **Verkooporder**.
+15. Wanneer u de klantenkaart hebt voltooid, kiest u de knop **OK** om terug te keren naar de pagina **Verkooporder**.
 
     Verschillende velden op de verkooporder worden nu ingevuld met gegevens die u hebt opgegeven op de nieuwe klantenkaart.
-16. Vul indien nodig de overige velden in het venster **Verkooporder** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Vul desgewenst de overige velden op de pagina **Verkooporder** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     U kunt nu verkooporderregels invullen voor producten die u aan de klant verkoopt of voor elke transactie met de klant die u in een grootboekrekening wilt registreren.   
 

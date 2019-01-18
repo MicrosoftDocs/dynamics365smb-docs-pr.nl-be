@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
-U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.  
+U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.
+
+> [!NOTE]
+> Naast Microsoft Flow kunt u de werkstroomfunctionaliteit binnen [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken. Het zijn twee aparte werkstroomsystemen, maar elke Flow-sjabloon die u maakt met Microsoft Flow, wordt toegevoegd aan de lijst met werkstroomsjablonen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
 
 > [!NOTE]  
 >   U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.  
@@ -28,7 +31,7 @@ U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van
 1. Navigeer in uw browser naar [flow.microsoft.com](https://flow.microsoft.com/en-us/) en meld u aan.
 2. Kies **Mijn Flows** vanuit het lint boven aan de pagina.
 3. Er zijn twee manieren om een stroom te maken: **Maken van sjabloon** en **Geheel nieuw maken**. Een sjabloon is een vooraf gedefinieerde stroom die voor u is gemaakt.  Als u een sjabloon wilt gebruiken, selecteert u deze en maakt u een verbinding voor elke service die de sjabloon gebruikt. Met een lege sjabloon kunt u een helemaal nieuwe stroom maken.
-4. Als u een nieuwe stroom wilt maken, kiest u in het venster **Mijn flows** de optie **Geheel nieuw maken**.
+4. Als u een geheel nieuwe stroom wilt maken, kiest u op de pagina **Mijn flows** de optie **Geheel nieuw maken**.
 5. Zoek **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**-connector.
 6. Selecteer in de lijst met beschikbare triggers een van de beschikbare [!INCLUDE[d365fin](includes/d365fin_md.md)]-triggers:  
     *Wanneer een klantgoedkeuring wordt aangevraagd*,  
@@ -58,9 +61,6 @@ Nu hebt u met succes een verbinding gemaakt met uw Business Central-gegevens en 
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dagboekbatch*,  
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dagboekregels*.  
 11. Flow vraagt u een bedrijf in uw [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-tenant te selecteren. Aangezien elke stap in de stroom onafhankelijk is van de volgende, moet u het bedrijf mogelijk meerdere malen definiëren wanneer u een [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon gebruikt.
-
-> [!NOTE]  
-> De [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon is geïntegreerd met de kernwerkstroomengine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Dat betekent dat telkens wanneer u een van deze sjablonen gebruikt om een stroom te maken, een corresponderende werkstroom wordt gemaakt in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Tevens moet de persoon die de stroom maakt worden ingesteld als fiatteur in de begeleide instelling. Zie [Werkstroom](across-workflow.md) voor meer informatie.
 
 Zie de [Flow-documentatie](https://docs.microsoft.com/en-us/flow/getting-started) voor meer informatie.
 

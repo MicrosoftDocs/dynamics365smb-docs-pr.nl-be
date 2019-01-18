@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-workflows"></a>Werkstromen maken
 U kunt werkstromen maken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
-In het venster **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurteniscondities, en een werkstroomantwoord met antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.  
+Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurteniscondities, en een werkstroomantwoord met antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.  
 
 Wanneer u werkstromen maakt, kunt u de stappen van bestaande werkstromen of van werkstroomsjablonen kopiëren. Werkstroomsjablonen vertegenwoordigen niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bestaan. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd hebben het voorvoegsel "MS-", zoals in "MS-PIW". Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -33,25 +33,25 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 
 ## <a name="to-create-a-workflow"></a>Een workflow maken  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**. Het venster **Werkstroom** verschijnt.  
+2. Kies de actie **Nieuw**. De pagina **Werkstroom** verschijnt.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
-4. Als u de werkstroom wilt maken van een werkstroomsjabloon, kiest u in het venster **Werkstromen** de actie **Werkstroom maken van sjabloon**. Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Als u de werkstroom wilt maken van een werkstroomsjabloon, kiest u op de pagina **Werkstromen** de actie **Werkstroom maken van sjabloon**. Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Beschrijf de werkstroom in het veld **Omschrijving**.  
 6. Geef in het veld **Categorie** op tot welke categorie de werkstroom hoort.  
 7. Geef in het veld **Als gebeurtenis** de gebeurtenis op die zich moet voordoen om de werkstroomstap te starten.  
 
-    Als u het veld kiest, wordt het venster **Werkstroomgebeurtenissen** geopend waarin u uit alle bestaande werkstroomgebeurtenissen kunt selecteren.  
+    Als u het veld kiest, wordt de pagina **Werkstroomgebeurtenissen** geopend waarin u uit alle bestaande werkstroomgebeurtenissen kunt selecteren.  
 8. Geef in het veld **Voorwaarde** een of meer voorwaarden op waaraan moet worden voldaan voordat de gebeurtenis in het veld **Als gebeurtenis** zich kan voordoen.  
 
-    Wanneer u het veld **Gebeurtenisvoorwaarden** kiest, wordt het venster geopend waarin u een keuze maakt u een lijst met filtervelden die relevant zijn als voorwaarden voor de gebeurtenis in kwestie. U kunt nieuwe filtervelden toevoegen die u wilt gebruiken als gebeurtenisvoorwaarden. U stelt filters voor gebeurtenisvoorwaarden in op dezelfde manier als filters op aanvraagpagina's.  
+    Wanneer u het veld **Gebeurtenisvoorwaarden** kiest, wordt de pagina geopend waarin u een keuze maakt u een lijst met filtervelden die relevant zijn als voorwaarden voor de gebeurtenis in kwestie. U kunt nieuwe filtervelden toevoegen die u wilt gebruiken als gebeurtenisvoorwaarden. U stelt filters voor gebeurtenisvoorwaarden in op dezelfde manier als filters op aanvraagpagina's.  
 
-    Als de werkstroomgebeurtenis de wijziging van een specifiek veld in een record is, wordt het venster **Gebeurtenisvoorwaarden** geopend met opties om het veld te selecteren en het type wijziging.  
+    Als de werkstroomgebeurtenis de wijziging van een specifiek veld in een record is, wordt de pagina **Gebeurtenisvoorwaarden** geopend met opties om het veld te selecteren en het type wijziging.  
 
-    1.  Als u een veldwijziging voor de gebeurtenis wilt opgeven, selecteert u in het venster **Gebeurtenisvoorwaarden** in het veld **Veld** die wijziging.  
+    1.  Als u een veldwijziging voor de gebeurtenis wilt opgeven, selecteert u op de pagina **Gebeurtenisvoorwaarden** in het veld **Veld** die wijziging.  
     2.  Selecteer in het veld **Operator** **Afgenomen**, **Toegenomen** of **Aangepast**.  
 9. Geef in het veld **Dan reactie** het antwoord op dat volgt als de werkstroomgebeurtenis plaatsvindt.  
 
-     Als u het veld kiest, wordt het venster **Werkstroomreacties** geopend waarin u uit alle bestaande werkstroomantwoorden kunt selecteren en antwoordopties kunt instellen voor het geselecteerde antwoord.  
+     Als u het veld kiest, wordt de pagina **Werkstroomreacties** geopend waarin u uit alle bestaande werkstroomantwoorden kunt selecteren en antwoordopties kunt instellen voor het geselecteerde antwoord.  
 10. Op het sneltabblad **Opties voor de geselecteerde reactie** geeft u als volgt opties op voor het werkstroomantwoord door waarden te selecteren in de verschillende velden die verschijnen:  
 
     1.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het verzenden van een melding, vult u de velden in de volgende tabel in.  
@@ -67,7 +67,7 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
         |----------------------------------|---------------------------------------|  
         |**Formule van vervaldatum**|Geef het aantal dagen op waarbinnen de goedkeuringsaanvraag moet worden opgelost vanaf de datum waarop de aanvraag is verzonden.|  
         |**Delegeren na**|Geef aan of en wanneer een goedkeuringsaanvraag automatisch aan de relevante vervanger wordt gedelegeerd. U kunt selecteren dat één, twee of, vijf dagen na de datum automatisch wordt gedelegeerd als de goedkeuring is aangevraagd.|  
-        |**Soort fiatteur**|Geef op wie de fiatteur is, op basis van de instellingen voor goedkeuringsgebruikers en werkstroomgebruikers.<br /><br /> De volgende opties zijn mogelijk:<br /><br /> -   **Verkoper/Inkoper** geeft aan dat de gebruiker die is ingesteld in het veld **Verkoper/inkoper** in het venster **Gebruikersinstellingen voor goedkeuring**, de fiatteur bepaalt. Goedkeuringsaanvragen worden vervolgens gemaakt op basis van de waarde in het veld **Limietsoort van fiatteur**.<br />     Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-workflow-users.md).|  
+        |**Soort fiatteur**|Geef op wie de fiatteur is, op basis van de instellingen voor goedkeuringsgebruikers en werkstroomgebruikers.<br /><br /> De volgende opties zijn mogelijk:<br /><br /> -   **Verkoper/Inkoper** geeft aan dat de gebruiker die is ingesteld in het veld **Verkoper/inkoper** op de pagina **Gebruikersinstellingen voor goedkeuring**, de fiatteur bepaalt. Goedkeuringsaanvragen worden vervolgens gemaakt op basis van de waarde in het veld **Limietsoort van fiatteur**.<br />     Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-workflow-users.md).|  
         |**Bevestigingsbericht tonen**|Geef aan of er een bevestigingsbericht aan gebruikers wordt weergegeven nadat ze een goedkeuring hebben aangevraagd.|  
         |**Limietsoort van fiatteur**|Geef op wat het effect is van goedkeuringslimieten van fiatteurs als posten voor goedkeuringsaanvragen voor ze worden gemaakt. Een gekwalificeerde fiatteur is een fiatteur met een goedkeuringslimiet die hoger is dan de waarde op de uitgevoerde aanvraag.<br /><br /> De volgende opties zijn mogelijk:<br /><br /> 1. **Fiatteursketting** geeft aan dat posten voor goedkeuringsaanvragen worden gemaakt voor alle fiatteurs van de aanvrager tot en met de eerste gekwalificeerde fiatteur.<br />2. **Directe fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de directe fiatteur van de aanvrager, ongeacht de goedkeuringslimiet van de fiatteur.<br />3. **Eerste gekwalificeerde fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de eerste gekwalificeerde fiatteur van de aanvrager.<br />|  
     3.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van dagboekregels vult u de velden in de volgende tabel in.  

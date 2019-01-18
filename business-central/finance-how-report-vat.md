@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ U kunt de volgende rapporten gebruiken:
 * Het **Verkoopoverzicht EU** bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen.  
 * Het rapport **BTW-aangifte** bevat btw voor verkopen en inkopen aan klanten in alle landen die btw gebruiken.
 
-Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post in het venster **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
+Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
 
 ## <a name="about-the-ec-sales-list-report"></a>Informatie over het Verkoopoverzicht EU
 In het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen, een elektronische versie indienen van het Verkoopoverzicht EU in XML-indeling door middel van de website van de HMRC (Her Majesty's Revenue and Customs). De lijst Verkoopoverzicht EU werkt alleen voor landen in de EU.
@@ -39,7 +39,7 @@ De lijst bevat slechts één regel voor elke soort transactie met de klant en to
 
 B2B-goederen en -services geven aan of u een artikel of een service hebt verkocht en worden bepaald door de instelling **EU-service** in de btw-boekingsinstellingen. B2B getrianguleerde goederen geven aan of u hebt gehandeld met een derde en worden bepaald door de instelling **ABC-/Driehoekstransacties** op verkoopdocumenten, zoals verkooporders, facturen, creditnota's, enzovoort.  
 
-Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar de contactpersoon voor uw bedrijf verzonden. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de contactpersoon opgegeven in het venster **Bedrijfsgegevens**. Voordat u de lijst verzendt, moet u ervoor zorgen dat een contact is geselecteerd.
+Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar de contactpersoon voor uw bedrijf verzonden. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de contactpersoon opgegeven op de pagina **Bedrijfsgegevens**. Voordat u de lijst verzendt, moet u ervoor zorgen dat een contact is geselecteerd.
 
 ## <a name="about-the-vat-return-report"></a>Over het rapport BTW-aangifte
 Gebruik deze lijst om btw voor verkoop- en inkoopdocumenten in te dienen, zoals inkoop- en verkooporders, facturen en creditnota's. De informatie in de lijst heeft dezelfde indeling als op het declaratieformulier van de douane en de belastingdienst.  
@@ -80,7 +80,7 @@ Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert of het rapport correct is ingesteld. Als de validatie mislukt, worden de fouten weergegeven onder **Fouten en waarschuwingen**, zodat u weet wat u moet corrigeren. Als het bericht gaat over een ontbrekende instelling in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u op het bericht kunt klikken om de pagina te openen met de te verbeteren informatie.  
 5. Als u de lijst wilt verzenden, kiest u de actie **Verzenden**.  
 
-Als u de lijst hebt verzonden, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] de service en wordt een record van uw communicatie bijgehouden. Het veld **Status** geeft aan waar in het proces de lijst zich bevindt. Als de belastingdienst uw rapport bijvoorbeeld verwerkt, verandert de status van het rapport in **Succesvol**. Als de belastingdienst fouten in de lijst heeft gevonden die u hebt verzonden, wordt de status van de lijst **Mislukt**. U kunt de fouten bekijken onder **Fouten en waarschuwingen**, deze corrigeren en vervolgens de lijst opnieuw verzenden. Als u een overzicht wilt van al uw verkoopoverzichten EU, gaat u naar het venster **Rapporten verkoopoverzicht EU**.  
+Als u de lijst hebt verzonden, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] de service en wordt een record van uw communicatie bijgehouden. Het veld **Status** geeft aan waar in het proces de lijst zich bevindt. Als de belastingdienst uw rapport bijvoorbeeld verwerkt, verandert de status van het rapport in **Succesvol**. Als de belastingdienst fouten in de lijst heeft gevonden die u hebt verzonden, wordt de status van de lijst **Mislukt**. U kunt de fouten bekijken onder **Fouten en waarschuwingen**, deze corrigeren en vervolgens de lijst opnieuw verzenden. Als u een overzicht wilt van al uw verkoopoverzichten EU, gaat naar de pagina **Rapporten verkoopoverzicht EU**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Communicatie met uw belastingdienst weergeven
 In sommige landen kunt u berichten met de belastingdienst uitwisselen wanneer u rapporten verzendt. U kunt het eerste en laatste bericht dat u hebt ontvangen of verzonden, bekijken door de acties **Indieningsbericht downloaden** en **Responsbericht downloaden** te kiezen.  

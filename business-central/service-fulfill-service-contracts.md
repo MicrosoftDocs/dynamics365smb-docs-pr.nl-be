@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Servicecontracten voldoen 
 Een van de manieren waarop u servicebeheerdiensten kunt bieden, is door middel van het gebruik van standaard contractuele overeenkomsten tussen u en uw klanten, waarin het serviceniveau en de serviceverwachtingen zijn uiteengezet. U kunt contractsjablonen maken waarin de benodigde gegevens, zoals de klant, de ingangsdatum van het contract en de factureringsperiode, zijn opgenomen.  
   
-Nadat u de sjabloon hebt ingesteld, kunt u het resulterende contract aanpassen en zo de service-uren of andere, per klant variërende artikelen, bijhouden. U kunt ook handmatig een contract instellen op basis van een servicecontractofferte. Ten slotte kunt u uw serviceprijzen aanpassen door kortingen waarvoor een bepaalde klant in aanmerking komt, bij te houden door het kortingsbedrag op te geven in het venster **Servicecontract**.  
+Nadat u de sjabloon hebt ingesteld, kunt u het resulterende contract aanpassen en zo de service-uren of andere, per klant variërende artikelen, bijhouden. U kunt ook handmatig een contract instellen op basis van een servicecontractofferte. Ten slotte kunt u uw serviceprijzen aanpassen door kortingen waarvoor een bepaalde klant in aanmerking komt, bij te houden door het kortingsbedrag op te geven op de pagina **Servicecontract**.  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
   

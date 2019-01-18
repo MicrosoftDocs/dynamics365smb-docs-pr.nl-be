@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Servicefacturen of creditnota's maken
 Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt op elk gewenst moment een factuur naar uw klanten verzenden of u kunt periodiek facturen opstellen.  
   
-Als u direct een factuur wilt maken, gebruikt u het venster **Servicecontract**. U kunt uw systeem ook zodanig instellen dat een servicetechnicus op locatie een factuur kan maken voor services die niet aan een contract of order zijn verbonden.  
+Als u direct een factuur wilt maken, gebruikt u de pagina **Servicecontract**. U kunt uw systeem ook zodanig instellen dat een servicetechnicus op locatie een factuur kan maken voor services die niet aan een contract of order zijn verbonden.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Een servicecontract factureren via de pagina Servicecontract   
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractfacturen maken** in en kies vervolgens de gerelateerde koppeling.  
@@ -59,10 +59,10 @@ Normaal gesproken, wanneer u een serviceorder boekt met de optie **Factureren** 
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicefacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe servicefactuur.  
-3. Vul het veld **Nr.** te kiezen.  
+3. Vul het veld **Nr.** toe te wijzen.  
   
     > [!NOTE]  
-    >  Als u nummerreeksen voor servicefacturen in het venster **CRM - Service-instellingen** hebt ingesteld, kunt u op Enter drukken om het eerstvolgende beschikbare servicefactuurnummer in te voeren.  
+    >  Als u nummerreeksen voor servicefacturen op de pagina **CRM - Service-instellingen** hebt ingesteld, kunt u op Enter drukken om het eerstvolgende beschikbare servicefactuurnummer in te voeren.  
   
 4. Voer in het veld **Klantnr.** het nummer van een klant in. Selecteer de betreffende klant uit de lijst.  
   
@@ -87,7 +87,7 @@ U kunt de klant factureren voor services die op basis van verschillende serviceo
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicefacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Kies de actie **Verzendregels ophalen**. In het venster **Serviceverzendingsregels ophalen** worden alle regels weergegeven die wel verzonden, maar nog niet gefactureerd zijn.  
+3. Kies de actie **Verzendregels ophalen**. Op de pagina **Serviceverzendingsregels ophalen** worden alle regels weergegeven die wel verzonden, maar nog niet gefactureerd zijn.  
 4. Kies de regels voor de te factureren service en kies vervolgens **OK** om de serviceverzendingsregels aan de factuur toe te voegen.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Een servicecreditnota maken  

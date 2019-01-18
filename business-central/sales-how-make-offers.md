@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Verkoopoffertes maken
@@ -29,15 +29,15 @@ U kunt klantvelden op de verkoopofferte op twee manieren invullen afhankelijk va
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoffertes** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in het veld **Klant** de naam in van een bestaande klant.
 
-   Overige velden in het venster **Verkoopofferte** bevatten standaardinformatie over de geselecteerde klant. Als de klant niet is geregistreerd, volgt u deze stappen:
+   Overige velden op de pagina **Verkoopofferte** bevatten standaardinformatie over de geselecteerde klant. Als de klant niet is geregistreerd, volgt u deze stappen:
 3. Voer in het veld **Klant** de naam van de nieuwe klant in.
 4. Kies in dialoogvenster voor het registreren van de nieuwe klant de knop **Ja**.
-5. Kies in het venster **Selecteer een sjabloon voor een nieuwe klant** een sjabloon waarop u de nieuwe klantenkaart wilt baseren en kies vervolgens de knop **OK**.
+5. Kies op de pagina **Selecteer een sjabloon voor een nieuwe klant** een sjabloon waarop u de nieuwe klantenkaart wilt baseren en kies vervolgens de knop **OK**.
 6. In een nieuwe klantenkaart wordt de informatie uit de geselecteerde klantensjabloon getoond. Vul de overige velden in. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
-7. Wanneer u de klantenkaart hebt ingevuld, kiest u de knop **OK** om terug te keren naar het venster **Verkoopofferte**.
+7. Wanneer u de klantenkaart hebt voltooid, kiest u de knop **OK** om terug te keren naar de pagina **Verkoopofferte**.
 
    Verschillende velden op de verkoopofferte worden nu ingevuld met gegevens die u hebt opgegeven op de nieuwe klantenkaart.  
-8. Vul indien nodig de overige velden in het venster **Verkoopofferte** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Vul desgewenst de overige velden op de pagina **Verkoopofferte** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     U kunt nu verkooporderregels invullen voor producten die u aan de klant verkoopt of voor elke transactie met de klant die u in een grootboekrekening wilt registreren.   
 
@@ -69,10 +69,10 @@ U kunt klantvelden op de verkoopofferte op twee manieren invullen afhankelijk va
     Als u factuurkortingen voor de klant hebt opgegeven, wordt het opgegeven percentage automatisch ingevoegd in het veld **Factuurkorting %** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Factuurkortingsbedrag excl. btw** . Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Als u het veld **Offerte geldig tot datum** automatisch wilt laten invullen met een bepaald aantal dagen na het maken van de offerte, kunt u het veld **Berekening van geldigheid van offerte** in het venster **Verkopen en Klanten** invullen. 
+    > Als u het veld **Offerte geldig tot datum** automatisch wilt laten invullen met een bepaald aantal dagen na het maken van de offerte, kunt u het veld **Berekening van geldigheid van offerte** op de pagina **Verkopen en Klanten** invullen. 
 
 15. Wanneer de verkoopofferteregels zijn ingevuld, kiest u de actie **Verzenden via e-mail**.
-16. Vul in het venster **E-mail verzenden** eventuele overige velden in en controleer de ingesloten verkoopofferte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
+16. Vul op de pagina **E-mail verzenden** eventuele overige velden in en controleer de ingesloten verkoopofferte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
 17. Als de klant de offerte accepteert, kiest u de actie **Factuur maken** of de actie **Order maken**.
 
 De verkoopofferte wordt verwijderd uit de database. Een verkoopfactuur of een verkooporder wordt gemaakt op basis van de informatie in de verkoopofferte waarin u de verkoop kunt verwerken. Op de verkoopfactuur of verkooporder vermeldt het veld **Offertenr.** het nummer van de verkoopofferte van waaruit het is gemaakt. Zie [Verkopen factureren](sales-how-invoice-sales.md) of [Producten verkopen](sales-how-sell-products.md) voor meer informatie.

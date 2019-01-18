@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
@@ -41,7 +41,7 @@ De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt g
 |Algemeen kenmerk|Gemakkelijk te begrijpen|Gebaseerd op periodeopties: **Dag**/**Week**/**Maand**/**Kwartaal**/**Boekingsperiode**.<br /><br /> Kan worden berekend per artikel of per artikel/vestiging/variant.|Gemakkelijk te gebruiken, maar vereist gekwalificeerd onderhoud|Hiervoor is artikeltracering vereist op zowel inkomende als uitgaande transacties.<br /><br /> Meestal gebruikt voor artikelen met een serienummer.|  
 |Vereffening/Herwaardering|Vereffening houdt **het resterende aantal** bij.<br /><br /> De correctie stuurt kosten door op basis van aantalvereffening.|Vereffening houdt het **resterende aantal** bij.<br /><br /> De kosten worden berekend en doorgegeven op de **waarderingsdatum**.|Vereffening houdt het **resterende aantal** bij.<br /><br /> Vereffening wordt gebaseerd op FIFO.|Alle vereffeningen zijn vast.|  
 |Herwaardering|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan alleen per artikel worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Hiermee worden gefactureerde en niet-gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|  
-|Diversen|Als u een negatieve voorraadmutatie antidateert, worden de bestaande posten NIET opnieuw toegepast om een juiste FIFO-kostenstroom te bieden.|Als u een negatieve of een positieve voorraadmutatie antidateert, worden de gemiddelde kosten opnieuw berekend en worden alle betrokken posten aangepast.<br /><br /> Als u de periode of het type berekening wijzigt, moeten alle betrokken posten worden aangepast.|Gebruik het venster **Standaardvoorstel** om de vaste verrekenprijs regelmatig bij te werken en te berekenen.<br /><br /> Wordt NIET ondersteund per SKU.<br /><br /> Er bestaan geen historische records voor standaardkosten.|U kunt specifieke artikeltracering gebruiken zonder de waarderingsmethode Specifiek te gebruiken. De kosten volgen NIET het lotnummer, maar de kostenveronderstelling van de geselecteerde waarderingsmethode.|  
+|Diversen|Als u een negatieve voorraadmutatie antidateert, worden de bestaande posten NIET opnieuw toegepast om een juiste FIFO-kostenstroom te bieden.|Als u een negatieve of een positieve voorraadmutatie antidateert, worden de gemiddelde kosten opnieuw berekend en worden alle betrokken posten aangepast.<br /><br /> Als u de periode of het type berekening wijzigt, moeten alle betrokken posten worden aangepast.|Gebruik de pagina **Standaardvoorstel** om de vaste verrekenprijs regelmatig bij te werken en te berekenen.<br /><br /> Wordt NIET ondersteund per SKU.<br /><br /> Er bestaan geen historische records voor standaardkosten.|U kunt specifieke artikeltracering gebruiken zonder de waarderingsmethode Specifiek te gebruiken. De kosten volgen NIET het lotnummer, maar de kostenveronderstelling van de geselecteerde waarderingsmethode.|  
 
 ## <a name="example"></a>Opmerking  
  In deze sectie worden voorbeelden gegeven van hoe verschillende waarderingsmethoden invloed hebben op de voorraadwaarde.  

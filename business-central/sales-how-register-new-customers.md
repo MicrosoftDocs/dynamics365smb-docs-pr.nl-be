@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
@@ -25,16 +25,16 @@ Klanten zijn de bron van uw inkomsten. U moet elke klant aan wie u verkoopt regi
 Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes instellen waaruit u kunt selecteren bij het invullen van klantenkaarten. Zie [Verkopen instellen](sales-setup-sales.md) voor meer informatie.
 
 > [!NOTE]  
->   Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een venster weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.
+>   Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Klanten** de actie **Nieuw**.
+2. Kies op de pagina **Klanten** de actie **Nieuw**.
 
     Als er slechts één klantensjabloon bestaat, wordt vervolgens een nieuwe klantenkaart geopend waarin sommige velden zijn ingevuld met informatie van de sjabloon.
 
-    Als er meer dan één klantensjabloon bestaat, wordt er een venster geopend waarin u een klantensjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
-3. Kies in het venster **Selecteer een sjabloon voor een nieuwe klant** de sjabloon die u wilt gebruiken voor de nieuwe klantenkaart.
+    Als er meer dan één klantensjabloon bestaat, wordt er een pagina geopend waarin u een klantensjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
+3. Kies op de pagina **Selecteer een sjabloon voor een nieuwe klant** de sjabloon die u wilt gebruiken voor de nieuwe klantenkaart.
 4. Kies de knop **Ok**. Een nieuwe klantenkaart wordt geopend waarin in sommige velden informatie uit de sjabloon is ingevuld.  
 5. Ga indien nodig door met het invullen of wijzigen van velden op de klantenkaart. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -45,9 +45,9 @@ De klant is nu geregistreerd en de klantenkaart is klaar om voor verkoopdocument
 Als u deze klantenkaart als sjabloon wilt gebruiken wanneer u nieuwe klantenkaarten maakt, kunt u deze opslaan als een sjabloon. Zie de volgende onderwerpen voor meer informatie.
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>De klantenkaart als sjabloon opslaan
-1. Kies in het venster **Klantenkaart** de actie **Opslaan als sjabloon**. Het venster **Klantensjabloon** opent de weergave van de klantenkaart als sjabloon.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. Het venster **Dimensiesjablonen** wordt geopend en toont alle dimensiecodes die voor de klant zijn ingesteld.
+1. Kies op de pagina **Klantenkaart** de actie **Opslaan als sjabloon**. De pagina **Klantensjabloon** opent de weergave van de klantenkaart als sjabloon.
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft alle dimensiecodes weer die voor de klant zijn ingesteld.
 4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe klantenkaarten die worden gemaakt met de sjabloon.  
 5. Wanneer u de nieuwe klantensjabloon hebt voltooid, kiest u de knop **OK**.
 

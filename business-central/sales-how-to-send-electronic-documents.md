@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 507fd934ee30d2bcacbb298d0ab18fa351621922
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 76940b9133f6aef69c588b12dd4e8940717d0eab
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="send-electronic-documents"></a>Elektronische documenten verzenden
@@ -47,7 +47,7 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
      De verkoopfactuur wordt geboekt en aan de klant gezonden als elektronisch document in de indeling PEPPOL.  
 
     > [!NOTE]  
-    >  U kunt ook een geboekte verkoopfactuur als een elektronisch document verzenden. De procedure is hetzelfde als beschreven in dit onderwerp voor niet-geboekte verkoopdocumenten. Kies in het venster **Geboekte verkoopfactuur**, op het tabblad **Acties**, in de groep **Algemeen** de optie **Activiteitenlogbestand** om de status van het elektronische document te bekijken. Zie voor meer informatie **Activiteitenlogbestand**.  
+    >  U kunt ook een geboekte verkoopfactuur als een elektronisch document verzenden. De procedure is hetzelfde als beschreven in dit onderwerp voor niet-geboekte verkoopdocumenten. Kies op de pagina **Geboekte verkoopfactuur**, op het tabblad **Acties**, in de groep **Algemeen** de optie **Activiteitenlogbestand** om de status van het elektronische document te bekijken. Zie voor meer informatie **Activiteitenlogbestand**.  
 
 ## <a name="see-also"></a>Zie ook  
 [Verkopen factureren](sales-how-invoice-sales.md)  

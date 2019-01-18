@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
@@ -62,7 +62,7 @@ Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die veran
 Wanneer het inkomende brondocument wordt vrijgegeven, wordt automatisch een inkomend magazijnverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Voorraadopslag maken  
-In het venster **Voorraadopslag** haalt de magazijnmedewerker door middel van pulling de wachtende brondocumentregels op, op basis van inkomende magazijnverzoeken. De voorraadopslagregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
+Op de pagina **Voorraadopslag** haalt de magazijnmedewerker door middel van pulling de wachtende brondocumentregels op, op basis van inkomende magazijnverzoeken. De voorraadopslagregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Voorraadopslag boeken  
 Op elke regel voor artikelen die gedeeltelijk of volledig zijn opgeslagen, vult de magazijnmedewerker het veld **Aantal** in en boekt deze vervolgens de voorraadopslag. Brondocumenten met betrekking tot de voorraadopslag worden geboekt als ontvangen.  
@@ -81,7 +81,7 @@ Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die veran
 Wanneer het inkomende brondocument wordt vrijgegeven, wordt automatisch een inkomend magazijnverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Magazijnontvangst maken  
-In het venster **Magazijnontvangst** haalt de gebruiker die verantwoordelijk is voor het ontvangen van artikelen, de wachtende brondocumentregels op, op basis van het inkomende magazijnverzoek. Verschillende brondocumentregels kunnen worden gecombineerd in één magazijnontvangstdocument.  
+Op de pagina **Magazijnontvangst** haalt de gebruiker die verantwoordelijk is voor het ontvangen van artikelen, de wachtende brondocumentregels op, op basis van het inkomende magazijnverzoek. Verschillende brondocumentregels kunnen worden gecombineerd in één magazijnontvangstdocument.  
 
 De gebruiker vult het veld **Te verwerken aantal** in en selecteert de ontvangstzone en opslaglocatie, indien nodig.  
 
@@ -106,7 +106,7 @@ Wanneer alle opslagactiviteiten zijn gepland en toegewezen aan magazijnmedewerke
 De magazijnmedewerker die opslagactiviteiten uitvoert, maakt een magazijnopslagdocument met pull-functionaliteit, op basis van de geboekte magazijnontvangst. Of het magazijnopslagdocument wordt door pushing gemaakt en toegewezen aan een magazijnmedewerker.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Magazijnopslag registreren  
-Op elke regel voor artikelen die gedeeltelijk of volledig zijn opgeslagen, vult de magazijnmedewerker het veld **Aantal** in het venster **Magazijnopslag** in en registreert deze vervolgens de magazijnopslag.  
+Op elke regel voor artikelen die gedeeltelijk of volledig zijn opgeslagen, vult de magazijnmedewerker het veld **Aantal** op de pagina **Magazijnopslag** in en registreert deze vervolgens de magazijnopslag.  
 
 Magazijnposten worden gemaakt en de magazijnopslagregels worden verwijderd, als deze volledig zijn verwerkt. Het magazijnopslagdocument blijft geopend totdat het totale aantal van het gerelateerde geboekte magazijnontvangst is geregistreerd. Het veld **Opgeslagen aantal** op de magazijnontvangstorderregels wordt bijgewerkt.  
 

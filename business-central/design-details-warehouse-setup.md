@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
@@ -93,7 +93,7 @@ Bij geavanceerde magazijnen kunnen opslaglocaties worden ingesteld met capacitei
 
 Op elke artikelkaart kunt u een eenheid (UOM) voor het artikel toewijzen, bijvoorbeeld stuks, pallets, liters, grammen of dozen. U kunt ook een basiseenheid voor een artikel hebben en grotere UOM's opgeven die hierop zijn gebaseerd. U kunt bijvoorbeeld een pallet van 16 stuks definiëren. Stuks is de basiseenheid.  
 
-Als u het maximale aantal van een bepaald artikel wilt instellen dat in een bepaalde opslaglocatie moet worden opgeslagen, en het artikel meerdere eenheden heeft, moet u het maximale aantal instellen voor elke eenheid die voorkomt op de artikelkaart. Als een artikel is ingesteld om te worden verwerkt in stuks en pallets, moet het veld **Max. aantal** in het venster **Opslaglocatie-inhoud** voor dat artikel tevens in pallets en stuks zijn. Anders wordt het toegestane aantal voor die opslaglocatie niet correct berekend.  
+Als u het maximale aantal van een bepaald artikel wilt instellen dat in een bepaalde opslaglocatie moet worden opgeslagen, en het artikel meerdere eenheden heeft, moet u het maximale aantal instellen voor elke eenheid die voorkomt op de artikelkaart. Als een artikel is ingesteld om te worden verwerkt in stuks en pallets, moet het veld **Max. aantal** op de pagina **Opslaglocatie-inhoud** voor dat artikel tevens in pallets en stuks zijn. Anders wordt het toegestane aantal voor die opslaglocatie niet correct berekend.  
 
 Voordat u capaciteitsbeperkingen instelt voor inhoud van een opslaglocatie, moet u eerst zorgen dat de eenheid en de dimensies van het artikel zijn ingesteld op de artikelkaart.  
 

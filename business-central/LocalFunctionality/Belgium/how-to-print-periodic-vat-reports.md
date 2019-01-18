@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f42d02f1d1e394dbac0c71975cd16cc8f803de6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9587dd8b3832da7fb95a5e8055730c3bd7787461
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-periodic-vat-reports"></a>Periodieke btw-rapporten afdrukken
@@ -29,7 +29,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 ## <a name="to-print-the-monthlyquarterly-declaration"></a>De aangifte per maand/kwartaal afdrukken  
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Formulier/Intervat-aangifte** in en kies vervolgens de gerelateerde koppeling.  
-2.  Vul de velden in het venster **Btw - Formulier** in.  
+2.  Vul de velden op de pagina **BTW - Formulier** in.  
 
     |Veld|Description|  
     |------------------------------------|---------------------------------------|  
@@ -45,7 +45,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 ## <a name="to-print-the-vat-annual-listing-on-disk"></a>De jaarlijkse btw-lijst op diskette afdrukken  
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zeken naar pagina of rapport"), voer **Jaarlijkse lijst - Schijf** in en voer vervolgens de gerelateerde koppeling in.  
-2.  Vul in het venster **Jaarlijkse btw-lijst - Schijf** de velden in zoals wordt beschreven in de volgende tabel.  
+2.  Vul op de pagina **Jaarlijkse btw-lijst - Schijf** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

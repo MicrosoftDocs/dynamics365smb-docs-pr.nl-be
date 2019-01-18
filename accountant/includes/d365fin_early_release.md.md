@@ -1,1 +1,1 @@
-Dit is een functionaliteit waaraan nog steeds wordt gewerkt. De functionaliteit en de inhoud op deze pagina kunnen nog worden gewijzigd. Als u wilt weten wat eraan komt, [downloadt u de versienotities van Voorjaar '18](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).
+Dit is een functionaliteit waaraan nog steeds wordt gewerkt. De functionaliteit en de inhoud op deze pagina kunnen nog worden gewijzigd.

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Servicecontracten met btw-bedragen converteren
@@ -49,7 +49,7 @@ In de volgende procedure wordt beschreven hoe u een creditnota kunt maken die al
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Contractvervaldatums in contractregels maken  
 In de volgende procedure wordt beschreven hoe u nieuwe contracten kunt maken door te werken met contractvervaldatums in servicecontractregels.  
 
-1. Stel in het venster **Servicecontract** de contractvervaldatum in op **30-06-2017**.  
+1. Stel op de pagina **Servicecontract** de contractvervaldatum in op **30-06-2017**.  
 2. Kies de actie **Creditnota maken** om automatisch een creditnota te maken voor juli 2017 tot december 2017.  
 3. Omdat het contract is verlopen, moet u een nieuw contract maken voor de periode met het nieuwe btw-tarief voor 1 juli 2017 tot en met 31 december 2017.  
 
@@ -59,7 +59,7 @@ In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de bat
 1. Voer de Wijzigingstool btw-tarief op 1 juli 2017 uit. De algemene productboekingsgroep of de btw-productboekingsgroep wordt gewijzigd. Zie voor meer informatie [Met btw werken bij verkoop en inkoop](finance-work-with-vat.md).  
 2. Voer na het uitvoeren van het wijzigingstool btw-tarief een contractvervaldatum voor het servicecontract in. U kunt nu de servicecontractregel verwijderen en een nieuwe regel maken die identiek is aan de oude.  
 3. Maak een nieuwe factuur voor de periode januari 2017 tot en met december 2012 met het nieuwe btw-tarief.  
-4. Om een andere creditnota te maken, kiest u in het venster **Servicecreditnota's** de optie **Nieuw** om een nieuwe servicecreditnota te maken.  
+4. Om een andere creditnota te maken, kiest u op de pagina **Servicecreditnota's** de optie **Nieuw** om een nieuwe servicecreditnota te maken.  
 5. Kies de actie **Vooruitbet. contractposten ophalen**.  
 6. Nadat de conversie is voltooid, zijn de btw en de serviceposten correct.  
 

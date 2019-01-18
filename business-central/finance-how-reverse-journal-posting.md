@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Boekingen tegenboeken
@@ -31,10 +31,10 @@ Als u een onjuist negatief aantal hebt geboekt, dat wil zeggen, als u een inkoop
 Als u een onjuist positief aantal hebt geboekt, dat wil zeggen, als u een inkoopretourorder hebt gemaakt met bijvoorbeeld het verkeerde aantal artikelen en deze order hebt geboekt als verzonden (maar niet gefactureerd), kunt u de boeking ongedaan maken.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>De dagboekboeking van een grootboekpost tegenboeken
-U kunt posten vanuit alle **Posten**-vensters tegenboeken. De volgende procedure is gebaseerd in het venster **Grootboekposten**.
+U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure is gebaseerd op de pagina **Grootboekposten**.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de post die u wilt tegenboeken en kies vervolgens de actie **Transactie tegenboeken**. Het moet afkomstig zijn uit een dagboekboeking.
-3. Selecteer in het venster **Transactieposten tegenboeken** de relevante post en kies de actie **Tegenboeken**.
+3. Selecteer op de pagina **Transactieposten tegenboeken** de relevante post en kies de actie **Tegenboeken**.
 4. Kies de knop **Ja** in het bevestigingsbericht.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Een aantalsboeking ongedaan maken op een geboekte inkoopontvangst  
@@ -62,7 +62,7 @@ U kunt posten vanuit alle **Posten**-vensters tegenboeken. De volgende procedure
 
     Ga nu terug naar de inkoopretourorder om opnieuw te boeken.  
 
-5.  Let in het venster **Geboekte retourverzending** op het nummer in het **Retourordernr.** toe te wijzen.  
+5.  Let op de pagina **Geboekte retourverzending** op het nummer in het **Retourordernr.** toe te wijzen.  
 6.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopretourorders** in en selecteer vervolgens de gerelateerde koppeling.  
 7.  Open de retourorder en kies de actie **Opnieuw openen**.  
 8.  Corrigeer de post in het veld **Aantal** en boek de inkoopretourorder opnieuw.  

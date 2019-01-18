@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
@@ -34,11 +34,11 @@ Als u de waarderingsmethode FIFO gebruikt, zijn de eenheidskosten van een artike
 
 Als u de waarderingsmethode Gemiddeld gebruikt, worden de eenheidskosten van een artikel berekend als de gemiddelde eenheidskosten op een bepaald moment na een aanschaf. Voorraad wordt gewaardeerd met de aanname dat alle voorraad tegelijkertijd wordt verkocht. Voor artikelen die gebruik maken van deze waarderingsmethode kunt u op de artikelkaart het veld **Kostprijs** kiezen en zo de historie bekijken van de transacties waaruit de gemiddelde kostprijs wordt berekend.
 
-De kostenherwaardering verwerkt alleen posten die nog niet zijn geherwaardeerd. Als de functie een post aantreft waarbij gewijzigde inkomende kosten moeten worden doorgeschoven naar de bijbehorende uitgaande posten, worden nieuwe waardeposten gemaakt. Deze posten zijn op de gegevens van de oorspronkelijke waardeposten gebaseerd, maar bevatten het geherwaardeerde bedrag. De kostenherwaarderingsfunctie gebruikt de boekingsdatum van de oorspronkelijke waardepost in de herwaarderingspost, tenzij die datum in een afgesloten voorraadperiode valt. In dat geval wordt de begindatum van de volgende open voorraadperiode gehanteerd. Als de voorraadperioden niet worden gebruikt, bepaalt de datum in het veld **Boeken toegest. vanaf** in het venster **Boekhoudinstellingen** wanneer de herwaarderingspost wordt geboekt.
+De kostenherwaardering verwerkt alleen posten die nog niet zijn geherwaardeerd. Als de functie een post aantreft waarbij gewijzigde inkomende kosten moeten worden doorgeschoven naar de bijbehorende uitgaande posten, worden nieuwe waardeposten gemaakt. Deze posten zijn op de gegevens van de oorspronkelijke waardeposten gebaseerd, maar bevatten het geherwaardeerde bedrag. De kostenherwaarderingsfunctie gebruikt de boekingsdatum van de oorspronkelijke waardepost in de herwaarderingspost, tenzij die datum in een afgesloten voorraadperiode valt. In dat geval wordt de begindatum van de volgende open voorraadperiode gehanteerd. Als de voorraadperioden niet worden gebruikt, bepaalt de datum in het veld **Boeken toegest. vanaf** op de pagina **Boekhoudinstellingen** wanneer de herwaarderingspost wordt geboekt.
 
 ## <a name="to-adjust-item-costs-manually"></a>Artikelkosten handmatig herwaarderen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostprijs herwaarderen - Artikelposten** in en kies vervolgens de gerelateerde koppeling.
-2. Geef in het venster **Kostprijs herwaarderen - Artikelposten** op voor welke artikelen kosten moeten worden aangepast.
+2. Geef op de pagina **Kostprijs herwaarderen - Artikelposten** op voor welke artikelen kosten moeten worden aangepast.
 3. Kies de knop **OK**.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Ga als volgt te werk om algemene wijzigingen aan te brengen in de directe kostprijs:

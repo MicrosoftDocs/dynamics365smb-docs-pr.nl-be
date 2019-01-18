@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Vaste verrekenprijs bijwerken
@@ -40,7 +40,7 @@ Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) 
     5. Voer de batchverwerking **Vaste verrekenprijs berekenen** uit.
     6.  Bekijk de resultaten en breng desgewenst wijzigingen aan.
     7.  Voer de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren** uit.  
-4.  Bekijk en boek het venster **Herwaarderingsdagboek**, waarin de posten uit de vorige stappen in dit proces zijn ingevuld.  
+4.  Bekijk en boek de pagina **Herwaarderingsdagboek** waarin de posten uit de vorige stappen in dit proces staan.  
 
 ## <a name="see-also"></a>Zie ook  
  [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)   

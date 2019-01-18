@@ -1,6 +1,6 @@
 ---
 title: 'Ontwerpdetails: Beschikbaarheid van artikeltracering | Microsoft Docs'
-description: De vensters **Artikeltraceringsregels** en **Artikeltraceringssamenvatting** bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd.
+description: De pagina's Artikeltraceringsregels en Artikeltraceringssamenvatting bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,28 +13,28 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a58bd4ccc8f31ef0d90bf27f3a89e98bcdb56fe4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4d4112358943f3c5aad963e3c69efaec8304f46
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Ontwerpdetails: Beschikbaarheid artikeltracering
-De vensters **Artikeltraceringsregels** en **Artikeltraceringssamenvatting** bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd. Zie voor meer informatie [Ontwerpdetails: Venster Artikeltraceringsregels](design-details-item-tracking-lines-window.md).  
+De pagina's **Artikeltraceringsregels** en **Artikeltraceringssamenvatting** bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd. Zie voor meer informatie [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md).  
 
- Wanneer u het venster **Artikeltraceringsregels** opent, worden beschikbaarheidsgegevens opgehaald uit de tabel **Artikelpost** en **Reserveringspost** zonder datumfilter. Wanneer u het veld **Serienummer** of het veld **Lotnr.** kiest, wordt het venster **Artikeltraceringssamenvatting** geopend met een overzicht van de artikeltraceringsgegevens in de tabel **Reserveringspost**. De lijst bevat de volgende informatie over elk serie- of lotnummer op de artikeltraceringsregel:  
+ Wanneer u de pagina **Artikeltraceringsregels** opent, worden beschikbaarheidsgegevens opgehaald uit de tabel **Artikelpost** en **Reserveringspost** zonder datumfilter. Wanneer u het veld **Serienummer** of het veld **Lotnr.** kiest, wordt de pagina **Artikeltraceringssamenvatting** geopend met een overzicht van de artikeltraceringsgegevens in de tabel **Reserveringspost**. De lijst bevat de volgende informatie over elk serie- of lotnummer op de artikeltraceringsregel:  
 
 |Veld|Omschrijving|  
 |---------------------------------|---------------------------------------|  
 |**Totaal aantal**|Het totale aantal van het lot- of serienummer dat zich momenteel in voorraad bevindt.|  
 |**Totaal verzocht aantal**|Het totale aantal van het lot- of serienummer waarom momenteel in alle documenten wordt verzocht.|  
-|**Huidig wachtend aantal**|Het aantal dat is ingevoerd in de huidige instantie van het venster **Artikeltraceringsregels**, maar nog niet definitief is opgeslagen in de database.|  
-|**Totaal beschikbaar aantal**|Het aantal van het serie- of lotnummer dat beschikbaar is voor aanvraag van de gebruiker.<br /><br /> Dit aantal wordt als volgt berekend op basis van andere velden in het venster:<br /><br /> totaal aantal – (totaal aangevraagd aantal + huidig wachtend aantal).|  
+|**Huidig wachtend aantal**|Het aantal dat is ingevoerd in de huidige instantie van de pagina **Artikeltraceringsregels**, maar nog niet definitief is opgeslagen in de database.|  
+|**Totaal beschikbaar aantal**|Het aantal van het serie- of lotnummer dat beschikbaar is voor aanvraag van de gebruiker.<br /><br /> Dit aantal wordt als volgt berekend op basis van andere velden op de pagina:<br /><br /> totaal aantal – (totaal aangevraagd aantal + huidig wachtend aantal).|  
 
 > [!NOTE]  
->  U kunt de informatie in de voorgaande tabel ook weergeven door de functie **Posten selecteren** in het venster **Artikeltraceringsregels** te gebruiken.  
+>  U kunt de informatie in de voorgaande tabel ook weergeven door de functie **Posten selecteren** op de pagina **Artikeltraceringsregels** te gebruiken.  
 
- Om databaseprestaties te handhaven, worden beschikbaarheidgegevens slechts eenmaal uit de database opgehaald wanneer u het venster **Artikeltraceringsregels** opent en de functie **Beschikbaarheid vernieuwen** in het venster gebruikt.  
+ Om databaseprestaties te handhaven, worden beschikbaarheidsgegevens slechts eenmaal uit de database opgehaald wanneer u de pagina **Artikeltraceringsregels** opent en de functie **Beschikbaarheid vernieuwen** op de pagina gebruikt.  
 
 ## <a name="calculation-formula"></a>Berekeningsformule  
  Zoals beschreven in de vorige tabel, wordt de beschikbaarheid van een bepaald serie- of lotnummer als volgt berekend.  

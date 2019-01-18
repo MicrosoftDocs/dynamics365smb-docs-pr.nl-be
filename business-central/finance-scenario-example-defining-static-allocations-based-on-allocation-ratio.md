@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Voorbeeld scenario: statische toewijzingen op basis van de verdeelsleutel definiëren
@@ -30,7 +31,7 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Kostenverdeling** de actie **Nieuw**.  
+2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
 4.  Geef **1** op in het veld **Niveau**.  
 5.  Voer in de velden **Geldig vanaf** en **Geldig tot** juiste datums in.  
@@ -59,8 +60,5 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch het veld **Percentage** met een percentage dat wordt bepaald door alle drie de verdeelsleutels die zijn ingevoerd in het veld **Deel** voor alle drie de regels.  
 
 ## <a name="see-also"></a>Zie ook  
-[Een verdelingsbron en de doelen ervoor instellen](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)   
-[Voorbeeldscenario: dynamische toewijzingen op basis van de verkochte artikelen definiëren](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)
 

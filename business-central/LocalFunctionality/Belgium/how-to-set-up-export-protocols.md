@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c61d1171845f35d045dffbfcda290b0b11b6ee4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 29768f7f411833ff6fbf3444fc9fc63d2fa8b418
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-export-protocols"></a>Exportprotocollen instellen
@@ -38,7 +38,7 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Exportprotocollen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
-3.  Vul in het venster **Exportprotocollen** de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Vul op de pagina **Exportprotocollen** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

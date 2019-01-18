@@ -13,10 +13,10 @@ ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
@@ -36,7 +36,7 @@ Hoe meer dimensies u gebruikt, hoe gedetailleerder de rapporten waarop u uw bedr
 De dimensiefunctionaliteit speelt een belangrijke rol in bedrijfsinformatie, zoals bij het definiëren van analyseweergaven. Zie voor meer informatie [Gegevens analyseren per dimensies](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
-> Als snelle manier om transactiegegevens te analyseren per dimensie kunt u totalen in het rekeningschema en posten in de vensters **Posten** filteren op dimensie. Zoek de actie **Dimensiefilter instellen**.
+> Als snelle manier om transactiegegevens te analyseren per dimensie kunt u totalen in het rekeningschema en posten op de pagina's **Posten** filteren op dimensie. Zoek de actie **Dimensiefilter instellen**.
 
 ## <a name="dimension-sets"></a>Dimensiesets
 Een dimensieset is een unieke combinatie dimensiewaarden. Een dimensieset wordt als dimensiesetposten in de database opgeslagen. Elke dimensiesetpost vertegenwoordigt één dimensiewaarde. De dimensiesetpost wordt geïdentificeerd door een gemeenschappelijke dimensieset-id die is toegewezen aan elke dimensiesetpost die tot de dimensieset behoort.  
@@ -44,7 +44,7 @@ Een dimensieset is een unieke combinatie dimensiewaarden. Een dimensieset wordt 
 Wanneer u een dagboekregel, documentkop of documentregel maakt, kunt u een combinatie van dimensiewaarden opgeven. In plaats van elke dimensiewaarde expliciet in de database op te slaan, wordt een dimensieset-id toegewezen aan de dagboekregel, documentkop of documentregel om zo de dimensieset op te geven.  
 
 ## <a name="setting-up-dimensions"></a>Dimensies instellen
-U kunt de dimensies en dimensiewaarden definiëren om dagboeken en documenten te categoriseren, zoals verkooporders en inkooporders. U stelt dimensies in het venster **Dimensies** in. In dit venster maakt u één regel voor elke dimensie, zoals *Project*, *Afdeling*, *District* en *Verkoper*.
+U kunt de dimensies en dimensiewaarden definiëren om dagboeken en documenten te categoriseren, zoals verkooporders en inkooporders. U stelt dimensies op de pagina **Dimensies** in. Op deze pagina maakt u één regel voor elke dimensie, zoals *Project*, *Afdeling*, *District* en *Verkoper*.
 
 U stelt ook waarden voor dimensies in. Waarden kunnen bijvoorbeeld afdelingen in uw bedrijf zijn. Dimensiewaarden kunnen worden ingesteld in een hiërarchische structuur, vergelijkbaar met het rekeningschema, zodat gegevens kunnen worden onderverdeeld in verschillende niveaus en zodat subsets van dimensiewaarden kunnen worden opgeteld. U kunt zoveel dimensies en dimensiewaarden definiëren als u nodig hebt en iedereen in uw bedrijf kan deze gebruiken.
 
@@ -57,7 +57,7 @@ U kunt ook een aantal globale dimensies en shortcutdimensies instellen:
 U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie wordt naar het dagboek of document gekopieerd wanneer u het rekeningnummer op een regel invoert, maar u kunt de code op de regel desgewenst verwijderen of wijzigen. U kunt ook een dimensie maken die is vereist om een post te boeken met een specifiek rekeningsoort.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensies** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer in het venster **Dimensies** de relevante dimensie en kies de actie **Std. dimensierekeningsoort**.  
+2.  Selecteer op de pagina **Dimensies** de relevante dimensie en kies de actie **Std. dimensierekeningsoort**.  
 4.  Vul een regel in voor elke nieuwe standaarddimensie die u wilt instellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
@@ -73,7 +73,7 @@ U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie
 U kunt verschillende standaarddimensies instellen voor verschillende rekeningsoorten, bijvoorbeeld een klantrekening en een artikelrekening. Er kunnen dus meerdere standaarddimensies worden voorgesteld voor een dimensie op een post. Als u dergelijke conflicten wilt voorkomen, kunt u prioriteitregels toepassen op verschillende bronnen.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaarddimensieprioriteiten** in en kies vervolgens de gerelateerde koppeling.  
-2.  Voer in het venster **Standaarddimensieprioriteiten** in het veld **Broncode** de broncode voor de invoertabel in waarop prioriteiten voor standaarddimensies van toepassing zijn.  
+2.  Voer op de pagina **Standaarddimensieprioriteiten** in het veld **Broncode** de broncode voor de invoertabel in waarop prioriteiten voor standaarddimensies van toepassing zijn.  
 3.  Vul een regel in voor elke prioriteit voor standaarddimensies die u wilt instellen voor de geselecteerde broncode.
 4.  Herhaal de procedure voor elke broncode waarvoor u prioriteiten voor standaarddimensies wilt instellen.  
 
@@ -84,12 +84,12 @@ U kunt verschillende standaarddimensies instellen voor verschillende rekeningsoo
 U kunt bepaalde combinaties van twee dimensies blokkeren of beperken om te voorkomen dat u posten boekt met tegenstrijdige of onjuiste dimensies. Een geblokkeerde dimensiecombinatie betekent dat u beide dimensies niet naar dezelfde post kunt boeken, ongeacht de dimensiewaarden. Voor een beperkte dimensiecombinatie kunt u beide dimensies naar dezelfde post boeken, maar alleen voor bepaalde combinaties van dimensiewaarden.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensiecombinaties** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Dimensiecombinaties** het veld met de dimensiecombinatie en selecteer een van de volgende opties.  
+2.  Kies op de pagina **Dimensiecombinaties** het veld met de dimensiecombinatie en selecteer een van de volgende opties.  
 
     |Veld|Description|
     |----------------------------------|---------------------------------------|  
     |**Geen beperking**|Deze dimensiecombinatie heeft geen beperkingen. Alle dimensiewaarden zijn toegestaan.|  
-    |**Beperkt**|Deze dimensiecombinatie heeft beperkingen afhankelijk van de dimensiewaarden die u invoert. U moet de beperkingen opgeven in het venster **Dimensiewaardecombinatie**.|  
+    |**Beperkt**|Deze dimensiecombinatie heeft beperkingen afhankelijk van de dimensiewaarden die u invoert. U moet de beperkingen opgeven op de pagina **Dimensiewaardecombinatie**.|  
     |**Geblokkeerd**|Deze dimensiecombinatie is niet toegestaan.|  
 
 3.  Als u de optie **Beperkt** hebt geselecteerd, moet u opgeven welke combinaties van dimensiewaarden u wilt blokkeren. Kies hiervoor het veld om de dimensiecombinatie te definiëren.  
@@ -103,9 +103,9 @@ U kunt bepaalde combinaties van twee dimensies blokkeren of beperken om te voork
 >  Als u de naam van de dimensies wilt weergeven en niet de code, klikt u op het veld **Kolomnaam weergeven**.
 
 ### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Een overzicht krijgen van dimensies die meerdere keren zijn gebruikt
-In het venster **Standaarddimensies - Multi** wordt opgegeven hoe een groep rekeningen gebruikmaakt van dimensies en dimensiewaarden. Markeer meerdere rekeningen en geef standaard dimensies en dimensiewaarden op voor de rekeningen die u hebt gemarkeerd in het overzicht met rekeningen. Geeft u standaard dimensies voor de gemarkeerde rekeningen op, dan worden deze dimensies en dimensiewaarden voorgesteld wanneer een van deze rekeningen wordt gebruikt, bijvoorbeeld op een dagboekregel. Dit maakt het boeken van een post eenvoudiger voor de gebruiker, omdat de dimensievelden automatisch worden ingevuld. De voorgestelde dimensiewaarden kunnen echter worden gewijzigd, bijvoorbeeld op een dagboekregel.
+Op de pagina **Standaarddimensies - Multi** wordt opgegeven hoe een groep rekeningen gebruikmaakt van dimensies en dimensiewaarden. Markeer meerdere rekeningen en geef standaard dimensies en dimensiewaarden op voor de rekeningen die u hebt gemarkeerd in het overzicht met rekeningen. Geeft u standaard dimensies voor de gemarkeerde rekeningen op, dan worden deze dimensies en dimensiewaarden voorgesteld wanneer een van deze rekeningen wordt gebruikt, bijvoorbeeld op een dagboekregel. Dit maakt het boeken van een post eenvoudiger voor de gebruiker, omdat de dimensievelden automatisch worden ingevuld. De voorgestelde dimensiewaarden kunnen echter worden gewijzigd, bijvoorbeeld op een dagboekregel.
 
-Het venster **Standaarddimensies - Multi** bevat de volgende velden:
+De pagina **Standaarddimensies - Multi** bevat de volgende velden:
 |Veld|Description|
 |----------------------------------|---------------------------------------|  
 |**Dimensiecode**|Bevat die dimensies die zijn ingesteld als standaarddimensies in een of meer gemarkeerde rekeningen. Kies het veld voor een overzicht van de beschikbare dimensies. Als u een dimensie selecteert, wordt de geselecteerde dimensie voor de gemarkeerde rekeningen ingesteld als standaard dimensie.|
@@ -113,7 +113,7 @@ Het venster **Standaarddimensies - Multi** bevat de volgende velden:
 |**Waardeboeking**|Bevat een regel voor waardeboeking of de term (Conflict). Als het veld een regel voor waardeboeking bevat, hebben de gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Kies het veld Waardeboeking voor een overzicht van de regels voor waardeboeking. Als u een regel voor waardeboeking selecteert, wordt de geselecteerde regel voor waardeboeking toegepast op de gemarkeerde rekeningen.|
 
 ### <a name="example-of-dimension-setup"></a>Voorbeeld van dimensie-instelling
-Stel dat uw bedrijf transacties wil traceren op basis van organisatorische structuur en geografische locaties. Hiervoor kunt u twee dimensies instellen in het venster **Dimensies**:
+Stel dat uw bedrijf transacties wil traceren op basis van organisatorische structuur en geografische locaties. Hiervoor kunt u twee dimensies instellen op de pagina **Dimensies**:
 
 * **DISTRICT**  
 * **AFDELING**  
@@ -149,27 +149,27 @@ Voor **AFDELING** voegt u de volgende dimensiewaarden toe:
 | PROD |Productie |Standaard |
 | VERKOOP |Verkoop |Standaard |
 
-Met deze instellingen kunt u vervolgens uw twee dimensies toevoegen als twee globale dimensies in het venster **Boekhoudinstellingen**. Dit betekent dat u DISTRICT en AFDELING kunt gebruiken als filters voor grootboekposten, evenals in alle rapporten en rapportageschema's. Beide globale dimensies kunnen ook automatisch worden gebruikt als shortcutdimensies in postregels en documentkoppen.  
+Met deze instellingen kunt u vervolgens uw twee dimensies toevoegen als twee globale dimensies op de pagina **Boekhoudinstellingen**. Dit betekent dat u DISTRICT en AFDELING kunt gebruiken als filters voor grootboekposten, evenals in alle rapporten en rapportageschema's. Beide globale dimensies kunnen ook automatisch worden gebruikt als shortcutdimensies in postregels en documentkoppen.  
 
 ## <a name="using-dimensions"></a>Dimensies gebruiken
-In een document zoals een verkooporder kunt u dimensiegegevens toevoegen voor een afzonderlijke documentregel en voor het document zelf. In het venster **Verkooporder** kunt u bijvoorbeeld dimensiewaarden invoeren voor de eerste twee shortcutdimensies op de afzonderlijke verkoopregels, en u kunt meer dimensiegegevens toevoegen als u de knop **Dimensies** kiest.  
+In een document zoals een verkooporder kunt u dimensiegegevens toevoegen voor een afzonderlijke documentregel en voor het document zelf. Op de pagina **Verkooporder** kunt u bijvoorbeeld dimensiewaarden invoeren voor de eerste twee shortcutdimensies op de afzonderlijke verkoopregels, en u kunt meer dimensiegegevens toevoegen als u de knop **Dimensies** kiest.  
 
 Als u in plaats daarvan in een dagboek werkt, kunt u ook op dezelfde manier dimensiegegevens toevoegen aan een post als u shortcutdimensies direct als velden hebt ingesteld op dagboekregels.  
 
 U kunt standaarddimensies instellen voor rekeningen of rekeningsoorten, zodat dimensies en dimensiewaarden automatisch worden ingevuld.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Globale dimensies bekijken in vensters met posten  
-Globale dimensies zijn altijd gedefinieerd en benoemd door het bedrijf. Als u de globale dimensies voor uw bedrijf wilt bekijken, opent u het venster **Boekhoudinstellingen**.  
+## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Globale dimensies bekijken op pagina's met posten  
+Globale dimensies zijn altijd gedefinieerd en benoemd door het bedrijf. Als u de globale dimensies voor het bedrijf wilt bekijken, opent u de pagina **Boekhoudinstellingen**.  
 
-In een venster met posten kunt u bekijken of er globale dimensies van toepassing zijn op de posten. In tegenstelling tot de overige dimensies kunnen de twee globale dimensies overal in [!INCLUDE[d365fin](includes/d365fin_md.md)] als filter worden toegepast.  
+Op een pagina met posten kunt u bekijken of er globale dimensies van toepassing zijn op de posten. In tegenstelling tot de overige dimensies kunnen de twee globale dimensies overal in [!INCLUDE[d365fin](includes/d365fin_md.md)] als filter worden toegepast.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Rekeningschema** de actie **Posten**.  
-3.  Stel een of meer filters in het venster in om alleen de gewenste posten weer te geven.  
+2.  Kies op de pagina **Rekeningschema** de actie **Posten**.  
+3.  Stel een of meer filters op de pagina in om alleen de gewenste posten weer te geven.  
 4.  Als u alle dimensies voor een post wilt zien, selecteert u de post en kiest u vervolgens de actie **Dimensies**.  
 
 > [!NOTE]  
->  In het venster **Postdimensies** worden de gegevens per post weergegeven. Als u de posten doorloopt, wordt de inhoud in het venster **Postdimensies** hieraan aangepast.  
+>  Op de pagina **Postdimensies** worden de gegevens per post weergegeven. Als u de posten doorloopt, wordt de inhoud op de pagina **Postdimensies** hieraan aangepast.  
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Ontwerpdetails: Vast bestelaantal
@@ -37,7 +37,7 @@ Het beleid Vast bestelaantal is gerelateerd aan de voorraadplanning van typische
  De ordervelden Min. bestelaantal, Max. bestelaantal en Vaste lotgrootte zouden geen grote rol moeten afspelen wanneer het beleid voor vaste bestelaantallen wordt gebruikt. Het planningssysteem houdt echter toch rekening met deze wijzigingsfactoren en verlaagt het aantal tot het opgegeven maximum orderaantal (en maakt twee of meer voorzieningen om het totale orderaantal te bereiken), verhoogt de order tot het opgegeven maximum aantal of rondt het orderaantal af op een opgegeven orderveelvoud.  
 
 ## <a name="combines-with-calendars"></a>Combineert met agenda's  
- Voordat het planningssysteem een nieuwe voorzieningenorder voorstelt, wordt gecontroleerd of de order is gepland voor een niet-werkdag, volgens agenda's die zijn gedefinieerd in het veld **Basisagendacode** in de vensters **Bedrijfsgegevens** en **Vestiging**.  
+ Voordat het planningssysteem een nieuwe voorzieningenorder voorstelt, wordt gecontroleerd of de order is gepland voor een niet-werkdag, volgens agenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging**.  
 
  Als de verwachte datum een vrije dag is, verplaatst het planningssysteem de order voorwaarts naar de dichtstbijzijnde werkdatum. Dit kan resulteren in een order die voldoet een bestelpunt maar aan een bepaalde vraag niet voldoet. Voor dergelijke vraag in onbalans maakt het systeem een extra voorziening.  
 

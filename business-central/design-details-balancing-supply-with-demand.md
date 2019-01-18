@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Ontwerpdetails: Vraag en aanbod afstemmen
@@ -59,7 +59,7 @@ In het algemeen heeft elk aanbod een planningsflexibiliteit die wordt beperkt do
 
     -   De order vertegenwoordigt voorraad (altijd op dag nul).  
     -   De order een order-naar-order koppeling met andere vraag heeft.  
-    -   De order ligt buiten het herplanningsvenster dat door het tijdsinterval wordt gedefinieerd.  
+    -   De order ligt buiten de herplanningspagina die door het tijdsinterval wordt gedefinieerd.  
     -   Er is een voorziening dichterbij die kan worden gebruikt.  
     -   Van de andere kant kan de gebruiker besluiten niet te herplannen omdat:  
     -   De voorzieningenorder is al gekoppeld aan een andere vraag op een eerdere datum.  
@@ -68,7 +68,7 @@ In het algemeen heeft elk aanbod een planningsflexibiliteit die wordt beperkt do
 -   **Opnieuw inplannen**: de datum van een bestaande voorzieningenorder kan worden ingepland, behalve in de volgende omstandigheden:  
 
     -   De order is direct aan andere vraag gekoppeld.  
-    -   De order ligt buiten het herplanningsvenster dat door het tijdsinterval wordt gedefinieerd.  
+    -   De order ligt buiten de herplanningspagina die door het tijdsinterval wordt gedefinieerd.  
 
 > [!NOTE]  
 >  Bij het plannen van een artikel via een bestelpunt kan de voorzieningenorder altijd worden ingepland, indien noodzakelijk. Dit is gebruikelijk bij voorwaarts-geplande voorzieningenorders die worden geactiveerd door een bestelpunt.  

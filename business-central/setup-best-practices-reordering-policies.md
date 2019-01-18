@@ -1,6 +1,6 @@
 ---
 title: 'Aanbevolen procedures instellen: Bestelbeleid | Microsoft Docs'
-description: Het veld **Bestelbeleid** op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.
+description: Het veld Bestelbeleid op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cb0658a768276835fba44ab1e88e6fac05df5397
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: cc333a1a17173abeff36ba556f2ff0d235af225f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Aanbevolen procedures instellen: Bestelbeleid

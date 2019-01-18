@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
@@ -66,7 +66,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
  Wanneer het uitgaande brondocument wordt vrijgegeven, wordt automatisch een uitgaand magazijnverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Voorraadpick of -verplaatsing maken  
- In het venster **Voorraadpick** or **Voorraadverplaatsing** haalt de magazijnmedewerker door middel van pulling de wachtende brondocumentregels op, op basis van uitgaande magazijnverzoeken. De voorraadpickregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
+ Op de pagina **Voorraadpick** or **Voorraadverplaatsing** haalt de magazijnmedewerker door middel van pulling de wachtende brondocumentregels op, op basis van uitgaande magazijnverzoeken. De voorraadpickregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Voorraadpick boeken of Voorraadverplaatsing registreren  
  Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt of verplaatst, vult de magazijnmedewerker het veld **Aantal** in en boekt deze vervolgens de voorraadpick of registreert deze de voorraadverplaatsing. Brondocumenten met betrekking tot de voorraadpick worden geboekt als verzonden of verbruikt. Brondocumenten met betrekking tot voorraadverplaatsingen worden niet geboekt.  
@@ -85,7 +85,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
  Wanneer het inkomende brondocument wordt vrijgegeven, wordt automatisch een uitgaand magazijnverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Magazijnverzending maken  
- In het venster **Mag. -verzending** haalt de verantwoordelijke verzendingsmedewerker de wachtende brondocumentregels op, op basis van het uitgaande magazijnverzoek. Verschillende brondocumentregels kunnen worden gecombineerd in één magazijnverzenddocument.  
+ Op de pagina **Mag. -verzending** haalt de verantwoordelijke verzendingsmedewerker de wachtende brondocumentregels op, op basis van het uitgaande magazijnverzoek. Verschillende brondocumentregels kunnen worden gecombineerd in één magazijnverzenddocument.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Verzending vrijgeven/Magazijnpick maken  
  De verantwoordelijke verzendingsmedewerker geeft de magazijnverzending vrij, zodat de magazijnmedewerkers magazijnpicks voor de betreffende verzending kunnen maken of coördineren.  
@@ -109,7 +109,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
  De magazijnmedewerker die picks uitvoert, maakt een magazijnpickdocument met pull-functionaliteit, op basis van het vrijgegeven brondocument. Of het magazijnpickdocument wordt door pushing gemaakt en toegewezen aan de magazijnmedewerker.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Magazijnpick registreren  
- Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt, vult de magazijnmedewerker het veld **Aantal** in het venster **Magazijnpick** in en registreert deze vervolgens de magazijnpick.  
+ Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt, vult de magazijnmedewerker het veld **Aantal** op de pagina **Magazijnpick** in en registreert deze vervolgens de magazijnpick.  
 
  Magazijnposten worden gemaakt en de magazijnpickregels worden verwijderd, als deze volledig zijn verwerkt. Het magazijnpickdocument blijft geopend totdat het totale aantal van de gerelateerde magazijnverzending is geregistreerd. Het veld **Gepickt aantal** op de magazijnverzendregels wordt dan overeenkomstig bijgewerkt.  
 

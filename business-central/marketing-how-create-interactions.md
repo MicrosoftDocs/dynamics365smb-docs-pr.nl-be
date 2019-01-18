@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee1c27157febaf848c417eb163adea2eaa586e1f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
@@ -39,13 +39,13 @@ Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
-2. Vul in het venster **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
+2. Vul op de pagina **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
 
-    Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels in het venster **Segment**.  
-3. Om het segment en de interacties vast te leggen kiest u de actie **Logbestand**. Het venster **Segment registreren** wordt geopend.
-4. Als u een nieuw segment wilt maken met dezelfde contacten, schakelt u het selectievakje **Opvolgingssegm. maken** in. Voordat het opvolgingssegment kan worden gemaakt, moet u nummerreeksen voor segmenten hebben ingesteld in het venster **Marketinginstellingen**.
+    Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels op de pagina **Segment**.  
+3. Om het segment en de interacties vast te leggen kiest u de actie **Logbestand**. De pagina **Segment registreren** wordt geopend.
+4. Als u een nieuw segment wilt maken met dezelfde contacten, schakelt u het selectievakje **Opvolgingssegm. maken** in. Voordat het opvolgingssegment kan worden gemaakt, moet u nummerreeksen voor segmenten hebben ingesteld op de pagina **Marketinginstellingen**.
 
-Een interactie wordt geregistreerd voor elk contact binnen het segment in de tabel **Interactielogpost** en het segment wordt geregistreerd. Geregistreerde segmenten kunt u vinden in het venster **Geregistreerd segment**.
+Een interactie wordt geregistreerd voor elk contact binnen het segment in de tabel **Interactielogpost** en het segment wordt geregistreerd. Geregistreerde segmenten kunt u vinden op de pagina **Geregistreerd segment**.
 
 Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er automatisch een nieuw segment gemaakt met dezelfde contacten als in het segment dat u zojuist hebt geregistreerd.
 

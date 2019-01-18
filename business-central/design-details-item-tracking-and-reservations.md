@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Ontwerpdetails: Artikeltracering en reserveringen
@@ -44,15 +44,15 @@ Het belangrijkste verschil tussen specifieke en niet-specifieke reserveringen wo
 |**Specifiek**|Serie- of lotnummer.|Serie- of lotnummer.|  
 |**Niet specifiek**|Serie- of lotnummer.|Geen serie- of lotnummer.|  
   
-Wanneer u voorraadaantallen reserveert van een uitgaande documentregel voor een artikel waaraan artikeltraceringsnummers zijn toegewezen en dat is ingesteld voor specifieke artikeltracering, wordt in het venster **Reservering** verschillende werkstromen getoond afhankelijk van uw behoefte aan de serie- of lotnummers.  
+Wanneer u voorraadaantallen reserveert van een uitgaande documentregel voor een artikel waaraan artikeltraceringsnummers zijn toegewezen en dat is ingesteld voor specifieke artikeltracering, wordt op de pagina **Reservering** verschillende werkstromen getoond afhankelijk van uw behoefte aan de serie- of lotnummers.  
   
 ## <a name="specific-reservation"></a>Specifieke reservering  
-Als u **Reserveren** op de uitgaande documentregel kiest, wordt een dialoogvenster weergegeven waarin wordt gevraagd of u specifieke serie- of lotnummers wilt reserveren. Als u **Ja** kiest, wordt een lijst weergegeven met alle serie- of lotnummers die op de documentregel zijn toegewezen. Het venster **Reservering** wordt geopend nadat u een van de serie- of lotnummers selecteert, en u kunt vervolgens een van de geselecteerde serie- of lotnummers op de gewone manier reserveren.  
+Als u **Reserveren** op de uitgaande documentregel kiest, wordt een dialoogvenster weergegeven waarin wordt gevraagd of u specifieke serie- of lotnummers wilt reserveren. Als u **Ja** kiest, wordt een lijst weergegeven met alle serie- of lotnummers die op de documentregel zijn toegewezen. De pagina **Reservering** wordt geopend nadat u een van de serie- of lotnummers selecteert, en u kunt vervolgens een van de geselecteerde serie- of lotnummers op de gewone manier reserveren.  
   
-Als sommige specifieke artikeltraceringsnummers die u probeert te reserveren, in niet-specifieke reserveringen worden vastgehouden, informeert een bericht onder in het venster **Reservering** u hoeveel van het totaal gereserveerde aantal in niet-specifieke reserveringen wordt vastgehouden en of ze nog beschikbaar zijn.  
+Als sommige specifieke artikeltraceringsnummers die u probeert te reserveren, in niet-specifieke reserveringen worden vastgehouden, informeert een bericht onder op de pagina **Reservering** u hoeveel van het totaal gereserveerde aantal in niet-specifieke reserveringen wordt vastgehouden en of ze nog beschikbaar zijn.  
   
 ## <a name="nonspecific-reservation"></a>Niet-specifieke reservering  
-Als u **Nee** kiest in het dialoogvenster dat verschijnt, wordt het venster **Reservering** geopend en kunt u reserveren uit alle serie- of lotnummers in voorraad.  
+Als u **Nee** kiest in het dialoogvenster dat verschijnt, wordt de pagina **Reservering** geopend en kunt u reserveren uit alle serie- of lotnummers in voorraad.  
   
 Wanneer u een niet-specifieke reservering plaatst voor een artikelgetraceerd artikel, moet het systeem vanwege de structuur van het reserveringsysteem specifieke artikelposten selecteren voor de reservering. Omdat de artikelposten artikeltraceringsnummers hebben, reserveert de reservering indirect specifieke serie- of lotnummers, zelfs wanneer dat niet uw bedoeling was. Om deze situatie te verwerken, probeert het reserveringssysteem niet-specifieke reserveringsposten opnieuw te plannen vóór het boeken.  
   
@@ -81,7 +81,7 @@ Dit is bijvoorbeeld nodig wanneer een orderverwerker eerst een niet-specifieke r
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Specifieke serie- of lotnummers reserveren  
 In dit bedrijfsscenario zorgt de functie Late binding dat een gebruiker die probeert een bepaald serie- of lotnummer te reserveren dat op het moment niet-specifiek is gereserveerd, dat kan doen. Een niet-specifieke reservering wordt opnieuw gepland op het moment van reservering om het serie- of lotnummer voor de specifieke aanvraag vrij te geven.  
   
-Het opnieuw plannen wordt automatisch uitgevoerd, maar er wordt ingesloten Help weergegeven onder in het venster **Reservering** met de volgende tekst:  
+Het opnieuw plannen wordt automatisch uitgevoerd, maar er wordt ingesloten Help weergegeven onder op de pagina **Reservering** met de volgende tekst:  
   
 **XX van het totale gereserveerde aantal zijn niet-specifiek en kunnen beschikbaar zijn.**  
   

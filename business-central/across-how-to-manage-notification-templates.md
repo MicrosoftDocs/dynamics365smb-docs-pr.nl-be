@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Berichtsjablonen beheren | Microsoft Docs'
-description: "Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over stappen die ze moeten zetten, of om ze te informeren over de status van werkstroomstappen. U stelt in wie berichten ontvangt en wanneer door goedkeuringsgebruikers, een planning van gebruikersberichten en de betrokken werkstroomantwoorden in te stellen om de ontvanger van het bericht te definiëren. Zie voor meer informatie [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)."
+description: "Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over stappen die ze moeten zetten, of om ze te informeren over de status van werkstroomstappen. U stelt in wie berichten ontvangt en wanneer door goedkeuringsgebruikers, een planning van gebruikersberichten en de betrokken werkstroomantwoorden in te stellen om de ontvanger van het bericht te definiëren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Berichtsjablonen beheren
@@ -28,7 +29,7 @@ Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over st
 
 ## <a name="to-create-a-new-notification-template"></a>Een nieuwe berichtsjabloon maken  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Berichtjablonen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Berichtsjablonen** de actie **Nieuw** .  
+2.  Kies op de pagina **Berichtsjablonen** de actie **Nieuw** .  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
@@ -41,9 +42,9 @@ Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over st
 
 ## <a name="to-modify-a-notification-template"></a>Een berichtsjabloon wijzigen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Berichtjablonen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer in het venster **Berichtsjablonen** de berichtsjabloon die u wilt wijzigen.  
+2.  Selecteer op de pagina **Berichtsjablonen** de berichtsjabloon die u wilt wijzigen.  
 3.  Kies de actie **Sjablooninhoud exporteren**.  
-4.  Klik in het venster **Bestand exporteren** op de knop **Opslaan**, voer de bestandsnaam in en sla het HTML-bestand in een geschikte locatie op.  
+4.  Klik op de pagina **Bestand exporteren** op de knop **Opslaan**, voer de bestandsnaam in en sla het HTML-bestand in een geschikte locatie op.  
 5.  Klik met de rechtermuisknop op het bestand, kies **Openen met** en kies vervolgens het desbetreffende programma.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over st
 6.  Bewerk de inhoud van de berichtsjabloon door parametervariabelen toe te voegen, te wijzigen of te verwijderen om de gewenste berichtinhoud te definiëren. Zie voor meer informatie het onderdeel "Inhoud van de berichtsjablonen".  
 
     Importeer vervolgens de aangepaste inhoud terug in dezelfde of een nieuwe berichtsjabloon.  
-7.  Om de berichtsjabloon te wijzigen die u hebt geëxporteerd, selecteert u in het venster **Berichtsjablonen** de sjabloon die u in stap 2 hebt geselecteerd.  
+7.  Om de berichtsjabloon te wijzigen die u hebt geëxporteerd, selecteert u op de pagina **Berichtsjablonen** de sjabloon die u in stap 2 hebt geselecteerd.  
 
     U kunt ook de gewijzigde sjablooninhoud in een nieuwe berichtsjabloon importeren. Hiervoor voert u de procedure "Een nieuwe berichtsjabloon maken" uit en selecteert u vervolgens de nieuwe berichtsjabloon.  
 8.  Kies de actie **Sjablooninhoud importeren**.  
 9. Als u een bestaande berichtsjabloon wijzigt, kiest u de knop **Ja** in het bericht over het overschrijven van de bestaande sjabloon.  
-10. Kies in het venster **Selecteer een bestand om te importeren** het HTML-bestand dat u in stap 6 hebt gewijzigd, en kies vervolgens de knop **Openen**.  
+10. Kies op de pagina **Selecteer een bestand om te importeren** het HTML-bestand dat u in stap 6 hebt gewijzigd, en kies vervolgens de knop **Openen**.  
 
-De nieuwe of bestaande berichtsjabloon in het venster **Berichtsjablonen** wordt nu bijgewerkt met de gewijzigde inhoud.  
+De nieuwe of bestaande berichtsjabloon op de pagina **Berichtsjablonen** wordt nu bijgewerkt met de gewijzigde inhoud.  
 
 ### <a name="content-of-the-notification-templates"></a>Inhoud van de berichtsjablonen  
 De drie soorten berichtsjablonen, **Nieuwe Record**, **Goedkeuring** en **Vervallen**, hebben verschillende inhoud.  

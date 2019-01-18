@@ -15,10 +15,10 @@ ms.search.keywords: user setup
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7aa965f952a4d03ea5c74fe09e59c076a87275a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="specify-posting-periods"></a>Boekingsperioden opgeven
@@ -26,10 +26,10 @@ Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek ku
 
 ## <a name="to-specify-posting-periods"></a>Boekingsperioden opgeven
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. In het venster **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
+2. Op de pagina **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
 
 > [!NOTE]  
->   Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers in het venster **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven in het venster **Grootboekinstellingen**. Zie voor meer informatie het gedeelte 'Tijdsbeperkingen voor gebruikers instellen' in [Gebruikers en machtigingen beheren](ui-how-users-permissions.md).
+>   Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers op de pagina **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven op de pagina **Grootboekinstellingen**. Zie voor meer informatie het gedeelte 'Tijdsbeperkingen voor gebruikers instellen' in [Gebruikers en machtigingen beheren](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  

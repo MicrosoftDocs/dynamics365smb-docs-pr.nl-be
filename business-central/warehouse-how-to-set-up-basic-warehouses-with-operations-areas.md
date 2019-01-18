@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u de volgende standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren:  
 
-- Het venster **Voorraadverplaatsing**.  
-- venster **voorraadpick**.  
-- venster **voorraadopslag**.
+- Pagina **Voorraadverplaatsing**  
+- Pagina **Voorraadpick**  
+- Pagina **Voorraadopslag**
 
 > [!NOTE]
 > Hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.  
 
-Als u deze vensters met interne bewerkingen, zoals picken en het naar productie verplaatsen van componenten, wilt gebruiken, moet u een aantal van de volgende instellingstappen of alle volgende instellingsstappen volgen, afhankelijk van hoeveel controle u nodig hebt:  
+Als u deze pagina's met interne bewerkingen, zoals picken en het naar productie verplaatsen van componenten, wilt gebruiken, moet u een aantal van de volgende instellingstappen of alle volgende instellingsstappen volgen, afhankelijk van hoeveel controle u nodig hebt:  
 
 - De voorraadpick, verplaatsings- en opslagdocumenten inschakelen.  
 - De standaard opslaglocatiestructuren definiëren voor componenten en eindartikelen die van en naar bewerkingsbronnen stromen.  
@@ -59,14 +59,14 @@ De volgende procedures zijn gebaseerd op het instellen van standaard magazijnact
 
 5. Voer op het sneltabblad **Opslaglocaties** in het veld **Van productieopslaglocatie** de code in van de opslaglocatie in het productiegebied waaruit standaard voltooide eindartikelen worden gehaald wanneer het proces een magazijnactiviteit omvat. De activiteit wordt bij standaard magazijnconfiguraties geregistreerd als een voorraadopslag of een voorraadverplaatsing.  
 
-Productieordermateriaalregels met de standaard opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor de materialenvragen die deze specifieke opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor de opslaglocatie in het venster **Opslaglocaties** dat u vanuit de vestigingskaart.
+Productieordermateriaalregels met de standaard opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor de materialenvragen die deze specifieke opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor de opslaglocatie op de pagina **Opslaglocaties** die u vanuit de vestigingskaart opent.
 
 In dit stroomdiagram is weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw instellingen.  
 
 ![Diagram van opslaglocatiestroom](media/binflow.png "Opslaglocatiestroom")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Een standaard opslaglocatiestructuur in het assemblagegebied definiëren
-Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan het venster **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan de pagina **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Als u verkoopregelaantallen pickt en verzendt die worden geassembleerd voor de order, moet u bepaalde regels volgen wanneer u de voorraadpickregels maakt. Zie voor meer informatie de sectie 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ Dezelfde opslaglocatie wordt vervolgens naar het veld **Opslaglocatie** gekopiee
 ## <a name="to-create-dedicated-component-bins"></a>Specifieke componentopslaglocaties maken
 U kunt opgeven dat hoeveelheden in een opslaglocatie niet mogen worden gepickt voor andere vraag dan het huidige doel.
 
-Hoeveelheden in specifieke opslaglocaties kunnen nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** in het venster **Reservering**.
+Hoeveelheden in specifieke opslaglocaties kunnen nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.
 
-Een voorbeeld is een afdeling die is ingesteld met een opslaglocatie in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor de materialenvragen die deze specifieke opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor de opslaglocatie in het venster **Opslaglocaties** dat u vanuit de vestigingskaart opent.
+Een voorbeeld is een afdeling die is ingesteld met een opslaglocatie in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor de materialenvragen die deze specifieke opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor de opslaglocatie op de pagina **Opslaglocaties** die u vanuit de vestigingskaart opent.
 
 Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het gebruik van opslaglocaties, die alleen beschikbaar zijn in geavanceerde magazijnbeheer. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.
 
 > [!Caution]
-> Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer ze zijn gepickt en worden verbruikt als onderdelen van de productie met het venster Voorraadpick.
+> Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer ze zijn gepickt en worden verbruikt als onderdelen van de productie met de pagina Voorraadpick.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling. Selecteer de vestiging die u wilt bijwerken.  
 2.  Kies de actie **Opslaglocaties**.  

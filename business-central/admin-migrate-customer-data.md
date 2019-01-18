@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
 
-De vensters **Migratieoverzicht** en **Werkblad voor configuratie** bieden ook toegang tot de functies en weergaven voor taken die betrekking hebben op gegevensmigratie. Het is raadzaam één tabel tegelijk te migreren om afhankelijkheden in uw gegevens te verwerken. De migratie betreft ook de mastergegevenstabellen met informatie over klanten, leveranciers, artikelen, contactpersonen en het grootboek.  
+De pagina's **Migratieoverzicht** en **Werkblad voor configuratie** bieden ook toegang tot de functies en weergaven voor taken die betrekking hebben op gegevensmigratie. Het is raadzaam één tabel tegelijk te migreren om afhankelijkheden in uw gegevens te verwerken. De migratie betreft ook de mastergegevenstabellen met informatie over klanten, leveranciers, artikelen, contactpersonen en het grootboek.  
 
 ## <a name="to-import-configuration-packages"></a>Configuratiepakketten importeren
 Wanneer u een nieuw bedrijf maakt, kunt u de bedrijfsinstellingen voor het nieuwe bedrijf importeren. U importeert de instellingen vanuit een .rapidstart-bestand, dat de pakketinhoud in een gecomprimeerde indeling aanlevert. Er wordt een overeenkomende set standaard gegevensmigratietabellen geïmporteerd. De gegevensreeks bevat hoofdgegevenstabellen en instellingsgegevenstabellen. Uw eerste taak in gegevensmigratie is evalueren of de standaardinstellingen van de migratie voldoen aan de behoeften van het nieuwe bedrijf.
@@ -58,9 +58,9 @@ Als de selectie van tabellen niet aan uw behoeften voldoet, kunt u een of meer n
 U kunt nieuwe gegevensmigratiebestanden maken en aanpassen voor uw bedrijf. Een bestand kan echter alleen worden gebruikt voor het migreren van een veld waarvan de eigenschap **Veldklasse** is ingesteld op **Normaal**.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakket** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer en open het pakket dat u wilt gebruiken om gegevens te migreren en kies de actie **Tabellen ophalen**. Het venster **Pakkettabel ophalen** wordt geopend.  
+2. Selecteer en open het pakket dat u wilt gebruiken om gegevens te migreren en kies de actie **Tabellen ophalen**. De pagina **Pakkettabel ophalen** wordt geopend.  
 3. Voer in het veld **Tabel-ID** een tabelnummer in of selecteer een tabel in de lijst, bijvoorbeeld tabel 18, **Klant**. Het veld **Tabelnaam** wordt automatisch ingevuld.  
-4. Selecteer de nieuwe migratietabel en kies op het tabblad **Tabellen** de actie **Velden**. Het venster **Migratievelden** wordt geopend.  
+4. Selecteer de nieuwe migratietabel en kies op het tabblad **Tabellen** de actie **Velden**. De pagina **Migratievelden** wordt geopend.  
 5. Wis het selectievakje **Veld opnemen** voor elk veld dat u niet wilt importeren en kies vervolgens de actie **Opgenomen items instellen** of **Opgenomen items wissen**.  
 
 > [!IMPORTANT]  
@@ -100,7 +100,7 @@ In de volgende procedures moet u van tevoren kijken welke waarden u wilt behoude
 4. Voor elk veld dat u wilt toewijzen, kiest u de actie **Toewijzing**.  
 5. Voer in het veld **Oude waarde** de waarde in die u wilt wijzigen. Voer in het veld **Nieuwe waarde** de waarde in waarin u de oude waarde wilt wijzigen. Kies de knop **OK**.  
 6. Importeer de klantgegevens. Zie voor meer informatie het gedeelte "Klantgegevens importeren".
-7. Kijk in het veld **Aantal pakketfouten** of er fouten zijn gerapporteerd. Zoom in om fouten te bekijken als die er zijn. Het venster **Pakketrecords voor configuratie** wordt geopend.
+7. Kijk in het veld **Aantal pakketfouten** of er fouten zijn gerapporteerd. Zoom in om fouten te bekijken als die er zijn. De pagina **Pakketrecords voor configuratie** wordt geopend.
 8. Kies de actie **Fout weergeven**. U ziet het volgende foutbericht: **<option> is geen geldige optie. Geldige opties zijn <valid option list>**. Kies de knop **OK**.  
 9. Als u de toewijzing wilt toepassen die u hebt ingesteld, kiest u de actie **Gegevens toepassen**.  
 
@@ -134,7 +134,7 @@ Nadat u een migratietabel hebt geëxporteerd, is uw volgende stap het invoeren v
 
 Voor hulp met XML schakelt u het tabblad **Ontwikkelaar** van het Excel-lint in en kiest u de actie **Bron** om het XML-schema van uw migratietabel te zien zoals in het Excel wordt aangeduid.
 
-De volgende procedure is gebaseerd op een Excel-werkblad dat u hebt gemaakt voor de migratie. Zie voor meer informatie Procedure: Migratietabellen exporteren.
+De volgende procedure is gebaseerd op een Excel-werkblad dat u hebt gemaakt voor de migratie. Zie voor meer informatie het gedeelte "Gegevensmigratiebestanden exporteren".
 
 > [!IMPORTANT]  
 > Wijzig de kolommen in de Excel-werkbladen niet. Als ze worden verplaatst, gewijzigd of verwijderd, kan het werkblad niet worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -151,7 +151,7 @@ U bent nu klaar om de gegevensmigratiebestanden met oude klantgegevens te import
 ## <a name="to-import-customer-data"></a>Klantgegevens importeren
 Nadat de klantgegevens zijn ingevoerd in de gegevensmigratiebestanden in Excel, importeert u de bestanden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Open het venster **Pakketkaart voor configuratie**.
+1. Open de pagina **Pakketkaart voor configuratie**.
 2. Selecteer de tabel waarvoor u waarden wilt importeren en kies op het sneltabblad **Tabellen** de actie **Vanuit Excel importeren**.
 3. Zoek en open het gewenste bestand waaruit u gegevens wilt importeren naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -163,21 +163,21 @@ Klantgegevens moeten worden gevalideerd voordat u de records kunt toepassen op d
 > [!NOTE]  
 >  In de meeste gevallen worden geen ongeldige gegevens in de database gemaakt. De toepassing kan echter soms worden geblokkeerd als een geïmporteerde migratietabel fouten bevat.  
 
-1. Controleer in het venster **Migratieoverzicht** het veld **Aantal migratiefouten** om te zien of eventuele fouten tijdens het importeren zijn opgetreden.  
+1. Controleer op de pagina **Migratieoverzicht** het veld **Aantal migratiefouten** om te zien of eventuele fouten tijdens het importeren zijn opgetreden.  
 2. Als er fouten zijn, selecteert u de migratietabel en kiest u op het sneltabblad **Tabellen** de actie **Fouten**. Het selectievakje **Ongeldig** is ingeschakeld voor elke record die een fout bevat.  
 3. Als u fouten wilt controleren, selecteert u een regel en kiest u **Fout weergeven**.  
 
     Het veld **Fouttekst** bevat de reden voor de fout. Het veld **Veldbijschrift** bevat het bijschrift van het veld dat de fout bevat.  
-4.  Als u een fout wilt corrigeren of een andere update wilt aanbrengen, kiest u in het venster **Migratieoverzicht** de actie **Migratierecord** en corrigeert u vervolgens in het venster **Migratierecord** de record met de fout.  
+4.  Als u een fout wilt corrigeren of een andere update wilt aanbrengen, kiest u op de pagina **Migratieoverzicht** de actie **Migratierecord** en corrigeert u vervolgens op de pagina **Migratierecord** de record met de fout.  
 
-Nadat u een correctie hebt aangebracht, wordt de record verwijderd uit de lijst met records in het venster **Migratiegegevensfouten**.  
+Nadat u een correctie hebt aangebracht, wordt de record verwijderd uit de lijst met records op de pagina **Migratiegegevensfouten**.  
 
 U bent nu gereed om de gegevens van de klant toe te passen op de database.  
 
 ## <a name="to-apply-customer-data"></a>Klantgegevens toepassen
 Als u alle geïmporteerde gegevensmigratierecords hebt die geldig zijn en geen fouten bevatten, kunt u de records toepassen op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
 
-1. Open het venster **Configuratiepakketten**.  
+1. Open de pagina **Configuratiepakketten**.  
 2. Selecteer de tabel voor het gegevensmigratiebestand dat u wilt toepassen, en kies de actie **Gegevens toepassen**.
 
 U kunt het aantal databaserecords zien die werden aangemaakt in het veld **Aantal databaserecords**. U kunt controleren of de juiste gegevens zijn gemaakt door de koppeling te kiezen in het veld **Aantal databaserecords**.  

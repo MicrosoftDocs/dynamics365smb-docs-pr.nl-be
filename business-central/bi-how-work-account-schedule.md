@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
@@ -26,35 +26,59 @@ U opent deze twee rapporten, bijvoorbeeld, met de actie **Financiële afschrifte
 
 Het instellen van rapportageschema's vereist begrip van de financiële gegevens in het rekeningschema. U kunt bijvoorbeeld grootboekposten weergeven als percentages van budgetposten. Hiertoe moeten budgetten worden gemaakt. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
-## <a name="account-categories-and-account-schedules"></a>Rekeningcategorieën en rekeningschema's
-U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld in het venster **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport Balans, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie voor meer informatie het gedeelte "Rekeningcategorieën" in [Het grootboek en COA begrijpen](finance-general-ledger.md).  
+## <a name="account-schedules"></a>Rapportageschema's
+Rapportageschema's worden gebruikt om rekeningen in het rekeningschema op zo'n manier te ordenen dat dit informatie presenteert over die rekeningen. U kunt verschillende indelingen instellen om de informatie te definiëren die u wilt betrekken uit het rekeningschema. Eén van de belangrijkste functies van rapportageschema's is het bieden van een plek voor berekeningen die niet direct in het rekeningschema kunnen worden gemaakt, zoals het maken van subtotalen voor rekeninggroepen die kunnen worden opgenomen in nieuwe totalen en vervolgens kunnen worden gebruikt in andere totalen. Gebruikers kunnen bijvoorbeeld rapportageschema's maken om winstmarges te berekenen op dimensies zoals afdelingen of klantengroepen. Daarnaast kunnen grootboekposten worden en budgetposten van grootboeken worden gefilterd, op bijvoorbeeld nettowijzigingen of debetbedragen.
 
-## <a name="to-create-new-account-schedules"></a>Nieuwe rekeningstelsels maken  
- U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
+U kunt ook twee of meer rapportageschema's en kolomindelingen vergelijken met formules. Met dit soort vergelijkingen kunt u:
+
+* Aangepaste financiële rapporten maken
+* Zo veel rapportageschema's maken als u nodig hebt, elk met een eigen naam.
+* Verschillende rapportindelingen instellen en de rapporten afdrukken met de huidige cijfers.
+
+## <a name="account-categories"></a>Rekeningcategorieën
+U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld op de pagina **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport Balans, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie voor meer informatie het gedeelte "Rekeningcategorieën" in [Het grootboek en COA begrijpen](finance-general-ledger.md).  
+
+## <a name="to-create-a-new-account-schedule"></a>Een nieuw rapportageschema maken  
+U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
+
+De rapportageschema's in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn de basis van de financiële standaardrapporten, die mogelijk niet overeenkomen met de wensen van uw bedrijf. Als u snel uw eigen financiële rapporten wilt maken, kunt u beginnen met een bestaand rapportageschema te kopiëren. Zie stap 3 hieronder.
+
+Op de pagina **Rapportageschemaoverzicht** bekijkt u een voorbeeld van het financiële rapport dat het rapportageschema definieert. In het volgende is het belangrijk te weten dat wat u instelt als rijen en kolommen van het rapportageschema, alleen kan worden gezien en gevalideerd op de pagina **Rapportageschemaoverzicht**, die u kunt openen vanuit een rapportageschema door de actie **Overzicht** te kiezen. De pagina **Rapportageschema** zelf is alleen een instellingengebied.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een rekeningschema te maken.
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de actie **Rapportageschema bewerken**.
-5. Vul de benodigde velden in het venster **Rapportageschema** in.  
+2. Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een rekeningschema te maken.
+3. Of kies de actie **Rapportageschema kopiëren**, vul de twee velden in en kies de knop **OK**.
+4. Vul de benodigde velden in. Selecteer in het veld **Std. kolomindeling** een bestaande indeling. U kunt het later desgewenst wijzigen.
 
-    Nadat u een nieuw rapportageschema hebt gemaakt en de rijen hebt ingesteld, moet u kolommen instellen. U kunt de kolommen handmatig instellen of een vooraf gedefinieerde kolomindeling toewijzen aan het rapportageschema.
-6. Kies de actie **Instellingen kolomindeling bewerken**.
-7. Vul indien nodig in het venster **Kolomindeling** de velden in.
+    U gebruikt kolomindelingen om kolommen te definiëren voor verschillende parameters waarmee de financiële gegevens in de rijen worden weergegeven. U kunt bijvoorbeeld een kolomindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar, met vier kolommen. Zie voor meer informatie het gedeelte "Een kolomindeling maken of bewerken".
 
-> [!NOTE]  
-> Als u geen standaardkolomindeling hebt toegewezen aan het rapportageschema, moet u de kolommen handmatig instellen.
+5. Kies de actie **Rapportageschema bewerken**.
+6. Maak een rij voor financieel elk element dat u in de lijst wilt weergeven, zoals een regel voor vlottende activa en een andere regel voor vaste activa. Zie voor inspiratie zie bestaande rapportageschema's in het CRONUS-demonstratiebedrijf.
+7. Kies de actie **Overzicht** om het resulterende financiële rapport te bekijken.
+8. Selecteer op de pagina **Rapportageschemaoverzicht** in het veld **Kolomindelingnaam** een andere kolomindeling om de financiële gegevens door andere parameters te bekijken.
+9. Kies de knop **OK**.
 
-### <a name="to-copy-an-existing-account-schedule"></a>Een bestaand rekeningschema kopiëren
-De rapportageschema's in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn de basis van de financiële standaardrapporten, die mogelijk niet overeenkomen met de wensen van uw bedrijf. Als u snel uw eigen financiële rapporten wilt maken, kunt u beginnen met een bestaand rapportageschema te kopiëren.
-1. Selecteer in het venster **Rapportageschema** een rapportageschema en kies vervolgens de actie **Rapportageschema kopiëren**.
-2. Vul in het venster **Rapportageschema kopiëren** de benodigde velden in en kies vervolgens de knop **OK**.
+U hebt nu de basis van het rapportageschema gedefinieerd, de rijen van financiële gegevens die moeten worden weergegeven, en een bestaande kolomindeling om de gegevens in de rijen per verschillende parameters weer te geven. Als de standaardkolomindeling die u in stap 4 hebt geselecteerd niet met uw doel overeenkomt, volgt u de onderstaande procedure.
+
+### <a name="to-edit-a-column-layout"></a>Een kolomindeling bewerken
+U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterende rapport wilt opnemen. U kunt bijvoorbeeld een indeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar.
+
+> [!NOTE]
+> Een afgedrukte/opgeslagen of voorbeeldversie van een rapportageschema kan maximaal vijf kolommen weergegeven. Als het rapportageschema alleen voor analyse op de pagina **Rapportageschemaoverzicht** is bedoeld, kunt u zoveel kolommen maken als u wilt.
+
+1. Op de pagina **Rapportageschema's** selecteert u het relevante rapportageschema en kiest u vervolgens de actie **Instellingen kolomindeling bewerken**.
+2. Op de pagina **Kolomindelingen** maakt u een regel voor elke kolom waarmee financiële gegevens in het financiële rapport worden weergegeven. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Kies de knop **OK**.
+4. Open van tijd tot tijd de pagina **Rapportageschemaoverzicht** om te controleren of de nieuwe kolomindeling werkt zoals bedoeld.
+
+> [!NOTE]
+> De kolommen die u voor elke rij definieert, vertegenwoordigen kolom 3 en hoger op de pagina **Rapportageschemaoverzicht**. De eerste twee kolommen, **Rijnr.** en **Omschrijving** zijn vast.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Een kolom maken die percentages berekent  
 U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van een totaal te berekenen. U hebt bijvoorbeeld een aantal rijen die zijn onderverdeeld op dimensie, en u wilt wellicht een kolom maken om het percentage aan te geven van de totale verkoop van elke rij.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer een rapportageschema in het venster **Rapportageschema's**.  
+2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken** om een rapportageschemarij te definiëren die de totalen moet berekenen waarop de percentages worden gebaseerd.  
 4. Voeg een regel in rechtstreeks boven de eerste rij waarvoor u een percentage wilt weergeven.  
 5. Vul de velden als volgt op de regel in: voer in het veld **Samentellingssoort** **Basis voor percentage** in. Voer in het veld **Samentelling** een formule in voor het totaal waarop het percentage wordt gebaseerd. Als bijvoorbeeld rij 11 de totale omzet bevat, voert u **11** in.  
@@ -66,15 +90,15 @@ U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van 
 U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en begrotingscijfers van grootboeken worden vergeleken.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer een rapportageschema in het venster **Rapportageschema's**.  
+2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken**  
-4. Selecteer in het venster **Rapportageschema** in het veld **Naam** de naam van het standaardrapportageschema.
+4. Selecteer op de pagina **Rapportageschema** in het veld **Naam** de naam van het standaardrapportageschema.
 5. Kies de actie **Rekeningen invoegen**.  
 6. Selecteer de rekeningen die u wilt opnemen in uw overzicht en klik vervolgens op **OK**.
 
     De rekeningen worden nu opgenomen in het rapportageschema. Indien gewenst kunt u ook de kolomindeling wijzigen.  
 7. Kies de actie **Overzicht**.  
-8. Stel op het sneltabblad **Dimensiefilters** het begrotingsfilter in met de gewenste filternaam.  
+8. Stel op de pagina **Rapportageschemaoverzicht** op het sneltabblad **Dimensiefilters** het budgetfilter in op de gewenste filternaam.  
 9. Kies de knop **Ok**.  
 
 Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.  
@@ -85,7 +109,6 @@ Uw rapportageschema kan de resultaten vergelijken van verschillende boekingsperi
 Een boekhoudperiode hoeft niet gelijk te zijn aan een agendaperiode, maar ieder boekjaar moet hetzelfde aantal boekhoudperioden hebben, zelfs wanneer de boekhoudperioden onderling in lengte verschillen.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de periodeformule om het bedrag uit de vergelijkingsperiode te berekenen in verhouding tot de periode die wordt voorgesteld door het datumfilter in de rapportaanvraag. De vergelijkingsperiode is gebaseerd op de begindatum van het datumfilter. Dit zijn de afkortingen voor periodenpecificaties:
-
 
 <table>
 <colgroup>

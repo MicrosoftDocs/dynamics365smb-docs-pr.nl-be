@@ -10,30 +10,31 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-persons
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-contact-persons"></a>Contacten maken
 U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarmee u een zakelijke relatie hebt. Voor elk contactbedrijf kunt u het gewenste aantal contacten invoeren. U kunt ook contactkaarten maken voor de personen die u wilt vastleggen als onafhankelijk persoon.
 
 > [!TIP]  
->   Voordat u een contact maakt, kunt u de instellingen voor **Overerving** controleren in het venster **Marketinginstellingen**. Als u overerving instelt, kan informatie over contactbedrijven die gemeenschappelijk is voor contactpersonen, zoals adresdetails, automatisch worden gekopieerd vanuit het contactbedrijf naar de contactpersoon, elke keer dat u een contactpersoon maakt voor een vastgelegd contactbedrijf.
+>   Voordat u een contact maakt, kunt u de **Overerving**-instellingen controleren op de pagina **Marketinginstellingen**. Als u overerving instelt, kan informatie over contactbedrijven die gemeenschappelijk is voor contactpersonen, zoals adresdetails, automatisch worden gekopieerd vanuit het contactbedrijf naar de contactpersoon, elke keer dat u een contactpersoon maakt voor een vastgelegd contactbedrijf.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Een contactkaart voor een persoon maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer voor het contact in.
 
-    Als u echter een nummerreeks voor contacten hebt ingesteld in het venster **Marketinginstellingen** kunt u op Enter drukken om het volgende beschikbare contactnummer te selecteren. Zie voor meer informatie [Nummerreeksen maken](ui-create-number-series.md).
+    Als u echter een nummerreeks voor contacten hebt ingesteld op de pagina **Marketinginstellingen** kunt u op Enter drukken om het volgende beschikbare contactnummer te selecteren. Zie voor meer informatie [Nummerreeksen maken](ui-create-number-series.md).
 4. Selecteer **Persoon** in het veld **Soort**.
 5. Vul de overige velden op de contactkaart in.
 
 > [!NOTE]  
->   De inhoud van de velden die u hebt geselecteerd in het gedeelte **Overerving** van het venster **Marketinginstellingen**, wordt gekopieerd van het bedrijf naar de personen binnen dat bedrijf.
+>   De inhoud van de velden die u hebt geselecteerd in het gedeelte **Overerving** van de pagina **Marketinginstellingen**, wordt gekopieerd van het bedrijf naar de personen binnen dat bedrijf.
 
 ## <a name="see-also"></a>Zie ook
 [CRM instellen](marketing-setup-marketing.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d13b3589c5afc917730364dd3d8ab6815cd5552a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 12833530e37ed092cec5f410afdf7f4f52cd46b1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Budgetten voor vaste activa beheren.
@@ -39,7 +39,7 @@ Als u activa binnen de budgetperiode wilt verkopen, kunt u informatie over verko
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum dat buiten gebruik moet worden gesteld en kies vervolgens de actie **Afschrijvingsboeken**.
-3. In het venster **VA-afschrijvingsboeken** vult u de velden **Verwachte BGS-datum** en **Verwachte opbrengst bij BGS** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Op de pagina **VA-afschrijvingsboeken** vult u de velden **Verwachte BGS-datum** en **Verwachte opbrengst bij BGS** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Geschatte buitengebruikstellingswaarden bekijken
 Als u de geschatte buitengebruikstellingswaarden wilt bekijken en verlies en winst wilt berekenen, kunt u het rapport **Geschatte waarde VA** gebruiken.

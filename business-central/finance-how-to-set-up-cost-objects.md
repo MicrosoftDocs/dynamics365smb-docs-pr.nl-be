@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Kostenobjecten instellen
@@ -27,7 +27,7 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 * Door een nieuw schema van kostenobjecten te maken dat onafhankelijk is van het grootboek of door een nieuw kostenobject toe te voegen aan een bestaand schema van kostenobjecten. U moet elk kostenobject afzonderlijk maken.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Door de dimensiewaarden vanuit het grootboek over te brengen naar het schema van kostenobjecten.  
-1.  Stel een dimensie als kostenobjectdimensie in met het venster **CA-dimensies bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
+1.  Stel een dimensie als kostenobjectdimensie in op de pagina **CA-dimensies bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
 2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenobjectschema** in en kies vervolgens de gerelateerde koppeling.  
 3.  Kies de actie **Kostenobjecten ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenobjecten. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
@@ -36,10 +36,10 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 
 Het schema van kostenobjecten bevat nu alle opgegeven dimensiewaarden van het grootboek waaronder titels en subtotalen.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Nieuwe kostenobjecten maken in het venster Kostenobjectschema  
-U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart** of in het venster **Kostenobjectschema**. In deze procedure stelt u kostenobjecten in het venster **Kostenobjectschema** in.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Nieuwe kostenobjecten maken op de pagina Kostenobjectschema  
+U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart** of op de pagina **Kostenobjectschema**. In deze procedure stelt u kostenobjecten op de pagina **Kostenobjectschema** in.  
 
-1.  Open het venster **Kostenobjectschema** in de bewerkmodus.  
+1.  Open de pagina **Kostenobjectschema** in de bewerkmodus.  
 2.  Voer in het veld **Code** de kostenobjectcode in. Alle kostenobjecten moeten een code hebben.  
 3.  Voer in het veld **Naam** de naam van het kostenobject in.  
 4.  Kies de vervolgkeuzepijl in het veld **Regelsoort** om het doel van het kostenobject aan te geven.  

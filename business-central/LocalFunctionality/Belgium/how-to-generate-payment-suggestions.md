@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 686b2871e66ce83db82b1cdc354022b6c7063366
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d656ea8d17ce8ad42351d4072075e8348e2ad1b8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="generate-payment-suggestions"></a>Betalingsvoorstellen genereren
@@ -26,7 +26,7 @@ Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren v
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de juiste dagboekbatch en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
-3.  Vul in het venter **Leveranciersbetalingen voorstellen** op het tabblad **Opties** de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Vul op de pagina **Leveranciersbetalingen voorstellen** op het tabblad **Opties** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

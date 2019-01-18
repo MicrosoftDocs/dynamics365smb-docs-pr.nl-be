@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Goedkeuringsgebruikers instellen| Microsoft Docs'
-description: Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. In het venster Gebruikersinstellingen voor goedkeuring kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is.
+description: Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. Op de pagina Gebruikersinstellingen voor goedkeuring kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,28 +13,28 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 26328cfb007f3251375503907c8316d51b113a03
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d171a2f21759f52ab472189a6bbeebac4593b6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-approval-users"></a>Goedkeuringsgebruikers instellen
-Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. In het venster **Gebruikersinstellingen voor goedkeuring** kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is.  
+Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. Op de pagina **Gebruikersinstellingen voor goedkeuring** kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is.  
 
 > [!NOTE]  
->  Goedkeuringsgebruikers, zowel aanvragers als fiatteurs, moeten eerst worden ingesteld als werkstroomgebruikers in het venster **Werkstroomgebruikersgroep**. Zie [Werkstromen instellen](across-how-to-set-up-workflow-users.md) voor meer informatie.  
+>  Goedkeuringsgebruikers, zowel aanvragers als fiatteurs, moeten eerst worden ingesteld als werkstroomgebruikers op de pagina **Werkstroomgebruikersgroep**. Zie [Werkstromen instellen](across-how-to-set-up-workflow-users.md) voor meer informatie.  
 
  Als u gebruikers van de goedkeuringsgebruikers hebt ingesteld, kunt u de instellingen gebruiken om werkstroomantwoorden te maken voor goedkeuringswerkstromen. Zie voor meer informatie stap 9 in [Werkstromen maken](across-how-to-create-workflows.md).  
 
 > [!NOTE]  
->  Stel een hiërarchie voor fiatteurs op om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd totdat meerdere fiatteurs in een goedkeuringsketen deze hebben goedgekeurd. Voor het fiatteurstype **Fiatteur** stelt u fiatteurs in het venster **Gebruikersinstellingen voor goedkeuring** in. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** in het venster **Werkstroomgebruikersgroepen** in en definieer de hiërarchie door incrementele nummers toe te wijzen aan elke fiatteur in het **Volgnr.** invoeren. Zie dit onderwerp en [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md) voor meer informatie.  
+>  Stel een hiërarchie voor fiatteurs op om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd totdat meerdere fiatteurs in een goedkeuringsketen deze hebben goedgekeurd. Voor het fiatteurstype **Fiatteur** stelt u fiatteurs op de pagina **Gebruikersinstellingen voor goedkeuring** in. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** op de pagina **Werkstroomgebruikersgroepen** in en definieer de hiërarchie door incrementele nummers aan elke fiatteur in het veld **Volgnr.** invoeren. Zie dit onderwerp en [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md) voor meer informatie.  
 >   
->  U kunt definiëren dat een goedkeuringsaanvraag pas wordt goedgekeurd nadat meerdere gelijkwaardige fiatteurs deze hebben goedgekeurd, ongeacht het bestaan van een hiërarchie, door een werkstroomgebruikersgroep in een platte structuur in te stellen. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** in het venster **Werkstroomgebruikersgroepen** in en wijs hetzelfde nummer toe aan elke fiatteur in het **Volgnr.** invoeren. Zie [Werkstromen instellen](across-how-to-set-up-workflow-users.md) voor meer informatie.  
+>  U kunt definiëren dat een goedkeuringsaanvraag pas wordt goedgekeurd nadat meerdere gelijkwaardige fiatteurs deze hebben goedgekeurd, ongeacht het bestaan van een hiërarchie, door een werkstroomgebruikersgroep in een platte structuur in te stellen. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** op de pagina **Werkstroomgebruikersgroepen** in en wijs hetzelfde nummer toe aan elke fiatteur in het **Volgnr.** invoeren. Zie [Werkstromen instellen](across-how-to-set-up-workflow-users.md) voor meer informatie.  
 
 ## <a name="to-set-up-an-approval-user"></a>Een goedkeuringsgebruiker instellen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
-2. Maak een nieuwe regel in het venster **Gebruikersinstellingen voor goedkeuring** en vul de velden in zoals is beschreven in de volgende tabel.  
+2. Maak een nieuwe regel op de pagina **Gebruikersinstellingen voor goedkeuring** en vul de velden in zoals is beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -45,7 +45,7 @@ Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomge
     |**Onbeperkte goedkeuring van verkopen**|Geef aan dat de gebruiker in het veld **Gebruikers-ID** alle verkoopaanvragen kan goedkeuren, ongeacht het bedrag.<br /><br /> Als u dit selectievakje inschakelt, kunt u het veld **Limiet voor goedkeuring verkoopbedrag** niet invullen.|  
     |**Limiet voor goedkeuring inkoopbedrag**|Geef het maximale inkoopbedrag in LV op dat de gebruiker in het veld **Gebruikers-ID** kan goedkeuren.|  
     |**Onbeperkte goedkeuring van inkopen**|Geef aan dat de gebruiker in het veld **Gebruikers-ID** alle inkoopaanvragen kan goedkeuren, ongeacht het bedrag.<br /><br /> Als u dit selectievakje inschakelt, kunt u het veld **Limiet voor goedkeuring verkoopbedrag** niet invullen.|  
-    |**Limiet voor goedkeuring aanvraagbedrag**|Geef het maximale inkoopbedrag in LV op dat de gebruiker in het veld **Gebruikers-ID** kan goedkeuren voor inkoopoffertes.<br /><br /> Als u dit veld wilt gebruiken, moet u de optie **Fiatteursketting** selecteren in het veld **Limietsoort van fiatteur** in het venster **Werkstroomreactie**.|  
+    |**Limiet voor goedkeuring aanvraagbedrag**|Geef het maximale inkoopbedrag in LV op dat de gebruiker in het veld **Gebruikers-ID** kan goedkeuren voor inkoopoffertes.<br /><br /> Als u dit veld wilt gebruiken, moet u de optie **Fiatteursketting** selecteren in het veld **Limietsoort van fiatteur** op de pagina **Werkstroomreactie**.|  
     |**Onbeperkt aanvragen van goedkeuring**|Geef aan dat de gebruiker in het veld **Gebruikers-ID** alle inkoopoffertes kan goedkeuren, ongeacht het bedrag.<br /><br /> Als u dit selectievakje inschakelt, kunt u het veld **Limiet voor goedkeuring aanvraagbedrag** niet invullen.|  
     |**Vervanger**|Selecteer de gebruikers-id van de gebruiker die aanvragen moet goedkeuren die zijn ingediend door de gebruiker in het veld **Gebruikers-ID** als de gebruiker in **Fiatteur-id** niet beschikbaar is. **Opmerking:** de vervanger kan de gebruiker in het veld **Vervanger**, de directe fiatteur of de goedkeuringsbeheerder zijn, in die volgorde van prioriteit. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md).|  
     |**E-mailadres**|Geef het e-mailadres op van de gebruiker in het veld **Gebruikers-ID**.|  

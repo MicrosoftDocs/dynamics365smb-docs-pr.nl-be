@@ -1,22 +1,17 @@
 ---
 title: Belgische elektronische betalingen
-description: In de module voor elektronisch bankieren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.
-services: project-madeira
-documentationcenter: 
+description: In de module voor elektronisch bankieren in de Belgische versie van Business Central kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3da762ff74d8065e1c2af18ccfa4a8390092c316
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: f08b0cee879c38041a3a2bdc6523f9c518a1939e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="belgian-electronic-payments"></a>Belgische elektronische betalingen

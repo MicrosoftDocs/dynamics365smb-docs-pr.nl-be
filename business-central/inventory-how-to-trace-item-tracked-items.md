@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Artikelen met artikeltracering traceren
@@ -24,16 +24,16 @@ U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en 
 
  Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles wanneer u wilt weten welke klanten producten met een bepaald lotnummer hebben ontvangen of wanneer u wilt weten uit welk lot een defect onderdeel afkomstig is.  
 
- In het venster **Artikeltracering** kunt u voorwaarts en achterwaarts traceren in een reeks van geboekte voorraadtransacties voor het serie- of lotnummer.  
+ Op de pagina **Artikeltracering** kunt u voorwaarts en achterwaarts traceren in een reeks van geboekte voorraadtransacties voor het serie- of lotnummer.  
 
- In het venster **Navigeren** kunt u niet de reeks transacties bekijken, maar wel alle records van het serie- of lotnummer, zowel geboekte posten als open records.  
+ Op de pagina **Navigeren** kunt u niet de reeks transacties bekijken, maar wel alle records van het serie- of lotnummer, zowel geboekte posten als open records.  
 
- De twee functies kunnen in combinatie worden gebruikt door een getraceerd serie- of lotnummer over te brengen naar het venster **Navigeren** om een volledig traceerscenario te voltooien. Zie [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md) voor meer informatie.  
+ De twee functies kunnen in combinatie worden gebruikt door een getraceerd serie- of lotnummer over te brengen naar de pagina **Navigeren** om een volledig traceerscenario te voltooien. Zie [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md) voor meer informatie.  
 
 ## <a name="to-trace-item-tracked-items"></a>Artikelen met artikeltracering traceren  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
-2.  In de filtervelden boven aan het venster geeft u de specifieke artikelnummers op of een filter voor de artikelnummers die u wilt traceren.  
+2.  In de filtervelden boven aan de pagina geeft u de specifieke artikelnummers op of een filter voor de artikelnummers die u wilt traceren.  
 3.  Selecteer in het veld **Onderdelen weergeven** of u ook wilt zien waar de onderdelen voor de artikelen vandaan komen. U beschikt over de volgende opties in dit veld.  
 
     |Veld|Description|  
@@ -46,13 +46,13 @@ U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en 
 
     |Veld|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Gebruik->Oorsprong**|Met deze methode wordt het artikel getraceerd vanaf waar het is gebruikt tot waar het vandaan kwam. Als een geproduceerd artikel bijvoorbeeld is verkocht aan een klant, ziet u dat in het venster **Artikeltracering**, waarbij de verkoopverzendingsregel eerst wordt weergegeven. U kunt deze regel uitbreiden om de afkomst van de productieorder te zien.|  
-    |**Oorsprong->Gebruik**|Met deze methode wordt het item getraceerd vanaf waar het in de voorraad is opgenomen tot waar het is gebruikt. Als een geproduceerd artikel bijvoorbeeld aan een klant is verkocht, ziet u dit in het venster **Artikeltracering** waarbij de voltooide productieorder eerst wordt weergegeven. U kunt deze order uitbreiden om de verkoopverzendingsregels waarin het artikel wordt gebruikt weer te geven.|  
+    |**Gebruik->Oorsprong**|Met deze methode wordt het artikel getraceerd vanaf waar het is gebruikt tot waar het vandaan kwam. Als een geproduceerd artikel bijvoorbeeld is verkocht aan een klant, ziet u dat op de pagina **Artikeltracering**, waarbij de verkoopverzendingsregel eerst wordt weergegeven. U kunt deze regel uitbreiden om de afkomst van de productieorder te zien.|  
+    |**Oorsprong->Gebruik**|Met deze methode wordt het item getraceerd vanaf waar het in de voorraad is opgenomen tot waar het is gebruikt. Als een geproduceerd artikel bijvoorbeeld aan een klant is verkocht, ziet u dit op de pagina **Artikeltracering** waarbij de voltooide productieorder eerst wordt weergegeven. U kunt deze order uitbreiden om de verkoopverzendingsregels waarin het artikel wordt gebruikt weer te geven.|  
 
 5.  Kies de actie **Traceren** om de tracering uit te voeren.  
 
 > [!NOTE]  
->  Als u dezelfde partij via meer transacties hebt ontvangen, worden in het venster **Artikeltracering** mogelijk niet alle transacties weergegeven. Alleen vereffende transacties worden weergegeven.  
+>  Als u dezelfde partij via meer transacties hebt ontvangen, worden op de pagina **Artikeltracering** mogelijk niet alle transacties weergegeven. Alleen vereffende transacties worden weergegeven.  
 
 > [!NOTE]  
 >  Als al extra transactiegeschiedenis onder een artikeltraceringsregel is getraceerd door een andere bovenliggende regel, wordt het selectievakje **Al getraceerd** ingeschakeld. Voor een eenvoudiger weergave worden dergelijke onderliggende regels niet weergegeven.  

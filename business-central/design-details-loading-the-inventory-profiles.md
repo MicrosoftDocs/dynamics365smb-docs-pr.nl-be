@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Ontwerpdetails: Voorraadprofielen laden
@@ -45,7 +45,7 @@ Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningss
  Het planningssysteem bepaalt dit via het voorraadprofiel. Wanneer een nieuwe combinatie wordt gevonden, wordt een interne besturingsrecord gemaakt die de werkelijke combinatiegegevens bevat. De SKU wordt automatisch ingevoerd als besturingsrecord, of buitenste lus. Daarom worden de juiste planningsparameters op basis van een combinatie van variant en vestiging ingesteld en kan het programma doorgaan naar de binnenlus.  
 
 > [!NOTE]  
->  De gebruiker hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of voorziening voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt het programma een eigen tijdelijke SKU op basis van de artikelkaartgegevens. Als Vestiging verplicht op Ja is ingesteld in het venster Voorraadinstellingen, moet een SKU worden gemaakt of moet Onderdelen op vestiging worden ingesteld op Ja. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
+>  De gebruiker hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of voorziening voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt het programma een eigen tijdelijke SKU op basis van de artikelkaartgegevens. Als Vestiging verplicht op Ja is ingesteld op de pagina Voorraadinstellingen, moet een SKU worden gemaakt of moet Onderdelen op vestiging worden ingesteld op Ja. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serie-/lotnummers worden geladen op specificatieniveau  
  Kenmerken in de vorm van serie-/lotnummers worden in de voorraadprofielen geladen met de vraag en het aanbod waaraan ze zijn toegewezen.  

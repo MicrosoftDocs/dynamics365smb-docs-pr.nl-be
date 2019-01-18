@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedure: Een verkoopcampagne uitvoeren
@@ -65,7 +65,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Campagnes** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** om een nieuwe campagne te maken. Ga naar de campagnekaart en druk op Enter om automatisch een campagnenummer in te voegen.  
 3.  Geef in het veld **Omschrijving** een omschrijving op voor de campagne, bijvoorbeeld **FUTURUS-beurs**.  
-4.  Kies het veld **Statuscode** en selecteer een statuscode in de lijst die wordt geopend in het venster **Campagnestatus**.  
+4.  Kies het veld **Statuscode** en selecteer een statuscode in de lijst die wordt geopend op de pagina **Campagnestatus**.  
 5.  Vul de velden **Begindatum** en **Einddatum** van de campagne in.  
 
 ## <a name="selecting-the-target-audience"></a>De doelgroep selecteren  
@@ -83,16 +83,16 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
      Met filters kunt u contactpersonen toevoegen die voldoen een de criteria die het meest geschikt voor de doelen waarvoor u ze wilt gebruiken. Gebruik filters om contacten toe te voegen, bijvoorbeeld op basis van hun functie, de zakelijke relatie of de branche van het contactbedrijf. Kies in dit overzicht het filter **Functiegroep** om de contacten te selecteren.  
 
-4.  Kies in het venster **Segment** de actie **Contacten toevoegen** om het filter **Contacten toevoegen** te openen.  
+4.  Kies op de pagina **Segment** de actie **Contacten toevoegen** om het filter **Contacten toevoegen** te openen.  
 5.  Selecteer in het sneltabblad **Functiegroep** het filter **Inkoop** als de **Functiegroepcode** en klik op **OK**.  
 
-     Het venster **Segment** bevat nu een lijst met contacten op basis van het ingevoerde filter. Op het sneltabblad **Algemeen** in het veld **Aantal regels** ziet u in een oogopslag het aantal contactpersonen dat aan deze criteria voldoet.  
+     De pagina **Segment** bevat nu een lijst met contacten op basis van het ingevoerde filter. Op het sneltabblad **Algemeen** in het veld **Aantal regels** ziet u in een oogopslag het aantal contactpersonen dat aan deze criteria voldoet.  
 
     > [!NOTE]  
     >  U kunt uw segmentatiecriteria opslaan, zodat u ze later weer kunt gebruiken.
 
-    1.  Kies in het venster **Segment** de actie **Segment** en kies vervolgens de actie **Criteria opslaan**.  
-    2.  Typ in het venster **Segmentcriteria opslaan** een code voor het segment. Voer in het veld **Beschrijving** een beschrijving van de segmentcriteria in.
+    1.  Kies op de pagina **Segment** de actie **Segment** en kies vervolgens de actie **Criteria opslaan**.  
+    2.  Typ op de pagina **Segmentcriteria opslaan** een code voor het segment. Voer in het veld **Beschrijving** een beschrijving van de segmentcriteria in.
     3.  Kies de knop **Ok**.  
 
 ## <a name="mining-the-data"></a>Gegevens toepassen  
@@ -100,15 +100,15 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Contacten uit het segment verwijderen  
 
-1.  Klik in het venster **Segment** op de actie **Contacten** en vervolgens op **Contacten verminderen** om het filter **Contacten verwijderen -verminderen** te openen.  
+1.  Klik op de pagina **Segment** op de actie **Contacten** en vervolgens op **Contacten verminderen** om het filter **Contacten verwijderen -verminderen** te openen.  
 2.  Selecteer in het sneltabblad **Functiegroep** het filter **PROS** als de **Zakenrelatiecode** en klik op **OK**.  
 
-     Het venster **Segment** bevat nu een ingekorte lijst met contacten en in het veld **Aantal regels** ziet u het aantal contacten dat nu aan deze nieuwe criteria voldoet.  
+     De pagina **Segment** bevat nu een ingekorte lijst met contacten en in het veld **Aantal regels** ziet u het aantal contacten dat nu aan deze nieuwe criteria voldoet.  
 
     > [!NOTE]  
     >  Als u om welke reden dan ook het verwijderen van een groep contacten ongedaan wilt maken, doet u dit met de functie **Ga terug**. Met andere woorden,u kunt uw laatste segmentatie ongedaan maken.  
     >   
-    >  Kies in het venster **Segment** de actie **Segment** en kies vervolgens de actie **Ga terug**.  
+    >  Kies op de pagina **Segment** de actie **Segment** en kies vervolgens de actie **Ga terug**.  
     >   
     >  De contactpersonen die u zojuist hebt verwijderd worden weer toegevoegd aan de lijst met contactpersonen.  
 
@@ -117,7 +117,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Een segment aan de campagne koppelen  
 
-1.  Kies in het venster **Segment** op het sneltabblad **Campagne** het veld **Campagnenr.** om de campagne te selecteren waaraan u het segment wilt koppelen, bijvoorbeeld, **CP0001**.  
+1.  Kies op de pagina **Segment** op het sneltabblad **Campagne** het veld **Campagnenr.** om de campagne te selecteren waaraan u het segment wilt koppelen, bijvoorbeeld, **CP0001**.  
 2.  Aangezien dit segment de doelgroep van de campagne is, schakelt u het selectievakje **Campagnedoel** in.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Brieven en e-mailberichten verzenden naar contactpersonen  
@@ -132,7 +132,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
     > [!NOTE]  
     >  Aan deze sjabloon zijn meerdere documenten gekoppeld, die elk in een andere taal zijn geschreven. Bijvoorbeeld in het Engels en het Deens.  
 
-4.  Open het venster **Segmentinteractietalen** door het veld **Taal (Standaard)** te kiezen. Selecteer een taalcode en kies de knop **OK**.  
+4.  Open de pagina **Segmentinteractietalen** door het veld **Taal (Standaard)** te kiezen. Selecteer een taalcode en kies de knop **OK**.  
 5.  U kunt het document in de geselecteerde taal weergeven. Kies de actie **Bijlage** en kies vervolgens de actie **Openen**.  
 
      Reageer op het bericht waarin om toestemming wordt gevraagd om Word te starten door de optie **Toestaan voor deze clientsessie** te kiezen.  
@@ -160,7 +160,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 2.  Typ in het veld **Onderwerp (Standaard)** bijvoorbeeld de volgende tekst: **Bedankt voor uw bezoek aan de beurs**.  
 3.  Kies in het veld **Correspondentietype** de optie **E-mail**.  
 4.  Geef taalinstellingen op, zoals in de vorige procedure.  
-5.  Kies de actie **Registreren**. Het venster **Segment registreren** wordt geopend.  
+5.  Kies de actie **Registreren**. De pagina **Segment registreren** wordt geopend.  
 6.  Schakel het selectievakje **Bijlagen verzenden** in om de bijlagen te laten verzenden per e-mail.  
 7.  Schakel het selectievakje **Opvolgingssegm. maken** in.  
 8.  Kies de knop **OK**.  
@@ -174,12 +174,12 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ### <a name="to-register-campaign-responses"></a>Campagnerespons vastleggen  
 
-1.  Klik in het venster **Segment** op het sneltabblad **Interactie**.  
+1.  Klik op de pagina **Segment** op het sneltabblad **Interactie**.  
 2.  Kies het veld **Interactiesjablooncode**.  
 
      Er is geen interactiesjabloon voor het vastleggen van de respons op campagnes. Maak dus een nieuwe sjabloon.  
 
-3.  Kies in het venster **Interactiesjablonen** de actie **Nieuw** .  
+3.  Kies op de pagina **Interactiesjablonen** de actie **Nieuw** .  
 4.  Typ **RESP** in het veld **code** en **Campagnerespons** in het veld **Omschrijving**.  
 5.  Kies de knop **Ok**.  
 6.  Selecteer deze interactiesjabloon in het veld **Interactiesjablooncode** en bevestig de vraag of u de segmentregels met dezelfde interactiesjablooncode wilt bijwerken.  
@@ -190,10 +190,10 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 9. Selecteer het veld **Campagnerespons** en bevestig het volgende bericht.  
 
      Registreer het segment zodat u zeker weet dat de interacties worden vastgelegd.  
-10. Kies in het venster **Segment** de optie **Registreren**.  
-11. Schakel in het venster **Segment registreren** het selectievakje **Bijlagen verzenden** uit. Klik vervolgens op **OK** en bevestig het bericht dat verschijnt.  
+10. Kies op de pagina **Segment** de optie **Registreren**.  
+11. Schakel op de pagina **Segment registreren** het selectievakje **Bijlagen verzenden** uit. Klik vervolgens op **OK** en bevestig het bericht dat verschijnt.  
 
-     Nadat het segment is geregistreerd, wordt automatisch een post voor de campagne gemaakt in het venster **Campagneposten** om deze actie vast te leggen.  
+     Nadat het segment is geregistreerd, wordt automatisch een post voor de campagne gemaakt op de pagina **Campagneposten** om deze actie vast te leggen.  
 
 ## <a name="see-also"></a>Zie ook  
 [Relatiebeheer](marketing-relationship-management.md)  

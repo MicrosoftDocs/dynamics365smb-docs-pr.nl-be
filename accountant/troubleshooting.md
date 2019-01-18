@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: nl-be
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Problemen met [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)] oplossen
@@ -44,7 +44,7 @@ Dit kan een aantal oorzaken hebben, waaronder de volgende:
   Uw cliënt kan meerdere bedrijfsunits of bedrijven in [!INCLUDE [d365fin](includes/d365fin_md.md)] hebben opgenomen en uw uitnodiging omvat niet altijd alle bedrijven. Werk samen met uw cliënt om ervoor te zorgen dat u toegang hebt tot de juiste bedrijven.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Waarom worden de gegevens in mijn dashboard niet vernieuwd?
-Wanneer u een cliënt toevoegt of om het vernieuwen van gegevens verzoekt, worden de gegevens opgehaald door [!INCLUDE [d365acc](includes/d365acc_md.md)]. U moet het venster echter zelf vernieuwen, bijvoorbeeld door de actie Alle bedrijven opnieuw weergeven te kiezen, het browservenster te vernieuwen of uit en vervolgens weer naar het dashboard te navigeren. Dit is een bekend probleem waarvoor we in een latere update hopelijk een oplossing kunnen bieden.  
+Wanneer u een cliënt toevoegt of om het vernieuwen van gegevens verzoekt, worden de gegevens opgehaald door [!INCLUDE [d365acc](includes/d365acc_md.md)]. U moet de pagina echter zelf vernieuwen, bijvoorbeeld door de actie Alle bedrijven opnieuw weergeven te kiezen, de browserpagina te vernieuwen of uit en vervolgens weer naar het dashboard te navigeren. Dit is een bekend probleem waarvoor we in een latere update hopelijk een oplossing kunnen bieden.  
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag met [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

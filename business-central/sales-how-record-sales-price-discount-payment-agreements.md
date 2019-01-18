@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
@@ -62,7 +62,7 @@ Wanneer u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, 
 
 Ga door met het instellen van de nieuwe voorwaarden voor de nieuwe verkoopfactuurkorting.
 
-1. Kies in het venster **Klantenkaart** de actie **Factuurkortingen**. Het venster **Verkoopfactuurkorting** verschijnt.
+1. Kies op de pagina **Klantenkaart** de actie **Factuurkortingen**. De pagina **Verkoopfactuurkorting** verschijnt.
 2. Geef in het veld **Valutacode** de code op voor een valuta waarvoor de factuurkortingscondities op de regel van toepassing zijn. Laat het veld leeg als u factuurkortingscondities in de lokale valuta wilt instellen.
 3. Geef in het veld **Minimumbedrag** op hoe hoog het factuurbedrag minimaal moet zijn voordat een korting wordt berekend.
 4. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
@@ -73,23 +73,23 @@ De factuurkorting is nu ingesteld en toegewezen aan de klant in kwestie. Wanneer
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Werken met verkoopfactuurkortingen en servicekosten
 Wanneer u factuurkortingen gebruikt, wordt op basis van het factuurbedrag bepaald welke korting wordt verleend.  
 
-In het venster **Verkoopfactuurkorting** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  
+Op de pagina **Verkoopfactuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  
 
 U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens hebt opgegeven. U moet bepalen:  
 
 - welke klanten in aanmerking komen voor dit soort korting;  
 - welke kortingspercentages u gebruikt.  
 
-Als u factuurkortingen automatisch wilt berekenen, kunt u dit opgeven in het venster **Verkoopinstellingen**.  
+Als u factuurkortingen automatisch wilt berekenen, kunt u dit opgeven op de pagina **Verkoopinstellingen**.  
 
 Voor elke klant kunt u opgeven of u factuurkortingen verleent als aan de voorwaarde is voldaan (als dus het factuurbedrag hoog genoeg is). U kunt de voorwaarden voor factuurkortingen definiëren in de lokale valuta voor binnenlandse klanten en in een vreemde valuta voor buitenlandse klanten.  
 
-U koppelt kortingspercentages aan specifieke factuurbedragen in **Verkoopfactuurkortingen**-vensters. U kunt een willekeurig aantal percentages invoeren in elk venster. Elke klant kan een eigen venster hebben, of u kunt verschillende klanten aan hetzelfde venster koppelen.  
+U koppelt kortingspercentages aan specifieke factuurbedragen op **Verkoopfactuurkortingen**-pagina's. U kunt een willekeurig aantal percentages invoeren op elke pagina. Elke klant kan een eigen pagina hebben, of u kunt verschillende klanten aan dezelfde pagina koppelen.  
 
 Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan een specifiek factuurbedrag koppelen.  
 
 > [!TIP]  
->  Voordat u deze gegevens opgeeft, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zodoende kunt u gemakkelijker zien welke klanten u kunt koppelen aan hetzelfde venster Factuurkorting. Hoe minder vensters u hebt ingesteld, des te sneller kunt u de basisgegevens opgeven.  
+>  Voordat u deze gegevens opgeeft, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zodoende kunt u gemakkelijker zien welke klanten u kunt koppelen aan dezelfde pagina Factuurkorting. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens opgeven.  
 
 ## <a name="best-price-calculation"></a>Berekening van beste prijs
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen.
@@ -114,17 +114,17 @@ De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorti
 Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
 
 ## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren  
-Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele klant naar een klantenprijsgroep, moet u de batchverwerking **Verkoopprijsvoorstellen maken**  batchverwerking. U vindt de batchverwerking in het venster **Verkoopprijsvoorstel**.    
+Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele klant naar een klantenprijsgroep, moet u de batchverwerking **Verkoopprijsvoorstellen maken**  batchverwerking. U vindt de batchverwerking op de pagina **Verkoopprijsvoorstel**.    
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Verkoopprijsvoorstellen maken** .  
 3.  Vul op het sneltabblad **Verkoopprijzen** in de velden **Verkoopsoort** en **Verkoopcode** de waarden in van de oorspronkelijke verkoopprijzen die u wilt kopiëren.  
-4.  Gebruik in het bovenste gedeelte van het aanvraagvenster de velden **Verkoopsoort** en **Verkoopcode** om aan te geven waarnaar u de verkoopprijzen wilt kopiëren.  
+4.  Gebruik in het bovenste gedeelte van de aanvraagpagina de velden **Verkoopsoort** en **Verkoopcode** om aan te geven waarnaar u de verkoopprijzen wilt kopiëren.  
 5.  Als u nieuwe prijzen wilt maken met de batchverwerking, schakelt u het selectievakje **Nieuwe prijzen maken** in.  
-6.  Klik op **OK** om de nieuwe prijsvoorstellen in te vullen in het venster **Verkoopprijsvoorstel**. Hiermee geeft u aan dat deze prijzen geldig zijn voor de geselecteerde **Verkoopsoort**.  
+6.  Klik op **OK** om de nieuwe prijsvoorstellen in te vullen op de pagina **Verkoopprijsvoorstel**. Hiermee geeft u aan dat deze prijzen geldig zijn voor de geselecteerde **Verkoopsoort**.  
 
 > [!NOTE]  
->  Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u de voorstellen wilt toepassen, voegt u de gegevens in de tabel **Verkoopprijzen** in. Hiervoor kunt u de batchverwerking **Prijsaanpassing doorvoeren** gebruiken onder **Acties**, in de groep **Functies** in het venster **Verkoopprijsvoorstel**.
+>  Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u de voorstellen wilt toepassen, voegt u de gegevens in de tabel **Verkoopprijzen** in. Hiervoor kunt u de batchverwerking **Prijsaanpassing doorvoeren** gebruiken onder **Acties**, in de groep **Functies** op de pagina **Verkoopprijsvoorstel**.
 
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  

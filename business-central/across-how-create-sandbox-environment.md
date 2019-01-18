@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ U moet een abonnement op [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben om e
 6. Boven in het rolcentrum verschijnt een bericht om u te laten weten dat dit een sandboxomgeving is. Ook in de titelbalk van de client wordt de soort omgeving weergegeven.
 ![Bericht in rolcentrum van sandbox](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 In de sandboxomgeving wordt een gloednieuwe tenant gemaakt. Deze tenant wordt geladen met standaarddemonstratiegegevens voor het CRONUS-bedrijf. Tijdens het maken van de sandbox worden er geen gegevens gekopieerd of anderszins overgebracht vanuit de productieomgeving.
-7.  U kunt op elk moment terugkeren naar het venster **Sandboxomgeving** en de sandboxomgeving herstellen.
+7.  U kunt op elk moment terugkeren naar de pagina **Sandboxomgeving** en de sandboxomgeving herstellen.
 > [!NOTE]  
 >  Wanneer u de sandboxomgeving herstelt, wordt deze volledig verwijderd en vervolgens opnieuw gemaakt met de standaarddemonstratiegegevens.  
 
@@ -58,7 +58,7 @@ In een sandboxomgeving is de functie voor in-clientontwerper ingeschakeld. U kun
 ![In-clientontwerper](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
-Het is mogelijk om de geavanceerde (volledige) functionaliteit van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen door het veld **Ervaring** in het venster **Bedrijfsgegevens** in te stellen.
+Het is mogelijk om de geavanceerde (volledige) functionaliteit van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen.
 
 ![Geavanceerde sandboxomgeving](./media/across-sandbox/sandbox-advanced.png)
 

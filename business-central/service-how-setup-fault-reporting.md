@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,15 +36,15 @@ Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernome
     |Probleem + symptoom. | U geeft een combinatie van codes op in de tabellen **Probleemcodes** en **Symptoomcodes**. Veelvoorkomende symptoomcodes kunnen bijvoorbeeld bestaan uit indicaties die een klant kan gebruiken om een probleem te beschrijven, zoals een geluid of kwaliteit.|  
     |Probleem + symptoom + gebied | U gebruikt probleem-, symptoom- en probleemgebiedcodes als een implementatie van IRIS, het internationale systeem voor reparatiecodes.|  
 
-Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke reparaties of oplossingen aan een probleem of defect zijn gekoppeld. U stelt dit in het venster **Relaties probleem-/oplossingscodes** in, waar u combinaties van codes instelt voor de serviceartikelgroep van het serviceartikel van waaruit u het venster hebt geopend. Tevens wordt aangegeven hoe vaak elke combinatie voorkomt.
+Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke reparaties of oplossingen aan een probleem of defect zijn gekoppeld. U stelt dit in op de pagina **Relaties probleem-/oplossingscodes**, waar u combinaties van codes instelt voor de serviceartikelgroep van het serviceartikel van waaruit u het venster hebt geopend. Tevens wordt aangegeven hoe vaak elke combinatie voorkomt.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Relaties tussen probleem- en oplossingscodes maken
-<!--this needs to go in a working with topic--> Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen in het venster **Rel. probleem-/oplossingscodes**.
+<!--this needs to go in a working with topic--> Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen op de pagina **Rel. probleem-/oplossingscodes**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rel. probleem-/oplossingscodes invoegen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer datums in om de periode op te geven die u in de batchverwerking wilt opnemen.  
 3. Schakel het selectievakje **Relatie op basis van serviceartikelgroep** in als u de relaties wilt rangschikken op serviceartikelgroep.  
-4. Schakel het selectievakje **Handmatig ingevoegde records behouden** in als u de records wilt bewaren die u handmatig in het venster **Rel. probleem-/oplossingscodes** hebt ingevoegd.  
+4. Schakel het selectievakje **Handmatig ingevoegde records behouden** in als u de records wilt bewaren die u handmatig op de pagina **Rel. probleem-/oplossingscodes** hebt ingevoegd.  
 
 ## <a name="see-also"></a>Zie ook
 [CRM - Service instellen](service-setup-service.md)  

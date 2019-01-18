@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Ontwerpdetails: Gemiddelde kostprijs
@@ -23,7 +23,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
  De herwaarderingsdatum wordt automatisch ingesteld.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Berekening voor de gemiddelde kosten instellen  
- In de volgende tabel worden de twee velden in het venster **Voorraadinstelling** beschreven die moet worden ingevuld om berekening van de gemiddelde kosten mogelijk te maken.  
+ In de volgende tabel worden de twee velden op de pagina **Voorraadinstelling** beschreven die moet worden ingevuld om berekening van de gemiddelde kosten mogelijk te maken.  
 
 |Veld|Omschrijving|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 > [!NOTE]  
 >  U kunt slechts één periode voor gemiddelde kostprijsberekening en één soort berekening voor de gemiddelde kostprijs gebruiken in een boekjaar.  
 >   
->  Het venster **Boekingsperioden** toont welke gemiddelde periode voor kostprijsberekeningen en welk soort berekening voor de gemiddelde kosten actief is gedurende die periode, voor elke boekhoudperiode.  
+>  De pagina **Boekingsperioden** toont welke gemiddelde periode voor kostprijsberekeningen en welk soort berekening voor de gemiddelde kosten actief is gedurende die periode, voor elke boekhoudperiode.  
 
 ## <a name="calculating-average-cost"></a>Gemiddelde kosten berekenen  
  Wanneer u een transactie boekt voor een artikel dat de waarderingsmethode Gemiddeld gebruikt, wordt een post gemaakt in de tabel **Gem. kostprijsaanpassing invoerhaven**. Deze post bevat het artikelnummer, de variantcode en de vestigingscode van de transactie. De vermelding bevat ook het veld **Waarderingsdatum**, dat de laatste datum opgeeft van de periode voor gemiddelde kostprijsberekening waarin de transactie is geboekt.  
@@ -51,7 +51,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
  De berekende gemiddelde kosten worden vervolgens vereffend met de afname van de voorraad voor het artikel (of artikel, vestiging en variant) met boekingsdatums in de periode voor gemiddelde kostprijsberekening. Als er positieve voorraadmutaties bestaan die vast zijn vereffend met negatieve voorraadmutaties in de periode voor gemiddelde kosten, worden de berekende gemiddelde kosten van de positieve mutatie naar de negatieve doorgestuurd.  
 
 ### <a name="example-average-cost-period--day"></a>Voorbeeld: Periode gemiddelde kostprijsberekening = Dag  
- In het volgende voorbeeld wordt het effect getoond van het berekenen van de gemiddelde kosten op basis van een periode voor gemiddelde kosten van één dag. Het veld **Gem. kostprijsberekeningsoort** in het venster **Voorraadinstelling** is ingesteld op **Artikel**.  
+ In het volgende voorbeeld wordt het effect getoond van het berekenen van de gemiddelde kosten op basis van een periode voor gemiddelde kosten van één dag. Het veld **Gem. kostprijsberekeningsoort** op de pagina **Voorraadinstelling** is ingesteld op **Artikel**.  
 
  De volgende tabel toont artikelposten voor het voorbeeldartikel van gemiddelde kostprijsberekening, ART1, voordat de batchverwerking **Kostprijs herwaarderen - Artikelposten** is uitgevoerd.  
 
@@ -88,7 +88,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 |03-02-20|Verkoop|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Voorbeeld: Periode gemiddelde kostprijsberekening = Maand  
- In het volgende voorbeeld wordt het effect getoond van het berekenen van de gemiddelde kosten op basis van een periode voor gemiddelde kosten van één maand. Het veld **Gem. kostprijsberekeningsoort** in het venster **Voorraadinstelling** is ingesteld op **Artikel**.  
+ In het volgende voorbeeld wordt het effect getoond van het berekenen van de gemiddelde kosten op basis van een periode voor gemiddelde kosten van één maand. Het veld **Gem. kostprijsberekeningsoort** op de pagina **Voorraadinstelling** is ingesteld op **Artikel**.  
 
  Als de gemiddelde-kostprijsperiode één maand is, wordt één post gemaakt voor elke combinatie van artikelnummer, variant, vestigingscode en waarderingsdatum.  
 

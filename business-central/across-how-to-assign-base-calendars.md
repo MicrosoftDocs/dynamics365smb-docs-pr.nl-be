@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Basisagenda's instellen
@@ -27,7 +27,7 @@ U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zo
 2.  Kies de actie **Nieuw**.  
 3.  Vul het veld **Code** in.  
 4. Kies de actie **Basisagendawijzigingen bewerken**.
-5. Gebruik in het venster **Basisagendawijzigingen** het veld **Periodiek systeem** om een bepaalde datum of dag te markeren als terugkerende vrije dag. U kunt de optie **Jaarlijks** of **Wekelijks** selecteren.  
+5. Gebruik op de pagina **Basisagendawijzigingen** het veld **Periodiek systeem** om een bepaalde datum of dag te markeren als terugkerende vrije dag. U kunt de optie **Jaarlijks** of **Wekelijks** selecteren.  
 
     Als u **Jaarlijks** selecteert, moet u ook de relevante datum invoeren in het veld **Datum**.  
 
@@ -37,7 +37,7 @@ Wanneer u een post aanmaakt, wordt het veld **Vrije dag** geselecteerd. U deze i
  Wanneer u teruggaat naar de basisagendakaart, ziet u dat de posten voor vrije dagen die u hebt gemaakt, zijn bijgewerkt. Deze posten worden nu in het rood weergegeven en het veld **Vrije dag** is geselecteerd.  
 
 > [!NOTE]  
->  Wanneer u een nieuwe basisagenda instelt, kunt u regels selecteren en kopiëren vanuit een bestaande agenda. U kunt dit doen in het bijbehorende venster **Basisagendawijzigingen**.  
+>  Wanneer u een nieuwe basisagenda instelt, kunt u regels selecteren en kopiëren vanuit een bestaande agenda. U kunt dit doen op de bijbehorende pagina **Basisagendawijzigingen**.  
 
 > [!IMPORTANT]  
 >  Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.
@@ -57,7 +57,7 @@ Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt m
 > [!Important]
 > Als uw locatie gebruikmaakt van een sterk afwijkende agenda van die van uw leveranciers, is het belangrijk specifieke agenda´s voor deze leveranciers in te stellen, om optimale doorlooptijden voor de leveranciers te berekenen. Zie de sectie Een basisagenda toewijzen voor informatie over het instellen van leveranciersagenda's.
 
-De inhoud van het veld **Levertermijn** wordt gekopieerd uit de artikelkaart of de SKU-kaart, als de doorlooptijd is gedefinieerd voor het artikel, of in het venster **Artikelleveranciers** als de doorlooptijd voor de leverancier is gedefinieerd.
+De inhoud van het veld **Levertermijn** wordt gekopieerd uit de artikelkaart of de SKU-kaart, als de doorlooptijd is gedefinieerd voor het artikel, of op de pagina **Artikelleveranciers** als de doorlooptijd voor de leverancier is gedefinieerd.
 
 ## <a name="to-customize-a-calendar"></a>Een agenda aanpassen
 De belangrijkste taak bij het aanpassen van een basisagenda voor uw bedrijf of voor een van uw zakelijke partners is het invoeren van wijzigingen in de statuswaarden Werkdag en Vrije dag.
@@ -68,7 +68,7 @@ In de volgende procedure wordt de vestiging als voorbeeld gebruikt. De taak Een 
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt bijwerken en selecteer het veld **Gepersonaliseerde agenda**. Houd er rekening mee dat een agenda moet worden geselecteerd in het veld **Basisagendacode**.
-3. In het venster **Gepersonaliseerde agendaposten** kiest u de actie **Gepers. agendawijzigingen bewerken**.
+3. Op de pagina **Gepersonaliseerde agendaposten** kiest u de actie **Gepers. agendawijzigingen bewerken**.
 4. In het venster **Gepersonaliseerde agendawijzigingen** voegt u regels toe voor gepersonaliseerde agendaposten.
 
     Wanneer u een regel invoert, is het selectievakje **Vrije dag** ingeschakeld. U kunt het selectievakje uitschakelen als u de status wilt wijzigen in Werkdag.
@@ -79,7 +79,7 @@ In de volgende procedure wordt de vestiging als voorbeeld gebruikt. De taak Een 
 
 5. Kies de knop **OK**.
 
-In het venster **Gepersonaliseerde agendaposten** kunt u zien dat de datumposten worden bijgewerkt met de wijzigingen die u hebt aangebracht.
+Op de pagina **Gepersonaliseerde agendaposten** kunt u zien dat de datumposten worden bijgewerkt met de wijzigingen die u hebt aangebracht.
 
 Op de vestigingskaart ziet u dat het veld **Gepersonaliseerde agenda** de waarde **Ja** bevat, ten teken dat er een gepersonaliseerde agenda is ingesteld.
 
@@ -100,7 +100,7 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 -   Op de kaarten **Bedrijfsgegevens** en **Klant** wordt de basisagenda toegewezen op het sneltabblad **Verzending**.  
 -   Op de kaart **Leverancier** wordt de basisagenda toegewezen op het sneltabblad **Ontvangen**.  
 -   Op de kaart **Vestiging** wordt de basisagenda toegewezen op het sneltabblad **Magazijn**.  
--   In het venster **Expediteurs** wordt de basisagenda toegewezen in het venster **Expediteurservices**.  
+-   Op de pagina **Expediteurs** wordt de basisagenda toegewezen op de pagina **Expediteurservices**.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de **Klantenkaart** waarvoor u een aangepaste agenda wilt instellen.  

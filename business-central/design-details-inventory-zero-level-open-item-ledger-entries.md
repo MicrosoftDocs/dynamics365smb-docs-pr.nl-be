@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
@@ -102,7 +102,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Voor scenario 1 identificeert u het probleem als volgt:  
 
--   Voer in het venster **Geboekte verkoopcreditnota** of **Geboekte retourontvangst** een opzoekactie uit vanuit het veld **Vereffenen met artikelpost** om te zien of het veld wordt ingevuld, en in dat geval met welke artikelpost de retourontvangst wordt kostenvereffend.  
+-   Voer op de pagina **Geboekte verkoopcreditnota** of **Geboekte retourontvangst** een opzoekactie uit vanuit het veld **Vereffenen met artikelpost** om te zien of het veld wordt ingevuld, en in dat geval met welke artikelpost de retourontvangst wordt kostenvereffend.  
 
  Voor scenario 2 identificeert u het probleem op een van de volgende manieren:  
 
@@ -113,10 +113,10 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 |333|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|-1|-10|-1|-1|Ja|Nr.|  
 |334|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|1|10|1|1|Ja|**Ja**|  
 
--   Voer in het venster **Geboekte verkoopverzending** een opzoekactie uit vanuit het veld **Vereffenen met artikelpost** om te zien of het veld gevuld is en in dat geval met welke artikelpost de retourontvangst wordt kostenvereffend.  
+-   Voer op de pagina **Geboekte verkoopverzending** een opzoekactie uit vanuit het veld **Vereffenen met artikelpost** om te zien of het veld gevuld is en in dat geval met welke artikelpost de retourontvangst wordt kostenvereffend.  
 
 > [!NOTE]  
->  Kostenvereffeningen kunnen niet worden geïdentificeerd in het venster **Vereffende artikelposten** omdat dat venster alleen aantalvereffeningen weergeeft.  
+>  Kostenvereffeningen kunnen niet worden geïdentificeerd op de pagina **Vereffende artikelposten** omdat die pagina alleen aantalvereffeningen weergeeft.  
 
  Voor beide scenario's identificeert u de betrokken kostenvereffening als volgt:  
 
@@ -138,7 +138,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
  Hierboven wordt inkomende artikelpost 334 kostenvereffend met uitgaande artikelpost 333.  
 
 ## <a name="workaround-for-the-issue"></a>Oplossing voor het probleem  
- Boek in het venster **Artikeldagboek** de volgende regels voor het betreffende artikel:  
+ Boek op de pagina **Artikeldagboek** de volgende regels voor het betreffende artikel:  
 
 -   Een positieve correctie om de openstaande uitgaande artikelpost te sluiten.  
 

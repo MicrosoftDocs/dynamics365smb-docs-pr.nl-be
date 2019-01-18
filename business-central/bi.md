@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
@@ -25,7 +25,7 @@ Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse act
 De dimensiefunctionaliteit speelt een belangrijke rol in bedrijfsinformatie. Een dimensie bestaat uit gegevens die u kunt toevoegen aan een post als een soort markering. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. U kunt dimensies ook gebruiken wanneer u analyseweergaven definieert en wanneer u rapportageschema's voor rapportage maakt. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
 
 > [!TIP]
-> Als snelle manier om transactiegegevens te analyseren per dimensie kunt u totalen in het rekeningschema en posten in de vensters **Posten** filteren op dimensie. Zoek de actie **Dimensiefilter instellen**.  
+> Als snelle manier om transactiegegevens te analyseren per dimensie kunt u totalen in het rekeningschema en posten op de pagina's **Posten** filteren op dimensie. Zoek de actie **Dimensiefilter instellen**.  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 

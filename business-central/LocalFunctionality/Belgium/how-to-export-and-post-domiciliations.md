@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940496c083e342f1ee88aecbfe0ad449ff830d65
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ee1754fa3b8b783594d3a68886a941564ea6fdc3
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
@@ -25,16 +25,16 @@ ms.lasthandoff: 03/22/2018
 
 U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.  
 
-Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA** in het venster **Bankrekeningkaart**, wordt met de actie **Bestandsdomiciliëringen** een van deze aanvraagpagina's geopend:  
+Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA** op de pagina **Bankrekeningkaart**, wordt met de actie **Bestandsdomiciliëringen** een van deze aanvraagpagina's geopend:  
 
-- Het venster **Dagboekregels maken**, voor de indeling SEPA Incasso.  
-- Het venster **Bestandsdomiciliëringen**, voor binnenlandse indelingen.  
+- De pagina **Dagboekregels maken**, voor de indeling SEPA Incasso.  
+- De pagina **Bestandsdomiciliëringen**, voor binnenlandse indelingen.  
 
 ## <a name="to-export-and-post-domiciliations-in-sepa-format"></a>Domiciliëringen exporteren en boeken in SEPA-indeling  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Bestandsdomiciliëringen**.  
-3.  Selecteer in het venster **Dagboekregels maken** het sneltabblad **Opties** en vul de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Selecteer op de pagina **Dagboekregels maken** het sneltabblad **Opties** en vul de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -49,13 +49,13 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
     Als u het selectievakje **Dagboekregels boeken** niet hebt ingeschakeld, moet u de domiciliëringen handmatig in het dagboek boeken.  
 
     > [!NOTE]  
-    >  Nadat u domiciliëringen in het dagboek hebt geboekt, verwijdert u de geboekte domiciliëringen in het venster **Domiciliëringsdagboek**. Hiervoor selecteert u alle regels met de status **Geboekt** en kiest u de knop **Verwijderen**.  
+    >  Nadat u domiciliëringen in het dagboek hebt geboekt, verwijdert u de geboekte domiciliëringen op de pagina **Domiciliëringsdagboek**. Hiervoor selecteert u alle regels met de status **Geboekt** en kiest u de knop **Verwijderen**.  
 
 ## <a name="to-export-and-post-domiciliations-in-isabel-format"></a>Domiciliëringen exporteren en boeken in Isabel-indeling  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Bestandsdomiciliëringen**.  
-3.  Selecteer in het venster **Bestandsdomiciliëringen** het sneltabblad **Opties** en vul de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Selecteer op de pagina **Bestandsdomiciliëringen** het sneltabblad **Opties** en vul de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -73,7 +73,7 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
     Als u het selectievakje **Dagboekregels boeken** niet hebt ingeschakeld, moet u de domiciliëringen handmatig in het dagboek boeken.  
 
     > [!NOTE]  
-    >  Nadat u domiciliëringen in het dagboek hebt geboekt, verwijdert u de geboekte domiciliëringen in het venster **Domiciliëringsdagboek**. Hiervoor selecteert u alle regels met de status **Geboekt** en kiest u de knop **Verwijderen**.  
+    >  Nadat u domiciliëringen in het dagboek hebt geboekt, verwijdert u de geboekte domiciliëringen op de pagina **Domiciliëringsdagboek**. Hiervoor selecteert u alle regels met de status **Geboekt** en kiest u de knop **Verwijderen**.  
 
 ## <a name="see-also"></a>Zie ook  
  [Incasso via domiciliëring](direct-debit-using-domiciliation.md)   

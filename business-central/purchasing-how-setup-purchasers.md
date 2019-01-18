@@ -13,24 +13,24 @@ ms.search.keywords: purchasing agent
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d3fd3e614ae636db8a2be0364892cceb104fe878
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 508d475ff204d75df70511ab2f4e7de225cd8207
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-purchasers"></a>Inkopers instellen
-Als er verschillende inkopers bij uw bedrijf werken, kunt u deze in een venster instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.
+Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.
 
 ## <a name="to-set-up-purchasers"></a>Inkopers instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers/Inkopers** in en kies vervolgens de gerelateerde koppeling.
-2. Kies in het venster **Verkopers/Inkopers** de actie **Nieuw**.
-3. Vul in de velden in het venster **Verkopers/Inkopers** de gewenste waarden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Kies op de pagina **Verkopers/Inkopers** de actie **Nieuw**.
+3. Vul in de velden op de pagina **Verkopers/Inkopers** de gewenste waarden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Inkopers toewijzen aan leveranciers
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart voor de leverancier waaraan een inkoper wordt toegewezen.
-3. Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens het venster.
+3. Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens de pagina.
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop instellen](purchasing-setup-purchasing.md)  

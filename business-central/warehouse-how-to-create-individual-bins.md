@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bins"></a>Opslaglocaties maken
-De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart. U kunt ook een functie in het venster **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.  
+De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart. U kunt ook een functie op de pagina **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Een opslaglocatie maken vanaf de vestigingskaart  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies de gerelateerde koppeling.  
@@ -39,13 +39,13 @@ Voordat u begint met het automatisch maken van opslaglocaties, moet u bepalen we
 > [!NOTE]  
 >  Zodra een opslaglocatie in gebruik is, kunt u deze alleen nog verwijderen als de opslaglocatie leeg is. Als u de namen van de huidige opslaglocaties echter wilt wijzigen, kunt u de artikelen naar een nieuw opslaglocatiesysteem verplaatsen met behulp van het herindelingsdagboek. Dit is een handmatig proces dat veel tijd in beslag neemt. U kunt de opslaglocaties daarom het beste vanaf het begin af aan correct instellen.  
 
-Voor gebruik van het venster **Voorstel opslaglocatieaanmaak** moet u zijn ingesteld als magazijnmedewerker op de locatie waar de opslaglocaties bestaan. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).    
+Voor gebruik van de pagina **Voorstel opslaglocatieaanmaak** moet u zijn ingesteld als magazijnmedewerker op de locatie waar de opslaglocaties bestaan. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatieaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocaties berekenen**.
-3. Selecteer in het venster **Opslaglocaties berekenen** in het veld **Opslaglocatiesjabloon** de sjabloon waarop u de overige opslaglocaties wilt baseren.
+3. Selecteer op de pagina **Opslaglocaties berekenen** in het veld **Opslaglocatiesjabloon** de sjabloon waarop u de overige opslaglocaties wilt baseren.
 4.  Voer een omschrijving in voor de opslaglocaties die u wilt maken.  
-5.  Als u de opslaglocaties te maken, vult u de velden **Van nr.** en **Tot nr.** in in de drie categorieën die in het venster worden weergegeven: **Rek**, **Sectie** en **Niveau**. De naam van een opslaglocatie kan uit maximaal 20 tekens bestaan.  
+5.  Als u de opslaglocaties te maken, vult u de velden **Van nr.** en **Tot nr.** in in de drie categorieën die op de pagina worden weergegeven: **Rek**, **Sectie** en **Niveau**. De naam van een opslaglocatie kan uit maximaal 20 tekens bestaan.  
 
     > [!NOTE]  
     >  het aantal tekens dat u in de drie categorieën voor een veld hebt ingevoerd (bijvoorbeeld het aantal tekens dat u hebt ingevoerd in de drie velden **Van nr.**) mag niet groter zijn dan 20 (inclusief eventuele scheidingstekens).  

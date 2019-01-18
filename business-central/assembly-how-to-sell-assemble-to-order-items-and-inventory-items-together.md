@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
@@ -31,7 +31,7 @@ Soortgelijke flexibiliteit bestaat wanneer u artikelen verkoopt die samengesteld
 >  De volgende procedure bevat niet de standaard verkooporderstappen die u moet volgen voordat u een assemblageorder kunt maken voor hoeveelheden die niet beschikbaar zijn.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen  
-1.  Op de verkooporderregel voor een artikel dat in voorraad moet worden geassembleerd voert u in het veld **Hoeveelheid** een hoeveelheid in dat groter is dan de voorraad. Het venster **Beschikbaarheid controleren** verschijnt. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
+1.  Op de verkooporderregel voor een artikel dat in voorraad moet worden geassembleerd voert u in het veld **Hoeveelheid** een hoeveelheid in dat groter is dan de voorraad. De pagina **Beschikbaarheid controleren** verschijnt. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 2.  Let op het veld **Totaal aantal** (een negatieve waarde), die u in de volgende stap invoert.  
 3.  Voer de waarde uit de vorige stap in het veld **Aantal voor op order assembleren** .  
 4.  Wijzigingen in de assemblagecomponenten uitvoeren. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  

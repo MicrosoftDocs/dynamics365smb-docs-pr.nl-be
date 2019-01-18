@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Werken met verkoopraamcontracten
@@ -42,7 +42,7 @@ Een verkoopraamcontract kan bijvoorbeeld worden gebruikt als een klant belt om e
 2.  Wanneer u klaar bent om orders te maken, kiest u de actie **Order maken** en klikt u vervolgens op **Ja**. Er wordt een bericht weergegeven waarin u wordt meegedeeld dat aan het raamcontract een ordernummer is toegewezen. Het raamcontract is echter niet verwijderd.  
 3.  Kies de knop **OK**.  
 4.  Als u de resultaten wilt zien van de voorgaande stappen, kiest u eerst de actie **Regel**, vervolgens de actie **Ongeboekte regels** en daarna de actie **Orders**.  
-5.  Selecteer in het venster **Verkoopregels** de gewenste verkooporder. Klik op de actie **Regel** en vervolgens op de actie **Document weergeven**.  
+5.  Selecteer op de pagina **Verkoopregels** de gewenste verkooporder. Klik op de actie **Regel** en vervolgens op de actie **Document weergeven**.  
 
 Het volgende geldt voor verkooporders nadat ze zijn gemaakt uit verkoopraamcontracten:  
 
@@ -53,14 +53,14 @@ Het volgende geldt voor verkooporders nadat ze zijn gemaakt uit verkoopraamcontr
 - Als verkooporders niet rechtstreeks vanuit het raamcontract worden gemaakt maar er wel aan gerelateerd zijn, kan er een koppeling worden gemaakt tussen een verkooporder en een raamcontract door het gekoppelde raamcontractnummer in te voeren in het veld **Raamcontractnr.** op de verkooporderregel. op de verkooporderregel.  
 - Nadat u de verkooporder hebt gemaakt voor het totale aantal van een raamcontractregel, kunt u geen andere verkooporder voor dezelfde regel maken. Voorkomt dat gebruikers een aantal in het veld **Te verzenden aantal** invoeren. Als er echter aanvullende aantallen moeten worden toegevoegd aan een raamcontract, kan de waarde in het veld **Aantal** worden verhoogd, waarna er extra orders kunnen worden gemaakt.  
 - Het gefactureerde verkoopraamcontract blijft in het systeem aanwezig totdat het wordt verwijderd, hetzij door afzonderlijke raamcontracten te verwijderen, hetzij door de batchverwerking **Gefact. raamcontracten verwijderen** uit te voeren.  
-- Wanneer een klant ook als contact is vastgelegd in de module Marketing en u een interactiesjablooncode voor een verkoopraamcontract hebt opgegeven in het venster **Marketinginstellingen**, wordt zodra u op **Afdrukken** klikt om het verkoopraamcontract af te drukken, automatisch een interactie in de tabel Interactielogpost vastgelegd.
+- Wanneer een klant ook als contact is vastgelegd in de module Marketing en u een interactiesjablooncode voor een verkoopraamcontract hebt opgegeven op de pagina **Marketinginstellingen**, wordt zodra u op **Afdrukken** klikt om het verkoopraamcontract af te drukken, automatisch een interactie in de tabel Interactielogpost vastgelegd.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>De status van een inkoopraamcontract weergeven  
-U kunt de status van een verkoopraamcontract in het venster **Verkooporderstatistiek** bekijken. Dit kan nodig zijn wanneer u de order die is gemaakt vanuit het inkoopraamcontract gaat factureren.  
+U kunt de status van een verkoopraamcontract op de pagina **Verkooporderstatistiek** bekijken. Dit kan nodig zijn wanneer u de order die is gemaakt vanuit het inkoopraamcontract gaat factureren.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een verkoopraamcontract en kies de actie **Statistieken**.  
-3.  Op het sneltabblad **Algemeen** in het venster **Inkooporderstatistiek** kunt u een samenvatting van de hele order bekijken, gebaseerd op het totaal van alle velden **Aantal** op de inkoopraamcontractregels.  
+3.  Op het sneltabblad **Algemeen** op de pagina **Inkooporderstatistiek** kunt u een samenvatting van de hele order bekijken, gebaseerd op het totaal van alle velden **Aantal** op de raamcontractregels.  
 
     - Op het sneltabblad **Facturering** kunt u een samenvatting bekijken gebaseerd op het totaal van de velden **Te factureren aantal** op de inkoopraamcontractregels.  
     - Op het sneltabblad **Verzending** kunt u een samenvatting bekijken gebaseerd op het totaal van de velden **Te ontvangen aantal** op de inkoopraamcontractregels.  
@@ -120,7 +120,7 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
     <td>Geboekte creditnota's die zijn gerelateerd aan de geselecteerde regel.</td>
     </tr>
     </table>
-5. Kies in het venster **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
+5. Kies op de pagina **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Procedure: Inkomsten en kosten uitstellen
@@ -36,12 +36,12 @@ Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitstelsjablonen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in.
-4. Geef in het veld **Berekeningsmethode** op hoe het veld **Bedrag** voor elke periode in het venster **Uitstelschema** wordt berekend. U hebt de volgende mogelijkheden:
+4. Geef in het veld **Berekeningsmethode** op hoe het veld **Bedrag** voor elke periode op de pagina **Uitstelschema** wordt berekend. U hebt de volgende mogelijkheden:
 
    * **Lineair**: de periodieke uitstelbedragen worden berekend volgens het aantal perioden, verdeeld volgens de periodelengte.
    * **Gelijk per periode**: de periodieke uitstelbedragen worden berekend volgens het aantal perioden, gelijkelijk verdeeld over perioden.
    * **Dagen per periode**: de periodieke uitstelbedragen worden berekend volgens het aantal dagen in de periode.
-   * **Door gebruiker gedefinieerd**: de periodieke uitstelbedragen worden niet berekend. U moet het veld **Bedrag** handmatig invullen voor elke periode in het venster Uitstelschema. Zie voor meer informatie het gedeelte "Een uitstelschema wijzigen vanuit een verkoopfactuur".
+   * **Door gebruiker gedefinieerd**: de periodieke uitstelbedragen worden niet berekend. U moet het veld **Bedrag** handmatig invullen voor elke periode op de pagina Uitstelschema. Zie voor meer informatie het gedeelte "Een uitstelschema wijzigen vanuit een verkoopfactuur".
 5. Geef in het veld **Periodebeschrijving** een omschrijving op die wordt weergegeven op posten voor de uitstelboeking. U kunt de volgende codes voor tijdelijke aanduidingen invoeren voor veel voorkomende waarden, die automatisch worden ingevoegd wanneer de periodebeschrijving wordt weergegeven.
 
    * %1 = het dagnummer van de periodeboekingsdatum
@@ -67,7 +67,7 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u "Kosten uitgesteld voor %4 %6" 
 
     U ziet dat wanneer u het artikel (of de bron of grootboekrekening) op de factuurregel invoert, het veld **Uitstelcode** wordt gevuld met de code van de toegewezen uitstelsjabloon.
 3. Kies de actie **Uitstelschema**.
-4. Wijzig in het veld **Uitstelschema** instellingen in de kop of waarden op de regels, bijvoorbeeld om het bedrag naar een extra boekhoudperiode uit te stellen.
+4. Wijzig op de pagina **Uitstelschema** instellingen in de kop of waarden op de regels, bijvoorbeeld om het bedrag naar een extra boekhoudperiode uit te stellen.
 5. Kies de actie **Schema berekenen**.
 6. Kies de knop **Ok**. Het uitstelschema wordt bijgewerkt voor de verkoopfactuur. De relateerde uitstelsjabloon is ongewijzigd.
 
@@ -75,8 +75,8 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u "Kosten uitgesteld voor %4 %6" 
 > [!NOTE]  
 >   De stappen in deze procedure zijn hetzelfde als wanneer u bekijkt hoe uitgestelde onkosten worden geboekt.
 
-1. Kies in het venster **Verkoopfactuur** de actie **Voorbeeld van boeking weergeven**.
-2. Kies in het venster **Voorbeeld van boeking weergeven** de actie **Grootboekpost** en kies vervolgens de actie **Verwante posten weergeven**.
+1. Kies op de pagina **Verkoopfactuur** de actie **Voorbeeld van boeking weergeven**.
+2. Kies op de pagina **Voorbeeld van boeking weergeven** de actie **Grootboekpost** en kies vervolgens de actie **Verwante posten weergeven**.
 
 Grootboekposten die naar de opgegeven uitstelrekening moeten worden geboekt, bijvoorbeeld Niet-gerealiseerde inkomsten, worden aangeduid door de omschrijving die u in het veld **Periodebeschrijving** in de uitstelsjabloon hebt ingevoerd, bijvoorbeeld "Uitgestelde kosten voor februari 2016".
 
@@ -85,7 +85,7 @@ Grootboekposten die naar de opgegeven uitstelrekening moeten worden geboekt, bij
 >   De stappen in deze procedure zijn hetzelfde als wanneer u het rapport Overzicht van inkoopuitstel bekijkt.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Overzicht van verkoopuitstel** in en kies vervolgens de gerelateerde koppeling.
-2. Voer in het venster **Overzicht van verkoopuitstel** in het veld **Saldo per** de datum in tot wanneer u uitgestelde inkomsten wilt zien.
+2. Voer op de pagina **Overzicht van verkoopuitstel** in het veld **Saldo per** de datum in tot wanneer u uitgestelde inkomsten wilt zien.
 3. Kies de knop **Voorbeeld**.
 
 ## <a name="see-also"></a>Zie ook

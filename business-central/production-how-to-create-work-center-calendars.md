@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Productieagenda's instellen
@@ -39,7 +39,7 @@ Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcod
 2.  Geef op een lege regel in het veld **Code** een nummer op ter aanduiding van de productieagenda.  
 3.  Beschrijf de productieagenda in het veld **Omschrijving**.  
 4.  Kies de actie **Werkdagen**.
-5.  Geef in het venster **Productieagendawerkdagen** een volledige werkweek, met de begin- en eindtijden voor elke dag, op.  
+5.  Geef op de pagina **Productieagendawerkdagen** een volledige werkweek, met de begin- en eindtijden voor elke dag, op.  
 
     Selecteer in het veld **Ploeg** een van de ploegen die u eerder hebt gedefinieerd. Voeg een regel toe voor elke werkdag en elke ploeg. Voorbeeld:  
 
@@ -55,10 +55,10 @@ Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcod
 
     Weekdagen die u niet in de productieagenda definieert, zoals zaterdag en zondag, worden beschouwd als niet-werkdagen en hebben in een afdelingsagenda een beschikbare capaciteit van nul.  
 
-    Wanneer alle werkdagen van een week zijn gedefinieerd, kunt u het venster **Productieagendawerkdagen** sluiten en doorgaan met het invoeren van vakanties en vrije dagen.  
+    Wanneer alle werkdagen van een week zijn gedefinieerd, kunt u de pagina **Productieagendawerkdagen** sluiten en doorgaan met het invoeren van vakanties en vrije dagen.  
 
-6.  Selecteer in het venster **Productieagenda's** de productieagenda en kies de actie **Vakantiedagen**.
-7. Definieer in het venster **Productieagendavakantiedagen** de vakantiedagen van het jaar door voor elke vakantiedag op afzonderlijke regels de begindatum en -tijd, de eindtijd en een omschrijving op te geven. Voorbeeld:  
+6.  Selecteer op de pagina **Productieagenda's** de productieagenda en kies de actie **Vakantiedagen**.
+7. Definieer op de pagina **Productieagendavakantiedagen** de vakantiedagen van het jaar door voor elke vakantiedag op afzonderlijke regels de begindatum en -tijd, de eindtijd en een omschrijving op te geven. Voorbeeld:  
 
     04 juli 2014 0:00:00 23:59:00 Zomervakantie  
     05 juli 2014 0:00:00 23:59:00 Zomervakantie  
@@ -74,12 +74,12 @@ Nu kan de productieagenda worden toegewezen aan een afdeling om de afdelingsagen
 2. Open de afdeling die u wilt bijwerken.  
 3. Geef in het veld **Productieagendacode** op welke productieagenda moet worden gebruikt als basis voor de agenda van de afdeling.  
 4. Kies de actie **Agenda**.  
-5. Kies in het venster **Afdelingsagenda** de actie **Matrix weergeven**.  
+5. Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven**.  
 
-    In het linkerdeel van het matrixvenster worden alle afdelingen weergegeven die zijn ingesteld. In het rechterdeel ziet u een agenda met daarop de beschikbare capaciteitswaarden voor elke werkdag in de gedefinieerde eenheid, bijvoorbeeld **480** minuten. Elke regel geeft de agenda van één afdeling weer.  
+    In het linkerdeel van de matrixpagina worden alle afdelingen weergegeven die zijn ingesteld. In het rechterdeel ziet u een agenda met daarop de beschikbare capaciteitswaarden voor elke werkdag in de gedefinieerde eenheid, bijvoorbeeld **480** minuten. Elke regel geeft de agenda van één afdeling weer.  
 
     > [!NOTE]  
-    >  U kunt de capaciteitswaarden voor elke week of maand ook bekijken door te schakelen tussen opties in het veld **Weergeven per** in het venster **Afdelingsagenda**.  
+    >  U kunt de capaciteitswaarden voor elke week of maand ook bekijken door te schakelen tussen opties in het veld **Weergeven per** op de pagina **Afdelingsagenda**.  
 
     Als u de nieuwe productieagenda wilt weergeven als een lijn op de geselecteerde afdeling, moet deze productieagenda eerst worden berekend.  
 
@@ -97,13 +97,13 @@ Er zijn nu agendaposten gemaakt (of bijgewerkt) waarin de beschikbare capaciteit
 De berekende afdelingsagenda bepaalt nu wanneer en hoe veel capaciteit beschikbaar is op deze afdeling. Hiermee bepaalt u de gedetailleerde planning van bewerkingen die worden uitgevoerd op de afdeling.  
 
 ## <a name="to-record-work-center-absence"></a>Afwezigheid op de afdeling registreren  
-1.  Kies in het venster **Afdelingsagenda** de actie **Matrix weergeven**.
-2. Selecteer in het venster **Afdelingsagendamatrix** de afdeling en de agendadag waarop de afwezigheid moet worden geregistreerd en kies vervolgens de actie **Afwezigheid**.  
-3.  Definieer in het venster **Afwezigheid** de begintijd, de eindtijd en de omschrijving van de afwezigheid van die dag, bijvoorbeeld: Voorbeeld:  
+1.  Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven**.
+2. Selecteer op de pagina **Afdelingsagendamatrix** de afdeling en de agendadag waarop de afwezigheid moet worden geregistreerd en kies vervolgens de actie **Afwezigheid**.  
+3.  Definieer op de pagina **Afwezigheid** de begintijd, de eindtijd en de omschrijving van de afwezigheid van die dag, bijvoorbeeld: Voorbeeld:  
 
     25 jan. 2001 08:00 10:00 Onderhoud  
 
-4.  Kies de actie **Bijwerken** en sluit vervolgens het venster **Afwezigheid**.  
+4.  Kies de actie **Bijwerken** en sluit vervolgens de pagina **Afwezigheid**.  
 
 De geregistreerde afwezigheid is nu in mindering gebracht op de capaciteit van de geselecteerde dag.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Artikelen opslaan met voorraadopslag
@@ -24,7 +24,7 @@ Als voor uw vestiging wel een opslagverwerking, maar geen ontvangstverwerking ve
 
 U kunt een voorraadopslag op drie manieren maken:  
 
-- Maak de opslag in twee stappen door eerst een magazijnaanvraag uit het brondocument te maken, die voor het magazijn fungeert als signaal dat het brondocument gereed is voor opslag. De voorraadopslag kan vervolgens worden gemaakt vanuit het venster **Voorraadopslag** op basis van het brondocument.  
+- Maak de opslag in twee stappen door eerst een magazijnaanvraag uit het brondocument te maken, die voor het magazijn fungeert als signaal dat het brondocument gereed is voor opslag. De voorraadopslag kan vervolgens worden gemaakt vanuit de pagina **Voorraadopslag** op basis van het brondocument.  
 - Maak de voorraadopslag rechtstreeks vanuit het brondocument.  
 - Gebruik een batchverwerking om de voorraadopslag voor verschillende brondocumenten tegelijk te maken.  
 
@@ -59,13 +59,13 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadopslag m
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Meerdere voorraadopslagactiviteiten maken met een batchverwerking  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick maken** in en kies vervolgens de gerelateerde koppeling.  
-2.  Gebruik op het sneltabblad **Magazijnverzoek** van het opgevraagde venster de velden **Brondocument** en **Bronnr.** om te filteren op bepaalde soorten documenten of reeksen documentnummers.  
+2.  Gebruik op het sneltabblad **Magazijnverzoek** van de aanvraagpagina de velden **Brondocument** en **Bronnr.** om te filteren op bepaalde soorten documenten of reeksen documentnummers.  
 3.  Schakel op het sneltabblad **Opties** het selectievakje **Voorraadopslag maken** in.
 4.  Kies de knop **OK**. De opgegeven voorraadopslagactiviteiten worden gemaakt.
 
 ## <a name="to-record-the-inventory-put-away"></a>De voorraadopslag registreren  
-1. Open een eerder gemaakt opslagdocument door er een te selecteren in het venster **Voorraadopslag**.  
-2. In het veld **Opslaglocatie** op de opslagregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waarin de artikelen moeten worden opgeslagen. De opslaglocatie in dit venster kunt u desgewenst wijzigen.  
+1. Open een eerder gemaakt opslagdocument door er een te selecteren vanaf de pagina **Voorraadopslag**.  
+2. In het veld **Opslaglocatie** op de opslagregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waarin de artikelen moeten worden opgeslagen. De opslaglocatie op deze pagina kunt u desgewenst wijzigen.  
 3. Voer de opslag uit en voer het werkelijk opgeslagen aantal in het veld **Te verwerken aantal** in.
 
     Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de functie **Regel splitsen** op het sneltabblad **Regels**. Zie voor meer informatie over het splitsen van regels [Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Marketingcampagnes beheren
@@ -23,7 +23,7 @@ Als u over een krachtig marketingplan beschikt, kunt u klanten vaststellen, aant
 Elke campagne bestaat uit diverse activiteiten en taken. U kunt meerdere taken combineren, bijvoorbeeld taken die elk een stap in activiteiten vertegenwoordigen. Activiteittaken worden gerelateerd aan elkaar met een datumformule. Afzonderlijke taken kunnen alleen worden toegewezen aan verkopers. Activiteiten kunnen aan opportunities, verkopers, groepen verkopers en contacten worden toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Afzonderlijke campagnes definiëren
-Voordat u een campagne kunt maken, moet u *campagnestatuscodes* instellen. Met deze codes kunt u uw campagnes beheren door een status aan de campagne toe te wijzen. Terwijl u de fasen van een campagne doorloopt, kunt u bekijken in welke stap een campagne zich bevindt en wat de volgende stap is. U configureert campagnestatuscodes in het venster **Campagnestatus**.
+Voordat u een campagne kunt maken, moet u *campagnestatuscodes* instellen. Met deze codes kunt u uw campagnes beheren door een status aan de campagne toe te wijzen. Terwijl u de fasen van een campagne doorloopt, kunt u bekijken in welke stap een campagne zich bevindt en wat de volgende stap is. U configureert campagnestatuscodes op de pagina **Campagnestatus**.
 
 U kunt een campagnekaart maken voor elke campagne die u wilt volgen. U kunt deze campagnekaarten ook weergeven als u algemene informatie over uw campagnes wilt bekijken.
 U kunt campagneposten verwijderen, bijvoorbeeld als in de post een actie is geregistreerd die is geannuleerd. Alleen geannuleerde campagneposten kunnen worden verwijderd.
@@ -32,7 +32,7 @@ U kunt campagneposten verwijderen, bijvoorbeeld als in de post een actie is gere
 Nadat u een campagne hebt gemaakt, kunt u beginnen met het maken van segmenten die de doelgroep van de campagne specificeren. Zie [Segmenten beheren](marketing-segments.md) voor meer informatie.
 
 ### <a name="registering-discount-percentages"></a>Kortingspercentages vastleggen
-Wanneer u uw campagne hebt ingesteld en hebt besloten op welke segmenten de campagne betrekking heeft en tevens de startdatum en de einddatum hebt ingesteld, legt u vast welk kortingspercentage de klant krijgt voor de individuele artikelen op de regels in het venster **Verkoopregelkortingen**. U kunt de verkoopprijzen voor de individuele artikelen ook vastleggen in het venster **Verkoopprijzen**. U kunt beide vensters openen vanuit de campagnekaart.
+Wanneer u uw campagne hebt ingesteld en hebt besloten op welke segmenten de campagne betrekking heeft en tevens de startdatum en de einddatum hebt ingesteld, legt u vast welk kortingspercentage de klant krijgt voor de individuele artikelen op de regels op de pagina **Verkoopregelkortingen**. U kunt de verkoopprijzen voor de individuele artikelen ook vastleggen op de pagina **Verkoopprijzen**. U kunt beide pagina's openen vanuit de campagnekaart.
 
  Wanneer u verkoopprijzen/regelkortingen en de segmenten op de campagnekaart hebt ingesteld, moet u deze activeren zodat de campagneprijzen/kortingen op de regels verschijnen.
 

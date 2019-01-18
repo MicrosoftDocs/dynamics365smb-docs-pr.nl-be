@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
@@ -30,7 +30,7 @@ Als u wat hulp wilt bij het bepalen wat u met uw contant geld moet doen, kunt de
 In dit onderwerp wordt beschreven waar de gegevens in de diagrammen van afkomstig zijn en, indien nodig, wat u moet doen als u de diagrammen wilt gaan gebruiken.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>De diagrammen Cashcyclus en Inkomsten en uitgaven
-De diagrammen **Cashcyclus** en **Inkomsten en uitgaven** zijn gereed voor gebruik, gebaseerd op de rekeningschema's en rapportageschema´s. De rekeningen bevinden zich waar de gegevens uit afkomstig zijn en met rapportageschema´s wordt de relatie tussen verkopen en tegoeden berekend. Er worden enkele rekeningen en rapportageschema´s verschaft. U kunt deze ongewijzigd gebruiken, ze aanpassen en nieuwe toevoegen. Als u grootboekrekeningen toevoegt aan uw rekeningschema, bijvoorbeeld door deze te importeren uit QuickBooks, moet u een koppeling maken naar de rekeningen in het venster **Rapportageschema's** voor de volgende rapportageschemanamen:  
+De diagrammen **Cashcyclus** en **Inkomsten en uitgaven** zijn gereed voor gebruik, gebaseerd op de rekeningschema's en rapportageschema´s. De rekeningen bevinden zich waar de gegevens uit afkomstig zijn en met rapportageschema´s wordt de relatie tussen verkopen en tegoeden berekend. Er worden enkele rekeningen en rapportageschema´s verschaft. U kunt deze ongewijzigd gebruiken, ze aanpassen en nieuwe toevoegen. Als u grootboekrekeningen toevoegt aan uw rekeningschema, bijvoorbeeld door deze te importeren uit QuickBooks, moet u een koppeling maken naar de rekeningen op de pagina **Rapportageschema´s** voor de volgende rapportageschemanamen:  
 
 | Naam rapportschema | Waar het wordt gebruikt |
 | --- | --- |
@@ -68,14 +68,14 @@ De begeleide instelling gebruiken:
 1. Kies in het rolcentrum Accountant onder het diagram **Cashflowprognose** de actie **Begeleide instelling openen**.  
 2. Vul de velden in elke stap van de begeleiding in.  
 3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
-4. Kies in het venster **Cashflowprognose** de actie **Prognose herberekenen**.  
+4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 Een handmatig proces gebruiken:  
 
 1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
 2. Vouw het sneltabblad **Cortana Intelligence** uit en kies vervolgens het selectievakje **Cortana Intelligence ingeschakeld**.  
 3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
-4. Kies in het venster **Cashflowprognose** de actie **Prognose herberekenen**.  
+4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 > [!TIP]  
 >   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Cortana Intelligence niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  

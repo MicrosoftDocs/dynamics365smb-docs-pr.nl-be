@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5da3967e99bf8a1d5628159a542885ffd1113a02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b3ca863a9f4969046695e0cec16fedf6f5ac7aec
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kostenplaatsen en kostenobjecten voor rekeningschema's definiëren
@@ -39,11 +40,10 @@ Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **
 |Kostenobject|Geen|Verplicht|  
 
 > [!NOTE]  
->  Zorg ervoor dat de vooraf gedefinieerde kostenplaats en het vooraf gedefinieerde kostenobject die u in het grootboek hebt ingesteld, automatisch naar de kostprijsboekhouding worden overgedragen, door het selectievakje **GB-boekingen controleren** in het venster Instelling kostprijsboekhouding te selecteren.  
+>  Zorg ervoor dat de vooraf gedefinieerde kostenplaats en het vooraf gedefinieerde kostenobject die u in het grootboek hebt ingesteld, automatisch naar de kostprijsboekhouding worden overgedragen, door het selectievakje **GB-boekingen controleren** op de pagina Instelling kostprijsboekhouding te selecteren.  
 
 ## <a name="see-also"></a>Zie ook  
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
-[Kostenplaatsen instellen](finance-how-to-set-up-cost-centers.md)   
-[Kostenobjecten instellen](finance-how-to-set-up-cost-objects.md)  
+[Kostenboekhouding instellen](finance-set-up-cost-accounting.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

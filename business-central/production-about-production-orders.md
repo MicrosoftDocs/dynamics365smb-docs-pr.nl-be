@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
@@ -40,7 +40,7 @@ Productieorders vormen het beginpunt voor:
 -   Traceren van gereedgemelde productie  
 
 ## <a name="production-order-creation"></a>Productieorders opstellen  
-Productieorders kunnen handmatig order voor order worden opgesteld vanuit het venster **Productieorder** of kunnen worden gegenereerd vanuit het venster **Verkooporderplanning** of **Orderplanning**. Meerdere orders worden opgesteld vanuit het venster **Planningsvoorstel**.  
+Productieorders kunnen handmatig worden opgesteld op basis van order voor order vanuit de pagina **Productieorder** of kunnen worden gegenereerd vanuit de pagina **Verkooporderplanning** of **Orderplanning**. Meerdere orders worden opgesteld vanuit de pagina **Planningsvoorstel**.  
 
 Productieorders worden opgesteld met informatie uit:  
 
@@ -54,8 +54,8 @@ Productieorders worden opgesteld met informatie uit:
 Productieorders worden automatisch gereserveerd en getraceerd naar de bron wanneer:  
 
 -   Opgesteld vanuit het **Planningsvoorstel**  
--   Opgesteld met behulp van de orderfunctie in het venster **Verkooporderplanning**  
--   Opgesteld vanuit het venster **Orderplanning**  
+-   Gemaakt met behulp van de orderfunctie op de pagina **Verkooporderplanning**  
+-   Gemaakt vanuit de pagina **Orderplanning**  
 -   Met behulp van de functie **Herplannen** in productieorders  
 
 Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-demand-supply.md) voor meer informatie.
@@ -63,7 +63,7 @@ Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-deman
 Productieorders die op een andere manier tot stand komen, worden niet automatisch gereserveerd en getraceerd.   
 
 ## <a name="production-order-status"></a>Productieorderstatus  
-De productieorderstatus bepaalt hoe de productieorder wordt behandeld in het programma. De vorm en inhoud van de productie worden bepaald door de status van de order. De productieorders worden weergegeven in verschillende vensters, afhankelijk van de status. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen**.  
+De productieorderstatus bepaalt hoe de productieorder wordt behandeld in het programma. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen**.  
 
 ### <a name="simulated-production-order"></a>Gesimuleerde productieorder  
 Een gesimuleerde productieorder is uniek vanwege de volgende kenmerken:  

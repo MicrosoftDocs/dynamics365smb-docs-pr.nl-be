@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
@@ -24,20 +24,20 @@ Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruike
   
 De indicator wordt als een gekleurde balk weergegeven langs de bovenrand van de indicatiestapeltegel. Het geeft een visueel signaal van de status van de activiteit van de indicatiestapel. Het signaal kan gunstige of ongunstige condities aangeven om de gebruiker tot actie te laten overgaan. Als een indicatiestapel bijvoorbeeld doorlopende verkoopfacturen weergeeft, kunt u de indicator zo instellen dat deze groen (gunstig) is wanneer het totale aantal doorlopende verkoopfacturen kleiner is dan 10 en dat deze rood (ongunstig) is wanneer het totaal groter is dan 20.  
   
-Vanuit het venster **Instelling indicatiestapel** kunt u indicatoren instellen voor alle indicatiestapels die beschikbaar zijn in de bedrijfsdatabase. U kunt de indicatoren instellen voor alle gebruikers in het bedrijf of alleen voor een individuele gebruiker. De indicatorinstellingen in het venster **Instelling indicatiestapel** fungeren als de standaardindicatorinstellingen. Als het venster **Instelling indicatiestapel** aan gebruikers beschikbaar is gesteld, kunnen zij de indicatorinstellingen aanpassen die u in het venster **Instelling indicatiestapel** definieert.  
+Vanuit de pagina **Instelling indicatiestapel** kunt u indicatoren instellen voor alle indicatiestapels die beschikbaar zijn in de bedrijfsdatabase. U kunt de indicatoren instellen voor alle gebruikers in het bedrijf of alleen voor een individuele gebruiker. De indicatorinstellingen op de pagina **Instelling indicatiestapel** fungeren als de standaardindicatorinstellingen. Als de pagina **Instelling indicatiestapel** aan gebruikers beschikbaar is gesteld, kunnen zij de indicatorinstellingen aanpassen die u op de pagina **Instelling indicatiestapel** definieert.  
   
 Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die de drie bereiken van gegevenswaarden definiëren (laag, gemiddeld en hoog) waarop u een andere kleur (of stijl) kunt toepassen.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Gekleurde indicatoren instellen voor indicatiestapels  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van indicatiestapel** in en kies vervolgens de gerelateerde koppeling.  
   
-     Het venster **Instelling indicatiestapel** wordt geopend. Het venster bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam**. Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam**.  
+     De pagina **Instelling indicatiestapel** wordt geopend. De pagina bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam**. Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam**.  
   
     > [!NOTE]  
     >  Als u een indicator voor het hele bedrijf instelt en een gebruiker de indicator later wijzigt, wordt een aparte vermelding voor de indicator in de lijst weergegeven voor die gebruiker.  
   
 2. Kies de actie **Lijst bewerken**.  
-3. Als u een indicator wilt instellen voor een indicatiestapel die niet in het venster wordt weergegeven, kiest u de actie **Nieuw** en vult u de velden in zoals hierna wordt beschreven. Als u een bestaande indicator wilt wijzigen, gaat u naar de volgende stap.  
+3. Als u een indicator wilt instellen voor een indicatiestapel die niet op de pagina wordt weergegeven, kiest u de actie **Nieuw** en vult u de velden in zoals hierna wordt beschreven. Als u een bestaande indicator wilt wijzigen, gaat u naar de volgende stap.  
   
     |  Veld  |  Description  |    
     |---------|---------------|  

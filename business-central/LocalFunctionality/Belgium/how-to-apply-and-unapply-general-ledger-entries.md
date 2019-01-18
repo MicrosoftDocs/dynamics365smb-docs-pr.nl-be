@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 220bc78e7dda958a931bb8c8c4ef904a687d905e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 205043ca3c22c3bd9b41f6e238813052c7d33c93
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a>Grootboekposten vereffenen en de vereffening ervan ongedaan maken
@@ -36,16 +36,16 @@ Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdel
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
-3.  Kies in het venster **Grootboekposten** de actie **Posten vereffenen**.  
+3.  Kies op de pagina **Grootboekposten** de actie **Posten vereffenen**.  
 
-    Alle openstaande posten voor de grootboekrekening worden weergegeven in het venster **Grootboekposten vereffenen**.  
+    Alle openstaande posten voor de grootboekrekening worden weergegeven op de pagina **Grootboekposten vereffenen**.  
 
     > [!NOTE]  
     >  Standaard wordt het veld **Posten opnemen** ingesteld op **Open**. U kunt de waarde van het veld **Posten opnemen** wijzigen in **Alle** of **Afgesloten**. U kunt alleen grootboekposten vereffenen die **open** zijn.  
 
 4.  Selecteer de relevante grootboekpost en kies vervolgens op het tabblad **Navigeren** in de groep **Toepassing** de optie **Vereffenings-id instellen**.  
 
-    Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id. Het restbedrag wordt weergegeven in het veld **Saldo** in het venster **Grootboekposten vereffenen**.  
+    Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id. Het restbedrag wordt weergegeven op de pagina **Saldo** in het venster **Grootboekposten vereffenen**.  
 
 5.  Kies de actie **Vereffening boeken**.  
 

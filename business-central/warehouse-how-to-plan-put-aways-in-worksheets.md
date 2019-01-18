@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
@@ -29,12 +29,12 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 > [!NOTE]  
 >  onafhankelijk van de status van het veld **Opslagvoorstel gebruiken** op de vestigingskaart, kunt u altijd opslaginstructieregels, zijnde geboekte-ontvangstregels, ophalen voor het opslagvoorstel. Ga hiertoe als volgt te werk:  
 >   
->  1.  Druk in het venster **Magazijnopslag** op Ctrl+D om de gehele opslaginstructie te verwijderen. U kunt ook de regels selecteren die u in het voorstel wilt verwerken en de regels vervolgens verwijderen.  
+>  1.  Druk op de pagina **Magazijnopslag** op Ctrl+D om de gehele opslaginstructie te verwijderen. U kunt ook de regels selecteren die u in het voorstel wilt verwerken en de regels vervolgens verwijderen.  
 > 2.  Voer deze stap uit voor alle gewenste opslaginstructies, totdat u alle regels hebt verwijderd waarmee u in het voorstel aan de slag wilt. Klik nu op **Opslagvoorstellen** en ga door met de planning.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>U kunt als volgt instructies plannen in het opslagvoorstel  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagvoorstel** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies de actie **Magazijndocumenten ophalen**. Het venster **Opslagselectie** verschijnt.  
+2.  Kies de actie **Magazijndocumenten ophalen**. De pagina **Opslagselectie** verschijnt.  
 
     Dit venster bevat alle geboekte ontvangsten en geregistreerde interne opslagactiviteiten die zijn doorgestuurd naar de opslagfunctie, inclusief de activiteiten waarvoor de opslaginstructies al zijn gemaakt. De lijst bevat geen documenten met opslagregels die volledig zijn uitgevoerd en geregistreerd.  
 
@@ -54,7 +54,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
     > [!NOTE]  
     >  de verwijderde regels worden alleen uit het voorstel verwijderd, niet uit de opslagselectielijst.  
 
-7.  Kies de actie **Opslag maken**. Het venster **Document maken** wordt geopend, waar u als volgt informatie kunt toevoegen aan de opslaginstructies die u aan het maken bent:  
+7.  Kies de actie **Opslag maken**. De pagina **Document maken** wordt geopend, waar u als volgt informatie kunt toevoegen aan de opslaginstructies die u aan het maken bent:  
 
     -   U kunt de opslaginstructie toewijzen aan een bepaalde magazijnmedewerker.  
     -   U kunt de regels met opslaginstructies sorteren als in het werkblad of door middel van rangschikking van opslaglocaties. Wanneer u sorteert op basis van rangschikking van opslaglocaties, worden de nemen-regels eerst weergegeven, aangezien de meeste ontvangst-opslaglocaties een opslaglocatie-rangschikking van 0 hebben en worden de plaatsen-regels als laatste weergegeven, beginnend met de opslaglocaties met de laagste opslaglocatie-rangschikking. Indien u uw magazijn hebt gestructureerd zodat opslaglocaties met een soortgelijke opslaglocatie-rangschikking bij elkaar staan, bespaart het sorteren van regels op deze manier uiteindelijk stappen voor uw magazijnmedewerkers.  

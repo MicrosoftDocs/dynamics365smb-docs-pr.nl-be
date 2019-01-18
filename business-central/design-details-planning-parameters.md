@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
@@ -40,9 +40,9 @@ Voorstellen voor opnieuw bestellen worden normaal gesproken alleen vrijgegeven w
 Het veld **Tijdsinterval** wordt gebruikt door bestelpuntbeleid (**Vast bestelaantal** en **Maximum aantal**) waarbij het voorraadniveau wordt gecontroleerd na elk tijdsinterval. Het eerste tijdsinterval begint op de begindatum van de planning.  
 
 > [!NOTE]  
->  Bij de berekening van tijdsperioden negeert het planningssysteem werkagenda's die zijn gedefinieerd in het veld **Basisagendacode** in de vensters **Bedrijfsgegevens** en **Vestiging**.  
+>  Bij de berekening van tijdsperioden negeert het planningssysteem werkagenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging**.  
 
-De standaardveiligheidstijd in het venster **Productie-instellingen** moet worden ingesteld op ten minste één dag. De vervaldatum van de vraag kan bekend zijn, maar niet de vervaltijd. Er wordt terug in de tijd gepland om te voldoen aan de brutovraag. Als er geen veiligheidstijd is gedefinieerd, kunnen de goederen te laat arriveren om te voldoen aan de vraag.  
+De standaardveiligheidstijd op de pagina **Productie-instellingen** moet worden ingesteld op ten minste één dag. De vervaldatum van de vraag kan bekend zijn, maar niet de vervaltijd. Er wordt terug in de tijd gepland om te voldoen aan de brutovraag. Als er geen veiligheidstijd is gedefinieerd, kunnen de goederen te laat arriveren om te voldoen aan de vraag.  
 
 Drie aanvullende bestelperiodevelden, **Herplanningsperiode**, **Lotaccumulatieperiode** en **Dempingsperiode**, spelen ook een rol bij de definitie van wanneer moet worden herbesteld. Zie voor meer informatie de sectie Optimaliseren wanneer en hoe u bestelt.  
 
@@ -100,7 +100,7 @@ In de volgende voorbeelden geven de zwarte pijlen bestaand aanbod (omhoog) en be
 
 ![Dempingsperiode, lotaccumulatieperiode en aantal wijzigen](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dempingsperiode, lotaccumulatieperiode en aantal wijzigen")  
 
-**Standaardwaarden:** de standaardwaarde van het veld **Tijdsinterval** en de drie bestelperiodevelden is leeg. Voor alle velden behalve het veld **Dempingsperiode** betekent dit 0D (nul dagen). Als het veld **Dempingsperiode** leeg is, wordt de globale waarde in het veld **Standaard dempingsperiode** in het venster **Productie-instellingen** gebruikt.  
+**Standaardwaarden:** de standaardwaarde van het veld **Tijdsinterval** en de drie bestelperiodevelden is leeg. Voor alle velden behalve het veld **Dempingsperiode** betekent dit 0D (nul dagen). Als het veld **Dempingsperiode** leeg is, wordt de globale waarde in het veld **Standaard dempingsperiode** op de pagina **Productie-instellingen** gebruikt.  
 
 ## <a name="modify-the-supply-orders"></a>De voorzieningenorders wijzigen  
 Wanneer het aantal van het ordervoorstel is berekend, kan het worden aangepast door een of meer van de orderwijzigingen. Het maximale orderaantal is bijvoorbeeld groter dan of gelijk aan het minimale orderaantal, dat groter is dan of gelijk is aan de vaste lotgrootte.  

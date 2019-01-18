@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3391529dd136311adce3cdca49dcf9917d060e7c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7b81574cefed5da4b6520733365f689f0aec933
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="download-coda-files-from-an-isabel-server"></a>CODA-bestanden van een Isabel-server downloaden
@@ -31,7 +31,7 @@ Als u CODA-bestanden handmatig wilt downloaden, meldt u zich aan bij de Isabel-s
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IBS-logboeken** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Kies de actie **Downloaden**.  
-3.  Vul in het venster **Opties voor IBS-downloadaanvraag** de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Vul op de pagina **Opties voor IBS-downloadaanvraag** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -43,9 +43,9 @@ Als u CODA-bestanden handmatig wilt downloaden, meldt u zich aan bij de Isabel-s
 4.  Kies de knop **OK**.  
 
     > [!NOTE]  
-    >  U kunt geen bestanden van de Isabel-server verwijderen in het venster **Opties voor IBS-downloadaanvraag**. U moet de bestanden handmatig verwijderen door u aan te melden bij de Isabel-server.  
+    >  U kunt geen bestanden van de Isabel-server verwijderen op de pagina **Opties voor IBS-downloadaanvraag**. U moet de bestanden handmatig verwijderen door u aan te melden bij de Isabel-server.  
 
-     Als de CODA-bestanden zijn gedownload, wordt in het veld **Verwerkingsstatus** de waarde **Gemaakt** weergegeven in het venster **IBS-logboeken**. U kunt u aanmelden op de Isabel-server om de bestanden handmatig op te halen. Zie [CODA-afschriften importeren](how-to-import-coda-statements.md) voor meer informatie.  
+     Als de CODA-bestanden zijn gedownload, wordt in het veld **Verwerkingsstatus** de waarde **Gemaakt** weergegeven op de pagina **IBS-logboeken**. U kunt u aanmelden op de Isabel-server om de bestanden handmatig op te halen. Zie [CODA-afschriften importeren](how-to-import-coda-statements.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook  
 [Belgische lokale functionaliteit](belgium-local-functionality.md)

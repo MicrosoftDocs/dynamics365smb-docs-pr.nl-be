@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
-U kunt bijvoorbeeld de grootte en positie van elk venster aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
+U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
 
 In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergegeven met koppelingen naar onderwerpen waarin deze worden beschreven.
 

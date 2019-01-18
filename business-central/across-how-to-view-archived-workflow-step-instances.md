@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Gearchiveerde instanties van werkstroomstappen bekijken | Microsoft Docs'
-description: Alle voltooide werkstroomstapinstanties worden opgeslagen in het venster **Gearchiveerde werkstroomstapinstanties**.
+description: Alle voltooide werkstroomstapinstanties worden opgeslagen op de pagina **Gearchiveerde werkstroomstapinstanties**.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,26 +13,26 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 32962687b1f1ba9e49ae89e295f1e665fe05f871
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3967e6f4d58e7294eef28d7229974c3e08c87ee0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="view-archived-workflow-step-instances"></a>Gearchiveerde instanties van werkstroomstappen bekijken
-Alle voltooide werkstroomstapinstanties worden opgeslagen in het venster **Gearchiveerde werkstroomstapinstanties**.  
+Alle voltooide werkstroomstapinstanties worden opgeslagen op de pagina **Gearchiveerde werkstroomstapinstanties**.  
 
- In het venster **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
+ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Gearchiveerde instanties van werkstroomstappen bekijken  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de werkstroom waarvoor u alle instanties van gearchiveerde werkstroomstappen wilt bekijken.  
-3.  Kies in het venster **Werkstroom** de actie **Gearchiveerde werkstroomstapinstanties**.  
+3.  Kies op de pagina **Werkstroom** de actie **Gearchiveerde werkstroomstapinstanties**.  
 
-    Het venster **Gearchiveerde werkstroomstapinstanties** opent met de gearchiveerde werkstroomstapinstanties van de geselecteerde werkstroom.  
+    De pagina **Gearchiveerde werkstroomstapinstanties** opent met de gearchiveerde werkstroomstapinstanties van de geselecteerde werkstroom.  
 4.  Of kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearchiveerde werkstroomstapinstanties** in en kies vervolgens de gerelateerde koppeling.  
 
-Het venster **Gearchiveerde werkstroomstapinstanties** wordt geopend met alle gearchiveerde werkstroomstapinstanties. In het veld **Werkstroomcode** kunt u zien bij welke werkstroom de gearchiveerde instantie hoorde.  
+De pagina **Gearchiveerde werkstroomstapinstanties** wordt geopend met alle gearchiveerde werkstroomstapinstanties. In het veld **Werkstroomcode** kunt u zien bij welke werkstroom de gearchiveerde instantie hoorde.  
 
 ## <a name="see-also"></a>Zie ook  
  [Werkstromen verwijderen](across-how-to-delete-workflows.md)   

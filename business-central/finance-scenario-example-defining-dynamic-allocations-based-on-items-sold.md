@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Voorbeeld scenario: dynamische toewijzingen op basis van de verkochte artikelen definiëren
@@ -28,7 +29,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Kostenverdeling** de actie **Nieuw**.  
+2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
 4.  Geef **1** op in het veld **Niveau**.  
 5.  Voer in de velden **Geldig vanaf** en **Geldig tot** juiste datums in.  
@@ -46,9 +47,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.  
 
 ## <a name="see-also"></a>Zie ook  
- [Filters instellen voor dynamische toewijzingsgrondslagen](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Een verdelingsbron en de doelen ervoor instellen](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)   
- [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
- [Kostprijsboekhouding](finance-about-cost-accounting.md)
+[Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
+[Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
+[Kostprijsboekhouding](finance-about-cost-accounting.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Betalingsbestanden uploaden naar een Isabel-server
-description: "Betalingsbestanden kunnen worden geüpload via het venster **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** in het venster **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**."
+description: "Betalingsbestanden kunnen worden geüpload via de pagina **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** op de pagina **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f442088e4244880cfa6f856f332a0f7985237062
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2621f8f73cd00baecbb47c799e9e2adbc0d93bd6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="upload-payment-files-to-an-isabel-server"></a>Betalingsbestanden uploaden naar een Isabel-server
 > [!Note]
 > [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
 
-Betalingsbestanden kunnen worden geüpload via het venster **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** in het venster **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**.  
+Betalingsbestanden kunnen worden geüpload via de pagina **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** op de pagina **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**.  
 
 > [!NOTE]  
 >  Voordat u betalingbestanden kunt uploaden, moet u zijn aangemeld bij de Isabel-server.  

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
@@ -38,7 +38,7 @@ U gebruikt meestal *Op order assembleren* voor artikelen die u niet op voorraad 
 
 Het artikel wordt in het proces voor assembleren op basis van orders geassembleerd in reactie op een verkooporder, waarbij er sprake is van een één-op-één koppeling tussen de assemblageorder en de verkooporder.  
 
-Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoopregel, wordt er automatisch een assemblageorder gemaakt met een kop die is gebaseerd op de verkoopregel en met regels die zijn gebaseerd op de assemblagestuklijst van het artikel vermenigvuldigd met het bestelaantal. U kunt het venster met **regels voor op order assembleren** gebruiken om de gekoppelde assemblageorderregels weer te geven om u te helpen bij het aanpassen van het assemblageartikel en het vaststellen van een leveringsdatum die is gebaseerd op informatie over de beschikbaarheid van componenten. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
+Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoopregel, wordt er automatisch een assemblageorder gemaakt met een kop die is gebaseerd op de verkoopregel en met regels die zijn gebaseerd op de assemblagestuklijst van het artikel vermenigvuldigd met het bestelaantal. U kunt de pagina met **regels voor op order assembleren** gebruiken om de gekoppelde assemblageorderregels weer te geven om u te helpen bij het aanpassen van het assemblageartikel en het vaststellen van een leveringsdatum die is gebaseerd op informatie over de beschikbaarheid van componenten. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Hoewel dit geen onderdeel van het standaardproces is, kunt u voorraadaantallen verkopen met aantallen voor assembleren op basis van orders. Zie voor meer informatie [Voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

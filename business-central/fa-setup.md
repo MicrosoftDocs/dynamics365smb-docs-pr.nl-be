@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Vaste activa instellen
@@ -27,9 +27,9 @@ Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:
 De onderstaande tabel heeft koppelingen naar meer informatie. Als u deze zaken hebt ingesteld, kunt u verschillende activiteiten starten. Zie [Vaste activa](fa-manage.md) voor meer informatie.  
 
 > [!NOTE]  
->   U kunt transacties voor vaste activa registreren in het venster **VA fin. dagboek** of **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van het venster **Financieel dagboek voor vaste activa** beschreven.  
+>   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven.  
 
-Als u een activiteit van een vast activum inschakelt in de sectie **Grootboekintegratie** in het venster **Afschrijvingsboek**, wordt het venster **Financieel dagboek voor vaste activa** gebruikt om transacties voor de activiteit te boeken.
+Als u een activiteit van een vast activum inschakelt in de sectie **Grootboekintegratie** op de pagina **Afschrijvingsboek**, wordt de pagina **Financieel dagboek voor vaste activa** gebruikt om transacties voor de activiteit te boeken.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 

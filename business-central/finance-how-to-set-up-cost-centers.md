@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Kostenplaatsen instellen
@@ -27,7 +27,7 @@ Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengs
 -   Door een nieuw schema van kostenplaatsen te maken dat onafhankelijk is van het grootboek of door een nieuwe kostenplaats toe te voegen aan een bestaand schema van kostenplaatsen. U moet elke kostenplaats afzonderlijk maken.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensiewaarden in het grootboek overbrengen naar het schema van kostenplaatsen  
-1.  Stel een dimensie als kostenplaats in met het venster **Dimensies kostprijsboekhouding bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
+1.  Stel een dimensie als kostenplaats in met de pagina **Dimensies kostprijsboekhouding bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
 2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenplaatsschema** in en kies vervolgens de gerelateerde koppeling.  
 3.  Op het tabblad **Acties** in de groep **Functies** kiest u **Kostenplaatsen ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenplaatsen. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
@@ -36,10 +36,10 @@ Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengs
 
 Het schema van kostenplaatsen bevat nu alle opgegeven dimensiewaarden van het grootboek waaronder titels en subtotalen.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Nieuwe kostenplaatsen maken in het venster Kostenplaatsschema  
-U kunt kostenplaatsen instellen en onderhouden op de kaart **Kostenplaatskaart** of in het venster **Kostenplaatsschema**. In deze procedure stelt u kostenplaatsen in het venster **Kostenplaatsschema** in.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Nieuwe kostenplaatsen maken op de pagina Kostenplaatsschema  
+U kunt kostenplaatsen instellen en onderhouden op de kaart **Kostenplaatskaart** of op de pagina **Kostenplaatsschema**. In deze procedure stelt u kostenplaatsen op de pagina **Kostenplaatsschema** in.  
 
-1. Open het venster **Kostenplaatsschema** in de bewerkmodus.  
+1. Open de pagina **Kostenplaatsschema** in de bewerkmodus.  
 2. Voer in het veld **Code** de kostenplaatscode in. Alle kostenplaatsen moeten een code hebben.  
 3. Voer in het veld **Naam** de naam van de kostenplaats in.  
 4. Kies de vervolgkeuzepijl in het veld **Regelsoort** om het doel van de kostenplaats aan te geven.  

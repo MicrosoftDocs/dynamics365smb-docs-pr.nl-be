@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
@@ -28,7 +28,7 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 ## <a name="to-set-up-a-loaner"></a>Een uitleenartikel instellen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe uitleenartikelkaart. 
-3. Selecteer in het veld **Nr.** een nummer voor het uitleenartikel in. Als u in het venster **Servicebeheerinstellingen** nummerreeksen voor uitleenartikelen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare uitleenartikelnummer in te voeren.  
+3. Selecteer in het veld **Nr.** een nummer voor het uitleenartikel in. Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor uitleenartikelen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare uitleenartikelnummer in te voeren.  
 4. Vul de velden **Omschrijving**, **Omschrijving 2** en **Serienummer** in.  
 5. Kies de betreffende eenheidscode in het veld **Eenheidscode**.  
   

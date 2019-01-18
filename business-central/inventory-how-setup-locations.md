@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 828979bf181f1cd7f7a66d2c7c8ac8a2700b732b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
@@ -27,7 +27,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 ## <a name="to-create-a-location-card"></a>Een vestigingskaart maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
 
 > [!NOTE]  
@@ -35,9 +35,9 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 
 ## <a name="to-create-a-transfer-route"></a>Een transferroute maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferroutes** in en kies vervolgens de gerelateerde koppeling.
-2. U kunt ook vanuit elk **Vestiging**-venster de actie **Transferroutes** kiezen.
+2. U kunt ook vanuit elke **Vestiging**-pagina de actie **Transferroutes** kiezen.
 3. Kies de actie **Nieuw**.
-4. Vul indien nodig de velden in het venster **Vestigingskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 U kunt nu voorraadartikelen tussen twee vestigingen overbrengen. Zie voor meer informatie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).    
 

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
-Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met het venster **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporderregel.  
+Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporderregel.  
 
 Op basis van de bekende en verwachte beschikbaarheidsdatums van een item berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] onmiddellijk verzend- en leverdatums, die vervolgens aan de klant kunnen worden toegezegd.  
 
@@ -61,7 +61,7 @@ Wanneer [!INCLUDE[d365fin](includes/d365fin_md.md)] de leverdatum van de klant b
 
 Als de klant niet om een specifieke leverdatum vraagt, wordt de verzenddatum gelijk aan de werkdatum, en wordt de beschikbaarheid vervolgens gebaseerd op deze datum. Als het artikel in voorraad is, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] vooruit in tijd om te bepalen wanneer de order kan worden afgeleverd. Dit gebeurt aan de hand van de volgende formules:  
 
-- Verzenddatum + Uitgaand magazijn + Geplande verzending + verwerkingstijd = Datum  
+- Geplande verzenddatum + Uitgaande magazijnverwerkingstijd = Geplande verzenddatum  
 - Geplande verzenddatum + Verzendtijd = Geplande leverdatum  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert vervolgens of de berekende leverdatum realistisch is door terug in tijd te rekenen om te bepalen wanneer het item beschikbaar moet zijn om te voldoen aan de toegezegde datum. Dit gebeurt aan de hand van de volgende formules:  
@@ -71,11 +71,11 @@ Als de klant niet om een specifieke leverdatum vraagt, wordt de verzenddatum gel
 
 De verzenddatum wordt gebruikt om de beschikbaarheidscontrole uit te voeren. Als het item op deze datum beschikbaar is, bevestigt [!INCLUDE[d365fin](includes/d365fin_md.md)] dat aan de aangevraagde/toegezegde levering kan worden voldaan door de geplande leverdatum gelijk te stellen aan de aangevraagde/toegezegde leverdatum. Als het item niet beschikbaar is, verschijnt er een lege datum en kan de orderverwerker vervolgens de CTP-functionaliteit gebruiken.  
 
-Op basis van de nieuwe datums en tijden, worden alle gerelateerde datums berekend volgens de formules die eerder in deze sectie zijn weergegeven. De CTP-berekening duurt langer, maar geeft een nauwkeurige datum voor wanneer de klant het artikel kan verwachten. De datums die worden berekend vanuit CTP, worden weergegeven in de velden **Geplande leverdatum** en **Eerste verzenddatum** in het venster **Ordertoezeggingsregels**.  
+Op basis van de nieuwe datums en tijden, worden alle gerelateerde datums berekend volgens de formules die eerder in deze sectie zijn weergegeven. De CTP-berekening duurt langer, maar geeft een nauwkeurige datum voor wanneer de klant het artikel kan verwachten. De datums die worden berekend vanuit CTP, worden weergegeven in de velden **Geplande leverdatum** en **Eerste verzenddatum** op de pagina **Ordertoezeggingsregels**.  
 
 De orderverwerker voltooit het CTP-proces door de datums te accepteren. Dit betekent dat een planningsregel en een reserveringspost voor het artikel worden gemaakt vóór de berekende datum om ervoor te zorgen dat aan de order kan worden voldaan.  
 
-Naast de externe ordertoezegging die u kunt uitvoeren in het venster **Ordertoezeggingsregels**, kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
+Naast de externe ordertoezegging die u kunt uitvoeren op de pagina **Ordertoezeggingsregels**, kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Ordertoezegging instellen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ordertoezeggingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
@@ -90,11 +90,11 @@ Naast de externe ordertoezegging die u kunt uitvoeren in het venster **Ordertoez
     |**j**|jaar|  
 
     "3w" geeft bijvoorbeeld aan dat de uitsteltijd drie weken is. Gebruik voor alle codes "h" als voorvoegsel om de huidige tijdseenheid aan te geven. Voer bijvoorbeeld **hm** in als de uitsteltijd de huidige maand moet zijn.  
-3. Voer in het veld **Ordertoezeggingsnrs.** een nummerreeks in door een regel te selecteren in het overzicht in het venster **Nr.-reeks**.  
-4. Voer in het veld **Ordertoezeggingssjabloon** een ordertoezeggingsjabloon in door een regel te selecteren in het overzicht in het venster **Overzicht ink.-voorstelsjabl.**  
-5. Voer in het veld **Ordertoezeggingsvoorstel** een inkoopvoorstel in door een regel te selecteren in het overzicht in het venster **Inkoopvoorstelbatches**.
+3. Voer in het veld **Ordertoezeggingsnrs.** een nummerreeks in door een regel te selecteren in het overzicht op de pagina **Nr.-reeks**.  
+4. Voer in het veld **Ordertoezeggingssjabloon** een ordertoezeggingsjabloon in door een regel te selecteren in het overzicht op de pagina **Overzicht ink.-voorstelsjabl.**  
+5. Voer in het veld **Ordertoezeggingsvoorstel** een inkoopvoorstel in door een regel te selecteren in het overzicht op de pagina **Inkoopvoorstelbatches**.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Inslagtijd invoeren in het venster met de voorraadinstellingen  
+### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Inslagtijd invoeren op de pagina met de voorraadinstellingen  
 Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad en de vestiging.    
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstelling** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Inslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
@@ -108,9 +108,9 @@ Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op
 3.  Voer in het veld **Inslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
 
 > [!NOTE]  
->  Als u het veld **Inslagtijd** leeg laat, wordt voor de berekening de waarde in het venster **Voorraadinstellingen** gebruikt.
+>  Als u het veld **Inslagtijd** leeg laat, wordt voor de berekening de waarde op de pagina **Voorraadinstellingen** gebruikt.
 
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Uitslagtijd invoeren in het venster met de voorraadinstellingen  
+### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Uitslagtijd invoeren op de pagina met de voorraadinstellingen  
 Als u een uitslagtijd wilt instellen voor de berekening van de ordertoezegging op de verkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstelling** in en kies vervolgens de gerelateerde koppeling.  
@@ -125,7 +125,7 @@ Als u een uitslagtijd wilt instellen voor de berekening van de ordertoezegging o
 3.  Voer in het veld **Uitslagtijd** op het sneltabblad **Magazijn** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
 
 > [!NOTE]  
->  Als u het veld **Uitslagtijd** leeg laat, wordt voor de berekening de waarde in het venster **Voorraadinstellingen** gebruikt.
+>  Als u het veld **Uitslagtijd** leeg laat, wordt voor de berekening de waarde op de pagina **Voorraadinstellingen** gebruikt.
 
 ## <a name="to-make-an-item-critical"></a>Artikelen als kritiek aanmerken  
 Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zijn gemarkeerd als kritiek. Deze instellingen zorgen dat de niet-kritieke artikelen niet leiden tot irrelevante ordertoezeggingsberekeningen   

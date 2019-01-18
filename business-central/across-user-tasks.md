@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a482b27c95cf40a80fb033ddd0d5333014a2064b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Gebruikerstaken definiëren
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.  
 
 ## <a name="managing-user-tasks"></a>Gebruikerstaken beheren
-Het venster **Gebruikerstaken** bevat alle taken en u kunt gemakkelijk nieuwe taken maken en toewijzen. Wanneer u een taak maakt, kunt u de begindatum en einddatum opgeven, en u kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] een koppeling toevoegen naar het venster waar de gebruiker de taak moet uitvoeren.  
+De pagina **Gebruikerstaken** bevat alle taken en u kunt gemakkelijk nieuwe taken maken en toewijzen. Wanneer u een taak maakt, kunt u de begindatum en einddatum opgeven, en u kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] een koppeling toevoegen naar de pagina waar de gebruiker de taak moet uitvoeren.  
 
 U kunt bijvoorbeeld u een taak voor uzelf maken om alle geboekte verkoopfacturen te bekijken. In dat geval koppelt u de taak een pagina 143, Geboekte verkoopfacturen.  
 
@@ -31,7 +31,7 @@ U kunt bijvoorbeeld u een taak voor uzelf maken om alle geboekte verkoopfacturen
 >  Gebruik de opzoekfunctie in het veld **Pagina** en gebruik vervolgens het veld **Zoeken naar pagina of rapport** om de pagina te vinden die u nodig hebt. Zie [Zoeken naar een pagina of rapport](ui-search.md).  
 
 ### <a name="picking-up-user-tasks"></a>Gebruikerstaken oppakken
-In de rolcentra Bedrijfsleider, Boekhouder en Accountant worden op een tegel de wachtende taken weergegeven die aan deze gebruiker zijn toegewezen. Als u aan een taak wilt beginnen, kiest u deze eenvoudig in het overzicht met wachtende gebruikerstaken. Op het lint wordt met **Ga naar taakitem** het venster geopend waarin u het werk kunt uitvoeren.  
+In de rolcentra Bedrijfsleider, Boekhouder en Accountant worden op een tegel de wachtende taken weergegeven die aan deze gebruiker zijn toegewezen. Als u aan een taak wilt beginnen, kiest u deze eenvoudig in het overzicht met wachtende gebruikerstaken. Op het lint wordt met **Ga naar taakitem** de pagina geopend waarin u het werk kunt uitvoeren.  
 
 Wanneer u een taak hebt voltooid, moet u deze gewoon als voltooid markeren.  
 

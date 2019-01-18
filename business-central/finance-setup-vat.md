@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ Met btw-aangiften kunt u het btw-vereffeningsbedrag voor een bepaalde periode be
 Als u een btw-aangifte wilt definiëren, volgt u deze stappen:
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-aangiftes** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies het veld **Naam** en kies vervolgens **Nieuw** in het venster **Btw-aangiftes**.
+2. Kies het veld **Naam** kies vervolgens **Nieuw** op de pagina **Btw-aangiftes**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een
 
 ### <a name="to-set-up-vat-clauses"></a>Btw-clausules instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
-2. Maak een nieuwe regel in het venster **Btw-clausules**.  
+2. Maak een nieuwe regel op de pagina **Btw-clausules**.  
 3. Voer in het veld **Code** een ID voor de clausule in. U gebruikt deze code om de clausule toe te wijzen aan btw-boekingsgroepen.  
 4. Voer in het veld **Omschrijving** de tekst in die u wilt weergeven op documenten die btw kunnen bevatten. Geef indien nodig in het veld **Omschrijving 2** eventuele aanvullende tekst op. De tekst wordt op nieuwe regels weergegeven.  
 5. Optioneel: als u de btw-clausule direct aan btw-boekingsinstellingen wilt toewijzen, kiest u **Instellingen** en vervolgens de clausule. Als u wilt wachten, kunt u de clausule later op de pagina Btw-boekingsinstellingen toewijzen.  
@@ -178,7 +178,7 @@ Ga als volgt te werk om codes voor import-btw in te stellen:
 ## <a name="to-verify-vat-registration-numbers"></a>Btw-nummers controleren
 Het is belangrijk dat de btw-registratienummers die u voor klanten, leveranciers en contactpersonen hebt, geldig zijn. Bedrijven wijzigen bijvoorbeeld soms hun belastingschuldstatus, en in sommige landen kan de belastingdienst u vragen om rapporten te verschaffen, zoals het rapport Verkoopoverzicht EU, waarin de btw-registratienummers worden weergegeven die u gebruikt wanneer u zaken doet.
 
-De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u moeite besparen. U kunt namelijk de VIES-service om btw-nummers voor klanten, leveranciers en contactpersonen te valideren en bij te houden, rechtstreeks van de klanten-, leveranciers en contactkaarten gebruiken. De service in [!INCLUDE[d365fin](includes/d365fin_md.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar in het venster **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen aanmelding vereist.
+De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u moeite besparen. U kunt namelijk de VIES-service om btw-nummers voor klanten, leveranciers en contactpersonen te valideren en bij te houden, rechtstreeks van de klanten-, leveranciers en contactkaarten gebruiken. De service in [!INCLUDE[d365fin](includes/d365fin_md.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar op de pagina **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen aanmelding vereist.
 
 > [!Note]
 > Als u de validatieservice van EU-btw-nummers wilt inschakelen, moet u over beheerdertoegangsrechten beschikken.
@@ -241,7 +241,7 @@ Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidin
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellen BTW-tariefswijziging** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Instellen BTW-tariefswijziging** op het tabblad **Start** in de groep **Verwerken** de optie **Btw-productboekingsgroepconv.** of **Productboekingsgroepconv.**  
+2. Kies op de pagina **Instellen BTW-tariefswijziging** op het tabblad **Start** in de groep **Verwerken** de optie **Btw-productboekingsgroepconv.** of **Productboekingsgroepconv.**  
 3. Voer in het veld **Van code** de huidige boekingsgroep in.  
 4. Voer in het veld **Tot code** de nieuwe boekingsgroep in.  
 

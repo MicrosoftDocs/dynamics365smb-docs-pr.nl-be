@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Productieorders maken op basis van verkooporders
@@ -26,7 +26,7 @@ U kunt direct op basis van verkooporders productieorders maken voor geproduceerd
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de verkooporder die u wilt omzetten in een productieorder.  
-3.  Kies de actie **Planning**. In het venster **Verkooporderplanning** kunt u de beschikbaarheid van het verkooporderartikel weergeven.  
+3.  Kies de actie **Planning**. Op de pagina **Verkooporderplanning** kunt u de beschikbaarheid van het verkooporderartikel weergeven.  
 4.  Kies de actie **Prod.-order maken**.  
 5.  Selecteer de status en het ordersoort.  
 6.  Kies de knop **Ja** knop om de productieorder te maken.

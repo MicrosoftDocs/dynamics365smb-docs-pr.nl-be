@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Voordat u met contracten kunt werken, moet u het volgende instellen:
 2. Maak een nieuwe servicecontractsjabloon.  
 3. Selecteer in het veld **Nr.** een nummer voor de contractsjabloon.  
   
-     Als u in het venster **Servicebeheerinstellingen** nummerreeksen voor contractsjablonen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare contractsjabloonnummer in te voeren. Vul eventueel de andere velden in.  
+     Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor contractsjablonen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare contractsjabloonnummer in te voeren. Vul eventueel de andere velden in.  
   
 4. Vul op het sneltabblad **Factuur** het veld **Serv.-contractboekingsgroep**, de **Factuurperiode**, enzovoort in. Vul eventueel de andere velden in.  
 5. Kies de actie **Servicekortingen** om contractkortingen toe te voegen.  

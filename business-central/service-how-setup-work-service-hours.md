@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Service- en werkuren instellen
@@ -27,16 +27,16 @@ Nadat u de standaardservice-uren van uw bedrijf hebt ingesteld, kunt u responsti
 Terwijl u aan serviceorder werkt, is het handig om de status te kunnen bijwerken zodat u de voortgang kunt bijhouden. Met de serviceorderstatus wordt de herstelstatus van de serviceartikelen in de serviceorder aangegeven. Zie voor meer informatie [Serviceorderstatus en herstelstatus begrijpen](service-order-repair-status.md). 
 
 ## <a name="to-set-up-default-service-hours"></a>Standaardservice-uren instellen  
-In het venster **Std. service-uren** kunt u de gebruikelijke servicewerkuren in het bedrijf instellen. Deze service-uren worden gebruikt om de responsdatum en -tijd voor serviceorders en -offertes te berekenen en om responstijdwaarschuwingen te verzenden. De standaardservice-uren voor servicecontracten worden gebruikt tenzij u speciale service-uren voor een contract opgeeft.  
+Op de pagina **Std. service-uren** kunt u de gebruikelijke servicewerkuren in het bedrijf instellen. Deze service-uren worden gebruikt om de responsdatum en -tijd voor serviceorders en -offertes te berekenen en om responstijdwaarschuwingen te verzenden. De standaardservice-uren voor servicecontracten worden gebruikt tenzij u speciale service-uren voor een contract opgeeft.  
   
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Std. service-uren** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  Als u de regels in het venster **Std. service-uren** niet invult, wordt als standaardwaarde 24 uur gebruikt, die alleen geldig is voor agendawerkdagen.  
+>  Als u de regels op de pagina **Std. service-uren** niet invult, wordt als standaardwaarde 24 uur gebruikt, die alleen geldig is voor agendawerkdagen.  
   
 ## <a name="to-set-up-work-hour-templates"></a>Werkuursjablonen instellen
-In het venster **Werkuursjabloon** kunt u sjablonen instellen met de standaardwerkuren in het bedrijf. U kunt bijvoorbeeld sjablonen maken voor technici met een volledige baan en voor technici met een deeltijdbaan. U kunt werkuursjablonen gebruiken wanneer u capaciteit toevoegt aan resources.  
+Op de pagina **Werkuursjabloon** kunt u sjablonen instellen met de standaardwerkuren in het bedrijf. U kunt bijvoorbeeld sjablonen maken voor technici met een volledige baan en voor technici met een deeltijdbaan. U kunt werkuursjablonen gebruiken wanneer u capaciteit toevoegt aan resources.  
   
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkuursjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -45,7 +45,7 @@ In het venster **Werkuursjabloon** kunt u sjablonen instellen met de standaardwe
 > Als u werkuren voor elke dag invoert, wordt de waarde in het veld **Totaal per week** automatisch berekend.  
 
 ## <a name="to-set-up-contract-specific-service-hours"></a>Contractspecifieke service-uren instellen  
-In het venster **Service-uren** kunt u specifieke service-uren instellen voor de klant die eigenaar is van het servicecontract. Met de service-uren worden de responsdatum en -tijd berekend voor serviceorders en -offertes die bij het servicecontract horen.  
+Op de pagina **Service-uren** kunt u specifieke service-uren instellen voor de klant die eigenaar is van het servicecontract. Met de service-uren worden de responsdatum en -tijd berekend voor serviceorders en -offertes die bij het servicecontract horen.  
   
 Als u geen specifieke service-uren voor het servicecontract instelt, worden de standaardservice-uren voor servicecontracten gebruikt.  
   

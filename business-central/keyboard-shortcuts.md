@@ -11,15 +11,15 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
-Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
 
 [Afdrukbaar overzicht van toetsenbordsneltoetsen](keyboard-shortcuts-cheatsheet.md)
 
@@ -30,19 +30,22 @@ De sneltoetsen worden ondersteund door de meeste webbrowsers, maar het gedrag ka
 
 De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.
 
-De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is; enkele sneltoetsen verschillen echter voor macOS. Deze zijn tussen haakjes vermeld in de tabellen in de volgende secties.
+De meeste snelkoppelingen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Enkele sneltoetsen verschillen echter voor macOS. Deze zijn tussen haakjes vermeld in de tabellen in de volgende secties.
 
 ##  <a name="Keyboard"></a> Algemene sneltoetsen
 De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van verschillende elementen van een pagina, zoals acties, vervolgkeuzelijsten, opzoekacties, enzovoort. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
 
-|Druk op deze toetsen|Actie|  
+|Druk op deze toetsen<br />(in macOS)|Actie|  
 |----------------|-----------|  
-|Alt+Q|Vak **Vertel u wat u wilt doen** openen dat u kan helpen een pagina, een rapport, een actie op de huidige pagina of een artikel in de documentatie te vinden.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Vak **Vertel u wat u wilt doen** openen dat u kan helpen een pagina, een rapport, een actie op de huidige pagina of een artikel in de documentatie te vinden.|
+|Alt+Pijl omhoog|Knopinfo weergeven voor een veld of een kolomkop van een tabel. Als het veld validatiefouten heeft, drukt u " Alt+Pijl omhoog" om de validatiefout te bekijken. Druk op "Esc" of "Alt+Pijl omhoog“ om de knopinfo te sluiten.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|   
 |Enter|Het (besturings)element met focus inschakelen of openen.|   
 |Alt+Pijl-omlaag|Een vervolgkeuzelijst openen of een waarde voor een veld opzoeken.|    
 |Alt+Pijl rechts|De transacties bekijken die in een berekende waarde in een veld hebben geresulteerd.|  
+|F5|De gegevens op de huidige pagina vernieuwen.|Gebruik dit om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
+|Ctrl+F5|De [!INCLUDE[prodshort](includes/prodshort.md)]-toepassing opnieuw laden.|Dit is vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.|
 |Esc|Sluit de huidige pagina of vervolgkeuzelijst.|
 
 
@@ -126,7 +129,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Pijl omhoog|Omhoog schuiven op de pagina.|
 |Pijl rechts|Schuif naar de rechterzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
 |Pijl links|Schuif naar de linkerzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
-|Ctrl+0 (nul)<br />(Cmd+0)|De hele pagina wordt weergegeven in het venster. |
+|Ctrl+0 (nul)<br />(Cmd+0)|De hele pagina op de pagina laten passen. |
 |Ctrl+Home<br />(Cmd+Home)|Naar de eerste pagina's van het rapport gaan.|
 |Ctrl+End<br />(Cmd+Home)|Naar de laatste pagina's van het rapport gaan.|
 |Page Down<br />(Fn+pijl omlaag)|Naar de volgende pagina's van het rapport gaan.|

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 758833e146c03cde3f892ec24d43143bcdce655c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-bank-funds"></a>Bankfondsen overboeken
@@ -28,9 +28,10 @@ Soms moet u een transfer van een bedrag van de ene naar de andere bankrekening b
 3. Selecteer in het veld **Rekeningsoort** de optie **Bankrekening**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
 5. Voer in het veld **Bedrag** het bedrag in dat u wilt overbrengen.
-6. Selecteer in het veld **Tegenrekeningtype** **Bankrekening**.
-7. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarnaar u de fondsen wilt overbrengen.
-8. Boek het dagboek.
+6. Kies de actie **Meer kolommen weergeven** om alle beschikbare velden te bekijken.
+7. Selecteer in het veld **Tegenrekeningtype** **Bankrekening**.
+8. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarnaar u de fondsen wilt overbrengen.
+9. Boek het dagboek.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Transfers boeken tussen bankrekeningen met verschillende valutacodes
 Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's gebruiken, moet u twee dagboekregels boeken.
@@ -49,7 +50,7 @@ Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's g
 12. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
 
     > [!NOTE]  
-    > Als de gebruikte wisselkoersen in het dagboek verschillen van de wisselkoersen in het venster **Valutawisselkoersen**, voert u een derde regel in voor de wisselkoerswinsten of -verliezen. Geef **Grootboekrekening** op in het veld **Rekeningsoort**. Voer in het veld **Rekeningnr.** het grootboekrekeningnummer voor wisselkoerswinst of -verlies in. Voer de wisselkoerswinst of - verlies in het veld **Bedrag** in met of zonder een minteken voor respectievelijk debet- en creditbedragen.
+    > Als de gebruikte wisselkoersen in het dagboek verschillen van de wisselkoersen op de pagina **Valutawisselkoersen**, voert u een derde regel in voor de wisselkoerswinsten of -verliezen. Geef **Grootboekrekening** op in het veld **Rekeningsoort**. Voer in het veld **Rekeningnr.** het grootboekrekeningnummer voor wisselkoerswinst of -verlies in. Voer de wisselkoerswinst of - verlies in het veld **Bedrag** in met of zonder een minteken voor respectievelijk debet- en creditbedragen.
 13. Boek het dagboek.
 
 ## <a name="see-also"></a>Zie ook

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
@@ -53,7 +53,7 @@ De volgende tabel toont de volgorde van de acties.
 |Actie|Description|  
 |------------|-----------------|  
 |Boeking initialiseren|1. Voer voorlopige controles uit.<br />2. Voeg een boekingsnummer toe en wijzig de assemblageorderkop.<br />3. Geef de assemblageorder vrij.|  
-|Post|<ol><li>Maak de geboekte assemblageorderkop.</li><li>Kopieer opmerkingsregels.</li><li>Boek assemblageorderregels (verbruik):<br /><br /> <ol><li>Maak een statusvenster om assemblageverbruik te berekenen.</li><li>Haal het resterende aantal op waarop de artikeldagboekregel wordt gebaseerd.</li><li>Stel de verbruikte en resterende aantallen opnieuw in.</li><li>Voor assemblageorderregels van de soort Artikel:<br /><br /> <ol><li>Vul velden op de artikeldagboekregel in.</li><li>Breng reserveringen over naar de artikeldagboekregel.</li><li>Boek de artikeldagboekregel om de artikelposten te maken.</li><li>Maak magazijndagboekregels en boek ze.</li></ol></li><li>Voor assemblageorderregels van de soort Resource:<br /><br /> <ol><li>Vul velden op de artikeldagboekregel in.</li><li>Boek de artikeldagboekregel. Hierdoor ontstaan capaciteitsposten.</li><li>Maak en boek een resourcedagboekregel.</li></ol></li><li>Breng veldwaarden van de assemblageorderregel over naar een zojuist gemaakte, geboekte assemblageorderregel.</li></ol></li><li>Boek de assemblageorderkop (output):<br /><br /> <ol><li>Vul velden op de artikeldagboekregel in.</li><li>Breng reserveringen over naar de artikeldagboekregel.</li><li>Boek de artikeldagboekregel om de artikelposten te maken.</li><li>Maak magazijndagboekregels en boek ze.</li><li>Stel de assemblageaantallen en de resterende aantallen opnieuw in.</li></ol></li></ol>|  
+|Post|<ol><li>Maak de geboekte assemblageorderkop.</li><li>Kopieer opmerkingsregels.</li><li>Boek assemblageorderregels (verbruik):<br /><br /> <ol><li>Maak een statuspagina om assemblageverbruik te berekenen.</li><li>Haal het resterende aantal op waarop de artikeldagboekregel wordt gebaseerd.</li><li>Stel de verbruikte en resterende aantallen opnieuw in.</li><li>Voor assemblageorderregels van de soort Artikel:<br /><br /> <ol><li>Vul velden op de artikeldagboekregel in.</li><li>Breng reserveringen over naar de artikeldagboekregel.</li><li>Boek de artikeldagboekregel om de artikelposten te maken.</li><li>Maak magazijndagboekregels en boek ze.</li></ol></li><li>Voor assemblageorderregels van de soort Resource:<br /><br /> <ol><li>Vul velden op de artikeldagboekregel in.</li><li>Boek de artikeldagboekregel. Hierdoor ontstaan capaciteitsposten.</li><li>Maak en boek een resourcedagboekregel.</li></ol></li><li>Breng veldwaarden van de assemblageorderregel over naar een zojuist gemaakte, geboekte assemblageorderregel.</li></ol></li><li>Boek de assemblageorderkop (output):<br /><br /> <ol><li>Vul velden op de artikeldagboekregel in.</li><li>Breng reserveringen over naar de artikeldagboekregel.</li><li>Boek de artikeldagboekregel om de artikelposten te maken.</li><li>Maak magazijndagboekregels en boek ze.</li><li>Stel de assemblageaantallen en de resterende aantallen opnieuw in.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  In tegenstelling tot productieoutput, die wordt geboekt tegen verwachte kosten, wordt assemblyuitvoer tegen de feitelijke prijs geboekt.  

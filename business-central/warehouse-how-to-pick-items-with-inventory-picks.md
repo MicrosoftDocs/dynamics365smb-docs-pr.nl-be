@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikelen picken met een voorraadpick
-Als voor uw vestiging wel een pickverwerking vereist is, maar geen verzendingsverwerking, gebruikt u het venster **Voorraadpick** om pick- en verzendingsinformatie voor de brondocumenten te verzamelen en boeken. Het uitgaande brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder waarvan de onderdelen kunnen worden gepickt.
+Als voor uw vestiging wel een pickverwerking vereist is maar geen verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om pick- en verzendingsinformatie voor de brondocumenten te verzamelen en boeken. Het uitgaande brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder waarvan de onderdelen kunnen worden gepickt.
 
 > [!NOTE]  
-> Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan het venster **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+> Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan de pagina **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 >  Als u verkoopregelaantallen pickt en verzendt die worden geassembleerd voor de order, moet u bepaalde regels volgen wanneer u de voorraadpickregels maakt. Zie de sectie Op-order-assembleren-artikelen in voorraadpicks afhandelen voor meer informatie.  
 
 U kunt een voorraadpick op drie manieren maken:  
 
-- Maak de pick in twee stappen door eerst een voorraadpick aan te vragen door het brondocument vrij te geven. Dit zorgt ervoor dat er een waarschuwing wordt gestuurd naar het magazijn dat het brondocument kan worden gepickt. De voorraadpick kan vervolgens worden gemaakt vanuit het venster **Voorraadpick** op basis van het brondocument.  
+- Maak de pick in twee stappen door eerst een voorraadpick aan te vragen door het brondocument vrij te geven. Dit zorgt ervoor dat er een waarschuwing wordt gestuurd naar het magazijn dat het brondocument kan worden gepickt. De voorraadpick kan vervolgens worden gemaakt vanaf de pagina **Voorraadpick** op basis van het brondocument.  
 - Maak de voorraadpick rechtstreeks vanuit het brondocument.  
 - Gebruik de batchverwerking om voorraadpicks voor verschillende brondocumenten tegelijk te maken.  
 
@@ -70,7 +70,7 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadpick mak
 
 ## <a name="to-record-the-inventory-picks"></a>De voorraadpicks registreren  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpick** in en kies vervolgens de gerelateerde koppeling.  
-2. In het veld **Opslaglocatie** op de pickregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waaruit de artikelen moeten worden gepickt. De opslaglocatie in dit venster kunt u desgewenst wijzigen.  
+2. In het veld **Opslaglocatie** op de pickregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waaruit de artikelen moeten worden gepickt. De opslaglocatie op deze pagina kunt u desgewenst wijzigen.  
 3. Voer de pick uit en voer het werkelijk opgeslagen aantal in het veld **Te verwerken aantal** in.
 
     Als het nodig is de artikelen voor een regel vanuit meerdere opslaglocaties te picken, bijvoorbeeld omdat ze niet beschikbaar zijn in de aangewezen opslaglocatie, gebruikt u de functie **Regel splitsen** op het sneltabblad **Regels**. Zie voor meer informatie over het splitsen van regels [Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)  
@@ -87,11 +87,11 @@ Als er geen items op de voorraadpick beschikbaar zijn, kunt u deze voorraadpickr
 >  Als voorraadpickregels serie-/ lotnummers hebben die niet beschikbaar zijn, mag u de betreffende regels niet verwijderen. In plaats daarvan moet u het veld **Te verwerken aantal** wijzigen in nul, de werkelijke picks boeken en vervolgens het voorraadpickdocument verwijderen. Zo zorgt u ervoor dat de voorraadpickregels voor die serie-/lotnummers later opnieuw vanuit de verkooporder kunnen worden aangemaakt.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Op-order-assembleren-artikelen met voorraadpicks afhandelen
-Het venster **Voorraadpick** wordt ook gebruikt voor het picken en verzenden voor verkoop waarbij artikelen moeten worden geassembleerd voordat ze verzonden kunnen worden. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).
+De pagina **Voorraadpick** wordt ook gebruikt voor het picken en verzenden voor verkoop waarbij artikelen moeten worden geassembleerd voordat ze verzonden kunnen worden. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).
 
 Artikelen die verzonden moeten worden, zijn pas fysiek op een opslaglocatie aanwezig wanneer ze in het assemblagegebied worden geassembleerd en worden geboekt als uitvoer naar opslaglocatie. Dit betekent dat het picken van op-order-assembleren-artikelen voor verzending een bijzondere werkstroom volgt. Vanuit een opslaglocatie brengen magazijnmedewerkers de assemblageartikelen naar de verzenddock waar de voorraadpick wordt geboekt. Tijdens de geboekte voorraadpick worden de assemblageuitvoer, het materiaalverbruik en de verkoopverzending geboekt.
 
-U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat automatisch een voorraadverplaatsing wordt gemaakt wanneer de voorraadpick voor het assemblageartikel wordt gemaakt. Als u dit wilt inschakelen, selecteert u het veld **Verplaatsingen automatisch aanmaken** in het venster **Assemblage-instelling**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat automatisch een voorraadverplaatsing wordt gemaakt wanneer de voorraadpick voor het assemblageartikel wordt gemaakt. Als u dit wilt inschakelen, selecteert u het veld **Verplaatsingen automatisch aanmaken** op de pagina **Assemblage-instelling**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Voorraadpickregels voor verkoopartikelen worden op verschillende manieren gemaakt, al naar gelang geen, enkele of alle verkoopregelaantallen op order zijn geassembleerd.
 
@@ -101,7 +101,7 @@ Bij een op-order-assembleren-verkoop, waarbij het volledige aantal op de verkoop
 
 Als een assemblage-uitvoerstroom voor de locatie is ingesteld, wordt de waarde in het veld **Opslagloc. verz. asm.-op-order** of de waarde in het veld **Opslagloc.code Vanuit-assembl.**, in die volgorde, ingevoegd in het veld **Opslaglocatie** op de voorraadpickregel.
 
-Als geen opslaglocatie op de verkooporderregel is opgegeven en assemblage-uitvoerstroom voor de locatie is ingesteld, is het veld **Opslaglocatie** op de voorraadpickregel leeg. De magazijnmedewerker moet het venster **Opslaglocatie-inhoud** openen en de opslaglocatie selecteren waar de assemblageartikelen worden geassembleerd.
+Als geen opslaglocatie op de verkooporderregel is opgegeven en assemblage-uitvoerstroom voor de locatie is ingesteld, is het veld **Opslaglocatie** op de voorraadpickregel leeg. De magazijnmedewerker moet de pagina **Opslaglocatie-inhoud** openen en de opslaglocatie selecteren waar de assemblageartikelen worden geassembleerd.
 
 In combinatiescenario's waarbij een deel van de hoeveelheid eerst moet worden geassembleerd en een ander deel uit de voorraad moet worden gepickt, moeten minimaal twee voorraadpickregels worden gemaakt. Eén pickregel dient voor het op-order-assembleren-aantal. De andere pickregel is afhankelijk van welke opslaglocaties aan het resterend aantal in voorraad kunnen voldoen. Opslaglocatiescodes op de twee regels worden op verschillende manieren ingevuld, zoals voor de twee verschillende typen verkoop respectievelijk wordt beschreven. Zie voor meer informatie het gedeelte Combinatiescenario's in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
 

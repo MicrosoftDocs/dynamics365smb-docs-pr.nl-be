@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: aef3d672bf01425a36bdd599e18d9ee9dac73b2d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7fa3763f50549d418b0189604c170448b70c01b9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Onderhoud van vaste activa instellen
@@ -33,10 +33,10 @@ Als u de velden voor onderhoud instelt, kunt u onderhoudskosten boeken vanuit ee
 Als u onderhoudskosten boekt vanuit een algemeen dagboek, vult u het veld **Onderhoudscode** in om te registreren wat voor onderhoud is uitgevoerd, zoals periodiek onderhoud of reparatie.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Onderhoud** in en kies vervolgens de gerelateerde koppeling.
-2. Stel in het venster **Onderhoud** codes voor verschillende soorten onderhoudswerk in.
+2. Stel op de pagina **Onderhoud** codes voor verschillende soorten onderhoudswerk in.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Onderhoudskostenrekeningen instellen
-Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren in het venster **VA-boekingsgroepen**.
+Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren op de pagina **VA-boekingsgroepen**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul voor elke boekingsgroep het veld **Onderhoudskostenrek.** in.

@@ -11,17 +11,17 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: feb49e3c78329235cff68c8be009c996b1111812
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
 ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle vensters die u in uw werk nodig hebt.  
+Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
 
 ## <a name="accountant-role-center"></a>Rolcentrum Accountant
-Het rolcentrum is een dashboard met activiteittegels die realtime cijfers bevatten en die u snel toegang geven tot gegevens. In het lint boven in het venster hebt u toegang tot meer acties, zoals het openen van de vaakst gebruikte financiële rapporten en de rekeningoverzichten in Excel. Op de navigatiebalk bovenin kunt u snel schakelen tussen de lijsten die u het meest gebruikt. Hier ziet u andere gebieden, zoals **Geboekte documenten** met de diverse soorten documenten die het bedrijf heeft geboekt.  
+Het rolcentrum is een dashboard met activiteittegels die realtime cijfers bevatten en die u snel toegang geven tot gegevens. In het lint boven op de pagina hebt u toegang tot meer acties, zoals het openen van de vaakst gebruikte financiële rapporten en de rekeningoverzichten in Excel. Op de navigatiebalk bovenin kunt u snel schakelen tussen de lijsten die u het meest gebruikt. Hier ziet u andere gebieden, zoals **Geboekte documenten** met de diverse soorten documenten die het bedrijf heeft geboekt.  
 
 Als [!INCLUDE[d365fin](includes/d365fin_md.md)] nieuw voor u is, kunt u een overzicht van video's direct vanuit uw rolcentrum starten. U kunt ook een **Aan de slag**-rondleiding starten die wijst op belangrijke gebieden.  
 

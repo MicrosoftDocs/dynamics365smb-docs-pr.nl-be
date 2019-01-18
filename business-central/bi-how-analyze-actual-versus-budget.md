@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b21354a29c275013b7832459daec392efa6d751d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Werkelijke bedragen analyseren in vergelijking met budgetbedragen
@@ -28,14 +28,14 @@ Als u gebudgetteerde bedragen wilt analyseren, moet u eerst grootboekbudgetten m
 In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotingen bekijken.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.
-2. Open het budget dat u wilt weergeven in het venster **Grootboekbudgetten**.  
-3. Vul boven in het venster de benodigde velden in om te definiëren wat wordt weergegeven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Open het budget dat u wilt weergeven op de pagina **Grootboekbudgetten**.  
+3. Vul boven aan de pagina de benodigde velden in om te definiëren wat wordt weergegeven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Als u **Periode** hebt geselecteerd in het veld **Als regels weergeven** of **Als kolommen weergeven**, moet u het veld **Weergeven per** invullen. Als u **Periode** niet hebt geselecteerd in het veld **Als regels weergeven** of **Als kolommen weergeven** voert u de juiste periode in het veld **Datumfilter** in.  
 
 > [!NOTE]  
->   Alleen posten uit de grootboekbegroting met de filtercodes die u op het sneltabblad **Filters** hebt ingevoerd, worden in de berekening opgenomen. Budgetposten met andere filtercodes of zonder filtercodes worden niet opgenomen. Zolang het filter in het venster is ingesteld, worden in het budget alleen de budgetposten met deze filtercodes weergegeven.  
+>   Alleen posten uit de grootboekbegroting met de filtercodes die u op het sneltabblad **Filters** hebt ingevoerd, worden in de berekening opgenomen. Budgetposten met andere filtercodes of zonder filtercodes worden niet opgenomen. Zolang het filter op de pagina is ingesteld, worden in het budget alleen de budgetposten met deze filtercodes weergegeven.  
 
 > [!TIP]  
 >   Als u de begroting wilt aanpassen, kunt u de begrotingsposten aanpassen. Kies een bedrag om de onderliggende grootboekbudgetposten weer te geven.
@@ -44,24 +44,24 @@ In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotin
 U kunt grootboekbudgetten bekijken en ze vergelijken met werkelijke cijfers in verschillende onderdelen van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Rekeningschema** de actie **Saldo/Budget (Grootboek)**.
-3. Vul boven in het venster de benodigde velden in om te definiëren wat wordt weergegeven.  
+2. Kies op de pagina **Rekeningschema** de actie **Saldo/Budget (Grootboek)**.
+3. Vul boven aan de pagina de benodigde velden in om te definiëren wat wordt weergegeven.  
 4. Als u een specificatie wilt bekijken die deel uitmaakt van een weergegeven bedrag, moet u het veld kiezen.  
 
 > [!NOTE]  
->   De filters die u instelt op de vensterkop, worden toegepast op grootboekposten en budgetposten.
+>   De filters die u instelt in de paginakop, worden toegepast op grootboekposten en budgetposten.
 
 Het rekeningschema wordt weergegeven in de kolommen aan de linkerzijde. In de eerste vier van de vijf kolommen aan de rechterzijde worden de werkelijke en gebudgetteerde debet- en creditbedragen voor elke rekening weergegeven. De vijfde kolom geeft de verhouding weer tussen de werkelijke en gebudgetteerde bedragen op de grootboekrekening.  
 
 > [!TIP]  
->   Met het veld **Weergeven per** in het venster **Saldo/Budget (Grootboek)** kunt u de periodelenge selecteren. Gebruik het veld **Weergeven als** om te selecteren hoe bedragen worden berekend, **Mutatie** of **Saldo t/m datum**. Kies de actie **Vorige periode** of **Volgende periode** om de periode te wijzigen.  
+>   Met het veld **Weergeven per** op de pagina **Saldo/Budget (Grootboek)** kunt u de periodelengte selecteren. Gebruik het veld **Weergeven als** om te selecteren hoe bedragen worden berekend, **Mutatie** of **Saldo t/m datum**. Kies de actie **Vorige periode** of **Volgende periode** om de periode te wijzigen.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Werkelijke en gebudgetteerde bedragen bekijken voor verschillende perioden  
 In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde periode te bekijken voor alle rekeningen, kunt u een aantal perioden voor een afzonderlijke rekening bekijken.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer in het venster **Rekeningschema** de betreffende grootboekrekening en kies de actie **Rekeningsaldo/Budget**.  
-3. Vul boven in het venster de benodigde velden in om te definiëren wat wordt weergegeven.   
+2. Selecteer op de pagina **Rekeningschema** de betreffende grootboekrekening en kies de actie **Rekeningsaldo/Budget**.  
+3. Vul boven aan de pagina de benodigde velden in om te definiëren wat wordt weergegeven.   
 4. Als u een specificatie voor een weergegeven bedrag wilt bekijken, moet u het veld kiezen.  
 
 ## <a name="see-also"></a>Zie ook

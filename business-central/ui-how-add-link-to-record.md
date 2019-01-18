@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Koppelingen naar websites, documenten of programma's voor records toevoegen
@@ -26,7 +26,7 @@ Stel dat u afgedrukte facturen van leveranciers ontvangt. U kunt deze scannen en
 
 1.  Open de record waaraan u de koppeling wilt koppelen, zoals een klantenkaart of een verkooporder. Als u de koppeling aan een bepaalde regel wilt koppelen, bijvoorbeeld aan een regel in een dagboek, selecteert u de regel.  
 
-2.  Kies de actie **Koppelingen** om het venster **Koppelingen** te openen met alle koppelingen die aan die record zijn toegevoegd.
+2.  Kies de actie **Koppelingen** om de pagina **Koppelingen** te openen met alle koppelingen die aan die record zijn toegevoegd.
 
 3. Als u een nieuwe koppeling wilt toevoegen, kiest u **+nieuw**.
 
@@ -43,7 +43,7 @@ Stel dat u afgedrukte facturen van leveranciers ontvangt. U kunt deze scannen en
 
 ## <a name="to-delete-a-link-from-a-record"></a>Een koppeling uit een record verwijderen  
 
-Als u een koppeling wilt verwijderen, kunt u in het venster **Koppelingen** eerst **…** en vervolgens **Verwijderen** selecteren.
+Als u een koppeling wilt verwijderen, kunt u op de pagina **Koppelingen** eerst **…** en vervolgens **Verwijderen** selecteren.
 
 Als u één record verwijdert, bijvoorbeeld een verkooporderregel, een verkooporder of een klant, worden alle koppelingen verwijderd die aan die record zijn gekoppeld. Als u records echter verwijdert met een batchtaak, zoals de batchtaak **Gefact. verk.-orders verw.**, worden de koppelingen nog wel opgeslagen in de database. U kunt ze uit de database verwijderen door de code-unit **Bestandskoppelingen zonder recordreferentie verwijderen** uit te voeren. Als u dit wilt doen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Koppelingen zonder recordreferentie verwijderen** in en kiest u vervolgens de gerelateerde koppeling.   
 
@@ -51,7 +51,7 @@ Als u één record verwijdert, bijvoorbeeld een verkooporderregel, een verkoopor
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Zie ook  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

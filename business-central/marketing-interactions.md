@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Interacties beheren met contacten
@@ -30,7 +30,7 @@ Met het gebied relatiebeheer kunt u alle interactie registreren die u met uw con
 
 ##  <a name="setting-up-interaction-templates"></a>Interactiesjablonen instellen
 Voordat u interacties kunt maken en registreren moet u interactiesjablonen instellen. Wanneer u interacties maakt, moet u de interactiesjablonen opgeven waarop de interacties zijn gebaseerd. Een interactiesjabloon is een model dat de basiskenmerken van een interactie definieert.
-U stelt een interactiesjabloon in het venster **Interactiesjablonen** in.
+U stelt een interactiesjabloon op de pagina **Interactiesjablonen** in.
 
 Nadat u de gegevens voor de interactiesjabloon hebt ingevoerd, kunt u een bijlage maken, bijvoorbeeld een Microsoft Word-document. Herhaal de stappen om het gewenste aantal interactiesjablonen in te stellen.  
 
@@ -41,13 +41,13 @@ Er zijn twee manieren om interacties te registreren:
 * U kunt automatisch interacties registreren wanneer u acties uitvoert in de toepassing, bijvoorbeeld wanneer u een factuur of offerte afdrukt. Zie voor meer informatie [Automatisch interacties met contacten registreren](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren
-U kunt alle geregistreerde interacties die niet zijn verwijderd, weergeven in het venster **Interactielogposten**. U kunt dit venster openen door:
+U kunt alle geregistreerde interacties die niet zijn verwijderd, weergeven op de pagina **Interactielogposten**. U kunt deze pagina openen door:
 
 * Het pictogram **Zoeken naar pagina of rapport** gebruiken om te zoeken naar **Interactielogposten**.
 * De actie **Interactielogposten** kiezen voor een contact of segment.
-  Het venster **Interactielogpost** bevat de interacties die u handmatig maakt en de interacties die automatisch worden geregistreerd.
+  De pagina **Interactielogpost** bevat de interacties die u handmatig maakt en de interacties die automatisch worden geregistreerd.
 
-In dit venster kunt u:
+Op deze pagina kunt u het volgende doen:
 
 * De status van interacties weergegeven.
 * Interacties markeren als geannuleerd.

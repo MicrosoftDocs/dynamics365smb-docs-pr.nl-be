@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
 
-![Inhoud van het venster Planningsvoorstel](media/NAV_APP_supply_planning_1_planning_worksheet.png "Inhoud van het venster Planningsvoorstel")  
+![Inhoud van de pagina Planningsvoorstel](media/NAV_APP_supply_planning_1_planning_worksheet.png "Inhoud van de pagina Planningsvoorstel")  
 
 De planner van het bedrijf, bijvoorbeeld een inkoper of productieplanner, wordt naar verwachting de gebruiker van het planningssysteem. Het planningssysteem ondersteunt de gebruiker door de uitgebreide maar redelijk eenvoudige berekeningen van een planning uit te voeren. De gebruiker kan zich vervolgens richten op het oplossen van complexere problemen, zoals wanneer zaken afwijken van normaal.  
 
@@ -53,7 +53,7 @@ Zie [Ontwerpdetails: Werken met orders voor de geplande begindatum](design-detai
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamische ordertracering (tracering van de behoefte)  
 Dynamische ordertracering met het gelijktijdig maken van planningsboodschappen in het planningsvoorstel maakt geen deel uit van het voorzieningsplanningssysteem in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze functie koppelt, in realtime, de vraag en de aantallen die ze kunnen verwerken, wanneer een nieuwe vraag of voorziening wordt gemaakt of gewijzigd.  
 
-Als de gebruiker bijvoorbeeld een verkooporder invoert of wijzigt, zoekt het dynamisch ordertraceringssysteem direct geschikt aanbod om aan de vraag te voldoen. Dit kan uit voorraad zijn of van een verwachte order voor voorzieningen (zoals een inkooporder of productieorder). Wanneer een voorzieningsbron wordt gevonden, wordt een koppeling tussen de vraag en de voorziening gemaakt en weergegeven in alleen-weergavevensters die toegankelijk zijn via de betreffende documentregels. Wanneer geen passende voorziening kan worden gevonden, maakt het dynamische ordertraceringssysteem planningsboodschappen in het planningsvoorstel met voorstellen voor het voorzieningenplan die de dynamische vereffening aangeven. Het dynamische ordertraceringssysteem biedt een zeer elementair planningssysteem dat nuttig kan zijn voor de planner en voor andere rollen in de interne leveringsketen.  
+Als de gebruiker bijvoorbeeld een verkooporder invoert of wijzigt, zoekt het dynamisch ordertraceringssysteem direct geschikt aanbod om aan de vraag te voldoen. Dit kan uit voorraad zijn of van een verwachte order voor voorzieningen (zoals een inkooporder of productieorder). Wanneer een voorzieningsbron wordt gevonden, wordt een koppeling tussen de vraag en de voorziening gemaakt en weergegeven op alleen-weergavepagina's die toegankelijk zijn via de betreffende documentregels. Wanneer geen passende voorziening kan worden gevonden, maakt het dynamische ordertraceringssysteem planningsboodschappen in het planningsvoorstel met voorstellen voor het voorzieningenplan die de dynamische vereffening aangeven. Het dynamische ordertraceringssysteem biedt een zeer elementair planningssysteem dat nuttig kan zijn voor de planner en voor andere rollen in de interne leveringsketen.  
 
 Dynamische ordertracering kan worden beschouwd als een tool die de gebruiker helpt beoordelen of suggesties voor voorzieningenorders moeten worden geaccepteerd. Van de aanbodzijde kan een gebruiker zien welke vraag tot het aanbod heeft geleid en van de vraagzijde welk aanbod aan de vraag moet voldoen.  
 
@@ -158,7 +158,7 @@ Een order-aan-order koppeling tussen vraag en aanbod is een ander soort kenmerk 
 ### <a name="specific-attributes"></a>Specifieke kenmerken  
 Bepaalde kenmerken van vraag zijn specifiek en moeten precies overeenkomen met bijbehorende voorzieningen. Er zijn de volgende twee specifieke kenmerken:  
 
--   Vereiste serie-/lotnummers die bepaalde vereffening vereisen (het selectievakje **Specifieke serienr.-tracering** of **Specifieke lottracering** is ingeschakeld in het venster **Artikeltraceringscode** voor de artikeltraceringscode die door het artikel wordt gebruikt).  
+-   Vereiste serie-/lotnummers die bepaalde vereffening vereisen (het selectievakje **Specifieke serienr.-tracering** of **Specifieke lottracering** is ingeschakeld op de pagina **Artikeltraceringscode** voor de artikeltraceringscode die door het artikel wordt gebruikt).  
 -   Koppelingen naar voorzieningenorders die handmatig of automatisch worden gemaakt voor bepaalde vraag (order-naar-order koppelingen).  
 
 Voor deze kenmerken past het planningssysteem de volgende regels toe:  
@@ -211,7 +211,7 @@ De eerste kolom in het planningsvoorstel is voor de waarschuwingsvelden. Voor el
 
 Voorraad op planningsregels met waarschuwingen wordt gewoonlijk niet gewijzigd volgens planningsparameters. In plaats daarvan stelt het planningssysteem alleen een voorziening ter dekking van de hoeveelheid van de exacte vraag voor. Het systeem kan echter zo worden ingesteld dat bepaalde planningsparameters voor planningsregels met bepaalde waarschuwingen worden gerespecteerd. Zie de omschrijving van deze opties voor respectievelijk de batchverwerking **Plan berekenen - Planningsvoorstel** en de batchverwerking **Plan berekenen - Ink.-voorstel** voor meer informatie.  
 
-De waarschuwingsgegevens worden in het venster **Niet-getraceerde planningselementen** weergegeven, dat ook wordt gebruikt om ordertraceringskoppelingen te tonen aan niet-order systeementiteiten. De volgende waarschuwingstypen zijn mogelijk:  
+De waarschuwingsgegevens worden op de pagina **Niet-getraceerde planningselementen** weergegeven, die ook wordt gebruikt om ordertraceringskoppelingen te tonen aan niet-order systeementiteiten. De volgende waarschuwingstypen zijn mogelijk:  
 
 -   Noodgeval  
 -   Uitzondering  
@@ -252,7 +252,7 @@ De attentiewaarschuwing wordt in drie gevallen weergegeven:
 ## <a name="error-logs"></a>Foutenlogboeken  
 Op de aanvraagpagina Planning berekenen kan de gebruiker het veld **Stoppen en eerste fout tonen** selecteren om de planning te laten stoppen wanneer de eerste fout wordt geconstateerd. Tegelijkertijd wordt een boodschap weergegeven met informatie over de fout. Als er sprake is van een fout, worden alleen de planningsregels die zijn gemaakt voordat de fout werd geconstateerd, in het planningsvoorstel weergegeven.  
 
-Als het veld niet is geselecteerd, wordt de batchverwerking Planning berekenen voortgezet totdat deze is voltooid. Fouten onderbreken de batchverwerking niet. Als er een of meer fouten zijn, wordt na afloop een bericht weergegeven waarin staat hoeveel artikelen dit betreft aan de hand van fouten. Vervolgens wordt het venster **Planningfoutenlogboek** geopend met meer informatie over de fout en koppelingen naar de betreffende documenten of instellingskaart(en).  
+Als het veld niet is geselecteerd, wordt de batchverwerking Planning berekenen voortgezet totdat deze is voltooid. Fouten onderbreken de batchverwerking niet. Als er een of meer fouten zijn, wordt na afloop een bericht weergegeven waarin staat hoeveel artikelen dit betreft aan de hand van fouten. Vervolgens wordt de pagina **Planningfoutenlogboek** geopend met meer informatie over de fout en koppelingen naar de betreffende documenten of instellingskaart(en).  
 
 ![Foutmeldingen in het planningsvoorstel](media/NAV_APP_supply_planning_1_error_log.png "Foutmeldingen in het planningsvoorstel")  
 
@@ -264,10 +264,10 @@ Het veld kan handmatig worden ingesteld door de gebruiker, maar in sommige geval
 Zie [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md) voor meer informatie over het gebruik van dit veld.  
 
 ## <a name="order-planning"></a>Orderplanning  
-De planningfunctie voor algemene voorzieningen wordt weergegeven in het venster **Orderplanning** en is bedoeld voor handmatige besluitvorming. Deze houdt geen rekening met planningsparameters en wordt daarom niet verder besproken in dit document. Voor meer informatie over de orderplanningsfunctie raadpleegt u de Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De planningfunctie voor algemene voorzieningen wordt weergegeven op de pagina **Orderplanning** en is bedoeld voor handmatige besluitvorming. Deze houdt geen rekening met planningsparameters en wordt daarom niet verder besproken in dit document. Voor meer informatie over de orderplanningsfunctie raadpleegt u de Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Het is niet raadzaam Orderplanning te gebruiken als het bedrijf al gebruikmaakt van plannings- of inkoopvoorstellen. Orders voor voorzieningen die zijn gemaakt via het venster **Orderplanning** kunnen worden gewijzigd of verwijderd tijdens de automatisch uitgevoerde planningen. Dat komt doordat voor de geautomatiseerde planning planningsparameters worden gebruikt en deze niet in aanmerking kunnen worden genomen door gebruikers die handmatig plannen in het venster Orderplanning.  
+>  Het is niet raadzaam Orderplanning te gebruiken als het bedrijf al gebruikmaakt van plannings- of inkoopvoorstellen. Orders voor voorzieningen die zijn gemaakt via de pagina **Orderplanning** kunnen worden gewijzigd of verwijderd tijdens de automatisch uitgevoerde planningen. Dat komt doordat voor de geautomatiseerde planning planningsparameters worden gebruikt en deze niet in aanmerking kunnen worden genomen door gebruikers die handmatig plannen op de pagina Orderplanning.  
 
 ##  <a name="finite-loading"></a>Eindige bezettingsplanning  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een standaard ERP-systeem, geen verzend- of werkvloercontrolesysteem. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.  

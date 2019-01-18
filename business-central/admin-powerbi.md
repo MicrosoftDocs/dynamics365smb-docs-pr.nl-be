@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eae7e97ec122b91a479ad956176a0b34b269bcb6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfgegevens gereed maken voor Power BI
@@ -49,7 +49,7 @@ De Content Packs zijn vooraf geconfigureerd om te werken met gegevens van het vo
 
 U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in het rolcentrum naar **Rapportselectie** in het onderdeel Power BI-rolcentrum. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar de servicebibliotheek in Power BI, die ook wordt gefilterd op alleen weergave van inhoudspakketten die verband houden met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een venster geopend met de **AppSource** en **Apps voor Power BI-apps**.  
+2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een pagina geopend met de **AppSource** en **Apps voor Power BI-apps**.  
 ![Inhoudspakketten kiezen uit online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Selecteer **Apps** op het tabblad **Apps voor Power BI-apps** en kies het **Microsoft Dynamics 365 Business Central**-inhoudspakket dat u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

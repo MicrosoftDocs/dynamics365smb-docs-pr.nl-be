@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
@@ -38,10 +38,10 @@ Om de juiste voorraadwaardering te behouden, wilt u meestal retourartikelen in d
 
 Er zijn twee functies om kosten automatisch exact tegen te boeken.   
 
-|Functie|Omschrijving|  
+|Functie|Description|  
 |------------------|---------------------------------------|  
-|De functie **Geboekte documentregels ophalen voor tegenboeking** in het venster **Verkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de verkoopretourorder worden tegengeboekt. Zie voor meer informatie de sectie "Een verkoopretourorder en een gerelateerde verkoopcreditnota maken voor een of meer geboekte verkoopfacturen".|  
-|De functie **Document kopiëren** in de vensters **Verkoopcreditnota** en **Verkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld in het venster **Instellingen van verkoop en tegoeden**.|
+|De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Verkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de verkoopretourorder worden tegengeboekt. Zie voor meer informatie de sectie "Een verkoopretourorder en een gerelateerde verkoopcreditnota maken voor een of meer geboekte verkoopfacturen".|  
+|De functie **Document kopiëren** op de pagina's **Verkoopcreditnota** en **Verkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Instellingen van verkoop en tegoeden**.|
 
 Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld **Vereffenen met artikelpost** selecteren op elk soort retourdocumentregel en vervolgens het nummer van de oorspronkelijke verkooppost selecteren. Hierdoor wordt de verkoopcreditnota gekoppeld aan de oorspronkelijke verkooppost en wordt het artikel gewaardeerd op de oorspronkelijke kostprijs.
 
@@ -49,17 +49,17 @@ Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inv
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer in het venster **Geboekte verkoopfacturen** de geboekte verkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken**.
+2. Selecteer op de pagina **Geboekte verkoopfacturen** de geboekte verkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken**.
 
     De koptekst van de verkoopcreditnota bevat enkele gegevens uit de geboekte verkoopfactuur. U kunt deze gegevens bewerken, bijvoorbeeld met nieuwe gegevens die overeenkomen met de retourovereenkomst.  
 3. Bewerk de informatie op de regels volgens de overeenkomst, zoals het aantal geretourneerde artikelen of het terug te betalen bedrag.
 4. Kies de actie **Posten vereffenen**.
-5. Selecteer in het venster **Klantposten vereffenen** de regel met het geboekte verkoopdocument waarmee u de verkoopcreditnota wilt vereffenen, en kies vervolgens de actie **Vereffenings-id**.
+5. Selecteer op de pagina **Klantposten vereffenen** de regel met het geboekte verkoopdocument waarmee u de verkoopcreditnota wilt vereffenen, en kies vervolgens de actie **Vereffenings-id**.
 
     De id van de verkoopcreditnota is zichtbaar in het veld **Vereffenings-id**.
 6. Voer in het veld **Te vereffenen bedrag** het bedrag in dat u wilt vereffenen, als dit lager is dan het oorspronkelijke bedrag.  
 
-    Onder in het venster **Klantposten vereffenen** ziet u het totale te vereffenen bedrag om alle betrokken posten tegen te boeken, namelijk als de waarde in het veld **Saldo** nul is.
+    Onder op de pagina **Klantposten vereffenen** ziet u het totale te vereffenen bedrag om alle betrokken posten tegen te boeken, namelijk als de waarde in het veld **Saldo** nul is.
 7. Kies de knop **Ok**. Wanneer u de verkoopcreditnota boekt, wordt deze vereffend met de geboekte verkoopdocumenten.
 
     Nadat u de nodige verkoopcreditnotaregels hebt gemaakt of bewerkt en de enkele of meerdere vereffeningen zijn opgegeven, kunt u de verkoopcreditnota boeken.   
@@ -74,8 +74,8 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
 3. Voer in het veld **Klant** de naam in van een bestaande klant.
 4. Kies de actie **Document kopiëren**.
-5. Selecteer in het venster **Verkoopdocument kopiëren** in het veld **Documentsoort** **Geboekte factuur**.
-6. Selecteer het veld **Documentnr.** om het venster **Geboekte verkoopfacturen** te openen, en selecteer vervolgens de geboekte verkoopfactuur met de regels die u wilt tegenboeken.
+5. Selecteer op de pagina **Verkoopdocument kopiëren** in het veld **Documentsoort** **Geboekte factuur**.
+6. Selecteer het veld **Documentnr.** om de pagina **Geboekte verkoopfacturen** te openen, en selecteer vervolgens de geboekte verkoopfactuur met de regels die u wilt tegenboeken.
 7. Schakel het selectievakje **Regels opnieuw berekenen** in als u wilt dat de gekopieerde geboekte verkoopfactuurregels worden bijgewerkt met de wijzigingen in de artikelprijs en kostprijs sinds de factuur is geboekt.
 8. Kies de knop **Ok**. De gekopieerde factuurregels worden ingevoegd in de kredietnota van de verkoop.
 9. Voltooi de verkoopcreditnota zoals is uitgelegd in de sectie "Een nieuwe verkoopcreditnota maken op basis van een geboekte verkoopfactuur" in dit onderwerp.
@@ -87,15 +87,15 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 4. Vul op het sneltabblad **Regels** de regels handmatig in of kopieer informatie vanuit andere documenten om de regels automatisch in te vullen:
 
     - Met de functie **Geboekte documentregels ophalen voor tegenboeking** kopieert u een of meer geboekte documentregels uit een of meer geboekte documenten. Deze functie boekt altijd exact de kosten tegen vanuit de geboekte documentregel. Deze functie wordt in de volgende stappen beschreven.    
-    - Met de functie **Document kopiëren** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** in het venster **Verkoopinstellingen** is ingeschakeld.  
+    - Met de functie **Document kopiëren** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** op de pagina **Verkoopinstellingen** is ingeschakeld.  
 
 5. Kies de actie **Geboekte documentregels ophalen voor tegenboeking**.
-6. Schakel bovenaan in het venster **Geboekte verkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als een aantal op een geboekte verkoopfactuur bijvoorbeeld al is geretourneerd, wilt u dat aantal bijvoorbeeld mogelijk niet retourneren op een nieuw verkoopretourdocument.
+6. Schakel bovenaan de pagina **Geboekte verkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als een aantal op een geboekte verkoopfactuur bijvoorbeeld al is geretourneerd, wilt u dat aantal bijvoorbeeld mogelijk niet retourneren op een nieuw verkoopretourdocument.
 
     > [!NOTE]  
     >  Dit veld werkt alleen voor geboekte verzendingen en geboekte factuurregels, en niet voor geboekte retouren of geboekte creditnotaregels.
 
-    Links in het venster worden de andere documenttypen weergegeven. Het aantal tussen haakjes geeft aan hoeveel documenten beschikbaar zijn van elk documenttype.
+    Links op de pagina worden de andere documenttypen weergegeven. Het aantal tussen haakjes geeft aan hoeveel documenten beschikbaar zijn van elk documenttype.
 
 7. Selecteer in het veld **Documentsoortfilter**, het soort geboekte documentregels dat u wilt gebruiken.  
 8. Selecteer de regels die u naar het nieuwe document wilt kopiëren.  
@@ -119,28 +119,28 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 
     -   Als de geboekte documentregel artikeltraceringsregels bevat, wordt het veld **Vereffenen met artikelpost** op de artikeltraceringsregel gevuld met de desbetreffende artikelpostnummers uit de geboekte artikeltraceringsregels.  
 
-     Wanneer u vanuit een geboekte factuur of geboekte creditnota kopieert, worden alle relevante factuurkortingen en regelkortingen die geldig zijn op het moment van boeking, gekopieerd van het geboekte document naar de nieuwe documentregel. Houd er echter rekening mee dat als de optie **Factuurkorting berekenen** is geactiveerd in het venster **Verkoopinstellingen**, de factuurkorting opnieuw wordt berekend als u de nieuwe documentregel boekt. Het kan daardoor gebeuren dat het regelbedrag voor de nieuwe regel afwijkt van het regelbedrag voor de geboekte documentregel, afhankelijk van de nieuwe berekening van de factuurkorting.  
+     Wanneer u vanuit een geboekte factuur of geboekte creditnota kopieert, worden alle relevante factuurkortingen en regelkortingen die geldig zijn op het moment van boeking, gekopieerd van het geboekte document naar de nieuwe documentregel. Houd er echter rekening mee dat als de optie **Factuurkorting berekenen** is geactiveerd op de pagina **Verkoopinstellingen**, de factuurkorting opnieuw wordt berekend als u de nieuwe documentregel boekt. Het kan daardoor gebeuren dat het regelbedrag voor de nieuwe regel afwijkt van het regelbedrag voor de geboekte documentregel, afhankelijk van de nieuwe berekening van de factuurkorting.  
 
      > [!NOTE]  
      >  Als een deel van de hoeveelheid van de geboekte documentregel als is tegengeboekt of verkocht of geconsumeerd, wordt alleen een regel gemaakt voor de hoeveelheid die nog in voorraad is of die nog niet is geretourneerd. Als de volledige hoeveelheid van de geboekte documentregels al is tegengeboekt, wordt geen nieuwe documentregel gemaakt.  
      >   
      >  Als de goederenstroom in het geboekte document gelijk is aan de goederenstroom in het nieuwe document, wordt gewoon een kopie van de oorspronkelijke geboekte documentregel gemaakt in het nieuwe document. Het veld **Vereffenen met artikelpost** wordt niet ingevuld, omdat in dit geval het exact tegenboeken van kosten niet mogelijk is. Als u bijvoorbeeld de functie **Geboekte documentregels ophalen voor tegenboeking** wilt gebruiken om een geboekte verkoopcreditnotaregel op te halen voor een nieuwe verkoopcreditnota, wordt alleen de oorspronkelijke creditnotaregel naar de nieuwe creditnota gekopieerd.  
 
-10. Selecteer in het venster **Verkoopretourorder** in het veld **Retourreden** op elke regel de reden voor de retour.
+10. Selecteer op de pagina **Verkoopretourorder** in het veld **Retourreden** op elke regel de reden voor de retour.
 11. Kies de actie **Boeken**.
 
 ## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Een vervangingsverkooporder maken vanuit de verkoopretourorder
 U kunt een klant compenseren voor een artikel dat u deze hebt verkocht door het artikel te vervangen. U kunt het artikel vervangen door hetzelfde of een ander artikel. Dit kan voorkomen als u bijvoorbeeld per ongeluk het verkeerde artikel verzendt naar de klant.  
 
-1. Maak in het venster **Verkoopretourorder** voor een actief retourproces op een lege regel een negatieve post aan voor het vervangende artikel, door een negatief bedrag in te voeren in het veld **Aantal**.  
+1. Maak op de pagina **Verkoopretourorder** voor een actief retourproces op een lege regel een negatieve post aan voor het vervangende artikel, door een negatief bedrag in te voeren in het veld **Aantal**.  
 2. Kies de actie **Negatieve regels verplaatsen**.
-3. Vul in het venster **Neg. verkoopregels verplaatsen** in de velden de gewenste gegevens in.
-4. Kies de knop **OK**. De negatieve regel voor het vervangende artikel wordt verwijderd uit de verkoopretourorder en toegevoegd in een nieuw venster **Verkooporder**. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+3. Vul op de pagina **Neg. verkoopregels verplaatsen** in de velden de gewenste gegevens in.
+4. Kies de knop **OK**. De negatieve regel voor het vervangende artikel wordt verwijderd uit de verkoopretourorder en toegevoegd op een nieuwe pagina **Verkooporder**. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Retourgerelateerde documenten maken uit een verkoopretourorder
 U kunt automatisch vervangende verkooporders, verkoopretourorders en vervangingsverkooporders laten aanmeken in het verkoopretourproces. Dit is bijvoorbeeld nuttig in situaties waarin u artikelen wilt verwerken met door de leveranciers aangeboden garantie.
 
-1. Kies in het venster **Verkoopretourorder** voor een actief retourproces de actie **Retourgerel. documenten maken**.
+1. Kies op de pagina **Verkoopretourorder** voor een actief retourproces de actie **Retourgerel. documenten maken**.
 2. Voer in het veld **Leveranciersnr.** het nummer van een leverancier in, als u leverancierdocumenten automatisch wilt laten maken.
 3. Als een geretourneerd artikel moet worden geretourneerd naar de leverancier, schakelt u het selectievakje **Inkoopretourorder maken** in.
 4. Als een geretourneerd artikel moet worden besteld bij de leverancier, schakelt u het selectievakje **Inkooporder maken** in.
@@ -151,7 +151,7 @@ U kunt de klant een herbevoorradingstoeslag berekenen om de kosten van het terug
 
 U kunt deze verhoogde kosten als artikeltoeslag boeken in een creditnota of retourorder en vervolgens toewijzen aan de geboekte verzending. De volgende beschrijving behandelt dit voor een verkoopretourorder, maar dezelfde stappen zijn van toepassing op een verkoopcreditnota.
 
-1. Open het venster **Verkoopretourorder** voor een actief retourproces.
+1. Open de pagina **Verkoopretourorder** voor een actief retourproces.
 2. Selecteer op een nieuwe regel in het veld **Type** **Toeslag (Artikel)**.  
 3. Vul de velden in net als voor eventuele artikeltoeslagregels. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)  
 
@@ -169,7 +169,7 @@ U kunt deze gereduceerde prijs als artikeltoeslag boeken in een creditnota of re
      Mogelijk wilt u een speciaal artikeltoeslagnummer toewijzen voor verkoopprijskortingen.  
 6.  Geef **1** op in het veld **Aantal**.  
 7.  Geef het bedrag voor de verkoopprijskorting op in het veld **Eenheidsprijs**.  
-8.  Nu kunt u de verkoopprijskorting als artikeltoeslag  toewijzen aan de artikelen op de geboekte verzending. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar het venster **Verkoopcreditnota**.  
+8.  Nu kunt u de verkoopprijskorting als artikeltoeslag  toewijzen aan de artikelen op de geboekte verzending. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar de pagina **Creditnota**.  
 
 Wanneer u de verkoopretourorder boekt, wordt de verkoopprijskorting toegevoegd aan het bijbehorende verkooppostbedrag. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.
 
@@ -180,7 +180,7 @@ Wanneer de artikelen zijn aangekomen in het magazijn, boekt u de betreffende ver
 
 Wanneer u deze klant wilt gaan factureren, kunt u in plaats van elke verkoopretourorder afzonderlijk te factureren, een verkoopcreditnota maken en de geboekte retourontvangstregels automatisch naar dit document kopiëren. Vervolgens kunt u de verkoopcreditnota boeken en gemakkelijk alle openstaande verkoopretourorders tegelijk factureren.  
 
-Om retourverzendingen te combineren moet het selectievakje **Verzendingen combineren** zijn ingeschakeld in het venster **Klantenkaart**.  
+Om retourverzendingen te combineren moet het selectievakje **Verzendingen combineren** zijn ingeschakeld op de pagina **Klantenkaart**.  
 
 ### <a name="to-manually-combine-return-receipts"></a>Retourontvangsten handmatig combineren  
 
@@ -201,7 +201,7 @@ Om retourverzendingen te combineren moet het selectievakje **Verzendingen combin
 U kunt retourontvangsten automatisch combineren en beschikken over de optie om de creditnota's automatisch te boeken met de functie **Retourontvangsten combineren**.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Retourontvangsten combineren** in en kies vervolgens de gerelateerde koppeling.
-2. Vul in het venster **Retourontvangsten combineren** de velden in om de relevante retourontvangsten te selecteren.
+2. Vul op de pagina **Retourontvangsten combineren** de velden in om de relevante retourontvangsten te selecteren.
 3. Schakel het selectievakje **Creditnota's boeken** in. Als u dit niet doet, moet u de resulterende inkoopcreditnota's handmatig boeken.
 4.  Kies de knop **OK**.  
 

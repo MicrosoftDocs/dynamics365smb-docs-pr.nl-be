@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
@@ -42,7 +42,7 @@ Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zij
 3. Selecteer **Cheque** in het veld **Betalingswijze**.
 4. Selecteer **Automatische cheque** in het veld **Betalingssoort**.
 5. Kies de actie **Cheque afdrukken**.
-6. Vul indien nodig de velden in het venster **Cheque** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Vul de vereiste velden op het sneltabblad **Cheque** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Kies de knop **Verzenden naar**, selecteer de optie **PDF-document**, en kies de knop **OK**.
 
     De fysieke cheques kunnen nu naar de bank worden gebracht voor verwerking. Boek de betaling zoals vereffend met de leverancier en daarmee betaald in het systeem.
@@ -54,16 +54,16 @@ Er worden volledig vereffende leveranciersposten en bankposten gemaakt.
 > Als u cheques in meerdere valuta's van verschillende bankrekeningen wilt afdrukken en betalen, moet u de batchverwerking **Cheque afdrukken** voor elke valuta afzonderlijk uitvoeren en de juiste bankrekening opgeven.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Afgedrukte cheques annuleren die niet zijn geboekt
-U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **Ongeldige cheque** in het venster **Betalingsdagboek** te gebruiken.
+U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **Ongeldige cheque** op de pagina **Betalingsdagboek** te gebruiken.
 
-1. Kies in het venster **Betalingsdagboek** de actie **Ongeldige cheque** en kies vervolgens welke cheques u wilt annuleren.
+1. Kies op de pagina **Betalingsdagboek** de actie **Ongeldige cheque** en kies vervolgens welke cheques u wilt annuleren.
 
 ## <a name="to-void-checks"></a>Cheques nietig verklaren
 Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verklaren) vanuit de resulterende bankposten.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de betreffende bankrekening, kies de actie **Bewerken** en kies vervolgens de actie **Chequeposten**.
-3. Kies in het venster **Chequeposten** de actie **Ongeldige cheque**.
+3. Kies op de pagina **Chequeposten** de actie **Ongeldige cheque**.
 4. Schakel het selectievakje **Cheque alleen nietig verklaren** in.
 5. Kies de knop **OK**.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e66e5f2e6881ddb0d0919a0544b451e2aab1fc43
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Werken met servicecontracten en servicecontractoffertes
@@ -25,7 +25,7 @@ U kunt een servicecontract handmatig of uit een servicecontractofferte maken. U 
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Een servicecontract of servicecontractofferte maken  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** of **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuw servicecontract of een servicecontractofferte.  
-3. Vul het veld **Nr.** te kiezen. Er wordt een dialoogvenster geopend waarin wordt gevraagd of u de algemene gegevens van een contractsjabloon wilt invullen. Als u een dergelijk servicecontract of een dergelijke servicecontractofferte wilt maken, kies de knop **Ja**. Het venster **Servicecontractsjabloonoverzicht** wordt geopend.  
+3. Vul het veld **Nr.** te kiezen. Er wordt een dialoogvenster geopend waarin wordt gevraagd of u de algemene gegevens van een contractsjabloon wilt invullen. Als u een dergelijk servicecontract of een dergelijke servicecontractofferte wilt maken, kies de knop **Ja**. De pagina **Servicecontractsjabloonoverzicht** wordt geopend.  
 4. Selecteer de betreffende sjabloon en kies **OK** om deze te gebruiken voor het servicecontract of de servicecontractofferte.  
 5. Kies in het veld **Klantnr.** de klant.  
 6. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u een verschil in het jaarlijkse bedrag niet automatisch wilt verdelen. De waarden in de velden **Jaarlijks bedrag** en **Berekend jaarlijks bedrag** worden niet automatisch gebalanceerd. Als u wilt dat het programma automatisch het verschil in het jaarlijkse bedrag dat kan ontstaan door een wijziging in het servicecontract, verdeelt, schakelt u het selectievakje **Bedragen in onbalans toestaan** uit.  
@@ -66,17 +66,17 @@ U kunt een contractservicecreditnota gebruiken wanneer een klant een vooruitbeta
      Op het Sneltabblad **Facturering** worden de gegevens van de kaart **Klant** weergegeven. Als u de creditnota naar een andere klant dan de klant op het sneltabblad **Algemeen** wilt boeken, moet u in het veld **Factureren aan** het nummer van de betreffende klant invoeren.  
 
     > [!NOTE]  
-    >  U kunt de creditnota vergelijken met het oorspronkelijke geboekte document in het venster **Geboekte servicefacturen**. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte servicefacturen** in en kies vervolgens de gerelateerde koppeling.  
+    >  U kunt de creditnota vergelijken met het oorspronkelijke geboekte document op de pagina **Geboekte servicefacturen**. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte servicefacturen** in en kies vervolgens de gerelateerde koppeling.  
 
 5. Vul de velden **Boekingsdatum** en **Documentdatum** in.  
 6. Voer op de creditnotaregels gegevens in over de artikelen die zijn teruggebracht of verwijderd of over de vergoeding die wordt verzonden. U kunt ook de batchverwerking **Vooruitbet. contractposten ophalen** gebruiken.  
 
- Als u automatisch een creditnota wilt maken wanneer u contractregels verwijdert, moet u het selectievakje **Automatische creditnota's** inschakelen op het Sneltabblad **Factuurdetails** in het venster **Servicecontract**.  
+ Als u automatisch een creditnota wilt maken wanneer u contractregels verwijdert, moet u het selectievakje **Automatische creditnota's** inschakelen op het sneltabblad **Factuurdetails** op de pagina **Servicecontract**.  
 
- Om handmatig een creditnota te maken wanneer contractregels worden verwijderd van een servicecontract, kies in het venster **Servicecontract** in het tabblad **Acties** in de groep **Functies** de optie **Creditnota**.  
+ Om handmatig een creditnota te maken wanneer contractregels worden verwijderd van een servicecontract, kies op de pagina **Servicecontract** in het tabblad **Acties** in de groep **Functies** de optie **Creditnota**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Contracten bijwerken en evalueren
-Het kan voorkomen dat u de voorwaarden van een contract moet wijzigen nadat het contract is gemaakt. In de meeste gevallen opent u het betreffende contract in het venster **Servicecontract**, waar u de gewenste wijzigingen aanbrengt.  
+Het kan voorkomen dat u de voorwaarden van een contract moet wijzigen nadat het contract is gemaakt. In dergelijke gevallen kunt u het desbetreffende contract meestal openen op de pagina **Servicecontract** en de gewenste wijzigingen aanbrengen.  
 
 U kunt de status van het contract wijzigen, aanvankelijk ingesteld op **Vergrendeld**, contractregels toevoegen en verwijderen en een contract annuleren. Voor een overzicht van de winst-/verliesposten van uw bedrijf kunt u een snelle bedrijfsanalyse uitvoeren met de functie Contract-trendscape.
 
@@ -97,12 +97,12 @@ U moet mogelijk contractregels uit het servicecontract verwijderen als u de over
 2. Open het servicecontract waaruit u contractregels wilt verwijderen.  
 3. Kies de actie **Contract openen** om het servicecontract te openen en bewerken.  
 4. Kies de contractregel die u wilt verwijderen. Vul het veld **Vervaldatum van contract** in met de datum vanaf wanneer u de regel wilt verwijderen. U kunt bijvoorbeeld de datum invoeren waarop het serviceartikel defect is geraakt.  
-5. Kies de actie **Contractregels verwijderen**. Het venster **Contractregels verwijderen** wordt geopend.  
+5. Kies de actie **Contractregels verwijderen**. De pagina **Contractregels verwijderen** wordt geopend.  
 6. Vul de standaardfilters **Contractnr.**, **Serviceartikelnr.** en **Contractsoort** in. Desgewenst kunt u meer filters toepassen of bestaande filters wijzigen.  
 7. Vul de velden van het sneltabblad **Opties** in. In het veld **Actie** selecteert u **Regels verwijderen**.  
 
 > [!NOTE]  
->  Als het contract niet gedetailleerd is, moet u de waarde in het veld **Jaarlijks bedrag** op het sneltabblad **Factuurdetails** in het venster **Servicecontract** bijwerken om het verlies van het serviceartikel uit het contract aan te geven.  
+>  Als het contract niet gedetailleerd is, moet u de waarde in het veld **Jaarlijks bedrag** op het sneltabblad **Factuurdetails** op de pagina **Servicecontract** bijwerken om het verlies van het serviceartikel uit het contract aan te geven.  
 >   
 >  Als het contract gedetailleerd en vooruitbetaald is, en hebt u facturen voor het contract geboekt, kunt u een creditnota voor het contract maken. Kies op het tabblad **Acties** in de groep **Functies** de optie **Creditnota maken**. Dit is nodig als het selectievakje in het veld **Automatische creditnota's** op het sneltabblad **Factuurdetails** is geselecteerd. In dat geval wordt er automatisch een creditnota gemaakt wanneer u een contractregel verwijdert.
 
@@ -126,12 +126,12 @@ U kunt contractkortingen op services toevoegen voor contractoffertes en servicec
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractoffertes** in en kies de gerelateerde koppeling.  
 2. Kies de offerte waarvoor u kortingen wilt toevoegen.  
-3. Kies de actie **Servicekortingen**. Het venster **Contract-/servicekortingen** wordt geopend.  
+3. Kies de actie **Servicekortingen**. De pagina **Contract-/servicekortingen** wordt geopend.  
 4. Kies de actie **Nieuw** om een nieuwe contractkorting te maken.  
 5. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 
 > [!Tip]  
->  Als u contractkortingen rechtstreeks wilt toevoegen aan een servicecontract, voert u dezelfde procedure uit vanuit het venster **Servicecontract**.  
+>  Als u contractkortingen rechtstreeks wilt toevoegen aan een servicecontract, voert u dezelfde procedure uit vanuit de pagina **Servicecontract**.  
 
 ## <a name="to-change-the-owner-of-a-service-contract"></a>Eigenaar van servicecontracten wijzigen  
 Mogelijk moet u de eigenaar van een servicecontract wijzigen Als een serviceartikel in een servicecontract is geregistreerd in niet-geannuleerde meervoudige contracten van dezelfde klant, wordt automatisch de eigenaar gewijzigd van alle servicecontracten die dit serviceartikel bevatten en van alle andere serviceartikelen in deze contracten.  
@@ -146,7 +146,7 @@ Mogelijk moet u de eigenaar van een servicecontract wijzigen Als een servicearti
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** in en kies vervolgens de gerelateerde koppeling. Open het betreffende servicecontract waarvoor u de eigenaar wilt wijzigen.  
 2. Kies de actie **Contract openen** om het contract te openen en bewerken.  
-3. Kies de actie **Klant wijzigen**. Het venster **Klant in contract wijzigen** wordt geopend.  
+3. Kies de actie **Klant wijzigen**. De pagina **Klant in contract wijzigen** wordt geopend.  
 4. In de velden **Contractnr.** en **Serviceartikelnr.** kunt u de nummers bekijken van het contract en het serviceartikel van de geselecteerde klant. Als de klant eigenaar is van meerdere contracten waarin meerdere serviceartikelen zijn opgenomen, is de waarde van deze velden **Meervoudig**. Als u de lijst met verwante contracten of serviceartikelen wilt bekijken, selecteert u deze waarden.  
 5. Selecteer in het veld **Nieuw klantnr.** de nieuwe klant.  
 6. In het veld **Nieuwe verzendcode** kiest u het adres.  
@@ -165,7 +165,7 @@ U kunt een prijsaanpassingspercentage opgeven om de prijzen voor servicecontract
 ## <a name="to-post-prepaid-contract-entries"></a>Vooruitbetaalde contractposten boeken  
 Als u werkt met vooruitbetaalde servicecontracten, moet u regelmatig vooruitbetaalde contractposten boeken. Zo maakt u de vooruitbetalingen van de vooruitbetalingsrekeningen voor contracten over naar de gewone contractrekeningen.  
 
-Voordat u vooruitbetaalde contractposten kunt boeken, moet u een nummerreeks opgeven in het veld **Boekingsdoc.-nrs. vooruitbetalingen** in het venster **CRM – Service-instellingen**.  
+Voordat u vooruitbetaalde contractposten kunt boeken, moet u een nummerreeks opgeven in het veld **Boekingsdoc.-nrs. vooruitbetalingen** op de pagina **CRM – Service-instellingen**.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vooruitbet. contractposten boeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Geef een datum op in het veld **Boeken tot datum**. Met de batchverwerking worden vooruitbetaalde serviceposten geboekt met boekingsdatums tot deze datum.  
@@ -190,13 +190,13 @@ Als een contract is verlopen of door u of de klant is geannuleerd, moet u het be
 3. Kies de actie **Contract openen** om het servicecontract te openen en bewerken.  
 4. In het veld **Annuleringsredencode** kiest u de betreffende redencode. Als u meer redencodes wilt toevoegen, kiest u de actie **Geavanceerd**.  
 
-     Als het selectievakje in het veld **Contractannuleringsreden gebruiken** in het venster **Servicebeheerinstellingen** is ingeschakeld, moet u een annuleringsredencode opgeven als u contracten annuleert.  
+     Als het selectievakje in het veld **Contractannuleringsreden gebruiken** op de pagina **Servicebeheerinstellingen** is ingeschakeld, moet u een annuleringsredencode opgeven als u contracten annuleert.  
 
 5. Selecteer in het veld **Status** de optie **Geannuleerd**.  
 6. Als er niet-geboekte facturen, creditnota's of geopende vooruitbetaalde posten zijn voor het contract, wordt er een bevestigingsbericht weergegeven. Klik in het berichtvak op **Nee** als u wilt terugkeren naar het contract om de documenten te boeken. Klik op **Ja** als u verder wilt gaan met het annuleren.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Servicecontracten of contractoffertes archiveren  
-U kunt servicecontracten en contractoffertes op elk moment archiveren om een kopie van het contract of de contractofferte vast te leggen. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiveert servicecontracten automatisch wanneer u contractoffertes omzet in servicecontracten of servicecontracten annuleert. U kunt een contract of offerte zelf archiveren met de actie **Contract archiveren** in het venster **Servicecontracten** of **Servicecontractoffertes**. Als u uw gearchiveerde contracten van offertes wilt weergeven, zoekt u op **Gearchiveerde contracten**.
+U kunt servicecontracten en contractoffertes op elk moment archiveren om een kopie van het contract of de contractofferte vast te leggen. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiveert servicecontracten automatisch wanneer u contractoffertes omzet in servicecontracten of servicecontracten annuleert. U kunt een contract of offerte zelf archiveren met de actie **Contract archiveren** op de pagina **Servicecontracten** of **Servicecontractoffertes**. Als u uw gearchiveerde contracten van offertes wilt weergeven, zoekt u op **Gearchiveerde contracten**.
 
 ## <a name="see-also"></a>Zie ook  
 [Servicecontracten instellen](service-how-setup-service-contracts.md)  

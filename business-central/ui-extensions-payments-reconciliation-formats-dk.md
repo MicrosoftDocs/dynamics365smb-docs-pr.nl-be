@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2a2fbae74dd5f6c401cfe8fa9b31c27e90a604b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsg
 
 ### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] toestaan betalingsgegevens te exproteren
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Betalingsdagboek bewerken** de batch **Bank**.  
+2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  
 3. Schakel het selectievakje **Exporteren betaling toestaan** in.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Een betalingswijze voor een leverancier opgeven

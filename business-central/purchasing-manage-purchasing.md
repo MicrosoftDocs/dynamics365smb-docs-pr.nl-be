@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4f27c9ad628fa66f692a862e59cd0b306b02c6c
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="purchasing"></a>Inkopen
@@ -40,6 +40,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Voer een actie op een onbetaalde, geboekte inkoopfactuur uit om automatisch een creditmemo te maken en de inkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Niet-betaalde verkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Inkoopretouren of annuleringen verwerken](purchasing-how-register-new-vendors.md) |
 |Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|
+|Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Leer hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>Zie ook
@@ -51,5 +52,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

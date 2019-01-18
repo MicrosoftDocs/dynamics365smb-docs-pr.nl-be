@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
@@ -31,7 +31,7 @@ Als u aan de bulkopslaglocaties alleen de activiteit **Opslag** hebt toegewezen,
 ## <a name="to-replenish-pick-bins"></a>U kunt als volgt pickopslaglocaties aanvullen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocatieaanvulling berekenen** om de rapportaanvraagpagina te openen.  
-3.  Geef in het opvraagvenster voor de batchverwerking criteria op om het aantal aanvullingsvoorstellen te beperken dat wordt berekend. Wellicht bent u alleen geïnteresseerd in bepaalde artikelen, zones of opslaglocaties.  
+3.  Geef op de opvraagpagina voor de batchverwerking criteria op om het aantal aanvullingsvoorstellen te beperken dat wordt berekend. Wellicht bent u alleen geïnteresseerd in bepaalde artikelen, zones of opslaglocaties.  
 4.  Kies de knop **Ok**. Er worden regels gemaakt voor de aanvullingsverplaatsingen die moeten worden uitgevoerd. Dit gebeurt op basis van de voorschriften die zijn opgesteld voor de opslaglocaties en de bijhorende inhoud, zijnde artikelen in de opslaglocaties.  
 5.  Als u alle voorgestelde aanvullingen wilt uitvoeren, kiest u de actie **Verplaatsing maken**. De magazijnmedewerkers kunnen de instructies bekijken onder het menu-item **Verplaatsingen**, ze uitvoeren en vervolgens registreren.  
 6.  Als u alleen wilt dat sommige voorstellen worden uitgevoerd, verwijdert u de minder belangrijke regels. Vervolgens maakt u een verplaatsingsinstructie.  

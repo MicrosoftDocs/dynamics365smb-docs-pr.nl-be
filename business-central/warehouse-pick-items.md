@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Artikelen picken
@@ -27,9 +27,9 @@ Als u de pickactiviteiten wilt ordenen en vastleggen met behulp van magazijndocu
 > [!NOTE]
 > Hoewel de instelling **Pick vereist** wordt genoemd, kunt u nog wel verzendingen rechtstreeks vanuit het bronbedrijfsdocument boeken voor vestigingen waarvoor u dit selectievakje inschakelt.
 
-Als voor uw vestiging pickverwerking is ingesteld, maar niet verzendingsverwerking, gebruikt u het venster **Voorraadpick** om de pickinformatie in te delen, om deze af te drukken, om het resultaat van de pick in te voeren en om de pickinformatie te boeken, waardoor vervolgens de verzending van de artikelen wordt geboekt. Wanneer u onderdelen voor een productieorder pickt, wordt ook het verbruik geboekt wanneer u de pick boekt.
+Als voor uw vestiging pickverwerking is ingesteld, maar niet verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om de pickinformatie in te delen, om deze af te drukken, om het resultaat van de pick in te voeren en om de pickinformatie te boeken, waardoor vervolgens de verzending van de artikelen wordt geboekt. Wanneer u onderdelen voor een productieorder pickt, wordt ook het verbruik geboekt wanneer u de pick boekt.
 
-Wanneer voor uw vestiging de verwerking van zowel picken als verzending vereist is en de velden **Pick vereist** en **Verzending vereist** op de locatiekaart zijn ingeschakeld, gebruikt u het venster **Magazijnpick** om de pick te verwerken. U voert een magazijnpick op dezelfde manier uit als een voorraadpick, maar in plaats van de pickgegevens te boeken, registreert u de pick. Met dit registratieproces wordt de verzending niet geboekt, maar maakt u de artikelen alleen beschikbaar voor verzending. Als magazijnmanager kunt u met behulp van pickvoorstellen pickgegevens ordenen voordat de afzonderlijke magazijnpickinstructies worden gemaakt.
+Wanneer voor uw vestiging de verwerking van zowel picken als verzending vereist is en de velden **Pick vereist** en **Verzending vereist** op de locatiekaart zijn ingeschakeld, gebruikt u de pagina **Magazijnpick** om de pick te verwerken. U voert een magazijnpick op dezelfde manier uit als een voorraadpick, maar in plaats van de pickgegevens te boeken, registreert u de pick. Met dit registratieproces wordt de verzending niet geboekt, maar maakt u de artikelen alleen beschikbaar voor verzending. Als magazijnmanager kunt u met behulp van pickvoorstellen pickgegevens ordenen voordat de afzonderlijke magazijnpickinstructies worden gemaakt.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 

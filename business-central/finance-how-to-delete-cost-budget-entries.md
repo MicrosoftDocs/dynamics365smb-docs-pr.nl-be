@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f578247ef835b3c7803adb123e18eec62b0864b9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten verwijderen
@@ -34,7 +34,7 @@ Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u 
 2.  Kies de knop **OK** om de geselecteerde kostenbegrotingsposten te verwijderen.  
 
 > [!NOTE]  
->  Om te voorkomen dat kostenbegrotingsposten onbedoeld worden verwijderd, kunt u journaalposten sluiten door de regels als **gesloten** te markeren in het veld **Gesloten** in het venster **Kostenbudgetregisters**.  
+>  Om te voorkomen dat kostenbegrotingsposten onbedoeld worden verwijderd, kunt u journaalposten sluiten door de regels als **gesloten** te markeren in het veld **Gesloten** op de pagina **Kostenbudgetregisters**.  
 
 ## <a name="see-also"></a>Zie ook  
 [Kosten verantwoorden](finance-manage-cost-accounting.md)

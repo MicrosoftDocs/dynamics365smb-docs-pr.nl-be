@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te 
 ## <a name="viewing-statistics-for-service-orders"></a>Statistieken voor serviceorders weergeven
 De functie serviceorderstatistiek biedt u een overzicht van de inhoud van de volledige serviceorder, de details op de serviceregels en gegevens met betrekking tot facturering, verzending en verbruik, evenals het saldo van de klant.  
 
-De statistiekgegevens voor een serviceorder worden weergegeven in het venster **Serviceorderstatistiek** voor de desbetreffende order. U kunt het desbetreffende venster openen vanuit een serviceorder. Kies **Statistieken** in het venster **Serviceorders**. Op de sneltabbladen in dit venster worden gegevens als aantal, bedrag, btw, kosten, winst en de kredietlimiet van de klant weergegeven. De bedragen in het venster zijn gesteld in de valuta van de serviceorder, tenzij anders aangegeven.  
+De statistiekgegevens voor een serviceorder worden weergegeven op de pagina **Serviceorderstatistiek** voor de desbetreffende order. U kunt de desbetreffende pagina openen vanuit een serviceorder. Kies **Statistieken** op de pagina **Serviceorders**. Op de sneltabbladen op de pagina worden gegevens als aantal, bedrag, btw, kosten, winst en de kredietlimiet van de klant weergegeven. De bedragen op de pagina zijn gesteld in de valuta van de serviceorder, tenzij anders aangegeven.  
 
 ### <a name="view-totals-for-a-service-order"></a>Totalen voor een serviceorder weergeven  
 U kunt het totaalbedrag op de serviceregels (inclusief en exclusief btw), het btw-gedeelte, de kosten en de winst op de serviceregels weergeven. Daarnaast wordt er artikelspecifieke informatie weergegeven, zoals het gewicht, het volume en het aantal colli.  
@@ -54,7 +54,7 @@ U kunt de gegevens analyseren op basis van de soorten serviceregels die zijn opg
 Bekijk het saldo van de klantenrekening en het maximale krediet dat kan worden verleend aan de klant voor wie u het servicedocument hebt opgesteld.
 
 ## <a name="viewing-service-item-statistics"></a>Serviceartikelstatistieken weergeven
-In het venster **Serviceartikelstatistiek** kunt u bijgewerkte gegevens over een serviceartikel bekijken op basis van de volgende serviceboekingssoorten:  
+Op de pagina **Serviceartikelstatistiek** kunt u bijgewerkte gegevens over een serviceartikel bekijken op basis van de volgende serviceboekingssoorten:  
 
 * Resources  
 * Artikelen  
@@ -67,7 +67,7 @@ Voor elk boekingssoort kunt u het gefactureerde bedrag, het verbruik (bedrag), d
 * (Gefactureerd bedrag - Gebruik (Kosten)) x 100 / Gefactureerd bedrag  
 
 ## <a name="using-trendscapes"></a>Trendscapes gebruiken
-Voor serviceartikelen en servicecontracten biedt het venster **Serviceartikel Trendscape** of **Contract Trendscape** een overzicht van serviceposten gedurende een periode voor een bepaald serviceartikel of contract. U kunt de trendscape weergeven door het serviceartikel of contract te openen, de actie **Statistieken** te kiezen en vervolgens **Trendscape** te kiezen.
+Voor serviceartikelen en servicecontracten biedt de pagina **Serviceartikel Trendscape** of **Contract Trendscape** een overzicht van serviceposten gedurende een periode voor een bepaald serviceartikel of contract. U kunt de trendscape weergeven door het serviceartikel of contract te openen, de actie **Statistieken** te kiezen en vervolgens **Trendscape** te kiezen.
 
 Wanneer u de lijst doorloopt, worden de bedragen berekend op basis van het opgegeven tijdsinterval en weergegeven in de lokale valuta. De bedragen worden berekend op basis van serviceposten. Dit zijn de posten die worden gemaakt wanneer u serviceorders of servicefacturen boekt.
 
@@ -88,25 +88,25 @@ Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contr
 |**Winst/verlies contract (Divisie)**|Het winst-/verliescontract per divisie weergeven.|  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam van de weer te geven pagina in en kies de gerelateerde koppeling.  
-2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld in het venster **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter**.  
+2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld op de pagina **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter**.  
 3. Kies de actie **Matrix weergeven**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Statistieken voor geboekte servicedocumenten weergeven
 Met de functie voor servicestatistieken kunt u een statistisch overzicht opstellen van de inhoud van geboekte servicedocumenten, zoals geboekte verzendingen, facturen en creditnota's.  
 
-De statistische informatie wordt weergegeven in het statistiekvenster voor het bijbehorende geboekte servicedocument. U kunt het desbetreffende statistiekvenster openen vanuit een geboekte serviceverzending, geboekte servicefactuur of geboekte servicecreditnota. Kies voor elk van deze documentsoorten op het tabblad **Starten** in de groep **Verwerken** de optie **Statistiek**. Kies bijvoorbeeld in het venster **Geboekte servicefacturen** op het tabblad **Start** in de groep **Verwerken**, de optie **Statistiek**.  
+De statistische informatie wordt weergegeven op de statistiekpagina voor het bijbehorende geboekte servicedocument. U kunt de desbetreffende statistiekpagina openen vanuit een geboekte serviceverzending, geboekte servicefactuur of geboekte servicecreditnota. Kies voor elk van deze documentsoorten op het tabblad **Starten** in de groep **Verwerken** de optie **Statistiek**. Kies bijvoorbeeld op de pagina **Geboekte servicefacturen** op het tabblad **Start** in de groep **Verwerken**, de optie **Statistiek**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiek geboekte serviceverzendingen  
-In het venster **Statistiek serviceverzendingen** wordt een overzicht gegeven van een geboekte serviceverzending. Het venster bevat informatie over de fysieke inhoud van de verzending, zoals het aantal verzonden artikelen, resource-uren of -kosten, en gewicht en volume van de verzonden artikelen.  
+Op de pagina **Statistiek serviceverzendingen** wordt een overzicht gegeven van een geboekte serviceverzending. Het venster bevat informatie over de fysieke inhoud van de verzending, zoals het aantal verzonden artikelen, resource-uren of -kosten, en gewicht en volume van de verzonden artikelen.  
 
 ### <a name="posted-service-invoice-statistics"></a>Statistiek geboekte servicefacturen  
-In het venster **Statistiek servicefacturen** wordt een statistisch overzicht gegeven van een geboekte servicefactuur. U kunt de totalen van de geboekte servicefactuur bekijken. U vindt hier onder andere het totaalbedrag op de serviceregels (inclusief en exclusief btw) dat als gefactureerd is geboekt, het btw-gedeelte, de kosten en de winst op de geboekte factuur. Daarnaast bevat het venster informatie over het volgende:  
+Op de pagina **Statistiek servicefacturen** wordt een statistisch overzicht gegeven van een geboekte servicefactuur. U kunt de totalen van de geboekte servicefactuur bekijken. U vindt hier onder andere het totaalbedrag op de serviceregels (inclusief en exclusief btw) dat als gefactureerd is geboekt, het btw-gedeelte, de kosten en de winst op de geboekte factuur. Daarnaast bevat de pagina informatie over het volgende:  
 
 * De artikelen op de servicefactuurregels, zoals gewicht, volume en het aantal colli.  
 * Het saldo op de rekening van de klant en het maximumkrediet dat u de klant kunt verlenen.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Statistiek Geboekte servicecreditnota  
-Het venster **Statistiek servicecreditnota's** biedt een statistisch overzicht van de regels in een geboekte servicecreditnota. Het overzicht kan het volgende bevatten:
+De pagina **Statistiek servicecreditnota's** biedt een statistisch overzicht van de regels in een geboekte servicecreditnota. Het overzicht kan het volgende bevatten:
 
 * De totale bedragen op de geboekte creditnota, weergegeven als het aantal, het bedrag, de btw, de kosten en de winst. Daarnaast vindt u hier informatie over de artikelen op de serviceregels van de geboekte creditnota, zoals aantal, gewicht en volume.  
 * Algemene informatie over de klant, zoals de kredietlimiet van de klant en het rekeningsaldo.  

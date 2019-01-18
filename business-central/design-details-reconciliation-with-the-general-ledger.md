@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Ontwerpdetails: Reconciliatie met het grootboek
@@ -35,7 +35,7 @@ De boekingsdatums van de grootboekposten worden ingesteld op de boekingsdatum va
 Wanneer u de batchverwerking **Voorraadwaarde boeken** uitvoert, treden mogelijk fouten op met betrekking tot ontbrekende instellingen of incompatibele dimensie-instellingen. Als de batchverwerking fouten aantreft in de dimensie-instellingen, worden deze fouten overschreven en worden de dimensies van de waardepost gebruikt. De batchverwerking boekt geen waardeposten voor alle andere fouten en vermeldt deze aan het einde van de lijst in de sectie **Overgeslagen posten**. U dient de fouten te corrigeren om deze posten te kunnen boeken. Als u een lijst met fouten wilt weergeven voordat u de batchverwerking uitvoert, kunt u het rapport **Voorraadkosten naar GB boeken - Controle** uitvoeren. In deze lijst worden alle fouten vermeld die zijn opgetreden tijdens een controleboeking. U kunt de fouten corrigeren en dan de batchverwerking voor het boeken van voorraadkosten uitvoeren zonder posten over te slaan.  
 
 ## <a name="automatic-cost-posting"></a>Autom. voorraadwaarde boeken  
-Als u kostenboeking naar het grootboek wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, schakelt u het selectievakje **Autom. voorraadwaarde boeken** in het venster **Voorraadinstelling** in. De boekingsdatum van de grootboekpost is gelijk aan de boekingsdatum van de artikelpost.  
+Als u kostenboeking naar het grootboek wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, schakelt u het selectievakje **Autom. voorraadwaarde boeken** op de pagina **Voorraadinstelling** in. De boekingsdatum van de grootboekpost is gelijk aan de boekingsdatum van de artikelpost.  
 
 ## <a name="account-types"></a>Rekeningsoorten  
 Tijdens reconciliatie worden voorraadwaarden geboekt naar de voorraadrekening in de balans. Hetzelfde bedrag, maar met het tegengestelde teken, wordt naar de relevante tegenrekening geboekt. Gewoonlijk is de tegenrekening een resultatenrekening. Wanneer u echter directe kosten boekt in verband met verbruik of output, is de tegenrekening een balansrekening. Het soort van de artikelpost en de waardepost bepaalt naar welke grootboekrekening wordt geboekt.  
@@ -45,7 +45,7 @@ Het boekingssoort geeft aan naar welke grootboekrekening moet worden geboekt. Di
 ### <a name="example"></a>Opmerking  
 In het volgende voorbeeld wordt een fietsketting getoond die wordt geproduceerd van aangeschafte schakels. Dit voorbeeld geeft aan hoe de diverse grootboekrekeningsoorten in een typisch scenario worden gebruikt.  
 
-Het selectievakje **Verw. kostprijs naar GB boeken** in het venster **Voorraadinstelling** is ingeschakeld en de volgende instelling is gedefinieerd.  
+Het selectievakje **Verw. kostprijs naar GB boeken** op de pagina **Voorraadinstelling** is ingeschakeld en de volgende instelling is gedefinieerd.  
 
 De volgende tabel toont hoe de koppeling op de artikelkaart is ingesteld.  
 

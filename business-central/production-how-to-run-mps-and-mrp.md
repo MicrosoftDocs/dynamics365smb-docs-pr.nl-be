@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
@@ -27,7 +27,7 @@ De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het be
 
 De planningsalgoritmen die worden gebruikt voor MPS en MRP zijn identiek. De planningsalgoritmen hebben betrekking op de nettoberekening, het hergebruik van bestaande aanvullingsorders en planningsboodschappen. Er wordt door het planningssysteem gekeken naar wat er nodig is of zal zijn (behoefte) en wat er in voorraad is of verwacht wordt (voorziening.) Wanneer deze aantallen tegen elkaar tot een nettowaarde worden teruggebracht, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] planningsboodschappen af. Planningsboodschappen zijn suggesties voor het opstellen van een nieuwe order, het wijzigen van een order (aantal of datum), of het annuleren van een order die al is besteld. De term 'order' omvat inkooporders, assemblageorders, productieorders en transferorders.
 
-Koppelingen die door de planningsengine tussen vraag en bijbehorend aanbod worden gemaakt, kunnen worden getraceerd in het venster **Ordertracering**. Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-demand-supply.md) voor meer informatie.   
+Koppelingen die door de planningsengine tussen vraag en bijbehorend aanbod worden gemaakt, kunnen worden getraceerd op de pagina **Ordertracering**. Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-demand-supply.md) voor meer informatie.   
 
 De juistheid van de planningsresultaten hangt af van de instellingen in de artikelkaarten, productiestuklijsten en bewerkingsplannen.  
 
@@ -48,17 +48,17 @@ Voor elke geplande methode, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] vo
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Een planningsvoorstel berekenen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstellen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies de actie **Regeneratief plan berekenen** om het venster **Planning berekenen** te openen.  
+2.  Kies de actie **Regeneratief plan berekenen** om de pagina **Planning berekenen** te openen.  
 3.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Selecteer de optie on de berekening van een hoofdproductieschema te initiëren. Artikelen met open verkooporders of vraagprognoses worden meegenomen in deze procedure.|  
-    |**MRP**|Selecteer de optie om de berekening van de materiaalbehoefteplanning te initiëren. Artikelen met afhankelijke vraag worden meegenomen in deze procedure. Normaal gesproken worden MPS en MRP gelijktijdig uitgevoerd. Als u MPS en MRP gelijktijdig wilt uitvoeren, moet er een vinkje worden gezet in het veld **Gecombineerd MPS/MRP berek.** op het sneltabblad **Planning** in het venster **Productie-instellingen**.|  
+    |**MRP**|Selecteer de optie om de berekening van de materiaalbehoefteplanning te initiëren. Artikelen met afhankelijke vraag worden meegenomen in deze procedure. Normaal gesproken worden MPS en MRP gelijktijdig uitgevoerd. Als u MPS en MRP gelijktijdig wilt uitvoeren, moet er een vinkje worden gezet in het veld **Gecombineerd MPS/MRP berek.** op het sneltabblad **Planning** op de pagina **Productie-instellingen**.|  
     |**Begindatum**|Deze datum wordt gebruikt om de beschikbaarheid van voorraad te evalueren. Als van een artikel minder in voorraad is dan vastgelegd voor het bestelpunt, wordt met voorwaartse planning een aanvullingsorder opgesteld vanaf deze datum. Als van een artikel minder is dan de veiligheidsvoorraad (met ingang van de begindatum), wordt met achterwaartse planning een aanvullingsorder opgesteld met de begindatum van de planning als vervaldatum.|  
     |**Einddatum**|Dit is de einddatum van de planningshorizon. Na deze datum wordt noch met vraag noch met voorzieningen rekening gehouden. Als de bestelfrequentie zich uitstrekt voorbij de einddatum, is de effectieve planningshorizon voor dat artikel gelijk aan de orderdatum + bestelfrequentie.<br /><br /> De planningshorizon is de hoeveelheid tijd waarover het plan zich uitstrijkt. Als de horizon te kort is, worden artikelen met een langere doorlooptijd niet op tijd besteld. Als de horizon te kort is, wordt te veel tijd besteed aan het bekijken en verwerken van informatie die waarschijnlijk gewijzigd wordt voordat deze nodig is. Het is mogelijk om één planningshorizon in te stellen voor productie en een langere voor inkoop, maar dit is niet vereist. Er moet een planningshorizon voor inkoop en productie worden ingesteld die de cumulatieve doorlooptijd voor onderdelen bestrijkt.|  
-    |**Stoppen en eerste fout tonen**|Selecteer de optie om de de planning te stoppen zodra er een fout wordt aangetroffen. Tegelijkertijd wordt een boodschap weergegeven met informatie over de (eerste) fout. Als er sprake is van een fout, worden alleen de planningsregels die gemaakt zijn voordat de fout werd geconstateerd, in het planningsvoorstel weergegeven. Als u dit veld niet selecteert, gaat de batchverwerking **Planning berekenen** door totdat deze voltooid is en wordt de batchverwerking niet onderbroken door fouten. Als er een of meer fouten zijn, wordt na afloop een bericht weergegeven waarin staat hoeveel artikelen dit betreft. Vervolgens wordt het venster **Planningfoutenlogboek** geopend met meer informatie over de fout en koppelingen naar de betreffende artikelkaart(en).|  
-    |**Prognose gebruiken**|in dit veld selecteert u een prognose die als vraag wordt opgenomen tijdens de batchverwerking voor de planning. De standaardprognose wordt ingesteld op het sneltabblad **Planning** van het venster **Productie-instellingen**.|  
+    |**Stoppen en eerste fout tonen**|Selecteer de optie om de de planning te stoppen zodra er een fout wordt aangetroffen. Tegelijkertijd wordt een boodschap weergegeven met informatie over de (eerste) fout. Als er sprake is van een fout, worden alleen de planningsregels die gemaakt zijn voordat de fout werd geconstateerd, in het planningsvoorstel weergegeven. Als u dit veld niet selecteert, gaat de batchverwerking **Planning berekenen** door totdat deze voltooid is en wordt de batchverwerking niet onderbroken door fouten. Als er een of meer fouten zijn, wordt na afloop een bericht weergegeven waarin staat hoeveel artikelen dit betreft. Vervolgens wordt de pagina **Planningfoutenlogboek** geopend met meer informatie over de fout en koppelingen naar de betreffende artikelkaart(en).|  
+    |**Prognose gebruiken**|in dit veld selecteert u een prognose die als vraag wordt opgenomen tijdens de batchverwerking voor de planning. De standaardprognose wordt ingesteld op het sneltabblad **Planning** van de pagina **Productie-instellingen**.|  
     |**Prognose uitsluiten voor**|Definieer hoeveel van de geselecteerde prognose u wilt opnemen in de planning die wordt uitgevoerd. U doet dit door een datum in te voeren waarvóór de prognose niet moet worden meegenomen, zodat u oude informatie kunt uitsluiten.|  
     |**Planningsparameters voor uitzonderingswaarschuwingen respecteren**|Standaard is dit selectievakje ingeschakeld.<br /><br /> Voorzieningen op planningsregels met waarschuwingen wordt gewoonlijk niet gewijzigd volgens planningsparameters. In plaats daarvan stelt het planningssysteem alleen een voorziening ter dekking van de hoeveelheid van de exacte vraag voor. U kunt echter bepaalde planningsparameters voor planningsregels definiëren die moeten worden gerespecteerd bij bepaalde waarschuwingen.<br /><br />|  
 
@@ -66,7 +66,7 @@ Voor elke geplande methode, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] vo
 5.  Kies de knop **Ok**. De batchverwerking wordt uitgevoerd en vervolgens wordt het planningsvoorstel ingevuld met de planningsregels.  
 
 ## <a name="to-perform-action-messages"></a>Planningsboodschappen uitvoeren  
-1.  Kies in het venster **Planningsvoorstel** de actie **Planningsboodschap uitvoeren**.  
+1.  Kies op de pagina **Planningsvoorstel** de actie **Planningsboodschap uitvoeren**.  
 2.  Op het sneltabblad **Opties** moet u opgeven hoe de voorzieningen gemaakt moeten worden. Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  

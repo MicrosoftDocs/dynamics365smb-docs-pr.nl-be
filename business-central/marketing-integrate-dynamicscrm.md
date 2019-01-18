@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Klanten en verkopen beheren die in Dynamics 365 for Sales zijn gemaakt
@@ -89,7 +89,7 @@ De volgende tabel beschrijft regels die de synchronisatie tussen Business Centra
 Vanaf de startpagina kunt u de begeleide instelling **Instellingen Microsoft Dynamics 365-verbinding** starten om de verbinding tot stand te brengen. Als dat is uitgevoerd, hebt u een naadloze koppeling van Sales-records met [!INCLUDE[d365fin](includes/d365fin_md.md)]-records.  
 
 > [!NOTE]  
->   Hierna wordt de begeleide instelling toegelicht, maar u kunt dezelfde stappen ook handmatig uitvoeren in het venster **Sales-verbinding instellen**.
+>   Hierna wordt de begeleide instelling toegelicht, maar u kunt dezelfde stappen ook handmatig uitvoeren op de pagina **Sales-verbinding instellen**.
 
 In de begeleide instelling kunt u kiezen welke gegevens tussen de twee services moeten worden gesynchroniseerd. U kunt ook opgeven dat u uw bestaande Sales-oplossing wilt importeren. In dat geval moet u een beheeraccount opgeven.
 
@@ -113,7 +113,7 @@ Als u ervoor kiest *verkooporderintegratie* in te schakelen, moet u een gebruike
 ### <a name="coupling-records"></a>Records koppelen
 In de begeleide instelling kunt u kiezen dat tussen de twee services moeten worden gesynchroniseerd. Maar later kunt u ook synchronisatie voor bepaalde soorten gegevens instellen. Dit wordt aangeduid als *koppelen* en in deze sectie vindt u aanbevelingen voor waar u rekening mee moet houden.
 
-Als u bijvoorbeeld Sales-accounts wilt zien als klanten in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de twee soorten records koppelen. Het is niet ingewikkeld: open het venster **Klantenoverzicht** in [!INCLUDE[d365fin](includes/d365fin_md.md)] en zoek in het lint de actie om deze gegevens met Sales te koppelen. Vervolgens geeft u op welke [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten overeenkomen met welke accounts in Sales.
+Als u bijvoorbeeld Sales-accounts wilt zien als klanten in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de twee soorten records koppelen. Het is niet ingewikkeld: open de pagina **Klantenoverzicht** in [!INCLUDE[d365fin](includes/d365fin_md.md)] en zoek in het lint de actie om deze gegevens met Sales te koppelen. Vervolgens geeft u op welke [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten overeenkomen met welke accounts in Sales.
 
 In bepaalde gebieden koppelt de functie waar u gebruik van maakt bepaalde gegevenssets vóór andere gegevenssets, zoals getoond in de volgende lijst:
 
@@ -130,16 +130,16 @@ In bepaalde gebieden koppelt de functie waar u gebruik van maakt bepaalde gegeve
 Verkooporders in Sales zijn afhankelijk van aanvullende informatie zoals klanten, eenheden, valuta, klantenprijsgroepen, artikelen en/of resources. Om de integratie met verkooporders naadloos te laten werken, moet u eerst klanten, eenheden, valuta's, klantprijsgroepen, artikelen en/of resources koppelen.
 
 ### <a name="synchronizing-records-fully"></a>Records volledig synchroniseren
-Aan het eind van de begeleide instelling kunt u de actie **Volledige synchronisatie uitvoeren** kiezen om alle records in [!INCLUDE[d365fin](includes/d365fin_md.md)] te synchroniseren met alle gerelateerde records in de verbonden Sales-oplossing. Kies in het venster **Controle van volledige CRM-synchronisatie** de actie **Starten**. De synchronisatie begint dan taken uit te voeren volgens de afhankelijkheden. Valutarecords worden bijvoorbeeld gesynchroniseerd vóór klantenrecords. De volledige synchronisatie kan lange tijd duren en wordt daarom uitgevoerd in de achtergrond, zodat u verder kunt werken in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Aan het eind van de begeleide instelling kunt u de actie **Volledige synchronisatie uitvoeren** kiezen om alle records in [!INCLUDE[d365fin](includes/d365fin_md.md)] te synchroniseren met alle gerelateerde records in de verbonden Sales-oplossing. Kies op de pagina **Controle van volledige CRM-synchronisatie** de actie **Starten**. De synchronisatie begint dan taken uit te voeren volgens de afhankelijkheden. Valutarecords worden bijvoorbeeld gesynchroniseerd vóór klantenrecords. De volledige synchronisatie kan lange tijd duren en wordt daarom uitgevoerd in de achtergrond, zodat u verder kunt werken in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Als u de voortgang van afzonderlijke taken in een volledige synchronisatie wilt controleren, zoomt u in op een van de velden **Status van taakwachtrijpost**, **Naar projectstatus van integratietabel** of **Van projectstatus van integratietabel** in het venster **Controle van volledige CRM-synchronisatie** in.
+Als u de voortgang van afzonderlijke taken in een volledige synchronisatie wilt controleren, zoomt u in op een van de velden **Status van taakwachtrijpost**, **Naar projectstatus van integratietabel** of **Van projectstatus van integratietabel** op de pagina **Controle van volledige CRM-synchronisatie** in.
 
-Vanuit het venster **Instellingen Microsoft Dynamics 365-verbinding** kunt u informatie over de volledige synchronisatie op ieder gewenst moment oproepen. Van hieruit kunt u ook het venster **Toewijzingen van integratietabellen** openen, waarin u details van de tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] en in de te synchroniseren Sales-oplossing kunt zien.
+Vanuit de pagina **Instellingen Microsoft Dynamics 365-verbinding** kunt u informatie over de volledige synchronisatie op ieder gewenst moment oproepen. Van hieruit kunt u ook de pagina **Toewijzingen van integratietabellen** openen, waarin u details van de tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] en in de te synchroniseren Sales-oplossing kunt zien.
 
 ## <a name="handling-special-sales-order-data"></a>Speciale verkoopordergegevens verwerken
-Verkooporders in Sales worden automatisch overgebracht naar [!INCLUDE[d365fin](includes/d365fin_md.md)] als u het selectievakje **Automatisch verkooporders maken** inschakelt in het venster **Instellingen Microsoft Dynamics 365-verbinding**. Voor deze verkooporders wordt het veld **Naam** op de oorspronkelijke order overgebracht en toegewezen aan het veld **Extern documentnummer** op de verkooporder op [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Verkooporders in Sales worden automatisch overgebracht naar [!INCLUDE[d365fin](includes/d365fin_md.md)] als u het selectievakje **Automatisch verkooporders maken** inschakelt op de pagina **Instellingen Microsoft Dynamics 365-verbinding**. Voor deze verkooporders wordt het veld **Naam** op de oorspronkelijke order overgebracht en toegewezen aan het veld **Extern documentnummer** op de verkooporder op [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Dit werkt ook als de oorspronkelijke verkooporder inschrijfproducten bevat met artikelen of resources die niet in een van beide producten zijn geregistreerd. In dat geval vult u de velden **Inschrijfproductsoort** en **Inschrijfproductnummer** in in het venster **Instellingen van verkoop en tegoeden**, zodat deze niet-geregistreerde productverkopen worden gekoppeld aan een specifiek artikel-/resourcenummer voor financiële analyse.
+Dit werkt ook als de oorspronkelijke verkooporder inschrijfproducten bevat met artikelen of resources die niet in een van beide producten zijn geregistreerd. In dat geval vult u de velden **Inschrijfproductsoort** en **Inschrijfproductnummer** in op de pagina **Instellingen van verkoop en tegoeden**, zodat deze niet-geregistreerde productverkopen worden gekoppeld aan een specifiek artikel-/resourcenummer voor financiële analyse.
 
 Als de artikelomschrijving op de oorspronkelijke verkooporder erg lang is, wordt een extra verkooporderregel van het type Opmerking gemaakt zodat de volledige tekst wordt opgenomen in de verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

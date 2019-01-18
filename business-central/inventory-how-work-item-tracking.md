@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Werken met serie- en lotnummers
-U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert de handelingen hiervoor uit in het venster **Artikeltraceringsregels**.
+U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert het werk uit op de pagina **Artikeltraceringsregels**.
 
-De matrix van aantalvelden bovenin het venster **Artikeltraceringsregels** geeft de aantallen en totalen van artikeltraceringsnummers weer die op de regels worden gedefinieerd. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde 0.
+De matrix van aantalvelden bovenin de pagina **Artikeltraceringsregels** geeft de aantallen en totalen van artikeltraceringsnummers weer die op de regels worden gedefinieerd. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde 0.
 
-Ten behoeve van de prestaties wordt de beschikbare informatie in het venster **Artikeltraceringsregels** slechts éénmaal verzameld, wanneer u het venster opent. Dat betekent dat de beschikbaarheidsgegevens niet worden bijgewerkt wanneer het venster geopend is, zelfs niet wanneer gedurende die tijd wijzigingen optreden in de voorraad of in andere documenten.
+Ten behoeve van de prestaties wordt de beschikbare informatie op de pagina **Artikeltraceringsregels** slechts eenmaal verzameld wanneer u de pagina opent. Dat betekent dat de beschikbaarheidsgegevens niet worden bijgewerkt wanneer de pagina geopend is, zelfs niet wanneer gedurende die tijd wijzigingen optreden in de voorraad of in andere documenten.
 
 Artikelen met serie-/lotnummers kunnen voorwaarts of achterwaarts worden getraceerd in hun toeleveringsketen. Dit is handig voor algemene kwaliteitsmeting en voor terugroepacties. Zie voor meer informatie [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md).
 
@@ -33,14 +33,14 @@ Bij sommige processen hebben de voorraadartikelen geen serie- of lotnummers en m
 
 Bij eenvoudige processen heeft elk voorraadartikel al een serie- of lotnummer (die bijvoorbeeld bij het opslaan zijn toegewezen) en deze nummers worden automatisch bij alle uitgaande magazijnactiviteiten doorgegeven zonder tussenkomst van magazijnmedewerkers.
 
-In speciale gevallen voor voorraad met een serie- of lotnummer, worden op het brondocument (zoals een verkooporder) specifieke serie- of lotnummers gedefinieerd die de magazijnmedewerker aan moet houden tijdens uitgaande magazijnverwerking. De reden kan zijn dat de klant tijdens het orderproces een specifieke partij heeft verzocht. Als het voorraad-pickdocument of magazijn-pickdocument gemaakt wordt vanuit een uitgaand brondocument, waarbij serie- of lotnummers voor artikelen al bepaald zijn, kan geen enkel veld in het venster **Artikeltraceringsregels** onder de voorraadpick overschreven worden, behalve het veld **Te verwerken aantal**. In dat geval worden in de voorraadpickregels de artikeltraceringsnummers gespecificeerd op afzonderlijke Nemen- en Plaatsen-regels. Het aantal is reeds gesplitst in unieke serie- of lotnummercombinaties, omdat in de verkooporder wordt gespecificeerd dat de artikeltraceringsnummers worden verzonden.  
+In speciale gevallen voor voorraad met een serie- of lotnummer, worden op het brondocument (zoals een verkooporder) specifieke serie- of lotnummers gedefinieerd die de magazijnmedewerker aan moet houden tijdens uitgaande magazijnverwerking. De reden kan zijn dat de klant tijdens het orderproces een specifieke partij heeft verzocht. Als het voorraad-pickdocument of magazijn-pickdocument gemaakt wordt vanuit een uitgaand brondocument, waarbij serie- of lotnummers voor artikelen al bepaald zijn, kan geen enkel veld op de pagina **Artikeltraceringsregels** onder de voorraadpick overschreven worden, behalve het veld **Te verwerken aantal**. In dat geval worden in de voorraadpickregels de artikeltraceringsnummers gespecificeerd op afzonderlijke Nemen- en Plaatsen-regels. Het aantal is reeds gesplitst in unieke serie- of lotnummercombinaties, omdat in de verkooporder wordt gespecificeerd dat de artikeltraceringsnummers worden verzonden.  
 
 ## <a name="item-tracking-availability"></a>Beschikbaarheid van artikeltracering
-Wanneer u met serie- of lotnummers werkt, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaarheidsinformatie voor serie- en lotnummers en geeft dit weer in de artikeltraceringsvensters. Zo kunt u zien hoeveel van een lotnummer of serienummer op dit moment wordt gebruikt op andere documenten. Dit vermindert fouten en onzekerheid veroorzaakt door dubbele toewijzingen.
+Wanneer u met serie- of lotnummers werkt, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaarheidsinformatie voor serie- en lotnummers en geeft dit weer op de artikeltraceringspagina's. Zo kunt u zien hoeveel van een lotnummer of serienummer op dit moment wordt gebruikt op andere documenten. Dit vermindert fouten en onzekerheid veroorzaakt door dubbele toewijzingen.
 
-In het venster **Artikeltraceringsregels** wordt een waarschuwingspictogram weergegeven naast het veld **Beschikbaarheid lotnr.** of **Beschikbaarheid serienr.**, als enkele of alle van de geselecteerde aantallen al worden gebruikt in andere documenten of als het serie- of lotnummer niet beschikbaar is.
+Op de pagina **Artikeltraceringsregels** wordt een waarschuwingspictogram weergegeven naast het veld **Beschikbaarheid lotnr.** of **Beschikbaarheid serienr.**, als enkele of alle van de geselecteerde aantallen al worden gebruikt in andere documenten of als het serie- of lotnummer niet beschikbaar is.
 
-De vensters **Lotnr./Serienr.-Overzicht** , **Lotnr./Serienr.-Beschikbaarheid** en **Artikeltracering - Posten selecteren** verschaffen informatie over het aantal dat van een artikel wordt gebruikt. U vindt hier onder andere de volgende informatie:
+De pagina's **Lotnr./Serienr.-Overzicht** , **Lotnr./Serienr.-Beschikbaarheid** en **Artikeltracering - Posten selecteren** verschaffen informatie over het aantal dat van een artikel wordt gebruikt. U vindt hier onder andere de volgende informatie:
 
 |Veld|Description|
 |-----|-----------|  
@@ -50,7 +50,7 @@ De vensters **Lotnr./Serienr.-Overzicht** , **Lotnr./Serienr.-Beschikbaarheid** 
 |**Huidig aangevraagd aantal**|Het aantal artikelen waarvoor een gebruiksverzoek is ingediend in het huidige document.|
 |**Totaal beschikbaar aantal**|Het totale aantal artikelen in voorraad zonder het aantal artikelen waarvoor een verzoek is ontvangen voor dit document of voor andere documenten (totaal verzocht aantal) en zonder het aantal dat is aangevraagd, maar nog niet is vastgelegd voor dit document (huidig wachtend aantal).|
 
-Als u gedurende lange tijd in het venster **Artikeltraceringsregels** werkt of als er veel activiteiten plaatsvinden voor het artikel waarmee u werkt, kunt u de actie **Beschikbaarheid vernieuwen** gebruiken. Daarnaast wordt de beschikbaarheid van het artikel automatisch opnieuw gecontroleerd als u het venster sluit om te bevestigen dat er geen beschikbaarheidsproblemen zijn.
+Als u gedurende lange tijd op de pagina **Artikeltraceringsregels** werkt of als er veel activiteiten plaatsvinden voor het artikel waarmee u werkt, kunt u de actie **Beschikbaarheid vernieuwen** gebruiken. Daarnaast wordt de beschikbaarheid van het artikel automatisch opnieuw gecontroleerd als u de pagina sluit om te bevestigen dat er geen beschikbaarheidsproblemen zijn.
 
 ## <a name="to-set-up-item-tracking-codes"></a>Artikeltraceringscodes instellen
 Een artikeltraceringscode weerspiegelt de verschillende overwegingen die een bedrijf moet maken met betrekking tot het gebruik van serie- en lotnummers voor artikelen die in de voorraad worden verplaatst.  
@@ -92,7 +92,7 @@ Mogelijk wilt u voor bepaalde artikelen bepaalde garanties instellen in de artik
 Op een informatiekaart voor serie- of lotnummers kunt u gegevens koppelen aan een specifiek artikeltraceringsnummer (bijvoorbeeld voor kwaliteitscontrole).
 
 1. Open een document waaraan veel serie- of lotnummers zijn toegewezen.
-2. Open het venster **Artikeltraceringsregels** voor het document.
+2. Open de pagina **Artikeltraceringsregels** voor het document.
 3. Kies bijvoorbeeld de actie **Serienr.-informatie**.  
 
     De velden **Serienr.** en **Lotnr.** zijn al ingevuld op de artikeltraceringsregel.  
@@ -103,8 +103,8 @@ Op een informatiekaart voor serie- of lotnummers kunt u gegevens koppelen aan ee
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Gegevens over bestaande serie- of lotnummers wijzigen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een artikel met een artikeltraceringscode en met serie- of lotnummergegevens.
-3. Kies in het venster **Artikel** de actie **Posten** en kies daarna **Posten**.
-4. Kies het veld **Lotnr.** of **Serienr.**. Als er informatie over dit artikeltraceringsnummer bestaat, wordt het venster **Gegevensoverzicht lotnr.** of **Gegevensoverzicht serienr.** geopend.  
+3. Kies op de pagina **Artikel** de actie **Posten** en kies daarna **Posten**.
+4. Kies het veld **Lotnr.** of **Serienr.**. Als er informatie over dit artikeltraceringsnummer bestaat, wordt de pagina **Gegevensoverzicht lotnr.** of **Gegevensoverzicht serienr.** geopend.  
 5. Selecteer een kaart en kies de actie **Lotnr.-informatie/Serienr.-informatie**.  
 6. De korte omschrijving, de opmerkingrecord of het veld **Geblokkeerd** wijzigen.  
 
@@ -113,7 +113,7 @@ U kunt de serienummers of lotnummers of aantallen niet wijzigen. Hiervoor moet u
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Serie- of lotnummers toewijzen tijdens inkomende transacties  
 Bedrijven willen artikelen mogelijk bijhouden vanaf het moment dat ze het bedrijf binnenkomen. In deze situatie is de inkooporder vaak het centrale document. Artikeltracering kan echter vanaf elk inkomend document worden verwerkt. De geboekte posten worden dan weergegeven in de bijbehorende artikelposten.  
 
-Welke regels precies gelden voor de verwerking van artikeltraceringsnummers binnen uw bedrijf, is afhankelijk van de instelling in de tabel **Artikeltraceringscode**.  
+Welke regels precies gelden voor de verwerking van artikeltraceringsnummers binnen uw bedrijf, is afhankelijk van de instelling op de pagina **Artikeltraceringscode**.  
 
 > [!NOTE]  
 >  Om artikeltraceringsnummers te kunnen gebruiken bij magazijnactiviteiten moeten de instellingsvelden **Magazijnlottracering** en **Magazijnserienr.-tracering** zijn geselecteerd. Hiermee bepaalt u namelijk welke speciale principes gelden voor het verwerken van serie- en lotnummers in magazijnactiviteiten.  
@@ -139,7 +139,7 @@ Welke regels precies gelden voor de verwerking van artikeltraceringsnummers binn
 
 Er wordt een lotnummer aangemaakt met een reeks losse serienummers (gebaseerd op het totale aantal op de documentregel), te beginnen met **S/N-Lev0001**.  
 
-De matrix van aantalvelden op de kop geeft een dynamische weergave van de aantallen en totalen van de artikeltraceringsnummers die u in het venster definieert. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde 0.  
+De matrix van aantalvelden op de kop geeft een dynamische weergave van de aantallen en totalen van de artikeltraceringsnummers die u op de pagina definieert. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde 0.  
 
 Als het document wordt geboekt, worden de artikeltraceringsposten overgebracht naar de bijbehorende artikelposten.
 
@@ -149,7 +149,7 @@ Er zijn twee manieren om serie- en lotnummers aan uitgaande transacties toe te v
 -   Nummers selecteren uit bestaande serie- of lotnummers. Dit is van toepassing als er al traceringsnummers zijn toegekend tijdens een inkomende transactie. Zie voor meer informatie de sectie "Keuze maken uit bestaande serie- en lotnummers".
 -   Nieuwe serie- of lotnummers toewijzen tijdens uitgaande transacties. Dit is van toepassing wanneer artikeltraceringsnummers pas worden toegekend aan items op het moment dat ze worden verkocht en klaar zijn voor verzending.  
 
-De verschillende regels voor artikeltraceringsnummers worden ingesteld in het venster **Artikeltraceringscode**.  
+De verschillende regels voor artikeltraceringsnummers worden ingesteld op de pagina **Artikeltraceringscode**.  
 
 > [!NOTE]  
 >  Om tijdens magazijnactiviteiten artikeltraceringsnummers toe te voegen moeten de selectievakjes **Magazijnserienr.-tracering** en **Magazijnlottracering** zijn ingeschakeld op de bij het artikel horende artikeltraceringscodekaart.    
@@ -167,7 +167,7 @@ De verschillende regels voor artikeltraceringsnummers worden ingesteld in het ve
 3.  Schakel het selectievakje **Nieuw lotnr. maken** in om de nieuwe serienummers te ordenen in een ander lot.  
 4.  Kies de knop **OK** om een nieuw lotnummer en nieuwe reeks losse serienummers te maken op basis van het aantal te verwerken artikelen op de documentregel in kwestie.  
 
-De matrix van aantalvelden bovenin geeft een dynamische weergave van de aantallen en totalen van de artikeltraceringsnummers die u in het venster definieert. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde **0**.  
+De matrix van aantalvelden bovenin geeft een dynamische weergave van de aantallen en totalen van de artikeltraceringsnummers die u op de pagina definieert. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde **0**.  
 
 Als het document wordt geboekt, worden de artikeltraceringsposten overgebracht naar de bijbehorende artikelposten.  
 
@@ -181,34 +181,34 @@ Wanneer u werkt met artikelen waarvoor artikeltracering is vereist en u uitgaand
 
 1.  Selecteer vanuit een uitgaand document de regel waarvoor u serie- of lotnummers wilt selecteren.  
 2.  Kies op het sneltabblad **Regels** de actie **Acties**. Kies de actie **Regel** of **Artikel** en vervolgens de actie **Artikeltraceringsregels**.  
-3.  Het opvraagvenster **Artikeltraceringsregels** beschikt over drie opties voor het opgeven van lot- of serienummers:  
+3.  De pagina **Artikeltraceringsregels** beschikt over drie opties voor het opgeven van lot- of serienummers:  
 
-    -   Selecteer het veld **Lotnr.** of **Serienr.** en vervolgens een nummer in het venster **Artikeltraceringssamenvatting**.  
-    -   Kies de actie **Posten selecteren**. Het venster **Posten selecteren** toont alle lot- of serienummers samen met beschikbaarheidsinformatie.
+    -   Selecteer het veld **Lotnr.** of **Serienr.** en vervolgens een nummer op de pagina **Artikeltraceringssamenvatting**.  
+    -   Kies de actie **Posten selecteren**. De pagina **Posten selecteren** toont alle lot- of serienummers samen met beschikbaarheidsinformatie.
 
 4. Voer in het veld **Geselecteerd aantal** de hoeveelheid van elk lot- of serienummer in dat u wilt gebruiken.   
-5. Klik op **OK** om de geselecteerde artikeltraceringsgegevens over te brengen naar het venster **Artikeltraceringsregels**.  
+5. Kies de knop **OK** om de geselecteerde artikeltraceringsgegevens over te brengen naar de pagina **Artikeltraceringsregels**.  
 6. Typ of scan het artikeltraceringsnummer.
 
-De matrix van aantalvelden op de kop geeft een dynamische weergave van de aantallen en totalen van de artikeltraceringsnummers die u in het venster definieert. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde **0**.  
+De matrix van aantalvelden op de kop geeft een dynamische weergave van de aantallen en totalen van de artikeltraceringsnummers die u op de pagina definieert. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde **0**.  
 
  Als u de documentregel boekt, worden de artikeltraceringsposten overgebracht naar de bijbehorende artikelposten.
 
 ## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Serie- en lotnummers verwerken op transferorders  
 De procedures voor het verwerken van serie- en lotnummers die tussen verschillende vestigingen worden verplaatst, zijn gelijk aan de procedures die worden toegepast bij de inkoop en verkoop van artikelen.  
 
-De transferorder is echter uniek, omdat voor zowel verzending als ontvangst dezelfde transferregel wordt gebruikt, en dus dezelfde informatie in het venster **Artikeltraceringsregels**. Dit betekent dat alle artikeltraceringsnummers die op de ene vestiging worden verzonden, ongewijzigd moeten worden ontvangen op de andere vestiging.  
+De transferorder is echter uniek, omdat voor zowel verzending als ontvangst dezelfde transferregel wordt gebruikt, en dus dezelfde informatie op de pagina **Artikeltraceringsregels**. Dit betekent dat alle artikeltraceringsnummers die op de ene vestiging worden verzonden, ongewijzigd moeten worden ontvangen op de andere vestiging.  
 
  Welke regels precies gelden voor de verwerking van artikeltraceringsnummers binnen uw bedrijf, is afhankelijk van de instelling in de tabel  **Artikeltraceringscode**.    
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferorders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de transferorder die u wilt verwerken. Kies op het sneltabblad **Regels** de actie **Regel**. Kies de actie **Artikeltraceringsregels** en vervolgens de actie **Verzending**.  
-3.  Voer de toewijzing of selectie van serie-/lotnummers in het venster **Artikeltraceringsregels** op dezelfde wijze uit als bij andere uitgaande artikeltransacties.  
+3.  Voer de toewijzing of selectie van serie-/lotnummers op de pagina **Artikeltraceringsregels** op dezelfde wijze uit als bij andere uitgaande artikeltransacties.  
 
     Bij het verwerken van serie- en lotnummers voor transferartikelen hebben de artikelen meestal al een nummer. Daarom zult u normaal gesproken alleen nummers selecteren uit bestaande serie- of lotnummers.  
 
 4.  Boek de transferorder (eerst de verzending, daarna de ontvangst) om vast te leggen dat de artikelen zijn verplaatst met hun artikeltraceringsposten.  
 
-Tijdens de transfer is het venster **Artikeltraceringsregels** beveiligd tegen schrijven.  
+Tijdens de transfer is de pagina **Artikeltraceringsregels** beveiligd tegen schrijven.  
 
 ## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Serie- en lotnummers verwerken bij het ophalen van ontvangstregels vanuit een inkoopfactuur  
 Wanneer u functionaliteit gebruikt om geboekte ontvangst- of verzendregels op te halen uit verwante facturen of creditnota's, worden alle artikeltraceringsregels op de magazijndocumenten automatisch overgebracht. Hierbij worden zij echter op een speciale manier verwerkt.
@@ -221,14 +221,14 @@ De functionaliteit ondersteunt de volgende uitgaande processen:
 -   **Verzendregels ophalen**: van een verkoopfactuur of van verzamelfacturen.  
 -   **Retourontvangstregels ophalen**: van een verkoopcreditnota.  
 
-In deze gevallen worden de bestaande artikeltraceringsregels automatisch gekopieerd naar de factuur of creditnota. In het venster **Artikeltraceringsregels** worden echter geen wijzigingen toegestaan in de serie- of lotnummers. Alleen de hoeveelheden kunnen worden gewijzigd.  
+In deze gevallen worden de bestaande artikeltraceringsregels automatisch gekopieerd naar de factuur of creditnota. Op de pagina **Artikeltraceringsregels** worden echter geen wijzigingen toegestaan in de serie- of lotnummers. Alleen de hoeveelheden kunnen worden gewijzigd.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en selecteer vervolgens de gerelateerde koppeling.  
 2.  Open een inkoopfactuur voor artikelen die zijn aangekocht met serie- of lotnummers.  
 3.  Ga vanuit een inkoopfactuur naar het sneltabblad **Regels** en kies de actie **Ontvangstregels ophalen**.  
-4.  Selecteer in het venster **Ontvangstregels ophalen** een ontvangstregels met artikeltraceringsregels en kies vervolgens de knop **OK**.  
+4.  Selecteer op de pagina **Ontvangstregels ophalen** een ontvangstregel met artikeltraceringsregels en kies vervolgens de knop **OK**.  
 
-    Het brondocument wordt als een nieuwe regel naar de inkoopfactuur gekopieerd en de bijbehorende artikeltraceringsregels worden overgenomen in het venster **Artikeltraceringsregels**.  
+    Het brondocument wordt als een nieuwe regel naar de inkoopfactuur gekopieerd en de bijbehorende artikeltraceringsregels worden overgenomen op de pagina **Artikeltraceringsregels**.  
 
 5.  Selecteer in de inkoopfactuur de overgebrachte ontvangstregel.  
 6.  Kies op het sneltabblad **Regels** de actie **Regel** en vervolgens de actie **Artikeltraceringsregels** om de overgenomen artikeltraceringsregels te bekijken.  
@@ -254,9 +254,9 @@ Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wij
 
 6.  U kunt bestaande informatie over het oude serie- of lotnummer naar het nieuwe serie- of lotnummer kopiëren.  
 
-    1.  Kies in het venster **Artikeltraceringsregels** de actie **Nieuwe serienummergegevens** of **Nieuwe lotnummergegevens**.  
+    1.  Kies op de pagina **Artikeltraceringsregels** de actie **Nieuwe serienummergegevens** of **Nieuwe lotnummergegevens**.  
     2.  Als u informatie wilt kopiëren vanuit het oude lot- of serienummer, kiest u de actie **Gegevens kopiëren**.  
-    3.  Selecteer het lot- of serienummer waarvan u gegevens wilt kopiëren in het informatievenster en klik op **OK**.  
+    3.  Selecteer het lot- of serienummer waarvan u gegevens wilt kopiëren op de informatiepagina en klik op **OK**.  
 
 7.  Als u de bestaande gegevens voor het lot- of serienummer wilt wijzigen, kunt u informatie over lot- of serienummers vastleggen.  
 8.  Boek het dagboek om de vernieuwde artikeltraceringsnummers of vervaldatums te koppelen aan de bijbehorende artikelpost.

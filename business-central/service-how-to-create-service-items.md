@@ -11,23 +11,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e251cd1aa071484cbf235feee6f0e891f27020e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-items"></a>Serviceartikelen maken
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] verwijst de term serviceartikel naar de apparatuur of artikelen die service vereisen. Wanneer u een serviceorder maakt, geeft u de artikelen op die service nodig hebben. In de order kunt u een serviceartikel aan een artikel in de voorraad of aan een serviceartikelgroep koppelen.    
 
-Wanneer u een artikel ontvangt dat service vereist, kunt u dit artikel registreren als serviceartikel. Dit kunt u op verschillende manieren doen. U kunt bijvoorbeeld in het venster **Serviceartikelen** een serviceartikel maken of als onderdeel van een ander proces, bijvoorbeeld wanneer u met een serviceorder werkt.   
+Wanneer u een artikel ontvangt dat service vereist, kunt u dit artikel registreren als serviceartikel. Dit kunt u op verschillende manieren doen. U kunt bijvoorbeeld via de pagina **Serviceartikelen** een serviceartikel maken of als onderdeel van een ander proces, bijvoorbeeld wanneer u met een serviceorder werkt.   
 
 ## <a name="to-create-a-service-item"></a>Een serviceartikel maken  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Serviceartikelen maken in serviceorders  
-Wanneer u artikelen voor service ontvangt die u wilt registreren als serviceartikelen, kunt u deze instellen als serviceartikelen in het venster **Serviceorder** of **Serviceofferte**.  
+Wanneer u artikelen voor service ontvangt die u wilt registreren als serviceartikelen, kunt u deze instellen als serviceartikelen op de pagina **Serviceorder** of **Serviceofferte**.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Wanneer u artikelen voor service ontvangt die u wilt registreren als servicearti
     Er wordt een nummer aan het serviceartikel toegewezen en een kaart voor het serviceartikel gemaakt. Het nummer van het nieuwe serviceartikel wordt ingevuld in het veld **Serviceartikelnr.**
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>Serviceartikelen maken tijdens het verzenden van artikelen  
-Als u artikelen verzendt door serviceorders of servicefacturen te boeken, worden de verzonden artikelen automatisch als serviceartikelen geregistreerd als aan de volgende voorwaarde wordt voldaan. De artikelen moeten behoren tot een serviceartikelgroep waarvoor het selectievakje **Serviceartikel maken** is ingeschakeld. Als voor de artikelen serienummers zijn geregistreerd in het venster Artikeltraceringsregels, worden deze gegevens tijdens het maken van serviceartikelen automatisch gekopieerd naar het veld **Serienummer** op de serviceartikelkaart.  
+Als u artikelen verzendt door serviceorders of servicefacturen te boeken, worden de verzonden artikelen automatisch als serviceartikelen geregistreerd als aan de volgende voorwaarde wordt voldaan. De artikelen moeten behoren tot een serviceartikelgroep waarvoor het selectievakje **Serviceartikel maken** is ingeschakeld. Als voor de artikelen serienummers zijn geregistreerd op de pagina Artikeltraceringsregels, worden deze gegevens tijdens het maken van serviceartikelen automatisch gekopieerd naar het veld **Serienummer** op de serviceartikelkaart.  
 
 Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzenden van artikelen in serviceorders.  
 
@@ -44,7 +44,7 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 2. Open de betreffende serviceorder.  
 3. Kies de actie **Boeken** of **Boeken en afdrukken**.  
 4. Kies de actie **Verzenden** of **Verzenden en factureren**.  
-5. Er worden automatisch serviceartikelen gemaakt voor de artikelen op de order, wanneer deze behoren tot een serviceartikelgroep die u hebt ingesteld om serviceartikelen te maken. Als u bepaalde serienummers in het venster **Artikeltraceringsregels** hebt geregistreerd, worden deze aan deze serviceartikelen toegewezen.  
+5. Er worden automatisch serviceartikelen gemaakt voor de artikelen op de order, wanneer deze behoren tot een serviceartikelgroep die u hebt ingesteld om serviceartikelen te maken. Als u bepaalde serienummers op de pagina **Artikeltraceringsregels** hebt geregistreerd, worden deze dienovereenkomstig aan deze serviceartikelen toegewezen.  
 
 > [!NOTE]  
 >  Als een artikel is ingesteld als stuklijst en u de stuklijst hebt getoond, worden de getoonde stuklijstartikelen verwerkt als gewone artikelen. Serviceartikelen worden gemaakt op basis van de voorwaarde serviceartikelgroep en optioneel op de voorwaarde serienummers. Als een serviceartikel wordt gemaakt voor een getoond stuklijstartikel waarin andere stuklijstonderdelen zijn opgenomen, worden deze artikelen gemaakt als serviceartikelonderdelen voor het getoonde stuklijstserviceartikel.  

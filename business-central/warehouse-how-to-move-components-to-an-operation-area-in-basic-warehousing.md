@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties
@@ -25,39 +25,39 @@ Indien artikelbewerkingen plaatsvinden in uw magazijnvestiging, moet u mogelijk 
 > [!NOTE]  
 >  Zie voor informatie over het verplaatsen van artikelen tussen opslaglocaties zonder brondocumenten Interne verplaatsing.  
 
-Bij geavanceerde magazijnconfiguraties, locaties die gebruikmaken van de instelling **Gestuurde opslag en pick**, kunt u het venster **Verplaatsingsvoorstel** gebruiken om artikelen tussen opslaglocaties te verplaatsen. Zie voor meer informatie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Bij geavanceerde magazijnconfiguraties, locaties die gebruikmaken van de instelling **Gestuurde opslag en pick**, kunt u de pagina **Verplaatsingsvoorstel** gebruiken om artikelen tussen opslaglocaties te verplaatsen. Zie voor meer informatie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Bij standaard magazijnconfiguraties, dat zijn locaties die gebruik maken van de instelling **Opslaglocatie verplicht** en **Pick vereist**, kunt u verplaatsing van items naar interne activiteitengebieden registreren op basis van interne brondocumenten op de volgende manieren:  
 
--   Met het venster **Voorraadverplaatsing**.  
--   Met het venster **Voorraadpick**.  
+-   Met de pagina **Voorraadverplaatsing**.  
+-   Met de pagina **Voorraadpick**.  
 
 > [!NOTE]  
->  Voorraadpicks boeken ook negatieve artikelposten als verbruik en worden alleen ondersteund voor productieonderdelen. Zie voor meer informatie het venster Voorraadpick.  
+>  Voorraadpicks boeken ook negatieve artikelposten als verbruik en worden alleen ondersteund voor productieonderdelen. Zie voor meer informatie de pagina Voorraadpick.  
 
-Zie voor gedetailleerde informatie over voorraadverplaatsingen het venster Voorraadverplaatsing.  
+Zie voor gedetailleerde informatie over voorraadverplaatsingen de pagina Voorraadverplaatsing.  
 
 Twee verschillende rollen kunnen de initiële voorraadverplaatsing maken. Een assemblagemedewerker kan het bijvoorbeeld vanuit een vrijgegeven assemblageorder maken, zodat het op de werklijst van de magazijnmedewerker weergegeven wordt. Als een assemblagemedewerker een voorraadverplaatsing wil maken voor assemblageorderregels die gereed zijn om onderdelen naar de opgegeven opslaglocaties te verplaatsen, gebruikt deze de functie **Voorraadverplaatsing maken**.  
 
 Ook kan een magazijnmedewerker deze maken door verwijzing naar de betreffende vrijgegeven assemblageorder. Dit wordt in de volgende procedure beschreven.  
 
 > [!NOTE]  
->  Indien de verplaatsing voor een assemblageorder is waar het item voor een verkooporder wordt samengesteld, kunt u definiëren dat het voorraadverplaatsingdocument automatisch gemaakt wordt wanneer u het voorraad-pickdocument maakt dat het voltooide assemblageartikel neemt en de verzending boekt. Als u dit wilt instellen, selecteert u het veld **Verplaatsingen automatisch aanmaken** in het venster **Assemblage-instelling**  
+>  Indien de verplaatsing voor een assemblageorder is waar het item voor een verkooporder wordt samengesteld, kunt u definiëren dat het voorraadverplaatsingdocument automatisch gemaakt wordt wanneer u het voorraad-pickdocument maakt dat het voltooide assemblageartikel neemt en de verzending boekt. Als u dit wilt instellen, selecteert u het veld **Verplaatsingen automatisch aanmaken** op de pagina **Assemblage-instelling**  
 >   
 >  Zie voor meer informatie over assemblageorders en standaardmagazijnconfiguraties de sectie 'Op-order-assembleren-artikelen met voorraadpicks afhandelen' in [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md).  
 
-Deze procedure laat zien hoe u een voorraadverplaatsing uit het venster **Voorraadverplaatsing** kunt maken door te verwijzen naar een vrijgegeven assemblageorder als brondocument. De procedure is hetzelfde als u onderdelen verplaatst voor productie- en serviceorders.  
+Deze procedure laat zien hoe u een voorraadverplaatsing uit de pagina **Voorraadverplaatsing** kunt maken door te verwijzen naar een vrijgegeven assemblageorder als brondocument. De procedure is hetzelfde als u onderdelen verplaatst voor productie- en serviceorders.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadverplaatsing** in en kies vervolgens de relevante koppeling.  
 2.  Vul het veld **Nr.** op het sneltabblad **Algemeen** in . te kiezen. U kunt op de Enter-toets drukken om te selecteren uit de nummerreeks.  
 3.  Voer in het veld **Locatiecode** de locatie in waar de verplaatsing plaatsvindt.  
 4.  Kies de actie **Brondocumenten ophalen**. U kunt ook het veld **Brondocument** invullen en vervolgens de knop **AssistEdit** in het veld **Bronnr.** kiezen.  
-5.  Selecteer in het venster **Brondocumenten** de assemblageorder waarvoor u onderdelen wilt verplaatsen en kies vervolgens de knop **OK**.  
+5.  Selecteer op de pagina **Brondocumenten** de assemblageorder waarvoor u onderdelen wilt verplaatsen en kies vervolgens de knop **OK**.  
 
-    Voor elk benodigd onderdeel dat verplaatst kan worden, wordt één regel met nemen en één regel met plaatsen gegenereerd in het venster **Voorraadverplaatsingen**. Alle velden behalve het veld **Te verwerken aantal** worden gevuld volgens de regels van het brondocument. Het veld **Te verwerken aantal** is ingesteld op nul totdat u het aantal opgeeft dat u daadwerkelijk hebt verplaatst.  
+    Voor elk benodigd onderdeel dat verplaatst kan worden, wordt één regel met nemen en één regel met plaatsen gegenereerd op de pagina **Voorraadverplaatsingen**. Alle velden behalve het veld **Te verwerken aantal** worden gevuld volgens de regels van het brondocument. Het veld **Te verwerken aantal** is ingesteld op nul totdat u het aantal opgeeft dat u daadwerkelijk hebt verplaatst.  
 
-    U kunt de opslaglocatiecode op de nemen-regel wijzigen, maar alleen op beschikbaarheid. Indien u de knop **AssistEdit** in het veld **Opslaglocatiecode** op een nemen-regel kiest, wordt het venster **Opslaglocatie-inhoud** geopend en worden alleen opslaglocaties getoond waar het onderdeel beschikbaar is.  
+    U kunt de opslaglocatiecode op de nemen-regel wijzigen, maar alleen op beschikbaarheid. Indien u de knop **AssistEdit** in het veld **Opslaglocatiecode** op een nemen-regel kiest, wordt de pagina **Opslaglocatie-inhoud** geopend en worden alleen opslaglocaties getoond waar het onderdeel beschikbaar is.  
 
     U kunt de opslaglocatiecode niet wijzigen op de plaatsen-regel. Alleen de opslaglocatiecode die op de onderdeelregel van het brondocument is gedefinieerd wordt geaccepteerd. Dit ondersteunt het beginsel dat de rol die een onderdeel verzoekt, wat in deze procedure een assemblagemedewerker is, weet waar het onderdeel moet worden geplaatst. Indien u onderdelen in een andere opslaglocatie wilt plaatsen, moet u eerst de opslaglocatiecode op de onderdeelregel wijzigen en vervolgens de voorraadverplaatsingsregels opnieuw maken.  
 6.  Voer in het veld **Te verwerken aantal** het gehele of gedeeltelijke aantal in dat u daadwerkelijk hebt verplaatst. De waarde op de nemen- en plaatsen-regels moet hetzelfde zijn. Anders kunt u de verplaatsing niet registreren.  

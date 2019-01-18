@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
@@ -29,7 +29,7 @@ Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzendi
 
  Met betrekking tot aantalsboekingen zijn er artikelvereffeningsposten om positieve voorraadmutaties te koppelen aan negatieve voorraadmutaties. Dit zorgt ervoor dat de kostenengine kosten van verhogingen kan doorsturen naar de gerelateerde afnamen, en vice versa. Zie [Ontwerpdetails: artikelvereffening](design-details-item-application.md) voor meer informatie.  
 
- Artikelposten, waardeposten en artikelvereffeningsposten worden gemaakt als gevolg van het boeken van een artikeldagboekregel, indirect door een orderregel te boeken of direct in het venster Artikeldagboek.  
+ Artikelposten, waardeposten en artikelvereffeningsposten worden gemaakt als gevolg van het boeken van een artikeldagboekregel, indirect door een orderregel te boeken of direct op de pagina Artikeldagboek.  
 
  Met regelmatige intervallen worden waardeposten die worden gemaakt in het voorraadgrootboek, geboekt naar het grootboek om de twee grootboeken om financiële controleredenen af te stemmen. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
 

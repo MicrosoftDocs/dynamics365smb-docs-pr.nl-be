@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
@@ -33,7 +33,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
 2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Een tabel toevoegen aan het werkblad  
-1.  Kies in het venster **Werkblad voor configuratie** de actie **Lijst bewerken**.  
+1.  Kies op de pagina **Werkblad voor configuratie** de actie **Lijst bewerken**.  
 2.  Selecteer op de eerste regel in het veld **Regelsoort** **Tabel**.  
 4.  Selecteer in het veld **Tabel-id** de tabel die u aan uw configuratie wilt toevoegen.  
 5.  Voer in het veld **Pagina-id** de id in van de pagina die is gekoppeld aan de tabel. Voor standaardtabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.
@@ -53,7 +53,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
 10. Als u dubbele tabelinformatie wilt verwijderen (wat het gevolg kan zijn van de actie **Gerelateerde tabellen ophalen**), kiest u de actie **Dubbele regels verwijderen**. Hierdoor worden dubbele tabellen met dezelfde pakketcode verwijderd.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Meerdere tabellen toevoegen aan het configuratiewerkblad  
-1. Kies de actie **Tabellen ophalen**. Het batchverwerkingsvenster **Configuratie voor tabellen ophalen** wordt geopend.  
+1. Kies de actie **Tabellen ophalen**. De batchverwerkingspagina **Configuratie voor tabellen ophalen** wordt geopend.  
 2. Geef op het sneltabblad **Opties** de soorten tabellen op die u aan de configuratie wilt toevoegen, zoals wordt beschreven in de volgende tabel.
 
     |Optie|Description|  
@@ -73,7 +73,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
     > - De relatie is voorwaardelijk.  
     > Voorbeeld: als u gerelateerde tabellen voor de tabel **Klant** ophaalt, wordt de tabel **Vestiging** niet toegevoegd, omdat deze slechts voorwaardelijk is gerelateerd aan de tabel **Klant**, namelijk als het veld **Vestiging** in de tabel **Klant** is gevuld.  
     > - De gerelateerde tabel wordt gefilterd.  
-    > Voorbeeld: Een veld in de gekoppelde tabel heeft een WHERE-clausule. De reden hiervoor is dat dit de desbetreffende relatiegegevens worden opgeslagen in de virtuele tabel **Veld** en om redenen van prestaties niet beschikbaar zijn in vensters zoals het configuratievoorstel.  
+    > Voorbeeld: Een veld in de gekoppelde tabel heeft een WHERE-clausule. De reden hiervoor is dat dit de desbetreffende relatiegegevens worden opgeslagen in de virtuele tabel **Veld** en om redenen van prestaties niet beschikbaar zijn op de pagina's zoals het configuratievoorstel.  
     > U moet gerelateerde tabellen met dergelijke complexe relaties handmatig toevoegen door stap 4 te volgen in het gedeelte "Een tabel toevoegen aan het werkblad".
 
 7. Als u tabellen wilt verwijderen uit de resulterende lijst met tabellen, selecteert u de tabel die u wilt verwijderen, en kiest u vervolgens de actie **Verwijderen**.  

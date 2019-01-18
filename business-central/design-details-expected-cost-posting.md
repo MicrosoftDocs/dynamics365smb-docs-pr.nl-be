@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Ontwerpdetails: Verwachte kostenboeking
@@ -27,12 +27,12 @@ Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht
 > [!NOTE]  
 >  Verwachte kosten worden alleen beheerd voor artikeltransacties. Verwachte kosten zijn niet voor immateriële transactiesoorten zoals capaciteit en artikelkosten.  
 
- Als slechts het aantaldeel van een voorraadtoename is geboekt, verandert de voorraadwaarde in het grootboek niet, tenzij u het selectievakje **Verw. kostprijs naar GB boeken** hebt geselecteerd in het venster **Voorraadinstelling**. In dat geval worden de verwachte kosten geboekt naar interimrekeningen op het moment van ontvangst. Nadat de ontvangst volledig is gefactureerd, worden de interimrekeningen vereffend en worden de werkelijke kosten geboekt naar de voorraadrekening.  
+ Als slechts het aantaldeel van een voorraadtoename is geboekt, verandert de voorraadwaarde in het grootboek niet, tenzij u het selectievakje **Verw. kostprijs naar GB boeken** hebt geselecteerd op de pagina **Voorraadinstelling**. In dat geval worden de verwachte kosten geboekt naar interimrekeningen op het moment van ontvangst. Nadat de ontvangst volledig is gefactureerd, worden de interimrekeningen vereffend en worden de werkelijke kosten geboekt naar de voorraadrekening.  
 
  Ter ondersteuning van reconciliatie en traceerbaarheid bevat de gefactureerde waardepost het verwachte kostenbedrag dat is geboekt om de interimrekeningen te vereffenen.  
 
 ## <a name="example"></a>Opmerking  
- Het volgende voorbeeld toont verwachte kosten als het selectievakje **Autom. voorraadwaarde boeken** en **Verw. kostprijs naar GB boeken** zijn ingeschakeld in het venster **Voorraadinstelling**.  
+ Het volgende voorbeeld toont verwachte kosten als het selectievakje **Autom. voorraadwaarde boeken** en **Verw. kostprijs naar GB boeken** zijn ingeschakeld op de pagina **Voorraadinstelling**.  
 
  U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.  
 

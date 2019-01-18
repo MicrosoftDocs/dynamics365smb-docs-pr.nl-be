@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen
@@ -41,9 +41,9 @@ Vervang in deze procedure de aantallen voor assembleren op basis van orders met 
 4.  In het feitenblok **Verkoopregeldetails** bepaalt u of de gevraagde hoeveelheid geheel of gedeeltelijk beschikbaar is.  
 5.  In het veld **Aantal voor op order assembleren** trekt u de beschikbare hoeveelheid af zodat alleen niet-beschikbare hoeveelheid op de order wordt geassembleerd. Het veld **Gereserveerde hoeveelheid** wordt dienovereenkomstig verlaagd om aan te geven dat de order-naar-order-koppeling of reservering alleen van toepassing is op de te assembleren hoeveelheid.  
 6.  Op het sneltabblad **Regels** kiest u **Functies** en vervolgens kiest u de actie **Reserveren**.  
-7.  Selecteer in het venster **Reservering** de artikelpostregel of -regels die de beschikbare hoeveelheden bevatten, kies de actie **Vanuit huidige regel reserveren** en kies vervolgens de knop **OK**.  
+7.  Selecteer op de pagina **Reservering** de artikelpostregel of -regels die de beschikbare hoeveelheden bevatten, kies de actie **Vanuit huidige regel reserveren** en kies vervolgens de knop **OK**.  
 
-    In het veld **Verkooporder** toont het veld **Gereserveerd aantal** nu dat het gehele aantal op de orderregel is gereserveerd. Het veld **Aantal voor op order assembleren** weerspiegelt nog steeds de subhoeveelheid die moet worden geassembleerd.  
+    Op de pagina **Verkooporder** toont het veld **Gereserveerd aantal** nu dat het gehele aantal op de orderregel is gereserveerd. Het veld **Aantal voor op order assembleren** weerspiegelt nog steeds de subhoeveelheid die moet worden geassembleerd.  
 
 8.  Geef de verkooporder vrij voor het picken van de voorraadartikelen en assemblage van de niet beschikbare artikelen. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Ontwerpdetails: Boekingsstructuur artikeltracering
@@ -24,7 +24,7 @@ Artikelposten worden gebruikt als primaire bron van artikeltraceringsnummers om 
   
 Artikeltraceringsnummers van ordernetwerkentiteiten en niet-ordernetwerkentiteiten worden opgegeven in tabel (T337) **Reserveringspost**. Artikeltraceringsnummers die zijn gerelateerd aan historische gegevens, worden direct opgehaald uit de artikelposten die gerelateerd zijn aan de desbetreffende transactie. Dit betekent dat de artikelposten de artikeltraceringspecificatie van de geboekte orderregel aangeven.  
   
-In het venster **Artikeltraceringsregels** wordt de informatie opgehaald uit T337 en de artikelposten, en wordt deze getoond via de tijdelijke tabel **Traceringsspecificatie** (T336). T336 bevat ook de tijdelijke gegevens in het venster **Artikeltraceringsregels** voor artikeltraceringsaantallen die nog moet worden gefactureerd.  
+Op de pagina **Artikeltraceringsregels** wordt de informatie opgehaald uit T337 en de artikelposten, en wordt deze getoond via de tijdelijke tabel **Traceringsspecificatie** (T336). T336 bevat ook de tijdelijke gegevens op de pagina **Artikeltraceringsregels** voor artikeltraceringsaantallen die nog moet worden gefactureerd.  
   
 ## <a name="one-to-many-relation"></a>Een-op-veel-relatie  
 De tabel **Artikelpostrelatie**, die wordt gebruikt om een geboekte documentregel te koppelen aan de gerelateerde artikelposten, bestaat uit twee hoofdonderdelen:  

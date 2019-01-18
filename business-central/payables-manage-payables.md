@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5482579cb453b119be1b6eb5c24d5adc9441ea8b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9bc4eaf292c20c1525c499cde715964eb6e6631f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
 
-Een belangrijk deel van het beheer van uw betalingsverplichtingen is het betalen van uw leveranciers of het vergoeden van kosten die uw werknemers maken. U kunt functies gebruiken om in het venster **Betalingsdagboek** automatisch betalingsregels toe te voegen voor inkoopfacturen die betaald moeten worden. Als u banktransacties naar uw bank wilt verzenden, kunt u meerdere betalingsdagboekregels naar een bestand exporteren, dat u vervolgens naar uw bank uploadt. U kunt ook betalingen per cheque doen, inclusief deze verzenden als elektronische betalingen.
+Een belangrijk deel van het beheer van uw betalingsverplichtingen is het betalen van uw leveranciers of het vergoeden van kosten die uw werknemers maken. U kunt functies gebruiken om op de pagina **Betalingsdagboek** automatisch betalingsregels toe te voegen voor inkoopfacturen die betaald moeten worden. Als u banktransacties naar uw bank wilt verzenden, kunt u meerdere betalingsdagboekregels naar een bestand exporteren, dat u vervolgens naar uw bank uploadt. U kunt ook betalingen per cheque doen, inclusief deze verzenden als elektronische betalingen.
 
-Een andere veel voorkomende taak is uitgaande betalingen met de relateerde leveranciers- of werknemersposten te vereffenen om daarmee de gerelateerde inkoopfacturen, inkoopcreditnota's of onkostendeclaraties te sluiten als zijnde betaald. U kunt dit werk in het venster **Betalingsreconciliatiedagboek** doen door een bankafschriftbestand te importeren om de betalingen te registreren. De betalingen worden vereffend met openstaande leveranciers-, klanten- of werknemersposten, door de betalingtekst te vergelijken met de informatie in de posten. Er zijn verschillende manieren om de overeenkomsten te controleren en te wijzigen voordat u het dagboek boekt. U kunt ervoor kiezen om openstaande bankrekeningposten met betrekking tot de vereffende posten te sluiten wanneer u het dagboek boekt. De bankrekening wordt automatisch gereconcilieerd wanneer alle betalingen worden vereffend.
+Een andere veel voorkomende taak is uitgaande betalingen met de relateerde leveranciers- of werknemersposten te vereffenen om daarmee de gerelateerde inkoopfacturen, inkoopcreditnota's of onkostendeclaraties te sluiten als zijnde betaald. U kunt dit werk op de pagina **Betalingsreconciliatiedagboek** doen door een bankafschriftbestand te importeren om de betalingen te registreren. De betalingen worden vereffend met openstaande leveranciers-, klanten- of werknemersposten, door de betalingtekst te vergelijken met de informatie in de posten. Er zijn verschillende manieren om de overeenkomsten te controleren en te wijzigen voordat u het dagboek boekt. U kunt ervoor kiezen om openstaande bankrekeningposten met betrekking tot de vereffende posten te sluiten wanneer u het dagboek boekt. De bankrekening wordt automatisch gereconcilieerd wanneer alle betalingen worden vereffend.
 
-U kunt ook uitgaande betalingen handmatig vereffenen in het venster **Betalingsdagboek** of vanuit de gerelateerde leveranciers- of werknemersposten.
+U kunt ook uitgaande betalingen handmatig vereffenen op de pagina **Betalingsdagboek** of vanuit de gerelateerde leveranciers- of werknemersposten.
 
 In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met koppelingen naar de beschrijvende onderwerpen.
 
@@ -31,8 +31,13 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 | --- | --- |
 | Genereer verschuldigde leveranciersbetalingen of werknemersvergoedingen, bereid betalingen via cheques voor en exporteer betalingen naar een bankbestand tijdens het boeken. |[Betalingen uitvoeren](payables-make-payments.md) |
 | Vereffen leveranciersbetalingen automatisch met niet-betaalde inkoopfacturen door een bankafschriftbestand te importeren. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+|Stel toewijzingen in tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.|[Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
 | Vereffen leveranciersbetalingen handmatig met niet-betaalde inkoopfacturen. |[Leveranciersbetalingen handmatig reconciliëren](payables-how-apply-purchase-transactions-manually.md) |
+|Vereffen automatisch inkomende of uitgaande betalingen die als transacties zijn vastgelegd op uw online bankrekening, met de gerelateerde openstaande, klant-, leveranciers- en bankrekeningposten. De lijst wordt gegenereerd vanuit een bankfeed of bestand.|[Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)|
+|Verwerk handmatig betalingen aan uw bankrekening die niet automatisch kunnen worden vereffend, bijvoorbeeld omdat er geen document bestaat waarmee de betaling kan worden vereffend of omdat het gerelateerde document een ander bedrag dan het transactiebedrag heeft vanwege een valutaverschil.|[Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md)|
 |Zorg voor correcte voorraadwaardering door artikelkosten toe te voegen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u inkoopt.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
+|Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boeken op het moment dat u de factuur boekt.|[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md)|
+|Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  

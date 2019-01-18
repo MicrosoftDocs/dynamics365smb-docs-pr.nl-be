@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
 
-Als u betalingen aan leveranciers of klanten doet of vergoedingen aan uw werknemers uitvoert, boekt u de gerelateerde betalingsregels in het venster **Betalingsdagboek**. Het betalingsdagboek is een diversendagboek dat is geoptimaliseerd voor het doen van betalingen en bevat een aantal krachtige functies zoals de functie **Leveranciersbetalingen voorstellen**, die verschuldigde betalingen zoekt, en het rapport **Leverancier - Open posten** dat een overzicht bevat van verschuldigde leveranciersbetalingen.  
+Als u betalingen aan leveranciers of klanten doet of vergoedingen aan uw werknemers uitvoert, boekt u de gerelateerde betalingsregels op de pagina **Betalingsdagboek**. Het betalingsdagboek is een diversendagboek dat is geoptimaliseerd voor het doen van betalingen en bevat een aantal krachtige functies zoals de functie **Leveranciersbetalingen voorstellen**, die verschuldigde betalingen zoekt, en het rapport **Leverancier - Open posten** dat een overzicht bevat van verschuldigde leveranciersbetalingen.  
 
 U kunt het betalingsproces starten vanuit de lijsten, kaarten, en posten voor leveranciers, klanten en medewerkers. Elk van de pagina's heeft een knop die de betalingsstroom start en u helpt het betalingsdagboek in te vullen.  
 
@@ -33,13 +33,13 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 | Aan | Zie |
 | --- | --- |
-|Basisfuncties begrijpen van het venster **Betalingsdagboek**, dat is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
+|Basisfuncties begrijpen van de pagina **Betalingsdagboek**, die is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
 |Boek betalingen aan leveranciers of werknemers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
-| Gebruik een functie in het venster **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
+| Gebruik een functie op de pagina **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
 | Geef cheques uit voor leveranciersbetalingen of terugbetalingen aan klanten, hetzij als afdrukken, hetzij als automatische cheques. Cheques nietig verklaren voor of na het boeken. |[Chequebetalingen doen](payables-how-work-checks.md) |
 |Doe elektronische betalingen door betalingen te exporteren naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (Electronic Funds Transfer) in Noord-Amerika. |[Elektronische betalingen doen](payables-how-export-payments-bank-file.md)|
 |Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
-| De leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Een leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
 |Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
 

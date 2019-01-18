@@ -11,18 +11,18 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a83bb50c640adafede77524c6982107e1140a27b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Conversieservice voor bankgegevens instellen
 Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiernaar wordt verwezen in [!INCLUDE[d365fin](includes/d365fin_md.md)] als conversieservice bankgegevens.
 
-U kunt betalingsregels uit het venster **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md).
+U kunt betalingsregels uit de pagina **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md).
 
-U kunt bankafschriftbestanden in het venster **Betalingsreconciliatiedagboek** importeren door de conversieservice voor bankgegevens te gebruiken om een bestand te converteren dat u van de bank ontvangt, naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+U kunt bankafschriftbestanden op de pagina **Betalingsreconciliatiedagboek** importeren door de conversieservice voor bankgegevens te gebruiken om een bestand te converteren dat u van de bank ontvangt, naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Als alternatief voor het importeren van bankafschriften met de conversieservice bankgegevens, kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [De feedservice van de Envestnet Yodlee Bank instellen](bank-how-setup-bank-statement-service.md).
 
@@ -33,7 +33,7 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Uw bedrijf aanmelden voor de conversieservice van bankgegevens
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.  
-2. Het venster **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de conversieservice voor bankgegevens.
+2. De pagina **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de conversieservice voor bankgegevens.
 
     > [!NOTE]  
     >   In de demonstratiedatabase CRONUS International Ltd. worden de velden Gebruikersnaam en Wachtwoord vooraf ingevuld met demoaanmeldgegevens, die u vervangt door de werkelijke gegevens van uw bedrijf wanneer u zich aanmeldt bij de conversieservice voor bankgegevens.
@@ -42,7 +42,7 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 
     Uw bedrijf is nu aangemeld voor de conversieservice van bankgegevens. Ga door met het invoeren van de gebruikersnaam en het wachtwoord, die u voor de service hebt opgegeven in de gerelateerde instellingsvelden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-5. Voer in het venster **Instelling gegevensconv.service bank** in het veld **Naam** dezelfde waarde in die u in stap 4 als aanmeldnaam op de pagina van de serviceprovider hebt ingevoerd.
+5. Voer op de pagina **Instelling gegevensconv.service bank** in het veld **Naam** dezelfde waarde in die u in stap 4 als aanmeldnaam op de pagina van de serviceprovider hebt ingevoerd.
 6. Voer in het veld **Wachtwoord** dezelfde waarde in die u in stap 4 in het veld **Wachtwoord** op de pagina van de serviceprovider hebt ingevoerd.
 
 > [!NOTE]  
@@ -50,10 +50,10 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>De lijst met momenteel ondersteunde bankgegevensindelingen weergeven of bijwerken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.
-2. Kies in het venster **Instelling gegevensconv.service bank** de actie **Banknaam - Gegevensconversielijst** om de lijst met banknamen te openen die bankgegevensindelingen vertegenwoordigen die door de conversieservice worden ondersteund.
-3. Kies in het venster **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken**.
+2. Kies op de pagina **Instelling gegevensconv.service bank** de actie **Banknaam - Gegevensconversielijst** om de lijst met banknamen te openen die bankgegevensindelingen vertegenwoordigen die door de conversieservice worden ondersteund.
+3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken**.
 
-De lijst met bankgegevensindelingen die door de conversieservice voor bankgegevens worden ondersteund, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** in het venster **Bankrekeningkaart**.
+De lijst met bankgegevensindelingen die door de conversieservice voor bankgegevens worden ondersteund, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** op de pagina **Bankrekeningkaart**.
 
 > [!NOTE]  
 >   De bijwerking van ondersteunde bankgegevensindelingen treedt ook op wanneer u een waarde selecteert of invoert in het veld **Banknaam - Gegevensconversie** voor de bankrekening.

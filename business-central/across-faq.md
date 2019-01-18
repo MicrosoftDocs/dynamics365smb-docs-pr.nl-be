@@ -4,17 +4,14 @@ description: Antwoorden op veel gestelde vragen over hoe u zich aanmeldt voor Bu
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 10/01/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
+ms.date: 11/05/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0cbc9a9d5aa42539e6be2dcc2b2f35b0b9a6a4ba
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
@@ -25,8 +22,10 @@ Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-ma
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken. Zie [Aanmelden bij Troubleshooting Self-Service](ui-troubleshoot-self-signup.md).  
 
+Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises wilt gebruiken, kunt u andere verificatiemethoden gebruiken. Zie voor meer informatie [Implementatie van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
 ## <a name="do-i-have-to-buy-office-365"></a>Moet ik Office 365 aanschaffen?
-Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Office 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Office 365 van een maand [hier](https://products.office.com/try).  
+Nr. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Office 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Office 365 van een maand [hier](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Waar gaat de integratie met Office 365 over?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is volledig geïntegreerd met Office 365 zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  
@@ -38,7 +37,10 @@ Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d36
 Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Business Central-community. Zie [Dynamics 365 Business Central-community](https://community.dynamics.com/business) voor meer informatie. Ook worden tips en trucs door ons Ondersteuningsteam gepubliceerd. Zie het [ondersteuningsblog voor Dynamics 365 Business Central](https://blogs.msdn.microsoft.com/dyn365finsupport) voor meer informatie.  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Is het mogelijk mijn “Nieuw bedrijf”-proefperiode te verlengen?
-Ja. Als u de proef wilt uitbreiden, neemt u contact met Microsoft op via 1-800-865-9408. OPMERKING: het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
+Ja. Als u de proef wilt uitbreiden, moet u contact met Microsoft opnemen in uw land of regio. Voor het juiste telefoonnummer raadpleegt u de lijst in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). De lijst bevat telefoonnummers voor Dynamics CRM Online, maar ze gelden ook voor alle Dynamics 365-apps.  
+
+> [!NOTE]
+> Het kan maximaal 2 werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds hetzelfde rolcentrum in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw Rolcentrum niet gewijzigd en gebruikersgroepen toegewezen die voldoen aan de nieuwe licentie. In wezen wordt uw toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaald door het type plan (licentie) dat u hebt - hiermee worden machtigingen en uw standaard rolcentrumstartpagina ingesteld. U kunt uw Rolcentrum handmatig wijzigen in Mijn Instellingen, maar als u naar een ander plan wordt verplaatst, zoals van het Bedrijfsplan naar het Teamledenplan, ziet u mogelijk de oude startpagina omdat uw machtigingen niet zijn gewijzigd.  
@@ -47,7 +49,7 @@ Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw Rolcent
 Hebt u onlangs in de routekaart of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk nog niet geüpgraded naar de laatste versie. Als de mogelijkheid als een extensie in AppSource is gepubliceerd, is er een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource.  
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan ik training krijgen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, dat kan. Maar momenteel moet u dit bij uw doorverkopende partner vragen. Als u weet niet wie dat is, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een Business Central-partner.  
+Ja, dat kan. Maar momenteel moet u dit bij uw doorverkopende partner vragen. Als u weet niet wie dat is, zoekt u [hier](https://go.microsoft.com/fwlink/?linkid=2038145) een Business Central-partner.  
 
 Als u toegang tot Microsoft CustomerSource hebt, kunt u toegang krijgen tot de Imagine Academy met eLearning-materiaal. Voor meer informatie over hoe u toegang krijgt, raadpleegt u de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
@@ -55,8 +57,16 @@ Als u toegang tot Microsoft CustomerSource hebt, kunt u toegang krijgen tot de I
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie [Ondersteunde landen en vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) voor meer informatie.  
 
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Hoe kan ik technische ondersteuning krijgen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] wordt verkocht via partners en u moet contact met uw resellerpartner opnemen voor hulp bij technische problemen. Als uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
+
+Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[d365fin](includes/d365fin_md.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft.  
+
+U vindt een Business Central-partner op de pagina [https://www.microsoft.com/solution-providers/search](https://go.microsoft.com/fwlink/?linkid=2038145).  
+
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
-Als uw ervaringsinstelling in het venster **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).    
+Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).    
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

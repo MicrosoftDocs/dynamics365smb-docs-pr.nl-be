@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Projecten instellen
-In het venster **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
+Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
 
 Op de afzonderlijke projectkaarten moet u prijzen instellen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
 
@@ -48,25 +48,25 @@ Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld e
 >   U kunt een andere instelling van het selectievakje **Gebruikslink standaard toepassen** kiezen op de afzonderlijke projectkaarten. In dat geval heeft de instelling voor dat project voorrang op de hierboven beschreven algemene standaard.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
-U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor het venster **Resourceprijzen voor project**.
+U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Resource**.
-3. Vul in het venster **Resourceprijzen project** indien nodig de velden in.
+3. Vul op de pagina **Resourceprijzen project** indien nodig de velden in.
 
 De optionele informatie in de velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor** wordt gebruikt op de projectplanningsregels en in de gebruiksdagboeken wanneer deze resource wordt ingevoerd en wordt toegevoegd aan het project.  
 
 De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd.  
 
 > [!NOTE]  
->   Deze prijs komt altijd in de plaats van alle prijzen in het bestaande venster **Resourceverkoopprijs/Resourcegroepsprijs**.
+>   Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Prijzen instellen voor projectartikelen
-U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor het venster **Artikelprijzen project**.
+U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor de pagina **Artikelprijzen project**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Artikel**.
-3. Vul in het venster **Artikelprijzen project** indien nodig de velden in.
+3. Vul op de pagina **Artikelprijzen project** indien nodig de velden in.
 
 De optionele informatie in de velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer dit artikel wordt ingevoerd of wordt toegevoegd aan het project.  
 
@@ -76,11 +76,11 @@ De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplan
 >   Deze prijs komt altijd in de plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Prijzen instellen voor GB-rekeningen voor een project
-U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U kunt hiervoor het venster **GB-rekeningprijzen project** gebruiken.
+U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U gebruikt hiervoor de pagina **GB-rekeningprijzen project**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening**.  
-3. Vul in het venster **GB-rekeningprijzen project** indien nodig de velden in.
+3. Vul op de pagina **GB-rekeningprijzen project** indien nodig de velden in.
 
 De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project.  
 

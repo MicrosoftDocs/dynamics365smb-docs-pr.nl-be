@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Cliënten toevoegen aan uw dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-U kunt een cliënt toevoegen via het venster **Cliënten**, dat u kunt openen door de actie **Cliënten beheren** te kiezen op het lint. Kies gewoon **Nieuw** en vul vervolgens de velden in.  
+U kunt een cliënt toevoegen via de pagina **Cliënten**, dat u kunt openen door de actie **Cliënten beheren** te kiezen op het lint. Kies gewoon **Nieuw** en vul vervolgens de velden in.  
 
-![Een cliënt toevoegen](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Een cliënt toevoegen](./media/accountant-add-client/manage-client.png)
 
 De gegevens op de kaart voor elke cliënt worden door u opgegeven en u kunt deze desgewenst wijzigen. Het veld **Cliënt-URL** is echter belangrijk. Daarmee krijg u toegang tot de [!INCLUDE [d365fin](includes/d365fin_md.md)] van elke cliënt. Gebruik de actie **Cliënt-URL valideren** op het lint om te testen dat u de juiste koppeling hebt ingevoerd. De URL die u moet invoeren, verwijst naar de [!INCLUDE [d365fin](includes/d365fin_md.md)] van de cliënt en bevat hun domeinadres. Als zij het domein bijvoorbeeld hebben opgegeven als MyBusiness.com, is de koppeling naar hun [!INCLUDE [d365fin](includes/d365fin_md.md)] *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Vóór de wijziging van mei 2018 had de URL die u opgaf, een andere indeling met de bedrijfsnaam van de cliënt aan het begin. Met de update van 2018 mei wordt de indeling ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, waar ```clientdomain``` het domein van uw client is.  
+>  Vóór de wijziging van mei 2018 had de URL die u opgaf, een andere indeling met de bedrijfsnaam van de cliënt aan het begin. In de huidige versie van [!INCLUDE [d365fin](includes/d365fin_md.md)] is de indeling ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, waarbij ```clientdomain``` het domein van uw client vertegenwoordigt.  
 
 De cliënt-URL wordt gebruikt als u de menuopdracht **Ga naar bedrijf** kiest in het [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboard.  
 

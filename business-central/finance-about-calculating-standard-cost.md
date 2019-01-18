@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
@@ -81,7 +81,7 @@ U stelt de tarieven voor al deze tijdtypen voor iedere afdeling of bewerkingspla
 > [!NOTE]  
 >  Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast. Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte. U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.  
 
-Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** in het venster **Productie-instelling**.  
+Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** op de pagina **Productie-instelling**.  
 
 Als van één niveau wordt uitgegaan, zijn dit de arbeidskosten die nodig zijn om het afgewerkte productieartikel te produceren en wordt dit aangegeven op het bewerkingsplan van het productieartikel. Als van meerdere niveaus wordt uitgegaan, zijn dit de capaciteitskosten die voor elk afzonderlijk geproduceerd artikel dat is opgenomen in de stuklijst van het hoofdartikel zijn opgegeven.  
 

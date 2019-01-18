@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Afsluitingsjaren en -perioden
@@ -26,6 +26,7 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 
 | Aan | Zie |
 | --- | --- |
+| Definieer uw boekjaar en het verdeel in perioden waarvoor financiële prestaties worden gerapporteerd. | [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)|
 | Geef boekingsdatumbereiken voor het gehele systeem of een specifieke gebruiker op. Afhankelijk van uw zakelijke behoeften kunt u boekingsdatumbereiken voor een gebruiker beperken aan het begin van het periode-eindeproces of erna. |[Boekingsperioden opgeven](finance-how-specify-posting-periods.md) |
 | Haal een overzicht op van activiteiten die gewoonlijk aan het einde van een periode worden uitgevoerd, zoals het boeken van alle documenten en dagboeken of het uitvoeren van rapportageschema's. |[Perioden afsluiten](year-how-complete-period-end-processes.md) |
 | Wisselkoersen bij te werken en de wisselkoersen van geboekte klant-, leveranciers- en bankrekeningposten aan te passen. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |

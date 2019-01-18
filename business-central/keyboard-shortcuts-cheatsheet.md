@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Snelle naslag van pc-toetsenbordsneltoetsen
+# <a name="keyboard-shortcuts-quick-reference"></a>Snelle naslag van toetsenbordsneltoetsen
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Alge&meen**||**Navigeren en rijen selecteren**||
-|Alt+Q|**Vertel me wat u wilt doen** openen|Ctrl+A|Alles selecteren|
-|Tab|Focus verplaatsen naar het volgende besturingselement|Home/End|Naar het eerste/laatste veld gaan|
-|Shift + tab|Focus verplaatsen naar het vorige besturingselement|Ctrl+Home/End|Naar de eerste/laatste rij gaan|   
-|Alt+Pijl-omlaag|Een vervolgkeuzelijst of opzoekactie openen|Ctrl+pijl omhoog/pijl omlaag|Navigeren zonder de selectie te verliezen|
-|Alt+Pijl rechts|De transacties voor de berekende waarde weergeven|Ctrl+Spatiebalk|Selectie in-/uitschakelen| 
-|Esc|Sluit de huidige pagina of vervolgkeuzelijst.|Shift+Ctrl+Home/End|Selectie uitbreiden naar eerste/laatste rij| 
-|||Ctrl+Enter|Focus uit de lijst verplaatsen|
-|||||
-|**Kopiëren en plakken**||**Zoeken, filteren en sorteren**||
-|Ctrl+A|Alles selecteren|F3|Zoeken in-/uitschakelen|
-|Ctrl+Home/End|De eerste/laatste rij de lijst selecteren|Shift+F3|Filterdeelvenster in-/uitschakelen; focus op veldfilters|
-|Home/End|Naar eerste/laatste veld gaan|Ctrl+Shift+F3|Totalenfilter in-/uitschakelen: focus op totalenfilters|
-|Ctrl/Shift+klikken|De rij(en) toevoegen aan de selectie |Alt+F3|Filteren op geselecteerde celwaarde|
-|Ctrl+pijl omhoog/pijl omlaag|Focus verplaatsen naar rij erboven/eronder|Shift+Alt+F3|Filter op een geselecteerd veld toevoegen|
-|Ctrl+Spatiebalk|De selectie uitbreiden met rij die focus heeft|Ctrl+Alt+Shift+F3|Filters opnieuw instellen|
-|Shift+pijl omhoog/pijl omlaag|Rij toevoegen boven/onder selectie|**Rapportvoorbeeld**||
-|Shift+Page Up/Down|Alle zichtbare rijen boven/onder huidige selectie toevoegen|Pijl omhoog/pijl omlaag|Omlaag en omlaag schuiven op de pagina
-|Ctrl+C|Rijen kopiëren|Pijl rechts/pijl links|Naar rechts/links schuiven |
-|Ctrl+V|De rijen plakken|Ctrl+0 (nul)|Pagina in venster passen |
-|F8|Veld erboven naar huidige rij kopiëren|Ctrl+Home/End|Naar de eerste/laatste pagina gaan|
-|||Page Up/Down|Naar de vorige/volgende pagina gaan|
-
+||||  
+|----------------|-----------|----------------| 
+|**Alge&meen**|Alt+Q<br />Alt+Pijl omhoog<br />Tab<br />Shift + tab<br />Alt+Pijl-omlaag<br />Alt+Pijl rechts<br />F5/Ctrl+F5<br />Esc|**Vertel me** openen<br />Knopinfo openen of validatiefout<br />Focus verplaatsen naar het volgende besturingselement<br />Focus verplaatsen naar het vorige besturingselement<br />Een vervolgkeuzelijst of opzoekactie openen<br />De transacties voor de berekende waarde weergeven<br />Pagina vernieuwen/opnieuw laden<br />Sluit de huidige pagina of vervolgkeuzelijst.|
+|**Navigeren en rijen selecteren**| Home/End<br />Ctrl+Home/End <br />Ctrl+pijl omhoog/pijl omlaag<br />Ctrl+A <br />Ctrl+Spatiebalk<br />Ctrl/Shift+klikken<br />Ctrl+Shift+Home/End<br />Shift+pijl omhoog/pijl omlaag<br />Shift+Page Up/Down<br />Ctrl+Enter| Naar het eerste/laatste veld gaan<br />Naar de eerste/laatste rij gaan<br />Navigeren zonder de selectie te verliezen<br />Alles selecteren<br />Selectie in-/uitschakelen<br /> De rij(en) toevoegen aan de selectie<br />Selectie uitbreiden naar eerste/laatste rij<br />Rij toevoegen boven/onder selectie<br />Alle zichtbare rijen boven/onder toevoegen aan selectie<br />Focus uit de lijst verplaatsen|
+|**Kopiëren en plakken**|Ctrl+C<br />Ctrl+V<br />F8|Rijen kopiëren<br />Rijen plakken<br />Veld erboven naar huidige rij kopiëren|
+|**Zoeken, filteren en sorteren**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Zoeken in-/uitschakelen<br />Filterdeelvenster in-/uitschakelen; focus op veldfilters<br />Filterdeelvenster in-/uitschakelen; focus op totalenfilters<br />Filteren op geselecteerde celwaarde<br />Filter op een geselecteerd veld toevoegen<br />Filters opnieuw instellen|
+|**Rapportvoorbeeld**|Pijl omhoog/pijl omlaag<br />Pijl rechts/pijl links<br />Ctrl+Home/End<br />Page Up/Down|Omlaag en omlaag schuiven op de pagina<br />Naar rechts/links schuiven <br />Naar de eerste/laatste pagina gaan<br />Naar de vorige/volgende pagina gaan|
 

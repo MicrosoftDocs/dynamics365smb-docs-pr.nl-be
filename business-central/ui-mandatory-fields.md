@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9691df30fef92fcd3c459558e14c2fd627e74099
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 01e517daea89c5371f95df963831ab8f8d9bf523
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="mandatory-fields"></a>Verplichte velden
@@ -24,9 +24,9 @@ Wanneer u gegevens invoert op pagina's in [!INCLUDE[d365fin](includes/d365fin_md
 Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te vullen voordat u verdergaat naar andere velden of de pagina sluit. De rode asterisk dient alleen als een herinnering dat u wordt geblokkeerd van het voltooien van een bepaald proces.
 
 ## <a name="examples"></a>Voorbeelden
-In het venster **Klantenkaart** verschijnt een rode asterisk in het veld **Naam** , in het veld **Belastinggebiedcode** en in boekingsgroepsvelden om aan te geven dat u geen verkooptransactie voor de klant kunt boeken tenzij de velden zijn gevuld.
+Op de pagina **Klantenkaart** verschijnt een rode asterisk in het veld **Naam** , in het veld **Belastinggebiedcode** en in boekingsgroepsvelden om aan te geven dat u geen verkooptransactie voor de klant kunt boeken tenzij de velden zijn gevuld.
 
-In het venster **Artikelkaart** verschijnt de rode asterisk in het veld **Omschrijving** om aan te geven dat u het artikel niet kunt invoeren op een documentregel, zoals een verkooporder, tenzij dit veld is ingevuld.
+Op de pagina **Artikelkaart** verschijnt de rode asterisk in het veld **Omschrijving** om aan te geven dat u het artikel niet kunt invoeren op een documentregel, zoals een verkooporder, tenzij dit veld is ingevuld.
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

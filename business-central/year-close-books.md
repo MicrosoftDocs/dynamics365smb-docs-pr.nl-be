@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f376460c8c0896586228774ac9d71f13302f5bc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6894fad3654f204d79144946776b36dcb2d43665
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="closing-the-books"></a>De boeken sluiten
@@ -29,7 +29,7 @@ Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
 1. De boekingsperiode afsluiten.
 
-    Een boekjaar wordt gedefinieerd als één of meer open perioden die zijn gedefinieerd in het venster **Boekhoudperioden**. Een boekjaar bestaat over het algemeen uit 12 perioden van een maand, maar u kunt een jaar ook anders definiëren.
+    Een boekjaar wordt gedefinieerd als een of meer open perioden zoals die zijn gedefinieerd op de pagina **Boekingsperioden**. Een boekjaar bestaat over het algemeen uit 12 perioden van een maand, maar u kunt een jaar ook anders definiëren.
 
     Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
 2. Naboekingen registreren.

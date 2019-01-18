@@ -1,6 +1,6 @@
 ---
 title: Welkom | Microsoft Docs
-description: Schetst de begeleide instellingen, video's, Help-onderwerpen en pagina's en vensters die u kunt gebruiken om u gereed te maken voor het doen van zaken in Business Central.
+description: Schetst de begeleide instellingen, video's, Help-onderwerpen en pagina's die u kunt gebruiken om u gereed te maken voor het doen van zaken in Business Central.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -12,23 +12,23 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] opgezet.
 
-Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar het venster **Bedrijfsassistentie**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. U opent dit venster vanuit het diagram in het rolcentrum **Bedrijfsmanager** door het vervolgkeuzemenu **Bedrijfsassistentie** te openen en daarin de actie **Instellings- en Help-resources weergeven** te kiezen. Wanneer u de pagina vernieuwt, wordt het diagram vervangen door de resources voor configuratie en help.
+Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Bedrijfsassistentie**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. U opent deze pagina vanuit het diagram in het rolcentrum **Bedrijfsmanager** door het vervolgkeuzemenu **Bedrijfsassistentie** te openen en daarin de actie **Instellings- en Help-resources weergeven** te kiezen. Wanneer u de pagina vernieuwt, wordt het diagram vervangen door de resources voor configuratie en help.
 
-In het rolcentrum vindt u op de navigatiebalk bovenin het menu **Instellingen en extensies**. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenvensters te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
+In het rolcentrum vindt u op de navigatiebalk bovenin het menu **Instellingen en extensies**. Hier hebt u toegang tot een overzicht van begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenpagina's te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
 
 > [!NOTE]  
 >   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de Essential-ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
-In het venster **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
+Op de pagina **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
 
 | Begeleide instelling | Description |
 | --- | --- |
@@ -51,16 +51,16 @@ Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te ma
 > U kunt naar het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
 
 ## <a name="company-information"></a>Bedrijfsgegevens
-Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat in dit venster doen.    
+Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat op deze pagina doen.    
 
 ## <a name="adding-users-and-permissions"></a>Gebruikers en machtigingen toevoegen
-Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd in het venster **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd op de pagina **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
 
 ## <a name="getting-help"></a>Help opvragen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. In elke knopinfo vindt u een koppeling met de naam **Help opvragen** die u naar de product-Help brengt. Het vraagteken in de rechterbovenhoek verwijst u ook naar product-Help.
 
 ## <a name="next-steps"></a>Volgende stappen
-Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Mijn bedrijf** van het venster **Start** om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingsregistratie te maken.
+Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Mijn bedrijf** van de pagina **Start** om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingregistratie te maken.
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

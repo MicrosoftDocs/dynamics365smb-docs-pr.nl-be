@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties
@@ -32,7 +32,7 @@ Zie voor meer informatie [Ontwerpdetails: Inkomende magazijnstroom](design-detai
 De volgende procedure geeft methode B in de vorige tabel weer.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
-In standaardmagazijnconfiguraties waarbij voor uw vestiging de verwerking van opslag, maar niet van ontvangst vereist is, gebruikt u het venster **Voorraadopslag** om opslag- en ontvangstinformatie voor de inkomende brondocumenten te verzamelen en boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een productieorder met output die kan worden opgeslagen.
+In standaardmagazijnconfiguraties waarbij voor uw vestiging de verwerking van opslag, maar niet van ontvangst vereist is, gebruikt u de pagina **Voorraadopslag** om opslag- en ontvangstinformatie voor de inkomende brondocumenten te verzamelen en boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een productieorder met output die kan worden opgeslagen.
 
 > [!NOTE]
 > Hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.  
@@ -63,7 +63,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   Maak van uzelf een magazijnwerknemer bij vestiging ZILVER door de volgende stappen uit te voeren:  
 
     1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
-    2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount in het venster **Gebruikers**.  
+    2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
     3.  Voer ZILVER in het veld **Vestiging** in.  
     4.  Selecteer het veld **Standaard**.  
 
@@ -71,7 +71,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 Ellen, de magazijnmanager bij CRONUS International Ltd., maakt een inkooporder voor 10 eenheden van artikel LS-75 en 30 eenheden van artikel LS-81 van leverancier 10000 om te worden afgeleverd bij magazijn ZILVER. Wanneer de bezorging in het magazijn aankomt, zet de magazijnmedewerker Johanna de artikelen in de standaardopslaglocaties die voor de artikelen zijn gedefinieerd. Wanneer Johanna de voorraadopslag boekt, worden de artikelen als ontvangen en beschikbaar voor verkoop of andere oproepen in de voorraad.  
 
 ## <a name="setting-up-the-location"></a>De locatie instellen  
- De instellingen van het venster **Vestiging** definiëren de magazijnstromen van het bedrijf.  
+ De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van het bedrijf.  
 
 ### <a name="to-set-up-the-location"></a>De vestiging instellen  
 
@@ -84,7 +84,7 @@ Ellen, de magazijnmanager bij CRONUS International Ltd., maakt een inkooporder v
 4.  Kies de actie **Opslaglocaties**.  
 5.  Selecteer de eerste rij voor opslaglocatie S-01-0001 en kies vervolgens de actie **Inhoud**.  
 
-    U ziet in het venster **Opslaglocatie-inhoud** dat artikel LS-75 al is ingesteld als inhoud in opslaglocatie S-01-0001.  
+    U ziet op de pagina **Opslaglocatie-inhoud** dat artikel LS-75 al is ingesteld als inhoud in opslaglocatie S-01-0001.  
 
 6.  Kies de actie **Nieuw**.  
 7.  Selecteer de velden **Vast** en **Standaard**.  
@@ -114,7 +114,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
     Het leveren van luidsprekers van leverancier 10000 is aangekomen op magazijn SILVER en Jan bergt ze op.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>De artikelen ontvangen en opslaan  
-In het venster **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor een bepaald brondocument beheren, zoals een inkooporder.  
+Op de pagina **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor een bepaald brondocument beheren, zoals een inkooporder.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>De artikelen ontvangen en opslaan  
 

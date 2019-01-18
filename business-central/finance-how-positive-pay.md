@@ -13,10 +13,10 @@ ms.search.keywords: check, clearing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 61f3d3fcd093c9fca4e23481ff3b527714b85379
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
@@ -28,17 +28,17 @@ Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verreken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de bank waarvoor u Positive Pay wilt gebruiken.
 3. Voer in het veld **Positive Pay-exportcode** POSPAYBANK in.
-4. Sluit het venster.
+4. Sluit de pagina.
 
 ## <a name="to-export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de bankrekening waarvoor u een Positive Pay-bestand wilt exporteren.
 3. Kies de actie **Positive Pay exporteren**.
 
-    Het venster **Positive Pay exporteren** wordt geopend met betalingen die voor de bankrekening zijn uitgevoerd sinds de laatste uploaddatum, zoals weergegeven in het veld **Laatste uploaddatum** en het veld **Laatste uploadtijd**.
+    De pagina **Positive Pay exporteren** wordt geopend met betalingen die voor de bankrekening zijn uitgevoerd sinds de laatste uploaddatum, zoals weergegeven in het veld **Laatste uploaddatum** en het veld **Laatste uploadtijd**.
 4. In het veld **Afkapdatum voor uploaden** geeft u een datum op waarvóór betalingen niet worden opgenomen in het geëxporteerde bestand.
 5. Kies de actie **Exporteren**.
-6. Kies in het venster **Bestand exporteren** de knop **Opslaan** en sla vervolgens het bestand op een geschikte locatie op.
+6. Kies op de pagina **Bestand exporteren** de knop **Opslaan** en sla vervolgens het bestand op een geschikte locatie op.
 7. Upload het bestand naar uw elektronische banksite.
 8. Noteer of kopieer het bevestigingsnummer dat wordt weergegeven wanneer de bestandsupload is gelukt.
 
@@ -48,7 +48,7 @@ Geëxporteerde Positive Pay-records weergeven
 2. Selecteer de bankrekening waarvoor u Positive Pay-exportrecords wilt weergeven.
 3. Kies de actie **Positive Pay-posten**.
 
-    In het venster **Positive Pay-posten** kunt u alle Positive Pay-exportrecords voor de bankrekening zien.
+    Op de pagina **Positive Pay-posten** kunt u alle Positive Pay-exportrecords voor de bankrekening zien.
 4. Voer in het veld **Bevestigingsnummer** voor elke exportrecord het bevestigingsnummer in dat u ontvangt als de bestandsupload naar de bank is gelukt.
 5. Als u de relateerde betalingsregels wilt weergeven, kiest u de actie **Details van Positive Pay-post**.
 
@@ -58,7 +58,7 @@ Positive Pay-bestanden opnieuw exporteren
 2. Selecteer de bankrekening waarvoor u Positive Pay-bestanden opnieuw wilt exporteren.
 3. Kies de actie **Positive Pay-posten**.
 4. Selecteer de regel van het Positive Pay-exportbestand dat u opnieuw wilt exporteren.
-5. Kies in het venster **Positive Pay-posten** de actie **Positive Pay opnieuw exporteren naar bestand**.
+5. Kies op de pagina **Positive Pay-posten** de actie **Positive Pay opnieuw exporteren naar bestand**.
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  

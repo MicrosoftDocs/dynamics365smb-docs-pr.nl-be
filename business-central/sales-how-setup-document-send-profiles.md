@@ -13,22 +13,22 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c18edefc22d96f2c4037f7f51cca488e04c35d92
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f72c4eba9ad199c559f24d29b712b6636bec47e0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
 U kunt elke klant instellen met een voorkeursmethode voor de verzending van verkoopdocumenten, zodat u niet elke keer dat u de actie **Boeken en verzenden** kiest een verzendoptie hoeft te selecteren.
 
-In het venster **Verzendprofielen van documenten** kunt u verschillende verzendprofielen instellen waaruit u kunt kiezen in het veld **Verzendprofiel van document** op een klantenkaart. U kunt het selectievakje **Standaard** selecteren om aan te geven dat het verzendprofiel van het document het standaardprofiel is voor alle klanten, behalve voor klanten waarvoor in het veld **Verzendprofiel van document** een ander profiel staat.
+Op de pagina **Verzendprofielen van documenten** kunt u verschillende verzendprofielen instellen waaruit u kunt kiezen in het veld **Verzendprofiel van document** op een klantenkaart. U kunt het selectievakje **Standaard** selecteren om aan te geven dat het verzendprofiel van het document het standaardprofiel is voor alle klanten, behalve voor klanten waarvoor in het veld **Verzendprofiel van document** een ander profiel staat.
 
 Wanneer u de actie **Boeken en verzenden** in een verkoopdocument kiest, wordt in het dialoogvenster **Boeken en verzenden bevestigen** het gebruikte verzendprofiel getoond. Dit is het voor de klant ingestelde profiel of het standaardprofiel voor alle klanten. In het dialoogvenster kunt u het verzendprofiel voor het verkoopdocument wijzigen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendprofielen van documenten** in en kies vervolgens de gerelateerde koppeling.
-2. Kies in het venster **Verzendprofielen van documenten** de actie **Nieuw**.
+2. Kies op de pagina **Verzendprofielen van documenten** de actie **Nieuw**.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Een verzendprofiel op een klantenkaart opgeven

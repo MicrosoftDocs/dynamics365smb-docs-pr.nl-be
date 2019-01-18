@@ -1,6 +1,6 @@
 ---
 title: Het rapport Intrastat - Formulier afdrukken
-description: "Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan."
+description: "Het rapport Intrastat - Formulier moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b5fec58c33c2cbdff549f2634652faa5f856f92
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 12b7342fca98b756ab901e3be1abaa3437e872cc
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken
@@ -42,7 +42,7 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
     |**Bericht**|Voer een bericht in dat moet worden afgedrukt voor Intrastat-aangifte, zoals 'normale aangifte' of 'vervangingsaangifte'.|  
 
 3.  Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven.  
-  
+
 ## <a name="see-also"></a>Zie ook  
  [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
  [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)   

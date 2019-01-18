@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 07c56f109ee2e4c348c0f654ceadc4018174c0d5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Een klant, leverancier of bankrekening maken van een contact
 Mogelijk wilt u een aantal van uw bestaande contacten vastleggen als klanten, leveranciers of bankrekeningen. Als u een klant, leverancier of bankrekening maakt van een contact, kunt u bestaande gegevens gebruiken. Wanneer u op deze manier een klant, leverancier of bankrekening maakt, wordt deze gesynchroniseerd met het contact. Synchronisatie maakt gegevens die gemeenschappelijk zijn voor contacten en klanten, leveranciers of bankrekeningen hetzelfde.
 
-Voordat u op deze manier contacten kunt vastleggen, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen in het venster **Marketinginstellingen**. Als u contacten vastlegt als bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen in het venster **Grootboekinstellingen**.
+Voordat u op deze manier contacten kunt vastleggen, moet u een zakenrelatiecode opgeven voor klanten, leveranciers en bankrekeningen op de pagina **Marketinginstellingen**. Als u contacten vastlegt als bankrekeningen maakt, moet u ook nummers opgeven voor bankrekeningen op de pagina **Grootboekinstellingen**.
 
 ## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>Een contact maken als klant, leverancier of bankrekening
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.

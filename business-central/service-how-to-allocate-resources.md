@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes d
 6. Als u een lijst wilt krijgen met documenten die bij een bepaald(e) contract/klant/zone horen, vult u het veld **Contractfilter/Klantfilter/Zonefilter** in en drukt u op **Enter**.  
 7. Kies een regel die bij een serviceorder of -offerte hoort en kies de actie **Document weergeven**.  
 
-    Het venster **Serviceorder** of **Serviceofferte** wordt geopend en u kunt werken met het document. Klik op **OK** om terug te keren naar het venster **Planbord**.
+    De pagina **Serviceorder** of **Serviceofferte** wordt geopend en u kunt werken met het document. Klik op **OK** om terug te keren naar de pagina **Planbord**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Resources toewijzen op basis van resource- of resourcegroepbeschikbaarheid    
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies de gerelateerde koppeling.  
 2. Kies de serviceorder en kies vervolgens de actie **Resourcetoewijzingen**.  
 3. Kies de post met de servicetaak waaraan u een resource wilt toewijzen.  
 4. Kies de actie **Resourcebeschikbaarheid** of **Res.-groepbeschikbaarheid**.  
-5. In het venster **Res.-beschikbaarheid (Service)** kiest u **Matrix weergeven**.  
+5. Op de pagina **Res.-beschikbaarheid (Service)** kiest u **Matrix weergeven**.  
 6. Kies een resource om toe te wijzen. U kunt uw selectie baseren op bekwaamheid van de resource, op het feit of deze zich bevindt zich in de zone van de klant en/of de klant de voorkeur geeft aan deze resource.  
 7. Geef een datum op waarop de resource voldoende beschikbare uren voor de taak heeft en die dicht bij de responsdatum van de serviceorder ligt.  
 8. Voer in het veld **Toe te wijzen aantal** het aantal uren in waarvoor u de resource wilt toewijzen aan de servicetaak.  
@@ -63,7 +63,7 @@ Als u een serviceorder of contractofferte hebt gemaakt en ingevuld, kunt u resou
 2. Kies de serviceorder en kies **Bewerken**.  
 3. Kies de serviceartikelregel die overeenkomt met de servicetaak waaraan u een resource wilt toewijzen.  
 4. Kies **Resourcetoewijzingen**.
-5. Kies in het venster **Resourcetoewijzingen** een niet-actieve toewijzingspost met de servicetaak waaraan u de resource wilt toewijzen. Als de toewijzingspost niet bestaat, kunt u een nieuwe post maken door **Nieuw** te kiezen.  
+5. Kies op de pagina **Resourcetoewijzingen** een niet-actieve toewijzingspost met de servicetaak waaraan u de resource wilt toewijzen. Als de toewijzingspost niet bestaat, kunt u een nieuwe post maken door **Nieuw** te kiezen.  
 7. Geef de servicetaak op door het veld **Serviceartikelnr.** op dezelfde regel in te vullen.  
 8. Kies de resource in het veld **Resourcenr.** Als de resource deel uitmaakt van een resourcegroep, wordt het nummer van de resourcegroep automatisch ingevoerd in het veld **Resourcegroepnr**. te kiezen.  
 9. Vul de velden **Toewijzingsdatum** en **Toegewezen uren** in. Het veld **Status** wordt ingesteld op de status **Actief**. Dit betekent dat de resource is toegewezen aan de servicetaak.  
@@ -82,7 +82,7 @@ U kunt resources rechtstreeks opnieuw toewijzen vanuit een serviceorder of servi
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de betreffende serviceorder.  
 3. Selecteer de serviceartikelregel die overeenkomt met de servicetaak waaraan u een resource wilt toewijzen.  Kies **Acties**, kies **Regel** en kies **Resourcetoewijzingen**.  
-4. Selecteer in het venster **Resourcetoewijzingen** een toewijzingspost met de servicetaak waaraan u de resource opnieuw wilt toewijzen. Selecteer de juiste resource in het veld **Resourcenr.**. Hiermee wordt de bestaande resource in het veld overschreven.  
+4. Selecteer op de pagina **Resourcetoewijzingen** een toewijzingspost met de servicetaak waaraan u de resource opnieuw wilt toewijzen. Selecteer de juiste resource in het veld **Resourcenr.**. Hiermee wordt de bestaande resource in het veld overschreven.  
 5. Druk op ENTER. Er wordt een dialoogvenster geopend waarin u wordt gevraagd of u deze post opnieuw wilt toewijzen. Vul eventueel het veld **Redencode** in en klik op de knop **Ja** om de hertoewijzing te bevestigen.  
 6. Vul de velden **Toewijzingsdatum** en **Toegewezen uren** in. De nieuwe resource is nu opgenomen in de post en de status is **Actief**.
 
@@ -90,8 +90,8 @@ U kunt resources rechtstreeks opnieuw toewijzen vanuit een serviceorder of servi
 Als de resource die is toegewezen aan een servicetaak het werk niet kan uitvoeren, moet deze servicetaak opnieuw worden toegewezen. Meestal wijst u resources opnieuw toe aan een servicetaak met behulp van het **planbord**.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer in het veld **Toewijzingsfilter** de optie **Hertoewijzing vereist**. In het venster **Planbord** wordt nu de lijst met serviceorders weergegeven met servicetaken die u opnieuw moet toewijzen.  
-3. Selecteer de betreffende serviceorder. Kies op het tabblad **Navigatie** in de groep **Planning** de optie **Resourcetoewijzingen**. Het venster **Brontoewijzingen** wordt geopend.  
+2. Selecteer in het veld **Toewijzingsfilter** de optie **Hertoewijzing vereist**. Op de pagina **Planbord** wordt nu de lijst met serviceorders weergegeven met servicetaken die u opnieuw moet toewijzen.  
+3. Selecteer de betreffende serviceorder. Kies op het tabblad **Navigatie** in de groep **Planning** de optie **Resourcetoewijzingen**. De pagina **Brontoewijzingen** wordt geopend.  
 4. Selecteer de toewijzingspost met de servicetaak waaraan u opnieuw een resource wilt toewijzen.  
 5. Selecteer de juiste resource in het veld **Resourcenr.**. Deze vervangt de bestaande resource in het veld.  
 6. Druk op Enter. Het dialoogvenster **Hertoewijzingspostredenen** wordt geopend waarin u wordt gevraagd of u wilt deze post opnieuw wilt toewijzen. Vul eventueel het veld **Redencode** in en klik op de knop **Ja** om de hertoewijzing te bevestigen.  
@@ -105,9 +105,9 @@ Als de resource die is toegewezen aan een servicetaak het werk niet kan uitvoere
     > * Bij het opnieuw toewijzen van een serviceorder die is ontstaan vanuit een offerte wordt de status van de geregistreerde toewijzingsposten voor de offerte altijd gewijzigd in **Gereedgemeld** tijdens het opnieuw toewijzen van de serviceartikelen in de serviceorder.  
 
 ## <a name="to-register-resource-hours"></a>Resource-uren registreren  
-Wanneer u werkt aan serviceartikelen in serviceorders, moet u de gebruikte resource-uren voor de service registreren. Met de volgende procedure wordt aangegeven hoe u de resource-uren in het venster **Serviceartikelwerkbon** kunt registreren.  
+Wanneer u werkt aan serviceartikelen in serviceorders, moet u de gebruikte resource-uren voor de service registreren. Met de volgende procedure wordt aangegeven hoe u de resource-uren op de pagina **Serviceartikelwerkbon** kunt registreren.  
 
-U kunt dezelfde procedure gebruiken om uren te registreren in het venster **Serviceregels** dat u opent vanuit het venster Serviceorder. Open de relevante servicekaart en kies vervolgens **Acties**, **Order** en **Serviceregels**.  
+U kunt dezelfde procedure gebruiken om uren te registreren op de pagina **Serviceregels** die u opent vanaf de pagina Serviceorder. Open de relevante servicekaart en kies vervolgens **Acties**, **Order** en **Serviceregels**.  
 
 Als dezelfde resource werkt aan alle serviceartikelen in de serviceorder, hoeft u de totale resource-uren slechts voor één serviceartikel te registreren. Vervolgens kunt u de resourceregel opsplitsen om de resource-uren aan andere serviceartikelen toe te wijzen.
 
@@ -118,11 +118,11 @@ Als dezelfde resource werkt aan alle serviceartikelen in de serviceorder, hoeft 
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Een resource toewijzen aan alle serviceartikelen in een order
 Als dezelfde resource, bijvoorbeeld een technicus, werkt aan alle serviceartikelen in de serviceorder, hoeft u de totale resource-uren slechts voor één serviceartikel te registreren. Vervolgens kunt u de resourceregel opsplitsen om de resource-uren aan andere serviceartikelen toe te wijzen.  
 
-Met de volgende procedure wordt aangegeven hoe u resourceregels in het venster **Servicefactuurregels** kunt opsplitsen.  
+Met de volgende procedure wordt aangegeven hoe u resourceregels op de pagina **Servicefactuurregels** kunt opsplitsen.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de betreffende serviceorder.  
-3. Op het sneltabblad **Regels** kiest u **Acties**. Vervolgens kiest u **Order** en **Serviceregels**. Het venster **Serviceregels** wordt geopend.  
+3. Op het sneltabblad **Regels** kiest u **Acties**. Vervolgens kiest u **Order** en **Serviceregels**. De pagina **Serviceregels** wordt geopend.  
 4. Selecteer de resourceregel die u wilt opsplitsen. De inhoud van het veld **Aantal** wordt verdeeld over alle serviceartikelen in de order.  
 5. Kies op het tabblad **Acties** de actie **Resourceregel opsplitsen**. Kies **Ja** als u wilt bevestigen.  
 

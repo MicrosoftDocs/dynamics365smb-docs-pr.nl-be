@@ -13,10 +13,10 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Leveranciersbetalingen handmatig reconciliëren
@@ -27,32 +27,32 @@ Wanneer u een betaling of terugbetaling van een leverancier ontvangt, moet u bes
 
 U kunt als volgt leveranciersposten vereffenen op drie verschillende manieren:
 
-* Door gegevens in bepaalde vensters in te voeren, zoals het venster **Betalingsdagboek** en het venster **Dagboek betalingsreconciliatie**.
+* Door gegevens op bepaalde pagina's in te voeren, zoals de pagina **Betalingsdagboek** en de pagina **Dagboek betalingsreconciliatie**.
 * Vanuit inkoopcreditnotadocumenten.
 * Vanuit leveranciersposten, nadat inkoopdocumenten zijn geboekt maar nog niet vereffend.
 
 > [!NOTE]  
 >   Als het veld **Vereffeningsmethode** op de leverancierskaart **Saldo** bevat, kunnen betalingen handmatig worden vereffend met de oudste openstaande creditpost, als u niet handmatig opgeeft met welke post moet worden vereffend. Als de vereffeningsmethode voor een klant **Handmatig** is, moet u posten handmatig vereffenen.
 
-U kunt leveranciersbetalingen handmatig op de gerelateerde inkoopdocumenten toepassen wanneer u de betalingen boekt in het venster **Betalingsdagboek**. Zie voor meer informatie over het invullen van het betalingsdagboek [Betalingen uitvoeren](payables-make-payments.md).
+U kunt leveranciersbetalingen handmatig op de gerelateerde inkoopdocumenten toepassen wanneer u de betalingen boekt op de pagina **Betalingsdagboek**. Zie voor meer informatie over het invullen van het betalingsdagboek [Betalingen uitvoeren](payables-make-payments.md).
 
-U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalingen worden weergegeven als negatieve banktransacties bij uw bank. In het venster **Dagboek betalingsreconciliatie** kunt u functies voor het importeren van bankafschriften, automatische vereffening en bankrekeningvereffening gebruiken. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
+U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalingen worden weergegeven als negatieve banktransacties bij uw bank. Op de pagina **Dagboek betalingsreconciliatie** kunt u functies voor het importeren van bankafschriften, automatische vereffening en bankrekeningvereffening gebruiken. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Een betaling vereffenen met een of meer leveranciersposten
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
-2. Voer in het venster **Betalingsdagboek** op de eerste dagboekregel de betreffende gegevens over de betalingspost in.
+2. Voer op de pagina **Betalingsdagboek** op de eerste dagboekregel de betreffende gegevens over de betalingspost in.
 3. Eén leverancierspost vereffenen:
-   1. Selecteer in het veld **Vereffeningsnr.** het veld voor het openen van het venster **Leveranciersposten vereffenen**.
-   2. Selecteer in het venster **Leveranciersposten vereffenen** de post waarmee de betaling moet worden vereffend.
+   1. Selecteer in het veld **Vereffeningsnr.** het veld voor het openen van de pagina **Leveranciersposten vereffenen**.
+   2. Selecteer op de pagina **Leveranciersposten vereffenen** de post waarmee de betaling moet worden vereffend.
    3. Voer op de regel in het veld **Te vereffenen bedrag** het bedrag in waarmee u de post wilt vereffenen.
 4. Of meerdere leveranciersposten vereffenen:
 
    1. Kies de actie **Posten vereffenen**.
-   2. In het venster **Leveranciersposten vereffenen** selecteert u de regels met de posten die u met de betaling wilt vereffenen.
+   2. Op de pagina **Leveranciersposten vereffenen** selecteert u de regels met de posten die u met de betaling wilt vereffenen.
    3. Kies de actie **Id toekennen**.  
    4. Voer op elke regel in het veld **Te vereffenen bedrag** het bedrag in waarmee u de afzonderlijke post wilt vereffenen.
 
-      Als u geen bedrag opgeeft, wordt automatisch het maximumbedrag gebruikt. Onder aan het venster **Leveranciersposten vereffenen** ziet u het bedrag in het veld Vereffend bedrag en kunt u controleren of de vereffening sluitend is.
+      Als u geen bedrag opgeeft, wordt automatisch het maximumbedrag gebruikt. Onder aan de pagina **Leveranciersposten vereffenen** ziet u het bedrag in het veld Vereffend bedrag en kunt u controleren of de vereffening sluitend is.
 5. Kies de knop **Ok**.
 6. Kies de actie **Boeken** om het betalingsdagboek te boeken.
 
@@ -68,32 +68,32 @@ U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalin
    3. Kies de actie **Id toekennen**.  
    4. Voer op elke regel in het veld **Te vereffenen bedrag** het bedrag in waarmee u de afzonderlijke post wilt vereffenen.
 
-       Als u geen bedrag opgeeft, wordt automatisch het maximumbedrag gebruikt. Onder aan het venster **Leveranciersposten vereffenen** ziet u het bedrag in het veld **Vereffend bedrag** en kunt u controleren of de vereffening sluitend is.
-6. Kies de knop **Ok**.  
-   Het venster **Inkoopcreditnota** bevat de post die u hebt geselecteerd in de velden **Vereffeningssoort** en **Vereffeningsnr.** Het venster bevat ook het bedrag van de creditnota dat moet worden geboekt, geherwaardeerd voor de mogelijke contantkortingen.
+       Als u geen bedrag opgeeft, wordt automatisch het maximumbedrag gebruikt. Onder aan de pagina **Leveranciersposten vereffenen** ziet u het bedrag in het veld **Vereffend bedrag** en kunt u controleren of de vereffening sluitend is.
+6. Kies de knop **OK**.  
+   De pagina **Inkoopcreditnota** bevat de post die u hebt geselecteerd in de velden **Vereffeningssoort** en **Vereffeningsnr.** De pagina bevat ook het bedrag van de creditnota dat moet worden geboekt, geherwaardeerd voor de mogelijke contantkortingen.
 7. Kies de knop **Boeken** om de inkoopcreditnota te boeken.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Geboekte leveranciersposten vereffenen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende leverancier met posten die reeds zijn geboekt.
 3. Kies de actie **Posten** en kies vervolgens de actie **Posten vereffenen**.
-4. In het venster **Leveranciersposten vereffenen** ziet u de openstaande posten voor de leverancier.
+4. Op de pagina **Leveranciersposten vereffenen** ziet u de openstaande posten voor de leverancier.
 5. Selecteer de regel met de post die wordt vereffend.
 6. Kies de actie **Id toekennen**.
 
     Het veld **Vereffenings-id** bevat drie sterretjes als u in een systeem met één gebruiker werkt, of bevat uw gebruikers-id als u in een systeem met meerdere gebruikers werkt.  
 7. Voer op elke regel in het veld **Te vereffenen bedrag** het bedrag in waarmee u de afzonderlijke post wilt vereffenen.
 
-    Als u geen bedrag opgeeft, wordt automatisch het maximumbedrag gebruikt. U ziet het bedrag in het veld **Vereffend bedrag**, onder aan het venster **Leveranciersposten vereffenen**.
+    Als u geen bedrag opgeeft, wordt automatisch het maximumbedrag gebruikt. U ziet het bedrag in het veld **Vereffend bedrag**, onder aan de pagina **Leveranciersposten vereffenen**.
 8. Kies de actie **Vereffening boeken**.  
 
-    Het venster **Vereffening boeken** verschijnt met het documentnummer van de vereffeningspost en de boekingsdatum van de post met de meest recente boekingsdatum.
+    De pagina **Vereffening boeken** verschijnt met het documentnummer van de vereffeningspost en de boekingsdatum van de post met de meest recente boekingsdatum.
 9. Kies de knop **OK** om de vereffening te boeken.
 
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Leveranciersposten in verschillende valuta's onderling vereffenen
 Als u van een leverancier koopt in de ene valuta en betaalt in de andere, kunt u de factuur toch met de betaling vereffenen.
 
-Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een andere valuta, wordt de boekingsdatum van Post 1 gebruikt om de juiste wisselkoers te bepalen voor de conversie van de bedragen van Post 2. De juiste wisselkoers wordt opgezocht in het venster **Valutawisselkoersen**. In dat geval moet u vereffening van leveranciersposten in verschillende valuta's inschakelen. Zie voor meer informatie [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
+Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een andere valuta, wordt de boekingsdatum van Post 1 gebruikt om de juiste wisselkoers te bepalen voor de conversie van de bedragen van Post 2. De juiste wisselkoers wordt opgezocht op de pagina **Valutawisselkoersen**. In dat geval moet u vereffening van leveranciersposten in verschillende valuta's inschakelen. Zie voor meer informatie [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Open het journaal dat u wilt gebruiken en vul de eerste lege dagboekregel in met een valutacode.
@@ -103,10 +103,10 @@ Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een 
 6. Boek het betalingsdagboek.
 
 > [!IMPORTANT]  
->   Wanneer u posten in verschillende valuta's onderling vereffent, worden de posten automatisch omgezet in USD. Zelfs bij een vaste wisselkoers tussen de twee relevante valuta's, bijvoorbeeld USD en EUR, kan er een klein verschilbedrag ontstaan wanneer bedragen in de vreemde valuta worden omgezet naar de lokale valuta. Deze kleine verschilbedragen worden als winst- of verliesbedragen geboekt naar de rekening die u hebt opgegeven in de velden **Gereal. koerswinstrekening** of **Gereal. koersverliesrekening** van het venster **Valuta's**. Het veld **Bedrag (lokale valuta)** wordt ook aangepast in de relevante leveranciersposten.
+>   Wanneer u posten in verschillende valuta's onderling vereffent, worden de posten automatisch omgezet in USD. Zelfs bij een vaste wisselkoers tussen de twee relevante valuta's, bijvoorbeeld USD en EUR, kan er een klein verschilbedrag ontstaan wanneer bedragen in de vreemde valuta worden omgezet naar de lokale valuta. Deze kleine verschilbedragen worden als winst- of verliesbedragen geboekt naar de rekening die u hebt opgegeven in de velden **Gereal. koerswinstrekening** of **Gereal. koersverliesrekening** van de pagina **Valuta's**. Het veld **Bedrag (lokale valuta)** wordt ook aangepast in de relevante leveranciersposten.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>De vereffening van leveranciersposten ongedaan maken
-Als u een verkeerde vereffening ongedaan maakt, worden er stornoposten gemaakt die identiek zijn aan de oorspronkelijke post maar met een tegengesteld teken in het bedragveld, en geboekt voor alle posten, inclusief alle GB-boekingen die uit de vereffening voortkomen zoals contantkortingen en valutawinst- en verlies. De posten die waren afgesloten door de toepassing worden heropend.
+Als u een verkeerde vereffening ongedaan maakt, worden er stornoposten gemaakt die identiek zijn aan de oorspronkelijke post maar met een tegengesteld teken in het bedragveld, en geboekt voor alle posten, inclusief alle GB-boekingen die uit de vereffening voortkomen zoals contantkortingen en valutawinst- en verlies. De posten die waren afgesloten door de toepassing, worden heropend.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart.

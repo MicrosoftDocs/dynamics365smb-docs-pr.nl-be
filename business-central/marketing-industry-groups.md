@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1927938bc7e882902d8f609242c529e0ba29cd1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Sectoren instellen voor contactbedrijven
@@ -28,7 +29,7 @@ Sectoren gebruiken voor contacten is een proces van twee stappen. Eerst definiee
 >   Als u de contacten wilt synchroniseren met leveranciers, klanten of bankrekeningen in een ander onderdeel van de toepassing, kunt u een zakenrelatie instellen.
 
 ## <a name="to-define-an-industry-group-code"></a>Een sectorcode definiëren
-De sectorcode bepaalt het type of de categorie van de groep, zoals ADVERTENTIE voor reclame of PERS voor tv en radio. U kunt meerdere sectorcodes hebben. Als u de sectoren wilt definiëren, gebruikt u het venster **Sectoren**.
+De sectorcode bepaalt het type of de categorie van de groep, zoals ADVERTENTIE voor reclame of PERS voor tv en radio. U kunt meerdere sectorcodes hebben. Als u de sectoren wilt definiëren, gebruikt u de pagina **Sectoren**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Sectoren** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
@@ -37,12 +38,12 @@ De sectorcode bepaalt het type of de categorie van de groep, zoals ADVERTENTIE v
 U kunt geen sectoren toewijzen aan een contactpersoon, alleen aan contactbedrijven.
 
 1. Open het contact.
-2. Kies de actie **Bedrijf** en kies vervolgens de actie **Sectoren**. Het venster **Contact sectoren** wordt geopend.
+2. Kies de actie **Bedrijf** en kies vervolgens de actie **Sectoren**. De pagina **Contact sectoren** wordt geopend.
 3. Selecteer in het veld **Sectorcode** de sectorgroepen die u wilt toewijzen.
 
 Herhaal deze stappen om het gewenste aantal sectoren toe te wijzen. U kunt sectoren ook toewijzen vanuit het contactoverzicht door dezelfde procedure te volgen.
 
-Het aantal sectoren dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal sectoren** in het gedeelte **Segmentatie** in het venster **Contact**.
+Het aantal sectoren dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal sectoren** in het gedeelte **Segmentatie** op de pagina **Contact**.
 
 Nadat u sectoren hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 

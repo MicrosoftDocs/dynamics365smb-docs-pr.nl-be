@@ -12,17 +12,17 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften dor extensies toe te voegen uit AppSource of door de instelling Ervaring te wijzigen voor uw bedrijf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) of het gedeelte "Een gebruikerservaring kiezen om functies weer te geven of te verbergen" hieronder.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Een gebruikerservaring kiezen om functies weer te geven of te verbergen
-De gebruikerservaring bepaalt hoeveel van de kernfunctionaliteit beschikbaar is wanneer u en uw collega's met [!INCLUDE[d365fin](includes/d365fin_md.md)] werken. In het veld **Ervaring** in het venster **Bedrijfsgegevens** kunt u de gebruikerservaring instellen voor uw bedrijf.
+De gebruikerservaring bepaalt hoeveel van de kernfunctionaliteit beschikbaar is wanneer u en uw collega's met [!INCLUDE[d365fin](includes/d365fin_md.md)] werken. In het veld **Ervaring** op de pagina **Bedrijfsgegevens** kunt u de gebruikerservaring instellen voor uw bedrijf.
 
 > [!NOTE]  
 > Deze instelling is van toepassing op alle gebruikers in uw bedrijf. Gebruikers kunnen hun eigen ervaring nog verder aanpassen door pagina-indelingen en inhoud te wijzigen. Zie [Uw werkruimte en pagina's personaliseren](ui-personalization-user.md) voor meer informatie.  
@@ -43,21 +43,21 @@ In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar z
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-functies inschakelen na een upgrade van het plan
 Gebruikers worden aan plannen toegewezen in Office 365, in verband met het algemene werk om de Business Central-gebruikers te maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-Vervolgens kunt u definiëren tot welke specifieke functies en vensters binnen de ervaring die gebruikers toegang hebben, door machtigingensets toe te wijzen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
+Vervolgens kunt u definiëren tot welke specifieke functies en pagina's binnen de ervaring die gebruikers toegang hebben, door machtigingensets toe te wijzen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Planwijzigingen bijwerken in gebruikersgroepen
 Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Office 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u de wijziging doorvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Meld u aan als beheerder.
 2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
-3. Kies in het venster **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen**.
+3. U kunt ook op de pagina **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen** kiezen.
 
 Alle nieuwe informatie over de plannen van gebruikers en hun toegewezen gebruikersgroepen worden nu bijgewerkt volgens de planwijzigingen.
 
 ### <a name="to-select-the-premium-experience"></a>De Premium-ervaring selecteren
 U kunt nu doorgaan met de nieuwe ervaring te selecteren.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer in het venster **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
+2. Selecteer op de pagina **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
 
 ## <a name="help-assumes-premium-experience"></a>In de Help wordt uitgegaan van de Premium-ervaring
 Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten. Er wordt een tekstnotitie in Help-onderwerpen op hoog niveau ingevoegd voor de functiegebieden Productie en Servicebeheer die aangeeft dat deze de **Premium**-ervaring vereisen.

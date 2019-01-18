@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cf67f83434f135226eaa677cd64d86090a0ab0f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="cross-dock-items"></a>Artikelen cross-docken
@@ -44,7 +44,7 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
     Als u zones gebruikt, maakt u een zone voor de cross-dockopslaglocaties en selecteert u het veld **Cross-dockopslaglocatiezone**. Zie voor meer informatie [Gebruik van opslaglocaties voor locaties instellen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locatie** in en kies vervolgens de gerelateerde koppeling.  
-3.  In het venster **Vestiging** selecteert u de vestiging waar u het magazijn voor cross-docken wilt instellen. Vervolgens kiest u de actie **Bewerken**.  
+3.  Op de pagina **Vestiging** selecteert u de vestiging waar u het magazijn voor cross-docken wilt instellen. Vervolgens kiest u de actie **Bewerken**.  
 4.  Schakel op het sneltabblad **Magazijn** het selectievakje **Cross-docken gebruiken** in en vul in het veld **Cross-dockvervaldatum berekenen** de periode in waarin er moet worden gezocht naar cross-dockmogelijkheden.
 
     De optie **Cross-docken** gebruiken is alleen beschikbaar als u de velden **Ontvangst vereist**, **Verzending vereist**, **Pick vereist** en **Opslag vereist** selecteert.  
@@ -52,7 +52,7 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
 5.  Als u met opslaglocaties werkt, vult u in het veld **Cross-dockopslaglocatie** op het sneltabblad **Opslaglocaties** de code in van de opslaglocatie die u als standaardcross-dockopslaglocatie wilt gebruiken.  
 6.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU** in en selecteer vervolgens de gerelateerde koppeling.  
 7.  Selecteer alle items of SKU's die in aanmerking komen voor cross-docking en kies de actie **Bewerken**.
-8. Schakel in het venster **SKU** het selectievakje **Cross-docken gebruiken** in.  
+8. Schakel op de pagina **SKU** het selectievakje **Cross-docken gebruiken** in.  
 
 > [!NOTE]  
 >  Cross-docken is alleen mogelijk als voor de vestiging magazijnontvangst- en magazijnopslagverwerking is vereist.  
@@ -81,10 +81,10 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
     U wilt de ontvangst mogelijk pas boeken nadat u hebt weergegeven op welke regels in de brondocumenten de artikelen voorkomen.  
 3.  Kies de actie **Cross-dock berekenen**.  
 
-    In het venster **Cross-dockmogelijkheden** ziet u de belangrijkste gegevens over de regels waarin het artikel wordt opgevraagd, zoals het soort document, het gevraagde aantal en de vervaldatum. Aan de hand van deze gegevens kunt u mogelijk bepalen hoeveel u wilt cross-docken, op welke plek in het cross-dockgebied u de artikelen wilt plaatsen of hoe u de artikelen wilt groeperen.  
+    Op de pagina **Cross-dockmogelijkheden** ziet u de belangrijkste gegevens over de regels waarin het artikel wordt opgevraagd, zoals het soort document, het gevraagde aantal en de vervaldatum. Aan de hand van deze gegevens kunt u mogelijk bepalen hoeveel u wilt cross-docken, op welke plek in het cross-dockgebied u de artikelen wilt plaatsen of hoe u de artikelen wilt groeperen.  
 
 4.  Kies de actie **Te cross-docken aantal autom. invullen** om weer te geven hoe de aantallen op de ontvangstregels worden berekend. Wanneer u het aantal artikelen in het veld **Te cross-docken aantal** op afzonderlijke regels wijzigt, wordt de berekening bijgewerkt terwijl u wijzigingen aanbrengt. Dit betekent niet dat de verzendingsorder of productieorder de artikelen die voor cross-docken werden voorgesteld, werkelijk ontvangt. Deze bewerkingen zijn enkel als test. Het resultaat kan echter erg informatief zijn, zeker als er meer dan één eenheid bij betrokken is.  
-5.  Plaats de cursor op de regel en kies de actie **Reserveren** als u een aantal artikelen voor een bepaalde orderregel wilt reserveren. U kunt nu in het venster **Reservering** een beschikbaar aantal van het artikel reserveren voor deze specifieke order. Deze reservering is net als elke andere reservering en heeft geen hogere prioriteit omdat deze is gemaakt in verband met cross-docken. Zie [Artikelen reserveren](inventory-how-to-reserve-items.md) voor meer informatie.   
+5.  Plaats de cursor op de regel en kies de actie **Reserveren** als u een aantal artikelen voor een bepaalde orderregel wilt reserveren. U kunt nu op de pagina **Reservering** een beschikbaar aantal van het artikel reserveren voor deze specifieke order. Deze reservering is net als elke andere reservering en heeft geen hogere prioriteit omdat deze is gemaakt in verband met cross-docken. Zie [Artikelen reserveren](inventory-how-to-reserve-items.md) voor meer informatie.   
 6.  Als u de herberekening of reservering hebt uitgevoerd, klikt u op **OK** om de herziene berekening naar het veld **Cross-dockaantal** op de ontvangstregel te kopiëren. Klik anders op **Annuleren** om terug te gaan naar de magazijnontvangst en de cross-dock desgewenst opnieuw te berekenen.  
 7.  U kunt vervolgens de ontvangst boeken en doorgaan in de opslaginstructie, zoals is beschreven in stap 3 tot en met 7 in de sectie U kunt als volgt artikelen cross-docken zonder de mogelijkheden te bekijken.  
 

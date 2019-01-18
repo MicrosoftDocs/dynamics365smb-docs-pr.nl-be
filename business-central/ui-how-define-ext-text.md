@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Uitgebreide artikeltekst toevoegen
@@ -25,11 +25,11 @@ U kunt een standaardtekst voor artikelen uitbreiden met extra regels en voorwaar
 1. Open de kaart voor een artikel waaraan u uitgebreide tekst wilt toevoegen, en kies vervolgens de actie **Tekstuitbreiding**.
 2. Voer in het veld **Code** de code in en voer in het veld **Omschrijving** de gewenste tekst in.
 3. Kies **Uitgebreide teksten**.
-4. Vul de regels in het venster **Tekstuitbreiding** met de extra tekst.
+4. Vul de regels op de pagina **Tekstuitbreiding** met de extra tekst.
 5. Vul het veld **Taalcode** of het veld **Alle taalcodes** in als u taalcodes gebruikt.
 6. Vul de velden **Begindatum** en **Einddatum** in als u een beperking wilt instellen voor de data waarop de tekstuitbreiding kan worden gebruikt.
 7. Schakel relevante selectievakjes in voor de documentsoorten waarvoor u de uitgebreide tekst wilt afdrukken.
-8. Sluit het venster.
+8. Sluit de pagina.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Een uitgebreide artikeltekst op een verkooporderregel toevoegen
 1. Open een verkooporder met een verkoopregel voor een artikel waarvoor uitgebreide tekst is gedefinieerd. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.

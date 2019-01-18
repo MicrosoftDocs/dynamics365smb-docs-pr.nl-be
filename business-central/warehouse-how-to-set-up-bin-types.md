@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Opslaglocatiesoorten instellen
@@ -26,7 +26,7 @@ Er zijn zes soorten. U kunt binnen uw magazijn met alle zes mogelijke opslagloca
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>U kunt als volgt de gewenste soorten opslaglocatie instellen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslaglocatiesoorten** in en kies vervolgens de gerelateerde koppeling.  
-2.  In het venster **Opslaglocatiesoorten** geeft u een code op voor het soort opslaglocatie (10 cijfers en/of letters).  
+2.  Op de pagina **Opslaglocatiesoorten** geeft u een code op voor het soort opslaglocatie (10 cijfers en/of letters).  
 3.  Selecteer de activiteiten die bij elke opslaglocatiesoort kunnen worden uitgevoerd.  
 
 > [!NOTE]  

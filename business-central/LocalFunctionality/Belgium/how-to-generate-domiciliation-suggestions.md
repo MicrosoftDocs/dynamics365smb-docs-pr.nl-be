@@ -1,22 +1,17 @@
 ---
 title: "Domiciliëringsvoorstellen genereren"
-description: "Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u alleen domiciliëringsvoorstellen voor binnenlandse klanten maken."
-services: project-madeira
-documentationcenter: 
+description: "Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. U kunt alleen domiciliëringsvoorstellen voor binnenlandse klanten maken."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf633fb5a142a59ea54e5cac0552cabecb015e9d
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 646e318742a303b8586f61578efeaae2f92aa6a2
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren

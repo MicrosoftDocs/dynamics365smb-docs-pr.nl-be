@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
@@ -44,7 +44,7 @@ De volgende procedure beschrijft het ongedaan maken van geboekte assemblageorder
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Het boeken van een assemblageorder ongedaan maken  
 1.  Als u een volledig of gedeeltelijk geboekte assemblyorder ongedaan wilt maken, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geboekte assemblageorders** in en kiest u de gerelateerde koppeling.  
 
-    Het venster **Geboekte assemblageorders** wordt geopend met een of meer assemblageorders die zijn geboekt voor de assemblageorder in kwestie. Elke gedeeltelijke boeking leidt tot het maken van een afzonderlijk geboekte assemblageorder.  
+    De pagina **Geboekte assemblageorders** wordt geopend met een of meer assemblageorders die zijn geboekt voor de assemblageorder in kwestie. Elke gedeeltelijke boeking leidt tot het maken van een afzonderlijk geboekte assemblageorder.  
 2.  Open de geboekte assemblyorder die u ongedaan wilt maken en kies vervolgens de actie **Assemblage ongedaan maken**.  
 
     Als de geboekte assemblageorder die u ongedaan wilt maken betrekking heeft op een volledig geboekte assemblageorder die nu wordt verwijderd, hebt u de mogelijkheid om deze opnieuw te maken omdat u deze gewoonlijk opnieuw zult willen verwerken.  

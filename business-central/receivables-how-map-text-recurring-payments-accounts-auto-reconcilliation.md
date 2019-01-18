@@ -11,28 +11,28 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 540f26a9fa464f28c5b3744826cd2221567e45f9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
-In het venster **Toewijzing tekst aan rekening**, dat u opent vanuit het venster **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.
+Op de pagina **Toewijzing tekst aan rekening**, die u opent vanuit de pagina **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.
 
 Er bestaat vergelijkbare functionaliteit om te grote bedragen op de dagboekregels voor betalingreconciliatie op ad-hocbasis te reconciliëren. Zie [Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md) voor meer informatie.
 
 Betalingen die worden geboekt op basis van tekst-naar-rekening toewijzingen, worden niet vereffend met openstaande posten, maar worden slechts naar de opgegeven rekeningen geboekt, naast het feit dat er bankrekeningposten worden gemaakt. Toewijzing van tekst aan rekeningen is daarom geschikt voor periodieke ontvangsten of kosten, zoals regelmatige aankopen van autobrandstof of bankkosten en -rente, die regelmatig voorkomen op het bankafschrift en geen gerelateerd bedrijfsdocument nodig hebben. Zie de sectie “Voorbeeld - tekst-aan-rekening toewijzing voor brandstofkosten” in dit onderwerp voor meer informatie.
 
 > [!NOTE]  
->   Betalingen op reconciliatiedagboekregels worden alleen op boeken volgens tekst-naar-rekening toewijzing ingesteld als de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Normaal** kan bieden. Als de automatische vereffeningsfunctie een afstemmingszekerheid van Hoog oplevert, wordt de betaling automatisch vereffend met een of meer openstaande posten en wordt de betaling niet geboekt naar de rekeningen die zijn opgegeven in het venster **Toewijzing tekst aan rekening** . Met andere woorden: een afstemmingszekerheid van **Hoog** heeft voorrang op een tekst-aan-rekening toewijzing.
+>   Betalingen op reconciliatiedagboekregels worden alleen op boeken volgens tekst-naar-rekening toewijzing ingesteld als de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Normaal** kan bieden. Als de automatische vereffeningsfunctie een afstemmingszekerheid van Hoog oplevert, wordt de betaling automatisch vereffend met een of meer openstaande posten en wordt de betaling niet geboekt naar de rekeningen die zijn opgegeven op de pagina **Toewijzing tekst aan rekening** . Met andere woorden: een afstemmingszekerheid van **Hoog** heeft voorrang op een tekst-aan-rekening toewijzing.
 
 Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld op boeking volgens de tekst-aan-rekening toewijzing, bevat het veld **Zekerheid afstemming** de waarde **Hoog - Toewijzing tekst aan rekening** en bevatten de velden **Rekeningsoort** en **Rekeningnr.** de toegewezen rekeningen.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een betalingreconciliatiedagboek. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
-3. Kies de actie **Tekst afstemmen op rekening**. Het venster **Toewijzing tekst aan rekening** wordt geopend.
+3. Kies de actie **Tekst afstemmen op rekening**. De pagina **Toewijzing tekst aan rekening** wordt geopend.
 4. Voer in het veld **Toewijzingstekst** willekeurige tekst in die voorkomt op betalingen die u, zonder deze met een openstaande post te vereffenen, wilt boeken naar opgegeven rekeningen. U kunt maximaal 50 tekens invoeren.
 
     > [!NOTE]  
@@ -46,10 +46,10 @@ Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld
 
 8. Herhaal stap 3 tot en met 7 voor alle tekst op betalingen die u aan rekeningen wilt toewijzen voor directe boeking zonder vereffening.
 
-De volgende keer dat u een bankafschriftbestand importeert of de actie **Automatisch vereffenen** kiest in het venster **Dagboek betalingsreconciliatie**, zullen dagboekregels voor de betalingen die de opgegeven toewijzingstekst bevatten, de toegewezen rekeningen bevatten in de velden **Rekeningsoort** en **Rekeningnr.** Het veld **Zekerheid afstemming** bevat **Hoog - Toewijzing tekst aan rekening**. Hiervoor geldt de voorwaarde dat de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Gemiddeld** kan bieden.
+De volgende keer dat u een bankafschriftbestand importeert of de actie **Automatisch vereffenen** kiest op de pagina **Dagboek betalingsreconciliatie**, zullen dagboekregels voor de betalingen die de opgegeven toewijzingstekst bevatten, de toegewezen rekeningen bevatten in de velden **Rekeningsoort** en **Rekeningnr.** Het veld **Zekerheid afstemming** bevat **Hoog - Toewijzing tekst aan rekening**. Hiervoor geldt de voorwaarde dat de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Gemiddeld** kan bieden.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Voorbeeld: tekst-aan-rekening toewijzing voor brandstofkosten
-Als u brandstofkosten die bij Shell-benzinestations worden betaald, altijd wilt boeken naar de grootboekrekening voor benzine (rekening 8510), vult u een regel in het venster **Toewijzing tekst aan rekening** als volgt.
+Als u brandstofkosten die bij Shell-benzinestations worden betaald, altijd wilt boeken naar de grootboekrekening voor benzine (rekening 8510), vult u een regel op de pagina **Toewijzing tekst aan rekening** als volgt.
 
 | Toewijzing tekst | Debetrekeningnr. | Creditrekeningnr. | Bronsoort saldo | Bronnr. saldo |
 | --- | --- | --- | --- | --- |

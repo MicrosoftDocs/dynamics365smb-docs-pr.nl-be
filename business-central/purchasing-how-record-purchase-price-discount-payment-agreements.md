@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Speciale inkoopprijzen en kortingen registreren
@@ -60,7 +60,7 @@ Wanneer uw leveranciers u hebben geïnformeerd welke factuurkortingen ze verlene
     >   Factuurkortingscodes worden weergegeven door bestaande leverancierskaarten. Zo kunt u snel factuurkortingscondities aan leveranciers toewijzen door de naam van een andere leverancier te kiezen die dezelfde condities heeft.
 
     Ga door met het instellen van de condities voor de nieuwe inkoopfactuurkorting.
-4. Kies in het venster **Leverancierskaart** de actie **Factuurkortingen**. Het venster **Inkoopfactuurkortingen** verschijnt.
+4. Kies op de pagina **Leverancierskaart** de actie **Factuurkortingen**. De pagina **Inkoopfactuurkortingen** verschijnt.
 5. Geef in het veld **Valutacode** de code op voor een valuta waarvoor de factuurkortingscondities op de regel van toepassing zijn. Laat het veld leeg als u factuurkortingscondities in de lokale valuta wilt instellen.
 6. Geef in het veld **Minimumbedrag** op hoe hoog het factuurbedrag minimaal moet zijn voordat een korting wordt berekend.
 7. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
@@ -88,7 +88,7 @@ Als u vaste afspraken met leveranciers hebt over kwantumkortingen, kunt u voor d
 
  Voordat u factuurkortingen voor inkoop kunt gebruiken, moet u aangeven van welke leveranciers u de kortingen ontvangt.  
 
- U koppelt kortingspercentages aan specifieke factuurbedragen in het venster **Inkoopfactuurkortingen**. U kunt een willekeurig aantal percentages invoeren in elk venster. U kunt voor elke leverancier een eigen venster hebben, of u kunt verschillende leveranciers aan hetzelfde venster koppelen.  
+ U koppelt kortingspercentages aan specifieke factuurbedragen op **Inkoopfactuurkortingen**-pagina's. U kunt een willekeurig aantal percentages invoeren op elke pagina. U kunt voor elke leverancier een pagina hebben, of u kunt verschillende leveranciers aan dezelfde pagina koppelen.  
 
  Naast een kortingspercentage kunt u een bedrag voor administratiekosten aan een specifiek factuurbedrag koppelen.  
 
@@ -97,7 +97,7 @@ Als u vaste afspraken met leveranciers hebt over kwantumkortingen, kunt u voor d
  U kunt aangeven dat de factuurkortingen automatisch door [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten worden berekend voor offertes, raamcontracten, orders, facturen of creditnota's.  
 
 > [!TIP]  
->  Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zo ziet u vrijwel meteen welke leveranciers aan hetzelfde factuurkortingsvenster kunnen worden gekoppeld. Hoe minder vensters u hebt ingesteld, des te sneller kunt u de basisgegevens invoeren.
+>  Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zo ziet u vrijwel meteen welke leveranciers aan dezelfde factuurkortingspagina kunnen worden gekoppeld. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens invoeren.
 
 ## <a name="best-price-calculation"></a>Berekening van beste prijs
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen.

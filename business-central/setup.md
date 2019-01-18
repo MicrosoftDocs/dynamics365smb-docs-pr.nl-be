@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.
 
-Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingsvensters opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
+Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
 
 > [!NOTE]
 > U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

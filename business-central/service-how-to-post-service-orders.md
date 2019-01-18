@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Serviceorders en creditnota's boeken
@@ -30,7 +30,7 @@ Als u een groot aantal serviceorders hebt, kunt u tijd besparen door deze tegeli
 ## <a name="to-post-a-service-order"></a>Serviceorders boeken    
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de betreffende serviceorder.  
-3. Kies in het venster **Serviceorder** een van de volgende acties.  
+3. Op de pagina **Serviceorder** kiest u een van de volgende acties.  
   
     |**Actie**|**Resultaat**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ Nadat u de details van een service hebt opgegeven, kunt u de aantallen aanpassen
   
 De volgende procedure laat zien hoe u de verzending van serviceregelartikelen kunt boeken voor vestigingen waarvoor de magazijnverwerking niet vereist is.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorder** in en kies vervolgens de gerelateerde koppeling. 2. Klik in het venster voor de geselecteerde serviceorder op **Acties**, **Order** en **Serviceregels**.  
-3. Zoek in het venster **Serviceregels** de vereiste posten en geef in het veld **Te verzenden aantal** het te boeken aantal op.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorder** in en kies vervolgens de gerelateerde koppeling. 2. op de pagina voor de geselecteerde serviceorder op **Acties**, **Order** en **Serviceregels**.  
+3. Zoek op de pagina **Serviceregels** de vereiste posten en geef in het veld **Te verzenden aantal** het te boeken aantal op.  
   
    > [!NOTE]  
    >  De waarde voor het te verzenden aantal hangt ervan af of u een volledige of gedeeltelijke boeking kiest voor de verzending. Als u kiest voor een volledige verzending, moet de waarde in het veld **Te verzenden aantal** gelijk zijn aan de waarde in het veld **Aantal**. Wanneer u een gedeeltelijke verzending boekt, moet u opgeven welk aantal u aanvankelijk wilt verzenden. Als u een deel van de service op de order al hebt verzonden, moet u de waarde hiervan vastleggen in het veld **Verzonden aantal**. Het maximale aantal dat u kunt opgeven in het veld **Te verzenden aantal** is het aantal eenheden dat nog niet is verzonden.  
   
-4. Kies **Acties**, **Boeken** en **Boeken**. Kies **Verzenden** in het venster dat wordt weergegeven.  
+4. Kies **Acties**, **Boeken** en **Boeken**. op de pagina die wordt weergegeven, en kies **Verzenden**.  
   
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
   

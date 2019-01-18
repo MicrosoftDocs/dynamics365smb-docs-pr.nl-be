@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Service leveren
 Met [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikt u over functies waarmee u services kunt leveren op basis van de contracten die u hebt opgesteld en de afgesloten serviceorders die u dient na te komen. Uw servicetechnici of planners kunnen de uitstaande serviceorders gemakkelijk vinden indien ze **Planbord** gebruiken. In het **planbord** wordt op een overzichtelijke manier aangegeven welke orders in behandeling zijn en welke voltooid zijn.  
   
-Serviceorders die in behandeling zijn, kunnen ook worden weergegeven met het venster **Servicetaken**, dat een overzicht van uw serviceverplichtingen bevat. U ziet hier op welk punt in de werkstroom een order zich bevindt; u kunt die status wijzigen en zo interacties met uw klant weerspiegelen.  
+Serviceorders die in behandeling zijn, kunnen ook worden weergegeven met de pagina **Servicetaken**, die een overzicht van uw serviceverplichtingen bevat. U ziet hier op welk punt in de werkstroom een order zich bevindt; u kunt die status wijzigen en zo interacties met uw klant weerspiegelen.  
   
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 

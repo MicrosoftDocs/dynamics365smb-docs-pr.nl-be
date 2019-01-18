@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d05a12251046b0c911387cda1d5a7a7c9a026d6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9790f75e9be5ec96a57320e96dd0cd38d567c16f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand
@@ -27,8 +27,8 @@ Om de bank het bedrag van de bankrekening van de klant over te laten maken naar 
 ### <a name="to-create-a-direct-debit-collection"></a>Een incasso-opdracht maken  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Incasso-opdrachten** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Incasso-opdrachten** op het tabblad **Start** in de groep **Nieuw** de optie **Incasso-opdracht maken**.  
-3. Vul in het venster **Incasso-opdracht maken** de velden in zoals wordt beschreven in de volgende tabel.  
+2. Kies op de pagina **Incasso-opdrachten** op het tabblad **Start** in de groep **Nieuw** de optie **Incasso-opdracht maken**.  
+3. Vul op de pagina **Incasso-opdracht maken** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
@@ -42,29 +42,29 @@ Om de bank het bedrag van de bankrekening van de klant over te laten maken naar 
 
 4. Kies de knop **OK**.  
 
-     Er wordt een automatische incasso-opdracht toegevoegd aan het venster **Incasso-opdrachten** en er worden een of meer automatische incasso-opdrachtposten gemaakt.  
+     Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-opdrachten** en er worden een of meer automatische incasso-opdrachtposten gemaakt.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Verzamelingposten van automatische incasso exporteren naar een bankbestand  
-1. Kies in het venster **Incasso-opdrachten** op het tabblad **Start** in de groep **Verwerken** de optie **Verzamelingsposten van incasso**.  
-2. Selecteer in het venster **Verzamelingsposten van incasso** de post die u wilt exporteren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Bestand van automatische incasso aanmaken**.  
-3. Het exportbestand opslaan naar de locatie van waar u verzendt of uploadt naar uw elektronische bank.  
+1. Kies op de pagina **Incasso-opdrachten** op het tabblad **Start** in de groep **Verwerken** de optie **Verzamelingsposten van incasso**.  
+2. Selecteer op de pagina **Verzamelingsposten van incasso** de post die u wilt exporteren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Bestand van automatische incasso aanmaken**.  
+3. Sla het exportbestand op naar de locatie van waar u verzendt of uploadt naar uw elektronische bank.  
 
-     In het venster **Verzamelingsposten van incasso** verandert het veld **Incasso-opdrachtstatus** in Bestand gemaakt. In het venster **SEPA Incasso Machtiging** wordt het veld **Debetteller** bijgewerkt met één telling.  
+     Op de pagina **Verzamelingsposten van incasso** verandert het veld **Incasso-opdrachtstatus** in Bestand gemaakt. Op de pagina **SEPA Incasso Machtiging** wordt het veld **Debetteller** bijgewerkt met één telling.  
 
 Als het geëxporteerde bestand niet kan worden verwerkt, bijvoorbeeld omdat de klant insolvent is, kunt u de incasso-opdrachtpost weigeren. Als het geëxporteerde bestand met succes is verwerkt door de bank, worden de verschuldigde betalingen van de betrokken verkoopfacturen automatisch geïnd bij de betrokken klanten. In dat geval kunt u de incasso sluiten.  
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Een incasso-opdrachtpost weigeren  
 
-* Selecteer in het venster **Verzamelingsposten van incasso** de post die niet goed is verwerkt en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Post weigeren**.  
+* Selecteer op de pagina **Verzamelingsposten van incasso** de post die niet goed is verwerkt en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Post weigeren**.  
 
-     De waarde in het veld **Status** in het venster **Verzamelingsposten van incasso** verandert in **Geweigerd**.  
+     De waarde in het veld **Status** op de pagina **Verzamelingsposten van incasso** verandert in **Geweigerd**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Een incasso-opdracht sluiten  
-*  Selecteer in het venster **Verzamelingsposten van incasso** de post die niet goed is verwerkt en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Verzameling sluiten**.  
+*  Selecteer op de pagina **Verzamelingsposten van incasso** de post die niet goed is verwerkt en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Verzameling sluiten**.  
 
      De bijbehorende verzameling automatische incasso is gesloten.  
 
-U kunt nu doorgaan met het boeken van ontvangen betalingen voor de betrokken verkoopfacturen. U kunt dit doen terwijl u, als gewoonlijk, betalingsontvangsten boekt, bijvoorbeeld in het venster **Betalingsregistratie**, of u kunt de gerelateerde betalingsontvangsten rechtstreeks boeken vanuit het venster **Verzamelingsposten van incasso**. Zie voor meer informatie [SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+U kunt nu doorgaan met het boeken van ontvangen betalingen voor de betrokken verkoopfacturen. U kunt dit doen terwijl u, als gewoonlijk, betalingsontvangsten boekt, bijvoorbeeld op de pagina **Betalingsregistratie**, of u kunt de gerelateerde betalingsontvangsten rechtstreeks boeken vanuit de pagina **Verzamelingsposten van incasso**. Zie voor meer informatie [SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Zie ook  
 [Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)  

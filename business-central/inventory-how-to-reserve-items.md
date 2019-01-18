@@ -13,27 +13,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Artikelen reserveren
-U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande document- of dagboekregels. U voert de handelingen hiervoor uit in het venster **Reservering**.
+U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande document- of dagboekregels. U voert de handelingen hiervoor uit op de pagina **Reservering**.
 
-Elke regel in het venster **Reservering**, dat u opent om artikelen te reserveren, geeft informatie over één soort regel (verkoop, inkoop, dagboek) of voorraadpost. Op de regels wordt beschreven hoeveel artikelen van elk soort regel of post beschikbaar zijn voor reservering.
+Elke regel op de pagina **Reservering**, die u opent om artikelen te reserveren, geeft informatie over één soort regel (verkoop, inkoop, dagboek) of voorraadpost. Op de regels wordt beschreven hoeveel artikelen van elk soort regel of post beschikbaar zijn voor reservering.
 
 ## <a name="to-reserve-items-for-sales"></a>Artikelen reserveren voor verkopen
 Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. De stappen voor inkoop-, service- en assemblageorders komen hiermee overeen.  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in een verkooporder op het sneltabblad **Regels** de actie **Reserveren**. Het venster **Reservering** verschijnt.  
+2.  Kies in een verkooporder op het sneltabblad **Regels** de actie **Reserveren**. De pagina **Reservering** verschijnt.  
 3. Klik op de regel waarvan u de artikelen wilt reserveren.  
 4. Kies een van de volgende acties.  
 
     |**Functie**|**Beschrijving**|
     |------------------|---------------------|  
-    |**Autom. reservering**|Automatisch artikelen reserveren in het venster **Reservering**.|  
+    |**Autom. reservering**|Hiermee reserveert u automatisch de artikelen op de pagina **Reservering**.|  
     |**Huidige regel reserveren**|Artikelen uit het document op de geselecteerde regel worden gereserveerd.|  
     |**Huidige regel annuleren**|De reservering van artikelen uit het document op de geselecteerde regel wordt geannuleerd.|
 
@@ -48,7 +48,7 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 2. Open de vast geplande productieorder waarvoor u bovenliggende artikelen wilt reserveren.  
 3. Selecteer de relevante productieorderregel.  
 4. Kies op het sneltabblad **Regels** de actie **Reserveren**.
-5. Selecteer in het venster **Reservering** de regel **Verkoopregel, Order** en kies vervolgens de actie **Vanuit huidige regel** reserveren.  
+5. Selecteer op de pagina **Reservering** de regel **Verkoopregel, Order** en kies vervolgens de actie **Vanuit huidige regel** reserveren.  
 
 Het aantal dat u hebt ingevoerd op de vast geplande productieorderregel is nu gereserveerd.
 
@@ -62,22 +62,22 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 4. Klik op het sneltabblad **Regels** op **Regel** en vervolgens op **Materialen**.  
 5. Selecteer de betreffende materiaalregel.  
 6. Kies op het sneltabblad **Regels** de actie **Reserveren**.  
-7. Selecteer in het venster **Reservering** een regel en kies vervolgens de actie **Vanuit huidige regel reserveren**.  
+7. Selecteer op de pagina **Reservering** een regel en kies vervolgens de actie **Vanuit huidige regel reserveren**.  
 
 Het aantal dat u hebt ingevoerd op de materiaalregel van de vast geplande productieorder is nu gereserveerd.
 
 ## <a name="to-change-a-reservation"></a>Een reservering wijzigen  
 Soms wilt u een artikelreservering wijzigen.   
 1. Kies vanuit de gereserveerde documentregel op het sneltabblad **Regels** de actie **Reserveren**.  
-2. Kies in het venster **Reservering** de actie **Reserveringsposten**.
-3. Werk in het venster **Reserveringsposten** het veld **Aantal** bij op de regel op die u wilt wijzigen.
+2. Kies op de pagina **Reservering** de actie **Reserveringsposten**.
+3. Werk op de pagina **Reserveringsposten** het veld **Aantal** bij op de regel op die u wilt wijzigen.
 4. Bevestig het volgende bericht met de knop **OK**.
 
 ## <a name="to-cancel-a-reservation"></a>Een reservering annuleren  
 Soms wilt u een artikelreservering annuleren.   
 1. Kies vanuit de documentregel waarvoor u een reservering wilt annuleren op het sneltabblad **Regels** de actie **Reserveren**.  
-2. Kies in het venster **Reservering** de actie **Reserveringsposten**.  
-3.  Kies in het venster **Reserveringsposten** de actie **Reservering annuleren**.  
+2. Kies op de pagina **Reservering** de actie **Reserveringsposten**.  
+3.  Kies op de pagina **Reservering** de actie **Reservering annuleren**.  
 4.  Bevestig het volgende bericht met de knop **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reserveren van een bepaald serie- of lotnummer  
@@ -91,8 +91,8 @@ De volgende procedure is gebaseerd op een verkooporder.
 3. Wijs serie- en lotnummers toe aan de verkooporderregel. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 4. Kies op de verkooporderregel de actie **Reserveren**.  
 5. Klik op de knop **Ja** om specifieke serie- of lotnummers te reserveren.  
-6. Selecteer in het venster **Artikeltraceringsoverzicht** de combinatie van serie- en lotnummer die u zojuist hebt toegekend.  
-7. Klik op de knop **OK** om het venster **Reservering** te openen met alleen aanvoer met het opgegeven artikeltraceringsnummer. Als er niet-specifieke reserveringen zijn voor de artikeltraceringsnummers die u hebt opgegeven voor deze regel, ontvangt u een bericht over het reeds gereserveerde aantal.  
+6. Selecteer op de pagina **Artikeltraceringsoverzicht** de combinatie van serie- en lotnummer die u zojuist hebt toegekend.  
+7. Kies de knop **OK** om de pagina **Reservering** te openen met alleen aanvoer met het opgegeven artikeltraceringsnummer. Als er niet-specifieke reserveringen zijn voor de artikeltraceringsnummers die u hebt opgegeven voor deze regel, ontvangt u een bericht over het reeds gereserveerde aantal.  
 8. Kies de actie **Autom. reservering** of **Vanuit huidige regel reserveren** om de reservering voor de specifieke artikeltraceringsnummers te maken.
 
 ## <a name="see-also"></a>Zie ook

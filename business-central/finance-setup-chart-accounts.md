@@ -11,10 +11,10 @@ ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ed8bc069fc702a1b2d8d893531baca5eab7a903
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
@@ -28,8 +28,8 @@ Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen t
 >   U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
 
 * Het saldo op de rekening moet nul zijn.  
-* Het veld **Grootboekrek.-verwijdering toestaan voor** moet zijn ingesteld in het venster **Grootboekinstelling** en de rekening mag geen grootboekposten op of na die datum hebben.  
-* Als het veld **Grootboekrek.-gebruik controleren** in het venster **Grootboekinstellingen** is geselecteerd, mag de rekening niet worden gebruikt in boekingsgroepen of boekingsinstellingen.  
+* Het veld **Grootboekrek.-verwijdering toestaan voor** moet zijn ingesteld op de pagina **Grootboekinstelling** en de rekening mag geen grootboekposten op of na die datum hebben.  
+* Als het veld **Grootboekrek.-gebruik controleren** op de pagina **Grootboekinstellingen** is geselecteerd, mag de rekening niet worden gebruikt in boekingsgroepen of boekingsinstellingen.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] voorkomt dat u een grootboekrekening verwijdert die gegevens bevat die nodig zijn in het rekeningschema.  
 

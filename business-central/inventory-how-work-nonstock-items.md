@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
@@ -25,8 +25,8 @@ U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze a
 * Selecteer een catalogusartikel op een verkooporderregel van het type **Artikel** met een leeg veld voor **Nr.** Er wordt dan automatisch een artikelkaart gemaakt voor het catalogusartikel.
 
 > [!NOTE]  
-> U kunt geen catalogusartikel selecteren in het venster **Verkoopfactuur**.<br /><br />
-> U kunt een catalogusartikel in het venster **Verkoopofferte** selecteren, maar het catalogusartikel wordt niet geconverteerd naar een normaal artikel wanneer u de functie **Order maken** gebruikt.
+> U kunt geen catalogusartikel selecteren op de pagina **Verkoopfactuur**.<br /><br />
+> U kunt een catalogusartikel op de pagina **Verkoopofferte** selecteren, maar het catalogusartikel wordt niet geconverteerd naar een normaal artikel wanneer u de functie **Order maken** gebruikt.
 
 Een catalogusartikel heeft doorgaans het artikelnummer van de leverancier die het levert. Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe leverancierartikelnummering naar uw eigen artikelnummering wordt geconverteerd.   
 
@@ -49,7 +49,7 @@ Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Een catalogusartikel converteren naar een normaal artikel
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een catalogusartikel dat u wilt converteren naar een normaal artikel.
-3. Kies in het venster **Catalogusartikelkaart** de actie **Artikel maken**.
+3. Kies op de pagina **Catalogusartikelkaart** de actie **Artikel maken**.
 
 Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het ca
 4. Kies de actie **Regel** en kies vervolgens de actie **Catalogusartikelen selecteren**.
 
     Het catalogusartikel wordt naar een normaal artikel geconverteerd. Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt.
-5. Selecteer in het venster **Catalogusartikelen** het catalogusartikel dat u wilt verkopen en klik vervolgens op **OK**.
+5. Selecteer op de pagina **Catalogusartikelen** het catalogusartikel dat u wilt verkopen en klik vervolgens op **OK**.
 6. Wanneer de verkooporder is ingevuld, kiest u de actie **Boeken**.
 
 U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).

@@ -11,10 +11,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
@@ -35,7 +35,7 @@ Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de v
 2. Open een verkooporder waarvoor u artikelen wilt inkopen.
 3. Kies de actie **Inkooporders maken**.
 
-    Het venster **Inkooporders maken** wordt geopend met een regel voor elk ander artikel op de verkooporder. Regels voor volledig beschikbare verkoopaantallen en niet-beschikbare verkoopaantallen (grijs) worden standaard weergegeven. U kunt de actie **Niet-beschikbare weergeven** kiezen om alleen regels weer te geven voor niet-beschikbare verkoopaantallen.
+    De pagina **Inkooporders maken** wordt geopend met een regel voor elk ander artikel op de verkooporder. Regels voor volledig beschikbare verkoopaantallen en niet-beschikbare verkoopaantallen (grijs) worden standaard weergegeven. U kunt de actie **Niet-beschikbare weergeven** kiezen om alleen regels weer te geven voor niet-beschikbare verkoopaantallen.
 
     Het veld **In te kopen aantal** bevat standaard het niet-beschikbare verkoopaantal.
 4. Als u een ander aantal wilt aanschaffen dan het niet-beschikbare verkoopaantal, bewerkt u de waarde in het veld **In te kopen aantal**.
@@ -44,7 +44,7 @@ Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de v
     >   U kunt ook het veld **In te kopen aantal** wijzigen op grijze regels, ook al vertegenwoordigen deze volledig beschikbare verkoopaantallen.
 5. Kies de knop **OK**.
 
-    Een inkooporder wordt gemaakt voor elke leverancier van artikelen op de verkooporder, inclusief aantalwijzigingen die u aanbrengt in het venster **Inkooporders maken**.
+    Een inkooporder wordt gemaakt voor elke leverancier van artikelen op de verkooporder, inclusief aantalwijzigingen die u aanbrengt op de pagina **Inkooporders maken**.
 7. Ga verder met het verwerken van de inkooporder of -orders, bijvoorbeeld door inkooporderregels te bewerken of toe te voegen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 

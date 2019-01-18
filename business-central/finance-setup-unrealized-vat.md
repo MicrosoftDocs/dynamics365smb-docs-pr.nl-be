@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,11 +26,10 @@ U kunt ervoor kiezen btw-bedragen te laten berekenen en boeken naar een tijdelij
 
 Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Boekhoudinstellingen** in.
-2. Kies in het venster **Boekhoudinstellingen** op het sneltabblad **Algemeen** **Meer weergeven** en kies vervolgens het selectievakje **Ongerealiseerde btw**.
-3. Sluit de pagina.
-4. Kies het pictogram **Zoeken naar pagina of rapport** ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Btw-boekingsinstellingen** in.
-5. Kies in het venster **Btw-boekingsinstellingen** de btw-boekingsgroep en vervolgens **Bewerken**.
-6. In het veld **Ongerealiseerde btw-soort** kiest u een optie om op te geven hoe u betalingen toewijst aan het factuurbedrag (zonder btw) en het btw-bedrag zelf, en hoe btw-bedragen van de ongerealiseerde btw-rekening moeten worden overgeboekt naar de gerealiseerde rekening. De volgende tabel beschrijft de opties.
+2. Selecteer op de pagina **Boekhoudinstellingen** het selectievakje **Ongereal. btw**.
+3. Kies het pictogram **Zoeken naar pagina of rapport** ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Btw-boekingsinstellingen** in.
+4. Op de pagina **Btw-boekingsinstellingen** kiest u de btw-boekingsgroep en vervolgens de actie **Bewerken**.
+5. In het veld **Ongerealiseerde btw-soort** kiest u een optie om op te geven hoe u betalingen toewijst aan het factuurbedrag (zonder btw) en het btw-bedrag zelf, en hoe btw-bedragen van de ongerealiseerde btw-rekening moeten worden overgeboekt naar de gerealiseerde rekening. De volgende tabel beschrijft de opties.
 
 | Optie | Omschrijving |
 | --- | --- |

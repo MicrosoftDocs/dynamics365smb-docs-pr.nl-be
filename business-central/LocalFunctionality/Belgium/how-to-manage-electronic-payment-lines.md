@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b0aefa4fab2df15423305a5305007a81fc29dfc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae018e8248db48db8709b93a882200e421bf8ee5
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-electronic-payment-lines"></a>Regels voor elektronische betalingen beheren
-U kunt instellen dat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen. U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. In de volgende procedure wordt beschreven hoe u betalingsdagboekregels handmatig toevoegt of bewerkt, maar u kunt betalingsdagboekregels ook verwijderen in het venster **Betalingsdagboek**.  
+U kunt instellen dat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen. U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. In de volgende procedure wordt beschreven hoe u betalingsdagboekregels handmatig toevoegt of bewerkt, maar u kunt betalingsdagboekregels ook verwijderen op de pagina **Betalingsdagboek**.  
 
 ## <a name="to-manage-a-payment-journal-line"></a>Een betalingsdagboekregel beheren  
 

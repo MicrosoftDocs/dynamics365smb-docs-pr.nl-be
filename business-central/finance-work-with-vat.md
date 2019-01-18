@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
@@ -39,7 +39,7 @@ Als dit selectievakje niet is ingeschakeld, worden het veld **Eenheidsprijs** en
 
 U kunt de standaardinstelling van **Prijs met btw** instellen voor alle verkoopdocumenten voor een klant in het veld **Prijs met btw** op de **Klant**-kaart. U kunt tevens artikelprijzen inclusief of exclusief btw instellen. Normaliter zijn artikelprijzen op Artikel (kaart) exclusief btw. In het programma wordt de informatie gebruikt van het veld **Inclusief btw** op het **Artikel** (kaart) om het eenheidsprijsbedrag voor verkoopdocumenten te bepalen.  
 
-In de volgende tabel staat een overzicht van de manier waarop eenheidsprijsbedragen voor een verkoopdocument worden berekend wanneer u geen prijzen hebt ingesteld in het venster **Verkoopprijzen**:  
+In de volgende tabel staat een overzicht van de manier waarop eenheidsprijsbedragen voor een verkoopdocument worden berekend wanneer u geen prijzen hebt ingesteld op de pagina **Verkoopprijzen**:  
 
 |**Prijs met btw-veld op artikel (kaart)**|**Prijs met btw-veld in verkoopkop**|**Uitgevoerde actie**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Zelfs als u een of meer combinaties hebt ingesteld voor het afhandelen van impor
 Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief btw, kunt u de btw over de contantkorting terugboeken wanneer de contantkorting wordt verleend. U moet de optie **Aanpassen bij cont.-korting** zowel op het tabblad Algemeen in het venster Boekhoudinstellingen als in het venster Boekingsgroepinstellingen inschakelen, voor specifieke combinaties van btw-bedrijfsboekingsgroep en btw-productboekingsgroep.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Handmatig btw opgeven in verkoopdocumenten  
-1. Geef in het veld **Boekhoudinstellingen** een **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
-2. Schakel in het venster **Verkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
+1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
+2. Schakel op de pagina **Verkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Btw wijzigen voor een verkoopdocument  
 1. Open de betreffende verkooporder.  
@@ -71,11 +71,11 @@ Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief 
 U kunt btw-bedragen ook aanpassen in algemene, verkoop- en inkoopdagboeken. Het is mogelijk nodig dit te doen wanneer u een leveranciersfactuur boekt in uw dagboek en er een verschil is tussen het btw-bedrag dat in [!INCLUDE[d365fin](includes/d365fin_md.md)] is berekend en het btw-bedrag in de leveranciersfactuur.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Voordat u BTW handmatig in een dagboek gaat invoeren  
-1. Geef in het veld **Boekhoudinstellingen** een **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
-2. Schakel het selectievakje **Btw-verschil toegestaan** in voor het relevante dagboek in het venster **Fin. dagboeksjablonen**.  
+1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
+2. Schakel het selectievakje **Btw-verschil toegestaan** in voor het relevante dagboek op de pagina **Fin. dagboeksjablonen**.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Voordat u handmatig btw in verkoop- en inkoopdagboeken kunt invoeren  
-1. Schakel in het venster **Inkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
+1. Schakel op de pagina **Inkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 2. Nadat u de hierboven beschreven instellingen hebt voltooid, kunt u het veld **Btw-bedrag** corrigeren in de regel van het algemene dagboek of het veld **Btw-bedrag tegenrek.** in de verkoop- of inkoopdagboekregel. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gecontroleerd of het verschil niet groter is dan het opgegeven maximum.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
    Wanneer u het veld **Status** instelt op **Vereist**, **Ontvangen** of **Niet ontvangen**, wordt een certificaat gemaakt.  
   
     > [!TIP]  
-    >  U kunt het venster **Certificaten van levering** gebruiken om een weergave te krijgen van de status van alle geboekte verzendingen waarvoor een certificaat van levering is gemaakt.  
+    >  U kunt de pagina **Certificaten van levering** gebruiken om een weergave te krijgen van de status van alle geboekte verzendingen waarvoor een certificaat van levering is gemaakt.  
 
 5. Kies **Certificaat van levering afdrukken**.  
   
@@ -130,15 +130,15 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
 3. Kies de actie **Certificaat van levering afdrukken**.  
 
     > [!NOTE]  
-    >  U kunt ook een certificaat afdrukken vanuit het venster **Certificaat van levering**.  
+    >  U kunt ook een certificaat afdrukken vanaf de pagina **Certificaat van levering**.  
 
 4. Als u informatie uit de regels in het verzenddocument wilt opnemen in het certificaat, schakelt u het selectievakje **Regeldetails afdrukken** in.  
 5. Schakel het selectievakje **Certificaten van levering maken als deze nog niet zijn gemaakt** in om [!INCLUDE[d365fin](includes/d365fin_md.md)]-certificaten te maken voor geboekte verzendingen die er op het moment van uitvoering geen hebben. Wanneer u het selectievakje inschakelt, worden nieuwe certificaten gemaakt voor alle geboekte verzendingen die geen certificaten in het geselecteerde bereik hebben.  
 6. De filterinstellingen zijn standaard voor het verzenddocument dat u hebt geselecteerd. Vul de filterinformatie in om een specifiek certificaat van levering te selecteren dat u wilt afdrukken.  
-7. Kies in het venster **Certificaat van levering** de actie **Afdrukken** om het rapport af te drukken of kies de actie **Voorbeeld** om het weer te geven.  
+7. Kies op de pagina **Certificaat van levering** de actie **Afdrukken** om het rapport af te drukken of kies de actie **Voorbeeld** om deze weer te geven.  
 
     > [!Note]  
-    > Het veld **Status van certificaat van levering** en het veld **Afgedrukt** worden bijgewerkt voor de verzending in het venster **Certificaten van levering**.  
+    > Het veld **Status van certificaat van levering** en het veld **Afgedrukt** worden bijgewerkt voor de verzending op de pagina **Certificaten van levering**.  
 
 8. Verzend het afgedrukte certificaat van levering ter ondertekening naar de klant.  
 
@@ -153,7 +153,7 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
 
    Als de klant het ondertekende certificaat van levering niet retourneert, kiest u **Niet ontvangen**. U moet de klant dan een nieuwe factuur sturen waarin btw is inbegrepen, omdat de oorspronkelijke factuur niet door de belastingdienst wordt geaccepteerd.  
 
-Als u een groep certificaten wilt weergeven, begint u in het venster **Certificaten van levering** en werkt u de informatie over de status van openstaande certificaten bij wanneer u ze terug ontvangt van uw klanten. Dit kan handig zijn als u wilt zoeken naar alle certificaten die een bepaalde status hebben, bijvoorbeeld **Vereist**, waarvoor u de status wilt bijwerken naar **Niet ontvangen**.  
+Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificaten van levering** en werkt u de informatie over de status van openstaande certificaten bij wanneer u ze terug ontvangt van uw klanten. Dit kan handig zijn als u wilt zoeken naar alle certificaten die een bepaalde status hebben, bijvoorbeeld **Vereist**, waarvoor u de status wilt bijwerken naar **Niet ontvangen**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>De status van een groep certificaten bijwerken  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Certificaten van levering** in en kies vervolgens de gerelateerde koppeling.  
@@ -166,7 +166,7 @@ Als u een groep certificaten wilt weergeven, begint u in het venster **Certifica
    U kunt de datum wijzigen in de datum waarop u het ondertekende certificaat van levering hebt ontvangen. U kunt ook een koppeling naar het ondertekende certificaat toevoegen met de standaardkoppeling voor documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
     > [!NOTE]  
-    >  U kunt geen nieuw certificaat van levering in het venster **Certificaat van levering** maken als u ernaar toe navigeert met deze procedure. Als u een certificaat wilt maken voor een verzending die geen certificaat vereist, opent u de geboekte verkoopverzending en gebruikt u een van de twee hierboven beschreven procedures:  
+    >  U kunt geen nieuw certificaat van levering op de pagina **Certificaat van levering** maken als u ernaar toe navigeert met deze procedure. Als u een certificaat wilt maken voor een verzending die geen certificaat vereist, opent u de geboekte verkoopverzending en gebruikt u een van de twee hierboven beschreven procedures:  
     >   
     > * Handmatig een certificaat van levering maken  
     > * Een certificaat van levering afdrukken.

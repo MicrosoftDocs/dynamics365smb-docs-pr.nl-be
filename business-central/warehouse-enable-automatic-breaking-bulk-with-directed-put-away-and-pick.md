@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 20293bc9e17fd3fe03466a55d0b74b5104cd17f2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c328df334d1bb1be33ced814677c3ef3ea634799
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen
@@ -33,7 +33,7 @@ Als het systeem alleen kleinere eenheden kan vinden, wordt u gevraagd artikelen 
 Bij de magazijnopslag stelt het programma automatisch Plaatsen-actieregels voor in de opslageenheid, bijvoorbeeld stuks, hoewel de artikelen in een andere eenheid arriveren.  
 
 ## <a name="breakbulking-in-movements"></a>Bulksplitsing in verplaatsingen  
-Het programma past ook automatisch bulksplitsing toe op aanvullingsverplaatsingen, als u het standaard ingeschakelde selectievakje **Breakbulk toestaan** op het sneltabblad **Optie** van het venster **Opslagloc.-aanvulling** berekenen niet uitschakelt.  
+Het programma past ook automatisch bulksplitsing toe op aanvullingsverplaatsingen, als u het standaard ingeschakelde selectievakje **Breakbulk toestaan** op het sneltabblad **Optie** van de pagina **Opslagloc.-aanvulling** berekenen niet uitschakelt.  
 
 U kunt de resultaten van de omzetting van de ene eenheid in de andere weergeven als tussenliggende bulksplitsingsregels in de opslag-, pick- of verplaatsingsinstructies.  
 

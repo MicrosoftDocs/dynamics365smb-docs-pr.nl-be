@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) inschakelen
+# <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
+
+> [!NOTE]
+> In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt ADCS alleen in on-premises implementaties. Een Microsoft-partner kan het echter in online implementaties laten werken met behulp van PowerApps of iets soortgelijks.
+
 Met het ADCS-systeem kunt u alle verplaatsingen van artikelen in het magazijn registreren. Bovendien worden sommige dagboekactiviteiten vastgelegd, waaronder voorraadmutaties in het artikeldagboek van magazijnen en inventarisaties.  
 
 Als u ADCS wilt gebruiken, moet u elk artikel dat in het magazijn is opgeslagen een artikel-id geven. Ook moet u miniformulieren, draagbare functies en gegevensuitwisseling instellen en de instellingen opgeven voor de velden die ADCS bepalen. Op de locatiekaart van een magazijn kunt u opgeven of ADCS gebruikt wordt.
@@ -38,25 +42,25 @@ Als u ADCS wilt gebruiken, moet u opgeven welke magazijnlocaties de technologie 
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies de gerelateerde koppeling.
 2.  Selecteer een magazijn in de lijst waarvoor u ADCS wilt inschakelen en kies de actie **Bewerken**.
-3. In het venster **Vestiging** schakelt u het selectievakje **ADCS gebruiken** in.  
+3. Op de pagina **Vestiging** schakelt u het selectievakje **ADCS gebruiken** in.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Een artikel opgeven om ADCS te gebruiken  
 Aan elk magazijnartikel dat u wilt gebruiken met ADCS, moet een id-code worden toegewezen om dit aan het bijbehorende artikelnummer te koppelen. U kunt bijvoorbeeld de streepjescode van het artikel als de id-code gebruiken. Een artikel kan ook meerdere id-codes hebben. Dit kan nuttig zijn in gevallen waarin een artikel beschikbaar is in verschillende eenheden, zoals stuks en pallets. Wijs in dit geval aan elk artikel een id-code toe.    
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in de lijst een artikel dat deel uitmaakt van uw ADCS-oplossing en kies de actie **Bewerken**.
-3. Kies in het venster **Artikelkaart** de actie **Identificaties**.
-4. Kies in het venster **Artikelidentificaties** de actie **Nieuw**.
+3. Kies op de pagina **Artikelkaart** de actie **Identificaties**.
+4. Kies op de pagina **Artikelidentificaties** de actie **Nieuw**.
 5. Geef in het veld **Code** de identificatiecode voor het artikel op. U kunt bijvoorbeeld de streepjescode van het artikel gebruiken.  
 
     U kunt ook een **variantcode** en een **eenheid**code opgeven.  
 
 6. Voer, indien nodig, meerdere codes voor de afzonderlijke artikelen in.
 7. Kies de knop **OK**.  
-8.  Als u deze gegevens wilt controleren, kiest u het veld **Identificatie** om het venster **Artikelidentificaties** te openen.
+8.  Als u deze gegevens wilt controleren, kiest u het veld **Identificatie** om de pagina **Artikelidentificaties** te openen.
 
 ## <a name="to-add-an-adcs-user"></a>Een ADCS-gebruiker toevoegen  
-U kunt elke gebruiker toevoegen als een gebruiker van een ADCS-systeem (Automated Data Capture System). Wanneer u dit doet, moet de gebruiker ook een wachtwoord opgeven. Desgewenst kunt u ook een verbinding bieden op basis waarvan de ADCS-gebruiker kan worden geïdentificeerd als een magazijnwerknemer. Het ADCS-gebruikerswachtwoord kan afwijken van het Windows-wachtwoord van de gebruiker. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
+U kunt elke gebruiker toevoegen als een gebruiker van een ADCS-systeem (Automated Data Capture System). Wanneer u dit doet, moet de gebruiker ook een wachtwoord opgeven. Desgewenst kunt u ook een verbinding bieden op basis waarvan de ADCS-gebruiker kan worden geïdentificeerd als een magazijnwerknemer. Het ADCS-gebruikerswachtwoord kan verschillen van het Windows-aanmeldwachtwoord van de gebruiker. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **ADCS-gebruikers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  

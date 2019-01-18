@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Serviceartikelen en serviceartikelonderdelen instellen
@@ -39,11 +39,11 @@ U wijst serviceartikelgroepen toe aan artikelen op de kaart **Artikel** en aan s
 7. Als u de artikelen in de groep bij verkoop als serviceartikelen wilt registreren, moet u het veld **Serviceartikel maken** selecteren.  
 
 ## <a name="to-set-up-service-item-components"></a>Serviceartikelcomponenten instellen
-Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderdelen kunt vervangen wanneer voor het artikel service wordt uitgevoerd. Deze onderdelen zijn ingesteld in het venster **Serviceartikelonderdeeloverzicht**. Als u onderdelen wilt instellen voor serviceartikelen die zijn ingesteld als stuklijst, kunt u de stuklijstartikelen kopiëren en instellen als serviceartikelcomponenten.
+Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderdelen kunt vervangen wanneer voor het artikel service wordt uitgevoerd. Deze onderdelen zijn ingesteld op de pagina **Serviceartikelonderdeeloverzicht**. Als u onderdelen wilt instellen voor serviceartikelen die zijn ingesteld als stuklijst, kunt u de stuklijstartikelen kopiëren en instellen als serviceartikelcomponenten.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open het serviceartikel waarvoor u componenten wilt instellen.  
-3. Kies de actie **Materialen**. Het venster **Serviceartikelonderdeeloverzicht** wordt geopend.  
+3. Kies de actie **Materialen**. De pagina **Serviceartikelonderdeeloverzicht** wordt geopend.  
 4. Een nieuw component toevoegen.  
 5. Kies in het veld **Soort** de optie **Serviceartikel** als de component zelf een geregistreerd serviceartikel is. Selecteer anders **Artikel**.  
 6. Selecteer in het veld **Nr.** het artikel of serviceartikel dat een component is van het serviceartikel.  
@@ -51,13 +51,13 @@ Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderde
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Serviceartikelcomponenten instellen uit stuklijsten
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het serviceartikel waarvoor u componenten wilt instellen vanuit een stuklijst.  
-3. Kies de actie **Materialen**. Het venster **Serviceartikelonderdeeloverzicht** wordt geopend.  
+3. Kies de actie **Materialen**. De pagina **Serviceartikelonderdeeloverzicht** wordt geopend.  
 4. Kies de actie **Van stuklijst kopiëren**.  
 
     Wanneer het artikel waaraan het serviceartikel is gekoppeld, een stuklijst is, worden automatisch componenten gemaakt voor alle artikelen in de stuklijst.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Serviceschappen instellen
-U kunt serviceschappen instellen om de opslaglocatie van uw serviceartikelen aan te duiden. U wijst serviceschappen toe aan serviceartikelen in de vensters **Serviceorder** en **Serviceartikelwerkbon**.  
+U kunt serviceschappen instellen om de opslaglocatie van uw serviceartikelen aan te duiden. U wijst serviceschappen toe aan serviceartikelen op de pagina's **Serviceorder** en **Serviceartikelwerkbon**.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceschappen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de benodigde velden in.

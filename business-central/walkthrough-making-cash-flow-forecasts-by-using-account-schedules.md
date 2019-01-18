@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
@@ -51,7 +51,7 @@ Een rapportageschema bestaat uit een cashflowrekening met een reeks regels en ee
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Een nieuwe naam voor een rekeningstelsel instellen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een cashflowrekening te maken.  
+2.  Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een cashflowrekening te maken.  
 3.  Voer in het veld **Naam** de tekst **Prognose** in.  
 4.  Voer in het veld **Omschrijving** **Cashflowprognose** in.  
 5.  Laat de velden **Std. kolomindeling** en **Analyseweergavenaam** leeg.  
@@ -61,8 +61,8 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
 
 ### <a name="to-set-up-account-schedule-lines"></a>Nieuwe rapportageschemaregels instellen  
 
-1.  In het venster **Rapportageschema's** selecteert u de nieuwe naam voor het rapportageschema **Prognose** dat u hebt gemaakt. Klik op het tabblad **Start** in de groep **Verwerken** op **Rekeningschema bewerken**.  
-2.  Voer in het venster **Rapportageschema** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
+1.  Op de pagina **Rapportageschema's** selecteert u de nieuwe naam voor het rapportageschema **Prognose** dat u hebt gemaakt. Klik op het tabblad **Start** in de groep **Verwerken** op **Rekeningschema bewerken**.  
+2.  Voer op de pagina **Rapportageschema** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
 
     > [!NOTE]  
     >  Met de functie **CF rekeningen invoegen** kunt u snel de cashflowrekeningen in het schema met cashflowrekeningen markeren en deze naar rapportageschemaregels kopiëren.  
@@ -79,12 +79,12 @@ Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>De kolomindeling toewijzen aan de naam van het rekeningstelsel  
 
-1.  Selecteer in het venster **Rapportageschema's** in het veld **Naam** **Prognose**.  
+1.  Selecteer op de pagina **Rapportageschema's** in het veld **Naam** **Prognose**.  
 2.  Kies in het veld **Std. kolomindeling** de kolomindeling **Cashflow** om deze toe te wijzen als de standaardkolomindeling.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>De cashflowprognose weergeven en afdrukken  
-1.  Kies in het venster **Rapportageschema's** de actie **Overzicht** om de cashflowprognose weer te geven.  
-2.  In het venster **Rapportageschemaoverzicht** kunt u een bedrag selecteren en vervolgens de cashflowprognoseposten weergeven waaruit het bedrag bestaat. Bovendien kunt u de formule weergegeven die voor het berekenen van het bedrag wordt gebruikt. U kunt de bedragen ook filteren op datum en dimensie.  
+1.  Kies op de pagina **Rapportageschema's** de actie **Overzicht** om de cashflowprognose weer te geven.  
+2.  Op de pagina **Rapportageschemaoverzicht** kunt u een bedrag selecteren en vervolgens de cashflowprognoseposten weergeven waaruit het bedrag bestaat. Bovendien kunt u de formule weergegeven die voor het berekenen van het bedrag wordt gebruikt. U kunt de bedragen ook filteren op datum en dimensie.  
 3.  Kies de actie **Afdrukken** om de cashflowprognose af te drukken.  
 
 ## <a name="see-also"></a>Zie ook  

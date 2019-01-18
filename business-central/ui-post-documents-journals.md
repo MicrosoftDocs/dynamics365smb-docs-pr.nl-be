@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1d10605991f215971a5562c9cde54ced59f9107
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Documenten en dagboeken boeken
@@ -30,7 +30,7 @@ In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar d
 | Meer informatie over het boeken van inkoopdocumenten. |[Inkopen boeken](ui-post-purchases.md) |
 | Meer informatie over het boeken van verkoopdocumenten. |[Verkopen boeken](ui-post-sales.md) |
 | Meer informatie over het boeken van diversendagboeken. |[Werken met diversendagboeken](ui-work-general-journals.md) |
-| Bekijk in een venster een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md) |
+| Bekijk op een pagina een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md) |
 | Bekijk in een rapport een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Controlelijsten weergeven vóór boeken](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Zie ook

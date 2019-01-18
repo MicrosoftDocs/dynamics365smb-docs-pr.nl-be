@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Toegankelijkheid en sneltoetsen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/
 ##  <a name="Navigation"></a> Navigatie  
  Met het toetsenbord kunt u navigeren tussen de tabbladen en acties in het lint, elementen op de navigatiebalk en andere besturingselementen in [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's en -rapporten. Als u de focus wilt verplaatsen naar het volgende tabblad, de volgende actie of het volgende besturingselement, drukt u op Tab. Druk op Shift+Tab om naar het vorige tabblad, de vorige actie of het vorige besturingselement te gaan.  
 
- Met Tab kunt u ook schakelen tussen het hoofdbrowservenster en dialoogvensters waarin bijvoorbeeld om bevestiging wordt gevraagd of het aanmeldingsvenster.  
+ Met Tab kunt u ook schakelen tussen de hoofdbrowserpagina en dialoogvensters waarin bijvoorbeeld om bevestiging wordt gevraagd of de aanmeldingspagina.  
 
 ##  <a name="Headings"></a> Koppen  
  In de HTML-bron voor [!INCLUDE[d365fin](includes/d365fin_md.md)]-inhoud worden tags gebruikt om gebruikers van ondersteunende technologie te helpen de structuur en inhoud van de pagina te begrijpen. Op pagina's met lijsten worden de kolommen bijvoorbeeld gedefinieerd in TH-tags en de kolomkoppen worden ingesteld met het kenmerk TITLE in de tag. Bijschriften voor elementen, zoals sneltabbladen, feitenblokken en velden, zijn opgenomen in koptags (H1, H2, H3 en H4).  

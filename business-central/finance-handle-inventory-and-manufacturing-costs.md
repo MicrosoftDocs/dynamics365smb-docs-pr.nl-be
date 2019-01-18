@@ -1,6 +1,6 @@
 ---
 title: Voorraad- en productiekosten verwerken | Microsoft Docs
-description: Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, vensters en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.
+description: Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 463902077313b09391c42f4d44fde11be08bdd02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Voorraad- en productiekosten verwerken
-Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, vensters en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
+Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
 
  Het toewijzen van artikeltoeslagen aan inkoopdocumenten is een voorbeeld van een indirecte taak voor kostenadministratie. Het aanpassen van de kostprijs van assemblage- of productiestuklijstartikel is een voorbeeld van een meer directe taak voor kostenadministratie.  
 

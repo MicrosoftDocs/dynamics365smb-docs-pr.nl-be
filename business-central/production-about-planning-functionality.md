@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Informatie over het plannen van functionaliteit
@@ -73,7 +73,7 @@ De volgende orderwijzigingen bestaan op de artikel-/SKU-kaart:
 -   Max. bestelaantal  
 -   Vaste lotgrootte  
 
-Algemene velden voor planningsinstellingen in het venster **Productie-instellingen** zijn onder andere:  
+Algemene velden voor planningsinstellingen op de pagina **Productie-instellingen** zijn onder andere:  
 
 -   Dynamische low-levelcode  
 -   Huidige vraagprognose  
@@ -95,7 +95,7 @@ Zo geeft u op of het planningssysteem bij de berekening van planningsboodschappe
 Als het veld de optie **Ongelimiteerd** bevat, wordt de regel opgenomen in de berekening van planningsboodschappen. Als het veld de optie **Geen** bevat, is de regel vast en onveranderbaar, en wordt deze regel niet door het planningssysteem meegenomen bij de berekening van planningsboodschappen.
 
 ### <a name="warning"></a>Waarschuwing
-Het informatieveld **Waarschuwing** in het venster **Planningsvoorstel** biedt u informatie over elke planningsregel die voor een uitzonderlijke situatie met tekst is gemaakt. De gebruiker kan er dan voor kiezen om aanvullende informatie te lezen. De volgende waarschuwingstypen zijn mogelijk:
+Het informatieveld **Waarschuwing** op de pagina **Planningsvoorstel** biedt u informatie over elke planningsregel die voor een uitzonderlijke situatie met tekst is gemaakt. De gebruiker kan er dan voor kiezen om aanvullende informatie te lezen. De volgende waarschuwingstypen zijn mogelijk:
 
 - Noodgeval
 - Uitzondering

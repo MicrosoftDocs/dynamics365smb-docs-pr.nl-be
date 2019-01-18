@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
@@ -85,7 +85,7 @@ U kunt een beperkte werklast toewijzen aan productieresources die als kritiek wo
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt geen ondersteuning voor gedetailleerd werkvloerbeheer. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.
 
-In het venster **Capaciteitsbegrensde resource** kunt u instellingen configureren waarmee overbelasting van specifieke resources kan worden voorkomen, en kunt u ervoor zorgen dat alle capaciteit wordt toegewezen als dit de omlooptijd van een productieorder kan verhogen. In het veld **Demping (% van totale capaciteit)** kunt u dempingstijd aan resources toevoegen om bewerkingsplitsen te verkleinen. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.
+Op de pagina **Capaciteitsbegrensde resource** kunt u instellingen configureren waarmee overbelasting van specifieke resources kan worden voorkomen, en kunt u ervoor zorgen dat alle capaciteit wordt toegewezen als dit de omlooptijd van een productieorder kan verhogen. In het veld **Demping (% van totale capaciteit)** kunt u dempingstijd aan resources toevoegen om bewerkingsplitsen te verkleinen. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.
 
 Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen resources boven de gedefinieerde capaciteit (kritieke werklastpercentage) worden geladen. Dit gebeurt door elke bewerking toe te wijzen aan de dichtstbijzijnde beschikbare periode. Als de periode niet groot genoeg is om de hele bewerking uit te voeren, wordt de bewerking in twee of meer delen gesplitst in de dichtstbijgelegen perioden.
 

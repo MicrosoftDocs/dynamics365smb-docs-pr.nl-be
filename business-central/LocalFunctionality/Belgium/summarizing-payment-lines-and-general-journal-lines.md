@@ -1,26 +1,21 @@
 ---
 title: Betalingsregels en dagboekregels samenvatten
-description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] worden verschillende soorten transacties op dezelfde manier afgehandeld.
-services: project-madeira
-documentationcenter: 
+description: Business Central geeft een overzicht van betalingsregels en dagboekregels.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0e94b66ce548e2ba2ad5217b0ca04a0da6d08948
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c60298731fc841ef071c7dbd392da748eb92539
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="summarizing-payment-lines-and-general-journal-lines"></a>Betalingsregels en dagboekregels samenvatten
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] worden de volgende soorten transacties op dezelfde manier afgehandeld:  
+Business Central geeft een overzicht van betalingsregels en dagboekregels van de volgende typen betalingen:  
 
 - Binnenlandse betalingen  
 - Internationale betalingen  
@@ -30,12 +25,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] worden de volgende soorten 
 ## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Hoe betalingsdagboekregels naar het grootboek worden overgebracht  
 Wanneer u de betalingsdagboekregels naar een bestand exporteert, brengt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] de betalingsdagboekregels naar het opgegeven dagboek over. Standaard wordt een dagboekregel gemaakt voor elke betalingsdagboekregel.  
 
-De volgende twee velden in het venster **Elektronisch bankieren instellen** bepalen hoe de betalingsregels worden samengevat:  
+De volgende twee velden op de pagina **Elektronisch bankieren instellen** bepalen hoe de betalingsregels worden samengevat:  
 
 - **Alg. dagb.regels samenvatten**  
 - **Tekst van betaalberichten afbreken**  
 
-Als u het selectievakje **Alg. dagb.regels samenvatten** in het venster **Elektronisch bankieren instellen** hebt geselecteerd, vat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] alle betalingsdagboekregels voor een bepaalde leverancier in één dagboekregel samen. De algemene omschrijving 'Betaling %1', waarbij %1 het leveranciersnummer is, wordt gebruikt voor de samengevatte dagboekregelomschrijving. Er worden een afzonderlijke betalingsregel en een aparte dagboekregel gemaakt om het volgende af te handelen:  
+Als u het selectievakje **Alg. dagb.regels samenvatten** op de pagina **Elektronisch bankieren instellen** hebt geselecteerd, vat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] alle betalingsdagboekregels voor een bepaalde leverancier in één dagboekregel samen. De algemene omschrijving 'Betaling %1', waarbij %1 het leveranciersnummer is, wordt gebruikt voor de samengevatte dagboekregelomschrijving. Er worden een afzonderlijke betalingsregel en een aparte dagboekregel gemaakt om het volgende af te handelen:  
 
 - Betalingsdagboekregels die gedeeltelijke betalingen bevatten, met zowel het veld **Gedeeltelijke betaling** als het veld **Afzonderlijke regel** ingeschakeld.  
 
@@ -68,5 +63,5 @@ De EndToEndId in het SEPA-bericht wordt gehaald uit het betalingsbericht en kan 
 ## <a name="see-also"></a>Zie ook  
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [Financiën instellen](../../finance-setup-finance.md)  
- [Inkopen vastleggen](../../purchasing-how-record-purchases.md) 
+ [Inkopen vastleggen](../../purchasing-how-record-purchases.md)
 

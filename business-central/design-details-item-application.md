@@ -11,10 +11,10 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
@@ -189,7 +189,7 @@ De volgende tabel toont het effect van de exacte kostenterugboeking op de waarde
 Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert, worden de toegenomen kosten van de inkooppost als gevolg van de artikeltoeslag doorgestuurd naar de verkooppost volgnummer 2. De verkooppost stuurt vervolgens deze verhoogde kosten door naar de verkoopcreditpost (volgnummer 3). Het eindresultaat is dat de kosten correct zijn tegengeboekt.  
 
 > [!NOTE]  
->  Als u met retouren of creditnota's werkt en u het veld **Precieze kostenvereff. verplicht** hebt ingesteld in het venster **Inkoopinstellingen** of het venster **Instellingen van verkoop en tegoeden**, zoals van toepassing in uw situatie, vult [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de verschillende vereffeningspostvelden in wanneer u de functie **Document kopiëren** gebruikt. Als u de functie **Geboekte documentregels ophalen voor tegenboeking** gebruikt, worden deze velden altijd automatisch ingevuld.  
+>  Als u met retouren of creditnota's werkt en u het veld **Precieze kostenvereff. verplicht** hebt ingesteld op de pagina **Inkoopinstellingen** of de pagina **Instellingen van verkoop en tegoeden**, zoals van toepassing in uw situatie, vult [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de verschillende vereffeningspostvelden in wanneer u de functie **Document kopiëren** gebruikt. Als u de functie **Geboekte documentregels ophalen voor tegenboeking** gebruikt, worden deze velden altijd automatisch ingevuld.  
 
 > [!NOTE]  
 >  Als u een transactie boekt met een vaste vereffening en vereffent met een gesloten artikelpost, hetgeen betekent dat het resterende aantal nul blijft, wordt de oude vereffening automatisch ongedaan gemaakt en wordt de artikelpost nogmaals vereffend met gebruik van de door u opgegeven vaste vereffening.  
@@ -237,7 +237,7 @@ Vanwege de manier waarop de kostprijs van een artikel wordt berekend, kan een on
 * U wilt de vereffening negeren die automatisch wordt gemaakt wanneer u boekt, volgens de waarderingsmethode van het artikel.  
 * U moet een artikel retourneren waarop een verkoop al handmatig is toegepast zonder de functie **Geboekte documentregels ophalen voor tegenboeking** te gebruiken en u moet daarom de vereffening ongedaan maken.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een functie voor het analyseren en corrigeren van artikelvereffeningen. Dit werk wordt uitgevoerd in het venster **Vereffeningsvoorstel**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een functie voor het analyseren en corrigeren van artikelvereffeningen. Dit werk wordt uitgevoerd op de pagina **Vereffeningsvoorstel**.  
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  

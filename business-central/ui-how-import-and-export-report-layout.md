@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Een rapport- of documentlay-out importeren en exporteren
@@ -31,7 +31,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
   
 2.  Selecteer de rij voor het rapport dat de aangepaste rapportlay-out bevat die u wilt exporteren, en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Aangepaste lay-outs**.  
   
-3.  Selecteer in het venster **Rapportlay-outs** het rapport dat u naar een bestand wilt exporteren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Lay-out exporteren**.  
+3.  Selecteer op de pagina **Rapportlay-outs** het rapport dat u naar een bestand wilt exporteren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Lay-out exporteren**.  
   
 4.  Kies in het dialoogvenster **Bestand exporteren** de optie **Opslaan** en sla het bestand op een locatie op uw computer of in uw netwerk op.  
   
@@ -45,7 +45,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
   
 3.  Selecteer de rij voor het rapport waarnaar u de rapportlay-out wilt importeren, en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Aangepaste lay-outs**.  
   
-4.  Selecteer in het venster **Rapportlay-outs** de rapportlay-out waarnaar u het bestand wilt importeren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Lay-out importeren**.  
+4.  Selecteer op de pagina **Rapportlay-outs** de rapportlay-out waarnaar u het bestand wilt importeren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Lay-out importeren**.  
   
 5.  Selecteer in het dialoogvenster **Microsoft Office-sjabloon importeren** het Word-document dat de rapportlay-out definieert en kies vervolgens **Openen**.  
   

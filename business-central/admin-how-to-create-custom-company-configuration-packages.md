@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Aangepaste configuratiepakketten voor bedrijven maken
@@ -45,8 +45,8 @@ Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogra
 1.  Definieer een nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)], ***NIET MOGELIJK Koppeling naar Help voor "Een nieuwe tenant maken"***.   
 2.  Maak een nieuw bedrijf voor de branche- of oplossingssjabloon. Zie [Een nieuw bedrijf maken](admin-how-to-create-a-new-company.md) voor meer informatie.  
 3.  Stel het nieuwe bedrijf in op de door u benodigde wijze. Vul alle vereiste instellingentabellen in.  
-4.  Open het nieuw bedrijf.
-5. Open het venster **Configuratiewerkblad**.  
+4.  Open het nieuwe bedrijf.
+5. Open de pagina **Configuratiewerkblad**.  
 6.  Voeg de tabellen die u wilt overbrengen naar een ander bedrijf toe aan het werkblad. Wijs de werkbladregels toe aan het pakket.  
 7.  Maak een vragenlijst voor de meest gebruikte instellingentabel.  
 8.  Stel configuratiesjablonen op om het gemakkelijker te maken om hoofdgegevens, zoals klanten of artikelen, te definiëren.  

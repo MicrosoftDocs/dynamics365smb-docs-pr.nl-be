@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3feba6afb6327cd274adb43e83ab91a9af864eea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d724a30fbb2b8dedfe6b643738847826d3943047
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren
@@ -26,8 +26,8 @@ U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboe
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Btw-aangiftevoorbeeld** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de regel die moet worden gecorrigeerd. U kunt de btw-correctie voor de rijen **Vak-/Rubrieksamentelling** en **Btw-postentotaal** doorvoeren bij **Soort**.  
-3.  Kies het veld **Correctiebedrag** om de correctie door te voeren. Het venster **Lijst met handmatige btw-correcties** wordt geopend.  
-4.  Kies de actie **Lijst bewerken**. Vul in het nieuwe venster **Lijst met handmatige btw-correcties** de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Kies het veld **Correctiebedrag** om de correctie door te voeren. De pagina **Lijst met handmatige btw-correcties** wordt geopend.  
+4.  Kies de actie **Lijst bewerken**. Vul op de pagina **Lijst met handmatige btw-correcties** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -36,13 +36,13 @@ U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboe
     |**Bedrag (Rapp.-val.)**|Dit veld bevat het bedrag van de btw-correctie in de rapportagevaluta.<br /><br /> Het veld wordt automatisch berekend, op basis van de inhoud van het veld **Bedrag** en de actuele wisselkoers voor het omrekenen.|  
 
 5.  Kies de knop **OK**.  
-6.  Vernieuw het venster **Btw-aangiftevoorbeeld** om uw correcties te bekijken.  
+6.  Vernieuw de pagina **Btw-aangiftevoorbeeld** om uw correcties te bekijken.  
 7.  Als u een rapport met betrekking tot het voorbeeld van de btw-informatie wilt bekijken, kiest u een van de volgende acties:  
 
     |Actie|Description|  
     |------------|---------------------------------------|  
     |**Gedetailleerd rapport**|Hiermee opent u het rapport **Btw-aangifte**. Zie Btw-aangifte voor meer informatie.|  
-    |**Formulier/Intervat-aangifte**|Hiermee opent u het rapport **Btw - Formulier**. Zie Btw - Formulier voor meer informatie.<br /><br /> Het rapport **Formulier/Intervat-aangifte** is gebaseerd op de btw-aangiftesjabloon die is gedefinieerd in de boekhoudinstellingen. Daarom kunnen er gegevens worden geëxporteerd die niet overeenkomen met wat in het venster **Btw-aangiftevoorbeeld** wordt weergegeven.|  
+    |**Formulier/Intervat-aangifte**|Hiermee opent u het rapport **Btw - Formulier**. Zie Btw - Formulier voor meer informatie.<br /><br /> Het rapport **Formulier/Intervat-aangifte** is gebaseerd op de btw-aangiftesjabloon die is gedefinieerd in de boekhoudinstellingen. Daarom kunnen er gegevens worden geëxporteerd die niet overeenkomen met wat op de pagina **Btw-aangiftevoorbeeld** wordt weergegeven.|  
     |**Aangifteoverzichtsrapport**|Hiermee opent u het rapport **Btw-aangifteoverzicht**. Zie Btw-aangifteoverzicht voor meer informatie.|  
 
 ## <a name="see-also"></a>Zie ook  

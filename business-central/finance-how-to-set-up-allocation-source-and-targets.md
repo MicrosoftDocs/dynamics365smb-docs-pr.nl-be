@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Een verdelingsbron en de doelen ervoor instellen
@@ -25,7 +25,7 @@ Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De 
 
 ## <a name="to-set-up-cost-allocations"></a>Kostenverdeling instellen  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Kostenverdeling** de actie **Bewerken**.  
+2.  Kies op de pagina **Kostenverdeling** de actie **Bewerken**.  
 3.  Geef een id voor de verdelingsbron op in het veld **ID**.  
 4.  Definieer een niveau als een getal tussen 1 en 99 in het veld **Niveau**. De verdelingsboeking volgt de volgorde van de niveaus.  
 5.  Voer een kostensoort in om te bepalen welke typen kosten worden toegerekend in het veld **Kostensoortbereik**. Als alle kosten voor een kostensoort worden toegerekend, wordt geen bereik gedefinieerd.  

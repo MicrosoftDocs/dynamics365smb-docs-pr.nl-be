@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e732e27921f632c3e15b1d832d7295d32f4b8a2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: aa0d6b76bdf4a7078d7b2e3846d1bdfa3cf08528
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="putting-items-away"></a>Artikelen opslaan
@@ -24,9 +24,9 @@ De magazijnactiviteit van de opslag van artikelen na ontvangst of uitvoer wordt 
 
 Als u de opslaggegevens wilt ordenen en vastleggen met behulp van magazijndocumenten, schakelt u het selectievakje **Opslag vereist** in bij de vestiging. Hiermee geeft u aan dat u, wanneer er artikelen moeten worden opgeslagen voor een inkomend brondocument, de opslag van deze artikelen via het systeem wilt beheren. Een inkomend brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een productieorder waarvan de output kan worden opgeslagen.  
 
-Als voor uw vestiging opslagverwerking is ingesteld, maar niet ontvangstverwerking, gebruikt u het venster **Voorraadopslag** om de opslaginformatie in te delen, om deze af te drukken, om het resultaat van de feitelijke opslag in te voeren en om de opslaginformatie te boeken, waardoor vervolgens de ontvangstinformatie voor het brondocument wordt geboekt. In geval van een productieorder, boekt het boekingsproces de uitvoer van de order en voltooit het proces de productieorder.
+Als voor uw vestiging opslagverwerking is ingesteld, maar niet ontvangstverwerking, gebruikt u de pagina **Voorraadopslag** om de opslaginformatie in te delen, om deze af te drukken, om het resultaat van de feitelijke opslag in te voeren en om de opslaginformatie te boeken, waardoor vervolgens de ontvangstinformatie voor het brondocument wordt geboekt. In geval van een productieorder, boekt het boekingsproces de uitvoer van de order en voltooit het proces de productieorder.
 
-Als het magazijn zowel ontvangst- als opslagverwerking vereist en de selectievakjes **Ontvangst vereist** en **Opslag vereist** zijn ingeschakeld bij de vestiging, geldt er een ander proces voor de opslag van artikelen. In dit geval gebruikt u het venster **Magazijnopslag** om de opslag te verwerken. U voert een magazijnopslag op dezelfde manier uit als een voorraadopslag, maar in plaats van de gegevens te boeken, registreert u de opslag. Houd er rekening mee dat het registreren van de magazijnopslag er niet toe leidt dat de ontvangst van de artikelen wordt geboekt. Alleen de opslaglocatie-inhoud wordt bijgewerkt. Als magazijnmanager kunt u met behulp van opslagvoorstellen opslaggegevens ordenen voordat de afzonderlijke magazijnopslaginstructies worden gemaakt.
+Als het magazijn zowel ontvangst- als opslagverwerking vereist en de selectievakjes **Ontvangst vereist** en **Opslag vereist** zijn ingeschakeld bij de vestiging, geldt er een ander proces voor de opslag van artikelen. In dit geval gebruikt u de pagina **Magazijnopslag** om de opslag te verwerken. U voert een magazijnopslag op dezelfde manier uit als een voorraadopslag, maar in plaats van de gegevens te boeken, registreert u de opslag. Houd er rekening mee dat het registreren van de magazijnopslag er niet toe leidt dat de ontvangst van de artikelen wordt geboekt. Alleen de opslaglocatie-inhoud wordt bijgewerkt. Als magazijnmanager kunt u met behulp van opslagvoorstellen opslaggegevens ordenen voordat de afzonderlijke magazijnopslaginstructies worden gemaakt.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 

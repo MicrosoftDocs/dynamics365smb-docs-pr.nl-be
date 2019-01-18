@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
@@ -44,18 +44,18 @@ In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op 
 
 ## <a name="to-assemble-an-item"></a>Een item assembleren  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**. Het venster **Nieuwe assemblageorder** wordt geopend.  
-3.  Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2.  Kies de actie **Nieuw**. De pagina **Nieuwe assemblageorder** wordt geopend.  
+3.  Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Artikelnr.** het assemblageartikel dat u wilt verwerken. Het veld is gefilterd, zodat alleen de artikelen die zijn ingesteld voor assemblage weergegeven worden, wat betekent dat ze een assemblagestuklijst toegewezen hebben gekregen.  
 5.  Voer in het veld **Aantal** het aantal eenheden in dat u van het artikel wilt assembleren.  
 
     > [!NOTE]  
-    >  Indien een of meer onderdelen niet beschikbaar zijn om op de opgegeven vervaldatum aan het opgegeven aantal assemblageartikelen te voldoen, wordt het venster **Beschikbaarheid assemblage** automatisch geopend met gedetailleerde informatie over het aantal assemblageartikelen dat kan worden geassembleerd op basis van de beschikbare onderdelen. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).  Wanneer u het venster sluit, wordt de assemblageorder met waarschuwingen omtrent de beschikbaarheid op de regels van het betrokken onderdeel gemaakt.  
+    >  Indien een of meer onderdelen niet beschikbaar zijn om op de opgegeven vervaldatum aan het opgegeven aantal assemblageartikelen te voldoen, wordt de pagina **Beschikbaarheid assemblage** automatisch geopend met gedetailleerde informatie over het aantal assemblageartikelen dat kan worden geassembleerd op basis van de beschikbare onderdelen. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md). Wanneer u de pagina sluit, wordt de assemblageorder met waarschuwingen omtrent de beschikbaarheid op de regels van het betrokken onderdeel gemaakt.  
 
     De regels van de assemblageorder worden automatisch gevuld met de inhoud van de assemblagestuklijst en aantallen volgens de orderkop van de assemblageorder.  
 
     > [!NOTE]  
-    >  Indien het venster **Beschikbaarheid assemblage** werd geopend toen u de assemblage-orderkop invulde, staat bij iedere betrokken orderregel van de assemblage **Ja** in het veld **Waarschuwing beschikbaarheid** met een koppeling naar gedetailleerde beschikbaarheidsinformatie. Zie voor meer informatie Beschikbaarheid controleren. U kunt een beschikbaarheidsprobleem van een onderdeel oplossen door de begindatum uit te stellen, het onderdeel te vervangen door een ander item of een beschikbare vervanging te selecteren indien deze is gedefinieerd.  
+    >  Indien de pagina **Beschikbaarheid assemblage** werd geopend toen u de assemblage-orderkop invulde, staat bij iedere betrokken orderregel van de assemblage **Ja** in het veld **Waarschuwing beschikbaarheid** met een koppeling naar gedetailleerde beschikbaarheidsinformatie. Zie voor meer informatie Beschikbaarheid controleren. U kunt een beschikbaarheidsprobleem van een onderdeel oplossen door de begindatum uit te stellen, het onderdeel te vervangen door een ander item of een beschikbare vervanging te selecteren indien deze is gedefinieerd.  
 
 6.  Geef in het veld **Te assembleren aantal** op hoeveel eenheden van het assemblageartikel u als uitvoer wilt boeken, de volgende keer dat u de assemblageorder boekt. Dit aantal mag lager zijn dan de waarde in het veld **Aantal** om het gedeeltelijk boeken van uitvoer aan te geven.  
 

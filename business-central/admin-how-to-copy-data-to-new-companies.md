@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Gegevens kopiëren naar nieuwe bedrijven
@@ -26,7 +26,7 @@ U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw 
 1. Open het nieuw bedrijf.  
 2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Gegevens uit bedrijf kopiëren**.  
-4. Kies in het venster **Bedrijfsgegevens kopiëren** een bedrijf om uit te kopiëren in het veld **Kopiëren van** en kies de knop **OK**.  
+4. Kies op de pagina **Bedrijfsgegevens kopiëren** een bedrijf om uit te kopiëren in het veld **Kopiëren van** en kies de knop **OK**.  
 5. Selecteer een tabel uit een van de configuratiepakketten die u hebt geïmporteerd, en kies de actie **Gegevens kopiëren**.
 
 ## <a name="see-also"></a>Zie ook

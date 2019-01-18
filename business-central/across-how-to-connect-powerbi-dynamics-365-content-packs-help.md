@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Power BI verbinden met Dynamics 365 Business Central-inhoudspakketten
@@ -29,7 +29,7 @@ U moet een geldig account bij Dynamics 365 en Power BI hebben. U moet ook [Power
 
 U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in het rolcentrum naar **Rapportselectie** in het onderdeel Power BI-rolcentrum. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar de servicebibliotheek in Power BI, die ook wordt gefilterd op alleen weergave van inhoudspakketten die verband houden met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een venster geopend met de **AppSource** en **Apps voor Power BI-apps**.  
+2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een pagina geopend met de **AppSource** en **Apps voor Power BI-apps**.  
 ![Inhoudspakketten kiezen uit online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Selecteer **Apps** op het tabblad **Apps voor Power BI-apps** en kies het **Microsoft Dynamics 365 Business Central**-inhoudspakket dat u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9fc4353d422fe18309784c90eabea27ba5ff844d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 89de76c494be0b37cc2d5f649c71bb66d0758efb
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Belgische tariefcodes instellen
@@ -26,7 +26,7 @@ De Belgische belastingdienst en douane hebben een goederencode van acht tekens v
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Tariefcodes** in en klik op de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
-3.  Vul in het venster **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Vul op de pagina **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

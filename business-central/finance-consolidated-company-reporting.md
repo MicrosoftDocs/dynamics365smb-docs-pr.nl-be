@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -83,8 +83,8 @@ In de volgende tabel worden de wisselkoersmethoden beschreven die u voor rekenin
 Ga als volgt te werk om wisselkoersen voor bedrijfsunits op te geven:
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Overzicht bedrijfsunits** de bedrijfsunit en kies vervolgens de actie **Gemiddelde koers (Handmatig)**.   
-3. In het venster **Wisselkoers wijzigen** is de inhoud van het veld **Gerel. wisselkoers** gekopieerd uit de tabel **Valutawisselkoers**, maar u kunt deze wijzigen. Sluit de pagina.  
+2. Kies op de pagina **Overzicht bedrijfsunits** de bedrijfsunit en kies vervolgens de actie **Gemiddelde koers (Handmatig)**.   
+3. Op de pagina **Wisselkoers wijzigen** is de inhoud van het veld **Gerel. wisselkoers** gekopieerd uit de tabel **Valutawisselkoers**, maar u kunt deze wijzigen. Sluit de pagina.  
 4. Kies de actie **Wisselkoers (Balans)**.  
 5. Voer in het veld **Gerel. wisselkoersbedrag** de wisselkoers in.
 

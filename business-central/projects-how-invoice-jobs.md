@@ -13,16 +13,16 @@ ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-jobs"></a>Projecten factureren
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
 
-U kunt het hele project factureren vanuit het venster **Projecttaakregels** of alleen de geselecteerde factureerbare regels factureren vanuit het venster **Planningsregels**. Facturering kan plaatsvinden nadat het project is voltooid of op bepaalde intervallen tijdens de voortgang van het project op basis van een factureringsschema.
+U kunt het hele project factureren vanuit de pagina **Projecttaakregels** of alleen de geselecteerde factureerbare regels factureren vanuit de pagina **Planningsregels**. Facturering kan plaatsvinden nadat het project is voltooid of op bepaalde intervallen tijdens de voortgang van het project op basis van een factureringsschema.
 
 > [!NOTE]  
 >   Als u **Factureerbaar** selecteert in het veld **Regelsoort project** in de inkoopdocumenten voor aan het project gerelateerde inkopen, worden projectplanningsregels gemaakt die gereed zijn om te worden gefactureerd aan de klant. Zie [Projectvoorraden beheren](projects-how-manage-project-supplies.md) voor meer informatie.
@@ -30,7 +30,7 @@ U kunt het hele project factureren vanuit het venster **Projecttaakregels** of a
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Een projectverkoopfactuur maken en boeken
 U kunt een factuur maken voor een project of voor één of meer projecttaken voor een klant, wanneer ofwel het werk dat moet worden gefactureerd voltooid is ofwel de datum voor facturering op basis van een factureringsschema is bereikt.
 
-Vanuit het venster **Projecten** kunt u een klant factureren door het project te selecteren en vervolgens de actie **Projectverkoopfactuur maken** te kiezen. In de volgende procedure wordt beschreven hoe u een batchverwerking gebruikt om meerdere projecten te factureren.  
+Vanuit de pagina **Projecten** kunt u een klant factureren door het project te selecteren en vervolgens de actie **Projectverkoopfactuur maken** te kiezen. In de volgende procedure wordt beschreven hoe u een batchverwerking gebruikt om meerdere projecten te factureren.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfactuur project maken** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,13 +45,13 @@ U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de ho
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
 4. Voer op een projectplanningsregel in het veld **Aantal te verplaatsen naar factuur** de hoeveelheid van het artikel, de resource en het soort grootboekrekening dat u wilt factureren in.  
 5. Kies de actie **Verkoopfactuur maken**.
-6. Voer in het venster **Verkoopfactuur project maken** de boekingsdatum in en of u een nieuwe factuur wilt maken of toevoegen aan deze factuur of aan een bestaande factuur.
+6. Voer op de pagina **Verkoopfactuur project maken** de boekingsdatum in en of u een nieuwe factuur wilt maken of toevoegen aan deze factuur of aan een bestaande factuur.
 7. Kies de knop **Ok**.  
 
     Op de projectplanningsregel, in het veld **Aantal overgebracht naar factuur** ziet u de hoeveelheid.
-8. Kies in het venster **Projectplanningsregels** de actie **Verkoopfacturen/-creditnota's**.
+8. Kies op de pagina **Projectplanningsregels** de actie **Verkoopfacturen/-creditnota's**.
 
-    Het venster **Verkoopfactuur** wordt geopend met het aantal dat u naar de factuur hebt verzonden.  
+    De pagina **Verkoopfactuur** wordt geopend met het aantal dat u naar de factuur hebt verzonden.  
 9. Breng eventuele aanvullende wijzigingen aan en kies vervolgens de actie **Boeken**.
 
 > [!NOTE]  
@@ -65,11 +65,11 @@ Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiks
 3. Selecteer in het veld **Status** de optie **Voltooid**.
 4. Volg de hulpstappen om OHW te berekenen en te boeken. Of volg stap 5 en 6 om dit handmatig te doen.  
 5. Kies de actie **OHW berekenen**.
-6. Vul in het venster **OHW voor project berekenen** indien nodig de velden in.  
+6. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.  
 
      De OHW-posten voor het project die worden gemaakt door het uitvoeren van de batchverwerking, hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooiingsposten zijn.  
 7. Kies de actie **Project-OHW naar GB boeken**.
-8. Vul in het venster **Project-OHW naar GB boeken** indien nodig de velden in.  
+8. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
 
      De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooide posten zijn.
 

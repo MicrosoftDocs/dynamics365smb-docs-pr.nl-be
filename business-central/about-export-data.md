@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
@@ -22,6 +22,9 @@ Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werke
 
 ## <a name="opening-lists-in-excel"></a>Lijsten openen in Excel
 U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U opent gewoon de gewenste pagina en kiest vervolgens **Openen in Excel**. Open bijvoorbeeld de lijst met klanten (zoek naar **Klanten**) en kies vervolgens **Openen in Excel**. Uw browser vraagt of u het gegenereerde Excel-werkboek wilt openen of opslaan.  
+
+> [!NOTE]
+> Gebruik deze optie wanneer u geen wijzigingen wilt aanbrengen en deze wijzigingen wilt terug publiceren naar [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Elke lijst bevat een aantal kolommen en de export naar Excel omvat alle kolommen die uw huidige weergave bevat. Als u kolommen wilt toevoegen of verwijderen voordat u de lijst in Excel opent, opent u gewoon het snelmenu voor elke kolom en geeft u vervolgens op welke kolommen u wilt bekijken. Deze lijst met kolommen is anders voor de meeste lijsten en geeft de structuur in de database weer waarin de gegevens zijn opgeslagen. Als u niet zeker weet welk type gegevens een bepaalde kolom bevat, kunt u het toevoegen aan uw weergave en vervolgens bepalen of u het opnieuw wilt verwijderen.  
 
@@ -39,7 +42,7 @@ U kunt natuurlijk alle pagina's exporteren, maar dat is misschien meer dan u wer
 * Banken  
 * Artikelen  
 
-Als u ook al uw financiële transacties wilt, gaat het om een grote hoeveelheid gegevens. De export ervan duurt vaak een aantal minuten. De financiële transacties worden weergegeven in het venster **Grootboekposten**.  
+Als u ook al uw financiële transacties wilt, gaat het om een grote hoeveelheid gegevens. De export ervan duurt vaak een aantal minuten. De financiële transacties worden weergegeven op de pagina **Grootboekposten**.  
 
 Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te exporteren:  
 

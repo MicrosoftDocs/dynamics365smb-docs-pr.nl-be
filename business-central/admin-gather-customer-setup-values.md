@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
@@ -32,7 +32,7 @@ Als uw klant de vragenlijst invult, importeert u het bestand in het nieuwe [!INC
 ## <a name="to-create-a-configuration-questionnaire"></a>Een configuratievragenlijst maken
 U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configuratie te bepalen. U kunt een nieuwe vragenlijst maken of een bestaande vragenlijst wijzigen door het nieuwe vragen of vraaggebieden toe te voegen.  
 
- U kunt enkel vragenlijsten maken voor tabellen van het type instellen. U kunt bijvoorbeeld het hulpprogramma gebruiken om de volgende vensters van informatie te voorzien:  
+ U kunt enkel vragenlijsten maken voor tabellen van het type instellen. U kunt bijvoorbeeld het hulpprogramma gebruiken om de volgende pagina's van informatie te voorzien:  
 
 -   Bedrijfsgegevens  
 -   VA-instellingen  
@@ -50,9 +50,9 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 >  Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Instellingen** in en kiest u vervolgens de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**. Het venster **Vragenlijst voor configuratie** wordt geopend.  
-3. Kies de actie **Vraaggebieden**. Het venster **Vragengebieden** wordt geopend.  
-4. Kies de actie **Nieuw**. Het venster **Vragengebied voor configuratie** wordt geopend.  
+2. Kies de actie **Nieuw**. De pagina **Vragenlijst voor configuratie** wordt geopend.  
+3. Kies de actie **Vraaggebieden**. De pagina **Vragengebieden** wordt geopend.  
+4. Kies de actie **Nieuw**. De pagina **Vragengebied voor configuratie** wordt geopend.  
 5. Kies in het veld **Tabel-id** de ID van de tabel waarvoor u informatie wilt verzamelen. Het veld **Tabelnaam** wordt automatisch ingevuld.  
 6. Kies de actie **Vragen bijwerken**. Elk veld in de tabel wordt toegevoegd aan de vragenlijst met een vraagteken achter het label.
 
@@ -94,10 +94,10 @@ Een veelvoorkomende validatietaak is te controleren dat geen tekenreeksen worden
 > [!NOTE]  
 >  Validatie van de configuratievragenlijst is in het algemeen een handmatig proces. Er zijn echter controles op regionale indelingsinconsistenties. Bovendien treden er fouten op als de structuur van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-database niet overeenkomt met de structuur van de migratiedatabase.  
 
-1. Selecteer in het venster **Vragenlijst voor configuratie** de desbetreffende vragenlijst en kies de actie **Vragengebieden**.  
+1. Selecteer op de pagina **Vragenlijst voor configuratie** de desbetreffende vragenlijst en kies de actie **Vragengebieden**.  
 2. Open het betreffende vragengebied.  
 3. Controleer voor elke vraag of de waarde in het veld **Antwoord** overeenkomt met de opmaak van het veld **Antwoordoptie**. Controleer bijvoorbeeld of het adres van een bedrijf in tekstindeling is.  
-4. Als u fouten vindt, kunt u problemen oplossen en correcties aanbrengen in Excel door de vragenlijst te exporteren en opnieuw te importeren. U kunt fouten ook rechtstreeks in [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigeren terwijl u de antwoorden bekijkt in het venster **Vragengebied voor configuratie**.  
+4. Als u fouten vindt, kunt u problemen oplossen en correcties aanbrengen in Excel door de vragenlijst te exporteren en opnieuw te importeren. U kunt fouten ook rechtstreeks in [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigeren terwijl u de antwoorden bekijkt op de pagina **Vragengebied voor configuratie**.  
 5. Herhaal deze stappen voor elk vragengebied.  
 
 Wanneer u de validatie hebt voltooid, zijn de gegevens gereed om te worden toegepast op de database.  
@@ -105,7 +105,7 @@ Wanneer u de validatie hebt voltooid, zijn de gegevens gereed om te worden toege
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Antwoorden uit de configuratievragenlijst toepassen
 Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalideerd, kunt u de installatiegegevens overbrengen naar of toepassen op de bijbehorende tabellen in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. Het venster **Vragenlijst voor configuratie** wordt geopend.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
 2. Selecteer een configuratievragenlijst in de lijst en kies vervolgens de actie **Lijst bewerken**.  
 3. U kunt antwoorden op twee manieren toepassen.  
 
@@ -113,7 +113,7 @@ Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalid
 - Als u antwoorden alleen voor een specifiek **Vragengebied** wilt toepassen, kiest u de actie **Vraaggebieden**, selecteert u een **Vragengebied** in de lijst en kiest u de actie **Antwoorden toepassen**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Controleren dat antwoorden met succes zijn toegepast  
-1. Controleer de installatievensters op de verschillende functionele gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u het venster zoekt, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van het instellingsvenster in en kiest u de gerelateerde koppeling.  
+1. Controleer de installatiepagina's op de verschillende functionele gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de pagina zoekt, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de instellingspagina in en kiest u de gerelateerde koppeling.  
 2. Controleer of de velden zijn gevuld met de juiste gegevens uit de verschillende vragengebieden in de configuratievragenlijst.  
 
 De installatie is nu geconfigureerd met de zakelijke gegevens en regels van de klant.

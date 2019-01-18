@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Basisinstellingen wijzigen
-In het venster [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") ziet u basisinstellingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] en kunt u deze wijzigen. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
+Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") ziet u basisinstellingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] en kunt u deze wijzigen. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
 
 ## <a name="role-center"></a> Rolcentrum
 Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen voor de vereisten van een specifieke rol in een organisatie. Afhankelijk van uw rol krijgt u in het Rolcentrum een overzicht van het bedrijf, uw afdeling of uw persoonlijke taken. Het helpt u ook navigeren naar uw dagelijkse taken en werk te zoeken dat aan u is toegewezen.
@@ -30,7 +30,7 @@ Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen
 ### <a name="to-change-role-center"></a>Het rolcentrum wijzigen
 Het standaardrolcentrum is **Bedrijfsmanager**, maar u kunt een ander rolcentrum selecteren dat beter aan uw behoeften voldoet.
 1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
-2. Selecteer in het venster **Instellingen** in het veld **Rolcentrum** het rolcentrum dat u als standaard wilt instellen. Selecteer bijvoorbeeld **Accountant**.
+2. Selecteer op de pagina **Instellingen** in het veld **Rolcentrum** het rolcentrum dat u als standaard wilt instellen. Selecteer bijvoorbeeld **Accountant**.
 3. Kies de knop **OK**.
 
 ## <a name="company"></a>Bedrijf
@@ -39,7 +39,7 @@ Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes
 Het standaardbedrijf heet CRONUS en bevat alleen demogegevens.
 
 > [!TIP]  
->   Als u een andere naam voor uw bedrijf wilt weergeven in de toepassing (bijvoorbeeld in het rolcentrum), stelt u het veld **Naam** in het venster **Bedrijfsgegevens** of het veld **Weergavenaam** in het venster **Bedrijven** in.  
+>   Als u een andere naam voor uw bedrijf wilt weergeven in de toepassing (bijvoorbeeld in het rolcentrum), stelt u het veld **Naam** op de pagina **Bedrijfsgegevens** of het veld **Weergavenaam** op de pagina **Bedrijven** in.  
 
 ## <a name="work-date"></a>Werkdatum
 De standaardwerkdatum is meestal de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet de huidige datum is.

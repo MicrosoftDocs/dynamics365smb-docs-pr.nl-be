@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6680a5dedcbedc3ed7e430c4290871d5fbaaf9ad
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Organisatieniveaus instellen voor contactpersonen
@@ -25,7 +26,7 @@ U kunt organisatieniveaus voor uw contacten gebruiken om op te geven welke funct
 Organisatieniveaus gebruiken voor contacten is een proces van twee stappen. Eerst definieert u de organisatieniveaucode. U hoeft deze stap slechts eenmaal uit te voeren voor elk organisatieniveau. Als u een organisatieniveaucode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.
 
 ## <a name="to-define-an-organizational-level-code"></a>Een organisatieniveaucode definiëren
-Het organisatieniveau bepaalt het type of de categorie van het organisatieniveau, bijvoorbeeld CEO of CFO. U kunt meerdere organisatieniveaucodes hebben. Als u het organisatieniveau wilt definiëren, gebruikt u het venster **Organisatieniveaus**.
+Het organisatieniveau bepaalt het type of de categorie van het organisatieniveau, bijvoorbeeld CEO of CFO. U kunt meerdere organisatieniveaucodes hebben. Als u het organisatieniveau wilt definiëren, gebruikt u de pagina **Organisatieniveaus**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Niveaus binnen de organisatie** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.

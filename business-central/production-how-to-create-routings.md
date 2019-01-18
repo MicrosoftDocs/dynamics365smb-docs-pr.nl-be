@@ -1,6 +1,6 @@
 ---
 title: Bewerkingsplannen maken | Microsoft Docs
-description: Een bewerkingsplan bevat de belangrijkste gegevens met betrekking tot wat er nodig is voor het productieproces voor een bepaald geproduceerd artikel. Zodra er voor een artikel een productieorder is gemaakt, worden op basis van het bewerkingsplan ervan de bewerkingen gepland zoals weergegeven in het venster **Prod.-orderbewerkingsplan** onder de productieorder.
+description: Een bewerkingsplan bevat de belangrijkste gegevens met betrekking tot wat er nodig is voor het productieproces voor een bepaald geproduceerd artikel. Zodra er voor een artikel een productieorder is gemaakt, worden op basis van het bewerkingsplan ervan de bewerkingen gepland zoals weergegeven op de pagina **Prod.-orderbewerkingsplan** onder de productieorder.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Bewerkingsplannen maken
@@ -24,7 +24,7 @@ Productiebedrijven maken gebruik van bewerkingsplannen om het productieproces te
 
 Een bewerkingsplan vormt de basis voor procesplanning, capaciteitsplanning, de geplande toewijzing van materiaalbehoeften en productiedocumenten.  
 
-Voor productiestuklijsten worden de bewerkingsplannen toegewezen aan het productie-eindartikel. Een bewerkingsplan bevat de belangrijkste gegevens met betrekking tot wat er nodig is voor het productieproces voor een bepaald geproduceerd artikel. Zodra er voor een artikel een productieorder is gemaakt, worden op basis van het bewerkingsplan ervan de bewerkingen gepland zoals weergegeven in het venster **Prod.-orderbewerkingsplan** onder de productieorder.  
+Voor productiestuklijsten worden de bewerkingsplannen toegewezen aan het productie-eindartikel. Een bewerkingsplan bevat de belangrijkste gegevens met betrekking tot wat er nodig is voor het productieproces voor een bepaald geproduceerd artikel. Zodra er voor een artikel een productieorder is gemaakt, worden op basis van het bewerkingsplan ervan de bewerkingen gepland zoals weergegeven op de pagina **Prod.-orderbewerkingsplan** onder de productieorder.  
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
@@ -61,7 +61,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 ## <a name="to-create-routing-links"></a>Bewerkingsplankoppelingen maken
 Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen koppelen dat hun relatie behouden blijft ook al wordt de productiestuklijst of het bewerkingsplan gewijzigd. Ook kunnen hierdoor gemakkelijker materialen nog op het laatste moment worden afgeboekt, namelijk op het moment dat de specifieke gekoppelde bewerking wordt opgestart in plaats van wanneer de gehele productieorder wordt vrijgegeven. Zie voor meer informatie [Materialen afboeken op basis van de uitvoer van een bewerking](production-how-to-flush-components-according-to-operation-output.md).  
 
-Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is dat beide elementen in een logische processtructuur worden weergegeven wanneer u het venster **Productiedagboek** gebruikt voor het boeken van output en verbruik.  
+Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is dat beide elementen in een logische processtructuur worden weergegeven wanneer u de pagina **Productiedagboek** gebruikt voor het boeken van output en verbruik.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open het bewerkingsplan dat de bewerkingen bevat die moeten worden gekoppeld.  
@@ -89,7 +89,7 @@ Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is 
     > [!NOTE]  
     >  In een bestaande productieorder kunnen de bewerkingsplankoppelingen pas worden gebruikt nadat u die order hebt vernieuwd. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
 
-De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zodra u een productieorder maakt of vernieuwt met behulp van de desbetreffende productiestuklijst en het desbetreffende bewerkingsplan. Dit is in het venster **Prod.-ordermaterialen** te zien onder de productieorder. In dit venster kunt u ook op elk moment bewerkingsplankoppelingen verwijderen en toevoegen.
+De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zodra u een productieorder maakt of vernieuwt met behulp van de desbetreffende productiestuklijst en het desbetreffende bewerkingsplan. Dit is op de pagina **Prod.-ordermaterialen** te zien onder de productieorder. Op deze pagina kunt u ook op elk moment bewerkingsplankoppelingen verwijderen en toevoegen.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Medewerkers, tools en kwaliteitsmetingen toewijzen aan bewerkingsplannen
 Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis of speciale autorisaties nodig hebt, kunt u deze medewerkers toewijzen aan de bewerking. Daarnaast kunt u tools en kwaliteitsvereisten toewijzen aan de bewerking. In deze procedure wordt beschreven hoe u personeel toewijst. De stappen zijn vergelijkbaar voor andere soorten bewerkinginformatie.
@@ -97,16 +97,16 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open het betreffende bewerkingsplan.  
 3.  Op het sneltabblad **Regels** selecteert u de regel die u wilt verwerken en vervolgens kiest u de actie **Medewerkers**.  
-4.  Vul de velden in het venster **Medewerkers bewerkingsplan** in.  
-5.  Kies de knop **OK** om het venster te verlaten. De ingevoerde waarden worden gekopieerd en toegewezen aan de bewerking.    
+4.  Vul de velden op de pagina **Medewerkers bewerkingsplan** in.  
+5.  Kies de knop **OK** om de pagina af te sluiten. De ingevoerde waarden worden gekopieerd en toegewezen aan de bewerking.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Nieuwe versies maken van bewerkingsplannen  
 Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan te beheren. De structuur van de bewerkingsplanversie komt overeen met de structuur van het bewerkingsplan: een bewerkingsplanversiekop en -regels. Het belangrijkste verschil wordt bepaald door de begindatum.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het bewerkingsplan dat u wilt kopiëren en kies de actie **Versies**.  
-3. Kies in het venster **Bewerkingsplanversies** de actie **Nieuw**.
-4. Vul de velden in.
+3. Kies op de pagina **Bewerkingsplanversies** de actie **Nieuw**.
+4. Vul de benodigde velden in.
 5.  Voer in het veld **Versiecode** de unieke identificatie van de versie in. Alle combinaties van cijfers en letters zijn toegestaan.  
 
     De nieuwe versie krijgt automatisch de status **Nieuw**.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="service-posting"></a>Serviceboekingen
@@ -23,7 +23,7 @@ Met de functionaliteit voor serviceboekingen kunt u uw documenten op een effici�
 > [!NOTE]  
 >  Het volgende beschrijft serviceboekingen, ongeacht hoe artikelen fysiek worden verwerkt in het magazijn.  
 >   
->  Op een locatie waarvoor magazijnverwerking niet is ingesteld, boekt u rechtstreeks vanuit het venster **Serviceregels**. In vestigingen met magazijnverwerking, worden de beschreven boekingen, met uitzondering van verzenden en verbruiken, indirect uitgevoerd met variërende verzendfuncties, afhankelijk van de instellingen. Zie voor meer informatie [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Op een locatie waarvoor magazijnverwerking niet is ingesteld, boekt u rechtstreeks vanaf de pagina **Serviceregels**. In vestigingen met magazijnverwerking, worden de beschreven boekingen, met uitzondering van verzenden en verbruiken, indirect uitgevoerd met variërende verzendfuncties, afhankelijk van de instellingen. Zie voor meer informatie [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Verzenden  
 Met de optie Verzenden kunt u de betreffende artikelen en perioden registreren die zijn ingevoerd op de regels van een serviceorder nadat de service is uitgevoerd. Er wordt een geboekte verzending gemaakt en het uit voorraad halen van de artikelen en verzenden hiervan naar de klanten wordt bijgewerkt in de voorraadmodule en in andere modules in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit houdt in dat er artikelposten, waardeposten, serviceposten en garantieposten worden geproduceerd.  
@@ -42,10 +42,10 @@ Met de optie verzenden en verbruiken kunt u artikelen, kosten of uren registrere
 > [!NOTE]  
 >  Met de procedure voor serviceboekingen kunt u gedeeltelijke boekingen uitvoeren. U kunt een gedeeltelijke verzending of een gedeeltelijke factuur maken door de velden **Te verzenden aantal** en/of **Te factureren aantal** op de afzonderlijke serviceregels van de serviceorders in te vullen vóór de boeking. U kunt geen factuur maken voor zaken die niet zijn verzonden. Voordat u een factuur kunt opstellen, moet u dus een verzending hebben geregistreerd (of u kunt ervoor kiezen tegelijk te verzenden en factureren).  
 
-Nadat de boeking is voltooid, kunt u de geboekte servicedocumenten bekijken vanuit de betreffende vensters **Geboekte serviceverzending** en **Geboekte servicefactuur**. Er zijn verschillende vensters met geboekte posten waarin u kunt zien welke geboekte posten er zijn gemaakt, zoals **Grootboekposten**, **Artikelposten**, **Magazijnposten**, **Serviceposten**, **Projectposten** en **Garantieposten**.  
+Nadat de boeking is voltooid, kunt u de geboekte servicedocumenten bekijken vanaf de desbetreffende pagina's (**Geboekte serviceverzending** en **Geboekte servicefactuur**). Er zijn verschillende pagina's met geboekte posten waarin u kunt zien welke geboekte posten er zijn gemaakt, zoals **Grootboekposten**, **Artikelposten**, **Magazijnposten**, **Serviceposten**, **Projectposten** en **Garantieposten**.  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Informatie over een geboekt servicedocument bekijken  
-Wanneer u een servicefactuur, een serviceverzending of een servicecreditnota boekt, worden de gegevens in het document overgebracht naar de respectieve vensters **Geboekte servicefactuur**, **Geboekte serviceverzending** of **Geboekte servicecreditnota**. In deze vensters kunt u geen gegevens invoeren, wijzigen of verwijderen. U kunt een verzending, factuur of creditnota vanuit deze vensters afdrukken.  
+Wanneer u een servicefactuur, een serviceverzending of een servicecreditnota boekt, worden de gegevens in het document overgebracht naar de respectieve pagina's **Geboekte servicefactuur**, **Geboekte serviceverzending** of **Geboekte servicecreditnota**. Op deze pagina's kunt u geen gegevens invoeren, wijzigen of verwijderen. U kunt een verzending, factuur of creditnota vanaf deze pagina's afdrukken.  
 
 In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruikt, maar dezelfde procedure kan worden toegepast op geboekte serviceverzendingen en geboekte creditnota's.  
 
@@ -53,7 +53,7 @@ In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruik
 2. Open de geboekte servicefactuur die u wilt bekijken.  
 3. Voor een overzicht van de geboekte factuur kiest u de actie **Statistieken**.  
 
-    Het venster **Serviceorderstatistiek** verschijnt. Het venster bevat informatie over aantallen, bedragen, btw, kosten, winst en kredietlimiet voor de klant voor het geboekte document.
+    De pagina **Serviceorderstatistiek** verschijnt. De pagina bevat informatie over aantallen, bedragen, btw, kosten, winst en klantkredietlimiet voor het geboekte document.
 
 ## <a name="see-also"></a>Zie ook  
 [Serviceorders boeken](service-how-to-post-service-orders.md)   

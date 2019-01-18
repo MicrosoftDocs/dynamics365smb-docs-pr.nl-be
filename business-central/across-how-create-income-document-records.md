@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33ca7a06aa8c903bb6f65af298748417ac460f63
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Inkomende documentrecords maken
-In het venster **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
+Op de pagina **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
 
 Als u een extern document wilt registreren in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u eerst een inkomende documentrecord maken of voltooien. U kunt dit handmatig doen of u kunt een foto van het externe document maken en vervolgens de inkomende documentrecord maken met het afbeeldingsbestand bijgevoegd.
 
@@ -40,7 +40,7 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 
 1. Kies op de app-balk de tegel **Inkomend document maken van camera** en ga vervolgens naar stap 4.
 2. U kunt ook op de app-bar de optieknop kiezen, **Inkomende documenten** kiezen en **Alle** kiezen.
-3. Kies in het venster **Inkomende documenten** de selectieknop en kies vervolgens **Make vanaf camera**. De camera op de tablet of de telefoon wordt ingeschakeld.
+3. Kies op de pagina **Inkomende documenten** de selectieknop en kies vervolgens **Maken van camera**. De camera op de tablet of de telefoon wordt ingeschakeld.
 4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK**.
 
     Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
@@ -51,7 +51,7 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 
 1. Kies op de app-bar de optieknop, kies **Inkomende documenten** en kies **Alle**.
 2. Open de kaart voor een bestaande inkomende documentrecord.
-3. Kies in het venster **Inkomende documenten** de selectieknop en kies vervolgens **Afbeelding van camera bijvoegen**. De camera op de tablet of de telefoon wordt ingeschakeld.
+3. Kies op de pagina **Inkomende documenten** de selectieknop en kies vervolgens **Afbeelding van camera bijvoegen**. De camera op de tablet of de telefoon wordt ingeschakeld.
 4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK**.
 
     De afbeelding wordt gekoppeld aan de inkomende documentrecord.
@@ -59,11 +59,11 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 ## <a name="to-create-an-incoming-document-record-manually"></a>Een inkomend documentrecord handmatig maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Maken van bestand**.  
-3. Selecteer in het venster **Bestand invoegen** een bestand en kies vervolgens **Openen**. Het bestand wordt automatisch gekoppeld.
+3. Selecteer op de pagina **Bestand invoegen** een bestand en kies vervolgens **Openen**. Het bestand wordt automatisch gekoppeld.
 4. U kunt ook de actie **Nieuw** kiezen.
 5. Als u een bestand wilt bijvoegen, kiest u de actie **Bestand koppelen**.
-6. In het venster **Bestand invoegen**, selecteert u het bestand dat het betreffende inkomende document vertegenwoordigt. Kies vervolgens de knop **Openen**.
-7. Vul in het venster **Inkomende documenten** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Op de pagina **Bestand invoegen**, selecteert u het bestand dat het betreffende inkomende document vertegenwoordigt. Kies vervolgens de knop **Openen**.
+7. Vul op de pagina **Inkomende documenten** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Zie ook
 [Inkomende documenten verwerken](across-process-income-documents.md)  

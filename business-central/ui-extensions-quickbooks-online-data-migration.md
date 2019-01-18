@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -55,7 +55,7 @@ Aan de slag gaan is eenvoudig. Het enige wat u moet doen is de begeleide instell
 2. Volg de instructies in elke stap in de begeleide instelling.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Wat doe ik nadat ik gegevens heb gemigreerd?
-Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar het venster **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar het venster **Betalingsdagboeken**.   
+Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar de pagina **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar de pagina **Betalingsdagboeken**.   
 
 Er zijn enkele dingen die u met name moet doen:
 

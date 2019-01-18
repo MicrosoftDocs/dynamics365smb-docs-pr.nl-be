@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
@@ -22,7 +22,7 @@ U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bep
 
 Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in het gedeelte “De opmaak van regels en kolommen in het bestand beschrijven”. Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
-Doorgaans stelt u gegevensuitwisselingsdefinities in het venster **Definitie van gegevensuitwisseling** in. Maar als u een gegevensuitwisselingsdefinitie instelt voor de service voor het vernieuwen van wisselkoersen, begint u het proces in het vereenvoudigde venster **Kaart update-instellingen wisselkoersen**.  
+Doorgaans stelt u gegevensuitwisselingsdefinities op de pagina **Definitie van gegevensuitwisseling** in. Maar als u een gegevensuitwisselingsdefinitie instelt voor de service voor het vernieuwen van wisselkoersen, begint u het proces op de vereenvoudigde pagina **Kaart update-instellingen wisselkoersen**.  
 
 > [!NOTE]  
 >  Als het bestand dat wordt geconverteerd, in XML-indeling is, moet de term *kolom* in dit onderwerp worden geïnterpreteerd als *een XML-element dat gegevens bevat*.  
@@ -36,8 +36,8 @@ Dit onderwerp bevat de volgende procedures:
 ## <a name="to-create-a-data-exchange-definition"></a>Definitie van gegevensuitwisseling maken  
 Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:  
 
-1. In het venster **Definitie van gegevensuitwisseling** beschrijft u de opmaak van regels en kolommen in het bestand.  
-2. In het venster **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Op de pagina **Definitie van gegevensuitwisseling** beschrijft u de opmaak van regels en kolommen in het bestand.  
+2. Op de pagina **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Dit wordt in de volgende procedures beschreven.  
 
@@ -84,7 +84,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
      Geef op het sneltabblad **Kolomdefinities** de opmaak van kolommen in het gegevensbestand op door de velden in te vullen zoals beschreven in de onderstaande tabel. U kunt het structuurbestand, zoals een .XSD-bestand, voor het gegevensbestand gebruiken om het sneltabblad vooraf te vullen met de relevante elementen. Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
 6. Kies op het sneltabblad **Kolomdefinities** de optie **Bestandsstructuur ophalen**.  
-7. Selecteer in het venster **Bestandsstructuur ophalen** het gerelateerde structuurbestand en kies vervolgens de knop **OK**. De regels op het sneltabblad **Kolomdefinities** worden ingevuld op basis van de structuur van het gegevensbestand.  
+7. Selecteer op de pagina **Bestandsstructuur ophalen** het gerelateerde structuurbestand en kies vervolgens de knop **OK**. De regels op het sneltabblad **Kolomdefinities** worden ingevuld op basis van de structuur van het gegevensbestand.  
 8. Vul op het sneltabblad **Kolomdefinities** de velden in of bewerk ze zoals in de volgende tabel wordt beschreven.  
 
     |Veld|Omschrijving|  
@@ -105,10 +105,10 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
  De volgende stap bij het maken van de definitie van een gegevensuitwisseling bestaat uit het bepalen van welke kolommen of XML-elementen in het gegevensbestand worden gekoppeld aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** in het venster **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
+>  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Selecteer op het sneltabblad **Regeldefinities** de regel waarvoor u kolommen aan velden wilt toewijzen en kies vervolgens **Veldtoewijzing**. Het venster **Toewijzing gegevensuitwisseling** wordt geopend.  
+1. Selecteer op het sneltabblad **Regeldefinities** de regel waarvoor u kolommen aan velden wilt toewijzen en kies vervolgens **Veldtoewijzing**. De pagina **Toewijzing gegevensuitwisseling** wordt geopend.  
 2. Geef op het sneltabblad **Algemeen** de toewijzingsinstelling op door de velden in te vullen zoals beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  
@@ -124,7 +124,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
-    |**Kolomnr.**|Geef op voor welke kolom in het gegevensbestand u een toewijzing wilt definiëren.<br /><br /> U kunt alleen kolommen selecteren die worden vertegenwoordigd door regels op het sneltabblad **Kolomdefinities** in het venster **Definitie van gegevensuitwisseling**.|  
+    |**Kolomnr.**|Geef op voor welke kolom in het gegevensbestand u een toewijzing wilt definiëren.<br /><br /> U kunt alleen kolommen selecteren die worden vertegenwoordigd door regels op het sneltabblad **Kolomdefinities** op de pagina **Definitie van gegevensuitwisseling**.|  
     |**Veld-id**|Geef op aan welk veld de kolom in het veld **Kolomnr.** wordt toegewezen.<br /><br /> U kunt alleen velden selecteren die bestaan in de tabel die u hebt opgegeven in het veld **Tabel** op het sneltabblad **Algemeen**.|  
     |**Optioneel**|Geef op dat de toewijzing wordt overgeslagen als het veld leeg is. **Opmerking:** als u dit selectievakje niet inschakelt, treedt een exportfout op als het veld leeg is. **Opmerking:** dit veld is alleen relevant voor exporteren.|  
     |**Doeltabel-id**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef de tabel op waaraan de waarde in het veld **Kolomomschrijving** wordt toegewezen wanneer u een tussentijdse tabel gebruikt voor gegevensimport.|  
@@ -148,7 +148,7 @@ Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek 
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Een bestaande definitie van gegevensuitwisseling importeren  
 1. Sla het XML-bestand dat de definitie van de gegevensuitwisseling vertegenwoordigt, op een geschikte locatie op.  
 2. Voer in het tekstvak **Zoeken** de tekst **Gegevensuitwisselingsdefinities** in en kies vervolgens de gerelateerde koppeling.  
-3. Kies de actie **Nieuw**. Het venster **Definitie van gegevensuitwisseling** wordt geopend.  
+3. Kies de actie **Nieuw**. De pagina **Definitie van gegevensuitwisseling** wordt geopend.  
 4. Kies de actie **Definitie van gegevensuitwisseling importeren**.  
 5. Kies het bestand dat u in stap 1 hebt opgeslagen.  
 

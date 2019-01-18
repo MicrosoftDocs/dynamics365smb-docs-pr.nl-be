@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Goedkeuringswerkstromen gebruiken
 Wanneer een record, zoals een inkoopdocument of klantenkaart, door iemand in uw organisatie moet worden goedgekeurd, stuurt u een goedkeuringsaanvraag als onderdeel van een werkstroom. Op basis van de instellingen van de werkstroom krijgt de betreffende fiatteur vervolgens het bericht dat hij of zij de record moet goedkeuren.
 
-U stelt goedkeuringswerkstromen in het venster **Werkstroom** in. Zie voor meer informatie [Werkstromen instellen](across-set-up-workflows.md).
+U stelt goedkeuringswerkstromen op de pagina **Werkstroom** in. Zie voor meer informatie [Werkstromen instellen](across-set-up-workflows.md).
 
 Naast werkstromen voor goedkeuring die in dit onderwerp worden beschreven kunt u verschillende andere werkstroomtaken uitvoeren. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ Kerngoedkeuringswerkstromen voor inkoopdocumenten, verkoopdocumenten, betalingsd
 ## <a name="to-request-approval-of-a-record"></a>Goedkeuring van een record aanvragen
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker.
 
-1. Kies in het venster met de record de actie **Goedkeuringsaanvraag verzenden**.
+1. op de pagina met de record de actie **Goedkeuringsaanvraag verzenden** kiezen.
 2. Als u al uw goedkeuringsaanvragen wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Posten met goedkeuringsaanvraag** in en kies vervolgens de gerelateerde koppeling.  
 
 De status van de goedkeuringsvermelding wordt bijgewerkt van **Gemaakt** naar **Open**. De status van de record, bijvoorbeeld een inkoopfactuur, wordt bijgewerkt van **Open** naar **Wacht op goedkeuring** en blijft voor verwerking vergrendeld totdat alle fiatteurs de record hebben goedgekeurd.
@@ -42,14 +42,14 @@ De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechte
 
 Het kan voorkomen dat een klant wijzigingen wil aanbrengen in een order nadat deze is ingediend ter goedkeuring. In dit geval kunt u het goedkeuringsproces annuleren en de noodzakelijke wijzigingen aanbrengen aan de order voordat u opnieuw goedkeuring aanvraagt.
 
-- Kies in het venster dat wordt weergegeven, de record en kies de actie **Goedkeuringsaanvraag annuleren**.
+- op de pagina met de record de actie **Goedkeuringsaanvraag annuleren** kiezen.
 
 Als de goedkeuringsaanvraag is geannuleerd, wordt de status voor de gerelateerde goedkeuringspost veranderd in **Geannuleerd**. De status van de record wordt bijgewerkt van **Wacht op goedkeuring** naar **Open**. Het goedkeuringsproces kan vervolgens opnieuw beginnen.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Aanvragen voor goedkeuring goedkeuren of afwijzen
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechten.
 
-U kunt goedkeuringsaanvragen verwerken in het venster **Aanvragen ter goedkeuring**, bijvoorbeeld om meerdere aanvragen tegelijk goed te keuren. U kunt ook elke aanvraag voor de gerelateerde record verwerken zoals het venster **Inkoopfactuur**, door de koppeling te kiezen in het bericht dat u ontvangt.
+U kunt goedkeuringsaanvragen verwerken op de pagina **Aanvragen ter goedkeuring**, bijvoorbeeld om meerdere aanvragen tegelijk goed te keuren. U kunt ook elke aanvraag voor de gerelateerde record verwerken zoals de pagina **Inkoopfactuur**, door de koppeling te kiezen in het bericht dat u ontvangt.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanvragen ter goedkeuring** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een of meer regels voor de record of records die u wilt goedkeuren of afwijzen.
@@ -79,7 +79,7 @@ Met regelmatige intervallen moet u gebruikers van goedkeuringswerkstromen herinn
 Met de functie **Berichten over achterstallige goedkeuringen verzenden** controleert u op alle openstaande goedkeuringsaanvragen die op dat moment achterstallig zijn. Elke fiatteur waarvoor ten minste één goedkeuringspost achterstallig is, ontvangt een bericht met een overzicht van alle achterstallige goedkeuringsaanvragen. Het bericht wordt ook verzonden naar hun fiatteurs en alle aanvragers die de achterstallige goedkeuringen hebben ingediend. Dit komt van pas wanneer de achterstallige goedkeuringspost moet worden overgedragen aan een vervanger.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vervallen goedkeuringsaanvragen** in en kies vervolgens de gerelateerde koppeling.
-2. Kies in het venster **Vervallen goedkeuringsaanvragen** de actie **Berichten over vervallen goedkeuringen verzenden**.
+2. Kies op de pagina **Vervallen goedkeuringsaanvragen** de actie **Berichten over vervallen goedkeuringen verzenden**.
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)    

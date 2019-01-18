@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: abe6155963054b942e5d70e27737da15bcb82220
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Artikelen verplaatsen in geavanceerde magazijnconfiguraties
 Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties met gestuurde opslag en pick, worden magazijnverplaatsingen tussen opslaglocaties door een senior medewerker uitgevoerd, die de magazijnverplaatsingen in het verplaatsingswerkblad voorbereidt en deze vervolgens toewijst aan magazijnmedewerkers.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>artikelen met het magazijnverplaatsingswerkblad verplaatsen
-Het venster **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automatisch kunnen worden ingevuld. De eerste functie is **Opslaglocatieaanvulling berekenen**. Deze functie gebruikt de rangorde van de opslaglocatie om aanvulling voor te stellen voor hogere gerangschikte opslaglocaties van lage gerangschikte opslaglocaties. De tweede post is de functie **Opslaglocatie-inhoud ophalen**, waarmee de voorstelregels worden gevuld met de volledige opslaglocatie-inhoud van de opslaglocatie of de opslaglocaties die u opgeeft.
+De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automatisch kunnen worden ingevuld. De eerste functie is **Opslaglocatieaanvulling berekenen**. Deze functie gebruikt de rangorde van de opslaglocatie om aanvulling voor te stellen voor hogere gerangschikte opslaglocaties van lage gerangschikte opslaglocaties. De tweede post is de functie **Opslaglocatie-inhoud ophalen**, waarmee de voorstelregels worden gevuld met de volledige opslaglocatie-inhoud van de opslaglocatie of de opslaglocaties die u opgeeft.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de magazijnverplaatsingsgegevens in op de voorstelregels.  

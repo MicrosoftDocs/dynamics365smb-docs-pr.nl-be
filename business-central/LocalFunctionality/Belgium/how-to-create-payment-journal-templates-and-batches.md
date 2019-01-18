@@ -1,22 +1,17 @@
 ---
 title: Betalingsdagboeksjablonen en -batches maken
-description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] worden betalingsvoorstellen gegenereerd en geboekt in betalingsdagboeken. De structuur van het betalingsdagboek lijkt op die van andere dagboeksoorten.
-services: project-madeira
-documentationcenter: 
+description: In de Belgische versie van Business Central worden betalingsvoorstellen gegenereerd en geboekt in betalingsdagboeken. De structuur van het betalingsdagboek lijkt op die van andere dagboeksoorten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2e8869969f2dcf2ba68c8eab03eafc6db72dd46
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b37a8fd5dffdde7beb20ac441f070d61f45401b
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-payment-journal-templates-and-batches"></a>Betalingsdagboeksjablonen en -batches maken
@@ -28,7 +23,7 @@ Als u een bankrekening toewijst aan de betalingsdagboeksjabloon, wordt de bankre
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
-3.  Vul in het venster **Betalingsdagboeksjablonen** de velden in zoals wordt beschreven in de volgende tabel.  
+3.  Vul op de pagina **Betalingsdagboeksjablonen** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -42,8 +37,8 @@ Als u een bankrekening toewijst aan de betalingsdagboeksjabloon, wordt de bankre
 
 ## <a name="to-add-payment-journal-batches-to-the-journal-template"></a>Betalingsdagboekbatches toevoegen aan de dagboeksjabloon  
 
-1.  Kies in het venster **Betalingsdagboeksjablonen** de actie **Batches**.  
-2.  Vul in het venster **Betalingsdagboekbatch** de velden in zoals wordt beschreven in de volgende tabel.  
+1.  Kies op de pagina **Betalingsdagboeksjablonen** de actie **Batches**.  
+2.  Vul op de pagina **Betalingsdagboekbatch** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

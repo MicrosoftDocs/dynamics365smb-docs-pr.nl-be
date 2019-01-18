@@ -1,30 +1,40 @@
 ---
 title: Betalingsmethoden instellen| Microsoft Docs
-description: U gebruikt betalingswijzen, bijvoorbeeld cheque, bankoverschrijving, contant geld of PayPal, om te bepalen hoe een factuur wordt betaald.
-author: edupont04
+description: U gebruikt betalingswijzen, bijvoorbeeld cheque, bankoverschrijving, contant geld of PayPal, om te bepalen hoe verkoop- en inkoopfacturen worden betaald.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/22/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-payment-methods"></a>Betalingsmethoden definiëren
-Betalingswijzen bepalen hoe een factuur wordt betaald. U kunt zo veel betalingswijzen instellen als u wilt. Voorbeelden van betalingswijzen zijn BANK, KAS, CHEQUE of REKENING.
-Betalingswijzen worden gekoppeld aan leveranciers om op te geven hoe een factuur van de desbetreffende leverancier moet worden betaald.
+Betalingswijzen definiëren hoe u wilt dat klanten u betalen en hoe u uw leveranciers wilt betalen. De methode kan voor elke klant of leverancier variëren. Voorbeelden van gangbare betalingswijzen zijn **bank**, **contant**, **cheque** of **rekening**. 
 
-## <a name="to-set-up-a-payment-methods"></a>Een betalingswijze instellen
-Verschillende veel voorkomende betalingswijzen zijn al gedefinieerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt nieuwe betalingswijzen in het venster **Betalingsmethoden** opgeven, dat u met de zoekfunctie kunt vinden of het veld **Betalingswijze** op een leveranciers- of een klantenkaart openen.
+U kunt een betalingswijze aan klanten en leveranciers toewijzen zodat altijd dezelfde wijze wordt gebruikt op de verkoop- en inkoopdocumenten die u voor hen maakt. Indien nodig kunt u de methode in het verkoop- of inkoopdocument wijzigen. Bijvoorbeeld wanneer u een bepaalde inkoopfactuur in contant geld in plaats van met cheque wilt betalen. Dit verandert niet de standaardbetalingswijze die aan de leverancier is toegewezen.
+
+Voor verkoop- en inkoopdocumenten worden dezelfde betalingswijzen gebruikt. Bijvoorbeeld een _cash_ betalingswijze wordt gebruikt als u betalingen doet en wanneer u ze ontvangt. [!INCLUDE[d365fin](includes/d365fin_md.md)] weet dat wanneer u een verkoopfactuur maakt, u verwacht betaling te ontvangen en voor inkoopfacturen het tegenovergestelde. 
+
+Creditnota's voor retouren zijn echter uitzonderingen, omdat geld in tegenovergestelde richtingen stroomt, van u naar uw klant en van uw leverancier naar u. Daarom wordt geen standaardbetalingswijze toegewezen aan creditnota's. Er is echter een oplossing als u betalingsvoorwaarden voor de klant of leverancier hebt opgegeven. Hoewel het veld **Cont.-kort. op creditnota's berekenen** hier niet bedoeld voor is, wordt als u het selectievakje op de pagina **Betalingscondities** inschakelt, een standaardbetalingswijze toegevoegd wanneer u een creditnota maakt.
+
+## <a name="to-set-up-a-payment-method"></a>Een betalingswijze instellen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een paar betalingswijzen die bedrijven vaak gebruiken. U kunt er echter zo veel toevoegen als u wilt.
+
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsmethoden** in en kies vervolgens de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Een betalingswijze aan een klant of leverancier toewijzen
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.
+2. Kies in het veld **Betalingswijze** de methode die standaard moet worden gebruikt voor de klant of leverancier.
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  

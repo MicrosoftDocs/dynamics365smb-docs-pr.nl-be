@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-marketing
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a950b87b7e7947de1602db76805a0b1f41d8274
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Zakenrelaties instellen voor contactbedrijven
@@ -28,7 +29,7 @@ Zakenrelaties gebruiken voor contacten is een proces van twee stappen. Eerst def
 >   Als u de contacten wilt synchroniseren met leveranciers, klanten of bankrekeningen in een ander onderdeel van de toepassing, kunt u een zakenrelatie instellen.
 
 ## <a name="to-define-a-business-relation-code"></a>Een zakenrelatiecode definiëren
-De zakenrelatiecode geeft een categorie of soort aan van de zakenrelatie, zoals BANK of JURIDISCH. U kunt meerdere zakenrelatiecodes hebben. Als u de zakenrelatie wilt definiëren, gebruikt u het venster **Zakenrelaties**.
+De zakenrelatiecode geeft een categorie of soort aan van de zakenrelatie, zoals BANK of JURIDISCH. U kunt meerdere zakenrelatiecodes hebben. Als u de zakenrelatie wilt definiëren, gebruikt u de pagina **Zakenrelaties**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Zakenrelaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul een code en een beschrijving in. De code kan maximaal uit 11 tekens bestaan en kan elke combinatie zijn van cijfers en letters.
@@ -39,12 +40,12 @@ U kunt geen zakenrelaties toewijzen aan een contactpersoon, alleen aan contactbe
 1. Open het contact.
 2. Kies de actie **Bedrijf** en kies vervolgens de actie **Zakenrelaties**.
 
-    Het venster **Zakenrelaties (Relatie)** wordt weergegeven.
+    De pagina **Zakenrelaties (Relatie)** wordt weergegeven.
 3. Selecteer in het veld **Zakenrelatiecode** de zakenrelatie die u wilt toewijzen.
 
 Herhaal deze stappen om het gewenste aantal zakenrelaties toe te wijzen. U kunt zakenrelaties ook toewijzen in het contactoverzicht door dezelfde procedure te volgen.
 
-Het aantal zakenrelaties dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal zakenrelaties** in het gedeelte **Segmentatie** van het venster **Contact**.
+Het aantal zakenrelaties dat u aan het contact hebt toegewezen, wordt weergegeven in het veld **Aantal zakenrelaties** in het gedeelte **Segmentatie** van de pagina **Contact**.
 
 Nadat u zakenrelaties hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 

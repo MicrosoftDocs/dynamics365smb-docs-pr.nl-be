@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: abda752ed574245c6d38adb6ee1441bb2b2c80fc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2fcfb5e896f6da2f953ad15fb46bcd9b34be047
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Veldtoewijzing bij het importeren van SEPA CAMT-bestanden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de regionale SEPA-norm (Single Euro Payments Area) voor het importeren van SEPA-bankafschriften (CAMT-indeling). Zie voor meer informatie [De conversieservice bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md).  
 
- De SEPA CAMT-standaard heeft zelf lokale variaties. U moet daarom mogelijk de algemene definitie voor gegevensuitwisseling, aangeduid door de code **SEPA CAMT** in het venster **Uitwisselingsdefinities van boeking**, wijzigen om deze aan de lokale variant van de vaste verrekenprijs aan te passen. De volgende tabellen tonen de element-aan-veld-toewijzing voor tabellen 81, 273 en 274 in de SEPA CAMT-implementatie in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ De SEPA CAMT-standaard heeft zelf lokale variaties. U moet daarom mogelijk de algemene definitie voor gegevensuitwisseling, aangeduid door de code **SEPA CAMT** op de pagina **Uitwisselingsdefinities van boeking**, wijzigen om deze aan de lokale variant van de vaste verrekenprijs aan te passen. De volgende tabellen tonen de element-aan-veld-toewijzing voor tabellen 81, 273 en 274 in de SEPA CAMT-implementatie in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Voor informatie over het maken of het aanpassen van de definitie van gegevensuitwisseling raadpleegt u [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ongestructureerd|Tekst|Informatie die wordt verschaft om de afstemming/reconciliatie mogelijk te maken van een post met de artikelen die de betaling wordt geacht te vereffenen, zoals commerciële facturen in een vorderingsysteem, in een ongestructureerde vorm||6|Omschrijving|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Extra informatie over de invoer||16|Transactie-informatie|  
 
- Elementen in het knooppunt **Ntry** die worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] maar niet aan velden worden toegewezen, worden opgeslagen in de tabel **Kolomdef. boekingsuitwisseling**. Gebruikers kunnen deze elementen vanuit de vensters **Betalingsreconciliatiedagboek**, **Betalingsvereffening** en **Bankreconciliatie** weergeven door de actie **Details bankrekeningafschriftregel** te kiezen. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
+ Elementen in het knooppunt **Ntry** die worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] maar niet aan velden worden toegewezen, worden opgeslagen in de tabel **Kolomdef. boekingsuitwisseling**. Gebruikers kunnen deze elementen vanuit de pagina's **Betalingsreconciliatiedagboek**, **Betalingsvereffening** en **Bankreconciliatie** weergeven door de actie **Details bankrekeningafschriftregel** te kiezen. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  

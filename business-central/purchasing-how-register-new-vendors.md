@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: faf2ce7b68c2f54e05c6bfc9b45b736e7f3e7ab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
@@ -27,14 +27,14 @@ Voordat u nieuwe leveranciers kunt vastleggen, moet u verschillende inkoopcodes 
 Leverancierskaarten bevatten de informatie die is vereist om producten van de leverancier te kunnen kopen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een venster automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
+>   Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een pagina automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
 
 ## <a name="to-create-a-new-vendor-card"></a>Een nieuwe leverancierskaart maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies in het venster **Leveranciers** **Nieuw**.
+2. Kies op de pagina **Leveranciers** de optie **Nieuw**.
 
-    Wanneer er meer dan één leveranciersjabloon bestaat, opent er een venster waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
-3. Kies in het venster **Selecteer een sjabloon voor een nieuwe leverancier** de sjabloon die u wilt gebruiken voor de nieuwe leverancierskaart.
+    Wanneer er meer dan één leveranciersjabloon bestaat, opent er een pagina waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
+3. Kies op de pagina **Selecteer een sjabloon voor een nieuwe leverancier** de sjabloon die u wilt gebruiken voor de nieuwe leverancierskaart.
 4. Kies de knop **Ok**. Een nieuwe leverancierskaart wordt geopend met enkele velden ingevuld met informatie uit de sjabloon.
 5. Ga door met velden op de leverancierskaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -46,9 +46,9 @@ De leverancier is nu geregistreerd en de leverancierskaart is klaar om voor inko
 Als u deze leverancierskaart als sjabloon wilt gebruiken wanneer u nieuwe leverancierskaarten maakt, kunt u deze opslaan als leveranciersjabloon. Zie de volgende onderwerpen voor meer informatie.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>De leverancierskaart als sjabloon opslaan
-1. Kies in het venster **Leverancierskaart** de actie **Opslaan als sjabloon**. Het venster **Leveranciersjabloon** opent de weergave van de leverancierkaart als sjabloon.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. Het venster **Dimensiesjablonen** geeft alle dimensiecodes weer die voor de leverancier zijn ingesteld.
+1. Kies op de pagina **Leverancierskaart** de actie **Opslaan als sjabloon**. De pagina **Leveranciersjabloon** opent de weergave van de leverancierkaart als sjabloon.
+2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft alle dimensiecodes weer die voor de leverancier zijn ingesteld.
 4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe leverancierkaarten die worden gemaakt met de sjabloon.
 5. Wanneer u de nieuwe leveranciersjabloon hebt voltooid, kiest u de knop **OK**.  
    De leveranciersjabloon wordt toegevoegd aan de lijst met leveranciersjablonen, zodat u deze kunt gebruiken om nieuwe leverancierskaarten te maken.

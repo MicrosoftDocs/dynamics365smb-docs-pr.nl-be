@@ -11,10 +11,10 @@ ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] verwijderen, op beginwaarden instellen of het abonnement erop stoppen
@@ -38,7 +38,7 @@ Als u uw rekening wilt sluiten, moet u momenteel contact opnemen met het [!INCLU
 Als u zich hebt aangemeld voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met een niet-Office 365-bedrijfsaccount, hebt u geen Office 365-beheerder. In plaats daarvan moet u uw abonnement opzeggen door contact op te nemen met het [!INCLUDE[d365fin](includes/d365fin_md.md)]-annuleringsteam door een e-mail te verzenden naar cancelbusinesscentra@microsoft.com. U moet de naam van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant in het bericht vermelden zodat we u kunnen identificeren. De gemakkelijkste manier om dat te doen is de URL uit uw startpagina van [!INCLUDE[d365fin](includes/d365fin_md.md)] te kopiëren.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgeving opnieuw instellen
-Als u gegevens aan uw gratis [!INCLUDE[d365fin](includes/d365fin_md.md)]-proef hebt toegevoegd en opnieuw wilt beginnen met een nieuwe ervaring, kunt u een nieuw bedrijf maken en vervolgens het eerste bedrijf opnieuw instellen. Als u het venster **Bedrijven** opent, kunt u een kopie van uw huidige bedrijf maken, u afmelden en u bij het nieuwe bedrijf aanmelden en vervolgens het oorspronkelijke bedrijf opnieuw instellen.  
+Als u gegevens aan uw gratis [!INCLUDE[d365fin](includes/d365fin_md.md)]-proef hebt toegevoegd en opnieuw wilt beginnen met een nieuwe ervaring, kunt u een nieuw bedrijf maken en vervolgens het eerste bedrijf opnieuw instellen. Als u de pagina **Bedrijven** opent, kunt u een kopie van uw huidige bedrijf maken, u afmelden en u bij het nieuwe bedrijf aanmelden en vervolgens het oorspronkelijke bedrijf opnieuw instellen.  
 > [!NOTE]  
 >   Als u een bedrijf opnieuw instelt dat u deelt met andere personen van uw organisatie, moet u ervoor zorgen dat andere personen niet zijn aangemeld wanneer u het bedrijf opnieuw instelt.  
 

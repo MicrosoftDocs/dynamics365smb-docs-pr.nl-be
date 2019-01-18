@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Speciale orders maken
@@ -32,9 +32,9 @@ U kunt deze functie pas gebruiken als u de klanten-, leveranciers- en artikelkaa
     U moet nu een inkooporder maken op basis van een inkoopvoorstel.  
 4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 5. Kies de actie **Speciale order** en kies vervolgens de actie **Verkooporders ophalen**.  
-6.  Geef in het venster **Verkooporders ophalen** resultaten weer waarbij **Documentnr.** het nummer van de verkooporder is. Kies de knop **Ok**. Automatisch wordt een inkoopvoorstelregel voor het artikel gemaakt.  
+6.  Geef op de pagina **Verkooporders ophalen** resultaten weer waarbij **Documentnr.** het nummer van de verkooporder is. Kies de knop **Ok**. Automatisch wordt een inkoopvoorstelregel voor het artikel gemaakt.  
 7.  Selecteer **Nieuw** in het veld **Planningsboodschap** op de inkoopvoorstelregel.  
-8.  Klik in het venster **Inkoopvoorstel** op de actie **Planningsboodschap uitvoeren**. Het venster **Planningsboodschap uitvoeren - Ink.-voorstel** wordt geopend. Kies de knop **OK**.  
+8.  Kies op de pagina **Inkoopvoorstel** de actie **Planningsboodschap uitvoeren**. De pagina **Planningsboodschap uitvoeren - Ink.-voorstel** wordt weergegeven. Kies de knop **OK**.  
 
     In een bericht wordt medegedeeld dat de inkooporders zijn gemaakt. Kies de knop **OK**.  
 
