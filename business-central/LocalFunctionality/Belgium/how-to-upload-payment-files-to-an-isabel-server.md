@@ -1,6 +1,6 @@
 ---
 title: Betalingsbestanden uploaden naar een Isabel-server
-description: "Betalingsbestanden kunnen worden geüpload via het venster **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** in het venster **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**."
+description: "Betalingsbestanden kunnen worden geüpload via de pagina **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** op de pagina **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,32 +13,32 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 12d331beaeb1c50e06515852bb9287440463ed36
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2621f8f73cd00baecbb47c799e9e2adbc0d93bd6
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="upload-payment-files-to-an-isabel-server"></a><span data-ttu-id="db91f-104">Betalingsbestanden uploaden naar een Isabel-server</span><span class="sxs-lookup"><span data-stu-id="db91f-104">Upload Payment Files to an Isabel Server</span></span>
+# <a name="upload-payment-files-to-an-isabel-server"></a><span data-ttu-id="6dd2b-104">Betalingsbestanden uploaden naar een Isabel-server</span><span class="sxs-lookup"><span data-stu-id="6dd2b-104">Upload Payment Files to an Isabel Server</span></span>
 > [!Note]
 > [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
 
-<span data-ttu-id="db91f-105">Betalingsbestanden kunnen worden geüpload via het venster **IBS-logboeken**.</span><span class="sxs-lookup"><span data-stu-id="db91f-105">Payment files can be uploaded using the **IBS Logs** window.</span></span> <span data-ttu-id="db91f-106">U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** in het venster **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**.</span><span class="sxs-lookup"><span data-stu-id="db91f-106">The **Upload Integration Mode** and **Download Integration Mode** fields in the **Electronic Banking Setup** window must be set to **Attended** to upload payment files.</span></span>  
+<span data-ttu-id="6dd2b-105">Betalingsbestanden kunnen worden geüpload via de pagina **IBS-logboeken**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-105">Payment files can be uploaded using the **IBS Logs** page.</span></span> <span data-ttu-id="6dd2b-106">U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** op de pagina **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-106">The **Upload Integration Mode** and **Download Integration Mode** fields on the **Electronic Banking Setup** page must be set to **Attended** to upload payment files.</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="db91f-107">Voordat u betalingbestanden kunt uploaden, moet u zijn aangemeld bij de Isabel-server.</span><span class="sxs-lookup"><span data-stu-id="db91f-107">Before you can upload payment files you must be logged on to the Isabel server.</span></span>  
+>  <span data-ttu-id="6dd2b-107">Voordat u betalingbestanden kunt uploaden, moet u zijn aangemeld bij de Isabel-server.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-107">Before you can upload payment files you must be logged on to the Isabel server.</span></span>  
 
-## <a name="to-upload-payment-files-in-attended-mode"></a><span data-ttu-id="db91f-108">Betalingsbestanden uploaden in de modus Met toezicht</span><span class="sxs-lookup"><span data-stu-id="db91f-108">To upload payment files in attended mode</span></span>  
+## <a name="to-upload-payment-files-in-attended-mode"></a><span data-ttu-id="6dd2b-108">Betalingsbestanden uploaden in de modus Met toezicht</span><span class="sxs-lookup"><span data-stu-id="6dd2b-108">To upload payment files in attended mode</span></span>  
 
-1.  <span data-ttu-id="db91f-109">Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IBS-logboeken** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="db91f-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="db91f-110">Kies de actie **Contract en gebruiker ophalen**.</span><span class="sxs-lookup"><span data-stu-id="db91f-110">Choose the **Get Contract and User** action.</span></span>  
-3.  <span data-ttu-id="db91f-111">Na het verifiëren van de betalingbestanden worden een gebruikers- en contract- id weergegeven in de velden **IBS-gebruikers-id** en **IBS-contract-id**.</span><span class="sxs-lookup"><span data-stu-id="db91f-111">After verifying the payment files, a user ID and contract ID will be displayed in the **IBS User ID** and **IBS Contract ID** fields.</span></span>  
+1.  <span data-ttu-id="6dd2b-109">Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **IBS-logboeken** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6dd2b-110">Kies de actie **Contract en gebruiker ophalen**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-110">Choose the **Get Contract and User** action.</span></span>  
+3.  <span data-ttu-id="6dd2b-111">Na het verifiëren van de betalingbestanden worden een gebruikers- en contract- id weergegeven in de velden **IBS-gebruikers-id** en **IBS-contract-id**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-111">After verifying the payment files, a user ID and contract ID will be displayed in the **IBS User ID** and **IBS Contract ID** fields.</span></span>  
 
-    <span data-ttu-id="db91f-112">Het veld **Uploadstatus** wordt ingesteld op **Gereed voor uploaden**.</span><span class="sxs-lookup"><span data-stu-id="db91f-112">The **Upload Status** field will be set to **Ready for Upload**.</span></span> <span data-ttu-id="db91f-113">Als op de Isabel-server meerdere contracten voor de bankrekening bestaan, wordt **Uploadstatus** ingesteld op **Conflict bestaat**.</span><span class="sxs-lookup"><span data-stu-id="db91f-113">If more than one contract exists on the Isabel server for the bank account, the **Upload Status** will be set to **Conflict Exists**.</span></span> <span data-ttu-id="db91f-114">Selecteer het juiste contract.</span><span class="sxs-lookup"><span data-stu-id="db91f-114">Select the correct contract.</span></span>  
+    <span data-ttu-id="6dd2b-112">Het veld **Uploadstatus** wordt ingesteld op **Gereed voor uploaden**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-112">The **Upload Status** field will be set to **Ready for Upload**.</span></span> <span data-ttu-id="6dd2b-113">Als op de Isabel-server meerdere contracten voor de bankrekening bestaan, wordt **Uploadstatus** ingesteld op **Conflict bestaat**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-113">If more than one contract exists on the Isabel server for the bank account, the **Upload Status** will be set to **Conflict Exists**.</span></span> <span data-ttu-id="6dd2b-114">Selecteer het juiste contract.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-114">Select the correct contract.</span></span>  
 
-4.  <span data-ttu-id="db91f-115">Kies de actie **Downloaden**.</span><span class="sxs-lookup"><span data-stu-id="db91f-115">Choose the **Perform Download** action.</span></span> <span data-ttu-id="db91f-116">De betalingsbestanden worden geüpload naar de Isabel-server en het veld **Verwerkingsstatus** wordt ingesteld op **Verwerkt**.</span><span class="sxs-lookup"><span data-stu-id="db91f-116">The payment files will be uploaded to the Isabel server and the **Process Status** field will be set to **Processed**.</span></span>  
-5.  <span data-ttu-id="db91f-117">Vervolg het verwerken van de betalingsbestanden door de bestanden op de Isabel-server te ondertekenen en te verzenden.</span><span class="sxs-lookup"><span data-stu-id="db91f-117">Continue processing the payment files by signing and sending the files on the Isabel server.</span></span>  
+4.  <span data-ttu-id="6dd2b-115">Kies de actie **Downloaden**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-115">Choose the **Perform Download** action.</span></span> <span data-ttu-id="6dd2b-116">De betalingsbestanden worden geüpload naar de Isabel-server en het veld **Verwerkingsstatus** wordt ingesteld op **Verwerkt**.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-116">The payment files will be uploaded to the Isabel server and the **Process Status** field will be set to **Processed**.</span></span>  
+5.  <span data-ttu-id="6dd2b-117">Vervolg het verwerken van de betalingsbestanden door de bestanden op de Isabel-server te ondertekenen en te verzenden.</span><span class="sxs-lookup"><span data-stu-id="6dd2b-117">Continue processing the payment files by signing and sending the files on the Isabel server.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="db91f-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="db91f-118">See Also</span></span>  
- [<span data-ttu-id="db91f-119">IBS-logposten archiveren</span><span class="sxs-lookup"><span data-stu-id="db91f-119">Archive IBS Log Entries</span></span>](how-to-archive-ibs-log-entries.md)
+## <a name="see-also"></a><span data-ttu-id="6dd2b-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6dd2b-118">See Also</span></span>  
+ [<span data-ttu-id="6dd2b-119">IBS-logposten archiveren</span><span class="sxs-lookup"><span data-stu-id="6dd2b-119">Archive IBS Log Entries</span></span>](how-to-archive-ibs-log-entries.md)
 

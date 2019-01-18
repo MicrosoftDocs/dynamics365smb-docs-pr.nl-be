@@ -1,0 +1,74 @@
+---
+title: Werken met boekingsperioden en boekjaren | Microsoft Docs
+description: "Leren werken met boekhoudperioden om te definiëren wanneer uw bedrijf financiële prestaties rapporteert."
+services: project-madeira
+documentationcenter: 
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/13/2018
+ms.author: bholtorf
+ms.translationtype: HT
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
+ms.contentlocale: nl-be
+ms.lasthandoff: 11/26/2018
+
+---
+# <a name="working-with-accounting-periods-and-fiscal-years"></a><span data-ttu-id="ec342-103">Werken met boekingsperioden en boekjaren</span><span class="sxs-lookup"><span data-stu-id="ec342-103">Working with Accounting Periods and Fiscal Years</span></span>
+<span data-ttu-id="ec342-104">Boekhoudperioden, ook wel rapportageperioden genoemd, zijn perioden waarvoor een bedrijf of organisatie financiële prestaties rapporteert, bijvoorbeeld door de balans of resultatenrekening te genereren.</span><span class="sxs-lookup"><span data-stu-id="ec342-104">Accounting periods, which are also known as reporting periods, are periods of time for which a company or organization reports financial performance, for example, by generating their income statement or balance sheet.</span></span> <span data-ttu-id="ec342-105">Meestal verwijzen boekhoudperioden naar het boekjaar van het bedrijf, dat verschillende boekingsperioden zoals maanden of kwartalen kan bevatten.</span><span class="sxs-lookup"><span data-stu-id="ec342-105">Typically, accounting periods refer to the company's fiscal year, which can contain several accounting periods, such as months or quarters.</span></span>
+
+<span data-ttu-id="ec342-106">Voor veel bedrijven valt het boekjaar niet samen met het kalenderjaar.</span><span class="sxs-lookup"><span data-stu-id="ec342-106">For many companies the fiscal year does not align with the calendar year.</span></span> <span data-ttu-id="ec342-107">Het boekjaar eindigt bijvoorbeeld op 30 juni in plaats van 31 december.</span><span class="sxs-lookup"><span data-stu-id="ec342-107">For example, the fiscal year might end on June 30th rather than December 31st.</span></span> <span data-ttu-id="ec342-108">Voor nieuw gemaakte bedrijven kan het fiscale jaar langer zijn dan 12 maanden.</span><span class="sxs-lookup"><span data-stu-id="ec342-108">For newly created companies, the fiscal might actually be longer than 12 months.</span></span> 
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ec342-109">vereist alleen boekingsperioden als u een resultatenrekening wilt afsluiten of gegevenscompressietaken wilt uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="ec342-109">only requires accounting periods only if you want to close an income statement, or run data compression tasks.</span></span> 
+
+<span data-ttu-id="ec342-110">U kunt boekingsperioden gebruiken in rapportage.</span><span class="sxs-lookup"><span data-stu-id="ec342-110">You can use accounting periods in reporting.</span></span> <span data-ttu-id="ec342-111">Bijvoorbeeld als u geboekte posten op de pagina **Saldo/Budget** controleert waar het rapportage-interval kan worden opgegeven.</span><span class="sxs-lookup"><span data-stu-id="ec342-111">For example, when you are reviewing posted entries on the **Balance/Budget** page where the reporting interval can be specified.</span></span> <span data-ttu-id="ec342-112">Een van de opties die u kunt opgeven om te rapporteren per boekhoudperiode.</span><span class="sxs-lookup"><span data-stu-id="ec342-112">One of the options you may specify to report by accounting period.</span></span> <span data-ttu-id="ec342-113">U kunt ook een rapportageschema maken dat resultaten voor verschillende boekingsperioden vergelijkt.</span><span class="sxs-lookup"><span data-stu-id="ec342-113">You can also build an account schedule that compares results for different accounting periods.</span></span>
+
+## <a name="creating-a-new-fiscal-year"></a><span data-ttu-id="ec342-114">Een nieuw boekjaar maken</span><span class="sxs-lookup"><span data-stu-id="ec342-114">Creating a new fiscal year</span></span>
+<span data-ttu-id="ec342-115">U kunt boekingsperioden in bulk maken door de batchverwerking **Boekjaar maken** te gebruiken of handmatig.</span><span class="sxs-lookup"><span data-stu-id="ec342-115">You can create accounting periods in bulk, by using eh **Create Fiscal Year** batch job, or manually.</span></span>
+
+### <a name="how-to-create-accounting-periods-in-bulk"></a><span data-ttu-id="ec342-116">Boekhoudperioden in bulk maken</span><span class="sxs-lookup"><span data-stu-id="ec342-116">How to create accounting periods in-bulk</span></span>
+<span data-ttu-id="ec342-117">Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van gelijke lengte op te delen.</span><span class="sxs-lookup"><span data-stu-id="ec342-117">Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of equal length.</span></span>  
+
+1. <span data-ttu-id="ec342-118">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="ec342-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ec342-119">Kies de actie **Jaar maken**.</span><span class="sxs-lookup"><span data-stu-id="ec342-119">Choose the **Create Year** action.</span></span>  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+3. <span data-ttu-id="ec342-120">Voer in het veld **Begindatum** de datum in waarop het boekjaar begint.</span><span class="sxs-lookup"><span data-stu-id="ec342-120">In the **Starting Date** field, enter the date on which the fiscal year starts.</span></span>  
+4. <span data-ttu-id="ec342-121">Voer in het veld **Aantal perioden** het aantal boekhoudperioden in waarin u het boekjaar wilt verdelen.</span><span class="sxs-lookup"><span data-stu-id="ec342-121">In the **No. of Periods** field, enter the number of accounting periods to divide the fiscal year into.</span></span> <span data-ttu-id="ec342-122">Er kunnen maximaal 365 perioden in een jaar vallen.</span><span class="sxs-lookup"><span data-stu-id="ec342-122">There can be up to 365 periods in a year.</span></span>  
+5. <span data-ttu-id="ec342-123">Voer in het veld **Periodelengte** de duur voor elke periode in.</span><span class="sxs-lookup"><span data-stu-id="ec342-123">In the **Period Length** field, enter a duration for each period.</span></span> <span data-ttu-id="ec342-124">Bijvoorbeeld 1M voor één maand, 1K voor één kwartaal en 1J voor één jaar.</span><span class="sxs-lookup"><span data-stu-id="ec342-124">For example, 1M for one month, 1Q for one quarter, and 1Y for one year.</span></span>  
+6. <span data-ttu-id="ec342-125">Klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="ec342-125">Choose **OK**.</span></span>  
+
+### <a name="how-to-create-accounting-periods-manually"></a><span data-ttu-id="ec342-126">Boekhoudperioden handmatig maken</span><span class="sxs-lookup"><span data-stu-id="ec342-126">How to create accounting periods manually</span></span>
+<span data-ttu-id="ec342-127">Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals de 4-4-5 agenda die in detailhandel wordt gebruikt, kunt u het handmatig instellen.</span><span class="sxs-lookup"><span data-stu-id="ec342-127">If the accounting periods in your fiscal year have different durations, like the 4-4-5 calendar used in retail, you can manually set it up.</span></span>  
+  
+1. <span data-ttu-id="ec342-128">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="ec342-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ec342-129">Voer in het veld **Begindatum** de datum in waarop het boekjaar begint.</span><span class="sxs-lookup"><span data-stu-id="ec342-129">In the **Starting Date** field, enter the date on which the fiscal year starts.</span></span> <span data-ttu-id="ec342-130">Het veld **Naam** bevat de naam van de maand.</span><span class="sxs-lookup"><span data-stu-id="ec342-130">The **Name** field will show the name of the month.</span></span>  
+3. <span data-ttu-id="ec342-131">Kies het selectievakje **Nieuw boekjaar** om aan te geven dat dit de eerste periode in het jaar is.</span><span class="sxs-lookup"><span data-stu-id="ec342-131">Choose the **New Fiscal Year** check box to indicate that this is the first period in the year.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ec342-132">gebruikt deze periode om te bepalen welke perioden aan het einde van het jaar moeten worden afgesloten.</span><span class="sxs-lookup"><span data-stu-id="ec342-132">will use this period to determine which periods to close at year-end.</span></span>
+4. <span data-ttu-id="ec342-133">Herhaal stap 2 en 3 voor elke resterende periode.</span><span class="sxs-lookup"><span data-stu-id="ec342-133">Repeat steps 2 and 3 for each remaining period.</span></span>  
+
+## <a name="closing-a-fiscal-year"></a><span data-ttu-id="ec342-134">Een fiscaal jaar afsluiten</span><span class="sxs-lookup"><span data-stu-id="ec342-134">Closing a Fiscal Year</span></span>
+<span data-ttu-id="ec342-135">Het afsluiten van het boekjaar is een van de taken voor het afsluiten van de boeken.</span><span class="sxs-lookup"><span data-stu-id="ec342-135">Closing the fiscal year is one of the tasks for closing the books.</span></span> <span data-ttu-id="ec342-136">Nadat u het boekjaar hebt afgesloten, zijn de selectievakjes **Afgesloten** en **Geblokkeerd** ingeschakeld voor alle perioden van het jaar.</span><span class="sxs-lookup"><span data-stu-id="ec342-136">After you close a fiscal year, the **Closed** and **Date Locked** check boxes are selected for all periods in the year.</span></span> <span data-ttu-id="ec342-137">U kunt een boekjaar niet opnieuw openen of de selectievakjes uitschakelen.</span><span class="sxs-lookup"><span data-stu-id="ec342-137">You cannot reopen a year or clear the check boxes.</span></span>
+
+> [!NOTE]  
+>  <span data-ttu-id="ec342-138">U moet altijd minimaal één open boekjaar hebben.</span><span class="sxs-lookup"><span data-stu-id="ec342-138">You must always have at least one open fiscal year.</span></span> <span data-ttu-id="ec342-139">Wanneer u een jaar afsluit, moet u ervoor zorgen dat een nieuw jaar is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="ec342-139">When closing a year, ensure that a new year has been created.</span></span> <span data-ttu-id="ec342-140">Houd er ook rekening mee dat als u een jaar afsluit, u de begindatum van het volgende jaar niet kunt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="ec342-140">Also, note that after you close one year, you cannot change the starting date of the following year.</span></span>
+
+1. <span data-ttu-id="ec342-141">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="ec342-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ec342-142">Kies de actie **Jaar afsluiten**.</span><span class="sxs-lookup"><span data-stu-id="ec342-142">Choose the **Close Year** action.</span></span>  
+
+## <a name="posting-entries-to-a-closed-fiscal-year"></a><span data-ttu-id="ec342-143">Posten boeken naar een afgesloten boekjaar</span><span class="sxs-lookup"><span data-stu-id="ec342-143">Posting Entries to a Closed Fiscal Year</span></span>
+<span data-ttu-id="ec342-144">Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten naar boeken.</span><span class="sxs-lookup"><span data-stu-id="ec342-144">Although a fiscal year is closed, you can still post general ledger entries to it.</span></span> <span data-ttu-id="ec342-145">Als u dit doet, worden de posten gemarkeerd als zijnde geboekt naar een afgesloten boekjaar en wordt het veld **Naboeking** geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="ec342-145">When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected.</span></span> <span data-ttu-id="ec342-146">Standaard wordt het selectievakje niet weergegeven op de pagina, maar u kunt het toevoegen.</span><span class="sxs-lookup"><span data-stu-id="ec342-146">By default, the check box is not displayed on the page, but you can add it.</span></span> <span data-ttu-id="ec342-147">De volgende stappen zijn de resultatenrekeningen te sluiten en de resultaten van het jaar over te brengen naar een rekening op de balans.</span><span class="sxs-lookup"><span data-stu-id="ec342-147">The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet.</span></span> <span data-ttu-id="ec342-148">Herhaal deze stappen elke keer dat u posten boekt naar een afgesloten boekjaar.</span><span class="sxs-lookup"><span data-stu-id="ec342-148">Repeat these steps each time you post entries to a closed fiscal year.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="ec342-149">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ec342-149">See Also</span></span>
+[<span data-ttu-id="ec342-150">De boeken sluiten</span><span class="sxs-lookup"><span data-stu-id="ec342-150">Closing the Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="ec342-151">Afsluitingsjaren en -perioden</span><span class="sxs-lookup"><span data-stu-id="ec342-151">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="ec342-152">Werken met rapportageschema's</span><span class="sxs-lookup"><span data-stu-id="ec342-152">How to Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
+  
+
+
+
+
+
+
