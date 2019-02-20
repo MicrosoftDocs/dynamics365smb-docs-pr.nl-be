@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="559bd-101">Afhankelijk van uw land of regio kunnen er extra instellingen vereist zijn.</span><span class="sxs-lookup"><span data-stu-id="559bd-101">Depending on your country or region, additional setup may be required.</span></span> <span data-ttu-id="559bd-102">Zie voor meer informatie de lijst met gerelateerde artikelen in de sectie [Zie ook](#see-also).</span><span class="sxs-lookup"><span data-stu-id="559bd-102">For more information, see the list of related articles in the [See Also](#see-also) section.</span></span>  

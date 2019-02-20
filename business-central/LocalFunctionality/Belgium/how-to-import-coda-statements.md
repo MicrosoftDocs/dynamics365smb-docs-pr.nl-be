@@ -1,6 +1,6 @@
 ---
 title: CODA-afschriften importeren
-description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in Business Central.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,29 +13,29 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9094efb841db5c3aa75ac6f0c3ad898def22e47a
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 9e1fdb44770746f7c655194f13e6092f8fa6c385
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="import-coda-statements"></a><span data-ttu-id="caecc-103">CODA-afschriften importeren</span><span class="sxs-lookup"><span data-stu-id="caecc-103">Import CODA Statements</span></span>
-<span data-ttu-id="caecc-104">Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="caecc-104">When you receive a CODA statement from your bank, you must import it into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span> <span data-ttu-id="caecc-105">Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).</span><span class="sxs-lookup"><span data-stu-id="caecc-105">For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).</span></span>  
+# <a name="import-coda-statements"></a><span data-ttu-id="1f10a-103">CODA-afschriften importeren</span><span class="sxs-lookup"><span data-stu-id="1f10a-103">Import CODA Statements</span></span>
+<span data-ttu-id="1f10a-104">Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="1f10a-104">When you receive a CODA statement from your bank, you must import it into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span> <span data-ttu-id="1f10a-105">Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).</span><span class="sxs-lookup"><span data-stu-id="1f10a-105">For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).</span></span>  
 
-## <a name="to-import-a-coda-statement"></a><span data-ttu-id="caecc-106">Een CODA-afschrift importeren</span><span class="sxs-lookup"><span data-stu-id="caecc-106">To import a CODA statement</span></span>  
+## <a name="to-import-a-coda-statement"></a><span data-ttu-id="1f10a-106">Een CODA-afschrift importeren</span><span class="sxs-lookup"><span data-stu-id="1f10a-106">To import a CODA statement</span></span>  
 
-1.  <span data-ttu-id="caecc-107">Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="caecc-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="caecc-108">Selecteer de bankrekening en kies actie **CODA-bestand importeren**.</span><span class="sxs-lookup"><span data-stu-id="caecc-108">Select the bank account, and then choose **Import CODA File** action.</span></span>  
-3.  <span data-ttu-id="caecc-109">Voer de naam van het bestand in dat u wilt importeren en klik op de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="caecc-109">Enter the name of the file to import and then choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="1f10a-107">Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="1f10a-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="1f10a-108">Selecteer de bankrekening en kies actie **CODA-bestand importeren**.</span><span class="sxs-lookup"><span data-stu-id="1f10a-108">Select the bank account, and then choose **Import CODA File** action.</span></span>  
+3.  <span data-ttu-id="1f10a-109">Voer de naam van het bestand in dat u wilt importeren en klik op de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="1f10a-109">Enter the name of the file to import and then choose the **OK** button.</span></span>  
 
-<span data-ttu-id="caecc-110">Het CODA-afschrift wordt geïmporteerd.</span><span class="sxs-lookup"><span data-stu-id="caecc-110">This imports the CODA statement.</span></span> <span data-ttu-id="caecc-111">Vervolgens moet u de CODA-afschriftregels verwerken.</span><span class="sxs-lookup"><span data-stu-id="caecc-111">Next, you must process the CODA statement lines.</span></span> <span data-ttu-id="caecc-112">Zie [CODA-afschriften vereffenen](how-to-apply-coda-statements.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="caecc-112">For more information, see [Apply CODA Statements](how-to-apply-coda-statements.md).</span></span>  
+<span data-ttu-id="1f10a-110">Het CODA-afschrift wordt geïmporteerd.</span><span class="sxs-lookup"><span data-stu-id="1f10a-110">This imports the CODA statement.</span></span> <span data-ttu-id="1f10a-111">Vervolgens moet u de CODA-afschriftregels verwerken.</span><span class="sxs-lookup"><span data-stu-id="1f10a-111">Next, you must process the CODA statement lines.</span></span> <span data-ttu-id="1f10a-112">Zie [CODA-afschriften vereffenen](how-to-apply-coda-statements.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="1f10a-112">For more information, see [Apply CODA Statements](how-to-apply-coda-statements.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="caecc-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="caecc-113">See Also</span></span>  
- <span data-ttu-id="caecc-114">[CODA-bankafschriften](coda-bank-statements.md) </span><span class="sxs-lookup"><span data-stu-id="caecc-114">[CODA Bank Statements](coda-bank-statements.md) </span></span>  
- <span data-ttu-id="caecc-115">[Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md) </span><span class="sxs-lookup"><span data-stu-id="caecc-115">[Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) </span></span>  
- <span data-ttu-id="caecc-116">[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) </span><span class="sxs-lookup"><span data-stu-id="caecc-116">[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) </span></span>  
- <span data-ttu-id="caecc-117">[CODA-afschriften vereffenen](how-to-apply-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="caecc-117">[Apply CODA Statements](how-to-apply-coda-statements.md) </span></span>  
- <span data-ttu-id="caecc-118">[Financiële dagboeken maken](how-to-create-financial-journals.md) </span><span class="sxs-lookup"><span data-stu-id="caecc-118">[Create Financial Journals](how-to-create-financial-journals.md) </span></span>  
- <span data-ttu-id="caecc-119">[CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="caecc-119">[Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md) </span></span>  
- [<span data-ttu-id="caecc-120">CODA-afschriften handmatig overbrengen en boeken</span><span class="sxs-lookup"><span data-stu-id="caecc-120">Manually Transfer and Post CODA Statements</span></span>](how-to-manually-transfer-and-post-coda-statements.md)
+## <a name="see-also"></a><span data-ttu-id="1f10a-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1f10a-113">See Also</span></span>  
+ <span data-ttu-id="1f10a-114">[CODA-bankafschriften](coda-bank-statements.md) </span><span class="sxs-lookup"><span data-stu-id="1f10a-114">[CODA Bank Statements](coda-bank-statements.md) </span></span>  
+ <span data-ttu-id="1f10a-115">[Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md) </span><span class="sxs-lookup"><span data-stu-id="1f10a-115">[Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) </span></span>  
+ <span data-ttu-id="1f10a-116">[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) </span><span class="sxs-lookup"><span data-stu-id="1f10a-116">[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) </span></span>  
+ <span data-ttu-id="1f10a-117">[CODA-afschriften vereffenen](how-to-apply-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="1f10a-117">[Apply CODA Statements](how-to-apply-coda-statements.md) </span></span>  
+ <span data-ttu-id="1f10a-118">[Financiële dagboeken maken](how-to-create-financial-journals.md) </span><span class="sxs-lookup"><span data-stu-id="1f10a-118">[Create Financial Journals](how-to-create-financial-journals.md) </span></span>  
+ <span data-ttu-id="1f10a-119">[CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="1f10a-119">[Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md) </span></span>  
+ [<span data-ttu-id="1f10a-120">CODA-afschriften handmatig overbrengen en boeken</span><span class="sxs-lookup"><span data-stu-id="1f10a-120">Manually Transfer and Post CODA Statements</span></span>](how-to-manually-transfer-and-post-coda-statements.md)
 
