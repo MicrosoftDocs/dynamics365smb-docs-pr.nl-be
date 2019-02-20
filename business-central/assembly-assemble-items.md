@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ce03eb7a3685f53869795ded646ef6917a1730a
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
@@ -43,6 +43,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Verkoop componenten die nu niet verkrijgbaar zijn door een gekoppelde assemblageorder te maken om het volledige of gedeeltelijke verkooporderaantal te leveren.|[Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)|
 |Als sommige op-order-assembleren-artikelen al in de voorraad zijn, trekt u die hoeveelheid af van de assemblageorder en reserveert u deze vanuit voorraad.|[Voorraadartikelen in assembleren-op-order-stromen verkopen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Wanneer u assemblageartikelen uit voorraad verkoopt en niet alle artikelen zijn beschikbaar, kunt u ook een assemblageorder starten om automatisch een gedeelte van of het hele verkooporderaantal te leveren.|[Op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Maak aangepaste componenten voor verkoopraamcontracten voordat u periodiek de feitelijke verkooporders maakt volgens de raamcontractovereenkomst.|[Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)|
 |Een geboekte assemblyorder ongedaan maken, bijvoorbeeld omdat de order met fouten is geboekt die moeten worden gecorrigeerd.|[Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)|
 |Informatie weergeven over het verschil tussen de assemblagestuklijsten en productiestuklijsten en de bijbehorende verwerkingsverschillen.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|
 |Meer informatie weergeven over hoe assemblageverbruik en -output worden verwerkt wanneer u assemblageorders boekt en over hoe het afgeleide artikel- en resourcekosten worden verwerkt en naar het grootboek worden gedistribueerd.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
@@ -54,5 +55,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

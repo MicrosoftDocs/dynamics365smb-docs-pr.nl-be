@@ -1,6 +1,6 @@
 ---
 title: IBS-logposten archiveren
-description: IBS-logboekregels met de verwerkingsstatus **Verwerkt** kunnen worden gearchiveerd. IBS-logboeken bevatten gegevens over bestanden voor elektronisch bankieren die tijdens elektronische banktransfers van Isabel worden gemaakt.
+description: IBS-logboekregels met de verwerkingsstatus Verwerkt kunnen worden gearchiveerd. IBS-logboeken bevatten gegevens over bestanden voor elektronisch bankieren die tijdens elektronische banktransfers van Isabel worden gemaakt.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 35a882ff23db02b1e12ac07ff237e2fadb304ba2
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: a13bcc556a4d83576ec58a961f10d430f1b1f39f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="archive-ibs-log-entries"></a>IBS-logposten archiveren

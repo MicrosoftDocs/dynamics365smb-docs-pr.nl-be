@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
+
+**Opmerking**: deze procedure moet op een demonstratiebedrijf worden uitgevoerd met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
+
 Ter ondersteuning van just-in-time voorraadbeheer en de mogelijkheid tot het aanpassen van producten op basis van klantaanvragen, kunnen assemblageorders automatisch worden gemaakt en worden gekoppeld zodra de verkooporderregel is gemaakt. De koppeling tussen de verkoopvraag en het assemblage-aanbod stelt de verkooporderverwerkers in staat om het assemblageartikel aan te passen en leveringsdatums af te spreken op basis van de beschikbaarheid van componenten. Bovendien worden assemblageverbruik en -uitvoer automatisch geboekt bij de verzending van de gekoppelde verkooporder.  
 
 Er zijn speciale functies beschikbaar om de verzending van aantallen voor assembleren op basis van orders te bepalen, zoals in basis- als in geavanceerde magazijnconfiguraties. Wanneer werknemers die verantwoordelijk zijn voor het assembleren, klaar zijn met het assembleren van onderdelen of het gehele op-order-assembleren-aantal, registreren ze dit in het veld **Te verzenden aantal** op de magazijnverzendregel in geavanceerde configuraties en kiezen ze vervolgens **Verzending boeken**. Het resultaat is dat de bijbehorende assemblageuitvoer, met inbegrip van het gerelateerde materiaalverbruik, wordt geboekt en dat een verkoopverzending voor de hoeveelheid wordt geboekt voor de gekoppelde verkooporder. In dit scenario wordt het geavanceerde magazijnproces geïllustreerd.  

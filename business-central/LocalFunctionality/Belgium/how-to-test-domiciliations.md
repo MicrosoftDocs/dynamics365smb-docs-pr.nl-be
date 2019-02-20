@@ -1,6 +1,6 @@
 ---
 title: "Domiciliëringen testen"
-description: "Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport **Domiciliëringsdagboek - Test** gebruiken. Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen."
+description: "Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport Domiciliëringsdagboek - Test gebruiken. Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d7734789136b4011464422968e29fd0aea0f938
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 2bffdd7f75bff6aee00c072572f4a55bddc364d1
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="test-domiciliations"></a>Domiciliëringen testen

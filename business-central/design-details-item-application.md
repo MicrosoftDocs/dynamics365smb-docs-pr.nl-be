@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
@@ -93,9 +93,9 @@ U maakt een vaste vereffening door de velden **Vereffeningsnr. artikelpost** of 
 ### <a name="example--fixed-application-in-purchase-return"></a>Voorbeeld - Vaste vereffening in inkoopretour  
 Het volgende voorbeeld, dat het effect toont van vaste vereffening van een inkoopretour van een artikel met de waarderingsmethode FIFO, is gebaseerd op het volgende scenario:  
 
-1. In post nummer 1 boekt de gebruiker een inkoop tegen kosten van LV 10,00.  
-2. In volgnummer 2 boekt de gebruiker een inkoop tegen kosten van LV 20,00.  
-3. In post nummer 3 boekt de gebruiker een inkoopretour. De gebruiker maakt een vaste vereffening voor de tweede inkoop door het artikelpostnummer in te voeren in het veld **Vereffeningsnr. artikelpost** op de inkoopretourorderregel.  
+1. In post 1 boekt de gebruiker een inkoop tegen kosten van LV 10,00.  
+2. In post 2 boekt de gebruiker een inkoop tegen kosten van LV 20,00.  
+3. In post 3 boekt de gebruiker een inkoopretour. De gebruiker maakt een vaste vereffening voor de tweede inkoop door het artikelpostnummer in te voeren in het veld **Vereffeningsnr. artikelpost** op de inkoopretourorderregel.  
 
 De volgende tabel toont artikelposten die afkomstig zijn uit het scenario.  
 
@@ -111,7 +111,7 @@ De volgende tabel toont de artikelvereffeningspost die resulteert uit de vaste v
 
 |Boekingsdatum|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|Artikelpostnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06-01-20|1|3|10|3|  
+|06-01-20|2|3|10|3|  
 
 De kosten van de tweede inkoop, LV 20,00, worden dan op de juiste wijze doorgegeven aan de inkoopretour.  
 

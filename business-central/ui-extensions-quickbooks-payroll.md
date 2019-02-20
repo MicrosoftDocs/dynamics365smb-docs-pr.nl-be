@@ -1,30 +1,31 @@
 ---
-title: De Quickbooks-extensie Salarisbestand importeren gebruiken | Microsoft Docs
-description: Beschrijft hoe u de extensie gebruikt om salaris- en loontransacties te importeren uit de salarisservice van Quickbooks.
+title: De QuickBooks-extensie Salarisbestand importeren gebruiken | Microsoft Docs
+description: Dit onderwerp beschrijft hoe u de extensie gebruikt om salaris- en loontransacties te importeren uit de salarisservice van QuickBooks.
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 10/01/2018
-ms.author: SorenGP
+ms.date: 01/09/2019
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: caf928b653b528c10820a8dfa8feff498c88f4ff
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension"></a>De Quickbooks-extensie Salarisbestand importeren
-Als u salarisbetalingen en gerelateerde transacties wilt verantwoorden, moet u financiële transacties die zijn uitgevoerd door uw leverancier van salarisverwerking, importeren en boeken naar het grootboek.
+# <a name="the-quickbooks-payroll-file-import-extension"></a>De QuickBooks-extensie Salarisbestand importeren
+Gebruik de QuickBooks-extensie Salarisbestand importeren om loonlijsttransacties te importeren uit QuickBooks in grootboekrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit is bijvoorbeeld handig als u overstapt van QuickBooks op [!INCLUDE[d365fin](includes/d365fin_md.md)] of als u uw salarisadministratie uitbesteedt, maar deze ook wilt bijhouden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverwerking ontvangt, op de pagina **Fin. dagboek**. Vervolgens kunt u de externe rekeningen in het loonlijstbestand toewijzen aan de betreffende grootboekrekeningen. Als laatste boekt u de loonlijsttransacties op basis van de rekeningtoewijzing. Zie [Salaristransacties importeren](finance-how-import-payroll-transactions.md) voor meer informatie.
+## <a name="steps-to-import-payroll-data"></a>Stappen om salarisgegevens te importeren
+De eerste stap is voor u, of wellicht uw accountant, om de exportfuncties in QuickBooks te gebruiken om de salarisgegevens naar een .IIF-bestand te exporteren. De tweede stap is de pagina **Dagboeken** in [!INCLUDE[d365fin](includes/d365fin_md.md)] te openen en de actie **Salaristransacties importeren** te gebruiken om het bestand te importeren. Tijdens het importproces koppelt u de grootboekrekeningen uit QuickBooks aan corresponderende rekeningen [!INCLUDE[d365fin](includes/d365fin_md.md)]. De laatste stap is de loonlijsttransacties in [!INCLUDE[d365fin](includes/d365fin_md.md)] te boeken op basis van de rekeningtoewijzing. 
 
-Met de Quickbooks-extensie voor import van salarisbestanden kunt u salaristransacties importeren uit de Quickbooks-salarisservice.
+Zie [Salaristransacties importeren](finance-how-import-payroll-transactions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)    

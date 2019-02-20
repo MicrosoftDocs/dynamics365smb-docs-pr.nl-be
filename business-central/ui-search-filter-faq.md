@@ -11,10 +11,10 @@ ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b34acf29e142ef1a892f6c3c5a0ce2b6b8f7cb29
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
 ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 
@@ -24,23 +24,23 @@ In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Is er een verschil tussen zoeken en filteren?
 Ja.
 - Zoeken is eenvoudig en breed: er worden records gezocht die de zoektekst bevatten in zichtbare velen op de pagina. Er wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters.
-- Filteren is zeer flexibel en kan op specifieke velden worden toegepast, inclusief velden die niet zichtbaar zijn op de pagina: er worden records weergegeven met exacte, hoofdlettergevoelige overeenkomsten, maar filtering kan worden aangepast met krachtige zoeksymbolen, tokens en formules. Voor meer informatie over hoe u deze functies gebruikt, raadpleegt u [Sorteren, zoeken en filteren in lijsten](ui-enter-criteria-filters.md)
+- Filteren is zeer flexibel en kan op specifieke velden worden toegepast, inclusief velden die niet zichtbaar zijn op de pagina: er worden records weergegeven met exacte, hoofdlettergevoelige overeenkomsten, maar filtering kan worden aangepast met krachtige zoeksymbolen, tokens en formules. Voor meer informatie over hoe u deze functies gebruikt raadpleegt u [Sorteren, zoeken en filteren in lijsten](ui-enter-criteria-filters.md).
 
 ## <a name="is-there-a-keyboard-experience-for-search-and-filter"></a>Is er een toetsenbordervaring voor zoeken en filteren?
 Zoeken en filteren zijn zeer geoptimaliseerd voor gebruikers die muisvrije interactie prefereren om efficiënt met hun gegevens te werken. Er zijn allerlei sneltoetsen die na elkaar worden gebruikt om zeer snel te werken. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Is het filterdeelvenster beschikbaar voor alle lijsten?
-Het filterdeelvenster is beschikbaar in schermen waar de lijst de primaire inhoud op de pagina is, zoals werkbladen en lijstpagina's, inclusief lijsten die bereikbaar zijn vanaf de navigatiebalk. Het filterdeelvenster is nog niet beschikbaar voor ingesloten lijsten, zoals verkoopregels op verkooporders, of voor lijsten met dynamische kolommen (vaak matrixpagina's genoemd). 
+Het filterdeelvenster is beschikbaar op pagina's waar de lijst de primaire inhoud op de pagina is, zoals werkbladen en lijstpagina's, inclusief lijsten die bereikbaar zijn vanaf de navigatiebalk. Het filterdeelvenster is nog niet beschikbaar voor ingesloten lijsten, zoals verkoopregels op verkooporders, of voor lijsten met dynamische kolommen (vaak matrixpagina's genoemd). 
 
 ## <a name="how-can-i-save-my-filters"></a>Hoe kan ik mijn filters opslaan?
-Uw filters en wijzigingen in vooraf gedefinieerde filters worden de hele sessie onthouden (zolang u aangemeld blijft), zelfs als u van de pagina weg navigeert. Het is momenteel niet mogelijk filters permanent op te slaan.
-In tegenstelling tot filters wordt zoektekst niet onthouden wanneer u van een pagina weg navigeert.
+
+Uw filters en wijzigingen in vooraf gedefinieerde filters worden de hele sessie onthouden (zolang u aangemeld blijft), zelfs als u van de pagina weg navigeert. Het is momenteel niet mogelijk filters permanent op te slaan. In tegenstelling tot filters wordt zoektekst niet onthouden wanneer u van een pagina weg navigeert.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Is dit hetzelfde als Geavanceerde Filters en Limiettotalen in Microsoft Dynamics NAV?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bouwt voort op deze populaire functies en levert een moderne en zeer praktische ervaring voor het zoeken en analyseren van uw gegevens. Dankzij meer toetsenbordsneltoetsen en de invoering van zoeken overtreft [!INCLUDE[d365fin](includes/d365fin_md.md)] de functionaliteit in Dynamics NAV.
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Kan ik zoeken en filteren met de bijbehorende apps en de Outlook-Invoegtoepassing?
-Op verschillende formulierfactoren, zoals mobiele apparaten of in Outlook, kunt u zoeken in lijsten, maar kunt u meestal niet filteren op afzonderlijke velden.
+Op verschillende weergavebestemmingen, zoals mobiele apparaten of in Outlook, kunt u zoeken in lijsten, maar kunt u meestal niet filteren op afzonderlijke velden.
 
 ## <a name="is-the-filter-pane-available-for-filtering-reports"></a>Is het filterdeelvenster beschikbaar om rapporten te filteren?
 Nee. Het rapportfilterdialoogvenster, dat vaak de aanvraagpagina wordt genoemd, gebruikt momenteel een andere ervaring die sommige, maar niet alle van de mogelijkheden van het filterdeelvenster biedt.

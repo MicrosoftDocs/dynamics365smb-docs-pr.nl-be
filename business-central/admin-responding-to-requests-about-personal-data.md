@@ -9,15 +9,15 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
 # <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
-Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze klopt, kan een beheerder antwoorden op aanvragen met behulp van de opties onder **Gegevensprivacy** in het rolcentrum **Gebruikers, gebruikersgroepen en machtigingen beheren** of, als u de Windows-client gebruikt, in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
+Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt ingedeeld en zeker weet dat ze kloppen, kan een beheerder op aanvragen reageren met behulp van de opties onder **Gegevensprivacy** in het rolcentrum **Gebruikers, gebruikersgroepen en machtigingen beheren** of, als u de Windows-client gebruikt, in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Soorten aanvragen
 
@@ -47,8 +47,8 @@ Op de pagina Privacy op werk en school kunt u ook uw account sluiten. We raden u
 U kunt nog steeds personen als geblokkeerd vanwege privacy markeren en transacties exporteren, bewerken of verwijderen, zoals elders in dit artikel uitgelegd.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Gegevens uit tabellen exporteren die niet zijn geclassificeerd op betrokkene
-Als u in een situatie zit waarin u gegevens moet exporteren die niet zijn geclassificeerd op een manier waardoor deze automatisch worden geëxporteerd, zoals gegevens uit de tabel Profielantwoorden, moet u het volgende doen: 
--   Vraag u af of u deze aanvullende gegevens echt wilt of moet exporteren die niet gerelateerd zijn aan de contactpersoon, wat betekent dat deze er geen directe relatie mee heeft. 
+Als u in een situatie zit waarin u gegevens moet exporteren die niet zijn geclassificeerd op een manier waardoor deze automatisch worden geëxporteerd, zoals gegevens uit de tabel Profielantwoorden, moet u het volgende doen:
+-   Vraag u af of u deze aanvullende gegevens echt wilt of moet exporteren die niet gerelateerd zijn aan de contactpersoon, wat betekent dat deze er geen directe relatie mee heeft.
 -   Voeg deze tabel en relatie handmatig aan het Rapid Start-pakket toe en exporteer deze direct vanuit het Rapid Start-pakket. Daarom genereren we een Rapid Start-pakket voor u, zodat u het in situaties als deze kunt aanpassen.
 
 ## <a name="handling-data-about-minors"></a>Gegevens over minderjarigen verwerken

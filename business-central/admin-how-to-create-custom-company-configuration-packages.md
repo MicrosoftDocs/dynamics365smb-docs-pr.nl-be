@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Aangepaste configuratiepakketten voor bedrijven maken
@@ -39,11 +39,10 @@ Een andere benadering zou zijn om een pakket te maken dat de tabellen bevat waar
 -   Btw-boekingsgroepinstellingen  
 -   Voorraadboekingsinstellingen  
 
-Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Instellingen** in en kiest u vervolgens de gerelateerde koppeling.  
+Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Handmatige instelling** in en kiest u vervolgens de gerelateerde koppeling.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Een aangepast configuratiepakket voor een bedrijf maken  
-1.  Definieer een nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)], ***NIET MOGELIJK Koppeling naar Help voor "Een nieuwe tenant maken"***.   
-2.  Maak een nieuw bedrijf voor de branche- of oplossingssjabloon. Zie [Een nieuw bedrijf maken](admin-how-to-create-a-new-company.md) voor meer informatie.  
+1.  Maak een nieuw bedrijf. Zie voor meer informatie [Nieuwe bedrijven maken in Business Central](about-new-company.md).  
 3.  Stel het nieuwe bedrijf in op de door u benodigde wijze. Vul alle vereiste instellingentabellen in.  
 4.  Open het nieuwe bedrijf.
 5. Open de pagina **Configuratiewerkblad**.  

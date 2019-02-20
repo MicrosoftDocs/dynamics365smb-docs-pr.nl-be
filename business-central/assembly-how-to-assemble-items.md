@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
@@ -61,7 +61,7 @@ In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op 
 
     > [!NOTE]  
     >  Om ervoor te zorgen dat het boeken van het verbruik van onderdelen overeenkomt met het boeken van de output van het assemblageartikel, worden de velden met aantallen in de orderregels van de assemblageorder automatisch aangepast aan de waarde die u in het veld **Te assembleren aantal** invoert.  
-7.  Geef op orderregels van assemblageorders van het type **Item** of **Bron**, in het veld **Te verbruiken aantal**, het aantal eenheden op dat u als verbruikt wilt boeken, de volgende keer dat u de assemblageorder boekt. Standaard wordt het verwachte te verbruiken aantal volgens de assemblagestuklijst en het aantal van de assemblage-orderkop ingevoegd, maar u kunt dit vergroten of verkleinen, om bijvoorbeeld een overmatig verbruik van onderdelen aan te geven of het feit dat extra bronnen gebruikt zijn.  
+7.  Geef op orderregels van assemblageorders van het type **Item** of **Bron**, in het veld **Te verbruiken aantal**, het aantal eenheden op dat u als verbruikt wilt boeken, de volgende keer dat u de assemblageorder boekt.
 8.  Wanneer u gereed bent om gedeeltelijk of volledig te boeken, kiest u de actie **Boeken**.  
 
     > [!NOTE]  

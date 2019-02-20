@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
+ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
 ms.contentlocale: nl-be
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 02/01/2019
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokale functionaliteit in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -29,20 +29,23 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land de gerela
 | --- | --- |--- |
 | Europa |  | |
 |        | Oostenrijk | [Lokale functionaliteit voor Oostenrijk](localfunctionality/austria/austria-local-functionality.md) |
-|        | België |  [Lokale functionaliteit voor Australië](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | België |  [Belgische lokale functionaliteit](localfunctionality/belgium/belgium-local-functionality.md) |
 |        | Denemarken | [Lokale functionaliteit voor Denemarken](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Duitsland | [Lokale functionaliteit voor Duitsland](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Lokale functionaliteit voor Finland](localfunctionality/finland/finland-local-functionality.md) |
 |        | Frankrijk | [Lokale functionaliteit voor Frankrijk](localfunctionality/france/france-local-functionality.md) |
+|        | IJsland | [Lokale functionaliteit voor IJsland](localfunctionality/iceland/iceland-local-functionality.md) |
 |        | Italië | [Lokale functionaliteit voor Italië](localfunctionality/italy/italy-local-functionality.md) |
 |        | Nederland | [Nederlandse lokale functionaliteit](localfunctionality/netherlands/netherlands-local-functionality.md) |
+|        | Noorwegen | [Lokale functionaliteit voor Noorwegen](localfunctionality/norway/norway-local-functionality.md) |
 |        | Spanje | [Lokale functionaliteit voor Spanje](localfunctionality/spain/spain-local-functionality.md) |
 |        | Zweden | [Lokale functionaliteit voor Zweden](localfunctionality/sweden/sweden-local-functionality.md) |
 |        | Zwitserland | [Lokale functionaliteit voor Zwitserland](localfunctionality/switzerland/switzerland-local-functionality.md) |
 |        | Verenigd Koninkrijk | [Lokale functionaliteit voor het Verenigd Koninkrijk](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
 | Noord-Amerika |       |  |
-|               | Canada|[Lokale functionaliteit voor Canada](localfunctionality/canada/canada-local-functionality.md) |
-|               | Verenigde Staten|[Lokale functionaliteit voor de Verenigde Staten](localfunctionality/unitedstates/united-states-local-functionality.md) |
+|        | Canada|[Lokale functionaliteit voor Canada](localfunctionality/canada/canada-local-functionality.md) |
+|        | Mexico | [Lokale functionaliteit voor Mexico](localfunctionality/mexico/mexico-local-functionality.md) |
+|        | Verenigde Staten|[Lokale functionaliteit voor de Verenigde Staten](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Azië/Pacific |       |  |
 |        | Australië | [Lokale functionaliteit voor Australië](localfunctionality/australia/australia-local-functionality.md) |
 |        | Nieuw-Zeeland | [Lokale functionaliteit voor Nieuw Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |

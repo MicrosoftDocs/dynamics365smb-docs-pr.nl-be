@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
@@ -42,9 +42,16 @@ In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Z
 7. Herhaal stap 5 tot en met 6 totdat u alle budgetbedragen hebt ingevoerd.  
 
 > [!NOTE]  
->  Op het sneltabblad **Filters** kunt u de budgetinformatie filteren op budgetdimensies die u hebt ingesteld onder de budgetnaam.   
+>  Op het sneltabblad **Filters** kunt u de budgetinformatie filteren op budgetdimensies die u hebt ingesteld onder de budgetnaam.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Grootboekbudgetten exporteren en importeren met Excel
+Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar Excel exporteren voor verdere verwerking of analyse. Zie voor meer informatie [Uw bedrijfsgegevens exporteren naar Excel](about-export-data.md).
+
+> [!NOTE]
+> Het rekeningschema, waarop grootboekbudgetten zijn gebaseerd, bevat regels van het rekeningtype Kop die het totaal bevatten van de regels eronder. Wanneer u een grootboekbudget exporteert, worden gegevens op alle regels geëxporteerd, ongeacht het rekeningtype. Alleen gegevens van het rekeningtype Boeking kunnen echter terug worden geïmporteerd. Zodoende: <br /><br /> **Wanneer u een grootboekbudget importeert, worden eventuele waarden op kopregels verwijderd.** <br /><br /> Hierdoor worden verkeerde totalen voorkomen nadat gegevens zijn geïmporteerd die zijn gemaakt of bewerkt in Excel.<br /><br /> **Scenario**: u weet dat de nieuwe gebudgetteerde salarissenkosten LV 1.200.000 zullen zijn. U wilt de afdeling Salarissen laten budgetteren voor drie specifieke regels (van het rekeningtype Boeking) voor fulltime werknemers, parttime werknemers en invalkrachten. De drie regels worden gegroepeerd onder de kopregel Salarissen.<br /><br />U voert 1.200.000 op de kopregel in, exporteert het budget naar Excel en stuurt het vervolgens naar de afdeling Salarissen, waarbij u hen aangeeft de LV 1.200.000 te distribueren.<br /><br /> De afdeling Salarissen distribueert het bedrag over de drie boekingsrekeningen. Wanneer u terug importeert in het grootboekbudget, worden de drie rekeningen ingevuld met de nieuwe Excel-gegevens, tot een totaal van 1.200.000, en is de kopregel leeg.
 
 ## <a name="see-also"></a>Zie ook
+[Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Financiën](finance.md)  
 [Bedrijfsinformatie](bi.md)  
 [Financiën instellen](finance-setup-finance.md)  

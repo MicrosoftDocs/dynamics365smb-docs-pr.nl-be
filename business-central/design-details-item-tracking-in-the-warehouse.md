@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Beschikbaarheid van artikeltracering | Microsoft Docs'
-description: In dit onderwerp wordt beschreven hoe u ervoor zorgt dat de mensen die orders verwerken, kunnen vertrouwen op de beschikbaarheid van serie- of lotnummers.
+title: Ontwerpdetails - Artikeltracering in het magazijn | Microsoft Docs
+description: De verwerking van serie- en lotnummers is hoofdzakelijk een magazijntaak. Daarom hebben alle inkomende en uitgaande magazijndocumenten standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers. Omdat het reserveringsysteem echter op artikelposten is gebaseerd, worden magazijnactiviteitsdocumenten die alleen magazijnposten registreren, niet volledig ondersteund.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,40 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 10/01/2018
+ms.date: 01/15/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fcdfc219f94462048474acdef259f671e1c8a402
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="design-details-item-tracking-availability"></a>Ontwerpdetails: Beschikbaarheid artikeltracering
-De pagina's **Artikeltraceringsregels** en **Artikeltraceringssamenvatting** bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd. Zie voor meer informatie [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md).  
+# <a name="design-details-item-tracking-in-the-warehouse"></a>Ontwerpdetails: Artikeltracering in het magazijn
+De verwerking van serie- en lotnummers is hoofdzakelijk een magazijntaak. Daarom hebben alle inkomende en uitgaande magazijndocumenten standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers.  
 
-Wanneer u de pagina **Artikeltraceringsregels** opent, worden beschikbaarheidsgegevens opgehaald uit de tabel **Artikelpost** en **Reserveringspost** zonder datumfilter. Wanneer u het veld **Serienummer** of het veld **Lotnr.** kiest, wordt de pagina **Artikeltraceringssamenvatting** geopend met een overzicht van de artikeltraceringsgegevens in de tabel **Reserveringspost**. De lijst bevat de volgende informatie over elk serie- of lotnummer op de artikeltraceringsregel:  
+Omdat het reserveringsysteem echter op artikelposten is gebaseerd, worden magazijnactiviteitsdocumenten die alleen magazijnposten registreren, niet volledig ondersteund. Omdat reserveringen en artikeltraceringsnummers alleen op locatieniveau kunnen worden verwerkt, en niet op het niveau van de opslaglocatie en de zone, kan de pagina **Artikeltraceringsregels** niet worden geopend vanuit magazijnactiviteitsdocumenten. Hetzelfde geldt voor de pagina **Reservering**.  
 
-|Veld|Omschrijving|  
-|---------------------------------|---------------------------------------|  
-|**Totaal aantal**|Het totale aantal van het lot- of serienummer dat zich momenteel in voorraad bevindt.|  
-|**Totaal verzocht aantal**|Het totale aantal van het lot- of serienummer waarom momenteel in alle documenten wordt verzocht.|  
-|**Huidig wachtend aantal**|Het aantal dat is ingevoerd in de huidige instantie van de pagina **Artikeltraceringsregels**, maar nog niet definitief is opgeslagen in de database.|  
-|**Totaal beschikbaar aantal**|Het aantal van het serie- of lotnummer dat beschikbaar is voor aanvraag van de gebruiker.<br /><br /> Dit aantal wordt als volgt berekend op basis van andere velden op de pagina:<br /><br /> totaal aantal – (totaal aangevraagd aantal + huidig wachtend aantal).|  
+Nadat een serienummer of lotnummer is toegevoegd aan een artikel op een magazijnlocatie, kan het vrijelijk binnen het magazijn worden verplaatst en geherclassificeerd met behulp van een onafhankelijke artikeltraceringstructuur die niet gerelateerd is aan het reserveringsysteem. De velden **Serienummer** en **Lotnr.** zijn rechtstreeks toegankelijk op magazijndocumentregels. Wanneer het serie- of lotnummer later wordt gebruikt bij uitgaande posten, wordt het gesynchroniseerd met het reserveringssysteem als onderdeel van de normale opslaglocatieherwaardering. Zie [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md) voor meer informatie.  
 
-> [!NOTE]  
->  U kunt de informatie in de voorgaande tabel ook weergeven door de functie **Posten selecteren** op de pagina **Artikeltraceringsregels** te gebruiken.  
-
-Om databaseprestaties te handhaven, worden beschikbaarheidsgegevens slechts eenmaal uit de database opgehaald wanneer u de pagina **Artikeltraceringsregels** opent en de functie **Beschikbaarheid vernieuwen** op de pagina gebruikt.  
-
-## <a name="calculation-formula"></a>Berekeningsformule  
-Zoals beschreven in de vorige tabel wordt de beschikbaarheid van een bepaald serie- of lotnummer als volgt berekend:  
-
-* totaal beschikbaar aantal = aantal op voorraad - (alle vraag + aantal nog niet vastgelegd in de database)  
-
-> [!IMPORTANT]  
->  Deze formule geeft aan dat de beschikbaarheidsberekening van serie- of lotnummers alleen rekening houdt met voorraad en verwachte ontvangsten negeert. Levering die nog niet naar voorraad is geboekt, is niet van invloed op beschikbaarheid van artikeltracering, in tegenstelling tot normale artikelbeschikbaarheid waarbij verwachte ontvangsten worden opgenomen.  
+Het reserveringsysteem houdt echter rekening met magazijnactiviteiten wanneer beschikbaarheid wordt berekend. Artikelen die zijn toegewezen aan picks, of zijn geregistreerd als gepickt, kunnen bijvoorbeeld niet worden gereserveerd. Zie voor meer informatie [Ontwerpdetails: Magazijnbeschikbaarheid](design-details-availability-in-the-warehouse.md).
 
 ## <a name="see-also"></a>Zie ook  
-[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
+[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)  
+[Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md)  
+[Ontwerpdetails: Magazijnbeschikbaarheid](design-details-availability-in-the-warehouse.md)  
+[Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)
 

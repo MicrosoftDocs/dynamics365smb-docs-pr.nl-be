@@ -1,6 +1,6 @@
 ---
 title: Betalingsbestanden uploaden naar een Isabel-server
-description: "Betalingsbestanden kunnen worden geüpload via de pagina **IBS-logboeken**. U kunt alleen betalingsbestanden uploaden als de velden **Uploadintegratiemodus** en **Downloadintegratiemodus** op de pagina **Elektronisch bankieren instellen** zijn ingesteld op **Met toezicht**."
+description: "Betalingsbestanden kunnen worden geüpload via de pagina IBS-logboeken. U kunt alleen betalingsbestanden uploaden als de velden Uploadintegratiemodus en Downloadintegratiemodus op de pagina Elektronisch bankieren instellen zijn ingesteld op Met toezicht."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2621f8f73cd00baecbb47c799e9e2adbc0d93bd6
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 34ca4afa9714336652ed654194f02e5493a750ee
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="upload-payment-files-to-an-isabel-server"></a>Betalingsbestanden uploaden naar een Isabel-server

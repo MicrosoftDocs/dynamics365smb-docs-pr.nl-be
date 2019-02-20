@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
 ## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] is een van de stappen in de begeleide instelling Aan de slag op de pagina **Uw bedrijf beheren binnen Office 365**. Als u op die pagina **Instellen in Outlook** kiest, moet u uw gebruikersnaam en wachtwoord voor Office 365 opgeven. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook.  
+Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing voor Outlook. In de begeleide instelling **Uw bedrijfsinbox instellen in Outlook** kunt u de verbinding instellen voor uzelf of voor uw organisatie. Als uw organisatie Office 365 gebruikt, moet u uw Office 365-gebruikersnaam en -wachtwoord opgeven. Als uw organisatie Office 365 niet gebruikt , moet u informatie opgeven over de Exchange Server die u gebruikt. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook.  
 
-Wanneer u daarna Outlook start, ziet u een e-mailbericht van de Business Central-beheerder. De nieuwe invoegtoepassing wordt toegevoegd aan het Outlook-lint en in Outlook-webtoegang kunt u deze zien in het invoegtoepassinglint, direct boven de hoofdtekst van het e-mailbericht. De invoegtoepassing zelf wordt regelmatig bijgewerkt, en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
+Wanneer u daarna Outlook start, wordt er een e-mailbericht van de Dynamics 365 Business Central-beheerder weergegeven. De nieuwe invoegtoepassingen zijn toegevoegd aan het Outlook-lint en in de Outlook-webapp ziet u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen direct boven of onder de hoofdtekst van het e-mailbericht. De invoegtoepassingen worden regelmatig bijgewerkt en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
 Sommige bedrijven die Office 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Office 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Office 365 gratis uitproberen](https://products.office.com/try).  
 
@@ -57,7 +57,10 @@ U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](incl
 In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog steeds niet beschikbaar is, moet u de manifestbestanden van de invoegtoepassing ophalen. Neem contact op met uw Office 365-beheerder voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
+
 [Aan de slag](product-get-started.md)  
+[Business Central op mijn mobiele apparaat krijgen](install-mobile-app.md)  
+[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

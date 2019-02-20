@@ -1,21 +1,17 @@
 ---
 title: Vooruitbetalingen instellen | Microsoft Docs
 description: "Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur."
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: prepayment
+ms.date: 12/04/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 3038fc256ec45b8eb51abe3f71b7fcc7d273b353
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
@@ -25,7 +21,9 @@ Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instelle
 
 U kunt het percentage van het regelbedrag definiëren dat wordt gefactureerd voor een vooruitbetaling. Nadat u de instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt de bedragen op de factuur wijzigen zoals gewenst. U kunt bijvoorbeeld een totaalbedrag opgeven voor de hele order.  
 
-Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of diensten heeft ontvangen, moet u grootboekrekeningen instellen waarop de vooruitbetaalde bedragen staan totdat de uiteindelijke factuur wordt geboekt. Vooruitbetaalde verkopen moeten worden vastgelegd op een passivarekening totdat de artikelen worden verzonden. Vooruitbetaalde inkopen moeten worden vastgelegd op een activarekening totdat de artikelen worden ontvangen. Daarnaast moet u een afzonderlijke grootboekrekening instellen voor elke btw-id.
+Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of diensten heeft ontvangen, moet u grootboekrekeningen instellen waarop de vooruitbetaalde bedragen staan totdat de uiteindelijke factuur wordt geboekt. Vooruitbetaalde verkopen moeten worden vastgelegd op een passivarekening totdat de artikelen worden verzonden. Vooruitbetaalde inkopen moeten worden vastgelegd op een activarekening totdat de artikelen worden ontvangen. Daarnaast moet u een afzonderlijke grootboekrekening instellen voor elke btw-id.  
+
+[!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen  
 
@@ -78,8 +76,11 @@ Een order kan een vooruitbetalingspercentage hebben in de verkoopkop en een ande
 Met andere woorden: het vooruitbetalingspercentage op de klantenkaart geldt alleen als er geen vooruitbetalingspercentage is ingesteld voor het artikel. Als u echter de inhoud van het veld **Vooruitbetaling %** wijzigt in de verkoop- of de inkoopkop nadat u de regels hebt gemaakt, wordt het vooruitbetalingspercentage op alle regels bijgewerkt. Hierdoor wordt het gemakkelijk om een order te maken met een vast vooruitbetalingspercentage, ongeacht het percentage dat is ingesteld op artikelen.
 
 ## <a name="see-also"></a>Zie ook  
+
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[GST op vooruitbetalingen berekenen in Australië](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
+[GST op vooruitbetalingen berekenen in Nieuw-Zeeland](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Het grootboek en COA begrijpen](finance-general-ledger.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

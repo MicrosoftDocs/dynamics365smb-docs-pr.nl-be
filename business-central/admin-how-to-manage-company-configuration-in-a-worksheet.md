@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
@@ -108,8 +108,24 @@ Nadat u alle benodigde tabellen hebt toegevoegd aan een configuratiepakket, bepa
     > [!NOTE]  
     >  De tabellen blijven in het pakket, hoewel ze van het werkblad zijn verwijderd.  
 
+## <a name="to-review-and-customize-existing-database-data"></a>Bestaande databasegegevens controleren en aanpassen
+Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare databasegegevens weergeven en aanpassen aan de behoeften van uw klant. De databasetabel moet over een bijbehorende pagina beschikken.  
+
+## <a name="to-customize-data-in-the-database"></a>Gegevens in de database aanpassen  
+
+1.  Bepaal op de pagina **Configuratiewerkblad** van welke tabellen u de gegevens wilt bekijken of aanpassen.  
+
+    > [!NOTE]  
+    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.  
+
+2.  Kies de actie **Databasegegevens**.  
+
+     De [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina voor de pagina wordt geopend.  
+
+3.  Bekijk de beschikbare informatie. Wijzig deze zo nodig door records te verwijderen die niet relevant zijn of door nieuwe records toe te voegen.
+
 ## <a name="see-also"></a>Zie ook  
 [Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
 

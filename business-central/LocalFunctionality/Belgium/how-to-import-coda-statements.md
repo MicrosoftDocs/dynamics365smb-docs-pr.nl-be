@@ -1,6 +1,6 @@
 ---
 title: CODA-afschriften importeren
-description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in Business Central.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c56a8a7e36c01e7794dfb677e2e485eefe393d8
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 9e1fdb44770746f7c655194f13e6092f8fa6c385
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="import-coda-statements"></a>CODA-afschriften importeren

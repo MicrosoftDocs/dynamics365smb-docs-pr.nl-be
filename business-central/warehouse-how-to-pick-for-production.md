@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 33531bf23b8ae03a38ff176f31de3b7395ace052
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="pick-for-production-or-assembly"></a>Picken voor productie of assemblage
+# <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Picken voor assemblage of productie in standaardmagazijnconfiguraties
 Hoe u onderdelen voor productie- of assemblageorders opslaat, is afhankelijk van de vestigingsinstellingen van het magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
 In standaardmagazijnconfiguraties waarbij voor de vestiging pickverwerking vereist is, maar verzendingsverwerking niet, gebruikt u de pagina **Voorraadpick** om het picken van onderdelen te beheren en vast te leggen.  
 
 In standaardmagazijnconfiguraties moet u picken voor assemblageorders door gebruik te maken van de pagina **Voorraadverplaatsing**. Zie voor meer informatie de sectie 'Op-order-assembleren-artikelen met voorraadpicks afhandelen' in [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
-In geavanceerde magazijnconfiguraties waarin locaties picks en verzendingen vereisen, gebruikt u de pagina **Magazijnpick** om componenten naar productie- of assemblageorders te brengen.
+In geavanceerde magazijnconfiguraties waarin locaties picks en verzendingen vereisen, gebruikt u de pagina **Magazijnpick** om componenten naar productie- of assemblageorders te brengen. Zie voor meer informatie [Picken voor productie of assemblage in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 > [!NOTE]  
 >  Voor voorraadpicks en voorraadverplaatsingen gelden de volgende belangrijke verschillen:  
@@ -66,40 +66,7 @@ Als een assemblage-uitvoerstroom voor de locatie is ingesteld, wordt de waarde i
 
 Als geen opslaglocatie op de verkooporderregel is opgegeven en assemblage-uitvoerstroom voor de locatie is ingesteld, is het veld **Opslaglocatie** op de voorraadpickregel leeg. De magazijnmedewerker moet de pagina **Opslaglocatie-inhoud** openen en de opslaglocatie selecteren waar de assemblageartikelen worden geassembleerd.
 
-In combinatiescenario's waarbij een deel van de hoeveelheid eerst moet worden geassembleerd en een ander deel uit de voorraad moet worden gepickt, moeten minimaal twee voorraadpickregels worden gemaakt. Eén pickregel dient voor het op-order-assembleren-aantal. De andere pickregel is afhankelijk van welke opslaglocaties aan het resterend aantal in voorraad kunnen voldoen. Opslaglocatiescodes op de twee regels worden op verschillende manieren ingevuld, zoals voor de twee verschillende typen verkoop respectievelijk wordt beschreven. Zie voor meer informatie het gedeelte Combinatiescenario's in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## <a name="to-pick-components-in-advanced-warehouse-configurations"></a>Onderdelen picken in geavanceerde magazijnconfiguraties
-In geavanceerde magazijnconfiguraties waarbij de locatie is ingesteld voor het gebruik van picken en verzending, kunt u componenten voor productie- en assemblageactiviteiten kiezen via de pagina **Magazijnpick**. Zie voor meer informatie [Artikelen picken met een magazijnpick](warehouse-how-to-pick-items-for-warehouse-shipment.md).
-
-U kunt tevens de pagina **Verplaatsingsvoorstel** gebruiken voor ad hoc verplaatsing van artikelen tussen opslaglocaties, dat wil zeggen, zonder verwijzing naar een brondocument. Zie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) voor meer informatie.  
-
-Een magazijnpickdocument kan niet vanaf het begin worden gemaakt omdat een pickactiviteit altijd onderdeel is van een werkstroom, zowel bij een pull- als bij een push-scenario.  
-
-Bij een push-scenario kan een magazijnpickdocument gemaakt worden door de actie **Magazijnpick maken** in het brondocument te selecteren, zoals een vrijgegeven assemblageorder of een magazijnverzending. Zie voor meer informatie [Artikelen picken met een magazijnpick](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
-
-Tevens kunt u bij een pull-scenario een magazijnpickdocument maken door de pagina **Pickvoorstel** te gebruiken om pickverzoeken, voor zowel verzending als voor interne doeleinden, vast te stellen en vervolgens de benodigde magazijnpickdocumenten te maken.  
-
-De volgende procedure beschrijft een pull-scenario, waarbij u onderdelen voor een vrijgegeven productieorder pickt met behulp van de pagina **Werkblad Pick**. De procedure geldt ook voor assemblageorders.  
-
-Als u een pick-verzoek wilt maken, bij zowel een pull- als een push-scenario, moeten de betreffende brondocumenten vrijgegeven worden. Voor interne doeleinden kunnen brondocumenten op de volgende manieren vrijgegeven worden.  
-
- |Brondocument|Vrijgavemethode|  
- |---------------------|--------------------|  
- |Productieorder|Wijzig de ordersoort in vrijgegeven productieorder.|  
- |Assemblageorder|Status wijzigen in Vrijgegeven.|  
-
-## <a name="to-pick-components-using-the-pick-worksheet"></a>Onderdelen picken op basis van het pickvoorstel  
-
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies de actie **Magazijndocumenten ophalen** en selecteer vervolgens de onderdeelregels van de vrijgegeven productieorder.  
-3.  Inspecteer en sorteer de regels om een efficiënte pickronde samen te stellen en combineer ze eventueel met andere voorstelregels zodat de werknemer zo min mogelijk tijd nodig heeft.  
-4.  Kies de actie **Pick maken**.  
-5.  Bepaal hoe de magazijn-pickdocumenten gemaakt moeten worden en hoe de pickregels gesorteerd moeten worden door de velden op de pagina **Pick maken** in te vullen.  
-6.  Kies de knop **OK**.
-
-Magazijnpickdocumenten worden nu gemaakt met een pickregel voor elk onderdeel dat voor de interne activiteit benodigd is.
-
-Indien het gebied voor interne activiteit, zoals een productie-shopfloor, een standaardopslaglocatie heeft voor het plaatsen van onderdelen die voor de activiteit benodigd zijn, wordt de code van deze opslaglocatie ingevoerd in de Plaatsen-regels in het magazijnpickdocument, zodat de magazijnmedewerkers weten waar de artikelen geplaatst moeten worden. Zie [Standaard magazijnen met bewerkingsgebieden instellen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) voor meer informatie.
+In combinatiescenario's waarbij een deel van de hoeveelheid eerst moet worden geassembleerd en een ander deel uit de voorraad moet worden gepickt, moeten minimaal twee voorraadpickregels worden gemaakt. Eén pickregel dient voor het op-order-assembleren-aantal. De andere pickregel is afhankelijk van welke opslaglocaties aan het resterend aantal in voorraad kunnen voldoen. Opslaglocatiescodes op de twee regels worden op verschillende manieren ingevuld, zoals voor de twee verschillende typen verkoop respectievelijk wordt beschreven. Zie voor meer informatie de sectie Combinatiescenario's in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="filling-the-consumption-bin"></a>De verbruiksopslaglocatie vullen
 In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw locatie-instellingen.

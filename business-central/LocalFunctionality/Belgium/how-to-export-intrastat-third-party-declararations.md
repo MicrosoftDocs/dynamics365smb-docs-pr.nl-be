@@ -3,20 +3,20 @@ title: Intrastat-aangiftes van derden exporteren
 description: "In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
-ms.author: sgroespe
+ms.date: 11/30/2018
+ms.author: soalex
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2a888b95bd0572d23ee3c331b501ec246685213
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: acb6c589ad748d7e98e71acef9cc0d6e62fc53d3
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
@@ -32,6 +32,7 @@ Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rappor
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Nulaangifte**|Selecteer deze optie als u geen handelstransacties met EU-landen/regio's hebt en een lege aangifte wilt versturen.|  
+    |**Gegevens van tegenpartij**|Schakel dit veld in om gegevens van de tegenpartij op te nemen in het Intrastat-bestand (nieuwe vereiste vanaf 2019). De gegevens van de tegenpartij die worden toegevoegd aan het bestand, zijn afkomstig uit **Land/regio van oorsprong** en **Partner-id** in het Intrastat-dagboek.|  
     |**Ondernemingsnr./btw-nr.**|Voer het ondernemings- of btw-nummer in.|  
     
 4.  Kies de knop **OK**.  

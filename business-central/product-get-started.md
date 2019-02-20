@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ Raadpleeg voor enkele snelle, handige trucs:
 
 Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](across-business-functionality.md). Voor een overzicht van actuele mogelijkheden en toekomstige mogelijkheden bekijkt u onze routekaart via [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](across-business-functionality.md). Voor een overzicht van huidige mogelijkheden en wat eraankomt, kijkt u naar onze releasenotities op [releaseopmerkingen van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>De rolcentra
 De pagina Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende rolcentra door het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te kiezen in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het rolcentrum te kiezen om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
@@ -69,9 +69,17 @@ Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf oversch
 
 Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf**. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u het rolcentrum en zoekt u de actie **Begeleide instelling**.  
 
-Of zoek [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.
+Of zoek [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
-## <a name="ready-to-subscribe"></a>Klaar om een abonnement te nemen?
+## <a name="getting-answers-to-questions"></a>Antwoorden op vragen krijgen
+
+Als u niet zeker weet hoe u iets doet in [!INCLUDE[d365fin](includes/d365fin_md.md)], vindt u het antwoord hopelijk door de knopinfo te lezen voor het veld waarover u twijfelt, of door de inhoud te lezen door de koppeling *Meer informatie* te openen in knopinfo. U kunt ook de documentatie ophalen door de gerelateerde koppeling te kiezen in het menu Help.  
+
+Alle velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden beschreven in knopinfo. U kunt knopinfo openen door de naam van het veld te selecteren. Bijvoorbeeld op een pagina zoals **Klantenkaart**, kiest u de naam van het veld om de knopinfo te lezen. In een lijst zoals de lijst **Klanten** of de regels in een document zoals een verkooporder, moet u het vervolgkeuzemenu kiezen rechts van de naam van de kolom en vervolgens de menuoptie **Wat is dit?** kiezen.  
+
+Als u extra vragen hebt, is het raadzaam dat u het de community vraagt of contact opneemt met uw verkopende partner. Zie voor meer informatie [Waar ga ik met mijn vragen naartoe?](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>Wilt u zich abonneren?
 Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365-apps
@@ -86,7 +94,7 @@ Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](in
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Dynamics 365-documentatie](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Releaseopmerkingen van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -3,20 +3,20 @@ title: "Financiële processen instellen| Microsoft Docs"
 description: "Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften."
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
-ms.author: edupont
+ms.date: 12/19/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
@@ -36,6 +36,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)|
 |Verwerking voorbereiden van niet gerealiseerde btw in verband met op kas gebaseerde boekhoudingsmethoden.|[Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)|
 | Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Definieer een of meer extra valuta's, zodat bedragen automatisch worden gerapporteerd in zowel de LV als de extra rapportagevaluta in elke grootboekpost en in andere posten.|[Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)|
+|Pas periodiek extra valuta-equivalenten aan in verband met schommelende wisselkoersen.|[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
 |Definieer meerdere rentepercentages voor verschillende perioden voor vertraagde betalingen in handelstransacties.|[Meerdere rentetarieven instellen](finance-how-to-set-up-multiple-interest-rates.md)|
 |Voorbereiden van automatisch afronden van factuurbedragen wanneer u facturen maakt.|[Factuurafronding instellen](finance-set-up-invoice-rounding.md)|
 | Voeg nieuwe rekeningen aan bestaande rekeningschema's. |[Het rekeningschema instellen](finance-setup-chart-accounts.md) |
@@ -43,6 +45,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Facturering van een klant te schakelen die niet in het systeem is opgenomen.|[Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md)|
 | Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
 |Het rapport Consolidatie - Proefrapport in het rolcentrum Accountant gebruiken om een financieel overzicht te krijgen over meerdere bedrijven.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
+|Zorg dat een post in een grootboek wordt toegewezen aan verschillende rekeningen wanneer u het dagboek boekt, hetzij aantal, percentage of bedrag.|[Verdeelsleutels in dagboeken gebruiken](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  

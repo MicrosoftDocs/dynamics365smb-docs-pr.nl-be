@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ Een belangrijk deel van het migratieproces is de rekeningen opgeven waarnaar tra
 - De verkoop van artikelen of services aan klanten  
 - De aankoop van artikelen of services van leveranciers  
 - Herwaarderingen in het grootboek  
-Business Central vereist dat aan grootboekrekeningen rekeningnummers zijn toegewezen. Zorg ervoor dat rekeningnummers zijn toegewezen aan uw rekeningen in QuickBooks Online.
-Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een belastingrekening instellen voor uw belastingjurisdictie in Business Central, voordat u transacties kunt boeken.
 
-Als u de gegevens uit de QuickBooks Desktop-toepassing wilt ophalen, moet u de Microsoft-tool Data Exporter downloaden.  De instructies voor de tool bevinden zich in de wizard Gegevensmigratie in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Het hulpprogramma maakt verbinding met uw QuickBooks-toepassing en exporteert de toepasselijke gegevens naar een *.zip-bestand.  
+Business Central vereist dat aan grootboekrekeningen rekeningnummers zijn toegewezen. Zorg ervoor dat rekeningnummers zijn toegewezen aan uw rekeningen in QuickBooks.
+Als transacties in QuickBooks belastingbedragen hebben, moet u eerst een belastingrekening instellen voor uw belastingjurisdictie in Business Central, voordat u transacties kunt boeken.
+
+Als u de gegevens uit de QuickBooks Desktop-toepassing wilt ophalen, moet u de Microsoft-tool Data Exporter downloaden.  De instructies voor de tool bevinden zich in de wizard Gegevensmigratie in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Het hulpprogramma maakt verbinding met uw QuickBooks-toepassing en exporteert de toepasselijke gegevens naar een .zip-bestand.  
+
+> [!NOTE]
+> Momenteel werkt de tool Data Exporter alleen met QuickBooks 2017 en 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>De extensie QuickBooks-gegevensmigratie vinden
 De extensie QuickBooks-gegevensmigratie is geïnstalleerd en kan worden gebruikt als geïntegreerd onderdeel van de begeleide instelling Gegevensmigratie. Als u klaar bent om nu aan de slag te gaan en uw gegevens uit QuickBooks hebt geëxporteerd, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Begeleide instelling** in en kiest u vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.  

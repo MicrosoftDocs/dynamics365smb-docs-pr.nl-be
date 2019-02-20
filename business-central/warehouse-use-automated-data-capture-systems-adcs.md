@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
@@ -60,7 +60,7 @@ Aan elk magazijnartikel dat u wilt gebruiken met ADCS, moet een id-code worden t
 8.  Als u deze gegevens wilt controleren, kiest u het veld **Identificatie** om de pagina **Artikelidentificaties** te openen.
 
 ## <a name="to-add-an-adcs-user"></a>Een ADCS-gebruiker toevoegen  
-U kunt elke gebruiker toevoegen als een gebruiker van een ADCS-systeem (Automated Data Capture System). Wanneer u dit doet, moet de gebruiker ook een wachtwoord opgeven. Desgewenst kunt u ook een verbinding bieden op basis waarvan de ADCS-gebruiker kan worden geïdentificeerd als een magazijnwerknemer. Het ADCS-gebruikerswachtwoord kan verschillen van het Windows-aanmeldwachtwoord van de gebruiker. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
+U kunt elke gebruiker toevoegen als een gebruiker van een ADCS-systeem (Automated Data Capture System). Wanneer u dit doet, moet de gebruiker ook een wachtwoord opgeven. Desgewenst kunt u ook een verbinding bieden op basis waarvan de ADCS-gebruiker kan worden geïdentificeerd als een magazijnwerknemer. Het ADCS-gebruikerswachtwoord kan afwijken van het Windows-wachtwoord van de gebruiker. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **ADCS-gebruikers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  

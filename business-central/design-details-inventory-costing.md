@@ -11,10 +11,10 @@ ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 857bb571566f6c20faa5074ef0c81d4ca1f6033b
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
@@ -38,6 +38,7 @@ Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastle
 [Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md)  
 [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)  
 [Ontwerpdetails: Reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md)  
-[Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  
+[Ontwerpdetails: rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)
+[Ontwerpdetails: voorraadwaardering](design-details-inventory-valuation.md)  
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)
 

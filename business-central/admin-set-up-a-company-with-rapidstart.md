@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Een bedrijf met RapidStart Services instellen
@@ -33,7 +33,7 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 -   Configuratievragenlijst  
 
 > [!Note]  
->  Er zijn gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)] die u handmatig moet instellen. Deze omvatten het toevoegen van gebruikers, het instellen van boekhoudperiodes en het instellen van dimensies voor bedrijfsinformatie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).
+>  Er zijn gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)] die u handmatig moet instellen. Deze omvatten het toevoegen van gebruikers, het instellen van boekhoudperiodes en het instellen van dimensies voor business intelligence. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).
 
  In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de beschrijvende onderwerpen.
 
@@ -44,7 +44,8 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 |Installeer het geconfigureerde pakket voor uw klant voor implementatie.|[Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)|
 |Definieer en valideer de instellingswaarden van de klant voor al uw kerngebieden, zoals bedrijfsgegevens grootboek, verkoop of productie.|[Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)|  
 |Configureer hoofdgegevensrecords met behulp van sjablonen om bestaande klantgegevens voor te bereiden op migratie.|[Migratie van klantgegevens voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Definieer tabellen en velden, valideer bestaande klantgegevens en migreer gegevens naar de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.|[Klantgegevens migreren](admin-migrate-customer-data.md)|  
+|Definieer tabellen en velden, valideer bestaande klantgegevens en migreer gegevens naar de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.|[Klantgegevens migreren](admin-migrate-customer-data.md)|
+|Hergebruik van bedrijfsconfiguraties in andere bedrijven voorbereiden|[Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)|
 |Zoek oplossingen voor bekende problemen in de RapidStart Services-toolkit.|[Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Zie ook  

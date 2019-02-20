@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Artikelen picken
@@ -38,7 +38,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |De verzending van artikelen direct boeken in het document voor uitgaande orders, omdat er geen magazijnfuncties zijn. (Werkt hetzelfde voor verkooporders, uitgaande transferorders en retourverzendingen.)|[Artikelen verzenden](warehouse-how-ship-items.md)|  
 |Artikelen per order picken en de verzending in dezelfde activiteit boeken, in een standaardmagazijnconfiguratie.|[Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Artikelen opslaan voor meerdere orders in een geavanceerde magazijnconfiguratie.|[Artikelen picken met een magazijnpick](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Onderdelen picken voor productie of assemblage in een standaard- of geavanceerde magazijnconfiguratie.|[Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md)|  
+|Onderdelen picken voor productie of assemblage in een standaardmagazijnconfiguratie.|[Picken voor assemblage of productie in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md)|
+|Onderdelen picken voor productie of assemblage in een geavanceerde magazijnconfiguratie.|[Picken voor assemblage of productie in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Geoptimaliseerde pickinstructies plannen voor een aantal verzendingen, in plaats van magazijnmedewerkers direct laten handelen naar geboekte verzendingen.|[Picks plannen in het voorstel](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Artikelen technisch picken voor een speciaal doel, zoals een productieafdeling die extra onderdelen nodig heeft, zodanig dat de artikelen technisch het magazijn niet verlaten.|[Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Begrijpen hoe artikelen automatisch worden gepickt op basis van de vervaldatum, bijvoorbeeld beperkt houdbare artikelen.|[Picken op basis van FEFO](warehouse-picking-by-fefo.md)|

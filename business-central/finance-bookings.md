@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb288b0b318fefd5b9720516432b6a85bb7347dd
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massale facturering voor Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -24,6 +24,14 @@ Als uw bedrijf de app Bookings gebruikt in Office 365, kunt u massaal factureren
 Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt verbinden met Bookings, moet u uw Bookings-bedrijf opgeven, opgeven wat u wilt synchroniseren met Bookings, hoe vaak moet worden gesynchroniseerd en welke sjablonen moeten worden gebruikt. U stelt deze informatie in op de pagina **Instelling van Booking-synchronisatie**, die u kunt starten vanaf de pagina **Instelling van Exchange-synchronisatie**, die u kunt vinden met behulp van [Zoeken](ui-search.md).  
 
 Als u bijvoorbeeld klanten wilt synchroniseren tussen Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de standaardsjabloon opgeven die moet worden gebruikt om nieuwe klanten toe te voegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)], op basis van de klanten in uw Bookings-bedrijf.  
+
+> [!NOTE]
+> De app Bookings is bedoeld om afspraken te boeken voor individuele klanten, in plaats van bedrijven. De synchronisatie met [!INCLUDE[d365fin](includes/d365fin_md.md)] synchroniseert dus slechts klantcontactpersonen van het type Persoon. Er is ook een e-mailadres vereist om het contact te synchroniseren.  
+
+Als u serviceartikelen wilt synchroniseren tussen Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u ook de standaardsjabloon opgeven die moet worden gebruikt om nieuwe serviceartikelen toe te voegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], op basis van de services in ons Bookings-bedrijf.  
+
+> [!NOTE]
+> Alleen artikelen van het type *Service* worden gesynchroniseerd tussen Bookings en [!INCLUDE[d365fin](includes/d365fin_md.md)]. De sjabloon die u instelt op de pagina **Configuratiesjablonen**, zodat deze kan worden gebruikt voor de artikelsynchronisatie, moet het type definiëren als *Service*.
 
 ## <a name="invoice-appointments"></a>Afspraken factureren
 Wanneer het tijd is om facturen te verzenden voor de voltooide boekingen, gaat u naar de pagina **Niet-gefactureerde Bookings**. Afhankelijk van hoe vaak de gegevens worden gesynchroniseerd, is de lijst lang of kort. U kunt facturen maken voor alle boekingen in de lijst of voor één tegelijkertijd. U kunt een of meer posten in het overzicht selecteren en alleen die factureren.  

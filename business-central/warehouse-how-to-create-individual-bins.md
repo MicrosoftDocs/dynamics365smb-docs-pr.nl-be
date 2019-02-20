@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="create-bins"></a>Opslaglocaties maken
@@ -26,7 +26,17 @@ De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarvan u een opslaglocatie wilt maken en kies de actie **Opslaglocaties**.  
 3. Kies de actie **Nieuw**.
-4. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="the-dedicated-field"></a>Het veld Speciaal
+Het veld **Speciaal** op de pagina **Opslaglocaties** geeft op dat aantallen op de opslaglocatie worden beschermd tegen picken voor andere vraag. Hoeveelheden op speciale opslaglocaties kunnen echter nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.
+
+Een opslaglocatie speciaal maken biedt vergelijkbare functionaliteit als typen opslaglocaties in standaardmagazijnbeheer, die alleen beschikbaar is in geavanceerd magazijnbeheer. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.
+
+**Voorbeeld:** een afdeling wordt ingesteld met een opslaglocatiecode in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor materiaalvragen die deze opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor die opslaglocatie.
+
+> [!Caution]
+> Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer deze worden gepickt en verbruikt als productie- of assemblycomponenten met de pagina **Voorraadpick**. Zie voor meer informatie [Picken voor productie of assemblage in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatieaanmaak** in en kies vervolgens de gerelateerde koppeling.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/08/2018
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
-ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/12/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="administration"></a>Beheer
@@ -45,6 +45,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|
 |Als onderdeel van het maken van Connect-apps tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en oplossingen van derden door middel van REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen van een entiteit te vullen wanneer u een POST-actie maakt met een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|
 |Versleutel gegevens op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
+|Verbind Dynamics 365 for Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  

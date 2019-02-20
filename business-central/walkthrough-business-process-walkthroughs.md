@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8adebfb892b00038c010e050018c51a973aeafb8
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
 ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
@@ -24,26 +24,26 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 
  De procedures zijn complete scenario's en geven het beste resultaat als ze van begin tot eind worden uitgevoerd. Veel procedures zijn gebaseerd op de demogegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] en u kunt deze zelf uitproberen in uw eigen tempo.  
 
- De navigatiestappen in de overzichten zijn gebaseerd op afdelingsmenu's en niet op de rolcentra, zodat u zich niet met allerlei verschillende profielen hoeft aan te melden.  
+> [!NOTE]
+> Sommige procedures gebruiken demonstratiegegevens die niet beschikbaar zijn in het standaard CRONUS-bedrijf. Voor procedures moet u de stappen uitvoeren in een bedrijf dat is gemaakt met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
 
 |Aan|Zie|  
 |--------|---------|  
-|Een marketingcampagne instellen|[Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)|  
-|Vooruitbetalingen gebruiken voor deel van verkooporders|[Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Stel een marketingcampagne in.|[Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)|  
+|Gebruik vooruitbetalingen om deelbetalingen te beheren voor verkopen en inkopen. **Vereist volledige voorbeeldgegevens** |[Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Stel goedkeuringsgebruikers in, geef aan wanneer en hoe de gebruikers bericht ontvangen over goedkeuringswerkstromen en wijzig en schakel vervolgens de relevante goedkeuringswerkstroom in.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Ontvangen artikelen altijd opslaan in standaardmagazijnconfiguraties|[Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Ontvangen artikelen opslaan in geavanceerde magazijnconfiguraties|[Procedure: ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Orders voor voorzieningen plannen om handmatig aan vraag te voldoen|[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)|  
-|Orders voor voorzieningen plannen om automatisch aan vraag te voldoen|[Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)|  
-|Artikelen samenstellen en verzenden die zijn aangepast op de verkooporder|[Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Een project plannen van begin tot eind|[Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)|  
-|Inzicht krijgen in de kosten van een project|[Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Artikelen voor verzending in standaardmagazijnconfiguraties picken|[Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Beheer van defecten implementeren|[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)|  
+|Ontvangen artikelen opslaan in standaardmagazijnconfiguraties. **Vereist volledige voorbeeldgegevens**|[Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Ontvangen artikelen opslaan in geavanceerde magazijnconfiguraties. **Vereist volledige voorbeeldgegevens**|[Procedure: ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Aanvulorders plannen om handmatig aan vraag te voldoen. **Vereist volledige voorbeeldgegevens**|[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)|  
+|Aanvulorders plannen om automatisch aan vraag te voldoen. **Vereist volledige voorbeeldgegevens**|[Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)|  
+|Artikelen samenstellen en verzenden die zijn aangepast op de verkooporder. **Vereist volledige voorbeeldgegevens**|[Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)|  
+|Een project plannen van begin tot eind. **Vereist volledige voorbeeldgegevens**|[Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)|  
+|De kosten van een project rapporteren. **Vereist volledige voorbeeldgegevens**|[Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Artikelen voor verzending in standaardmagazijnconfiguraties picken. **Vereist volledige voorbeeldgegevens**|[Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Tekortenbeheer uitvoeren. **Vereist volledige voorbeeldgegevens**|[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ De sneltoetsen worden ondersteund door de meeste webbrowsers, maar het gedrag ka
 
 De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.
 
-De meeste snelkoppelingen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Enkele sneltoetsen verschillen echter voor macOS. Deze zijn tussen haakjes vermeld in de tabellen in de volgende secties.
+De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is; enkele sneltoetsen verschillen echter voor macOS. Deze zijn tussen haakjes vermeld in de tabellen in de volgende secties.
 
 ##  <a name="Keyboard"></a> Algemene sneltoetsen
 De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van verschillende elementen van een pagina, zoals acties, vervolgkeuzelijsten, opzoekacties, enzovoort. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
@@ -52,7 +52,7 @@ De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van ve
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
 De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebruiken. De sneltoetsactie is afhankelijk van of de pagina in de lijstweergave of de tegelweergave wordt weergegeven.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |Opmerkingen|
 |-----------------|-------|-------|-------|
-|Pijl omhoog|Naar het veld in de bovenliggende rij in dezelfde kolom gaan.| In dezelfde kolom naar de tegel in de rij erboven gaan.  |  | 
+|Pijl omhoog|Naar het veld in de bovenliggende rij in dezelfde kolom gaan.| In dezelfde kolom naar de tegel in de rij erboven gaan.  |  |
 |Pijl-omlaag|In dezelfde kolom naar het veld in de rij eronder gaan. |In dezelfde kolom naar de tegel in de rij eronder gaan. | |
 |Pijl rechts|In een alleen-lezen lijst in dezelfde rij naar het volgende veld naar rechts gaan.<br /><br />In een bewerkbare lijst in het huidige veld naar rechts gaan.| In dezelfde rij naar de volgende tegel naar rechts gaan. ||
 |Pijl links|In een alleen-lezen lijst in dezelfde rij naar het vorige veld naar links gaan. <br /><br />In een bewerkbare lijst in het huidige veld naar links gaan.| In dezelfde rij naar de vorige tegel naar links gaan. ||
@@ -71,7 +71,7 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 |End<br />(Fn+pijl rechts)|Naar het laatste veld in de rij gaan.|Naar de laatste tegel in de rij gaan||
 |Page up<br />(Fn+pijl omhoog)|Schuiven om de set rijen boven de huidige rijen in de weergave weer te geven. |Schuiven om de set tegels boven de huidige tegels in de weergave weer te geven. ||
 |Page Down<br />(Fn+pijl omlaag)|Schuiven om de set rijen onder de huidige rijen in de weergave weer te geven.|Schuiven om de set tegels onder de huidige tegels in de weergave weer te geven.||
-|Enter<br />(Fn+pijl omlaag)|De record openen die is gekoppeld aan het veld.|Opent de record.| Slechts van belang als een kaartpagina aan de record is gekoppeld.|
+|Enter|De record openen die is gekoppeld aan het veld.|Opent de record.| Slechts van belang als een kaartpagina aan de record is gekoppeld.|
 |Ctrl+Enter|Focus naar het volgende element buiten de lijst verplaatsen.|Focus naar het volgende element buiten de lijst verplaatsen.||
 
 ### <a name="CopyRows"></a>Selecteren, kopiëren en plakken
@@ -104,7 +104,7 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 |Shift+Alt+F3|Opent het filterdeelvenster en voegt een filter toe op de geselecteerde kolom in de lijst. De focus is op het nieuwe filterveld waardoor u meteen kunt beginnen met typen van het filtercriterium.<br /><br /> Dit doet hetzelfde als **Filter** selecteren vanuit de kolomkop. menu er. Geeft het filterdeelvenster weer, voegt het filter toe, stelt focus erop in, zodat de gebruiker een waarde kan typen om op te filteren.<br /><br />Als er al een filter op het veld is, wordt een nieuw filter toegevoegd. |
 |Ctrl+Shift+Alt+F3|Stelt filters opnieuw in. Dit doet hetzelfde als **Filters opnieuw instellen** kiezen in het filterdeelvenster en geldt voor veld- en totalenfilters.<br /><br /> Filters krijgen weer de standaardfilters voor de huidige weergave. Als de huidige weergave **Alle** is, is dit het equivalent van terugkeren naar een ongefilterde weergave met alle records. |
 |Ctrl+Enter|Keert terug naar de lijst vanuit het filterdeelvenster.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Toetsenbordsneltoetsen in de kalender (datumkiezer)
 Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
 

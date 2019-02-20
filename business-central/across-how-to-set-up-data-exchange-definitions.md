@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
@@ -50,7 +50,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
     |---------------------------------|---------------------------------------|  
     |**Code**|Voer een code in ter identificatie van de definitie van de gegevensuitwisseling.|  
     |**Naam**|Voer een naam in voor de definitie van gegevensuitwisseling.|  
-    |**Bestandssoort**|Geef op voor welk soort bestand de definitie van gegevensuitwisseling wordt gebruikt. U kunt kiezen uit drie bestandstypen:<br /><br /> -   **XML**: laagsgewijze strings met inhoud en opmaak, omringd door labels die functies aangeven.<br />-   **Variabele tekst**: records hebben een variabele lengte en worden gescheiden door een teken, zoals een komma of puntkomma. Ook *gescheiden bestand* genoemd.<br />-   **Vaste tekst**: records hebben dezelfde lengte, gebruiken opvultekens en elke record staat op een afzonderlijke regel. Ook *bestand met vaste breedte* genoemd.|  
+    |**Bestandssoort**|Geef op voor welk soort bestand de definitie van gegevensuitwisseling wordt gebruikt. U kunt kiezen uit vier bestandstypen:<br /><br /> -   **XML**: laagsgewijze strings met inhoud en opmaak, omringd door labels die functies aangeven.<br />-   **Variabele tekst**: records hebben een variabele lengte en worden gescheiden door een teken, zoals een komma of puntkomma. Ook *gescheiden bestand* genoemd.<br />-   **Vaste tekst**: records hebben dezelfde lengte, gebruiken opvultekens en elke record staat op een afzonderlijke regel. Ook *bestand met vaste breedte* genoemd.<br />- **Json**: gelaagde strings met inhoud in JavaScript.|  
     |**Soort**|Geef op voor welke soort bedrijfsactiviteit de gegevensuitwisselingdefinitie wordt gebruikt, bijvoorbeeld **Betalingsexport**.|  
     |**Codeunit geg.afhandeling**|Geef de codeunit op die gegevens overbrengt in en uit tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit validatie**|Geef de codeunit op die wordt gebruikt om gegevens te valideren tegen vooraf bepaalde bedrijfsregels.|  
@@ -117,7 +117,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
     |**Gebruiken als tussentijdse tabel**|Geef op dat de tabel die u selecteert in het veld **Tabel-id** een tussentijdse tabel is waarin de geïmporteerde gegevens worden opgeslagen voordat deze aan de doeltabel worden toegewezen.<br /><br /> Meestal gebruikt u een tijdelijke tabel als de definitie van de gegevensuitwisseling wordt gebruikt om elektronische documenten te importeren en om te zetten, zoals leveranciersfacturen naar inkoopfacturen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.|  
     |**Naam**|Voer een naam in voor de instelling van de toewijzing.|  
     |**Codeunit toewijzing vooraf**|Geef de codeunit aan die de koppeling voorbereidt tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens.|  
-    |**Toewijzing van  Codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Toewijzing van codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit toewijzing achteraf**|Geef de codeunit op die de koppeling voltooit tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens. **Opmerking:** wanneer de functie Conversieservice voor bankgegevens wordt gebruikt, zet de codeunit geëxporteerde gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)] om in een algemene indeling die gereed is voor export. Voor het importeren zet de codeunit externe gegevens om in een indeling die gereed is voor importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Geef op het sneltabblad **Veldtoewijzing** op welke kolommen aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn toegewezen door de velden in te vullen zoals beschreven in de volgende tabel.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 2b17ad5dabed505b358b8c2be6414b17228724b8
 ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
@@ -53,7 +53,7 @@ Een taxonomie kan bestaan uit een basistaxonomie, zoals us-gaap of IAS, waaraan 
 ## <a name="linkbases"></a>Linkbases  
  In de XBRL-specificatie. 2 wordt de taxonomie beschreven in verschillende XML-bestanden. Het primaire XML-bestand is het taxonomieschemabestand zelf (.xsd-bestand) dat alleen een ongeordende lijst van elementen of feiten bevat die moeten worden gerapporteerd. Naast deze zijn er meestal enkele linkbasebestanden (.xml) aan gekoppeld. De linkbasebestanden bevatten gegevens die een aanvulling op de ruwe taxonomie (.xsd-bestand) vormen. Er zijn zes soorten linkbase bestanden, waarvan er vier relevant zijn voor Productnaam XBRL. Dit zijn:  
 
--   Label linkbase: deze linkbase bevat labels of namen voor de elementen. Het bevat mogelijk labels in verschillende talen en deze worden aangeduid met een XML-eigenschap die 'lang' wordt genoemd. De XML-taal-id bevat normaal gesproken een afkorting van twee letters en hoewel het vrij gemakkelijk moet zijn te raden wat de afkorting betekent, is er geen link met de Windows-taalcode of de taalcodes die zijn gedefinieerd in de demonstratiegegevens. Dus wanneer de gebruiker zoekt naar de talen voor een bepaalde taxonomie, ziet hij de labels voor het eerste element in de taxonomie, wat betekent dat hij dan een voorbeeld van elke taal kan zien. Aan een taxonomie kunnen meerdere label-linkbases gekoppeld zijn zolang deze linkbases verschillende talen bevatten.  
+-   Label linkbase: deze linkbase bevat labels of namen voor de elementen. Het bevat mogelijk labels in verschillende talen en deze worden aangeduid met een XML-eigenschap die 'lang' wordt genoemd. De XML-taalidentifier bevat meestal een afkorting van twee letters en hoewel gemakkelijk te raden moeten zijn wat de afkorting betekent, is er geen verbinding met de Windows- taalcode of de taalcodes in de demonstratiegegevens. Dus wanneer de gebruiker zoekt naar de talen voor een bepaalde taxonomie, ziet hij de labels voor het eerste element in de taxonomie, wat betekent dat hij dan een voorbeeld van elke taal kan zien. Aan een taxonomie kunnen meerdere label-linkbases gekoppeld zijn zolang deze linkbases verschillende talen bevatten.  
 
 -   Presentatielinkbase: deze linkbase bevat informatie over de onderdelenstructuur. U kunt dit beschouwen als het voorstel van de taxonomie-uitgever voor de wijze waarop de taxonomie door het programma aan de gebruiker wordt gepresenteerd. De linkbase bevat een reeks koppelingen die elk twee elementen verbinden als bovenliggende en onderliggende. Als alle koppelingen worden toegepast, kunnen de onderdelen hiërarchisch worden weergegeven. De presentatielinkbase heeft één functie: elementen aan de gebruiker presenteren.  
 
