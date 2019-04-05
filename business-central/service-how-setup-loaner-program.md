@@ -2,22 +2,22 @@
 title: Uitleenartikelen instellen | Microsoft Docs
 description: U kunt uitleenartikelen instellen die u kunt uitlenen aan klanten ter vervanging van serviceartikelen waarvoor service wordt uitgevoerd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815942"
 ---
 # <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
 Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  
@@ -36,5 +36,4 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 [Uitleenartikelen uitlenen en ontvangen](service-how-to-lend-receive-loaners.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Service leveren](service-deliver-service.md)  
-
 

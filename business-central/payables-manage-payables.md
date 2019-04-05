@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 11/15/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: 89678ee0055992a03d4f56ecedf15350f7ad348e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9bc4eaf292c20c1525c499cde715964eb6e6631f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815847"
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
 
@@ -31,12 +31,8 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 | --- | --- |
 | Genereer verschuldigde leveranciersbetalingen of werknemersvergoedingen, bereid betalingen via cheques voor en exporteer betalingen naar een bankbestand tijdens het boeken. |[Betalingen uitvoeren](payables-make-payments.md) |
 | Vereffen leveranciersbetalingen automatisch met niet-betaalde inkoopfacturen door een bankafschriftbestand te importeren. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Stel toewijzingen in tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.|[Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-| Vereffen leveranciersbetalingen handmatig met niet-betaalde inkoopfacturen. |[Leveranciersbetalingen handmatig reconciliëren](payables-how-apply-purchase-transactions-manually.md) |
-|Vereffen automatisch inkomende of uitgaande betalingen die als transacties zijn vastgelegd op uw online bankrekening, met de gerelateerde openstaande, klant-, leveranciers- en bankrekeningposten. De lijst wordt gegenereerd vanuit een bankfeed of bestand.|[Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)|
-|Verwerk handmatig betalingen aan uw bankrekening die niet automatisch kunnen worden vereffend, bijvoorbeeld omdat er geen document bestaat waarmee de betaling kan worden vereffend of omdat het gerelateerde document een ander bedrag dan het transactiebedrag heeft vanwege een valutaverschil.|[Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md)|
+| Vereffen leveranciersbetalingen handmatig met niet-betaalde inkoopfacturen. |[Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md) |
 |Zorg voor correcte voorraadwaardering door artikelkosten toe te voegen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u inkoopt.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
-|Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boeken op het moment dat u de factuur boekt.|[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md)|
 |Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 
 ## <a name="see-also"></a>Zie ook
@@ -47,4 +43,3 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

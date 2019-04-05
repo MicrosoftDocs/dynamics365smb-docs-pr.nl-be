@@ -2,7 +2,7 @@
 title: Overzicht dagboekboekingsregel | Microsoft Docs
 description: In dit onderwerp worden de wijzigingen beschreven die zijn doorgevoerd in Codeunit 12, **Dagboek - Boekingsregel**, het belangrijkste toepassingsobject voor grootboekboekingen en de enige plaats om grootboek-, btw-, klanten- en leveranciersposten in te voegen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: db90633823f12650f796735a9a83bec8edb60cb9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2667b5d6d11172736a5dd6c3f7c810d42e3f2501
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815822"
 ---
 # <a name="general-journal-post-line-overview"></a>Overzicht dagboekboekingsregel
 Codeunit 12, **Dagboek - Boekingsregel**, is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
@@ -48,4 +48,3 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft codeunit 12 de volgende ver
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)   
 [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)
-

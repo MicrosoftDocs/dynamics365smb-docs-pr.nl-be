@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/17/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7f689a078051516f6db14b311f5f97481808a8f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815952"
 ---
 # <a name="invoice-sales"></a>Verkopen factureren
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
@@ -95,7 +95,7 @@ Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald 
 
 U kunt de betalingen rechtstreeks van de klantenkaart verwerken. Gebruik de actie **Klantbetalingen registreren** om een overzicht te krijgen van onbetaalde facturen voor die klant. Markeer de factuur vervolgens als volledig of gedeeltelijk betaald. Deze betalingsreconciliatie verwerkt uw klantbetalingen door op uw bankrekening ontvangen bedragen te vergelijken met de gerelateerde onbetaalde verkoopfacturen. Vervolgens worden de betalingen geboekt. Zie voor meer informatie [Betalingen afzonderlijk reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-In ondernemingsomgevingen waar de klant enige tijd na levering betaalt, volgens de betalingsconditie, blijft een geboekte verkoopfactuur open (onbetaald) totdat de afdeling Vorderingen controleert of de betaling is ontvangen en de betaling vereffent met de geboekte verkoopfactuur. Dit kan handmatig of automatisch worden uitgevoerd. Zie voor meer informatie [Klantbetalingen handmatig reconciliëren](receivables-how-apply-sales-transactions-manually.md) en [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
+In ondernemingsomgevingen waar de klant enige tijd na levering betaalt, volgens de betalingsconditie, blijft een geboekte verkoopfactuur open (onbetaald) totdat de afdeling Vorderingen controleert of de betaling is ontvangen en de betaling vereffent met de geboekte verkoopfactuur. Dit kan handmatig of automatisch worden uitgevoerd. Zie voor meer informatie [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantposten](receivables-how-apply-sales-transactions-manually.md) en [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
 
 In ondernemingsomgevingen waar de klant direct betaalt, bijvoorbeeld met PayPal of contant, wordt de betaling direct geregistreerd wanneer u de verkoopfactuur boekt, dat wil zeggen, de geboekte verkoopfactuur wordt gesloten als volledig vereffend. U selecteert de relevante methode in het veld **Betalingswijze** in de verkooporder. Zie onder stap 8. Voor elektronische betalingen, zoals PayPal, moet u ook het veld **Betalingsservice** invullen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.  
 
@@ -108,4 +108,3 @@ U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken doo
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Massaal factureren vanuit Microsoft Bookings in Business Central ](finance-bookings.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

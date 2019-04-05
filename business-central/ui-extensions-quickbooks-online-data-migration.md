@@ -10,18 +10,17 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816080"
 ---
-
 # <a name="the-quickbooks-online-data-migration-extension"></a>De extensie QuickBooks Online-gegevensmigratie
 Deze extensie wordt opgenomen in de begeleide instelling **Gegevensmigratie**, om u te helpen belangrijke bedrijfsgegevens te migreren van QuickBooks Online naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dat is bijvoorbeeld handig als uw bedrijf groeit en u hebt besloten uw app voor bedrijfsmanagement te upgraden door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gaan gebruiken.
 
-## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welke gegevens kan ik uit QuickBooks Online importeren?
+## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welke gegevens kan ik importeren uit QuickBooks Online?
 U kunt de volgende gegevens uit QuickBooks Online importeren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 * Klanten
@@ -61,9 +60,8 @@ Er zijn enkele dingen die u met name moet doen:
 
 * Als de transacties in QuickBooks Online opslag- of kortingsbedragen bevatten, moet u de bedragen handmatig toevoegen aan de gerelateerde transacties in [!INCLUDE[d365fin](includes/d365fin_md.md)] voordat u deze boekt.
 * Als u btw gebruikt, hebt u mogelijk een bedrijfsboekingsgroep en een productboekingsgroep in de boekingsinstellingen nodig, zodat u btw-bedragen kunt boeken.
-* Controleer de beginsaldi voor de rekeningen in het grootboek. Online QuickBooks slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
+* Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks Online slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-

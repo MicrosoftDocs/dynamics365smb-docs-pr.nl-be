@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 12/07/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816093"
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
 
@@ -40,7 +40,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Doe elektronische betalingen door betalingen te exporteren naar een bankbestand dat u uploadt naar uw bank voor verwerking, inclusief EFT (Electronic Funds Transfer) in Noord-Amerika. |[Elektronische betalingen doen](payables-how-export-payments-bank-file.md)|
 |Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Een leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
-|Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
 
 ## <a name="see-also"></a>Zie ook
@@ -48,4 +47,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Inkoop](purchasing-manage-purchasing.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

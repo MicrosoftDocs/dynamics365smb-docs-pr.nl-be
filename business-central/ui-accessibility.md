@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815992"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Toegankelijkheid en sneltoetsen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/d365fin_md.md)] toegankelijk maken voor mensen met een handicap. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de volgende toegankelijkheidsfuncties:  
@@ -69,4 +69,3 @@ Meer informatie over toegankelijkheid voor Microsoft-producten en ondersteunende
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
-

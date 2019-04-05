@@ -2,7 +2,7 @@
 title: Aangepaste Power BI-rapporten weergeven| Microsoft Docs
 description: U kunt Power BI-rapporten gebruiken om extra inzicht te krijgen in gegevens in lijsten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: nl-be
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816164"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Lijstgegevens weergeven in Power BI-rapporten in Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een Feitenblok-besturingselement op een aantal belangrijke lijstpagina's, waarmee een aanvullend inzicht in de gegevens wordt geboden. Wanneer u tussen rijen in de lijst verplaatst, wordt het rapport bijgewerkt en voor de geselecteerde post gefilterd. U kunt aangepaste rapporten maken voor weergave in dit besturingselement, maar er zijn enkele regels die moeten worden gevolgd bij het maken van de rapporten om te zorgen voor het gewenste gedrag.  
 
 > [!NOTE]  
->   U moet een geldig account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md).  
+>   U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Power BI hebben. U moet ook [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportgegevensset
 Wanneer u het rapport in Power BI Desktop maakt, geeft u de gegevensbron of webservice op die de gegevens bevat die gerelateerd zijn aan de lijst waaraan u het rapport wilt koppelen. Als u bijvoorbeeld een rapport wilt maken voor het verkoopoverzicht, moet u ervoor zorgen dat de gegevensset informatie bevat die is gerelateerd aan verkoop.  
@@ -47,7 +47,7 @@ U kunt de breedte en hoogte van het rapport wijzigen door **Aangepast** in het v
 Evenzo definieert u als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondkleur van het Feitenblok-besturingselement van Power BI, een aangepaste achtergrondkleur van *E5E5E5* voor het rapport. Dit is optioneel.  
 
 ## <a name="reports-with-multiple-pages"></a>Rapporten met meerdere pagina's
-Met Power BI kunt u één rapport met meerdere pagina's maken. De visuele elementen die u wilt zien in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-lijstpagina´s, moeten zich op de eerste pagina van het rapport in Power BI bevinden.  
+Met Power BI kunt u één rapport met meerdere pagina's maken. De visuele elementen die u wilt zien in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-lijstpagina's, moeten zich op de eerste pagina van het rapport in Power BI bevinden.  
 
 > [!NOTE]  
 >  Het feitenblok van Power BI geeft mogelijk alleen de eerste pagina van uw rapport weer. Als u andere pagina's wilt zien, moet u het rapport uitvouwen en met tabbladen onder aan het rapport navigeren naar andere pagina's.  
@@ -76,4 +76,3 @@ Controleer of de grootte van het rapport is ingesteld op 325 x 310 pixels. Sla h
 [Aan de slag](product-get-started.md)    
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Financiën](finance.md)  
-

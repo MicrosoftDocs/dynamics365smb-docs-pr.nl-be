@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816091"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
 De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document op de pagina Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,4 +63,3 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-

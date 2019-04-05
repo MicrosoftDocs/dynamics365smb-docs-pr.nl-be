@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815920"
 ---
 # <a name="create-service-items"></a>Serviceartikelen maken
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] verwijst de term serviceartikel naar de apparatuur of artikelen die service vereisen. Wanneer u een serviceorder maakt, geeft u de artikelen op die service nodig hebben. In de order kunt u een serviceartikel aan een artikel in de voorraad of aan een serviceartikelgroep koppelen.    
@@ -62,4 +62,3 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [CRM - Service](service-service.md)  
-

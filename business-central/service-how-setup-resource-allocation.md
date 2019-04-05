@@ -2,7 +2,7 @@
 title: Resourcetoewijzing instellen | Microsoft Docs
 description: Leer hoe u er met het systeem voor kunt zorgen dat u iemand toewijst die over de vereiste vaardigheden beschikt om een service te bieden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815927"
 ---
-
 # <a name="set-up-resource-allocation"></a>Resourcetoewijzing instellen
 Om ervoor te zorgen dat een servicetaak goed wordt uitgevoerd, is het belangrijk een resource te vinden die gekwalificeerd is om het werk uit te voeren. U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat het eenvoudig is om iemand toe te wijzen die over de juiste bekwaamheden voor het project beschikt. In [!INCLUDE[d365fin](includes/d365fin_md.md)] noemen we dit _resourcetoewijzing_. U kunt resources toewijzen op basis van hun vaardigheden, beschikbaarheid en locatie (of ze zich in dezelfde serviceregio als de klant bevinden). 
 
@@ -85,5 +84,4 @@ Wilt u de bekwaamheidscodes wijzigen die aan artikelen zijn toegewezen, bijvoorb
 [Foutrapportage instellen](service-how-setup-fault-reporting.md)  
 [Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
  
-
 

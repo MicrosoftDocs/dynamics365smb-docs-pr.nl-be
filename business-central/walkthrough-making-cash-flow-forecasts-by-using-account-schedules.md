@@ -1,23 +1,23 @@
 ---
-title: 'Procedure: Cashflowprognoses maken met behulp van rapportageschema''s | Microsoft Docs'
+title: "Procedure: Cashflowprognoses maken met behulp van rapportageschema's | Microsoft Docs"
 description: In dit scenario wordt beschreven hoe u rapportageschema's kunt maken maken van cashflowprognoses. Rapportageschema's voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de rapportageschema's kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816012"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
 In dit scenario wordt beschreven hoe u rapportageschema's kunt maken maken van cashflowprognoses. Rapportageschema's voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de rapportageschema's kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
@@ -43,7 +43,7 @@ In dit overzicht worden taken gedemonstreerd die worden uitgevoerd door de volge
 - Controller  
 
 ## <a name="story"></a>Scenario  
-Ken is controller bij CRONUS en maakt de maandelijkse cashflowprognoses. Hij neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognose en vervolgens presenteert hij deze aan CFO Sara voor het zakelijk perspectief.  
+Ken is controller bij CRONUS die de maandelijkse cashflowprognoses maakt. Hij neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognose en vervolgens presenteert hij deze aan CFO Sara voor het zakelijk perspectief.  
 
 ## <a name="setting-up-a-new-account-schedule-name"></a>Een nieuwe naam voor een rapportschema instellen.  
 Een rapportageschema bestaat uit een cashflowrekening met een reeks regels en een kolomindeling.  
@@ -91,4 +91,3 @@ Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.
  [Werken met rekeningschema's](bi-how-work-account-schedule.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

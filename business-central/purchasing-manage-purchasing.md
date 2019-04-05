@@ -2,7 +2,7 @@
 title: Overzicht van taken om inkoop te beheren | Microsoft Docs
 description: Schetst taken om uw inkoop- of verwervingsprocessen te beheren, onder andere hoe inkoopfacturen en inkooporders werken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 11/15/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815987"
 ---
 # <a name="purchasing"></a>Inkopen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -52,4 +52,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

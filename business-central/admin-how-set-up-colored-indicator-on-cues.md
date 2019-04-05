@@ -2,22 +2,22 @@
 title: Gekleurde indicators opgeven om visuele signalen aan te passen over de activiteit van een indicatiestapel voor het bedrijf of afzonderlijke gebruikers | Microsoft Docs
 description: Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de gegevenswaarden in de indicatiestapels.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815753"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
 Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de gegevenswaarden in de indicatiestapels.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815894"
 ---
 # <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
 Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
@@ -70,4 +70,3 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

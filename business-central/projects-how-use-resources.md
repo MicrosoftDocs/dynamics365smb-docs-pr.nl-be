@@ -2,7 +2,7 @@
 title: Resourcegebruik en prijzen vastleggen en aanpassen| Microsoft Docs
 description: Beschrijft hoe u het resourcegebruik of -verbruik kunt vastleggen dat is gekoppeld aan een project, om kosten, prijzen en werksoorten bij te houden en te beheren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815817"
 ---
 # <a name="use-resources-for-jobs"></a>Resources gebruiken voor projecten
 U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen en de werksoorten bij te houden die zijn gekoppeld aan projecten. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
@@ -71,4 +71,3 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)     
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -2,25 +2,25 @@
 title: Rolcentrum RapidStart Services-implementatie gebruiken | Microsoft Docs
 description: Wanneer u RapidStart Services gebruikt, is het raadzaam dat u uw werk traceert en het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815851"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Het rolcentrum RapidStart Services-implementatie gebruiken
-Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie voor meer informatie het gedeelte "Het rolcentrum wijzigen" in [Basisinstellingen wijzigen](ui-change-basic-settings.md).
+Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie [Rolcentrum wijzigen](ui-change-basic-settings.md#to-change-role-center) voor meer informatie.
 
 Als u met uw werk verdergaat, kunt u aan elke tabel de status toewijzen die aangeeft waar u bent in het proces. [!INCLUDE[d365fin](includes/d365fin_md.md)] houdt de tabelstatus bij in het gedeelte **Activiteiten** in het rolcentrum.  
 
@@ -46,4 +46,3 @@ In het gedeelte **Configuratiegebieden** worden voltooiingsstatistieken weergege
 ## <a name="see-also"></a>Zie ook  
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

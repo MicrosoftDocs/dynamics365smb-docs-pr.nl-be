@@ -2,22 +2,22 @@
 title: Een nieuw bedrijf maken | Microsoft Docs
 description: Om RapidStart Services te kunnen gebruiken worden tabellen en pagina's gemaakt, maar ze bevatten geen gegevens.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 49b2bb9a59c5bcd5d414b129acffaedfa0d0eaa1
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816155"
 ---
 # <a name="create-a-new-company"></a>Een nieuw bedrijf maken
 Als u RapidStart Services wilt gebruiken voor [!INCLUDE[d365fin](includes/d365fin_md.md)], maakt u eerst een nieuw bedrijf waarvoor u een klantimplementatie wilt uitvoeren. Bij het maken van een nieuw bedrijf worden de standaard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en pagina's gemaakt, maar deze zijn leeg.
@@ -78,4 +78,3 @@ Behalve instellingsgegevenstabellen bevat [!INCLUDE[d365fin](includes/d365fin_md
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

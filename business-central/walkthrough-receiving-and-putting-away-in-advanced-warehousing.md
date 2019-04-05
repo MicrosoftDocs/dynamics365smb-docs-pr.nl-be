@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816150"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties
 
@@ -55,7 +55,7 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 ## <a name="prerequisites"></a>Vereisten  
 U moet het volgende doen om deze procedure uit te voeren:  
 
--   CRONUS International Ltd. installeren.  
+-   CRONUS International Ltd. geïnstalleerd.  
 -   U maakt van uzelf een magazijnwerknemer bij vestiging WIT door de volgende stappen uit te voeren:  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
@@ -124,7 +124,7 @@ Op de pagina **Magazijnontvangst** kunt u meerdere inkomende orders beheren voor
 5.  Voer **ACCESSORY** in het veld **Code** in.  
 6.  Typ in het veld **Omschrijving** de tekst **Leveranciers 10000 en 20000**.  
 7.  Kies de actie **Wijzigen**.  
-8.  Voer op het sneltabblad **Inkoop** in het veld **Orderleveranciernr. Filter** de waarde **10000&#124;20000** in.  
+8.  Voer op het sneltabblad **Inkoop** in het veld **Orderleveranciernr.-filter** de waarde **10000&#124;20000** in.  
 9. Kies de actie **Uitvoeren**. De magazijnontvangst wordt gevuld met vier regels die inkooporderregels voor de opgegeven leveranciers vertegenwoordigen. Het veld **Te ontvangen aantal** is ingevuld omdat u niet het selectievakje **Te verwerken aantal niet opvullen** op de pagina **Filters om brondoc. op te halen** hebt ingeschakeld.  
 10. Als u een filter wilt gebruiken zoals eerder in dit gedeelte beschreven, kunt u ook de actie **Brondocument ophalen** kiezen en vervolgens inkooporders van de leverancier in kwestie selecteren.  
 11. Kies de actie **Ontvangst boeken** en kies vervolgens de knop **Ja**.  
@@ -159,4 +159,3 @@ Op de pagina **Magazijnopslag** kunt u opslagactiviteiten beheren voor een speci
  [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md)   
  [Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)
-

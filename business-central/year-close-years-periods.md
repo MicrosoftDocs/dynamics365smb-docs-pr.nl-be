@@ -1,8 +1,8 @@
 ---
 title: Een boekjaar en boekingsperioden afsluiten | Microsoft Docs
-description: "Schetst de taken om een boekjaar of boekhoudperiode te sluiten, bijvoorbeeld, ervoor zorgen dat documenten en dagboeken worden geboekt en banksaldi verifiëren."
+description: Schetst de taken om een boekjaar of boekhoudperiode te sluiten, bijvoorbeeld, ervoor zorgen dat documenten en dagboeken worden geboekt en banksaldi verifiëren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815836"
 ---
 # <a name="closing-years-and-periods"></a>Afsluitingsjaren en -perioden
 Aan het einde van een boekjaar moet u een aantal administratieve taken uitvoeren, zoals ervoor zorgen dat alle documenten en dagboeken worden geboekt, dat valutagegevens actueel zijn, de boeken afsluiten, enzovoort. De werkelijke taken hangen van uw bedrijf af.
@@ -42,4 +42,3 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

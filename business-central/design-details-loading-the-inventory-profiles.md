@@ -2,23 +2,23 @@
 title: 'Ontwerpdetails: De voorraadprofielen laden | Microsoft Docs'
 description: Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningssysteem deze op twee tijdpaden die voorraadprofielen worden genoemd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816005"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Ontwerpdetails: Voorraadprofielen laden
 Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningssysteem deze op twee tijdpaden die voorraadprofielen worden genoemd.  
@@ -103,4 +103,3 @@ Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningss
  [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)   
  [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
  [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)
-

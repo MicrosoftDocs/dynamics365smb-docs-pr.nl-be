@@ -2,7 +2,7 @@
 title: Een projectverkoopfactuur maken om een project te factureren| Microsoft Docs
 description: Beschrijft hoe u klanten factureert voor projectkosten tijdens de voortgang van een project.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815923"
 ---
 # <a name="invoice-jobs"></a>Projecten factureren
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
@@ -79,4 +79,3 @@ Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiks
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)      
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

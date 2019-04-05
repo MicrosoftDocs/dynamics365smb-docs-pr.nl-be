@@ -2,7 +2,7 @@
 title: Begrijpen hoe u inkoopdocumenten boekt | Microsoft Docs
 description: Leren over de verschillende boekingsfuncties om inkoopdocumenten te boeken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f3c709e6e2588fe7cf409e44291d331acc09432
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815918"
 ---
 # <a name="posting-purchases"></a>Inkopen boeken
 In de **Boekingsgroep** op een inkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
@@ -48,5 +48,4 @@ Na de boeking worden de geboekte inkoopregels verwijderd uit de order. Er versch
 [Inkoop](purchasing-manage-purchasing.md)  
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

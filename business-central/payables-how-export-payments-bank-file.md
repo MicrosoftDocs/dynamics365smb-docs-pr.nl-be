@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816172"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
 Wanneer u klaar bent om betalingen aan uw leveranciers of vergoedingen aan uw werknemers uit te voeren, kunt u een bestand met de betalingsgegevens op de dagboekregels exporteren vanuit de pagina **Betalingsdagboek**. Vervolgens kunt u het bestand uploaden naar uw bank voor verwerking van de betreffende overboekingen.
@@ -81,4 +81,3 @@ U kunt betalingsbestanden opnieuw exporteren vanuit de pagina **Krediettransferr
 [Schulden](payables-manage-payables.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

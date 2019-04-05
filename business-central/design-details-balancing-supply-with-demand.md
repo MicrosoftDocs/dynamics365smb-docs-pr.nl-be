@@ -2,23 +2,23 @@
 title: 'Ontwerpdetails: Vraag en aanbod afstemmen | Microsoft Docs'
 description: De kern van het planningssysteem omvat het afstemmen van vraag en voorziening via het voorstellen van gebruikeracties om de voorzieningenorders te wijzigen als er geen evenwicht is. Dit vindt plaats per combinatie van variant en vestiging.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816000"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Ontwerpdetails: Vraag en aanbod afstemmen
 De kern van het planningssysteem omvat het afstemmen van vraag en voorziening via het voorstellen van gebruikeracties om de voorzieningenorders te wijzigen als er geen evenwicht is. Dit vindt plaats per combinatie van variant en vestiging.  
@@ -118,4 +118,3 @@ Voordat voorzieningen op vraag in overeenstemming worden gebracht, worden alle b
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)   
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)   
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
-

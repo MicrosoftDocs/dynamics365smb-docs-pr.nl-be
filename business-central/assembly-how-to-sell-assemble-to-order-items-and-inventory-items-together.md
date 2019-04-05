@@ -2,7 +2,7 @@
 title: Op-order-assembleren-artikelen en voorraadartikelen samen verkopen | Microsoft Docs
 description: Als een assemblageartikel is ingesteld op assembleren op voorraad, neemt het standaardproces voor de verkooporder aan dat het item al is samengesteld en uit de voorraad kan worden gepickt, als deze beschikbaar is. Maar als een deel (of allemaal) van de hoeveelheid niet beschikbaar is, hebt u de flexibiliteit om ter plekke een assemblageorder voor het resterende aantal te maken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815975"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op voorraad assembleren** bevat, neemt het standaardproces voor de verkooporder aan dat het item al is samengesteld en uit de voorraad kan worden gepickt, als deze beschikbaar is. Daarom wordt er geen assemblageorder automatisch gemaakt en gekoppeld aan de verkooporderregel. Als echter een deel van (of de gehele) hoeveelheid niet beschikbaar is, kunt u een assemblageorder maken voor het resterende aantal door het veld **Aantal voor op order assembleren** op de verkooporderregel in te vullen. Op deze manier kunt u het artikel dat u wilt bestellen, samenstellen, ook al is het standaard ingesteld om op voorraad te worden geassembleerd.  
@@ -46,4 +46,3 @@ Soortgelijke flexibiliteit bestaat wanneer u artikelen verkoopt die samengesteld
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

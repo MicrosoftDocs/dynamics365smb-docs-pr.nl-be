@@ -1,28 +1,28 @@
 ---
 title: Ervaring van Dynamics 365 accountant | Microsoft Docs
-description: Kom meer te weten over Accountant Hub voor Dynamics 365.
+description: Meer leren over de Accountant Hub voor Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816060"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Aan de slag met [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE [d365acc](includes/d365acc_md.md)] als uw dashboard gebruiken voor een beter overzicht van uw cliënten.  
 
-U kunt toegang tot [!INCLUDE [d365acc](includes/d365acc_md.md)] krijgen door u aan te melden vanuit [Dynamics 365 — Accountant Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
+U kunt toegang tot [!INCLUDE [d365acc](includes/d365acc_md.md)] krijgen door u aan te melden vanuit [Dynamics 365 — Accountant Hub Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Wanneer u zich aanmeldt voor [!INCLUDE [d365acc](includes/d365acc_md.md)], moet u uw werke-mailadres opgeven, zoals <em>me@accountant.com</em>. Het is raadzaam hetzelfde e-mailadres te gebruiken wanneer u werkt in de [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] van uw cliënt, zodat u gemakkelijk tussen cliënten kunt schakelen. Het e-mailadres moet een werkadres op basis van Active Directory zijn.
+>  Als u zich voor [!INCLUDE [d365acc](includes/d365acc_md.md)] aanmeldt, moet u uw werk-e-mailadres opgeven, bijvoorbeeld <em>me@accountant.com</em>. Het is raadzaam hetzelfde e-mailadres te gebruiken wanneer u werkt in de [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] van uw cliënt, zodat u gemakkelijk tussen cliënten kunt schakelen. Het e-mailadres moet een werkadres op basis van Active Directory zijn.
 
 ## <a name="working-with-individual-clients"></a>Werken met afzonderlijke cliënten
 Het dashboard bevat de belangrijkste gegevens van iedere cliënt.  
@@ -90,4 +90,3 @@ Wanneer u een taak hebt voltooid, moet u deze gewoon als voltooid markeren.
 [Financiële overzichten analyseren in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Accountantervaringen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

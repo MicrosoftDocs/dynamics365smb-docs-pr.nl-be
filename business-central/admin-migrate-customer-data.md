@@ -2,22 +2,22 @@
 title: Klantgegevens migreren | Microsoft Docs
 description: U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar Business Central met RapidStart Services. U kunt Excel XLSX-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815761"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
@@ -92,14 +92,14 @@ Als u gegevens vereffent die u hebt geïmporteerd uit Excel of uit een RapidStar
 
 - Als dezelfde toewijzingen rechtstreeks voor een veld en in de gerelateerde tabel zijn gedefinieerd maar verschillende waarden hebben, heeft de toewijzing die rechtstreeks voor het veld is gedefinieerd, prioriteit op de toewijzing die is gedefinieerd voor de tabel waarnaar het veld verwijst.  
 
-In de volgende procedures moet u van tevoren kijken welke waarden u wilt behouden tijdens het migratieproces. Als u de volgende procedures wilt uitvoeren, hebt u gegevensmigratiebestanden (.xlsx) nodig die u hebt geëxporteerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie het gedeelte "Gegevensmigratiebestanden exporteren".
+In de volgende procedures moet u van tevoren kijken welke waarden u wilt behouden tijdens het migratieproces. Als u de volgende procedures wilt uitvoeren, hebt u gegevensmigratiebestanden (.xlsx) nodig die u hebt geëxporteerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Gegevensmigratiebestanden exporteren](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.
 2. Open het pakket voor het betreffende bedrijf.  
 3. Selecteer de tabel waarvoor u waarden wilt toewijzen, en kies op het sneltabblad **Tabellen** de actie **Velden**.  
 4. Voor elk veld dat u wilt toewijzen, kiest u de actie **Toewijzing**.  
 5. Voer in het veld **Oude waarde** de waarde in die u wilt wijzigen. Voer in het veld **Nieuwe waarde** de waarde in waarin u de oude waarde wilt wijzigen. Kies de knop **OK**.  
-6. Importeer de klantgegevens. Zie voor meer informatie het gedeelte "Klantgegevens importeren".
+6. Importeer de klantgegevens. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie.
 7. Kijk in het veld **Aantal pakketfouten** of er fouten zijn gerapporteerd. Zoom in om fouten te bekijken als die er zijn. De pagina **Pakketrecords voor configuratie** wordt geopend.
 8. Kies de actie **Fout weergeven**. U ziet het volgende foutbericht: **<option> is geen geldige optie. Geldige opties zijn <valid option list>**. Kies de knop **OK**.  
 9. Als u de toewijzing wilt toepassen die u hebt ingesteld, kiest u de actie **Gegevens toepassen**.  
@@ -115,7 +115,7 @@ In het volgende voorbeeld ziet u hoe [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u extra waarden wilt toevoegen, en kies op het tabblad **Tabellen** de actie **Velden**.  
 3. Voor de velden waarvoor u wilt dat [!INCLUDE[d365fin](includes/d365fin_md.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  
-4. Importeer de klantgegevens. Zie voor meer informatie het gedeelte "Klantgegevens importeren".
+4. Importeer de klantgegevens. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie.
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Gegevens opschonen en verwerken voordat u ze toepast
 In sommige gevallen wilt u wellicht klantgegevens opruimen en verwerken voordat u deze op de database toepast. Als u dat wilt doen, kunt u de batchverwerking **Configuratiepakket - verwerken** gebruiken om problemen op te lossen, zoals:  
@@ -134,7 +134,7 @@ Nadat u een migratietabel hebt geëxporteerd, is uw volgende stap het invoeren v
 
 Voor hulp met XML schakelt u het tabblad **Ontwikkelaar** van het Excel-lint in en kiest u de actie **Bron** om het XML-schema van uw migratietabel te zien zoals in het Excel wordt aangeduid.
 
-De volgende procedure is gebaseerd op een Excel-werkblad dat u hebt gemaakt voor de migratie. Zie voor meer informatie het gedeelte "Gegevensmigratiebestanden exporteren".
+De volgende procedure is gebaseerd op een Excel-werkblad dat u hebt gemaakt voor de migratie. Zie voor meer informatie [Gegevensmigratiebestanden exporteren](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Wijzig de kolommen in de Excel-werkbladen niet. Als ze worden verplaatst, gewijzigd of verwijderd, kan het werkblad niet worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ De bedrijfsdatabase van de klant is nu ingesteld en elementaire gegevens zijn ge
 ## <a name="see-also"></a>Zie ook  
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

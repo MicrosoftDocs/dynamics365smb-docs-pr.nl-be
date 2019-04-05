@@ -2,7 +2,7 @@
 title: CRM - Service instellen | Microsoft Docs
 description: Overzicht van taken om CRM - Service in te stellen op een manier die past bij de manier waarop uw organisaties hun services beheren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816109"
 ---
-
 # <a name="setting-up-service-management"></a>CRM - Service instellen
 Voordat u de functies van CRM - Service in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt gebruiken, moet u een aantal dingen instellen. U kunt bijvoorbeeld codering opgeven voor standaardservices, symptoom- en probleemcodes, en de soorten serviceartikelen instellen die de klantenservice van uw onderneming nodig heeft.  
 
@@ -47,4 +46,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook 
 [CRM - Service](service-service.md)  
 [Aan de slag](product-get-started.md)  
-

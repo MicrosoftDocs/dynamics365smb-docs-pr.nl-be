@@ -1,8 +1,8 @@
 ---
-title: "Bankrekeningen apart reconciliëren| Microsoft Docs"
+title: Bankrekeningen apart reconciliëren| Microsoft Docs
 description: Beschrijft hoe uw voorraadwaarde wordt gereconcilieerd met het grootboek.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815834"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Bankrekeningen apart reconciliëren
 Als u bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt reconciliëren met afschriften die worden ontvangen van de bank, begint u met het linkerdeelvenster op de pagina **Bankreconciliatie** in te vullen met bankafschriftgegevens die u dan reconcilieert met bankrekeningposten in het rechterdeelvenster. Een slimme manier om bankafschriftregels in te vullen is een bankafschriftbestand of -feed te importeren.
@@ -100,4 +100,3 @@ Soms bevat een bankafschrift bedragen voor in rekening gebrachte rente of toesla
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

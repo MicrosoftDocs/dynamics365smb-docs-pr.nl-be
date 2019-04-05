@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 357febcb3984db658c0742f013aff65301ae6f42
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815993"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 Op de pagina **Toewijzing tekst aan rekening**, die u opent vanuit de pagina **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.
@@ -55,13 +55,9 @@ Als u brandstofkosten die bij Shell-benzinestations worden betaald, altijd wilt 
 | --- | --- | --- | --- | --- |
 | Shell |LEEG |8510 |Grootboekrekening |LEEG |
 
-> [!TIP]  
->   Zie voor meer informatie over het werken met velden en kolommen [Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Zie [Zoeken](ui-search.md) voor meer informatie over het zoeken naar specifieke pagina's.
-
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

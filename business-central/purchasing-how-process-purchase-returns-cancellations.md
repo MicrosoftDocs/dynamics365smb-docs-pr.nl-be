@@ -2,7 +2,7 @@
 title: Verkoopretouren of annuleringen verwerken | Microsoft Docs
 description: Legt uit hoe u een inkoopcreditnota maakt en boekt wanneer u artikelen wilt retourneren aan een leverancier of ingekochte services wilt annuleren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816076"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
 Als u artikelen wilt retourneren naar uw leverancier of services die u hebt aangeschaft, wilt annuleren, kunt u een inkoopcreditnota maken en boeken met de aangevraagde wijziging voor de oorspronkelijke inkoopfactuur. Als u de correcte inkoopfactuurinformatie wilt opnemen, kunt u de inkoopcreditnota rechtstreeks vanuit de geboekte inkoopfactuur maken, of een nieuwe inkoopcreditnota maken met gekopieerde informatie uit de factuur.
 
-Als u meer controle wilt hebben over het inkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het terugsturen van meerdere inkoopdocumenten bij één enkele inkoopretourzending, kunt u inkoopretourorders maken. Een inkoopretourorder geeft automatisch de bijbehorende inkoopcreditnota aan. Zie voor meer informatie de sectie "Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten".
+Als u meer controle wilt hebben over het inkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het terugsturen van meerdere inkoopdocumenten bij één enkele inkoopretourzending, kunt u inkoopretourorders maken. Een inkoopretourorder geeft automatisch de bijbehorende inkoopcreditnota aan. Zie voor meer informatie [Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Als een geboekte inkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** op de geboekte inkoopfactuur gebruiken om de betreffende transacties automatisch tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retourneringen of annuleringen. Zie voor meer informatie [Onbetaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -42,7 +42,7 @@ Er zijn twee functies om kosten automatisch exact tegen te boeken.
 
 |Functie|Description|  
 |------------------|---------------------------------------|  
-|De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Inkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de inkoopretourorder worden tegengeboekt. Zie voor meer informatie de sectie "Een inkoopretourorder en een gerelateerde inkoopcreditnota maken voor een of meer geboekte inkoopfacturen".|  
+|De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Inkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de inkoopretourorder worden tegengeboekt. Zie voor meer informatie [Een inkoopretourorder maken op basis van een of meer geboekte inkoopfacturen](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |De functie **Document kopiëren** op de pagina's **Inkoopcreditnota** en **Inkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Inkoopinstellingen**.|
 
 Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld **Vereffenen met artikelpost** selecteren op elk soort retourdocumentregel en vervolgens het nummer van de oorspronkelijke inkooppost selecteren. Hierdoor wordt de inkoopcreditnota of de inkoopretourorder gekoppeld aan de oorspronkelijke inkooppost en wordt het artikel gewaardeerd tegen de oorspronkelijke kostprijs.
@@ -78,9 +78,9 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 6. Selecteer het veld **Documentnr.** om de pagina **Geboekte inkoopfacturen** te openen, en selecteer vervolgens de geboekte inkoopfactuur met de regels die u wilt tegenboeken.
 7. Schakel het selectievakje **Regels opnieuw berekenen** in als u wilt dat de gekopieerde geboekte inkoopfactuurregels worden bijgewerkt met de wijzigingen in de artikelprijs en kostprijs sinds de factuur is geboekt.
 8. Kies de knop **Ok**. De gekopieerde factuurregels worden ingevoegd in de kredietnota van de aankoop.
-9. Voltooi de inkoopcreditnota, zoals is uitgelegd in het gedeelte "Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur" in dit onderwerp.
+9. Voltooi de inkoopcreditnota, zoals is uitgelegd in [Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopretourorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul de velden op het sneltabblad **Algemeen** in met de benodigde gegevens.
@@ -186,4 +186,3 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

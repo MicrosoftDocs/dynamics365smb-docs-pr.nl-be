@@ -2,22 +2,22 @@
 title: 'Procedure: artikelposten verwijderen en opnieuw toepassen | Microsoft Docs'
 description: U kunt bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a05acc754c14342d70ffa7f1e9c003099e949cff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815964"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Artikelposten verwijderen en opnieuw toepassen
 U kunt op de pagina **Vereffeningsvoorstel** bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.  
@@ -80,4 +80,3 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)   
  [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

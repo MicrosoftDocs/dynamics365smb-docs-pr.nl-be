@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816069"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
@@ -103,4 +103,3 @@ Wanneer de inkooporder wordt geboekt als gefactureerd, worden de directe kosten 
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

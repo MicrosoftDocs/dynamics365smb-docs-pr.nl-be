@@ -2,7 +2,7 @@
 title: Optionele activiteiten voor het afsluiten van periodes | Microsoft Docs
 description: Dit onderwerp schetst de optionele processen en activiteiten voor het sluiten van boekingsperioden in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ab72d1af179ec543ea358ac957e9b658987f7d53
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815904"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Overzicht van taken voor het sluiten van boekingsperioden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] dwingt u niet om perioden te sluiten, maar er zijn veel activiteiten voor periode-einden (maandeinden) die u kunt uitvoeren. In dit onderwerp vindt u een overzicht van optionele processen en activiteiten voor het afsluiten van perioden.  
@@ -63,4 +63,3 @@ Intercomp
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

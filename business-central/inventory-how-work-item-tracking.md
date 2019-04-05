@@ -7,24 +7,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816001"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Werken met serie- en lotnummers
-U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert het werk uit op de pagina **Artikeltraceringsregels**.
+U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert het werk uit op de pagina **Artikeltraceringsregels**, die u opent vanuit een inkomend of uitgaand document.
 
 De matrix van aantalvelden bovenin de pagina **Artikeltraceringsregels** geeft de aantallen en totalen van artikeltraceringsnummers weer die op de regels worden gedefinieerd. De aantallen moeten overeenkomen met de waarden op de documentregel. **Niet gedefinieerde** velden hebben hierbij de waarde 0.
 
 Ten behoeve van de prestaties wordt de beschikbare informatie op de pagina **Artikeltraceringsregels** slechts eenmaal verzameld wanneer u de pagina opent. Dat betekent dat de beschikbaarheidsgegevens niet worden bijgewerkt wanneer de pagina geopend is, zelfs niet wanneer gedurende die tijd wijzigingen optreden in de voorraad of in andere documenten.
 
-Artikelen met serie-/lotnummers kunnen voorwaarts of achterwaarts worden getraceerd in hun toeleveringsketen. Dit is handig voor algemene kwaliteitsmeting en voor terugroepacties. Zie voor meer informatie [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md).
+Artikelen met serie-/lotnummers kunnen voorwaarts en achterwaarts worden getraceerd in de toeleveringsketen. Dit is handig voor algemene kwaliteitsmeting en voor terugroepacties. Zie voor meer informatie [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Serie- of lotnummers picken in het magazijn
 Het verwerken van uitgaande serie- of lotnummers is een taak die vaak plaatsvindt tijdens vele verschillende magazijnprocessen.  
@@ -62,7 +62,7 @@ Een artikeltraceringscode weerspiegelt de verschillende overwegingen die een bed
 
 > [!NOTE]  
 >  Als u bepaalde artikelen of bepaalde lots tijdens hun levensduur wilt bijhouden, moet u respectievelijk de velden **Specifieke serienr.-tracering** en **Specifieke lottracering** kiezen. Wanneer u een uitgaande eenheid van een artikel met deze artikeltraceringscode verwerkt, moet u daarom altijd opgeven welk bestaand serienummer of lotnummer moet worden verwerkt. Dit betekent dat elke verkochte eenheid van het artikel moet worden vereffend met een bepaalde reeks serienummers of een specifiek lotnummer in de voorraad. Met andere woorden: het serienummer of lotnummer dat bij de invoer in de voorraad aan het artikel is toegewezen, moet samen met dat artikelsoort uit de voorraad worden geboekt.
-  
+
 Omdat dit bepaalde configuratieveld alle mogelijke artikeltransacties omvat, worden de afzonderlijke inkomende/uitgaande velden ook geselecteerd. De afzonderlijke inkomende/uitgaande velden hebben echter geen invloed op voorraadvereffening. Ze geven uitsluitend aan wanneer artikeltraceringsnummers worden toegewezen in de werkstroom van uw bedrijf.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Vervalregels instellen voor serie- of lotnummers  
@@ -75,6 +75,7 @@ Voor sommige artikelen wilt u mogelijk bepaalde vervaldatums en regels instellen
     |---------------------------------|---------------------------------------|  
     |**Strikte verloopdatumboeking**|Hiermee wordt opgegeven dat de vervaldatum van het artikeltraceringsnummer dat bij binnenkomst in de voorraad is toegewezen, strikt moet worden nagekomen bij het verlaten van de voorraad.|  
     |**Vervaldatum handmatig invoeren**|Hiermee wordt opgegeven dat u de vervaldatum op de artikeltraceringsregel handmatig moet invoeren.|  
+    |**Vervaldatums negeren**|Hiermee wordt opgegeven dat u geen vervaldatums wilt berekenen. |  
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Garanties instellen voor serie- of lotnummers  
 Mogelijk wilt u voor bepaalde artikelen bepaalde garanties instellen in de artikeltraceringscode. Met deze functie kunt u bijhouden wanneer de garanties op bepaalde serie- en lotnummers in de voorraad verlopen.        
@@ -108,7 +109,7 @@ Op een informatiekaart voor serie- of lotnummers kunt u gegevens koppelen aan ee
 5. Selecteer een kaart en kies de actie **Lotnr.-informatie/Serienr.-informatie**.  
 6. De korte omschrijving, de opmerkingrecord of het veld **Geblokkeerd** wijzigen.  
 
-U kunt de serienummers of lotnummers of aantallen niet wijzigen. Hiervoor moet u de betreffende artikelpost herindelen. Raadpleeg voor meer informatie de sectie "Lot- of serienummers herindelen".
+U kunt de serienummers of lotnummers of aantallen niet wijzigen. Hiervoor moet u de betreffende artikelpost herindelen. Raadpleeg voor meer informatie [Lot- of serienummers herindelen](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Serie- of lotnummers toewijzen tijdens inkomende transacties  
 Bedrijven willen artikelen mogelijk bijhouden vanaf het moment dat ze het bedrijf binnenkomen. In deze situatie is de inkooporder vaak het centrale document. Artikeltracering kan echter vanaf elk inkomend document worden verwerkt. De geboekte posten worden dan weergegeven in de bijbehorende artikelposten.  
@@ -146,7 +147,7 @@ Als het document wordt geboekt, worden de artikeltraceringsposten overgebracht n
 ## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Serie- of lotnummers toewijzen tijdens een uitgaande transactie  
 Er zijn twee manieren om serie- en lotnummers aan uitgaande transacties toe te voegen:  
 
--   Nummers selecteren uit bestaande serie- of lotnummers. Dit is van toepassing als er al traceringsnummers zijn toegekend tijdens een inkomende transactie. Zie voor meer informatie de sectie "Keuze maken uit bestaande serie- en lotnummers".
+-   Nummers selecteren uit bestaande serie- of lotnummers. Dit is van toepassing als er al traceringsnummers zijn toegekend tijdens een inkomende transactie. Zie voor meer informatie [Keuze maken uit bestaande serie- en lotnummers](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers).
 -   Nieuwe serie- of lotnummers toewijzen tijdens uitgaande transacties. Dit is van toepassing wanneer artikeltraceringsnummers pas worden toegekend aan items op het moment dat ze worden verkocht en klaar zijn voor verzending.  
 
 De verschillende regels voor artikeltraceringsnummers worden ingesteld op de pagina **Artikeltraceringscode**.  
@@ -268,4 +269,3 @@ Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wij
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

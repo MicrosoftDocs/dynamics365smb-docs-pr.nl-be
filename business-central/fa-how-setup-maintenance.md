@@ -2,7 +2,7 @@
 title: VA-onderhoud instellen| Microsoft Docs
 description: Als u reparaties en service van vaste activa wilt beheren, geeft u algemene onderhoudsinformatie, codes voor het soort werk en een boekingsrekening voor kosten op.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7fa3763f50549d418b0189604c170448b70c01b9
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815813"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Onderhoud van vaste activa instellen
 Als u onderhoud voor vaste activa wilt beheren, moet u eerst enkele algemene onderhoudsgegevens instellen, een boekingsrekening voor onderhoudskosten en onderhoudscodes voor soorten werk, zoals periodiek onderhoud of reparatie.
@@ -50,4 +50,3 @@ Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren op 
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

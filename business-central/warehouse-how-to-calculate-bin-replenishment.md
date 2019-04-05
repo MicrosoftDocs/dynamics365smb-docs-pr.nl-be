@@ -2,22 +2,22 @@
 title: Opslaglocatieaanvulling berekenen | Microsoft Docs
 description: Als de vestiging is ingesteld voor het gebruik van gestuurde opslag en pick, worden de prioriteiten van de opslagsjabloon voor de vestiging in aanmerking genomen wanneer de ontvangsten worden opgeslagen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815921"
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
 Als de vestiging is ingesteld voor het gebruik van gestuurde opslag en pick, worden de prioriteiten van de opslagsjabloon voor de vestiging in aanmerking genomen wanneer de ontvangsten worden opgeslagen. Prioriteiten omvatten de minimale en maximale aantallen van de opslaglocatie-inhoud die zijn vastgesteld voor een bepaalde opslaglocatie en de zonevolgordes. Dus als er in een rustig tempo artikelen worden afgeleverd, worden de meestgebruikte opslaglocaties gevuld met de artikelen.  
@@ -55,4 +55,3 @@ De volgende keer dat u de aanvulling van de opslaglocaties berekent, worden de v
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

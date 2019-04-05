@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 11/15/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816136"
 ---
-
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
 Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[d365fin](includes/d365fin_md.md)] instellen om ongerealiseerde btw te verwerken.
 
@@ -51,4 +50,3 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 
 ## <a name="see-also"></a>Zie ook
 [Btw instellen](finance-setup-vat.md)
-

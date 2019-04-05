@@ -1,23 +1,23 @@
 ---
 title: Migratie van klantgegevens voorbereiden | Microsoft Docs
-description: "Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren."
+description: Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815756"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Migratie van klantgegevens voorbereiden
 Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren.  
@@ -115,7 +115,7 @@ U kunt de structuur van de gegevens in de gegevenssjablonen gebruiken om uw info
 De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgegevenssjabloon. U kunt met dezelfde procedure een record maken van elke gegevenssjabloon.  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer de **artikel**sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie het gedeelte "Een gegevenssjabloon maken".
+2. Selecteer de **artikel**sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie [Een gegevenssjabloon maken](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Kies de actie **Instantie maken**. Er wordt een artikelkaart gemaakt.  
 4. Kies de knop **OK**.  
 5. Als u de nieuwe artikelkaart wilt bekijken, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Artikelen** in en kiest u vervolgens de gerelateerde koppeling.  
@@ -140,4 +140,3 @@ De standaardwaarden van de gekozen klantensjabloon worden ingevoegd in de klante
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)
-

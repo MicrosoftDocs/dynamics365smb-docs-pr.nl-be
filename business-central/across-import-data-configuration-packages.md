@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815912"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u ervoor kiezen een leeg bedrijf te maken zodat u uw eigen gegevens kunt uploaden en uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt testen. Afhankelijk van de financiële oplossing die uw bedrijf tegenwoordig gebruikt, kunt u gegevens over klanten, leveranciers en bankrekeningen overbrengen.  
@@ -77,8 +77,7 @@ Het standaardconfiguratiepakket ondersteunt de volgende tabellen:
 ## <a name="see-also"></a>Zie ook
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  
-[Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
+[Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

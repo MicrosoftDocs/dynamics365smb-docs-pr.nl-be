@@ -2,22 +2,22 @@
 title: Voorraad- en productiekosten verwerken | Microsoft Docs
 description: Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815966"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Voorraad- en productiekosten verwerken
 Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
@@ -40,4 +40,3 @@ Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt 
 ## <a name="see-also"></a>Zie ook  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)
 [Ontwerpdetails: Voorraadkosten](design-details-inventory-costing.md)
-

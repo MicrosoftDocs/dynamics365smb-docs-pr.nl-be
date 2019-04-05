@@ -2,7 +2,7 @@
 title: Vaste activa onderhouden| Microsoft Docs
 description: U houdt een onderhoudsrecord bij van de reparaties en onderhoud aan een vast activum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: af2b52e9bed7661e33945187d45c986ebd9e41f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c19838a8db1200595cb18456884afed9bd35d859
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815758"
 ---
 # <a name="maintain-fixed-assets"></a>Vaste activa onderhouden
 Onderhoudskosten zijn periodieke kosten die worden gemaakt om de waarde van vaste activa te behouden. In tegenstelling tot belangrijke verbeteringen zorgen ze niet voor waardevermeerdering.
@@ -43,7 +43,7 @@ Elke keer dat onderhoud wordt uitgevoerd, zoals een onderhoudsbeurt, kunt u dit 
 7. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van het onderhoud is ingesteld.
 
     > [!NOTE]  
-    >   Stap 7 werkt alleen als u het volgende hebt ingesteld: op de pagina **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Onderhoudskostenrekening** de grootboekdebetrekening en het veld **Tegenrekening onderhoud** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor afschrijving wilt boeken. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
+    >   Stap 7 werkt alleen als u het volgende hebt ingesteld: op de pagina **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Onderhoudskostenrekening** de grootboekdebetrekening en het veld **Tegenrekening onderhoud** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor afschrijving wilt boeken. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
 8. Kies de actie **Boeken**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Onderhoudsbeurten voor vaste activa opvolgen
@@ -90,4 +90,3 @@ In het rapport **Onderhoud - Details** kunt u onderhoudsposten voor een of meerd
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

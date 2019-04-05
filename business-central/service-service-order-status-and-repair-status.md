@@ -2,22 +2,22 @@
 title: Serviceorderstatus en herstelstatus | Microsoft Docs
 description: Tussen het veld Status op de pagina Serviceorder en de herstelstatus van het serviceartikel, weergegeven in het veld Herstelstatuscode op de pagina Serviceorder, bestaat een bepaalde relatie in de module CRM - Service. Met de serviceorderstatus wordt de herstelstatus van de serviceartikelen in de serviceorder aangegeven.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a7ef1f214bda9c78113b320ddbd331b5a3e7de33
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816106"
 ---
 # <a name="service-order-status-and-repair-status"></a>Serviceorderstatus en herstelstatus
 Tussen het veld **Status** op de pagina **Serviceorder** en de herstelstatus van het serviceartikel, weergegeven in het veld **Herstelstatuscode** op de pagina **Serviceorder**, bestaat een bepaalde relatie in de module CRM - Service. Met de serviceorderstatus wordt de herstelstatus van de serviceartikelen in de serviceorder aangegeven.  
@@ -65,4 +65,3 @@ Als één serviceartikel bijvoorbeeld de herstelstatus **Eerste** heeft, gekoppe
 ## <a name="see-also"></a>Zie ook  
 [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
-

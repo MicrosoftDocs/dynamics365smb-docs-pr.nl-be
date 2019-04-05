@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online payment
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: eac58a651989fff8b1d2cc6b6dbed2a380ae8ef8
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815762"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Klantbetalingen via betalingsservices inschakelen
 Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten laten betalen via hun account door middel van betalingsservices zoals Microsoft Pay, PayPal of WorldPay.  
@@ -45,4 +45,3 @@ De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standa
 [Verkoop](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

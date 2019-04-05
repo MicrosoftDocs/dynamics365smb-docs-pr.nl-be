@@ -1,7 +1,7 @@
 ---
 title: De gebruikerservaring kiezen om geavanceerde functies weer te geven of te verbergen | Microsoft Docs
 description: Meer weten over wat de ervaringslagen Essential en Premium betekenen voor de gebruikersinterface, toepassingsgebieden en uw bedrijf.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 02/04/2019
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
-ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
-ms.contentlocale: nl-be
-ms.lasthandoff: 02/04/2019
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815892"
 ---
 # <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften dor extensies toe te voegen uit AppSource of door de instelling Ervaring te wijzigen voor uw bedrijf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) of het gedeelte "Een gebruikerservaring kiezen om functies weer te geven of te verbergen" hieronder.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften dor extensies toe te voegen uit AppSource of door de instelling Ervaring te wijzigen voor uw bedrijf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) of [Een gebruikerservaring kiezen om functies weer te geven of te verbergen](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features) hieronder.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Een gebruikerservaring kiezen om functies weer te geven of te verbergen
 De gebruikerservaring bepaalt hoeveel van de kernfunctionaliteit beschikbaar is wanneer u en uw collega's met [!INCLUDE[d365fin](includes/d365fin_md.md)] werken. In het veld **Ervaring** op de pagina **Bedrijfsgegevens** kunt u de gebruikerservaring instellen voor uw bedrijf.
@@ -71,4 +71,3 @@ Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[d365fin](
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

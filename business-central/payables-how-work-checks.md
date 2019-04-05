@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815802"
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
@@ -78,4 +78,3 @@ Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te ver
 [Bankieren instellen](bank-setup-banking.md)  
 [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -2,7 +2,7 @@
 title: Boekingsperioden afsluiten voor een boekjaar | Microsoft Docs
 description: Beschrijft hoe u de boekhoudperioden afsluit die een boekjaar vormen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816120"
 ---
 # <a name="close-accounting-periods"></a>Boekhoudperioden afsluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten.
@@ -43,4 +43,3 @@ Nadat een boekjaar is afgesloten, moet u de resultaten- of winst- en verliesreke
 [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  
 [Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

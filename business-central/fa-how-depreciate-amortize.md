@@ -1,6 +1,6 @@
 ---
 title: VA in waarde verminderen of afschrijven| Microsoft Docs
-description: "U moet definiëren hoe u uw vaste activa afschrijft, in waarde vermindert of aflost."
+description: U moet definiëren hoe u uw vaste activa afschrijft, in waarde vermindert of aflost.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4f11e194d020254a7e5274f2eb08f1719ffa6439
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816023"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  
@@ -50,7 +50,7 @@ U kunt de batchverwerking **Afschrijving berekenen** eens per maand, of op een t
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA fin. dagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een eerste dagboekregel en vul de velden indien nodig in.  
 3. In het veld **VA-boekingssoort** selecteert u **Afschrijving**.  
-4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie het gedeelte 'Boekingsgroepen voor vaste activa instellen' in [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
+4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
 5. Kies op het tabblad **Start** de optie **Boeken** om het dagboek te boeken.  
 
 Als u verdeelsleutels voor vaste activa hebt ingesteld om bedragen over verschillende afdelingen of projecten te verdelen, worden de bedragen tijdens de boeking verdeeld. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
@@ -65,7 +65,7 @@ Als een vast activum door verschillende afdelingen wordt gebruikt, kan de period
 5. Kies op het tabblad **Start** de optie **Boeken** om het dagboek te boeken.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Duplicatielijsten gebruiken ter voorbereiding op de boeking naar meerdere afschrijvingsboeken
-Als u dagboekregels invult die naar een afschrijvingsboek moeten worden geboekt, kunt u de regels in een apart dagboek dupliceren, zodat u ze naar een ander afschrijvingsboek kunt boeken. Zie het gedeelte "Posten boeken naar verschillende afschrijvingsboeken" voor meer informatie.
+Als u dagboekregels invult die naar een afschrijvingsboek moeten worden geboekt, kunt u de regels in een apart dagboek dupliceren, zodat u ze naar een ander afschrijvingsboek kunt boeken. Zie [Posten boeken naar verschillende afschrijvingsboeken](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books) voor meer informatie.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het afschrijvingsboek en schakel vervolgens het selectievakje **Deel van duplicatielijst** in.  
@@ -102,4 +102,3 @@ De gekopieerde regels worden in het financieel dagboek voor vaste activa of het 
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815867"
 ---
-# <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfgegevens gereed maken voor Power BI
-Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is gemakkelijk met Power BI en de [!INCLUDE[d365fin](includes/d365fin_md.md)] Content Packs. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
+# <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
+Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is gemakkelijk met Power BI en de [!INCLUDE[d365fin](includes/d365fin_md.md)]-inhoudspakketten. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
 
-U moet een geldig account bij Dynamics 365 en Power BI hebben. U moet ook [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
+U moet een geldig account bij Dynamics 365 en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
 Microsoft heeft de volgende Content Packs gepubliceerd:
 
@@ -66,7 +66,7 @@ U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in he
 - Terwijl uw gegevensset wordt gepland om dagelijks te worden vernieuwd, kunt u het vernieuwingsschema wijzigen of op verzoek proberen te vernieuwen met **Nu vernieuwen**.
 
 ## <a name="system-requirements"></a>Systeemvereisten
-Als u de gegevens [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Power BI wilt importeren, moet u machtigingen hebben voor de webservices die worden gebruikt om gegevens op te halen. De webservices die voor elk inhoudspakket vereist zijn omvatten:
+Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Power BI wilt importeren, moet u machtigingen hebben voor de webservices die worden gebruikt om gegevens op te halen. De webservices die voor elk inhoudspakket vereist zijn omvatten:
 
 ## <a name="role-center-reports"></a>Rolcentrumrapporten
 
@@ -75,41 +75,41 @@ Als u de gegevens [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Po
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Finance**
+**Microsoft Dynamics 365 Business Central – Financiën**
 - PowerBIFinance
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Jobs**
+**Microsoft Dynamics 365 Business Central – Taken**
 - Projectoverzicht
 - Projectplanningsregels
 - Projecttaakregels
 - Labels van Power BI-rapport
 - Excel-sjabloonweergave Bedrijf
 
-**Microsoft Dynamics 365 Business Central - Sales**
+**Microsoft Dynamics 365 Business Central - Verkoop**
 - Verkoopdashboard
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
 ## <a name="list-page-reports"></a>Lijstpaginarapporten
 
-**Microsoft Dynamics 365 Business Central – Customers List**
+**Microsoft Dynamics 365 Business Central – Klantenlijst**
 - Artikelverkopen per klant
-- Power BI-artikelinkoopoverzicht
-- Power BI-artikelverkoopoverzicht
+- Power BI-artikelinkooplijst
+- Power BI-artikelverkooplijst
 - Verkoopdashboard
-- Power BI-klantenoverzicht
+- Power BI-klantenlijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Power BI-overzicht met grootboekbedragen
+**Microsoft Dynamics 365 Business Central - Lijst met algemene posten**
+- Power BI-lijst met grootboekbedragen
 - Power BI gebudgetteerd grootboekbedrag
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Items List**
+**Microsoft Dynamics 365 Business Central – artikellijst**
 - Artikelverkopen per klant
 - Power BI-artikelinkooplijst
 - Power BI-artikelverkooplijst
@@ -117,26 +117,26 @@ Als u de gegevens [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Po
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI-projectenoverzicht
+**Microsoft Dynamics 365 Business Central – Takenlijst**
+- Power BI-takenlijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI-inkoopoverzicht
+**Microsoft Dynamics 365 Business Central – Inkoopfacturenlijst**
+- Power BI-inkooplijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI-verkoopoverzicht
+**Microsoft Dynamics 365 Business Central – Verkooporderlijst**
+- Power BI-verkooplijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
 
-**Microsoft Dynamics 365 Business Central – Vendors List**
+**Microsoft Dynamics 365 Business Central – Leverancierslijst**
 - Power BI-artikelinkooplijst
 - Power BI-artikelverkooplijst
-- Power BI-leveranciersoverzicht
+- Power BI-leverancierslijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
@@ -159,7 +159,7 @@ Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u d
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag met Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
-[Power BI-basisconcepten](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
+[Power BI - Basisconcepten](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Bedrijfsinformatie](bi.md)  
 [Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
@@ -170,4 +170,3 @@ Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

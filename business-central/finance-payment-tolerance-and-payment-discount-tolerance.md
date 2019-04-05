@@ -2,22 +2,22 @@
 title: Betalingstolerantie en contantkortingstolerantie | Microsoft Docs
 description: U kunt de betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815804"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 U kunt een betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt. U kunt een contantkortingstolerantie instellen om een contantkorting te verlenen nadat de datum van de betalingskorting is verstreken.  
@@ -31,14 +31,14 @@ Documenten hebben altijd dezelfde betalingstolerantie, ongeacht of ze afzonderli
 
 *contantkortingsdatum < betaaldatum in geselecteerde post <= betalingstolerantiedatum*  
 
-Deze regel wordt ook gebruikt om te bepalen of er waarschuwingen moeten worden weergegeven wanneer u betalingstolerantie op meerdere documenten toepast. De waarschuwing voor contantkortingstolerantie wordt voor elke post weergegeven die voldoet aan de datumcriteria. Zie 'Voorbeeld 2 - Tolerantieberekeningen voor meervoudige documenten' voor meer informatie.
+Deze regel wordt ook gebruikt om te bepalen of er waarschuwingen moeten worden weergegeven wanneer u betalingstolerantie op meerdere documenten toepast. De waarschuwing voor contantkortingstolerantie wordt voor elke post weergegeven die voldoet aan de datumcriteria. Zie [Voorbeeld 2 - Tolerantieberekeningen voor meervoudige documenten](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents) voor meer informatie.
 
 U kunt kiezen om een waarschuwing weer te geven die is gebaseerd op tolerantie in verschillende situaties.  
 
 - De eerste waarschuwing heeft betrekking op de contantkortingstolerantie. U krijgt de mogelijkheid een late contantkorting goed te keuren. U kunt vervolgens kiezen of de tolerantie op de kortingsvervaldatum moet worden geaccepteerd.  
 - De tweede waarschuwing heeft betrekking op de betalingstolerantie. U krijgt een melding dat alle posten kunnen worden afgesloten, aangezien het verschil minder is dan het totaal van de maximumbetalingstolerantie voor de vereffende posten. U kunt vervolgens kiezen of de tolerantie op het betalingsbedrag moet worden geaccepteerd.
 
-Zie voor meer informatie de sectie 'Betalingstolerantiewaarschuwingen in- of uitschakelen'.     
+Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Toleranties instellen  
 Met toleranties voor dagen en bedragen kunt u een factuur ook afsluiten als het betalingsbedrag niet gelijk is aan het volledige factuurbedrag. De reden hiervoor kan zijn dat de vervaldatum voor de betalingskorting is overschreden, dat er goederen zijn afgetrokken of dat er een kleine fout is gemaakt. Dit geldt ook voor restituties en creditnota's.  
@@ -60,9 +60,9 @@ U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt i
 >  U hebt nu alleen voor de lokale valuta een tolerantie ingesteld. Als u wilt dat tolerantie voor betalingen, creditnota's en terugbetalingen in een vreemde valuta worden afgehandeld door [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de batchverwerking **Betalingstolerantie wijzigen** uitvoeren met een waarde in het veld **Valutacode**.  
 
 > [!NOTE]  
->  Als u telkens wanneer u een vereffening toepast in de tolerantie een betalingstolerantiewaarschuwing wilt krijgen, moet u de betalingstolerantiewaarschuwing inschakelen. Zie voor meer informatie de sectie 'Betalingstolerantiewaarschuwingen in- of uitschakelen'.  
+>  Als u telkens wanneer u een vereffening toepast in de tolerantie een betalingstolerantiewaarschuwing wilt krijgen, moet u de betalingstolerantiewaarschuwing inschakelen. Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Als u tolerantie wilt uitschakelen voor een klant of leverancier, moet u toleranties blokkeren op de relevante klanten- of leverancierskaart. Zie voor meer informatie de sectie 'Betalingstolerantie voor klanten blokkeren'.  
+>  Als u tolerantie wilt uitschakelen voor een klant of leverancier, moet u toleranties blokkeren op de relevante klanten- of leverancierskaart. Zie voor meer informatie [Betalingstolerantie voor klanten blokkeren](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  Wanneer u toleranties instelt, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] ook of er openstaande posten zijn en wordt de tolerantie ook voor deze posten berekend.
 
@@ -262,4 +262,3 @@ Normale vereffeningsregels
 [Financiën instellen](finance-setup-finance.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Marketing- en contactbeheergegevens instellen| Microsoft Docs
 description: U kunt marketing- en contactpersonenbeheer in Business Central instellen om relaties met prospects of klanten te optimaliseren en campagnes en promoties te verbeteren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
+ms.openlocfilehash: e2fa7fc0c5f2e89f592dca84a89e5e5f551b0d28
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816095"
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
 Voordat u met uw contacten en marketing gaat werken, moet u enkele beslissingen en stappen nemen om in te stellen hoe het marketinggebied bepaalde aspecten van uw contacten beheert. Bijvoorbeeld kunt u aangeven of u de contactkaart wilt synchroniseren met de klantenkaart, leverancierskaart en bankrekeningkaart, hoe nummerreeksen worden gedefinieerd of wat de standaardaanhef moet zijn wanneer u naar uw contacten schrijft.
@@ -48,7 +49,7 @@ Zie voor meer informatie [Automatisch interacties met contacten registreren](mar
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Contacten met klanten synchroniseren en meer
 Als u de contactkaart wilt synchroniseren met de klantenkaart, leverancierskaart en bankrekeningkaart, moet u een zakenrelatiecode selecteren voor klanten, leveranciers en bankrekeningen. U kunt bijvoorbeeld alleen een contact koppelen aan een bestaande klant als u een zakenrelatiecode voor klanten hebt geselecteerd op de pagina **Marketinginstellingen**.
 
-Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
+Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Een nummerreeks toewijzen aan opportunity's en contacten
 U kunt een nummerreeks instellen voor contacten en opportunities. Als u een nummerreeks hebt ingesteld voor contacten, wordt automatisch het volgende beschikbare contactnummer ingevoerd wanneer u een contact maakt en op Enter drukt in het veld Nr.
@@ -61,4 +62,3 @@ U kunt het programma automatisch laten zoeken naar dubbele records telkens wanne
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

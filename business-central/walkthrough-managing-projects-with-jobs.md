@@ -2,22 +2,22 @@
 title: 'Procedure: Projecten beheren | Microsoft Docs'
 description: In deze procedure maakt u kennis met de functies voor projectbeheer in taken (projecten). Projecten zijn een manier waarop u het verbruik van de bedrijfsresources kunt plannen en de diverse kosten kunt bijhouden die samenhangen met de resources voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die u mogelijk wilt bijhouden terwijl het project voortduurt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815979"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
 In deze procedure maakt u kennis met de functies voor projectbeheer in taken (projecten). Projecten zijn een manier waarop u het verbruik van de bedrijfsresources kunt plannen en de diverse kosten kunt bijhouden die samenhangen met de resources voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die u mogelijk wilt bijhouden terwijl het project voortduurt.  
@@ -67,7 +67,7 @@ In deze procedure maakt u kennis met de functies voor projectbeheer in taken (pr
 -   Maak voorbeeldgegevens met behulp van de stappen in het volgende gedeelte.  
 
 ## <a name="story"></a>Scenario  
-In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- en consultancyfirma die nieuwe infrastructuren ontwerpt (conferentiezalen en kantoren) en inricht met meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash is projectleider bij CRONUS. Hij gebruikt projecten om een overzicht te bieden van alle lopende projecten die CRONUS heeft gestart, alsmede van de projecten die zijn afgerond. Hij is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hij constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] en de mogelijkheid om te betalen in termijnen.
+In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- en consultancyfirma die nieuwe infrastructuren ontwerpt (conferentiezalen en kantoren) en inricht met meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash is projectmanager bij CRONUS. Hij gebruikt projecten om een overzicht te bieden van alle lopende projecten die met CRONUS zijn gestart, alsmede van de projecten die zijn afgerond. Hij is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hij constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] en de mogelijkheid om te betalen in termijnen.
 
  Tricia, een lid van het projectteam dat aan Prakash rapporteert, is verantwoordelijk voor de dagelijkse controle van het project. Behalve haar eigen werk, voert zij ook het werk in dat voor elke taak door technici wordt uitgevoerd. Zij legt de artikelen die zij hebben gebruikt en de kosten die zij hebben gemaakt vast.  
 
@@ -280,7 +280,7 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
 3.  Kies de knop **Sluiten** om de pagina **Projectstatistiek** te sluiten.  
 
 ## <a name="handling-fixed-prices"></a>Werken met vaste prijzen  
- CRONUS heeft een contract binnengehaald voor het inrichten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil hij weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Hij heeft met de klant een vaste prijs voor een project afgesproken.  
+ CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil hij weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Hij heeft met de klant een vaste prijs voor een project afgesproken.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Vaste prijzen beheren in projecten  
 
@@ -485,4 +485,3 @@ In dit scenario gaat het om het bedrijf Cronus International Ltd., een design- e
  [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)   
  [Projecten factureren](projects-how-invoice-jobs.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

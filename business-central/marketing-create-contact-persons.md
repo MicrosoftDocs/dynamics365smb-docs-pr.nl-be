@@ -1,6 +1,6 @@
 ---
 title: Contactpersonen maken | Microsoft Docs
-description: "Schetst de taken om een contactkaart voor een persoon te maken, bijvoorbeeld een prospect of leverancier, om de relatie te helpen definiëren en communicatie af te stemmen."
+description: Schetst de taken om een contactkaart voor een persoon te maken, bijvoorbeeld een prospect of leverancier, om de relatie te helpen definiëren en communicatie af te stemmen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: nl-be
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816083"
 ---
 # <a name="creating-contact-persons"></a>Contactpersonen maken
 U kunt een contact maken door een contactkaart voor die persoon in te stellen. U kunt contacten maken op basis van bestaande contactbedrijven of u kunt onafhankelijke contacten maken.
@@ -44,8 +45,6 @@ U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarm
 >   De inhoud van de velden die u hebt geselecteerd in het gedeelte **Overerving** van de pagina **Marketinginstellingen**, wordt gekopieerd van het bedrijf naar de personen binnen dat bedrijf.
 
 ## <a name="see-also"></a>Zie ook
-[Contactbedrijven maken](marketing-create-contact-companies.md)  
-[Contactpersonen maken](marketing-create-contact-persons.md)  
+[Contacten maken](marketing-create-contact-companies.md)  
 [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md)  
 [Werken met Business Central](ui-work-product.md)
-

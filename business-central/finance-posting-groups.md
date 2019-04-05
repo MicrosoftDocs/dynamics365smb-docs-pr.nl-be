@@ -2,7 +2,7 @@
 title: Boekingsgroepinstellingen| Microsoft Docs
 description: Overzicht van de boekingsgroepen dat u kunt gebruiken om tijd te besparen en fouten te voorkomen wanneer u transacties boekt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816051"
 ---
 # <a name="setting-up-posting-groups"></a>Boekingsgroepen instellen
 Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. Hiermee wordt tijd bespaard en worden fouten voorkomen als u transacties boekt. De transactiewaarden gaan naar de rekeningen die in de boekingsgroep zijn opgegeven voor die bepaalde entiteit. De enige voorwaarde is dat u een rekeningschema hebt. Zie [Het rekeningschema instellen](finance-setup-chart-accounts.md) voor meer informatie.  
@@ -38,9 +38,9 @@ In de volgende tabellen worden de boekingsgroepen van elke categorie beschreven.
 
 | Specifieke boekingsgroepen | Description |
 | --- | --- |
-| Klantboekingsgroepen |Definieer de rekeningen die moeten worden gebruikt als u klanttransacties boekt. Als u voorraad gebruikt bij klanten, wordt met de combinatie Bedrijfsboekingsgroep, toegewezen aan uw klant, en de Productboekingsgroep, toegewezen aan het voorraadartikel, bepaald naar welke rekeningen de verkooporderregels worden geboekt. Stel dit op de pagina **Klantboekingsgroepen** in. |
+| Klantboekingsgroepen |Definieer de rekeningen die moeten worden gebruikt als u klanttransacties boekt. Als u voorraad gebruikt bij klanten, wordt met de combinatie Bedrijfsboekingsgroep, toegewezen aan uw klant, en de Productboekingsgroep, toegewezen aan het voorraadartikel, bepaald naar welke rekeningen de verkooporderregels worden geboekt. Zie "Bedrijfsboekingsgroepen" en "Productboekingsgroepen" onder **Algemene boekingsgroepen** hierboven. Stel dit op de pagina **Klantboekingsgroepen** in. |
 | Leveranciersboekingsgroepen |Definieer waar transacties voor tegoeden, servicekostenrekeningen en contantkortingsrekeningen moeten worden geboekt. Dit is vergelijkbaar met klantboekingsgroepen. Stel dit op de pagina **Leveranciersboekingsgroepen** in. |
-| Voorraadboekingsgroepen |Definieer balansvoorraadrekeningen. Deze verschaffen ook een goede manier om uw voorraad te organiseren. Wanneer u rapporten genereert, kunt u artikelen dus scheiden op basis van de bijbehorende boekingsgroep. Stel dit op de pagina **Voorraadboekingsgroepen** in. |
+| Voorraadboekingsgroepen |Definieer voorraadboekingsgroepen die u vervolgens toewijst aan de relevante artikelrekeningen op de pagina **Voorraadboekingsgroepinstellingen**. Wanneer u dan posten voor een artikel boekt, word er een boeking uitgevoerd naar de grootboekrekening die is ingesteld voor deze aan het artikel gekoppelde combinatie van artikelboekingsgroep en vestiging. Voorraadboekingsgroepen vormen tevens een ideale manier om uw voorraad te organiseren. Wanneer u rapporten genereert, kunt u artikelen dan scheiden op boekingsgroepen. Stel dit op de pagina **Voorraadboekingsgroepen** in. |
 | Bankboekingsgroepen |Definieer rekeningen voor bankrekeningen. Hiermee kunnen bijvoorbeeld de processen om transacties te traceren en bankrekeningen te reconciliëren worden vereenvoudigd. Stel dit op de pagina **Bankboekingsgroepen** in. |
 | VA-boekingsgroep |Definieer rekeningen voor verschillende soorten onkosten en kosten, zoals aanschafkosten, gecumuleerde afschrijvingsbedragen, aanschafkosten bij BGS, gecumuleerde afschrijving bij BGS, winst bij BGS, verlies bij BGS, onderhoudskosten en afschrijvingskosten. Stel dit op de pagina **VA-boekingsgroepen** in. |
 
@@ -79,4 +79,3 @@ Hoe meer product- en bedrijfsboekingsgroepen u hebt, des te meer regels u op de 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,10 +2,10 @@
 title: Crediteuren beheren| Microsoft Docs
 description: Overzicht van hoe u crediteuren (AP) beheert, inclusief leveranciersbetalingen, crediteuren, schuld en verschuldigd saldo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 manager: edupont
-editor: 
+editor: ''
 ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
@@ -15,12 +15,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816065"
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft alles wat u nodig hebt om uw betalingsverplichtingen efficiënt te beheren.  
@@ -54,4 +54,3 @@ Als u wacht met het boeken van betalingen totdat uw bank bevestigt dat transacti
 [Betalingsmethoden](finance-payment-methods.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,7 +1,7 @@
 ---
 title: Nummerreeksen maken | Microsoft Docs
 description: Leren hoe u nummerreeksen instelt die unieke ID-codes toewijzen aan rekeningen en documenten in Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816081"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
@@ -75,4 +75,3 @@ Wanneer u nu iets instelt waarvoor u een nummer nodig hebt, kunt u de relaties g
 ## <a name="see-also"></a>Zie ook
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

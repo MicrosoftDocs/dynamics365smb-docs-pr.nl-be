@@ -2,22 +2,22 @@
 title: Een bedrijf instellen met RapidStart Services | Microsoft Docs
 description: U kunt een nieuw bedrijf instellen in Business Central met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
-ms.contentlocale: nl-be
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815806"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Een bedrijf met RapidStart Services instellen
 U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.  
@@ -52,4 +52,3 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 [Beheer](admin-setup-and-administration.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)   
-

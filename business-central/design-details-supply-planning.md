@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 92496f25d354dd766acd8d301546a5bf4f36c1e3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b506561b35cab1fafd4cac05a71de988761cac8
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815982"
 ---
 # <a name="design-details-supply-planning"></a>Ontwerpdetails: Voorzieningsplanning
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadplanning in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,4 +31,3 @@ Er wordt uitgelegd hoe het planningssysteem werkt en hoe de algoritmen kunnen wo
 [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
 [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)
-

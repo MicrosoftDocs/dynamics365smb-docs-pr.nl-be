@@ -1,8 +1,8 @@
 ---
 title: Functiegroepen instellen voor contacten | Microsoft Docs
-description: "U kunt een functiegroepcode definiëren en vervolgens toewijzen aan een contact om de taken aan te geven waarvoor uw contact verantwoordelijk is in hun bedrijf, bijvoorbeeld, IT of productie."
+description: U kunt een functiegroepcode definiëren en vervolgens toewijzen aan een contact om de taken aan te geven waarvoor uw contact verantwoordelijk is in hun bedrijf, bijvoorbeeld, IT of productie.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816032"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Functiegroepen instellen voor contactpersonen
 U kunt informatie over de functiegroepen van contactpersonen toevoegen om aan te geven waar de contactpersoon verantwoordelijk voor is binnen het bedrijf, bijvoorbeeld IT, beheer of productie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
@@ -45,7 +45,5 @@ Het aantal functiegroepen dat u aan het contact hebt toegewezen, wordt weergegev
 Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Zie ook
-[Contactpersonen maken](marketing-create-contact-persons.md)  
-[Contactbedrijven maken](marketing-create-contact-companies.md)  
+[Contacten maken](marketing-create-contact-companies.md)  
 [Werken met Business Central](ui-work-product.md)
-

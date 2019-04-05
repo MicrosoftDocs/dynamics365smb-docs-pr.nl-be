@@ -1,8 +1,8 @@
 ---
-title: De extensie WorldPay Payments Standard | Microsoft Docs
+title: WorldPay Payments Standard| Microsoft Docs
 description: Bevat informatie over de extensie WorldPay Payments Standard
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: ca48d31490446dd72c5d2f4997c5068a0acfd460
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815872"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard. Daarnaast komen betalingen via betalingsservices doorgaans sneller aan op uw bankrekening.
@@ -28,4 +28,3 @@ Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](in
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

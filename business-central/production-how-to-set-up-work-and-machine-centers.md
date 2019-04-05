@@ -2,22 +2,22 @@
 title: Afdelingen en bewerkingsplaatsen instellen | Microsoft Docs
 description: Op een **afdelingskaart** staan alle vaste waarden en behoeften van de desbetreffende productieresource bij elkaar. Op die manier wordt de productie-output die op die afdeling wordt uitgevoerd door de kaart bepaald.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816171"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 Er wordt onderscheid gemaakt tussen drie soorten capaciteit. Deze zijn hiërarchisch gerangschikt. Elk niveau bestaat uit onderliggende niveaus.  
@@ -48,22 +48,22 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 
 9.  Definieer in het veld **Kostprijsberekening** of de bovenstaande berekening moet worden gebaseerd op de gebruikte tijd: **Tijd** of op het aantal geproduceerde eenheden: **Eenheden**.  
 10.  Schakel het selectievakje **Specifieke kostprijs** in wanneer u de afdelingskostprijs wilt definiëren op de bewerkingsplanregel waarop deze wordt gebruikt. Dit kan nodig zijn voor bewerkingen waarvan de capaciteitskosten enorm verschillen met die van bewerkingen die normaal op de afdeling worden uitgevoerd.  
-11.  Selecteer in het veld **Afboekingsmethode** of de outputboeking op deze afdeling handmatig moet worden berekend en geboekt of dat dit automatisch moet gebeuren op een van de volgende wijzen.  
+11.  Selecteer in het veld **Afboekingsmethode** of de outputboeking op deze afdeling handmatig moet worden berekend en geboekt of dat dit automatisch moet gebeuren op een van de volgende wijzen.
 
-    |Optie|Omschrijving|  
-    |----------------------------------|---------------------------------------|  
-    |**Handmatig**|Verbruik wordt handmatig geboekt in het outputdagboek of het productiedagboek.|
-    |**Voorwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt vrijgegeven.|  
-    |**Achterwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt voltooid.|  
+|Optie|Omschrijving|
+|------|-----------|
+|**Handmatig**|Verbruik wordt handmatig geboekt in het outputdagboek of het productiedagboek.|
+|**Voorwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt vrijgegeven.|
+|**Achterwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt voltooid.|
 
-    > [!NOTE]  
-    >  Zo nodig kan de afboekingsmethode die hier en op de **artikelkaart** is geselecteerd, voor afzonderlijke bewerkingen worden overschreven. U doet dit door de instellingen op bewerkingsplanregels te wijzigen.
+> [!NOTE]
+> Zo nodig kan de afboekingsmethode die hier en op de **artikelkaart** is geselecteerd, voor afzonderlijke bewerkingen worden overschreven. U doet dit door de instellingen op bewerkingsplanregels te wijzigen
 
 12.  Voer in het veld **Eenheidscode** de tijdseenheid in waarin de kostenberekening en capaciteitsplanning van deze afdeling worden gemaakt.
     Pas wanneer u een methode voor meten hebt ingesteld, kunt u het verbruik voortdurend controleren. De eenheden die u invoert, zijn basiseenheden. De verwerkingstijd wordt bijvoorbeeld gemeten in uren en minuten.
 
-    > [!NOTE]  
-    > Als u kiest voor het gebruik van dagen, moet u eraan denken dat 1 dag bestaat uit 24 uur en niet uit 8 (werkuren).
+> [!NOTE]  
+> Als u kiest voor het gebruik van dagen, moet u eraan denken dat 1 dag bestaat uit 24 uur en niet uit 8 (werkuren).
 
 13.  Definieer in het veld **Capaciteit** of er op de afdeling meer dan één machine of persoon tegelijkertijd aan het werk zijn. Wanneer in [!INCLUDE[d365fin](includes/d365fin_md.md)] niet de module Bewerkingsplaats is geïnstalleerd, moet de waarde in dit veld **1** zijn.  
 14.  Voer in het veld **Efficiëntie** het percentage van de verwachte standaardoutput in dat deze afdeling werkelijk oplevert. Wanneer u hier **100** invoert, betekent dit dat de werkelijke output van de afdeling net zo hoog is als de standaardoutput.  
@@ -106,4 +106,3 @@ Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

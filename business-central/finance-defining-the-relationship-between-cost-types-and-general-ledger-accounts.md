@@ -1,8 +1,8 @@
 ---
-title: "De relatie tussen kostensoorten en grootboekrekeningen definiëren | Microsoft Docs"
+title: De relatie tussen kostensoorten en grootboekrekeningen definiëren | Microsoft Docs
 description: Leer hoe u de relatie tussen de kostensoort en de grootboekrekening definieert.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816041"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>De relatie tussen de kostensoorten en grootboekrekeningen definiëren
 De relatie tussen het kostensoort en de grootboekrekening wordt gemaakt in het kostensoort en in de grootboekrekening.  
@@ -50,4 +50,3 @@ Er bestaat mogelijk geen relatie tussen een kostensoort en grootboekrekeningen a
 [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)   
 [Kostprijsboekhouding](finance-about-cost-accounting.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

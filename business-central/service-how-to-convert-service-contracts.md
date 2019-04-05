@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816088"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Servicecontracten met btw-bedragen converteren
 Omdat het wijzigingstool btw-tarief servicecontracten niet kan converteren, moeten deze contracten handmatig worden geconverteerd. In dit onderwerp worden diverse alternatieve methoden beschreven die u voor de conversie van het servicecontract kunt gebruiken.  
@@ -68,4 +68,3 @@ In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de bat
 [Financiën](finance.md)  
 [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
-

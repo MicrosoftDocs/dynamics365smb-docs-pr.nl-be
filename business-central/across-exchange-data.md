@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 678b15b8d15dba477ac09c2651964525f4afe26a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816117"
 ---
 # <a name="exchanging-data"></a>Gegevens uitwisselen
 U kunt gegevens uitwisselen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe bestanden of streams voor veelvoorkomende bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  
@@ -44,4 +44,3 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-

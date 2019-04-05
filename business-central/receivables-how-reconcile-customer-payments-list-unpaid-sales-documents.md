@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816110"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Klantbetalingen van een lijst met onbetaalde verkoopdocumenten handmatig reconciliëren
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren
 Als uw klanten betalingen naar uw elektronische bankrekening hebben gedaan, moet u ieder betaald bedrag vereffenen met het gerelateerde verkoopdocument en vervolgens de betaling boeken om de klant-, dagboek- en bankposten bij te werken. Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
 
 > [!NOTE]  
@@ -54,30 +54,30 @@ De betalingsgegevens worden geboekt voor documenten die worden vertegenwoordigd 
 
 Betalingenposten worden geboekt naar grootboek-, bank- en klantrekeningen. Elke betaling wordt toegepast op het bijbehorende geboekte verkoopdocument.  
 
-## <a name="to-reconcile-lump-payments"></a>Lump-sum betalingen reconciliëren
+## <a name="to-reconcile-lump-sum-payments"></a>Lump-sum betalingen reconciliëren
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsregistratie** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel het selectievakje **Is betaald** in op de regels die geboekte documenten vertegenwoordigen voor dezelfde klant voor wie een lump-sum betaling is verricht.  
 
     > [!NOTE]  
-    >   De klant in het veld **Naam** moet hetzelfde zijn op alle regels die als partijbetaling worden geboekt.  
+    >   De klant in het veld **Naam** moet hetzelfde zijn op alle regels die als lump-sum betaling worden geboekt.  
 
     Als het selectievakje **Ontvangstdatum automatisch invullen** op de pagina **Instelling van betalingsregistratie** is ingevuld, wordt de werkdatum ingevoerd in het veld **Ontvangen op** .  
 3. Voer in het veld **Ontvangen op** de datum in waarop de betaling is gedaan. Deze datum kan van de werkdatum verschillen.  
 
     > [!NOTE]  
-    >   Deze datum moet hetzelfde zijn op alle regels die als stukbetaling worden geboekt.  
+    >   Deze datum moet hetzelfde zijn op alle regels die als lump-sum betaling worden geboekt.  
 4. Voer in het veld **Ontvangen bedrag** bedragen in op meerdere regels die samen het lump-sum bedrag vormen.  
 
     > [!TIP]  
-    >   Probeer zoveel mogelijk volledige betalingen te boeken met het partijbedrag. Voer op zoveel mogelijk regels bedragen in die hetzelfde zijn als het bedrag in het veld **Restbedrag**.  
-5. Herhaal stap 2-4 voor andere regels die geboekte documenten vertegenwoordigen voor dezelfde klant voor wie een totaalbetaling is verricht.  
+    > Probeer zoveel mogelijk volledige betalingen te boeken met het lump-sum bedrag. Voer op zoveel mogelijk regels bedragen in die hetzelfde zijn als het bedrag in het veld **Restbedrag**.  
+5. Herhaal stap 2-4 voor andere regels die geboekte documenten vertegenwoordigen voor dezelfde klant voor wie een lump-sum betaling is verricht.  
 6. Kies de actie **Als lump-sum betaling boeken**. De ingevoerde betalingsgegevens worden geboekt voor documenten die worden vertegenwoordigd door regels waarvoor het selectievakje **Is betaald** is geselecteerd.  
 
 Betalingsposten worden geboekt naar grootboek-, bank- en klantrekeningen. Elke betaling wordt toegepast op het bijbehorende geboekte verkoopdocument.  
 
-Als de betaling in de bank niet op een regel op de pagina **Betalingsregistratie** wordt weergegeven, komt dat mogelijk doordat het betreffende document nog niet is geboekt. In dat geval kunt u een zoekfunctie gebruiken om het document snel te vinden en te boeken om de betaling te verwerken. Zie voor meer informatie de sectie Een specifiek verkoopdocument zoeken dat niet volledig is gefactureerd.  
+Als de betaling in de bank niet op een regel op de pagina **Betalingsregistratie** wordt weergegeven, komt dat mogelijk doordat het betreffende document nog niet is geboekt. In dat geval kunt u een zoekfunctie gebruiken om het document snel te vinden en te boeken om de betaling te verwerken. Zie voor meer informatie [Een specifiek verkoopdocument zoeken dat niet volledig is gefactureerd](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Als een betaling in de bank niet wordt weergegeven in een document in [!INCLUDE[d365fin](includes/d365fin_md.md)], dan kunt u een vooraf ingevulde diversendagboekregel op de pagina **Betalingsregistratie** openen om de betaling direct bij de tegenrekening te boeken zonder de betaling in een document te verwerken. U kunt de betaling ook in het dagboek registreren tot de oorsprong van de betaling is opgelost. Zie de sectie "Een betaling zonder een gekoppeld document registreren of boeken" voor meer informatie.  
+Als een betaling in de bank niet wordt weergegeven in een document in [!INCLUDE[d365fin](includes/d365fin_md.md)], dan kunt u een vooraf ingevulde diversendagboekregel op de pagina **Betalingsregistratie** openen om de betaling direct bij de tegenrekening te boeken zonder de betaling in een document te verwerken. U kunt de betaling ook in het dagboek registreren tot de oorsprong van de betaling is opgelost. Zie [Een betaling zonder een gekoppeld document registreren of boeken](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document) voor meer informatie.  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Klantbetalingen met kortingen handmatig verwerken
 Als u een contantkorting bent overeengekomen met de klant, dan kunnen de betalingsbedragen lager zijn dan de factuurbedragen als betalingen plaatsvinden voor de afgesproken kortingsdatum.  
@@ -187,4 +187,3 @@ Als u de dagboekregel ongeboekt laat, wordt deze toegevoegd aan de waarde in het
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

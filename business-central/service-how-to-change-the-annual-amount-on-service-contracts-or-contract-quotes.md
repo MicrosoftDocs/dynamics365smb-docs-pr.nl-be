@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816022"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
 U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.  
@@ -118,7 +118,7 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|15.00|17.00|11.41|1.94|15.06|0.06|  
 |Artikel 2|20.00|23.00|8.65|1.99|21.01|1.01|  
-|Artikel 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Regelkorting % = Totale regelkorting / Regelwaarde * 100.  
+|Artikel 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Regelkorting % = Totale regelkorting / Regelwaarde * 100  
 
 #### <a name="example"></a>Opmerking  
 Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld op het servicecontract, dat drie contractregels bevat met dergelijke informatie.  
@@ -188,4 +188,3 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 ## <a name="see-also"></a>Zie ook  
 [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [CRM - Service instellen](service-setup-service.md)  
-

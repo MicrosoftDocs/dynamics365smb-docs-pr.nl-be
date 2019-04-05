@@ -2,22 +2,22 @@
 title: Plannen van opslagactiviteiten in werkbladen | Microsoft Docs
 description: Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van het programma voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815960"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
 Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van het programma voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  
@@ -58,7 +58,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 
     -   U kunt de opslaginstructie toewijzen aan een bepaalde magazijnmedewerker.  
     -   U kunt de regels met opslaginstructies sorteren als in het werkblad of door middel van rangschikking van opslaglocaties. Wanneer u sorteert op basis van rangschikking van opslaglocaties, worden de nemen-regels eerst weergegeven, aangezien de meeste ontvangst-opslaglocaties een opslaglocatie-rangschikking van 0 hebben en worden de plaatsen-regels als laatste weergegeven, beginnend met de opslaglocaties met de laagste opslaglocatie-rangschikking. Indien u uw magazijn hebt gestructureerd zodat opslaglocaties met een soortgelijke opslaglocatie-rangschikking bij elkaar staan, bespaart het sorteren van regels op deze manier uiteindelijk stappen voor uw magazijnmedewerkers.  
-    -   Wanneer een bepaalde eenheid wordt opgesplitst in kleinere eenheden, worden er extra splitsingsregels weergegeven. Als u deze tussenliggende regels niet wilt weergeven, selecteert u **Breakbulkfilter plaatsen**. Zie [Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md) voor meer informatie.  
+    -   Wanneer een bepaalde eenheid wordt opgesplitst in kleinere eenheden, worden er extra splitsingsregels weergegeven. Als u deze tussenliggende regels niet wilt weergeven, selecteert u **Breakbulkfilter plaatsen**. Zie [Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md) voor meer informatie.  
     -   U kunt het veld **Te verwerken aantal** op de opslaginstructies automatisch laten invullen.  
     -   Indien gewenst kunt u het document direct afdrukken.  
 
@@ -71,4 +71,3 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

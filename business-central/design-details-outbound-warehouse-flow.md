@@ -2,22 +2,22 @@
 title: 'Ontwerpdetails: Uitgaande magazijnstroom | Microsoft Docs'
 description: De uitgaande stroom in het magazijn begint met een aanvraag vanuit vrijgegeven brondocumenten om de artikelen uit de magazijnvestiging te halen, ofwel om te worden verzonden naar een externe partij of naar een andere bedrijfsvestiging. Vanuit het opslaggebied worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen naar de verzenddoks te brengen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816143"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
 De uitgaande stroom in het magazijn begint met een aanvraag vanuit vrijgegeven brondocumenten om de artikelen uit de magazijnvestiging te halen, ofwel om te worden verzonden naar een externe partij of naar een andere bedrijfsvestiging. Vanuit het opslaggebied worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen naar de verzenddoks te brengen.  
@@ -118,4 +118,3 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
-

@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816018"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
@@ -55,7 +55,7 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 ## <a name="prerequisites"></a>Vereisten  
 U moet het volgende doen om deze procedure uit te voeren:  
 
--   CRONUS International Ltd. installeren.  
+-   CRONUS International Ltd. geïnstalleerd.  
 -   Maak van uzelf een magazijnwerknemer bij vestiging ZILVER door de volgende stappen uit te voeren:  
 
     1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
@@ -70,7 +70,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 
         |Boekingssoort|Artikelnummer|Vestiging|Opslaglocatie|Aantal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Pos. correctie|LS-81|ZILVER|S-01-0001 **Opmerking:** de standaardopslaglocatie voor het artikel in CRONUS|20|  
+        |Pos. correctie|LS-81|ZILVER|S-01-0001 **Opmerking:** de standaardopslaglocatie van het artikel in CRONUS.|20|  
         |Pos. correctie|LS-81|ZILVER|S-01-0002|20|  
 
     3.  Kies de actie **Boeken** en selecteer de knop **Ja**.  
@@ -131,4 +131,3 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
  [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

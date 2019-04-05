@@ -2,7 +2,7 @@
 title: Een ander contactadres toewijzen| Microsoft Docs
 description: Beschrijft hoe u een alternatief adres toewijst voor uw contactpersonen of prospects, waar ze soms informatie toegestuurd krijgen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816044"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Alternatieve adressen voor contacten instellen
 U kunt een alternatief adres toewijzen voor het adres waarop de contacten soms e-mail en informatie ontvangen, bijvoorbeeld het adres van een vakantiehuis. U kunt ook een of meer perioden toewijzen aan elk alternatief adres dat u voor de contacten hebt ingevoerd, om aan te geven wanneer het adres geldig is.
@@ -43,4 +43,3 @@ Herhaal deze stappen om het gewenste aantal perioden toe te wijzen.
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  
 [Werken met Business Central](ui-work-product.md)
-

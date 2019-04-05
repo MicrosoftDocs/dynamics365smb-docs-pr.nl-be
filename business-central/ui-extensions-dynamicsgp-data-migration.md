@@ -1,7 +1,7 @@
 ---
 title: Gegevens uit Dynamics GP migreren met de extensie Gegevensmigratie | Microsoft Docs
 description: Gebruik de Dynamics GP-extensie Gegevensmigratie om klanten, leveranciers, voorraadartikelen, grootboekrekeningen, openstaande schulden en openstaande tegoeden te migreren van Dynamics GP naar Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
 ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/30/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816075"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>De Dynamics GP-extensie Gegevensmigratie 
 Deze extensie maakt het gemakkelijk transacties van klanten, leveranciers, voorraadartikelen, grootboekrekeningen, openstaande schulden en openstaande tegoeden te migreren van Dynamics GP naar [!INCLUDE[prodshort](includes/prodshort.md)]. Als uw bedrijf momenteel Dynamics GP gebruikt, kunt u de relevante records exporteren en vervolgens een begeleide instelling openen om de gegevens toe te voegen aan [!INCLUDE[prodshort](includes/prodshort.md)]. De migratie-extensie werkt voor alle ondersteunde versies van Microsoft Dynamics GP. Zie [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md) voor meer informatie.
@@ -60,4 +60,3 @@ De laatste optie die u in de wizard Gegevensmigratie voor Dynamics GP ziet, is d
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prodshort](includes/prodshort.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-
