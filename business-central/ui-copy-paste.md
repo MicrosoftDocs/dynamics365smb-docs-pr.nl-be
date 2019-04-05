@@ -1,6 +1,6 @@
 ---
-title: "Gegevens kopiëren en plakken"
-description: "Velden en rijen uit Business Central-pagina's kopiëren en ergens anders plakken."
+title: Gegevens kopiëren en plakken
+description: Velden en rijen uit Business Central-pagina's kopiëren en ergens anders plakken.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853083"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Kopiëren en plakken in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Kopiëren en plakken
 U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail). Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
 
 Er zijn verschillende andere toetsenbordsneltoetsen voor het kopiëren en plakken die u helpen tijd te besparen wanneer u gegevens invoert. Zie voor meer informatie hierover [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Wanneer u plakt in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt elke rij g
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
-

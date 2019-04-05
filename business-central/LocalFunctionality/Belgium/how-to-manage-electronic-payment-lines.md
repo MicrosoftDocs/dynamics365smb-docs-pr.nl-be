@@ -2,22 +2,22 @@
 title: Regels voor elektronische betalingen beheren
 description: U kunt instellen dat Business Central automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ae018e8248db48db8709b93a882200e421bf8ee5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826361"
 ---
 # <a name="manage-electronic-payment-lines"></a>Regels voor elektronische betalingen beheren
 U kunt instellen dat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen. U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. In de volgende procedure wordt beschreven hoe u betalingsdagboekregels handmatig toevoegt of bewerkt, maar u kunt betalingsdagboekregels ook verwijderen op de pagina **Betalingsdagboek**.  
@@ -38,4 +38,3 @@ U kunt instellen dat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatis
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)
-

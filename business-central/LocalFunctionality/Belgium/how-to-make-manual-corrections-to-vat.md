@@ -2,22 +2,22 @@
 title: Handmatig btw-correcties doorvoeren
 description: U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d724a30fbb2b8dedfe6b643738847826d3943047
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826427"
 ---
 # <a name="make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren
 U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.  
@@ -49,4 +49,3 @@ U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboe
  [Belgische btw](belgian-vat.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
-

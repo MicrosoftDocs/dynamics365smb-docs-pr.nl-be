@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852367"
 ---
-# <a name="defining-user-tasks"></a>Gebruikerstaken definiëren
+# <a name="define-user-tasks"></a>Gebruikerstaken definiëren
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.  
 
 ## <a name="managing-user-tasks"></a>Gebruikerstaken beheren
@@ -41,4 +41,3 @@ Als u met een bulkbewerking alle of bepaalde gebruikerstaken wilt verwijderen, k
 ## <a name="see-also"></a>Zie ook
 [Zoeken naar een pagina of rapport](ui-search.md)  
 [Accountantervaringen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

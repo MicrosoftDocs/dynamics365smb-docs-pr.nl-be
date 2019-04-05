@@ -1,23 +1,23 @@
 ---
 title: Exporteren naar Accon
-description: "Met het rapport Koppelen aan Accon kunt u een bestand maken dat in ACCON Plus kan worden geïmporteerd om een jaarlijkse resultatenrekening te genereren."
+description: Met het rapport Koppelen aan Accon kunt u een bestand maken dat in ACCON Plus kan worden geïmporteerd om een jaarlijkse resultatenrekening te genereren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e4a2f6c34a565c3547ad126e12bb24e39931dd44
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c546b05239204f73d170bb454dc728f9d9d4ead
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826383"
 ---
 # <a name="export-to-accon"></a>Exporteren naar Accon
 Met het rapport **Koppelen aan Accon** kunt u een bestand maken dat in ACCON Plus kan worden geïmporteerd om een jaarlijkse resultatenrekening te genereren. Met het rapport wordt het totaalsaldo van de grootboekrekeningen voor een bepaalde periode geëxporteerd.  
@@ -30,4 +30,3 @@ Met het rapport **Koppelen aan Accon** kunt u een bestand maken dat in ACCON Plu
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)
-

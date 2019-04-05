@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: a549dd926894e8c14a5f57437ca9402e2ddde5d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d6e72ed68f2ab28ebd4daef423304a945a719ed
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852551"
 ---
 # <a name="set-up-intercompany"></a>Intercompany instellen
 Als u een transactie (zoals een verkoopdagboekregel) wilt verzenden vanaf een bedrijf en de bijbehorende transactie (zoals een inkoopdagboekregel) automatisch wilt maken in het partnerbedrijf, moeten de betrokken bedrijven afspreken welk rekeningschema en welke set dimensies ze willen gebruiken voor IC-transacties. Het IC-rekeningschema kan bijvoorbeeld een vereenvoudigde versie van het rekeningschema van het moederbedrijf zijn. Elk bedrijf koppelt het volledige rekeningschema aan het gedeelde IC-rekeningschema, en elk bedrijf koppelt de dimensies aan de IC-dimensies.  
@@ -24,7 +24,7 @@ U moet ook een IC-partnercode instellen voor elk partnerbedrijf, waarover alle b
 
 Als u IC-regels maakt of ontvangt bij artikelen, kunt u uw eigen artikelnummer gebruiken of kunt u de artikelnummers van uw partner instellen voor elk gewenst artikel. Dit kunt u doen in het veld **Artikelnr. leverancier** of in het veld **Gemeenschappelijk artikelnr.** op de artikelkaart. U kunt ook de functie **Artikelkruisverwijzing** gebruiken: als u de nummers van uw artikelen aan uw omschrijvingen van de leveranciersartikelen wilt toewijzen, opent u de kaart en kiest u vervolgens de actie **Kruisverwijzingen** om kruisverwijzingen tussen uw artikelomschrijvingen en die van de IC-partner in te stellen.  
 
-Als u IC-verkooptransacties uitvoert waarin resources zijn opgenomen, moet u het veld **IC-partner Ink. Grootb.rek.nr.** invullen op de resourcekaart van elke gewenste resource. Dit is het nummer van de IC-grootboekrekening waarnaar het bedrag voor deze resource wordt geboekt in het partnerbedrijf. Zie voor meer informatie.  
+Als u IC-verkooptransacties uitvoert waarin resources zijn opgenomen, moet u het veld **IC-partner Ink. Grootb.rek.nr.** invullen op de resourcekaart van elke gewenste resource. Dit is het nummer van de IC-grootboekrekening waarnaar het bedrag voor deze resource wordt geboekt in het partnerbedrijf. Zie [Resources instellen](projects-how-setup-resources.md) voor meer informatie.
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Bedrijven instellen voor IC-transacties
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
@@ -45,9 +45,9 @@ Als u IC-verkooptransacties uitvoert waarin resources zijn opgenomen, moet u het
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>IC-rekeningschema instellen
 Als een groep bedrijven IC-transacties wil uitvoeren, moeten de bedrijven afspreken welk rekeningschema wordt gebruikt als algemene referentie. U moet met uw partnerbedrijven afspreken welke rekeningnummers er worden gebruikt bij het uitvoeren van IC-transacties. Het moederbedrijf van de groep kan bijvoorbeeld een vereenvoudigde versie van zijn rekeningschema maken, dit IC-rekeningschema exporteren van de database naar een XML-bestand en dit verspreiden onder de bedrijven in de groep.  
 
-Als uw bedrijf het bovenliggende bedrijf is en het definiërende IC-rekeningschema heeft dat uw groep gaat gebruiken als gemeenschappelijke naslag, volgt u de procedure 'IC-rekeningschema instellen'.  
+Als uw bedrijf het bovenliggende bedrijf is en het definiërende IC-rekeningschema heeft dat uw groep gaat gebruiken als gemeenschappelijke naslag, volgt u de procedure [Het definiërende IC-rekeningschema instellen](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
-Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met het gemeenschappelijke IC-rekeningschema, volgt u de procedure 'Het IC-rekeningschema importeren'.  
+Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met het gemeenschappelijke IC-rekeningschema, volgt u de procedure [Het IC-rekeningschema importeren](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Het definiërende IC-rekeningschema instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-rekeningschema** in en kies vervolgens de gerelateerde koppeling.
@@ -84,14 +84,14 @@ Wanneer u nu een grootboekrekening opgeeft in het veld **Tegenrekeningnr.** op e
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer op de regel voor een grootboekrekening die wordt gebruikt voor IC-transacties, in het veld **Standaard IC-partnergrootboekrekening** de IC-grootboekrekening in waarnaar uw partner boekt wanneer u boekt naar de grootboekrekening op de regel.  
-3. Herhaal stap 3 voor elke rekening die u vaak invoert in het veld **Tegenrekeningnr.** op een regel in een IC-dagboek of -document.
+3. Herhaal stap 2 voor elke rekening die u vaak invoert in het veld **Tegenrekeningnr.** op een regel in een IC-dagboek of -document.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>IC-dimensies instellen
 Als u en uw IC-partners transacties willen uitwisselen waaraan dimensies zijn gekoppeld, moet u afspreken welke IC-dimensies u allemaal gebruikt. Het moederbedrijf van de groep kan bijvoorbeeld een vereenvoudigde versie van zijn dimensieset maken, deze IC-dimensies exporteren naar een XML-bestand en dit verspreiden onder de bedrijven in de groep. Alle dochterbedrijven importeren het XML-bestand vervolgens naar de pagina **IC-dimensies** en koppelen de IC-dimensies aan de dimensies op hun eigen pagina **Dimensies**.  
 
-Als uw bedrijf het hoofdbedrijf is en de definiërende set IC-dimensies heeft die uw groep gaat gebruiken als gemeenschappelijke naslag, volgt u de procedure: 'De IC-dimensies definiëren'.
+Als uw bedrijf het hoofdbedrijf is en de definiërende set IC-dimensies heeft die uw groep gaat gebruiken als gemeenschappelijke naslag, volgt u de procedure [De IC-dimensies definiëren](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
-Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met de IC-dimensies die uw groep gaat gebruiken als algemene referentie, volgt u de procedure: 'IC-dimensies importeren'.
+Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met de IC-dimensies die uw groep gaat gebruiken als algemene referentie, volgt u de procedure [IC-dimensies importeren](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>IC-dimensies definiëren
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-dimensies** in en kies vervolgens de gerelateerde koppeling.  
@@ -133,4 +133,3 @@ Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in de li
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -4,15 +4,15 @@ description: In de volgende onderwerpen wordt de lokale functionaliteit in de Be
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/11/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 471a4ea8267e790148c44efc618418229b246d91
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826419"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
@@ -71,4 +71,3 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 [Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-

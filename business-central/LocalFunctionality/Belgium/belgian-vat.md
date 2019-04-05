@@ -2,22 +2,22 @@
 title: Belgische btw
 description: Met Belgische uitbreidingen van de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6091e33600641d1d5fa6624c0dce48bd663ddb48
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 243c13d8f0dccaf8fb3e26dc0ab97ea6975cd0af
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826403"
 ---
 # <a name="belgian-vat"></a>Belgische btw
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] bevat Belgische uitbreidingen op de btw-rapportagefunctie waarmee u btw-transactiedetails kunt afdrukken. U moet de volgende rapporten aan de Belgische belastingdienst versturen:  
@@ -41,4 +41,3 @@ U moet ook een gedrukt afschrift met details van de btw-transacties verstrekken 
  [Belgische lokale functionaliteit](belgium-local-functionality.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
-

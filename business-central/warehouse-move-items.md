@@ -2,31 +2,33 @@
 title: Artikelen verplaatsen | Microsoft Docs
 description: Artikelen op voorraad moeten soms tussen locaties worden verplaatst ter ondersteuning van de dagelijkse magazijnactiviteiten die worden uitgevoerd om artikelen in het magazijn te laten stromen. Sommige verplaatsingen houden rechtstreeks verband met interne bewerkingen, zoals een productieorder waarvoor componenten moeten worden geleverd of waarvoor eindartikelen moeten worden opgeslagen. Andere verplaatsingen vinden plaats ten behoeve van magazijnruimte-optimalisatie of als ad hoc verplaatsingen naar en van bewerkingen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 383a6e6fae8c197bd8df845d212aa80f0b70fea6
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6efb709151ea98b5c8d89d67138b52bac5751c56
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852574"
 ---
 # <a name="moving-items"></a>Artikelen verplaatsen
 De magazijnactiviteit van het verplaatsen van artikelen in het magazijn wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
-Artikelen in één magazijnlocatie moeten soms tussen opslaglocaties worden verplaatst ter ondersteuning van de dagelijkse magazijnactiviteiten die worden uitgevoerd om artikelen in het magazijn te laten stromen. Sommige verplaatsingen houden rechtstreeks verband met interne bewerkingen, zoals een productieorder waarvoor componenten moeten worden geleverd of waarvoor eindartikelen moeten worden opgeslagen. Andere verplaatsingen vinden plaats ten behoeve van magazijnruimteoptimalisatie of als ad hoc verplaatsingen naar en van bewerkingen.
+Artikelen in één magazijnlocatie moeten soms tussen opslaglocaties worden verplaatst ter ondersteuning van de dagelijkse magazijnactiviteiten die worden uitgevoerd om artikelen in het magazijn te laten stromen. Sommige verplaatsingen houden rechtstreeks verband met interne bewerkingen, zoals een productieorder waarvoor componenten moeten worden geleverd of waarvoor eindartikelen moeten worden opgeslagen. Andere verplaatsingen vinden plaats ten behoeve van magazijnruimte-optimalisatie of als ad hoc verplaatsingen naar en van bewerkingen.
+
+Aanvullende verplaatsingstaken zijn bedoeld om periodiek pickopslaglocaties shopflooropslaglocaties aan te vullen en de informatie over de inhoud van de opslaglocaties te wijzigen.
 
 Het verplaatsen van artikelen naar andere vestigingen heeft zijn weerslag op de artikelposten en moet daarom met een transferorder worden uitgevoerd. Zie voor meer informatie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).  
 
-Aanvullende verplaatsingstaken zijn bedoeld om periodiek pickopslaglocaties shopflooropslaglocaties aan te vullen en de informatie over de inhoud van de opslaglocaties te wijzigen.  
+De voorraadtaken tellen, aanpassen en herindelen van artikelen kunnen magazijntaken omvatten die op magazijnposten moeten worden uitgevoerd voordat ze kunnen worden gesynchroniseerd met de gerelateerde artikelposten. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md)  
 
  In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
@@ -46,4 +48,3 @@ Aanvullende verplaatsingstaken zijn bedoeld om periodiek pickopslaglocaties shop
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

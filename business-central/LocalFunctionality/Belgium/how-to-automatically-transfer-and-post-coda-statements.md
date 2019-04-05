@@ -2,22 +2,22 @@
 title: CODA-afschriften automatisch overbrengen en boeken
 description: Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: b3c5d1116ab5deeab86433f72c103f9fdffc4d23
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e04b3b54ae69691f3af75d4c57f73f1f78a4c2fd
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826354"
 ---
 # <a name="automatically-transfer-and-post-coda-statements"></a>CODA-afschriften automatisch overbrengen en boeken
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.  
@@ -44,4 +44,3 @@ Als de afschriftregels naar het dagboek zijn overgebracht, kunt u de afschriftre
  [CODA-afschriften vereffenen](how-to-apply-coda-statements.md)   
  [Financiële dagboeken maken](how-to-create-financial-journals.md)   
  [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md)
-

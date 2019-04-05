@@ -2,22 +2,22 @@
 title: Niet-aftrekbare btw instellen
 description: U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: fd0fd5d1b7aa15d2d5249278a00b6350f953a777
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826405"
 ---
 # <a name="set-up-non-deductible-vat"></a>Niet-aftrekbare btw instellen
 U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven. Wanneer u op de pagina **Grootboekrekening** 75 procent opgeeft in het veld **% niet-aftrekbare btw**, wordt 75 procent van het normale btw-bedrag beschouwd als bijkomende kosten en tijdens het boeken toegevoegd aan het nettobedrag. De resterende 25 procent wordt als normale btw geboekt.  
@@ -35,4 +35,3 @@ U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk al
 ## <a name="see-also"></a>Zie ook  
  [Belgische btw](belgian-vat.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)
-

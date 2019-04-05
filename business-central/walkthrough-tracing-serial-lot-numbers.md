@@ -2,24 +2,24 @@
 title: 'Procedure: Serie-/lotnummers traceren | Microsoft Docs'
 description: Als er productdefecten optreden, moeten de fouten worden opgespoord en de betreffende artikelen mogen het bedrijf niet verlaten. Als er al defecte artikelen zijn geleverd, is het belangrijk om bij te houden wie ze heeft ontvangen, zodat ze zo nodig kunnen worden teruggehaald.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853175"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedure: Serie-/lotnummers traceren
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Procedure: Serie-/lotnummers traceren
 
 **Opmerking**: deze procedure moet op een demonstratiebedrijf worden uitgevoerd met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
 
@@ -50,7 +50,7 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 U moet het volgende doen om deze procedure uit te voeren:  
 
 -   Het bedrijf [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Als u nieuwe artikelen en een aantal zakelijke transacties wilt maken via de stappen in het gedeelte 'Voorbeeldgegevens voorbereiden', verderop in dit overzicht.  
+-   Nieuwe artikelen en diverse bedrijfstransacties maken door [Voorbeeldgegevens voorbereiden](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) te volgen.  
 
 ## <a name="story"></a>Scenario  
 Ricardo, de kwaliteitscontroleur, is bezig met het teruggegeven artikel 1002, een racefiets. De klant, Selangorian Ltd., heeft geklaagd dat het frame gescheurde lasnaden heeft. Kwaliteitscontroletechnici hebben bevestigd dat het frame van de teruggegeven fiets gebreken vertoont. De kwaliteitscontroleur moet nu de volgende dingen vaststellen:  
@@ -298,4 +298,3 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
-

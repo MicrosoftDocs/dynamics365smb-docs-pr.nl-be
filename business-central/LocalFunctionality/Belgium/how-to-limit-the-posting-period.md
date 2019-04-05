@@ -2,22 +2,22 @@
 title: De boekingsperiode beperken
 description: 'U kunt de periode waarop boeking is toegestaan op drie verschillende niveaus beperken: op bedrijf, op gebruiker en op sjabloon.'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: bdf0db732eade193fbc1b7fc4d176cbfe1a519a5
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826429"
 ---
 # <a name="limit-the-posting-period"></a>De boekingsperiode beperken
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de periode waarop boeking is toegestaan op drie verschillende niveaus beperken: **op bedrijf**, **op gebruiker** en **op sjabloon**.  
@@ -47,4 +47,3 @@ Wanneer u op de pagina **Financieel-dagboeksjablonen** boekt, wordt de inhoud va
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)   
  [Boekingsperioden opgeven](../../finance-how-specify-posting-periods.md)
-

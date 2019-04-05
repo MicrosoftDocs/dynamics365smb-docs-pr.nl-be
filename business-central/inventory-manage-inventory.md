@@ -1,7 +1,7 @@
 ---
 title: Voorraad beheren| Microsoft Docs
 description: Beschrijft hoe u de fysieke producten beheert waarin u handelt, bijvoorbeeld de voorraad in uw magazijn.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: dc32b5e210332fe0fd73b6423441cb66a5c171fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1f79c20cb68ff1802bb97914a7ac1e458ca28f3a
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852482"
 ---
-
 # <a name="inventory"></a>Voorraad
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
@@ -45,7 +44,9 @@ Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de k
 |Beschikbaarheid van artikelen weergeven op vestiging, periode, verkoop- of inkoopgebeurtenis, of het gebruik in assemblage- of productiestuklijsten.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|
 |Voorraadartikelen verplaatsen tussen vestigingen met transferorders, om magazijnactiviteiten te beheren, of met het artikelherindelingsdagboek.|[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|
 |Reserveer voorraad of inkomende artikelen voor verkooporders, inkooporders, serviceorders, assemblageorders of productieorders.|[Artikelen reserveren](inventory-how-to-reserve-items.md)|
+|Stel een eigen artikelbeschrijving van de leverancier of klant in, zodat u hun artikelbeschrijving gemakkelijk kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Wijs serienummers of lotnummers toe aan elk uitgaand of inkomend document of dagboekregel, bijvoorbeeld om artikelen te traceren bij terugroepacties.|[Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)|
+|Stel een eigen artikelbeschrijving van de leverancier of klant in op uw artikelkaart, zodat u hun artikelbeschrijving snel kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Bepalen waar elk serie- of lotnummer is gebruikt in de voorraadketen, bijvoorbeeld in situaties waarin producten moeten worden teruggeroepen.|[Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)|
 |Het invoeren van artikelen op verkoop- of inkoopregels of het boeken van artikelen in transacties voorkomen.|[Artikelen blokkeren](inventory-how-block-items.md)|
 |De bedrijfsvoering in verkoop- of inkoopafdelingen of planningskantoren voor een fabriek voor meerdere vestigingen beheren.|[Werken met divisies](inventory-responsibility-centers.md)|
@@ -58,4 +59,3 @@ Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de k
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

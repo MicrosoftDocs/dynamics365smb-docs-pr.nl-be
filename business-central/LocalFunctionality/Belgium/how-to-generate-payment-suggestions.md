@@ -2,22 +2,22 @@
 title: Betalingsvoorstellen genereren
 description: Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d656ea8d17ce8ad42351d4072075e8348e2ad1b8
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826388"
 ---
 # <a name="generate-payment-suggestions"></a>Betalingsvoorstellen genereren
 Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.  
@@ -49,4 +49,3 @@ Wanneer de batchverwerking is uitgevoerd, bevat het betalingsdagboek alle levera
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
-

@@ -4,9 +4,9 @@
     <Node Name="" DisplayName="Overzicht van bedrijfsfunctionaliteit" Page="across-business-functionality.html"/>
     <Node Name="" DisplayName="Bedrijfsgegevens importeren uit andere financiële systemen" Page="upload-data.html"/>
     <Node Name="" DisplayName="Business Central op uw mobiele apparaat krijgen" Page="install-mobile-app.html"/>
-    <Node Name="" DisplayName="Synchroniseren met contactpersonen in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Synchroniseren met contacten in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Business Central gebruiken als uw bedrijfsinbox in Outlook" Page="admin-outlook.html"/>
-    <Node Name="" DisplayName="Uw bedrijfgegevens gereed maken voor Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Uw bedrijfsgegevens inschakelen voor Power BI" Page="admin-powerbi.html"/>
     <Node Name="" DisplayName="Business Central gebruiken als een Power BI-gegevensbron" Page="across-how-use-financials-data-source-powerbi.html"/>
     <Node Name="" DisplayName="Business Central aanpassen met extensies" Page="ui-extensions.html"/>
   </Node>
@@ -280,7 +280,7 @@
     <Node Name="" DisplayName="Verkoopopportunities beheren" Page="marketing-manage-sales-opportunities.html"/>
     <Node Name="" DisplayName="Klanten en verkopen beheren die in Dynamics 365 for Sales zijn gemaakt" Page="marketing-integrate-dynamicscrm.html"/>
   </Node>
-  <Node Name="" DisplayName="Human Resources" Page="hr-manage-human-resources.html">
+  <Node Name="" DisplayName="Personeel" Page="hr-manage-human-resources.html">
     <Node Name="" DisplayName="Procedure: Werknemers registreren" Page="hr-how-register-employees.html"/>
     <Node Name="" DisplayName="Procedure: Werknemersafwezigheid beheren" Page="hr-how-manage-absence.html"/>
   </Node>

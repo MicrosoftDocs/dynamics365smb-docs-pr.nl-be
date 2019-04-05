@@ -2,7 +2,7 @@
 title: Een rapport plannen voor uitvoering op een bepaalde datum en tijd | Microsoft Docs
 description: Leren over het invoeren van een lijst in een verwerkingswachtrij en het plannen om te worden verwerkt op een specifieke datum en tijd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,20 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852436"
 ---
-# <a name="working-with-reports"></a>Werken met rapporten
+# <a name="working-with-reports-and-batch-jobs"></a>Werken met rapporten en batchverwerkingen
 In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
+
+Batchverwerkingen doen min of meer hetzelfde als rapporten maar met het doel een proces uit te voeren. De batchverwerking **Aanmaningen maken** maakt bijvoorbeeld aanmaningsdocumenten voor klanten met achterstallige betalingen.  
+
+> [!NOTE]
+> Dit onderwerp verwijst hoofdzakelijk naar 'rapport', maar soortgelijke informatie geldt voor batchverwerkingen.
 
 U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zoeken in ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om rapporten op naam te vinden.
 
@@ -29,6 +34,10 @@ U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zo
 Wanneer u een rapport opent, ziet u meestal een pagina waarop u verschillende opties en filters kunt kiezen die bepalen wat er in het rapport wordt opgenomen. Deze pagina wordt de rapportaanvraagpagina genoemd. Op de rapportaanvraagpagina kunt u bijvoorbeeld een rapport voor een specifieke klant maken, een bepaald datumbereik of de informatie in het rapport sorteren. Hier volgt een voorbeeld van een rapportaanvraagpagina:
 
 ![Rapportopties](media/report_options.png "Rapportopties")
+
+> [!Caution]
+> De sectie **Resultaten weergeven** op een aanvraagpagina biedt een algemene filtermogelijkheid voor rapporten. Deze filters zijn optioneel.<br /><br /> Sommige rapporten negeren dergelijke filters, wat inhoudt dat het niet uitmaakt welk filter is ingesteld in de sectie **Resultaten weergeven**. De uitvoer van het rapport is hetzelfde. U kunt geen lijst opgeven met welke velden worden genegeerd in welke rapporten, dus u zult met de filters moeten experimenteren wanneer u deze gebruikt.<br /><br />
+**Voorbeeld**: wanneer u de batchverwerking **Aanmaningen maken** gebruikt, wordt het filter **Laatste verz. aanmaningsniveau** voor het veld **Klantenposten** genegeerd omdat filters voor die batchverwerking vast zijn.
 
 ### <a name="SavedSettings"></a>Opgeslagen instellingen gebruiken
 Met sommige rapporten, afhankelijk van hoe ze zijn ontworpen, kan de rapportpagina het gedeelte **Opgeslagen instellingen** bevatten dat een of meer vermeldingen in het vak **Standaardwaarde gebruiken uit** bevat. De vermeldingen in dit vak worden *opgeslagen instellingen* genoemd. Een opgeslagen instelling is een vooraf gedefinieerde groep opties en filters, die u op het rapport kunt toepassen voordat u er een voorbeeld van bekijkt of het rapport naar een bestand stuurt. De opgeslagen instelling met de naam **Laatst gebruikte opties en filters** is altijd beschikbaar. Deze vermelding stelt het rapport in op de opties en filters die waren ingesteld toen het rapport voor de laatste keer werd bekeken.
@@ -47,9 +56,9 @@ U kunt meer filters toevoegen door de vakken **Toevoegen** in te stellen. Als u 
 
 Afhankelijk van het type veld dat u filtert, kunt u de filtercriteria opgeven om een exacte overeenkomst te zoeken, een gedeeltelijke overeenkomst, een bereik waarden en meer. Zie voor hulp bij het instellen van filters:
 -   [Filteren](ui-enter-criteria-filters.md#FilterCriteria)
--   [Datumbereiken invoeren](ui-enter-date-ranges.md)
+-   [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)
 
-## <a name="previewing-a-report"></a>Een voorbeeldweergave van een rapport openen
+## <a name="previewing-a-report"></a>Een voorbeeld van een rapport bekijken
 Klik op **Voorbeeld** om het rapport te openen in uw internetbrowser. Wijs met de muisaanwijzer een gebied in het rapport aan om de menubalk op te roepen.  
 
 ![Werkbalk Afdrukvoorbeeld van rapport](media/report_viewer.png "Werkbalk Afdrukvoorbeeld van rapport")
@@ -61,7 +70,7 @@ Met de menubalk kunt u de volgende handelingen uitvoeren:
 -   Het formaat aanpassen aan de afmetingen van de pagina
 -   Tekst selecteren
 
-    U kunt tekst van rapport kopiëren en dit vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] of in Microsoft Word.  Met een muis kunt u bijvoorbeeld klikken op het punt van waaraf u wilt kopiëren, de muisknop ingedrukt houden en de muis verplaatsen om een of meer woorden, zinnen of alinea's te selecteren. Vervolgens klikt u met de rechtermuisknop en selecteert u **Kopiëren**. U kunt de geselecteerde tekst op elke gewenste plek plakken.
+    U kunt tekst uit een rapport kopiëren en die vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] of Microsoft Word.  Met een muis kunt u bijvoorbeeld klikken op het punt van waaraf u wilt kopiëren, de muisknop ingedrukt houden en de muis verplaatsen om een of meer woorden, zinnen of alinea's te selecteren. Vervolgens klikt u met de rechtermuisknop en selecteert u **Kopiëren**. U kunt de geselecteerde tekst op elke gewenste plek plakken.
 -   Document pannen
 
     U kunt het zichtbare deel van het rapport in iedere richting verplaatsen, zodat u andere delen kunt bekijken. Dit is handig als u hebt ingezooomd om details te zien.  U kunt bijvoorbeeld op een willekeurige plek in het rapportvoorbeeld klikken, de muisknop vasthouden en dan de muis verplaatsen.
@@ -88,4 +97,3 @@ Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is inge
 [Printerselectie opgeven voor rapporten](ui-specify-printer-selection-reports.md)  
 [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

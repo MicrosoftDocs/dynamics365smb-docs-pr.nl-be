@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852068"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Over zoeken en filteren in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Veelgestelde vragen over zoeken en filteren
 In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Is er een verschil tussen zoeken en filteren?
@@ -30,7 +29,7 @@ Ja.
 Zoeken en filteren zijn zeer geoptimaliseerd voor gebruikers die muisvrije interactie prefereren om efficiënt met hun gegevens te werken. Er zijn allerlei sneltoetsen die na elkaar worden gebruikt om zeer snel te werken. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Is het filterdeelvenster beschikbaar voor alle lijsten?
-Het filterdeelvenster is beschikbaar op pagina's waar de lijst de primaire inhoud op de pagina is, zoals werkbladen en lijstpagina's, inclusief lijsten die bereikbaar zijn vanaf de navigatiebalk. Het filterdeelvenster is nog niet beschikbaar voor ingesloten lijsten, zoals verkoopregels op verkooporders, of voor lijsten met dynamische kolommen (vaak matrixpagina's genoemd). 
+Het filterdeelvenster is beschikbaar op pagina's waar de lijst de primaire inhoud op de pagina is, zoals werkbladen en lijstpagina's, inclusief lijsten die bereikbaar zijn vanaf de navigatiebalk. Het filterdeelvenster is nog niet beschikbaar voor ingesloten lijsten, zoals verkoopregels op verkooporders, of voor lijsten met dynamische kolommen (vaak matrixpagina's genoemd).
 
 ## <a name="how-can-i-save-my-filters"></a>Hoe kan ik mijn filters opslaan?
 
@@ -57,4 +56,3 @@ Als on-premises beheerder verlengt u de tijdslimiet voor zoekopdrachten door de 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
 [Sorteren, zoeken en filteren in lijsten](ui-enter-criteria-filters.md)
-

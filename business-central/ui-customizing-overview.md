@@ -1,7 +1,7 @@
 ---
 title: Business Central aanpassen | Microsoft Docs
 description: Meer informatie over het toevoegen van functies en over het aanpassen van Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,21 +11,25 @@ ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 44ca4d451c75f7f0aaa0d493f7c62cfe556023a4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 63ba198a761b0c79c51ac94d36314310e330fc58
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852021"
 ---
 # <a name="customizing-business-central"></a>Business Central aanpassen
 Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw collega's toegang hebben tot de functies, de functionaliteit en de gegevens die u het hardst nodig hebt. En dat op een manier die het best bij uw dagelijks werk past. Wie de wijzigingen ziet, is afhankelijk van wat u doet, zoals beschreven in deze tabel.
+
+> [!NOTE]
+> Naast wat beheerders kunnen aanpassen kunnen gebruikers hun pagina's aanpassen door velden, bevroren deelvensters, onderdelen en meer toe te voegen, te verplaatsen of te verwijderen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 | Wat kunt u doen    |  Description  |  Who ziet de wijzigingen  |  Meer informatie  |
 |-----|---------------|---------|-------|
 |Een extensie installeren|De extensies zijn als kleine toepassingen die functionaliteit toevoegen, gedrag wijzigen, toegang bieden tot nieuwe online services en meer. Zo verschaft Microsoft een extensie die integratie met PayPal Payments Standard biedt.|Alle gebruikers in alle bedrijven|[Aanpassen met behulp van extensies](ui-extensions.md)|
 |Wijzigen welke gebruikersinterface-elementen zichtbaar zijn.|De instelling **Ervaring** bepaalt hoeveel van de functionaliteit in de gebruikersinterface wordt weergegeven. Kies tussen Essentieel en Premium.|Alle gebruikers in een specifiek bedrijf.|[Wijzigen welke functies worden weergegeven](ui-experiences.md)|
-|Uw werkruimte personaliseren|De lay-out en de inhoud van uw pagina´s wijzigen|Alleen u.|[Het personaliseren van uw werkruimte](ui-personalization-user.md)|
+|Persoonlijke instellingen van gebruikers beheren.|Bepaal en beheer personalisaties van gebruikers door de mogelijkheid uit te schakelen om pagina's te personaliseren, en door alle personalisaties te wissen.|Alle gebruikers in een specifiek bedrijf.|[Personalisaties beheren als beheerder](ui-personalization-manage.md)|
+|Schakel kleuren in rolcentra in om belang aan te geven.|Stel indicatiestapels in die in de rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de waarden in de indicatiestapels.|Alle gebruikers in een specifiek bedrijf.|[Een gekleurde indicator instellen voor indicatiestapels](admin-how-set-up-colored-indicator-on-cues.md)|
 
 > [!NOTE]
 > Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten. Daarom kunnen gebruikers met de **Essential**-ervaring in sommige onderwerpen over functionaliteit en gebruikersinterface-elementen lezen die niet zichtbaar zijn in hun gebruikersinterface.
@@ -34,4 +38,3 @@ Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw coll
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

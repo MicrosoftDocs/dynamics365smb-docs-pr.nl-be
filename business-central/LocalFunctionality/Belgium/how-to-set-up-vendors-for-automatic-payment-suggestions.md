@@ -2,22 +2,22 @@
 title: Leveranciers voor automatische betalingsvoorstellen instellen
 description: U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826348"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Leveranciers voor automatische betalingsvoorstellen instellen
 U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen. Voor elke leverancier moet u bepalen of er automatisch betalingsvoorstellen moeten worden gegenereerd. Als u geen betalingsvoorstellen voor een leverancier wilt genereren, schakelt u het selectievakje **Betalingen voorstellen** niet in. In dat geval worden de openstaande posten voor de leverancier niet opgenomen in betalingsvoorstellen.  
@@ -42,4 +42,3 @@ U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
-

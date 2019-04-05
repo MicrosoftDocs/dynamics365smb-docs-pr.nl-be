@@ -1,7 +1,7 @@
 ---
 title: Gegevens uit meerdere bedrijven consolideren | Microsoft Docs
-description: "Krijg een overzicht van de financiële status van uw bedrijven."
-documentationcenter: 
+description: Krijg een overzicht van de financiële status van uw bedrijven.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832609"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Financiële gegevens uit meerdere bedrijven consolideren
 Als u meerdere bedrijven in [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt, kan het rapport Consolidatie - Proefbalans in het rolcentrum Accountant u inzicht bieden in de algehele financiële status van uw bedrijf.  
 
@@ -35,7 +34,7 @@ U kunt consolideren:
 
 Afhankelijk van de complexiteit van uw bedrijven, kunt u het rapport op twee manieren instellen:
 
-* Als u geen geavanceerde instellingen nodig hebt, bijvoorbeeld om een bedrijf waarvan u slechts deels de eigenaar bent op te nemen, kunt u de begeleide instelling **Bedrijfconsolidatie** gebruiken om snel een consolidatie in te stellen. Hierbij wordt u door de basisstappen geleid.
+* Als u geen geavanceerde instellingen nodig hebt, bijvoorbeeld om een bedrijf waarvan u slechts deels de eigenaar bent op te nemen, kunt u de begeleide instelling **Bedrijfsconsolidatie** gebruiken om snel een consolidatie in te stellen. Hierbij wordt u door de basisstappen geleid.
 * Als u meer geavanceerde instellingen nodig hebt, kunt u het geconsolideerde bedrijf en de bedrijfsunits zelf instellen.
 
 ## <a name="to-do-a-simple-consolidation-setup"></a>Een eenvoudige consolidatie instellen
@@ -50,13 +49,16 @@ Ga als volgt te werk om de begeleide instelling te gebruiken:
 2. Kies **Consolidatierapportage instellen** en voltooi elke stap in de begeleide instelling.
 
 ## <a name="to-do-an-advanced-consolidation-setup"></a>Een geavanceerde consolidatie instellen
-Als u meer geavanceerde instellingen voor de consolidatie nodig hebt, kunt u de consolidatie handmatig instellen. U kunt dit bijvoorbeeld doen als u bedrijven hebt die slechts deels uw eigendom zijn of die u niet in de consolidatie wilt opnemen. U stelt het geconsolideerde bedrijf op dezelfde manier in als andere bedrijven. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+Als u meer geavanceerde instellingen voor de consolidatie nodig hebt, kunt u de consolidatie handmatig instellen. U kunt dit bijvoorbeeld doen als u bedrijven hebt die slechts deels uw eigendom zijn of die u niet in de consolidatie wilt opnemen. U stelt het geconsolideerde bedrijf in op dezelfde manier als waarop u andere bedrijven instelt. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een lijst met te consolideren bedrijven instellen, de boekhoudgegevens vóór de consolidatie controleren, bestanden importeren en consolidatierapporten genereren.  
 
 1. Meld u aan bij het geconsolideerde bedrijf.
 2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
-3. Kies **Nieuw** en vul vervolgens de vereiste velden in.  
+3. Kies **Nieuw** en vul vervolgens de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Wanneer u de velden **Begindatum** en **Einddatum** invult, moet u ervoor zorgen dat u GAAP-regels betreffende de boekhoudperioden van de bedrijfsunit versus het hoofdbedrijf naleeft.
 
 Als de bedrijfsunit een vreemde valuta gebruikt, moet u de wisselkoers opgeven die in de consolidatie moet worden gebruikt. U moet ook consolidatiegegevens invoeren over de grootboekrekeningen van de bedrijfsunit. Deze processen worden beschreven in de volgende secties.
 
@@ -120,7 +122,31 @@ Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf ov
 1. Meld u aan bij het geconsolideerde bedrijf.  
 2. Kies in **Rolcentrum Accountant** de actie **Consolidatie uitvoeren**.  
 3. Vul de vereiste velden in.  
-4. Kies in het veld **Waar** de optie **Bedrijfsnaam** en kies vervolgens het geconsolideerde bedrijf in het veld **is**.  
+4. Kies in het veld **Waar** de optie **Bedrijfsnaam** en kies vervolgens het geconsolideerde bedrijf in het veld **is**.
+
+## <a name="to-eliminate-repeated-transactions"></a>Herhaalde transacties verwijderen
+Nadat u alle bedrijven hebt geconsolideerd, moet u transacties zoeken die meer dan eens zijn vastgelegd in bedrijven en vervolgens verwijderposten boeken om ze te verwijderen.
+
+Consolidatieverwijderingen boeken is een handmatig proces. U kunt deze stappen volgen:
+1. Zoek transacties die mogelijk moeten worden aangepast en voer dagboekregels in om ze te verwijderen.
+2. Voer het rapport **Consolidatie - Eliminaties** uit om u te helpen de invloed van de dagboekregels te bepalen voorafgaand aan boeking.
+3. Boek de aanpassingstransacties.
+
+Het rapport **Consolidatie - Eliminaties** bevat een voorlopige proefbalans, waar u de gevolgen kunt simuleren van het verwijderen van posten door het vergelijken van de posten in het geconsolideerde bedrijf met de eliminaties die zijn ingevoerd in het algemene dagboek.
+
+Als u een bedrijfsunit wilt opnemen in de lijst, moet u deze instellen op de pagina **Bedrijfsunits** en moet het veld **Consolideren** zijn ingeschakeld.
+
+Elke account wordt afzonderlijk op een regel weergegeven, volgens de structuur van het rekeningschema. Een rekening wordt niet weergegeven als alle bedragen op de regel 0 zijn. De volgende gegevens worden voor elke rekening weergegeven:
+
+* Rekeningnummer
+* Rekeningnaam.
+* Als u een of meer bedrijfsunitcodes hebt geselecteerd in het veld **Bedrijfsunit** op de aanvraagpagina, wordt een totaal weergegeven voor het geconsolideerde bedrijf zonder de geselecteerde bedrijfsunits en eliminaties. Hebt u het veld **Bedrijfsunit** niet ingevuld, dan wordt een totaal weergegeven voor het geconsolideerde bedrijf zonder de eliminaties.
+* Als u een bedrijfsunitcode hebt geselecteerd in het veld **Bedrijfsunit** op de aanvraagpagina, wordt een totaal weergegeven voor de geïmporteerde posten uit de bedrijfsunit. Hebt u het veld **Bedrijfsunit** niet ingevuld, dan wordt een totaal weergegeven voor de geboekte eliminaties in het geconsolideerde bedrijf.
+* Het totaal voor het geconsolideerde bedrijf met alle bedrijfsunits en geboekte eliminaties.
+* De eliminaties in het geconsolideerde bedrijf, dat wil zeggen de posten in het dagboek dat is geselecteerd op de aanvraagpagina.
+* De boekingstekst, gekopieerd uit het dagboek.
+* Het totaal voor het geconsolideerde bedrijf na de eliminaties, als deze zijn geboekt.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Geconsolideerde gegevens exporteren en importeren tussen databases
 Als gegevens voor een bedrijfsunit zich in een andere database bevinden, moet u de gegevens naar een bestand exporteren voordat u deze kunt opnemen in de consolidatie. Elk bedrijf moet afzonderlijk worden geëxporteerd. Voor dit doel gebruikt u de batchverwerking **Consolidatie - Export**.  
@@ -138,4 +164,3 @@ De geëxporteerde posten bevatten de volgende velden: **Bankrekeningnr.**, **Boe
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)
-

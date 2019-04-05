@@ -2,22 +2,22 @@
 title: Bankrekeningen instellen voor CODA
 description: Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u bepaalde codes instellen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9dd266506dcc8980bf2cc88fd5a2fc79d8134282
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8dbf9b9bfe002cab8481c91c53da978745d5817f
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826375"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Bankrekeningen instellen voor CODA
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  
@@ -43,4 +43,3 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
  [CODA-bankafschriften](coda-bank-statements.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [CODA-afschriften importeren](how-to-import-coda-statements.md)
-

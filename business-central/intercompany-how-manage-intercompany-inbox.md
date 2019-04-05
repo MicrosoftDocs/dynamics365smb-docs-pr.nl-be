@@ -2,7 +2,7 @@
 title: Inkomende en uitgaande IC-transacties verwerken | Microsoft Docs
 description: Intercompany-transacties (IC-transacties) die u ontvangt van uw IC-partners worden weergegeven in de IC-inbox, waar u ze handmatig of automatisch verwerkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853293"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
 Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  
@@ -43,7 +43,7 @@ Met het veld **Transactiebron weergeven** kunt u de pagina **IC-inboxtransacties
 #### <a name="returned-from-intercompany-partner"></a>Geretourneerd door IC-partner  
  Als de transactie is geweigerd door uw IC-partner, hebt u geen andere keuze dan de transactie in de inbox te annuleren. Vervolgens moet u correctieregels maken of het dagboek of document in uw bedrijf tegenboeken.  
 
-## <a name="re-creating-inbox-entries"></a>Inboxitems opnieuw maken  
+## <a name="recreating-inbox-entries"></a>Inboxitems opnieuw maken  
  Als u een transactie in uw inbox hebt geaccepteerd maar het document of dagboek vervolgens hebt verwijderd in plaats van geboekt, kunt u het inboxitem opnieuw maken en het nogmaals accepteren.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Een overzicht weergeven van IC-transacties voor een bepaalde periode  
@@ -105,4 +105,3 @@ In de volgende procedure wordt beschreven hoe u inboxtransacties opnieuw kunt ma
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

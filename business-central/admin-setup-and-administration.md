@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/24/2019
 ms.author: edupont
+ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
-ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/24/2019
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852167"
 ---
 # <a name="administration"></a>Beheer
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
@@ -38,7 +38,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Gegevensgevoeligheden classificeren voor velden, zodat u kunt reageren op aanvragen van gegevensonderwerpen met betrekking tot hun persoonlijke gegevens.|[Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)|
 |Reageren op aanvragen van gegevensobjecten met betrekking tot hun persoonlijke gegevens.|[Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)|
 |Een nieuwe bedrijfsunit instellen op basis van sjablonen|[Nieuwe bedrijven maken](about-new-company.md)|
-|Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen. |[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 |Alle rechtstreekse wijzigingen bijhouden die gebruikers aanbrengen in databasegegevens, zodat de herkomst van fouten en wijzigingen in gegevens kan worden vastgesteld.|[Wijzigingen registreren](across-log-changes.md)|  
 |Eenmalige of periodieke verzoeken voor het uitvoeren van rapporten of code-units invoeren.|[Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)|  
 |Documenten beheren, verwijderen of comprimeren|[Documenten verwijderen](admin-manage-documents.md)|  
@@ -46,6 +45,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Als onderdeel van het maken van Connect-apps tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en oplossingen van derden door middel van REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen van een entiteit te vullen wanneer u een POST-actie maakt met een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|
 |Versleutel gegevens op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
 |Verbind Dynamics 365 for Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
@@ -54,4 +54,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Aan de slag](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

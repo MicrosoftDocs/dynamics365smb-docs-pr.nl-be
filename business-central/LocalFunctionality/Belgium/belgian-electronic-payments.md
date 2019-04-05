@@ -4,15 +4,15 @@ description: In de module voor elektronisch bankieren in de Belgische versie van
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: f08b0cee879c38041a3a2bdc6523f9c518a1939e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826337"
 ---
 # <a name="belgian-electronic-payments"></a>Belgische elektronische betalingen
 In de module voor elektronisch bankieren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.  
@@ -53,4 +53,3 @@ Zie [Regels voor elektronische betalingen beheren](how-to-manage-electronic-paym
 [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
 [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
 [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
-

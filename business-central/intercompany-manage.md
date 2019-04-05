@@ -2,7 +2,7 @@
 title: Transacties tussen bedrijven binnen dezelfde organisatie | Microsoft Docs
 description: Met de intercompany-functionaliteit kunt u zakelijke processen en transacties tussen bedrijven binnen dezelfde organisatie vereenvoudigen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852114"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompany-transacties beheren
 Uw organisatie bestaat wellicht uit meerdere bedrijven, maar heeft mogelijk niet hetzelfde aantal boekhoud- en administratieteams. Met de intercompany-functionaliteit kunt u zaken doen met uw dochteronderneming en uw interne partnerorganisaties op dezelfde wijze als met uw externe leveranciers en klanten. U geeft de intercompany-transactiegegevens slechts eenmaal op in de relevante documenten. U kunt de functies gebruiken waarmee u al vertrouwd bent, zoals Klanten en Leveranciers. De toewijzingsmogelijkheden voor het rekeningschema en de dimensies helpen ervoor te zorgen dat de informatie op de juiste plaatsen wordt weergegeven.  
@@ -35,6 +35,8 @@ Wanneer u een transactie uitvoert, hoeft u geen rekeningen op te geven voor een 
 
  Nadat u zakenpartners in het systeem hebt ingesteld als klanten en leveranciers, en intercompany-partnercodes aan hen hebt toegewezen, kunt u intercompany-inkoop- en verkoopdocumenten uitwisselen, zoals artikelen en artikeltoeslagen. Binnen dit gebied vergemakkelijkt de intercompany-functionaliteit intercompany-transacties tussen meerdere databases, bijvoorbeeld in verschillende landen/regio's, maar ook in meerdere valuta's, verschillende rekeningschema's, verschillende dimensies en verschillende artikelnummering.  
 
+Consolideren van financiële gegevens kan vooral relevant zijn in verband met IC-processen. Zie voor meer informatie [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md).
+
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
  |Aan |Zie|
@@ -50,5 +52,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

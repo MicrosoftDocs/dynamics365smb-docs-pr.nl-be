@@ -1,23 +1,23 @@
 ---
-title: "Domiciliëringen instellen"
-description: "Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven."
+title: Domiciliëringen instellen
+description: Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: ac286d488f64a4cb7cdb2ad3de42b19ab9136981
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f4b41079807dfef2335717024f6f5d2bfc263890
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826413"
 ---
 # <a name="set-up-domiciliations"></a>Domiciliëringen instellen
 Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven.  
@@ -44,4 +44,3 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)   
  [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)
-

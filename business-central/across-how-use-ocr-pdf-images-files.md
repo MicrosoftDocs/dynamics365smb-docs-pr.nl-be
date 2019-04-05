@@ -1,7 +1,7 @@
 ---
 title: OCR gebruiken om van PDF e-facturen te maken| Microsoft Docs
 description: Beschrijft hoe u een OCR-service kunt gebruiken voor het converteren van inkomende PDF- of afbeeldingsbestanden naar elektronische documenten.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: d7d8d3d89eb72aed3bcd86e51a025c19ce55a116
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d74ae2b6ce94d1aa0e30a3234436a940aaa6219
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836124"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
 Vanuit PDF- of afbeeldingsbestanden die u ontvangt van uw handelspartners, kunt u elektronische documenten laten genereren door een externe OCR-service (Optical Character Recognition - optische tekenherkenning), die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Dit wordt in de eerste procedure beschreven.
@@ -25,7 +25,7 @@ Als alternatief voor het verzenden van het bestand vanaf de pagina **Inkomende d
 
 Na enkele seconden krijgt u het bestand weer terug van de OCR-service als een elektronische factuur die kan worden geconverteerd naar een inkoopfactuur voor de leverancier. Dit wordt in de derde procedure beschreven.
 
-Omdat OCR is gebaseerd op optische herkenning, is het waarschijnlijk dat de OCR-service tekens in uw PDF- of afbeeldingsbestanden verkeerd interpreteert wanneer bijvoorbeeld de documenten van een bepaalde leverancier voor het eerst worden verwerkt. De service interpreteert het bedrijfslogo mogelijk niet als de naam van de leverancier of interpreteert het totaalbedrag op een ontvangstbewijs verkeerd vanwege de lay-out ervan. Als u deze fouten voortaan wilt voorkomen, kunt u ze corrigeren in een aparte versie van de pagina **Inkomende documenten**. Vervolgens stuurt u de correcties terug naar de OCR-service om deze te trainen in het interpreteren van de specifieke tekens wanneer de volgende keer een PDF- of afbeeldingsbestand voor dezelfde leverancier wordt ontvangen. Zie voor meer informatie het gedeelte "De OCR-service trainen om fouten te voorkomen".
+Omdat OCR is gebaseerd op optische herkenning, is het waarschijnlijk dat de OCR-service tekens in uw PDF- of afbeeldingsbestanden verkeerd interpreteert wanneer bijvoorbeeld de documenten van een bepaalde leverancier voor het eerst worden verwerkt. De service interpreteert het bedrijfslogo mogelijk niet als de naam van de leverancier of interpreteert het totaalbedrag op een ontvangstbewijs verkeerd vanwege de lay-out ervan. Als u deze fouten voortaan wilt voorkomen, kunt u ze corrigeren in een aparte versie van de pagina **Inkomende documenten**. Vervolgens stuurt u de correcties terug naar de OCR-service om deze te trainen in het interpreteren van de specifieke tekens wanneer de volgende keer een PDF- of afbeeldingsbestand voor dezelfde leverancier wordt ontvangen. Zie voor meer informatie [De OCR-service trainen om fouten te voorkomen](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 Het verkeer van bestanden van en naar de OCR-service wordt verwerkt door een specifiek taakwachtrij-item, dat automatisch wordt gemaakt als u de gerelateerde serviceverbinding inschakelt. Zie voor meer informatie [Inkomende documenten instellen](across-how-setup-income-documents.md).
 
@@ -45,7 +45,7 @@ Vanuit uw e-mailtoepassing kunt u een e-mailbericht verzenden naar de aanbieder 
 Omdat er geen inkomende documentrecord bestaat voor het bestand, wordt automatisch een nieuwe record gemaakt op de pagina **Inkomende documenten** wanneer u het resulterende elektronische document ontvangt van de OCR-service. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.
 
 > [!NOTE]  
->   Als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie voor meer informatie het gedeelte 'Inkomende documentrecords maken door een foto te maken' in [Inkomende documentrecords maken](across-how-create-income-document-records.md).
+>   Als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie [Inkomende documentrecords maken door een foto te maken](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo) voor meer informatie.
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Het resulterende elektronische document ontvangen van de OCR-service
 Het elektronische document dat door de OCR-service van het PDF- of het afbeeldingsbestand wordt gemaakt, wordt automatisch ontvangen op de pagina **Inkomende documenten** door de verwerkingswachtrijpost die wordt ingesteld wanneer u de OCR-service inschakelt.
@@ -56,7 +56,7 @@ Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt
 >   Als de OCR-service zo is ingesteld dat handmatige verificatie van verwerkte documenten is vereist, bevat het veld **OCR-status** de waarde **In afwachting van verificatie**. In dat geval voert u de volgende stappen uit om u aan te melden bij de website van de OCR-service om een OCR-document handmatig te verifiëren.
 
 1. Kies in het veld**OCR-status**de hyperlink **In afwachting van verificatie**.
-2. Meld u bij de website van de OCR-service aan met de aanmeldgegevens van uw OCR-serviceaccount. Dit zijn de aanmeldgegevens die ook bij het instellen van de service worden gebruikt. Zie het gedeelte 'Een OCR-service instellen' in [Inkomende documenten instellen](across-how-setup-income-documents.md)voor meer informatie.
+2. Meld u bij de website van de OCR-service aan met de aanmeldgegevens van uw OCR-serviceaccount. Dit zijn de aanmeldgegevens die ook bij het instellen van de service worden gebruikt. Zie voor meer informatie [Een OCR-service instellen](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     De gegevens voor het OCR-document worden weergegeven met zowel de broninhoud van het PDF- of afbeeldingsbestand als de resulterende OCR-veldwaarden.
 3. Controleer handmatig de verschillende veldwaarden en bewerk of typ handmatig waarden in de velden die de OCR-service heeft gemarkeerd als onbepaald.
@@ -69,15 +69,13 @@ U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords 
 Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt of een verkoopretourorder van een klant.
 
 > [!NOTE]  
->   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt deze toewijzing als artikelkruisverwijzingen uitvoeren, voor documentregels van het type Artikel. U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie het gedeelte Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening voor meer informatie.
-
-Als u de artikelnummers in het document aan uw omschrijvingen van de leveranciersartikelen wilt toewijzen, opent u de kaart en kiest u vervolgens de actie **Kruisverwijzingen** om kruisverwijzingen tussen uw artikelomschrijvingen en die van de leverancier in te stellen. Zie de knopinfo voor de actie **Kruisverwijzingen** op artikelkaarten voor meer informatie.
+>   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt deze toewijzing als artikelkruisverwijzingen uitvoeren, voor documentregels van het type Artikel. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md). U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie [Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account) voor meer informatie.
 
 1. Selecteer de regel voor het inkomende document en kies de actie **Document maken**.
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen. Gegevens worden in de nieuwe inkoopfactuur ingevoegd op basis van de toewijzing die u als kruisverwijzing of als toewijzing van tekst aan rekening hebt opgegeven.
 
-Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie het gedeelte "Fouten afhandelen bij de ontvangst van elektronische documenten"voor meer informatie.
+Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie [Fouten afhandelen bij de ontvangst van elektronische documenten](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents) voor meer informatie.
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Tekst in een inkomend document aan een bepaalde leveranciersrekening toewijzen
 Voor inkomende documenten gebruikt u meestal de actie **Tekst toewijzen aan rekening**om te definiëren daten bepaalde tekst op een leveranciersfactuurontvangen van OCR-service, is toegewezen aan een bepaalde leveranciersrekening. In elk onderdeel van de omschrijving van het binnenkomende document dat als een toewijzingstekst aanwezig is, wordt in het veld**Nr.** in het resulterende document of de resulterende dagboekregels van het soort grootboekrekening ingevuld met de desbetreffende leverancier.
@@ -124,4 +122,3 @@ De velden op het sneltabblad **Financiële informatie** op de pagina **Inkomende
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

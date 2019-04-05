@@ -2,22 +2,22 @@
 title: Belgische tariefcodes instellen
 description: De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89de76c494be0b37cc2d5f649c71bb66d0758efb
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826395"
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Belgische tariefcodes instellen
 De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.  
@@ -42,4 +42,3 @@ De Belgische belastingdienst en douane hebben een goederencode van acht tekens v
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
-

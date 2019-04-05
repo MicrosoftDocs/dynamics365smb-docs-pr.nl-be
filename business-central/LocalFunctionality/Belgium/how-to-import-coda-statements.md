@@ -2,22 +2,22 @@
 title: CODA-afschriften importeren
 description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 9e1fdb44770746f7c655194f13e6092f8fa6c385
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826367"
 ---
 # <a name="import-coda-statements"></a>CODA-afschriften importeren
 Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).  
@@ -38,4 +38,3 @@ Het CODA-afschrift wordt geïmporteerd. Vervolgens moet u de CODA-afschriftregel
  [Financiële dagboeken maken](how-to-create-financial-journals.md)   
  [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md)   
  [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md)
-

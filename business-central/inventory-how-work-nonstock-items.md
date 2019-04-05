@@ -1,7 +1,7 @@
 ---
 title: Catalogusartikelen maken en beheren | Microsoft Docs
 description: Beschrijft hoe u handelt in artikelen die voorkomen in artikellijsten van uw leveranciers, maar niet in uw eigen artikellijsten.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836147"
 ---
 # <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
 U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze artikelen pas in uw systeem beheren als u ze gaat verkopen. Wanneer u deze artikelen wilt gaan beheren in uw systeem, kunt u ze op twee manieren naar normale artikelkaarten converteren.
@@ -66,11 +66,10 @@ Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het ca
 U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Er wordt automatisch een artikelkruisverwijzingsrecord gemaakt voor de leverancier van het artikel tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer.
+>   Er wordt automatisch een artikelkruisverwijzingsrecord gemaakt voor de leverancier van het artikel tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Zie ook
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Speciale orders maken](sales-how-to-create-special-orders.md)|  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

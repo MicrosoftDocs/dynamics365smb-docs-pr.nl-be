@@ -2,22 +2,22 @@
 title: Periodieke btw-rapporten afdrukken
 description: Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9587dd8b3832da7fb95a5e8055730c3bd7787461
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826353"
 ---
 # <a name="print-periodic-vat-reports"></a>Periodieke btw-rapporten afdrukken
 Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen:  
@@ -68,4 +68,3 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 ## <a name="see-also"></a>Zie ook  
  [Belgische btw](belgian-vat.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
-

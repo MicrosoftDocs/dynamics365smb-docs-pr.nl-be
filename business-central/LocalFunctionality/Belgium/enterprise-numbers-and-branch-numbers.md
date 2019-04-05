@@ -2,22 +2,22 @@
 title: Ondernemingnummers en filiaalnummers
 description: Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen. Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3cc4818f47eb04206ade0a2df4cdc6e85ecb2ae1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 36dc7a5d3c5b4410e69c304f41f4af6e5be1da09
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826365"
 ---
 # <a name="enterprise-numbers-and-branch-numbers"></a>Ondernemingnummers en filiaalnummers
 Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen. Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.  
@@ -51,4 +51,3 @@ Het ondernemingsnummer is ingesteld op de volgende locaties:
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)
-

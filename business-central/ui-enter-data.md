@@ -7,17 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852505"
 ---
-
 # <a name="entering-data"></a>Gegevens invoeren
 Er zijn veel algemene functies waarmee u snel en gemakkelijk gegevens kunt invoeren. De algemene functies voor het invoeren van gegevens worden in dit artikel beschreven.  
 
@@ -258,6 +257,5 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
 ## <a name="see-also"></a>Zie ook  
- [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md)  
+ [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

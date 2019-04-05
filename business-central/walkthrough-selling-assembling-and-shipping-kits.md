@@ -2,22 +2,22 @@
 title: 'Procedure: Kits verkopen, assembleren en verzenden | Microsoft Docs'
 description: Ter ondersteuning van just-in-time voorraadbeheer en de mogelijkheid tot het aanpassen van producten op basis van klantaanvragen, kunnen assemblageorders automatisch worden gemaakt en worden gekoppeld zodra de verkooporderregel is gemaakt. De koppeling tussen de verkoopvraag en het assemblage-aanbod stelt de verkooporderverwerkers in staat om het assemblageartikel aan te passen en leveringsdatums af te spreken op basis van de beschikbaarheid van componenten. Bovendien worden assemblageverbruik en -uitvoer automatisch geboekt bij de verzending van de gekoppelde verkooporder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852712"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
 
@@ -27,7 +27,7 @@ Ter ondersteuning van just-in-time voorraadbeheer en de mogelijkheid tot het aan
 
 Er zijn speciale functies beschikbaar om de verzending van aantallen voor assembleren op basis van orders te bepalen, zoals in basis- als in geavanceerde magazijnconfiguraties. Wanneer werknemers die verantwoordelijk zijn voor het assembleren, klaar zijn met het assembleren van onderdelen of het gehele op-order-assembleren-aantal, registreren ze dit in het veld **Te verzenden aantal** op de magazijnverzendregel in geavanceerde configuraties en kiezen ze vervolgens **Verzending boeken**. Het resultaat is dat de bijbehorende assemblageuitvoer, met inbegrip van het gerelateerde materiaalverbruik, wordt geboekt en dat een verkoopverzending voor de hoeveelheid wordt geboekt voor de gekoppelde verkooporder. In dit scenario wordt het geavanceerde magazijnproces geïllustreerd.  
 
-Wanneer in basismagazijnconfiguraties een aantal voor assembleren op basis van orders klaar is om te worden verzonden, boekt de verantwoordelijke magazijnmedewerker een voorraadpick voor de verkooporderregels. Dit leidt tot het maken van een voorraadverplaatsing voor de componenten, tot het boeken van de assemblage-uitvoer en tot de verkooporderverzending. Zie voor meer informatie het gedeelte 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in Voorraadpick.  
+Wanneer in basismagazijnconfiguraties een aantal voor assembleren op basis van orders klaar is om te worden verzonden, boekt de verantwoordelijke magazijnmedewerker een voorraadpick voor de verkooporderregels. Dit leidt tot het maken van een voorraadverplaatsing voor de componenten, tot het boeken van de assemblage-uitvoer en tot de verkooporderverzending. Zie [Op-order-assembleren-artikelen in voorraadpicks afhandelen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks) voor meer informatie.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
 In deze procedure worden de volgende taken gedemonstreerd:  
@@ -106,7 +106,7 @@ Verwijder de standaarddoorlooptijd voor interne processen door de volgende stapp
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productie-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Verwijder op de pagina **Productie-instellingen** op het sneltabblad **Planning** de waarde in het veld **Std. veiligheidstijd**.  
 
-Maak voorraad voor assemblageonderdelen door de sectie "Voorbeeldgegevens voorbereiden" in dit scenario te volgen.  
+Maak voorraad voor assemblycomponenten door [Voorbeeldgegevens voorbereiden](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data) te volgen.  
 
 ## <a name="story"></a>Scenario  
 Op 23 januari neemt Susan, de verkooporderprocessor, een order uit de onderdelenwinkel voor drie eenheden van Kit B aan. Dit is een ATO-artikel. Alle drie eenheden worden aangepast en moeten de sterke grafische kaart en een extra RAM-blok bevatten. De schijfstations worden bijgewerkt naar dvd omdat er geen cd-stations beschikbaar zijn. Susan weet dat de eenheden meteen kunnen worden samengevoegd, dus laat ze de voorgestelde verzenddatum op 23 januari staan.  
@@ -135,7 +135,7 @@ Sammy pakt de tien ATS-eenheden in met de vijf ATO-eenheden die Linda eerder die
 
 Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
-## <a name="setting-up-the-sample-data"></a>Voorbeeldgegevens instellen  
+## <a name="prepare-sample-data"></a>Voorbeeldgegevens voorbereiden  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag.-artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies het veld **Batchnaam** en selecteer vervolgens het standaarddagboek.  
@@ -431,7 +431,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Merk op dat op beide regels het veld **Verzonden aantal** het volledige aantal bevat.  
 
-    Wanneer de Onderdelenwinkel betaalt voor de ontvangst van de 18 pc's van CRONUS, worden de verkooporder en de gekoppelde assemblageorder verwijderd.  
+    Wanneer de Onderdelenwinkel betaalt voor de ontvangst van de 18 pc's uit CRONUS, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
 ## <a name="see-also"></a>Zie ook  
  [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)   
@@ -443,4 +443,3 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
  [Ontwerpdetails: Inkomende magazijnstromen](design-details-internal-warehouse-flows.md)   
  [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)   
  [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
-

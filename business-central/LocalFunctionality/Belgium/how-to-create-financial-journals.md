@@ -1,23 +1,23 @@
 ---
-title: "Financiële dagboeken maken"
-description: "In financiële dagboeken worden bankrekeningtransacties geregistreerd. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd."
+title: Financiële dagboeken maken
+description: In financiële dagboeken worden bankrekeningtransacties geregistreerd. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: a52c2e5f3f98989879f46a833f06004f00608c35
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1ef9aba9438092728b8236635dc0386b700fe091
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826351"
 ---
 # <a name="create-financial-journals"></a>Financiële dagboeken maken
 In financiële dagboeken worden bankrekeningtransacties geregistreerd. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.  
@@ -38,4 +38,3 @@ In financiële dagboeken worden bankrekeningtransacties geregistreerd. In het fi
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)
-

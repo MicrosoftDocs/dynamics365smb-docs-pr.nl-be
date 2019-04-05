@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853129"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Opgeslagen instellingen in rapporten beheren
 Wanneer gebruikers rapporten uitvoeren, zien ze meestal een pagina waarmee ze bepaalde opties en filters kunnen instellen om de gegevens te wijzigen die in het gegenereerde rapport worden opgenomen. Deze pagina wordt de rapportaanvraagpagina genoemd. Een rapport kan een of meer *opgeslagen instellingen* bevatten die gebruikers op het rapport kunnen toepassen vanaf de aanvraagpagina. *Opgeslagen instellingen* zijn in wezen vooraf gedefinieerde opties en filters. Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten. Voor meer informatie over hoe opgeslagen instellingen worden gebruikt, raadpleegt u [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
 Als u de juiste machtigingen hebt, kunt u de opgeslagen instellingen voor alle gebruikers in een bedrijf weergeven, maken en wijzigen. U kunt opgeslagen instellingen voor een rapport toewijzen aan afzonderlijke gebruikers of aan alle gebruikers in het bedrijf.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Vanaf de pagina **Rapportinstellingen** kunt u het volgende doen:
 > De functie voor opgeslagen instellingen is alleen beschikbaar voor rapporten waarvoor de [eigenschap SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) van de rapportaanvraagpagina is ingesteld op `Yes`. De eigenschap **SaveValues** wordt ingesteld in de ontwikkelomgeving.  
 
 ## <a name="see-also"></a>Zie ook
-[Werken met rapporten](ui-work-report.md)  
-
+[Werken met rapporten en batchverwerkingen](ui-work-report.md)  

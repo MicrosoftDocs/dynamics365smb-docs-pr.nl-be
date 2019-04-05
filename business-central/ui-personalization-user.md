@@ -2,7 +2,7 @@
 title: Pagina's aanpassen | Microsoft Docs
 description: Meer informatie over hoe u de gebruikersinterface kunt aanpassen aan uw manier van werken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852321"
 ---
 # <a name="personalizing-your-workspace"></a>Het personaliseren van uw werkruimte
-<!--NAV in the Web client--> U kunt uw werkruimte *aanpassen* aan uw werk- en persoonlijke voorkeuren, door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
+<!--NAV in the Web client-->
+U kunt uw werkruimte aanpassen aan uw werk- en *persoonlijke voorkeuren*, door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
 
 Afhankelijk van het soort pagina en wat deze bevat, kunt u het volgende doen:
 
@@ -29,7 +30,10 @@ Afhankelijk van het soort pagina en wat deze bevat, kunt u het volgende doen:
 -   De bevroren deelvensters voor kolommen in een lijst wijzigen. Het bevroren deelvenster vergrendelt een of meer kolommen aan de linkerzijde van een lijst zodat deze altijd aanwezig zijn, zelfs als u horizontaal schuift.
 -   Pas de breedte van kolommen in een lijst aan.
 -   Indicatiestapels (tegels) verplaatsen en verwijderen.
--   Onderdelen verplaatsen en verwijderen. De onderdelen zijn onderverdelingen of gebieden op een pagina met objecten als meerdere velden, een andere pagina, een grafiek of tegels.  
+-   Onderdelen verplaatsen en verwijderen. De onderdelen zijn onderverdelingen of gebieden op een pagina met objecten als meerdere velden, een andere pagina, een grafiek of tegels.
+
+> [!NOTE]
+> Naast wat gebruikers kunnen personaliseren kunnen beheerders en supergebruikers personalisaties van gebruikers overschrijven en definiëren welke functies beschikbaar zijn in alle of specifieke bedrijven. Zie [Business Central aanpassen](ui-customizing-overview.md) voor meer informatie. 
 
 ## <a name="to-personalize-a-page"></a>Een pagina personaliseren
 
@@ -79,4 +83,3 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
-

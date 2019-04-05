@@ -2,7 +2,7 @@
 title: Aangepaste en ingebouwde lay-outs voor rapporten en documenten | Microsoft Docs
 description: Gebruik rapportlay-outs om documenten aan te passen, bijvoorbeeld om het lettertype of logo aan te passen of pagina-instellingen of PDF-bestanden die u naar klanten verzendt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a8f17e86241a49ec65233b42ac0fb647462a8ab
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852413"
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
@@ -64,5 +64,4 @@ Zie [Wijzigen welke lay-out momenteel in een rapport wordt gebruikt](ui-how-chan
 [Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md)  
 [Een aangepaste lay-out voor een rapport of document importeren en exporteren](ui-how-import-and-export-report-layout.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Werken met rapporten](ui-work-report.md)  
-
+[Werken met rapporten en batchverwerkingen](ui-work-report.md)  

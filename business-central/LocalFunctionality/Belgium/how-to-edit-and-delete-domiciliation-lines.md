@@ -1,23 +1,23 @@
 ---
-title: "Domiciliëringsregels bewerken en verwijderen"
-description: "Nadat u domiciliëringsvoorstellen hebt gegenereerd, kunt u de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen."
+title: Domiciliëringsregels bewerken en verwijderen
+description: Nadat u domiciliëringsvoorstellen hebt gegenereerd, kunt u de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: d686633d74d1a494d71f300d57af928ab826a036
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4aa1af479ed945cb2a99e7dbca196919221820f6
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826368"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Domiciliëringsregels bewerken en verwijderen
 Nadat u domiciliëringsvoorstellen hebt gegenereerd, kunt u de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  
@@ -45,4 +45,3 @@ Met de batchverwerking **Domiciliëringen voorstellen** maakt u domiciliëringsv
  [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md)   
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)
-

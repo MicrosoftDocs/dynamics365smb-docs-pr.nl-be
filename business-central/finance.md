@@ -1,8 +1,8 @@
 ---
 title: Financieel beheer | Microsoft Docs
-description: "Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften."
+description: Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: nl-be
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832540"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Laat uw klanten betalen voordat u naar hen verzendt of betaal uw leveranciers voordat zij aan u verzenden.|[Vooruitbetalingen factureren](finance-invoice-prepayments.md)|
 | Bankrekeningen reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen beheren](bank-manage-bank-accounts.md) |
 |IC-partners instellen en transacties handmatig of automatisch verwerken tussen rechtspersonen binnen hetzelfde bedrijf.|[Intercompany-transacties beheren](intercompany-manage.md)|
-|Combineert grootboekposten van meerdere bedrijven in één virtueel 'geconsolideerd bedrijf' voor financiële analyses.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
+|Grootboekposten van meerdere bedrijven combineren in één virtueel geconsolideerd bedrijf voor financiële analyses.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
 |De kosten analyseren van het uitvoeren van uw bedrijf door werkelijke en gebudgetteerde kosten van bewerkingen, afdelingen, producten en projecten toe te wijzen aan kostenplaatsen.|[Kosten verantwoorden](finance-manage-cost-accounting.md)|
 |Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
 | Het grootboek en het rekeningschema begrijpen. |[Het grootboek en COA begrijpen](finance-general-ledger.md) |
@@ -58,10 +58,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Inkoop](purchasing-manage-purchasing.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
 [Projecten beheren](projects-manage-projects.md)    
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

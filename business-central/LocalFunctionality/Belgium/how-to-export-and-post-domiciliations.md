@@ -1,23 +1,23 @@
 ---
-title: "Domiciliëringen exporteren en boeken"
-description: "U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken."
+title: Domiciliëringen exporteren en boeken
+description: U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ee1754fa3b8b783594d3a68886a941564ea6fdc3
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826415"
 ---
 # <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
 > [!Note]
@@ -81,4 +81,3 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
  [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md)   
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)
-

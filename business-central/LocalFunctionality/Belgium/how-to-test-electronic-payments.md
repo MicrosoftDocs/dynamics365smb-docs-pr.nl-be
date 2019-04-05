@@ -2,22 +2,22 @@
 title: Elektronische betalingen testen
 description: Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9edf27caaea179b1a8fb62dcc34e2e7fe097a157
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826340"
 ---
 # <a name="test-electronic-payments"></a>Elektronische betalingen testen
 > [!Note]
@@ -51,4 +51,3 @@ U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exportere
  [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
-

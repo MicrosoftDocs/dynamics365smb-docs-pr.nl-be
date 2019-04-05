@@ -2,7 +2,7 @@
 title: Werken met slimme berichten en opgeven wanneer u deze ziet | Microsoft Docs
 description: U kunt berichten ontvangen die u informeren over statusveranderingen of gebeurtenissen, bijvoorbeeld een achterstallig saldo of lage voorraad.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852182"
 ---
-# <a name="smart-notifications"></a>Slimme berichten
+# <a name="managing-notifications"></a>Berichten beheren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen slimmer te werken door u te informeren over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Deze berichten worden weergegeven als afzonderlijke tips in de context van de taak die u uitvoert, en u kunt ervoor kiezen het bericht te negeren of informatie over het probleem te bekijken.  
 
 Als u ervoor kiest details over een bericht te bekijken, kunt u actie ondernemen om het probleem op te lossen, zoals contact opnemen met de klant, meer voorraad kopen, enzovoort. U bepaalt wat er gebeurt en [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft u advies en doet aanbevelingen.  
@@ -38,4 +38,3 @@ Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is al
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

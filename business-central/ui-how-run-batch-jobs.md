@@ -2,7 +2,7 @@
 title: Een batchverwerking maken en uitvoeren | Microsoft Docs
 description: U voert batchverwerkingen uit om gegevens te verwerken en gegevens bij te werken om bijvoorbeeld periodieke boekhoudactiviteiten uit te voeren en berekeningen uit te voeren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 260cd7761b130bbe3748de3cc109a9f4f56c1384
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 7357ae501c4b53ae66869bbbc1ce415a3996f542
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853270"
 ---
 # <a name="run-batch-jobs"></a>Batchverwerkingen uitvoeren
 Een batchtaak is een routine waarmee gegevens in batches worden verwerkt, zoals bij de batchtaak **Wisselkoers herwaarderen**. Er zijn batchverwerkingen die periodieke boekhoudingactiviteiten uitvoeren, zoals het afsluiten van de resultatenrekening aan het einde van een boekjaar. Veel batchtaken voeren berekeningswerk uit, zoals de berekening van de financieringskosten, herwaardering van de wisselkoers en de berekening van eenheidsprijzen.
@@ -31,6 +31,5 @@ Een batchverwerking lijkt op een lijst, alleen wordt bij een batchverwerking het
 4. Kies **OK** om de batchverwerking te starten.
 
 ## <a name="see-also"></a>Zie ook
-[Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md)  
+[Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

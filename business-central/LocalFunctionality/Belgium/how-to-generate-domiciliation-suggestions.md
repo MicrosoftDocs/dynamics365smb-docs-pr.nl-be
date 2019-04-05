@@ -1,18 +1,18 @@
 ---
-title: "Domiciliëringsvoorstellen genereren"
-description: "Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. U kunt alleen domiciliëringsvoorstellen voor binnenlandse klanten maken."
+title: Domiciliëringsvoorstellen genereren
+description: Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. U kunt alleen domiciliëringsvoorstellen voor binnenlandse klanten maken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 646e318742a303b8586f61578efeaae2f92aa6a2
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826391"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren
 Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u alleen domiciliëringsvoorstellen voor binnenlandse klanten maken.  
@@ -46,4 +46,3 @@ Wanneer de batchverwerking is uitgevoerd, bevat het domiciliëringsdagboek alle 
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)   
  [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)
-

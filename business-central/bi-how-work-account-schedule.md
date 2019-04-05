@@ -1,6 +1,6 @@
 ---
-title: "Financiële rapporten maken met rapportageschema's"
-description: "Beschrijft hoe u rapportageschema's gebruikt om diverse weergaven en lijsten te maken om financiële prestatiegegevens te analyseren."
+title: Financiële rapporten maken met rapportageschema's
+description: Beschrijft hoe u rapportageschema's gebruikt om diverse weergaven en lijsten te maken om financiële prestatiegegevens te analyseren.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852528"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken in uw rolcentrum, zoals het Cashflowdiagram, en in rapporten, zoals de Resultatenrekening en de Balans.
@@ -36,7 +36,7 @@ U kunt ook twee of meer rapportageschema's en kolomindelingen vergelijken met fo
 * Verschillende rapportindelingen instellen en de rapporten afdrukken met de huidige cijfers.
 
 ## <a name="account-categories"></a>Rekeningcategorieën
-U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld op de pagina **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport Balans, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie voor meer informatie het gedeelte "Rekeningcategorieën" in [Het grootboek en COA begrijpen](finance-general-ledger.md).  
+U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld op de pagina **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport Balans, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie [Rekeningcategorieën](finance-general-ledger.md#account-categories) voor meer informatie.  
 
 ## <a name="to-create-a-new-account-schedule"></a>Een nieuw rapportageschema maken  
 U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
@@ -50,10 +50,10 @@ Op de pagina **Rapportageschemaoverzicht** bekijkt u een voorbeeld van het finan
 3. Of kies de actie **Rapportageschema kopiëren**, vul de twee velden in en kies de knop **OK**.
 4. Vul de benodigde velden in. Selecteer in het veld **Std. kolomindeling** een bestaande indeling. U kunt het later desgewenst wijzigen.
 
-    U gebruikt kolomindelingen om kolommen te definiëren voor verschillende parameters waarmee de financiële gegevens in de rijen worden weergegeven. U kunt bijvoorbeeld een kolomindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar, met vier kolommen. Zie voor meer informatie het gedeelte "Een kolomindeling maken of bewerken".
+    U gebruikt kolomindelingen om kolommen te definiëren voor verschillende parameters waarmee de financiële gegevens in de rijen worden weergegeven. U kunt bijvoorbeeld een kolomindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar, met vier kolommen. Zie voor meer informatie [Een kolomindeling bewerken](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Kies de actie **Rapportageschema bewerken**.
-6. Maak een rij voor financieel elk element dat u in de lijst wilt weergeven, zoals een regel voor vlottende activa en een andere regel voor vaste activa. Zie voor inspiratie zie bestaande rapportageschema's in het CRONUS-demonstratiebedrijf.
+6. Maak een rij voor financieel elk element dat u in de lijst wilt weergeven, zoals een regel voor vlottende activa en een andere regel voor vaste activa. Zie voor inspiratie bestaande rapportageschema's in het CRONUS-demonstratiebedrijf.
 7. Kies de actie **Overzicht** om het resulterende financiële rapport te bekijken.
 8. Selecteer op de pagina **Rapportageschemaoverzicht** in het veld **Kolomindelingnaam** een andere kolomindeling om de financiële gegevens door andere parameters te bekijken.
 9. Kies de knop **OK**.
@@ -199,4 +199,3 @@ Als u de berekening volgens normale tijdsperioden wilt uitvoeren, moet u in plaa
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

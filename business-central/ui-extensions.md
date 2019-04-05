@@ -1,7 +1,7 @@
 ---
 title: Extensies installeren om Business Central aan te passen | Microsoft Docs
 description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Business Central door extensies te installeren.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852459"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
@@ -33,7 +33,7 @@ U beheert de extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina t
 ## <a name="installing-an-extension"></a>Een extensie installeren
 U kunt nieuwe extensies verkrijgen via de marktplaats op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?src=dynamics365website&product=dynamics-365-business-central). Hier kunt u alle beschikbare extensies voor [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken en kunt u apps, extensies en inhoudpakketten voor andere Microsoft-producten verkrijgen. Stel de gewenste filters in, bekijk de gegevens voor elke extensie en haal een extensie voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)] op.  
 > [!NOTE]  
->   Meld u bij [AppSource.microsoft.com](https://appsource.microsoft.com/) aan met het e-mailaccount dat u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
+>   Meld u bij [AppSourceAppSource.microsoft.com](https://appsource.microsoft.com/) aan met het e-mailaccount dat u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
 
 U kunt ook naar de marktplaats gaan vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Op de pagina **Extensiebeheer** kunt u de extensies bekijken die momenteel zijn geïnstalleerd en kunt u de pagina **Extensiemarktplaats** openen waarop de extensies van [!INCLUDE[d365fin](includes/d365fin_md.md)] worden weergegeven die momenteel beschikbaar zijn in AppSource. Als u de koppeling *Meer apps* kiest, komt u terecht op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
@@ -48,8 +48,8 @@ Sommige extensies worden verstrekt door Microsoft en andere extensies worden ver
 
 Microsoft biedt de volgende extensies:  
 
-* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
+* [Envestnet Yodlee-bankfeeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  
@@ -58,7 +58,7 @@ Microsoft biedt de volgende extensies:
 * [Quickbooks-salarisbestand importeren](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)  
+* [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)  
 * [Accountantportal](ui-extensions-accountant-portal.md)  
 * [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)  
 * [Betalingen en afstemmingen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
@@ -71,6 +71,7 @@ Microsoft biedt de volgende extensies:
 
 ## <a name="see-also"></a>Zie ook
 [Dynamics 365 Business Central uitbreiden](about-develop-extensions.md)  
+[Extensies voor Business Central van andere providers](ui-extensions-other.md)  
 [De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)  
 [Klantbetalingen inschakelen via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft biedt de volgende extensies:
 [Aan de slag](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

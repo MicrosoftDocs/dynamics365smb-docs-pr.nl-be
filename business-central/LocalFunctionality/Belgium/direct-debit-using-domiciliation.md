@@ -1,23 +1,23 @@
 ---
-title: "Incasso via domiciliëring"
-description: "Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen via een bankrekening van voorkeur. Domiciliëringen kunnen alleen worden verwerkt voor binnenlandse klanten met binnenlandse bankrekeningen."
+title: Incasso via domiciliëring
+description: Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen via een bankrekening van voorkeur. Domiciliëringen kunnen alleen worden verwerkt voor binnenlandse klanten met binnenlandse bankrekeningen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3ce907b08f925c28e682b0fcd07df72677e0a379
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b4a4d0f44a35289baa99655c5b8ad2311fac2d5
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826431"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
 Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen via een bankrekening van voorkeur. Domiciliëringen kunnen alleen worden verwerkt voor binnenlandse klanten met binnenlandse bankrekeningen. Domiciliëringen in vreemde valuta's of via buitenlandse banken worden niet ondersteund.  
@@ -37,4 +37,3 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)   
  [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)
-
