@@ -2,7 +2,7 @@
 title: Afschrijvingsmethoden|Microsoft Docs
 description: Leren over de verschillende methoden om vaste activa af te schrijven of in waarde te verminderen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816878"
 ---
 # <a name="depreciation-methods"></a>Afschrijvingsmethoden
 U hebt de beschikking over acht afschrijvingsmethoden:  
@@ -156,7 +156,7 @@ De afschrijvingswaarden zijn:
 | Datum | Berekening |
 | --- | --- |
 | 30-06-10 |AB = 100.000,00 x (1 -(1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 31-12-10 |AB = 86.02,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
+| 31-12-10 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
 | 30-06-11 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
 | 31-12-11 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
 
@@ -357,4 +357,3 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het ve
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

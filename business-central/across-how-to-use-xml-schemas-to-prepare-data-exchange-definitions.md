@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816774"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
 Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk te maken, kunt u XML-schema's gebruiken om te bepalen welke gegevenselementen u wilt uitwisselen met [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiervoor opent u de pagina **XML-schemaviewer** en laadt u het XML-schemabestand, selecteert u de relevante gegevenselementen en initialiseert u vervolgens een definitie voor gegevensuitwisseling of een XMLport.  
@@ -34,7 +34,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 -   Een XMLport genereren voor het bestand dat is gebaseerd op een XML-schema  
 
--   Een XMLport in Object Designer importeren  
+-   Een XMLport importeren in Object Designer  
 
 ### <a name="to-load-an-xml-schema-file"></a>Een XML-schemabestand laden  
 
@@ -69,7 +69,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Schemacode XML**|Geef het XML-schemabestand op dat u hebt geladen in stap 5 in het gedeelte "Een XML-schemabestand laden".|  
-    |**Nieuw XMLport-nummer**|Geef het nummer op van de XMLport die is gemaakt op basis van dit XML-schema wanneer u de actie **XMLPort genereren** kiest.|  
+    |**Nieuw XMLport-nr.**|Geef het nummer op van de XMLport die wordt gemaakt op basis van dit XML-schema wanneer u de actie **XMLport genereren** kiest.|  
 
      De regels worden nu gevuld met knooppunten die alle onderdelen in het XML-schema vertegenwoordigen. Knooppunten voor elementen die verplicht zijn volgens het XML-schema, worden standaard geselecteerd.  
 
@@ -113,13 +113,13 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 > [!NOTE]  
 >  U kunt ook de functie **Bestandstructuur ophalen** op de pagina **Uitwisselingsdefinitie van boeking** gebruiken. Deze maakt gebruik van de functionaliteit van de pagina **XML-schemaviewer** om het sneltabblad **Kolomdefinities** vooraf te vullen.  
 
-### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Een XMLport genereren dat is gebaseerd op een XML-schema  
+### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Een XMLport genereren die is gebaseerd op een XML-schema  
 
 1.  In het vak **Zoeken** voert u **XML-schema's** in en vervolgens kiest u de gerelateerde koppeling.  
 
-2.  Selecteer het betreffende XML-schema en kies op het tabblad **Start** in de groep **Verwerken** de optie **XML-schemaviewer openen**.  
+2.  Selecteer het betreffende XML-schema en kies op het tabblad **Start** in de groep **Verwerken** de optie **XML-schema-viewer openen**.  
 
-3.  Geef in het veld **Nieuw XMLport-nummer** het nummer op dat het nieuwe XMLport-object krijgt wanneer het wordt gegenereerd.  
+3.  Geef in het veld **Nieuw XMLport-nr.** het nummer op dat het nieuwe XMLport-object krijgt wanneer het wordt gegenereerd.  
 
 4.  Zorg dat de relevante knooppunten zijn geselecteerd. Zie voor meer informatie het gedeelte "Knooppunten selecteren of wissen in een XML-schema".  
 
@@ -132,4 +132,3 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 [Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)   
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md)
-

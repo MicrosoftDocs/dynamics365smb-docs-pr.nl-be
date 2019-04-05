@@ -1,23 +1,23 @@
 ---
 title: Werken met boekingsperioden en boekjaren | Microsoft Docs
-description: "Leren werken met boekhoudperioden om te definiëren wanneer uw bedrijf financiële prestaties rapporteert."
+description: Leren werken met boekhoudperioden om te definiëren wanneer uw bedrijf financiële prestaties rapporteert.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 08/13/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817186"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
 Boekhoudperioden, ook wel rapportageperioden genoemd, zijn perioden waarvoor een bedrijf of organisatie financiële prestaties rapporteert, bijvoorbeeld door de balans of resultatenrekening te genereren. Meestal verwijzen boekhoudperioden naar het boekjaar van het bedrijf, dat verschillende boekingsperioden zoals maanden of kwartalen kan bevatten.
@@ -66,7 +66,6 @@ Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten naar 
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met rapportageschema's](bi-how-work-account-schedule.md)  
   
-
 
 
 

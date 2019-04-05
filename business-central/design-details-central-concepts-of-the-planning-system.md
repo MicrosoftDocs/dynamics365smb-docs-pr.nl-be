@@ -2,22 +2,22 @@
 title: 'Ontwerpdetails: Centrale begrippen van het planningssysteem | Microsoft Docs'
 description: De planningsfuncties bevinden zich in een batchverwerking waarmee eerst de relevante artikelen en periode voor de planning worden geselecteerd en vervolgens mogelijke acties voor de gebruiker worden voorgesteld op basis van de vraag-aanbodsituatie en de planningsparameters van de artikelen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816803"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
@@ -237,7 +237,7 @@ Als de beschikbare voorraad kleiner is dan de veiligheidsvoorraad, wordt dit als
 In het algemeen zorgen uitzonderlijke ordervoorstellen ervoor dat de verwachte beschikbare voorraad nooit lager is dan de veiligheidsvoorraad. Dit betekent dat het voorgestelde aantal voldoende is om de veiligheidsvoorraad te dekken, zonder dat planningsparameters moeten worden overwogen. In sommige scenario's komen orderwijzigingen echter in aanmerking.  
 
 > [!NOTE]  
->  Het planningssysteem kan de veiligheidsvoorraad opzettelijk hebben verbruikt en vult deze vervolgens direct aan. Zie voor meer informatie het gedeelte Veiligheidsvoorraad kan worden verbruikt in [Ontwerpdetails: Voorraadprofielen laden](design-details-loading-the-inventory-profiles.md).
+>  Het planningssysteem kan de veiligheidsvoorraad opzettelijk hebben verbruikt en vult deze vervolgens direct aan. Zie [Veiligheidsvoorraad kan wordt verbruikt](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) voor meer informatie.
 
 ### <a name="attention"></a>Opmerking  
 De attentiewaarschuwing wordt in drie gevallen weergegeven:  
@@ -289,4 +289,3 @@ Hiermee wordt het overzicht afgesloten van centrale concepten die betrekking heb
 [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)   
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)
-

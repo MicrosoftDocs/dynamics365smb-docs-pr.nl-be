@@ -1,23 +1,23 @@
 ---
 title: Een configuratiepakket voorbereiden | Microsoft Docs
-description: "Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket."
+description: Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816441"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket.  
@@ -93,7 +93,7 @@ Gebruik het configuratiewerkblad voor het verzamelen en categoriseren van de geg
 3.  Kies in het veld **Regelsoort** de optie **Groep**. Voer in het veld **Naam** een beschrijvende naam in.  
 4.  Kies in het veld **Regelsoort** de optie **Tabel**. Selecteer in het veld **Tabel-id** de tabel die u wilt opnemen in het werkblad.  
 
-U kunt nu de tabellen toewijzen aan specifieke configuratiepakketten die u hebt gemaakt of die u wilt gaan maken. Zie voor meer informatie het gedeelte "Een tabel toewijzen aan een configuratiepakket".
+U kunt nu de tabellen toewijzen aan specifieke configuratiepakketten die u hebt gemaakt of die u wilt gaan maken. Zie [Een tabel aan een configuratiepakket toewijzen](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package) voor meer informatie.
 
 ## <a name="to-work-with-promoted-tables"></a>Werken met gepromoveerde tabellen  
 1. Selecteer het selectievakje **Gepromoveerde tabel** om een tabel aan te duiden die vaak worden gebruikt tijdens de installatie door een gemiddelde klant, bijvoorbeeld de tabel **Grootboekrekening**. Wanneer een tabel deze aanduiding bevat, kan een klant op eenvoudige wijze zijn werkblad zodanig filteren dat alleen de lijst met gepromoveerde tabellen wordt weergegeven die aandacht vereisen.  
@@ -103,7 +103,7 @@ U kunt nu de tabellen toewijzen aan specifieke configuratiepakketten die u hebt 
 Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de configuratie, kunt u de tabellen gemakkelijk toewijzen aan configuratiepakketten. U kunt een tabel aan slechts één pakket toewijzen. In de volgende procedure wijst u het pakket toe vanuit het configuratiewerkblad.  
 
 > [!NOTE]  
->  U kunt ook rechtstreeks een pakket maken en hier tabellen aan toevoegen. Zie voor meer informatie het gedeelte "Een configuratiepakket maken".
+>  U kunt ook rechtstreeks een pakket maken en hier tabellen aan toevoegen. Zie [Een configuratiepakket maken](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) voor meer informatie.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het configuratiewerkblad een regel of groep regels die u wilt toewijzen aan een configuratiepakket en kies vervolgens **Pakket toewijzen**.  
@@ -139,4 +139,3 @@ Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met h
 [Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)  
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

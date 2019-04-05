@@ -1,5 +1,5 @@
 ---
-title: "Klantenposten vereffenen om handmatig klantbetalingen te reconciliëren | Microsoft Docs"
+title: Klantenposten vereffenen om handmatig klantbetalingen te reconciliëren | Microsoft Docs
 description: Beschrijft hoe u kasontvangsten of terugbetalingen van klanten vereffent met een of meer openstaande klantposten en klantbetalingen reconcilieert.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816764"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Klantbetalingen handmatig reconciliëren
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten
 Wanneer u een bedrag ontvangt van een klant of een terugbetaling doet, moet u bedenken of de ontvangst of betaling moet worden vereffend om een of meer openstaande debet- of creditposten te sluiten. U kunt het exacte bedrag opgeven dat u wilt vereffenen. U kunt bijvoorbeeld gedeeltelijke betalingen vereffenen met klantenposten. Het sluiten van klantenposten garandeert dat gegevens zoals bijvoorbeeld klantstatistieken, rekeningoverzichten, en rente correct zijn.
 
-> [!NOTE]  
+> [!TIP]  
 >   Op de pagina **Klantenposten** betekent een rood lettertype dat de gerelateerde betaling over de vervaldatum is. Als te late betalingen een probleem worden, kunnen we u helpen de frequentie ervan te verminderen. U kunt de extensie **Voorspelling van te late betalingen** inschakelen, die een voorspellend model gebruikt dat is ontwikkeld in Azure Machine Learning om de timing van betalingen te voorspellen. Deze voorspellingen helpen u openstaande tegoeden te reduceren en uw inningsstrategie te verfijnen. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen. Zie [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md) voor meer informatie.  
 
 U kunt klantposten vereffenen op verschillende manieren:
 
-* Door gegevens op bepaalde pagina's in te voeren, zoals de pagina's **Ontvangstendagboek** of **Dagboek betalingsreconciliatie**.
-* Vanuit verkoopcreditnotadocumenten.
-* Vanuit klantposten worden after sales-documenten geboekt, maar niet vereffend.
+* Door gegevens op specifieke pagina's in te voeren:
+    * De pagina **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * De pagina **Betalingsregistratie**. Zie [Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) voor meer informatie.
+    * Het **Ontvangstendagboek**. Dit wordt hieronder beschreven.
+* Door het veld **Vereffeningsnr.** op verkoopcreditnotadocumenten in te vullen. Dit wordt hieronder beschreven.
+* Door de actie **Vereffenings-id instellen** op een klantenpost te gebruiken. Dit wordt hieronder beschreven.
 
 > [!NOTE]  
 >   Als het veld **Vereffeningsmethode** op de klantenkaart **Saldo** bevat, worden betalingen handmatig vereffend met de oudste openstaande creditpost als u niet handmatig een andere post opgeeft. Als de vereffeningsmethode **Handmatig** is, moet u posten altijd handmatig vereffenen.
 
-Op de pagina **Ontvangstendagboek** kunt u klantbetalingen handmatig vereffenen. Een ontvangstendagboek is een soort algemeen dagboek, waarmee u transacties boekt naar grootboek-, bank-, klanten-, leveranciers- en vaste-activumrekeningen. U kunt de betaling met een of meer debetposten vereffenen wanneer u de betaling boekt of u kunt deze later vanuit de geboekte posten vereffenen.
-
-U kunt klantbetalingen en leveranciersbetalingen op de pagina **Dagboek betalingsreconciliatie** vereffenen door middel van functies voor import van bankafschriften, automatische vereffening en bankrekeningreconciliatie. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md). U kunt klantbetalingen ook reconciliëren op basis van een lijst met onbetaalde verkoopdocumenten op de pagina **Betalingsregistratie**. Zie [Klantbetalingen van een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) voor meer informatie.
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Een ontvangstendagboek invullen en boeken
+Een ontvangstendagboek is een soort algemeen dagboek, waarmee u transacties boekt naar grootboek-, bank-, klanten-, leveranciers- en vaste-activumrekeningen. U kunt de betaling met een of meer debetposten vereffenen wanneer u de betaling boekt of u kunt deze later vanuit de geboekte posten vereffenen.
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Dagboek bewerken**.
 3. Selecteer in het veld **Batchnaam** de juiste batch.
@@ -159,4 +159,3 @@ Als u een vereffening corrigeert, worden er stornoposten gemaakt die identiek zi
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

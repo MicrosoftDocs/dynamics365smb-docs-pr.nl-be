@@ -2,23 +2,23 @@
 title: 'Ontwerpdetails: De rol van het tijdsinterval | Microsoft Docs'
 description: Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdskader te verzamelen om een gezamenlijke voorzieningenorder te maken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ff748a192d8d1650a708ab70ec33ccc7bfd53c48
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816312"
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Ontwerpdetails: De rol van het tijdsinterval
 Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdskader te verzamelen om een gezamenlijke voorzieningenorder te maken.  
@@ -36,4 +36,3 @@ Het doel van het tijdsinterval is vraaggebeurtenissen binnen het tijdskader te v
  [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)   
  [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
  [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Financiële processen instellen| Microsoft Docs"
-description: "Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften."
+title: Financiële processen instellen| Microsoft Docs
+description: Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
-ms.contentlocale: nl-be
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816907"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Om u snel aan de slag te helpen, bevat [!INCLUDE[d365fin](includes/d365fin_md.md)] standaardconfiguraties voor de meeste financiële processen. U kunt de configuraties aanpassen aan uw bedrijf. Vanuit het rolcentrum kunt u bijvoorbeeld gebruik maken van een begeleide instelling om het btw-tarief voor uw locatie in te stellen.  
@@ -56,4 +56,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

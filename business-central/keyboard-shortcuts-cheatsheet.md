@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: nl-be
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816179"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Snelle naslag van toetsenbordsneltoetsen
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Kopiëren en plakken**|Ctrl+C<br />Ctrl+V<br />F8|Rijen kopiëren<br />Rijen plakken<br />Veld erboven naar huidige rij kopiëren|
 |**Zoeken, filteren en sorteren**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Zoeken in-/uitschakelen<br />Filterdeelvenster in-/uitschakelen; focus op veldfilters<br />Filterdeelvenster in-/uitschakelen; focus op totalenfilters<br />Filteren op geselecteerde celwaarde<br />Filter op een geselecteerd veld toevoegen<br />Filters opnieuw instellen|
 |**Rapportvoorbeeld**|Pijl omhoog/pijl omlaag<br />Pijl rechts/pijl links<br />Ctrl+Home/End<br />Page Up/Down|Omlaag en omlaag schuiven op de pagina<br />Naar rechts/links schuiven <br />Naar de eerste/laatste pagina gaan<br />Naar de vorige/volgende pagina gaan|
-

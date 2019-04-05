@@ -1,6 +1,6 @@
 ---
-title: "Werken met financiële overzichten in Excel | Microsoft Docs"
-description: "Leren hoe u de financiële overzichten in Microsoft Excel kunt openen vanuit Business Central voor een betere analyse."
+title: Werken met financiële overzichten in Excel | Microsoft Docs
+description: Leren hoe u de financiële overzichten in Microsoft Excel kunt openen vanuit Business Central voor een betere analyse.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816568"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Financiële overzichten analyseren in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u KPI's bekijken en overzichten krijgen van de financiële status van het bedrijf. U kunt ook lijsten in Excel openen en de gegevens daar analyseren. Maar u kunt ook zware financiële overzichten exporteren, zoals de balans of resultatenrekening naar Excel, de gegevens analyseren en de rapporten afdrukken.  
@@ -46,4 +46,3 @@ Met de invoegtoepassing kunt u up-to-date gegevens krijgen vanuit [!INCLUDE[d365
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Werken met Business Central](ui-work-product.md)  
-

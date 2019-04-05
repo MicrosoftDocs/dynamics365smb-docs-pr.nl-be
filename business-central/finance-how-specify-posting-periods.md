@@ -2,24 +2,23 @@
 title: Boekingsperioden opgeven| Microsoft Docs
 description: U geeft boekingsbegin- en einddatums op om in te stellen wanneer gebruikers naar het grootboek kunnen boeken.
 services: project-madeira
-documentationcenter: 
-author: jswymer
-manager: edupont
-editor: 
+documentationcenter: ''
+author: SorenGP
+editor: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2018
-ms.author: jswymer
+ms.date: 03/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4d517fe0d4162815c3ac39e4fed17f6737370d87
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c7aa965f952a4d03ea5c74fe09e59c076a87275a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816933"
 ---
 # <a name="specify-posting-periods"></a>Boekingsperioden opgeven
 Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek kunnen boeken.  
@@ -29,10 +28,9 @@ Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek ku
 2. Op de pagina **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
 
 > [!NOTE]  
->   Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers op de pagina **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven op de pagina **Grootboekinstellingen**. Zie voor meer informatie het gedeelte 'Tijdsbeperkingen voor gebruikers instellen' in [Gebruikers en machtigingen beheren](ui-how-users-permissions.md).
+>   Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers op de pagina **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven op de pagina **Grootboekinstellingen**. Zie [Tijdsbeperkingen voor gebruikers instellen](ui-how-users-permissions.md#to-set-up-user-time-constraints) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

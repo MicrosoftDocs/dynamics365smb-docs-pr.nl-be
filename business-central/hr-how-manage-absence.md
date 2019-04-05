@@ -2,7 +2,7 @@
 title: Werknemersafwezigheid beheren | Microsoft Docs
 description: Beschrijft hoe u werknemersafwezigheid registreert en afwezigheidsstatistieken analyseert.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816990"
 ---
 # <a name="manage-employee-absence"></a>Werknemersafwezigheid beheren
 Als u de afwezigheid van een werknemer wilt beheren, moet u de afwezigheid registreren op de pagina **Afwezigheidsregistratie**. Het kan dan op verschillende manieren voor analyse- en rapportagedoeleinden worden weergegeven.
@@ -73,4 +73,3 @@ U kunt werknemersafwezigheid per dag of met een ander interval dat voldoet aan d
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)
-

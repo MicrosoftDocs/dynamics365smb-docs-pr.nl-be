@@ -2,7 +2,7 @@
 title: De extensie C5-gegevensmigratie gebruiken | Microsoft Docs
 description: Gebruik deze extensie om klanten, leveranciers, artikelen en grootboekrekeningen te migreren van Microsoft Dynamics C5 2012 naar Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816665"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>De extensie C5-gegevensmigratie
 Deze extensie maakt het eenvoudidiger om klanten, leveranciers, artikelen en uw grootboekrekeningen van Microsoft Dynamics C5 2012 te migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt historische posten voor grootboekrekeningen ook migreren.
 
@@ -96,6 +95,9 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 > [!Note]
 > Historische G/L-transacties worden iets anders behandeld. Wanneer u gegevens migreert, stelt u de parameter **Huidige periode** in. Deze parameter bepaalt hoe G/L-transacties worden verwerkt. Transacties na deze datum worden afzonderlijk gemigreerd. Transacties vóór deze datum worden bijeengevoegd per rekening en als één bedrag gemigreerd. Stel dat er transacties zijn in 2015, 2016, 2017 en 2018, en dat u 1 januari 2017 opgeeft in het veld Huidige periode. Voor elke rekening worden bedragen voor transacties op of vóór 31 december 2106 in één dagboekregel gecombineerd voor elke grootboekrekening. Alle transacties na deze datum worden afzonderlijk gemigreerd.
 
+## <a name="file-size-requirements"></a>Vereisten voor bestandsgrootte
+Het grootste bestand dat u kunt uploaden naar [!INCLUDE[d365fin](includes/d365fin_md.md)] is 150 MB. Als het bestand dat u uit C5 exporteert, groter is, overweeg dan gegevens in meerdere bestanden te migreren. Exporteer bijvoorbeeld een of twee typen entiteiten uit C5, zoals klanten en leveranciers, naar een bestand en exporteer artikelen naar een ander bestand, enzovoort. U kunt afzonderlijke bestanden importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 ## <a name="to-migrate-data"></a>Gegevens te migreren
 Er zijn slechts enkele stappen nodig om gegevens vanuit C5 te exporteren en deze te importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -148,4 +150,3 @@ U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kieze
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Aan de slag](product-get-started.md)
-

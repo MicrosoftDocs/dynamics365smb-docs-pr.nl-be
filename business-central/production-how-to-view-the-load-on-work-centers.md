@@ -2,22 +2,22 @@
 title: Werklast in afdelingen en bewerkingsplaatsen weergeven | Microsoft Docs
 description: Bekijk via de kaart **Afdeling** de werklast voor afdelingen als gevolg van vrijgegeven productieorders.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816781"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>De werklast in afdelingen en bewerkingsplaatsen weergeven
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.    
@@ -35,4 +35,3 @@ Met de velden **Weergeven per** en **Weergeven als** op het sneltabblad **Opties
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Yodlee Bank Feeds instellen| Microsoft Docs
 description: U kunt betalingsgegevens naar elke gegevensindeling converteren die uw bank vereist en het exporteren of importeren van bankbestanden inschakelen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817137"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De service Envestnet Yodlee Bank Feeds instellen
 U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **Betalingsreconciliatiedagboek** te vullen, zodat u betalingen kunt vereffenen en de bankrekening kunt reconciliëren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **
 De feedservice van de Envestnet Yodlee Bank wordt geïnstalleerd als een extensie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] en kan worden ingeschakeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
 
 > [!NOTE]
-> De service Envestnet Yodlee Bank Feeds wordt alleen ondersteund in de V.S., Canada en het V.K.
+> De service Envestnet Yodlee Bank Feeds wordt alleen ondersteund in de V.S., Canada en het V.K.<br /><br />
+> De functionaliteit wordt alleen ondersteund in de online versie van Business Central. Als u deze functionaliteit on-premise wilt gebruiken, moet u een cobrand-account verkrijgen bij Envestnet Yodlee.
 
 Nadat u de bankfeedservice hebt ingeschakeld, moet u een bankrekening koppelen aan de online bankrekening waar de feed vandaan zal komen. U koppelt bankrekeningen aan online bankrekeningen in de volgende scenario's:
 
@@ -46,6 +47,9 @@ Als de bankfeedservice is ingeschakeld, kunt u een bankrekening instellen om elk
 
 De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gerelateerde online bankrekening. Zie de volgende procedure.  
 
+> [!NOTE]
+> Als u de begeleide instelling **Bedrijfsinstelling** gebruikt, schakelt u de service in door het selectievakje **Een bankfeedservice gebruiken** te selecteren. Zie voor meer informatie [Nieuwe bedrijven maken in Business Central](about-new-company.md).
+
 ## <a name="to-create-a-new-linked-bank-account"></a>Een nieuwe gekoppelde bankrekening maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de betreffende bankrekening en kies vervolgens **Nieuwe gekoppelde bankrekening maken**. De pagina **Bankrekening koppelen** opent na een aantal ogenblikken.
@@ -61,7 +65,7 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
     > Als u meer dan één online bankrekening bij de bank hebt, moet u er extra bankrekeningen voor maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie stap 8 t/m 10.  
 
     Nadat het proces is voltooid, wordt de naam van de bank in het deelvenster **Mijn rekeningen** op het tabblad **Gekoppeld** weergegeven. Het nummer tussen haakjes geeft aan hoeveel online bankrekeningen zijn gekoppeld.  
-7. Kies de knop **Ok**.
+7. Kies de knop **OK**.
 
     Als u slechts één online bankrekening koppelt, wordt de pagina **Bankrekeningkaart** geopend en wordt de naam van de online bankrekening weergegeven. In dit geval is de koppeling van de bankrekening voltooid. Alleen de bankrekening hoeft nog te worden ingesteld. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 
@@ -120,4 +124,3 @@ Op de pagina **Betalingsreconciliatiedagboek** worden elk uur nieuwe betalingen 
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

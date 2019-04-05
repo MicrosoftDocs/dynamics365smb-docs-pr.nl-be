@@ -1,24 +1,24 @@
 ---
 title: 'Procedure: Berichtsjablonen beheren | Microsoft Docs'
-description: "Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over stappen die ze moeten zetten, of om ze te informeren over de status van werkstroomstappen. U stelt in wie berichten ontvangt en wanneer door goedkeuringsgebruikers, een planning van gebruikersberichten en de betrokken werkstroomantwoorden in te stellen om de ontvanger van het bericht te definiëren."
+description: Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over stappen die ze moeten zetten, of om ze te informeren over de status van werkstroomstappen. U stelt in wie berichten ontvangt en wanneer door goedkeuringsgebruikers, een planning van gebruikersberichten en de betrokken werkstroomantwoorden in te stellen om de ontvanger van het bericht te definiëren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817078"
 ---
 # <a name="manage-notification-templates"></a>Berichtsjablonen beheren
 Berichten worden verzonden naar werkstroomgebruikers om ze te informeren over stappen die ze moeten zetten of om ze te informeren over de status van werkstroomstappen. U stelt in wie berichten ontvangt en wanneer door goedkeuringsgebruikers, een planning van gebruikersberichten en de betrokken werkstroomantwoorden in te stellen om de ontvanger van het bericht te definiëren. Zie voor meer informatie [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md).  
@@ -67,13 +67,13 @@ De drie soorten berichtsjablonen, **Nieuwe Record**, **Goedkeuring** en **Verval
 Parameterwaarden worden automatisch in berichten ingevoegd op basis van het soort berichtsjabloon.  
 
 #### <a name="new-record"></a>Nieuwe record  
- ![NAV&#95;bericht&#95;sjabloon&#95;nieuw&#95;record&#95;type](media/nav_notification_template_new_record.png "NAV_bericht_sjabloon_nieuwe_record")  
+ ![NAV&#95;notification&#95;template&#95;new&#95;record&#95;type](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
 
 #### <a name="approval"></a>Goedkeuring  
- ![NAV&#95;bericht&#95;sjabloon&#95;goedkeuring&#95;type](media/nav_notification_template_approval_type.png "NAV_bericht_sjabloon_goedkeuring_type")  
+ ![NAV&#95;notification&#95;template&#95;approval&#95;type](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
 
 #### <a name="overdue"></a>Achterstallig  
- ![NAV&#95;bericht&#95;achterstallig&#95;type](media/nav_notification_overdue_type.png "NAV_bericht_achterstallig_type")  
+ ![NAV&#95;notification&#95;overdue&#95;type](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
 
 ## <a name="see-also"></a>Zie ook  
  [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)   
@@ -83,4 +83,3 @@ Parameterwaarden worden automatisch in berichten ingevoegd op basis van het soor
  [Werkstromen maken](across-how-to-create-workflows.md)   
  [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)   
  [Werkstroom](across-workflow.md)   
-

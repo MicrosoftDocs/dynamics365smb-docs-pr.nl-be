@@ -2,22 +2,22 @@
 title: 'Ontwerpdetails: Tabelstructuur | Microsoft Docs'
 description: Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnieuw wordt ontworpen, is het belangrijk om de tabelstructuur te begrijpen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816175"
 ---
 # <a name="design-details-table-structure"></a>Ontwerpdetails: Tabelstructuur
 Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnieuw wordt ontworpen, is het belangrijk om de tabelstructuur te begrijpen.  
@@ -26,19 +26,19 @@ Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnie
  Er zijn drie nieuwe tabellen ontworpen om dimensiesetposten te beheren.  
 
 ### <a name="table-480-dimension-set-entry"></a>Tabel 480 Dimensiesetpost  
- Tabel 480 **Dimensiesetpost** is een nieuwe tabel. U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, kunt u ze niet meer verwijderen of wijzigen. Het verwijderen van gegevens vereist dat u alle gevallen controleert van de dimensieset-id in de hele database, inclusief partneroplossingen.  
+ U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, kunt u ze niet meer verwijderen of wijzigen.
 
-|Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
+|Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
 |---------------|----------------|---------------|-------------|  
-|1|**Id**|Geheel getal|>0,0 is gereserveerd voor de lege dimensieset. Verwijst naar veld 3 in tabel 481.|  
+|1|**Id**|Integer|>0,0 is gereserveerd voor de lege dimensieset. Verwijst naar veld 3 in tabel 481.|  
 |2|**Dimensiecode**|Code 20|Tabelrelatie met tabel 348.|  
 |3|**Dimensiewaardecode**|Code 20|Tabelrelatie met tabel 349.|  
 |4|**Dimensiewaarde-id**|Geheel getal|Verwijst naar veld 12 in tabel 349. Het is de secundaire sleutel die wordt gebruikt wanneer tabel 481 wordt doorlopen.|  
 |5|**Dimensienaam**|Tekst 30|CalcField. Opzoeken in tabel 348.|  
 |6|**Dimensiewaardenaam**|Tekst 30|CalcField. Opzoeken in tabel 349.|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Tabel 481 Boomstructuurpunt dimensieset  
- Tabel 481 **Boomstructuurpunt dimensieset** is een nieuwe tabel. U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een dimensieset. Als de dimensieset niet wordt gevonden, wordt een nieuwe set gemaakt.  
+### <a name="table-481-dimension-set-tree-node"></a>Tabel 481 Boomstructuurpunt dimensieset  
+ U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een dimensieset. Als de dimensieset niet wordt gevonden, wordt een nieuwe set gemaakt.  
 
 |Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
 |---------------|----------------|---------------|-------------|  
@@ -47,10 +47,10 @@ Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnie
 |3|**Dimensieset-id**|Geheel getal|AutoIncrement. Gebruikt in veld 1 in tabel 480.|  
 |4|**In gebruik**|Boolean|Onwaar indien niet in gebruik.|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Herklass. dimensiesetbuffer  
- Tabel 482 **Herklass. dimensiesetbuffer** is een nieuwe tabel. De tabel wordt gebruikt om een dimensieset-id te wijzigen. Het is vereist wanneer u een dimensiewaardecode en een nieuwe dimensiewaardecode bewerkt, bijvoorbeeld in de tabel **Art.-herindelingsdagboek**.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Herklass. dimensiesetbuffer  
+ De tabel wordt gebruikt als u een dimensiewaardecode wijzigt, bijvoorbeeld op een artikelpost met de pagina **Artikelherindelingsdagboek**.  
 
-|Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
+|Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
 |---------------|----------------|---------------|-------------|  
 |1|**Dimensiecode**|Code 20|Tabelrelatie met tabel 348.|  
 |2|**Dimensiewaardecode**|Code 20|Tabelrelatie met tabel 349.|  
@@ -71,7 +71,7 @@ Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnie
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensieset-id**|Geheel getal|Verwijst naar veld 1 in tabel 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Wijzigingen in tabel 83 Artikeldagboekregel  
+### <a name="changes-to-table-83-item-journal-line"></a>Wijzigingen in tabel 83 Artikeldagboekregel  
  Twee nieuwe velden zijn toegevoegd aan tabel 83 **Artikeldagboekregel**.  
 
 |Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
@@ -79,14 +79,14 @@ Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnie
 |480|**Dimensieset-id**|Geheel getal|Verwijst naar veld 1 in tabel 480.|  
 |481|**Nieuwe dimensieset-id**|Geheel getal|Verwijst naar veld 1 in tabel 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Wijzigingen in tabel 349 Dimensiewaarde  
+### <a name="changes-to-table-349-dimension-value"></a>Wijzigingen in tabel 349 Dimensiewaarde  
  Er is een nieuw veld toegevoegd aan tabel 349 **Dimensiewaarde**.  
 
 |Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensiewaarde-id**|Geheel getal|AutoIncrement. Gebruikt voor referenties in tabel 480 en tabel 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabellen met het nieuwe veld 480 Dimensieset-id  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabellen met het nieuwe veld 480 Dimensieset-id  
  Er is een nieuw veld, 480 **Dimensieset-id**, toegevoegd aan de volgende tabellen. Voor de tabellen waarin de geboekte gegevens worden opgeslagen, levert het veld alleen een niet-bewerkbare weergave van dimensies, die wordt gemarkeerd als Meer details. Voor de tabellen waarin werkdocumenten worden opgeslagen, is het veld bewerkbaar. Voor de buffertabellen die intern worden gebruikt, zijn geen bewerkbare of niet-bewerkbare voorzieningen nodig.  
 
  Veld 480 kan niet worden bewerkt in de volgende tabellen.  
@@ -195,4 +195,3 @@ Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnie
  [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   
  [Ontwerpdetails: Codeunit 408 Dimensiebeheer](design-details-codeunit-408-dimension-management.md)   
  [Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

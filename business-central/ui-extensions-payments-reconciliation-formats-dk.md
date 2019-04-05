@@ -2,7 +2,7 @@
 title: De extensie Betalingen en afstemmingen (DK) gebruiken | Microsoft Docs
 description: Deze extensie maakt het eenvoudig bestanden te exporteren die vooraf zijn ingedeeld om te voldoen aan de vereisten van de bank betreffende elektronische verzendingen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c8b829a69547ae8791e763e399012649dc750359
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816571"
 ---
-
 # <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
 Snelle, foutloze betalingen doen door bestanden te exporteren die specifiek voor uitwisselingen met uw leverancier of bank zijn ingedeeld. Deze bestanden versnellen de betalings- en afstemmingprocessen, en voorkomen fouten die kunnen optreden als u handmatig de gegevens op een bankwebsite invoert.  
 
@@ -106,4 +105,3 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 [SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-

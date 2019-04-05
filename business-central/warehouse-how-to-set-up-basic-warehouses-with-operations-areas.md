@@ -2,22 +2,22 @@
 title: Standaard magazijnen met bewerkingsgebieden instellen | Microsoft Docs
 description: Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u drie standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816818"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u de volgende standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren:  
@@ -35,7 +35,7 @@ Als u deze pagina's met interne bewerkingen, zoals picken en het naar productie 
 - De standaard opslaglocatiestructuren definiëren voor componenten en eindartikelen die van en naar bewerkingsbronnen stromen.  
 - Maak Naar- en Van-opslaglocaties die aan specifieke bewerkingsbronnen worden toegewezen om te voorkomen dat de artikelen worden gepickt voor uitgaande documenten.
 
-Opslaglocatiecodes die zijn ingesteld op de vestigingskaarten definiëren alleen een standaard magazijnwerkstroom voor bepaalde activiteiten, zoals de componenten in een montageafdeling. Er is extra functionaliteit die ervoor zorgt dat artikelen niet door andere activiteiten kunnen worden verplaatst of gepickt, wanneer deze in een bepaalde opslaglocatie worden geplaatst. Zie de sectie Specifieke componentopslaglocaties maken voor meer informatie.
+Opslaglocatiecodes die zijn ingesteld op de vestigingskaarten definiëren alleen een standaard magazijnwerkstroom voor bepaalde activiteiten, zoals de componenten in een montageafdeling. Er is extra functionaliteit die ervoor zorgt dat artikelen niet door andere activiteiten kunnen worden verplaatst of gepickt, wanneer deze in een bepaalde opslaglocatie worden geplaatst. Zie voor meer informatie [Specifieke componentopslaglocaties maken](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 De volgende procedures zijn gebaseerd op het instellen van standaard magazijnactiviteiten rond een productiegebied. De stappen zijn vergelijkbaar voor andere bewerkingsgebieden, zoals assemblage, servicebeheer en taken.  
 
@@ -142,4 +142,3 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

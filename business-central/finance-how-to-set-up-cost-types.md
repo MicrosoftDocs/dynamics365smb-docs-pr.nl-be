@@ -2,7 +2,7 @@
 title: Een kostensoortschema instellen | Microsoft Docs
 description: Kostensoortschema's lijken op rekeningschema's in het grootboek.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817037"
 ---
 # <a name="set-up-cost-types"></a>Kostensoorten instellen
 Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het kostensoortschema op de volgende manieren instellen:  
@@ -64,4 +64,3 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
 [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
 [Kostprijsboekhouding](finance-about-cost-accounting.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

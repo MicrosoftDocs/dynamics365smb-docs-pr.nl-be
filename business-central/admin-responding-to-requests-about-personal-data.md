@@ -8,14 +8,13 @@ ms.custom: na
 ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816755"
 ---
-
 # <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt ingedeeld en zeker weet dat ze kloppen, kan een beheerder op aanvragen reageren met behulp van de opties onder **Gegevensprivacy** in het rolcentrum **Gebruikers, gebruikersgroepen en machtigingen beheren** of, als u de Windows-client gebruikt, in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
 
@@ -63,4 +62,3 @@ Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleef
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Wijzigingen registreren](across-log-changes.md)  
 [Aanvragen van gegevensonderwerpen voor de Algemene verordening gegevensbescherming](/microsoft-365/compliance/gdpr-data-subject-requests)  
-

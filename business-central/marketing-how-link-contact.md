@@ -2,7 +2,7 @@
 title: Contacten koppelen aan klanten en leveranciers| Microsoft Docs
 description: Beschrijft hoe u een contact met een klant, leverancier of bankrekening van hetzelfde bedrijf koppelt, zodat u algemene gegevens kunt synchroniseren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2613e32873c91fe24c4734456338bb1f7e18849d
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816741"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Contacten koppelen aan klanten, leveranciers en bankrekeningen
 Als u een contact en een klant, leverancier of bankrekening voor hetzelfde bedrijf hebt, kunt u de twee entiteiten koppelen. Als u de twee entiteiten koppelt, kunt u gegevens synchroniseren die gemeenschappelijk zijn, zodat deze zich beide op dezelfde plaats bevinden.
@@ -34,4 +34,3 @@ Als u een contact en een klant, leverancier of bankrekening voor hetzelfde bedri
 [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

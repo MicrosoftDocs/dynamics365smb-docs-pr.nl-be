@@ -1,6 +1,6 @@
 ---
 title: Boekingsperioden en boekjaren maken | Microsoft Docs
-description: "U moet een boekjaar openen en boekhoudperioden definiëren voordat u in een boekjaar kunt boeken."
+description: U moet een boekjaar openen en boekhoudperioden definiëren voordat u in een boekjaar kunt boeken.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 11/21/2018
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816650"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Een nieuw boekjaar openen en boekingsperioden maken
 Voordat u naar een boekjaar kunt boeken, moet u het boekjaar openen en de boekhoudperioden opgeven.  
@@ -39,4 +39,3 @@ De boekhoudperioden worden toegevoegd aan de pagina met de velden **Begindatum**
 [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

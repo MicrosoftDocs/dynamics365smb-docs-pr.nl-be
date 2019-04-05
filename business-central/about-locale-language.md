@@ -1,6 +1,6 @@
 ---
 title: Meerdere talen en lokalisatie | Microsoft Docs
-description: "Leer hoe taal en landinstellingen uw ervaring in Business Central beïnvloeden."
+description: Leer hoe taal en landinstellingen uw ervaring in Business Central beïnvloeden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816657"
 ---
 # <a name="changing-language-and-locale"></a>Taal en landinstellingen wijzigen
 
@@ -52,4 +52,3 @@ Het is eenvoudig: schuif naar de onderzijde van de browserpagina en kies het wer
 ## <a name="see-also"></a>Zie ook  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Aan de slag](product-get-started.md)  
-

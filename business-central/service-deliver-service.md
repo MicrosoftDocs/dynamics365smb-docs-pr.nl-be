@@ -2,7 +2,7 @@
 title: Overzicht van taken om service te leveren | Microsoft Docs
 description: Hier wordt een overzicht van de taken gegeven die u moet instellen om ervoor te zorgen dat u kwaliteitsservice levert en afspraken met klanten nakomt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816966"
 ---
 # <a name="delivering-service"></a>Service leveren
 Met [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikt u over functies waarmee u services kunt leveren op basis van de contracten die u hebt opgesteld en de afgesloten serviceorders die u dient na te komen. Uw servicetechnici of planners kunnen de uitstaande serviceorders gemakkelijk vinden indien ze **Planbord** gebruiken. In het **planbord** wordt op een overzichtelijke manier aangegeven welke orders in behandeling zijn en welke voltooid zijn.  
@@ -46,4 +46,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Service plannen](service-plan-service.md)  
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
 [Projecten beheren](projects-manage-projects.md)  
-

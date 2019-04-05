@@ -2,7 +2,7 @@
 title: Cashflowanalyse instellen| Microsoft Docs
 description: De grafieken in het rolcentrum Rekeningen instellen om de geldstroom in uw bedrijf te helpen analyseren, inclusief kosten en inkomsten, liquiditeit en kasontvangsten minus contante betalingen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816337"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
 Als u wat hulp wilt bij het bepalen wat u met uw contant geld moet doen, kunt de diagrammen bekijken in het rolcentrum Accountant:  
@@ -56,7 +56,7 @@ Om u te helpen aan de slag te gaan zijn er enkele rekeningen en cashflowinstelli
 Als u deze wilt instellen, kunt u zoeken naar **cashflowrekeningen**, de koppeling kiezen en vervolgens de velden invullen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Herhaal deze stappen voor **cashflowinstellingen**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Cashflowprognoses instellen
-In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met de begeleide instelling kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) moet worden ingeschakeld.  
+In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met gids kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) moet worden ingeschakeld.  
 
 Cashflowprognoses kunnen Cortana Intelligence gebruiken om documenten met een vervaldatum in de toekomst op te nemen. Het resultaat is een uitvoerigere voorspelling. De verbinding met Cortana Intelligence is al voor u ingesteld. U hoeft het alleen in te schakelen. Wanneer u zich bij [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldt, verschijnt er een melding in een blauwe balk en wordt er een koppeling verschaft naar de standaardcashflowinstellingen. De melding wordt slechts eenmaal weergegeven. Als u de melding sluit, maar besluit Cortana Intelligence in te schakelen, kunt u de begeleide instelling gebruiken of een handmatig proces.  
 
@@ -73,7 +73,7 @@ De begeleide instelling gebruiken:
 Een handmatig proces gebruiken:  
 
 1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
-2. Vouw het sneltabblad **Cortana Intelligence** uit en kies vervolgens het selectievakje **Cortana Intelligence ingeschakeld**.  
+2. Vouw het sneltabblad **Cortana Intelligence** uit en kies het selectievakje **Cortana Intelligence Geactiveerd**.  
 3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
 4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
@@ -81,7 +81,7 @@ Een handmatig proces gebruiken:
 >   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Cortana Intelligence niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  
 
 ## <a name="AnchorText"> </a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
-U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellende model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
+U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Cortana Intelligence-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Zoek naar **Prognosemodel voor Microsoft Business Central** en open het model in Azure Machine Learning Studio.  
@@ -95,4 +95,3 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

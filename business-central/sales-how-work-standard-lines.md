@@ -2,7 +2,7 @@
 title: Standaardregels instellen voor periodieke verkoop en inkopen | Microsoft Docs
 description: U kunt verkoopregels en inkoopregels instellen die u vaak maakt en deze vervolgens invoeren op verkoop- en inkoopdocumenten om de regels snel te vullen met standaardgegevens.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/24/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4285603b736cbd585c839a533d325384ba27cd15
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817147"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  
@@ -50,7 +50,7 @@ Als er terugkerende verkoopregels voor de klant zijn, kunt u deze invoegen op al
 4. Kies op de pagina **Periodieke verkoopregels** de opzoekknop in het veld **Code** en selecteer een set standaardverkoopregels.
 
     > [!NOTE]
-    > Als u de set doorlopende verkoopregels samen met de batchverwerking **Periodieke verkoopfacturen maken** wilt gebruiken, moet u ook de velden **Geldig vanaf datum** en **Geldig tot datum** op de pagina **Periodieke verkoopregels** invullen. Zie voor meer informatie het gedeelte "Meerdere verkoopfacturen maken op basis van standaardverkoopregels".
+    > Als u de set doorlopende verkoopregels samen met de batchverwerking **Periodieke verkoopfacturen maken** wilt gebruiken, moet u ook de velden **Geldig vanaf datum** en **Geldig tot datum** op de pagina **Periodieke verkoopregels** invullen. Zie voor meer informatie [Meerdere verkoopfacturen maken op basis van standaardverkoopregels](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines).
 
 5. Kies de knop **OK** om de standaardverkoopregels op de factuur in te voegen, waar u deze zo kunt gebruiken of de gegevens kunt bewerken.
 
@@ -70,4 +70,3 @@ Verkoopfacturen worden gemaakt voor klanten met de opgegeven standaard klantverk
 ## <a name="see-also"></a>Zie ook  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

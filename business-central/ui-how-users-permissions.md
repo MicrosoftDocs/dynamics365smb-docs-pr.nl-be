@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816678"
 ---
 # <a name="managing-users-and-permissions"></a>Gebruikers en machtigingen beheren
 Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://aka.ms/CreateOffice365Users).
 
-Als gebruikers in Office 365 zijn gemaakt, kunnen ze op de pagina **Gebruikers** worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aan gebruikers worden machtigingensets toegewezen op basis van het plan dat aan de gebruiker is toegewezen in Office 365. Voor gedetailleerde informatie over licenties raadpleegt u de [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing).
+Als gebruikers in Office 365 zijn gemaakt, kunnen ze op de pagina **Gebruikers** worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aan gebruikers worden machtigingensets toegewezen op basis van het plan dat aan de gebruiker is toegewezen in Office 365. Zie voor gedetailleerde informatie over licenties [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing).
 
 U kunt vervolgens machtigingensets aan gebruikers toewijzen om te bepalen tot welke databaseobjecten (en daardoor tot welke UI-elementen) zij toegang hebben en in welke bedrijven. U kunt gebruikers toevoegen aan gebruikersgroepen. Hierdoor wordt het gemakkelijker om dezelfde machtigingensets aan meerdere gebruikers toe te wijzen.
 
 Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de database. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Vanuit de pagina **Gebruikerskaart**, kunt u de pagina **Effectieve machtigingen** openen om te zien welke machtigingen de gebruiker heeft en welke machtigingensets aan hen zijn verleend. Hier kunt u machtigingsdetails wijzigen voor machtigingensets van het type **Door gebruiker gedefinieerd**. Zie voor meer informatie het gedeelte "Machtigingen van een gebruiker weergeven of bewerken".
+Vanuit de pagina **Gebruikerskaart**, kunt u de pagina **Effectieve machtigingen** openen om te zien welke machtigingen de gebruiker heeft en welke machtigingensets aan hen zijn verleend. Hier kunt u machtigingsdetails wijzigen voor machtigingensets van het type **Door gebruiker gedefinieerd**. Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Beheerders kunnen de pagina **Gebruikersinstellingen** gebruiken om perioden te definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld.
 
@@ -38,7 +38,7 @@ Een ander systeem dat definieert waartoe gebruikers toegang hebben, is de instel
 
 Elke nieuwe gebruiker die wordt gemaakt voor uw Office 365-abonnement, wordt op de pagina **Gebruikers** toegevoegd.
 
-## <a name="to-group-users-in-a-user-group"></a>Gebruikers in gebruikersgroepen samenvoegen
+## <a name="to-group-users-in-user-groups"></a>Gebruikers in gebruikersgroepen samenvoegen
 U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren voor groepen gebruikers in uw bedrijf.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
@@ -46,7 +46,7 @@ U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren vo
 3. Kies op de pagina **Gebruikersgroep** de actie **Gebruikersgroepsleden**.
 4. Kies op de pagina **Gebruikersgroep** de actie **Gebruikers toevoegen**.
 
-Wanneer gebruikers of gebruikersgroepen worden gemaakt, moet u machtigingensets aan elke groep toewijzen om te definiëren tot welk object een gebruiker toegang heeft. Eerst moet u de juiste machtigingen ordenen in machtigingensets. Zie voor meer informatie het gedeelte "Een machtigingset maken of bewerken".
+Wanneer gebruikers of gebruikersgroepen worden gemaakt, moet u machtigingensets aan elke groep toewijzen om te definiëren tot welk object een gebruiker toegang heeft. Eerst moet u de juiste machtigingen ordenen in machtigingensets. Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Een gebruikersgroep en alle bijbehorende machtigingensets kopiëren
 Als u snel een nieuwe gebruikersgroep wilt definiëren, kopieert u alle machtigingensets van een bestaande gebruikersgroep naar de nieuwe gebruikersgroep.
@@ -57,7 +57,7 @@ De leden van de gebruikersgroep worden niet gekopieerd naar de nieuwe gebruikers
 2. Selecteer de gebruikersgroep die u wilt kopiëren, en kies vervolgens de actie **Gebruikersgroep kopiëren**.
 3. Voer in het veld **Nieuwe gebruikersgroepcode** een naam voor de groep in en kies vervolgens de knop **OK**.
 
-De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. Voeg gebruikers toe. Zie voor meer informatie het gedeelte "Gebruikers in gebruikersgroepen samenvoegen".  
+De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. Voeg gebruikers toe. Zie voor meer informatie [Gebruikers in gebruikersgroepen samenvoegen](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
 Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
@@ -68,7 +68,7 @@ Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken
 4. Vul de benodigde velden in.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Een machtigingenset maken of wijzigen
-Machtigingensets fungeren als containers met machtigingen, zodat u gemakkelijk meerdere machtigingen in één record kunt beheren. Wanneer u een machtigingenset hebt gemaakt, moet u de werkelijke machtigingen toevoegen. Zie voor meer informatie het gedeelte "Machtigingen maken of bewerken".
+Machtigingensets fungeren als containers met machtigingen, zodat u gemakkelijk meerdere machtigingen in één record kunt beheren. Wanneer u een machtigingenset hebt gemaakt, moet u de werkelijke machtigingen toevoegen. Zie voor meer informatie [Machtigingen handmatig maken of wijzigen](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > Een [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing bevat doorgaans een aantal vooraf gedefinieerde machtigingensets die door Microsoft of door uw softwareprovider worden toegevoegd. Deze machtigingensets zijn van het type **Systeem** of **Extensie**. U kunt deze typen machtigingensets of de machtigingen die zich erin bevinden, niet maken of bewerken. U kunt ze echter kopiëren om uw eigen machtigingensets en machtigingen te definiëren. <br /><br />
@@ -91,7 +91,7 @@ Wanneer u nieuwe machtigingensets maakt, kunt u een kopieerfunctie gebruiken om 
 De nieuwe machtigingenset, die alle machtigingen van de gekopieerde machtigingenset bevat, wordt toegevoegd als nieuwe regel op de pagina **Machtigingensets**. De regels worden alfabetisch gesorteerd binnen elk type.
 
 ## <a name="to-create-or-modify-permissions-manually"></a>Machtigingen handmatig maken of wijzigen
-In deze procedure wordt uitgelegd hoe u handmatig machtigingen toevoegt of bewerkt. U kunt machtigingensets ook automatisch laten genereren vanuit uw acties in de gebruikersinterface. Zie voor meer informatie de sectie "Machtigingensets maken of bewerken door uw acties op te nemen".
+In deze procedure wordt uitgelegd hoe u handmatig machtigingen toevoegt of bewerkt. U kunt machtigingensets ook automatisch laten genereren vanuit uw acties in de gebruikersinterface. Zie voor meer informatie [Machtigingensets maken of bewerken door uw acties op te nemen](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. Op de pagina **Machtigingensets** selecteert u de regel voor een machtigingenset en kiest u vervolgens de actie **Machtigingen**.
 2. Maak op de pagina **Machtigingen** een nieuwe regel of bewerk de velden op een bestaande regel.
@@ -109,6 +109,10 @@ U kunt een indirecte machtiging toewijzen om een object enkel door middel van ee
 Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, verkoop-boeken uit te voeren. De codeunit Verkoop-boeken voert veel taken uit, waaronder het wijzigen van tabel 37, Inkoopregel. Wanneer de gebruiker een verkoopdocument boekt, de codeunit Verkoop-boeken, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] of de gebruiker de machtiging heeft om de tabel Verkoopregel te wijzigen. Als dat niet het geval is, kan de codeunit de taken niet uitvoeren en ontvangt de gebruiker een foutmelding. Indien dit wel zo is, wordt de codeunit uitgevoerd.
 
 De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopregel om de codeunit uit te voeren. Als de gebruiker indirecte machtiging heeft voor de tabel Verkoopregel, kan de codeunit Verkoop-boeken worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel Inkoopregel wijzigen door de codeunit Verkoop-boeken of een ander object uit te voeren dat machtiging heeft om de tabel Inkoopregel te wijzigen. De gebruiker kan alleen de tabel Inkoopregel wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
+
+### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>De toegang van een gebruiker tot specifieke records in een tabel beperken
+Voor beveiliging op recordniveau in [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Dit betekent dat de gebruiker geen toegang heeft tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de Help voor ontwikkelaars en IT-pro.
+
 
 ## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Machtigingensets maken of bewerken door uw acties op te nemen
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Machtigingensets** in en kies vervolgens de gerelateerde koppeling.
@@ -138,7 +142,7 @@ U kunt machtigingen op twee manieren aan gebruikers toewijzen:
 2. Selecteer de gebruiker waaraan u machtigingen wilt toewijzen.
 Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven in het feitenblok **Machtigingensets**.
 3. Kies de actie **Bewerken** om de pagina **Gebruikerskaart** te openen.
-4. Vul op het sneltabblad **Gebruikersmachtigingensets** waar nodig de velden in op een nieuwe regel. Zie voor meer informatie het gedeelte "Een machtigingset maken of bewerken".
+4. Vul op het sneltabblad **Gebruikersmachtigingensets** waar nodig de velden in op een nieuwe regel. Zie voor meer informatie [Een machtigingenset maken of bewerken](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Een machtigingenset op de pagina **Machtigingenset per gebruiker** toewijzen  
 In de volgende procedure wordt uitgelegd hoe u machtigingensets aan een gebruiker toewijst op de pagina **Machtigingenset per gebruiker**. De stappen zijn vergelijkbaar op de pagina **Machtigingenset per gebruikersgroep**.
@@ -161,20 +165,20 @@ In de volgende procedure wordt uitgelegd hoe u machtigingensets aan een gebruike
 
     > [!NOTE]  
     > U kunt alleen machtigingensets van het soort **Door gebruiker gedefinieerd** bewerken.<br /><br />
-    > Bronrechtrijen zijn afkomstig uit het abonnementsplan. De machtigingswaarden van het recht hebben voorrang op waarden in andere machtigingensets als deze een hogere volgorde hebben. Een waarde in een niet-recht machtigingenset met een hogere volgorde dan de gerelateerde waarde in het recht worden geplaatst tussen haakjes om aan te geven dat het niet effectief is omdat het wordt overschreven door het recht. Zie voor een uitleg van volgorde het gedeelte "Machtigingen maken of bewerken".  
+    > Bronrechtrijen zijn afkomstig uit het abonnementsplan. De machtigingswaarden van het recht hebben voorrang op waarden in andere machtigingensets als deze een hogere volgorde hebben. Een waarde in een niet-recht machtigingenset met een hogere volgorde dan de gerelateerde waarde in het recht worden geplaatst tussen haakjes om aan te geven dat het niet effectief is omdat het wordt overschreven door het recht. Zie voor een uitleg van volgorde [Machtigingen handmatig maken of wijzigen](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Als u een machtigingenset wilt bewerken, kiest u in het gedeelte **Op machtigingenset-id**, op de regel voor een relevante machtigingenset van het soort **Door gebruiker gedefinieerd**, een van de vijf toegangstypevelden en selecteert u een andere waarde.
 
-5. Als u afzonderlijke toegangsrechten binnen de machtigingenset wilt bewerken, kiest u de waarde in het veld **Machtigingenset** om de pagina **Machtigingen** te openen. Volg de stappen die worden beschreven bij "Machtigingen maken of bewerken".  
+5. Als u afzonderlijke toegangsrechten binnen de machtigingenset wilt bewerken, kiest u de waarde in het veld **Machtigingenset** om de pagina **Machtigingen** te openen. Volg de stappen die worden beschreven bij [Machtigingen maken of bewerken](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > Wanneer u een machtiging bewerkt, worden de wijzigingen ook toegepast op andere gebruikers aan wie de machtigingenset is toegewezen.
 
 ## <a name="see-also"></a>Zie ook
+[Beveiliging en bescherming in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Gebruikers, profielen en rolcentra](admin-users-profiles-roles.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Gebruikers aan Office 365 toevoegen voor bedrijven](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing)
-

@@ -1,8 +1,8 @@
 ---
 title: Webbronnen voor contactbedrijven instellen | Microsoft Docs
-description: "U kunt internet- of webbronnen definiëren en toewijzen aan een contactbedrijf om te helpen aangeven hoe u informatie wilt zoeken over uw contacten."
+description: U kunt internet- of webbronnen definiëren en toewijzen aan een contactbedrijf om te helpen aangeven hoe u informatie wilt zoeken over uw contacten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816576"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Webbronnen voor contactbedrijven instellen
 U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines en websites op internet aan te geven die u wilt gebruiken om informatie over de contacten te zoeken. Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.
@@ -30,7 +30,7 @@ Webbronnen gebruiken voor contacten is een proces van twee stappen. Eerst defini
 2. Kies de **Nieuw**-acties.
 3. Vul de velden **Code**, **Omschrijving** en **URL** in.
 
-    Typ %1 in het veld **URL** om een tijdelijke aanduiding in te voegen voor een zoekwoord in de URL. Wanneer u de webbron start vanaf een contact, wordt %1 automatisch vervangen door de zoekterm die u op de pagina **Contact webbronnen** hebt ingevoerd, bijvoorbeeld de naam van het bedrijf.
+    Typ %1 in het veld **URL** om een tijdelijke aanduiding in te voegen voor een zoekwoord in de URL. Wanneer u de webbron start vanaf een contact, wordt %1 vervangen door de zoekterm die u op de pagina **Contactwebbronnen** hebt ingevoerd, bijvoorbeeld de naam van het bedrijf.
 
 Herhaal deze stappen om het gewenste aantal webbronnen in te stellen.
 
@@ -47,6 +47,5 @@ Herhaal deze stappen om het gewenste aantal webbronnen toe te wijzen.
 U kunt webbronnen ook toewijzen op de pagina **Contactoverzicht** door dezelfde procedure te volgen.
 
 ## <a name="see-also"></a>Zie ook
-[Contactbedrijven maken](marketing-create-contact-companies.md)  
+[Contacten maken](marketing-create-contact-companies.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

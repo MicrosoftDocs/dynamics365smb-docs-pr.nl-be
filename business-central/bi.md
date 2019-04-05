@@ -2,7 +2,7 @@
 title: Bedrijfsinformatie| Microsoft Docs
 description: Bedrijfsgegevens vastleggen en analyseren, zoals verkoopcijfers, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, die waardevolle informatie kunnen zijn voor bedrijfsinformatie of besluitvorming.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816854"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
@@ -42,9 +42,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Financiën](finance.md)    
 [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

@@ -2,7 +2,7 @@
 title: Inkomsten en kosten uitstellen| Microsoft Docs
 description: Als u inkomsten en kosten wilt verantwoorden in andere perioden dan waarin de transactie is geboekt, kunt u kosten en inkomsten automatisch uitstellen via een opgegeven schema.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816902"
 ---
 # <a name="defer-revenues-and-expenses"></a>Procedure: Inkomsten en kosten uitstellen
 Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u deze functionaliteit gebruiken om kosten en inkomsten automatisch uit te stellen via een opgegeven schema.
@@ -51,7 +51,7 @@ Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de 
    * %5 = de boekhoudperiodenaam van de periodeboekingsdatum
    * %6 = het boekjaar van de periodeboekingsdatum
 
-Voorbeeld: de boekingsdatum is 06-02-2016. Als u "Kosten uitgesteld voor %4 %6" invoert, wordt de weergegeven beschrijving "Kosten uitgesteld voor februari 2016".
+Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' invoert, wordt de weergegeven beschrijving 'Kosten uitgesteld voor februari 2016'.
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Een uitstelsjabloon toewijzen aan een artikel
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitstelsjablonen** in en kies vervolgens de gerelateerde koppeling.
@@ -93,4 +93,3 @@ Grootboekposten die naar de opgegeven uitstelrekening moeten worden geboekt, bij
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

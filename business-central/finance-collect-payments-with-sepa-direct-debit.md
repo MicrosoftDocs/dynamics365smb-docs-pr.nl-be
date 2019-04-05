@@ -7,17 +7,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816574"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
+# <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
 Met instemming van de klant, kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-notatie.  
 
  Stel eerst de exportindeling van het bankbestand in waarmee u uw bank opdracht geeft een automatische incasso uit te voeren. Installeer vervolgens de betalingswijze van de klant. Stel tot slot de machtiging voor automatische incasso in die overeenkomt met uw overeenkomst met de klant voor het verzamelen van hun betalingen in een bepaalde overeenkomstperiode.  
@@ -61,7 +61,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
     >  Voer geen waarde in het veld **Tegenrekeningnr.** in.  
 
 4. Kies de knop **OK** om de pagina **Betalingsmethoden** te sluiten.  
-5. Geef in het **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
+5. Geef in het vak **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
 6. Open de klantkaart voor de klant die u wilt instellen voor verzameling van automatische incasso van SEPA.  
 7. Kies het veld **Betalingswijze** en selecteer vervolgens de code voor de betalingswijze die u hebt opgegeven in stap 3.  
 8. Herhaal stap 6 tot en met 7 voor alle klanten die u wilt instellen voor verzameling van automatische incasso van SEPA.  
@@ -117,7 +117,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Verzamelingposten van automatische incasso exporteren naar een bankbestand  
  1. Kies op de pagina **Incasso-opdrachten** op het tabblad **Start** in de groep **Verwerken** de optie **Verzamelingsposten van incasso**.  
  2. Selecteer op de pagina **Verzamelingsposten van incasso** de post die u wilt exporteren en kies vervolgens op het tabblad **Start** in de groep **Verwerken** de optie **Bestand van automatische incasso aanmaken**.  
- 3. Het exportbestand opslaan naar de locatie van waar u verzendt of uploadt naar uw elektronische bank.  
+ 3. Sla het exportbestand op naar de locatie van waar u verzendt of uploadt naar uw elektronische bank.  
 
       Op de pagina **Verzamelingsposten van incasso** verandert het veld **Incasso-opdrachtstatus** in Bestand gemaakt. Op de pagina **SEPA Incasso Machtiging** wordt het veld **Debetteller** bijgewerkt met één telling.  
 
@@ -158,4 +158,3 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 
 ## <a name="see-also"></a>Zie ook  
 [Tegoeden beheren](receivables-manage-receivables.md)
-

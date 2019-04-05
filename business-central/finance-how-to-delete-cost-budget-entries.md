@@ -2,22 +2,22 @@
 title: 'Procedure: kostenbudgetposten verwijderen | Microsoft Docs'
 description: Door middel van de batchtaak Kostenbudgetposten verwijderen annuleert u kostenbegrotingsposten uit het kostenbudgetregister.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 7a5647bcb5a58cdf0a38ec037994d6cbe7a9504d
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816470"
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten verwijderen
 Door middel van de batchtaak **Kostenbudgetposten verwijderen** annuleert u kostenbegrotingsposten uit het kostenbudgetregister.  
@@ -40,4 +40,3 @@ Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u 
 [Kosten verantwoorden](finance-manage-cost-accounting.md)
 [Kostenbudgetten maken](finance-create-cost-budgets.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

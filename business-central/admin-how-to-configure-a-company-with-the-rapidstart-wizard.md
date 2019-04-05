@@ -2,22 +2,22 @@
 title: Een bedrijf configureren met de Wizard RapidStart | Microsoft Docs
 description: U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services configuratiewizard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816646"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Een bedrijf configureren met de wizard RapidStart
 U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services configuratiewizard.
@@ -33,7 +33,7 @@ In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, da
 
     1. Pas de configuratie aan door **Pakket toepassen** te kiezen. Hiermee wordt het configuratiepakket geïmporteerd en worden de databasegegevens in het pakket allemaal tegelijk toegepast.  
 
-    2. De configuratie controleren nadat deze is toegepast. Met deze optie kunt u de configuratiegegevens en vragenlijsten bekijken die door de partner zijn verstrekt en bepaalde hoofdgegevens die vereist zijn voor uw bedrijf importeren. Kies de actie **Configuratiewerkblad**. Zie voor meer informatie het gedeelte "De configuratievragenlijst voltooien" in [Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md).  
+    2. De configuratie controleren nadat deze is toegepast. Met deze optie kunt u de configuratiegegevens en vragenlijsten bekijken die door de partner zijn verstrekt en bepaalde hoofdgegevens die vereist zijn voor uw bedrijf importeren. Kies de actie **Configuratiewerkblad**. Zie voor meer informatie [De configuratievragenlijst voltooien](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Vouw het sneltabblad **Stap 5** uit. Opgeven welk Rolcentrum u standaard wilt gebruiken voor het nieuwe bedrijf.  
 
@@ -51,4 +51,3 @@ U hebt nu het bedrijf geconfigureerd en gegevens hierop toegepast.
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

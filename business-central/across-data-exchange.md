@@ -7,17 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817192"
 ---
-
 # <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het uitwisselen van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden uw zakelijke partners.
 
@@ -46,7 +45,7 @@ Om SEPA-bankafschriften te importeren, kiest u de knop Bankafschrift importeren 
 ## <a name="currency-exchange-rates"></a>Valutawisselkoersen  
 U kunt een externe service instellen om valutawisselkoersen actueel te houden. De service die de bijgewerkte valutawisselkoersen levert, wordt ingeschakeld door een gegevensuitwisselingsdefinitie. De pagina **Kaart update-instellingen wisselkoersen** is een beknopte weergave van de pagina **Definitie van gegevensuitwisseling** voor de desbetreffende definitie van gegevensuitwisseling.  
 
-Voor alle uitwisselingen van gegevens in XML-bestanden kunt u de instellingen van de gegevensuitwisseling voorbereiden door het XML-schemabestand te laden op de pagina **XML-schemaviewer**. In dit venster kunt u de gegevenselementen selecteren die u wilt uitwisselen met [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens kunt u een gegevensuitwisselingdefinitie starten of een XMLport genereren.  
+Voor alle uitwisselingen van gegevens in XML-bestanden kunt u de instellingen van de gegevensuitwisseling voorbereiden door het XML-schemabestand te laden op de pagina **XML-schemaviewer**. In dit venster kunt u de gegevenselementen selecteren die u wilt uitwisselen met [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens kunt u een gegevensuitwisselingsdefinitie starten of een XMLport genereren.  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
@@ -63,4 +62,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Gegevens uitwisselen](across-exchange-data.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
-

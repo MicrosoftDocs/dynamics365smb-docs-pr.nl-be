@@ -2,22 +2,22 @@
 title: De bedrijfsconfiguratie beheren in een werkblad | Microsoft Docs
 description: Het configuratiewerkblad is de centrale locatie waar u configuratieactiviteiten kunt plannen, bijhouden en uitvoeren. U kunt een werkblad maken voor elk bedrijf waarmee u werkt of een standaardconfiguratiewerkblad maken dat kan worden gebruikt voor het configureren van meerdere identieke bedrijven.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: nl-be
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816831"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
 Het configuratiewerkblad is de centrale locatie waar u configuratieactiviteiten kunt plannen, bijhouden en uitvoeren. U kunt een werkblad maken voor elk bedrijf waarmee u werkt of een standaardconfiguratiewerkblad maken dat kan worden gebruikt voor het configureren van meerdere identieke bedrijven.  
@@ -74,7 +74,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
     > Voorbeeld: als u gerelateerde tabellen voor de tabel **Klant** ophaalt, wordt de tabel **Vestiging** niet toegevoegd, omdat deze slechts voorwaardelijk is gerelateerd aan de tabel **Klant**, namelijk als het veld **Vestiging** in de tabel **Klant** is gevuld.  
     > - De gerelateerde tabel wordt gefilterd.  
     > Voorbeeld: Een veld in de gekoppelde tabel heeft een WHERE-clausule. De reden hiervoor is dat dit de desbetreffende relatiegegevens worden opgeslagen in de virtuele tabel **Veld** en om redenen van prestaties niet beschikbaar zijn op de pagina's zoals het configuratievoorstel.  
-    > U moet gerelateerde tabellen met dergelijke complexe relaties handmatig toevoegen door stap 4 te volgen in het gedeelte "Een tabel toevoegen aan het werkblad".
+    > U moet gerelateerde tabellen met dergelijke complexe relaties handmatig toevoegen door stap 4 te volgen in [Een tabel toevoegen aan het werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Als u tabellen wilt verwijderen uit de resulterende lijst met tabellen, selecteert u de tabel die u wilt verwijderen, en kiest u vervolgens de actie **Verwijderen**.  
 
@@ -128,4 +128,3 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
 [Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

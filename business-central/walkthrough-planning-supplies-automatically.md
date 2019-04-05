@@ -2,22 +2,22 @@
 title: 'Procedure: Leveringen automatisch plannen | Microsoft Docs'
 description: Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817122"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedure: Goederen automatisch plannen
 
@@ -48,7 +48,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 -   Inkoper  
 
 ## <a name="prerequisites"></a>Vereisten  
- U hebt het volgende nodig om deze procedure uit te voeren:  
+ U moet het volgende doen om deze procedure uit te voeren:  
 
 -   Het voorbeeldbedrijf CRONUS International Ltd.  
 -   Voor het wijzigen van diverse ingestelde waarden door de stappen in het gedeelte “Voorbeeldgegevens voorbereiden”, verderop in dit overzicht te volgen.  
@@ -269,4 +269,3 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
  [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)   
  [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
-

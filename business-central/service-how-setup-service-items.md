@@ -2,22 +2,22 @@
 title: Instellingen voor serviceartikelen en serviceartikelonderdelen | Microsoft Docs
 description: Leer wat u moet instellen voordat u serviceartikelen, inclusief standaardwaarden voor onder andere de responstijd, het contractkortingspercentage en de serviceprijsgroep, kunt gebruiken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816573"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Serviceartikelen en serviceartikelonderdelen instellen
 Als u met serviceartikelen wilt werken, moet u het volgende instellen
@@ -65,4 +65,3 @@ U kunt serviceschappen instellen om de opslaglocatie van uw serviceartikelen aan
 ## <a name="see-also"></a>Zie ook
 [Codes voor standaardservices instellen](service-how-setup-service-coding.md)   
 [Troubleshooting instellen](service-how-setup-troubleshooting.md)
-

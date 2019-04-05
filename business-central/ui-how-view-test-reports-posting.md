@@ -2,7 +2,7 @@
 title: Een testrapport controleren voordat u een verkoop- of inkoopdocument boekt | Microsoft Docs
 description: Voordat u een document boekt, bijvoorbeeld, een order of een creditnota, kunt u het testen en controleren op fouten die boeking kunnen blokkeren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816240"
 ---
 # <a name="view-test-reports-before-posting"></a>Controlelijsten weergeven vóór boeken
 Wanneer u een document, zoals een order, factuur of een creditnota, wilt boeken, kunt u het document testen om ervoor te zorgen dat er geen problemen bestaan die de boeking kunnen blokkeren.
@@ -34,5 +34,4 @@ Alle delen van de inkoopfactuur worden getest en het resultaat wordt weergegeven
 ## <a name="see-also"></a>Zie ook
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

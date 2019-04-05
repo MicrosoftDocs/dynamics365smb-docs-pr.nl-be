@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816411"
 ---
 # <a name="create-contact-persons"></a>Contacten maken
 U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarmee u een zakelijke relatie hebt. Voor elk contactbedrijf kunt u het gewenste aantal contacten invoeren. U kunt ook contactkaarten maken voor de personen die u wilt vastleggen als onafhankelijk persoon.
@@ -37,11 +37,9 @@ U kunt een contactkaart maken voor elk contact dat voor de bedrijven werkt waarm
 >   De inhoud van de velden die u hebt geselecteerd in het gedeelte **Overerving** van de pagina **Marketinginstellingen**, wordt gekopieerd van het bedrijf naar de personen binnen dat bedrijf.
 
 ## <a name="see-also"></a>Zie ook
-[CRM instellen](marketing-setup-marketing.md)  
 [Mailinggroepen toewijzen aan een contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Functiegroepen instellen voor contacten](marketing-job-responsibilities.md)  
 [Organisatieniveaus instellen voor contactpersonen](marketing-organizational-levels.md)  
 [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md)  
 [Werken met Business Central](ui-work-product.md)  
-

@@ -2,22 +2,22 @@
 title: Basisagenda's instellen | Microsoft Docs
 description: U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816662"
 ---
 # <a name="set-up-base-calendars"></a>Basisagenda's instellen
 U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda. De belangrijkste taak bij het instellen van een nieuwe basisagenda is het opgeven en definiëren van de vrije dagen die u wilt toepassen.  
@@ -41,9 +41,9 @@ Wanneer u een post aanmaakt, wordt het veld **Vrije dag** geselecteerd. U deze i
 
 > [!IMPORTANT]  
 >  Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.
-Hiermee wordt een datumformule opgegeven voor de tijd die nodig is om het artikel aan te vullen. Het wordt gebruikt voor het berekenen van het veld **Geplande ontvangstdatum**, als er vooruit wordt gerekend, en het veld **Orderdatum**, als er achterwaarts wordt gerekend. Zie de sectie Levertermijn.
+Hiermee wordt een datumformule opgegeven voor de tijd die nodig is om het artikel aan te vullen. Het wordt gebruikt voor het berekenen van het veld **Geplande ontvangstdatum**, als er vooruit wordt gerekend, en het veld **Orderdatum**, als er achterwaarts wordt gerekend. Zie [Levertermijnberek.](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Levertermijn
+## <a name="lead-time-calculation"></a>Levertermijnberek.
 Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen. De twee datumvelden op inkooporderregels worden dus als volgt berekend onder verschillende omstandigheden.
 
 |Richting van berekening|Leveranciersagenda gedefinieerd|Leveranciersagenda niet gedefinieerd|
@@ -55,7 +55,7 @@ Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt m
 > Naast de berekening van de doorlooptijd die betrekking heeft op de geplande ontvangstdatum en orderdatum, zoals in de bovenstaande tabel te zien is, kunnen magazijnverwerkingstijd en veiligheidstijd worden opgeteld bij de formules en als volgt resulteren in de waarde in het veld **Verwachte ontvangstdatum**: Geplande ontvangstdatum + Veiligheidstijd + Inslagtijd = Verwachte ontvangstdatum.
 
 > [!Important]
-> Als uw locatie gebruikmaakt van een sterk afwijkende agenda van die van uw leveranciers, is het belangrijk specifieke agenda´s voor deze leveranciers in te stellen, om optimale doorlooptijden voor de leveranciers te berekenen. Zie de sectie Een basisagenda toewijzen voor informatie over het instellen van leveranciersagenda's.
+> Als uw locatie gebruikmaakt van een sterk afwijkende agenda van die van uw leveranciers, is het belangrijk specifieke agenda´s voor deze leveranciers in te stellen, om optimale doorlooptijden voor de leveranciers te berekenen. Zie [Een basisagenda toewijzen](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar) voor informatie over het instellen van leveranciersagenda's.
 
 De inhoud van het veld **Levertermijn** wordt gekopieerd uit de artikelkaart of de SKU-kaart, als de doorlooptijd is gedefinieerd voor het artikel, of op de pagina **Artikelleveranciers** als de doorlooptijd voor de leverancier is gedefinieerd.
 
@@ -119,4 +119,3 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 [Productie](production-manage-manufacturing.md)    
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

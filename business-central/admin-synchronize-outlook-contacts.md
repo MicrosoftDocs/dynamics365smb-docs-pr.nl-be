@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817096"
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contactpersonen in Business Central synchroniseren met contactpersonen in Microsoft Outlook
+# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contacten in Business Central synchroniseren met contacten in Microsoft Outlook
 U kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] dezelfde contactpersonen zien als in Outlook als u synchronisatie van contactpersonen instelt. Als u bijvoorbeeld een verkoper bent, doet u mogelijk werk in Outlook en werk in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als de contactpersonen op beide plaatsen hetzelfde zijn, is uw werk eenvoudiger.  
 
 Een speciale map in Outlook maakt het gemakkelijk contactpersonen te vinden en u kunt een filter instellen om alleen de contactpersonen uit [!INCLUDE[d365fin](includes/d365fin_md.md)] te synchroniseren die u in Outlook wilt zien. Als de synchronisatie van contactpersonen is ingesteld, kunt u de synchronisatie handmatig starten of een automatische synchronisatie instellen die de contacten op geplande basis gesynchroniseerd houdt.  
@@ -54,4 +54,3 @@ In Outlook worden de contacten uit [!INCLUDE[d365fin](includes/d365fin_md.md)] w
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Contactpersonen (personen) gebruiken in Outlook op het web](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
-

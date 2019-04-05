@@ -2,7 +2,7 @@
 title: Rapporten instellen op afdrukken op specifieke printers | Microsoft Docs
 description: Leren over het opgeven van een printer voor een lijst en het gebruik van de pagina Printerselecties.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816787"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Printerselectie opgeven voor rapporten
 Op deze pagina is leeg omdat u nog geen specifieke printers voor bepaalde rapporten hebt ingesteld. Er wordt gewerkt aan een oplossing hiervoor.
@@ -49,4 +49,3 @@ The following table describes the combination of values to specify when you set 
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Batchverwerkingen uitvoeren](ui-how-run-batch-jobs.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-

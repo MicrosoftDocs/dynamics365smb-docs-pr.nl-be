@@ -2,7 +2,7 @@
 title: Mailinggroepen instellen voor contacten | Microsoft Docs
 description: U kunt mailinggroepen gebruiken om groepen contacten te identificeren die u dezelfde informatie wilt sturen, bijvoorbeeld voor een marketingcampagne of promotie.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 6c089b772c139d0c0e9465f383ab39bd3c125dca
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816207"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Mailinggroepen voor contacten instellen
 U kunt mailinggroepen gebruiken om groepen contacten aan te geven die dezelfde informatie moeten ontvangen. U kunt bijvoorbeeld een mailinggroep instellen voor de contacten aan wie u een verhuisbericht voor uw kantoor wilt sturen, of een andere groep om relatiegeschenken aan te zenden.
@@ -43,7 +43,5 @@ Het aantal mailinggroepen dat u aan het contact hebt toegewezen, wordt weergegev
 Nadat u mailinggroepen hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Zie ook
-[Contactbedrijven maken](marketing-create-contact-companies.md)  
-[Contactpersonen maken](marketing-create-contact-persons.md)  
+[Contacten maken](marketing-create-contact-companies.md)  
 [Werken met Business Central](ui-work-product.md)
-

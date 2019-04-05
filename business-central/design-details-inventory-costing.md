@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816431"
 ---
 # <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastle
 [Ontwerpdetails: rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)
 [Ontwerpdetails: voorraadwaardering](design-details-inventory-valuation.md)  
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)
-

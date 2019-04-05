@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816740"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
@@ -42,5 +42,4 @@ Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] opent, is het raadzaam dat
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
-[Systeemvereisten voor Dynamics 365 Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
-
+[Systeemvereisten voor Dynamics 365 Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

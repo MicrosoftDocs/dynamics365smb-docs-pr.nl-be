@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816835"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] verwijderen, op beginwaarden instellen of het abonnement erop stoppen
 Als u wilt stoppen met het gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u uw account sluiten of de licentie uit uw account laten verwijderen. De uit te voeren stappen verschillen als u momenteel de gratis proef gebruikt of een maandelijks abonnement hebt als onderdeel van een Office 365-account.  
@@ -51,4 +51,3 @@ Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] in uw opstartprogramma voor ap
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Office-portal](https://portal.office.com)  
 [Hoe lang duurt de proeftijd en hoe kan ik opzeggen?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

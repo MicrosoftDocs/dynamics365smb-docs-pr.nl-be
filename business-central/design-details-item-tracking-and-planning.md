@@ -2,7 +2,7 @@
 title: 'Ontwerpdetails: Artikelvereffening | Microsoft Docs'
 description: In dit onderwerp wordt beschreven hoe artikelvereffening plaatsvindt wanneer u een voorraadtransactie boekt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816693"
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
 Wanneer u een voorraadtransactie boekt, wordt het geboekte aantal vastgelegd in de artikelposten, en de waardeboeking in de waardeposten. Zie [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md) voor meer informatie.  
@@ -246,4 +246,3 @@ Vanwege de manier waarop de kostprijs van een artikel wordt berekend, kan een on
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)  
 [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
-

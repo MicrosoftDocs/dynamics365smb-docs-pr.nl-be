@@ -2,7 +2,7 @@
 title: Verkoopopportunities maken | Microsoft Docs
 description: Beschrijft hoe u verkoopopportunities maakt vanuit een verkoper of contact in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816559"
 ---
 # <a name="create-sales-opportunities"></a>Verkoopopportunities maken
 U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten. Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.
@@ -46,4 +46,3 @@ Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met Business Central](ui-work-product.md)
-

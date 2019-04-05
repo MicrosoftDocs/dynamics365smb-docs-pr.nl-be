@@ -2,7 +2,7 @@
 title: Interacties met uw contacten beheren | Microsoft Docs
 description: U kunt alle soorten communicatie of interactie tussen uw bedrijf en uw contacten beheren. Bijvoorbeeld brieven, telefoongesprekken, vergaderingen, enzovoort.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816440"
 ---
 # <a name="managing-interactions-with-contacts"></a>Interacties beheren met contacten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, fax, e-mail, telefoon, vergaderingen, enzovoort zijn.
@@ -58,4 +58,3 @@ U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielog
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)  
-

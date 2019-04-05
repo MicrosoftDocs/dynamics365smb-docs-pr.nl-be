@@ -2,22 +2,22 @@
 title: Beginsaldi van dagboeken maken | Microsoft Docs
 description: Business Central bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens gemakkelijk overbrengen met dagboekboekingen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817209"
 ---
 # <a name="create-journal-opening-balances"></a>Beginsaldi van dagboeken maken
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.
@@ -27,7 +27,7 @@ De eerste stap is het maken van een configuratiepakket dat de instellingentabell
 Voordat u begint, moet u ervoor zorgen dat u zich bevindt op de rolcentrumpagina RapidStart Services-implementatie, want dat is de juiste context voor uw configuratiewerk. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>De posten in een dagboek toepassen op een nieuw bedrijf  
-1. Configureer een nieuw bedrijf en pas er een configuratiepakket op toe. Zie voor meer informatie [Een bedrijf configureren met de wizard RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
+1. Configureer een nieuw bedrijf en pas een configuratiepakket toe. Zie voor meer informatie [Een bedrijf configureren met de wizard RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     Het nieuwe bedrijf bevat geen informatie over beginsaldi van dagboeken.  
 
@@ -45,4 +45,3 @@ Voordat u begint, moet u ervoor zorgen dat u zich bevindt op de rolcentrumpagina
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
 [Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-

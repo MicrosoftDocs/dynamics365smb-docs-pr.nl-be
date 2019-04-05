@@ -1,8 +1,8 @@
 ---
-title: "De contacten in een segment definiëren| Microsoft Docs"
-description: "Nadat u een segment hebt gemaakt, kunt u contacten toevoegen aan het segment, bijvoorbeeld als onderdeel van een marketingcampagne die is gericht op specifieke klanten of cliënten."
+title: De contacten in een segment definiëren| Microsoft Docs
+description: Nadat u een segment hebt gemaakt, kunt u contacten toevoegen aan het segment, bijvoorbeeld als onderdeel van een marketingcampagne die is gericht op specifieke klanten of cliënten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816381"
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
@@ -58,4 +58,3 @@ U kunt een segment een onbeperkt aantal keren verminderen. Als u het segment per
 [Segmenten beheren](marketing-segments.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

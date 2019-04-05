@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 392b997b5122d7a1419c6b134a2723644fc82cb2
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816293"
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Voorraad tellen, corrigeren en herindelen
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
 
-Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, wilt u sommige artikelen misschien vaker tellen omdat ze waardevoller zijn of snel worden omgezet en belangrijk zijn voor het bedrijf. U kunt tellingsperioden instellen en toewijzen aan magazijnartikelen. Voor dit doel kunt u speciale telperioden aan die artikelen toewijzen. Zie voor meer informatie de sectie 'Clustertellingen uitvoeren'.
+Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, wilt u sommige artikelen misschien vaker tellen omdat ze waardevoller zijn of snel worden omgezet en belangrijk zijn voor het bedrijf. U kunt tellingsperioden instellen en toewijzen aan magazijnartikelen. Voor dit doel kunt u speciale telperioden aan die artikelen toewijzen. Zie voor meer informatie [Clustertellingen uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
 Als u vastgelegde voorraadhoeveelheden moet aanpassen, in verband met de inventarisatie of om andere redenen, kunt u een artikeldagboek gebruiken om het voorraadgrootboek direct te wijzigen zonder zakelijke transacties te hoeven boeken. U kunt ook een correctie voor één artikel uitvoeren op de artikelkaart.
 
@@ -81,7 +81,7 @@ U kunt de inventarisatie op een van de volgende manieren uitvoeren, afhankelijk 
     -   Als de berekende aantallen niet overeenkomen met de getelde aantallen, wordt een negatief of positief aantal geregistreerd voor de opslaglocatie. Vervolgens wordt een tegengesteld aantal geboekt naar de correctieopslaglocatie van de vestiging.  
     -   Als het berekende aantal wel overeenkomt met het getelde aantal, wordt een post met de waarde 0 geregistreerd voor zowel de opslaglocatie als de correctieopslaglocatie. De post bestaat uit de record dat een inventarisatie heeft plaatsgevonden op de registratiedatum en dat er geen verschillen zijn aangetroffen voor het artikel.  
 
-Wanneer u de magazijninventarisatie registreert, boekt u niet naar de artikelposten, de inventarisatieposten of de waardeposten, maar de gegevens zijn er voor het geval deze nodig zijn. Indien u echter nauwkeurige administratie bij wilt houden van wat er in het magazijn gebeurt en u alle opslaglocaties waar de artikelen zijn geregistreerd zou tellen, moet u onmiddellijk de magazijnresultaten als een voorraadinventarisatie boeken. Zie de sectie De werkelijk getelde voorraad in standaardmagazijnconfiguraties invoeren en boeken voor meer informatie.
+Wanneer u de magazijninventarisatie registreert, boekt u niet naar de artikelposten, de inventarisatieposten of de waardeposten, maar de gegevens zijn er voor het geval deze nodig zijn. Indien u echter nauwkeurige administratie bij wilt houden van wat er in het magazijn gebeurt en u alle opslaglocaties waar de artikelen zijn geregistreerd zou tellen, moet u onmiddellijk de magazijnresultaten als een voorraadinventarisatie boeken. Zie [De werkelijk getelde voorraad in geavanceerde magazijnconfiguraties invoeren en boeken](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Het rapport afdrukken dat bij het tellen moet worden gebruikt
 1. Klik op de pagina **Inventarisatiedagboek** met de berekende verwachte voorraad op de actie **Afdrukken**.
@@ -145,14 +145,14 @@ U stelt de inventarisatieperioden in die u wilt gebruiken en wijst er vervolgens
 2. Kies de actie **Tellingsperiode berekenen**.
 
     De pagina **Inventarisatieartikelselectie** wordt geopend en bevat de artikelen waaraan tellingsperioden zijn toegewezen en die op basis daarvan moeten worden geteld.
-3. Voer de inventarisatie uit. Zie voor meer informatie de sectie 'Een magazijninventarisatie uitvoeren'.
+3. Voer de inventarisatie uit. Zie voor meer informatie [Een inventarisatie uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Een inventarisatie uitvoeren op basis van tellingsperioden in geavanceerde magazijnconfiguraties
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. inventarisatiedagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Tellingsperiode berekenen**.
 
     De pagina **Inventarisatieartikelselectie** wordt geopend en bevat de artikelen waaraan tellingsperioden zijn toegewezen en die op basis daarvan moeten worden geteld.
-3. Voer de inventarisatie uit. Zie voor meer informatie de sectie Een magazijninventarisatie uitvoeren.  
+3. Voer de inventarisatie uit. Zie voor meer informatie [Een inventarisatie uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
     >  U moet het artikel tellen in alle opslaglocaties die het betreffende artikel bevatten. Indien u enkele opslaglocatieregels verwijdert die het programma heeft opgehaald om te tellen op de pagina **Mag. Inventarisatie**, worden niet alle artikelen geteld die in het magazijn zijn. Indien u later dergelijke onvolledige resultaten in het inventarisatiedagboek boekt, zijn de geboekte aantallen onjuist.  
@@ -175,7 +175,7 @@ U kunt ook de functie **Voorraad wijzigen** gebruiken als eenvoudige manier om g
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Het voorraadaantal van meerdere artikelen in standaardmagazijnconfiguraties aanpassen
 Op de pagina **Artikeldagboek** kunt u rechtstreeks artikeltransacties boeken om uw voorraad aan te passen in verband met inkopen, verkopen en positieve of negatieve mutaties, zonder documenten te gebruiken.
 
-Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregels te boeken, bijvoorbeeld met betrekking tot materiële consumptie, kunt u de pagina **Standaardartikeldagboek** gebruiken om deze terugkerende taak gemakkelijker te maken. Zie de sectie 'Standaarddagboeken' in [Werken met dagboeken](ui-work-general-journals.md) voor meer informatie.
+Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregels te boeken, bijvoorbeeld met betrekking tot materiële consumptie, kunt u de pagina **Standaardartikeldagboek** gebruiken om deze terugkerende taak gemakkelijker te maken. Zie [Werken met standaarddagboeken](ui-work-general-journals.md#working-with-standard-journals) voor meer informatie.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -227,4 +227,3 @@ Zie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-loc
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: De hoeveelheid details aanpassen die u ziet in overzichten | Microsoft Docs
 description: U kunt gedetailleerde weergaven in lijsten weergegeven die meer informatie bieden, of als tekens die gemakkelijk visueel te scannen zijn.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816290"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Lijsten weergeven op verschillende manieren
 In de rechterhoek van elke lijst in [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u pictogrammen waarmee u in de lijst kunt wisselen van weergave. Een lijst kan worden weergegeven als een gedetailleerde lijst. Dit is de standaardweergave. Maar u kunt ook naar een ´tegelweergave´ overschakelen. Hierin worden minder gedetailleerde gegevens over de specifieke record weergegeven en worden de items als tegels gestapeld. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat op elk item gemakkelijker kan worden getikt.
@@ -30,4 +30,3 @@ U kunt een afbeelding importeren voor een bepaald artikel door naar de kaart **A
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
-

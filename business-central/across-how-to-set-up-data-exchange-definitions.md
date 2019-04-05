@@ -1,5 +1,5 @@
 ---
-title: "Definiëren hoe gegevens elektronisch worden uitgewisseld | Microsoft Docs"
+title: Definiëren hoe gegevens elektronisch worden uitgewisseld | Microsoft Docs
 description: U kunt een externe provider van OCR-services gebruiken om PDF- of afbeeldingsbestanden te laten omzetten naar elektronische documenten.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816682"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
@@ -55,7 +55,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
     |**Codeunit geg.afhandeling**|Geef de codeunit op die gegevens overbrengt in en uit tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit validatie**|Geef de codeunit op die wordt gebruikt om gegevens te valideren tegen vooraf bepaalde bedrijfsregels.|  
     |**Codeunit lezen/schrijven**|Geef de codeunit op die geïmporteerde gegevens verwerkt vóór het toewijzen en geëxporteerde gegevens na het toewijzen.|  
-    |**Lezen/schrijven XMLport**|Geef de XMLport op waarlangs een geïmporteerd gegevensbestand of service gaat vóór toewijzing en waarlangs geëxporteerde gegevens gaan wanneer ze worden weggeschreven naar een gegevensbestand of service na de toewijzing.|  
+    |**Lezen/schrijven XMLport**|De XMLport opgeven waardoor een geïmporteerd gegevensbestand of een service binnenkomt vóór de toewijzing en waardoor geëxporteerde gegevens naar buiten gaan wanneer deze na de toewijzing naar een gegevensbestand of een service worden geschreven.|  
     |**Codeunit ext. geg.afhandeling**|Geef de codeunit op die externe gegevens overbrengt in en uit het kader voor gegevensuitwisseling.|  
     |**Codeunit feedback gebruiker**|Geef de codeunit op die opschoning verzorgt na het koppelen, zoals de regels markeren als geëxporteerd en tijdelijke records verwijderen.|  
     |**Bestandscodering**|Geef de codering van het bestand op. **Opmerking:** dit veld is alleen relevant voor importeren.|  
@@ -160,4 +160,3 @@ Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek 
 [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-

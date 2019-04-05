@@ -2,7 +2,7 @@
 title: Contactbedrijven maken| Microsoft Docs
 description: Beschrijft hoe u een contact maakt voor elk nieuw bedrijf of potentieel bedrijf waarmee u contact onderhoudt of een relatie hebt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817216"
 ---
-# <a name="create-contact-companies"></a>Contactbedrijven maken
+# <a name="create-contacts"></a>Contacten maken
 U kunt een contactkaart maken voor elk nieuw bedrijf waarmee u een zakelijke relatie hebt, bijvoorbeeld een klant, leverancier, potentiële klant, bank, advocatenkantoor, consultant, enzovoort.
 
 Er zijn twee manieren om een contact maken: volledig nieuw of van een bestaande klant, leverancier of bankrekening.,
-
-Voordat u een contact maakt, kunt u de instellingen controleren op de pagina **Marketinginstellingen**. Zie voor meer informatie [CRM instellen](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Een geheel nieuw bedrijfscontact maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
@@ -61,4 +59,3 @@ Als u al een aantal klanten, leveranciers of bankrekeningen hebt ingesteld, kunt
 [Mailinggroepen aan een contact toewijzen](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Contacten maken](marketing-create-contact-persons.md)  
 [Werken met Business Central](ui-work-product.md)
-

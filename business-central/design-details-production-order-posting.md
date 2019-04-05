@@ -2,22 +2,22 @@
 title: 'Ontwerpdetails: Productieorderboeking | Microsoft Docs'
 description: Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816721"
 ---
 # <a name="design-details-production-order-posting"></a>Ontwerpdetails: Productieorderboeking
 Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie. De kostenstroom voor assemblageorders is echter minder complex, met name omdat de assemblagekostenboeking slechts eenmaal plaatsvindt en daarom geen OHW-voorraad genereert.
@@ -47,7 +47,7 @@ Afhankelijk van de soort voorraad, worden toenames en afnames aangeduid door ver
 ||Verhogen|Verlagen|  
 |-|---------------|---------------|  
 |**Voorraad grondstoffen**|-   Netto-inkopen van materiaal<br />-   Output van subassemblages<br />-   Negatief verbruik|Materiaalverbruik|  
-|**OHW-voorraad**|-   Materiaalverbruik<br />-   Capaciteitverbruik<br />-   Productieoverhead|Output van eindproducten (kostprijs van vervaardigde goederen)|  
+|**OHW-voorraad**|-   Materiaalverbruik<br />-   Capaciteitsverbruik<br />-   Productieoverhead|Output van eindproducten (kostprijs van vervaardigde goederen)|  
 |**Voorraad eindproducten**|Output van eindproducten (kostprijs van vervaardigde goederen)|-   Verkoop (kosten van verkochte goederen)<br />-   Negatieve output|  
 |**Voorraad grondstoffen**|-   Netto-inkopen van materiaal<br />-   Output van subassemblages<br />-   Negatief verbruik|Materiaalverbruik|  
 
@@ -112,4 +112,3 @@ In standaardkostenomgevingen is de kostprijsberekening van een productieorder ge
  [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  
  [Werken met Business Central](ui-work-product.md)
-

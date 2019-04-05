@@ -2,23 +2,23 @@
 title: 'Procedure: grootboekposten overbrengen naar kostenposten | Microsoft Docs'
 description: U kunt grootboekposten overbrengen naar kostenposten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 273a8c4341f621710819fd5fbc5cb8ce579c86f5
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816949"
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>Grootboekposten overbrengen naar kostenposten
 U kunt grootboekposten overbrengen naar kostenposten.  
@@ -44,4 +44,3 @@ Voordat u begint met de bewerking om grootboekposten over te brengen naar kosten
 ## <a name="see-also"></a>Zie ook  
 [Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)   
 [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)   
-

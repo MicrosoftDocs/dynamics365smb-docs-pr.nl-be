@@ -2,22 +2,22 @@
 title: Planningsuggesties in een grafische weergave wijzigen | Microsoft Docs
 description: Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816836"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Planningsuggesties in een grafische weergave wijzigen
 Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.
@@ -42,7 +42,7 @@ De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door
     De pagina **Artikelbeschikbaarheid per tijdlijn** wordt geopend met het artikelnummer, de vestiging en de variant van het artikel op de geselecteerde planningsregel vooraf ingevuld op de velden op het sneltabblad **Opties**. Het sneltabblad **Tijdlijn** toont een grafische weergave van de verwachte voorraad van het artikel, inclusief planningsvoorstellen.  
 
 2.  Zorg ervoor dat het veld **Planningsvoorstellen opnemen** is geselecteerd.  
-3.  Zoek de voorgestelde voorzieningsorder die u wilt wijzigen. U kunt de aanpasbare elementen vinden door de groene cirkel en een pictogram van de schijf. Zie voor meer informatie over de verschillende symbolen de sectie Symbolen en pictogrammen op het sneltabblad Tijdlijn.  
+3.  Zoek de voorgestelde voorzieningsorder die u wilt wijzigen. U kunt de aanpasbare elementen vinden door de groene cirkel en een pictogram van de schijf. Zie voor meer informatie over de verschillende symbolen [Symbolen en pictogrammen op het sneltabblad Tijdlijn](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Plaats de aanwijzer op de groene cirkel totdat deze vergroot en de aanwijzer verandert in het Verplaatsen-symbool (vier pijltjes).  
 5.  Houd de muisknop ingedrukt terwijl u de aanwijzer omhoog of omlaag sleept om het aantal aan te passen. Houd de muisknop ingedrukt terwijl u de aanwijzer naar links of rechts sleept om de vervaldatum aan te passen.  
 6.  Naast het verplaatsen van elementen door slepen en neerzetten, kunt u planningsvoorstellen aanpassen door een aantal functies in het vervolgkeuzemenu te gebruiken. Open het vervolgkeuzemenu voor de groene cirkel van een voorgesteld voorzieningselement en selecteer een van de volgende functies  
@@ -99,4 +99,3 @@ Behalve de toetsenbordacties die eerder werden vermeld, kunt u ook de volgende t
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

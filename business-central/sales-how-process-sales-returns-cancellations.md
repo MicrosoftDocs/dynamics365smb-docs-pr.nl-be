@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816477"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.
 
-Als u meer controle wilt hebben over het verkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het ontvangen van artikelen van meerdere verkoopdocumenten bij één enkele verkoopretourzending, kunt u verkoopretourorders maken. Een verkoopretourorder geeft automatisch de gerelateerde verkoopcreditnota en andere retourgerelateerde documenten uit, zoals een vervangende verkooporder, indien noodzakelijk. Zie voor meer informatie de sectie "Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten".
+Als u meer controle wilt hebben over het verkoopretourproces, zoals magazijndocumenten voor het hanteren van het artikel of beter overzicht bij het ontvangen van artikelen van meerdere verkoopdocumenten bij één enkele verkoopretourzending, kunt u verkoopretourorders maken. Een verkoopretourorder geeft automatisch de gerelateerde verkoopcreditnota en andere retourgerelateerde documenten uit, zoals een vervangende verkooporder, indien noodzakelijk. Zie voor meer informatie [Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
 
 > [!NOTE]  
 >   Als een geboekte verkoopfactuur nog niet is voldaan, kunt u de functie **Corrigeren** of **Annuleren** voor de geboekte verkoopfactuur gebruiken om transacties tegen te boeken. Deze functies werken alleen voor niet-betaalde facturen en ze ondersteunen geen gedeeltelijke retouren of annuleringen. Zie voor meer informatie [Onbetaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Er zijn twee functies om kosten automatisch exact tegen te boeken.
 
 |Functie|Description|  
 |------------------|---------------------------------------|  
-|De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Verkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de verkoopretourorder worden tegengeboekt. Zie voor meer informatie de sectie "Een verkoopretourorder en een gerelateerde verkoopcreditnota maken voor een of meer geboekte verkoopfacturen".|  
+|De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Verkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de verkoopretourorder worden tegengeboekt. Zie voor meer informatie [Een verkoopretourorder maken op basis van een of meer geboekte verkoopfacturen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
 |De functie **Document kopiëren** op de pagina's **Verkoopcreditnota** en **Verkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Instellingen van verkoop en tegoeden**.|
 
 Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld **Vereffenen met artikelpost** selecteren op elk soort retourdocumentregel en vervolgens het nummer van de oorspronkelijke verkooppost selecteren. Hierdoor wordt de verkoopcreditnota gekoppeld aan de oorspronkelijke verkooppost en wordt het artikel gewaardeerd op de oorspronkelijke kostprijs.
@@ -78,9 +78,9 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 6. Selecteer het veld **Documentnr.** om de pagina **Geboekte verkoopfacturen** te openen, en selecteer vervolgens de geboekte verkoopfactuur met de regels die u wilt tegenboeken.
 7. Schakel het selectievakje **Regels opnieuw berekenen** in als u wilt dat de gekopieerde geboekte verkoopfactuurregels worden bijgewerkt met de wijzigingen in de artikelprijs en kostprijs sinds de factuur is geboekt.
 8. Kies de knop **Ok**. De gekopieerde factuurregels worden ingevoegd in de kredietnota van de verkoop.
-9. Voltooi de verkoopcreditnota zoals is uitgelegd in de sectie "Een nieuwe verkoopcreditnota maken op basis van een geboekte verkoopfactuur" in dit onderwerp.
+9. Voltooi de verkoopcreditnota zoals is uitgelegd in [Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten
+## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopretourorders** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.  
 3. Vul de velden op het sneltabblad **Algemeen** in met de benodigde gegevens.
@@ -220,4 +220,3 @@ U kunt afzonderlijke retourorders ook handmatig verwijderen.
 [Verkopen instellen](sales-setup-sales.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

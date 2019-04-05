@@ -2,7 +2,7 @@
 title: Segmenten beheren en contacten selecteren om op te nemen| Microsoft Docs
 description: Schetst de taken voor het maken van een segment om een groep contacten op basis van specifieke criteria te selecteren, bijvoorbeeld, contacten in een bepaalde branche waarop u zich wilt richten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: nl-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816855"
 ---
 # <a name="managing-segments"></a>Segmenten beheren
 U kunt segmenten maken om een groep contacten te selecteren overeenkomstig een bepaald criterium. Een segment kan bijvoorbeeld de sector zijn waartoe de contacten behoren of uw zakenrelatie met de contacten. U kunt een segment maken om te selecteren op welke contacten u een campagne wilt richten.
@@ -39,4 +39,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

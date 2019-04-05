@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.contentlocale: nl-be
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817196"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
 Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
@@ -37,9 +37,8 @@ Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen t
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)  
 [Werken met dimensies](finance-dimensions.md)  
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Werken met rekeningschema's](bi-how-work-account-schedule.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-

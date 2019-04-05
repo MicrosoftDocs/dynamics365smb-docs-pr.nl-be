@@ -2,27 +2,27 @@
 title: Productiestuklijsten maken | Microsoft Docs
 description: Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Nadat een productieorder voor dat hoofdartikel is gemaakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: cbcfe46f547a40112f465fbdac6511bc5a2f510a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816227"
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
 Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Nadat een productieorder voor dat hoofdartikel is gemaakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook assemblagestuklijsten. U gebruikt assemblageorders voor het maken van eindartikelen van onderdelen in een eenvoudig proces dat kan worden uitgevoerd door een of meer standaardbronnen die geen bewerkingsplaatsen of -afdelingen betreffen of waarbij geen bronnen gebruikt worden. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken. Zie het gedeelte 'Assemblagestuklijsten of productiestuklijsten' in [Werken met stuklijsten](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook assemblagestuklijsten. U gebruikt assemblageorders voor het maken van eindartikelen van onderdelen in een eenvoudig proces dat kan worden uitgevoerd door een of meer standaardbronnen die geen bewerkingsplaatsen of -afdelingen betreffen of waarbij geen bronnen gebruikt worden. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken. Zie voor meer informatie [Assemblagestuklijsten of productiestuklijsten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
@@ -44,7 +44,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
     > [!NOTE]  
     >  Dit uitvalpercentage heeft betrekking op uitval van materialen tijdens de productie (bij het ophalen uit voorraad), terwijl het uitvalpercentage bij bewerkingsplanregels betrekking heeft op uitval van output (voordat deze bij de voorraad wordt geteld).  
 
-9.  In het veld **Bewerkingsplankoppeling** voert u een code in om het materiaal aan een bepaalde bewerking te koppelen (zie Bewerkingsplankoppelingen maken). Zie de sectie 'Bewerkingsplankoppelingen maken' in [Bewerkingsplannen maken](production-how-to-create-routings.md) voor meer informatie.
+9.  In het veld **Bewerkingsplankoppeling** voert u een code in om het onderdeel aan een bepaalde bewerking te koppelen. Zie [Bewerkingsplankoppelingen maken](production-how-to-create-routings.md#to-create-routing-links) voor meer informatie.
 10. Als u regels wilt kopiëren uit een bestaande productiestuklijst, kiest u **Stuklijst kopiëren** om bestaande regels te selecteren.  
 11.  Certificeer de productiestuklijst.  
 12.  U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
@@ -99,4 +99,3 @@ In een productiestuklijst zijn er 70 metalen onderdelen nodig met de volgende di
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 9923ed478bbe59089363f5d0a494a9e45829e7c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 6b225548e95abacc688a97f1c3f8b5e8472a8f8f
-ms.contentlocale: nl-be
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817132"
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Waarom is een pagina vergrendeld voor personaliseren?
 Als er een vergrendelingspictogram is te zien is op de balk **Personaliseren** wanneer u een pagina opent (zoals weergegeven), kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
@@ -33,4 +33,3 @@ De pagina bevat momenteel de laatste personalisatiewijzigingen die u hebt aangeb
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
-

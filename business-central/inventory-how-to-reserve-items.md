@@ -2,22 +2,22 @@
 title: Artikelen reserveren | Microsoft Docs
 description: U kunt artikelen reserveren voor verkooporders, inkooporders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande documentregels.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816923"
 ---
 # <a name="reserve-items"></a>Artikelen reserveren
 U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande document- of dagboekregels. U voert de handelingen hiervoor uit op de pagina **Reservering**.
@@ -38,7 +38,7 @@ Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. D
     |**Huidige regel annuleren**|De reservering van artikelen uit het document op de geselecteerde regel wordt geannuleerd.|
 
 > [!NOTE]  
->  Als u artikeltracering hebt ingesteld voor de verkooporder, moet u een speciale reserveringsprocedure uitvoeren: Zie voor meer informatie het gedeelte "Reserveren van een bepaald serie- of lotnummer".  
+>  Als u artikeltracering hebt ingesteld voor de verkooporder, moet u een speciale reserveringsprocedure uitvoeren: Zie voor meer informatie [Reserveren van een bepaald serie- of lotnummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Een artikel voor een productieorderregel reserveren  
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
@@ -101,4 +101,3 @@ De volgende procedure is gebaseerd op een verkooporder.
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

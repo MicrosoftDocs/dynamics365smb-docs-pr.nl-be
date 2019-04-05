@@ -1,6 +1,6 @@
 ---
 title: Bedrijfsfunctionaliteit die door Business Central wordt ondersteund | Microsoft Docs
-description: "Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals Financiën, Voorraad, en Projectbeheer."
+description: Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals Financiën, Voorraad, en Projectbeheer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816260"
 ---
 # <a name="business-functionality"></a>Bedrijfsfunctionaliteit
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

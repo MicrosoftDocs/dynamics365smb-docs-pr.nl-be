@@ -1,6 +1,6 @@
 ---
-title: "Cliënten toevoegen aan de Dynamics 365-accountantervaring | Microsoft Docs"
-description: "Leer hoe u bestaande cliënten toevoegt aan Accountant Hub voor Dynamics 365."
+title: Cliënten toevoegen aan de Dynamics 365-accountantervaring | Microsoft Docs
+description: Leer hoe u bestaande cliënten toevoegt aan Accountant Hub voor Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816648"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Cliënten toevoegen aan uw dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -33,7 +33,7 @@ De gegevens op de kaart voor elke cliënt worden door u opgegeven en u kunt deze
 De cliënt-URL wordt gebruikt als u de menuopdracht **Ga naar bedrijf** kiest in het [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboard.  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Worden uitgenodigd bij de [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] van een client
-Een bedrijf dat [!INCLUDE [d365fin](includes/d365fin_md.md)] gebruikt, kan u uitnodigen tot [!INCLUDE [d365fin](includes/d365fin_md.md)] als hun externe accountant. Als u wilt worden uitgenodigd, moet u hen het e-mailadres geven dat u gebruikt met [!INCLUDE [d365acc](includes/d365acc_md.md)], bijvoorbeeld <em>me@accountant.com</em>. De beheerder van uw cliënt kan u dan aan hun systeem toevoegen door de wizard **Externe accountant uitnodigen** uit te voeren.  
+Een bedrijf dat [!INCLUDE [d365fin](includes/d365fin_md.md)] gebruikt, kan u uitnodigen tot [!INCLUDE [d365fin](includes/d365fin_md.md)] als hun externe accountant. Als u wilt worden uitgenodigd, moet u ze het e-mailadres geven dat u gebruikt met [!INCLUDE [d365acc](includes/d365acc_md.md)], bijvoorbeeld <em>me@accountant.com</em>. De beheerder van uw cliënt kan u dan aan hun systeem toevoegen door de wizard **Externe accountant uitnodigen** uit te voeren.  
 
 U ontvangt dan een e-mail van uw cliënt met koppelingen naar hun [!INCLUDE [d365fin](includes/d365fin_md.md)]. De eerste koppeling is een uitnodiging om toegang tot het bedrijf te krijgen. Open deze koppeling en accepteer de stappen om te worden toegevoegd aan de [!INCLUDE [d365fin](includes/d365fin_md.md)]-omgeving van uw cliënt. Met de tweede koppeling kunt u deze cliënt toevoegen aan uw dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)], zoals hierboven wordt beschreven.  
 
@@ -42,4 +42,3 @@ Wanneer u de uitnodiging hebt geaccepteerd, wordt u aangemeld en krijgt u toegan
 ## <a name="see-also"></a>Zie ook
 [Aan de slag met [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Problemen met [!INCLUDE[d365acc](includes/d365acc_md.md)]](troubleshooting.md) oplossen  
-

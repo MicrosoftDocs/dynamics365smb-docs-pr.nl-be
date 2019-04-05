@@ -2,7 +2,7 @@
 title: Een klant of leverancier maken van een contact | Microsoft Docs
 description: U kunt een bestaand contact vastleggen als klant, leverancier of bankrekening met bestaande gegevens en een zakenrelatie opgeven.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 5f5e690a8db82c2f95f190d5fac4b6430f900b57
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "817062"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Een klant, leverancier of bankrekening maken van een contact
 Mogelijk wilt u een aantal van uw bestaande contacten vastleggen als klanten, leveranciers of bankrekeningen. Als u een klant, leverancier of bankrekening maakt van een contact, kunt u bestaande gegevens gebruiken. Wanneer u op deze manier een klant, leverancier of bankrekening maakt, wordt deze gesynchroniseerd met het contact. Synchronisatie maakt gegevens die gemeenschappelijk zijn voor contacten en klanten, leveranciers of bankrekeningen hetzelfde.
@@ -36,9 +36,7 @@ De contactgegevens worden nu overgebracht van de kaart **Contact** naar de kaart
 ## <a name="see-also"></a>Zie ook
 [Contactbedrijven maken](marketing-create-contact-companies.md)  
 [Contacten maken](marketing-create-contact-persons.md)  
-[CRM instellen](marketing-setup-marketing.md)  
 [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Contacten koppelen aan bestaande klanten, leveranciers of bankrekeningen](marketing-how-link-contact.md)  
 [Zakenrelaties toewijzen aan een contact](marketing-business-relations.md#AssignBusRelContact)  
 [Werken met Business Central](ui-work-product.md)
-

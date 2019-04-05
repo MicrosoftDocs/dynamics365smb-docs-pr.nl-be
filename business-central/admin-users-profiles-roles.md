@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816806"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Gebruikers, profielen en rolcentra
 
@@ -99,4 +99,3 @@ Gebruikers passen de gebruikersinterface van hun persoonlijke versie aan door de
 [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)  
 [Personalisaties beheren als beheerder](ui-personalization-manage.md)  
 [Het personaliseren van uw werkruimte](ui-personalization-user.md)  
-

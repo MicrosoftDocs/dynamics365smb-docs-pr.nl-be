@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816976"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
 Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een standaardbestand dat een bedrijfsdocument vertegenwoordigt, zoals een factuur van een leverancier die kan worden ontvangen en geconverteerd naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf.  
@@ -83,7 +83,7 @@ Het onderwerp bevat de volgende procedures:
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
-    |**Internationale standaardcode**|Geef de eenheidscode op volgens de UNECERec20-norm in verband met het verzenden van elektronische documenten.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het kenmerk **unitCode** van het element **InvoicedQuantity** onder het knooppunt **InvoiceLine** in het bestand in te vullen. **Opmerking:** als het veld **Eenheid** op de verkoopregel leeg is, wordt de UNECERe20-standaardwaarde voor Stuks \(H87\) standaard ingevoegd. Zie voor meer informatie en een lijst met geldige eenheidcodes [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Internationale standaardcode**|Geef de eenheidscode op volgens de UNECERec20-norm in verband met het verzenden van elektronische documenten.<br /><br /> Bijvoorbeeld, als u elektronische facturen verstuurt in de bestandsindeling PEPPOL, wordt de waarde in dit veld gebruikt om het kenmerk **unitCode** van het element **InvoicedQuantity** onder het knooppunt **InvoiceLine** in het bestand in te vullen. **Opmerking:** als het veld **Eenheid** op de verkoopregel leeg is, wordt de UNECERe20-standaardwaarde voor Stuks \(H87\) standaard ingevoegd. Zie voor meer informatie en een lijst met geldige eenheidcodes [Aanbeveling nr. 20 \- In internationale handel gebruikte maateenheden](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Klanten instellen voor de verzending van elektronische documenten.  
 1. Geef in het **Zoeken** **Klanten** op en kies vervolgens de gerelateerde koppeling.  
@@ -140,4 +140,3 @@ Het onderwerp bevat de volgende procedures:
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Verkopen factureren](sales-how-invoice-sales.md)   
 [Inkopen vastleggen](purchasing-how-record-purchases.md)
-

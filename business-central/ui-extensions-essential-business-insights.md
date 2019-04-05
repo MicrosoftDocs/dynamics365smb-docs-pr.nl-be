@@ -1,7 +1,7 @@
 ---
 title: Inzichten waarvoor een actie kan worden uitgevoerd weergeven in rolcentra | Microsoft Docs
-description: "De extensie Essentiële zakelijke inzichten roteert een reeks zakelijke inzichten in rolcentra."
-documentationcenter: 
+description: De extensie Essentiële zakelijke inzichten roteert een reeks zakelijke inzichten in rolcentra.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
-ms.contentlocale: nl-be
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816314"
 ---
-
 # <a name="the-essential-business-insights-extension"></a>De extensie Essentiële zakelijke inzichten
 De extensie Essentiële zakelijke inzichten zoekt interessante bedrijfsfeiten in uw bedrijfsgegevens en geeft ze weer als krantenkoppen in rolcentra. Afhankelijk van wat de extensie in de gegevens vindt, worden de inzichten van de vorige week, maand, of drie maanden vanaf de huidige datum weergegeven. De inzichten worden om de 10 minuten bijgewerkt.  
 
@@ -39,4 +38,3 @@ De volgende tabel beschrijft de inzichten die deze extensie biedt voor elk rolce
 
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)
-

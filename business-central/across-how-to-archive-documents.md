@@ -2,25 +2,29 @@
 title: Verkoop- en inkoopdocumenten archiveren | Microsoft Docs
 description: U kunt verkoop- en inkooporders, offertes, raamcontracten, retourorders en raamcontracten archiveren en u kunt het gearchiveerde document gebruiken om het document waaruit het is gearchiveerd, opnieuw te maken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/14/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816968"
 ---
 # <a name="archive-documents"></a>Documenten archiveren
-U kunt verkoop- en inkooporders, offertes, raamcontracten, retourorders en raamcontracten archiveren en u kunt het gearchiveerde document gebruiken om het document waaruit het is gearchiveerd, opnieuw te maken.
+U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten comprimeren, bijvoorbeeld omdat u een kopie van een document voor hergebruik later wilt opslaan. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.
+
+Voor gearchiveerde documenten waarvan het origineel nog bestaat en niet is geboekt, kunt u de functie **Herstellen** gebruiken om het origineel te overschrijven met de gearchiveerde versie van het document. Dit is handig als u de inhoud van een document naar een eerdere status moet herstellen.
+
+Voor gearchiveerde documenten waarvan het origineel is verwijderd, kunt u de inhoud alleen opnieuw gebruiken door de gegevens te kopiëren, bijvoorbeeld met de functie **Document kopiëren**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Automatische documentarchivering instellen  
 U kunt automatische archivering van verkoop- en inkooporders, offertes, raamcontracten en retourorders instellen voordat u documenten verwijdert.
@@ -42,15 +46,15 @@ In de volgende procedure wordt beschreven hoe u een verkooporder archiveert. De 
 2.  Open een verkooporder die u wilt archiveren.  
 3.  Kies de actie **Document archiveren**.
 
-De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**. Van hieruit kunt u deze ook gebruiken om de verkooporder waaruit deze is gearchiveerd, opnieuw te maken.
+De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**.
 
-## <a name="to-recreate-a-sales-order-from-the-archive"></a>Een verkooporder maken vanuit het archief
-In de volgende procedure wordt beschreven hoe u een verkooporder opnieuw maakt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Een niet-geboekte verkooporder vanuit het archief herstellen
+In de volgende procedure wordt beschreven hoe de inhoud van een gearchiveerde verkooporder terug wordt gebracht tot de oorspronkelijke verkooporder. Dit kan alleen als het oorspronkelijke document niet is geboekt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearchiveerde verkooporders** in en kies vervolgens de gerelateerde koppeling.
-2.  Selecteer de gearchiveerde verkooporder die u opnieuw wilt maken en kies vervolgens de actie **Herstellen**.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearchiveerde verkooporders** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de gearchiveerde verkooporder of versie ervan die u wilt herstellen en kies vervolgens de actie **Herstellen**.  
 
-De verkooporder wordt gemaakt en toegevoegd aan de pagina **Verkooporders**.
+De inhoud van de oorspronkelijke verkooporder wordt vervangen door die van de geselecteerde gearchiveerde versie.
 
 ## <a name="to-delete-archived-sales-orders"></a>Gearchiveerde verkooporders verwijderen
 In de volgende procedure wordt beschreven hoe gearchiveerde verkooporders verwijdert. De stappen lijken op andere gearchiveerde inkoop- en verkoopdocumenten.
@@ -64,4 +68,3 @@ In de volgende procedure wordt beschreven hoe gearchiveerde verkooporders verwij
 [Verkoop](sales-manage-sales.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
