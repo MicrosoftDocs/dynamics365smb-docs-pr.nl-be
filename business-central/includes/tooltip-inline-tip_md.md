@@ -1,1 +1,1 @@
-<span data-ttu-id="676ca-101">Wijs een veld aan om een korte omschrijving te lezen.</span><span class="sxs-lookup"><span data-stu-id="676ca-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="8e14f-101">Wijs een veld aan om een korte omschrijving te lezen.</span><span class="sxs-lookup"><span data-stu-id="8e14f-101">Hover over a field to read a short description.</span></span>

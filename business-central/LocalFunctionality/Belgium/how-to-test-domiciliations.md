@@ -1,39 +1,38 @@
 ---
-title: "Domiciliëringen testen"
-description: "Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport Domiciliëringsdagboek - Test gebruiken. Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen."
+title: Domiciliëringen testen
+description: Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport Domiciliëringsdagboek - Test gebruiken. Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 2bffdd7f75bff6aee00c072572f4a55bddc364d1
-ms.contentlocale: nl-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826378"
 ---
-# <a name="test-domiciliations"></a><span data-ttu-id="7993a-104">Domiciliëringen testen</span><span class="sxs-lookup"><span data-stu-id="7993a-104">Test Domiciliations</span></span>
-<span data-ttu-id="7993a-105">Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport **Domiciliëringsdagboek - Test** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="7993a-105">To test the domiciliation journal lines, you can use the **Domiciliation Journal - Test** report.</span></span> <span data-ttu-id="7993a-106">Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen.</span><span class="sxs-lookup"><span data-stu-id="7993a-106">This report prints an overview of all journal lines along with any errors such as missing fields or incorrect bank accounts.</span></span> <span data-ttu-id="7993a-107">U moet alle fouten corrigeren voordat u de regels kunt boeken.</span><span class="sxs-lookup"><span data-stu-id="7993a-107">You have to correct all errors before you can post the lines.</span></span>  
+# <a name="test-domiciliations"></a><span data-ttu-id="36f18-104">Domiciliëringen testen</span><span class="sxs-lookup"><span data-stu-id="36f18-104">Test Domiciliations</span></span>
+<span data-ttu-id="36f18-105">Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport **Domiciliëringsdagboek - Test** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="36f18-105">To test the domiciliation journal lines, you can use the **Domiciliation Journal - Test** report.</span></span> <span data-ttu-id="36f18-106">Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen.</span><span class="sxs-lookup"><span data-stu-id="36f18-106">This report prints an overview of all journal lines along with any errors such as missing fields or incorrect bank accounts.</span></span> <span data-ttu-id="36f18-107">U moet alle fouten corrigeren voordat u de regels kunt boeken.</span><span class="sxs-lookup"><span data-stu-id="36f18-107">You have to correct all errors before you can post the lines.</span></span>  
 
-## <a name="to-print-a-domiciliation-test-report"></a><span data-ttu-id="7993a-108">Een domiciliëringstestrapport afdrukken</span><span class="sxs-lookup"><span data-stu-id="7993a-108">To print a domiciliation test report</span></span>  
+## <a name="to-print-a-domiciliation-test-report"></a><span data-ttu-id="36f18-108">Een domiciliëringstestrapport afdrukken</span><span class="sxs-lookup"><span data-stu-id="36f18-108">To print a domiciliation test report</span></span>  
 
-1.  <span data-ttu-id="7993a-109">Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboek** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="7993a-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="7993a-110">Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.</span><span class="sxs-lookup"><span data-stu-id="7993a-110">In the **Batch Name** field, select the required journal batch.</span></span>  
-3.  <span data-ttu-id="7993a-111">Kies de actie **Testrapport**.</span><span class="sxs-lookup"><span data-stu-id="7993a-111">Choose the **Test Report** action.</span></span>  
-4.  <span data-ttu-id="7993a-112">Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven.</span><span class="sxs-lookup"><span data-stu-id="7993a-112">Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.</span></span>  
+1.  <span data-ttu-id="36f18-109">Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboek** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="36f18-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="36f18-110">Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.</span><span class="sxs-lookup"><span data-stu-id="36f18-110">In the **Batch Name** field, select the required journal batch.</span></span>  
+3.  <span data-ttu-id="36f18-111">Kies de actie **Testrapport**.</span><span class="sxs-lookup"><span data-stu-id="36f18-111">Choose the **Test Report** action.</span></span>  
+4.  <span data-ttu-id="36f18-112">Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven.</span><span class="sxs-lookup"><span data-stu-id="36f18-112">Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="7993a-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7993a-113">See Also</span></span>  
- <span data-ttu-id="7993a-114">[Elektronisch bankieren voor België](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="7993a-114">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
- <span data-ttu-id="7993a-115">[Incasso via domiciliëring](direct-debit-using-domiciliation.md) </span><span class="sxs-lookup"><span data-stu-id="7993a-115">[Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) </span></span>  
- <span data-ttu-id="7993a-116">[Domiciliëringen instellen](how-to-set-up-domiciliations.md) </span><span class="sxs-lookup"><span data-stu-id="7993a-116">[Set Up Domiciliations](how-to-set-up-domiciliations.md) </span></span>  
- <span data-ttu-id="7993a-117">[Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="7993a-117">[Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) </span></span>  
- <span data-ttu-id="7993a-118">[Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md) </span><span class="sxs-lookup"><span data-stu-id="7993a-118">[Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) </span></span>  
- [<span data-ttu-id="7993a-119">Domiciliëringen exporteren en boeken</span><span class="sxs-lookup"><span data-stu-id="7993a-119">Export and Post Domiciliations</span></span>](how-to-export-and-post-domiciliations.md)
-
+## <a name="see-also"></a><span data-ttu-id="36f18-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="36f18-113">See Also</span></span>  
+ <span data-ttu-id="36f18-114">[Elektronisch bankieren voor België](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="36f18-114">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
+ <span data-ttu-id="36f18-115">[Incasso via domiciliëring](direct-debit-using-domiciliation.md) </span><span class="sxs-lookup"><span data-stu-id="36f18-115">[Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) </span></span>  
+ <span data-ttu-id="36f18-116">[Domiciliëringen instellen](how-to-set-up-domiciliations.md) </span><span class="sxs-lookup"><span data-stu-id="36f18-116">[Set Up Domiciliations](how-to-set-up-domiciliations.md) </span></span>  
+ <span data-ttu-id="36f18-117">[Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="36f18-117">[Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) </span></span>  
+ <span data-ttu-id="36f18-118">[Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md) </span><span class="sxs-lookup"><span data-stu-id="36f18-118">[Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) </span></span>  
+ [<span data-ttu-id="36f18-119">Domiciliëringen exporteren en boeken</span><span class="sxs-lookup"><span data-stu-id="36f18-119">Export and Post Domiciliations</span></span>](how-to-export-and-post-domiciliations.md)

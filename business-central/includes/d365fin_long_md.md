@@ -1,1 +1,1 @@
-<span data-ttu-id="78230-101">Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="78230-101">Dynamics 365 Business Central</span></span>
+<span data-ttu-id="0d7c8-101">Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="0d7c8-101">Dynamics 365 Business Central</span></span>
