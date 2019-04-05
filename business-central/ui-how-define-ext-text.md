@@ -1,41 +1,40 @@
 ---
-title: "Extra regels toevoegen om uitgebreide tekstbeschrijvingen te definiëren | Microsoft Docs"
+title: Extra regels toevoegen om uitgebreide tekstbeschrijvingen te definiëren | Microsoft Docs
 description: U kunt extra regels toevoegen om de standaardtekst uit te breiden die een artikel beschrijft.
 services: project-madeira
-documentationcenter: 
-author: SusanneWindfeldPedersen
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: solsen
+ms.date: 02/26/2019
+ms.author: sgroespe
+ms.openlocfilehash: ecf0dab7e8c1215c6e121735fe7507ee28cc25b8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816253"
 ---
-# <a name="add-extended-item-text"></a><span data-ttu-id="b82aa-103">Uitgebreide artikeltekst toevoegen</span><span class="sxs-lookup"><span data-stu-id="b82aa-103">Add Extended Item Text</span></span>
-<span data-ttu-id="b82aa-104">U kunt een standaardtekst voor artikelen uitbreiden met extra regels en voorwaarden instellen voor het gebruik van extra regels.</span><span class="sxs-lookup"><span data-stu-id="b82aa-104">You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines.</span></span> <span data-ttu-id="b82aa-105">U kunt dit doen vanuit artikelkaarten.</span><span class="sxs-lookup"><span data-stu-id="b82aa-105">You do this from item cards.</span></span>
+# <a name="add-extended-item-text"></a><span data-ttu-id="b0c3b-103">Uitgebreide artikeltekst toevoegen</span><span class="sxs-lookup"><span data-stu-id="b0c3b-103">Add Extended Item Text</span></span>
+<span data-ttu-id="b0c3b-104">U kunt een standaardtekst voor artikelen uitbreiden met extra regels en voorwaarden instellen voor het gebruik van extra regels.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-104">You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines.</span></span> <span data-ttu-id="b0c3b-105">U kunt dit doen vanuit artikelkaarten.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-105">You do this from item cards.</span></span>
 
-## <a name="to-define-extended-text-for-an-item-description"></a><span data-ttu-id="b82aa-106">Uitgebreide tekst definiëren voor een artikelbeschrijving</span><span class="sxs-lookup"><span data-stu-id="b82aa-106">To define extended text for an item description</span></span>
-1. <span data-ttu-id="b82aa-107">Open de kaart voor een artikel waaraan u uitgebreide tekst wilt toevoegen, en kies vervolgens de actie **Tekstuitbreiding**.</span><span class="sxs-lookup"><span data-stu-id="b82aa-107">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
-2. <span data-ttu-id="b82aa-108">Voer in het veld **Code** de code in en voer in het veld **Omschrijving** de gewenste tekst in.</span><span class="sxs-lookup"><span data-stu-id="b82aa-108">In the **Code** field, enter the code, and in the **Description** field, enter the desired text.</span></span>
-3. <span data-ttu-id="b82aa-109">Kies **Uitgebreide teksten**.</span><span class="sxs-lookup"><span data-stu-id="b82aa-109">Choose **Extended Texts**.</span></span>
-4. <span data-ttu-id="b82aa-110">Vul de regels op de pagina **Tekstuitbreiding** met de extra tekst.</span><span class="sxs-lookup"><span data-stu-id="b82aa-110">Fill in the lines on the **Extended Text** page with the additional text.</span></span>
-5. <span data-ttu-id="b82aa-111">Vul het veld **Taalcode** of het veld **Alle taalcodes** in als u taalcodes gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b82aa-111">Fill in the **Language Code** field or the **All Language Codes** field if you use language codes.</span></span>
-6. <span data-ttu-id="b82aa-112">Vul de velden **Begindatum** en **Einddatum** in als u een beperking wilt instellen voor de data waarop de tekstuitbreiding kan worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b82aa-112">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
-7. <span data-ttu-id="b82aa-113">Schakel relevante selectievakjes in voor de documentsoorten waarvoor u de uitgebreide tekst wilt afdrukken.</span><span class="sxs-lookup"><span data-stu-id="b82aa-113">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
-8. <span data-ttu-id="b82aa-114">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="b82aa-114">Close the page.</span></span>
+## <a name="to-define-extended-text-for-an-item-description"></a><span data-ttu-id="b0c3b-106">Uitgebreide tekst definiëren voor een artikelbeschrijving</span><span class="sxs-lookup"><span data-stu-id="b0c3b-106">To define extended text for an item description</span></span>
+1. <span data-ttu-id="b0c3b-107">Open de kaart voor een artikel waaraan u uitgebreide tekst wilt toevoegen, en kies vervolgens de actie **Tekstuitbreiding**.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-107">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
+2. <span data-ttu-id="b0c3b-108">Vul de velden **Code** en **Omschrijving** in.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-108">Fill in the **Code** and **Description** fields.</span></span>
+3. <span data-ttu-id="b0c3b-109">Kies **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-109">Choose the **New**.</span></span>
+4. <span data-ttu-id="b0c3b-110">Vul het veld **Taalcode** in of selecteer het selectievakje **Alle taalcodes** als u taalcodes gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-110">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
+5. <span data-ttu-id="b0c3b-111">Vul de velden **Begindatum** en **Einddatum** in als u een beperking wilt instellen voor de data waarop de tekstuitbreiding kan worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-111">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
+6. <span data-ttu-id="b0c3b-112">Voer in het veld **Tekst** de uitgebreide tekst in.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-112">In the **Text** field, write the extended text.</span></span>
+7. <span data-ttu-id="b0c3b-113">Schakel relevante selectievakjes in voor de documentsoorten waarvoor u de uitgebreide tekst wilt afdrukken.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-113">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
+8. <span data-ttu-id="b0c3b-114">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-114">Close the page.</span></span>
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="b82aa-115">Een uitgebreide artikeltekst op een verkooporderregel toevoegen</span><span class="sxs-lookup"><span data-stu-id="b82aa-115">To add an extended item text on a sales order line</span></span>
-1. <span data-ttu-id="b82aa-116">Open een verkooporder met een verkoopregel voor een artikel waarvoor uitgebreide tekst is gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="b82aa-116">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="b82aa-117">Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="b82aa-117">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
-2. <span data-ttu-id="b82aa-118">Selecteer de desbetreffende regel en kies de actie **Tekstuitbreiding invoegen**.</span><span class="sxs-lookup"><span data-stu-id="b82aa-118">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="b0c3b-115">Een uitgebreide artikeltekst op een verkooporderregel toevoegen</span><span class="sxs-lookup"><span data-stu-id="b0c3b-115">To add an extended item text on a sales order line</span></span>
+1. <span data-ttu-id="b0c3b-116">Open een verkooporder met een verkoopregel voor een artikel waarvoor uitgebreide tekst is gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-116">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="b0c3b-117">Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-117">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+2. <span data-ttu-id="b0c3b-118">Selecteer de desbetreffende regel en kies de actie **Tekstuitbreiding invoegen**.</span><span class="sxs-lookup"><span data-stu-id="b0c3b-118">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b82aa-119">Zie ook</span><span class="sxs-lookup"><span data-stu-id="b82aa-119">See Also</span></span>
-[<span data-ttu-id="b82aa-120">Voorraad instellen</span><span class="sxs-lookup"><span data-stu-id="b82aa-120">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="b82aa-121">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b82aa-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
+## <a name="see-also"></a><span data-ttu-id="b0c3b-119">Zie ook</span><span class="sxs-lookup"><span data-stu-id="b0c3b-119">See Also</span></span>
+[<span data-ttu-id="b0c3b-120">Voorraad instellen</span><span class="sxs-lookup"><span data-stu-id="b0c3b-120">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="b0c3b-121">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b0c3b-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

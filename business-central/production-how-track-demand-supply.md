@@ -2,66 +2,65 @@
 title: Relatie tussen vraag en aanbod bijhouden | Microsoft Docs
 description: Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: de71e4c305b775df8c10306ecc474bc6944d0787
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1de7b6679b6b2494145654f712c3ddb3e760271e
-ms.contentlocale: nl-be
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "816852"
 ---
-# <a name="track-relations-between-demand-and-supply"></a><span data-ttu-id="0fb3d-103">Relaties tussen vraag en aanbod bijhouden</span><span class="sxs-lookup"><span data-stu-id="0fb3d-103">Track Relations Between Demand and Supply</span></span>
-<span data-ttu-id="0fb3d-104">Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-104">From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.</span></span>
+# <a name="track-relations-between-demand-and-supply"></a><span data-ttu-id="fdcb7-103">Relaties tussen vraag en aanbod bijhouden</span><span class="sxs-lookup"><span data-stu-id="fdcb7-103">Track Relations Between Demand and Supply</span></span>
+<span data-ttu-id="fdcb7-104">Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-104">From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.</span></span>
 
-<span data-ttu-id="0fb3d-105">De planningsvoorstellen bevatten ook ondersteunende planninginformatie over entiteiten die geen orders zijn om de planner te helpen een optimaal leveringsplan op te stellen.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-105">The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan.</span></span> <span data-ttu-id="0fb3d-106">Zie de sectie Niet-getraceerde planningselementen voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-106">For more information, see the "Untracked Planning Elements" section.</span></span>
+<span data-ttu-id="fdcb7-105">De planningsvoorstellen bevatten ook ondersteunende planninginformatie over entiteiten die geen orders zijn om de planner te helpen een optimaal leveringsplan op te stellen.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-105">The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan.</span></span> <span data-ttu-id="fdcb7-106">Zie [Niet-getraceerde planningselementen](production-how-track-demand-supply.md#untracked-planning-elements) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-106">For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).</span></span>
 
-## <a name="to-track-linked-items"></a><span data-ttu-id="0fb3d-107">Gekoppelde artikelen traceren</span><span class="sxs-lookup"><span data-stu-id="0fb3d-107">To track linked items</span></span>
-<span data-ttu-id="0fb3d-108">Met behulp van ordertracering kunt u nagaan hoe verkooporders, productieorders en inkooporders aan de productieorder zijn gekoppeld via de plannings- en reserveringssystemen.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-108">Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.</span></span>
+## <a name="to-track-linked-items"></a><span data-ttu-id="fdcb7-107">Gekoppelde artikelen traceren</span><span class="sxs-lookup"><span data-stu-id="fdcb7-107">To track linked items</span></span>
+<span data-ttu-id="fdcb7-108">Met behulp van ordertracering kunt u nagaan hoe verkooporders, productieorders en inkooporders aan de productieorder zijn gekoppeld via de plannings- en reserveringssystemen.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-108">Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.</span></span>
 
-<span data-ttu-id="0fb3d-109">Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande productieorder traceert.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-109">The following describes how to track linked items on a firm planned production order.</span></span> <span data-ttu-id="0fb3d-110">De stappen voor alle andere soorten orders en vanuit planningsvoorstelregels zijn vergelijkbaar.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-110">The steps are similar for all other order types, and from planning worksheet lines.</span></span>
+<span data-ttu-id="fdcb7-109">Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande productieorder traceert.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-109">The following describes how to track linked items on a firm planned production order.</span></span> <span data-ttu-id="fdcb7-110">De stappen voor alle andere soorten orders en vanuit planningsvoorstelregels zijn vergelijkbaar.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-110">The steps are similar for all other order types, and from planning worksheet lines.</span></span>
 
-1. <span data-ttu-id="0fb3d-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span></span>
-2. <span data-ttu-id="0fb3d-112">Open de betreffende vast geplande productieorder in de lijst.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-112">Open the relevant firm planned production order from the list.</span></span>
-3. <span data-ttu-id="0fb3d-113">Op het sneltabblad **Regels** kiest u de actie **Functies** en vervolgens **Ordertracering**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-113">On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.</span></span>
+1. <span data-ttu-id="fdcb7-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span></span>
+2. <span data-ttu-id="fdcb7-112">Open de betreffende vast geplande productieorder in de lijst.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-112">Open the relevant firm planned production order from the list.</span></span>
+3. <span data-ttu-id="fdcb7-113">Op het sneltabblad **Regels** kiest u de actie **Functies** en vervolgens **Ordertracering**.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-113">On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.</span></span>
 
-<span data-ttu-id="0fb3d-114">Op de regels in het venster **Ordertracering** worden de documenten weergegeven die zijn gekoppeld aan de huidige productieorderregel.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-114">The lines in the **Order Tracking** display the documents that are related to the current production order line.</span></span>
+<span data-ttu-id="fdcb7-114">Op de regels in het venster **Ordertracering** worden de documenten weergegeven die zijn gekoppeld aan de huidige productieorderregel.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-114">The lines in the **Order Tracking** display the documents that are related to the current production order line.</span></span>
 
-## <a name="untracked-planning-elements"></a><span data-ttu-id="0fb3d-115">Niet-getraceerde planningselementen</span><span class="sxs-lookup"><span data-stu-id="0fb3d-115">Untracked Planning Elements</span></span>
-<span data-ttu-id="0fb3d-116">De pagina **Niet-getraceerde planningselementen** wordt geopend wanneer u het veld **Niet-getraceerd aantal** op de pagina **Orderplanning** kiest.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-116">The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page.</span></span> <span data-ttu-id="0fb3d-117">Dit dient twee doelen:</span><span class="sxs-lookup"><span data-stu-id="0fb3d-117">It serves two purposes:</span></span>
+## <a name="untracked-planning-elements"></a><span data-ttu-id="fdcb7-115">Niet-getraceerde planningselementen</span><span class="sxs-lookup"><span data-stu-id="fdcb7-115">Untracked Planning Elements</span></span>
+<span data-ttu-id="fdcb7-116">De pagina **Niet-getraceerde planningselementen** wordt geopend wanneer u het veld **Niet-getraceerd aantal** op de pagina **Orderplanning** kiest.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-116">The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page.</span></span> <span data-ttu-id="fdcb7-117">Dit dient twee doelen:</span><span class="sxs-lookup"><span data-stu-id="fdcb7-117">It serves two purposes:</span></span>
 
-1. <span data-ttu-id="0fb3d-118">De tabel bevat informatie over ongetraceerde hoeveelheden die worden weergegeven wanneer de gebruiker opzoekt op de pagina Ordertracering om de ongetraceerde aantallen weer te geven.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-118">To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.</span></span>
-2. <span data-ttu-id="0fb3d-119">De tabel bevat waarschuwingsberichten die worden weergegeven wanneer de gebruiker op het pictogram **Waarschuwing** op de pagina **Planningsvoorstel** klikt.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-119">To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.</span></span>
+1. <span data-ttu-id="fdcb7-118">De tabel bevat informatie over ongetraceerde hoeveelheden die worden weergegeven wanneer de gebruiker opzoekt op de pagina Ordertracering om de ongetraceerde aantallen weer te geven.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-118">To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.</span></span>
+2. <span data-ttu-id="fdcb7-119">De tabel bevat waarschuwingsberichten die worden weergegeven wanneer de gebruiker op het pictogram **Waarschuwing** op de pagina **Planningsvoorstel** klikt.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-119">To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.</span></span>
 
-<span data-ttu-id="0fb3d-120">De pagina bevat posten die een verklaring kunnen geven voor niet-getraceerde overschotaantallen in het ordertraceringsnetwerk.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-120">The page contains entries which account for an untracked surplus quantity in order tracking network.</span></span> <span data-ttu-id="0fb3d-121">Deze posten worden gegenereerd tijdens het planningsproces en verklaren waar het niet-getraceerde overschotaantal in de ordertraceringsregels vandaan kwam.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-121">These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from.</span></span> <span data-ttu-id="0fb3d-122">Dit niet-getraceerde overschot kan afkomstig zijn uit:</span><span class="sxs-lookup"><span data-stu-id="0fb3d-122">This untracked surplus can come from:</span></span>
+<span data-ttu-id="fdcb7-120">De pagina bevat posten die een verklaring kunnen geven voor niet-getraceerde overschotaantallen in het ordertraceringsnetwerk.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-120">The page contains entries which account for an untracked surplus quantity in order tracking network.</span></span> <span data-ttu-id="fdcb7-121">Deze posten worden gegenereerd tijdens het planningsproces en verklaren waar het niet-getraceerde overschotaantal in de ordertraceringsregels vandaan kwam.</span><span class="sxs-lookup"><span data-stu-id="fdcb7-121">These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from.</span></span> <span data-ttu-id="fdcb7-122">Dit niet-getraceerde overschot kan afkomstig zijn uit:</span><span class="sxs-lookup"><span data-stu-id="fdcb7-122">This untracked surplus can come from:</span></span>
 
-- <span data-ttu-id="0fb3d-123">Productieprognose</span><span class="sxs-lookup"><span data-stu-id="0fb3d-123">Production forecast</span></span>
-- <span data-ttu-id="0fb3d-124">Raamcontractenorders</span><span class="sxs-lookup"><span data-stu-id="0fb3d-124">Blanket orders</span></span>
-- <span data-ttu-id="0fb3d-125">Veiligheidsvoorraad</span><span class="sxs-lookup"><span data-stu-id="0fb3d-125">Safety stock quantity</span></span>
-- <span data-ttu-id="0fb3d-126">Bestelpunt</span><span class="sxs-lookup"><span data-stu-id="0fb3d-126">Reorder point</span></span>
-- <span data-ttu-id="0fb3d-127">Maximale voorraad</span><span class="sxs-lookup"><span data-stu-id="0fb3d-127">Maximum inventory</span></span>
-- <span data-ttu-id="0fb3d-128">Bestelaantal</span><span class="sxs-lookup"><span data-stu-id="0fb3d-128">Reorder quantity</span></span>
-- <span data-ttu-id="0fb3d-129">Max. bestelaantal</span><span class="sxs-lookup"><span data-stu-id="0fb3d-129">Maximum order quantity</span></span>
-- <span data-ttu-id="0fb3d-130">Min. bestelaantal</span><span class="sxs-lookup"><span data-stu-id="0fb3d-130">Minimum order quantity</span></span>
-- <span data-ttu-id="0fb3d-131">Vaste lotgrootte</span><span class="sxs-lookup"><span data-stu-id="0fb3d-131">Order multiple</span></span>
-- <span data-ttu-id="0fb3d-132">Demping (% van lotgrootte)</span><span class="sxs-lookup"><span data-stu-id="0fb3d-132">Dampener (% of lot size)</span></span>
+- <span data-ttu-id="fdcb7-123">Productieprognose</span><span class="sxs-lookup"><span data-stu-id="fdcb7-123">Production forecast</span></span>
+- <span data-ttu-id="fdcb7-124">Raamcontractenorders</span><span class="sxs-lookup"><span data-stu-id="fdcb7-124">Blanket orders</span></span>
+- <span data-ttu-id="fdcb7-125">Veiligheidsvoorraad</span><span class="sxs-lookup"><span data-stu-id="fdcb7-125">Safety stock quantity</span></span>
+- <span data-ttu-id="fdcb7-126">Bestelpunt</span><span class="sxs-lookup"><span data-stu-id="fdcb7-126">Reorder point</span></span>
+- <span data-ttu-id="fdcb7-127">Maximale voorraad</span><span class="sxs-lookup"><span data-stu-id="fdcb7-127">Maximum inventory</span></span>
+- <span data-ttu-id="fdcb7-128">Bestelaantal</span><span class="sxs-lookup"><span data-stu-id="fdcb7-128">Reorder quantity</span></span>
+- <span data-ttu-id="fdcb7-129">Max. bestelaantal</span><span class="sxs-lookup"><span data-stu-id="fdcb7-129">Maximum order quantity</span></span>
+- <span data-ttu-id="fdcb7-130">Min. bestelaantal</span><span class="sxs-lookup"><span data-stu-id="fdcb7-130">Minimum order quantity</span></span>
+- <span data-ttu-id="fdcb7-131">Vaste lotgrootte</span><span class="sxs-lookup"><span data-stu-id="fdcb7-131">Order multiple</span></span>
+- <span data-ttu-id="fdcb7-132">Demping (% van lotgrootte)</span><span class="sxs-lookup"><span data-stu-id="fdcb7-132">Dampener (% of lot size)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0fb3d-133">Zie ook</span><span class="sxs-lookup"><span data-stu-id="0fb3d-133">See Also</span></span>  
-<span data-ttu-id="0fb3d-134">[Gepland](production-planning.md) </span><span class="sxs-lookup"><span data-stu-id="0fb3d-134">[Planning](production-planning.md) </span></span>  
-[<span data-ttu-id="0fb3d-135">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="0fb3d-135">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="0fb3d-136">[Productie](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="0fb3d-136">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="0fb3d-137">Voorraad</span><span class="sxs-lookup"><span data-stu-id="0fb3d-137">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="0fb3d-138">Inkoop</span><span class="sxs-lookup"><span data-stu-id="0fb3d-138">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="0fb3d-139">Ontwerpdetails: Reservering, tracering en planningsboodschappen</span><span class="sxs-lookup"><span data-stu-id="0fb3d-139">Design Details: Reservation, Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
-<span data-ttu-id="0fb3d-140">[Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="0fb3d-140">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
-[<span data-ttu-id="0fb3d-141">Aanbevolen procedures instellen: voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="0fb3d-141">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="0fb3d-142">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0fb3d-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
+## <a name="see-also"></a><span data-ttu-id="fdcb7-133">Zie ook</span><span class="sxs-lookup"><span data-stu-id="fdcb7-133">See Also</span></span>  
+<span data-ttu-id="fdcb7-134">[Gepland](production-planning.md) </span><span class="sxs-lookup"><span data-stu-id="fdcb7-134">[Planning](production-planning.md) </span></span>  
+[<span data-ttu-id="fdcb7-135">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="fdcb7-135">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="fdcb7-136">[Productie](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="fdcb7-136">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="fdcb7-137">Voorraad</span><span class="sxs-lookup"><span data-stu-id="fdcb7-137">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="fdcb7-138">Inkoop</span><span class="sxs-lookup"><span data-stu-id="fdcb7-138">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="fdcb7-139">Ontwerpdetails: Reservering, tracering en planningsboodschappen</span><span class="sxs-lookup"><span data-stu-id="fdcb7-139">Design Details: Reservation, Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
+<span data-ttu-id="fdcb7-140">[Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="fdcb7-140">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="fdcb7-141">Aanbevolen procedures instellen: voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="fdcb7-141">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="fdcb7-142">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fdcb7-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
