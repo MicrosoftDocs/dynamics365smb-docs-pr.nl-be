@@ -1,1 +1,0 @@
-Dit is een functionaliteit waaraan nog steeds wordt gewerkt. De functionaliteit en de inhoud op deze pagina kunnen nog worden gewijzigd. Als u wilt weten wat er op stapel staat, raadpleegt u de [Microsoft Finance and Operations, Business edition Roadmap](https://go.microsoft.com/fwlink/?linkid=842139).

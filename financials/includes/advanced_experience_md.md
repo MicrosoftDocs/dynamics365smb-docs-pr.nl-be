@@ -1,1 +1,0 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>GEAVANCEERD</b><br />Deze functionaliteit is alleen beschikbaar met de ervaring Geavanceerd. Zie [Uw Finance and Operations, Business edition-ervaring aanpassen](../ui-experiences.md) voor meer informatie </blockquote>
