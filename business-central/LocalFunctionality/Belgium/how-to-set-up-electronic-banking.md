@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4694c4a260e54761ed015a25bb1bb795e36eee1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e85b3b167e165a3e57504efa8544a5c5ab573fa3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826385"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922858"
 ---
 # <a name="set-up-electronic-banking"></a>Elektronisch bankieren instellen
 > [!Note]

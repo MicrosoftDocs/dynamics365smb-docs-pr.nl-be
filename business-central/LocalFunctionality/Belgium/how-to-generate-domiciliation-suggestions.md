@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 646e318742a303b8586f61578efeaae2f92aa6a2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9813ad254313444b8cfc25d70b518a341b497003
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826391"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936383"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren
 Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u alleen domiciliëringsvoorstellen voor binnenlandse klanten maken.  

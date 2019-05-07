@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d686633d74d1a494d71f300d57af928ab826a036
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d9f415b2cb4813728ec1f225b4dea410748c7646
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826368"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926362"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Domiciliëringsregels bewerken en verwijderen
 Nadat u domiciliëringsvoorstellen hebt gegenereerd, kunt u de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  

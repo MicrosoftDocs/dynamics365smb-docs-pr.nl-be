@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9dd266506dcc8980bf2cc88fd5a2fc79d8134282
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 08b25897f22b126485e82c72e825505e697ddcfc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826375"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922785"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Bankrekeningen instellen voor CODA
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  

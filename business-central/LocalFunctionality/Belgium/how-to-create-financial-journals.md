@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a52c2e5f3f98989879f46a833f06004f00608c35
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 57e4c822fe4120ff0db3aff0f83c4b1861c37981
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826351"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915520"
 ---
 # <a name="create-financial-journals"></a>Financiële dagboeken maken
 In financiële dagboeken worden bankrekeningtransacties geregistreerd. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.  

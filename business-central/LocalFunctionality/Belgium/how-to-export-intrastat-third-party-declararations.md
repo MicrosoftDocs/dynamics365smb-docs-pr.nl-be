@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/30/2018
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: acb6c589ad748d7e98e71acef9cc0d6e62fc53d3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0d6b83caf571b8d839ec8280aa833b3a8fa60b7f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826401"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931281"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn. 

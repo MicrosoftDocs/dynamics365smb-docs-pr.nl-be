@@ -1,71 +1,79 @@
 ---
 title: Belgische lokale functionaliteit
 description: In de volgende onderwerpen wordt de lokale functionaliteit in de Belgische versie van Business Central beschreven.
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/11/2018
-ms.author: sgroespe
-ms.openlocfilehash: 471a4ea8267e790148c44efc618418229b246d91
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: soalex
+ms.openlocfilehash: 83832898f39c97feb956a652e8a8a18c135fac3f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826419"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913742"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 
-## <a name="in-this-section"></a>In dit gedeelte  
-[SEPA-betalingen activeren](how-to-activate-sepa-payments.md)  
-[Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)  
-[CODA-afschriften vereffenen](how-to-apply-coda-statements.md)  
-[IBS-logposten archiveren](how-to-archive-ibs-log-entries.md)  
-[CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md)  
-[Elektronisch bankieren voor België](belgian-electronic-banking.md)  
-[Belgische elektronische betalingen](belgian-electronic-payments.md)    
-[Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
-[Belgische btw](belgian-vat.md)  
-[Ondernemingnummers en filiaalnummers](enterprise-numbers-and-branch-numbers.md)  
-[CODA-bankafschriften](coda-bank-statements.md)  
-[Financiële dagboeken maken](how-to-create-financial-journals.md)  
-[Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)  
-[Incasso via domiciliëring](direct-debit-using-domiciliation.md)  
-[CODA-bestanden van een Isabel-server downloaden](how-to-download-coda-files-from-an-isabel-server.md)  
-[Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)  
-[Exporteren naar Accon](how-to-export-to-accon.md)  
-[Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)  
-[Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)  
-[SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md)  
-[SEPA-betalingen indienen](how-to-file-sepa-payments.md)  
-[Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md)  
-[Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)  
-[Isabel 6](isabel-6.md)  
-[De boekingsperiode beperken](how-to-limit-the-posting-period.md)  
-[CODA-afschriften importeren](how-to-import-coda-statements.md)  
-[Handmatig btw-correcties doorvoeren](how-to-make-manual-corrections-to-vat.md)  
-[Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)  
-[CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md)  
-[Betalingsbestanden afdrukken](how-to-print-payment-files.md)  
-[Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)  
-[Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)  
-[SEPA-betalingen](sepa-payments.md)  
-[De werkdatum als boekingsdatum instellen](how-to-set-the-work-date-as-the-posting-date.md)  
-[Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)  
-[Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)  
-[Aangiftesoorten instellen](how-to-set-up-declaration-types.md)  
-[Domiciliëringen instellen](how-to-set-up-domiciliations.md)  
-[Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)  
-[Exportprotocollen instellen](how-to-set-up-export-protocols.md)  
-[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)  
-[Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)  
-[Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)  
-[Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
-[Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md)  
-[Domiciliëringen testen](how-to-test-domiciliations.md)  
-[Elektronische betalingen testen](how-to-test-electronic-payments.md)  
-[Betalingsbestanden uploaden naar een Isabel-server](how-to-upload-payment-files-to-an-isabel-server.md)
+## <a name="feature-availability"></a>Beschikbaarheid van functies
+
+* Btw en belasting
+    * [Belgische btw](belgian-vat.md) **Nu beschikbaar**
+    * [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md) **Nu beschikbaar**
+    * [Handmatig btw-correcties doorvoeren](how-to-make-manual-corrections-to-vat.md) **Nu beschikbaar**
+    * [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md) **Nu beschikbaar**
+    * [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md) **Nu beschikbaar**
+    * [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md) **Nu beschikbaar**
+    * [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md) **Nu beschikbaar**    
+    * [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md) **Nu beschikbaar**
+    * [Aangiftesoorten instellen](how-to-set-up-declaration-types.md) **Nu beschikbaar**
+    * [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md) **Nu beschikbaar**
+
+* Bankieren en betalingen
+    * [Bankrekeningen voor CODA instellen](how-to-set-up-bank-accounts-for-coda.md) **Nu beschikbaar**
+    * [CODA-afschriften vereffenen](how-to-apply-coda-statements.md) **Nu beschikbaar**
+    * [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md) **Nu beschikbaar**
+    * [CODA-bankafschriften](coda-bank-statements.md) **Nu beschikbaar**
+    * [CODA-bestanden van een Isabel-server downloaden](how-to-download-coda-files-from-an-isabel-server.md) **Nu beschikbaar**
+    * [Elektronisch bankieren voor België](belgian-electronic-banking.md) **Nu beschikbaar**
+    * [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md) **Nu beschikbaar**
+    * [Exportprotocollen instellen](how-to-set-up-export-protocols.md) **Nu beschikbaar**
+    * [Belgische elektronische betalingen](belgian-electronic-payments.md) **Nu beschikbaar**
+    * [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) **Nu beschikbaar**
+    * [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md) **Nu beschikbaar**
+    * [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md) **Nu beschikbaar**
+    * [Elektronische betalingen testen](how-to-test-electronic-payments.md) **Nu beschikbaar**
+    * [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md) **Nu beschikbaar**
+    * [Isabel 6](isabel-6.md) **Nu beschikbaar**
+    * [Betalingsbestanden uploaden naar een Isabel-server](how-to-upload-payment-files-to-an-isabel-server.md) **Nu beschikbaar**
+    * [CODA-afschriften importeren](how-to-import-coda-statements.md) **Nu beschikbaar**
+    * [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md) **Nu beschikbaar**
+    * [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md) **Nu beschikbaar**
+    * [Betalingsbestanden afdrukken](how-to-print-payment-files.md) **Nu beschikbaar**
+    * [SEPA-betalingen](sepa-payments.md) **Nu beschikbaar**
+    * [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) **Nu beschikbaar**
+    * [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md) **Nu beschikbaar**
+    * [SEPA-betalingen indienen](how-to-file-sepa-payments.md) **Nu beschikbaar**
+    * [Incasso via domiciliëring](direct-debit-using-domiciliation.md) **Nu beschikbaar**
+    * [Domiciliëringen instellen](how-to-set-up-domiciliations.md) **Nu beschikbaar**
+    * [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md) **Nu beschikbaar**
+    * [Domiciliëringen testen](how-to-test-domiciliations.md) **Nu beschikbaar**
+    * [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md) **Nu beschikbaar**
+    * [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md) **Nu beschikbaar**
+    * [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md) **Nu beschikbaar**
+    * [IBS-logposten archiveren](how-to-archive-ibs-log-entries.md) **Nu beschikbaar**
+
+* Financiële kernprocessen
+    * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
+    * [Financiële dagboeken maken](how-to-create-financial-journals.md) **Nu beschikbaar**
+    * [Exporteren naar Accon](how-to-export-to-accon.md) **Nu beschikbaar**
+
+* Alge&meen
+    * [Ondernemingnummers en filiaalnummers](enterprise-numbers-and-branch-numbers.md) **Nu beschikbaar**
+    * [De boekingsperiode beperken](how-to-limit-the-posting-period.md) **Nu beschikbaar**
+    * [De werkdatum als boekingsdatum instellen](how-to-set-the-work-date-as-the-posting-date.md) **Nu beschikbaar**
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

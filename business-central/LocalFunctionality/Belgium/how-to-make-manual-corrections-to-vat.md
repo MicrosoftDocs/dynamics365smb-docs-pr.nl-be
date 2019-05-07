@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d724a30fbb2b8dedfe6b643738847826d3943047
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e1c2a5f9eec99f7185f7284be1f91ebd8608898b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826427"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931309"
 ---
 # <a name="make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren
 U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.  

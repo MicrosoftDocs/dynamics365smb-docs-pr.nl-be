@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c6beb7dec4b5b2594ee3232ea6c28dffa4a501a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4afcb91bbdc3f05fb42b86d4160276cd69ed09c7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826409"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913772"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
 > [!Note]

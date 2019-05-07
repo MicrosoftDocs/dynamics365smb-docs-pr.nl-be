@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4baec5644de8d60f4c6943bb1529d133f63cd104
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826348"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937405"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Leveranciers voor automatische betalingsvoorstellen instellen
 U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen. Voor elke leverancier moet u bepalen of er automatisch betalingsvoorstellen moeten worden gegenereerd. Als u geen betalingsvoorstellen voor een leverancier wilt genereren, schakelt u het selectievakje **Betalingen voorstellen** niet in. In dat geval worden de openstaande posten voor de leverancier niet opgenomen in betalingsvoorstellen.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fd0fd5d1b7aa15d2d5249278a00b6350f953a777
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a40c1158ef0ca9b6465049925606db880099e90a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826405"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924774"
 ---
 # <a name="set-up-non-deductible-vat"></a>Niet-aftrekbare btw instellen
 U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven. Wanneer u op de pagina **Grootboekrekening** 75 procent opgeeft in het veld **% niet-aftrekbare btw**, wordt 75 procent van het normale btw-bedrag beschouwd als bijkomende kosten en tijdens het boeken toegevoegd aan het nettobedrag. De resterende 25 procent wordt als normale btw geboekt.  
