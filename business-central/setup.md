@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852091"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969844"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw bedrijf.
@@ -27,7 +27,7 @@ Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u hel
 > [!NOTE]
 > U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, kan handmatig worden ingesteld, naast de begeleide configuratie. Hieronder volgt een overzicht van enkele functies die u handmatig kunt configureren.
+Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, kan handmatig worden ingesteld, naast de begeleide instelling. Hieronder volgt een overzicht van enkele functies die u handmatig kunt configureren.
 
 | Als u dit wilt doen: | Zie |
 | --- | --- |
@@ -48,7 +48,7 @@ Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, k
 |Krijg inzicht in uw Business Central-gegevens met Power BI en de Business Central-inhoudspakketten.|[Uw bedrijfsgegevens inschakelen voor Power BI](admin-powerbi.md)|
 |Gebruik uw Business Central-gegevens als onderdeel van een werkstroom in Microsoft Flow.|[Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)|
 |Maak uw Business Central-gegevens als een gegevensbron beschikbaar in PowerApps.|[Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Gebruik speciale Quickbooks-migratiehandleidingen.|[Overstappen van een QuickBooks-app op Business Central](across-quickbooks-to-business-edition.md)|
+|Gebruik speciale Quickbooks-migratiehandleidingen.|[Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)|
 |Toegang tot uw Business Central-gegevens krijgen vanaf uw mobiele apparaat.|[Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)|
 |Afspraken massaal factureren in Bookings.|[Massaal factureren voor Microsoft Bookings](finance-bookings.md)|
 |Stel een SMTP-server in om communicatie per e-mail in en vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] in te stellen.| [E-mail handmatig instellen of de begeleide instelling gebruiken](admin-how-setup-email.md)|
@@ -58,18 +58,18 @@ Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, k
 Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement zijn. Zie [Beheer](admin-setup-and-administration.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
+
 [Beheer](admin-setup-and-administration.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Voorraad](inventory-manage-inventory.md)    
+[Voorraad](inventory-manage-inventory.md)  
 [Projectbeheer](projects-manage-projects.md)  
-[Vast activum](fa-manage.md)    
+[Vaste activa](fa-manage.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Productie](production-manage-manufacturing.md)  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Beheer](admin-setup-and-administration.md)  
 [Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Aan de slag](product-get-started.md)  
 

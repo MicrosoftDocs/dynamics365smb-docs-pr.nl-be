@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/04/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 20ef2d88bb5f96326962efb53fd724b8fc706dc5
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816505"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939236"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
 
@@ -86,7 +86,7 @@ Als u de functionaliteit van een miniformfunctie wilt implementeren of wijzigen,
 2. Kies de actie **Nieuw**.  
 3.  Voer in het veld **Code** een code in voor het miniform. Geef desgewenst in alle andere velden waarden op.  
 
-    Schakel het selectievakje **Start Miniform** in om aan te geven dat het miniform het eerste formulier is dat de gebruiker bij het aanmelden ziet.  
+    Schakel het selectievakje **Start miniform** in om aan te geven dat het miniform het eerste formulier is dat de gebruiker bij het aanmelden ziet.  
 
 4.  Definieer op het sneltabblad **Regels** de velden die op het miniform worden weergegeven. De volgorde waarin u de regels invoert, is de volgorde waarin de regels op het draagbare apparaat worden weergegeven.  
 

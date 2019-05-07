@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d9c6b19d49ea9423762b0b4b5cf61eae0e325034
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816032"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933992"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Functiegroepen instellen voor contactpersonen
 U kunt informatie over de functiegroepen van contactpersonen toevoegen om aan te geven waar de contactpersoon verantwoordelijk voor is binnen het bedrijf, bijvoorbeeld IT, beheer of productie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.

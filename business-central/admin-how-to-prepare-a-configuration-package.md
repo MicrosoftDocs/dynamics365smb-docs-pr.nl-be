@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816441"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941646"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
-Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket.  
+Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie. 
 
 Als u uw klant wilt helpen bij het gebruiken van het configuratiepakket, wilt u wellicht een vragenlijst of een reeks vragenlijsten aan het pakket toevoegen. De vragenlijst kan de klant helpen inzicht te krijgen in de verschillende instellingsopties. Meestal worden vragenlijsten gemaakt voor de belangrijkste instellingentabellen, wanneer een klant mogelijk aanvullende richtlijnen over het selecteren van een juiste instelling nodig heeft. Zie voor meer informatie [Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md).
 

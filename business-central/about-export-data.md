@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 11/21/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382bee236225c1038430bb2243c6c54b56ef772e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815750"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935958"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
 Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[d365fin](includes/d365fin_md.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.

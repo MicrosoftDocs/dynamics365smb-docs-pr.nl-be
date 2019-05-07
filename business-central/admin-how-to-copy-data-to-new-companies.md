@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817048"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939000"
 ---
 # <a name="copy-data-to-new-companies"></a>Gegevens kopiëren naar nieuwe bedrijven
 U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan. Als u bijvoorbeeld een standaardlijst met symptoomcodes hebt die wordt gedeeld door al uw servicemanagementimplementaties, kunt u de codes gemakkelijk vanuit één bedrijf naar het andere kopiëren.  

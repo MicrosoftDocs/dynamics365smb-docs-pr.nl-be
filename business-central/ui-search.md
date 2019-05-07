@@ -1,34 +1,36 @@
 ---
 title: Functies en informatie zoeken | Microsoft Docs
-description: In dit onderwerp wordt beschreven hoe u acties, pagina's, rapporten, documentatie en gegevens zoekt.
-author: SusanneWindfeldPedersen
+description: In dit onderwerp wordt beschreven hoe u acties, pagina's, rapporten, documentatie, en gegevens zoekt, en andere apps en consultingservices.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816690"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934431"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Vertel me gebruiken om functies en informatie te vinden  
-In dit onderwerp worden verschillende manieren beschreven waarop Vertel me u kan helpen snel een actie, pagina of rapport te vinden, of te leren iets te doen in [!INCLUDE[d365fin](includes/d365fin_md.md)] als u niet weet hoe.  
+In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  
 
-> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-## <a name="find-pages-reports-actions-and-documentation"></a>Pagina's, rapporten, acties, en documentatie zoeken 
-Wanneer u hulp nodig hebt bij het vinden van een pagina, een rapport of een artikel in onze documentatie, of een actie op de pagina die open is, gebruikt u het pictogram ![Vertel me wat u wilt doen](media/ui-search/search.png "Pagina of rapport zoeken") **Vertel me wat u wilt doen** om er op naam naar te zoeken. U kunt ook ALT+Q gebruiken om Vertel me te gebruiken.
+Wanneer u hulp nodig hebt om iets te vinden, gebruikt u het pictogram ![Vertel me wat u wilt doen](media/ui-search/search.png "Zoeken naar pagina of rapport") **Vertel me wat u wilt doen** om ernaar te zoeken. U kunt ook ALT+Q gebruiken om Vertel me te gebruiken.
 
-Als u begint met het typen van tekens, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] direct overeenkomsten weer in een vervolgkeuzelijst. Resultaten in de lijst veranderen naarmate u meer tekens typt. De tweede kolom in de vervolgkeuzelijst geeft de algemene categorie van het resultaat aan.   
+Als u begint met het typen van tekens, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] direct overeenkomsten weer. Resultaten in de lijst veranderen naarmate u meer tekens typt. Als u merkt dat wanneer u het woord 'product' invoert de resultaten 'artikelen' bevatten, is dat omdat Vertel me synoniemen en alternatieve zoektermen gebruikt om het gemakkelijk te maken acties, pagina's en rapporten te vinden. 
+
+De kolom rechts geeft de algemene categorie van het resultaat aan. Bijvoorbeeld of er een lijstpagina wordt geopend of of het een beheerderstaak is.  
 
 > [!NOTE]  
->   Wanneer u op **Enter** drukt op het toetsenbord, opent [!INCLUDE[d365fin](includes/d365fin_md.md)] het resultaat dat het eerst wordt weergegeven. Als u liever het toetsenbord gebruikt, gebruikt u de Tab-toets en de pijltoetsen om een item in de resultaten te kiezen.
+>   Als u liever het toetsenbord gebruikt, gebruikt u de Tab-toets en de pijltoetsen om een item in de resultaten te kiezen. Als u op **Enter** drukt op het toetsenbord zonder een resultaat te kiezen, opent [!INCLUDE[d365fin](includes/d365fin_md.md)] het resultaat dat het eerst wordt weergegeven.
 
 ### <a name="find-an-action-on-the-current-page"></a>Een actie op de huidige pagina zoeken
 In het gedeelte **Op huidige pagina** kunt u acties zoeken en uitvoeren op de pagina die u hebt geopend. Als de pagina Verkoopofferte open is en u "klant" typt, bevat het gedeelte een actie waarmee de klantenkaart wordt geopend voor de gekozen klant in de verkoopofferte. 
@@ -47,6 +49,9 @@ Onder **Documentatie** ziet u artikelen uit de documentatie van [!INCLUDE[d365fi
 
 > [!NOTE]  
 >   Documentatie voor extensies van derden wordt niet opgenomen in de resultaten. 
+
+### <a name="get-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Meer functionaliteit krijgen door een app te vinden in Microsoft AppSource
+Onze partnercommunity is druk bezig apps te ontwikkelen die mogelijkheden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. De sectie **Ophalen uit Microsoft AppSource** bevat apps voor [!INCLUDE[d365fin](includes/d365fin_md.md)] die beschikbaar zijn op Microsoft AppSource en gerelateerd zijn aan het trefwoord waarop u zocht.
 
 ## <a name="searching-for-data"></a>Zoeken naar gegevens
 De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantnamen, adressen of transacties. In plaats hiervan kunt u gegevens zoeken in lijstpagina's door het pictogram ![Lijst zoeken](media/ui-search/search-list.png "pictogram Lijst zoeken") **Zoeken** te kiezen in de linkerbovenhoek van de lijstkoptekst. De zoekopdracht is alleen van toepassing op de lijst die u weergeeft. Zie voor meer informatie [Lijsten sorteren, zoeken en filteren](ui-enter-criteria-filters.md).

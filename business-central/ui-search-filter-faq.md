@@ -4,18 +4,16 @@ description: Beantwoordt veelgestelde vragen over zoeken en filteren.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: mikebc
-ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852068"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969867"
 ---
 # <a name="searching-and-filtering-faq"></a>Veelgestelde vragen over zoeken en filteren
 In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
@@ -36,7 +34,10 @@ Het filterdeelvenster is beschikbaar op pagina's waar de lijst de primaire inhou
 Uw filters en wijzigingen in vooraf gedefinieerde filters worden de hele sessie onthouden (zolang u aangemeld blijft), zelfs als u van de pagina weg navigeert. Het is momenteel niet mogelijk filters permanent op te slaan. In tegenstelling tot filters wordt zoektekst niet onthouden wanneer u van een pagina weg navigeert.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Is dit hetzelfde als Geavanceerde Filters en Limiettotalen in Microsoft Dynamics NAV?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bouwt voort op deze populaire functies en levert een moderne en zeer praktische ervaring voor het zoeken en analyseren van uw gegevens. Dankzij meer toetsenbordsneltoetsen en de invoering van zoeken overtreft [!INCLUDE[d365fin](includes/d365fin_md.md)] de functionaliteit in Dynamics NAV.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bouwt voort op deze populaire functies en levert een moderne en zeer praktische ervaring voor het zoeken en analyseren van uw gegevens. Dankzij meer toetsenbordsneltoetsen en de invoering van zoeken overtreft [!INCLUDE[d365fin](includes/d365fin_md.md)] de functionaliteit in Dynamics NAV.  
+
+Zie ook [Is het filterdeelvenster beschikbaar om rapporten te filteren?](#is-the-filter-pane-available-for-filtering-reports)  
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Kan ik zoeken en filteren met de bijbehorende apps en de Outlook-Invoegtoepassing?
 Op verschillende weergavebestemmingen, zoals mobiele apparaten of in Outlook, kunt u zoeken in lijsten, maar kunt u meestal niet filteren op afzonderlijke velden.
@@ -54,5 +55,6 @@ Er is een tijdslimiet voor hoe lang een zoekbewerking kan duren. Probeer eerst d
 Als on-premises beheerder verlengt u de tijdslimiet voor zoekopdrachten door de instelling **Time-out voor zoeken** van de [!INCLUDE[prodshort](includes/prodshort.md)]-server te wijzigen. Zie voor meer informatie [Business Central Server configureren](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in de Business Central Developer en IT Pro Help.
 
 ## <a name="see-also"></a>Zie ook
+
 [Aan de slag](product-get-started.md)  
-[Sorteren, zoeken en filteren in lijsten](ui-enter-criteria-filters.md)
+[Sorteren, zoeken en filteren in lijsten](ui-enter-criteria-filters.md)  

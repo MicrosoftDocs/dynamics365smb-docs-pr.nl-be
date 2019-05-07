@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815761"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953522"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
@@ -101,7 +101,7 @@ In de volgende procedures moet u van tevoren kijken welke waarden u wilt behoude
 5. Voer in het veld **Oude waarde** de waarde in die u wilt wijzigen. Voer in het veld **Nieuwe waarde** de waarde in waarin u de oude waarde wilt wijzigen. Kies de knop **OK**.  
 6. Importeer de klantgegevens. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie.
 7. Kijk in het veld **Aantal pakketfouten** of er fouten zijn gerapporteerd. Zoom in om fouten te bekijken als die er zijn. De pagina **Pakketrecords voor configuratie** wordt geopend.
-8. Kies de actie **Fout weergeven**. U ziet het volgende foutbericht: **<option> is geen geldige optie. Geldige opties zijn <valid option list>**. Kies de knop **OK**.  
+8. Kies de actie **Fout weergeven**. U ziet het volgende foutbericht: **XX is geen geldige optie. Geldige opties zijn: XX**. Kies de knop **Ok**.  
 9. Als u de toewijzing wilt toepassen die u hebt ingesteld, kiest u de actie **Gegevens toepassen**.  
 
 ### <a name="mapping-example"></a>Voorbeeld van toewijzing  
@@ -153,7 +153,11 @@ Nadat de klantgegevens zijn ingevoerd in de gegevensmigratiebestanden in Excel, 
 
 1. Open de pagina **Pakketkaart voor configuratie**.
 2. Selecteer de tabel waarvoor u waarden wilt importeren en kies op het sneltabblad **Tabellen** de actie **Vanuit Excel importeren**.
-3. Zoek en open het gewenste bestand waaruit u gegevens wilt importeren naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Zoek en open het bestand waaruit u gegevens wilt importeren.
+4. Bekijk op de pagina **Voorbeeld weergeven van import van configuratiepakket** de inhoud die wordt geïmporteerd.
+
+    De pagina **Voorbeeld weergeven van import van configuratiepakket** biedt een overzicht van de Excel-inhoud die wordt geïmporteerd. De pagina geeft ook aan of een nieuw configuratiepakket wordt gemaakt of dat het bestaande wordt bijgewerkt, en of nieuwe configuratiepakketregels (tabellen) worden gemaakt of bestaande worden bijgewerkt.    
+5. Kies de actie **Importeren**.
 
 Gegevens uit het bestand worden geïmporteerd in de configuratiepakkettabellen. U kunt het aantal records zien dat werd aangemaakt, in het veld **Aantal pakketrecords**. Bovendien ziet u het aantal migratiefouten.
 

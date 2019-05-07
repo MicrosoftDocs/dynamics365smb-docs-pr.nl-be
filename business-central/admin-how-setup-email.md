@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816683"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939164"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>E-mail handmatig instellen of de begeleide instelling gebruiken
 Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de velden op de pagina **SMTP-mailinstellingen** invullen.
@@ -24,7 +24,7 @@ Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin
 > [!NOTE]  
 >   In plaats van de SMTP-serverdetails in te voeren, kunt u een functie gebruiken om ze in te voeren met informatie uit uw Office 365-abonnement.
 
-U kunt uw e-mail handmatig instellen of u help kunt krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+U kunt uw e-mail handmatig instellen of u kunt hulp krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>E-mail instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.

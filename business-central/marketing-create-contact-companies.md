@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815862"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938977"
 ---
-# <a name="creating-contacts"></a>Contacten maken
-Uw bedrijf ontmoet regelmatig potentiële bedrijven die in de toekomst meestal zakenrelaties worden. Wanneer een nieuw contact tot stand is gekomen, moet deze informatie worden geregistreerd zodat de communicatie kan worden voortgezet.
+# <a name="create-contacts"></a>Contacten maken
+U ontmoet regelmatig personen van andere bedrijven, wat kan leiden tot zakenrelaties, zoals een klantrelatie. Als een dergelijk nieuw contact tot stand is gekomen, moet zoveel mogelijk informatie op een contactkaart worden geregistreerd zodat de communicatie kan worden voortgezet.
 
-Door zoveel mogelijk gegevens over een specifiek bedrijf toe te wijzen garandeert u een efficiënte communicatie. Als u bijvoorbeeld de relevante sectoren toewijst, zorgt u ervoor dat specifieke bedrijven worden inbegrepen in iedere relevante communicatie. U kunt ook de zakenrelatie met een contact definiëren. Een contact kan bijvoorbeeld een prospect, bank of contractant zijn.
+## <a name="person-or-company"></a>Persoon of bedrijf
+U kunt besluiten een contact in te stellen als een persoon of bedrijf, meestal afhankelijk van de vraag of u de naam van de contactpersoon op dat moment weet. U doet dit wanneer u het veld **Soort** op de pagina **Contactkaart** invult. U kunt ook contactkaarten onderhouden voor zowel een bedrijf als een of meer personen die in het bedrijf werken. Dit gebeurt automatisch wanneer u het veld **Bedrijfsnaam** op een contactkaart van het soort **Persoon** invult.
 
-> [!NOTE]
-> In het veld **Soort** op de pagina **Contactkaart** kunt u een contact instellen als een persoon of bedrijf, meestal afhankelijk van de vraag of u de naam van de contactpersoon op dat moment weet. De functionaliteit is gelijk voor beide soorten, behalve enkele extra informatietypen die kunnen worden toegewezen. U kunt de waarde van het veld later wijzigen of u kunt de velden op het sneltabblad **Overerving** op de pagina **Marketinginstellingen** gebruiken om te bepalen welke gegevens worden gedeeld tussen een persoon en het gerelateerde bedrijf.
-
-U kunt een contactkaart maken voor elke nieuwe persoon of bedrijf waarmee u een zakelijke relatie hebt, bijvoorbeeld een klant, leverancier, potentiële klant, bank, advocatenkantoor, consultant, enzovoort.
-
-U kunt een contact op twee manieren maken:
- * Handmatig.
- * Van een bestaande klant, leverancier of bankrekening.
+De functionaliteit is gelijk voor beide soorten, behalve dat de opties voor aanvullende informatie afhankelijk van het type verschillen. U kunt bijvoorbeeld alleen functiegroepen toewijzen aan een persoon en een sector alleen aan een bedrijf. Dit wordt aangegeven in de gebruikersinterface doordat velden en acties die niet van toepassing zijn, grijs worden gemaakt. U kunt de waarde van het veld **Type** later wijzigen of u kunt de velden op het sneltabblad **Overerving** op de pagina **Marketinginstellingen** gebruiken om te bepalen welke gegevens worden gedeeld tussen een persoon en het gerelateerde bedrijf van de persoon. Zie voor meer informatie [Contacten instellen](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Handmatig een contact maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.

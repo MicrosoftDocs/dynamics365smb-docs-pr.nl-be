@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817137"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941831"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De service Envestnet Yodlee Bank Feeds instellen
 U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **Betalingsreconciliatiedagboek** te vullen, zodat u betalingen kunt vereffenen en de bankrekening kunt reconciliëren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-De feedservice van de Envestnet Yodlee Bank wordt geïnstalleerd als een extensie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] en kan worden ingeschakeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
-
 > [!NOTE]
-> De service Envestnet Yodlee Bank Feeds wordt alleen ondersteund in de V.S., Canada en het V.K.<br /><br />
-> De functionaliteit wordt alleen ondersteund in de online versie van Business Central. Als u deze functionaliteit on-premise wilt gebruiken, moet u een cobrand-account verkrijgen bij Envestnet Yodlee.
+> De service Envestnet Yodlee Bank Feeds wordt alleen ondersteund in de online versie van Business Central. Als u deze functionaliteit on-premises wilt gebruiken, moet u een cobrand-account verkrijgen bij Envestnet Yodlee.<br /><br />
+> De service Envestnet Yodlee Bank Feeds wordt alleen ondersteund in de V.S., Canada en het V.K.
+
+De feedservice van de Envestnet Yodlee Bank wordt geïnstalleerd als een extensie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] online en kan worden ingeschakeld in de ondersteunde landen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
 
 Nadat u de bankfeedservice hebt ingeschakeld, moet u een bankrekening koppelen aan de online bankrekening waar de feed vandaan zal komen. U koppelt bankrekeningen aan online bankrekeningen in de volgende scenario's:
 

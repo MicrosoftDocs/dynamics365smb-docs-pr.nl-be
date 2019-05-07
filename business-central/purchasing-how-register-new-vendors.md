@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9f388b788e8788049ee30567972090984063cad1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816925"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930367"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 Leveranciers leveren de producten die u verkoopt. Elke leverancier van wie u inkoopt, moet als een leverancierkaart zijn geregistreerd.
@@ -54,6 +54,7 @@ Als u deze leverancierskaart als sjabloon wilt gebruiken wanneer u nieuwe levera
    De leveranciersjabloon wordt toegevoegd aan de lijst met leveranciersjablonen, zodat u deze kunt gebruiken om nieuwe leverancierskaarten te maken.
 
 ## <a name="see-also"></a>Zie ook
+[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)  
 [Nummerreeksen maken](ui-create-number-series.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)   

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853106"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939474"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
@@ -40,6 +40,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 |Koppel afbeeldingen, documenten en andere soorten bestanden aan alle kaarten, zoals de artikelkaart en de projectkaart, en koppel bestanden aan alle soorten verkoop- en inkoopdocumenten.|[Bestanden koppelen een kaarten en documenten](across-attach-document-master-data.md)|
 |Werken met uw Business Central-gegevens in Excel.|[Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)|
 |Begrijpen wat er gebeurt wanneer u de actie **Boeken** kiest.|[Documenten en dagboeken boeken](ui-post-documents-journals.md)|
+|Bekijk het resultaat van de boeking voordat u boekt.|[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)| 
 |Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met diversendagboeken](ui-work-general-journals.md) |
 | Plan een rapport voor uitvoering op een bepaalde datum en tijd. |[Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport) |
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|

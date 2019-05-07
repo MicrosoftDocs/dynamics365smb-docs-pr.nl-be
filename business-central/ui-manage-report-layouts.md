@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852413"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934316"
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
@@ -32,7 +32,7 @@ Met een rapportlay-out wordt met name het volgende ingesteld:
 * Het bedrijfslogo en de positie ervan.
 * Algemene pagina-instellingen, zoals marges en achtergrondafbeeldingen.
 
-Een [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen. U kunt een van de ingebouwde rapportlay-outs gebruiken of u kunt aangepaste rapportlay-outs maken en ze indien nodig aan uw rapporten toewijzen. Zie voor meer informatie [Een aangepaste lay-out voor een rapport of document maken](ui-how-create-custom-report-layout.md).
+Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen. U kunt een van de ingebouwde rapportlay-outs gebruiken of u kunt aangepaste rapportlay-outs maken en ze indien nodig aan uw rapporten toewijzen. Zie voor meer informatie [Een aangepaste lay-out voor een rapport of document maken](ui-how-create-custom-report-layout.md).
 
 Er zijn twee soorten rapportlay-outs die u in rapporten kunt gebruiken: Word en RDLC.
 

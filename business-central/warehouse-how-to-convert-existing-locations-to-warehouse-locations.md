@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9996dce18755a48be903fabdfcb381a5d6ee5398
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817076"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939212"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Bestaande locaties converteren naar magazijnlocaties
 U kunt een bestaande voorraadvestiging zones en opslaglocaties laten gebruiken en laten functioneren als een magazijnvestiging.  
@@ -37,7 +37,7 @@ U kunt voor of na de omzetting zones en opslaglocaties maken. De enige opslagloc
     Aan de hand van de openstaande artikelposten voor de opgegeven vestiging worden magazijndagboekregels gemaakt die elke combinatie van artikelnr., variant, eenheidscode en, indien nodig, lotnr. en serienummer samenvatten in de artikelposten. Vervolgens wordt het magazijndagboek geboekt. Hierdoor ontstaan magazijnposten die de voorraad in de correctieopslaglocatie van het magazijn plaatsen. De **correctieopslaglocatie** wordt ook op de vestigingskaart ingesteld.  
 
 4.  Als u wilt zien welke artikelen gedurende de batchverwerking aan de correctieopslaglocatie zijn toegevoegd, kunt u de lijst **Mag.-herwaarderingsopslaglocatie** laten opstellen.  
-5.  Nadat de batchverwerking **Magazijnvestiging maken** is voltooid, moet u een magazijninventarisatie uitvoeren en boeken. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).  
+5.  Nadat de batchverwerking **Magazijnvestiging maken** is voltooid, moet u een magazijninventarisatie uitvoeren en boeken. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  
 
 > [!NOTE]  
 >  U kunt de batchverwerking **Magazijnvestiging maken** het beste uitvoeren op een tijdstip waarop de batchverwerking niet van invloed is op de dagelijkse werkzaamheden in het systeem. Tijdens deze batchverwerking wordt elke post in de tabel **artikelposten** verwerkt en als er veel artikelposten zijn, kan de verwerking uren duren.  

@@ -1,0 +1,1 @@
+Dynamics NAV-client verbonden met Business Central

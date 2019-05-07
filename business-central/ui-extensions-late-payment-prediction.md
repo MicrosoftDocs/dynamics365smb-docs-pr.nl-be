@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816898"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935815"
 ---
 # <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling  
 Effectief beheer van tegoeden is belangrijk voor de algemene financiële status van een bedrijf. De extensie Voorspelling van te late betaling kan u helpen uitstaande tegoeden te reduceren en uw inningsstrategie af te stemmen door te voorspellen of verkoopfacturen op tijd worden betaald. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Uw eigen voorspellend model maken
 Bent u geïnteresseerd in het maken van uw eigen voorspellend model? U kunt Azure Machine Learning Studio gebruiken om uw eigen voorspellend model te maken en het gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u uw eigen model wilt gebruiken, moet u zich abonneren op Azure Machine Learning. Zie voor meer informatie [Documentatie van Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-We bieden echter een gemakkelijkere manier om uw eigen voorspellend model te maken en te gebruiken. U kunt gegevens vanuit uw facturen met ons voorspellend experiment delen in Azure Machine Learning en ons experiment een voorspellend model laten maken en trainen op basis van uw gegevens. Als u uw gegevens wilt delen, kiest u op de pagina **Voorspelling van te late betalingen instellen** de actie **Mijn model maken**. Achteraf worden voorspellingen gebaseerd op uw model en uw gegevens, niet de onze.  
+We bieden echter een gemakkelijkere manier om uw eigen voorspellend model te maken en te gebruiken. U kunt gegevens vanuit uw facturen met ons [voorspellend experiment voor Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) delen in Azure Machine Learning en ons experiment een voorspellend model laten maken en trainen op basis van uw gegevens. Als u uw gegevens wilt delen, kiest u op de pagina **Voorspelling van te late betalingen instellen** de actie **Mijn model maken**. Achteraf worden voorspellingen gebaseerd op uw model en uw gegevens, niet de onze.  
 
 > [!Note]
 >   De kwaliteit van het model is belangrijk. Wanneer ons voorspellend experiment uw gegevens gebruikt om een model te trainen, wordt een kwaliteitswaarde voor het model als percentage bepaald. De modelkwaliteit geeft aan hoe accuraat de voorspellingen van het model waarschijnlijk zijn. Verschillende factoren kunnen de kwaliteit van een model beïnvloeden. Bijvoorbeeld dat er onvoldoende gegevens waren of dat de gegevens niet voldoende variatie bevatten. U kunt de kwaliteit van het model dat u momenteel gebruikt, bekijken op de pagina **Voorspelling van te late betalingen instellen**. U kunt ook een minimumdrempelwaarde voor de modelkwaliteit opgeven. Modellen met een kwaliteitswaarde onder de drempel produceren geen voorspellingen.  
