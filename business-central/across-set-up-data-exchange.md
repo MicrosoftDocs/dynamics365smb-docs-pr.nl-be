@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a48bb2ab210d954901e8fb39b6e6ec59670bdee4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 759a6045440b7f15c7b87d3aff83c2447abd6ce2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815933"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913190"
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
 Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals stamgegevens voor klanten aan wie u elektronische facturen verzendt, of de conversieservice voor bankgegevens als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  

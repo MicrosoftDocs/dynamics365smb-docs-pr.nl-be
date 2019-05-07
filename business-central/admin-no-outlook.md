@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: beadf2b83468da9d453d9be8aaa8a39723ab3309
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816991"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923729"
 ---
 # <a name="using-business-central-without-outlook"></a>Business Central gebruiken zonder Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is nauw geïntegreerd met Office 365 en u kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox in Outlook gebruiken. Maar als u Outlook niet hebt, kunt u met [!INCLUDE[d365fin](includes/d365fin_md.md)] in de browser of op uw mobiele apparaat werken.  

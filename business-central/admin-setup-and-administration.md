@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852167"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924463"
 ---
 # <a name="administration"></a>Beheer
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
@@ -44,7 +44,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|
 |Als onderdeel van het maken van Connect-apps tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en oplossingen van derden door middel van REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen van een entiteit te vullen wanneer u een POST-actie maakt met een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|
 |Versleutel gegevens op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
-|Verbind Dynamics 365 for Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Verbind Dynamics 365 for Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Zie ook

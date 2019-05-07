@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 10/17/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d26a6fd6369d8d10d690246c5d02a04d23bb21ab
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ba7cb69373cb9e311f6ef203edfff0d8e2150ea1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815897"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925683"
 ---
 # <a name="manage-job-budgets"></a>Projectbudgetten maken
 Voor elk project kunt u een budget instellen. Het budget wordt gebruikt om de resources te plannen die.u aan een project toewijst. Dit kan een algemeen budget zijn met weinig posten of een budget met veel posten die in activiteitsniveaus zijn onderverdeeld. U kunt vervolgens de gebudgetteerde bedragen vergelijken met het werkelijke gebruik zoals vastgelegd in het projectdagboek. Door verschillen tussen werkelijk en gebudgetteerd gebruik te controleren kunt u een lopend project controleren en de kwaliteit van toekomstige projecten verbeteren doordat kosten minder snel worden onderschat.

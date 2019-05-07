@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0c761db3f76d1fff05dd75a08a586f52386b5b88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816305"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928782"
 ---
 # <a name="allocate-costs-and-income"></a>Kosten en inkomsten toewijzen
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van drie verschillende methoden.

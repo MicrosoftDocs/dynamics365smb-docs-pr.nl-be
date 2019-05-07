@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
-ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2ca52a5c1e6f009f0a430e5b35b725c832132c6f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816029"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927044"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Automatische incasso via SEPA instellen
 Vanuit de pagina **Incasso-opdrachten** kunt u instructies aan uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-incasso's, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.  

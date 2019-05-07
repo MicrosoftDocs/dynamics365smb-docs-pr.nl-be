@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4c0fdd965f56f811ab9ce3346b3c408702df87bf
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816921"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924368"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Over het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 De bestandsindeling voor het uitwisselen van gegevens in bankbestanden, elektronische documenten, valutawisselkoersen en andere met ERP-systemen varieert afhankelijk van de aanbieder van het gegevensbestand of de stream en van het land of de regio. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt verschillende bankbestandsindelingen en normen voor gegevensservices. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.    

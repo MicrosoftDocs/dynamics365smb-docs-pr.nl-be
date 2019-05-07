@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815912"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926544"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u ervoor kiezen een leeg bedrijf te maken zodat u uw eigen gegevens kunt uploaden en uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt testen. Afhankelijk van de financiële oplossing die uw bedrijf tegenwoordig gebruikt, kunt u gegevens over klanten, leveranciers en bankrekeningen overbrengen.  
@@ -31,6 +31,8 @@ U kunt gegevens en bepaalde transactiegegevens van andere financiële systemen i
 
 > [!NOTE]  
 > Voor groter implementatiewerk kunt u RapidStart Services voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken. Dat is een uitgebreide werkset voor het instellen van nieuwe oplossingen op basis van de bedrijfsvereisten en instellingsgegevens van de klant. RapidStart Services bieden ook functionaliteit voor het importeren van bedrijfsgegevens. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+Als u artikelafbeeldingen wilt importeren, kunt u een speciale functie op de pagina **Voorraadinstellingen** gebruiken. Zie voor meer informatie [Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md).
 
 ## <a name="importing-data-from-configuration-packages"></a>Gegevens importeren uit configuratiepakketten
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een configuratiepakket dat u naar Excel kunt exporteren, waar u dan de gegevens kunt instellen. Vervolgens kunt u de gegevens weer uit Excel importeren. Het pakket bestaat uit 27 tabellen, met hoofdgegevens zoals klanten, leveranciers, artikelen en rekeningen, overige tabellen met basisinstellingen zoals verzendmethoden en transactiestabellen zoals verkoopkoptekst en regels.  
@@ -75,9 +77,9 @@ Het standaardconfiguratiepakket ondersteunt de volgende tabellen:
 -   Inkoopprijs
 
 ## <a name="see-also"></a>Zie ook
-[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
+[Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

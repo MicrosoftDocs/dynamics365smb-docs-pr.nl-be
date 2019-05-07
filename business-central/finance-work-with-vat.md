@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816636"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919526"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Stel [!INCLUDE[d365fin](includes/d365fin_md.md)] in om automatisch btw te berekenen in verkoop- en inkoopdocumenten als u in uw land of regio btw in rekening moet brengen voor verkoop- en inkooptransacties, zodat u de bedragen bij de belastingdienst kunt aangeven. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
@@ -63,7 +63,7 @@ Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief 
 1. Open de betreffende verkooporder.  
 2. Kies de actie **Statistieken**.  
 3. Kies het sneltabblad **Facturering**.  
-  
+
     > [!NOTE]  
     >  Het totale btw-bedrag voor de factuur, gegroepeerd op btw-identificatie, wordt op de regels weergegeven. U kunt het bedrag handmatig wijzigen in het veld **Btw-bedrag** op de regels voor elke btw-identificatie. Wanneer u het veld **Btw-bedrag** wijzigt, controleert het programma of u de btw niet hebt gewijzigd met meer dan het bedrag dat u hebt opgegeven als het maximum toegestane verschil. Als het bedrag buiten het bereik valt van het **Max. toegestaan btw-verschil**, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil staat. U kunt pas doorgaan nadat u het bedrag hebt gewijzigd en dit binnen de aanvaardbare parameters valt. Klik op **OK** en geef een nieuw **btw-bedrag** op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt de btw evenredig verdeeld over de documentregels met dezelfde btw-identificatie.  
 
@@ -77,7 +77,7 @@ U kunt btw-bedragen ook aanpassen in algemene, verkoop- en inkoopdagboeken. Het 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Voordat u handmatig btw in verkoop- en inkoopdagboeken kunt invoeren  
 1. Schakel op de pagina **Inkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 2. Nadat u de hierboven beschreven instellingen hebt voltooid, kunt u het veld **Btw-bedrag** corrigeren in de regel van het algemene dagboek of het veld **Btw-bedrag tegenrek.** in de verkoop- of inkoopdagboekregel. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gecontroleerd of het verschil niet groter is dan het opgegeven maximum.  
-  
+
     > [!NOTE]  
     > Als het verschil groter is, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil wordt aangegeven. Als u wilt doorgaan, moet u het bedrag wijzigen. Kies **OK** en geef een bedrag op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt het verschil in [!INCLUDE[d365fin](includes/d365fin_md.md)] weergegeven in het veld **Btw-verschil**.  
 
@@ -115,12 +115,12 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
     >  Als in de instelling van de btw-boekingsgroepsinstelling het selectievakje **Certificaat van levering vereist** niet is ingeschakeld, wordt een record gemaakt en wordt het veld **Status** ingesteld op **Niet van toepassing**. U kunt het veld bijwerken om de juiste statusinformatie weer te geven. U kunt de status indien nodig handmatig van **Niet van toepassing** instellen op **Vereist** en van **Vereist** op **Niet van toepassing**.  
 
    Wanneer u het veld **Status** instelt op **Vereist**, **Ontvangen** of **Niet ontvangen**, wordt een certificaat gemaakt.  
-  
+
     > [!TIP]  
     >  U kunt de pagina **Certificaten van levering** gebruiken om een weergave te krijgen van de status van alle geboekte verzendingen waarvoor een certificaat van levering is gemaakt.  
 
 5. Kies **Certificaat van levering afdrukken**.  
-  
+
     > [!Note]  
     >  U kunt een voorbeeld van het document bekijken of het document afdrukken. Wanneer u **Certificaat van levering afdrukken** kiest en het document afdrukt, wordt het selectievakje **Afgedrukt** automatisch ingeschakeld. Als het nog niet is opgegeven, wordt de status van het certificaat bovendien ingesteld op **Vereist**. Zo nodig neemt u het afgedrukte certificaat in de verzending op.  
 

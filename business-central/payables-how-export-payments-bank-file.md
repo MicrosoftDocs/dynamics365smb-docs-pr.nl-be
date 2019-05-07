@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 539aac89d2da6b2eb81da7f6df729cdb5bc15cb1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816172"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926570"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
 Wanneer u klaar bent om betalingen aan uw leveranciers of vergoedingen aan uw werknemers uit te voeren, kunt u een bestand met de betalingsgegevens op de dagboekregels exporteren vanuit de pagina **Betalingsdagboek**. Vervolgens kunt u het bestand uploaden naar uw bank voor verwerking van de betreffende overboekingen.
 
-In de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt een algemene provider van services ingesteld en verbonden die bankgegevens converteert naar een bestandsindeling die uw bank vereist. In Noordamerikaanse versies kan dezelfde service worden gebruikt om betalingbestanden te verzenden als Elektronische overboeking (EFT), maar met een licht afwijkend proces. Zie stap 6 in het gedeelte "Betalingen naar een bankbestand exporteren".    
+In de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt een algemene provider van services ingesteld en verbonden die bankgegevens converteert naar een bestandsindeling die uw bank vereist. In Noordamerikaanse versies kan dezelfde service worden gebruikt om betalingbestanden te verzenden als Elektronische overboeking (EFT), maar met een licht afwijkend proces. Zie stap 6 in [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).    
 
 > [!NOTE]  
 >   Voordat u betalingsbestanden vanuit het betalingsdagboek kunt exporteren, moet u de elektronische indeling voor de betreffende bankrekening opgeven en moet u de conversieservice voor bankgegevens inschakelen. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md) en [Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md). Bovendien moet u het selectievakje **Exporteren betaling toestaan** op de pagina **Fin. dagboekbatches** inschakelen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  

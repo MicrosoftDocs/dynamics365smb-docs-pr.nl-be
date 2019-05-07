@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815892"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912426"
 ---
 # <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften dor extensies toe te voegen uit AppSource of door de instelling Ervaring te wijzigen voor uw bedrijf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) of [Een gebruikerservaring kiezen om functies weer te geven of te verbergen](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features) hieronder.

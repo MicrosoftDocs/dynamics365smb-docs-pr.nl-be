@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a8e2d016cc47192bbb05439fa61bab1f246a53bd
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816736"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924744"
 ---
 # <a name="sell-products"></a>Producten verkopen
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.

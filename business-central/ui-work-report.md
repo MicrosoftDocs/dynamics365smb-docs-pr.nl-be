@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852436"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921421"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Werken met rapporten en batchverwerkingen
 In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
@@ -50,9 +50,9 @@ Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten gene
 ### <a name="setting-options-and-filters"></a>Opties en filters instellen
 Als u de gegevens die in een rapport worden opgenomen verder wilt beperken of verfijnen, kunt u aanvullende filters en opties instellen.
 
-Met filters kunt u gegevens weergeven op basis van bepaalde criteria. Filters worden gegroepeerd door de entiteit waartoe ze behoren, zoals **Klant** in de illustratie hierboven. U definieert een filter door het vak **Waar** in te stellen op het veld waarop u wilt filteren en vervolgens het criterium toe te voegen in het vak **is:**. In de illustratie hierboven bijvoorbeeld is er één filter dat het rapport maakt voor de klant van wie het **Nr.** gelijk is aan **01121212**.
+Met filters kunt u gegevens weergeven op basis van bepaalde criteria. Filters worden gegroepeerd door de entiteit waartoe ze behoren, zoals **Klant** in de illustratie hierboven. U definieert een filter door het vak **Waar** in te stellen op het veld waarop u wilt filteren en vervolgens het criterium toe te voegen in het vak **is:**.
 
-U kunt meer filters toevoegen door de vakken **Toevoegen** in te stellen. Als u meer dan één filter hebt, worden alleen resultaten die aan de criteria van alle filters voldoen, opgenomen in het rapport.
+U kunt meer filters toevoegen door de vakken **En** en **is** in te vullen. Als u meer dan één filter hebt, worden alleen resultaten die aan de criteria van alle filters voldoen, opgenomen in het rapport.
 
 Afhankelijk van het type veld dat u filtert, kunt u de filtercriteria opgeven om een exacte overeenkomst te zoeken, een gedeeltelijke overeenkomst, een bereik waarden en meer. Zie voor hulp bij het instellen van filters:
 -   [Filteren](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Met de menubalk kunt u de volgende handelingen uitvoeren:
 -   Het formaat aanpassen aan de afmetingen van de pagina
 -   Tekst selecteren
 
-    U kunt tekst uit een rapport kopiëren en die vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] of Microsoft Word.  Met een muis kunt u bijvoorbeeld klikken op het punt van waaraf u wilt kopiëren, de muisknop ingedrukt houden en de muis verplaatsen om een of meer woorden, zinnen of alinea's te selecteren. Vervolgens klikt u met de rechtermuisknop en selecteert u **Kopiëren**. U kunt de geselecteerde tekst op elke gewenste plek plakken.
+    U kunt tekst uit een rapport kopiëren en die vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] of Microsoft Word.  Met een muis kunt u bijvoorbeeld klikken op het punt van waaraf u wilt kopiëren, de muisknop ingedrukt houden en de muis verplaatsen om een of meer woorden, zinnen of alinea's te selecteren. Vervolgens kunt u met de rechtermuisknop klikken en **Kopiëren** selecteren. U kunt de geselecteerde tekst vervolgens overal plakken.
 -   Document pannen
 
     U kunt het zichtbare deel van het rapport in iedere richting verplaatsen, zodat u andere delen kunt bekijken. Dit is handig als u hebt ingezooomd om details te zien.  U kunt bijvoorbeeld op een willekeurige plek in het rapportvoorbeeld klikken, de muisknop vasthouden en dan de muis verplaatsen.

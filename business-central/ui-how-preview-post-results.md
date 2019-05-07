@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9cb6047a5293a3134a433ea9610e31dca5943e1d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817181"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926308"
 ---
 # <a name="preview-posting-results"></a>Voorbeeld van boekingsresultaten weergeven
 In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorbeeld van boeking weergeven** kiezen om de verschillende soorten posten te bekijken die worden gemaakt wanneer u het document of het dagboek boekt.
@@ -30,5 +30,5 @@ In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorb
 
 ## <a name="see-also"></a>Zie ook
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

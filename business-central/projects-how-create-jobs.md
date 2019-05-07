@@ -1,23 +1,19 @@
 ---
 title: Een projectkaart voor een project maken en taken opgeven| Microsoft Docs'
 description: Voor een nieuw project maakt u een projectkaart met projecttaken en planningsregels om u te helpen voortgang en budgetten te beheren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816246"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915635"
 ---
 # <a name="create-jobs"></a>Projecten maken
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
@@ -28,8 +24,8 @@ De tweede laag bestaat uit projectplanningregels, waarin gedetailleerd het verbr
 
 Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en dus specifieke details gebruiken voor budgettering, offertes en registratie. Daarnaast krijgt u inzicht in hoe een project verloopt. Zo kunt u bijvoorbeeld bijhouden of u aan aangewezen mijlpalen voldoet of op koers zit wat de budgetverwachtingen betreft.
 
-> [!NOTE]  
->   De actie **Nieuw project** in het rolcentrum **Projectmanager** start een begeleide instelling die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert.
+> [!TIP]
+> Kies de actie **Nieuw project** in het rolcentrum **Projectmanager** om een begeleide instelling te starten die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert. Voor een voorbeeld van hoe u een project handmatig kunt maken kijkt u naar [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## <a name="to-create-a-job-card"></a>Een projectkaart maken
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
@@ -71,8 +67,10 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
 
 ## <a name="see-also"></a>Zie ook
+
 [Projectbeheer](projects-manage-projects.md)  
+[Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)         
-[Verkoop](sales-manage-sales.md)      
+[Inkoop](purchasing-manage-purchasing.md)  
+[Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

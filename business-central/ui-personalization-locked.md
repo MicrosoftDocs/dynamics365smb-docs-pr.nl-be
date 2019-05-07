@@ -8,28 +8,57 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 9923ed478bbe59089363f5d0a494a9e45829e7c2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817132"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911708"
 ---
-# <a name="why-a-page-is-locked-from-personalizing"></a>Waarom is een pagina vergrendeld voor personaliseren?
-Als er een vergrendelingspictogram is te zien is op de balk **Personaliseren** wanneer u een pagina opent (zoals weergegeven), kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
+# <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
+
+Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).
+
+## <a name="locked-from-personalizing"></a>Vergrendeld tegen personaliseren
+
+Als er een pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") is te zien in de banner **Personaliseren** wanneer u een pagina opent (zoals weergegeven), kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
 
 ![Personaliseringsvergrendeling](media/personalization-locked.png "Personaliseringsvergrendeling")
 
-Dit komt doordat we de manier waarop personalisatie achter de schermen werkt hebben gewijzigd sinds u de pagina voor het laatst hebt gepersonaliseerd. De oude en de nieuwe aanpak werken helaas niet goed samen.
 
-De pagina bevat momenteel de laatste personalisatiewijzigingen die u hebt aangebracht. Als u wilt doorgaan met het personaliseren van de pagina, kunt u het vergrendelingspictogram kiezen en vervolgens **Ontgrendelen**. Als u de pagina ontgrendelt, wordt de huidige personalisatie van de pagina gewist en begint u dus opnieuw.
+<!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
+The page currently includes the last personalization changes that you made. If you want to continue personalizing the page, then you can choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalization of the page will be cleared, and you will have to start from scratch.
+-->
+
+Hiervoor kunnen twee redenen bestaan:
+
+1. U hebt de pagina eerder gepersonaliseerd, maar dit is met een eerdere versie van het product gebeurd. We hebben de manier waarop personalisatie achter de schermen werkt, gewijzigd sinds u de pagina voor het laatst hebt gepersonaliseerd. De oude en de nieuwe aanpak werken helaas niet goed samen.
+
+2. Tot dusverre hebt u alleen [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] gebruikt om de pagina te personaliseren.
+
+### <a name="unlocking-the-page"></a>De pagina ontgrendelen
+
+Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") en vervolgens **Ontgrendelen**.  
+
+Voordat u de pagina ontgrendelt, houdt u rekening met het volgende:
+
+- De huidige personalisatie van de pagina wordt gewist. De pagina keert terug naar de oorspronkelijke indeling en u moet opnieuw beginnen.
+
+- In de [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] blijft de pagina zoals deze is en hebben de nieuwe personalisatiewijzigingen die in de Business Central-client zijn aangebracht, geen invloed. Vanaf nu zijn de personalisatie in de [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] en in Business Central volledig gescheiden van elkaar.
+
+## <a name="blocked-from-personalizing"></a>Geblokkeerd tegen personaliseren
+
+Als de banner Personaliseren het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") bevat, betekent dit dat u geblokkeerd wordt om personalisatie op de pagina aan te brengen.
+
+![Personalisatie geblokkeerd](media/personalization-blocked.png "Personalisatie geblokkeerd")
+
+De reden hiervoor is dat het rolcentrum of het profiel dat op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact met uw beheerder op voor hulp of schakel indien van toepassing over op een rolcentrum (ga vanuit [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "rechtstreeks naar de pagina met uw gebruikersinstellingen in Business Central")) dat rolaanpassing voor deze pagina bevat.
 
 ## <a name="see-also"></a>Zie ook
 [Het personaliseren van uw werkruimte](ui-personalization-manage.md)  
 [Personalisatie beheren](ui-personalization-manage.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  

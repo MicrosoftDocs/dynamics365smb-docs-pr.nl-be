@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816854"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915300"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
@@ -42,8 +42,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Financiën](finance.md)    
 [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md).  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

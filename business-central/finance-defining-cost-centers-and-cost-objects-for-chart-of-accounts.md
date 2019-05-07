@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: b3ca863a9f4969046695e0cec16fedf6f5ac7aec
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 00c0ac4a37476c2ab21ddc850e80e7abeb5eda18
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816689"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923334"
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kostenplaatsen en kostenobjecten voor rekeningschema's definiëren
 In het grootboek kunt u de inkomsten- en onkostenposten automatisch overbrengen naar de kostprijsboekhouding, hetzij voor elke grootboekboeking of met behulp van een batchtaak. Wanneer u de overdracht uitvoert, worden door [!INCLUDE[d365fin](includes/d365fin_md.md)] alleen de posten overgebracht die al zijn gekoppeld aan een kostenplaats of een kostenobject. Om tot een zinvolle overdracht te komen, moet u ervoor zorgen dat kostenplaatsen en de kostenobjecten juist zijn gedefinieerd.  

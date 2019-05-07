@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/19/2019
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0231ab568ea435a389dae6f51f270f5b6363c203
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852390"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914553"
 ---
 # <a name="updating-report-or-document-layouts"></a>Rapport- of documentlay-outs bijwerken
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  

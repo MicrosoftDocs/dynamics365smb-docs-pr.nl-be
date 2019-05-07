@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852154"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920925"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Uw toegang tot de Intelligente cloud met [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -38,7 +38,7 @@ In uw [!INCLUDE[prodshort](includes/prodshort.md)] online-bedrijf bevat de pagin
 Naast de KPI-grafieken krijgt u informatie over potentiële aandachtspunten, inclusief achterstallige betalingen. Kies elk inzicht om in te zoomen op de gegevens.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligente cloud-inzichten](media/across-intelligent-cloud/intelligentcloudinsights.png "Toont de pagina Intelligente cloud-inzichten in Business Central")
+> ![Intelligente cloud-inzichten](media/across-intelligent-cloud/intelligentcloudApril19.png "Toont de pagina Intelligente cloud-inzichten in Business Central")
 
 De pagina maakt ook verbinding met Power BI voor nog meer inzichten.
 

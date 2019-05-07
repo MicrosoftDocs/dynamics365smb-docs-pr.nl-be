@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f38251e53e40d57829f7b00592d8b2920e2dea1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 48dd62ab962c2a3ee0ad243a9e7d00d953c60dca
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816482"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912401"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central op uw mobiele apparaat krijgen
 Toegang tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Office 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.

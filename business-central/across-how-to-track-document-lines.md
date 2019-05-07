@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e308fc6bd84e608f641bca1b94b8e6b226a30fb
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815991"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912131"
 ---
 # <a name="track-document-lines"></a>Documentregels traceren
 U kunt documenten bekijken die gerelateerd zijn aan verkooporderregels en inkooporderregels, inclusief vanuit gearchiveerde orderregels. Gerelateerde documenten die u kunt bijhouden, omvatten offertes, verzendingen, ontvangsten en raamcontracten. Dit helpt u documenten te vinden die worden gebruikt om orders te verwerken.  

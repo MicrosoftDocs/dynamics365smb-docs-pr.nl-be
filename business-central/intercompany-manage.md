@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 03/18/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852114"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913955"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompany-transacties beheren
 Uw organisatie bestaat wellicht uit meerdere bedrijven, maar heeft mogelijk niet hetzelfde aantal boekhoud- en administratieteams. Met de intercompany-functionaliteit kunt u zaken doen met uw dochteronderneming en uw interne partnerorganisaties op dezelfde wijze als met uw externe leveranciers en klanten. U geeft de intercompany-transactiegegevens slechts eenmaal op in de relevante documenten. U kunt de functies gebruiken waarmee u al vertrouwd bent, zoals Klanten en Leveranciers. De toewijzingsmogelijkheden voor het rekeningschema en de dimensies helpen ervoor te zorgen dat de informatie op de juiste plaatsen wordt weergegeven.  

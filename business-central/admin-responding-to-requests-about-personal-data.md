@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816755"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917394"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt ingedeeld en zeker weet dat ze kloppen, kan een beheerder op aanvragen reageren met behulp van de opties onder **Gegevensprivacy** in het rolcentrum **Gebruikers, gebruikersgroepen en machtigingen beheren** of, als u de Windows-client gebruikt, in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
@@ -51,7 +51,7 @@ Als u in een situatie zit waarin u gegevens moet exporteren die niet zijn geclas
 -   Voeg deze tabel en relatie handmatig aan het Rapid Start-pakket toe en exporteer deze direct vanuit het Rapid Start-pakket. Daarom genereren we een Rapid Start-pakket voor u, zodat u het in situaties als deze kunt aanpassen.
 
 ## <a name="handling-data-about-minors"></a>Gegevens over minderjarigen verwerken
-Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleeftijd ligt volgens de wetgeving in uw regio, kunt u dat aangeven door het selectievakje **Minderjarig** in te schakelen op de **Contact**kaart. Wanneer u dat doet, wordt het selectievakje **Geblokkeerd vanwege privacy** automatisch ingeschakeld. Wanneer u toestemming van de ouder of wettelijke voogd van de minderjarige ontvangt, kunt u het selectievakje **Toestemming van ouders ontvangen** kiezen om het contact te deblokkeren. Hoewel u persoonlijke gegevens voor minderjarigen kunt verwerken, kunt u de profileringsfunctionaliteit in Microsoft Dynamics 365 for Sales niet gebruiken.
+Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleeftijd ligt volgens de wetgeving in uw regio, kunt u dat aangeven door het selectievakje **Minderjarig** in te schakelen op de **Contact**kaart. Wanneer u dat doet, wordt het selectievakje **Geblokkeerd vanwege privacy** automatisch ingeschakeld. Wanneer u toestemming van de ouder of wettelijke voogd van de minderjarige ontvangt, kunt u het selectievakje **Toestemming van ouders ontvangen** kiezen om het contact te deblokkeren. Hoewel u persoonlijke gegevens voor minderjarigen kunt verwerken, kunt u de profileringsfunctionaliteit in Dynamics 365 for Sales niet gebruiken.
 
 > [!Note]
 > In het wijzigingslogbestand kan informatie worden geregistreerd, zoals wanneer en door wie het selectievakje **Toestemming van ouders ontvangen** is ingeschakeld. Een beheerder kan dat instellen met de gids **Wijzigingslogbestandinstellingen** en door ook het selectievakje **Gereg. wijziging van toestemming van ouders ontvangen** in te schakelen op de **Contact**kaart. Zie [Wijzigingen registreren](across-log-changes.md) voor meer informatie.  

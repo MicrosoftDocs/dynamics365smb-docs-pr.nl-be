@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 01/22/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f6eebcc59922e44bd5293e1a2bd9ece58777432b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816260"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911754"
 ---
 # <a name="business-functionality"></a>Bedrijfsfunctionaliteit
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 643d0b7be64addf3604283dbed58d59a54df2032
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ee54a60705a3dff4313522500e9457243ea4907d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816412"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927168"
 ---
 # <a name="work-with-responsibility-centers"></a>Werken met divisies
 Divisies bieden mogelijkheden voor beheercentra. Een divisie kan een kostencentrum, een winstcentrum, een investeringscentrum of een ander door het bedrijf gedefinieerd administratief centrum zijn. Voorbeelden van divisies zijn een verkoopkantoor, een inkoopafdeling voor meerdere locaties en een planningskantoor voor een fabriek. Met deze functionaliteit kunnen bedrijven bijvoorbeeld gebruikersspecifieke weergaven instellen van verkoop- en inkoopdocumenten die uitsluitend betrekking hebben op een bepaalde divisie.  

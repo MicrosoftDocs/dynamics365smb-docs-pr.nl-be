@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816313"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916234"
 ---
 # <a name="changing-basic-settings"></a>Basisinstellingen wijzigen
 Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") ziet u basisinstellingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] en kunt u deze wijzigen. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
@@ -48,10 +48,21 @@ De standaardwerkdatum is meestal de datum van vandaag. U moet de werkdatum mogel
 >   Typ **w** als u de werkdatum snel in een datumveld wilt invoeren. Als u de huidige datum snel in het datumveld wilt invoeren, typt u **h**.
 
 > [!IMPORTANT]  
->   De werkdatum wordt alleen gewijzigd totdat u het bedrijf sluit of totdat de datum verandert. Als u een ander bedrijf opent of hetzelfde bedrijf de dag erop weer opent en nog steeds een andere werkdatum moet gebruiken, moet u de werkdatum opnieuw instellen.
+>   Nadat u de werkdatum wijzigt, als u zich afmeldt of naar een ander bedrijf gaat, krijgen de werkgegevens weer de standaardwerkdatum. Als u zich de volgende keer aanmeldt of teruggaat naar het originele bedrijf, moet u de werkdatum mogelijk weer instellen. 
 
+### <a name="work-date-indication"></a>Indicatie van werkdatum
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Als de werkdatum niet is ingesteld op de huidige dag (vandaag) wordt op alle pagina's waar u gegevens kunt bewerken, de huidige werkdatum weergegeven in de rechterbovenhoek van de pagina.
+  
 ## <a name="region"></a> Regio
-De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.   
+
+De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
 
 
 ## <a name="language"></a> Taal

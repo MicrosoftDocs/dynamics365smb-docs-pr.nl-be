@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817056"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928583"
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
-We zijn de bibliotheek met praktische video's opnieuw aan het opbouwen. Als bijwerking van de laatste verbeteringen in [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten we onze inhoud opnieuw produceren zodat deze precies overeenkomt met het product. 
+We zijn de bibliotheek met praktische video's opnieuw aan het opbouwen. Als bijwerking van de laatste verbeteringen in [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten we onze inhoud opnieuw produceren zodat deze precies overeenkomt met het product.
 
 In de tussentijd bieden we drie video's aan waarmee u snel aan de slag kunt.
 
@@ -30,7 +30,7 @@ In de tussentijd bieden we drie video's aan waarmee u snel aan de slag kunt.
 |Aan de slag|Begrijp de belangrijkste eerste stappen wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] uitprobeert of recent het product hebt gekocht. |
 |Hulp krijgen|Weet waar u antwoorden kunt krijgen op verschillende soorten vragen.|
 
-U kunt op meerdere manieren toegang tot de video's krijgen. Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst gebruikt, kunt u de video's starten vanaf de welkomstpagina die wordt weergegeven. Als u al in [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen. 
+U kunt op meerdere manieren toegang tot de video's krijgen. Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst gebruikt, kunt u de video's starten vanaf de welkomstpagina die wordt weergegeven. Als u al in [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen.
 
 > [!Tip]  
 > Video's in de bibliotheek worden in een vrij klein kader weergegeven. U kunt dit kader groter maken door op de dubbelzijdige pijl in de rechterbovenhoek te klikken. Vervolgens worden video's in het grotere kader weergegeven tot u dit weer kleiner maakt.
@@ -42,7 +42,7 @@ Dit zijn enkele voorbeelden van de video's die we bijwerken:
 
 * Bedrijfsgegevens migreren uit andere financiële apps in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Dimensies instellen, zodat u verschillende documenten en entiteiten kunt bijhouden en analyseren
-* [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met Microsoft Dynamics 365 for Sales
+* [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met Dynamics 365 for Sales
 * Goedkeuringswerkstromen instellen  
 * Power BI gebruiken met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * E-mail instellen en documenten verzenden direct vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]  

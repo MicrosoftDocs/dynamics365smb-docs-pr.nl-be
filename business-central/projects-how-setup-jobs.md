@@ -1,51 +1,51 @@
 ---
 title: Projectprijzen en projectboekingsgroepen instellen| Microsoft Docs
 description: Beschrijft hoe u algemene projectgegevens instelt en prijzen instelt voor projectartikelen, resources en grootboekrekeningen, en projectboekingsgroepen.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815760"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918865"
 ---
 # <a name="set-up-jobs"></a>Projecten instellen
-Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
 
-Op de afzonderlijke projectkaarten moet u prijzen instellen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
+Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE [prodshort](includes/prodshort.md)]. Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
+
+Voor elk project kunt u afzonderlijke projectkaarten opgeven met informatie over prijzen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
 
 ## <a name="to-set-general-information-for-jobs"></a>Algemene gegevens voor projecten instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Het selectievakje **Gebruikslink standaard toepassen** is tamelijk complex en wordt daarom in het volgende gedeelte uitgelegd.
+> [!NOTE]
+> De invloed van het veld **Gebruikslink standaard toepassen** is tamelijk complex en wordt daarom in het volgende gedeelte uitgelegd.
 
-## <a name="to-set-up-job-usage-tracking"></a>Bijhouden van projectgebruik instellen
+### <a name="to-set-up-job-usage-tracking"></a>Bijhouden van projectgebruik instellen
+
 Als u een project uitvoert, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
-Als u het selectievakje **Gebruikslink standaard toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
+Als u het veld **Gebruikslink standaard toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
 
-Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld en het soort projectplanningsregel **Factureerbaar** is, wordt in Financials een projectplanningsregel van het soort **Budget** gemaakt nadat u de dagboekregel hebt geboekt.
+> [!TIP]  
+> U kunt tracking van projectgebruik in- of uitschakelen voor een bepaald project. De waarde van het veld **Gebruikslink toepassen** op de individuele projectkaart heeft voorrang op de instelling op de pagina **Projectinstellingen**.  
 
-> [!NOTE]  
->   Als het selectievakje **Gebruikslink standaard toepassen** op de projectkaart is ingeschakeld, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er nieuwe projectplanningregels van het type **Budget** gemaakt wanneer u journaalregels voor het project boekt. Als het selectievakje **Gebruikslink standaard toepassen** op de projectkaart niet is ingeschakeld, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er geen nieuwe taakplanningregels gemaakt wanneer u journaalregels voor het project boekt. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
+Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld en het soort projectplanningsregel **Factureerbaar** is, wordt een projectplanningsregel van het soort **Budget** gemaakt nadat u een projectdagboekregel hebt geboekt.
+
+> [!IMPORTANT]
+> Als tracking van projectgebruik is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er nieuwe projectplanningregels van het type **Budget** gemaakt wanneer u projectjournaalregels boekt.  
+>  
+> Als tracking van projectgebruik *niet* is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er geen nieuwe projectplanningregels gemaakt wanneer u projectjournaalregels boekt. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
 1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en klik vervolgens op de gerelateerde koppeling.
-2. Selecteer of deselecteer **Gebruikslink standaard toepassen**.
-
-> [!NOTE]  
->   U kunt een andere instelling van het selectievakje **Gebruikslink standaard toepassen** kiezen op de afzonderlijke projectkaarten. In dat geval heeft de instelling voor dat project voorrang op de hierboven beschreven algemene standaard.
+2. Schakel het selectievakje **Gebruikslink standaard toepassen** in.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
 U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project**.
@@ -114,9 +114,11 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 | **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. |
 
 ## <a name="see-also"></a>Zie ook
+
 [Projectbeheer instellen](projects-setup-projects.md)  
+[Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Projecten beheren](projects-manage-projects.md)  
 [Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)         
-[Verkoop](sales-manage-sales.md)      
+[Inkoop](purchasing-manage-purchasing.md)  
+[Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

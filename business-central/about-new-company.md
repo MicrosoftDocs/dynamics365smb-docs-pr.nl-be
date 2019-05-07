@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816927"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916601"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de containers voor bedrijfsgegevens die behoren tot een bedrijfsunit of rechtspersoon, een *bedrijf* genoemd. Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], krijgt u een demonstratiebedrijf en een leeg bedrijf, *Mijn bedrijf*. Schakelen tussen de bedrijven is eenvoudig: ga gewoon naar **Mijn instellingen** en ga naar het andere bedrijf. Maar u kunt ook nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)], afhankelijk van uw zakelijke behoeften. Wanneer u een nieuw bedrijf maakt, helpt een begeleide instelling u de basis in te stellen. Vervolgens kunt u relevante gegevens importeren uit uw oude systeem of een ander bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Nieuw bedrijf maken
-Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u de begeleide instellingswizard **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. De instellingswizard is beschikbaar vanuit de pagina **Bedrijven** en vanuit de opzoekactie in het veld **Bedrijf** in **Mijn instellingen**.  
+Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u de begeleide instelling **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. De instellingswizard is beschikbaar vanuit de pagina **Bedrijven** en vanuit de opzoekactie in het veld **Bedrijf** in **Mijn instellingen**.  
 
 De instellingswizard biedt drie sjablonen:
 

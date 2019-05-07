@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815851"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912085"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Het rolcentrum RapidStart Services-implementatie gebruiken
 Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie [Rolcentrum wijzigen](ui-change-basic-settings.md#to-change-role-center) voor meer informatie.

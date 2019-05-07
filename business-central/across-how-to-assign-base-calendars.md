@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cbcb2a9d4262a8057b82d8f87fc619d218c97e67
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816662"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914127"
 ---
 # <a name="set-up-base-calendars"></a>Basisagenda's instellen
 U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda. De belangrijkste taak bij het instellen van een nieuwe basisagenda is het opgeven en definiëren van de vrije dagen die u wilt toepassen.  

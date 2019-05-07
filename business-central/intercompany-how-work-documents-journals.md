@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1573335edd2c3a52074b4a15ab66f86d4f2616ce
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d98cd2c8f4b88856ad55ad607370f130c6421a4d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816641"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928828"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Werken met intercompany-documenten en -dagboeken
 Door middel van intercompany-documenten of -dagboeken kunt u transacties met uw IC-partners boeken. Wanneer u een IC-document of -dagboekregel boekt in uw bedrijf, wordt een corresponderend document of dagboekregel gemaakt in uw IC-outbox, dat/die u kunt overbrengen naar uw partner. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.

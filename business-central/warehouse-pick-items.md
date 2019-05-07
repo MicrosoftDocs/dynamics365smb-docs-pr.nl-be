@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/22/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0e42f81a252971b0c97e24e118ec5159ce5db0d5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817133"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929347"
 ---
 # <a name="pick-items"></a>Artikelen picken
 De magazijnactiviteit van het picken van artikelen voordat deze worden verzonden of verbruikt, wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).

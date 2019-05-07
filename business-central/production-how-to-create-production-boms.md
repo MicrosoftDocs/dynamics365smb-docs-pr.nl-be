@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cbcfe46f547a40112f465fbdac6511bc5a2f510a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 23d7ea5cac7b261f4b74e1b423507ee00c47df25
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816227"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923163"
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
 Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Nadat een productieorder voor dat hoofdartikel is gemaakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.

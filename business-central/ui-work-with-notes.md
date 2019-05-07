@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 748e148e99a6c99a5a2ebf5f05a87350bee26ae7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 82b2dd880618f8ee7f44203db5638ef6da12c5cc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815916"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923847"
 ---
 # <a name="add-and-view-notes-on-records"></a>Notities aan records toevoegen en weergeven
  U <!--OnPrem and your colleagues -->kunt notities aan records toevoegen in de toepassing. Veel pagina's, met name pagina's die een lijst met records bevatten, zoals de pagina **Verkooporders**, bevatten de actie **Notities** of het feitenblok **Notities**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

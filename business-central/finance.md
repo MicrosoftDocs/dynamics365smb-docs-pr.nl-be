@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 03/11/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
-ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
+ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832540"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911564"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -58,7 +58,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Inkoop](purchasing-manage-purchasing.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
 [Projecten beheren](projects-manage-projects.md)    
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md).  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815979"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914267"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
 In deze procedure maakt u kennis met de functies voor projectbeheer in taken (projecten). Projecten zijn een manier waarop u het verbruik van de bedrijfsresources kunt plannen en de diverse kosten kunt bijhouden die samenhangen met de resources voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die u mogelijk wilt bijhouden terwijl het project voortduurt.  

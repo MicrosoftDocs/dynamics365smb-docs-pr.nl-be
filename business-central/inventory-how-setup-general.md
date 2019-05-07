@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: dd7d3c34aca37bb60a81df3e461bdc19176c4b64
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 7baf0c8798a66e092c256059b77a8c9e78db48da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816986"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928759"
 ---
 # <a name="set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
 U geeft uw algemene voorraadinstellingen op de pagina **Voorraadinstelling** op.

@@ -1,6 +1,6 @@
 ---
 title: Gegevens invoeren in velden | Microsoft Docs
-description: Er zijn veel algemene functies waarmee u snel en gemakkelijk gegevens kunt invoeren. De algemene functies voor het invoeren van gegevens worden allemaal in dit onderwerp beschreven.
+description: Leer over algemene functies die u helpen gegevens in velden in te voeren.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,66 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852505"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929085"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
-Er zijn veel algemene functies waarmee u snel en gemakkelijk gegevens kunt invoeren. De algemene functies voor het invoeren van gegevens worden in dit artikel beschreven.  
 
-In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
+Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De algemene functies voor het invoeren van gegevens worden in dit artikel beschreven.  
+
+<!-- The examples in this article use the demonstration data.-->
+
+## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
+
+Er zijn verschillende sneltoetsen waarmee u 'muisvrij' kunt werken en de gegevensinvoer kunt versnellen, vooral bij grootschalige invoer en herhaald typewerk.
+
+Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen](keyboard-shortcuts.md). Enkele sneltoetsen worden in dit artikel besproken.
+
+## <a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
+
+Snelinvoer is een functie die bedoeld is voor gegevensinvoer met het toetsenbord. Snelinvoer werkt met velden (bijvoorbeeld op kaartpagina's) en in lijsten (rijen en kolommen). Het kan handig zijn bij herhalend typewerk, waarbij meerdere records achter elkaar moeten worden gemaakt, zoals een batch verkooporders of registratie van nieuwe artikelen.
+
+U bent mogelijk al vertrouwd met het gebruik van de Tab-toets om van het ene veld op een pagina naar het volgende bewerkbare veld te navigeren. Het nadeel van het gebruik van de Tab-toets is dat deze altijd naar het volgende veld gaat. <!-- even if the field is non-editable or seldom filled it in.-->Met snelinvoer kunt u dit pad wijzigen. Met snelinvoer gebruikt u de Enter-toets om alleen te navigeren naar de velden waarin u geïnteresseerd bent. U slaat niet-bewerkbare velden en velden die u meestal niet invult, over. U hebt dit gedrag mogelijk al op bepaalde pagina's opgemerkt. Dit komt omdat de toepassing al aangeeft welke velden moeten worden opgenomen wanneer op Enter wordt gedrukt en welke worden overgeslagen. U kunt snelinvoer wijzigen door de werkruimte aan te passen en te optimaliseren hoe u gegevens op elke pagina invoert.
+
+### <a name="how-quick-entry-works"></a>Hoe snelinvoer werkt
+
+Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die in snelinvoer zijn opgenomen, worden opgenomen in het pad wanneer u op Enter drukt; velden die zijn uitgesloten van snelinvoer, worden dat niet.
+
+Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen voor snelinvoer](keyboard-shortcuts.md#QuickEntry).
+
+#### <a name="tips-and-tricks"></a>Tips en trucs
+Hieronder volgt wat nuttige informatie over het gebruik van snelinvoer.
+
+- Het is beschikbaar voor bewerkbare velden.
+- Het werkt ook over kolommen en rijen.
+- Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze zijn nog toegankelijk met behulp van Tab en Shift+Tab.  
+- Sneltabbladen hoeven niet uitgevouwen te zijn om snelinvoer te gebruiken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het juiste veld.
+- Snelinvoer werkt ongeacht of velden verplicht zijn. Het is dus een goed idee te zorgen dat verplichte velden zijn opgenomen in snelinvoer.
+- Standaard worden de meeste velden automatisch opgenomen in snelinvoer. In eerste instantie moet u dus waarschijnlijk velden uitsluiten van snelinvoer.
+
+### <a name="how-to-change-quick-entry-fields"></a>Hoe u snelinvoervelden wijzigt
+
+Als u wilt wijzigen welke velden zijn opgenomen in of uitgesloten van snelinvoer op een pagina, gebruikt u personalisatie.
+
+1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") te selecteren en vervolgens **Personaliseren**.
+2. Selecteer een veld dat u wilt wijzigen of selecteer in lijsten de corresponderende kolomkop en kies vervolgens **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer**.
+
+Zie voor meer informatie over personalisatie [Uw werkruimte personaliseren](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Verplichte velden
+
 Wanneer u gegevens invoert op pagina's, zijn bepaalde velden gemarkeerd met een rode asterisk. De rode asterisk betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien dat het veld gebruikt, zoals het boeken van een transactie die de waarde in het veld gebruikt.  
 
 Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te vullen voordat u verdergaat naar andere velden of de pagina sluit. De rode asterisk dient alleen als een herinnering dat u wordt geblokkeerd van het voltooien van een bepaald proces.  
 
+## <a name="finding-data-as-you-type"></a>Gegevens zoeken terwijl u typt
 
-## <a name="finding-data-as-you-type"></a>Gegevens zoeken terwijl u typt  
  Als u begint met het typen van tekens in een veld, wordt een vervolgkeuzelijst weergeven met de mogelijke veldwaarden. De lijst verandert naarmate u meer tekens typt en u kunt de juiste waarde selecteren wanneer deze wordt weergegeven.  
 
  Veel velden hebben een knop met een pijl-omlaag die u kunt kiezen. U kunt op de pijl klikken om een lijst met gegevens te krijgen die u in het veld kunt instellen. De knop heeft twee functies, afhankelijk van het type veld:  
@@ -37,32 +76,37 @@ Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te v
 
 -   Vervolgkeuze - Hiermee toont u de verzameling opties die beschikbaar zijn voor het veld. U kunt slechts één optie tegelijk selecteren.  
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+## <a name="copying-and-pasting-fields-and-lines"></a>Velden en regels kopiëren en plakken
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail). Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
 
--   Copy Cell  
+Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, drukt u op F8.
 
--   Copy Rows  
+Zie voor meer informatie [Kopiëren en plakken in Business Central](ui-copy-paste.md).
 
--   Paste Rows  
+## <a name="Focus"></a>Focussen op regelartikelen
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+Wanneer u werkt aan documenten die een onderdeel met regelartikelen bevatten, zoals een verkooporder of een factuurpagina, kunt u de weergave overschakelen om alleen te focussen op de regelartikelen. In wezen vouwt u het onderdeel met regelartikelen uit, zodat het ongeveer de hele werkruimte in beslag neemt. Andere delen van de pagina worden verborgen, behalve het actiegebied bovenin. Dit geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken. Dit is met name voordelig bij het werken met grote regelartikellijsten en als snelle gegevensinvoer gewenst is.
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+Een ander voordeel is dat het ook geavanceerde filtermogelijkheden biedt, zoals in andere lijsten, waardoor bladeren en zoeken door regelartikelen nog gemakkelijker wordt.
 
-> [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+### <a name="switch-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
-#### To copy previous field  
+Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelartikelen en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
 
-## <a name="entering-quantities-by-calculation"></a>Hoeveelheden invoeren door berekening  
- Als u getallen in velden voor hoeveelheden invoert, zoals het veld **Hoeveelheid** op een artikeldagboekregel, kunt u de formule invoeren in plaats van de totale hoeveelheid.  
+### <a name="filtering-the-line-items"></a>Regelartikelen filteren
 
-## <a name="examples"></a>Voorbeelden  
+Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "pictogram Filterdeelvenster") boven aan de lijst of drukt u op **Shift+F3** om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#Filtering) voor meer informatie.
+
+Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent en de regelartikelen filtert om alle regelartikelen weer te geven die een individuele korting van meer dan 5% hebben, of dat u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
+
+## <a name="entering-quantities-by-calculation"></a>Hoeveelheden invoeren door berekening
+
+Als u getallen in velden voor hoeveelheden invoert, zoals het veld **Hoeveelheid** op een artikeldagboekregel, kunt u de formule invoeren in plaats van de totale hoeveelheid.  
+
+### <a name="examples"></a>Voorbeelden  
 
 -   Als u 19+19 invoert, wordt het veld berekend als 38.  
 
@@ -73,6 +117,7 @@ Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te v
 -   Als u 12/4 invoert, wordt het veld berekend als 3.  
 
 ## <a name="entering-negative-numbers"></a>Negatieve getallen invoeren
+
 U kunt negatieve getallen op twee manieren invoeren. Nummer -20.5 kan worden ingevoerd als:  
 
 -   -20,5  
@@ -85,13 +130,17 @@ U kunt negatieve getallen op twee manieren invoeren. Nummer -20.5 kan worden ing
  Als het laatste teken van de expressie een **+** of een **-** is, wordt de volledige expressie vastgelegd met dat teken. Een voorbeeld: **10-20+** resulteert in 10 en niet -10.  
 
 ## <a name="entering-dates-and-times"></a>Datums en tijden invoeren
+
 U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan datums (datumvelden). U kunt datums met of zonder scheidingstekens invoeren.
 
 > [!NOTE]  
 > Hoe u datums en tijden invoert, hangt af van uw instellingen onder **Regio**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Datums invoeren  
- Een datumveld kan twee, vier, zes of acht cijfers bevatten:  
+### <a name="entering-dates"></a>Datums invoeren
+
+Voor datumvelden kunt u de datumselectie gebruiken. Hiermee selecteert u een datum in een kalender of voert u handmatig datums in. Deze sectie geeft een kort overzicht van hoe u datums invoert. Zie voor meer informatie [Werken met kalenderdatums en tijden](ui-enter-date-ranges.md).
+
+Voor handmatige datuminvoer kunt u twee, vier, zes of acht cijfers invoeren:  
 
 -   Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.  
 
@@ -99,24 +148,22 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 
 -   Als de ingevoerde datum in de reeks 01/01/1930 tot en met 31/12/2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.  
 
- U kunt een datum ook invoeren als een weekdag gevolgd door een weeknummer en eventueel het jaar (Ma25 of ma25 duidt bijvoorbeeld op maandag in week 25).  
+U kunt een datum ook invoeren als een weekdag gevolgd door een weeknummer en eventueel het jaar (Ma25 of ma25 duidt bijvoorbeeld op maandag in week 25).  
 
- U kunt in plaats van een specifieke datum ook een van de volgende codes invoeren.  
+U kunt in plaats van een specifieke datum ook een van deze codes invoeren.  
 
 |Code|Resultaat|  
 |--------------|----------------|  
 |h|Dit is de datum van vandaag (de systeemdatum voor de computer).|  
-|w|Dit is de werkdatum die is ingesteld in de toepassing. Zie [Basisinstellingen wijzigen](ui-change-basic-settings.md) als u de werkdatum wilt wijzigen. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.|  
+|p|Hiermee geeft u een boekhoudingsperiode op, waarbij `p` de eerste boekhoudingsperiode is, `p2` de tweede boekhoudingsperiode is, enzovoort. |
+|w|Dit is de werkdatum die is ingesteld in de toepassing. Zie [Basisinstellingen wijzigen](ui-change-basic-settings.md) als u de werkdatum wilt wijzigen. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.|
+|l|Hiermee geeft u op dat de datum na `c` een ultimodatum is, bijvoorbeeld `C123101`.|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a>Tijden invoeren
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+Hoewel het niet vereist is, kunt u bij de invoer van tijden elk willekeurig scheidingsteken tussen de eenheden plaatsen. U hoeft geen minuten, seconden of AM/PM-aanduiding in te voeren.  
 
-## <a name="entering-times"></a>Tijden invoeren  
- Hoewel het niet vereist is, kunt u bij de invoer van tijden elk willekeurig scheidingsteken tussen de eenheden plaatsen. U hoeft geen minuten, seconden of AM/PM-aanduiding in te voeren.  
-
- In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren en hoe de invoer wordt geïnterpreteerd.  
+In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren en hoe de invoer wordt geïnterpreteerd.  
 
 |Post|Interpretatie|  
 |---------------|------------------------|  
@@ -130,10 +177,11 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 
  Als u geen scheidingsteken invoert, moet u twee cijfers invoeren voor elke eenheid.  
 
-## <a name="entering-datetimes"></a>Datum/tijd invoeren  
- Wanneer u datum/tijd invoert, moet u een spatie plaatsen tussen de datum en de tijd.  
+## <a name="entering-datetimes"></a>Datum/tijd invoeren
 
- In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoeren en hoe de verschillende manieren worden geïnterpreteerd.  
+Wanneer u datum/tijd invoert, moet u een spatie plaatsen tussen de datum en de tijd.  
+
+In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoeren en hoe de verschillende manieren worden geïnterpreteerd.  
 
 |Post|Interpretatie|  
 |---------------|------------------------|  
@@ -158,10 +206,11 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 |di 10:30|Dinsdag van de huidige week 10:30:00|  
 |di 3:3:3|Dinsdag van de huidige week 03:03:03|  
 
-## <a name="entering-duration"></a>Duur invoeren  
- De duur moet worden ingevoerd als een getal gevolgd door de eenheid.  
+## <a name="entering-duration"></a>Duur invoeren
 
- Hier volgen enkele voorbeelden.  
+De duur moet worden ingevoerd als een getal gevolgd door de eenheid.  
+
+Hier volgen enkele voorbeelden.  
 
 |Duur|Eenheid**|  
 |------------------|-------------------------|  
@@ -192,70 +241,72 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a>Datumformules gebruiken  
- Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend. U kunt datumformules invoeren in verschillende datumberekeningsvelden en in de frequentievelden van periodieke dagboeken.  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode. Als u bijvoorbeeld 1W invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook is opgenomen. Als u een periode van zeven dagen (exact één week) wilt opgeven, inclusief de begindatum van de periode, moet u 6D of 1W-1D opgeven.  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- Hier volgen enkele voorbeelden van het gebruik van datumformules:  
+ Here are some examples of how date formulas can be used:  
 
--   De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   De datumformule in het veld Respijtperiode van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum (of de datum van de vorige aanmaning) moet zijn verstreken voordat een aanmaning wordt gemaakt.  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   De datumformule in het veld Vervaldatumformule bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- In de berekeningsformule voor de datum kunt u maximaal 20 tekens gebruiken (cijfers en/of letters). U kunt de volgende letters gebruiken als afkorting voor tijdsaanduidingen.  
-
-|||  
-|-|-|  
-|L|Lopend|  
-|D|Dag|  
-|W|Week|  
-|M|Maand|  
-|K|Kwartaal|  
-|J|Jaar|  
-
- Er zijn drie soorten datumformules.  
-
- In het volgende voorbeeld wordt weergegeven hoe huidig en een getal.  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|LW|Lopende week|  
-|LM|Lopende maand|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- In het volgende voorbeeld wordt weergegeven hoe een getal en een tijdseenheid. Nummers mogen niet groter zijn dan 9999.  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|10D|10 dagen vanaf vandaag|  
-|2W|2 weken vanaf vandaag|  
-
- In het volgende voorbeeld wordt weergegeven hoe een tijdseenheid en een getal.  
-
-|||  
-|-|-|  
-|D10|De volgende tiende dag van een maand|  
-|WD4|De volgende vierde dag van een week (donderdag)|  
-
- Het volgende voorbeeld geeft weer hoe u deze drie soorten naar wens kunt combineren.  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|LM+10D|Lopende maand + 10 dagen|  
+|CW|Current week|  
+|CM|Current month|  
 
- In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het verleden aan te duiden.  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|-1J|1 jaar geleden vanaf vandaag|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
 ## <a name="see-also"></a>Zie ook  
  [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

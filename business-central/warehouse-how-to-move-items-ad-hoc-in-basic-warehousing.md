@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3760be8694f8c65ae07abaea9234a5dd524bb47
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817134"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913119"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
 Mogelijk moet u soms artikelen verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.  
@@ -57,7 +57,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
     U voert de rest van de ad hoc verplaatsing op de pagina **Voorraadverplaatsing** op dezelfde manier uit als bij een verplaatsing op basis van brondocumenten. Zie voor meer informatie bijvoorbeeld [Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Artikelen verplaatsen met het artikelherindelingsdagboek
-In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).   
+In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)   
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Art.-herindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Definieer op elke dagboekregel de opslaglocaties waaruit en waarnaar u items wilt verplaatsen door de velden **Code Opslaglocatie** en **Code Nieuwe opslaglocatie** in te vullen.  
 

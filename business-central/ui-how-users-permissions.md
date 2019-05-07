@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816678"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912955"
 ---
 # <a name="managing-users-and-permissions"></a>Gebruikers en machtigingen beheren
 Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://aka.ms/CreateOffice365Users).
@@ -57,7 +57,7 @@ De leden van de gebruikersgroep worden niet gekopieerd naar de nieuwe gebruikers
 2. Selecteer de gebruikersgroep die u wilt kopiëren, en kies vervolgens de actie **Gebruikersgroep kopiëren**.
 3. Voer in het veld **Nieuwe gebruikersgroepcode** een naam voor de groep in en kies vervolgens de knop **OK**.
 
-De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. Voeg gebruikers toe. Zie voor meer informatie [Gebruikers in gebruikersgroepen samenvoegen](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
+De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. Voeg gebruikers toe. Zie voor meer informatie [Gebruikers in gebruikersgroepen samenvoegen](ui-how-users-permissions.md#to-group-users-in-user-groups).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
 Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.

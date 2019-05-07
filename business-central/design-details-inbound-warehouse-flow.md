@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3083b52a2345d2c5dbaa15c34c7a93afb3b9d063
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815974"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921715"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
 De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.  

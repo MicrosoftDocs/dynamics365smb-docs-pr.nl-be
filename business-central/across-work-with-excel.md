@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816346"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925052"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Weergeven en bewerken in Excel vanuit Business Central 
 
@@ -43,6 +43,8 @@ Met pagina's die een lijst met records in rijen en kolommen weergeven, zoals een
 >[!NOTE]
 >Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises is de actie **Bewerken in Excel** alleen beschikbaar als de Excel-invoegtoepassing door uw beheerder is geïnstalleerd. Voor beheerders: als u wilt weten hoe u de Excel-invoegtoepassing installeert, raadpleegt u [De Excel-invoegtoepassing instellen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="see-also"></a>Zie ook
+### <a name="see-the-differences-between-the-options"></a>Zie de verschillen tussen de opties 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
+## <a name="see-also"></a>Zie ook
 [Werken met Business Central](ui-work-product.md)  

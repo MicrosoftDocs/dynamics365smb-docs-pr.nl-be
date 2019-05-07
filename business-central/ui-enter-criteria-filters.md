@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816839"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928081"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Lijsten sorteren, doorzoeken en filteren
 U kunt een paar dingen doen om records in een lijst te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
@@ -36,7 +36,8 @@ Als u een lijst wilt sorteren, kunt u een kolomkoptekst kiezen om te schakelen t
 >   Sorteren wordt niet ondersteund bij afbeeldingen, BLOB-velden, FlowFilters en velden die niet deel van een tabel zijn.  
 
 ## <a name="searching"></a>Zoeken
-<!--## Searching by using the Quick Filter --> Boven aan elke lijstpagina staat een ![Zoeken in lijst](media/ui-search/search-list.png "pictogram Zoeken in lijst") **Zoek**-pictogram dat een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
+<!--## Searching by using the Quick Filter -->
+Boven aan elke lijstpagina staat een ![lijst Zoeken](media/ui-search/search-list.png "pictogram Lijst Zoeken") pictogram **Zoeken** dat een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
 
 Als u wilt zoeken, selecteert u het zoekpictogram en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
 
@@ -55,27 +56,6 @@ U kunt echter een exactere zoekactie maken door de volgende speciale tekens te g
 
 In de volgende tabel vindt u enkele voorbeelden om aan te geven hoe u de zoekactie kunt gebruiken.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Zoekcriteria|Zoekt…|
 |---------------|----------|
 |`man`<br />of <br />`Man`|Alle records met velden die de tekst **man** bevatten, ongeacht hoofdletters. Bijvoorbeeld **Manchester**, **manual** of **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > U kunt op F3 drukken om het zoekvak te activeren en te deactiveren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filteren
+## <a name="Filtering"> </a>Filteren
 Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke records in een lijst worden weergegeven. Er zijn twee belangrijke verschillen tussen zoeken en filteren, zoals wordt beschreven in de volgende tabel.
 
 || **Zoeken** | **Filteren** |
@@ -98,13 +78,14 @@ Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke rec
 Filteren stelt u in staat records weer te geven voor bepaalde rekeningen of klanten, datums, bedragen en andere informatie door filtercriteria op te geven. Alleen records die voldoen aan de criteria, worden weergegeven. Als u criteria opgeeft voor meerdere velden, worden alleen de records weergegeven die overeenkomen met alle criteria.
 
 ### <a name="working-in-the-filter-pane"></a>Werken in het filterdeelvenster
+
+Als u het filterdeelvenster wilt weergeven, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "pictogram Filterdeelvenster") boven aan de lijst of drukt u op **Shift+F3**. Voor lijsten in het Rolcentrum kunt u ook de pijl omlaag kiezen naast de paginatitel op de navigatiebalk boven de lijst en vervolgens **Filterdeelvenster weergeven** kiezen, zoals u hier ziet:
+
+![Filterdeelvenster weergeven](media/open-filter-pane.png "Filterdeelvenster weergeven")
+
 Het filterdeelvenster bevat de huidige filters voor een lijst en biedt u de mogelijkheid uw eigen filters in te stellen op een of meer velden. De volgende afbeelding toont een voorbeeldfilterdeelvenster voor een lijst verkoopoffertes.
 
 ![Overzicht van filterdeelvenster ](media/filter-pane-overview.png "pictogram Filter")
-
-Als u het filterdeelvenster wilt weergeven, gebruikt u de toetsenbordsneltoets **Shift+F3**. Voor lijsten in het Rolcentrum kunt u ook de pijl omlaag kiezen naast de paginatitel op de navigatiebalk boven de lijst en vervolgens **Filterdeelvenster weergeven** kiezen.
-
-![Filterdeelvenster weergeven](media/open-filter-pane.png "Filterdeelvenster weergeven")
 
 Een filterdeelvenster is verdeeld in drie gedeelten: **Weergaven**, **Filter lijst op** en **Filter totalen op**:
 
@@ -137,7 +118,7 @@ U kunt nu uw filtercriteria in het vak typen of selecteren. Het type veld waarop
 Kolommen die al filters bevatten, worden aangegeven door het ![pictogram Filter](media/ui-search/filter-icon.png "pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, selecteert u de kolomkop en kiest u vervolgens **Filter wissen**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Filtercriteria invoeren zonder het filterdeelvenster
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Filtercriteria invoeren zonder het filterdeelvenster te gebruiken
 U kunt eenvoudige filters rechtstreeks in de lijst opgeven zonder het filterdeelvenster te hoeven gebruiken.
 Druk terwijl een veld in een rij is ingeschakeld op de toetsenbordsneltoets **Alt+F3** om alleen de records weer te geven die dezelfde waarde hebben. U kunt een ander veld selecteren en dezelfde snelkoppeling opnieuw gebruiken om door te gaan met het verfijnen van uw filters. Als het geselecteerde veld al is gefilterd, wordt het filter met **Alt+F3** uitgeschakeld.
 
@@ -248,7 +229,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 Wanneer u filtercriteria invoert, kunt u ook woorden typen die een speciale betekenis hebben, filtertokens genaamd. Na het invoeren van het tokenwoord wordt het woord vervangen door de waarde of waarden die het woord vertegenwoordigt. Dit maakt filtering eenvoudiger doordat u niet naar andere pagina's hoeft te navigeren om waarden op te zoeken die u aan uw filter wilt toevoegen. In de onderstaande tabellen worden enkele van de tokens beschreven die u als filtercriteria kunt gebruiken.
 
 > [!TIP]
-> Uw organisatie kan aangepaste tokens gebruiken. Als u informatie wilt over de volledige set tokens die voor u beschikbaar zijn of als u aangepaste tokens wilt toevoegen, overlegt u met uw beheerder. Voor technische informatie raadpleegt u [Filtertokens toevoegen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Uw organisatie kan aangepaste tokens gebruiken. Als u informatie wilt over de volledige set tokens die voor u beschikbaar zijn of als u aangepaste tokens wilt toevoegen, overlegt u met uw beheerder. Voor technische informatie raadpleegt u [Filtertokens toevoegen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me of %userid) Records die aan u zijn toegewezen

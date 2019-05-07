@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816682"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914442"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
-Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in het gedeelte “De opmaak van regels en kolommen in het bestand beschrijven”. Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
+Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in [De opmaak van regels en kolommen in het bestand beschrijven](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
 Doorgaans stelt u gegevensuitwisselingsdefinities op de pagina **Definitie van gegevensuitwisseling** in. Maar als u een gegevensuitwisselingsdefinitie instelt voor de service voor het vernieuwen van wisselkoersen, begint u het proces op de vereenvoudigde pagina **Kaart update-instellingen wisselkoersen**.  
 
@@ -39,7 +39,10 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 1. Op de pagina **Definitie van gegevensuitwisseling** beschrijft u de opmaak van regels en kolommen in het bestand.  
 2. Op de pagina **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     Dit wordt in de volgende procedures beschreven.  
+Dit wordt in de volgende procedures beschreven.  
+
+> [!TIP]
+> Als u wilt zien welke codeunits Microsoft gebruikt in bestaande definities in het standaardproduct, controleert u de drie **Codeunit**-velden in de kop van de pagina **Veldtoewijzing** voor elke definitie.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>De opmaak van regels en kolommen in het bestand beschrijven  
 1. Voer in het tekstvak **Zoeken** de tekst **Gegevensuitwisselingsdefinities** in en kies vervolgens de gerelateerde koppeling.  

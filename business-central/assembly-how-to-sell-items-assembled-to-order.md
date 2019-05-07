@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: afd3cc767cacac922352072d816fb1fc193eca8d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816762"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912276"
 ---
 # <a name="sell-items-assembled-to-order"></a>Assembleren voor order-artikelen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op order assembleren**, wordt niet verwacht dat het artikel in voorraad is, en moet het worden samengesteld op een verkooporder. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.  

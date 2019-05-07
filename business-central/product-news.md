@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release notes, roadmap, whats new
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 39679a81751f49af8ebccbb904f6a2b4466172d1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 74d31e773020351fb5231fb4452ab83bbbb97d69
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816068"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922635"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nieuwe functies in Dynamics 365 Business Central
 
@@ -23,7 +23,7 @@ We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE
 [!include [release notes](includes/release-notes.md)]
 
 ## <a name="check-the-business-central-blog"></a>De Business Central-blog lezen
-We spreken ook over nieuwe mogelijkheden op [de blog Central Business](https://community.dynamics.com/business/b/financials/), wanneer deze beschikbaar worden gemaakt en als er speciale overwegingen zijn.  
+We spreken ook over nieuwe mogelijkheden op [de Business Central-blog](https://community.dynamics.com/business/b/financials/), wanneer deze beschikbaar worden gemaakt en als er speciale overwegingen zijn.  
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

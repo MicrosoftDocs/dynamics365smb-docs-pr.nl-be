@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816001"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919994"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Werken met serie- en lotnummers
 U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert het werk uit op de pagina **Artikeltraceringsregels**, die u opent vanuit een inkomend of uitgaand document.
@@ -240,7 +240,7 @@ U kunt de velden **Serienummer** en **Lotnr.** niet bewerken. U kunt echter voll
 Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wijzigt in een nieuw nummer of de vervaldatum wijzigt in een nieuwe datum. Als u met lots werkt, is het ook mogelijk om meerdere lots samen te voegen tot één lot. U kunt deze taken uitvoeren met behulp van het artikelherindelingsdagboek.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Art.-herindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
-2.  Vul de betreffende informatie in op de regel. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen](inventory-how-count-adjust-reclassify.md).
+2.  Vul de betreffende informatie in op de regel. Zie voor meer informatie [Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md) of [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md).
 3.  Kies de actie **Artikeltraceringsregels**.  
 4.  Selecteer in het veld **Serienummer** of **Lotnr.** het huidige serie- of lotnummer.  
 5.  Als u een nieuw artikeltraceringsnummer wilt opgeven, doet u dat in het veld **Nieuw serienr.** of **Nieuw lotnummer**. U kunt ook meerdere lots samenvoegen tot één nieuw of bestaand lot.  

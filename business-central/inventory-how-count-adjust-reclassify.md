@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816293"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929417"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Voorraad tellen, corrigeren en herindelen
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Voorraad tellen, corrigeren en herindelen met dagboeken
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
 
 Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, wilt u sommige artikelen misschien vaker tellen omdat ze waardevoller zijn of snel worden omgezet en belangrijk zijn voor het bedrijf. U kunt tellingsperioden instellen en toewijzen aan magazijnartikelen. Voor dit doel kunt u speciale telperioden aan die artikelen toewijzen. Zie voor meer informatie [Clustertellingen uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelheri
 
 ## <a name="to-perform-a-physical-inventory"></a>Een inventarisatie uitvoeren
 Aan het einde van het boekjaar, zo niet vaker, moet u de inventaris opmaken (de beschikbare artikelen tellen) om te controleren of het geregistreerde aantal gelijk is aan het aantal in voorraad. Als er verschillen zijn, moet u deze naar de artikelrekeningen boeken voordat u de voorraadwaardering uitvoert.
+
+> [!NOTE]
+> In deze procedure wordt beschreven hoe u een inventarisatie uitvoert met een dagboek, de pagina **Inventarisatiedagboek**. U kunt de taak ook uitvoeren met documenten, de pagina's **Inventarisatieorder** en **Inventarisatieregistratie**, die meer controle bieden en distributie van het tellen naar meerdere werknemers ondersteunen. Zie voor meer informatie [Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md).<br /><br />
+> De op documenten gebaseerde functionaliteit kan niet worden gebruikt om artikelen te tellen in opslaglocaties en magazijnposten.
 
 Afgezien van de fysieke tellingstaak omvat het volledige proces de volgende drie taken:
 
@@ -222,6 +226,7 @@ Het volgende voorbeeld is gebaseerd op een vestigingscode. De stappen zijn verge
 Zie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md) voor het overbrengen van artikelen met volledige controle over verzonden en ontvangen hoeveelheden.
 
 ## <a name="see-also"></a>Zie ook
+[Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md)  
 [Voorraad](inventory-manage-inventory.md)
 [Magazijnbeheer](warehouse-manage-warehouse.md)    
 [Verkoop](sales-manage-sales.md)  

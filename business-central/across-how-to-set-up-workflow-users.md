@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f205520d1028b3de176a720b363ff9c019634df
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 64ac69bfa3a1ad0d5dd3b9c86af4a495fbf10b14
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816776"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923404"
 ---
 # <a name="set-up-workflow-users"></a>Werkstroomgebruikers instellen
 Voordat u werkstromen kunt maken, moet u de gebruikers instellen die deelnemen aan werkstromen. Dit is nodig om bijvoorbeeld op te geven wie een bericht ontvangt als er moet worden gereageerd op een werkstroomstap.  
@@ -41,7 +41,7 @@ Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers al
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Gebruikersnaam**|Geef de gebruiker op die deelneemt aan werkstromen.<br /><br /> De gebruiker moet op de pagina **Gebruikersinstellingen** bestaan. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.|  
-    |**Volgnr.**|Geef de volgorde waarin de werkstroomgebruiker deelneemt aan een werkstroom in verband met andere gebruikers. Dit veld kan bijvoorbeeld worden gebruikt om aan te geven wanneer de gebruiker in verhouding tot andere fiatteurs goedkeurt, als u de optie **Werkstroomgebruikersgroep** in het veld **Approver Type** voor het gerelateerde werkstroomantwoord gebruikt. **TIP:** stel een vaste werkstroomgebruikersgroep in door hetzelfde volgordenummer aan de relevante fiatteurs toe te kennen om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd alvorens deze door meerdere gelijkwaardige fiatteurs is goedgekeurd, ongeacht of sprake is van een hiërarchie.|  
+    |**Volgnr.**|Geef de volgorde waarin de werkstroomgebruiker deelneemt aan een werkstroom in verband met andere gebruikers. Dit veld kan bijvoorbeeld worden gebruikt om aan te geven wanneer de gebruiker in verhouding tot andere fiatteurs goedkeurt, als u de optie **Werkstroomgebruikersgroep** in het veld **Soort fiatteur** voor het gerelateerde werkstroomantwoord gebruikt. **TIP:** stel een vaste werkstroomgebruikersgroep in door hetzelfde volgordenummer aan de relevante fiatteurs toe te kennen om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd alvorens deze door meerdere gelijkwaardige fiatteurs is goedgekeurd, ongeacht of sprake is van een hiërarchie.|  
 6. Herhaal stap 5 om meer werkstroomgebruikers aan de gebruikersgroep toe te voegen.  
 7. Herhaal stap 2 tot en met 6 om werkstroomgebruikersgroepen toe te voegen.  
 

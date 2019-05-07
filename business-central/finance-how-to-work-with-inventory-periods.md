@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309de0c582e125eb4bf5fb5b0c6b901adb1d0bfc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816901"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929253"
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
 Een voorraadperiode is een periode waarin gewijzigde voorraadwaarden kunnen worden geboekt. Een voorraadperiode wordt begrensd door een einddatum. Als u een voorraadperiode hebt afgesloten, kunt u geen verwachte of gefactureerde voorraadwaarden vóór de einddatum meer boeken. U kunt geen nieuwe waarden naar de voorraad boeken vóór de einddatum. Als er nog open artikelposten, d.w.z. positieve aantallen die nog niet zijn vereffend met uitgaande transacties, zijn die binnen de afgesloten periode vallen, kunt u de uitgaande aantallen ook nadat de periode is afgesloten nog met deze posten vereffenen.  

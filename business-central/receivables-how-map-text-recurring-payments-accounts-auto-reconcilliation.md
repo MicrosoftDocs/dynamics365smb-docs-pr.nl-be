@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 03/05/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 357febcb3984db658c0742f013aff65301ae6f42
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0df165440ebe34c35da8a59289f051239821ea5a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815993"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918969"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 Op de pagina **Toewijzing tekst aan rekening**, die u opent vanuit de pagina **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.

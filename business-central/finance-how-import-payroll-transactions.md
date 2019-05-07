@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 642c35fa993b9177ec51deccaef7beb3615ab336
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c483b50e7f1456c06ace27d3893c04a3d59e6ab8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816462"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924983"
 ---
 # <a name="import-payroll-transactions"></a>Salaristransacties importeren
 Als u salarisbetalingen en gerelateerde transacties wilt verantwoorden, moet u financiële transacties die zijn uitgevoerd door uw leverancier van salarisverwerking, importeren en boeken naar het grootboek. Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverwerking ontvangt, op de pagina **Fin. dagboek**. Vervolgens kunt u de externe rekeningen in het loonlijstbestand toewijzen aan de betreffende grootboekrekeningen. Als laatste boekt u de loonlijsttransacties op basis van de rekeningtoewijzing.

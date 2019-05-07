@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852298"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916161"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -49,12 +49,15 @@ Als u toegang tot Microsoft CustomerSource hebt, kunt u toegang krijgen tot de I
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt verkocht via partners en u moet contact met uw resellerpartner opnemen voor hulp bij technische problemen. Als uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
 
-Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[d365fin](includes/d365fin_md.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft.  
-
-U vindt een Business Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Zie voor meer informatie [Help en ondersteuning](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
-Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
+Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Waar is de knop Opslaan?
+
+Er is geen knop *Opslaan* op pagina's zoals in andere programma's waarmee u mogelijk vertrouwd bent. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden wijzigingen die u aanbrengt in een veld, automatisch opgeslagen zodra u naar het volgende veld gaat of de pagina sluit, zo lang er geen fouten zijn. Wanneer u wijzigingen in een veld aanbrengt en naar een ander veld gaat, ziet u de tekst **Opslaan** in de rechterbovenhoek van de pagina, wat snel verandert in **Opgeslagen** als er geen fouten optreden. Als er een fout is opgetreden, wordt de tekst gewijzigd in **Niet opgeslagen**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  

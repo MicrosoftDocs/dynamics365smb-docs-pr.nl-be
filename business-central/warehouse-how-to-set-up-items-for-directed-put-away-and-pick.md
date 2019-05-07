@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2492ebf0d9987bd126fa963c6d7d940c6a114796
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816861"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914822"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Artikelen en locaties instellen voor gestuurde opslag en pick
 Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick nieuwe functionaliteit beschikbaar om u te helpen om het magazijn op de meest efficiënte wijze te beheren. Als u deze functionaliteit ten volle wilt benutten, geeft u extra informatie op over de artikelen, zodat het eenvoudiger wordt om de berekeningen uit te voeren die zijn vereist voor het voorstellen van de meest efficiënte en de meest doeltreffende wijzen voor het uitvoeren van magazijnactiviteiten. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).

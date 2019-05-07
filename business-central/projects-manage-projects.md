@@ -1,23 +1,19 @@
 ---
 title: Projecttaken die resources en urenstaten gebruiken | Microsoft Docs
 description: Hier wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten te beheren.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817043"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921040"
 ---
 # <a name="project-management"></a>Projectbeheer
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
@@ -38,13 +34,18 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Boek het verbruik van materiaal, resources en andere onkosten van OHW voor projecten om de financiële waarde ervan te controleren en juiste financiële afschriften te onderhouden, zelfs als u projectonkosten boekt voordat u het project factureert. |[Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md) |
 | Leg projectkosten vast voor resourceverbruik, materialen en aan het project gerelateerde inkopen op een doorlopende basis en factureer de klant wanneer het project is voltooid of op basis van een factureringsschema. |[Projecten factureren](projects-how-invoice-jobs.md) |
 
+## <a name="get-started-with-projects"></a>Aan de slag met projecten
+
+Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE [prodshort](includes/prodshort.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanaal.  
+
 ## <a name="see-also"></a>Zie ook
+
 [Projectbeheer instellen](projects-setup-projects.md)  
-[Wijzigen welke functies worden weergegeven](ui-experiences.md)      
-[Inkoop](purchasing-manage-purchasing.md)         
-[Verkoop](sales-manage-sales.md)    
+[Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+[Inkoop](purchasing-manage-purchasing.md)  
+[Verkoop](sales-manage-sales.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

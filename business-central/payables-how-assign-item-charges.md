@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0bf5ab953315048bfa10dc1ffb70c07d8305b4e1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cdce0c18fd2fb4065c75dc71d10434b14120ed9f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816307"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917081"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
 Als u wilt zorgen voor goede waardering, moeten voor uw voorraadartikelen toegevoegde kosten worden berekend, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u de artikelen inkoopt of verkoopt. Voor inkopen bestaan de werkelijke kosten van een ingekocht artikel uit de inkoopprijs van de leverancier en alle bijkomende directe artikeltoeslagen die kunnen worden toegewezen voor afzonderlijke ontvangsten of retourzendingen. Voor verkopen is het belang van de verzendkosten van verkochte artikelen te weten net zo groot zijn als de leveringskosten van aangekochte artikelen te weten.

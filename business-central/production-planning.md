@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852206"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929586"
 ---
 # <a name="planning"></a>Planning
 De productiebewerkingen die vereist zijn om input om te zetten in gereed product, moeten per dag of per week worden gepland afhankelijk van het volume en de aard van de producten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat functies voor de verwachte en werkelijke vraag van verkoop, montage en productie, en functies voor distributieplanning met SKU's en transfers.
 
 > [!NOTE]
-> Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.
-
+> Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook voorraadplanning voor de groothandel, waar de resulterende aanvulorders alleen transfer- en inkooporders kunnen zijn. De belangrijkste interface voor dit planningswerk is de pagina **Inkoopvoorstel**, die indirect in dit onderwerp wordt beschreven aangezien de meeste planningsfunctionaliteiten op beide voorstellen van toepassing zijn.
 
 Voordat u productieorders kunt plannen en uitvoeren, moet u de productiecapaciteiten configureren, zoals het maken van productieagenda's, productiestuklijsten en bewerkingsplaatsen. Zie [Productie instellen](production-configure-production-processes.md) voor meer informatie.

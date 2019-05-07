@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816059"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918159"
 ---
-# <a name="setting-up-contacts"></a>Contactpersonen instellen
+# <a name="set-up-contacts"></a>Contacten instellen
 Wanneer u contacten maakt, kunt u specifieke gegevens invoeren, zoals de sector waartoe het contact behoort en uw zakenrelatie met de contacten.
 
 Voordat u contacten maakt en details over uw zakenrelaties registreert, moet u de verschillende codes instellen waarmee u deze informatie kunt toewijzen aan uw contactbedrijven en medewerkers. Codes kunnen worden ingesteld voor mailinggroepen, sectoren, zakenrelaties, webbronnen, niveaus binnen de organisatie en functiegroepen. U kunt dit instellen door de actie **Nieuw** te kiezen als u de lijsten opzoekt vanaf de contactkaart.  
@@ -151,10 +151,10 @@ Als u de contactkaart wilt synchroniseren met een gekoppelde klant-, leverancier
 
 Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Dubbele contacten zoeken als contacten worden gemaakt
-U kunt het programma automatisch laten zoeken naar dubbele records telkens wanneer u een contactbedrijf maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door het programma, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd.
+## <a name="searching-for-duplicate-contacts"></a>Dubbele contacten zoeken
+U kunt het programma automatisch laten zoeken naar dubbele records telkens wanneer u een contact maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door het programma, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd. U stelt dit in op het sneltabblad **Dubbele records** op de pagina **Marketinginstellingen**.
 
-U stelt dit in op het sneltabblad **Dubbele records** op de pagina **Marketinginstellingen**.
+Wanneer u een dubbel contact hebt gevonden, kunt u de pagina **Dubbele records samenvoegen** gebruiken om het samen te voegen met een bestaande contactrecord die u wilt behouden. Zie voor meer informatie [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

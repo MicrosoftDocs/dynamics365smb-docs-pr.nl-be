@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ec0dbdd999f2a1bf1f243fec565535752482de41
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816344"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916340"
 ---
 # <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
 Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen op de pagina **Opslaglocatie-inhoud** of automatisch met de pagina **Opslaglocatie-inhoud maken**.

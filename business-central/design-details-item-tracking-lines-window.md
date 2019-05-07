@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48a1a5524e3fb91bf8915ee3260f41080be3ccb6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0ddfa9b2d981f81f649240a08c26e8cca845bd1f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815877"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920473"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Ontwerpdetails: Pagina Artikeltraceringsregels
 Artikeltraceringsrecords en reserveringsrecords worden gemaakt in het reserveringsysteem en hun beschikbaarheid wordt dynamisch berekend. Gegevens die op de pagina **Artikeltraceringsregels** worden ingevoerd, worden beheerd in een tijdelijke versie van de tabel **Traceringsspecificatie**. Wanneer de pagina is gesloten, worden de actieve gegevens vastgelegd in de tabel **Reserveringspost** en worden de historische gegevens vastgelegd in de tabel **Traceringsspecificatie**. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  

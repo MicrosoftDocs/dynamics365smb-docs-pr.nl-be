@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817105"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920854"
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
 Als u analyse in documenten zoals verkooporders eenvoudiger wilt maken, kunt u dimensies gebruiken. Dimensies zijn kenmerken en waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
@@ -48,12 +48,12 @@ U kunt de dimensies en dimensiewaarden definiëren om dagboeken en documenten te
 
 U stelt ook waarden voor dimensies in. Waarden kunnen bijvoorbeeld afdelingen in uw bedrijf zijn. Dimensiewaarden kunnen worden ingesteld in een hiërarchische structuur, vergelijkbaar met het rekeningschema, zodat gegevens kunnen worden onderverdeeld in verschillende niveaus en zodat subsets van dimensiewaarden kunnen worden opgeteld. U kunt zoveel dimensies en dimensiewaarden definiëren als u nodig hebt en iedereen in uw bedrijf kan deze gebruiken.
 
-U kunt ook een aantal globale dimensies en shortcutdimensies instellen:  
+Als dimensies en waarden zijn ingesteld, kunt u globale dimensies en shortcutdimensies definiëren op de pagina **Boekhoudinstellingen** die altijd beschikbaar is, om te selecteren als velden op dagboek- en documentregels, zonder eerst de pagina **Dimensies** te hoeven openen. Zie [Globale dimensies en shortcutdimensies instellen](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions) voor meer informatie.
 
 * **Globale dimensies** worden als filters gebruikt, bijvoorbeeld in rapporten en batchverwerkingen. U kunt slechts twee globale dimensies gebruiken. Kies dus dimensies die u vaak gebruikt.
 * **Shortcutdimensies** zijn beschikbaar als velden in dagboek- en documentregels. U kunt maximaal zes shortcutdimensies maken.  
 
-### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standaarddimensies instellen voor klanten, leveranciers en andere rekeningen
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standaarddimensies voor klanten, leveranciers en andere accounts instellen
 U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie wordt naar het dagboek of document gekopieerd wanneer u het rekeningnummer op een regel invoert, maar u kunt de code op de regel desgewenst verwijderen of wijzigen. U kunt ook een dimensie maken die is vereist om een post te boeken met een specifiek rekeningsoort.  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensies** in en kies vervolgens de gerelateerde koppeling.  
@@ -102,15 +102,21 @@ U kunt bepaalde combinaties van twee dimensies blokkeren of beperken om te voork
 >   
 >  Als u de naam van de dimensies wilt weergeven en niet de code, klikt u op het veld **Kolomnaam weergeven**.
 
-### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Een overzicht krijgen van dimensies die meerdere keren zijn gebruikt
-Op de pagina **Standaarddimensies - Multi** wordt opgegeven hoe een groep rekeningen gebruikmaakt van dimensies en dimensiewaarden. Markeer meerdere rekeningen en geef standaard dimensies en dimensiewaarden op voor de rekeningen die u hebt gemarkeerd in het overzicht met rekeningen. Geeft u standaard dimensies voor de gemarkeerde rekeningen op, dan worden deze dimensies en dimensiewaarden voorgesteld wanneer een van deze rekeningen wordt gebruikt, bijvoorbeeld op een dagboekregel. Dit maakt het boeken van een post eenvoudiger voor de gebruiker, omdat de dimensievelden automatisch worden ingevuld. De voorgestelde dimensiewaarden kunnen echter worden gewijzigd, bijvoorbeeld op een dagboekregel.
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>Globale dimensies en shortcutdimensies instellen
+Globale dimensies en shortcutdimensies kunnen als filter worden gebruikt overal in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusief in rapporten, batchverwerkingen en analyseweergaven. Globale dimensies en shortcutdimensies zijn altijd beschikbaar om direct te worden ingevoegd zonder eerst de pagina **Dimensies** te openen. Op dagboek- en documentregels kunt u globale dimensies en shortcutdimensies selecteren in een veld op de regel. U kunt twee globale dimensies en acht shortcutdimensies instellen. Kies de dimensies die u het vaakst gebruikt.
 
-De pagina **Standaarddimensies - Multi** bevat de volgende velden:
-|Veld|Description|
-|----------------------------------|---------------------------------------|  
-|**Dimensiecode**|Bevat die dimensies die zijn ingesteld als standaarddimensies in een of meer gemarkeerde rekeningen. Kies het veld voor een overzicht van de beschikbare dimensies. Als u een dimensie selecteert, wordt de geselecteerde dimensie voor de gemarkeerde rekeningen ingesteld als standaard dimensie.|
-|**Dimensiewaardecode**|Bevat een dimensiewaarde of de term (Conflict). Als het veld een dimensiewaarde bevat, hebben de gemarkeerde rekeningen dezelfde standaard dimensiewaarde voor een dimensie. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde standaard dimensiewaarde voor een dimensie. Kies het veld voor een overzicht van de beschikbare dimensiewaarden voor een dimensie. Als u een dimensiewaarde selecteert, wordt de geselecteerde dimensiewaarde ingesteld als standaard dimensiewaarde voor de gemarkeerde rekeningen.|
-|**Waardeboeking**|Bevat een regel voor waardeboeking of de term (Conflict). Als het veld een regel voor waardeboeking bevat, hebben de gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Kies het veld Waardeboeking voor een overzicht van de regels voor waardeboeking. Als u een regel voor waardeboeking selecteert, wordt de geselecteerde regel voor waardeboeking toegepast op de gemarkeerde rekeningen.|
+> [!Important]  
+> Het wijzigen van een globale of shortcutdimensie vereist dat alle met de dimensie geboekte posten worden bijgewerkt. U kunt deze taak uitvoeren met de functie **Globale dimensies wijzigen**, maar het kan enige tijd duren en kan vertragend werken. Kies daarom uw globale dimensies en shortcutdimensies zorgvuldig, zodat u deze niet later moet wijzigen.
+
+> [!Note]
+> Wanneer u een globale of shortcutdimensie toevoegt of wijzigt, wordt u automatisch afgemeld en weer aangemeld, zodat de nieuwe waarde voorbereid is voor gebruik in de hele toepassing.
+
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.
+2. Vul de velden van het sneltabblad **Dimensies** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="to-change-global-dimensions"></a>Globale dimensies wijzigen
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Globale dimensies wijzigen** in en kies vervolgens de gerelateerde koppeling.
+2. Plaats de aanwijzer boven acties en velden op de pagina om te leren hoe u globale dimensies en shortcutdimensies wijzigt.
 
 ### <a name="example-of-dimension-setup"></a>Voorbeeld van dimensie-instelling
 Stel dat uw bedrijf transacties wil traceren op basis van organisatorische structuur en geografische locaties. Hiervoor kunt u twee dimensies instellen op de pagina **Dimensies**:
@@ -137,7 +143,8 @@ Voor **DISTRICT** voegt u de volgende dimensiewaarden toe:
 | 80 |Niet-EU |Standaard |
 | 90 |Europa, totaal |Eindtotaal |
 
-Voor de twee belangrijke geografische gebieden, Noord- en Zuid-Amerika en Europa, voegt u subcategorieën toe voor regio's door de dimensiewaarden te laten inspringen. Zo kunt u rapporteren over verkoop of kosten in regio's en totalen ophalen voor de grotere geografische gebieden. U kunt er ook voor kiezen landen of regio's te gebruiken als uw dimensiewaarden, of provincies of plaatsen. Dit hangt af van uw bedrijf.  
+Voor de twee belangrijke geografische gebieden, Noord- en Zuid-Amerika en Europa, voegt u subcategorieën toe voor regio's door de dimensiewaarden te laten inspringen. Zo kunt u rapporteren over verkoop of kosten in regio's en totalen ophalen voor de grotere geografische gebieden. U kunt er ook voor kiezen landen of regio's te gebruiken als uw dimensiewaarden, of provincies of plaatsen. Dit hangt af van uw bedrijf.
+
 > [!NOTE]  
 >   Als u een hiërarchie wilt instellen, moeten de codes op alfabetische volgorde staan Dit omvat de codes van de dimensiewaarden die worden verschaft in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -149,7 +156,18 @@ Voor **AFDELING** voegt u de volgende dimensiewaarden toe:
 | PROD |Productie |Standaard |
 | VERKOOP |Verkoop |Standaard |
 
-Met deze instellingen kunt u vervolgens uw twee dimensies toevoegen als twee globale dimensies op de pagina **Boekhoudinstellingen**. Dit betekent dat u DISTRICT en AFDELING kunt gebruiken als filters voor grootboekposten, evenals in alle rapporten en rapportageschema's. Beide globale dimensies kunnen ook automatisch worden gebruikt als shortcutdimensies in postregels en documentkoppen.  
+Met deze instellingen kunt u uw twee dimensies toevoegen als twee globale dimensies op de pagina **Boekhoudinstellingen**. Dit betekent dat u DISTRICT en AFDELING kunt gebruiken als filters voor grootboekposten, evenals in alle rapporten en rapportageschema's. Beide globale dimensies kunnen ook automatisch worden gebruikt als shortcutdimensies in postregels en documentkoppen.
+
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Een overzicht krijgen van dimensies die meerdere keren zijn gebruikt
+Op de pagina **Standaarddimensies - Multi** wordt opgegeven hoe een groep rekeningen gebruikmaakt van dimensies en dimensiewaarden. Markeer meerdere rekeningen en geef standaard dimensies en dimensiewaarden op voor de rekeningen die u hebt gemarkeerd in het overzicht met rekeningen. Geeft u standaard dimensies voor de gemarkeerde rekeningen op, dan worden deze dimensies en dimensiewaarden voorgesteld wanneer een van deze rekeningen wordt gebruikt, bijvoorbeeld op een dagboekregel. Dit maakt het boeken van een post eenvoudiger voor de gebruiker, omdat de dimensievelden automatisch worden ingevuld. De voorgestelde dimensiewaarden kunnen echter worden gewijzigd, bijvoorbeeld op een dagboekregel.
+
+De pagina **Standaarddimensies - Multi** bevat de volgende velden:
+
+|Veld|Description|
+|-----|-----------|  
+|**Dimensiecode**|Bevat die dimensies die zijn ingesteld als standaarddimensies in een of meer gemarkeerde rekeningen. Kies het veld voor een overzicht van de beschikbare dimensies. Als u een dimensie selecteert, wordt de geselecteerde dimensie voor de gemarkeerde rekeningen ingesteld als standaard dimensie.|
+|**Dimensiewaardecode**|Bevat een dimensiewaarde of de term (Conflict). Als het veld een dimensiewaarde bevat, hebben de gemarkeerde rekeningen dezelfde standaard dimensiewaarde voor een dimensie. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde standaard dimensiewaarde voor een dimensie. Kies het veld voor een overzicht van de beschikbare dimensiewaarden voor een dimensie. Als u een dimensiewaarde selecteert, wordt de geselecteerde dimensiewaarde ingesteld als standaard dimensiewaarde voor de gemarkeerde rekeningen.|
+|**Waardeboeking**|Bevat een regel voor waardeboeking of de term (Conflict). Als het veld een regel voor waardeboeking bevat, hebben de gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Kies het veld Waardeboeking voor een overzicht van de regels voor waardeboeking. Als u een regel voor waardeboeking selecteert, wordt de geselecteerde regel voor waardeboeking toegepast op de gemarkeerde rekeningen.|
 
 ## <a name="using-dimensions"></a>Dimensies gebruiken
 In een document zoals een verkooporder kunt u dimensiegegevens toevoegen voor een afzonderlijke documentregel en voor het document zelf. Op de pagina **Verkooporder** kunt u bijvoorbeeld dimensiewaarden invoeren voor de eerste twee shortcutdimensies op de afzonderlijke verkoopregels, en u kunt meer dimensiegegevens toevoegen als u de knop **Dimensies** kiest.  
@@ -158,7 +176,7 @@ Als u in plaats daarvan in een dagboek werkt, kunt u ook op dezelfde manier dime
 
 U kunt standaarddimensies instellen voor rekeningen of rekeningsoorten, zodat dimensies en dimensiewaarden automatisch worden ingevuld.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Globale dimensies bekijken op pagina's met posten  
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Globale dimensies bekijken op pagina's met posten  
 Globale dimensies zijn altijd gedefinieerd en benoemd door het bedrijf. Als u de globale dimensies voor het bedrijf wilt bekijken, opent u de pagina **Boekhoudinstellingen**.  
 
 Op een pagina met posten kunt u bekijken of er globale dimensies van toepassing zijn op de posten. In tegenstelling tot de overige dimensies kunnen de twee globale dimensies overal in [!INCLUDE[d365fin](includes/d365fin_md.md)] als filter worden toegepast.  
@@ -169,7 +187,27 @@ Op een pagina met posten kunt u bekijken of er globale dimensies van toepassing 
 4.  Als u alle dimensies voor een post wilt zien, selecteert u de post en kiest u vervolgens de actie **Dimensies**.  
 
 > [!NOTE]  
->  Op de pagina **Postdimensies** worden de gegevens per post weergegeven. Als u de posten doorloopt, wordt de inhoud op de pagina **Postdimensies** hieraan aangepast.  
+>  Op de pagina **Postdimensies** worden de gegevens per post weergegeven. Als u de posten doorloopt, wordt de inhoud op de pagina **Postdimensies** hieraan aangepast.
+
+## <a name="troubleshooting-dimensions-errors"></a>Problemen oplossen met dimensiefouten
+Wanneer u documenten of dagboekregels boekt die dimensies bevatten, kunnen verschillende fouten optreden die gewoonlijk aan verkeerde dimensie-instellingen of picks worden gerelateerd.
+
+> [!NOTE]
+> In de volgende lijst van potentiële foutmeldingen, zijn *%X*-codes tijdelijke aanduidingen voor de gegevensvariabelen die het feitelijke bericht bevat in de UI, afhankelijk van de context. Bijvoorbeeld *%1 %2 is geblokkeerd.* kan in de UI worden weergegeven als 'Dimensiecode AREA is geblokkeerd".  
+
+|Verzenden|Foutmelding|Mogelijke oplossing|
+|-----|-------------|-----------------|
+|Geblokkeerde dimensie|%1 %2 is geblokkeerd.|-Niet-geboekte documenten zoeken die de dimensieset bevatten met de geblokkeerde dimensie, en deze deblokkeren.<br />-De dimensiesetregel verwijderen voor de geblokkeerde dimensie.|
+|Verwijderde dimensie|%1 %2 kan niet worden gevonden.|-De ontbrekende dimensie herstellen.<br />-Niet-geboekte documenten zoeken die de dimensieset bevatten met de ontbrekende dimensie en deze toevoegen.<br />-De dimensiesetregel verwijderen voor de ontbrekende dimensie.|
+|Geblokkeerde dimensiewaarde|%1 %2 - %3 is geblokkeerd.|-Niet-geboekte documenten zoeken die de dimensieset bevatten met de geblokkeerde dimensiewaarde, en deze deblokkeren.<br />-De dimensiesetregel verwijderen voor de geblokkeerde dimensiewaarde.|
+|Verwijderde dimensiewaarde|   %1 voor %2 ontbreekt.|-De ontbrekende dimensiewaarde herstellen.<br />-Niet-geboekte documenten zoeken die de dimensieset bevatten met de ontbrekende dimensiewaarde en deze toevoegen.<br />-De dimensiesetregel verwijderen voor de ontbrekende dimensiewaarde.|
+|Verboden dimensiewaarde|Dimensiewaardetype voor %1 %2 - %3 mag niet %4 zijn.|-Het veld **Dimensiewaardesoort** op de pagina **Dimensiewaarden** wijzigen in **Standaard** of **Begintotaal**.<br />-De dimensiesetregel verwijderen voor de geblokkeerde dimensiewaarde.|
+|Geblokkeerde dimensiecombinatie|Dimensies %1 en %2 kunnen niet gelijktijdig gebruikt worden.|-Niet-geboekte documenten zoeken die de dimensieset bevatten met de geblokkeerde dimensiecombinatie en deze deblokkeren.<br />-Een van de conflicterende machtigingensetregels wijzigen voor de dimensiecombinatie.|
+|Geblokkeerde dimensiewaardecombinatie|Dimensiecombinaties %1 - %2 en %3 - %4 kunnen niet gelijktijdig gebruikt worden.|-Niet-geboekte documenten zoeken die de dimensieset bevatten met de geblokkeerde dimensiewaardecombinatie en deze deblokkeren.<br />-Een van de conflicterende machtigingensetregels wijzigen voor de dimensiewaardecombinatie.|
+|Lege dimensiewaardecode voor standaarddimensie waarvoor het veld **Waardeboeking** **Verplicht** bevat|-Een %1 voor de %2 %3 selecteren.<br />-Een %1 voor de %2 %3 voor %4 %5 selecteren.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-Een niet-lege dimensiewaarde invoeren voor de conflicterende dimensie in de dimensieset.|
+|Verkeerde dimensiewaardecode voor standaarddimensie waarvoor het veld **Waardeboeking** **Zelfde** bevat|-%1 %2 voor de %3 %4 selecteren.<br />-%1 %2 voor de %3 %4 voor %5 %6 selecteren.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-De vereiste dimensiewaarde invoeren voor de conflicterende dimensie in de dimensieset.|
+|Niet-lege dimensiewaardecode invoeren voor lege standaarddimensie waarvoor het veld **Waardeboeking** **Zelfde** bevat|-%1 %2 moet leeg zijn.<br />-%1 %2 moet leeg zijn voor %3 %4.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-Een lege dimensiewaardecode invoeren voor de conflicterende dimensie in de dimensieset.|
+|Onverwachte dimensiewaarde voor standaarddimensie waarvoor het veld **Waardeboeking** **Geen** bevat|-%1 %2 mag niet vermeld worden.<br />-%1 %2 mag niet vermeld worden voor %3 %4.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-De conflicterende regel verwijderen uit de dimensieset.|
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

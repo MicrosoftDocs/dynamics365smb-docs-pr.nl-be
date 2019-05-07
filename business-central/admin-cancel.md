@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816835"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926120"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] verwijderen, op beginwaarden instellen of het abonnement erop stoppen
 Als u wilt stoppen met het gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u uw account sluiten of de licentie uit uw account laten verwijderen. De uit te voeren stappen verschillen als u momenteel de gratis proef gebruikt of een maandelijks abonnement hebt als onderdeel van een Office 365-account.  

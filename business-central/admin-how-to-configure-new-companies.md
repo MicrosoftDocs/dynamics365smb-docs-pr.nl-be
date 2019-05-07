@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817220"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925571"
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
 Als u een nieuw bedrijf in uw oplossingimplementatie wilt configureren, volgt u doorgaans drie fasen. In de eerste fase importeert u het configuratiepakket. Dit is een .rapidstart-bestand met de configuratie-informatie. In de tweede fase wijzigt u de configuratiegegevens en past u deze vervolgens toe op uw nieuwe bedrijf. In de laatste fase controleert en corrigeert u fouten.  

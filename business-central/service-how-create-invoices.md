@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 62fd9e94b810887ecb152bba5a58c2f724b4025b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816733"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913213"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Servicefacturen of creditnota's maken
 Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt op elk gewenst moment een factuur naar uw klanten verzenden of u kunt periodiek facturen opstellen.  

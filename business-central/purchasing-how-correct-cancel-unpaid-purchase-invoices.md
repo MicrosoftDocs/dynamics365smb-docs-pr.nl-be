@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 275b81fa2f4170208b166645a9b8778c1e6406a5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 76ef3837801a5841a39228f956db48caba264336
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816283"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926856"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Niet-betaalde inkoopfacturen corrigeren of annuleren
 U kunt een geboekte inkoopfactuur corrigeren of annuleren. Dit is handig als u een typefout wilt corrigeren of als u de aankoop in het begin van het orderproces wilt wijzigen.

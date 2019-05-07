@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, order
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 4152dfb744215034383239ea98847fbf7b5751e9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a0014a80bd4f1f6c786638ddec23a1852c9a635
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816461"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913860"
 ---
 # <a name="design-details-order"></a>Ontwerpdetails: Order
 In een op-order-produceren omgeving wordt een artikel ingekocht of geproduceerd om uitsluitend aan een specifieke vraag te voldoen. Meestal heeft dit betrekking op A-producten en de motivatie om het bestelbeleid Order te kiezen, kan zijn dat de vraag niet frequent is, dat de doorlooptijd onbeduidend is of dat de vereiste kenmerken verschillen.  

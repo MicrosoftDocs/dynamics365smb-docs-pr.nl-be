@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 11/15/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815987"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918783"
 ---
 # <a name="purchasing"></a>Inkopen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -42,6 +42,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|
 |Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Leer hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
+|Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop instellen](purchasing-setup-purchasing.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 23d2f6c950786bbd5eb8af0a79ea1351d4e8a3d0
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816665"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919618"
 ---
 # <a name="the-c5-data-migration-extension"></a>De extensie C5-gegevensmigratie
 Deze extensie maakt het eenvoudidiger om klanten, leveranciers, artikelen en uw grootboekrekeningen van Microsoft Dynamics C5 2012 te migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt historische posten voor grootboekrekeningen ook migreren.

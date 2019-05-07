@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815805"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922997"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd. De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  

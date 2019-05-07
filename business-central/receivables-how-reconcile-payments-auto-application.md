@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 16241459bd080b7f1982a42110a834433d9427ea
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "817079"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913258"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
 Op de pagina **Dagboek betalingsreconciliatie** worden inkomende of uitgaande betalingen opgegeven die als transacties zijn vastgelegd op uw online bankrekening en die u kunt vereffenen met de gerelateerde openstaande, klant-, leveranciers- en bankrekeningposten. De dagboekregels worden ingevuld door een bankafschrift als een bankfeed of bestand te importeren.

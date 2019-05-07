@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 01/07/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: faa7946dd376dd8e0f89e35cd798a6de45a3248d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816940"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916605"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massaal factureren voor Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als uw bedrijf de app Bookings gebruikt in Office 365, kunt u massaal factureren voor afspraken. De pagina **Niet-gefactureerde Bookings** in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een overzicht van de voltooide boekingen van het bedrijf. Op deze pagina kunt u snel afspraken selecteren die u wilt factureren en conceptfacturen maken voor de geleverde services.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816290"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924888"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Lijsten weergeven op verschillende manieren
 In de rechterhoek van elke lijst in [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u pictogrammen waarmee u in de lijst kunt wisselen van weergave. Een lijst kan worden weergegeven als een gedetailleerde lijst. Dit is de standaardweergave. Maar u kunt ook naar een ´tegelweergave´ overschakelen. Hierin worden minder gedetailleerde gegevens over de specifieke record weergegeven en worden de items als tegels gestapeld. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat op elk item gemakkelijker kan worden getikt.

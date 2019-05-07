@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 48361c529b682fc3989ceaa2baebcb1f4cb529a4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816378"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913542"
 ---
 # <a name="set-up-fault-reporting"></a>Foutrapportage instellen
 Met probleemrapportage kunt u standaarden voor het vastleggen van probleemgegevens voor service-items bepalen. U kunt bijvoorbeeld opgeven wat het probleem is, welke symptomen u ziet, wat de oorzaak van het probleem is en hoe het probleem moet worden verholpen.  
@@ -38,7 +38,8 @@ Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernome
 Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke reparaties of oplossingen aan een probleem of defect zijn gekoppeld. U stelt dit in op de pagina **Relaties probleem-/oplossingscodes**, waar u combinaties van codes instelt voor de serviceartikelgroep van het serviceartikel van waaruit u het venster hebt geopend. Tevens wordt aangegeven hoe vaak elke combinatie voorkomt.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Relaties tussen probleem- en oplossingscodes maken
-<!--this needs to go in a working with topic--> Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen op de pagina **Rel. probleem-/oplossingscodes**.
+<!--this needs to go in a working with topic-->
+ Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen op de pagina **Rel. probleem-/oplossingscodes**.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rel. probleem-/oplossingscodes invoegen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer datums in om de periode op te geven die u in de batchverwerking wilt opnemen.  

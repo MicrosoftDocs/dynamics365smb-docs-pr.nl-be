@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816252"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913064"
 ---
 # <a name="plan-picks-in-worksheets"></a>Picks plannen in het voorstel
 Als voor het magazijn zowel pick- als verzendingsverwerking is vereist, hebt u de keuze om van de regels op verzenddocumenten niet automatisch pickinstructies te maken, maar de regels beschikbaar te stellen in het pickvoorstel.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "816430"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926005"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem. Als u hulp wilt met uw abonnement te helpen, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
@@ -73,7 +73,7 @@ Of zoek [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!
 
 ## <a name="getting-answers-to-questions"></a>Antwoorden op vragen krijgen
 
-Als u niet zeker weet hoe u iets doet in [!INCLUDE[d365fin](includes/d365fin_md.md)], vindt u het antwoord hopelijk door de knopinfo te lezen voor het veld waarover u twijfelt, of door de inhoud te lezen door de koppeling *Meer informatie* te openen in knopinfo. U kunt ook de documentatie ophalen door de gerelateerde koppeling te kiezen in het menu Help.  
+Als u niet zeker weet hoe u iets doet in [!INCLUDE[d365fin](includes/d365fin_md.md)], vindt u het antwoord hopelijk door de knopinfo te lezen voor het veld waarover u twijfelt, of door de inhoud te lezen door de koppeling *Meer informatie* te openen in knopinfo (gebruik de sneltoets Ctrl+F1). U kunt ook de documentatie ophalen door de gerelateerde koppeling te kiezen op de pagina [Help en ondersteuning](product-help-and-support.md).  
 
 Alle velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden beschreven in knopinfo. U kunt knopinfo openen door de naam van het veld te selecteren. Bijvoorbeeld op een pagina zoals **Klantenkaart**, kiest u de naam van het veld om de knopinfo te lezen. In een lijst zoals de lijst **Klanten** of de regels in een document zoals een verkooporder, moet u het vervolgkeuzemenu kiezen rechts van de naam van de kolom en vervolgens de menuoptie **Wat is dit?** kiezen.  
 
@@ -88,14 +88,16 @@ Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics
 Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] voor een naadloze integratie met [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Welkom bij Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
+[Resources voor Help en Ondersteuning](product-help-and-support.md)  
 [Dynamics 365-documentatie](https://docs.microsoft.com/en-us/dynamics365/)  
 [Releaseopmerkingen van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

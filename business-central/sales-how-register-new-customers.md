@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815820"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917108"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 Klanten zijn de bron van uw inkomsten. U moet elke klant aan wie u verkoopt registreren als een klantenkaart. Klantenkaarten bevatten de informatie die is vereist om producten aan de klant te verkopen. Zie voor meer informatie [Verkopen factureren](sales-how-invoice-sales.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Als u deze klantenkaart als sjabloon wilt gebruiken wanneer u nieuwe klantenkaar
 De klantensjabloon wordt toegevoegd aan de lijst met klantensjabloon, zodat u deze kunt gebruiken om nieuwe klantenkaarten te maken.
 
 ## <a name="see-also"></a>Zie ook
+[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)  
 [Nummerreeksen maken](ui-create-number-series.md)  
 [Verkoop](sales-manage-sales.md)    
 [Verkopen instellen](sales-setup-sales.md)    

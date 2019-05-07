@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852252"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926902"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
@@ -39,7 +39,7 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 |Leren hoe u werkt met Excel vanuit praktisch overal in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Weergeven en bewerken in Excel](across-work-with-excel.md)|
 |Gewaarschuwd worden over bepaalde gebeurtenissen of wijzigingen in de status, zoals wanneer u een klant gaat factureren die een achterstallig saldo heeft.|[Berichten beheren](ui-smart-notifications.md)|
 | Basisinstellingen wijzigen zoals bedrijf, werkdatum en rolcentrum. |[Basisinstellingen wijzigen](ui-change-basic-settings.md) |
-| Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen. |[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Wijzigen welke en waar gebruikersinterface-elementen worden weergegeven volgens uw voorkeuren.|[Het personaliseren van uw werkruimte](ui-personalization-user.md) |
 |Rapporten definiëren, afdrukken, opslaan of er een voorbeeld van bekijken en batchverwerkingen definiëren en uitvoeren.|[Werken met rapporten en batchverwerkingen](ui-work-report.md)|
 | De inhoud en indeling van rapporten en documenten beheren, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort.|[Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md) |
 |Leren over functies en mogelijkheden die [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar maken voor mensen met beperkingen.|[Toegankelijkheid en sneltoetsen](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[d365fin](includes/d365fi
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815756"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912449"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Migratie van klantgegevens voorbereiden
 Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren.  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 796f48a719b30ce54752eb8ab02386f964c2e7b8
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853152"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917011"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] uitbreiden
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is een bedrijfsmanagementoplossing die bedrijven helpt hun financiën, verkoop, service en activiteiten te verbinden om bedrijfsprocessen te stroomlijnen, klantinteracties te verbeteren en betere beslissingen te nemen. [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in de cloud en voor gebruikers over meerdere soorten apparaten, en is altijd up-to-date. Met dit moderne bedrijfsplatform kunt u snel en gemakkelijk toepassingen aanpassen, uitbreiden en maken zodat ze voldoen aan uw specifieke behoeften. Er is weinig of geen codeontwikkeling nodig.  
@@ -55,7 +55,7 @@ Een app maken die binnen een bepaalde branche gespecialiseerd is. Met [App inslu
 Breid de ervaring en de mogelijkheden van [!INCLUDE[d365fin](includes/d365fin_md.md)] uit door een [Add-on-app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) te maken die wordt geïntegreerd met de gebruikerservaring van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bouw een interface op basis van hoe u de gegevens wilt laten stromen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en uw services. Meer informatie over de [Ontwikkeling van een horizontale oplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal).
 
 ### <a name="development-of-a-localization-solution"></a>Ontwikkeling van een lokalisatieoplossing
-Voldoe aan plaatselijke voorschriften door te ontwikkelen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit past functionele gebieden aan de vereisten van de plaatselijke markt aan, in combinatie met de [Dynamics 365-vertaalservice](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Lijn de kernmogelijkheden van lokale wettelijke vereisten uit en breid bestaande functionaliteit uit om succesvol te concurreren op de lokale markt. Meer informatie over de [Ontwikkeling van een lokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+Voldoe aan plaatselijke voorschriften door te ontwikkelen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit past functionele gebieden aan de vereisten van de plaatselijke markt aan, in combinatie met de [Dynamics 365 Translation Service](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Lijn de kernmogelijkheden van lokale wettelijke vereisten uit en breid bestaande functionaliteit uit om succesvol te concurreren op de lokale markt. Meer informatie over de [Ontwikkeling van een lokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Reselleroplossing
 Aangezien elk bedrijf uniek is, kunt u door [tenants aan te passen](/dynamics-nav/developer/readiness/readiness-customizing-tenants) uw manier van werken aanpassen aan uw gestroomlijnde processen, uw terminologie en de manier waarop uw werknemers of afdelingen verbinding maken en samenwerken. Bovendien kunt u ervoor kiezen [!INCLUDE[d365fin](includes/d365fin_md.md)] door te verkopen en aan te passen aan de afzonderlijke wensen van uw klanten door [consultingservices](/dynamics-nav/developer/readiness/readiness-consulting) te bieden. U kunt ook Microsoft Flow, Power Apps en Power BI gebruiken om [aangepaste workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps en rapporten met bedrijfsinzichten te maken zonder code te hoeven schrijven. Meer informatie over [Dynamics 365 Reseller (VAR's)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
