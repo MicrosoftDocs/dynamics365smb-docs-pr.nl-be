@@ -10,29 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c6beb7dec4b5b2594ee3232ea6c28dffa4a501a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4afcb91bbdc3f05fb42b86d4160276cd69ed09c7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826409"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913772"
 ---
-# <a name="belgian-electronic-banking"></a><span data-ttu-id="78419-105">Elektronisch bankieren voor België</span><span class="sxs-lookup"><span data-stu-id="78419-105">Belgian Electronic Banking</span></span>
+# <a name="belgian-electronic-banking"></a><span data-ttu-id="9d403-105">Elektronisch bankieren voor België</span><span class="sxs-lookup"><span data-stu-id="9d403-105">Belgian Electronic Banking</span></span>
 > [!Note]
 > [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
 
-<span data-ttu-id="78419-106">Met elektronisch bankieren kunt u elektronisch gegevens uitwisselen met Belgische financiële instellingen, op diskette of via de Interbanks Standards Association Belgium (Isabel).</span><span class="sxs-lookup"><span data-stu-id="78419-106">Electronic banking allows you to electronically exchange data with Belgian financial institutions, either on disk or via Interbanks Standards Association Belgium (Isabel).</span></span> <span data-ttu-id="78419-107">Dit versnelt de verwerkingstijd en helpt fouten voorkomen als gevolg van handmatige gegevensinvoer of -verwerking.</span><span class="sxs-lookup"><span data-stu-id="78419-107">This speeds up processing time and helps avoid errors caused by manual data entry or processing.</span></span>  
+<span data-ttu-id="9d403-106">Met elektronisch bankieren kunt u elektronisch gegevens uitwisselen met Belgische financiële instellingen, op diskette of via de Interbanks Standards Association Belgium (Isabel).</span><span class="sxs-lookup"><span data-stu-id="9d403-106">Electronic banking allows you to electronically exchange data with Belgian financial institutions, either on disk or via Interbanks Standards Association Belgium (Isabel).</span></span> <span data-ttu-id="9d403-107">Dit versnelt de verwerkingstijd en helpt fouten voorkomen als gevolg van handmatige gegevensinvoer of -verwerking.</span><span class="sxs-lookup"><span data-stu-id="9d403-107">This speeds up processing time and helps avoid errors caused by manual data entry or processing.</span></span>  
 
-<span data-ttu-id="78419-108">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronisch bankieren gebruiken om de volgende functies uit te voeren:</span><span class="sxs-lookup"><span data-stu-id="78419-108">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:</span></span>  
+<span data-ttu-id="9d403-108">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronisch bankieren gebruiken om de volgende functies uit te voeren:</span><span class="sxs-lookup"><span data-stu-id="9d403-108">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:</span></span>  
 
-- <span data-ttu-id="78419-109">Elektronische betalingen verzenden</span><span class="sxs-lookup"><span data-stu-id="78419-109">Send electronic payments</span></span>  
-- <span data-ttu-id="78419-110">Bankafschriften met CODA verwerken</span><span class="sxs-lookup"><span data-stu-id="78419-110">Process bank statements with CODA</span></span>  
-- <span data-ttu-id="78419-111">Incassobetalingen verwerken met domiciliëringen</span><span class="sxs-lookup"><span data-stu-id="78419-111">Process direct debits with domiciliations</span></span>  
+- <span data-ttu-id="9d403-109">Elektronische betalingen verzenden</span><span class="sxs-lookup"><span data-stu-id="9d403-109">Send electronic payments</span></span>  
+- <span data-ttu-id="9d403-110">Bankafschriften met CODA verwerken</span><span class="sxs-lookup"><span data-stu-id="9d403-110">Process bank statements with CODA</span></span>  
+- <span data-ttu-id="9d403-111">Incassobetalingen verwerken met domiciliëringen</span><span class="sxs-lookup"><span data-stu-id="9d403-111">Process direct debits with domiciliations</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="78419-112">Zie ook</span><span class="sxs-lookup"><span data-stu-id="78419-112">See Also</span></span>  
-[<span data-ttu-id="78419-113">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="78419-113">Belgium Local Functionality</span></span>](belgium-local-functionality.md)  
-[<span data-ttu-id="78419-114">Belgische elektronische betalingen</span><span class="sxs-lookup"><span data-stu-id="78419-114">Belgian Electronic Payments</span></span>](belgian-electronic-payments.md)  
-[<span data-ttu-id="78419-115">CODA-bankafschriften</span><span class="sxs-lookup"><span data-stu-id="78419-115">CODA Bank Statements</span></span>](coda-bank-statements.md)  
-[<span data-ttu-id="78419-116">Incasso via domiciliëring</span><span class="sxs-lookup"><span data-stu-id="78419-116">Direct Debit Using Domiciliation</span></span>](direct-debit-using-domiciliation.md)
+## <a name="see-also"></a><span data-ttu-id="9d403-112">Zie ook</span><span class="sxs-lookup"><span data-stu-id="9d403-112">See Also</span></span>  
+[<span data-ttu-id="9d403-113">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="9d403-113">Belgium Local Functionality</span></span>](belgium-local-functionality.md)  
+[<span data-ttu-id="9d403-114">Belgische elektronische betalingen</span><span class="sxs-lookup"><span data-stu-id="9d403-114">Belgian Electronic Payments</span></span>](belgian-electronic-payments.md)  
+[<span data-ttu-id="9d403-115">CODA-bankafschriften</span><span class="sxs-lookup"><span data-stu-id="9d403-115">CODA Bank Statements</span></span>](coda-bank-statements.md)  
+[<span data-ttu-id="9d403-116">Incasso via domiciliëring</span><span class="sxs-lookup"><span data-stu-id="9d403-116">Direct Debit Using Domiciliation</span></span>](direct-debit-using-domiciliation.md)
