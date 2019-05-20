@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936800"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252272"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  
@@ -33,14 +33,21 @@ In de volgende procedures wordt beschreven hoe u werkt met standaardverkoopregel
 > [!NOTE]
 > U kunt geen prijzen definiëren op standaardverkoopregels, omdat de prijzen, kortingen, enzovoort, op de werkelijke verkoopdocumenten worden berekend nadat u de standaardverkoopregels hebt ingevoegd.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Standaardverkoopregels aan klanten toewijzen
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Standaardverkoopregels aan een klant toewijzen
 Wijs een of meer standaardverkoopregels aan een klant toe zodat deze beschikbaar zijn om te worden ingevoegd op verkoopdocumenten voor die klant.
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de projectkaart voor een relevante klant.
 3. Kies de actie **Periodieke verkoopregels**.
 4. Selecteer op de pagina **Periodieke verkoopregels** codes voor de periodieke verkoopregels die u wilt kunnen invoegen op verkoopdocumenten voor de klant.
-5. Vul de overige velden in om te definiëren wanneer, hoe en waar de periodieke verkoopregels moeten worden gebruikt. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Vul de overige velden in om te definiëren wanneer, hoe en waar de periodieke verkoopregels moeten worden gebruikt.
+6. Selecteer in de vier velden, waarin u selecteert hoe de regels worden ingevoegd in vier documenttypen, een van de volgende opties:
+
+|Optie|Omschrijving|
+|-|-|
+|**Handmatig**|U moet handmatig een terugkerende verkoopregel zoeken en invoegen die bestaat voor de klant.|
+|**Automatisch**|Als er meerdere terugkerende verkoopregels voor de klant zijn, ontvangt u een bericht van waaruit u er een kunt kiezen om in te voegen. Als er slechts één terugkerende verkoopregel bestaat, wordt deze automatisch ingevuld.|
+|**Altijd vragen**|Er wordt een bericht weergegeven en alle bestaande terugkerende verkoopregels worden weergegeven zodat u er een kunt selecteren.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Periodieke verkoopregels invoegen op een verkoopfactuur
 Als er terugkerende verkoopregels voor de klant zijn, kunt u deze invoegen op alle typen verkoopdocumenten, zoals een verkoopfactuur. Als u het betreffende bericht hebt geactiveerd, wordt u geïnformeerd als er periodieke verkoopregels zijn.

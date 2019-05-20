@@ -11,11 +11,11 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 30623f716441c5df3cdef52d408c21e02bd58f64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924250"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251780"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Niet-betaalde verkoopfacturen corrigeren of annuleren
 U kunt een geboekte verkoopfactuur corrigeren of annuleren. Dit is handig als u een fout maakt of als de klant om een wijziging vraagt.

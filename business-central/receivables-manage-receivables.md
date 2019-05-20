@@ -13,11 +13,11 @@ ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60a28c856609861d9e47877fb093d819afcc044c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930883"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252056"
 ---
 # <a name="managing-receivables"></a>Tegoeden beheren
 Een veel voorkomende stap in het financiële ritme is het reconciliëren van bankrekeningen. Hierbij moet u inkomende betalingen vereffenen met klant- of leveranciersposten, om verkoopfacturen en inkoopcreditnota's te sluiten als betaald.

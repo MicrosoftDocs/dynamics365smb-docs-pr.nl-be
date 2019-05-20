@@ -11,11 +11,11 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917779"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251872"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.

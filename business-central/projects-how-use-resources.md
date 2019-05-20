@@ -13,11 +13,11 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fc51b47b71d37daaccc4133d648c90b84d5a3494
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911777"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251757"
 ---
 # <a name="use-resources-for-jobs"></a>Resources gebruiken voor projecten
 U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen en de werksoorten bij te houden die zijn gekoppeld aan projecten. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).

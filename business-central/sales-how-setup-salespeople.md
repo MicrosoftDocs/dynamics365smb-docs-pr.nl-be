@@ -11,11 +11,11 @@ ms.search.keywords: sales rep
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 01872122592db05ec49b765dd78b59e98b6239f6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916531"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251734"
 ---
 # <a name="set-up-salespeople"></a>Verkopers instellen
 Veel bedrijven willen de individuele prestaties van een werknemer volgen om op basis daarvan de verkoopcommissie of bonus te kunnen berekenen. Zie bijvoorbeeld het rapport met **verkoperscommissies**. Mogelijk wil een bedrijf ook een verkoper aan elk contact toewijzen.

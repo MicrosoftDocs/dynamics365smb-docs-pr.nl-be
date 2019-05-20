@@ -11,11 +11,11 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 25dc281d83860742b9d699aeba9794f70f786202
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936031"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252493"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 De verschillende prijs- en kortingsovereenkomsten voor de verkoop aan verschillende klanten moeten zijn vastgesteld zodat de overeengekomen regels en waarden worden toegepast op verkoopdocumenten die u maakt voor de klanten.

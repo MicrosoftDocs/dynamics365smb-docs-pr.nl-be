@@ -13,11 +13,11 @@ ms.search.keywords: client
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917108"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252516"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 Klanten zijn de bron van uw inkomsten. U moet elke klant aan wie u verkoopt registreren als een klantenkaart. Klantenkaarten bevatten de informatie die is vereist om producten aan de klant te verkopen. Zie voor meer informatie [Verkopen factureren](sales-how-invoice-sales.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
