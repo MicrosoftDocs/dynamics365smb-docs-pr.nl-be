@@ -4,20 +4,20 @@ description: Een domiciliëring is een financiële overeenkomst tussen u en uw k
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 69be5f3055763890bdf1ac0de3677f0e1704c609
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914758"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237537"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
 Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen via een bankrekening van voorkeur. Domiciliëringen kunnen alleen worden verwerkt voor binnenlandse klanten met binnenlandse bankrekeningen. Domiciliëringen in vreemde valuta's of via buitenlandse banken worden niet ondersteund.  

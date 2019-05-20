@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cbdf90f37641cfaf2ed4a4f4ab27834a4a414977
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934051"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237699"
 ---
 # <a name="manage-electronic-payment-lines"></a>Regels voor elektronische betalingen beheren
 U kunt instellen dat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen. U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. In de volgende procedure wordt beschreven hoe u betalingsdagboekregels handmatig toevoegt of bewerkt, maar u kunt betalingsdagboekregels ook verwijderen op de pagina **Betalingsdagboek**.  

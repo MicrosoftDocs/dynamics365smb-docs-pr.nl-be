@@ -4,20 +4,20 @@ description: Met het rapport Koppelen aan Accon kunt u een bestand maken dat in 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/07/2018
 ms.author: sgroespe
 ms.openlocfilehash: b78492a04352d3829a30d5beea758ce4e18d52d0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932427"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237659"
 ---
 # <a name="export-to-accon"></a>Exporteren naar Accon
 Met het rapport **Koppelen aan Accon** kunt u een bestand maken dat in ACCON Plus kan worden geïmporteerd om een jaarlijkse resultatenrekening te genereren. Met het rapport wordt het totaalsaldo van de grootboekrekeningen voor een bepaalde periode geëxporteerd.  

@@ -8,11 +8,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6ca83870521997752d0ce871223a6348b715de88
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938536"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237530"
 ---
 # <a name="belgian-electronic-payments"></a>Belgische elektronische betalingen
 In de module voor elektronisch bankieren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.  
