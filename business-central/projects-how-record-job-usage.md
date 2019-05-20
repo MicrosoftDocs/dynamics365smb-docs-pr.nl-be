@@ -13,11 +13,11 @@ ms.search.keywords: project management, consumption
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c723625bc54c7b885268946f0e7afdf54be20a2b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923233"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253429"
 ---
 # <a name="record-usage-for-jobs"></a>Gebruik voor projecten vastleggen
 Op de pagina **Projectplanningsregels** kunt u het gebruik bekijken en vastleggen voor verschillende delen van uw project. Het gebruik wordt automatisch bijgewerkt wanneer u gegevens wijzigt en uitwisselt tussen projecten en projectdagboeken of projectfacturen. Hiervoor moet u een project hebt ingesteld zodat **Gebruikslink standaard toepassen** is ingeschakeld. Zie [Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  

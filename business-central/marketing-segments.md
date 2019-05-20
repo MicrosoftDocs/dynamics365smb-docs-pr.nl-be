@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: jswymer
-ms.openlocfilehash: b0994b431d32e3e4c4bd992e0f4acc155ad50076
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928173"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446819"
 ---
 # <a name="managing-segments"></a>Segmenten beheren
 U kunt segmenten maken om een groep contacten te selecteren overeenkomstig een bepaald criterium. Een segment kan bijvoorbeeld de sector zijn waartoe de contacten behoren of uw zakenrelatie met de contacten. U kunt een segment maken om te selecteren op welke contacten u een campagne wilt richten.
@@ -27,13 +27,13 @@ Er zijn twee hoofdtaken voor het maken van een segment:
 * Voer algemene informatie over het segment in. Voordat u de contacten in het segment kunt selecteren, moet u eerst het segment maken.
 * Selecteer de contacten die u in het segment wilt opnemen.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen. 
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
 | Aan | Zie |
 | --- | --- |
 | Segmenten maken waarmee u een groep contacten kunt selecteren. Bijvoorbeeld direct mail. |[Segmenten maken](marketing-how-create-segment.md) |
 | De contacten beheren die zijn toegewezen aan segmenten. |[Contacten toevoegen aan segmenten](marketing-add-contact-segment.md) |
-| Meer informatie over interacties en segmenten, inclusief registratie. |[Interactie en segmenten beheren](marketing-interaction-segments.md) |
+| Meer informatie over interacties voor segmenten, inclusief registratie. |[Interactie voor segmenten beheren](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: edupont
-ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911564"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446980"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -33,10 +33,10 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Laat uw klanten betalen voordat u naar hen verzendt of betaal uw leveranciers voordat zij aan u verzenden.|[Vooruitbetalingen factureren](finance-invoice-prepayments.md)|
 | Bankrekeningen reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen beheren](bank-manage-bank-accounts.md) |
 |IC-partners instellen en transacties handmatig of automatisch verwerken tussen rechtspersonen binnen hetzelfde bedrijf.|[Intercompany-transacties beheren](intercompany-manage.md)|
-|Grootboekposten van meerdere bedrijven combineren in één virtueel geconsolideerd bedrijf voor financiële analyses.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
 |De kosten analyseren van het uitvoeren van uw bedrijf door werkelijke en gebudgetteerde kosten van bewerkingen, afdelingen, producten en projecten toe te wijzen aan kostenplaatsen.|[Kosten verantwoorden](finance-manage-cost-accounting.md)|
 |Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
 | Het grootboek en het rekeningschema begrijpen. |[Het grootboek en COA begrijpen](finance-general-ledger.md) |
+|Grootboekposten van meerdere bedrijven combineren in één virtueel geconsolideerd bedrijf voor financiële analyses.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
 | Voeg dimensies toe voor betere bedrijfsinformatie. |[Werken met dimensies](finance-dimensions.md) |
 | Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Grootboekbudgetten maken](finance-how-create-budgets.md) |
 |Registreer inkomsten of kosten rechtstreeks in het grootboek zonder specifieke bedrijfsdocumenten te boeken.|[Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
@@ -47,10 +47,13 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Procedure: Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
 |Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
 | Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
-| De stroom van kas in en uit uw bedrijf controleren. |[Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md) |
-| Werken met financiële overzichten in Excel. |[Financiële overzichten analyseren in Excel:](finance-analyze-excel.md) |
-| Voorbereiden om een boekjaar of -periode af te sluiten. |[Afsluitingsjaren en -perioden](year-close-years-periods.md) |
+|Gebruik functies om btw te berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst.|[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)|
 |Een rapport voorbereiden met btw van verkopen en het rapport verzenden aan een belastingdienst in de EU. | [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
+|Converteer handmatig servicecontracten om het btw-percentage ervan te wijzigen.|[Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)|
+| De stroom van kas in en uit uw bedrijf controleren. |[Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md) |
+|Volg een complete procedure voor het gebruik van rapportageschema's om cashflowprognoses te maken.|[Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Werken met financiële overzichten in Excel. |[Financiële overzichten analyseren in Excel](finance-analyze-excel.md) |
+|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en Accountant Hub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Zie ook
 [Financiën instellen](finance-setup-finance.md)  

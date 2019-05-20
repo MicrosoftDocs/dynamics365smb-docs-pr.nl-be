@@ -11,11 +11,11 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928081"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253965"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Lijsten sorteren, doorzoeken en filteren
 U kunt een paar dingen doen om records in een lijst te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.

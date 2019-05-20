@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4afcca772cb4cccd2a44d5808b95d510d1484cf3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941268"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252861"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>De werklast in afdelingen en bewerkingsplaatsen weergeven
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.    

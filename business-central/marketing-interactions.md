@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917201"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446796"
 ---
-# <a name="managing-interactions-with-contacts"></a>Interacties beheren met contacten
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, fax, e-mail, telefoon, vergaderingen, enzovoort zijn.
-
-Met het gebied relatiebeheer kunt u alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren. Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
+# <a name="record-interactions-with-contacts"></a>Interacties met contacten vastleggen
+Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
 
 * Interactiesjablonen instellen  
 * Interacties maken voor contacten of segmenten  

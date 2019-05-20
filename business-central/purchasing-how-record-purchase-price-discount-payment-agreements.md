@@ -11,11 +11,11 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 98618f60b0d6ac60ccb55aae56646a5ab13f4530
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923660"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252940"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Speciale inkoopprijzen en kortingen registreren
 De verschillende prijs- en kortingsovereenkomsten die van toepassing zijn wanneer u koopt van verschillende leveranciers, moeten worden gedefinieerd, zodat de overeengekomen regels en waarden worden toegepast op documenten die u voor de leveranciers maakt.

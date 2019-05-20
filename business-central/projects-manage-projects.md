@@ -9,11 +9,11 @@ ms.search.keywords: projects
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921040"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253114"
 ---
 # <a name="project-management"></a>Projectbeheer
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.

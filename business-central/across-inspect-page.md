@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969890"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447026"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Pagina's inspecteren in Business Central
 
@@ -22,7 +22,7 @@ Met de pagina-inspectiefunctie kunt u details opvragen over een pagina, wat inzi
 
 ## <a name="working-with-page-inspection"></a>Werken met Pagina-inspectie
 
-Als u een pagina wilt inspecteren, kiest u in de rechterbovenhoek ![pictogram Instellingen](media/ui-experience/settings_icon_small.png) en vervolgens kiest u **Inspecteren**. Of u kunt de sneltoets **Ctrl+Alt+F1** gebruiken.
+U begint pagina-inspectie vanaf de pagina **Help en ondersteuning**. Kies het vraagteken in de rechterbovenhoek, kies **Help en ondersteuning** en kies vervolgens **Pagina's en gegevens inspecteren**. Of u kunt gewoon de sneltoets **Ctrl+Alt+F1** gebruiken.
 
 Het deelvenster **Pagina-inspectie** opent aan de zijkant. In de volgende afbeelding ziet u het deelvenster **Pagina-inspectie** op de pagina **Verkooporder**.
 

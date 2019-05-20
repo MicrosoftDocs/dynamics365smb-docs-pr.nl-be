@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bf64955898ddbdce539a2e68c2db07c2c6b8c575
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934664"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253091"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
 De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  

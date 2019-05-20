@@ -11,11 +11,11 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919203"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252769"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 Tijdens het beheer van tegoeden moet u ook controleren of openstaande bedragen op tijd worden betaald. Als klanten betalingen hebben openstaan, kunt u beginnen met het rekeningoverzicht van de klant als een herinnering te sturen. U kunt ook aanmaningen sturen.

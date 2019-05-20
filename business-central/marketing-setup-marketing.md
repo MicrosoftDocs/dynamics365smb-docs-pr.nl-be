@@ -3,22 +3,21 @@ title: Marketing- en contactbeheergegevens instellen| Microsoft Docs
 description: U kunt marketing- en contactpersonenbeheer in Business Central instellen om relaties met prospects of klanten te optimaliseren en campagnes en promoties te verbeteren.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934015"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446865"
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
 Voordat u met uw contacten en marketing gaat werken, moet u enkele beslissingen en stappen nemen om in te stellen hoe het marketinggebied bepaalde aspecten van uw contacten beheert. Bijvoorbeeld kunt u aangeven of u de contactkaart wilt synchroniseren met de klantenkaart, leverancierskaart en bankrekeningkaart, hoe nummerreeksen worden gedefinieerd of wat de standaardaanhef moet zijn wanneer u naar uw contacten schrijft.
@@ -27,7 +26,7 @@ Door uw contacten te beheren en een strategie te volgen waarmee u klanten vastst
 
 U stelt marketing en contactbeheer in vanaf de pagina **Marketinginstellingen**. Als u de pagina **Marketinginstellingen** wilt openen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Marketinginstellingen** in en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Bepaalde informatie automatisch kopiëren van de contactbedrijven naar de contactpersonen.
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Bepaalde informatie automatisch kopiëren van contactbedrijven naar contactpersonen.
 Een aantal gegevens voor de contactbedrijven is gelijk aan de gegevens voor de contacten die in deze bedrijven werken, bijvoorbeeld de adresgegevens. In het gedeelte **Overerving** van de pagina **Marketinginstellingen** kunt u instellen dat de toepassing automatisch specifieke velden kopieert van de contactbedrijfkaart naar de contactpersoonskaart, elke keer dat u een contactpersoon maakt voor een contactbedrijf. Bijvoorbeeld kunt u selecteren om de verkoperscode, de adresgegevens (adres, adres 2, postcode, plaats en land,) en de communicatiegegevens (faxnummer, telexantwoord en telefoonnummer) en meer te kopiëren.
 
 Als u een van deze velden wijzigt op de contactbedrijfkaart, wordt het veld op de contactkaart automatisch gewijzigd, tenzij u het veld op de contactkaart handmatig hebt gewijzigd.

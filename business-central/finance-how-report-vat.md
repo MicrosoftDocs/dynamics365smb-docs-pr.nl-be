@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919087"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447003"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>Procedure: Btw rapporteren aan een belastingdienst
+# <a name="report-vat-to-a-tax-authority"></a>Btw rapporteren aan de belastingdienst
 Dit onderwerp beschrijft de rapporten in [!INCLUDE[d365fin](includes/d365fin_md.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio.
 
 U kunt de volgende rapporten gebruiken:
@@ -93,7 +93,7 @@ U moet periodiek de netto-btw afdragen aan de belastingdienst. Als u vaak btw mo
 Wanneer u btw-bedragen overmaakt naar de vereffeningsrekening, worden de bedragen die voor de opgegeven periode zijn berekend, opgeteld bij de rekening voor inkoop-btw en afgetrokken van de rekening voor verkoop-btw. Het nettobedrag wordt opgeteld of afgetrokken als het inkoop-btw-bedrag groter is, bij de btw-vereffeningsrekening. U kunt de vereffening meteen boeken of eerst een controlelijst afdrukken.  
 
 > [!Note]
-> Wanneer u de batchverwerking **Btw-vereffening berekenen en boeken** gebruikt en u geen **Btw-bedrijfsboekingsgroep** en **Btw-productboekingsgroep** opgeeft, worden posten met alle bedrijfsboekingsgroepen en productboekingsgroepscodes opgenomen.
+> Wanneer u de batchverwerking **Btw-vereffening berekenen en boeken** gebruikt en u geen **btw-bedrijfsboekingsgroep** en **btw-productboekingsgroep** opgeeft, worden posten met alle bedrijfsboekingsgroepen en productboekingsgroepscodes opgenomen.
 
 ## <a name="configuring-your-own-vat-reports"></a>Uw eigen btw-rapporten configureren
 U kunt het verkoopoverzicht EU kant-en-klaar gebruiken, maar u kunt ook uw eigen lijsten maken. Hiertoe moet u enkele codeunits maken. Als u hierbij hulp nodig hebt, neemt u contact op met een Microsoft-partner.  
@@ -110,7 +110,7 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 
 > [!Note]
 > Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2017** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.
- 
+
 ## <a name="see-also"></a>Zie ook 
 [Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  

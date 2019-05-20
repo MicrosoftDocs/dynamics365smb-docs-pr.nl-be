@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0c1e2681a9164eba0e3c6c36ebb2c32207711e89
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929734"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253160"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
 Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.  

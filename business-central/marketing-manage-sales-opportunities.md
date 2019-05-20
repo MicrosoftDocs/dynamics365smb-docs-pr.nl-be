@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915488"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446842"
 ---
 # <a name="managing-sales-opportunities"></a>Verkoopopportunities beheren
 Iedere inkomende lead kan als verkoopopportunity worden beschouwd. U kunt opportunities maken en aan een verkoper koppelen, zodat u potentiële verkopen kunt bijhouden.
@@ -30,7 +30,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | --- | --- |
 | Stel de verkoopcycli in die u meestal volgt, en de verschillende fasen binnen elke opportunityverkoopcyclus. |[Verkoopcycli instellen voor opportunities en cyclusfasen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Verkoopopportunities maken op basis van uw contacten. |[Opportunities maken](marketing-how-create-opportunities.md) |
-| Een verkoopopportunity door de verkoopcyclus verplaatsen naar voltooiing. |[Verkoopopportunities verwerken](marketing-processing-sales-opportunities.md) |
+| Een verkoopopportunity door de verkoopcyclus verplaatsen naar voltooiing. |[Verkoopopportunity's verwerken](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
