@@ -11,27 +11,27 @@ ms.search.keywords: upload, attach, attachments
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934572"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240896"
 ---
-# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="efa3f-103">Bestanden koppelen een kaarten en documenten</span><span class="sxs-lookup"><span data-stu-id="efa3f-103">Attaching Files to Cards and Documents</span></span>
-<span data-ttu-id="efa3f-104">U kunt afbeeldingen, documenten en andere soorten bestanden koppelen aan alle kaarten, zoals de artikelkaart en de projectkaart, en kunt u bestanden koppelen aan alle soorten verkoop- en inkoopdocumenten.</span><span class="sxs-lookup"><span data-stu-id="efa3f-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
+# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="5236a-103">Bestanden koppelen een kaarten en documenten</span><span class="sxs-lookup"><span data-stu-id="5236a-103">Attaching Files to Cards and Documents</span></span>
+<span data-ttu-id="5236a-104">U kunt afbeeldingen, documenten en andere soorten bestanden koppelen aan alle kaarten, zoals de artikelkaart en de projectkaart, en kunt u bestanden koppelen aan alle soorten verkoop- en inkoopdocumenten.</span><span class="sxs-lookup"><span data-stu-id="5236a-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
 
 > [!Note]
-> <span data-ttu-id="efa3f-105">Over het algemeen is de maximumbestandsgrootte voor bijlagen 150 MB.</span><span class="sxs-lookup"><span data-stu-id="efa3f-105">In general, the maximum file size for attachments is 150 MB.</span></span> <span data-ttu-id="efa3f-106">De limiet kan echter voor bepaalde functies lager zijn.</span><span class="sxs-lookup"><span data-stu-id="efa3f-106">However, the limit can be lower for some features.</span></span> 
+> <span data-ttu-id="5236a-105">Over het algemeen is de maximumbestandsgrootte voor bijlagen 150 MB.</span><span class="sxs-lookup"><span data-stu-id="5236a-105">In general, the maximum file size for attachments is 150 MB.</span></span> <span data-ttu-id="5236a-106">De limiet kan echter voor bepaalde functies lager zijn.</span><span class="sxs-lookup"><span data-stu-id="5236a-106">However, the limit can be lower for some features.</span></span> 
 
-## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="efa3f-107">Een bestand koppelen aan een verkooporder</span><span class="sxs-lookup"><span data-stu-id="efa3f-107">To attach a file to a sales order</span></span>
-<span data-ttu-id="efa3f-108">De volgende procedure is gebaseerd op een verkooporder.</span><span class="sxs-lookup"><span data-stu-id="efa3f-108">The following procedure is based on a sales order.</span></span> <span data-ttu-id="efa3f-109">De stappen lijken op die voor alle andere inkoop- en verkoopdocumenten en voor alle kaarten.</span><span class="sxs-lookup"><span data-stu-id="efa3f-109">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
+## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="5236a-107">Een bestand koppelen aan een verkooporder</span><span class="sxs-lookup"><span data-stu-id="5236a-107">To attach a file to a sales order</span></span>
+<span data-ttu-id="5236a-108">De volgende procedure is gebaseerd op een verkooporder.</span><span class="sxs-lookup"><span data-stu-id="5236a-108">The following procedure is based on a sales order.</span></span> <span data-ttu-id="5236a-109">De stappen lijken op die voor alle andere inkoop- en verkoopdocumenten en voor alle kaarten.</span><span class="sxs-lookup"><span data-stu-id="5236a-109">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
 
-1. <span data-ttu-id="efa3f-110">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="efa3f-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
-2. <span data-ttu-id="efa3f-111">Open de verkoop waaraan u een bestand wilt koppelen.</span><span class="sxs-lookup"><span data-stu-id="efa3f-111">Open the sales that you want to attach a file to.</span></span>
-3. <span data-ttu-id="efa3f-112">Kies de actie **Bijlagen**.</span><span class="sxs-lookup"><span data-stu-id="efa3f-112">Choose the **Attachments** action.</span></span>
-4. <span data-ttu-id="efa3f-113">Kies op de pagina **Gekoppelde documenten**, in het veld **Bijlage** de knop **Bestand selecteren**.</span><span class="sxs-lookup"><span data-stu-id="efa3f-113">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
-5. <span data-ttu-id="efa3f-114">Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.</span><span class="sxs-lookup"><span data-stu-id="efa3f-114">Select a file from any location, and then choose the **Open** button.</span></span>
+1. <span data-ttu-id="5236a-110">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="5236a-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="5236a-111">Open de verkoop waaraan u een bestand wilt koppelen.</span><span class="sxs-lookup"><span data-stu-id="5236a-111">Open the sales that you want to attach a file to.</span></span>
+3. <span data-ttu-id="5236a-112">Kies de actie **Bijlagen**.</span><span class="sxs-lookup"><span data-stu-id="5236a-112">Choose the **Attachments** action.</span></span>
+4. <span data-ttu-id="5236a-113">Kies op de pagina **Gekoppelde documenten**, in het veld **Bijlage** de knop **Bestand selecteren**.</span><span class="sxs-lookup"><span data-stu-id="5236a-113">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
+5. <span data-ttu-id="5236a-114">Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.</span><span class="sxs-lookup"><span data-stu-id="5236a-114">Select a file from any location, and then choose the **Open** button.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="efa3f-115">Zie ook</span><span class="sxs-lookup"><span data-stu-id="efa3f-115">See Also</span></span>
-[<span data-ttu-id="efa3f-116">Nieuwe artikelen registreren</span><span class="sxs-lookup"><span data-stu-id="efa3f-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
-[<span data-ttu-id="efa3f-117">Producten verkopen</span><span class="sxs-lookup"><span data-stu-id="efa3f-117">Sell Products</span></span>](sales-how-sell-products.md)
+## <a name="see-also"></a><span data-ttu-id="5236a-115">Zie ook</span><span class="sxs-lookup"><span data-stu-id="5236a-115">See Also</span></span>
+[<span data-ttu-id="5236a-116">Nieuwe artikelen registreren</span><span class="sxs-lookup"><span data-stu-id="5236a-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="5236a-117">Producten verkopen</span><span class="sxs-lookup"><span data-stu-id="5236a-117">Sell Products</span></span>](sales-how-sell-products.md)

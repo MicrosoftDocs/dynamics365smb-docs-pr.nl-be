@@ -12,43 +12,43 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 8a43df89261867f80ba16782cde92b040ce180c8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925936"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240246"
 ---
-# <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a><span data-ttu-id="1a7e8-103">Problemen oplossen met integratie met Microsoft Flow - Aanvraag-URL te lang</span><span class="sxs-lookup"><span data-stu-id="1a7e8-103">Troubleshooting Integration with Microsoft Flow - Request URL Too Long</span></span>
-<span data-ttu-id="1a7e8-104">U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-104">You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.</span></span>  
+# <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a><span data-ttu-id="69419-103">Problemen oplossen met integratie met Microsoft Flow - Aanvraag-URL te lang</span><span class="sxs-lookup"><span data-stu-id="69419-103">Troubleshooting Integration with Microsoft Flow - Request URL Too Long</span></span>
+<span data-ttu-id="69419-104">U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.</span><span class="sxs-lookup"><span data-stu-id="69419-104">You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="1a7e8-105">U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-105">You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.</span></span>  
+>   <span data-ttu-id="69419-105">U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.</span><span class="sxs-lookup"><span data-stu-id="69419-105">You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.</span></span>  
 
-<span data-ttu-id="1a7e8-106">Als u een Microsoft Flow maakt met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-connector, kan er een foutbericht worden weergegeven dat de gevraagde URL te lang is na het maken van de stroom, zoals de volgende: **RequestUriTooLong**.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-106">If you are creating a Microsoft Flow using the [!INCLUDE[d365fin](includes/d365fin_md.md)] connector, you may receive an error message stating that the requsted URL is too long after creating the flow, such as the following: **RequestUriTooLong**.</span></span>
+<span data-ttu-id="69419-106">Als u een Microsoft Flow maakt met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-connector, kan er een foutbericht worden weergegeven dat de gevraagde URL te lang is na het maken van de stroom, zoals de volgende: **RequestUriTooLong**.</span><span class="sxs-lookup"><span data-stu-id="69419-106">If you are creating a Microsoft Flow using the [!INCLUDE[d365fin](includes/d365fin_md.md)] connector, you may receive an error message stating that the requsted URL is too long after creating the flow, such as the following: **RequestUriTooLong**.</span></span>
 
-## <a name="cause"></a><span data-ttu-id="1a7e8-107">Oorzaak</span><span class="sxs-lookup"><span data-stu-id="1a7e8-107">Cause</span></span>
-<span data-ttu-id="1a7e8-108">Voor een te activeren stroom wordt gezocht naar wijzigingen in uw gegevens.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-108">For a flow to trigger, it looks for changes in your data.</span></span> <span data-ttu-id="1a7e8-109">Wanneer wordt bepaald of uw gegevens zijn gewijzigd, vergelijken de connectors de gegevens in de cache met de nieuwe gegevens die uit de bron zijn aangevraagd.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-109">When determining if your data has changed, the connectors compare the cached data to the new data requested from the source.</span></span>  
+## <a name="cause"></a><span data-ttu-id="69419-107">Oorzaak</span><span class="sxs-lookup"><span data-stu-id="69419-107">Cause</span></span>
+<span data-ttu-id="69419-108">Voor een te activeren stroom wordt gezocht naar wijzigingen in uw gegevens.</span><span class="sxs-lookup"><span data-stu-id="69419-108">For a flow to trigger, it looks for changes in your data.</span></span> <span data-ttu-id="69419-109">Wanneer wordt bepaald of uw gegevens zijn gewijzigd, vergelijken de connectors de gegevens in de cache met de nieuwe gegevens die uit de bron zijn aangevraagd.</span><span class="sxs-lookup"><span data-stu-id="69419-109">When determining if your data has changed, the connectors compare the cached data to the new data requested from the source.</span></span>  
 
-<span data-ttu-id="1a7e8-110">Als de gegevensaanvraag een URL maakt die te lang is, mislukt het.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-110">If the data request creates a URL that is too long, it will fail.</span></span> <span data-ttu-id="1a7e8-111">Veel voorkomende oorzaken zijn:</span><span class="sxs-lookup"><span data-stu-id="1a7e8-111">Common causes may include:</span></span>
-- <span data-ttu-id="1a7e8-112">Over het algemeen een brontabel met meer dan 250 rijen</span><span class="sxs-lookup"><span data-stu-id="1a7e8-112">Generally, any source table with over 250 rows</span></span>
-- <span data-ttu-id="1a7e8-113">Brontabellen die duizenden records bevatten</span><span class="sxs-lookup"><span data-stu-id="1a7e8-113">Source tables containing multiple thousands of records</span></span>
+<span data-ttu-id="69419-110">Als de gegevensaanvraag een URL maakt die te lang is, mislukt het.</span><span class="sxs-lookup"><span data-stu-id="69419-110">If the data request creates a URL that is too long, it will fail.</span></span> <span data-ttu-id="69419-111">Veel voorkomende oorzaken zijn:</span><span class="sxs-lookup"><span data-stu-id="69419-111">Common causes may include:</span></span>
+- <span data-ttu-id="69419-112">Over het algemeen een brontabel met meer dan 250 rijen</span><span class="sxs-lookup"><span data-stu-id="69419-112">Generally, any source table with over 250 rows</span></span>
+- <span data-ttu-id="69419-113">Brontabellen die duizenden records bevatten</span><span class="sxs-lookup"><span data-stu-id="69419-113">Source tables containing multiple thousands of records</span></span>
 
-## <a name="workaround"></a><span data-ttu-id="1a7e8-114">Oplossing</span><span class="sxs-lookup"><span data-stu-id="1a7e8-114">Workaround</span></span>
-<span data-ttu-id="1a7e8-115">Volg deze stappen als oplossing.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-115">Follow these steps as a workaround.</span></span>
-1. <span data-ttu-id="1a7e8-116">Kies ervoor de stroom te bewerken die is mislukt.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-116">Choose to edit the flow that is failing.</span></span>
-2. <span data-ttu-id="1a7e8-117">Vouw **Geavanceerde opties weergegeven** uit op de stroomtrigger.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-117">Expand the **Show advanced options** on the flow trigger.</span></span>
-3. <span data-ttu-id="1a7e8-118">Voer in het veld **Aantal overslaan** het aantal records in dat moet worden overgeslagen.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-118">In the **Skip Count** field, enter the number of records to skip.</span></span>  
-<span data-ttu-id="1a7e8-119">Als de tabel die u als gegevensbron gebruikt, bijvoorbeeld 4000 records bevat, voert u 4000 in als het aantal records dat moet worden overgeslagen.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-119">For example, if the table that you are using as a data source has 4,000 records, enter 4,000 as the number of records to skip.</span></span>
-4. <span data-ttu-id="1a7e8-120">Werk uw stroom bij.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-120">Update your flow.</span></span>
+## <a name="workaround"></a><span data-ttu-id="69419-114">Oplossing</span><span class="sxs-lookup"><span data-stu-id="69419-114">Workaround</span></span>
+<span data-ttu-id="69419-115">Volg deze stappen als oplossing.</span><span class="sxs-lookup"><span data-stu-id="69419-115">Follow these steps as a workaround.</span></span>
+1. <span data-ttu-id="69419-116">Kies ervoor de stroom te bewerken die is mislukt.</span><span class="sxs-lookup"><span data-stu-id="69419-116">Choose to edit the flow that is failing.</span></span>
+2. <span data-ttu-id="69419-117">Vouw **Geavanceerde opties weergegeven** uit op de stroomtrigger.</span><span class="sxs-lookup"><span data-stu-id="69419-117">Expand the **Show advanced options** on the flow trigger.</span></span>
+3. <span data-ttu-id="69419-118">Voer in het veld **Aantal overslaan** het aantal records in dat moet worden overgeslagen.</span><span class="sxs-lookup"><span data-stu-id="69419-118">In the **Skip Count** field, enter the number of records to skip.</span></span>  
+<span data-ttu-id="69419-119">Als de tabel die u als gegevensbron gebruikt, bijvoorbeeld 4000 records bevat, voert u 4000 in als het aantal records dat moet worden overgeslagen.</span><span class="sxs-lookup"><span data-stu-id="69419-119">For example, if the table that you are using as a data source has 4,000 records, enter 4,000 as the number of records to skip.</span></span>
+4. <span data-ttu-id="69419-120">Werk uw stroom bij.</span><span class="sxs-lookup"><span data-stu-id="69419-120">Update your flow.</span></span>
 
 > [!NOTE]  
-> <span data-ttu-id="1a7e8-121">De connector is nu in bèta.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-121">The connector is currently in Beta.</span></span> <span data-ttu-id="1a7e8-122">Updates op hoe gegevenswijzigingen worden behandeld in een toekomstige versie.</span><span class="sxs-lookup"><span data-stu-id="1a7e8-122">Updates to how data changes are targeted for a future release.</span></span>
+> <span data-ttu-id="69419-121">De connector is nu in bèta.</span><span class="sxs-lookup"><span data-stu-id="69419-121">The connector is currently in Beta.</span></span> <span data-ttu-id="69419-122">Updates op hoe gegevenswijzigingen worden behandeld in een toekomstige versie.</span><span class="sxs-lookup"><span data-stu-id="69419-122">Updates to how data changes are targeted for a future release.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="1a7e8-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1a7e8-123">See Also</span></span>
-<span data-ttu-id="1a7e8-124">[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)</span><span class="sxs-lookup"><span data-stu-id="1a7e8-124">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md)</span></span>  
-[<span data-ttu-id="1a7e8-125">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="1a7e8-125">Getting Started</span></span>](product-get-started.md)  
-[<span data-ttu-id="1a7e8-126">Bedrijfsgegevens importeren uit andere financiële systemen</span><span class="sxs-lookup"><span data-stu-id="1a7e8-126">Importing Business Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
-<span data-ttu-id="1a7e8-127">[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)  </span><span class="sxs-lookup"><span data-stu-id="1a7e8-127">[Managing Users and Permissions](ui-how-users-permissions.md)  </span></span>  
-<span data-ttu-id="1a7e8-128">[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span><span class="sxs-lookup"><span data-stu-id="1a7e8-128">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span></span>  
-[<span data-ttu-id="1a7e8-129">Financiën</span><span class="sxs-lookup"><span data-stu-id="1a7e8-129">Finance</span></span>](finance.md)  
+## <a name="see-also"></a><span data-ttu-id="69419-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="69419-123">See Also</span></span>
+<span data-ttu-id="69419-124">[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)</span><span class="sxs-lookup"><span data-stu-id="69419-124">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md)</span></span>  
+[<span data-ttu-id="69419-125">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="69419-125">Getting Started</span></span>](product-get-started.md)  
+[<span data-ttu-id="69419-126">Bedrijfsgegevens importeren uit andere financiële systemen</span><span class="sxs-lookup"><span data-stu-id="69419-126">Importing Business Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
+<span data-ttu-id="69419-127">[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)  </span><span class="sxs-lookup"><span data-stu-id="69419-127">[Managing Users and Permissions](ui-how-users-permissions.md)  </span></span>  
+<span data-ttu-id="69419-128">[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span><span class="sxs-lookup"><span data-stu-id="69419-128">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span></span>  
+[<span data-ttu-id="69419-129">Financiën</span><span class="sxs-lookup"><span data-stu-id="69419-129">Finance</span></span>](finance.md)  
