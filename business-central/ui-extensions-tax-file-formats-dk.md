@@ -13,11 +13,11 @@ ms. search.keywords: extension, bank, formats
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: bc93fe469eea824be20942033db0959f8fe643c8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930201"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249441"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>De extensie Tax-bestandsindelingen (DK)
 Als u zaken doet met andere bedrijven, of met eigen filialen of dochterondernemingen in andere EU-landen, moet u informatie over de activiteiten aan SKAT en Statistics Denmark doorgeven. Als u de rapportagefuncties voor btw en Intrastat gebruikt in [!INCLUDE[d365fin](includes/d365fin_md.md)], zorgt deze extensie ervoor dat het bestand dat u exporteert compatibel is met de vereisten van deze organisaties. De extensie voegt de indieningscodeunits van het rapportage-exportbestand MS-ECLS en van de Intrastat-exportregels toe aan de configuratie van uw btw-aangifte, zodat u de gegevens rechtstreeks in de nieuwe indeling kunt exporteren.

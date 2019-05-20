@@ -13,11 +13,11 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: ca6edfb33aebedeb70deb17b78abbdb0024f7b2d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920262"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250308"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Toewijzingsstatus en herstelstatus van serviceartikelen
 Tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten voor de serviceartikelen bestaat een bepaalde relatie in de module Servicebeheer. De toewijzingsstatus verandert wanneer u de herstelstatus van het serviceartikel wijzigt in **Gereedgemeld** of **Deels service verleend** en een serviceofferte omzet in een serviceorder. De herstelstatus van het serviceartikel verandert wanneer u de toewijzing van het serviceartikel wijzigt of het serviceartikel toewijst aan een andere resource. U kunt de herstelstatus van serviceartikelen bekijken op de pagina **Servicetaken** en bijwerken in het veld **Herstelstatuscode** op de pagina **Serviceartikelwerkbon**. U kunt de toewijzingsstatus bekijken in het veld **Status** op de pagina **Resourcetoewijzingen**.  

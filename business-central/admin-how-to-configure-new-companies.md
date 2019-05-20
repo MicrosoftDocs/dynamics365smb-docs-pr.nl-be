@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925571"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245450"
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
 Als u een nieuw bedrijf in uw oplossingimplementatie wilt configureren, volgt u doorgaans drie fasen. In de eerste fase importeert u het configuratiepakket. Dit is een .rapidstart-bestand met de configuratie-informatie. In de tweede fase wijzigt u de configuratiegegevens en past u deze vervolgens toe op uw nieuwe bedrijf. In de laatste fase controleert en corrigeert u fouten.  
 
 Bij de volgende procedures wordt ervan uitgegaan dat u een configuratiepakket hebt gemaakt en opgeslagen. Zie [Een configuratiepakket voorbereiden](admin-how-to-prepare-a-configuration-package.md) voor meer informatie.  
 
-In de volgende procedure wordt ervan uitgegaan dat u uw nieuwe bedrijf hebt geïnitialiseerd en geopend, en dat u zich in het Rolcentrum RapidStart Services-implementatie bevindt.
+In de volgende procedure wordt ervan uitgegaan dat u uw nieuwe bedrijf hebt geïnitialiseerd en geopend, en dat u zich in het rolcentrum RapidStart Services-implementatie bevindt.
 
 ## <a name="to-import-a-configuration-package"></a>Een configuratiepakket importeren  
 1. Open het nieuwe bedrijf in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  

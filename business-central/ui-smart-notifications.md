@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926688"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249227"
 ---
 # <a name="managing-notifications"></a>Berichten beheren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen slimmer te werken door u te informeren over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Deze berichten worden weergegeven als afzonderlijke tips in de context van de taak die u uitvoert, en u kunt ervoor kiezen het bericht te negeren of informatie over het probleem te bekijken.  

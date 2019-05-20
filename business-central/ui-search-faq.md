@@ -11,11 +11,11 @@ ms.search.keywords: find
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937593"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248031"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
 In dit onderwerp worden vragen beantwoord die onze geavanceerde gebruikers vaak hebben over de nieuwe Vertel me-functie, die de vorige paginazoekfunctie genaamd **Pagina's en rapporten zoeken** vervangt.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920809"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245584"
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
 U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.  
@@ -119,5 +119,5 @@ Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalid
 De installatie is nu geconfigureerd met de zakelijke gegevens en regels van de klant.
 
 ## <a name="see-also"></a>Zie ook  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

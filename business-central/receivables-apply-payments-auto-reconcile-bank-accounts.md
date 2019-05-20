@@ -13,11 +13,11 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 124b3e82a38af375128353d977cc250aa9f94cf8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921667"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251412"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde onbetaalde facturen en creditnota's of andere openstaande posten in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ U kunt deze taak op de pagina **Dagboek betalingsreconciliatie** uitvoeren door 
 
 U kunt ook bankrekeningen reconciliëren zonder tegelijkertijd betalingen te vereffenen. U doet dit werk op de pagina **Bankreconciliatie**. Zie [Bankrekening apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.   
 
-Als u bankafschriften als een bankfeed wilt importeren, moet u eerst de feedservice van de Envestnet Yodlee Bank instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De feedservice van de Envestnet Yodlee Bank instellen](bank-how-setup-bank-statement-service.md).  
+Als u bankafschriften als een bankfeed wilt importeren, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md).  
 
 U kunt ook de conversieservice voor bankgegevens gebruiken om een bankafschriftbestand in een willekeurige indeling om te zetten in een gegevensstroom die u kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [De conversieservice bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md).  
 

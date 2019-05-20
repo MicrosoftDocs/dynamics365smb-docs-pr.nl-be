@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939000"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239878"
 ---
 # <a name="copy-data-to-new-companies"></a>Gegevens kopiëren naar nieuwe bedrijven
-U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan. Als u bijvoorbeeld een standaardlijst met symptoomcodes hebt die wordt gedeeld door al uw servicemanagementimplementaties, kunt u de codes gemakkelijk vanuit één bedrijf naar het andere kopiëren.  
+U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan. Indien u bijvoorbeeld een standaardlijst met symptoomcodes hebt die wordt gedeeld door al uw servicemanagementimplementaties, kunt u de codes gemakkelijk vanuit één bedrijf naar het andere kopiëren.  
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Gegevens kopiëren naar een nieuw bedrijf met behulp van RapidStart Services  
 1. Open het nieuw bedrijf.  
@@ -31,5 +31,5 @@ U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw 
 
 ## <a name="see-also"></a>Zie ook
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

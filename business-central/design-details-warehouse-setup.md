@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939382"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246324"
 ---
 # <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
 De magazijnfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie. Bovendien bepalen de toepassingsobjecten in de licentie welke UI-documenten moeten worden gebruikt voor de ondersteunde magazijnactiviteiten.  

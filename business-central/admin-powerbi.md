@@ -8,27 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2019
+ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916386"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247521"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is gemakkelijk met Power BI en de [!INCLUDE[d365fin](includes/d365fin_md.md)]-inhoudspakketten. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
 
 U moet een geldig account bij Dynamics 365 en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
+> [!IMPORTANT]
+> De inhoudspakketten die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme. Als u [!INCLUDE [prodshort](includes/prodshort.md)] on-premises gebruikt en een ander verificatiemechanisme gebruikt, kan Power BI geen verbinding maken met uw gegevens.  
+
 Microsoft heeft de volgende Content Packs gepubliceerd:
 
-| App | Description |
-| --- | --- |
-| Microsoft Business Central | Een dashboard met belangrijke financiële gegevens voor een bepaalde periode, zoals inkomsten tegenover onkosten, de bedrijfsmarge en de cashcyclus.|
-| Microsoft Business Central - CRM | Een dashboard met belangrijke gegevens over verkoopopportunities en contacten.  |
-| Microsoft Business Central - Verkoop | Een dashboard met belangrijke gegevens over verkopen en voorraad. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Klantenlijst  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Financiën  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Artikeloverzicht  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Taken  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Takenlijst  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Inkoopfacturen  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Verkoop  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Verkooporderoverzicht  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Leverancierslijst  
 
 ## <a name="using-the-dashboards"></a>De dashboards gebruiken
 Elk Content Pack bevat rapporten met verschillende detailniveaus:
@@ -47,14 +55,14 @@ De Content Packs zijn vooraf geconfigureerd om te werken met gegevens van het vo
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
 ![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in het rolcentrum naar **Rapportselectie** in het onderdeel Power BI-rolcentrum. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar de servicebibliotheek in Power BI, die ook wordt gefilterd op alleen weergave van inhoudspakketten die verband houden met [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+U kunt ook aan de slag gaan vanuit [!INCLUDE [prodshort](includes/prodshort.md)]. Navigeer in het rolcentrum naar **Rapportselectie** in het onderdeel Power BI-rolcentrum. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar de servicebibliotheek in Power BI, die ook wordt gefilterd op alleen weergave van inhoudspakketten die verband houden met [!INCLUDE[prodshort](includes/prodshort.md)].
 
 2. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een pagina geopend met de **AppSource** en **Apps voor Power BI-apps**.  
 ![Inhoudspakketten kiezen uit online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Selecteer **Apps** op het tabblad **Apps voor Power BI-apps** en kies het **Microsoft Dynamics 365 Business Central**-inhoudspakket dat u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Voer wanneer daarom wordt gevraagd de naam van *uw bedrijf* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dit is niet de weergavenaam. De bedrijfsnaam kan op de pagina Bedrijven worden gevonden binnen uw [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-exemplaar.  
-![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Nadat verbinding is gemaakt, worden automatisch een dashboard, rapport en gegevensset geladen in uw Power BI-werkruimte. Wanneer dit is voltooid, worden de tegels bijgewerkt met gegevens uit uw [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-bedrijf.
 ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -68,7 +76,7 @@ U kunt ook aan de slag gaan vanuit Dynamics 365 Business Edition. Navigeer in he
 ## <a name="system-requirements"></a>Systeemvereisten
 Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Power BI wilt importeren, moet u machtigingen hebben voor de webservices die worden gebruikt om gegevens op te halen. De webservices die voor elk inhoudspakket vereist zijn omvatten:
 
-## <a name="role-center-reports"></a>Rolcentrumrapporten
+### <a name="role-center-reports"></a>Rolcentrumrapporten
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Verkoopopportunities
@@ -92,7 +100,7 @@ Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Po
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
-## <a name="list-page-reports"></a>Lijstpaginarapporten
+### <a name="list-page-reports"></a>Lijstpaginarapporten
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Artikelverkopen per klant

@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941646"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245871"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie. 
 
 Als u uw klant wilt helpen bij het gebruiken van het configuratiepakket, wilt u wellicht een vragenlijst of een reeks vragenlijsten aan het pakket toevoegen. De vragenlijst kan de klant helpen inzicht te krijgen in de verschillende instellingsopties. Meestal worden vragenlijsten gemaakt voor de belangrijkste instellingentabellen, wanneer een klant mogelijk aanvullende richtlijnen over het selecteren van een juiste instelling nodig heeft. Zie voor meer informatie [Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md).
 
-Zorg ervoor dat u zich in het rolcentrum RapidStart Services-implementatie bevindt. Zie voor meer informatie [Rolcentrum RapidStart Services-implementatie gebruiken](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Zorg ervoor dat u zich in het rolcentrum RapidStart Services-implementatie bevindt. Zie voor meer informatie [Het rolcentrum RapidStart Services-implementatie gebruiken](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
@@ -86,7 +86,7 @@ Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt
 5. Kies de knop **OK**.
 
 ## <a name="to-customize-a-configuration-package"></a>Een configuratiepakket aanpassen
-Gebruik het configuratiewerkblad voor het verzamelen en categoriseren van de gegevens die u wilt gebruiken voor het configureren van een nieuw bedrijf en voor het op een logische manier rangschikken van tabellen. De opmaak van het werkblad is gebaseerd op een eenvoudige hiërarchie: gebieden bevatten groepen, die weer tabellen bevatten. Gebieden en groepen zijn optioneel, maar zijn nodig als u een overzicht van het configuratieproces wilt inschakelen in het Rolcentrum RapidStart Services.
+Gebruik het configuratiewerkblad voor het verzamelen en categoriseren van de gegevens die u wilt gebruiken voor het configureren van een nieuw bedrijf en voor het op een logische manier rangschikken van tabellen. De opmaak van het werkblad is gebaseerd op een eenvoudige hiërarchie: gebieden bevatten groepen, die weer tabellen bevatten. Gebieden en groepen zijn optioneel, maar zijn nodig als u een overzicht van het configuratieproces wilt inschakelen in het rolcentrum RapidStart Services.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in het veld **Regelsoort** de optie **Gebied**. Voer in het veld **Naam** een beschrijvende naam in.  
@@ -137,5 +137,5 @@ Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met h
 ## <a name="see-also"></a>Zie ook  
 [Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)  
 [Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

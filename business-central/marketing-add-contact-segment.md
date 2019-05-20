@@ -13,11 +13,11 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 00f1f0c7f81741c509e8c2707c38dbaa23087c93
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933036"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239280"
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.

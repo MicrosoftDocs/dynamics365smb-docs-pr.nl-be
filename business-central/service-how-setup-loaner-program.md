@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 68ee937b8bf9f9f0784c8e96a78dbc3f0486d50f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921181"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251481"
 ---
 # <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
 Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  

@@ -11,11 +11,11 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913814"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239049"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Financiële overzichten analyseren in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u KPI's bekijken en overzichten krijgen van de financiële status van het bedrijf. U kunt ook lijsten in Excel openen en de gegevens daar analyseren. Maar u kunt ook zware financiële overzichten exporteren, zoals de balans of resultatenrekening naar Excel, de gegevens analyseren en de rapporten afdrukken.  

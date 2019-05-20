@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 8684389c75299dc57a2056041b50ebde37a0bea1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941315"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239303"
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Ontwerpdetails: Het concept sluitend maken in het kort
 Vraag is afkomstig van klanten van een bedrijf. Voorziening is wat het bedrijf kan maken of verwijderen om te zorgen voor balans. Het planningssysteem begint met de onafhankelijke vraag en werkt vervolgens achterwaarts naar de voorziening.  

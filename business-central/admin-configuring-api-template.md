@@ -13,11 +13,11 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ef6b6d89ccea59de6a87c062cc6e29a27abe2c88
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921398"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245490"
 ---
 # <a name="configuring-api-templates"></a>API-sjablonen configureren
 De API-bibliotheek voor [!INCLUDE[d365fin_md](includes/d365fin_md.md)] biedt een vereenvoudigde weergave van de onderliggende entiteiten. Niet alle eigenschappen in de toepassing zijn beschikbaar via de bijbehorende API. Met de pagina **API-instelling** kunt u sjablonen definiëren die worden gebruikt om lege eigenschappen te vullen van een entiteit wanneer u een POST-actie maakt met behulp van de API. 

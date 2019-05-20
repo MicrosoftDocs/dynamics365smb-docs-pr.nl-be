@@ -11,11 +11,11 @@ ms.search.keywords: contacts, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 93acc30c501b099b829a304650b09b356d2243e7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924297"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244205"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contacten in Business Central synchroniseren met contacten in Microsoft Outlook
 U kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] dezelfde contactpersonen zien als in Outlook als u synchronisatie van contactpersonen instelt. Als u bijvoorbeeld een verkoper bent, doet u mogelijk werk in Outlook en werk in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als de contactpersonen op beide plaatsen hetzelfde zijn, is uw werk eenvoudiger.  

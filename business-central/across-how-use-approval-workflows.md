@@ -12,11 +12,11 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f7c959a44a7b27df464ce8a4c45567d036dc137f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941433"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245559"
 ---
 # <a name="use-approval-workflows"></a>Goedkeuringswerkstromen gebruiken
 Wanneer een record, zoals een inkoopdocument of klantenkaart, door iemand in uw organisatie moet worden goedgekeurd, stuurt u een goedkeuringsaanvraag als onderdeel van een werkstroom. Op basis van de instellingen van de werkstroom krijgt de betreffende fiatteur vervolgens het bericht dat hij of zij de record moet goedkeuren.

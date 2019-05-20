@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953522"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247175"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
@@ -28,9 +28,9 @@ De pagina's **Migratieoverzicht** en **Werkblad voor configuratie** bieden ook t
 Wanneer u een nieuw bedrijf maakt, kunt u de bedrijfsinstellingen voor het nieuwe bedrijf importeren. U importeert de instellingen vanuit een .rapidstart-bestand, dat de pakketinhoud in een gecomprimeerde indeling aanlevert. Er wordt een overeenkomende set standaard gegevensmigratietabellen geïmporteerd. De gegevensreeks bevat hoofdgegevenstabellen en instellingsgegevenstabellen. Uw eerste taak in gegevensmigratie is evalueren of de standaardinstellingen van de migratie voldoen aan de behoeften van het nieuwe bedrijf.
 
 > [!NOTE]  
->  U kunt niet een bestand dat niet reeds een RapidStart Services configuratiepakket is, hernoemen als een .rapidstart-configuratiepakketbestand en het vervolgens proberen te importeren. Als u dit probeert, verschijnt er een foutbericht.  
+>  U kunt niet een bestand dat niet reeds een RapidStart Services-configuratiepakket is als een .rapidstart-pakketbestand hernoemen om het vervolgens te importeren. Als u dit probeert, verschijnt er een foutbericht.  
 
-Zorg ervoor, voordat u begint, dat u zich in het rolcentrum RapidStart Services-implementatie bevindt.
+Voordat u begint, moet u ervoor zorgen dat u zich in het rolcentrum RapidStart Services-implementatie bevindt.
 
 > [!IMPORTANT]  
 >  Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
@@ -189,5 +189,5 @@ U kunt het aantal databaserecords zien die werden aangemaakt in het veld **Aanta
 De bedrijfsdatabase van de klant is nu ingesteld en elementaire gegevens zijn geïmporteerd. De volgende stappen in het implementatieproces, zijn gebruikers opleiden, processen definiëren, maken van aanvullende gegevens, aanpassen van lijsten, enzovoort.
 
 ## <a name="see-also"></a>Zie ook  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

@@ -4,16 +4,17 @@ description: U moet opgeven welk soort gegevens u opslaat over personen zodat u 
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
+ms.date: 03/09/2018
 ms.reviewer: na
-ms.service: dynamics365-business-central
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.date: 04/01/2019
 ms.openlocfilehash: b104f3f4a90c9db08b113f861c6e2b3f93f639c7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919763"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239372"
 ---
 # <a name="classifying-data-sensitivity"></a>Gegevensvertrouwelijkheid classificeren
 Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  

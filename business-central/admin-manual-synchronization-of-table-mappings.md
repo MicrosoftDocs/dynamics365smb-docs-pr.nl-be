@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "940574"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245743"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Handmatig tabeltoewijzingen synchroniseren
 Een toewijzing van een integratietabel koppelt een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel (recordtype), zoals een klant, aan een [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit, zoals een rekening. Als een integratietabeltoewijzing wordt gesynchroniseerd, kunt u gegevens in alle records van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en de [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit die zijn gekoppeld, synchroniseren. Bovendien kan synchronisatie, afhankelijk van de configuratie van de tabelkoppeling, nieuwe records maken en koppelen in de doeloplossing voor ongekoppelde records in de bron.  

@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f715108b17d355084fee7983e106cd33dd476906
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911800"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249779"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 535a899ed43e2d7112699fff9aa3ebc6f4289292
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923824"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246747"
 ---
 # <a name="create-journal-opening-balances"></a>Beginsaldi van dagboeken maken
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.
@@ -43,5 +43,5 @@ Voordat u begint, moet u ervoor zorgen dat u zich bevindt op de rolcentrumpagina
 
 ## <a name="see-also"></a>Zie ook  
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

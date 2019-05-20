@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0ed1e040be212f8f59efb5d4b6a41346e6d9b84e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922589"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239487"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Configuraties toepassen op nieuwe bedrijven
 Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie. U werkt met het configuratiepakket binnen een nieuw, leeg bedrijf.  
@@ -33,5 +33,5 @@ Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het le
 |Een batchverwerking gebruiken om oude rekeningsaldi over te brengen naar een nieuw geconfigureerd bedrijf en vervolgens de resulterende journaalposten toepassen.|[Beginsaldi van dagboeken maken](admin-how-to-create-journal-opening-balances.md)|  
 
 ## <a name="see-also"></a>Zie ook  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

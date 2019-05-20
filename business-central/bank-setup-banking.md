@@ -4,20 +4,20 @@ description: Met bankrekeningkaarten kunt u uw bankrekeningen bijhouden en bankf
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 04/01/2019
+ms.date: 06/02/2016
 ms.author: sgroespe
 ms.openlocfilehash: 05cf51ae4d09dc0b023782f7f68e514eb8668be8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923357"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244113"
 ---
 # <a name="setting-up-banking"></a>Bankieren instellen
 Met bankrekeningkaarten kunt al uw bankrekeningen bijhouden, in willekeurige valuta's. Nadat u de bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.

@@ -13,11 +13,11 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 574509447668d0aab4bba0394029f784eb55ca2e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912062"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250239"
 ---
 # <a name="fulfilling-service-contracts"></a>Servicecontracten voldoen 
 Een van de manieren waarop u servicebeheerdiensten kunt bieden, is door middel van het gebruik van standaard contractuele overeenkomsten tussen u en uw klanten, waarin het serviceniveau en de serviceverwachtingen zijn uiteengezet. U kunt contractsjablonen maken waarin de benodigde gegevens, zoals de klant, de ingangsdatum van het contract en de factureringsperiode, zijn opgenomen.  

@@ -13,11 +13,11 @@ ms.search.keywords: video, library, how to
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928583"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244898"
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
 We zijn de bibliotheek met praktische video's opnieuw aan het opbouwen. Als bijwerking van de laatste verbeteringen in [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten we onze inhoud opnieuw produceren zodat deze precies overeenkomt met het product.

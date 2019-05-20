@@ -1,6 +1,6 @@
 ---
-title: Een bedrijf configureren met de Wizard RapidStart | Microsoft Docs
-description: U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services configuratiewizard.
+title: Een bedrijf configureren met de wizard RapidStart | Microsoft Docs
+description: U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919283"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239924"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Een bedrijf configureren met de wizard RapidStart
-U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services configuratiewizard.
+U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
 
-In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, dat vervolgens op een computer wordt geïnstalleerd. De klant opent het nieuwe bedrijf dat geen klantgegevens bevat. U of de klant volgt dan de stappen in de RapidStart Services-wizard, die worden beschreven in deze procedure, om basisgegevens over het bedrijf te verstrekken. De wizard importeert het configuratiepakket en past het pakket vervolgens toe op het bedrijf.  
+In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, dat vervolgens op een computer wordt geïnstalleerd. De klant opent het nieuwe bedrijf dat geen klantgegevens bevat. U of de klant volgt vervolgens de stappen in de RapidStart Services-wizard, die worden beschreven in deze procedure, om basisgegevens over het bedrijf te verstrekken. De wizard importeert het configuratiepakket en past het pakket vervolgens toe op het bedrijf.  
 
 ## <a name="to-configure-a-new-company"></a>Een nieuw bedrijf configureren  
 1. Kies in het rolcentrum RapidStart Services-implementatie de actie **RapidStart-wizard**.  
@@ -49,5 +49,5 @@ U hebt nu het bedrijf geconfigureerd en gegevens hierop toegepast.
 
 ## <a name="see-also"></a>Zie ook  
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

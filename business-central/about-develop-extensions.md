@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917011"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241398"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] uitbreiden
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is een bedrijfsmanagementoplossing die bedrijven helpt hun financiën, verkoop, service en activiteiten te verbinden om bedrijfsprocessen te stroomlijnen, klantinteracties te verbeteren en betere beslissingen te nemen. [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in de cloud en voor gebruikers over meerdere soorten apparaten, en is altijd up-to-date. Met dit moderne bedrijfsplatform kunt u snel en gemakkelijk toepassingen aanpassen, uitbreiden en maken zodat ze voldoen aan uw specifieke behoeften. Er is weinig of geen codeontwikkeling nodig.  

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912449"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247255"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Migratie van klantgegevens voorbereiden
 Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren.  
@@ -137,6 +137,6 @@ De volgende procedure is gebaseerd op een nieuwe klantenkaart.
 De standaardwaarden van de gekozen klantensjabloon worden ingevoegd in de klantenkaart.
 
 ## <a name="see-also"></a>Zie ook  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)

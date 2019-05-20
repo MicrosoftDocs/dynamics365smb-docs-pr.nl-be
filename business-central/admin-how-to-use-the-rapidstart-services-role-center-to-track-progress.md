@@ -1,6 +1,6 @@
 ---
-title: Rolcentrum RapidStart Services-implementatie gebruiken | Microsoft Docs
-description: Wanneer u RapidStart Services gebruikt, is het raadzaam dat u uw werk traceert en het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft.
+title: Het rolcentrum RapidStart Services-implementatie gebruiken | Microsoft Docs
+description: Wanneer u RapidStart Services gebruikt, is het raadzaam dat u uw werk bijhoudt en het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912085"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245178"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Het rolcentrum RapidStart Services-implementatie gebruiken
 Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie [Rolcentrum wijzigen](ui-change-basic-settings.md#to-change-role-center) voor meer informatie.
@@ -44,5 +44,5 @@ In het gedeelte **Configuratiegebieden** worden voltooiingsstatistieken weergege
 2. Selecteer de juiste gefilterde weergave.  
 
 ## <a name="see-also"></a>Zie ook  
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

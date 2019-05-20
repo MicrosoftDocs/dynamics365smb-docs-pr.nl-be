@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 240e3e8dc151c971dcf5875bb3e7e8bb3d5edd45
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941738"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244665"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.

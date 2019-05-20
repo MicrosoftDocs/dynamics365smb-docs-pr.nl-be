@@ -11,11 +11,11 @@ ms.search.keywords: migration, Excel
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926544"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245536"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u ervoor kiezen een leeg bedrijf te maken zodat u uw eigen gegevens kunt uploaden en uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt testen. Afhankelijk van de financiële oplossing die uw bedrijf tegenwoordig gebruikt, kunt u gegevens over klanten, leveranciers en bankrekeningen overbrengen.  
@@ -77,7 +77,7 @@ Het standaardconfiguratiepakket ondersteunt de volgende tabellen:
 -   Inkoopprijs
 
 ## <a name="see-also"></a>Zie ook
-[Een bedrijf met RapidStart Services instellen](admin-set-up-a-company-with-rapidstart.md)  
+[Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
 [Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)

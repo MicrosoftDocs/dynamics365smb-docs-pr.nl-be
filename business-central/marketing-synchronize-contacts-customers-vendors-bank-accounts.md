@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: edupont
 redirect_url: marketing-create-contact-companies
 ms.openlocfilehash: 96ec0862cf93cf9b0bf240ef65bc7ff79b3ccfb5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934084"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242312"
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Contacten synchroniseren met klanten, leveranciers en bankrekeningen
 Als sommige van uw contacten ook klanten, leveranciers of bankrekeningen zijn, kunt u de contactgegevens synchroniseren met de desbetreffende klant, leverancier of bankrekening. Synchronisatie maakt gegevens die gemeenschappelijk zijn voor contacten en klanten, leveranciers of bankrekeningen hetzelfde.  

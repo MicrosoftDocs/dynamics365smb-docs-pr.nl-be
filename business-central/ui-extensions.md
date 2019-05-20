@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910377"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250285"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
@@ -49,7 +49,7 @@ Sommige extensies worden verstrekt door Microsoft en andere extensies worden ver
 Microsoft biedt de volgende extensies:  
 
 * [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee-bankfeeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  

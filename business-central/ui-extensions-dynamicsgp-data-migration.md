@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917488"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250096"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>De Dynamics GP-extensie Gegevensmigratie 
 Deze extensie maakt het gemakkelijk transacties van klanten, leveranciers, voorraadartikelen, grootboekrekeningen, openstaande schulden en openstaande tegoeden te migreren van Dynamics GP naar [!INCLUDE[prodshort](includes/prodshort.md)]. Als uw bedrijf momenteel Dynamics GP gebruikt, kunt u de relevante records exporteren en vervolgens een begeleide instelling openen om de gegevens toe te voegen aan [!INCLUDE[prodshort](includes/prodshort.md)]. De migratie-extensie werkt voor alle ondersteunde versies van Microsoft Dynamics GP. Zie [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md) voor meer informatie.

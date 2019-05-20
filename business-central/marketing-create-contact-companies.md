@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938977"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243283"
 ---
 # <a name="create-contacts"></a>Contacten maken
 U ontmoet regelmatig personen van andere bedrijven, wat kan leiden tot zakenrelaties, zoals een klantrelatie. Als een dergelijk nieuw contact tot stand is gekomen, moet zoveel mogelijk informatie op een contactkaart worden geregistreerd zodat de communicatie kan worden voortgezet.

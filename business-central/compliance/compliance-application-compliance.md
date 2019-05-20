@@ -12,11 +12,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912814"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246899"
 ---
 # <a name="application-compliance"></a>Toepassingsnaleving
 Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)], zoals de International Financial Reporting Standards, lokale functionaliteit, GDPR, enzovoort. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.

@@ -11,11 +11,11 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b6bd823dc38e5d9c372f0565ad437908b402594e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917296"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240563"
 ---
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[d365fin](includes/d365fin_md.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende:

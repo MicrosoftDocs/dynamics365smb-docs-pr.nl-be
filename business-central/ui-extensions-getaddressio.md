@@ -11,11 +11,11 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928381"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250055"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>De extensie GetAddress.io UK Postcodes
 Met de extensie GetAddress.io UK Postcodes kunt u tijd besparen en fouten voorkomen wanneer u adressen voor entiteiten zoals klanten, leveranciers, bankrekeningen, en werknemers invoert. Bijvoorbeeld wanneer u een klant maakt, kiest u alleen de postcode en [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft u een overzicht van adressen. Kies het gewenste adres en de adresvelden worden automatisch ingevuld.  
