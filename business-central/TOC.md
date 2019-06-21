@@ -51,7 +51,7 @@
 ## Sneltoetsen gebruiken
 ### [Toegankelijkheid en sneltoetsen](ui-accessibility.md)
 ### [Toetsenbordsneltoetsen](keyboard-shortcuts.md)
-### [Snelle naslag van toetsenbordsneltoetsen](keyboard-shortcuts-cheatsheet.md)
+### [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)
 
 # Business Central instellen
 ## [Overzicht](setup.md)
@@ -318,7 +318,7 @@
 ## [Een sandboxomgeving maken](across-how-create-sandbox-environment.md)
 ## Integreren met Dynamics 365 for Sales
 ### [Overzicht](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Integratie instellen met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Een Dynamics 365 for Sales-verbinding instellen](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Central en Dynamics 365 for Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)
 ### [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Overzicht](ui-extensions.md)
 #### [Aanpassen met behulp van extensies](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-#### [Gegevensreplicatie](ui-extensions-data-replication.md)
 #### [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)
 #### [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)
 #### [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
-#### [Intelligente cloud](ui-extensions-intelligent-cloud.md)
+#### [Intelligente cloud](ui-extensions-data-replication.md)
+#### [Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay-betalingen](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK - C5-gegevensmigratie](ui-extensions-c5-data-migration.md)
 #### [DK - Belastingbestandsindelingen](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io postcodes van het Verenigd Koninkrijk](ui-extensions-getaddressio.md)
+#### [Afdrachtsadvies verzenden](ui-extensions-send-remittance-advice.md)
 #### [Extensies voor Business Central van andere providers](ui-extensions-other.md)
 ### [Wijzigen welke functies worden weergegeven](ui-experiences.md)
 ### [Personalisaties beheren als beheerder](ui-personalization-manage.md)
@@ -992,11 +993,7 @@
 #### [BTW-rapporten maken](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Btw-rapporten corrigeren](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Btw-meldingsinformatie](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [BTW-meldingsinformatie maken en verzenden](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Elektronische verzending van btw-meldingsinformatie aan ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [VAT-VIES-belasting aangeven](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [ELSTER-transmissieoverzicht](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Foutmeldingen van de Elster-transferhandler](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Bankieren en betalingen
 #### [Rapporten met leveranciersbetalingenlijsten afdrukken](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Hoofdfinanciën
