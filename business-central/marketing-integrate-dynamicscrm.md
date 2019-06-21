@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238038"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620873"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Dynamics 365 for Sales gebruiken vanuit Business Central
 Als u Dynamics 365 for Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
@@ -78,7 +78,11 @@ Verkoopoffertes die worden geactiveerd in [!INCLUDE[crm_md](includes/crm_md.md)]
 U kunt ook handmatig geactiveerde verkoopoffertes vanuit [!INCLUDE[crm_md](includes/crm_md.md)] converteren met de actie **Verwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)]** op de pagina **Verkoopoffertes - Dynamics 365 for Sales**.
 Voor deze verkoopoffertes wordt het veld **Naam** op de oorspronkelijke offerte overgebracht en toegewezen aan het veld **Extern documentnummer** op de verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Daarnaast wordt het veld **Geldig tot** in de offerte overgebracht naar en toegewezen aan het veld **Offerte geldig tot** in de verkoopofferte in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Verkoopoffertes doorlopen veel revisies terwijl ze worden afgerond. Zowel handmatige als automatische verwerking van verkoopoffertes in [!INCLUDE[d365fin](includes/d365fin_md.md)] zorgt ervoor dat vorige versies van verkoopoffertes worden gearchiveerd voordat nieuwe revisies van verkoopoffertes worden verwerkt vanuit [!INCLUDE[crm_md](includes/crm_md.md)].  
+Verkoopoffertes doorlopen veel revisies terwijl ze worden afgerond. Zowel handmatige als automatische verwerking van verkoopoffertes in [!INCLUDE[d365fin](includes/d365fin_md.md)] zorgt ervoor dat vorige versies van verkoopoffertes worden gearchiveerd voordat nieuwe revisies van verkoopoffertes worden verwerkt vanuit [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Geboekte verkoopfacturen, klantbetalingen en statistieken verwerken
+Na het uitvoeren van verkooporders worden er facturen voor gemaakt. Als u een verkooporder factureert, kunt u geboekte verkoopfacturen aan [!INCLUDE[crm_md](includes/crm_md.md)] overdragen als u **Factuur maken in [!INCLUDE[crm_md](includes/crm_md.md)]** selecteert op de pagina van de geboekte verkoopfactuur. Geboekte facturen worden overgedragen aan [!INCLUDE[crm_md](includes/crm_md.md)] met de status **Gefactureerd**. Als de klantbetaling voor de verkoopfactuur is ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt de status van de verkoopfactuur gewijzigd in **Betaald**, met de statusreden ingesteld op **Gedeeltelijk**, indien gedeeltelijk betaald, of op **Volledig** indien geheel voldaan, wanneer u **Rekeningstatistiek bijwerken** uitvoert op de klantpagina in [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Rekeningstatistiek bijwerken** vernieuwt ook waarden zoals Saldo en Totale verkoop in het feitenblok [!INCLUDE[d365fin](includes/d365fin_md.md)]-rekeningstatistiek in [!INCLUDE[crm_md](includes/crm_md.md)].
+U kunt ook geplande taken (Klantstatistieken en GEBOEKTEVERKOOPFACTUUR-FACT) automatisch beide processen laten uitvoeren op de achtergrond. 
 
 ## <a name="see-also"></a>Zie ook
 [Integratie voorbereiden van Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  

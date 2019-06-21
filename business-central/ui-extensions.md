@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250285"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621126"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
@@ -65,6 +65,7 @@ Microsoft biedt de volgende extensies:
 * [C5-gegevensmigratie](ui-extensions-c5-data-migration.md)  
 * [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)  
 * [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md  )
+* [Afdrachtsadvies verzenden](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
 >  Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

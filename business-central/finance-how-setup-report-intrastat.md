@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 57ac1956c2e7b22a04615c4ebd0ab5b502787a93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dcce77cae3f582f59ec07469342661ad2f4d9afa
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240660"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621034"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedure: Intrastat instellen en rapporteren
 Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt de pagina **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
@@ -25,6 +25,7 @@ Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in
 ## <a name="required-and-optional-setups"></a>Vereiste en optionele instellingen
 Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporteren, moet u meerdere zaken instellen:  
 
+* **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage. 
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
 * **Transactieaardcode**: landen en regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.  

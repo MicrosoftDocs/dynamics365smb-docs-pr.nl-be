@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252470"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621172"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -39,7 +39,7 @@ U bent mogelijk al vertrouwd met het gebruik van de Tab-toets om van het ene vel
 
 Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die in snelinvoer zijn opgenomen, worden opgenomen in het pad wanneer u op Enter drukt; velden die zijn uitgesloten van snelinvoer, worden dat niet.
 
-Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen voor snelinvoer](keyboard-shortcuts.md#QuickEntry).
+Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips en trucs
 Hieronder volgt wat nuttige informatie over het gebruik van snelinvoer.
@@ -90,7 +90,7 @@ Wanneer u werkt aan documenten die een onderdeel met regelartikelen bevatten, zo
 
 Een ander voordeel is dat het ook geavanceerde filtermogelijkheden biedt, zoals in andere lijsten, waardoor bladeren en zoeken door regelartikelen nog gemakkelijker wordt.
 
-### <a name="switch-the-focus-on-and-off"></a>De focus aan- en uitzetten
+### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
 Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelartikelen en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
 

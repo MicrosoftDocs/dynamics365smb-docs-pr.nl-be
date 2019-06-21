@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d55d8d5ab916cee6600deaf891702a625d76d7ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11e29674c2d12031fdf4e7f66e767be4fcc74795
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245697"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620896"
 ---
 # <a name="view-the-status-of-a-synchronization"></a>De status van een synchronisatie weergeven
 U kunt de status van de afzonderlijke synchronisatietaken weergeven die voor [!INCLUDE[crm_md](includes/crm_md.md)]-integratie zijn uitgevoerd. Hieronder vallen synchronisatietaken die zijn uitgevoerd vanuit de verwerkingswachtrij en handmatige synchronisatietaken die zijn uitgevoerd op records vanuit de [!INCLUDE[d365fin](includes/d365fin_md.md)]-client. Dit is handig bij het oplossen van synchronisatieproblemen omdat u toegang hebt tot details van specifieke fouten die optreden.
 
-### <a name="to-view-all-synchronization-issues"></a>Alle synchronisatieproblemen weergeven
+### <a name="to-view-synchronization-issues-for-coupled-records"></a>Synchronisatieproblemen weergeven voor gekoppelde records
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Synchronisatiefouten met gekoppelde gegevens** in en kies vervolgens de gerelateerde koppeling.
-2. Op de pagina **Synchronisatiefouten met gekoppelde gegevens** kunt u alle problemen weergeven die zijn opgetreden tijdens de synchronisatie van gegevens tussen [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)], records op de pagina filteren en sorteren op tabel of foutbericht, en acties ondernemen zoals **Opnieuw** of **Koppeling verwijderen** om problemen een voor een of massaal op te lossen.
+2. De pagina **Synchronisatiefouten met gekoppelde gegevens** bevat problemen die zijn opgetreden toen u gekoppelde records synchroniseerde. U kunt records filteren en sorteren en acties zoals **Herstellen** of **Records verwijderen** uitvoeren om problemen een voor een op te lossen.
 
 ### <a name="to-view-synchronization-log-for-specific-manually-synchronized-record"></a>Het synchronisatielogboek weergeven voor een specifieke (handmatig gesynchroniseerde) record
-1. Open bijvoorbeeld de klant-, artikel- of andere record die gegevens synchroniseert tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Sales
-2. Kies de actie **Synchronisatielogbestand** om het synchronisatielogbestand voor de geselecteerde record weer te geven, bijvoorbeeld een specifieke klant die u handmatig hebt gesynchroniseerd.
+1. Open bijvoorbeeld een klant-, artikel- of andere record die gegevens synchroniseert tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Sales.
+2. Kies de actie **Synchronisatielogbestand** om het synchronisatielogbestand voor een geselecteerde record weer te geven. Bijvoorbeeld een specifieke klant die u handmatig hebt gesynchroniseerd.
 
 ## <a name="see-also"></a>Zie ook  
 [Dynamics 365 for Sales-integratie instellen in Business Central](admin-setting-up-integration-with-dynamics-sales.md)  

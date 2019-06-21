@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249388"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594139"
 ---
 # <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
 Om de inhoud van bedrijfsdocumenten snel aan uw zakelijke partners door te geven, zoals de betalingsgegevens over verkoopdocumenten aan klanten, kunt u de functie Rapportlay-out gebruiken om documentspecifieke inhoud te definiëren die automatisch wordt ingevoegd in hoofdteksten van e-mail. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als 
 4. Kies de knop **OK**. De pagina **E-mail verzenden** wordt geopend.
 5. Voer in het veld **Aan** een geldig e-mailadres. De standaardwaarde is het e-mailadres van de klant.
 6. Voer in het veld **Onderwerp** een beschrijvende onderwerptekst in. De standaardwaarde is de naam van de klant en het factuurnummer.
-7. In het veld **Bijlage** wordt de gegenereerde factuur standaard gekoppeld als een PDF-bestand. Kies de opzoekknop om het bestand te openen of nog een bestand bij te voegen.
+7. In het veld **Bijlage** wordt de gegenereerde factuur standaard gekoppeld als een PDF-bestand.
 8. Voer in het veld **Hoofdgedeelte** een kort bericht aan de ontvanger in.
 
     Als een documentspecifieke e-mailhoofdtekst is ingesteld op de pagina **Rapportselectie - Verkoop**, wordt het veld **Hoofdtekst** automatisch ingevuld. Zie voor meer informatie [Een documentspecifieke e-mailhoofdtekst instellen voor verkoopfacturen](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

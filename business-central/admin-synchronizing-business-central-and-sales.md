@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247152"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540235"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Gegevens synchroniseren in Business Central en Dynamics 365 for Sales
 Wanneer u [!INCLUDE[crm_md](includes/crm_md.md)] met [!INCLUDE[d365fin](includes/d365fin_md.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type record kunt u gegevens vanuit [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met [!INCLUDE[d365fin](includes/d365fin_md.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -46,17 +46,17 @@ In de volgende tabel staat de standaardtoewijzing tussen entiteiten in [!INCLUDE
 |-------------------------------------------|-----|-------------------------|--------------|
 |Verkoper/Inkoper|Gebruiker|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-contactfilter: **Status** is **Nee**, **Gebruiker licentie** is **Ja**, Modus Integratiegebruiker is **Nee**|
 |Klant|Rekening|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-accountfilter: **Relatietype** is **Klant** en **Status** is **Actief**.|
-|Contactpersoon|Contactpersoon|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contactfilter: **Type** is **Persoon** en het contact is toegewezen aan een bedrijf. Sales-contactfilter: de contactpersoon is toegewezen aan een bedrijf en het bovenliggende klanttype is **Account**.|
+|Contactpersoon|Contactpersoon|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-contactfilter: **Type** is **Persoon** en de contactpersoon is toegewezen aan een bedrijf. Sales-contactfilter: de contactpersoon is toegewezen aan een bedrijf en het bovenliggende klanttype is **Account**.|
 |Valuta|Transactievaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Eenheid|Eenhedengroep|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Artikel|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-contactfilter: **Producttype** is **Verkoopvoorraad**|
 |Bron|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-contactfilter: **Producttype** is **Services**|
 |Klantenprijsgroep|Prijslijst|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Verkoopprijs|Productprijslijst|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contactfilter: **Verkoopcode** is niet leeg, **Verkoopsoort** is **Klantenprijsgroep**|
+|Verkoopprijs|Productprijslijst|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-contactfilter: **Verkoopcode** is niet leeg, **Verkoopsoort** is **Klantenprijsgroep**|
 |Opportunity|Opportunity|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 |Verkoopfactuur|Factureren|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Verkoopfactuurregel|Factuurproduct|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Verkooporderkop|Verkooporder|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Verkoopkopfilter: **Documenttype** is Order, **Status** is Vrijgegeven|
+|Verkooporderkop|Verkooporder|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopkopfilter: **Documenttype** is Order, **Status** is Vrijgegeven|
 |Verkoopordernotities|Verkoopordernotities|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Tip voor beheerders: entiteittoewijzingen weergeven

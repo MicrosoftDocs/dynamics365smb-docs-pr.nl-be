@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247521"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620988"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 Inzicht krijgen in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens is gemakkelijk met Power BI en de [!INCLUDE[d365fin](includes/d365fin_md.md)]-inhoudspakketten. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
 
-U moet een geldig account bij Dynamics 365 en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
+U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Voor Power BI-inhoudspakketten zijn machtigingen vereist voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
 > [!IMPORTANT]
 > De inhoudspakketten die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme. Als u [!INCLUDE [prodshort](includes/prodshort.md)] on-premises gebruikt en een ander verificatiemechanisme gebruikt, kan Power BI geen verbinding maken met uw gegevens.  
@@ -28,15 +28,8 @@ U moet een geldig account bij Dynamics 365 en Power BI hebben. Ook moet u [Power
 Microsoft heeft de volgende Content Packs gepubliceerd:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Klantenlijst  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Financiën  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Artikeloverzicht  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Taken  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Takenlijst  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Inkoopfacturen  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Verkoop  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Verkooporderoverzicht  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Leverancierslijst  
 
 ## <a name="using-the-dashboards"></a>De dashboards gebruiken
 Elk Content Pack bevat rapporten met verschillende detailniveaus:
@@ -88,64 +81,9 @@ Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Po
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Projectoverzicht
-- Projectplanningsregels
-- Projecttaakregels
-- Labels van Power BI-rapport
-- Excel-sjabloonweergave Bedrijf
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Verkoopdashboard
 - Excel-sjabloonweergave Bedrijf
-- Labels van Power BI-rapport
-
-### <a name="list-page-reports"></a>Lijstpaginarapporten
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Artikelverkopen per klant
-- Power BI-artikelinkooplijst
-- Power BI-artikelverkooplijst
-- Verkoopdashboard
-- Power BI-klantenlijst
-- ExcelTemplateViewCompany
-- Labels van Power BI-rapport
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Power BI-lijst met grootboekbedragen
-- Power BI gebudgetteerd grootboekbedrag
-- ExcelTemplateViewCompany
-- Labels van Power BI-rapport
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Artikelverkopen per klant
-- Power BI-artikelinkooplijst
-- Power BI-artikelverkooplijst
-- Verkoopdashboard
-- ExcelTemplateViewCompany
-- Labels van Power BI-rapport
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI-takenlijst
-- ExcelTemplateViewCompany
-- Labels van Power BI-rapport
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI-inkooplijst
-- ExcelTemplateViewCompany
-- Labels van Power BI-rapport
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI-verkooplijst
-- ExcelTemplateViewCompany
-- Labels van Power BI-rapport
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Power BI-artikelinkooplijst
-- Power BI-artikelverkooplijst
-- Power BI-leverancierslijst
-- ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
 ## <a name="web-services"></a>Webservices
@@ -158,8 +96,7 @@ Het dashboard van Power BI gebruikt de gepubliceerde webservices die hierboven w
 Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in plaats van de bedrijfsnaam. Als u de bedrijfsnaam wilt vinden, zoekt u naar **Bedrijven**. Gebruik vervolgens het veld **Naam** wanneer u uw bedrijfsnaam invoert.
 
 ### <a name="incorrect-user-name-and-password"></a>Onjuiste gebruikersnaam en wachtwoord  
-De gebruikersnaam en het wachtwoord die worden gebruikt om verbinding te maken, zijn hetzelfde als wat wordt gebruikt om verbinding te maken met uw Microsoft Office 365-account.  
-
+De gebruikersnaam en het wachtwoord die worden gebruikt om aan te melden bij Power BI, zijn hetzelfde als wat wordt gebruikt om verbinding te maken met uw Microsoft Office 365-account.  
 De inhoudspakketten vereisen ook dat u een Microsoft-[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] hebt. Zodra u uw aanmeldingsgegevens invoert, worden eventuele Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-tenants waartoe u toegang hebt, automatisch gevonden. Als u geen gelicentieerd of proef Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-account hebt, wordt een foutbericht weergegeven.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen

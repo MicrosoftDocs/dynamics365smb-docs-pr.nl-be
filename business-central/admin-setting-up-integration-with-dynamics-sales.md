@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246586"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620965"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales
 Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[crm_md](includes/crm_md.md)] te integreren met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,7 +28,7 @@ Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vere
 U moet het beheerdersaccount voor [!INCLUDE[d365fin](includes/d365fin_md.md)] toevoegen als een gebruiker in [!INCLUDE[crm_md](includes/crm_md.md)] en vervolgens de gebruiker promoveren tot beheerder in [!INCLUDE[crm_md](includes/crm_md.md)]. Het beheerdersaccount moet ook de rol van systeemaanpasser hebben en ten minste één andere niet-beheerdersrol, zoals Verkoopmanager in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Het gebruikersaccount instellen voor de integratie
-U moet een speciaal gebruikersaccount in uw Office 365-abonnement maken dat zowel [!INCLUDE[d365fin](includes/d365fin_md.md)] als [!INCLUDE[crm_md](includes/crm_md.md)] kan gebruiken om gegevens te synchroniseren. Dit gebruikersaccount moet zich kunnen aanmelden bij [!INCLUDE[crm_md](includes/crm_md.md)], wat betekent dat deze gebruiker een licentie voor [!INCLUDE[crm_md](includes/crm_md.md)] moet hebben. Dit account moet ook een niet-interactief account in [!INCLUDE[crm_md](includes/crm_md.md)] zijn. Zie voor meer informatie over hoe u gebruikers maakt in [!INCLUDE[crm_md](includes/crm_md.md)] [Beveiliging, gebruikers en teams beheren](http://go.microsoft.com/fwlink/?LinkID=616518). Nadat de verbinding is ingesteld, wijst [!INCLUDE[d365fin](includes/d365fin_md.md)] aan het gebruikersaccount de beveiligingsrollen toe die het nodig heeft in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+U moet een speciaal gebruikersaccount in uw Office 365-abonnement maken dat zowel [!INCLUDE[d365fin](includes/d365fin_md.md)] als [!INCLUDE[crm_md](includes/crm_md.md)] kan gebruiken om gegevens te synchroniseren. Dit gebruikersaccount moet zich kunnen aanmelden bij [!INCLUDE[crm_md](includes/crm_md.md)], wat betekent dat deze gebruiker een licentie moet hebben voor [!INCLUDE[crm_md](includes/crm_md.md)] en dat ten minste één beveiligingsrol in [!INCLUDE[crm_md](includes/crm_md.md)] aan het account moet zijn toegewezen, zoals [hier](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account) beschreven. Zie voor meer informatie over hoe u gebruikers maakt in [!INCLUDE[crm_md](includes/crm_md.md)] [Beveiliging, gebruikers en teams beheren](http://go.microsoft.com/fwlink/?LinkID=616518). Nadat de verbinding is ingesteld, wijst [!INCLUDE[d365fin](includes/d365fin_md.md)] aan het gebruikersaccount de beveiligingsrollen toe die nodig zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)] en kan dit account worden ingesteld op de [niet-interactieve toegangsmodus](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) in [!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Begeleide instelling toont waar gebruikersreferenties voor synchronisatie moeten worden ingevoerd](media/sync-user-setup.png "Door visualisatie ondersteunde instellingswizardpagina toont de plaats waar gebruikersreferenties voor synchronisatie moeten worden ingevoerd")
 

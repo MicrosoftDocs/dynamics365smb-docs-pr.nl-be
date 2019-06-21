@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246876"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620942"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Ontwerpdetails: Beschikbaarheid in het magazijn
 Het systeem moet een constante controle op artikelbeschikbaarheid in het magazijn hebben, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.  
 
- De beschikbaarheid varieert afhankelijk van toewijzingen op het niveau van de opslaglocatie, wanneer magazijnactiviteiten optreden zoals picks en verplaatsingen en wanneer het voorraadreserveringssysteem beperkingen oplegt. Een tamelijk complex algoritme verifieert of aan alle voorwaarden is voldaan voordat aantallen worden toegewezen aan picks voor uitgaande stromen.  
+De beschikbaarheid varieert afhankelijk van toewijzingen op het niveau van de opslaglocatie, wanneer magazijnactiviteiten optreden zoals picks en verplaatsingen en wanneer het voorraadreserveringssysteem beperkingen oplegt. Een tamelijk complex algoritme verifieert of aan alle voorwaarden is voldaan voordat aantallen worden toegewezen aan picks voor uitgaande stromen.
+
+Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmeldingen worden weergegeven, inclusief het algemene 'Niets te verwerken'. bericht. Het bericht 'Niets te verwerken' kan om allerlei redenen worden weergegeven, zowel in uitgaande als inkomende stromen, waar een direct of indirect betrokken documentregel het veld **Te verwerken aantal** bevat.
+
+> [!NOTE]
+> Hier wordt binnenkort informatie weergegeven over mogelijke redenen en oplossingen van 'Niets te verwerken.' bericht.
 
 ## <a name="bin-content-and-reservations"></a>Inhoud van opslaglocatie en reserveringen  
  In elke installatie van magazijnbeheer bestaan artikelaantallen als magazijnposten, in het magazijntoepassingsgebied, en als artikelposten, in het voorraadtoepassingsgebied. Deze twee boekingssoorten bevatten verschillende informatie over waar artikelen bestaan en of ze beschikbaar zijn. Met magazijnposten wordt de beschikbaarheid van een artikel per (soort) opslaglocatie gedefinieerd, wat opslaglocatie-inhoud wordt genoemd. Artikelposten definiëren de beschikbaarheid van een artikel op basis van de reservering hiervan voor uitgaande documenten.  
@@ -72,4 +77,5 @@ Het systeem moet een constante controle op artikelbeschikbaarheid in het magazij
  ![Beschikbaar om te reserveren met magazijntoewijzing](media/design_details_warehouse_management_availability_3.png "Beschikbaar om te reserveren met magazijntoewijzing")  
 
 ## <a name="see-also"></a>Zie ook  
- [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
+ [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
+ [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)

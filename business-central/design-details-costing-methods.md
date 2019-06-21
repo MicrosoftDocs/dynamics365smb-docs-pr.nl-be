@@ -10,19 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243952"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621080"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
-De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd. De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd.
 
-|Waarderingsmethode|Description|Gebruik|  
+> [!NOTE]
+> U kunt de waarderingsmethode van een artikel niet wijzigen als er artikelposten voor het artikel bestaan.<br /><br />
+> Hier wordt binnenkort informatie gepubliceerd over oplossingen om een waarderingsmethode in speciale situaties te wijzigen.
+
+De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+
+|Waarderingsmethode|Omschrijving|Gebruik|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de FIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als eerste in voorraad worden geplaatst, als eerst worden verkocht.|In ondernemingsomgevingen waar de productkosten stabiel zijn.<br /><br /> (Wanneer de prijzen stijgen, wordt in de balans een grotere waarde weergegeven. Dit betekent dat de belastingschulden toenemen, maar de creditscores en de mogelijkheid om contanten te lenen beter worden.)<br /><br /> Voor artikelen met een beperkte houdbaarheid, omdat de oudste goederen moeten worden verkocht voordat ze hun uiterste houdbaarheidsdatum overschrijden.|  
 |LIFO|De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de LIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als laatste in voorraad worden geplaatst, als eerst worden verkocht.|Verboden in veel landen/regio's, aangezien het kan worden gebruikt voor het drukken van winst.<br /><br /> (Wanneer de prijzen stijgen, vermindert de waarde op de resultatenrekening. Dit betekent dat de belastingschulden verminderen, maar de mogelijkheid om contanten te lenen verslechtert.)|  

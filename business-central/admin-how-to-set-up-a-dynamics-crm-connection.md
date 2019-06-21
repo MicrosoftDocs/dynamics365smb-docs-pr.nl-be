@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245769"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621057"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Een verbinding instellen met Dynamics 365 for Sales
 Voor integratie met [!INCLUDE[crm_md](includes/crm_md.md)] moet u een verbinding instellen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)]. 
@@ -55,6 +55,9 @@ De begeleide instelling **Dynamics 365 for Sales-verbinding instellen** kan u he
 |**Integratie van verkooporders inschakelen**|Wanneer personen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)], kopieert u de orders naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiervoor moet u referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Dynamics 365 for Sales-verbinding inschakelen**|De verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] inschakelen.|
 |**Dynamics 365 SDK-versie**|Dit is alleen relevant als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)]. Dit is de software-ontwikkelingskit van Dynamics 365 (ook Xrm genoemd) die u gebruikt om [!INCLUDE[d365fin](includes/d365fin_md.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)] en gelijk zijn aan of nieuwer zijn dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+> [!Note]
+> De begeleide instelling **Dynamics 365 for Sales-verbinding instellen** wijst automatisch de beveiligingsrollen **Integratiebeheerder** en **Integratiegebruiker** toe aan gebruikersaccounts die worden gebruikt voor integratie. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>De verbinding handmatig maken of onderhouden
 In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microsoft Dynamics 365 for Sales-verbinding instellen** handmatig invult. Dit is ook de pagina waar u instellingen voor de integratie beheert.
@@ -103,6 +106,10 @@ In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microso
     >  Als gegevensversleuteling niet is ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt u gevraagd of u het wilt inschakelen. Als u gegevensversleuteling wilt inschakelen, kiest u **Ja** en geeft u de vereiste informatie op. Anders kiest u **Nee**. U kunt gegevenscodering later inschakelen. Zie voor meer informatie [Gegevens versleutelen in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Help voor ontwikkelaars en IT-pro.  
 
 7. Als [!INCLUDE[crm_md](includes/crm_md.md)]-synchronisatie niet al is ingesteld, wordt u gevraagd of u de standaardinstellingen voor synchronisatie wilt gebruiken. Afhankelijk van of u records uitgelijnd wilt houden in [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)], kiest u **Ja** of **Nee**. 
+
+> [!Note]
+> Voor het maken van verbinding met Dynamics 365 for Sales met behulp van **Microsoft Dynamics 365 for Sales-verbinding instellen** moet u mogelijk [de beveiligingsrollen **Integratiebeheerder** en **Integratiegebruiker** toewijzen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) aan gebruikersaccounts die worden gebruikt voor integratie. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] verbreken  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 for Sales-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.

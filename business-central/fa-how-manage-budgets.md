@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2019
+ms.date: 05/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e7c7d665dc26a2af365daf6171affb679c22c1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfae781b7ddabd7283868886dd07699bf62be052
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247221"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620919"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Budgetten voor vaste activa beheren.
 U kunt gebudgetteerde vaste activa instellen. Hiermee kunt u bijvoorbeeld verwachte aan- en verkopen opnemen in lijsten.  
@@ -51,8 +51,8 @@ Als u de geschatte buitengebruikstellingswaarden wilt bekijken en verlies en win
 ## <a name="to-budget-depreciation"></a>Afschrijvingen budgetteren
 U kunt het rapport **Vast activum - Geschatte waarde** gebruiken om toekomstige afschrijving te berekenen. Het rapport laat de boekwaarde en gecumuleerde afschrijving aan het begin van de geselecteerde periode zien, wijzigingen gedurende de periode en de boekwaarde en gecumuleerde afschrijving aan het eind van de geselecteerde periode.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geschatte waarde VA** in en kies vervolgens de gerelateerde koppeling.
-2. Vul indien nodig de velden in.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geschatte waarde van vaste activa** in en kies vervolgens de gerelateerde koppeling.
+2. Vul de velden in.
 3. Als u de totale waarden voor alle activa wilt bekijken, schakelt u het selectievakje **Per VA afdrukken** uit.
 4. Laat het sneltabblad **Vast activum** leeg, zodat alle activa in de lijst worden opgenomen. Stel het veld **Alleen budget** in op **Nee** om gebudgetteerde activa uit te sluiten, of stel het veld in op **Ja** om alleen gebudgetteerde activa te zien.
 5. Kies de knop **Afdrukken** of **Voorbeeld**.

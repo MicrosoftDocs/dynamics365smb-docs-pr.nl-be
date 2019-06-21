@@ -1,8 +1,6 @@
 ---
 title: Een rapport plannen voor uitvoering op een bepaalde datum en tijd | Microsoft Docs
 description: Leren over het invoeren van een lijst in een verwerkingswachtrij en het plannen om te worden verwerkt op een specifieke datum en tijd.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 508a6406fe11099f19ce46c70147d62ba74278d1
+ms.sourcegitcommit: f4beaa63e2f32e2947de1c794c5619ed40a47301
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250699"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1586164"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Werken met rapporten en batchverwerkingen
 In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare en afdrukbare indeling. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, voor de verkoopstatistieken en nog veel meer.
@@ -88,7 +86,12 @@ U kunt een rapport plannen voor uitvoering op een bepaalde datum en tijd. Geplan
 U kunt een rapport plannen wanneer u een rapport opent. U kiest de actie **Plannen** en voert vervolgens gegevens in, zoals printer en datum en tijd. Het rapport wordt vervolgens toegevoegd aan de taakwachtrij en wordt op de opgegeven tijd uitgevoerd. Als het rapport is verwerkt, wordt het artikel verwijderd uit de verwerkingswachtrij. Als u het verwerkte rapport in een bestand hebt opgeslagen, is het beschikbaar in het gebied **Rapportinbox**.
 
 ## <a name="PrintReport"></a>Een rapport afdrukken
-U kunt een rapport afdrukken via de knop **Afdrukken** op de optiepagina die wordt weergegeven als u het rapport opent of via de menubalk in Voorbeeld.
+U kunt een rapport afdrukken via de knop **Afdrukken** op de optiepagina die wordt weergegeven als u het rapport opent of via de menubalk in Voorbeeld.  
+
+### <a name="printing-reports-in-thai"></a>Rapporten afdrukken in Thai
+Specifiek voor de Thaise versie van [!INCLUDE[prodshort](includes/prodshort.md)] kan de knop **Afdrukken** rapporten niet correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
+
+U kunt ook de beheerder vragen een Word-rapportlay-out te maken voor uw meest gebruikte rapporten. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).  
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>De lay-out en weergave van een rapport weergeven
 Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is ingedeeld en hoe het is opgemaakt. Zie [Wijzigen welke lay-out momenteel in een rapport wordt gebruikt](ui-how-change-layout-currently-used-report.md) als u naar een andere lay-out wilt schakelen. Of zie [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md) als u uw eigen rapportlay-out wilt aanpassen.

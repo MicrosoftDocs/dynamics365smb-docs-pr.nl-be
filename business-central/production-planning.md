@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 363cf9d0e7b90557867daaaab6f99378f51b9ef9
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252033"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621149"
 ---
 # <a name="planning"></a>Planning
 De productiebewerkingen die vereist zijn om input om te zetten in gereed product, moeten per dag of per week worden gepland afhankelijk van het volume en de aard van de producten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat functies voor de verwachte en werkelijke vraag van verkoop, montage en productie, en functies voor distributieplanning met SKU's en transfers.
@@ -26,9 +26,7 @@ De productiebewerkingen die vereist zijn om input om te zetten in gereed product
 > Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook voorraadplanning voor de groothandel, waar de resulterende aanvulorders alleen transfer- en inkooporders kunnen zijn. De belangrijkste interface voor dit planningswerk is de pagina **Inkoopvoorstel**, die indirect in dit onderwerp wordt beschreven aangezien de meeste planningsfunctionaliteiten op beide voorstellen van toepassing zijn.
 
-Voordat u productieorders kunt plannen en uitvoeren, moet u de productiecapaciteiten configureren, zoals het maken van productieagenda's, productiestuklijsten en bewerkingsplaatsen. Zie [Productie instellen](production-configure-production-processes.md) voor meer informatie.
-
-Planning kan worden beschouwd als de voorbereiding van vereiste aanvulorders in de montage- of productieafdelingen om te voldoen aan vraag. Zie [Assemblagebeheer](assembly-assemble-items.md) en [Productie](production-manage-manufacturing.md) voor meer informatie.
+Planning kan worden beschouwd als de voorbereiding van vereiste aanvulorders in de inkoop-, assemblage- of productieafdelingen om te voldoen aan verkoop of vraag naar eindartikelen. Zie voor meer informatie [Inkoop](purchasing-manage-purchasing.md), [Assemblagebeheer](assembly-assemble-items.md) en [Productie](production-manage-manufacturing.md).
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 

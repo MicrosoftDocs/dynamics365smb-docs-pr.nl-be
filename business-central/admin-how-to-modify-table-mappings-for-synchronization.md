@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247456"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540212"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Tabeltoewijzingen wijzigen voor synchronisatie
 Een integratietabeltoewijzing koppelt een tabel in [!INCLUDE[d365fin](includes/d365fin_md.md)] aan een integratietabel voor de [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit. Voor elke entiteit in [!INCLUDE[crm_md](includes/crm_md.md)] die u wilt synchroniseren met bijbehorende gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet er een bijbehorende integratietabeltoewijzing zijn. Een integratietabeltoewijzing bevat verschillende instellingen om te bepalen hoe records in een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en een [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit worden gesynchroniseerd door de bijbehorende integratiesynchronisatietaken.  
@@ -49,7 +49,7 @@ Als u de standaardsynchronisatie-instelling installeert, worden meestal automati
 
      Deze sjabloon wordt gemaakt door een bestaande configuratiesjabloon te kopiëren voor klanten in de toepassing. **CRMCUST** wordt alleen gemaakt als er een bestaande configuratiesjabloon is en het veld **Valutacode** in de sjabloon leeg is. Als een veld in de configuratiesjabloon een waarde bevat, wordt die waarde gebruikt in plaats van de waarde in het toegewezen veld in het [!INCLUDE[crm_md](includes/crm_md.md)]-account. Bijvoorbeeld als het veld **Land/regio** in een [!INCLUDE[crm_md](includes/crm_md.md)]-account *VS* is en het veld **Land/regio** in de configuratiesjabloon *GB* is, wordt *GB* gebruikt als **Land/regio** voor de klant in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
--   **CRMACCOUNT** wordt gebruikt om nieuwe accounts in [!INCLUDE[crm_md](includes/crm_md.md)] te maken en te synchroniseren op basis van een account in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   **CRMACCOUNT** maakt en synchroniseert nieuwe accounts in [!INCLUDE[crm_md](includes/crm_md.md)] op basis van een account in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Configuratiesjablonen opgeven voor een tabeltoewijzing  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.

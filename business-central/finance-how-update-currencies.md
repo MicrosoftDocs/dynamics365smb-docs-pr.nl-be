@@ -1,23 +1,18 @@
 ---
 title: Valutawisselkoersen bijwerken | Microsoft Docs
-description: Als u meerdere valuta's in uw bedrijf wilt gebruiken, kunt u een code voor elke gebruikte valuta instellen en een externe wisselkoersservice gebruiken.
-services: project-madeira
-documentationcenter: ''
+description: Houd bedragen in verschillende valuta's bij met valutacodes en laat Business Central u helpen wisselkoersen van geboekte posten aan te passen met behulp van een externe service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2019
+ms.search.keywords: multiple currencies, adjust exchange rates
+ms.date: 06/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9fa636fb68a428da3c587e59be1bf76cf976207
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238958"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621103"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en financiën in meer dan één valuta kunnen controleren of rapporteren. U moet een code instellen voor elke gebruikte valuta als u in andere valuta's dan uw lokale valuta inkoopt of verkoopt, in een andere valuta tegoeden of schulden hebt of grootboektransacties in verschillende valuta's vastlegt.

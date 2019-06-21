@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c4788f7f262dee32f489095bf1ee303ea712c5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36cfa2a8111ba895c9f38a7007643c8ff43f99ca
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239418"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540352"
 ---
 # <a name="inventory"></a>Voorraad
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
@@ -40,7 +40,7 @@ Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de k
 |Onderhoud een overzicht van artikelen en help artikelen te zoeken en te sorteren door ze in categorieën te organiseren.|[Artikelen categoriseren](inventory-how-categorize-items.md)|
 |Wijs artikelkenmerken van verschillende waardesoorten aan uw artikelen toe zodat u artikelen gemakkelijker kunt sorteren en vinden.|[Werken met artikelkenmerken](inventory-how-work-item-attributes.md)|
 |Maak speciale artikelkaarten voor artikelen die u aan klanten aanbiedt, maar die u niet in voorraad houdt.|[Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)|
-|Een inventarisatie uitvoeren met de pagina's **Inventarisatieorder** en **Inventarisatieregistratie**.|[Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md)|
+|Voer een inventarisatie van uw voorraad uit met de pagina's **Inventarisatieorder** en **Inventarisatieregistratie**.|[Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md)|
 |Inventarisatie uitvoeren, negatieve of positieve correcties uitvoeren en gegevens wijzigen, zoals locatie of lotnummer, in artikelposten of magazijnposten.|[Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)|
 |Beschikbaarheid van artikelen weergeven op vestiging, periode, verkoop- of inkoopgebeurtenis, of het gebruik in assemblage- of productiestuklijsten.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|
 |Voorraadartikelen verplaatsen tussen vestigingen met transferorders, om magazijnactiviteiten te beheren, of met het artikelherindelingsdagboek.|[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|

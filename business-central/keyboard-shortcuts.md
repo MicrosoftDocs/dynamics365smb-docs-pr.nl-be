@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240591"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621218"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 |Shift+Page Up<br />(Shift+Fn+pijl omhoog)|De selectie van rijen uitbreiden en alle zichtbare rijen boven de huidige selectie van rijen toevoegen.|Niet van toepassing.|
 |Shift+Page Down<br />(Shift+Fn+pijl omlaag)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing.|
 |Ctrl+C<br />(Cmd+C)|De geselecteerde rijen naar het Klembord kopiëren.|Niet van toepassing.|
-|Ctrl+V<br />(Cmd+V)|De geselecteerde rijen uit het Klembord plakken op de huidige pagina of in het huidige document, zoals Microsoft Excel of Outlook-e-mail.<br /><br />U kunt dit alleen doen in bewerkbare lijsten.|Niet van toepassing.|
-|F8|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken.<br /><br />U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een Tab om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|Niet van toepassing.||
+|Ctrl+V<br />(Cmd+V)|De geselecteerde rijen uit het Klembord plakken op de huidige pagina of in het huidige document, zoals Microsoft Excel of Outlook-e-mail. U kunt dit alleen doen in bewerkbare lijsten.|Niet van toepassing.|
+|F8|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken. U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een Tab om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|Niet van toepassing.|
 
 ### <a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238544"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594274"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Artikelen blokkeren vanuit Verkoop of Inkoop
 U kunt voorkomen dat een artikel wordt ingevoerd op verkoop- of inkoopregels en u kunt voorkomen dat het wordt geboekt in een transactie.  
@@ -28,7 +28,10 @@ De volgende tabel laat zien wat er gebeurt wanneer artikelen worden geblokkeerd.
 |--------------------|------------|  
 |**Verkoop geblokkeerd**|U kunt het artikel niet invoeren in een verkoopdocument of een verkoopartikeldagboek.|  
 |**Inkoop geblokkeerd**|U kunt het artikel niet invoeren in een inkoopdocument, in een inkoopartikeldagboek of in planningsprocessen voor inkoop.|  
-|**Geblokkeerd**|U kunt het artikel niet voor een artikeltransactie gebruiken. Voor meer informatie over het blokkeren van een artikel voor alle doeleinden raadpleegt u Artikelkaart.|  
+|**Geblokkeerd**|U kunt het artikel niet voor een artikeltransactie gebruiken.|  
+
+> [!NOTE]
+> Geblokkeerde artikelen kunnen worden geretourneerd. Dit betekent dat geen van de bovenstaande instellingen van toepassing zijn als het artikel wordt gebruikt in retourorders en creditnota's.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Voorkomen dat een artikel wordt ingevoerd op verkoopregels  
 

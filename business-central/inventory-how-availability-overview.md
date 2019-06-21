@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: SorenGP
-ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243303"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621011"
 ---
 # <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
@@ -26,9 +26,11 @@ U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt de
 > [!NOTE]  
 >   Beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie [Vestigingen instellen](inventory-how-setup-locations.md) voor meer informatie.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers weergegeven in twee verschillende velden, elk met een andere definitie:
+Als u magazijnfunctionaliteit gebruikt, varieert de beschikbaarheid afhankelijk van toewijzingen op het niveau van de opslaglocatie, wanneer magazijnactiviteiten optreden zoals picks en verplaatsingen en wanneer het voorraadreserveringssysteem beperkingen oplegt. Een tamelijk complex algoritme verifieert of aan alle voorwaarden is voldaan voordat aantallen worden toegewezen aan picks voor uitgaande stromen. Zie voor meer informatie [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md).
 
-* Het veld **In voorraad** bevat het werkelijke aantal van vandaag op basis van geboekte artikelposten.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers meestal weergegeven in twee verschillende velden, elk met een andere definitie:
+
+* Het veld **In voorraad**, op sommige plaatsen **Voorraad** genoemd, bevat het werkelijke aantal van vandaag op basis van geboekte artikelposten.
 * Het veld **Geplande voorraad** wordt berekend en toont de beschikbare hoeveelheid plus geplande ontvangsten minus brutobehoeften. (In [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken omvatten geplande ontvangsten hoeveelheden op inkooporders en inkomende transferorders. Brutobehoeften omvatten aantallen op verkooporders en uitgaande transferorders.)
 
 > [!TIP]  

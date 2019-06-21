@@ -1,21 +1,21 @@
 ---
 title: Lijsten sorteren, doorzoeken en filteren | Microsoft Docs
 description: Werk efficiënt in lijsten door te zoeken in uw gegevens, kolommen te sorteren en resultaten te verfijnen met krachtige filtersymbolen en toetsenbordsneltoetsen.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253965"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621195"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Lijsten sorteren, doorzoeken en filteren
 U kunt een paar dingen doen om records in een lijst te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
@@ -41,7 +41,7 @@ Boven aan elke lijstpagina staat een ![lijst Zoeken](media/ui-search/search-list
 
 Als u wilt zoeken, selecteert u het zoekpictogram en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
 
-### <a name="fine-tune-the-search"></a>De zoekactie verfijnen
+### <a name="fine-tuning-the-search"></a>De zoekactie verfijnen
 Over het algemeen probeert de zoekactie tekst te vinden in alle velden. Er wordt geen onderscheid gemaakt tussen kleine letters en hoofdletters (hoofdletterongevoelig dus) en er wordt tekst overal in het veld gezocht (aan het begin, aan het einde of in het midden).
 
 U kunt echter een exactere zoekactie maken door de volgende speciale tekens te gebruiken:
