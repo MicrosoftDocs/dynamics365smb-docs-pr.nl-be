@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 83832898f39c97feb956a652e8a8a18c135fac3f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 64d8988fc99756bf08371cf413398572288614f8
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237790"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594209"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 
 ## <a name="feature-availability"></a>Beschikbaarheid van functies
 
-* Btw en belasting
+* Btw
     * [Belgische btw](belgian-vat.md) **Nu beschikbaar**
     * [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md) **Nu beschikbaar**
     * [Handmatig btw-correcties doorvoeren](how-to-make-manual-corrections-to-vat.md) **Nu beschikbaar**
