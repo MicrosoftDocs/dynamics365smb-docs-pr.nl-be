@@ -8,35 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/24/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: f2b7fa01cff36e3aab335f7d5921954343c69b74
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ba5b6f0f91e207ec8ffedf5b45003a5787b9e0f
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243607"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701141"
 ---
-# <a name="define-check-layouts"></a>Cheque-indelingen definiëren
+# <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
 
-## <a name="to-define-check-layouts"></a>Cheque-indelingen definiëren
+## <a name="to-select-a-check-layout"></a>Een cheque-indeling selecteren
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekening van rapportselecties** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
 3. Selecteer een van de volgende rapport-id's.
 
-  | Rapport-id | Rapportnaam | Omschrijving |
-  | --- | --- | --- |
-  | 1401 |Cheque |Dit is het standaardrapport. |
-  | 10411 |Cheque (strook/strook/cheque) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/strook/cheque. |
-  | 10412 |Cheque (strook/cheque/strook) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/cheque/strook. |
-  | 10413 |Drie cheques per pagina |Dit rapport is ontworpen voor het afdrukken van drie cheques op elke pagina. |
+| Rapport-id | Rapportnaam | Omschrijving |
+| --- | --- | --- |
+| 1401 |Cheque |Dit is het standaardrapport. |
+| 10411 |Cheque (strook/strook/cheque) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/strook/cheque. |
+| 10412 |Cheque (strook/cheque/strook) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/cheque/strook. |
+| 10413 |Drie cheques per pagina |Dit rapport is ontworpen voor het afdrukken van drie cheques op elke pagina. |
 
 Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit de pagina **Betalingsdagboek**. Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
 
+Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de integratie van Word of RDLC om dit te doen. Zie voor meer informatie [Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md).
+
 ## <a name="see-also"></a>Zie ook
+[Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankrekeningen beheren](bank-manage-bank-accounts.md)   
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  

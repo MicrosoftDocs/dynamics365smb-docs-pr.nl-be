@@ -9,20 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620873"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726871"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Dynamics 365 for Sales gebruiken vanuit Business Central
 Als u Dynamics 365 for Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
 
+Voordat u de integratiemogelijkheden kunt gebruiken, moet u de verbinding instellen en gebruikers definiëren in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> In dit onderwerp wordt aangenomen dat u de online versies van [!INCLUDE[d365fin](includes/d365fin_md.md)] en Sales gebruikt. U kunt online en on-premises versies combineren, maar dat vereist speciale configuratie. Zie voor meer informatie [Integratie voorbereiden van Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Deze stappen beschrijven de integratie van online versies van [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor informatie over on-premises configuratie [Dynamics 365 for Sales voorbereiden voor on-premises integratie](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Als u de toepassingen integreert, krijgt u vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] toegang tot gegevens in Sales en in sommige gevallen ook andersom. U kunt gegevens gebruiken en synchroniseren die beide services gemeen hebben, zoals klanten, contacten en verkoopinformatie, en de gegevens up-to-date houden in beide toepassingen.  
 
@@ -73,19 +75,22 @@ Als de artikelomschrijving op de oorspronkelijke verkooporder erg lang is, wordt
 
 Updates in verkooporderkopvelden, zoals Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in VERKOOPORDER-ORDER **Toewijzing van integratietabellen** worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## <a name="handling-sales-quotes-data"></a>Verkoopoffertegegevens verwerken
 Verkoopoffertes die worden geactiveerd in [!INCLUDE[crm_md](includes/crm_md.md)], worden overgebracht naar [!INCLUDE[d365fin](includes/d365fin_md.md)] als u het selectievakje **Offertes automatisch verwerken** inschakelt op de pagina **Microsoft Dynamics 365-verbinding instellen**.
 U kunt ook handmatig geactiveerde verkoopoffertes vanuit [!INCLUDE[crm_md](includes/crm_md.md)] converteren met de actie **Verwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)]** op de pagina **Verkoopoffertes - Dynamics 365 for Sales**.
 Voor deze verkoopoffertes wordt het veld **Naam** op de oorspronkelijke offerte overgebracht en toegewezen aan het veld **Extern documentnummer** op de verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Daarnaast wordt het veld **Geldig tot** in de offerte overgebracht naar en toegewezen aan het veld **Offerte geldig tot** in de verkoopofferte in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Verkoopoffertes doorlopen veel revisies terwijl ze worden afgerond. Zowel handmatige als automatische verwerking van verkoopoffertes in [!INCLUDE[d365fin](includes/d365fin_md.md)] zorgt ervoor dat vorige versies van verkoopoffertes worden gearchiveerd voordat nieuwe revisies van verkoopoffertes worden verwerkt vanuit [!INCLUDE[crm_md](includes/crm_md.md)]. 
+Verkoopoffertes doorlopen veel revisies terwijl ze worden afgerond. Zowel handmatige als automatische verwerking van verkoopoffertes in [!INCLUDE[d365fin](includes/d365fin_md.md)] zorgt ervoor dat vorige versies van verkoopoffertes worden gearchiveerd voordat nieuwe revisies van verkoopoffertes worden verwerkt vanuit [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Geboekte verkoopfacturen, klantbetalingen en statistieken verwerken
-Na het uitvoeren van verkooporders worden er facturen voor gemaakt. Als u een verkooporder factureert, kunt u geboekte verkoopfacturen aan [!INCLUDE[crm_md](includes/crm_md.md)] overdragen als u **Factuur maken in [!INCLUDE[crm_md](includes/crm_md.md)]** selecteert op de pagina van de geboekte verkoopfactuur. Geboekte facturen worden overgedragen aan [!INCLUDE[crm_md](includes/crm_md.md)] met de status **Gefactureerd**. Als de klantbetaling voor de verkoopfactuur is ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt de status van de verkoopfactuur gewijzigd in **Betaald**, met de statusreden ingesteld op **Gedeeltelijk**, indien gedeeltelijk betaald, of op **Volledig** indien geheel voldaan, wanneer u **Rekeningstatistiek bijwerken** uitvoert op de klantpagina in [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Rekeningstatistiek bijwerken** vernieuwt ook waarden zoals Saldo en Totale verkoop in het feitenblok [!INCLUDE[d365fin](includes/d365fin_md.md)]-rekeningstatistiek in [!INCLUDE[crm_md](includes/crm_md.md)].
-U kunt ook geplande taken (Klantstatistieken en GEBOEKTEVERKOOPFACTUUR-FACT) automatisch beide processen laten uitvoeren op de achtergrond. 
+Na het uitvoeren van een verkooporder worden er facturen voor gemaakt. Als u een verkooporder factureert, kunt u de geboekte verkoopfactuur aan [!INCLUDE[crm_md](includes/crm_md.md)] overdragen als u het selectievakje **Factuur maken in [!INCLUDE[crm_md](includes/crm_md.md)]** selecteert op de pagina **Geboekte verkoopfactuur**. Geboekte facturen worden overgedragen aan [!INCLUDE[crm_md](includes/crm_md.md)] met de status **Gefactureerd**.
+
+Als de klantbetaling voor de verkoopfactuur is ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt de status van de verkoopfactuur gewijzigd in **Betaald**, met de **statusreden** ingesteld op **Gedeeltelijk**, indien gedeeltelijk betaald, of op **Volledig** indien geheel voldaan, wanneer u de actie **Rekeningstatistiek bijwerken** kiest op de klantpagina in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De functie **Rekeningstatistiek bijwerken** vernieuwt ook waarden zoals de velden **Saldo** en **Totale verkoop** in het feitenblok **[!INCLUDE[d365fin](includes/d365fin_md.md)]-rekeningstatistiek** in [!INCLUDE[crm_md](includes/crm_md.md)]. U kunt ook de geplande taken, Klantstatistieken en GEBOEKTEVERKOOPFACTUUR-FACT, automatisch beide processen laten uitvoeren op de achtergrond.
 
 ## <a name="see-also"></a>Zie ook
-[Integratie voorbereiden van Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relatiebeheer](marketing-relationship-management.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  

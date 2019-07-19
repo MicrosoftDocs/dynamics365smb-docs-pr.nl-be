@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 0d6b83caf571b8d839ec8280aa833b3a8fa60b7f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0cbc025d5a1e3dca45cbe11cbee658357524aa60
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237722"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710923"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn. 
@@ -32,7 +32,7 @@ Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rappor
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Nulaangifte**|Selecteer deze optie als u geen handelstransacties met EU-landen/regio's hebt en een lege aangifte wilt versturen.|  
-    |**Gegevens van tegenpartij**|Schakel dit veld in om gegevens van de tegenpartij op te nemen in het Intrastat-bestand (nieuwe vereiste vanaf 2019). De gegevens van de tegenpartij die worden toegevoegd aan het bestand, zijn afkomstig uit **Land/regio van oorsprong** en **Partner-id** in het Intrastat-dagboek.|  
+    |**Gegevens van tegenpartij**|Schakel dit veld in om gegevens van de tegenpartij op te nemen in het Intrastat-bestand (nieuwe vereiste vanaf 2019). De gegevens van de tegenpartij die worden toegevoegd aan het bestand, zijn afkomstig uit de velden **Land/regio van oorsprong** en **Partner-id** in het Intrastat-dagboek.|  
     |**Ondernemingsnr./btw-nr.**|Voer het ondernemings- of btw-nummer in.|  
     
 4.  Kies de knop **OK**.  

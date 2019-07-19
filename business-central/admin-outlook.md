@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246754"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717596"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
 ## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
-Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing voor Outlook. In de begeleide instelling **Uw bedrijfsinbox instellen in Outlook** kunt u de verbinding instellen voor uzelf of voor uw organisatie. Als uw organisatie Office 365 gebruikt, moet u uw Office 365-gebruikersnaam en -wachtwoord opgeven. Als uw organisatie Office 365 niet gebruikt , moet u informatie opgeven over de Exchange Server die u gebruikt. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook.  
+Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing voor Outlook. In de begeleide instelling **Uw bedrijfsinbox instellen in Outlook** kunt u de verbinding instellen voor uzelf of voor uw organisatie, als uw organisatie Office 365 gebruikt. Geef gewoon uw Office 365-gebruikersnaam en -wachtwoord op. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook. Zie voor meer informatie [Minimumvereisten voor Outlook](product-requirements.md#outlook).  
 
 Wanneer u daarna Outlook start, wordt er een e-mailbericht van de Dynamics 365 Business Central-beheerder weergegeven. De nieuwe invoegtoepassingen zijn toegevoegd aan het Outlook-lint en in de Outlook-webapp ziet u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen direct boven of onder de hoofdtekst van het e-mailbericht. De invoegtoepassingen worden regelmatig bijgewerkt en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
@@ -50,7 +50,7 @@ In de invoegtoepassing Document Links kunt u acties wijzigen en uitvoeren met he
 ## <a name="adding-the-add-ins-manually"></a>Invoegtoepassingen handmatig toevoegen
 In sommige gevallen worden de invoegtoepassingen niet automatisch aan Outlook toegevoegd. Zelfs als u of een collega de begeleide instelling namens het bedrijf hebt uitgevoerd, is [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk niet zichtbaar in Outlook. Als u dit probleem tegenkomt, kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen handmatig toevoegen.  
 
-Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook Web Access in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
+Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open eenvoudigweg uw Outlook in een browser en voeg `/owa/#path=/options/manageapps` toe aan de URL in de adresbalk. Dit wordt de pagina **Invoegtoepassingen beheren**, waarin u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor uw Outlook kunt inschakelen. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar zijn.  
 
 U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt vermeld op de pagina **Invoegtoepassingen beheren**.  
 

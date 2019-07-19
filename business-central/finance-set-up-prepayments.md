@@ -5,19 +5,19 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77e53c7492a1c9ab5bd1e4d150b291ebd2b61917
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244711"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701164"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
 
-Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instellen in het grootboek en moet u nummerreeksen instellen voor de vooruitbetalingsdocumenten.  
+Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instellen in het grootboek en moet u nummerreeksen instellen voor de vooruitbetalingsdocumenten. U moet een account opgeven voor vooruitbetalingen met betrekking tot verkopen en een account voor vooruitbetalingen met betrekking tot aankopen. U kunt dezelfde boekingsrekeningen opgeven die moeten worden gebruikt voor alle vooruitbetalingen die betrekking hebben op alle algemene bedrijfsboekingsgroepen of algemene productboekingsgroepen, of u kunt specifieke accounts voor specifieke boekingsgroepen opgeven voor respectievelijk verkoop en inkoop. Dit is afhankelijk van de vereisten van uw bedrijf voor het bijhouden van vooruitbetalingen.  
 
 U kunt het percentage van het regelbedrag definiëren dat wordt gefactureerd voor een vooruitbetaling. Nadat u de instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt de bedragen op de factuur wijzigen zoals gewenst. U kunt bijvoorbeeld een totaalbedrag opgeven voor de hele order.  
 
@@ -33,7 +33,10 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
     - **Vooruitbetalingsrekening verkoop**  
     - **Vooruitbetalingsrekening inkoop**  
 
-Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u dat op de pagina **Grootboekrekeningoverzicht** doen.  
+> [!TIP]
+> Als u de velden niet kunt zien op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
+
+Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u de pagina **Grootboekrekeningoverzicht** openen vanuit het relevante rekeningveld.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Nummerreeks instellen voor vooruitbetalingsdocumenten  
 
@@ -50,7 +53,7 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
     - **Geboekte vooruitbetalingscreditnotanrs.**
 
 > [!NOTE]  
->  U kunt dezelfde nummerreeks gebruiken voor vooruitbetalingsnota's en normale facturen, of u kunt verschillende nummerreeksen gebruiken. Als u verschillende reeksen gebruikt, mogen deze elkaar niet overlappen omdat er geen nummers mogen zijn die in beide reeksen voorkomen.  
+> U kunt dezelfde nummerreeks gebruiken voor vooruitbetalingsnota's en normale facturen, of u kunt verschillende nummerreeksen gebruiken. Als u verschillende reeksen gebruikt, mogen deze elkaar niet overlappen omdat er geen nummers mogen zijn die in beide reeksen voorkomen.  
 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers  
 Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep.  
@@ -67,7 +70,9 @@ Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage i
 4. Herhaal de stappen voor andere voor klanten of leveranciers.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Bepalen welk vooruitbetalingspercentage de hoogste prioriteit heeft  
+
 Een order kan een vooruitbetalingspercentage hebben in de verkoopkop en een ander percentage voor de artikelen op de regels. Om te bepalen welk vooruitbetalingspercentage van toepassing is voor elke verkoopregel, zoekt het systeem voor elke verkoopregel in de volgende volgorde naar het vooruitbetalingspercentage. De eerste gevonden standaardwaarde wordt toegepast:  
+
 1. Een vooruitbetalingspercentage voor het artikel op de regel en de klant waarvoor de order is.  
 2. Een vooruitbetalingspercentage voor het artikel op de regel en de klantenprijsgroep waar de klant bij hoort.  
 3. Een vooruitbetalingspercentage voor het artikel op de regel voor alle klanten.  

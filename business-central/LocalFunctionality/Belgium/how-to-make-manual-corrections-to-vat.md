@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1c2a5f9eec99f7185f7284be1f91ebd8608898b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: eb4e69e31fb0a8f34f76d967c5a9701034d1dedf
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237706"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711031"
 ---
 # <a name="make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren
 U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.  
@@ -42,8 +42,8 @@ U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboe
     |Actie|Description|  
     |------------|---------------------------------------|  
     |**Gedetailleerd rapport**|Hiermee opent u het rapport **Btw-aangifte**. Zie Btw-aangifte voor meer informatie.|  
-    |**Formulier/Intervat-aangifte**|Hiermee opent u het rapport **Btw - Formulier**. Zie Btw - Formulier voor meer informatie.<br /><br /> Het rapport **Formulier/Intervat-aangifte** is gebaseerd op de btw-aangiftesjabloon die is gedefinieerd in de boekhoudinstellingen. Daarom kunnen er gegevens worden geëxporteerd die niet overeenkomen met wat op de pagina **Btw-aangiftevoorbeeld** wordt weergegeven.|  
-    |**Aangifteoverzichtsrapport**|Hiermee opent u het rapport **Btw-aangifteoverzicht**. Zie Btw-aangifteoverzicht voor meer informatie.|  
+    |**Formulier/Intervat-aangifte**|Hiermee opent u het rapport **Btw – Formulier**.<br /><br /> Het rapport **Formulier/Intervat-aangifte** is gebaseerd op de btw-aangiftesjabloon die is gedefinieerd in de boekhoudinstellingen. Daarom kunnen er gegevens worden geëxporteerd die niet overeenkomen met wat op de pagina **Btw-aangiftevoorbeeld** wordt weergegeven.|  
+    |**Aangifteoverzichtsrapport**|Hiermee opent u het rapport **Btw-aangifteoverzicht**.|  
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische btw](belgian-vat.md)   

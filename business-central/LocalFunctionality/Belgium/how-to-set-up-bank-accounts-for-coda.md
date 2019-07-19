@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 08b25897f22b126485e82c72e825505e697ddcfc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d31fac0bee141d580b1e3b5709efba59da8d6cec
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237708"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711017"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Bankrekeningen instellen voor CODA
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  
@@ -30,7 +30,7 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Kies de actie **Bewerken**.  
-3.  Vul in het sneltabblad **Boeking** de velden in, zoals in de volgende tabel is beschreven.  
+3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

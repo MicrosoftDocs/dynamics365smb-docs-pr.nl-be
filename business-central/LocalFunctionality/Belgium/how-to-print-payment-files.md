@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b93af32339383ad6f5f4ebd16c7eb0f729372b5f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 853daf678f818ee19d86b663ad2915c0090cd794
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237701"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711025"
 ---
 # <a name="print-payment-files"></a>Betalingsbestanden afdrukken
 Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand afdrukken.  
@@ -29,17 +29,17 @@ In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels in
 ## <a name="to-print-a-payment-file"></a>Een betalingsbestand afdrukken  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Vul op het sneltabblad **Opties** de velden in zoals in de volgende tabel wordt beschreven.  
+2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Batchnaam**|Geef de batchnaam van het betalingsdagboek op.|  
     |**Bankrekening**|Geef de bankrekening van het betalingsdagboek op.|  
-    |**Exportprotocol**|Geef de exportprotocolcode van de betalingsdagboekregel op. Exportprotocollen bepalen welk betalingsbestand in het betalingsdagboek wordt gegenereerd.<br /><br /> U kunt een combinatie van exportindelingen in één batch hebben, bijvoorbeeld binnenlandse, internationale en SEPA-betalingen. Wanneer u de betalingsregels naar een bestand exporteert, kunt u echter slechts één exportindeling, of exportprotocol, gebruiken. **Opmerking:** door het exportprotocol op te geven, geeft u ook het validatietype op dat wordt uitgevoerd in het betalingsdagboek.|  
+    |**Exportprotocol**|Geef de exportprotocolcode van de betalingsdagboekregel op. Exportprotocollen bepalen welk betalingsbestand in het betalingsdagboek wordt gegenereerd.<br /><br /> U kunt een combinatie van exportindelingen in één batch hebben, bijvoorbeeld binnenlandse, internationale en SEPA-betalingen. Wanneer u de betalingsregels naar een bestand exporteert, kunt u slechts één exportindeling, of exportprotocol, gebruiken. **Opmerking:** door het exportprotocol op te geven, geeft u ook het validatietype op dat wordt uitgevoerd in het betalingsdagboek.|  
 
 3.  Kies de actie **Betalingsregels controleren**.
 
-    De pagina **Logboeken voor controlefouten exporteren** bevat eventuele fouten die kunnen bestaan. Als er fouten zijn, moet u deze oplossen voordat u verder kunt gaan.
+    De pagina **Logboeken voor controlefouten exporteren** bevat eventuele fouten. Als er fouten zijn, moet u deze oplossen voordat u kunt doorgaan.
 
 4. Als er geen fouten zijn, kiest u de actie **Betalingsregels exporteren**.  
 

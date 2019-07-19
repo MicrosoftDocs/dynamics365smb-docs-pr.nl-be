@@ -4,20 +4,20 @@ description: Voordat u kunt beginnen met elektronisch bankieren voor domiciliër
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c88da9101f893e90e0e25c1ef40eebf1764ad3c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 04d90c72a48ec7f9f63ddfa7bb944296560d11d8
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237679"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711013"
 ---
 # <a name="set-up-domiciliations"></a>Domiciliëringen instellen
 Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven.  
@@ -29,7 +29,7 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de klant en kies vervolgens de actie **Bewerken**.  
-3.  Vul de velden op het sneltabblad **Betalingen** in zoals in de volgende tabel wordt beschreven.  
+3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

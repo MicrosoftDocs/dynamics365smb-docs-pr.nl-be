@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fae1e4edb37f64983e76f0a5d7158000f057d161
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0e0df0dc2ed18ad9df732389e88aa8a98eda2f30
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237746"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710997"
 ---
 # <a name="test-electronic-payments"></a>Elektronische betalingen testen
 > [!Note]
@@ -27,11 +27,11 @@ Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegen
 
 Hierbij wordt onder andere het volgende gevalideerd:  
 
-- Bankrekeningnummers zijn geldig.  
-- Positieve betalingsregels zijn aanwezig.  
+- Of bankrekeningnummers geldig zijn.  
+- Of positieve betalingsregels aanwezig zijn.  
 - Of binnenlandse en internationale betalingen via slechts één rekening worden uitgevoerd.  
-- Of slechts één bankrekening kan worden gebruikt voor Isabel.  
-- Of betalingsregels in euro's worden weergegeven voor SEPA.  
+- Of er slechts één bankrekening kan worden gebruikt voor Isabel (Interbanks Standards Association Belgium).  
+- Of betalingsregels in euro zijn voor SEPA (Single Euro Payments Area).  
 - Of er een nummerreeks voor SEPA is gedefinieerd.  
 
 U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exporteren**.  

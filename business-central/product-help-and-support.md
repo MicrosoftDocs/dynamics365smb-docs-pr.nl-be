@@ -1,18 +1,18 @@
 ---
 title: Help en ondersteuning
-description: Zoek resources voor producthelp, begeleiding en assistentie, en leer hoe u technische ondersteuning krijgt voor Business Central.
+description: Zoek producthelp, begeleiding en probleemoplossingstips, en leer hoe u technische ondersteuning krijgt voor Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253689"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726966"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -47,7 +47,7 @@ In het [Business Central-blog](https://community.dynamics.com/business/b/financi
 
 ### <a name="capabilities-coming-soon"></a>Mogelijkheden die binnenkort komen
 
-[!INCLUDE[prodshort](includes/prodshort.md)] wordt elke 6 maanden bijgewerkt met belangrijke functie-updates en met maandelijkse service-updates. Kies de koppeling om de recentste versienotities te bekijken. U kunt ook een overzicht krijgen van aankomende en recent vrijgegeven mogelijkheden in de versienotities in Dynamics 365 op [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] wordt elke 6 maanden bijgewerkt met belangrijke functie-updates en met maandelijkse service-updates. Kies de koppeling om het recentste versieplan te bekijken. U kunt ook een overzicht krijgen van aankomende en recent vrijgegeven mogelijkheden in het versieplan van Dynamics 365 op [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
 Voor het overzicht op de langere termijn bevat de [!INCLUDE[prodshort](includes/prodshort.md)] [routekaartpagina](https://dynamics.microsoft.com/roadmap/business-central/) de algemene prioriteiten voor [!INCLUDE[prodshort](includes/prodshort.md)] in de komende jaren.  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 62ffca9d0507e3cadaa79621d0d8a2c45a7af669
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ecb6422217697b0e8c7787c5e89bef2806172a2
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237661"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711015"
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Belgische tariefcodes instellen
 De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.  

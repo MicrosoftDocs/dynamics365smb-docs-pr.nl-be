@@ -1,26 +1,26 @@
 ---
 title: Domiciliëringsregels bewerken en verwijderen
-description: Nadat u domiciliëringsvoorstellen hebt gegenereerd, kunt u de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.
+description: Nadat u domiciliëringsvoorstellen hebt gegenereerd, wilt u wellicht de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d9f415b2cb4813728ec1f225b4dea410748c7646
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: fa33e69c6c223d827a9295ef3d149191cadaf8e5
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237657"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710940"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Domiciliëringsregels bewerken en verwijderen
-Nadat u domiciliëringsvoorstellen hebt gegenereerd, kunt u de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  
+Nadat u domiciliëringsvoorstellen hebt gegenereerd, wilt u wellicht de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  
 
 Nadat u de dagboekregels hebt gewijzigd, drukt u het rapport **Domiciliëringsdagboek - Test** af om alle regels te testen.  
 

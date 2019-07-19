@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9da5857c44690b9bee52d089f4237e6c0197089b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 13bf0975f6a551b3a0b818be3b86389c0cd86573
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237663"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711023"
 ---
 # <a name="print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken
 Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.  
@@ -27,7 +27,7 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
 ## <a name="to-print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat - Formulier** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Vul op het sneltabblad **Opties** de velden in zoals in de volgende tabel wordt beschreven.  
+2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

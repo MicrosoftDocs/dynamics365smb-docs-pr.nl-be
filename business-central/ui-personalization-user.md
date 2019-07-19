@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253735"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632741"
 ---
 # <a name="personalizing-your-workspace"></a>Het personaliseren van uw werkruimte
 
@@ -60,7 +60,7 @@ Afhankelijk van het soort pagina en wat de pagina bevat, kunt u verschillende di
 |Een veld weergeven in de kop van een sneltabblad wanneer dit is samengevouwen.|Selecteer de pijlpunt en kies <b>Weergeven wanneer samengevouwen</b>. <br /> <br />Als u deze optie niet ziet, is deze al ingesteld. In dit geval kunt u de weergave van het veld in de sneltabbladkop stoppen door <b>Altijd weergeven</b> te kiezen.|*Sneltabblad* is de term die wordt gebruikt voor een groep velden die onder een gezamenlijke kop worden weergegeven. Gebruik de optie <b>Weergeven wanneer samengevouwen</b> om de belangrijkste velden weer te geven. Als u een veld in de kop selecteert, wordt het sneltabblad geopend met de focus op het geselecteerde veld.<br /><br />Deze optie is alleen van toepassing als een pagina meerdere sneltabbladen bevat. Als er slechts één sneltabblad is, kan het niet worden samengevouwen, dus is de optie <b>Weergeven wanneer samengevouwen</b> niet beschikbaar.|
 |Een veld alleen-weergeven maken wanneer u **Meer tonen** selecteert.|Selecteer de pijlpunt en kies <b>Weergeven onder "Meer tonen"</b>. <br /> <br />Als u de optie <b>Weergeven onder "Meer tonen"</b> niet ziet, is deze al ingesteld. In dit geval kunt u een veld altijd laten weergeven, en niet alleen wanneer u **Meer tonen** selecteert, door <b>Altijd weergeven</b> te kiezen.||
 |Het bevroren deelvenster in een lijst in een andere kolom wijzigen. |Selecteer de pijlpunt van de kolom die u als laatste van het bevroren deelvenster hebben wilt, en kies vervolgens <b>Bevroren deelvenster instellen</b>.<br /><br/>Als u het bevroren deelvenster terug wilt verplaatsen naar de oorspronkelijke locatie waarvoor het bestemd was, selecteert u de pijlpunt voor de kolom met het huidige bevroren deelvenster en kiest u <b>Bevroren deelvenster wissen</b>. Opmerking: u kunt dit bevroren deelvenster niet verwijderen.|Het bevroren deelvenster geeft de kolommen aan die altijd links worden weergegeven, zelfs als u horizontaal schuift.|  
-|De breedte van een kolom wijzigen.|Versleep in de tabelkoprij de rechterrand van de kolom. <br /><br />Als u de kolombreedte wilt maximaliseren om de langste regel van tekst in de kolom in te passen, dubbelklikt u op de juiste rand.||
+|De breedte van een kolom wijzigen.|Versleep de grens tussen kolommen in de kop van de lijst. <br /><br />U kunt dubbelklikken op de grens tussen kolomkoppen om de grootte automatisch te laten aanpassen, waarmee de breedte op een comfortabel formaat wordt ingesteld voor leesbaarheid.||
 |Een veld overslaan wanneer u op Enter drukt.|Selecteer de pijlpunt naast het veld of de kolomkop in een lijst en kies **Uitsluiten van snelinvoer**. <br /><br /> Als u deze optie niet ziet, is het veld al ingesteld om te worden overgeslagen. In dit geval kunt u het overslaan van het veld stoppen door **Opnemen in snelinvoer** te kiezen. |Zie [Gegevensinvoer versnellen met snelinvoer](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Acties personaliseren

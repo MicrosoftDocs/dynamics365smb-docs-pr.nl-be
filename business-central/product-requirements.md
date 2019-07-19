@@ -1,6 +1,6 @@
 ---
 title: Minimale vereisten voor het gebruik van Business Central | Microsoft Docs
-description: Lees de minimale systeemvereisten en versievereisten voor het gebruik van Business Central.
+description: Lees de minimale systeemvereisten en versievereisten voor het gebruik van Business Central online.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dff8f2e677c49f089ec2b7ee01dc1565ee4aa261
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252930"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711049"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
-Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
+Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
 
 ## <a name="browsers"></a>Browsers
 **Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers.  
@@ -33,13 +33,17 @@ Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] opent, is het raadzaam dat
 **Apparaatgrootte:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt ondersteund op smartphones met een minimale schermgrootte van 4” en tablets met een minimale schermgrootte van 7”.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-toepassingen:** als u [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox in Outlook wilt gebruiken, hebt u Outlook 2016 of later, Outlook-webapp, OWA voor iPhone, OWA voor iPad of OWA voor Android nodig.  
+**Outlook-toepassingen:** als u [!INCLUDE[d365fin](includes/d365fin_md.md)] online als uw bedrijfsinbox in Outlook wilt gebruiken, hebt u Outlook 2016 of later, Outlook-webapp, OWA voor iPhone, OWA voor iPad of OWA voor Android nodig. Uw organisatie moet ook Office 365 gebruiken. U kunt [!INCLUDE [prodshort](includes/prodshort.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt.  
 **Browsers:** wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruikt in de Outlook-webapp (OWA), vereist de invoegtoepassing dat uw computer een van de eerder in dit artikel vermelde ondersteunde browsers gebruikt.  
 **Platforms:** wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-invoegtoepassing in OWA voor iPhone, OWA voor iPad en OWA voor Android gebruikt, vereist de invoegtoepassing dat uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
 
 ## <a name="excel"></a>Excel
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[d365fin](includes/d365fin_md.md)] terug te sturen, hebt u Excel 2016 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
+## <a name="using-business-central-on-premises"></a>Business Central on-premises gebruiken
+
+Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
-[Systeemvereisten voor Dynamics 365 Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
+[Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

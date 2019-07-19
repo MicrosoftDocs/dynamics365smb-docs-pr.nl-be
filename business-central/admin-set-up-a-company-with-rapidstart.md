@@ -1,8 +1,6 @@
 ---
 title: Een bedrijfsconfiguratie instellen met RapidStart Services | Microsoft Docs
 description: U kunt een nieuw bedrijf instellen in Business Central met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1e7976e19641bd49c1c1d94a31de902aea1a9769
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244337"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726940"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Een bedrijf instellen met RapidStart Services
 U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.  
@@ -39,7 +37,6 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|De hoofdgebruikersinterface van RapidStart Services instellen.|[Het rolcentrum RapidStart Services-implementatie gebruiken](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Maak een nieuw bedrijf en importeer basisinstellingsgegevens en sjablonen.|[Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)|  
 |Installeer het geconfigureerde pakket voor uw klant voor implementatie.|[Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)|
 |Definieer en valideer de instellingswaarden van de klant voor al uw kerngebieden, zoals bedrijfsgegevens grootboek, verkoop of productie.|[Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)|  

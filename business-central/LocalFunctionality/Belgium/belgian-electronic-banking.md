@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4afcb91bbdc3f05fb42b86d4160276cd69ed09c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7beb778bdef0f8a77dad4d7461c9a089541e1eb3
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237753"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710961"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
 > [!Note]
@@ -27,9 +27,9 @@ Met elektronisch bankieren kunt u elektronisch gegevens uitwisselen met Belgisch
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronisch bankieren gebruiken om de volgende functies uit te voeren:  
 
-- Elektronische betalingen verzenden  
-- Bankafschriften met CODA verwerken  
-- Incassobetalingen verwerken met domiciliëringen  
+- Elektronische betalingen verzenden.  
+- Bankafschriften met CODA verwerken.  
+- Incassobetalingen verwerken met domiciliëringen.  
 
 ## <a name="see-also"></a>Zie ook  
 [Belgische lokale functionaliteit](belgium-local-functionality.md)  

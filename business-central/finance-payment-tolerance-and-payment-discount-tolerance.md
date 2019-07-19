@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242480"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629723"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 U kunt een betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt. U kunt een contantkortingstolerantie instellen om een contantkorting te verlenen nadat de datum van de betalingskorting is verstreken.  
@@ -218,7 +218,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Meerdere betalingstolerantieregels 2")  
+![Meerdere betalingstolerantieregels 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Meerdere betalingstolerantieregels 2")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -229,7 +229,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Meerdere betalingstolerantieregels 3")  
+![Meerdere betalingstolerantieregels 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Meerdere betalingstolerantieregels 3")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 

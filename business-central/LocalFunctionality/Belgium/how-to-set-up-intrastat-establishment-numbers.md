@@ -4,20 +4,20 @@ description: Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt a
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 691713084a068c261c207cd748f8bc4b36fb352e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2ed104b50e099cff11afe7b798a1264082ff96a2
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237716"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711005"
 ---
 # <a name="set-up-intrastat-establishment-numbers"></a>Intrastat-nummers instellen
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  
@@ -25,7 +25,7 @@ Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op d
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Een Intrastat-nummer instellen  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Voer op het sneltabblad **Overig** in het veld **Intrastat-nr.** het Intrastat-nummer in. invoeren.  
+2.  Voer in het veld **Intrastat-nr.** het Intrastat-nummer in. invoeren.  
 3.  Kies de knop **OK**.  
   
 ## <a name="see-also"></a>Zie ook  

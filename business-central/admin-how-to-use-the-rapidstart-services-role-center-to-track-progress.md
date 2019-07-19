@@ -1,8 +1,6 @@
 ---
 title: Het rolcentrum RapidStart Services-implementatie gebruiken | Microsoft Docs
 description: Wanneer u RapidStart Services gebruikt, is het raadzaam dat u uw werk bijhoudt en het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+ROBOTS: NOINDEX
+ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245178"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726918"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Het rolcentrum RapidStart Services-implementatie gebruiken
 Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie [Rolcentrum wijzigen](ui-change-basic-settings.md#to-change-role-center) voor meer informatie.

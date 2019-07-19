@@ -4,20 +4,20 @@ description: Als u leveranciersbetalingen elektronisch wilt verzenden in de beta
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 070f9cf19a9e85d8da5b352d319b347b88ddd885
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8bbaf7d8fcbd50bde8aed57c4b602b56f64d8f5b
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237712"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710952"
 ---
 # <a name="activate-sepa-payments"></a>SEPA-betalingen activeren
 Als u leveranciersbetalingen elektronisch wilt verzenden in de betalingsindeling SEPA (Single Euro Payments Area) ISO 20022, moet u eerst de vereiste instellingen aanbrengen voor het activeren van SEPA-betalingen.  
@@ -35,21 +35,21 @@ In de volgende procedures wordt beschreven hoe u SEPA-betaling inschakelt en lev
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de bankrekening die u wilt activeren voor SEPA en kies vervolgens de actie **Bewerken**.  
-3.  Selecteer in het veld **Land-/regiocode** van het sneltabblad **Algemeen** de gewenste code.  
+3.  Kies de juiste redencode in het veld **Land-/regiocode**.  
 
     > [!NOTE]  
     >  De opgegeven land-/regiocode moet zijn geactiveerd voor SEPA, zoals is beschreven in de vorige procedure.  
 
 4.  Geef een waarde op in het veld **Minimumsaldo**.  
-5.  Geef in het veld **SWIFT-code** van het sneltabblad **Transfer** een code op.  
-6.  Kies de knop **OK**.  
+5.  Voer in het veld **SWIFT-code** een code in.  
+6.  Kies de knop **Ok**.  
 
 ## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a>Bankrekeningen van leveranciers instellen voor SEPA  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de betreffende leverancier en kies vervolgens de actie **Bankrekeningen**.  
-3.  Selecteer de bankrekening van een leverancier die u wilt instellen voor SEPA, en kies vervolgens **Bewerken**.  
-4.  Geef in de velden **IBAN** en **SWIFT-code** van het sneltabblad **Transfer** de internationale bankidentificatiecode op van de bank waarbij de leverancier de rekening heeft.  
+3.  Selecteer de bankrekening van de leverancier die u wilt instellen voor SEPA, en kies vervolgens de actie **Bewerken**.  
+4.  Voer in de velden **IBAN** en **SWIFT-code** van het sneltabblad Transfer de internationale bankidentificatiecode in van de bank waarbij de leverancier de rekening heeft.  
 5.  Kies de knop **OK**.  
 
 ## <a name="see-also"></a>Zie ook  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540235"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629631"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Gegevens synchroniseren in Business Central en Dynamics 365 for Sales
 Wanneer u [!INCLUDE[crm_md](includes/crm_md.md)] met [!INCLUDE[d365fin](includes/d365fin_md.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type record kunt u gegevens vanuit [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met [!INCLUDE[d365fin](includes/d365fin_md.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -77,7 +77,7 @@ De volgende tabel bevat toewijzingen van [!INCLUDE[d365fin](includes/d365fin_md.
 De volgende tabel beschrijft regels die de synchronisatie tussen de apps bepalen.
 
 > [!NOTE]  
-> Wijzigingen in gegevens in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gemaakt door het gebruikersaccount van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding worden niet gesynchroniseerd. Daarom raden we aan dat u geen gegevens wijzigt terwijl u dat account gebruikt. Zie voor meer informatie [Integratie met Dynamics 365 for Sales instellen](admin-setting-up-integration-with-dynamics-sales.md).
+> Wijzigingen in gegevens in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gemaakt door het gebruikersaccount van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding worden niet gesynchroniseerd. Daarom raden we aan dat u geen gegevens wijzigt terwijl u dat account gebruikt. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Tafel|Regel|
 |-----|----|

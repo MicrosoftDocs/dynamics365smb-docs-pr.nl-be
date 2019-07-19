@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e85b3b167e165a3e57504efa8544a5c5ab573fa3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d49d3cac2ecd2a32d4d30ef89e3571fefdfd5acc
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237796"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711011"
 ---
 # <a name="set-up-electronic-banking"></a>Elektronisch bankieren instellen
 > [!Note]
@@ -25,11 +25,13 @@ ms.locfileid: "1237796"
 
 Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden.  
 
-Uw bedrijf sluit een overeenkomst voor eBanking met de bank om een bepaalde bankrekening of verschillende bankrekeningen te gebruiken. Het bedrijf abonneert zich daarnaast op Isabel om via elektronische weg betalingsbestanden te verzenden naar en bankafschriftbestanden te ontvangen van de bank. Het bedrijf ontvangt smartcards die aan het eBanking-contract zijn gekoppeld. De smartcards zijn met pincodes beveiligd.  
+Uw bedrijf sluit een overeenkomst voor eBanking met de bank om een bepaalde bankrekening of verschillende bankrekeningen te gebruiken. Het bedrijf abonneert zich daarnaast op Isabel (Interbanks Standards Association Belgium) om via elektronische weg betalingsbestanden te verzenden naar en bankafschriftbestanden te ontvangen van de bank. Het bedrijf ontvangt smartcards die aan het eBanking-contract zijn gekoppeld. De smartcards zijn met pincodes beveiligd.  
 
-U ontvangt een van deze smartcards om verbinding met IBS te maken, zodat u bent verbonden met eBanking-contract van het bedrijf.  
+U ontvangt een van deze smartcards om verbinding met IBS te maken, zodat u bent verbonden met eBanking-contract van het bedrijf.
 
-Als u bestanden wilt uploaden naar of downloaden van het IBS-platform, plaatst u de smartcard in de kaartlezer en gebruikt u een pincode om verbinding met IBS te maken. Wanneer de IBS-sessie is ingesteld, zijn het eBanking-contract en de eBanking-gebruiker bekend bij het systeem. Ook de aan het eBanking-contract en de gebruiker gekoppelde bankrekeningnummers zijn bekend.  
+Als u bestanden wilt uploaden naar of downloaden van het IBS-platform, plaatst u de smartcard in de kaartlezer en gebruikt u een pincode om verbinding met IBS te maken. Wanneer de IBS-sessie is ingesteld, zijn het eBanking-contract en de eBanking-gebruiker bekend bij het systeem. De aan het eBanking-contract en de gebruiker gekoppelde bankrekeningnummers zijn ook bekend.  
+
+<In last sentence paragraph above, change "user linked bank account numbers" to "the user's linked bank account numbers"   -->
 
 Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens instellen:  
 
@@ -39,7 +41,7 @@ Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens in
 ## <a name="to-set-up-electronic-banking"></a>Elektronisch bankieren instellen  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Elektronisch bankieren instellen** in en klik op de gerelateerde koppeling.  
-2.  Vul op de pagina **Elektronisch bankieren instellen** op het sneltabblad **Algemeen** de velden in zoals wordt beschreven in de volgende tabel.   
+2.  Vul op de pagina **Elektronisch bankieren instellen** de velden in zoals wordt beschreven in de volgende tabel.   
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -50,21 +52,21 @@ Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens in
     |**Taal**|Geef de taal op die u voor saldo- en transactieberichten wilt gebruiken voor elektronisch bankieren.|  
     |**IBS-serviceversie**|Geef de serviceversie op waarmee wordt gecommuniceerd met de Isabel-server.|  
 
-3.  Vul op het sneltabblad **Uploaden** de velden in zoals in de volgende tabel wordt beschreven.   
+3.  Vul de velden in zoals beschreven in de volgende tabel.   
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Uploadintegratiemodus**|Geef de modus op waarin u inhoud naar de Isabel-server wilt uploaden. U kunt kiezen uit de integratiemodusopties **Met toezicht** en **Handmatig**. Als de integratiemodus is ingesteld op **Met toezicht**, moet u het veld **IBS-versie** instellen op **6**. De posten in de tabel **IBS-logboek** worden gemaakt wanneer er betalingsbestanden worden gegenereerd. Als de integratiemodus is ingesteld op **Handmatig**, moet u zich handmatig aanmelden bij de Isabel-server en worden er geen logposten gemaakt.|  
     |**Uploadpad**|Geef het pad op naar de map waarin de bestanden worden opgeslagen tijdens het uploaden.|  
 
-4.  Vul op het sneltabblad **Downloaden** de velden in zoals in de volgende tabel wordt beschreven.   
+4.  Vul de velden in zoals beschreven in de volgende tabel.   
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Downloadintegratiemodus**|Geef de modus op waarin u inhoud naar de Isabel-server wilt downloaden. U kunt kiezen uit de opties **Met toezicht** en **Handmatig**. Als de integratiemodus is ingesteld op **Met toezicht**, moet u het veld **IBS-versie** instellen op **6**. De posten in de tabel **IBS-logboek** worden gemaakt wanneer de download wordt uitgevoerd. Als de integratiemodus is ingesteld op **Handmatig**, moet u zich handmatig aanmelden bij de Isabel-server en worden er geen logposten gemaakt.|  
     |**Downloadpad**|Geef het pad op naar de map waarin de bestanden worden opgeslagen tijdens het downloaden.|  
 
-5.  Vul op het sneltabblad **Nummering** de velden in zoals in de volgende tabel wordt omschreven.   
+5.  Vul de velden in zoals beschreven in de volgende tabel.   
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -85,4 +87,3 @@ Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens in
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md) [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md)
- 

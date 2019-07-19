@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: bholtorf
-ms.openlocfilehash: bbe5041f853af9d58149d446627b0b21fa0e0f12
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: bcdc6b0de1f9d0185afa7db86335fb132fd7f67b
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540258"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726825"
 ---
 # <a name="integrating-with-dynamics-365-for-sales"></a>Integreren met Dynamics 365 for Sales
 De functie van verkoper wordt vaak beschouwd als een van de meest naar buiten gerichte taken in een bedrijf. Het kan voor verkopers echter handig zijn in het bedrijf te kunnen kijken en te zien wat er bij de backend gebeurt. Door [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] te integreren kunt u uw verkopers dat inzicht geven door ze informatie in [!INCLUDE[d365fin](includes/d365fin_md.md)] te laten zien terwijl ze werken in [!INCLUDE[crm_md](includes/crm_md.md)]. Bijvoorbeeld, tijdens het voorbereiden van een verkoopofferte kan het handig zijn om te weten of u voldoende voorraad hebt om de order te kunnen vervullen. Zie voor meer informatie [Dynamics 365 for Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md).
 
-> [!Note]
-> Deze stappen beschrijven de integratie van online versies van [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]
+> Deze stappen beschrijven de integratie van de online versies van [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor informatie over on-premises configuratie [Dynamics 365 for Sales voorbereiden voor on-premises integratie](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 <!--## Software Requirements
 You must have an Office 365 subscription, and both [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] must be part of the same organization.  -->
@@ -34,7 +34,7 @@ De volgende stappen geven een overzicht van de stappen om [!INCLUDE[crm_md](incl
 > [!Note]  
 > Deze taken vereisen de beveiligingsrol **Systeembeheerder** in [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Stel in het Office 365-beheercentrum een gebruikersaccount in voor de verbinding met en synchronisatie van gegevens met [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie met Dynamics 365 for Sales instellen](admin-setting-up-integration-with-dynamics-sales.md).
+1. Stel in het Office 365-beheercentrum een gebruikersaccount in voor de verbinding met en synchronisatie van gegevens met [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Wijs licenties voor [!INCLUDE[crm_md](includes/crm_md.md)] toe aan de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die de geïntegreerde apps zullen gebruiken.
 
@@ -47,12 +47,12 @@ De volgende stappen geven een overzicht van de stappen om [!INCLUDE[crm_md](incl
 ## <a name="about-the-business-central-integration-solution"></a>Over de Business Central-integratieoplossing
 Met de oplossing kunnen gebruikers informatie bekijken in [!INCLUDE[d365fin](includes/d365fin_md.md)] terwijl ze werken in [!INCLUDE[crm_md](includes/crm_md.md)]. De oplossing geeft bijvoorbeeld inzicht in klantstatistieken, biedt gebruikers de mogelijkheid records in [!INCLUDE[d365fin](includes/d365fin_md.md)] te koppelen en weer te geven uit [!INCLUDE[crm_md](includes/crm_md.md)] en laat gebruikers zien of producten beschikbaar zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Standaard importeert de begeleide instelling Dynamics 365 for Sales-verbinding instellen de [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratieoplossing. De begeleide instelling gebruikt daarvoor een beheerdersaccount. Dit account moet ook een geldige gebruiker in [!INCLUDE[crm_md](includes/crm_md.md)] zijn met de volgende beveiligingsrollen:
+Standaard importeert de begeleide instelling **Dynamics 365 for Sales-verbinding instellen** de [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratieoplossing. De begeleide instelling gebruikt daarvoor een beheerdersaccount. Dit account moet ook een geldige gebruiker in [!INCLUDE[crm_md](includes/crm_md.md)] zijn met de volgende beveiligingsrollen:
 
 * Systeembeheerder  
 * Oplossingsaanpasser  
 
-Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md), [Gebruikers maken in Microsoft Dynamics 365 (online) en beveiligingsrollen toewijzen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles.md) en [Gebruikers en machtigingen beheren](ui-how-users-permissions.md).  
+Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md), [Gebruikers maken in Microsoft Dynamics 365 (online) en beveiligingsrollen toewijzen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) en [Gebruikers en machtigingen beheren](ui-how-users-permissions.md).  
 
 Dit account wordt slechts eenmaal gebruikt tijdens het instellen. Nadat de oplossing is geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)], is het account niet meer nodig. Integratie gaat door met het gebruikersaccount te gebruiken dat specifiek voor de integratie is gemaakt.
 
@@ -62,9 +62,12 @@ Naast het aanpassen van [!INCLUDE[crm_md](includes/crm_md.md)] maakt de [!INCLUD
 * **Integratiegebruiker** - Geeft gebruikers toegang tot gesynchroniseerde gegevens. Meestal toegewezen aan het gebruikersaccount voor synchronisatie en een andere gebruiker die de gesynchroniseerde gegevens moet bekijken of openen.
 * **Gebruiker van productbeschikbaarheid** - Biedt gebruikers de mogelijkheid productbeschikbaarheid in [!INCLUDE[d365fin](includes/d365fin_md.md)] op te vragen vanuit [!INCLUDE[crm_md](includes/crm_md.md)].
 
+Zie voor informatie over elke rol, zoals de machtigingen en toegangsniveaus, [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+
 Aan het eind van de begeleide instelling vraagt [!INCLUDE[d365fin](includes/d365fin_md.md)] u verkopers te koppelen aan gebruikers [!INCLUDE[crm_md](includes/crm_md.md)]. Aan records in [!INCLUDE[crm_md](includes/crm_md.md)] wordt gewoonlijk een eigenaar (gebruiker) toegewezen en als er geen koppeling bestaat tussen de gebruiker in [!INCLUDE[crm_md](includes/crm_md.md)] en de verkoper in [!INCLUDE[d365fin](includes/d365fin_md.md)], mislukt de synchronisatie. U kunt dit ook later doen door de actie **Verkopers koppelen** te gebruiken op de pagina **Microsoft Dynamics 365-verbinding instellen**.
 
 ## <a name="see-also"></a>Zie ook  
 [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Een verbinding instellen met Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-[Business Central en Dynamics 365 for Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)
+[Een verbinding instellen met Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Business Central en Dynamics 365 for Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)  
+[Dynamics 365 for Sales voorbereiden voor on-premises integratie](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)

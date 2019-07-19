@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254057"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701210"
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
@@ -30,9 +30,9 @@ U kunt met twee soorten cheques betalen. Voor beide soorten moet het veld **Tege
 > [!NOTE]  
 > Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. Zie voor meer informatie [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md).
 
-De printer moet correct zijn ingesteld op het afdrukken van chequeformulieren en u moet bepalen welke indeling wordt gebruikt. Zie voor meer informatie [Cheque-indelingen definiëren](finance-how-define-check-layouts.md)
+De printer moet correct zijn ingesteld op het afdrukken van chequeformulieren en u moet bepalen welke indeling wordt gebruikt. Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)
 
-U kunt maximaal 10 facturen op een pagina voor een chequestrook afdrukken. Als een cheque betrekking heeft op meer dan 10 facturen en u de strook afdrukt, maken we de cheque ongeldig op de eerste pagina en drukken we het woord VERNIETIGD op de cheque af. We drukken vervolgens de rest van de facturen en het totale chequebedrag op de tweede pagina af. 
+U kunt maximaal 10 facturen op een pagina voor een chequestrook afdrukken. Als een cheque betrekking heeft op meer dan 10 facturen en u de strook afdrukt, maken we de cheque ongeldig op de eerste pagina en drukken we het woord VERNIETIGD op de cheque af. We drukken vervolgens de rest van de facturen en het totale chequebedrag op de tweede pagina af.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Een leverancier betalen met een automatische cheque
 Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.

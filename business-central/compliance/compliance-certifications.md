@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 297b5f2f7a1310395debd44a229e9c7c52cace45
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b18fa9511d8d79a2954dca57250a04905e5d0efa
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244525"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717619"
 ---
 # <a name="certifications"></a>Certificeringen  
 Deze inhoud bevat informatie over certificeringen in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 ## <a name="country-certifications-and-accreditations"></a>Certificeringen en accrediteringen in landen
 In sommige landen moet boekhoudsoftware worden gecertificeerd om te voldoen aan lokale belastingregelgeving en financiële vereisten. In sommige landen is dit een jaarlijkse vereiste en in andere landen moet hier eenmalig aan worden voldaan. Hieronder vindt u een overzicht van de huidige landen waar Business Central certificatie heeft verkregen. Slechts enkele landen hebben deze vereiste.  
-- Frankrijk (certificering van belastingcontrole)
+- Frankrijk (certificering van belastingcontrole) [(koppeling naar certificering in het Frans)](https://services.infocert.org/certificats/CERTIF-07-181-R16.pdf) 
 - Duitsland (inclusief Oostenrijk en Zwitserland) [(koppeling naar certificering in het Duits)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  

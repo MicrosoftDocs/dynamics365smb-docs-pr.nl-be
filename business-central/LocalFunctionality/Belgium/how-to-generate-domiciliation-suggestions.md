@@ -1,27 +1,27 @@
 ---
 title: Domiciliëringsvoorstellen genereren
-description: Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. U kunt alleen domiciliëringsvoorstellen voor binnenlandse klanten maken.
+description: Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. U kunt domiciliëringsvoorstellen alleen voor binnenlandse klanten maken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9813ad254313444b8cfc25d70b518a341b497003
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 83158cc4a53bbd0f280ceebde5cb5b2e28ada124
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237654"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710932"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren
-Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u alleen domiciliëringsvoorstellen voor binnenlandse klanten maken.  
+Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u domiciliëringsvoorstellen alleen voor binnenlandse klanten maken.  
 
 ## <a name="to-generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Domiciliëringen voorstellen**.  
-3.  Vul op het sneltabblad **Opties** de velden in zoals in de volgende tabel wordt weergegeven.  
+3.  Vul de velden in zoals weergegeven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -31,8 +31,8 @@ Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van dom
     |**Mogelijke terugbetalingen selecteren**|Selecteer deze optie als in de batchverwerking terugbetalingen moeten worden opgenomen.|  
     |**Boekingsdatum**|Typ de datum die als boekingsdatum verschijnt op de regels die tijdens de batchverwerking in het domiciliëringsdagboek worden ingevoegd.|  
 
-4.  Voer desgewenst extra filtercriteria in op het sneltabblad **Klant**.  
-5.  Kies de knop **OK**.  
+4.  Voer aanvullende filtercriteria in.  
+5.  Kies de knop **Ok**.  
 
 Wanneer de batchverwerking is uitgevoerd, bevat het domiciliëringsdagboek alle openstaande klantenposten die overeenkomen met de filters.  
 

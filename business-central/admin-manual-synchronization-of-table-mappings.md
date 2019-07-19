@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245743"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629562"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Handmatig tabeltoewijzingen synchroniseren
 Een toewijzing van een integratietabel koppelt een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel (recordtype), zoals een klant, aan een [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit, zoals een rekening. Als een integratietabeltoewijzing wordt gesynchroniseerd, kunt u gegevens in alle records van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en de [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit die zijn gekoppeld, synchroniseren. Bovendien kan synchronisatie, afhankelijk van de configuratie van de tabelkoppeling, nieuwe records maken en koppelen in de doeloplossing voor ongekoppelde records in de bron.  
@@ -95,4 +95,4 @@ Door de integratietabeltoewijzing vooraf te wijzigen kunt u de synchronisatietaa
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevens synchroniseren in Business Central en Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Dynamics 365 for Sales-integratie instellen in Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

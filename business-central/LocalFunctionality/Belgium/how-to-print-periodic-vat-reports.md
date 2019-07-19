@@ -1,6 +1,6 @@
 ---
 title: Periodieke btw-rapporten afdrukken
-description: Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen.
+description: Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet drie btw-rapporten aan de Belgische belastingdienst versturen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239be4c0307857e2e9fa53aa2fe48afb4813ae9e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5e49018448335de85a1c090962cc31903684aa3a
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237724"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711019"
 ---
 # <a name="print-periodic-vat-reports"></a>Periodieke btw-rapporten afdrukken
 Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen:  
@@ -35,7 +35,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
     |------------------------------------|---------------------------------------|  
     |**Verkeerd ondernemingsnr.**|Hiermee wordt opgegeven of u het rapport wilt afdrukken dat de verkeerde ondernemingsnummers bevat.|  
     |**Jaarlijkse btw-lijst**|Hiermee wordt opgegeven of u het rapport **Jaarlijkse btw-lijst** wilt afdrukken.|  
-    |**Jaar**|Voer het jaar in van de periode waarvoor u het rapport wilt afdrukken. U moet het jaar als 4-cijferige code invoeren. Als u bijvoorbeeld een aangifte voor 2013 wilt afdrukken, moet u '2013' invoeren (en niet '13').|  
+    |**Jaar**|Voer het jaar in van de periode waarvoor u het rapport wilt afdrukken. U moet het jaar als viercijferige code invoeren. Als u bijvoorbeeld een aangifte voor 2013 wilt afdrukken, moet u '2013' invoeren (en niet '13').|  
     |**Minimumbedrag**|Voer het minimale jaarsaldo van de klant in dat u in het rapport wilt opnemen. Als het jaarlijkse saldo van de klant minder is dan het minimumbedrag, wordt de klant niet opgenomen in de aangifte.|  
     |**Klanten opnemen uit**|Selecteer deze optie om alle klanten uit EU-landen/regio's of een bepaald land of bepaalde regio in het rapport op te nemen.|  
     |**Land/regio**|Selecteer het land of regio die in het rapport moet worden opgenomen.|  
@@ -49,7 +49,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Jaar**|Voer het jaar van de btw-aangifte in. U moet het jaar als 4-cijferige code invoeren. Als u bijvoorbeeld een aangifte voor 2013 wilt afdrukken, moet u '2013' invoeren (en niet '13').|  
+    |**Jaar**|Voer het jaar van de btw-aangifte in. U moet het jaar als viercijferige code invoeren. Als u bijvoorbeeld een aangifte voor 2013 wilt afdrukken, moet u '2013' invoeren (en niet '13').|  
     |**Minimum**|Voer het minimale jaarsaldo van de klant in dat u in het rapport wilt opnemen.<br /><br /> Als het jaarlijkse saldo van de klant minder is dan het minimumbedrag, wordt de klant niet opgenomen in de aangifte.|  
     |**Testaangifte**|Hiermee wordt opgegeven of u een testaangifte wilt maken.<br /><br /> Als dit is ingeschakeld, wordt een kenmerktest naar het bestand geschreven dat de waarde 1 gebruikt, wat aangeeft dat dit een testbestand is. Als u het XML-bestand wilt testen voordat het wordt verzonden, kunt u het bestand naar de Intervat-site uploaden. Het bestand wordt dan gevalideerd zonder te worden opgeslagen op de server en u ontvangt een bericht als het bestand geldig is. Ook wordt het unieke volgnummer in het XML-bestand niet verhoogd wanneer een testaangifte wordt gemaakt, wat betekent dat u zoveel interne testaangiftes kunt maken als u wilt.|  
     |**Vertegenwoordiger toevoegen**|Hiermee wordt opgegeven of u de vertegenwoordiger van de btw-aangifte wilt opnemen.<br /><br /> Een vertegenwoordiger is een persoon of een bureau dat geautoriseerd is om een btw-aangifte voor uw bedrijf te maken.|  

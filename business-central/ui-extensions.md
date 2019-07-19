@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621126"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629884"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
@@ -48,24 +48,28 @@ Sommige extensies worden verstrekt door Microsoft en andere extensies worden ver
 
 Microsoft biedt de volgende extensies:  
 
-* [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)  
-* [Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
-* [Quickbooks-salarisbestand importeren](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)  
-* [Accountantportal](ui-extensions-accountant-portal.md)  
-* [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)  
-* [Betalingen en afstemmingen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5-gegevensmigratie](ui-extensions-c5-data-migration.md)  
-* [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)  
-* [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md  )
-* [Afdrachtsadvies verzenden](ui-extensions-send-remittance-advice.md)
+* [Accountantportal voor Business Central](ui-extensions-accountant-portal.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)
+* [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
+* [Intelligente cloud](ui-extensions-data-replication.md)
+* [Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)
+* [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks-salarisbestand importeren](ui-extensions-quickbooks-payroll.md)
+* [Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5-gegevensmigratie](ui-extensions-c5-data-migration.md)
+* [DK - Betalingen en afstemmingen](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Belastingbestandsindelingen](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io postcodes van het Verenigd Koninkrijk](ui-extensions-getaddressio.md)
+* [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
+* [Extensies voor Business Central van andere providers](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
@@ -73,7 +77,7 @@ Microsoft biedt de volgende extensies:
 ## <a name="see-also"></a>Zie ook
 [Dynamics 365 Business Central uitbreiden](about-develop-extensions.md)  
 [Extensies voor Business Central van andere providers](ui-extensions-other.md)  
-[De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)  
+[De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)  
 [Klantbetalingen inschakelen via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Bedrijfsgegevens migreren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [De extensie GetAddress.io UK Postcode instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

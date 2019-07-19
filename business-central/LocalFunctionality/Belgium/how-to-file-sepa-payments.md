@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e24b63e60bbaea99a8c093ac556288aef7ced9c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c56190165ac8e2719f8c3e44046dcf4290e0a786
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237758"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710930"
 ---
 # <a name="file-sepa-payments"></a>SEPA-betalingen indienen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u SEPA-kredietoverboekingen (Single Euro Payments Area) gebruiken om SEPA-betalingen in te dienen bij de bank.  
@@ -21,7 +21,7 @@ SEPA verenigt de betalingsmethoden in deelnemende Europese landen/regio's, zodat
 
 Voordat u een SEPA-betaling kunt indienen, moet u de volgende beheertaken uitvoeren:  
 
-- Stel een nieuw exportprotocol in. Zie Exportprotocol voor meer informatie.  
+- Stel een nieuw exportprotocol in.
 - Schakel in de tabel **Land/regio** het veld **SEPA toegestaan** in voor elk land in de EEA-zone.  
 - Controleer of de waarde in het veld **Valuta Euro** in de tabel **Boekhoudinstellingen** overeenkomt met de valuta op de betalingsregels.  
 - Controleer of het veld **Bankrekening van voorkeur** in de tabel **Leverancier** de IBAN en SWIFT-code bevat.  
