@@ -12,17 +12,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7beb778bdef0f8a77dad4d7461c9a089541e1eb3
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 275c9a5a23d483fc97b5fd6464f7724d1fcf10aa
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710961"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755185"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 Met elektronisch bankieren kunt u elektronisch gegevens uitwisselen met Belgische financiële instellingen, op diskette of via de Interbanks Standards Association Belgium (Isabel). Dit versnelt de verwerkingstijd en helpt fouten voorkomen als gevolg van handmatige gegevensinvoer of -verwerking.  
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronisch bankieren gebruiken om de volgende functies uit te voeren:  

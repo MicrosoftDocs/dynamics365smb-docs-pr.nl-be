@@ -12,17 +12,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e0df0dc2ed18ad9df732389e88aa8a98eda2f30
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: f38c5b051648280f98e7fafe6a2c013f1cd78b39
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710997"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755137"
 ---
 # <a name="test-electronic-payments"></a>Elektronische betalingen testen
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
 
 Hierbij wordt onder andere het volgende gevalideerd:  

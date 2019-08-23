@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 64d8988fc99756bf08371cf413398572288614f8
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: c47b49e939ae36e1ae10037566354b75aead7349
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594209"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755189"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
@@ -36,7 +36,6 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [CODA-afschriften vereffenen](how-to-apply-coda-statements.md) **Nu beschikbaar**
     * [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md) **Nu beschikbaar**
     * [CODA-bankafschriften](coda-bank-statements.md) **Nu beschikbaar**
-    * [CODA-bestanden van een Isabel-server downloaden](how-to-download-coda-files-from-an-isabel-server.md) **Nu beschikbaar**
     * [Elektronisch bankieren voor België](belgian-electronic-banking.md) **Nu beschikbaar**
     * [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md) **Nu beschikbaar**
     * [Exportprotocollen instellen](how-to-set-up-export-protocols.md) **Nu beschikbaar**
@@ -46,8 +45,6 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md) **Nu beschikbaar**
     * [Elektronische betalingen testen](how-to-test-electronic-payments.md) **Nu beschikbaar**
     * [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md) **Nu beschikbaar**
-    * [Isabel 6](isabel-6.md) **Nu beschikbaar**
-    * [Betalingsbestanden uploaden naar een Isabel-server](how-to-upload-payment-files-to-an-isabel-server.md) **Nu beschikbaar**
     * [CODA-afschriften importeren](how-to-import-coda-statements.md) **Nu beschikbaar**
     * [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md) **Nu beschikbaar**
     * [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md) **Nu beschikbaar**
@@ -63,9 +60,8 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md) **Nu beschikbaar**
     * [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md) **Nu beschikbaar**
     * [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md) **Nu beschikbaar**
-    * [IBS-logposten archiveren](how-to-archive-ibs-log-entries.md) **Nu beschikbaar**
-
-* Financiële kernprocessen
+    
+* Hoofdfinanciën
     * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
     * [Financiële dagboeken maken](how-to-create-financial-journals.md) **Nu beschikbaar**
     * [Exporteren naar Accon](how-to-export-to-accon.md) **Nu beschikbaar**

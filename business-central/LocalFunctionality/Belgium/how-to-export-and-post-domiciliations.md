@@ -12,17 +12,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a99ce3f7de651065aad3ecfbe25b2157d0d6e1
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 447fdffb6781f8fd08482091479cbde9a6001316
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710938"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755187"
 ---
 # <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.  
 
 Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA** op de pagina **Bankrekeningkaart**, wordt met de actie **Bestandsdomiciliëringen** een van deze aanvraagpagina's geopend:  
