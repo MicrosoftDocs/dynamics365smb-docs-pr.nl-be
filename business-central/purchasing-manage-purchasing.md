@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e49632655eebc0ab5d818e67fecd599d6d079cce
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251849"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796796"
 ---
 # <a name="purchasing"></a>Inkopen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -37,6 +37,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Maak een inkoopfactuur om uw overeenstemming met een leverancier vast te leggen om producten tegen bepaalde leverings- en betalingscondities te kopen. |[Inkopen vastleggen](purchasing-how-record-purchases.md) |
 |Maak een inkoopofferte om een offerteaanvraag van uw leverancier weer te geven, die u later in een inkooporder kunt omzetten.|[Offertes aanvragen](purchasing-how-request-quotes.md)|
 | Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
+|Begrijpen wat er gebeurt wanneer u aankoopdocumenten boekt.|[Inkopen boeken](ui-post-purchases.md)|
 | Voer een actie op een onbetaalde, geboekte inkoopfactuur uit om automatisch een creditmemo te maken en de inkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Niet-betaalde verkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Inkoopretouren of annuleringen verwerken](purchasing-how-register-new-vendors.md) |
 |Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|

@@ -106,6 +106,7 @@
 ### [Werken met divisies](inventory-responsibility-centers.md)
 ### [Vestigingen instellen](inventory-how-setup-locations.md)
 ### [Nieuwe artikelen registreren](inventory-how-register-new-items.md)
+### [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md)
 ### [Over artikeltypen](inventory-about-item-types.md)
 ### [Artikeleenheden instellen](inventory-how-setup-units-of-measure.md)
 ### [SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Beheer
 ## [Overzicht](admin-setup-and-administration.md)
-## [Profielen en rolcentra](admin-users-profiles-roles.md)
+## [Gebruikers, rollen en profielen](admin-users-profiles-roles.md)
 ## [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
 ## [Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)
 ## [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Leveringsherinneringen afgeven](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Controlelijsten afdrukken voor leveringsherinneringen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Alge&meen
-#### [Bestaande artikelen kopiëren naar nieuwe artikelen](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Boekhoudinstellingeninformatie afdrukken](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Verkoop- en inkooporders afdrukken voor batchboeking](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [CODA-afschriften vereffenen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [CODA-afschriften automatisch overbrengen en boeken](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA-bankafschriften](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [CODA-bestanden van een Isabel-server downloaden](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Elektronisch bankieren voor België](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Elektronisch bankieren instellen](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Exportprotocollen instellen](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Betalingsdagboeksjablonen en -batches maken](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Elektronische betalingen testen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Betalingsvoorstellen genereren](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Betalingsbestanden uploaden naar een Isabel-server](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [CODA-afschriften importeren](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Regels voor elektronische betalingen beheren](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [CODA-afschriften handmatig overbrengen en boeken](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Domiciliëringen exporteren en boeken](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Domiciliëringsvoorstellen genereren](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Betalingsregels en dagboekregels samenvatten](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [IBS-logposten archiveren](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Hoofdfinanciën
 #### [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Financiële dagboeken maken](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Btw-nummers van bedrijven opnemen in verkoop- en inkooprapporten](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Verkoop- en inkooporders afdrukken voor batchboeking](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Boekhoudinstellingeninformatie afdrukken](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Bestaande artikelen kopiëren naar nieuwe artikelen](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certificatie van Business Central voor Duitse markt (het document is in het Duits)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## IJsland
@@ -1242,7 +1237,7 @@
 #### [Procedure: vaste activa vrijgeven, volgen en afschrijven](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [Procedure: geboekte items in vaste-activakosten bekijken](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [Procedure: een immateriële-activa-account instellen](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [Procedure: rekening houden met de kosten om een vast activum te verwijderen](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Procedure: rekening houden met de kosten om een vast activum te verwijderen](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Niet-afschrijfbare vaste activa](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### Btw
 #### [Overzicht](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [Controlelijsten afdrukken voor leveringsherinneringen](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Voorraad
 #### [Zwitsers voorraadbeheer](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Bestaande artikelen kopiëren naar nieuwe artikelen](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Een voorraadpicklijst vanuit een verkooporder afdrukken](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Alge&meen    
 #### [Zwitserse postcodes importeren](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)

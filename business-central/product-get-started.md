@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629953"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858301"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem. Als u hulp wilt met uw abonnement te helpen, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
 Wanneer u zich aanmeldt voor het [!INCLUDE[d365fin](includes/d365fin_md.md)]-voorbeeld, krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf uw eigen verkoopdocumenten maken of een bankrekening instellen.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] leren kennen
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] leren kennen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. In het demonstratiebedrijf wordt aan de hand van visuele hulpen de kernfunctionaliteit uitgelegd, en kunt u dagelijkse taken uitproberen zoals het maken van verkoopfacturen en het weergeven van een rapport. Als u wilt terugkeren nadat u een begeleiding hebt verlaten, bijvoorbeeld om [!INCLUDE[d365fin](includes/d365fin_md.md)] zelfstandig te verkennen, gaat u terug naar het rolcentrum en start u de rondleiding Aan de slag. Als u meer hulp wilt, neemt u contact op met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Als u extra vragen hebt, is het raadzaam dat u het de community vraagt of contac
 Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365-apps
-Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](https://docs.microsoft.com/dynamics365) in de blauwe banner boven aan deze pagina. Ook op de [Dynamics 365 Business Central-website](https://dynamics.microsoft.com/en-us/business-central/overview/) vindt u meer informatie.  
+Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](/dynamics365/) in de blauwe banner boven aan deze pagina. Ook op de [Dynamics 365 Business Central-website](https://dynamics.microsoft.com/en-us/business-central/overview/) vindt u meer informatie.  
 
 Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] voor een naadloze integratie met [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Welkom bij Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](in
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Resources voor Help en Ondersteuning](product-help-and-support.md)  
-[Dynamics 365-documentatie](https://docs.microsoft.com/en-us/dynamics365/)  
+[Dynamics 365-documentatie](/dynamics365/)  
 [Releaseplan van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

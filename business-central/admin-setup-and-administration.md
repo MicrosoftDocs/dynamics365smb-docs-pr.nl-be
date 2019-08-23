@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247201"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796723"
 ---
 # <a name="administration"></a>Beheer
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen en rolcentra](admin-users-profiles-roles.md)|  
+|Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen (rollen) en rolcentra](admin-users-profiles-roles.md)|  
 |Machtigingen toewijzen aan gebruikers, machtigingensets aanpassen, en gebruikers groeperen op hun machtigingen|[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)|
 |Gegevensgevoeligheden classificeren voor velden, zodat u kunt reageren op aanvragen van gegevensonderwerpen met betrekking tot hun persoonlijke gegevens.|[Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)|
 |Reageren op aanvragen van gegevensobjecten met betrekking tot hun persoonlijke gegevens.|[Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)|

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 468f2f213d2f9dafb38d76706da578b417d01ca9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 854af39ef866d0d8959410c928acf65d65ffcb3d
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240200"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870558"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 Artikelen vormen met andere producten de basis van uw bedrijf, de goederen of services waarin u handelt. Elk artikelproduct moet worden geregistreerd als een artikelkaart.
@@ -33,6 +33,8 @@ Artikelen die u aan uw klanten aanbiedt, maar die u niet in uw systeem wilt behe
 
 > [!NOTE]  
 > Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
+
+In de volgende procedure wordt uitgelegd hoe u een geheel nieuwe artikelkaart maakt. U kunt ook nieuwe artikelkaarten maken door bestaande te kopiëren. Zie voor meer informatie [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md).
 
 ## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  

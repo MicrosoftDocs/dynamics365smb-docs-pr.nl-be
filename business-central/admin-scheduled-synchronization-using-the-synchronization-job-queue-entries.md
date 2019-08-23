@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247433"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755230"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Een synchronisatie plannen tussen Business Central en Dynamics 365 for Sales
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] met [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij. De synchronisatietaken synchroniseren gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]-records en [!INCLUDE[crm_md](includes/crm_md.md)]-records die eerder zijn gekoppeld. Of voor records die niet al zijn gekoppeld kunnen de synchronisatietaken, afhankelijk van de synchronisatierichting en -regels, nieuwe records maken en koppelen in het doelsysteem. Er zijn verschillende synchronisatietaken die kant-en-klaar beschikbaar zijn. U kunt ze op de pagina **Taakwachtrijposten** weergeven. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
@@ -31,7 +31,7 @@ Om gegevens te synchroniseren moeten [!INCLUDE[crm_md](includes/crm_md.md)]-enti
 -   Standaard worden alleen records in [!INCLUDE[d365fin](includes/d365fin_md.md)] die zijn gekoppeld aan records in [!INCLUDE[crm_md](includes/crm_md.md)] gesynchroniseerd. U kunt de tabeltoewijzing tussen een [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit en een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel wijzigen, zodat de integratiesynchronisatietaken nieuwe records in de doeldatabase maken voor elke record in de brondatabase die niet is gekoppeld. De nieuwe records worden ook gekoppeld aan de bijbehorende records in de bron. Wanneer u bijvoorbeeld klanten synchroniseert met [!INCLUDE[crm_md](includes/crm_md.md)]-rekeningen, wordt een nieuwe accountrecord gemaakt voor elke klant in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De nieuwe accounts worden automatisch gekoppeld aan klanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omdat de synchronisatie in dit geval tweerichting is, wordt een nieuwe klant gemaakt en gekoppeld voor elke [!INCLUDE[crm_md](includes/crm_md.md)]-account die niet al is gekoppeld.  
 
     > [!NOTE]  
-    >  Er zijn extra regels en filters waarmee wordt bepaald welke gegevens worden gesynchroniseerd. Zie voor meer informatie [Synchronisatieregels](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > Er zijn extra regels en filters waarmee wordt bepaald welke gegevens worden gesynchroniseerd. Zie voor meer informatie [Synchronisatieregels](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   Als nieuwe records worden gemaakt in [!INCLUDE[d365fin](includes/d365fin_md.md)], gebruiken de records de sjabloon die is gedefinieerd voor de integratietabeltoewijzing of de standaardsjabloon die beschikbaar is voor het recordtype. Velden worden gevuld met gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)] of [!INCLUDE[crm_md](includes/crm_md.md)], afhankelijk van de synchronisatierichting. Zie voor meer informatie [Procedure: Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ De volgende tabel beschrijft de standaardsynchronisatietaken.
 |KLANT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-accounts met [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten.|Bidirectioneel|KLANT|  
 |KLANTENPRIJSGROEPPRIJS - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-verkoopprijslijsten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-klantenprijsgroepen| |KLANTENPRIJSGROEPEN-VERKOOPPRIJSLIJSTEN|
 |ARTIKEL - PRODUCT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-artikelen.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|ARTIKEL-PRODUCT|
-|GEBOEKTEVERKOOPFACTUUR-FACT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-facturen met [!INCLUDE[d365fin](includes/d365fin_md.md)] geboekte verkoopfacturen.|Van [!INCLUDE[crm_md](includes/crm_md.md)] naar [!INCLUDE[d365fin](includes/d365fin_md.md)]|FACTUREN-GEBOEKTE VERKOOPFACTUREN|
+|GEBOEKTEVERKOOPFACTUUR-FACT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-facturen met [!INCLUDE[d365fin](includes/d365fin_md.md)] geboekte verkoopfacturen.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|FACTUREN-GEBOEKTE VERKOOPFACTUREN|
 |RESOURCE - PRODUCT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-resources.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|RESOURCE-PRODUCT|  
 |VERKOPERS - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkopers met [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers.|Van [!INCLUDE[crm_md](includes/crm_md.md)] naar [!INCLUDE[d365fin](includes/d365fin_md.md)]|VERKOPERS|
 |VERKOOPPRIJS-PRODUCTPRIJS - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-productprijzen met [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopprijzen.||PRODUCTPRIJS-VERKOOPPRIJS|
@@ -63,7 +63,7 @@ De volgende tabel beschrijft de standaardsynchronisatietaken.
 2.  Als een of meer fouten zijn opgetreden voor een synchronisatietaak, wordt het aantal fouten weergegeven in de kolom **Mislukt**. Als u de fouten voor de taak wilt weergeven, kiest u het nummer.  
 
     > [!TIP]  
-    >  U kunt alle fouten van de synchronisatietaak weergeven door het logboek van de synchronisatietaak direct te openen.
+    > U kunt alle fouten van de synchronisatietaak weergeven door het logboek van de synchronisatietaak direct te openen.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Het logboek van de synchronisatietaak weergeven vanuit tabeltoewijzingen  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.

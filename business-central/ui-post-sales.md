@@ -1,22 +1,21 @@
 ---
-title: Begrijpen hoe u verkoopdocumenten boekt | Microsoft Docs
-description: Leren over de verschillende boekingsfuncties om verkoopdocumenten te boeken.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+title: Verkoopdocumenten boeken | Microsoft Docs
+description: Meer informatie over de verschillende boekingsfuncties om verkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d1b2d29c4c5b8397bd6e9e05088e7ea50d68fd20
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.author: sgroespe
+ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247926"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796907"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
 In de **Boekingsgroep** op een verkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
@@ -40,10 +39,12 @@ Voor elke verkooporderregel wordt een artikelpost gemaakt in de tabel **Artikelp
 > [!IMPORTANT]  
 >   Wanneer u een order boekt, kunt u zowel een verzending als een factuur maken. Deze kunnen tegelijk of afzonderlijk worden uitgevoerd. U kunt ook een gedeeltelijke verzending en een gedeeltelijke factuur maken door de velden **Te verzenden aantal** en **Te factureren aantal** op de afzonderlijke verkooporderregels in te vullen voordat u de boeking uitvoert. U kunt geen factuur maken voor iets wat niet is verzonden. U kunt dus pas factureren nadat u een verzending hebt geregistreerd, of u moet ervoor kiezen om tegelijkertijd te verzenden en factureren.
 
-Na de boeking worden de geboekte verkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Klantposten**, **Grootboekposten**, **Artikelposten**, **Geboekte verkoopverzendingen** en **Geboekte verkoopfacturen**.
+Na de boeking worden de geboekte verkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Klantposten**, **Grootboekposten**, **Artikelposten**, **Geboekte verkoopverzendingen** en **Geboekte verkoopfacturen**.  
 
 ## <a name="see-also"></a>Zie ook
+
 [Verkoop](sales-manage-sales.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)  
+[Vertel me gebruiken om functies en informatie te vinden](ui-search.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

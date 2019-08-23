@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629930"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740514"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Lijsten sorteren, doorzoeken en filteren
 U kunt een paar dingen doen om records in een lijst te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
@@ -128,10 +128,15 @@ Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#Keyboard
 
 
 ## <a name="FilterCriteria"> </a>Filtercriteria en -symbolen
-U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Daarnaast kunt u speciale symbolen gebruiken om de resultaten verder te filteren. De volgende tabellen bevatten de tekens die in filters kunnen worden gebruikt. Voor datums en tijden kunt u ook [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md) raadplegen voor meer gedetailleerde informatie.
+U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Daarnaast kunt u speciale symbolen (of operatoren) gebruiken om de resultaten verder te filteren. De volgende tabellen bevatten de tekens die in filters kunnen worden gebruikt. Voor datums en tijden kunt u ook [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md) raadplegen voor meer gedetailleerde informatie.
 
 > [!IMPORTANT]  
->  Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R*, is de filterexpressie bijvoorbeeld `'S&R*'`.  
+>  Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R*, is de filterexpressie bijvoorbeeld `'S&R*'`.
+
+In de volgende secties wordt beschreven hoe u de verschillende operatoren kunt gebruiken.
+
+> [!NOTE]
+> Als er meer dan 200 operatoren in één filter zijn, groepeert het systeem automatisch enkele uitdrukkingen tussen haakjes `()` met het oog op verwerking. Dit heeft geen effect op het filter of de resultaten.  
 
 ### <a name="-interval"></a>(..) Interval
 
@@ -145,7 +150,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 |`23..`|Van 23 lopende maand, lopend jaar 00:00:00 tot eindtijd|  
 |`22..23`|Van 22 lopende maand, lopend jaar 0:00:00 tot 23 lopende maand, lopend jaar 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Of/of  
+### <a name="124-eitheror"></a>(&#124;) Of/of 
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  

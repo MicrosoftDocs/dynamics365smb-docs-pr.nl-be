@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726966"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755981"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -43,11 +43,11 @@ Als u een proefversie van [!INCLUDE [prodshort](includes/prodshort.md)] gebruikt
 
 ### <a name="blog"></a>Blog
 
-In het [Business Central-blog](https://community.dynamics.com/business/b/financials) kunt meer leren over nieuwe mogelijkheden van [!INCLUDE[prodshort](includes/prodshort.md)], nieuwe appversies, tips en trucs en evenals updates over nieuwe landreleases.  
+We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
 
 ### <a name="capabilities-coming-soon"></a>Mogelijkheden die binnenkort komen
 
-[!INCLUDE[prodshort](includes/prodshort.md)] wordt elke 6 maanden bijgewerkt met belangrijke functie-updates en met maandelijkse service-updates. Kies de koppeling om het recentste versieplan te bekijken. U kunt ook een overzicht krijgen van aankomende en recent vrijgegeven mogelijkheden in het versieplan van Dynamics 365 op [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] wordt elke 6 maanden bijgewerkt met belangrijke functie-updates en met maandelijkse service-updates. Kies de koppeling om het recentste versieplan te bekijken. U kunt ook een overzicht krijgen van aankomende en recent vrijgegeven mogelijkheden in het versieplan van Dynamics 365 op [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 Voor het overzicht op de langere termijn bevat de [!INCLUDE[prodshort](includes/prodshort.md)] [routekaartpagina](https://dynamics.microsoft.com/roadmap/business-central/) de algemene prioriteiten voor [!INCLUDE[prodshort](includes/prodshort.md)] in de komende jaren.  
 

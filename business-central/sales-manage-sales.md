@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251527"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796829"
 ---
 # <a name="sales"></a>Verkoop
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
@@ -42,6 +42,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Maak een verkoopofferte waarbij u producten aanbiedt tegen overeen te komen condities voordat de offerte wordt omgezet in een verkoopfactuur. |[Verkoopoffertes maken](sales-how-make-offers.md) |
 | Maak een verkoopfactuur om uw overeenstemming met een klant vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. |[Verkopen factureren](sales-how-invoice-sales.md) |
 | Verwerk een verkooporder die betrekking heeft op gedeeltelijke verzending of doorverzending. |[Producten verkopen](sales-how-sell-products.md) |
+|Begrijpen wat er gebeurt wanneer u verkoopdocumenten boekt.|[Verkopen boeken](ui-post-sales.md)|
 |Standaardverkoop- of inkoopregels instellen die u snel kunt invoegen in documenten, bijvoorbeeld voor terugkerende aanvullingsorders.|[Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)|  
 | Koppel een verkooporder aan een inkooporder om een doorverzendartikel te verkopen dat direct vanaf de leverancier bij de klant wordt geleverd. |[Doorverzendingen uitvoeren](sales-how-drop-shipment.md) |
 |Laat een catalogusartikel verzenden van een leverancier naar uw magazijn, zodat u het artikel naar uw klant kunt verzenden.|[Speciale orders maken:](sales-how-to-create-special-orders.md)|

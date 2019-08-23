@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: d990cb86fb1aa9f4f7f7fba43bed1a8be83647d1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4a1d3a9e480ee87d791b68f66b9afa6a2be67535
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246271"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755155"
 ---
 # <a name="compliance"></a>Naleving
 Deze inhoud bevat informatie over naleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,6 +31,6 @@ In dit gedeelte leest u meer over onze benadering van naleving vanuit een toepas
 |Leer over naleving vanuit een toepassingsperspectief. zoals GDPR, International Accounting Standards en meer.|[Toepassingsnaleving](compliance-application-compliance.md)|  
 |Leer over naleving op het serviceniveau en wat op het platform is gedaan om te zorgen dat Business Central uitblinkt op het gebied van servicenaleving.|[Servicenaleving](compliance-service-compliance.md)|  
 |Zie informatie over verschillende certificeringen in verband met Business Central. Hier vindt u gegevens over algemene certificeringen en landspecifieke certificeringen.|[Certificeringen](compliance-certifications.md)|  
+|Meer informatie over de voorwaarden van de dienstverleningsovereenkomst en andere voorwaarden voor de service|[Servicevoorwaarden](compliance-service-compliance.md#service-terms)|  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

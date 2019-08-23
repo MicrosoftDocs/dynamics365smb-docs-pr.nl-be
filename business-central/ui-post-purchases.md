@@ -1,22 +1,21 @@
 ---
 title: Begrijpen hoe u inkoopdocumenten boekt | Microsoft Docs
-description: Leren over de verschillende boekingsfuncties om inkoopdocumenten te boeken.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Meer informatie over de verschillende boekingsfuncties om inkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247870"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796930"
 ---
 # <a name="posting-purchases"></a>Inkopen boeken
 In de **Boekingsgroep** op een inkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
@@ -45,7 +44,9 @@ U kunt de optie Boeken of Boeken en afdrukken kiezen. Als u ervoor kiest om te b
 Na de boeking worden de geboekte inkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Leveranciersposten**, **Grootboekposten**, **Artikelposten**, **Geboekte inkoopontvangsten** en **Geboekte inkoopfacturen**.
 
 ## <a name="see-also"></a>Zie ook
+
 [Inkoop](purchasing-manage-purchasing.md)  
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
+[Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Vertel me gebruiken om functies en informatie te vinden](ui-search.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

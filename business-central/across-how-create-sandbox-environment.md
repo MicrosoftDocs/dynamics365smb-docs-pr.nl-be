@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711095"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796677"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -72,7 +72,7 @@ Het is mogelijk om de geavanceerde (volledige) functionaliteit van [!INCLUDE[d36
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Als u de geavanceerde functionaliteit in een sandboxtenant hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen en rolcentra. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product.
+Als u de geavanceerde functionaliteit in een sandboxtenant hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en rolcentra. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product.
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

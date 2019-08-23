@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251297"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796793"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
 
@@ -55,7 +55,7 @@ Als de banner Personaliseren het pictogram ![Personalisatie geblokkeerd](media/p
 
 ![Personalisatie geblokkeerd](media/personalization-blocked.png "Personalisatie geblokkeerd")
 
-De reden hiervoor is dat het rolcentrum of het profiel dat op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact met uw beheerder op voor hulp of schakel indien van toepassing over op een rolcentrum (ga vanuit [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "rechtstreeks naar de pagina met uw gebruikersinstellingen in Business Central")) dat rolaanpassing voor deze pagina bevat.
+De reden hiervoor is dat het rolcentrum of de rol die op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact met uw beheerder op voor hulp of schakel indien van toepassing over op een rolcentrum (ga vanuit [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "rechtstreeks naar de pagina met uw gebruikersinstellingen in Business Central")) dat rolaanpassing voor deze pagina bevat.
 
 ## <a name="see-also"></a>Zie ook
 [Het personaliseren van uw werkruimte](ui-personalization-manage.md)  

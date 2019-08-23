@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238521"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870535"
 ---
 # <a name="setting-up-inventory"></a>Voorraad instellen
 Voordat u magazijnactiviteiten en voorraadwaardering kunt beheren, moet u de regels en waarden configureren die het voorraadbeleid van het bedrijf definiëren.
@@ -32,6 +32,7 @@ Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met bet
 |Een efficiënt distributiemodel configureren met een combinatie van verschillende locaties en divisies die aan zakelijke partners of medewerkers zijn toegewezen.|[Werken met divisies](inventory-responsibility-centers.md)|
 | Orden uw voorraad op verschillende locaties, inclusief transferroutes. |[Vestigingen instellen](inventory-how-register-new-items.md) |
 | Maak artikelkaarten voor voorraad-, niet-voorraad- of serviceartikelen waarin u handelt. |[Nieuwe artikelen registreren](inventory-how-register-new-items.md) |
+|Gebruik de functie **Item kopiëren** om snel een nieuwe artikelkaart te maken op basis van een bestaande.|[Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md)|
 |Leer hoe u het veld **Soort** op artikelkaarten invult volgens het bedrijfsdoel.|[Over artikeltypen](inventory-about-item-types.md)|
 |Stel meerdere eenheden in voor een artikel die u kunt gebruiken als alternatieve maateenheden, bijvoorbeeld in verkoop-, inkoop- of productietransacties.|[Artikeleenheden instellen](inventory-how-setup-units-of-measure.md)|
 |Als aanvulling op vestigingskaarten kunt u gegevens opnemen over de artikelen in een bepaalde vestiging of een bepaalde variant.|[SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)|

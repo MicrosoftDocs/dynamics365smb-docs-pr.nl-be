@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a620b7ed9d06cdd8adf7b12bea2b55aecea32bcc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 927c16f0fb1d12ff1202e4e675b97078d354375f
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251150"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737132"
 ---
 # <a name="date-calculation-for-sales"></a>Datumberekening voor verkoop
 [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
@@ -32,9 +32,10 @@ Als u een aangevraagde leverdatum op de verkooporderregel plaatst, wordt automat
 - verzochte leverdatum - verzendtijd = geplande verzenddatum
 - geplande verzenddatum - verwerkingstijd uitgaand magazijn = verzenddatum
 
-Als de artikelen op de verzenddatum kunnen worden gepickt, kan het verkoopproces worden voortgezet.
+Als de artikelen op de verzenddatum kunnen worden gepickt, kan het verkoopproces worden voortgezet. Anders wordt een voorraadwaarschuwing weergegeven.
 
-Als de artikelen niet op de verzenddatum kunnen worden gepickt, wordt een voorraadwaarschuwing gegeven.
+> [!Note]
+> Als uw proces is gebaseerd op achterwaartse berekening, bijvoorbeeld als u de gevraagde leveringsdatum gebruikt om de geplande verzenddatum te verkrijgen, raden we u aan datumformules te gebruiken met vaste looptijden, zoals '5D' voor vijf dagen of '1W' voor een week. Datumformules zonder vaste duur, zoals 'CW' voor de huidige week of CM voor de huidige maand, kunnen leiden tot onjuiste datumberekeningen. Zie voor meer informatie over datumformules [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>De eerst mogelijke leverdatum berekenen
 Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als u niet aan de aangevraagde leverdatum kunt voldoen, wordt gezocht naar de vroegste datum waarop de artikelen beschikbaar zijn. Vervolgens wordt deze datum ingevuld op de regel in het veld Verzenddatum waarna de volgende formules worden gebruikt om te bepalen op welke datum de artikelen volgens planning worden verzonden en geleverd aan de klant.

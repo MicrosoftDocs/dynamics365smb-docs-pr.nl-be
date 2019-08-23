@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: 32a50a2b1b967fa2f19022ab6e07865716243d8e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4d7d9ad0e9c84d5c767095b7b7e786be932625e7
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245674"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796700"
 ---
 # <a name="archive-documents"></a>Documenten archiveren
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten comprimeren, bijvoorbeeld omdat u een kopie van een document voor hergebruik later wilt opslaan. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.

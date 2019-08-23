@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238912"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796861"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Stel [!INCLUDE[d365fin](includes/d365fin_md.md)] in om automatisch btw te berekenen in verkoop- en inkoopdocumenten als u in uw land of regio btw in rekening moet brengen voor verkoop- en inkooptransacties, zodat u de bedragen bij de belastingdienst kunt aangeven. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
@@ -27,7 +27,7 @@ Er zijn echter enkele taken met betrekking tot de berekening van btw die u handm
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Btw-bedragen berekenen en weergeven in verkoop- en inkoopdocumenten  
 U kunt btw-bedragen op verschillende manieren berekenen en weergeven in verkoop- en inkoopdocumenten, afhankelijk van het type klant of leverancier waarmee u zakendoet. U kunt tevens het berekende btw-bedrag laten vervangen zodat het bedrag overeenkomt met het btw-bedrag dat door uw leverancier voor een bepaalde transactie is berekend.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Eenheidprijs en regelbedrag inclusief/exclusief btw in verkoopdocumenten  
+### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Eenheidsprijs en regelbedrag inclusief/exclusief btw in verkoopdocumenten  
 Wanneer u een artikelnummer kiest in het veld **Nr.** in een verkoopdocument, wordt het veld **Eenheidsprijs** automatisch ingevuld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De eenheidsprijs is afkomstig van de kaart **Artikel** of van de artikelprijzen die zijn toegestaan voor het artikel en de klant. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de waarde bij **Regelbedrag** berekend wanneer u een hoeveelheid opgeeft voor de regel.  
 
 Als u verkoopt aan detailhandelconsumenten, wilt u mogelijk prijzen inclusief btw opnemen in verkoopdocumenten. Schakel hiervoor het selectievakje **Prijzen inclusief btw** in het document in.  
@@ -55,34 +55,42 @@ Zelfs als u een of meer combinaties hebt ingesteld voor het afhandelen van impor
 
 Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief btw, kunt u de btw over de contantkorting terugboeken wanneer de contantkorting wordt verleend. U moet de optie **Aanpassen bij cont.-korting** zowel op het tabblad Algemeen in het venster Boekhoudinstellingen als in het venster Boekingsgroepinstellingen inschakelen, voor specifieke combinaties van btw-bedrijfsboekingsgroep en btw-productboekingsgroep.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Handmatig btw opgeven in verkoopdocumenten  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Het systeem instellen voor handmatige btw-invoer in verkoopdocumenten
+Hieronder wordt beschreven hoe u handmatige btw-wijzigingen in verkoopdocumenten kunt inschakelen. De stappen zijn vergelijkbaar op de pagina **Inkoopinstellingen**.
+
 1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
 2. Schakel op de pagina **Verkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Btw wijzigen voor een verkoopdocument  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Btw wijzigen voor een verkoopdocument  
 1. Open de betreffende verkooporder.  
 2. Kies de actie **Statistieken**.  
-3. Kies het sneltabblad **Facturering**.  
+3. Kies op het sneltabblad **Facturering** de waarde in het veld **Aantal btw-regels**.
+4. Bewerk het veld **Btw-bedrag**.   
 
-    > [!NOTE]  
-    >  Het totale btw-bedrag voor de factuur, gegroepeerd op btw-identificatie, wordt op de regels weergegeven. U kunt het bedrag handmatig wijzigen in het veld **Btw-bedrag** op de regels voor elke btw-identificatie. Wanneer u het veld **Btw-bedrag** wijzigt, controleert het programma of u de btw niet hebt gewijzigd met meer dan het bedrag dat u hebt opgegeven als het maximum toegestane verschil. Als het bedrag buiten het bereik valt van het **Max. toegestaan btw-verschil**, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil staat. U kunt pas doorgaan nadat u het bedrag hebt gewijzigd en dit binnen de aanvaardbare parameters valt. Klik op **OK** en geef een nieuw **btw-bedrag** op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt de btw evenredig verdeeld over de documentregels met dezelfde btw-identificatie.  
+> [!NOTE]  
+> Het totale btw-bedrag voor de factuur, gegroepeerd op btw-identificatie, wordt op de regels weergegeven. U kunt het bedrag handmatig wijzigen in het veld **Btw-bedrag** op de regels voor elke btw-identificatie. Wanneer u het veld **Btw-bedrag** wijzigt, controleert het programma of u de btw niet hebt gewijzigd met meer dan het bedrag dat u hebt opgegeven als het maximum toegestane verschil. Als het bedrag buiten het bereik valt van het **Max. toegestaan btw-verschil**, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil staat. U kunt pas doorgaan nadat u het bedrag hebt gewijzigd en dit binnen de aanvaardbare parameters valt. Klik op **OK** en geef een nieuw **btw-bedrag** op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt de btw evenredig verdeeld over de documentregels met dezelfde btw-identificatie.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Btw handmatig berekenen met dagboeken  
 U kunt btw-bedragen ook aanpassen in algemene, verkoop- en inkoopdagboeken. Het is mogelijk nodig dit te doen wanneer u een leveranciersfactuur boekt in uw dagboek en er een verschil is tussen het btw-bedrag dat in [!INCLUDE[d365fin](includes/d365fin_md.md)] is berekend en het btw-bedrag in de leveranciersfactuur.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Voordat u BTW handmatig in een dagboek gaat invoeren  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Het systeem instellen voor handmatige btw-invoer in dagboeken
+U moet de volgende stappen uitvoeren voordat u btw handmatig invoert in een dagboek.  
+
 1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
 2. Schakel het selectievakje **Btw-verschil toegestaan** in voor het relevante dagboek op de pagina **Fin. dagboeksjablonen**.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Voordat u handmatig btw in verkoop- en inkoopdagboeken kunt invoeren  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Het systeem instellen voor handmatige btw-invoer in verkoop- en inkoopdagboeken
+U moet de volgende stappen uitvoeren voordat u btw handmatig invoert in een verkoop- of inkoopdagboek.
+
 1. Schakel op de pagina **Inkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
-2. Nadat u de hierboven beschreven instellingen hebt voltooid, kunt u het veld **Btw-bedrag** corrigeren in de regel van het algemene dagboek of het veld **Btw-bedrag tegenrek.** in de verkoop- of inkoopdagboekregel. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gecontroleerd of het verschil niet groter is dan het opgegeven maximum.  
+2. Herhaal stap 1 voor de pagina **Verkoopinstellingen**.
+3. Nadat u de hierboven beschreven instellingen hebt voltooid, kunt u het veld **Btw-bedrag** corrigeren in de regel van het algemene dagboek of het veld **Btw-bedrag tegenrek.** in de verkoop- of inkoopdagboekregel. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gecontroleerd of het verschil niet groter is dan het opgegeven maximum.  
 
     > [!NOTE]  
     > Als het verschil groter is, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil wordt aangegeven. Als u wilt doorgaan, moet u het bedrag wijzigen. Kies **OK** en geef een bedrag op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt het verschil in [!INCLUDE[d365fin](includes/d365fin_md.md)] weergegeven in het veld **Btw-verschil**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Import-btw boeken met inkoopfacturen
-Voor het boeken van een factuur met invoer-btw kunt u een inkoopfactuur gebruiken.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Import-btw boeken met inkoopfacturen
+In plaats van dagboeken te gebruiken om een import-btw-factuur te boeken, kunt u een inkoopfactuur gebruiken.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Inkopen instellen voor het boeken van import-btw-facturen  
 1. Een leverancierskaart instellen voor de importinstantie die u de import-btw-factuur stuurt. De **Bedrijfsboekingsgroep** en **Btw-bedrijfsboekingsgroep** moeten worden ingesteld op dezelfde manier als de grootboekrekening voor import-btw.  
@@ -102,7 +110,7 @@ Voor het boeken van een factuur met invoer-btw kunt u een inkoopfactuur gebruike
 6. Geef het btw-bedrag op in het veld **Directe kostprijs Excl. btw**.  
 7. Boek de factuur.  
 
-## <a name="to-process-certificates-of-supply"></a>Certificaten van levering verwerken
+## <a name="processing-certificates-of-supply"></a>Certificaten van levering verwerken
 Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de klant een certificaat van levering sturen dat de klant moet ondertekenen en aan u moet retourneren. De volgende procedures zijn voor het verwerken van certificaten van levering voor verkoopverzendingen, maar dezelfde stappen gelden voor serviceverzendingen van artikelen en retourzendingen aan leveranciers.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Details van een certificaat van levering weergeven  
