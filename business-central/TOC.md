@@ -234,6 +234,7 @@
 ## [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)
 ## [Documenten en dagboeken boeken](ui-post-documents-journals.md)
 ## [Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)
+## [Geboekte documenten bewerken](across-edit-posted-document.md)
 ## [Werken met diversendagboeken](ui-work-general-journals.md)
 ## [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)
 ## [Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Overzicht](marketing-manage-sales-opportunities.md)
 ### [Verkoopcycli instellen voor opportunities en cyclusfasen](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Opportunities maken](marketing-how-create-opportunities.md)
-### [Verkoopopportunity's verwerken](marketing-processing-sales-opportunities.md)
-## [Marketingcampagnes beheren](marketing-campaigns.md)
-## Met klanten werken via Dynamics 365 for Sales
-### [Dynamics 365 for Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
+### [E-mailberichtuitwisselingen volgen](marketing-set-up-email-logging.md)
+
+### [Verkoopopportunities verwerken](marketing-processing-sales-opportunities.md)
+### [E-maillogboekregistratie instellen](marketing-set-up-email-logging.md)
+## [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md)
+## [Dynamics 365 for Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
 ### [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)
 

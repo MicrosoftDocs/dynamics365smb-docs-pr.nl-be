@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: ab769498741a8da17b64eebb4bccf9e177d95e37
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701210"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985775"
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
@@ -24,7 +24,7 @@ In de volgende procedure wordt beschreven hoe u een leverancier betaalt met een 
 
 U kunt met twee soorten cheques betalen. Voor beide soorten moet het veld **Tegenrekeningtype** of **Rekeningsoort** **Bankrekening** bevatten.
 
-- **Automatische cheque**: selecteer deze optie als u een cheque wilt afdrukken voor het bedrag op de betalingsdagboekregel. U moet de cheques afdrukken voordat u de dagboekregels kunt boeken. U kunt **Automatische cheque** alleen selecteren als
+- **Automatische cheque**: selecteer deze optie als u een cheque wilt afdrukken voor het bedrag op de betalingsdagboekregel. U moet de cheques afdrukken voordat u de dagboekregels kunt boeken.
 - **Handmatige cheque**: selecteer deze optie als u handmatig een cheque hebt gemaakt en er een bijbehorende chequepost moet worden gemaakt voor dit bedrag. Met deze optie kunt u de cheque niet afdrukken.
 
 > [!NOTE]  

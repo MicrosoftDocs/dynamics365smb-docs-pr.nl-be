@@ -1,21 +1,21 @@
 ---
 title: Toetsenbordsneltoetsen
 description: De volledige lijst met toetsenbordsneltoetsen om efficiënt met uw gegevens te werken.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621218"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985922"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Esc|De agenda sluiten zonder een selectie; huidige datum behouden.|
 |Page Down|Naar de volgende maand gaan.|
 |Page up|Naar de vorige maand gaan.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Sneltoetsen in datumvelden
+|Druk op deze toetsen<br />(in macOS)|Actie|
+|-----------------|-------|
+|h|Voer de huidige datum in. "T" betekent "today" (vandaag).|
+|w|Voer de werkdatum in. Zie [Werkdatum](ui-change-basic-settings.md#work-date) voor meer informatie.|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Sneltoetsen in de rapportweergave
 

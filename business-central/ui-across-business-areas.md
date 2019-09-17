@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250883"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921419"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
@@ -40,7 +40,8 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 |Koppel afbeeldingen, documenten en andere soorten bestanden aan alle kaarten, zoals de artikelkaart en de projectkaart, en koppel bestanden aan alle soorten verkoop- en inkoopdocumenten.|[Bestanden koppelen een kaarten en documenten](across-attach-document-master-data.md)|
 |Werken met uw Business Central-gegevens in Excel.|[Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)|
 |Begrijpen wat er gebeurt wanneer u de actie **Boeken** kiest.|[Documenten en dagboeken boeken](ui-post-documents-journals.md)|
-|Bekijk het resultaat van de boeking voordat u boekt.|[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)| 
+|Bekijk het resultaat van de boeking voordat u boekt.|[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)|
+|Bewerk geselecteerde velden in geboekte verkoop- of inkoopdocumenten.|[Geboekte documenten bewerken](across-edit-posted-document.md)| 
 |Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met diversendagboeken](ui-work-general-journals.md) |
 | Plan een rapport voor uitvoering op een bepaalde datum en tijd. |[Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport) |
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|

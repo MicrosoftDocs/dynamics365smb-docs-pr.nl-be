@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796907"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921442"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
-In de **Boekingsgroep** op een verkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
+In het menu **Boeken** in een verkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
 
 * **Boeken**
-* **Testrapport**
+* **Boeken en nieuw**
 * **Boeken en verzenden**
-* **Boeken en afdrukken**
-* **Boeken en e-mailen**
-* **Batchboeken**
 * **Voorbeeld van boeking weergeven**
+* **Conceptfactuur**
+* **Pro-formafactuur**
+* **Testrapport**
 
 Wanneer u alle regels hebt ingevuld en alle informatie hebt ingevoerd op de verkooporder, kunt u de order boeken. Hiermee worden een verzending en een factuur gemaakt.
 
@@ -41,9 +41,11 @@ Voor elke verkooporderregel wordt een artikelpost gemaakt in de tabel **Artikelp
 
 Na de boeking worden de geboekte verkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Klantposten**, **Grootboekposten**, **Artikelposten**, **Geboekte verkoopverzendingen** en **Geboekte verkoopfacturen**.  
 
-## <a name="see-also"></a>Zie ook
+U kunt bepaalde velden in geboekte verkoopdocumenten bewerken, zoals het **Traceringsnummer (zending)**. veld. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
+[Geboekte documenten bewerken](across-edit-posted-document.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)  
 [Vertel me gebruiken om functies en informatie te vinden](ui-search.md)  

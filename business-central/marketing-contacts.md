@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446957"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985751"
 ---
 # <a name="managing-contacts"></a>Contactpersonen beheren
-Verschillende afdelingen in uw bedrijf onderhouden zakelijke relaties met diverse bedrijven. Een verkoper kan bijvoorbeeld regelmatig potentiële klanten ontmoeten en de resultaten van deze bezoeken aan het einde van de week registreren.
-
-Alle externe entiteiten waarmee u een zakelijke relatie hebt (bijvoorbeeld klanten, potentiële klanten, leveranciers, advocaten en consultants), dienen als contact te worden geregistreerd. Als deze gegevens op één centrale locatie worden geregistreerd, kan elke afdeling in uw bedrijf de informatie efficiënt weergeven en gebruiken. De communicatie met uw contacten verloopt succesvoller als alle details direct beschikbaar zijn. Een marketingmedewerker wil bijvoorbeeld mogelijk weten welke andere producten een bepaalde klant heeft aangeschaft voordat hij probeert deze te interesseren voor een nieuw product.
+Werknemers in uw bedrijf ontmoeten regelmatig potentiële zakenrelaties die in de toekomst formele zakenrelaties kunnen worden. Al dergelijke externe contacten en hun gedetailleerde informatie moeten in het systeem worden vastgelegd, zodat de communicatie succesvoller is en ze gemakkelijk kunnen worden omgezet in formele klant-, leverancier- of bankrelaties.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 

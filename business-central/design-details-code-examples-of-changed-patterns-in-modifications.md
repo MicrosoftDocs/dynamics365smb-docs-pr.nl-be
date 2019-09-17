@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243446"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970913"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen
 In dit onderwerp vindt u codevoorbeelden om gewijzigde patronen te tonen in dimensiecodewijziging en migratie voor vijf verschillende scenario's. De codevoorbeelden in eerdere versies worden vergeleken met de codevoorbeelden in Business Central.
@@ -197,4 +197,3 @@ GetSalesHeader;
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md)   
 [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)   
-[Ontwerpdetails: Codeunit 408 dimensiebeheer](design-details-codeunit-408-dimension-management.md)

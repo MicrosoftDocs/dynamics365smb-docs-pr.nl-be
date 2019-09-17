@@ -4,20 +4,21 @@ description: Codeunit 408 Dimensiebeheer is een functiebibliotheek die veel voor
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b0238fb26b71310b1f02e15be7d7040832ca644
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242600"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970982"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Ontwerpdetails: Codeunit 408 Dimensiebeheer
 Codeunit 408 Dimensiebeheer is een functiebibliotheek die veel voorkomende taken afhandelt die verband houden met dimensies, zoals kopiëren van de ene tabel naar de andere of van het ene document naar het andere. In dit onderwerp worden de functies genoemd die in Microsoft Dynamics NAV 2013 R2 zijn gewijzigd en er wordt aangegeven wat er met de functies moet gebeuren. Veel functies zijn verwijderd omdat er geen reden is om te kopiëren tussen dimensietabellen.  
@@ -192,4 +193,4 @@ Codeunit 408 Dimensiebeheer is een functiebibliotheek die veel voorkomende taken
  [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)   
  [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   
  [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)   
- [Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 
