@@ -13,24 +13,24 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243446"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970913"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="e4b80-104">Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen</span><span class="sxs-lookup"><span data-stu-id="e4b80-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="e4b80-105">In dit onderwerp vindt u codevoorbeelden om gewijzigde patronen te tonen in dimensiecodewijziging en migratie voor vijf verschillende scenario's.</span><span class="sxs-lookup"><span data-stu-id="e4b80-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="e4b80-106">De codevoorbeelden in eerdere versies worden vergeleken met de codevoorbeelden in Business Central.</span><span class="sxs-lookup"><span data-stu-id="e4b80-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="32a69-104">Ontwerpdetails: Codevoorbeelden van gewijzigde patronen in wijzigingen</span><span class="sxs-lookup"><span data-stu-id="32a69-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="32a69-105">In dit onderwerp vindt u codevoorbeelden om gewijzigde patronen te tonen in dimensiecodewijziging en migratie voor vijf verschillende scenario's.</span><span class="sxs-lookup"><span data-stu-id="32a69-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="32a69-106">De codevoorbeelden in eerdere versies worden vergeleken met de codevoorbeelden in Business Central.</span><span class="sxs-lookup"><span data-stu-id="32a69-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="e4b80-107">Een dagboekregel boeken</span><span class="sxs-lookup"><span data-stu-id="e4b80-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="e4b80-108">Belangrijke wijzigingen worden als volgt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="e4b80-108">Key changes are listed as follows:</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="32a69-107">Een dagboekregel boeken</span><span class="sxs-lookup"><span data-stu-id="32a69-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="32a69-108">Belangrijke wijzigingen worden als volgt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="32a69-108">Key changes are listed as follows:</span></span>  
 
-- <span data-ttu-id="e4b80-109">Dagboekregeldimensietabellen worden verwijderd.</span><span class="sxs-lookup"><span data-stu-id="e4b80-109">Journal line dimension tables are removed.</span></span>  
+- <span data-ttu-id="32a69-109">Dagboekregeldimensietabellen worden verwijderd.</span><span class="sxs-lookup"><span data-stu-id="32a69-109">Journal line dimension tables are removed.</span></span>  
 
-- <span data-ttu-id="e4b80-110">Een dimensieset-id die in het veld **Dimensieset-id** is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="e4b80-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+- <span data-ttu-id="32a69-110">Een dimensieset-id die in het veld **Dimensieset-id** is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="32a69-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
 
-<span data-ttu-id="e4b80-111">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="e4b80-111">**Earlier Versions**</span></span>  
+<span data-ttu-id="32a69-111">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="32a69-111">**Earlier Versions**</span></span>  
 
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
@@ -62,10 +62,10 @@ ResJnlPostLine.Run(ResJnlLine);
 
 ```  
 
-## <a name="posting-a-document"></a><span data-ttu-id="e4b80-112">Een document boeken</span><span class="sxs-lookup"><span data-stu-id="e4b80-112">Posting a Document</span></span>  
- <span data-ttu-id="e4b80-113">Wanneer u een document in [!INCLUDE[d365fin](includes/d365fin_md.md)] boekt, hoeft u niet meer de documentdimensies te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="e4b80-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+## <a name="posting-a-document"></a><span data-ttu-id="32a69-112">Een document boeken</span><span class="sxs-lookup"><span data-stu-id="32a69-112">Posting a Document</span></span>  
+ <span data-ttu-id="32a69-113">Wanneer u een document in [!INCLUDE[d365fin](includes/d365fin_md.md)] boekt, hoeft u niet meer de documentdimensies te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="32a69-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
 
- <span data-ttu-id="e4b80-114">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="e4b80-114">**Earlier Versions**</span></span>  
+ <span data-ttu-id="32a69-114">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="32a69-114">**Earlier Versions**</span></span>  
 
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
@@ -84,10 +84,10 @@ SalesShptLine."Dimension Set ID”
   := SalesLine."Dimension Set ID”  
 ```  
 
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="e4b80-115">Dimensies uit een document bewerken</span><span class="sxs-lookup"><span data-stu-id="e4b80-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="e4b80-116">U kunt dimensies uit een document bewerken.</span><span class="sxs-lookup"><span data-stu-id="e4b80-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="e4b80-117">U kunt bijvoorbeeld een verkooporderregel bewerken.</span><span class="sxs-lookup"><span data-stu-id="e4b80-117">For example, you can edit a sales order line.</span></span>  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="32a69-115">Dimensies uit een document bewerken</span><span class="sxs-lookup"><span data-stu-id="32a69-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="32a69-116">U kunt dimensies uit een document bewerken.</span><span class="sxs-lookup"><span data-stu-id="32a69-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="32a69-117">U kunt bijvoorbeeld een verkooporderregel bewerken.</span><span class="sxs-lookup"><span data-stu-id="32a69-117">For example, you can edit a sales order line.</span></span>  
 
- <span data-ttu-id="e4b80-118">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="e4b80-118">**Earlier Versions**</span></span>  
+ <span data-ttu-id="32a69-118">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="32a69-118">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function ShowDimensions:  
@@ -110,10 +110,10 @@ Table 37, function ShowDimensions:
     "Dimension ID");  
 ```  
 
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="e4b80-119">Dimensies van geboekte posten weergeven</span><span class="sxs-lookup"><span data-stu-id="e4b80-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="e4b80-120">U kunt dimensies van geboekte posten tonen, zoals verkoopverzendregels.</span><span class="sxs-lookup"><span data-stu-id="e4b80-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="32a69-119">Dimensies van geboekte posten weergeven</span><span class="sxs-lookup"><span data-stu-id="32a69-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="32a69-120">U kunt dimensies van geboekte posten tonen, zoals verkoopverzendregels.</span><span class="sxs-lookup"><span data-stu-id="32a69-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
 
- <span data-ttu-id="e4b80-121">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="e4b80-121">**Earlier Versions**</span></span>  
+ <span data-ttu-id="32a69-121">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="32a69-121">**Earlier Versions**</span></span>  
 
 ```  
 Table 111, function ShowDimensions:  
@@ -136,10 +136,10 @@ DimSetEntry.ShowDimensionSet(
   "Dimension ID");  
 ```  
 
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="e4b80-122">Standaarddimensies ophalen voor een document</span><span class="sxs-lookup"><span data-stu-id="e4b80-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="e4b80-123">U kunt standaarddimensies krijgen voor een document, zoals een verkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="e4b80-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="32a69-122">Standaarddimensies ophalen voor een document</span><span class="sxs-lookup"><span data-stu-id="32a69-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="32a69-123">U kunt standaarddimensies krijgen voor een document, zoals een verkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="32a69-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
 
- <span data-ttu-id="e4b80-124">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="e4b80-124">**Earlier Versions**</span></span>  
+ <span data-ttu-id="32a69-124">**Eerdere versies**</span><span class="sxs-lookup"><span data-stu-id="32a69-124">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function CreateDim()  
@@ -194,7 +194,6 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="e4b80-125">Zie ook</span><span class="sxs-lookup"><span data-stu-id="e4b80-125">See Also</span></span>  
-<span data-ttu-id="e4b80-126">[Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="e4b80-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-<span data-ttu-id="e4b80-127">[Ontwerpdetails: Tabelstructuur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="e4b80-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
-[<span data-ttu-id="e4b80-128">Ontwerpdetails: Codeunit 408 dimensiebeheer</span><span class="sxs-lookup"><span data-stu-id="e4b80-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
+## <a name="see-also"></a><span data-ttu-id="32a69-125">Zie ook</span><span class="sxs-lookup"><span data-stu-id="32a69-125">See Also</span></span>  
+<span data-ttu-id="32a69-126">[Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="32a69-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+[<span data-ttu-id="32a69-127">Ontwerpdetails: Tabelstructuur</span><span class="sxs-lookup"><span data-stu-id="32a69-127">Design Details: Table Structure</span></span>](design-details-table-structure.md)   
