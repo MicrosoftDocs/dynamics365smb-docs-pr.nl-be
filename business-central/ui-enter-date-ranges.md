@@ -2,21 +2,21 @@
 title: Datums en tijden invoeren in Business Central | Microsoft Docs
 description: Leren hoe u datums en tijden invoert, inclusief verschillende productiviteitstips, zoals steno, en expressies en bereiken. Lijsten of rapporten filteren op specifieke datums of perioden.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250952"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000775"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
@@ -24,7 +24,7 @@ ms.locfileid: "1250952"
 
 ## <a name="check-your-region-and-language-settings"></a>Uw regio- en taalinstellingen controleren
 
-Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 " Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") worden de **Regio** en de **Taal** opgegeven die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert. 
+Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 " Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") worden de **Regio** en de **Taal** opgegeven die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert.
 
 -   De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
 
@@ -33,7 +33,7 @@ Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruikt het Gregoriaanse kalendersysteem.
 
-<!-- 
+<!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
@@ -43,7 +43,7 @@ In een datumveld kunt u een datum invoeren met de standaardnotatie voor uw regio
 
 De notatie waarin datums in afgedrukte rapporten of ge-e-mailde documenten worden weergegeven, wordt niet beïnvloed door uw persoonlijke keuze van de regio-instelling.
 
-Als u productiever met datums en tijden wilt werken, kunt u elke methode of notatie gebruiken die in de volgende gedeelten wordt beschreven. 
+Als u productiever met datums en tijden wilt werken, kunt u elke methode of notatie gebruiken die in de volgende gedeelten wordt beschreven.
 
 ### <a name="picking-dates-from-the-calendar"></a>Datums ophalen uit de kalender
 
@@ -55,9 +55,9 @@ Zie ook [Toetsenbordsneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md
 
 ### <a name="day-week-year-pattern"></a>Dag\-week\-jaar patroon
 
-U kunt een datum als dag van de week invoeren, gevolgd door een weeknummer en desgewenst een jaar. Bijvoorbeeld `Mon25` of `mon25` betekent maandag in week 25. Als u geen jaar invoert, wordt het jaar van de werkdatum gebruikt.
+U kunt een datum als dag van de week invoeren, gevolgd door een weeknummer en desgewenst een jaar. Bijvoorbeeld Maa25 of maa25 betekent maandag in week 25. Als u geen jaar invoert, wordt het jaar van de werkdatum gebruikt.
 
-U kunt in plaats van het volledige woord voor de dag van de week een deel van het woord invoeren, vanaf het begin. In het geval van conflicten (zoals met `s`, wat zowel Saturday als Sunday kan zijn), worden de dagen geëvalueerd op basis van de instellingen van de regio. De invoer wordt ook eerst geëvalueerd tegen `workdate` en `today`, dus houd daar rekening mee wanneer u afkortingen gebruikt. `t` betekent bijvoorbeeld al vandaag, dus het kan niet ook Tuesday of Thursday betekenen.
+U kunt in plaats van het volledige woord voor de dag van de week een deel van het woord invoeren, vanaf het begin. In het geval van conflicten (zoals met z, wat zowel zaterdag als zondag kan zijn), worden de dagen geëvalueerd op basis van de instellingen van de regio. De invoer wordt ook eerst geëvalueerd tegen werkdatum en vandaag, dus houd daar rekening mee wanneer u afkortingen gebruikt. v betekent bijvoorbeeld al vandaag, dus het kan niet ook vrijdag betekenen.
 
 Het schema van het weeknummer is altijd ISO 8601, waar week 1 de week met 4 januari erin is of de week met de eerste donderdag van het jaar.
 
@@ -69,15 +69,15 @@ Een datumveld kan twee, vier, zes of acht cijfers bevatten:
 
 -   Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd. De volgorde van de dag en de maand wordt bepaald door uw regio-instellingen. Zelfs als uw regio-instellingen het jaar vóór de dag en de maand bevatten, worden vier cijfers geïnterpreteerd als de dag en de maand.
 
--   Als de ingevoerde datum in de reeks 01/01/1930 tot en met 31/12/2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.
+-   Als de ingevoerde datum in de reeks 01.01.1930 tot en met 31.12.2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.
 
 ### <a name="today"></a>Vandaag
 
-Voer voor `today` in de taal die is ingesteld door **Taal**, het woord in waarmee de datum op de huidige datum wordt ingesteld. In plaats van het hele woord in te voeren kunt u een deel van het woord invoeren, te beginnen met het begin, bijvoorbeeld `t` of `tod`, zolang het niet ook het begin van een ander woord is.
+Voer voor vandaag in de taal die is ingesteld door **Taal**, het woord in waarmee de datum op de huidige datum wordt ingesteld. In plaats van het hele woord in te voeren kunt u een deel van het woord invoeren, te beginnen met het begin, bijvoorbeeld v of van, zolang het niet ook het begin van een ander woord is.
 
 ### <a name="period"></a>Periode
 
-Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter `p` of het woord `period` in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals `p2` of `period4`. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21-3-20** is, wordt met `p1` of alleen `p` gefilterd op de eerste boekingsperiode van het boekjaar 2020 (bijvoorbeeld `01/01/20..01/31/20`). Met `p15` wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2020 (bijvoorbeeld `03/01/21..03/31/21`). 
+Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21.3.20** is, wordt met p1 of alleen p gefilterd op de eerste boekingsperiode van het boekjaar 2020 (bijvoorbeeld 1.1.20..31.1.20). Met p15 wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2020 (bijvoorbeeld 1.3.21..31.3.21).
 
 De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
 
@@ -95,7 +95,7 @@ Zie ook [Basisinstellingen wijzigen, zoals de werkdatum](ui-change-basic-setting
 
 Als u een boekjaar afsluit, kunt u ultimodatums gebruiken om aan te geven dat het om een ultimopost gaat. Een ultimodatum ligt technisch gezien tussen twee datums in, zoals tussen 31 december en 1 januari.
 
-Als u een datum wilt opgeven die een ultimodatum is, plaatst u `C` vlak vóór de datum, bijvoorbeeld `C123101`. Dit kan in combinatie met alle datumpatronen worden gebruikt.
+Als u een datum wilt opgeven die een ultimodatum is, plaatst u U vlak vóór de datum, bijvoorbeeld U311201. Dit kan in combinatie met alle datumpatronen worden gebruikt.
 
 ### <a name="examples"></a>Voorbeelden
 
@@ -103,24 +103,24 @@ De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uit
 
 |**Invoer**      |**Interpretatie**      |
 |---------------|------------------------|
-|`2018.12.31.`|2018.12.31.|
-|`181231`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`20181231`|2018.12.31.|
-|`18/12,31`|2018.12.31.|
-|`11`|jaar van werkdatum.maand van werkdatum.11.|
-|`1112`|jaar van werkdatum.11.12.|
-|`t` of `today`|datum van vandaag|
-|`p4`|datumbereik dat de vierde boekhoudperiode bevat, bijvoorbeeld `04/01/20..04/30/20`|
-|`w` of `workdate`|de werkdatum|
-|`m` of `Monday`|Maandag van de werkdatumweek|
-|`tu` of `Tuesday`|Dinsdag van de werkdatumweek|
-|`sa` of `Saturday`|Zaterdag van de werkdatumweek|
-|`s` of `Sunday`|Zondag van de werkdatumweek|
-|`t23`|Dinsdag van week 23 van het werkdatumjaar|
-|`t 23`|Dinsdag van week 23 van het werkdatumjaar|
-|`t-1`|Dinsdag van week 1 van het werkdatumjaar|
+|2018.12.31.|31.12.2018.|
+|181231|31.12.2018.|
+|18.12.31.|31.12.2018.|
+|18.12.31.|31.12.2018.|
+|20181231|31.12.2018.|
+|18/12,31|31.12.2018.|
+|11|jaar van werkdatum.maand van werkdatum.11.|
+|1112|jaar van werkdatum.11.12.|
+|h of huidige datum|datum van vandaag|
+|p4|datumbereik dat de vierde boekhoudperiode bevat, bijvoorbeeld 1.4.20..30.4.20|
+|w of werkdatum|de werkdatum|
+|ma of maandag|Maandag van de werkdatumweek|
+|di of dinsdag|Dinsdag van de werkdatumweek|
+|za of zaterdag|Zaterdag van de werkdatumweek|
+|z of zondag|Zondag van de werkdatumweek|
+|d23|Dinsdag van week 23 van het werkdatumjaar|
+|d 23|Dinsdag van week 23 van het werkdatumjaar|
+|d-1|Dinsdag van week 1 van het werkdatumjaar|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Datumbereiken instellen
 
@@ -128,17 +128,17 @@ In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en da
 
 |**Betekenis**|**Voorbeeldexpressie (datum)**|**Gegevens opgenomen in het filter**|
 |-----------|---------------------|--------------------|
-|Interval|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Records met datums tussen 12 15 00 en 01 15 01.<br /><br />Records met datums van 12 15 00 of eerder.<br /><br />Datumbereik dat de tweede, derde en vierde boekhoudperiode bevat, bijvoorbeeld `01/01/20..04/30/20`.|
-|Of/of|`12 15 00|12 16 00`|Records met datums van of 12 15 00 of 12 16 00. Als er records zijn met datums op beide dagen, worden ze allemaal weergegeven.|
-|Combinatie|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Records met datums van 12-15-00 of op datums in de periode 12-01-00 t/m 12-10-00.  \nRecords met datums van 12-14 00 of eerder, of datums van 12 30 00 of later. Dit wil zeggen, alle records, behalve records met datums tussen 12 15 00 en 12 29 00.|
+|Interval|15.12.00..15.01.01<br /><br />..15.12.00<br /><br />p1..p4|Records met datums tussen 15.12.00 en 15.01.01.<br /><br />Records met datums van 15.12.00 of eerder.<br /><br />Datumbereik dat de tweede, derde en vierde boekhoudperiode bevat, bijvoorbeeld 1.1.20..30.4.20..|
+|Of/of|15.12.00|16.12.00|Records met datums van of 15.12.00 of 16.12.00. Als er records zijn met datums op beide dagen, worden ze allemaal weergegeven.|
+|Combinatie|15.12.00|01.12.00..10.12.00  \n..14.12.00|30.12.00..|Records met datums van 15.12.00 of op datums in de periode 01.12.00 t/m 10.12.00.  \Records met datums van 12.14.00 of eerder, of datums van 12.30.00 of later. Dit wil zeggen, alle records, behalve records met datums tussen 15.12.00 en 29.12.00.|
 
-U kunt iedere geldige indeling in datumbereikfilters gebruiken. Bijvoorbeeld `mon14 3..t 4p`, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.
+U kunt iedere geldige indeling in datumbereikfilters gebruiken. Bijvoorbeeld maa14 3..v 4p, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.
 
 ## <a name="using-date-formulas"></a>Datumformules gebruiken
 Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend. U kunt datumformules invoeren in verschillende datumberekeningsvelden of -filters.
 
 > [!NOTE]
->  In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode. Als u dus bijvoorbeeld `1W` invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook wordt opgenomen. Als u een periode van zeven dagen \(exact één week\) wilt opgeven, inclusief de begindatum van de periode, moet u `6D` of `1W-1D` invoeren.
+>  In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode. Als u dus bijvoorbeeld 1W invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook wordt opgenomen. Als u een periode van zeven dagen \(exact één week\) wilt opgeven, inclusief de begindatum van de periode, moet u 6D of 1W-1D opgeven.
 
 Hier volgen enkele voorbeelden van het gebruik van datumformules:
 
@@ -152,50 +152,50 @@ De datumformule kan maximaal 20 tekens bevatten (cijfers en letters). U kunt de 
 
 |  Letter  |  Betekenis  |
 |----------|----------------------|
-|`C`|Actueel|
-|`D`|Dag\(en\)|
-|`W`|We(e)k\(en\)|
-|`M`|Maand\(en\)|
-|`Q`|Kwarta(a)l\(en\)|
-|`Y`|Ja(a)r\(en\)|
+|H|Huidig|
+|D|Dag\(en\)|
+|W|We(e)k\(en\)|
+|M|Maand\(en\)|
+|K|Kwarta(a)l\(en\)|
+|J|Ja(a)r\(en\)|
 
 Er zijn drie soorten datumformules.
 
-In het volgende voorbeeld wordt weergegeven hoe `C` kan worden gebruikt voor huidig en een tijdseenheid.
+In het volgende voorbeeld wordt weergegeven hoe H kan worden gebruikt voor huidig en een tijdseenheid.
 
 |  Expressie  |  Betekenis  |
 |--------------|-----------|
-|`CW`|Lopende week|
-|`CM`|Lopende maand|
+|LW|Lopende week|
+|LM|Lopende maand|
 
 In het volgende voorbeeld wordt weergegeven hoe een getal en een tijdseenheid moet worden gebruikt. Nummers mogen niet groter zijn dan 9999.
 
 |  Expressie  |  Betekenis  |
 |--------------|-----------|
-|`10D`|10 dagen vanaf vandaag|
-|`2W`|2 weken vanaf vandaag|
+|10D|10 dagen vanaf vandaag|
+|2W|2 weken vanaf vandaag|
 
 In het volgende voorbeeld wordt weergegeven hoe een tijdseenheid en een getal moet worden gebruikt.
 
 |  Expressie  |  Betekenis  |
 |--------------|-----------|
-|`D10`|De volgende tiende dag van een maand|
-|`WD4`|De volgende vierde dag van een week \(donderdag\)|
+|D10|De volgende tiende dag van een maand|
+|WD4|De volgende vierde dag van een week \(donderdag\)|
 
 Het volgende voorbeeld geeft weer hoe u deze drie soorten naar wens kunt combineren.
 
 |  Expressie  |  Betekenis  |
 |--------------|-----------|
-|`CM+10D`|Lopende maand \+ 10 dagen|
+|LM+10D|Lopende maand \+ 10 dagen|
 
 In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het verleden aan te duiden.
 
 |  Expressie  |  Betekenis  |
 |--------------|-----------|
-|`-1Y`|1 jaar geleden vanaf vandaag|
+|-1J|1 jaar geleden vanaf vandaag|
 
 > [!IMPORTANT]
->  Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag. Bijvoorbeeld: `1W` betekent zeven werkdagen.
+>  Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag. Bijvoorbeeld: 1W betekent zeven werkdagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -294,26 +294,26 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 
 |**Invoer**      |**Interpretatie**      |
 |---------------|------------------------|
-|`05:23:17`|05:23:17|
-|`5`|05:00:00|
-|`5AM`|05:00:00|
-|`5P`|17:00:00|
-|`12`|12:00:00|
-|`12A`|00:00:00|
-|`12P`|12:00:00|
-|`17`|17:00:00|
-|`5:30`|05:30:00|
-|`0530`|05:30:00|
-|`5:30:5`|05:30:05|
-|`053005`|05:30:05|
-|`5:30:5,50`|05:30:05,5|
-|`053005050`|05:30:05.05|
+|05:23:17|05:23:17|
+|5|05:00:00|
+|5AM|05:00:00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05:30:00|
+|0530|05:30:00|
+|5:30:5|05:30:05|
+|053005|05:30:05|
+|5:30:5.50|05:30:05,5|
+|053005050|05:30:05.05|
 
-Houd er rekening mee dat milliseconden als decimale notatie worden geïnterpreteerd. Bijvoorbeeld `3`, `30` en `300` betekenen allemaal 300 milliseconden, en `03` betekent `30` en `003` betekent 3 milliseconden.
+Houd er rekening mee dat milliseconden als decimale notatie worden geïnterpreteerd. Bijvoorbeeld 3, 30 en 300 betekenen allemaal 300 milliseconden, en 03 betekent 30 en 003 betekent 3 milliseconden.
 
-U kunt `24:00` niet voor middernacht gebruiken of gebruiken als waarde groter dan 24:00.
+U kunt 24:00 niet voor middernacht gebruiken of een waarde groter dan 24:00 gebruiken.
 
-Het woord voor 'tijd' in de taal die [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals `t` of `TIM`.
+Het woord voor 'tijd' in de taal die [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals t of TIJ.
 
 ## <a name="entering-combined-dates-and-times"></a>Gecombineerde datums en tijden invoeren
 Wanneer u een datumtijd invoert (een datum en een tijd gecombineerd tot één veld), moet u een spatie invoeren tussen de datum en de tijd. Het datumdeel kan alleen spaties in de vorm van het officiële datumscheidingsteken van uw regio-instellingen bevatten. De tijd kan spaties bevatten rond de AM/PM-indicator.
@@ -324,27 +324,27 @@ In de volgende tabel staan enkele voorbeelden van datum/tijd-combinaties. Met de
 
 |**Invoer**      |**Interpretatie**      |
 |---------------|------------------------|
-|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 PM|
-|`131202 132455`|13\-12\-2002 13:24:55|
-|`1-12-02 10`|01\-12\-2002 10:00:00|
-|`1.12.02 5`|01\-12\-2002 05:00:00|
-|`1.12.02`|01\-12\-2002 00:00:00|
-|`11 12`|11\-werkdatummaand\-werkdatumjaar 12:00:00|
-|`1112 12`|11\-12\-werkdatumjaar 12:00:00|
-|`t` of `today`|huidige datum 00:00:00|
-|`t 10:30`|huidige datum 10:30:00|
-|`t 3:3:3`|huidige datum 03:03:03|
-|`w` of `workdate`|de werkdatum 00:00:00|
-|`m` of `Monday`|Maandag van de werkdatumweek 00:00:00|
-|`tu` of `Tuesday`|Dinsdag van de werkdatumweek 00:00:00|
-|`sa` of `Saturday`|Zaterdag van de werkdatumweek 00:00:00|
-|`s` of `Sunday`|Zondag van de werkdatumweek 00:00:00|
-|`tu 10:30`|Dinsdag van de werkdatumweek 10:30:00|
-|`tu 3:3:3`|Dinsdag van de werkdatumweek 03:03:03|
-|`t23 t`|Dinsdag van week 23 van het werkdatumjaar huidige tijd van dag|
-|`t23`|Dinsdag van week 23 van het werkdatumjaar|
-|`t 23`|Vandaag 23:00:00|
-|`t-1`|Dinsdag van week 1 van het werkdatumjaar|
+|08-01-2016 05:48:12 PM|08.01.2016 17:48:12|
+|131202 132455|13.12.2002 13:24:55|
+|1-12-02 10|01.12.2002 10:00:00|
+|1.12.02 5|01.12.2002 05:00:00|
+|1.12.02|01.12.2002 00:00:00|
+|11 12|11.werkdatummaand.werkdatumjaar 12:00:00|
+|1112 12|11.12.werkdatumjaar 12:00:00|
+|h of huidige datum|huidige datum 00:00:00|
+|h 10:30|huidige datum 10:30:00|
+|h 3:3:3|huidige datum 03:03:03|
+|w of werkdatum|de werkdatum 00:00:00|
+|ma of maandag|Maandag van de werkdatumweek 00:00:00|
+|di of dinsdag|Dinsdag van de werkdatumweek 00:00:00|
+|za of zaterdag|Zaterdag van de werkdatumweek 00:00:00|
+|z of zondag|Zondag van de werkdatumweek 00:00:00|
+|di 10:30|Dinsdag van de werkdatumweek 10:30:00|
+|di 3:3:3|Dinsdag van de werkdatumweek 03:03:03|
+|d23 t|Dinsdag van week 23 van het werkdatumjaar huidige tijd van dag|
+|d23|Dinsdag van week 23 van het werkdatumjaar|
+|d 23|Vandaag 23:00:00|
+|d-1|Dinsdag van week 1 van het werkdatumjaar|
 
 ## <a name="entering-duration"></a>Duur invoeren
 Sommige velden in toepassingsmodule vertegenwoordigen een duur of hoeveelheid verstreken tijd, in plaats van een specifieke datum of tijd. De duur moet worden ingevoerd als een getal gevolgd door de eenheid.
@@ -353,19 +353,18 @@ Hier volgen enkele voorbeelden.
 
 |**Duur**|**Eenheid**|
 |------------|-------------------|
-|`2h`|2 uur|
-|`6h 30 m`|6 uur en 30 minuten|
-|`6.5h`|6 uur en 30 minuten|
-|`90m`|1 uur en 30 minuten|
-|`2d 6h 30m`|2 dagen, 6 uur en 30 minuten|
-|`2d 6h 30m 56s 600ms`|2 dagen, 6 uur, 30 minuten, 56 seconden en 600 milliseconden|
+|2u|2 uur|
+|6u 30 m|6 uur en 30 minuten|
+|6,5u|6 uur en 30 minuten|
+|90m|1 uur en 30 minuten|
+|2d 6u 30m|2 dagen, 6 uur en 30 minuten|
+|2d 6u 30m 56s 600ms|2 dagen, 6 uur, 30 minuten, 56 seconden en 600 milliseconden|
 
 U kunt ook een getal invoeren, dat automatisch naar een duur wordt geconverteerd. Dit gebeurt op basis van de standaardeenheid die in het veld Duur is ingevoerd.
 
 Als u wilt nagaan welke eenheid wordt gebruikt in het veld Duur, voert u een getal in en bekijkt u in welke eenheid het getal wordt omgezet.
 
-Als de maateenheid uren is, wordt het getal `5` bijvoorbeeld naar 5 uur geconverteerd.
-
+Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  

@@ -1,27 +1,27 @@
 ---
 title: Gegevens invoeren in velden | Microsoft Docs
 description: Leer over algemene functies die u helpen gegevens in velden in te voeren.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
-ms.author: jswymer
-ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621172"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000799"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
 Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De algemene functies voor het invoeren van gegevens worden in dit artikel beschreven.  
 
-<!-- The examples in this article use the demonstration data.-->
+In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
 
 ## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -146,7 +146,7 @@ Voor handmatige datuminvoer kunt u twee, vier, zes of acht cijfers invoeren:
 
 -   Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd.  
 
--   Als de ingevoerde datum in de reeks 01/01/1930 tot en met 31/12/2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.  
+-   Als de ingevoerde datum in de reeks 01.01.1930 tot en met 31.12.2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.  
 
 U kunt een datum ook invoeren als een weekdag gevolgd door een weeknummer en eventueel het jaar (Ma25 of ma25 duidt bijvoorbeeld op maandag in week 25).  
 
@@ -155,9 +155,9 @@ U kunt in plaats van een specifieke datum ook een van deze codes invoeren.
 |Code|Resultaat|  
 |--------------|----------------|  
 |h|Dit is de datum van vandaag (de systeemdatum voor de computer).|  
-|p|Hiermee geeft u een boekhoudingsperiode op, waarbij `p` de eerste boekhoudingsperiode is, `p2` de tweede boekhoudingsperiode is, enzovoort. |
+|p|Hiermee wordt een boekhoudperiode opgegeven, waarbij p de eerste boekhoudperiode is, p2 de tweede boekhoudperiode is, enzovoort. |
 |w|Dit is de werkdatum die is ingesteld in de toepassing. Zie [Basisinstellingen wijzigen](ui-change-basic-settings.md) als u de werkdatum wilt wijzigen. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.|
-|l|Hiermee geeft u op dat de datum na `c` een ultimodatum is, bijvoorbeeld `C123101`.|  
+|u|Hiermee geeft u op dat de datum na u een ultimodatum is, bijvoorbeeld U311201.|  
 
 ## <a name="entering-times"></a>Tijden invoeren
 
@@ -185,12 +185,12 @@ In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoe
 
 |Post|Interpretatie|  
 |---------------|------------------------|  
-|131202 132455|13-12-02 13:24:55|  
-|1-12-02 10|01-12-02 10:00:00|  
-|1.12.02 5|01-12-02 05:00:00|  
-|1.12.02|01-12-02 00:00:00|  
-|11 12|11-huidige maand-huidig jaar 12:00:00|  
-|1112 12|11-12-huidig jaar 12:00:00|  
+|131202 132455|13.12.02 13:24:55|  
+|1-12-02 10|01.12.02 10:00:00|  
+|1.12.02 5|01.12.02 05:00:00|  
+|1.12.02|01.12.02 00:00:00|  
+|11 12|11.huidige maand.huidig jaar 12:00:00|  
+|1112 12|11.12.huidig jaar 12:00:00|  
 |h of huidige datum|huidige datum 00:00:00|  
 |h tijd|huidige datum werkelijke tijd|  
 |h 10:30|huidige datum 10:30:00|  
@@ -207,7 +207,6 @@ In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoe
 |di 3:3:3|Dinsdag van de huidige week 03:03:03|  
 
 ## <a name="entering-duration"></a>Duur invoeren
-
 De duur moet worden ingevoerd als een getal gevolgd door de eenheid.  
 
 Hier volgen enkele voorbeelden.  
@@ -226,86 +225,6 @@ Hier volgen enkele voorbeelden.
  Als u wilt nagaan welke eenheid wordt gebruikt in het veld Duur, voert u een getal in en bekijkt u in welke eenheid het getal wordt omgezet.  
 
  Het getal 5 wordt omgezet in 5 uur, als de eenheid uit uren bestaat.  
-
-<!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
- You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
-
-|**Meaning**|**Sample expression**|**Entries included**|  
-|-----------------|---------------------------|--------------------------|  
-|**Equal to**|12 15 00|Only those posted on 12 15 00.|  
-|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|  
-|**Either/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|  
-
- You can also combine the various format types.  
-
-|**Sample expression**|**Entries included**|  
-|---------------------------|--------------------------|  
-|12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
-
-## Using Date Formulas
-
- A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
-
-> [!NOTE]  
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
-
- Here are some examples of how date formulas can be used:  
-
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
-
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
-
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
-
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
-
-|||  
-|-|-|  
-|C|Current|  
-|D|Day(s)|  
-|W|Week(s)|  
-|M|Month(s)|  
-|Q|Quarter(s)|  
-|Y|Year(s)|  
-
- You can construct a date formula in three ways.  
-
- The following example shows how current plus a time unit.  
-
-|||  
-|-|-|  
-|CW|Current week|  
-|CM|Current month|  
-
- The following example shows how a number and a time unit. A number cannot be larger than 9999.  
-
-|||  
-|-|-|  
-|10D|10 days from today|  
-|2W|2 weeks from today|  
-
- The following example shows how a time unit and a number.  
-
-|||  
-|-|-|  
-|D10|The next 10th day of a month|  
-|WD4|The next 4th day of a week (Thursday)|  
-
- The following example shows how you can combine these three forms as needed.  
-
-|||  
-|-|-|  
-|CM+10D|Current month + 10 days|  
-
- The following example shows how you can use a minus sign to indicate a date in the past.  
-
-|||  
-|-|-|  
-|-1Y|1 year ago from today|
-
-[!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
 
 ## <a name="see-also"></a>Zie ook  
  [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
