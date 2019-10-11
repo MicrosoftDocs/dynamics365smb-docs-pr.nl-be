@@ -1,52 +1,53 @@
 ---
 title: Ondernemingnummers en filiaalnummers
 description: Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen. Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.prod: dynamics-nav-2018
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2096dd6ad891af4f97d84c172b090d961907b833
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2df309468ff44f5ca2dcce3b6e205da6c2c337d1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237548"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301408"
 ---
-# <a name="enterprise-numbers-and-branch-numbers"></a><span data-ttu-id="cb695-104">Ondernemingnummers en filiaalnummers</span><span class="sxs-lookup"><span data-stu-id="cb695-104">Enterprise Numbers and Branch Numbers</span></span>
-<span data-ttu-id="cb695-105">Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen.</span><span class="sxs-lookup"><span data-stu-id="cb695-105">Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises.</span></span> <span data-ttu-id="cb695-106">Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.</span><span class="sxs-lookup"><span data-stu-id="cb695-106">These numbers are used in all correspondence to simplify communication with the Belgian administrative and legal authorities.</span></span>  
+# <a name="enterprise-numbers-and-branch-numbers"></a><span data-ttu-id="0eb22-104">Ondernemingnummers en filiaalnummers</span><span class="sxs-lookup"><span data-stu-id="0eb22-104">Enterprise Numbers and Branch Numbers</span></span>
+<span data-ttu-id="0eb22-105">Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen.</span><span class="sxs-lookup"><span data-stu-id="0eb22-105">Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises.</span></span> <span data-ttu-id="0eb22-106">Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.</span><span class="sxs-lookup"><span data-stu-id="0eb22-106">These numbers are used in all correspondence to simplify communication with the Belgian administrative and legal authorities.</span></span>  
 
-## <a name="enterprise-numbers"></a><span data-ttu-id="cb695-107">Ondernemingsnummers</span><span class="sxs-lookup"><span data-stu-id="cb695-107">Enterprise Numbers</span></span>  
- <span data-ttu-id="cb695-108">Het ondernemingsnummer vervangt het bestaande btw-nummer.</span><span class="sxs-lookup"><span data-stu-id="cb695-108">The enterprise number replaces the existing VAT number.</span></span> <span data-ttu-id="cb695-109">Voor bestaande bedrijven met een btw-nummer wordt het ondernemingsnummer ingesteld als het btw-nummer voorafgegaan door een voorloopnul.</span><span class="sxs-lookup"><span data-stu-id="cb695-109">For existing companies with a VAT registration number, the enterprise number is set as the VAT registration number preceded by a leading zero.</span></span> <span data-ttu-id="cb695-110">Nieuwe bedrijven krijgen een nieuw ondernemingsnummer.</span><span class="sxs-lookup"><span data-stu-id="cb695-110">New companies will receive a new enterprise number.</span></span>  
+## <a name="enterprise-numbers"></a><span data-ttu-id="0eb22-107">Ondernemingsnummers</span><span class="sxs-lookup"><span data-stu-id="0eb22-107">Enterprise Numbers</span></span>  
+ <span data-ttu-id="0eb22-108">Het ondernemingsnummer vervangt het bestaande btw-nummer.</span><span class="sxs-lookup"><span data-stu-id="0eb22-108">The enterprise number replaces the existing VAT number.</span></span> <span data-ttu-id="0eb22-109">Voor bestaande bedrijven met een btw-nummer wordt het ondernemingsnummer ingesteld als het btw-nummer voorafgegaan door een voorloopnul.</span><span class="sxs-lookup"><span data-stu-id="0eb22-109">For existing companies with a VAT registration number, the enterprise number is set as the VAT registration number preceded by a leading zero.</span></span> <span data-ttu-id="0eb22-110">Nieuwe bedrijven krijgen een nieuw ondernemingsnummer.</span><span class="sxs-lookup"><span data-stu-id="0eb22-110">New companies will receive a new enterprise number.</span></span>  
 
- <span data-ttu-id="cb695-111">Het ondernemingsnummer wordt afgedrukt op de volgende documenten:</span><span class="sxs-lookup"><span data-stu-id="cb695-111">The enterprise number is printed on the following documents:</span></span>  
+ <span data-ttu-id="0eb22-111">Het ondernemingsnummer wordt afgedrukt op de volgende documenten:</span><span class="sxs-lookup"><span data-stu-id="0eb22-111">The enterprise number is printed on the following documents:</span></span>  
 
--   <span data-ttu-id="cb695-112">Uitgaande verkoop- en inkoopdocumenten</span><span class="sxs-lookup"><span data-stu-id="cb695-112">Outgoing sales and purchase documents</span></span>  
--   <span data-ttu-id="cb695-113">Financiële overzichten</span><span class="sxs-lookup"><span data-stu-id="cb695-113">Financial statements</span></span>  
--   <span data-ttu-id="cb695-114">Aanmaningen en rentefacturen</span><span class="sxs-lookup"><span data-stu-id="cb695-114">Reminders and finance charge memos</span></span>  
--   <span data-ttu-id="cb695-115">Intrastat-formulieren en -bestanden</span><span class="sxs-lookup"><span data-stu-id="cb695-115">Intrastat forms and files</span></span>  
+-   <span data-ttu-id="0eb22-112">Uitgaande verkoop- en inkoopdocumenten</span><span class="sxs-lookup"><span data-stu-id="0eb22-112">Outgoing sales and purchase documents</span></span>  
+-   <span data-ttu-id="0eb22-113">Financiële overzichten</span><span class="sxs-lookup"><span data-stu-id="0eb22-113">Financial statements</span></span>  
+-   <span data-ttu-id="0eb22-114">Aanmaningen en rentefacturen</span><span class="sxs-lookup"><span data-stu-id="0eb22-114">Reminders and finance charge memos</span></span>  
+-   <span data-ttu-id="0eb22-115">Intrastat-formulieren en -bestanden</span><span class="sxs-lookup"><span data-stu-id="0eb22-115">Intrastat forms and files</span></span>  
 
-<span data-ttu-id="cb695-116">Het ondernemingsnummer is ingesteld op de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="cb695-116">The enterprise number is set up in the following locations:</span></span>  
+<span data-ttu-id="0eb22-116">Het ondernemingsnummer is ingesteld op de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="0eb22-116">The enterprise number is set up in the following locations:</span></span>  
 
--   <span data-ttu-id="cb695-117">Tabel Bedrijfsgegevens</span><span class="sxs-lookup"><span data-stu-id="cb695-117">Company Information table</span></span>  
--   <span data-ttu-id="cb695-118">Contactkaart</span><span class="sxs-lookup"><span data-stu-id="cb695-118">Contact card</span></span>  
--   <span data-ttu-id="cb695-119">Tabel Klant</span><span class="sxs-lookup"><span data-stu-id="cb695-119">Customer table</span></span>  
--   <span data-ttu-id="cb695-120">Tabel Leverancier</span><span class="sxs-lookup"><span data-stu-id="cb695-120">Vendor table</span></span>  
+-   <span data-ttu-id="0eb22-117">Tabel Bedrijfsgegevens</span><span class="sxs-lookup"><span data-stu-id="0eb22-117">Company Information table</span></span>  
+-   <span data-ttu-id="0eb22-118">Contactkaart</span><span class="sxs-lookup"><span data-stu-id="0eb22-118">Contact card</span></span>  
+-   <span data-ttu-id="0eb22-119">Tabel Klant</span><span class="sxs-lookup"><span data-stu-id="0eb22-119">Customer table</span></span>  
+-   <span data-ttu-id="0eb22-120">Tabel Leverancier</span><span class="sxs-lookup"><span data-stu-id="0eb22-120">Vendor table</span></span>  
 
-## <a name="branch-numbers"></a><span data-ttu-id="cb695-121">Filiaalnummers</span><span class="sxs-lookup"><span data-stu-id="cb695-121">Branch Numbers</span></span>  
- <span data-ttu-id="cb695-122">Er wordt een filiaalnummer aan een bedrijf gegeven om een adres aan te duiden waar ten minste een van de bedrijfsactiviteiten, bijvoorbeeld, een workshop, kantoor, magazijn, bureau of dochteronderneming, wordt uitgeoefend.</span><span class="sxs-lookup"><span data-stu-id="cb695-122">A branch number is given to a company to identify an address where at least one of the company’s activities is exercised, for example, a workshop, office, warehouse, agency, or subsidiary.</span></span> <span data-ttu-id="cb695-123">In tegenstelling tot het ondernemingsnummer hoeft het filiaalnummer niet te worden vermeld.</span><span class="sxs-lookup"><span data-stu-id="cb695-123">Unlike the enterprise number, there is no legal requirement to print the branch number.</span></span>  
+## <a name="branch-numbers"></a><span data-ttu-id="0eb22-121">Filiaalnummers</span><span class="sxs-lookup"><span data-stu-id="0eb22-121">Branch Numbers</span></span>  
+ <span data-ttu-id="0eb22-122">Er wordt een filiaalnummer aan een bedrijf gegeven om een adres aan te duiden waar ten minste een van de bedrijfsactiviteiten, bijvoorbeeld, een workshop, kantoor, magazijn, bureau of dochteronderneming, wordt uitgeoefend.</span><span class="sxs-lookup"><span data-stu-id="0eb22-122">A branch number is given to a company to identify an address where at least one of the company’s activities is exercised, for example, a workshop, office, warehouse, agency, or subsidiary.</span></span> <span data-ttu-id="0eb22-123">In tegenstelling tot het ondernemingsnummer hoeft het filiaalnummer niet te worden vermeld.</span><span class="sxs-lookup"><span data-stu-id="0eb22-123">Unlike the enterprise number, there is no legal requirement to print the branch number.</span></span>  
 
- <span data-ttu-id="cb695-124">Alle filialen van een bedrijf krijgen een uniek nummer dat afwijkt van het ondernemingsnummer.</span><span class="sxs-lookup"><span data-stu-id="cb695-124">All branches of a company will receive a unique number that is different from the enterprise number.</span></span> <span data-ttu-id="cb695-125">Het filiaalnummer kan worden overgedragen aan een ander bedrijf, bijvoorbeeld na een fusie of overname.</span><span class="sxs-lookup"><span data-stu-id="cb695-125">The branch number is transferable to another company, such as after a merger or takeover.</span></span>  
+ <span data-ttu-id="0eb22-124">Alle filialen van een bedrijf krijgen een uniek nummer dat afwijkt van het ondernemingsnummer.</span><span class="sxs-lookup"><span data-stu-id="0eb22-124">All branches of a company will receive a unique number that is different from the enterprise number.</span></span> <span data-ttu-id="0eb22-125">Het filiaalnummer kan worden overgedragen aan een ander bedrijf, bijvoorbeeld na een fusie of overname.</span><span class="sxs-lookup"><span data-stu-id="0eb22-125">The branch number is transferable to another company, such as after a merger or takeover.</span></span>  
 
- <span data-ttu-id="cb695-126">Het filiaalnummer is ingesteld op de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="cb695-126">The branch number is set up in the following locations:</span></span>  
+ <span data-ttu-id="0eb22-126">Het filiaalnummer is ingesteld op de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="0eb22-126">The branch number is set up in the following locations:</span></span>  
 
--   <span data-ttu-id="cb695-127">Tabel Bedrijfsgegevens</span><span class="sxs-lookup"><span data-stu-id="cb695-127">Company Information table</span></span>  
--   <span data-ttu-id="cb695-128">Tabel Vestiging</span><span class="sxs-lookup"><span data-stu-id="cb695-128">Location table</span></span>  
+-   <span data-ttu-id="0eb22-127">Tabel Bedrijfsgegevens</span><span class="sxs-lookup"><span data-stu-id="0eb22-127">Company Information table</span></span>  
+-   <span data-ttu-id="0eb22-128">Tabel Vestiging</span><span class="sxs-lookup"><span data-stu-id="0eb22-128">Location table</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="cb695-129">Zie ook</span><span class="sxs-lookup"><span data-stu-id="cb695-129">See Also</span></span>  
- [<span data-ttu-id="cb695-130">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="cb695-130">Belgium Local Functionality</span></span>](belgium-local-functionality.md)
+## <a name="see-also"></a><span data-ttu-id="0eb22-129">Zie ook</span><span class="sxs-lookup"><span data-stu-id="0eb22-129">See Also</span></span>  
+ [<span data-ttu-id="0eb22-130">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="0eb22-130">Belgium Local Functionality</span></span>](belgium-local-functionality.md)
