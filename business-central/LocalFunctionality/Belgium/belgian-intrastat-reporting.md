@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 316f3a31ee14d977ffad906328e2bb01efd42b01
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 1bcbe3433ab5bab0e8a7640db5c4791609ee5e7d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710958"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301413"
 ---
 # <a name="belgian-intrastat-reporting"></a>Belgische Intrastat-rapportage
 Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Dit rapportageproces verloopt via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem). Er zijn twee soorten Intrastat-aangiften:  

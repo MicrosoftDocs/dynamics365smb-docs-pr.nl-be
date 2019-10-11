@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7df3a8d81b2c8ffbe3e884c705aeb947e3cccc18
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: d1a2c6926bc42fc62fb976e2316c84e187210548
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711009"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301378"
 ---
 # <a name="set-up-declaration-types"></a>Aangiftesoorten instellen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zijn er twee soorten aangiftes:  
