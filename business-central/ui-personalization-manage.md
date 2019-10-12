@@ -1,115 +1,74 @@
 ---
-title: Personalisatie beheren als beheerder in Business Central | Microsoft Docs
-description: Meer informatie over hoe u de gebruikersinterface kunt aanpassen aan uw manier van werken.
+title: Pagina's aanpassen voor rollen | Microsoft Docs
+description: Leer hoe u de gebruikersinterface voor een profiel (rol) kunt aanpassen, zodat alle gebruikers aan wie die rol is toegewezen, een aangepaste werkruimte zien.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887749"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310816"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Personalisaties beheren als beheerder
+# <a name="customize-pages-for-profiles"></a>Pagina's aanpassen voor profielen
+Gebruikers kunnen pagina's die hun werkruimte vormen, aan hun eigen voorkeuren aanpassen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
- Gebruikers kunnen hun werkruimte aan hun eigen voorkeuren aanpassen. Als beheerder bepaalt en beheert u personalisatie door:
+Beheerders kunnen pagina's voor een profiel aanpassen, bijvoorbeeld op basis van de gerelateerde bedrijfsrol of -afdeling, zodat alle gebruikers aan wie het profiel is toegewezen, de aangepaste pagina-indeling zien. De beheerder past pagina's aan met dezelfde functionaliteit als gebruikers wanneer ze pagina's personaliseren.
 
--   De personalisatie in of uit te schakelen voor de hele toepassing (alleen on-premises installatie).
--   De personalisatiefunctie in of uit te schakelen voor gebruikers van een specifiek profiel.
--   Paginapersonalisaties te wissen die gebruikers hebben aangebracht.
+> [!NOTE]
+> Het typische zakelijke gebruik van een profiel is een rol. Een profiel wordt daarom genoemd *Profiel (rol)* in de gebruikersinterface.
 
-## <a name="EnablePersonalization"></a>Personalisatie in- of uitschakelen (alleen on-premises)
+Pagina-aanpassing begint vanaf de pagina **Profielen (rollen)**, het startpunt van de beheerder voor het beheren van gebruikersprofielen op individuele profielkaarten. Naast het aanpassen van de pagina-indeling kunt u verschillende andere instellingen voor profielen kiezen op de pagina **Profiel (rol)** voor elk profiel. Zie [Profielen beheren](admin-users-profiles-roles.md) voor meer informatie.
 
-Standaard is personalisatie niet ingeschakeld in de client. U schakelt personalisatie in of uit door het configuratiebestand te wijzigen (navsettings.json) van het Business Central-webserverexemplaar dat de clients bedient.
+## <a name="to-customize-pages-for-a-profile"></a>Pagina's aanpassen voor een profiel
+1. Kies het ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de regel voor het profiel waarvoor u pagina's wilt aanpassen en kies de actie **Bewerken**.
+3. Kies de actie **Pagina's aanpassen**.
 
-1. Als u personalisatie wilt inschakelen, voegt u de volgende regel toe aan het bestand navsettings.json:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt geopend met een nieuw browsertabblad voor het geselecteerde profiel met de banner **Aanpassen** geactiveerd. De banner **Aanpassen** biedt dezelfde functionaliteit als de banner **Personaliseren** die beschikbaar is voor gebruikers.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Pas pagina's aan volgens de behoeften van de betreffende rol of afdeling op dezelfde manier als een gebruiker zou doen bij het personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
-    Als u personalisatie wilt uitschakelen, verwijdert u deze regel of wijzigt u deze in:
+    > [!NOTE]
+    > Gebruik Ctrl+klik op een actie om te navigeren tijdens personalisatie als de actie wordt gemarkeerd door de pijlpunt.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. Wanneer u klaar bent met het wijzigen van de indeling van een of meer pagina's, kiest u de knop **Gereed** op de banner **Aanpassen**.
+6. Sluit het browsertabblad.
 
-    Voor meer informatie over hoe u het navsettings.json-bestand wijzigt raadpleegt u [Het bestand navsettings.json rechtstreeks wijzigen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings)
+De aanpassing van pagina's is nu vastgelegd voor het profiel.
 
-2. De toepassingssymbolen genereren en downloaden.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Alle aangepaste pagina's voor een profiel weergeven
+U kunt een overzicht krijgen van welke pagina's zijn aangepast voor een profiel, bijvoorbeeld om te plannen welke u verder wilt aanpassen of verwijderen.
 
-    Deze stap is optioneel en is niet vereist om personalisatie in te schakelen. Het zorgt echter dat nieuwe pagina's die worden gemaakt door ontwikkelaars, kunnen worden gepersonaliseerd.
+- Kies op de pagina **Profiel (rol)** de actie **Aangepaste pagina's**.
 
-    1. Eerst genereert u de symbolen door finsql.exe uit te voeren met de opdracht `generatesymbolreference`. Het finsql.exe-bestand bevindt zich in de installatiemap voor de [!INCLUDE[server](includes/server.md)] Dynamics NAV ontwikkelingsomgeving (CSIDE). Als u de symbolen wilt genereren, opent u een opdrachtprompt, wijzigt u de map waar het bestand is opgeslagen en voert u de volgende opdracht uit:
+## <a name="to-delete-all-customizations-for-a-profile"></a>Alle aanpassingen voor een profiel verwijderen
+U kunt alle aanpassingen die u hebt gemaakt voor een profiel, annuleren. Aanpassingen die met een extensie zijn aangebracht en door een gebruiker gemaakte personalisaties worden niet verwijderd. U kunt alle personalisaties met een andere actie verwijderen. Zie voor meer informatie [Alle aanpassingen verwijderen die door een gebruiker zijn aangebracht](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Voorbeeld:
+- Kies op de pagina **Profiel (rol)** voor een aangepast profiel de actie **Aangepaste pagina's wissen**.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+De indeling op pagina's voor het profiel wordt opnieuw ingesteld op de standaardindeling.  
 
-    Zie voor meer informatie [C/SIDE en AL naast elkaar uitvoeren](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Aanpassing verwijderen voor specifieke pagina's voor een profiel
+U kunt ook afzonderlijke pagina-aanpassingen verwijderen die u voor een profiel hebt aangebracht. Aanpassingen die met een extensie zijn aangebracht en door een gebruiker gemaakte personalisaties worden niet verwijderd. U kunt specifieke paginapersonalisaties met een andere actie verwijderen. Zie voor meer informatie [Personalisaties voor specifieke pagina's verwijderen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Configureer het [!INCLUDE[nav_server_md](includes/nav_server_md.md)]-exemplaar zodat het **toepassingssymboolverwijzingen laadt bij opstarten van de server** (EnableSymbolLoadingAtServerStartup). Zie [Business Central Server configureren](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings) voor meer informatie.
+1. Kies op de pagina **Profiel (rol)** de actie **Aangepaste pagina's**.
+2. Selecteer op de pagina **Profielaanpassingen** een of meer regels voor pagina-aanpassingen die u wilt verwijderen en kies vervolgens de actie **Verwijderen**.
 
-## <a name="to-disable-personalization-for-a-profile"></a>Personalisatie uitschakelen voor een profiel
-
-U kunt voorkomen dat alle gebruikers die tot een bepaald profiel behoren, in staat zijn hun pagina's te personaliseren.
-
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer in de lijst het profiel dat u wilt wijzigen.
-3. Selecteer het selectievakje **Personalisering deactiveren** en kies vervolgens de knop **OK**.
-
-> [!NOTE]  
-> In Business Central online kunt u personalisatie alleen uitschakelen voor een tenantprofiel, niet voor systeemprofielen. 
-
-## <a name="to-clear-user-personalizations"></a>Gebruikerspersonalisaties wissen
-
-Door paginapersonalisaties te wissen wordt de pagina teruggezet naar de oorspronkelijke layout die deze had voordat de personalisatie werd doorgevoerd. Er zijn twee manieren om de personalisaties te wissen die door gebruikers aan pagina's zijn aangebracht: met de pagina **Pers. gebruikersinstellingen verwijderen** en met de pagina **Gebruikerspersonalisatiekaart**.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Gebruikerspersonalisaties wissen met de pagina Pers. gebruikersinstellingen verwijderen.
-
-Met de pagina **Pers. gebruikersinstellingen verwijderen** kunt u personalisaties voor elke gebruiker afzonderlijk per pagina wissen.
-
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pers. gebruikersinstellingen verwijderen** in en kies vervolgens de gerelateerde koppeling.
-
-    De pagina bevat alle pagina's die zijn gepersonaliseerd en gebruiker waartoe ze behoren.
-
-    >[!NOTE]
-    > Een vinkje in de kolommen **Oude persoonlijke instellingen** geeft aan dat de personalisatie is uitgevoerd in een oudere versie van [!INCLUDE[d365fin](includes/d365fin_md.md)], die anders met personalisatie omging dan nu het geval is. Gebruikers die proberen deze pagina's te personaliseren zijn hiertoe niet in staat, tenzij ze ervoor kiezen de pagina te ontgrendelen. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personaliseren?](ui-personalization-locked.md).
-
-2. Selecteer het gegeven dat u wilt verwijderen en kies de actie **Verwijderen**.
-
-    De gebruiker ziet de wijzigingen de volgende keer dat hij of zij zich aanmeldt.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Gebruikerspersonalisaties wissen met de pagina Gebruikerspersonalisatiekaart.
-
-Met de pagina **Gebruikerspersonalisatiekaart** kunt u de personalisaties op alle pagina´s voor een bepaalde gebruiker wissen. Hiervoor hebt u schrijfmachtiging nodig voor tabel 2000000072 **Profiel**.
-
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pers. gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
-
-    De pagina **Gebruikerspersonalisatie** bevat alle gebruikers waarvoor mogelijk gepersonaliseerde pagina's voorkomen. Als u een gebruikers-ID niet kunt vinden in de lijst, bestaan er geen gepersonaliseerde pagina´s voor.
-
-2. Selecteer de gebruiker in de lijst en kies vervolgens de actie **Bewerken**.
-
-3. Op het tabblad **Acties** kiest **Aangepaste pagina's wissen**.
-
-    De gebruiker ziet de wijzigingen de volgende keer dat hij of zij zich aanmeldt.
+De indeling op de geselecteerde pagina's wordt aangepast aan de wijzigingen die u hebt aangebracht.
 
 ## <a name="see-also"></a>Zie ook
-[Het personaliseren van uw werkruimte](ui-personalization-user.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Uw werkruimte personaliseren](ui-personalization-user.md)  
+[Profielen beheren](admin-users-profiles-roles.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/25/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
-ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
+ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702894"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307600"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De Envestnet Yodlee Bank Feeds-service instellen
 U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **Betalingsreconciliatiedagboek** te vullen, zodat u betalingen kunt vereffenen en de bankrekening kunt reconciliëren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> Vanwege de nieuwe Payment Services Directive in Europa (PSD2) kunt u na 14 september 2019 niet langer automatisch bankafschriften van banken in het Verenigd Koninkrijk importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. We onderzoeken de mogelijkheid om deze functie in de toekomst opnieuw aan te bieden.
+
 > [!NOTE]
 > De Envestnet Yodlee Bank Feeds-service wordt alleen ondersteund in de online versie van Business Central. Als u deze functionaliteit on-premises wilt gebruiken, moet u een cobrand-account verkrijgen bij Envestnet Yodlee.<br /><br />
-> De Envestnet Yodlee Bank Feeds-service wordt alleen ondersteund in de VS, Canada en het VK.
+> De Envestnet Yodlee Bank Feeds-service wordt alleen ondersteund in de VS en Canada.
 
 > [!IMPORTANT]
 > Neem voor technische assistentie met de Envestnet Yodlee-functionaliteit contact op met Microsoft Support. Neem geen contact op met Envestnet Yodlee. Zie voor meer informatie [Technische ondersteuning configureren voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).

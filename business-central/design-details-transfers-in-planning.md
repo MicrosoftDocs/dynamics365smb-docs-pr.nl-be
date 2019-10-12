@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248054"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306736"
 ---
 # <a name="design-details-transfers-in-planning"></a>Ontwerpdetails: Transfers in planning
 Transferorders zijn ook een voorzieningenbron bij het werken op SKU-niveau. Als meerdere vestigingen (magazijnen) worden gebruikt, kan de SKU-aanvullingsmethode worden ingesteld op Transfer, wat aangeeft dat de vestiging wordt aangevuld door goederen van een andere vestiging over te brengen. In een situatie met meerdere magazijnen hebben bedrijven mogelijk een transferketen waarbij voorziening aan de GROENE vestiging wordt overgebracht vanuit GEEL, voorziening aan GEEL wordt overgebracht vanuit ROOD, enzovoort. Aan het begin van de keten is er een aanvullingssysteem Prod.-order of Inkoop.  
@@ -29,7 +29,7 @@ Bij vergelijking van een situatie waarin een voorzieningenorder rechtstreeks bet
 ![Voorbeeld van aanbod-/vraagevenwicht in transfers](media/nav_app_supply_planning_7_transfers2.png "Voorbeeld van aanbod-/vraagevenwicht in transfers")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Waarom is transfer een speciaal geval?  
-Een transferorder lijkt veel op andere orders in het programma. Achter de schermen ligt het echter heel anders.  
+Een transferorder lijkt veel op andere orders in de toepassing. Achter de schermen ligt het echter heel anders.  
 
 Eén belangrijk aspect waardoor transfers in planning verschillen van inkoop- en productieorders is dat een transferregel tegelijkertijd vraag en aanbod vertegenwoordigt. Het uitgaande deel dat wordt verzonden vanuit de oude vestiging, is de vraag. Het inkomende deel, dat moet worden ontvangen bij de nieuwe vestiging, is voorziening op die vestiging.  
 

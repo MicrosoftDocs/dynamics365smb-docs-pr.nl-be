@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921373"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310717"
 ---
 # <a name="posting-documents-and-journals"></a>Documenten en dagboeken boeken
 Boeking staat voor de boekhoudingsactie waarbij zakelijke transacties in de verschillende bedrijfsgrootboeken worden geregistreerd.
@@ -29,6 +29,7 @@ In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar d
 | --- | --- |
 | Meer informatie over het boeken van inkoopdocumenten. |[Inkopen boeken](ui-post-purchases.md) |
 | Meer informatie over het boeken van verkoopdocumenten. |[Verkopen boeken](ui-post-sales.md) |
+| Meerdere verkoop- of inkoopdocumenten samen boeken, onmiddellijk of zoals gepland.|[Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)|
 | Meer informatie over het boeken van diversendagboeken. |[Werken met diversendagboeken](ui-work-general-journals.md) |
 | Bekijk op een pagina een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md) |
 | Bekijk in een rapport een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Controlelijsten weergeven vóór boeken](ui-how-view-test-reports-posting.md) |

@@ -2,30 +2,30 @@
 title: De gebruikerservaring kiezen om geavanceerde functies weer te geven of te verbergen | Microsoft Docs
 description: Meer weten over wat de ervaringslagen Essential en Premium betekenen voor de gebruikersinterface, toepassingsgebieden en uw bedrijf.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251435"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311368"
 ---
-# <a name="changing-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften dor extensies toe te voegen uit AppSource of door de instelling Ervaring te wijzigen voor uw bedrijf. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md) of [Een gebruikerservaring kiezen om functies weer te geven of te verbergen](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features) hieronder.
+# <a name="change-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht in welke branche u actief bent. In de kern van [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u financiële rapportage en verkoop- en inkoopprocessen. U voegt daar ervaringen aan toe op basis van uw zakelijke behoeften door de instelling **Ervaring** voor uw bedrijf te wijzigen, zoals hieronder beschreven, of door extensies toe te voegen vanuit AppSource. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Een gebruikerservaring kiezen om functies weer te geven of te verbergen
 De gebruikerservaring bepaalt hoeveel van de kernfunctionaliteit beschikbaar is wanneer u en uw collega's met [!INCLUDE[d365fin](includes/d365fin_md.md)] werken. In het veld **Ervaring** op de pagina **Bedrijfsgegevens** kunt u de gebruikerservaring instellen voor uw bedrijf.
 
 > [!NOTE]  
-> Deze instelling is van toepassing op alle gebruikers in uw bedrijf. Gebruikers kunnen hun eigen ervaring nog verder aanpassen door pagina-indelingen en inhoud te wijzigen. Zie [Uw werkruimte en pagina's personaliseren](ui-personalization-user.md) voor meer informatie.  
+> Deze instelling is van toepassing op alle gebruikers in uw bedrijf. Gebruikers kunnen hun eigen ervaring nog verder aanpassen door pagina-indelingen en inhoud te wijzigen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  
 
 In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar zijn.
 
@@ -63,10 +63,11 @@ U kunt nu doorgaan met de nieuwe ervaring te selecteren.
 Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten. Er wordt een tekstnotitie in Help-onderwerpen op hoog niveau ingevoegd voor de functiegebieden Productie en Servicebeheer die aangeeft dat deze de **Premium**-ervaring vereisen.
 
 ## <a name="see-also"></a>Zie ook
+[Uw werkruimte personaliseren](ui-personalization-user.md)  
+[Business Central aanpassen](ui-customizing-overview.md)
 [Nieuwe bedrijven maken](about-new-company.md)  
 [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

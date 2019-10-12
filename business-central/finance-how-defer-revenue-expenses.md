@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 046d2469c13358942fec767b58f6e9ffe46e7799
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243469"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302349"
 ---
 # <a name="defer-revenues-and-expenses"></a>Procedure: Inkomsten en kosten uitstellen
 Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u deze functionaliteit gebruiken om kosten en inkomsten automatisch uit te stellen via een opgegeven schema.
@@ -42,7 +42,7 @@ Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de 
    * **Gelijk per periode**: de periodieke uitstelbedragen worden berekend volgens het aantal perioden, gelijkelijk verdeeld over perioden.
    * **Dagen per periode**: de periodieke uitstelbedragen worden berekend volgens het aantal dagen in de periode.
    * **Door gebruiker gedefinieerd**: de periodieke uitstelbedragen worden niet berekend. U moet het veld **Bedrag** handmatig invullen voor elke periode op de pagina Uitstelschema. Zie voor meer informatie het gedeelte "Een uitstelschema wijzigen vanuit een verkoopfactuur".
-5. Geef in het veld **Periodebeschrijving** een omschrijving op die wordt weergegeven op posten voor de uitstelboeking. U kunt de volgende codes voor tijdelijke aanduidingen invoeren voor veel voorkomende waarden, die automatisch worden ingevoegd wanneer de periodebeschrijving wordt weergegeven.
+5. Geef in het veld **Periodebeschrijving** een beschrijving op die wordt weergegeven op posten voor de uitstelboeking. U kunt de volgende codes voor tijdelijke aanduidingen invoeren voor veel voorkomende waarden, die automatisch worden ingevoegd wanneer de periodebeschrijving wordt weergegeven.
 
    * %1 = het dagnummer van de periodeboekingsdatum
    * %2 = het weeknummer van de periodeboekingsdatum
@@ -78,7 +78,7 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' i
 1. Kies op de pagina **Verkoopfactuur** de actie **Voorbeeld van boeking weergeven**.
 2. Kies op de pagina **Voorbeeld van boeking weergeven** de actie **Grootboekpost** en kies vervolgens de actie **Verwante posten weergeven**.
 
-Grootboekposten die naar de opgegeven uitstelrekening moeten worden geboekt, bijvoorbeeld Niet-gerealiseerde inkomsten, worden aangeduid door de omschrijving die u in het veld **Periodebeschrijving** in de uitstelsjabloon hebt ingevoerd, bijvoorbeeld "Uitgestelde kosten voor februari 2016".
+Grootboekposten die moeten worden geboekt naar de opgegeven uitstelrekening, bijvoorbeeld Niet-gerealiseerde inkomsten, worden aangegeven door de beschrijving die u hebt ingevoerd in het veld **Periodebeschrijving** in de uitstelsjabloon, bijvoorbeeld 'Uitgestelde kosten voor februari 2016'.
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Geboekte uitstellingen bekijken in het rapport Overzicht van verkoopuitstel
 > [!NOTE]  

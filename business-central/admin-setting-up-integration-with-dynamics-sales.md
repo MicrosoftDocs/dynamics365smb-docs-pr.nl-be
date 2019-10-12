@@ -1,5 +1,5 @@
 ---
-title: Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales | Microsoft Docs
+title: Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales | Microsoft Docs
 description: Leer hoe u gebruikersaccounts instelt die de apps gebruiken om gegevens uit te wisselen, en die personen gebruiken om toegang te krijgen tot gegevens in de apps en deze te synchroniseren.
 services: project-madeira
 documentationcenter: ''
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0f59324e41695e35e09a2dd970492acb3a8dba58
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: a876df301476cb6b4af335e8ee957de26865cbaa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726894"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307840"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales
+# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales
 Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[crm_md](includes/crm_md.md)] te integreren met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
@@ -36,14 +36,14 @@ U moet een speciaal gebruikersaccount in uw Office 365-abonnement maken dat zowe
 > Gebruik het beheerdersaccount niet voor [!INCLUDE[crm_md](includes/crm_md.md)] voor synchronisatie. Als u dat doet wordt de synchronisatie verstoord.
 > Om constante synchronisatie te voorkomen worden wijzigingen in gegevens die worden aangebracht door het integratiegebruikersaccount niet gesynchroniseerd. <!--What changes would this account make?--> Als de verbinding is gemaakt, is het raadzaam de toegangsmodus voor het gebruikersaccount voor integratie in te stellen op de niet-interactieve modus in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Een niet-interactief gebruikersaccount maken](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-for-sales-people"></a>Accounts instellen voor verkopers
+## <a name="setting-up-accounts-sales-people"></a>Accounts instellen voor verkopers
 U moet gebruikersaccounts maken in [!INCLUDE[crm_md](includes/crm_md.md)] voor de verkoper uit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om het gemakkelijker te maken biedt het Microsoft 365-beheercentrum een Excel-sjabloon die u kunt gebruiken. Kies op de pagina **Actieve gebruikers** **Meer** en vervolgens **Meerdere gebruikers importeren**. Kies **Een CSV-bestand downloaden met alleen koppen** en voer vervolgens de informatie voor de verkoper in. Als u een voorbeeld wilt zien, kiest u **Een CSV-bestand downloaden met koppen en voorbeeldgegevens van gebruikers**. Nadat u de gegevens hebt ingevoerd over de gebruikers, is de volgende stap bij het importproces de gebruikerslicenties toe te wijzen aan het Dynamics 365 Customer Engagement-plan.  
 
 Nadat u gebruikers hebt geïmporteerd en aan hen licenties hebt toegewezen voor Dynamics 365 Customer Engagement, moet u de gebruikers aan de rol **Verkoper** toewijzen in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Verkopers koppelen aan gebruikers in Dynamics 365 for Sales](media/couple-salespeople.png "Visualisatie van koppeling van verkopers aan gebruikers in Dynamics 365 for Sales")
+![Verkopers koppelen aan gebruikers in Dynamics 365 Sales](media/couple-salespeople.png "Visualisatie van koppeling van verkopers aan gebruikers in Dynamics 365 Sales")
 
-## <a name="minimum-permissions-for-user-accounts-in-includecrmmdincludescrmmdmd"></a>Minimale machtigingen voor gebruikersaccounts in [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="minimum-permissions-for-user-accounts-in-includecrm_mdincludescrm_mdmd"></a>Minimale machtigingen voor gebruikersaccounts in [!INCLUDE[crm_md](includes/crm_md.md)]
 Wanneer u de integratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd in [!INCLUDE[crm_md](includes/crm_md.md)]. Als deze machtigingen zijn gewijzigd, moet u deze mogelijk opnieuw instellen. U kunt dat doen door de integratieoplossing opnieuw te installeren of door deze handmatig opnieuw in te stellen. De volgende tabellen bevatten de minimale machtigingen voor de gebruikersaccounts in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### <a name="integration-administrator"></a>Integratiebeheerder
@@ -135,4 +135,4 @@ U kunt verkoopmedewerkers toestaan voorraadniveaus te bekijken voor de artikelen
 |Dynamics 365 Business Central-verbinding|Globaal|Lezen|Lezen|Lezen|
 
 ## <a name="see-also"></a>Zie ook  
-[Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

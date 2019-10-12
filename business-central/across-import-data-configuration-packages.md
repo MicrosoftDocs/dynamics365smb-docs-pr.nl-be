@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245536"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304984"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u ervoor kiezen een leeg bedrijf te maken zodat u uw eigen gegevens kunt uploaden en uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt testen. Afhankelijk van de financiële oplossing die uw bedrijf tegenwoordig gebruikt, kunt u gegevens over klanten, leveranciers en bankrekeningen overbrengen.  
@@ -62,14 +62,14 @@ Het standaardconfiguratiepakket ondersteunt de volgende tabellen:
 -   Verkoopregel
 -   Inkoopkop
 -   Inkoopregel
--   Fin. dagboekregel
+-   Dagb. regel
 -   Artikeldagboekregel
 -   Klantboekingsgroep
 -   Leveranciersboekingsgroep
 -   Voorraadboekingsgroep
 -   Eenheid
--   Bedrijfsboekingsgroep
--   Productboekingsgroep
+-   Dagb. Bedrijfsboekingsgroep
+-   Dagb. Productboekingsgroep
 -   Boekingsgroepinstellingen
 -   Regio
 -   Artikelcategorie

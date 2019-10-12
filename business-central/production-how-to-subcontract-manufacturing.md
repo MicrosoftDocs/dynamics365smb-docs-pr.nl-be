@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253022"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313072"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
 
-Het programma biedt verscheidene tools voor het beheren van uitbesteed werk:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt verscheidene hulpmiddelen voor het beheren van uitbesteed werk:  
 
 - Afdelingen met toegewezen leveranciers: met behulp van deze functie kunt u een afdeling instellen die is gekoppeld aan een leverancier (toeleverancier). Dit wordt een uitbestedingsafdeling genoemd. U kunt een uitbestedingsafdeling specificeren bij een bewerking in een bewerkingsplan, waarmee u op eenvoudige wijze de uitbestede activiteit kunt verwerken. Daarnaast kunnen de kosten van de bewerking worden toegewezen op het niveau van het bewerkingsplan of van de afdeling.  
-- Afdelingskosten gebaseerd op eenheden of tijd: met behulp van deze functie kunt u opgeven of kosten die samenhangen met de afdeling worden gebaseerd op de productietijd of een vaste toeslag per eenheid. Hoewel toeleveranciers gewoonlijk werken met een vaste toeslag per eenheid die in rekening wordt gebracht voor hun diensten, kan het programma overweg met beide opties (productietijd en vaste toeslag per eenheid).  
-- Uitbestedingsvoorstel: met behulp van deze functie kunt u de productieorders vinden met materiaal dat gereed is om naar een toeleverancier te worden gezonden en automatisch inkooporders opstellen voor uitbestedingsbewerkingen op basis van productieorderbewerkingsplannen. Het programma boekt vervolgens automatisch de inkoopordertoeslagen naar de productieorder tijdens het boeken van de inkooporder. Alleen productieorders met de status Vrijgegeven zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
+- Afdelingskosten gebaseerd op eenheden of tijd: met behulp van deze functie kunt u opgeven of kosten die samenhangen met de afdeling worden gebaseerd op de productietijd of een vaste toeslag per eenheid. Hoewel toeleveranciers gewoonlijk werken met een vaste toeslag per eenheid die in rekening wordt gebracht voor hun diensten, kan de toepassing overweg met beide opties (productietijd en vaste toeslag per eenheid).  
+- Uitbestedingsvoorstel: met behulp van deze functie kunt u de productieorders vinden met materiaal dat gereed is om naar een toeleverancier te worden gezonden en automatisch inkooporders opstellen voor uitbestedingsbewerkingen op basis van productieorderbewerkingsplannen. De toepassing boekt vervolgens automatisch de inkoopordertoeslagen naar de productieorder tijdens het boeken van de inkooporder. Alleen productieorders met de status Vrijgegeven zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
 
 ## <a name="subcontract-work-centers"></a>Uitbestedingsafdelingen  
 Uitbestedingsafdelingen worden op dezelfde manier ingesteld as normale afdelingen met aanvullende informatie. Deze worden op dezelfde manier toegewezen aan bewerkingsplannen als andere afdelingen.  

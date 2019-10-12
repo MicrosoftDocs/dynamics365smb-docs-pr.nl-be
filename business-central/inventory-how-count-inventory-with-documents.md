@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240292"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309928"
 ---
 # <a name="count-inventory-using-documents"></a>Voorraad tellen met documenten
 U kunt een inventarisatie van uw artikelen maken met behulp van inventarisatieorder- en inventarisatieregistratiedocumenten. De pagina **Inventarisatieorder** wordt gebruikt om het hele inventarisatieproject te organiseren, bijvoorbeeld één per vestiging. De pagina **Inventarisatieregistratie** wordt gebruikt om de werkelijke telling van artikelen te communiceren en vast te leggen. U kunt meerdere registraties voor één order maken, bijvoorbeeld om groepen artikelen naar verschillende werknemers te distribueren.
@@ -94,7 +94,7 @@ Als u een inventarisatieregistratie hebt voltooid, wordt het veld **Geregistreer
 
 Als u verwachte aantallen en eventuele geregistreerde verschillen wilt zien voor artikelen met artikeltracering, kiest u de actie **Regels** en kiest u vervolgens de actie **Artikeltraceringsregels** om verschillende weergaven te selecteren voor serie- en lotnummers die betrokken zijn bij de inventarisatietelling.
 
-U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om verschillen weer te geven tussen het verwachte aantal en het getelde aantal.
+U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om eventuele verschillen tussen de verwachte hoeveelheid en de getelde hoeveelheid te bekijken.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Dubbele inventarisatieorderregels zoeken
 

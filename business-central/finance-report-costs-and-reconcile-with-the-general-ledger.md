@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: eafcf0bdd26e26903c17e43d37ca7e35b96f240c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446888"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301840"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kosten rapporteren en afstemmen met het grootboek
 Aan het einde van boekhoudperioden (maandelijks, jaarlijks of anderszins) moet een reeks kostenbeheersings- en audittaken worden uitgevoerd om een juiste en gebalanceerde voorraadwaarde te rapporteren aan de financiële afdeling. Naast de boekingsroutine waarmee de afzonderlijke artikelwaardeposten worden overgebracht naar speciale grootboekrekeningen, zijn diverse lijsten, traceerfuncties en een speciaal reconciliatiehulpmiddel beschikbaar voor de auditor of controller die verantwoordelijk is voor dit bedrijfskritieke werk.  

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248031"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310768"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
-In dit onderwerp worden vragen beantwoord die onze geavanceerde gebruikers vaak hebben over de nieuwe Vertel me-functie, die de vorige paginazoekfunctie genaamd **Pagina's en rapporten zoeken** vervangt.
+Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over de functie Vertel me.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Zijn alle acties vanaf mijn huidige pagina detecteerbaar in Vertel me?
 Nee. Acties in gedeelten, zoals het gedeelte Verkoopregels of feitenblokken, worden niet weergegeven in Vertel me.
@@ -32,8 +32,8 @@ Acties, pagina's en rapporten die afkomstig zijn uit extensies worden opgepikt d
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Wat maakt dit anders dan de eerdere paginazoekfunctie?
 De paginazoekfunctie is tot Vertel me geëvolueerd om u te helpen sneller te werken. De paginazoekfunctie kon u alleen helpen navigeren naar pagina's of rapporten. Op technisch niveau is Vertel me niet meer gebaseerd op het oude MenuSuite-concept.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omvat dat Vertel me?
-U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en rapporten, maar geen documentatie, of apps en consultingservices te vinden in AppSource. Gebruikers die vanuit de Dynamics NAV-client verbinding met [!INCLUDE[d365fin](includes/d365fin_md.md)] maken, gebruiken nog steeds de paginazoekfunctie.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omvat dat Vertel me?
+U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en rapporten, maar geen documentatie, of apps en consultingservices te vinden in AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Vertel me beschikbaar voor alle formulierfactoren?
 Vertel me is alleen beschikbaar in de webclient of de Windows-desktopapp.
@@ -41,5 +41,14 @@ Vertel me is alleen beschikbaar in de webclient of de Windows-desktopapp.
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Zijn de documentatieresultaten beschikbaar in elke taal?
 De Help-artikelen worden weergegeven in de taal die u hebt opgegeven in **Mijn instellingen**, als er Help in die taal beschikbaar is.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Waarom zie ik geen bladwijzerpictogram voor mijn zoekresultaten?
+Het bladwijzerpictogram wordt niet weergegeven in het venster Vertel me wanneer personalisatie is uitgeschakeld voor een gebruikersrol.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Is het bladwijzerpictogram beschikbaar voor rapporten?
+Nee. U kunt alleen een bladwijzer maken voor een koppeling naar een pagina of zoekresultaten die worden weergegeven in de sectie **Pagina's en taken** van het venster Vertel me.
+
+
 ## <a name="see-also"></a>Zie ook  
-[Functies en informatie zoeken](ui-search.md)
+[Lijstweergaven opslaan en personaliseren](ui-views.md)  
+[Pagina's en informatie zoeken met Vertel me](ui-search.md)  
+[Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md)

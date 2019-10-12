@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247014"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307552"
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
 XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
@@ -34,7 +34,7 @@ XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is een op XML geb
 
 De taxonomieën worden beheerd door www.xbrl.org. Op deze website kunt u taxonomieën downloaden en meer informatie over XBRL lezen.  
 
-Iemand die financiële gegevens van u wil, voorziet u van een taxonomie (een XML-document) met een of meer schema's, elk met een of meer regels die moeten worden ingevuld. De regels komen overeen met de specifieke financiële gegevens die de afzender opvraagt. U importeert deze taxonomie in het programma en vult vervolgens het schema of de schema's in door op te geven welke rekening of rekeningen met elke regel overeenkomt/overeenkomen, welk tijdvenster moet worden gebruikt, bijvoorbeeld mutatie of saldobedragen. In sommige gevallen kunt u in plaats daarvan een constante invoeren, bijvoorbeeld het aantal werknemers. U bent nu gereed om het instantiedocument (een XML-document) verzenden naar iemand die de gegevens opvraagt. Het idee is dat dit een terugkerende gebeurtenis kan zijn, dus tenzij er wijzigingen zijn aangebracht aan de taxonomie, moet u op aanvraag nieuwe instantiedocumenten voor nieuwe periodes exporteren.  
+Iemand die financiële gegevens van u wil, voorziet u van een taxonomie (een XML-document) met een of meer schema's, elk met een of meer regels die moeten worden ingevuld. De regels komen overeen met de specifieke financiële gegevens die de afzender opvraagt. U importeert deze taxonomie in de toepassing en vult vervolgens het schema of de schema's in door op te geven welke rekening of rekeningen met elke regel overeenkomt/overeenkomen, welk tijdvenster moet worden gebruikt, bijvoorbeeld mutatie of saldobedragen. In sommige gevallen kunt u in plaats daarvan een constante invoeren, bijvoorbeeld het aantal werknemers. U bent nu gereed om het instantiedocument (een XML-document) verzenden naar iemand die de gegevens opvraagt. Het idee is dat dit een terugkerende gebeurtenis kan zijn, dus tenzij er wijzigingen zijn aangebracht aan de taxonomie, moet u op aanvraag nieuwe instantiedocumenten voor nieuwe periodes exporteren.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL bestaat uit de volgende onderdelen:  
 De XBRL- **specificatie** legt uit wat XBRL is en hoe XBRL-instantiedocumenten en XBRL-taxonomieën worden gemaakt. De XBRL-specificatie geeft een technische uitleg van XBRL en is bestemd voor mensen met een technische achtergrond.  
@@ -55,7 +55,7 @@ Een taxonomie kan bestaan uit een basistaxonomie, zoals us-gaap of IAS, waaraan 
 
 -   Label linkbase: deze linkbase bevat labels of namen voor de elementen. Het bevat mogelijk labels in verschillende talen en deze worden aangeduid met een XML-eigenschap die 'lang' wordt genoemd. De XML-taalidentifier bevat meestal een afkorting van twee letters en hoewel gemakkelijk te raden moeten zijn wat de afkorting betekent, is er geen verbinding met de Windows- taalcode of de taalcodes in de demonstratiegegevens. Dus wanneer de gebruiker zoekt naar de talen voor een bepaalde taxonomie, ziet hij de labels voor het eerste element in de taxonomie, wat betekent dat hij dan een voorbeeld van elke taal kan zien. Aan een taxonomie kunnen meerdere label-linkbases gekoppeld zijn zolang deze linkbases verschillende talen bevatten.  
 
--   Presentatielinkbase: deze linkbase bevat informatie over de onderdelenstructuur. U kunt dit beschouwen als het voorstel van de taxonomie-uitgever voor de wijze waarop de taxonomie door het programma aan de gebruiker wordt gepresenteerd. De linkbase bevat een reeks koppelingen die elk twee elementen verbinden als bovenliggende en onderliggende. Als alle koppelingen worden toegepast, kunnen de onderdelen hiërarchisch worden weergegeven. De presentatielinkbase heeft één functie: elementen aan de gebruiker presenteren.  
+-   Presentatielinkbase: deze linkbase bevat informatie over de onderdelenstructuur. U kunt dit beschouwen als het voorstel van de taxonomie-uitgever voor de wijze waarop de taxonomie door de toepassing aan de gebruiker wordt gepresenteerd. De linkbase bevat een reeks koppelingen die elk twee elementen verbinden als bovenliggende en onderliggende. Als alle koppelingen worden toegepast, kunnen de onderdelen hiërarchisch worden weergegeven. De presentatielinkbase heeft één functie: elementen aan de gebruiker presenteren.  
 
 -   Linkbaseberekening: deze linkbase bevat informatie over welke elementen bij welk niveau horen. De structuur is vergelijkbaar met de presentatielinkbase, behalve dat elke koppeling of 'arc', zoals ze worden genoemd, een gewichtseigenschap heeft. Het gewicht kan 1 of –1 zijn, wat aangeeft of het element aan het bovenliggende element moet worden toegevoegd of ervan moet worden afgetrokken. De samentellingen hoeven niet per se in overeenstemming te zijn met de visuele presentatie.  
 

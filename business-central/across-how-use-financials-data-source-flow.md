@@ -2,52 +2,64 @@
 title: Uw gegevens verbinden met Flow| Microsoft Docs
 description: U kunt uw Business Central-gegevens als gegevensbron beschikbaar maken en een OData-URL van uw webservices opgeven om een geautomatiseerde werkstroom te maken.
 documentationcenter: ''
-author: edupont04
+author: bmeier90
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: 1652c4bc22425bd6df4ac303a96a2ab1b28bfaf9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: bmeier
+ms.openlocfilehash: 86178bafa806fb8cba531d5b78157437c242d432
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305053"
 ---
-# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
+# <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
 U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.
 
 > [!NOTE]
-> Naast Microsoft Flow kunt u de werkstroomfunctionaliteit binnen [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken. Het zijn twee aparte werkstroomsystemen, maar elke Flow-sjabloon die u maakt met Microsoft Flow, wordt toegevoegd aan de lijst met werkstroomsjablonen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
+> Naast Microsoft Flow kunt u de werkstroomfunctionaliteit binnen [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken. Het zijn twee aparte werkstroomsystemen, maar elke Flow-sjabloon die u maakt met Microsoft Flow, wordt toegevoegd aan de lijst met werkstromen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
 
 > [!NOTE]  
->   U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.  
+> U moet een geldige account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en Flow hebben.  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron in Flow toevoegen
+## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-flow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron in Flow toevoegen
 1. Navigeer in uw browser naar [flow.microsoft.com](https://flow.microsoft.com/en-us/) en meld u aan.
 2. Kies **Mijn Flows** vanuit het lint boven aan de pagina.
-3. Er zijn twee manieren om een stroom te maken: **Maken van sjabloon** en **Geheel nieuw maken**. Een sjabloon is een vooraf gedefinieerde stroom die voor u is gemaakt.  Als u een sjabloon wilt gebruiken, selecteert u deze en maakt u een verbinding voor elke service die de sjabloon gebruikt. Met een lege sjabloon kunt u een helemaal nieuwe stroom maken.
-4. Als u een geheel nieuwe stroom wilt maken, kiest u op de pagina **Mijn flows** de optie **Geheel nieuw maken**.
+3. Er zijn 3 manieren om een Flow te maken; **Beginnen met sjabloon**, **Geheel nieuw maken** en **Beginnen met een connector**. Een sjabloon is een vooraf gedefinieerde stroom die voor u is gemaakt. Als u een sjabloon wilt gebruiken, selecteert u deze en maakt u een verbinding voor elke service die de sjabloon gebruikt. Met de opties **Geheel nieuw maken** en **Beginnen met een connector** kunt u een volledig nieuwe Flow maken.
+4. Als u een geheel nieuwe stroom wilt maken, kiest u op de pagina **Mijn flows** de opties **Geheel nieuw maken** en **Geautomatiseerde stroom**.
 5. Zoek **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**-connector.
-6. Selecteer in de lijst met beschikbare triggers een van de beschikbare [!INCLUDE[d365fin](includes/d365fin_md.md)]-triggers:  
-    *Wanneer een klantgoedkeuring wordt aangevraagd*,  
-    *Wanneer goedkeuring van een dagboekbatch wordt aangevraagd*,  
-    *Wanneer goedkeuring van een dagboekregel wordt aangevraagd*,  
-    *Wanneer goedkeuring van een artikel wordt aangevraagd*,  
-    *Wanneer goedkeuring van een inkoopdocument wordt aangevraagd*,  
-    *Wanneer goedkeuring van een verkoopdocument wordt aangevraagd*, of  
-    *Wanneer goedkeuring van een leverancier wordt aangevraagd*.
-7. Flow vraagt u een bedrijf in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant te selecteren, plus eventuele voorwaarden in uw gegevens te selecteren waarop u moet letten.
+6. Definieer een naam en kies de trigger die u voor uw Flow wilt gebruiken.
+7. Selecteer in de lijst met beschikbare triggers een van de beschikbare [!INCLUDE[d365fin](includes/d365fin_md.md)]-triggers:  
+    
+    *Wanneer goedkeuring van een leverancier wordt aangevraagd*.    
+    *Wanneer goedkeuring van een dagboekregel wordt aangevraagd*,    
+    *Wanneer een record wordt verwijderd*.    
+    *Wanneer een record wordt gewijzigd*.    
+    *Wanneer een record wordt gemaakt*.    
+    *Wanneer een record wordt aangepast*.    
+    *Wanneer goedkeuring van een dagboekbatch wordt aangevraagd*,   
+    *Wanneer een klantgoedkeuring wordt aangevraagd*,   
+    *Wanneer goedkeuring van een artikel wordt aangevraagd*,    
+    *Wanneer goedkeuring van een inkoopdocument wordt aangevraagd* of     
+     *Wanneer goedkeuring van een verkoopdocument wordt aangevraagd*.
+     
+8. Flow vraagt u een omgeving en bedrijf in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant te selecteren, plus eventuele voorwaarden in uw gegevens te selecteren waarop u moet letten.
+
+> [!NOTE]  
+>   De [!INCLUDE[d365fin](includes/d365fin_md.md)]-connector voor Microsoft Flow ondersteunt meerdere productie- en sandboxomgevingen. Als u niet meerdere productie- of sandboxomgevingen hebt gemaakt, is **Productie** de enige beschikbare optie die u kunt kiezen. 
 
 Nu hebt u met succes een verbinding gemaakt met uw Business Central-gegevens en kunt u uw stroom gaan maken.
 
-8. Als u een flow van een sjabloon wilt maken, kiest u de optie **Maken van sjabloon**.
-9. Zoek **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**-sjablonen.
-10. Selecteer een van de sjablonen in de lijst met beschikbare sjablonen.  
+9. Als u een flow van een sjabloon wilt maken, kiest u de optie **Beginnen met sjabloon**.
+10. Zoek **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**-sjablonen.
+11. Selecteer een van de sjablonen in de lijst met beschikbare sjablonen en kies vervolgens **Maken**.  
+
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-verkooporder*,  
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-verkoopofferte*,  
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-verkoopfactuur*,  
@@ -58,13 +70,12 @@ Nu hebt u met succes een verbinding gemaakt met uw Business Central-gegevens en 
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-inkoopcreditnota*,  
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-artikel*,  
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-leverancier*,  
-    *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dagboekbatch*,  
+    *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dagboekbatch* of    
     *Goedkeuring aanvragen voor Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dagboekregels*.  
-11. Flow vraagt u een bedrijf in uw [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-tenant te selecteren. Aangezien elke stap in de stroom onafhankelijk is van de volgende, moet u het bedrijf mogelijk meerdere malen definiëren wanneer u een [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon gebruikt.
+12. Flow geeft een lijst met services weer die in de Flow-sjabloon worden gebruikt en probeert automatisch verbinding te maken met die services. Als u nog niet eerder verbinding hebt gemaakt met een service, wordt u gevraagd zich aan te melden bij elke service waarmee u verbinding wilt maken. Een groen vinkje verschijnt naast elke service zodra een verbinding tot stand is gebracht. Selecteer **Doorgaan**.
+13. Flow vraagt u een omgeving en bedrijf in uw [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-tenant te selecteren. Aangezien elke stap in de stroom onafhankelijk is van de volgende, moet u de omgeving en het bedrijf mogelijk meerdere malen definiëren wanneer u een [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sjabloon gebruikt.
 
-Zie de [Flow-documentatie](https://docs.microsoft.com/en-us/flow/getting-started) voor meer informatie.
-
-Zie voor het oplossen van problemen met uw Microsoft Flow [Problemen oplossen met integratie met Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
+Zie de [Flow-documentatie](/flow/getting-started) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

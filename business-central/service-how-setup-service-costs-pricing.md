@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8683d82b4a6f56f415f3b66efa5be11b003fe878
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252011"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311848"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Prijzen en aanvullende kosten voor services instellen
 Met de prijsstellingsfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u uw toepassing zo instellen en aanpassen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen. Deze prijsbeslissingen kunnen vervolgens gemakkelijk worden overgebracht naar het factureringsproces.  

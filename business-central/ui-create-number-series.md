@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251389"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311416"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
+
+> [!Important]
+> Standaard zijn hiaten niet toegestaan in nummerreeksen, omdat de exacte geschiedenis van financiële transacties wettelijk beschikbaar moet zijn en daarom een ononderbroken reeks zonder verwijderde nummers moet volgen.<br /><br />
+Als u hiaten in bepaalde nummerreeksen wilt toestaan, raadpleegt u eerst uw auditor of boekhoudkundige manager om ervoor te zorgen dat u zich houdt aan de wettelijke vereisten in uw land/regio. Zie voor meer informatie [Hiaten in nummerreeksen](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[d365fin](includes/d365fin_md.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
@@ -30,6 +34,9 @@ U configureert normaal gesproken de nummerreeks zodanig dat automatisch het eers
 
 Als u meer dan één nummerreekscode wilt gebruiken voor één soort hoofdgegevens (als u bijvoorbeeld verschillende nummerreeksen voor verschillende artikelcategorieën wilt gebruiken), kunt u relaties tussen nummerreeksen gebruiken.
 
+## <a name="gaps-in-number-series"></a>Hiaten in nummerreeksen
+Niet alle records die u maakt in [!INCLUDE[d365fin](includes/d365fin_md.md)], zijn financiële transacties die opeenvolgende nummering moeten gebruiken. Klantenkaarten, verkoopoffertes en magazijnactiviteiten zijn voorbeelden van records waaraan een nummer uit een nummerreeks wordt toegewezen, maar die niet worden onderworpen aan financiële controle en/of kunnen worden verwijderd. Voor dergelijke nummerreeksen kunt u het selectievakje **Lacunes in nummers toestaan** inschakelen op de pagina **Nr.-reeksregels**. Zie [Een nieuwe nummerreeks maken](ui-create-number-series.md#to-create-a-new-number-series) voor meer informatie.
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Werking van het veld Nr. in documenten en kaarten
 In verkoop-, inkoop-, en transferdocumenten en op alle kaarten kan het veld **Nr.** automatisch vanuit een nummerreeks of handmatig worden ingevuld en kan het onzichtbaar worden gemaakt.
 
@@ -38,9 +45,9 @@ Het veld **Nr.** kan op drie manieren worden gevuld:
 1. Als er slechts één nummerreeks voor het soort document of kaart bestaat waarbij het veld **Autom. nummering** is ingeschakeld en het veld **Handm. nummering** niet is ingeschakeld, wordt het veld automatisch gevuld met het volgende nummer in de reeks en is het veld **Nr.** niet zichtbaar.
 
     > [!NOTE]  
-    > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen op de pagina **Nr.-reeksoverzicht**.
+    > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen op de pagina **Nr.-reeks**.
 
-2. Als er meer dan één nummerreeks voor het soort document of kaart bestaat en het selectievakje **Autom. nummering** niet is ingeschakeld voor de nummerreeks die momenteel is toegewezen, is het veld **Nr.** zichtbaar en kunt u opzoeken naar de pagina **Nr.-reeksoverzicht** en de nummerreeks selecteren die u wilt gebruiken. Het volgende nummer in de reeks wordt dan ingevoegd in het **Nr.** veld.
+2. Als er meer dan één nummerreeks voor het soort document of kaart bestaat en het selectievakje **Autom. nummering** niet is ingeschakeld voor de nummerreeks die momenteel is toegewezen, is het veld **Nr.** zichtbaar en kunt u opzoeken naar de pagina **Nr.-reeks** en de nummerreeks selecteren die u wilt gebruiken. Het volgende nummer in de reeks wordt dan ingevoegd in het **Nr.** veld.
 
 3. Als u geen nummerreeks voor het type document of kaart hebt ingesteld of als het veld **Handm. nummering** is ingeschakeld voor de nummerreeks, is het veld **Nr.** zichtbaar en moet u het nummer handmatig invoeren. U kunt maximaal 20 tekens invoeren (cijfers en/of letters).
 
@@ -53,6 +60,9 @@ Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, w
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeksen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul op de nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Kies de actie **Regels**.
+5. Vul op de pagina **Nr.-reeksregels** de velden in om het daadwerkelijke gebruik en de inhoud van de nummerreeks die u in stap 2 hebt gemaakt, te definiëren.
+6. Herhaal stap 5 voor zo veel verschillende toepassingen van de nummerreeks die u nodig hebt. Het veld **Begindatum** definieert welke nummerreeksregel actief is.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Instellen waar een nummerreeks wordt gebruikt
 In de volgende procedure wordt beschreven hoe u nummerreeksen instelt voor de module Verkoop. De stappen zijn vergelijkbaar voor andere modules.

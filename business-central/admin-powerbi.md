@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 4223d3eba6253f87aee3f86b3a9dfe4107d48947
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755276"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307984"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 
@@ -27,7 +27,7 @@ U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en P
 > [!IMPORTANT]
 > De Power BI-apps die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme, tenzij anders vermeld. Als u een Power BI-app wilt installeren, moet u ook een Power BI Pro-licentie hebben.  Zodra de Power BI-app is geïnstalleerd, kan deze worden gedeeld met gebruikers met elk licentietype.
 
-Microsoft heeft de volgende apps gepubliceerd voor Power BI:
+[!INCLUDE [prodlong](includes/prodlong.md)] heeft de volgende apps gepubliceerd voor Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
@@ -64,7 +64,7 @@ De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!I
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Selecteer **Apps** op het tabblad **Apps voor Power BI** en kies de **Microsoft Dynamics 365 Business Central**-app die u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Voer desgevraagd de naam van het bedrijf in uw [!INCLUDE[prodshort](includes/prodshort.md)] in waarmee u verbinding wilt maken. Dit is niet de weergavenaam. U vindt de bedrijfsnaam op de pagina **Bedrijven** in uw [!INCLUDE[prodshort](includes/prodshort.md)]-exemplaar.  
+5. Voer desgevraagd de naam van de omgeving en het bedrijf in uw [!INCLUDE[prodshort](includes/prodshort.md)] in waarmee u verbinding wilt maken. Als u niet meerdere omgevingen hebt gemaakt, voert u **Productie** in. Zorg ervoor dat u voor de bedrijfsparameter de naam invoert en niet de weergavenaam. U vindt de bedrijfsnaam op de pagina **Bedrijven** in uw [!INCLUDE[prodshort](includes/prodshort.md)]-exemplaar.  
 
     > [!NOTE]
     > Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises moet u de parameter *Webservice-URL* opgeven. U vindt dit op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]. Uw [!INCLUDE [server](includes/server.md)]-exemplaar moet zijn geconfigureerd voor basisverificatie en u moet een gebruiker en de webtoegangssleutel van die gebruiker opgeven als hun wachtwoord. Vervang in het volgende voorbeeld *myserver:7048* door uw [!INCLUDE [server](includes/server.md)]-naam en *CRONUS%20US* door uw bedrijfsnaam.  
@@ -162,6 +162,10 @@ Het dashboard van Power BI gebruikt de gepubliceerde webservices die hierboven w
 
 Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt hebben, moet u een licentie hebben en moet u zich eerder hebben aangemeld bij Power BI, zodat uw Power BI-werkruimte kan worden gemaakt.  
 
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten weer te geven die u kunt weergeven.
+
+Dit bericht verschijnt als het standaardrapport niet naar uw Power BI-werkruimte kan worden geïmplementeerd of het rapport is geïmplementeerd maar niet met succes is vernieuwd. Als dit gebeurt, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar Business Central en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**. 
+
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE [prodshort](includes/prodshort.md)]-app in Power BI te installeren
 
 Power BI-apps kunnen alleen worden geïnstalleerd door gebruikers met een Power BI Pro-licentie. Zodra de Power BI-app is geïnstalleerd, kunt u deze delen met gebruikers die geen Power BI Pro-licentie hebben.  
@@ -170,6 +174,7 @@ Power BI-apps kunnen alleen worden geïnstalleerd door gebruikers met een Power 
 
 Deze fout geeft aan dat een van de parameters niet geldig is.
 
+- De opgegeven omgevingsparameter komt niet overeen met een bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-productie of sandboxomgeving. 
 - De opgegeven bedrijfsparameter komt niet overeen met bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijven. Controleer de bedrijfsnaam op de pagina **Bedrijven** in [!INCLUDE [prodshort](includes/prodshort.md)].
 - Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. u hebt een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Er staat geen poort open om het verzoek door uw firewall te laten gaan.
@@ -200,10 +205,10 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/pro
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag met Power BI](/power-bi/service-get-started)  
-[Power BI - Basisconcepten](/power-bi/service-basic-concepts)  
-[Apps in Power BI](/power-bi/consumer/end-user-app)  
+[Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  
+[De 'nieuwe look' van de Power BI-service](/power-bi/service-new-look)  
 [Snelle start: Uw gegevens verbinden in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
 [Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  

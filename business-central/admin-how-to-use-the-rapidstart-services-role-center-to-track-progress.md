@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
 ROBOTS: NOINDEX
-ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 908e460ae5a3fc8ecb804f27363a1cfad71d997c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726918"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307946"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Het rolcentrum RapidStart Services-implementatie gebruiken
-Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie [Rolcentrum wijzigen](ui-change-basic-settings.md#to-change-role-center) voor meer informatie.
+Wanneer u RapidStart Services gebruikt, is het raadzaam dat u het rolcentrum RapidStart Services-implementatie gebruikt, omdat het de juiste context voor uw configuratiewerk verschaft. Zie [De rol wijzigen](ui-change-basic-settings.md#to-change-the-role) voor meer informatie.
 
 Als u met uw werk verdergaat, kunt u aan elke tabel de status toewijzen die aangeeft waar u bent in het proces. [!INCLUDE[d365fin](includes/d365fin_md.md)] houdt de tabelstatus bij in het gedeelte **Activiteiten** in het rolcentrum.  
 

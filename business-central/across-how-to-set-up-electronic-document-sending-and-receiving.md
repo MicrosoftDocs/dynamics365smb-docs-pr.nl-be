@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 629de391871a6e8d089740e483aa1443856359c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f5727e241d40e362e17d727d924a829f9b0c4ae
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240775"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305248"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
 Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een standaardbestand dat een bedrijfsdocument vertegenwoordigt, zoals een factuur van een leverancier die kan worden ontvangen en geconverteerd naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf.  

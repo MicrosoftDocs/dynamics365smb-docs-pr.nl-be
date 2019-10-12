@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446865"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308703"
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
 Voordat u met uw contacten en marketing gaat werken, moet u enkele beslissingen en stappen nemen om in te stellen hoe het marketinggebied bepaalde aspecten van uw contacten beheert. Bijvoorbeeld kunt u aangeven of u de contactkaart wilt synchroniseren met de klantenkaart, leverancierskaart en bankrekeningkaart, hoe nummerreeksen worden gedefinieerd of wat de standaardaanhef moet zijn wanneer u naar uw contacten schrijft.
@@ -29,7 +29,7 @@ U stelt marketing en contactbeheer in vanaf de pagina **Marketinginstellingen**.
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Bepaalde informatie automatisch kopiëren van contactbedrijven naar contactpersonen.
 Een aantal gegevens voor de contactbedrijven is gelijk aan de gegevens voor de contacten die in deze bedrijven werken, bijvoorbeeld de adresgegevens. In het gedeelte **Overerving** van de pagina **Marketinginstellingen** kunt u instellen dat de toepassing automatisch specifieke velden kopieert van de contactbedrijfkaart naar de contactpersoonskaart, elke keer dat u een contactpersoon maakt voor een contactbedrijf. Bijvoorbeeld kunt u selecteren om de verkoperscode, de adresgegevens (adres, adres 2, postcode, plaats en land,) en de communicatiegegevens (faxnummer, telexantwoord en telefoonnummer) en meer te kopiëren.
 
-Als u een van deze velden wijzigt op de contactbedrijfkaart, wordt het veld op de contactkaart automatisch gewijzigd, tenzij u het veld op de contactkaart handmatig hebt gewijzigd.
+Als u een van deze velden wijzigt op de contactbedrijfskaart, wordt het veld op de contactkaart automatisch gewijzigd, tenzij u het veld op de contactkaart handmatig hebt gewijzigd.
 
 Zie voor meer informatie [Contactpersonen maken](marketing-how-create-contact-persons.md).
 
@@ -38,7 +38,7 @@ U kunt bepalen of er automatisch een bepaalde taalcode, regiocode, verkoperscode
 
 Als u velden overneemt, worden de ingestelde standaardwaarden overschreven. Als u bijvoorbeeld Engels als standaardtaal hebt ingesteld, maar de taal van het contactbedrijf is Duits, wordt Duits automatisch toegewezen als de taal voor de contacten die zijn vastgelegd voor het desbetreffende bedrijf.
 
-<!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
+<!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatisch interacties vastleggen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen verkoop- en inkoopdocumenten automatisch worden geregistreerd als interacties (bijvoorbeeld orders, facturen, ontvangsten, enzovoort), alsmede e-mails, telefoongesprekken en contactkaarten.
@@ -51,12 +51,12 @@ Als u de contactkaart wilt synchroniseren met de klantenkaart, leverancierskaart
 Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Een nummerreeks toewijzen aan opportunity's en contacten
-U kunt een nummerreeks instellen voor contacten en opportunities. Als u een nummerreeks hebt ingesteld voor contacten, wordt automatisch het volgende beschikbare contactnummer ingevoerd wanneer u een contact maakt en op Enter drukt in het veld Nr.
+U kunt een nummerreeks instellen voor contacten en opportunities. Als u een nummerreeks hebt ingesteld voor contacten, wordt automatisch het volgende beschikbare contactnummer ingevoerd wanneer u een contact maakt en op Enter drukt in het veld Nr. op de contactkaart.
 
 Zie voor meer informatie over nummerreeksen [Nummerreeksen maken](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Dubbele contacten zoeken als contacten worden gemaakt
-U kunt het programma automatisch laten zoeken naar dubbele records telkens wanneer u een contactbedrijf maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door het programma, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd.
+U kunt de toepassing automatisch laten zoeken naar dubbele records telkens wanneer u een contactbedrijf maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door de toepassing, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9555aabe515757b71426ddca2f90b37e561f96e2
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: 01799b1881fbcdc6285e84f86f9db88a8c4196a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985826"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312232"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 Een doorverzending is de directe verzending van artikelen van een van uw leveranciers naar een van uw klanten.

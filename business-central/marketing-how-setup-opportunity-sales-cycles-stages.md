@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0ed3ae09c42cad7978bc00bf04b6065909e2fd98
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9c49fced44fa6ed1802dcc546a116dae232a8058
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239993"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309088"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Verkoopcycli instellen voor opportunities en cyclusfasen
 Voordat u verkoopopportunities in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Een verkoopcyclus bestaat uit een reeks fasen vanaf het eerste contact tot aan het sluiten van een verkoop. Elke fase kan bepaalde vereisten hebben waaraan moet worden voldaan, zoals een verkoopofferte, voordat een opportunity naar de volgende fase kan gaan. U kunt ook aangeven of een fase kan worden overgeslagen. U kunt elk gewenst aantal verkoopcycli instellen en u kunt binnen een verkoopcyclus elk gewenst aantal verkoopcyclusfasen instellen.

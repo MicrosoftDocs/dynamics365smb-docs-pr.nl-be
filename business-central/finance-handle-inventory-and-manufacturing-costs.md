@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f1c002236877f536a85586d0af912d5e9a85c2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1f858457bcf667d158642fe42f3ea85e668adff3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238268"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306376"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Voorraad- en productiekosten verwerken
 Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
@@ -34,7 +34,7 @@ Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt 
 |De eenheidsprijs van een stuklijstartikel te berekenen op basis van de eenheidsprijs van de onderliggende onderdelen.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|  
 |De waarderingskringloop van een geproduceerd artikel te voltooien door de kosten aan te passen en de waardeposten in overeenstemming te brengen met het grootboek.|[Over de kosten van de gereedgemelde productieorder](finance-about-finished-production-order-costs.md)|  
 |De waarde van een artikel in de voorraad te wijzigen of de waarde van één artikelpost, zoals een inkooptransactie.|[Voorraad herwaarderen](inventory-how-revalue-inventory.md)|
-|Een artikelvereffening handmatig ongedaan te maken of door het programma gemaakte artikelposten opnieuw te vereffenen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|  
+|Een artikelvereffening handmatig ongedaan maken of door de toepassing gemaakte artikelposten opnieuw vereffenen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Gebruik het veld **Vereffenen van post** in het artikeldagboek om een vaste vereffening tussen een inkomende transactie en de oorspronkelijke uitgaande transactie te maken.|[Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## <a name="see-also"></a>Zie ook  

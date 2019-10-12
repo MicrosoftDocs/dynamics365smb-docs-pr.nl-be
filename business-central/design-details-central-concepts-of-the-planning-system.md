@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247516"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303760"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
@@ -26,7 +26,7 @@ De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante
 
 De planner van het bedrijf, bijvoorbeeld een inkoper of productieplanner, wordt naar verwachting de gebruiker van het planningssysteem. Het planningssysteem ondersteunt de gebruiker door de uitgebreide maar redelijk eenvoudige berekeningen van een planning uit te voeren. De gebruiker kan zich vervolgens richten op het oplossen van complexere problemen, zoals wanneer zaken afwijken van normaal.  
 
-Het planningssysteem wordt gestuurd door de verwachte en werkelijke vraag van klanten, zoals prognoses en verkooporders. Het uitvoeren van de planningsberekening leidt ertoe dat het programma specifieke acties voor de gebruiker voorstelt die ondernomen dienen te worden met betrekking tot mogelijke voorzieningen door leveranciers, assemblage- of productieafdelingen of transfers vanuit andere magazijnen. Deze voorgestelde acties kunnen het maken van nieuwe voorzieningenorders zijn, zoals inkoop- of productieorders. Als er al voorzieningenorders zijn, kunnen de voorgestelde acties bestaan uit het vergroten of versnellen van de orders om te voorzien in veranderingen in de vraag.  
+Het planningssysteem wordt gestuurd door de verwachte en werkelijke vraag van klanten, zoals prognoses en verkooporders. Het uitvoeren van de planningsberekening leidt ertoe dat de toepassing specifieke acties voor de gebruiker voorstelt die ondernomen dienen te worden met betrekking tot mogelijke voorzieningen door leveranciers, assemblage- of productieafdelingen of transfers vanuit andere magazijnen. Deze voorgestelde acties kunnen het maken van nieuwe voorzieningenorders zijn, zoals inkoop- of productieorders. Als er al voorzieningenorders zijn, kunnen de voorgestelde acties bestaan uit het vergroten of versnellen van de orders om te voorzien in veranderingen in de vraag.  
 
 Een ander doel van het planningssysteem is ervoor te zorgen dat de voorraad niet onnodig toeneemt. Als de vraag afneemt, zal het planningssysteem voorstellen dat de gebruiker bestaande voorzieningenorders uitstelt, in omvang verkleint of annuleert.  
 
@@ -66,7 +66,7 @@ In bedrijven met een lage artikelstroom en minder geavanceerde productstructuren
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamische ordertracering tegenover het planningssysteem  
 Op het eerste gezicht kan het moeilijk zijn onderscheid te maken tussen het planningssysteem en dynamische ordertracering. Beide functies geven output in het planningsvoorstel weer door acties voor te stellen die de planner moet uitvoeren. De manier waarop deze output wordt geproduceerd verschilt echter.  
 
-Het planningssysteem verwerkt het volledige vraag-voorzieningpatroon van een bepaald artikel op alle niveaus van de stuklijsthiërarchie op de tijdlijn, terwijl bij dynamische ordertracering alleen de situatie wordt afgehandeld van de order waardoor deze is geactiveerd. Bij het vereffenen van vraag en voorziening maakt het planningssysteem koppelingen in een door de gebruiker geactiveerde batchmodus, terwijl met dynamische ordertracering de koppelingen automatisch en tussendoor worden gemaakt, telkens wanneer de gebruiker een vraag of voorziening in het programma invoert, bijvoorbeeld een inkooporder of verkooporder.  
+Het planningssysteem verwerkt het volledige vraag-voorzieningpatroon van een bepaald artikel op alle niveaus van de stuklijsthiërarchie op de tijdlijn, terwijl bij dynamische ordertracering alleen de situatie wordt afgehandeld van de order waardoor deze is geactiveerd. Bij het vereffenen van vraag en voorziening maakt het planningssysteem koppelingen in een door de gebruiker geactiveerde batchmodus, terwijl met dynamische ordertracering de koppelingen automatisch en tussendoor worden gemaakt, telkens wanneer de gebruiker een vraag of voorziening in de toepassing invoert, bijvoorbeeld een inkooporder of verkooporder.  
 
 Tijdens dynamische ordertracering worden koppelingen gecreëerd tussen vraag en aanbod wanneer gegevens worden ingevoerd op een first-come/first-served basis. Dit kan leiden tot enige verstoring van prioriteiten. Een verkooporder die eerst is ingevoerd, met een vervaldatum van volgende maand, kan bijvoorbeeld zijn gekoppeld aan het aanbod in voorraad, terwijl de volgende verkooporder die morgen vervalt, ertoe kan leiden dat een planningsboodschap een nieuwe inkooporder maakt om deze te dekken, zoals hieronder geïllustreerd.  
 
@@ -97,9 +97,9 @@ Zie [Ontwerpdetails: Voorraadprofielen laden](design-details-loading-the-invento
 ### <a name="locations--transfer-level-priority"></a>Prioriteit op niveau van vestigingen/transfers  
 Bedrijven die in meerdere vestigingen actief zijn, moeten mogelijk voor elke vestiging afzonderlijk plannen. Het veiligheidsvoorraadniveau van een artikel en het bestelbeleid ervan kunnen bijvoorbeeld van vestiging tot vestiging verschillen In dit geval moeten per artikel en ook per vestiging de planningsparameters worden opgegeven.  
 
-Dit wordt ondersteund met het gebruik van SKU's, waar individuele planningsparameters kunnen worden opgegeven op SKU-niveau. Een SKU kan worden gezien als een artikel op een bepaalde locatie. Als de gebruiker geen SKU voor die vestiging heeft opgegeven, worden standaard de parameters gebruikt die op de artikelkaart zijn ingesteld. Het programma berekent alleen een planning voor actieve vestigingen, hetgeen betekent dat er een bestaande vraag of voorziening is voor het betreffende artikel.  
+Dit wordt ondersteund met het gebruik van SKU's, waar individuele planningsparameters kunnen worden opgegeven op SKU-niveau. Een SKU kan worden gezien als een artikel op een bepaalde locatie. Als de gebruiker geen SKU voor die vestiging heeft opgegeven, worden standaard de parameters gebruikt die op de artikelkaart zijn ingesteld. De toepassing berekent alleen een planning voor actieve vestigingen, wat betekent dat er een bestaande vraag of voorziening is voor het betreffende artikel.  
 
-In principe kan elk artikel op elke locatie worden afgehandeld, maar de benadering door het programma van het vestigingconcept is tamelijk strikt. Een verkooporder op de ene vestiging kan bijvoorbeeld niet worden vervuld door beschikbare voorraad op een andere vestiging. Het aantal op voorraad moet eerst worden overgebracht naar de vestiging die op de verkooporder is opgegeven.  
+In principe kan elk artikel op elke locatie worden afgehandeld, maar de benadering door de toepassing van het vestigingsconcept is tamelijk strikt. Een verkooporder op de ene vestiging kan bijvoorbeeld niet worden vervuld door beschikbare voorraad op een andere vestiging. Het aantal op voorraad moet eerst worden overgebracht naar de vestiging die op de verkooporder is opgegeven.  
 
 ![Planning voor SKU's](media/NAV_APP_supply_planning_1_SKU_planning.png "Planning voor SKU's")  
 
@@ -146,7 +146,7 @@ Vraag en voorziening kunnen variantcodes en vestigingscodes hebben die moeten wo
 
 Het systeem behandelt variant- en vestigingscodes als artikeldimensies op een verkooporderregel, voorraadpost, enzovoort. Er wordt een planning berekend voor elke combinatie van variant en locatie, alsof de combinatie een apart artikelnummer is.  
 
-In plaats van een theoretische combinatie van vestiging en variant te berekenen, berekent het programma alleen de combinaties die werkelijk voorkomen in de database.  
+In plaats van een theoretische combinatie van vestiging en variant te berekenen, berekent de toepassing alleen de combinaties die werkelijk voorkomen in de database.  
 
 Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-balancing-demand-and-supply.md) voor meer informatie over de manier waarop het planningssysteem omgaat met vestigingscodes in vraag.  
 

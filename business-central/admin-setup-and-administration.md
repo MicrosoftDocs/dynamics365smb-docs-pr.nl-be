@@ -1,21 +1,21 @@
 ---
 title: Administratieve taken in Business Central | Microsoft Docs
 description: Sommige taken in Business Central moeten centraal worden beheerd en ingesteld. Zie om welke taken het gaat en wat u hiermee doet.
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/22/2019
-ms.author: edupont
-ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 70dd0d0e25bca02b87a56a3537ee885d5b802dcc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796723"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304193"
 ---
 # <a name="administration"></a>Beheer
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
@@ -33,8 +33,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen (rollen) en rolcentra](admin-users-profiles-roles.md)|  
 |Machtigingen toewijzen aan gebruikers, machtigingensets aanpassen, en gebruikers groeperen op hun machtigingen|[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)|
+|Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen beheren](admin-users-profiles-roles.md)|
 |Gegevensgevoeligheden classificeren voor velden, zodat u kunt reageren op aanvragen van gegevensonderwerpen met betrekking tot hun persoonlijke gegevens.|[Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)|
 |Reageren op aanvragen van gegevensobjecten met betrekking tot hun persoonlijke gegevens.|[Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)|
 |Een nieuwe bedrijfsunit instellen op basis van sjablonen|[Nieuwe bedrijven maken](about-new-company.md)|
@@ -44,7 +44,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|
 |Als onderdeel van het maken van Connect-apps tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en oplossingen van derden door middel van REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen van een entiteit te vullen wanneer u een POST-actie maakt met een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|
 |Versleutel gegevens op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
-|Verbind Dynamics 365 for Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Verbind Dynamics 365 Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Zie ook

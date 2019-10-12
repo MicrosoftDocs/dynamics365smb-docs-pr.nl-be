@@ -18,35 +18,39 @@
 
 # Werken met Business Central
 ## [Overzicht](ui-work-product.md)
-## [Functies en informatie zoeken](ui-search.md)
+## [Pagina's en informatie zoeken met Vertel me](ui-search.md)
+## [Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md)
 ## [Veelgestelde vragen over Vertel me](ui-search-faq.md)
-## [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)
+## [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
 ## [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.md)
 ## [Gegevens invoeren](ui-enter-data.md)
+## [Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md)
 ## [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)
-## [Kopiëren en plakken](ui-copy-paste.md)
 ## [Verplichte velden detecteren](ui-mandatory-fields.md)
 ## [Taal en landinstellingen wijzigen](about-locale-language.md)
 ## [Weergeven en bewerken in Excel](across-work-with-excel.md)  
-## [Berichten beheren](ui-smart-notifications.md)
+## [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md)
 ## [Basisinstellingen wijzigen](ui-change-basic-settings.md)
+## [Berichten beheren](ui-smart-notifications.md)
 ## Business Central aanpassen
-### [Het personaliseren van uw werkruimte](ui-personalization-user.md)
+### [Uw werkruimte personaliseren](ui-personalization-user.md)
 ### [Waarom een pagina is vergrendeld voor personaliseren](ui-personalization-locked.md)
+### [Lijstweergaven opslaan en personaliseren](ui-views.md)
+### [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md)
 ### [Lijsten weergeven op verschillende manieren](across-display-lists-different-views.md)
-## Rapporten afdrukken en batchverwerkingen uitvoeren
-### [Werken met rapporten en batchverwerkingen](ui-work-report.md)
+## Rapporten afdrukken en batchverwerkingen en XMLports uitvoeren
+### [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)
 ### [Printerselectie opgeven voor rapporten](ui-specify-printer-selection-reports.md)
-### [Een rapport of batchverwerking plannen voor uitvoering](ui-work-report.md#ScheduleReport)
-### [Opgeslagen instellingen in rapporten beheren](reports-saving-reusing-settings.md)
+### [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport)
+### [Opgeslagen instellingen beheren voor rapporten en batchtaken](reports-saving-reusing-settings.md)
 ### [Controlelijsten weergeven vóór boeken](ui-how-view-test-reports-posting.md)
-### [Batchverwerkingen uitvoeren](ui-how-run-batch-jobs.md)
-## Wijzigen hoe documenten eruitzien
+### [Batchtaken en XML-poorten uitvoeren](ui-how-run-batch-jobs.md)
+## Wijzigen hoe extern gerichte documenten en rapporten eruitzien
 ### [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)
 ### [Rapport- of documentlay-outs bijwerken](ui-update-report-layouts.md)
 ### [Wijzigingen aanbrengen in een Word-rapportlay-out](ui-how-create-custom-report-layout.md)
 ### [Een rapport- of documentlay-out importeren en exporteren](ui-how-import-and-export-report-layout.md)
-### [Wijzigen welke lay-out momenteel in een rapport wordt gebruikt](ui-how-change-layout-currently-used-report.md)
+### [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)
 ### [Velden toevoegen aan een Word-rapportlay-out](ui-how-add-fields-word-report-layout.md)
 ## Sneltoetsen gebruiken
 ### [Toegankelijkheid en sneltoetsen](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Documenten archiveren](across-how-to-archive-documents.md)
 ## [Uitgebreide artikeltekst toevoegen](ui-how-define-ext-text.md)
 ## [Gebruikerstaken definiëren](across-user-tasks.md)
-## [Koppelingen naar websites, documenten of programma's voor records toevoegen](ui-how-add-link-to-record.md)
-## [Bestanden koppelen een kaarten en documenten](across-attach-document-master-data.md)
 ## [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)
 ## [Documenten en dagboeken boeken](ui-post-documents-journals.md)
+## [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)
 ## [Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)
 ## [Geboekte documenten bewerken](across-edit-posted-document.md)
 ## [Werken met diversendagboeken](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Beheer
 ## [Overzicht](admin-setup-and-administration.md)
-## [Gebruikers, rollen en profielen](admin-users-profiles-roles.md)
 ## [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
+## [Profielen beheren](admin-users-profiles-roles.md)
 ## [Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)
 ## [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)
 ## [Nieuwe bedrijven maken](about-new-company.md)
@@ -318,17 +321,11 @@
 ## [Uw proefversie uitbreiden](admin-extend-trial.md)
 ## [Pagina's inspecteren](across-inspect-page.md)
 ## [Een sandboxomgeving maken](across-how-create-sandbox-environment.md)
-## Integreren met Dynamics 365 for Sales
-### [Overzicht](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Een Dynamics 365 for Sales-verbinding instellen](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Business Central en Dynamics 365 for Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)
-### [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
-### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
 ## Business Central aanpassen
 ### [Overzicht](ui-customizing-overview.md)
+### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)
+### [Wijzigen welke functies worden weergegeven](ui-experiences.md)
+### [Een gekleurde indicator instellen voor indicatiestapels](admin-how-set-up-colored-indicator-on-cues.md)
 ### Aanpassen met behulp van extensies
 #### [Overzicht](ui-extensions.md)
 #### [Aanpassen met behulp van extensies](ui-extensions.md)
@@ -353,10 +350,16 @@
 #### [DK - Belastingbestandsindelingen](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io postcodes van het Verenigd Koninkrijk](ui-extensions-getaddressio.md)
 #### [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
-#### [Extensies voor Business Central van andere providers](ui-extensions-other.md)
-### [Wijzigen welke functies worden weergegeven](ui-experiences.md)
-### [Personalisaties beheren als beheerder](ui-personalization-manage.md)
-### [Een gekleurde indicator instellen voor indicatiestapels](admin-how-set-up-colored-indicator-on-cues.md)
+#### [Business Central-extensies van andere providers](ui-extensions-other.md)
+## Integreren met Dynamics 365 Sales
+### [Overzicht](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Een Dynamics 365 Sales-verbinding instellen](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Business Central en Dynamics 365 Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)
+### [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
+### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
 
 # Financiën
 ## [Overzicht](finance.md)
@@ -470,7 +473,7 @@
 ## [Werken met dimensies](finance-dimensions.md)
 ## [Grootboekbudgetten maken](finance-how-create-budgets.md)
 ## [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
-## [Boekingen tegenboeken](finance-how-reverse-journal-posting.md)
+## [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)
 ## [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)
 ## [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 ## [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
@@ -592,8 +595,7 @@
 ### [Verkoopcycli instellen voor opportunities en cyclusfasen](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Opportunities maken](marketing-how-create-opportunities.md)
 ### [E-mailberichtuitwisselingen volgen](marketing-set-up-email-logging.md)
-
-### [Verkoopopportunities verwerken](marketing-processing-sales-opportunities.md)
+### [Verkoopopportunity's verwerken](marketing-processing-sales-opportunities.md)
 ### [E-maillogboekregistratie instellen](marketing-set-up-email-logging.md)
 ## [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md)
 ## [Dynamics 365 for Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
@@ -839,7 +841,6 @@
 #### [Controlelijsten afdrukken voor leveringsherinneringen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Alge&meen
 #### [Boekhoudinstellingeninformatie afdrukken](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Verkoop- en inkooporders afdrukken voor batchboeking](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## België
 ### [Overzicht](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Valutawisselkoersen](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [EU-verkooplijst in Duitsland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Btw-nummers van bedrijven opnemen in verkoop- en inkooprapporten](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Verkoop- en inkooporders afdrukken voor batchboeking](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Boekhoudinstellingeninformatie afdrukken](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certificatie van Business Central voor Duitse markt (het document is in het Duits)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Bedrijfsgegevens instellen](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italiaanse uitbesteding](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Dagboeksjablonen en -batches instellen](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Handel rapporteren met klanten en leveranciers in landen en regio's op een zwarte lijst](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexico
 ### [Overzicht](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Noorwegen
 ### [Overzicht](LocalFunctionality/Norway/norway-local-functionality.md)
 ### Btw
+#### [Noors standaardauditfile - Belastingbeheer (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Noorse btw-rapportage](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Noorse btw-codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Eén btw-code gebruiken in dagboeken](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### Alge&meen    
 #### [Zwitserse postcodes importeren](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Zwitserse inkoopdocumenten en verkooporders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Verkoop- en inkooporders afdrukken voor batchboeking](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Verenigd Koninkrijk
 ### [Overzicht](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

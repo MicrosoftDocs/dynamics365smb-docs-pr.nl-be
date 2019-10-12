@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243883"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303784"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Ontwerpdetails: Vraag en aanbod afstemmen
 Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen. De belangrijkste hiervan zijn om te zorgen dat:  
@@ -28,7 +28,7 @@ Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de priori
  Over het algemeen worden deze doelstellingen bereikt door aanbod met vraag af te stemmen.  
 
 ## <a name="demand-and-supply"></a>Vraag en voorzieningen
- Vraag is de verzamelterm voor elk soort brutovraag, zoals een verkooporder en materiaalbehoefte van een productieorder. Bovendien staat het programma meer technische soorten vraag toe, zoals negatieve voorraad en inkoopretouren  
+ Vraag is de verzamelterm voor elk soort brutovraag, zoals een verkooporder en materiaalbehoefte van een productieorder. Bovendien staat de toepassing meer technische soorten vraag toe, zoals negatieve voorraad en inkoopretouren  
 
   Voorziening is de algemene term voor elke soort positief of inkomend aantal, zoals voorraad, inkopen, assemblage, productie of inkomende transfers. Een verkoopretour kan bovendien ook voorziening vertegenwoordigen.  
 
@@ -84,10 +84,10 @@ Afgezien van het laden van typen vraag en aanbod, worden bepaalde soorten gelade
 ### <a name="item-dimensions-are-separated"></a>Artikeldimensies worden gescheiden  
 Het voorzieningenplan moet worden berekend per combinatie van artikeldimensies, zoals variant en vestiging. Er is echter geen reden om elke theoretische combinatie te berekenen. Alleen combinaties met vraag en/of aanbod moeten worden berekend.  
 
-Het planningssysteem bepaalt dit via het voorraadprofiel. Wanneer een nieuwe combinatie wordt gevonden, wordt een interne besturingsrecord gemaakt die de werkelijke combinatiegegevens bevat. De SKU wordt automatisch ingevoerd als besturingsrecord, of buitenste lus. Daarom worden de juiste planningsparameters op basis van een combinatie van variant en vestiging ingesteld en kan het programma doorgaan naar de binnenlus.  
+Het planningssysteem bepaalt dit via het voorraadprofiel. Wanneer een nieuwe combinatie wordt gevonden, wordt een interne besturingsrecord gemaakt die de werkelijke combinatiegegevens bevat. De SKU wordt automatisch ingevoerd als besturingsrecord of buitenste lus. Daarom worden de juiste planningsparameters op basis van een combinatie van variant en vestiging ingesteld en kan de toepassing doorgaan naar de binnenlus.  
 
 > [!NOTE]  
->  De gebruiker hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of voorziening voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt het programma een eigen tijdelijke SKU op basis van de artikelkaartgegevens. Als Vestiging verplicht op Ja is ingesteld op de pagina Voorraadinstellingen, moet een SKU worden gemaakt of moet Onderdelen op vestiging worden ingesteld op Ja. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
+>  De gebruiker hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of voorziening voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt de toepassing daarom een eigen tijdelijke SKU op basis van de artikelkaartgegevens. Als Vestiging verplicht op Ja is ingesteld op de pagina Voorraadinstellingen, moet een SKU worden gemaakt of moet Onderdelen op vestiging worden ingesteld op Ja. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serie-/lotnummers worden geladen op specificatieniveau  
 Kenmerken in de vorm van serie-/lotnummers worden in de voorraadprofielen geladen met de vraag en het aanbod waaraan ze zijn toegewezen.  

@@ -1,6 +1,6 @@
 ---
-title: Business Central en Dynamics 365 for Sales synchroniseren | Microsoft Docs
-description: Leer over het synchroniseren van gegevens tussen Business Central en Dynamics 365 for Sales.
+title: Business Central en Dynamics 365 Sales synchroniseren | Microsoft Docs
+description: Leer over het synchroniseren van gegevens tussen Business Central en Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/16/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755230"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304360"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Een synchronisatie plannen tussen Business Central en Dynamics 365 for Sales
+# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales
 U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] met [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij. De synchronisatietaken synchroniseren gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]-records en [!INCLUDE[crm_md](includes/crm_md.md)]-records die eerder zijn gekoppeld. Of voor records die niet al zijn gekoppeld kunnen de synchronisatietaken, afhankelijk van de synchronisatierichting en -regels, nieuwe records maken en koppelen in het doelsysteem. Er zijn verschillende synchronisatietaken die kant-en-klaar beschikbaar zijn. U kunt ze op de pagina **Taakwachtrijposten** weergeven. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
@@ -46,17 +46,17 @@ De volgende tabel beschrijft de standaardsynchronisatietaken.
 
 |Taakwachtrij-item|Omschrijving|Richting|Toewijzing van integratietabel|  
 |---------------------|---------------------------------------|---------------|-------------------------------|  
-|CONTACT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-contacten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-contacten.|Bidirectioneel|CONTACT|  
-|VALUTA - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-transactievaluta's met [!INCLUDE[d365fin](includes/d365fin_md.md)]-valuta's.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|VALUTA|  
-|KLANT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-accounts met [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten.|Bidirectioneel|KLANT|  
-|KLANTENPRIJSGROEPPRIJS - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-verkoopprijslijsten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-klantenprijsgroepen| |KLANTENPRIJSGROEPEN-VERKOOPPRIJSLIJSTEN|
-|ARTIKEL - PRODUCT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-artikelen.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|ARTIKEL-PRODUCT|
-|GEBOEKTEVERKOOPFACTUUR-FACT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-facturen met [!INCLUDE[d365fin](includes/d365fin_md.md)] geboekte verkoopfacturen.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|FACTUREN-GEBOEKTE VERKOOPFACTUREN|
-|RESOURCE - PRODUCT - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-resources.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|RESOURCE-PRODUCT|  
-|VERKOPERS - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkopers met [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers.|Van [!INCLUDE[crm_md](includes/crm_md.md)] naar [!INCLUDE[d365fin](includes/d365fin_md.md)]|VERKOPERS|
-|VERKOOPPRIJS-PRODUCTPRIJS - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-productprijzen met [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopprijzen.||PRODUCTPRIJS-VERKOOPPRIJS|
-|MAATEENHEID - Dynamics 365 for Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-eenhedengroepen met [!INCLUDE[d365fin](includes/d365fin_md.md)]-maateenheden.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|MAATEENHEID|  
-|Klantstatistiek - Dynamics 365 for Sales-synchronisatie|Werkt [!INCLUDE[crm_md](includes/crm_md.md)]-rekeningen bij met de recentste [!INCLUDE[d365fin](includes/d365fin_md.md)]-klantgegevens In [!INCLUDE[crm_md](includes/crm_md.md)] wordt deze informatie in het snelle weergaveformulier **Statistiek van Business Central-account** weergegeven van accounts die zijn gekoppeld aan [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten.<br /><br /> Deze gegevens kunnen ook handmatig worden bijgewerkt vanuit van elke klantrecord. Zie voor meer informatie [Procedure: Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Opmerking:** Dit taakwachtrij-item is alleen van belang als de [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Over de Business Central-integratieoplossing](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Niet van toepassing.|Niet van toepassing.|   
+|CONTACT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-contacten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-contacten.|Bidirectioneel|CONTACT|  
+|VALUTA - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-transactievaluta's met [!INCLUDE[d365fin](includes/d365fin_md.md)]-valuta's.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|VALUTA|  
+|KLANT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-accounts met [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten.|Bidirectioneel|KLANT|  
+|KLANTENPRIJSGROEPPRIJS - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-verkoopprijslijsten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-klantenprijsgroepen| |KLANTENPRIJSGROEPEN-VERKOOPPRIJSLIJSTEN|
+|ARTIKEL - PRODUCT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-artikelen.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|ARTIKEL-PRODUCT|
+|GEBOEKTEVERKOOPFACTUUR-FACT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-facturen met [!INCLUDE[d365fin](includes/d365fin_md.md)] geboekte verkoopfacturen.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|FACTUREN-GEBOEKTE VERKOOPFACTUREN|
+|RESOURCE-PRODUCT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[d365fin](includes/d365fin_md.md)]-resources.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|RESOURCE-PRODUCT|  
+|VERKOPERS - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkopers met [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers.|Van [!INCLUDE[crm_md](includes/crm_md.md)] naar [!INCLUDE[d365fin](includes/d365fin_md.md)]|VERKOPERS|
+|VERKOOPPRIJS-PRODUCTPRIJS - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-productprijzen met [!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopprijzen.||PRODUCTPRIJS-VERKOOPPRIJS|
+|MAATEENHEID - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-eenhedengroepen met [!INCLUDE[d365fin](includes/d365fin_md.md)]-maateenheden.|Van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|MAATEENHEID|  
+|Klantstatistieken - Dynamics 365 Sales-synchronisatie|Werkt [!INCLUDE[crm_md](includes/crm_md.md)]-rekeningen bij met de recentste [!INCLUDE[d365fin](includes/d365fin_md.md)]-klantgegevens In [!INCLUDE[crm_md](includes/crm_md.md)] wordt deze informatie in het snelle weergaveformulier **Statistiek van Business Central-account** weergegeven van accounts die zijn gekoppeld aan [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten.<br /><br /> Deze gegevens kunnen ook handmatig worden bijgewerkt vanuit van elke klantrecord. Zie voor meer informatie [Procedure: Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Opmerking:** Dit taakwachtrij-item is alleen van belang als de [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Over de Business Central-integratieoplossing](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Niet van toepassing.|Niet van toepassing.|   
 
 ## <a name="to-view-the-synchronization-job-log"></a>Logboek met synchronisatietaken weergeven  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Logboek van integratiesynchronisatie** in en kies vervolgens de gerelateerde koppeling.
@@ -73,10 +73,10 @@ De volgende tabel beschrijft de standaardsynchronisatietaken.
 * Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Synchronisatiefouten bij integratie** in en kies vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook  
-[Gegevens synchroniseren in Business Central en Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)  
+[Gegevens synchroniseren in Business Central en Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
 [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)  
-[Een synchronisatie plannen tussen Business Central en Dynamics 365 for Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
-[Over integratie van Dynamics 365 Business Central met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Over integratie van Dynamics 365 Business Central met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 
 

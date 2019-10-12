@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: 3b3cc817ac79fa18a5f0b68b97a54fab9ac6711b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970982"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307336"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Ontwerpdetails: Codeunit 408 Dimensiebeheer
 Codeunit 408 Dimensiebeheer is een functiebibliotheek die veel voorkomende taken afhandelt die verband houden met dimensies, zoals kopiëren van de ene tabel naar de andere of van het ene document naar het andere. In dit onderwerp worden de functies genoemd die in Microsoft Dynamics NAV 2013 R2 zijn gewijzigd en er wordt aangegeven wat er met de functies moet gebeuren. Veel functies zijn verwijderd omdat er geen reden is om te kopiëren tussen dimensietabellen.  

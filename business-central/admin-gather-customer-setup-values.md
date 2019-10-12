@@ -1,8 +1,6 @@
 ---
 title: Waarden van klantinstellingen verzamelen | Microsoft Docs
-description: U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in Business Central en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.
-services: project-madeira
-documentationcenter: ''
+description: U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in Business Central en vervolgens als een Excel-bestand (.xlsx) of een XML-bestand aan de klant geven.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245584"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304648"
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
 U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.  
@@ -75,7 +73,7 @@ U gebruikt de configuratievragenlijst om een uitvoerige discussie te structurere
 2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 3. Selecteer de vragenlijst voor het bedrijf en kies de actie **Naar Excel exporteren**, optioneel de actie **Naar XML exporteren**.
 4. Laat de klant de configuratievragenlijst invullen door de antwoorden in te voeren in de Excel-werkmap. Er zijn werkbladen voor elk vraaggebied dat is gemaakt voor de vragenlijst.   
-5. Kies de actie **Vanuit Excel importeren** en selecteer het .xlsx-bestand met de antwoorden van de klant.  
+5. Sla de Excel-werkmap op als *XML-gegevens*. Kies de actie **Vanuit XML importeren** en selecteer het .xml-bestand met de antwoorden van de klant.
 6. Kies de actie **Vragengebieden** om te beginnen met het valideren en toepassen van de antwoorden op de configuratievragenlijst.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Een vragenlijst invullen vanuit het configuratiewerkblad  

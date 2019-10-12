@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241398"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300893"
 ---
-# <a name="extending-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] uitbreiden
+# <a name="extending-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] uitbreiden
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is een bedrijfsmanagementoplossing die bedrijven helpt hun financiën, verkoop, service en activiteiten te verbinden om bedrijfsprocessen te stroomlijnen, klantinteracties te verbeteren en betere beslissingen te nemen. [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in de cloud en voor gebruikers over meerdere soorten apparaten, en is altijd up-to-date. Met dit moderne bedrijfsplatform kunt u snel en gemakkelijk toepassingen aanpassen, uitbreiden en maken zodat ze voldoen aan uw specifieke behoeften. Er is weinig of geen codeontwikkeling nodig.  
 
 Het heeft allerlei voordelen om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken als een platform voor makers van apps, zoals:
@@ -30,7 +30,7 @@ Het heeft allerlei voordelen om [!INCLUDE[d365fin](includes/d365fin_md.md)] te g
 * Bedrijfswaarde en dealomvang vergroten met bestaande en nieuwe klanten
 * Bereik meer met een platform dat een moderne ervaring levert en schaal biedt  
 * Praktisch inzicht krijgen in de prestaties van uw beschrijvingen via het publicatieproces van de Cloud Partner Portal of de Office-app
-* Bundel met intelligente bedrijfsapps, zoals PowerApps, Flow, Power BI, Cortana Intelligence en veel meer  
+* Bundel met intelligente bedrijfsapps, zoals PowerApps, Flow, Power BI, Azure AI en veel meer  
 
 Breng uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-services over naar Microsoft AppSource als:
 
@@ -41,9 +41,9 @@ Met de nieuwe ontwikkelingshulpprogramma's kunt u extensies maken voor gebruiker
 
 Zoek informatie over apps en consultingservices die momenteel beschikbaar zijn op [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-Om zakelijke gebruikers snel aan de slag te helpen heeft Microsoft een catalogus met aanbiedingen van consultingservices op basis van [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI en PowerApps toegevoegd aan AppSource. Meer informatie over de [consultingservices](/dynamics-nav/developer/readiness/readiness-consulting).
+Om zakelijke gebruikers snel aan de slag te helpen heeft Microsoft een catalogus met aanbiedingen van consultingservices op basis van [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI en PowerApps toegevoegd aan AppSource. Meer informatie over de [consultingservices](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365finmdmd"></a>Kiezen welke services u aanbiedt met [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Kiezen welke services u aanbiedt met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Een oplossing van derden integreren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt veel kant-en-klare API's beschikbaar voor [Connect-apps](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) om een naadloze integratie tussen uw service en [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk te maken. U kunt uw services bundelen met een [!INCLUDE[d365fin](includes/d365fin_md.md)] en uw klanten een geïntegreerde ervaring bieden. Meer informatie over [Integratie met een oplossing van derden](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -55,7 +55,7 @@ Een app maken die binnen een bepaalde branche gespecialiseerd is. Met [App inslu
 Breid de ervaring en de mogelijkheden van [!INCLUDE[d365fin](includes/d365fin_md.md)] uit door een [Add-on-app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) te maken die wordt geïntegreerd met de gebruikerservaring van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bouw een interface op basis van hoe u de gegevens wilt laten stromen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en uw services. Meer informatie over de [Ontwikkeling van een horizontale oplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal).
 
 ### <a name="development-of-a-localization-solution"></a>Ontwikkeling van een lokalisatieoplossing
-Voldoe aan plaatselijke voorschriften door te ontwikkelen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit past functionele gebieden aan de vereisten van de plaatselijke markt aan, in combinatie met de [Dynamics 365 Translation Service](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Lijn de kernmogelijkheden van lokale wettelijke vereisten uit en breid bestaande functionaliteit uit om succesvol te concurreren op de lokale markt. Meer informatie over de [Ontwikkeling van een lokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+Voldoe aan plaatselijke voorschriften door te ontwikkelen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit past functionele gebieden aan de vereisten van de plaatselijke markt aan, in combinatie met de [Dynamics 365 Translation Service](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Lijn de kernmogelijkheden van lokale wettelijke vereisten uit en breid bestaande functionaliteit uit om succesvol te concurreren op de lokale markt. Meer informatie over de [Ontwikkeling van een lokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Reselleroplossing
 Aangezien elk bedrijf uniek is, kunt u door [tenants aan te passen](/dynamics-nav/developer/readiness/readiness-customizing-tenants) uw manier van werken aanpassen aan uw gestroomlijnde processen, uw terminologie en de manier waarop uw werknemers of afdelingen verbinding maken en samenwerken. Bovendien kunt u ervoor kiezen [!INCLUDE[d365fin](includes/d365fin_md.md)] door te verkopen en aan te passen aan de afzonderlijke wensen van uw klanten door [consultingservices](/dynamics-nav/developer/readiness/readiness-consulting) te bieden. U kunt ook Microsoft Flow, Power Apps en Power BI gebruiken om [aangepaste workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps en rapporten met bedrijfsinzichten te maken zonder code te hoeven schrijven. Meer informatie over [Dynamics 365 Reseller (VAR's)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
@@ -76,7 +76,7 @@ Het Ready to Go-programma is bedoeld om u te helpen uw [!INCLUDE[d365fin](includ
 
 Meer informatie over het maken van een [!INCLUDE[d365fin](includes/d365fin_md.md)]-aanbod in het [Ready to Go-programma](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Als u vragen of feedback hebt over het **Ready to Go**-programma, kunt u [contact met ons opnemen](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365finmdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies die door Microsoft worden verstrekt
+## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies die door Microsoft worden verstrekt
 De standaardversie van het product bevat een groeiend aantal extensies die door Microsoft worden ontwikkeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
 
 ## <a name="see-also"></a>Zie ook

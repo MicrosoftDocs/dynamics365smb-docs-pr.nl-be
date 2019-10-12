@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245155"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305272"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
@@ -110,7 +110,7 @@ Dit wordt in de volgende procedures beschreven.
 > [!NOTE]  
 >  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Selecteer op het sneltabblad **Regeldefinities** de regel waarvoor u kolommen aan velden wilt toewijzen en kies vervolgens **Veldtoewijzing**. De pagina **Toewijzing gegevensuitwisseling** wordt geopend.  
 2. Geef op het sneltabblad **Algemeen** de toewijzingsinstelling op door de velden in te vullen zoals beschreven in de volgende tabel.  
 

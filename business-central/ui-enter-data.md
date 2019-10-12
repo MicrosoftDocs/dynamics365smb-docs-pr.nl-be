@@ -1,5 +1,5 @@
 ---
-title: Gegevens invoeren in velden | Microsoft Docs
+title: Gegevens invoeren in Business Central | Microsoft Docs
 description: Leer over algemene functies die u helpen gegevens in velden in te voeren.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000799"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311392"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -39,7 +39,7 @@ U bent mogelijk al vertrouwd met het gebruik van de Tab-toets om van het ene vel
 
 Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die in snelinvoer zijn opgenomen, worden opgenomen in het pad wanneer u op Enter drukt; velden die zijn uitgesloten van snelinvoer, worden dat niet.
 
-Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
+Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Sneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips en trucs
 Hieronder volgt wat nuttige informatie over het gebruik van snelinvoer.
@@ -51,11 +51,11 @@ Hieronder volgt wat nuttige informatie over het gebruik van snelinvoer.
 - Snelinvoer werkt ongeacht of velden verplicht zijn. Het is dus een goed idee te zorgen dat verplichte velden zijn opgenomen in snelinvoer.
 - Standaard worden de meeste velden automatisch opgenomen in snelinvoer. In eerste instantie moet u dus waarschijnlijk velden uitsluiten van snelinvoer.
 
-### <a name="how-to-change-quick-entry-fields"></a>Hoe u snelinvoervelden wijzigt
+### <a name="to-change-quick-entry-fields"></a>Snelinvoervelden wijzigen
 
 Als u wilt wijzigen welke velden zijn opgenomen in of uitgesloten van snelinvoer op een pagina, gebruikt u personalisatie.
 
-1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") te selecteren en vervolgens **Personaliseren**.
+1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") te selecteren en vervolgens de actie **Personaliseren**.
 2. Selecteer een veld dat u wilt wijzigen of selecteer in lijsten de corresponderende kolomkop en kies vervolgens **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer**.
 
 Zie voor meer informatie over personalisatie [Uw werkruimte personaliseren](ui-personalization-user.md).
@@ -76,31 +76,42 @@ Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te v
 
 -   Vervolgkeuze - Hiermee toont u de verzameling opties die beschikbaar zijn voor het veld. U kunt slechts één optie tegelijk selecteren.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Velden en regels kopiëren en plakken
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Velden en regels kopiëren en plakken
 
 U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail). Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
 
 Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, drukt u op F8.
 
-Zie voor meer informatie [Kopiëren en plakken in Business Central](ui-copy-paste.md).
+Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Regelitems filteren
+
+Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#Filtering) voor meer informatie.
+
+Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent en de regelartikelen filtert om alle regelartikelen weer te geven die een individuele korting van meer dan 5% hebben, of dat u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
 
 ## <a name="Focus"></a>Focussen op regelartikelen
 
-Wanneer u werkt aan documenten die een onderdeel met regelartikelen bevatten, zoals een verkooporder of een factuurpagina, kunt u de weergave overschakelen om alleen te focussen op de regelartikelen. In wezen vouwt u het onderdeel met regelartikelen uit, zodat het ongeveer de hele werkruimte in beslag neemt. Andere delen van de pagina worden verborgen, behalve het actiegebied bovenin. Dit geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken. Dit is met name voordelig bij het werken met grote regelartikellijsten en als snelle gegevensinvoer gewenst is.
+Wanneer u werkt aan documenten die een regelitemgedeelte bevatten, zoals een verkooporder of factuurpagina, kunt u uw weergave zo instellen dat deze zich alleen op de regelitems concentreert. Het gedeelte met regelitems wordt vervolgens uitgevouwen zodat het vrijwel de hele werkruimte in beslag neemt en andere delen van de pagina verbergt behalve het actiegebied bovenaan. Dit geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken.
 
-Een ander voordeel is dat het ook geavanceerde filtermogelijkheden biedt, zoals in andere lijsten, waardoor bladeren en zoeken door regelartikelen nog gemakkelijker wordt.
+Dit is met name voordelig bij het werken met grote regelartikellijsten en wanneer snelle gegevensinvoer gewenst is. Een ander voordeel is dat het ook geavanceerde filtermogelijkheden biedt, zoals in andere lijsten, waardoor bladeren en zoeken door regelartikelen nog gemakkelijker wordt.
 
 ### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
-Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelartikelen en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
+Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelitems en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
 
 Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
 
-### <a name="filtering-the-line-items"></a>Regelartikelen filteren
+## <a name="multitasking-across-multiple-pages"></a>Multitasking over meerdere pagina's
+Wanneer u aan meerdere taken tegelijk werkt of wanneer u onderbrekingen in de huidige taak beheert, zoals het aannemen van een inkomende oproep, kunt u een kaart- of documentpagina in een nieuw venster openen. Hiermee kunt u een venster openhouden voor een lopende taak terwijl u een andere taak in een of meer andere vensters start of voltooit.
 
-Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "pictogram Filterdeelvenster") boven aan de lijst of drukt u op **Shift+F3** om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#Filtering) voor meer informatie.
+Kies om de huidige kaart of het document in een nieuw venster te openen ![Openen in nieuw venster](media/open-new-window-icon.png "pictogram Openen in nieuw venster") in de rechterbovenhoek of druk op Alt + Shift+W.
 
-Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent en de regelartikelen filtert om alle regelartikelen weer te geven die een individuele korting van meer dan 5% hebben, of dat u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
+> [!NOTE]
+> Wanneer u andere pagina's opent vanaf een kaart of document dat in een nieuw venster is geopend, worden die pagina's in een nieuw venster geopend, ook al kiest u niet ![Nieuw venster openen](media/open-new-window-icon.png "pictogram Nieuw venster openen").
+
+> [!NOTE]
+> Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Hoeveelheden invoeren door berekening
 
@@ -185,7 +196,7 @@ In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoe
 
 |Post|Interpretatie|  
 |---------------|------------------------|  
-|131202 132455|13.12.02 13:24:55|  
+|`131202` 132455|13.12.02 13:24:55|  
 |1-12-02 10|01.12.02 10:00:00|  
 |1.12.02 5|01.12.02 05:00:00|  
 |1.12.02|01.12.02 00:00:00|  

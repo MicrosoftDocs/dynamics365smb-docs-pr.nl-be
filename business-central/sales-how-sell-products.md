@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 08/19/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4eb0a35f29b9eb6022b2517a1568a9fe80fdfc07
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: 76fc6081cf1dd27cc1e8f6c3611e60cb0ef7d37f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887657"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312112"
 ---
 # <a name="sell-products"></a>Producten verkopen
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
@@ -100,7 +100,7 @@ U kunt klantvelden op de verkooporder op twee manieren invullen afhankelijk van 
 19. Voer in het veld **Aantal** in hoeveel eenheden van het product, de kosten of de transactie met de regel voor de klant worden geregistreerd.  
 
     > [!NOTE]  
-    >   Als het een artikel van de soort **Artikel - Service** of **Resource** betreft, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel. Zie [Artikeleenheden instellen](inventory-how-setup-units-of-measure.md) voor meer informatie.
+    > Als het een artikel van de soort **Service** betreft of als het veld **Type** de waarde **Resource** bevat, is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel. Zie [Artikeleenheden instellen](inventory-how-setup-units-of-measure.md) voor meer informatie.
 
     De waarde in het veld **Regelbedrag** wordt berekend als *Eenheidsprijs* x *Aantal*.  
 

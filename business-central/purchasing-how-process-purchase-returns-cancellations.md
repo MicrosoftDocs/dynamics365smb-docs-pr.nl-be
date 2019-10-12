@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 496873cf36ec696b081f7f29bcf8b2b9bb3c026f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252539"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312520"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
 Als u artikelen wilt retourneren naar uw leverancier of services die u hebt aangeschaft, wilt annuleren, kunt u een inkoopcreditnota maken en boeken met de aangevraagde wijziging voor de oorspronkelijke inkoopfactuur. Als u de correcte inkoopfactuurinformatie wilt opnemen, kunt u de inkoopcreditnota rechtstreeks vanuit de geboekte inkoopfactuur maken, of een nieuwe inkoopcreditnota maken met gekopieerde informatie uit de factuur.

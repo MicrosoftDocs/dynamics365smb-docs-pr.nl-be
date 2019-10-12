@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244734"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302392"
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
 Als u analyse in documenten zoals verkooporders eenvoudiger wilt maken, kunt u dimensies gebruiken. Dimensies zijn kenmerken en waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
@@ -50,7 +50,7 @@ U stelt ook waarden voor dimensies in. Waarden kunnen bijvoorbeeld afdelingen in
 
 Als dimensies en waarden zijn ingesteld, kunt u globale dimensies en shortcutdimensies definiëren op de pagina **Boekhoudinstellingen** die altijd beschikbaar is, om te selecteren als velden op dagboek- en documentregels, zonder eerst de pagina **Dimensies** te hoeven openen. Zie [Globale dimensies en shortcutdimensies instellen](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions) voor meer informatie.
 
-* **Globale dimensies** worden als filters gebruikt, bijvoorbeeld in rapporten en batchverwerkingen. U kunt slechts twee globale dimensies gebruiken. Kies dus dimensies die u vaak gebruikt.
+* **Globale dimensies** worden als filters gebruikt, bijvoorbeeld in rapporten, batchverwerkingen en XMLports. U kunt slechts twee globale dimensies gebruiken. Kies dus dimensies die u vaak gebruikt.
 * **Shortcutdimensies** zijn beschikbaar als velden in dagboek- en documentregels. U kunt maximaal zes shortcutdimensies maken.  
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standaarddimensies voor klanten, leveranciers en andere accounts instellen
@@ -159,7 +159,7 @@ Voor **AFDELING** voegt u de volgende dimensiewaarden toe:
 Met deze instellingen kunt u uw twee dimensies toevoegen als twee globale dimensies op de pagina **Boekhoudinstellingen**. Dit betekent dat u DISTRICT en AFDELING kunt gebruiken als filters voor grootboekposten, evenals in alle rapporten en rapportageschema's. Beide globale dimensies kunnen ook automatisch worden gebruikt als shortcutdimensies in postregels en documentkoppen.
 
 ## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Een overzicht krijgen van dimensies die meerdere keren zijn gebruikt
-Op de pagina **Standaarddimensies - Multi** wordt opgegeven hoe een groep rekeningen gebruikmaakt van dimensies en dimensiewaarden. Markeer meerdere rekeningen en geef standaard dimensies en dimensiewaarden op voor de rekeningen die u hebt gemarkeerd in het overzicht met rekeningen. Geeft u standaard dimensies voor de gemarkeerde rekeningen op, dan worden deze dimensies en dimensiewaarden voorgesteld wanneer een van deze rekeningen wordt gebruikt, bijvoorbeeld op een dagboekregel. Dit maakt het boeken van een post eenvoudiger voor de gebruiker, omdat de dimensievelden automatisch worden ingevuld. De voorgestelde dimensiewaarden kunnen echter worden gewijzigd, bijvoorbeeld op een dagboekregel.
+Op de pagina **Standaarddimensies - Multi** wordt opgegeven hoe een groep rekeningen gebruikmaakt van dimensies en dimensiewaarden. Markeer meerdere rekeningen en geef standaard dimensies en dimensiewaarden op voor de rekeningen die u hebt gemarkeerd in het overzicht met rekeningen. Wanneer u standaarddimensies voor de gemarkeerde rekeningen opgeeft, worden deze dimensies en dimensiewaarden voorgesteld wanneer een van deze rekeningen wordt gebruikt, bijvoorbeeld op een dagboekregel. Dit maakt het boeken van een post eenvoudiger voor de gebruiker, omdat de dimensievelden automatisch worden ingevuld. De voorgestelde dimensiewaarden kunnen echter worden gewijzigd, bijvoorbeeld op een dagboekregel.
 
 De pagina **Standaarddimensies - Multi** bevat de volgende velden:
 

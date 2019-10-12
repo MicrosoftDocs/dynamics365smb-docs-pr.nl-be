@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237992"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300413"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Problemen met [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)] oplossen
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Problemen met [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)] oplossen
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Aanmelden bij [!INCLUDE [d365acc](includes/d365acc_md.md)] is eenvoudig en kan erg snel worden uitgevoerd. Het toevoegen van cliënten aan het dashboard is ook gemakkelijk, maar in dit artikel komen problemen aan bod die zich onderweg kunnen voordoen.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE [d365acc](includes/d365acc_md.md)]?
 Voor [!INCLUDE [d365acc](includes/d365acc_md.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE [d365acc](includes/d365acc_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken.  

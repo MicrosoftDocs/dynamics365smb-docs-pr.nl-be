@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621080"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303664"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd.
@@ -162,6 +162,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Verschil](design-details-variance.md)   
  [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)   
- [Ontwerpdetails: Artikelvereffening](design-details-item-application.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
+ [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
+ [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
  [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

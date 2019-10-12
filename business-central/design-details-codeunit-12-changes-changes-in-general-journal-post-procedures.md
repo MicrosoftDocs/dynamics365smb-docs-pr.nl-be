@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243423"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307360"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen
 De volgende wijzigingen zijn geïmplementeerd in deze versie van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -148,10 +148,10 @@ De volgende wijzigingen zijn geïmplementeerd in deze versie van [!INCLUDE[d365f
 |ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verplaatst naar codeunit 17 Dagboek - Tegenboeken|  
 |ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verplaatst naar codeunit 17 Dagboek - Tegenboeken|  
 |PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verplaatst naar codeunit 17 Dagboek - Tegenboeken|  
-||CheckDimComb|Toegevoegd in codeunit 17 Dagboek - Tegenboeken|  
-||CopyCustLedgEntry|Toegevoegd in codeunit 17 Dagboek - Tegenboeken|  
-||CopyVendLedgEntry|Toegevoegd in codeunit 17 Dagboek - Tegenboeken|  
-||CopyBankAccLedgEntry|Toegevoegd in codeunit 17 Dagboek - Tegenboeken|  
+||CheckDimComb|Toegevoegd in Codeunit 17 Gen. Dagboek - Tegenboeken|  
+||CopyCustLedgEntry|Toegevoegd in Codeunit 17 Gen. Dagboek - Tegenboeken|  
+||CopyVendLedgEntry|Toegevoegd in Codeunit 17 Gen. Dagboek - Tegenboeken|  
+||CopyBankAccLedgEntry|Toegevoegd in Codeunit 17 Gen. Dagboek - Tegenboeken|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Bijgewerkt|  
 |CollectAddjustment|CollectAdjustment|Bijgewerkt|  
 |SetOverDimErr|SetOverDimErr|Bijgewerkt|  
@@ -163,7 +163,7 @@ De volgende wijzigingen zijn geïmplementeerd in deze versie van [!INCLUDE[d365f
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Bijgewerkt|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Bijgewerkt|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Bijgewerkt|  
-|IncludeVATAmount||Verplaatst naar tabel 81 Fin. dagboekregel|  
+|IncludeVATAmount||Verplaatst naar tabel 81 regel|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Bijgewerkt|  
 ||TotalVATAmountOnJnlLines|Toegevoegd|  
 ||SetGLRegReverse|Toegevoegd|  

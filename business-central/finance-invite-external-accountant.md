@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 redirect_url: finance-accounting
-ms.openlocfilehash: 4b56e6923d1d554bb27a4c0f82f0226dea51f280
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 365d0829d11394bc292d6e908588564b711785af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446911"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302065"
 ---
-# <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens.
 
 Als de accountant toegang heeft gekregen tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kan hij of zij het rolcentrum **Accountant** gebruiken, dat eenvoudig toegang tot de meest relevante pagina's voor hun werk biedt.  
 
-## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Uw accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="invite-your-accountant-to-your-included365finincludesd365fin_mdmd"></a>Uw accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 We hebben het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. Open gewoon de pagina **Gebruikers** en kies de actie **Externe accountant uitnodigen** op het lint. Er wordt een e-mail voor u gemaakt. Voeg het werke-mailadres van uw accountant eraan toe en verzend de uitnodiging.  
 

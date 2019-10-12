@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244898"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304744"
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
 We zijn de bibliotheek met praktische video's opnieuw aan het opbouwen. Als bijwerking van de laatste verbeteringen in [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten we onze inhoud opnieuw produceren zodat deze precies overeenkomt met het product.
@@ -42,7 +42,7 @@ Dit zijn enkele voorbeelden van de video's die we bijwerken:
 
 * Bedrijfsgegevens migreren uit andere financiële apps in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Dimensies instellen, zodat u verschillende documenten en entiteiten kunt bijhouden en analyseren
-* [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met Dynamics 365 for Sales
+* [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met Dynamics 365 Sales
 * Goedkeuringswerkstromen instellen  
 * Power BI gebruiken met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * E-mail instellen en documenten verzenden direct vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]  

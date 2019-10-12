@@ -1,6 +1,6 @@
 ---
-title: Gebruikersactiviteit bijhouden in een wijzigingslogbestand| Microsoft Docs
-description: U kunt een gebruikerslogboek activeren zodat u een historie hebt van eventuele wijzigingen in gegevens in getraceerde tabellen.
+title: Wijzigingen controleren | Microsoft Docs
+description: U kunt een gebruikerslogboek activeren zodat u een historie hebt van eventuele wijzigingen in gegevens in getraceerde tabellen. U kunt ook activiteiten volgen met bepaalde soorten activiteitenlogboeken.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240453"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304957"
 ---
 # <a name="auditing-changes-in-business-central"></a>Wijzigingen controleren in Business Central
 
@@ -38,9 +38,15 @@ Op de pagina **Wijzigingslogbestandinstellingen** kunt u als u de actie **Tabell
 
 Nadat u het wijzigingslogbestand hebt ingesteld, hebt geactiveerd en gegevens hebt gewijzigd, kunt u de wijzigingen weergeven en filteren op de pagina **Wijzigingslogposten**. Als u posten wilt verwijderen, kunt u dat doen op de pagina **Wijzigingslogposten verwijderen**, waar u filters kunt instellen op basis van datums en tijd.  
 
+## <a name="working-with-activity-logs"></a>Werken met activiteitenlogboeken
+
+Vanaf enkele pagina's in [!INCLUDE [prodshort](includes/prodshort.md)] kunt u een activiteitenlogboek bekijken dat de status en eventuele fouten weergeeft van bestanden waarnaar u exporteert vanuit of importeert in [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+De informatie wordt weergegeven in het venster **Activiteitenlogboek**, volgens de context van waaruit het wordt geopend. U kunt het venster bijvoorbeeld openen vanuit de pagina's **Documentuitwisselingsservice instellen**, **Inkomend document**, **Geboekte verkoopfactuur**en **Geboekte verkoopkredietnota**. U kunt de lijst met logboekvermeldingen leegmaken of gewoon de lijst met vermeldingen ouder dan 7 dagen wissen.  
+
 ## <a name="see-also"></a>Zie ook
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Sorteervolgorde](ui-sorting.md)  
-[Vertel me gebruiken om functies en informatie te vinden](ui-search.md)  
+[Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Gebruikers en machtigingen beheren](ui-how-users-permissions.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

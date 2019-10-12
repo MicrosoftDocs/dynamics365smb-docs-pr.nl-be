@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e8dc6080f51c1598bb2a003e6b3899c017d2134e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245954"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300725"
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Over het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365fin_mdmd"></a>Over het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 De bestandsindeling voor het uitwisselen van gegevens in bankbestanden, elektronische documenten, valutawisselkoersen en andere met ERP-systemen varieert afhankelijk van de aanbieder van het gegevensbestand of de stream en van het land of de regio. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt verschillende bankbestandsindelingen en normen voor gegevensservices. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.    
 
  De volgende diagrammen bevatten de architectuur van het kader voor gegevensuitwisseling.  

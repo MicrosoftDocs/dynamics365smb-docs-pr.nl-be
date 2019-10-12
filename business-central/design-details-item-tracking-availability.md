@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bfbcb3cc65a162a04b6055f341d528810097494
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 950f23ee4a93c5135eafe2ac14313d1fa2dc7fda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242158"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307048"
 ---
 # <a name="design-details-item-tracking-availability"></a>Ontwerpdetails: Beschikbaarheid artikeltracering
 De pagina's **Artikeltraceringsregels** en **Artikeltraceringssamenvatting** bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd. Zie voor meer informatie [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md).  

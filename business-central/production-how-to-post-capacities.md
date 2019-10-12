@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 58005b8b4d401f5eab8a934d7b00b610b64b4281
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d580fe2513e245b7105342c3d795ae122c151317
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253045"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313288"
 ---
 # <a name="post-capacities"></a>Capaciteit boeken
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  

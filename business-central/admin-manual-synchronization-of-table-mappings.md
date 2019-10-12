@@ -1,6 +1,6 @@
 ---
 title: Handmatige synchronisatie van tabeltoewijzingen | Microsoft Docs
-description: Synchronisatie kopieert gegevens tussen Dynamics 365 for Sales-posten en Business Central en houdt de gegevens in beide systemen up-to-date.
+description: Synchronisatie kopieert gegevens tussen Dynamics 365 Sales-posten en Business Central en houdt de gegevens in beide systemen up-to-date.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629562"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307960"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Handmatig tabeltoewijzingen synchroniseren
 Een toewijzing van een integratietabel koppelt een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel (recordtype), zoals een klant, aan een [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit, zoals een rekening. Als een integratietabeltoewijzing wordt gesynchroniseerd, kunt u gegevens in alle records van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en de [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit die zijn gekoppeld, synchroniseren. Bovendien kan synchronisatie, afhankelijk van de configuratie van de tabelkoppeling, nieuwe records maken en koppelen in de doeloplossing voor ongekoppelde records in de bron.  
@@ -39,13 +39,13 @@ Of en waar een record wordt gemaakt, is afhankelijk van de synchronisatierichtin
 
 De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden tussen entiteiten te voorkomen.  
 
-1.  VALUTA - Dynamics 365 for Sales-synchronisatietaak  
-2.  VERKOPERS - Dynamics 365 for Sales-synchronisatietaak  
-3.  MAATEENHEID - Dynamics 365 for Sales-synchronisatietaak  
-4.  KLANT - Dynamics 365 for Sales-synchronisatietaak  
-5.  CONTACTEN - Dynamics 365 for Sales-synchronisatietaak  
-6.  RESOURCE - PRODUCT - Dynamics 365 for Sales-synchronisatietaak  
-7.  ARTIKEL-PRODUCT - Dynamics 365 for Sales-synchronisatietaak  
+1.  VALUTA - Dynamics 365 Sales-synchronisatietaak  
+2.  VERKOPERS - Dynamics 365 Sales-synchronisatietaak  
+3.  MAATEENHEID - Dynamics 365 Sales-synchronisatietaak  
+4.  KLANT - Dynamics 365 Sales-synchronisatietaak  
+5.  CONTACTEN - Dynamics 365 Sales-synchronisatietaak  
+6.  RESOURCE-PRODUCT - Dynamics 365 Sales-synchronisatietaak  
+7.  ARTIKEL-PRODUCT - Dynamics 365 Sales-synchronisatietaak  
 
 > [!IMPORTANT]  
 >  U kunt meestal alleen de hele synchronisatie gebruiken wanneer u integratie voor het eerst instelt tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] en slechts één oplossing gegevens bevat, die u naar de andere oplossing wilt kopiëren. Een volledige synchronisatie kan nuttig zijn in een demonstratieomgeving. Omdat de hele synchronisatie automatisch records maakt en koppelt tussen de oplossingen, wordt het sneller om te beginnen met werken met het synchroniseren van gegevens tussen records. Van de andere kant moet u alleen een volledige synchronisatie uitvoeren als u een record in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt voor elke record in [!INCLUDE[crm_md](includes/crm_md.md)], voor de betrokken tabeltoewijzingen. Anders kunt u ongewenste of dubbele records [!INCLUDE[d365fin](includes/d365fin_md.md)] of [!INCLUDE[crm_md](includes/crm_md.md)] hebben.  
@@ -54,7 +54,7 @@ De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Een volledige synchronisatie uitvoeren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 for Sales-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 Sales-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2.  Kies de actie **Volledige synchronisatie uitvoeren** en kies vervolgens de knop **Ja**.  
 3.  Wanneer de volledige synchronisatie is voltooid, kunt u opgeven of geplande synchronisatietaken nieuwe records mogen maken.  
 
@@ -65,15 +65,15 @@ De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden
 U kunt de resultaten van de volledige synchronisatie bekijken op de pagina **Synchronisatietaken voor integratie**. Zie voor meer informatie [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md),  
 
 ## <a name="synchronizing-all-modified-records"></a>Alle gewijzigde records synchroniseren
-U kunt de pagina **Microsoft Dynamics 365 for Sales-verbinding instellen** gebruiken om wijzigingen in gegevens te synchroniseren in alle integratietabeltoewijzingen. Dit is vergelijkbaar met een volledige synchronisatie. Gegevens worden gesynchroniseerd in alle gekoppelde records in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en [!INCLUDE[crm_md](includes/crm_md.md)]-entiteiten die zijn gedefinieerd in de tabeltoewijzingen. Standaard worden alleen records gesynchroniseerd die zijn gewijzigd na de vorige keer dat ze zijn gesynchroniseerd. De tabeltoewijzingen worden gesynchroniseerd in de volgende volgorde om koppelingsafhankelijkheden tussen de entiteiten te voorkomen:  
+U kunt de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** gebruiken om wijzigingen in gegevens te synchroniseren in alle integratietabeltoewijzingen. Dit is vergelijkbaar met een volledige synchronisatie. Gegevens worden gesynchroniseerd in alle gekoppelde records in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en [!INCLUDE[crm_md](includes/crm_md.md)]-entiteiten die zijn gedefinieerd in de tabeltoewijzingen. Standaard worden alleen records gesynchroniseerd die zijn gewijzigd na de vorige keer dat ze zijn gesynchroniseerd. De tabeltoewijzingen worden gesynchroniseerd in de volgende volgorde om koppelingsafhankelijkheden tussen de entiteiten te voorkomen:  
 
-1.  VALUTA - Dynamics 365 for Sales-synchronisatietaak  
-2.  VERKOPERS - Dynamics 365 for Sales-synchronisatietaak  
-3.  MAATEENHEID - Dynamics 365 for Sales-synchronisatietaak  
-4.  KLANT - Dynamics 365 for Sales-synchronisatietaak  
-5.  CONTACTEN - Dynamics 365 for Sales-synchronisatietaak  
-6.  RESOURCE-PRODUCT \- Dynamics 365 for Sales-synchronisatietaak  
-7.  ARTIKEL-PRODUCT - Dynamics 365 for Sales-synchronisatietaak  
+1.  VALUTA - Dynamics 365 Sales-synchronisatietaak  
+2.  VERKOPERS - Dynamics 365 Sales-synchronisatietaak  
+3.  MAATEENHEID - Dynamics 365 Sales-synchronisatietaak  
+4.  KLANT - Dynamics 365 Sales-synchronisatietaak  
+5.  CONTACTEN - Dynamics 365 Sales-synchronisatietaak  
+6.  RESOURCE-PRODUCT \- Dynamics 365 Sales-synchronisatietaak  
+7.  ARTIKEL-PRODUCT - Dynamics 365 Sales-synchronisatietaak  
 
 U kunt de resultaten van de synchronisatie bekijken op de pagina **Synchronisatietaken voor integratie**. Zie voor meer informatie [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md),  
 
@@ -81,7 +81,7 @@ U kunt de resultaten van de synchronisatie bekijken op de pagina **Synchronisati
 >  Door de integratietabeltoewijzing vooraf te wijzigen kunt u de synchronisatie configureren met filters om te bepalen welke records worden gesynchroniseerd of deze configureren om nieuwe records te maken in de doeloplossing voor niet-gekoppelde records in de bron. Zie voor meer informatie [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Records voor alle tabellen synchroniseren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 for Sales-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 Sales-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2.  Kies de actie **Gewijzigde records synchroniseren**, en kies vervolgens **Ja**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Afzonderlijke tabeltoewijzingen synchroniseren
@@ -94,5 +94,5 @@ Door de integratietabeltoewijzing vooraf te wijzigen kunt u de synchronisatietaa
 2.  Kies de actie **Gewijzigde records synchroniseren**, en kies vervolgens **Ja**.  
 
 ## <a name="see-also"></a>Zie ook  
-[Gegevens synchroniseren in Business Central en Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Business Central en Dynamics 365 Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)   
+[Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

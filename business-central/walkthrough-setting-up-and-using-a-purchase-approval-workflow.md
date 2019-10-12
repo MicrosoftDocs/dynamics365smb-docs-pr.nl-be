@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfd2a97c6c41ac43bbe4d33792774f929a68d7f6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca97d08166b73f75240203aa9949e4b0aa774ea6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247979"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310528"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie. Voordat u goedkeuringswerkstromen maakt, moet u eerst een fiatteur en een vervangende fiatteur instellen voor elke goedkeuringsgebruiker. U kunt ook limietbedragen instellen voor fiatteurs om te definiëren welke verkoop- en inkooporders zij mogen goedkeuren. U kunt goedkeuringsverzoeken en andere berichten als e-mail of interne notitie verzenden. Voor elke instelling van een goedkeuringsgebruiker kunt u ook instellen wanneer zij berichten ontvangen.

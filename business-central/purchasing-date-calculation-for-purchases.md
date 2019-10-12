@@ -1,6 +1,6 @@
 ---
 title: Datumberekening voor inkoop | Microsoft Docs
-description: Het programma berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.
+description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7dfe565fc533ca5a724675c925cf6a415c49b94
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 41b1b1b0459706a8c061a0044824b5b7c4c9aa62
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737109"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312592"
 ---
 # <a name="date-calculation-for-purchases"></a>Datumberekening voor inkoop
 [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch de datum waarop u een artikel moet bestellen om het op een bepaalde datum in voorraad te hebben. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.  

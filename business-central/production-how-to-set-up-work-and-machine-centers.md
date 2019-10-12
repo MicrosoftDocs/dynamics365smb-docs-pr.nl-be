@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c0b71816a35e52bb979e928f23a8cc2114773421
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: eb947aec01b7932b827332d0c283ec9b08981634
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253712"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313120"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 Er wordt onderscheid gemaakt tussen drie soorten capaciteit. Deze zijn hiërarchisch gerangschikt. Elk niveau bestaat uit onderliggende niveaus.  

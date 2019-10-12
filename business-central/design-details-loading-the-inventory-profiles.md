@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 09f74e83bdc467378144f586dd3a33a0fc1ba213
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a87250d836739eb3b01cc88a1b2bf3116396ccd0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242181"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303184"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Ontwerpdetails: Voorraadprofielen laden
 Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningssysteem deze op twee tijdpaden die voorraadprofielen worden genoemd.  
@@ -42,10 +42,10 @@ Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningss
 ## <a name="item-dimensions-are-separated"></a>Artikeldimensies worden gescheiden  
  Het voorzieningenplan moet worden berekend per combinatie van artikeldimensies, zoals variant en vestiging. Er is echter geen reden om elke theoretische combinatie te berekenen. Alleen combinaties met vraag en/of aanbod moeten worden berekend.  
 
- Het planningssysteem bepaalt dit via het voorraadprofiel. Wanneer een nieuwe combinatie wordt gevonden, wordt een interne besturingsrecord gemaakt die de werkelijke combinatiegegevens bevat. De SKU wordt automatisch ingevoerd als besturingsrecord, of buitenste lus. Daarom worden de juiste planningsparameters op basis van een combinatie van variant en vestiging ingesteld en kan het programma doorgaan naar de binnenlus.  
+ Het planningssysteem bepaalt dit via het voorraadprofiel. Wanneer een nieuwe combinatie wordt gevonden, wordt een interne besturingsrecord gemaakt die de werkelijke combinatiegegevens bevat. De SKU wordt automatisch ingevoerd als besturingsrecord of buitenste lus. Daarom worden de juiste planningsparameters op basis van een combinatie van variant en vestiging ingesteld en kan de toepassing doorgaan naar de binnenlus.  
 
 > [!NOTE]  
->  De gebruiker hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of voorziening voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt het programma een eigen tijdelijke SKU op basis van de artikelkaartgegevens. Als Vestiging verplicht op Ja is ingesteld op de pagina Voorraadinstellingen, moet een SKU worden gemaakt of moet Onderdelen op vestiging worden ingesteld op Ja. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
+>  De gebruiker hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of voorziening voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt de toepassing daarom een eigen tijdelijke SKU op basis van de artikelkaartgegevens. Als Vestiging verplicht op Ja is ingesteld op de pagina Voorraadinstellingen, moet een SKU worden gemaakt of moet Onderdelen op vestiging worden ingesteld op Ja. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serie-/lotnummers worden geladen op specificatieniveau  
  Kenmerken in de vorm van serie-/lotnummers worden in de voorraadprofielen geladen met de vraag en het aanbod waaraan ze zijn toegewezen.  

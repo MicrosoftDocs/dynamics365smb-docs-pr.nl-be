@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/04/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 7376abd7806eb664bbfcbf3f3505df00ababba9e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621103"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305824"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en financiën in meer dan één valuta kunnen controleren of rapporteren. U moet een code instellen voor elke gebruikte valuta als u in andere valuta's dan uw lokale valuta inkoopt of verkoopt, in een andere valuta tegoeden of schulden hebt of grootboektransacties in verschillende valuta's vastlegt.
@@ -20,7 +20,7 @@ Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belan
 Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een huidige wisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[d365fin](includes/d365fin_md.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
 
 ## <a name="adjusting-exchange-rates"></a>Wisselkoersen corrigeren
-Aangezien valutakoersen constant wisselen, moeten de extra valuta-equivalenten in uw systeem periodiek worden gecorrigeerd. Als deze correcties niet worden uitgevoerd, kunnen de bedragen die omgerekend zijn van vreemde (of extra) valuta's en geboekt zijn in het grootboek in LV misleidend zijn. Bovendien moeten dagelijkse posten die geboekt zijn doordat een dagwisselkoers is ingevoerd in het programma worden bijgewerkt nadat de dagwisselkoersgegevens zijn ingevoerd.
+Aangezien valutakoersen constant wisselen, moeten de extra valuta-equivalenten in uw systeem periodiek worden gecorrigeerd. Als deze correcties niet worden uitgevoerd, kunnen de bedragen die omgerekend zijn van vreemde (of extra) valuta's en geboekt zijn in het grootboek in LV misleidend zijn. Bovendien moeten dagelijkse posten die geboekt zijn doordat een dagwisselkoers is ingevoerd in de toepassing, worden bijgewerkt nadat de dagwisselkoersgegevens zijn ingevoerd.
 
 De batchverwerking **Wisselkoers herwaarderen** wordt gebruikt om de wisselkoersen van de geboekte klant, leverancier en bankrekeningposten handmatig te corrigeren. U kunt er tevens extra rapportagevalutabedragen in grootboekposten mee bijwerken. U kunt de wisselkoersen ook automatisch laten corrigeren door een service te gebruiken. Zie [Een wisselkoersservice instellen](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service) voor meer informatie.
 

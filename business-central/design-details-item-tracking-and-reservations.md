@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4e5818f5bafd737738a99b4627ab36548a7f0ec4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246204"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303414"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Ontwerpdetails: Artikeltracering en reserveringen
 Gelijktijdig gebruik van reserveringen en specifieke artikeltracering is ongebruikelijk, aangezien deze beide een koppeling maken tussen voorziening en vraag. Afgezien van situaties waarin een klant of productieplanner om een specifieke lot verzoekt, is het zelden zinvol voorraadartikelen te reserveren die al artikeltraceringsnummers hebben voor een specifieke toepassing. Hoewel het mogelijk is om artikelen te reserveren die specifieke artikeltracering vereisen, is er speciale functionaliteit nodig om beschikbaarheidsconflicten te voorkomen tussen orderverwerkers die om dezelfde artikelgetraceerde artikelen vragen.  

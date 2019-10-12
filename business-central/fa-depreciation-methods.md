@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240988"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302896"
 ---
 # <a name="depreciation-methods"></a>Afschrijvingsmethoden
 U hebt de beschikking over acht afschrijvingsmethoden:  
@@ -275,7 +275,7 @@ In het vorige voorbeeld bevatten de velden **Datum 1e afschr. eigen def.** en **
 ## <a name="half-year-convention-depreciation"></a>Afschrijving volgens halfjaarlijkse afspraak
 De halfjaarlijkse afspraak wordt alleen toegepast als het veld **Halfjaarlijkse afspraak nemen** op de pagina **VA-afschrijvingsboeken** is ingeschakeld.  
 
-Deze afschrijvingsmethode kan worden gebruikt in samenhang met de volgende afschrijvingsmethoden:  
+Deze afschrijvingsmethode kan worden gebruikt in samenhang met de volgende afschrijvingsmethoden in de toepassing:  
 
 * Lineair  
 * Boekwaarde-afschrijving 1  

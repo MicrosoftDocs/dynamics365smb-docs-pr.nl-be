@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858301"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313600"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem. Als u hulp wilt met uw abonnement te helpen, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
@@ -42,6 +42,8 @@ Voordat u de functionaliteit kunt gaan gebruiken, moet u bepaalde instellingen u
 
 Voor een overzicht van huidige mogelijkheden en wat eraan komt, kijkt u naar ons releaseplan op [Releaseplan van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+U kunt eLearning-inhoud ook vinden op [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>De rolcentra
 De pagina Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende rolcentra door het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te kiezen in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het rolcentrum te kiezen om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
@@ -65,7 +67,7 @@ Op de pagina **Begeleide instelling** vindt u het volgende in de **Essentieel**-
 | Rapportage instellen |Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
 | Een artikelgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding naar een fiatteur te verzenden wanneer een gebruiker een artikel wijzigt of maakt. |
 | Een betalingsgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding te sturen naar een fiatteur wanneer een gebruiker betalingsdagboekregels voor goedkeuring verzendt. |
-| Een Business Central-connector instellen |Hiermee wordt een verbinding met Dynamics 365 for Sales ingesteld waarmee u gegevens kunt synchroniseren zoals contacten en verkoopordergegevens. |
+| Een Business Central-connector instellen |Hiermee wordt een verbinding met Dynamics 365 Sales ingesteld waarmee u gegevens, zoals contacten en verkoopordergegevens, kunt synchroniseren. |
 | Btw instellen |Hiermee wordt u geholpen om aan de slag te gaan met standaardbelastinggroepen en het toewijzen van tax area codes die u kunt toewijzen aan klanten en leveranciers om automatisch btw in verkoop- of inkoopdocumenten te berekenen. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Zaken in uw eigen bedrijf uitproberen
@@ -99,6 +101,7 @@ Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](in
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Resources voor Help en Ondersteuning](product-help-and-support.md)  
+[Dynamics 365 Business Central op Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Dynamics 365-documentatie](/dynamics365/)  
 [Releaseplan van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

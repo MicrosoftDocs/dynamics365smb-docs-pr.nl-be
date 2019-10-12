@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240896"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300700"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Bestanden koppelen een kaarten en documenten
 U kunt afbeeldingen, documenten en andere soorten bestanden koppelen aan alle kaarten, zoals de artikelkaart en de projectkaart, en kunt u bestanden koppelen aan alle soorten verkoop- en inkoopdocumenten.
 
 > [!Note]
-> Over het algemeen is de maximumbestandsgrootte voor bijlagen 150 MB. De limiet kan echter voor bepaalde functies lager zijn. 
+> Over het algemeen is de maximumbestandsgrootte voor bijlagen 150 MB. De limiet kan echter voor bepaalde functies lager zijn.
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>Een bestand koppelen aan een verkooporder
 De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op die voor alle andere inkoop- en verkoopdocumenten en voor alle kaarten.

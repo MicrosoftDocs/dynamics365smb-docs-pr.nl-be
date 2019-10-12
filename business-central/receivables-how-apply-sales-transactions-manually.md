@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e7f24f6c8bca209fbb53f215d644517f495978e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d32f614ce86f6ad1b3f846631d3b4062788b755a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252309"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312352"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten
 Wanneer u een bedrag ontvangt van een klant of een terugbetaling doet, moet u bedenken of de ontvangst of betaling moet worden vereffend om een of meer openstaande debet- of creditposten te sluiten. U kunt het exacte bedrag opgeven dat u wilt vereffenen. U kunt bijvoorbeeld gedeeltelijke betalingen vereffenen met klantenposten. Het sluiten van klantenposten garandeert dat gegevens zoals bijvoorbeeld klantstatistieken, rekeningoverzichten, en rente correct zijn.

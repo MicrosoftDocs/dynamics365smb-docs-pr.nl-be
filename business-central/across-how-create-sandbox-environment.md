@@ -8,17 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796677"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300437"
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # <a name="creating-a-sandbox-environment"></a>Een sandboxomgeving maken
 Een sandboxomgeving (voorbeeld) is een niet-productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.
 
@@ -46,7 +44,7 @@ U moet een abonnement op [!INCLUDE[d365fin](includes/d365fin_md.md)] hebben om e
 
     > [!NOTE]
     > Een sandbox-omgeving die op deze manier is gemaakt, bevat alleen de standaarddemonstratiegegevens voor het CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.<br /><br />
-    > U kunt ook een sandbox-omgeving maken met de productiegegevens. U moet dit doen via het beheercentrum. Zie voor meer informatie [Omgevingen beheren](/business-central/dev-itpro/administration/tenant-admin-center-environments) in de Ontwikkelaar en IT Pro Help.
+    > U kunt ook een sandbox-omgeving maken met de productiegegevens. U moet dit doen via het beheercentrum. Zie voor meer informatie [Omgevingen beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in de Ontwikkelaar en IT Pro Help.
 
 6. U kunt op elk moment terugkeren naar de pagina **Sandboxomgeving** en de sandboxomgeving herstellen.
     > [!NOTE]  

@@ -8,33 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 05/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 67d7129e32ccde3154a02dd12b806d712f470833
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 4b8005154afb988cf25c6a04b7beeaafd199afca
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540281"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305047"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met PowerApps
-U kunt uw gegevens [!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron beschikbaar maken in PowerApps.  
+U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als gegevensbron beschikbaar maken in PowerApps.  
 
 > [!NOTE]  
 >   U moet een geldig account bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en PowerApps hebben.  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron in PowerApps toevoegen
+## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-powerapps"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als gegevensbron toevoegen in PowerApps
 1. Navigeer in de browser naar [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) en meld u aan.
-2. Kies op de homepage de sjabloon **Start vanuit gegevens** om een nieuwe canvasapp te maken. Deze app wordt ontworpen voor gebruik op een mobiel apparaat, maar u kunt ook een andere sjabloon gebruiken.
+2. Kies op de startpagina **Apps**, **Een app maken** en **Canvas** om een nieuwe canvas-app te maken. Deze app wordt ontworpen voor gebruik op een mobiel apparaat, maar u kunt ook een andere sjabloon gebruiken.
 
     De volgende stap om een PowerApp te maken bestaat eruit uw gegevens te selecteren. Kies het pijlpictogram en kies vervolgens de optie **Nieuwe verbinding** linksboven in de pagina.
 3. Kies in de lijst met beschikbare verbindingen **Business Central** en kies de knop **Maken**.
 
     PowerApps maakt verbinding met uw [!INCLUDE [prodshort](includes/prodshort.md)] met behulp van de aanmeldingsgegevens waarmee u bent aangemeld. Als u geen beheerder hebt van uw [!INCLUDE [prodshort](includes/prodshort.md)], kunt u zich met een ander account aanmelden.  
 
-4. Als u meer dan één bedrijf in uw [!INCLUDE [prodshort](includes/prodshort.md)] hebt, moet u het bedrijf kiezen om verbinding mee te maken. PowerApps geeft dan een lijst met *tabellen* weer die beschikbaar zijn vanuit [!INCLUDE [prodshort](includes/prodshort.md)]. Deze zogenaamde tabellen maken deel uit van de [!INCLUDE [prodshort](includes/prodshort.md)] API. U hoeft de eindpunten niet zelf te configureren. De [!INCLUDE [prodshort](includes/prodshort.md)]-connector voor PowerApps doet dat voor u.  
+4.  Met PowerApps wordt een lijst met *omgevingen en bedrijven* weergegeven die beschikbaar zijn in [!INCLUDE [prodshort](includes/prodshort.md)]. Kies de omgeving en het bedrijf met de gegevens waarmee u verbinding wilt maken. Vervolgens krijgt u een lijst met API's te zien. Selecteer de **API** waarmee u verbinding wilt maken.
 
-    Als u gegevens uit andere tabellen in [!INCLUDE [prodshort](includes/prodshort.md)] in uw app wilt opnemen, moet u met een ontwikkelaar werken om een aangepaste API te maken in [!INCLUDE [prodshort](includes/prodshort.md)] en vervolgens die aangepaste API gebruiken via een aangepaste connector in PowerApps. Zie voor meer informatie [Een nieuwe aangepaste connector maken](/connectors/custom-connectors/define-blank).  
+Deze zogenaamde tabellen maken deel uit van de [!INCLUDE [prodshort](includes/prodshort.md)] API. U hoeft de eindpunten niet zelf te configureren. De [!INCLUDE [prodshort](includes/prodshort.md)]-connector voor PowerApps doet dat voor u.  
+
+    If you want to include data from other tables in [!INCLUDE [prodshort](includes/prodshort.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE [prodshort](includes/prodshort.md)] and then consume that custom API through a custom connector in PowerApps. For more information, see [Create a custom connector from scratch](/connectors/custom-connectors/define-blank).  
 
 Nu hebt u met succes een koppeling gemaakt naar uw [!INCLUDE [prodshort](includes/prodshort.md)]-gegevens en kunt u uw PowerApp gaan maken. U kunt extra schermen toevoegen en verbinding met extra gegevens maken vanuit uw [!INCLUDE [prodshort](includes/prodshort.md)]. Zie voor meer informatie [Een canvasapp maken vanuit een sjabloon in PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 

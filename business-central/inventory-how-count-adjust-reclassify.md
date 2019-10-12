@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c565f3f4419f8132ac643ca47c071b3791e147c2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240361"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309952"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Voorraad tellen, corrigeren en herindelen met dagboeken
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
@@ -76,7 +76,7 @@ U kunt de inventarisatie op een van de volgende manieren uitvoeren, afhankelijk 
 10. Wanneer de artikelen zijn geteld, geeft u de aantallen op in het veld **Aantal (Inventarisatie)** in het inventarisatiedagboek van het magazijn.  
 
     > [!NOTE]  
-    >  In het magazijninventarisatiedagboek wordt het veld **Aantal (Berekend)** automatisch gevuld op basis van gegevens van magazijn-opslaglocaties en worden deze hoeveelheden gekopieerd naar het veld **Aantal (Fysiek)** op elke regel. Indien het aantal dat de magazijnwerknemer geteld heeft, afwijkt van wat het programma heeft ingevoerd in het veld Aantal (Fysiek), moet u het werkelijk getelde aantal invoeren.  
+    >  In het magazijninventarisatiedagboek wordt het veld **Aantal (Berekend)** automatisch gevuld op basis van gegevens van magazijn-opslaglocaties en worden deze hoeveelheden gekopieerd naar het veld **Aantal (Fysiek)** op elke regel. Als het aantal dat de magazijnwerknemer geteld heeft, afwijkt van wat de toepassing heeft ingevoerd in het veld Aantal (Fysiek), moet u het werkelijk getelde aantal invoeren.  
 
 11. Wanneer u alle getelde aantallen hebt ingevoerd, kiest u de actie **Registreren**.  
 
@@ -120,7 +120,7 @@ Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijki
 
 4.  Boek het dagboek zonder de aantallen te wijzigen.  
 
-De aantallen op de artikel- en de magazijnposten zijn nu wederom gelijk voor deze artikelen. Het programma heeft de laatste tellingsdatum van het artikel of de SKU bijgewerkt.  
+De aantallen op de artikel- en de magazijnposten zijn nu wederom gelijk voor deze artikelen. De toepassing heeft de laatste tellingsdatum van het artikel of de SKU bijgewerkt.  
 
 ## <a name="to-perform-cycle-counting"></a>Clustertelling uitvoeren
 Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, wilt u sommige artikelen misschien vaker tellen omdat ze waardevoller zijn of snel worden omgezet en belangrijk zijn voor het bedrijf. U kunt tellingsperioden instellen en toewijzen aan magazijnartikelen. Voor dit doel kunt u speciale telperioden aan die artikelen toewijzen.
@@ -159,7 +159,7 @@ U stelt de inventarisatieperioden in die u wilt gebruiken en wijst er vervolgens
 3. Voer de inventarisatie uit. Zie voor meer informatie [Een inventarisatie uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
-    >  U moet het artikel tellen in alle opslaglocaties die het betreffende artikel bevatten. Indien u enkele opslaglocatieregels verwijdert die het programma heeft opgehaald om te tellen op de pagina **Mag. Inventarisatie**, worden niet alle artikelen geteld die in het magazijn zijn. Indien u later dergelijke onvolledige resultaten in het inventarisatiedagboek boekt, zijn de geboekte aantallen onjuist.  
+    >  U moet het artikel tellen in alle opslaglocaties die het betreffende artikel bevatten. Als u enkele opslaglocatieregels verwijdert die de toepassing heeft opgehaald om te tellen op de pagina **Mag. Inventarisatie**, worden niet alle artikelen geteld die in het magazijn zijn. Indien u later dergelijke onvolledige resultaten in het inventarisatiedagboek boekt, zijn de geboekte aantallen onjuist.  
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>De voorraad van één artikel aanpassen
 Nadat u een fysieke telling hebt uitgevoerd van een artikel in uw voorraadgebied, kunt u de functie **Voorraad wijzigen** gebruiken om het werkelijke voorraadaantal vast te leggen.

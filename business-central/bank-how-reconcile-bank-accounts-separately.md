@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 69afda011e17a13eff747f8916e33c74c336bb82
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304216"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Bankrekeningen apart reconciliëren
 Als u bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt reconciliëren met afschriften die worden ontvangen van de bank, begint u met het linkerdeelvenster op de pagina **Bankreconciliatie** in te vullen met bankafschriftgegevens die u dan reconcilieert met bankrekeningposten in het rechterdeelvenster. Een slimme manier om bankafschriftregels in te vullen is een bankafschriftbestand of -feed te importeren.
@@ -28,7 +28,7 @@ Als u bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt reconci
 > [!TIP]  
 > U kunt bankrekeningen ook reconciliëren op de pagina **Betalingsreconciliatiedagboek**. Eventuele open bankrekeningposten die gerelateerd zijn aan de vereffende klant- of leveranciersposten, worden gesloten wanneer u de actie **Betalingen boeken en bankrekening reconciliëren** kiest. Dit betekent dat de bankrekening automatisch wordt gereconcilieerd voor betalingen die u met het dagboek boekt. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
-Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md).
+Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
 De regels op de pagina **Bankreconciliatie** zijn verdeeld in twee deelvensters. Het deelvenster **Bankafschriftregels** bevat geïmporteerde bankafschriften of posten met openstaande betalingen. Het deelvenster **Bankposten** bevat de posten op de bankrekening.
 

@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f2767fca96e1f3689fc4806d878381d02622f261
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 808459f9c77d797c58a5956a5641c97bc398734e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243745"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306244"
 ---
-# <a name="reverse-postings"></a>Boekingen tegenboeken
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
 Om een foutieve dagboekpost ongedaan te maken, selecteert en maakt u een tegenboeking (posten die identiek zijn aan de oorspronkelijke post, maar met een tegenovergesteld teken in het bedragveld) met hetzelfde documentnummer en dezelfde boekingsdatum als de originele post. Nadat een post is tegengeboekt, moet u de juiste post maken.
 
 U kunt alleen posten tegenboeken die zijn geboekt vanaf een algemene dagboekregel. Een post kan slechts één keer worden tegengeboekt.
 
-Voor meer informatie over het boeken vanuit een dagboek zie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
+Als u een boeking van een ontvangst of verzending ongedaan wilt maken voordat ze als gefactureerd worden geboekt, kunt u de functie **Ongedaan maken** in het geboekte document gebruiken. U kunt hoeveelheden van het type **Artikel** ongedaan maken.
 
 Als u een onjuist negatief aantal hebt geboekt, dat wil zeggen, als u een inkooporder hebt gemaakt met bijvoorbeeld het verkeerde aantal artikelen en deze order hebt geboekt als ontvangen (maar niet gefactureerd), kunt u de boeking ongedaan maken.
 
-Als u een onjuist positief aantal hebt geboekt, dat wil zeggen, als u een inkoopretourorder hebt gemaakt met bijvoorbeeld het verkeerde aantal artikelen en deze order hebt geboekt als verzonden (maar niet gefactureerd), kunt u de boeking ongedaan maken.   
+Als u een onjuist positief aantal hebt geboekt, dat wil zeggen, als u een verkoopverzending of een inkoopretourzending hebt gemaakt met bijvoorbeeld het verkeerde aantal artikelen en deze hebt geboekt als verzonden (maar niet gefactureerd), kunt u de boeking ongedaan maken.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>De dagboekboeking van een grootboekpost tegenboeken
 U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure is gebaseerd op de pagina **Grootboekposten**.
@@ -37,20 +37,29 @@ U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure
 3. Selecteer op de pagina **Transactieposten tegenboeken** de relevante post en kies de actie **Tegenboeken**.
 4. Kies de knop **Ja** in het bevestigingsbericht.
 
+## <a name="to-post-a-negative-entry"></a>Een negatieve post boeken  
+U kunt het veld **Storno** gebruiken om een negatief debetbedrag in plaats van een creditbedrag te boeken, of om een negatief creditbedrag in plaats van een debetbedrag op een rekening te boeken. Om aan juridische vereisten te voldoen is dit veld standaard zichtbaar in alle dagboeken. De velden **Debetbedrag** en **Creditbedrag** bevatten beide zowel de oorspronkelijke post als de gecorrigeerde post. Deze velden hebben geen invloed op het rekeningsaldo.  
+
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.  
+2.  Selecteer in het veld **Batchnaam** de juiste batchnaam.  
+3.  Voer informatie in de relevante velden in.  
+4.  Selecteer op de dagboekregel die u wilt activeren voor negatieve posten het selectievakje **Storno**.  
+5.  Als u naar het dagboek wilt boeken, kiest u de actie **Boeken** en kiest u vervolgens de knop **Ja**.
+
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Een aantalsboeking ongedaan maken op een geboekte inkoopontvangst  
+Hieronder wordt beschreven hoe u een geboekte ontvangst ongedaan kunt maken. De stappen zijn vergelijkbaar met de stappen voor geboekte verzendingen.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de geboekte ontvangst die u ongedaan wilt maken.  
 3.  Selecteer de regel(s) die u ongedaan wilt maken.  
 4.  Kies de actie **Ontvangst ongedaan maken**.
 
-    Er wordt een correctieregel ingevoegd onder de geselecteerde ontvangstregel.  
+Er wordt een correctieregel ingevoegd onder de geselecteerde ontvangstregel. Als de hoeveelheid in een magazijnontvangst is ontvangen, wordt een correctieregel ingevoegd in de geboekte magazijnontvangst.  
 
-    Als de hoeveelheid in een magazijnontvangst is ontvangen, wordt een correctieregel ingevoegd in de geboekte magazijnontvangst.  
-
-    De velden **Ontvangen aantal** en **Niet geboekt aantal** op de bijbehorende inkooporder worden ingesteld op nul.
+De velden **Ontvangen aantal** en **Niet geboekt aantal** op de bijbehorende inkooporder worden ingesteld op nul.
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Een aantalboeking ongedaan maken en opnieuw uitvoeren voor een geboekte retourzending
+Hieronder wordt beschreven hoe u een geboekte retourzending ongedaan kunt maken en vervolgens de inkoopretour opnieuw kunt boeken met een nieuwe hoeveelheid.
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte retourverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de geboekte retourzending die u ongedaan wilt maken.
@@ -67,16 +76,8 @@ U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure
 7.  Open de retourorder en kies de actie **Opnieuw openen**.  
 8.  Corrigeer de post in het veld **Aantal** en boek de inkoopretourorder opnieuw.  
 
-## <a name="to-post-a-negative-entry"></a>Een negatieve post boeken  
-U kunt het veld **Storno** gebruiken om een negatief debetbedrag in plaats van een creditbedrag te boeken, of om een negatief creditbedrag in plaats van een debetbedrag op een rekening te boeken. Om aan juridische vereisten te voldoen is dit veld standaard zichtbaar in alle dagboeken. De velden **Debetbedrag** en **Creditbedrag** bevatten beide zowel de oorspronkelijke post als de gecorrigeerde post. Deze velden hebben geen invloed op het rekeningsaldo.  
-
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer in het veld **Batchnaam** de juiste batchnaam.  
-3.  Voer informatie in de relevante velden in.  
-4.  Selecteer op de dagboekregel die u wilt activeren voor negatieve posten het selectievakje **Storno**.  
-5.  Als u naar het dagboek wilt boeken, kiest u de actie **Boeken** en kiest u vervolgens de knop **Ja**.
-
 ## <a name="see-also"></a>Zie ook
+[Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)  
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Financiën](finance.md)  

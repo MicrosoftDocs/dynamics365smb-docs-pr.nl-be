@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5936343b9a1e1ebd7b871f11b0aeb9a7554636b4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253470"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314204"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
@@ -27,7 +27,7 @@ De prognosefunctionaliteit wordt gebruikt om een verwachte vraag aan te maken; d
 Met behulp van prognoses kan uw bedrijf "wat als"-scenario's opstellen en efficiënt en kosteneffectief plannen voor en voorzien in de vraag. Nauwkeurige prognoses kunnen een doorslaggevend verschil maken voor de klanttevredenheid met betrekking tot ordertoezeggingsdatums en tijdige levering.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Verkoopprognoses en productieprognoses  
-De prognosefunctionaliteit in het programma kan worden gebruikt voor het maken van verkoop- of productieprognoses, in combinatie of onafhankelijk van elkaar. De meeste bedrijven die op order produceren, houden bijvoorbeeld geen voorraad eindproducten aan, omdat elk artikel op bestelling wordt geproduceerd. Het vooruitlopen op orders (verkoopprognoses) is van essentieel belang voor een redelijke doorlooptijd van eindproducten (productieprognoses). Zo kunnen bijvoorbeeld onderdelen met een lange levertijd de productie vertragen als deze niet besteld of in voorraad zijn.  
+De prognosefunctionaliteit in de toepassing kan worden gebruikt voor het maken van verkoop- of productieprognoses, in combinatie of onafhankelijk van elkaar. De meeste bedrijven die op order produceren, houden bijvoorbeeld geen voorraad eindproducten aan, omdat elk artikel op bestelling wordt geproduceerd. Het vooruitlopen op orders (verkoopprognoses) is van essentieel belang voor een redelijke doorlooptijd van eindproducten (productieprognoses). Zo kunnen bijvoorbeeld onderdelen met een lange levertijd de productie vertragen als deze niet besteld of in voorraad zijn.  
 
 -   De verkoopprognose is de beste schatting die de verkoopafdeling kan maken over toekomstige verkopen, en deze wordt gespecificeerd per artikel en per periode. De verkoopprognose is echter niet altijd voldoende voor de productie.  
 -   De productieprognose is de inschatting van de productieplanner van het aantal eindartikelen en afgeleide subassemblageartikelen in specifieke perioden moeten worden geproduceerd om te voldoen aan de voorspelde verkopen.  

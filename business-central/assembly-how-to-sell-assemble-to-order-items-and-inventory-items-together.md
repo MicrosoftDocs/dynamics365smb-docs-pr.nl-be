@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4581e1f21e87190d75aa0048e9f5aabf8dd85fe0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95feecd98debfe6595ca66b23bf38085f245f025
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244366"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304148"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op voorraad assembleren** bevat, neemt het standaardproces voor de verkooporder aan dat het item al is samengesteld en uit de voorraad kan worden gepickt, als deze beschikbaar is. Daarom wordt er geen assemblageorder automatisch gemaakt en gekoppeld aan de verkooporderregel. Als echter een deel van (of de gehele) hoeveelheid niet beschikbaar is, kunt u een assemblageorder maken voor het resterende aantal door het veld **Aantal voor op order assembleren** op de verkooporderregel in te vullen. Op deze manier kunt u het artikel dat u wilt bestellen, samenstellen, ook al is het standaard ingesteld om op voorraad te worden geassembleerd.  

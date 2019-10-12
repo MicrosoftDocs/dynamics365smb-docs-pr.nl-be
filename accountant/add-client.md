@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95a4153c56693d8bdd28980f1acff14b917a9488
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237866"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300079"
 ---
-# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Cliënten toevoegen aan uw dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="add-clients-to-your-dashboard-in-include-d365acc_longincludesd365acc_long_mdmd"></a>Cliënten toevoegen aan uw dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 U kunt een cliënt toevoegen via de pagina **Cliënten**, dat u kunt openen door de actie **Cliënten beheren** te kiezen op het lint. Kies gewoon **Nieuw** en vul vervolgens de velden in.  
@@ -32,7 +32,7 @@ De gegevens op de kaart voor elke cliënt worden door u opgegeven en u kunt deze
 
 De cliënt-URL wordt gebruikt als u de menuopdracht **Ga naar bedrijf** kiest in het [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboard.  
 
-### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Worden uitgenodigd bij de [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] van een client
+### <a name="get-invited-to-a-clients-include-d365fin_longincludesd365fin_long_mdmd"></a>Worden uitgenodigd bij de [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] van een client
 Een bedrijf dat [!INCLUDE [d365fin](includes/d365fin_md.md)] gebruikt, kan u uitnodigen tot [!INCLUDE [d365fin](includes/d365fin_md.md)] als hun externe accountant. Als u wilt worden uitgenodigd, moet u ze het e-mailadres geven dat u gebruikt met [!INCLUDE [d365acc](includes/d365acc_md.md)], bijvoorbeeld <em>me@accountant.com</em>. De beheerder van uw cliënt kan u dan aan hun systeem toevoegen door de wizard **Externe accountant uitnodigen** uit te voeren.  
 
 U ontvangt dan een e-mail van uw cliënt met koppelingen naar hun [!INCLUDE [d365fin](includes/d365fin_md.md)]. De eerste koppeling is een uitnodiging om toegang tot het bedrijf te krijgen. Open deze koppeling en accepteer de stappen om te worden toegevoegd aan de [!INCLUDE [d365fin](includes/d365fin_md.md)]-omgeving van uw cliënt. Met de tweede koppeling kunt u deze cliënt toevoegen aan uw dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)], zoals hierboven wordt beschreven.  

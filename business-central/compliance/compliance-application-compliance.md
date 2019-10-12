@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246899"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303895"
 ---
 # <a name="application-compliance"></a>Toepassingsnaleving
 Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)], zoals de International Financial Reporting Standards, lokale functionaliteit, GDPR, enzovoort. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
@@ -46,15 +46,18 @@ Business Central levert real-time, geïntegreerde operationele en financiële ge
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Controle krijgen over essentiële informatie, processen en rapporten
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Naleving beheren van de standaards die van belang zijn
+
 Lever geïntegreerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken hulpmiddelen om uw mensen te helpen voldoen aan verwachtingen op het gebied van financieel management en standaards die van belang zijn voor uw specifieke bedrijf.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Rapportageschema's aan uw wensen aanpassen
+
 - De structuur van de rapportageschema's van uw bedrijf definiëren op basis van bedrijfsvereisten en toepasselijke regelgevingsstandaards
 - Maak accounts en verwerk complexe processen in verband met allerlei bedrijfsactiviteiten, zoals voorraadwaardering, vreemde valuta's, segmentrapportage en afwijkingen van lokale GAAP's.
 - Controleer het detailniveau voor elke geregistreerde transactie en selecteer gedetailleerde registratie voor bepaalde soorten transacties, zoals vaste activa en schulden.
-- Pas schemaberekeningen en weergave voor financiële rapportage aan of exporteer de gegevens naar Microsoft® Office Excel® voor verdere analyse.
+- Pas schemaberekeningen en weergave voor financiële rapportage aan of exporteer de gegevens naar Microsoft Excel voor verdere analyse.
 
 ### <a name="improve-information-validity"></a>Geldigheid van informatie verbeteren
+
 - Configureer gegevensvelden om alleen informatie te accepteren in de juiste indeling, zoals het juiste aantal decimalen of alfanumerieke patronen.
 - Help zorgen dat informatie compleet is met toepassingsmechanismen, zoals vereisen dat een leveranciersfactuurnummer wordt ingevoerd voordat een inkooporder kan worden geboekt.
 - Verlaag het risico van onnauwkeurige informatie of onrechtmatig wijzigen en help gevoelige informatie beschermen met toegang tot een op informatie gebaseerde projectrol.
@@ -69,9 +72,10 @@ Lever geïntegreerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken
 - Versnel transmissie van financiële informatie naar klanten, aandeelhouders, regelgevende bureaus en het publiek, met op XML gebaseerde XBRL-documenten die de uitwisseling van financiële gegevens ondersteunen via uiteenlopende software en technologie, inclusief internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Helpen zorgen voor duidelijke audittrails
+
 - Houd documenten en informatie zowel voorwaarts als achterwaarts door het systeem bij, van de oorspronkelijke bron tot financiële overzichten en terug.
 - Bepaal hoe, wanneer en door wie informatie is ingevoerd of bewerkt en naar welke rekening financiële posten zijn geboekt.
-- Zoek databasewijzigingen, inclusief vorige en herziene gegevens, op in het wijzigingslogbestand.
+- Zoek databasewijzigingen, inclusief vorige en herziene gegevens, op in het [wijzigingslogbestand](../across-log-changes.md).
 - Verhoog doorzichtigheid en bruikbaarheid van audittrails en versnel toegang tot informatie voor externe auditors met drill-down, filtering, registratie en navigatie,
 
 ## <a name="compliance-and-local-functionality"></a>Compliance en lokale functionaliteit
@@ -89,7 +93,8 @@ Microsoft maakt gelokaliseerde versies van Business Central voor bepaalde landen
 > **Basel II: implicaties voor rapportage en analyse**  
 > Basel II, ontwikkeld door de Bank for International Settlements, helpt zorgen voor veiligheid in het financiële systeem op drie belangrijke gebieden: minimale kapitaalvereisten, controleproces door supervisors en marktdiscipline. Hoewel het akkoord geldt voor financiële instellingen en niet is gericht op kleine en middelgrote bedrijven, kan Basel II enkele implicaties voor deze organisaties hebben op het gebied van rapportage en analyse.
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Naleving](compliance-overview.md)  
 [Servicenaleving](compliance-service-compliance.md)  
 [Certificeringen](compliance-certifications.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d4340172164401e736bf070b8bf6f3da97cfacb6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248790"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310288"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikelen picken met een voorraadpick
 Als voor uw vestiging wel een pickverwerking vereist is maar geen verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om pick- en verzendingsinformatie voor de brondocumenten te verzamelen en boeken. Het uitgaande brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder waarvan de onderdelen kunnen worden gepickt.

@@ -1,31 +1,31 @@
 ---
 title: De hoeveelheid details aanpassen die u ziet in overzichten | Microsoft Docs
-description: U kunt gedetailleerde weergaven in lijsten weergegeven die meer informatie bieden, of als tekens die gemakkelijk visueel te scannen zijn.
+description: U kunt lijsten weergeven als gedetailleerde rijen die de meeste informatie bieden, of als tegels die gemakkelijk visueel te scannen zijn en miniaturen van afbeeldingen kunnen bevatten.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244389"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300629"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Lijsten weergeven op verschillende manieren
-In de rechterhoek van elke lijst in [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u pictogrammen waarmee u in de lijst kunt wisselen van weergave. Een lijst kan worden weergegeven als een gedetailleerde lijst. Dit is de standaardweergave. Maar u kunt ook naar een ´tegelweergave´ overschakelen. Hierin worden minder gedetailleerde gegevens over de specifieke record weergegeven en worden de items als tegels gestapeld. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat op elk item gemakkelijker kan worden getikt.
+In de rechterhoek van elke lijst in [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u pictogrammen waarmee u kunt kiezen hoe de lijst met records wordt weergegeven. Een lijst kan worden weergegeven als gedetailleerde rijen, wat ideaal is als u met veel velden moet werken of velden in de lijst moet bewerken. Maar u kunt ook schakelen om records als tegels weer te geven, wat compacter is en minder velden in de specifieke record toont. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat het compact is en gemakkelijker om te tikken.
 
-## <a name="items-list"></a>Artikeloverzicht
-In het artikeloverzicht helpen afbeeldingen u een snel overzicht te krijgen van wat u verkoopt en als u overschakelt naar de tegelweergave, krijgt u een artikelcatalogus waarin u kunt bladeren. Als er een afbeelding voor het specifieke artikel is gedefinieerd, hebt u een derde optie naast het gedetailleerd overzicht en de tegels: de grote tegelweergave. In deze weergave worden voor elk item grote afbeeldingen weergegeven.
+## <a name="item-list"></a>Artikeloverzicht
+Op de pagina **Artikelen** helpen afbeeldingen u een snel overzicht te krijgen van wat u verkoopt en als u overschakelt naar de tegelweergave, krijgt u een artikelcatalogus waarin u kunt bladeren. Voor lijsten met afbeeldingen, zoals de pagina **Artikelen**, hebt u een derde optie om als grote tegels weer te geven. Dit toont grote afbeeldingen voor elke record maar toont ook enkele velden.
 
-U kunt een afbeelding importeren voor een bepaald artikel door naar de kaart **Artikel** te gaan en aan de rechterzijde **Afbeelding** te selecteren en vervolgens **Importeren** te kiezen. Zo kunt u ook een afbeelding naar een bestand exporteren of de afbeelding voor het artikel verwijderen.  
+U kunt artikelafbeeldingen importeren, één voor één of voor meerdere items in één keer. Zie voor meer informatie [Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

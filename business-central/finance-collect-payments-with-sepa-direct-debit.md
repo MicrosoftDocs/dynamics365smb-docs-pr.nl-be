@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9a2d4c8696eee9ec75de556b984d9ea2a87ad771
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239855"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302512"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
 Met instemming van de klant, kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-notatie.  
@@ -137,13 +137,13 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
  U kunt nu doorgaan met het boeken van ontvangen betalingen voor de betrokken verkoopfacturen. U kunt dit doen terwijl u, als gewoonlijk, betalingsontvangsten boekt, bijvoorbeeld op de pagina **Betalingsregistratie**, of u kunt de gerelateerde betalingsontvangsten rechtstreeks boeken vanuit de pagina **Verzamelingsposten van incasso**. Zie voor meer informatie [SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>SEPA-betalingsontvangsten via automatische incasso boeken
- Wanneer een incasso-opdracht wordt verwerkt door uw bank, kunt u doorgaan met het boeken van de ontvangst van de betaling voor de betrokken verkoopfacturen. Zie voor meer informatie [SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ Wanneer een incasso-opdracht wordt verwerkt door uw bank, kunt u doorgaan met het boeken van de ontvangst van de betaling voor de betrokken verkoopfacturen. Zie voor meer informatie [SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
  U kunt de betalingsontvangst van de pagina **Incasso-opdrachten** of de pagina **Verzamelingsposten van incasso** direct boeken. U kunt ook het werk aan een andere gebruiker doorgeven door de dagboekregels voor te bereiden.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Een betalingsontvangst van een automatische incasso boeken vanuit de pagina Verzamelingen van automatische incasso  
  1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Incasso-opdrachten** in en kies vervolgens de gerelateerde koppeling.  
- 2. Selecteer een regel voor een verzameling automatische incasso die is geëxporteerd naar een bankbestand en verwerkt door de bank. Zie voor meer informatie [SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ 2. Selecteer een regel voor een verzameling automatische incasso die is geëxporteerd naar een bankbestand en verwerkt door de bank.
  3. Kies de actie **Betalingsontvangsten boeken**.  
  4. Vul op de pagina **Incasso-opdracht boeken** de velden in zoals wordt beschreven in de volgende tabel.  
 
@@ -154,7 +154,8 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
      |**Batchnaam financieel dagboek**|Geef op welke dagboekbatch moet worden gebruikt voor het boeken van de betalingsontvangst.|  
      |**Alleen dagboek aanmaken**|Schakel dit selectievakje in als u niet de betalingsontvangst boeken wilt wanneer u de **OK** knop kiest. De betalingsontvangst in het opgegeven dagboek wordt voorbereid en wordt niet geboekt totdat iemand de dagboekregels in kwestie boekt.|  
 
- 5. Kies de knop **OK**.
+ 5. Kies de knop **Ok**.
 
 ## <a name="see-also"></a>Zie ook  
-[Tegoeden beheren](receivables-manage-receivables.md)
+[Tegoeden beheren](receivables-manage-receivables.md)  
+[Servicebeheer](service-service.md)

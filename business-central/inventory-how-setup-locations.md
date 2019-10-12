@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: d94f1bb2fe45263f013119954622b995e902b30f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244302"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309832"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren.

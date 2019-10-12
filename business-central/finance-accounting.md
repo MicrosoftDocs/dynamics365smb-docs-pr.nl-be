@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: f088e1319684b9a18a2b0c8ab5305f73747f6889
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446934"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302608"
 ---
-# <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
 
 ## <a name="accountant-role-center"></a>Rolcentrum Accountant
@@ -26,9 +26,12 @@ Het rolcentrum is een dashboard met activiteittegels die realtime cijfers bevatt
 Als [!INCLUDE[d365fin](includes/d365fin_md.md)] nieuw voor u is, kunt u een overzicht van video's direct vanuit uw rolcentrum starten. U kunt ook een **Aan de slag**-rondleiding starten die wijst op belangrijke gebieden.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
-Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] gebruiken voor een beter overzicht van uw cliënten. Van daaruit kunt u toegang krijgen tot de tenant van elke cliënt in [!INCLUDE[d365fin](includes/d365fin_md.md)] en het accountantrolcentrum gebruiken zoals hierboven beschreven. Zie voor meer informatie [Welkom bij [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).
+Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] gebruiken voor een beter overzicht van uw cliënten. Van daaruit kunt u toegang krijgen tot de tenant van elke cliënt in [!INCLUDE[d365fin](includes/d365fin_md.md)] en het accountantrolcentrum gebruiken zoals hierboven beschreven. Zie voor meer informatie [Welkom bij [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is momenteel in openbare preview op een beperkt aantal markten.
+
+## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens.
 
 Als de accountant toegang heeft gekregen tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kan hij of zij het rolcentrum **Accountant** gebruiken, dat eenvoudig toegang tot de meest relevante pagina's voor hun werk biedt.  
@@ -38,7 +41,7 @@ We hebben het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. 
 ![Uw accountant uitnodigen](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Dit vereist dat u SMTP-e-mail hebt ingesteld. U kunt dit zelf doen of uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner vragen. Daarnaast moet u als gebruikersbeheerder zijn aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], niet als bedrijfeigenaar of een andere gebruiker. Ten slotte moet u het proefbedrijf hebben verlaten zodat u een Azure Active Directory-beheerder hebt.  
+> Dit vereist dat u SMTP-e-mail hebt ingesteld. U kunt dit zelf doen of uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner vragen. Daarnaast moet u als gebruikersbeheerder zijn aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], niet als bedrijfeigenaar of een andere gebruiker. Ten slotte moet u het proefbedrijf hebben verlaten zodat u een Azure Active Directory-beheerder hebt.  
 
 > [!IMPORTANT]  
 > Het e-mailadres van de accountant moet een werkadres op basis van Azure Active Directory zijn. Als de accountant een ander type e-mail gebruikt, kan de uitnodiging niet worden verzonden.  

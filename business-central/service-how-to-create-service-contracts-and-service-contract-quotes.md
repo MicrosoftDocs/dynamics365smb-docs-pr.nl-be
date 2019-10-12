@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252217"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311704"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Werken met servicecontracten en servicecontractoffertes
 U kunt een servicecontract handmatig of uit een servicecontractofferte maken. U kunt een servicecontractofferte gebruiken als voorloper van een servicecontract, waarin uw bedrijf een aanbieding doet aan de klant en daarvoor goedkeuring van de klant verkrijgt, voordat u deze kunt omzetten in een servicecontract. De procedures voor het maken van een servicecontract of een servicecontractofferte zijn vergelijkbaar.  
@@ -28,7 +28,7 @@ U kunt een servicecontract handmatig of uit een servicecontractofferte maken. U 
 3. Vul het veld **Nr.** te kiezen. Er wordt een dialoogvenster geopend waarin wordt gevraagd of u de algemene gegevens van een contractsjabloon wilt invullen. Als u een dergelijk servicecontract of een dergelijke servicecontractofferte wilt maken, kies de knop **Ja**. De pagina **Servicecontractsjabloonoverzicht** wordt geopend.  
 4. Selecteer de betreffende sjabloon en kies **OK** om deze te gebruiken voor het servicecontract of de servicecontractofferte.  
 5. Kies in het veld **Klantnr.** de klant.  
-6. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u een verschil in het jaarlijkse bedrag niet automatisch wilt verdelen. De waarden in de velden **Jaarlijks bedrag** en **Berekend jaarlijks bedrag** worden niet automatisch gebalanceerd. Als u wilt dat het programma automatisch het verschil in het jaarlijkse bedrag dat kan ontstaan door een wijziging in het servicecontract, verdeelt, schakelt u het selectievakje **Bedragen in onbalans toestaan** uit.  
+6. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u een verschil in het jaarlijkse bedrag niet automatisch wilt verdelen. De waarden in de velden **Jaarlijks bedrag** en **Berekend jaarlijks bedrag** worden niet automatisch gebalanceerd. Als u wilt dat de toepassing automatisch het verschil in het jaarlijkse bedrag dat kan ontstaan door een wijziging in het servicecontract, verdeelt, schakelt u het selectievakje **Bedragen in onbalans toestaan** uit.  
 7. Voeg contractregels toe aan het servicecontract of de servicecontractofferte.  
 8. Vul zo nodig de overige velden in.  
 

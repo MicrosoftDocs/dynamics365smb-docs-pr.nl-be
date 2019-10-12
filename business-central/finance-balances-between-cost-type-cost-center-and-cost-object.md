@@ -4,20 +4,21 @@ description: Wanneer u kostprijsboekhouding instelt, moet u ervoor zorgen dat al
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: finance-set-up-cost-accounting
+ms.openlocfilehash: 7ae54e8a1a011b8e4f1914ef9f15c179794d2675
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239035"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302536"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldi tussen kostensoort, kostenplaats en kostenobject
 Wanneer u kostprijsboekhouding instelt, moet u ervoor zorgen dat alle posten zijn toegewezen aan een kostensoort , alsmede een kostenplaats of kostenobject. Dat betekent dat aan elke kostenpost een kostensoort moet zijn toegewezen evenals een kostenplaatscode of kostenobject. Deze regel zorgt ervoor dat elke kostenpost wordt weergegeven in hetzij de kostenplaatsen of de kostenobjecten, maar nooit op beide locaties.  

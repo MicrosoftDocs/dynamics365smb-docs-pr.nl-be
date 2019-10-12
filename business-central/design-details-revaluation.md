@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2c78322213eaf6e091278e3e5528f82493aba1da
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240407"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303041"
 ---
 # <a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
 U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.  

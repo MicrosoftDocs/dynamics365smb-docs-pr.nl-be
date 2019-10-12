@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 59624b1308d8a8d4fda78d440a48d4138a687691
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4a9efd2ef5ac9d3b0335bf887765cf03870fb037
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247548"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303976"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
 In financiële analyses is een dimensie informatie die u kunt toevoegen aan een post als een soort kenteken. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. Dimensies kunnen worden gebruikt op posten in dagboeken, documenten en budgetten. De term dimensie beschrijft hoe analyse plaatsvindt. Een tweedimensionale analyse is bijvoorbeeld verkoop per gebied. Door echter meer dan twee dimensies te gebruiken bij het maken van een post, kunt u complexere analyses uitvoeren, zoals verkoop per verkoopcampagne per klantengroep per gebied. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).

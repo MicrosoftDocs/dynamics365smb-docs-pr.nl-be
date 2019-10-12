@@ -8,31 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985922"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309472"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> Voor een snel afdrukvriendelijk overzicht van de populairste sneltoetsen [raadpleegt u het naslagartikel hier](keyboard-shortcuts-cheatsheet.md) of klikt u op de volgende afbeelding:
+> Zie voor een snel, afdrukvriendelijk overzicht van de populairste snelkoppelingen voor pc-gebruikers [Sneltoetsen (alleen pc)](keyboard-shortcuts-cheatsheet.md). Kies de volgende afbeelding voor een grafische weergave:
 >
 >[ ![Als u het wilt downloaden om af te drukken, klikt u met de rechtermuisknop en selecteert u Afbeelding opslaan als](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## <a name="overview"></a>Overzicht
-Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficiënter te navigeren naar verschillende gebieden en elementen op een pagina.
+Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficiënter te navigeren naar verschillende gebieden en elementen op een pagina. Ze worden ondersteund door de meeste webbrowsers, maar het gedrag kan enigszins variëren.
 
-De sneltoetsen worden ondersteund door de meeste webbrowsers, maar het gedrag kan enigszins variëren.
+> [!NOTE]
+> De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.
 
-De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.
+De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Sommige sneltoetsen verschillen echter voor macOS. Deze worden aangegeven met haakjes in de volgende secties.
 
-De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is; enkele sneltoetsen verschillen echter voor macOS. Deze zijn tussen haakjes vermeld in de tabellen in de volgende secties.
+> [!NOTE]
+> Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
 
 ##  <a name="Keyboard"></a> Algemene sneltoetsen
 De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van verschillende elementen van een pagina, zoals acties, vervolgkeuzelijsten, opzoekacties, enzovoort. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
@@ -40,25 +42,32 @@ De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van ve
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |----------------|-----------|
 |Alt+Pijl-omlaag|Een vervolgkeuzelijst openen of een waarde voor een veld opzoeken.|    
-|Alt+Pijl rechts|De transacties bekijken die in een berekende waarde in een veld hebben geresulteerd.|  
+|Alt+Pijl omhoog|Knopinfo weergeven voor een veld of een kolomkop van een tabel. Als het veld validatiefouten heeft, drukt u op Alt+Pijl omhoog om de validatiefout te bekijken. Druk op Esc of Alt+Pijl omhoog om de knopinfo te sluiten.|
 |Alt+F2|Het deelvenster Feitenblok weergeven of verbergen.|
-|Alt+Q<br />(Ctrl+Alt+Q)|Vak **Vertel u wat u wilt doen** openen dat u kan helpen een pagina, een rapport, een actie op de huidige pagina of een artikel in de documentatie te vinden.|
+|Alt+Shift+F2|Schakelen tussen **Details** en **Bijlagen** in het deelvenster Feitenblok.|
+|Alt+O|Een nieuwe notitie toevoegen voor de geselecteerde record, zelfs als het deelvenster Feitenblok niet is geopend.|
+|Alt+Q<br />(Ctrl+Option+Q)|Het venster **Vertel me** openen. Zie voor meer informatie [Pagina's en informatie zoeken met Vertel me](ui-search.md).|
+|Alt+N |Een pagina openen om een nieuwe record te maken. (Gelijk aan het kiezen van de acties **Nieuw** en **+**.)
+|Alt+Shift+N |Een nieuw gemaakte pagina sluiten en een nieuwe openen om een nieuwe record te maken.
 |Alt+T|De pagina **Mijn instellingen** openen.|
-|Alt+Pijl omhoog|Knopinfo weergeven voor een veld of een kolomkop van een tabel. Als het veld validatiefouten heeft, drukt u " Alt+Pijl omhoog" om de validatiefout te bekijken. Druk op "Esc" of "Alt+Pijl omhoog“ om de knopinfo te sluiten.|
+|Alt+Pijl rechts|Aanvullende informatie of onderliggende waarden opzoeken voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "knop AssistEdit") bevat. Dit wordt gebruikt wanneer de gebruikelijke vervolgkeuzeknop (Alt+Pijl-omlaag) in hetzelfde veld voor een ander doel wordt gebruikt.|
+|Shift+F12|Het functieoverzicht openen. Zie voor meer informatie [Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md).|
+|Ctrl+Alt+Shift+C|Informatie weergeven in de bedrijfsbadge.|
 |Ctrl+Alt+F1|Het pagina-inspectiedeelvenster openen en sluiten. Het pagina-inspectiedeelvenster bevat informatie over de pagina, zoals de brontabel, velden, filters, extensies en meer.<br /><br />Zie [Pagina's inspecteren](across-inspect-page.md) voor meer informatie.|
 |Ctrl+C |De waarde van het veld kopiëren. Als het veld de focus heeft en u geen tekst in het veld hebt geselecteerd, wordt hiermee de hele waarde gekopieerd. Als u een tekst in het veld hebt geselecteerd, wordt alleen de geselecteerde tekst gekopieerd.|
 |Ctrl+F1|De Help van Business Central voor de pagina openen.|
-|Ctrl+F5|De [!INCLUDE[prodshort](includes/prodshort.md)]-toepassing opnieuw laden.<br/><br />Dit is vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.|
-|F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik dit om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
 |Ctrl+F12|Schakelen tussen brede en smalle indelingweergave.|
+|Ctrl+klikken|Navigeren tijdens het personaliseren of aanpassen wanneer de actie is gemarkeerd met een pijlpunt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.|  
+|Ctrl+F5|De [!INCLUDE[prodshort](includes/prodshort.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
+|F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik dit om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
 |Voer in|Het (besturings)element met focus inschakelen of openen.|
-|Esc|Sluit de huidige pagina of vervolgkeuzelijst.|
+|Esc|De huidige pagina of vervolgkeuzelijst sluiten.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
-De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebruiken. De sneltoetsactie is afhankelijk van of de pagina in de lijstweergave of de tegelweergave wordt weergegeven.
+De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebruiken. De sneltoetsactie is afhankelijk van of de pagina in de lijstweergave of de tegelweergave wordt weergegeven.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
@@ -68,15 +77,15 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave|Als u dit wilt doen in een tegelweergave |
 |-----------------|-------|-------|
 |Alt+F7 |De geselecteerde kolom sorteren in oplopende of aflopende volgorde.|Niet van toepassing.|
-|Shift+F10 |Een menu openen met opties die beschikbaar zijn voor de geselecteerde rij.|Niet van toepassing.|
-|Alt+N |Een pagina openen om een nieuwe record te maken; dezelfde manier als de actie **Nieuw** selecteren. |Zelfde.|
+|Alt+N|Een nieuwe regel invoegen in een bewerkbare lijst in, zoals de pagina **Grootboekbudgetten**.|Zelfde.|
+|Shift+F10 |Een menu openen met opties die beschikbaar zijn voor de geselecteerde rij.|Zelfde.|
 
 ### <a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
 
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
 |-----------------|-------|-------|
 |Ctrl+Home<br />(Fn+Ctrl+pijl links)|De eerste rij in de lijst selecteren; de focus blijft in dezelfde kolom.|Naar de eerste tegel in de eerste rij gaan. |
-|Ctrl+End<br />(Fn+Ctrl+pijl rechts)|De laatste rij in de lijst selecteren; de focus blijft in dezelfde kolom.|Naar de laatste tegel in de laatste rij gaan|
+|Ctrl+End<br />(Fn+Ctrl+pijl rechts)|De laatste rij in de lijst selecteren; de focus blijft in dezelfde kolom.|Naar de laatste tegel in de laatste rij gaan.|
 |Thuis<br />(Fn+pijl links)|Naar het eerste veld in de rij gaan|Naar de eerste tegel in de rij gaan|
 |End<br />(Fn+pijl rechts)|Naar het laatste veld in de rij gaan.|Naar de laatste tegel in de rij gaan|
 |Voer in|De record openen die is gekoppeld aan het veld.<br /><br />Slechts van belang als een kaartpagina aan de record is gekoppeld.|Opent de record.<br /><br />Slechts van belang als een kaartpagina aan de record is gekoppeld.|
@@ -100,12 +109,12 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 |Ctrl + pijl-omlaag<br />(Ctrl+Cmd+pijl omlaag)|Focus verplaatsen naar de lagere rij en de huidige rij geselecteerd houden.|Niet van toepassing.|
 |Ctrl+Spatiebalk<br />(Ctrl+Cmd+Spatiebalk)|De selectie van rijen uitbreiden en de rij met de focus toevoegen.<br /><br />U kunt dit gebruiken nadat u Ctrl+pijl omhoog of Ctrl+pijl omlaag hebt gebruikt om uw selectie uit te breiden.|Niet van toepassing.|
 |Ctrl+A|Alle rijen selecteren.|Niet van toepassing.|
+|Ctrl+C<br />(Cmd+C)|De geselecteerde rijen naar het Klembord kopiëren.|Ja, maar alleen voor een enkele geselecteerde tegel.|
+|Ctrl+V<br />(Cmd+V)|De geselecteerde rijen uit het Klembord plakken op de huidige pagina of in het huidige document, zoals Microsoft Excel of Outlook-e-mail. U kunt dit alleen doen in bewerkbare lijsten.|Niet van toepassing.|
 |Shift+pijl omhoog|De selectie van rijen uitbreiden en de hogere rij toevoegen.|Niet van toepassing.|
 |Shift+pijl omlaag|De selectie van rijen uitbreiden en de lagere rij toevoegen.|Niet van toepassing.|
 |Shift+Page Up<br />(Shift+Fn+pijl omhoog)|De selectie van rijen uitbreiden en alle zichtbare rijen boven de huidige selectie van rijen toevoegen.|Niet van toepassing.|
 |Shift+Page Down<br />(Shift+Fn+pijl omlaag)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing.|
-|Ctrl+C<br />(Cmd+C)|De geselecteerde rijen naar het Klembord kopiëren.|Niet van toepassing.|
-|Ctrl+V<br />(Cmd+V)|De geselecteerde rijen uit het Klembord plakken op de huidige pagina of in het huidige document, zoals Microsoft Excel of Outlook-e-mail. U kunt dit alleen doen in bewerkbare lijsten.|Niet van toepassing.|
 |F8|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken. U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een Tab om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|Niet van toepassing.|
 
 ### <a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
@@ -122,16 +131,19 @@ De volgende tabel beschrijft de sneltoetsen die u in een lijstpagina kunt gebrui
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Toetsenbordsneltoetsen in kaarten en documenten
 
-De volgende sneltoetsen zijn beschikbaar op kaartpagina's (zoals **Klant**) en documentpagina's (zoals **Verkooporder**) voor het weergeven en wijzigen van records.
+De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en documentpagina's, zoals **Verkooporder**, voor het weergeven en wijzigen van records.
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |----------------|-----------|
-|Alt+F6|Het huidige sneltabblad samenvouwen en uitvouwen.|
+|Alt+F6|Het huidige sneltabblad samenvouwen/uitvouwen.|
 |Alt+N |Een pagina openen om een nieuwe record te maken; dezelfde manier als de actie **Nieuw** kiezen. |
-|Alt+Shift+N |De huidige kaartpagina sluiten en een nieuwe entiteit maken; hetzelfde als de pijl terug selecteren en dan de actie **Nieuw** kiezen.|
+|Alt+Shift+N |Een pagina sluiten en een nieuwe openen om een nieuwe record te maken; dezelfde manier als de actie **OK & nieuw** selecteren. |
+|Alt+Shift+W |De huidige kaart of het huidige document openen in een nieuw venster. Zie voor meer informatie [Multitasking over meerdere pagina's](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl + pijl-omlaag|De volgende record voor een entiteit openen.|
 |Ctrl + pijl-omhoog |De vorige record voor een entiteit openen.|
-|Ctrl+Shift+F12 |De regelitems maximaliseren op een documentpagina, zoals een verkooporder of factuur. Andere onderdelen van de pagina zijn verborgen en het regelitemonderdeel wordt uitgevouwen naar de hele werkruimte. Druk nogmaals op de toetsen om terug te keren naar de normale weergave.<br /><br />Zie voor meer informatie [Focussen op regelitems](ui-enter-data.md#Focus).|
+|Ctrl+Insert |Een nieuwe regel in documenten invoegen.|
+|Ctrl+Delete |De regel verwijderen in documenten, dagboeken en werkbladen.|
+|Ctrl+Shift+F12 |Het gedeelte met regelitems maximaliseren op een documentpagina. Druk nogmaals op de toetsen om terug te keren naar de normale weergave. Zie voor meer informatie [Focussen op regelitems](ui-enter-data.md#Focus).|
 |F6|Naar het volgende sneltabblad of onderdeel (subpagina) gaan.|
 |Shift+F6|Naar het vorige sneltabblad of onderdeel (subpagina) gaan.|
 
@@ -145,21 +157,13 @@ De volgende sneltoetsen behoren tot de functie Snelinvoer op kaarten, documenten
 |Shift+Enter|De waarde in het huidige veld bevestigen en naar het vorige snelinvoerveld gaan.||
 |Ctrl+Shift+Enter|De waarde in de huidige kolom bevestigen en naar het volgende snelinvoerveld buiten de lijst gaan.<br /><br />Deze snelkoppeling geldt voor ingesloten lijsten op een pagina, zoals regelartikelen op een verkooporder. U kunt hiermee snel uit de lijst gaan en doorgaan met het invoeren van gegevens in andere velden op de pagina.|
 
-## <a name="keyboard-shortcuts-in-worksheets"></a>Sneltoetsen in werkbladen
-
-De volgende sneltoetsen zijn alleen beschikbaar op werkbladpagina's, zoals **Artikeldagboeken**.
-
-|Druk op deze toetsen<br />(in macOS)|Actie|  
-|----------------|-----------|  
-|Ctrl+Delete| Een regelartikel verwijderen.|
-
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Toetsenbordsneltoetsen in de kalender (datumkiezer)
 
 Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |-----------------|-------|
-|Ctrl+Home|De agenda openen als deze is gesloten.|
+|Ctrl+Home|De agenda openen als deze is gesloten. **Opmerking**: dit werkt niet als het datumveld in een raster staat, waar Ctrl + Home naar de eerste rij springt.|
 |Ctrl+Home<br />(Cmd+Home)|Naar de huidige maand, huidige dag gaan.|
 |Ctrl + pijl-links<br />(Cmd+Pijl links)|Naar de vorige dag gaan.|
 |Ctrl + pijl-rechts<br />(Cmd+Pijl rechts)|Naar de volgende dag gaan.|
@@ -192,7 +196,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Page up<br />(Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
 
 ## <a name="see-also"></a>Zie ook
-
+[Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Assisterende functies](ui-accessibility.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

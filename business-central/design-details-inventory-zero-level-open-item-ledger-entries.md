@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 46560f0d979401420a6613abb6336bc9e944054c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245339"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303373"
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
 Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[d365fin](includes/d365fin_md.md)].  

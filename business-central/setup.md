@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/05/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251021"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311488"
 ---
-# <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
+# <a name="setting-up-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw bedrijf.
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.

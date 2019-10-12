@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/30/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7fe0a8dd125411eb9b642410980a23c243fa7975
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922005"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300605"
 ---
 # <a name="edit-posted-documents"></a>Geboekte documenten bewerken
 Soms moet u een geboekt document bijwerken omdat informatie die relevant is voor het document is gewijzigd. In een geboekt verkoopdocument kan dit bijvoorbeeld het trackingnummer van de expediteur zijn. In een geboekt inkoopdocument kan dit een betalingsverwijzing zijn.

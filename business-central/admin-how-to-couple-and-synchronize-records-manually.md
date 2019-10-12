@@ -1,6 +1,6 @@
 ---
 title: Records handmatig koppelen en synchroniseren | Microsoft Docs
-description: Als een integratietabeltoewijzing wordt gesynchroniseerd, kunnen gegevens in alle records in een tabel in Business Central en Dynamics 365 for Sales worden gesynchroniseerd die zijn gekoppeld.
+description: Als een integratietabeltoewijzing wordt gesynchroniseerd, kunnen gegevens in alle records in een tabel in Business Central en Dynamics 365 Sales worden gesynchroniseerd die zijn gekoppeld.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6d1248ac77208e382c5594af57335df6ff824630
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726779"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308128"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Records handmatig koppelen en synchroniseren
 In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[d365fin](includes/d365fin_md.md)] koppelt aan records in [!INCLUDE[crm_md](includes/crm_md.md)]. Door records te koppelen kunt u [!INCLUDE[crm_md](includes/crm_md.md)]-informatie vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]bekijken en andersom. Door de koppeling kunt u ook gegevens synchroniseren tussen de records. U kunt bestaande records koppelen of nieuwe records maken en koppelen.
@@ -46,4 +46,4 @@ In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[d365fin
 3.  Als records kunnen worden gesynchroniseerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)] of vanuit [!INCLUDE[crm_md](includes/crm_md.md)] naar [!INCLUDE[d365fin](includes/d365fin_md.md)], selecteert u de optie die de richting van gegevensupdate opgeeft, en kiest u vervolgens **OK**.  
 
 ## <a name="see-also"></a>Zie ook  
-[Dynamics 365 for Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
+[Microsoft Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)

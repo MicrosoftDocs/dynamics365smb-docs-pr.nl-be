@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245270"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303956"
 ---
 #  <a name="create-analysis-reports"></a>Analyselijsten maken
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde.  

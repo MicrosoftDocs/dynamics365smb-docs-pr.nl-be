@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446980"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301552"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -40,7 +40,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Voeg dimensies toe voor betere bedrijfsinformatie. |[Werken met dimensies](finance-dimensions.md) |
 | Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Grootboekbudgetten maken](finance-how-create-budgets.md) |
 |Registreer inkomsten of kosten rechtstreeks in het grootboek zonder specifieke bedrijfsdocumenten te boeken.|[Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
-|Boek tegenboekingen om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Boekingen tegenboeken](finance-how-reverse-journal-posting.md)|
+|Boek tegenboekingen om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)|
 |Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
 | Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
 |Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|

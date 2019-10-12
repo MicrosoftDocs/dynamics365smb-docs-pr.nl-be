@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446750"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308821"
 ---
 # <a name="managing-relationships"></a>Relaties beheren
 De relatiebeheerfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.
@@ -34,4 +34,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Definieer segmenten maken om een groep contacten te selecteren op basis van specifieke criteria, zoals de sector waartoe het contact behoort.|[Segmenten beheren](marketing-segments.md)|
 |Verwerk inkomende potentiële klanten door opportunity's te maken en aan verkopers te koppelen, zodat u potentiële verkopen kunt bijhouden.|[Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)|
 |Maak marketingplannen om klanten te identificeren, aan te trekken en vast te houden.|[Marketingcampagnes beheren](marketing-campaigns.md)|
-|Gebruik Dynamics 365 for Sales voor contacten met klanten en profiteer van naadloze integratie in het lead-naar-cash proces door Business Central te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.|[Integreren met Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Gebruik Dynamics 365 Sales voor contacten met klanten en profiteer van naadloze integratie in het lead-naar-cash proces door Business Central te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.|[Integreren met Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

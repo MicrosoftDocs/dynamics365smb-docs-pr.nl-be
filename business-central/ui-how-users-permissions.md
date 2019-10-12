@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250124"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310912"
 ---
-# <a name="managing-users-and-permissions"></a>Gebruikers en machtigingen beheren
+# <a name="manage-users-and-permissions"></a>Gebruikers en machtigingen beheren
 Als u gebruikers wilt toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet de Office 365-beheerder van uw bedrijf eerst de gebruikers in het Office 365-beheercentrum maken. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://aka.ms/CreateOffice365Users).
 
 Als gebruikers in Office 365 zijn gemaakt, kunnen ze op de pagina **Gebruikers** worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aan gebruikers worden machtigingensets toegewezen op basis van het plan dat aan de gebruiker is toegewezen in Office 365. Zie voor gedetailleerde informatie over licenties [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Een machtigingenset is een verzameling machtigingen voor bepaalde objecten in de
 
 Vanuit de pagina **Gebruikerskaart**, kunt u de pagina **Effectieve machtigingen** openen om te zien welke machtigingen de gebruiker heeft en welke machtigingensets aan hen zijn verleend. Hier kunt u machtigingsdetails wijzigen voor machtigingensets van het type **Door gebruiker gedefinieerd**. Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Beheerders kunnen de pagina **Gebruikersinstellingen** gebruiken om perioden te definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld.
+## <a name="users-in-on-premises-deployments"></a>Gebruikers van on-premises implementaties
+Voor on-premises implementaties van [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de beheerder kiezen tussen verschillende autorisatiemechanismen voor referenties voor gebruikers. Wanneer u dan een gebruiker maakt, geeft u verschillende informatie op, afhankelijk van het referentietype dat u in de specifieke [!INCLUDE[server](includes/server.md)]-instantie gebruikt. Zie voor meer informatie [Verificatie en referentietypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in het gedeelte Beheer van de ontwikkelaars- en ITPro-inhoud voor [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Een ander systeem dat definieert waartoe gebruikers toegang hebben, is de instelling Ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
+## <a name="profiles"></a>Profielen
+Nadat gebruikers zijn toegevoegd, kunt u definiëren wat ze in de gebruikersinterface zien en hoe ze via pagina's omgaan met hun toegestane functionaliteit. U doet dit door middel van profielen, reflecterende rollen of afdelingen, die u toewijst aan verschillende soorten gebruikers. Zie voor meer informatie [Profielen beheren](admin-users-profiles-roles.md) en [Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Een gebruiker in Business Central toevoegen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Gebruikers ophalen uit Office 365**.
 
 Elke nieuwe gebruiker die wordt gemaakt voor uw Office 365-abonnement, wordt op de pagina **Gebruikers** toegevoegd.
+
+## <a name="to-edit-or-delete-a-user"></a>Een gebruiker bewerken of verwijderen
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de gebruiker die u wilt bewerken en kies vervolgens de actie **Bewerken**.
+3. Wijzig indien nodig op de pagina **Gebruikerskaart** de informatie.    
+4. Als u een gebruiker wilt verwijderen, selecteert u die gebruiker en kiest u de actie **Verwijderen**.
 
 ## <a name="to-group-users-in-user-groups"></a>Gebruikers in gebruikersgroepen samenvoegen
 U kunt gebruikersgroepen instellen om u te helpen machtigingensets te beheren voor groepen gebruikers in uw bedrijf.
@@ -110,7 +118,7 @@ Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, verkoop-boeken 
 
 De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopregel om de codeunit uit te voeren. Als de gebruiker indirecte machtiging heeft voor de tabel Verkoopregel, kan de codeunit Verkoop-boeken worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel Inkoopregel wijzigen door de codeunit Verkoop-boeken of een ander object uit te voeren dat machtiging heeft om de tabel Inkoopregel te wijzigen. De gebruiker kan alleen de tabel Inkoopregel wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>De toegang van een gebruiker tot specifieke records in een tabel beperken
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>De toegang van een gebruiker tot specifieke records in een tabel beperken
 Voor beveiliging op recordniveau in [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Dit betekent dat de gebruiker geen toegang heeft tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de Help voor ontwikkelaars en IT-pro.
 
 
@@ -174,9 +182,14 @@ In de volgende procedure wordt uitgelegd hoe u machtigingensets aan een gebruike
 > [!NOTE]  
 > Wanneer u een machtiging bewerkt, worden de wijzigingen ook toegepast op andere gebruikers aan wie de machtigingenset is toegewezen.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>De toegang van een gebruiker tot het systeem verwijderen
+
+Als beheerder kunt u de toegang van een gebruiker tot het systeem verwijderen door het veld **Staat** in te stellen op **Uitgeschakeld**. Alle verwijzingen naar de gebruiker blijven behouden, maar de gebruiker kan zich niet meer aanmelden bij het systeem en actieve sessies voor de gebruiker worden beëindigd. Als u de gebruiker weer toegang wilt geven, stelt u het veld **Staat** in op **Ingeschakeld**.
+
 ## <a name="see-also"></a>Zie ook
 [Beveiliging en bescherming in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Gebruikers, profielen en rolcentra](admin-users-profiles-roles.md)  
+[Profielen beheren](admin-users-profiles-roles.md)  
+[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Beheer](admin-setup-and-administration.md)  

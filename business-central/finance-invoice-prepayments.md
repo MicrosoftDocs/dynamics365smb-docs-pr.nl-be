@@ -4,20 +4,20 @@ description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboek
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/07/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dbf1ea7104501fb4bee2fe62eed1039c3c441c16
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 81189f3a3476fba8754cbcd15445fa1d8450a20b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238774"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305800"
 ---
 # <a name="invoicing-prepayments"></a>Vooruitbetalingen factureren
 Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 54f2cf573d12c50ba26c26fd4c11ad20a1d52db3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0908d3fedb9946dafdaa0795edd6d018785bd3e5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241131"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302272"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Transacties direct naar het grootboek boeken
 
@@ -25,7 +25,7 @@ Een veelvoorkomend gebruik van het dagboek is uitgaven van werknemers van eigen 
 
 Dagboeken boeken financiële transacties direct naar grootboekrekeningen en andere rekeningen zoals bank-, klant-, leveranciers- en werknemersrekeningen. Door te boeken met een dagboek worden er altijd posten gemaakt in grootboekrekeningen. Dit geldt zelfs ook als u bijvoorbeeld een dagboekregel naar een klantrekening boekt, omdat een post via een boekingsgroep is geboekt naar een rekening met vorderingen in het grootboek. U kunt uw versie van een dagboek aanpassen door een dagboekbatch of -sjabloon in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
-In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotaproces vereisen, kunt posten correct tegenboeken die met het diversendagboek zijn geboekt. Zie voor meer informatie [Boekingen tegenboeken](finance-how-reverse-journal-posting.md).
+In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotaproces vereisen, kunt posten correct tegenboeken die met het diversendagboek zijn geboekt. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Een transactie direct naar het grootboek boeken
 
@@ -45,6 +45,6 @@ In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotap
 
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
-[Boekingen tegenboeken](finance-how-reverse-journal-posting.md)  
+[Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

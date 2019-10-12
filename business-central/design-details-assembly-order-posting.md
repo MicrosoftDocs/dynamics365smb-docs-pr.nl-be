@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246029"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307456"
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
 Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.  
@@ -96,11 +96,11 @@ Dit wordt ingeschakeld door de volgende gegevensstructuur.
 
 Daarnaast worden boekingsgroepsvelden in de assemblageorderkop en de assemblageorderregels standaard als volgt ingevuld.  
 
-|Entiteit|Soort|Boekingsgroep|Prod.-boekingsgroep|  
+|Entiteit|Soort|Boekingsgroep|Dagb. Productboekingsgroep|  
 |------------|----------|-------------------|------------------------------|  
-|Assemblageorderkop|Artikel|Voorraadboekingsgroep|Prod.-boekingsgroep|  
-|Assemblageorderregel|Artikel|Voorraadboekingsgroep|Prod.-boekingsgroep|  
-|Assemblageorderregel|Resource||Prod.-boekingsgroep|  
+|Assemblageorderkop|Artikel|Voorraadboekingsgroep|Dagb. Productboekingsgroep|  
+|Assemblageorderregel|Artikel|Voorraadboekingsgroep|Dagb. Productboekingsgroep|  
+|Assemblageorderregel|Resource||Dagb. Productboekingsgroep|  
 
 Alleen werkelijke kosten worden geboekt naar het grootboek en er worden geen interimrekeningen gevuld vanuit assemblageorderboeking. Zie voor meer informatie [Ontwerpdetails: rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md).  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239049"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302577"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Financiële overzichten analyseren in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u KPI's bekijken en overzichten krijgen van de financiële status van het bedrijf. U kunt ook lijsten in Excel openen en de gegevens daar analyseren. Maar u kunt ook zware financiële overzichten exporteren, zoals de balans of resultatenrekening naar Excel, de gegevens analyseren en de rapporten afdrukken.  
@@ -36,7 +36,7 @@ Stel dat u wat beter naar uw cashflow wilt kijken. Vanuit het rolcentrum Bedrijf
 
 In Excel ziet u een tabblad met de gegevens op het eerste werkblad. Alle gegevens die zijn geëxporteerd zijn ook aanwezig in andere werkbladen voor het geval dat dat nodig is. U kunt de lijst rechtstreeks afdrukken of u kunt deze wijzigen totdat u het overzicht en de details hebt die u wilt. Gebruik de [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-invoegtoepassing om gegevens verder te filteren en te analyseren.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>De [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-invoegtoepassing
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>De [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-invoegtoepassing
 Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring bevat een invoegtoepassing voor Excel. Afhankelijk van uw abonnement, wordt u automatisch aangemeld of moet u dezelfde aanmeldingsdetails opgeven die u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Met de invoegtoepassing kunt u up-to-date gegevens krijgen vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] en kunt u wijzigingen terugsturen naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. De mogelijkheid om wijzigingen terug te sturen naar de database is uitgeschakeld voor de financiële Excel-rapporten in de bovenstaande lijst.  

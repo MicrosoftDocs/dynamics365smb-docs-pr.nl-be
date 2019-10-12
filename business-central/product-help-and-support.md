@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755981"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313624"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -43,7 +43,7 @@ Als u een proefversie van [!INCLUDE [prodshort](includes/prodshort.md)] gebruikt
 
 ### <a name="blog"></a>Blog
 
-We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
+We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
 
 ### <a name="capabilities-coming-soon"></a>Mogelijkheden die binnenkort komen
 
@@ -66,24 +66,24 @@ Zoek in de lijst met ingediende suggesties. Het kan zijn dat iemand al iets soor
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-De sectie **Problemen oplossen** bevat technische informatie die uw beheerder of [!INCLUDE[prodshort](includes/prodshort.md)]-partner kan gebruiken om gebruikers te deblokkeren. Dit omvat informatie over het laatste foutbericht, de huidige versie van [!INCLUDE[prodshort](includes/prodshort.md)] en een koppelingom naar de pagina **Pagina-inspectie** te gaan. Zie voor meer informatie [Pagina's inspecteren in Business Central](across-inspect-page.md).  
+De sectie **Problemen oplossen** bevat technische informatie die uw beheerder of [!INCLUDE[prodshort](includes/prodshort.md)]-partner kan gebruiken om gebruikers te deblokkeren. Dit omvat informatie over het laatste foutbericht, de huidige versie van uw [!INCLUDE[prodshort](includes/prodshort.md)] en een koppeling om naar de pagina **Pagina-inspectie** te gaan. Zie voor meer informatie [Pagina's inspecteren in Business Central](across-inspect-page.md).  
 
 ## <a name="report-a-problem"></a>Een probleem melden
 
-Uw [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner wordt geacht u te helpen met technische ondersteuning. [!INCLUDE[prodshort](includes/prodshort.md)] wordt verkocht via partners en deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun e-mailadres voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prodshort](includes/prodshort.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
+Uw [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner helpt u met technische ondersteuning. [!INCLUDE[prodshort](includes/prodshort.md)] wordt verkocht via partners en deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prodshort](includes/prodshort.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
 
 > [!NOTE]
 > Deze sectie is alleen beschikbaar als u hebt betaald voor een [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prodshort](includes/prodshort.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prodshort](includes/prodshort.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>E-mailadres voor ondersteuning
+### <a name="support-contacts"></a>Contactgegevens voor ondersteuning
 
-Het e-mailadres dat in de sectie **Een probleem melden** wordt weergegeven, kan voor een persoon of een team zijn. Als u de [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner van een tenant bent, kunt u dit e-mailadres instellen op de pagina **Kaart met contactgegevens voor ondersteuning**. Zie voor meer informatie [Technische ondersteuning configureren](/dynamics365/business-central/dev-itpro/technical-support) in de ontwikkelaars- en ITpro-inhoud voor [!INCLUDE [prodshort](includes/prodshort.md)].  
+De sectie **Een probleem melden** toont een e-mailadres of een hyperlink waarmee u contact kunt opnemen met de klantenservice of het team. Als u de [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner van een tenant bent, kunt u uw geprefereerde contactgegevens instellen in het beheercentrum. Zie voor meer informatie [De ondersteuning configureren](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in de ITpro-inhoud voor [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Als u uw partner op een probleem wilt wijzen, kiest u de koppeling. Er wordt dan een nieuw e-mailbericht geopend in uw standaard-e-maileditor en u kunt de technische informatie over uw Azure Active Directory-tenant toevoegen en andere informatie die u relevant vindt.  
+Om uw partner op de hoogte te stellen van een probleem, kiest u de koppeling om een e-mail te sturen of hun ondersteuningssite te openen in een nieuw browsertabblad. U kunt vervolgens de technische informatie over uw Azure Active Directory-tenant toevoegen vanuit de sectie **Problemen oplossen** en alle andere informatie die u relevant vindt.  
 
 ## <a name="see-also"></a>Zie ook
 
 [Blog-bericht: De juiste resources zoeken en feedback geven](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Documenten voor Business Central-ontwikkelaars en ITpro](/dynamics365/business-central/dev-itpro/)  
 [Resources voor Help en ondersteuning voor partners](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Technische ondersteuning configureren](/dynamics365/business-central/dev-itpro/technical-support)  
+[Technische ondersteuning](/dynamics365/business-central/dev-itpro/technical-support)  

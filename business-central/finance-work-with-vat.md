@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796861"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301576"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Stel [!INCLUDE[d365fin](includes/d365fin_md.md)] in om automatisch btw te berekenen in verkoop- en inkoopdocumenten als u in uw land of regio btw in rekening moet brengen voor verkoop- en inkooptransacties, zodat u de bedragen bij de belastingdienst kunt aangeven. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
@@ -35,17 +35,17 @@ Als u verkoopt aan detailhandelconsumenten, wilt u mogelijk prijzen inclusief bt
 ### <a name="including-or-excluding-vat-on-prices"></a>Prijzen inclusief of exclusief btw
 Als het selectievakje **Prijzen inclusief btw** is ingeschakeld in verkoopdocumenten, zijn de prijzen in de velden **Eenheidsprijs** en **Regelbedrag** inclusief btw en wordt dit in de veldnamen weerspiegeld. Standaard zijn de prijzen in deze velden exclusief btw.  
 
-Als dit selectievakje niet is ingeschakeld, worden het veld **Eenheidsprijs** en het veld **Regelbedrag** zonder btw ingevuld, en dit wordt in de veldnamen weerspiegeld.  
+Als het veld niet is geselecteerd, worden het veld **Eenheidsprijs** en het veld **Regelbedrag** zonder btw ingevuld, en dit wordt in de veldnamen weerspiegeld.  
 
-U kunt de standaardinstelling van **Prijs met btw** instellen voor alle verkoopdocumenten voor een klant in het veld **Prijs met btw** op de **Klant**-kaart. U kunt tevens artikelprijzen inclusief of exclusief btw instellen. Normaliter zijn artikelprijzen op Artikel (kaart) exclusief btw. In het programma wordt de informatie gebruikt van het veld **Inclusief btw** op het **Artikel** (kaart) om het eenheidsprijsbedrag voor verkoopdocumenten te bepalen.  
+U kunt de standaardinstelling van **Prijs met btw** instellen voor alle verkoopdocumenten voor een klant in het veld **Prijs met btw** op de **Klant**-kaart. U kunt tevens artikelprijzen inclusief of exclusief btw instellen. Normaliter zijn artikelprijzen op Artikel (kaart) exclusief btw. In de toepassing wordt de informatie gebruikt van het veld **Inclusief btw** op de kaart van het **Artikel** om het eenheidsprijsbedrag voor verkoopdocumenten te bepalen.  
 
 In de volgende tabel staat een overzicht van de manier waarop eenheidsprijsbedragen voor een verkoopdocument worden berekend wanneer u geen prijzen hebt ingesteld op de pagina **Verkoopprijzen**:  
 
 |**Prijs met btw-veld op artikel (kaart)**|**Prijs met btw-veld in verkoopkop**|**Uitgevoerde actie**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Selectievakje niet ingeschakeld|Selectievakje niet ingeschakeld|De **eenheidsprijs** op de artikelkaart wordt gekopieerd naar het veld **Eenheidsprijs excl. btw** op de verkoopregels.|  
-|Selectievakje niet ingeschakeld|Selectievakje ingeschakeld|In het programma wordt het btw-bedrag berekend per eenheid en toegevoegd aan de **eenheidsprijs** op de artikelkaart. Deze totale eenheidsprijs wordt vervolgens ingevoerd in het veld **Eenheidsprijs incl. btw** op de verkoopregels.|  
-|Selectievakje ingeschakeld|Selectievakje niet ingeschakeld|Het systeem berekent het btw-bedrag dat is opgenomen in de **Eenheidsprijs** op de artikelkaart en gebruikt het btw-precentage gerelateerd aan de combinatie Btw-bedr.-boekingsgr. (Prijs) en de Btw-productboekingsgroep. De **Eenheidsprijs** op de artikelkaart, verminderd met het btw-bedrag, wordt vervolgens ingevoerd in het veld **Eenheid prijs excl. btw** in de verkoopregels.|  
+|Selectievakje niet ingeschakeld|Selectievakje ingeschakeld|In de toepassing wordt het btw-bedrag berekend per eenheid en toegevoegd aan de **eenheidsprijs** op de artikelkaart. Deze totale eenheidsprijs wordt vervolgens ingevoerd in het veld **Eenheidsprijs incl. btw** op de verkoopregels.|  
+|Selectievakje ingeschakeld|Selectievakje niet ingeschakeld|De toepassing berekent het btw-bedrag dat is opgenomen in de **Eenheidsprijs** op de artikelkaart en gebruikt het btw-percentage gerelateerd aan de combinatie Btw-bedr.-boekingsgr. (Prijs) en de Btw-productboekingsgroep. De **Eenheidsprijs** op de artikelkaart, verminderd met het btw-bedrag, wordt vervolgens ingevoerd in het veld **Eenheid prijs excl. btw** in de verkoopregels.|  
 |Selectievakje ingeschakeld|Selectievakje ingeschakeld|De **eenheidsprijs** op de artikelkaart wordt gekopieerd naar het veld **Eenheidsprijs incl. btw** op de verkoopregels.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Btw-bedragen handmatig corrigeren in verkoop- en inkoopdocumenten  
@@ -58,7 +58,7 @@ Als u een contantkorting hebt berekend op basis van een factuurbedrag inclusief 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Het systeem instellen voor handmatige btw-invoer in verkoopdocumenten
 Hieronder wordt beschreven hoe u handmatige btw-wijzigingen in verkoopdocumenten kunt inschakelen. De stappen zijn vergelijkbaar op de pagina **Inkoopinstellingen**.
 
-1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
+1. Geef op de pagina **Grootboekinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door de toepassing wordt berekend en het handmatige bedrag.  
 2. Schakel op de pagina **Verkoopinstellingen** het selectievakje **Btw-verschil toegestaan** in.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Btw wijzigen voor een verkoopdocument  
@@ -68,7 +68,7 @@ Hieronder wordt beschreven hoe u handmatige btw-wijzigingen in verkoopdocumenten
 4. Bewerk het veld **Btw-bedrag**.   
 
 > [!NOTE]  
-> Het totale btw-bedrag voor de factuur, gegroepeerd op btw-identificatie, wordt op de regels weergegeven. U kunt het bedrag handmatig wijzigen in het veld **Btw-bedrag** op de regels voor elke btw-identificatie. Wanneer u het veld **Btw-bedrag** wijzigt, controleert het programma of u de btw niet hebt gewijzigd met meer dan het bedrag dat u hebt opgegeven als het maximum toegestane verschil. Als het bedrag buiten het bereik valt van het **Max. toegestaan btw-verschil**, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil staat. U kunt pas doorgaan nadat u het bedrag hebt gewijzigd en dit binnen de aanvaardbare parameters valt. Klik op **OK** en geef een nieuw **btw-bedrag** op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt de btw evenredig verdeeld over de documentregels met dezelfde btw-identificatie.  
+> Het totale btw-bedrag voor de factuur, gegroepeerd op btw-identificatie, wordt op de regels weergegeven. U kunt het bedrag handmatig wijzigen in het veld **Btw-bedrag** op de regels voor elke btw-identificatie. Wanneer u het veld **Btw-bedrag** wijzigt, controleert de toepassing of u de btw niet hebt gewijzigd met meer dan het bedrag dat u hebt opgegeven als het maximum toegestane verschil. Als het bedrag buiten het bereik valt van het **Max. toegestaan btw-verschil**, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil staat. U kunt pas doorgaan nadat u het bedrag hebt gewijzigd en dit binnen de aanvaardbare parameters valt. Klik op **OK** en geef een nieuw **btw-bedrag** op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt de btw evenredig verdeeld over de documentregels met dezelfde btw-identificatie.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Btw handmatig berekenen met dagboeken  
 U kunt btw-bedragen ook aanpassen in algemene, verkoop- en inkoopdagboeken. Het is mogelijk nodig dit te doen wanneer u een leveranciersfactuur boekt in uw dagboek en er een verschil is tussen het btw-bedrag dat in [!INCLUDE[d365fin](includes/d365fin_md.md)] is berekend en het btw-bedrag in de leveranciersfactuur.  
@@ -76,7 +76,7 @@ U kunt btw-bedragen ook aanpassen in algemene, verkoop- en inkoopdagboeken. Het 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Het systeem instellen voor handmatige btw-invoer in dagboeken
 U moet de volgende stappen uitvoeren voordat u btw handmatig invoert in een dagboek.  
 
-1. Geef op de pagina **Boekhoudinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door het programma wordt berekend en het handmatige bedrag.  
+1. Geef op de pagina **Grootboekinstellingen** een waarde voor **Max. toegestaan btw-verschil** op tussen het bedrag dat door de toepassing wordt berekend en het handmatige bedrag.  
 2. Schakel het selectievakje **Btw-verschil toegestaan** in voor het relevante dagboek op de pagina **Fin. dagboeksjablonen**.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Het systeem instellen voor handmatige btw-invoer in verkoop- en inkoopdagboeken

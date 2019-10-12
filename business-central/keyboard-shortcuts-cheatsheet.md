@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f23d1ffd1d9f000578269d0ed89c355bc2edb291
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 8712e38d2de04cbaebe810367cfe9aa4f8cf9410
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629746"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309568"
 ---
-# <a name="keyboard-shortcuts-pc-only"></a>Sneltoetsen (alleen pc)
+# <a name="keyboard-quick-reference---pc-only"></a>Snelle toetsenbordnaslag - alleen pc
 
 ||||  
 |----------------|-----------|----------------|
-|**Alge&meen**|Alt+F2<br />Alt+N<br />Alt+Q<br />Alt+Pijl omhoog<br />Alt+Pijl-omlaag<br />Alt+Pijl rechts<br />Alt+T<br />Ctrl+Alt+F1<br />Ctrl+F1<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />|Het deelvenster Feitenblok weergeven of verbergen<br />Een nieuwe record maken<br />**Vertel me** openen<br />Knopinfo openen of validatiefout<br />Een vervolgkeuzelijst of opzoekactie openen<br />De transacties voor de berekende waarde weergeven<br />De pagina **Mijn instellingen** openen<br />De pagina inspecteren<br />Help voor de pagina openen<br />Pagina vernieuwen/opnieuw laden<br />Focus verplaatsen naar volgende/vorige element|
+|**Alge&meen**|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+O<br />Alt+Q<br />Alt+Pijl omhoog<br />Alt+Pijl-omlaag<br />Alt+T<br />Alt+Shift+W<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+klikken<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />|Het deelvenster Feitenblok weergeven of verbergen<br />Een nieuwe record maken<br />Een nieuw gemaakte record sluiten en een nieuwe maken<br />Een nieuwe notitie toevoegen voor de geselecteerde record<br />**Vertel me** openen<br />Knopinfo openen of validatiefout<br />Een vervolgkeuzelijst of opzoekactie openen<br />De pagina **Mijn instellingen** openen<br />De huidige kaart of het huidige document openen in een nieuw venster<br />Een nieuwe regel in een document invoegen<br />De regel verwijderen uit een document, een dagboek of een werkblad<br />Het gedeelte met regelitems maximaliseren op een documentpagina<br />Help voor de pagina openen<br />Navigeren bij het personaliseren en aanpassen<br />Het functieoverzicht openen<br />Pagina vernieuwen/opnieuw laden<br />Focus verplaatsen naar volgende/vorige element|
 |**Navigeren en<br />rijen selecteren**| Home/End<br />Ctrl+Home/End <br />Ctrl+pijl omhoog/pijl omlaag<br />Ctrl+A <br />Ctrl+Spatiebalk<br />Ctrl/Shift+klikken<br />Shift+pijl omhoog/pijl omlaag<br />Shift+Page Up/Down<br />Ctrl+Enter| Naar het eerste/laatste veld gaan<br />Naar de eerste/laatste rij gaan<br />Navigeren zonder de selectie te verliezen<br />Alles selecteren<br />Selectie in-/uitschakelen<br /> De rij(en) toevoegen aan de selectie<br />Rij toevoegen boven/onder selectie<br />Zichtbare rijen boven/onder selecteren <br />Focus uit de lijst verplaatsen|
 |**Kopiëren en plakken**|Ctrl+C/V<br />F8|Rijen kopiëren/plakken<br />Veld erboven naar huidige rij kopiëren|
 |**Zoeken, filteren <br />en sorteren**|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Naar het volgende sneltabblad gaan<br />Kolom sorteren in oplopende of aflopende volgorde<br />Zoeken in-/uitschakelen<br />Filterdeelvenster in-/uitschakelen; focus op veldfilters<br />Filterdeelvenster in-/uitschakelen; focus op totalenfilters<br />Filteren op geselecteerde celwaarde<br />Filter op een geselecteerd veld toevoegen<br />Filters opnieuw instellen|

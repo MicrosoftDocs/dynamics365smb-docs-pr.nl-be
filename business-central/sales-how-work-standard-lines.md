@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252272"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311968"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  
@@ -46,7 +46,7 @@ Wijs een of meer standaardverkoopregels aan een klant toe zodat deze beschikbaar
 |Optie|Omschrijving|
 |-|-|
 |**Handmatig**|U moet handmatig een terugkerende verkoopregel zoeken en invoegen die bestaat voor de klant.|
-|**Automatisch**|Als er meerdere terugkerende verkoopregels voor de klant zijn, ontvangt u een bericht van waaruit u er een kunt kiezen om in te voegen. Als er slechts één terugkerende verkoopregel bestaat, wordt deze automatisch ingevuld.|
+|**Automatisch**|Als er meerdere terugkerende verkoopregels voor de klant zijn, ontvangt u een bericht van waaruit u er een kunt kiezen om in te voegen. Als er slechts één terugkerende verkoopregel bestaat, wordt deze automatisch ingevuld.<br /><br />Merk op dat dit alleen werkt als het nieuwe document is gemaakt op basis van een documentenlijst, bijvoorbeeld door kiezen van de actie **Nieuw** op de pagina **Verkooporders**. Het werkt niet als het document bijvoorbeeld is gemaakt op basis van een klantenkaart.|
 |**Altijd vragen**|Er wordt een bericht weergegeven en alle bestaande terugkerende verkoopregels worden weergegeven zodat u er een kunt selecteren.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Periodieke verkoopregels invoegen op een verkoopfactuur

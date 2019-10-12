@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Werken met dimensies" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Procedure: budgetten maken" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Procedure: Transacties direct naar het grootboek boeken" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Procedure: boekingen tegenboeken" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Procedure: Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Procedure: Kosten en inkomsten toewijzen" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Procedure: Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Procedure: kosten van werknemers registreren en terugbetalen" Page="finance-how-record-reimburse-employee-expenses.html"/>

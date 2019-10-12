@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 08/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0dfe71ac1473b469afd4b6ae563836e3e21821b6
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: c1ad25642cdbfd9367b1533f1a39d178fe08ebb2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887634"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312472"
 ---
 # <a name="record-purchases"></a>Inkopen vastleggen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u voorraad moet controleren, worden inkoopfacturen en inkooporders ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen of orders, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.

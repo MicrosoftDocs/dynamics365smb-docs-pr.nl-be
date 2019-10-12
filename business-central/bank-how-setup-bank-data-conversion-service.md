@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245036"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304072"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Conversieservice voor bankgegevens instellen
 Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiernaar wordt verwezen in [!INCLUDE[d365fin](includes/d365fin_md.md)] als conversieservice bankgegevens.
@@ -24,7 +24,7 @@ U kunt betalingsregels uit de pagina **Betalingsdagboek** exporteren naar een be
 
 U kunt bankafschriftbestanden op de pagina **Betalingsreconciliatiedagboek** importeren door de conversieservice voor bankgegevens te gebruiken om een bestand te converteren dat u van de bank ontvangt, naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Als alternatief voor het importeren van bankafschriften met de conversieservice bankgegevens, kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md).
+Als alternatief voor het importeren van bankafschriften met de conversieservice bankgegevens, kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
 Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening en de bankrekeningen van uw leveranciers instellen. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 

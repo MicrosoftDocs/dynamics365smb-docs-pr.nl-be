@@ -2,28 +2,28 @@
 title: E-mail instellen in Business Central | Microsoft Docs
 description: Hier wordt beschreven hoe u de SMTP-server van het bedrijf gebruikt om e-mailberichten te verzenden en ontvangen binnen Business Central, of hoe u de e-mailserverinstellingen gebruikt die met het Office 365-abonnement zijn gemaakt.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985946"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304624"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de velden op de pagina SMTP-mailinstellingen invullen.
 
 In plaats van de SMTP-serverdetails handmatig in te voeren, kunt u de functie **Office 365 Server-instellingen toepassen** gebruiken om ze in te voeren met informatie uit uw Office 365-abonnement.
 
-U kunt uw e-mail handmatig instellen of u kunt hulp krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+U kunt uw e-mail handmatig instellen, zoals hieronder beschreven, of u kunt hulp krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>E-mail instellen
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.

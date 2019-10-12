@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c7ac2a17ecc0c2a33ea166968f577ca46e8282ed
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 42514576f7fb9542bbecfbbe8e9ff7996040da9b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249595"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311128"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>De QuickBooks-extensie Salarisbestand importeren
 Gebruik de QuickBooks-extensie Salarisbestand importeren om loonlijsttransacties te importeren uit QuickBooks in grootboekrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit is bijvoorbeeld handig als u overstapt van QuickBooks op [!INCLUDE[d365fin](includes/d365fin_md.md)] of als u uw salarisadministratie uitbesteedt, maar deze ook wilt bijhouden in [!INCLUDE[d365fin](includes/d365fin_md.md)].

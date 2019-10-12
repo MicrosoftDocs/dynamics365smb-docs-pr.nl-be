@@ -1,6 +1,6 @@
 ---
 title: Synchronisatie en gegevensintegratie | Microsoft Docs
-description: Synchronisatie kopieert gegevens tussen Dynamics 365 for Sales-posten en Business Central-records en houdt de gegevens in beide systemen up-to-date.
+description: Synchronisatie kopieert gegevens tussen Dynamics 365 Sales-posten en Business Central-records en houdt de gegevens in beide systemen up-to-date.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917472"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304267"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Gegevens synchroniseren in Business Central en Dynamics 365 for Sales
-Wanneer u [!INCLUDE[crm_md](includes/crm_md.md)] met [!INCLUDE[d365fin](includes/d365fin_md.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type record kunt u gegevens vanuit [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met [!INCLUDE[d365fin](includes/d365fin_md.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Gegevens synchroniseren in Business Central en Dynamics 365 Sales
+Wanneer u [!INCLUDE[crm_md](includes/crm_md.md)] met [!INCLUDE[d365fin](includes/d365fin_md.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type record kunt u gegevens vanuit [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met [!INCLUDE[d365fin](includes/d365fin_md.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synchronisatie gebruikt de volgende elementen:
 
@@ -77,11 +77,11 @@ De volgende tabel bevat toewijzingen van [!INCLUDE[d365fin](includes/d365fin_md.
 De volgende tabel beschrijft regels die de synchronisatie tussen de apps bepalen.
 
 > [!NOTE]  
-> Wijzigingen in gegevens in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gemaakt door het gebruikersaccount van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding worden niet gesynchroniseerd. Daarom raden we aan dat u geen gegevens wijzigt terwijl u dat account gebruikt. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Wijzigingen in gegevens in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gemaakt door het gebruikersaccount van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding worden niet gesynchroniseerd. Daarom raden we aan dat u geen gegevens wijzigt terwijl u dat account gebruikt. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Tafel|Regel|
 |-----|----|
-|Klanten|Voordat een klant met een rekening kan worden gesynchroniseerd, moet de verkoper die aan de klant is toegewezen, aan een gebruiker worden gekoppeld in [!INCLUDE[crm_md](includes/crm_md.md)]. Daarom, wanneer u de Dynamics 365 for Sales-synchronisatietaak KLANTEN uitvoert en instelt om nieuwe records te maken, moet u ervoor zorgen dat u verkopers synchroniseert met [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers voordat u klanten synchroniseert met accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />De Dynamics 365 for Sales-synchronisatietaak KLANTEN synchroniseert alleen Sales-accounts die het relatietype Klant hebben.|
+|Klanten|Voordat een klant met een rekening kan worden gesynchroniseerd, moet de verkoper die aan de klant is toegewezen, aan een gebruiker worden gekoppeld in [!INCLUDE[crm_md](includes/crm_md.md)]. Daarom, wanneer u de Dynamics 365 Sales-synchronisatietaak KLANTEN uitvoert en instelt om nieuwe records te maken, moet u ervoor zorgen dat u verkopers synchroniseert met [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers voordat u klanten met accounts in [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseert. <br /> <br />De Dynamics 365 Sales-synchronisatietaak KLANTEN synchroniseert alleen Sales-accounts die het relatietype Klant hebben.|
 |Contacten|Alleen contactpersonen in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gekoppeld aan een account, worden gemaakt in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De waarde van Verkoperscode definieert de eigenaar van de gekoppelde entiteit in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Valuta's|Valuta's worden aan transactievaluta's in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppeld op basis van ISO-codes. Alleen valuta's die een standaard-ISO-code hebben, worden gekoppeld en gesynchroniseerd met transactievaluta's.|
 |Eenheden|Maateenheden worden gesynchroniseerd met eenheidsgroepen in [!INCLUDE[crm_md](includes/crm_md.md)]. Er kan slechts één eenheid worden gedefinieerd in de eenhedengroep.|
@@ -97,4 +97,4 @@ De volgende tabel beschrijft regels die de synchronisatie tussen de apps bepalen
 ## <a name="see-also"></a>Zie ook  
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integreren met Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

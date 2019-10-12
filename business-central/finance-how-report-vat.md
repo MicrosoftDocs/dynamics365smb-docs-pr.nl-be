@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447003"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306255"
 ---
 # <a name="report-vat-to-a-tax-authority"></a>Btw rapporteren aan de belastingdienst
 Dit onderwerp beschrijft de rapporten in [!INCLUDE[d365fin](includes/d365fin_md.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio.
@@ -61,7 +61,7 @@ Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d
     > [!NOTE]  
     >   Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie _Een btw-aangifte voorbereiden en indienen_. In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Btw-rapporten instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Btw-rapporten instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u gebruikers deze lijst wilt laten wijzigen en opnieuw verzenden, kiest u het selectievakje **Verzonden rapporten aanpassen**.  
 3. Kies de nummerreeks die voor elke aangifte moet worden gebruikt.  

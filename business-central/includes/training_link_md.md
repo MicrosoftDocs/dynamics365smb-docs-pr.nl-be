@@ -1,1 +1,1 @@
-[Training](/dynamics365/get-started/training/) krijgen
+[Training](/learn/browse/?products=dynamics-business-central) krijgen

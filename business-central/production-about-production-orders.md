@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b02aa262089d5c341fb3b535f2af82c7085e99ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252976"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313455"
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  
 
 Voordat wordt doorgegaan met de productie, voeren de meeste bedrijven een voorraadplanning uit, doorgaans een keer in de week, om te berekenen hoeveel productieorders en inkooporders moeten worden uitgevoerd om te voldoen aan de verkoopvraag van die week. Inkooporders vullen de componenten aan die volgens de productiestuklijst vereist zijn om de eindartikelen te produceren.
 
-Productieorders vormen de centrale onderdelen van de productiefunctionaliteit van het programma en bevatten de volgende informatie:  
+Productieorders vormen de centrale onderdelen van de productiefunctionaliteit van de toepassing en bevatten de volgende informatie:  
 
 -   Producten die zijn gepland voor productie  
 -   Materialen die nodig zijn voor de geplande productieorders  
@@ -63,7 +63,7 @@ Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-deman
 Productieorders die op een andere manier tot stand komen, worden niet automatisch gereserveerd en getraceerd.   
 
 ## <a name="production-order-status"></a>Productieorderstatus  
-De productieorderstatus bepaalt hoe de productieorder wordt behandeld in het programma. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen**.  
+De productieorderstatus bepaalt hoe de productieorder wordt behandeld in de toepassing. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen**.  
 
 ### <a name="simulated-production-order"></a>Gesimuleerde productieorder  
 Een gesimuleerde productieorder is uniek vanwege de volgende kenmerken:  
@@ -115,9 +115,9 @@ Wanneer een productieorder is opgesteld en gepland, moet deze worden vrijgegeven
 Deze informatie kan handmatig worden vastgelegd of via automatische rapportage, volgens de instelling van de artikelen in het veld Afboekingsmethode.  
 
 ### <a name="material-consumption"></a>Materiaalverbruik  
-Het programma biedt diverse opties voor de manier waarop een productiebedrijf mogelijk materiaalverbruik wil vastleggen. Het materiaalverbruik kan bijvoorbeeld handmatig worden geregistreerd. Dit is bijvoorbeeld wenselijk wanneer er vaak onderdelen moeten worden vervangen of er een hoger uitvalpercentage is dan verwacht.  
+De toepassing biedt diverse opties voor de manier waarop een productiebedrijf mogelijk materiaalverbruik wil vastleggen. Het materiaalverbruik kan bijvoorbeeld handmatig worden geregistreerd. Dit is bijvoorbeeld wenselijk wanneer er vaak onderdelen moeten worden vervangen of er een hoger uitvalpercentage is dan verwacht.  
 
-Het materiaalverbruik kan worden verwerkt via het verbruiksdagboek, maar kan ook automatisch worden geregistreerd door het programma. Dit wordt automatische rapportage genoemd. De rapportagemethoden zijn als volgt: De rapportagemethoden zijn:  
+Het materiaalverbruik kan worden verwerkt via het verbruiksdagboek, maar kan ook automatisch worden geregistreerd door de toepassing. Dit wordt automatische rapportage genoemd. De rapportagemethoden zijn als volgt: De rapportagemethoden zijn:  
 
 -   Handmatig  
 -   Voorwaarts  
@@ -143,7 +143,7 @@ Het voordeel van automatisch afboeken is dat de invoer van gegevens sterk wordt 
 - De hele order achterwaarts afboeken  
 
 #### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatische rapportage - de hele order voorwaarts afboeken  
-Als u de productieorder voorwaarts afboekt bij het begin van het project, werkt het programma op vergelijkbare wijze als bij handmatig verbruik. Het belangrijkste verschil is dat het verbruik automatisch plaatsvindt.  
+Als u de productieorder voorwaarts afboekt bij het begin van het project, werkt de toepassing op vergelijkbare wijze als bij handmatig verbruik. Het belangrijkste verschil is dat het verbruik automatisch plaatsvindt.  
 
 - De volledige inhoud van de productiestuklijst wordt verbruikt en afgetrokken van de voorraad op het moment waarop de vrijgegeven productieorder wordt bijgewerkt.  
 - Het verbruikte aantal is het aantal per montage zoals vermeld op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat u maakt.  
@@ -185,9 +185,9 @@ Er worden geen onderdelen gepickt totdat de status van de vrijgegeven productieo
 Voor achterwaarts afboeken van de hele productieorder moeten dezelfde instellingen worden gebruikt als bij voorwaarts afboeken: de rapportagemethode moet worden ingesteld op achterwaarts bij elk artikel voor alle artikelen in de hoofdstuklijst waarvoor de rapportage is bedoeld. Bovendien moeten alle bewerkingsplankoppelingen zijn verwijderd uit de productiestuklijst.  
 
 ### <a name="production-output"></a>Productieoutput  
-Het programma biedt u de mogelijkheid om te traceren hoeveel werktijd wordt besteed aan een productieorder, naast het registreren van het aantal dat is geproduceerd. Met behulp van deze informatie kunt u de productiekosten nauwkeuriger bepalen. Daarnaast willen producenten die gebruikmaken van een standaard waarderingssysteem misschien de werkelijke informatie registreren om daarmee betere standaarden te kunnen ontwikkelen.  
+De toepassing biedt u de mogelijkheid om te traceren hoeveel werktijd wordt besteed aan een productieorder, naast het registreren van het aantal dat is geproduceerd. Met behulp van deze informatie kunt u de productiekosten nauwkeuriger bepalen. Daarnaast willen producenten die gebruikmaken van een standaard waarderingssysteem misschien de werkelijke informatie registreren om daarmee betere standaarden te kunnen ontwikkelen.  
 
-De output kan worden verwerkt via het outputdagboek, maar kan ook automatisch worden geregistreerd door het programma. Het programma kopieert bij het bijwerken de afboekingsmethode van de bewerkingsplaats of de afdeling naar het productieorderbewerkingsplan. Net als bij het materiaalverbruik zijn er drie rapportagemethoden voor output:  
+De output kan worden verwerkt via het outputdagboek, maar kan ook automatisch worden geregistreerd door de toepassing. De toepassing kopieert bij het bijwerken de afboekingsmethode van de bewerkingsplaats of de afdeling naar het productieorderbewerkingsplan. Net als bij het materiaalverbruik zijn er drie rapportagemethoden voor output:  
 
 - Handmatig  
 - Voorwaarts  

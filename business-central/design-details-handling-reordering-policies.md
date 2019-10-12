@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 69f9f1f2f63e1d16ec1ef4980c00d21bada06166
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245792"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307168"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Ontwerpdetails: Bestelbeleid verwerken
 Om een artikel deel te laten nemen aan voorraadplanning, moet een bestelbeleid worden gedefinieerd. Er zijn vier soorten bestelbeleid:  
@@ -267,7 +267,7 @@ Als de verwachte datum een vrije dag is, verplaatst het planningssysteem de orde
 ### <a name="order"></a>Volgorde
 In een op-order-produceren omgeving wordt een artikel ingekocht of geproduceerd om uitsluitend aan een specifieke vraag te voldoen. Meestal heeft dit betrekking op A-producten en de motivatie om het bestelbeleid Order te kiezen, kan zijn dat de vraag niet frequent is, dat de doorlooptijd onbeduidend is of dat de vereiste kenmerken verschillen.  
 
-Het programma maakt een order-naar-order-koppeling die fungeert als voorlopige verbinding tussen de voorziening, een voorzieningenorder of voorraad, en de vraag waaraan het zal voldoen.  
+De toepassing maakt een order-naar-order-koppeling die fungeert als voorlopige verbinding tussen de voorziening, een voorzieningenorder of voorraad, en de vraag waaraan het zal voldoen.  
 
 Afgezien van het gebruik van het bestelbeleid kan de order-aan-order koppeling tijdens planning op de volgende manieren worden toegepast:  
 

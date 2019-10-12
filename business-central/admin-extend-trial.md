@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: cefaf4469cb174140833e310e5c28fa6de1baf9c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239947"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308200"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 Het is belangrijk de juiste bedrijfstoepassing te kiezen en we weten dat het tijd kost om alle aspecten van [!INCLUDE[d365fin](includes/d365fin_md.md)] te bekijken. Als u meer tijd nodig hebt om de evaluatie te voltooien, kunt u de proefperiode zelf nog eens 30 dagen verlengen. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids.

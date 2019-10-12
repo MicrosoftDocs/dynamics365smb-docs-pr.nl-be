@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 07/17/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8f9efbf60f7e0d700453508a3f64b6b369ecd62
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.openlocfilehash: edcd3cdef966b8163b5c6a46c66337dd90812a67
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756027"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313552"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nieuwe functies in Dynamics 365 Business Central
 
@@ -28,7 +28,7 @@ Om alle extensies te zien die worden aangeboden door [!INCLUDE[d365fin](includes
 
 ## <a name="check-the-dynamics-365-blog"></a>Het Dynamics 365-blog bekijken
 
-We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
+We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
 
 Voor de partnergemeenschap publiceren we informatie over [Microsoft Dynamics 365 Business Central op het Dynamics 365-blog voor partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en in de [Ontwikkelaar en IT-pro Help voor [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 

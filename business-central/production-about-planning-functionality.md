@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed611dd790685999048887d4a7b96d45a7cd696
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a2a105cbb6a8a449de44c564dc448ec6136d61
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253574"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313480"
 ---
 # <a name="about-planning-functionality"></a>Informatie over het plannen van functionaliteit
 Het planningssysteem houdt rekening met alle gegevens over vraag en aanbod, berekent het nettoresultaat en doet suggesties voor het in overeenstemming brengen van aanbod en vraag.  
@@ -30,13 +30,13 @@ Zie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md) voor g
 ## <a name="demand-and-supply"></a>Vraag en voorzieningen  
 Planning bestaat uit twee elementen: vraag en voorzieningen. Deze moeten in evenwicht worden gehouden, zodat op tijd en op een kosteneffectieve wijze aan de vraag wordt voldaan.  
 
-- Vraag is een gebruikelijke term voor elke soort brutobehoefte, zoals een verkooporder, serviceorder, materiaalbehoefte vanuit een assemblage- of productieorder, transfer uit, raamcontract of prognose. Daarnaast voorziet het programma in enkele andere technische soorten vraag, zoals een negatieve productie- of inkooporder, negatieve voorraad en inkoopretour.  
+- Vraag is een gebruikelijke term voor elke soort brutobehoefte, zoals een verkooporder, serviceorder, materiaalbehoefte vanuit een assemblage- of productieorder, transfer uit, raamcontract of prognose. Daarnaast voorziet de toepassing in enkele andere technische soorten vraag, zoals een negatieve productie- of inkooporder, negatieve voorraad en inkoopretour.  
 - Voorzieningen is een gebruikelijke term voor elke soort aanvulling, zoals voorraad, een inkoop-, assemblage- of productieorder, of transfer in. Ter vergelijking kunnen er ook een negatieve verkoop- of serviceorder, negatieve materiaalbehoefte of verkoopretour zijn, die alle op de een of andere wijze ook voorzieningen weergeven.  
 
 Een ander doel van het planningssysteem is ervoor te zorgen dat de voorraad niet onnodig toeneemt. In het geval van een afnemende vraag zal het planningssysteem voorstellen om bestaande aanvullingsorders uit te stellen, in omvang te verkleinen of te annuleren.  
 
 ## <a name="planning-calculation"></a>Planningsberekening  
-Het planningssysteem wordt gestuurd door de verwachte en werkelijke vraag van klanten, alsmede de parameters van de voorraadinkoopvoorstellen. Het uitvoeren van de planningsberekening leidt ertoe dat het programma specifieke acties voorstelt (planningsboodschappen) die genomen dienen te worden met betrekking tot mogelijke aanvullingen door leveranciers, transfers tussen magazijnen of productie. Als er al aanvullingsorders zijn, kunnen de voorgestelde acties bestaan uit het vergroten of versnellen van de orders om te voorzien in veranderingen in de vraag.  
+Het planningssysteem wordt gestuurd door de verwachte en werkelijke vraag van klanten, alsmede de parameters van de voorraadinkoopvoorstellen. Het uitvoeren van de planningsberekening leidt ertoe dat de toepassing specifieke acties (planningsboodschappen) voorstelt die genomen dienen te worden met betrekking tot mogelijke aanvullingen door leveranciers, transfers tussen magazijnen of productie. Als er al aanvullingsorders zijn, kunnen de voorgestelde acties bestaan uit het vergroten of versnellen van de orders om te voorzien in veranderingen in de vraag.  
 
 De basis van de planningsroutine is gelegen in de bruto-naar-netto-berekening. De nettobehoeften sturen de geplande ordervrijgaven, die worden gepland op basis van de bewerkingsplaninformatie (geproduceerde artikelen) of de artikeldoorlooptijd (ingekochte artikelen). De aantallen van geplande ordervrijgaven zijn gebaseerd op de planningsberekening en worden beïnvloed door de parameters die zijn ingesteld op de afzonderlijke artikelkaarten.  
 

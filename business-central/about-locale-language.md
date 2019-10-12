@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245316"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300797"
 ---
 # <a name="changing-language-and-locale"></a>Taal en landinstellingen wijzigen
 
@@ -40,7 +40,7 @@ U kunt de landinstellingen wijzigen op het browsertabblad dat u gebruikt om te w
 
 U wijzigt de landinstellingen op de pagina **Mijn instellingen**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Talen van de [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Talen van de [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 De helpinhoud voor de kernfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] publiceert naar de Microsoft Docs-site en is beschikbaar in een aantal verschillende talen. Als u toegang tot de documenten hebt vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze in het Engels worden weergegeven.
 
 ### <a name="how-do-i-change-the-language"></a>Hoe kan de ik de taal veranderen?

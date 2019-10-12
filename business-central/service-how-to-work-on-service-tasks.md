@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251182"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311656"
 ---
 # <a name="work-on-service-tasks"></a>Werken aan servicetaken
 Wanneer u een serviceorder of -offerte hebt gemaakt, serviceartikelregels hebt geregistreerd en resources aan de serviceartikelen in de order of offerte hebt toegewezen, kunt u beginnen met het herstel en onderhoud van de serviceartikelen.  
@@ -100,7 +100,7 @@ Nadat u een serviceartikel hebt hersteld, kunt u de probleemcode en de oplossing
 2. Kies de regel met het betreffende serviceartikel en kies de actie **Artikelwerkbon**.  
 3. Op de pagina **Serviceartikelwerkbon** kiest u **Rel. probleem-/oplossingscodes**. De pagina **Relaties probleem-/oplossingscodes** wordt geopend.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  De serviceartikelgroep en de probleemcodes worden automatisch uit de pagina **Serviceartikelwerkbon** gekopieerd om filters in te stellen voor de weergegeven relaties op de pagina.  
 
 4. Vul de regel in. Kies de combinatie van probleem- en oplossingscodes, en kies **OK** om deze naar het serviceartikel te kopiëren. Als de juiste combinatie niet wordt gevonden, kunt u een nieuwe combinatie op de pagina instellen.  

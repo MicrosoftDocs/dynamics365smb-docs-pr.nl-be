@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247175"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304432"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
@@ -111,7 +111,7 @@ In het volgende voorbeeld ziet u hoe [!INCLUDE[d365fin](includes/d365fin_md.md)]
 2. Voeg extra tabellen toe aan het pakket, bijvoorbeeld **Klant** en **Leverancier**. Deze tabellen verwijzen beide naar de tabel **Verkoper/Inkoper** via respectievelijk de **Verkoperscode** en de **Inkoperscode**.  
 3. Wanneer u gegevens vereffent, wordt de toewijzing die u voor het veld **Code** in de tabel **Verkoper/Inkoper** hebt opgegeven, ook meegenomen tijdens het verwerken van de velden **Verkoperscode** en **Inkoperscode**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Aanvullende waarden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Aanvullende waarden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u extra waarden wilt toevoegen, en kies op het tabblad **Tabellen** de actie **Velden**.  
 3. Voor de velden waarvoor u wilt dat [!INCLUDE[d365fin](includes/d365fin_md.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 95ce328595bccaff230699c56e603ba55f9375b7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 26ce0f4661a44c1f478b38a2709015ea6ff1f602
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309712"
 ---
 # <a name="transfer-inventory-between-locations"></a>Voorraad overbrengen tussen vestigingen
 U kunt voorraadartikelen tussen vestigingen overbrengen door transferorders te maken. U kunt ook het artikelherindelingsdagboek gebruiken.
@@ -31,20 +31,24 @@ Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingeste
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Artikelen overbrengen met een transferorder
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferorders** in en kies vervolgens de gerelateerde koppeling.
-2. Vul op de pagina **Transferorder** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul in de koptekst van de pagina **Transferorder** de velden in zoals nodig. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   Als u tijdens het instellen van de transferroute tussen deze vestigingen de velden **Transitcode**, **Expediteur** en **Expediteurservice** op de pagina **Transferroutegegevens** hebt ingevuld, worden de bijbehorende velden op de transferorder automatisch ingevuld.
 
     Wanneer u het veld **Servicecode expediteur** invult, wordt de ontvangstdatum in de ontvangstvestiging berekend door de verzendtijd van de expediteurservice op te tellen bij de verzenddatum.
 
+3. Om de regels in te vullen, voert u ze handmatig in of kiest u een van de volgende opties onder de actie **Functies**:
+    - Kies de actie **Opslaglocatie-inhoud ophalen** om bestaande artikelen uit een specifieke opslaglocatie te selecteren.
+    - Kies de actie **Ontvangstregels ophalen** om artikelen te selecteren die net zijn aangekomen op de aflevervestiging.   
+
     Als magazijnmedewerker op de aflevervestiging gaat u verder om de artikelen te verzenden.
-3. Kies de actie **Boeken**, kies de optie **Verzenden** en kies vervolgens de knop **OK**.
+4. Kies de actie **Boeken**, kies de optie **Verzenden** en kies vervolgens de knop **OK**.
 
     De artikelen zijn nu in transit tussen de opgegeven vestigingen volgens de opgegeven transferroute.
 
-    Als magazijnmedewerker op de aflevervestiging gaat u verder om de artikelen te ontvangen.
-4. Kies de actie **Boeken**, kies de optie **Ontvangen** en kies vervolgens de knop **OK**.
+    Als magazijnmedewerker op de aflevervestiging gaat u verder om de artikelen te ontvangen. De tranferorderregels zijn dezelfde als bij verzending en kunnen niet worden bewerkt.
+5. Kies de actie **Boeken**, kies de optie **Ontvangen** en kies vervolgens de knop **OK**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Artikelen overbrengen met het artikelherindelingsdagboek
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelherindelingsdagboeken** in en kies vervolgens de gerelateerde koppeling.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540329"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301722"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
 Als u wat hulp wilt bij het bepalen wat u met uw contant geld moet doen, kunt de diagrammen bekijken in het rolcentrum Accountant:  
@@ -56,9 +56,9 @@ Om u te helpen aan de slag te gaan zijn er enkele rekeningen en cashflowinstelli
 Als u deze wilt instellen, kunt u zoeken naar **cashflowrekeningen**, de koppeling kiezen en vervolgens de velden invullen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Herhaal deze stappen voor **cashflowinstellingen**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Cashflowprognoses instellen
-In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met gids kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) moet worden ingeschakeld.  
+In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met de gids kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/) moet worden ingeschakeld.  
 
-Cashflowprognoses kunnen Cortana Intelligence gebruiken om documenten met een vervaldatum in de toekomst op te nemen. Het resultaat is een uitvoerigere voorspelling. De verbinding met Cortana Intelligence is al voor u ingesteld. U hoeft het alleen in te schakelen. Wanneer u zich bij [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldt, verschijnt er een melding in een blauwe balk en wordt er een koppeling verschaft naar de standaardcashflowinstellingen. De melding wordt slechts eenmaal weergegeven. Als u de melding sluit, maar besluit Cortana Intelligence in te schakelen, kunt u de begeleide instelling gebruiken of een handmatig proces.  
+Cashflowprognoses kunnen Azure AI gebruiken om documenten met een vervaldatum in de toekomst op te nemen. Het resultaat is een uitvoerigere voorspelling. De verbinding met Azure AI is al voor u ingesteld. U hoeft het alleen in te schakelen. Wanneer u zich bij [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldt, verschijnt er een melding in een blauwe balk en wordt er een koppeling verschaft naar de standaardcashflowinstellingen. De melding wordt slechts eenmaal weergegeven. Als u de melding sluit, maar besluit Azure AI in te schakelen, kunt u de begeleide instelling gebruiken of een handmatig proces.  
 
 > [!NOTE]  
 >   U kunt ook uw eigen voorspellende webservice gebruiken. Zie [Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken](#AnchorText).  
@@ -73,23 +73,23 @@ De begeleide instelling gebruiken:
 Een handmatig proces gebruiken:  
 
 1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
-2. Vouw het sneltabblad **Cortana Intelligence** uit en kies het selectievakje **Cortana Intelligence Geactiveerd**.  
+2. Vouw het sneltabblad **Azure AI** uit en kies het selectievakje **Azure AI ingeschakeld**.  
 3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
 4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 > [!TIP]  
->   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Cortana Intelligence niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  
+>   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Azure AI niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  
 
 ## <a name="AnchorText"> </a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
-U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Cortana Intelligence-galerie. Ga als volgt te werk om het model te gebruiken:  
+U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
 
-1. Open een browser en ga naar de [Cortana Intelligence-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
+1. Open een browser en ga naar de [Azure AI-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Zoek naar **Prognosemodel voor Microsoft Business Central** en open het model in Azure Machine Learning Studio.  
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
 6. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-7. Vouw het sneltabblad **Cortana Intelligence** uit en vul de velden in.  
+7. Vouw het sneltabblad **Azure AI** uit en vul de velden in.  
 
 ## <a name="see-also"></a>Zie ook
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  

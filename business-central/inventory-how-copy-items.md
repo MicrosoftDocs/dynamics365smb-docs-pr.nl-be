@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8bf3c8d814c74ab85b72ddf06ca44d614a026923
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 91f2aede108b767617f2aa8afd3db1b81713d8f7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870614"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310024"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Bestaande items kopiëren om nieuwe items te maken
 Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item kopiëren** gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.  

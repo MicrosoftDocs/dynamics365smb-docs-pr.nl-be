@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: edb3ef5d977994588feb4331cf8f15e6f1b32438
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0ed17b601df17ae85424013b6053ef1901082c10
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240850"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300557"
 ---
 # <a name="exchanging-data"></a>Gegevens uitwisselen
 U kunt gegevens uitwisselen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe bestanden of streams voor veelvoorkomende bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  
@@ -29,7 +29,7 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |Converteer records van verkoopdocumenten in [!INCLUDE[d365fin](includes/d365fin_md.md)] naar een gestandaardiseerde indeling en verstuur ze als elektronische documenten die uw klanten kunnen ontvangen in hun systeem.|[Elektronische documenten verzenden](sales-how-to-send-electronic-documents.md)|  
 |Verzend PDF- of afbeeldingsbestanden naar een aanbieder van OCR-services en ontvang deze terug als elektronische documenten die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md)|  
 |Elektronische documenten van de OCR-service of de service voor documentuitwisseling ontvangen in een gestandaardiseerde indeling die u kunt converteren naar de relevante documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
-|Voorbereiden van het importeren van een bankafschriftbestand importeren in de pagina **Betalingsreconciliatiedagboek** als de eerste stap bij de afstemming van betalingen of op de pagina **Bankreconciliatie** als eerste stap bij het afstemmen van bankrekeningen.|[De service Envestnet Yodlee Bank Feeds instellen](bank-how-setup-bank-statement-service.md)|  
+|Voorbereiden van het importeren van een bankafschriftbestand importeren in de pagina **Betalingsreconciliatiedagboek** als de eerste stap bij de afstemming van betalingen of op de pagina **Bankreconciliatie** als eerste stap bij het afstemmen van bankrekeningen.|[De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)|  
 |Betalingen uit de pagina **Betalingsdagboek** exporteren naar een bankbestand dat u uploadt naar uw elektronische bankrekening voor verwerking.|[Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)|
 |Maak elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Vraag uw bank bedragen van betalingen van bankrekeningen van uw klanten over te brengen naar uw bedrijfsrekening volgens uw instellingen voor automatische incasso van SEPA.|[SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
