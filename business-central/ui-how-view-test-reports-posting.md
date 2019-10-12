@@ -9,28 +9,28 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 2a0de959150584e56c488335688950a79430da25
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: ab2bcb78479e91c111868c21bd3019c7971d9ffb
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921327"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310888"
 ---
-# <a name="view-test-reports-before-posting"></a><span data-ttu-id="2df2c-103">Controlelijsten weergeven vóór boeken</span><span class="sxs-lookup"><span data-stu-id="2df2c-103">View Test Reports Before Posting</span></span>
-<span data-ttu-id="2df2c-104">Wanneer u een document, zoals een order, factuur of een creditnota, wilt boeken, kunt u het document testen om ervoor te zorgen dat er geen problemen bestaan die de boeking kunnen blokkeren.</span><span class="sxs-lookup"><span data-stu-id="2df2c-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
+# <a name="view-test-reports-before-posting"></a><span data-ttu-id="70d85-103">Controlelijsten weergeven vóór boeken</span><span class="sxs-lookup"><span data-stu-id="70d85-103">View Test Reports Before Posting</span></span>
+<span data-ttu-id="70d85-104">Wanneer u een document, zoals een order, factuur of een creditnota, wilt boeken, kunt u het document testen om ervoor te zorgen dat er geen problemen bestaan die de boeking kunnen blokkeren.</span><span class="sxs-lookup"><span data-stu-id="70d85-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="2df2c-105">De volgende procedure is over het testen vóór het boeken van een inkoopdocument.</span><span class="sxs-lookup"><span data-stu-id="2df2c-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="2df2c-106">De functionaliteit werkt op dezelfde manier voor verkoopdocumenten.</span><span class="sxs-lookup"><span data-stu-id="2df2c-106">The functionality works in the same way for sales documents.</span></span>
+>   <span data-ttu-id="70d85-105">De volgende procedure is over het testen vóór het boeken van een inkoopdocument.</span><span class="sxs-lookup"><span data-stu-id="70d85-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="70d85-106">De functionaliteit werkt op dezelfde manier voor verkoopdocumenten.</span><span class="sxs-lookup"><span data-stu-id="70d85-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="2df2c-107">Een controlelijst afdrukken vóór het boeken van een inkoopfactuur</span><span class="sxs-lookup"><span data-stu-id="2df2c-107">To print a test report before posting a purchase invoice</span></span>
-1. <span data-ttu-id="2df2c-108">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en selecteer vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="2df2c-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
-2. <span data-ttu-id="2df2c-109">Open de inkoopfactuur die u wilt controleren.</span><span class="sxs-lookup"><span data-stu-id="2df2c-109">Open the purchase invoice that you want to test.</span></span>
-3. <span data-ttu-id="2df2c-110">Kies de actie **Testrapport**.</span><span class="sxs-lookup"><span data-stu-id="2df2c-110">Choose the **Test Report** action.</span></span>  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="70d85-107">Een controlelijst afdrukken vóór het boeken van een inkoopfactuur</span><span class="sxs-lookup"><span data-stu-id="70d85-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="70d85-108">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en selecteer vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="70d85-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
+2. <span data-ttu-id="70d85-109">Open de inkoopfactuur die u wilt controleren.</span><span class="sxs-lookup"><span data-stu-id="70d85-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="70d85-110">Kies de actie **Testrapport**.</span><span class="sxs-lookup"><span data-stu-id="70d85-110">Choose the **Test Report** action.</span></span>  
 
-<span data-ttu-id="2df2c-111">Alle delen van de inkoopfactuur worden getest en het resultaat wordt weergegeven in een rapport.</span><span class="sxs-lookup"><span data-stu-id="2df2c-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="2df2c-112">Als de lijst aangeeft dat er fouten of ontbrekende gegevens zijn, moet u het probleem oplossen voordat u de inkoopfactuur boekt.</span><span class="sxs-lookup"><span data-stu-id="2df2c-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
+<span data-ttu-id="70d85-111">Alle delen van de inkoopfactuur worden getest en het resultaat wordt weergegeven in een rapport.</span><span class="sxs-lookup"><span data-stu-id="70d85-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="70d85-112">Als de lijst aangeeft dat er fouten of ontbrekende gegevens zijn, moet u het probleem oplossen voordat u de inkoopfactuur boekt.</span><span class="sxs-lookup"><span data-stu-id="70d85-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2df2c-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2df2c-113">See Also</span></span>
-[<span data-ttu-id="2df2c-114">Documenten en dagboeken boeken</span><span class="sxs-lookup"><span data-stu-id="2df2c-114">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="2df2c-115">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2df2c-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="70d85-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="70d85-113">See Also</span></span>
+[<span data-ttu-id="70d85-114">Documenten en dagboeken boeken</span><span class="sxs-lookup"><span data-stu-id="70d85-114">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="70d85-115">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="70d85-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

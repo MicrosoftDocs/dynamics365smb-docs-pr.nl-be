@@ -1,1 +1,1 @@
-<span data-ttu-id="d4dd6-101">[Training](/dynamics365/get-started/training/) krijgen</span><span class="sxs-lookup"><span data-stu-id="d4dd6-101">Get [training!](/dynamics365/get-started/training/)</span></span>
+<span data-ttu-id="10111-101">[Training](/learn/browse/?products=dynamics-business-central) krijgen</span><span class="sxs-lookup"><span data-stu-id="10111-101">Get [training!](/learn/browse/?products=dynamics-business-central)</span></span>

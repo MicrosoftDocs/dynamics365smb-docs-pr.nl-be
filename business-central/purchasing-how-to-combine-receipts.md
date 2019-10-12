@@ -1,5 +1,5 @@
 ---
-title: Ontvangst combineren | Microsoft Docs
+title: Hoe u ontvangsten van meer artikelen dan besteld kunt toestaan | Microsoft Docs
 description: Als u meer dan één inkoopontvangst tegelijk wilt factureren, kunt u de functie Ontvangsten combineren gebruiken.
 services: project-madeira
 documentationcenter: ''
@@ -10,40 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252913"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312448"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a><span data-ttu-id="78770-103">Ontvangsten combineren op één factuur</span><span class="sxs-lookup"><span data-stu-id="78770-103">Combine Receipts on a Single Invoice</span></span>
-<span data-ttu-id="78770-104">Als u meer dan één inkoopontvangst tegelijk wilt factureren, kunt u de functie **Ontvangsten combineren** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="78770-104">If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.</span></span>  
+# <a name="allow-receipt-of-more-items-than-ordered"></a><span data-ttu-id="7a7dc-103">Ontvangst toestaan van meer artikelen dan besteld</span><span class="sxs-lookup"><span data-stu-id="7a7dc-103">Allow Receipt of More Items Than Ordered</span></span>
+<span data-ttu-id="7a7dc-104">Wanneer u meer goederen ontvangt dan u hebt besteld, wilt u deze misschien ontvangen in plaats van de ontvangst te annuleren.</span><span class="sxs-lookup"><span data-stu-id="7a7dc-104">When you receive more goods than you ordered, you may want to receive them in stead of canceling the receipt.</span></span> <span data-ttu-id="7a7dc-105">Het kan bijvoorbeeld goedkoper zijn om het eigen risico op uw inventaris te houden dan ze terug te sturen of uw leverancier kan u korting geven om ze te bewaren.</span><span class="sxs-lookup"><span data-stu-id="7a7dc-105">For example, it may be cheaper to keep the excess on your inventory than returning them or your vendor may offer you a discount for keeping them.</span></span>
 
-<span data-ttu-id="78770-105">Een gecombineerde inkoopontvangst kan pas worden gemaakt wanneer meer inkoopontvangsten van dezelfde leverancier in dezelfde valuta zijn geboekt.</span><span class="sxs-lookup"><span data-stu-id="78770-105">Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted.</span></span> <span data-ttu-id="78770-106">U moet dus twee of meer inkooporders hebben ingevuld en deze hebben geboekt als ontvangen, maar niet als gefactureerd.</span><span class="sxs-lookup"><span data-stu-id="78770-106">In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.</span></span>  
+<span data-ttu-id="7a7dc-106">Orderverwerkers en magazijnmedewerkers moeten dergelijke 'over-ontvangsten' kunnen verwerken zonder een langdurig proces van voorbereiding en goedkeuring van een nieuwe inkooporder te doorlopen.</span><span class="sxs-lookup"><span data-stu-id="7a7dc-106">Order processors and warehouse workers must be able to handle such "over receipts" without going through a lengthy process of preparing and getting approval for a new purchase order.</span></span>
 
-<span data-ttu-id="78770-107">Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, wordt een geboekte inkoopfactuur gemaakt voor de gefactureerde regels.</span><span class="sxs-lookup"><span data-stu-id="78770-107">When purchase receipts are combined on an invoice and posted, then a posted purchase invoice is created for the invoiced lines.</span></span> <span data-ttu-id="78770-108">Het veld **Gefactureerd aantal** op de oorspronkelijke inkooporder of het oorspronkelijke inkoopraamcontract wordt bijgewerkt op basis van het gefactureerde aantal.</span><span class="sxs-lookup"><span data-stu-id="78770-108">The **Quantity Invoiced** field on the originating purchase order, or blanket purchase order, is updated based on the invoiced quantity.</span></span> <span data-ttu-id="78770-109">Dit oorspronkelijke inkoopdocument wordt echter niet verwijderd, zelfs als dit volledig is ontvangen en gefactureerd en daarom moet u het inkoopdocument zelf verwijderen.</span><span class="sxs-lookup"><span data-stu-id="78770-109">However, this original purchase document is not deleted, even if it has been fully received and invoiced, and you must therefore delete the purchase document.</span></span>  
+## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a><span data-ttu-id="7a7dc-107">Meer artikelen ontvangen dan gespecificeerd op het inkoopdocument</span><span class="sxs-lookup"><span data-stu-id="7a7dc-107">To receive more items than specified on the purchase document</span></span>
 
-## <a name="to-combine-receipts"></a><span data-ttu-id="78770-110">Ontvangsten combineren</span><span class="sxs-lookup"><span data-stu-id="78770-110">To combine receipts</span></span>  
-1. <span data-ttu-id="78770-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="78770-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="78770-112">Kies de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="78770-112">Choose the **New** action.</span></span> <span data-ttu-id="78770-113">Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="78770-113">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>  
-3. <span data-ttu-id="78770-114">Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen**.</span><span class="sxs-lookup"><span data-stu-id="78770-114">On the **Lines** FastTab, choose the **Get Receipt Lines** action.</span></span>  
-4. <span data-ttu-id="78770-115">Selecteer meerdere ontvangstregels die u wilt opnemen in de factuur.</span><span class="sxs-lookup"><span data-stu-id="78770-115">Select multiple receipt lines that you want to include in the invoice.</span></span>  
+1. <span data-ttu-id="7a7dc-108">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="7a7dc-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.</span></span>
+2.   
 
-    <span data-ttu-id="78770-116">Als een onjuiste ontvangstregel is geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de inkoopfactuur gewoon verwijderen en vervolgens de functie **Ontvangstregels ophalen** opnieuw gebruiken.</span><span class="sxs-lookup"><span data-stu-id="78770-116">If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.</span></span>  
-5. <span data-ttu-id="78770-117">Kies de actie **Boeken** om de factuur te boeken.</span><span class="sxs-lookup"><span data-stu-id="78770-117">To post the invoice, choose the **Post** action.</span></span>  
-
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a><span data-ttu-id="78770-118">Open inkooporders verwijderen na gecombineerde ontvangstboeking</span><span class="sxs-lookup"><span data-stu-id="78770-118">To remove open purchase orders after combined receipt posting</span></span>  
-1. <span data-ttu-id="78770-119">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefact. inkooporders verwijderen** in en selecteer de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="78770-119">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.</span></span>  
-2. <span data-ttu-id="78770-120">Vul indien nodig de velden in.</span><span class="sxs-lookup"><span data-stu-id="78770-120">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]<span data-ttu-id="78770-121">.</span><span class="sxs-lookup"><span data-stu-id="78770-121">.</span></span>
-3. <span data-ttu-id="78770-122">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="78770-122">Choose the **OK** button.</span></span>  
-
-<span data-ttu-id="78770-123">U kunt de afzonderlijke orders ook handmatig verwijderen.</span><span class="sxs-lookup"><span data-stu-id="78770-123">Alternatively, delete the individual orders manually.</span></span>
-
-<span data-ttu-id="78770-124">Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals inkoopraamcontracten.</span><span class="sxs-lookup"><span data-stu-id="78770-124">Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="78770-125">Zie ook</span><span class="sxs-lookup"><span data-stu-id="78770-125">See Also</span></span>  
-[<span data-ttu-id="78770-126">Inkoop</span><span class="sxs-lookup"><span data-stu-id="78770-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="78770-127">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="78770-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a7dc-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7a7dc-109">See Also</span></span>  
+[<span data-ttu-id="7a7dc-110">Inkoop</span><span class="sxs-lookup"><span data-stu-id="7a7dc-110">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="7a7dc-111">Artikelen ontvangen</span><span class="sxs-lookup"><span data-stu-id="7a7dc-111">Receive Items</span></span>](warehouse-how-receive-items.md)  
+<span data-ttu-id="7a7dc-112">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7a7dc-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
