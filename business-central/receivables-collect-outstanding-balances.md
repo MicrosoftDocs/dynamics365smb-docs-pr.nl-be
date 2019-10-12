@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985898"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316656"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 Tijdens het beheer van tegoeden moet u ook controleren of openstaande bedragen op tijd worden betaald. Als klanten betalingen hebben openstaan, kunt u beginnen met het rekeningoverzicht van de klant als een herinnering te sturen. U kunt ook aanmaningen sturen.
@@ -161,6 +161,11 @@ Daarnaast kunnen btw-posten worden gemaakt als u de aanmaning verzendt.
 
 Een aanmaning wordt afgedrukt of verzonden naar een opgegeven e-mailadres als PDF-bijlage.
 
+### <a name="to-cancel-an-issued-reminder"></a>Een verzonden aanmaning annuleren
+Als aanmaningen ten onrechte zijn uitgegeven, kunt u ze annuleren voordat ze worden verzonden. U kunt dit één voor één of als een batch doen.
+1. Selecteer op de pagina **Verzonden aanmaningen** een of meer regels voor verzonden aanmaningen die u wilt annuleren en kies vervolgens de actie **Annuleren**.
+2. Vul op de pagina **Verzonden aanmaningen annuleren** desgewenst de velden in en kies vervolgens de knop **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
 U moet een code instellen waarmee elke renteberekening wordt aangeduid. Vervolgens kunt u deze code opgeven in het veld **Rentefactuurconditie** op de leverancierskaarten.
 
@@ -243,6 +248,11 @@ Daarnaast kunnen btw-posten worden gemaakt als u de rentefactuur verzendt.
 4. Kies de knop **Ok**.
 
 Een rentefactuur wordt afgedrukt of verzonden naar een opgegeven e-mailadres als PDF-bijlage.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Een verzonden rentefactuur annuleren
+Als rentefacturen ten onrechte zijn uitgegeven, kunt u ze annuleren voordat ze worden verzonden. U kunt dit één voor één of als een batch doen.
+1. Selecteer op de pagina **Verzonden rentefacturen** een of meer regels voor verzonden rentefacturen die u wilt annuleren en kies vervolgens de actie **Annuleren**.
+2. Vul op de pagina **Verzonden rentefacturen annuleren** desgewenst de velden in en kies vervolgens de knop **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Aanmanings- en renteposten weergeven  
 Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** een aanmaningspost gemaakt voor elke aanmaningsregel met een klantenpost. U kunt vervolgens in een overzicht weergeven welke aanmaningsposten u voor een bepaalde klant hebt gemaakt.    

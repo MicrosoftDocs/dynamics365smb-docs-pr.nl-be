@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249802"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314640"
 ---
 # <a name="create-bins"></a>Opslaglocaties maken
 De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart. U kunt ook een functie op de pagina **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.  
@@ -60,15 +60,15 @@ Voor gebruik van de pagina **Voorstel opslaglocatieaanmaak** moet u zijn ingeste
     > [!NOTE]  
     >  het aantal tekens dat u in de drie categorieën voor een veld hebt ingevoerd (bijvoorbeeld het aantal tekens dat u hebt ingevoerd in de drie velden **Van nr.**) mag niet groter zijn dan 20 (inclusief eventuele scheidingstekens).  
 
-     Als u letters in de code gebruikt, moet u dezelfde letters gebruiken in de velden **Van nr.** en **Tot nr.** in in. U kunt bijvoorbeeld het gedeelte Rek van de code als volgt instellen: **Van nr. A01** en **Tot nr. A10**. Het programma is niet ingesteld voor het genereren van codes met letterreeksen, zoals van A01 tot F05.  
+     Als u letters in de code gebruikt, moet u dezelfde letters gebruiken in de velden **Van nr.** en **Tot nr.** in in. U kunt bijvoorbeeld het gedeelte Rek van de code als volgt instellen: **Van nr. A01** en **Tot nr. A10**. De toepassing is niet ingesteld voor het genereren van codes met letterreeksen, zoals van A01 tot F05.  
 
 6.  In het veld **Veldscheidingsteken** kunt u een scheidingsteken invoeren, bijvoorbeeld een liggend streepje. Hiermee kunt u de categorievelden van elkaar scheiden die u hebt opgegeven als onderdeel van de opslaglocatie.  
-7.  Als het programma al een regel bevat voor een opslaglocatie en u niet wilt dat er een extra regel wordt gemaakt, selecteert u het veld **Bestaande opslagloc. controleren**.  
+7.  Als de toepassing al een regel bevat voor een opslaglocatie en u niet wilt dat er een extra regel wordt gemaakt, selecteert u het veld **Bestaande opslagloc. controleren**.  
 8. Wanneer u alle velden hebt ingevuld, klikt u op **OK**.
 
-    Voor elke opslaglocatie in het voorstel wordt nu een regel gemaakt. U kunt nu ook sommige opslaglocaties verwijderen, bijvoorbeeld als er sprake is van een rek met een passage door de eerste twee niveaus van een aantal secties.  
+    Voor elke opslaglocatie in het voorstel wordt een regel gemaakt. U kunt nu ook sommige opslaglocaties verwijderen, bijvoorbeeld als er sprake is van een rek met een passage door de eerste twee niveaus van een aantal secties.  
 
-9. Wanneer u alle overbodige opslaglocaties hebt verwijderd, kiest u de actie **Opslaglocaties maken**. Het programma maakt nu een opslaglocatie voor elke regel in het voorstel.  
+9. Wanneer u alle overbodige opslaglocaties hebt verwijderd, kiest u de actie **Opslaglocaties maken**. De toepassing maakt dan een opslaglocatie voor elke regel in het voorstel.  
 
 Herhaal dit proces voor elke volgende set opslaglocaties, totdat u alle opslaglocaties van het magazijn hebt gemaakt.  
 

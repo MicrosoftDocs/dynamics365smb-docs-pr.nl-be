@@ -1,32 +1,29 @@
 ---
 title: Waarom kan ik een pagina niet personaliseren | Microsoft Docs
 description: Verklaart waarom u een pagina niet kunt personaliseren en wat u kunt doen om deze te ontgrendelen zodat u de pagina wel kunt personaliseren.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796793"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315144"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
 
-Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).
+Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).
 
 ## <a name="locked-from-personalizing"></a>Vergrendeld tegen personaliseren
 
-Als er een pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") is te zien in de banner **Personaliseren** wanneer u een pagina opent (zoals weergegeven), kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
-
-![Personaliseringsvergrendeling](media/personalization-locked.png "Personaliseringsvergrendeling")
-
+Als er een pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") is te zien in de banner **Personaliseren** wanneer u een pagina opent, kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -41,7 +38,7 @@ Hiervoor kunnen twee redenen bestaan:
 
 ### <a name="unlocking-the-page"></a>De pagina ontgrendelen
 
-Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") en vervolgens **Ontgrendelen**.  
+Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") en kiest u vervolgens de actie **Ontgrendelen**.  
 
 Voordat u de pagina ontgrendelt, houdt u rekening met het volgende:
 
@@ -51,14 +48,14 @@ Voordat u de pagina ontgrendelt, houdt u rekening met het volgende:
 
 ## <a name="blocked-from-personalizing"></a>Geblokkeerd tegen personaliseren
 
-Als de banner Personaliseren het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") bevat, betekent dit dat u geblokkeerd wordt om personalisatie op de pagina aan te brengen.
+Als de banner **Personaliseren** het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") bevat, betekent dit dat u geblokkeerd wordt om personalisatie op de pagina aan te brengen.
 
-![Personalisatie geblokkeerd](media/personalization-blocked.png "Personalisatie geblokkeerd")
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
-De reden hiervoor is dat het rolcentrum of de rol die op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact met uw beheerder op voor hulp of schakel indien van toepassing over op een rolcentrum (ga vanuit [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "rechtstreeks naar de pagina met uw gebruikersinstellingen in Business Central")) dat rolaanpassing voor deze pagina bevat.
+De reden hiervoor is dat het rolcentrum of de rol die op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact op met uw beheerder voor hulp. U kunt ook overschakelen naar een rolcentrum met rolaanpassing voor deze pagina. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
 ## <a name="see-also"></a>Zie ook
-[Het personaliseren van uw werkruimte](ui-personalization-manage.md)  
-[Personalisatie beheren](ui-personalization-manage.md)  
+[Uw werkruimte personaliseren](ui-personalization-user.md)  
+[Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  

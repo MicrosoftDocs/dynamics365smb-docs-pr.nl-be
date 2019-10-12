@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6e78a03e17348545805d0be889b62a2cb8187197
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249227"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315024"
 ---
-# <a name="managing-notifications"></a>Berichten beheren
+# <a name="manage-notifications"></a>Berichten beheren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen slimmer te werken door u te informeren over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Deze berichten worden weergegeven als afzonderlijke tips in de context van de taak die u uitvoert, en u kunt ervoor kiezen het bericht te negeren of informatie over het probleem te bekijken.  
 
 Als u ervoor kiest details over een bericht te bekijken, kunt u actie ondernemen om het probleem op te lossen, zoals contact opnemen met de klant, meer voorraad kopen, enzovoort. U bepaalt wat er gebeurt en [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft u advies en doet aanbevelingen.  

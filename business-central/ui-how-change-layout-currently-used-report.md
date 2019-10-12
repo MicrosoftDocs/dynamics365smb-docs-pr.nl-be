@@ -3,23 +3,23 @@ title: De weergave van een rapport wijzigen door een andere lay-out te kiezen | 
 description: U kunt verschillende lay-outs voor een lijst gebruiken en schakelen tussen lay-outs om te bepalen hoe een rapport eruitziet.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f24f1cd24a31ddbd0b455b876821ae0173a677c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 07de4be7bc516cf9f4b802a48dc59293b1992f5f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249457"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315264"
 ---
-# <a name="change-which-layout-is-currently-used-on-a-report"></a>Wijzigen welke lay-out momenteel in een rapport wordt gebruikt
+# <a name="change-the-current-report-layout"></a>De huidige rapportindeling wijzigen
 Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen.
 
 Afhankelijk van de lay-outs die voor een rapport beschikbaar zijn, kunt u ervoor kiezen een ingebouwde RDLC-rapportlay-out, een ingebouwde Word-rapportlay-out of een aangepaste lay-out te maken. Zie [Rapportlay-outs beheren](ui-manage-report-layouts.md) voor meer informatie over RDLC- en Word-rapportlay-outs, ingebouwde en aangepaste lay-outs.
@@ -35,10 +35,11 @@ Afhankelijk van de lay-outs die voor een rapport beschikbaar zijn, kunt u ervoor
    * RDLC (ingebouwd), gebruikt de ingebouwde RDLC-rapportlay-out in het rapport.
    * Word (ingebouwd), gebruikt de ingebouwde Word-rapportlay-out in het rapport.
    * Aangepast, gebruikt een aangepaste lay-out in het rapport.  
-     U kunt zien welke aangepaste lay-outs voor het rapport beschikbaar zijn in het feitenblok Rapportlay-outonderdeel. Als er geen aangepaste lay-outs voor het rapport zijn, moet u er eerst een maken. Als u deze optie kiest, gaat u naar de volgende procedure om de aangepaste lay-out op te geven die u wilt gebruiken.
 
-    > [!NOTE]  
-    >   Als u **RDLC (ingebouwd)** of **Word (ingebouwd)** kiest en een foutbericht krijgt dat het rapport geen lay-out van de opgegeven soort heeft, moet u een andere lay-outoptie kiezen of een aangepaste rapportlay-out maken van het soort dat u wilt gebruiken.
+U kunt zien welke aangepaste lay-outs voor het rapport beschikbaar zijn in het feitenblok **Rapportlay-outonderdeel**. Als er geen aangepaste lay-outs voor het rapport zijn, moet u er eerst een maken. Als u deze optie kiest, gaat u naar de volgende procedure om de aangepaste lay-out op te geven die u wilt gebruiken.
+
+> [!NOTE]
+> Als u **RDLC (ingebouwd)** of **Word (ingebouwd)** kiest en een foutbericht krijgt dat het rapport geen lay-out van de opgegeven soort heeft, moet u een andere lay-outoptie kiezen of een aangepaste rapportlay-out maken van het soort dat u wilt gebruiken.
 
 Als u een ingebouwde RDLC- of Word-rapportlay-out hebt geselecteerd, is er verder geen actie vereist en wordt de lay-out gebruikt als het rapport de volgende keer wordt uitgevoerd.
 

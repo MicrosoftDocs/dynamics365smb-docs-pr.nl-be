@@ -3,21 +3,21 @@ title: Aangepaste en ingebouwde lay-outs voor rapporten en documenten | Microsof
 description: Gebruik rapportlay-outs om documenten aan te passen, bijvoorbeeld om het lettertype of logo aan te passen of pagina-instellingen of PDF-bestanden die u naar klanten verzendt.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594299"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315168"
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
@@ -56,12 +56,12 @@ De algemene ontwerpconcepten voor Word- en RDLC-lay-outs lijken erg op elkaar. E
 
 Het proces voor het instellen van Word-rapportlay-outs en RDLC-rapportlay-outs in rapporten is hetzelfde. Het belangrijkste verschil is de manier waarop u de lay-outs wijzigt. Word-rapportlay-outs zijn in het algemeen gemakkelijker te maken en te wijzigen dan RDLC-rapportlay-outs, omdat u Word kunt gebruiken. RDLC-rapportlay-outs worden gewijzigd met SQL Server Report Builder, dat voor geavanceerdere gebruikers is bedoeld.
 
-Zie [Wijzigen welke lay-out momenteel in een rapport wordt gebruikt](ui-how-change-layout-currently-used-report.md) voor informatie over het wijzigen van de te gebruiken lay-out.
+Zie [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md) voor informatie over het wijzigen van de te gebruiken indeling.
 
 ## <a name="see-also"></a>Zie ook
-[Rapport- of documentlay-outs bijwerken](ui-update-report-layouts.md)  
+[Rapport- of documentindelingen bijwerken](ui-update-report-layouts.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md)  
-[Een aangepaste lay-out voor een rapport of document importeren en exporteren](ui-how-import-and-export-report-layout.md)  
+[Een aangepaste indeling voor een rapport of document importeren en exporteren](ui-how-import-and-export-report-layout.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Werken met rapporten en batchverwerkingen](ui-work-report.md)  
+[Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  

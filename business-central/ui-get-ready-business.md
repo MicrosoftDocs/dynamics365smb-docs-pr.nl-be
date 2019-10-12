@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 06/19/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701233"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315312"
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] opgezet.
 
-Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Bedrijfsassistentie**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. U opent deze pagina vanuit het diagram in het rolcentrum **Bedrijfsmanager** door het vervolgkeuzemenu **Bedrijfsassistentie** te openen en daarin de actie **Instellings- en Help-resources weergeven** te kiezen. Wanneer u de pagina vernieuwt, wordt het diagram vervangen door de resources voor configuratie en help.
+Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Bedrijfsassistentie**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. U opent deze pagina vanuit het diagram in het rolcentrum **Bedrijfsmanager** door de vervolgkeuzepijl **Bedrijfsassistentie** te kiezen en dan de actie **Instellings- en Help-resources weergeven** te kiezen. Wanneer u de pagina vernieuwt, wordt het diagram vervangen door de resources voor configuratie en help.
 
 Als u een complete lijst met begeleide instellingen wilt openen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Begeleide instelling** in en kiest u vervolgens de gerelateerde koppeling.
 

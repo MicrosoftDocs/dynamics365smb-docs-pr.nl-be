@@ -1,6 +1,6 @@
 ---
 title: Plannen van opslagactiviteiten in werkbladen | Microsoft Docs
-description: Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van het programma voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.
+description: Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van de toepassing voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248468"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314617"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
-Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van het programma voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  
+Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van de toepassing voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  
 
 Als u voor het magazijn wilt instellen dat ontvangstregels direct na boeking voor u beschikbaar zijn in het opslagvoorstel, selecteert u het veld **Opslagvoorstel gebruiken** op het sneltabblad **Magazijn** op de vestigingskaart. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
@@ -41,7 +41,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 3. Selecteer de documenten waaraan u in het voorstel wilt werken. U kunt tegelijkertijd werken aan regels uit verschillende documenten.  
 
     > [!NOTE]  
-    >  als u een ontvangstdocument of interne-opslagdocument selecteert waarvoor u al instructies hebt gemaakt voor alle regels, meldt het programma dat er niets is om te verwerken.  
+    >  als u een ontvangstdocument of interne-opslagdocument selecteert waarvoor u al instructies hebt gemaakt voor alle regels, meldt de toepassing dat er niets is om te verwerken.  
 
 4. Vul het veld **Sorteringsmethode** in om de regels op de gewenste wijze te sorteren.  
 

@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249641"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314832"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
+
+**Opmerking**: deze procedure moet op een demonstratiebedrijf worden uitgevoerd met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
+
 In deze procedure maakt u kennis met de functies voor projectbeheer in taken (projecten). Projecten zijn een manier waarop u het verbruik van de bedrijfsresources kunt plannen en de diverse kosten kunt bijhouden die samenhangen met de resources voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die u mogelijk wilt bijhouden terwijl het project voortduurt.  
 
  In deze procedure wordt het instellen van een nieuw project behandeld en komt een aantal algemene taken aan de orde zoals het werken met vaste prijzen, in termijnen betalen, facturen boeken voor projecten en projecten kopiëren.  
@@ -84,7 +87,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     - **Naam**: **Tricia**  
     - **Soort**: **Persoon**  
 
-4.  Kies het veld **Basiseenheid** en kies de actie **Nieuw** om de pagina **Resource-eenheid** te openen. Selecteer **Uur** in het veld **Code**. Kies de knop **OK**.  
+4.  Kies het veld **Basiseenheid** en kies de actie **Nieuw** om de pagina **Resource-eenheid** te openen. Selecteer **Uur** in het veld **Code**.  
 5.  Typ in het sneltabblad **Facturering** de volgende gegevens:  
 
     -   **Directe kostprijs**: **5**  
@@ -93,9 +96,9 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Productboekingsgroep**: **Services**  
     -   **BTW-productboekingsgroep**: **VAT 25**  
 
-6.  Kies de knop **OK** om de wijzigingen op te slaan.  
+6. Sluit de pagina.
 
- In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haar gebruik te boeken.  
+In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haar gebruik te boeken.  
 
 ### <a name="to-create-a-job-journal-batch"></a>Een projectdagboekbatch maken  
 
@@ -107,7 +110,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Omschrijving**: **Tricia**  
     -   **Nr.-reeks**: **JJNL-GEN**  
 
-4.  Klik op **OK** om alle open pagina's te sluiten.  
+4.  Kies de knop **OK** om de wijzigingen op te slaan.
 
 ## <a name="setting-up-a-job"></a>Een project instellen  
  In dit scenario heeft CRONUS een contract binnengehaald van de klant Progressive Home Furnishings voor het ontwerpen van een conferentie- en eetzaal. De klant is gevestigd in de Verenigde Staten en voor het project is speciale software nodig. De projectmanager komt tot overeenstemming met de klant en maakt een project dat deze afspraak dekt.  
@@ -123,7 +126,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
 4.  Typ op het sneltabblad **Boeking** de volgende gegevens:  
 
-    -   **Status**: **Order**  
+    -   **Status**: **Planning**  
     -   **Projectboekingsgroep**: **Instellen**  
     -   **OHW-methode**: **Kostprijs**  
 
@@ -140,21 +143,21 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Code**: **Tricia**  
     -   **Eenheidsprijs**: **20**  
 
-3.  Kies de knop **OK** om de pagina te sluiten.  
+3.  Sluit de pagina.  
 4.  Kies de actie **Artikel**.  
 5.  Geef de volgende gegevens en aangepaste prijs op op de pagina **Artikelprijzen project**:  
 
     1.  **Artikelnr.**: **80201 (grafisch programma)**  
     2.  **Eenheidsprijs**: **200**  
 
-6.  Kies de knop **OK** om de pagina te sluiten.  
+6.  Sluit de pagina.  
 7.  Kies de actie **Grootboekrekening**.  
 8.  Voer op de pagina **GB-rekeningprijzen project** de volgende informatie en de kosten van reizen in, waarvoor de klant is overeengekomen te betalen, plus 25 procent:  
 
     1.  **Grootboekrekening**: **8430 (reizen)**  
     2.  **Kostprijsfactor**: **1,25**  
 
-9. Kies de knop **OK** om de pagina te sluiten.  
+9. Sluit de pagina.  
 
  De laatste stappen bij het instellen van een project is het toevoegen van de projecttaken en de planningsregels die deel van elke taak uitmaken. De planningregels bepalen wat aan de klant wordt gefactureerd.  
 
@@ -176,9 +179,9 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
 -   **Planning**: wordt toegevoegd aan de planning, maar niet gefactureerd.  
 -   **Contract**: wordt gefactureerd, maar niet toegevoegd aan de planning.  
--   **Planning en contract**: gefactureerd en toegevoegd aan de planning.  
+-   **Budget en factureerbaar**: gefactureerd en toegevoegd aan de planning.  
 
- In dit scenario maakt de projectmanager gebruik van **Planning en contract**. Hij maakt drie planningsregels voor taak 1010 en twee planningsregels voor taak 1020.  
+ In dit scenario maakt de projectmanager gebruik van **Budget en factureerbaar**. Hij maakt drie planningsregels voor taak 1010 en twee planningsregels voor taak 1020.  
 
 ### <a name="to-create-planning-lines"></a>Planningsregels maken  
 
@@ -186,7 +189,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
      **Regel 1**  
 
-    -   **Regelsoort**: **Planning en contract**  
+    -   **Regelsoort**: **Budget en factureerbaar**  
     -   **Planningsdatum**: **(datum van vandaag)**  
     -   **Soort**: **Bron**  
     -   **Nr.**: **Tricia**  
@@ -194,7 +197,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
      **Regel 2**  
 
-    -   **Regelsoort**: **Planning en contract**  
+    -   **Regelsoort**: **Budget en factureerbaar**  
     -   **Planningsdatum**: **(datum van vandaag)**  
     -   **Soort**: **Bron**  
     -   **Nr.**: **Timothy**  
@@ -202,19 +205,19 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
      **Regel 3**  
 
-    -   **Regelsoort**: **Planning en contract**  
+    -   **Regelsoort**: **Budget en factureerbaar**  
     -   **Planningsdatum**: **(datum van vandaag)**  
     -   **Soort**: **Grootboekrekening**  
     -   **Nr.**: **8430 (Reizen)**  
     -   **Aantal**: **2**  
     -   **Kostprijs**: **400**  
 
-2.  Kies de knop **OK** om de pagina te sluiten. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
+2.  Sluit de pagina. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
 3.  Selecteer regel 1020 en kies vervolgens de actie **Projectplanningsregels**. Geef de volgende informatie op:  
 
      **Regel 1**  
 
-    -   **Regelsoort**: **Planning en contract**  
+    -   **Regelsoort**: **Budget en factureerbaar**  
     -   **Planningsdatum**: **(datum van vandaag)**  
     -   **Soort**: **Bron**  
     -   **Nr.**: **Tricia**  
@@ -222,13 +225,13 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
      **Regel 2**  
 
-    -   **Regelsoort**: **Planning en contract**  
+    -   **Regelsoort**: **Budget en factureerbaar**  
     -   **Planningsdatum**: **(datum van vandaag)**  
     -   **Soort**: **Artikel**  
     -   **Nr.**: **80201 (grafisch programma)**  
     -   **Aantal**: **1**  
 
-4.  Kies de knop **OK** om de pagina te sluiten. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
+4.  Sluit de pagina. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
 
 ## <a name="calculating-remaining-usage"></a>Resterend gebruik berekenen  
  Tricia, het projectteamlid, heeft een tijdje aan het project gewerkt en wil haar uren en gebruik tijdens het project registreren. Ze heeft niet meer uren gewerkt dan van tevoren met de klant is afgesproken. Ze gebruikt de batchverwerking **Resterend gebruik berekenen** om het resterende verbruik voor het project te berekenen in een projectdagboek. De batchverwerking berekent voor elke projecttaak het verschil tussen het geplande gebruik van artikelen, resources en grootboekkosten en het werkelijke gebruik dat in de projectposten is geboekt. Het resterende gebruik kan zij vervolgens boeken vanuit het projectdagboek waarin het wordt weergegeven.  
@@ -244,7 +247,8 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 7.  Kies de knop **Ok**. Hiermee genereert u projectdagboekregels die zijn afgeleid van de planningsregels die Prakash voor het projectdagboek heeft gemaakt.  
 8.  Kies de knop **OK** op de bevestigingspagina. De gegenereerde regels worden toegevoegd aan het projectdagboek.  
 9. Controleer of alle documentnummers J00001 zijn. Kies vervolgens de actie **Boeken**. Kies **Ja** om de boeking te bevestigen.  
-10. De regels worden nu geboekt. Kies de knop **OK** om de pagina's te sluiten.  
+
+De regels worden nu geboekt.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Een projectverkoopfactuur maken en boeken  
  Tricia kan vervolgens een nieuwe factuur maken voor het hele project of voor een deel van een project. Ze kan de factuur ook aan een andere factuur voor dezelfde klant en voor hetzelfde project koppelen. In dit geval factureert zij voor het volledige project, aangezien het project nu is voltooid.  
@@ -293,16 +297,16 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 4.  Selecteer op de pagina **Projecttaakregels** regel 1120 en kies de actie **Projectplanningsregels**.  
 5.  Kies de actie **Nieuw** om een nieuwe regel te maken met de volgende informatie:  
 
-    -   **Regelsoort**: **Planning en contract**  
+    -   **Regelsoort**: **Budget en factureerbaar**  
     -   **Soort**: **Bron**  
     -   **Nr.**: **Tricia**  
     -   **Aantal**: **30**  
 
-7.  Kies de knop **OK** om de pagina te sluiten.  
+7.  Sluit de pagina.  
 8.  Klik met de rechtermuisknop in het veld **Planning (totale kostprijs)** en kies opnieuw **Drilldown** op de pagina **Projecttaakregels**. Geef de wijzigingen in de planning weer. U ziet dat de 30 uur aan de planning zijn toegevoegd.  
-9. Kies de knop **OK** om de pagina's te sluiten.  
+9. Sluit de pagina's.  
 
- Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur aan het project. Ze voert deze uren in het projectdagboek in.  
+Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur aan het project. Ze voert deze uren in het projectdagboek in.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Uren invoeren in het projectdagboek  
 
@@ -333,9 +337,11 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Projectnr.**: **Guildford**  
     -   **Projecttaaknr.**: **1120**  
 
-     Kies de knop **OK** om de berekening uit te voeren. Er zijn vijf uur werk die resteren voor Tricia. Het veld **Regelsoort** is leeg, wat betekent dat alleen het gebruik nog moet worden geboekt omdat het werk al is gepland.  
+7. Kies de knop **OK** om de berekening uit te voeren.
 
-7.  Maak in het venster **Projectdagboek** een nieuwe regel met de volgende gegevens. Zorg ervoor dat beide projectnummers opeenvolgend zijn met de projectnummers die u al hebt gebruikt:  
+    Er zijn vijf uur werk die resteren voor Tricia. Het veld **Regelsoort** is leeg, wat betekent dat alleen het gebruik nog moet worden geboekt omdat het werk al is gepland.  
+
+8.  Maak in het venster **Projectdagboek** een nieuwe regel met de volgende gegevens. Zorg ervoor dat beide projectnummers opeenvolgend zijn met de projectnummers die u al hebt gebruikt:  
 
     -   **Regelsoort**: **Planning**  
     -   **Projectnr.**: **Guildford**  
@@ -346,17 +352,17 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
      Door **Planning** te kiezen als regelsoort werkt het programma de geplande kosten en prijzen bij zonder de contractkosten en prijzen aan te passen die aan de klant worden gefactureerd.  
 
-8.  Kies de actie **Boeken**. Kies de knop **OK** om de pagina te sluiten.  
-9. Open het overzicht **Projecten**.  
-10. Selecteer het project GUILDFORD en kies de actie **Projecttaakregels**.  
-11. Selecteer regel 1120 en klik in het veld **Planning (totale kostprijs)** met de rechtermuisknop op het bedrag. Kies **Drilldown** om de gegevens weer te geven.  
+9.  Kies de actie **Boeken**. Kies de knop **OK** om de pagina te sluiten.  
+10. Open het overzicht **Projecten**.  
+11. Selecteer het project GUILDFORD en kies de actie **Projecttaakregels**.  
+12. Selecteer regel 1120 en klik in het veld **Planning (totale kostprijs)** met de rechtermuisknop op het bedrag. Kies **Drilldown** om de gegevens weer te geven.  
 
      Wijzigingen worden automatisch ingevoerd op de regel voor Projecttaaknr. 1120. In de totale kosten voor gepland werk, zijn vijf extra uren werk door Tricia toegevoegd aan de planning.  
 
-12. Kies de knop **Sluiten** om de pagina te sluiten.  
-13. Klik nu met de rechtermuisknop op het bedrag in het veld **Contract (totale kostprijs)** en kies **Drilldown** om de informatie weer te geven.  
+13. Kies de knop **Sluiten** om de pagina te sluiten.  
+14. Klik nu met de rechtermuisknop op het bedrag in het veld **Contract (totale kostprijs)** en kies **Drilldown** om de informatie weer te geven.  
 
-     In de totale prijs van het contract, zijn alleen de oorspronkelijk afgesproken 30 uur opgenomen aangezien die met de klant zijn overeengekomen.  
+In de totale prijs van het contract, zijn alleen de oorspronkelijk afgesproken 30 uur opgenomen aangezien die met de klant zijn overeengekomen.  
 
 ## <a name="copying-jobs"></a>Projecten kopiëren  
  Prakash heeft een overeenkomst bereikt met de klant Selagorian Ltd om 10 conferentieruimten in te richten. De overeenkomst lijkt op een eerder project. Daarom kan tijd worden bespaard door dat eerdere project te kopiëren.  
@@ -381,9 +387,9 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Naar projectnr.**: **Guildford 10 conferentieruimten inrichten**  
     -   Selecteer de velden **Dimensies kopiëren** en **Aantal kopiëren**.  
 
-5.  Kies de knop **OK** om het project te kopiëren en kies vervolgens de knop **OK** om de bevestigingspagina te sluiten.  
+5.  Kies de knop **OK** om de taak te kopiëren en kies vervolgens de knop **OK** om de bevestigingspagina te sluiten.  
 
-     Door prijzen, projecttaakregels en projectplanningsregels voor twee taken te vergelijken, kunt u zien of de informatie met succes is gekopieerd.  
+Door prijzen, projecttaakregels en projectplanningsregels voor twee taken te vergelijken, kunt u zien of de informatie met succes is gekopieerd.  
 
 ## <a name="making-payments-by-installments"></a>Betalen in termijnen  
  CRONUS heeft net een groot project binnengehaald dat een jaar gaat duren. Omdat hiervoor veel resources nodig zijn, stelt de projectmanager het contract zo in dat de klant een gedeelte van de prijs vooraf betaalt, een tweede deel wanneer het project half is voltooid en de laatste betaling na voltooiing.  
@@ -397,7 +403,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Nr.**: **6630**  
     -   **Naam**: **Projectbetaling**  
 
-4.  Selecteer op het sneltabblad **Boeken** in het veld **Prod.-boekingsgroep** de optie **MISC**. Kies de knop **OK** om de pagina te sluiten.  
+4.  Selecteer op het sneltabblad **Boeken** in het veld **Prod.-boekingsgroep** de optie **MISC**. Sluit de pagina.  
 5.  Selecteer op de pagina **Rekeningschema** de optie **Nr. 6630 Projectbetaling** en kies de actie **Inspringen**. Kies **Ja** om te bevestigen.  
 
  De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen kunt instellen en vervolgens betaling in termijnen kunt instellen. U kunt in de projecttaakregels specifieke regels opnemen voor de betalingen in termijnen. Al het voltooide werk voor het project dat aan de planning wordt toegevoegd, wordt op de verbruiksregels ingevoerd. Voor elke betalingstaakregel in de planningsregels is de regelsoort Contract, wat betekent dat de klant wordt gefactureerd. Voer een nieuwe regel in voor de aanbetaling. Geef op de taakregel voor verbruik de gegevens op voor de artikelen en resources die in dit project zijn gebruikt. Hierdoor wordt de planning uitgebreid met de arbeidsuren en de artikelen die voor het project zijn gebruikt.  
@@ -417,7 +423,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Code**: **Tricia**  
     -   **Eenheidsprijs**: **10**  
 
-     Kies de knop **OK** om de pagina te sluiten.  
+     Sluit de pagina.  
 
 4.  Kies op de kaart **Project** de actie **Projecttaakregels**.  
 
@@ -440,7 +446,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Aantal**: **1**  
     -   **Eenheidsprijs**: **5000**  
 
-     Kies de knop **OK** om de pagina te sluiten.  
+     Sluit de pagina.  
 
 7.  Selecteer op de pagina **Projecttaakregels** de optie **Taak 2000** en open de bijbehorende optie **Projectplanningsregels**.  
 
@@ -448,10 +454,10 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
     |Lijn|Regelsoort|Planningsdatum|Soort|Nr.|Aantal|  
     |----------|---------------|-------------------|----------|---------|--------------|  
-    |1|Schema|(datum van vandaag)|Resource|Tricia|120|  
+    |1|Schema|(datum van vandaag)|Bron|Tricia|120|  
     |2|Schema|(datum van vandaag)|Artikel|70104|10|  
 
-     Kies de knop **OK** om de pagina te sluiten. U ziet op de pagina **Projecttaakregels** dat de planningsbedragen zijn bijgewerkt.  
+     Sluit de pagina. U ziet op de pagina **Projecttaakregels** dat de planningsbedragen zijn bijgewerkt.  
 
 8.  Selecteer **taak 3000** op de pagina **Projecttaakregels**.  
 9. Maak een planningsregel met de volgende informatie:  
@@ -463,7 +469,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
     -   **Aantal**: **1**  
     -   **Eenheidsprijs**: **5000**  
 
-     Kies de knop **OK** om de pagina te sluiten.  
+     Sluit de pagina.  
 
 10. Maak een soortgelijke planningsregel voor projecttaak 4000.  
 

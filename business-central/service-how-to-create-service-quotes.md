@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 44ffab92930237c5496860771f41b4951b15b0ff
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e3689096a2bcdfed5ceb92a2fc9163549f2d53de
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250676"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315936"
 ---
 # <a name="create-service-quotes"></a>Serviceoffertes maken:
 U kunt serviceoffertes als de basis voor serviceorders zien. Ze zijn zelfs vrijwel identiek. Ze bevatten beide informatie, bijvoorbeeld over wie de klant is, het soort order, het artikel dat service vereist, facturerings- en verzendingsgegevens, en informatie over het werkelijke servicewerk.

@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000775"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315600"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] biedt meerdere manieren om datums en tijden in te voeren, inclusief krachtige functies die gegevensinvoer versnellen of u helpen complexe agenda-expressies te schrijven. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
 
 ## <a name="check-your-region-and-language-settings"></a>Uw regio- en taalinstellingen controleren
-
-Op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 " Ga direct naar de pagina met uw gebruikersinstellingen in Business Central") worden de **Regio** en de **Taal** opgegeven die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert.
+De pagina **Mijn instellingen** geeft de **Regio** en **Taal** op die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert.
 
 -   De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
 
@@ -51,7 +50,7 @@ Een veld waarbij een kalenderpictogram wordt weergegeven, kan worden ingesteld m
 
 ![Datumvelden](media/ui-date-field.png "Voorbeeld van een datumveld")
 
-Zie ook [Toetsenbordsneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md#calendarshortcuts)
+Zie ook [Sneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md#calendarshortcuts).
 
 ### <a name="day-week-year-pattern"></a>Dag\-week\-jaar patroon
 
@@ -85,7 +84,7 @@ De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u
 
 Met de werkdatumfunctie kunt u transacties vastleggen met een datum die afwijkt van de huidige datum.
 
-Het woord voor 'werkdatum' in de taal die is ingesteld door de instelling **Taal**, stelt de datum in op de huidige ingestelde werkdatum die wordt opgegeven op de pagina [**Mijn instellingen**](https://businesscentral.dynamics.com?page=9176 "Ga direct naar de pagina met uw gebruikersinstellingen in Business Central"). U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin, bijvoorbeeld 'w' of 'werk'.
+Het woord voor 'werkdatum' in de taal die is ingesteld door de instelling **Taal**, stelt de datum in op de huidige ingestelde werkdatum die wordt opgegeven op de pagina **Mijn instellingen**. U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin, bijvoorbeeld 'w' of 'werk'.
 
 Als u geen werkdatum hebt gedefinieerd, wordt de huidige datum als de werkdatum gebruikt. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.
 
@@ -129,8 +128,8 @@ In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en da
 |**Betekenis**|**Voorbeeldexpressie (datum)**|**Gegevens opgenomen in het filter**|
 |-----------|---------------------|--------------------|
 |Interval|15.12.00..15.01.01<br /><br />..15.12.00<br /><br />p1..p4|Records met datums tussen 15.12.00 en 15.01.01.<br /><br />Records met datums van 15.12.00 of eerder.<br /><br />Datumbereik dat de tweede, derde en vierde boekhoudperiode bevat, bijvoorbeeld 1.1.20..30.4.20..|
-|Of/of|15.12.00|16.12.00|Records met datums van of 15.12.00 of 16.12.00. Als er records zijn met datums op beide dagen, worden ze allemaal weergegeven.|
-|Combinatie|15.12.00|01.12.00..10.12.00  \n..14.12.00|30.12.00..|Records met datums van 15.12.00 of op datums in de periode 01.12.00 t/m 10.12.00.  \Records met datums van 12.14.00 of eerder, of datums van 12.30.00 of later. Dit wil zeggen, alle records, behalve records met datums tussen 15.12.00 en 29.12.00.|
+|Of/of|12 15 00\|12 16 00|Records met datums van of 15.12.00 of 16.12.00. Als er records zijn met datums op beide dagen, worden ze allemaal weergegeven.|
+|Combinatie|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Records met datums van 15.12.00 of op datums in de periode 01.12.00 t/m 10.12.00.  <br /><br />Records met datums van 12-14 00 of eerder, of datums van 12 30 00 of later. Dit wil zeggen, alle records, behalve records met datums tussen 12 15 00 en 12 29 00.|
 
 U kunt iedere geldige indeling in datumbereikfilters gebruiken. Bijvoorbeeld maa14 3..v 4p, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.
 

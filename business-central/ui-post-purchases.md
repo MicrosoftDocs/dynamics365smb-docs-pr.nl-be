@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 0fccda42a69cd1d1d7129380518890fac5b8986c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921350"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315096"
 ---
 # <a name="posting-purchases"></a>Inkopen boeken
 In de **Boekingsgroep** op een inkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
@@ -39,7 +39,7 @@ Voordat u gaat boeken, kunt u een controlelijst afdrukken met alle informatie ui
 > [!IMPORTANT]  
 >   Tijdens het boeken van een order kunt u zowel een ontvangst als een factuur maken. Deze kunt u tegelijkertijd, maar ook onafhankelijk van elkaar maken. U kunt ook een gedeeltelijke ontvangst en een gedeeltelijke factuur maken door de velden **Te ontvangen aantal** en **Te factureren aantal** op de afzonderlijke inkooporderregels in te vullen voordat u de boeking uitvoert. U kunt geen factuur maken voor iets dat niet is ontvangen. Dit betekent dat u pas kunt factureren als er een ontvangst is vastgelegd, of u moet tegelijkertijd ontvangen en factureren.
 
-U kunt de optie Boeken of Boeken en afdrukken kiezen. Als u ervoor kiest om te boeken en af te drukken, wordt een lijst afgedrukt nadat de order is geboekt. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken.
+U kunt de optie Boeken of Boeken en afdrukken kiezen. Als u ervoor kiest om te boeken en af te drukken, wordt een lijst afgedrukt nadat de order is geboekt. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
 
 Na de boeking worden de geboekte inkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Leveranciersposten**, **Grootboekposten**, **Artikelposten**, **Geboekte inkoopontvangsten** en **Geboekte inkoopfacturen**.
 
@@ -47,8 +47,9 @@ U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het veld **B
 
 ## <a name="see-also"></a>Zie ook
 [Geboekte documenten bewerken](across-edit-posted-document.md)  
+[Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Vertel me gebruiken om functies en informatie te vinden](ui-search.md)  
+[Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

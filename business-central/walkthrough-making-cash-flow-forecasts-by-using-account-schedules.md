@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c09eedbb812df909a43e514dc462dcf8c1cf182a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249319"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314856"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
 In dit scenario wordt beschreven hoe u rapportageschema's kunt maken maken van cashflowprognoses. Rapportageschema's voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de rapportageschema's kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
@@ -67,12 +67,13 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
     > [!NOTE]  
     >  Met de functie **CF rekeningen invoegen** kunt u snel de cashflowrekeningen in het schema met cashflowrekeningen markeren en deze naar rapportageschemaregels kopiëren.  
 
-    |Rijnr.|Beschrijving|Samentellingssoort|Samentelling|Rijsoort|Bedragsoort|Weergeven|  
-    |-------|-----------|-------------|--------|--------|---  ------|----| |C10|Bedrag|Mutatie|Posten|Nettobedrag|Altijd|  
-    |C20|Bedrag tot datum|Saldo t/m datum|Posten|Nettobedrag|Altijd|  
-    |C30|Volledig boekjaar|Volledig boekjaar|Posten|Nettobedrag|Altijd|  
+    |Rijnr.|Omschrijving|Samentellingssoort|Samentelling|Rijsoort|Bedragsoort|Weergeven|  
+    |-------|-----------|-------------|--------|--------|-----------|----|
+    |K10|Bedrag|Mutatie|Posten|Nettobedrag|Altijd|  
+    |K20|Bedrag tot datum|Saldo t/m datum|Posten|Nettobedrag|Altijd|  
+    |K30|Volledig boekjaar|Volledig boekjaar|Posten|Nettobedrag|Altijd|  
 
-4.  Kies de knop **OK**.  
+4.  Kies de knop **Ok**.  
 
 ## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>De kolomindeling toewijzen aan de naam van het rekeningstelsel  
 Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.  

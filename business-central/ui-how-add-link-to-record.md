@@ -1,59 +1,83 @@
 ---
-title: Vanuit een record naar externe gegevens of programma's koppelen | Microsoft Docs
+title: Bijlagen, koppelingen en notities aan records toevoegen | Microsoft Docs
 description: Koppel een hyperlink aan een document of een website aan een bepaalde record, zoals een klant of document.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/12/2019
-ms.author: jswymer
-ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629769"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315288"
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Koppelingen naar websites, documenten of programma's voor records toevoegen
-Voor een bepaalde record, zoals een klant, document of verkooporder, kunt u een koppeling naar een extern document, een website of een programma toevoegen. Of u wilt een koppeling die wordt geopend, e-mailen naar een bepaalde geadresseerde als u het selecteert. De kaartpagina voor sommige records, zoals klanten- en leverancierskaarten, bevatten een veld **Startpagina** waarin u een internetadres (URL) kunt opgeven. Als u andere koppelingen wilt opnemen, kunt u de methode gebruiken die in dit artikel wordt beschreven.  
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
-> [!IMPORTANT]
-> Momenteel is deze mogelijkheid alleen beschikbaar in [!INCLUDE [prodshort](includes/prodshort.md)] on-premises implementaties met de oude Dynamics NAV Windows-client.  
+In het feitenblok op de meeste kaarten en documenten kunt u bestanden bijvoegen, koppelingen toevoegen en notities schrijven. Voor koppelingen en notities kunt u dit ook op de lijstpagina doen door eerst de bijbehorende regel te selecteren.
 
-Stel dat u afgedrukte facturen van leveranciers ontvangt. U kunt deze scannen en als PDF-bestanden opslaan op een SharePoint-site. Vervolgens kunt u in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] een koppeling vanuit een inkoopfactuur naar de betreffende factuur in SharePoint maken. Ook kunt u een koppeling maken van een artikelkaart naar de overeenkomstige pagina in de onlinecatalogus van uw leverancier.
+Als u een van deze bijgevoegde informatietypen wilt bekijken of wijzigen, moet u eerst het tabblad **Bijlagen** openen in het feitenblok. Het getal achter de titel van het tabblad geeft aan hoeveel bijgevoegde bestanden, koppelingen of notities er zijn voor de kaart of het document.
 
-## <a name="to-add-a-link-on-a-record"></a>Een koppeling aan een record toevoegen   
+Bijlagen, koppelingen en notities blijven gekoppeld terwijl de kaart of het document wordt verwerkt in andere staten, zoals van een lopende verkooporder naar een geboekte verkoopfactuur. Geen van de bijlagetypen wordt echter door het systeem uitgevoerd, bijvoorbeeld bij het afdrukken of bij het opslaan in een bestand.
 
-1.  Open de record waaraan u de koppeling wilt koppelen, zoals een klantenkaart of een verkooporder. Als u de koppeling aan een bepaalde regel wilt koppelen, bijvoorbeeld aan een regel in een dagboek, selecteert u de regel.  
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Een bestand bijvoegen bij een inkoopfactuur
+U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-2.  Kies de actie **Koppelingen** om de pagina **Koppelingen** te openen met alle koppelingen die aan die record zijn toegevoegd.
+> [!NOTE]
+> Bestanden die zijn gekoppeld met de functie Inkomende documenten, worden niet opgenomen op het tabblad **Bijlagen**. Zie voor meer informatie [Inkomende documenten](across-income-documents.md).
 
-3. Als u een nieuwe koppeling wilt toevoegen, kiest u **+nieuw**.
+De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-4.  Voer in het veld **Koppelingsadres** het volgende in
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+2. Open de verkooporder waaraan u een bestand wilt koppelen.
+3. Open het feitenblok **Bijlagen**.
+4. Kies de waarde achter het veld **Documenten**, zoals '0'.
+5. Kies op de pagina **Gekoppelde documenten**, in het veld **Bijlage** de knop **Bestand selecteren**.
+5. Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.
 
-    -   Als u een koppeling met een bestand op uw computer of netwerk wilt toevoegen, voert u het volledige pad en de bestandsnaam in, bijvoorbeeld **C:\My Documents\invoice1.doc**.
-    -   Als u een koppeling met een website wilt toevoegen, voert u het internetadres (URL) in, bijvoorbeeld **www.microsoft.com**.
-    -   Als u een koppeling met een programma wilt toevoegen, voert u een bepaalde tekenreeks in om het programma te openen. Als u OneNote op een bepaalde pagina wilt openen, voert u bijvoorbeeld **onenote:///C:\My Documents/test.one** in. Als u Outlook wilt openen met een nieuwe lege e-mail naar een bepaalde alias, voert u **mailto:testalias** in.  
+Het bestand wordt nu gekoppeld aan de inkoopfactuur.
 
-5.  Vul het veld **Beschrijving** in met informatie over de koppeling.  
+## <a name="to-add-a-link-from-an-item-card"></a>Een koppeling toevoegen vanuit een artikelkaart
+U kunt een koppeling vanuit een kaart of document toevoegen aan een URL of pad. Dit is bijvoorbeeld handig als u een artikelkaart wilt koppelen aan de artikelcatalogus van de leverancier.
 
-6.  Kies de knop **Opslaan**.  
+De volgende procedure is gebaseerd op een artikelkaart. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-## <a name="to-delete-a-link-from-a-record"></a>Een koppeling uit een record verwijderen  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer het item waaruit u een koppeling wilt toevoegen en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
+3. Kies in de **Koppelingen** het pictogram **+**.
+4. Voer in het veld **Koppelingsadres** de koppeling in.
 
-Als u een koppeling wilt verwijderen, kunt u op de pagina **Koppelingen** eerst **…** en vervolgens **Verwijderen** selecteren.
+    - Als u een koppeling wilt maken met een bestand op uw computer of netwerk, voert u het volledige pad en de bestandsnaam in, bijvoorbeeld **C:\My Documents\invoice1.doc**.
+    - Als u een koppeling met een website wilt toevoegen, voert u het internetadres (URL) in, bijvoorbeeld **www.microsoft.com**.
+    - Als u een koppeling met een programma wilt toevoegen, voert u een bepaalde tekenreeks in om het programma te openen. Als u Outlook bijvoorbeeld wilt openen met een nieuwe lege e-mail naar een bepaalde alias, voert u **mailto:testalias** in.  
 
-Als u één record verwijdert, bijvoorbeeld een verkooporderregel, een verkooporder of een klant, worden alle koppelingen verwijderd die aan die record zijn gekoppeld. Als u records echter verwijdert met een batchtaak, zoals de batchtaak **Gefact. verk.-orders verw.**, worden de koppelingen nog wel opgeslagen in de database. U kunt ze uit de database verwijderen door de code-unit **Bestandskoppelingen zonder recordreferentie verwijderen** uit te voeren. Als u dit wilt doen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Koppelingen zonder recordreferentie verwijderen** in en kiest u vervolgens de gerelateerde koppeling.   
+5. Voer in het veld **Beschrijving** informatie over de koppeling in.  
+6. Kies de knop **Ok**.
 
-<!-- ### To run delete orphaned record links  
+De koppeling is nu gekoppeld aan de artikelkaart.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+## <a name="to-write-a-note-on-a-sales-order"></a>Een notitie over een klantorder schrijven
+U kunt bijvoorbeeld een notitie op een document of kaart schrijven om speciale instructies aan andere gebruikers van het document of de kaart te communiceren. U kunt bestandskoppelingen en URL's opnemen in notities.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+> [!NOTE]
+> Opmerkingen over het tabblad **Bijlagen** zijn niet gerelateerd aan interne notitiefunctionaliteit, die voornamelijk wordt gebruikt om te communiceren tussen werkstroomgebruikers. Zie voor meer informatie [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md).
+
+De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op alle andere ondersteunde documenten en kaarten.
+
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de verkooporder waarin u een notitie wilt schrijven en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
+3. Kies in de sectie **Notities** het pictogram **+**.
+4. Schrijf in het veld **Notitie** tekst, zoals "Dit is een dringende bestelling."
+5. Kies de knop **Ok**.
+
+De notitie is nu aan de verkooporder toegevoegd.
 
 ## <a name="see-also"></a>Zie ook  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Inkomende documenten](across-income-documents.md)  
+[Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  

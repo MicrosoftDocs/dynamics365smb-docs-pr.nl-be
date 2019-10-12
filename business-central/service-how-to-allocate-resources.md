@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 79f4d6a549716011a5f01b3b8b7d6b065d1af295
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0acb72f9c083b262251f249d1004b333b911c3c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252002"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316070"
 ---
 # <a name="allocate-resources"></a>Resources toewijzen
 Het belangrijkste element van servicebeheer bestaat uit de personen die de service uitvoeren. U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat de juiste personen aan de betreffende projecten worden toegewezen. Toewijzingen kunnen worden gebaseerd op serviceregio's waarin de personen zich bevinden of waarin de service plaatsvindt. U kunt resources ook groeperen in reactie op serviceaanvragen. Zie [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) voor meer informatie.

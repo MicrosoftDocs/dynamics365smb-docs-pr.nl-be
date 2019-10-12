@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921419"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315696"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
@@ -37,11 +37,11 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 |Archiveer verkoop- en inkooporders, offertes, raamcontracten, retourorders en raamcontracten en gebruik het gearchiveerde document om het document waaruit het is gearchiveerd, opnieuw te maken.|[Documenten archiveren](across-how-to-archive-documents.md)|
 | Standaardteksten instellen zodat u standaardtekst kunt uitbreiden door extra regels toe te voegen en voorwaarden voor het gebruik van de extra regels kunt instellen. |[Uitgebreide artikeltekst toevoegen](ui-how-define-ext-text.md) |
 |Taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.|[Gebruikerstaken definiëren](across-user-tasks.md)|
-|Koppel afbeeldingen, documenten en andere soorten bestanden aan alle kaarten, zoals de artikelkaart en de projectkaart, en koppel bestanden aan alle soorten verkoop- en inkoopdocumenten.|[Bestanden koppelen een kaarten en documenten](across-attach-document-master-data.md)|
 |Werken met uw Business Central-gegevens in Excel.|[Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)|
 |Begrijpen wat er gebeurt wanneer u de actie **Boeken** kiest.|[Documenten en dagboeken boeken](ui-post-documents-journals.md)|
+|Meerdere verkoop- of inkoopdocumenten samen boeken, onmiddellijk of zoals gepland.|[Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)|  
 |Bekijk het resultaat van de boeking voordat u boekt.|[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)|
-|Bewerk geselecteerde velden in geboekte verkoop- of inkoopdocumenten.|[Geboekte documenten bewerken](across-edit-posted-document.md)| 
+|Bewerk geselecteerde velden in geboekte verkoop- of inkoopdocumenten.|[Geboekte documenten bewerken](across-edit-posted-document.md)|
 |Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met diversendagboeken](ui-work-general-journals.md) |
 | Plan een rapport voor uitvoering op een bepaalde datum en tijd. |[Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport) |
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|
