@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306064"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554146"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Artikelposten verwijderen en opnieuw toepassen
 U kunt op de pagina **Vereffeningsvoorstel** bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.  
@@ -61,7 +61,7 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening opnieuw vereffenen met het Vereffeningsvoorstel  
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  De pagina **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
-3.  Als u posten opnieuw wilt vereffenen die zijn verwijderd na het openen van het voorstel, selecteert u de artikelpost die u opnieuw wilt vereffenen. Kies op het tabblad **Acties** in de groep **Functies** de optie **Opnieuw vereffenen**.  
+3.  Als u items wilt terugzetten die sinds het openen van de werkmap zijn verwijderd, selecteert u het item in het dagboek dat u wilt terugzetten en kiest u de actie**Opnieuw toepassen**.  
 
     > [!NOTE]  
     >  Deze vereffening van het oorspronkelijke aantal gebeurt ook automatisch wanneer u de pagina **Vereffeningsvoorstel** sluit.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311704"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553928"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Werken met servicecontracten en servicecontractoffertes
 U kunt een servicecontract handmatig of uit een servicecontractofferte maken. U kunt een servicecontractofferte gebruiken als voorloper van een servicecontract, waarin uw bedrijf een aanbieding doet aan de klant en daarvoor goedkeuring van de klant verkrijgt, voordat u deze kunt omzetten in een servicecontract. De procedures voor het maken van een servicecontract of een servicecontractofferte zijn vergelijkbaar.  
@@ -73,7 +73,7 @@ U kunt een contractservicecreditnota gebruiken wanneer een klant een vooruitbeta
 
  Als u automatisch een creditnota wilt maken wanneer u contractregels verwijdert, moet u het selectievakje **Automatische creditnota's** inschakelen op het sneltabblad **Factuurdetails** op de pagina **Servicecontract**.  
 
- Om handmatig een creditnota te maken wanneer contractregels worden verwijderd van een servicecontract, kies op de pagina **Servicecontract** in het tabblad **Acties** in de groep **Functies** de optie **Creditnota**.  
+ Als u handmatig een creditnota wilt maken wanneer contractregels uit een servicecontact zijn verwijderd, kiest u op de pagina **Servicecontract** de actie **Creditnota**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Contracten bijwerken en evalueren
 Het kan voorkomen dat u de voorwaarden van een contract moet wijzigen nadat het contract is gemaakt. In dergelijke gevallen kunt u het desbetreffende contract meestal openen op de pagina **Servicecontract** en de gewenste wijzigingen aanbrengen.  
@@ -99,12 +99,12 @@ U moet mogelijk contractregels uit het servicecontract verwijderen als u de over
 4. Kies de contractregel die u wilt verwijderen. Vul het veld **Vervaldatum van contract** in met de datum vanaf wanneer u de regel wilt verwijderen. U kunt bijvoorbeeld de datum invoeren waarop het serviceartikel defect is geraakt.  
 5. Kies de actie **Contractregels verwijderen**. De pagina **Contractregels verwijderen** wordt geopend.  
 6. Vul de standaardfilters **Contractnr.**, **Serviceartikelnr.** en **Contractsoort** in. Desgewenst kunt u meer filters toepassen of bestaande filters wijzigen.  
-7. Vul de velden van het sneltabblad **Opties** in. In het veld **Actie** selecteert u **Regels verwijderen**.  
+7. Vul de velden op het sneltabblad **Opties** in en kies de actie **Regels verwijderen**.  
 
 > [!NOTE]  
 >  Als het contract niet gedetailleerd is, moet u de waarde in het veld **Jaarlijks bedrag** op het sneltabblad **Factuurdetails** op de pagina **Servicecontract** bijwerken om het verlies van het serviceartikel uit het contract aan te geven.  
 >   
->  Als het contract gedetailleerd en vooruitbetaald is, en hebt u facturen voor het contract geboekt, kunt u een creditnota voor het contract maken. Kies op het tabblad **Acties** in de groep **Functies** de optie **Creditnota maken**. Dit is nodig als het selectievakje in het veld **Automatische creditnota's** op het sneltabblad **Factuurdetails** is geselecteerd. In dat geval wordt er automatisch een creditnota gemaakt wanneer u een contractregel verwijdert.
+>  Als het contract gedetailleerd en vooruitbetaald is, en hebt u facturen voor het contract geboekt, kunt u een creditnota voor het contract maken. Kies de actie **Creditnota maken**. Dit is nodig als het selectievakje in het veld **Automatische creditnota's** op het sneltabblad **Factuurdetails** is geselecteerd. In dat geval wordt er automatisch een creditnota gemaakt wanneer u een contractregel verwijdert.
 
 ## <a name="service-line-cost-and-value"></a>Regelkostprijs en -waarde voor service
 Op een servicecontractregel worden de bedragen bij **Regelkostprijs** en **Regelwaarde** berekend zoals in de volgende tabellen wordt beschreven.
@@ -150,7 +150,7 @@ Mogelijk moet u de eigenaar van een servicecontract wijzigen Als een servicearti
 4. In de velden **Contractnr.** en **Serviceartikelnr.** kunt u de nummers bekijken van het contract en het serviceartikel van de geselecteerde klant. Als de klant eigenaar is van meerdere contracten waarin meerdere serviceartikelen zijn opgenomen, is de waarde van deze velden **Meervoudig**. Als u de lijst met verwante contracten of serviceartikelen wilt bekijken, selecteert u deze waarden.  
 5. Selecteer in het veld **Nieuw klantnr.** de nieuwe klant.  
 6. In het veld **Nieuwe verzendcode** kiest u het adres.  
-7. Kies **OK** om de klant en verzendcode van de servicecontracten te wijzigen.  
+7. Kies de knop **OK** om de klant en de verzendcode van de servicecontracten te wijzigen.  
 8. Kies de actie **Contract vergrendelen** om het contract te vergrendelen en ervoor te zorgen dat de wijzigingen in de contracten worden opgenomen.  
 
 ## <a name="to-update-a-service-contract-price"></a>Servicecontractprijzen bijwerken  

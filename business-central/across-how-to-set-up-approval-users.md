@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305296"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554485"
 ---
 # <a name="set-up-approval-users"></a>Goedkeuringsgebruikers instellen
 Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. Op de pagina **Gebruikersinstellingen voor goedkeuring** kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is.  
@@ -49,10 +49,10 @@ Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomge
     |**Onbeperkt aanvragen van goedkeuring**|Geef aan dat de gebruiker in het veld **Gebruikers-ID** alle inkoopoffertes kan goedkeuren, ongeacht het bedrag.<br /><br /> Als u dit selectievakje inschakelt, kunt u het veld **Limiet voor goedkeuring aanvraagbedrag** niet invullen.|  
     |**Vervanger**|Selecteer de gebruikers-id van de gebruiker die aanvragen moet goedkeuren die zijn ingediend door de gebruiker in het veld **Gebruikers-ID** als de gebruiker in **Fiatteur-id** niet beschikbaar is. **Opmerking:** de vervanger kan de gebruiker in het veld **Vervanger**, de directe fiatteur of de goedkeuringsbeheerder zijn, in die volgorde van prioriteit. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md).|  
     |**E-mailadres**|Geef het e-mailadres op van de gebruiker in het veld **Gebruikers-ID**.|  
-    |**Beheerder goedkeuringssysteem**|Geef de gebruiker op die rechten heeft om werkstromen voor goedkeuring te deblokkeren, bijvoorbeeld door goedkeuringsaanvragen te delegeren naar nieuwe vervangende fiatteurs en door vervallen goedkeuringsaanvragen te verwijderen.|  
+    |**Beheerder goedkeuringssysteem**|Geef de gebruiker op die rechten heeft om werkstromen voor goedkeuring te deblokkeren, bijvoorbeeld door goedkeuringsaanvragen te delegeren naar nieuwe vervangende fiatteurs en door vervallen goedkeuringsaanvragen te verwijderen.|
 
-    > [!NOTE]  
-    >  De werking van het veld **Limietsoort van fiatteur** geldt alleen voor toepassingsgebieden waar limieten kunnen worden gedefinieerd, met name verkoop- en inkoopgoedkeuringen. Enig ander type goedkeuring waar limieten niet van toepassing zijn, werkt altijd zoals beschreven voor de optie **Directe fiatteur**.  
+    > [!Note]
+    > Er kan maar één persoon goedkeuringsbeheerder zijn.|  
 
 3. Kies de actie **Gebruikersinstellingen goedkeuring testen** om de instelling van gebruikers in het goedkeuringsproces te testen.  
 4. Herhaal stap 2 en 3 voor elke gebruiker die u wilt instellen als goedkeuringsgebruiker.  

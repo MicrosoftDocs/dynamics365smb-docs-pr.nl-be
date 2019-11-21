@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2019
-ms.openlocfilehash: 22471a6e0281f6f7aa4e9c9bbf0b2d9c5a0fd710
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d25dc4c27be6069782ff30e785f884ee406d2e4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309304"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553954"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren
 U kunt profielvragenlijsten instellen die u wilt gebruiken wanneer u gegevens voor de profielen van de contacten invoert. Binnen elke vragenlijst kunt u de verschillende vragen instellen die u aan uw contacten wilt stellen.  
@@ -24,11 +24,11 @@ U kunt ook de vragenlijst uitvoeren om automatisch een aantal vragen te beantwoo
 
 ## <a name="to-add-a-profile-questionnaire"></a>Een profielvragenlijst toevoegen
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijstinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies op het tabblad **Start** in de groep **Nieuw** de optie **Nieuw**.  
-3.  Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2.  Kies de actie **Nieuw**.  
+3.  Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Vragen toevoegen aan een profielvragenlijst
-1.  Kies de betreffende vragenlijst en kies op het tabblad **Start** in de groep **Verwerken** de optie **Vragenlijstinstellingen bewerken**.  
+1.  Kies de desbetreffende profielvragenlijst en kies de actie **Instelling van vragenlijst bewerken**.  
 2.  Kies op de eerste lege regel in het veld **Soort** de optie **Vraag**, en typ vervolgens uw vraag in het veld **Omschrijving**. Vul de overige velden op de regel in.  
 3.  Klik op de volgende lege regel in het veld **Soort** en kies de optie **Antwoord**. Typ vervolgens uw antwoord in het veld **Omschrijving**.  
 4.  Selecteer de prioriteit in het veld **Prioriteit**. In de velden **Van waarde** en **Naar waarde** definieert u een puntenbereik. Contacten die punten krijgen binnen het gedefinieerde bereik ontvangen het antwoord.  

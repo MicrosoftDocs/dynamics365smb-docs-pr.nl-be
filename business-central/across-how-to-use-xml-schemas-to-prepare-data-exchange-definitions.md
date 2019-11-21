@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305128"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554458"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
 Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk te maken, kunt u XML-schema's gebruiken om te bepalen welke gegevenselementen u wilt uitwisselen met [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiervoor opent u de pagina **XML-schemaviewer** en laadt u het XML-schemabestand, selecteert u de relevante gegevenselementen en initialiseert u vervolgens een definitie voor gegevensuitwisseling of een XMLport.  
@@ -40,9 +40,9 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 1.  Zorg dat het relevante XML-schemabestand beschikbaar is. De bestandextensie is .xsd.  
 
-2.  Voer in het vak **Zoeken** **XML-schema's** in en kies de gerelateerde koppeling.  
+2.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), voer **XML-schema's** in en kies de desbetreffende koppeling.  
 
-3.  Kies op het tabblad **Start** in de groep **Nieuw** de optie **Nieuw**.  
+3.  Kies de actie **Nieuw**.  
 
 4.  Vul de velden in zoals beschreven in de volgende tabel.  
 
@@ -53,7 +53,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
      Het veld **Doelnaamspace** bevat elke naamruimte in het XML-schemabestand dat is geladen voor de regel.  
 
-5.  Kies op het tabblad **Start** in de groep **Verwerken** de optie **Schema laden** en selecteer vervolgens het XML-schemabestand.  
+5.  Kies de actie **Schema laden** en selecteer het XML-schemabestand.  
 
      Wanneer het bestand is geladen, worden de overige velden op de regel gevuld met informatie uit het bestand en wordt het selectievakje **Schema is geladen** ingeschakeld.  
 
@@ -62,7 +62,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Knooppunten in een XML-schema selecteren of wissen  
 
-1.  In het vak **Zoeken** voert u **XML-schemaviewer** in en vervolgens kiest u de gerelateerde koppeling.  
+1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), typ **XML-schemaviewer** en kies de desbetreffende koppeling.  
 
 2.  Vul de velden in voor de kop, zoals in de volgende tabel is beschreven.  
 
@@ -77,7 +77,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
      U kunt ook met de rechtermuisknop op een knooppunt klikken en **Alles uitvouwen** kiezen.  
 
-4.  Kies op het tabblad **Start** in de groep **Weergeven** een van de volgende acties om te wijzigen welke knooppunten worden weergegeven.  
+4.  Kies een van de volgende acties om te wijzigen welke knooppunten moeten worden weergegeven.  
 
     |**Actie**|Omschrijving|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
     |**Niet-verplicht verbergen**|Alleen knooppunten die elementen vertegenwoordigen die vereist zijn volgens het XML-schema, worden weergegeven. Deze knooppunten worden doorgaans aangegeven met een **1** in het veld **MinOccurs**.<br /><br /> Kies **Alles weergeven** om de weergave om te keren.|  
     |**Niet-geselecteerd verbergen**|Alleen knooppunten waarbij het selectievakje **Geselecteerd** is ingeschakeld, worden weergegeven.<br /><br /> Kies **Alles weergeven** om de weergave om te keren.|  
 
-5.  Kies op het tabblad **Home** in de groep **Beheren** de optie **Bewerken**.  
+5.  Kies de actie **Bewerken**.  
 
 6.  Geef met het selectievakje **Geselecteerd** voor elk knooppunt aan of u wilt dat het element wordt ondersteund in de definitie voor gegevensuitwisseling voor het gerelateerde SEPA-bankbestand.  
 
@@ -100,13 +100,13 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>De definitie van een gegevensuitwisseling genereren die is gebaseerd op een XML-schema  
 
-1.  In het vak **Zoeken** voert u **XML-schema's** in en vervolgens kiest u de gerelateerde koppeling.  
+1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), typ **XML-schema's** en kies de desbetreffende koppeling.  
 
-2.  Selecteer het betreffende XML-schema en kies op het tabblad **Start** in de groep **Verwerken** de optie **XML-schema-viewer openen**.  
+2.  Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen**.  
 
 3.  Zorg dat de relevante knooppunten zijn geselecteerd. Zie voor meer informatie het gedeelte "Knooppunten selecteren of wissen in een XML-schema".  
 
-4.  Kies op de pagina **XML-schemaviewer** op het tabblad **Start** in de groep **Verwerken** de optie **Definities van gegevensuitwisseling genereren**.  
+4.  Kies op de pagina **XML-schemaviewer** de actie **Definitie voor gegevensuitwisseling genereren**.  
 
  Op de pagina **Uitwisselingsdefinitie van boeking** wordt een definitie voor gegevensuitwisseling gemaakt die u kunt invullen om op te geven welke elementen in het bestand moeten worden toegewezen aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
 
@@ -115,15 +115,15 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Een XMLport genereren die is gebaseerd op een XML-schema  
 
-1.  In het vak **Zoeken** voert u **XML-schema's** in en vervolgens kiest u de gerelateerde koppeling.  
+1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), typ **XML-schema's** en kies de desbetreffende koppeling.  
 
-2.  Selecteer het betreffende XML-schema en kies op het tabblad **Start** in de groep **Verwerken** de optie **XML-schema-viewer openen**.  
+2.  Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen**.  
 
 3.  Geef in het veld **Nieuw XMLport-nr.** het nummer op dat het nieuwe XMLport-object krijgt wanneer het wordt gegenereerd.  
 
-4.  Zorg dat de relevante knooppunten zijn geselecteerd. Zie voor meer informatie het gedeelte "Knooppunten selecteren of wissen in een XML-schema".  
+4.  Zorg dat de relevante knooppunten zijn geselecteerd. Zie de sectie “Knooppunten in een XML-schema selecteren of wissen” voor meer informatie.  
 
-5.  Kies op het tabblad **Start** in de groep **Verwerken** de optie **XMLport genereren** en sla het object als een .txt-bestand op in een geschikte vestiging.  
+5.  Kies de actie **XMLport genereren** en sla het object op een geschikte locatie als een .txt-bestand op.  
 
 6. Importeer de nieuwe XMLport in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-ontwikkelingsomgeving en compileer deze.
 

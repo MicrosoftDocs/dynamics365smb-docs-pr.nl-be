@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302200"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554170"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Procedure: Intrastat instellen en rapporteren
+# <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt de pagina **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
 
 ## <a name="required-and-optional-setups"></a>Vereiste en optionele instellingen
 Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporteren, moet u meerdere zaken instellen:  
 
-* **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage. 
+* **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage.
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
 * **Transactieaardcode**: landen en regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.  
@@ -47,8 +47,8 @@ U kunt de posten exporteren naar een bestand dat u aan de Intrastat-autoriteiten
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Een sjabloon maken voor elk Intrastat-formulier dat u gebruikt.  
-3. Als u batches wilt maken, kiest u het tabblad **Navigeren** en vervolgens **Batches**.  
-4. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Maak een sjabloon voor elk Intrastat-formulier dat u gebruikt.  
+3. Als u batches wilt maken, kiest u de actie **Batches**.  
+4. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Maak een sjabloon voor elk Intrastat-formulier dat u gebruikt.  
 
 > [!Note]
 > In het veld **Statistiekperiode** voert u de statistiekperiode in als getal met vier cijfers. De eerste twee cijfers duiden het jaar aan, de laatste twee cijfers de maand. U kunt bijvoorbeeld 1706 invoeren voor juni 2017.
@@ -76,7 +76,7 @@ In sommige landen, zoals Spanje en het Verenigd Koninkrijk, vereist de belasting
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kiest de actie **Intrastat-controlelijst instellen**.
-3. Klik op de pagina **Intrastat-controlelijst instellen** op **Veldnaam** om het Intrastat-rapportveld te kiezen dat u verplicht wilt maken. 
+3. Klik op de pagina **Intrastat-controlelijst instellen** op **Veldnaam** om het Intrastat-rapportveld te kiezen dat u verplicht wilt maken.
 
 ## <a name="to-report-intrastat"></a>Intrastat rapporteren
 Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstrapport** uitvoeren om te zorgen dat alle gegevens in het dagboek correct zijn. Verplichte velden die u op de pagina **Intrastat-controlelijst instellen** hebt ingesteld en waarvoor waarden ontbreken, worden weergegeven in het feitenblok Fouten en waarschuwingen op de pagina **Intrastat-dagboek**. Vervolgens kunt u een Intrastat-rapport afdrukken als formulier of een bestand maken om naar de belastingdienst in uw land of regio te verzenden.  
@@ -98,7 +98,7 @@ Als u de gegevens wilt ophalen die nodig zijn op het Intrastat-formulier van de 
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam**.  
-3. Als u dit nog niet hebt gedaan, vult u het dagboek handmatig in of kiest u **Regels voorstellen**.  
+3. Als u dit nog niet hebt gedaan, vult u het journaal handmatig in of kiest u de actie **Regels voorstellen**.  
 4. Kies de actie **Hiermee wordt het Intrastat-dagboek afgedrukt**.  
 5. Voeg een filter **Soort** toe in het sneltabblad **Intrastat-dagboekregel** en geef op of dit een **Ontvangst** of **Verzending** is.  
 6. Kies **Verzenden** om het rapport af te drukken.  
@@ -108,9 +108,9 @@ U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, 
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam**.  
-3. Als u dit nog niet hebt gedaan, vult u het dagboek handmatig in of kiest u **Regels voorstellen**.  
+3. Als u dit nog niet hebt gedaan, vult u het journaal handmatig in of kiest u de actie **Regels voorstellen**.  
 4. Kies de actie **Bestand maken**.  
-5. Klik op de pagina van de batchverwerking op **OK**.  
+5. Kies de knop **OK** op de pagina voor de batchtaak.  
 6. Kies **Opslaan**.  
 7. Blader naar de locatie waar u het bestand wilt opslaan, voer de bestandsnaam in en kies **Opslaan**.
 
@@ -119,7 +119,7 @@ Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u de opties wilt zien, kiest u het veld **Batchnaam**.  
-3. Kies de dagboekbatches die moeten worden verwijderd, en kies **Verwijderen**.  
+3. Kies de journaalbatches die u wilt verwijderen en kies de knop **Verwijderen**.  
 
 ## <a name="see-also"></a>Zie ook
 [Financieel beheer](finance.md)

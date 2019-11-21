@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310600"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553978"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
 
@@ -150,19 +150,19 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     |80203|PICK|W-01-0001|20|  
     |80209|PICK|W-01-0001|20|  
 
-4.  Kies op het tabblad **Start** in de groep **Registratie** de optie **Journaal** en kies vervolgens de knop **Ja**.  
+4.  Kies de actie **Registreren** en kies vervolgens de knop **Ja**.  
 
     Synchroniseer vervolgens de nieuwe magazijnposten met de voorraad.  
 
 5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling. De pagina **Artikeldagboek** wordt geopend.  
-6.  Kies op het tabblad **Acties** in de groep **Functies** de optie **Mag.correctie berekenen**.  
+6.  Kies de actie **Magazijnherwaardering berekenen**.  
 7.  Klik op de pagina **Magazijnherwaardering berekenen** op de knop **OK**.  
-8.  Kies op de pagina **Artikeldagboek** op het tabblad **Acties** in de groep **Functies** de optie **Boeken** en kies vervolgens de knop **Ja**.  
+8.  Kies op de pagina **Artikeldagboek** de actie **Boeken** en kies vervolgens de knop **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>De assemblageartikelen maken  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Klik op het tabblad **Start** in de groep **Beheren** op **Nieuw**.  
+2.  Kies de actie **Nieuw**.  
 3.  Maak het eerste assemblageartikel op basis van de volgende gegevens.  
 
     |Veld|Waarde|  
@@ -177,7 +177,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     > [!NOTE]  
     >  Kit A wordt doorgaans geleverd via assembleren op voorraad en heeft daarom een bestelbeleid waardoor het onderdeel vormt van de algemene voorraadplanning.  
 
-4.  Kies op het tabblad **Navigeren** in de groep **Assemblage/Productie** de knop **Assemblage** en vervolgens **Assemblagestuklijst**.  
+4.  Kies de actie **Assembleren** en kies vervolgens **Assemblagestuklijst**.  
 5.  Definieer een assemblagestuklijst voor Kit A met de volgende gegevens.  
 
     |**Soort**|**Nr.**|**Aantal per**|  
@@ -200,7 +200,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     > [!NOTE]  
     >  Kit B wordt gewoonlijk geleverd via assemblage op order en heeft daarom geen bestelbeleid, omdat deze geen deel mag uitmaken van de algemene voorraadplanning.  
 
-7.  Kies op het tabblad **Navigeren** in de groep **Assemblage/Productie** de knop **Assemblage** en vervolgens **Assemblagestuklijst**.  
+7.  Kies de actie **Assembleren** en kies vervolgens **Assemblagestuklijst**.  
 8.  Definieer een assemblagestuklijst voor Kit B met de volgende gegevens.  
 
     |**Soort**|**Nr.**|**Aantal per**|  
@@ -213,7 +213,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 ### <a name="selling-the-assembly-items"></a>De assemblageartikelen verkopen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
-2.  Klik op het tabblad **Start** in de groep **Beheren** op **Nieuw**.  
+2.  Kies de actie **Nieuw**.  
 3.  Maak twee verkooporderregels voor klant 62000, de Onderdelenwinkel, op de werkdatum met de volgende informatie.  
 
     |**Soort**|**Beschrijving**|**Aantal**|Op order te assembleren aantal|Verzenddatum|  
@@ -233,7 +233,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     Pas vervolgens de verkooporder aan.  
 
 4.  Selecteer de verkooporderregel voor drie eenheden van Kit B.  
-5.  Kies op het sneltabblad **Regels** de optie **Regel** en vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
+5.  Kies op het sneltabblad **Regels** de optie **Regel** en kies vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
 6.  Voer op de pagina **Op orderregels assembleren** op de assemblageorderregel voor artikel 80014 in het veld **Aantal per** de waarde **2** in.  
 7.  Selecteer in de planningsregel voor artikel 80210 het veld **Nummer**. Selecteer in plaats hiervan artikel 80209.  
 8.  Maak een nieuwe assemblageorderregel met de volgende gegevens.  
@@ -249,7 +249,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 10. Kies op het sneltabblad **Regels**, **Regel**, **Op order assembleren** en vervolgnes **Prijs samenvoegen**.  
 11. Kies de knop **Ja**. Let op de verhoogde waarde in het veld **Eenheidsprijs excl. btw**.  
 12. Selecteer de verkooporderregel voor 15 eenheden van Kit A.  
-13. Kies op het sneltabblad **Regels** de optie **Regel** en vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
+13. Kies op het sneltabblad **Regels** de optie **Regel** en kies vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
 14. Maak op de pagina **Op orderregels assembleren** een nieuwe assemblageorderregel met de volgende gegevens.  
 
     |Soort|Nr.|Aantal per|  
@@ -259,14 +259,14 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
      Wijzig vervolgens de verzenddatum van de tweede verkooporderregel op basis van het assemblageschema.  
 
 15. Voer op de verkooporderregel voor 15 eenheden van kit A de waarde **27-01-2014** in het veld **Verzenddatum** in.  
-16. Kies op het tabblad **Acties** in de groep **Vrijgeven** de optie **Vrijgeven**.  
-17. Kies op het tabblad **Acties** in de groep **Magazijn** de optie **Mag.-verzending maken**.  
+16. Kies de actie **Vrijgeven**.  
+17. Kies de actie **Mag.-verzending maken**.  
 18. Sluit de verkooporder.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planning voor de niet-beschikbare ATS-artikelen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies op het tabblad **Actie** in de groep **Functies** de optie **Regeneratief plan berekenen**.  
+2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Stel op de pagina **Plan berekenen** de volgende filters in.  
 
     |Begindatum|Einddatum|Nr.|  
@@ -277,7 +277,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Een nieuwe planningsregel wordt gemaakt voor de benodigde assemblageorder van 10 eenheden, die moeten zijn geleverd op 27 januari. Hier hoeft u geen wijzigingen aan te brengen, dus u kunt de order maken.  
 
-5.  Kies op het tabblad **Acties** in de groep **Functies** de optie **Planningsboodschap uitvoeren**.  
+5.  Kies de actie **Planningsboodschap uitvoeren**.  
 6.  Kies op de pagina **Planningsboodschap uitvoeren** het veld **Assemblageorder** en selecteer vervolgens **Assemblageorders maken**.  
 7.  Kies de knop **OK**.  
 
@@ -298,7 +298,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Maak vervolgens een magazijnpickdocument voor alle ATO-assemblageonderdelen die nodig zijn op de magazijnverzending.  
 
-3.  Klik op het tabblad **Acties** in de groep **Functies** op **Pick maken** en kies vervolgens de knop **OK**.  
+3.  Kies de actie **Pick maken** en kies vervolgens de knop **OK**.  
 
     Voer vervolgens de taak van de picker uit.  
 
@@ -309,8 +309,8 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Registreer vervolgens de pick zonder de standaardgegevens te wijzigen.  
 
-6.  Op het tabblad **Acties** in de groep **Functies**, kiest u **Te verwerken aantal automatisch vullen**.  
-7.  Kies op het tabblad **Start** in de groep **Registratie** de optie **Pick registreren**.  
+6.  Kies de actie **Te verwerken aantal autom. invullen**.  
+7.  Kies de actie **Pick registreren**.  
 
     Ga terug naar het uitvoeren van de verzendtaken.  
 
@@ -335,7 +335,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 12. Sluit de pagina **Assemblageorder** en ga terug naar de pagina **Mag. -verzending**.  
 13. Voer op de verzendregel voor de drie eenheden van kit B in het veld **Te verzenden aantal** de waarde **3** in.  
-14. Kies op het tabblad **Acties** in de groep **Boeking** de optie **Verzending boeken** en kies vervolgens **Verzenden**.  
+14. Kies de actie **Verzending boeken** en selecteer de knop **Verzending**.  
 
     Bij deze boeking van een magazijnverzending wordt het volledige verbruiks- en outputaantal van de bijbehorende assemblageorder geboekt, en is het veld **Resterend aantal** leeg. De verkooporderregel voor Kit B wordt bijgewerkt om aan te geven dat de drie eenheden zijn verzonden.  
 
@@ -358,7 +358,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Leg vervolgens vast dat de assemblageorder is voltooid.  
 
-3.  Kies op het tabblad **Navigeren** in de groep **Magazijn** de optie **Magazijnverzendregel op order assembleren**.  
+3.  Kies de actie **Magazijnverzendregel op order assembleren**.  
 4.  Voer op de pagina **Magazijnverzendregel op order assembleren** in het veld **Te verzenden aantal** de waarde **5** in en sluit vervolgens de pagina.  
 
     U ziet op de pagina **Assemblageorder** dat de velden **Te assembleren aantal** en **Te verbruiken aantal** nu zijn gevuld met de output- en verbruiksaantallen die worden geboekt op de verzending.  
@@ -374,8 +374,8 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Maak vervolgens een pickdocument voor het ophalen van de benodigde onderdelen.  
 
-3.  Kies op het tabblad **Acties** in de groep **Vrijgeven** de optie **Vrijgeven**.  
-4.  Klik op het tabblad **Acties** in de groep **Magazijn** op **Magazijnpick maken** en kies vervolgens de knop **OK**.  
+3.  Kies de actie **Vrijgeven**.  
+4.  Kies de actie **Magazijnpick maken** en kies de knop **OK**.  
 
     Voer vervolgens de taak van de picker uit.  
 
@@ -384,12 +384,12 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
      Registreer vervolgens de pick zonder de standaardgegevens te wijzigen.  
 
-7.  Op het tabblad **Acties** in de groep **Functies**, kiest u **Te verwerken aantal automatisch vullen**.  
-8.  Kies op het tabblad **Start** in de groep **Registratie** de optie **Pick registreren**.  
+7.  Kies de actie **Te verwerken aantal autom. invullen**.  
+8.  Kies de actie **Pick registreren**.  
 
     Ga terug naar de assemblageorder om de laatste assemblagetaak uit te voeren.  
 
-9. Kies in de **Assemblageorder** op het tabblad **Acties** in de groep **Boeking** de optie **Boeken** en kies vervolgens de knop **Ja**.  
+9. Kies in **Assemblageorder** de actie **Boeken** en kies vervolgens de knop **Ja**.  
 
     Zoals u ziet, wordt de assemblageorder verwijderd uit de lijst met openstaande orders.  
 
@@ -402,7 +402,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Pick vervolgens de resterende artikelen.  
 
-3.  Klik op het tabblad **Acties** in de groep **Functies** op **Pick maken** en kies vervolgens de knop **OK**.  
+3.  Kies de actie **Pick maken** en kies vervolgens de knop **OK**.  
 
     Voer daarna de laatste taak van de picker uit voor deze magazijnverzending.  
 
@@ -413,8 +413,8 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Registreer vervolgens de pick zonder de standaardgegevens te wijzigen.  
 
-6.  Op het tabblad **Acties** in de groep **Functies**, kiest u **Te verwerken aantal automatisch vullen**.  
-7.  Kies op het tabblad **Start** in de groep **Registratie** de optie **Pick registreren** en kies vervolgens de knop **Ja**.  
+6.  Kies de actie **Te verwerken aantal autom. invullen**.  
+7.  Kies de actie **Pick registreren** en kies vervolgens de knop **Ja**.  
 
     Ga terug naar de magazijnverzending om de laatste taak uit te voeren.  
 
@@ -422,7 +422,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Op de pagina **Mag. -verzending** op de regel voor tien eenheden van kit A ziet u dat de velden **Te verzenden aantal** en **Gepickt aantal** nu de waarde **10** bevatten.  
 
-9. Kies op het tabblad **Acties** in de groep **Boeking** de optie **Verzending boeken** en kies vervolgens **Verzenden**.  
+9. Kies de actie **Verzending boeken** en kies de knop **Verzending**.  
 
     Het magazijnverzendingsdocument wordt verwijderd, waarmee wordt aangegeven dat de betrokken magazijnactiviteiten zijn voltooid. Controleer vervolgens of de verkooporder is verwerkt.  
 

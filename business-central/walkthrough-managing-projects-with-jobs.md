@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314832"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554728"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
 
@@ -173,7 +173,7 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
     |1020|Ontwikkeling|Rekening|  
     |1090|Consultancy totaal|Eindtotaal|  
 
-3.  Kies op het tabblad **Acties**, in de groep **Functies**, de optie **Projecttaken inspringen** om te laten zien dat sommige taken subcategorieën van andere taken zijn.  
+3.  Kies de actie **Projecttaken inspringen** om te laten zien dat sommige taken subcategorieën van andere taken zijn.  
 
  De volgende soorten planningsregel zijn beschikbaar:  
 
@@ -261,7 +261,7 @@ De regels worden nu geboekt.
 4.  Vul op het sneltabblad **Opties** de boekingsdatum in en of u één factuur per taak wilt maken of slechts één factuur voor alle taken.  
 5.  Kies de knop **OK** om de factuur te maken en kies vervolgens de knop **OK** op de bevestigingspagina.  
 
- Nadat Tricia de factuur heeft gemaakt, kan zij toegang hiertoe krijgen vanuit **Verkoop en marketing** onder **Orderverwerking** en extra verwerkingen uitvoeren.  
+ Nadat Tricia de factuur heeft gemaakt, heeft ze hiertoe toegang vanuit bijvoorbeeld het Rolcentrum van de **Verkooporderverwerker**. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Een nieuwe verkoopfactuur boeken  
 

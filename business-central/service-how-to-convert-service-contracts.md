@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316077"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554800"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Servicecontracten met btw-bedragen converteren
 Omdat het wijzigingstool btw-tarief servicecontracten niet kan converteren, moeten deze contracten handmatig worden geconverteerd. In dit onderwerp worden diverse alternatieve methoden beschreven die u voor de conversie van het servicecontract kunt gebruiken.  
@@ -32,9 +32,9 @@ Omdat het wijzigingstool btw-tarief servicecontracten niet kan converteren, moet
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contractbeheer** in en kies vervolgens de gerelateerde koppeling.  
 2. Onder **Lijsten** kiest u **Servicecontracten**.  
 3. Maak een nieuw vooruitbetaald servicecontract. Voer de begindatum **01-01-2017** en een factuurperiodejaar in voor de klant **20000**.  
-4. Dit contract moet worden ondertekend. Klik op het tabblad **Start** in de groep **Verwerken** op **Contract tekenen**.  
+4. Als u het contract wilt tekenen, kiest u de actie **Contract tekenen**.  
 5. Een servicefactuur maken.
-6. De factuur wordt vermeld als een niet geboekte servicefactuur. Om de servicefactuur te bekijken kiest u **Service**, vervolgens **Contractbeheer** en dan kiest u **Servicefacturen**.  
+6. De factuur wordt vermeld als een niet geboekte servicefactuur. Als u de servicefactuur wilt weergeven, kiest u de actie **Service**, de actie **Contractbeheer** en tot slot de actie **Servicefacturen**.  
 7. Boek de servicefactuur.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de bat
 1. Voer de Wijzigingstool btw-tarief op 1 juli 2017 uit. De algemene productboekingsgroep of de btw-productboekingsgroep wordt gewijzigd. Zie voor meer informatie [Met btw werken bij verkoop en inkoop](finance-work-with-vat.md).  
 2. Voer na het uitvoeren van het wijzigingstool btw-tarief een contractvervaldatum voor het servicecontract in. U kunt nu de servicecontractregel verwijderen en een nieuwe regel maken die identiek is aan de oude.  
 3. Maak een nieuwe factuur voor de periode januari 2017 tot en met december 2012 met het nieuwe btw-tarief.  
-4. Om een andere creditnota te maken, kiest u op de pagina **Servicecreditnota's** de optie **Nieuw** om een nieuwe servicecreditnota te maken.  
+4. Als u nog een creditnota wilt maken, kiest u op de pagina **Servicecreditnota's** de actie **Nieuw** om een nieuwe servicecreditnota te maken.  
 5. Kies de actie **Vooruitbet. contractposten ophalen**.  
 6. Nadat de conversie is voltooid, zijn de btw en de serviceposten correct.  
 

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305873"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554050"
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
 Een voorraadperiode is een periode waarin gewijzigde voorraadwaarden kunnen worden geboekt. Een voorraadperiode wordt begrensd door een einddatum. Als u een voorraadperiode hebt afgesloten, kunt u geen verwachte of gefactureerde voorraadwaarden vóór de einddatum meer boeken. U kunt geen nieuwe waarden naar de voorraad boeken vóór de einddatum. Als er nog open artikelposten, d.w.z. positieve aantallen die nog niet zijn vereffend met uitgaande transacties, zijn die binnen de afgesloten periode vallen, kunt u de uitgaande aantallen ook nadat de periode is afgesloten nog met deze posten vereffenen.  
 
-In de volgende secties wordt uitgelegd hoe u:  
+In de volgende secties wordt uitgelegd hoe u:
 
 * Voorraadperioden maken.  
 * Voorraadperioden afsluiten.  
@@ -45,7 +45,7 @@ Onder de volgende omstandigheden kunt u iedere voorraadperiode afsluiten:
 Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verkooporders, uitgaande transfers, verkoopfacturen, inkoopretourorders of inkoopcreditnota's, moeten worden vereffend met bestaande aantallen in de voorraad.  
 
 ### <a name="to-close-an-inventory-period"></a>Een voorraadperiode afsluiten  
-1. Voordat u een voorraadperiode afsluit, voert u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit, om ervoor te zorgen dat alle kostenherwaarderingen zijn geboekt. Kies op het tabblad **Acties** in de groep **Functies** de optie **Kostprijs herwaarderen - Artikelposten**.  
+1. Voordat u een voorraadperiode sluit, kiest u de actie **Kosten corrigeren – Artikelposten** om ervoor te zorgen dat alle kostencorrecties worden geboekt.
 
      Voer de lijst **Voorraadperiode afsluiten - Controle** uit om te zien of er openstaande uitgaande posten voorkomen in de voorraadperiode of artikelen waarvan de kosten nog niet zijn geherwaardeerd.  
 2. Kies de actie **Voorraadperiode afsluiten - Controle**.  

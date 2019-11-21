@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3d236654bb5ee2786d8cfaf3479a883b01795a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0862806e6ad92dd3988c4a23090e3db7657fde1a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314400"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554608"
 ---
 # <a name="closing-years-and-periods"></a>Afsluitingsjaren en -perioden
 Aan het einde van een boekjaar moet u een aantal administratieve taken uitvoeren, zoals ervoor zorgen dat alle documenten en dagboeken worden geboekt, dat valutagegevens actueel zijn, de boeken afsluiten, enzovoort. De werkelijke taken hangen van uw bedrijf af.
@@ -31,7 +31,7 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 | Haal een overzicht op van activiteiten die gewoonlijk aan het einde van een periode worden uitgevoerd, zoals het boeken van alle documenten en dagboeken of het uitvoeren van rapportageschema's. |[Perioden afsluiten](year-how-complete-period-end-processes.md) |
 | Wisselkoersen bij te werken en de wisselkoersen van geboekte klant-, leveranciers- en bankrekeningposten aan te passen. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
 | Kosten en inkomsten te verdelen over rekeningen en dimensies. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
-| Aangifte van btw-bedragen die u hebt geïnd voor verkopen, aan de webservice van de belastingdienst voorbereiden. |[Procedure: Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
+| Aangifte van btw-bedragen die u hebt geïnd voor verkopen, aan de webservice van de belastingdienst voorbereiden. |[Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
 | Rapporten af te drukken om saldo's van het grootboek, klanten, leveranciers en bankrekeningen te verifiëren voor het sluiten van een periode. |[Rapporten voorbereiden die voorafgaan aan een afsluiting](year-prepare-preclose-reports.md) |
 | Sluit boekingsperioden en boekjaar, boek saldi van resultatenrekeningen over naar balansrekeningen en boek de jaareinde-ultimopost. |[Boeken afsluiten](year-close-books.md) |
 | Rapporten af te drukken die u kunnen helpen bij het maken van financiële overzichten. |[Afsluitingsoverzichten voorbereiden](year-prepare-close-statement.md) |

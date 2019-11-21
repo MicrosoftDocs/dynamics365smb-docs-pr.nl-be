@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302848"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554290"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  
@@ -51,7 +51,7 @@ U kunt de batchverwerking **Afschrijving berekenen** eens per maand, of op een t
 2. Maak een eerste dagboekregel en vul de velden indien nodig in.  
 3. In het veld **VA-boekingssoort** selecteert u **Afschrijving**.  
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
-5. Kies op het tabblad **Start** de optie **Boeken** om het dagboek te boeken.  
+5. Kies de actie **Boeken** om het journaal te boeken.  
 
 Als u verdeelsleutels voor vaste activa hebt ingesteld om bedragen over verschillende afdelingen of projecten te verdelen, worden de bedragen tijdens de boeking verdeeld. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.  
 
@@ -62,7 +62,7 @@ Als een vast activum door verschillende afdelingen wordt gebruikt, kan de period
 2. Maak een eerste regel en vul de velden indien nodig in.
 3. In het veld **VA-boekingssoort** selecteert u **Verdeelsleutel**.  
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de verdeelsleutel is ingesteld.  
-5. Kies op het tabblad **Start** de optie **Boeken** om het dagboek te boeken.  
+5. Kies de actie **Boeken** om het journaal te boeken.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Duplicatielijsten gebruiken ter voorbereiding op de boeking naar meerdere afschrijvingsboeken
 Als u dagboekregels invult die naar een afschrijvingsboek moeten worden geboekt, kunt u de regels in een apart dagboek dupliceren, zodat u ze naar een ander afschrijvingsboek kunt boeken. Zie [Posten boeken naar verschillende afschrijvingsboeken](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books) voor meer informatie.

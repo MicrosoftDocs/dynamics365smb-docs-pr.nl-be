@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311656"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553782"
 ---
 # <a name="work-on-service-tasks"></a>Werken aan servicetaken
 Wanneer u een serviceorder of -offerte hebt gemaakt, serviceartikelregels hebt geregistreerd en resources aan de serviceartikelen in de order of offerte hebt toegewezen, kunt u beginnen met het herstel en onderhoud van de serviceartikelen.  
@@ -31,7 +31,7 @@ Als u wijzigingen wilt bijhouden en een grafische weergave van uw serviceactivit
 2. Als u een lijst met servicetaken wilt krijgen waaraan een bepaalde resource of resourcegroep is toegewezen, vult u het veld **Resourcefilter** of **Resourcegroepfilter** in en drukt u op Enter.  
 3. Als u een lijst wilt krijgen met servicetaken met een bepaalde responsdatum of responsdatums binnen een bepaalde periode, vult u het veld **Responsdatumfilter** in en drukt u op Enter.  
 4. Als u een lijst wilt krijgen met servicetaken met een bepaalde toewijzingsstatus of herstelstatus, vult u het veld **Toewijzingsstatusfilter** of **Herstelstatuscodefilter** in en drukt u op Enter.  
-5. Selecteer de servicetaak waaraan u wilt werken. Kies op het tabblad **Navigeren** in de groep **Servicetaken** voor **Artikelwerkbon**. De pagina **Serviceartikelwerkbon** wordt geopend.  
+5. Selecteer de servicetaak waaraan u wilt werken. Kies de actie **Artikelwerkbon**. De pagina **Serviceartikelwerkbon** wordt geopend.  
 6. Registreer standaardteksten, reserveonderdelen, resource-uren en kosten met de betreffende opties in het veld **Soort**: <Blank>, **Artikel**, **Resource** en **Kosten**.  
 7. Selecteer de gewenste status in het veld **Herstelstatus**.  
 
@@ -43,7 +43,7 @@ Wanneer u een service van een serviceorder uitvoert, kunt u de details registrer
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de serviceorder waarvoor u de service wilt registreren en kies de artikelregel.  
-3. Kies **Acties**, kies **Regel** en kies **Serviceartikelwerkbon**.  
+3. Kies de actie **Serviceartikelwerkblad**.  
 4. Geef op de regels de gebruikte artikelen, de opgelopen kosten en de tijd die is besteed aan de service op.  
 
    > [!NOTE]  

@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302728"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554266"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.
@@ -105,7 +105,7 @@ Als u de module Vaste activa in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor
 
     Schakel grootboekintegratie in door de volgende stappen uit te voeren. Eerst moet u ervoor zorgen dat de grootboekintegratie voor alle afschrijvingsboeken is uitgeschakeld en dan boekt u de openingsposten. Tenslotte schakelt u grootboekintegratie in.  
 4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
-5. De relevante afschrijvingsboekkaart selecteren. Kies op het tabblad **Start** in de groep **Beheren** de optie **Bewerken**, als u de pagina **Afschrijvingsboek** wilt openen.
+5. Selecteer het desbetreffende afschrijvingsboek en kies de actie **Bewerken** om de pagina **Afschrijvingsboekkaart** te openen.
 6. Schakel alle velden op het sneltabblad **Integratie** uit door de vinkjes te verwijderen. Als u meer dan één afschrijvingsboek hebt, schakelt u de grootboekintegratie voor elk afschrijvingsboek uit.  
 7. In het dagboek voor vaste activa voert u voor elk activum de volgende regels in:
    * Een regel met de aanschafkosten.

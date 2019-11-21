@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315888"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553854"
 ---
 # <a name="viewing-service-statistics"></a>Servicestatistieken weergeven
 U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
@@ -93,7 +93,7 @@ Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contr
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Statistieken voor geboekte servicedocumenten weergeven
 Met de functie voor servicestatistieken kunt u een statistisch overzicht opstellen van de inhoud van geboekte servicedocumenten, zoals geboekte verzendingen, facturen en creditnota's.  
 
-De statistische informatie wordt weergegeven op de statistiekpagina voor het bijbehorende geboekte servicedocument. U kunt de desbetreffende statistiekpagina openen vanuit een geboekte serviceverzending, geboekte servicefactuur of geboekte servicecreditnota. Kies voor elk van deze documentsoorten op het tabblad **Starten** in de groep **Verwerken** de optie **Statistiek**. Kies bijvoorbeeld op de pagina **Geboekte servicefacturen** op het tabblad **Start** in de groep **Verwerken**, de optie **Statistiek**.  
+De statistische informatie wordt weergegeven op de statistiekpagina voor het bijbehorende geboekte servicedocument. U kunt de desbetreffende statistiekpagina openen vanuit een geboekte serviceverzending, geboekte servicefactuur of geboekte servicecreditnota. Kies voor elk van deze documenttypen de actie **Statistieken**. Kies bijvoorbeeld op de pagina **Geboekte servicefacturen** de actie **Statistieken**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiek geboekte serviceverzendingen  
 Op de pagina **Statistiek serviceverzendingen** wordt een overzicht gegeven van een geboekte serviceverzending. Het venster bevat informatie over de fysieke inhoud van de verzending, zoals het aantal verzonden artikelen, resource-uren of -kosten, en gewicht en volume van de verzonden artikelen.  
