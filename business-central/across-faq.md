@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: edupont
-ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300581"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775511"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -28,16 +28,14 @@ U kunt zich aanmelden voor een gratis proefversie om [!INCLUDE [prodshort](inclu
 
 Start voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten in [!INCLUDE [prodshort](includes/prodshort.md)] begeleide instellingen, video's of Help-onderwerpen voor geselecteerde instellingstaken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
-Wanneer u gereed bent om [!INCLUDE [prodshort](includes/prodshort.md)] aan te schaffen, vindt u een [!INCLUDE [prodshort](includes/prodshort.md)]-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145).  
-
-[!INCLUDE [prodshort](includes/prodshort.md)] wordt verkocht en geïmplementeerd via een wereldwijd netwerk van Dynamics 365-partners met industriële expertise. Neem contact op met een partner voor een gedetailleerde beoordeling, adviesdiensten en extra prijzen. Zie voor meer informatie de sectie **Prijzen** op de [pagina Dynamics 365 Business Central op microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+Wanneer u gereed bent om [!INCLUDE [prodshort](includes/prodshort.md)] aan te schaffen, vindt u een [!INCLUDE [prodshort](includes/prodshort.md)]-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Waar ga ik met mijn vragen naartoe?
 Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Business Central-community. Zie [Dynamics 365 Business Central-community](https://community.dynamics.com/business) voor meer informatie.  
 
 Op de communityhomepage vindt u ook koppelingen naar onze blogs, waar u trucs en tips kunt vinden. Zie voor meer informatie [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en het oudere [Dynamics 365 Business Central-blog](https://community.dynamics.com/business/b/financials).  
 
-Ten slotte kunt u contact opnemen met uw partner die [!INCLUDE[d365fin](includes/d365fin_md.md)] doorverkoopt. Zie voor meer informatie de sectie [Hoe kan ik technische ondersteuning krijgen?](across-faq.md#how-do-i-get-technical-support-for-).  
+Ten slotte kunt u contact opnemen met uw partner die [!INCLUDE[d365fin](includes/d365fin_md.md)] doorverkoopt. Zie de secties [Hoe krijg ik technische ondersteuning?](across-faq.md#how-do-i-get-technical-support-for-) en [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Waarom kan ik die mogelijkheid niet vinden in mijn [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Hebt u onlangs in het releaseplan of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk nog niet geüpgraded naar de laatste versie. U kunt controleren op welke versie uw [!INCLUDE[d365fin](includes/d365fin_md.md)] is gebaseerd op de pagina [Help en ondersteuning](product-help-and-support.md).  
@@ -48,15 +46,17 @@ Als de mogelijkheid is gepubliceerd als een extensie in AppSource, is er ook een
 Ja. Sommige cloudgebaseerde functies kunnen in bepaalde gevallen on premises worden uitgevoerd en andere worden helemaal niet ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kan ik training krijgen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, dat kan. U vindt gratis eLearning-inhoud op de [Microsoft Learn-site](/learn/browse/?products=dynamics-business-central). U kunt uw wederverkoper ook om extra training vragen. Als u niet weet wie dat is, zoekt u een Business Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Ja, dat kan. U vindt gratis eLearning-inhoud op de [Microsoft Learn-site](/learn/browse/?products=dynamics-business-central). Zie [Business Central-trainingscatalogus](readiness/readiness-learning-catalog.md) voor meer informatie. U kunt uw wederverkoper ook om extra training vragen. Zie de sectie [Hoe vind ik een partner-reseller?](#findpartner) als u niet weet wie dat is.  
 
-Zie voor meer informatie over training die door Microsoft wordt gegeven, de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Zie de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers) voor meer informatie over training voor Dynamics 365 die door Microsoft wordt gegeven.  
+
+Aanvullend materiaal vindt u in de [!INCLUDE [prodshort](includes/prodshort.md)]-community, zoals de [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), die door een partner is geschreven.  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hoe kan ik technische ondersteuning krijgen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt verkocht via partners en u moet contact met uw resellerpartner opnemen voor hulp bij technische problemen. Als uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
 
-Zie voor meer informatie [Help en ondersteuning](product-help-and-support.md).  
+Zie de secties [Help en ondersteuning](product-help-and-support.md) en [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
 Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
@@ -84,10 +84,12 @@ Als u geen abonnement op Office 365 hebt en u er geen wilt aanschaffen, leveren 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online is volledig geïntegreerd met Office 365, zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan ik mijn 'Nieuw bedrijf'-proefperiode verlengen?
-Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md). Als u nu contact wilt opnemen met een Microsoft-partner in uw land of regio, raadpleegt u de lijst met telefoonnummers in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
+Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md). 
 
 > [!NOTE]
 > Het kan maximaal twee werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
+
+Zie [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie over het vinden van een partner.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds dezelfde startpagina in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw toegewezen rolcentrum niet gewijzigd en gebruikersgroepen toegewezen die overeenkomen met de nieuwe licentie. In wezen wordt uw toegang tot [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaald door het type plan (licentie) dat u hebt - hiermee worden machtigingen, uw toegewezen rol en uw standaardstartpagina ingesteld. U kunt uw huidige rol handmatig wijzigen in Mijn Instellingen, maar als u naar een ander plan wordt verplaatst, zoals van het Bedrijfsplan naar het Teamledenplan, ziet u mogelijk de oude startpagina omdat uw machtigingen niet zijn gewijzigd.  
@@ -96,16 +98,32 @@ Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw toegewe
 Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunnen uw gegevens worden verwijderd of bewaard. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md) annuleren.  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan ik multifactorverificatie gebruiken?
-Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten te verzenden. App-wachtwoorden geven een app of apparaat toegang tot uw e-mailaccount. De stappen voor het ophalen van een app-wachtwoord variëren, afhankelijk van uw e-mailprovider. Zie de Help van uw provider voor meer informatie. Als u bijvoorbeeld Outlook gebruikt, raadpleegt u [Een app-wachtwoord maken voor Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).
+Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten te verzenden. App-wachtwoorden geven een app of apparaat toegang tot uw e-mailaccount. De stappen voor het ophalen van een app-wachtwoord variëren, afhankelijk van uw e-mailprovider. Zie de Help van uw provider voor meer informatie. Als u bijvoorbeeld Outlook gebruikt, raadpleegt u [Een app-wachtwoord maken voor Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+
+## <a name="findpartner"></a>Hoe vind ik een partner-reseller?
+
+[!INCLUDE [prodshort](includes/prodshort.md)] wordt verkocht en geïmplementeerd via een wereldwijd netwerk van Dynamics 365-partners met industriële expertise. Neem contact op met een partner voor een gedetailleerde beoordeling, adviesdiensten en extra prijzen. Zie voor meer informatie de sectie **Prijzen** op de [pagina Dynamics 365 Business Central op microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
+Wanneer u zover bent om [!INCLUDE [prodshort](includes/prodshort.md)] aan te schaffen, kunt u een [!INCLUDE [prodshort](includes/prodshort.md)]-partner vinden op de pagina [Ik ben op zoek naar een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Oplossingen en services van partners kunt u ook vinden in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+
+Als u advies van Microsoft wilt, kunt u contact opnemen met het [Microsoft Sales-team](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
 
 [Aan de slag](product-get-started.md)  
+[Veelgestelde vragen over Vertel me](ui-search-faq.md)  
+[Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.md)  
+[Veelgestelde vragen over lijstweergaven](ui-views-faq.md)  
+[Taal en landinstellingen wijzigen](about-locale-language.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken zonder Outlook](admin-no-outlook.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Antwoorden op vragen krijgen](product-get-started.md#getting-answers-to-questions)  
-[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)  
+[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
+[Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
+[Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

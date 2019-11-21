@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300797"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692716"
 ---
 # <a name="changing-language-and-locale"></a>Taal en landinstellingen wijzigen
 
@@ -40,6 +40,10 @@ U kunt de landinstellingen wijzigen op het browsertabblad dat u gebruikt om te w
 
 U wijzigt de landinstellingen op de pagina **Mijn instellingen**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Toepassingsversie
+
+Op de pagina **Help en ondersteuning** ziet u op welke versie van [!INCLUDE [prodshort](includes/prodshort.md)] uw bedrijf is gebaseerd. Als u een bedrijf een andere basis wilt geven, kan de systeembeheerder een nieuwe productieomgeving maken. Zie [Een nieuwe productieomgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) voor meer informatie.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Talen van de [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 De helpinhoud voor de kernfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] publiceert naar de Microsoft Docs-site en is beschikbaar in een aantal verschillende talen. Als u toegang tot de documenten hebt vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze in het Engels worden weergegeven.
 
@@ -49,6 +53,8 @@ Het is eenvoudig: schuif naar de onderzijde van de browserpagina en kies het wer
 > [!NOTE]  
 > De lijst bevat alle talen die door de Microsoft Docs-site worden ondersteund. [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal landen/regio's, maar de Helpinhoud is beschikbaar gemaakt in meer talen. Echter, de Helpinhoud is niet beschikbaar in alle talen die de Microsoft Docs-site ondersteunt.
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
+[Resources voor Help en Ondersteuning](product-help-and-support.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Aan de slag](product-get-started.md)  

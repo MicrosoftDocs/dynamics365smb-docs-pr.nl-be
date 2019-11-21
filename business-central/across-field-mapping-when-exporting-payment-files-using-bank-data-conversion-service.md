@@ -1,6 +1,6 @@
 ---
 title: Veldtoewijzing voor het exporteren van betalingsbestanden | Microsoft Docs
-description: Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor bankgegevens, worden de gegevens die u exporteert, zichtbaar voor de aanbieder van de conversiefunctie.
+description: Wanneer u betalingsbestanden exporteert met de AMC Banking 365 Fundamentals-uitbreiding, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300533"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692640"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Veldtoewijzing bij het exporteren van betalingsbestanden via conversieservice bankgegevens
-Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor bankgegevens, worden de gegevens die u exporteert, zichtbaar voor de aanbieder van de conversiefunctie. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Voor meer informatie over de werking van de functie Conversieservice bankgegevens raadpleegt u [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Veldtoewijzing bij de export van betalingsbestanden met behulp van de AMC Banking 365 Fundamentals-uitbreiding
+Wanneer u betalingsbestanden exporteert met de AMC Banking 365 Fundamentals-uitbreiding, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Zie [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md) voor meer informatie over de AMC Banking 365 Fundamentals-uitbreiding.  
 
 > [!CAUTION]  
->  Wanneer u betalingsbestanden exporteert met de functie Conversieservice voor bankgegevens, worden sommige van uw bedrijfsgegevens zichtbaar voor de aanbieder van de service. De serviceprovider, AMC Consult A/S, is verantwoordelijk voor de privacy van deze informatie. Zie [AMC-privacybeleid](https://go.microsoft.com/fwlink/?LinkId=510158) voor meer informatie.  
+>  Wanneer u betalingsbestanden exporteert met de AMC Banking 365 Fundamentals-uitbreiding, zijn sommige bedrijfsgegevens zichtbaar voor de serviceprovider. De serviceprovider, AMC Consult A/S, is verantwoordelijk voor de privacy van deze informatie. Zie [AMC-privacybeleid](https://go.microsoft.com/fwlink/?LinkId=510158) voor meer informatie.  
 
-In de volgende tabel staan de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] waaruit de gegevens naar de serviceprovider kunnen worden geëxporteerd.  
+De volgende tabel bevat de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] vanwaar u gegevens kunt exporteren.  
 
 |Toegewezen veld|Veld in tabel|Tafel|Omschrijving|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ In de volgende tabel staan de velden in [!INCLUDE[d365fin](includes/d365fin_md.m
 |Postcode bank afzender|Postcode|Bankrekening|De postcode van de bankrekening van de afzender die is opgegeven op de bankrekeningkaart|  
 |Algemeen dagboeksjabloon|Dagboeksjabloon|Dagboekregel|De dagboeksjabloon die wordt gebruikt voor de betalingsregel|  
 |Batchnaam financieel dagboek|Dagboekbatch|Dagboekregel|De dagboekbatchnaam die wordt gebruikt voor de betalingsregel|  
-|Banknaam afzender - Gegevensconv.|Banknaam - Gegevensconversie|Bankrekening|De naam van de bankrekening van de afzender die wordt aangevraagd door de conversieservice voor bankgegevens en wordt opgegeven op de bankrekeningkaart|  
+|Banknaam afzender - Gegevensconv.|Banknaam - Gegevensconversie|Bankrekening|De naam van de bankrekening van de afzender die is aangevraagd door de AMC Banking 365 Fundamentals-uitbreiding en die wordt vermeld op de bankpas|  
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
-[Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md)   
+[De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)   
 [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 851d5359513d1fe744d265b21f13a3abd9c6867b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304816"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692836"
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
-Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals stamgegevens voor klanten aan wie u elektronische facturen verzendt, of de conversieservice voor bankgegevens als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
+Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals de klanten naar wie u elektronische facturen stuurt of de AMC Banking 365 Fundamentals-uitbreiding als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
  Wanneer [!INCLUDE[d365fin](includes/d365fin_md.md)] is ingesteld voor gegevensuitwisseling met externe bestanden, kunnen gebruikers de instellingen gebruiken in algemene bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  
 
@@ -32,7 +32,7 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |Diverse hoofdgegevens instellen, zoals bedrijfsgegevens, klanten, leveranciers, artikelen en eenheden, die betrekking hebben op het toewijzen van gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Stel een bankrekening, leverancier en betalingsdagboek in voor SEPA-kredietoverboeking.|[SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Bankrekening-indelingen, betalingsmethoden en klant overeenkomsten voor automatische incasso van SEPA voorbereiden.|[Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Gebruikersverificatie en de URL van de conversieserviceprovider van de bankgegevens instellen, die is vereist om bankbestanden om te zetten in de indeling van uw bank.|[Conversieservice voor bankgegevens instellen](bank-how-setup-bank-data-conversion-service.md)|  
+|Gebruikersverificatie en de URL van de conversieserviceprovider van de bankgegevens instellen, die is vereist om bankbestanden om te zetten in de indeling van uw bank.|[De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)|  
 |Stel en schakel een externe service in waarmee u bankafschriften direct kunt importeren als bankfeeds.|[De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)|  
 |Bankrekeningen koppelen in [!INCLUDE[d365fin](includes/d365fin_md.md)] als de bankafschriftservice is ingeschakeld|[Bankrekeningen instellen](bank-how-setup-bank-accounts.md)|  
 |Bereid de configuratie van een nieuwe gegevensuitwisselingsdefinitie voor een gegevensbestand of een gegevensstroom voor door met behulp van het XML-schema van het bestand het sneltabblad **Kolomdefinities** op de pagina **Uitwisselingsdefinitie van boeking** vooraf te vullen.|[XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

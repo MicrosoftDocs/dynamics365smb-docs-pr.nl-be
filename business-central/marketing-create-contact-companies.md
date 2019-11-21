@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309328"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798583"
 ---
 # <a name="create-contacts"></a>Contacten maken
 U ontmoet regelmatig personen van andere bedrijven, wat kan leiden tot zakenrelaties, zoals een klantrelatie. Als een dergelijk nieuw contact tot stand is gekomen, moet zoveel mogelijk informatie op een contactkaart worden geregistreerd zodat de communicatie kan worden voortgezet.
 
 U kunt het contact maken als type **Bedrijf**, bijvoorbeeld als de relatie niet een individuele persoon is, maar een entiteit, zoals een aannemer of een bank. U kunt het contact ook maken als type **Persoon**. De functionaliteit is min of meer hetzelfde voor beide typen en beide kunnen worden gewijzigd naarmate de relatie evolueert.
 
-Wanneer een contactkaart bijvoorbeeld wordt omgezet in een klantenkaart, wordt de contactpersoon of het contactbedrijf de naam van de klant. De contactkaart blijft behouden en gegevens op de twee kaarten worden vanaf nu gesynchroniseerd als u ze koppelt.
+Wanneer een contactkaart bijvoorbeeld wordt omgezet in een klantenkaart, wordt de contactpersoon of het contactbedrijf de naam van de klant. De contactkaart blijft en gegevens op de twee kaarten worden voortaan gesynchroniseerd als u deze aan elkaar koppelt.
 
 ## <a name="person-or-company"></a>Persoon of bedrijf
 U kunt besluiten een contact in te stellen als een persoon of bedrijf, meestal afhankelijk van de vraag of u de naam van de contactpersoon op dat moment weet. U doet dit wanneer u het veld **Soort** op de pagina **Contactkaart** invult. U kunt ook contactkaarten onderhouden voor zowel een bedrijf als een of meer personen die in het bedrijf werken. Dit gebeurt automatisch wanneer u het veld **Bedrijfsnaam** op een contactkaart van het soort **Persoon** invult.
@@ -32,7 +32,7 @@ U kunt besluiten een contact in te stellen als een persoon of bedrijf, meestal a
 De functionaliteit is gelijk voor beide soorten, behalve dat de opties voor aanvullende informatie afhankelijk van het type verschillen. U kunt bijvoorbeeld alleen functiegroepen toewijzen aan een persoon en een sector alleen aan een bedrijf. Dit wordt aangegeven in de gebruikersinterface doordat velden en acties die niet van toepassing zijn, grijs worden gemaakt. U kunt de waarde van het veld **Type** later wijzigen of u kunt de velden op het sneltabblad **Overerving** op de pagina **Marketinginstellingen** gebruiken om te bepalen welke gegevens worden gedeeld tussen een persoon en het gerelateerde bedrijf van de persoon. Zie voor meer informatie [Contacten instellen](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Handmatig een contact maken
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer voor het contact in.
 
@@ -45,7 +45,7 @@ Als u klanten, leveranciers en bankrekeningen hebt waarvoor u contactkaarten wil
 > [!NOTE]  
 > Voordat u contacten kunt maken op basis van bestaande gegevens, moet u een zakenrelatiecode opgeven voor klanten, leveranciers of bankrekeningen op het sneltabblad **Interacties** van de pagina **Marketinginstellingen**. Zie [Contacten instellen](marketing-setup-contacts.md) voor meer informatie.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer een van de volgende in, afhankelijk van waaruit u contacten wilt maken en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer een van de volgende opties in, afhankelijk van de bron van uw contactpersonen en kies de desbetreffende koppeling.
    * **Contacten maken van klanten**
    * **Contacten maken van leveranciers**
    * **Contacten maken van bankrekeningen**
@@ -63,7 +63,7 @@ Als u een klant, leverancier of bankrekening hebt voor het bedrijf waarvoor u ee
 > [!NOTE]  
 > Voordat u klanten, leveranciers of bankrekeningen kunt maken van contacten, moet u een zakenrelatiecode opgeven voor klanten, leveranciers of bankrekeningen op het sneltabblad **Interacties** van de pagina **Marketinginstellingen**. Zie voor meer informatie [Contacten instellen](marketing-setup-contacts.md).
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
 2. Selecteer het contact dat u als klant, leverancier of bankrekening wilt maken.
 3. Kies de actie **Maken als** en kies vervolgens **Klant**, **Leverancier** of **Bank**.
 4. Kies de knop **OK**.
@@ -101,7 +101,7 @@ De synchronisatie van gemeenschappelijke gegevens tussen contacten en de gerelat
 * Wanneer u contacten koppelt aan bestaande klanten, leveranciers of bankrekeningen vanuit de contactkaart. Zie [Een contact koppelen aan een bestaande klant, leverancier of bankrekening](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>Zien aan welke klant, leverancier of bankrekening een contact is gerelateerd
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
 2. Selecteer de regel voor een contact, kies de actie **Gerelateerde informatie** en kies vervolgens de actie **Klant/Leverancier/Bankrek.**.
 
 De pagina voor de gerelateerde kaart wordt geopend.

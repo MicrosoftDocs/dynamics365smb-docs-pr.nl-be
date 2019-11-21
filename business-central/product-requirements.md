@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313528"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649776"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
@@ -33,9 +33,9 @@ Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raa
 **Apparaatgrootte:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt ondersteund op smartphones met een minimale schermgrootte van 4” en tablets met een minimale schermgrootte van 7”.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-toepassingen:** als u [!INCLUDE[d365fin](includes/d365fin_md.md)] online als uw bedrijfsinbox in Outlook wilt gebruiken, hebt u Outlook 2016 of later, Outlook-webapp, OWA voor iPhone, OWA voor iPad of OWA voor Android nodig. Uw organisatie moet ook Office 365 gebruiken. U kunt [!INCLUDE [prodshort](includes/prodshort.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt.  
-**Browsers:** wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruikt in de Outlook-webapp (OWA), vereist de invoegtoepassing dat uw computer een van de eerder in dit artikel vermelde ondersteunde browsers gebruikt.  
-**Platforms:** wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-invoegtoepassing in OWA voor iPhone, OWA voor iPad en OWA voor Android gebruikt, vereist de invoegtoepassing dat uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
+**Outlook-toepassingen:** Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2016 of hoger, Outlook in een browser, Outlook voor iPhone, Outlook voor iPad of Outlook voor Android nodig. Uw organisatie moet ook Office 365 gebruiken. U kunt [!INCLUDE [prodshort](includes/prodshort.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt.  
+**Browsers:** Wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt als uw zakelijke Postvak IN in Outlook in een browser, is het voor de invoegtoepassing nodig dat op uw computer een van de ondersteunde browsers is geïnstalleerd die eerder in dit artikel zijn vermeld.  
+**Platforms:** Wanneer u de Outlook-invoegtoepassing [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt in Outlook voor iPhone, Outlook voor iPad of Outlook voor Android, moet op uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] worden uitgevoerd.  
 
 ## <a name="excel"></a>Excel
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[d365fin](includes/d365fin_md.md)] terug te sturen, hebt u Excel 2016 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  

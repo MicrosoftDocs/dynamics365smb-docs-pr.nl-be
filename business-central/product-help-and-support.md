@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313624"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767669"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -73,7 +73,7 @@ De sectie **Problemen oplossen** bevat technische informatie die uw beheerder of
 Uw [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner helpt u met technische ondersteuning. [!INCLUDE[prodshort](includes/prodshort.md)] wordt verkocht via partners en deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prodshort](includes/prodshort.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
 
 > [!NOTE]
-> Deze sectie is alleen beschikbaar als u hebt betaald voor een [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prodshort](includes/prodshort.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prodshort](includes/prodshort.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145).  
+> Deze sectie is alleen beschikbaar als u hebt betaald voor een [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prodshort](includes/prodshort.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prodshort](includes/prodshort.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
 ### <a name="support-contacts"></a>Contactgegevens voor ondersteuning
 
@@ -83,6 +83,8 @@ Om uw partner op de hoogte te stellen van een probleem, kiest u de koppeling om 
 
 ## <a name="see-also"></a>Zie ook
 
+[Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
+[Hoe vind ik een partner-reseller?](across-faq.md#findpartner)  
 [Blog-bericht: De juiste resources zoeken en feedback geven](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Documenten voor Business Central-ontwikkelaars en ITpro](/dynamics365/business-central/dev-itpro/)  
 [Resources voor Help en ondersteuning voor partners](/dynamics365/business-central/dev-itpro/help-and-support)  

@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315072"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695203"
 ---
 # <a name="searching-and-filtering-faq"></a>Veelgestelde vragen over zoeken en filteren
 In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
@@ -30,7 +30,7 @@ Zoeken en filteren zijn zeer geoptimaliseerd voor gebruikers die muisvrije inter
 Het filterdeelvenster is beschikbaar op pagina's waar de lijst de primaire inhoud op de pagina is, zoals werkbladen en lijstpagina's, inclusief lijsten die bereikbaar zijn vanaf de navigatiebalk. Het filterdeelvenster is nog niet beschikbaar voor lijsten die worden weergegeven als onderdelen, zoals feitenblokken of rolcentrumonderdelen. Wanneer een lijst wordt ingesloten op een pagina, zoals verkoopregels op een verkooporder, is het filterdeelvenster beschikbaar wanneer op die lijst wordt gefocust met de focusmodusknop. Zie voor meer informatie [Focussen op regelitems](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Hoe kan ik mijn filters opslaan?
-Uw filters en wijzigingen in vooraf gedefinieerde filters worden de hele sessie onthouden (zolang u aangemeld blijft), zelfs als u van de pagina weg navigeert. U kunt filters permanent opslaan als een benoemde weergave van de lijst door het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") te kiezen in het filtervenster. Zie voor meer informatie [Veelgestelde vragen over lijstweergaven](ui-views-faq.md). In tegenstelling tot filters wordt zoektekst niet onthouden wanneer u weg van een pagina navigeert en wordt deze niet opgeslagen wanneer u een weergave opslaat.
+Uw filters en wijzigingen in vooraf gedefinieerde filters worden de hele sessie onthouden (zolang u aangemeld blijft), zelfs als u van de pagina weg navigeert. U kunt filters permanent opslaan als een benoemde weergave van de lijst door het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") in het filtervenster te kiezen. Zie voor meer informatie [Veelgestelde vragen over lijstweergaven](ui-views-faq.md). In tegenstelling tot filters wordt zoektekst niet onthouden wanneer u weg van een pagina navigeert en wordt deze niet opgeslagen wanneer u een weergave opslaat.
 
 Op pagina's met rapportaanvragen kunt u ook filters opslaan of vooraf gedefinieerde filters gebruiken. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
@@ -52,5 +52,5 @@ Als on-premises beheerder verlengt u de tijdslimiet voor zoekopdrachten door de 
 ## <a name="see-also"></a>Zie ook
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
-[Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md)  
+[Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  
 [Aan de slag](product-get-started.md)  

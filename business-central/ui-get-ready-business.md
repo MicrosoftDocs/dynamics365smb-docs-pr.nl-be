@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315312"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775607"
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] opgezet.
 
 Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Bedrijfsassistentie**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. U opent deze pagina vanuit het diagram in het rolcentrum **Bedrijfsmanager** door de vervolgkeuzepijl **Bedrijfsassistentie** te kiezen en dan de actie **Instellings- en Help-resources weergeven** te kiezen. Wanneer u de pagina vernieuwt, wordt het diagram vervangen door de resources voor configuratie en help.
 
-Als u een complete lijst met begeleide instellingen wilt openen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Begeleide instelling** in en kiest u vervolgens de gerelateerde koppeling.
+U kunt de lijst met gidsen van begeleide instellingen ook openen door het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") te kiezen, **Begeleide instelling** in te voeren en de gerelateerde koppeling te kiezen.
 
 In het rolcentrum vindt u op de navigatiebalk bovenin het menu **Instellingen en extensies**. Hier hebt u toegang tot een lijst begeleide instellingen waarmee u aan de slag kunt gaan. Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen u kunnen helpen.
 
@@ -49,7 +49,7 @@ Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te ma
 Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat op deze pagina doen.    
 
 ## <a name="adding-users-and-permissions"></a>Gebruikers en machtigingen toevoegen
-Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd op de pagina **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Gebruikers en machtigingen beheren](ui-how-users-permissions.md) voor meer informatie.  
+Als u meer gebruikers moet toevoegen, kunt u dit doen in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers aan Office 365 toevoegen voor bedrijven](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Als gebruikers in Office 365 zijn gemaakt, kunnen ze worden geïmporteerd op de pagina **Gebruikers** door middel van de actie **Gebruikers ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
 ## <a name="getting-help"></a>Help opvragen
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. Voor elke veldknopinfo kunt u op Ctrl+F1 drukken of de koppeling **Meer informatie** kiezen om Help voor de pagina te openen. Het vraagteken in de rechterbovenhoek verwijst u ook naar product-Help.
@@ -60,6 +60,6 @@ Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)
+[Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

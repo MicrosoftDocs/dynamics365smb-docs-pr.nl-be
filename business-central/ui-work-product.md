@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310648"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774783"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
 U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
+
+> [!TIP]
+> Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Naast de algemene UI-functies die in dit gedeelte worden beschreven, kunt u andere algemene functies gebruiken die meer bedrijfsgerelateerd zijn. Zie voor meer informatie [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 | Aan | Zie |
 | --- | --- |
 |Een bepaalde pagina, rapport, actie, Help-onderwerp of partnerextensie zoeken. |[Pagina's en informatie zoeken met Vertel me](ui-search.md) |
-|Een overzicht krijgen van pagina's voor uw rol en voor andere rollen en navigeren naar pagina's.|[Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md)|
+|Een overzicht krijgen van pagina's voor uw rol en voor andere rollen en navigeren naar pagina's.|[Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)|
 | Gegevens in weergaven, rapporten of functies filteren door speciale symbolen en tekens te gebruiken. |[Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md) |
 |De vele algemene functies leren waarmee u snel en gemakkelijk gegevens kunt invoeren.|[Gegevens invoeren](ui-enter-data.md)|
 |Leren hoe u snel gegevens kopieert en plakt, inclusief met sneltoetsen.|[Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md)|

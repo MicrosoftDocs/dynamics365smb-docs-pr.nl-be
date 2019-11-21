@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300653"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692692"
 ---
 # <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het uitwisselen van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden uw zakelijke partners.
@@ -32,15 +32,15 @@ Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronis
  Als u bijvoorbeeld, een factuur wilt ontvangen als een elektronisch OCR-document, verwerkt u het als u een elektronisch PEPPOL-document ontvangt. De ontvangst en gegevensconversie van elektronische documenten via OCR worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **OCR – Factuur**.  
 
 ## <a name="bank-files"></a>Bankbestanden  
- De bestandsindelingen voor uitwisseling van bankgegevens met ERP-systemen variëren, afhankelijk van de leverancier van het bestand en van het land/de regio. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het importeren en exporteren van SEPA-bankbestanden (Single Euro Payments Area) en een conversieservice voor bankgegevens die wordt geleverd door een externe provider, AMC Consult. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.  
+De bestandsindelingen voor de uitwisseling van bankgegevens met ERP-systemen verschillen, afhankelijk van de leverancier en het land of de regio van het bestand. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de import en export van SEPA-bankbestanden (Single Euro Payments Area) en met de AMC Banking 365 Fundamentals-uitbreiding kunt u verbinding maken met een service voor de omzetting van bankgegevens die door een externe leverancier wordt aangeboden, AMC Consult. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.  
 
-Om SEPA-kredietoverboekingen te exporteren, kiest u de knop **Betalingen exporteren naar bestand** op de pagina **Betalingsdagboek** en uploadt u vervolgens het bestand voor verwerking van de betalingen in uw bank. Eerst moet u diverse stamgegevens instellen, zoals bankrekening, leveranciers en betalingswijzen. De conversie en export van SEPA-bankgegevens worden uitgevoerd door een speciale codeunit en XMLport die worden gerepresenteerd door de instelling van bankexport/-import **SEPA-krediettransfer**. U kunt ook instellen dat de conversieservice voor bankgegevens de export uitvoert. Deze wordt gerepresenteerd door de gegevensuitwisselingdefinitie **Conversieservice bankgegevens - kredietoverboeking**.  
+Om SEPA-kredietoverboekingen te exporteren, kiest u de knop **Betalingen exporteren naar bestand** op de pagina **Betalingsdagboek** en uploadt u vervolgens het bestand voor verwerking van de betalingen in uw bank. Eerst moet u diverse stamgegevens instellen, zoals bankrekening, leveranciers en betalingswijzen. De conversie en export van SEPA-bankgegevens worden uitgevoerd door een speciale codeunit en XMLport die worden gerepresenteerd door de instelling van bankexport/-import **SEPA-krediettransfer**. U kunt ook de AMC Banking 365 Fundamentals-uitbreiding instellen om de export uit te voeren, met de definitie voor gegevensuitwisseling van **Service voor conversie van bankgegevens - Kredietoverdracht** data exchange definition.  
 
 Om SEPA-instructies voor een incasso-opdracht te exporteren, kiest u de knop **Bestand van incasso exporteren** op de pagina **Incasso-opdrachten** en verzendt u deze vervolgens naar uw bank om de betreffende klantbetalingen automatisch te incasseren. Eerst moet u bankrekeningen, klanten, incassomachtigingen en betalingswijzen instellen. De gegevensconversie en export van SEPA-bankgegevens worden uitgevoerd door een speciale codeunit en XMLport die wordt gerepresenteerd door de instelling van bankexport/-import **SEPA-incasso**.  
 
-Om SEPA-bankafschriften te importeren, kiest u de knop Bankafschrift importeren op de pagina **Betalingsreconciliatiedagboek** en **Bankreconciliatie**. Vervolgens vereffent u elke post op het bankafschrift handmatig of automatisch met betalingen of bankposten. Eerst moet u bankrekeningen instellen. De import en gegevensconversie van SEPA-bankgegevens worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **SEPA CAMT**. U kunt ook instellen dat de conversieservice voor bankgegevens de import uitvoert. Deze wordt gerepresenteerd door de gegevensuitwisselingdefinitie **Conversieservice bankgegevens - bankafschrift**.  
+Om SEPA-bankafschriften te importeren, kiest u de knop Bankafschrift importeren op de pagina **Betalingsreconciliatiedagboek** en **Bankreconciliatie**. Vervolgens vereffent u elke post op het bankafschrift handmatig of automatisch met betalingen of bankposten. Eerst moet u bankrekeningen instellen. De import en gegevensconversie van SEPA-bankgegevens worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **SEPA CAMT**. U kunt ook de AMC Banking 365 Fundamentals-uitbreiding instellen om de import uit te voeren, met de definitie voor gegevensuitwisseling van **Service voor conversie van bankgegevens - Bankafschrift**.  
 
- Bovendien ondersteunen de lokale versies van [!INCLUDE[d365fin](includes/d365fin_md.md)] verschillende andere bestandsindelingen voor het importeren/exporteren van bankgegevens, salaristransacties en andere gegevens. Zie voor meer informatie het Help-onderwerp Lokale functionaliteit in de versie voor uw land of regio van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Daarnaast ondersteunen lokale versies van [!INCLUDE[d365fin](includes/d365fin_md.md)] verschillende andere bestandsindelingen voor het importeren en exporteren van bankgegevens, salaristransacties en andere gegevens. Zie voor meer informatie het Help-onderwerp Lokale functionaliteit in de versie voor uw land of regio van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="currency-exchange-rates"></a>Valutawisselkoersen  
 U kunt een externe service instellen om valutawisselkoersen actueel te houden. De service die de bijgewerkte valutawisselkoersen levert, wordt ingeschakeld door een gegevensuitwisselingsdefinitie. De pagina **Kaart update-instellingen wisselkoersen** is een beknopte weergave van de pagina **Definitie van gegevensuitwisseling** voor de desbetreffende definitie van gegevensuitwisseling.  

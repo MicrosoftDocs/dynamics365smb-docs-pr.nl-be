@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310744"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695059"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -23,13 +23,13 @@ In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoa
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Wanneer u hulp nodig hebt om iets te vinden, gebruikt u het pictogram ![Vertel me wat u wilt doen](media/ui-search/search.png "Zoeken naar pagina of rapport") **Vertel me wat u wilt doen** om ernaar te zoeken. U kunt ook ALT+Q gebruiken om Vertel me te gebruiken.
+Wanneer u hulp nodig hebt om iets te vinden, gebruikt u het ![Vertel me wat u wilt doen](media/ui-search/search.png "Zoeken naar pagina of rapport") **pictogram Vertel me wat u wilt doen** om ernaar te zoeken. U kunt ook ALT+Q gebruiken om Vertel me te gebruiken.
 
 Als u begint met het typen van tekens, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] direct overeenkomsten weer. Resultaten in de lijst veranderen naarmate u meer tekens typt. Als u merkt dat wanneer u het woord 'product' invoert de resultaten **artikelen** bevatten, is dat omdat Vertel me synoniemen en alternatieve zoektermen gebruikt om het gemakkelijk te maken acties, pagina's en rapporten te vinden.
 
 De kolom rechts geeft de algemene categorie van het resultaat aan. Bijvoorbeeld of er een lijstpagina wordt geopend of of het een beheerderstaak is.  
 
-Onder aan het venster **Vertel me** wordt een actie genaamd **verkennen** weergegeven waarmee een functieoverzicht wordt geopend dat u alle beschikbare functies voor uw rol of voor alle rollen toont. Zie voor meer informatie [Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md).
+Onder aan het venster **Vertel me** wordt een actie genaamd **verkennen** weergegeven waarmee een functieoverzicht wordt geopend dat u alle beschikbare functies voor uw rol of voor alle rollen toont. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Als u liever het toetsenbord gebruikt, gebruikt u de Tab-toets en de pijltoetsen om een item in de resultaten te kiezen. Als u op Enter drukt op het toetsenbord zonder een resultaat te kiezen, opent [!INCLUDE[d365fin](includes/d365fin_md.md)] het resultaat dat het eerst wordt weergegeven.
@@ -58,7 +58,7 @@ Onder **Documentatie** ziet u artikelen uit de documentatie van [!INCLUDE[d365fi
 Onze partnercommunity is druk bezig apps te ontwikkelen die mogelijkheden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. De sectie **Ophalen uit Microsoft AppSource** bevat apps voor [!INCLUDE[d365fin](includes/d365fin_md.md)] die beschikbaar zijn op Microsoft AppSource en gerelateerd zijn aan het trefwoord waarop u zocht.
 
 ## <a name="searching-for-data"></a>Zoeken naar gegevens
-De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantnamen, adressen of transacties. In plaats hiervan kunt u gegevens zoeken in lijstpagina's door het pictogram ![Lijst zoeken](media/ui-search/search-list.png "pictogram Lijst zoeken") **Zoeken** te kiezen in de linkerbovenhoek van de lijstkoptekst. De zoekopdracht is alleen van toepassing op de lijst die u weergeeft. Zie voor meer informatie [Lijsten sorteren, zoeken en filteren](ui-enter-criteria-filters.md).
+De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantnamen, adressen of transacties. In plaats hiervan kunt u gegevens zoeken in lijstpagina's door het pictogram ![Zoeken in lijst](media/ui-search/search-list.png "Pictogram Zoeken in lijst") **Zoeken** te kiezen in de linkerbovenhoek van de lijstkoptekst. De zoekopdracht is alleen van toepassing op de lijst die u weergeeft. Zie voor meer informatie [Lijsten sorteren, zoeken en filteren](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Vragen?
 We hebben Vertel me aan een reeks belanghebbenden laten zien, vragen die ze gemeen hadden, genoteerd en van onze aantekeningen een lijst met veelgestelde vragen gemaakt. Als u geïnteresseerd bent, gaat u naar [Veelgestelde vragen over Vertel me](ui-search-faq.md).

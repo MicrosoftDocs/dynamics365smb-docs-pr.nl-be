@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310768"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695107"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over de functie Vertel me.
@@ -51,4 +51,4 @@ Nee. U kunt alleen een bladwijzer maken voor een koppeling naar een pagina of zo
 ## <a name="see-also"></a>Zie ook  
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
-[Pagina's zoeken vanuit een functieoverzicht](ui-role-explorer.md)
+[Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)

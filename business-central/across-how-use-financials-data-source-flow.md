@@ -12,12 +12,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 86178bafa806fb8cba531d5b78157437c242d432
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a46692503b19ddad57c4a68d0f29b588d84f5c9e
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305053"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775463"
 ---
 # <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in een geautomatiseerde werkstroom
 U kunt uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens als onderdeel van een werkstroom in Microsoft Flow gebruiken.
@@ -81,7 +81,7 @@ Zie de [Flow-documentatie](/flow/getting-started) voor meer informatie.
 [Aan de slag](product-get-started.md)  
 [Werkstroom](across-workflow.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Gebruikers en machtigingen beheren](ui-how-users-permissions.md)   
+[Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)   
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-werkstromen beheren](across-use-workflows.md)  
 [Gebruikersinstellingen voor goedkeuring](across-how-to-set-up-approval-users.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
