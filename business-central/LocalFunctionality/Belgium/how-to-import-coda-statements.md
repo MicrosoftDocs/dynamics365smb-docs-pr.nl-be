@@ -1,8 +1,6 @@
 ---
 title: CODA-afschriften importeren
 description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7bfa29bbbb0a69662121fdc9ac37479c22d787b2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f7c9df0bf2b9d8912a110bff5bd4fe623019ea30
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300255"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879448"
 ---
 # <a name="import-coda-statements"></a>CODA-afschriften importeren
 Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## <a name="to-import-a-coda-statement"></a>Een CODA-afschrift importeren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies actie **CODA-bestand importeren**.  
 3.  Voer de naam van het bestand in dat u wilt importeren en klik op de knop **OK**.  
 

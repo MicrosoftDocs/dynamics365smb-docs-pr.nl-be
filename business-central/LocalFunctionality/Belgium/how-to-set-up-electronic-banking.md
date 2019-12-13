@@ -1,8 +1,6 @@
 ---
 title: Elektronisch bankieren instellen
 description: Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 387e497ae34e79e5e452657b7cf5a9a45793b966
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c4990e19709344693a277817eae10fb91b1bd1b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301390"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881366"
 ---
 # <a name="set-up-electronic-banking"></a>Elektronisch bankieren instellen
 Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden. Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens instellen:  
@@ -27,7 +25,7 @@ Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en 
 
 ## <a name="to-set-up-electronic-banking"></a>Elektronisch bankieren instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Elektronisch bankieren instellen** in en klik op de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Elektronisch bankieren instellen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Vul op de pagina **Elektronisch bankieren instellen** de velden in zoals wordt beschreven in de volgende tabel.   
 
     |Veld|Description|  

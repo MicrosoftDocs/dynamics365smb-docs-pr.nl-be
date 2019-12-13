@@ -1,8 +1,6 @@
 ---
 title: Het rapport Intrastat - Formulier afdrukken
 description: Het rapport Intrastat - Formulier moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66443e7224447e1c0762f0d87c5f0ebd255d636d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11349e942c88d40b2797f568847a41b28b778206
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301386"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879454"
 ---
 # <a name="print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken
 Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.  
@@ -26,7 +24,7 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
 
 ## <a name="to-print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat - Formulier** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Intrastat – Formulier** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  

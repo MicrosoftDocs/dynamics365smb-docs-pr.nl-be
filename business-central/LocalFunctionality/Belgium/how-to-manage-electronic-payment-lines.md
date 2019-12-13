@@ -1,8 +1,6 @@
 ---
 title: Regels voor elektronische betalingen beheren
 description: U kunt instellen dat Business Central automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a366a25b8fd9ae58127ccd2439375fb04613ae8b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48d39610a2e57c9c6f7602fe9f689b91bb72aedd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301382"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879450"
 ---
 # <a name="manage-electronic-payment-lines"></a>Regels voor elektronische betalingen beheren
 U kunt instellen dat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch betalingen voorstelt en vervolgens kunt u handmatig meer betalingen toevoegen. U kunt voorgestelde betalingen ook bewerken of verwijderen. U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. In de volgende procedure wordt beschreven hoe u betalingsdagboekregels handmatig toevoegt of bewerkt, maar u kunt betalingsdagboekregels ook verwijderen op de pagina **Betalingsdagboek**.  
 
 ## <a name="to-manage-a-payment-journal-line"></a>Een betalingsdagboekregel beheren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3.  Selecteer een dagboekregel en voer de betreffende gegevens in.  
 
