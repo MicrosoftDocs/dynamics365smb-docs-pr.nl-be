@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Artikeltracering | Microsoft Docs'
 description: In dit onderwerp vindt u een overzicht van ontwerpdetails voor artikeltracering.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b263abf09a3d74bbac4f8b94c4dde61644702bfc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303208"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878545"
 ---
-# <a name="design-details-item-tracking"></a><span data-ttu-id="d95a0-103">Ontwerpdetails: Artikeltracering</span><span class="sxs-lookup"><span data-stu-id="d95a0-103">Design Details: Item Tracking</span></span>
-<span data-ttu-id="d95a0-104">Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het vermogen artikelen te traceren steeds belangrijker voor de betrokken bedrijven.</span><span class="sxs-lookup"><span data-stu-id="d95a0-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="d95a0-105">De transactiestroom van een artikel controleren is een juridische vereiste op het gebied van medische en chemische voorziening, maar in andere bedrijfstaken kunnen producten met garanties of vervaldatums worden gecontroleerd om redenen van klantenservice.</span><span class="sxs-lookup"><span data-stu-id="d95a0-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
+# <a name="design-details-item-tracking"></a><span data-ttu-id="c62ee-103">Ontwerpdetails: Artikeltracering</span><span class="sxs-lookup"><span data-stu-id="c62ee-103">Design Details: Item Tracking</span></span>
+<span data-ttu-id="c62ee-104">Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het vermogen artikelen te traceren steeds belangrijker voor de betrokken bedrijven.</span><span class="sxs-lookup"><span data-stu-id="c62ee-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="c62ee-105">De transactiestroom van een artikel controleren is een juridische vereiste op het gebied van medische en chemische voorziening, maar in andere bedrijfstaken kunnen producten met garanties of vervaldatums worden gecontroleerd om redenen van klantenservice.</span><span class="sxs-lookup"><span data-stu-id="c62ee-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
 
-<span data-ttu-id="d95a0-106">Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht.</span><span class="sxs-lookup"><span data-stu-id="d95a0-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="d95a0-107">heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.</span><span class="sxs-lookup"><span data-stu-id="d95a0-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
+<span data-ttu-id="c62ee-106">Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht.</span><span class="sxs-lookup"><span data-stu-id="c62ee-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c62ee-107">heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.</span><span class="sxs-lookup"><span data-stu-id="c62ee-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="d95a0-108">In dit gedeelte</span><span class="sxs-lookup"><span data-stu-id="d95a0-108">In This Section</span></span>  
-[<span data-ttu-id="d95a0-109">Ontwerpdetails: Ontwerp artikeltracering</span><span class="sxs-lookup"><span data-stu-id="d95a0-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
-[<span data-ttu-id="d95a0-110">Ontwerpdetails: Boekingsstructuur artikeltracering</span><span class="sxs-lookup"><span data-stu-id="d95a0-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
-[<span data-ttu-id="d95a0-111">Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten</span><span class="sxs-lookup"><span data-stu-id="d95a0-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
-[<span data-ttu-id="d95a0-112">Ontwerpdetails: Pagina Artikeltraceringsregels</span><span class="sxs-lookup"><span data-stu-id="d95a0-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
-[<span data-ttu-id="d95a0-113">Ontwerpdetails: Beschikbaarheid artikeltracering</span><span class="sxs-lookup"><span data-stu-id="d95a0-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
-[<span data-ttu-id="d95a0-114">Ontwerpdetails: Artikeltracering en planning</span><span class="sxs-lookup"><span data-stu-id="d95a0-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
-[<span data-ttu-id="d95a0-115">Ontwerpdetails: Artikeltracering en reserveringen</span><span class="sxs-lookup"><span data-stu-id="d95a0-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
-[<span data-ttu-id="d95a0-116">Ontwerpdetails: Artikeltracering in het magazijn</span><span class="sxs-lookup"><span data-stu-id="d95a0-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)
+## <a name="in-this-section"></a><span data-ttu-id="c62ee-108">In dit gedeelte</span><span class="sxs-lookup"><span data-stu-id="c62ee-108">In This Section</span></span>  
+[<span data-ttu-id="c62ee-109">Ontwerpdetails: Ontwerp artikeltracering</span><span class="sxs-lookup"><span data-stu-id="c62ee-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
+[<span data-ttu-id="c62ee-110">Ontwerpdetails: Boekingsstructuur artikeltracering</span><span class="sxs-lookup"><span data-stu-id="c62ee-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
+[<span data-ttu-id="c62ee-111">Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten</span><span class="sxs-lookup"><span data-stu-id="c62ee-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
+[<span data-ttu-id="c62ee-112">Ontwerpdetails: Pagina Artikeltraceringsregels</span><span class="sxs-lookup"><span data-stu-id="c62ee-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
+[<span data-ttu-id="c62ee-113">Ontwerpdetails: Beschikbaarheid artikeltracering</span><span class="sxs-lookup"><span data-stu-id="c62ee-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
+[<span data-ttu-id="c62ee-114">Ontwerpdetails: Artikeltracering en planning</span><span class="sxs-lookup"><span data-stu-id="c62ee-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
+[<span data-ttu-id="c62ee-115">Ontwerpdetails: Artikeltracering en reserveringen</span><span class="sxs-lookup"><span data-stu-id="c62ee-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
+[<span data-ttu-id="c62ee-116">Ontwerpdetails: Artikeltracering in het magazijn</span><span class="sxs-lookup"><span data-stu-id="c62ee-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)

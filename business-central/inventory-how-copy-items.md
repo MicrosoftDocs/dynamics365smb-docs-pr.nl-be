@@ -1,8 +1,6 @@
 ---
 title: Bestaande items kopiëren naar nieuwe items
 description: Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie Item kopiëren gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 91f2aede108b767617f2aa8afd3db1b81713d8f7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 22f31b1f4c37e2129db379df9b71d9436ac81a2f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310024"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878377"
 ---
-# <a name="copy-existing-items-to-create-new-items"></a><span data-ttu-id="38c6b-103">Bestaande items kopiëren om nieuwe items te maken</span><span class="sxs-lookup"><span data-stu-id="38c6b-103">Copy Existing Items to Create New Items</span></span>
-<span data-ttu-id="38c6b-104">Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item kopiëren** gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="38c6b-104">When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.</span></span>  
+# <a name="copy-existing-items-to-create-new-items"></a><span data-ttu-id="c6be8-103">Bestaande items kopiëren om nieuwe items te maken</span><span class="sxs-lookup"><span data-stu-id="c6be8-103">Copy Existing Items to Create New Items</span></span>
+<span data-ttu-id="c6be8-104">Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item kopiëren** gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="c6be8-104">When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.</span></span>  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a><span data-ttu-id="38c6b-105">Een bestaand item naar een nieuw item kopiëren.</span><span class="sxs-lookup"><span data-stu-id="38c6b-105">To copy an existing item to a new item</span></span>  
-1. <span data-ttu-id="38c6b-106">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="38c6b-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="38c6b-107">Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren**.</span><span class="sxs-lookup"><span data-stu-id="38c6b-107">Select the item that you want to copy, and then choose the **Copy Item** action.</span></span>  
-3. <span data-ttu-id="38c6b-108">Vul op de pagina **Item kopiëren** de velden in.</span><span class="sxs-lookup"><span data-stu-id="38c6b-108">On the **Copy Item** page, fill in the fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-copy-an-existing-item-to-a-new-item"></a><span data-ttu-id="c6be8-105">Een bestaand item naar een nieuw item kopiëren.</span><span class="sxs-lookup"><span data-stu-id="c6be8-105">To copy an existing item to a new item</span></span>  
+1. <span data-ttu-id="c6be8-106">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="c6be8-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="c6be8-107">Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren**.</span><span class="sxs-lookup"><span data-stu-id="c6be8-107">Select the item that you want to copy, and then choose the **Copy Item** action.</span></span>  
+3. <span data-ttu-id="c6be8-108">Vul op de pagina **Item kopiëren** de velden in.</span><span class="sxs-lookup"><span data-stu-id="c6be8-108">On the **Copy Item** page, fill in the fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > <span data-ttu-id="38c6b-109">U kunt een specifiek itemnummer invoeren in het veld **Doelartikelnr.** dat u het nieuwe item wilt geven.</span><span class="sxs-lookup"><span data-stu-id="38c6b-109">You can enter a specific item number in the **Target Item No.** field that you want the new item to get.</span></span> <span data-ttu-id="38c6b-110">Als alternatief kunt u een bestaande nummerreeks selecteren in het veld **Reeks doelnrs.**.</span><span class="sxs-lookup"><span data-stu-id="38c6b-110">Alternatively, you can select an existing number series in the **Target No. Series** field.</span></span> <span data-ttu-id="38c6b-111">Het nieuwe item krijgt dan het volgende beschikbare nummer in die nummerreeks.</span><span class="sxs-lookup"><span data-stu-id="38c6b-111">The new item will then be assigned the next available number in that number series.</span></span>  
+    > <span data-ttu-id="c6be8-109">U kunt een specifiek itemnummer invoeren in het veld **Doelartikelnr.** dat u het nieuwe item wilt geven.</span><span class="sxs-lookup"><span data-stu-id="c6be8-109">You can enter a specific item number in the **Target Item No.** field that you want the new item to get.</span></span> <span data-ttu-id="c6be8-110">Als alternatief kunt u een bestaande nummerreeks selecteren in het veld **Reeks doelnrs.**.</span><span class="sxs-lookup"><span data-stu-id="c6be8-110">Alternatively, you can select an existing number series in the **Target No. Series** field.</span></span> <span data-ttu-id="c6be8-111">Het nieuwe item krijgt dan het volgende beschikbare nummer in die nummerreeks.</span><span class="sxs-lookup"><span data-stu-id="c6be8-111">The new item will then be assigned the next available number in that number series.</span></span>  
 
-5. <span data-ttu-id="38c6b-112">Om uw selecties naar het nieuwe item te kopiëren kiest u de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="38c6b-112">To copy your selections to the new item, choose the **OK** button.</span></span>  
+5. <span data-ttu-id="c6be8-112">Om uw selecties naar het nieuwe item te kopiëren kiest u de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="c6be8-112">To copy your selections to the new item, choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="38c6b-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="38c6b-113">See Also</span></span>  
-[<span data-ttu-id="38c6b-114">Nieuwe artikelen registreren</span><span class="sxs-lookup"><span data-stu-id="38c6b-114">Register New Items</span></span>](inventory-how-register-new-items.md)  
-[<span data-ttu-id="38c6b-115">Voorraad instellen</span><span class="sxs-lookup"><span data-stu-id="38c6b-115">Setting Up Inventory</span></span>](inventory-setup-inventory.md)
+## <a name="see-also"></a><span data-ttu-id="c6be8-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="c6be8-113">See Also</span></span>  
+[<span data-ttu-id="c6be8-114">Nieuwe artikelen registreren</span><span class="sxs-lookup"><span data-stu-id="c6be8-114">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="c6be8-115">Voorraad instellen</span><span class="sxs-lookup"><span data-stu-id="c6be8-115">Setting Up Inventory</span></span>](inventory-setup-inventory.md)
