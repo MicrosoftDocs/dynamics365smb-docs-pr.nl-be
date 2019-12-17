@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 996dc8200518dea40b59756a74f7d93562a1ca8a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313504"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883353"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
@@ -28,11 +28,11 @@ Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industri
 
 Het 'Ready to Go'-programma is één manier om aan de slag te gaan als een reseller van [!INCLUDE [prodshort](includes/prodshort.md)]. U kunt ook contact opnemen met het Microsoft-kantoor in uw land of regio. Voor meer informatie over de voor u beschikbare resources via het 'Ready to Go'-programma, raadpleegt u [aka.ms/readytogo](https://aka.ms/readytogo). Meer informatie over het worden van een reseller vindt u op [Andere oplossingen doorverkopen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
 
-Meld u aan voor een proef op [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/en-us/business-central/overview/
+Meld u aan voor een proef op [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
 ) en stuur feedback naar [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  

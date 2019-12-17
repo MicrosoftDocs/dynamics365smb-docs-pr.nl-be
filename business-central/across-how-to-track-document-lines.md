@@ -1,8 +1,6 @@
 ---
 title: Orderregels traceren naar gerelateerde documenten | Microsoft Docs
 description: U kunt documenten bekijken die gerelateerd zijn aan verkooporderregels en inkooporderregels, inclusief vanuit gearchiveerde orderregels. Gerelateerde documenten die u kunt bijhouden, omvatten offertes, verzendingen, ontvangsten en raamcontracten. Dit helpt u documenten te vinden die worden gebruikt om orders te verwerken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c5190daaa7954e50db903d64455f07f3e3e6627
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e2ada84e547662a4466d33b8e0196bf7987c9c22
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308364"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881036"
 ---
 # <a name="track-document-lines"></a>Documentregels traceren
 U kunt documenten bekijken die gerelateerd zijn aan verkooporderregels en inkooporderregels, inclusief vanuit gearchiveerde orderregels. Gerelateerde documenten die u kunt bijhouden, omvatten offertes, verzendingen, ontvangsten en raamcontracten. Dit helpt u documenten te vinden die worden gebruikt om orders te verwerken.  
@@ -25,7 +23,7 @@ U kunt documenten bekijken die gerelateerd zijn aan verkooporderregels en inkoop
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Documenten traceren die gerelateerd zijn aan een verkooporderregel
 In de volgende procedure wordt beschreven hoe u traceert vanuit een verkooporderregel. De stappen zijn vergelijkbaar voor inkooporder- en raamcontractregels.
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Open een verkooporder waaruit u wilt traceren.  
 3.  Selecteer een regel en kies de actie **Tracering van documentregel**.
 4. Selecteer op de pagina **Tracering van documentregels** het document dat u wilt weergeven en kies vervolgens de actie **Weergeven** om de gerelateerde regel te zien.

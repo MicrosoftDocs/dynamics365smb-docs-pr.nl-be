@@ -1,8 +1,6 @@
 ---
 title: Planningsuggesties in een grafische weergave wijzigen | Microsoft Docs
 description: Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313384"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877939"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Planningsuggesties in een grafische weergave wijzigen
 Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.
@@ -37,7 +35,7 @@ Wanneer u **Wijzigingen opslaan** kiest op de pagina **Artikelbeschikbaarheid pe
 De volgende procedure laat zien hoe u voorzieningsvoorstellen kunt wijzigen door slepen en neerzetten. Als alternatief kunt u de velden **Vervaldatum** en **Aantal** wijzigen op het sneltabblad **Gebeurteniswijzigingen** en de wijzigingen direct grafisch zien in het tabblad **Tijdlijn** van de pagina **Planningsvoorstel**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Voorgestelde voorzieningsorders in de grafische weergave wijzigen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelbeschikbaarheid per tijdlijn** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelbeschikbaarheid per tijdlijn** in en kies de desbetreffende koppeling.  
 
     De pagina **Artikelbeschikbaarheid per tijdlijn** wordt geopend met het artikelnummer, de vestiging en de variant van het artikel op de geselecteerde planningsregel vooraf ingevuld op de velden op het sneltabblad **Opties**. Het sneltabblad **Tijdlijn** toont een grafische weergave van de verwachte voorraad van het artikel, inclusief planningsvoorstellen.  
 

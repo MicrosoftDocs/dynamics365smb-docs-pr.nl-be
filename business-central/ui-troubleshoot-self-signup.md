@@ -1,20 +1,20 @@
 ---
 title: Probleemoplossing met aanmelden bij Self-Service | Microsoft Docs
 description: Meer informatie over de meest voorkomende redenen waarom u de inschrijving bij Business Central niet kunt voltooien, en manieren om het op te lossen.
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: edupont
-ms.openlocfilehash: d9021cb67176a8fbbb977234e38d02f375a80831
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2a1f923fed08b27152688ecc05c0aa9ff627eed
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310672"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809189"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Probleemoplossing voor aanmelden bij Self-Service
 Aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] is eenvoudig en kan erg snel worden uitgevoerd. U kunt een gratis account maken, zelfs als u een bestaande organisatie bent. In dit artikel worden problemen behandeld die u tijdens het aanmelden kunt tegenkomen.
@@ -28,7 +28,7 @@ Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u ee
 In veel gevallen kunt u uw registratie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] uitvoeren door het aanmeldingsproces te volgen. Er zijn echter verschillende redenen waarom u zich mogelijk niet kunt aanmelden bij de Self-Service. In de tabel hierna wordt een aantal van de meest voorkomende redenen samengevat waarom u de aanmelding niet kunt voltooien en worden manieren beschreven waarop u deze problemen kunt oplossen.
 
 | Symptoom/foutmelding | Oorzaak en oplossing |
-| --- | --- |
+| --------------------- | -------------------- |
 | Voor Office 365-e-mailadressen die niet in een ondersteund land zijn geregistreerd, ontvangt u tijdens de aanmelding een bericht zoals het volgende:<br /><br />**Uw land of regio wordt nog niet ondersteund.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt momenteel alleen Office 365 e-mailaccounts die zijn geregistreerd in een beperkt aantal markten. Zie voor meer informatie [Regionale beschikbaarheid](#regional-availability). |
 | Persoonlijke e-mailadressen, zoals nancy@gmail.com, worden niet ondersteund. U ontvangt tijdens de aanmelding een bericht zoals het volgende:<br /><br />**U hebt een persoonlijk e-mailadres ingevoerd: voer het e-mailadres van uw werk in zodat de gegevens van uw bedrijf veilig kunnen worden opgeslagen.**<br> of <br> **Dit ziet eruit als een persoonlijk e-mailadres. Voer uw werkadres in zodat we u met anderen in uw bedrijf kunnen verbinden. Maak u geen zorgen. Uw adres wordt met niemand gedeeld.** |In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Om de aanmelding te voltooien moet u opnieuw proberen een e-mailadres te gebruiken dat door uw werk of school is toegewezen. Als u zich nog niet kunt aanmelden en bereid bent een geavanceerder instellingsproces uit te voeren, kunt u zich registreren voor een nieuw Office 365-proefabonnement en dat e-mailadres voor aanmelding gebruiken. |
 | .gov- of .mil-e-mailadressen U ontvangt tijdens de aanmelding een bericht zoals het volgende:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] niet beschikbaar: [!INCLUDE[d365fin](includes/d365fin_md.md)] is momenteel niet beschikbaar voor gebruikers met .gov- of .mil-e-mailadressen. Gebruik een ander werke-mailadres of kom later nog eens terug.** <br>of <br>**Uw aanmelding kan niet worden voltooid. Het lijkt erop dat [!INCLUDE[d365fin](includes/d365fin_md.md)] momenteel niet beschikbaar is voor uw werk of school.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt momenteel geen .gov- of .mil-adressen. |
@@ -37,29 +37,15 @@ In veel gevallen kunt u uw registratie voor [!INCLUDE[d365fin](includes/d365fin_
 | Als het Office 365-account is geregistreerd in een ondersteund land en u zich aanmeldt voor [!INCLUDE[d365fin](includes/d365fin_md.md)] terwijl u zich in een ander land bevindt, ontvangt u tijdens de aanmelding een bericht zoals het volgende:<br /><br />**Uw land of regio wordt nog niet ondersteund.**| Het abonnement op Office 365 van uw organisatie is geregistreerd in een specifiek land in de beheerportal van Office 365. De inschrijvingservaring voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de taal en de landinstellingen die uw huidige browser gebruikt en daardoor kunt u de foutmelding krijgen hoewel u zich in een ondersteund land bevindt. Vraag de IT-beheerder om het land te verifiëren dat is opgegeven in het organisatieprofiel in de [beheerportal van Office 365](https://portal.office.com/adminportal/home#/companyprofile) U moet een ander account gebruiken voor [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Regionale beschikbaarheid
-Voor een overzicht van momenteel ondersteunde markten raadpleegt u de presentatie [Internationale beschikbaarheid van Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) en de landingspagina [Lokale functionaliteit](about-localization.md).
 
-<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+[!INCLUDE [prodshort](includes/prodshort.md)] is beschikbaar in een aantal landen of regio's met lokalisatie geleverd door Microsoft of een goedgekeurde lokalisatiepartner. Zie voor een volledige lijst van momenteel ondersteunde landen en regio's [Beschikbaarheid in landen en regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-| Europe | North America |
-| --- | --- |
-| Australia | Canada |
-| Austria | |
-| Belgium | United States |
-| Denmark | |
-| Germany | |
-| Finland | |
-| France | |
-| Italy | |
-| Netherlands | |
-| New Zealand | |
-| Spain | |
-| Sweden | |
-| Switzerland | |
-| United Kingdom | |
--->
+Voor een overzicht van momenteel ondersteunde markten voor Dynamics 365 raadpleegt u de presentatie [Internationale beschikbaarheid van Microsoft Dynamics 365](/dynamics365/get-started/availability). Voor een overzicht van de lokale functionaliteit in [!INCLUDE [prodshort](includes/prodshort.md)] raadpleegt u de landingspagina [Lokale functionaliteit](about-localization.md).  
 
 ## <a name="see-also"></a>Zie ook
+
 [Welkom bij [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Lokale functionaliteit](about-localization.md)  
+[Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Internationale beschikbaarheid van Microsoft Dynamics 365](/dynamics365/get-started/availability)  

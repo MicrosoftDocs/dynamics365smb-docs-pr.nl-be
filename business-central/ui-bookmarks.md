@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316891"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832106"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Een pagina-actie toevoegen aan uw rolcentrum
 Met het nieuwe bladwijzerpictogram kunt u een actiekoppeling toevoegen aan elke pagina vanuit het navigatiemenu van uw rolcentrum. U voegt de bladwijzer toe vanaf de doelpagina, dat wil zeggen de pagina die u wilt dat de actie in het rolcentrum opent.
@@ -33,6 +33,9 @@ Een naar de pagina genoemde actie wordt nu toegevoegd aan het navigatiemenu in u
 2. Plaats de aanwijzer boven het zoekresultaat voor de pagina **Verkooporders** en kies vervolgens het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").
 
 Als er al een bladwijzer voor de pagina bestaat, is het pictogram donker en bevat de knopinfo 'Bladwijzer'.
+
+> [!NOTE]  
+> Wanneer een bladwijzer wordt toegevoegd, wordt elke vertaalde tekst die op dat moment beschikbaar was ook een bladwijzer. Als later nieuwe vertaalde tekst wordt toegevoegd, wordt de bladwijzerkoppeling niet bijgewerkt.
 
 ## <a name="see-also"></a>Zie ook
 [Uw werkruimte personaliseren](ui-personalization-user.md)  

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfabf797ae9ba85a5a241d88f9ba3f5deb16bd4c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775487"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832347"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
 
 > [!NOTE]
-> In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt ADCS alleen in on-premises implementaties. Een Microsoft-partner kan het echter in online implementaties laten werken met behulp van PowerApps of iets soortgelijks.
+> In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt ADCS alleen in on-premises implementaties. Een Microsoft-partner kan het echter in online implementaties laten werken met behulp van Power Apps of iets soortgelijks.
 
 Met het ADCS-systeem kunt u alle verplaatsingen van artikelen in het magazijn registreren. Bovendien worden sommige dagboekactiviteiten vastgelegd, waaronder voorraadmutaties in het artikeldagboek van magazijnen en inventarisaties. ADCS omvat meestal scannen van een barcode.
 

@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Voorraadboeking | Microsoft Docs'
 description: Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzending boekt twee posten van verschillende soort.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71ee3624868f546ec7b45f5177dcc61acc5b7a21
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303421"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880316"
 ---
 # <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
 Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzending boekt twee posten van verschillende soort.  
@@ -33,9 +31,9 @@ Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzendi
 
  Met regelmatige intervallen worden waardeposten die worden gemaakt in het voorraadgrootboek, geboekt naar het grootboek om de twee grootboeken om financiële controleredenen af te stemmen. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Invoerstroom tijdens afstemming van voorraad met grootboek](media/design_details_inventory_costing_1_entry_flow.png "Invoerstroom tijdens afstemming van voorraad met grootboek")  
+ ![Invoerstroom bij inventarisatie met grootboek](media/design_details_inventory_costing_1_entry_flow.png "Invoerstroom bij inventarisatie met grootboek")  
 
-## <a name="example"></a>Opmerking  
+## <a name="example"></a>Voorbeeld  
  In het volgende voorbeeld wordt getoond hoe artikelposten, waardeposten en artikelvereffeningsposten resulteren in grootboekposten.  
 
  U boekt een inkooporder als verzonden en gefactureerd voor 10 artikelen met een directe kostprijs van LV 7 en een overheadtarief van LV 1. De boekingsdatum is 01-01-20. De volgende posten worden gemaakt.  

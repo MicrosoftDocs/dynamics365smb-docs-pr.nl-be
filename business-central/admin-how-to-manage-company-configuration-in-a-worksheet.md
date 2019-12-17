@@ -1,8 +1,6 @@
 ---
 title: De bedrijfsconfiguratie beheren in een werkblad | Microsoft Docs
 description: Het configuratiewerkblad is de centrale locatie waar u configuratieactiviteiten kunt plannen, bijhouden en uitvoeren. U kunt een werkblad maken voor elk bedrijf waarmee u werkt of een standaardconfiguratiewerkblad maken dat kan worden gebruikt voor het configureren van meerdere identieke bedrijven.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b76312ecf58112fa62e4bb01da90611dedcd129e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7e6d53d2d600c9a46fb99f82fc52383759f5435
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308056"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879244"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
 Het configuratiewerkblad is de centrale locatie waar u configuratieactiviteiten kunt plannen, bijhouden en uitvoeren. U kunt een werkblad maken voor elk bedrijf waarmee u werkt of een standaardconfiguratiewerkblad maken dat kan worden gebruikt voor het configureren van meerdere identieke bedrijven.  
@@ -30,7 +28,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
 
 ## <a name="to-open-the-configuration-worksheet"></a>Het configuratiewerkblad openen  
 1.  Open in [!INCLUDE[d365fin](includes/d365fin_md.md)] het bedrijf dat de basislijn voor configuratie vormt en open vervolgens het rolcentrum RapidStart Services-implementatie.  
-2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Een tabel toevoegen aan het werkblad  
 1.  Kies op de pagina **Werkblad voor configuratie** de actie **Lijst bewerken**.  

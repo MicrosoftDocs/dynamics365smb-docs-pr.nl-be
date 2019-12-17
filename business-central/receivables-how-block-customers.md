@@ -1,8 +1,6 @@
 ---
 title: Verkopen aan klanten blokkeren en artikelen blokkeren voor verkoop of inkoop
 description: In Business Central kan een artikel worden gemarkeerd als geblokkeerd voor verkoop, geblokkeerd voor inkoop of geblokkeerd voor alle doeleinden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1b055e5101b99f0b0e1b69169d5c9f2f7e21d09
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316632"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883006"
 ---
 # <a name="block-customers"></a>Klanten blokkeren
 U kunt een klant blokkeren, bijvoorbeeld vanwege insolventie, zodat de klant niet aan verkoopdocumenten kan worden toegevoegd of zodat geen transacties voor de klant kunnen worden geboekt.
@@ -34,7 +32,7 @@ De volgende tabel beschrijft de verschillende blokkeeropties.
 |**Alle**|Voor deze klant is geen enkele transactie, inclusief betalingen, toegestaan.|  
 
 ## <a name="to-block-a-customer"></a>Een klant blokkeren  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Selecteer een klant en kies vervolgens de actie **Bewerken**.
 3. Vul het veld **Geblokkeerd** in met een van de hierboven beschreven opties.
 

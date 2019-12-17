@@ -1,8 +1,6 @@
 ---
 title: Prijzen en kosten voor services instellen | Microsoft Docs
 description: Leer hoe u prijzen en aanvullende kosten voor services instelt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877388"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Prijzen en aanvullende kosten voor services instellen
 Met de prijsstellingsfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u uw toepassing zo instellen en aanpassen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen. Deze prijsbeslissingen kunnen vervolgens gemakkelijk worden overgebracht naar het factureringsproces.  
@@ -27,7 +25,7 @@ Desgewenst kunt u prijsgroepen instellen en deze toewijzen aan specifieke period
 ## <a name="to-set-up-a-service-price-group"></a>Serviceprijsgroepen instellen
 U kunt groepen met serviceartikelen instellen waarvoor dezelfde speciale serviceprijzen moeten gelden. U wijst serviceprijsgroepen toe aan serviceartikelen op serviceartikelregels. U kunt ook serviceprijsgroepen toewijzen aan serviceartikelgroepen.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceprijsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceprijsgroepen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe serviceprijsgroep.  
 3. Vul de velden **Code** en **Omschrijving** in.  
 4. Kies de actie **Instellingen**.  
@@ -39,7 +37,7 @@ U kunt groepen met serviceartikelen instellen waarvoor dezelfde speciale service
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Serviceprijsherwaarderingsgroepen instellen  
 U kunt prijsaanpassingsgroepen instellen om de serviceprijzen van serviceartikelen aan te passen. U kunt bijvoorbeeld de prijsaanpassingsgroep instellen om de prijzen van vracht of reserveonderdelen aan te passen.  
   
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceprijsherwaarderingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceprijsherwaarderingsgroepen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe serviceprijsherwaarderingsgroep.  
 3. Vul de velden **Code** en **Omschrijving** in.  
 4. Voer in het veld **Soort** de soort post in die u wilt aanpassen.  
@@ -57,13 +55,13 @@ U kunt prijsaanpassingsgroepen instellen om de serviceprijzen van serviceartikel
 Wanneer u met serviceartikelen en -orders werkt, moet u mogelijk aanvullende kosten, zoals reiskosten naar bepaalde serviceregio's of starttarieven, registreren. Wanneer u een serviceorder maakt, kunt u deze kosten invoegen en wordt er een regel van het type **Kosten** aan de order toegevoegd. Als u de kosten wilt toepassen op alle serviceorders, kunt u standaardkosten instellen. Dit kunt u bijvoorbeeld doen als u een starttarief wilt toepassen.
   
 ### <a name="to-set-up-service-costs"></a>Servicekosten instellen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicekosten** in en kies vervolgens de gerelateerde koppeling. 
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicekosten** in en kies de desbetreffende koppeling. 
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Standaardkosten opgeven voor serviceorders
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Service-instellingen** in en kies vervolgens de gerelateerde koppeling. 
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Service-instellingen** in en kies de desbetreffende koppeling. 
 2. In het veld **Starttarief serviceorder** kiest u de betreffende servicekosten.
 
 ## <a name="see-also"></a>Zie ook
 [CRM - Service instellen](service-setup-service.md)  
-[CRM - Service](service-service.md)  
+[Servicebeheer](service-service.md)  

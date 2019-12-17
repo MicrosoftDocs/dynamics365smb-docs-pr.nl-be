@@ -1,8 +1,6 @@
 ---
 title: Order voor order plannen | Microsoft Docs
 description: Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313360"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883226"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
 Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.  
@@ -26,14 +24,14 @@ U kunt de pagina **Orderplanning** op twee manieren openen, afhankelijk van uw d
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Een nieuwe productieordervraag plannen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies vervolgens de gerelateerde koppeling. U kunt deze stappen uitvoeren voor geplande, vast geplande of vrijgegeven productieorders.
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies de gerelateerde koppeling. U kunt deze stappen uitvoeren voor geplande, vast geplande of vrijgegeven productieorders.
 2.  Open de productieorder waarvoor u wilt plannen en kies de actie **Planning**.  
 3.  Kies op de pagina **Orderplanning** de actie **Plan berekenen**.  
 
 Op de pagina worden planningsregels weergegeven volgens het weergavefilter **Productievraag**. Dit zijn niet-gerealiseerde materiaalregels van alle bestaande productieorders. Vraag voor slechts één productieorder wordt niet weergegeven omdat het nodig is om één productieorder te plannen met een overzicht van de vraag voor mogelijk eerdere materiaalregels. Planningsregels voor de productieorder in context worden uitgevouwen.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Eventuele nieuwe vraag plannen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies de gerelateerde koppeling.  
 2.  Kies op de pagina **Orderplanning** de actie **Plan berekenen**.
 3.  Kies de knop **Uitvouwen (+)** in het veld **Benodigde datum** als u de onderliggende planningsregels wilt bekijken, die vraagregels met onvoldoende beschikbaarheid vertegenwoordigen.  
 4.  Voor elke uitgevouwen planningsregel, oftewel vraagregel, kunt u de waarden weergeven in gegevensvelden onder op de pagina.  
@@ -85,7 +83,7 @@ Op de pagina worden planningsregels weergegeven volgens het weergavefilter **Pro
 >   Als u een datum later dan de benodigde datum invoert, ontvangt u een waarschuwingsbericht.  
 
 ## <a name="to-make-supply-orders"></a>Orders voor voorzieningen maken  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies vervolgens de gerelateerde koppeling. U kunt deze stappen uitvoeren voor een geplande, vast gepland of vrijgegeven productieorder.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies de gerelateerde koppeling. U kunt deze stappen uitvoeren voor een geplande, vast gepland of vrijgegeven productieorder.  
 2.  Open de productieorder waarvoor u wilt plannen en kies de actie **Planning**.  
 3.  Plaats de cursor op een relevante planningsregel en kies de actie **Orders maken**.  
 4.  Selecteer een van de volgende opties op de pagina **Orders voor voorzieningen maken** op het sneltabblad **Orderplanning**, in de groep **Orders maken voor**.  

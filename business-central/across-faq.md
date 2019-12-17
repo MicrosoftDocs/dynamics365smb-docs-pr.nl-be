@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775511"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896197"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -20,7 +20,7 @@ Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een p
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar in mijn land?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie [Ondersteunde landen en vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) voor meer informatie.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie voor meer informatie [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (alleen beschikbaar in het Engels).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Hoe krijg ik [!INCLUDE [prodshort](includes/prodshort.md)]?
 
@@ -84,7 +84,7 @@ Als u geen abonnement op Office 365 hebt en u er geen wilt aanschaffen, leveren 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online is volledig geïntegreerd met Office 365, zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan ik mijn 'Nieuw bedrijf'-proefperiode verlengen?
-Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md). 
+Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md).
 
 > [!NOTE]
 > Het kan maximaal twee werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
@@ -108,13 +108,15 @@ Wanneer u zover bent om [!INCLUDE [prodshort](includes/prodshort.md)] aan te sch
 
 Als u advies van Microsoft wilt, kunt u contact opnemen met het [Microsoft Sales-team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
+Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.
+
+## <a name="is-the-windows-client-supported"></a>Wordt de Windows-client ondersteund?
+De eerste releases van [!INCLUDE[prodshort](includes/prodshort.md)] on premises omvatte een geïnstalleerde client afgeleid van Microsoft Dynamics NAV. Vanaf 2019 releasewave 2 zal dit oudere onderdeel, 'de Windows-client' genoemd, niet langer beschikbaar zijn voor [!INCLUDE[prodshort](includes/prodshort.md)]. Zie voor meer informatie [Veelgestelde vragen over Windows Client en Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Zie ook
-
 [Aan de slag](product-get-started.md)  
 [Veelgestelde vragen over Vertel me](ui-search-faq.md)  
-[Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.md)  
+[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Veelgestelde vragen over lijstweergaven](ui-views-faq.md)  
 [Taal en landinstellingen wijzigen](about-locale-language.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
@@ -125,5 +127,7 @@ Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor 
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
+[Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Veelgestelde vragen over ontwikkelaars- en ITPro-ervaringen](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

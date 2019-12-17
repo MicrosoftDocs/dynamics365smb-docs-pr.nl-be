@@ -1,8 +1,6 @@
 ---
 title: 'Procedure: Vooruitbetalingsfacturen maken | Microsoft Docs'
 description: Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling verlangt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5841329a2e369be081c2728edf1837e85859f38e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ee10367990ebb0e60879ac885ad03072dd877c2a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302152"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879740"
 ---
 # <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie voor vooruitbetalingen gebruiken.  
@@ -27,7 +25,7 @@ Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u een vooruitbetalingsnot
 In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een verkooporder factureert. De stappen zijn vergelijkbaar voor inkooporders.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2. Een nieuwe verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 
     Op het sneltabblad **Vooruitbetaling**, wordt het veld **vooruitbetaling %** op de kop automatisch ingevuld als de klantenkaart een standaardvooruitbetalingspercentage bevat. U kunt de inhoud van het veld wijzigen. Het vooruitbetalingspercentage wordt alleen vanuit de kop gekopieerd naar regels waarnaar het standaardvooruitbetalingspercentage van het artikel niet wordt gekopieerd.  

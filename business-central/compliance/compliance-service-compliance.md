@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: a9378bd44dfbf0271987e748b03d7f2f3e17e1ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad70b9d321ac4c8ee9b1d7c8a00e7e192187093a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307480"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880724"
 ---
 # <a name="service-compliance"></a>Servicenaleving
 Deze inhoud bevat informatie over servicenaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -26,11 +26,11 @@ Business Central is een cloudservice met een globaal bereik en een globale schaa
 
 U vindt de gedetailleerde lijst met [Aanbod van cloudnaleving voor Business Central hier](https://aka.ms/d365-compliance-list).
 
-Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microsoft, raadpleegt u [Microsoft Vertrouwenscentrum](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
+Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microsoft, raadpleegt u [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
 ## <a name="service-terms"></a>Servicevoorwaarden
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+[!INCLUDE [prodshort](../includes/prodshort.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Bovendien kunt u de gezondheid van uw tenant bewaken en upgradevensters opgeven in het [Tenantbeheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

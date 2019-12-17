@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303448"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832203"
 ---
 # <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,6 +38,6 @@ Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastle
 [Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md)  
 [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)  
 [Ontwerpdetails: Reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md)  
-[Ontwerpdetails: rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)
-[Ontwerpdetails: voorraadwaardering](design-details-inventory-valuation.md)  
+[Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  
+[Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md)  
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)

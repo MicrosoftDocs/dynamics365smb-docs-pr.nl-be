@@ -1,8 +1,6 @@
 ---
 title: Factuurafronding instellen | Microsoft Docs
 description: U kunt factuurbedragen afronden wanneer u facturen maakt. Volgens lokale voorschriften of gebruiken moet de factuur mogelijk op een specifieke manier worden afgerond, bijvoorbeeld op een bedrag dat door 0,05 kan worden gedeeld.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 399216085913c576007bd5996cef4f3192362c4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bb114e6ea550ca5cc453c8319e72da5b11cec6e8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305656"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882482"
 ---
 # <a name="set-up-invoice-rounding"></a>Factuurafronding instellen
 Als u factuurbedragen moet afronden wanneer u facturen maakt, kunt u de automatische afrondingsfunctie gebruiken. Wanneer een factuur wordt afgerond, wordt een extra regel met het afrondingsbedrag toegevoegd. Deze regel wordt tegelijk met andere factuurregels geboekt.
@@ -38,7 +36,7 @@ Als u automatische factuurafronding wilt gebruiken, moet u het volgende doen:
 Als u de functie voor automatische factuurafronding wilt gebruiken, moet u de grootboekrekening(en) instellen waarnaar de afrondingsverschillen moeten worden geboekt. Als u dit wilt doen, moet u Btw-productboekingsgroepen instellen. Zie voor meer informatie [Btw instellen](finance-setup-vat.md).  
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Grootboekrekeningen voor factuurafrondingsverschillen instellen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
 2. Stel de rekening op de pagina **Rekeningschema** in en geef deze de naam **Factuurafronding** of iets dergelijks. [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de rekeningnaam als tekst voor facturen die worden afgerond.  
 3. Afhankelijk van of u btw gebruikt of sales tax, kiest u in de velden **Btw-productboekingsgroep** of **Btw-prod.-boekingsgroep** een boekingsgroep voor afgeronde bedragen. U wilt wellicht een nieuwe groepcode instellen die u kunt gebruiken voor factuurafronding.
 4. Laat de velden **Algemeen boekingssoort**, en **Btw-bedrijfsboekingsgroep** of **Btw-bedr.-boekingsgroep** leeg. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
@@ -49,17 +47,17 @@ U kunt nu de factuurafrondingsrekening toewijzen aan boekingsgroepen in het vens
 Voordat u de automatische factuurafrondingsfunctie kunt gebruiken, moet u afrondingsregels instellen voor vreemde en lokale valuta's.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Afronding instellen voor vreemde valuta's  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Valuta's** de vreemde valuta om de **valutakaart** te openen en vul de velden **Bedragafrondingsprecisie**, **Prijsafrondingsprecisie**, **Factuurafrondingsprecisie** en **Factuurafrondingsmethode** in.
 
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Afronding instellen voor uw lokale valuta
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
 2. Vul op de pagina **Boekhoudinstellingen** op het sneltabblad **Algemeen** de velden **Factuurafr.-precisie** en **Factuurafr.-methode** in.  
 
 ## <a name="activate-the-invoice-rounding-function"></a>Functie voor factuurafronding inschakelen  
 Om ervoor te zorgen dat verkoop- en inkoopfacturen automatisch worden afgerond, moet u de functie voor factuurafronding inschakelen. U kunt factuurafronding apart instellen voor verkoopfacturen en inkoopfacturen.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van verkoop en tegoeden** of **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Grootboekjournalen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen verkoop en tegoeden** of **Inkoopinstellingen** in en kies vervolgens de desbetreffende koppeling.  
 2. Kies op het sneltabblad **Algemeen** het selectievakje **Factuurafronding**.  
 
 ## <a name="see-also"></a>Zie ook  

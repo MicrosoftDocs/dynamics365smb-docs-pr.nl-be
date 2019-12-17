@@ -1,8 +1,6 @@
 ---
 title: Over voorraadwaardering | Microsoft Docs
 description: Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fd2365f26ac762eb1f3edab534e87e163077771f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7243b15ccd94fea5c0630e03f32dd94ab305402
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302010"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882626"
 ---
 # <a name="about-inventory-costing"></a>Over voorraadwaardering
 Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).  
@@ -38,7 +36,7 @@ Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van op
 |Te begrijpen hoe de voorraadwaarde wordt weerspiegeld in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Meer te weten te komen over hoe artikeltoeslagen, zoals verzendkosten en verzekering, extra kostenonderdelen kunnen toewijzen aan de eenheidsprijs van een artikel.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|  
 |Te lezen hoe voorraadperioden een bedrijf kunnen helpen de voorraadwaarde gedurende de tijd te beheren door kortere perioden te definiëren die gedurende het boekjaar voor boeking kunnen worden gesloten.|[Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)|  
-|Alle mechanismen in de kostprijsberekeningengine begrijpen, inclusief wat er gebeurt wanneer u assemblage- en productietransacties boekt.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|
+|Alle mechanismen in de kostprijsberekeningengine begrijpen, inclusief wat er gebeurt wanneer u assemblage- en productietransacties boekt.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Zie ook
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)    

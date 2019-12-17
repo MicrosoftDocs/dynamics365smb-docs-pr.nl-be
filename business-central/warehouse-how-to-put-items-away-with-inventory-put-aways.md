@@ -1,8 +1,6 @@
 ---
 title: Artikelen opslaan met een voorraadopslag | Microsoft Docs
 description: Als voor uw vestiging wel een opslagverwerking maar geen ontvangstverwerking is vereist, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een productieorder waarvan de output kan worden opgeslagen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaf527802d9b49f84e0c4261d4658f01382efa45
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 35305a5adddf178748811dc66bbf5ed6047d77a1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313892"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881714"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Artikelen opslaan met voorraadopslag
 Als voor uw vestiging wel een opslagverwerking, maar geen ontvangstverwerking vereist is, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een assemblage- of productieorder waarvan de output kan worden opgeslagen.  
@@ -31,11 +29,11 @@ U kunt een voorraadopslag op drie manieren maken:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Een voorraadopslag aanvragen door het brondocument vrij te geven
 Voor inkooporders, verkoopretourorders, inkomende transferorders en assemblageorders maakt u het magazijnverzoek door de order vrij te geven. Hieronder wordt beschreven hoe u dit doet vanuit een inkooporder.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
 2. Selecteer de inkooporder die u wilt vrijgeven en kies de actie **Vrijgeven**.  
 
     Voor productieorders maakt u het magazijnverzoek door een inkomend verzoek te maken vanuit de vrijgegeven productieorder.  
-3.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven productieorders** in en kies vervolgens de gerelateerde koppeling.  
+3.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven productieorders** in en kies de gerelateerde koppeling.  
 4. Kies de actie **Ink. magazijnontvangst maken**.  
 
 > [!NOTE]  
@@ -45,7 +43,7 @@ Wanneer het magazijnverzoek is gemaakt, ziet de magazijnmedewerker verantwoordel
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Een voorraadopslag maken op basis van het brondocument
 Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadopslag maken op basis van het vrijgegeven brondocument.   
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en selecteer vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en selecteer de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Selecteer in het veld **Brondocument** het soort brondocument waarvoor u opslaat.  
 4. Selecteer het brondocument in het veld **Bronnr.**  
@@ -58,7 +56,7 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadopslag m
 3. Kies de knop **OK**. Er wordt een nieuwe voorraadopslag gemaakt.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Meerdere voorraadopslagactiviteiten maken met een batchverwerking  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick maken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick maken** in en kies de desbetreffende koppeling.  
 2.  Gebruik op het sneltabblad **Magazijnverzoek** van de aanvraagpagina de velden **Brondocument** en **Bronnr.** om te filteren op bepaalde soorten documenten of reeksen documentnummers.  
 3.  Schakel op het sneltabblad **Opties** het selectievakje **Voorraadopslag maken** in.
 4.  Kies de knop **OK**. De opgegeven voorraadopslagactiviteiten worden gemaakt.

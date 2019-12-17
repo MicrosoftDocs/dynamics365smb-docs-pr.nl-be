@@ -1,8 +1,6 @@
 ---
 title: Productie-output en bewerkingstijd in batches boeken | Microsoft Docs
 description: Het outputaantal geeft het gereedgemelde aantal van onderhanden werk aan.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cc4acf5fbaf10df3b833e310a83854e52b0d2b73
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313264"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877805"
 ---
 # <a name="batch-post-output-and-run-times"></a>Output en bewerkingstijden in batches boeken
 Het outputaantal geeft het gereedgemelde aantal van onderhanden werk aan.  
@@ -26,7 +24,7 @@ Het outputaantal geeft het gereedgemelde aantal van onderhanden werk aan.
 > Alleen wanneer u het outputaantal bij de laatste bewerking boekt, wordt de voorraad automatisch bijgewerkt.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Outputaantallen voor een of meer productieorderregels boeken
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.  
 2. Voer in de velden informatie over de productieorder en output in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als de bewerking is voltooid, selecteert u het veld **Voltooid**.  
 
@@ -37,7 +35,7 @@ Het outputaantal geeft het gereedgemelde aantal van onderhanden werk aan.
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Bewerkingstijd boeken voor een of meerdere productieorderregels
 De bewerkingstijd geeft de benodigde werktijd voor onderhanden werk aan.    
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.  
 2. Voer in de velden informatie over de productieorder en output in.  
 3.  Als de bewerking is voltooid, selecteert u het veld **Voltooid**.  
 4. Kies de actie **Boeken** om de bestede tijd per bewerking te boeken. Capaciteitsposten worden bijgewerkt voor de gebruikte afdelingen of bewerkingsplaatsen.

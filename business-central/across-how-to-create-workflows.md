@@ -1,8 +1,6 @@
 ---
 title: Werkstromen maken | Microsoft Docs
 description: U kunt werkstromen maken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ef58cf6729ed5608fdbc6ac24093941bf41dc82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305464"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881204"
 ---
 # <a name="create-workflows"></a>Werkstromen maken
 U kunt werkstromen maken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
@@ -27,12 +25,12 @@ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappe
 Wanneer u werkstromen maakt, kunt u de stappen van bestaande werkstromen of van werkstroomsjablonen kopiëren. Werkstroomsjablonen vertegenwoordigen niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bestaan. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd hebben het voorvoegsel "MS-", zoals in "MS-PIW". Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet worden ondersteund, moet een Microsoft-partner ze implementeren door de toepassingscode aan te passen.  
-  
+
 > [!NOTE]  
 >  Alle berichten over werkstroomstappen worden verzonden via een taakwachtrij. Zorg dat de taakwachtrij in uw installatie is ingesteld om werkstroomberichten te verwerken, en dat het selectievakje **Automatisch starten van NAS** is geselecteerd. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Een workflow maken  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroom** verschijnt.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
 4. Als u de werkstroom wilt maken van een werkstroomsjabloon, kiest u op de pagina **Werkstromen** de actie **Werkstroom maken van sjabloon**. Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -56,9 +54,11 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 
     1.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het verzenden van een melding, vult u de velden in de volgende tabel in.  
 
-        |Veld|Description|  
+        |Veld|Omschrijving|  
         |----------------------------------|---------------------------------------|  
+        |**Afzender informeren**|Geef op of de aanvrager van de goedkeuring op de hoogte wordt gebracht in plaats van de ontvanger van de goedkeuringsaanvraag. Als u het selectievakje inschakelt, wordt het veld **Gebruikers-id ontvanger** uitgeschakeld omdat de aanvrager van de goedkeuring, de afzender, wordt geïnformeerd in plaats van de ontvanger. De naam van de werkstroomreactie verandert dienovereenkomstig in **Maak een bericht voor &lt;afzender&gt;**. Als het selectievakje niet is ingeschakeld, is de naam van de werkstroomreactie **Maak een bericht voor &lt;gebruiker&gt;**.
         |**Gebruikers-id ontvanger**|Geef de gebruiker op die de melding moet ontvangen. Opmerking: deze optie is alleen beschikbaar voor werkstroomantwoorden met een tijdelijke aanduiding voor een bepaalde gebruiker. Voor werkstroomantwoorden zonder tijdelijke aanduidingen voor gebruikers, wordt de meldingsontvanger meestal bepaald door de goedkeuringsgebruikersinstelling.|  
+        |**Type berichtitem**|Geeft aan of het werkstroombericht wordt geactiveerd door een recordwijziging, een goedkeuringsverzoek of een verstreken vervaldatum.|
         |**Doelpagina van koppeling**|Geef een andere pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] op die de koppeling in het bericht opent in plaats van de standaardpagina.|  
         |**Aangepaste koppeling**|Geef de URL op van een koppeling die wordt toegevoegd aan de melding naast de koppeling naar een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van een goedkeuringsaanvraag, vult u de velden in de volgende tabel in.  
@@ -91,7 +91,7 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 >  Schakel het een werkstroom pas in als u zeker weet dat de werkstroom af is en dat de betreffende werkstroomstappen kunnen beginnen.  
 
 > [!TIP]  
->  Als u relaties wilt zien tussen tabellen die in werkstromen worden gebruikt, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voert u **Werkstroom - Tabelrelaties** in.  
+>  Als u relaties wilt zien tussen tabellen die in werkstromen worden gebruikt, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "TVertel me wat u wilt doen") en voert u **Werkstroom - Tabelrelaties** in.  
 
 ## <a name="see-also"></a>Zie ook  
 [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)   
@@ -103,4 +103,3 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 [Werkstromen instellen](across-set-up-workflows.md)   
 [Werkstromen gebruiken](across-use-workflows.md)   
 [Werkstroom](across-workflow.md)      
-

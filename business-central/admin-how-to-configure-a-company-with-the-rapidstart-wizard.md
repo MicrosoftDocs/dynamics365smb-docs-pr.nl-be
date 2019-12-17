@@ -1,8 +1,6 @@
 ---
 title: Een bedrijf configureren met de wizard RapidStart | Microsoft Docs
 description: U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d26073d7b96b3c5970689c916edf18fccab6ca34
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308152"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878713"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Een bedrijf configureren met de wizard RapidStart
 U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
@@ -41,7 +39,7 @@ In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, da
     >  Wijzig uw Rolcentrum pas nadat u de configuratie van het bedrijf hebt voltooid. Als u met meer instellingsgegevens rekening moet houden en meer wijzigingen moet doorvoeren, moet u eerst het configuratiewerkblad gebruiken om door te gaan met uw werk. Ga vervolgens terug naar de wizard voor het bijwerken van uw Rolcentrum-profiel of kies de actie **Volledige installatie**.
 
 7. Kies de knop **OK**.  
-8. U kunt controleren of de configuratiegegevens zijn toegepast op het nieuwe bedrijf. Kies het ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "pictogram Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies en vervolgens de gerelateerde koppeling.
+8. U kunt controleren of de configuratiegegevens zijn toegepast op het nieuwe bedrijf. Kies het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies en vervolgens de gerelateerde koppeling.
 
 De pagina **Bedrijfsgegevens** bevat gegevens die u hebt opgegeven.   
 

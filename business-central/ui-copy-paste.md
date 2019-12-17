@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315672"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882266"
 ---
 # <a name="copy-and-paste-faq"></a>Veelgestelde vragen over kopiëren en plakken
 U kunt een of meer rijen (records) uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail). Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
@@ -38,7 +38,7 @@ Als u één rij wilt kopiëren, selecteert u deze en drukt u op Ctrl+C.
 
 Als u meerdere rijen wilt kopiëren, kunt u:
 - Op Ctrl drukken en op een andere rij klikken of op Shift drukken en klikken om de rij en alle rijen ertussenin te selecteren. Zie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows) voor meer muis- en toetsenbordcombinaties voor het selecteren van rijen.
-- Selecteer ![Meer opties weergeven](media/show-more-options-icon.png "pictogram Meer opties weergeven") in de eerste kolom, kies **Meer selecteren**, schakel het selectievakje in naast elke rij die u wilt kopiëren, en druk op Ctrl+C.
+- Selecteer ![Meer opties weergeven](media/show-more-options-icon.png "Pictogram Meer opties weergeven") in de eerste kolom, kies **Meer selecteren**, schakel het selectievakje in naast elke rij die u wilt kopiëren, en druk op Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>Hoe plak ik rijen?
 Selecteer een lege rij, met focus in een willekeurige cel, en druk vervolgens op Ctrl + V.
@@ -56,7 +56,7 @@ Ja. Dit wordt geplakt als een keurig geformatteerde tabel die de inspringing, nu
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>In welke lijsten kan ik rijen kopiëren en plakken?
 U kunt rijen in een willekeurige lijst plakken, inclusief werkbladen, feitenblokken of lijsten die zijn ingesloten in een pagina (zoals regels van een verkooporder). Als u rijen wilt plakken, moet de lijst echter bewerkbaar zijn.
 
-Op sommige pagina's kan het toepassingsontwerp voorkomen dat u rijen plakt. Neem contact op met de beheerder of toepassingsontwikkelaar om de [eigenschap Bewerkbaar](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) op de pagina te wijzigen of de eigenschap [PasteIsValid](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) te wijzigen in de brontabel.
+Op sommige pagina's kan het toepassingsontwerp voorkomen dat u rijen plakt. Neem contact op met de beheerder of toepassingsontwikkelaar om de [eigenschap Bewerkbaar](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) op de pagina te wijzigen of de eigenschap [PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) te wijzigen in de brontabel.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>In welke clients is kopiëren en plakken beschikbaar?
 Kopiëren en plakken is beschikbaar in de browser of de [!INCLUDE[d365fin](includes/d365fin_md.md)]-app voor Windows 10.

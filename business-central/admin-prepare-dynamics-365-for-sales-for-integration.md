@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 09edf4a84720085d0accb008b0ae29f47fa38f60
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775319"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808781"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 De functie van verkoper wordt vaak beschouwd als een van de meest naar buiten gerichte taken in een bedrijf. Het kan voor verkopers echter handig zijn in het bedrijf te kunnen kijken en te zien wat er bij de backend gebeurt. Door [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] te integreren kunt u uw verkopers dat inzicht geven door ze informatie in [!INCLUDE[d365fin](includes/d365fin_md.md)] te laten zien terwijl ze werken in [!INCLUDE[crm_md](includes/crm_md.md)]. Bijvoorbeeld, tijdens het voorbereiden van een verkoopofferte kan het handig zijn om te weten of u voldoende voorraad hebt om de order te kunnen vervullen. Zie voor meer informatie [Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md).
@@ -34,7 +34,7 @@ De volgende stappen geven een overzicht van de stappen om [!INCLUDE[crm_md](incl
 > [!Note]  
 > Deze taken vereisen de beveiligingsrol **Systeembeheerder** in [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Stel in het Office 365-beheercentrum een gebruikersaccount in voor de verbinding met en synchronisatie van gegevens met [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. Stel in het Microsoft 365-beheercentrum een gebruikersaccount in voor de verbinding met en synchronisatie van gegevens met [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Wijs licenties voor [!INCLUDE[crm_md](includes/crm_md.md)] toe aan de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die de geïntegreerde apps zullen gebruiken.
 

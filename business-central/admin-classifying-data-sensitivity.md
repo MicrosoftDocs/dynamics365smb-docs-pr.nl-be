@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308224"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880988"
 ---
 # <a name="classifying-data-sensitivity"></a>Gegevensvertrouwelijkheid classificeren
-Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Als klant kunt u een tweede niveau van classificatie toevoegen door gevoeligheidsniveaus voor de gegevens op te geven die u in standaard- en aangepaste velden opslaat. Gegevensvertrouwelijkheid classificeren helpt zorgen dat u weet waar u persoonlijke gegevens in uw systeem bewaart en maakt het gemakkelijker te reageren op aanvragen van gegevensonderwerpen. Als een contact of klant u bijvoorbeeld vraagt hun persoonlijke gegevens te exporteren. Zie voor meer informatie [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Met het werkblad Gegevensclassificatie kunt u bijvoorbeeld het volgende doen:
 > Wij hebben voorbeelden van vertrouwelijkheidsclassificaties gedefinieerd voor de tabellen en velden in het demonstratiebedrijf Cronus. U kunt deze indelingen als inspiratie gebruiken wanneer u uw eigen tabellen en velden classificeert.
 
 ## <a name="see-also"></a>Zie ook
-[Gegevens classificeren](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

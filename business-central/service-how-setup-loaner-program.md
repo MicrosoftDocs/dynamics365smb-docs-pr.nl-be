@@ -1,8 +1,6 @@
 ---
 title: Uitleenartikelen instellen | Microsoft Docs
 description: U kunt uitleenartikelen instellen die u kunt uitlenen aan klanten ter vervanging van serviceartikelen waarvoor service wordt uitgevoerd.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311872"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877483"
 ---
 # <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
 Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  
@@ -26,7 +24,7 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 * Een notitie over een serviceartikel invoeren over de behoefte aan een uitleenartikel.  
 
 ## <a name="to-set-up-a-loaner"></a>Een uitleenartikel instellen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Service-instellingen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe uitleenartikelkaart. 
 3. Selecteer in het veld **Nr.** een nummer voor het uitleenartikel in. Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor uitleenartikelen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare uitleenartikelnummer in te voeren.  
 4. Vul de velden **Omschrijving**, **Omschrijving 2** en **Serienummer** in.  

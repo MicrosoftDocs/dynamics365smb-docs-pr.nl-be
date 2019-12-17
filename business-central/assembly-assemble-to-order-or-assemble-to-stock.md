@@ -1,8 +1,6 @@
 ---
 title: Op voorraad assembleren of Op order assembleren begrijpen | Microsoft Docs
 description: Componenten kunnen worden geleverd door deze te assembleren bij bestelling of door deze te assembleren om op voorraad te worden gehouden tot deze nodig zijn voor een verkooporder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 795f5959866cf8394c5d4112ddad79cb6a9fe860
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d1cf0c03a985245a507ec7e7970706bfad31b83
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304169"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880940"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  

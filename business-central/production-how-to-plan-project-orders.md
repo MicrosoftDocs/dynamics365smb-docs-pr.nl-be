@@ -1,8 +1,6 @@
 ---
 title: Projectorders plannen | Microsoft Docs
 description: Deze planningstaak wordt gestart vanaf een verkooporder en gebruikt de pagina **Verkooporderplanning**. Wanneer u eenmaal een projectproductieorder hebt gemaakt, kunt u deze verder plannen op de pagina **Orderplanning**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9a98b654ee28fad43feeb827f7d97310df6d4a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c090843a5adcca7fcdb5ba857ca06172a805fe90
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313336"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877771"
 ---
 # <a name="plan-project-orders"></a>Projectorders plannen
 Deze planningstaak wordt gestart vanaf een verkooporder en gebruikt de pagina **Verkooporderplanning**. Wanneer u eenmaal een projectproductieorder hebt gemaakt, kunt u deze verder plannen op de pagina **Orderplanning**.  
 
 ## <a name="to-create-a-project-production-order"></a>Een projectproductieorder maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Selecteer de verkooporder die het productieproject vertegenwoordigt en kies de actie **Planning**.  
 4.  Kies op de pagina **Verkooporderplanning** de actie **Prod.-order maken**.  
 5.  Selecteer op de pagina **Prod.order voor verkooporder maken** de optie **Projectorder** in het veld **Ordersoort**.  
 6.  Kies de knop **Ja**.  
-7.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieorders** in en kies vervolgens de gerelateerde koppeling.
+7.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieorder** in en kies de gerelateerde koppeling.
 8. Open de zojuist gemaakte productieorder.  
 
     Het veld **Bronsoort** van de productieorder bevat **Verkoopkop** en de order heeft meerdere regels (één voor elk verkoopregelartikel dat moet worden geproduceerd).  

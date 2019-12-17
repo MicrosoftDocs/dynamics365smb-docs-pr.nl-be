@@ -7,12 +7,12 @@ ms.date: 11/06/2019
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: solsen
-ms.openlocfilehash: 4aa15d32143b909b206a10d8ae11906abfddc47b
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 8608fbc4198f4e3daf9fe0edd1f261367f3fcb55
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767856"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832275"
 ---
 # <a name="pre-sales-learning-catalog"></a>Trainingscatalogus Pre-sales
 
@@ -39,7 +39,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 | Inhoud                                                                                                                                | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Alleen partners) In deze sessie wordt de waarde van Business Central uiteengezet. Business Central biedt hoge waarde, omdat het geïntegreerd kan worden met andere Microsoft cloudservices, zoals Office 365, en kan worden aangepast of uitgebreid voor de behoeften van een bepaalde sector met PowerApps, Microsoft Flow en Power BI. | Video                                 | 8 minuten, 5 seconden |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Alleen partners) In deze sessie wordt de waarde van Business Central uiteengezet. Business Central biedt hoge waarde, omdat het geïntegreerd kan worden met andere Microsoft cloudservices, zoals Office 365, en kan worden aangepast of uitgebreid voor de behoeften van een bepaalde sector met Power Apps, Power Automate en Power BI. | Video                                 | 8 minuten, 5 seconden |
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.                                                                                                                                                                                                | Gratis online leertraject voor zelfstudie | 24 minuten          |
 

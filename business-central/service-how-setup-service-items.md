@@ -1,8 +1,6 @@
 ---
 title: Instellingen voor serviceartikelen en serviceartikelonderdelen | Microsoft Docs
 description: Leer wat u moet instellen voordat u serviceartikelen, inclusief standaardwaarden voor onder andere de responstijd, het contractkortingspercentage en de serviceprijsgroep, kunt gebruiken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41c2a4ea5a79f7fe66eaae93c7bffa2c7bbe3d2e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316128"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877411"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Serviceartikelen en serviceartikelonderdelen instellen
 Als u met serviceartikelen wilt werken, moet u het volgende instellen
@@ -30,7 +28,7 @@ U kunt groepen van artikelen instellen die aan elkaar gerelateerd zijn met betre
 
 U wijst serviceartikelgroepen toe aan artikelen op de kaart **Artikel** en aan serviceartikelen op de kaart **Serviceartikel**.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelgroepen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe serviceartikelgroep.  
 3. Vul de velden **Code** en **Omschrijving** in.  
 4. Geef in het veld **Std. contractkorting %** het standaardpercentage voor de contractkorting op dat u wilt toewijzen aan de serviceartikelen in de groep.  
@@ -41,7 +39,7 @@ U wijst serviceartikelgroepen toe aan artikelen op de kaart **Artikel** en aan s
 ## <a name="to-set-up-service-item-components"></a>Serviceartikelcomponenten instellen
 Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderdelen kunt vervangen wanneer voor het artikel service wordt uitgevoerd. Deze onderdelen zijn ingesteld op de pagina **Serviceartikelonderdeeloverzicht**. Als u onderdelen wilt instellen voor serviceartikelen die zijn ingesteld als stuklijst, kunt u de stuklijstartikelen kopiëren en instellen als serviceartikelcomponenten.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies de desbetreffende koppeling.
 2. Open het serviceartikel waarvoor u componenten wilt instellen.  
 3. Kies de actie **Materialen**. De pagina **Serviceartikelonderdeeloverzicht** wordt geopend.  
 4. Een nieuw component toevoegen.  
@@ -49,7 +47,7 @@ Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderde
 6. Selecteer in het veld **Nr.** het artikel of serviceartikel dat een component is van het serviceartikel.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Serviceartikelcomponenten instellen uit stuklijsten
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies de desbetreffende koppeling.  
 2. Open het serviceartikel waarvoor u componenten wilt instellen vanuit een stuklijst.  
 3. Kies de actie **Materialen**. De pagina **Serviceartikelonderdeeloverzicht** wordt geopend.  
 4. Kies de actie **Van stuklijst kopiëren**.  
@@ -59,7 +57,7 @@ Een serviceartikel kan bestaan uit meerdere onderdelen die u door reserveonderde
 ## <a name="to-set-up-a-service-shelf"></a>Serviceschappen instellen
 U kunt serviceschappen instellen om de opslaglocatie van uw serviceartikelen aan te duiden. U wijst serviceschappen toe aan serviceartikelen op de pagina's **Serviceorder** en **Serviceartikelwerkbon**.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceschappen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceschappen** in en kies de desbetreffende koppeling.
 2. Vul de benodigde velden in.
 
 ## <a name="see-also"></a>Zie ook

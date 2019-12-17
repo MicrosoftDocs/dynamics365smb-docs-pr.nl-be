@@ -1,8 +1,6 @@
 ---
 title: Kosten verantwoorden | Microsoft Docs
 description: Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c4a9b0477f566e10dd1aac3b8a02c86877c227f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302101"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882602"
 ---
 # <a name="accounting-for-costs"></a>Kosten verantwoorden
 Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.  

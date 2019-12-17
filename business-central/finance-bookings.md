@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4dd32dee8a670a5774de3b9c4afe8367cc44d0fb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 924876abbe532384d568c6c260b22397f98a40ad
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302583"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879908"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365fin_mdmd"></a>Massaal factureren voor Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als uw bedrijf de app Bookings gebruikt in Office 365, kunt u massaal factureren voor afspraken. De pagina **Niet-gefactureerde Bookings** in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een overzicht van de voltooide boekingen van het bedrijf. Op deze pagina kunt u snel afspraken selecteren die u wilt factureren en conceptfacturen maken voor de geleverde services.  
@@ -42,4 +42,4 @@ De ondersteuning voor het factureren van afspraken vanuit Bookings is eenvoudige
 [Financiën](finance.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  

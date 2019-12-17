@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 538a6f4b1ead61afde223391441bf097f3c26f77
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577171"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877603"
 ---
 # <a name="prioritize-vendors"></a>De prioriteit van leveranciers bepalen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft een functie die voorstellen kan doen voor betalingen aan leveranciers, bijvoorbeeld bij betalingen die binnenkort moeten worden betaald, of als voor een betaling een korting mogelijk is. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
 
 Eerst moet u aan uw leveranciers eerst een prioriteit toewijzen door nummers aan hen toe te wijzen.
 <br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>Leveranciers in een prioriteitsvolgorde plaatsen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
 2. Selecteer de relevante leverancier en kies **Bewerken**.
 3. Voer in het veld **Prioriteit** een nummer in.
 

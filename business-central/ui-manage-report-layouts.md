@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315168"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809388"
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
@@ -39,7 +39,7 @@ Er zijn twee soorten rapportlay-outs die u in rapporten kunt gebruiken: Word en 
 ## <a name="word-report-layout-overview"></a>Overzicht van de Word-rapportlay-out
 Een Word-rapportlay-out wordt gebaseerd op een Word-document (.docx-bestandstype). Met Word-rapportlay-outs kunt u rapportlay-outs ontwerpen door Microsoft Word 2013 of later te gebruiken. Een Word-rapportlay-out bepaalt de inhoud van het rapport: hoe de inhoudelementen worden gerangschikt en hoe ze eruit zien. Een Word-document met een rapportlay-out gebruikt meestal tabellen om inhoud te rangschikken. De cellen kunnen gegevensvelden, tekst of afbeeldingen bevatten.
 
- ![Voorbeeld van een Word-rapportlay-outdocument voor NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+ ![Voorbeeld van een Word-rapportdocument voor NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Overzicht van de RDLC-lay-out
 RDLC-lay-outs zijn gebaseerd op clientrapportdefinitielay-outs (.rdlc- of .rdl-bestandstypen). Deze lay-outs worden gemaakt en gewijzigd vanuit SQL Server Report Builder. Het ontwerpconcept voor RDLC-lay-outs lijkt op Word-lay-outs, waarbij de lay-out de algemene indeling van het rapport definieert en bepaalt welke velden uit de database worden opgenomen. RDLC-lay-outs ontwerpen is geavanceerder dan Word-lay-outs ontwerpen. Zie voor meer informatie [RDLC-rapportlay-outs ontwerpen](/dynamics-nav/Designing-RDLC-Report-Layouts).
@@ -59,9 +59,10 @@ Het proces voor het instellen van Word-rapportlay-outs en RDLC-rapportlay-outs i
 Zie [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md) voor informatie over het wijzigen van de te gebruiken indeling.
 
 ## <a name="see-also"></a>Zie ook
-[Rapport- of documentindelingen bijwerken](ui-update-report-layouts.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Een aangepaste lay-out voor een rapport of document maken en wijzigen](ui-how-create-custom-report-layout.md)  
+[Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)  
+[Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  
 [Een aangepaste indeling voor een rapport of document importeren en exporteren](ui-how-import-and-export-report-layout.md)  
+[Speciale documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

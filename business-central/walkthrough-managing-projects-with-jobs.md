@@ -1,8 +1,6 @@
 ---
 title: 'Procedure: Projecten beheren | Microsoft Docs'
 description: In deze procedure maakt u kennis met de functies voor projectbeheer in taken (projecten). Projecten zijn een manier waarop u het verbruik van de bedrijfsresources kunt plannen en de diverse kosten kunt bijhouden die samenhangen met de resources voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die u mogelijk wilt bijhouden terwijl het project voortduurt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 333c32d29e7095e95520badd375a3abde9a87834
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554728"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882026"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
 
@@ -79,7 +77,7 @@ In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- e
 
 ### <a name="to-prepare-the-sample-data"></a>De voorbeeldgegevens voorbereiden  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw** om een nieuwe resourcekaart te maken.  
 3.  Voer op het sneltabblad **Algemeen** de volgende informatie in:  
 
@@ -102,7 +100,7 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 ### <a name="to-create-a-job-journal-batch"></a>Een projectdagboekbatch maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies de gerelateerde koppeling.  
 2.  Kies op de pagina **Projectdagboek** het veld **Batchnaam**. De pagina **Projectdagboekbatches** wordt geopend.  
 3.  Kies de actie **Nieuw** om een nieuwe regel te maken met de volgende informatie:  
 
@@ -117,7 +115,7 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 ### <a name="to-set-up-a-job"></a>Een project instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw** om een nieuwe kaart te maken.  
 3.  Voer op het sneltabblad **Algemeen** de volgende informatie in:  
 
@@ -238,7 +236,7 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 ### <a name="to-calculate-remaining-usage"></a>Het resterende gebruik berekenen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies de gerelateerde koppeling.  
 2.  Open op de pagina **Projectdagboek** in het veld **Batchnaam** de lijst **Projectdagboekbatches**. Selecteer de projectdagboekbatch **Tricia**.  
 3.  Kies de actie **Resterend gebruik berekenen**.  
 4.  Kies op de pagina **Resterend gebruik berekenen**, op het sneltabblad **Projecttaak** het veld **Projectnr.** en selecteer het relevante projectnummer, meestal project J00010.  
@@ -255,7 +253,7 @@ De regels worden nu geboekt.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Een projectverkoopfactuur maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2.  Selecteer het project dat u eerder hebt gemaakt en kies de actie **Projectverkoopfactuur maken**.  
 3.  Schakel op het sneltabblad **Projecttaak** alle filters voor **Projecttaaknr.** uit om het project te factureren. Selecteer het relevante project in het veld **Projectnr.**.  
 4.  Vul op het sneltabblad **Opties** de boekingsdatum in en of u één factuur per taak wilt maken of slechts één factuur voor alle taken.  
@@ -265,7 +263,7 @@ De regels worden nu geboekt.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Een nieuwe verkoopfactuur boeken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies de gerelateerde koppeling  
 2.  Open de factuur voor klantnr. 01445544. U ziet de gegevens die zijn ingevoerd op de planningsregels.  
 3.  Kies de actie **Boeken**. Kies **Ja** om de boeking te bevestigen.  
 
@@ -279,7 +277,7 @@ De regels worden nu geboekt.
 
 ### <a name="to-open-the-statistics-page"></a>De pagina Statistiek openen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Statistieken**. U kunt gedetailleerde informatie over de projectprijzen, -kosten en -winsten bekijken in zowel lokale als vreemde valuta's.  
 3.  Kies de knop **Sluiten** om de pagina **Projectstatistiek** te sluiten.  
 
@@ -288,7 +286,7 @@ De regels worden nu geboekt.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Vaste prijzen beheren in projecten  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2.  Selecteer het projectnummer **Guildford** en kies de actie **Projecttaakregels**.  
 3.  Selecteer regel 1120 en klik in het veld **Planning (totale kostprijs)** met de rechtermuisknop op het bedrag en kies **DrillDown**.  
 
@@ -310,7 +308,7 @@ Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur 
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Uren invoeren in het projectdagboek  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies de gerelateerde koppeling.  
 2.  Maak een nieuwe regel met de volgende informatie:  
 
     -   **Regelsoort**: **(blanco)**  
@@ -371,7 +369,7 @@ In de totale prijs van het contract, zijn alleen de oorspronkelijk afgesproken 3
 
 ### <a name="to-copy-a-job"></a>Een project kopiëren  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw** om een nieuw project te maken. Geef de volgende informatie op:  
 
     -   **Omschrijving**: **10 conferentieruimten inrichten**  
@@ -396,7 +394,7 @@ Door prijzen, projecttaakregels en projectplanningsregels voor twee taken te ver
 
 ### <a name="to-set-up-a-new-account"></a>Een nieuwe rekening instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Rekeningschema** de actie **Nieuw** om een nieuwe kaart te maken.  
 3.  Geef op de kaart **Nieuwe grootboekrekening** de volgende gegevens op:  
 

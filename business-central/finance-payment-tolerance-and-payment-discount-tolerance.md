@@ -1,8 +1,6 @@
 ---
 title: Betalingstolerantie en contantkortingstolerantie | Microsoft Docs
 description: U kunt de betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3bed8b9298b668e627691be11598ca8c78238db
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 229602a4ca5eb7b2da926171a7ba86a8d103b133
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305752"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879620"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 U kunt een betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt. U kunt een contantkortingstolerantie instellen om een contantkorting te verlenen nadat de datum van de betalingskorting is verstreken.  
@@ -44,13 +42,13 @@ Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen]
 Met toleranties voor dagen en bedragen kunt u een factuur ook afsluiten als het betalingsbedrag niet gelijk is aan het volledige factuurbedrag. De reden hiervoor kan zijn dat de vervaldatum voor de betalingskorting is overschreden, dat er goederen zijn afgetrokken of dat er een kleine fout is gemaakt. Dit geldt ook voor restituties en creditnota's.  
 
 U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt ingesteld, boekingsmethoden voor zowel contantkortingstolerantie als betalingstolerantie hebt opgegeven en vervolgens de batchverwerking **Betalingstolerantie wijzigen** hebt uitgevoerd.  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Algemene boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsgroepinstellingen** in en kies de desbetreffende koppeling.  
 2. Open de pagina **Boekingsgroepinstellingen**. Stel debet- en creditrekeningen voor verkoopbetalingstolerantie en debet- en creditrekeningen voor inkoopbetalingstolerantie in.  
-3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.    
+3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantboekingsgroepen** in en kies de desbetreffende koppeling.    
 4. Stel op de pagina **Klantboekingsgroepen** een debet- en een creditrekening voor betalingstolerantie in. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
-5. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciersboekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+5. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciersinstellingen** in en kies de desbetreffende koppeling.  
 6. Stel op de pagina **Leveranciersboekingsgroepen** een debet- en een creditrekening voor betalingstolerantie in.  
-7. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+7. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
 8. Open de pagina **Boekhoudinstellingen**.  
 9. Vul op het sneltabblad **Vereffening** de velden **Betalingstolerantieboeking**, **Respijtperiode contantkorting** en **Betalingstolerantieboeking** in.   
 10. Kies de actie **Betalingstolerantie wijzigen**.
@@ -68,7 +66,7 @@ U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt i
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Betalingstolerantiewaarschuwingen in- of uitschakelen
 De betalingstolerantiewaarschuwing verschijnt wanneer u een vereffening boekt die een saldo heeft binnen de toegestane tolerantie. Vervolgens kiest u hoe u het saldo wilt boeken en vastleggen.    
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
 2. Schakel op de pagina **Grootboekinstellingen** op het sneltabblad **Vereffening** het selectievakje **Betalingstolerantiewaarschuwing** in om de waarschuwing te activeren. Schakel het selectievakje uit als u de waarschuwing wilt deactiveren.  
 
 > [!NOTE]  
@@ -77,7 +75,7 @@ De betalingstolerantiewaarschuwing verschijnt wanneer u een vereffening boekt di
 ## <a name="to-block-payment-tolerance-for-customers"></a>Betalingstolerantie voor klanten blokkeren  
 Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie wilt toestaan voor een bepaalde klant of leverancier, moet u de tolerantie op de desbetreffende klanten- of leverancierskaart blokkeren. Hierna wordt beschreven hoe u dit doet voor een klant. De stappen zijn vergelijkbaar voor een leverancier.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** of **Leverancier** in en kies de desbetreffende koppeling.  
 2. Schakel op de het sneltabblad **Betalingen** het selectievakje **Betalingstolerantie blokkeren** in .  
 
 > [!NOTE]  
@@ -124,7 +122,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Afzonderlijke betalingstolerantieregels 1](media/singlePmtTolRules(Pre1503).gif "Afzonderlijke betalingstolerantieregels 1")  
+![Regels voor eenmalige betalingstolerantie 1](media/singlePmtTolRules(Pre1503).gif "Regels voor eenmalige betalingstolerantie 1")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -135,7 +133,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Afzonderlijke betalingstolerantieregels 2](media/singlePmtTolRules(GracePeriod).gif "Afzonderlijke betalingstolerantieregels 2")  
+![Regels voor eenmalige betalingstolerantie 2](media/singlePmtTolRules(GracePeriod).gif "Regels voor eenmalige betalingstolerantie 2")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -146,7 +144,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Afzonderlijke betalingstolerantieregels 3](media/singlePmtTolRules(Post0120).gif "Afzonderlijke betalingstolerantieregels 3")  
+![Regels voor eenmalige betalingstolerantie 3](media/singlePmtTolRules(Post0120).gif "Regels voor eenmalige betalingstolerantie 3")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -207,7 +205,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 1](media/multiplePmtTolRules(Pre1503).gif "Meerdere betalingstolerantieregels 1")  
+![Regels voor meervoudige betalingstolerantie 1](media/multiplePmtTolRules(Pre1503).gif "Regels voor meervoudige betalingstolerantie 1")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -218,7 +216,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Meerdere betalingstolerantieregels 2")  
+![Regels voor meervoudige betalingstolerantie 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regels voor meervoudige betalingstolerantie 2")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -229,7 +227,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Meerdere betalingstolerantieregels 3")  
+![Regels voor meervoudige betalingstolerantie 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regels voor meervoudige betalingstolerantie 3")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -240,7 +238,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Meerdere betalingstolerantieregels 4")  
+![Regels voor meervoudige betalingstolerantie 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regels voor meervoudige betalingstolerantie 4")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
@@ -251,7 +249,7 @@ Restbedrag per
 
 Normale vereffeningsregels  
 
-![Meerdere betalingstolerantieregels 5](media/multiplePmtTolRules(Post0122).gif "Meerdere betalingstolerantieregels 5")  
+![Regels voor meervoudige betalingstolerantie 5](media/multiplePmtTolRules(Post0122).gif "Regels voor meervoudige betalingstolerantie 5")  
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 

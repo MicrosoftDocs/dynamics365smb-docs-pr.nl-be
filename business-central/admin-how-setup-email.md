@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
+ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304624"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2810825"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de velden op de pagina SMTP-mailinstellingen invullen.
@@ -26,11 +26,11 @@ In plaats van de SMTP-serverdetails handmatig in te voeren, kunt u de functie **
 U kunt uw e-mail handmatig instellen, zoals hieronder beschreven, of u kunt hulp krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>E-mail instellen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Als u een account gebruikt waarvoor tweefactorauthenticatie is vereist, moet het wachtwoord dat u invoert in het veld **Wachtwoord**, hetzelfde zijn als het wachtwoord dat u gebruikt voor uw Office 365-abonnement en moet het van het type **App-wachtwoord** zijn.
+    > Als u een account gebruikt waarvoor tweefactorauthenticatie is vereist, moet het wachtwoord dat u invoert in het veld **Wachtwoord**, hetzelfde zijn als het wachtwoord dat u gebruikt voor uw Office 365-abonnement en moet het van het type **App-wachtwoord** zijn. Zie voor meer informatie [App-wachtwoorden beheren voor tweestapsverificatie](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 3. Of u kiest de actie **Office 365 Server-instellingen toepassen** om alle informatie in te voegen die al voor uw Office 365-abonnement is gedefinieerd.
 4. Als alle velden correct zijn ingevuld, kiest u de actie **Instelling e-mail testen**.
 5. Als de test is geslaagd, sluit u de pagina.
@@ -48,25 +48,26 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Een vervangend afzenderadres instellen voor alle uitgaande e-mailberichten
 1. Zoek in het **Exchange-beheercentrum** voor uw Office 365-account de postbus die u als vervangend adres wilt gebruiken en kopieer of noteer het adres. Als u een nieuw adres nodig hebt, gaat u naar uw Microsoft 365-beheercentrum om een nieuwe gebruiker te maken en hun mailbox in te stellen.
-2. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
+2. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 3. Voer in het veld **Verzenden als** het vervangende adres in.
 4. Kopieer of noteer het adres in het veld **Gebruikersnaam**.
-5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie [Machtigingen beheren voor ontvangers](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
+5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie [Machtigingen beheren voor ontvangers](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Het vervangende adres gebruiken in goedkeuringswerkstromen
-1. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 2. Kopieer of noteer het adres in het veld **Gebruikersnaam**.
-3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.
-4. Zoek in het **Exchange-beheercentrum** de postvakken voor elke gebruiker die wordt vermeld op de pagina **Gebruikersinstellingen voor goedkeuring** en voer in het veld **Verzenden als** het adres uit het veld **Gebruikersnaam** van de pagina **SMTP-e-mailinstellingen** in [!INCLUDE[d365fin](includes/d365fin_md.md)] in. Zie [Machtigingen beheren voor ontvangers](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019) voor meer informatie.
-5. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
+3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies de gerelateerde koppeling.
+4. Zoek in het **Exchange-beheercentrum** de postvakken voor elke gebruiker die wordt vermeld op de pagina **Gebruikersinstellingen voor goedkeuring** en voer in het veld **Verzenden als** het adres uit het veld **Gebruikersnaam** van de pagina **SMTP-e-mailinstellingen** in [!INCLUDE[d365fin](includes/d365fin_md.md)] in. Zie [Machtigingen beheren voor ontvangers](/Exchange/recipients/mailbox-permissions?view=exchserver-2019) voor meer informatie.
+5. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 6. Als u vervanging wilt inschakelen, zet u de schakelaar **Vervanging van afzender toestaan** aan.
 
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaalt welk adres wordt weergegeven in de volgende volgorde: <br><br> 1. Het adres dat is opgegeven in het veld **E-mail** op de pagina **Gebruikersinstellingen voor goedkeuring** voor berichten in een werkstroom. <br> 2. Het adres dat is opgegeven in het veld **Verzenden als** op de pagina **SMTP-e-mailinstellingen**. <br> 3. Het adres dat is opgegeven in het veld **Gebruikersnaam** op de pagina **SMTP-e-mailinstellingen**.
 
 
-## <a name="see-also"></a>Zie ook  
-[Gedeelde postbussen in Exchange Online](https://docs.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes)  
+## <a name="see-also"></a>Zie ook
+
+[Gedeelde postbussen in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  

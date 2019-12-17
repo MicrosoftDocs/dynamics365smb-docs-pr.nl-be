@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 07274a495ba7047fafaf31a94225ac29b05aabb4
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0e6d9bb39e36ca127ab9d64eb045ab4c64b91d30
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692788"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880748"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 U gebruikt bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)] om uw banktransacties bij te houden. Bedragen op rekeningen kunnen worden uitgedrukt in de lokale valuta of in een vreemde valuta. Nadat u bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Vhpl]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl]
 
 ## <a name="to-set-up-bank-accounts"></a>Bankrekeningen instellen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.

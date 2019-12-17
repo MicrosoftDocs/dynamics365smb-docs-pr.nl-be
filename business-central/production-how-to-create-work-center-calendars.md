@@ -1,8 +1,6 @@
 ---
 title: Productieagenda's instellen | Microsoft Docs
 description: 'Op een afdelingsagenda staan de werkdagen en -tijden, de diensten, vakanties en afwezigheid genoteerd die bepalend zijn voor de brutocapaciteit. gemeten in tijd, van de afdeling op basis van de gedefinieerde efficiëntie en capaciteitswaarden. Voordat er een afdelingsagenda kan worden gemaakt, moet diverse voorbereidingen worden getroffen:'
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1663f9092c21e1955f3e2531efc9935ba1c68982
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cc40361150d8368c46f9045451c0d542eff13779
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314084"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877963"
 ---
 # <a name="set-up-shop-calendars"></a>Productieagenda's instellen
 Een afdelings- of bewerkingsplaatsagenda bevat de werkdagen en -tijden, de diensten, vakanties en afwezigheid die bepalend zijn voor de brutocapaciteit, gemeten in tijd, van de afdeling op basis van de gedefinieerde efficiëntie- en capaciteitswaarden.
@@ -27,7 +25,7 @@ Voordat een bepaalde afdelings- of bewerkingsplaatsagenda kan worden berekend, m
 Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van bewerkingsplaatsagenda's zijn de stappen vergelijkbaar.  
 
 ## <a name="to-create-work-shifts"></a>Ploegen maken  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ploegen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ploegen** in en kies de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op om de ploeg aan te duiden, bijvoorbeeld **1**.  
 3.  Geef een omschrijving voor de ploeg in het veld **Omschrijving**, bijvoorbeeld **Vroege ploeg**.  
 4.  Vul eventueel regels voor een tweede of derde ploeg in.  
@@ -35,7 +33,7 @@ Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van be
 Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcode worden opgegeven.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Een productieagenda instellen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieagenda's** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieagenda's** in en kies de desbetreffende koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op ter aanduiding van de productieagenda.  
 3.  Beschrijf de productieagenda in het veld **Omschrijving**.  
 4.  Kies de actie **Werkdagen**.
@@ -70,7 +68,7 @@ Nu kan de productieagenda worden toegewezen aan een afdeling om de afdelingsagen
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Een afdelingsagenda berekenen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.
 2. Open de afdeling die u wilt bijwerken.  
 3. Geef in het veld **Productieagendacode** op welke productieagenda moet worden gebruikt als basis voor de agenda van de afdeling.  
 4. Kies de actie **Agenda**.  

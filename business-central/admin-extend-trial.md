@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/01/2019
+ms.date: 11/14/2019
 ms.author: bholtorf
-ms.openlocfilehash: bce2f8ec50fa836be87c0f1bd77a28e44b208167
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: 6468ab23e570066bfdc052461ff49f4ae3c03ad5
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764636"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808901"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 Het is belangrijk de juiste bedrijfstoepassing te kiezen en we weten dat het tijd kost om alle aspecten van [!INCLUDE[d365fin](includes/d365fin_md.md)] te bekijken. Als u meer tijd nodig hebt om de evaluatie te voltooien, kunt u de proefperiode zelf nog eens 30 dagen verlengen. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids.
@@ -31,6 +31,7 @@ Als uw eerste proefperiode van 30 dagen is verlopen, kunt u deze zelf verlengen.
 2. Kies in het bericht boven in de werkruimte **Proef verlengen**.
 
 ## <a name="see-also"></a>Zie ook
+
 [Nieuwe bedrijven maken](about-new-company.md)  
-[Toegang tot een preview](across-preview.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-proefversies en -abonnementen](across-preview.md)  
 [Hoe vind ik een partner-reseller?](across-faq.md#findpartner)  

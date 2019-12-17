@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Bestelbeleid verwerken | Microsoft Docs'
 description: Overzicht van taken voor het definiëren van een bestelbeleid in voorraadplanning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307168"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880484"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Ontwerpdetails: Bestelbeleid verwerken
 Om een artikel deel te laten nemen aan voorraadplanning, moet een bestelbeleid worden gedefinieerd. Er zijn vier soorten bestelbeleid:  
@@ -96,7 +94,7 @@ Voor bestelbeleid dat een bestelpunt gebruikt, kunt u een tijdsinterval opgeven.
 
 Het tijdsinterval geeft het handmatige proces aan om het voorraadniveau op frequente basis te controleren in plaats van voor elke transactie. De gebruiker moet de frequentie (het tijdsinterval) definiëren. De gebruiker verzamelt bijvoorbeeld alle artikelbehoeften van één leverancier om een wekelijkse order te plaatsen.  
 
-![Voorbeeld van tijdverzameling bij planning](media/nav_app_supply_planning_2_reorder_cycle.png "Voorbeeld van tijdverzameling bij planning")  
+![Voorbeeld van tijdsinterval in planning](media/nav_app_supply_planning_2_reorder_cycle.png "Voorbeeld van tijdsinterval in planning")  
 
 Het tijdsinterval wordt doorgaans gebruikt om een watervaleffect te voorkomen. Een vereffende rij van vraag en aanbod waarbij bijvoorbeeld een vroege vraag wordt geannuleerd of een nieuwe wordt gemaakt. Het resultaat is dat elke voorzieningenorder (behalve de laatste) opnieuw wordt gepland.
 
@@ -105,7 +103,7 @@ Wanneer de beleidsopties Maximum aantal en Vast bestelaantal worden gebruikt, ri
 
 *Let op: De geplande voorraad [xx] is groter dan het overflowniveau [xx] op de Vervaldatum [xx].*  
 
-![Voorraadoverflowniveau](media/supplyplanning_2_overflow1_new.png "Voorraadoverflowniveau")  
+![Overflowniveau van voorraad](media/supplyplanning_2_overflow1_new.png "Overflowniveau van voorraad")  
 
 ###  <a name="calculating-the-overflow-level"></a>Het overflowniveau berekenen  
 Het overflowniveau wordt op verschillende manieren berekend, afhankelijk van de planningsinstelling.  
@@ -181,7 +179,7 @@ In dit scenario verandert een klant een verkooporder van 70 in 40 stuks tussen t
 #### <a name="resulting-planning-lines"></a>Resulterende planningsregels  
  Er wordt één planningsregel (waarschuwing) gemaakt om de inkoop met 30 te reduceren, van 90 tot 60, om de geplande voorraad op 100 te houden, op basis van het overflowniveau.  
 
-![Plannen volgens overflowniveau](media/nav_app_supply_planning_2_overflow2.png "Plannen volgens overflowniveau")  
+![Plannen volgens overloopniveau](media/nav_app_supply_planning_2_overflow2.png "Plannen volgens overloopniveau")  
 
 > [!NOTE]  
 >  Zonder de overflowfunctie wordt er geen waarschuwing gemaakt als het geplande voorraadniveau boven de maximale voorraad is. Dit kan een overbodige voorziening van 30 genereren.
@@ -195,7 +193,7 @@ Het bestelpunt drukt de verwachte vraag uit tijdens de doorlooptijd van het arti
 
  In de volgende illustratie staat aanbod D voor een noodorder om een correctie uit te voeren voor negatieve voorraad.  
 
- ![Suggestie van noodplanning om negatieve voorraad te voorkomen](media/nav_app_supply_planning_2_negative_inventory.png "Suggestie van noodplanning om negatieve voorraad te voorkomen")  
+ ![Suggestie voor noodplanning om negatieve inventaris te voorkomen](media/nav_app_supply_planning_2_negative_inventory.png "Suggestie voor noodplanning om negatieve inventaris te voorkomen")  
 
 1.  Voorziening **A**, de oorspronkelijk geplande voorraad, is onder het bestelpunt.  
 2.  Er is een nieuwe voorwaarts-geplande voorziening gemaakt (**C**).  

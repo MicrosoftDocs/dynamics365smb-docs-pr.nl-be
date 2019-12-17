@@ -1,8 +1,6 @@
 ---
 title: Artikelen verzenden | Microsoft Docs
 description: Afhankelijk van de magazijnconfiguratie, kunt u de verzending direct registreren in het gerelateerde uitgaande bedrijfsdocument, zoals een verkooporder, of magazijnverzendingsdocumenten gebruiken die deel uitmaken van een werkstroom en met verschillende magazijnactiviteiten zijn geïntegreerd.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314688"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876787"
 ---
 # <a name="ship-items"></a>Artikelen verzenden
 Wanneer u artikelen verzendt vanuit een magazijn waarvoor magazijnverzendingsverwerking niet is ingesteld, registreert u de verzending in het gerelateerde bedrijfsdocument, zoals een verkooporder, serviceorder, inkoopretourorder of uitgaande transferorder.
@@ -29,7 +27,7 @@ Als u artikelen verzendt vanuit een magazijn met magazijnverzendingsverwerking, 
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Artikelen verzenden met een verkooporder
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stappen zijn vergelijkbaar voor inkoopretourorders, serviceorders en uitgaande transferorders.  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Open een bestaande verkooporder of maak een nieuwe. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Voer in het veld **Te verzenden aantal** het aantal in dat u hebt ontvangen.
 
@@ -41,7 +39,7 @@ Eerst maakt u een verzendingsdocument op basis van een bedrijfsbrondocument. Ver
 
 ### <a name="to-create-a-warehouse-shipment"></a>Een magazijnverzending maken
 Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is een magazijnverzending.
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  
@@ -74,12 +72,12 @@ Als u alle regels voor de verzending hebt, kunt u het proces starten dat deze do
 
 ### <a name="to-pick-and-ship"></a>U kunt als volgt een verzending picken en verzenden
 Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geopend door een magazijnmedewerker die verantwoordelijk is voor pickactiviteiten.
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.
 2. Selecteer de magazijnverzending waarvoor u wilt picken en kies de actie **Pick maken**.
 3. Vul de velden op de pagina in en klik vervolgens op de knop **OK**. Het opgegeven magazijnpickdocument wordt gemaakt.
 
     U kunt ook een bestaande magazijnpick openen.
-4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling. Selecteer de magazijnpick waaraan u wilt werken.
+4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies de desbetreffende koppeling. Selecteer de magazijnpick waaraan u wilt werken.
 
     Als het magazijn met opslaglocaties werkt, zijn de pickregels omgezet in Nemen- en Plaatsen-regels.
 

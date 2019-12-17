@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775391"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879391"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Pagina's inspecteren in Business Central
 
@@ -32,7 +32,7 @@ Wanneer het deelvenster **Pagina-inspectie** wordt geopend, bevat het informatie
 
 Gebruik het toetsenbord of aanwijsapparaat om de focus te verplaatsen naar verschillende elementen op de pagina. Wanneer u een feitenblok of een deel van de hoofdpagina selecteert, worden de grenzen ervan gemarkeerd door een rand en bevat het deelvenster **Pagina-inspectie** informatie over het geselecteerde element. De vorige afbeelding bevat bijvoorbeeld informatie over het lijstonderdeel op de pagina **Verkooporder**. Terwijl u naar andere pagina's in de toepassing navigeert, wordt het deelvenster **Pagina-inspectie** automatisch bijgewerkt met pagina-informatie.
 
-Voor meer informatie over wat wordt weergegeven in pagina-inspectie raadpleegt u [Pagina's inspecteren en er problemen mee oplossen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) in de Help van Business Central Developer en IT Pro.
+Voor meer informatie over wat wordt weergegeven in pagina-inspectie raadpleegt u [Pagina's inspecteren en er problemen mee oplossen](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) in de Help van Business Central Developer en IT Pro.
 
 Als u niet de details ziet die u verwacht te zien in het deelvenster **Pagina-inspectie**, hebt u waarschijnlijk niet de vereiste machtigingen, zoals beschreven in het volgende gedeelte.
 

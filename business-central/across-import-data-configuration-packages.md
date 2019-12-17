@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: edupont
-ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff9f17e6ac1625dc4d1f27a39fc843d9eaa375d7
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304984"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896265"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u ervoor kiezen een leeg bedrijf te maken zodat u uw eigen gegevens kunt uploaden en uw nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf kunt testen. Afhankelijk van de financiële oplossing die uw bedrijf tegenwoordig gebruikt, kunt u gegevens over klanten, leveranciers en bankrekeningen overbrengen.  
@@ -45,6 +45,9 @@ Wanneer u het standaardconfiguratiepakket exporteert naar Excel, bevat de gegene
 
 > [!IMPORTANT]  
 >  Wijzig de kolommen in de werkbladen niet. Als ze worden verplaatst, gewijzigd of verwijderd, kan het werkblad niet worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!NOTE]
+> Velden van het type Blob kunnen niet worden geëxporteerd/geïmporteerd met Excel.
 
 ## <a name="tables-in-the-default-configuration-package"></a>Tabellen in het standaardconfiguratiepakket
 Het standaardconfiguratiepakket ondersteunt de volgende tabellen:

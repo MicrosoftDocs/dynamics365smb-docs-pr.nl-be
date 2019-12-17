@@ -1,8 +1,6 @@
 ---
 title: Serviceorders boeken | Microsoft Docs
 description: Wanneer u een serviceorder hebt gemaakt, de benodigde gegevens hebt ingevuld en eventuele wijzigingen hebt aangebracht, kunt u de serviceorder boeken. De order moet minimaal één serviceartikelregel en één serviceregel bevatten voordat u deze kunt boeken. Als de order meer dan één serviceregel bevat, worden alle regels tegelijk geboekt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05ee230bd8a68d08223ec9942fd410c4a6b3ce39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: cc2f6261b778c9cd4fc62ae2c0b44003a3b1bf80
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554755"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877219"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Serviceorders en creditnota's boeken
 Wanneer u een serviceorder hebt gemaakt, de benodigde gegevens hebt ingevuld en eventuele wijzigingen hebt aangebracht, kunt u de serviceorder boeken. De order moet minimaal één serviceartikelregel en één serviceregel bevatten voordat u deze kunt boeken. Als de order meer dan één serviceregel bevat, worden alle regels tegelijk geboekt.  
@@ -28,7 +26,7 @@ Als u een groot aantal serviceorders hebt, kunt u tijd besparen door deze tegeli
 > Voordat u een servicedocument boekt, is het een goed idee om de actie **Testrapport** te gebruiken om het document te controleren op eventuele fouten of ontbrekende gegevens. Als er fouten zijn, moet u het probleem oplossen. U kunt een nieuw testrapport afdrukken om de correctie te controleren en vervolgens kunt u het document boeken.
 
 ## <a name="to-post-a-service-order"></a>Serviceorders boeken    
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Open de betreffende serviceorder.  
 3. Op de pagina **Serviceorder** kiest u een van de volgende acties.  
 
@@ -53,7 +51,7 @@ U kunt verbruik alleen boeken als de regel een aantal bevat dat is verzonden, ma
 Wanneer de order wordt geboekt, worden de bijbehorende posten en geboekte documenten gemaakt. Tevens worden de betreffende velden in het serviceorderdocument bijgewerkt.  
 
 ## <a name="to-batch-post-service-orders"></a>Serviceorders batchboeken
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Batch boeken**.  
 3.  U kunt een filter instellen om bepaalde serviceordernummers of een interval van ordernummers te selecteren dat u met de batchverwerking wilt verwerken.  
 4.  Kies **OK** om de batchverwerking te starten.  
@@ -61,7 +59,7 @@ Wanneer de order wordt geboekt, worden de bijbehorende posten en geboekte docume
 ## <a name="to-post-a-service-credit-memo"></a>Servicecreditnota's boeken  
 Wanneer u een servicecreditnota hebt gemaakt en ingevuld, kunt u de creditnota boeken. Als er fouten worden aangetroffen of als er gegevens ontbreken op de creditnota bij het boeken, wordt het proces onderbroken door een foutbericht.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecreditnota's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecreditnota's** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe servicecreditnota. Kies de actie **Nieuw**.  
 3. Vul de benodigde velden in.  
 4. Kies de actie **Boeken**. Als u de creditnota bij het boeken wilt afdrukken, kiest u in plaats daarvan de actie **Boeken en afdrukken**.  
@@ -74,7 +72,7 @@ Wanneer u een servicecreditnota hebt gemaakt en ingevuld, kunt u de creditnota b
 ## <a name="to-post-consumption-from-a-service-order"></a>Verbruik boeken vanuit een serviceorder  
 In de volgende procedure wordt beschreven hoe u de artikelen, resource-uren of -kosten boekt die zijn gebruikt voor een bepaalde servicewerkzaamheid die u niet in rekening brengt aan uw klant. Verbruikte artikelen, uren of kosten kunnen alleen worden geboekt voor een geboekte verzending waarvoor geen facturen of verbruik zijn geboekt.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Open de serviceorder waarvoor u verbruik wilt boeken.  
 3. Kies het service-item. Kies de actie **Serviceregels**.  
 4. Vind de gewenste posten en geef in het veld **Te verbruiken aantal** het aantal op waarvoor u verbruik gaat boeken. Het aantal mag niet groter zijn dan het reeds verzonden aantal en het resterende aantal dat niet is gefactureerd na een gedeeltelijke facturering van de verzending.  
@@ -91,7 +89,7 @@ Nadat u de details van een service hebt opgegeven, kunt u de aantallen aanpassen
 
 De volgende procedure laat zien hoe u de verzending van serviceregelartikelen kunt boeken voor vestigingen waarvoor de magazijnverwerking niet vereist is.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorder** in en kies vervolgens de gerelateerde koppeling. 2. op de pagina voor de geselecteerde serviceorder op **Acties**, **Order** en **Serviceregels**.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorder** in en kies de desbetreffende koppeling. 2. op de pagina voor de geselecteerde serviceorder op **Acties**, **Order** en **Serviceregels**.  
 3. Zoek op de pagina **Serviceregels** de vereiste posten en geef in het veld **Te verzenden aantal** het te boeken aantal op.  
 
    > [!NOTE]  
@@ -108,7 +106,7 @@ Zie voor informatie over verzendserviceregelartikelen in geavanceerde magazijnco
 ## <a name="to-undo-posted-consumption"></a>Geboekt verbruik ongedaan maken  
 U kunt het verbruik annuleren voor de serviceorders. Het kan bijvoorbeeld voorkomen dat u verbruik per ongeluk boekt.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte serviceverzendingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte serviceverzendingen** in en kies de desbetreffende koppeling.  
 2. Open de geboekte serviceverzending waarvoor het foutieve verbruik is geboekt.  
 3. Kies de actie **Servicezendingsregels**.  
 4. Kies de regels die het foutieve verbruik bevatten en kies de actie **Verbruik ongedaan maken**.  
@@ -126,7 +124,7 @@ Als u wat langer aan een serviceorder moet werken voordat u deze kunt boeken, wi
 
 De volgende procedure beschrijft het boeken van verzendingen rechtstreeks vanuit een serviceorder van vestigingen zonder ingestelde magazijnverwerkingen. Als een magazijnverwerking verplicht is voor de vestiging, gebeurt het boeken van verzendingen in een ander magazijndocument, afhankelijk van de instellingen van de vestiging.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Open de serviceorder en kies de actie **Serviceregels**.  
 4. Vul op de te boeken regels de velden **Te verzenden aantal**, **Te factureren aantal** en **Te verbruiken aantal** in, afhankelijk van de manier waarop u de regels wilt boeken.  
 5. Kies de actie **Boeken**.

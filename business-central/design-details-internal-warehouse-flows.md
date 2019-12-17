@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Inkomende magazijnstromen | Microsoft Docs'
 description: De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op het picken van onderdelen en het opslaan van eindartikelen voor assemblage of productieorders en ad hoc verplaatsingen, zoals opslaglocatieaanvullingen, zonder een relatie met brondocumenten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303472"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880364"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Ontwerpdetails: Inkomende magazijnstromen
 De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op het picken van onderdelen en het opslaan van eindartikelen voor assemblage of productieorders en ad hoc verplaatsingen, zoals opslaglocatieaanvullingen, zonder een relatie met brondocumenten. De omvang en aard van de betrokken activiteiten verschillen tussen de basis- en geavanceerde magazijnfuncties.  
@@ -116,7 +114,7 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 
  De volgende illustratie geeft aan wanneer het veld **Opslaglocatie** in de materialenlijst wordt gevuld volgens de instelling van uw vestiging of bewerkingsplaats/afdeling.  
 
- ![Overzicht van wanneer/hoe het veld Opslaglocatiecode wordt ingevuld](media/binflow.png "Overzicht van wanneer/hoe het veld Opslaglocatiecode wordt ingevuld")  
+ ![Overzicht van wanneer/hoe het veld Opslaglocatie wordt ingevuld](media/binflow.png "Overzicht van wanneer/hoe het veld Opslaglocatie wordt ingevuld")  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)

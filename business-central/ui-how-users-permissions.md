@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 12/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64a14ed66668f8c3cbe09e8db3430a7dc25db5c
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774831"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896169"
 ---
 # <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
 Hieronder wordt beschreven hoe u als beheerder gebruikers maakt en definieert die zich kunnen aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en welke fundamentele rechten verschillende gebruikerstypen hebben volgens de licenties.
@@ -34,14 +34,17 @@ Om te bepalen wie zich kan aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.
 
 Zie voor meer informatie [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in de Help voor ontwikkelaars en IT-pro's.
 
-Als gebruikers met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-licentie in Office 365 zijn gemaakt, kunnen ze op de pagina **Gebruikers** in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geïmporteerd door middel van de actie **Gebruikers ophalen uit Office 365**.
+Als gebruikers met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-licentie in Office 365 zijn gemaakt, kunnen ze op de pagina **Gebruikers** in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geïmporteerd door middel van de actie **Nieuwe gebruikers ophalen uit Office 365**.
 
 ### <a name="to-add-a-user-in-business-central"></a>Een gebruiker in Business Central toevoegen
 Om gebruikers vanuit van het Microsoft 365-beheercentrum toe te voegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)] Online gebruikt u een speciale importfunctie.  
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
-2. Kies de actie **Gebruikers ophalen uit Office 365**.
+2. Kies de actie **Nieuwe gebruikers ophalen uit Office 365**.
 
 Elke nieuwe gebruiker die wordt gemaakt voor uw Office 365-abonnement, wordt op de pagina **Gebruikers** toegevoegd. Aan gebruikers worden machtigingensets toegewezen op basis van de licentie die aan de gebruiker is toegewezen in Office 365. U kunt vervolgens gedetailleerdere machtigingen aan gebruikers toewijzen en gebruikers voor eenvoudig machtigingsbeheer organiseren in gebruikersgroepen. Zie [Machtigingensets toewijzen aan gebruikers](ui-define-granular-permissions.md#to-assign-permission-sets-to-users) voor meer informatie.
+
+> [!NOTE]
+> Als u een externe auditor gebruikt om uw boeken en financiële rapportage te beheren, kunt u deze uitnodigen voor uw Business Central, zodat hij of zij met u kan werken aan uw fiscale gegevens. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>De toegang van een gebruiker tot het systeem verwijderen
 In online implementaties kunt u de toegang van een gebruiker tot het systeem verwijderen door het veld **Status** in te stellen op **Uitgeschakeld**. Alle verwijzingen naar de gebruiker blijven behouden, maar de gebruiker kan zich niet meer aanmelden bij het systeem en actieve sessies voor de gebruiker worden beëindigd.
@@ -50,22 +53,38 @@ In online implementaties kunt u de toegang van een gebruiker tot het systeem ver
 2. Open de pagina **Gebruikerskaart** voor de relevante gebruiker en selecteer in het veld **Status** de optie **Uitgeschakeld**.
 3. Als u de gebruiker weer toegang wilt geven, stelt u het veld **Staat** in op **Ingeschakeld**.
 
-Naast het uitschakelen van een gebruiker kunt u ook de toewijzing van een licentie aan een gebruiker opheffen in het Office 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Naast het uitschakelen van een gebruiker kunt u ook de toewijzing van een licentie aan een gebruiker opheffen in het Microsoft 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>De toegewezen licentie voor een gebruiker wijzigen
 Soms moet u de licentie wijzigen die aan een gebruiker is toegewezen. Als u bijvoorbeeld besluit de module Servicebeheer te gebruiken en daarom alle Essential-licenties moet upgraden naar Premium. Of als de verantwoordelijkheid van een gebruiker is gewijzigd en u een Teamlid-licentie moet vervangen door Essential.
 
-1. Wijzig de licentie in het Office 365-beheercentrum. Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Office 365](https://aka.ms/CreateOffice365Users).
+1. Wijzig de licentie in het Microsoft 365-beheercentrum. Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Office 365](https://aka.ms/CreateOffice365Users).
 2. Meld u als beheerder aan bij [!INCLUDE[d365fin](includes/d365fin_md.md)].
 3. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
 4. U kunt ook op de pagina **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen** kiezen.
+
 De gebruikers worden verplaatst naar een geschikte gebruikersgroep en de machtigingensets worden bijgewerkt. Zie [Machtigingen beheren via gebruikersgroepen](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups) voor meer informatie.
 
 > [!NOTE]
 > Alle reguliere gebruikers in een oplossing moeten dezelfde licentie krijgen, Essential of Premium.
 > Zie voor informatie over licenties [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing).
 
-## <a name="managing-users-and-licenses-in-online-deployments"></a>Gebruikers en licenties beheren in online implementaties
+### <a name="synchronization-with-office-365"></a>Synchronisatie met Office 365
+Wanneer een licentie wordt toegewezen aan een gebruiker in Office 365, zijn er twee manieren om de gebruiker te maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Het systeem doet dit automatisch wanneer de gebruiker zich voor de eerste keer aanmeldt of de beheerder kan de gebruiker toevoegen door de actie **Gebruikers ophalen uit Office 365** te kiezen op de pagina **Gebruikers**.
+
+In beide gevallen wordt automatisch een aantal extra instellingen gemaakt. Deze worden vermeld in de tweede en derde kolom in de onderstaande tabel.
+
+Als u de gebruiker achteraf wijzigt in Office 365 en u moet de wijzigingen synchroniseren met [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u verschillende acties gebruiken op de pagina **Gebruikers**, afhankelijk van wat u precies wilt synchroniseren. Deze worden vermeld in de laatste drie kolommen in de onderstaande tabel.
+
+|Wat gebeurt er wanneer:|Eerste aanmelding|Gebruikers ophalen uit Office 365|Gebruikers bijwerken vanuit Office 365|Standaardgebruikersgroepen van gebruiker herstellen|Gebruikersgroepen vernieuwen|
+|-|-|-|-|-|-|
+|Bereik:|Huidige gebruiker|Nieuwe gebruikers in Office 365|Meerdere geselecteerde gebruikers|Eén geselecteerde gebruiker (behalve huidige)|Meerdere geselecteerde gebruikers|
+|Maak de nieuwe gebruiker en wijs SUPER-machtigingenset toe.<br /><br />Platform|**X**|**X**| | | |
+|Werk de gebruikersrecord bij op basis van actuele informatie in Office 365: Staat, Volledige naam, Contact-e-mail, Verificatie-e-mail.<br /><br />Codeunit "Azure AD   Graph-gebruiker".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
+|Synchroniseer gebruikersplannen (licenties) met toegewezen licenties en rollen in Office 365.<br /><br />Codeunit "Azure AD   Graph-gebruiker".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Voeg de gebruiker toe aan gebruikersgroepen volgens de huidige gebruikersplannen. De machtigingenset SUPER intrekken. (Er is ten minste één SUPER nodig. Niet intrekken vanuit [beheerders](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Machtigingenbeheerder". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overschrijven: verwijder de gebruiker uit andere groepen. Verwijder handmatig toegewezen machtigingensets.|**X**<br /><br />Additief: houd het huidige lidmaatschap van de gebruikersgroep en toegewezen machtigingensets intact. Voeg gebruiker alleen indien nodig aan groepen toe.|
+
+## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Gebruikers en licenties beheren in On-premises implementaties
 Voor on-premises implementaties wordt een aantal gelicentieerde gebruikers opgegeven in het licentiebestand (.flf). Wanneer de beheerder of Microsoft-partner het licentiebestand uploadt, kan de beheerder opgeven welke gebruikers zich kunnen aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de pagina **Gebruikers**.

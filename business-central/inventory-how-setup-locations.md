@@ -12,20 +12,23 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5554bb1576705cd1f3cbcddc7ef33da7b5db3796
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309832"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878329"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren.
 
 U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarheid per locatie weergeven en voorraad tussen locaties overbrengen. Zie [Voorraad beheren](inventory-manage-inventory.md) voor meer informatie.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
 
 ## <a name="to-create-a-location-card"></a>Een vestigingskaart maken
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
@@ -34,7 +37,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 > Veel velden op de vestigingskaart verwijzen naar de verwerking van artikelen in inkomende en uitgaande magazijnprocessen. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Een transferroute maken
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferroutes** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferroutes** in en kies de desbetreffende koppeling.
 2. U kunt ook vanuit elke **Vestiging**-pagina de actie **Transferroutes** kiezen.
 3. Kies de actie **Nieuw**.
 4. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

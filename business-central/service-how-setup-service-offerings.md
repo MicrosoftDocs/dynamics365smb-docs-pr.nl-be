@@ -1,8 +1,6 @@
 ---
 title: Serviceaanbod instellen | Microsoft Docs
 description: Leer hoe u de services instelt die u aan uw klanten aanbiedt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bcd6597ff26a3889608486cde6f8d0158364a956
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311800"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877267"
 ---
 # <a name="set-up-service-offerings"></a>Serviceaanbiedingen instellen
 Bij het instellen van servicebeheer dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken. Een service is een type taak die door een of meerdere resources wordt uitgevoerd en die aan een klant wordt geleverd. Een service kan bijvoorbeeld een type computerreparatie zijn. Een serviceartikel bestaat uit de apparatuur of het artikel waarvoor de service moet worden uitgevoerd, bijvoorbeeld de computer die moet worden gerepareerd en ter plekke bij een klant is geïnstalleerd. U kunt services instellen als onderdeel van een groep aan elkaar gerelateerde reparatie- en onderhoudsartikelen.  

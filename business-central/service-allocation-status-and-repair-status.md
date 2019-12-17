@@ -1,8 +1,6 @@
 ---
 title: Toewijzingsstatus en herstelstatus | Microsoft Docs
 description: Kom meer te weten over de relatie tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten hiervoor.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d63aaf615a8611e6c0bfb640469253aef27ca453
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316248"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882818"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Toewijzingsstatus en herstelstatus van serviceartikelen
 Tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten voor de serviceartikelen bestaat een bepaalde relatie in de module Servicebeheer. De toewijzingsstatus verandert wanneer u de herstelstatus van het serviceartikel wijzigt in **Gereedgemeld** of **Deels service verleend** en een serviceofferte omzet in een serviceorder. De herstelstatus van het serviceartikel verandert wanneer u de toewijzing van het serviceartikel wijzigt of het serviceartikel toewijst aan een andere resource. U kunt de herstelstatus van serviceartikelen bekijken op de pagina **Servicetaken** en bijwerken in het veld **Herstelstatuscode** op de pagina **Serviceartikelwerkbon**. U kunt de toewijzingsstatus bekijken in het veld **Status** op de pagina **Resourcetoewijzingen**.  

@@ -1,8 +1,6 @@
 ---
 title: Migratie van klantgegevens voorbereiden | Microsoft Docs
 description: Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307797"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896097"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Migratie van klantgegevens voorbereiden
 Nadat u de instellingsgegevens hebt geïmporteerd en toegepast in de nieuwe database, kunt u beginnen met het migreren van de bestaande hoofdgegevens van de klant, zoals klantnummers en namen. Om ervoor te zorgen dat deze gegevens snel en nauwkeurig worden gemaakt in het nieuwe bedrijf kunt u het beste sjablonen gebruiken om de gegevens te structureren.  
@@ -34,9 +32,12 @@ U kunt echter een sjabloonstructuur maken en toepassen op elke willekeurige tabe
 > [!TIP]  
 >  U kunt ook gegevenssjablonen gebruiken voor dagelijkse bewerkingen om nieuwe records te maken die zijn gebaseerd op sjablonen. Deze gegevenssjablonen werken alleen voor de ondersteunde hoofdgegevenstabellen. Zie voor meer informatie bijvoorbeeld [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
-Wanneer u klantgegevens, bijvoorbeeld voor artikelen, uit een bestand importeert, worden de verplichte veldgegevens die u hebt opgegeven verzameld uit de gekoppelde gegevenssjabloon. Wanneer u een nieuw artikel maakt, voert u alleen algemene informatie in zoals artikelnaam, -omschrijving en -prijs, en verzamelt u vervolgens de rest van de verplichte veldgegevens van een geselecteerde gegevenssjabloon.  
+Wanneer u klantgegevens, bijvoorbeeld voor artikelen, uit een bestand importeert, worden de verplichte veldgegevens die u hebt opgegeven verzameld uit de gekoppelde gegevenssjabloon. Wanneer u een nieuw artikel maakt, voert u alleen algemene informatie in zoals artikelnaam, -omschrijving en -prijs, en verzamelt u vervolgens de rest van de verplichte veldgegevens van een geselecteerde gegevenssjabloon.
 
 Wanneer u een nieuwe hoofdgegevensrecord maakt, zoals een klantenkaart, zijn sommige velden verplicht en moeten deze altijd worden ingevuld. U kunt de meeste verplichte velden, zoals boekingsgroepen en betalingsvoorwaarden, groeperen om het maken van hoofdgegevens eenvoudiger en stabieler te maken. Zo kunt u bijvoorbeeld verplichte velden voor tabel 18, **Klant**, groeperen als de typen **Binnenlands**, **Buitenlands** of **Exporteren**.
+
+> [!NOTE]
+> Velden van het type Blob kunnen niet worden geëxporteerd/geïmporteerd met Excel.
 
 ## <a name="to-select-a-data-template"></a>Een gegevenssjabloon selecteren
 Wanneer u een bestaande gegevenssjabloon selecteert, moet u beoordelen of de sjablonen die u hebt gemaakt voor het nieuwe bedrijf volstaan. Controleer de opgegeven velden en waarden om te bepalen welke sjablonen geschikt zijn voor een nieuw bedrijf.  
@@ -44,7 +45,7 @@ Wanneer u een bestaande gegevenssjabloon selecteert, moet u beoordelen of de sja
 > [!TIP]  
 >  U kunt gegevenssjablonen ook gebruiken om snel nieuwe lijsten te maken. Gebruik deze om sneller en nauwkeuriger gegevens te maken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies de desbetreffende koppeling.  
 2. Selecteer op de pagina **Configuratiesjablonen** een gegevenssjabloon in de lijst, en kies de actie **Bewerken**.  
 
 Als de standaardsjablonen niet aan uw behoeften voldoen, kunt u nieuwe sjablonen maken of velden toevoegen aan een bestaande sjabloon. Als de standaardsjablonen voldoende zijn, kunt u deze gebruiken om records te maken op basis van hoofdgegevenssjablonen.
@@ -89,7 +90,7 @@ De tabel-id, tabelnaam en regels van de bestaande gegevenssjabloon worden ingevo
 ## <a name="to-export-to-a-template-in-excel"></a>Exporteren naar een sjabloon in Excel
 U kunt snel een Excel-werkmap maken als sjabloon die is gebaseerd op de structuur van een bestaande databasetabel. U kunt vervolgens de sjabloon gebruiken om klantgegevens te verzamelen in een consistente indeling die u later kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
 2. Voeg een tabel toe aan de lijst of selecteer een bestaande tabel. Zie voor meer informatie [De bedrijfsconfiguratie beheren in een werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definieer de velden uit de tabel die u wilt opnemen in de sjabloon.
 4. Kies de actie **Exporteren naar sjabloon**.
@@ -114,11 +115,11 @@ U kunt de structuur van de gegevens in de gegevenssjablonen gebruiken om uw info
 
 De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgegevenssjabloon. U kunt met dezelfde procedure een record maken van elke gegevenssjabloon.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies de desbetreffende koppeling.  
 2. Selecteer de **artikel**sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie [Een gegevenssjabloon maken](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Kies de actie **Instantie maken**. Er wordt een artikelkaart gemaakt.  
 4. Kies de knop **OK**.  
-5. Als u de nieuwe artikelkaart wilt bekijken, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Artikelen** in en kiest u vervolgens de gerelateerde koppeling.  
+5. Als u de nieuwe artikelkaart wilt bekijken, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Artikelen** in en kiest u vervolgens de gerelateerde koppeling.  
 6. Open de nieuwe artikelkaart.  
 7. Vouw verschillende sneltabbladen uit en controleer of de gegevens erop kloppen.  
 

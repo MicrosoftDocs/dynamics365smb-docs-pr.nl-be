@@ -1,8 +1,6 @@
 ---
 title: Procedures voor bedrijfsprocessen | Microsoft Docs
 description: Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 26c98f2e0dfb08b2b20aca3c697ecb292f6e596a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314952"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881930"
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
 Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  

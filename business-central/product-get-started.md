@@ -4,31 +4,26 @@ description: Leer meer over de mogelijkheden en werkscenario's in Business Centr
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2019
+ms.date: 11/14/2019
 ms.author: edupont
-ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: addf7e03759809bd487d87271625f6df60293031
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313600"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878083"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem. Als u hulp wilt met uw abonnement te helpen, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.  
 
-Wanneer u zich aanmeldt voor het [!INCLUDE[d365fin](includes/d365fin_md.md)]-voorbeeld, krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf uw eigen verkoopdocumenten maken of een bankrekening instellen.  
+Als u hulp wilt met uw abonnement, zoekt u een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
+
+Wanneer u zich aanmeldt voor [!INCLUDE [prodshort](includes/prodshort.md)], krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf nieuwe verkoopdocumenten maken of een bankrekening instellen. Als u [!INCLUDE [prodshort](includes/prodshort.md)] echter wilt gebruiken om uw bedrijf te runnen, moet u contact opnemen met a [!INCLUDE [prodshort](includes/prodshort.md)]-partnerverkoper en een abonnement kopen. Zie voor meer informatie over proefversies en abonnementen [Proeven en abonnementen](across-preview.md).  
 
 ## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] leren kennen
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. In het demonstratiebedrijf wordt aan de hand van visuele hulpen de kernfunctionaliteit uitgelegd, en kunt u dagelijkse taken uitproberen zoals het maken van verkoopfacturen en het weergeven van een rapport. Als u wilt terugkeren nadat u een begeleiding hebt verlaten, bijvoorbeeld om [!INCLUDE[d365fin](includes/d365fin_md.md)] zelfstandig te verkennen, gaat u terug naar het rolcentrum en start u de rondleiding Aan de slag. Als u meer hulp wilt, neemt u contact op met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
-> [!TIP]  
-> U kunt naar het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
-
-Raadpleeg voor enkele snelle, handige trucs:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. Raadpleeg voor enkele snelle, handige trucs:  
 
 * [Dingen zoeken](ui-search.md)  
 * [Lijsten zoeken, filteren en sorteren](ui-enter-criteria-filters.md)  
@@ -36,46 +31,34 @@ Raadpleeg voor enkele snelle, handige trucs:
 
 Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
+> [!TIP]  
+> U kunt altijd naar het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
+
+In het demonstratiebedrijf omvatten de rolcentra Bedrijfsmanager en Accountant de tegel Aan de slag en de tegel Productvideo's. Beide tegels starten pagina's waarop u kunt kiezen tussen verschillende video's die u kunnen helpen aan de slag te gaan met verschillende aspecten van [!INCLUDE [prodshort](includes/prodshort.md)]. U kunt meer video's vinden in ons YouTube-kanaal. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md). U kunt ook eLearning-inhoud voor de basisversie van [!INCLUDE [prodshort](includes/prodshort.md)] vinden op [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Als u meer hulp wilt, neemt u contact op met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
+
 Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](across-business-functionality.md).
 
-Voordat u de functionaliteit kunt gaan gebruiken, moet u bepaalde instellingen uitvoeren. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen. Houd er rekening mee dat sommige installatiestappen semi-automatisch kunnen worden uitgevoerd met behulp van begeleide instellingen.
+Voordat u de functionaliteit kunt gaan gebruiken, moet u bepaalde instellingen uitvoeren. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
+
+> [!TIP]
+> Sommige installatiestappen kunne semi-automatisch worden uitgevoerd met behulp van begeleide instellingen.
 
 Voor een overzicht van huidige mogelijkheden en wat eraan komt, kijkt u naar ons releaseplan op [Releaseplan van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
-U kunt eLearning-inhoud ook vinden op [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
-
 ## <a name="the-role-centers"></a>De rolcentra
-De pagina Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Bekijk de verschillende rolcentra door het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te kiezen in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het rolcentrum te kiezen om een en ander te verkennen. Meld u opnieuw aan om de wijziging door te voeren. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
+De pagina Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlenen tot de bedrijfsproces- en bedrijfsinformatiehulpmiddelen die u nodig hebt om uw werk uit te voeren. Een accountant kan bijvoorbeeld betalingen en goedkeuringen controleren en financiële prestatiediagrammen weergeven. Ontdek waar uw huidige rol toegang toe geeft met de rolverkenner. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md). Bekijk de verschillende rolcentra door het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te kiezen in de rechterbovenhoek, **Mijn instellingen** te kiezen en vervolgens het rolcentrum te kiezen om te verkennen. U wordt automatisch afgemeld en opnieuw aangemeld om de wijziging toe te passen. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
-Elk rolcentrum bevat de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenpagina's te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
+Sommige rolcentra bevatten de knop **Instellingen en extensies**. Hier hebt u toegang tot een lijst met begeleide instellingen die u helpen aan de slag te gaan door snel geselecteerde gebieden in te stellen. Als er voor een bepaald gebied geen begeleide instelling is, kiest u de actie **Handmatige instelling** om instellingenpagina's te openen waarin u handmatig instellingsvelden voor alle velden kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
 
-> [!NOTE]  
->   De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de Essential-ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
-
-Op de pagina **Begeleide instelling** vindt u het volgende in de **Essentieel**-ervaring:
-
-| Begeleide instelling | Description |
-| --- | --- |
-| Bedrijfsgegevens migreren |Hiermee kunt u uw bedrijfsgegevens importeren zoals klanten, leveranciers, en artikelen vanuit Excel of Quickbooks. |
-| Mijn bedrijf instellen |Hiermee wordt een nieuw proefbedrijf voor u gemaakt, waarin u gegevens kunt invoeren en [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt uitproberen. Als u de Aan de slag-rondleiding hebt gevolgd, is dit waarschijnlijk al **Voltooid**. |
-| Cashflowprognose instellen |Hiermee wordt het diagram Cashflowprognose ingesteld, zodat u de voorspelde verplaatsing van contant geld in en uit uw bedrijf kunt weergeven. Het diagram is beschikbaar in **Rolcentrum Accountant**. |
-| Goedkeuringswerkstromen instellen |Stelt de mogelijkheid in om automatisch een fiatteur te informeren wanneer een gebruiker probeert bepaalde waarden in documenten, dagboekregels of kaarten te wijzigen, zoals een bedrag boven een opgegeven limiet. |
-| Een goedkeuringswerkstroom voor klanten instellen |Hiermee wordt de mogelijkheid ingesteld om een fiatteur automatisch te informeren wanneer een gebruiker een klantenkaart probeert te maken of te wijzigen. |
-| E-mail instellen |Hiermee wordt u voorbereid op het direct verzenden van e-mailberichten uit bijvoorbeeld verkooporders of contacten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-| E-maillogboekregistratie instellen |Hiermee wordt de mogelijkheid ingesteld om e-mailcorrespondentie te registreren in [!INCLUDE[d365fin](includes/d365fin_md.md)] om interacties op te volgen. |
-| Outlook instellen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] |Hiermee wordt de mogelijkheid ingesteld om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken en te starten vanuit Outlook. |
-| Rapportage instellen |Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
-| Een artikelgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding naar een fiatteur te verzenden wanneer een gebruiker een artikel wijzigt of maakt. |
-| Een betalingsgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding te sturen naar een fiatteur wanneer een gebruiker betalingsdagboekregels voor goedkeuring verzendt. |
-| Een Business Central-connector instellen |Hiermee wordt een verbinding met Dynamics 365 Sales ingesteld waarmee u gegevens, zoals contacten en verkoopordergegevens, kunt synchroniseren. |
-| Btw instellen |Hiermee wordt u geholpen om aan de slag te gaan met standaardbelastinggroepen en het toewijzen van tax area codes die u kunt toewijzen aan klanten en leveranciers om automatisch btw in verkoop- of inkoopdocumenten te berekenen. |
+> [!NOTE]
+> De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de Essential-ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Zaken in uw eigen bedrijf uitproberen
 Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf overschakelen en een eigen bedrijf maken en erin werken. Dit is een prachtige manier om uit te zoeken of u een abonnement wilt. Instellingen voor financiële zaken zijn al geconfigureerd, u hoeft alleen maar uw klanten, leveranciers en de door u verkochte producten of services te maken of te importeren. Daarna kunt u facturen boeken en bedrijfsinformatiehulpmiddelen gebruiken om uw bedrijf te analyseren. U kunt uw bedrijf gratis gebruiken tijdens een proefperiode van 30 dagen. Als u zich gedurende die tijd abonneert op [!INCLUDE[d365fin](includes/d365fin_md.md)], bent u al actief en kunt u gewoon verder werken. U kunt dan doorgaan met het werk waarmee u tijdens de proefperiode bezig was.  
 
 Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf**. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u het rolcentrum en zoekt u de actie **Begeleide instelling**.  
 
-Of zoek [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
+U kunt ook contact opnemen met een wederverkoper van Dynamics 365. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
 ## <a name="getting-answers-to-questions"></a>Antwoorden op vragen krijgen
 
@@ -86,12 +69,13 @@ Alle velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden beschreven in 
 Als u extra vragen hebt, is het raadzaam dat u het de community vraagt of contact opneemt met uw verkopende partner. Zie voor meer informatie [Waar ga ik met mijn vragen naartoe?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## <a name="ready-to-subscribe"></a>Wilt u zich abonneren?
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u [hier](https://www.microsoft.com/en-us/solution-providers/search) een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit u te abonneren, moet u contact opnemen met een wederverkoper van Dynamics 365. Zie de secties [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) en [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-proefversies en -abonnementen](across-preview.md) voor meer informatie.  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365-apps
-Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](/dynamics365/) in de blauwe banner boven aan deze pagina. Ook op de [Dynamics 365 Business Central-website](https://dynamics.microsoft.com/en-us/business-central/overview/) vindt u meer informatie.  
+Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](/dynamics365/) in de zwarte banner boven aan deze pagina. Ook op de [Dynamics 365 Business Central-website](https://dynamics.microsoft.com/business-central/overview/) vindt u meer informatie.  
 
-Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] voor een naadloze integratie met [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Welkom bij Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
+<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-also"></a>Zie ook
 
@@ -100,8 +84,10 @@ Als u een accountant bent, kunt u zich aanmelden voor [!INCLUDE[d365acc_long](in
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
-[Resources voor Help en Ondersteuning](product-help-and-support.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-proefversies en -abonnementen](across-preview.md)  
+[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Dynamics 365 Business Central op Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Hoe vind ik een wederverkoper?](across-faq.md#findpartner)
 [Dynamics 365-documentatie](/dynamics365/)  
 [Releaseplan van Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

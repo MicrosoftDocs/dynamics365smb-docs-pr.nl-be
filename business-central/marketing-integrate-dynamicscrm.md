@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775583"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878209"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Microsoft Dynamics 365 Sales gebruiken vanuit Business Central
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
@@ -73,10 +73,10 @@ Dit kan ook werken als de oorspronkelijke verkooporder inschrijfproducten bevat 
 
 Als de artikelomschrijving op de oorspronkelijke verkooporder erg lang is, wordt een extra verkooporderregel van het type **Opmerking** gemaakt zodat de volledige tekst wordt opgenomen in de verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Updates in verkooporderkopvelden, zoals Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in VERKOOPORDER-ORDER **Toewijzing van integratietabellen** worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Updates in verkooporderkopvelden, zoals Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in VERKOOPORDER-ORDER **Toewijzing van integratietabellen** worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Periodieke synchronisatie op basis van de **integratietabeltoewijzing** VERKOOPORDER-ORDER werkt alleen wanneer integratie van verkooporders is ingeschakeld. Zie voor meer informatie [Verbinden met Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Alleen verkooporders die zijn gemaakt van ingediende verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)], worden gesynchroniseerd. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodieke synchronisatie op basis van de **integratietabeltoewijzing** VERKOOPORDER-ORDER werkt alleen wanneer integratie van verkooporders is ingeschakeld. Zie voor meer informatie [Verbinden met Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Alleen verkooporders die zijn gemaakt van ingediende verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)], worden gesynchroniseerd. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

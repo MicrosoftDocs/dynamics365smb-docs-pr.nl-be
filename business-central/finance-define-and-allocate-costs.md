@@ -1,8 +1,6 @@
 ---
 title: Kosten definiëren en toewijzen | Microsoft Docs
 description: Tijdens kostenverdelingen worden kosten en opbrengsten verplaatst tussen kostensoorten , kostenplaatsen en kostenobjecten. U kunt zo veel verdelingen definiëren als u nodig hebt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306400"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879812"
 ---
 # <a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
 Tijdens kostenverdelingen worden kosten en opbrengsten verplaatst tussen kostensoorten , kostenplaatsen en kostenobjecten. U kunt zo veel verdelingen definiëren als u nodig hebt. Elke verdeling bestaat uit:  
@@ -40,7 +38,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De verdelingsbron definieert welke kosten worden toegerekend. De verdeeldoelen bepalen waaraan de kosten worden toegerekend.  
 
 ### <a name="to-set-up-cost-allocations"></a>Kostenverdeling instellen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Kostenverdeling** de actie **Bewerken**.  
 3.  Geef een id voor de verdelingsbron op in het veld **ID**.  
 4.  Definieer een niveau als een getal tussen 1 en 99 in het veld **Niveau**. De verdelingsboeking volgt de volgorde van de niveaus.  
@@ -84,7 +82,7 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
 4.  Geef **1** op in het veld **Niveau**.  
@@ -121,7 +119,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
 4.  Geef **1** op in het veld **Niveau**.  

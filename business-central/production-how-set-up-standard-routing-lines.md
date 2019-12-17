@@ -1,8 +1,6 @@
 ---
 title: 'Procedure: Standaardtaken instellen voor bewerkingen | Microsoft Docs'
 description: U kunt omschrijvingen voor standaardtaken invoeren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,25 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 203b42ed7b9e4650cdf837825603ff4f4a5edf5e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314228"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878035"
 ---
 # <a name="set-up-standard-routing-lines"></a>Standaardbewerkingsplanregels instellen
 Met behulp van standaardtaken vereenvoudigt u het maken en onderhouden van bewerkingsplannen. Hiermee kunt u snel aanvullende informatie aan terugkerende bewerkingen koppelen.
 
 ## <a name="to-set-up-a-standard-task"></a>Een standaardtaak instellen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardtaken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardtaken** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 5. op de pagina die wordt geopend, beschrijft u de betreffende standaardtaak.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Een standaardtaak toevoegen aan een bewerking
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.
 2. Open het betreffende bewerkingsplan.
 3. Selecteer een relevant bewerkingsplan, kies de actie **Bewerkingen** en kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 

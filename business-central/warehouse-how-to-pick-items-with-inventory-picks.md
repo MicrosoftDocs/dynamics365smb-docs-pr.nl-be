@@ -1,8 +1,6 @@
 ---
 title: Artikelen picken met een voorraadpick | Microsoft Docs
 description: Als voor een vestiging wel een pickverwerking vereist is maar geen verzendingsverwerking, gebruikt u de voorraadpickdocumenten om pick- en verzendingsinformatie voor de brondocumenten te verzamelen en boeken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f6f157de1d3d65eddf7e2db9c40f27ec56443de
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310288"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876643"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikelen picken met een voorraadpick
 Als voor uw vestiging wel een pickverwerking vereist is maar geen verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om pick- en verzendingsinformatie voor de brondocumenten te verzamelen en boeken. Het uitgaande brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder waarvan de onderdelen kunnen worden gepickt.
@@ -36,7 +34,7 @@ U kunt een voorraadpick op drie manieren maken:
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Een voorraadpick aanvragen door het brondocument vrij te geven  
 Voor verkooporders, inkoopretourorders en uitgaande transferorders maakt u het magazijnverzoek door de order vrij te geven. Hieronder wordt beschreven hoe u dit doet vanuit een verkooporder.
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Selecteer de verkooporder die u wilt vrijgeven en kies de actie **Vrijgeven**.
 
 Voor productieorders maakt u automatisch het magazijnverzoek voor het picken (*afboeken*) van onderdelen wanneer de productieorderstatus is gewijzigd in **Vrijgegeven** of wanneer de vrijgegeven productieorder is gemaakt. Zie [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor meer informatie.
@@ -45,7 +43,7 @@ Wanneer het magazijnverzoek is gemaakt, ziet een magazijnmedewerker die verantwo
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Een voorraadpick maken op basis van het brondocument
 Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadpick maken op basis van het vrijgegeven brondocument.
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 3. Selecteer in het veld **Brondocument** het soort brondocument waarvoor u pickt.  
 4. Selecteer het brondocument in het veld **Bronnr.**  
@@ -58,7 +56,7 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadpick mak
 3.  Kies de knop **OK**. Er wordt een nieuwe voorraadpick gemaakt.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Meerdere voorraadpicks maken met een batchverwerking  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick maken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick maken** in en kies de desbetreffende koppeling.  
 2.  Gebruik op het sneltabblad **Magazijnverzoek** de velden **Brondocument** en **Bronnr.** om te filteren op bepaalde soorten documenten of reeksen documentnummers. U kunt bijvoorbeeld picks voor alleen de verkooporders maken.  
 3. Schakel op het sneltabblad **Opties** het selectievakje **Voorraadpick maken** in.
 4. Kies de knop **OK**. De opgegeven voorraadpicks worden gemaakt.
@@ -69,7 +67,7 @@ Nu het verzoek is gemaakt, kan de magazijnmedewerker een nieuwe voorraadpick mak
 >  Artikelen die in standaardmagazijnconfiguraties worden geassembleerd voor verkooporders worden gepickt uit de bijbehorende verkooporder, zoals beschreven in dit onderwerp. Zie voor meer informatie 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in Voorraadpick.  
 
 ## <a name="to-record-the-inventory-picks"></a>De voorraadpicks registreren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpick** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpick** in en kies de desbetreffende koppeling.  
 2. In het veld **Opslaglocatie** op de pickregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waaruit de artikelen moeten worden gepickt. De opslaglocatie op deze pagina kunt u desgewenst wijzigen.  
 3. Voer de pick uit en voer het werkelijk opgeslagen aantal in het veld **Te verwerken aantal** in.
 

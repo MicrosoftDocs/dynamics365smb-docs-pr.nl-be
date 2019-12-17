@@ -1,8 +1,6 @@
 ---
 title: Picken voor productie in standaardmagazijnconfiguraties | Microsoft Docs
 description: Als voor de magazijnvestiging pickverwerking is vereist, maar niet verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om het picken van onderdelen te beheren en vast te leggen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e58299e7edecc35c7757ebc91d1e444df299ee13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 303f8007bbe1a953fb09c892e71f5e52dbcf74ee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310312"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876667"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Picken voor assemblage of productie in standaardmagazijnconfiguraties
 Hoe u onderdelen voor productie- of assemblageorders opslaat, is afhankelijk van de vestigingsinstellingen van het magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
@@ -39,7 +37,7 @@ Een eerste systeemvereiste voor het picken of verplaatsen van componenten voor b
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Onderdelen picken in standaardmagazijnconfiguraties
 In standaardmagazijnconfiguraties waarbij de locatie alleen is ingesteld voor het gebruik van picken, kunt u onderdelen voor productieactiviteiten kiezen via de pagina **Voorraadpick**. Zie voor meer informatie [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Brondocumenten ophalen** en selecteer de vrijgegeven productieorder om de productieorderonderdelen te openen.  
 3.  Voer de pick uit en leg de pickinformatie vast in het veld **Gepickt aantal**.  
 4.  Wanneer de regels gereed zijn voor boeken, kiest u de actie **Boeken**. Het boeken leidt tot het maken van de benodigde magazijnposten en tot het boeken van het verbruik van de artikelen.  
@@ -71,7 +69,7 @@ In combinatiescenario's waarbij een deel van de hoeveelheid eerst moet worden ge
 ## <a name="filling-the-consumption-bin"></a>De verbruiksopslaglocatie vullen
 In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw locatie-instellingen.
 
-![Diagram van opslaglocatiestroom](media/binflow.png "Opslaglocatiestroom")
+![Stroomdiagram Opslaglocatie](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Zie ook
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

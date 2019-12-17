@@ -1,8 +1,6 @@
 ---
 title: Serviceartikelen als vervangingsartikelen uitlenen | Microsoft Docs
 description: U kunt uitleenartikelen uitlenen aan klanten als tijdelijke vervanging van serviceartikelen die u voor service hebt ontvangen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b8ba590f2ee02fd0b9381381f5590641e46ac51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311680"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882386"
 ---
 # <a name="lend-and-receive-loaners"></a>Uitleenartikelen uitlenen en ontvangen
 U kunt uitleenartikelen uitlenen aan klanten als tijdelijke vervanging van serviceartikelen die u voor service hebt ontvangen.  
   
 ## <a name="to-lend-a-loaner-item"></a>Uitleenartikelen uitlenen    
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Open de kaart met de betreffende serviceorder.  
 3. Selecteer de serviceartikelregel met het serviceartikel dat u wilt vervangen door een uitleenartikel.  
 4. Selecteer in het veld **Uitleenartikelnr.** het betreffende uitleenartikel.  
@@ -32,7 +30,7 @@ U kunt uitleenartikelen uitlenen aan klanten als tijdelijke vervanging van servi
 ## <a name="to-receive-a-loaner"></a>Uitleenartikelen ontvangen  
 Wanneer u een uitleenartikel ontvangt van een klant, moet u de ontvangst registreren. Dit doet u op de pagina's **Serviceorder**, **Geboekte serviceverzending** en **Uitleenartikelkaart**. Hieronder wordt uitgelegd hoe u uitleenartikelen op de pagina **Serviceorder** kunt ontvangen.  
   
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Open de betreffende serviceorder.  
 3. Kies de serviceartikelregel met het uitleenartikel dat u wilt ontvangen.  
 4. Kies **Acties**, **Functies** en vervolgens **Uitleenartikel ontvangen**.  
@@ -40,7 +38,7 @@ Wanneer u een uitleenartikel ontvangt van een klant, moet u de ontvangst registr
 ## <a name="to-register-loaner-comments"></a>Uitleenartikelopmerkingen registreren  
 Op de pagina **Algemeen Serviceopmerking** kunt u opmerkingen over geregistreerde uitleenartikelen registreren.  
   
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Service-instellingen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies de desbetreffende koppeling.  
 2. Open de betreffende uitleenartikelkaart.  
 3. Kies de actie **Opmerkingen**. De pagina **Algemeen Serviceopmerkingen** wordt geopend.  
 4. Geef een datum op in het veld **Datum**.  

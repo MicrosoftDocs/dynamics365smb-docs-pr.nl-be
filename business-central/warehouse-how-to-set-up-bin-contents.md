@@ -1,8 +1,6 @@
 ---
 title: Opslaglocatie-inhoud maken | Microsoft Docs
 description: Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c932a29c42b379e7ce7686e8ae3c4bc26b9d2fa9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d716040bae8f6e0cec3055af0ce2a26b6bc04e1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314568"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876524"
 ---
 # <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
 Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen op de pagina **Opslaglocatie-inhoud** of automatisch met de pagina **Opslaglocatie-inhoud maken**.
 
 ## <a name="to-create-bin-content-manually"></a>Opslaglocatie-inhoud handmatig maken  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
 2.  Selecteer de locatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Opslaglocaties**.  
 3.  Selecteer de opslaglocatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Inhoud**.  
 4.  Voor elk artikel dat u in de vestiging wilt opslaan voert u de juiste informatie in op een regel op de pagina **Opslaglocatie-inhoud**. Sommige velden zijn al automatisch ingevuld met gegevens over de opslaglocatie.  
@@ -41,7 +39,7 @@ Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Opslaglocatie-inhoud met een voorstel maken  
 Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslaglocatie-inhoud instellen wat u in per opslaglocatie wilt opslaan.
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatie-inhoudaanmaak** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatie-inhoudaanmaak** in en kies de desbetreffende koppeling.  
 2.  Selecteer het voorstel van de vestiging waarvoor u de opslaglocatie-inhoud wilt maken in het veld **Naam** op de voorstelkop.  
 3.  Selecteer de opslaglocatie waarvan u de inhoud wilt definiëren in het veld **Opslaglocatie**.   
 

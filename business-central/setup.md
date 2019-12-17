@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311488"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832371"
 ---
 # <a name="setting-up-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw bedrijf.
@@ -46,8 +46,8 @@ Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, k
 |Klanten, leveranciers, voorraad en bankrekeninginformatie vanuit een ander systeem overbrengen naar [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md).|
 |Met Outlook-invoegtoepassingen voor Business Central kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers of financiële documenten maken en verzenden, zoals offertes en facturen.|[Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)|
 |Krijg inzicht in uw Business Central-gegevens met Power BI en de Business Central-inhoudspakketten.|[Uw bedrijfsgegevens inschakelen voor Power BI](admin-powerbi.md)|
-|Gebruik uw Business Central-gegevens als onderdeel van een werkstroom in Microsoft Flow.|[Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)|
-|Maak uw Business Central-gegevens als een gegevensbron beschikbaar in PowerApps.|[Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Gebruik uw Business Central-gegevens als onderdeel van een werkstroom in Power Automate.|[Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)|
+|Maak uw Business Central-gegevens als een gegevensbron beschikbaar in Power Apps.|[Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Gebruik speciale Quickbooks-migratiehandleidingen.|[Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)|
 |Toegang tot uw Business Central-gegevens krijgen vanaf uw mobiele apparaat.|[Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)|
 |Afspraken massaal factureren in Bookings.|[Massaal factureren voor Microsoft Bookings](finance-bookings.md)|

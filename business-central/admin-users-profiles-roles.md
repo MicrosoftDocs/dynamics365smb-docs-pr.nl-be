@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775439"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809045"
 ---
 # <a name="manage-profiles"></a>Profielen beheren
 Alle gebruikers van [!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen een profiel toegewezen dat een afspiegeling is van hun zakelijke rol, de afdeling waarin ze werken of een andere categorisatie. Met profielen kunnen beheerders centraal definiëren en beheren wat verschillende gebruikerstypen in de gebruikersinterface kunnen zien en doen, zodat zij hun zakelijke taken efficiënt kunnen uitvoeren.
@@ -22,7 +22,7 @@ Alle gebruikers van [!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen een prof
 
 Als beheerder maakt en beheert u profielen op de pagina **Profielen (rollen)**. Elk profiel heeft een kaart waarop u verschillende instellingen voor de gerelateerde rol beheert, zoals de rolnaam, de gebruikersinstellingen en welk rolcentrum het profiel gebruikt. Zie voor meer informatie over gebruikersinstellingen en rolcentra [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
-Voordat u gebruikersprofielen kunt beheren, moeten de gebruikers worden gemaakt en toegevoegd via het Office 365 Beheercentrum. Vervolgens kunt u machtigingen toewijzen aan elke gebruiker of gebruikersgroep om te definiëren welke functies ze mogen bekijken en/of bewerken. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.
+Voordat u gebruikersprofielen kunt beheren, moeten de gebruikers worden gemaakt en toegevoegd via het Microsoft 365-beheercentrum. Vervolgens kunt u machtigingen toewijzen aan elke gebruiker of gebruikersgroep om te definiëren welke functies ze mogen bekijken en/of bewerken. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.
 
 ## <a name="page-customization"></a>Pagina-aanpassing
 U kunt paginalay-outs voor een profiel aanpassen, zodat alle gebruikers aan wie het profiel is toegewezen de aangepaste pagina's kunnen zien. Als beheerder kunt u pagina's aanpassen met dezelfde functionaliteit die gebruikers gebruiken wanneer ze personaliseren. Zie voor meer informatie [Pagina's aanpassen voor profielen](ui-personalization-manage.md).

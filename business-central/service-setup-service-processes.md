@@ -1,8 +1,6 @@
 ---
 title: Processen voor CRM - Service instellen | Microsoft Docs
 description: Leer hoe u processen instelt om ervoor te zorgen dat uw klanten tevreden zijn over uw klantenservice.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315864"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877147"
 ---
 # <a name="configure-service-processes"></a>Serviceprocessen configureren
 Hier volgende enkele voorbeelden van de instellingen die u op processen voor servicebeheer kunt toepassen:  
@@ -29,7 +27,7 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 * De nummerreeksen die moeten worden gebruikt voor servicegerelateerde documenten en artikelen.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Algemene en verplichte instellingen opgeven
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Service-instellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Service-instellingen** in en kies de desbetreffende koppeling.
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Zie ook  
@@ -38,4 +36,4 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 [Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
 [Aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
 [Troubleshooting instellen](service-how-setup-troubleshooting.md)  
-[CRM - Service](service-service.md)  
+[Servicebeheer](service-service.md)  

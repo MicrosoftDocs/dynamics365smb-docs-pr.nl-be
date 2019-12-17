@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315625"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882199"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 U kunt een paar dingen doen om records in een lijst, in een rapport of XMLport te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
@@ -23,7 +23,7 @@ U kunt een paar dingen doen om records in een lijst, in een rapport of XMLport t
 Voor rapporten en XMLports kunt u filters instellen zoals in lijsten om af te bakenen welke gegevens in het rapport of XMLport moeten worden opgenomen, maar u kunt niet sorteren en zoeken.
 
 > [!TIP]
-> Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en elementaire filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "pijl-links Als overzicht weergeven") om de records als lijst weer te geven.
+> Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en elementaire filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "Weergeven als lijst pijl naar links") om de records als lijst weer te geven.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -39,7 +39,7 @@ Als u een lijst wilt sorteren, kunt u een kolomkoptekst kiezen om te schakelen t
 
 ## <a name="searching"></a>Zoeken
 <!--## Searching by using the Quick Filter -->
-Boven aan elke lijstpagina staat een **Zoeken**-actie ![Lijst zoeken](media/ui-search/search-list.png "pictogram Lijst zoeken") die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
+Boven aan elke lijstpagina staat een actie ![Zoeken in lijst](media/ui-search/search-list.png "Pictogram Zoeken in lijst") **Zoeken** die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
 
 Als u wilt zoeken, kiest u de actie **Zoeken** en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
 
@@ -111,7 +111,7 @@ Het filterdeelvenster bevat de huidige filters voor een lijst en biedt u de moge
   Sommige lijsten met berekende velden, zoals bedragen en aantallen, bevatten het gedeelte **Filter totalen op**, waarin u verschillende dimensies kunt aanpassen die van invloed zijn op berekeningen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
   > [!NOTE]
-  > Filters in het gedeelte **Filter totalen op** worden bepaald door FlowFilters in het paginaontwerp. Zie voor technische informatie [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filters in het gedeelte **Filter totalen op** worden bepaald door FlowFilters in het paginaontwerp. Zie voor technische informatie [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 U kunt een eenvoudig filter rechtstreeks in een lijst instellen met behulp van het filtervenster, namelijk een filter dat alleen records weergeeft met dezelfde waarde als in de geselecteerde cel. Selecteer een cel in de lijst, kies de vervolgkeuzepijl en kies vervolgens de actie **Filteren op deze waarde**. U kunt ook drukken op **Alt+F3**.
 
@@ -127,7 +127,7 @@ Zowel in het filtervenster als op een aanvraagpagina voert u uw filtercriteria i
 
 Het type filterveld bepaalt welke criteria u kunt invoeren. Als u bijvoorbeeld filtert op een veld dat vaste waarden heeft, kunt u alleen kiezen uit die waarden. Voor meer informatie over speciale filtersymbolen raadpleegt u [Filtercriteria](#FilterCriteria) en [Filtertokens](#FilterTokens)
 
-Kolommen die al filters bevatten, worden aangegeven door het ![pictogram Filter](media/ui-search/filter-icon.png "pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
+Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterpictogram](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
 
 > [!TIP]
 > Versnel het zoeken en analyseren van uw gegevens met combinaties van toetsenbordsneltoetsen. Selecteer bijvoorbeeld een veld, gebruik **Shift+Alt+F3** om dat veld aan het filterdeelvenster toe te voegen, typ het filtercriterium, gebruik **Ctrl+Enter** om terug te keren naar de rijen, selecteer een ander veld en gebruik **Alt+F3** om op die waarde te filteren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
@@ -270,6 +270,6 @@ Gebruik `%myvendors` in het veld leveranciers**nr.** om alle records weer te gev
 |`%myvendors`|Leveranciers in **Mijn leveranciers** in uw rolcentrum. |  
 
 ## <a name="see-also"></a>Zie ook
-[Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.md)  
+[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

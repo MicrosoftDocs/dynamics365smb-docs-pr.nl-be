@@ -1,8 +1,6 @@
 ---
 title: 'Procedure: Serie-/lotnummers traceren | Microsoft Docs'
 description: Als er productdefecten optreden, moeten de fouten worden opgespoord en de betreffende artikelen mogen het bedrijf niet verlaten. Als er al defecte artikelen zijn geleverd, is het belangrijk om bij te houden wie ze heeft ontvangen, zodat ze zo nodig kunnen worden teruggehaald.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 23bbed9e19fa2a3fd99f45cfde24d6d16f31e795
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310504"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876835"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedure: Serie-/lotnummers traceren
 
@@ -74,7 +72,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
 ### <a name="to-create-the-items"></a>De artikelen maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer in het veld **Nr.** Voer in het veld **2000** in en vul de volgende velden in.  
 
@@ -110,7 +108,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens schaft u raceframes van Custom Metals Incorporated aan.  
 
 ### <a name="to-purchase-components"></a>Materialen kopen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Maak een inkooporder voor de leverancier Custom Metals Incorporated door de volgende regelvelden in te vullen.  
 
@@ -124,7 +122,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 7.  Kies de actie **Boeken**, selecteer de optie **Ontvangen en factureren** en kies vervolgens de knop **OK**.  
 
     Als volgende, koopt u racingframes van Coolwood Technologies.  
-8.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
+8.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
 9. Kies de actie **Nieuw**.
 10. Maak een inkooporder voor de leverancier Coolwood Technologies door de volgende regelvelden in te vullen.  
 
@@ -140,7 +138,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens maakt u twee racefietsen, SN1 en SN2.  
 
 ### <a name="to-produce-end-items"></a>Eindproducten produceren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies de gerelateerde koppeling.  
 2.  Kies de groep **Nieuw**.  
 3.  Maak een nieuwe vrijgegeven productieorder door de volgende velden in te vullen.  
 
@@ -161,7 +159,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Maak als volgende nog twee racefietsen, SN3 en SN4.  
 
-11. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
+11. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies de gerelateerde koppeling.  
 12. Kies de actie **Nieuw**.  
 13. Maak een nieuwe vrijgegeven productieorder door de volgende velden in de kop in te vullen.  
 
@@ -186,7 +184,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens gaat u racefietsen verkopen. Eest verkoopt u de racefiets met SN1 aan Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>De eindpoducten verkopen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienr.|  
@@ -198,7 +196,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Vervolgens gaat u de racefiets met SN2 aan Cannon Group PLC verkopen.  
 
-5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 6.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienr.|  
@@ -210,7 +208,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Ten slotte moet u een paar raceframes afzonderlijk verkopen. Van Terp Kantoorinrichting bestelt ook vier afzonderlijke raceframes voor hun eigen assemblagelijn.  
 
-9. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+9. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 10. Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienummer|  
@@ -228,7 +226,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
  Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie kan hij bepalen waar de voltooide racefiets voor het laatst is gebruikt, in dit geval bij de verkoopverzending aan Selangorian Ltd. Vervolgens moet de kwaliteitscontroleur deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte frame afkomstig is en welke leverancier deze heeft geleverd.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Vaststellen uit welke partij het defecte frame afkomstig is en wie deze heeft geleverd  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies de gerelateerde koppeling.  
 2.  Voer op de pagina **Artikeltracering** de tekst **SN1** in het veld **Serienr.-filter** in en voer vervolgens **1002** in het veld **Artikelfilter** in.  
 3.  Laat de standaardinstelling **Met artikeltracering** staan in het veld **Onderdelen weergeven** en houd de standaardtraceringsmethode **Gebruik - oorsprong** bij **Traceringsmethode**.  
 4.  Kies de actie **Traceren**.  

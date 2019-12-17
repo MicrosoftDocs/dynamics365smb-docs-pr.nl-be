@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649728"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879149"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
 ## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
@@ -26,9 +27,13 @@ Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fi
 Wanneer u daarna Outlook start, wordt er een e-mailbericht van de *Dynamics 365 Business Central-beheerder* weergegeven. De nieuwe invoegtoepassingen zijn toegevoegd aan het Outlook-lint en in de browser ziet u de [!INCLUDE[prodshort](includes/prodshort.md)]-invoegtoepassingen direct boven of onder de hoofdtekst van het e-mailbericht. De invoegtoepassingen worden regelmatig bijgewerkt en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
 > [!TIP]
-> Als u de nieuwe Outlook in een browser gebruikt, dan kunnen de [!INCLUDE [prodshort](includes/prodshort.md)]-invoegtoepassingen worden verborgen onder **Meer acties**.
+> Als u de nieuwe Outlook op het web gebruikt, dan kunnen de [!INCLUDE [prodshort](includes/prodshort.md)]-invoegtoepassingen worden verborgen onder **Meer acties**. Als u de invoegtoepassing vaak gebruikt, kunt u deze vastzetten zodat deze altijd direct zichtbaar is. Zie voor meer informatie [Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Als u met meer dan een [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf werkt, kunt u in Outlook gemakkelijk tussen bedrijven schakelen.
+Als u met meer dan een [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf werkt, kunt u in Outlook gemakkelijk tussen bedrijven schakelen. Kies in de actiebalk van de invoegtoepassing **Meer acties** en dan ziet u de optie om te schakelen tussen bedrijven.  
+
+<!--TEMP-->
+> [!NOTE]
+> Schakelen tussen bedrijven vereist [!INCLUDE [prodshort](includes/prodshort.md)] 2019 releasewave 2 of hoger zoals aangekondigd in het [versieplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Sommige bedrijven die Office 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Office 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Office 365 gratis uitproberen](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ De invoegtoepassingen zijn ontworpen om te worden gebruikt met Office 365. Als u
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Minimale vereisten voor Outlook](product-requirements.md#outlook)  
-[Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

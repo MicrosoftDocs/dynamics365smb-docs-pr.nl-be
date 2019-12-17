@@ -1,8 +1,6 @@
 ---
 title: Een vraagprognose maken | Microsoft Docs
 description: U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314204"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883394"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
@@ -53,7 +51,7 @@ In de productie-instellingen kan worden gesteld dat u prognoses wilt filteren vo
 
 ## <a name="to-create-a-demand-forecast"></a>Een vraagprognose maken
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vraagprognose** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vraagprognose** in en kies de desbetreffende koppeling.  
 2.  Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Vraagprognosenaam**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
 3.  Selecteer in het veld **Vestigingsfilter** de vestiging waarop deze prognose van toepassing is.  
 4.  Selecteer in het veld **Prognosesoort** **Verkoopartikel**, **Component** of **Beide**. Als u **Verkoopartikel** of **Component** selecteert, kunt u het aantal per periode bewerken. Als u **Beide** selecteert, kunt u het aantal niet bewerken, maar wel de knop met de pijl omlaag kiezen om de posten voor de vraagprognose weer te geven.  

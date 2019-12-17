@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307984"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879118"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 
 Inzicht krijgen in uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens is gemakkelijk met de [!INCLUDE[prodshort](includes/prodshort.md)]-apps voor Power BI. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
 
-U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Power BI-apps vereisen machtigingen voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
+U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Power BI-apps vereisen machtigingen voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
 > [!IMPORTANT]
 > De Power BI-apps die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme, tenzij anders vermeld. Als u een Power BI-app wilt installeren, moet u ook een Power BI Pro-licentie hebben.  Zodra de Power BI-app is geïnstalleerd, kan deze worden gedeeld met gebruikers met elk licentietype.
@@ -214,7 +214,7 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/pro
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als PowerApps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

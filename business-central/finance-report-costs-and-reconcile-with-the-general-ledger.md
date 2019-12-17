@@ -1,8 +1,6 @@
 ---
 title: Kosten rapporteren en afstemmen met het grootboek | Microsoft Docs
 description: Aan het einde van boekhoudperioden (maandelijks, jaarlijks of anderszins) moet een reeks kostenbeheersings- en audittaken worden uitgevoerd om een juiste en gebalanceerde voorraadwaarde te rapporteren aan de financiële afdeling. Naast de boekingsroutine waarmee de afzonderlijke artikelwaardeposten worden overgebracht naar speciale grootboekrekeningen, zijn diverse lijsten, traceerfuncties en een speciaal reconciliatiehulpmiddel beschikbaar voor de auditor of controller die verantwoordelijk is voor dit bedrijfskritieke werk.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eafcf0bdd26e26903c17e43d37ca7e35b96f240c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301840"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879525"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kosten rapporteren en afstemmen met het grootboek
 Aan het einde van boekhoudperioden (maandelijks, jaarlijks of anderszins) moet een reeks kostenbeheersings- en audittaken worden uitgevoerd om een juiste en gebalanceerde voorraadwaarde te rapporteren aan de financiële afdeling. Naast de boekingsroutine waarmee de afzonderlijke artikelwaardeposten worden overgebracht naar speciale grootboekrekeningen, zijn diverse lijsten, traceerfuncties en een speciaal reconciliatiehulpmiddel beschikbaar voor de auditor of controller die verantwoordelijk is voor dit bedrijfskritieke werk.  

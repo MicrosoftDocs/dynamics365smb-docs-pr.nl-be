@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Boekingsstructuur artikeltracering | Microsoft Docs'
 description: Leer hoe u artikelposten als primaire bron van artikeltraceringsnummers gebruikt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 082c5c70ce0fc060b5a3d87c325e1762873113ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a016863dc7dd5667074060a21e352ce4a56444cd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303256"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880172"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Ontwerpdetails: Boekingsstructuur artikeltracering
 Artikelposten worden gebruikt als primaire bron van artikeltraceringsnummers om af te stemmen met de functionaliteit voor voorraadwaardering en om een eenvoudigere en robuustere oplossing te bieden.  

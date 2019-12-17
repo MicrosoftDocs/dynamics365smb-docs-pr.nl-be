@@ -1,8 +1,6 @@
 ---
 title: Informatie over productieorders | Microsoft Docs
 description: Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders (project- of werkorders) leiden het werk door verschillende faciliteiten (afdelingen of bewerkingsplaatsen) op de shopfloor.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 316d8e05960b6f0581e4789a2b097d966e4dd2b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313455"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878131"
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  

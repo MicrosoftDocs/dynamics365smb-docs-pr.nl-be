@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Reservering, ordertracering en planningsboodschappen | Microsoft Docs'
 description: Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306856"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878449"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: Reservering, ordertracering en planningsboodschappen
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  
@@ -31,7 +29,7 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
  Het reserveringssysteem vormt ook de structurele basis voor het artikeltraceringsysteem. Zie [Ontwerpdetails: artikeltracering](design-details-item-tracking.md) voor meer informatie.  
 
- Voor meer gedetailleerde informatie over de werking van het reserveringssysteem raadpleegt u de whitepaper "Tabel Reserveringspost" op [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Voor meer gedetailleerde informatie over de werking van het reserveringssysteem raadpleegt u de whitepaper "Tabel Reserveringspost" op [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservering  
  Een reservering is een vaste koppeling die bepaalde vraag en een bepaald aanbod aan elkaar koppelt. Deze koppeling heeft rechtstreeks invloed op de verdere voorraadtransactie en zorgt voor de juiste vereffening van artikelposten voor waarderingsdoeleinden. Een reservering overschrijft de standaardwaarderingsmethode van een artikel. Zie “Ontwikkelingsdetails: waarderingsmethoden” voor meer informatie.  
@@ -184,7 +182,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  Het veld **Lotnr.** wordt nu gevuld in de ordertraceringspost voor tabel 5407, omdat de lotnummers zijn toegewezen aan de productieordermateriaalregels.  
 
- Voor meer voorbeelden van ordertraceringsposten in de tabel **Reserveringspost** raadpleegt u de whitepaper "Tabel Reserveringspost" op [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (vereist aanmelding).
+ Voor meer voorbeelden van ordertraceringsposten in de tabel **Reserveringspost** raadpleegt u de whitepaper "Tabel Reserveringspost" op [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (vereist aanmelding).
 
 ## <a name="action-messaging"></a>Planningsboodschap  
  Wanneer het ordertraceringssysteem detecteert dat het ordernetwerk niet in evenwicht is, wordt automatisch een planningsboodschap gemaakt om de gebruiker te waarschuwen. Planningsboodschappen worden door het systeem geproduceerd voor gebruikersacties die de details van de onbalans opgeven en de suggesties over hoe de balans in het ordernetwerk kan worden hersteld. Ze worden weergegeven als planningsregels op de pagina **Planningsvoorstel** wanneer u **Planningsboodschappen ophalen** kiest. Bovendien worden de planningsboodschappen weergegeven op planningsregels die door de planning worden gegenereerd in overeenstemming met de suggesties van het planningssysteem over hoe de balans in het ordernetwerk kan worden hersteld. In beide gevallen worden de voorstellen in het ordernetwerk uitgevoerd wanneer u **Planningsboodschap uitvoeren** kiest.  
@@ -231,4 +229,4 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)   
-[Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)
+[Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)

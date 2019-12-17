@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Tabelstructuur | Microsoft Docs'
 description: Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnieuw wordt ontworpen, is het belangrijk om de tabelstructuur te begrijpen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b086cba8dc152b8e847380e0e6ae70b3e69d0c39
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1f8067071f1c27baaab5a467fbf2751ffc7d3d2b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306784"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880028"
 ---
 # <a name="design-details-table-structure"></a>Ontwerpdetails: Tabelstructuur
 Om te begrijpen hoe dimensieposten worden opgeslagen en geboekt, is het belangrijk om de tabelstructuur te begrijpen.  

@@ -1,8 +1,6 @@
 ---
 title: Bedrijfsconfiguratie instellen | Microsoft Docs
 description: Het implementatieproces begint met de gegevens die de Business Central-oplossing vereist. U bundelt al deze gegevens in configuratiepakketten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1863c6933cf5722c4a9940225ec59aabbdf84da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ef6300121695a0c8836df58e31848024c87deb75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304336"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879070"
 ---
 # <a name="set-up-company-configuration"></a>Een bedrijfsconfiguratie instellen
 Het implementatieproces begint met de Microsoft-partner. Het is de verantwoordelijkheid van de partner om de configuratiedetails uit te werken en een pakket op te stellen dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt, moet u plannen hoe dit zal worden geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301722"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879501"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
 Als u wat hulp wilt bij het bepalen wat u met uw contant geld moet doen, kunt de diagrammen bekijken in het rolcentrum Accountant:  
@@ -56,7 +56,7 @@ Om u te helpen aan de slag te gaan zijn er enkele rekeningen en cashflowinstelli
 Als u deze wilt instellen, kunt u zoeken naar **cashflowrekeningen**, de koppeling kiezen en vervolgens de velden invullen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Herhaal deze stappen voor **cashflowinstellingen**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Cashflowprognoses instellen
-In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met de gids kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/) moet worden ingeschakeld.  
+In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met de gids kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Azure AI](https://azure.microsoft.com/overview/ai-platform/) moet worden ingeschakeld.  
 
 Cashflowprognoses kunnen Azure AI gebruiken om documenten met een vervaldatum in de toekomst op te nemen. Het resultaat is een uitvoerigere voorspelling. De verbinding met Azure AI is al voor u ingesteld. U hoeft het alleen in te schakelen. Wanneer u zich bij [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldt, verschijnt er een melding in een blauwe balk en wordt er een koppeling verschaft naar de standaardcashflowinstellingen. De melding wordt slechts eenmaal weergegeven. Als u de melding sluit, maar besluit Azure AI in te schakelen, kunt u de begeleide instelling gebruiken of een handmatig proces.  
 
@@ -67,14 +67,14 @@ De begeleide instelling gebruiken:
 
 1. Kies in het rolcentrum Accountant onder het diagram **Cashflowprognose** de actie **Begeleide instelling openen**.  
 2. Vul de velden in elke stap van de begeleiding in.  
-3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
+3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies de desbetreffende koppeling.
 4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 Een handmatig proces gebruiken:  
 
 1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
 2. Vouw het sneltabblad **Azure AI** uit en kies het selectievakje **Azure AI ingeschakeld**.  
-3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
+3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies de desbetreffende koppeling.
 4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
-6. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowinstellingen** in en kies de desbetreffende koppeling.  
 7. Vouw het sneltabblad **Azure AI** uit en vul de velden in.  
 
 ## <a name="see-also"></a>Zie ook

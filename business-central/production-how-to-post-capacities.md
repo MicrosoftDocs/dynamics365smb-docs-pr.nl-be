@@ -1,8 +1,6 @@
 ---
 title: Capaciteit boeken | Microsoft Docs
 description: In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d580fe2513e245b7105342c3d795ae122c151317
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bccc43aea943fa1745d92a6bdb064307f088d1e6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313288"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883250"
 ---
 # <a name="post-capacities"></a>Capaciteit boeken
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  
 
 ## <a name="to-post-capacities"></a>Capaciteit boeken  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Capaciteitsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Capaciteitsdagboeken** in en kies de desbetreffende koppeling.  
 2.  Vul de velden **Boekingsdatum** en **Documentnr.** in.  
 3.  Voer in het veld **Soort** het soort capaciteit in dat u wilt boeken, dat kan **Bewerkingsplaats** of **Afdeling** zijn.  
 4.  Selecteer in het veld **Nr.** het nummer in van de bewerkingsplaats of afdeling.  
@@ -32,7 +30,7 @@ In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegeweze
 
 ## <a name="to-view-work-center-ledger-entries"></a>Afdelingsposten weergeven  
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capaciteit als gevolg van gereedgemelde productieorders bekijken.    
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.  
 2.  Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Capaciteitsposten**.  
 
 De pagina **Capaciteitsposten** bevat de geboekte posten van de afdeling, in de volgorde waarin deze zijn geboekt.   

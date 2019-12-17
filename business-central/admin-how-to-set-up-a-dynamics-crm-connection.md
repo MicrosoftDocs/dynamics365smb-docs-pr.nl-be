@@ -1,8 +1,6 @@
 ---
 title: Verbinden met Dynamics 365 Sales | Microsoft Docs
 description: U kunt integreren met Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9e68f62a7fd79188e2461983837586bd4cd2c64b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554386"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879295"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Een Dynamics 365 Sales-verbinding instellen
 Voor integratie met [!INCLUDE[crm_md](includes/crm_md.md)] moet u een verbinding instellen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -52,7 +50,7 @@ De begeleide instelling **Dynamics 365 Sales-verbinding instellen** kan u helpen
 |**URL van Dynamics 365 Business Central OData-webservice**|Als u de webservice Artikelbeschikbaarheid inschakelt, wordt de URL van de OData-webservice voor u verschaft.|
 |**Gebruikersnaam van Dynamics 365 Business Central OData-webservice**|De naam van het [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid in [!INCLUDE[d365fin](includes/d365fin_md.md)] op te halen met de OData-webservice.|
 |**Toegangssleutel van Dynamics 365 Business Central OData-webservice**|De toegangssleutel voor het gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid uit [!INCLUDE[d365fin](includes/d365fin_md.md)] op te halen met de OData-webservice. De sleutel wordt toegewezen aan de gebruiker die is gekozen in het veld **Gebruikersnaam van Dynamics 365 Business Central OData-webservice**. Als u de sleutel wilt krijgen, kiest u de knop **Opzoekwaarde** naast de gebruikersnaam, kiest u de gebruiker, kiest u **Beheren** en klikt u vervolgens op **Bewerken**. Kies op de gebruikerskaart **Acties**, **Verificatie** en kies vervolgens **Sleutel van webservice wijzigen**|
-|**Integratie van verkooporders inschakelen**|Wanneer mensen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)] en bestellingen uitvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)], integreert dit het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Hiervoor moet u referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Integratie van verkooporders inschakelen**|Wanneer mensen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)] en bestellingen uitvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)], integreert dit het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Hiervoor moet u referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Dynamics 365 for Sales-verbinding inschakelen**|De verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] inschakelen.|
 |**Dynamics 365 SDK-versie**|Dit is alleen relevant als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)]. Dit is de software-ontwikkelingskit van Dynamics 365 (ook Xrm genoemd) die u gebruikt om [!INCLUDE[d365fin](includes/d365fin_md.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)] en gelijk zijn aan of nieuwer zijn dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -62,7 +60,7 @@ De begeleide instelling **Dynamics 365 Sales-verbinding instellen** kan u helpen
 ### <a name="to-create-or-maintain-the-connection-manually"></a>De verbinding handmatig maken of onderhouden
 In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** handmatig invult. Dit is ook de pagina waar u instellingen voor de integratie beheert.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365-verbinding instellen** in en kies de gerelateerde koppeling.
 2. Voer de volgende gegevens in voor de verbinding van [!INCLUDE[d365fin](includes/d365fin_md.md)] met [!INCLUDE[crm_md](includes/crm_md.md)].
 
 |Veld|Omschrijving|
@@ -89,7 +87,7 @@ In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microso
 
 |Veld|Omschrijving|
 |-----|-----|
-|**Verkooporderintegratie is ingeschakeld**|Gebruikers de mogelijkheid bieden verkooporders en geactiveerde offertes in te dienen in [!INCLUDE[crm_md](includes/crm_md.md)] deze vervolgens weer te geven en te verwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit integreert het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
+|**Verkooporderintegratie is ingeschakeld**|Gebruikers de mogelijkheid bieden verkooporders en geactiveerde offertes in te dienen in [!INCLUDE[crm_md](includes/crm_md.md)] deze vervolgens weer te geven en te verwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit integreert het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
 |**Automatisch verkooporders maken**|Maak een verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)] wanneer een gebruiker er een maakt en indient in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Verkoopoffertes automatisch verwerken**|Verwerk een verkoopofferte in [!INCLUDE[d365fin](includes/d365fin_md.md)] als een gebruiker er een maakt en activeert in [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -108,15 +106,15 @@ In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microso
 7. Als [!INCLUDE[crm_md](includes/crm_md.md)]-synchronisatie niet al is ingesteld, wordt u gevraagd of u de standaardinstellingen voor synchronisatie wilt gebruiken. Afhankelijk van of u records uitgelijnd wilt houden in [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)], kiest u **Ja** of **Nee**.
 
 > [!Note]
-> Voor het maken van verbinding met Dynamics 365 Sales met behulp van de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** moet u mogelijk de beveiligingsrollen Integratiebeheerder en Integratiegebruiker toewijzen aan het account dat wordt gebruikt voor integratie. Zie voor meer informatie [Een beveiligingsrol toewijzen aan een gebruiker](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> Voor het maken van verbinding met Dynamics 365 Sales met behulp van de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** moet u mogelijk de beveiligingsrollen Integratiebeheerder en Integratiegebruiker toewijzen aan het account dat wordt gebruikt voor integratie. Zie voor meer informatie [Een beveiligingsrol toewijzen aan een gebruiker](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 > [!Note]
-> Voor het maken van verbinding met Dynamics 365 Sales met behulp van de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** moet u mogelijk [de beveiligingsrollen **Integratiebeheerder** en **Integratiegebruiker** toewijzen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) aan het gebruikersaccount dat wordt gebruikt voor integratie.
+> Voor het maken van verbinding met Dynamics 365 Sales met behulp van de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** moet u mogelijk [de beveiligingsrollen **Integratiebeheerder** en **Integratiegebruiker** toewijzen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) aan het gebruikersaccount dat wordt gebruikt voor integratie.
 
 
 ### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>Verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] verbreken  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 Sales-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 Sales-verbinding instellen** in en kies de gerelateerde koppeling.
 2. Schakel op de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** het selectievakje **Ingeschakeld** uit.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
@@ -131,11 +129,11 @@ In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microso
 
      This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
 
-     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [http://go.microsoft.com/fwlink/?LinkID=616519](http://go.microsoft.com/fwlink/?LinkID=616519).  
+     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
 
 3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](http://go.microsoft.com/fwlink/?LinkID=616521).  
+     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
 
 4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

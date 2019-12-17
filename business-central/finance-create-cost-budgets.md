@@ -1,8 +1,6 @@
 ---
 title: Kostenbudgetten maken | Microsoft Docs
 description: In dit onderwerp wordt aangegeven waar u kostenbudgetten kunt maken en analyseren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306424"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879836"
 ---
 # <a name="creating-cost-budgets"></a>Kostenbudgetten maken
 Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een kostenbudget wordt gemaakt op basis van kostensoorten zoals een budget voor het grootboek wordt gemaakt op basis van grootboekrekeningen.  
 
 Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
-U gebruikt de volgende pagina's om kostenbudgetten te maken en te analyseren. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om een pagina te vinden en lees vervolgens de knopinfo voor elke pagina.
+U gebruikt de volgende pagina's om kostenbudgetten te maken en te analyseren. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om een pagina te vinden en lees vervolgens de knopinfo voor elke pagina.
 
-|Aan|Zie|  
+|Als u dit wilt doen:|Zie|  
 |--------|---------|  
 |Budgetten overboeken vanuit het grootboek|Batchverwerking **Budget kopiëren naar kostprijsboekhouding**|  
 |Kostenbegrotingen kopiëren.|Batchverwerking **Kostenbudget kopiëren**|  

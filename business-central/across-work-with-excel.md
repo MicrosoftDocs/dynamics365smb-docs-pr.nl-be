@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/24/2019
 ms.author: jswymer
-ms.openlocfilehash: 71b4e5b7124f929255f1374b38cfbe28c9f12d2b
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692812"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808757"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Weergeven en bewerken in Excel vanuit Business Central
 
@@ -49,6 +49,8 @@ Dit is verbeterd in 2019 release wave 2. Zie [Verbeteringen aan Excel-integratie
 > Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises is deze functie alleen beschikbaar voor de webclient.
 
 ### <a name="see-the-differences-between-the-options"></a>Zie de verschillen tussen de opties 
+<br><br>  
+
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
 ## <a name="see-also"></a>Zie ook

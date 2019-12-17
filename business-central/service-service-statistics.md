@@ -1,8 +1,6 @@
 ---
 title: Servicestatistieken | Microsoft Docs
 description: Krijg een snel overzicht van de inhoud van servicedocumenten, zoals orders, offertes, facturen of creditnota's, van de details op de afzonderlijke serviceregels en van de serviceartikelen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553854"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877171"
 ---
 # <a name="viewing-service-statistics"></a>Servicestatistieken weergeven
 U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
@@ -86,7 +84,7 @@ Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contr
 |**Winst/verlies contract (Reden)**|Het winst-/verliescontract per redencode weergeven.|  
 |**Winst/verlies contract (Divisie)**|Het winst-/verliescontract per divisie weergeven.|  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam van de weer te geven pagina in en kies de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam van de weer te geven pagina in en kies de desbetreffende koppeling.  
 2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld op de pagina **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter**.  
 3. Kies de actie **Matrix weergeven**.
 

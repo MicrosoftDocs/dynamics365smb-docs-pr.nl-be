@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695203"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876883"
 ---
 # <a name="searching-and-filtering-faq"></a>Veelgestelde vragen over zoeken en filteren
 In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
@@ -47,7 +47,7 @@ Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende ge
 
 Er is een tijdslimiet voor hoe lang een zoekbewerking kan duren. Probeer eerst de zoekcriteria te wijzigen en opnieuw te zoeken. Als u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises gebruikt, neemt u contact op met de systeembeheerder, omdat een beheerder de tijdslimiet voor zoekopdrachten kan verlengen.
 
-Als on-premises beheerder verlengt u de tijdslimiet voor zoekopdrachten door de instelling **Time-out voor zoeken** van de [!INCLUDE[prodshort](includes/prodshort.md)]-server te wijzigen. Zie voor meer informatie [Business Central Server configureren](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in de Business Central Developer en IT Pro Help.
+Als on-premises beheerder verlengt u de tijdslimiet voor zoekopdrachten door de instelling **Time-out voor zoeken** van de [!INCLUDE[prodshort](includes/prodshort.md)]-server te wijzigen. Zie voor meer informatie [Business Central Server configureren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in de Business Central Developer en IT Pro Help.
 
 ## <a name="see-also"></a>Zie ook
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  

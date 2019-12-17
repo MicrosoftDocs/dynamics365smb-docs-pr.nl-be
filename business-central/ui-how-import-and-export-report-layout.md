@@ -1,25 +1,23 @@
 ---
 title: Lay-outs van rapporten en documenten importeren en exporteren | Microsoft Docs
 description: U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553830"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881978"
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a>Een rapport- of documentlay-out importeren en exporteren
+# <a name="import-and-export-custom-report-layouts"></a>Aangepaste rapportlay-outs importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  
 
 > [!IMPORTANT]  
@@ -27,7 +25,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Een rapportlay-out exporteren naar een bestand  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
 
 2.  Selecteer de rij voor het rapport dat de aangepaste rapportlay-outs bevat die u wilt exporteren. Kies vervolgens de actie **Aangepaste lay-outs**.  
 
@@ -41,7 +39,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
      Een bestand met een Word-rapportlay-out moet de bestandsextensie .docx hebben. Een bestand met een RDLC-rapportlay-out moet de bestandsextensie .rdlc of .rdl hebben.  
 
-2.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
+2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
 
 3.  Selecteer de rij voor het rapport waarin u de rapportlay-out wilt importeren en kies de actie **Aangepaste lay-outs**.  
 
@@ -53,5 +51,5 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 ## <a name="see-also"></a>Zie ook  
  [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
- [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
+ [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)    

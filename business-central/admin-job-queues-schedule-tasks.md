@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308416"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879214"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 Met taakwachtrijen in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het statistiekrapport **Verkoper - Statistiek** wekelijks uitvoeren om de verkopen per verkoper wekelijks bij te houden of u kunt de codeunit **E-mailwachtrij service verwerken** dagelijks uitvoeren om ervoor te zorgen dat niet-verzonden e-mailberichten aan klanten met betrekking tot hun serviceorders tijdig worden verzonden.
@@ -33,12 +33,12 @@ U kunt dat bereiken door de taakwachtrij in te stellen om diverse batchboekingsr
 
 In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkooporders instelt. De stappen zijn vergelijkbaar voor inkoop en service.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van verkoop en tegoeden** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
 2. Kies op de pagina **Verkoopinstellingen** het selectievakje **Boeken via taakwachtrij**.
 3. Als u wilt filteren op taakwachtrijposten voor boeking van verkooporders, kiest u het veld **Taakwachtrijcategoriecode** en selecteert u vervolgens de categorie **Vrkboeking**.
 
     Er wordt een taakwachtrijobject, codeunit 88 **Verkoopboeking via taakwachtrij** gemaakt. Schakel het in op de pagina **Taakwachtrijposten**.
-4. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
+4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.
 5. Kies op de pagina **Taakwachtrijposten** de actie **Nieuw**.
 6. Selecteer in het veld **Uit te voeren objecttype** **Codeunit**.  
 7. Selecteer in het veld **Uit te voeren object-id** 88, **Verkoopboeking via taakwachtrij**.
@@ -56,7 +56,7 @@ Als u ook wilt dat verkoopdocumenten worden afgedrukt wanneer deze worden geboek
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Een taakwachtrijpost maken voort batchboeking van verkooporders
 In de volgende procedure wordt aangegeven hoe u het rapport **Batchboeken verkooporders** instelt om automatisch vrijgegeven verkooporders te boeken om 16:00 uur op werkdagen.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Selecteer in het veld **Uit te voeren objecttype** **Rapport**.  
 4. Selecteer in het veld **Uit te voeren object-id** 296, **Batchboeken verkooporders**.
@@ -85,7 +85,7 @@ Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrijp
 Gegevens die worden gegenereerd wanneer een taakwachtrij wordt uitgevoerd, worden opgeslagen in de database, zodat u taakwachtrijfouten kunt oplossen.
 
 ### <a name="to-view-status-for-any-job"></a>De status voor een taak weergeven
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Een status vanuit een verkoop- of inkoopdocument weergeven
@@ -111,6 +111,9 @@ Wanneer een taakwachtrij handmatig is geactiveerd, wordt deze uitgevoerd met de 
 
 ## <a name="using-job-queues-effectively"></a>Taakwachtrijen efficiënt gebruiken  
 De record van de taakwachtrijpost heeft veel velden om de parameters in een codeunit te plaatsen die u hebt opgegeven voor het uitvoeren met een taakwachtrij. Dit betekent ook dat codeunits die moeten worden uitgevoerd via de taakwachtrij, moeten worden gespecificeerd met de taakwachtrijrecord als een parameter in de **OnRun** trigger. Dit biedt een extra beveiligingsniveau aangezien het voorkomt dat gebruikers willekeurige codeunits uitvoeren via de taakwachtrij. Als de gebruiker parameters aan een rapport moet doorgeven, kan dit enkel door de lijstuitvoering in een codeunit te plaatsen die vervolgens de invoerparameters parseert en deze in de lijst plaatst voordat deze wordt uitgevoerd.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Synchronisatie plannen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)]
+Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt geïntegreerd met [!INCLUDE[crm_md](includes/crm_md.md)], kunt u de taakwachtrij gebruiken om te plannen wanneer u gegevens wilt synchroniseren voor de records die u in de twee zakelijke apps hebt gekoppeld. Afhankelijk van de richting en regels die u hebt gedefinieerd voor de integratie, kunnen de synchronisatietaken ook nieuwe records maken in de doel-app die overeenkomen met die in de bron. Als een verkoper bijvoorbeeld een nieuw contact maakt in [!INCLUDE[crm_md](includes/crm_md.md)], kan de synchronisatietaak dat contact maken voor de gekoppelde verkoper in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Zie ook  
 [Beheer](admin-setup-and-administration.md)  

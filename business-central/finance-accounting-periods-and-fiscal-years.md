@@ -1,8 +1,6 @@
 ---
 title: Werken met boekingsperioden en boekjaren | Microsoft Docs
 description: Leren werken met boekhoudperioden om te definiëren wanneer uw bedrijf financiële prestaties rapporteert.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302632"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879860"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
 Boekhoudperioden, ook wel rapportageperioden genoemd, zijn perioden waarvoor een bedrijf of organisatie financiële prestaties rapporteert, bijvoorbeeld door de balans of resultatenrekening te genereren. Meestal verwijzen boekhoudperioden naar het boekjaar van het bedrijf, dat verschillende boekingsperioden zoals maanden of kwartalen kan bevatten.
@@ -34,7 +32,7 @@ U kunt boekingsperioden in bulk maken door de batchverwerking **Boekjaar maken**
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Boekhoudperioden in bulk maken
 Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van gelijke lengte op te delen.  
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Jaar maken**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Voer in het veld **Begindatum** de datum in waarop het boekjaar begint.  
 4. Voer in het veld **Aantal perioden** het aantal boekhoudperioden in waarin u het boekjaar wilt verdelen. Er kunnen maximaal 365 perioden in een jaar vallen.  
@@ -44,7 +42,7 @@ Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van ge
 ### <a name="how-to-create-accounting-periods-manually"></a>Boekhoudperioden handmatig maken
 Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals de 4-4-5 agenda die in detailhandel wordt gebruikt, kunt u het handmatig instellen.  
   
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
 2. Voer in het veld **Begindatum** de datum in waarop het boekjaar begint. Het veld **Naam** bevat de naam van de maand.  
 3. Kies het selectievakje **Nieuw boekjaar** om aan te geven dat dit de eerste periode in het jaar is. [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt deze periode om te bepalen welke perioden aan het einde van het jaar moeten worden afgesloten.
 4. Herhaal stap 2 en 3 voor elke resterende periode.  
@@ -55,7 +53,7 @@ Het afsluiten van het boekjaar is een van de taken voor het afsluiten van de boe
 > [!NOTE]  
 >  U moet altijd minimaal één open boekjaar hebben. Wanneer u een jaar afsluit, moet u ervoor zorgen dat een nieuw jaar is gemaakt. Houd er ook rekening mee dat als u een jaar afsluit, u de begindatum van het volgende jaar niet kunt wijzigen.
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Boekingsperioden** in en klik vervolgens op de gerelateerde koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Jaar afsluiten**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posten boeken naar een afgesloten boekjaar

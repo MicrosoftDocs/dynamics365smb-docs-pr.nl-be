@@ -1,8 +1,6 @@
 ---
 title: 'Ontwerpdetails: Artikeltracering | Microsoft Docs'
 description: In dit onderwerp vindt u een overzicht van ontwerpdetails voor artikeltracering.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b263abf09a3d74bbac4f8b94c4dde61644702bfc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303208"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878545"
 ---
 # <a name="design-details-item-tracking"></a>Ontwerpdetails: Artikeltracering
 Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het vermogen artikelen te traceren steeds belangrijker voor de betrokken bedrijven. De transactiestroom van een artikel controleren is een juridische vereiste op het gebied van medische en chemische voorziening, maar in andere bedrijfstaken kunnen producten met garanties of vervaldatums worden gecontroleerd om redenen van klantenservice.  

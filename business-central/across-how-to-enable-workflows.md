@@ -1,8 +1,6 @@
 ---
 title: Werkstromen inschakelen | Microsoft Docs
 description: Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305416"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881156"
 ---
 # <a name="enable-workflows"></a>Werkstromen inschakelen
 Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.  
@@ -25,7 +23,7 @@ Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te s
  Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Een workflow inschakelen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
 2.  Open de werkstroom die u wilt inschakelen.  
 3.  Schakel op de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
 

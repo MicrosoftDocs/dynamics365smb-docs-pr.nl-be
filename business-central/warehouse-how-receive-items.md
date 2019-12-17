@@ -1,8 +1,6 @@
 ---
 title: Artikelen ontvangen | Microsoft Docs
 description: Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking is ingesteld, moet u de regels ophalen van het vrijgegeven brondocument waaruit de ontvangst voortkomt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea8d952f6ef88415b0fef27c1694ad7d29672e64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d007c3a9433807f75e667e130c0b79355a4a051a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310477"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876763"
 ---
 # <a name="receive-items"></a>Artikelen ontvangen
 Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking niet is ingesteld, registreert u de ontvangst in het gerelateerde bedrijfsdocument, zoals een inkooporder, verkoopretourorder of inkomende transferorder.
@@ -26,7 +24,7 @@ Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Artikelen ontvangen met een inkooporder
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stappen zijn vergelijkbaar voor verkoopretourorders en transferorders.  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
 2. Open een bestaande inkooporder of maak een nieuwe. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Voer in het veld **Te ontvangen aantal** het aantal in dat u hebt ontvangen.
 
@@ -34,7 +32,7 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stap
 4. Kies de actie **Boeken**.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Artikelen ontvangen met een magazijnontvangst
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  

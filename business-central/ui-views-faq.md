@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316845"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882002"
 ---
 # <a name="list-views-faq"></a>Veelgestelde vragen over lijstweergaven
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over het werken met lijstweergaven en het opslaan van filters.  
@@ -58,7 +58,7 @@ Sommige systeemweergaven kunnen unieke indelingen van de kolommen in de lijst he
 ### <a name="what-does-the-show-system-filters-link-do"></a>Wat doet de link Systeemfilters weergeven?
 Op sommige lijstpagina's bevat het filtervenster **Systeemfilters weergeven** onder aan het filtervenster wanneer de pagina filters bevat die door het systeem zijn opgegeven. Deze speciale filters worden meestal gebruikt om records weer te geven op basis van de huidige context, bijvoorbeeld wanneer een lijst met orders voor een specifieke klant moet worden gefilterd.
 
-Systeemfilters worden door ontwikkelaars ingesteld met behulp van filtergroep 0. Zie voor technische details over systeemfilters [Functie Filtergroep](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Systeemfilters worden door ontwikkelaars ingesteld met behulp van filtergroep 0. Zie voor technische details over systeemfilters [Methode Filtergroep](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Ik zie meerdere weergaven op mijn pagina, maar ik heb ze niet gemaakt. Waar komen ze vandaan?
 De weergaven die u in een lijst ziet, zijn een combinatie van uw persoonlijke weergaven samen met systeemweergaven. Systeemweergaven kunnen afkomstig zijn van de bedrijfstoepassing, van extensies of kunnen rolspecifiek zijn als de lijst is aangepast voor uw rol.
