@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/06/2019
+ms.date: 12/10/2019
 ms.author: solsen
-ms.openlocfilehash: 0f8f0f85df89c1d71fc3e114ebd902f2aa85f802
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896121"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910648"
 ---
 # <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Een sandboxomgeving maken in [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -74,13 +74,13 @@ In een sandboxomgeving is de **Ontwerper** ingeschakeld. U kunt de Ontwerper act
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="to-enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
-Het is mogelijk om de geavanceerde (volledige) functionaliteit van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen.
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Als u de geavanceerde functionaliteit in een sandboxtenant hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en rolcentra. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product.
+Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

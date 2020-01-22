@@ -1,1 +1,2 @@
-Dit is een functionaliteit waaraan nog steeds wordt gewerkt. De functionaliteit en de inhoud op deze pagina kunnen nog worden gewijzigd.
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](d365acc_long_md.md)] is momenteel in openbare preview op een beperkt aantal markten. De functionaliteit en de inhoud op deze pagina is een functionaliteit in een vroege release, waaraan we nog werken.

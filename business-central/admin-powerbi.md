@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879118"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953000"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 
@@ -164,7 +164,7 @@ Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt he
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten weer te geven die u kunt weergeven.
 
-Dit bericht verschijnt als het standaardrapport niet naar uw Power BI-werkruimte kan worden geïmplementeerd of het rapport is geïmplementeerd maar niet met succes is vernieuwd. Als dit gebeurt, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar Business Central en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**. 
+Dit bericht verschijnt als het standaardrapport niet naar uw Power BI-werkruimte kan worden geïmplementeerd of het rapport is geïmplementeerd maar niet met succes is vernieuwd. Als dit gebeurt, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar Business Central en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE [prodshort](includes/prodshort.md)]-app in Power BI te installeren
 
@@ -174,7 +174,7 @@ Power BI-apps kunnen alleen worden geïnstalleerd door gebruikers met een Power 
 
 Deze fout geeft aan dat een van de parameters niet geldig is.
 
-- De opgegeven omgevingsparameter komt niet overeen met een bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-productie of sandboxomgeving. 
+- De opgegeven omgevingsparameter komt niet overeen met een bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-productie of sandboxomgeving.
 - De opgegeven bedrijfsparameter komt niet overeen met bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijven. Controleer de bedrijfsnaam op de pagina **Bedrijven** in [!INCLUDE [prodshort](includes/prodshort.md)].
 - Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. u hebt een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Er staat geen poort open om het verzoek door uw firewall te laten gaan.
@@ -202,6 +202,8 @@ Zodra de Power BI-app is geïnstalleerd en uw gegevens verschijnen in Power BI, 
 ### <a name="i-only-see-data-for-a-single-company"></a>Ik zie alleen gegevens voor één bedrijf
 
 De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf dat is gedefinieerd toen de Power BI-app werd geïnstalleerd. Gegevens van extra bedrijven kunnen aan de rapporten worden toegevoegd door nieuwe query's toe te voegen die verschillende bedrijven als gegevensbron gebruiken.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

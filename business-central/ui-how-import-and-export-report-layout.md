@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881978"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954070"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Aangepaste rapportlay-outs importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  
@@ -49,7 +49,9 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
  De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Zie ook  
  [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
- [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)  
+ [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)    

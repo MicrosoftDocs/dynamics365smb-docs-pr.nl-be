@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315120"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953359"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
@@ -37,14 +37,14 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
 1. Open een pagina die u wilt personaliseren.
-2. Selecteer in de rechterbovenhoek het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Personaliseren**.
+2. In de rechterbovenhoek selecteert u het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en vervolgens kiest u de actie **Personaliseren**.
 
     De banner **Personaliseren** verschijnt bovenin, waarmee wordt aangegeven dat u wijzigingen kunt gaan aanbrengen.
 
     > [!NOTE]
     > Gebruik Ctrl+klik op een actie om te navigeren tijdens personalisatie als de actie wordt gemarkeerd door de pijlpunt.
 
-    Als u een ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") of ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") in de banner ziet, kunt u de pagina niet personaliseren. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personaliseren?](ui-personalization-locked.md).
+    Als u een ![Personalisatievergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") of ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") ziet in de banner, kunt u de pagina niet personaliseren. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personaliseren?](ui-personalization-locked.md).
 
 3. Als u een veld wilt toevoegen, kiest u de actie **+ Veld**.
 4. Sleep vanuit het deelvenster **Veld toevoegen aan pagina** een veld naar de gewenste positie op de pagina.
@@ -56,7 +56,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 
 |Wat u wilt doen?|Hoe kunt u het doen?|Opmerkingen|
 |----|------------|-------|
-|Iets verplaatsen, zoals een veld, een kolom in een lijst, een tegel, een actie of een onderdeel|Wijs naar alles wat u wilt verplaatsen en sleep dit naar de nieuwe positie. De positie wordt aangegeven door een dikke horizontale of verticale lijn.<br /><br />![Pictogram Kan niet hierheen verplaatsen](media/personalization-cannot-move-here.png "Personalisatiemodus - pictogram Kan niet hierheen verplaatsen") geeft aan dat u het element niet naar de geselecteerde positie kunt verplaatsen.|De onderdelen zijn onderverdelingen of gebieden op een pagina met objecten als meerdere velden, een andere pagina, een grafiek of tegels.<br /><br />Zie voor meer informatie over actiepersonalisering [Acties personaliseren](ui-personalization-user.md#Actions). |
+|Iets verplaatsen, zoals een veld, een kolom in een lijst, een tegel, een actie of een onderdeel|Wijs naar alles wat u wilt verplaatsen en sleep dit naar de nieuwe positie. De positie wordt aangegeven door een dikke horizontale of verticale lijn.<br /><br />![Pictogram Kan niet hierheen verplaatsen](media/personalization-cannot-move-here.png "Personalisatiemodus - Pictogram Kan niet hierheen verplaatsen") geeft aan dat u het element niet naar de geselecteerde positie kunt verplaatsen.|De onderdelen zijn onderverdelingen of gebieden op een pagina met objecten als meerdere velden, een andere pagina, een grafiek of tegels.<br /><br />Zie voor meer informatie over actiepersonalisering [Acties personaliseren](ui-personalization-user.md#Actions). |
 |Iets verbergen, zoals een veld, een kolom in een lijst, een tegel, een actie of een onderdeel.|Kies de pijlpunt en kies <b>Verbergen</b>.|Het element wordt grijs weergegeven wanneer u zich in de personalisatiemodus bevindt. Als het veld dat u verbergt ook in de sneltabbladkop wordt weergegeven wanneer het sneltabblad is samengevouwen, wordt het veld daar niet meer weergegeven.|
 |Verborgen acties en velden weergeven.|Kies voor een grijs (verborgen) element de pijlpunt en kies vervolgens <b>Weergeven</b>.|Het verborgen element is weer zichtbaar.|
 |Een kolom of veld toevoegen.|Kies in de banner <b>Personaliseren</b> de actie <b>+ Veld</b>.<br /></br>Het deelvenster <b>Veld toevoegen aan pagina</b> wordt aan de rechterkant weergegeven. Hier staan de velden die u aan de pagina kunt toevoegen.<br /><br />Als u een veld wilt toevoegen, moet u het uit het deelvenster slepen naar de positie waar u het hebben wilt. De positie wordt aangegeven door een dikke horizontale of verticale lijn.|Elke pagina bevat een vooraf bepaalde set velden die u kunt weergeven. Gebruik deze procedure om velden of kolommen toe te voegen die niet eerder zijn weergegeven of om velden weer te geven die u hebt verborgen.|
@@ -115,6 +115,8 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 - De wijzigingen die u aanbrengt worden op al uw rolcentra toegepast. Als u bijvoorbeeld een wijziging in de lijst Klant aanbrengt wanneer het rolcentrum op Bedrijfsleider is ingesteld, kunt u de wijziging op de pagina **Klanten** zien wanneer het rolcentrum op Verkooporderverwerker wordt ingesteld.
 - Wijzigingen in een deelvenster van een pagina worden op de pagina toegepast overal waar deze wordt weergegeven.  
 - U kunt alleen velden en kolommen toevoegen uit een vooraf gedefinieerde lijst die op de pagina is gebaseerd. U kunt geen nieuwe maken.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  

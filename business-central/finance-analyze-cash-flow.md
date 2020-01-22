@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 32d9b8a733c3edb2717fca724769feba3ea26321
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3e66c2d6beb24c82fcd314caeac00f3c7b20412a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306472"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953167"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
 Het spreekwoord luidt Geld moet rollen. De diagrammen in het rolcentrum Accountant bevatten informatie aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
@@ -48,6 +48,8 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 1. Zoek **Cashflowinstellingen** en kies vervolgens de verwante koppeling.  
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Financiën instellen](finance-setup-finance.md)  

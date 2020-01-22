@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306255"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953791"
 ---
-# <a name="report-vat-to-a-tax-authority"></a>Btw rapporteren aan de belastingdienst
+# <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
 Dit onderwerp beschrijft de rapporten in [!INCLUDE[d365fin](includes/d365fin_md.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio.
 
 U kunt de volgende rapporten gebruiken:
@@ -25,7 +25,7 @@ U kunt de volgende rapporten gebruiken:
 * Het **Verkoopoverzicht EU** bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen.  
 * Het rapport **BTW-aangifte** bevat btw voor verkopen en inkopen aan klanten in alle landen die btw gebruiken.
 
-Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
+Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Btw-posten** in en kiest u de desbetreffende koppeling.
 
 ## <a name="about-the-ec-sales-list-report"></a>Informatie over het Verkoopoverzicht EU
 In het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen, een elektronische versie indienen van het Verkoopoverzicht EU in XML-indeling door middel van de website van de HMRC (Her Majesty's Revenue and Customs). De lijst Verkoopoverzicht EU werkt alleen voor landen in de EU.
@@ -55,19 +55,19 @@ Voor de btw-aangifte kunt u de posten opgeven die u wilt opnemen:
 
 Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met de webservice van de belastingdienst. Hiertoe moet u een account instellen bij uw belastingdienst. Wanneer u een account hebt ingesteld, kunt u een serviceverbinding inschakelen die we aanbieden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies vervolgens de juiste koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies de desbetreffende koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >   Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie _Een btw-aangifte voorbereiden en indienen_. In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Btw-rapporten instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies de desbetreffende koppeling.  
 2. Als u gebruikers deze lijst wilt laten wijzigen en opnieuw verzenden, kiest u het selectievakje **Verzonden rapporten aanpassen**.  
 3. Kies de nummerreeks die voor elke aangifte moet worden gebruikt.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Een btw-aangifte voorbereiden en indienen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoverzicht EU** of **BTW-aangifte** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoverzicht EU** of **Btw-aangifte** in en kies de desbetreffende koppeling.  
 2. Kies **Nieuw** en vul vervolgens de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u de inhoud van de lijst wilt genereren, kiest u de actie **Regels voorstellen**.  
 
@@ -111,7 +111,9 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 > [!Note]
 > Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2017** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.
 
-## <a name="see-also"></a>Zie ook 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Zie ook
 [Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Verkopen instellen](sales-setup-sales.md)  

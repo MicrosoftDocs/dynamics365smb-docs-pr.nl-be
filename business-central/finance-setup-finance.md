@@ -10,21 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798511"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953671"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
-Om u snel aan de slag te helpen, bevat [!INCLUDE[d365fin](includes/d365fin_md.md)] standaardconfiguraties voor de meeste financiële processen. U kunt de configuraties aanpassen aan uw bedrijf. Vanuit het rolcentrum kunt u bijvoorbeeld gebruik maken van een begeleide instelling om het btw-tarief voor uw locatie in te stellen.  
+Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
 
-Er zijn echter bepaalde zaken die uzelf moet instellen. Als u bijvoorbeeld dimensies wilt gebruiken als basis voor bedrijfsinformatie.  
+Sommige financiële instellingen kunnen automatisch worden uitgevoerd met behulp van guides voor begeleide instelling en sommige moeten handmatig worden uitgevoerd. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+Met dimensies kunt u verschillende soorten informatie toevoegen aan elke transactie. U kunt de basisdimensies van uw bedrijf instellen, zoals Projecten en Afdelingen. Later kunt u zo nodig meer dimensies toevoegen en tijdelijke dimensies instellen voor gebruik gedurende een beperkte tijdsperiode, bijvoorbeeld in verband met een verkoopcampagne. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
+
+Veel van de instellingstaken moeten worden voltooid voordat u financiële transacties kunt gaan registreren, maar u kunt de meeste instellingen naderhand wijzigen. Sommige instellingstaken zijn optioneel: u stelt bijvoorbeeld alleen IC-boekingen en -consolidaties in als u met meerdere bedrijven werkt. Sommige instellingstaken moeten periodiek worden herhaald, zoals het opgeven van de periode waarin een boeking is toegestaan.  
+
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
 | Als u dit wilt doen | Zie |
 | --- | --- |
@@ -46,9 +50,11 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
 |Zorg dat een post in een grootboek wordt toegewezen aan verschillende rekeningen wanneer u het dagboek boekt, hetzij aantal, percentage of bedrag.|[Verdeelsleutels in dagboeken gebruiken](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
-[Bankrekeningen beheren](bank-manage-bank-accounts.md)  
+[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  

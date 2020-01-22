@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876955"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953119"
 ---
 # <a name="update-custom-report-layouts"></a>Aangepaste rapportlay-outs bijwerken
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  
@@ -60,7 +60,9 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
  Zie voor meer informatie [Een aangepaste lay-out voor een rapport maken](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
 
- Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
+Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

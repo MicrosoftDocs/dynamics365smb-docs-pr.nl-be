@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4a9efd2ef5ac9d3b0335bf887765cf03870fb037
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3f6c42be6f979d2677cb8da57d3c5843d992089a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303976"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952734"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
 In financiële analyses is een dimensie informatie die u kunt toevoegen aan een post als een soort kenteken. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. Dimensies kunnen worden gebruikt op posten in dagboeken, documenten en budgetten. De term dimensie beschrijft hoe analyse plaatsvindt. Een tweedimensionale analyse is bijvoorbeeld verkoop per gebied. Door echter meer dan twee dimensies te gebruiken bij het maken van een post, kunt u complexere analyses uitvoeren, zoals verkoop per verkoopcampagne per klantengroep per gebied. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
@@ -30,7 +30,7 @@ Door gegevens met dimensies te analyseren krijgt u een beter inzicht in uw bedri
 ## <a name="to-set-up-an-analysis-view"></a>Een analyseweergave instellen  
 Met een analyse op basis van dimensies geeft u een geselecteerde combinatie van dimensies weer. U kunt elke ingestelde analyse opslaan en ophalen. De gegevens voor het instellen van een analyse worden op een **Analyseweergave**kaart opgeslagen om analyse in de toekomst te vereenvoudigen.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Analyseweergaveoverzicht** de actie **Nieuw**.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u andere dimensiecodes wilt toevoegen naast de vier op het sneltabblad **Dimensies**, kiest u de actie **Filteren**, vult u de velden in en kiest u de knop **OK**.  
@@ -39,7 +39,7 @@ Met een analyse op basis van dimensies geeft u een geselecteerde combinatie van 
 ## <a name="to-analyze-by-dimensions"></a>Analyseren per dimensie
 U kunt de matrix **Analyse per dimensie** gebruiken om de bedragen in uw grootboek te bekijken met de analyseweergaven die u al hebt ingesteld. U vult de pagina **Analyse per dimensie** in om te bepalen wat wordt weergegeven in de matrix en kiest vervolgens de actie **Matrix weergeven** om de matrix weer te geven.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies de desbetreffende koppeling.  
 2. Selecteer de relevante analyseweergave en kies vervolgens de actie **Analyse per dimensie**.
 3. Vul boven op de pagina **Analyse per dimensie** de velden in om te definiëren wat wordt weergegeven.
 4. Kies de actie **Matrix weergeven** om de desbetreffende matrixpagina voor die analyseweergave te openen.
@@ -62,7 +62,7 @@ Met de bedragen die worden weergegeven op de pagina **Analyse per dimensies**, k
 
 Met de volgende procedure kunt u een analyseweergave bijwerken vanuit de pagina **Analyse per dimensies**. De stappen zijn vergelijkbaar vanuit de pagina's **Analyseweergave** en **Analyseweergaveoverzicht**.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Analyseweergaven** in en kies de desbetreffende koppeling.
 2. Selecteer de relevante analyseweergave en kies vervolgens de actie **Analyse per dimensie**.
 2. Kies op de pagina **Analyse per dimensie** het veld **Analyseweergavecode**.  
 3. Selecteer de regel met de gewenste analyseweergave.  
@@ -73,6 +73,8 @@ Met de volgende procedure kunt u een analyseweergave bijwerken vanuit de pagina 
 
 > [!NOTE]  
 >   Als u bepaalde of alle analyseweergaven tegelijk wilt bijwerken, moet u de batchverwerking **Analyseweergaven bijwerken** gebruiken.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

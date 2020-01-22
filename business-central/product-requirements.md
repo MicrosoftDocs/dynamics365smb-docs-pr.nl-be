@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649776"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911251"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
 
 ## <a name="browsers"></a>Browsers
+
+### <a name="recommended-browsers"></a>Aanbevolen browsers
+
 **Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van Safari onder OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van Microsoft Edge.
+
+### <a name="other-supported-browsers"></a>Andere ondersteunde browsers
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows. 
 
 ## <a name="mobile-devices"></a>Mobiele apparaten
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] voor Windows kan op apparaten worden geïnstalleerd met ten minste 1 GB RAM en Windows 10 Home, Pro, Enterprise of Education (32-bits en 64-bits versies).  

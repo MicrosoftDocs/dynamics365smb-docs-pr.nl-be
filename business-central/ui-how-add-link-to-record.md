@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649800"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953304"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
@@ -24,6 +24,9 @@ In het feitenblok op de meeste kaarten en documenten kunt u bestanden bijvoegen,
 Als u een van deze bijgevoegde informatietypen wilt bekijken of wijzigen, moet u eerst het tabblad **Bijlagen** openen in het feitenblok. Het getal achter de titel van het tabblad geeft aan hoeveel bijgevoegde bestanden, koppelingen of notities er zijn voor de kaart of het document.
 
 Bijlagen, koppelingen en notities blijven gekoppeld terwijl de kaart of het document wordt verwerkt in andere staten, zoals van een lopende verkooporder naar een geboekte verkoopfactuur. Geen van de bijlagetypen wordt echter door het systeem uitgevoerd, bijvoorbeeld bij het afdrukken of bij het opslaan in een bestand.
+
+> [!NOTE]
+> Wanneer u een verkooporder of inkooporder gedeeltelijk verzendt en factureert, wordt de bijlage alleen aan de definitieve factuur van die order toegevoegd. Wanneer u factureert met de functie Uitstel, wordt de bijlage alleen gekoppeld aan de grootboekposten voor het document, maar niet voor de uitstelposten.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Een bestand bijvoegen bij een inkoopfactuur
 U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)].

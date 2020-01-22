@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302392"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952638"
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
 Als u analyse in documenten zoals verkooporders eenvoudiger wilt maken, kunt u dimensies gebruiken. Dimensies zijn kenmerken en waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
@@ -56,7 +56,7 @@ Als dimensies en waarden zijn ingesteld, kunt u globale dimensies en shortcutdim
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standaarddimensies voor klanten, leveranciers en andere accounts instellen
 U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie wordt naar het dagboek of document gekopieerd wanneer u het rekeningnummer op een regel invoert, maar u kunt de code op de regel desgewenst verwijderen of wijzigen. U kunt ook een dimensie maken die is vereist om een post te boeken met een specifiek rekeningsoort.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensies** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensies** in en kies de desbetreffende koppeling.  
 2.  Selecteer op de pagina **Dimensies** de relevante dimensie en kies de actie **Std. dimensierekeningsoort**.  
 4.  Vul een regel in voor elke nieuwe standaarddimensie die u wilt instellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie
 ### <a name="to-set-up-default-dimension-priorities"></a>Standaarddimensieprioriteiten instellen  
 U kunt verschillende standaarddimensies instellen voor verschillende rekeningsoorten, bijvoorbeeld een klantrekening en een artikelrekening. Er kunnen dus meerdere standaarddimensies worden voorgesteld voor een dimensie op een post. Als u dergelijke conflicten wilt voorkomen, kunt u prioriteitregels toepassen op verschillende bronnen.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaarddimensieprioriteiten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaarddimensieprioriteiten** in en kies de desbetreffende koppeling.  
 2.  Voer op de pagina **Standaarddimensieprioriteiten** in het veld **Broncode** de broncode voor de invoertabel in waarop prioriteiten voor standaarddimensies van toepassing zijn.  
 3.  Vul een regel in voor elke prioriteit voor standaarddimensies die u wilt instellen voor de geselecteerde broncode.
 4.  Herhaal de procedure voor elke broncode waarvoor u prioriteiten voor standaarddimensies wilt instellen.  
@@ -83,7 +83,7 @@ U kunt verschillende standaarddimensies instellen voor verschillende rekeningsoo
 ### <a name="to-set-up-dimension-combinations"></a>Dimensiecombinaties instellen  
 U kunt bepaalde combinaties van twee dimensies blokkeren of beperken om te voorkomen dat u posten boekt met tegenstrijdige of onjuiste dimensies. Een geblokkeerde dimensiecombinatie betekent dat u beide dimensies niet naar dezelfde post kunt boeken, ongeacht de dimensiewaarden. Voor een beperkte dimensiecombinatie kunt u beide dimensies naar dezelfde post boeken, maar alleen voor bepaalde combinaties van dimensiewaarden.
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensiecombinaties** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dimensiecombinaties** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Dimensiecombinaties** het veld met de dimensiecombinatie en selecteer een van de volgende opties.  
 
     |Veld|Description|
@@ -111,11 +111,11 @@ Globale dimensies en shortcutdimensies kunnen als filter worden gebruikt overal 
 > [!Note]
 > Wanneer u een globale of shortcutdimensie toevoegt of wijzigt, wordt u automatisch afgemeld en weer aangemeld, zodat de nieuwe waarde voorbereid is voor gebruik in de hele toepassing.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.
 2. Vul de velden van het sneltabblad **Dimensies** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Globale dimensies wijzigen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Globale dimensies wijzigen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Globale dimensies wijzigen** in en kies de desbetreffende koppeling.
 2. Plaats de aanwijzer boven acties en velden op de pagina om te leren hoe u globale dimensies en shortcutdimensies wijzigt.
 
 ### <a name="example-of-dimension-setup"></a>Voorbeeld van dimensie-instelling
@@ -181,7 +181,7 @@ Globale dimensies zijn altijd gedefinieerd en benoemd door het bedrijf. Als u de
 
 Op een pagina met posten kunt u bekijken of er globale dimensies van toepassing zijn op de posten. In tegenstelling tot de overige dimensies kunnen de twee globale dimensies overal in [!INCLUDE[d365fin](includes/d365fin_md.md)] als filter worden toegepast.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Rekeningschema** de actie **Posten**.  
 3.  Stel een of meer filters op de pagina in om alleen de gewenste posten weer te geven.  
 4.  Als u alle dimensies voor een post wilt zien, selecteert u de post en kiest u vervolgens de actie **Dimensies**.  
@@ -208,6 +208,8 @@ Wanneer u documenten of dagboekregels boekt die dimensies bevatten, kunnen versc
 |Verkeerde dimensiewaardecode voor standaarddimensie waarvoor het veld **Waardeboeking** **Zelfde** bevat|-%1 %2 voor de %3 %4 selecteren.<br />-%1 %2 voor de %3 %4 voor %5 %6 selecteren.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-De vereiste dimensiewaarde invoeren voor de conflicterende dimensie in de dimensieset.|
 |Niet-lege dimensiewaardecode invoeren voor lege standaarddimensie waarvoor het veld **Waardeboeking** **Zelfde** bevat|-%1 %2 moet leeg zijn.<br />-%1 %2 moet leeg zijn voor %3 %4.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-Een lege dimensiewaardecode invoeren voor de conflicterende dimensie in de dimensieset.|
 |Onverwachte dimensiewaarde voor standaarddimensie waarvoor het veld **Waardeboeking** **Geen** bevat|-%1 %2 mag niet vermeld worden.<br />-%1 %2 mag niet vermeld worden voor %3 %4.|-Het veld **Waardeboeking** op de pagina **Standaarddimensie** wijzigen.<br />-De conflicterende regel verwijderen uit de dimensieset.|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

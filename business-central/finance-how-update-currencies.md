@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6e9456a17ccf8dc6c3e3e8ae8272baa03f43f7da
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882674"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952686"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en financiën in meer dan één valuta kunnen controleren of rapporteren. U moet een code instellen voor elke gebruikte valuta als u in andere valuta's dan uw lokale valuta inkoopt of verkoopt, in een andere valuta tegoeden of schulden hebt of grootboektransacties in verschillende valuta's vastlegt.
@@ -62,6 +62,8 @@ U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, z
 2. Kies de actie **Wisselkoersen bijwerken**.
 
 De waarde in het veld **Wisselkoers** op de pagina **Valuta's** wordt bijgewerkt met de laatste wisselkoers.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)  

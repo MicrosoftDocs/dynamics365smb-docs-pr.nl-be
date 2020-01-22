@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: af33d0679242e9915bc3e0de5825bf293e22c585
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809093"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953263"
 ---
 # <a name="change-the-current-report-layout"></a>De huidige rapportindeling wijzigen
 Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen.
@@ -54,6 +54,8 @@ Alle aangepaste rapportlay-outs die bestaan voor rapportlay-outs in een bedrijf,
 De naam van de geselecteerde aangepaste lay-out wordt nu weergegeven in het veld **Aangepaste lay-outbeschrijving** en deze wordt de volgende keer dat het rapport of document wordt bekeken, afgedrukt of verzonden, gebruikt.
 
 U kunt nu naar uw klanten- en leverancierskaarten gaan om op te geven welke lay-outs u wilt gebruiken voor verschillende documenten die u voor de betreffende klant of leverancier maakt, zoals orderbevestigingen of betalingsherinneringen. Zie voor meer informatie [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7034e88e5f9a46f3d593a532020acc40be3b437f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879668"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953767"
 ---
 # <a name="invoicing-prepayments"></a>Vooruitbetalingen factureren
 Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.  
@@ -29,6 +29,8 @@ Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een ve
 |Vooruitbetalingsboekingsgroepen en nummerreeksen instellen en standaardvooruitbetalingspercentages instellen voor klanten, leveranciers en artikelen.|[Vooruitbetalingen instellen](finance-set-up-prepayments.md)|
 |Een order te maken, vooruitbetalingsbedragen aan te passen en een factuur te verzenden voor vooruitbetalingsbedragen.|[Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)|  
 |Een aanvullende vooruitbetalingsfactuur te verzenden, voor aanvullende artikelen of voor een aanvullende borgsom op de oorspronkelijke order, of om een creditnota voor een vooruitbetaling te verzenden.|[Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

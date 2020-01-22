@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879040"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910576"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales
 Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[crm_md](includes/crm_md.md)] te integreren met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ U moet een speciaal gebruikersaccount in uw Office 365-abonnement maken dat zowe
 > Gebruik het beheerdersaccount niet voor [!INCLUDE[crm_md](includes/crm_md.md)] voor synchronisatie. Als u dat doet wordt de synchronisatie verstoord.
 > Om constante synchronisatie te voorkomen worden wijzigingen in gegevens die worden aangebracht door het integratiegebruikersaccount niet gesynchroniseerd. <!--What changes would this account make?--> Als de verbinding is gemaakt, is het raadzaam de toegangsmodus voor het gebruikersaccount voor integratie in te stellen op de niet-interactieve modus in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Een niet-interactief gebruikersaccount maken](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-sales-people"></a>Accounts instellen voor verkopers
+## <a name="setting-up-accounts-for-salespeople"></a>Accounts instellen voor verkopers
 U moet gebruikersaccounts maken in [!INCLUDE[crm_md](includes/crm_md.md)] voor de verkoper uit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om het gemakkelijker te maken biedt het Microsoft 365-beheercentrum een Excel-sjabloon die u kunt gebruiken. Kies op de pagina **Actieve gebruikers** **Meer** en vervolgens **Meerdere gebruikers importeren**. Kies **Een CSV-bestand downloaden met alleen koppen** en voer vervolgens de informatie voor de verkoper in. Als u een voorbeeld wilt zien, kiest u **Een CSV-bestand downloaden met koppen en voorbeeldgegevens van gebruikers**. Nadat u de gegevens hebt ingevoerd over de gebruikers, is de volgende stap bij het importproces de gebruikerslicenties toe te wijzen aan het Dynamics 365 Customer Engagement-plan.  
 
 Nadat u gebruikers hebt geïmporteerd en aan hen licenties hebt toegewezen voor Dynamics 365 Customer Engagement, moet u de gebruikers aan de rol **Verkoper** toewijzen in [!INCLUDE[crm_md](includes/crm_md.md)].

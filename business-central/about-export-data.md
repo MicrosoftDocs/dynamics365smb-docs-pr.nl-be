@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 0e47446455da81dc7ca197e769154d4a3dc5f4a1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1583c17b63df4c4db37eec20ab204ef235d47512
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300869"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952975"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
 Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[d365fin](includes/d365fin_md.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.
@@ -65,6 +65,8 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 
 > [!NOTE]  
 >   Als u meer dan één bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt ingesteld, moet u de relevante gegevens van elk bedrijf exporteren.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Uw abonnement voor [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md) annuleren  

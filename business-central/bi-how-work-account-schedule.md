@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 23027c809571512c99d75860c108aa4a23ca5477
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307576"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953839"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken in uw rolcentrum, zoals het Cashflowdiagram, en in rapporten, zoals de Resultatenrekening en de Balans.
@@ -45,7 +45,7 @@ De rapportageschema's in de standaardversie van [!INCLUDE[d365fin](includes/d365
 
 Op de pagina **Rapportageschemaoverzicht** bekijkt u een voorbeeld van het financiële rapport dat het rapportageschema definieert. In het volgende is het belangrijk te weten dat wat u instelt als rijen en kolommen van het rapportageschema, alleen kan worden gezien en gevalideerd op de pagina **Rapportageschemaoverzicht**, die u kunt openen vanuit een rapportageschema door de actie **Overzicht** te kiezen. De pagina **Rapportageschema** zelf is alleen een instellingengebied.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een rekeningschema te maken.
 3. Of kies de actie **Rapportageschema kopiëren**, vul de twee velden in en kies de knop **OK**.
 4. Vul de benodigde velden in. Selecteer in het veld **Std. kolomindeling** een bestaande indeling. U kunt het later desgewenst wijzigen.
@@ -77,7 +77,7 @@ U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterend
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Een kolom maken die percentages berekent  
 U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van een totaal te berekenen. U hebt bijvoorbeeld een aantal rijen die zijn onderverdeeld op dimensie, en u wilt wellicht een kolom maken om het percentage aan te geven van de totale verkoop van elke rij.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies de desbetreffende koppeling.
 2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken** om een rapportageschemarij te definiëren die de totalen moet berekenen waarop de percentages worden gebaseerd.  
 4. Voeg een regel in rechtstreeks boven de eerste rij waarvoor u een percentage wilt weergeven.  
@@ -89,7 +89,7 @@ U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Rekeningstelsels met overzichten instellen  
 U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en begrotingscijfers van grootboeken worden vergeleken.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies de desbetreffende koppeling.
 2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken**  
 4. Selecteer op de pagina **Rapportageschema** in het veld **Naam** de naam van het standaardrapportageschema.
@@ -192,6 +192,7 @@ Als u de berekening volgens normale tijdsperioden wilt uitvoeren, moet u in plaa
 > [!NOTE]
 > Het is niet altijd transparant welke perioden u vergelijkt omdat u een datumfilter op een rapport kunt instellen dat andere datums omvat dan de boekingsperioden die worden gereflecteerd in de gegevens in het rekeningschema. U maakt bijvoorbeeld een rapportageschema waarin u deze periode wilt vergelijken met dezelfde periode vorig jaar, dus u stelt het veld **Filter van vergelijkingsdatumperiode** in op *-1BJ*. Vervolgens voert u het rapport uit op 28 februari en stelt u het datumfilter in op januari en februari. Daardoor vergelijkt het rapportageschema januari en februari dit jaar met januari vorig jaar, wat de enige voltooide boekingsperiode van de twee voor vorig jaar is.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

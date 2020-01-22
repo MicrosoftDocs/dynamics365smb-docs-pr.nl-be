@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/22/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879149"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953038"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 
@@ -69,6 +69,8 @@ In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog st
 ## <a name="using-other-email-accounts"></a>Andere e-mailaccounts gebruiken
 
 De invoegtoepassingen zijn ontworpen om te worden gebruikt met Office 365. Als u [!INCLUDE [prodshort](includes/prodshort.md)] on-premises gebruikt, zal uw beheerder weten of u de [!INCLUDE [prodshort](includes/prodshort.md)]-invoegtoepassingen in Outlook kunt gebruiken. Zie voor meer informatie [Welk e-mailadres kan ik gebruiken voor [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) en [Functies die specifieke omstandigheden vereisen](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

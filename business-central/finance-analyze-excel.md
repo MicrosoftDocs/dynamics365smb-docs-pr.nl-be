@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302577"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952589"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Financiële overzichten analyseren in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u KPI's bekijken en overzichten krijgen van de financiële status van het bedrijf. U kunt ook lijsten in Excel openen en de gegevens daar analyseren. Maar u kunt ook zware financiële overzichten exporteren, zoals de balans of resultatenrekening naar Excel, de gegevens analyseren en de rapporten afdrukken.  
@@ -40,6 +40,8 @@ In Excel ziet u een tabblad met de gegevens op het eerste werkblad. Alle gegeven
 Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring bevat een invoegtoepassing voor Excel. Afhankelijk van uw abonnement, wordt u automatisch aangemeld of moet u dezelfde aanmeldingsdetails opgeven die u gebruikt voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Met de invoegtoepassing kunt u up-to-date gegevens krijgen vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] en kunt u wijzigingen terugsturen naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. De mogelijkheid om wijzigingen terug te sturen naar de database is uitgeschakeld voor de financiële Excel-rapporten in de bovenstaande lijst.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  

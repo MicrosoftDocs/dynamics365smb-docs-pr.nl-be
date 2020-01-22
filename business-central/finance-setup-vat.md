@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798535"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953695"
 ---
 # <a name="set-up-value-added-tax"></a>Btw instellen
 Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[d365fin](includes/d365fin_md.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende:
@@ -37,7 +37,8 @@ Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te
 
 Ga als volgt te werk om de begeleide instelling te starten:
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide setup** in en kies de desbetreffende koppeling.  
-2. Kies **Btw instellen**.
+2. Kies **Btw instellen** en voer alle stappen uit.
+3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u extra velden moet invullen volgens uw landversie. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>BTW-nummers instellen voor uw land of regio
 Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land of de regio.
@@ -68,7 +69,7 @@ Als u standaard btw-bedrijfsboekingsgroepen wilt instellen, koppelt u deze aan b
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>Btw-productboekingsgroepen instellen
 Met btw-productboekingsgroepen worden de artikelen en resources vertegenwoordigd die u koopt of verkoopt en wordt bepaald hoe btw wordt berekend en geboekt volgens het soort artikel of resource, dat wordt aangeschaft of verkocht.  
-Het is aan te raden codes te gebruiken die u gemakkelijk kunt onthouden en waarmee het tarief wordt beschreven, zoals **Geen btw** of **Nul**, **Btw10** of **Gereduceerd** voor 10% btw en **Btw21** of **Standaard** voor 21%.
+Het is aan te raden codes te gebruiken die u gemakkelijk kunt onthouden en waarmee het tarief wordt beschreven, zoals **Geen btw** of **Nul**, **Btw10** of **Gereduceerd** voor 10% btw en **Btw25** of **Standaard** voor 25%.
 
 Ga als volgt te werk om een btw-groep voor zakelijke boekingen in te stellen:
 
@@ -269,7 +270,10 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 > [!IMPORTANT]  
 >  Nadat de conversie is voltooid, wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** ingeschakeld en bevat het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** de conversiedatum.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook  
-[Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)  
+[Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)      
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
+[Lokale functionaliteit in Business Central](about-localization.md)

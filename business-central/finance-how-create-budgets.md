@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302368"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953815"
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
 U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken voor dezelfde perioden. Eerst stelt u de begrotingsnaam in en voert u de begrotingscijfers in. De begrotingsnaam wordt vervolgens opgenomen op alle begrotingsposten die u maakt.  
@@ -29,7 +29,7 @@ Budgetten spelen een belangrijke rol in bedrijfsinformatie, zoals in financiële
 In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Zie [Procedure: Kostenbudgetten maken](finance-create-cost-budgets.md) voor meer informatie.    
 
 ## <a name="to-create-a-new-gl-budget"></a>Een nieuw grootboekbudget maken  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Lijst bewerken** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Kies de actie **Budget bewerken**.
 4. Vul boven aan de pagina **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.  
@@ -47,6 +47,8 @@ Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar E
 
 > [!NOTE]
 > Het rekeningschema, waarop grootboekbudgetten zijn gebaseerd, bevat regels van het rekeningtype Kop die het totaal bevatten van de regels eronder. Wanneer u een grootboekbudget exporteert, worden gegevens op alle regels geëxporteerd, ongeacht het rekeningtype. Alleen gegevens van het rekeningtype Boeking kunnen echter terug worden geïmporteerd. Zodoende: <br /><br /> **Wanneer u een grootboekbudget importeert, worden eventuele waarden op kopregels verwijderd.** <br /><br /> Hierdoor worden verkeerde totalen voorkomen nadat gegevens zijn geïmporteerd die zijn gemaakt of bewerkt in Excel.<br /><br /> **Scenario**: u weet dat de nieuwe gebudgetteerde salarissenkosten LV 1.200.000 zullen zijn. U wilt de afdeling Salarissen laten budgetteren voor drie specifieke regels (van het rekeningtype Boeking) voor fulltime werknemers, parttime werknemers en invalkrachten. De drie regels worden gegroepeerd onder de kopregel Salarissen.<br /><br />U voert 1.200.000 op de kopregel in, exporteert het budget naar Excel en stuurt het vervolgens naar de afdeling Salarissen, waarbij u hen aangeeft de LV 1.200.000 te distribueren.<br /><br /> De afdeling Salarissen distribueert het bedrag over de drie boekingsrekeningen. Wanneer u terug importeert in het grootboekbudget, worden de drie rekeningen ingevuld met de nieuwe Excel-gegevens, tot een totaal van 1.200.000, en is de kopregel leeg.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  

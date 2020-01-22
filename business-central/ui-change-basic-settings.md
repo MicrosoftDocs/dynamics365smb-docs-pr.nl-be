@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311440"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953332"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
@@ -30,7 +30,7 @@ Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen
 
 ### <a name="to-change-the-role"></a>De rol wijzigen
 De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om een rolcentrum te selecteren dat beter aan uw behoeften voldoet.
-1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
 2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant**.
 3. Kies de knop **Ok**.
 
@@ -42,14 +42,14 @@ Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw 
 ## <a name="to-change-the-company-name"></a>De bedrijfsnaam wijzigen
 De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum. U kunt deze naam wijzigen op de pagina **Bedrijfsgegevens**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
 2. Voer in het veld **Naam** de nieuwe bedrijfsnaam in.
 3. Verlaat de pagina. Het systeem start opnieuw op en geeft het nieuwe bedrijf in de linkerbovenhoek weer.
 
 ## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens  
 U kunt een aangepaste badge in de rechterbovenhoek toevoegen, die u kunt kiezen om de bedrijfsnaam en tenantinformatie snel in een pop-upvenster te bekijken.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
 2. Vul op het sneltabblad **Bedrijfsbadge** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
@@ -83,6 +83,8 @@ De aanvankelijke taal wordt bepaald door de beheerder of door uw browserinstelli
 
 ## <a name="changing-when-i-receive-notifications"></a>Wijzigen wanneer ik berichten ontvang
 Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Zie voor meer informatie [Berichten beheren](ui-smart-notifications.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Nieuwe bedrijven maken](about-new-company.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883353"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918154"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
@@ -26,10 +26,7 @@ Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industri
 
 ## <a name="get-started"></a>Aan de slag
 
-Het 'Ready to Go'-programma is één manier om aan de slag te gaan als een reseller van [!INCLUDE [prodshort](includes/prodshort.md)]. U kunt ook contact opnemen met het Microsoft-kantoor in uw land of regio. Voor meer informatie over de voor u beschikbare resources via het 'Ready to Go'-programma, raadpleegt u [aka.ms/readytogo](https://aka.ms/readytogo). Meer informatie over het worden van een reseller vindt u op [Andere oplossingen doorverkopen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Meld u aan voor een proef op [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-) en stuur feedback naar [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Het 'Ready to Go'-programma is één manier om aan de slag te gaan als een reseller van [!INCLUDE [prodshort](includes/prodshort.md)]. U kunt ook contact opnemen met het Microsoft-kantoor in uw land of regio. Zie [aka.ms/readytogo](https://aka.ms/readytogo), [Andere oplossingen doorverkopen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) en [Aan de slag als reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller) voor meer informatie over de bronnen die voor u beschikbaar zijn via het programma "Ready to Go".  
 
 ## <a name="see-also"></a>Zie ook
 

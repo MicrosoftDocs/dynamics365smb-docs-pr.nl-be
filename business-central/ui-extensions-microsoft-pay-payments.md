@@ -9,16 +9,27 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8dc710cb95e82e535a1ee694f3aeb510be0a03b5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
+ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311176"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943295"
 ---
 # <a name="the-microsoft-pay-extension"></a>De extensie Microsoft Pay
+
+> [!IMPORTANT]
+> Met ingang van 8 februari 2020 hebben wijzigingen in de Microsoft Pay-service invloed op de Microsoft Pay-uitbreiding in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Vanwege de wijzigingen zullen na 8 februari de betalingskoppelingen **Nu betalen** die de Microsoft Pay-uitbreiding genereert voor facturen in [!INCLUDE[d365fin](includes/d365fin_md.md)], Microsoft Pay niet openen. Klanten die de uitbreiding gebruiken, moeten hun betalingsservices instellen om in plaats daarvan de PayPal-uitbreiding te gebruiken.<br /></br>
+>
+> Vanaf 8 januari zullen we een melding weergeven in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De melding bevat een koppeling naar de instellingen die u moet wijzigen en naar meer informatie. Na 8 februari is de Microsoft Pay-uitbrieding niet meer beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+>
+> De wijzigingen zijn van invloed op de volgende versies van Business Central:
+> - Microsoft Dynamics 365 Business Central oktober 2018
+> - Microsoft Dynamics 365 Business Central april 2019
+> - Microsoft Dynamics 365 Business Central 2019 releasewave 2
+
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot services voor betaling en levering. De service Microsoft Pay helpt u uw klantenservice te verbeteren.
 
 De extensie Microsoft Pay voegt een Microsoft Pay-koppeling aan uw verkoopdocumenten toe, zodat klanten gemakkelijk kunnen betalen met Microsoft Pay. Vervolgens kunt u de documenten per e-mail verzenden. U biedt zo een betere klantenservice en ontvangt betalingen van uw klanten sneller op uw bankrekening.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: c843f0fb6c8017817ada9dc5bf2af0ef68a5cc5a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878760"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952854"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE [prodlong](includes/prodlong.md)] gebruiken als Power BI-gegevensbron voor het maken van rapporten
 
@@ -41,6 +41,8 @@ Zodra de gegevens zijn geladen, worden deze in de rechternavigatie op de pagina 
 Voordat u uw rapport maakt, is het raadzaam dat u het [!INCLUDE [prodshort](includes/prodshort.md)]-themabestand importeert.  Het themabestand maakt een kleurenpalet, zodat u rapporten kunt maken met dezelfde kleurstijl als de [!INCLUDE [prodshort](includes/prodshort.md)]-apps zonder aangepaste kleuren te hoeven definiëren voor elk visueel element.
 
 Zie voor meer informatie de [documentatie van Power BI](/power-bi/consumer/power-bi-consumer-landing/).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

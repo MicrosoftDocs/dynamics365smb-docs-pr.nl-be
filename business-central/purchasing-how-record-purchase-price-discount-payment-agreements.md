@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2495292a967d81cd64694d3a238399e964c1d94f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d0f65eeb44b6a9a2608c05f6b7c71f989a0b9386
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316728"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953527"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Speciale inkoopprijzen en kortingen registreren
 De verschillende prijs- en kortingsovereenkomsten die van toepassing zijn wanneer u koopt van verschillende leveranciers, moeten worden gedefinieerd, zodat de overeengekomen regels en waarden worden toegepast op documenten die u voor de leveranciers maakt.
@@ -34,7 +34,7 @@ U kunt twee soorten inkoopkortingen instellen en gebruiken:
 Omdat inkoopregelkortingen en inkoopprijzen gebaseerd zijn op een combinatie van artikel en leverancier, kunt u deze configuratie ook invoeren vanuit de artikelkaart, waarop de regels en waarden zijn gedefinieerd. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Een speciale inkoopprijs voor een leverancier instellen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
 2. Open de desbetreffende leverancierskaart en kies vervolgens de actie **Prijzen**.
 
     Het veld **Soort inkoop** wordt vooraf ingevuld met **Leverancier** en het veld **Inkoopcode** wordt vooraf ingevuld met het leveranciersnummer.
@@ -42,7 +42,7 @@ Omdat inkoopregelkortingen en inkoopprijzen gebaseerd zijn op een combinatie van
 4. Vul een regel in voor elke combinatie waarvoor de leverancier u een inkoopregelkorting verleent.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Een speciale regelkorting voor een leverancier instellen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
 2. Open de desbetreffende leverancierskaart en kies vervolgens de actie **Regelkortingen**.
 
     Het veld **Soort inkoop** wordt vooraf ingevuld met **Leverancier** en het veld **Inkoopcode** wordt vooraf ingevuld met het leveranciersnummer.
@@ -52,7 +52,7 @@ Omdat inkoopregelkortingen en inkoopprijzen gebaseerd zijn op een combinatie van
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Een factuurkorting voor een leverancier instellen
 Wanneer uw leveranciers u hebben geïnformeerd welke factuurkortingen ze verlenen, voert u de factuurkortingscodes op de leverancierskaarten in en stelt u de condities voor elke code in.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
 2. Open de leverancierskaart voor een leverancier die voor factuurkortingen in aanmerking komt.
 3. Selecteer in het veld **Factuurkortingscode** een code voor de desbetreffende factuurkortingscondities om te gebruiken voor het berekenen van factuurkortingen voor de leverancier.
 
@@ -73,7 +73,7 @@ Wanneer u een inkoopfactuur boekt die een of meer kortingen bevat, kunt u de kor
 
 Voordat u dit kunt doen, moet u de benodigde rekeningen voor het boeken van kortingsbedragen in het rekeningschema al hebben ingesteld. U moet ook controleren of u de juiste rekeningnummers hebt ingevoerd in de boekingsgroepinstellingen in de velden **Inkoopregelkortingsrekening** en **Inkoopfactuurkortingsrekening**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies de desbetreffende koppeling.
 2. Kies in het veld **Korting boeken** een van de volgende principes voor het boeken van kortingen.
 
 |**Korting boeken**|**Factuurkorting**|**Regelkorting**|  
@@ -120,6 +120,8 @@ De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorti
     - Is er een valutavereiste in de prijs-/kortingsafspraak waaraan wordt voldaan? Zo ja, dan worden de laagste prijs en de hoogste regelkorting voor deze valuta ingevoegd, zelfs als de lokale valuta een betere prijs geeft. Als er geen prijs-/kortingsafspraak voor de opgegeven valutacode is, worden in [!INCLUDE[d365fin](includes/d365fin_md.md)] de laagste prijs en de hoogste regelkorting in lokale valuta ingevoegd.
 
 Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesset-up-prices-discounts-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop instellen](purchasing-setup-purchasing.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808877"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953575"
 ---
 # <a name="administration"></a>Beheer
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
@@ -33,7 +33,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Definiëren wie zich mag aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] door gebruikers te maken in het Microsoft 365-beheercentrum volgens de productlicenties.|[Gebruikers maken volgens licenties](ui-how-users-permissions.md)| 
+|Definiëren wie zich mag aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] door gebruikers te maken in het Microsoft 365-beheercentrum volgens de productlicenties.|[Gebruikers maken volgens licenties](ui-how-users-permissions.md)|
 |Machtigingen toewijzen aan gebruikers, machtigingssets wijzigen en gebruikers groeperen voor eenvoudig machtigingsbeheer.|[Machtigingen toewijzen aan gebruikers en groepen](ui-how-users-permissions.md)|
 |Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen beheren](admin-users-profiles-roles.md)|
 |Gegevensgevoeligheden classificeren voor velden, zodat u kunt reageren op aanvragen van gegevensonderwerpen met betrekking tot hun persoonlijke gegevens.|[Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)|
@@ -47,6 +47,8 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Versleutel gegevens op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
 |Verbind Dynamics 365 Sales met [!INCLUDE[d365fin](includes/d365fin_md.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99be988a8e5cdea5392e9f105acade41f19e6da3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692908"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910724"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De Envestnet Yodlee Bank Feeds-service instellen
 U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **Betalingsreconciliatiedagboek** te vullen, zodat u betalingen kunt vereffenen en de bankrekening kunt reconciliëren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -127,7 +127,7 @@ Op de pagina **Betalingsreconciliatiedagboek** worden elk uur nieuwe betalingen 
 
 ## <a name="see-also"></a>Zie ook
 [Bankieren instellen](bank-setup-banking.md)  
-[Bankrekeningen beheren](bank-manage-bank-accounts.md)  
+[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

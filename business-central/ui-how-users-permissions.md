@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896169"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943245"
 ---
 # <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
 Hieronder wordt beschreven hoe u als beheerder gebruikers maakt en definieert die zich kunnen aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en welke fundamentele rechten verschillende gebruikerstypen hebben volgens de licenties.
@@ -83,6 +83,45 @@ Als u de gebruiker achteraf wijzigt in Office 365 en u moet de wijzigingen synch
 |Werk de gebruikersrecord bij op basis van actuele informatie in Office 365: Staat, Volledige naam, Contact-e-mail, Verificatie-e-mail.<br /><br />Codeunit "Azure AD   Graph-gebruiker".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Synchroniseer gebruikersplannen (licenties) met toegewezen licenties en rollen in Office 365.<br /><br />Codeunit "Azure AD   Graph-gebruiker".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Voeg de gebruiker toe aan gebruikersgroepen volgens de huidige gebruikersplannen. De machtigingenset SUPER intrekken. (Er is ten minste één SUPER nodig. Niet intrekken vanuit [beheerders](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Machtigingenbeheerder". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overschrijven: verwijder de gebruiker uit andere groepen. Verwijder handmatig toegewezen machtigingensets.|**X**<br /><br />Additief: houd het huidige lidmaatschap van de gebruikersgroep en toegewezen machtigingensets intact. Voeg gebruiker alleen indien nodig aan groepen toe.|
+
+## <a name="the-device-license"></a>De apparaatlicentie
+Met de Dynamics 365 Business Central-apparaatlicentie kunnen meerdere gebruikers een apparaat dat onder de apparaatlicentie valt, gebruiken om een verkooppuntapparaat, een apparaat op de werkvloer of een magazijnapparaat te bedienen. Zie [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing) voor meer informatie.
+
+De apparaatlicentie is geïmplementeerd als een gelijktijdig gebruikersmodel. Wanneer u een X aantal apparaatlicenties hebt gekocht, kunnen maximaal een X aantal gebruikers uit de aangewezen groep, Dynamics 365 Business Central-apparaatgebruikers*, zich gelijktijdig aanmelden.
+
+De Office 365-beheerder of Microsoft-partner van uw bedrijf moet de aangewezen apparaatgroep maken en apparaatgebruikers toevoegen als leden van die groep. Ze kunnen dit doen in het [Microsoft 365-beheercentrum](https://admin.microsoft.com/) of op de [Azure Portal](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Beperkingen apparaatgebruiker
+Gebruikers met de apparaatlicentie kunnen de volgende taken niet uitvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+
+-   Taken instellen om te worden uitgevoerd als geplande taken in de taakwachtrij. Apparaatgebruikers zijn gelijktijdige gebruikers en daarom kunnen we niet garanderen dat de betrokken gebruiker in het systeem aanwezig is wanneer een taak wordt uitgevoerd, wat vereist is.
+
+-   Een apparaatgebruiker kan zich niet als eerste gebruiker aanmelden. Een gebruiker van het type Beheerder, Volledige gebruiker of Externe accountant moet zich als eerste aanmelden om [!INCLUDE[d365fin](includes/d365fin_md.md)] te kunnen instellen. Zie [Beheerders](/dynamics365/business-central/dev-itpro/administration/tenant-administration) voor meer informatie.
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Een Dynamics 365 Business Central-apparaatgebruikersgroep maken
+1.  Ga in het Microsoft 365-beheercentrum naar de pagina **Groepen**.
+2.  Kies de actie **Een groep toevoegen**.
+3.  Kies op de pagina **Een groepstype kiezen** de actie **Beveiliging** en daarna de actie **Toevoegen**.
+4.  Typ op de pagina **Grondbeginselen** *Dynamics 365 Business Central-apparaatgebruikers* als de naam van de groep.
+
+    > [!Note]
+    > De naam van de groep moet precies zoals hierboven worden gespeld, ook in een niet-Engelse omgeving.
+5. Kies de knop **Sluiten**.
+
+> [!NOTE]
+> U kunt ook een groep maken van het type Office 365. Zie [Groepen vergelijken](https://docs.microsoft.com/office365/admin/create-groups/compare-groups) voor meer informatie
+
+### <a name="to-add-members-to-the-group"></a>Leden toevoegen aan de groep
+1.  Vernieuw in het Microsoft 365-beheercentrum de pagina **Groepen**, zodat uw nieuwe groep wordt weergegeven.
+2.  Selecteer de groep **Dynamics 365 Business Central-apparaatgebruikers** en kies de actie **Alles weergeven en leden beheren**.
+3.  Kies de actie **Leden toevoegen**.
+4.  Selecteer de gebruikers die u wilt toevoegen en kies de knop **Opslaan**.
+5.  Kies driemaal de knop **Sluiten**.
+
+U kunt zoveel gebruikers aan de groep Dynamics 365 Business Central-apparaatgebruikers toevoegen als u nodig hebt. Het aantal apparaten waarop gebruikers zich tegelijkertijd kunnen aanmelden, wordt bepaald door het aantal aangeschafte apparaatlicenties.
+
+> [!NOTE]
+> U hoeft geen [!INCLUDE[d365fin](includes/d365fin_md.md)]-licentie aan gebruikers toe te wijzen die lid zijn van de Dynamics 365 Business Central-apparaatgebruikersgroep.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Gebruikers en licenties beheren in On-premises implementaties
 Voor on-premises implementaties wordt een aantal gelicentieerde gebruikers opgegeven in het licentiebestand (.flf). Wanneer de beheerder of Microsoft-partner het licentiebestand uploadt, kan de beheerder opgeven welke gebruikers zich kunnen aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)].

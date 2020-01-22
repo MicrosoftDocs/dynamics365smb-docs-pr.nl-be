@@ -4,7 +4,16 @@
 ## [Nieuw](product-news.md)
 ## [Minimumbehoeften](product-requirements.md)
 ## [Veelgestelde vragen](across-faq.md)
-## [Bronnen voor Help en ondersteuning](product-help-and-support.md)
+## [Resources voor Help en Ondersteuning](product-help-and-support.md)
+## [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
+## [Overzicht van bedrijffunctionaliteit](across-business-functionality.md)
+## [Uw toegang tot de Intelligente cloud met Business Central](about-intelligent-cloud.md)
+## [Bezoek onze videobibliotheek](across-videos.md)
+## Proefversies en abonnementen
+### [Overzicht](across-preview.md)
+### [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)
+### [Uw proefversie uitbreiden](admin-extend-trial.md)
+### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
 ## Training zoeken
 ### [Trainingscatalogus](readiness/readiness-learning-catalog.md)
 ### [Trainingscatalogus voor zakelijke besluitvormers](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Trainingscatalogus van functionele consultant](readiness/readiness-learning-functional-consultants.md)
 ### [Trainingscatalogus Pre-sales](readiness/readiness-learning-presales.md)
 ### [Trainingscatalogus Verkoop](readiness/readiness-learning-sales.md)
-
-## [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
-## [Overzicht van bedrijffunctionaliteit](across-business-functionality.md)
-## [Proefversies en abonnementen](across-preview.md)
-### [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)
-### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
-## [Uw toegang tot de Intelligente cloud met Business Central](about-intelligent-cloud.md)
-## [Bezoek onze videobibliotheek](across-videos.md)
 ## Resellers en partners
 ### [Een reseller worden](product-sell.md)
 ### [Business Central uitbreiden](about-develop-extensions.md)
@@ -314,7 +315,7 @@
 #### [Betalingen innen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 #### [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Veldtoewijzing bij het exporteren van betalingsbestanden via conversieservice bankgegevens](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Veldtoewijzing voor de AMC Banking365 Fundamentals-uitbreiding](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Beheer
 ## [Overzicht](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Een Dynamics 365 Sales-verbinding instellen](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Central en Dynamics 365 Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)
-### [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Betalingen na automatische vereffening handmatig controleren of vereffenen](receivables-how-review-apply-payments-auto-application.md)
 #### [Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)
 ### [Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)
 ### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md)
 ### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
 ### [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-### [Klanten blokkeren](receivables-how-block-customers.md)
+### [Leveranciers blokkeren](payables-how-block-vendors.md)
 ### [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 ### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)
 ### [Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)
 
-## Bankrekeningen beheren
+## Bankrekeningen reconciliëren
 ### [Overzicht](bank-manage-bank-accounts.md)
+### [Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md)
 ### [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Bankrekeningen apart reconciliëren](bank-how-reconcile-bank-accounts-separately.md)  
-### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
 
 ## Intercompany-transacties beheren
 ### [Overzicht](intercompany-manage.md)
@@ -498,7 +499,8 @@
 ## [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)
 ## [Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md)
 ## [Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-## [Financiële overzichten analyseren in Excel](finance-analyze-excel.md)
+## [Financiële overzichten analyseren in Excel:](finance-analyze-excel.md)
+## [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
 ## [Accountantervaringen in Business Central](finance-accounting.md)
 
 # Bedrijfsinformatie
@@ -924,10 +926,29 @@
 
 ## Tsjechië
 ### [Overzicht](LocalFunctionality/Czech/czech-local-functionality.md)
+### Hoofdfinanciën  
+#### [Financiën](LocalFunctionality/Czech/finance.md)
+#### [Werkzaamheden jaarafsluiting](LocalFunctionality/Czech/year-close-operations.md)
+#### [Vereffening grootboekposten](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Wisselkoersen bijwerken](LocalFunctionality/Czech/exchange-rate-update.md)
 ### Btw
+#### [Financiën - Btw](LocalFunctionality/Czech/finance-vat.md)
 #### [Btw-controlerapport](LocalFunctionality/Czech/vat-control-report.md)
+### Vast activum
+#### [Vaste activa](LocalFunctionality/Czech/fixed-assets.md)
 ### Bankieren en betalingen
+#### [Bankfunctie](LocalFunctionality/Czech/bank-feature.md)
+#### [Kasbeheer](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registratie van verkoop (EET)](LocalFunctionality/Czech/eet.md)
+#### [Geavanceerd](LocalFunctionality/Czech/advances.md)
+### Schulden en tegoeden
+#### [Schulden en tegoeden](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Voorraad
+#### [Voorraad](LocalFunctionality/Czech/inventory.md)
+### Alge&meen
+#### [Uitgebreide gebruikerscontrole](LocalFunctionality/Czech/general.md)
+#### [Aanbevolen procedures](LocalFunctionality/Czech/best-practices.md)
 
 ## Denemarken
 ### [Overzicht](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Mexico
 ### [Overzicht](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Btw
+#### [DIOT-rapporten instellen en genereren](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Sales tax van Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Gebruiks- en inkoopbelasting instellen](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Niet-gerealiseerde Sales Tax en verkoopcontantkortingen instellen](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [De extensie GetAddress.io UK Postcodes instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Externe documentnummers invoeren](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Directe verkoop- en inkoopdetailrapporten afdrukken](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## Verenigde Staten
 ### [Overzicht](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

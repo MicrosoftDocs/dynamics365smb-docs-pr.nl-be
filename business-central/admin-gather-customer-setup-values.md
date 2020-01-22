@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fc9ffe9205e8f075f1b133686c2b869495bf42a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304648"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910868"
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
 U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.  
@@ -29,6 +29,11 @@ Als uw klant de vragenlijst invult, importeert u het bestand in het nieuwe [!INC
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Een configuratievragenlijst maken
 U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configuratie te bepalen. U kunt een nieuwe vragenlijst maken of een bestaande vragenlijst wijzigen door het nieuwe vragen of vraaggebieden toe te voegen.  
+
+<!-- A configuration questionnaire has the following structure
+* The name of the questionnaire itself
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  U kunt enkel vragenlijsten maken voor tabellen van het type instellen. U kunt bijvoorbeeld het hulpprogramma gebruiken om de volgende pagina's van informatie te voorzien:  
 
@@ -45,10 +50,33 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 -   Magazijninstellingen  
 
 > [!NOTE]  
->  Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Instellingen** in en kiest u vervolgens de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
+>  Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Instelling** in en kiest u de desbetreffende koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**. De pagina **Vragenlijst voor configuratie** wordt geopend.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies de desbetreffende koppeling.  
+2. Kies de actie **Nieuw**.   
+3. Voer op de pagina **Vragenlijst voor configuratie** in het veld **Code** het volgende in... 
+<!--4. In the **Name** field, enter...
+5. Choose the **Question Areas** action. .
+6. On the **Config. Question Areas** page, in the **Code** field, enter...
+  
+    > [!Note]  
+    > The code is alphanumeric, and must start with a letter of the alphabet.
+7. In the Table ID field, choose the table to which to apply the answer to the question. Your selection will determine the fields that are available for the questions, and thereby the answer selections.
+  
+    > [!Tip]
+    > The list of table objects is long. If you know the name of the table, use **Search** in the upper left to find it in the list.
+8. In the **Description** field, enter text that indicates the subject of the question group.
+9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
+10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
+  
+    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+11. To add more questions to the questionnaire, repeat steps seven through 10.
+
+> [!Tip]
+> If at some point you change a question, or add a new one, choose the **Update Questions** action to update the list.
+
+-->
+
 3. Kies de actie **Vraaggebieden**. De pagina **Vragengebieden** wordt geopend.  
 4. Kies de actie **Nieuw**. De pagina **Vragengebied voor configuratie** wordt geopend.  
 5. Kies in het veld **Tabel-id** de ID van de tabel waarvoor u informatie wilt verzamelen. Het veld **Tabelnaam** wordt automatisch ingevuld.  
@@ -70,7 +98,7 @@ U gebruikt de configuratievragenlijst om een uitvoerige discussie te structurere
 >  U kunt ook uw eigen configuratievragenlijst maken die aan uw behoeften voldoet.  
 
 1. Open het bedrijf waarvoor u de vragenlijst wilt voltooien.
-2. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies de desbetreffende koppeling.  
 3. Selecteer de vragenlijst voor het bedrijf en kies de actie **Naar Excel exporteren**, optioneel de actie **Naar XML exporteren**.
 4. Laat de klant de configuratievragenlijst invullen door de antwoorden in te voeren in de Excel-werkmap. Er zijn werkbladen voor elk vraaggebied dat is gemaakt voor de vragenlijst.   
 5. Sla de Excel-werkmap op als *XML-gegevens*. Kies de actie **Vanuit XML importeren** en selecteer het .xml-bestand met de antwoorden van de klant.
@@ -103,7 +131,7 @@ Wanneer u de validatie hebt voltooid, zijn de gegevens gereed om te worden toege
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Antwoorden uit de configuratievragenlijst toepassen
 Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalideerd, kunt u de installatiegegevens overbrengen naar of toepassen op de bijbehorende tabellen in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies de desbetreffende koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
 2. Selecteer een configuratievragenlijst in de lijst en kies vervolgens de actie **Lijst bewerken**.  
 3. U kunt antwoorden op twee manieren toepassen.  
 
@@ -111,7 +139,7 @@ Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalid
 - Als u antwoorden alleen voor een specifiek **Vragengebied** wilt toepassen, kiest u de actie **Vraaggebieden**, selecteert u een **Vragengebied** in de lijst en kiest u de actie **Antwoorden toepassen**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Controleren dat antwoorden met succes zijn toegepast  
-1. Controleer de installatiepagina's op de verschillende functionele gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de pagina zoekt, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de instellingspagina in en kiest u de gerelateerde koppeling.  
+1. Controleer de installatiepagina's op de verschillende functionele gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de pagina wilt vinden, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de instellingenpagina in en kiest u de desbetreffende koppeling.  
 2. Controleer of de velden zijn gevuld met de juiste gegevens uit de verschillende vragengebieden in de configuratievragenlijst.  
 
 De installatie is nu geconfigureerd met de zakelijke gegevens en regels van de klant.

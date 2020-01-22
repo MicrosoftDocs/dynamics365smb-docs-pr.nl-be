@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/13/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809388"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953215"
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
@@ -57,6 +57,8 @@ De algemene ontwerpconcepten voor Word- en RDLC-lay-outs lijken erg op elkaar. E
 Het proces voor het instellen van Word-rapportlay-outs en RDLC-rapportlay-outs in rapporten is hetzelfde. Het belangrijkste verschil is de manier waarop u de lay-outs wijzigt. Word-rapportlay-outs zijn in het algemeen gemakkelijker te maken en te wijzigen dan RDLC-rapportlay-outs, omdat u Word kunt gebruiken. RDLC-rapportlay-outs worden gewijzigd met SQL Server Report Builder, dat voor geavanceerdere gebruikers is bedoeld.
 
 Zie [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md) voor informatie over het wijzigen van de te gebruiken indeling.
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)  

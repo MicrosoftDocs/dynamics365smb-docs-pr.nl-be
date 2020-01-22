@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808589"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911153"
 ---
 # <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
@@ -41,7 +41,7 @@ Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de int
 ## <a name="see-also"></a>Zie ook
 [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Bankrekeningen beheren](bank-manage-bank-accounts.md)   
+[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)   
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  
 [Werken met [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

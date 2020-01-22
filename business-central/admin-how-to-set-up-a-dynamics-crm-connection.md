@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879295"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910748"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Een Dynamics 365 Sales-verbinding instellen
-Voor integratie met [!INCLUDE[crm_md](includes/crm_md.md)] moet u een verbinding instellen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
+In dit onderwerp wordt beschreven hoe u een verbinding tot stand brengt tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Voordat u begint
-Voordat u de apps begint te verbinden, zijn er enkele stuks van informatie die nuttig zijn om gereed te hebben:  
+Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:  
 
-* Een URL voor uw [!INCLUDE[crm_md](includes/crm_md.md)]-app. Een snelle manier om de URL te krijgen is [!INCLUDE[crm_md](includes/crm_md.md)] te openen, de URL te kopiëren en deze vervolgens te plakken in het veld **Dynamics 365 Sales-URL** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigeert de opmaak voor u.  
+* Een URL voor uw [!INCLUDE[crm_md](includes/crm_md.md)]-app. Een snelle manier om de URL te krijgen is [!INCLUDE[crm_md](includes/crm_md.md)] te openen, de URL te kopiëren en deze te plakken in het veld **Dynamics 365 Sales-URL** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigeert de opmaak voor u.  
 * Een gebruikersnaam en wachtwoord van een gebruikersaccount dat alleen voor de integratie wordt gebruikt.  
 * De gebruikersnaam en het wachtwoord van het account dat beheerdersmachtigingen heeft.  
 

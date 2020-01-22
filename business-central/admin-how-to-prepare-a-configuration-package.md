@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879262"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910624"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 Wanneer u een nieuw bedrijf configureert, worden de tabelrelaties herkend en verwerkt. Gegevens worden in de juiste volgorde geïmporteerd en toegepast. Dimensietabellen worden eveneens geïmporteerd als ze zijn opgenomen in het configuratiepakket. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie. 
 
 Als u uw klant wilt helpen bij het gebruiken van het configuratiepakket, wilt u wellicht een vragenlijst of een reeks vragenlijsten aan het pakket toevoegen. De vragenlijst kan de klant helpen inzicht te krijgen in de verschillende instellingsopties. Meestal worden vragenlijsten gemaakt voor de belangrijkste instellingentabellen, wanneer een klant mogelijk aanvullende richtlijnen over het selecteren van een juiste instelling nodig heeft. Zie voor meer informatie [Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md).
 
-Zorg ervoor dat u zich in het rolcentrum RapidStart Services-implementatie bevindt. Zie voor meer informatie [Het rolcentrum RapidStart Services-implementatie gebruiken](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Voordat u een configuratiepakket maakt
+Er zijn enkele dingen waaraan u moet denken voordat u een configuratiepakket maakt, omdat ze van invloed zijn op de mogelijkheid om het te importeren. 
 
-> [!IMPORTANT]  
->  Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
->   
->  U kunt een configuratiepakket importeren dat is geëxporteerd uit een database met een ander schema dan de doeldatabase. Tabellen of velden in het configuratiepakket die niet voorkomen de doeldatabase, worden echter niet geïmporteerd. Tabellen met verschillende primaire sleutels en velden met verschillende gegevenssoorten worden niet succesvol geïmporteerd. Als in het configuratiepakket bijvoorbeeld tabel **50000, Klant** staat met de primaire sleutel **Code20** en in het configuratiepakket van de database die u wilt importeren, tabel **50000, Bankrekening klant** staat met de primaire sleutel **Code20 + Code 20**, worden de gegevens niet geïmporteerd.  
+### <a name="tables-that-contain-posted-entries"></a>Tabellen met geboekte posten
+U kunt geen gegevens importeren in tabellen met geboekte posten, zoals de tabellen voor klant-, leverancier- en artikelposten, dus deze gegevens moet u niet opnemen in uw configuratiepakket. U kunt posten aan deze tabellen toevoegen nadat u het configuratiepakket hebt geïmporteerd met behulp van journaals om de posten te boeken. Zie [Boekingsdocumenten en journalen](ui-post-documents-journals.md) voor meer informatie.
+
+### <a name="licensing"></a>Licenties
+Uw licentie moet de tabellen bevatten die u bijwerkt. Als u dit niet zeker weet, kan de pagina **Configuratiewerkblad** u wellicht helpen. Als uw licentie de tabel bevat, schakelt u het selectievakje **Tabel met licentie** in.  
+
+### <a name="permissions"></a>Machtigingen
+Het proces van het maken en importeren van een configuratiepakket omvat de volgende effectieve machtigingen voor alle tabellen in het pakket: 
+
+* De gebruiker die gegevens voor het configuratiepakket exporteert, moet beschikken over effectieve machtigingen voor **Lezen**.
+* De gebruiker die gegevens voor het configuratiepakket importeert, moet beschikken over effectieve machtigingen voor **Invoegen** en **Wijzigen**.
+
+### <a name="database-schema"></a>Databaseschema
+Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
+
+U kunt een configuratiepakket importeren dat is geëxporteerd uit een database met een ander schema dan de doeldatabase. Tabellen of velden in het configuratiepakket die niet voorkomen de doeldatabase, worden echter niet geïmporteerd. Tabellen met verschillende primaire sleutels en velden met verschillende gegevenssoorten worden niet succesvol geïmporteerd. Als in het configuratiepakket bijvoorbeeld tabel **50000, Klant** staat met de primaire sleutel **Code20** en in het configuratiepakket van de database die u wilt importeren, tabel **50000, Bankrekening klant** staat met de primaire sleutel **Code20 + Code 20**, worden de gegevens niet geïmporteerd.  
 
 ## <a name="to-create-a-configuration-package"></a>Een configuratiepakket maken  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  

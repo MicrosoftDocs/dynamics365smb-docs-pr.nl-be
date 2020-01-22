@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304035"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910432"
 ---
 # <a name="transfer-bank-funds"></a>Bankfondsen overboeken
-Soms moet u een transfer van een bedrag van de ene naar de andere bankrekening boeken. Als u dit wilt doen, moet u een transactie boeken in het dagboek. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
+Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u dit wilt doen, moet u een transactie boeken op de pagina **Dagboek**. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Een transfer boeken tussen bankrekeningen met dezelfde valutacode
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Fin. dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.
 2. Vul op een dagboekregel de velden **Boekingsdatum** en **Documentnr.** in.
 3. Selecteer in het veld **Rekeningsoort** de optie **Bankrekening**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
@@ -36,7 +36,7 @@ Soms moet u een transfer van een bedrag van de ene naar de andere bankrekening b
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Transfers boeken tussen bankrekeningen met verschillende valutacodes
 Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's gebruiken, moet u twee dagboekregels boeken.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Fin. dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.
 2. Maak twee dagboekregels en vul de velden **Boekingsdatum** en **Documentnr.** in.
 3. Selecteer op de eerste dagboekregel **Bankrekening** in het veld **Soort**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
@@ -54,7 +54,7 @@ Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's g
 13. Boek het dagboek.
 
 ## <a name="see-also"></a>Zie ook
-[Bankrekeningen beheren](bank-manage-bank-accounts.md)  
+[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

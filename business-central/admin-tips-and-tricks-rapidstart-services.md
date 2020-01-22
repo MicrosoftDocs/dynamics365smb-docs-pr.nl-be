@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878998"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918178"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tips en trucs: RapidStart Services
 Wanneer u bedrijven configureert met RapidStart Services, zijn er enkele tips en trucs die u kunt gebruiken om uw implementatie vlot te laten verlopen.  
@@ -30,10 +30,10 @@ Om het invullen van een configuratievragenlijst sneller te laten verlopen, kunt 
 Het is raadzaam dat u de hulpprogramma's voor gegevensmigratie gebruikt voor het migreren van dagboekposten. Als u een batchtaak gebruikt om dagboekregels te maken, heeft deze een beperkt bereik en maakt deze enkel pre-standaardvelden in een dagboek. De rest van het dagboek moet vervolgens handmatig worden voltooid.  
 
 ## <a name="migrating-transactions"></a>Transacties migreren  
-Het is raadzaam om beginsaldi in de volgende volgorde te migreren.  
+Het is raadzaam om beginsaldi in de volgende volgorde te migreren. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Migreer beginsaldi uit het grootboek zonder de subgrootboeken van de grootboekrekening te gebruiken. Gebruik specifieke uitstellende rekeningen voor beginsaldi, waarbij voor elk subgrootboek een rekening is ingesteld. Stel de uitstellende rekeningen in zodat ze directe boekingen toestaan.  
-2.  Migreer open klantenposten.  
+2.  Migreer open klantenposten.  <!--work on these-->
 3.  Migreer open artikelposten.  
 4.  Migreer open vaste-activumposten.  
 

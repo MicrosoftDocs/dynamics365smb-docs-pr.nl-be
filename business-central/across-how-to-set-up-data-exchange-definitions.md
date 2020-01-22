@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305272"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952951"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
@@ -111,6 +111,9 @@ Dit wordt in de volgende procedures beschreven.
 >  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> Soms verschillen de waarden in de velden die u wilt toewijzen. In de ene zakelijke app is de taalcode voor de Verenigde Staten bijvoorbeeld 'V.S.', maar in de andere 'VS'. Dat betekent dat u de waarde moet transformeren wanneer u gegevens uitwisselt. Dit gebeurt door middel van transformatieregels die u voor de velden definieert. Zie [Transformatieregels](across-how-to-set-up-data-exchange-definitions.md#transformation-rules) voor meer informatie.
+
 1. Selecteer op het sneltabblad **Regeldefinities** de regel waarvoor u kolommen aan velden wilt toewijzen en kies vervolgens **Veldtoewijzing**. De pagina **Toewijzing gegevensuitwisseling** wordt geopend.  
 2. Geef op het sneltabblad **Algemeen** de toewijzingsinstelling op door de velden in te vullen zoals beschreven in de volgende tabel.  
 
@@ -138,9 +141,44 @@ Dit wordt in de volgende procedures beschreven.
 
 De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md), [Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md) en [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
 
-Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek gegevensbestand, kunt u de definitie van gegevensuitwisseling exporteren als XML-bestand dat kan worden gebruikt om de import van het gegevensbestand in kwestie snel in te schakelen. Dit wordt in de volgende procedure beschreven.  
+### <a name="transformation-rules"></a>Transformatieregels
+Als de waarden in de velden die u toewijst, verschillen, moet u transformatieregels gebruiken voor definities van gegevensuitwisseling om ze hetzelfde te maken. U definieert transformatieregels voor gegevensuitwisselingsdefinities door een bestaande definitie te openen of een nieuwe definitie te maken en vervolgens op het sneltabblad **Regeldefinities** de optie **Beheren** en **Veldtoewijzing** te kiezen. Er zijn vooraf gedefinieerde regels beschikbaar, maar u kunt ook uw eigen regels maken. De volgende tabel beschrijft de soorten transformaties die u kunt uitvoeren.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>De definitie van een gegevensuitwisseling exporteren als een XML-bestand voor gebruik door anderen  
+|Optie|Omschrijving|
+|---------|---------|
+|**Hoofdletters**|Alle letters zijn hoofdletters.|
+|**Kleine letters**|Alle letters zijn kleine letters.|
+|**Beginhoofdletters**|Elk woord heeft een beginhoofdletter.|
+|**Afkappen**|Verwijder spaties voor en na de waarde.|
+|**Subtekenreeks**|Transformeer een specifiek gedeelte van een waarde. Als u wilt aangeven waar de transformatie moet starten, kiest u een **Beginpositie** of **Begintekst**. De beginpositie is een nummer dat staat voor het eerste te transformeren teken. De begintekst is de letter direct vóór de te vervangen letter. Als u met de eerste letter in de waarde wilt beginnen, gebruikt u in plaats daarvan een beginpositie. Als u wilt opgeven waar u de transformatie wilt stoppen, kiest u **Lengte** (het aantal tekens dat moet worden vervangen) of **Eindtekst** (het teken direct na het laatste te transformeren teken).|
+|**Vervangen**|Zoek een waarde en vervang deze door een andere. Dit is handig wanneer u eenvoudige waarden vervangt, zoals een bepaald woord.|
+|**Reguliere expressie - Vervangen**|Gebruik een reguliere expressie als onderdeel van een opdracht voor zoeken en vervangen. Dit is handig wanneer u meerdere of meer complexe waarden wilt vervangen.|
+|**Niet-alfanumerieke tekens verwijderen**|Verwijder tekens die geen letters of cijfers zijn, zoals symbolen of speciale tekens.|
+|**Datumindeling**|Geef op hoe datums moeten worden weergegeven. U kunt bijvoorbeeld DD-MM-JJJJ transformeren naar JJJJ-MM-DD.|
+|**Decimale notatie**|Definieer regels voor de plaatsing van decimalen en afrondingsprecisie.|
+|**Reguliere expressie - Afstemmen**|Gebruik een reguliere expressie om een of meer waarden te vinden. Dit is vergelijkbaar met de opties **Subtekenreeks** en **Reguliere expressie - Vervangen**.|
+|**Aangepast**|Dit is een geavanceerde optie waarvoor u de hulp van een ontwikkelaar moet inroepen. Het maakt een integratie-gebeurtenis mogelijk waarop u zich kunt abonneren als u uw eigen transformatiecode wilt gebruiken. Zie het [voorbeeld ](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) hieronder als u een ontwikkelaar bent en deze optie wilt gebruiken.|
+|**Datum- en tijdindeling**|Definieer hoe de huidige datum en het tijdstip van de dag worden weergegeven.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Tip voor ontwikkelaars: voorbeeld van de aangepaste optie
+Het volgende voorbeeld laat zien hoe u uw eigen transformatiecode implementeert.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Nadat u uw regels hebt gedefinieerd, kunt u ze testen. In de sectie **Test** voert u een voorbeeld in van een waarde die u wilt transformeren en controleert u vervolgens de resultaten.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>De definitie van een gegevensuitwisseling exporteren als een XML-bestand voor gebruik door anderen
+Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek gegevensbestand, kunt u de definitie van gegevensuitwisseling exporteren als XML-bestand dat u kunt importeren. Dit wordt in de volgende procedure beschreven.  
+
 1. Voer in het tekstvak **Zoeken** de tekst **Gegevensuitwisselingsdefinities** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de definitie van de gegevensuitwisseling die u wilt exporteren.  
 3. Kies de actie **Definitie van gegevensuitwisseling exporteren**.  

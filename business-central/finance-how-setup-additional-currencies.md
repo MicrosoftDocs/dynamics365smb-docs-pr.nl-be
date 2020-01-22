@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2f7376909b2627c61456c9d7a8e9c1a81d20427
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306184"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953743"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen.
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
@@ -48,7 +48,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Grootboekrekeningen opgeven voor het boeken van wisselkoerscorrecties  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies de desbetreffende koppeling.  
 2. Vul op de pagina **Valuta's** de volgende velden in voor de extra rapportagevaluta.  
 
 |Veld|Description|  
@@ -64,7 +64,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekening worden gecorrigeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
 2. Selecteer op de pagina **Rekeningschema** de relevante rekening en kies de actie **Bewerken**.  
 3. Selecteer op de pagina **Grootboekrekening** de relevante methode in het veld **Wisselkoersherwaardering**.  
 
@@ -81,7 +81,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 4.  Sluit de pagina **Grootboekrekening**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
 2. Selecteer op de pagina **Boekhoudinstellingen** de relevante methode in het veld **Btw-herwaardering**.  
 3. Als u in een extra valuta boekt, kunt u in het veld **Btw-herwaardering** aangeven hoe de rekeningen die zijn ingesteld voor btw-boekingen op de pagina **Btw-boekingsinstellingen** worden geherwaardeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
@@ -96,7 +96,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
     |**Bedrag (Rapp.-val.)**|De extra rapportagevaluta is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>De extra rapportagevaluta activeren  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Boekhoudinstellingen** het veld **Extra rapportagevaluta** om de extra valuta te selecteren die u voor de rapportage wilt gebruiken.  
 3. Wanneer u het veld verlaat, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] een bevestigingsbericht weer waarin de effecten worden beschreven die het activeren van de rapportagevaluta tot gevolg heeft.  
 4. Kies de knop **Ja** om te bevestigen dat u de valuta wilt activeren.  
@@ -120,6 +120,8 @@ Bovendien hebben alle toekomstige posten van hetzelfde type bedragen in zowel de
 
 > [!NOTE]  
 >  Het veld **Rapportagevaluta** wordt pas geactiveerd nadat u op de knop **OK** in de batchverwerking **Rapp.-val. herwaarderen** hebt geklikt.  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  

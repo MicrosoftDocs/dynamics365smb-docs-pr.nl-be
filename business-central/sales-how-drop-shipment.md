@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01799b1881fbcdc6285e84f86f9db88a8c4196a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312232"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943197"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 Een doorverzending is de directe verzending van artikelen van een van uw leveranciers naar een van uw klanten.
 
 Wanneer een verkooporder gemarkeerd is voor doorverzending en u een inkooporder maakt met de klant in het veld **Verzenden naar**, **Klantadres**, kunt u de twee documenten koppelen en zo de leverancier instrueren om rechtstreeks naar de klant te verzenden.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Een verkooporder voor doorverzending maken
 Ter voorbereiding op een doorverzending maakt u een verkooporder voor een artikel zoals u dat normaal doet, maar u moet wel op de verkoopregel aangeven dat voor de verkoop doorverzending vereist is.
@@ -50,7 +53,7 @@ U kunt de leverancier nu opdragen om de artikelen naar de klant te verzenden, bi
 ## <a name="to-post-a-drop-shipment"></a>Een doorverzending boeken
 Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken als verzonden. U kunt de inkooporder ook boeken, maar alleen met de optie **Ontvangen**, totdat de verkooporder is gefactureerd.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Open de verkooporder die u hebt gemaakt in [Een verkooporder voor een doorverzending maken]().
 3. Geef in het veld **Te verzenden aantal** op hoeveel van de orderhoeveelheid moet worden verzonden, de volledige of gedeeltelijke orderhoeveelheid.
 4. Kies de actie **Boeken** of **Boeken en verzenden**.

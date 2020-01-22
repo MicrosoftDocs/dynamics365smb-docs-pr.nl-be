@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9aec5c57c66ce39bc9d314dc257e2a801ed961ea
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307552"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952758"
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
 XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
@@ -66,7 +66,7 @@ Als u de taxonomie hebt geïmporteerd of bijgewerkt, moeten de schemaregels van 
 
 U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan de gegevens in uw grootboek.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
 2.  Selecteer op de pagina **XBRL-taxonomieën** een taxonomie uit de lijst.  
 3.  Kies de actie **Regels**.  
 4.  Selecteer een regel en vul de velden in.   
@@ -83,7 +83,7 @@ U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan
  ## <a name="to-import-an-xbrl-taxonomy"></a>Een XBRL-taxonomie importeren  
 De eerste stap bij het werken met de XBRL-functie is het importeren van een taxonomie in de database van uw bedrijf. Een taxonomie bestaat uit een of meer schema's en een aantal linkbases. Nadat u de schema's en linkbases hebt geïmporteerd en de linkbases op het schema hebt toegepast, kunt u de regels instellen en de grootboekrekeningen in het rekeningstelsel koppelen aan de juiste taxonomieregels.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
 2.  Maak op de pagina **XBRL-taxonomieën** een nieuwe regel en voer de naam en de omschrijving van de taxonomie in.  
 3.  Kies de actie **Schema's** en voeg de omschrijving van het schema in.  
 4.  Om het schema te importeren, kiest u op de pagina **XBRL-schema's** de actie **Importeren** en selecteert u een map en een XSD-bestand. Kies de knop **Openen**.  
@@ -97,13 +97,15 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 ## <a name="to-update-an-xbrl-taxonomy"></a>Een XBRL-taxonomie bijwerken  
 Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerken. De reden voor de update kan een gewijzigd schema, een gewijzigde linkbase of een nieuwe linkbase zijn. Nadat u de taxonomie hebt bijgewerkt, moet u alleen nog de regels koppelen voor de gewijzigde of nieuwe regels.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **XBRL-taxonomieën** de actie **Schema's**.  
 3.  Werk een schema bij door het schema te selecteren dat u wilt bijwerken en kies de actie **Importeren**.  
 4.  Kies de actie **Linkbases** voor het bijwerken of toevoegen van een nieuwe linkbase.  
 5.  Selecteer de betreffende linkbase of druk op Ctrl+N voor een nieuwe regel, selecteer het soort linkbase en voer een omschrijving in.  
 6.  U importeert de linkbase door de actie **Importeren** te kiezen.  
 7.  Kies de knop **Ja** om de linkbase op het schema toe te passen.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)    

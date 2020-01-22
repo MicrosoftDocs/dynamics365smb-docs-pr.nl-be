@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 11/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695059"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953959"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -62,6 +62,8 @@ De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantna
 
 ## <a name="questions"></a>Vragen?
 We hebben Vertel me aan een reeks belanghebbenden laten zien, vragen die ze gemeen hadden, genoteerd en van onze aantekeningen een lijst met veelgestelde vragen gemaakt. Als u geïnteresseerd bent, gaat u naar [Veelgestelde vragen over Vertel me](ui-search-faq.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Werken met Business Central](ui-work-product.md)  

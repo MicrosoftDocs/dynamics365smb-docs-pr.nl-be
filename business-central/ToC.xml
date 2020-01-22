@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="Procedure: vooruitbetalingsfacturen maken" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="Procedure: Vooruitbetalingen storneren" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Bankrekeningen beheren" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Bankrekeningen reconciliëren" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Betalingen automatisch vereffenen en bankrekeningen reconciliëren" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="Procedure: Bankrekeningen apart reconciliëren" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Procedure: Reconciliatie uitvoeren voor bankrekeningen" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="Procedure: Bankfondsen overboeken" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Intercompany-transacties beheren" Page="intercompany-manage.html">

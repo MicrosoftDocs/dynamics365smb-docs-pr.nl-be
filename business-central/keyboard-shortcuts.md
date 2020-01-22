@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774855"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911141"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van ve
 |Esc|De huidige pagina of vervolgkeuzelijst sluiten.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
+|J en N|Activeer de knoppen **Ja** en **Nee** in dialoogvensters. Dit is taalafhankelijk. Druk bijvoorbeeld op J in Duitsland om een **Ja**-knop te activeren.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
@@ -141,6 +142,7 @@ De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en d
 |Alt+N |Een pagina openen om een nieuwe record te maken; dezelfde manier als de actie **Nieuw** kiezen. |
 |Alt+Shift+N |Een pagina sluiten en een nieuwe openen om een nieuwe record te maken; dezelfde manier als de actie **OK & nieuw** selecteren. |
 |Alt+Shift+W |De huidige kaart of het huidige document openen in een nieuw venster. Zie voor meer informatie [Multitasking over meerdere pagina's](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Sla de pagina op en sluit deze.|
 |Ctrl + pijl-omlaag|De volgende record voor een entiteit openen.|
 |Ctrl + pijl-omhoog |De vorige record voor een entiteit openen.|
 |Ctrl+Insert |Een nieuwe regel in documenten invoegen.|
@@ -172,8 +174,8 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Ctrl + pijl-omhoog<br />(Cmd+Pijl omhoog)|Naar de vorige week, dezelfde dag van de week gaan.|
 |Ctrl + pijl-omlaag<br />(Cmd+Pijl omlaag)|Naar de volgende week, dezelfde dag van de week gaan.|
 |Enter|De datum met de focus selecteren.|
-|Ctrl+End<br />(Cmd+End)|De agenda sluiten en de huidige datum verwijderen.|
-|Esc|De agenda sluiten zonder een selectie; huidige datum behouden.|
+|Ctrl+End<br />(Cmd+End)|Sluit de agenda en verwijder de huidige datum.|
+|Esc|Sluit de agenda zonder een selectie; behoud de huidige datum.|
 |Page Down|Naar de volgende maand gaan.|
 |Page up|Naar de vorige maand gaan.|  
 

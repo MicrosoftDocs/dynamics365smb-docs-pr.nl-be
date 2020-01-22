@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878949"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953887"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
@@ -45,6 +45,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een geboekte assemblyorder ongedaan maken, bijvoorbeeld omdat de order met fouten is geboekt die moeten worden gecorrigeerd.|[Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)|
 |Informatie weergeven over het verschil tussen de assemblagestuklijsten en productiestuklijsten en de bijbehorende verwerkingsverschillen.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|
 |Meer informatie weergeven over hoe assemblageverbruik en -output worden verwerkt wanneer u assemblageorders boekt en over hoe het afgeleide artikel- en resourcekosten worden verwerkt en naar het grootboek worden gedistribueerd.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  

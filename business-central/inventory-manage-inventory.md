@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1cbcc28483179929f64f182bdad3f5fab36603f7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79a640a01dbd0c1ca82b5190e690a4ff71a136a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309544"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952710"
 ---
 # <a name="inventory"></a>Voorraad
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
@@ -27,6 +27,8 @@ Om het overzicht van artikelen te verhogen en deze te zoeken, kunt u artikelen c
 
 > [!NOTE]
 > Naar de fysieke verwerking van artikelen wordt verwezen als magazijnactiviteiten. Zie voor meer informatie [Magazijnbeheer](warehouse-manage-warehouse.md).
+
+Planning voor artikelen om aan de vraag te voldoen, wordt behandeld als onderdeel van de functionaliteit voor vraagplanning. Zie [Planning](production-planning.md) voor meer informatie.  
 
 ## <a name="inventory-reconciliation"></a>Voorraadreconciliatie
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek. Zie voor meer informatie [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
@@ -51,6 +53,8 @@ Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de k
 |Bepalen waar elk serie- of lotnummer is gebruikt in de voorraadketen, bijvoorbeeld in situaties waarin producten moeten worden teruggeroepen.|[Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)|
 |Het invoeren van artikelen op verkoop- of inkoopregels of het boeken van artikelen in transacties voorkomen.|[Artikelen blokkeren](inventory-how-block-items.md)|
 |De bedrijfsvoering in verkoop- of inkoopafdelingen of planningskantoren voor een fabriek voor meerdere vestigingen beheren.|[Werken met divisies](inventory-responsibility-centers.md)|
+
+
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

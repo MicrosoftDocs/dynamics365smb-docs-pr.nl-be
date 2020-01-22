@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810825"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910844"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de velden op de pagina SMTP-mailinstellingen invullen.
@@ -30,7 +30,7 @@ U kunt uw e-mail handmatig instellen, zoals hieronder beschreven, of u kunt hulp
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Als u een account gebruikt waarvoor tweefactorauthenticatie is vereist, moet het wachtwoord dat u invoert in het veld **Wachtwoord**, hetzelfde zijn als het wachtwoord dat u gebruikt voor uw Office 365-abonnement en moet het van het type **App-wachtwoord** zijn. Zie voor meer informatie [App-wachtwoorden beheren voor tweestapsverificatie](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Als u een account gebruikt waarvoor tweefactorauthenticatie is vereist, moet het wachtwoord dat u invoert in het veld **Wachtwoord**, hetzelfde zijn als het wachtwoord dat u gebruikt voor uw Office 365-abonnement en moet het van het type **App-wachtwoord** zijn. Zie voor meer informatie [App-wachtwoorden beheren voor tweestapsverificatie](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Of u kiest de actie **Office 365 Server-instellingen toepassen** om alle informatie in te voegen die al voor uw Office 365-abonnement is gedefinieerd.
 4. Als alle velden correct zijn ingevuld, kiest u de actie **Instelling e-mail testen**.
 5. Als de test is geslaagd, sluit u de pagina.
@@ -51,7 +51,7 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 2. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 3. Voer in het veld **Verzenden als** het vervangende adres in.
 4. Kopieer of noteer het adres in het veld **Gebruikersnaam**.
-5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie [Machtigingen beheren voor ontvangers](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
+5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie voor [De EAC gebruiken om machtigingen toe te wijzen aan afzonderlijke mailboxen](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Het vervangende adres gebruiken in goedkeuringswerkstromen
 1. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.

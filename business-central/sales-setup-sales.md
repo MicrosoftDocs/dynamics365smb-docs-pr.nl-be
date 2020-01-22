@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 701556c09944c5dcce74543b550c9036c5cc77dd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311944"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953407"
 ---
 # <a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
@@ -39,6 +39,8 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Verifieer het btw-nummer van een klant door middel van een EU-webservice.|[Btw-nummers controleren](finance-setup-vat.md)|
 |Definieer de verschillende incoterms die u aan klanten aanbiedt of die uw leveranciers u aanbieden.|[Verzendmethoden instellen](sales-how-set-up-shipment-methods.md)|
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

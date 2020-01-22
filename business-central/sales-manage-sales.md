@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64b0f8f551ac505e2e289bc1abea719947cc058a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d5c47a7dbd4339eff85bd6fe70078f5e56009aa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316320"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954117"
 ---
 # <a name="sales"></a>Verkoop
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
@@ -54,6 +54,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Informeer klanten over orderleverdatums door berekening van ofwel de datum waarop het artikel beschikbaar is voor toezegging (ATP) of de datum waarop het artikel kan worden toegezegd (CTP).|[Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)|
 |Registreer uw schattingen voor toekomstige verkopen, gespecificeerd per artikel en periode, om voornamelijk te fungeren als invoer voor productieplanning.|[Een prognose maken](production-how-to-create-a-forecast.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde klant.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathssell-items-services-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  

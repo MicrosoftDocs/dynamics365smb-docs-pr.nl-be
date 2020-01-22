@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879477"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911083"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
 Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
@@ -39,7 +39,7 @@ Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen t
 
 ## <a name="see-also"></a>Zie ook
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
-[Bankrekeningen beheren](bank-manage-bank-accounts.md)  
+[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md).  
 [Werken met rekeningschema's](bi-how-work-account-schedule.md)  

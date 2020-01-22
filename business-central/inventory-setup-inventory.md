@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: SorenGP
-ms.openlocfilehash: 2d29bd0902ade38a1901899af475377e18089316
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 86ddde5339631915a997cbbebe63a3a2d6d68835
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309496"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952614"
 ---
 # <a name="setting-up-inventory"></a>Voorraad instellen
 Voordat u magazijnactiviteiten en voorraadwaardering kunt beheren, moet u de regels en waarden configureren die het voorraadbeleid van het bedrijf definiëren.
@@ -38,6 +38,8 @@ Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met bet
 |Als aanvulling op vestigingskaarten kunt u gegevens opnemen over de artikelen in een bepaalde vestiging of een bepaalde variant.|[SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)|
 | Artikelen toewijzen aan categorieën en er kenmerken aan toewijzen om u en klanten te helpen artikelen te vinden. |[Artikelen categoriseren](inventory-how-categorize-items.md) |
 |Importeer meerdere artikelafbeeldingen in één keer uit een zip-bestand waarin de bestanden zijn genoemd naar artikelnummers.|[Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Voorraad beheren](inventory-manage-inventory.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301552"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911107"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -31,7 +31,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Inkomende betalingen vereffenen, bankrekeningen reconciliëren tijdens betalingsvereffening en openstaande saldi innen. |[Tegoeden beheren](receivables-manage-receivables.md) |
 | Betalingen doen, uitgaande betalingen vereffenen en werken met cheques. |[Betalingsverplichtingen beheren](payables-manage-payables.md) |
 |Laat uw klanten betalen voordat u naar hen verzendt of betaal uw leveranciers voordat zij aan u verzenden.|[Vooruitbetalingen factureren](finance-invoice-prepayments.md)|
-| Bankrekeningen reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen beheren](bank-manage-bank-accounts.md) |
+| Bankrekeningen reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md) |
 |IC-partners instellen en transacties handmatig of automatisch verwerken tussen rechtspersonen binnen hetzelfde bedrijf.|[Intercompany-transacties beheren](intercompany-manage.md)|
 |De kosten analyseren van het uitvoeren van uw bedrijf door werkelijke en gebudgetteerde kosten van bewerkingen, afdelingen, producten en projecten toe te wijzen aan kostenplaatsen.|[Kosten verantwoorden](finance-manage-cost-accounting.md)|
 |Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|

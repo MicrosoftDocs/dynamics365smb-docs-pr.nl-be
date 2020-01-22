@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774783"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953935"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
@@ -56,10 +56,11 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[d365fin](includes/d365fi
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
+## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  
 [Business Central instellen](setup.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

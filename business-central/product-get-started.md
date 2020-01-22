@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 11/14/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: addf7e03759809bd487d87271625f6df60293031
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878083"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954271"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.  
@@ -77,6 +77,8 @@ Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -93,4 +95,3 @@ Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]  

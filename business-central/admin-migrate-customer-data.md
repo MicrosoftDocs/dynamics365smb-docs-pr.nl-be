@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896217"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918226"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
@@ -31,13 +31,13 @@ Wanneer u een nieuw bedrijf maakt, kunt u de bedrijfsinstellingen voor het nieuw
 > [!NOTE]  
 >  U kunt niet een bestand dat niet reeds een RapidStart Services-configuratiepakket is als een .rapidstart-pakketbestand hernoemen om het vervolgens te importeren. Als u dit probeert, verschijnt er een foutbericht.  
 
-Voordat u begint, moet u ervoor zorgen dat u zich in het rolcentrum RapidStart Services-implementatie bevindt.
+Voordat u begint, moet u ervoor zorgen dat u gemachtigd bent om de RapidStart Services-objecten uit te voeren. U kunt bijvoorbeeld de SUPER-machtigingenset hebben of een interne of gedelegeerde beheerder zijn. Het is ook aan te raden in een rolcentrum te zijn met koppelingen naar RapidStart Services, zoals het Beheerrolcentrum. Zie [De rol wijzigen](ui-change-basic-settings.md#to-change-the-role) voor meer informatie.  
 
 > [!IMPORTANT]  
->  Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
->   
+> Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
+>
 >  U kunt een configuratiepakket importeren dat is geëxporteerd uit een database met een ander schema dan de doeldatabase. Tabellen of velden in het configuratiepakket die niet voorkomen de doeldatabase, worden echter niet geïmporteerd.
->   
+>
 > Tabellen die verschillende primaire sleutels en velden met verschillende gegevenssoorten hebben, kunnen niet succesvol geïmporteerd worden. Als in het configuratiepakket bijvoorbeeld tabel **50000 Klant staat** met de primaire sleutel **Code20** en in het configuratiepakket van de database die u wilt importeren, tabel **50000 Bankrekening klant** staat met de primaire sleutel **Code20 + Code 20**, worden de gegevens niet geïmporteerd.  
 
 1. Open het nieuwe bedrijf.  
@@ -56,7 +56,11 @@ Voordat u begint, moet u ervoor zorgen dat u zich in het rolcentrum RapidStart S
 Als de selectie van tabellen niet aan uw behoeften voldoet, kunt u een of meer nieuwe gegevensmigratiebestanden maken. Als de bestanden voldoende zijn, kunt u doorgaan met de gegevensmigratie met behulp van Excel- of XML-bestanden.
 
 ## <a name="to-create-a-data-migration-file"></a>Een gegevensmigratiebestand maken
-U kunt nieuwe gegevensmigratiebestanden maken en aanpassen voor uw bedrijf. Een bestand kan echter alleen worden gebruikt voor het migreren van een veld waarvan de eigenschap **Veldklasse** is ingesteld op **Normaal**.  
+
+U kunt nieuwe gegevensmigratiebestanden maken en aanpassen voor uw bedrijf.  
+
+> [!TIP]
+> Een bestand kan alleen worden gebruikt voor het migreren van een veld waarvan de eigenschap **Veldklasse** is ingesteld op **Normaal**.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakket** in en kies de desbetreffende koppeling.  
 2. Selecteer en open het pakket dat u wilt gebruiken om gegevens te migreren en kies de actie **Tabellen ophalen**. De pagina **Pakkettabel ophalen** wordt geopend.  

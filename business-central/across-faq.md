@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896197"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910940"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -111,7 +111,7 @@ Als u advies van Microsoft wilt, kunt u contact opnemen met het [Microsoft Sales
 Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.
 
 ## <a name="is-the-windows-client-supported"></a>Wordt de Windows-client ondersteund?
-De eerste releases van [!INCLUDE[prodshort](includes/prodshort.md)] on premises omvatte een geïnstalleerde client afgeleid van Microsoft Dynamics NAV. Vanaf 2019 releasewave 2 zal dit oudere onderdeel, 'de Windows-client' genoemd, niet langer beschikbaar zijn voor [!INCLUDE[prodshort](includes/prodshort.md)]. Zie voor meer informatie [Veelgestelde vragen over Windows Client en Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+De eerste releases van [!INCLUDE[prodshort](includes/prodshort.md)] on premises omvatte een geïnstalleerde client afgeleid van Microsoft Dynamics NAV. Vanaf 2019 releasewave 2 zal dit oudere onderdeel, 'de Windows-client' genoemd, niet langer beschikbaar zijn voor [!INCLUDE[prodshort](includes/prodshort.md)]. Zie voor meer informatie [Veelgestelde vragen over de Windows Client en Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Zie ook
 [Aan de slag](product-get-started.md)  

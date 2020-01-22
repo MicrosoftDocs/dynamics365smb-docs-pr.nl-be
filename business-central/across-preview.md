@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879415"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943002"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Proefversies en abonnementen
 
@@ -29,7 +29,7 @@ Als u problemen ondervindt, kan de pagina [Veelgestelde Vragen](across-faq.md) u
 
 ### <a name="try-out-your-own-company"></a>Probeer uw eigen bedrijf uit
 
-Als u [!INCLUDE [prodshort](includes/prodshort.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf, zodat u uw eigen gegevens kunt importeren.  
+Als u [!INCLUDE [prodshort](includes/prodshort.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE [prodshort](includes/prodshort.md)] kunt evalueren met uw eigen gegevens.  
 
 Als 30 dagen niet genoeg zijn om te beslissen, kunt u uw proefperiode verlengen. Zie voor meer informatie [Meer tijd nodig om te beslissen of u zich wilt abonneren?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-
 
 ## <a name="getting-started-with-sandboxes"></a>Aan de slag met sandboxes
 
-Sandbox-omgevingen kunnen een manier zijn om te oefenen met [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt een sandbox zien als een niet-productie omgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sandbox-omgevingen kunnen een manier zijn om te oefenen met [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt een sandbox zien als een niet-productie omgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u bijvoorbeeld de gratis online training wilt volgen vanuit [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kan uw systeembeheerder een sandbox-omgeving maken, zodat u en uw collega's daar kunnen oefenen in plaats van in uw productieomgeving.  
 
-Met een sandbox kunt u veilig extensies maken en testen en nieuwe functionaliteit ontwikkelen om de service aan te passen, zonder gevolgen voor de gegevens en instellingen van uw productie-exemplaar. Als u bijvoorbeeld de gratis online training wilt volgen vanuit [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kunt u een sandbox-omgeving maken en daar oefenen in plaats van in uw productieomgeving.  
+Als u een ontwikkelaar bent, kunt u met een sandbox veilig extensies maken en testen en nieuwe functionaliteit ontwikkelen om de service aan te passen, zonder gevolgen voor de gegevens en instellingen van uw productieomgeving.  
 
-Op dit moment kunnen alle klanten een sandbox gebruiken. Voor meer informatie over hoe u aan de slag gaat met een sandbox raadpleegt u [Een sandboxomgeving maken](across-how-create-sandbox-environment.md).  
+Op dit moment kunnen alle klanten een sandbox gebruiken, inclusief organisaties die zich hebben aangemeld voor een proefversie. Voor meer informatie over hoe u aan de slag gaat met een sandbox raadpleegt u [Een sandboxomgeving maken](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Sandboxes bevatten demonstratiegegevens voor het fictieve CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Zie ook
 
 [Aan de slag](product-get-started.md)  
+[Uw proefversie uitbreiden](admin-extend-trial.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
 [Hoe vind ik een partner-reseller?](across-faq.md#findpartner)  

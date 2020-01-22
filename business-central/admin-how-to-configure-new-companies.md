@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878593"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910820"
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
 Als u een nieuw bedrijf in uw oplossingimplementatie wilt configureren, volgt u doorgaans drie fasen. In de eerste fase importeert u het configuratiepakket. Dit is een .rapidstart-bestand met de configuratie-informatie. In de tweede fase wijzigt u de configuratiegegevens en past u deze vervolgens toe op uw nieuwe bedrijf. In de laatste fase controleert en corrigeert u fouten.  
 
 Bij de volgende procedures wordt ervan uitgegaan dat u een configuratiepakket hebt gemaakt en opgeslagen. Zie [Een configuratiepakket voorbereiden](admin-how-to-prepare-a-configuration-package.md) voor meer informatie.  
 
-In de volgende procedure wordt ervan uitgegaan dat u uw nieuwe bedrijf hebt geïnitialiseerd en geopend, en dat u zich in het rolcentrum RapidStart Services-implementatie bevindt.
+In de volgende procedure wordt ervan uitgegaan dat u uw nieuwe bedrijf hebt geïnitialiseerd en geopend, en dat u Beheerrolcentrum gebruikt.
+
+## <a name="before-you-import-a-configuration-package"></a>Voordat u een configuratiepakket importeert
+Voordat u een configuratiepakket importeert, is het een goed idee om te controleren of de volgende beweringen waar zijn. Anders kunnen u of uw klant het configuratiepakket niet importeren.
+
+* Uw licentie bevat de tabellen die u bijwerkt. Als u dit niet zeker weet, kan het **Configuratiewerkblad** u wellicht helpen. Als uw licentie de tabellen bevat, schakelt u het selectievakje **Tabel met licentie** in.  
+* De gebruiker die het configuratiepakket importeert, heeft effectieve machtigingen voor invoegen en wijzigen voor alle tabellen die door het pakket worden bijgewerkt. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie 
 
 ## <a name="to-import-a-configuration-package"></a>Een configuratiepakket importeren  
 1. Open het nieuwe bedrijf in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
