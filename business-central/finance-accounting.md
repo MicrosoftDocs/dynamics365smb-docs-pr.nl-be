@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943050"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991868"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
@@ -42,7 +42,7 @@ We hebben het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. 
 > 
 > Omdat deze taak toegang vereist voor het beheren van gebruikers en licenties in Azure Active Directory, moet de gebruiker die deze uitnodiging verzendt, de rol **Globale beheerder** of **Gebruikersbeheer** hebben in het Office 365-beheercentrum. Zie voor meer informatie [Over beheerdersrollen](/office365/admin/add-users/about-admin-roles) in de Office 365-beheerdersinhoud.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Uw accountant toevoegen aan uw Office 365 via Azure Portal'
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Uw accountant toevoegen aan uw Office 365 via Azure Portal
 
 Als uw beheerder of wederverkoper geen gebruik wenst te maken van de guide **Externe accountant uitnodigen**, kunnen ze een externe gebruiker toevoegen aan de Azure Portal en deze gebruiker de licentie voor een externe accountant toewijzen. Zie [Snelle start: gastgebruikers toevoegen aan uw directory in de Azure-portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal) voor meer informatie.
 

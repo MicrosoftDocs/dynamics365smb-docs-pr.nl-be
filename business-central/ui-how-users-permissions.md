@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943245"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030064"
 ---
 # <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
 Hieronder wordt beschreven hoe u als beheerder gebruikers maakt en definieert die zich kunnen aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en welke fundamentele rechten verschillende gebruikerstypen hebben volgens de licenties.
@@ -61,7 +61,7 @@ Soms moet u de licentie wijzigen die aan een gebruiker is toegewezen. Als u bijv
 1. Wijzig de licentie in het Microsoft 365-beheercentrum. Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Office 365](https://aka.ms/CreateOffice365Users).
 2. Meld u als beheerder aan bij [!INCLUDE[d365fin](includes/d365fin_md.md)].
 3. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
-4. U kunt ook op de pagina **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen** kiezen.
+4. Kies op de pagina **Gebruikers** de actie **Standaardgebruikersgroepen van gebruiker herstellen**.
 
 De gebruikers worden verplaatst naar een geschikte gebruikersgroep en de machtigingensets worden bijgewerkt. Zie [Machtigingen beheren via gebruikersgroepen](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups) voor meer informatie.
 
@@ -87,7 +87,7 @@ Als u de gebruiker achteraf wijzigt in Office 365 en u moet de wijzigingen synch
 ## <a name="the-device-license"></a>De apparaatlicentie
 Met de Dynamics 365 Business Central-apparaatlicentie kunnen meerdere gebruikers een apparaat dat onder de apparaatlicentie valt, gebruiken om een verkooppuntapparaat, een apparaat op de werkvloer of een magazijnapparaat te bedienen. Zie [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing) voor meer informatie.
 
-De apparaatlicentie is geïmplementeerd als een gelijktijdig gebruikersmodel. Wanneer u een X aantal apparaatlicenties hebt gekocht, kunnen maximaal een X aantal gebruikers uit de aangewezen groep, Dynamics 365 Business Central-apparaatgebruikers*, zich gelijktijdig aanmelden.
+De apparaatlicentie is geïmplementeerd als een gelijktijdig gebruikersmodel. Wanneer u een X aantal apparaatlicenties hebt gekocht, kan maximaal een X aantal gebruikers uit de aangewezen groep, Dynamics 365 Business Central-apparaatgebruikers genaamd, zich gelijktijdig aanmelden.
 
 De Office 365-beheerder of Microsoft-partner van uw bedrijf moet de aangewezen apparaatgroep maken en apparaatgebruikers toevoegen als leden van die groep. Ze kunnen dit doen in het [Microsoft 365-beheercentrum](https://admin.microsoft.com/) of op de [Azure Portal](https://portal.azure.com/).
 

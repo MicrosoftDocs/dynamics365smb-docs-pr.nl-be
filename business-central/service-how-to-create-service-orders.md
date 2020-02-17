@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877339"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030112"
 ---
 # <a name="create-service-orders"></a>Serviceorders maken
 Op de pagina **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud.  
@@ -31,7 +31,7 @@ Wanneer u een serviceorder maakt, hoeft u slechts een paar velden in te vullen. 
 
 4. Voer in het veld **Klantnr.** de betreffende klant uit de lijst. De betreffende velden voor de klant worden automatisch ingevuld met gegevens uit de tabel **Klant**.  
 
-5. Afhankelijk van de instellingen op het sneltabblad **Verplichte velden** op de pagina **CRM - Service-instellingen** moet u wellicht het veld **Serviceordersoort** en het veld **Verkoper** invullen.  
+5. Afhankelijk van de instellingen op het sneltabblad **Verplichte velden** op de pagina **Servicebeheerinstellingen** moet u wellicht het veld **Serviceordersoort** en het veld **Verkoperscode** invullen.  
 6. Het invullen van de overige velden is optioneel.  
 7. Registreer de serviceartikelregels.  
 
@@ -43,9 +43,11 @@ U kunt automatisch serviceorders voor het onderhoud van serviceartikelen maken o
 3. Op het Sneltabblad **Opties** vult u de velden **Begindatum** en **Einddatum** in met de begindatum en einddatum van de periode waarvoor u contractserviceorders wilt maken. Met de batchverwerking maakt u serviceorders waarin serviceartikelen in servicecontracten zijn opgenomen met de volgende geplande servicedatums in deze periode.  
 
     > [!NOTE]  
-    >  Er is een limiet aan het aantal dagen dat u als het datuminterval voor de batchtaak kunt gebruiken. U bepaalt de beperking in het veld **Max. dagen contractserviceorder** op de pagina **Servicebeheerinstellingen**.  
+    >  Er is een limiet aan het aantal dagen dat u als het datuminterval voor de batchtaak kunt gebruiken. U bepaalt deze limiet in het veld **Max. dagen contractserviceorder** op de pagina **Servicebeheerinstellingen**.  
 
 4. Kies in het veld **Actie** de optie **Serviceorder maken**.  
+    > [!NOTE]  
+    >  U kunt geen order met meerdere serviceartikelen maken als u het veld **Eén serviceartikelregel/Order** instelt op de pagina **Servicebeheerinstellingen**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Een serviceofferte omzetten in een serviceorder
 Wanneer een klant een servicecontractofferte heeft geaccepteerd, zet u deze om in een serviceorder. De offerte wordt verwijderd en er wordt een nieuwe serviceorder ingesteld met dezelfde omschrijving als de serviceofferte. De responsdatum en -tijd worden opnieuw berekend voor de serviceorder en de status van de serviceorder wordt ingesteld op **In behandeling**. De herstelstatus van de serviceartikelen in de order wordt gewijzigd in **Eerste**.  

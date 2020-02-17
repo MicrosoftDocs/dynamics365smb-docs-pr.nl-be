@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: edupont
-ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305714"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030256"
 ---
 # <a name="publish-a-web-service"></a>Een webservice publiceren
 
@@ -28,7 +28,7 @@ In de volgende stappen wordt uitgelegd hoe u een webservice maakt en publiceert.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Een webservice maken en publiceren  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webservices** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webservices** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Webservices** de optie **Nieuw**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -52,8 +52,8 @@ Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. 
     > [!div class="mx-tdBreakAll"]
     > |Soort|Syntaxis|Voorbeeld|
     > |----------------|------|-------|
-    > |SOAP |https://api.businesscentral.dynamics.com/*versie*/*tenant*/WS/*CompanyName*/*entiteit*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData V4|https://api.businesscentral.dynamics.com/*versie*/*tenant*/ODataV4/Company('*CompanyName*')/*entiteit*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    De bedrijfsnaam is hoofdlettergevoelig.|
+    > |SOAP|https://api.businesscentral.dynamics.com/*versie*/*tenant*/Production/WS/*CompanyName*/*entiteit*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
+    > |OData V4|https://api.businesscentral.dynamics.com/*versie*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entiteit*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    De bedrijfsnaam is hoofdlettergevoelig.|
 
 2. Controleer de informatie die verschijnt in de browser. Controleer of u de naam ziet van de webservice die u hebt gemaakt.  
 

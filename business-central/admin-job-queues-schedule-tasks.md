@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879214"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999795"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 Met taakwachtrijen in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het statistiekrapport **Verkoper - Statistiek** wekelijks uitvoeren om de verkopen per verkoper wekelijks bij te houden of u kunt de codeunit **E-mailwachtrij service verwerken** dagelijks uitvoeren om ervoor te zorgen dat niet-verzonden e-mailberichten aan klanten met betrekking tot hun serviceorders tijdig worden verzonden.
@@ -31,6 +31,11 @@ U kunt dat bereiken door de taakwachtrij in te stellen om diverse batchboekingsr
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt boeken op de achtergrond voor alle verkoop-, inkoop- en servicedocumenten.
 
+> [!NOTE]
+> Sommige taken wijzigen dezelfde gegevens en moeten niet tegelijkertijd worden uitgevoerd omdat dat conflicten kan veroorzaken. Met achtergrondtaken voor verkoopdocumenten wordt bijvoorbeeld geprobeerd dezelfde gegevens tegelijkertijd te wijzigen. Taakwachtrijcategorieën helpen dit soort conflicten voorkomen door ervoor te zorgen dat wanneer een taak wordt uitgevoerd, een andere taak die tot dezelfde taakwachtrijcategorie behoort, pas wordt uitgevoerd als de eerste is voltooid. Een taak die bijvoorbeeld behoort tot een taakwachtrijcategorie Verkooptaak wacht tot alle andere verkoopgerelateerde taken zijn voltooid. U geeft een taakwachtrijcategorie op met het sneltabblad **Boeken op achtergrond** op de pagina **Verkoopinstellingen**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt taakwachtrijcategorieën voor verkoop-, inkoop- en grootboekboeking. We raden aan dat een van deze, of een die u maakt, altijd wordt opgegeven. Als u problemen ondervindt als gevolg van conflicten, kunt u overwegen een categorie in te stellen voor alle verkoop-, inkoop- en grootboekboeking.
+
 In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkooporders instelt. De stappen zijn vergelijkbaar voor inkoop en service.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
@@ -41,7 +46,7 @@ In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkoopord
 4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.
 5. Kies op de pagina **Taakwachtrijposten** de actie **Nieuw**.
 6. Selecteer in het veld **Uit te voeren objecttype** **Codeunit**.  
-7. Selecteer in het veld **Uit te voeren object-id** 88, **Verkoopboeking via taakwachtrij**.
+7. Selecteer in het veld **Uit te voeren object-id** **88**. De velden Beschrijving en Uit te voeren objectbijschrift bevatten Verkoopboeking via taakwachtrij.
 
     Er zijn geen andere velden van toepassing op dit scenario.
 8. Kies de actie **Status instellen op Gereed**.

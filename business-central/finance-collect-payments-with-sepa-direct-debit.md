@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554314"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030208"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
 Met instemming van de klant, kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-notatie.  
@@ -32,7 +32,10 @@ Met instemming van de klant, kunt u betalingen rechtstreeks vanaf de bankrekenin
 >  Om betalingen te innen via SEPA Incasso, moet de valuta in de verkoopfactuur EURO zijn.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Automatische incasso via SEPA instellen
-Vanuit de pagina **Incasso-opdrachten** kunt u instructies aan uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-incasso's, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.  
+Vanuit de pagina **Incasso-opdrachten** kunt u instructies aan uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening, volgens de SEPA-indeling voor incasso.
+
+> [!NOTE]
+> De globale versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt alleen de SEPA-indeling voor incasso. In de versie van uw land/regio kunnen andere indelingen voor elektronische betaling worden ondersteund. Zie onder **Lokale functionaliteit** in de inhoudsopgave.  
 
 Als u de export van bankbestandsindelingen die niet standaard worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk wilt maken, kunt u een gegevensuitwisselingsdefinitie instellen met behulp van het kader voor gegevensuitwisseling. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
 
@@ -43,12 +46,12 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 * Stel de machtiging voor automatische incasso in die overeenkomt met uw overeenkomst met de klant voor het incasseren van hun betalingen in een bepaalde overeenkomstperiode.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Uw bankrekening voor automatische incasso van SEPA instellen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.  
 2. Open de bankrekening die u wilt gebruiken voor automatische incasso.  
 3. Kies op het sneltabblad **Transfer** in het veld **Exportindeling van incasso van SEPA** de optie voor automatische incasso van SEPA.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>De betalingsmethode van de klant voor SEPA-incasso instellen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsmethoden** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsmethoden** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Een betalingswijze instellen. Vul de specifieke velden voor automatische incasso in, zoals in de volgende tabel is beschreven.  
 
@@ -61,13 +64,13 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
     >  Voer geen waarde in het veld **Tegenrekeningnr.** in.  
 
 4. Kies de knop **OK** om de pagina **Betalingsmethoden** te sluiten.  
-5. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
+5. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
 6. Open de klantkaart voor de klant die u wilt instellen voor verzameling van automatische incasso van SEPA.  
 7. Kies het veld **Betalingswijze** en selecteer vervolgens de code voor de betalingswijze die u hebt opgegeven in stap 3.  
 8. Herhaal stap 6 tot en met 7 voor alle klanten die u wilt instellen voor verzameling van automatische incasso van SEPA.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>De incassomachtiging instellen die de instemming van de klant vertegenwoordigt  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), voer **Klanten** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
 2. Open de kaart voor de klant die u wilt instellen voor automatische incasso van SEPA.  
 3. Kies de actie **Bankrekeningen**.  
 4. Selecteer op de pagina **Lijst klantbankrekeningen** de klantbankrekening waarop automatische incasso's worden gebruikt en kies de actie **Opdrachten voor automatische incasso**.  
@@ -96,7 +99,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 
 ### <a name="to-create-a-direct-debit-collection"></a>Een incasso-opdracht maken  
 
- 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Incasso-opdrachten** in en kies vervolgens de gerelateerde koppeling.  
+ 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Automatische incasso's** in en kies de gerelateerde koppeling.  
  2. Kies op de pagina **Automatische incasso's** de actie **Automatische incasso maken**.  
  3. Vul op de pagina **Incasso-opdracht maken** de velden in zoals wordt beschreven in de volgende tabel.  
 
@@ -112,7 +115,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 
  4. Kies de knop **OK**.  
 
-      Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-opdrachten** en er worden een of meer automatische incasso-opdrachtposten gemaakt.  
+Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-opdrachten** en er worden een of meer automatische incasso-opdrachtposten gemaakt.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Verzamelingposten van automatische incasso exporteren naar een bankbestand  
  1. Kies op de pagina **Automatische incasso's** de actie **Automatische incasso-items**.  
@@ -142,7 +145,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
  U kunt de betalingsontvangst van de pagina **Incasso-opdrachten** of de pagina **Verzamelingsposten van incasso** direct boeken. U kunt ook het werk aan een andere gebruiker doorgeven door de dagboekregels voor te bereiden.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Een betalingsontvangst van een automatische incasso boeken vanuit de pagina Verzamelingen van automatische incasso  
- 1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Incasso-opdrachten** in en kies vervolgens de gerelateerde koppeling.  
+ 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Automatische incasso's** in en kies de gerelateerde koppeling.  
  2. Selecteer een regel voor een verzameling automatische incasso die is geëxporteerd naar een bankbestand en verwerkt door de bank.
  3. Kies de actie **Betalingsontvangsten boeken**.  
  4. Vul op de pagina **Incasso-opdracht boeken** de velden in zoals wordt beschreven in de volgende tabel.  

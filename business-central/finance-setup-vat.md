@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953695"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030160"
 ---
 # <a name="set-up-value-added-tax"></a>Btw instellen
 Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[d365fin](includes/d365fin_md.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende:
@@ -116,28 +116,6 @@ In de volgende gedeelten wordt beschreven hoe u btw-boekingsgroepen aan afzonder
 * Vouw op de kaart **Resource** het sneltabblad **Facturering** uit.  
 3. Kies de btw-productboekingsgroep.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Sjablonen voor btw-overzichten en namen voor btw-overzichten instellen
-De belastingdienst kan de vereisten om btw te boeken wijzigen en doet dat ook. Met sjablonen en namen voor btw-overzichten kunt u zich op de komende veranderingen voorbereiden en de overstap naar de nieuwe regels soepel maken. U kunt btw-aangiftesjablonen gebruiken om de velden te definiëren die u in uw btw-aangifte wilt opnemen en die weer de berekeningen definiëren, en u kunt een nieuwe btw-aangiftesjabloon maken wanneer de vereisten veranderen. Eén sjabloon kan bijvoorbeeld btw voor dit jaar berekenen op basis van de huidige vereisten en een andere sjabloon kan btw berekenen op basis van vereisten voor volgend jaar. Sjablonen zijn ook een manier om een historie te bewaren van btw-aangifte-indelingen, bijvoorbeeld, zodat u terug kunt kijken en kunt zien hoe u in vorige jaren btw hebt berekend.
-
-## <a name="to-define-a-vat-statements"></a>Btw-overzichten definiëren
-Met btw-aangiften kunt u het btw-vereffeningsbedrag voor een bepaalde periode berekenen, bijvoorbeeld voor een kwartaal.
-
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-overzichten** in en kies de desbetreffende koppeling.  
-2. Kies het veld **Naam** kies vervolgens **Nieuw** op de pagina **Btw-aangiftes**.
-3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> U kunt de gegevens filteren die het afschrift zal bevatten, afhankelijk van uw keuze in het veld **Soort**. **Rekeningsamentelling** is handig als u de btw van een bepaalde rekening wilt.
-**Btw-postentotaal** haalt btw van de rekeningen die zijn toegewezen aan de selecties in de velden **Algemeen boekingssoort**, **Btw-bedr.-boekingsgroep** en/of **Btw-prod.-boekingsgroep**. Met **Vak-/Rubrieksamentelling** kunt u een waarde of snelfiltercriterium invoeren in het veld **Vak-/Rubrieksamentelling**. Zie voor meer informatie [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md). **Omschrijving** wordt vaak gebruikt om een notitie aan de aangifte toe te voegen. U kunt het bijvoorbeeld gebruiken als een kop wanneer u vak/rubrieksamentelling gebruikt.
-
-## <a name="to-preview-the-vat-statement"></a>Een voorbeeld van een btw-overzicht bekijken
-Nadat u een btw-aangifte hebt gedefinieerd, kunt u er een voorbeeld van bekijken om te controleren of het aan uw wensen voldoet.
-
-1. Kies **Voorbeeld**.
-2. Voer een datumfilter in om de aangifte te beperken tot een specifieke periode. Zie voor meer informatie over het aanpassen van de pagina om het datumfilter weer te geven [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md).
-3. U kunt verschillende opties selecteren om het soort btw-posten aan te geven dat u in de aangifte wilt opnemen.
-4. Op de regels waarop het veld **Soort** de waarde **Btw-postentotaal** bevat, kunt u een lijst zien met btw-posten door het bedrag in het veld **Bedrag** te kiezen.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Clausules instellen om btw-vrijstelling of niet-standaard btw-tarieven uit te leggen
 U stelt een btw-clausule in om informatie te geven over het soort btw dat wordt toegepast. De informatie kan nodig zijn voor overheidsregelgeving. Nadat u een btw-clausule hebt ingesteld en deze hebt gekoppeld aan een btw-boekingsinstelling, wordt de btw-clausule weergegeven op afgedrukte verkoopdocumenten waarin de btw-boekingsinstellingengroep wordt gebruikt.
 
@@ -178,24 +156,6 @@ Ga als volgt te werk om codes voor import-btw in te stellen:
 5. Kies in het veld **Btw-berekening** **Volledig**.  
 6. Voer in het veld **Inkoop-btw-rekening** de grootboekrekening in die moet worden gebruikt om import-btw te boeken. Alle andere rekeningen zijn optioneel.  
 
-## <a name="to-verify-vat-registration-numbers"></a>Btw-nummers controleren
-Het is belangrijk dat de btw-registratienummers die u voor klanten, leveranciers en contactpersonen hebt, geldig zijn. Bedrijven wijzigen bijvoorbeeld soms hun belastingschuldstatus, en in sommige landen kan de belastingdienst u vragen om rapporten te verschaffen, zoals het rapport Verkoopoverzicht EU, waarin de btw-registratienummers worden weergegeven die u gebruikt wanneer u zaken doet.
-
-De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan u moeite besparen. U kunt namelijk de VIES-service om btw-nummers voor klanten, leveranciers en contactpersonen te valideren en bij te houden, rechtstreeks van de klanten-, leveranciers en contactkaarten gebruiken. De service in [!INCLUDE[d365fin](includes/d365fin_md.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar op de pagina **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen aanmelding vereist.
-
-> [!Note]
-> Als u de validatieservice van EU-btw-nummers wilt inschakelen, moet u over beheerdertoegangsrechten beschikken.
-
-Wanneer u onze serviceverbinding gebruikt, registreren we een overzicht van btw-nummers en verificaties voor elke klant, leverancier of contactpersoon in het **Btw-log**, zodat u deze eenvoudig kunt bijhouden. Het logboek is specifiek voor elke klant. Het logboek is bijvoorbeeld handig om te bewijzen dat u hebt gecontroleerd dat het huidige btw-nummer juist is. Wanneer u een btw-nummer verifieert, wordt in de kolom **Aanvraag-id** in het logboek aangegeven dat u actie hebt ondernomen.
-
-U kunt het btw-log weergeven op de klanten-, leveranciers- of contactkaarten, op het sneltabblad **Facturering**, door de zoekknop te kiezen in het veld **Btw-nummer**.  
-
-Onze service kan u ook wat tijd besparen als u een klant of een leverancier maakt. Als u het btw-nummer van de klant weet, kunt u het in het veld **Btw-nummer** op de klanten- of leverancierskaart invoeren. De klantnaam wordt dan voor u ingevuld. Sommige landen verschaffen ook bedrijfsadressen in een gestructureerde indeling. In deze landen wordt het adres ook door ons ingevuld.  
-
-Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIES-service voor btw-nummervalidatie:
-
-* De service gebruikt het http-protocol, wat betekent dat gegevens die door de server worden overgebracht, niet zijn versleuteld.  
-* Deze service wordt mogelijk onderbroken. Hiervoor is Microsoft niet verantwoordelijk. De service maakt deel uit van een breed EU-netwerk van nationale btw-journalen.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Verlegging van btw gebruiken voor handel tussen EU-landen of -regio's
 Sommige bedrijven moeten verlegging van btw gebruiken wanneer zaken worden gedaan met andere bedrijven. Deze regel is bijvoorbeeld van toepassing op inkopen van EU-landen/-regio's en verkopen aan EU-landen/-regio's.  
@@ -219,61 +179,16 @@ Wanneer u een verkoop aan een klant in een ander EU-land/-regio boekt, wordt het
 ## <a name="understanding-vat-rounding-for-documents"></a>Btw-afronding voor documenten begrijpen
 Bedragen in documenten die nog niet zijn geboekt, worden afgerond en weergegeven zodat ze overeenkomen met de uiteindelijke afronding van bedragen die daadwerkelijk zijn geboekt. Btw wordt berekend voor een volledig document, wat betekent dat de btw die in het document is berekend, is gebaseerd op de som van alle regels met dezelfde btw-identificatie in het document.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Het proces voor het converteren van btw-tariefswijzigingen begrijpen.  
-De tool voor het wijzigen van het btw-tarief voert op verschillende manieren conversies uit voor hoofdgegevens, dagboeken en orders. De geselecteerde stamgegevens en dagboeken worden bijgewerkt door de nieuwe algemene productboekingsgroep of de btw-productboekingsgroep. Als u een order volledig of gedeeltelijk hebt verzonden, blijven de verzonden artikelen onderdeel van de huidige algemene productboekingsgroep of btw-productboekingsgroep. Een nieuwe orderregel wordt gemaakt voor de niet verzonden items en bijgewerkt om overeen te komen met de huidige en de nieuwe BTW- of productboekingsgroepen. Bovendien worden gegevens over artikeltoeslagtoewijzigingen, reserveringen en artikeltracering dienovereenkomstig bijgewerkt.  
 
-Er zijn echter een aantal dingen die niet worden geconverteerd door de tool:
 
-* Verkoop- of inkooporders en facturen waar verzendingen zijn geboekt. Deze documenten zijn geboekt met het huidige btw-tarief.  
-* Documenten met geboekte vooruitbetalingsfacturen. U hebt bijvoorbeeld vooruitbetalingen gedaan of ontvangen op facturen die nog niet zijn voltooid voordat u het wijzigingstool btw-tarief gaat gebruiken. In dit geval is er een verschil tussen de verschuldigde btw en de betaalde btw in de vooruitbetalingen wanneer de factuur is voltooid. Het wijzigingstool btw-tarief slaat deze documenten over en u moet deze handmatig bijwerken.  
-* Doorverzendingen of speciale orders.  
-* Verkoop- of inkooporders met magazijnintegratie als deze gedeeltelijk zijn verzonden of ontvangen.  
-* Servicecontracten.  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Conversies van btw-tariefswijziging voorbereiden  
-Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidingen treffen.
-
-* Als u transacties met verschillende tarieven hebt, moeten deze vervolgens worden gescheiden in verschillende groepen door voor elke tarief nieuwe grootboekrekeningen te maken of door met gegevensfilters transacties per tarief te groeperen.  
-* Als u nieuwe grootboekrekeningen maakt, moet u nieuwe algemene boekingsgroepen maken.  
-* Om het aantal documenten dat wordt geconverteerd zo klein mogelijk te maken, moet u zoveel mogelijk documenten boeken en niet-geboekte documenten tot een minimum beperken.  
-* Back-up van gegevens maken.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Het wijzigingstool btw-tarief instellen  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief instellen** in en kies de desbetreffende koppeling.  
-2. Op de sneltabbladen **Hoofdgegevens**, **Dagboeken** en **Documenten** kiest u een boekingsgroepwaarde in de lijst met opties voor verplichte velden.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief instellen** in en kies de desbetreffende koppeling.  
-2. Kies op de pagina **Wijziging btw-tarief instellen** en kies de actie **Conversie boekingsgroep btw-producten** of **Conversie boekingsgroep algemene producten**.  
-3. Voer in het veld **Van code** de huidige boekingsgroep in.  
-4. Voer in het veld **Tot code** de nieuwe boekingsgroep in.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Een conversie voor een btw-tariefswijziging uitvoeren  
-U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief van btw te beheren. U kunt btw en algemene boekingsgroepconversies uitvoeren om btw-tarieven te wijzigen en nauwkeurige btw-rapportage te onderhouden. Afhankelijk van uw instellingen worden de volgende wijzigingen aangebracht:  
-
-* Btw- en algemene boekingsgroepen worden geconverteerd.  
-* Wijzigingen worden doorgevoerd in grootboekrekeningen, klanten, leveranciers, geopende documenten, dagboekregels, enzovoort.  
-
-> [!IMPORTANT]  
->  Voordat u de conversie van de btw-tariefswijziging uitvoert, kunt u de conversie testen. Hiervoor volgt u de onderstaande stappen, maar zorg ervoor dat u de selectievakjes **Conversie uitvoeren** en **Wijzigingstool BTW-tarief voltooid** uitschakelt. Tijdens testconversie wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** gewist en is het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** leeg. Kies nadat de conversie is voltooid de optie **Wijzigingslogposten btw-tarief** om de resultaten van de testconversie weer te geven. Controleer elke post voordat u de conversie uitvoert. Controleer met name transacties met een oud btw-tarief.     
-
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief** in en kies de koppeling **Wijziging btw-tarief instellen**.  
-2. Controleer of u de conversie van de btw-productboekingsgroep of de conversie van de algemene productboekingsgroep al hebt ingesteld.  
-3. Schakel het selectievakje **Conversie uitvoeren** in.  
-
-    > [!IMPORTANT]  
-    >  Schakel het selectievakje **Wijzigingstool BTW-tarief voltooid** uit. Het selectievakje wordt automatisch ingeschakeld wanneer de conversie btw-tariefswijziging is voltooid.  
-
-4. Kies de actie **Converteren**.  
-5. Wanneer de conversie voltooid is, kiest u de actie **Logbestandvermeldingen btw-tariefwijziging** om de resultaten van de conversie te zien.  
-
-> [!IMPORTANT]  
->  Nadat de conversie is voltooid, wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** ingeschakeld en bevat het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** de conversiedatum.  
+## <a name="see-also"></a>Zie ook
+[Sjablonen voor btw-overzichten en namen voor btw-overzichten instellen](finance-how-setup-vat-statement.md)   
+[Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)      
+[Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)      
+[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)    
+[Werken met de Wijzigingstool btw-tarief](finance-how-use-vat-rate-change-tool.md)    
+[Btw-nummers controleren](finance-how-validate-vat-registration-number.md)  
+[Lokale functionaliteit in Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Zie ook  
-[Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)      
-[Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
-[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
-[Lokale functionaliteit in Business Central](about-localization.md)

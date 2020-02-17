@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311392"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992108"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -55,7 +55,7 @@ Hieronder volgt wat nuttige informatie over het gebruik van snelinvoer.
 
 Als u wilt wijzigen welke velden zijn opgenomen in of uitgesloten van snelinvoer op een pagina, gebruikt u personalisatie.
 
-1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "pictogram Instellingen voor rolcentrum") te selecteren en vervolgens de actie **Personaliseren**.
+1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te selecteren en vervolgens de actie **Personaliseren**.
 2. Selecteer een veld dat u wilt wijzigen of selecteer in lijsten de corresponderende kolomkop en kies vervolgens **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer**.
 
 Zie voor meer informatie over personalisatie [Uw werkruimte personaliseren](ui-personalization-user.md).
@@ -86,7 +86,7 @@ Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](ui-copy
 
 ## <a name="filtering-line-items"></a>Regelitems filteren
 
-Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#Filtering) voor meer informatie.
+Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#Filtering) voor meer informatie.
 
 Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent en de regelartikelen filtert om alle regelartikelen weer te geven die een individuele korting van meer dan 5% hebben, of dat u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
 
@@ -98,20 +98,21 @@ Dit is met name voordelig bij het werken met grote regelartikellijsten en wannee
 
 ### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
-Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelitems en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
+Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelitems en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
 
-Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
+Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking over meerdere pagina's
 Wanneer u aan meerdere taken tegelijk werkt of wanneer u onderbrekingen in de huidige taak beheert, zoals het aannemen van een inkomende oproep, kunt u een kaart- of documentpagina in een nieuw venster openen. Hiermee kunt u een venster openhouden voor een lopende taak terwijl u een andere taak in een of meer andere vensters start of voltooit.
 
-Kies om de huidige kaart of het document in een nieuw venster te openen ![Openen in nieuw venster](media/open-new-window-icon.png "pictogram Openen in nieuw venster") in de rechterbovenhoek of druk op Alt + Shift+W.
+Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
 
 > [!NOTE]
-> Wanneer u andere pagina's opent vanaf een kaart of document dat in een nieuw venster is geopend, worden die pagina's in een nieuw venster geopend, ook al kiest u niet ![Nieuw venster openen](media/open-new-window-icon.png "pictogram Nieuw venster openen").
+> Wanneer u andere pagina's opent vanaf een kaart of document dat in een nieuw venster is geopend, worden die pagina's in een nieuw venster geopend, ook al kiest u niet ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen").
 
 > [!NOTE]
-> Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Hetzelfde kan gebeuren in andere browsers, zoals Firefox. Zie voor meer informatie [Instellingen voor pop-upblokkering in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Hoeveelheden invoeren door berekening
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954032"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991940"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.
@@ -32,6 +32,9 @@ Naast de oorspronkelijke geboekte verkoopfactuur kunt u de verkoopcreditnota of 
 U kunt de geboekte verkoopcreditnota naar de klant verzenden om de retournering of annulering te bevestigen en mede te delen dat de betreffende waarde wordt terugbetaald, bijvoorbeeld wanneer de artikelen zijn geretourneerd.
 
 De creditnotaboeking draait ook eventuele artikeltoeslagen terug die aan het geboekte document zijn toegewezen, zodat de waardeposten van het artikel hetzelfde zijn als voordat de artikeltoeslag is toegewezen.
+
+> [!NOTE]
+> De boekhoudkundige aspecten van verkoopretouren, zoals de betalingen aan klanten als terugbetaling, worden beschouwd als boekhoudkundig werk en worden hier niet beschreven. Zie [Betalingsverplichtingen beheren](payables-manage-payables.md) voor meer informatie.
 
 ## <a name="inventory-costing"></a>Voorraadwaardering
 Om de juiste voorraadwaardering te behouden, wilt u meestal retourartikelen in de voorraad terugzetten tegen de eenheidskostprijs waarvoor ze zijn verkocht en niet tegen de huidige eenheidskostprijs. Dit wordt exacte kostentegenboeking genoemd.
@@ -220,5 +223,6 @@ U kunt afzonderlijke retourorders ook handmatig verwijderen.
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
+[Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

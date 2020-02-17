@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311296"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992157"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>De Dynamics GP-extensie Gegevensmigratie 
 Deze extensie maakt het gemakkelijk transacties van klanten, leveranciers, voorraadartikelen, grootboekrekeningen, openstaande schulden en openstaande tegoeden te migreren van Dynamics GP naar [!INCLUDE[prodshort](includes/prodshort.md)]. Als uw bedrijf momenteel Dynamics GP gebruikt, kunt u de relevante records exporteren en vervolgens een begeleide instelling openen om de gegevens toe te voegen aan [!INCLUDE[prodshort](includes/prodshort.md)]. De migratie-extensie werkt voor alle ondersteunde versies van Microsoft Dynamics GP. Zie [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md) voor meer informatie.
+
+> [!NOTE]
+>  De extensie wordt buiten gebruik gesteld in update 15.3. We raden gebruikers die willen migreren vanuit Dynamics GP aan om in plaats daarvan de wizard **Cloudmigratie** te gebruiken. De extensie **Cloudmigratie** heeft meer robuuste functionaliteit en brengt meer gegevens naar Business Central over vanuit Dynamics GP.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Gegevens exporteren uit Dynamics GP
 U moet gegevens van sommige of alle bestaande klanten, leveranciers, voorraadartikelen en grootboekrekeningen hebben geëxporteerd met functionaliteit voor gegevensexport binnen Dynamics GP. Wanneer u gegevens selecteert, kunt u de volgende typen selecteren:

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: bholtorf
-ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879692"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999631"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Inkoopfacturen meteen vereffenen
 Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boeken op het moment dat u de factuur boekt.  
@@ -26,7 +26,7 @@ Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boek
 3.  Voor contante betalingen of bankoverboekingen voert u in het veld **Tegenrekeningnr.** het nummer in van de grootboekrekening of bankrekening.  
 
 > [!IMPORTANT]  
->  De velden **Tegenrekeningsoort** en **Tegenrekeningnr.** worden niet standaard weergegeven op de factuurkop. Voordat u de betaling van een factuur kunt boeken, moet u deze velden eerst met behulp van de ontwerpfuncties invoegen.  
+>  De velden **Tegenrekeningsoort** en **Tegenrekeningnr.** worden niet standaard weergegeven op de factuurkop. Voordat u de betaling van een factuur kunt boeken, moet u deze velden eerst met behulp van de ontwerpfuncties invoegen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie. 
 
 > [!NOTE]  
 >  Als u vaak inkoopfacturen contant betaalt, is het verstandig om een bepaalde betalingswijze met een tegenrekening in te stellen en deze betalingswijze in te voeren in het veld **Betalingswijze** op de leverancierskaart. Telkens wanneer u hierna een nieuwe factuur maakt, wordt automatisch het tegenrekeningnummer op de factuurkop ingevoerd.  
