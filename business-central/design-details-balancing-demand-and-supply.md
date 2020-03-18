@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882962"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076424"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Ontwerpdetails: Vraag en aanbod afstemmen
 Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen. De belangrijkste hiervan zijn om te zorgen dat:  
@@ -66,7 +66,7 @@ Als de eerste beschikbare voorraad onder nul is, wordt er op de dag vóór de pl
 ## <a name="loading-the-inventory-profiles"></a>De voorraadprofielen laden
 Om de vele bronnen van vraag en voorzieningen te sorteren, ordent het planningssysteem deze op twee tijdpaden die voorraadprofielen worden genoemd.  
 
-De normale soorten vraag en voorziening met vervaldatums op of na de begindatum van de planning worden in elk voorraadprofiel geladen. Na het laden worden de verschillende soorten vraag en voorziening gesorteerd op basis van algemene prioriteiten, zoals vervaldatum, low-levelcodes, vestiging en variant. Daarnaast worden orderprioriteiten toegepast op de verschillende soorten om ervoor te zorgen dat aan de belangrijkste vraag het eerst wordt voldaan. Zie [Ontwerpdetails: Prioriteit geven aan orders](design-details-prioritizing-orders.md) voor meer informatie.  
+De normale soorten vraag en voorziening met vervaldatums op of na de begindatum van de planning worden in elk voorraadprofiel geladen. Na het laden worden de verschillende soorten vraag en voorziening gesorteerd op basis van algemene prioriteiten, zoals vervaldatum, low-levelcodes, vestiging en variant. Daarnaast worden orderprioriteiten toegepast op de verschillende soorten om ervoor te zorgen dat aan de belangrijkste vraag het eerst wordt voldaan. Zie [Orders in prioriteitsvolgorde plaatsen](design-details-balancing-demand-and-supply.md#prioritizing-orders) voor meer informatie.  
 
 Zoals eerder gezegd, kan vraag ook negatief zijn. Dit betekent dat het moet worden verwerkt als voorraad. In tegenstelling tot de normale soorten voorziening wordt negatieve vraag echter gezien als vaste voorziening. Het planningssysteem kan hier rekening mee houden, maar er worden geen wijzigingen voorgesteld.  
 

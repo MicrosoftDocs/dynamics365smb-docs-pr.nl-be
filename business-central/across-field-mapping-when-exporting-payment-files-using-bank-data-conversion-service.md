@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692640"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076743"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Veldtoewijzing bij de export van betalingsbestanden met behulp van de AMC Banking 365 Fundamentals-uitbreiding
 Wanneer u betalingsbestanden exporteert met de AMC Banking 365 Fundamentals-uitbreiding, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Zie [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md) voor meer informatie over de AMC Banking 365 Fundamentals-uitbreiding.  
@@ -71,4 +71,4 @@ De volgende tabel bevat de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
 [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)   
-[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

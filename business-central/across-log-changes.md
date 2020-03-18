@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: cb091a54b7b8da571117c807a621ed298842444c
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775367"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076671"
 ---
 # <a name="auditing-changes-in-business-central"></a>Wijzigingen controleren in Business Central
 
@@ -46,7 +46,7 @@ De informatie wordt weergegeven in het venster **Activiteitenlogboek**, volgens 
 
 ## <a name="see-also"></a>Zie ook
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
-[Sorteervolgorde](ui-sorting.md)  
+[Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)    
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

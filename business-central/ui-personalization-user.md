@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 01/13/2020
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953359"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071994"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
@@ -58,13 +58,14 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 |----|------------|-------|
 |Iets verplaatsen, zoals een veld, een kolom in een lijst, een tegel, een actie of een onderdeel|Wijs naar alles wat u wilt verplaatsen en sleep dit naar de nieuwe positie. De positie wordt aangegeven door een dikke horizontale of verticale lijn.<br /><br />![Pictogram Kan niet hierheen verplaatsen](media/personalization-cannot-move-here.png "Personalisatiemodus - Pictogram Kan niet hierheen verplaatsen") geeft aan dat u het element niet naar de geselecteerde positie kunt verplaatsen.|De onderdelen zijn onderverdelingen of gebieden op een pagina met objecten als meerdere velden, een andere pagina, een grafiek of tegels.<br /><br />Zie voor meer informatie over actiepersonalisering [Acties personaliseren](ui-personalization-user.md#Actions). |
 |Iets verbergen, zoals een veld, een kolom in een lijst, een tegel, een actie of een onderdeel.|Kies de pijlpunt en kies <b>Verbergen</b>.|Het element wordt grijs weergegeven wanneer u zich in de personalisatiemodus bevindt. Als het veld dat u verbergt ook in de sneltabbladkop wordt weergegeven wanneer het sneltabblad is samengevouwen, wordt het veld daar niet meer weergegeven.|
-|Verborgen acties en velden weergeven.|Kies voor een grijs (verborgen) element de pijlpunt en kies vervolgens <b>Weergeven</b>.|Het verborgen element is weer zichtbaar.|
+|Verborgen acties en onderdelen weergeven.|Kies voor een grijs (verborgen) element de pijlpunt en kies vervolgens <b>Weergeven</b>.|Het verborgen element is weer zichtbaar.|
 |Een kolom of veld toevoegen.|Kies in de banner <b>Personaliseren</b> de actie <b>+ Veld</b>.<br /></br>Het deelvenster <b>Veld toevoegen aan pagina</b> wordt aan de rechterkant weergegeven. Hier staan de velden die u aan de pagina kunt toevoegen.<br /><br />Als u een veld wilt toevoegen, moet u het uit het deelvenster slepen naar de positie waar u het hebben wilt. De positie wordt aangegeven door een dikke horizontale of verticale lijn.|Elke pagina bevat een vooraf bepaalde set velden die u kunt weergeven. Gebruik deze procedure om velden of kolommen toe te voegen die niet eerder zijn weergegeven of om velden weer te geven die u hebt verborgen.|
 |Een veld weergeven in de kop van een sneltabblad wanneer dit is samengevouwen.|Kies de pijlpunt en kies vervolgens <b>Weergeven wanneer samengevouwen</b>. <br /> <br />Als u deze optie niet ziet, is deze al ingesteld. In dit geval kunt u de weergave van het veld in de sneltabbladkop stoppen door <b>Altijd weergeven</b> te kiezen.|*Sneltabblad* is de term die wordt gebruikt voor een groep velden die onder een gezamenlijke kop worden weergegeven. Gebruik de optie <b>Weergeven wanneer samengevouwen</b> om de belangrijkste velden weer te geven. Als u een veld in de kop selecteert, wordt het sneltabblad geopend met de focus op het geselecteerde veld.<br /><br />Deze optie is alleen van toepassing als een pagina meerdere sneltabbladen bevat. Als er slechts één sneltabblad is, kan het niet worden samengevouwen, dus is de optie <b>Weergeven wanneer samengevouwen</b> niet beschikbaar.|
 |Een veld alleen-weergeven maken wanneer u **Meer tonen** selecteert.|Kies de pijlpunt en kies vervolgens <b>Weergeven onder 'Meer tonen'</b>. <br /> <br />Als u de optie <b>Weergeven onder "Meer tonen"</b> niet ziet, is deze al ingesteld. In dit geval kunt u een veld altijd laten weergeven, en niet alleen wanneer u **Meer tonen** selecteert, door <b>Altijd weergeven</b> te kiezen.||
 |Het bevroren deelvenster in een lijst in een andere kolom wijzigen. |Kies de pijlpunt van de kolom die u als laatste van het bevroren deelvenster hebben wilt, en kies vervolgens <b>Bevroren deelvenster instellen</b>.<br /><br/>Als u het bevroren deelvenster terug wilt verplaatsen naar de oorspronkelijke positie waarvoor het bestemd was, kiest u de pijlpunt voor de kolom met het huidige bevroren deelvenster en kiest u <b>Bevroren deelvenster wissen</b>. Opmerking: u kunt dit bevroren deelvenster niet verwijderen.|Het bevroren deelvenster geeft de kolommen aan die altijd links worden weergegeven, zelfs als u horizontaal schuift.|  
 |Een veld overslaan wanneer u op Enter drukt.|Kies de pijlpunt naast het veld of de kolomkop in een lijst en kies **Uitsluiten van snelinvoer**. <br /><br /> Als u deze optie niet ziet, is het veld al ingesteld om te worden overgeslagen. In dit geval kunt u het overslaan van het veld stoppen door **Opnemen in snelinvoer** te kiezen. |Zie [Gegevensinvoer versnellen met snelinvoer](ui-enter-data.md#QuickEntry)|
-|Weergaven die gefilterde lijsten vertegenwoordigen, opnieuw rangschikken en verwijderen.|Kies de pijlpunt naast een weergave en kies vervolgens **Verplaatsen**, **Verwijderen** of **Verbergen**.|Zie [Lijstweergaven opslaan en personaliseren](ui-views.md)|
+|Weergaven die gefilterde lijsten vertegenwoordigen, opnieuw rangschikken en verwijderen.|Kies de pijlpunt naast een weergave en kies vervolgens **Verplaatsen**, **Verwijderen** of **Verbergen**.|Zie [Lijstweergaven opslaan en personaliseren](ui-views.md)|  
+|Voeg een nieuwe actie toe aan een pagina of rapport in uw rolcentrum.|Kies op de doelpagina, de rapportverzoekpagina of het venster Vertel me het bladwijzerpictogram.|Zie [Een bladwijzer maken van een pagina of rapport in uw rolcentrum](ui-bookmarks.md)|
 
 ## <a name="Actions"></a>Acties personaliseren
 
@@ -75,6 +76,9 @@ Er zijn enkele termen waarmee u vertrouwd moet zijn om actiepersonalisatie beter
 Een *actiegroep* is een element dat wordt vergroot om meer acties of groepen weer te geven. Op de pagina **Verkooporders** is de actie **Functies** die wordt weergegeven wanneer u de actie **Acties** kiest, bijvoorbeeld een actiegroep.
 
 Een *gepromoveerde categorie* is een actiegroep die vóór de verticale lijn `|` op de actiebalk wordt weergegeven. De categorieën omvatten meestal de meest gebruikte acties, zodat u deze snel kunt vinden. Bijvoorbeeld op de pagina **Verkooporders** zijn de acties **Order**, **Vrijgeven**en **Boeken** gepromoveerde categorieën.
+
+> [!NOTE]
+> U kunt de actiebalk die in onderdelen op de pagina verschijnt, niet personaliseren (bijvoorbeeld het gedeelte met verkoopregels op de pagina **Verkooporder**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Acties en actiegroepen verwijderen, verbergen en weergeven
 Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijlpunt wat u kunt doen, afhankelijk van de status van de actie.
@@ -90,8 +94,8 @@ Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijl
 ### <a name="to-move-actions-and-action-groups"></a>Acties en actiegroepen verplaatsen
 Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizontale lijn tussen twee acties of een rand rond een actiegroep. Hier gelden de volgende beperkingen:
 
-    - U kunt individuele acties verplaatsen naar gepromoveerde categorieën, maar u kunt de volgorde van de acties in de categorie niet wijzigen.
-    - U kunt een actiegroep niet naar een gepromoveerde categorie verplaatsen.
+- U kunt individuele acties verplaatsen naar gepromoveerde categorieën, maar u kunt de volgorde van de acties in de categorie niet wijzigen.
+- U kunt een actiegroep niet naar een gepromoveerde categorie verplaatsen.
 
 1. Als u een actie of actiegroep wilt verplaatsen, sleept u deze naar de gewenste positie, net als met velden en kolommen.
 2. Als u een actie of actiegroep verplaatst naar een andere actiegroep die leeg is, sleept u de actie of actiegroep naar de nieuwe groep en zet u deze neer in het kader **Hier een actie neerzetten**.
@@ -104,6 +108,7 @@ Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen 
 
 |Optie|Wat het doet|
 |------|------------
+|**Alleen navigatiemenu**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in het navigatiemenu dat wordt gedeeld door het rolcentrum en andere pagina's. Dit omvat alle nieuwe acties die als bladwijzers zijn toegevoegd en eventuele wijzigingen in koppelingen en groepen in het menu.|  
 |**Alleen acties**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in de actiebalk op de pagina.|
 |**Alleen velden, kolommen en onderdelen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de actiebalk. Dit omvat wijzigingen in velden, kolommen, onderdelen en tegels. |
 |**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dit omvat wijzigingen in de actiebalk, velden, kolommen, onderdelen en tegels.|
@@ -116,7 +121,7 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 - Wijzigingen in een deelvenster van een pagina worden op de pagina toegepast overal waar deze wordt weergegeven.  
 - U kunt alleen velden en kolommen toevoegen uit een vooraf gedefinieerde lijst die op de pagina is gebaseerd. U kunt geen nieuwe maken.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  

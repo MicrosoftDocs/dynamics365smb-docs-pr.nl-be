@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554458"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076695"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
 Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor gegevensuitwisseling in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk te maken, kunt u XML-schema's gebruiken om te bepalen welke gegevenselementen u wilt uitwisselen met [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiervoor opent u de pagina **XML-schemaviewer** en laadt u het XML-schemabestand, selecteert u de relevante gegevenselementen en initialiseert u vervolgens een definitie voor gegevensuitwisseling of een XMLport.  
@@ -40,7 +40,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 1.  Zorg dat het relevante XML-schemabestand beschikbaar is. De bestandextensie is .xsd.  
 
-2.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), voer **XML-schema's** in en kies de desbetreffende koppeling.  
+2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
 
 3.  Kies de actie **Nieuw**.  
 
@@ -62,7 +62,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Knooppunten in een XML-schema selecteren of wissen  
 
-1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), typ **XML-schemaviewer** en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schemaviewer** in en kies de gerelateerde koppeling.  
 
 2.  Vul de velden in voor de kop, zoals in de volgende tabel is beschreven.  
 
@@ -100,7 +100,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>De definitie van een gegevensuitwisseling genereren die is gebaseerd op een XML-schema  
 
-1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), typ **XML-schema's** en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
 
 2.  Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen**.  
 
@@ -115,7 +115,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Een XMLport genereren die is gebaseerd op een XML-schema  
 
-1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel mij wat u wilt doen"), typ **XML-schema's** en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
 
 2.  Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen**.  
 
@@ -129,6 +129,6 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ## <a name="see-also"></a>Zie ook  
 [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)   
-[Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)   
+[Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md)

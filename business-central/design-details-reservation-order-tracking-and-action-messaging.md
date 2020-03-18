@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878449"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076961"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: Reservering, ordertracering en planningsboodschappen
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  
@@ -80,7 +80,7 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
 -   Een productieorder met meerdere niveaus waarvoor het veld **Productiebeleid** van het bovenliggende artikel en de onderliggende artikelen is ingesteld op **Op order produceren**. Het planningssysteem maakt reserveringen tussen de bovenliggende productieorder en de onderliggende productieorders om te zorgen dat ze samen worden verwerkt. Een dergelijke reserveringsbinding negeert de standaardwaarderings- en vereffeningsmethode voor het artikel.  
 
--   Een productie, assemblage of inkooporder waarvoor het veld **Bestelbeleid** van het betreffende artikel is ingesteld op **Order**. Het planningssysteem maakt reserveringen tussen de vraag en de geplande voorziening om te zorgen dat de specifieke voorziening wordt gemaakt. Zie voor meer informatie [Ontwerpdetails: Order](design-details-order.md).  
+-   Een productie, assemblage of inkooporder waarvoor het veld **Bestelbeleid** van het betreffende artikel is ingesteld op **Order**. Het planningssysteem maakt reserveringen tussen de vraag en de geplande voorziening om te zorgen dat de specifieke voorziening wordt gemaakt. Zie voor meer informatie [Order](design-details-handling-reordering-policies.md#order).  
 
 -   Er wordt een productieorder gemaakt van een verkooporder met de functie **Verkooporderplanning** en met een automatische reservering aan de verkooporder gekoppeld.  
 

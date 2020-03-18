@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311224"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076501"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
 Snelle, foutloze betalingen doen door bestanden te exporteren die specifiek voor uitwisselingen met uw leverancier of bank zijn ingedeeld. Deze bestanden versnellen de betalings- en afstemmingprocessen, en voorkomen fouten die kunnen optreden als u handmatig de gegevens op een bankwebsite invoert.  
@@ -53,8 +53,8 @@ Er zijn een aantal stappen vereist als u aan de slag wilt.
 
 Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsgroep** en een **leveranciersboekingsgroep**. De instelling Land/regio voor de leverancier moet Denemarken (DK) zijn. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
 
-### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] toestaan betalingsgegevens te exproteren
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
+### <a name="to-allow-d365fin-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] toestaan betalingsgegevens te exproteren
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  
 3. Schakel het selectievakje **Exporteren betaling toestaan** in.  
 
@@ -65,19 +65,19 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 |----|---|---|---|---|
 |Girorekeningnr of FIK-crediteurennr? | Girorekeningnr | Girorekeningnr | FIK-crediteurennummer | FIK-crediteurennummer|
 |Bericht aan ontvanger toestaan? | Ja |Nee |Nee | Ja |
-|Bevat betalingreferentienummer? | Nr. | Ja, 16 cijfers. | Ja, 15 cijfers. | Nr.|
+|Bevat betalingreferentienummer? | Nr. | Ja, 16 cijfers. | Ja, 15 cijfers. | Nee|
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.  
 2. Open de kaart, vouw het tabblad **Betalingen** uit, kies in het veld **Betalingswijze** de betalingswijze.  
 3. Afhankelijk van uw selectie moet u andere velden invullen. Zie de bovenstaande tabel voor een omschrijving van de combinaties.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>De indeling opgeven die voor een bankrekening moet worden gebruikt
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.  
 2. Open de kaart voor de bankrekening.  
 3. In het veld **Exportindeling betaling** kiest u de indeling voor uw exportbestand.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>De betalingsgevens FIK of Giro voor facturen van leveranciers kiezen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
 2. Kies de leverancier. Dit moet een Deense leverancier zijn met een adres in Denemarken.
 3. Maak een factuur. De velden **Betalingswijze** en **Leveranciersnummer** worden ingevuld op basis van instellingen op de leverancierskaart. U kunt desgewenst wijzigingen aanbrengen.
 4. In het veld **Betalingsreferentie** voert u het nummer van 15 cijfers van de factuur van de leverancier in.  
@@ -88,7 +88,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 5. Boek de factuur.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>De extensie gebruiken om betalingsgegevens te exporteren
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Leveranciersbetalingsdagboeken voorstellen**.  
 
     > [!Tip]
@@ -98,10 +98,8 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 4. Selecteer **Elektronische betaling** in het veld **Betalingssoort**.  
 5. Kies de actie **Exporteren**.  
 
-## <a name="see-also"></a>Zie ook 
+## <a name="see-also"></a>Zie ook
 [Business Central aanpassen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met extensies](ui-extensions.md)  
-[SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)  
-[SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[SEPA-betalingsontvangsten via automatische incasso boeken](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  

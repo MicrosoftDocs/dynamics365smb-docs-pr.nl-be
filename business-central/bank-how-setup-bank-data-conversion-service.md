@@ -7,40 +7,40 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
+ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ff91eff703f7f490a3c47cd515523f7fca0316e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: c59f51b0ff1651a6f7cf2a1b347684f179bbda53
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911299"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076818"
 ---
-# <a name="set-up-the-bank-data-conversion-service"></a>Conversieservice voor bankgegevens instellen
-Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hiernaar wordt verwezen in [!INCLUDE[d365fin](includes/d365fin_md.md)] als conversieservice bankgegevens.
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>De AMC Banking 365 Fundamentals-extensie instellen
+Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] de AMC Banking 365 Fundamentals-extensie genoemd.
 
-U kunt betalingsregels uit de pagina **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md).
+U kunt betalingsregels uit de pagina **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-U kunt bankafschriftbestanden op de pagina **Betalingsreconciliatiedagboek** importeren door de conversieservice voor bankgegevens te gebruiken om een bestand te converteren dat u van de bank ontvangt, naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+U kunt bankafschriftbestanden op de pagina **Betalingsreconciliatiedagboek** importeren door de AMC Banking 365 Fundamentals-extensie te gebruiken om een bestand dat u van de bank ontvangt, te converteren naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Als alternatief voor het importeren van bankafschriften met de conversieservice bankgegevens, kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
+Als alternatief voor het importeren van bankafschriften met de AMC Banking 365 Fundamentals-extensie kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
 Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening en de bankrekeningen van uw leveranciers instellen. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
-> De conversieservice voor bankgegevens kan een limiet aan het aantal regels opleggen dat in een bestand mag worden geëxporteerd. Er wordt een foutbericht gestuurd als de limiet wordt overschreden. Het wordt aangeraden dat bankafschriftbestanden de 1000 regels niet overschrijden omdat de verwerkingstijd in de conversieservice van de bankgegevens anders beduidend kan toenemen.
+> De AMC Banking 365 Fundamentals-extensie kan een limiet aan het aantal regels opleggen dat in een bestand mag worden geëxporteerd. Er wordt een foutbericht gestuurd als de limiet wordt overschreden. Het wordt aangeraden dat bankafschriftbestanden de 1000 regels niet overschrijden omdat de verwerkingstijd in de AMC Banking 365 Fundamentals-extensie anders beduidend kan toenemen.
 
-## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Uw bedrijf aanmelden voor de conversieservice van bankgegevens
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Uw bedrijf inschrijven voor de AMC Banking 365 Fundamentals-extensie
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Conversieservice voor bankgegevens instellen** in en kies de desbetreffende koppeling.  
-2. De pagina **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de conversieservice voor bankgegevens.
+2. De pagina **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de AMC Banking 365 Fundamentals-extensie.
 
     > [!NOTE]  
-    >   In de demonstratiedatabase CRONUS International Ltd. worden de velden Gebruikersnaam en Wachtwoord vooraf ingevuld met demoaanmeldgegevens, die u vervangt door de werkelijke gegevens van uw bedrijf wanneer u zich aanmeldt bij de conversieservice voor bankgegevens.
+    >   In de demonstratiedatabase CRONUS International Ltd. worden de velden Gebruikersnaam en Wachtwoord vooraf ingevuld met demoaanmeldgegevens, die u vervangt door de werkelijke gegevens van uw bedrijf wanneer u zich aanmeldt bij de AMC Banking 365 Fundamentals-extensie.
 3. Kies in het veld **Inschrijvings-URL** de browserknop om de aanmeldingspagina van de serviceprovider te openen.  
 4. Voer op de inschrijvingspagina van de serviceprovider van bankgegevens de gebruikersnaam en het wachtwoord in van het abonnement van uw bedrijf op de service en voltooi vervolgens het aanmeldingsproces volgens de instructies van de serviceprovider.
 
-    Uw bedrijf is nu aangemeld voor de conversieservice van bankgegevens. Ga door met het invoeren van de gebruikersnaam en het wachtwoord, die u voor de service hebt opgegeven in de gerelateerde instellingsvelden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Uw bedrijf is nu ingeschreven voor de AMC Banking 365 Fundamentals-extensie. Ga door met het invoeren van de gebruikersnaam en het wachtwoord, die u voor de service hebt opgegeven in de gerelateerde instellingsvelden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 5. Voer op de pagina **Instelling gegevensconv.service bank** in het veld **Naam** dezelfde waarde in die u in stap 4 als aanmeldnaam op de pagina van de serviceprovider hebt ingevoerd.
 6. Voer in het veld **Wachtwoord** dezelfde waarde in die u in stap 4 in het veld **Wachtwoord** op de pagina van de serviceprovider hebt ingevoerd.
@@ -58,7 +58,7 @@ De lijst met indelingen voor bankgegevens die worden ondersteund door de AMC Ban
 > [!NOTE]  
 >   De bijwerking van ondersteunde bankgegevensindelingen treedt ook op wanneer u een waarde selecteert of invoert in het veld **Banknaam - Gegevensconversie** voor de bankrekening.
 
-U bent nu aangemeld voor de conversieservice van bankgegevens. Ga verder om de inschrijvingsinformatie door te voeren voor elke bankrekening die de service zal gebruiken.
+Uw hebt zich nu ingeschreven voor de AMC Banking 365 Fundamentals-extensie. Ga verder om de inschrijvingsinformatie door te voeren voor elke bankrekening die de service zal gebruiken.
 
 ## <a name="see-also"></a>Zie ook
 [Bankieren instellen](bank-setup-banking.md)  

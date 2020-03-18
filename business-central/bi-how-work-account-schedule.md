@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 02/12/2020
 ms.author: edupont
-ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 21e83f37405c01d5df00e6b392ded3ce3996d0c2
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953839"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071970"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken in uw rolcentrum, zoals het Cashflowdiagram, en in rapporten, zoals de Resultatenrekening en de Balans.
@@ -35,8 +35,12 @@ U kunt ook twee of meer rapportageschema's en kolomindelingen vergelijken met fo
 * Zo veel rapportageschema's maken als u nodig hebt, elk met een eigen naam.
 * Verschillende rapportindelingen instellen en de rapporten afdrukken met de huidige cijfers.
 
-## <a name="account-categories"></a>Rekeningcategorieën
-U kunt rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld op de pagina **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport Balans, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen. Zie [Rekeningcategorieën](finance-general-ledger.md#account-categories) voor meer informatie.  
+## <a name="gl-account-categories"></a>GB-rekeningcategorieën
+U kunt GB-rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld op de pagina **GB-rekeningcategorieën** en u kiest de actie **Rapportageschema's genereren**, worden de onderliggende rapportageschema's voor de financiële kernrapporten bijgewerkt. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport **Balans**, worden nieuwe totalen en subposten toegevoegd op basis van uw wijzigingen.
+
+> [!NOTE]
+> De accountcategorieën op het hoogste niveau, zoals het knooppunt **Passiva** zijn opgelost en u kunt uw eigen knooppunt niet toevoegen. U kunt rekeningcategorieën echter op lagere niveaus verwijderen en toevoegen en hun structuur wijzigen om te definiëren hoe het gerelateerde rapportageschema in rapporten wordt weergegeven.<br /><br />
+> Het wordt aanbevolen om uw eigen categorieën van grootboekrekeningen op lager niveau helemaal zelf te maken en te structureren, indien nodig in een hiërarchie, in plaats van te proberen de bestaande categorieën te herschikken. U kunt bijvoorbeeld het knooppunt **Passiva** herstructureren met een nieuw knooppunt **Eigen vermogen**, gevolgd door de knooppunten **Vlottende verplichtingen** en **LT-verplichtingen**.
 
 ## <a name="to-create-a-new-account-schedule"></a>Een nieuw rapportageschema maken  
 U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
@@ -192,7 +196,7 @@ Als u de berekening volgens normale tijdsperioden wilt uitvoeren, moet u in plaa
 > [!NOTE]
 > Het is niet altijd transparant welke perioden u vergelijkt omdat u een datumfilter op een rapport kunt instellen dat andere datums omvat dan de boekingsperioden die worden gereflecteerd in de gegevens in het rekeningschema. U maakt bijvoorbeeld een rapportageschema waarin u deze periode wilt vergelijken met dezelfde periode vorig jaar, dus u stelt het veld **Filter van vergelijkingsdatumperiode** in op *-1BJ*. Vervolgens voert u het rapport uit op 28 februari en stelt u het datumfilter in op januari en februari. Daardoor vergelijkt het rapportageschema januari en februari dit jaar met januari vorig jaar, wat de enige voltooide boekingsperiode van de twee voor vorig jaar is.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

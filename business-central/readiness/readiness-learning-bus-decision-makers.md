@@ -1,20 +1,20 @@
 ---
 title: Trainingscatalogus voor zakelijke besluitvormers
 description: Trainingscatalogus voor zakelijke besluitvormers
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: fee5c53d49e8a03fce2c7274f6e41689905dab7c
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767764"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097587"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Trainingscatalogus voor zakelijke besluitvormers
+
+Beslist u over investeringen in nieuwe technologieën?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 

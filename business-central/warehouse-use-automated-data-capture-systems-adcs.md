@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832347"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097804"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
 
 > [!NOTE]
-> In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt ADCS alleen in on-premises implementaties. Een Microsoft-partner kan het echter in online implementaties laten werken met behulp van Power Apps of iets soortgelijks.
+> De oplossing Automated Data Capture System (ADCS) biedt [!INCLUDE[d365fin](includes/d365fin_md.md)] een manier om te communiceren met draagbare apparaten via webservices. U moet samenwerken met een Microsoft-partner die de koppeling tussen de webservice en het specifieke draagbare apparaat kan verzorgen. 
 
 Met het ADCS-systeem kunt u alle verplaatsingen van artikelen in het magazijn registreren. Bovendien worden sommige dagboekactiviteiten vastgelegd, waaronder voorraadmutaties in het artikeldagboek van magazijnen en inventarisaties. ADCS omvat meestal scannen van een barcode.
 
@@ -32,7 +32,23 @@ Op basis van de magazijnbehoeften bepaalt u welke informatie wordt weergegeven i
 - Tekstgegevens.  
 - Berichten die bevestigingen of fouten weergeven over activiteiten die zijn uitgevoerd en geregistreerd door de gebruiker van draagbare apparatuur .
 
-Raadpleeg [Een geautomatiseerd systeem voor gegevensvastlegging configureren](/dynamics-nav/Configuring-Automated-Data-Capture-System) in de Help voor ontwikkelaars en IT-professionals voor meer informatie.
+## <a name="to-enable-web-services-for-adcs"></a>Webservices inschakelen voor ADCS
+Om Automated Data Capture System te gebruiken moet u de ADCS-webservice inschakelen.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>De ADCS-webservice inschakelen en publiceren  
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webservices** in en kies de desbetreffende koppeling.
+2. Kies de actie **Nieuw**.  
+3. Voer op de pagina **Webservices** de volgende informatie in op een nieuwe regel:  
+
+    |Veld|Waarde|  
+    |---------------------------------|-----------|  
+    |**Objecttype**|Codeunit|  
+    |**Object-id**|7714|  
+    |**Servicenaam**|ADCS **Belangrijk:** U moet de service een naam geven **ADCS**.|  
+
+5. Selecteer het vakje **Gepubliceerd**.  
+6. Kies de knop **Ok**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Magazijn instellen om ADCS te gebruiken  
 Als u ADCS wilt gebruiken, moet u opgeven welke magazijnlocaties de technologie gebruiken.  
@@ -79,7 +95,8 @@ U kunt elke gebruiker toevoegen als een gebruiker van een ADCS-systeem (Automate
 ## <a name="to-create-and-customize-miniforms"></a>Miniforms maken en aanpassen
 U kunt miniforms gebruiken om de informatie te beschrijven die u op een draagbaar apparaat wilt presenteren. U kunt bijvoorbeeld miniforms maken ter ondersteuning van de magazijnactiviteit artikelen picken. Nadat u een miniform hebt gemaakt, kunt u functies voor algemene acties toevoegen die een gebruiker met een draagbaar apparaat kan uitvoeren, zoals een regel omhoog of omlaag verplaatsen.  
 
-Als u de functionaliteit van een miniformfunctie wilt implementeren of wijzigen, moet u een nieuwe codeunit maken of een bestaande codeunit wijzigen voor het uitvoeren van de vereiste actie of reactie. U kunt meer informatie over ADCS-functionaliteit verkrijgen door het bestuderen van codeunits, zoals 7705, de afhandelingscodeunit voor aanmeldingsfunctionaliteit. Codeunit 7705 laat zien hoe een kaarttype-miniform werkt.  
+> [!NOTE] 
+> Als u de functionaliteit van een miniformfunctie wilt implementeren of wijzigen, moet u een nieuwe codeunit maken voor het veld **Afhandeling codeunit** om de vereiste actie of reactie uit te voeren. U kunt meer leren over ADCS-functionaliteit door codeunits te onderzoeken, zoals 7705, 7706, 7712 en 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Een miniform voor ADCS maken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Miniforms** in en kies de gerelateerde koppeling.  
@@ -92,25 +109,11 @@ Als u de functionaliteit van een miniformfunctie wilt implementeren of wijzigen,
 
 Wanneer u een miniform hebt gemaakt, volgt u de volgende stappen om functies te maken en functionaliteit aan verschillende toetsenbordinvoerwaarden te koppelen.  
 
-### <a name="to-add-support-for-a-function-key"></a>Ondersteuning voor een functietoets toevoegen  
-1.  Voeg aan het bestand the.xsl voor de invoegtoepassing code toe die vergelijkbaar is met het volgende voorbeeld. Hiermee maakt u een functie voor de **F6**-toets. De toetsencombinatie-informatie kan worden verkregen via de apparaatfabrikant.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Open in de ontwikkelomgeving [!INCLUDE[d365fin](includes/d365fin_md.md)] tabel 7702 en voeg een code toe die de nieuwe toets vertegenwoordigt. In dit voorbeeld maakt u een toets met de naam **F6**.  
-3.  Voeg C/AL-code toe aan de desbetreffende functie van de miniformgebonden codeunit voor het afhandelen van de functietoets.  
-
 ### <a name="to-customize-miniform-functions"></a>Miniformfuncties aanpassen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Miniforms** in en kies de gerelateerde koppeling.  
 2.  Selecteer een miniform in de lijst en kies vervolgens de actie **Bewerken**.  
 3.  Kies de actie **Functies**.  
 4.  Selecteer in de vervolgkeuzelijst **Functie** een code voor de functie die u wilt koppelen aan het miniform. U kunt bijvoorbeeld ESC selecteren, zodat u functionaliteit koppelt aan het drukken op de toets ESC.  
-
-Bewerk in de ontwikkelomgeving [!INCLUDE[d365fin](includes/d365fin_md.md)] de code voor het veld **Afhandeling codeunit** om code te maken of te wijzigen voor het uitvoeren van de vereiste actie of reactie.
-
-Raadpleeg [Een geautomatiseerd systeem voor gegevensvastlegging configureren](/dynamics-nav/Configuring-Automated-Data-Capture-System) in de Help voor ontwikkelaars en IT-professionals voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

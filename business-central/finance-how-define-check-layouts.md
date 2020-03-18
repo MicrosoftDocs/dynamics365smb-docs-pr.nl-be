@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 10/01/2019
+ms.date: 02/20/2020
 ms.author: edupont
-ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: df141f15eda20b1c3ce17e12e726f79a20532915
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911153"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097756"
 ---
 # <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
@@ -38,8 +38,50 @@ Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit d
 
 Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de integratie van Word of RDLC om dit te doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
+## <a name="using-micr-and-security-fonts"></a>MICR en beveiligingslettertypen gebruiken
+De online versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het definiëren van cheque-indelingen. Het volgende geeft aan welke lettertypen beschikbaar zijn en bevat koppelingen naar gedetailleerde informatie van de externe leveranciers van de lettertypen.
+
+> [!Important]
+> MICR- en chequebeveiligingslettertypen in Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn gelicentieerd in een lettertypepakket van IDAutomation.com, Inc. Deze producten mogen alleen worden gebruikt als onderdeel van en in verband met Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+In update 15.3 en nieuwer zijn MICR-lettertypen (Magnetic Ink Character Recognition) geïnstalleerd en beschikbaar voor gebruik. Zowel E-13B als de CMC-7-standaarden worden ondersteund. Naast MICR-lettertypen zijn er speciale beveiligingslettertypen beschikbaar voor het genereren van tekst, namen, bedragen en de valutasymbolen dollar, euro, pond en yen, die moeilijk te manipuleren zijn nadat een cheque is afgedrukt.
+
+> [!NOTE]
+> Om veiligheids- en juridische redenen kunt u geen aangepaste lettertypen uploaden naar de [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgeving.
+
+### <a name="micr-e-13b-specifications"></a>MICR E-13B-specificaties
+Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
+
+![MICR E-13B-specificaties](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specificaties")
+
+De volledige specificatie van MICR E-13B-lettertypen vindt u in de documentatie van de leverancier: (https://www.idautomation.com/micr-fonts/e13b/).
+
+### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-specificaties
+De volgende CMC-7-lettertypen zijn beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+
+- IDAutomationCMC7
+- IDAutomationCMC7n10
+- IDAutomationCMC7n25
+-   IDAutomationCMC7n40
+
+Hieronder volgt een samenvatting van de specificaties voor de MICR CMC-7-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
+
+![MICR CMC-7-specificaties](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specificaties")
+
+De volledige specificatie van MICR CMC-7-lettertypen vindt u in de documentatie van de leverancier: (http://www.idautomation.com/micr-fonts/cmc7/).
+
+### <a name="secure-font-specifications"></a>Specificaties voor veilige lettertypen
+Hieronder volgt een samenvatting van de specificaties voor de chequebeveiligingslettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
+
+![Specificaties van chequebeveiligingslettertypen](media/font_check-security-font_Specifications.png "Specificaties van chequebeveiligingslettertypen")
+
+De volledige specificatie van chequebeveiligingslettertypen vindt u hier in de documentatie van de leverancier: (https://www.idautomation.com/security-fonts/).
+
+Lettertypen voor andere doeleinden zijn ook beschikbaar in [!INCLUDE[prodshort](includes/prodshort.md)]. Voor meer informatie zie [Beschikbare lettertypen](ui-fonts.md)
+
 ## <a name="see-also"></a>Zie ook
 [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  
+[Lettertypen in Business Central](ui-fonts.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)   
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  

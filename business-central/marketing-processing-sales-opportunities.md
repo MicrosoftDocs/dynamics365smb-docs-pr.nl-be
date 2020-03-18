@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308814"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076599"
 ---
 # <a name="process-sales-opportunities"></a>Verkoopopportunity's verwerken
 Nadat u een opportunity hebt gemaakt, zijn er verschillende functies voor het beheren van de opportunity en het verplaatsen ervan naar voltooiing.
@@ -27,9 +27,9 @@ De bestaande verkoopopportunities zijn beschikbaar op de pagina **Opportunity-ov
 
 | Opportunities weergeven voor | Dan |
 | --- | --- |
-| Alle verkopers en contacten |Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity-overzicht** in en kies vervolgens de gerelateerde koppeling. |
-| Een bepaalde verkoper |Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies vervolgens de gerelateerde koppeling. Selecteer de verkoper, kies de actie **Opportunities** en kies vervolgens de actie **Overzicht**. |
-| Een bepaald contact |Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling. Selecteer het contact in de lijst en kies vervolgens de actie **Opportunities**. |
+| Alle verkopers en contacten |Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity-overzicht** in en kies de desbetreffende koppeling. |
+| Een bepaalde verkoper |Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies de desbetreffende koppeling. Selecteer de verkoper, kies de actie **Opportunities** en kies vervolgens de actie **Overzicht**. |
+| Een bepaald contact |Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling. Selecteer het contact in de lijst en kies vervolgens de actie **Opportunities**. |
 
 Al deze taken openen de pagina **Opportunity-overzicht**.
 
@@ -50,7 +50,7 @@ U kunt verkoopoffertes maken voor contactpersonen die niet zijn geregistreerd al
 2. Vul de betreffende velden in.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Verkooporders voor opportunity's maken
-U kunt verkooporders maken van de verkoopoffertes die u hebt gemaakt voor de opportunities. Voordat u verkooporders voor uw contacten kunt maken, moet u het contact eerst als klant maken. Zie voor meer informatie [Een klant, leverancier of bankrekening maken van een contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+U kunt verkooporders maken van de verkoopoffertes die u hebt gemaakt voor de opportunities. Voordat u verkooporders voor uw contacten kunt maken, moet u het contact eerst als klant maken. Zie voor meer informatie [Contacten maken](marketing-create-contact-companies.md).
 
 1. Zoek de pagina **Opportunity-overzicht** de opportunity waarvoor u een verkoopofferte hebt gemaakt.
 2. Kies de actie **Verkoopofferte toekennen**. De pagina **Verkoopofferte** wordt geopend met de verkoopofferte die u aan de opportunity hebt toegewezen.
@@ -65,7 +65,7 @@ Als u gesloten afgesloten opportunities wilt verwijderen vanuit de pagina **Oppo
 
 Als u afgesloten opportunities wilt verwijderen met de batchverwerking **Afgesloten opportunities verwijderen**, volgt u deze stappen:
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity's verwijderen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunities verwijderen** in en kies de desbetreffende koppeling.
 2. Stel in het gedeelte **Opportunity** de filters in die opgeven welke gesloten opportunities moeten worden verwijderd.
 3. Kies de knop **Ok**.
 

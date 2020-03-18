@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999916"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076719"
 ---
 # <a name="about-the-data-exchange-framework"></a>Over het kader voor gegevensuitwisseling
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners.
@@ -40,13 +40,13 @@ Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefunct
   Als u bijvoorbeeld, een factuur wilt ontvangen als een elektronisch OCR-document, verwerkt u het als u een elektronisch PEPPOL-document ontvangt. De ontvangst en gegevensconversie van elektronische documenten via OCR worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **OCR – Factuur**.  
 
  ## <a name="bank-files"></a>Bankbestanden  
- De bestandsindelingen voor de uitwisseling van bankgegevens met ERP-systemen verschillen, afhankelijk van de leverancier en het land of de regio van het bestand. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de import en export van SEPA-bankbestanden (Single Euro Payments Area) en met de AMC Banking 365 Fundamentals-uitbreiding kunt u verbinding maken met een service voor de omzetting van bankgegevens die door een externe leverancier wordt aangeboden, AMC Consult. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.  
+ De bestandsindelingen voor de uitwisseling van bankgegevens met ERP-systemen verschillen, afhankelijk van de leverancier en het land of de regio van het bestand. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de import en export van SEPA-bankbestanden (Single Euro Payments Area) en met de AMC Banking 365 Fundamentals-uitbreiding kunt u verbinding maken met een AMC Banking 365 Fundamentals-extensie die door een externe leverancier wordt aangeboden, AMC Consult. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.  
 
- Om SEPA-kredietoverboekingen te exporteren, kiest u de knop **Betalingen exporteren naar bestand** op de pagina **Betalingsdagboek** en uploadt u vervolgens het bestand voor verwerking van de betalingen in uw bank. Eerst moet u diverse stamgegevens instellen, zoals bankrekening, leveranciers en betalingswijzen. De conversie en export van SEPA-bankgegevens worden uitgevoerd door een speciale codeunit en XMLport die worden gerepresenteerd door de instelling van bankexport/-import **SEPA-krediettransfer**. U kunt ook de AMC Banking 365 Fundamentals-uitbreiding instellen om de export uit te voeren, met de definitie voor gegevensuitwisseling van **Service voor conversie van bankgegevens - Kredietoverdracht** data exchange definition.  
+ Om SEPA-kredietoverboekingen te exporteren, kiest u de knop **Betalingen exporteren naar bestand** op de pagina **Betalingsdagboek** en uploadt u vervolgens het bestand voor verwerking van de betalingen in uw bank. Eerst moet u diverse stamgegevens instellen, zoals bankrekening, leveranciers en betalingswijzen. De conversie en export van SEPA-bankgegevens worden uitgevoerd door een speciale codeunit en XMLport die worden gerepresenteerd door de instelling van bankexport/-import **SEPA-krediettransfer**. U kunt ook de AMC Banking 365 Fundamentals-uitbreiding instellen om de export uit te voeren, met de definitie voor gegevensuitwisseling **AMC Banking 365 Fundamentals-extensie** - Kredietoverdracht.  
 
  Om SEPA-instructies voor een incasso-opdracht te exporteren, kiest u de knop **Bestand van incasso exporteren** op de pagina **Incasso-opdrachten** en verzendt u deze vervolgens naar uw bank om de betreffende klantbetalingen automatisch te incasseren. Eerst moet u bankrekeningen, klanten, incassomachtigingen en betalingswijzen instellen. De gegevensconversie en export van SEPA-bankgegevens worden uitgevoerd door een speciale codeunit en XMLport die wordt gerepresenteerd door de instelling van bankexport/-import **SEPA-incasso**.  
 
- Om SEPA-bankafschriften te importeren, kiest u de knop Bankafschrift importeren op de pagina **Betalingsreconciliatiedagboek** en **Bankreconciliatie**. Vervolgens vereffent u elke post op het bankafschrift handmatig of automatisch met betalingen of bankposten. Eerst moet u bankrekeningen instellen. De import en gegevensconversie van SEPA-bankgegevens worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **SEPA CAMT**. U kunt ook de AMC Banking 365 Fundamentals-uitbreiding instellen om de import uit te voeren, met de definitie voor gegevensuitwisseling van **Service voor conversie van bankgegevens - Bankafschrift**.  
+ Om SEPA-bankafschriften te importeren, kiest u de knop Bankafschrift importeren op de pagina **Betalingsreconciliatiedagboek** en **Bankreconciliatie**. Vervolgens vereffent u elke post op het bankafschrift handmatig of automatisch met betalingen of bankposten. Eerst moet u bankrekeningen instellen. De import en gegevensconversie van SEPA-bankgegevens worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **SEPA CAMT**. U kunt ook de AMC Banking 365 Fundamentals-uitbreiding instellen om de import uit te voeren, met de definitie voor gegevensuitwisseling **AMC Banking 365 Fundamentals-extensie** - Bankafschrift.  
 
  Daarnaast ondersteunen lokale versies van [!INCLUDE[d365fin](includes/d365fin_md.md)] verschillende andere bestandsindelingen voor het importeren en exporteren van bankgegevens, salaristransacties en andere gegevens. Zie voor meer informatie het Help-onderwerp Lokale functionaliteit in de versie voor uw land of regio van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

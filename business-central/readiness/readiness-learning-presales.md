@@ -1,20 +1,20 @@
 ---
-title: Trainingscatalogus Pre-sales
-description: Trainingscatalogus Pre-sales
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+title: Pre-sales trainingscatalogus voor partners
+description: Vind alle beschikbare leermogelijkheden voor Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: 8608fbc4198f4e3daf9fe0edd1f261367f3fcb55
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.author: v-lshann
+ms.openlocfilehash: fa20bdc9852098ac3d1a78d2038fcf4182ce2f1f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832275"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097828"
 ---
-# <a name="pre-sales-learning-catalog"></a>Trainingscatalogus Pre-sales
+# <a name="partner-pre-sales-learning-catalog"></a>Pre-sales trainingscatalogus voor partners
+
+Bent u verantwoordelijk voor het demonstreren van belangrijke functies aan klanten? 
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet. 
 
@@ -39,7 +39,6 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 | Inhoud                                                                                                                                | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Alleen partners) In deze sessie wordt de waarde van Business Central uiteengezet. Business Central biedt hoge waarde, omdat het geïntegreerd kan worden met andere Microsoft cloudservices, zoals Office 365, en kan worden aangepast of uitgebreid voor de behoeften van een bepaalde sector met Power Apps, Power Automate en Power BI. | Video                                 | 8 minuten, 5 seconden |
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.                                                                                                                                                                                                | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
@@ -47,31 +46,34 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 | Inhoud                                                                                                                                | Omschrijving                                 | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Microsoft Dynamics 365 Blitz: Nieuwe release Gereedheid - Technisch](https://mbspartner.microsoft.com/EFS/Topic/12)                                                            | Door het hoge tempo van technologische veranderingen moet u op de hoogte blijven van de nieuwste innovaties op het gebied van digitale transformatie van Microsoft Dynamics 365 waarvan uw klanten kunnen profiteren. Bekijk de Microsoft Dynamics Blitz-sessies, waarin productspecialisten hun kennis delen over het nieuwste Microsoft Dynamics 365-aanbod en ontdek al het nieuws dat nu wordt aangeboden en dat op stapel staat en laat u informeren over de meest recente verbeteringen in de sector, services en gereedheid. Blijf het hele jaar door leren met de Blitz On-Demand-sessies. We willen deze innovaties heel graag met u delen! Kom hier vaak terug voor de meest recente materialen in de nieuwe releases van Microsoft Dynamics 365 gereedheid. | Video: ook beschikbaar op YouTube      | 5 minuten, 25 seconden  |
 | [Dynamics 365: releasewave 2-plan 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)                                                               | Het Dynamics 365 releaseplan (voorheen releaseopmerkingen) voor de releasewave 2 van 2019 beschrijft alle nieuwe functies die van oktober 2019 tot en met maart 2020 uitkomen.                                                                                                                                          | Website en downloadbaar whitepaper  |                       |
 
 ## Demo<a name="demo"></a>
 
 | Inhoud                                                                                                                                                           | Omschrijving                                                                                                                                                                                                                                                     | Opmaak                           | Lengte                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
-| [De Sales Demo Playbook (Deel 1 van 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)                                                                | Twintig vooraf geconfigureerde, gescripte demoscènes rond Business Central. Kies uit volledige doorklikassistentie (download 1) en assistentie zonder doorklikken (download 2). | Downloaden |
-| [De Sales Demo Playbook (Deel 2 van 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)                                                               | Twintig vooraf geconfigureerde, gescripte demoscènes rond Business Central. Kies uit volledige doorklikassistentie (download 1) en assistentie zonder doorklikken (download 2). | Downloaden |       |
-| [Demo: Verkooporders met directe leveringen (demo)](https://www.youtube.com/watch?v=i6h3VkDE5R8&feature=youtu.be)                    | John Craig laat zien u hoe u een directe levering voor een verkooporder maakt. | YouTube-video | 4 minuten, 37 seconden      |
-| [Demo: Een verkooporder vanaf een mobiel apparaat invoeren (demo)](https://www.youtube.com/watch?v=xuKJ4xtsS48&feature=youtu.be)                    | John Craig laat zien u hoe u een verkooporder vanaf een mobiel apparaat invoert. | YouTube-video | 2 minuten, 33 seconden   |
-| [Demo: Intercompany-transacties](https://www.youtube.com/watch?v=Qyrn0wIh7SM&feature=youtu.be)| John Craig laat u transacties tussen bedrijven zien (intercompany-transacties). | YouTube-video | 4 minuten, 6 seconden  |
-| [Demo: Bestaande taak beheren](https://www.youtube.com/watch?v=92tlwgqWv8U&feature=youtu.be)| John Craig laat zien u hoe u een bestaande taak of een bestaand project beheert. | YouTube-video |3 minuten, 56 seconden |
-| [Demo: Voorraad beheren](https://www.youtube.com/watch?v=X4aXeVnZCrY&feature=youtu.be) | John Craig laat zien u hoe u uw voorraad beheert. | YouTube-video |6 minuten, 27 seconden |
-| [Demo: Meerdere bedrijven](https://mbspartner.microsoft.com/D365/Videos/101807) | John Craig laat zien u hoe u meerdere bedrijven consolideert.| YouTube-video |2 minuten en 22 seconden |
-| [Demo: Verkoopkans naar offerte](https://www.youtube.com/watch?v=Pk_GT9a_oMA&feature=youtu.be) | Join Craig leidt u door de functies voor het beheren van verkoopkansen in Business Central.| YouTube-video |3 minuten, 30 seconden |
-| [Demo: Bestelling naar contanten vanuit Business Central](https://www.youtube.com/watch?v=3L3KcutlQ7U&feature=youtu.be) | John Craig laat u zien hoe 'Offerte naar contanten' werkt, helemaal vanuit Microsoft Outlook.| YouTube-video |6 minuten |
-| [Demo: Bestelling naar contanten vanuit Dynamics 365 Sales](https://www.youtube.com/watch?v=2zM2AG_LmJA&feature=youtu.be) | John Craig laat u zien hoe 'Offerte naar contanten' werkt, gebruikmakend van Dynamics 365 for Sales en de integratie met Business Central.| YouTube-video |6 minuten, 7 seconden|
-| [Demo: Aanschaffen tot betaling](https://www.youtube.com/watch?v=QLA7vczIh3k&feature=youtu.be) | Join Craig laat u zien hoe het proces 'aanschaffen tot betaling' werkt in Business Central.| YouTube-video |5 minuten, 33 seconden |
-| [Demo: Een nieuw bedrijf instellen](https://www.youtube.com/watch?v=5xOyCqTSCSE&feature=youtu.be) | Join Craig laat u zien hoe u een nieuw bedrijf instelt in Business Central. | YouTube-video | 5 minuten, 33 seconden |
-| [Demo: De accountant](https://www.youtube.com/watch?v=2QUeQSt4oCc&feature=youtu.be) | Join Craig laat u zien hoe de rol van de accountant werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 9 minuten, 33 seconden |
-| [Demo: De boekhouder](https://www.youtube.com/watch?v=LIFZFghIAPo&feature=youtu.be) | Join Craig laat u zien hoe de rol van de boekhouder werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 6 minuten, 47 seconden |
-| [Demo: De externe accountant](https://www.youtube.com/watch?v=WQVopG1edwo&feature=youtu.be) | Join Craig laat u zien hoe de rol van de externe accountant werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 2 minuten, 47 seconden |
-| [Demo: De marketingmanager](https://www.youtube.com/watch?v=_j3HeB9tjlE&feature=youtu.be) | Join Craig laat u zien hoe de rol van de marketingmanager werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 5 minuten, 25 seconden |
-| [Demo: De eigenaar](https://www.youtube.com/watch?v=hrNx-GkHIuI&feature=youtu.be) | Join Craig laat u zien hoe de rol van de eigenaar werkt en hoe deze zich gedraagt in Business Central.| YouTube-video | 8 minuten, 38 seconden |
-| [Demo: De projectmanager](https://www.youtube.com/watch?v=3WZjrVMirpo&feature=youtu.be) | Join Craig laat u zien hoe de rol van de projectmanager werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 5 minuten, 53 seconden |
-| [Demo: De salesmanager](https://www.youtube.com/watch?v=Vfv3l0uQ50g&feature=youtu.be) | Join Craig laat u zien hoe de rol van de salesmanager werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 5 minuten, 25 seconden |
-| [Demo: De verkoopvertegenwoordiger](https://www.youtube.com/watch?v=XbnSWvVE4Fc&feature=youtu.be) | Join Craig laat u zien hoe de rol van de verkoopvertegenwoordiger werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 5 minuten, 25 seconden |
+| [De Sales Demo Playbook (Deel 1 van 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)   | Twintig vooraf geconfigureerde, gescripte demoscènes rond Business Central. Kies uit volledige doorklikassistentie (download 1) en assistentie zonder doorklikken (download 2).|  Downloaden    | | 
+| [De Sales Demo Playbook (Deel 2 van 2)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)|  Twintig vooraf geconfigureerde, gescripte demoscènes rond Business Central. Kies uit volledige doorklikassistentie (download 1) en assistentie zonder doorklikken (download 2).| Downloaden | |
+| [Demo: De verkoopvertegenwoordiger - zomer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig laat u zien hoe de rol van de verkoopvertegenwoordiger werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 5 minuten, 45 seconden |
+| [Demo: De verkoopmanager - zomer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig laat u zien hoe de rol van de salesmanager werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 6 minuten, 44 seconden |
+| [Demo: De projectmanager - zomer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Craig laat zien hoe de rol van de projectmanager werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 5 minuten, 25 seconden |
+| [Demo: De eigenaar - zomer 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Join Craig laat u zien hoe de rol van de eigenaar werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 10 minuten, 32 seconden |
+| [Demo: De marketingmanager - zomer 2019](https://youtu.be/iEtUbitWz4o) | Join Craig laat u zien hoe de rol van de marketingmanager werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 7 minuten, 40 seconden |
+| [Demo: De externe accountant - zomer 2019](https://youtu.be/qegEAAEiQ0M) | Join Craig laat u zien hoe de rol van de externe accountant werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 2 minuten, 46 seconden |
+| [Demo: De boekhouder - zomer 2019](https://youtu.be/aOE3ZwP1ieE) | Join Craig laat u zien hoe de rol van de boekhouder werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 7 minuten, 42 seconden |
+| [Demo: De accountant - zomer 2019](https://youtu.be/EGY-DtMcfK8) | Join Craig laat u zien hoe de rol van de accountant werkt en hoe deze zich gedraagt in Business Central. | YouTube-video | 10 minuten, 17 seconden |
+| [Demo: Bank reconciliëren - zomer 2019](https://youtu.be/BKtiLmgiuyA) | Sluit u aan bij Craig terwijl hij laat zien hoe u bankrekeningen reconcilieert. | YouTube-video | 4 minuten, 15 seconden |
+| [Demo: Offerte naar contanten via Sales en Business Central - zomer 2019](https://youtu.be/WsL9OOkVG_Y)  |Craig laat zien hoe offerte naar contanten werkt, via Sales en Business Central. | YouTube-video |5 minuten, 59 seconden |
+| [Demo: Offerte naar contanten via Outlook - zomer 2019](https://youtu.be/U6y6Pneriu8) |Craig laat u zien hoe offerte naar contanten werkt, allemaal vanuit Microsoft Outlook.| YouTube | -video|    6 minuten, 28 seconden |
+| [Demo: Productieorder produceren - zomer 2019](https://youtu.be/ML_Zx_lqAHQ) | Sluit u aan bij Craig terwijl hij u laat zien hoe u productieproductieorders produceert in Business Central. | YouTube-video | 6 minuten, 24 seconden |
+| [Demo: Aanschaf naar betaling - zomer 2019](https://youtu.be/KOKW-EeEe4w) | Craig laat u zien hoe het proces aanschaf naar betaling werkt in Business Central. | YouTube-video | 5 minuten, 26 seconden |
+| [Demo: Order naar contanten - zomer 2019](https://youtu.be/K1SgJnXAyQU) |Sluit u aan bij Craig terwijl hij een heel gebruikelijk bedrijfsproces laat zien, genaamd 'order naar contanten'.  |YouTube-video  |4 minuten, 44 seconden |
+| [Demo: Mogelijkheid om offertes te maken in Business Central - zomer 2019](https://youtu.be/ot9_FvvULIc) | Sluit u aan bij Craig terwijl hij u de mogelijkheden voor het beheer van opportunity's in Business Central laat zien, terwijl hij het veel gebruikte bedrijfsproces van opportunity naar offerte laat zien. | YouTube-video | 3 minuten, 31 seconden |
+| [Demo: Uw inventaris beheren - zomer 2019](https://youtu.be/spc_EPIf9fU) | John Craig laat zien u hoe u uw voorraad beheert. | YouTube-video | 6 minuten, 23 seconden |
+| [Demo: Op voorraad produceren - zomer 2019](https://youtu.be/C_WHURQ98-k)|    Sluit u aan bij Craig terwijl hij u laat zien hoe u op voorraad produceren uitvoert met Business Central.  |YouTube-video| 4 minuten, 42 seconden |
+| [Demo: Intercompany-transacties - zomer 2019](https://youtu.be/MOaToa2AXyg) | Craig laat zien hoe u transacties tussen bedrijven uitvoert. | YouTube-video | 4 minuten, 09 seconden |
+| [Demo: Een verkooporder vanaf een mobiel apparaat invoeren - zomer 2019](https://youtu.be/c4Lhs-q0hbw) | Craig laat zien u hoe u een verkooporder vanaf een mobiel apparaat invoert. | YouTube-video | 3 minuten |
+| [Demo: Verkooporders met directe leveringen - zomer 2019](https://youtu.be/Jmv2gn1qzoQ)    |Sluit u aan bij Craig terwijl hij u het proces voor verkooporders met directe levering in Business Central laat zien.  |YouTube-video  |4 minuten, 14 seconden |
+| [Demo: Klantengoedkeuringsproces - zomer 2019](https://youtu.be/_Oyj6DBAuPI) | Sluit u aan bij Craig terwijl hij een basisbedrijfsproces laat zien van het onboarden van een nieuwe klant. | YouTube-video | 3 minuten, 24 seconden |
+| [Demo: Consoliderende bedrijven - zomer 2019](https://youtu.be/A4SExgt7wV4) | Sluit u aan bij Craig terwijl hij u laat zien hoe u bedrijven consolideert met Business Central. | YouTube-video | 2 minuten, 15 seconden |
+| [Demo: Crediteuren automatiseren - zomer 2019](https://youtu.be/RB3_7UTpEjo) | Sluit u aan bij Craig terwijl hij u een manier laat zien waarop u het crediteurenproces kunt automatiseren met Business Central. | YouTube-video | 3 minuten, 51 seconden |

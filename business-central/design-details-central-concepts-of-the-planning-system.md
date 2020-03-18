@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880604"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076526"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
@@ -46,7 +46,7 @@ Alle vraag en aanbod vóór de begindatum van de planningsperiode wordt beschouw
 
 Met andere woorden, er wordt vanuit gegaan dat de planning voor het verleden is uitgevoerd op basis van de opgegeven planning  
 
-Zie [Ontwerpdetails: Werken met orders voor de geplande begindatum](design-details-dealing-with-orders-before-the-planning-starting-date.md) voor meer informatie.  
+Zie [Werken met orders vóór de geplande begindatum](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date) voor meer informatie.  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamische ordertracering (tracering van de behoefte)  
 Dynamische ordertracering met het gelijktijdig maken van planningsboodschappen in het planningsvoorstel maakt geen deel uit van het voorzieningsplanningssysteem in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze functie koppelt, in realtime, de vraag en de aantallen die ze kunnen verwerken, wanneer een nieuwe vraag of voorziening wordt gemaakt of gewijzigd.  
@@ -76,7 +76,7 @@ Het planningssysteem werkt echter met alle vraag en aanbod voor een bepaald arti
 
 Na de planning blijven geen planningsboodschappen achter in de tabel Planningsboodschappost, omdat ze door de voorgestelde acties in het planningsvoorstel zijn vervangen.  
 
-Zie Ordertraceringskoppelingen tijdens een planning in [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-supply-with-demand.md) voor meer informatie.  
+Zie Ordertraceringskoppelingen tijdens planning in [Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand) voor meer informatie.  
 
 ## <a name="sequence-and-priority-in-planning"></a>Volgorde en prioriteit in planning  
 Bij het vaststellen van een plan is de volgorde van de berekeningen belangrijk om de taak binnen een redelijke tijd te voltooien. Bovendien speelt de prioriteitsvolgorde van vereisten en resources een belangrijke rol in het behalen van de beste resultaten.  
@@ -90,7 +90,7 @@ In een productieomgeving leidt de vraag naar een voltooid, verkoopbaar artikel t
 
 De cijfers laten zien in welke volgorde voorstellen worden gemaakt voor voorzieningenorders op het hoogste niveau en, ervan uitgaande dat de gebruiker deze voorstellen accepteert, ook voor de artikelen op een lager niveau.  
 
-Zie [Ontwerpdetails: Voorraadprofielen laden](design-details-loading-the-inventory-profiles.md) voor meer informatie over overwegingen voor productie.  
+Zie [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) voor meer informatie over overwegingen voor productie.  
 
 ### <a name="locations--transfer-level-priority"></a>Prioriteit op niveau van vestigingen/transfers  
 Bedrijven die in meerdere vestigingen actief zijn, moeten mogelijk voor elke vestiging afzonderlijk plannen. Het veiligheidsvoorraadniveau van een artikel en het bestelbeleid ervan kunnen bijvoorbeeld van vestiging tot vestiging verschillen In dit geval moeten per artikel en ook per vestiging de planningsparameters worden opgegeven.  
@@ -106,14 +106,14 @@ Zie [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning
 ### <a name="order-priority"></a>Orderprioriteit  
 Binnen een bepaalde SKU staat de verzochte of beschikbare datum voor de hoogste prioriteit; de vraag van vandaag moet worden verwerkt vóór de vraag van de eerstvolgende dagen. Afgezien van dit soort prioriteit worden de verschillende soorten vraag en aanbod gesorteerd op basis van bedrijfsbelang om te beslissen aan welke vraag moet worden voldaan voordat aan andere vraag kan worden voldaan. Voor de aanbodzijde geeft de orderprioriteit aan welke voorzieningenbron moet worden toegepast voordat andere voorzieningenbronnen worden toegepast.  
 
-Zie [Ontwerpdetails: Prioriteit geven aan orders](design-details-prioritizing-orders.md) voor meer informatie.  
+Zie [Orders in prioriteitsvolgorde plaatsen](design-details-balancing-demand-and-supply.md#prioritizing-orders) voor meer informatie.  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Vraagprognoses en raamcontracten  
 Prognoses en raamcontracten vertegenwoordigen beide verwachte vraag. Het raamcontract omvat de bedoelde inkoop van een klant over een bepaalde periode en is bedoeld om de onzekerheid van de algemene prognose te verminderen. Het raamcontract is een klantspecifieke prognose in aanvulling op de niet-opgegeven prognose zoals hieronder beschreven.  
 
 ![Planning met prognoses](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning met prognoses")  
 
-Zie voor meer informatie het gedeelte Prognosevraag wordt verlaagd door verkooporders in [Ontwerpdetails: Voorraadprofielen laden](design-details-loading-the-inventory-profiles.md).  
+Zie voor meer informatie het gedeelte 'Prognosevraag wordt verlaagd door verkooporders' in [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Planningsopdracht  
 Alle artikelen moeten worden gepland, maar er is geen reden om een planning voor een artikel te berekenen tenzij er een verandering in het vraag- of aanbodpatroon is opgetreden sinds er voor het laatst een planning is berekend.  
@@ -171,9 +171,9 @@ Artikelen met een serie-/lotnummer zonder specifieke artikeltraceringinstellinge
 
 Vraag-aanbod met serie-/lotnummers, specifiek of niet-specifiek, wordt gezien als hoge prioriteit en is daarom vrijgesteld van de vaste zone, wat betekent dat het onderdeel is van planning zelfs als het vervalt vóór de geplande begindatum.  
 
-Zie voor meer informatie het gedeelte Serie-/lotnummers worden geladen per specificatieniveau in [Ontwerpdetails: Voorraadprofielen laden](design-details-loading-the-inventory-profiles.md).  
+Zie voor meer informatie het gedeelte 'Serie-/lotnummers worden geladen per specificatieniveau' in [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Zie voor meer informatie over hoe het planningssysteem kenmerken afstemt het gedeelte Serie-/lotnummers en order-naar-order koppelingen zijn vrijgesteld van de vaste zone in [Ontwerpdetails: Werken met orders voor de geplande begindatum](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Voor meer informatie over hoe het planningssysteem kenmerken afstemt raadpleegt u [Serie-/lotnummers en order-naar-order koppelingen zijn vrijgesteld van de vaste zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Order-naar-order koppelingen  
 Order-naar-order aanschaffing betekent dat een artikel wordt ingekocht, geassembleerd of geproduceerd om exclusief aan een specifieke vraag te voldoen. Meestal heeft dit betrekking op A-producten en de motivatie om dit beleid te kiezen, kan zijn dat de vraag niet frequent is, dat de doorlooptijd onbeduidend is of dat de vereiste kenmerken verschillen.  
@@ -223,14 +223,14 @@ De waarschuwing Noodgeval wordt in twee gevallen weergegeven:
 -   Wanneer de voorraad negatief is op de geplande begindatum.  
 -   Wanneer er geantedateerde voorziening- of vraaggebeurtenissen bestaan.  
 
-Als de voorraad van een artikel negatief is op de geplande begindatum, wordt er door het planningssysteem een noodorder voor een voorziening voorgesteld die wordt aangevoerd op de geplande begindatum. De waarschuwing vermeldt de begindatum en de hoeveelheid van de order voor een noodvoorziening. Zie voor meer informatie [Ontwerpdetails: Verwachte negatieve voorraad verwerken](design-details-handling-projected-negative-inventory.md).  
+Als de voorraad van een artikel negatief is op de geplande begindatum, wordt er door het planningssysteem een noodorder voor een voorziening voorgesteld die wordt aangevoerd op de geplande begindatum. De waarschuwing vermeldt de begindatum en de hoeveelheid van de order voor een noodvoorziening. Zie voor meer informatie [Verwachte negatieve voorraad verwerken](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Alle documentregels met vervaldatums voor de geplande begindatum worden samengevoegd tot één noodorder voor een voorziening voor het artikel die wordt aangevoerd op de geplande startdatum.  
 
 ### <a name="exception"></a>Uitzondering  
 De uitzonderingswaarschuwing wordt weergegeven als de verwachte beschikbare voorraad onder de veiligheidsvoorraad daalt. Het planningssysteem stelt een order voor een voorziening voor om aan de vraag op de vervaldatum te kunnen voldoen. De waarschuwing vermeldt de veiligheidsvoorraad van het artikel en de datum waarop de voorraad daaronder daalt.  
 
-Als de beschikbare voorraad kleiner is dan de veiligheidsvoorraad, wordt dit als een uitzondering beschouwd omdat dit normaliter niet gebeurt als het bestelpunt op de juiste manier is ingesteld. Zie voor meer informatie [Ontwerpdetails: De rol van het bestelpunt](design-details-the-role-of-the-reorder-point.md).  
+Als de beschikbare voorraad kleiner is dan de veiligheidsvoorraad, wordt dit als een uitzondering beschouwd omdat dit normaliter niet gebeurt als het bestelpunt op de juiste manier is ingesteld. Zie voor meer informatie [De rol van het bestelpunt](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 In het algemeen zorgen uitzonderlijke ordervoorstellen ervoor dat de verwachte beschikbare voorraad nooit lager is dan de veiligheidsvoorraad. Dit betekent dat het voorgestelde aantal voldoende is om de veiligheidsvoorraad te dekken, zonder dat planningsparameters moeten worden overwogen. In sommige scenario's komen orderwijzigingen echter in aanmerking.  
 
@@ -242,7 +242,7 @@ De attentiewaarschuwing wordt in drie gevallen weergegeven:
 
 -   De geplande begindatum is eerder dan de werkdatum.  
 -   Op de planningsregel wordt voorgesteld een vrijgegeven inkoop- of productieorder te wijzigen.  
--   De verwachte voorraad is groter dan het overflowniveau op de vervaldatum. Zie voor meer informatie [Ontwerpdetails: Onder het overflowniveau blijven](design-details-staying-under-the-overflow-level.md).  
+-   De verwachte voorraad is groter dan het overflowniveau op de vervaldatum. Zie voor meer informatie [Onder het overflowniveau blijven](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  bij het plannen van regels met waarschuwingen wordt het veld **Planningsboodschap accepteren** niet geselecteerd, omdat de planner naar verwachting de regels verder gaat bekijken voordat de planning wordt uitgevoerd.  

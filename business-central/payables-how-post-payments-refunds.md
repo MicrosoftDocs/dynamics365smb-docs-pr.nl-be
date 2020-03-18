@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5f9301541e73b4137f6c241a18e2f25c4009fc76
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a35dc8fb1bd6725d4c1f62d387408234f7419b74
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314304"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076985"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Betalingen en terugbetalingen vastleggen in het betalingsdagboek
 
@@ -33,11 +33,11 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 
 - Cheques afdrukken en elektronisch betalingen doen aan uw bank
 
-    Naast registratie dat de betaling wordt verricht kunt u de pagina **Betalingsdagboek** gebruiken om de betaling uit te voeren voor verdere verwerking door uw bank. Zie voor meer informatie [Chequebetalingen doen](payables-how-work-checks.md) en [Elektronische betalingen doen](payables-how-export-payments-bank-file.md).  
+    Naast registratie dat de betaling wordt verricht kunt u de pagina **Betalingsdagboek** gebruiken om de betaling uit te voeren voor verdere verwerking door uw bank. Zie voor meer informatie [Chequebetalingen doen](payables-how-work-checks.md) en [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Betalingen in het betalingsdagboek doen
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsjournalen** in en kies de desbetreffende koppeling.
 2. Open de dagboekbatch die bedoeld is voor betalingen.
 3. Als u weet wie u wilt betalen of terugbetalen, vult u de velden handmatig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u de betaling wilt vereffenen met de gerelateerde factuur of creditnota, kiest u het veld **Vereffeningsnr.** op de pagina **Leveranciersposten vereffenen**, selecteert u de desbetreffende factuur of creditnota en kiest u vervolgens de knop **OK**.
@@ -50,7 +50,7 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 
 ## <a name="see-also"></a>Zie ook
 [Chequebetalingen doen](payables-how-work-checks.md)  
-[Elektronische betalingen doen](payables-how-export-payments-bank-file.md)  
+[Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)  

@@ -1,20 +1,20 @@
 ---
-title: Trainingscatalogus voor functionele consultants
-description: Trainingscatalogus voor functionele consultants
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+title: Trainingscatalogus van functionele consultants
+description: Vind alle beschikbare leermogelijkheden voor Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: a9c0ba279a61bb2c09fbc221c4f1772229fe52e2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: fa3ec715fdf018ff73a9560c1aa32167cdf11764
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767833"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097563"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Trainingscatalogus van functionele consultant
+
+Bent u een implementatie-expert voor een zakelijk domein?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet. 
 

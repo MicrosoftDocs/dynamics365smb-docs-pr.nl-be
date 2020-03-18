@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695107"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071922"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over de functie Vertel me.
@@ -32,7 +32,7 @@ Acties, pagina's en rapporten die afkomstig zijn uit extensies worden opgepikt d
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Wat maakt dit anders dan de eerdere paginazoekfunctie?
 De paginazoekfunctie is tot Vertel me geëvolueerd om u te helpen sneller te werken. De paginazoekfunctie kon u alleen helpen navigeren naar pagina's of rapporten. Op technisch niveau is Vertel me niet meer gebaseerd op het oude MenuSuite-concept.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omvat dat Vertel me?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omvat dat Vertel me?
 U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en rapporten, maar geen documentatie, of apps en consultingservices te vinden in AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Vertel me beschikbaar voor alle formulierfactoren?
@@ -44,11 +44,9 @@ De Help-artikelen worden weergegeven in de taal die u hebt opgegeven in **Mijn i
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Waarom zie ik geen bladwijzerpictogram voor mijn zoekresultaten?
 Het bladwijzerpictogram wordt niet weergegeven in het venster Vertel me wanneer personalisatie is uitgeschakeld voor een gebruikersrol.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>Is het bladwijzerpictogram beschikbaar voor rapporten?
-Nee. U kunt alleen een bladwijzer maken voor een koppeling naar een pagina of zoekresultaten die worden weergegeven in de sectie **Pagina's en taken** van het venster Vertel me.
-
 
 ## <a name="see-also"></a>Zie ook  
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
-[Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)
+[Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  
+[Een bladwijzer van een pagina of rapport maken in uw rolcentrum](ui-bookmarks.md)

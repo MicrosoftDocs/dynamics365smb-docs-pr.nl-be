@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/07/2020
+ms.date: 02/11/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030184"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076794"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
@@ -110,7 +110,7 @@ Dit wordt in de volgende procedures beschreven.
 > [!NOTE]  
 >  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 > [!TIP]
 > Soms verschillen de waarden in de velden die u wilt toewijzen. In de ene zakelijke app is de taalcode voor de Verenigde Staten bijvoorbeeld 'V.S.', maar in de andere 'VS'. Dat betekent dat u de waarde moet transformeren wanneer u gegevens uitwisselt. Dit gebeurt door middel van transformatieregels die u voor de velden definieert. Zie [Transformatieregels](across-how-to-set-up-data-exchange-definitions.md#transformation-rules) voor meer informatie.
 
@@ -124,7 +124,7 @@ Dit wordt in de volgende procedures beschreven.
     |**Naam**|Voer een naam in voor de instelling van de toewijzing.|  
     |**Codeunit toewijzing vooraf**|Geef de codeunit aan die de koppeling voorbereidt tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens.|  
     |**Toewijzing van codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit toewijzing achteraf**|Geef de codeunit op die de koppeling voltooit tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens. **Opmerking:** wanneer de functie Conversieservice voor bankgegevens wordt gebruikt, zet de codeunit geëxporteerde gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)] om in een algemene indeling die gereed is voor export. Voor het importeren zet de codeunit externe gegevens om in een indeling die gereed is voor importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit toewijzing achteraf**|Geef de codeunit op die de koppeling voltooit tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens. **Opmerking:** wanneer de functie AMC Banking 365 Fundamentals-extensie wordt gebruikt, zet de codeunit geëxporteerde gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)] om in een algemene indeling die gereed is voor export. Voor het importeren zet de codeunit externe gegevens om in een indeling die gereed is voor importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Geef op het sneltabblad **Veldtoewijzing** op welke kolommen aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn toegewezen door de velden in te vullen zoals beschreven in de volgende tabel.  
 
@@ -139,7 +139,7 @@ Dit wordt in de volgende procedures beschreven.
     |**Bijschrift bij doelveld**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef de naam van het veld in de doeltabel op waaraan de waarde in het veld **Kolomomschrijving** wordt toegewezen wanneer u een tussentijdse tabel gebruikt voor gegevensimport.|  
     |**Optioneel**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef aan of de toewijzing moet worden overgeslagen als het veld leeg is. Als u dit selectievakje niet inschakelt, treedt een exportfout op als het veld leeg is.|  
 
-De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md), [Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md) en [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
+De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-krediettransfer instellen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Automatische incasso via SEPA instellen](finance-collect-payments-with-sepa-direct-debit.md) en [Betalingen verrichten met de AMC Banking 365 Fundamentals-extensie of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
 
 ### <a name="transformation-rules"></a>Transformatieregels
 Als de waarden in de velden die u toewijst, verschillen, moet u transformatieregels gebruiken voor definities van gegevensuitwisseling om ze hetzelfde te maken. U definieert transformatieregels voor gegevensuitwisselingsdefinities door een bestaande definitie te openen of een nieuwe definitie te maken en vervolgens op het sneltabblad **Regeldefinities** de optie **Beheren** en **Veldtoewijzing** te kiezen. Er zijn vooraf gedefinieerde regels beschikbaar, maar u kunt ook uw eigen regels maken. De volgende tabel beschrijft de soorten transformaties die u kunt uitvoeren.
@@ -157,7 +157,7 @@ Als de waarden in de velden die u toewijst, verschillen, moet u transformatiereg
 |**Datumindeling**|Geef op hoe datums moeten worden weergegeven. U kunt bijvoorbeeld DD-MM-JJJJ transformeren naar JJJJ-MM-DD.|
 |**Decimale notatie**|Definieer regels voor de plaatsing van decimalen en afrondingsprecisie.|
 |**Reguliere expressie - Afstemmen**|Gebruik een reguliere expressie om een of meer waarden te vinden. Dit is vergelijkbaar met de opties **Subtekenreeks** en **Reguliere expressie - Vervangen**.|
-|**Aangepast**|Dit is een geavanceerde optie waarvoor u de hulp van een ontwikkelaar moet inroepen. Het maakt een integratie-gebeurtenis mogelijk waarop u zich kunt abonneren als u uw eigen transformatiecode wilt gebruiken. Zie het [voorbeeld ](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) hieronder als u een ontwikkelaar bent en deze optie wilt gebruiken.|
+|**Aangepast**|Dit is een geavanceerde optie waarvoor u de hulp van een ontwikkelaar moet inroepen. Het maakt een integratie-gebeurtenis mogelijk waarop u zich kunt abonneren als u uw eigen transformatiecode wilt gebruiken. Als u een ontwikkelaar bent en deze optie wilt gebruiken, raadpleegt u het onderstaande gedeelte 'Tip voor ontwikkelaars: voorbeeld van de aangepaste optie'.|
 |**Datum- en tijdindeling**|Definieer hoe de huidige datum en het tijdstip van de dag worden weergegeven.|
 
 #### <a name="tip-for-developers-example-of-the-custom-option"></a>Tip voor ontwikkelaars: voorbeeld van de aangepaste optie
@@ -196,8 +196,7 @@ Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)  
-[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
