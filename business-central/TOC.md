@@ -47,7 +47,7 @@
 ### [Uw werkruimte personaliseren](ui-personalization-user.md)
 ### [Waarom een pagina is vergrendeld voor personaliseren](ui-personalization-locked.md)
 ### [Lijstweergaven opslaan en personaliseren](ui-views.md)
-### [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md)
+### [Een bladwijzer van een pagina of rapport maken in uw rolcentrum](ui-bookmarks.md)
 ### [Lijsten weergeven op verschillende manieren](across-display-lists-different-views.md)
 ## Rapporten afdrukken en batchverwerkingen en XMLports uitvoeren
 ### [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)
 ### [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md)
 ### [Velden toevoegen aan een Word-rapportlay-out](ui-how-add-fields-word-report-layout.md)
+### [Beschikbare lettertypen](ui-fonts.md)
 ## Sneltoetsen gebruiken
 ### [Toegankelijkheid en sneltoetsen](ui-accessibility.md)
 ### [Toetsenbordsneltoetsen](keyboard-shortcuts.md)
@@ -297,9 +298,8 @@
 #### [Inkomende documenten instellen](across-how-setup-income-documents.md)
 #### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 #### [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [SEPA-kredietoverdracht instellen](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Automatische incasso via SEPA instellen](finance-how-to-set-up-sepa-direct-debit.md)
-#### [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)
+#### [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)
 #### [De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)
 #### [Bankrekeningen instellen](bank-how-setup-bank-accounts.md)
 #### [Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -310,8 +310,8 @@
 #### [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md)
 #### [Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)
-#### [Betalingen naar een bankbestand exporteren](payables-how-export-payments-bank-file.md)
-#### [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Betalingen innen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 #### [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)
 #### [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md)
 #### [Chequebetalingen doen](payables-how-work-checks.md)
-#### [Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)
 ### Betalingen automatisch vereffenen en bankrekeningen reconciliëren
@@ -918,7 +918,6 @@
 #### [Gebruiks- en inkoopbelasting instellen](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Bankieren en betalingen
 #### [Borgsommen maken](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Klantkredietgegevens beheren](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Alge&meen
 #### [Problemen met rapporten oplossen](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## IJsland
 ### [Overzicht](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### Btw
-#### [IJslandse belastingverordeningen voor voorwaardelijke kortingen](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Btw-overzichtsinformatie afdrukken op documenten](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Speciale gegevensoutput en -rapporten voor de belastingdienst](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektronische facturering
@@ -1459,7 +1457,6 @@
 #### [Bankrekeningen afstemmen](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Alge&meen
-#### [Hoe u klantkredietgegevens beheert](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Problemen met rapporten oplossen](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Wettelijke waarschuwingen indienen](submit-regulatory-alerts.md)
 # Naleving
