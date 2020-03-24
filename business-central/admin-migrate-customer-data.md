@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918226"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097708"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
@@ -31,7 +31,7 @@ Wanneer u een nieuw bedrijf maakt, kunt u de bedrijfsinstellingen voor het nieuw
 > [!NOTE]  
 >  U kunt niet een bestand dat niet reeds een RapidStart Services-configuratiepakket is als een .rapidstart-pakketbestand hernoemen om het vervolgens te importeren. Als u dit probeert, verschijnt er een foutbericht.  
 
-Voordat u begint, moet u ervoor zorgen dat u gemachtigd bent om de RapidStart Services-objecten uit te voeren. U kunt bijvoorbeeld de SUPER-machtigingenset hebben of een interne of gedelegeerde beheerder zijn. Het is ook aan te raden in een rolcentrum te zijn met koppelingen naar RapidStart Services, zoals het Beheerrolcentrum. Zie [De rol wijzigen](ui-change-basic-settings.md#to-change-the-role) voor meer informatie.  
+Voordat u begint, moet u ervoor zorgen dat u gemachtigd bent om de RapidStart Services-objecten uit te voeren. U kunt bijvoorbeeld de machtigingensets SUPER of D365 RAPIDSTART hebben. Het is ook aan te raden in een rolcentrum te zijn met koppelingen naar RapidStart Services, zoals het Beheerrolcentrum. Zie [De rol wijzigen](ui-change-basic-settings.md#to-change-the-role) voor meer informatie.  
 
 > [!IMPORTANT]  
 > Bij het exporteren en importeren van configuratiepakketten tussen de twee bedrijfdatabases, moeten de databases hetzelfde schema hebben om ervoor te zorgen dat alle gegevens kunnen worden overgedragen. Dit betekent dat de database dezelfde tabel- en veldstructuur moeten hebben, waarin de tabellen dezelfde primaire sleutel hebben en de velden dezelfde id's en gegevenssoorten hebben.  
@@ -116,7 +116,7 @@ In het volgende voorbeeld ziet u hoe [!INCLUDE[d365fin](includes/d365fin_md.md)]
 2. Voeg extra tabellen toe aan het pakket, bijvoorbeeld **Klant** en **Leverancier**. Deze tabellen verwijzen beide naar de tabel **Verkoper/Inkoper** via respectievelijk de **Verkoperscode** en de **Inkoperscode**.  
 3. Wanneer u gegevens vereffent, wordt de toewijzing die u voor het veld **Code** in de tabel **Verkoper/Inkoper** hebt opgegeven, ook meegenomen tijdens het verwerken van de velden **Verkoperscode** en **Inkoperscode**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Aanvullende waarden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Aanvullende waarden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
 2. Selecteer de tabel waarvoor u extra waarden wilt toevoegen, en kies op het tabblad **Tabellen** de actie **Velden**.  
 3. Voor de velden waarvoor u wilt dat [!INCLUDE[d365fin](includes/d365fin_md.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  

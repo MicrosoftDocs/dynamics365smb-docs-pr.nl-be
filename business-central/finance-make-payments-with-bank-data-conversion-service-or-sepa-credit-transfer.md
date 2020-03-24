@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: e37341605465a23427b1011e3830ae62b37a46ed
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992012"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076889"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betalingen doen met de AMC Banking 365 Fundamentals-uitbreiding of SEPA-kredietoverdracht
 U kunt op de pagina **Betalingsdagboek** betalingen naar uw leveranciers verwerken door samen met de betalingsgegevens van de dagboekregels een bestand te exporteren. Vervolgens kunt u het bestand uploaden naar uw elektronische banksite waar de gerelateerde overboekingen worden verwerkt. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de indeling voor SEPA-kredietoverboekingen, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.
@@ -142,7 +142,6 @@ Wanneer de elektronische betaling is verwerkt door de bank, boekt u de betalinge
 
 ## <a name="see-also"></a>Zie ook  
 [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)  
-[SEPA-krediettransfer instellen](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)   
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
