@@ -9,38 +9,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991796"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196747"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Microsoft Dynamics 365 Sales gebruiken vanuit Business Central
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
 
-Voordat u de integratiemogelijkheden kunt gebruiken, moet u de verbinding instellen en gebruikers definiëren in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Voordat u de integratiemogelijkheden kunt gebruiken, moet uw systeembeheerder de verbinding instellen en gebruikers definiëren in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
 > Deze stappen beschrijven de integratie van online versies van [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor informatie over on-premises configuratie [Dynamics 365 Sales voorbereiden voor on-premises integratie](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Als u de toepassingen integreert, krijgt u vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] toegang tot gegevens in Sales en in sommige gevallen ook andersom. U kunt gegevens gebruiken en synchroniseren die beide services gemeen hebben, zoals klanten, contacten en verkoopinformatie, en de gegevens up-to-date houden in beide toepassingen.  
 
-Een verkoper in Sales kan bijvoorbeeld de prijslijsten uit [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken bij het maken van een verkooporder. Als hij of zij het artikel toevoegt aan de verkooporderregel in Sales, kan hij of zij het voorraadniveau (de beschikbaarheid) van het artikel zien vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Een verkoper in [!INCLUDE[crm_md](includes/crm_md.md)] kan bijvoorbeeld de prijslijsten uit [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken bij het maken van een verkooporder. Als hij of zij het artikel toevoegt aan de verkooporderregel in [!INCLUDE[crm_md](includes/crm_md.md)], kan hij of zij het voorraadniveau (de beschikbaarheid) van het artikel zien vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Andersom kunnen orderverwerkers in [!INCLUDE[d365fin](includes/d365fin_md.md)] verkooporders verwerken die automatisch of handmatig uit verkoop worden overgebracht. Zij kunnen bijvoorbeeld verkooporderregels maken en boeken voor artikelen of resources die in Sales zijn ingevoerd als inschrijfproducten. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Andersom kunnen orderverwerkers in [!INCLUDE[d365fin](includes/d365fin_md.md)] verkooporders verwerken die automatisch of handmatig uit [!INCLUDE[crm_md](includes/crm_md.md)] worden overgebracht. Zij kunnen bijvoorbeeld verkooporderregels maken en boeken voor artikelen of resources die in [!INCLUDE[crm_md](includes/crm_md.md)] zijn ingevoerd als inschrijfproducten. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt alleen geïntegreerd met Dynamics 365 Sales. Overige Dynamics 365-toepassingen die de standaardwerkstroom of gegevensmodel in Sales wijzigen, bijvoorbeeld Project Service Automation, kunnen de integratie tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Sales verbreken.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt alleen met [!INCLUDE[crm_md](includes/crm_md.md)] geïntegreerd. Overige Dynamics 365-toepassingen die de standaardwerkstroom of gegevensmodel in [!INCLUDE[crm_md](includes/crm_md.md)] wijzigen, bijvoorbeeld Project Service Automation, kunnen de integratie tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] verbreken.
 
-### <a name="coupling-records"></a>Records koppelen
-De begeleide instelling laat u de gegevens kiezen die u wilt synchroniseren. Later kunt u ook synchronisatie voor specifieke records instellen. Dit wordt *koppeling* genoemd. U kunt bijvoorbeeld een specifiek account in Sales koppelen aan een specifieke klant in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze sectie beschrijft waar u rekening mee moet houden wanneer u records koppelt.
+## <a name="coupling-records"></a>Records koppelen
+De begeleide instelling laat u de gegevens kiezen die u wilt synchroniseren. Later kunt u ook synchronisatie voor specifieke records instellen. Dit wordt *koppeling* genoemd. U kunt bijvoorbeeld een specifiek account in [!INCLUDE[crm_md](includes/crm_md.md)] koppelen aan een specifieke klant in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze sectie beschrijft waar u rekening mee moet houden wanneer u records koppelt.
 
-Als u bijvoorbeeld Sales-accounts wilt zien als klanten in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de twee soorten records koppelen. Als u dat wilt doen, gebruikt u op de lijstpagina **Klanten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] de actie **Koppeling instellen**. Vervolgens geeft u op welke [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten moeten worden afgestemd op welke accounts in Sales.
+Als u bijvoorbeeld accounts in [!INCLUDE[crm_md](includes/crm_md.md)] wilt zien als klanten in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de twee soorten records koppelen. Als u dat wilt doen, gebruikt u op de lijstpagina **Klanten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] de actie **Koppeling instellen**. Vervolgens geeft u op welke [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten moeten worden afgestemd op welke accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-U kunt ook een account maken (en koppelen) in Sales op basis van bijvoorbeeld klantenrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van **Account maken in Dynamics 365 Sales** of andersom met behulp van **Klant maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+U kunt ook een account maken (en koppelen) in [!INCLUDE[crm_md](includes/crm_md.md)] op basis van bijvoorbeeld klantenrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van **Account maken in Dynamics 365 Sales** of andersom met behulp van **Klant maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 
 Wanneer u koppeling instelt tussen twee records, kunt u ook handmatig verzoeken dat de huidige record, bijvoorbeeld een klant, direct wordt overschreven door accountgegevens vanuit Sales (of vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]) met behulp van de actie **Nu synchroniseren**. De actie **Nu synchroniseren** die vraagt of Sales- of [!INCLUDE[d365fin](includes/d365fin_md.md)]-recordgegevens moeten worden overschreven.
 
@@ -48,17 +48,17 @@ In sommige gevallen moet u bepaalde sets gegevens koppelen voordat u andere sets
 
 |Gegevens|Wat eerst koppelen|
 |-----|----|
-|Klanten en accounts|Verkopers koppelen aan Sales-gebruikers|
-|Artikelen en resources|Maateenheden koppelen aan Sales-eenheidsgroepen|
-|Artikelen en resourceprijzen|Klantenprijsgroepen koppelen aan Sales-prijzen|
+|Klanten en accounts|Verkopers koppelen aan [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers|
+|Artikelen en resources|Maateenheden koppelen aan [!INCLUDE[crm_md](includes/crm_md.md)]-eenheidsgroepen|
+|Artikelen en resourceprijzen|Klantenprijsgroepen koppelen aan [!INCLUDE[crm_md](includes/crm_md.md)]-prijzen|
 
 > [!NOTE]  
 > Als uw prijzen of kanten vreemde valuta's gebruiken, moet u ervoor zorgen dat u valuta's koppelt aan Sales-transactievaluta's.
 
-Verkooporders in Sales zijn afhankelijk van informatie zoals klanten, eenheden, valuta's, klantenprijsgroepen en artikelen en/of resources. Om de integratie met verkooporders te laten werken moet u eerst klanten, eenheden, valuta's, klantprijsgroepen en artikelen en/of resources koppelen.
+Verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)] zijn afhankelijk van informatie zoals klanten, eenheden, valuta's, klantenprijsgroepen en artikelen en/of resources. Om de integratie met verkooporders te laten werken moet u eerst klanten, eenheden, valuta's, klantprijsgroepen en artikelen en/of resources koppelen.
 
-### <a name="fully-synchronizing-records"></a>Records volledig synchroniseren
-Aan het eind van de begeleide instelling kunt u de actie **Volledige synchronisatie uitvoeren** kiezen om alle records in [!INCLUDE[d365fin](includes/d365fin_md.md)] te synchroniseren met alle gerelateerde records in Sales. Kies op de pagina **Controle van volledige Dynamics 365 Sales-synchronisatie** de actie **Starten**. Volledige synchronisatie kan enige tijd duren om te voltooien, maar u kunt doorwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)] terwijl de synchronisatie op de achtergrond wordt uitgevoerd.
+## <a name="fully-synchronizing-records"></a>Records volledig synchroniseren
+Aan het eind van de begeleide instelling kunt u de actie **Volledige synchronisatie uitvoeren** kiezen om alle records in [!INCLUDE[d365fin](includes/d365fin_md.md)] te synchroniseren met alle gerelateerde records in [!INCLUDE[crm_md](includes/crm_md.md)]. Kies op de pagina **Controle van volledige Dynamics 365 Sales-synchronisatie** de actie **Starten**. Volledige synchronisatie kan enige tijd duren om te voltooien, maar u kunt doorwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)] terwijl de synchronisatie op de achtergrond wordt uitgevoerd.
 
 Als u de voortgang van afzonderlijke taken in een volledige synchronisatie wilt volgen, kiest u op de pagina **Controle van volledige Dynamics 365 Sales-synchronisatie** een record om details te bekijken. Als u de status tijdens de synchronisatie wilt bijwerken, vernieuwt u de pagina.
 
@@ -73,10 +73,10 @@ Dit kan ook werken als de oorspronkelijke verkooporder inschrijfproducten bevat 
 
 Als de artikelomschrijving op de oorspronkelijke verkooporder erg lang is, wordt een extra verkooporderregel van het type **Opmerking** gemaakt zodat de volledige tekst wordt opgenomen in de verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Updates in verkooporderkopvelden, zoals Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in VERKOOPORDER-ORDER **Toewijzing van integratietabellen** worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Updates in velden in verkooporderkopteksten, zoals de velden Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in VERKOOPORDER-ORDER **Toewijzing van integratietabellen**, worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodieke synchronisatie op basis van de **integratietabeltoewijzing** VERKOOPORDER-ORDER werkt alleen wanneer integratie van verkooporders is ingeschakeld. Zie voor meer informatie [Verbinden met Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Alleen verkooporders die zijn gemaakt van ingediende verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)], worden gesynchroniseerd. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodieke synchronisatie op basis van de **integratietabeltoewijzing** VERKOOPORDER-ORDER werkt alleen wanneer integratie van verkooporders is ingeschakeld. Zie voor meer informatie [Verbindingsinstellingen op de pagina Sales-verbinding instellen](admin-prepare-dynamics-365-for-sales-for-integration.md). Alleen verkooporders die zijn gemaakt van ingediende verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)], worden gesynchroniseerd. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

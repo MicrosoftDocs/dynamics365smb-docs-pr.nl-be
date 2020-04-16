@@ -1,0 +1,142 @@
+---
+title: Ontbrekende optiewaarden verwerken
+description: Leer hoe u kunt voorkomen dat volledige synchronisatie mislukt omdat de opties verschillen in toegewezen velden.
+author: bholtorf
+ms.author: bholtorf
+ms.custom: na
+ms.reviewer: na
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.date: 02/03/2020
+ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196936"
+---
+# <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
+[!INCLUDE[d365fin](includes/cds_long_md.md)] bevat slechts drie optiesetvelden die optiewaarden bevatten die u kunt toewijzen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]-velden van het type Optie<!-- Option type, not enum? @Onat can you vertify this? --> voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Deze sectie beschrijft hoe dat werkt.
+
+De pagina **Toewijzing van integratietabel** bevat drie toewijzingen voor velden die een of meer toegewezen optiewaarden bevatten. Na een volledige synchronisatie bevat de pagina **Toewijzing van CDS-optie** de niet-toegewezen opties in de drie velden respectievelijk.
+
+|         Record             | Optiewaarde | Bijschrift optiewaarde |
+|----------------------------|--------------|----------------------|
+| Betalingsvoorwaarden: NETTO30       | 1            | Netto 30               |
+| Betalingsvoorwaarden: 2%10NETTO30   | 2            | 2% 10; netto 30        |
+| Betalingsvoorwaarden: NETTO45       | 3            | Netto 45               |
+| Betalingsvoorwaarden: NETTO60       | 4            | Netto 60               |
+| Verzendwijze: FOB       | 1            | FOB                  |
+| Verzendmethode: GEENKOSTEN  | 2            | Geen kosten            |
+| Expediteur: LUCHT   | 1            | Lucht             |
+| Expediteur: DHL        | 2            | DHL                  |
+| Expediteur: FEDEX      | 3            | FedEx                |
+| Expediteur: UPS        | 4            | UPS                  |
+| Expediteur: POST | 5            | Post          |
+| Expediteur: VOLLEDIGELADING   | 6            | Volledige lading            |
+| Expediteur: AFHALEN   | 7            | Afhalen            |
+
+De inhoud van de pagina **Toewijzing van CDS-optie** is gebaseerd op opsommingswaarden in de tabel **CDS-account**. In [!INCLUDE[d365fin](includes/cds_long_md.md)] worden de volgende velden van de accountentiteit toegewezen aan velden in de klant- en leveranciersrecords:
+
+- **Adres 1: vrachtvoorwaarden** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
+
+```
+enum 5335 "CDS Shipment Method Code"
+{
+    Extensible = true;
+    value(0; " ") { Caption = ' '; }
+    value(1; "FOB") { Caption = 'FOB'; }
+    value(2; "NoCharge") { Caption = 'No Charge'; }
+}
+```
+
+- **Adres 1: verzendmethode** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
+
+```
+enum 5336 "CDS Shipping Agent Code"
+enum 5336 "CDS Shipping Agent Code"
+{
+    Extensible = true;
+    value(0; " ") { Caption = ' '; }
+    value(1; "Airborne") { Caption = 'Airborne'; }
+    value(2; "DHL") { Caption = 'DHL'; }
+    value(3; "FedEx") { Caption = 'FedEx'; }
+    value(4; "UPS") { Caption = 'UPS'; }
+    value(5; "PostalMail") { Caption = 'Postal Mail'; }
+    value(6; "FullLoad") { Caption = 'Full Load'; }
+    value(7; "WillCall") { Caption = 'Will Call'; }
+}
+```
+
+- **Betalingsvoorwaarden** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
+
+```
+enum 5334 "CDS Payment Terms Code"
+{
+    Extensible = true;
+    value(0; " ") { Caption = ' '; }
+    value(1; "Net30") { Caption = 'Net 30'; }
+    value(2; "2%10Net30") { Caption = '2% 10; Net 30'; }
+    value(3; "Net45") { Caption = 'Net 45'; }
+    value(4; "Net60") { Caption = 'Net 60'; }
+}
+```
+
+Alle bovenstaande [!INCLUDE[d365fin](includes/d365fin_md.md)]-enums zijn toegewezen aan optiesets in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+
+### <a name="extending-option-sets-in-d365fin"></a>Optiesets uitbreiden in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+1. Maak een nieuwe AL-extensie.
+
+2. Voeg een Enum-extensie toe voor de opties die u wilt uitbreiden. Zorg ervoor dat u dezelfde waarde gebruikt. 
+
+```
+enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Terms Code"
+{
+    value(779800001; "Cash Payment") { Caption = 'Cash Payment'; }
+    value(779800002; "Transfer") { Caption = 'Transfer'; }
+}
+```
+
+> [!IMPORTANT]  
+> U moet dezelfde optie-ID-waarden gebruiken van [!INCLUDE[d365fin](includes/cds_long_md.md)] wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-enum uitbreidt. Anders mislukt de synchronisatie.
+
+> [!NOTE]
+> De eerste tien tekens van de nieuwe namen en bijschriften van de optiewaarden moeten uniek zijn. Twee opties met de naam "Transfer 20 werkdagen" en "Transfer 20 kalenderdagen" veroorzaken bijvoorbeeld een fout omdat beide dezelfde eerste 10 tekens hebben, "Transfer 2". Noem ze bijvoorbeeld "TRF20 WD" en "TRF20 KD".
+
+### <a name="update-d365fin-option-mapping"></a>[!INCLUDE[d365fin](includes/cds_long_md.md)]-optietoewijzing bijwerken
+Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[d365fin](includes/cds_long_md.md)]-opties en [!INCLUDE[d365fin](includes/d365fin_md.md)]-records.
+
+Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Toewijzing van CDS-optie** wordt bijgewerkt met de aanvullende records hieronder.
+
+|         Record                 | Optiewaarde   | Bijschrift optiewaarde |
+|--------------------------------|----------------|----------------------|
+| Betalingsvoorwaarden: NETTO30           | 1              | Netto 30               |
+| Betalingsvoorwaarden: 2%10NETTO30       | 2              | 2% 10; netto 30        |
+| Betalingsvoorwaarden: NETTO45           | 3              | Netto 45               |
+| Betalingsvoorwaarden: NETTO60           | 4              | Netto 60               | 
+| **Betalingsvoorwaarden: CONTANTE BETALING**  | **779800001**  | **Contante betaling**     |
+| **Betalingsvoorwaarden: TRANSFER**    | **779800002**  | **Transfer**         |
+
+De tabel **Betalingsvoorwaarden** in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat dan nieuwe records voor de [!INCLUDE[d365fin](includes/cds_long_md.md)]-opties. In de volgende tabel zijn nieuwe opties vetgedrukt. Cursieve rijen vertegenwoordigen alle opties die nu kunnen worden gesynchroniseerd. Resterende rijen vertegenwoordigen opties die niet in gebruik zijn en worden genegeerd tijdens synchronisatie. U kunt ze verwijderen of CDS-opties met dezelfde namen uitbreiden.)
+
+| Code       | Vervaldatumberekening | Kortingsdatumberekening | Korting % | Contantkorting op creditnota's berekenen | Omschrijving       |
+|------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
+| 10 DAGEN    | 10D                  |                           | 0.         | ONWAAR                         | Netto 10 dagen       |
+| 14 DAGEN    | 14D                  |                           | 0.         | ONWAAR                         | Netto 14 dagen       |
+| 15 DAGEN    | 15D                  |                           | 0.         | ONWAAR                         | Netto 15 dagen       |
+| 1M(8D)     | 1M                   | 8D                        | 2.         | ONWAAR                         | 1 maand/2% 8 dagen |
+| 2 DAGEN     | 2D                   |                           | 0.         | ONWAAR                         | Netto 2 dagen        |
+| *2%10NETTO30* |                      |                           | 0.         | ONWAAR                         |                   |
+| 21 DAGEN    | 21D                  |                           | 0.         | ONWAAR                         | Netto 21 dagen       |
+| 30 DAGEN    | 30D                  |                           | 0.         | ONWAAR                         | Netto 30 dagen       |
+| 60 DAGEN    | 60D                  |                           | 0.         | ONWAAR                         | Netto 60 dagen       |
+| 7 DAGEN     | 7D                   |                           | 0.         | ONWAAR                         | Netto 7 dagen        |
+| ***CONTANTE BETALING*** |                      |                           | 0.         | ONWAAR                         |                   |
+| LM         | LM                   |                           | 0.         | ONWAAR                         | Lopende maand     |
+| REMBOURS        | 0D                   |                           | 0.         | ONWAAR                         | Rembours  |
+| *NETTO 30*      |                      |                           | 0.         | ONWAAR                         |                   |
+| *NETTO45*      |                      |                           | 0.         | ONWAAR                         |                   |
+| *NETTO60*      |                      |                           | 0.         | ONWAAR                         |                   |
+| ***TRANSFER*** |                      |                           | 0.         | ONWAAR                         |                   |
+
+## <a name="see-also"></a>Zie ook

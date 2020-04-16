@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999795"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196699"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 Met taakwachtrijen in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het statistiekrapport **Verkoper - Statistiek** wekelijks uitvoeren om de verkopen per verkoper wekelijks bij te houden of u kunt de codeunit **E-mailwachtrij service verwerken** dagelijks uitvoeren om ervoor te zorgen dat niet-verzonden e-mailberichten aan klanten met betrekking tot hun serviceorders tijdig worden verzonden.
@@ -117,8 +117,8 @@ Wanneer een taakwachtrij handmatig is geactiveerd, wordt deze uitgevoerd met de 
 ## <a name="using-job-queues-effectively"></a>Taakwachtrijen efficiënt gebruiken  
 De record van de taakwachtrijpost heeft veel velden om de parameters in een codeunit te plaatsen die u hebt opgegeven voor het uitvoeren met een taakwachtrij. Dit betekent ook dat codeunits die moeten worden uitgevoerd via de taakwachtrij, moeten worden gespecificeerd met de taakwachtrijrecord als een parameter in de **OnRun** trigger. Dit biedt een extra beveiligingsniveau aangezien het voorkomt dat gebruikers willekeurige codeunits uitvoeren via de taakwachtrij. Als de gebruiker parameters aan een rapport moet doorgeven, kan dit enkel door de lijstuitvoering in een codeunit te plaatsen die vervolgens de invoerparameters parseert en deze in de lijst plaatst voordat deze wordt uitgevoerd.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Synchronisatie plannen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)]
-Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt geïntegreerd met [!INCLUDE[crm_md](includes/crm_md.md)], kunt u de taakwachtrij gebruiken om te plannen wanneer u gegevens wilt synchroniseren voor de records die u in de twee zakelijke apps hebt gekoppeld. Afhankelijk van de richting en regels die u hebt gedefinieerd voor de integratie, kunnen de synchronisatietaken ook nieuwe records maken in de doel-app die overeenkomen met die in de bron. Als een verkoper bijvoorbeeld een nieuw contact maakt in [!INCLUDE[crm_md](includes/crm_md.md)], kan de synchronisatietaak dat contact maken voor de gekoppelde verkoper in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Synchronisatie plannen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt geïntegreerd met [!INCLUDE[d365fin](includes/cds_long_md.md)], kunt u de taakwachtrij gebruiken om te plannen wanneer u gegevens wilt synchroniseren voor de records die u in de twee zakelijke apps hebt gekoppeld. Afhankelijk van de richting en regels die u hebt gedefinieerd voor de integratie, kunnen de synchronisatietaken ook nieuwe records maken in de doel-app die overeenkomen met die in de bron. Als een verkoper bijvoorbeeld een nieuw contact maakt in [!INCLUDE[crm_md](includes/crm_md.md)], kan de synchronisatietaak dat contact maken voor de gekoppelde verkoper in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Zie ook  
 [Beheer](admin-setup-and-administration.md)  

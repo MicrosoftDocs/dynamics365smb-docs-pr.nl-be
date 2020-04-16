@@ -28,7 +28,7 @@
 
 # Werken met Business Central
 ## [Overzicht](ui-work-product.md)
-## [Afdrukbaar spiekblad](ui-work-product.md)
+## [Afdrukbaar spiekblad](ui-work-product.md#cheatsheet)
 ## [Pagina's en informatie zoeken met Vertel me](ui-search.md)
 ## [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)
 ## [Veelgestelde vragen over Vertel me](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md)
 ## [Basisinstellingen wijzigen](ui-change-basic-settings.md)
 ## [Berichten beheren](ui-smart-notifications.md)
+## [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Business Central aanpassen
 ### [Uw werkruimte personaliseren](ui-personalization-user.md)
 ### [Waarom een pagina is vergrendeld voor personaliseren](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Lijsten weergeven op verschillende manieren](across-display-lists-different-views.md)
 ## Rapporten afdrukken en batchverwerkingen en XMLports uitvoeren
 ### [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)
-### [Printerselectie opgeven voor rapporten](ui-specify-printer-selection-reports.md)
+### [Printers instellen](ui-specify-printer-selection-reports.md)
 ### [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport)
 ### [Opgeslagen instellingen beheren voor rapporten en batchtaken](reports-saving-reusing-settings.md)
 ### [Controlelijsten weergeven vóór boeken](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Boekingsgroepen instellen](finance-posting-groups.md)
 ### [Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)
 ### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)
+### [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)
 ### [Btw instellen](finance-setup-vat.md)
 ### [Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)
 ### [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Gebruikers maken volgens licenties](ui-how-users-permissions.md)
 ## [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)
 ## [Profielen beheren](admin-users-profiles-roles.md)
+## [Printers instellen](ui-specify-printer-selection-reports.md)
 ## [Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)
 ## [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)
 ## [Nieuwe bedrijven maken](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Business Central-extensies van andere providers](ui-extensions-other.md)
 ## Integreren met Dynamics 365 Sales
 ### [Overzicht](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Een Dynamics 365 Sales-verbinding instellen](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Business Central en Dynamics 365 Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)
+## Integreren met Common Data Service
+### [Overzicht](admin-common-data-service.md)
+### [Modellen voor gegevenseigendom](admin-cds-company-concept.md)
+### [Gebruikersaccounts instellen voor integratie met Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Verbinding maken met Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Business Central en Common Data Service synchroniseren](admin-synchronizing-business-central-and-sales.md)
 ### [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Financiën
 ## [Overzicht](finance.md)
@@ -511,6 +517,7 @@
 ## [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
 ## [Analyselijsten maken](bi-how-create-analysis-views-reports.md)
 ## [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)
+## [Databasetoegangsintentie beheren](admin-data-access-intent.md)
 
 # Verkoop
 ## [Overzicht](sales-manage-sales.md)
@@ -1390,7 +1397,7 @@
 #### [Zwitserse btw](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Btw-tarieven voor Zwitserland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Bankieren en betalingen
-#### QR-code op Zwitserse betalingsstroken
+#### QR-factuurbeheer (LocalFunctionality / Switzerland / ui-extensions-qr-bill-management.md)
 #### [Een LSV-verzameling afsluiten](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Betalingen exporteren met LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [ESR-betalingen importeren](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

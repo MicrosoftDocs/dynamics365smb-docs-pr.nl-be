@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315144"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195735"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
 
-Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).
+Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).
 
 ## <a name="locked-from-personalizing"></a>Vergrendeld tegen personaliseren
 
-Als er een pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") is te zien in de banner **Personaliseren** wanneer u een pagina opent, kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
+Als er een pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") is te zien in de banner **Personaliseren** wanneer u een pagina opent, kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +38,7 @@ Hiervoor kunnen twee redenen bestaan:
 
 ### <a name="unlocking-the-page"></a>De pagina ontgrendelen
 
-Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personaliseringsvergrendeling") en kiest u vervolgens de actie **Ontgrendelen**.  
+Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") en kiest u vervolgens de actie **Ontgrendelen**.  
 
 Voordat u de pagina ontgrendelt, houdt u rekening met het volgende:
 

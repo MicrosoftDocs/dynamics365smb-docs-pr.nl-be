@@ -1,8 +1,6 @@
 ---
 title: Een boekjaar en boekingsperioden afsluiten | Microsoft Docs
 description: Schetst de taken om een boekjaar of boekhoudperiode te sluiten, bijvoorbeeld, ervoor zorgen dat documenten en dagboeken worden geboekt en banksaldi verifiëren.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 03b9778be1da2897cd1dcb12eeecd87bc905dd65
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953143"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195815"
 ---
 # <a name="closing-years-and-periods"></a>Afsluitingsjaren en -perioden
+
 Aan het einde van een boekjaar moet u een aantal administratieve taken uitvoeren, zoals ervoor zorgen dat alle documenten en dagboeken worden geboekt, dat valutagegevens actueel zijn, de boeken afsluiten, enzovoort. De werkelijke taken hangen van uw bedrijf af.
 
 De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een jaar en periode af te sluiten.
@@ -36,10 +35,11 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 | Sluit boekingsperioden en boekjaar, boek saldi van resultatenrekeningen over naar balansrekeningen en boek de jaareinde-ultimopost. |[Boeken afsluiten](year-close-books.md) |
 | Rapporten af te drukken die u kunnen helpen bij het maken van financiële overzichten. |[Afsluitingsoverzichten voorbereiden](year-prepare-close-statement.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesclose-fiscal-year-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
-[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
+
+[Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
