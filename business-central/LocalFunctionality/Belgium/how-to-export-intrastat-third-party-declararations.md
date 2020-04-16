@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: de87b86145da8421d76955250dcf88861654b213
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 921e60496ad85c62f92677187f633d3c69ad260e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300263"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180894"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn. 
@@ -25,7 +25,7 @@ In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet 
 ## <a name="to-export-the-third-party-declaration"></a>De aangifte van derden exporteren  
 Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rapport te bekijken. Zie voor meer informatie [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md).  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Kies de actie **Bestand maken**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
