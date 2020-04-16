@@ -2,15 +2,15 @@
 title: Trainingscatalogus voor zakelijke besluitvormers
 description: Trainingscatalogus voor zakelijke besluitvormers
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097587"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190887"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Trainingscatalogus voor zakelijke besluitvormers
 
@@ -18,13 +18,13 @@ Beslist u over investeringen in nieuwe technologieën?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 
-## Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                 | Omschrijving                                                                                                | Opmaak                                | Lengte     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond. | Gratis online leertraject voor zelfstudie | 24 minuten |
 
-## Aan de slag<a name="get-started"></a>
+## <a name="getting-started"></a>Aan de slag<a name="get-started"></a>
 
 | Inhoud                                                                                                                             | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

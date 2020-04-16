@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943221"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194487"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
 In het beveiligingssysteem van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen tot welke objecten binnen elke database of omgeving een gebruiker toegang krijgt. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in de Help voor ontwikkelaars en IT-professionals voor [!INCLUDE[d365fin](includes/d365fin_md.md)] voor meer informatie.
@@ -130,18 +130,18 @@ Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, verkoop-boeken 
 De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopregel om de codeunit uit te voeren. Als de gebruiker indirecte machtiging heeft voor de tabel Verkoopregel, kan de codeunit Verkoop-boeken worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel Inkoopregel wijzigen door de codeunit Verkoop-boeken of een ander object uit te voeren dat machtiging heeft om de tabel Inkoopregel te wijzigen. De gebruiker kan alleen de tabel Inkoopregel wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Machtigingen maken of wijzigen door uw acties op te nemen
-1.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Machtigingssets** in en kies de desbetreffende koppeling.
-2.  U kunt ook op de pagina **Gebruikers** de actie **Machtigingensets** kiezen.
-3.  Kies op de pagina **Machtigingensets** de actie **Nieuw**.
-4.  Vul op een nieuwe regel de velden indien nodig in.
-5.  Kies de actie **Machtigingen**.
-6.  Kies op de pagina **Machtigingen** de actie **Machtigingen registreren** en kies de actie **Starten**.
+1.    Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Machtigingssets** in en kies de desbetreffende koppeling.
+2.    U kunt ook op de pagina **Gebruikers** de actie **Machtigingensets** kiezen.
+3.    Kies op de pagina **Machtigingensets** de actie **Nieuw**.
+4.    Vul op een nieuwe regel de velden indien nodig in.
+5.    Kies de actie **Machtigingen**.
+6.    Kies op de pagina **Machtigingen** de actie **Machtigingen registreren** en kies de actie **Starten**.
 
     Hierdoor wordt een opnameproces wordt gestart dat al uw acties in de gebruikersinterface vastlegt.
-7.  Ga naar de verschillende pagina's en activiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] waartoe u gebruikers met deze machtigingenset toegang wilt verlenen. U moet de taken uitvoeren waarvoor u machtigingen wilt opnemen.
-8.  Om de opname te stoppen, gaat u terug naar de pagina **Machtigingen** en kiest u de actie **Stoppen**.
-9.  Kies de knop **Ja** om de opgenomen toegangsrechten aan de nieuwe machtigingenset toe te voegen.
-10. Geef voor elk object in de opgenomen lijst aan of gebruikers records mogen invoegen, wijzigen of verwijderen in de opgenomen tabellen.
+7.    Ga naar de verschillende pagina's en activiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] waartoe u gebruikers met deze machtigingenset toegang wilt verlenen. U moet de taken uitvoeren waarvoor u machtigingen wilt opnemen.
+8.    Om de opname te stoppen, gaat u terug naar de pagina **Machtigingen** en kiest u de actie **Stoppen**.
+9.    Kies de knop **Ja** om de opgenomen toegangsrechten aan de nieuwe machtigingenset toe te voegen.
+10.    Geef voor elk object in de opgenomen lijst aan of gebruikers records mogen invoegen, wijzigen of verwijderen in de opgenomen tabellen.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Beveiligingsfilters - De toegang van een gebruiker tot specifieke records in een tabel beperken
 Voor beveiliging op recordniveau in [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Dit betekent dat de gebruiker geen toegang heeft tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de Help voor ontwikkelaars en IT-pro.
@@ -204,5 +204,4 @@ Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Gebruikers aan Office 365 toevoegen voor bedrijven](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central Licentiehandleiding](https://aka.ms/BusinessCentralLicensing)  
 [Beveiliging en bescherming in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in de Help voor ontwikkelaars en IT-professionals

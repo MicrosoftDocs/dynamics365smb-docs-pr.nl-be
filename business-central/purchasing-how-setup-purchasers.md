@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 486637c66d7664931308c0133789ec8fbf291090
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 59884fbde8cb466a84bdd243aed92ca0143eb709
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883082"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191007"
 ---
 # <a name="set-up-purchasers"></a>Inkopers instellen
 Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Inkopers instellen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers/Inkopers** in en kies de desbetreffende koppeling.

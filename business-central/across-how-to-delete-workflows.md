@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d01d6bc81629985a95f0508ec103368e2aea92e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 46b976894854781ee2d8198deed316f94189c007
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881180"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188336"
 ---
 # <a name="delete-workflows"></a>Werkstromen verwijderen
 Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.  

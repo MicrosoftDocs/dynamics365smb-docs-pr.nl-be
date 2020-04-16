@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 32a7a00dc5d348fe6d177986dd0d966fca885528
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911179"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193988"
 ---
 # <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
 U kunt elke klant instellen met een voorkeursmethode voor de verzending van verkoopdocumenten, zodat u niet elke keer dat u de actie **Boeken en verzenden** kiest een verzendoptie hoeft te selecteren.
@@ -27,7 +27,7 @@ Op de pagina **Verzendprofielen van documenten** kunt u verschillende verzendpro
 Wanneer u de actie **Boeken en verzenden** in een verkoopdocument kiest, wordt in het dialoogvenster **Boeken en verzenden bevestigen** het gebruikte verzendprofiel getoond. Dit is het voor de klant ingestelde profiel of het standaardprofiel voor alle klanten. In het dialoogvenster kunt u het verzendprofiel voor het verkoopdocument wijzigen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendprofielen van document** in en kies de desbetreffende koppeling.

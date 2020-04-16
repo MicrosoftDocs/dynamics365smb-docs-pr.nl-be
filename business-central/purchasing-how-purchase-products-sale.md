@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b2b6ae186fd135904c18fdb0990806a937d9b036
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312496"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193984"
 ---
 # <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
 Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
@@ -31,7 +31,7 @@ Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopd
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Een of meerdere inkooporders van een verkooporder maken
 Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de verkooporder, gebruikt u de functie **Inkooporders maken**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Open een verkooporder waarvoor u artikelen wilt inkopen.
 3. Kies de actie **Inkooporders maken**.
 
@@ -54,7 +54,7 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 > [!NOTE]  
 >   Deze functie maakt een inkoopfactuur voor het exacte artikelaantal op het geselecteerde verkoopdocument. Als u het inkoopaantal wilt wijzigen, moet u de inkoopfactuur wijzigen nadat deze is gemaakt.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Open een verkoopfactuur waarvoor u artikelen wilt inkopen.
 3. Selecteer een of meer verkoopfactuurregels die u wilt gebruiken op de inkoopfactuur. Als u alle verkoopfactuurregels wilt gebruiken, selecteert u ze allemaal of selecteert u helemaal geen regels.
 4. Kies de actie **Inkoopfactuur maken**.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5401b8049e13d594f3429c97cfff915fc944c733
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c245690690a02bb4d7fccb6c07737b71c96f14d5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305584"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188528"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vele inkomende documentrecords beheren
 Terwijl u inkomende documentrecords maakt of verwerkt, kan het aantal regels op de pagina **Inkomende documenten** zozeer toenemen dat u het overzicht verliest. Daarom kunt u inkomende documentrecords op Verwerkt instellen om ze te verwijderen uit de standaardweergave. Als u **Alles weergeven** kiest, kunt u zowel verwerkte als onverwerkte records weergeven.

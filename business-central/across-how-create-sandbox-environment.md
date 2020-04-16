@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910648"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188576"
 ---
-# <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Een sandboxomgeving maken in [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Een sandboxomgeving maken in [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Met [!INCLUDE [prodshort](includes/prodshort.md)] kunt u eenvoudig een veilige omgeving creëren waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
 
@@ -26,7 +26,7 @@ Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/bu
 > [!NOTE]
 > Technisch gezien zijn sandbox-omgevingen heel anders dan productieomgevingen, zelfs als uw beheerder een sandbox maakt die productiegegevens bevat. U kunt geen sandbox gebruiken voor benchmarking en u kunt bijvoorbeeld geen database-export aanvragen. Als u een sandbox voor benchmarking wilt maken, kan uw beheerder een speciale productieomgeving maken in het beheercentrum. Zie [Typen omgevingen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) voor meer informatie.
 
-## <a name="to-create-a-sandbox-environment-in-your-include-prodshortincludesprodshortmd"></a>Een sandboxomgeving maken in uw [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Een sandboxomgeving maken in uw [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Meld u aan bij uw productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

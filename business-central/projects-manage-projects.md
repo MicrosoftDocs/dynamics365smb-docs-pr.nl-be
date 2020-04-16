@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312664"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190023"
 ---
 # <a name="project-management"></a>Projectbeheer
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.

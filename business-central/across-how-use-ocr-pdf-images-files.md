@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c35ccb10ca67e66697002add56d518f3a7bacc0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c9acd338493ca101d8b8061fb95b9a4faba8eabb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305176"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187880"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
 Vanuit PDF- of afbeeldingsbestanden die u ontvangt van uw handelspartners, kunt u elektronische documenten laten genereren door een externe OCR-service (Optical Character Recognition - optische tekenherkenning), die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Dit wordt in de eerste procedure beschreven.
@@ -30,7 +30,7 @@ Omdat OCR is gebaseerd op optische herkenning, is het waarschijnlijk dat de OCR-
 Het verkeer van bestanden van en naar de OCR-service wordt verwerkt door een specifiek taakwachtrij-item, dat automatisch wordt gemaakt als u de gerelateerde serviceverbinding inschakelt. Zie voor meer informatie [Inkomende documenten instellen](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Een PDF-of afbeeldingsbestand verzenden naar de OCR-service vanaf de pagina **Inkomende documenten**
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies de desbetreffende koppeling.
 2. Maak een nieuwe inkomende documentrecord en koppel het bestand eraan. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
 3. Selecteer op de pagina **Inkomende documenten** een of meer regels en kies vervolgens de actie **Verzenden naar taakwachtrij**.
 
@@ -107,7 +107,7 @@ Omdat OCR is gebaseerd op optische herkenning, is het waarschijnlijk dat de OCR-
 
 De pagina **Correctie OCR-gegevens**, die u opent vanuit de pagina **Inkomend document**, bevat de velden van het sneltabblad **Financiële informatie** in twee kolommen. Een kolom met de bewerkbare OCR-gegevens en een kolom met de alleen-lezen OCR-gegevens. Wanneer u de knop **OCR-feedback verzenden** kiest, wordt de inhoud van de pagina **Correctie OCR-gegevens** naar de OCR-service verzonden. De volgende keer dat de service PDF- of afbeeldingsbestanden verwerkt die de betreffende gegevens bevatten, worden uw correcties meegenomen om dezelfde fouten te voorkomen.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies de desbetreffende koppeling.
 2. Open een inkomende documentrecord die gegevens bevat die van de OCR-service zijn ontvangen en die u wilt corrigeren.
 3. Kies op de pagina **Inkomend document** de actie **Correctie OCR-gegevens**.
 4. Overschrijf op de pagina **Correctie OCR-gegevens** de gegevens in de bewerkbare kolom voor elk veld dat een onjuiste waarde heeft.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953119"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189399"
 ---
 # <a name="update-custom-report-layouts"></a>Aangepaste rapportlay-outs bijwerken
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  
@@ -42,7 +42,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
  Wijzigingen in de rapportlay-outs worden getest, maar niet toegepast op de werkelijke rapportlay-outs. De pagina **Bijwerklogboek rapportlay-out** verschijnt waarin de status van potentiële updates voor elke rapportlay-out wordt aangegeven. Als er fouten voor een rapportlay-out zijn, kunt u de rapportlay-out van het bericht direct benaderen en bewerken om eventuele problemen te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
 
-##  <a name="UpdateLimitations"></a> Beperking voor update van aangepaste rapportlay-out  
+##  <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a> Beperking voor update van aangepaste rapportlay-out  
  Er zijn verschillende soorten wijzigingen die de automatische update kan toepassen op aangepaste rapportlay-outs, bijvoorbeeld als een veld dat in de lay-out wordt gebruikt, in verwijderd uit de gegevensset van het rapport. De automatische update kan de volgende wijzigingen in de gegevensset van een rapport echter bijwerken.  
 
 1.  Verwijderde velden, labels of gegevensitems.  
@@ -53,7 +53,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
  Als tijdens het updateproces een van deze problemen wordt gedetecteerd, kan de update niet worden toegepast. U moet de problemen handmatig verhelpen, bijvoorbeeld door de rapportlay-out te bewerken in Word, of programmatisch met behulp van upgrade-codeunits.  
 
-##  <a name="FixErrors"></a> Fouten corrigeren  
+##  <a name="fixing-errors"></a><a name="FixErrors"></a> Fouten corrigeren  
  Als er een foutbericht verschijnt tijdens het bijwerken of testen van updates van de rapportlay-out, moet u waarschijnlijk de rapportlay-out wijzigen om het probleem op te lossen. Zie de foutmelding om de oorzaak van het probleem te achterhalen.  
 
  Het meest voorkomende probleem is dat een veld dat in de lay-out wordt gebruikt, uit de rapportgegevensset is verwijderd. In dit geval ziet u een regel in het foutbericht die zegt dat er een artikel is verwijderd. Als u dit probleem wilt oplossen, moet u de lay-out wijzigen en het desbetreffende veld verwijderen.  
@@ -62,7 +62,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

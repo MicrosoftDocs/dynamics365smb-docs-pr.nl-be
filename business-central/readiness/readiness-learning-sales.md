@@ -2,15 +2,15 @@
 title: Trainingscatalogus voor partnerverkoop en -marketing
 description: Vind alle beschikbare leermogelijkheden voor Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 0e5dd14a9d7da8ea6dc25623f15338ace7d11e80
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 6c9a8952a5f0bc0144665eedd92f5c8c2384a344
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097635"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190761"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Trainingscatalogus voor partnerverkoop en -marketing
 
@@ -18,7 +18,7 @@ Helpt u uw klanten bij het kopen van de juiste oplossing?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 
-## Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                          | Omschrijving                                                                                                                                                                                                                                                                                              | Opmaak                                | Lengte              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -26,7 +26,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.                                                                                                                                                                                                | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
-## Aan de slag<a name="get-started"></a>
+## <a name="getting-started"></a>Aan de slag<a name="get-started"></a>
 
 | Inhoud                                                                                                                             | Omschrijving                                                                                                                                                                                                                                                                                               | Opmaak                                | Lengte              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -35,7 +35,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Professioneel werken met gegevens in Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Bent u net begonnen met Business Central? In dit leertraject maakt u kennis met de typen gegevens in Business Central en hoe u in de toepassing de informatie kunt vinden die u nodig hebt.                                                                                                           | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten  |
 | [Business Central YouTube-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-bestemmingspagina voor Dynamics 365 Business Central-video's                                                                                                                                                                                                                                             | YouTube-video's                        |                     |
 
-## Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                          | Omschrijving                                                                                                                                                                                                                                                                                               | Opmaak                                | Lengte              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -43,7 +43,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.                                                                                                                                                                                                | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
-## Laat uw bedrijf groeien<a name="grow"></a>
+## <a name="grow-your-business"></a>Laat uw bedrijf groeien<a name="grow"></a>
 
 | Inhoud                                                                                                                               | Omschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692716"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189033"
 ---
 # <a name="changing-language-and-locale"></a>Taal en landinstellingen wijzigen
 
@@ -44,7 +44,7 @@ U wijzigt de landinstellingen op de pagina **Mijn instellingen**. Zie voor meer 
 
 Op de pagina **Help en ondersteuning** ziet u op welke versie van [!INCLUDE [prodshort](includes/prodshort.md)] uw bedrijf is gebaseerd. Als u een bedrijf een andere basis wilt geven, kan de systeembeheerder een nieuwe productieomgeving maken. Zie [Een nieuwe productieomgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) voor meer informatie.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Talen van de [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
+## <a name="languages-of-the-d365fin-help"></a>Talen van de [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 De helpinhoud voor de kernfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] publiceert naar de Microsoft Docs-site en is beschikbaar in een aantal verschillende talen. Als u toegang tot de documenten hebt vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze in het Engels worden weergegeven.
 
 ### <a name="how-do-i-change-the-language"></a>Hoe kan de ik de taal veranderen?

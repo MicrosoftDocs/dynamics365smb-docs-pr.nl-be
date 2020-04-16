@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 6f73978c381075175d80c14c8aaaf2d66cb60ade
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910916"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188168"
 ---
 # <a name="setting-up-workflows"></a>Werkstromen instellen
 U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).  
@@ -46,7 +46,7 @@ U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden di
 Deze video laat zien hoe u een werkstroom instelt waarvoor iemand de goedkeuring van iemand anders moet vragen voordat deze informatie over een bestaande klant kan wijzigen of een nieuwe klant kan maken.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
 ## <a name="see-also"></a>Zie ook  
  [Werkstromen gebruiken](across-use-workflows.md)   

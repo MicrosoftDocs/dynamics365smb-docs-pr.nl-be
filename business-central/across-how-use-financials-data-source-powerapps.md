@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf587dca8224e742ecbde30bcabc35697bb6f2a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f6b771b0107214702785d2b124983eb369741a84
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881012"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187928"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps
 
@@ -24,7 +24,7 @@ U kunt uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens als gegevensbron
 > [!NOTE]  
 > U moet een geldig account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power Apps hebben.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-apps"></a>[!INCLUDE[prodshort](includes/prodshort.md)] als gegevensbron in Power Apps toevoegen
+## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>[!INCLUDE[prodshort](includes/prodshort.md)] als gegevensbron toevoegen in Power Apps
 
 1. Navigeer in de browser naar [powerapps.microsoft.com](https://powerapps.microsoft.com/) en meld u aan.
 2. Kies op de startpagina **Apps**, **Een app maken** en **Canvas** om een nieuwe canvas-app te maken. Deze app wordt ontworpen voor gebruik op een mobiel apparaat, maar u kunt ook een andere sjabloon gebruiken.

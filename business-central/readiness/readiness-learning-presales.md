@@ -2,15 +2,15 @@
 title: Pre-sales trainingscatalogus voor partners
 description: Vind alle beschikbare leermogelijkheden voor Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: fa20bdc9852098ac3d1a78d2038fcf4182ce2f1f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: e5341a17626b693cf49d74d398ee5bb657ba3afd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097828"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190771"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Pre-sales trainingscatalogus voor partners
 
@@ -18,7 +18,7 @@ Bent u verantwoordelijk voor het demonstreren van belangrijke functies aan klant
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet. 
 
-## Aan de slag<a name="get-started"></a>
+## <a name="get-started"></a>Aan de slag<a name="get-started"></a>
 
 | Inhoud                                                                                                                              | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,27 +28,27 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Business Central YouTube-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-bestemmingspagina voor Dynamics 365 Business Central-video's                                                                                                                                                                                                                                    | YouTube-video's                        |                    |
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                               | Website                               |                    |
 
-## Uw bedrijf laten groeien<a name="grow"></a>
+## <a name="grow-your-business"></a>Uw bedrijf laten groeien<a name="grow"></a>
 
 | Inhoud                                                                                                                                | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Boeiende gesprekken met prospects (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)                                             | Errol Schoenfish, directeur Productmarketing spreekt over de manier waarop u boeiende gesprekken kunt hebben met prospects over Microsoft Dynamics 365 Business Central.                                                                                                                        | Video                                 | 11 minuten, 16 seconden |
 | [Dynamics 365 Business Central - Hoe maakt u het concreet?](https://mbspartner.microsoft.com/D365/Videos/101787)                                                                   | Errol Schoenfish, directeur Productmarketing spreekt over de manier waarop u demo's kunt gebruiken voor Microsoft Dynamics 365 Business Central.                                                                                                                                           | Video                                 | 12 minuten, 29 seconden |
 
-## Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                                                                                | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.                                                                                                                                                                                                | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
-## Nieuw<a name="whatsnew"></a>
+## <a name="whats-new"></a>Nieuw<a name="whatsnew"></a>
 
 | Inhoud                                                                                                                                | Omschrijving                                 | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365: releasewave 2-plan 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)                                                               | Het Dynamics 365 releaseplan (voorheen releaseopmerkingen) voor de releasewave 2 van 2019 beschrijft alle nieuwe functies die van oktober 2019 tot en met maart 2020 uitkomen.                                                                                                                                          | Website en downloadbaar whitepaper  |                       |
 
-## Demo<a name="demo"></a>
+## <a name="demo"></a>Demo<a name="demo"></a>
 
 | Inhoud                                                                                                                                                           | Omschrijving                                                                                                                                                                                                                                                     | Opmaak                           | Lengte                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|

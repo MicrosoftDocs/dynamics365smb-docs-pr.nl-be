@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d637a21a795db46554a45c688bf7ad081533e4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c91caed8fb682af4c754aef83801083a714d4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312712"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193827"
 ---
 # <a name="use-resources-for-jobs"></a>Resources gebruiken voor projecten
 U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen en de werksoorten bij te houden die zijn gekoppeld aan projecten. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
+
+> [!NOTE]
+> U kunt ook externe resources aanschaffen, bijvoorbeeld om een leverancier te factureren voor het geleverde werk. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 U kunt ook het verbruik van een resource boeken in een resourcedagboek. Posten die in een resourcedagboek zijn geboekt, werken niet door in het grootboek.
 
@@ -28,14 +31,14 @@ U kunt ook het verbruik van een resource boeken in een resourcedagboek. Posten d
 U wijst resources aan projecten toe door projectplanningsregels voor het project te maken. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Resourceverbruik voor een project vastleggen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies de gerelateerde koppeling.
 2. Open een relevante projectdagboekbatch en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wanneer het dagboek compleet is, kiest u de actie **Boeken**.
 
 ## <a name="to-adjust-resource-prices"></a>Resourceprijzen aanpassen
 Als u kost- of verkoopprijzen wilt wijzigen voor een groot aantal resources, kunt u een batchverwerking gebruiken.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijzen herwaarderen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijzen herwaarderen** in en kies de desbetreffende koppeling.
 2. Vul de overige velden op een regel desgewenst in en kies de knop **OK**.
 
 > [!NOTE]  
@@ -44,7 +47,7 @@ Als u kost- of verkoopprijzen wilt wijzigen voor een groot aantal resources, kun
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Suggesties voor wijzigingen van resourceprijzen krijgen op basis van bestaande alternatieve prijzen
 Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, kunt u een batchverwerking gebruiken om meerdere alternatieve resourceprijzen in te stellen.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijswijzigingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijswijzigingen** in en kies de desbetreffende koppeling.
 2. Kies de actie **Res.prijsvoorstellen (Prijs)** en vul indien nodig de velden in.
 3. Kies de knop **OK**.  
 4. Nadat de batchverwerking is voltooid, bevat de pagina **Resourceprijswijzigingen** de resultaten van de batchverwerking.
@@ -52,7 +55,7 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Resourceprijsvoorstellen ophalen op basis van standaardverkoopprijzen
 Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de standaardverkoopprijzen op de resourcekaarten, kunt u een batchverwerking gebruiken.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijswijzigingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourceprijswijzigingen** in en kies de desbetreffende koppeling.
 2. Kies de actie **Res.prijsvoorstellen (Res.)** en vul indien nodig de velden in.  
 3. Kies de knop **Ok**.  
 4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
@@ -60,7 +63,7 @@ Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de stand
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Suggesties voor wijzigingen van resourceprijzen krijgen op basis van alternatieve prijzen
 Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, kunt u een batchverwerking gebruiken om meerdere alternatieve resourceprijzen in te stellen.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Res.prijsvoorstellen (Prijs)** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Res.prijsvoorstellen (Prijs)** in en kies de desbetreffende koppeling.  
 2. Vul indien nodig de velden in.
 3. Kies de knop **Ok**.  
 4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.

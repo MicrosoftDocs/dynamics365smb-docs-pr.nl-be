@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 7c75a96b749469ca4a9fb9794281aa64e8d3678e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992133"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189543"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
 In het menu **Boeken** in een verkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
@@ -49,7 +49,7 @@ In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betre
 ## <a name="editing-ledger-entries"></a>Posten bewerken
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het **Traceringsnummer (zending)**. veld. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310984"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195591"
 ---
 # <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
 Om de inhoud van bedrijfsdocumenten snel aan uw zakelijke partners door te geven, zoals de betalingsgegevens over verkoopdocumenten aan klanten, kunt u de functie Rapportlay-out gebruiken om documentspecifieke inhoud te definiëren die automatisch wordt ingevoegd in hoofdteksten van e-mail. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
@@ -32,7 +32,7 @@ Als het veld **E-mail** op de pagina **Document verzenden naar** is ingesteld op
 In de volgende procedure wordt beschreven hoe u het rapport **Verkoop - factuur** zo instelt dat het kan worden gebruikt voor documentspecifieke e-mailhoofdteksten wanneer u geboekte verkoopfacturen via e-mail verstuurt.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Een documentspecifieke e-mailhoofdtekst instellen voor verkoopfacturen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur**.
 3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
 4. Schakel het selectievakje **Gebruiken voor hoofdtekst van e-mailbericht** in.
@@ -48,7 +48,7 @@ Wanneer u nu bijvoorbeeld de actie **Verzenden** kiest op de pagina **Geboekte v
 In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als een e-mailbericht verzendt met het document als een PDF-bestand bijgevoegd en met een documentspecifieke e-mailhoofdtekst.
 
 ## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.
 2. Selecteer de relevante geboekte verkoopfactuur en kies de actie **Verzenden**. De pagina **Document verzenden naar** verschijnt.
 3. Selecteer in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 4. Kies de knop **OK**. De pagina **E-mail verzenden** wordt geopend.
@@ -64,7 +64,7 @@ In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als 
 >   Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md)  
+[Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

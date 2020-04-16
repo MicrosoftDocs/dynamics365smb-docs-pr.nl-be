@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991940"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193599"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.
@@ -44,7 +44,7 @@ Er zijn twee functies om kosten automatisch exact tegen te boeken.
 |Functie|Description|  
 |------------------|---------------------------------------|  
 |De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Verkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de verkoopretourorder worden tegengeboekt. Zie voor meer informatie [Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|De functie **Document kopiëren** op de pagina's **Verkoopcreditnota** en **Verkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Instellingen van verkoop en tegoeden**.|
+|De functie **Kopiëren uit document** op de pagina's **Verkoopcreditnota** en **Verkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Instellingen van verkoop en tegoeden**.|
 
 Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld **Vereffenen met artikelpost** selecteren op elk soort retourdocumentregel en vervolgens het nummer van de oorspronkelijke verkooppost selecteren. Hierdoor wordt de verkoopcreditnota gekoppeld aan de oorspronkelijke verkooppost en wordt het artikel gewaardeerd op de oorspronkelijke kostprijs.
 
@@ -76,7 +76,7 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcreditnota's** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
 3. Voer in het veld **Klant** de naam in van een bestaande klant.
-4. Kies de actie **Document kopiëren**.
+4. Kies de actie **Kopiëren uit document**.
 5. Selecteer op de pagina **Verkoopdocument kopiëren** in het veld **Documentsoort** **Geboekte factuur**.
 6. Selecteer het veld **Documentnr.** om de pagina **Geboekte verkoopfacturen** te openen, en selecteer vervolgens de geboekte verkoopfactuur met de regels die u wilt tegenboeken.
 7. Schakel het selectievakje **Regels opnieuw berekenen** in als u wilt dat de gekopieerde geboekte verkoopfactuurregels worden bijgewerkt met de wijzigingen in de artikelprijs en kostprijs sinds de factuur is geboekt.
@@ -90,7 +90,7 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 4. Vul op het sneltabblad **Regels** de regels handmatig in of kopieer informatie vanuit andere documenten om de regels automatisch in te vullen:
 
     - Met de functie **Geboekte documentregels ophalen voor tegenboeking** kopieert u een of meer geboekte documentregels uit een of meer geboekte documenten. Deze functie boekt altijd exact de kosten tegen vanuit de geboekte documentregel. Deze functie wordt in de volgende stappen beschreven.    
-    - Met de functie **Document kopiëren** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** op de pagina **Verkoopinstellingen** is ingeschakeld.  
+    - Met de functie **Kopiëren uit document** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** op de pagina **Verkoopinstellingen** is ingeschakeld.  
 
 5. Kies de actie **Geboekte documentregels ophalen voor tegenboeking**.
 6. Schakel bovenaan de pagina **Geboekte verkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als een aantal op een geboekte verkoopfactuur bijvoorbeeld al is geretourneerd, wilt u dat aantal bijvoorbeeld mogelijk niet retourneren op een nieuw verkoopretourdocument.
@@ -218,7 +218,7 @@ Als retourontvangsten worden gecombineerd op een creditnota en worden geboekt, w
 
 U kunt afzonderlijke retourorders ook handmatig verwijderen.   
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

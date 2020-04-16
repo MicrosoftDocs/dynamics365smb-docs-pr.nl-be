@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305080"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187976"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Opmerkingen toevoegen aan kaarten en documenten
 U kunt extra informatie toevoegen aan grootboekrekeningen, klantenkaarten of verkooporders om uitzonderingen of speciale overeenkomsten te doen toekomen aan andere gebruikers.
@@ -31,7 +31,7 @@ Daarnaast kunt u aangeven of u wilt dat opmerkingen worden overgenomen van het e
 Hierna wordt beschreven hoe u een opmerking aan een artikelkaart toevoegt. De stappen zijn vergelijkbaar voor alle andere kaarten en documenten, behalve documentregels: de actie **Opmerkingen** wordt geplaatst in het actiemenu van een regel.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Een opmerking toevoegen aan een artikelkaart
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Open de relevante artikelkaart.
 3. Kies de actie **Opmerkingen**.
 4. Voer op de pagina **Opmerkingen** tekst in en kies de knop **OK**.

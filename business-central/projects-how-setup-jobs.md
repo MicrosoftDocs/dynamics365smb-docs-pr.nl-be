@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97e0a8743cc9c86f37432c0b7d6cd5351883176b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312784"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191198"
 ---
 # <a name="set-up-jobs"></a>Projecten instellen
 
@@ -22,8 +22,8 @@ Als projectmanager kunt u taken instellen die alle projecten definiëren die u b
 Voor elk project kunt u afzonderlijke projectkaarten opgeven met informatie over prijzen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
 
 ## <a name="to-set-general-information-for-jobs"></a>Algemene gegevens voor projecten instellen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies de desbetreffende koppeling.
+2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > De invloed van het veld **Gebruikslink standaard toepassen** is tamelijk complex en wordt daarom in het volgende gedeelte uitgelegd.
@@ -44,13 +44,13 @@ Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld e
 >  
 > Als tracking van projectgebruik *niet* is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er geen nieuwe projectplanningregels gemaakt wanneer u projectjournaalregels boekt. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
-1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en klik vervolgens op de gerelateerde koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Projectinstellingen** in en kies de desbetreffende koppeling.
 2. Schakel het selectievakje **Gebruikslink standaard toepassen** in.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
 U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Resource**.
 3. Vul op de pagina **Resourceprijzen project** indien nodig de velden in.
 
@@ -64,7 +64,7 @@ De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsreg
 ## <a name="to-set-up-prices-for-job-items"></a>Prijzen instellen voor projectartikelen
 U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor de pagina **Artikelprijzen project**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Artikel**.
 3. Vul op de pagina **Artikelprijzen project** indien nodig de velden in.
 
@@ -78,7 +78,7 @@ De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplan
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Prijzen instellen voor GB-rekeningen voor een project
 U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U gebruikt hiervoor de pagina **GB-rekeningprijzen project**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening**.  
 3. Vul op de pagina **GB-rekeningprijzen project** indien nodig de velden in.
 
@@ -92,7 +92,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 > [!NOTE]  
 >   U moet de benodigde rekeningen in het rekeningschema instellen voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectboekingsgroepen** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul de accountvelden in zoals is beschreven in de volgende tabel.  
 
 | Het veld Rekeningnr. | Omschrijving |

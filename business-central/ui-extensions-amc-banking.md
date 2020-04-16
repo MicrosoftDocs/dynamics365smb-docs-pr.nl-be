@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/14/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9c9d927fb13d68c195bd457eb6bd2cbbfe078ea2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767550"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194367"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals gebruiken
 Met de extensie AMC Banking 365 Fundamentals kunt u eenvoudiger en nauwkeuriger gegevens naar uw banken verzenden. De extensie verbindt [!INCLUDE[d365fin](includes/d365fin_md.md)] met de service AMC Banking 365 Fundamentals voor Microsoft Dynamics 365 Business Central. Hiermee kunnen bankgegevens worden geconverteerd van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar indelingen die worden gebruikt door meer dan 600 banken over de hele wereld. Dit maakt het bijvoorbeeld gemakkelijker om betalingen en tegoeden over te dragen aan leveranciers door de betalingen in te voeren in [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens te uploaden naar uw bank. De indelingen kunnen ook bankafstemmingsprocessen vereenvoudigen. Zie voor meer informatie [AMC Banking voor Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).

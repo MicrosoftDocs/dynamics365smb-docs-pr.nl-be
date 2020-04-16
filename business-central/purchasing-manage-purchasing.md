@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e13ca8290c4f9036c96b7aed8ab42c43142b4e47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954199"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190935"
 ---
 # <a name="purchasing"></a>Inkopen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -46,7 +46,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 |Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met afroepinkooporders](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathspurchase-items-services-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop instellen](purchasing-setup-purchasing.md)  

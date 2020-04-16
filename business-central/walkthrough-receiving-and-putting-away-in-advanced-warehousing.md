@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4027fd2d7ce3e514aa451279c8800453ba62711b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553904"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195663"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties
 
@@ -58,7 +58,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   CRONUS International Ltd. geïnstalleerd.  
 -   U maakt van uzelf een magazijnwerknemer bij vestiging WIT door de volgende stappen uit te voeren:  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
 2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
 3.  Voer WIT in het veld **Vestiging** in.  
 4.  Selecteer het veld **Standaard**.  
@@ -71,7 +71,7 @@ De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van h
 
 ### <a name="to-review-the-location-setup"></a>De vestigingsinstellingen controleren  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
 2.  Open de vestigingskaart WIT.  
 3.  Controleer op het sneltabblad **Magazijn** of het selectievakje **Gestuurde opslag en pick** is ingeschakeld.  
 
@@ -86,7 +86,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
 
 ### <a name="to-create-the-purchase-orders"></a>De inkooporders maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Maak een inkooporder voor leverancier 10000 op 23 januari (werkdatum) met de volgende inkooporderregels.  
 
@@ -117,7 +117,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
 Op de pagina **Magazijnontvangst** kunt u meerdere inkomende orders beheren voor brondocumenten, zoals een inkooporder.  
 
 ### <a name="to-receive-the-items"></a>De artikelen ontvangen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Voer WIT in het veld **Vestiging** in.  
 4.  Kies de actie **Filters om brondoc. op te halen gebruiken**.  
@@ -135,7 +135,7 @@ Op de pagina **Magazijnontvangst** kunt u meerdere inkomende orders beheren voor
 Op de pagina **Magazijnopslag** kunt u opslagactiviteiten beheren voor een specifiek magazijnontvangstdocument dat van toepassing is op meerdere brondocumenten. Net als alle magazijnactiviteitsdocumenten wordt elk artikel in de magazijnopslag weergegeven door een Nemen-regel en een Plaatsen-regel. In de volgende procedure is de opslaglocatie op de Nemen-regels de standaardopslaglocatie op vestiging WIT, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>De artikelen opslaan  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslag** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslag** in en kies de desbetreffende koppeling.  
 2.  Selecteer het enige magazijnopslagdocument in de lijst en kies vervolgens de actie **Bewerken**.  
 
     Het magazijnopslagdocument wordt geopend met in totaal acht Nemen- of Plaatsen-regels voor de vier inkooporderregels.

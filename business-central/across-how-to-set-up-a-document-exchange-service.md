@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1510884fb8a590bebc4967cbdf48cbf03727a307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 82ccc7bc9fc9aa09c9b403f9d5a31bfa25355e3e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305320"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188240"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen
 U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen service doc.uitw.** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen service doc.uitw.** in en kies de desbetreffende koppeling.  
 2. Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  

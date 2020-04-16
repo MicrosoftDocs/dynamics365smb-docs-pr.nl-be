@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877027"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193947"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Velden toevoegen aan een Word-rapportlay-out
 Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeeldingen bevatten. In dit onderwerp wordt de procedure beschreven om velden uit een rapportgegevensset toe te voegen aan een bestaande Word-rapportlay-out voor een rapport. U voegt velden toe door het aangepaste Word XML-onderdeel voor het rapport te gebruiken en u voegt inhoudsbesturingselementen toe waarmee de velden worden toegewezen aan de rapportgegevensset. Het toevoegen van velden vereist dat u enige kennis van de gegevensset van het rapport hebt, zodat u kunt bepalen welke velden u aan de lay-out wilt toevoegen.  
@@ -23,7 +23,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
 > [!NOTE]  
 >  U kunt geen ingebouwde rapportlay-outs wijzigen.<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Het aangepaste XML-onderdeel voor het rapport openen in Word  
+##  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Het aangepaste XML-onderdeel voor het rapport openen in Word  
   
 1.  Open, als het nog niet open is, het Word-document met de rapportlay-out in Word.  
   

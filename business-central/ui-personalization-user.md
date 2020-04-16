@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071994"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195399"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
@@ -35,7 +35,7 @@ U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen door de grens t
 
 Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de kolombreedte opgeslagen in uw account en volgen deze u ongeacht op welk apparaat u zich aanmeldt.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
 1. Open een pagina die u wilt personaliseren.
 2. In de rechterbovenhoek selecteert u het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en vervolgens kiest u de actie **Personaliseren**.
 
@@ -52,7 +52,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 6. Kies het element en kies vervolgens **Verplaatsen**, **Verwijderen**, **Verbergen**, **Weergeven**, **Weergeven onder 'Meer tonen'**, **Weergeven wanneer samengevouwen**, **Altijd weergeven**, **Bevroren deelvenster instellen/wissen** of **Opnemen in/Uitsluiten van snelinvoer**, afhankelijk van het type en de status van het UI-element. Zie [Wat kunt u personaliseren](#What) voor meer informatie.
 7. Wanneer u klaar bent met het wijzigen van de indeling van een of meer pagina's, kiest u de knop **Gereed** in de banner **Personaliseren**.
 
-## <a name="What"></a>Wat kunt u personaliseren
+## <a name="what-you-can-personalize"></a><a name="What"></a>Wat kunt u personaliseren
 
 |Wat u wilt doen?|Hoe kunt u het doen?|Opmerkingen|
 |----|------------|-------|
@@ -67,9 +67,10 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 |Weergaven die gefilterde lijsten vertegenwoordigen, opnieuw rangschikken en verwijderen.|Kies de pijlpunt naast een weergave en kies vervolgens **Verplaatsen**, **Verwijderen** of **Verbergen**.|Zie [Lijstweergaven opslaan en personaliseren](ui-views.md)|  
 |Voeg een nieuwe actie toe aan een pagina of rapport in uw rolcentrum.|Kies op de doelpagina, de rapportverzoekpagina of het venster Vertel me het bladwijzerpictogram.|Zie [Een bladwijzer maken van een pagina of rapport in uw rolcentrum](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Acties personaliseren
 
-Met personalisatie kunt u bepalen welke acties op de actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen. De actiebalk personaliseren gebeurt in wezen op dezelfde manier als met andere elementen van de gebruikersinterface. Wat u precies kunt doen met een actie of groep, hangt er echter vanaf waar de actie of groep zich bevindt. De beste manier om daar achter te komen is de personaliseringsmodus te activeren en de pijlpunten u te laten leiden.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Acties personaliseren
+
+Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen. De navigatie- en actiebalk personaliseren gebeurt in wezen op dezelfde manier als met andere elementen van de gebruikersinterface. Wat u precies kunt doen met een actie of groep, hangt er echter vanaf waar de actie of groep zich bevindt. De beste manier om daar achter te komen is de personaliseringsmodus te activeren en de pijlpunten u te laten leiden.
 
 Er zijn enkele termen waarmee u vertrouwd moet zijn om actiepersonalisatie beter te begrijpen: *actiegroep* en *gepromoveerde categorie*.  
 
@@ -87,9 +88,9 @@ Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijl
 
 |Optie|Wat het doet|
 |------|------------
-|**Verwijderen**|Deze optie verschijnt als de geselecteerde actie ook ergens anders op de actiebalk wordt weergegeven. Als u deze optie kiest, verwijdert u de actie van de geselecteerde locatie, zodat deze niet meer wordt weergegeven. De actie of actiegroep blijft op de andere locaties. |
-|**Verbergen**|Deze optie wordt weergegeven als de actie of groep zich niet ergens anders op de actiebalk bevindt. Net als **Verwijderen** laat het kiezen van deze optie de actie of actiegroep verdwijnen van de actiebalk. In de personalisatiemodus wordt de actie of actiegroep echter nog op de huidige positie weergegeven, behalve dat deze lichtgekleurd wordt weergegeven.|
-|**Weergeven**|Deze optie wordt weergegeven als de actie of actiegroep eerder is verborgen (lichtgekleurd). Als u deze optie kiest, wordt de actie of actiegroep weergegeven op de actiebalk.|
+|**Verwijderen**|Deze optie verschijnt als de geselecteerde actie ook ergens anders op de navigatie- of actiebalk wordt weergegeven. Als u deze optie kiest, verwijdert u de actie van de geselecteerde locatie, zodat deze niet meer wordt weergegeven. De actie of actiegroep blijft op de andere locaties. |
+|**Verbergen**|Deze optie wordt weergegeven als de actie of groep zich niet ergens anders op de navigatie- of actiebalk bevindt. Net als **Verwijderen** laat het kiezen van deze optie de actie of actiegroep verdwijnen van de navigatie- of actiebalk. In de personalisatiemodus wordt de actie of actiegroep echter nog op de huidige positie weergegeven, behalve dat deze lichtgekleurd wordt weergegeven.|
+|**Weergeven**|Deze optie wordt weergegeven als de actie of actiegroep eerder is verborgen (lichtgekleurd). Als u deze optie kiest, wordt de actie of actiegroep weergegeven op de navigatie- of actiebalk.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Acties en actiegroepen verplaatsen
 Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizontale lijn tussen twee acties of een rand rond een actiegroep. Hier gelden de volgende beperkingen:
@@ -100,6 +101,18 @@ Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizont
 1. Als u een actie of actiegroep wilt verplaatsen, sleept u deze naar de gewenste positie, net als met velden en kolommen.
 2. Als u een actie of actiegroep verplaatst naar een andere actiegroep die leeg is, sleept u de actie of actiegroep naar de nieuwe groep en zet u deze neer in het kader **Hier een actie neerzetten**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Onderdelen personaliseren
+
+Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerdere velden, grafieken of andere inhoud en die kunnen worden geïdentificeerd door een gekleurde rand wanneer de focus op het onderdeel wordt ingesteld. Een startscherm van een rolcentrum bestaat bijvoorbeeld uit meerdere delen. Vanwege hun goed gedefinieerde grens kunt u het hele onderdeel en de inhoud ervan personaliseren.
+
+- Om een onderdeel te verplaatsen, sleept u het naar de gewenste positie. Een gekleurde lijn geeft geldige posities op het scherm aan. Feitenblokken kunnen bijvoorbeeld alleen worden verplaatst naast andere feitenblokken in het deelvenster Feitenblok.
+- U kunt een onderdeel verbergen door de optie **Verbergen** te kiezen onder de pijlpunt.
+- Wanneer u begint met personaliseren of naar een nieuwe pagina navigeert, worden alle onderdelen die momenteel verborgen zijn, op de pagina weergegeven met onderscheidende afbeeldingen om aan te geven dat ze verborgen zijn. U kunt een onderdeel zichtbaar maken door de optie **Weergeven** te kiezen onder de pijlpunt.
+
+U kunt alle personalisatiewijzigingen die u in één onderdeel hebt aangebracht, wissen door de optie **Personalisatie wissen** te kiezen onder de pijlpunt van het onderdeel. Personalisatie van een onderdeel wissen heeft alleen invloed op wijzigingen in de inhoud van het onderdeel, niet op de plaatsing of zichtbaarheid van het onderdeel op de pagina.  
+
+
 ## <a name="to-clear-personalization"></a>Personalisatie wissen
 Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen ongedaan maken die u in de loop van de tijd op een pagina hebt aangebracht.
 
@@ -109,9 +122,9 @@ Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen 
 |Optie|Wat het doet|
 |------|------------
 |**Alleen navigatiemenu**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in het navigatiemenu dat wordt gedeeld door het rolcentrum en andere pagina's. Dit omvat alle nieuwe acties die als bladwijzers zijn toegevoegd en eventuele wijzigingen in koppelingen en groepen in het menu.|  
-|**Alleen acties**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in de actiebalk op de pagina.|
-|**Alleen velden, kolommen en onderdelen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de actiebalk. Dit omvat wijzigingen in velden, kolommen, onderdelen en tegels. |
-|**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dit omvat wijzigingen in de actiebalk, velden, kolommen, onderdelen en tegels.|
+|**Alleen acties**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in de navigatie- of actiebalk op de pagina.|
+|**Alleen velden, kolommen en onderdelen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de navigatie- of actiebalk. Dit omvat wijzigingen in velden, kolommen, onderdelen en tegels. |
+|**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dit omvat wijzigingen in de navigatie- en actiebalk, velden, kolommen, onderdelen en tegels.|
 
 ## <a name="additional-points-of-interest"></a>Aanvullende interessante zaken
 Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrijpen hoe personaliseren in zijn werk gaat.

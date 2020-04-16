@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6522d2ab515cc32144b2860038f7c71dcd4b53e9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315912"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192471"
 ---
 # <a name="service-posting"></a>Serviceboekingen
 Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid. U kunt geboekte documenten maken en bijwerken, en posten maken zowel in het servicegebied als in andere modules om een juiste updateprocedure te waarborgen.  
@@ -49,7 +49,7 @@ Wanneer u een servicefactuur, een serviceverzending of een servicecreditnota boe
 
 In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruikt, maar dezelfde procedure kan worden toegepast op geboekte serviceverzendingen en geboekte creditnota's.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte servicefactuur** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte servicefactuur** in en kies de desbetreffende koppeling.  
 2. Open de geboekte servicefactuur die u wilt bekijken.  
 3. Voor een overzicht van de geboekte factuur kiest u de actie **Statistieken**.  
 

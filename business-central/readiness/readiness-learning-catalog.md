@@ -2,15 +2,15 @@
 title: Trainingscatalogus voor Business Central
 description: Trainingscatalogus voor Business Central
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 44132a02a899202a95ad1510c9b837cb48e2150f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 0aa0446d1940571687c9b00cfb3a6fc692a361aa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097611"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190839"
 ---
 # <a name="business-central-learning-catalog"></a>Trainingscatalogus voor Business Central
 Voor de juiste online training, persoonlijke workshops en evenementen voor uw rol als Business Central-gebruiker of -partner.

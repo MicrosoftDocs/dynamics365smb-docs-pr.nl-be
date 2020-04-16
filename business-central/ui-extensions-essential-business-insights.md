@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ab06a76319897b1eef00ba57d5a1c2cba5773334
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311272"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194247"
 ---
 # <a name="the-essential-business-insights-extension"></a>De extensie Essentiële zakelijke inzichten
 De extensie Essentiële zakelijke inzichten zoekt interessante bedrijfsfeiten in uw bedrijfsgegevens en geeft ze weer als krantenkoppen in rolcentra. Afhankelijk van wat de extensie in de gegevens vindt, worden de inzichten van de vorige week, maand, of drie maanden vanaf de huidige datum weergegeven. De inzichten worden om de 10 minuten bijgewerkt.  

@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832371"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194679"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw bedrijf.
+# <a name="setting-up-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)] instellen
+
+[!INCLUDE[prodshort](includes/prodshort.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie.
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.
 
-Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
-
-> [!NOTE]
-> U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Met het ![pictogram Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) hebt u toegang tot begeleide instellingen die u helpen bij het configureren van bepaalde scenario's en het toevoegen van functies aan [!INCLUDE[prodshort](includes/prodshort.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
 
 Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, kan handmatig worden ingesteld, naast de begeleide instelling. Hieronder volgt een overzicht van enkele functies die u handmatig kunt configureren.
 
@@ -56,6 +54,9 @@ Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, k
 |Stel een basisagenda in en wijs deze toe aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden dan berekend aan de hand van de werkdagen die zijn opgegeven in de agenda.|[Basisagenda's instellen](across-how-to-assign-base-calendars.md)|  
 
 Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement zijn. Zie [Beheer](admin-setup-and-administration.md) voor meer informatie.  
+
+> [!NOTE]
+> Als beheerder kunt u een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Zie ook
 

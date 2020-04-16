@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992108"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194439"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -29,7 +29,7 @@ Er zijn verschillende sneltoetsen waarmee u 'muisvrij' kunt werken en de gegeven
 
 Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen](keyboard-shortcuts.md). Enkele sneltoetsen worden in dit artikel besproken.
 
-## <a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
 
 Snelinvoer is een functie die bedoeld is voor gegevensinvoer met het toetsenbord. Snelinvoer werkt met velden (bijvoorbeeld op kaartpagina's) en in lijsten (rijen en kolommen). Het kan handig zijn bij herhalend typewerk, waarbij meerdere records achter elkaar moeten worden gemaakt, zoals een batch verkooporders of registratie van nieuwe artikelen.
 
@@ -86,11 +86,11 @@ Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](ui-copy
 
 ## <a name="filtering-line-items"></a>Regelitems filteren
 
-Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#Filtering) voor meer informatie.
+Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
 
 Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent en de regelartikelen filtert om alle regelartikelen weer te geven die een individuele korting van meer dan 5% hebben, of dat u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
 
-## <a name="Focus"></a>Focussen op regelartikelen
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Focussen op regelartikelen
 
 Wanneer u werkt aan documenten die een regelitemgedeelte bevatten, zoals een verkooporder of factuurpagina, kunt u uw weergave zo instellen dat deze zich alleen op de regelitems concentreert. Het gedeelte met regelitems wordt vervolgens uitgevouwen zodat het vrijwel de hele werkruimte in beslag neemt en andere delen van de pagina verbergt behalve het actiegebied bovenaan. Dit geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken.
 
@@ -113,6 +113,11 @@ Kies om de huidige kaart of het huidige document in een nieuw venster te openen 
 > [!NOTE]
 > Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Hetzelfde kan gebeuren in andere browsers, zoals Firefox. Zie voor meer informatie [Instellingen voor pop-upblokkering in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Een andere manier om te multitasken is om [!INCLUDE[d365fin](includes/d365fin_md.md)] te openen op twee of meer browsertabbladen. Wanneer u dit doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
+
+> [!NOTE]
+> Gebruik niet de functie **Dupliceren** van de browser om het nieuwe tabblad te maken, omdat hierdoor acties op één tabblad acties op andere tabbladen kunnen blokkeren omdat ze deel uitmaken van dezelfde sessie.
 
 ## <a name="entering-quantities-by-calculation"></a>Hoeveelheden invoeren door berekening
 

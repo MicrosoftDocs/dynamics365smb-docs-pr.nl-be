@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315600"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194415"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
@@ -121,7 +121,7 @@ De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uit
 |d 23|Dinsdag van week 23 van het werkdatumjaar|
 |d-1|Dinsdag van week 1 van het werkdatumjaar|
 
-##  <a name="BKMK_SettingDateRanges"></a> Datumbereiken instellen
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Datumbereiken instellen
 
 In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en datumtijden. De filters kunnen een begindatum en desgewenst een einddatum bevatten om alleen de gegevens uit dat bereik weer te geven. Voor het instellen van een datumbereik gelden de standaardregels.
 

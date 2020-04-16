@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952926"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188144"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
 Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een standaardbestand dat een bedrijfsdocument vertegenwoordigt, zoals een factuur van een leverancier die kan worden ontvangen en geconverteerd naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf.  
@@ -136,7 +136,7 @@ Het onderwerp bevat de volgende procedures:
     |---------------------------------|---------------------------------------|  
     |**Grootboekrekening voor niet-artikelregels**|Geeft de Grootboekrekening aan die automatisch wordt ingevoegd op inkoopregels die aan de hand van elektronische documenten worden gemaakt wanneer de inkomende documentregels geen identificeerbaar artikel bevatten. Elke inkomende documentregel die geen GTIN of artikelnummer van de leverancier heeft, wordt geconverteerd naar een inkoopregel van het soort **Grootboekrekening** en het veld **Nr.** op de inkoopregel bevat de rekening die u selecteert in het veld **Grootboekrekening voor niet-artikelregels**.<br /><br /> Als u niets invult in het veld **Grootboekrekening voor niet-artikelregels** en het inkomende document regels heeft zonder identificeerbare artikelen, wordt het inkoopdocument niet gemaakt. In een foutbericht krijgt u de instructie om het veld **Grootboekrekening voor niet-artikelregels** in te vullen voordat u de taak kunt voltooien.|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   

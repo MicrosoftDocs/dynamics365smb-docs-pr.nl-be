@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 51c52da767fb9c192fbadbdfe68df8c36b17fb2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877939"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190431"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Planningsuggesties in een grafische weergave wijzigen
 Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.

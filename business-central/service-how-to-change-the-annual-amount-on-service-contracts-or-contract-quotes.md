@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f34aec769a1b850eb14dcc9a5310274e0b82b375
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311752"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195063"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
 U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** of **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** of **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het contract of de contractofferte.  
 3. Kies de actie **Contract openen** om het contract of de contractofferte te openen en bewerken.  
 4. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u het jaarlijkse bedrag wilt wijzigen en het verschil in het jaarlijkse bedrag handmatig wilt verdelen over de contractregels. Schakel anders het selectievakje uit om het verschil in het jaarlijkse bedrag automatisch te verdelen over de contractregels nadat u het jaarlijkse bedrag hebt gewijzigd.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300629"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188792"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Lijsten weergeven op verschillende manieren
 In de rechterhoek van elke lijst in [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u pictogrammen waarmee u kunt kiezen hoe de lijst met records wordt weergegeven. Een lijst kan worden weergegeven als gedetailleerde rijen, wat ideaal is als u met veel velden moet werken of velden in de lijst moet bewerken. Maar u kunt ook schakelen om records als tegels weer te geven, wat compacter is en minder velden in de specifieke record toont. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat het compact is en gemakkelijker om te tikken.

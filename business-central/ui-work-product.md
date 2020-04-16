@@ -1,38 +1,41 @@
 ---
 title: Werken met de algemene functionaliteit in Business Central | Microsoft Docs
 description: Beschrijft de algemene functies die u gebruikt om te werken met gegevens in Business Central, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953935"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189360"
 ---
-# <a name="working-with-included365finincludesd365fin_mdmd"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-d365fin"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
 U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
+
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips en trucs
 
 > [!TIP]
 > Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
 >
 > [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
-> [!NOTE]
-> Naast de algemene UI-functies die in dit gedeelte worden beschreven, kunt u andere algemene functies gebruiken die meer bedrijfsgerelateerd zijn. Zie voor meer informatie [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md).
+## <a name="links-to-learn-more"></a>Koppelingen voor meer informatie
 
 In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergegeven met koppelingen naar onderwerpen waarin deze worden beschreven.
 
-| Aan | Zie |
+> [!NOTE]
+> Naast de algemene UI-functies die in dit gedeelte worden beschreven, kunt u andere algemene functies gebruiken die meer bedrijfsgerelateerd zijn. Zie voor meer informatie [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md).
+
+| Als u dit wilt doen:  | Zie |
 | --- | --- |
 |Een bepaalde pagina, rapport, actie, Help-onderwerp of partnerextensie zoeken. |[Pagina's en informatie zoeken met Vertel me](ui-search.md) |
 |Een overzicht krijgen van pagina's voor uw rol en voor andere rollen en navigeren naar pagina's.|[Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)|
@@ -56,11 +59,22 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[d365fin](includes/d365fi
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="choosing-a-desktop-browser"></a>Een desktopbrowser kiezen
+
+[!INCLUDE[prodshort](includes/prodshort.md)] ondersteunt meerdere browsers die elk verschillende functies en mogelijkheden bieden. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Zie de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) en browsers voor [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+
+- Vermijd waar mogelijk oudere browsers zoals Internet Explorer en schakel over naar een van onze aanbevolen moderne browsers, zoals de [nieuwe Microsoft Edge](https://www.microsoft.com/edge/).  
+
+    Internet Explorer wordt nog steeds ondersteund, maar aangezien de nieuwe Edge-browser nu beschikbaar is voor Windows Server zien we een afnemend gebruik voor Internet Explorer. U kunt ook [een pilot van Edge in IE-modus krijgen](https://www.microsoft.com/edge/business). Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+- Houd uw browser altijd bijgewerkt naar de nieuwste versie.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Aan de slag](product-get-started.md)  
 [Business Central instellen](setup.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+[Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

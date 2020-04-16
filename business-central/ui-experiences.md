@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 11/13/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3329a694f4c27a2a314d82dd2f71eb31c9f36d98
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882170"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194631"
 ---
 # <a name="change-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht de grootte en complexiteit. In de kern van het product vindt u essentiële functies, zoals financiële rapportage, verkoop-, inkoop- en voorraadbeheer. Naarmate de bedrijfscomplexiteit toeneemt, kunt u bijvoorbeeld functionaliteit inschakelen voor productie en servicebeheer.

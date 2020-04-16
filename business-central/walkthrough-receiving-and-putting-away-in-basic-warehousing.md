@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 3df8666206409aaf811faedb635b47f1a0688b3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554656"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193431"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties
 
@@ -65,7 +65,7 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   CRONUS International Ltd. geïnstalleerd.  
 -   Maak van uzelf een magazijnwerknemer bij vestiging ZILVER door de volgende stappen uit te voeren:  
 
-    1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnwerknemers** in en kies vervolgens de gerelateerde koppeling.  
+    1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
     2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
     3.  Voer ZILVER in het veld **Vestiging** in.  
     4.  Selecteer het veld **Standaard**.  
@@ -78,7 +78,7 @@ Ellen, de magazijnmanager bij CRONUS International Ltd., maakt een inkooporder v
 
 ### <a name="to-set-up-the-location"></a>De vestiging instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
 2.  Open de vestigingskaart ZILVER.  
 3.  Selecteer het selectievakje **Opslag vereist**.  
 
@@ -98,7 +98,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
 
 ### <a name="to-create-the-purchase-order"></a>De inkooporder maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Maak een inkooporder voor leverancier 10000 op 23 januari (werkdatum) met de volgende inkooporderregels.  
 
@@ -121,7 +121,7 @@ Op de pagina **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor 
 
 ### <a name="to-receive-and-put-the-items-away"></a>De artikelen ontvangen en opslaan  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer het veld **Brondocument** en selecteer vervolgens **Inkooporder**.  
 4.  Selecteer het veld **Bronnr.**, selecteer de regel voor de inkoop van leverancier 10000, en kies vervolgens de knop **OK**.  

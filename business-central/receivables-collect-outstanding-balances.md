@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/20/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991988"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190695"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 Tijdens het beheer van tegoeden moet u ook controleren of openstaande bedragen op tijd worden betaald. Als klanten betalingen hebben openstaan, kunt u beginnen met het rekeningoverzicht van de klant als een herinnering te sturen. U kunt ook aanmaningen sturen.
@@ -263,7 +263,7 @@ Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** e
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Posten**.
 3. Selecteer op de pagina **Klantenposten** de regel met de post waarvan u de aanmaningsposten wilt weergeven, en kies de actie **Aanmanings-/rentefactuurposten**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  

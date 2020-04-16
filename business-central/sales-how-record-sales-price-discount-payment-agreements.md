@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 820439f8b18026d8a92a07dfe320423381847cb7
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: fa8dd6cf036b49d22510e8d3c096558545d4a3b2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030280"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193575"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 De verschillende prijs- en kortingsovereenkomsten voor de verkoop aan verschillende klanten moeten zijn vastgesteld zodat de overeengekomen regels en waarden worden toegepast op verkoopdocumenten die u maakt voor de klanten.
@@ -146,7 +146,7 @@ Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijze
 > [!NOTE]   
 >  Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u de voorstellen wilt toepassen, voegt u de gegevens in de tabel **Verkoopprijzen** in. Hiervoor kunt u de batchverwerking **Prijsaanpassing doorvoeren** gebruiken onder **Acties**, in de groep **Functies** op de pagina **Verkoopprijsvoorstel**.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesmanage-sales-prices-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  

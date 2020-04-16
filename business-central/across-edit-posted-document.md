@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300605"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188744"
 ---
 # <a name="edit-posted-documents"></a>Geboekte documenten bewerken
 Soms moet u een geboekt document bijwerken omdat informatie die relevant is voor het document is gewijzigd. In een geboekt verkoopdocument kan dit bijvoorbeeld het trackingnummer van de expediteur zijn. In een geboekt inkoopdocument kan dit een betalingsverwijzing zijn.
@@ -37,7 +37,7 @@ De volgende aanvullende documenten kunnen in geselecteerde landversies worden be
 ## <a name="to-edit-a-posted-sales-shipment"></a>Een geboekte verkoopverzending bewerken
 Hieronder wordt uitgelegd hoe u een geboekte verkoopverzending kunt bewerken. De stappen zijn vergelijkbaar voor de andere ondersteunde documenten.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies de desbetreffende koppeling.
 2. Selecteer het document dat u wilt bewerken en kies vervolgens de actie **Document bijwerken**. U kunt ook het document openen en vervolgens de actie kiezen.
 3. Bewerk op de pagina **Geboekte verkoopzending - Bijwerken** het veld **Traceringsnummer (zending)** bijvoorbeeld.
 4. Kies de knop **Ok**.

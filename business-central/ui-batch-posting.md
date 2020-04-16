@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 15b0afcf04ad279000de227523f977fdb695fe01
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316799"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192111"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Meerdere documenten tegelijkertijd boeken
 In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere niet-geboekte documenten in een lijst selecteren voor directe batchboeking of voor batchboeking volgens een planning, bijvoorbeeld aan het einde van de dag. Dit kan handig zijn als alleen een supervisor documenten kan boeken die door andere gebruikers zijn gemaakt of om problemen met de systeemprestaties te voorkomen door boeking tijdens werkuren.
@@ -23,7 +23,7 @@ In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere ni
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Meerdere inkooporders onmiddellijk boeken
 In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellijk kunt boeken. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
 2. Ga op de pagina **Inkooporders** door met het selecteren van alle te boeken orders:
 3. Voer in het veld **Nr.** de drie verticale stippen om het contextmenu te openen en kies vervolgens de actie **Meer selecteren**.
 4. Schakel het selectievakje in voor alle regels die orders vertegenwoordigen die u tegelijkertijd wilt boeken.
@@ -36,7 +36,7 @@ In de volgende procedure wordt uitgelegd hoe u inkooporders in een batch boekt. 
 > [!NOTE]
 > Batchboeking van documenten gebeurt op de achtergrond zoals gedefinieerd door een taakwachtrijpost, die eerst moet worden ingesteld. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
 2. Ga op de pagina **Inkooporders** door met het selecteren van alle te boeken orders:
 3. Voer in het veld **Nr.** de drie verticale stippen om het contextmenu te openen en kies vervolgens de actie **Meer selecteren**.
 4. Schakel het selectievakje in voor alle regels die orders vertegenwoordigen die u tegelijkertijd wilt boeken.

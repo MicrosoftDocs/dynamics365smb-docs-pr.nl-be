@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882199"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194463"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 U kunt een paar dingen doen om records in een lijst, in een rapport of XMLport te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
@@ -69,7 +69,7 @@ In de volgende tabel vindt u enkele voorbeelden om aan te geven hoe u de zoekact
 > [!TIP]
 > U kunt op **F3** drukken om het zoekvak te activeren en te deactiveren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Filteren
+## <a name="filtering"></a><a name="filtering"></a>Filteren
 Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke records in een lijst worden weergegeven of in een rapport of XMLport worden weergegeven. Er zijn twee belangrijke verschillen tussen zoeken en filteren, zoals wordt beschreven in de volgende tabel.
 
 || **Zoeken** | **Filteren** |
@@ -132,7 +132,7 @@ Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterp
 > [!TIP]
 > Versnel het zoeken en analyseren van uw gegevens met combinaties van toetsenbordsneltoetsen. Selecteer bijvoorbeeld een veld, gebruik **Shift+Alt+F3** om dat veld aan het filterdeelvenster toe te voegen, typ het filtercriterium, gebruik **Ctrl+Enter** om terug te keren naar de rijen, selecteer een ander veld en gebruik **Alt+F3** om op die waarde te filteren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filtercriteria en -symbolen
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filtercriteria en -symbolen
 U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Daarnaast kunt u speciale symbolen (of operatoren) gebruiken om de resultaten verder te filteren. De volgende tabellen bevatten de symbolen die in filters kunnen worden gebruikt. Voor datums en tijden kunt u ook [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md) raadplegen voor meer gedetailleerde informatie.
 
 > [!IMPORTANT]  
@@ -231,7 +231,7 @@ In de volgende secties wordt beschreven hoe u de verschillende operatoren kunt g
 |`..1299|1400..`|Records met een nummer kleiner dan of gelijk aan 1299 of gelijk aan 1400 en hoger. Met andere woorden: alle nummers behalve 1300 tot en met 1399.|  
 |`>50&<100`|Records met een nummer groter dan 50 en kleiner dan 100, ofwel nummer 51 tot en met 99.|  
 
-### <a name="FilterTokens"> </a>Filtertokens
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Filtertokens
 Wanneer u filtercriteria invoert, kunt u ook woorden typen die een speciale betekenis hebben, filtertokens genaamd. Na het invoeren van het tokenwoord wordt het woord vervangen door de waarde of waarden die het woord vertegenwoordigt. Dit maakt filtering eenvoudiger doordat u niet naar andere pagina's hoeft te navigeren om waarden op te zoeken die u aan uw filter wilt toevoegen. In de onderstaande tabellen worden enkele van de tokens beschreven die u als filtercriteria kunt gebruiken.
 
 > [!TIP]

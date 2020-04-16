@@ -10,26 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a6404d39723df3d6c0d14ab7ff2bae783222dc67
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0bdc559f04064e2b4d49ef4ed7a8759c68be3579
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910987"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194055"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 Klanten zijn de bron van uw inkomsten. U moet elke klant aan wie u verkoopt registreren als een klantenkaart. Klantenkaarten bevatten de informatie die is vereist om producten aan de klant te verkopen. Zie voor meer informatie [Verkopen factureren](sales-how-invoice-sales.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes instellen waaruit u kunt selecteren bij het invullen van klantenkaarten. Zie [Verkopen instellen](sales-setup-sales.md) voor meer informatie.
 
-> [!NOTE]  
->   Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.  
-<br><br>  
-<br><br>  
-  
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
+
+> [!NOTE]  
+> Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.  
 
 ## <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  

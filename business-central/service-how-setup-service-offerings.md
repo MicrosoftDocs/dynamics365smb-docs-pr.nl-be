@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2f6d9b02e3364d34339ea7176c08fdff7de5eb90
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877267"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195087"
 ---
 # <a name="set-up-service-offerings"></a>Serviceaanbiedingen instellen
 Bij het instellen van servicebeheer dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken. Een service is een type taak die door een of meerdere resources wordt uitgevoerd en die aan een klant wordt geleverd. Een service kan bijvoorbeeld een type computerreparatie zijn. Een serviceartikel bestaat uit de apparatuur of het artikel waarvoor de service moet worden uitgevoerd, bijvoorbeeld de computer die moet worden gerepareerd en ter plekke bij een klant is geïnstalleerd. U kunt services instellen als onderdeel van een groep aan elkaar gerelateerde reparatie- en onderhoudsartikelen.  

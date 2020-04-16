@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/12/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 644a4a64fa80ff98a073f28393fd0b8bb0e6ad54
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 5d70097cb570217cd4a7be0538474252c31ef46e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3072043"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194655"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Een bladwijzer van een pagina of rapport maken in uw rolcentrum
 Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum. Hierdoor bereikt u snel uw favoriete inhoud of zakelijke taken. U voegt de bladwijzer toe vanaf de doelpagina of het doelrapport, dat wil zeggen het scherm dat u wilt dat de koppeling in het rolcentrum opent.

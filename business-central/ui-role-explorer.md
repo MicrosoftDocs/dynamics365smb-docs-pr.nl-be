@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774807"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195375"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Pagina's zoeken met de Rolverkenner
 U kunt een overzicht krijgen van alle zakelijke functies die beschikbaar zijn voor uw rol en voor andere rollen als u nog een stap verder gaat. In de volgende documentatie wordt dit functieoverzicht de *Rolverkenner* genoemd.
@@ -27,7 +27,9 @@ U kunt de rolverkenner openen vanuit het Rolcentrum en alle lijstpagina's en van
 - Kies in uw Rolcentrum of een willekeurige lijstpagina de knop ![Menu-knop](media/ui_menu_button.png "Menu-knop") rechts van de navigatiebalk of druk op Shift+F12.
 - Kies in het venster **Vertel me** de actie **Verkennen** onderaan.
 
-Om een overzicht te krijgen van de zakelijke functies die, naast uw eigen functies, beschikbaar zijn voor alle andere rollen, kiest u de actie **Alles verkennen** op de pagina waarop de rolverkenner wordt weergegeven.
+Kies de actie **Zoeken** bovenaan de rolverkenner om snel functienamen te vinden die een bepaalde term bevatten.
+
+Kies de actie **Alles verkennen** boven aan de rolverkenner om een overzicht te krijgen van alle bedrijfsfuncties die beschikbaar zijn voor alle rollen, inclusief de uwe.
 
 > [!NOTE]
 > Alleen Rolcentrumacties voor profielen waarvoor het selectievakje **Weergeven in Rolverkenner** is ingeschakeld, worden weergegeven in de uitgebreide versie van de rolverkenner (weergegeven met de actie **Alles verkennen**). Zie [Profielen beheren](admin-users-profiles-roles.md) voor meer informatie.

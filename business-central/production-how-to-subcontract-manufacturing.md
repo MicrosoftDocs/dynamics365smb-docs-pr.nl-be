@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553806"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191463"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
@@ -52,7 +52,7 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
 >  Alleen productieorders met de status **Vrijgegeven** zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Het uitbestedingsvoorstel berekenen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies de desbetreffende koppeling.  
 2.  Als u het voorstel wilt berekenen, klikt u op de actie **Uitbestedingen berekenen**.  
 3.  Stel op de pagina **Uitbestedingen berekenen** filters in voor de uitbestede bewerkingen of de werkplaatsen waar ze worden uitgevoerd, om zo alleen de relevante productieorders te berekenen.  
 4.  Kies de knop **OK**.  
@@ -60,7 +60,7 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
     Bekijk de regels op de pagina **Uitbestedingsvoorstel**. De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>De uitbestedingsinkooporder genereren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Planningsboodschap uitvoeren**.  
 3.  Plaats een vinkje in het veld **Orders afdrukken** om de inkooporder af te drukken wanneer deze wordt gemaakt.  
 4.  Kies de knop **OK**.  
@@ -80,7 +80,7 @@ Wanneer de inkooporder wordt geboekt als ontvangen, wordt automatisch een output
 >  Om te voorkomen dat de verwachte uitvoer van een productieorder wordt geboekt wanneer de uitbestedingsinkopen worden ontvangen, moet u ervoor zorgen dat de uitbestede bewerking niet de laatste is. Of voeg een nieuwe laatste bewerking voor het laatste outputaantal in.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Een uitbestedingsinkooporder boeken  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer de desbetreffende koppeling.  
 2.  Open een inkooporder die op basis van het uitbestedingsvoorstel is gemaakt.  
 
     Op de inkooporderregels kunt u dezelfde gegevens zien als die in het voorstel stonden. De velden **Prod.-ordernr.**, **Prod.-orderregelnr.**, **Bewerkingsnr.** en **Afdelingsnr.** worden ingevuld met de informatie van de bronproductieorder.  

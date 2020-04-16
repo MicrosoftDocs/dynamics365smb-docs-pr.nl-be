@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953551"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194007"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
 Als u artikelen wilt retourneren naar uw leverancier of services die u hebt aangeschaft, wilt annuleren, kunt u een inkoopcreditnota maken en boeken met de aangevraagde wijziging voor de oorspronkelijke inkoopfactuur. Als u de correcte inkoopfactuurinformatie wilt opnemen, kunt u de inkoopcreditnota rechtstreeks vanuit de geboekte inkoopfactuur maken, of een nieuwe inkoopcreditnota maken met gekopieerde informatie uit de factuur.
@@ -43,7 +43,7 @@ Er zijn twee functies om kosten automatisch exact tegen te boeken.
 |Functie|Description|  
 |------------------|---------------------------------------|  
 |De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Inkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de inkoopretourorder worden tegengeboekt. Zie voor meer informatie [Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|De functie **Document kopiëren** op de pagina's **Inkoopcreditnota** en **Inkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Inkoopinstellingen**.|
+|De functie **Kopiëren uit document** op de pagina's **Inkoopcreditnota** en **Inkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Inkoopinstellingen**.|
 
 Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld **Vereffenen met artikelpost** selecteren op elk soort retourdocumentregel en vervolgens het nummer van de oorspronkelijke inkooppost selecteren. Hierdoor wordt de inkoopcreditnota of de inkoopretourorder gekoppeld aan de oorspronkelijke inkooppost en wordt het artikel gewaardeerd tegen de oorspronkelijke kostprijs.
 
@@ -73,7 +73,7 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopcreditnota's** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege inkoopcreditnota te openen.
 3. Voer in het veld **Leverancier** de naam in van een bestaande leverancier.
-4. Kies de actie **Document kopiëren**.
+4. Kies de actie **Kopiëren uit document**.
 5. Selecteer op de pagina **Inkoopdocument kopiëren** in het veld **Documentsoort** **Geboekte factuur**.
 6. Selecteer het veld **Documentnr.** om de pagina **Geboekte inkoopfacturen** te openen, en selecteer vervolgens de geboekte inkoopfactuur met de regels die u wilt tegenboeken.
 7. Schakel het selectievakje **Regels opnieuw berekenen** in als u wilt dat de gekopieerde geboekte inkoopfactuurregels worden bijgewerkt met de wijzigingen in de artikelprijs en kostprijs sinds de factuur is geboekt.
@@ -87,7 +87,7 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 4. Vul op het sneltabblad **Regels** de regels handmatig in of kopieer informatie vanuit andere documenten om de regels automatisch in te vullen:
 
     - Met de functie **Geboekte documentregels ophalen voor tegenboeking** kopieert u een of meer geboekte documentregels uit een of meer geboekte documenten. Deze functie boekt altijd exact de kosten tegen vanuit de geboekte documentregel. Deze functie wordt in de volgende stappen beschreven.    
-    - Met de functie **Document kopiëren** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** op de pagina **Verkoopinstellingen** is ingeschakeld.  
+    - Met de functie **Kopiëren uit document** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** op de pagina **Verkoopinstellingen** is ingeschakeld.  
 
 4. Kies de actie **Geboekte documentregels ophalen voor tegenboeking**.
 5. Schakel bovenaan de pagina **Geboekte inkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als bijvoorbeeld een aantal op een geboekte inkoopfactuur al is geretourneerd, wilt u dat aantal misschien niet opnemen op een nieuw inkoopretourdocument.
@@ -181,7 +181,7 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 2.  Vul de overige velden desgewenst in en kies de knop **OK**.  
 3.  U kunt de afzonderlijke inkoopretourorders ook handmatig verwijderen.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  

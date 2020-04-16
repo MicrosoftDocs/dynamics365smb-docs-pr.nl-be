@@ -1,8 +1,6 @@
 ---
 title: Overzicht van taken om verkoopprocessen te configureren | Microsoft Docs
 description: Schetst taken om regels en waarden in te stellen om uw verkoopbeleid en -processen te definiëren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9bfdfa6d4abf49f163fd9478e4c0c59dda069abd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953407"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194751"
 ---
 # <a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
@@ -40,7 +38,7 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Definieer de verschillende incoterms die u aan klanten aanbiedt of die uw leveranciers u aanbieden.|[Verzendmethoden instellen](sales-how-set-up-shipment-methods.md)|
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

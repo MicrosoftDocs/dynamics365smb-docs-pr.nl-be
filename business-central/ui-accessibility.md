@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311464"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192135"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Toegankelijkheid en sneltoetsen
 Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/d365fin_md.md)] toegankelijk maken voor mensen met een handicap. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de volgende toegankelijkheidsfuncties:  
@@ -48,18 +48,18 @@ Dit onderwerp bevat informatie over de functies die [!INCLUDE[d365fin](includes/
 
 -->
 
-##  <a name="Navigation"></a> Navigatie  
+##  <a name="navigation"></a><a name="Navigation"></a> Navigatie  
  Met het toetsenbord kunt u navigeren tussen de tabbladen en acties in het lint, elementen op de navigatiebalk en andere besturingselementen in [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's en -rapporten. Als u de focus wilt verplaatsen naar het volgende tabblad, de volgende actie of het volgende besturingselement, drukt u op Tab. Druk op Shift+Tab om naar het vorige tabblad, de vorige actie of het vorige besturingselement te gaan.  
 
  Met Tab kunt u ook schakelen tussen de hoofdbrowserpagina en dialoogvensters waarin bijvoorbeeld om bevestiging wordt gevraagd of de aanmeldingspagina.  
 
-##  <a name="Headings"></a> Koppen  
+##  <a name="headings"></a><a name="Headings"></a> Koppen  
  In de HTML-bron voor [!INCLUDE[d365fin](includes/d365fin_md.md)]-inhoud worden tags gebruikt om gebruikers van ondersteunende technologie te helpen de structuur en inhoud van de pagina te begrijpen. Op pagina's met lijsten worden de kolommen bijvoorbeeld gedefinieerd in TH-tags en de kolomkoppen worden ingesteld met het kenmerk TITLE in de tag. Bijschriften voor elementen, zoals sneltabbladen, feitenblokken en velden, zijn opgenomen in koptags (H1, H2, H3 en H4).  
 
-##  <a name="Images"></a> Afbeelding en koppelingen  
+##  <a name="image-and-links"></a><a name="Images"></a> Afbeelding en koppelingen  
  Een omschrijvende tekst voor afbeeldingen wordt ingesteld met het kenmerk ALT in de IMG-tag. Een omschrijvende tekst voor hyperlinks wordt ingesteld met het titelkenmerk in de A-tag.  
 
-##  <a name="AssistiveTech"></a> Ondersteunende technologieën  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Ondersteunende technologieën  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware. Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina's.  
 
 ## <a name="for-more-accessibility-information"></a>Meer informatie over toegankelijkheid  

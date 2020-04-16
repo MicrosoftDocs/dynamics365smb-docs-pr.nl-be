@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dbd14c11d726aae802d5008c681eeb9ffcd55438
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314340"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191703"
 ---
 # <a name="using-pre-closing-reports"></a>Vooraf sluiten van rapporten gebruiken
 Er staan veel standaardrapporten tot uw beschikking voor het verifiëren van de nauwkeurigheid van de rekeningen voor u de boeken sluit aan het eind van een jaar of een periode. U kunt bijvoorbeeld het rapport **Klant - Proefbalans** gebruiken om na te gaan of het saldo van een klantboekingsgroep gelijk is aan het saldo op de overeenkomstige grootboekrekening op een bepaalde datum.
@@ -35,7 +35,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 | Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen. |Proefbalans |
 | Een proefbalans af te drukken voor een geconsolideerd bedrijf. |Consolidatie - Proefbalans |
 
-Als u een rapport wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel staat en kiest u de gerelateerde koppeling.
+Als u een rapport wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel staat en kiest u de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  

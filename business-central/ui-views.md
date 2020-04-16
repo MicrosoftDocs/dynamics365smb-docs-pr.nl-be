@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316822"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189423"
 ---
 # <a name="save-and-personalize-list-views"></a>Lijstweergaven opslaan en personaliseren
 Wanneer u een filter op een lijst hebt ingesteld en u het filter voor later wilt bewaren, kunt u het opslaan als een weergave. Zie voor meer informatie over het filteren van lijsten [Filters instellen op lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,7 +24,7 @@ Als er weergaven bestaan, wordt de groep **Weergaven** boven aan het filterdeelv
 
 ## <a name="to-save-a-view"></a>Een weergave opslaan
 1. Open een willekeurige lijstpagina.
-2. Selecteer het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "pictogram Filterdeelvenster") boven aan de lijst of druk op Shift+F3 om het filterdeelvenster te openen.
+2. Selecteer het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of druk op Shift+F3 om het filterdeelvenster te openen.
 3. Stel een of meer nieuwe filters in. Zie voor meer informatie [Filters instellen voor lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. Wanneer u de filters hebt ingesteld, kiest u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan").
 

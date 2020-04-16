@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cc2f6261b778c9cd4fc62ae2c0b44003a3b1bf80
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a73b8eef1aaad9be585e580047d337f04f3527b4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877219"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192591"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Serviceorders en creditnota's boeken
 Wanneer u een serviceorder hebt gemaakt, de benodigde gegevens hebt ingevuld en eventuele wijzigingen hebt aangebracht, kunt u de serviceorder boeken. De order moet minimaal één serviceartikelregel en één serviceregel bevatten voordat u deze kunt boeken. Als de order meer dan één serviceregel bevat, worden alle regels tegelijk geboekt.  

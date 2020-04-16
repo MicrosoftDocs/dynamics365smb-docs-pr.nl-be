@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 11/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 48f540bd1f8de19ab6ae0284febf6c9c87ababdb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695131"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188912"
 ---
-# <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="creating-new-companies-in-d365fin"></a>Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de containers voor bedrijfsgegevens die behoren tot een bedrijfsunit of rechtspersoon, een *bedrijf* genoemd. Wanneer u zich registreert voor [!INCLUDE[d365fin](includes/d365fin_md.md)], krijgt u een demonstratiebedrijf en een leeg bedrijf, *Mijn bedrijf*. Tussen bedrijven schakelen is gemakkelijk: ga naar **Mijn instellingen** en ga naar het andere bedrijf. U kunt echter ook nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)], afhankelijk van de behoeften van uw bedrijf. Wanneer u een nieuw bedrijf maakt, helpt een begeleide instelling u de basis in te stellen. Vervolgens kunt u relevante gegevens importeren uit uw oude systeem of een ander bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="creating-a-new-company"></a>Een nieuw bedrijf maken

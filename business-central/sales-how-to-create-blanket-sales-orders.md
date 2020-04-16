@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316368"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194847"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Werken met verkoopraamcontracten
 Een verkoopraamcontract biedt een kader voor een langdurige overeenkomst tussen u en uw klant.
@@ -29,20 +29,21 @@ Een verkoopraamcontract kan bijvoorbeeld worden gebruikt als een klant belt om e
 > [!NOTE]
 > Inkoopraamcontracten functioneren op een soortgelijke manier als verkoopraamcontracten. Deze documentatie beschrijft alleen verkoopraamcontracten.
 
-## <a name="to-create-a-blanket-sales-order"></a>Een verkoopraamcontract maken.  
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
+## <a name="to-create-a-blanket-sales-order"></a>Een verkoopraamcontract maken.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Laat het veld **Besteldatum** leeg. Als de afzonderlijke verkooporders worden gemaakt uit het raamcontract, wordt de orderdatum van de verkoopdatum ingesteld op de werkelijke werkdatum.
-5. Maak op het sneltabblad **Regels** afzonderlijke regels voor elke zending. Als uw klant bijvoorbeeld 1000 eenheden wil die gelijkmatig over vier weken moeten worden verdeeld, voert u vier afzonderlijke regels van elk 250 eenheden in.   
+4. Laat het veld **Besteldatum** leeg. Als de afzonderlijke verkooporders worden gemaakt uit het raamcontract, wordt de orderdatum van de verkoopdatum ingesteld op de werkelijke werkdatum.
+5. Maak op het sneltabblad **Regels** afzonderlijke regels voor elke zending. Als uw klant bijvoorbeeld 1000 eenheden wil die gelijkmatig over vier weken moeten worden verdeeld, voert u vier afzonderlijke regels van elk 250 eenheden in.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Een verkooporder maken uit een verkoopraamcontract  
 
-1.  Als u een order wilt maken voor een van de regels uit het verkoopraamcontract, verwijdert u het aantal uit het veld **Te verzenden aantal** op alle regels die u op dit moment niet wilt verzenden.  
-2.  Wanneer u klaar bent om orders te maken, kiest u de actie **Order maken** en klikt u vervolgens op **Ja**. Er wordt een bericht weergegeven waarin u wordt meegedeeld dat aan het raamcontract een ordernummer is toegewezen. Het raamcontract is echter niet verwijderd.  
-3.  Kies de knop **OK**.  
-4.  Als u de resultaten wilt zien van de voorgaande stappen, kiest u eerst de actie **Regel**, vervolgens de actie **Ongeboekte regels** en daarna de actie **Orders**.  
-5.  Selecteer op de pagina **Verkoopregels** de gewenste verkooporder. Klik op de actie **Regel** en vervolgens op de actie **Document weergeven**.  
+1. Als u een order wilt maken voor een van de regels uit het verkoopraamcontract, verwijdert u het aantal uit het veld **Te verzenden aantal** op alle regels die u op dit moment niet wilt verzenden.  
+2. Wanneer u klaar bent om orders te maken, kiest u de actie **Order maken** en klikt u vervolgens op **Ja**. Er wordt een bericht weergegeven waarin u wordt meegedeeld dat aan het raamcontract een ordernummer is toegewezen. Het raamcontract is echter niet verwijderd.  
+3. Kies de knop **OK**.  
+4. Als u de resultaten wilt zien van de voorgaande stappen, kiest u eerst de actie **Regel**, vervolgens de actie **Ongeboekte regels** en daarna de actie **Orders**.  
+5. Selecteer op de pagina **Verkoopregels** de gewenste verkooporder. Klik op de actie **Regel** en vervolgens op de actie **Document weergeven**.  
 
 Het volgende geldt voor verkooporders nadat ze zijn gemaakt uit verkoopraamcontracten:  
 
@@ -58,7 +59,7 @@ Het volgende geldt voor verkooporders nadat ze zijn gemaakt uit verkoopraamcontr
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>De status van een verkoopraamcontract weergeven  
 U kunt de status van een verkoopraamcontract op de pagina **Raamverkooporderstatistiek** bekijken. Dit kan nodig zijn wanneer u de order die is gemaakt vanuit het verkoopraamcontract gaat factureren.  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies de gerelateerde koppeling.  
 2.  Selecteer een verkoopraamcontract en kies de actie **Statistieken**.  
 3.  Op het sneltabblad **Algemeen** op de pagina **Raamverkooporderstatistiek** kunt u een samenvatting van de hele order bekijken, gebaseerd op het totaal van alle velden **Aantal** op de verkoopraamcontractregels.  
 
@@ -70,7 +71,7 @@ U kunt de status van een verkoopraamcontract op de pagina **Raamverkooporderstat
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Niet-geboekte en geboekte verkoopraamcontractregels weergeven   
 De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder en een eventueel ander verkoopdocument blijft na het boeken behouden als een lijst van geboekte en niet-geboekte verkooporderfactuurregels.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies de gerelateerde koppeling.
 2. Open de verkoopraamorder die u wilt bekijken.
 3. Als u ongeboekte posten wilt weergeven, selecteert u de bewuste regel, klikt u op de actie **Regel** en kiest u vervolgens de actie **Ongeboekte regels**. Kies een van de volgende opties.  
 

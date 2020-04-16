@@ -9,22 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7e1ef15d8076aa0a17978de5418f39a2de8a1ac0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881276"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188962"
 ---
-# <a name="extending-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] uitbreiden
+# <a name="extending-d365fin"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] uitbreiden
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is een bedrijfsmanagementoplossing die bedrijven helpt hun financiën, verkoop, service en activiteiten te verbinden om bedrijfsprocessen te stroomlijnen, klantinteracties te verbeteren en betere beslissingen te nemen. [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in de cloud en voor gebruikers over meerdere soorten apparaten, en is altijd up-to-date. Met dit moderne bedrijfsplatform kunt u snel en gemakkelijk toepassingen aanpassen, uitbreiden en maken zodat ze voldoen aan uw specifieke behoeften. Er is weinig of geen codeontwikkeling nodig.  
 
 Het heeft allerlei voordelen om [!INCLUDE[d365fin](includes/d365fin_md.md)] te gebruiken als een platform voor makers van apps, zoals:
 
 * Vol vertrouwen aan de slag gaan dankzij een naadloze onboardingervaring
-* De Go-To-Market services van Microsoft gebruiken
+* De Go-To-Market-services van Microsoft gebruiken
 * De beschrijvingspagina van uw app aanpassen
 * Direct contact maken met besluitvormers en meer klanten bereiken
 * Bedrijfswaarde en dealomvang vergroten met bestaande en nieuwe klanten
@@ -39,11 +39,11 @@ Breng uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-services over naar Microsof
 
 Met de nieuwe ontwikkelingshulpprogramma's kunt u extensies maken voor gebruikers van [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u vertrouwd wilt raken met de nieuwe hulpmiddelen of meer informatie wilt over extensies 2.0, kijk dan naar [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Zoek informatie over apps en consultingservices die momenteel beschikbaar zijn op [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
+Zoek informatie over apps en consultingservices die momenteel beschikbaar zijn op [Microsoft AppSource](https://appsource.microsoft.com/marketplace/consulting-services?country=US&page=1&product=dynamics-365%3Bdynamics-365-business-central).
 
-Om zakelijke gebruikers snel aan de slag te helpen heeft Microsoft een catalogus met aanbiedingen van consultingservices voor oplossingen op basis van [!INCLUDE[prodshort](includes/prodshort.md)], Power BI en Power Apps toegevoegd aan AppSource. Meer informatie over de [consultingservices](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
+Om zakelijke gebruikers snel aan de slag te helpen heeft Microsoft een catalogus met aanbiedingen van consultingservices op basis van [!INCLUDE[prodshort](includes/prodshort.md)], Power BI en Power Apps toegevoegd aan AppSource. Meer informatie over de [consultingservices](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Kiezen welke services u aanbiedt met [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-d365fin"></a>Kiezen welke services u aanbiedt met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Een oplossing van derden integreren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt veel kant-en-klare API's beschikbaar voor [Connect-apps](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) om een naadloze integratie tussen uw service en [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk te maken. U kunt uw services bundelen met een [!INCLUDE[d365fin](includes/d365fin_md.md)] en uw klanten een geïntegreerde ervaring bieden. Meer informatie over [Integratie met een oplossing van derden](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -76,7 +76,7 @@ Het Ready to Go-programma is bedoeld om u te helpen uw [!INCLUDE[d365fin](includ
 
 Meer informatie over het maken van een [!INCLUDE[d365fin](includes/d365fin_md.md)]-aanbod in het [Ready to Go-programma](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Als u vragen of feedback hebt over het **Ready to Go**-programma, kunt u [contact met ons opnemen](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies die door Microsoft worden verstrekt
+## <a name="d365fin-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensies die door Microsoft worden verstrekt
 De standaardversie van het product bevat een groeiend aantal extensies die door Microsoft worden ontwikkeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
 
 ## <a name="see-also"></a>Zie ook

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953332"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194607"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
 Op de pagina **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
 
-## <a name="role-center"></a> Rolcentrum
+## <a name="role-center"></a><a name="role-center"></a> Rolcentrum
 Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen voor de vereisten van een specifieke rol in een organisatie. Afhankelijk van uw rol krijgt u in het Rolcentrum een overzicht van het bedrijf, uw afdeling of uw persoonlijke taken. Het helpt u ook navigeren naar uw dagelijkse taken en werk te zoeken dat aan u is toegewezen.
 
 -   Bovenaan kunt u met de navigatie schakelen tussen klanten, leveranciers, artikelen en andere belangrijke lijsten met informatie. Op dezelfde manier kunt u met acties taken starten, zoals een nieuwe verkoopfactuur maken, direct vanuit het Rolcentrum.
@@ -34,7 +34,7 @@ De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om
 2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant**.
 3. Kies de knop **Ok**.
 
-## <a name="company"></a>Bedrijf
+## <a name="company"></a><a name="company"></a>Bedrijf
 Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
 
 Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw bedrijf met aangepaste gegevens maken. Zie [Nieuwe bedrijven](about-new-company.md) maken voor meer informatie.
@@ -42,7 +42,7 @@ Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw 
 ## <a name="to-change-the-company-name"></a>De bedrijfsnaam wijzigen
 De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum. U kunt deze naam wijzigen op de pagina **Bedrijfsgegevens**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
+1. Kies het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en kies vervolgens de actie **Bedrijfsgegevens**.
 2. Voer in het veld **Naam** de nieuwe bedrijfsnaam in.
 3. Verlaat de pagina. Het systeem start opnieuw op en geeft het nieuwe bedrijf in de linkerbovenhoek weer.
 
@@ -55,7 +55,7 @@ U kunt een aangepaste badge in de rechterbovenhoek toevoegen, die u kunt kiezen 
 > [!NOTE]
 > Als een bedrijfsbadge is gedefinieerd, kunt u de bedrijfsnaam niet wijzigen zoals beschreven in [De bedrijfsnaam wijzigen](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Werkdatum
+## <a name="work-date"></a><a name="work-date"></a>Werkdatum
 De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet de datum van vandaag is.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Wanneer de werkdatum niet is ingesteld op de datum van vandaag, verschijnen er t
 - Als u de herinnering negeert, wordt de werkdatum weergegeven in de titel van de pagina.  
 --> Als de werkdatum niet is ingesteld op de huidige dag (vandaag), wordt op alle pagina's waar u gegevens kunt bewerken, de huidige werkdatum weergegeven in de linkerbovenhoek van de pagina.
 
-## <a name="region"></a> Regio
+## <a name="region"></a><a name="region"></a> Regio
 
 De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
 
-## <a name="language"></a> Taal
+## <a name="language"></a><a name="language"></a> Taal
 Wijzigt de weergavetaal. Dit veld wordt alleen weergegeven als uit meerdere talen kan worden gekozen.
 
 De aanvankelijke taal wordt bepaald door de beheerder of door uw browserinstellingen als u zich aanmeldt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. De taal die u instelt, wordt op alle apparaten gebruikt waarop u zich aanmeldt, zoals een telefoon of tablet.
 
+Extra talen voor [!INCLUDE[prodshort](includes/prodshort.md)] kunnen worden geïnstalleerd vanuit AppSource. Hoewel alle ondersteunde weergavetalen in de lijst worden weergegeven, moet de beheerder de relevante taal-app op de tenant installeren voordat gebruikers kunnen overschakelen naar de nieuwe taal in [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Wijzigen wanneer ik berichten ontvang
 Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Zie voor meer informatie [Berichten beheren](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Nieuwe bedrijven maken](about-new-company.md)  

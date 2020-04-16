@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952878"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187808"
 ---
 # <a name="incoming-documents"></a>Inkomende documenten
 Bepaalde bedrijfstransacties worden niet vanaf het begin geregistreerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In plaats daarvan wordt een extern bedrijfsdocument bezorgd bij uw bedrijf als e-mailbijlage of als papieren exemplaar dat u kunt scannen. Dit is meestal bij aankopen, waarbij dergelijke inkomende documentbestanden betalingontvangsten voor kosten of kleine inkopen vertegenwoordigen.
@@ -44,7 +44,7 @@ Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste act
 | De functie Inkomende documenten instellen en de OCR-service instellen. |[Inkomende documenten instellen](across-how-setup-income-documents.md) |
 | Maak inkomende documentrecords, koppel bestanden, gebruik OCR om PDF-bestanden om te zetten in elektronische documenten, converteer elektronische documenten naar documentrecords, controleer inkomende documentrecords uit geboekte verkoop- en inkoopdocumenten. |[Inkomende documenten verwerken](across-process-income-documents.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  

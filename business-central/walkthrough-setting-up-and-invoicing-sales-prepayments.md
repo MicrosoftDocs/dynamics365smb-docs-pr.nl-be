@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95e361d2c7e6901e4650a02b4e30df86bf6b3e45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554632"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193407"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedure: Vooruitbetalingen verkoop instellen en factureren
 
@@ -67,7 +67,7 @@ Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een ve
 In de volgende procedures wordt beschreven hoe de taken van Phyllis worden uitgevoerd:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Nummerreeks voor vooruitbetalingen instellen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen van verkoop en tegoeden** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.  
 2.  Vouw op de pagina **Verkoopinstellingen** het sneltabblad **Nummering** uit.  
 3.  Controleer of de nummerreeks voor geboekte vooruitbetalingsfacturen in het veld **Geboekte vooruitbetalingsfactuurnrs.** overeenkomt met de reeks voor geboekte verkoopfacturen (**Factuurnrs. (Geboekt)**) en of de nummerreeks voor geboekte vooruitbetalingscreditnota's (**Geboekte vooruitbetalingscreditnotanrs.**) overeenkomt met de reeks voor geboekte creditnota's (**Creditnotanrs. (Geboekt)**).  
 
@@ -81,11 +81,11 @@ Phyllis stelt in dat bij klant 20000 standaard een aanbetaling van 30% voor alle
 Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd voor artikel 1100. Klant 20000 heeft een slechte betalingsgeschiedenis. Daarom vereist zij een 40%-vooruitbetaling van klant 20000 voor artikel 1100. In de volgende procedure wordt beschreven hoe de aanbetalingspercentages worden ingesteld.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Standaardpercentages voorvooruitbetaling toewijzen aan klanten en artikelen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
 2.  Open de kaart voor klant 20000 (Selangorian)
 3.  Typ **30** in het veld **Vooruitbetaling %**.  
 4.  Kies de knop **OK** om de klantenkaart te sluiten.  
-5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
 6.  Open de kaart voor klant 1100.
 7.  Kies de actie **Vooruitbetalingspercentages**.  
 8.  Vul twee regels op de pagina **Vooruitbetalingspercentages verkoop** als volgt in.  
@@ -101,7 +101,7 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 9. Sluit alle pagina's.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Een vooruitbetalingsrekening verkoop opgeven in de boekingsgroepinstellingen  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Algemene boekingsinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsgroepinstellingen** in en kies de desbetreffende koppeling.  
 2.  Selecteer de regel waar de **Bedrijfsboekingsgroep** is ingesteld op **EXPORTEREN** en de **Productboekingsgroep** op **DETAILHANDEL** en kies vervolgens de actie **Bewerken**.  
 3.  Geef op de pagina **Boekingsgroepinstellingen** in het veld **Vooruitbetalingsrekening** verkoop de desbetreffende rekening op.  
 4.  Kies de knop **Ok**.  
@@ -114,7 +114,7 @@ De klant vraagt of het goed is als hij 35% betaalt, een voorstel waarin Susan zi
 Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Een verkooporder maken met een vooruitbetaling  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer in het veld **Orderklantnr.** de waarde **20000**.  
 5.  Accepteer de waarschuwing voor saldo-overschrijding die verschijnt.  
@@ -176,7 +176,7 @@ De klant betaalt het vooruitbetalingsbedrag en Arnie, die op de afdeling Vorderi
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Een betaling vereffenen met vooruitbetalingsfacturen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboeken** in en kies de gerelateerde koppeling.  
 2.  Vul op een dagboekregel de volgende gegevens in.  
 
     |Veldnaam|Voer in|  
@@ -205,7 +205,7 @@ Arnie heeft nu doorgekregen dat de artikelen voor de order zijn verzonden en dat
 
 Arnie kan de geschiedenis bekijken om te controleren of de verkoopfactuur volgens plan is gemaakt.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.  
 
 ## <a name="next-steps"></a>Volgende stappen  
 In dit overzicht hebt u de stappen doorlopen om [!INCLUDE[d365fin](includes/d365fin_md.md)] in te stellen voor het afhandelen van vooruitbetalingen. U hebt gezien hoe u standaard vooruitbetalingspercentages voor klanten en artikelen kunt instellen, en u hebt verschillende methoden gebruikt om de vooruitbetalingen van een order te berekenen. U hebt geprobeerd één totaal vooruitbetalingsbedrag aan de order toe te wijzen en u hebt het vooruitbetalingsbedrag laten berekenen als een percentage van de gehele order.  
