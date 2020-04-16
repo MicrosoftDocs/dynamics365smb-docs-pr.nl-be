@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809045"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186512"
 ---
 # <a name="manage-profiles"></a>Profielen beheren
 Alle gebruikers van [!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen een profiel toegewezen dat een afspiegeling is van hun zakelijke rol, de afdeling waarin ze werken of een andere categorisatie. Met profielen kunnen beheerders centraal definiëren en beheren wat verschillende gebruikerstypen in de gebruikersinterface kunnen zien en doen, zodat zij hun zakelijke taken efficiënt kunnen uitvoeren.
@@ -79,12 +79,23 @@ Wanneer een profiel wordt gemaakt, kunt u verschillende selectievakjes selectere
     - **Personalisatie uitschakelen** om aan te geven of gebruikers van de gerelateerde rol hun werkruimte kunnen personaliseren.
     - **Weergeven in Rollenverkenner** om op te geven of acties op zakelijke functies in het profiel moeten worden weergegeven in de uitgebreide weergave van de rollenverkenner, een functieoverzicht. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>Door de gebruiker gemaakte profielen exporteren
-U kunt profielen exporteren die door u of door gebruikers zijn gewijzigd, zoals aangegeven door **(Door gebruiker gemaakt)** in het veld **Bron**. Het profiel wordt geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie voor meer informatie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>Profielen exporteren
+U kunt profielen exporteren uit [!INCLUDE[d365fin](includes/d365fin_md.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie voor meer informatie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Kies op de pagina **Profielen (rollen)** de actie **Door gebruiker gemaakte profielen exporteren**.
+* Kies op de pagina **Profielen (rollen)** de actie **Profielen exporteren**.
 
-Een zipbestand met de .al-bestanden voor profielen die nieuw zijn toegevoegd of gewijzigd, wordt geëxporteerd.
+Een zip-bestand met de .al-bestanden voor alle profielen wordt geëxporteerd.
+
+## <a name="to-import-profiles"></a>Profielen importeren
+U kunt profielen importeren die zijn geëxporteerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. De stappen zijn min of meer het tegenovergestelde van de stappen om profielen te exporteren. Zie [Profielen exporteren](admin-users-profiles-roles.md#to-export-profiles) voor meer informatie.
+
+1. Kies op de pagina **Profielen (rollen)** de actie **Profielen importeren**.
+2. Volg de stappen in de wizard **Profielen importeren**.
+
+    Als u alleen geselecteerde profielen wilt importeren, gebruikt u het selectievakje **Geselecteerd** om aan te geven welke u wilt importeren.
+3. Kies de knop **Selectie importeren**.
+
+Een zip-bestand met de .al-bestanden voor de geselecteerde profielen wordt geïmporteerd.
 
 ## <a name="to-delete-a-profile"></a>Een profiel verwijderen
 U kunt een profiel verwijderen door de actie **Verwijderen** te kiezen op de pagina **Profielen (rollen)**. De volgende beperkingen zijn echter van toepassing:

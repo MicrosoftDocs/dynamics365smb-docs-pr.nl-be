@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309928"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182216"
 ---
 # <a name="count-inventory-using-documents"></a>Voorraad tellen met documenten
 U kunt een inventarisatie van uw artikelen maken met behulp van inventarisatieorder- en inventarisatieregistratiedocumenten. De pagina **Inventarisatieorder** wordt gebruikt om het hele inventarisatieproject te organiseren, bijvoorbeeld één per vestiging. De pagina **Inventarisatieregistratie** wordt gebruikt om de werkelijke telling van artikelen te communiceren en vast te leggen. U kunt meerdere registraties voor één order maken, bijvoorbeeld om groepen artikelen naar verschillende werknemers te distribueren.
@@ -36,9 +36,9 @@ Inventariseren met behulp van documenten bestaat uit de volgende algemene stappe
 ## <a name="to-create-a-physical-inventory-order"></a>Een inventarisatieorder maken
 Een inventarisatieorder is een volledig document dat bestaat uit een inventarisatieorderkop en enkele inventarisatieorderregels. De informatie in een inventarisatiekop beschrijft hoe de inventarisatie wordt uitgevoerd. De inventarisatieorderregels bevatten de informatie over de artikelen en de vestigingen ervan.
 
-Als u de inventarisatieorderregels wilt maken, gebruikt u meestal de functie **Regels berekenen** om de huidige voorraad als regels in de order te krijgen. U kunt ook de functie **Document kopiëren** gebruiken om de regels te vullen met de inhoud van een andere open of geboekte inventarisatieorder. In de volgende procedure wordt beschreven hoe u de functie **Regels berekenen** gebruikt.
+Als u de inventarisatieorderregels wilt maken, gebruikt u meestal de functie **Regels berekenen** om de huidige voorraad als regels in de order te krijgen. U kunt ook de functie **Kopiëren uit document** gebruiken om de regels te vullen met de inhoud van een andere open of geboekte inventarisatieorder. In de volgende procedure wordt beschreven hoe u de functie **Regels berekenen** gebruikt.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de vereiste velden op het sneltabblad **Algemeen** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Regels berekenen**.
@@ -98,7 +98,7 @@ U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om eventuele 
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Dubbele inventarisatieorderregels zoeken
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies de desbetreffende koppeling.
 2. Open de inventarisatieorder waarvoor u dubbele regels wilt weergeven.
 3. Kies de actie **Dubbele regels weergeven**.
 
@@ -111,7 +111,7 @@ Na voltooiing van een inventarisatieorder en de wijziging van de status ervan in
 - Elke inventarisatieorderregel is geteld door ten minste één inventarisatieorderregel
 - De selectievakjes **Op registratieregels** en **Verwacht aantal (berekend)** zijn geselecteerd voor alle inventarisatieorderregels.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies de desbetreffende koppeling.
 2. Selecteer de inventarisatieorder die u wilt voltooien en kies de actie **Bewerken**.
 
     Op de pagina **Inventarisatieorder** ziet u het aantal dat is geregistreerd in het veld **Geregistreerd aantal (basis)**.
@@ -125,7 +125,7 @@ De betreffende artikelposten worden bijgewerkt samen met eventuele gerelateerde 
 ### <a name="to-view-posted-physical-inventory-orders"></a>Geboekte inventarisatieorders weergeven
 Na het boeken wordt de inventarisatieorder verwijderd en kunt u het document weergeven en evalueren als een geboekte inventarisatieorder, inclusief de inventarisatieregistraties ervan en eventuele gemaakte opmerkingen.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inventarisatieorders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inventarisatieorders** in en kies de desbetreffende koppeling.
 2. Selecteer op de pagina **Geboekte inventarisatieorders** de geboekte voorraadorder die u wilt weergeven en kies vervolgens de actie **Weergeven**.
 3. Als u een lijst met gerelateerde inventarisatieregistraties wilt weergeven, kiest u de actie **Registraties**.
 

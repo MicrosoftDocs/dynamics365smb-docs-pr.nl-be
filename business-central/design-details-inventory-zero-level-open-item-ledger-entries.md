@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303373"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185216"
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
 Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
 
  Het volgende diagram toont hoe aantalvereffeningen worden gemaakt.  
 
-![Stroom van kostenwaardering van inkoop tot verkoop](media/helene/TechArticleInventoryZero2.png "Stroom van kostenwaardering van inkoop tot verkoop")
+![Stroom van kostenaanpassing van aankoop tot verkoop](media/helene/TechArticleInventoryZero2.png "Stroom van kostenaanpassing van aankoop tot verkoop")
 
  Hierboven is artikelpost 1 (Inkoop) zowel de leverancier van het artikel als de kostenbron voor de vereffende artikelpost, artikelpost 2 (Verkoop).  
 
@@ -78,7 +78,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het volgende diagram illustreert de kostenstroom.  
 
-![Stroom van kostenwaardering van verkoop tot verkoopretour](media/helene/TechArticleInventoryZero4.png "Stroom van kostenwaardering van verkoop tot verkoopretour")
+![Stroom van kostenaanpassing van verkoop tot verkoopretour](media/helene/TechArticleInventoryZero4.png "Stroom van kostenaanpassing van verkoop tot verkoopretour")
 
  Hierboven worden de kosten doorgestuurd naar artikelpost 2 (Verkoop), vervolgens naar artikelpost 3 (Verkoopretour) en uiteindelijk naar artikelpost 4 (Verkoop 2).  
 
@@ -91,7 +91,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het volgende diagram illustreert hoe artikelvereffeningen in beide scenario's worden uitgevoerd.  
 
-![Stroom van kostenwaardering gaat in beide richtingen](media/helene/TechArticleInventoryZero6.png "Stroom van kostenwaardering gaat in beide richtingen")  
+![De stroom van kostenaanpassing gaat in beide richtingen](media/helene/TechArticleInventoryZero6.png "De stroom van kostenaanpassing gaat in beide richtingen")  
 
  Er wordt een kostenvereffening gemaakt (vertegenwoordigd door de blauwe pijlen) om te zorgen dat artikelpost 2 (Verkoopretour) dezelfde kosten toegewezen krijgt als de artikelpost die ermee wordt tegengeboekt, artikelpost 1 (Verkoop 1). Echter, een aantalvereffening (vertegenwoordigd door de rode pijlen) wordt niet uitgevoerd.  
 

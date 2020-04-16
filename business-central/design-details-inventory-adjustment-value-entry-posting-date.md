@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 843e0590bbcff22b5d0ad40fcae5dd51c64eae3a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307144"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185288"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
 Dit artikel begeleidt gebruikers bij de functionaliteit Voorraadwaardering in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Het specifieke artikel legt uit hoe de batchverwerking **Kostprijs herwaarderen - Artikelposten** een boekingsdatum bepaalt en toewijst aan de waardeposten die de batchverwerking gaat maken.  
@@ -59,7 +59,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  Grootboekinstellingen:  
 
-![Grootboekinstelling in het scenario](media/helene/TechArticleAdjustcost4.png "Grootboekinstelling in het scenario")
+![Grootboekinstellingen in het scenario](media/helene/TechArticleAdjustcost4.png "Grootboekinstellingen in het scenario")
 
  De eerste toegestane boekingsdatum is de datum in het veld Boeken toegest. vanaf: 10 september 2013.  
 
@@ -69,7 +69,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  De aanvankelijke toegewezen Boekingsdatum was 6 september, zoals in stap 1 wordt beschreven. Echter, in de tweede stap identificeert de batchverwerking Kostprijs herwaarderen - Artikelposten dat de vroegste toegestane boekingsdatum 10 september is en wijst dus 10 september toe aan de herwaarderingswaardepost, onder.  
 
- ![Status van waardeposten in het scenario 2](media/helene/TechArticleAdjustcost5.png "Status van waardeposten in het scenario 2")
+ ![Status van waardeposten in scenario 2](media/helene/TechArticleAdjustcost5.png "Status van waardeposten in scenario 2")
 
  We hebben nu het concept bekeken voor het toewijzen van Boekingsdatums aan waardeposten die worden gemaakt door de batchverwerking Kostprijs herwaarderen - Artikelposten.  
 
@@ -82,11 +82,11 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  In de vorige sectie, waar het concept van het toewijzen van boekingsdatums wordt besproken, is het de bedoeling van de batchverwerking Kostprijs herwaarderen - Artikelposten een waardepost te maken met de boekingsdatum 10 september.  
 
-![Foutmelding over boekingsdatum](media/helene/TechArticleAdjustcost6.png "Foutmelding over boekingsdatum")
+![Foutbericht over boekingsdatum](media/helene/TechArticleAdjustcost6.png "Foutbericht over boekingsdatum")
 
  We gaan door op de gebruikersinstelling:  
 
-![Instelling van toegestane boekingsdatum van gebruiker](media/helene/TechArticleAdjustcost7.png "Instelling van toegestane boekingsdatum van gebruiker")
+![Instelling van toegestane boekingsdatums van gebruiker](media/helene/TechArticleAdjustcost7.png "Instelling van toegestane boekingsdatums van gebruiker")
 
  De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 september tot 30 september en mag daardoor de herwaarderingswaardepost niet boeken met boekingsdatum 10 september.  
 

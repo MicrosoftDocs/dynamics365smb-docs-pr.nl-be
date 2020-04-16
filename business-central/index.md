@@ -7,16 +7,16 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 44a534a5de37ff1c85aca9f659e113c1b325b850
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 695283e8d06c4c8bceb6eb0003687de0cc0eee6e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953599"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182528"
 ---
-# <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="welcome-to-d365fin_long"></a>Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[d365fin](includes/d365fin_md.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is snel te implementeren, gemakkelijk te configureren en eenvoud is het leidende principe achter innovatie van productontwerp, ontwikkeling, implementatie en bruikbaarheid. In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)] in uw bedrijf. Sommige belangrijke artikelen worden ook vermeld in het eerste gedeelte van de volgende tabel. En als u een partner of klant bent die de functionaliteit wil uitbreiden, vindt u relevante koppelingen in het gedeelte **Ontwikkelaar en IT-pro inhoud**.  
@@ -27,7 +27,7 @@ ms.locfileid: "2953599"
 |**Ontwikkelaar en IT-pro inhoud**|-   [Help voor ontwikkelaars en IT-pro's voor [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Ontwikkeling in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-ontwikkelomgeving](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regels en richtlijnen voor AL-code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Communityresources**|-   [Microsoft Dynamics 365 Business Central-community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365-releaseplannen](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(vereist PartnerSource-account\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(vereist Microsoft Partner Network-lidmaatschapsaccount\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnbrowseproductsdynamics-business-central"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
 ## <a name="see-also"></a>Zie ook
 

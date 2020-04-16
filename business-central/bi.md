@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308359"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186008"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
@@ -37,12 +37,13 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Analyseweergaven instellen om gegevens te analyseren met dimensies.|[Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)|
 |Nieuwe analyselijsten te maken voor verkopen, inkopen en voorraad en om analysesjablonen in te stellen.|[Analyselijsten maken](bi-how-create-analysis-views-reports.md)|
 |Internationale accountantsorganisaties de mogelijkheid geven om wereldwijd financiële rapporten te maken met de eXtensible Business Reporting Language-standaard.|[Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)|
+|Wijzig de databasetoegangsintentie op rapporten, pagina's van het type API en query's om de belasting te verminderen en de prestaties te verbeteren.|[Databasetoegangsintentie beheren](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)    
 [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md).  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

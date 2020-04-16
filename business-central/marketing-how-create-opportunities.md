@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309136"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181544"
 ---
 # <a name="create-sales-opportunities"></a>Verkoopopportunities maken
 U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten. Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.
@@ -27,7 +27,7 @@ U kunt opportunities maken op de pagina **Opportunity-overzicht**. Maar u maakt 
 Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Een opportunity maken van een verkoper
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies de desbetreffende koppeling.
 2. Selecteer de verkoper in de lijst voor wie u een opportunity wilt maken.
 3. Kies de actie **Opportunities** en kies vervolgens **Overzicht**.
 4. Kies de actie **Nieuw** en voer vervolgens de gewenste waarden in de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Een opportunity maken van een contact
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
 2. Selecteer het contact in de lijst voor wie u een opportunity wilt maken.
 3. Ga op een van de volgende manieren te werk:
    * Kies de actie **Opportunity maken**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076424"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185720"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Ontwerpdetails: Vraag en aanbod afstemmen
 Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen. De belangrijkste hiervan zijn om te zorgen dat:  
@@ -99,7 +99,7 @@ Tijdens het sluitend maken beschouwt het planningssysteem voorzieningen met seri
 
 Een andere reden dat voorziening met serienummers/lotnummers inflexibel is, is dat serienummers/lotnummers over het algemeen zo laat in het proces worden toegewezen dat het verwarrend zou zijn als er wijzigingen werden voorgesteld.  
 
-Het vereffenen van serie-/lotnummers heeft geen betrekking op de [vaste zone](design-details-dealing-with-orders-before-the-planning-starting-date.md). Als de vraag en het aanbod niet zijn gesynchroniseerd, zal het planningssysteem wijzigingen of nieuwe orders voorstellen, ongeacht de geplande begindatum.  
+Het vereffenen van serie-/lotnummers heeft geen betrekking op de *vaste zone*. Als de vraag en het aanbod niet zijn gesynchroniseerd, zal het planningssysteem wijzigingen of nieuwe orders voorstellen, ongeacht de geplande begindatum.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-naar-order koppelingen worden nooit verbroken  
 Bij het plannen van een order-naar-order-artikel moet de gekoppelde voorziening alleen worden gebruikt voor de vraag waarvoor het oorspronkelijk is bedoeld. De gekoppelde vraag moet niet door een willekeurige andere voorziening worden verwerkt, zelfs wanneer het in de huidige situatie beschikbaar is wat betreft tijd en aantal. Een assemblageorder die is gekoppeld aan een verkooporder in een op-order-assembleren scenario, kan bijvoorbeeld niet worden gebruikt om aan andere vraag te voldoen.  
@@ -117,7 +117,7 @@ Deze vereffening heeft ook invloed op de timing. Er wordt geen rekening gehouden
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Materiaalbehoefte wordt geladen op basis van wijzigingen in productieorders  
 Bij de verwerking van productieorders moet het planningssysteem de benodigde materialen controleren voordat ze in het vraagprofiel worden geladen. Materiaalregels die voortvloeien uit een gewijzigde productieorder vervangen regels uit de oorspronkelijke order. Hierdoor wordt gezorgd dat het planningssysteem bepaalt dat planningsregels voor materiaalbehoefte nooit worden gedupliceerd.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Veiligheidsvoorraad kan worden verbruikt  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Veiligheidsvoorraad kan worden verbruikt  
 De veiligheidsvoorraad is hoofdzakelijk een vraagsoort en wordt daarom in het voorraadprofiel geladen op de begindatum van de planning.  
 
 De veiligheidsvoorraad is een voorraadhoeveelheid die opzij is gezet om onzekerheden in de vraag te compenseren tijdens de aanvullingslevertermijn. Deze voorraad kan echter worden verbruikt als deze moet worden gebruikt om aan vraag te voldoen. In dat geval zorgt het planningssysteem ervoor dat de veiligheidsvoorraad snel wordt aangevuld, door een voorzieningenorder voor te stellen om het verbruikte deel van de veiligheidsvoorraad aan te vullen op de datum waarop het is verbruikt. Deze planningsregel zal een pictogram van een uitzonderingswaarschuwing bevatten, zodat de planner weet dat de veiligheidsvoorraad gedeeltelijk of volledig is verbruikt door een uitzonderingsorder voor het ontbrekende aantal.  

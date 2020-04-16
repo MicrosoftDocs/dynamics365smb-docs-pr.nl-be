@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953000"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186905"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 
@@ -25,18 +25,15 @@ Inzicht krijgen in uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens is g
 U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Power BI-apps vereisen machtigingen voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
 
 > [!IMPORTANT]
-> De Power BI-apps die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme, tenzij anders vermeld. Als u een Power BI-app wilt installeren, moet u ook een Power BI Pro-licentie hebben.  Zodra de Power BI-app is geïnstalleerd, kan deze worden gedeeld met gebruikers met elk licentietype.
+> De Power BI-apps die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme, tenzij anders vermeld. U hebt ook een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen, en de mensen met wie u deze deelt, hebben die ook nodig, anders moet de inhoud zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] heeft de volgende apps gepubliceerd voor Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>De [!INCLUDE [prodshort](includes/prodshort.md)]-dashboards gebruiken in Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>De [!INCLUDE [prodshort](includes/prodshort.md)]-dashboards gebruiken in Power BI
 
 Elke app bevat rapporten met verschillende detailniveaus:
 
@@ -81,7 +78,7 @@ De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!I
 - [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
 - Standaard is uw gegevensset niet gepland om te vernieuwen. U kunt het vernieuwingsschema wijzigen of het op aanvraag proberen te vernieuwen met **Nu vernieuwen**. Zie voor meer informatie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Uw startpagina in [!INCLUDE [prodshort](includes/prodshort.md)] kan een Power BI-besturingselement bevatten dat kan worden geconfigureerd om Power BI-rapporten weer te geven op uw startpagina.
 
@@ -166,9 +163,9 @@ Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt he
 
 Dit bericht verschijnt als het standaardrapport niet naar uw Power BI-werkruimte kan worden geïmplementeerd of het rapport is geïmplementeerd maar niet met succes is vernieuwd. Als dit gebeurt, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar Business Central en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE [prodshort](includes/prodshort.md)]-app in Power BI te installeren
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE [prodshort](includes/prodshort.md)]-app in Power BI te installeren
 
-Power BI-apps kunnen alleen worden geïnstalleerd door gebruikers met een Power BI Pro-licentie. Zodra de Power BI-app is geïnstalleerd, kunt u deze delen met gebruikers die geen Power BI Pro-licentie hebben.  
+U hebt een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen, en de mensen met wie u deze deelt, hebben die ook nodig, anders moet de inhoud zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidatie mislukt; zorg dat alle parameters geldig zijn"
 
@@ -179,7 +176,7 @@ Deze fout geeft aan dat een van de parameters niet geldig is.
 - Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. u hebt een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Er staat geen poort open om het verzoek door uw firewall te laten gaan.
 
-### <a name="login-failed"></a>Aanmelding mislukt
+### <a name="cannot-sign-in"></a>Kan me niet aanmelden
 
 Als u de fout "Aanmelding mislukt" krijgt nadat u zich aanmeldt met uw [!INCLUDE [prodshort](includes/prodshort.md)]-referenties, kan dat een van de volgende oorzaken hebben:
 
@@ -203,7 +200,7 @@ Zodra de Power BI-app is geïnstalleerd en uw gegevens verschijnen in Power BI, 
 
 De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf dat is gedefinieerd toen de Power BI-app werd geïnstalleerd. Gegevens van extra bedrijven kunnen aan de rapporten worden toegevoegd door nieuwe query's toe te voegen die verschillende bedrijven als gegevensbron gebruiken.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

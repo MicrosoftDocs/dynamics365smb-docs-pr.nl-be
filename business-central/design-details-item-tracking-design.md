@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6065c90035ec644de3557ebb04047092972f1542
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cda50dc7c3a0377c36f7bce4eca9c1c5cb5b093e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303313"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185072"
 ---
 # <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
 In de eerste versie van Artikeltracering in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 werden serienummers of lotnummers direct geregistreerd in artikelposten. Dit ontwerp bood volledige beschikbaarheidsgegevens en eenvoudige tracering van historische posten, maar het miste flexibiliteit en functionaliteit.  
@@ -30,7 +30,7 @@ Met het toevoegen van serie- of lotnummers verwerkt het reserveringssysteem perm
 
 In het volgende diagram wordt het ontwerp van artikeltraceringfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] aangegeven.  
 
-![Voorbeeld van artikeltraceringsstroom](media/design_details_item_tracking_design.png "Voorbeeld van artikeltraceringsstroom")  
+![Voorbeeld van een artikeltraceringsstroom](media/design_details_item_tracking_design.png "Voorbeeld van een artikeltraceringsstroom")  
 
 Het centrale boekingsobject is opnieuw ontworpen om de unieke subclassificatie van een documentregel te verwerken in de vorm van serie- of lotnummers. Er zijn speciale relatietabellen toegevoegd om de één-op-veel relaties tussen geboekte documenten en de gesplitste artikelposten en waardeposten te maken.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 65087f044c410f41ace0a218d810675e19c856d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3c860ac8fec0e9a3cdf697ee59789d55387e5dc1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309424"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181688"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Interactie met contacten automatisch vastleggen
 U kunt de toepassing instellen om automatisch recordinteracties vast te leggen voor verkoop-, inkoop- en servicedocumenten, contactkaarten, e-mails, telefoongesprekken, zoals:
@@ -29,7 +29,7 @@ U kunt de toepassing instellen om automatisch recordinteracties vast te leggen v
 * Uw contacten bellen als u over een compatibele TAPI-telefoon en de juiste installatie beschikt.
 
 Als u automatisch vastleggen van deze interacties wilt instellen, geeft u interactiesjablonen voor deze documenten en acties op met behulp van de pagina **Interactiesjablooninstellingen**.  
-Als u de pagina **Interactiesjablooninstellingen** wilt openen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Interactiesjablooninstellingen** in en kiest u vervolgens de gerelateerde koppeling.
+Als u de pagina **Interactiesjablooninstellingen** wilt openen, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Interactiesjablooninstellingen** in en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Interacties vastleggen met contacten](marketing-interactions.md)  

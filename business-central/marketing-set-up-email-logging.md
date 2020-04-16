@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 13699c002402b6b6d32edc13dca3710fefff2129
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308752"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181278"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen
 Haal meer uit de communicatie tussen verkopers en uw bestaande of potentiële klanten door e-mailuitwisselingen bij te houden en deze vervolgens om te zetten in bruikbare kansen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan werken met Exchange Online om een logboek bij te houden van de inkomende en uitgaande berichten. U kunt de inhoud van elk bericht bekijken en analyseren op de pagina **Interactielogposten**.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
 
-## <a name="setting-up-included365finincludesd365fin_mdmd-to-log-email-messages"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen om e-mailberichten te registreren
+## <a name="setting-up-d365fin-to-log-email-messages"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen om e-mailberichten te registreren
 Ga aan de slag met e-maillogboekregistratie in twee eenvoudige stappen:
 
 1. Verbind [!INCLUDE[d365fin](includes/d365fin_md.md)] met Exchange Online voor uw Office 365-abonnement. Exchange Online behandelt uw e-mailberichten. We hebben deze stap eenvoudig gemaakt door een begeleide instelling te bieden. U hebt alleen uw beheerdersreferenties nodig voor uw beheerdersaccount in Office 365. Start de guide door naar **Begeleide instelling** te gaan en vervolgens **E-maillogboekregistratie instellen** te kiezen. 

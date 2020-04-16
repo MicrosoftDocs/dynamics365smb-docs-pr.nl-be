@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303520"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185168"
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
 Wanneer u een voorraadtransactie boekt, wordt het geboekte aantal vastgelegd in de artikelposten, en de waardeboeking in de waardeposten. Zie [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md) voor meer informatie.  
@@ -189,7 +189,7 @@ De volgende tabel toont het effect van de exacte kostenterugboeking op de waarde
 Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert, worden de toegenomen kosten van de inkooppost als gevolg van de artikeltoeslag doorgestuurd naar de verkooppost volgnummer 2. De verkooppost stuurt vervolgens deze verhoogde kosten door naar de verkoopcreditpost (volgnummer 3). Het eindresultaat is dat de kosten correct zijn tegengeboekt.  
 
 > [!NOTE]  
->  Als u met retouren of creditnota's werkt en u het veld **Precieze kostenvereff. verplicht** hebt ingesteld op de pagina **Inkoopinstellingen** of de pagina **Instellingen van verkoop en tegoeden**, zoals van toepassing in uw situatie, vult [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de verschillende vereffeningspostvelden in wanneer u de functie **Document kopiëren** gebruikt. Als u de functie **Geboekte documentregels ophalen voor tegenboeking** gebruikt, worden deze velden altijd automatisch ingevuld.  
+>  Als u met retouren of creditnota's werkt en u het veld **Precieze kostenvereff. verplicht** hebt ingesteld op de pagina **Inkoopinstellingen** of de pagina **Instellingen van verkoop en tegoeden**, zoals van toepassing in uw situatie, vult [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de verschillende vereffeningspostvelden in wanneer u de functie **Kopiëren uit document** gebruikt. Als u de functie **Geboekte documentregels ophalen voor tegenboeking** gebruikt, worden deze velden altijd automatisch ingevuld.  
 
 > [!NOTE]  
 >  Als u een transactie boekt met een vaste vereffening en vereffent met een gesloten artikelpost, hetgeen betekent dat het resterende aantal nul blijft, wordt de oude vereffening automatisch ongedaan gemaakt en wordt de artikelpost nogmaals vereffend met gebruik van de door u opgegeven vaste vereffening.  

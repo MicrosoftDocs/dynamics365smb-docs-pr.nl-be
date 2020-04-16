@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991868"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184040"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
 
 ## <a name="accountant-role-center"></a>Rolcentrum Accountant
@@ -25,7 +25,7 @@ Het rolcentrum is een dashboard met activiteittegels die realtime cijfers bevatt
 
 Als [!INCLUDE[d365fin](includes/d365fin_md.md)] nieuw voor u is, kunt u een overzicht van video's direct vanuit uw rolcentrum starten. U kunt ook een **Aan de slag**-rondleiding starten die wijst op belangrijke gebieden.  
 
-## <a name="inviteaccountant"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage te beheren, kan uw beheerder deze uitnodigen voor uw [!INCLUDE[d365fin](includes/d365fin_md.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. [!INCLUDE[d365fin](includes/d365fin_md.md)] omvat drie licenties van het type Externe accountant. Zie de [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590) voor meer informatie over licenties.
 
 Als de accountant toegang heeft gekregen tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)], kan hij of zij het rolcentrum **Accountant** gebruiken, dat eenvoudig toegang tot de meest relevante pagina's voor hun werk biedt.  
@@ -61,7 +61,7 @@ Als uw beheerder of wederverkoper geen gebruik wenst te maken van de guide **Ext
 
 Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE [prodshort](includes/prodshort.md)] toewijzen.
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Uw accountant toegang geven tot uw [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Uw accountant toegang geven tot uw [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Kies **Profiel** in de Azure Portal bij de zojuist toegevoegde gebruiker en kies **Bewerken**
 2. Voer in het veld **Gebruikslocatie** het desbetreffende land in en kies **Opslaan**.
@@ -73,7 +73,7 @@ Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE [prodshort](in
 
 Als dit lukt, wordt de licentie toegewezen aan de gastgebruiker en wordt het gastaccount gemaakt.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>De nieuwe gebruiker importeren in [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>De nieuwe gebruiker importeren in [!INCLUDE [prodshort](includes/prodshort.md)]
 
 De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft gekregen tot uw Active Directory. Daarna moet u de accountant toegang geven tot het juiste bedrijf in [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft ge
 2. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.  
 3. Kies de actie **Nieuwe gebruikers ophalen uit Office 365**.
 
-Hiermee wordt het gebruikersaccount dat u in de Azure Portal hebt gemaakt, naar het bedrijf geïmporteerd. Zie [Een gebruiker toevoegen in Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central) voor meer informatie.  
+Hiermee wordt het gebruikersaccount dat u in de Azure Portal hebt gemaakt, naar het bedrijf geïmporteerd. Zie [Een gebruiker toevoegen in Business Central](ui-how-users-permissions.md#adduser) voor meer informatie.  
 
 Als u toegang wilt geven aan meerdere bedrijven, moet u zich bij elk bedrijf aanmelden en dit proces herhalen. U kunt ook de machtigingsgroepen voor het gebruikersprofiel van de accountant bijwerken in [!INCLUDE [prodshort](includes/prodshort.md)], zoals het toewijzen van de *D365 Bus Premium*-gebruikersgroep. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
