@@ -8,63 +8,101 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194439"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262154"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
-Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De algemene functies voor het invoeren van gegevens worden in dit artikel beschreven.  
+Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies voor het invoeren van gegevens worden in dit artikel beschreven.  
 
 In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
 
+## <a name="working-with-editable-fields"></a>Werken met bewerkbare gegevens
+Velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
+
+Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specificeren.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Picker**        |**Hoe het u helpt een waarde op te geven**|
+|------------------|------------------------------------|
+|Datumkiezer       |Deze kiezer geeft een kalender weer die is gebaseerd op uw huidige regionale instellingen. Het helpt u bij het kiezen van een enkele datum.|
+|Vervolgkeuzelijst          |Vervolgkeuzelijsten bieden een keuze uit vaste waarden of verwijzen naar records uit een andere tabel|
+|Schakelaar of selectievakje|Sommige velden bieden een eenvoudige keuze uit *Ja*- of *Nee*-waarden. De schakelaar wordt gebruikt om deze waarde op te geven en wordt altijd weergegeven als een selectievakje in lijsten|
+|AssistEdit       |Sommige velden bieden aangepaste kiezers die geschikt zijn om de beste waarde op te zoeken en voor dat veld te kiezen, zoals een pop-upvenster|
+
+
+### <a name="modifying-a-field-value"></a>Een veldwaarde wijzigen
+
+Om de waarde van een veld te wijzigen, moet u eerst de focus op dat veld instellen. U stelt de focus in door de volgende acties uit te voeren:
+
+- Gebruik de **Tab**-toets. De actie selecteert de volledige waarde.
+- Klik met de linkerknop van de muis of vergelijkbaar invoerapparaat. Deze actie selecteert alleen de volledige veldwaarde als het veld in een lijst staat.  
+
+Wanneer u interactie hebt met velden in de gebruikersinterface, selecteert [!INCLUDE[d365fin](includes/d365fin_md.md)] meestal de volledige veldwaarde, zodat u die gemakkelijker kunt vervangen.
+
+Wanneer de volledige veldwaarde is geselecteerd:
+- Vervang de waarde door gewoon te typen om een nieuwe waarde op te geven. Als het veld een kiezer biedt, kunt u deze activeren met de sneltoets **Alt+Pijl-omlaag**.
+- Gebruik de toets **Delete** of **Backspace** om de waarde te wissen.
+
+Druk op de toets **F2** om te wisselen tussen het selecteren van de volledige veldwaarde of het plaatsen van de cursor achter de veldwaarde. Door de cursor aan het einde van de waarde te plaatsen, kunt u gemakkelijker aan de bestaande waarde toevoegen.
+
+Als de cursor wordt weergegeven aan het einde van de veldwaarde:
+- Voeg toe aan de waarde door gewoon te typen.
+- Gebruik de toetsen **Home**, **End**, **Pijl-links** en **Pijl-rechts** om de cursor binnen de waarde te verplaatsen. Als u een veld in een lijst bewerkt en u nogmaals u op de toets **Pijl-links** drukt wanneer de cursor aan het begin van de waarde staat, wordt de focus ingesteld op het vorige veld. Als u nogmaals op de toets **Pijl-rechts** drukt wanneer de cursor aan het einde van de waarde staat, wordt de focus op het volgende veld gezet.
+
+> [!NOTE]
+> Nadat u een waarde hebt opgegeven, controleert Business Central pas of deze geldig is nadat u buiten het veld hebt geklikt of de focus hebt ingesteld op een ander element, zoals het volgende veld.  
+
+
 ## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
-Er zijn verschillende sneltoetsen waarmee u 'muisvrij' kunt werken en de gegevensinvoer kunt versnellen, vooral bij grootschalige invoer en herhaald typewerk.
+Er zijn verschillende sneltoetsen waarmee u "muisvrij" kunt werken en uw gegevensinvoer kunt versnellen. Deze sneltoetsen zijn vooral handig bij grootschalige invoer en herhaalde typetaken.
 
 Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen](keyboard-shortcuts.md). Enkele sneltoetsen worden in dit artikel besproken.
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
 
-Snelinvoer is een functie die bedoeld is voor gegevensinvoer met het toetsenbord. Snelinvoer werkt met velden (bijvoorbeeld op kaartpagina's) en in lijsten (rijen en kolommen). Het kan handig zijn bij herhalend typewerk, waarbij meerdere records achter elkaar moeten worden gemaakt, zoals een batch verkooporders of registratie van nieuwe artikelen.
+Snelinvoer is een functie die bedoeld is voor gegevensinvoer met het toetsenbord. Snelinvoer werkt met velden (bijvoorbeeld op kaartpagina's) en in lijsten (rijen en kolommen). Het is handig bij het uitvoeren van repetitieve typetaken waarbij meerdere opeenvolgende records achter elkaar moeten worden gemaakt. Voorbeelden zijn een batch verkooporders of het registreren van nieuwe artikelen.
 
-U bent mogelijk al vertrouwd met het gebruik van de Tab-toets om van het ene veld op een pagina naar het volgende bewerkbare veld te navigeren. Het nadeel van het gebruik van de Tab-toets is dat deze altijd naar het volgende veld gaat. <!-- even if the field is non-editable or seldom filled it in.-->Met snelinvoer kunt u dit pad wijzigen. Met snelinvoer gebruikt u de Enter-toets om alleen te navigeren naar de velden waarin u geïnteresseerd bent. U slaat niet-bewerkbare velden en velden die u meestal niet invult, over. U hebt dit gedrag mogelijk al op bepaalde pagina's opgemerkt. Dit komt omdat de toepassing al aangeeft welke velden moeten worden opgenomen wanneer op Enter wordt gedrukt en welke worden overgeslagen. U kunt snelinvoer wijzigen door de werkruimte aan te passen en te optimaliseren hoe u gegevens op elke pagina invoert.
+U kunt de Tab-toets gebruiken om van het ene veld op een pagina naar het volgende bewerkbare veld te navigeren. Het nadeel van het gebruik van de Tab-toets is dat deze altijd naar het volgende veld gaat. <!-- even if the field is non-editable or seldom filled it in.-->Met snelinvoer kunt u dit pad wijzigen. Met Snelinvoer kunt u Enter gebruiken om alleen door de velden te navigeren waarin u geïnteresseerd bent. Snelinvoer slaat niet-bewerkbare velden en velden die u normaal gesproken niet invult, over. U hebt dit gedrag mogelijk al op bepaalde pagina's opgemerkt. Dit komt omdat de velden die moeten worden opgenomen wanneer op Enter wordt gedrukt en die worden overgeslagen, vooraf is gedefinieerd. U kunt snelinvoer wijzigen door de werkruimte aan te passen en te optimaliseren hoe u gegevens op elke pagina invoert.
 
 ### <a name="how-quick-entry-works"></a>Hoe snelinvoer werkt
 
-Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die in snelinvoer zijn opgenomen, worden opgenomen in het pad wanneer u op Enter drukt; velden die zijn uitgesloten van snelinvoer, worden dat niet.
+Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die zijn opgenomen in snelinvoer, worden in het pad opgenomen wanneer u op Enter drukt. Velden die zijn uitgesloten van snelinvoer, worden dat niet.
 
 Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Sneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips en trucs
-Hieronder volgt wat nuttige informatie over het gebruik van snelinvoer.
+
+De volgende lijst bevat wat nuttige informatie over het gebruik van snelinvoer.
 
 - Het is beschikbaar voor bewerkbare velden.
 - Het werkt ook over kolommen en rijen.
-- Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze zijn nog toegankelijk met behulp van Tab en Shift+Tab.  
-- Sneltabbladen hoeven niet uitgevouwen te zijn om snelinvoer te gebruiken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het juiste veld.
+- Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze elementen zijn nog toegankelijk met behulp van Tab en Shift+Tab.  
+- Het is niet vereist dat sneltabbladen worden uitgevouwen om snelle invoer te laten werken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het gekozen veld. [!INCLUDE[d365fin](includes/d365fin_md.md)] onthoudt dat het sneltabblad de volgende keer dat u de pagina bezoekt, moet worden uitgevouwen.  
 - Snelinvoer werkt ongeacht of velden verplicht zijn. Het is dus een goed idee te zorgen dat verplichte velden zijn opgenomen in snelinvoer.
 - Standaard worden de meeste velden automatisch opgenomen in snelinvoer. In eerste instantie moet u dus waarschijnlijk velden uitsluiten van snelinvoer.
 
 ### <a name="to-change-quick-entry-fields"></a>Snelinvoervelden wijzigen
 
-Als u wilt wijzigen welke velden zijn opgenomen in of uitgesloten van snelinvoer op een pagina, gebruikt u personalisatie.
+Om snelinvoer op velden in te stellen, gebruikt u personalisatie.
 
 1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te selecteren en vervolgens de actie **Personaliseren**.
-2. Selecteer een veld dat u wilt wijzigen of selecteer in lijsten de corresponderende kolomkop en kies vervolgens **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer**.
+2. Selecteer een veld dat u wilt wijzigen. Selecteer in lijsten de bijbehorende kolomkop. Kies dan **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer**.
 
 Zie voor meer informatie over personalisatie [Uw werkruimte personaliseren](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Verplichte velden
 
-Wanneer u gegevens invoert op pagina's, zijn bepaalde velden gemarkeerd met een rode asterisk. De rode asterisk betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien dat het veld gebruikt, zoals het boeken van een transactie die de waarde in het veld gebruikt.  
+Wanneer u gegevens invoert op pagina's, zijn bepaalde velden gemarkeerd met een rode asterisk. Het rode sterretje betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien. Een voorbeeld is wanneer u een transactie boekt die de waarde in het veld gebruikt.  
 
-Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te vullen voordat u verdergaat naar andere velden of de pagina sluit. De rode asterisk dient alleen als een herinnering dat u wordt geblokkeerd van het voltooien van een bepaald proces.  
+Hoewel een veld verplicht is, wordt u niet gedwongen het veld te vullen voordat u verdergaat naar andere velden of de pagina sluit. De rode asterisk dient alleen als een herinnering dat u wordt geblokkeerd van het voltooien van een bepaald proces.  
 
 ## <a name="finding-data-as-you-type"></a>Gegevens zoeken terwijl u typt
 
@@ -78,7 +116,7 @@ Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te v
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Velden en regels kopiëren en plakken
 
-U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail). Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
+U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren. Plak vervolgens wat u hebt gekopieerd op dezelfde pagina, een andere pagina of een extern document. U zou bijvoorbeeld kunnen plakken in Microsoft Excel of Outlook e-mail. Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
 
 Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, drukt u op F8.
 
@@ -88,13 +126,13 @@ Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](ui-copy
 
 Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
 
-Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent en de regelartikelen filtert om alle regelartikelen weer te geven die een individuele korting van meer dan 5% hebben, of dat u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
+Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent. Vervolgens filtert u de regelitems om alle regelitems weer te geven met een individuele korting van meer dan 5%. Of u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Focussen op regelartikelen
 
-Wanneer u werkt aan documenten die een regelitemgedeelte bevatten, zoals een verkooporder of factuurpagina, kunt u uw weergave zo instellen dat deze zich alleen op de regelitems concentreert. Het gedeelte met regelitems wordt vervolgens uitgevouwen zodat het vrijwel de hele werkruimte in beslag neemt en andere delen van de pagina verbergt behalve het actiegebied bovenaan. Dit geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken.
+Wanneer u werkt met documenten die een onderdeel met regelitems bevatten, kunt u de weergave overschakelen om alleen de regelitems weer te geven. Voorbeelddocumenten zijn verkooporder of factuurpagina. Het gedeelte met regelitems breidt zich uit zodat het bijna de hele werkruimte in beslag neemt. Het verbergt andere delen van de pagina behalve het actiegebied bovenaan. Deze lay-out geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken.
 
-Dit is met name voordelig bij het werken met grote regelartikellijsten en wanneer snelle gegevensinvoer gewenst is. Een ander voordeel is dat het ook geavanceerde filtermogelijkheden biedt, zoals in andere lijsten, waardoor bladeren en zoeken door regelartikelen nog gemakkelijker wordt.
+U profiteert er vooral van wanneer u met grote lijsten met regelitems werkt en u snel gegevens wilt invoeren. Deze functie biedt ook geavanceerde filtermogelijkheden. Net als in andere lijsten wordt bladeren en zoeken door regelitems nog eenvoudiger.
 
 ### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
@@ -103,8 +141,18 @@ Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met re
 Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking over meerdere pagina's
-Wanneer u aan meerdere taken tegelijk werkt of wanneer u onderbrekingen in de huidige taak beheert, zoals het aannemen van een inkomende oproep, kunt u een kaart- of documentpagina in een nieuw venster openen. Hiermee kunt u een venster openhouden voor een lopende taak terwijl u een andere taak in een of meer andere vensters start of voltooit.
 
+U kunt een kaart- of documentpagina openen in een nieuw venster. Door een nieuw venster te openen, kunt u:
+
+- Aan meerdere taken tegelijk werken
+- Onderbrekingen van de huidige taak beheren, zoals het aannemen van een inkomend gesprek.
+- Een venster open houden voor een lopende taak terwijl u een andere taak in Windows start of voltooit.
+
+Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
+
+<!--
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+-->
 Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
 
 > [!NOTE]
@@ -114,7 +162,7 @@ Kies om de huidige kaart of het huidige document in een nieuw venster te openen 
 > Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Hetzelfde kan gebeuren in andere browsers, zoals Firefox. Zie voor meer informatie [Instellingen voor pop-upblokkering in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Een andere manier om te multitasken is om [!INCLUDE[d365fin](includes/d365fin_md.md)] te openen op twee of meer browsertabbladen. Wanneer u dit doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
+Een andere manier om te multitasken is om [!INCLUDE[d365fin](includes/d365fin_md.md)] te openen op twee of meer browsertabbladen. Wanneer u dit zo doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
 
 > [!NOTE]
 > Gebruik niet de functie **Dupliceren** van de browser om het nieuwe tabblad te maken, omdat hierdoor acties op één tabblad acties op andere tabbladen kunnen blokkeren omdat ze deel uitmaken van dezelfde sessie.
@@ -155,26 +203,26 @@ U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan
 
 ### <a name="entering-dates"></a>Datums invoeren
 
-Voor datumvelden kunt u de datumselectie gebruiken. Hiermee selecteert u een datum in een kalender of voert u handmatig datums in. Deze sectie geeft een kort overzicht van hoe u datums invoert. Zie voor meer informatie [Werken met kalenderdatums en tijden](ui-enter-date-ranges.md).
+U kunt de datumkiezer gebruiken om een datum te selecteren in een kalender of u voert handmatig datums in. Deze sectie geeft een kort overzicht van hoe u datums invoert. Zie voor meer informatie [Werken met kalenderdatums en tijden](ui-enter-date-ranges.md).
 
 Voor handmatige datuminvoer kunt u twee, vier, zes of acht cijfers invoeren:  
 
--   Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.  
+-   Twee cijfers worden geïnterpreteerd als de dag. Het voegt de maand en het jaar van de werkdatum toe.  
 
--   Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd.  
+-   Vier cijfers worden geïnterpreteerd als de dag en de maand. Het voegt het jaar van de werkdatum toe.  
 
--   Als de ingevoerde datum in de reeks 01.01.1930 tot en met 31.12.2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.  
+-   Als de gewenste datum tussen 01/01/1930 en 31/12/2029 ligt, voer dan het jaar in met twee cijfers. Voer anders het jaar in met vier cijfers.  
 
-U kunt een datum ook invoeren als een weekdag gevolgd door een weeknummer en eventueel het jaar (Ma25 of ma25 duidt bijvoorbeeld op maandag in week 25).  
+U kunt ook een datum als dag van de week invoeren, gevolgd door een weeknummer. Of u kunt een jaar invoeren. Bijvoorbeeld Maa25 of maa25 betekent maandag in week 25.  
 
 U kunt in plaats van een specifieke datum ook een van deze codes invoeren.  
 
 |Code|Resultaat|  
 |--------------|----------------|  
-|h|Dit is de datum van vandaag (de systeemdatum voor de computer).|  
+|h|Hiermee wordt de datum van vandaag opgegeven (de systeemdatum voor de computer).|  
 |p|Hiermee wordt een boekhoudperiode opgegeven, waarbij p de eerste boekhoudperiode is, p2 de tweede boekhoudperiode is, enzovoort. |
-|w|Dit is de werkdatum die is ingesteld in de toepassing. Zie [Basisinstellingen wijzigen](ui-change-basic-settings.md) als u de werkdatum wilt wijzigen. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.|
-|u|Hiermee geeft u op dat de datum na u een ultimodatum is, bijvoorbeeld U311201.|  
+|w|Hiermee wordt de werkdatum opgegeven die is ingesteld in de toepassing. Zie [Basisinstellingen wijzigen](ui-change-basic-settings.md) als u de werkdatum wilt wijzigen. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.|
+|u|Hiermee wordt opgegeven dat de datum na u een ultimodatum is, bijvoorbeeld U311201.|  
 
 ## <a name="entering-times"></a>Tijden invoeren
 
@@ -192,7 +240,7 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 |5:30:5.50|05:30:05,5|  
 |053005050|05:30:05.05|  
 
- Als u geen scheidingsteken invoert, moet u twee cijfers invoeren voor elke eenheid.  
+ Als u geen scheidingsteken invoert, voert u twee cijfers in voor elke tijdseenheid.  
 
 ## <a name="entering-datetimes"></a>Datum/tijd invoeren
 
@@ -224,6 +272,7 @@ In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoe
 |di 3:3:3|Dinsdag van de huidige week 03:03:03|  
 
 ## <a name="entering-duration"></a>Duur invoeren
+
 De duur moet worden ingevoerd als een getal gevolgd door de eenheid.  
 
 Hier volgen enkele voorbeelden.  
@@ -239,7 +288,7 @@ Hier volgen enkele voorbeelden.
 
  Als u een getal invoert, wordt het getal automatisch omgezet naar een duur. Dit gebeurt op basis van de standaardeenheid die in het veld Duur is ingevoerd.  
 
- Als u wilt nagaan welke eenheid wordt gebruikt in het veld Duur, voert u een getal in en bekijkt u in welke eenheid het getal wordt omgezet.  
+ Als u wilt nagaan welke maateenheid wordt gebruikt in het veld Duur, voert u een getal in en bekijkt u in welke eenheid het getal wordt omgezet.  
 
  Het getal 5 wordt omgezet in 5 uur, als de eenheid uit uren bestaat.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3355fb6ff46e7fa59d5b76aec8e88e675de31f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195992"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324018"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  
@@ -23,7 +23,7 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
  Deze functie werkt alleen wanneer aan de volgende criteria wordt voldaan:  
 
 -   Het artikel moet een serie-/partijnummer hebben.  
--   In de instelling van de trackingcode van het artikel moet het veld **Specifieke serienr.-tracering** of **Specifieke lottracering** worden geselecteerd.  
+-   Op de tracking-code van het artikel moet het veld **Magazijnserienr.-tracering** of **Magazijnlottracering** worden geselecteerd.  
 -   Het artikel moet met een verloopdatum naar de voorraad worden geboekt.  
 -   Op de vestigingskaart moet het selectievakje **Picken vereisen** zijn ingeschakeld.  
 -   Op de vestigingskaart moet het selectievakje **Picken volgens FEFO** zijn ingeschakeld.  

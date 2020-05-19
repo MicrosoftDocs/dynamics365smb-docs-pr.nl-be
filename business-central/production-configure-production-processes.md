@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190647"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324354"
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
 Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
@@ -24,11 +24,14 @@ Machinebedienden en machines worden in het systeem weergegeven als bewerkingspla
 
 Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoeren. Zie [Planning](production-planning.md) en [Productie](production-manage-manufacturing.md) voor meer informatie.  
 
+
+
  In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsprincipes.|De pagina **Productie-instellingen**.|  
+|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsparameters.|De pagina **Productie-instellingen**.|
+|Stel op het tabblad **Planning** op de pagina **Productie-instellingen** globale planningsparameters in die parameters overschrijven die op individuele artikelkaarten zijn ingesteld.|[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)|
 |Een standaardwerkweek in de productieafdeling definiëren met de begin- en eindtijd van elke werkdag en de bijbehorende dienst.|[Productieagenda's maken](production-how-to-create-work-center-calendars.md)|  
 |Vaste waarden en vereisten van productieresources indelen als afdelingen of bewerkingsplaatsen om de productie-output te bepalen.|[Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)|
 |Productiebewerkingen in de vereiste volgorde indelen en met de vereiste werktijden toewijzen aan afdelingen of bewerkingsplaatsen.|[Bewerkingsplannen maken](production-how-to-create-routings.md)|

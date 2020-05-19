@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: d8377e5042ac647386e1b3b02e1f97d2e14eb3ae
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196531"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272002"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
 De basis voor de synchronisatie van gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]met gegevens in [!INCLUDE[d365fin](includes/cds_long_md.md)] is de toewijzing van de tabellen en velden met de gegevens aan elkaar. Toewijzing gebeurt via integratietabellen. 
 
 ## <a name="mapping-integration-tables"></a>Integratietabellen toewijzen
-Een integratietabel is een tabel in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database die een entiteit vertegenwoordigt, zoals een account, in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Integratietabellen bevatten velden die overeenkomen met de velden in de tabel voor de [!INCLUDE[d365fin](includes/cds_long_md.md)]-entiteit. De tabel Accountintegratie maakt bijvoorbeeld verbinding met de entiteit Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Voor elke entiteit in [!INCLUDE[d365fin](includes/cds_long_md.md)] die u wilt synchroniseren met gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet er een integratietabeltoewijzing zijn.
+Een integratietabel is een tabel in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database die een entiteit vertegenwoordigt, zoals een account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integratietabellen bevatten velden die overeenkomen met de velden in de tabel voor de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-entiteit. De tabel Accountintegratie maakt bijvoorbeeld verbinding met de entiteit Accounts in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Voor elke entiteit in [!INCLUDE [cds_short_md](includes/cds_short_md.md)] die u wilt synchroniseren met gegevens in [!INCLUDE[prodshort](includes/prodshort.md)], moet er een integratietabeltoewijzing zijn.
 
 Wanneer u de verbinding tussen de apps maakt, stelt [!INCLUDE[d365fin](includes/d365fin_md.md)] enkele standaardtabel- en veldtoewijzingen in. U kunt desgewenst de tabeltoewijzingen wijzigen. Zie voor meer informatie [Standaardtoewijzing van entiteit voor synchronisatie](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Als u de standaardtoewijzingen hebt gewijzigd en uw wijzigingen wilt terugdraaien, gaat u naar de pagina **[!INCLUDE[d365fin](includes/cds_long_md.md)]-verbinding instellen** en kiest u **Standaardsynchronisatie-instellingen** gebruiken.
 

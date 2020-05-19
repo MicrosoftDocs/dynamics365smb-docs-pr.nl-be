@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194487"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324042"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
 In het beveiligingssysteem van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen tot welke objecten binnen elke database of omgeving een gebruiker toegang krijgt. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in de Help voor ontwikkelaars en IT-professionals voor [!INCLUDE[d365fin](includes/d365fin_md.md)] voor meer informatie.
@@ -106,6 +106,26 @@ U kunt ook een kopieerfunctie gebruiken om snel alle machtigingen uit een andere
 
 De nieuwe machtigingenset, die alle machtigingen van de gekopieerde machtigingenset bevat, wordt toegevoegd als nieuwe regel op de pagina **Machtigingensets**. Nu kunt u machtigingen in de nieuwe machtigingsset wijzigen. De regels worden alfabetisch gesorteerd binnen elk type.
 
+### <a name="to-export-and-import-a-permission-set"></a>Een machtigingenset exporteren en importeren
+Om snel machtigingen in te stellen, kunt u machtigingensets importeren die u vanuit een andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant hebt geëxporteerd.
+
+In omgevingen met meerdere tenants wordt een machtigingenset geïmporteerd in een specifieke tenant, dus het bereik van de import is 'Tenant'.
+
+1. Selecteer in tenant 1 op de pagina **Machtigingensets** de regel of regels van de machtigingensets die u wilt kopiëren en kies vervolgens de actie **Machtigingensets exporteren**.
+
+    Er wordt een XML-bestand gemaakt in de downloadmap op uw computer. Standaard heet het 'Export Permission Sets.xml'
+
+2. Selecteer in tenant 2 op de pagina **Machtigingensets** de actie **Machtigingensets importeren**.
+3. Bedenk op de dialoogpagina **Machtigingensets importeren** of u bestaande machtigingensets wilt samenvoegen met nieuwe machtigingensets in het xml-bestand.
+
+    Als u het selectievakje **Bestaande machtigingen bijwerken** inschakelt, worden bestaande machtigingensets met dezelfde naam als die in het xml-bestand samengevoegd met de geïmporteerde machtigingensets.
+
+    Als u het selectievakje **Bestaande machtigingen bijwerken** niet inschakelt, worden bestaande machtigingensets met dezelfde naam als die in het xml-bestand overgeslagen tijdens import. In dat geval wordt u op de hoogte gesteld van machtigingensets die worden overgeslagen.
+
+4. Zoek en selecteer op de dialoogpagina **Importeren** het XML-bestand dat u wilt importeren en kies vervolgens de actie **Openen**.
+
+De machtigingensets worden geïmporteerd.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Machtigingen handmatig maken of wijzigen
 In deze procedure wordt uitgelegd hoe u handmatig machtigingen toevoegt of bewerkt. U kunt ook automatisch machtigingen laten genereren vanuit uw acties in de UI. Zie [Machtigingen maken of wijzigen door uw acties op te nemen](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions) voor meer informatie.
 
@@ -187,6 +207,9 @@ De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep to
 2. Selecteer de desbetreffende gebruiker op de pagina **Gebruikers** en kies de actie **Machtigingsset per gebruikersgroep**.
 3. Selecteer op de pagina **Machtigingsset per gebruikersgroep** het selectievakje **[naam van gebruikersgroep]** op een regel voor de desbetreffende machtigingsset om de set aan de gebruikersgroep toe te wijzen.
 4. Schakel het selectievakje **Alle gebruikersgroepen** in om de machtigingsset aan alle gebruikersgroepen toe te wijzen.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Verouderde machtigingen uit alle machtigingensets verwijderen
+1. Kies op de pagina **Machtigingensets** de actie **Verouderde machtigingen verwijderen**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
 Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.

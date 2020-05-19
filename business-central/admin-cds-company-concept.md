@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196937"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324066"
 ---
 # <a name="data-ownership-models"></a>Modellen voor gegevenseigendom
 [!INCLUDE[d365fin](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Entiteiteigendom](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)] , moet u een van de twee eigendomsmodellen kiezen voor records die worden gesynchroniseerd:
@@ -34,6 +34,9 @@ Omdat bedrijfsunits juridische en zakelijke implicaties missen, kunt u geen éé
 * We creëren een standaardbedrijfseenheid met dezelfde naam als het bedrijf. Bijvoorbeeld Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * We creëren een apart eigenaarsteam met dezelfde naam als het bedrijf en associëren het met de bedrijfsunit. De naam van het team krijgt het prefix "BCI -". Bijvoorbeeld BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Records die zijn gemaakt en gesynchroniseerd met [!INCLUDE[d365fin](includes/cds_long_md.md)], worden toegewezen aan het team "BCI-eigenaar" dat is gekoppeld aan de bedrijfsunit.
+
+> [!NOTE]
+> Als u een bedrijf een andere naam geeft in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden de namen van het bedrijf, de bedrijfsunit en het team die we automatisch maken in [!INCLUDE[d365fin](includes/cds_long_md.md)], niet bijgewerkt. Omdat alleen de bedrijfs-id wordt gebruikt voor integratie, heeft dit geen invloed op synchronisatie. Als u wilt dat de namen overeenkomen, moet u het bedrijf, de bedrijfsunit en het team bijwerken [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 De volgende afbeelding toont een voorbeeld van deze gegevensconfiguratie in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Synchronisatie bepaalt welk team records moet bezitten. Dit wordt bepaald door h
 > [!NOTE]
 > Records worden alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen, dus zorg ervoor dat u het juiste bedrijf kiest.
 
-### <a name="choosing-a-different-business-unit"></a>Een andere bedrijfsunit kiezen
-U kunt de selectie van de bedrijfsunit wijzigen. Als u bijvoorbeeld een andere unit kiest, een die u eerder in CDS hebt gemaakt, behoudt deze de oorspronkelijke naam. Dat wil zeggen, de naam krijgt niet als achtervoegsel de bedrijfs-ID. We stellen een team samen dat de naamgevingsconventie gebruikt.
+## <a name="choosing-a-different-business-unit"></a>Een andere bedrijfsunit kiezen
+U kunt de selectie van de bedrijfsunit wijzigen als u het eigendomsmodel Teams gebruikt. Als u het eigendomsmodel Persoon gebruikt, wordt altijd de standaardbedrijfsunit geselecteerd. 
+
+Als u bijvoorbeeld een andere bedrijfsunit kiest, een die u eerder in [!INCLUDE[d365fin](includes/cds_long_md.md)] hebt gemaakt, behoudt deze de oorspronkelijke naam. Dat wil zeggen, de naam krijgt niet als achtervoegsel de bedrijfs-ID. We stellen een team samen dat de naamgevingsconventie gebruikt.
+
+Bij het wijzigen van een bedrijfsunit kunt u alleen de bedrijfsunits kiezen die één niveau lager liggen dan de hoofdbedrijfsunit.
 
 ## <a name="person-ownership"></a>Persoonseigendom
-Als u het eigendomsmodel Persoon kiest, moet u elke verkoper specificeren die eigenaar zal zijn van nieuwe records. De bedrijfsunit en het team worden gemaakt zoals beschreven in de vorige sectie.  
+Als u het eigendomsmodel Persoon kiest, moet u elke verkoper specificeren die eigenaar zal zijn van nieuwe records. De bedrijfsunit en het team worden gemaakt zoals beschreven in de sectie [Teameigendom](admin-cds-company-concept.md#team-ownership).
+
+De standaardbedrijfsunit wordt gebruikt wanneer het eigendomsmodel Persoon wordt gekozen en u kunt geen andere bedrijfsunit kiezen. Het team dat is gekoppeld aan de standaardbedrijfsunit is eigenaar van records voor gemeenschappelijke entiteiten, zoals de productentiteit, die niet zijn gerelateerd aan specifieke verkopers.
 
 ## <a name="see-also"></a>Zie ook
 [Informatie over [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

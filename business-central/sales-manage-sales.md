@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 184c3f1d20790efe984f890c1a88c03698d66ba6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194823"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324378"
 ---
 # <a name="sales"></a>Verkoop
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
@@ -45,6 +45,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Maak een verkoopfactuur om uw overeenstemming met een klant vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. |[Verkopen factureren](sales-how-invoice-sales.md) |
 | Verwerk een verkooporder die betrekking heeft op gedeeltelijke verzending of doorverzending. |[Producten verkopen](sales-how-sell-products.md) |
 |Begrijpen wat er gebeurt wanneer u verkoopdocumenten boekt.|[Verkopen boeken](ui-post-sales.md)|
+|Picken van artikelen voor verzending voorbereiden.|[De picklijst afdrukken](sales-how-print-picking-list.md)|
 |Standaardverkoop- of inkoopregels instellen die u snel kunt invoegen in documenten, bijvoorbeeld voor terugkerende aanvullingsorders.|[Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)|  
 | Koppel een verkooporder aan een inkooporder om een doorverzendartikel te verkopen dat direct vanaf de leverancier bij de klant wordt geleverd. |[Doorverzendingen uitvoeren](sales-how-drop-shipment.md) |
 |Laat een catalogusartikel verzenden van een leverancier naar uw magazijn, zodat u het artikel naar uw klant kunt verzenden.|[Speciale orders maken:](sales-how-to-create-special-orders.md)|

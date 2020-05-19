@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190095"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372604"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
@@ -24,16 +24,17 @@ Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raa
 
 ### <a name="recommended-browsers"></a>Aanbevolen browsers
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van de nieuwe Microsoft Edge.  
 **Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van Safari onder OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van Microsoft Edge.
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de huidige versie van Safari onder macOS.  
 
 ### <a name="other-supported-browsers"></a>Andere ondersteunde browsers
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows. U kunt ook de nieuwe Edge gebruiken en toch toegang krijgen tot websites die Internet Explorer vereisen. Zie voor meer informatie de [documentatie van Microsoft Edge](/deployedge/edge-ie-mode).
+**Microsoft Edge oud:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de oude versie van Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows. U kunt ook de nieuwe Edge gebruiken en toch toegang krijgen tot andere websites die Internet Explorer vereisen. Zie voor meer informatie de [documentatie van Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobiele apparaten
-**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] voor Windows kan op apparaten worden geïnstalleerd met ten minste 1 GB RAM en Windows 10 Home, Pro, Enterprise of Education (32-bits en 64-bits versies).  
+**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] voor Windows kan worden geïnstalleerd op apparaten met ten minste 1 GB RAM en Windows 10 Home, Pro, Enterprise of Education (32-bits en 64-bits versies).  
 **iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] voor iPad en iPhone vereist iOS 10.0 of later.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] voor Android-tablet en Android-telefoon kan worden geïnstalleerd op apparaten met ten minste 1 GB RAM en Android 6.0 of hoger.  
 **Apparaatgrootte:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt ondersteund op smartphones met een minimale schermgrootte van 4 inch en tablets met een minimale schermgrootte van 7 inch.  
@@ -45,6 +46,13 @@ Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raa
 
 ## <a name="excel"></a>Excel
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[d365fin](includes/d365fin_md.md)] terug te sturen, hebt u Excel 2016 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Het beheercentrum van Business Central gebruiken
+Het beheercentrum is ontworpen om te werken met de huidige versie van de volgende browsers:
+- De nieuwe Microsoft Edge
+- Chrome voor Windows
+- Firefox voor Windows
+- Safari voor macOS
 
 ## <a name="using-business-central-on-premises"></a>Business Central on-premises gebruiken
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181760"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262226"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -33,18 +33,19 @@ Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficië
 > [!NOTE]
 > De sneltoetsen die hier worden beschreven, verwijzen naar de Amerikaanse toetsenbordindeling. De indeling van de toetsen op andere toetsenborden komt mogelijk niet exact overeen met de indeling op een Amerikaans toetsenbord.
 
-De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Sommige sneltoetsen verschillen echter voor macOS. Deze worden aangegeven met haakjes in de volgende secties.
+De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Sommige sneltoetsen verschillen echter voor macOS. Deze snelkoppelingen worden aangegeven met haakjes in de volgende secties.
 
 > [!NOTE]
 > Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Algemene sneltoetsen
-De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van verschillende elementen van een pagina, zoals acties, vervolgkeuzelijsten, opzoekacties, enzovoort. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
+De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschillende elementen van een pagina. Elementen omvatten zaken als acties, vervolgkeuzelijsten, zoekopdrachten en meer. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |----------------|-----------|
 |Alt+Pijl-omlaag|Een vervolgkeuzelijst openen of een waarde voor een veld opzoeken.|    
 |Alt+Pijl omhoog|Knopinfo weergeven voor een veld of een kolomkop van een tabel. Als het veld validatiefouten heeft, drukt u op Alt+Pijl omhoog om de validatiefout te bekijken. Druk op Esc of Alt+Pijl omhoog om de knopinfo te sluiten.|
+|F2|Schakelen tussen het selecteren van de volledige veldwaarde of het plaatsen van de cursor aan het einde van de veldwaarde.|
 |Alt+F2|Het deelvenster Feitenblok weergeven of verbergen.|
 |Alt+Shift+F2|Schakelen tussen **Details** en **Bijlagen** in het deelvenster Feitenblok.|
 |Alt+O|Een nieuwe notitie toevoegen voor de geselecteerde record, zelfs als het deelvenster Feitenblok niet is geopend.|
@@ -61,12 +62,12 @@ De volgende tabel beschrijft sneltoetsen voor het navigeren en het openen van ve
 |Ctrl+F12|Schakelen tussen brede en smalle indelingweergave.|
 |Ctrl+klikken|Navigeren tijdens het personaliseren of aanpassen wanneer de actie is gemarkeerd met een pijlpunt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.|  
 |Ctrl+F5|De [!INCLUDE[prodshort](includes/prodshort.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
-|F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik dit om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
+|F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik deze toets om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
 |Voer in|Het (besturings)element met focus inschakelen of openen.|
 |Esc|De huidige pagina of vervolgkeuzelijst sluiten.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
-|J en N|Activeer de knoppen **Ja** en **Nee** in dialoogvensters. Dit is taalafhankelijk. Druk bijvoorbeeld op J in Duitsland om een **Ja**-knop te activeren.|
+|J en N|De knoppen **Ja** en **Nee** activeren in dialoogvensters. De werkelijke toetsen zijn afhankelijk van uw huidige taal die is opgegeven in **Mijn instellingen**. Druk bijvoorbeeld op J om de knop **Ja** te activeren bij gebruik van de Nederlandse taal.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
@@ -127,8 +128,8 @@ Veel paginatypen in [!INCLUDE[prodshort](includes/prodshort.md)] bevatten raster
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |-----------------|-------|
 |F3|Schakelt het zoekvak in of uit.<ul><li>Het zoekvak activeren, zodat u kunt beginnen met typen van uw zoektekst.</li><li>Als het zoekvak al is geactiveerd, keert F3 terug naar de lijst zonder de zoektekst te wissen.</li><ul>|
-|Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filterdeelvenster nog niet is geopend, wordt het met Shift+F3 geopend en wordt gefocust op de actie **+ Filter** onder **Filter lijst op**, zodat u alleen op Enter hoeft te drukken om te beginnen met het toevoegen van een veldfilter.</li><li>Als het filterdeelvenster nog openstaat, sluit Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>|
-|Ctrl+Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filterdeelvenster niet is geopend, wordt het met Ctrl+Shift+F3 geopend en wordt gefocust op de actie **+ Filter** onder **Filter totaal op**, zodat u alleen op Enter hoeft te drukken om te beginnen met het toevoegen van een totalenfilter.</li><li>Als het filterdeelvenster al openstaat, sluit Ctrl+Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>  |
+|Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filtervenster niet open is, opent Shift+F3 het en richt het zich op de **+ Filteren**-actie onder **Filter lijst op**. U kunt dan gewoon op Enter drukken om een veldfilter toe te voegen.</li><li>Als het filterdeelvenster nog openstaat, sluit Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>|
+|Ctrl+Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filtervenster niet open is, opent Ctrl+Shift+F3 het en richt het zich op de **+ Filteren**-actie onder **Filter totaal op**. U kunt dan gewoon op Enter drukken om een totalenfilter toe te voegen.</li><li>Als het filterdeelvenster nog openstaat, sluit Ctrl+Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>  |
 |Alt+F3|Filtering op de geselecteerde waarde omschakelen.<ul><li>Past een kolomfilter op de geselecteerde veldwaarde in de lijst toe. Dit doet hetzelfde als **Filteren op deze waarde** kiezen vanuit een kolomkop. Opent het filterdeelvenster, stelt het filter in op de geselecteerde waarde en de focus blijft op de cel in de lijst.</li><li>Als de kolom al is gefilterd, wist Alt+F3 het filter op die kolom.</li></ul> |
 |Shift+Alt+F3|Het filterdeelvenster openen en een filter toevoegen op de geselecteerde kolom in de lijst. De focus is op het nieuwe filterveld waardoor u meteen kunt beginnen met typen van het filtercriterium.<br /><br /> Dit doet hetzelfde als **Filter** selecteren vanuit de kolomkop.<br /><br />Als er al een filter op het veld is, wordt een nieuw filter toegevoegd. |
 |Ctrl+Shift+Alt+F3|Filters opnieuw instellen. Dit doet hetzelfde als **Filters opnieuw instellen** kiezen in het filterdeelvenster en geldt voor veld- en totalenfilters.<br /><br /> Filters krijgen weer de standaardfilters voor de huidige weergave. Als de huidige weergave **Alle** is, is dit het equivalent van terugkeren naar een ongefilterde weergave met alle records. |
@@ -169,7 +170,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |-----------------|-------|
-|Ctrl+Home|De agenda openen als deze is gesloten. **Opmerking**: dit werkt niet als het datumveld in een raster staat, waar Ctrl + Home naar de eerste rij springt.|
+|Ctrl+Home|De agenda openen als deze is gesloten. **Opmerking**: dit werkt niet als het datumveld in een raster staat, waar Ctrl+Home naar de eerste rij springt.|
 |Ctrl+Home<br />(Cmd+Home)|Naar de huidige maand, huidige dag gaan.|
 |Ctrl + pijl-links<br />(Cmd+Pijl links)|Naar de vorige dag gaan.|
 |Ctrl + pijl-rechts<br />(Cmd+Pijl rechts)|Naar de volgende dag gaan.|
@@ -196,8 +197,8 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Ctrl+0 (nul)<br />(Cmd+0)|De hele pagina op de pagina laten passen. |
 |Ctrl+Home<br />(Cmd+Home)|Naar de eerste pagina's van het rapport gaan.|
 |Ctrl+End<br />(Cmd+Home)|Naar de laatste pagina's van het rapport gaan.|
-|Pijl links|Schuif naar de linkerzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
-|Pijl rechts|Schuif naar de rechterzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
+|Pijl links|Schuiven naar de linkerzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
+|Pijl rechts|Schuiven naar de rechterzijde als op de pagina is ingezoomd zodat deze niet volledig in beeld is. |
 |Page Down<br />(Fn+pijl omlaag)|Naar de volgende pagina's van het rapport gaan.|
 |Page up<br />(Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
 

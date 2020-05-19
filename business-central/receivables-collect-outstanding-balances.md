@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190695"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262130"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 Tijdens het beheer van tegoeden moet u ook controleren of openstaande bedragen op tijd worden betaald. Als klanten betalingen hebben openstaan, kunt u beginnen met het rekeningoverzicht van de klant als een herinnering te sturen. U kunt ook aanmaningen sturen.
@@ -123,11 +123,12 @@ Op de pagina **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invulle
 4. Kies de actie **Aanmaningsregels voorstellen**.
 5. Vul in de batchverwerking **Aanmaningsregels voorstellen** de velden in om te definiëren hoe en naar wie de aanmaningen worden gemaakt.
 6. Schakel het selectievakje **Wachtende posten opnemen** in als ook u wachtende, openstaande posten wilt opnemen in de aanmaningen.
+7. Schakel het selectievakje **Alleen vervallen posten** in als u alleen vervallen, open posten wilt opnemen in de aanmaningen. Alleen facturen en betalingen worden weergegeven, aangezien dit de posten zijn waarvoor betalingen van uw klanten mogelijk te laat zijn.
 
     > [!Important]
-    > De openstaande die wachtend zijn, worden ingevoegd, ongeacht de instelling van het selectievakje Alleen vervallen posten.
+    > Open posten die in de wacht staan, worden ingevoegd, ongeacht de instelling van het selectievakje **Alleen vervallen posten**.
 
-7. Kies de knop **OK**.
+8. Kies de knop **OK**.
 
 ## <a name="to-replace-reminder-texts"></a>Aanmaningsteksten vervangen  
 U kunt op verschillende manieren bepalen hoe u tekst wilt weergegeven op de afgedrukte aanmaning. In sommige gevallen kunt u de begin- en eindtekst die u hebt gedefinieerd voor het huidige niveau vervangen door de tekst van een ander niveau.

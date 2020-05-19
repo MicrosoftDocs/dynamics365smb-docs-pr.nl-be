@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e485f2051cb045db6f106377521973a45546ad7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193671"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324330"
 ---
 # <a name="invoice-sales"></a>Verkopen factureren
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
@@ -109,6 +109,7 @@ U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken doo
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
+[De picklijst afdrukken](sales-how-print-picking-list.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Massaal factureren vanuit Microsoft Bookings in Business Central ](finance-bookings.md)  

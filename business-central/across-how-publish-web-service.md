@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.author: edupont
-ms.openlocfilehash: 04af1a52bb0a2e14a2775efe6e3a6ccf77441d29
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188504"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324090"
 ---
 # <a name="publish-a-web-service"></a>Een webservice publiceren
 
@@ -40,8 +40,8 @@ In de volgende stappen wordt uitgelegd hoe u een webservice maakt en publiceert.
 
 Wanneer u de webservice publiceert, ziet u in de velden **OData-URL** en **SOAP-URL** de URL's die voor de webservice zijn gegenereerd. U kunt de webservice direct controleren door de koppelingen in de velden **OData-URL** en **SOAP-URL** te kiezen. U kunt eventueel de waarde van het veld kopiëren en opslaan voor later gebruik.  
 
-> [!IMPORTANT]
-> Voor codeunits die als SOAP-webservice worden gepubliceerd, moeten de beschikbare methoden in de codeunit worden gemarkeerd als `[External]` in de code.
+> [!NOTE]
+> Als de objecten die u beschikbaar maakt als webservices, niet toegankelijk mogen zijn vanuit [!INCLUDE [prodshort](includes/prodshort.md)] online, moet u de methoden die in de code beschikbaar worden gemaakt, markeren als `[Scope('OnPrem')]`. Zie voor meer informatie [Bereikkenmerk](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. U kunt de beschikbaarheid van de webservice verifiëren door een browser te gebruiken, of u kunt de koppeling in de velden **OData-URL** en **SOAP-URL** kiezen op de pagina **Webservices**. In de volgende procedure wordt beschreven hoe u de beschikbaarheid van de webservice kunt controleren voor later gebruik.  
 
@@ -52,8 +52,8 @@ Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. 
     > [!div class="mx-tdBreakAll"]
     > |Soort|Syntaxis|Voorbeeld|
     > |----------------|------|-------|
-    > |SOAP|https://api.businesscentral.dynamics.com/*versie*/*tenant*/Production/WS/*CompanyName*/*entiteit*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
-    > |OData V4|https://api.businesscentral.dynamics.com/*versie*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entiteit*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    De bedrijfsnaam is hoofdlettergevoelig.|
+    > |SOAP|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/` |`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*`|`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    De bedrijfsnaam is hoofdlettergevoelig.|
 
 2. Controleer de informatie die verschijnt in de browser. Controleer of u de naam ziet van de webservice die u hebt gemaakt.  
 

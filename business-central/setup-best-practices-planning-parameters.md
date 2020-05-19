@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50e548a2e2272e0771a754f0ea2aee318433f761
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192253"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271930"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Aanbevolen procedures instellen: Planningparameters
 Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsketen van een bedrijf. De juiste planningsparameters instellen is zeer belangrijk voor efficiënt voorraadbeheer en sterke klantenservice.  
@@ -26,7 +26,7 @@ Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsk
 |-----------------|-------------------|-------------|  
 |Bestelbeleid||Zie voor meer informatie [Aanbevolen procedures instellen: Bestelbeleid](setup-best-practices-reordering-policies.md).|  
 |Reserveren|Selecteer **nooit** wanneer het artikel is gepland met behulp van een bestelpunt.<br /><br /> Selecteer in de productie **nooit** om het planningssysteem alle aanvragen te laten dekken.<br /><br /> Selecteer **optioneel** voor artikelen die u wilt reserveren voor de belangrijkste klanten.<br /><br /> Selecteer **altijd** voor niet-unieke artikelen, zoals artikelen van het type divers die op specifieke aanvraag binnenkomen.|Reserveringen neutraliseren algemeen het doel van de planning, die bestemd is om vraag en aanbod op elkaar af te stemmen. Daarom mogen items die zijn ingesteld voor planning over het algemeen niet worden gereserveerd.<br /><br /> Als de gebruiker een voorraadaantal voor toekomstige vraag reserveert, wordt de planning verstoord en is bestelpunt mogelijk niet correct. Zelfs als de geplande voorraad met betrekking tot het bestelpunt aanvaardbaar is, zijn de hoeveelheden mogelijk niet beschikbaar vanwege de reservering.|  
-|Dempingsperiode|Instellen met het oog op de flexibiliteit van de leverancier.<br /><br /> Met een langere periode kunt u betere klantenservice bieden, maar het leidt ook tot meer herplanningsacties.|Als de leverancier last-minute wijzigingen in orders accepteert, gebruikt u een langere periode, maar wees voorbereid op meer herplanningsacties. Als de leverancier een vaste planning vereist, moet u de periode zo veel mogelijk inkorten.<br /><br /> Zie voor informatie over het veld **Dempingsperiode** [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md).|  
+|Dempingsperiode|Instellen met het oog op de flexibiliteit van de leverancier.<br /><br /> Een kortere periode stelt u in staat het werkkapitaal te verminderen door overmatige voorraad te vermijden, maar zal ook leiden tot meer herplanningsacties.|Als de leverancier last-minute wijzigingen in orders accepteert, gebruikt u een kortere periode, maar wees voorbereid op meer herplanningsacties. Als de leverancier een vaste planning vereist, moet u de periode zo veel mogelijk langer maken.<br /><br /> Zie voor informatie over het veld **Dempingsperiode** [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md).|  
 |Inclusief voorraad|Altijd selecteren wanneer u het Lot-per-Lot bestelbeleid gebruikt.|Niet alleen selecteren in speciale situaties, zoals wanneer voorraadartikelen niet verkoopbaar zijn.|  
 |Veiligheidstijd|Ingesteld tussen 1D en 6D<br /><br /> Stel een veiligheidstijd in van ten minste één dag om ervoor te zorgen dat de goederen beschikbaar zijn op de dag voordat ze nodig zijn.<br /><br /> Als u een nieuwe leverancier gebruikt, stel dan een langere tijd in totdat hun leveringsprestaties bekend zijn.<br /><br /> Definieer langere levertijden voor kritieke onderdelen in de productie.|Leveringen die door het systeem gepland zijn om voorraaduitputting te voorkomen, worden geleverd op de dag dat de uitputting zich voordoet. Dit kan verscheidene uren te laat zijn indien, bijvoorbeeld de vraag 's ochtends nodig is en de levering in de namiddag gebeurt. **Opmerking:** het veld **Veiligheidstijd** gebruikt de basisagenda. 14D is dus niet noodzakelijkerwijs twee weken.|  
 |Veiligheidsvoorraad|Gebruiken voor artikelen met grote schommelingen in de vraag.<br /><br /> Gebruiken in de productie voor kritieke onderdelen.<br /><br /> Gebruiken voor artikelen die onder serviceovereenkomsten vallen.|Als het veld **Bestelpunt** niet is ingevuld, werkt de veiligheidsvoorraad ook als bestelpunt.|  

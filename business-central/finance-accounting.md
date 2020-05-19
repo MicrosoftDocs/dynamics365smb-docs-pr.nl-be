@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184040"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372628"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
@@ -40,7 +40,7 @@ We hebben het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. 
 > [!IMPORTANT]  
 > Het e-mailadres van de accountant moet een werkadres op basis van Azure Active Directory zijn. Als de accountant een ander type e-mail gebruikt, kan de uitnodiging niet worden verzonden. 
 > 
-> Omdat deze taak toegang vereist voor het beheren van gebruikers en licenties in Azure Active Directory, moet de gebruiker die deze uitnodiging verzendt, de rol **Globale beheerder** of **Gebruikersbeheer** hebben in het Office 365-beheercentrum. Zie voor meer informatie [Over beheerdersrollen](/office365/admin/add-users/about-admin-roles) in de Office 365-beheerdersinhoud.  
+> Deze taak vereist toegang voor het beheren van gebruikers en licenties in Azure Active Directory en dus moet de gebruiker die deze uitnodiging verzendt, de rol **Globale beheerder** of **Gebruikersbeheer** hebben in het Microsoft 365-beheercentrum. Zie voor meer informatie [Over beheerdersrollen](/microsoft-365/admin/add-users/about-admin-roles) in de Microsoft 365-beheerdersinhoud.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Uw accountant toevoegen aan uw Office 365 via Azure Portal
 

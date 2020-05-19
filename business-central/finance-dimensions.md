@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183800"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262178"
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
 Als u analyse in documenten zoals verkooporders eenvoudiger wilt maken, kunt u dimensies gebruiken. Dimensies zijn kenmerken en waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
@@ -106,7 +106,8 @@ U kunt bepaalde combinaties van twee dimensies blokkeren of beperken om te voork
 Globale dimensies en shortcutdimensies kunnen als filter worden gebruikt overal in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusief in rapporten, batchverwerkingen en analyseweergaven. Globale dimensies en shortcutdimensies zijn altijd beschikbaar om direct te worden ingevoegd zonder eerst de pagina **Dimensies** te openen. Op dagboek- en documentregels kunt u globale dimensies en shortcutdimensies selecteren in een veld op de regel. U kunt twee globale dimensies en acht shortcutdimensies instellen. Kies de dimensies die u het vaakst gebruikt.
 
 > [!Important]  
-> Het wijzigen van een globale of shortcutdimensie vereist dat alle met de dimensie geboekte posten worden bijgewerkt. U kunt deze taak uitvoeren met de functie **Globale dimensies wijzigen**, maar het kan enige tijd duren en kan vertragend werken. Kies daarom uw globale dimensies en shortcutdimensies zorgvuldig, zodat u deze niet later moet wijzigen.
+> Het wijzigen van een globale of shortcutdimensie vereist dat alle met de dimensie geboekte posten worden bijgewerkt. U kunt deze taak uitvoeren met de functie **Globale dimensies wijzigen**, maar het kan enige tijd duren, kan vertragend werken en tabellen kunnen tijdens de update worden vergrendeld. Kies daarom uw globale dimensies en shortcutdimensies zorgvuldig, zodat u deze niet later moet wijzigen. <br /><br />
+> Zie voor meer informatie [Globale dimensies wijzigen](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Wanneer u een globale of shortcutdimensie toevoegt of wijzigt, wordt u automatisch afgemeld en weer aangemeld, zodat de nieuwe waarde voorbereid is voor gebruik in de hele toepassing.
@@ -115,8 +116,24 @@ Globale dimensies en shortcutdimensies kunnen als filter worden gebruikt overal 
 2. Vul de velden van het sneltabblad **Dimensies** in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Globale dimensies wijzigen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Globale dimensies wijzigen** in en kies de desbetreffende koppeling.
-2. Plaats de aanwijzer boven acties en velden op de pagina om te leren hoe u globale dimensies en shortcutdimensies wijzigt.
+Wanneer u een globale of shortcutdimensie wijzigt, worden alle met de betreffende dimensie geboekte posten bijgewerkt. Omdat dit proces tijdrovend kan zijn en de prestaties kan beïnvloeden, zijn er twee verschillende modi beschikbaar om het proces aan te passen aan de grootte van de database.  
+
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.
+2. Kies de actie **Globale dimensies wijzigen**.
+3. Selecteer bovenaan de pagina een van de volgende opties om te definiëren in welke modus de batchtaak wordt uitgevoerd.
+
+    |Optie|Omschrijving|
+    |-|-|
+    |**Sequentieel**|(Standaard) De hele dimensiewijziging wordt in één transactie uitgevoerd, waarbij alle boekingen worden teruggebracht naar de dimensies die ze hadden vóór de wijziging.<br /><br />Deze optie wordt aanbevolen als het bedrijf relatief weinig geboekte vermeldingen bevat en de voltooiing ervan zo kort mogelijk duurt. Het proces vergrendelt meerdere tabellen en blokkeert andere gebruikers totdat het klaar is. Merk op dat in grote databases het proces mogelijk helemaal niet kan worden voltooid in deze modus. Gebruik in dat geval de optie **Parallel**.|
+    |**Parallel**|(Selecteer het selectievakje **Parallelle verwerking**.) De dimensieverandering wordt gedaan als meerdere achtergrondsessies en de bewerking wordt opgesplitst in meerdere transacties.<br /><br />Deze optie wordt aanbevolen voor grote databases of bedrijven met veel geboekte vermeldingen, waar de voltooiing ervan zo kort mogelijk duurt. Merk op dat in deze modus het updateproces niet start als er meer dan één actieve databasesessie is.|  
+
+4. Voer in de velden **Code globale dimensie 1** en/of **Code globale dimensie 2** de nieuwe dimensiecode(s) in. De huidige afmetingen worden grijs weergegeven achter de velden.
+5. Als u de modus **Sequentieel** hebt geselecteerd, kiest u de actie **Starten**.
+6. Als u de modus **Parallel** hebt geselecteerd, kiest u de actie **Voorbereiden**.
+
+    Het tabblad **Logposten** wordt gevuld met informatie over de afmetingen die zullen worden gewijzigd.
+7. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan.
+8. Kies de actie **Starten** om de parallelle verwerking van de dimensieveranderingen te starten.
 
 ### <a name="example-of-dimension-setup"></a>Voorbeeld van dimensie-instelling
 Stel dat uw bedrijf transacties wil traceren op basis van organisatorische structuur en geografische locaties. Hiervoor kunt u twee dimensies instellen op de pagina **Dimensies**:

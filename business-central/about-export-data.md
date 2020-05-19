@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188984"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333896"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
 Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[d365fin](includes/d365fin_md.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.
@@ -64,7 +64,14 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 * Verkopers  
 
 > [!NOTE]  
->   Als u meer dan één bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt ingesteld, moet u de relevante gegevens van elk bedrijf exporteren.
+> Als u meer dan één bedrijf in [!INCLUDE[prodshort](includes/prodshort.md)] hebt ingesteld, moet u de relevante gegevens van elk bedrijf exporteren.
+
+> [!NOTE]
+> U moet ten minste een van de volgende machtigingen hebben om gegevens in Excel te openen of te bewerken:
+>    - Machtiging ingesteld *D365 Excel-exportactie*  
+>    - Systeemmachtiging 6110 *Actie Exporteren naar Excel toestaan*.  
+
+Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

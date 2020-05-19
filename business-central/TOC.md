@@ -70,6 +70,7 @@
 ### [Toegankelijkheid en sneltoetsen](ui-accessibility.md)
 ### [Toetsenbordsneltoetsen](keyboard-shortcuts.md)
 ### [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)
+## [Problemen oplossen: toegang tot camera en locatie](ui-troubleshooting-camera-location.md)
 
 # Business Central instellen
 ## [Overzicht](setup.md)
@@ -82,6 +83,7 @@
 ### [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)
 ### [Btw instellen](finance-setup-vat.md)
 ### [Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)
+### [Broncodes en redencodes instellen voor audittrails](finance-setup-trail-codes.md)
 ### [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)
 ### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Gegevensversleuteling beheren](admin-manage-data-encryption.md)
 ## [Uw proefversie uitbreiden](admin-extend-trial.md)
 ## [Pagina's inspecteren](across-inspect-page.md)
+## [Databasevergrendelingen weergeven](admin-view-database-locks.md)
+## [Tabelgegevens weergeven](admin-view-table-information.md)
 ## [Een sandboxomgeving maken](across-how-create-sandbox-environment.md)
+## [Nieuwe functies van tevoren inschakelen](admin-feature-management.md)
 ## Business Central aanpassen
 ### [Overzicht](ui-customizing-overview.md)
 ### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Verkoopoffertes maken](sales-how-make-offers.md)
 ## [Verkopen factureren](sales-how-invoice-sales.md)
 ## [Producten verkopen](sales-how-sell-products.md)
+## [De picklijst afdrukken](sales-how-print-picking-list.md)
 ## [Verkopen boeken](ui-post-sales.md)
 ## [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)
 ## [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)
 ## [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)
 ## [Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)
-## [Planningsuggesties in een grafische weergave wijzigen](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Assemblagebeheer
 ## [Overzicht](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australië
 ### [Overzicht](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Btw
-#### [Btw](LocalFunctionality/Australia/tax.md)
+#### [Overzicht](LocalFunctionality/Australia/tax.md)
 #### [Bronbelasting](LocalFunctionality/Australia/withholding-tax.md)
 #### [Bronbelasting instellen](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Opbrengsttypen voor bronbelasting instellen](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Periodieke btw-rapporten afdrukken](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Belgische tariefcodes instellen](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgische Intrastat-rapportage](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Intrastat-nummers instellen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Intrastat-nummers instellen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Het rapport Intrastat - Formulier afdrukken](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Aangiftesoorten instellen](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Intrastat-aangiftes van derden exporteren](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [OCR-betalingen instellen](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [OCR-betalingen importeren en boeken](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Het OCR-dagboektestrapport afdrukken.](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Hoofdfinanciën    
+### Hoofdfinanciën
 #### [Grootboekposten vereffenen in afgesloten perioden](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Alge&meen
 #### [Periodieke orders](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Voorraad
 #### [Zwitsers voorraadbeheer](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Een voorraadpicklijst vanuit een verkooporder afdrukken](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Alge&meen    
+### Alge&meen
 #### [Zwitserse postcodes importeren](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Zwitserse inkoopdocumenten en verkooporders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

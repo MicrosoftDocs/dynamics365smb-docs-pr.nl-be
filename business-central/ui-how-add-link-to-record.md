@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193905"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324426"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
@@ -40,10 +40,16 @@ De volgende procedure is gebaseerd op een inkoopfactuur. De stappen lijken op al
 2. Open de verkooporder waaraan u een bestand wilt koppelen.
 3. Open het feitenblok **Bijlagen**.
 4. Kies de waarde achter het veld **Documenten**, zoals '0'.
-5. Kies op de pagina **Gekoppelde documenten**, in het veld **Bijlage** de knop **Bestand selecteren**.
+5. Kies op de pagina **Gekoppelde documenten** in het veld **Bijlage** de actie **Bestand selecteren**.
 5. Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.
 
 Het bestand wordt nu gekoppeld aan de inkoopfactuur.
+
+## <a name="to-view-an-attached-file"></a>Een gekoppeld bestand weergeven
+1. Open het feitenblok **Bijlagen**.
+2. Kies de waarde achter het veld **Documenten**, zoals '1'.
+3. Kies op de pagina **Gekoppelde documenten** de actie **Voorbeeld**.
+4. Open het gedownloade bestand.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Een document als PDF-bijlage opslaan
 Wanneer u een document als bestand moet opslaan, kunt u de actie **Bijvoegen als PDF** gebruiken om de huidige documentinhoud vast te leggen als een PDF-bestand als bijlage bij het feitenblok van het document. Dit is bijvoorbeeld handig wanneer documenten meerdere stappen in een proces volgen, zoals een verkoopproces of een goedkeuringswerkstroom, en u wilt verwijzen naar een afdruk van de vorige stap.
@@ -53,7 +59,7 @@ De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelij
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Selecteer een verkooporder en kies de actie **Bijvoegen als PDF**.
 
-Een PDF-bestand met de huidige inhoud van de verkooporder wordt toegevoegd aan het tabblad **Bijlagen** in het feitenblok. 
+Een PDF-bestand met de huidige inhoud van de verkooporder wordt toegevoegd aan het tabblad **Bijlagen** in het feitenblok.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Een koppeling toevoegen vanuit een artikelkaart
 U kunt een koppeling vanuit een kaart of document toevoegen aan een URL of pad. Dit is bijvoorbeeld handig als u een artikelkaart wilt koppelen aan de artikelcatalogus van de leverancier.

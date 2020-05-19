@@ -2,15 +2,15 @@
 title: Trainingscatalogus voor zakelijke gebruikers
 description: Vind alle beschikbare leermogelijkheden voor Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190863"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271954"
 ---
 # <a name="business-users-learning-catalog"></a>Trainingscatalogus voor zakelijke gebruikers
 
@@ -33,7 +33,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Kostprijsboekhouding gebruiken in Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Moet u een kostprijsboekhouding gebruiken in uw bedrijf? Dit leertraject kan u helpen aan de slag te gaan met kostprijsboekhouding in Business Central. Hierin wordt het instellen van kostprijsboekhouding uitgelegd, hoe u hoofdgegevens maakt voor de kostprijsboekhouding, hoe u transacties overbrengt en kosten aan een groep rekeningen toewijst.   | Gratis online leertraject voor zelfstudie | 3 uur, 16 minuten |
 | [Journalen gebruiken in Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Wilt u journaalposten maken en boeken in Business Central? Dan is dit leertraject precies wat u zoekt. Algemene journaalsjablonen instellen, journaaltransacties met terugkerende transacties maken en transacties boeken zijn onderwerpen die allemaal aan de orde komen in de modules van dit leertraject.                  | Gratis online leertraject voor zelfstudie | 2 uur, 1 minuut   |
 | [Bankrekeningen afstemmen in Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Wilt u weten hoe u bankrekeningen in Business Central kunt afstemmen? De functie bankafstemming en afstemmingsjournalen komen in dit leertraject aan de orde.                                                                                                                           | Gratis online leertraject voor zelfstudie | 1 uur, 3 minuten   |
-| [Meerdere valuta's gebruiken in Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Wilt u met meerdere valuta's werken? Dan helpt dit leertraject u begrijpen welke stappen moeten worden genomen om meerdere valuta's in te stellen en te gebruiken, betalingen en facturen in verschillende valuta's te verwerken en waar nodig wisselkoerscorrecties in te voeren.                                             | Gratis online leertraject voor zelfstudie | 3 uur, 4 minuten  |
+| [Meerdere valuta's gebruiken in Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Wilt u met meerdere valuta's werken? Dan helpt dit leertraject u begrijpen welke stappen moeten worden genomen om meerdere valuta's in te stellen en te gebruiken, betalingen en facturen in verschillende valuta's te verwerken en waar nodig wisselkoerscorrecties in te voeren.                                             | Gratis online leertraject voor zelfstudie | 3 uur, 4 minuten  |
 | [Financiële rapporten maken in Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Bent u verantwoordelijk voor het genereren van financiële rapporten vanuit Business Central? Dit leertraject bespreekt het maken van budgetten en het gebruik van rekeningschema's, dimensies en eXtensible business reporting language (XBRL) om de financiële rapportages te genereren die normaal gesproken nodig zijn voor de meeste bedrijven. | Gratis online leertraject voor zelfstudie | 3 uur, 44 minuten |
 | [Financiële periodieke activiteiten verwerken in Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Bent u verantwoordelijk voor de processen voor het afsluiten van periodes en de jaarafsluiting? Volg dan deze module, waarin wordt besproken hoe u herinneringen en financieringskostennota's aan klanten stuurt. Verder worden Intrastat-verwerking en -rapportage besproken, evenals de afsluiting van een fiscaal jaar.                                                     | Gratis online leertraject voor zelfstudie | 3 uur, 3 minuten  |
 ## <a name="trade"></a>Specialisme<a name="trade"></a>

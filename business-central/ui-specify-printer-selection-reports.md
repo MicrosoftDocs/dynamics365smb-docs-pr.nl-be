@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189495"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272098"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 Omdat [!INCLUDE[prodshort](includes/prodshort.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
@@ -27,6 +27,9 @@ Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde 
 Op de pagina **Printerbeheer** ziet u de printers die zijn ingesteld. Wanneer u een of meer printers hebt ingesteld, kunt u de pagina **Printerselecties** openen om voor uw gebruikersaccount in te stellen welke specifieke rapporten met welke printer moeten worden afgedrukt.
 
 Wanneer een printer is ingesteld en toegewezen aan specifieke rapporten, drukt u een rapport af door de knop **Afdrukken** te kiezen op de rapportaanvraagpagina. Zie voor meer informatie [Een rapport afdrukken](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Formaat van afdruktaken
+Cloudafdrukken zijn ontworpen voor documenten van een redelijk formaat. De meeste cloudservices, inclusief PrintNode en HP ePrint, hebben een limiet van 10 MB per taak. Als u grotere rapporten wilt afdrukken, moet u deze mogelijk in meerdere afdrukken splitsen.
 
 ## <a name="to-set-up-a-printer"></a>Een printer instellen
 Op de pagina **Printerbeheer** ziet u de printers die zijn ingesteld en hebt u toegang tot de pagina **Instellingen** voor elke printer om een bestaande instelling te bewerken of een nieuwe printer in te stellen.

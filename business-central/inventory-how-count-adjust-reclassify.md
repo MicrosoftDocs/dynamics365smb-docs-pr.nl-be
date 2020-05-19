@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182240"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272074"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Voorraad tellen, corrigeren en herindelen met dagboeken
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
@@ -94,6 +94,9 @@ Wanneer u de magazijninventarisatie registreert, boekt u niet naar de artikelpos
 4. Klik op **Afdrukken**.
 
 Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijkingen in het afgedrukte rapport vastleggen.
+
+> [!NOTE]
+> Het kan enkele dagen duren voordat afgedrukte rapporten terugkomen voor definitieve verwerking en boeking. Wanneer u de werkelijk getelde voorraad opgeeft en boekt, past het systeem de voorraad aan om het verschil weer te geven tussen de verwachte en de werkelijk getelde voorraad. U moet de oorspronkelijk berekende journaalregels behouden en de verwachte voorraad niet herberekenen, omdat de verwachte voorraad kan veranderen en tot verkeerde voorraadniveaus kan leiden. Als u meerdere rapporten moet uitgeven, bijvoorbeeld voor verschillende locaties of een groep items, moet u afzonderlijke dagboekbatches maken en bewaren.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>De werkelijk getelde voorraad in standaardmagazijnconfiguraties invoeren en boeken
 1. Voer op elke regel op de pagina **Inventarisatiedagboek** waar de werkelijk beschikbare voorraad, zoals bepaald door de telling, afwijkt van de berekende hoeveelheid, de werkelijk beschikbare voorraad handmatig in het veld **Aantal (Inventarisatie)** in.
