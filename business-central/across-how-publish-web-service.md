@@ -4,18 +4,15 @@ description: Publiceer objecten als webservices om ze meteen beschikbaar te make
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324090"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402465"
 ---
 # <a name="publish-a-web-service"></a>Een webservice publiceren
 
@@ -23,7 +20,8 @@ Webservices zijn een lichtgewicht manier om toepassingsfunctionaliteit aan aller
 
 U stelt een webservice in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-cliënt in. U moet vervolgens de webservice publiceren zodat deze beschikbaar is voor service-aanvragen via het netwerk. Gebruikers kunnen controleren of webservices actief zijn door een browser te laten kijken naar de serverlocatie en een overzicht van de beschikbare services aan te vragen. Wanneer u een webservice publiceert, is deze onmiddellijk beschikbaar via het netwerk voor geverifieerde gebruikers. Alle bevoegde gebruikers hebben toegang tot metagegevens voor webservices, maar alleen gebruikers die beschikken over voldoende machtigingen hebben toegang tot de werkelijke gegevens.
 
-## <a name="creating-and-publishing-a-web-service"></a>Een webservice maken en publiceren  
+## <a name="creating-and-publishing-a-web-service"></a>Een webservice maken en publiceren
+
 In de volgende stappen wordt uitgelegd hoe u een webservice maakt en publiceert.  
 
 ### <a name="to-create-and-publish-a-web-service"></a>Een webservice maken en publiceren  
@@ -71,3 +69,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Beheer](admin-setup-and-administration.md)  
 [Business Central-webservices voor ontwikkelaars](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[OData-aanvraaglimieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

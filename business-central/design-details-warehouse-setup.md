@@ -8,37 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbcadecf7648a1ddd6d41d968dcdf26d78b79001
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184544"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435243"
 ---
 # <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
+
 De magazijnfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie. Bovendien bepalen de toepassingsobjecten in de licentie welke UI-documenten moeten worden gebruikt voor de ondersteunde magazijnactiviteiten.  
 
 Er zijn de volgende magazijngerelateerde granules:  
 
--   Basisvoorraad (4010)  
--   Opslagloc (4170)  
--   Opslag (4180)  
--   Magazijnontvangst (4190)  
--   Picken (4200)  
--   Magazijnverzending (4210)  
--   Magazijnbeheersystemen (4620)  
--   Interne picks en interne opslag (4630)  
--   Geautomatiseerd systeem voor gegevensvastlegging (4640) 
--   Instelling opslaglocatie (4660)  
+- Basisvoorraad (4010)  
+- Opslagloc (4170)  
+- Opslag (4180)  
+- Magazijnontvangst (4190)  
+- Picken (4200)  
+- Magazijnverzending (4210)  
+- Magazijnbeheersystemen (4620)  
+- Interne picks en interne opslag (4630)  
+- Geautomatiseerd systeem voor gegevensvastlegging (4640)
+- Instelling opslaglocatie (4660)  
 
 Zie voor meer informatie over elke granule [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prijsvoorstellen](https://go.microsoft.com/fwlink/?LinkId=238341) (vereist een PartnerSource-account).  
 
 In de volgende tabel wordt getoond welke granules vereist zijn om de verschillende niveaus van magazijncomplexiteit te definiëren, welke UI-documenten elk niveau ondersteunen en welke vestigingscode deze niveaus aanduiden in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstratiedatabase.  
 
 |Complexiteitniveau|Description|UI-document|CRONUS-locatie|Minimale granulevereiste|  
-|----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
+|----------------|-----------|-----------|---------------|---------------------------|  
 |1|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.|Order|BLAUW|Basisvoorraad|  
 |2|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.<br /><br /> Opslaglocatie is vereist.|Order met opslaglocatiecode|ZILVER|Basisvoorraad/opslaglocatie|  
 |3 <br /><br /> **OPMERKING**: hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.|Elementaire magazijnactiviteit, order-voor-order.<br /><br /> Boeking uit voorraadopslag/pickdocumenten ontvangen/verzenden. <br /><br /> Opslaglocatie is vereist.|Voorraadopslag/Voorraadverplaatsing/Voorraadpick. met opslaglocatiecode|(ZILVER + opslag vereist of opslag vereist)|Basisvoorraad/Opslaglocatie/Opslag/Pick|  
@@ -46,9 +47,10 @@ In de volgende tabel wordt getoond welke granules vereist zijn om de verschillen
 |5|Geavanceerde magazijnactiviteit, voor meerdere orders.<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Pickvoorstel/Opslagvoorstel met opslaglocatiecode|(GROEN + opslaglocatie verplicht)|Basisvoorraad/Opslaglocatie/Magazijnontvangst/Opslag/Pick/Magazijnverzending|  
 |6 <br /><br /> **Opmerking**: dit niveau wordt WMS genoemd, omdat het de meest geavanceerde granule vereist: Warehouse Management Systems.|Geavanceerde magazijnactiviteit, voor meerdere orders<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.<br /><br /> De zone-/klassecode is optioneel.<br /><br /> Magazijnmedewerkers geleid door werkstroom<br /><br /> Planning aanvulling opslaglocatie<br /><br /> Opslaglocatievolgorde<br /><br /> Instelling opslaglocatie op capaciteit<br /><br /> Plaatsen  <!-- Hand-held device integration -->|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Magazijnverplaatsing/Pickvoorstel/Opslagvoorstel/Interne mag.- pick/Interne magazijnopslag met opslaglocatie/klasse/zonecode<br /><br /> Diverse voorstellen voor opslaglocatiebeheer<br /><br /> ADCS-schermen|WIT|Basisvoorraad/Opslaglocatie/Opslag/Magazijnontvangst/Pick/Magazijnverzending/Magazijnbeheersystemen/Interne picks en opslag/Opslaglocatie-instelling/<!-- Automated Data Capture System/ -->Instelling opslaglocatie|  
 
-Zie voor voorbeelden van hoe UI-documenten worden gebruikt per niveau van magazijncomplexiteit [Ontwerpdetails: Inkomende magazijnstroom](design-details-outbound-warehouse-flow.md).  
+Zie voor voorbeelden van hoe UI-documenten worden gebruikt per niveau van magazijncomplexiteit [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Opslaglocatie en inhoud  
+## <a name="bin-and-bin-content"></a>Opslaglocatie en inhoud
+
 Een opslaglocatie is een opslagapparaat dat is ontworpen om afzonderlijke onderdelen te bevatten. Het is de kleinste containereenheid in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Artikelaantallen in opslaglocaties worden opslaglocatie-inhoud genoemd. Een opzoekactie vanuit het veld **Artikel** of het veld **Opslaglocatie** op een magazijngerelateerde documentregel geeft de berekende beschikbaarheid van het artikel op de opslaglocatie weer.  
 
 Aan een opslaglocatie-inhoud kan de eigenschap Vast, Speciaal of Standaard worden gegeven om te definiëren hoe de opslaglocatie-inhoud kan worden gebruikt. Opslaglocaties die geen van deze eigenschappen hebben, worden vrije opslaglocaties genoemd.  
@@ -64,7 +66,8 @@ De eigenschap Standaardopslaglocatie wordt door het systeem gebruikt om opslaglo
 
 Er kan slechts één standaardopslaglocatie per artikel per vestiging zijn.  
 
-## <a name="bin-type"></a>Opslaglocatiesoort  
+## <a name="bin-type"></a>Opslaglocatiesoort
+
 In WMS-installaties kunt u de magazijnactiviteiten die voor een opslaglocatie toegestaan zijn, beperken door er een opslaglocatiesoort aan toe te wijzen. De volgende typen opslaglocaties bestaan:  
 
 |Opslaglocatiesoort|Omschrijving|  
@@ -79,9 +82,10 @@ In WMS-installaties kunt u de magazijnactiviteiten die voor een opslaglocatie to
 Voor alle opslaglocatiesoorten, behalve PICK, OPSL-PICK en OPSLAG, is geen andere activiteit voor de opslaglocatie toegestaan dan wat is gedefinieerd voor de opslaglocatiesoort. Een opslaglocatie van de soort **Ontvangen** kan bijvoorbeeld alleen worden gebruikt om artikelen te ontvangen of artikelen uit te picken.  
 
 > [!NOTE]  
->  Alleen verplaatsing kan worden uitgevoerd naar opslaglocaties van de soort ONTVANGT en QC. Zo kunnen ook alleen verplaatsingen tussen opslaglocaties van het type VERZENDING en QC worden gemaakt.  
+> Alleen verplaatsing kan worden uitgevoerd naar opslaglocaties van de soort ONTVANGT en QC. Zo kunnen ook alleen verplaatsingen tussen opslaglocaties van het type VERZENDING en QC worden gemaakt.  
 
-## <a name="bin-ranking"></a>Opslaglocatievolgorde  
+## <a name="bin-ranking"></a>Opslaglocatievolgorde
+
 In geavanceerde magazijnomgevingen kunt u automatiseren en optimaliseren hoe artikelen in opslag en pickvoorstellen worden verzameld door opslaglocaties een rangorde te geven zodat artikelen worden voorgesteld, gebruikt of geplaatst op basis van rangordecriteria, zodat magazijnruimte optimaal wordt gebruikt.  
 
 Opslagprocessen worden geoptimaliseerd op rangorde van opslaglocaties doordat opslaglocaties met een hogere rangorde worden voorgesteld vóór opslaglocaties met een lagere rangorde. Zo worden pickprocessen ook geoptimaliseerd doordat eerst artikelen worden voorgesteld uit opslaglocaties met een hoge rangorde. Bovendien worden aanvullingen van opslaglocaties voorgesteld van opslaglocaties met een lagere rangorde naar opslaglocaties met een hogere rangorde.  
@@ -98,9 +102,10 @@ Als u het maximale aantal van een bepaald artikel wilt instellen dat in een bepa
 Voordat u capaciteitsbeperkingen instelt voor inhoud van een opslaglocatie, moet u eerst zorgen dat de eenheid en de dimensies van het artikel zijn ingesteld op de artikelkaart.  
 
 > [!NOTE]  
->  Er kan alleen met meerdere eenheden worden gewerkt in WMS-installaties. In alle andere configuraties kan opslaglocatie-inhoud alleen worden uitgedrukt in de basiseenheid. In alle transacties met een hogere eenheid dan de basiseenheid van het artikel wordt het aantal geconverteerd naar de basiseenheid.  
+> Er kan alleen met meerdere eenheden worden gewerkt in WMS-installaties. In alle andere configuraties kan opslaglocatie-inhoud alleen worden uitgedrukt in de basiseenheid. In alle transacties met een hogere eenheid dan de basiseenheid van het artikel wordt het aantal geconverteerd naar de basiseenheid.  
 
-## <a name="zone"></a>Regio  
+## <a name="zone"></a>Regio
+
 In geavanceerde magazijnomgevingen kunnen opslaglocaties in zones worden gegroepeerd om te beheren hoe de werkstroom van magazijnactiviteiten wordt gedirigeerd.  
 
 Een zone kan een ontvangstzone of een bevoorradingszone zijn en elke zone kan uit een of meer opslaglocaties bestaan.  
@@ -114,19 +119,23 @@ Als u magazijnklassen en een standaardopslaglocatie voor ontvangst/verzending ge
 
 In inkomende stromen wordt de klassecode alleen gemarkeerd op inkomende regels waar de artikelklassecode niet overeenkomt met de standaardopslaglocatie. Als de juiste standaardopslaglocaties niet zijn toegewezen, kan het aantal niet worden ontvangen.  
 
-## <a name="location"></a>Vestiging  
+## <a name="location"></a>Vestiging
+
 Een locatie is een fysieke structuur of plaats waar de voorraad wordt ontvangen, opgeslagen en verzonden, en mogelijk in opslaglocaties wordt geordend. Een locatie kan een magazijn, serviceauto, toonzaal, fabriek of een gebied in een fabriek zijn.  
 
-## <a name="first-expired-first-out"></a>First-Expired-First-Out (Eerst-vervallen-eerst-uit)  
+## <a name="first-expired-first-out"></a>First-Expired-First-Out (Eerst-vervallen-eerst-uit)
+
 Als u het selectievakje **Picken volgens FEFO** inschakelt op het sneltabblad **Opslaglocatiebeleid** op de vestigingskaart, worden artikelgetraceerde artikelen gepickt op basis van de vervaldatum. De artikelen met de vroegste vervaldatums worden eerst gepickt.  
 
 Magazijnactiviteiten in alle pick- en verplaatsingsdocumenten worden gesorteerd volgens FEFO, tenzij aan de desbetreffende artikelen al serie-/lotnummers zijn toegewezen. Als aan slechts een gedeelte van het aantal op de regel al serie/lot-nummers zijn toegewezen, wordt het resterende te picken aantal gesorteerd op basis van FEFO.  
 
 Bij picken volgens FEFO worden beschikbare artikelen eerst verzameld in een tijdelijke artikeltraceringslijst op basis van de vervaldatum. Als twee artikelen dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer het eerste gepickt. Als de lot- of serienummers gelijk zijn, wordt het artikel dat als eerste is geregistreerd, als eerste geselecteerd. Standaardcriteria voor het selecteren van artikelen in pickopslaglocaties, zoals opslaglocatievolgorde en splitsen van bulkgoederen, worden toegepast op deze tijdelijke FEFO-artikeltraceringslijst.  
 
-## <a name="put-away-template"></a>Opslagsjabloon  
+## <a name="put-away-template"></a>Opslagsjabloon
+
 De opslagsjabloon kan worden toegewezen aan een artikel en aan een vestiging. De opslagsjabloon geeft een set prioriteitsregels op die moeten worden aangehouden bij het maken van opslagactiviteiten. Een opslagsjabloon kan bijvoorbeeld vereisen dat het artikel wordt geplaatst in een opslaglocatie met opslaglocatie-inhoud die overeenkomt met de maateenheid en als geen soortgelijke opslaglocatie met voldoende capaciteit kan worden gevonden, moet het artikel in een lege opslaglocatie worden geplaatst.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)   
 [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)

@@ -1,24 +1,22 @@
 ---
 title: Documentspecifieke e-mailinhoud instellen | Microsoft Docs
 description: U kunt inhoud definiëren die moet worden ingevoegd in het hoofdgedeelte van een e-mailbericht, bijvoorbeeld een PayPal-koppeling. U kunt ook documenten koppelen aan e-mailberichten.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 05/13/2020
+ms.author: edupont
+ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195591"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402518"
 ---
 # <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
+
 Om de inhoud van bedrijfsdocumenten snel aan uw zakelijke partners door te geven, zoals de betalingsgegevens over verkoopdocumenten aan klanten, kunt u de functie Rapportlay-out gebruiken om documentspecifieke inhoud te definiëren die automatisch wordt ingevoegd in hoofdteksten van e-mail. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
 
 Als u e-mails vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt inschakelen, start u de begeleide instelling **E-mail instellen** in het rolcentrum.
@@ -32,6 +30,7 @@ Als het veld **E-mail** op de pagina **Document verzenden naar** is ingesteld op
 In de volgende procedure wordt beschreven hoe u het rapport **Verkoop - factuur** zo instelt dat het kan worden gebruikt voor documentspecifieke e-mailhoofdteksten wanneer u geboekte verkoopfacturen via e-mail verstuurt.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Een documentspecifieke e-mailhoofdtekst instellen voor verkoopfacturen
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur**.
 3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
@@ -48,6 +47,7 @@ Wanneer u nu bijvoorbeeld de actie **Verzenden** kiest op de pagina **Geboekte v
 In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als een e-mailbericht verzendt met het document als een PDF-bestand bijgevoegd en met een documentspecifieke e-mailhoofdtekst.
 
 ## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.
 2. Selecteer de relevante geboekte verkoopfactuur en kies de actie **Verzenden**. De pagina **Document verzenden naar** verschijnt.
 3. Selecteer in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
@@ -61,9 +61,16 @@ In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als 
 9. Kies de knop **OK** om het e-mailbericht te verzenden.
 
 > [!NOTE]  
->   Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
+> Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
+
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
+
+Sommige documenten in [!INCLUDE [prodshort](includes/prodshort.md)] hebben een veld dat aangeeft hoe vaak dat document is afgedrukt. Het veld wordt ook bijgewerkt als u het document niet afdrukt maar in plaats daarvan per e-mail verzendt. Het veld wordt zelfs bijgewerkt als u het document niet daadwerkelijk verzendt, bijvoorbeeld wanneer uw organisatie geen e-mail heeft ingesteld of wanneer de contactpersoon naar wie u het document wilt sturen geen vermeld e-mailadres heeft. In alle scenario's, voor zover [!INCLUDE [prodshort](includes/prodshort.md)] betreft, wordt het document afgedrukt omdat er een PDF-bestand wordt gegenereerd.  
+
+De gebruiker ziet dit gegenereerde bestand mogelijk niet, maar daarom wordt het veld bijgewerkt.
 
 ## <a name="see-also"></a>Zie ook
+
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  

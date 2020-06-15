@@ -99,7 +99,7 @@
 ### [Overzicht](bank-setup-banking.md)
 ### [Bankrekeningen instellen](bank-how-setup-bank-accounts.md)
 ### [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)
-### [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)
+### [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)
 ### [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)
 
 ## Verkopen instellen
@@ -302,7 +302,7 @@
 #### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 #### [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-#### [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)
+#### [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)
 #### [De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)
 #### [Bankrekeningen instellen](bank-how-setup-bank-accounts.md)
 #### [Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -314,11 +314,11 @@
 #### [Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)
 #### [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### [Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Betalingen innen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 #### [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Veldtoewijzing voor de AMC Banking365 Fundamentals-uitbreiding](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Veldtoewijzing voor de extensie AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Beheer
 ## [Overzicht](admin-setup-and-administration.md)
@@ -414,7 +414,7 @@
 #### [Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)
 #### [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md)
 #### [Chequebetalingen doen](payables-how-work-checks.md)
-#### [Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)
 ### Betalingen automatisch vereffenen en bankrekeningen reconciliëren
@@ -544,6 +544,7 @@
 ## [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)
 ## [Een prognose maken](production-how-to-create-a-forecast.md)
 ## [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)
+## [Werken met periodieke inkomsten](finance-recurring-invoicing.md)
 
 # Inkopen
 ## [Overzicht](purchasing-manage-purchasing.md)

@@ -5,16 +5,17 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 11/25/2019
+ms.date: 06/06/2020
 ms.author: edupont
-ms.openlocfilehash: fefc6c01d51793a23d7f69f9dff99e9a7329025c
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: a5eba80a54b16a601d5f4b004049fe3575b6db5d
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832010"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435171"
 ---
-# <a name="welcome-to-include-d365acc_longincludesd365acc_long_mdmd"></a>Welkom bij [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="welcome-to-d365acc_long"></a>Welkom bij [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE [d365acc](includes/d365acc_md.md)] als uw dashboard gebruiken voor een beter overzicht van uw cliënten. Van daaruit kunt u toegang krijgen tot gegevens van elke cliënt.  
@@ -22,12 +23,15 @@ Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE [d365acc
 > [!div class="mx-imgBorder"]
 > ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
-U kunt toegang tot [!INCLUDE [d365acc](includes/d365acc_md.md)] krijgen door u aan te melden vanuit [Dynamics 365 — Accountant Hub Hub op Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Het is kosteloos en kan snel worden gestart en cliënten toevoegen aan het dashboard. Zie voor meer informatie [Aan de slag met Accountant Hub](get-started.md).  
+U kunt toegang tot [!INCLUDE [d365acc](includes/d365acc_md.md)] krijgen door u aan te melden vanuit [Dynamics 365 — Accountant Hub Hub op Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants). Het is kosteloos en kan snel worden gestart en cliënten toevoegen aan het dashboard. Zie voor meer informatie [Aan de slag met Accountant Hub](get-started.md).  
 
 In de huidige versie van [!INCLUDE [d365acc](includes/d365acc_md.md)] kunt u cliënten toevoegen die [!INCLUDE [d365fin](includes/d365fin_long_md.md)] gebruiken om hun bedrijf uit te voeren. Zie voor meer informatie [Cliënten toevoegen aan uw dashboard](add-client.md).  
 
-> [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is momenteel in openbare preview op een beperkt aantal markten.
+[!INCLUDE [d365fin_early_release.md](includes/d365fin_early_release.md.md)]
 
 ## <a name="see-also"></a>Zie ook
+
 [Aan de slag met Accountant Hub](get-started.md)  
+[Uw bedrijfsgegevens naar Excel exporteren (Business Central)](/dynamics365/business-central/about-export-data)  
+[Accountantervaringen binnen Dynamics 365 Business Central](/dynamics365/business-central/finance-accounting)  
+[Dynamics 365-releaseplannen](/dynamics365/release-plans/)  

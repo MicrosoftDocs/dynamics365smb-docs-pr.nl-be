@@ -1,8 +1,6 @@
 ---
 title: Een projectverkoopfactuur maken om een project te factureren| Microsoft Docs
 description: Beschrijft hoe u klanten factureert voor projectkosten tijdens de voortgang van een project.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2020
+ms.date: 05/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 277e5e6cb212202f930ed49012184aa67a23d03f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191271"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402498"
 ---
 # <a name="invoice-jobs"></a>Projecten factureren
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
@@ -28,19 +26,24 @@ Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan
 U kunt het hele project factureren vanuit de pagina **Projecttaakregels** of alleen de geselecteerde factureerbare regels factureren vanuit de pagina **Planningsregels**. Facturering kan plaatsvinden nadat het project is voltooid of op bepaalde intervallen tijdens de voortgang van het project op basis van een factureringsschema.
 
 > [!NOTE]  
->   Als u **Factureerbaar** selecteert in het veld **Regelsoort project** in de inkoopdocumenten voor aan het project gerelateerde inkopen, worden projectplanningsregels gemaakt die gereed zijn om te worden gefactureerd aan de klant. Zie [Projectvoorraden beheren](projects-how-manage-project-supplies.md) voor meer informatie.
+> Als u **Factureerbaar** selecteert in het veld **Regelsoort project** in de inkoopdocumenten voor aan het project gerelateerde inkopen, worden projectplanningsregels gemaakt die gereed zijn om te worden gefactureerd aan de klant. Zie [Projectvoorraden beheren](projects-how-manage-project-supplies.md) voor meer informatie.
 
-## <a name="to-create-and-post-a-job-sales-invoice"></a>Een projectverkoopfactuur maken en boeken
+## <a name="to-create-multiple-job-sales-invoices"></a>Meerdere projectverkoopfacturen maken
 U kunt een factuur maken voor een project of voor één of meer projecttaken voor een klant, wanneer ofwel het werk dat moet worden gefactureerd voltooid is ofwel de datum voor facturering op basis van een factureringsschema is bereikt.
 
-Vanuit de pagina **Projecten** kunt u een klant factureren door het project te selecteren en vervolgens de actie **Projectverkoopfactuur maken** te kiezen. In de volgende procedure wordt beschreven hoe u een batchverwerking gebruikt om meerdere projecten te factureren.  
+In de volgende procedure wordt beschreven hoe u een batchverwerking gebruikt om meerdere projecten te factureren.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfactuur project maken** in en kies de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Stel filters in als u de projecten wilt beperken die door de batchverwerking worden verwerkt.
 4. Kies de knop **OK** om de facturen te maken.  
 
-## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Meerdere projectverkoopfacturen maken vanuit projectplanningsregels
+U kunt gemaakte facturen bekijken en boeken in het venster **Verkoopfacturen**.
+
+> [!NOTE]
+> U kunt ook een klant factureren door het project te selecteren en vervolgens de actie **Projectverkoopfactuur** maken te kiezen. 
+
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Projectverkoopfacturen maken en boeken vanuit projectplanningsregels
 U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de hoeveelheid van het artikel, resource of grootboekrekening die u wilt factureren, aangeven.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.
@@ -50,11 +53,9 @@ U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de ho
 5. Kies de actie **Verkoopfactuur maken**.
 6. Voer op de pagina **Verkoopfactuur project maken** de boekingsdatum in en of u een nieuwe factuur wilt maken of toevoegen aan deze factuur of aan een bestaande factuur.
 7. Kies de knop **Ok**.  
-
-    Op de projectplanningsregel, in het veld **Aantal overgebracht naar factuur** ziet u de hoeveelheid.
 8. Kies op de pagina **Projectplanningsregels** de actie **Verkoopfacturen/-creditnota's**.
 
-    De pagina **Verkoopfactuur** wordt geopend met het aantal dat u naar de factuur hebt verzonden.  
+    De pagina **Verkoopfactuur** wordt geopend met het aantal dat u naar de factuur hebt verzonden.
 9. Breng eventuele aanvullende wijzigingen aan en kies vervolgens de actie **Boeken**.
 
 > [!NOTE]  

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190143"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428383"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -68,9 +68,11 @@ Zoek in de lijst met ingediende suggesties. Het kan zijn dat iemand al iets soor
 
 De sectie **Problemen oplossen** bevat technische informatie die uw beheerder of [!INCLUDE[prodshort](includes/prodshort.md)]-partner kan gebruiken om gebruikers te deblokkeren. Dit omvat informatie over het laatste foutbericht, de huidige versie van uw [!INCLUDE[prodshort](includes/prodshort.md)] en een koppeling om naar de pagina **Pagina-inspectie** te gaan. Zie voor meer informatie [Pagina's inspecteren in Business Central](across-inspect-page.md).  
 
+Als interne beheerder hebt u toegang tot het beheercentrum waar u de probleemoplossing kunt voortzetten. Zie voor meer informatie [Technische informatie zoeken](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in de beheerinformatie.  
+
 ## <a name="report-a-problem"></a>Een probleem melden
 
-Uw [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner helpt u met technische ondersteuning. [!INCLUDE[prodshort](includes/prodshort.md)] wordt verkocht via partners en deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prodshort](includes/prodshort.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
+Uw [!INCLUDE[prodshort](includes/prodshort.md)]-resellerpartner helpt u met technische ondersteuning. [!INCLUDE[prodshort](includes/prodshort.md)] wordt verkocht via partners en deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prodshort](includes/prodshort.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft. Zie voor meer informatie [Ondersteuningsproblemen escaleren naar Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in de beheerinformatie.  
 
 > [!NOTE]
 > Deze sectie is alleen beschikbaar als u hebt betaald voor een [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prodshort](includes/prodshort.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prodshort](includes/prodshort.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  

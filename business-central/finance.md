@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182624"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410759"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -44,7 +44,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
 | Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
 |Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
-| Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Procedure: Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
+| Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
+| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. |[Periodieke (abonnements)inkomsten](finance-recurring-invoicing.md)|
 |Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
 | Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
 |Gebruik functies om btw te berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst.|[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)|

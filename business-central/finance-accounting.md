@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
+ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372628"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3413655"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
@@ -87,12 +87,12 @@ Hiermee wordt het gebruikersaccount dat u in de Azure Portal hebt gemaakt, naar 
 
 Als u toegang wilt geven aan meerdere bedrijven, moet u zich bij elk bedrijf aanmelden en dit proces herhalen. U kunt ook de machtigingsgroepen voor het gebruikersprofiel van de accountant bijwerken in [!INCLUDE [prodshort](includes/prodshort.md)], zoals het toewijzen van de *D365 Bus Premium*-gebruikersgroep. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
-## <a name="accountant-hub"></a>Accountant Hub
+<!--## Accountant Hub
 
-Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] gebruiken voor een beter overzicht van uw cliënten. Van daaruit kunt u toegang krijgen tot de tenant van elke cliënt in [!INCLUDE[d365fin](includes/d365fin_md.md)] en het accountantrolcentrum gebruiken zoals hierboven beschreven. Zie voor meer informatie [Welkom bij [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
+If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is momenteel in openbare preview op een beperkt aantal markten.
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Zie ook
 
@@ -104,5 +104,3 @@ Als u een accountant met verschillende cliënten bent, kunt u [!INCLUDE[d365acc_
 [Financiële overzichten analyseren in Excel:](finance-analyze-excel.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
-[Welkom bij [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 - Accountant Hub op Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  
