@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402518"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527997"
 ---
 # <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
 
@@ -65,7 +65,7 @@ In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
 
-Sommige documenten in [!INCLUDE [prodshort](includes/prodshort.md)] hebben een veld dat aangeeft hoe vaak dat document is afgedrukt. Het veld wordt ook bijgewerkt als u het document niet afdrukt maar in plaats daarvan per e-mail verzendt. Het veld wordt zelfs bijgewerkt als u het document niet daadwerkelijk verzendt, bijvoorbeeld wanneer uw organisatie geen e-mail heeft ingesteld of wanneer de contactpersoon naar wie u het document wilt sturen geen vermeld e-mailadres heeft. In alle scenario's, voor zover [!INCLUDE [prodshort](includes/prodshort.md)] betreft, wordt het document afgedrukt omdat er een PDF-bestand wordt gegenereerd.  
+Sommige documenten in [!INCLUDE[prodshort](includes/prodshort.md)] hebben een veld dat aangeeft hoe vaak dat document is afgedrukt. Het veld wordt ook bijgewerkt als u het document niet afdrukt maar in plaats daarvan per e-mail verzendt. Het veld wordt zelfs bijgewerkt als u het document niet daadwerkelijk verzendt, bijvoorbeeld wanneer uw organisatie geen e-mail heeft ingesteld of wanneer de contactpersoon naar wie u het document wilt sturen geen vermeld e-mailadres heeft. In alle scenario's, voor zover [!INCLUDE[prodshort](includes/prodshort.md)] betreft, wordt het document afgedrukt omdat er een PDF-bestand wordt gegenereerd.  
 
 De gebruiker ziet dit gegenereerde bestand mogelijk niet, maar daarom wordt het veld bijgewerkt.
 

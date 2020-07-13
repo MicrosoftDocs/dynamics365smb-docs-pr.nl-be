@@ -1,7 +1,7 @@
 ---
 title: Op voorraad assembleren of Op order assembleren begrijpen | Microsoft Docs
 description: Componenten kunnen worden geleverd door deze te assembleren bij bestelling of door deze te assembleren om op voorraad te worden gehouden tot deze nodig zijn voor een verkooporder.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186824"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496812"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  
@@ -68,9 +68,9 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 
  Als u wilt afwijken van deze standaardprocedure omdat u bijvoorbeeld alleen een groter of een kleiner aantal dan het aantal in het veld **Te verzenden aantal** wilt assembleren, kunt u vervolgens het veld **Te assembleren aantal** wijzigen, maar alleen binnen vooraf gedefinieerde regels, zoals deze hieronder zijn beschreven.  
 
- Een voorbeeld van waarom u het assemblage-aantal mogelijk wilt wijzigen, is dat u een gedeeltelijke verzending van voorraadaantallen wilt boeken voordat de assemblage-uitvoer wordt verzonden.  
+ Een voorbeeld van waarom u het assemblage-aantal mogelijk wilt wijzigen, is dat u een gedeeltelijke verzending van voorraadaantallen wilt boeken voordat de assemblyuitvoer wordt verzonden.  
 
- Hierna worden de regels uitgelegd voor het definiëren van de minimum- en maximumwaarden die u handmatig in het veld **Te assembleren aantal** kunt invoeren wanneer u in een combinatiescenario wilt afwijken van de standaardwaarde. In de tabel wordt een combinatiescenario weergegeven waarbij het veld **Te verzenden aantal** op de gekoppelde verkooporderregel wordt gewijzigd van 7 in 4, waardoor **Te assembleren aantal** wordt ingesteld op de standaardwaarde 4.  
+ In de volgende tabel worden de regels uitgelegd voor het definiëren van de minimum- en maximumwaarden die u handmatig in het veld **Te assembleren aantal** kunt invoeren wanneer u in een combinatiescenario wilt afwijken van de standaardwaarde. In de tabel wordt een combinatiescenario weergegeven waarbij het veld **Te verzenden aantal** op de gekoppelde verkooporderregel wordt gewijzigd van 7 in 4, waardoor **Te assembleren aantal** wordt ingesteld op de standaardwaarde 4.  
 
 ||Verkooporderregel|Assemblageorderkop|  
 |-|----------------------|---------------------------|  

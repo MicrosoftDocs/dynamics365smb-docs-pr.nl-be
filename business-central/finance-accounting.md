@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413655"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528122"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Accountantervaringen binnen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
@@ -54,14 +54,14 @@ Als uw beheerder of wederverkoper geen gebruik wenst te maken van de guide **Ext
 4. Selecteer **Nieuwe gastgebruiker**.
 5. Selecteer op de pagina **Nieuwe gebruiker** de optie **Gebruiker uitnodigen** en voeg informatie over uw externe accountant toe.  
 
-   Voeg desgewenst een persoonlijk welkomstbericht aan de accountant toe om te laten weten dat hij of zij wordt toegevoegd aan uw [!INCLUDE [prodshort](includes/prodshort.md)].
+   Voeg desgewenst een persoonlijk welkomstbericht aan de accountant toe om te laten weten dat hij of zij wordt toegevoegd aan uw [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Selecteer **Uitnodigen** om de uitnodiging automatisch te verzenden. Er verschijnt een melding rechtsboven bij het bericht **Gebruiker is uitgenodigd**. 
 7. Nadat u de uitnodiging hebt verzonden, wordt het gebruikersaccount automatisch als gast aan de directory toegevoegd.
 
-Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE [prodshort](includes/prodshort.md)] toewijzen.
+Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE[prodshort](includes/prodshort.md)] toewijzen.
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Uw accountant toegang geven tot uw [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Uw accountant toegang geven tot uw [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Kies **Profiel** in de Azure Portal bij de zojuist toegevoegde gebruiker en kies **Bewerken**
 2. Voer in het veld **Gebruikslocatie** het desbetreffende land in en kies **Opslaan**.
@@ -73,26 +73,26 @@ Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE [prodshort](in
 
 Als dit lukt, wordt de licentie toegewezen aan de gastgebruiker en wordt het gastaccount gemaakt.
 
-### <a name="importing-the-new-user-into-prodshort"></a>De nieuwe gebruiker importeren in [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>De nieuwe gebruiker importeren in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft gekregen tot uw Active Directory. Daarna moet u de accountant toegang geven tot het juiste bedrijf in [!INCLUDE [prodshort](includes/prodshort.md)].
+De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft gekregen tot uw Active Directory. Daarna moet u de accountant toegang geven tot het juiste bedrijf in [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>De accountant toevoegen aan het juiste bedrijf
 
-1. Open het [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf waarvoor u de accountant toegang wilt geven op [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Open het [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijf waarvoor u de accountant toegang wilt geven op [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.  
 3. Kies de actie **Nieuwe gebruikers ophalen uit Office 365**.
 
 Hiermee wordt het gebruikersaccount dat u in de Azure Portal hebt gemaakt, naar het bedrijf geïmporteerd. Zie [Een gebruiker toevoegen in Business Central](ui-how-users-permissions.md#adduser) voor meer informatie.  
 
-Als u toegang wilt geven aan meerdere bedrijven, moet u zich bij elk bedrijf aanmelden en dit proces herhalen. U kunt ook de machtigingsgroepen voor het gebruikersprofiel van de accountant bijwerken in [!INCLUDE [prodshort](includes/prodshort.md)], zoals het toewijzen van de *D365 Bus Premium*-gebruikersgroep. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
+Als u toegang wilt geven aan meerdere bedrijven, moet u zich bij elk bedrijf aanmelden en dit proces herhalen. U kunt ook de machtigingsgroepen voor het gebruikersprofiel van de accountant bijwerken in [!INCLUDE[prodshort](includes/prodshort.md)], zoals het toewijzen van de *D365 Bus Premium*-gebruikersgroep. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Zie ook
 

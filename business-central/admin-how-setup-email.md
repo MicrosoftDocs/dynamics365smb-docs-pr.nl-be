@@ -1,7 +1,6 @@
 ---
 title: E-mail instellen in Business Central | Microsoft Docs
 description: Hier wordt beschreven hoe u de SMTP-server van het bedrijf gebruikt om e-mailberichten te verzenden en ontvangen binnen Business Central, of hoe u de e-mailserverinstellingen gebruikt die met het Office 365-abonnement zijn gemaakt.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187280"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528399"
 ---
 # <a name="set-up-email"></a>E-mail instellen
+
 Als u e-mails wilt versturen en ontvangen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de velden op de pagina **SMTP-mailinstellingen** invullen.
 
 In plaats van de SMTP-serverdetails handmatig in te voeren, kunt u de functie **Office 365 Server-instellingen toepassen** gebruiken om ze in te voeren met informatie uit uw Office 365-abonnement.
@@ -26,6 +26,7 @@ In plaats van de SMTP-serverdetails handmatig in te voeren, kunt u de functie **
 U kunt uw e-mail handmatig instellen, zoals hieronder beschreven, of u kunt hulp krijgen door de begeleide instelling **Instelling van e-mail** te gebruiken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>E-mail instellen
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ U kunt uw e-mail handmatig instellen, zoals hieronder beschreven, of u kunt hulp
 5. Als de test is geslaagd, sluit u de pagina.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Een vervangend afzenderadres gebruiken voor uitgaande e-mailberichten
+
 Alle uitgaande e-mailberichten vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken het standaardadres voor het account dat u hebt opgegeven op de pagina SMTP-e-mailinstellingen, zoals hierboven beschreven. U kunt echter de mogelijkheden **Verzenden als** of **Verzenden namens** op uw Exchange-server gebruiken om het afzenderadres van uitgaande berichten te wijzigen. [!INCLUDE[d365fin](includes/d365fin_md.md)] zal het standaardaccount gebruiken om te verifiëren bij Exchange, maar zal het afzenderadres vervangen door het adres dat u opgeeft, of het wijzigen met 'namens'.
 
 Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebruikt in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -54,6 +56,7 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie voor [De EAC gebruiken om machtigingen toe te wijzen aan afzonderlijke mailboxen](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Het vervangende adres gebruiken in goedkeuringswerkstromen
+
 1. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
 2. Kopieer of noteer het adres in het veld **Gebruikersnaam**.
 3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies de gerelateerde koppeling.
@@ -64,6 +67,13 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] bepaalt welk adres wordt weergegeven in de volgende volgorde: <br><br> 1. Het adres dat is opgegeven in het veld **E-mail** op de pagina **Gebruikersinstellingen voor goedkeuring** voor berichten in een werkstroom. <br> 2. Het adres dat is opgegeven in het veld **Verzenden als** op de pagina **SMTP-e-mailinstellingen**. <br> 3. Het adres dat is opgegeven in het veld **Gebruikersnaam** op de pagina **SMTP-e-mailinstellingen**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Openbare mappen en regels instellen voor e-mailregistratie in Exchange Online
+
+Haal meer uit de communicatie tussen verkopers en uw bestaande of potentiële klanten door e-mailuitwisselingen bij te houden en deze vervolgens om te zetten in bruikbare kansen. Zie voor meer informatie [E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Vervolgens verbindt u [!INCLUDE[prodshort](includes/prodshort.md)] met Exchange Online. Zie voor meer informatie [E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Zie ook
 

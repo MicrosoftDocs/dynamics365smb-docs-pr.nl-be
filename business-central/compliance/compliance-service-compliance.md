@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185927"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528347"
 ---
 # <a name="service-compliance"></a>Servicenaleving
 Deze inhoud bevat informatie over servicenaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microso
 
 ## <a name="service-terms"></a>Servicevoorwaarden
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/products).  
+[!INCLUDE[prodshort](../includes/prodshort.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Bovendien kunt u de gezondheid van uw tenant bewaken en upgradevensters opgeven in het [Tenantbeheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

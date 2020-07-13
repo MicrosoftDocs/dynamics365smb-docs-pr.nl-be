@@ -10,30 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad10aa53b4fe6a8b9b65ad798c206fa251e08a7a
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196507"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484273"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Gebruikersaccounts instellen voor integratie met Common Data Service
 Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[d365fin](includes/cds_long_md.md)] te integreren met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="setting-up-the-administrator-user-account"></a>Het beheerdersaccount instellen in Sales
-U moet uw beheerdersaccount toevoegen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] als gebruiker in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Bij het opzetten van de verbinding tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste componenten te installeren en configureren. <!--Verify this-->
-
-## <a name="setting-up-the-user-account-for-the-integration"></a>Het gebruikersaccount instellen voor de integratie
-U moet een speciaal gebruikersaccount in uw Office 365-abonnement maken dat zowel [!INCLUDE[d365fin](includes/d365fin_md.md)] als [!INCLUDE[d365fin](includes/cds_long_md.md)] kan gebruiken om gegevens te synchroniseren. Dit gebruikersaccount moet zich kunnen aanmelden bij [!INCLUDE[d365fin](includes/cds_long_md.md)], wat betekent dat deze gebruiker een licentie moet hebben voor [!INCLUDE[d365fin](includes/cds_long_md.md)] en dat ten minste één beveiligingsrol in [!INCLUDE[d365fin](includes/cds_long_md.md)] aan het account moet zijn toegewezen. <!--not sure that this applies as described [here](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). For more information about how to create users in [!INCLUDE[d365fin](includes/cds_long_md.md)], see [Manage security, users, and teams](https://go.microsoft.com/fwlink/?LinkID=616518). --> Nadat de verbinding is ingesteld, wijst [!INCLUDE[d365fin](includes/d365fin_md.md)] aan het gebruikersaccount de beveiligingsrollen toe die het nodig heeft in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-<!--![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")-->
-
-> [!IMPORTANT]  
-> Gebruik het beheerdersaccount niet voor [!INCLUDE[d365fin](includes/cds_long_md.md)] voor synchronisatie. Als u dat doet wordt de synchronisatie verstoord.
+U moet uw beheerdersaccount toevoegen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] als gebruiker in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Bij het opzetten van de verbinding tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste componenten te installeren en configureren. 
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Wanneer u de CDS-basisintegratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen zijn gewijzigd, moet u deze mogelijk opnieuw instellen. U kunt dat doen door de CDS-basisintegratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Common Data Service-verbinding instellen**. De beveiligingsrol van Business Central CDS-integratie is geïmplementeerd.
-
+Wanneer u de CDS-basisintegratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen handmatig zijn gewijzigd, kunt u deze opnieuw instellen. U kunt dat doen door de CDS-basisintegratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Common Data Service-verbinding instellen**. De beveiligingsrol van Business Central CDS-integratie is geïmplementeerd.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
@@ -60,8 +51,8 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-#### Integration User
-The following table displays the minimum permissions on each tab for each security role that is required for the integration user.
+### Minimum Permissions for automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user.
 
 ##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|

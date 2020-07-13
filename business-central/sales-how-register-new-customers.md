@@ -1,8 +1,6 @@
 ---
 title: Een klantenkaart maken om nieuwe klanten registreren | Microsoft Docs
 description: Beschrijft hoe u een klantenkaart maakt om informatie te registreren over elke nieuwe klant of cliënt aan wie u verkoopt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324282"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503985"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
+
 Klanten zijn de bron van uw inkomsten. U moet elke klant aan wie u verkoopt registreren als een klantenkaart. Klantenkaarten bevatten de informatie die is vereist om producten aan de klant te verkopen. Zie voor meer informatie [Verkopen factureren](sales-how-invoice-sales.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes instellen waaruit u kunt selecteren bij het invullen van klantenkaarten. Zie [Verkopen instellen](sales-setup-sales.md) voor meer informatie.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Nieuwe klanten toevoegen
+
+Als u een nieuwe klant wilt registreren, moet u een klantenkaart invullen. U kunt sjablonen maken voor verschillende klantprofielen of u kunt klanten zonder sjablonen toevoegen.  
+
 > [!NOTE]  
 > Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.  
 
-## <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
+### <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
 2. Kies op de pagina **Klanten** de actie **Nieuw**.
 
@@ -44,12 +48,10 @@ Op het sneltabblad **Verkoopprijzen** kunt u speciale prijzen of kortingen weerg
 
 De klant is nu geregistreerd en de klantenkaart is klaar om voor verkoopdocumenten te worden gebruikt.
 
-### <a name="deleting-customer-cards"></a>Klantenkaarten verwijderen
-Als u een transactie voor een klant hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u klantenkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.
+Als u deze klantenkaart als sjabloon wilt gebruiken wanneer u nieuwe klantenkaarten maakt, kunt u deze opslaan als een sjabloon. Zie de volgende onderwerpen voor meer informatie.  
 
-Als u deze klantenkaart als sjabloon wilt gebruiken wanneer u nieuwe klantenkaarten maakt, kunt u deze opslaan als een sjabloon. Zie de volgende onderwerpen voor meer informatie.
+### <a name="to-save-the-customer-card-as-a-template"></a>De klantenkaart als sjabloon opslaan
 
-## <a name="to-save-the-customer-card-as-a-template"></a>De klantenkaart als sjabloon opslaan
 1. Kies op de pagina **Klantenkaart** de actie **Opslaan als sjabloon**. De pagina **Klantensjabloon** opent de weergave van de klantenkaart als sjabloon.
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft alle dimensiecodes weer die voor de klant zijn ingesteld.
@@ -58,10 +60,15 @@ Als u deze klantenkaart als sjabloon wilt gebruiken wanneer u nieuwe klantenkaar
 
 De klantensjabloon wordt toegevoegd aan de lijst met klantensjabloon, zodat u deze kunt gebruiken om nieuwe klantenkaarten te maken.
 
+## <a name="deleting-customer-cards"></a>Klantenkaarten verwijderen
+
+Als u een transactie voor een klant hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u klantenkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.  
+
 ## <a name="see-also"></a>Zie ook
+
 [Betalingsmethoden definiëren](finance-payment-methods.md)  
 [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)  
 [Nummerreeksen maken](ui-create-number-series.md)  
-[Verkoop](sales-manage-sales.md)    
-[Verkopen instellen](sales-setup-sales.md)    
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Verkoop](sales-manage-sales.md)  
+[Verkopen instellen](sales-setup-sales.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

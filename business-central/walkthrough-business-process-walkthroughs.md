@@ -8,24 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189279"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527820"
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
+
 Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  
 
  De procedures zijn complete scenario's en geven het beste resultaat als ze van begin tot eind worden uitgevoerd. Veel procedures zijn gebaseerd op de demogegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] en u kunt deze zelf uitproberen in uw eigen tempo.  
 
 > [!NOTE]
-> Sommige procedures gebruiken demonstratiegegevens die niet beschikbaar zijn in het standaard CRONUS-bedrijf. Voor procedures moet u de stappen uitvoeren in een bedrijf dat is gemaakt met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
+> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prodshort](includes/prodshort.md)]. Zie voor meer informatie [Een bedrijf maken met volledige voorbeeldgegevens in een sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
-|Aan|Zie|  
+|Als u dit wilt doen:|Zie|  
 |--------|---------|  
 |Stel een marketingcampagne in.|[Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)|  
 |Gebruik vooruitbetalingen om deelbetalingen te beheren voor verkopen en inkopen. **Vereist volledige voorbeeldgegevens** |[Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
@@ -41,6 +42,7 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 |Tekortenbeheer uitvoeren. **Vereist volledige voorbeeldgegevens**|[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

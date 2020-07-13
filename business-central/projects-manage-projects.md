@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190023"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529050"
 ---
 # <a name="project-management"></a>Projectbeheer
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 ## <a name="get-started-with-projects"></a>Aan de slag met projecten
 
-Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE [prodshort](includes/prodshort.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanaal.  
+Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE[prodshort](includes/prodshort.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-kanaal.  
 
 ## <a name="see-also"></a>Zie ook
 

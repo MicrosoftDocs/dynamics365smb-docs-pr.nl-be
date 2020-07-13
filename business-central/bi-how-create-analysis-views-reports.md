@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186104"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496837"
 ---
 #  <a name="create-analysis-reports"></a>Analyselijsten maken
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde.  
@@ -41,9 +41,9 @@ Vervolgens kunt u de volgende kolommen instellen:
 - % van omzet vorige maand  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Regel- en kolomindelingen instellen  
- Op de pagina **Analyselijst** kunt u afhankelijk van uw instellingen verschillende regel- en kolomindelingen bekijken. U stelt de regels of regelsjablonen op de pagina **Analyseregelsjablonen** in. Op deze pagina kunt u de naam van de lijst definiëren en de objecten die u in de regels van de lijst wilt weergeven. U stelt de kolommen op de pagina **Analysekolomsjablonen** in. Op deze pagina kunt u de naam van de kolomsjabloon definiëren en de analyseparameters die u in de kolommen van de lijst wilt weergeven. Iedere regel op de pagina **Analysekolomsjablonen** staat voor een kolom in de lijst. Analyseregels en analysekolommen zijn niet aan elkaar gekoppeld.  
+ Op de pagina **Analyserapport** kunt u verschillende regel- en kolomlay-outs bekijken volgens de regels of regelsjablonen die u hebt ingesteld op de pagina **Analyseregelsjablonen**. U kunt de naam van het rapport definiëren en de objecten die u op de regels van uw rapport wilt weergeven. U stelt de kolommen op de pagina **Analysekolomsjablonen** in. U kunt de naam van de kolomsjabloon definiëren en de analyseparameters die u als kolommen in het rapport wilt weergeven. Iedere regel op de pagina **Analysekolomsjablonen** staat voor een kolom in de lijst. Analyseregels en analysekolommen zijn niet aan elkaar gekoppeld.  
 
-Op basis van de regels en de kolommen die u hebt ingesteld, wordt het resultaat van de lijst op de pagina **Analyselijst** opgesteld met behulp van een matrix. Een voorbeeld:  
+Op basis van de regels en de kolommen die u hebt ingesteld, aggregeert [!INCLUDE[d365fin](includes/d365fin_md.md)] het resultaat van uw rapport op de pagina **Analyserapport**, zoals getoond in de volgende tabel.  
 
 | |Omzet lopende maand|Omzet vorige maand|% van omzet vorige maand|  
 |-|-|-|-|  

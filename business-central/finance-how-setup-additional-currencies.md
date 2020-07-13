@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183560"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528850"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen.
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
@@ -103,7 +103,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 5. De batchtaak **Rapp.-val. herwaarderen** wordt geopend.
 
     Met deze batchverwerking worden LV-bedragen van bestaande posten geconverteerd in de rapportagevaluta. Voor de batchverwerking wordt een standaardwisselkoers gebruikt die gekopieerd wordt van de wisselkoers die geldig is op de werkdatum op de pagina **Valutawisselkoersen**. Verschillenbedragen die ontstaan bij de conversie van LV naar de rapportagevaluta worden geboekt naar de verschillenrekeningen (winst of verlies) die zijn opgegeven op de pagina **Valuta's**. De boekingsdatum en het documentnummer van deze posten zijn gelijk aan de oorspronkelijke grootboekpost. Nadat alle verschilposten zijn geboekt, boekt de batchverwerking vervolgens een afrondingspost op de sluitdatum van elk afgesloten jaar naar de rekening voor ingehouden winst. Hiermee wordt ervoor gezorgd dat het eindsaldo van de resultatenrekeningen voor elk afgesloten jaar 0 is voor de LV en de rapportagevaluta.
-6. Vul de benodigde velden in. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Kies **OK** om de batchverwerking te starten.  
 
 Nadat u de batchverwerking hebt uitgevoerd, staan de bedragen van de volgende bestaande posten zowel in de LV als in de rapportagevaluta:  

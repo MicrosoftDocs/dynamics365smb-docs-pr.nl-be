@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372604"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528725"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
-Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
+Voordat u [!INCLUDE[prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
 
 ## <a name="browsers"></a>Browsers
 
@@ -40,7 +40,7 @@ Voordat u [!INCLUDE [prodshort](includes/prodshort.md)] online opent, is het raa
 **Apparaatgrootte:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt ondersteund op smartphones met een minimale schermgrootte van 4 inch en tablets met een minimale schermgrootte van 7 inch.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-toepassingen:** Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2016 of hoger, Outlook in een browser, Outlook voor iPhone, Outlook voor iPad of Outlook voor Android nodig. Uw organisatie moet ook Office 365 gebruiken. U kunt [!INCLUDE [prodshort](includes/prodshort.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt.  
+**Outlook-toepassingen:** Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2016 of hoger, Outlook in een browser, Outlook voor iPhone, Outlook voor iPad of Outlook voor Android nodig. Uw organisatie moet ook Office 365 gebruiken. U kunt [!INCLUDE[prodshort](includes/prodshort.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt.  
 **Browsers:** Wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt als uw zakelijke Postvak IN in Outlook in een browser, is het voor de invoegtoepassing nodig dat op uw computer een van de ondersteunde browsers is geïnstalleerd die eerder in dit artikel zijn vermeld.  
 **Platforms:** Wanneer u de Outlook-invoegtoepassing [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt in Outlook voor iPhone, Outlook voor iPad of Outlook voor Android, moet op uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[d365fin](includes/d365fin_md.md)] worden uitgevoerd.  
 

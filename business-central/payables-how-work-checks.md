@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190239"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503810"
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
 
 In de volgende procedure wordt beschreven hoe u een leverancier betaalt met een computercheque door de betaling te vereffenen met de relevante leveranciersfactuur, de cheque af te drukken en vervolgens de betaling te boeken als betaald. Dit leidt tot positieve leveranciersposten die worden vereffend met negatieve bankposten en fysieke cheques voor verwerking in de bank.
@@ -30,7 +31,8 @@ U kunt met twee soorten cheques betalen. Voor beide soorten moet het veld **Tege
 > [!NOTE]  
 > Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. Zie voor meer informatie [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md).
 
-De printer moet correct zijn ingesteld op het afdrukken van chequeformulieren en u moet bepalen welke indeling wordt gebruikt. Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> De printer moet correct zijn ingesteld op het afdrukken van chequeformulieren en u moet bepalen welke indeling wordt gebruikt. Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md). Als alternatief kunt u de cheque bijvoorbeeld als PDF-bestand verzenden.  
 
 U kunt maximaal 10 facturen op een pagina voor een chequestrook afdrukken. Als een cheque betrekking heeft op meer dan 10 facturen en u de strook afdrukt, maken we de cheque ongeldig op de eerste pagina en drukken we het woord VERNIETIGD op de cheque af. We drukken vervolgens de rest van de facturen en het totale chequebedrag op de tweede pagina af.
 
@@ -43,7 +45,7 @@ Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zij
 4. Selecteer **Automatische cheque** in het veld **Betalingssoort**.
 5. Kies de actie **Cheque afdrukken**.
 6. Vul de vereiste velden op het sneltabblad **Cheque** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Kies de knop **Verzenden naar**, selecteer de optie **PDF-document**, en kies de knop **OK**.
+7. Als uw printer is ingesteld om cheques af te drukken, kiest u de knop **Afdrukken**. Anders kiest u de knop **Verzenden naar**, selecteert u de optie **PDF-document**, kiest u de knop **OK** en drukt u het PDF-document af.
 
     De fysieke cheques kunnen nu naar de bank worden gebracht voor verwerking. Boek de betaling zoals vereffend met de leverancier en daarmee betaald in het systeem.
 8. Kies de actie **Boeken**.

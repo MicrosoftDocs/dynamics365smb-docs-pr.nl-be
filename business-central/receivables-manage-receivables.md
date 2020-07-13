@@ -1,8 +1,6 @@
 ---
 title: Overzicht van taken om tegoeden te beheren | Microsoft Docs
 description: Beschrijft taken om tegoeden te beheren en betalingen te vereffenen met klanten- of leveranciersposten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191919"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484223"
 ---
 # <a name="managing-receivables"></a>Tegoeden beheren
+
 Een veel voorkomende stap in het financiële ritme is het reconciliëren van bankrekeningen. Hierbij moet u inkomende betalingen vereffenen met klant- of leveranciersposten, om verkoopfacturen en inkoopcreditnota's te sluiten als betaald.
 
 Terwijl de meeste klanten in B2B-omgevingen enige tijd na levering betalen, waarbij de geboekte verkoopfacturen open blijven zodat de afdeling Vorderingen deze kan sluiten (vereffenen) wanneer betaling wordt ontvangen, kunnen sommige verkoopfacturen direct worden betaald, bijvoorbeeld met PayPal. Dergelijke facturen worden direct als betaald vereffend wanneer deze worden geboekt en worden daarom niet weergegeven als betalingen die moeten worden verwerkt in Crediteuren. Zie voor meer informatie bijvoorbeeld [Verkopen factureren](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ Er zijn andere pagina's waarin u betalingen kunt vereffenen of bankrekeningen ku
 * De pagina **Betalingsregistratie**, waar u betalingen handmatig kunt vereffenen die zijn ontvangen als contant, cheque of banktransactie, aan de hand van een gegenereerde lijst met niet-betaalde verkoopdocumenten. Deze functionaliteit is alleen beschikbaar voor verkoopdocumenten. Hier kunt u geen uitgaande betalingen vereffenen en kunt u geen bankrekeningen reconciliëren.
 * De pagina **Ontvangstendagboek**, waar u handmatig ontvangsten kunt boeken op de betreffende grootboek- of klantrekening of een andere rekening, door een betalingsregel in te voeren. U kunt de ontvangst of terugbetaling vereffenen met een of meer openstaande posten, voordat u het ontvangstendagboek boekt of via de klantposten. Hier kunt u geen bankrekeningen reconciliëren.
 
-De pagina's **Betalingsreconciliatiedagboek** en **Bankreconciliatie** gebruiken automatische overeenkomstlogica die u kunt instellen op de pagina **Regels betalingsvereffening**. Zie [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md) voor meer informatie.
+De pagina **Betalingsreconciliatiedagboek** gebruikt automatische overeenkomstlogica die u kunt instellen op de pagina **Regels betalingsvereffening**. Zie [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md) voor meer informatie.  
 
 Andere aspecten van het beheer van tegoeden omvatten het innen van openstaande saldi, inclusief rentefacturen en aanmaningen en het instellen van bankrekeningen om toe te staan dat betalingen van klanten automatisch van hun rekening worden afgeschreven.
 

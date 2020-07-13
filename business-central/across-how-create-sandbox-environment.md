@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: solsen
-ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188576"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535446"
 ---
-# <a name="creating-a-sandbox-environment-in-prodshort"></a>Een sandboxomgeving maken in [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Een sandboxomgeving maken in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Met [!INCLUDE [prodshort](includes/prodshort.md)] kunt u eenvoudig een veilige omgeving creëren waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
+Met [!INCLUDE[prodshort](includes/prodshort.md)] kunt u eenvoudig een veilige omgeving creëren waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
 
-Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), maar als u snel iets wilt testen, kunt u een sandbox-omgeving maken vanuit [!INCLUDE [prodshort](includes/prodshort.md)].  
+Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), maar als u snel iets wilt testen, kunt u een sandbox-omgeving maken vanuit [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > Technisch gezien zijn sandbox-omgevingen heel anders dan productieomgevingen, zelfs als uw beheerder een sandbox maakt die productiegegevens bevat. U kunt geen sandbox gebruiken voor benchmarking en u kunt bijvoorbeeld geen database-export aanvragen. Als u een sandbox voor benchmarking wilt maken, kan uw beheerder een speciale productieomgeving maken in het beheercentrum. Zie [Typen omgevingen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) voor meer informatie.
 
-## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Een sandboxomgeving maken in uw [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Een sandboxomgeving maken in uw [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Meld u aan bij uw productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -67,22 +67,31 @@ Een beheerder kan voor sommige gebruikers de toegang tot de sandboxomgeving bepe
 
 De sandboxomgeving is niet alleen nuttig omdat deze een aantal handige functies bevat.
 
+### <a name="to-enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
+
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen":::.  
+
+Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
+
+### <a name="to-enable-complete-sample-data"></a>Volledige voorbeeldgegevens inschakelen
+
+In de sandboxomgeving kunt u ook een nieuw bedrijf maken met de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens**, zodat u training kunt volgen of procedures kunt doorlopen waarvoor aanvullende voorbeeldgegevens nodig zijn, zoals [Procedure: Ontvangen en opslaan in basismagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+
+#### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Een bedrijf maken met volledige voorbeeldgegevens in een sandbox
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijven** in en kies de gerelateerde koppeling.  
+2. Kies de actie **Nieuw** en kies vervolgens **Nieuw bedrijf maken**.  
+3. Kies op de pagina **Begeleide instelling voor het maken van een bedrijf** **Volgende**.  
+4. Geef een naam op voor het nieuwe bedrijf en kies vervolgens in het veld **Selecteer de gegevens en de instelling om aan de slag te gaan** **Geavanceerde evaluatie - volledige voorbeeldgegevens**.  
+5. Voer de rest van de begeleide instelling uit.  
+
+Wanneer de begeleide instelling is voltooid, kunt u beginnen met het verkennen van het nieuwe bedrijf met de volledige voorbeeldgegevens. Zie [Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md) voor meer informatie.  
+
 ### <a name="designer"></a>Ontwerper
 
 In een sandboxomgeving is de **Ontwerper** ingeschakeld. U kunt de Ontwerper activeren door het ontwerppictogram ![Ontwerper](./media/across-sandbox/sandbox-inclient-design-icon.png) te selecteren op een pagina of door de menuoptie **Ontwerp** te kiezen in het menu ![Instellingen](media/ui-experience/settings_icon_small.png).
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-### <a name="to-enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen.
-
-<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
-
-<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
-
-Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
-
-<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 ## <a name="see-also"></a>Zie ook
 

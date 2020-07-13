@@ -1,8 +1,6 @@
 ---
 title: De extensie Betalingen en afstemmingen (DK) gebruiken | Microsoft Docs
 description: Deze extensie maakt het eenvoudig bestanden te exporteren die vooraf zijn ingedeeld om te voldoen aan de vereisten van de bank betreffende elektronische verzendingen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194079"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496762"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
+
 Snelle, foutloze betalingen doen door bestanden te exporteren die specifiek voor uitwisselingen met uw leverancier of bank zijn ingedeeld. Deze bestanden versnellen de betalings- en afstemmingprocessen, en voorkomen fouten die kunnen optreden als u handmatig de gegevens op een bankwebsite invoert.  
 
 De extensie ondersteunt bestandsindelingen voor diverse Deense banken. Wanneer u betalingsgegevens naar een bestand exporteert, verpakt de extensie de gegevens in de indeling die door de bank wordt vereist. Deze indelingen zijn onder andere Bankdata-V3, BEC, SDC en FIK, die door allerlei banken worden gebruikt, en een aantal bankspecifiekere indelingen, zoals Danske Bank en Nordea. De extensie bevat ook sommige indelingen voor het importeren van en de reconciliatie van bankafschriften.  
@@ -44,6 +43,7 @@ De extensie kan de volgende activiteiten voor betalingbestanden vereffenen:
 * SDC-CSV  
 
 ## <a name="to-set-up-the-extension"></a>De extensie instellen
+
 Er zijn een aantal stappen vereist als u aan de slag wilt.  
 
 * Sta het exporteren van betalingsgegevens toe. Ter bescherming van uw gegevens, is dit niet direct beschikbaar.  
@@ -54,15 +54,17 @@ Er zijn een aantal stappen vereist als u aan de slag wilt.
 Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsgroep** en een **leveranciersboekingsgroep**. De instelling Land/regio voor de leverancier moet Denemarken (DK) zijn. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
 
 ### <a name="to-allow-d365fin-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] toestaan betalingsgegevens te exproteren
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  
 3. Schakel het selectievakje **Exporteren betaling toestaan** in.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Een betalingswijze voor een leverancier opgeven
+
 De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die door [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund.
 
-||Soort 01 | Soort 04 | Soort 71 | Soort 73 |
-|----|---|---|---|---|
+|Combinatie|Soort 01 | Soort 04 | Soort 71 | Soort 73 |
+|----|--------|---------|---------|---------|
 |Girorekeningnr of FIK-crediteurennr? | Girorekeningnr | Girorekeningnr | FIK-crediteurennummer | FIK-crediteurennummer|
 |Bericht aan ontvanger toestaan? | Ja |Nee |Nee | Ja |
 |Bevat betalingreferentienummer? | Nr. | Ja, 16 cijfers. | Ja, 15 cijfers. | Nee|
@@ -72,11 +74,13 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 3. Afhankelijk van uw selectie moet u andere velden invullen. Zie de bovenstaande tabel voor een omschrijving van de combinaties.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>De indeling opgeven die voor een bankrekening moet worden gebruikt
+
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.  
 2. Open de kaart voor de bankrekening.  
 3. In het veld **Exportindeling betaling** kiest u de indeling voor uw exportbestand.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>De betalingsgevens FIK of Giro voor facturen van leveranciers kiezen
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
 2. Kies de leverancier. Dit moet een Deense leverancier zijn met een adres in Denemarken.
 3. Maak een factuur. De velden **Betalingswijze** en **Leveranciersnummer** worden ingevuld op basis van instellingen op de leverancierskaart. U kunt desgewenst wijzigingen aanbrengen.
@@ -88,6 +92,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 5. Boek de factuur.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>De extensie gebruiken om betalingsgegevens te exporteren
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Leveranciersbetalingsdagboeken voorstellen**.  
 
@@ -99,6 +104,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 5. Kies de actie **Exporteren**.  
 
 ## <a name="see-also"></a>Zie ook
+
 [Business Central aanpassen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met extensies](ui-extensions.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  

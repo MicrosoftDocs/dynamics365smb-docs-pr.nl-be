@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186032"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528950"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken in uw rolcentrum, zoals het Cashflowdiagram, en in rapporten, zoals de Resultatenrekening en de Balans.
@@ -71,7 +71,7 @@ U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterend
 > Een afgedrukte/opgeslagen of voorbeeldversie van een rapportageschema kan maximaal vijf kolommen weergegeven. Als het rapportageschema alleen voor analyse op de pagina **Rapportageschemaoverzicht** is bedoeld, kunt u zoveel kolommen maken als u wilt.
 
 1. Op de pagina **Rapportageschema's** selecteert u het relevante rapportageschema en kiest u vervolgens de actie **Instellingen kolomindeling bewerken**.
-2. Op de pagina **Kolomindelingen** maakt u een regel voor elke kolom waarmee financiële gegevens in het financiële rapport worden weergegeven. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Op de pagina **Kolomindelingen** maakt u een regel voor elke kolom waarmee financiële gegevens in het financiële rapport worden weergegeven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Kies de knop **OK**.
 4. Open van tijd tot tijd de pagina **Rapportageschemaoverzicht** om te controleren of de nieuwe kolomindeling werkt zoals bedoeld.
 

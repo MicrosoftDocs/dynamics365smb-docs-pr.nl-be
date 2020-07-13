@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 59ea09440624f2311d69b0c1657de4d9fc420826
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186905"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528600"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
 
@@ -27,13 +27,13 @@ U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en P
 > [!IMPORTANT]
 > De Power BI-apps die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme, tenzij anders vermeld. U hebt ook een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen, en de mensen met wie u deze deelt, hebben die ook nodig, anders moet de inhoud zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-[!INCLUDE [prodlong](includes/prodlong.md)] heeft de volgende apps gepubliceerd voor Power BI:
+[!INCLUDE[prodlong](includes/prodlong.md)] heeft de volgende apps gepubliceerd voor Power BI:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Finance  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Sales  
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>De [!INCLUDE [prodshort](includes/prodshort.md)]-dashboards gebruiken in Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>De [!INCLUDE[prodshort](includes/prodshort.md)]-dashboards gebruiken in Power BI
 
 Elke app bevat rapporten met verschillende detailniveaus:
 
@@ -42,7 +42,7 @@ Elke app bevat rapporten met verschillende detailniveaus:
 - Vergrendel deze aangepaste weergave op het dashboard om door te gaan met tracking.  
   U kunt gegevens handmatig vernieuwen en u kunt een schema voor vernieuwen instellen. Zie voor meer informatie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh).  
 
-De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!INCLUDE[prodshort](includes/prodshort.md)] hebt. Wanneer u de Power BI-app installeert, geeft u een of meer parameters op om verbinding te maken met uw [!INCLUDE [prodshort](includes/prodshort.md)].  
+De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!INCLUDE[prodshort](includes/prodshort.md)] hebt. Wanneer u de Power BI-app installeert, geeft u een of meer parameters op om verbinding te maken met uw [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > U kunt ook uw eigen rapporten en dashboards in Power BI samenstellen op basis van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Zie voor meer informatie [Uw bedrijfsgegevens verbinden met Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -54,7 +54,7 @@ De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!I
 
     ![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    U kunt ook aan de slag gaan vanuit [!INCLUDE [prodshort](includes/prodshort.md)]. Navigeer vanaf uw startpagina naar **Rapportselectie** in de sectie Power BI. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar Microsoft AppSource, die ook wordt gefilterd op alleen weergave van apps die verband houden met [!INCLUDE[prodshort](includes/prodshort.md)].
+    U kunt ook aan de slag gaan vanuit [!INCLUDE[prodshort](includes/prodshort.md)]. Navigeer vanaf uw startpagina naar **Rapportselectie** in de sectie Power BI. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar Microsoft AppSource, die ook wordt gefilterd op alleen weergave van apps die verband houden met [!INCLUDE[prodshort](includes/prodshort.md)].
 
 3. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een pagina geopend met de **AppSource** en **apps voor Power BI**.  
 
@@ -64,7 +64,7 @@ De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!I
 5. Voer desgevraagd de naam van de omgeving en het bedrijf in uw [!INCLUDE[prodshort](includes/prodshort.md)] in waarmee u verbinding wilt maken. Als u niet meerdere omgevingen hebt gemaakt, voert u **Productie** in. Zorg ervoor dat u voor de bedrijfsparameter de naam invoert en niet de weergavenaam. U vindt de bedrijfsnaam op de pagina **Bedrijven** in uw [!INCLUDE[prodshort](includes/prodshort.md)]-exemplaar.  
 
     > [!NOTE]
-    > Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises moet u de parameter *Webservice-URL* opgeven. U vindt dit op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]. Uw [!INCLUDE [server](includes/server.md)]-exemplaar moet zijn geconfigureerd voor basisverificatie en u moet een gebruiker en de webtoegangssleutel van die gebruiker opgeven als hun wachtwoord. Vervang in het volgende voorbeeld *myserver:7048* door uw [!INCLUDE [server](includes/server.md)]-naam en *CRONUS%20US* door uw bedrijfsnaam.  
+    > Als u verbinding maakt met [!INCLUDE[prodshort](includes/prodshort.md)] on-premises moet u de parameter *Webservice-URL* opgeven. U vindt dit op de pagina **Webservices** in [!INCLUDE[prodshort](includes/prodshort.md)]. Uw [!INCLUDE[server](includes/server.md)]-exemplaar moet zijn geconfigureerd voor basisverificatie en u moet een gebruiker en de webtoegangssleutel van die gebruiker opgeven als hun wachtwoord. Vervang in het volgende voorbeeld *myserver:7048* door uw [!INCLUDE[server](includes/server.md)]-naam en *CRONUS%20US* door uw bedrijfsnaam.  
     > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
 
 6. Eenmaal verbonden worden een dashboard en rapporten aan uw Power BI-werkruimte toegevoegd. Wanneer dit is voltooid, bevatten de tegels gegevens uit uw [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijf.
@@ -78,18 +78,18 @@ De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!I
 - [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
 - Standaard is uw gegevensset niet gepland om te vernieuwen. U kunt het vernieuwingsschema wijzigen of het op aanvraag proberen te vernieuwen met **Nu vernieuwen**. Zie voor meer informatie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Uw startpagina in [!INCLUDE [prodshort](includes/prodshort.md)] kan een Power BI-besturingselement bevatten dat kan worden geconfigureerd om Power BI-rapporten weer te geven op uw startpagina.
+Uw startpagina in [!INCLUDE[prodshort](includes/prodshort.md)] kan een Power BI-besturingselement bevatten dat kan worden geconfigureerd om Power BI-rapporten weer te geven op uw startpagina.
 
 > [!IMPORTANT]
-> U moet een geldige account bij [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI hebben. Als u rapporten wilt wijzigen, moet u ook Power BI Desktop downloaden. Zie voor meer informatie [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md).  
+> U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Als u rapporten wilt wijzigen, moet u ook Power BI Desktop downloaden. Zie voor meer informatie [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md).  
 
 ### <a name="on-first-login"></a>Bij eerste aanmelding
 
-Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE [prodshort](includes/prodshort.md)], ziet u een leeg Power BI-deel op uw startpagina. Om de rapporten te bekijken moet u eerst verbinding maken met Power BI door de koppeling *Aan de slag met Power BI* te selecteren.
+Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE[prodshort](includes/prodshort.md)], ziet u een leeg Power BI-deel op uw startpagina. Om de rapporten te bekijken moet u eerst verbinding maken met Power BI door de koppeling *Aan de slag met Power BI* te selecteren.
 
-[!INCLUDE [prodshort](includes/prodshort.md)] communiceert vervolgens met de Power BI-service om te bepalen of u een geldig Power BI-account hebt. Zodra uw licentie is geverifieerd, worden de standaard Power BI-rapporten weergegeven op uw startpagina.
+[!INCLUDE[prodshort](includes/prodshort.md)] communiceert vervolgens met de Power BI-service om te bepalen of u een geldig Power BI-account hebt. Zodra uw licentie is geverifieerd, worden de standaard Power BI-rapporten weergegeven op uw startpagina.
 
 ### <a name="selecting-power-bi-reports"></a>Power BI-rapporten selecteren
 
@@ -115,11 +115,11 @@ Keer terug naar het rolcentrum en het bijgewerkte rapport verschijnt. Als u de o
 
 ### <a name="uploading-reports"></a>Rapporten uploaden
 
-U kunt nieuwe Power BI-rapporten uploaden en delen met alle gebruikers van uw [!INCLUDE [prodshort](includes/prodshort.md)]. De rapporten worden binnen elk bedrijf binnen gedeeld in [!INCLUDE [prodshort](includes/prodshort.md)].  
+U kunt nieuwe Power BI-rapporten uploaden en delen met alle gebruikers van uw [!INCLUDE[prodshort](includes/prodshort.md)]. De rapporten worden binnen elk bedrijf binnen gedeeld in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Als u een rapport wilt uploaden, kiest u de actie **Rapport uploaden** in de vervolgkeuzelijst met opdrachten. U kunt vervolgens een .pbix-bestand uploaden dat de rapporten definieert die u wilt delen. U kunt de standaardnaam van het bestand wijzigen.  
 
-Zodra het rapport naar uw Power BI-werkruimte is geüpload, wordt het automatisch geüpload naar de Power BI-werkruimten van alle andere gebruikers in dat bedrijf bij hun volgende aanmelding bij [!INCLUDE [prodshort](includes/prodshort.md)].
+Zodra het rapport naar uw Power BI-werkruimte is geüpload, wordt het automatisch geüpload naar de Power BI-werkruimten van alle andere gebruikers in dat bedrijf bij hun volgende aanmelding bij [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
@@ -145,7 +145,7 @@ Als u uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens in Power BI wilt 
 - Labels van Power BI-rapport
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] on-premises gebruikt dezelfde eindpunten voor webservices als [!INCLUDE [prodshort](includes/prodshort.md)] online.
+> [!INCLUDE[prodshort](includes/prodshort.md)] on-premises gebruikt dezelfde eindpunten voor webservices als [!INCLUDE[prodshort](includes/prodshort.md)] online.
 
 ## <a name="web-services"></a>Webservices
 
@@ -163,7 +163,7 @@ Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt he
 
 Dit bericht verschijnt als het standaardrapport niet naar uw Power BI-werkruimte kan worden geïmplementeerd of het rapport is geïmplementeerd maar niet met succes is vernieuwd. Als dit gebeurt, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar Business Central en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE [prodshort](includes/prodshort.md)]-app in Power BI te installeren
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE[prodshort](includes/prodshort.md)]-app in Power BI te installeren
 
 U hebt een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen, en de mensen met wie u deze deelt, hebben die ook nodig, anders moet de inhoud zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -171,17 +171,17 @@ U hebt een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodi
 
 Deze fout geeft aan dat een van de parameters niet geldig is.
 
-- De opgegeven omgevingsparameter komt niet overeen met een bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-productie of sandboxomgeving.
-- De opgegeven bedrijfsparameter komt niet overeen met bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijven. Controleer de bedrijfsnaam op de pagina **Bedrijven** in [!INCLUDE [prodshort](includes/prodshort.md)].
-- Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. u hebt een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]  
+- De opgegeven omgevingsparameter komt niet overeen met een bestaande [!INCLUDE[prodshort](includes/prodshort.md)]-productie of sandboxomgeving.
+- De opgegeven bedrijfsparameter komt niet overeen met bestaande [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijven. Controleer de bedrijfsnaam op de pagina **Bedrijven** in [!INCLUDE[prodshort](includes/prodshort.md)].
+- Als u verbinding maakt met [!INCLUDE[prodshort](includes/prodshort.md)] on-premises. u hebt een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE[prodshort](includes/prodshort.md)]  
 - Er staat geen poort open om het verzoek door uw firewall te laten gaan.
 
 ### <a name="cannot-sign-in"></a>Kan me niet aanmelden
 
-Als u de fout "Aanmelding mislukt" krijgt nadat u zich aanmeldt met uw [!INCLUDE [prodshort](includes/prodshort.md)]-referenties, kan dat een van de volgende oorzaken hebben:
+Als u de fout "Aanmelding mislukt" krijgt nadat u zich aanmeldt met uw [!INCLUDE[prodshort](includes/prodshort.md)]-referenties, kan dat een van de volgende oorzaken hebben:
 
-- Het account dat u gebruikt, heeft geen machtigingen om de [!INCLUDE [prodshort](includes/prodshort.md)]-gegevens uit uw account op te halen. Controleer of u machtigingen hebt voor de vereiste gegevens in [!INCLUDE [prodshort](includes/prodshort.md)] en probeer het opnieuw.
-- U hebt een ander verificatietype dan Basis geselecteerd als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises.
+- Het account dat u gebruikt, heeft geen machtigingen om de [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens uit uw account op te halen. Controleer of u machtigingen hebt voor de vereiste gegevens in [!INCLUDE[prodshort](includes/prodshort.md)] en probeer het opnieuw.
+- U hebt een ander verificatietype dan Basis geselecteerd als u verbinding maakt met [!INCLUDE[prodshort](includes/prodshort.md)] on-premises.
 - U hebt geen geldige gebruikersnaam of wachtwoord ingevoerd.
 
 ### <a name="incorrect-company-name"></a>Onjuiste bedrijfsnaam
@@ -198,7 +198,7 @@ Zodra de Power BI-app is geïnstalleerd en uw gegevens verschijnen in Power BI, 
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Ik zie alleen gegevens voor één bedrijf
 
-De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf dat is gedefinieerd toen de Power BI-app werd geïnstalleerd. Gegevens van extra bedrijven kunnen aan de rapporten worden toegevoegd door nieuwe query's toe te voegen die verschillende bedrijven als gegevensbron gebruiken.  
+De Power BI-app toont alleen gegevens van het [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijf dat is gedefinieerd toen de Power BI-app werd geïnstalleerd. Gegevens van extra bedrijven kunnen aan de rapporten worden toegevoegd door nieuwe query's toe te voegen die verschillende bedrijven als gegevensbron gebruiken.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

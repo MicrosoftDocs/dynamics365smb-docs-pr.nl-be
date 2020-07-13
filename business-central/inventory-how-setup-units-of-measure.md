@@ -1,8 +1,6 @@
 ---
 title: Artikeleenheden instellen | Microsoft Docs
 description: U kunt meerdere maateenheden voor een artikel instellen zodat u maateenheden kunt toewijzen aan het artikel.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,24 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 04/01/2020
+ms.date: 07/06/2020
 ms.author: SorenGP
-ms.openlocfilehash: f8ddba0ba5507d205e5e8fdf6f04007ac1060462
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7251be2de0cd8b368f0510596b0c695a93acc4b6
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182072"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535959"
 ---
-# <a name="set-up-item-units-of-measure"></a>Artikeleenheden instellen
+# <a name="set-up-units-of-measure"></a>Maateenheden instellen
+
+Als onderdeel van het opzetten van uw [!INCLUDE [prodshort](includes/prodshort.md)] stelt u algemene maateenheden in op de pagina **Maateenheden**. Wanneer u vervolgens nieuwe artikelen registreert, specificeert u de basismaateenheid op de **artikelkaart**. Maar u kunt later ook maateenheden toevoegen.  
+
 U kunt meerdere eenheden voor een artikel instellen zodat u eenheden kunt toewijzen aan het artikel voor de volgende doeleinden:
 
 - Wijs een basiseenheid op de artikelkaart van het artikel toe om te bepalen hoe het wordt opgeslagen in voorraad en om als conversiebasis te dienen voor alternatieve eenheden.
 - Wijs alternatieve eenheden aan inkoop-, productie- of verkoopdocumenten toe om op te geven hoeveel eenheden van de basiseenheid u tegelijk verwerkt in die processen. U kunt het artikel bijvoorbeeld kopen op pallets en alleen afzonderlijke delen in de productie gebruiken.
 
-Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen**. Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd. Zie voor meer informatie [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
+Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen**. Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd. Zie voor meer informatie [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
 
-## <a name="to-set-up-a-unit-of-measure"></a>Een eenheid instellen
+## <a name="to-set-up-units-of-measure"></a>Maateenheden instellen
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies de gerelateerde koppeling.  
+2. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.  
+3. Vul de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+4. Als u weet dat uw organisatie artikelen met deze maateenheid zal verkopen aan klanten in andere landen, kunt u vertalingen toevoegen.  
+    1. Selecteer de code waarvoor u vertalingen wilt instellen en kies de actie **Vertalingen**.
+    2. Selecteer in het veld **Taal** de pijl-omlaag voor een overzicht van de beschikbare taalcodes. Selecteer de taalcode waarvoor u een vertaling wilt invoeren en kies de knop OK om de code naar het veld te kopiëren.
+    3. Voer de gewenste tekst in het veld **Omschrijving** in.
+5. Herhaal de vorige stappen voor eventuele extra maateenheden die u wilt toevoegen.  
+
+Wanneer u een nieuw artikel registreert, kunt u de basismaateenheid kiezen uit de lijst met maateenheden die u nu hebt ingesteld. U kunt ook meerdere maateenheden voor een artikel instellen.  
+
+## <a name="to-set-up-multiple-item-units-of-measure"></a>Meerdere maateenheden voor artikelen instellen
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Open de artikelkaart waarvoor u alternatieve eenheden wilt instellen.
 3. Kies de actie **Eenheden**. De pagina **Artikeleenheden** wordt geopend.
@@ -35,11 +50,17 @@ Als een artikel in één eenheid in voorraad is, maar in een andere eenheid word
 5. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.
 6. Voer in het veld **Code** de naam van de eenheid in. Of kies het veld waaruit u de eenheidscodes in de database wilt selecteren.
 7. Voer in het veld **Aantal per eenheid** in hoeveel eenheden van de basismaateenheid de nieuwe maateenheid bevat.
-8. Herhaal stap 5 t/m 7 om alle alternatieve eenheden in te stellen die u in verschillende processen voor dit artikel wilt gebruiken.
+8. In de velden **Hoogte**, **Breedte**, **Lengte** en **Gewicht** kunt u de exacte gegevens voor één maateenheid opgeven. Vervolgens kan [!INCLUDE [prodshort](includes/prodshort.md)] berekenen hoeveel er van ieder artikel in een bepaalde opslaglocatie kan worden geplaatst. Het veld **Kubieke inhoud** wordt automatisch berekend op basis van **Hoogte**, **Breedte** en **Lengte**.
 
-U kunt nu afwisselende eenheden gebruiken op inkoop-, productie- en verkoopdocumenten. Zie voor meer informatie Standaardeenheidscodes invoeren voor inkoop- en verkooptransacties of De productiebatcheenheid gebruiken.
+    Als een van deze velden een andere waarde dan 0 bevat, wordt die maat gebruikt tijdens alle processen waarbij artikelen in een opslaglocatie worden geplaatst: opslag, verplaatsingen, ontvangsten, zendingen, picks en aanpassingen. [!INCLUDE [prodshort](includes/prodshort.md)] controleert het totaal van elke fysieke maat van de artikelen die worden opgeslagen en de artikelen die al in de opslaglocatie aanwezig zijn, en vergelijkt dit met de maximale grootte of andere maat die in een opslaglocatie past, volgens het capaciteitsbeleid voor de opslaglocatie dat is geselecteerd op de vestigingskaart voor dit artikel. Met andere woorden, u moet voor elke dimensie voor alle artikelmaateenheden dezelfde maateenheid gebruiken - gebruik bijvoorbeeld kilogram of pond voor gewicht, maar wees consistent.
+9. Herhaal stap 5 t/m 7 om alle alternatieve eenheden in te stellen die u in verschillende processen voor dit artikel wilt gebruiken.
+
+    In het veld **Basiseenheid** onder in het venster kunt u de basiseenheid van het artikel weergeven of wijzigen. U kunt ook de basiseenheden wijzigen in het veld **Basiseenheid** op de artikelkaart. Op de pagina **Artikeleenheden** moet de basismaateenheid de waarde **1** hebben in het veld **Aantal per maateenheid**.
+
+U kunt nu de alternatieve maateenheden gebruiken voor aankoop-, productie- en verkoopdocumenten zoals beschreven in de sectie [Een standaardmaateenheidcode invoeren voor verkoop- en inkooptransacties](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Eenheidsvertalingen instellen
+
 Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelijk opgeven in de taal van de klant. Als u dit wilt doen, moet u de benodigde eenheidsvertalingen instellen.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies de gerelateerde koppeling.
@@ -49,6 +70,7 @@ Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelij
 5. Herhaal stap 2 tot en met 4 voor de maateenheidscodes en de talen waarvoor u vertalingen wilt invoeren.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties
+
 Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt u verschillende eenheden opgeven voor inkopen en verkopen. U moet hiervoor de maateenheden instellen op de pagina **Artikeleenheden**.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
@@ -58,8 +80,10 @@ Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt
 5. Selecteer de code die u als standaardeenheid voor respectievelijk verkopen of inkopen wilt instellen en kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
+[Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Inkopen beheren](purchasing-manage-purchasing.md)  
-[Verkopen beheren](sales-manage-sales.md)    
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Verkopen beheren](sales-manage-sales.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

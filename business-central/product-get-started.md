@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190167"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528750"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.  
 
 Als u hulp wilt met uw abonnement, zoekt u een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
-Wanneer u zich aanmeldt voor [!INCLUDE [prodshort](includes/prodshort.md)], krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf nieuwe verkoopdocumenten maken of een bankrekening instellen. Als u [!INCLUDE [prodshort](includes/prodshort.md)] echter wilt gebruiken om uw bedrijf te runnen, moet u contact opnemen met a [!INCLUDE [prodshort](includes/prodshort.md)]-partnerverkoper en een abonnement kopen. Zie voor meer informatie over proefversies en abonnementen [Proeven en abonnementen](across-preview.md).  
+Wanneer u zich aanmeldt voor [!INCLUDE[prodshort](includes/prodshort.md)], krijgt u toegang tot een demonstratiebedrijf. Het demonstratiebedrijf bevat voorbeeldgegevens, maar u kunt bijvoorbeeld zelf nieuwe verkoopdocumenten maken of een bankrekening instellen. Als u [!INCLUDE[prodshort](includes/prodshort.md)] echter wilt gebruiken om uw bedrijf te runnen, moet u contact opnemen met a [!INCLUDE[prodshort](includes/prodshort.md)]-partnerverkoper en een abonnement kopen. Zie voor meer informatie over proefversies en abonnementen [Proeven en abonnementen](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] leren kennen
 
@@ -34,7 +34,7 @@ Zie voor meer informatie [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 > [!TIP]  
 > U kunt altijd naar het rolcentrum teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
 
-In het demonstratiebedrijf omvatten de rolcentra Bedrijfsmanager en Accountant de tegel Aan de slag en de tegel Productvideo's. Beide tegels starten pagina's waarop u kunt kiezen tussen verschillende video's die u kunnen helpen aan de slag te gaan met verschillende aspecten van [!INCLUDE [prodshort](includes/prodshort.md)]. U kunt meer video's vinden in ons YouTube-kanaal. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md). U kunt ook eLearning-inhoud voor de basisversie van [!INCLUDE [prodshort](includes/prodshort.md)] vinden op [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Als u meer hulp wilt, neemt u contact op met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
+In het demonstratiebedrijf omvatten de rolcentra Bedrijfsmanager en Accountant de tegel Aan de slag en de tegel Productvideo's. Beide tegels starten pagina's waarop u kunt kiezen tussen verschillende video's die u kunnen helpen aan de slag te gaan met verschillende aspecten van [!INCLUDE[prodshort](includes/prodshort.md)]. U kunt meer video's vinden in ons YouTube-kanaal. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md). U kunt ook eLearning-inhoud voor de basisversie van [!INCLUDE[prodshort](includes/prodshort.md)] vinden op [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Als u meer hulp wilt, neemt u contact op met een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
 Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](across-business-functionality.md).
 

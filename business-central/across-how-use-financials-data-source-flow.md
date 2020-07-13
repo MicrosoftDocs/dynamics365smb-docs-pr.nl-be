@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187952"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529000"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)] gebruiken in een geautomatiseerde werkstroom
 
@@ -55,7 +55,7 @@ U kunt uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens als onderdeel va
     > [!NOTE]
     > De [!INCLUDE[prodshort](includes/prodshort.md)]-connector voor Power Automate ondersteunt meerdere productie- en sandboxomgevingen. Als u niet meerdere productie- of sandboxomgevingen hebt gemaakt, is **Productie** de enige beschikbare optie die u kunt kiezen.  
 
-    Nu hebt u met succes een verbinding gemaakt met uw Business Central[!INCLUDE [prodshort](includes/prodshort.md)]-gegevens en kunt u uw stroom gaan maken.
+    Nu hebt u met succes een verbinding gemaakt met uw Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-gegevens en kunt u uw stroom gaan maken.
 
 9. Als u een flow van een sjabloon wilt maken, kiest u de optie **Beginnen met sjabloon**.
 10. Zoek **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-sjablonen.

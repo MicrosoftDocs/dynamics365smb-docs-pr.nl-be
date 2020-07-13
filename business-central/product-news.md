@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190119"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528775"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nieuwe functies in Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 U kunt altijd het releaseplan raadplegen voor een overzicht van nieuwe en aankomende functionaliteit. Hier in de documentatie vindt u vervolgens onderwerpen die u kunnen helpen meer te weten te komen over nieuwe en bestaande functies in [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -30,7 +30,7 @@ Om alle extensies te zien die worden aangeboden door [!INCLUDE[d365fin](includes
 
 We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
 
-Voor de partnergemeenschap publiceren we informatie over [Microsoft Dynamics 365 Business Central op het Dynamics 365-blog voor partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en in de [Ontwikkelaar en IT-pro Help voor [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+Voor de partnergemeenschap publiceren we informatie over [Microsoft Dynamics 365 Business Central op het Dynamics 365-blog voor partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en in de [Ontwikkelaar en IT-pro Help voor [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Zie ook
 

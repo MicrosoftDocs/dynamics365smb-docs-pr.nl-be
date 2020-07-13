@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187448"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528424"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)] verwijderen of het abonnement erop stoppen
 
@@ -31,7 +31,7 @@ Als u zich hebt aangemeld voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met e
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Abonnement opzeggen door [!INCLUDE[d365fin](includes/d365fin_md.md)] te verwijderen uit uw Office 365-omgeving
 
-Als uw bedrijf zich abonneert op [!INCLUDE [prodshort](includes/prodshort.md)], maar u als gebruiker niet langer toegang wilt, moet u uw beheerder of uw wederverkoper van Dynamics 365 vragen de [!INCLUDE[d365fin](includes/d365fin_md.md)]-licentie uit uw Office 365-gebruikersaccount te verwijderen. Als [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt verwijderd uit uw gebruikersaccount en andere personen in uw bedrijf het abonnement voortzetten, hebben uw collega's nog steeds toegang tot uw gedeelde gegevens in het [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf.  
+Als uw bedrijf zich abonneert op [!INCLUDE[prodshort](includes/prodshort.md)], maar u als gebruiker niet langer toegang wilt, moet u uw beheerder of uw wederverkoper van Dynamics 365 vragen de [!INCLUDE[d365fin](includes/d365fin_md.md)]-licentie uit uw Office 365-gebruikersaccount te verwijderen. Als [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt verwijderd uit uw gebruikersaccount en andere personen in uw bedrijf het abonnement voortzetten, hebben uw collega's nog steeds toegang tot uw gedeelde gegevens in het [!INCLUDE[d365fin](includes/d365fin_md.md)]-bedrijf.  
 
 Als uw bedrijf het abonnement op [!INCLUDE[d365fin](includes/d365fin_md.md)] wil stoppen, kan de Dynamics 365-partner-reseller het betaalde abonnement verwijderen uit de account van het bedrijf. Zie voor meer informatie [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in de inhoud voor ontwikkelaars en IT-pro's.  
 

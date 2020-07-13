@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188696"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528097"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -22,13 +22,13 @@ Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een p
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie voor meer informatie [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (alleen beschikbaar in het Engels).  
 
-## <a name="how-do-i-get-prodshort"></a>Hoe krijg ik [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>Hoe krijg ik [!INCLUDE[prodshort](includes/prodshort.md)]?
 
-U kunt zich aanmelden voor een gratis proefversie om [!INCLUDE [prodshort](includes/prodshort.md)] uit te proberen. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Als u meer tijd wilt om rond te kijken, kunt u [uw proeftijd verlengen](#can-i-extend-my-30-day-new-company-trial-period).  
+U kunt zich aanmelden voor een gratis proefversie om [!INCLUDE[prodshort](includes/prodshort.md)] uit te proberen. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Als u meer tijd wilt om rond te kijken, kunt u [uw proeftijd verlengen](#can-i-extend-my-30-day-new-company-trial-period).  
 
-Start voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten in [!INCLUDE [prodshort](includes/prodshort.md)] begeleide instellingen, video's of Help-onderwerpen voor geselecteerde instellingstaken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+Start voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten in [!INCLUDE[prodshort](includes/prodshort.md)] begeleide instellingen, video's of Help-onderwerpen voor geselecteerde instellingstaken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
-Wanneer u gereed bent om [!INCLUDE [prodshort](includes/prodshort.md)] aan te schaffen, vindt u een [!INCLUDE [prodshort](includes/prodshort.md)]-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
+Wanneer u gereed bent om [!INCLUDE[prodshort](includes/prodshort.md)] aan te schaffen, vindt u een [!INCLUDE[prodshort](includes/prodshort.md)]-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Waar ga ik met mijn vragen naartoe?
 Als u vragen hebt over [!INCLUDE[d365fin](includes/d365fin_md.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Business Central-community. Zie [Dynamics 365 Business Central-community](https://community.dynamics.com/business) voor meer informatie.  
@@ -50,7 +50,7 @@ Ja, dat kan. U vindt gratis eLearning-inhoud op de [Microsoft Learn-site](/learn
 
 Zie de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers) voor meer informatie over training voor Dynamics 365 die door Microsoft wordt gegeven.  
 
-Aanvullend materiaal vindt u in de [!INCLUDE [prodshort](includes/prodshort.md)]-community, zoals de [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), die door een partner is geschreven.  
+Aanvullend materiaal vindt u in de [!INCLUDE[prodshort](includes/prodshort.md)]-community, zoals de [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), die door een partner is geschreven.  
 
 ## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Hoe kan ik technische ondersteuning krijgen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -101,18 +101,26 @@ Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten 
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hoe vind ik een partner-reseller?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] wordt verkocht en geïmplementeerd via een wereldwijd netwerk van Dynamics 365-partners met industriële expertise. Neem contact op met een partner voor een gedetailleerde beoordeling, adviesdiensten en extra prijzen. Zie voor meer informatie de sectie **Prijzen** op de [pagina Dynamics 365 Business Central op microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+[!INCLUDE[prodshort](includes/prodshort.md)] wordt verkocht en geïmplementeerd via een wereldwijd netwerk van Dynamics 365-partners met industriële expertise. Neem contact op met een partner voor een gedetailleerde beoordeling, adviesdiensten en extra prijzen. Zie voor meer informatie de sectie **Prijzen** op de [pagina Dynamics 365 Business Central op microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
-Wanneer u zover bent om [!INCLUDE [prodshort](includes/prodshort.md)] aan te schaffen, kunt u een [!INCLUDE [prodshort](includes/prodshort.md)]-partner vinden op de pagina [Ik ben op zoek naar een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Oplossingen en services van partners kunt u ook vinden in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+Wanneer u zover bent om [!INCLUDE[prodshort](includes/prodshort.md)] aan te schaffen, kunt u een [!INCLUDE[prodshort](includes/prodshort.md)]-partner vinden op de pagina [Ik ben op zoek naar een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Oplossingen en services van partners kunt u ook vinden in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 Als u advies van Microsoft wilt, kunt u contact opnemen met het [Microsoft Sales-team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.
+Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Waarom is nieuwe informatie niet beschikbaar in mijn taal?
+
+Op de docs.microsoft.com-site wordt inhoud over bedrijfsfunctionaliteit in een aantal talen gepubliceerd. De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. Dit betekent dat u deze nieuwe inhoud maximaal 4 weken niet in uw eigen taal kunt lezen.  
+
+We begrijpen de problemen die dit kan veroorzaken en we moedigen gebruikers aan om in het Engels te zoeken naar wat ze zoeken als ze het niet in hun eigen taal kunnen vinden.  
 
 ## <a name="is-the-windows-client-supported"></a>Wordt de Windows-client ondersteund?
+
 De eerste releases van [!INCLUDE[prodshort](includes/prodshort.md)] on premises omvatte een geïnstalleerde client afgeleid van Microsoft Dynamics NAV. Vanaf 2019 releasewave 2 zal dit oudere onderdeel, 'de Windows-client' genoemd, niet langer beschikbaar zijn voor [!INCLUDE[prodshort](includes/prodshort.md)]. Zie voor meer informatie [Veelgestelde vragen over de Windows Client en Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Zie ook
+
 [Aan de slag](product-get-started.md)  
 [Veelgestelde vragen over Vertel me](ui-search-faq.md)  
 [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  

@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184016"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542704"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
-Het spreekwoord luidt Geld moet rollen. De diagrammen in het rolcentrum Accountant bevatten informatie aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
+De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
 
 | Ter beantwoording van vragen als onderstaande | Dit diagram gebruiken. |
 | --- | --- |

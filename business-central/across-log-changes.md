@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187735"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528825"
 ---
 # <a name="auditing-changes-in-business-central"></a>Wijzigingen controleren in Business Central
 
@@ -40,7 +40,7 @@ Nadat u het wijzigingslogbestand hebt ingesteld, hebt geactiveerd en gegevens he
 
 ## <a name="working-with-activity-logs"></a>Werken met activiteitenlogboeken
 
-Vanaf enkele pagina's in [!INCLUDE [prodshort](includes/prodshort.md)] kunt u een activiteitenlogboek bekijken dat de status en eventuele fouten weergeeft van bestanden waarnaar u exporteert vanuit of importeert in [!INCLUDE [prodshort](includes/prodshort.md)].  
+Vanaf enkele pagina's in [!INCLUDE[prodshort](includes/prodshort.md)] kunt u een activiteitenlogboek bekijken dat de status en eventuele fouten weergeeft van bestanden waarnaar u exporteert vanuit of importeert in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 De informatie wordt weergegeven in het venster **Activiteitenlogboek**, volgens de context van waaruit het wordt geopend. U kunt het venster bijvoorbeeld openen vanuit de pagina's **Documentuitwisselingsservice instellen**, **Inkomend document**, **Geboekte verkoopfactuur**en **Geboekte verkoopkredietnota**. U kunt de lijst met logboekvermeldingen leegmaken of gewoon de lijst met vermeldingen ouder dan 7 dagen wissen.  
 
