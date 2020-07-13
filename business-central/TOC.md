@@ -38,10 +38,11 @@
 ## [Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md)
 ## [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)
 ## [Verplichte velden detecteren](ui-mandatory-fields.md)
-## [Taal en landinstellingen wijzigen](about-locale-language.md)
+## [Taal en regio wijzigen](about-locale-language.md)
 ## [Weergeven en bewerken in Excel](across-work-with-excel.md)
 ## [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md)
 ## [Basisinstellingen wijzigen](ui-change-basic-settings.md)
+## [Overschakelen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md)
 ## [Berichten beheren](ui-smart-notifications.md)
 ## [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Business Central aanpassen
@@ -128,7 +129,7 @@
 ### [Nieuwe artikelen registreren](inventory-how-register-new-items.md)
 ### [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md)
 ### [Over artikeltypen](inventory-about-item-types.md)
-### [Artikeleenheden instellen](inventory-how-setup-units-of-measure.md)
+### [Maateenheden instellen](inventory-how-setup-units-of-measure.md)
 ### [SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Artikelen categoriseren](inventory-how-categorize-items.md)
 ### [Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)
@@ -216,7 +217,7 @@
 #### [Gegevens kopiëren naar nieuwe bedrijven](admin-how-to-copy-data-to-new-companies.md)
 #### [Beginsaldi van dagboeken maken](admin-how-to-create-journal-opening-balances.md)
 ### [Instellingsgegevens van klanten verzamelen](admin-gather-customer-setup-values.md)
-### [Migratie van klantgegevens voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Migratie van klantgegevens met sjablonen voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Klantgegevens migreren](admin-migrate-customer-data.md)
 ### [Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -325,6 +326,7 @@
 ## [Gebruikers maken volgens licenties](ui-how-users-permissions.md)
 ## [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)
 ## [Profielen beheren](admin-users-profiles-roles.md)
+## [Gebruikersinstellingen en voorkeuren beheren](admin-manage-user-settings-preferences.md)
 ## [Printers instellen](ui-specify-printer-selection-reports.md)
 ## [Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)
 ## [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)
@@ -348,7 +350,6 @@
 ### [Een gekleurde indicator instellen voor indicatiestapels](admin-how-set-up-colored-indicator-on-cues.md)
 ### Aanpassen met behulp van extensies
 #### [Overzicht](ui-extensions.md)
-#### [Aanpassen met behulp van extensies](ui-extensions.md)
 #### [Accountantportal voor Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)
@@ -384,7 +385,6 @@
 ### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Financiën
 ## [Overzicht](finance.md)
@@ -508,6 +508,7 @@
 ## [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)
 ## [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)
 ## [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)
+## [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
 ## [Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md)
 ## [Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Financiële overzichten analyseren in Excel:](finance-analyze-excel.md)
@@ -626,7 +627,6 @@
 ### [Opportunities maken](marketing-how-create-opportunities.md)
 ### [E-mailberichtuitwisselingen volgen](marketing-set-up-email-logging.md)
 ### [Verkoopopportunity's verwerken](marketing-processing-sales-opportunities.md)
-### [E-maillogboekregistratie instellen](marketing-set-up-email-logging.md)
 ## [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md)
 ## [Dynamics 365 for Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
 ### [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -768,6 +768,7 @@
 ## Ontwerpdetails: Voorraadwaardering
 ### [Overzicht](design-details-inventory-costing.md)
 ### [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
+### [Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)
 ### [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
 ### [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
@@ -1404,7 +1405,7 @@
 #### [Zwitserse btw](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Btw-tarieven voor Zwitserland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Bankieren en betalingen
-#### QR-factuurbeheer (LocalFunctionality / Switzerland / ui-extensions-qr-bill-management.md)
+#### [QR-factuurbeheer](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Een LSV-verzameling afsluiten](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Betalingen exporteren met LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [ESR-betalingen importeren](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
