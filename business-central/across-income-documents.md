@@ -1,8 +1,6 @@
 ---
 title: Werken met inkomende documenten| Microsoft Docs
 description: U kunt inkomende externe bedrijfsdocumenten, zoals betalingsontvangsten of PDF's beheren, OCR-taken beheren en elektronische bestanden naar documenten en records omzetten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0c0c71de9b560f94427c26ffed944a8155639028
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187808"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676881"
 ---
 # <a name="incoming-documents"></a>Inkomende documenten
+
 Bepaalde bedrijfstransacties worden niet vanaf het begin geregistreerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In plaats daarvan wordt een extern bedrijfsdocument bezorgd bij uw bedrijf als e-mailbijlage of als papieren exemplaar dat u kunt scannen. Dit is meestal bij aankopen, waarbij dergelijke inkomende documentbestanden betalingontvangsten voor kosten of kleine inkopen vertegenwoordigen.
 
-In PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen, kunt u een externe OCR-service (Optical Character Recognition - optische tekenherkenning) elektronische documenten laten genereren die naar documentrecords kunnen worden geconverteerd binnen [!INCLUDE[d365fin](includes/d365fin_md.md)].
+In PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen, kunt u een externe OCR-service (Optical Character Recognition - optische tekenherkenning) elektronische documenten laten genereren die naar documentrecords kunnen worden geconverteerd binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kies een servicepakket dat past bij uw organisatie en/of land/regio. U kunt ook handmatig items maken die de externe documenten vertegenwoordigen.  
 
 Op de pagina **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
 
@@ -47,5 +46,6 @@ Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste act
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c47f579ad2d3b6a1597ea6f6a64af0e4bbae5acc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 301a399021b686b0a612cc85faabcdac459fd1b0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180868"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676677"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Bankrekeningen instellen voor CODA
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  
@@ -28,7 +28,7 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
 
 ## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Protocolnummers en versiecodes instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bewerken**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9afa545cf50c00ad6689349e939f0251d8060c22
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 57aac3270327b1b1f128874b7eebb6c0331c48d0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180898"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676594"
 ---
 # <a name="create-payment-journal-templates-and-batches"></a>Betalingsdagboeksjablonen en -batches maken
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] worden betalingsvoorstellen gegenereerd en geboekt in betalingsdagboeken. De structuur van het betalingsdagboek lijkt op die van andere dagboeksoorten. Het betalingsdagboek bevat echter enkele velden die specifiek betrekking hebben op het verwerken van betalingen. Voordat u betalingsvoorstellen kunt genereren, moet u een betalingsdagboeksjabloon en een betalingsdagboekbatch instellen.  
@@ -21,7 +21,7 @@ Als u een bankrekening toewijst aan de betalingsdagboeksjabloon, wordt de bankre
 
 ## <a name="to-create-a-payment-journal-template"></a>Een betalingsdagboeksjabloon maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Betalingsdagboeksjablonen** de velden in zoals wordt beschreven in de volgende tabel.  
 

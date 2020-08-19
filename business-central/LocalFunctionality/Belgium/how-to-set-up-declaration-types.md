@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61fdccfc6bcb82519e2022e9d05b5814b7b31bf5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 01487411d58c323b163924e4d59f06585d6010d9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180864"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677185"
 ---
 # <a name="set-up-declaration-types"></a>Aangiftesoorten instellen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zijn er twee soorten aangiftes:  
@@ -29,7 +29,7 @@ Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat
 
 ## <a name="to-set-up-declaration-types"></a>Aangiftesoorten instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Grootboekinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Schakel op het sneltabblad Algemeen het selectievakje **Vereenvoudigde Intrastat-aangifte** in om een vereenvoudigde aangiftesoort in te stellen. Schakel dit veld uit om uitgebreide aangifte te gebruiken.  
 3.  Kies de knop **OK**.  
 

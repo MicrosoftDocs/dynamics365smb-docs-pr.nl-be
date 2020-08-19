@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d0aa32c87a4d273a49796ef333bb0e63d5429de
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fd31fd98908d5b6b7bebd663e93926bff212a8e1
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180884"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677153"
 ---
 # <a name="make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren
 U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.  
 
 ## <a name="to-make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Btw-aangiftevoorbeeld** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-aangiftevoorbeeld** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de regel die moet worden gecorrigeerd. U kunt de btw-correctie voor de rijen **Vak-/Rubrieksamentelling** en **Btw-postentotaal** doorvoeren bij **Soort**.  
 3.  Kies het veld **Correctiebedrag** om de correctie door te voeren. De pagina **Lijst met handmatige btw-correcties** wordt geopend.  
 4.  Kies de actie **Lijst bewerken**. Vul op de pagina **Lijst met handmatige btw-correcties** de velden in zoals wordt beschreven in de volgende tabel.  

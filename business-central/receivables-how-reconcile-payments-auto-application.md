@@ -1,8 +1,6 @@
 ---
-title: Automatische vereffening gebruiken om betalingen te reconciliëren | Microsoft Docs
+title: Betalingen reconciliëren met automatische vereffening
 description: Beschrijft hoe u de automatische vereffeningsfunctie gebruikt om betalingen of kasontvangsten te vereffenen met de gerelateerde openstaande posten, en om betalingen te reconciliëren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0acef518c6333061aa9c321b91c47aa1da8df2c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17d0a3acb019643d7ccf39013dede82e311245b6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192006"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617612"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
+
 Op de pagina **Dagboek betalingsreconciliatie** worden inkomende of uitgaande betalingen opgegeven die als transacties zijn vastgelegd op uw online bankrekening en die u kunt vereffenen met de gerelateerde openstaande, klant-, leveranciers- en bankrekeningposten. De dagboekregels worden ingevuld door een bankafschrift als een bankfeed of bestand te importeren.
 
 > [!NOTE]

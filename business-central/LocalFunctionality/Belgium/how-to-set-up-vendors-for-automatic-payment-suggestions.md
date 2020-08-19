@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a567a9addbfa9a7b5bb258f844ee885b418edd0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1a700857d2085d4f6cdb488d978b142e7b4b70e3
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180852"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677083"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Leveranciers voor automatische betalingsvoorstellen instellen
 U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen. Voor elke leverancier moet u bepalen of er automatisch betalingsvoorstellen moeten worden gegenereerd. Als u geen betalingsvoorstellen voor een leverancier wilt genereren, schakelt u het selectievakje **Betalingen voorstellen** niet in. In dat geval worden de openstaande posten voor de leverancier niet opgenomen in betalingsvoorstellen.  
 
 ## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a>Instellen dat een leverancier wordt opgenomen in de betalingsvoorstelbatch  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer op de pagina **Leveranciers** een relevante leverancier en kies de actie **Bewerken**.  
 3.  Schakel het selectievakje **Betalingen voorstellen** in.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bbd2580befef83c403c8dba2bed5b4f264da42ac
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 82c47f1832b6101005978cb5f8fb16c250b712c0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180846"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677162"
 ---
 # <a name="test-electronic-payments"></a>Elektronische betalingen testen
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
@@ -36,7 +36,7 @@ U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exportere
 
 ## <a name="to-test-payment-journal-lines"></a>Betalingsdagboekregels testen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3.  Selecteer in het veld **Exportprotocol** het exportprotocol.  
 4.  Voer de betalingsdagboekregelinformatie in en kies vervolgens de actie **Betalingsregels controleren** om de betalingsdagboekregels te valideren. Welke validatie op de dagboekregels wordt uitgevoerd, is afhankelijk van de soort controle die op de pagina **Exportprotocollen** is opgegeven.  

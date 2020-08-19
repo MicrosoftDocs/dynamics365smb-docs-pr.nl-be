@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496837"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617691"
 ---
 #  <a name="create-analysis-reports"></a>Analyselijsten maken
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde.  
@@ -45,7 +45,7 @@ Vervolgens kunt u de volgende kolommen instellen:
 
 Op basis van de regels en de kolommen die u hebt ingesteld, aggregeert [!INCLUDE[d365fin](includes/d365fin_md.md)] het resultaat van uw rapport op de pagina **Analyserapport**, zoals getoond in de volgende tabel.  
 
-| |Omzet lopende maand|Omzet vorige maand|% van omzet vorige maand|  
+|- |Omzet lopende maand|Omzet vorige maand|% van omzet vorige maand|  
 |-|-|-|-|  
 |Computers| | | |  
 |Monitoren| | | |  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8071bbbc4b4bc285f6a0eafa6cfed30ec28af88e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 19a98cf0e725270aac2465577a858f6ffe2f05b3
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180862"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676710"
 ---
 # <a name="set-up-domiciliations"></a>Domiciliëringen instellen
 Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven.  
@@ -27,7 +27,7 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
 
 ## <a name="to-set-up-domiciliation"></a>Domiciliëring instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Klanten** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de klant en kies vervolgens de actie **Bewerken**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

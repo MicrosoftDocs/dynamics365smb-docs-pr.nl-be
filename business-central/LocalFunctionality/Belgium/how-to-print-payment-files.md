@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e5ea44c53d9075ba111900b2393741938c10ad81
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 728d5c10bdb98ae16ffe1139343c6fe86d34199e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180872"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676611"
 ---
 # <a name="print-payment-files"></a>Betalingsbestanden afdrukken
 Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand afdrukken.  
@@ -28,7 +28,7 @@ In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels in
 
 ## <a name="to-print-a-payment-file"></a>Een betalingsbestand afdrukken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboek** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0431919b0fac0f93d4a0bac88cc5ead30ab87b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 01bacadf610956275625471c079c7490f6ee93c0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180876"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677182"
 ---
 # <a name="print-periodic-vat-reports"></a>Periodieke btw-rapporten afdrukken
 Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen:  
@@ -28,7 +28,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 ## <a name="to-print-the-monthlyquarterly-declaration"></a>De aangifte per maand/kwartaal afdrukken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Formulier/Intervat-aangifte** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Formulier/Intervat-aangifte** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden op de pagina **BTW - Formulier** in.  
 
     |Veld|Description|  
@@ -37,14 +37,14 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
     |**Jaarlijkse btw-lijst**|Hiermee wordt opgegeven of u het rapport **Jaarlijkse btw-lijst** wilt afdrukken.|  
     |**Jaar**|Voer het jaar in van de periode waarvoor u het rapport wilt afdrukken. U moet het jaar als viercijferige code invoeren. Als u bijvoorbeeld een aangifte voor 2013 wilt afdrukken, moet u '2013' invoeren (en niet '13').|  
     |**Minimumbedrag**|Voer het minimale jaarsaldo van de klant in dat u in het rapport wilt opnemen. Als het jaarlijkse saldo van de klant minder is dan het minimumbedrag, wordt de klant niet opgenomen in de aangifte.|  
-    |**Klanten opnemen uit**|Selecteer deze optie om alle klanten uit EU-landen/regio's of een bepaald land of bepaalde regio in het rapport op te nemen.|  
+    |**Klanten opnemen uit**|Selecteer deze optie om alle klanten uit landen/regio's of een bepaald land/bepaalde regio in het rapport op te nemen.|  
     |**Land/regio**|Selecteer het land of regio die in het rapport moet worden opgenomen.|  
 
 3.  Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven. Kies de knop **Annuleren** om de gegevens op te slaan zonder het rapport af te drukken.  
 
 ## <a name="to-print-the-vat-annual-listing-on-disk"></a>De jaarlijkse btw-lijst op diskette afdrukken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport") voer **Jaarlijkse lijst - Schijf** in en voer vervolgens de gerelateerde koppeling in.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Jaarlijkse lijst - Schijf** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op de pagina **Jaarlijkse btw-lijst - Schijf** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
@@ -60,9 +60,9 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 ## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Btw-VIES-aangifterapport op schijf afdrukken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Btw - Intracommunautaire opgave - Schijf** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw - Intracommunautaire opgave - Schijf** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer de gewenste informatie in en kies de knop **OK** om de batchverwerking te starten, waarmee een XML-bestand wordt gemaakt. Zie voor meer informatie Btw-VIES-opgaveschijf.  
-3.  Als u een correctie moet aanbrengen, kiest u het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voert u **Btw-VIES-correctie** in en klikt u vervolgens op de gerelateerde koppeling.  
+3.  Als u een correctie moet aanbrengen, kiest u het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Btw-VIES-correctie** in en kiest u vervolgens de gerelateerde koppeling.  
 4.  Kies de actie **Lijst bewerken** en voer vervolgens de informatie in die moet worden aangepast. Kies de knop **Ok**.  
 
 ## <a name="see-also"></a>Zie ook  

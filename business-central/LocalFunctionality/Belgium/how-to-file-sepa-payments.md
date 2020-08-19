@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f740f082f6ac6aa7157f0ef491937c35eeffee6b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aacb7668739e5c97492b128d3c6800e9bd60b47c
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180892"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677171"
 ---
 # <a name="file-sepa-payments"></a>SEPA-betalingen indienen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u SEPA-kredietoverboekingen (Single Euro Payments Area) gebruiken om SEPA-betalingen in te dienen bij de bank.  
@@ -28,7 +28,7 @@ Voordat u een SEPA-betaling kunt indienen, moet u de volgende beheertaken uitvoe
 
 ## <a name="to-file-a-sepa-payment"></a>Een SEPA-betaling indienen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **SEPA-betalingen indienen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SEPA-betalingen indienen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  

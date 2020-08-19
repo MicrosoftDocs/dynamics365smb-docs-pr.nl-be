@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 52312113328aadb82a1149ecf03b3e870ae3c288
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f6ce4c0c304fc8255789ec91fb3a00ba78170d6d
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194871"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666934"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Verzendingen combineren op één factuur
 Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.  
 
- Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen voor dezelfde klant in dezelfde valuta boeken. U moet dus twee of meer verkooporders invullen en deze als verzonden maar niet als gefactureerd boeken. Om verzendingen te combineren moet het selectievakje **Verzendingen combineren** zijn ingeschakeld op het sneltabblad **Verzending** van de **klantenkaart**.  
+Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen voor dezelfde klant in dezelfde valuta boeken. U moet dus twee of meer verkooporders hebben gemaakt en deze als verzonden maar niet als gefactureerd boeken. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Verzendingen handmatig op één factuur combineren  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies de gerelateerde koppeling  
@@ -36,10 +36,12 @@ Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Ve
 7. Kies de actie **Boeken** om de factuur te boeken.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Verzendingen automatisch op één factuur combineren  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] selecteert alleen verkooporders waar **Verzendingen combineren** is gekozen. 
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendingen combineren** in en kies de desbetreffende koppeling. De opvraagpagina voor de batchverwerking wordt geopend.  
-2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Schakel het selectievakje **Facturen boeken** in.  
-4.  Kies de knop **OK**.  
+2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Kies het selectievakje **Facturen boeken**.  
+4. Kies de knop **OK**.  
 
 > [!NOTE]  
 >  U moet de facturen handmatig boeken als het selectievakje **Facturen boeken** niet was ingeschakeld bij de batchverwerking.  

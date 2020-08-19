@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454341"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549904"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Werken met rapporten, batchverwerkingen en XMLports
 
@@ -50,7 +50,7 @@ Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten gene
 
 ## <a name="previewing-a-report"></a>Een voorbeeld van een rapport bekijken
 
-Kies de knop **Voorbeeld** om het rapport te zien in het rapportvoorbeeld. Gebruik de menubalk in het rapportvoorbeeld om:
+Kies de knop **Voorbeeld** om het rapport te zien op de rapportaanvraagpagina. Gebruik de menubalk in het rapportvoorbeeld om:
 
 - Door pagina's bladeren
 - In- en uitzoomen
@@ -77,19 +77,34 @@ Wanneer u een rapport plant dat moet worden uitgevoerd, kunt u bijvoorbeeld opge
 U kunt ervoor kiezen het verwerkte rapport op te slaan in een bestand, zoals een Excel-, Word- of PDF-bestand, het afdrukken op een geselecteerde printer of het rapport alleen verwerken. Als u ervoor kiest het rapport in een bestand op te slaan, wordt het verwerkte rapport naar het gebied **Rapportinbox** in uw rolcentrum verzonden, waar u het kunt bekijken.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Een rapport afdrukken
+
 U kunt een rapport afdrukken door de knop **Afdrukken** te kiezen op de rapportaanvraagpagina of op de menubalk op de pagina **Voorbeeld**.
 
-Omdat [!INCLUDE[prodshort](includes/prodshort.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
+### <a name="printer-selection"></a>Printerselectie
 
-Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde printer niet werkt, wordt het afdrukken standaard ingesteld op de afdrukopties voor de browser. Dit wordt aangegeven door deze waarde in het veld **Printer** op de rapportaanvraagpagina: *(geen, afgehandeld door de browser)*.
+Het rapport wordt afgedrukt naar de printer die wordt weergegeven in het **Geselecteerde printer** op de rapportaanvraagpagina. U kunt de printer vanaf deze pagina niet wijzigen.
 
-Op de pagina **Printerbeheer** ziet u de printers die zijn ingesteld. Zie voor meer informatie [Printers instellen](ui-specify-printer-selection-reports.md).
+De geselecteerde printer is ofwel ingesteld op de pagina **Printerselecties** of het is de standaardprinter die is ingesteld op de pagina **Printerbeheer**. Als u een andere printer wilt gebruiken, raadpleegt u [Printers instellen](ui-specify-printer-selection-reports.md).
+
+Als er geen printer is opgegeven op de pagina **Printerselecties** of als standaard is ingesteld op de pagina **Printerbeheer**, wordt de afdrukfunctie van de browser gebruikt. In dit geval verschijnt **Browser** in het veld **Geselecteerde printer** op de rapportaanvraagpagina. 
+
+### <a name="browser-printing"></a>Afdrukken met browser
+
+Omdat [!INCLUDE[prodshort](includes/prodshort.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op uw computer. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
+
+Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde printer niet werkt, wordt het afdrukken standaard ingesteld op de afdrukopties voor de browser.
 
 > [!NOTE]
-> U kunt het veld **Printer** niet wijzigen op de rapportaanvraagpagina. Om een andere printer te gebruiken moet u deze selecteren op de pagina **Printerbeheer**.
+> De afdrukopties van de browser werken onafhankelijk van [!INCLUDE[prodshort](includes/prodshort.md)]. Dus alle printerinstellingen die mogelijk zijn ingesteld vanaf printers in [!INCLUDE[prodshort](includes/prodshort.md)], worden niet overgedragen naar de afdrukopties van de browser.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Rapporten afdrukken in het Thai
-Specifiek voor de Thaise versie van [!INCLUDE[prodshort](includes/prodshort.md)] kan de knop **Afdrukken** rapporten niet correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
+Specifiek voor de Thaise versie van [!INCLUDE[prodshort](includes/prodshort.md)] kan de knop **Afdrukken** geen rapporten correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
 
 U kunt ook de beheerder vragen een Word-rapportlay-out te maken voor uw meest gebruikte rapporten. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).  
 

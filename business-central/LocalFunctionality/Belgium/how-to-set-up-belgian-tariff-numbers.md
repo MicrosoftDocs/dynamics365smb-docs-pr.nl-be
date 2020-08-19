@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7cb2e5219cd0c1e93b00ed9a068b55876d91d605
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 20ae6812eb33b5e085151d07fecd9fe32bc04abd
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180866"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676948"
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Belgische tariefcodes instellen
 De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.  
 
 ### <a name="to-set-up-tariff-numbers"></a>Tariefcodes instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Tariefcodes** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Tariefcodes** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.  
 

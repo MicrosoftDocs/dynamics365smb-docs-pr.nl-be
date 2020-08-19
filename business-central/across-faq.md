@@ -5,22 +5,22 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528097"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611596"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
 Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een proefversie, het aanschaffen van een abonnement en het gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)]. U leest ook hoe u technische ondersteuning krijgt.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar in mijn land?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikbaar in mijn land/regio?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie voor meer informatie [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (alleen beschikbaar in het Engels).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is beschikbaar in een beperkt aantal markten, maar elke drie maanden worden nieuwe landen/regio's toegevoegd via door Microsoft geleide lokalisatie of door partners geleide lokalisatie. Zie voor meer informatie [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (alleen beschikbaar in het Engels).  
 
 ## <a name="how-do-i-get-prodshort"></a>Hoe krijg ik [!INCLUDE[prodshort](includes/prodshort.md)]?
 
@@ -108,6 +108,10 @@ Wanneer u zover bent om [!INCLUDE[prodshort](includes/prodshort.md)] aan te scha
 Als u advies van Microsoft wilt, kunt u contact opnemen met het [Microsoft Sales-team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
+
+## <a name="where-do-i-find-that-line-number"></a>Waar vind ik dat regelnummer?
+
+Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prodshort](includes/prodshort.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prodshort](includes/prodshort.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.** veld. Zie [Uw werkruimte personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Waarom is nieuwe informatie niet beschikbaar in mijn taal?
 

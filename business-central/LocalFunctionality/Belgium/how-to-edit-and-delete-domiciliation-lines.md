@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b1c1e3260231357381480786a75303a594ab13f0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6ca36fb147dec0232863ab5e973cca699c1af80
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180902"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676715"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Domiciliëringsregels bewerken en verwijderen
 Nadat u domiciliëringsvoorstellen hebt gegenereerd, wilt u wellicht de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  
@@ -28,13 +28,13 @@ Met de batchverwerking **Domiciliëringen voorstellen** maakt u domiciliëringsv
 
 ## <a name="to-edit-a-journal-line"></a>Een dagboekregel bewerken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3.  Selecteer de dagboekregel en bewerk de velden.  
 
 ## <a name="to-delete-a-journal-line"></a>Een dagboekregel verwijderen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3.  Selecteer de dagboekregel en kies de actie **Verwijderen**.  
 4.  Kies de knop **Ja**.  

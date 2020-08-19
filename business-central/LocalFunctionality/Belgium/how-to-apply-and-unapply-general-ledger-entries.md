@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ccd48062aee0a315c2b77829716862a78631b983
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a3ebb8db98d254b399a6471cc66fbc5c28d039e1
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180914"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676602"
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a>Grootboekposten vereffenen en de vereffening ervan ongedaan maken
 Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.  
@@ -34,7 +34,7 @@ Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdel
 
 ## <a name="to-apply-general-ledger-entries"></a>Grootboekposten vereffenen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
 3.  Kies op de pagina **Grootboekposten** de actie **Posten vereffenen**.  
 
@@ -64,17 +64,17 @@ Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdel
 
 ## <a name="to-view-the-applied-general-ledger-entries"></a>De vereffende grootboekposten weergeven  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
 3.  Selecteer de betreffende grootboekpost en kies de actie **Vereffende posten**.  
 
     U kunt alle vereffende grootboekposten weergeven.  
 
-4.  Kies de knop **OK**.  
+4.  Kies de knop **Ok**.  
 
 ## <a name="to-unapply-general-ledger-entries"></a>De vereffening van grootboekposten ongedaan maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
 3.  Selecteer de grootboekpost waarvan u de vereffening ongedaan wilt maken en kies vervolgens de actie **Vereffening ongedaan maken**.  
 

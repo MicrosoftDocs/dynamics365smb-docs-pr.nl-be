@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272098"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549879"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 Omdat [!INCLUDE[prodshort](includes/prodshort.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
@@ -55,7 +55,11 @@ Als u de extensie E-mailprinter gebruikt, worden alle of sommige afdruktaken ver
 U moet alle benodigde privacyvoorzorgsmaatregelen nemen, inclusief ervoor zorgen dat de oplossing voor het afdrukken van e-mail goed geconfigureerde machtigingen, privacyinstellingen en bewaarbeleid heeft. Het is uw verantwoordelijkheid om een correct, geverifieerd en operationeel e-mailadres op te geven. Zie voor meer informatie [Privacyverklaring van Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Selecteren welke printers welke rapporten afdrukken
+
 Op de pagina **Printerselecties** kunt u voor uw gebruikersaccount instellen welke rapporten door welke printer worden afgedrukt. Dit is handig als u met verschillende rapporten werkt waarvoor verschillende printers nodig zijn vanwege hun plaatsing in het bedrijf of hun uitvoermogelijkheden.
+
+> [!IMPORTANT]
+> Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kan de pagina **Printerselecties** alleen worden gebruikt voor printers die zijn gedefinieerd door printerextensies. Het kan niet worden gebruikt voor lokale printers.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerselecties** in en selecteer de desbetreffende koppeling. Als alternatief selecteert u vanaf de pagina **Printerbeheer** een printer en kiest u vervolgens de actie **Printerselecties**.
 2. Kies de actie **Nieuw** om een printerselectie toe te voegen voor een specifiek rapport.

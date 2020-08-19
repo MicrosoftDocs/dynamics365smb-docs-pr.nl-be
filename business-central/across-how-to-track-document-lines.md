@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188047"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577390"
 ---
 # <a name="track-document-lines"></a>Documentregels traceren
 U kunt documenten bekijken die gerelateerd zijn aan verkooporderregels en inkooporderregels, inclusief vanuit gearchiveerde orderregels. Gerelateerde documenten die u kunt bijhouden, omvatten offertes, verzendingen, ontvangsten en raamcontracten. Dit helpt u documenten te vinden die worden gebruikt om orders te verwerken.  
@@ -28,6 +28,8 @@ In de volgende procedure wordt beschreven hoe u traceert vanuit een verkooporder
 3.  Selecteer een regel en kies de actie **Tracering van documentregel**.
 4. Selecteer op de pagina **Tracering van documentregels** het document dat u wilt weergeven en kies vervolgens de actie **Weergeven** om de gerelateerde regel te zien.
 5. Als u het hele document voor de geselecteerde documentregel wilt zien, kiest u de actie **Document weergeven**.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  

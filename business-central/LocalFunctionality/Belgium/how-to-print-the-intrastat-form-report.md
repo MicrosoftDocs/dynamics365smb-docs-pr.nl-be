@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c5a9b4a5c73cccd5eb380b6ece5569f8b1149d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ea0b62513cb70c8c30e6b6597d39b181394e0720
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180878"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676676"
 ---
 # <a name="print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken
 Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.  
@@ -24,7 +24,7 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
 
 ## <a name="to-print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Intrastat – Formulier** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat - Formulier** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
@@ -36,7 +36,7 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
     |**Telefoon**|Voer het telefoonnummer van de contactpersoon in.|  
     |**Telefax**|Voer het telefaxnummer in.|  
     |**Internationaal btw-nummer**|Voer het internationale btw-nummer in.|  
-    |**Nulaangifte**|Selecteer deze optie als u geen handelstransacties met EU-landen hebt en een lege aangifte wilt versturen. Indien geselecteerd, wordt het bericht NIHIL weergegeven in het veld **Bericht**.|  
+    |**Nulaangifte**|Selecteer deze optie als u geen handelstransacties met EU-landen/-regio' hebt en een lege aangifte wilt versturen. Indien geselecteerd, wordt het bericht NIHIL weergegeven in het veld **Bericht**.|  
     |**Bericht**|Voer een bericht in dat moet worden afgedrukt voor Intrastat-aangifte, zoals 'normale aangifte' of 'vervangingsaangifte'.|  
 
 3.  Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven.  

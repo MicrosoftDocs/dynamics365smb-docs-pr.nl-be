@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185120"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617558"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Ontwerpdetails: Artikeltracering en reserveringen
+
 Gelijktijdig gebruik van reserveringen en specifieke artikeltracering is ongebruikelijk, aangezien deze beide een koppeling maken tussen voorziening en vraag. Afgezien van situaties waarin een klant of productieplanner om een specifieke lot verzoekt, is het zelden zinvol voorraadartikelen te reserveren die al artikeltraceringsnummers hebben voor een specifieke toepassing. Hoewel het mogelijk is om artikelen te reserveren die specifieke artikeltracering vereisen, is er speciale functionaliteit nodig om beschikbaarheidsconflicten te voorkomen tussen orderverwerkers die om dezelfde artikelgetraceerde artikelen vragen.  
   
 Het concept van late binding zorgt dat een niet-specifieke reservering van een serienummer of lotnummer los gekoppeld blijft totdat wordt geboekt. Wanneer wordt geboekt, kan het reserveringsysteem niet-specifieke reserveringen opnieuw plannen zodat vaste vereffening mogelijk is op basis van het serie- en lotnummer dat werkelijk wordt gepickt. Ondertussen wordt het serie- of lotnummer beschikbaar gemaakt voor specifieke reservering in andere documenten die om bepaalde serie- of lotnummers verzoeken.  
@@ -25,7 +26,7 @@ Het concept van late binding zorgt dat een niet-specifieke reservering van een s
 Een niet-specifieke reservering is een reservering waarbij het de gebruiker niet uitmaakt welk artikel wordt gepickt. Een specifieke reservering is een reservering waarbij het de gebruiker wel uitmaakt.  
   
 > [!NOTE]  
->  De functie voor late binding heeft alleen betrekking op artikelen die zijn ingesteld met specifieke artikeltracering, en geldt alleen voor reserveringen voor voorraad, niet voor inkomende orders voor voorzieningen.  
+> De functie voor late binding heeft alleen betrekking op artikelen die zijn ingesteld met specifieke artikeltracering, en geldt alleen voor reserveringen voor voorraad, niet voor inkomende orders voor voorzieningen.  
   
 De reservering van artikeltraceringsnummers bestaat uit twee categorieën, zoals wordt getoond in de volgende tabel.  
   
@@ -36,11 +37,9 @@ De reservering van artikeltraceringsnummers bestaat uit twee categorieën, zoals
   
 Het belangrijkste verschil tussen specifieke en niet-specifieke reserveringen wordt bepaald door het bestaan van serie- of lotnummers aan de vraagkant, zoals in de volgende tabel wordt getoond.  
   
-||||  
-|-|-|-|  
-||**Voorraad**|**Vraag**|  
-|**Specifiek**|Serie- of lotnummer.|Serie- of lotnummer.|  
-|**Niet specifiek**|Serie- of lotnummer.|Geen serie- of lotnummer.|  
+|<!--blank -->|**Voorraad**|**Vraag**|  
+|**Specifiek**|Serie- of partijnummer.|Serie-of partijnummer.|  
+|**Niet-specifiek**|Serie- of partijnummer.|Geen serie- of partijnummer.|  
   
 Wanneer u voorraadaantallen reserveert van een uitgaande documentregel voor een artikel waaraan artikeltraceringsnummers zijn toegewezen en dat is ingesteld voor specifieke artikeltracering, wordt op de pagina **Reservering** verschillende werkstromen getoond afhankelijk van uw behoefte aan de serie- of lotnummers.  
   

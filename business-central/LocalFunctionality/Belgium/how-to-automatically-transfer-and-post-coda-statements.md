@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66c074d5aa66db28a67016b90e98096576a67b45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2e118108ee8a517bfb66580affc5d0a2dce43003
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180910"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676958"
 ---
 # <a name="automatically-transfer-and-post-coda-statements"></a>CODA-afschriften automatisch overbrengen en boeken
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.  
@@ -28,7 +28,7 @@ U kunt CODA-afschriften ook handmatig overbrengen en boeken. Zie voor meer infor
 
 ## <a name="to-automatically-transfer-statement-lines"></a>Afschriftregels automatisch overbrengen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
 3.  Selecteer het CODA-afschrift en kies vervolgens de actie **Bewerken**.  
 4.  Kies de actie **Naar dagboek overbrengen**.  

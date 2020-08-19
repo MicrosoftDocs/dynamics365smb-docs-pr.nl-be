@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496687"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617923"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
+
 De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt g
 
 De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
-|Waarderingsmethode|Omschrijving|Gebruik|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de FIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als eerste in voorraad worden geplaatst, als eerst worden verkocht.|In ondernemingsomgevingen waar de productkosten stabiel zijn.<br /><br /> (Wanneer de prijzen stijgen, wordt in de balans een grotere waarde weergegeven. Dit betekent dat de belastingschulden toenemen, maar de creditscores en de mogelijkheid om contanten te lenen beter worden.)<br /><br /> Voor artikelen met een beperkte houdbaarheid, omdat de oudste goederen moeten worden verkocht voordat ze hun uiterste houdbaarheidsdatum overschrijden.|  
-|LIFO|De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de LIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als laatste in voorraad worden geplaatst, als eerst worden verkocht.|Verboden in veel landen/regio's, aangezien het kan worden gebruikt voor het drukken van winst.<br /><br /> (Wanneer de prijzen stijgen, vermindert de waarde op de resultatenrekening. Dit betekent dat de belastingschulden verminderen, maar de mogelijkheid om contanten te lenen verslechtert.)|  
-|Gemiddelde|De kostprijs van een artikel wordt berekend als de gemiddelde kostprijs op elk tijdstip na de inkoop.<br /><br /> Voor voorraadwaardering wordt aangenomen dat alle voorraden tegelijkertijd zijn verkocht.|In ondernemingsomgevingen waar de productkosten instabiel zijn.<br /><br /> Wanneer voorraden worden gestapeld of samengevoegd en niet kunnen worden onderscheiden, zoals chemische producten.|  
-|Specifiek|De kostprijs van een artikel bestaat uit de exacte kosten waarmee de betreffende eenheid is ontvangen.|In productie of handel van gemakkelijk identificeerbare artikelen met tamelijk hoge kostprijs.<br /><br /> Voor artikelen die onder wetgeving vallen.<br /><br /> Voor artikelen met serienummers.|  
-|Vast|De kostprijs van een artikel is vooraf ingesteld op basis van de geschatte prijs.<br /><br /> Wanneer de werkelijke kosten later gerealiseerd zijn, moet de vaste verrekenprijs aan de werkelijke aangepast worden door verschilwaarden.|Waar kostenbeheersing essentieel is.<br /><br /> In herhaalde productie, om de directe materiaal-, arbeids- en productieoverheadkosten te waarderen.<br /><br /> Waar er discipline en personeel zijn om normen na te volgen.|  
+| Waarderingsmethode | Omschrijving | Gebruik |
+|--|--|--|
+| FIFO | De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de FIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als eerste in voorraad worden geplaatst, als eerst worden verkocht. | In ondernemingsomgevingen waar de productkosten stabiel zijn.<br /><br /> (Wanneer de prijzen stijgen, wordt in de balans een grotere waarde weergegeven. Dit betekent dat de belastingschulden toenemen, maar de creditscores en de mogelijkheid om contanten te lenen beter worden.)<br /><br /> Voor artikelen met een beperkte houdbaarheid, omdat de oudste goederen moeten worden verkocht voordat ze hun uiterste houdbaarheidsdatum overschrijden. |
+| LIFO | De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de LIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als laatste in voorraad worden geplaatst, als eerst worden verkocht. | Verboden in veel landen/regio's, aangezien het kan worden gebruikt voor het drukken van winst.<br /><br /> (Wanneer de prijzen stijgen, vermindert de waarde op de resultatenrekening. Dit betekent dat de belastingschulden verminderen, maar de mogelijkheid om contanten te lenen verslechtert.) |
+| Gemiddelde | De kostprijs van een artikel wordt berekend als de gemiddelde kostprijs op elk tijdstip na de inkoop.<br /><br /> Voor voorraadwaardering wordt aangenomen dat alle voorraden tegelijkertijd zijn verkocht. | In ondernemingsomgevingen waar de productkosten instabiel zijn.<br /><br /> Wanneer voorraden worden gestapeld of samengevoegd en niet kunnen worden onderscheiden, zoals chemische producten. |
+| Specifiek | De kostprijs van een artikel bestaat uit de exacte kosten waarmee de betreffende eenheid is ontvangen. | In productie of handel van gemakkelijk identificeerbare artikelen met tamelijk hoge kostprijs.<br /><br /> Voor artikelen die onder wetgeving vallen.<br /><br /> Voor artikelen met serienummers. |
+| Standaard | De kostprijs van een artikel is vooraf ingesteld op basis van de geschatte prijs.<br /><br /> Wanneer de werkelijke kosten later gerealiseerd zijn, moet de vaste verrekenprijs aan de werkelijke aangepast worden door verschilwaarden. | Waar kostenbeheersing essentieel is.<br /><br /> In herhaalde productie, om de directe materiaal-, arbeids- en productieoverheadkosten te waarderen.<br /><br /> Waar er discipline en personeel zijn om normen na te volgen. |
 
  De volgende afbeelding toont hoe de kosten door de voorraad stromen voor elke waarderingsmethode.  
 
@@ -40,7 +41,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  Waarderingsmethoden verschillen in de manier waarop ze voorraadafnamen waarderen en of ze werkelijke kosten of standaardkosten gebruiken als de waarderingsbasis. In de volgende tabel worden de verschillende kenmerken toegelicht. (De LIFO-methode is uitgesloten, omdat deze erg lijkt op de FIFO-methode.)  
 
-||FIFO|Gemiddelde|Vast|Specifiek|  
+|<!--blank -->|FIFO|Gemiddelde|Vast|Specifiek|  
 |-|----------|-------------|--------------|--------------|  
 |Algemeen kenmerk|Gemakkelijk te begrijpen|Gebaseerd op periodeopties: **Dag**/**Week**/**Maand**/**Kwartaal**/**Boekingsperiode**.<br /><br /> Kan worden berekend per artikel of per artikel/vestiging/variant.|Gemakkelijk te gebruiken, maar vereist gekwalificeerd onderhoud|Hiervoor is artikeltracering vereist op zowel inkomende als uitgaande transacties.<br /><br /> Meestal gebruikt voor artikelen met een serienummer.|  
 |Vereffening/Herwaardering|Vereffening houdt **het resterende aantal** bij.<br /><br /> De correctie stuurt kosten door op basis van aantalvereffening.|Vereffening houdt het **resterende aantal** bij.<br /><br /> De kosten worden berekend en doorgegeven op de **waarderingsdatum**.|Vereffening houdt het **resterende aantal** bij.<br /><br /> Vereffening wordt gebaseerd op FIFO.|Alle vereffeningen zijn vast.|  

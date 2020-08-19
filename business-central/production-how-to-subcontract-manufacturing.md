@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191463"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677320"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
@@ -71,13 +71,6 @@ De voorstelregel waarvan een inkooporder is gemaakt, wordt verwijderd uit het vo
 
 ## <a name="posting-subcontract-purchase-orders"></a>Uitbestedingsinkooporders boeken  
 Zodra de inkooporders voor toeleveranciers zijn opgesteld, kunnen deze worden geboekt. Bij ontvangst van de order wordt een capaciteitspost geboekt op de productieorder en bij het factureren van de order worden de directe kosten van de inkooporder geboekt op de productieorder.  
-
-Wanneer de inkooporder wordt geboekt als ontvangen, wordt automatisch een output-dagboekpost voor de productieorder geboekt. Dit is alleen van toepassing als de uitbestedingsbewerking de laatste bewerking in het productieorderbewerkingsplan is.  
-
-> [!CAUTION]  
->  De output automatisch boeken voor een voortdurende productieorder wanneer uitbestede artikelen worden ontvangen, is mogelijk niet wenselijk. De redenen voor dit zouden kunnen zijn dat het verwachte outputaantal dat wordt geboekt verschilt van het werkelijke aantal en dat de boekdatum van de automatische output misleidend is.  
->   
->  Om te voorkomen dat de verwachte uitvoer van een productieorder wordt geboekt wanneer de uitbestedingsinkopen worden ontvangen, moet u ervoor zorgen dat de uitbestede bewerking niet de laatste is. Of voeg een nieuwe laatste bewerking voor het laatste outputaantal in.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Een uitbestedingsinkooporder boeken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer de desbetreffende koppeling.  

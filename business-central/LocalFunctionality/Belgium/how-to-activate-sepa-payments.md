@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e41a24e81e377c7a2cbe6d6cafe2830d82c650cb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 47d255e1217eca08d073400ea92adaf012d76c71
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180912"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676599"
 ---
 # <a name="activate-sepa-payments"></a>SEPA-betalingen activeren
 Als u leveranciersbetalingen elektronisch wilt verzenden in de betalingsindeling SEPA (Single Euro Payments Area) ISO 20022, moet u eerst de vereiste instellingen aanbrengen voor het activeren van SEPA-betalingen.  
@@ -26,14 +26,14 @@ In de volgende procedures wordt beschreven hoe u SEPA-betaling inschakelt en lev
 
 ## <a name="to-enable-countriesregions-for-sepa"></a>Landen/regio's activeren voor SEPA  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Landen/regio's** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Landen/regio's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Lijst bewerken**.  
 3.  Schakel het selectievakje **SEPA toegestaan** in voor elk land of elke regio dat/die u wilt activeren voor SEPA.  
-4.  Kies de knop **OK**.  
+4.  Kies de knop **Ok**.  
 
 ## <a name="to-enable-bank-accounts-for-sepa"></a>Bankrekeningen activeren voor SEPA  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening die u wilt activeren voor SEPA en kies vervolgens de actie **Bewerken**.  
 3.  Kies de juiste redencode in het veld **Land-/regiocode**.  
 
@@ -46,7 +46,7 @@ In de volgende procedures wordt beschreven hoe u SEPA-betaling inschakelt en lev
 
 ## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a>Bankrekeningen van leveranciers instellen voor SEPA  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Leveranciers** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de betreffende leverancier en kies vervolgens de actie **Bankrekeningen**.  
 3.  Selecteer de bankrekening van de leverancier die u wilt instellen voor SEPA, en kies vervolgens de actie **Bewerken**.  
 4.  Voer in de velden **IBAN** en **SWIFT-code** van het sneltabblad Transfer de internationale bankidentificatiecode in van de bank waarbij de leverancier de rekening heeft.  

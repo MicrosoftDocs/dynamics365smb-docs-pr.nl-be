@@ -10,15 +10,17 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aabbba7c6cf5aa84797369c8fefad1ef79fa805f
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182504"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666834"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central op uw mobiele apparaat krijgen
 Toegang tot uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Office 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje]
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>De app ophalen op mijn mobiele apparaat
 1. Installeer de [!INCLUDE[d365fin](includes/d365fin_md.md)]-app op uw mobiele apparaat door de app te downloaden van de Windows Store, App Store of Google Play.  

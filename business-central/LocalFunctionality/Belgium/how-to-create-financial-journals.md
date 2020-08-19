@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7da2de460b9cbc65be7cf4bebc0561195aee42e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d9a1edc79ae4ab52733b6dfaf593177c38f626fb
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180906"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677017"
 ---
 # <a name="create-financial-journals"></a>Financiële dagboeken maken
 In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een financieel dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.  
 
 ## <a name="to-create-a-financial-journal"></a>Een financieel dagboek maken  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Dagboeksjablonen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

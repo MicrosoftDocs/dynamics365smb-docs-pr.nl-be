@@ -1,7 +1,7 @@
 ---
 title: Een configuratiepakket voorbereiden | Microsoft Docs
 description: Leer nu om een RapidStart-configuratiepakket te configureren dat kan helpen bij het opzetten van nieuwe bedrijven op basis van bestaande gegevens.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535984"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3667009"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 
@@ -30,6 +30,12 @@ Er zijn enkele dingen waaraan u moet denken voordat u een configuratiepakket maa
 ### <a name="tables-that-contain-posted-entries"></a>Tabellen met geboekte posten
 
 U kunt geen gegevens importeren in tabellen met geboekte posten, zoals de tabellen voor klant-, leverancier- en artikelposten, dus deze gegevens moet u niet opnemen in uw configuratiepakket. U kunt posten aan deze tabellen toevoegen nadat u het configuratiepakket hebt geïmporteerd met behulp van journaals om de posten te boeken. Zie [Boekingsdocumenten en journalen](ui-post-documents-journals.md) voor meer informatie.
+
+### <a name="table-names-that-contain-special-characters"></a>Tabelnamen die speciale tekens bevatten
+
+Wees voorzichtig als u tabellen of velden heeft die dezelfde tijdelijke naam hebben, maar die worden onderscheiden door speciale tekens, zoals %, &, <, >, (, en ). De tabel 'XYZ' kan bijvoorbeeld de velden "Veld 1" en "Veld 1%" bevatten.
+
+De XML-processor accepteert slechts enkele speciale tekens en zal andere verwijderen. Als het verwijderen van een speciaal teken, zoals het %-teken in 'Veld 1%', resulteert in twee of meer tabellen of velden met dezelfde naam, zal er een fout optreden wanneer u een configuratiepakket exporteert of importeert. 
 
 ### <a name="licensing"></a>Licenties
 

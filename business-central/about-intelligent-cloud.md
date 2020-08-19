@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528875"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577291"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligente inzichten met [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
 Als gebruiker van [!INCLUDE[prodshort](includes/prodshort.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI. Terwijl [!INCLUDE[prodshort](includes/prodshort.md)] echter een cloud-eerst service is, kunnen ook klanten die hun volledige werklast on-premises of op de intelligente rand, verbonden met de cloud, moeten uitvoeren, dat ook doen.  
 
-Als u geïnteresseerd bent in [!INCLUDE[prodshort](includes/prodshort.md)], kunt u zich online aanmelden voor een gratis proefversie of kunt u ervoor kiezen te werken met een partner om [!INCLUDE[prodshort](includes/prodshort.md)] lokaal te implementeren op uw keuze van hardware. Vervolgens kunt u bepalen of u intelligente inzichten wilt door verbinding te maken met een tenant in de cloud. Dientengevolge worden de gegevens uit uw lokaal geïmplementeerde [!INCLUDE[prodshort](includes/prodshort.md)] naar de cloud gerepliceerd voor intelligente cloudscenario's.  
+Als u geïnteresseerd bent in [!INCLUDE[prodshort](includes/prodshort.md)], kunt u zich online aanmelden voor een gratis proefversie of kunt u ervoor kiezen te werken met een partner om [!INCLUDE[prodshort](includes/prodshort.md)] lokaal te implementeren op uw keuze van hardware. Vervolgens kunt u bepalen of u intelligente inzichten wilt door verbinding te maken met een tenant in de cloud. Dientengevolge worden de gegevens uit uw geïmplementeerde [!INCLUDE[prodshort](includes/prodshort.md)] on-premises naar de cloud gerepliceerd voor intelligente cloudscenario's.  
 
 Verbinding maken met de Intelligente cloud vanuit een on-premises oplossing vereist dat uw beheerder informatie over uw database opgeeft. De tools waarmee u uw on-premises implementatie kunt verbinden met [!INCLUDE[prodshort](includes/prodshort.md)] online zijn hetzelfde als die ook worden gebruikt voor migratie van on-premises naar online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -49,6 +49,5 @@ Wanneer uw Dynamics 365 doorverkopende partner de juiste licentie heeft verkrege
 ## <a name="see-also"></a>Zie ook
 
 [Welkom bij Business Central](index.md)  
-[Business Central-extensie Intelligente cloud](ui-extensions-intelligent-cloud.md)  
-[Extensie Gegevensreplicatie](ui-extensions-data-replication.md)  
+[Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  
 [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

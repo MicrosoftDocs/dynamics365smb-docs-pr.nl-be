@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3a6d17a1f9de219529af9e9cdb0debed9f01ea28
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 399d5db67304aabc49f31fd4fdd6e6cd870913b5
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180900"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676845"
 ---
 # <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
 U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.  
@@ -29,7 +29,7 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
 
 ## <a name="to-export-and-post-domiciliations-in-sepa-format"></a>Domiciliëringen exporteren en boeken in SEPA-indeling  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Bestandsdomiciliëringen**.  
 3.  Vul op de pagina **Dagboekregels maken** de velden in zoals wordt beschreven in de volgende tabel.  
 
@@ -50,7 +50,7 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
 
 ## <a name="to-export-and-post-domiciliations-in-isabel-format"></a>Domiciliëringen exporteren en boeken in Isabel-indeling  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Domiciliëringsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Bestandsdomiciliëringen**.  
 3.  Vul op de pagina **Bestandsdomiciliëringen** de velden in zoals wordt beschreven in de volgende tabel.  
 

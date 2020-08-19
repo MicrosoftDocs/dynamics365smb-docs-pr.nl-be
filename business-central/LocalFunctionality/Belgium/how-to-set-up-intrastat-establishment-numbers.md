@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6e1b5ac5184e11120850b992eba5e469c5d013ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3797b4461a5d42e8266727cd317f488fadca30f4
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180854"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677089"
 ---
 # <a name="set-up-intrastat-establishment-numbers"></a>Intrastat-nummers instellen
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  
 
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Een Intrastat-nummer instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer in het veld **Intrastat-nr.** het Intrastat-nummer in. invoeren.  
 3.  Kies de knop **OK**.  
   

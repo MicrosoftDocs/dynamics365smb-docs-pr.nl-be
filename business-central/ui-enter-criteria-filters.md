@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529125"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619446"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
+
 U kunt een paar dingen doen om records in een lijst, in een rapport of XMLport te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
 
-Voor rapporten en XMLports kunt u filters instellen zoals in lijsten om af te bakenen welke gegevens in het rapport of XMLport moeten worden opgenomen, maar u kunt niet sorteren en zoeken.
+Voor rapporten en XMLports, net als lijsten, kunt u filters instellen zoals in lijsten om af te bakenen welke gegevens in het rapport of XMLport moeten worden opgenomen, maar u kunt niet sorteren en zoeken.
 
 > [!TIP]
 > Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en elementaire filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "Weergeven als lijst pijl naar links") om de records als lijst weer te geven.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Sorteervolgorde
+
 Met de sorteerfunctie krijgt u snel een overzicht van de gegevens. Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.
 
 Als u een lijst wilt sorteren, kunt u een kolomkoptekst kiezen om te schakelen tussen op- en aflopend, of de pijl-omlaag in de kolomkop kiezen en vervolgens de actie **Oplopend** of **Aflopend** kiezen.  
 
 > [!NOTE]  
->   Sorteren wordt niet ondersteund bij afbeeldingen, BLOB-velden, FlowFilters en velden die niet deel van een tabel zijn.  
+> Sorteren wordt niet ondersteund bij afbeeldingen, BLOB-velden, FlowFilters en velden die niet deel van een tabel zijn.  
 
 ## <a name="searching"></a>Zoeken
+
 <!--## Searching by using the Quick Filter -->
 Boven aan elke lijstpagina staat een actie ![Zoeken in lijst](media/ui-search/search-list.png "Pictogram Zoeken in lijst") **Zoeken** die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
 
 Als u wilt zoeken, kiest u de actie **Zoeken** en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
 
 ### <a name="fine-tuning-the-search"></a>De zoekactie verfijnen
+
 Over het algemeen wordt geprobeerd in alle velden tekst overeen te laten komen. Er wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters (hoofdletterongevoelig) en wordt gezocht naar overeenkomst met tekst die ergens in het veld, aan het begin, aan het einde of in het midden wordt geplaatst.
 
 U kunt echter een exactere zoekactie maken door speciale tekens te gebruiken.
@@ -70,9 +74,10 @@ In de volgende tabel vindt u enkele voorbeelden om aan te geven hoe u de zoekact
 > U kunt op **F3** drukken om het zoekvak te activeren en te deactiveren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> Zoeken kijkt niet naar waarden in afbeeldingen, BLOB-velden, FlowFilters, FlowFields en andere velden die geen deel uitmaken van een tabel. 
+> Zoeken kijkt niet naar waarden in afbeeldingen, BLOB-velden, FlowFilters, FlowFields en andere velden die geen deel uitmaken van een tabel.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filteren
+
 Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke records in een lijst worden weergegeven of in een rapport of XMLport worden weergegeven. Er zijn twee belangrijke verschillen tussen zoeken en filteren, zoals wordt beschreven in de volgende tabel.
 
 || **Zoeken** | **Filteren** |
@@ -85,6 +90,7 @@ Filteren stelt u in staat records weer te geven voor bepaalde rekeningen of klan
 Voor lijsten worden de filters weergegeven in een filtervenster dat links van de lijst verschijnt wanneer u deze activeert. Voor rapporten, batchtaken en XMLports zijn de filters direct zichtbaar op de aanvraagpagina.
 
 ### <a name="filtering-with-option-fields"></a>Filteren met optievelden
+
 Voor 'gewone' velden die gegevens, instellingsdatum of bedrijfsgegevens bevatten, kunt u filters instellen door gegevens te selecteren en filterwaarden te typen, en u kunt symbolen gebruiken om geavanceerde filtercriteria te definiëren. Zie voor meer informatie [Filtercriteria invoeren](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 Voor velden van het type **Optie** kunt u echter alleen een filter instellen door een of meer opties te selecteren in een vervolgkeuzelijst met beschikbare opties. Een voorbeeld van een optieveld is het veld **Status** op de pagina **Verkooporders**.
@@ -93,6 +99,7 @@ Voor velden van het type **Optie** kunt u echter alleen een filter instellen doo
 > Wanneer u meerdere opties als filterwaarde selecteert, wordt de relatie tussen de opties gedefinieerd als *OF*. Als u bijvoorbeeld zowel het selectievakje **Open** als **Vrijgegeven** selecteert in het filterveld **Status** op de pagina **Verkooporders**, betekent dit dat verkooporders die open of vrijgegeven zijn, worden weergegeven.
 
 ### <a name="setting-filters-on-lists"></a>Filters instellen voor lijsten
+
 In lijsten stelt u filters in met behulp van het filtervenster. Als u het filtervenster voor een lijst wilt weergeven, kiest u de vervolgkeuzepijl naast de naam van de pagina en kiest u vervolgens de actie **Filtervenster weergeven**. U kunt ook drukken op **Shift+F3**.
 
 Als u het filtervenster voor een kolom in een lijst wilt weergeven, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter**. U kunt ook drukken op **Shift+F3**. Het filtervenster wordt geopend met de geselecteerde kolom weergegeven als een filterveld in de sectie **Filter lijst op**.
@@ -119,6 +126,7 @@ Het filterdeelvenster bevat de huidige filters voor een lijst en biedt u de moge
 U kunt een eenvoudig filter rechtstreeks in een lijst instellen met behulp van het filtervenster, namelijk een filter dat alleen records weergeeft met dezelfde waarde als in de geselecteerde cel. Selecteer een cel in de lijst, kies de vervolgkeuzepijl en kies vervolgens de actie **Filteren op deze waarde**. U kunt ook drukken op **Alt+F3**.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Filters instellen in rapporten, batchtaken en XMLports
+
 Voor rapporten, batchtaken en XMLports zijn de filters direct zichtbaar op de aanvraagpagina. De aanvraagpagina toont de laatst gebruikte filters volgens uw selectie in het veld **Standaardwaarden gebruiken uit**. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
 De hoofdsectie **Filter** toont de standaardfiltervelden die u gebruikt om af te bakenen welke records in het rapport of de XMLport moeten worden opgenomen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
@@ -126,6 +134,7 @@ De hoofdsectie **Filter** toont de standaardfiltervelden die u gebruikt om af te
 In de sectie **Totalen filteren op** kunt u verschillende dimensies aanpassen die van invloed zijn op berekeningen in het rapport of de XMLport. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
 ## <a name="entering-filter-criteria"></a>Filtercriteria invoeren
+
 Zowel in het filtervenster als op een aanvraagpagina voert u uw filtercriteria in het vak onder het filterveld in.
 
 Het type filterveld bepaalt welke criteria u kunt invoeren. Als u bijvoorbeeld filtert op een veld dat vaste waarden heeft, kunt u alleen kiezen uit die waarden. Voor meer informatie over speciale filtersymbolen raadpleegt u [Filtercriteria](#FilterCriteria) en [Filtertokens](#FilterTokens)
@@ -136,10 +145,11 @@ Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterp
 > Versnel het zoeken en analyseren van uw gegevens met combinaties van toetsenbordsneltoetsen. Selecteer bijvoorbeeld een veld, gebruik **Shift+Alt+F3** om dat veld aan het filterdeelvenster toe te voegen, typ het filtercriterium, gebruik **Ctrl+Enter** om terug te keren naar de rijen, selecteer een ander veld en gebruik **Alt+F3** om op die waarde te filteren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filtercriteria en -symbolen
+
 U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Daarnaast kunt u speciale symbolen (of operatoren) gebruiken om de resultaten verder te filteren. De volgende tabellen bevatten de symbolen die in filters kunnen worden gebruikt. Voor datums en tijden kunt u ook [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md) raadplegen voor meer gedetailleerde informatie.
 
 > [!IMPORTANT]  
->  Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R*, is de filterexpressie bijvoorbeeld `'S&R*'`.
+> Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R*, is de filterexpressie bijvoorbeeld `'S&R*'`.
 
 In de volgende secties wordt beschreven hoe u de verschillende operatoren kunt gebruiken.
 
@@ -273,6 +283,7 @@ Gebruik `%myvendors` in het veld leveranciers**nr.** om alle records weer te gev
 |`%myvendors`|Leveranciers in **Mijn leveranciers** in uw rolcentrum. |  
 
 ## <a name="see-also"></a>Zie ook
+
 [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182792"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611679"
 ---
 # <a name="set-up-value-added-tax"></a>Btw instellen
+
 Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[d365fin](includes/d365fin_md.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende:
 
 * Aan wie u verkoopt  
@@ -28,22 +29,26 @@ Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. 
 U kunt handmatig btw-berekeningen instellen, maar dit kan lastig en tijdrovend zijn. Voor het gemak bieden we een begeleide instelling met de naam **Btw-instellingen** die u tijdens de stappen begeleidt. Het is raadzaam de begeleide instelling te gebruiken om btw in te stellen.
 
 > [!NOTE]  
->   U kunt de begeleide instelling alleen gebruiken als u een Mijn bedrijf hebt gemaakt en geen transacties hebt geboekt die inclusief btw zijn. Anders zouden er gemakkelijk per ongeluk andere btw-tarieven worden gebruikt en onnauwkeurige btw-gerelateerde rapporten worden gemaakt.  
+> U kunt de begeleide instelling alleen gebruiken als u een Mijn bedrijf hebt gemaakt en geen transacties hebt geboekt die inclusief btw zijn. Anders zouden er gemakkelijk per ongeluk andere btw-tarieven worden gebruikt en onnauwkeurige btw-gerelateerde rapporten worden gemaakt.  
 
 Als u btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over elke stap, bevat dit onderwerp omschrijvingen van elke stap.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>De begeleide instelling Btw-instelling gebruiken om btw in te stellen (aanbevolen)
+
 Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te stellen in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Ga als volgt te werk om de begeleide instelling te starten:
+
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide setup** in en kies de desbetreffende koppeling.  
 2. Kies **Btw instellen** en voer alle stappen uit.
-3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u extra velden moet invullen volgens uw landversie. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
+3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u extra velden moet invullen volgens de lokale vereisten in uw versie van [!INCLUDE [prodshort](includes/prodshort.md)]. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>BTW-nummers instellen voor uw land of regio
+
 Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land of de regio.
 
 Als u btw-nummers wilt instellen, gaat u als volgt te werk:
+
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Landen/regio's** in en kies de desbetreffende koppeling.
 2. Kies het land of de regio, en kies de actie **Btw-nummernotaties**.
 3. Definieer in het veld **Notaties** de notatie door een of meer van de volgende tekens in te voeren:  
@@ -164,12 +169,12 @@ Sommige bedrijven moeten verlegging van btw gebruiken wanneer zaken worden gedaa
 > Deze regel geldt wanneer u zakendoet met bedrijven die in een ander EU-land/-regio btw-plichtig zijn. Als u rechtstreeks zakendoet met consumenten in andere EU-landen/-regio's, moet u contact opnemen met de belastingdienst over de geldende btw-regels.  
 
 > [!TIP]  
-> U kunt controleren of een bedrijf btw-plichtig is in een ander EU-land door de EU-service voor btw-nummervalidatie te gebruiken. De service is gratis beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie het gedeelte met de naam _Btw-registratienummers controleren_ in dit onderwerp voor meer informatie.
+> U kunt controleren of een bedrijf btw-plichtig is in een ander EU-land/regio door de EU-service voor btw-nummervalidatie te gebruiken. De service is gratis beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie het gedeelte met de naam _Btw-registratienummers controleren_ in dit onderwerp voor meer informatie.
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Verkopen aan EU-landen of -regio's
 Btw wordt niet berekend op verkopen aan btw-plichtige bedrijven in andere EU-landen/-regio's. U moet de waarde van deze verkopen aan EU-landen/-regio's apart op uw btw-aangifte vermelden.  
 
-Om op de juiste wijze btw op verkopen aan EU-landen te berekenen, moet u:  
+Om op de juiste wijze btw op verkopen aan EU-landen/regio's te berekenen, moet u:  
 
 * Stel een regel in voor verkopen met dezelfde informatie voor inkopen. Als u reeds regels hebt ingesteld op de pagina Btw-boekingsinstellingen voor inkopen uit EU-landen/-regio's, kunt u de regels ook voor verkopen gebruiken.  
 * De btw-bedrijfsboekingsgroepen toewijzen in het veld **Btw-bedrijfsboekingsgroep** op het sneltabblad **Facturering** van de klantenkaart van elke leverancier van de EU. U moet het u btw-nummer van de klant invoeren in het veld **Btw-nummer** op het sneltabblad **Buitenlandse handel**.  

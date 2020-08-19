@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1e79f6667cbb5ac3511b4303cb8827730cba14ad
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e2b585670d46b75d818a7679abe671bdebc54533
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180860"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676783"
 ---
 # <a name="set-up-electronic-banking"></a>Elektronisch bankieren instellen
 Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden. Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens instellen:  
@@ -25,7 +25,7 @@ Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en 
 
 ## <a name="to-set-up-electronic-banking"></a>Elektronisch bankieren instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Elektronisch bankieren instellen** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronisch bankieren instellen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op de pagina **Elektronisch bankieren instellen** de velden in zoals wordt beschreven in de volgende tabel.   
 
     |Veld|Description|  

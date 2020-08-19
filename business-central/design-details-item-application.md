@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185168"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617639"
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
+
 Wanneer u een voorraadtransactie boekt, wordt het geboekte aantal vastgelegd in de artikelposten, en de waardeboeking in de waardeposten. Zie [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md) voor meer informatie.  
 
 Bovendien wordt een artikelvereffening gemaakt om de kostenontvanger aan zijn kostenbron te koppelen om te zorgen voor doorsturen van kosten volgens de waarderingsmethode. Zie [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) voor meer informatie.  
@@ -40,15 +41,15 @@ Of vereffeningen van aantal of kosten worden gemaakt, hangt af van de richting v
 
 De volgende tabel toont op basis van de centrale vereffeningsvelden op voorraadtransactieregels hoe de kosten stromen, afhankelijk van de transactierichting. De tabel geeft ook aan wanneer en waarom de artikelvereffening van het type aantal of kosten is.  
 
-||Veld Vereffeningsnr. artikelpost|Veld Vereffenen met artikelpost|  
+|-|Veld Vereffeningsnr. artikelpost|Veld Vereffenen met artikelpost|  
 |-|--------------------------------|----------------------------------|  
 |Vereffening voor uitgaande post|De uitgaande post haalt de kosten uit de open inkomende post.<br /><br /> **Vereffening van aantal**|Niet ondersteund|  
 |Vereffening voor inkomende post|De inkomende post brengt de kosten over naar de openstaande uitgaande post.<br /><br /> De inkomende post is de kostenbron.<br /><br /> **Vereffening van aantal**|De inkomende post haalt de kosten uit de uitgaande post. **Opmerking:**  bij het maken van deze vaste vereffening wordt de inkomende transactie behandeld als een verkoopretour. De vereffende uitgaande post blijft daarom open. <br /><br /> De inkomende post is NIET de kostenbron.<br /><br /> **Vereffeningskosten**|  
 
 > [!IMPORTANT]  
->  Een verkoopretour wordt NIET beschouwd als een kostenbron als deze vast wordt toegepast.  
->   
->  De verkooppost blijft echter open tot de echte bron is geboekt.  
+> Een verkoopretour wordt NIET beschouwd als een kostenbron als deze vast wordt toegepast.  
+>
+> De verkooppost blijft echter open tot de echte bron is geboekt.  
 
 Een artikelvereffeningspost legt de volgende informatie vast.  
 
@@ -126,7 +127,7 @@ Het volgende voorbeeld, dat het effect toont van vaste vereffening, is gebaseerd
 
 De volgende tabel toont het resultaat van het scenario op de waardeposten van het artikel.  
 
-|Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
+|Boekingsdatum|Artikelpostsoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Inkoop|1|200.00||Nr.|1|1|  
 |01-01-20|Inkoop|1|1000.00||Nee|2|2|  
@@ -165,7 +166,7 @@ In het volgende voorbeeld wordt getoond hoe een vaste vereffening zorgt voor exa
 
 De volgende tabel toont het resultaat van scenariostappen 1 t/m 3 voor de waardeposten van het artikel.  
 
-|Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
+|Boekingsdatum|Artikelpostsoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Inkoop|1|1000.00||1|1|  
 |01-02-20|Verkoop|-1|1000.00||2|2|  
@@ -179,7 +180,7 @@ De volgende tabel toont de waardepost die resulteert uit scenariostap 4, het boe
 
 De volgende tabel toont het effect van de exacte kostenterugboeking op de waardeposten van het artikel.  
 
-|Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
+|Boekingsdatum|Artikelpostsoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffenen met artikelpost|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Inkoop|1|1000.00||1|1|  
 |01-02-20|Verkoop|-1|1100.00||2|2|  
@@ -206,7 +207,7 @@ In het volgende voorbeeld wordt getoond hoe transferposten worden vereffend, en 
 
 De volgende tabel toont het effect van de transfer op de waardeposten van het artikel.  
 
-|Boekingsdatum|Artikelboekingssoort|Vestiging|Gewaardeerd aantal|Tot. werk. kosten|Postnr.|  
+|Boekingsdatum|Artikelpostsoort|Vestiging|Gewaardeerd aantal|Tot. werk. kosten|Postnr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Inkoop|BLAUW|1|10.00|1|  
 |01-01-20|Inkoop|BLAUW|1|20.00|2|  
@@ -221,7 +222,7 @@ In het volgende voorbeeld wordt getoond hoe transferposten worden vereffend, en 
 
 De volgende tabel toont het effect van de transfer op de waardeposten van het artikel.  
 
-|Boekingsdatum|Artikelboekingssoort|Vestiging|Gewaardeerd aantal|Tot. werk. kosten|Postnr.|  
+|Boekingsdatum|Artikelpostsoort|Vestiging|Gewaardeerd aantal|Tot. werk. kosten|Postnr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Inkoop|BLAUW|1|10.00|1|  
 |01-02-20|Transfer|BLAUW|-1|10.00|2|  

@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/05/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: fc311badfb682bdedb37139bba5618ab60c1d988
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339982"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577163"
 ---
 # <a name="planning"></a>Planning
+
 De productiebewerkingen die vereist zijn om input om te zetten in gereed product, moeten per dag of per week worden gepland afhankelijk van het volume en de aard van de producten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat functies voor de verwachte en werkelijke vraag van verkoop, montage en productie, en functies voor distributieplanning met SKU's en transfers.
 
 > [!NOTE]
-> Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.<br /><br />
+> Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.
+>
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook voorraadplanning voor de groothandel, waar de resulterende aanvulorders alleen transfer- en inkooporders kunnen zijn. De belangrijkste interface voor dit planningswerk is de pagina **Inkoopvoorstel**, die indirect in dit onderwerp wordt beschreven aangezien de meeste planningsfunctionaliteiten op beide voorstellen van toepassing zijn.
 
 Planning kan worden beschouwd als de voorbereiding van vereiste aanvulorders in de inkoop-, assemblage- of productieafdelingen om te voldoen aan verkoop of vraag naar eindartikelen. Zie voor meer informatie [Inkoop](purchasing-manage-purchasing.md), [Assemblagebeheer](assembly-assemble-items.md) en [Productie](production-manage-manufacturing.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -38,7 +40,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een projectproductieorder maken rechtstreeks op basis van een verkooporder met meerdere regels voor een productieproject.|[Projectorders plannen](production-how-to-plan-project-orders.md)|
 |De pagina **Orderplanning** gebruiken om een handmatige planning te maken voor de verkoop- of productievraag, voor één productiestuklijstniveau tegelijk.|[Nieuwe vraag order voor order plannen](production-how-to-plan-for-new-demand.md)|
 |De pagina **Planningsvoorstel** gebruiken om de MPS- en MRP-opties uit te voeren om automatisch een leveringsplan op hoog niveau of een gedetailleerd leveringsplan op alle artikelniveaus te maken.|[Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)|
-|Het inkoopvoorstel gebruiken om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|De pagina **Inkoopvoorstel**|  
+|Gebruik de pagina **Inkoopvoorstel** om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|[Inkoopvoorstel](production-about-planning-functionality.md#requisition-worksheet)|  
 |Een productieorder starten of bijwerken als ruw geplande bewerkingen in het hoofdproductieschema.|[Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)|
 |Afdelings- of bewerkingsplaatsagenda's opnieuw berekenen wegens planningswijzigingen.|[Een afdelingsagenda berekenen](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |De ordervraag (getraceerd aantal), prognose , raamverkooporder of planningparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.|[Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)|
