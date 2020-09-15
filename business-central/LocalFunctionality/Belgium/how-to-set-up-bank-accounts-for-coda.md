@@ -11,35 +11,35 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 301a399021b686b0a612cc85faabcdac459fd1b0
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 2e8202147270fee95e3e549d4504e9e74cfb4811
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676677"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778443"
 ---
-# <a name="set-up-bank-accounts-for-coda"></a><span data-ttu-id="a5b0c-103">Bankrekeningen instellen voor CODA</span><span class="sxs-lookup"><span data-stu-id="a5b0c-103">Set Up Bank Accounts for CODA</span></span>
-<span data-ttu-id="a5b0c-104">Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:</span><span class="sxs-lookup"><span data-stu-id="a5b0c-104">Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:</span></span>  
+# <a name="set-up-bank-accounts-for-coda"></a><span data-ttu-id="2e353-103">Bankrekeningen instellen voor CODA</span><span class="sxs-lookup"><span data-stu-id="2e353-103">Set Up Bank Accounts for CODA</span></span>
+<span data-ttu-id="2e353-104">Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:</span><span class="sxs-lookup"><span data-stu-id="2e353-104">Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:</span></span>  
 
-- <span data-ttu-id="a5b0c-105">Protocolnummer</span><span class="sxs-lookup"><span data-stu-id="a5b0c-105">Protocol number</span></span>  
-- <span data-ttu-id="a5b0c-106">Versiecode</span><span class="sxs-lookup"><span data-stu-id="a5b0c-106">Version code</span></span>  
-- <span data-ttu-id="a5b0c-107">IBLC/BLWI-codes - Zie [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-107">IBLC/BLWI codes - For more information, see [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).</span></span>  
+- <span data-ttu-id="2e353-105">Protocolnummer</span><span class="sxs-lookup"><span data-stu-id="2e353-105">Protocol number</span></span>  
+- <span data-ttu-id="2e353-106">Versiecode</span><span class="sxs-lookup"><span data-stu-id="2e353-106">Version code</span></span>  
+- <span data-ttu-id="2e353-107">IBLC/BLWI-codes - Zie [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="2e353-107">IBLC/BLWI codes - For more information, see [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).</span></span>  
 
-## <a name="to-set-up-protocol-numbers-and-version-codes"></a><span data-ttu-id="a5b0c-108">Protocolnummers en versiecodes instellen</span><span class="sxs-lookup"><span data-stu-id="a5b0c-108">To set up protocol numbers and version codes</span></span>  
+## <a name="to-set-up-protocol-numbers-and-version-codes"></a><span data-ttu-id="2e353-108">Protocolnummers en versiecodes instellen</span><span class="sxs-lookup"><span data-stu-id="2e353-108">To set up protocol numbers and version codes</span></span>  
 
-1.  <span data-ttu-id="a5b0c-109">Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-109">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="a5b0c-110">Kies de actie **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-110">Choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="a5b0c-111">Vul de velden in zoals beschreven in de volgende tabel.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-111">Fill in the fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="2e353-109">Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="2e353-109">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="2e353-110">Kies de actie **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="2e353-110">Choose the **Edit** action.</span></span>  
+3.  <span data-ttu-id="2e353-111">Vul de velden in zoals beschreven in de volgende tabel.</span><span class="sxs-lookup"><span data-stu-id="2e353-111">Fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="a5b0c-112">Veld</span><span class="sxs-lookup"><span data-stu-id="a5b0c-112">Field</span></span>|<span data-ttu-id="a5b0c-113">Description</span><span class="sxs-lookup"><span data-stu-id="a5b0c-113">Description</span></span>|  
+    |<span data-ttu-id="2e353-112">Veld</span><span class="sxs-lookup"><span data-stu-id="2e353-112">Field</span></span>|<span data-ttu-id="2e353-113">Description</span><span class="sxs-lookup"><span data-stu-id="2e353-113">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="a5b0c-114">**Protocolnr.**</span><span class="sxs-lookup"><span data-stu-id="a5b0c-114">**Protocol No.**</span></span>|<span data-ttu-id="a5b0c-115">Voer het protocolnummer in dat door het CODA-systeem wordt gebruikt om gecodeerde bankafschriften te importeren.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-115">Enter the protocol number that is used by the CODA system to import coded bank account statements.</span></span>|  
-    |<span data-ttu-id="a5b0c-116">**Versiecode**</span><span class="sxs-lookup"><span data-stu-id="a5b0c-116">**Version Code**</span></span>|<span data-ttu-id="a5b0c-117">Voer de versiecode in die door het CODA-systeem wordt gebruikt om gecodeerde bankafschriften te importeren.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-117">Enter the version code used by the CODA system to import coded bank account statements.</span></span>|  
+    |<span data-ttu-id="2e353-114">**Protocolnr.**</span><span class="sxs-lookup"><span data-stu-id="2e353-114">**Protocol No.**</span></span>|<span data-ttu-id="2e353-115">Voer het protocolnummer in dat door het CODA-systeem wordt gebruikt om gecodeerde bankafschriften te importeren.</span><span class="sxs-lookup"><span data-stu-id="2e353-115">Enter the protocol number that is used by the CODA system to import coded bank account statements.</span></span>|  
+    |<span data-ttu-id="2e353-116">**Versiecode**</span><span class="sxs-lookup"><span data-stu-id="2e353-116">**Version Code**</span></span>|<span data-ttu-id="2e353-117">Voer de versiecode in die door het CODA-systeem wordt gebruikt om gecodeerde bankafschriften te importeren.</span><span class="sxs-lookup"><span data-stu-id="2e353-117">Enter the version code used by the CODA system to import coded bank account statements.</span></span>|  
 
-4.  <span data-ttu-id="a5b0c-118">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="a5b0c-118">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="2e353-118">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="2e353-118">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="a5b0c-119">Zie ook</span><span class="sxs-lookup"><span data-stu-id="a5b0c-119">See Also</span></span>  
- <span data-ttu-id="a5b0c-120">[CODA-bankafschriften](coda-bank-statements.md) </span><span class="sxs-lookup"><span data-stu-id="a5b0c-120">[CODA Bank Statements](coda-bank-statements.md) </span></span>  
- <span data-ttu-id="a5b0c-121">[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) </span><span class="sxs-lookup"><span data-stu-id="a5b0c-121">[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) </span></span>  
- [<span data-ttu-id="a5b0c-122">CODA-afschriften importeren</span><span class="sxs-lookup"><span data-stu-id="a5b0c-122">Import CODA Statements</span></span>](how-to-import-coda-statements.md)
+## <a name="see-also"></a><span data-ttu-id="2e353-119">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2e353-119">See Also</span></span>  
+ <span data-ttu-id="2e353-120">[CODA-bankafschriften](coda-bank-statements.md) </span><span class="sxs-lookup"><span data-stu-id="2e353-120">[CODA Bank Statements](coda-bank-statements.md) </span></span>  
+ <span data-ttu-id="2e353-121">[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) </span><span class="sxs-lookup"><span data-stu-id="2e353-121">[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) </span></span>  
+ [<span data-ttu-id="2e353-122">CODA-afschriften importeren</span><span class="sxs-lookup"><span data-stu-id="2e353-122">Import CODA Statements</span></span>](how-to-import-coda-statements.md)
