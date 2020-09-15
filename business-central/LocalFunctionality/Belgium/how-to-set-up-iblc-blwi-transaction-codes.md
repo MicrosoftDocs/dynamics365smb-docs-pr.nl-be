@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2908f8186cd09c9e8a4b31ae76238e91c3dcefb4
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 98c6914bd63dfeee65300387a3847075dae5c08f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676718"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778423"
 ---
 # <a name="set-up-iblc-blwi-transaction-codes"></a>IBLC-BLWI-transactiecodes instellen
 Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instellen op basis van de vereisten van het Belgian-Luxembourg Exchange Institute. Dit zijn internationale identificatiecodes voor de verschillende soorten betalingstransacties. De IBLC-BLWI-codes worden alleen gebruikt voor internationale betalingen.  

@@ -1,59 +1,29 @@
 ---
-title: SEPA-betalingen activeren
+title: SEPA-betalingen activeren in de Belgische versie
 description: Als u leveranciersbetalingen elektronisch wilt verzenden in de betalingsindeling SEPA (Single Euro Payments Area) ISO 20022, moet u eerst de vereiste instellingen aanbrengen voor het activeren van SEPA-betalingen.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 47d255e1217eca08d073400ea92adaf012d76c71
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.date: 08/25/2020
+ms.author: edupont
+ms.openlocfilehash: 6dc9df94a823d62ca6ff79f65c1212d6ad5ca778
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676599"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731123"
 ---
-# <a name="activate-sepa-payments"></a>SEPA-betalingen activeren
-Als u leveranciersbetalingen elektronisch wilt verzenden in de betalingsindeling SEPA (Single Euro Payments Area) ISO 20022, moet u eerst de vereiste instellingen aanbrengen voor het activeren van SEPA-betalingen.  
+# <a name="activate-sepa-payments-in-the-belgian-version"></a>SEPA-betalingen activeren in de Belgische versie
 
-In de volgende procedures wordt beschreven hoe u SEPA-betaling inschakelt en leveranciersbankrekeningen inschakelt.  
-
-## <a name="to-enable-countriesregions-for-sepa"></a>Landen/regio's activeren voor SEPA  
-
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Landen/regio's** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies de actie **Lijst bewerken**.  
-3.  Schakel het selectievakje **SEPA toegestaan** in voor elk land of elke regio dat/die u wilt activeren voor SEPA.  
-4.  Kies de knop **Ok**.  
-
-## <a name="to-enable-bank-accounts-for-sepa"></a>Bankrekeningen activeren voor SEPA  
-
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer de bankrekening die u wilt activeren voor SEPA en kies vervolgens de actie **Bewerken**.  
-3.  Kies de juiste redencode in het veld **Land-/regiocode**.  
-
-    > [!NOTE]  
-    >  De opgegeven land-/regiocode moet zijn geactiveerd voor SEPA, zoals is beschreven in de vorige procedure.  
-
-4.  Geef een waarde op in het veld **Minimumsaldo**.  
-5.  Voer in het veld **SWIFT-code** een code in.  
-6.  Kies de knop **Ok**.  
-
-## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a>Bankrekeningen van leveranciers instellen voor SEPA  
-
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer de betreffende leverancier en kies vervolgens de actie **Bankrekeningen**.  
-3.  Selecteer de bankrekening van de leverancier die u wilt instellen voor SEPA, en kies vervolgens de actie **Bewerken**.  
-4.  Voer in de velden **IBAN** en **SWIFT-code** van het sneltabblad Transfer de internationale bankidentificatiecode in van de bank waarbij de leverancier de rekening heeft.  
-5.  Kies de knop **OK**.  
+[!INCLUDE [activate-sepa-payments](../includes/BENL/activate-sepa-payments.md)]
 
 ## <a name="see-also"></a>Zie ook  
- [SEPA-betalingen](sepa-payments.md)   
- [SEPA-betalingen indienen](how-to-file-sepa-payments.md)   
- [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md)   
- [Exportprotocollen instellen](how-to-set-up-export-protocols.md)
+
+[SEPA-betalingen](sepa-payments.md)  
+[SEPA-betalingen indienen](how-to-file-sepa-payments.md)  
+[SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md)  
+[Exportprotocollen instellen](how-to-set-up-export-protocols.md)  
