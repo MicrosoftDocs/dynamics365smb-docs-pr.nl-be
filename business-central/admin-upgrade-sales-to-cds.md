@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 2a5f58ac904ea05f4410ac9e1b804df1cb01c609
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 57bb8d6ee48b608074a669109bdd99abf8c452c2
+ms.sourcegitcommit: 351eb465e6dfb3d01c0f3ea406db340f393f47fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410680"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3742847"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Een integratie met Dynamics 365 Sales upgraden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] integreert ook met [!INCLUDE[d365fin](includes/cds_long_md.md)], waardoor het eenvoudig is om gegevens te verbinden en te synchroniseren met andere Dynamics 365-toepassingen, zoals [!INCLUDE[crm_md](includes/crm_md.md)], of zelfs apps die u zelf bouwt. Als u voor de eerste keer integreert, raden we u aan dit te doen via [!INCLUDE[d365fin](includes/cds_long_md.md)]. Zie voor meer informatie [Integratie met Common Data Service](admin-common-data-service.md).
@@ -32,13 +32,12 @@ Als u al [!INCLUDE[crm_md](includes/crm_md.md)] hebt geïntegreerd met [!INCLUDE
 2. Open de pagina **Common Data Service-verbinding instellen** en kies de schakelaar **Inschakelen** om de verbinding in te schakelen.
   
    Nadat u de CDS-verbinding hebt ingeschakeld, wordt de Business Central CDS-basisintegratieoplossing geïmplementeerd naar Common Data Service.
-3. Verwijder de Microsoft Dynamics 365 Business Central Integratie-oplossing uit uw Dynamics 365 Sales volgens [Een oplossingsonderwerp de-installeren of verwijderen](/powerapps/developer/common-data-service/uninstall-delete-solution) 
+3. Verwijder de Microsoft Dynamics 365 Business Central-integratieoplossing uit Dynamics 365 Sales. Zie [Een oplossing deïnstalleren of verwijderen](/powerapps/developer/common-data-service/uninstall-delete-solution) voor meer informatie. 
 
-4. Kies op de pagina Microsoft Dynamics 365-verbinding instellen de schakelaar Inschakelen om de verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] in te schakelen.
+4. Ga naar de pagina **Microsoft Dynamics 365-verbinding instellen** en stel de wisselknop **Inschakelen** in op het maken van een verbinding met [!INCLUDE[crm_md](includes/crm_md.md)].
   
    Nadat u de Sales-verbinding hebt ingeschakeld, wordt de Business Central-integratieoplossing geïmplementeerd naar Sales. Dit maakt integratie mogelijk met entiteiten die specifiek zijn voor [!INCLUDE[crm_md](includes/crm_md.md)], zoals verkooporders, offertes en facturen.
-5. Kies **Integratieoplossing opnieuw implementeren** om de bijgewerkte Business Central-integratieoplossing te installeren en configureren.
-6. Kies op de pagina **Sales-verbinding instellen** **Standaardsynchronisatie-instellingen** om de integratietabeltoewijzingen te initialiseren voor [!INCLUDE[crm_md](includes/crm_md.md)].
+5. Kies op de pagina **Sales-verbinding instellen** **Standaardsynchronisatie-instellingen** om de integratietabeltoewijzingen te initialiseren voor [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Zie ook
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

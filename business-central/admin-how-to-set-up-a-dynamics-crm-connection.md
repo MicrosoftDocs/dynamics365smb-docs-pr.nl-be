@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619426"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3702004"
 ---
 # <a name="connect-to-common-data-service"></a>Verbinding maken met Common Data Service
 
@@ -71,7 +71,7 @@ In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **CDS
     |Veld|Omschrijving|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)] -gebruikers moeten worden toegewezen aan CDS-gebruikers**|Als u het eigendomsmodel Persoon gebruikt, geef dan op of [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikersaccounts overeenkomende gebruikersaccounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] moeten hebben. Het **Office 365 e-mailadres voor verificatie** van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruiker moet hetzelfde zijn als het **Primaire e-mailadres** van de [!INCLUDE[crm_md](includes/crm_md.md)]-gebruiker.<br /><br /> Als u de waarde instelt op **Ja**, hebben [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die geen overeenkomend [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikersaccount hebben, geen [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratiemogelijkheden in de gebruikersinterface. Toegang tot [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens, direct vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt uitgevoerd namens het [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikersaccount.<br /><br /> Als u de waarde instelt op **Nee**, hebben alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers [!INCLUDE[crm_md](includes/crm_md.md)]-integratiemogelijkheden in de gebruikersinterface. Toegang tot [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens wordt uitgevoerd namens de gebruiker van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding (integratie).|
-    |**Huidige Business Central-verkoper is toegewezen aan een gebruiker**|Geeft aan of uw gebruikersaccount is toegewezen aan een account in [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Huidige Business Central-verkoper is toegewezen aan een gebruiker**|Geeft aan of uw gebruikersaccount is toegewezen aan een account in [!INCLUDE[crm_md](includes/crm_md.md)]. <!--double check the name of this field-->|
 
 4. Als u de verbindingsinstellingen wilt testen, kiest u **Verbinding** en vervolgens **Verbinding testen**.  
 

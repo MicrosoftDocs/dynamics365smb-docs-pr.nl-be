@@ -227,9 +227,17 @@
 ### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Business Central gebruiken met Outlook](admin-no-outlook.md)
 ## Power BI gebruiken met Business Central
-### [Uw bedrijfsgegevens inschakelen voor Power BI](admin-powerbi.md)
-### [Lijstgegevens weergeven in Power BI-rapporten in Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)
+### [Inleiding](admin-powerbi.md)
+### Beheerder
+#### [Overzicht van integratie](admin-powerbi-overview.md)
+#### [Power BI-integratie mogelijk maken](admin-powerbi-setup.md)
+### Ontwerper
+#### [Aan de slag met het maken van rapporten](across-how-use-financials-data-source-powerbi.md)
+#### [Rapporten maken voor het weergeven van lijstgegevens](across-how-use-powerbi-reports-factbox.md)
+### Consument
+#### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
+#### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
+#### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
 ## Power Automate gebruiken met Business Central
 ### [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)
 ## Power Apps gebruiken met Business Central
@@ -424,8 +432,6 @@
 #### [Betalingen na automatische vereffening handmatig controleren of vereffenen](receivables-how-review-apply-payments-auto-application.md)
 #### [Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)
 ### [Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md)
 ### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
 ### [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Betalingsrun maken en exporteren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Bankafschriften importeren en reconciliëren](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Hoofdfinanciën
-#### [Grootboek](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Verplichte beschrijvingen in grootboekposten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Inkopen

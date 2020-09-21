@@ -4,13 +4,13 @@ description: Vind alle beschikbare leermogelijkheden voor Business Central.
 author: loreleishannonmsft
 ms.date: 08/10/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 547d02d6a1fb76ae5f3ad64feb265b69edf0bf64
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: margoc
+ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676833"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779186"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Pre-sales trainingscatalogus voor partners
 
@@ -77,4 +77,4 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Demo: Klantengoedkeuringsproces - zomer 2019](https://youtu.be/_Oyj6DBAuPI) | Sluit u aan bij Craig terwijl hij een basisbedrijfsproces laat zien van het onboarden van een nieuwe klant. | YouTube-video | 3 minuten, 24 seconden |
 | [Demo: Consoliderende bedrijven - zomer 2019](https://youtu.be/A4SExgt7wV4) | Sluit u aan bij Craig terwijl hij u laat zien hoe u bedrijven consolideert met Business Central. | YouTube-video | 2 minuten, 15 seconden |
 | [Demo: Crediteuren automatiseren - zomer 2019](https://youtu.be/RB3_7UTpEjo) | Sluit u aan bij Craig terwijl hij u een manier laat zien waarop u het crediteurenproces kunt automatiseren met Business Central. | YouTube-video | 3 minuten, 51 seconden |
-| [Demo: Een nieuw bedrijf instellen](https://youtu.be/ZHg4UXTOEp8) | Join Craig laat u zien hoe u een nieuw bedrijf instelt met Business Central | YouTube-video | 4 minuten, 48 seconden |
+| [Demo: Een nieuw bedrijf instellen](https://youtu.be/ZHg4UXTOEp8) | Join Craig laat u zien hoe u een nieuw bedrijf opzet met Business Central | YouTube-video | 4 minuten, 48 seconden |

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410799"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693161"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Werken met periodieke inkomsten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -107,7 +107,7 @@ Zie [Periodieke orders (Noorwegen)](/localfunctionality/norway/recurring-orders.
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Periodieke inkomsten en abonnementsfacturering door andere providers
 
-Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor Business Central. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) dus in de gaten en krijg apps om u te helpen met uw werk in Business Central.  
+Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor Business Central. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) dus in de gaten en krijg apps om u te helpen met uw werk in Business Central.  
 
 ## <a name="see-also"></a>Zie ook
 

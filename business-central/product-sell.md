@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 37b813e417d4d20be5c35678639f9f4c49184e33
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528700"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693061"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Word een reseller van [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Breid de verkoopkansen van uw bedrijf uit met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
-Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analyse, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Business Central een nieuwe kans voor u.   
+Als u gespecialiseerd bent in cloudoplossingen, Office 365, SharePoint, industrieoplossingen, analyse, ERP, CRM, boekhoudsoftware en/of software/services voor bedrijfsprocesoptimalisatie, is Business Central een nieuwe kans voor u.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen de relaties met uw klanten scherper te maken en te versterken, doordat u hiermee een end-to-end-oplossing voor bedrijfsbeheer levert die mensen en processen als nooit tevoren met elkaar laat verbinden, geïntegreerd in de bekende Microsoft Office-tools die het midden- en kleinbedrijf dagelijks gebruikt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kan u helpen bij het optimaliseren van uw klantrelaties door u een end-to-end bedrijfsbeheeroplossing te bieden die mensen en processen op geheel nieuwe manieren met elkaar verbindt en die is geïntegreerd met de bekende Microsoft Office-tools, die middelgrote en kleine bedrijven dagelijks gebruiken.  
 
 ## <a name="get-started"></a>Aan de slag
 
@@ -32,4 +33,4 @@ Het 'Ready to Go'-programma is één manier om aan de slag te gaan als een resel
 
 [Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

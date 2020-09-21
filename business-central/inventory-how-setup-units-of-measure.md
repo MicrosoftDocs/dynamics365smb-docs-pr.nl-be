@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
 ms.date: 07/06/2020
-ms.author: SorenGP
-ms.openlocfilehash: 7251be2de0cd8b368f0510596b0c695a93acc4b6
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: edupont
+ms.openlocfilehash: 52d1846ce71a651dabfd099ced203648c0242082
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535959"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777803"
 ---
 # <a name="set-up-units-of-measure"></a>Maateenheden instellen
 
@@ -33,7 +33,7 @@ Als een artikel in één eenheid in voorraad is, maar in een andere eenheid word
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.  
 3. Vul de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-4. Als u weet dat uw organisatie artikelen met deze maateenheid zal verkopen aan klanten in andere landen, kunt u vertalingen toevoegen.  
+4. Als u weet dat uw organisatie artikelen met deze maateenheid zal verkopen aan klanten in andere landen/regio's, kunt u vertalingen toevoegen.  
     1. Selecteer de code waarvoor u vertalingen wilt instellen en kies de actie **Vertalingen**.
     2. Selecteer in het veld **Taal** de pijl-omlaag voor een overzicht van de beschikbare taalcodes. Selecteer de taalcode waarvoor u een vertaling wilt invoeren en kies de knop OK om de code naar het veld te kopiëren.
     3. Voer de gewenste tekst in het veld **Omschrijving** in.

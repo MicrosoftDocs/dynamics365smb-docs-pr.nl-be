@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196936"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693036"
 ---
 # <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
 [!INCLUDE[d365fin](includes/cds_long_md.md)] bevat slechts drie optiesetvelden die optiewaarden bevatten die u kunt toewijzen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]-velden van het type Optie<!-- Option type, not enum? @Onat can you vertify this? --> voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Deze sectie beschrijft hoe dat werkt.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > U moet dezelfde optie-ID-waarden gebruiken van [!INCLUDE[d365fin](includes/cds_long_md.md)] wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-enum uitbreidt. Anders mislukt de synchronisatie.
+
+> [!IMPORTANT]  
+> Gebruik niet het teken "," in de Enum-waarden en bijschriften. Dit wordt momenteel niet ondersteund door de [!INCLUDE[d365fin](includes/d365fin_md.md)]-runtime.
 
 > [!NOTE]
 > De eerste tien tekens van de nieuwe namen en bijschriften van de optiewaarden moeten uniek zijn. Twee opties met de naam "Transfer 20 werkdagen" en "Transfer 20 kalenderdagen" veroorzaken bijvoorbeeld een fout omdat beide dezelfde eerste 10 tekens hebben, "Transfer 2". Noem ze bijvoorbeeld "TRF20 WD" en "TRF20 KD".

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528725"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731230"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 Voordat u [!INCLUDE[prodshort](includes/prodshort.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
@@ -31,7 +31,10 @@ Voordat u [!INCLUDE[prodshort](includes/prodshort.md)] online opent, is het raad
 ### <a name="other-supported-browsers"></a>Andere ondersteunde browsers
 
 **Microsoft Edge oud:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met de oude versie van Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows. U kunt ook de nieuwe Edge gebruiken en toch toegang krijgen tot andere websites die Internet Explorer vereisen. Zie voor meer informatie de [documentatie van Microsoft Edge](/deployedge/edge-ie-mode).
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows. U kunt ook de nieuwe Microsoft Edge gebruiken en toch toegang krijgen tot andere websites die Internet Explorer vereisen. Zie voor meer informatie de [documentatie van Microsoft Edge](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> Vanaf april 2021 worden Internet Explorer 11 en Microsoft Edge Legacy niet langer ondersteund. We raden u aan om zo snel mogelijk over te schakelen naar een van de aanbevolen moderne browsers.
 
 ## <a name="mobile-devices"></a>Mobiele apparaten
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] voor Windows kan worden geïnstalleerd op apparaten met ten minste 1 GB RAM en Windows 10 Home, Pro, Enterprise of Education (32-bits en 64-bits versies).  

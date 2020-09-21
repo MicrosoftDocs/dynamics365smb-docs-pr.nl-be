@@ -1,7 +1,7 @@
 ---
-title: Business Central gebruiken in Power BI-rapporten | Microsoft Docs
+title: Rapporten maken in Power BI Desktop om Business Central-gegevens weer te geven | Microsoft Docs
 description: Maak uw gegevens als gegevensbron in Power BI beschikbaar en maak krachtige rapporten met de status van uw bedrijf.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,44 +9,123 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: b42437f0759ecb6d977797b31222bfa2b88cdb13
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: jswymer
+ms.openlocfilehash: c3ec3a511164d85dd01f827227e2cbcff76ce395
+ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528474"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697734"
 ---
-# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[prodlong](includes/prodlong.md)] gebruiken als Power BI-gegevensbron voor het maken van rapporten
+# <a name="building-power-bi-reports-to-display-prodlong-data"></a>Power BI-rapporten maken om [!INCLUDE [prodlong](includes/prodlong.md)]-gegevens weer te geven
 
-U kunt uw [!INCLUDE[prodlong](includes/prodlong.md)]-gegevens als gegevensbron beschikbaar maken in Power BI en krachtige rapporten maken met de status van uw bedrijf.  
+U kunt uw [!INCLUDE[prodlong](includes/prodlong.md)]-gegevens als gegevensbron beschikbaar maken in Power BI Desktop en krachtige rapporten maken met de status van uw bedrijf.
 
-U moet een geldig account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. U moet ook [Power BI Desktop](https://powerbi.microsoft.com/desktop/) downloaden. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
+In dit artikel wordt beschreven hoe u aan de slag kunt met Power BI Desktop om rapporten te maken waarin [!INCLUDE[prodlong](includes/prodlong.md)]-gegevens worden weergegeven.  Nadat u rapporten hebt gemaakt, kunt u deze publiceren via uw Power BI-service of delen met alle gebruikers in uw organisatie. Zodra deze rapporten zich in de Power BI-service bevinden, kunnen gebruikers die ervoor zijn ingesteld, vervolgens de rapporten bekijken in [!INCLUDE[prodlong](includes/prodlong.md)].
 
-## <a name="to-add-prodshort-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prodshort](includes/prodshort.md)] als gegevensbron toevoegen in Power BI Desktop
+## <a name="get-ready"></a>Bereid u voor
 
-1. Kies in Power BI Desktop in het linkernavigatievenster **Gegevens ophalen**.
-2. Kies op de pagina **Gegevens ophalen** **Online Services**, kies **Microsoft Dynamics 365 Business Central** en kies vervolgens de knop **Verbinden**.
-3. Power BI geeft een wizard weer die u door het verbindingsproces begeleidt, inclusief aanmelden bij [!INCLUDE[prodshort](includes/prodshort.md)]. Kies **Aanmelden** en kies vervolgens het relevante account. Gebruik hetzelfde account als waarmee u zich aanmeldt bij [!INCLUDE[prodshort](includes/prodshort.md)].
-4. Kies de knop **Verbinding maken** om door te gaan. De wizard Power BI bevat een lijst met Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgevingen, -bedrijven en -gegevensbronnen. Met deze gegevensbronnen worden alle webservices vertegenwoordigd die u hebt gepubliceerd vanuit [!INCLUDE[prodshort](includes/prodshort.md)].
+- Meld u aan voor de Power BI-service.
 
-    U kunt ook een nieuwe webservice-URL maken in [!INCLUDE[prodshort](includes/prodshort.md)]. Kies een van de volgende methoden:
+    Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
-      - De actie **Gegevensset maken** op de pagina **Webservices** gebruiken
-      - De begeleide instelling **Rapportage instellen** gebruiken
-      - De actie **Bewerken in Excel** kiezen in een lijst
+- Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-5. Geef de gegevens op die u aan uw gegevensmodel wilt toevoegen en kies vervolgens de knop **Laden**.
-6. Herhaal de vorige stappen om aanvullende [!INCLUDE[prodshort](includes/prodshort.md)]- of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
+   Power BI Desktop is een gratis toepassing die u op uw lokale computer installeert. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-> [!NOTE]  
-> Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prodshort](includes/prodshort.md)], wordt u niet opnieuw gevraagd zich aan te melden.
+- Zorg ervoor dat de gegevens die u in het rapport wilt opnemen, als webservice worden gepubliceerd.
+    
+    Er worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden, is te zoeken naar *webservices* in [!INCLUDE[prodshort](includes/prodshort.md)]. Zorg ervoor dat op de pagina **Webservices** het veld **Publiceren** is geselecteerd. Deze taak is gewoonlijk een beheertaak.
+    
+    Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
 
-Zodra de gegevens zijn geladen, ziet u deze in de rechternavigatie op de pagina. U hebt met succes een koppeling gemaakt naar uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens en kunt u uw Power BI-rapport gaan maken.  
+- Zorg dat u voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises over de volgende informatie beschikt:
 
-Voordat u uw rapport maakt, is het raadzaam dat u het [!INCLUDE[prodshort](includes/prodshort.md)]-themabestand importeert.  Het themabestand maakt een kleurenpalet, zodat u rapporten kunt maken met dezelfde kleurstijl als de [!INCLUDE[prodshort](includes/prodshort.md)]-apps zonder aangepaste kleuren te hoeven definiëren voor elk visueel element.
+    - De OData-URL voor [!INCLUDE[prodshort](includes/prodshort.md)]. Deze URL heeft doorgaans de indeling `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, bijvoorbeeld `https://localhost:7048/BC160/ODataV4`. Als u een implementatie met meerdere tenants hebt, neemt u de tenant op in de URL, bijvoorbeeld `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    - Een gebruikersnaam en een webservicetoegangssleutel van een [!INCLUDE[prodshort](includes/prodshort.md)]-account.
 
-Zie voor meer informatie de [documentatie van Power BI](/power-bi/consumer/).
+      Power BI maakt gebruik van basisverificatie om gegevens op te halen uit [!INCLUDE[prodshort](includes/prodshort.md)]. U hebt dus een gebruikersnaam en een webservicetoegangssleutel nodig om verbinding te maken. Het account kan uw eigen gebruikersaccount zijn. Het kan ook zijn dat uw organisatie een specifiek account heeft voor dit doel.
+
+- Download het [!INCLUDE [prodshort](includes/prodshort.md)]-rapportthema (optioneel).
+
+    Zie [Het [!INCLUDE [prodshort](includes/prodshort.md)]-rapportthema gebruiken](#theme) in dit artikel voor meer informatie.
+
+## <a name="add-prodshort-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prodshort](includes/prodshort.md)] als gegevensbron toevoegen in Power BI Desktop
+
+De eerste taak bij het maken van rapporten is het toevoegen van [!INCLUDE[prodshort](includes/prodshort.md)] als een gegevensbron in Power BI Desktop. Als de verbinding tot stand is gebracht, kunt u beginnen met het maken van het rapport.
+
+1. Start Power BI Desktop.
+2. Selecteer **Gegevens ophalen**.
+
+    Als u de optie **Gegevens ophalen** niet ziet, selecteert u het menu **Bestand** en vervolgens de optie **Gegevens ophalen**.
+2. Selecteer op de pagina **Gegevens ophalen** de optie **Onlineservices**.
+3. Voer in het deelvenster **Onlineservices** een van de volgende stappen uit:
+
+    1. Als u online verbinding wilt maken met [!INCLUDE [prodshort](includes/prodshort.md)], kiest u **Dynamics 365 Business Central** en vervolgens **Verbinden**.
+    2. Als u on-premises verbinding wilt maken met [!INCLUDE [prodshort](includes/prodshort.md)], kiest u **Dynamics 365 Business Central (on-premises)** en vervolgens **Verbinden**.
+
+4. Power BI geeft een wizard weer die u door het verbindingsproces begeleidt, inclusief aanmelden bij [!INCLUDE [prodshort](includes/prodshort.md)].
+
+    Maakt u online verbinding, kies dan **Aanmelden** en kies vervolgens het relevante account. Gebruik hetzelfde account dat u gebruikt om u aan te melden bij [!INCLUDE [prodshort](includes/prodshort.md)].
+    
+    Maakt u on-premises verbinding, voer dan de OData-URL in voor [!INCLUDE[prodshort](includes/prodshort.md)] en desgewenst de bedrijfsnaam. Voer vervolgens, wanneer daarom wordt gevraagd, de gebruikersnaam en het wachtwoord in van het account dat u wilt gebruiken voor het maken van een verbinding met [!INCLUDE[prodshort](includes/prodshort.md)]. Voer in het vak **Wachtwoord** de toegangssleutel voor de webservice in.
+
+    > [!NOTE]  
+    > Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prodshort](includes/prodshort.md)], wordt u niet opnieuw gevraagd zich aan te melden.
+    
+5. Kies **Verbinden** om door te gaan.
+
+    De wizard Power BI bevat een lijst met Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgevingen, -bedrijven en -gegevensbronnen. Deze gegevensbronnen vertegenwoordigen alle webservices die u hebt gepubliceerd vanuit [!INCLUDE [prodshort](includes/prodshort.md)].
+6. Geef de gegevens op die u aan uw gegevensmodel wilt toevoegen en kies vervolgens de knop **Laden**.
+7. Herhaal de vorige stappen om aanvullende [!INCLUDE [prodshort](includes/prodshort.md)]- of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
+
+Zodra de gegevens zijn geladen, ziet u deze in de rechternavigatie op de pagina. U hebt nu met succes verbinding gemaakt met uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens en u kunt uw Power BI-rapport gaan maken.  
+
+> [!TIP]
+> Zie [Aan de slag met Power BI Desktop](/power-bi/fundamentals/desktop-getting-started) voor meer informatie over het gebruik van Power BI Desktop.
+
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Rapporten maken om gegevens weer te geven die aan een lijst zijn gekoppeld
+
+U kunt rapporten maken die worden weergegeven in een feitenblok van een [!INCLUDE [prodshort](includes/prodshort.md)]-lijstpagina. De rapporten kunnen gegevens bevatten over de record die in de lijst is geselecteerd. U kunt deze rapporten op ongeveer dezelfde manier maken als andere rapporten, maar u moet wel een paar dingen doen om ervoor te zorgen dat de rapporten worden weergegeven zoals verwacht. Zie [Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prodshort](includes/prodshort.md)]](across-how-use-powerbi-reports-factbox.md) voor meer informatie.
+
+## <a name="using-the-prodshort-report-theme-optional"></a><a name="theme"></a>Het [!INCLUDE [prodshort](includes/prodshort.md)]-rapportthema gebruiken (optioneel)
+
+U wordt aangeraden om voordat u uw rapport maakt het [!INCLUDE [prodshort](includes/prodshort.md)]-themabestand te downloaden en importeren. Het themabestand maakt een kleurenpalet, zodat u rapporten kunt maken met dezelfde kleurstijl als de [!INCLUDE [prodshort](includes/prodshort.md)]-apps zonder dat u aangepaste kleuren hoeft te definiëren voor elk visueel element.
+
+> [!NOTE]
+> Deze taak is optioneel. U kunt altijd uw rapporten maken en later alsnog de stijlsjabloon downloaden en toepassen.
+
+### <a name="download-the-theme"></a>Het thema downloaden
+
+Het themabestand is beschikbaar als JSON-bestand in de themagalerij van de Microsoft Power BI-community. Voer de volgende stappen uit om het themabestand te downloaden:
+
+1. Ga naar de [themagalerie van de Microsoft Power BI-community voor Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
+2. Selecteer de downloadbijlage **Microsoft Dynamics Business Central.json**.
+
+### <a name="import-the-theme-on-a-report"></a>Het thema in een rapport importeren
+
+Nadat u het [!INCLUDE [prodshort](includes/prodshort.md)]-rapportthema hebt gedownload, kunt u het in uw rapporten importeren. Als u het thema wilt importeren, selecteert u **Weergave** > **Thema's** > **Thema's zoeken**. Zie [Power BI Desktop - aangepaste rapportthema's importeren](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files) voor meer informatie.
+
+## <a name="publish-reports"></a>Rapporten publiceren
+
+Nadat u een rapport hebt gemaakt of gewijzigd, kunt u het rapport publiceren naar uw Power BI-service en delen met anderen in uw organisatie. Als het rapport eenmaal is gepubliceerd, kunt u het bekijken in Power BI. Het rapport kan ook worden geselecteerd in [!INCLUDE[prodshort](includes/prodshort.md)].
+
+Als u een rapport wilt publiceren, selecteert u **Publiceren** op het tabblad **Start** of in het menu **Bestand**. Als u bent aangemeld bij de Power BI-service, wordt het rapport naar deze service gepubliceerd. Als dat niet het geval is, wordt u gevraagd u aan te melden. 
+
+## <a name="distribute-or-share-a-report"></a>Een rapport distribueren of delen
+
+Er zijn een aantal manieren om rapporten beschikbaar te maken voor uw collega's en anderen:
+
+- U kunt rapporten distribueren als PBIX-bestanden.
+
+    Rapporten worden op uw computer opgeslagen als PBIX-bestanden. U kunt het PBIX-rapportbestand net als elk ander bestand onder gebruikers distribueren. Vervolgens kunnen gebruikers het bestand uploaden naar hun Power BI-service. Zie [Rapporten uploaden vanuit bestanden](across-working-with-business-central-in-powerbi.md#upload).
+
+    > [!NOTE]
+    > Als u een rapport op deze manier distribueert, houdt dat in dat iedere gebruiker afzonderlijk de gegevens van dat rapport moet vernieuwen. Deze situatie kan van invloed zijn op de prestaties van [!INCLUDE[prodshort](includes/prodshort.md)].
+
+- Het rapport delen vanuit uw Power BI-service
+
+    Als u een Power BI Pro-licentie hebt, kunt u het rapport rechtstreeks vanuit uw Power BI-service delen met anderen. Zie [Power BI - een dashboard of rapport delen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report) voor meer informatie.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

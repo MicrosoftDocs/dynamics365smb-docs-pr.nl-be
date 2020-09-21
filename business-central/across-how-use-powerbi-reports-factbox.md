@@ -1,7 +1,7 @@
 ---
-title: Aangepaste Power BI-rapporten weergeven| Microsoft Docs
+title: Aangepaste Power BI-rapporten voor Business Central-gegevens weergeven | Microsoft Docs
 description: U kunt Power BI-rapporten gebruiken om extra inzicht te krijgen in gegevens in lijsten.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,64 +9,74 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 15b9f17b0b7748df977eef3837fb75122eb8d1ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: jswymer
+ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
+ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187856"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697710"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Lijstgegevens weergeven in Power BI-rapporten in Business Central
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] bevat een Feitenblok-besturingselement op een aantal belangrijke lijstpagina's, waarmee een aanvullend inzicht in de gegevens wordt geboden. Wanneer u tussen rijen in de lijst verplaatst, wordt het rapport bijgewerkt en voor de geselecteerde post gefilterd. U kunt aangepaste rapporten maken voor weergave in dit besturingselement, maar er zijn enkele regels die moeten worden gevolgd bij het maken van de rapporten om te zorgen voor het gewenste gedrag.  
+In [!INCLUDE[prodlong](includes/prodlong.md)] is in een aantal belangrijke lijstpagina's het besturingselement Feitenblok opgenomen, waarmee lezers van het rapport extra inzicht kunnen krijgen in de gegevens in de lijst. Wanneer u tussen rijen in de lijst verplaatst, wordt het rapport bijgewerkt en voor de geselecteerde post gefilterd. U kunt aangepaste rapporten maken om in dit besturingselement weer te geven. Er zijn echter een paar regels die u moet volgen om ervoor te zorgen dat rapporten werken zoals verwacht.  
 
-> [!NOTE]  
-> U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Als u aangepaste rapporten wilt maken, moet u ook [Power BI Desktop](https://powerbi.microsoft.com/desktop/) downloaden. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md).  
+## <a name="prerequisites"></a>Vereisten
 
-## <a name="report-data-set"></a>Rapportgegevensset
-Wanneer u het rapport in Power BI Desktop maakt, geeft u de gegevensbron of webservice op die de gegevens bevat die gerelateerd zijn aan de lijst waaraan u het rapport wilt koppelen. Als u bijvoorbeeld een rapport wilt maken voor het verkoopoverzicht, moet u ervoor zorgen dat de gegevensset informatie bevat die is gerelateerd aan verkoop.  
+- Een Power BI-account.
+- Power BI Desktop.
 
-Als u gegevens in de rapporten wilt filteren op basis van de record die is geselecteerd op de lijstpagina, moet de primaire sleutel als rapportfilter worden gebruikt. De belangrijkste sleutels moeten deel uitmaken van uw gegevensset voor een correcte filtering van de rapporten. In de meeste gevallen is de primaire sleutel voor een lijst **Nr.** in.  
+Zie [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md) voor meer informatie om aan de slag te gaan.
+
+## <a name="defining-the-report-data-set"></a>De rapportgegevensset definiëren
+
+Geef de gegevensbron op die de gegevens bevat die gerelateerd zijn aan de lijst. Als u bijvoorbeeld een rapport wilt maken voor de lijst Verkoop, moet u ervoor zorgen dat de gegevensset informatie bevat die verband houdt met de verkoop.  
 
 ## <a name="defining-the-report-filter"></a>Het rapportfilter definiëren
-Het rapport is nodig voor een basisrapportfilter (geen pagina of visueel filter en geen geavanceerd filter) voor een juiste filtering in het Feitenblok-besturingselement van Power BI. Het filter dat wordt doorgegeven aan het Power BI-rapport van elke lijstpagina, wordt gebaseerd op de primaire sleutel, zoals in het vorige gedeelte is beschreven.  
 
-Als u een filter voor het rapport wilt definiëren, selecteert u de primaire sleutel in de lijst met beschikbare velden en sleept u dat veld vervolgens en zet u het neer in de sectie **Rapportfilter**.  
+Als u wilt dat de gegevens worden bijgewerkt op basis van de geselecteerde record in de lijst, voegt u een filter toe aan het rapport. Het filter moet een veld bevatten van de gegevensbron die wordt gebruikt als *primaire sleutel*. In de meeste gevallen is de primaire sleutel voor een lijst **Nr.** toevoegen.
+
+Als u een filter voor het rapport wilt definiëren, selecteert u de primaire sleutel in de lijst met beschikbare velden en sleept u dat veld vervolgens en zet u het neer in de sectie **Rapportfilter**. Het filter moet een basisrapportfilter zijn. Het kan geen pagina, visueel element of geavanceerd filter zijn. 
 
 ![Het rapportfilter instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
-## <a name="report-size-and-color"></a>Rapportgrootte en -kleur
-De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Dit is vereist voor een juiste schaling van het rapport in de beschikbare ruimte die is toegestaan door het Feitenblok-besturingselement van Power BI. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
+## <a name="setting-the-report-size-and-color"></a>De rapportgrootte en kleur instellen
+
+De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Deze grootte is vereist voor een juiste schaling van het rapport in de beschikbare ruimte van het Power BI-besturingselement Feitenblok in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
 
 ![De breedte en hoogte van het rapport instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
 U kunt de breedte en hoogte van het rapport wijzigen door **Aangepast** in het veld **Soort** te kiezen.
 
-Evenzo definieert u als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondkleur van het Feitenblok-besturingselement van Power BI, een aangepaste achtergrondkleur van *E5E5E5* voor het rapport. Dit is optioneel.  
+Als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondkleur van het Power BI-besturingselement Feitenblok, stelt u de achtergrondkleur van het rapport in op *#FFFFFF*. 
 
-## <a name="reports-with-multiple-pages"></a>Rapporten met meerdere pagina's
-Met Power BI kunt u één rapport met meerdere pagina's maken. De visuele elementen die u wilt zien in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-lijstpagina's, moeten zich op de eerste pagina van het rapport in Power BI bevinden.  
+## <a name="using-reports-with-multiple-pages"></a>Rapporten met meerdere pagina's gebruiken
 
-> [!NOTE]  
-> Het feitenblok van Power BI geeft mogelijk alleen de eerste pagina van uw rapport weer. Als u andere pagina's wilt zien, moet u het rapport uitvouwen en met tabbladen onder aan het rapport navigeren naar andere pagina's.  
+Met Power BI kunt u één rapport met meerdere pagina's maken. Voor rapporten die worden weergegeven met lijstpagina's, raden we echter af om meer dan één pagina te gebruiken. In het Power BI-besturingselement Feitenblok wordt alleen de eerste pagina van uw rapport weergegeven.
 
-## <a name="saving-your-report"></a>Uw rapport opslaan
+## <a name="naming-the-report"></a>Het rapport een naam geven
 
-Wanneer u uw rapport opslaat, is het het beste dat de naam van het rapport de naam bevat van de lijstpagina waarin u het rapport wilt weergeven. Het woord *Leverancier* moet bijvoorbeeld ergens in de rapportnaam zijn opgenomen voor rapporten die u beschikbaar wilt maken voor de leverancierslijst.  
+Geef het rapport een naam die de naam bevat van de lijstpagina die aan het rapport is gekoppeld. Is het rapport bijvoorbeeld gemaakt voor de lijstpagina **Verkoper**, neem dan het woord *verkoper* op in de naam.  
 
-Dit is geen vereiste, maar u kunt rapporten dan sneller selecteren. Wanneer de rapportselectiepagina via een lijstpagina wordt geopend, wordt er een filter verschaft op basis van de paginanaam om de rapporten te beperken die worden weergegeven.  U kunt het filter verwijderen als u een volledige lijst met rapporten voor u beschikbaar wilt maken in Power BI.  
+Deze naamgevingsconventie is geen vereiste. Deze zorgt er echter wel voor dat gebruikers de gewenste rapporten sneller kunnen selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wanneer de rapportselectiepagina wordt geopend vanuit een lijstpagina, wordt de lijst met rapporten automatisch gefilterd op basis van de paginanaam. De rapporten worden gefilterd om het aantal weergegeven rapporten te beperken. Gebruikers kunnen het filter ook verwijderen als ze de volledige lijst met rapporten die beschikbaar zijn in Power BI, willen bekijken.  
 
-## <a name="troubleshooting"></a>Problemen oplossen
-Dit gedeelte bevat een oplossing voor de meest veelvoorkomende problemen die zich kunnen voordoen wanneer u het Power BI-rapport maakt.  
+## <a name="fixing-problems"></a>Problemen oplossen
 
-**De gebruiker ziet het gewenste rapport niet op de pagina Rapport selecteren** Als u geen rapport kunt selecteren, is een mogelijke oplossing de naam van het rapport te controleren om ervoor te zorgen dat deze de naam van de lijstpagina bevat. U kunt ook het filter verwijderen als u een volledige lijst met beschikbare Power BI-rapporten wilt.  
+Dit gedeelte bevat een tijdelijke oplossing voor de meest voorkomende problemen die zich kunnen voordoen wanneer u het Power BI-rapport maakt.  
 
-**Het rapport is geladen, maar leeg, niet gefilterd of onjuist gefilterd** Controleer of het rapportfilter de juiste primaire sleutel bevat. In de meeste gevallen is dit het veld **Nr.**, maar in de tabel **Grootboekpost** moet u bijvoorbeeld het veld **Postnr.** gebruiken.
+#### <a name="you-cant-see-a-report-on-the-select-report-page"></a>U ziet geen rapport op de pagina Rapport selecteren
 
-**Het rapport is geladen, maar het bevat de pagina die u niet hebt verwacht** Controleer of de pagina die u wilt weergeven de eerste pagina in uw rapport is.  
+Dit komt waarschijnlijk omdat de naam van het rapport niet de naam van de lijstpagina bevat. Wis het filter om de volledige lijst met rapporten die beschikbaar zijn in Power BI, weer te geven.  
 
-**Rapporten worden met ongewenste grijze randen weergegeven, zijn te klein of te groot**
+#### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Het rapport is geladen, maar is leeg, niet gefilterd of onjuist gefilterd
+
+Controleer of het rapportfilter de juiste primaire sleutel bevat. In de meeste gevallen is dit het veld **Nr.** maar in de tabel **Grootboekpost** moet u bijvoorbeeld het veld **Postnr.** gebruiken.
+
+#### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Het rapport is geladen, maar er wordt een pagina weergegeven die u niet had verwacht
+
+Controleer of de pagina die u wilt weergeven, de eerste pagina in uw rapport is.  
+
+#### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Rapporten worden met ongewenste grijze randen weergegeven, zijn te klein of te groot
 
 Controleer of de grootte van het rapport is ingesteld op 325 x 310 pixels. Sla het rapport op en vernieuw vervolgens de lijstpagina.  
 

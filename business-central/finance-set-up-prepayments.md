@@ -7,19 +7,24 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182840"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701877"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
 
 Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instellen in het grootboek en moet u nummerreeksen instellen voor de vooruitbetalingsdocumenten. U moet een account opgeven voor vooruitbetalingen met betrekking tot verkopen en een account voor vooruitbetalingen met betrekking tot aankopen. U kunt dezelfde boekingsrekeningen opgeven die moeten worden gebruikt voor alle vooruitbetalingen die betrekking hebben op alle algemene bedrijfsboekingsgroepen of algemene productboekingsgroepen, of u kunt specifieke accounts voor specifieke boekingsgroepen opgeven voor respectievelijk verkoop en inkoop. Dit is afhankelijk van de vereisten van uw bedrijf voor het bijhouden van vooruitbetalingen.  
 
-U kunt het percentage van het regelbedrag definiëren dat wordt gefactureerd voor een vooruitbetaling. Nadat u de instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt de bedragen op de factuur wijzigen zoals gewenst. U kunt bijvoorbeeld een totaalbedrag opgeven voor de hele order.  
+U kunt het percentage van het regelbedrag definiëren dat wordt gefactureerd voor een vooruitbetaling. Nadat u de instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt de bedragen op de factuur wijzigen zoals gewenst. U kunt bijvoorbeeld een totaalbedrag specificeren voor de volledige order.  
+
+> [!NOTE]
+> We raden u aan om in de volgende gevallen geen vooruitbetalingspercentage van 100% te hanteren:
+> * Als u zich in Noord-Amerika bevindt. Vanwege de manier waarop belastingen worden berekend, kan een vooruitbetalingspercentage van 100% leiden tot problemen met vooruitbetalingsfacturen.
+> * In alle regio's, als u handmatig een contantkorting van de factuur aftrekt. Bij een vooruitbetalingspercentage van 100% blijft er niet automatisch een bedrag over waarvan de korting kan worden afgetrokken. 
 
 Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of diensten heeft ontvangen, moet u grootboekrekeningen instellen waarop de vooruitbetaalde bedragen staan totdat de uiteindelijke factuur wordt geboekt. Vooruitbetaalde verkopen moeten worden vastgelegd op een passivarekening totdat de artikelen worden verzonden. Vooruitbetaalde inkopen moeten worden vastgelegd op een activarekening totdat de artikelen worden ontvangen. Daarnaast moet u een afzonderlijke grootboekrekening instellen voor elke btw-id.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503810"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777998"
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
 
@@ -47,7 +47,7 @@ Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zij
 6. Vul de vereiste velden op het sneltabblad **Cheque** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Als uw printer is ingesteld om cheques af te drukken, kiest u de knop **Afdrukken**. Anders kiest u de knop **Verzenden naar**, selecteert u de optie **PDF-document**, kiest u de knop **OK** en drukt u het PDF-document af.
 
-    De fysieke cheques kunnen nu naar de bank worden gebracht voor verwerking. Boek de betaling zoals vereffend met de leverancier en daarmee betaald in het systeem.
+    De fysieke cheques kunnen nu naar de leveranciers worden verzonden voor verwerking. Boek de betaling zoals vereffend met de leverancier en daarmee betaald in het systeem.
 8. Kies de actie **Boeken**.
 
 Er worden volledig vereffende leveranciersposten en bankposten gemaakt.
@@ -61,7 +61,11 @@ U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **O
 1. Kies op de pagina **Betalingsdagboek** de actie **Ongeldige cheque** en kies vervolgens welke cheques u wilt annuleren.
 
 ## <a name="to-void-checks"></a>Cheques nietig verklaren
+
 Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verklaren) vanuit de resulterende bankposten.
+
+> [!IMPORTANT]
+> Als de cheque wordt toegepast op een factuur, moet u de cheque eerst tegenboeken zodat de factuur kan worden terugbetaald en vervolgens de cheque nietig verklaren. Als de cheque is afgedrukt en er geen factuur mee is betaald, kiest u **Cheque alleen nietig verklaren** zoals beschreven in deze sectie.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
 2. Selecteer de betreffende bankrekening, kies de actie **Bewerken** en kies vervolgens de actie **Chequeposten**.

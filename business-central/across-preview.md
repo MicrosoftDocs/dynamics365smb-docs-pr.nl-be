@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529100"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693111"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Proefversies en abonnementen
 
@@ -68,7 +68,7 @@ Als u gegevens aan uw gratis [!INCLUDE[prodshort](includes/prodshort.md)]-proef 
 
 ## <a name="getting-started-with-a-subscription"></a>Aan de slag met een abonnement
 
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prodshort](includes/prodshort.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prodshort](includes/prodshort.md)] aanpassen door apps toe te voegen vanuit [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prodshort](includes/prodshort.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prodshort](includes/prodshort.md)] aanpassen door apps toe te voegen vanuit [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] online gebruikt Office 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises moet gebruiken.  
 

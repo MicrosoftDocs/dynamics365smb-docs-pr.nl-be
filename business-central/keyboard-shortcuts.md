@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528500"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765958"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -166,7 +166,7 @@ De volgende sneltoetsen behoren tot de functie Snelinvoer op kaarten, documenten
 |Shift+Enter|De waarde in het huidige veld bevestigen en naar het vorige snelinvoerveld gaan.||
 |Ctrl+Shift+Enter|De waarde in de huidige kolom bevestigen en naar het volgende snelinvoerveld buiten de lijst gaan.<br /><br />Deze snelkoppeling geldt voor ingesloten lijsten op een pagina, zoals regelartikelen op een verkooporder. U kunt hiermee snel uit de lijst gaan en doorgaan met het invoeren van gegevens in andere velden op de pagina.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Toetsenbordsneltoetsen in de kalender (datumkiezer)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Sneltoetsen in de kalender (datumkiezer)
 
 Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
 
@@ -185,12 +185,13 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Page up|Naar de vorige maand gaan.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Sneltoetsen in datumvelden
+
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
 |h|Voer de huidige datum in. "T" betekent "today" (vandaag).|
 |w|Voer de werkdatum in. Zie [Werkdatum](ui-change-basic-settings.md#work-date) voor meer informatie.|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Sneltoetsen in de rapportweergave
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Sneltoetsen in de rapport-preview
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
