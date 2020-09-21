@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: e41c3dd810367f254bd62271083e884afdc9da50
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666959"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781322"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
@@ -31,7 +31,7 @@ Beheerders kunnen ook personalisering van gebruikers overschrijven of uitschakel
 ## <a name="video-overview"></a>Video-overzicht
 De volgende video toont enkele manieren waarop u uw rolcentrum kunt personaliseren.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>De breedte van een kolom wijzigen
 U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen door de grens tussen twee kolommen naar links of rechts te slepen.

@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666809"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780272"
 ---
 # <a name="fixed-assets"></a>Vast activum
 De functionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
@@ -51,7 +51,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="video-overview"></a>Video-overzicht
 De volgende video behandelt de basisprincipes van vaste activa.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  

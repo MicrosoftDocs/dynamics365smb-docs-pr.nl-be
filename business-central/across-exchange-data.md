@@ -9,18 +9,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2954fd3146b81f6511cec64f228714445b5fc486
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f299c9c38211b4dc265402b4079fe283e318113c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188720"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780722"
 ---
 # <a name="exchanging-data"></a>Gegevens uitwisselen
 U kunt gegevens uitwisselen tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe bestanden of streams voor veelvoorkomende bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  
 
-Voordat u elektronische documenten kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u eerst het kader voor gegevensuitwisseling instelling om de gegevensbestanden of -stromen te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals de klanten naar wie u elektronische facturen stuurt en de AMC Banking 365 Fundamentals-uitbreiding als u geconverteerde bankbestanden naar een externe serviceprovider verzendt. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md).  
+Voordat u elektronische documenten kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u eerst het kader voor gegevensuitwisseling instelling om de gegevensbestanden of -stromen te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals de klanten naar wie u elektronische facturen stuurt en de extensie AMC Banking 365 Fundamentals als u geconverteerde bankbestanden naar een externe serviceprovider verzendt. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md).  
 
  In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
@@ -31,11 +31,11 @@ Voordat u elektronische documenten kunt verzenden en ontvangen of bankbestanden 
 |Elektronische documenten van de OCR-service of de service voor documentuitwisseling ontvangen in een gestandaardiseerde indeling die u kunt converteren naar de relevante documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
 |Voorbereiden van het importeren van een bankafschriftbestand importeren in de pagina **Betalingsreconciliatiedagboek** als de eerste stap bij de afstemming van betalingen of op de pagina **Bankreconciliatie** als eerste stap bij het afstemmen van bankrekeningen.|[De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)|  
 |Betalingen uit de pagina **Betalingsdagboek** exporteren naar een bankbestand dat u uploadt naar uw elektronische bankrekening voor verwerking.|[Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)|
-|Elektronische betalingen doen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
+|Elektronische betalingen doen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Vraag uw bank bedragen van betalingen van bankrekeningen van uw klanten over te brengen naar uw bedrijfsrekening volgens uw instellingen voor automatische incasso van SEPA.|[SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Gebruik een serviceprovider van valutawisselkoersen om de pagina **Valuta's** bij te werken.|[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|  
 |Bekijk welke bestandselementen worden toegewezen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] tijdens het importeren van SEPA CAMT-afschriftbestanden.|[Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md)|  
-|Hier kunt u zien welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn toegewezen aan bestandselementen wanneer u betalingsbestanden exporteert met behulp van de AMC Banking 365 Fundamentals-uitbreiding.|[Veldtoewijzing bij de export van betalingsbestanden met behulp van de AMC Banking 365 Fundamentals-uitbreiding](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
+|Bekijk welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn toegewezen aan bestandselementen wanneer u betalingsbestanden exporteert met behulp van de extensie AMC Banking 365 Fundamentals.|[Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  

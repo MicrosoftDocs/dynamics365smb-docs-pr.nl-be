@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c292a7bdaaa94a457a98a478e38a90d60639abf1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 2eb195d194ae2091a10f2d85d1b802577239b268
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190719"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781472"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde openstaande (onbetaalde) facturen en creditnota's of andere openstaande posten in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -30,9 +30,9 @@ U kunt ook bankrekeningen reconciliëren zonder tegelijkertijd betalingen te ver
 
 Als u bankafschriften als een bankfeed wilt importeren, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).  
 
-U kunt ook de AMC Banking 365 Fundamentals-uitbreiding gebruiken om een bankafschriftenbestand te converteren van elke denkbare indeling naar een gegevensstroom die u kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md) voor meer informatie.  
+U kunt ook de extensie AMC Banking 365 Fundamentals gebruiken om een bankafschriftenbestand te converteren van elke denkbare indeling naar een gegevensstroom die u kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).  
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
 
 | Als u dit wilt doen | Zie |
 | --- | --- |

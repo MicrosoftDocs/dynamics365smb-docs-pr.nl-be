@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f1127bd8e99f8ef6342ec240b4f42b52b11b36bb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187976"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781897"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Opmerkingen toevoegen aan kaarten en documenten
 U kunt extra informatie toevoegen aan grootboekrekeningen, klantenkaarten of verkooporders om uitzonderingen of speciale overeenkomsten te doen toekomen aan andere gebruikers.
