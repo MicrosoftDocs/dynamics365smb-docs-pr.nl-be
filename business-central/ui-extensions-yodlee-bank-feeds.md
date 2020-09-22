@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: c97673ceda1765033877318b46d63652ec318ae9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666884"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789437"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>De extensie Envestnet Yodlee Bank Feeds
 Om betalingen die naar aan uw bankrekeningen zijn overgemaakt snel te reconciliëren, biedt de service Envestnet Yodlee Bank Feeds u de mogelijkheid om uw systeembankrekening aan uw online bankrekening te koppelen. Dit betekent dat het laatste bankafschrift automatisch of handmatig in uw reconciliatiedagboek wordt gevoerd, ervoor zorgend dat u altijd de laatste betalingen verwerkt met minimaal risico of minimale fouten.

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.author: edupont
+ms.openlocfilehash: f948451001c2e280ea52f92d5d3b58eca6222687
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496736"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789312"
 ---
 # <a name="working-with-d365fin"></a>Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
@@ -65,7 +65,7 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[d365fin](includes/d365fi
 
 - Vermijd waar mogelijk oudere browsers zoals Internet Explorer en schakel over naar een van onze aanbevolen moderne browsers, zoals de [nieuwe Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer wordt nog steeds ondersteund, maar aangezien de nieuwe Edge-browser nu beschikbaar is voor Windows Server zien we een afnemend gebruik voor Internet Explorer. U kunt ook [een pilot van Edge in IE-modus krijgen](https://www.microsoft.com/edge/business). Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer wordt nog steeds ondersteund, maar aangezien de nieuwe Microsoft Edge-browser nu beschikbaar is voor Windows Server zien we een afnemend gebruik voor Internet Explorer. U kunt ook [een pilot van Microsoft Edge in IE-modus krijgen](https://www.microsoft.com/edge/business). Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Houd uw browser altijd bijgewerkt naar de nieuwste versie.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
