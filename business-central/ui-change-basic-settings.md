@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194607"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782455"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
@@ -67,10 +67,11 @@ De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogeli
 ### <a name="work-date-indication"></a>Indicatie van werkdatum
 Wanneer de werkdatum niet is ingesteld op de datum van vandaag, verschijnen er twee soorten indicatoren op pagina's die kunnen worden bewerkt en waar de werkdatum daarom van cruciaal belang is:
 
-- Boven aan de pagina wordt een herinnering weergegeven die aangeeft waar de werkdatum op is ingesteld. De herinnering biedt een directe koppeling naar de instelling van de werkdatum op de pagina **Mijn instellingen**, zodat u de datum kunt wijzigen als u dat wilt. Vanuit de herinnering kunt u er ook voor kiezen om de herinnering voor de rest van uw sessie te negeren. Tenzij u de werkdatum wijzigt in 'vandaag', verschijnt de herinnering de volgende keer dat u zich aanmeldt.
+* Boven aan de pagina wordt een herinnering weergegeven die aangeeft waar de werkdatum op is ingesteld. De herinnering biedt een directe koppeling naar de instelling van de werkdatum op de pagina **Mijn instellingen**, zodat u de datum kunt wijzigen als u dat wilt. Vanuit de herinnering kunt u er ook voor kiezen om de herinnering voor de rest van uw sessie te negeren. Tenzij u de werkdatum wijzigt in 'vandaag', verschijnt de herinnering de volgende keer dat u zich aanmeldt.
 
-- Als u de herinnering negeert, wordt de werkdatum weergegeven in de titel van de pagina.  
---> Als de werkdatum niet is ingesteld op de huidige dag (vandaag), wordt op alle pagina's waar u gegevens kunt bewerken, de huidige werkdatum weergegeven in de linkerbovenhoek van de pagina.
+* Als u de herinnering negeert, wordt de werkdatum weergegeven in de titel van de pagina.  
+
+Als de werkdatum niet is ingesteld op de huidige dag (vandaag) wordt op alle pagina's waar u gegevens kunt bewerken, de huidige werkdatum weergegeven in de rechterbovenhoek van de pagina.
 
 ## <a name="region"></a><a name="region"></a> Regio
 
