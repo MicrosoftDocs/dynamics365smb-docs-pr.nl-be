@@ -11,31 +11,31 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cede9a43bb66d314640e0e28443c63c925fd575a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6dfa7237cde2a88c8d36baa2daa69f4cde97a4eb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192735"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783111"
 ---
-# <a name="prioritize-vendors"></a><span data-ttu-id="d082e-103">De prioriteit van leveranciers bepalen</span><span class="sxs-lookup"><span data-stu-id="d082e-103">Prioritize Vendors</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="d082e-104">heeft een functie die voorstellen kan doen voor betalingen aan leveranciers, bijvoorbeeld bij betalingen die binnenkort moeten worden betaald, of als voor een betaling een korting mogelijk is.</span><span class="sxs-lookup"><span data-stu-id="d082e-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="d082e-105">Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="d082e-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
+# <a name="prioritize-vendors"></a><span data-ttu-id="6f9b6-103">De prioriteit van leveranciers bepalen</span><span class="sxs-lookup"><span data-stu-id="6f9b6-103">Prioritize Vendors</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="6f9b6-104">heeft een functie die voorstellen kan doen voor betalingen aan leveranciers, bijvoorbeeld bij betalingen die binnenkort moeten worden betaald, of als voor een betaling een korting mogelijk is.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="6f9b6-105">Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="6f9b6-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
 
-<span data-ttu-id="d082e-106">Eerst moet u aan uw leveranciers eerst een prioriteit toewijzen door nummers aan hen toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="d082e-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
+<span data-ttu-id="6f9b6-106">Eerst moet u aan uw leveranciers eerst een prioriteit toewijzen door nummers aan hen toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a><span data-ttu-id="d082e-107">Leveranciers in een prioriteitsvolgorde plaatsen</span><span class="sxs-lookup"><span data-stu-id="d082e-107">To prioritize vendors</span></span>
-1. <span data-ttu-id="d082e-108">Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="d082e-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="d082e-109">Selecteer de relevante leverancier en kies **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="d082e-109">Select the relevant vendor, and then choose **Edit**.</span></span>
-3. <span data-ttu-id="d082e-110">Voer in het veld **Prioriteit** een nummer in.</span><span class="sxs-lookup"><span data-stu-id="d082e-110">In the **Priority** field, enter a number.</span></span>
+## <a name="to-prioritize-vendors"></a><span data-ttu-id="6f9b6-107">Leveranciers in een prioriteitsvolgorde plaatsen</span><span class="sxs-lookup"><span data-stu-id="6f9b6-107">To prioritize vendors</span></span>
+1. <span data-ttu-id="6f9b6-108">Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6f9b6-109">Selecteer de relevante leverancier en kies **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-109">Select the relevant vendor, and then choose **Edit**.</span></span>
+3. <span data-ttu-id="6f9b6-110">Voer in het veld **Prioriteit** een nummer in.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-110">In the **Priority** field, enter a number.</span></span>
 
-<span data-ttu-id="d082e-111">In [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft het laagste nummer, 0 uitgezonderd, de hoogste prioriteit.</span><span class="sxs-lookup"><span data-stu-id="d082e-111">[!INCLUDE[d365fin](includes/d365fin_md.md)] considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="d082e-112">Als u bijvoorbeeld de nummers 1, 2 en 3 toewijst, heeft nummer 1 de hoogste prioriteit.</span><span class="sxs-lookup"><span data-stu-id="d082e-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
+<span data-ttu-id="6f9b6-111">In [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft het laagste nummer, 0 uitgezonderd, de hoogste prioriteit.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-111">[!INCLUDE[d365fin](includes/d365fin_md.md)] considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="6f9b6-112">Als u bijvoorbeeld de nummers 1, 2 en 3 toewijst, heeft nummer 1 de hoogste prioriteit.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
 
-<span data-ttu-id="d082e-113">Als u geen prioriteitsnummer wilt toekennen aan een leverancier, laat u het veld **Prioriteit** leeg.</span><span class="sxs-lookup"><span data-stu-id="d082e-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="d082e-114">Die leverancier wordt onder alle leveranciers met prioriteitsnummers geplaatst wanneer u betalingsvoorstellen in het programma inschakelt.</span><span class="sxs-lookup"><span data-stu-id="d082e-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="d082e-115">U kunt zo veel prioriteitsniveaus invoeren als er nodig zijn.</span><span class="sxs-lookup"><span data-stu-id="d082e-115">You can enter as many priority levels as necessary.</span></span>
+<span data-ttu-id="6f9b6-113">Als u geen prioriteitsnummer wilt toekennen aan een leverancier, laat u het veld **Prioriteit** leeg.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="6f9b6-114">Die leverancier wordt onder alle leveranciers met prioriteitsnummers geplaatst wanneer u betalingsvoorstellen in het programma inschakelt.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="6f9b6-115">U kunt zo veel prioriteitsniveaus invoeren als er nodig zijn.</span><span class="sxs-lookup"><span data-stu-id="6f9b6-115">You can enter as many priority levels as necessary.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d082e-116">Zie ook</span><span class="sxs-lookup"><span data-stu-id="d082e-116">See Also</span></span>
-[<span data-ttu-id="d082e-117">Inkoop instellen</span><span class="sxs-lookup"><span data-stu-id="d082e-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="d082e-118">Betalingsverplichtingen beheren</span><span class="sxs-lookup"><span data-stu-id="d082e-118">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="d082e-119">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d082e-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="6f9b6-116">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6f9b6-116">See Also</span></span>
+[<span data-ttu-id="6f9b6-117">Inkoop instellen</span><span class="sxs-lookup"><span data-stu-id="6f9b6-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="6f9b6-118">Betalingsverplichtingen beheren</span><span class="sxs-lookup"><span data-stu-id="6f9b6-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="6f9b6-119">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6f9b6-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
