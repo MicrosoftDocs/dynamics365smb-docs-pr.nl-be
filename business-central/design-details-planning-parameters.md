@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.author: edupont
+ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272050"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787383"
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
 Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ De manier waarop het planningssysteem de artikelvoorziening controleert, wordt b
 |-------------|---------------|  
 |Definiëren of het artikel moet worden gepland|Bestelbeleid = leeg|  
 |Definiëren wanneer moet worden besteld|Tijdsinterval<br /><br /> Bestelpunt<br /><br /> Veiligheidstijd|  
-|Definiëren hoeveel moet worden besteld|Veiligheidsvoorraad<br /><br /> Bestelbeleid:<br /><br /> -   Vast bestelaantal plus bestelaantal<br />-   Maximum aantal plus Maximale voorraad<br />-   Order<br />-   Lot-voor-lot|  
+|Definiëren hoeveel moet worden besteld|Veiligheidsvoorraad<br /><br /> Bestelbeleid:<br /><br /> -   Vast bestelaantal plus bestelaantal<br />-   Maximum aantal plus Maximale voorraad<br />-   Volgorde<br />-   Lot-for-Lot|  
 |Optimaliseren wanneer en hoe u bestelt|Herplanningsperiode<br /><br /> Lotaccumulatieperiode<br /><br /> Dempingsperiode|  
 |De voorzieningenorders wijzigen|Min. bestelaantal<br /><br /> Max. bestelaantal<br /><br /> Vaste lotgrootte|  
 |Het geplande artikel beperken|Productiebeleid:<br /><br /> -   Op voorraad produceren<br />-   Op order produceren|  

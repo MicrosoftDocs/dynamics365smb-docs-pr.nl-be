@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ebef3cd903472a22a9e2676d0856107da3be9c0a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b93999ec3e8520dedd1601efad7fc00d4d625317
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183320"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788637"
 ---
 # <a name="set-up-cash-customers"></a>Contant betalende klanten instellen
 U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkopen waarbij u geen gegevens voor een klantenrekening hoeft in te voeren.  

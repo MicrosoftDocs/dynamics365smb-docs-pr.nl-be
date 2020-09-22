@@ -8,28 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 09/09/2020
 ms.author: bholtorf
-ms.openlocfilehash: d720fa95873b1ec48f54797a59a209539045ed66
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0cbfbf6730a62b1c0f0e743362075a2085cf3813
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184064"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788458"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
+
 Boekhoudperioden, ook wel rapportageperioden genoemd, zijn perioden waarvoor een bedrijf of organisatie financiële prestaties rapporteert, bijvoorbeeld door de balans of resultatenrekening te genereren. Meestal verwijzen boekhoudperioden naar het boekjaar van het bedrijf, dat verschillende boekingsperioden zoals maanden of kwartalen kan bevatten.
 
-Voor veel bedrijven valt het boekjaar niet samen met het kalenderjaar. Het boekjaar eindigt bijvoorbeeld op 30 juni in plaats van 31 december. Voor nieuw gemaakte bedrijven kan het fiscale jaar langer zijn dan 12 maanden. 
+Voor veel bedrijven valt het boekjaar niet samen met het kalenderjaar. Het boekjaar eindigt bijvoorbeeld op 30 juni in plaats van 31 december. Voor nieuw gemaakte bedrijven kan het fiscale jaar langer zijn dan 12 maanden.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vereist alleen boekingsperioden als u een resultatenrekening wilt afsluiten of gegevenscompressietaken wilt uitvoeren. 
 
 U kunt boekingsperioden gebruiken in rapportage. Bijvoorbeeld als u geboekte posten op de pagina **Saldo/Budget** controleert waar het rapportage-interval kan worden opgegeven. Een van de opties die u kunt opgeven om te rapporteren per boekhoudperiode. U kunt ook een rapportageschema maken dat resultaten voor verschillende boekingsperioden vergelijkt.
 
 ## <a name="creating-a-new-fiscal-year"></a>Een nieuw boekjaar maken
-U kunt boekingsperioden in bulk maken door de batchverwerking **Boekjaar maken** te gebruiken of handmatig.
+
+U kunt boekhoudperioden in bulk maken door de batchtaak **Boekjaar maken** te gebruiken en u kunt handmatig boekhoudperioden maken.
 
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Boekhoudperioden in bulk maken
+
 Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van gelijke lengte op te delen.  
 
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
@@ -40,6 +43,7 @@ Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van ge
 6. Klik op **OK**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Boekhoudperioden handmatig maken
+
 Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals de 4-4-5 agenda die in detailhandel wordt gebruikt, kunt u het handmatig instellen.  
   
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
@@ -48,24 +52,21 @@ Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals de 4-4-
 4. Herhaal stap 2 en 3 voor elke resterende periode.  
 
 ## <a name="closing-a-fiscal-year"></a>Een fiscaal jaar afsluiten
+
 Het afsluiten van het boekjaar is een van de taken voor het afsluiten van de boeken. Nadat u het boekjaar hebt afgesloten, zijn de selectievakjes **Afgesloten** en **Geblokkeerd** ingeschakeld voor alle perioden van het jaar. U kunt een boekjaar niet opnieuw openen of de selectievakjes uitschakelen.
 
 > [!NOTE]  
->  U moet altijd minimaal één open boekjaar hebben. Wanneer u een jaar afsluit, moet u ervoor zorgen dat een nieuw jaar is gemaakt. Houd er ook rekening mee dat als u een jaar afsluit, u de begindatum van het volgende jaar niet kunt wijzigen.
+> U moet altijd minimaal één open boekjaar hebben. Wanneer u een jaar afsluit, moet u ervoor zorgen dat een nieuw jaar is gemaakt. Houd er ook rekening mee dat als u een jaar afsluit, u de begindatum van het volgende jaar niet kunt wijzigen.
 
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Jaar afsluiten**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posten boeken naar een afgesloten boekjaar
+
 Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten naar boeken. Als u dit doet, worden de posten gemarkeerd als zijnde geboekt naar een afgesloten boekjaar en wordt het veld **Naboeking** geselecteerd. Standaard wordt het selectievakje niet weergegeven op de pagina, maar u kunt het toevoegen. De volgende stappen zijn de resultatenrekeningen te sluiten en de resultaten van het jaar over te brengen naar een rekening op de balans. Herhaal deze stappen elke keer dat u posten boekt naar een afgesloten boekjaar.
 
 ## <a name="see-also"></a>Zie ook
+
 [De boeken sluiten](year-close-books.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met rapportageschema's](bi-how-work-account-schedule.md)  
-  
-
-
-
-
-

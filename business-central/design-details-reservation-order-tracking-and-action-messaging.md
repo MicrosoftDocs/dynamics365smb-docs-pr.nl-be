@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ec2162e28cba919bfee1069188be942c9e1676b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5101e08ff7c3c401fe72a68b17e131fe247d811d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184808"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787283"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: Reservering, ordertracering en planningsboodschappen
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  

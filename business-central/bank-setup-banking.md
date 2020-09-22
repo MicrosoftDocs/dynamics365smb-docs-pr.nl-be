@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ea9b5753e159d16b1e0348053ea71816934cbe43
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1709cb17c5301810557a9204974cb4bd01565b5d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186176"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786508"
 ---
 # <a name="setting-up-banking"></a>Bankieren instellen
 Met bankrekeningkaarten kunt al uw bankrekeningen bijhouden, in willekeurige valuta's. Nadat u de bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.
@@ -28,7 +28,7 @@ Als u elektronische bankierservices wilt gebruiken om bankafschriften te importe
 | --- | --- |
 | Bankrekeningkaarten in te stellen voor al uw bankrekeningen, zodat u banktransacties kunt traceren. |[Bankrekeningen instellen](bank-how-setup-bank-accounts.md) |
 | Stel een externe service in waarmee u bankafschriften kunt importeren als bankfeeds voor betalingsvereffening en bankreconciliatie. |[De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md) |
-| Stel een externe service in waarmee u uw betalingen voor verwerking naar de bank kunt exporteren en bankafschriften kunt importeren als bankbestanden voor betalingsvereffening en bankreconciliatie. |[De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md) |
+| Stel een externe service in waarmee u uw betalingen voor verwerking naar de bank kunt exporteren en bankafschriften kunt importeren als bankbestanden voor betalingsvereffening en bankreconciliatie. |[De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Zie ook
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
