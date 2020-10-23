@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 326fc6eb6d611a480fd281d95cc88e00d1d2e08a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 935e7d2c7a244703e3aa75ac789bd3ec5ab661b6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778969"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914002"
 ---
 # <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
 U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.  

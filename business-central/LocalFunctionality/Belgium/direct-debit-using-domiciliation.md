@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 542541f77e9ab82976ee43cae695ab4ae5819ac6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b6953bcb06add52f770b538a4678e8a04c7964ac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778990"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916518"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
 Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen via een bankrekening van voorkeur. Domiciliëringen kunnen alleen worden verwerkt voor binnenlandse klanten met binnenlandse bankrekeningen. Domiciliëringen in vreemde valuta's of via buitenlandse banken worden niet ondersteund.  

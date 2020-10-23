@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec0174d20ad7e4f31037302931200dcf89657c35
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3910523325ac8ef5d6341b09c4bbe55863b90809
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778452"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913984"
 ---
 # <a name="print-payment-files"></a>Betalingsbestanden afdrukken
 Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand afdrukken.  

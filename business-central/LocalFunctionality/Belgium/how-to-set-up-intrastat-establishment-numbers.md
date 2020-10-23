@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 78bdcd4153666f94ba49023d9cbe49edc46f2723
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 46b8fb97e9b92ac1cd8ef45a0185c082ec51055b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778422"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916479"
 ---
 # <a name="set-up-intrastat-establishment-numbers"></a>Intrastat-nummers instellen
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  

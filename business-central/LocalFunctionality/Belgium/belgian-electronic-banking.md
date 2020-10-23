@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c0e296fe4629016bede2d6f799425b2673984df2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c8a5646cf09a3b2bcf0408ab6421ea941af7bba6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778686"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916531"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
 Met elektronisch bankieren kunt u elektronisch gegevens uitwisselen met Belgische financiële instellingen, op diskette of via de Interbanks Standards Association Belgium (Isabel). Dit versnelt de verwerkingstijd en helpt fouten voorkomen als gevolg van handmatige gegevensinvoer of -verwerking.  

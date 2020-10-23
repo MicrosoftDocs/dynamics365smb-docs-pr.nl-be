@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 856382e80a2936fd4ccd3073494e6b0f509cc62e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c87484e7173f0e6b1d274e8cfbc8352bc6575d75
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778910"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916488"
 ---
 # <a name="manually-transfer-and-post-coda-statements"></a>CODA-afschriften handmatig overbrengen en boeken
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels handmatig overbrengen naar een financieel dagboek. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen. Boeken is niet toegestaan als de afschriftregelbedragen niet overeenkomen met het afschrifteindsaldo.  

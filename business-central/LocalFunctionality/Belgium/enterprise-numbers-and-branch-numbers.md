@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: db9efbec9fc2d077baf7c25ce36964f7afe0ccc7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4c7abf8c8e104841389b208fc6843e5c1b7bb777
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778987"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914018"
 ---
 # <a name="enterprise-numbers-and-branch-numbers"></a>Ondernemingnummers en filiaalnummers
 Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen. Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.  

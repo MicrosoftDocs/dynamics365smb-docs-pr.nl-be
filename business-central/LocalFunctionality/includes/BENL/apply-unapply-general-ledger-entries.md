@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 08/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93d76a02edbf05f022275850a3a0377071ab9cdb
-ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
+ms.openlocfilehash: aa5d34b3a5f48442e6f2d15733e9225aae0b2958
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3731359"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914015"
 ---
 Door tijdelijke grootboekposten toe te passen, kunnen bedrijven werken met tijdelijke en transferaccounts in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.  
 
@@ -64,7 +64,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 ## <a name="to-unapply-general-ledger-entries"></a>De vereffening van grootboekposten ongedaan maken  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram :::image type="icon" source="../../../media/ui-search/search_small.png" border="false":::, voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
 3. Selecteer de grootboekpost waarvan u de vereffening ongedaan wilt maken en kies vervolgens de actie **Vereffening ongedaan maken**.  
 
@@ -73,4 +73,4 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
     > [!NOTE]  
     > Als een post is vereffend met meer dan één vereffeningspost, moet u de vereffening van de laatste vereffeningspost het eerst ongedaan maken. Standaard wordt de laatste post weergegeven.  
 
-4. Kies de knop **OK**.  
+4. Kies de knop **Ok**.  

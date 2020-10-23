@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 64ff69a331100d7f214e67ed5389e4f7ab6436ef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9be32b6cd2942c973321f83562c2900fab24168a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778413"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916470"
 ---
 # <a name="test-domiciliations"></a>Domiciliëringen testen
 Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport **Domiciliëringsdagboek - Test** gebruiken. Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen. U moet alle fouten corrigeren voordat u de regels kunt boeken.  

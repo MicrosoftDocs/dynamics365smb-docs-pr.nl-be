@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 237a1cc6e7ce07e9e096a23cd58bbba0170b6167
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cd24f4e8d689f07f815ae3c91f4f73fec10d3b3b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778446"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913978"
 ---
 # <a name="print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken
 Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.  

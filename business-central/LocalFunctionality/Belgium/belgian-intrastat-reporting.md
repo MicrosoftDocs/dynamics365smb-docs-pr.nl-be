@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76ba6a4be4c5fdb27a37d50489f22354a59886cd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16df7ea3d04323ea12d5e2937bbfbfa7b5a3f977
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778690"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916528"
 ---
 # <a name="belgian-intrastat-reporting"></a>Belgische Intrastat-rapportage
 Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Dit rapportageproces verloopt via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem). Er zijn twee soorten Intrastat-aangiften:  

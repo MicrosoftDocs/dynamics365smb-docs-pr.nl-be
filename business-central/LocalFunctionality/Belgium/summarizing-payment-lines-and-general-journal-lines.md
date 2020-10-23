@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a3418af9a7865a051cfbb6d2fc2e2b12953fe8c9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e61fbcc52c4a1e855f05ded34d88eea4e6ea741f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778404"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916461"
 ---
 # <a name="summarizing-payment-lines-and-general-journal-lines"></a>Betalingsregels en dagboekregels samenvatten
 Business Central geeft een overzicht van betalingsregels en dagboekregels van de volgende typen betalingen:  

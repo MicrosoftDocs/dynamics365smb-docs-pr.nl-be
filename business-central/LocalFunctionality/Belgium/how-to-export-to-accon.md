@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: efd63d8a5a6aa9029665d9eedd72767f9b52ba7b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 57fddd12be324b19ea071f47fb51726cc4b28674
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778476"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913996"
 ---
 # <a name="export-to-accon"></a>Exporteren naar Accon
 Met het rapport **Koppelen aan Accon** kunt u een bestand maken dat in ACCON Plus kan worden geïmporteerd om een jaarlijkse resultatenrekening te genereren. Met het rapport wordt het totaalsaldo van de grootboekrekeningen voor een bepaalde periode geëxporteerd.  

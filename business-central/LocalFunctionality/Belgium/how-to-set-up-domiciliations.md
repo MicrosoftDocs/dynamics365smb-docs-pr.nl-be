@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9c716d2a9ffdbe460d0becb904c8f62636fba5a4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b3dfcc09a4b9fd0341116524b3677c3658ae02c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778434"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913961"
 ---
 # <a name="set-up-domiciliations"></a>Domiciliëringen instellen
 Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven.  

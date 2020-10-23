@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 08/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 432d0d4457ecf36427452b699dcf3b9c51d5a006
-ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
+ms.openlocfilehash: 4830a9d3a70bc83c5f69e1746fd934803112e0ea
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3731358"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916516"
 ---
 Als u betalingen van leveranciers automatisch wilt verzenden in de Single Euro Payments Area (SEPA) ISO 20022-betalingsindeling, moet u vereisten instellen om SEPA-betalingen in te schakelen in uw bedrijf.  
 

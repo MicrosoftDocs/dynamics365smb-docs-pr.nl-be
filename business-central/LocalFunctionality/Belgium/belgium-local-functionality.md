@@ -5,14 +5,14 @@ author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 80494c1db48f3ed390ed6906f030b016a4a1e501
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 04fd8e2c7efe88fb05ebd058b2d4b9218bd508bd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454315"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916525"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 

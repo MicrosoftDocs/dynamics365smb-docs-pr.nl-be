@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15261570629ff3c29a5bf13e5ca0ed2028c3646c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6c81708646591959ce0241faf8b2c8c2e6f4c5cb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778407"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916464"
 ---
 # <a name="sepa-payments"></a>SEPA-betalingen
 SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.  
