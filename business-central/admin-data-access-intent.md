@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333920"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911567"
 ---
 # <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren 
 
@@ -29,7 +29,7 @@ Wanneer objecten worden uitgevoerd, bepaalt de databasetoegangsintentie of een a
 
 Met de pagina **Lijst met intenties voor databasetoegang** kunt u de vooraf gedefinieerde intentie voor databasetoegang voor objecten overschrijven wanneer ze worden uitgevoerd.
 
-In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor meer informatie over read scale-out en datatoegangsintentie in [!INCLUDE[prodshort](includes/prodshort.md)] raadpleegt u [Read scale-out gebruiken voor betere prestaties](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in de [!INCLUDE[prodshort](includes/prodshort.md)] Help voor ontwikkelaars en beheer.
+In databasetermen staat deze functie algemeen bekend als *read scale-out* . Voor meer informatie over read scale-out en datatoegangsintentie in [!INCLUDE[prodshort](includes/prodshort.md)] raadpleegt u [Read scale-out gebruiken voor betere prestaties](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in de [!INCLUDE[prodshort](includes/prodshort.md)] Help voor ontwikkelaars en beheer.
 
 ## <a name="to-change-the-database-access-intent"></a>De intentie van de databasetoegang wijzigen
 
@@ -43,12 +43,12 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
     |**Schrijven toestaan**|Stelt het object in om de primaire database te gebruiken, zodat de gebruiker gegevens kan wijzigen.|
     |**Alleen-lezen**|Stelt het object in om de databasereplica te gebruiken, wat betekent dat de gebruiker alleen gegevens kan bekijken en geen gegevens kan wijzigen.|
 
-2. Kies de actie **Lijst bewerken**.
+2. Kies de actie **Lijst bewerken** .
 
 3. Wijzig op de pagina **Bewerken - Lijst met intenties voor databasetoegang** het veld **Toegangsintentie** voor de objecten.
 
     > [!NOTE]
-    > Als een object dat kan worden bewerkt, zoals de klantenkaart, is ingesteld op **Alleen-lezen**, zal de primaire database nog steeds worden gebruikt, ongeacht de toegangsintentie, zodat gebruikers normaal wijzigingen kunnen aanbrengen.
+    > Als een object dat kan worden bewerkt, zoals de klantenkaart, is ingesteld op **Alleen-lezen** , zal de primaire database nog steeds worden gebruikt, ongeacht de toegangsintentie, zodat gebruikers normaal wijzigingen kunnen aanbrengen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

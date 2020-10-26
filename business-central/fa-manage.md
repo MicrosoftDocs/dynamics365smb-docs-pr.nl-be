@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780272"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920634"
 ---
 # <a name="fixed-assets"></a>Vast activum
 De functionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
@@ -31,7 +31,7 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 Elk vast activum kan aan een of meer verzekeringspolissen zijn gekoppeld. Op deze manier kunt u gemakkelijk nagaan of de bedragen in de verzekeringspolis overeenkomen met de waarde van de activa die aan de polis zijn gekoppeld. Hierdoor kunt u bovendien de jaarpremies controleren.
 
 > [!NOTE]  
->   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
+>   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek** , afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
 Voordat u vaste activa gaat beheren, moet u standaardwaarden, boekhouding voor vaste activa, boekingsgroepen, verdeelsleutels, dagboeken en boekingssoorten instellen. Zie [Vaste activa instellen](fa-setup.md) voor meer informatie.
 

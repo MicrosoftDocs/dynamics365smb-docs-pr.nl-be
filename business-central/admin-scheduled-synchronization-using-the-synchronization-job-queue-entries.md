@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619396"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917813"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Een synchronisatie plannen tussen Business Central en Common Data Service
 
@@ -80,7 +80,7 @@ Standaard zoekt het taakwachtrij-item VALUTA, dat valuta's in [!INCLUDE[cds_long
 ## <a name="to-view-the-synchronization-job-log"></a>Logboek met synchronisatietaken weergeven
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Logboek van integratiesynchronisatie** in en kies vervolgens de gerelateerde koppeling.
-2. Als een of meer fouten zijn opgetreden voor een synchronisatietaak, wordt het aantal fouten weergegeven in de kolom **Mislukt**. Als u de fouten voor de taak wilt weergeven, kiest u het nummer.  
+2. Als een of meer fouten zijn opgetreden voor een synchronisatietaak, wordt het aantal fouten weergegeven in de kolom **Mislukt** . Als u de fouten voor de taak wilt weergeven, kiest u het nummer.  
 
     > [!TIP]  
     > U kunt alle fouten van de synchronisatietaak weergeven door het logboek van de synchronisatietaak direct te openen.
@@ -88,7 +88,7 @@ Standaard zoekt het taakwachtrij-item VALUTA, dat valuta's in [!INCLUDE[cds_long
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Het logboek van de synchronisatietaak weergeven vanuit tabeltoewijzingen
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer op de pagina **Toewijzingen van integratietabellen** een post en kies **Logbestand integratiesynchronisatietaak**.  
+2. Selecteer op de pagina **Toewijzingen van integratietabellen** een post en kies **Logbestand integratiesynchronisatietaak** .  
 
 ## <a name="to-view-the-synchronization-error-log"></a>Logboek met synchronisatiefouten weergeven
 

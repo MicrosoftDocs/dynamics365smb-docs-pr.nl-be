@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c78ca553c940fe59a33021e9804f4bc9eedec670
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8030a00dbf488f697a53af1697ed193de0febb9d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779448"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918300"
 ---
 # <a name="plan-picks-in-worksheets"></a>Picks plannen in het voorstel
 
@@ -26,7 +26,7 @@ Als voor het magazijn zowel pick- als verzendingsverwerking is vereist, hebt u d
 
 In het pickvoorstel kunt u picklijsten instellen voor werknemers. Deze picklijsten beperken de tijd die de werknemer nodig heeft om zich te verplaatsen voor het picken van artikelen in het magazijn. Er zijn velden die informatie over de beschikbare aantal artikelen in de cross-dockopslaglocaties bevatten. Dit is handig bij cross-dockgevallen om de werkopdrachten te plannen, omdat de toepassing altijd een pick voorstelt van een cross-dockopslaglocatie vóór een andere opslaglocatie, onafhankelijk van de eenheid. De regels in het voorstel kunnen afkomstig zijn uit een aantal brondocumenten en worden gesorteerd op artikel, schapnummer, brondocument, vervaldatum of verzendadres.  
 
-Bij een sortering op vervaldatum hebt u de keuze om de regels die geen directe aandacht behoeven uit het voorstel te verwijderen. De minder urgente regels worden niet feitelijk verwijderd, maar alleen teruggestuurd naar de **pickselectie**. Als u de pick maakt, zijn de regels al gesorteerd op vervaldatum en kunt u de pick vervolgens toewijzen aan een bepaalde werknemer.  
+Bij een sortering op vervaldatum hebt u de keuze om de regels die geen directe aandacht behoeven uit het voorstel te verwijderen. De minder urgente regels worden niet feitelijk verwijderd, maar alleen teruggestuurd naar de **pickselectie** . Als u de pick maakt, zijn de regels al gesorteerd op vervaldatum en kunt u de pick vervolgens toewijzen aan een bepaalde werknemer.  
 
 > [!NOTE]  
 > Het picken voor magazijnverzending van artikelen die worden samengesteld voor de verkooporder die wordt verzonden volgt dezelfde stappen als gewone magazijnpicks voor verzending, zoals beschreven in dit onderwerp. Het aantal pickregels per te verzenden aantal is mogelijk echter veel-op-één omdat u de componenten pickt, niet het assemblageartikel.  
@@ -40,14 +40,14 @@ Bij een sortering op vervaldatum hebt u de keuze om de regels die geen directe a
 ## <a name="to-plan-picks-in-the-worksheet"></a>U kunt als volgt picks plannen in het voorstel
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Magazijndocumenten ophalen**.  
+2. Kies de actie **Magazijndocumenten ophalen** .  
 3. Selecteer de verzendingen waarvoor u een pick wilt voorbereiden. Hoewel u de regels nog in beperkte mate kunt sorteren, zal de sortering niet meer worden overgenomen op de pickinstructie. U kunt ook bepaalde regels verwijderen om een nog efficiëntere pick te maken. Als er bijvoorbeeld regels zijn met artikelen die in cross-docklocaties zijn geplaatst, kunt u een pick maken voor alle regels die verbonden zijn aan deze regels. De cross-dockartikelen worden dan verzonden, samen met de andere artikelen in de verzending, en in de cross-docklocaties komt ruimte vrij voor andere binnenkomende artikelen.  
 4. Kies de actie **Pick maken** en vul de aanvraagpagina **Pick maken** in. De nieuwe pickregels worden gesorteerd volgens de methode die u hier kiest. Stel dat u voor elke zone één pick maakt, dan kunt u de regels binnen elke pick sorteren op rangorde van opslaglocatie.  
 5. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies de desbetreffende koppeling. Het venster **Magazijnpicks** wordt geopend.  
 6. U kunt de pickopdracht die u hebt gemaakt nu opzoeken door op Pick, Overzicht te klikken en de pick met het hoogste nummer te selecteren.  
 7. U kunt indien nodig de toegewezen gebruikers-id en sortering van de regels van de pick nog wijzigen.  
 8. Kies de actie **Afdrukken** om de pickinstructies af te drukken.  
-9. Als u de pick hebt uitgevoerd, kiest u de actie **Registreren**.  
+9. Als u de pick hebt uitgevoerd, kiest u de actie **Registreren** .  
 
 Als de nummering van opslaglocaties een weerspiegeling vormt van de fysieke indeling van het magazijn en u hebt de regels gesorteerd op opslaglocatie, kan de picker in één rondgang door het magazijn artikelen voor verschillende verzendingen tegelijk picken. De medewerker haalt uit elke opslaglocatie per verzendregel het vereiste aantal artikelen en plaatst deze bij de overige artikelen voor een bepaalde verzending. De picker kan zo veel tijd besparen omdat hij of zij slechts één keer naar de opslaglocatie hoeft te gaan om voor verschillende verzendingen te picken.  
 

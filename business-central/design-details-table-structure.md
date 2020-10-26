@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef4127f7bfe8a135f07b5fa1aa7db4b953489282
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787108"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910992"
 ---
 # <a name="design-details-table-structure"></a>Ontwerpdetails: Tabelstructuur
 Om te begrijpen hoe dimensieposten worden opgeslagen en geboekt, is het belangrijk om de tabelstructuur te begrijpen.  
@@ -43,7 +43,7 @@ U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een d
 |4|**In gebruik**|Boolean|Onwaar indien niet in gebruik.|  
 
 ## <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Herklass. dimensiesetbuffer  
-Deze tabel wordt gebruikt als u een dimensiewaardecode wijzigt, bijvoorbeeld in een artikelpost met de pagina **Artikelherindelingsdagboek**.  
+Deze tabel wordt gebruikt als u een dimensiewaardecode wijzigt, bijvoorbeeld in een artikelpost met de pagina **Artikelherindelingsdagboek** .  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
 |---------------|----------------|---------------|-------------|  

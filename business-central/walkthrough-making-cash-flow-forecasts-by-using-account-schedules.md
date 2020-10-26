@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e0856f51292169ad46e51e5f4a540cfa054ac73e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786883"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914797"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
 In dit scenario wordt beschreven hoe u rapportageschema's kunt maken maken van cashflowprognoses. Rapportageschema's voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de rapportageschema's kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
@@ -59,7 +59,7 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
 
 ### <a name="to-set-up-account-schedule-lines"></a>Nieuwe rapportageschemaregels instellen  
 
-1.  Selecteer op de pagina **Rapportageschema's** de naam van het nieuwe rapportageschema **Prognose** dat u hebt gemaakt en kies vervolgens de actie **Rapportageschema bewerken**.  
+1.  Selecteer op de pagina **Rapportageschema's** de naam van het nieuwe rapportageschema **Prognose** dat u hebt gemaakt en kies vervolgens de actie **Rapportageschema bewerken** .  
 2.  Voer op de pagina **Rapportageschema** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
 
     > [!NOTE]  
@@ -71,14 +71,14 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
     |K20|Bedrag tot datum|Saldo t/m datum|Posten|Nettobedrag|Altijd|  
     |K30|Volledig boekjaar|Volledig boekjaar|Posten|Nettobedrag|Altijd|  
 
-4.  Kies de knop **Ok**.  
+4.  Kies de knop **Ok** .  
 
 ## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>De kolomindeling toewijzen aan de naam van het rekeningstelsel  
 Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.  
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>De kolomindeling toewijzen aan de naam van het rekeningstelsel  
 
-1.  Selecteer op de pagina **Rapportageschema's** in het veld **Naam** **Prognose**.  
+1.  Selecteer op de pagina **Rapportageschema's** in het veld **Naam** **Prognose** .  
 2.  Kies in het veld **Std. kolomindeling** de kolomindeling **Cashflow** om deze toe te wijzen als de standaardkolomindeling.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>De cashflowprognose weergeven en afdrukken  

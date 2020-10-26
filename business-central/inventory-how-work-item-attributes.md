@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ca5b5632093205423654c78feeaffa86104c819
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cc93d954e55a4bcae1057d7a0b72b67c20606842
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786333"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919375"
 ---
 # <a name="work-with-item-attributes"></a>Werken met artikelkenmerken
 Wanneer klanten informeren naar een artikel, via correspondentie of via een geïntegreerde webwinkel, kunnen ze ernaar vragen of zoeken op basis van kenmerken, zoals hoogte en model. Als u deze klantenservice wilt bieden, kunt u artikelkenmerkwaarden van verschillende typen aan uw artikelen toewijzen, die vervolgens kunnen worden gebruikt bij het zoeken naar artikelen.
@@ -27,53 +27,53 @@ U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens wo
 
 ## <a name="to-create-item-attributes"></a>Artikelkenmerken maken
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelkenmerken** in en kies de desbetreffende koppeling.
-2. Kies op de pagina **Artikelkenmerken** de actie **Nieuw**.
+2. Kies op de pagina **Artikelkenmerken** de actie **Nieuw** .
 3. Vul op de pagina **Artikelkenmerk** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Als u **Optie** selecteert in het veld **Soort**, kunt u de actie **Artikelkenmerkwaarden** kiezen om waarden voor het artikelkenmerk te maken. Zie [Waarden voor artikelkenmerken van het soort Optie maken](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option) voor meer informatie.  
+>   Als u **Optie** selecteert in het veld **Soort** , kunt u de actie **Artikelkenmerkwaarden** kiezen om waarden voor het artikelkenmerk te maken. Zie [Waarden voor artikelkenmerken van het soort Optie maken](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option) voor meer informatie.  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Waarden voor artikelkenmerken van het soort Optie maken
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelkenmerken** in en kies de desbetreffende koppeling.
-2. Selecteer op de pagina **Artikelkenmerken** een artikelkenmerk van het soort **Optie** waarvoor u waarden wilt maken, en kies vervolgens de actie **Artikelkenmerkwaarden**.
+2. Selecteer op de pagina **Artikelkenmerken** een artikelkenmerk van het soort **Optie** waarvoor u waarden wilt maken, en kies vervolgens de actie **Artikelkenmerkwaarden** .
 3. Vul op de pagina **Artikelkenmerkwaarden** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Artikelkenmerken aan artikelen toewijzen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
-2. Selecteer op de pagina **Artikelen** het artikel waaraan u kenmerkwaarden wilt toewijzen, en kies vervolgens de actie **Kenmerken**.
-3. Kies op de pagina **Artikelkenmerkwaarden** de actie **Nieuw**.
+2. Selecteer op de pagina **Artikelen** het artikel waaraan u kenmerkwaarden wilt toewijzen, en kies vervolgens de actie **Kenmerken** .
+3. Kies op de pagina **Artikelkenmerkwaarden** de actie **Nieuw** .
 4. Kies de zoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk. U kunt ook de actie **Nieuw** kiezen om eerst een nieuw artikelkenmerk te maken, zoals is uitgelegd in [Artikelkenmerken maken](inventory-how-work-item-attributes.md#to-create-item-attributes).
-5. Voer in het veld **Waarde** de artikelkenmerkwaarde in, zoals "2010" voor het kenmerk **Modeljaar**.
+5. Voer in het veld **Waarde** de artikelkenmerkwaarde in, zoals "2010" voor het kenmerk **Modeljaar** .
 6. Kies voor artikelkenmerken van het soort **Optie** de zoekknop in het veld **Waarde** en selecteer een artikelkenmerkwaarde. U kunt ook de actie **Nieuw** kiezen om eerst een nieuwe artikelkenmerkwaarde te maken, zoals is uitgelegd in [Waarden voor artikelkenmerken van het soort Optie maken](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Herhaal stap 4 tot en met 6 voor alle artikelkenmerken die u wilt toewijzen aan het artikel.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Artikelkenmerken aan artikelcategorieën toewijzen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelcategorieën** in en kies de desbetreffende koppeling.
-2. Selecteer op de pagina **Artikelcategorieën** de artikelcategorie waaraan u artikelkenmerken wilt toewijzen en kies vervolgens de actie **Bewerken**.
-3. Kies op de pagina **Artikelcategoriekaart** op het sneltabblad **Kenmerken** de actie **Nieuw**.
+2. Selecteer op de pagina **Artikelcategorieën** de artikelcategorie waaraan u artikelkenmerken wilt toewijzen en kies vervolgens de actie **Bewerken** .
+3. Kies op de pagina **Artikelcategoriekaart** op het sneltabblad **Kenmerken** de actie **Nieuw** .
 4. Kies de zoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk. U kunt ook de actie **Nieuw** kiezen om eerst een nieuw artikelkenmerk te maken, zoals is uitgelegd in [Artikelkenmerken maken](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. Kies in het veld **Standaardwaarde** de zoekknop en selecteer een artikelkenmerkwaarde.
 6. Herhaal stap 4 en 5 voor alle artikelkenmerken die u wilt toewijzen aan de artikelcategorie.
 
 > [!NOTE]  
->   Artikelkenmerken voor bovenliggende artikelcategorieën worden doorgegeven aan onderliggende artikelcategorieën. Dit wordt aangegeven door het veld **Overgenomen van** op het sneltabblad **Kenmerken**. Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
+>   Artikelkenmerken voor bovenliggende artikelcategorieën worden doorgegeven aan onderliggende artikelcategorieën. Dit wordt aangegeven door het veld **Overgenomen van** op het sneltabblad **Kenmerken** . Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie.
 
 ## <a name="to-filter-by-item-attributes"></a>Filteren op artikelkenmerken
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
-2. Kies op de pagina **Artikelen** de actie **Filteren op kenmerken**.
+2. Kies op de pagina **Artikelen** de actie **Filteren op kenmerken** .
 3. Kies op de pagina **Filteren op kenmerken** de opzoekknop in het veld **Kenmerk** en selecteer een bestaand artikelkenmerk.
 4. Kies in het veld **Waarde** de zoekknop en selecteer een kenmerkwaarde om artikelen op te filteren.
 
     > [!NOTE]  
     >   U kunt alleen rechtstreeks waarden selecteren voor artikelkenmerken die vaste waarden hebben, zoals Kleur. Voor artikelkenmerken die variabele waarden hebben, zoals Breedte, moet u de artikelkenmerkwaarde opgeven door eerst een voorwaarde te selecteren. Zie stap 5.
 5. Kies in het veld **Waarde** voor een variabel artikelkenmerk de zoekknop.
-6. Kies op de pagina **Filterwaarde opgeven**, in het veld **Voorwaarde** de vervolgkeuzepijl en selecteer een voorwaarde.
+6. Kies op de pagina **Filterwaarde opgeven** , in het veld **Voorwaarde** de vervolgkeuzepijl en selecteer een voorwaarde.
 7. Voer in het veld **Waarde** een kenmerkwaarde in om artikelen op te filteren.
 
-    **Voorbeeld:** als u wilt filteren op artikelen waarvan de materiaalomschrijving begint met "blauw", vult u de velden als volgt in: veld **Kenmerk**: Materiaalomschrijving, veld **Voorwaarde**: Begint met, veld **Waarde**: blauw.
-8. Kies de knop **OK**.   
+    **Voorbeeld:** als u wilt filteren op artikelen waarvan de materiaalomschrijving begint met "blauw", vult u de velden als volgt in: veld **Kenmerk** : Materiaalomschrijving, veld **Voorwaarde** : Begint met, veld **Waarde** : blauw.
+8. Kies de knop **OK** .   
 
-De artikelen op de **Artikelen**-pagina's worden gefilterd door de opgegeven artikelkenmerkwaarden.
+De artikelen op de **Artikelen** -pagina's worden gefilterd door de opgegeven artikelkenmerkwaarden.
 
 ## <a name="see-also"></a>Zie ook
 [Artikelen categoriseren](inventory-how-categorize-items.md)    

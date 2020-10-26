@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187424"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911642"
 ---
 # <a name="classifying-data-sensitivity"></a>Gegevensvertrouwelijkheid classificeren
 Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
@@ -36,7 +36,7 @@ De volgende tabel beschrijft gegevensgevoeligheidsniveaus die u kunt toewijzen.
 De vertrouwelijkheid van een groot aantal velden één voor één classificeren zou lang duren. Om het proces te versnellen bieden we hulpmiddelen die u kunt gebruiken om de vertrouwelijkheid van velden bulksgewijs te classificeren. Daarna verfijnt u de classificaties voor specifieke velden. U kunt hulpmiddelen vinden in het werkblad Gegevensclassificatie, dat beschikbaar is in het rolcentrum Beheer van gebruikers, gebruikersgroepen en machtigingen. U moet een systeembeheerder zijn om het werkblad te gebruiken.
 
 > [!Important]
-> Als u het werkblad Gegevensclassificatie voor het eerst opent, is het leeg. U moet de begeleiding Gegevensclassificatie uitvoeren om de lijst met velden te genereren. Als u de begeleiding wilt starten, kiest u de actie **Gegevensclassificaties instellen**.
+> Als u het werkblad Gegevensclassificatie voor het eerst opent, is het leeg. U moet de begeleiding Gegevensclassificatie uitvoeren om de lijst met velden te genereren. Als u de begeleiding wilt starten, kiest u de actie **Gegevensclassificaties instellen** .
 
 Met het werkblad Gegevensclassificatie kunt u bijvoorbeeld het volgende doen:  
 

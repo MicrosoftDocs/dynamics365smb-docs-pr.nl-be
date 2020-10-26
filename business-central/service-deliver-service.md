@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2c3536f87fedb4703cdf91f1bd32885229274bd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788787"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910392"
 ---
 # <a name="delivering-service"></a>Service leveren
 Met [!INCLUDE[d365fin](includes/d365fin_md.md)] beschikt u over functies waarmee u services kunt leveren op basis van de contracten die u hebt opgesteld en de afgesloten serviceorders die u dient na te komen. Uw servicetechnici of planners kunnen de uitstaande serviceorders gemakkelijk vinden indien ze **Planbord** gebruiken. In het **planbord** wordt op een overzichtelijke manier aangegeven welke orders in behandeling zijn en welke voltooid zijn.  
   
-Serviceorders die in behandeling zijn, kunnen ook worden weergegeven met de pagina **Servicetaken**, die een overzicht van uw serviceverplichtingen bevat. U ziet hier op welk punt in de werkstroom een order zich bevindt; u kunt die status wijzigen en zo interacties met uw klant weerspiegelen.  
+Serviceorders die in behandeling zijn, kunnen ook worden weergegeven met de pagina **Servicetaken** , die een overzicht van uw serviceverplichtingen bevat. U ziet hier op welk punt in de werkstroom een order zich bevindt; u kunt die status wijzigen en zo interacties met uw klant weerspiegelen.  
   
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |------------|-------------|  
 |Offertes maken die concepten van serviceorders zijn en de offertes vervolgens omzetten in serviceorders.|[Serviceoffertes maken:](service-how-to-create-service-quotes.md)|
 |Documenten maken met informatie over een service, zoals herstel en onderhoud, voor serviceartikelen.|[Serviceorders maken](service-how-to-create-service-orders.md)|
-|Het leveren van de service plannen met het **planbord**. U kunt ook de functies voor projectbeheer in de projectplanner gebruiken bij de planning.|[Resources toewijzen](service-how-to-allocate-resources.md)|  
+|Het leveren van de service plannen met het **planbord** . U kunt ook de functies voor projectbeheer in de projectplanner gebruiken bij de planning.|[Resources toewijzen](service-how-to-allocate-resources.md)|  
 |Service aan klanten leveren door servicetaken uit te voeren.|[Werken aan servicetaken](service-how-to-work-on-service-tasks.md)|  
 |Serviceorders voor services boeken zodat uw boekhouding volledig is bijgewerkt.|[Serviceorders en creditnota's boeken](service-how-to-post-service-orders.md)|  
 |Facturen maken en boeken voor services die u hebt geleverd.|[Servicefacturen of creditnota's maken](service-how-create-invoices.md)|  

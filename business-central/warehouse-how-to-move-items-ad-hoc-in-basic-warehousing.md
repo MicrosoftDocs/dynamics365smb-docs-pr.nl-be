@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b939f217e4d0122c8663d096b412806a952eea8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: df67abf85f02b26b1ccaa29735cb9dab28a1d076
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779598"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915980"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
 Mogelijk moet u soms artikelen verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.  
 
-Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Opslaglocatie verplicht** en eventueel de instellingen **Pick vereist** en **Opslag vereist**, kunt u zonder brondocumenten ad hoc verplaatsingen registreren op de volgende manieren:  
+Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Opslaglocatie verplicht** en eventueel de instellingen **Pick vereist** en **Opslag vereist** , kunt u zonder brondocumenten ad hoc verplaatsingen registreren op de volgende manieren:  
 
-- Met de pagina **Interne verplaatsing**.  
-- Open de pagina **Artikelherindelingsdagboek**.  
+- Met de pagina **Interne verplaatsing** .  
+- Open de pagina **Artikelherindelingsdagboek** .  
 
 > [!NOTE]  
->  Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Gestuurde opslag en Pick**, gebruikt u de pagina **Werkblad Verplaatsing** of de pagina **Interne mag. Pick** of **Interne mag. Opslag** voor het ad hoc verplaatsen van artikelen tussen opslaglocaties.  
+>  Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Gestuurde opslag en Pick** , gebruikt u de pagina **Werkblad Verplaatsing** of de pagina **Interne mag. Pick** of **Interne mag. Opslag** voor het ad hoc verplaatsen van artikelen tussen opslaglocaties.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Items verplaatsen als een interne verplaatsing  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne verplaatsing** in en kies de gerelateerde koppeling.  
@@ -49,7 +49,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
     > [!NOTE]  
     >  De hoeveelheid moet beschikbaar zijn in Naar opslaglocatie.  
 
-8.  Als u klaar bent om de interne verplaatsing te verwerken, kiest u de actie **Voorraadverplaatsing maken**.  
+8.  Als u klaar bent om de interne verplaatsing te verwerken, kiest u de actie **Voorraadverplaatsing maken** .  
 
     > [!NOTE]  
     >  Wanneer u de voorraadverplaatsing hebt gemaakt, worden de regels van de interne verplaatsing verwijderd.  
@@ -61,8 +61,8 @@ In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsin
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag.-herindelingsdagboek** in en kies de gerelateerde koppeling.  
 2.  Definieer op elke dagboekregel de opslaglocaties waaruit en waarnaar u items wilt verplaatsen door de velden **Code Opslaglocatie** en **Code Nieuwe opslaglocatie** in te vullen.  
 
-    1.  Als u de gehele inhoud van een opslaglocatie wilt verplaatsen naar een andere opslaglocatie, kiest u de actie **Opslaglocatie-inhoud ophalen**.  
-    2.  Vul de filters in voor het zoeken naar de opslaglocatie waarvan u de inhoud wilt verplaatsen en klik op **OK**. De dagboekregels worden gevuld met de inhoud van de opslaglocatie.  
+    1.  Als u de gehele inhoud van een opslaglocatie wilt verplaatsen naar een andere opslaglocatie, kiest u de actie **Opslaglocatie-inhoud ophalen** .  
+    2.  Vul de filters in voor het zoeken naar de opslaglocatie waarvan u de inhoud wilt verplaatsen en klik op **OK** . De dagboekregels worden gevuld met de inhoud van de opslaglocatie.  
 3.  Vul de overige velden op elke dagboekregel in.   
 4.  Boek het herindelingsdagboek.  
 

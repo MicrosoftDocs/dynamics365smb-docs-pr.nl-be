@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617948"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915722"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  
@@ -41,7 +41,7 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 > [!NOTE]  
 >  Hoewel dit geen onderdeel van het standaardproces is, kunt u voorraadaantallen verkopen met aantallen voor assembleren op basis van orders. Zie voor meer informatie [Voorraadartikelen verkopen in assembleren-op-order-stromen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Assemblage voor order**.  
+ Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Assemblage voor order** .  
 
 ## <a name="assemble-to-stock"></a>Op voorraad assembleren  
  U gebruikt gewoonlijk *Op voorraad assembleren* voor artikelen die u voorafgaand aan de verkoop wilt assembleren, zoals bij het voorbereiden op een kit-campagne, en die u in voorraad wilt houden totdat deze worden besteld. Deze artikelen betreffen meestal standaardartikelen, zoals verpakte kits die u niet aanbiedt voor het aanpassen van aanvragen van klanten.  
@@ -53,18 +53,18 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 > [!NOTE]  
 >  Hoewel het geen onderdeel is van het standaardproces, kunt u een artikel assembleren ten behoeve van orders wanneer dit is ingesteld voor assembleren voor de voorraad. Zie voor meer informatie [Op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
- Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Op voorraad assembleren**.  
+ Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Op voorraad assembleren** .  
 
 ## <a name="combination-scenarios"></a>Combinatiescenario 's  
  Een algemeen beginsel van assemblagebeheer is dat in het geval van combinatie op een verkooporderregel, aantallen voor het assembleren voor orders moeten worden verzonden voor voorraadaantallen.  
 
- Als een assemblageorder is gekoppeld aan een verkooporderregel, wordt de waarde in het veld **Aant. op order assembleren** op de verkooporderregel gekopieerd naar het veld **Te assembleren aantal**, via het veld **Aantal** in de assemblageorderkoptekst. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
+ Als een assemblageorder is gekoppeld aan een verkooporderregel, wordt de waarde in het veld **Aant. op order assembleren** op de verkooporderregel gekopieerd naar het veld **Te assembleren aantal** , via het veld **Aantal** in de assemblageorderkoptekst. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
  Daarnaast is de waarde in het veld **Te assembleren aantal** gerelateerd aan het veld **Te verzenden aantal** op de verkooporderregel. Deze relatie beheert de verzending van aantallen voor assembleren voor orders zowel gedeeltelijk als volledig. Dit geldt zowel wanneer het volledige verkoopregelaantal wordt geassembleerd ten behoeve van orders, als in combinatiescenario's waarin een deel van het verkoopregelaantal wordt geassembleerd voor orders en een ander deel wordt verzonden vanuit de voorraad. In het combinatiescenario beschikt u echter over extra flexibiliteit met betrekking tot deelverzending omdat u het veld **Te assembleren aantal** binnen vooraf gedefinieerde regels kunt wijzigen om op te geven hoeveel eenheden vanuit voorraad en hoeveel eenheden via assemblage voor orders moeten worden verzonden.  
 
  Als het volledige aantal op de verkoopregel op order moet worden geassembleerd en verzonden, wordt de waarde in het veld **Te verzenden aantal** gekopieerd naar het veld **Te assembleren aantal** op de gekoppelde assemblageorder als u het te verzenden aantal wijzigt. Dit zorgt ervoor dat het te verzenden aantal volledig wordt geleverd door het aantal assembleren voor order.  
 
- Echter, in combinatiescenario's wordt de hele waarde in **Te verzenden aantal** niet gekopieerd naar het veld **Te assembleren aantal** op de assemblageorderkop. In plaats daarvan wordt er een standaardwaarde ingevoegd in het veld **Te assembleren aantal** die volgens een vooraf gedefinieerde regel wordt berekend op basis van het veld **Te verzenden aantal**. Deze regel zorgt ervoor dat aantallen voor assemblage voor orders eerst worden verzonden.  
+ Echter, in combinatiescenario's wordt de hele waarde in **Te verzenden aantal** niet gekopieerd naar het veld **Te assembleren aantal** op de assemblageorderkop. In plaats daarvan wordt er een standaardwaarde ingevoegd in het veld **Te assembleren aantal** die volgens een vooraf gedefinieerde regel wordt berekend op basis van het veld **Te verzenden aantal** . Deze regel zorgt ervoor dat aantallen voor assemblage voor orders eerst worden verzonden.  
 
  Als u wilt afwijken van deze standaardprocedure omdat u bijvoorbeeld alleen een groter of een kleiner aantal dan het aantal in het veld **Te verzenden aantal** wilt assembleren, kunt u vervolgens het veld **Te assembleren aantal** wijzigen, maar alleen binnen vooraf gedefinieerde regels, zoals deze hieronder zijn beschreven.  
 

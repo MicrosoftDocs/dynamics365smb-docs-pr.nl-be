@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163b352e55ca85644bc833093f39ea8c422e5030
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780597"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919727"
 ---
 # <a name="create-incoming-document-records"></a>Inkomende documentrecords maken
 Op de pagina **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
@@ -30,7 +30,7 @@ Voordat u de functie Inkomende documenten gebruikt, moet u de benodigde instelli
 Als u gebruikers niet wilt toestaan om facturen of dagboekregels te maken van inkomende documentrecords, tenzij ze zijn goedgekeurd, kunt u goedkeurders instellen die de records moeten goedkeuren voordat ze kunnen worden verwerkt.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies de desbetreffende koppeling.
-2. Selecteer de regel met het document dat u wilt goedkeuren of weigeren en kies vervolgens de actie **Goedkeuren** of **Weigeren**.
+2. Selecteer de regel met het document dat u wilt goedkeuren of weigeren en kies vervolgens de actie **Goedkeuren** of **Weigeren** .
 
 Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegeven** op de regel van het inkomende document geselecteerd. De gebruiker die verantwoordelijk is voor het aanmaken van, bijvoorbeeld, inkoopfacturen kan doorgaan om de record te verwerken.
 
@@ -40,8 +40,8 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 
 1. Kies op de app-balk de tegel **Inkomend document maken van camera** en ga vervolgens naar stap 4.
 2. U kunt ook op de app-bar de optieknop kiezen, **Inkomende documenten** kiezen en **Alle** kiezen.
-3. Kies op de pagina **Inkomende documenten** de selectieknop en kies vervolgens **Maken van camera**. De camera op de tablet of de telefoon wordt ingeschakeld.
-4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK**.
+3. Kies op de pagina **Inkomende documenten** de selectieknop en kies vervolgens **Maken van camera** . De camera op de tablet of de telefoon wordt ingeschakeld.
+4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK** .
 
     Er wordt een nieuwe documentrecord gemaakt met de afbeelding gekoppeld.
 
@@ -49,20 +49,20 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 > [!NOTE]  
 >   De volgende procedure geldt alleen voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet- en Telefoon-client.
 
-1. Kies op de app-bar de optieknop, kies **Inkomende documenten** en kies **Alle**.
+1. Kies op de app-bar de optieknop, kies **Inkomende documenten** en kies **Alle** .
 2. Open de kaart voor een bestaande inkomende documentrecord.
-3. Kies op de pagina **Inkomende documenten** de selectieknop en kies vervolgens **Afbeelding van camera bijvoegen**. De camera op de tablet of de telefoon wordt ingeschakeld.
-4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK**.
+3. Kies op de pagina **Inkomende documenten** de selectieknop en kies vervolgens **Afbeelding van camera bijvoegen** . De camera op de tablet of de telefoon wordt ingeschakeld.
+4. Maak een foto van een document, zoals een inkoopontvangst, dat u wilt verwerken als een inkomend document en kies vervolgens de knop **OK** .
 
     De afbeelding wordt gekoppeld aan de inkomende documentrecord.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Een inkomend documentrecord handmatig maken
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies de desbetreffende koppeling.
-2. Kies de actie **Maken van bestand**.  
-3. Selecteer op de pagina **Bestand invoegen** een bestand en kies vervolgens **Openen**. Het bestand wordt automatisch gekoppeld.
+2. Kies de actie **Maken van bestand** .  
+3. Selecteer op de pagina **Bestand invoegen** een bestand en kies vervolgens **Openen** . Het bestand wordt automatisch gekoppeld.
 4. U kunt ook de actie **Nieuw** kiezen.
-5. Als u een bestand wilt bijvoegen, kiest u de actie **Bestand koppelen**.
-6. Op de pagina **Bestand invoegen**, selecteert u het bestand dat het betreffende inkomende document vertegenwoordigt. Kies vervolgens de knop **Openen**.
+5. Als u een bestand wilt bijvoegen, kiest u de actie **Bestand koppelen** .
+6. Op de pagina **Bestand invoegen** , selecteert u het bestand dat het betreffende inkomende document vertegenwoordigt. Kies vervolgens de knop **Openen** .
 7. Vul op de pagina **Inkomende documenten** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Zie ook

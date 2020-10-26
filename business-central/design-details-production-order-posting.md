@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787333"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917313"
 ---
 # <a name="design-details-production-order-posting"></a>Ontwerpdetails: Productieorderboeking
 Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie. De kostenstroom voor assemblageorders is echter minder complex, met name omdat de assemblagekostenboeking slechts eenmaal plaatsvindt en daarom geen OHW-voorraad genereert.
@@ -45,7 +45,7 @@ Afhankelijk van de soort voorraad, worden toenames en afnames aangeduid door ver
 ||Verhogen|Verlagen|  
 |-|---------------|---------------|  
 |**Voorraad grondstoffen**|-   Netto-inkopen van materiaal<br />-   Output van subassemblages<br />-   Negatief verbruik|Materiaalverbruik|  
-|**OHW-voorraad**|-   Materiaalverbruik<br />-   Capaciteitsverbruik<br />-   Productieoverhead|Output van eindproducten (kostprijs van vervaardigde goederen)|  
+|**OHW-voorraad**|-   Materiaalverbruik<br />-   Capaciteitverbruik<br />-   Productieoverhead|Output van eindproducten (kostprijs van vervaardigde goederen)|  
 |**Voorraad eindproducten**|Output van eindproducten (kostprijs van vervaardigde goederen)|-   Verkoop (kosten van verkochte goederen)<br />-   Negatieve output|  
 |**Voorraad grondstoffen**|-   Netto-inkopen van materiaal<br />-   Output van subassemblages<br />-   Negatief verbruik|Materiaalverbruik|  
 
@@ -103,7 +103,7 @@ In standaardkostenomgevingen is de kostprijsberekening van een productieorder ge
 
     > [!NOTE]  
     >  Dit verschilt van assemblageorderboeking, waarbij altijd werkelijke kosten worden geboekt. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
-2.  Wanneer de productieorder is ingesteld op **Gereedgemeld**, wordt de order gefactureerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Hierdoor worden de totale kosten van de order berekend op basis van de standaardkosten van de verbruikte materialen en de capaciteit. De verschillen tussen de berekende vaste verrekenprijs en de werkelijke productiekosten worden berekend en geboekt.  
+2.  Wanneer de productieorder is ingesteld op **Gereedgemeld** , wordt de order gefactureerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten** . Hierdoor worden de totale kosten van de order berekend op basis van de standaardkosten van de verbruikte materialen en de capaciteit. De verschillen tussen de berekende vaste verrekenprijs en de werkelijke productiekosten worden berekend en geboekt.  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   

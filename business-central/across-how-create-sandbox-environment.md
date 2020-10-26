@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 5482460acb6ce0e92b1d6dbe876b1b64267974ae
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535446"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919700"
 ---
 # <a name="creating-a-sandbox-environment-in-prodshort"></a>Een sandboxomgeving maken in [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -32,7 +32,7 @@ Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/bu
 
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Sandboxomgeving** in en kies de gerelateerde koppeling.
     <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Kies de knop **Maken**.  
+3. Kies de knop **Maken** .  
 
     Er wordt een ander tabblad met [!INCLUDE[d365fin](includes/d365fin_md.md)] geopend, waar u de installatie van uw sandbox-omgeving kunt voltooien.
 
@@ -69,20 +69,20 @@ De sandboxomgeving is niet alleen nuttig omdat deze een aantal handige functies 
 
 ### <a name="to-enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen":::.  
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium* . Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen":::.  
 
-Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
+Nadat u de *Premium* -gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
 ### <a name="to-enable-complete-sample-data"></a>Volledige voorbeeldgegevens inschakelen
 
-In de sandboxomgeving kunt u ook een nieuw bedrijf maken met de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens**, zodat u training kunt volgen of procedures kunt doorlopen waarvoor aanvullende voorbeeldgegevens nodig zijn, zoals [Procedure: Ontvangen en opslaan in basismagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+In de sandboxomgeving kunt u ook een nieuw bedrijf maken met de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** , zodat u training kunt volgen of procedures kunt doorlopen waarvoor aanvullende voorbeeldgegevens nodig zijn, zoals [Procedure: Ontvangen en opslaan in basismagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Een bedrijf maken met volledige voorbeeldgegevens in een sandbox
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijven** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** en kies vervolgens **Nieuw bedrijf maken**.  
-3. Kies op de pagina **Begeleide instelling voor het maken van een bedrijf** **Volgende**.  
-4. Geef een naam op voor het nieuwe bedrijf en kies vervolgens in het veld **Selecteer de gegevens en de instelling om aan de slag te gaan** **Geavanceerde evaluatie - volledige voorbeeldgegevens**.  
+2. Kies de actie **Nieuw** en kies vervolgens **Nieuw bedrijf maken** .  
+3. Kies op de pagina **Begeleide instelling voor het maken van een bedrijf** **Volgende** .  
+4. Geef een naam op voor het nieuwe bedrijf en kies vervolgens in het veld **Selecteer de gegevens en de instelling om aan de slag te gaan** **Geavanceerde evaluatie - volledige voorbeeldgegevens** .  
 5. Voer de rest van de begeleide instelling uit.  
 
 Wanneer de begeleide instelling is voltooid, kunt u beginnen met het verkennen van het nieuwe bedrijf met de volledige voorbeeldgegevens. Zie [Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md) voor meer informatie.  

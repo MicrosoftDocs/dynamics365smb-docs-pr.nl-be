@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324066"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911677"
 ---
 # <a name="data-ownership-models"></a>Modellen voor gegevenseigendom
 [!INCLUDE[d365fin](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Entiteiteigendom](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)] , moet u een van de twee eigendomsmodellen kiezen voor records die worden gesynchroniseerd:
@@ -70,6 +70,8 @@ Bij het wijzigen van een bedrijfsunit kunt u alleen de bedrijfsunits kiezen die 
 Als u het eigendomsmodel Persoon kiest, moet u elke verkoper specificeren die eigenaar zal zijn van nieuwe records. De bedrijfsunit en het team worden gemaakt zoals beschreven in de sectie [Teameigendom](admin-cds-company-concept.md#team-ownership).
 
 De standaardbedrijfsunit wordt gebruikt wanneer het eigendomsmodel Persoon wordt gekozen en u kunt geen andere bedrijfsunit kiezen. Het team dat is gekoppeld aan de standaardbedrijfsunit is eigenaar van records voor gemeenschappelijke entiteiten, zoals de productentiteit, die niet zijn gerelateerd aan specifieke verkopers.
+
+Wanneer u verkopers in [!INCLUDE[d365fin](includes/d365fin_md.md)] koppelt aan gebruikers in [!INCLUDE[d365fin](includes/cds_long_md.md)], voegt [!INCLUDE[d365fin](includes/d365fin_md.md)] de gebruiker toe aan het standaardteam in [!INCLUDE[d365fin](includes/cds_long_md.md)]. U kunt controleren of er gebruikers zijn toegevoegd door naar de kolom **Standaardteamlid** te kijken op de pagina **Gebruikers - Common Data Service** . Als de gebruiker niet is toegevoegd, kunt u deze handmatig toevoegen met de actie **Gekoppelde gebruikers toevoegen aan team** . Zie [Gegevens in Business Central synchroniseren met Common Data Service](admin-synchronizing-business-central-and-sales.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Informatie over [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b44d728414e7b1b4b7d07807abbe4a1dc5769a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782686"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918525"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Aangepaste rapportlay-outs importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  
@@ -27,9 +27,9 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
 
-2.  Selecteer de rij voor het rapport dat de aangepaste rapportlay-outs bevat die u wilt exporteren. Kies vervolgens de actie **Aangepaste lay-outs**.  
+2.  Selecteer de rij voor het rapport dat de aangepaste rapportlay-outs bevat die u wilt exporteren. Kies vervolgens de actie **Aangepaste lay-outs** .  
 
-3.  Selecteer op de pagina **Rapportlay-outs** de rapportlay-out die u naar een bestand wilt exporteren en kies de actie **Lay-out exporteren**.  
+3.  Selecteer op de pagina **Rapportlay-outs** de rapportlay-out die u naar een bestand wilt exporteren en kies de actie **Lay-out exporteren** .  
 
 4.  Kies in het dialoogvenster **Bestand exporteren** de knop **Opslaan** en sla het bestand op een locatie op uw computer of in uw netwerk op.  
 
@@ -41,11 +41,11 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
 
-3.  Selecteer de rij voor het rapport waarin u de rapportlay-out wilt importeren en kies de actie **Aangepaste lay-outs**.  
+3.  Selecteer de rij voor het rapport waarin u de rapportlay-out wilt importeren en kies de actie **Aangepaste lay-outs** .  
 
-4.  Selecteer op de pagina **Rapportlay-outs** de rapportlay-out waarin u het bestand wilt importeren en kies de actie **Lay-out importeren**.  
+4.  Selecteer op de pagina **Rapportlay-outs** de rapportlay-out waarin u het bestand wilt importeren en kies de actie **Lay-out importeren** .  
 
-5.  Selecteer in het dialoogvenster **Importeren** het document dat de rapportlay-out definieert en kies de knop **Openen**.  
+5.  Selecteer in het dialoogvenster **Importeren** het document dat de rapportlay-out definieert en kies de knop **Openen** .  
 
  De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6878413b4a3db077ffcd16f5f6939582fa57809
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a1278b344efef1df243d4f82e9d463f8faf9a259
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787058"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920809"
 ---
 # <a name="depreciation-methods"></a>Afschrijvingsmethoden
 U hebt de beschikking over acht afschrijvingsmethoden:  
@@ -167,7 +167,7 @@ De batchverwerking **Afschrijving berekenen** berekent een lineair bedrag en een
 
 U kunt de boekwaarde-afschrijving met meerdere percentages berekenen.  
 
-Als u deze methode gebruikt, moet u de verwachte gebruiksduur en een boekwaarde-afschrijvingspercentage invullen op de pagina **VA-afschrijvingsboeken**.  
+Als u deze methode gebruikt, moet u de verwachte gebruiksduur en een boekwaarde-afschrijvingspercentage invullen op de pagina **VA-afschrijvingsboeken** .  
 
 ### <a name="example---db1-sl-depreciation"></a>Voorbeeld - Boekwaarde 1/Lineaire afschrijving
 De aanschafkosten van een vast activum bedragen LV 100.000. Op de pagina **VA-afschrijvingsboeken** bevat het veld **Boekwaarde afschr. %** 25, en het veld **Aantal afschr.-jaren** 8. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd.  
@@ -219,7 +219,7 @@ Het lineaire afschrijvingsbedrag wordt gebruikt, omdat dit het hoogste bedrag is
 ## <a name="user-defined-depreciation"></a>Door de gebruiker ingestelde afschrijving
 U hebt de mogelijkheid om eigen afschrijvingsmethoden in te stellen.  
 
-Voor het instellen van een eigen methode gebruikt u de pagina **Afschrijvingstabellen**, waarin u voor iedere periode (maand, kwartaal, jaar of boekhoudperiode) een afschrijvingspercentage opgeeft.  
+Voor het instellen van een eigen methode gebruikt u de pagina **Afschrijvingstabellen** , waarin u voor iedere periode (maand, kwartaal, jaar of boekhoudperiode) een afschrijvingspercentage opgeeft.  
 
 De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:  
 
@@ -232,7 +232,7 @@ Deze eigen methode kan ook worden gebruikt om af te schrijven op basis van het a
 Op de pagina **Afschrijvingstabel** kunt u door de gebruiker gedefinieerde afschrijvingsmethoden instellen. U kunt bijvoorbeeld afschrijving instellen op basis van het aantal eenheden.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingstabellen** in en kies de desbetreffende koppeling.  
-2. Kies op de pagina **Afschrijvingstabeloverzicht** de actie **Nieuw**.  
+2. Kies op de pagina **Afschrijvingstabeloverzicht** de actie **Nieuw** .  
 3. Vul op de pagina **Afschrijvingstabel** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Voorbeeld - door gebruiker ingestelde afschrijving
@@ -257,7 +257,7 @@ De aanschafkosten bedragen LV 100.000 en de afschrijfbare levensduur is vijf jaa
 
 * Begindatum afschrijving  
 
-Als u een eigen methode hanteert, moet u de velden **Datum 1e afschr. eigen def.** en **Begindatum afschr.** invullen op de pagina **VA-afschrijvingsboeken**. Via het veld **Datum 1e afschr. eigen def.** en de inhoud van het veld **Periodelengte** op de pagina **Afschrijvingstabellen** wordt het tijdsinterval voor de afschrijvingsberekeningen bepaald. Hierdoor wordt het opgegeven percentage op dezelfde dag gebruikt voor alle activa. Het veld **Begindatum afschr.** wordt gebruikt om het aantal afschrijvingsdagen te berekenen.  
+Als u een eigen methode hanteert, moet u de velden **Datum 1e afschr. eigen def.** en **Begindatum afschr.** invullen op de pagina **VA-afschrijvingsboeken** . Via het veld **Datum 1e afschr. eigen def.** en de inhoud van het veld **Periodelengte** op de pagina **Afschrijvingstabellen** wordt het tijdsinterval voor de afschrijvingsberekeningen bepaald. Hierdoor wordt het opgegeven percentage op dezelfde dag gebruikt voor alle activa. Het veld **Begindatum afschr.** wordt gebruikt om het aantal afschrijvingsdagen te berekenen.  
 
 In het vorige voorbeeld bevatten de velden **Datum 1e afschr. eigen def.** en **Begindatum afschr.** beide de instelling 01-01-01. Als het veld **Datum 1e afschr. eigen def.** echter de datum 01-01-10 bevat en het veld **Begindatum afschr.** de datum 01-04-11, dan zou het resultaat als volgt zijn:  
 
@@ -281,7 +281,7 @@ Deze afschrijvingsmethode kan worden gebruikt in samenhang met de volgende afsch
 * Boekwaarde-afschrijving 1  
 * Boekwaarde 1  
 
-Als u de halfjaarlijkse afspraak toepast, heeft een vast activum een afschrijving van zes maanden in het eerste boekjaar, ongeacht de inhoud van het veld **Begindatum afschrijving**.  
+Als u de halfjaarlijkse afspraak toepast, heeft een vast activum een afschrijving van zes maanden in het eerste boekjaar, ongeacht de inhoud van het veld **Begindatum afschrijving** .  
 
 > [!NOTE]  
 >   De verwachte levensduur van een vast activum na het eerste boekjaar, bedraagt altijd een half jaar bij de halfjaarlijkse afspraak. Om de halfjaarlijkse afspraak dus juist toe te passen, moet het veld **Einddatum afschr.** op de pagina **VA-afschrijvingsboek** altijd een datum bevatten die precies zes maanden voor de laatste datum van het boekjaar ligt waarin het vaste activum volledig wordt afgeschreven.  

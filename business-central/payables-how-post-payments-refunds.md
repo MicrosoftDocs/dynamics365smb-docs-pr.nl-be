@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b60d7c0b0e42d33e039f32a9b8f23a9816cb1bf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190311"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916788"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Betalingen en terugbetalingen vastleggen in het betalingsdagboek
 
@@ -40,13 +40,13 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsjournalen** in en kies de desbetreffende koppeling.
 2. Open de dagboekbatch die bedoeld is voor betalingen.
 3. Als u weet wie u wilt betalen of terugbetalen, vult u de velden handmatig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Als u de betaling wilt vereffenen met de gerelateerde factuur of creditnota, kiest u het veld **Vereffeningsnr.** op de pagina **Leveranciersposten vereffenen**, selecteert u de desbetreffende factuur of creditnota en kiest u vervolgens de knop **OK**.
+4. Als u de betaling wilt vereffenen met de gerelateerde factuur of creditnota, kiest u het veld **Vereffeningsnr.** op de pagina **Leveranciersposten vereffenen** , selecteert u de desbetreffende factuur of creditnota en kiest u vervolgens de knop **OK** .
 
     Veel velden, zoals **Documentbedrag** en **Vervaldatum** worden nu ingevuld met gegevens uit het geselecteerde document.
 5. U kunt ook de functie **Leveranciersbetalingen voorstellen** gebruiken. Alle vereffeningsinformatie en bedragen worden vervolgens ook ingevoerd op de dagboekregels. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
 
     Berichten begeleiden u bij het juist invullen van de vereiste velden.
-6.  Wanneer alle betalingsdagboekregels zijn ingevuld, kiest u de actie **Boeken**.
+6.  Wanneer alle betalingsdagboekregels zijn ingevuld, kiest u de actie **Boeken** .
 
 ## <a name="see-also"></a>Zie ook
 [Chequebetalingen doen](payables-how-work-checks.md)  

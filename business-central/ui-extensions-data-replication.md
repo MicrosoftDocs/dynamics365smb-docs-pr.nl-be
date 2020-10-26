@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 07/13/2020
+ms.date: 10/01/2020
 ms.author: jenolson
-ms.openlocfilehash: 712950571d5b45680aae46bccfd8401b999993cd
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577273"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915222"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente cloud-extensies voor cloudmigratie
 
@@ -39,7 +39,7 @@ Als u Dynamics GP gebruikt, verkrijgt u de **extensie Intelligente cloud Basis**
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis**, de extensie **Microsoft Dynamics SL Intelligente cloud** en de extensie **Microsoft Dynamics SL-historie slimme lijsten** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
+Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** , de extensie **Microsoft Dynamics SL Intelligente cloud** en de extensie **Microsoft Dynamics SL-historie slimme lijsten** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
 
 ## <a name="see-also"></a>Zie ook
 

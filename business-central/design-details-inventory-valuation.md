@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d37ef45bc1232bf0811a14123a814f1bf57ee7c2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787708"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913700"
 ---
 # <a name="design-details-inventory-valuation"></a>Ontwerpdetails: Voorraadwaardering
 Voorraadwaardering XE "Voorraadwaardering" is de bepaling van de kosten die worden toegewezen aan een voorraadartikel, zoals uitgedrukt met de volgende vergelijking.  
@@ -35,7 +35,7 @@ De afgedrukte lijst geeft altijd de werkelijke bedragen weer, dat wil zeggen, de
 >  Waarden in de lijst **Voorraadwaardering** worden gereconcilieerd met de voorraadrekening in het grootboek, wat betekent dat de waardeposten in kwestie naar het grootboek zijn geboekt.  
 
 > [!IMPORTANT]  
->  Bedragen in de **Waarde**-kolommen van het rapport zijn gebaseerd op de boekingsdatum van transacties voor een artikel.  
+>  Bedragen in de **Waarde** -kolommen van het rapport zijn gebaseerd op de boekingsdatum van transacties voor een artikel.  
 
 ## <a name="inventory-valuation---wip-report"></a>Rapport Voorraadwaardering - OHW  
 Een productiebedrijf moet de waarde van drie soorten voorraad bepalen:  

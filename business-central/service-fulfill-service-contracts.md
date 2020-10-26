@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57e10efcd6ec5a2ed54df2bdaa4f2a647a1e981c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194727"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910367"
 ---
 # <a name="fulfilling-service-contracts"></a>Servicecontracten voldoen 
 Een van de manieren waarop u servicebeheerdiensten kunt bieden, is door middel van het gebruik van standaard contractuele overeenkomsten tussen u en uw klanten, waarin het serviceniveau en de serviceverwachtingen zijn uiteengezet. U kunt contractsjablonen maken waarin de benodigde gegevens, zoals de klant, de ingangsdatum van het contract en de factureringsperiode, zijn opgenomen.  
   
-Nadat u de sjabloon hebt ingesteld, kunt u het resulterende contract aanpassen en zo de service-uren of andere, per klant variërende artikelen, bijhouden. U kunt ook handmatig een contract instellen op basis van een servicecontractofferte. Ten slotte kunt u uw serviceprijzen aanpassen door kortingen waarvoor een bepaalde klant in aanmerking komt, bij te houden door het kortingsbedrag op te geven op de pagina **Servicecontract**.  
+Nadat u de sjabloon hebt ingesteld, kunt u het resulterende contract aanpassen en zo de service-uren of andere, per klant variërende artikelen, bijhouden. U kunt ook handmatig een contract instellen op basis van een servicecontractofferte. Ten slotte kunt u uw serviceprijzen aanpassen door kortingen waarvoor een bepaalde klant in aanmerking komt, bij te houden door het kortingsbedrag op te geven op de pagina **Servicecontract** .  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
   

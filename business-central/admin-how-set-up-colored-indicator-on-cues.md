@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187352"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911467"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
 Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de gegevenswaarden in de indicatiestapels.  
@@ -29,12 +29,12 @@ Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die d
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Gekleurde indicatoren instellen voor indicatiestapels  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling indicatiestapel** in en kies de desbetreffende koppeling.  
 
-     De pagina **Instelling indicatiestapel** wordt geopend. De pagina bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam**. Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam**.  
+     De pagina **Instelling indicatiestapel** wordt geopend. De pagina bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam** . Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam** .  
 
     > [!NOTE]  
     >  Als u een indicator voor het hele bedrijf instelt en een gebruiker de indicator later wijzigt, wordt een aparte vermelding voor de indicator in de lijst weergegeven voor die gebruiker.  
 
-2. Kies de actie **Lijst bewerken**.  
+2. Kies de actie **Lijst bewerken** .  
 3. Als u een indicator wilt instellen voor een indicatiestapel die niet op de pagina wordt weergegeven, kiest u de actie **Nieuw** en vult u de velden in zoals hierna wordt beschreven. Als u een bestaande indicator wilt wijzigen, gaat u naar de volgende stap.  
 
     |  Veld  |  Description  |    
@@ -47,13 +47,13 @@ Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die d
 
     |  Veld  |  Description  |    
     |---------|---------------|  
-    |**LowStyle**|Geeft de kleur op van de indicator wanneer de waarde van de indicatiestapel kleiner is dan de waarde van het veld **Drempel 1**.|  
-    |**LowThreshold**|Geeft de waarde op waarop of waarboven de indicator verandert in de kleur die wordt opgegeven door het veld **Stijl middenbereik**.|  
-    |**MiddleStyle**|Geeft de kleur op van de indicator wanneer de waarde van de indicatiestapel groter is dan of gelijk is aan de waarde van het veld **Drempel 1**, maar kleiner is dan de waarde van het veld **Drempel 2**.|  
-    |**HighThreshold**|Geeft de waarde op waarboven de indicator verandert in de kleur die wordt opgegeven door het veld **Stijl hoog bereik**.|  
-    |**HighStyle**|Geeft de kleur die moet worden gebruikt wanneer de waarde van de indicatiestapel groter is dan de waarde van het veld **Drempel 2**.|  
+    |**LowStyle**|Geeft de kleur op van de indicator wanneer de waarde van de indicatiestapel kleiner is dan de waarde van het veld **Drempel 1** .|  
+    |**LowThreshold**|Geeft de waarde op waarop of waarboven de indicator verandert in de kleur die wordt opgegeven door het veld **Stijl middenbereik** .|  
+    |**MiddleStyle**|Geeft de kleur op van de indicator wanneer de waarde van de indicatiestapel groter is dan of gelijk is aan de waarde van het veld **Drempel 1** , maar kleiner is dan de waarde van het veld **Drempel 2** .|  
+    |**HighThreshold**|Geeft de waarde op waarboven de indicator verandert in de kleur die wordt opgegeven door het veld **Stijl hoog bereik** .|  
+    |**HighStyle**|Geeft de kleur die moet worden gebruikt wanneer de waarde van de indicatiestapel groter is dan de waarde van het veld **Drempel 2** .|  
 
-     De volgende tabel bevat de kleuren die overeenkomen met de opties van de velden **LowStyle**, **MiddleStyle** en **HighStyle**.  
+     De volgende tabel bevat de kleuren die overeenkomen met de opties van de velden **LowStyle** , **MiddleStyle** en **HighStyle** .  
 
     |  Optie  |  Kleur  |  
     |----------|---------|  

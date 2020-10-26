@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b6e9c03e93f055ccdc4066df56db5d53027852a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6251b995d81f9452188fb40e9ac7e9ec6ba234d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779573"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911833"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Artikelen verplaatsen in geavanceerde magazijnconfiguraties
 Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties met gestuurde opslag en pick, worden magazijnverplaatsingen tussen opslaglocaties door een senior medewerker uitgevoerd, die de magazijnverplaatsingen in het verplaatsingswerkblad voorbereidt en deze vervolgens toewijst aan magazijnmedewerkers.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>artikelen met het magazijnverplaatsingswerkblad verplaatsen
-De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automatisch kunnen worden ingevuld. De eerste functie is **Opslaglocatieaanvulling berekenen**. Deze functie gebruikt de rangorde van de opslaglocatie om aanvulling voor te stellen voor hogere gerangschikte opslaglocaties van lage gerangschikte opslaglocaties. De tweede post is de functie **Opslaglocatie-inhoud ophalen**, waarmee de voorstelregels worden gevuld met de volledige opslaglocatie-inhoud van de opslaglocatie of de opslaglocaties die u opgeeft.
+De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automatisch kunnen worden ingevuld. De eerste functie is **Opslaglocatieaanvulling berekenen** . Deze functie gebruikt de rangorde van de opslaglocatie om aanvulling voor te stellen voor hogere gerangschikte opslaglocaties van lage gerangschikte opslaglocaties. De tweede post is de functie **Opslaglocatie-inhoud ophalen** , waarmee de voorstelregels worden gevuld met de volledige opslaglocatie-inhoud van de opslaglocatie of de opslaglocaties die u opgeeft.
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies de gerelateerde koppeling.  
 2.  Vul de magazijnverplaatsingsgegevens in op de voorstelregels.  
@@ -30,12 +30,12 @@ De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automa
 ### <a name="to-register-the-warehouse-movement"></a>De magazijnverplaatsing als registreren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingen** in en kies de desbetreffende koppeling.  
 2.  Open de magazijnverplaatsing die u wilt verwerken.  
-3.  Specificeer op de regels van de actiesoort **Plaats** waar, welk en wanneer het betrokken artikel verplaatst moet worden door het bewerken van het veld **Code Zone**, **Opslaglocatiecode**, **Te verwerken aantal** of **Vervaldatum**.  
+3.  Specificeer op de regels van de actiesoort **Plaats** waar, welk en wanneer het betrokken artikel verplaatst moet worden door het bewerken van het veld **Code Zone** , **Opslaglocatiecode** , **Te verwerken aantal** of **Vervaldatum** .  
 
     Als de opslaglocaties van het systeemmagazijn overeenkomen met de fysieke structuur van het werkelijke magazijn, kunt u een aantal verschillende artikelen uit opeenvolgende bulkopslaglocaties nemen en de artikelen vervolgens in pickopslaglocaties plaatsen die mogelijk ook naast elkaar zijn gelegen.  
 4.  Specificeer op de regels van de actiesoort **Nemen** in het veld **Te verwerken aantal** een aantal voor de onderdelen van de opslaglocatie-inhoud die u wilt verplaatsen. Alle overige velden op de regels van de actiesoort **Nemen** zijn alleen-lezen.  
-5.  Als u alle voorgestelde aantallen zoals opgegeven in het veld **Aantal** wilt verplaatsen, kiest u de actie **Te verwerken aantal autom. invullen**.  
-6. Kies de actie **Registreren**.  
+5.  Als u alle voorgestelde aantallen zoals opgegeven in het veld **Aantal** wilt verplaatsen, kiest u de actie **Te verwerken aantal autom. invullen** .  
+6. Kies de actie **Registreren** .  
 
 > [!NOTE]  
 >  Wanneer in de vestiging gestuurde opslag en pick wordt gebruikt, kunt u artikelen niet handmatig plaatsen of ophalen uit een opslaglocatie met het type ONTVANGEN, aangezien artikelen in een dergelijke opslaglocatie moeten worden geregistreerd als opgeslagen artikelen voordat ze onderdeel vormen van de beschikbare voorraad.
@@ -44,8 +44,8 @@ De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automa
 Als in de vestiging gestuurde opslag en pick wordt gebruikt en u artikelen naar andere opslaglocaties moet verplaatsen zonder een bestaande opslag, pick of verplaatsing te gebruiken, kunt u de correcte plaatsing van de artikelen in het magazijn registreren in het **magazijnherindelingsdagboek.**
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. herindelingsdagboek** in en kies de desbetreffende koppeling.  
-2.  Vul de velden **Artikelnr.**, **Van zone**, **Van opslaglocatie**, **Naar zone** en **Naar opslaglocatie** in.  
-3.  Kies de actie **Registreren**.  
+2.  Vul de velden **Artikelnr.** , **Van zone** , **Van opslaglocatie** , **Naar zone** en **Naar opslaglocatie** in.  
+3.  Kies de actie **Registreren** .  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

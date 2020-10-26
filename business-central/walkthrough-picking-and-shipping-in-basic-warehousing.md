@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d607037d76f0778aa0f1037ac9540cfd3d497dbd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786833"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918501"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
@@ -62,9 +62,9 @@ U moet het volgende doen om deze procedure uit te voeren:
 - Maak van uzelf een magazijnwerknemer bij de vestiging ZILVER door de volgende stappen uit te voeren:  
 
   1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
-  2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
+  2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers** .  
   3. Voer ZILVER in het veld **Vestiging** in.  
-  4. Selecteer het veld **Standaard**.  
+  4. Selecteer het veld **Standaard** .  
 
 - Maak artikel LS-81 beschikbaar op locatie ZILVER door deze stappen te volgen:  
 
@@ -76,11 +76,11 @@ U moet het volgende doen om deze procedure uit te voeren:
         |Pos. correctie|LS-81|ZILVER|S-01-0001|20|  
         |Pos. correctie|LS-81|ZILVER|S-01-0002|20|  
 
-  3. Kies de actie **Boeken** en selecteer de knop **Ja**.  
+  3. Kies de actie **Boeken** en selecteer de knop **Ja** .  
 
 ## <a name="story"></a>Scenario
 
-Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
+Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick** , dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
 
 ## <a name="setting-up-the-location"></a>De locatie instellen
 
@@ -99,7 +99,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**.  
+2. Kies de actie **Nieuw** .  
 3. Maak een verkooporder voor klant 10000 op 23 januari (werkdatum) met de volgende verkooporderregel.  
 
     |Artikel|Vestiging|Aantal|  
@@ -108,7 +108,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 
      Ga door om het magazijn te informeren dat de verkooporder klaar is voor magazijnverwerking.  
 
-4. Kies de actie **Vrijgeven**.  
+4. Kies de actie **Vrijgeven** .  
 
     John gaat door met het picken en verzenden van de verkochte artikelen.  
 
@@ -119,17 +119,17 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 ### <a name="to-pick-and-ship-items"></a>U kunt als volgt artikels picken en verzenden
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw**.  
+2. Kies de actie **Nieuw** .  
 
     Zorg ervoor dat het veld **Nee.** op het sneltabblad **Algemeen** is ingevuld.
-3. Selecteer het veld **Brondocument** en selecteer vervolgens **Verkooporder**.  
-4. Selecteer het veld **Bronnr.**, selecteer de regel voor de verkoop aan klant 10000, en kies vervolgens de knop **OK**.  
+3. Selecteer het veld **Brondocument** en selecteer vervolgens **Verkooporder** .  
+4. Selecteer het veld **Bronnr.** , selecteer de regel voor de verkoop aan klant 10000, en kies vervolgens de knop **OK** .  
 
     U kunt ook de actie **Brondocument ophalen** kiezen en de verkooporder kiezen.  
-5. Kies de actie **Te verwerken aantal autom. invullen**.  
+5. Kies de actie **Te verwerken aantal autom. invullen** .  
 
     Of voer in het veld **Te verwerken aantal** respectievelijk 10 en 20 in op de twee voorraadpickregels.  
-6. Kies de actie **Boeken**, selecteer **Verzenden** en kies de knop **OK**.  
+6. Kies de actie **Boeken** , selecteer **Verzenden** en kies de knop **OK** .  
 
     Nu zijn de 30 luidsprekers geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
 

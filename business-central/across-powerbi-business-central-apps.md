@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697824"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915872"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>De [!INCLUDE [prodshort](includes/prodshort.md)]-apps gebruiken in Power BI
 
@@ -67,25 +67,25 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 
     U kunt ook aan de slag gaan vanuit [!INCLUDE [prodshort](includes/prodshort.md)]. Navigeer vanaf uw startpagina naar **Rapportselectie** in de sectie Power BI. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Nu wordt de Organisatiegalerie in Power BI of Microsoft AppSource geopend en hierin is een filter toegepast, zodat alleen die apps worden weergegeven die zijn gerelateerd aan [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. Selecteer **Ophalen** in het vak **Diensten**.
+3. Selecteer **Ophalen** in het vak **Diensten** .
 
-    Met deze stap opent u de pagina **Power BI-apps** waar u kunt bladeren naar Power BI-apps die beschikbaar zijn in **AppSource**.  
+    Met deze stap opent u de pagina **Power BI-apps** waar u kunt bladeren naar Power BI-apps die beschikbaar zijn in **AppSource** .  
 
 4. Voer in het vak **Zoeken** de tekst **Dynamics 365 Business Central** in.
-5. Selecteer de app die u wilt gebruiken, selecteer **Nu downloaden** en selecteer vervolgens **Installeren**.  
+5. Selecteer de app die u wilt gebruiken, selecteer **Nu downloaden** en selecteer vervolgens **Installeren** .  
 
     Na voltooiing is de app beschikbaar via **Apps** in het navigatiemenu in Power BI.
 
 ## <a name="connect-the-prodshort-app-to-your-data"></a>De [!INCLUDE[prodshort](includes/prodshort.md)]-app verbinden met uw gegevens
 
-1. Selecteer onder **Apps** de Business Central-app en selecteer vervolgens **Verbinden**.
+1. Selecteer onder **Apps** de Business Central-app en selecteer vervolgens **Verbinden** .
 2. Voer desgevraagd in de velden **Bedrijfsnaam** en **Omgeving** informatie in over het [!INCLUDE[prodshort](includes/prodshort.md)]-exemplaar waarmee u verbinding wilt maken.
 
     - Zorg ervoor dat u bij **Bedrijfsnaam** de volledige naam gebruikt en niet de weergavenaam. U vindt de bedrijfsnaam op de pagina **Bedrijven** in [!INCLUDE[prodshort](includes/prodshort.md)]. 
-    - Als u nog niet meerdere omgevingen hebt gemaakt, voert u bij **Omgeving** de naam **Productie**.
+    - Als u nog niet meerdere omgevingen hebt gemaakt, voert u bij **Omgeving** de naam **Productie** .
 
-3. Selecteer **Volgende**.
-4. Selecteer **Aanmelden**.
+3. Selecteer **Volgende** .
+4. Selecteer **Aanmelden** .
 5. Voer desgevraagd de gebruikersnaam en het wachtwoord in om u aan te melden bij [!INCLUDE[prodshort](includes/prodshort.md)].
 6. Eenmaal verbonden worden een dashboard en rapporten aan uw Power BI-werkruimte toegevoegd. Wanneer dit is voltooid, bevatten de tegels gegevens uit uw [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijf.
 
@@ -101,7 +101,7 @@ Er is geen Power BI-account ingesteld. U moet een licentie hebben om een geldig 
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten weer te geven die u kunt weergeven.
 
-Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Of het rapport is geïmplementeerd maar is niet vernieuwd. Als dit probleem zich voordoet, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prodshort](includes/prodshort.md)] en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
+Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Of het rapport is geïmplementeerd maar is niet vernieuwd. Als dit probleem zich voordoet, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset** , **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prodshort](includes/prodshort.md)] en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren** .
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE[prodshort](includes/prodshort.md)]-app in Power BI te installeren
 
@@ -130,7 +130,7 @@ Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises is het probleem mo
 
 ### <a name="incorrect-company-name"></a>Onjuiste bedrijfsnaam
 
-Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in plaats van de bedrijfsnaam. Als u de bedrijfsnaam wilt vinden, zoekt u naar **Bedrijven**. Gebruik vervolgens het veld **Naam** wanneer u uw bedrijfsnaam invoert.
+Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in plaats van de bedrijfsnaam. Als u de bedrijfsnaam wilt vinden, zoekt u naar **Bedrijven** . Gebruik vervolgens het veld **Naam** wanneer u uw bedrijfsnaam invoert.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen
 
@@ -149,7 +149,7 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE[prodshort](includes/prod
 - Probeer [een vraag te stellen in het vraag- en antwoordvak](/power-bi/service-q-and-a-tips) boven aan het dashboard.
 - [Wijzig de tegels](/power-bi/service-dashboard-edit-tile) in het dashboard.  
 - [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
-- Standaard wordt uw gegevensset niet volgens een schema vernieuwd. U kunt het vernieuwingsschema wijzigen of de gegevensset op aanvraag proberen te vernieuwen met de opdracht **Nu vernieuwen**. Zie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh) voor meer informatie.
+- Standaard wordt uw gegevensset niet volgens een schema vernieuwd. U kunt het vernieuwingsschema wijzigen of de gegevensset op aanvraag proberen te vernieuwen met de opdracht **Nu vernieuwen** . Zie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh) voor meer informatie.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

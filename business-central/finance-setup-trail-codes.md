@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372699"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914226"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Broncodes en redencodes instellen voor audittrails
 
@@ -29,7 +29,7 @@ In bepaalde gevallen wilt u nagaan hoe een bepaalde post ontstaan is, bijvoorbee
 
 Bij het boeken van dagboeken, orders, facturen of creditnota's en bij het uitvoeren van de verschillende batchverwerkingen worden posten in de financiële overzichten gemaakt. Het venster **Broncode-instelling** bevat meerdere sneltabbladen, één voor elk toepassingsgebied. Elk sneltabblad bevat de broncode die van toepassing is op dat toepassingsgebied.
 
-Wanneer u een batchverwerking boekt of uitvoert, wordt de juiste broncode automatisch aan de post gekoppeld. Als u bijvoorbeeld boekt vanuit het financieel dagboek, wordt de post gecodeerd als *FINDAGB*. Vervolgens kunt u de pagina **Grootboekposten** filteren om te laten zien welke boekingen bijvoorbeeld vanuit het dagboek of uit verkoopdocumenten zijn geboekt
+Wanneer u een batchverwerking boekt of uitvoert, wordt de juiste broncode automatisch aan de post gekoppeld. Als u bijvoorbeeld boekt vanuit het financieel dagboek, wordt de post gecodeerd als *FINDAGB* . Vervolgens kunt u de pagina **Grootboekposten** filteren om te laten zien welke boekingen bijvoorbeeld vanuit het dagboek of uit verkoopdocumenten zijn geboekt
 
 ### <a name="to-define-source-codes"></a>Broncodes definiëren
 
@@ -41,15 +41,15 @@ U kunt de inhoud van een veld later wijzigen en die wijziging heeft dan invloed 
 
 ## <a name="change-source-codes"></a>Broncodes wijzigen
 
-U wilt wellicht een broncode wijzigen. U wilt bijvoorbeeld de broncode *DAGBOEK* wijzigen in *DAGB*.
+U wilt wellicht een broncode wijzigen. U wilt bijvoorbeeld de broncode *DAGBOEK* wijzigen in *DAGB* .
 
 ### <a name="to-change-source-codes"></a>Broncodes wijzigen
 
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncodes** in en kies de desbetreffende koppeling.
 
-2. Selecteer op de regel met de te wijzigen code de code in het veld **Code**.
+2. Selecteer op de regel met de te wijzigen code de code in het veld **Code** .
 
-3. Voer de nieuwe code in en kies vervolgens de knop **Ja**. U kunt de inhoud van het veld **Omschrijving** ook wijzigen.
+3. Voer de nieuwe code in en kies vervolgens de knop **Ja** . U kunt de inhoud van het veld **Omschrijving** ook wijzigen.
 
 De nieuwe posten die worden geboekt uit het dagboek, hebben de nieuwe broncode.
 
@@ -61,7 +61,7 @@ Redencodes vullen de broncodes aan en worden gebruikt om aan te geven waarom een
 
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Redencodes** in en kies de desbetreffende koppeling.
 
-2. Voer in het venster **Redencodes** de eerste code in het veld **Code** in. Typ een uitleg in het veld **Omschrijving**.
+2. Voer in het venster **Redencodes** de eerste code in het veld **Code** in. Typ een uitleg in het veld **Omschrijving** .
 
 Herhaal de procedure voor elke code die u wilt gebruiken. U kunt een onbeperkt aantal codes instellen.
 

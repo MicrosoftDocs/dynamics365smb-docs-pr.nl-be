@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2647ff245ae891eb069b448f8a8192f78b5bfbc3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780972"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920759"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  
@@ -38,20 +38,20 @@ U kunt de batchverwerking **Afschrijving berekenen** eens per maand, of op een t
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijving berekenen** in en kies de desbetreffende koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Kies de knop **Ok**.  
+3. Kies de knop **Ok** .  
 
     Met de batchverwerking wordt de afschrijving berekend en worden regels in het financieel dagboek voor vaste activa gemaakt.
 
 4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.  
 
     Op de pagina **Financieel dagboek van vaste activa** in het veld **Aantal afschrijvingsdagen** kunt u zien hoeveel afschrijvingsdagen er zijn berekend.  
-5. Kies de actie **Boeken**.  
+5. Kies de actie **Boeken** .  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Een afschrijving handmatig boeken vanuit het financieel dagboek voor vaste activa
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboek** in en kies de gerelateerde koppeling.  
 2. Maak een eerste dagboekregel en vul de velden indien nodig in.  
-3. In het veld **VA-boekingssoort** selecteert u **Afschrijving**.  
-4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
+3. In het veld **VA-boekingssoort** selecteert u **Afschrijving** .  
+4. Kies de actie **VA-tegenrekening invoegen** . Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de afschrijvingsboeking is ingesteld. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
 5. Kies de actie **Boeken** om het journaal te boeken.  
 
 Het veld **Boekwaarde** op de pagina **Vast activum** wordt dienovereenkomstig bijgewerkt.
@@ -70,8 +70,8 @@ Als een vast activum door verschillende afdelingen wordt gebruikt, kan de period
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboek** in en kies de gerelateerde koppeling.  
 2. Maak een eerste regel en vul de velden indien nodig in.
-3. In het veld **VA-boekingssoort** selecteert u **Verdeelsleutel**.  
-4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de verdeelsleutel is ingesteld.  
+3. In het veld **VA-boekingssoort** selecteert u **Verdeelsleutel** .  
+4. Kies de actie **VA-tegenrekening invoegen** . Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de verdeelsleutel is ingesteld.  
 5. Kies de actie **Boeken** om het journaal te boeken.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Duplicatielijsten gebruiken ter voorbereiding op de boeking naar meerdere afschrijvingsboeken
@@ -87,12 +87,12 @@ Als u dagboekregels invult die naar een afschrijvingsboek moeten worden geboekt,
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboek** in en kies de gerelateerde koppeling.  
 2. Schakel in het dagboek waarmee u de afschrijving wilt boeken, het selectievakje **Duplicatielijst gebruiken** in.  
 3. Vul indien nodig de resterende velden in.  
-4. Kies de actie **Boeken**.  
+4. Kies de actie **Boeken** .  
 5. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeken** in en kies de gerelateerde koppeling.  
 
     > [!NOTE]  
     >   De pagina **VA-dagboek** bevat nieuwe regels voor verschillende afschrijvingsboeken volgens de duplicatielijst.  
-6. Controleer of bewerk de regels en kies vervolgens de actie **Boeken**.  
+6. Controleer of bewerk de regels en kies vervolgens de actie **Boeken** .  
 
     > [!NOTE]  
     >   U kunt een post ook naar een apart boek dupliceren door tijdens het invullen van een dagboekregel in het veld **Dupliceren in afschr.-boek** de code van een afschrijvingsdagboek op te geven.  
@@ -101,9 +101,9 @@ Met behulp van de batchverwerking **Afschrijvingsboek kopiëren** kunt u posten 
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Posten voor vaste activa tussen afschrijvingsboeken kopiëren
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies de desbetreffende koppeling.  
-2. Open de betreffende afschrijvingsboekkaart en kies vervolgens de actie **Afschrijvingsboek kopiëren**.  
+2. Open de betreffende afschrijvingsboekkaart en kies vervolgens de actie **Afschrijvingsboek kopiëren** .  
 3. Vul op de pagina **Afschrijvingsboek kopiëren** indien nodig de velden in.  
-4. Kies de knop **OK**.  
+4. Kies de knop **OK** .  
 
 De gekopieerde regels worden in het financieel dagboek voor vaste activa of het dagboek voor vaste activa gemaakt, afhankelijk van de vraag of het afschrijvingsboek dat u kopieert, geïntegreerd is met het grootboek.  
 

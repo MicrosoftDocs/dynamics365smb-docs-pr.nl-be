@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97cd7c2f74875317a3d4559c15d0bd22367e6df7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778104"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915847"
 ---
 # <a name="delete-workflows"></a>Werkstromen verwijderen
 Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.  
@@ -28,9 +28,9 @@ Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen
 ## <a name="to-delete-a-workflow"></a>Een workflow verwijderen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
 2.  Selecteer de workflow die u wilt verwijderen.  
-3.  Kies de actie **Verwijderen**.  
+3.  Kies de actie **Verwijderen** .  
 4.  Of, open de workflow die u wilt verwijderen.  
-5.  Kies op de pagina **Werkstroom** de actie **Verwijderen**.  
+5.  Kies op de pagina **Werkstroom** de actie **Verwijderen** .  
 
 ## <a name="see-also"></a>Zie ook  
  [Werkstromen maken](across-how-to-create-workflows.md)   

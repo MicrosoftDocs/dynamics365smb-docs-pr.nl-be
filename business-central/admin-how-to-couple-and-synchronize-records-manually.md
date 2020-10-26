@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fdc407ef26d238ba54a2566cdd9003c29da2eeb3
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: d8140f71709208a271eff5c8de415b0e95736072
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196675"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911417"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Records handmatig koppelen en synchroniseren
 In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[d365fin](includes/d365fin_md.md)] koppelt aan records in Common Data Service of [!INCLUDE[crm_md](includes/crm_md.md)]. Door records te koppelen kunt u Common Data Service-informatie vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]bekijken en andersom. Door de koppeling kunt u ook gegevens synchroniseren tussen de records. U kunt bestaande records koppelen of nieuwe records maken en koppelen.
 
 > [!Note]
-> Gegevens koppelen en synchroniseren is alleen beschikbaar als de systeembeheerder een verbinding tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Common Data Service of [!INCLUDE[crm_md](includes/crm_md.md)] heeft gemaakt. Een snelle manier om dat te controleren is de **Klant**-kaart te openen en de actie **Koppeling instellen** te zoeken. Als de actie beschikbaar is, zijn de apps verbonden.   
+> Gegevens koppelen en synchroniseren is alleen beschikbaar als de systeembeheerder een verbinding tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en Common Data Service of [!INCLUDE[crm_md](includes/crm_md.md)] heeft gemaakt. Een snelle manier om dat te controleren is de **Klant** -kaart te openen en de actie **Koppeling instellen** te zoeken. Als de actie beschikbaar is, zijn de apps verbonden.   
 
 ## <a name="video-example"></a>Videovoorbeeld
 
@@ -34,13 +34,13 @@ In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[d365fin
 
     U kunt ook slechts de lijstpagina openen en de record selecteren die u wilt koppelen.  
 
-2.  Kies de actie **Koppeling instellen**.  
-3.  Vul de velden in en kies de knop **OK**.  
+2.  Kies de actie **Koppeling instellen** .  
+3.  Vul de velden in en kies de knop **OK** .  
 
 ## <a name="to-synchronize-a-single-record"></a>Eén record synchroniseren  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)] opent u de kaart voor de record die moeten worden gekoppeld. Bijvoorbeeld de klant- of contactkaart.  
-2.  Kies de actie **Nu synchroniseren**.  
-3.  Als een record in één richting kan worden gesynchroniseerd, selecteert u de optie die de richting van de gegevensupdate opgeeft, en kiest u vervolgens **OK**.  
+2.  Kies de actie **Nu synchroniseren** .  
+3.  Als een record in één richting kan worden gesynchroniseerd, selecteert u de optie die de richting van de gegevensupdate opgeeft, en kiest u vervolgens **OK** .  
 
 ## <a name="to-synchronize-a-single-record-from-crm_md"></a>Eén record synchroniseren vanuit [!INCLUDE[crm_md](includes/crm_md.md)]  
 1.  In [!INCLUDE[crm_md](includes/crm_md.md)] opent u het formulier voor de record die u wilt koppelen. Bijvoorbeeld het formulier Accountkaart of Contactkaart.  
@@ -51,8 +51,8 @@ In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[d365fin
 
 ## <a name="to-synchronize-multiple-records"></a>Meerdere records synchroniseren  
 1.  Open in [!INCLUDE[d365fin](includes/d365fin_md.md)] de lijstpagina voor de record, zoals lijstpagina Klanten of Contact.  
-2.  Selecteer de records die u wilt synchroniseren en kies vervolgens de actie **Nu synchroniseren**.  
-3.  Als records in één richting kunnen worden gesynchroniseerd, selecteert u de optie die de richting opgeeft, en kiest u vervolgens **OK**.  
+2.  Selecteer de records die u wilt synchroniseren en kies vervolgens de actie **Nu synchroniseren** .  
+3.  Als records in één richting kunnen worden gesynchroniseerd, selecteert u de optie die de richting opgeeft, en kiest u vervolgens **OK** .  
 
 ## <a name="see-also"></a>Zie ook  
 [Microsoft Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)

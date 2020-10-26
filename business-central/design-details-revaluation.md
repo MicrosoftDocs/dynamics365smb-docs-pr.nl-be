@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb3357d2d102dceba9896731c651174a4962bab6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787258"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911017"
 ---
 # <a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
 U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.  
@@ -41,7 +41,7 @@ In het volgende voorbeeld ziet u wanneer een OHW-artikel evolueert om deel van d
 
 ![OHW-voorraad en -herwaardering](media/design_details_inventory_costing_10_revaluation_wip.png "OHW-voorraad en -herwaardering")  
 
-**1A**: De gebruiker boekt de ingekochte schakels als ontvangen. De volgende tabel toont de resulterende artikelpost.  
+**1A** : De gebruiker boekt de ingekochte schakels als ontvangen. De volgende tabel toont de resulterende artikelpost.  
 
 |Boekingsdatum|Artikel|Boekingssoort|Aantal|Volgnummer|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ In het volgende voorbeeld ziet u wanneer een OHW-artikel evolueert om deel van d
 > [!NOTE]  
 >  Nu is een artikel dat de waarderingsmethode Standaard gebruikt, beschikbaar voor herwaardering.  
 
-**1W**: De gebruiker boekt de ingekochte schakels als gefactureerd en de schakels worden onderdeel van de voorraad, vanuit een financieel oogpunt. De volgende tabel toont de twee soorten resulterende waardeposten.  
+**1W** : De gebruiker boekt de ingekochte schakels als gefactureerd en de schakels worden onderdeel van de voorraad, vanuit een financieel oogpunt. De volgende tabel toont de twee soorten resulterende waardeposten.  
 
 |Boekingsdatum|Boekingssoort|Waarderingsdatum|Tot. werk. kosten|Artikelpostnr.|Volgnummer|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15-01-20|Directe kosten|01-01-20|150,00|1|1|  
 
- **2A + 2W**: De gebruiker boekt de ingekochte schakels als verbruikt voor de productie van de ijzeren ketting. Vanuit een financieel oogpunt worden de koppelingen een deel van OHW-voorraad.  De volgende tabel toont de resulterende artikelpost.  
+ **2A + 2W** : De gebruiker boekt de ingekochte schakels als verbruikt voor de productie van de ijzeren ketting. Vanuit een financieel oogpunt worden de koppelingen een deel van OHW-voorraad.  De volgende tabel toont de resulterende artikelpost.  
 
 |Boekingsdatum|Artikel|Boekingssoort|Aantal|Volgnummer|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,7 +70,7 @@ De volgende tabel toont de resulterende waardepost.
 
 De waarderingsdatum wordt ingesteld op de datum van de verbruikboeking (01-02-20), als reguliere negatieve voorraadmutatie.  
 
-**3A**: De gebruiker boekt de ketting als output en beëindigt de productieorder. De volgende tabel toont de resulterende artikelpost.  
+**3A** : De gebruiker boekt de ketting als output en beëindigt de productieorder. De volgende tabel toont de resulterende artikelpost.  
 
 |Boekingsdatum|Artikel|Boekingssoort|Aantal|Postnr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -92,9 +92,9 @@ Het herwaardeerbare aantal XE "Herwaardeerbaar aantal" XE "Aantal;Herwaardeerbaa
 
 Bij de berekening van het herwaardeerbare aantal voor artikelen met de waarderingsmethode Standaard, worden artikelposten die nog niet volledig zijn gefactureerd, meegenomen in de berekening. Deze posten worden vervolgens bijgewerkt wanneer u de herwaardering boekt. Wanneer u de geherwaardeerde post factureert, worden de volgende waardeposten gemaakt:  
 
--   De gebruikelijke gefactureerde waardepost met de boekingssoort **Directe kosten**. Het kostenbedrag van deze post is de directe kosten van de bronregel.  
--   Een waardepost met de boekingssoort **Verschil**. Met deze post wordt het verschil tussen de gefactureerde kosten en de geherwaardeerde vaste verrekenprijs vastgelegd.  
--   Een waardepost met de boekingssoort **Herwaardering**. Met deze post wordt de tegenboeking van de herwaardering van de verwachte kosten vastgelegd.  
+-   De gebruikelijke gefactureerde waardepost met de boekingssoort **Directe kosten** . Het kostenbedrag van deze post is de directe kosten van de bronregel.  
+-   Een waardepost met de boekingssoort **Verschil** . Met deze post wordt het verschil tussen de gefactureerde kosten en de geherwaardeerde vaste verrekenprijs vastgelegd.  
+-   Een waardepost met de boekingssoort **Herwaardering** . Met deze post wordt de tegenboeking van de herwaardering van de verwachte kosten vastgelegd.  
 
 ### <a name="example"></a>Opmerking  
 Het volgende voorbeeld, dat is gebaseerd op de productie van de ketting in het vorige voorbeeld, laat zien hoe de drie soorten posten worden gemaakt. Het is gebaseerd op het volgende scenario:  
@@ -103,7 +103,7 @@ Het volgende voorbeeld, dat is gebaseerd op de productie van de ketting in het v
 2.  De gebruiker boekt vervolgens een herwaardering van de schakels met een nieuwe kostprijs van LV 3,00, waarmee de vaste verrekenprijs wordt bijgewerkt naar LV 3,00.  
 3.  De gebruiker boekt de oorspronkelijke inkoop van de schakels als gefactureerd. Dit levert dan het volgende op:  
 
-    1.  Een gefactureerde waardepost met de boekingssoort **Directe kosten**.  
+    1.  Een gefactureerde waardepost met de boekingssoort **Directe kosten** .  
     2.  Een waardepost met de boekingssoort **Herwaardering** om de tegenboeking vast te leggen van de herwaardering van de verwachte kosten.  
     3.  Een waardepost met de boekingssoort Verschil, waarmee het verschil wordt vastgelegd tussen de gefactureerde kosten en de geherwaardeerde standaardkosten.  
 De volgende tabel toont de twee soorten resulterende waardeposten.  

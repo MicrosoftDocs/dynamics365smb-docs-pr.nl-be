@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479ad10ee6bd10d123202749c1cc934bc67493af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c71184f1894fb5503211b87595744e52c361862d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779648"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920334"
 ---
 # <a name="find-your-warehouse-assignments"></a>Magazijntoewijzingen zoeken
 Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>U kunt als volgt zoeken naar een instructie die aan u is toegewezen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag**, **Magazijnpicks** of **Magazijnverplaatsing** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag** , **Magazijnpicks** of **Magazijnverplaatsing** in en kies vervolgens de gerelateerde koppeling.
 
     Op alle drie de pagina's worden toewijzingen voor alle magazijnvestigingen weergegeven.  
 
 2. Sorteer de artikelen op locatie. Nu kunt u de instructies zien die aan u zijn toegewezen.  
-3. Selecteer een van de regels met uw initialen in het veld **Toegewezen gebruikers-id** en klik vervolgens op de knop **OK**. De opslagtoewijzing wordt vervolgens op de pagina weergegeven met uw initialen in het veld **Toegewezen gebruikers-id** op het sneltabblad **Algemeen**.  
+3. Selecteer een van de regels met uw initialen in het veld **Toegewezen gebruikers-id** en klik vervolgens op de knop **OK** . De opslagtoewijzing wordt vervolgens op de pagina weergegeven met uw initialen in het veld **Toegewezen gebruikers-id** op het sneltabblad **Algemeen** .  
 
 Als de manager geen specifieke instructies toewijst aan individuele werknemers, kunt u een instructie met het veld **Toegewezen gebruikers-id** op de kop aan uzelf toewijzen. Voordat u begint te werken aan een instructie, moet u uw gebruikers-id op de kop invoeren. Uw collega's kunnen dan met andere instructies aan de slag gaan en u voorkomt dat instructies dubbel worden uitgevoerd.  
 

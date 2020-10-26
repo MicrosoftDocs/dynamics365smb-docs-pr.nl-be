@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9984d61e97ff6c04733bd10818deb1d6cf57a66c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783638"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915781"
 ---
 # <a name="create-journal-opening-balances"></a>Beginsaldi van dagboeken maken
 
@@ -34,13 +34,13 @@ Voordat u begint, moet u ervoor zorgen dat u de rolcentrumpagina Beheer gebruikt
 2. Open het configuratiewerkblad en importeer bestaande gegevens over klanten, artikelen, leveranciers en het grootboek. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
     Nu beschikt u over hoofdgegevens. Vervolgens voegt u de beginsaldi toe. De volgende stappen beschrijven hoe u dagboekregels voor grootboekrekeningen maakt, maar hetzelfde geldt voor het maken van dagboekregels voor klanten, leveranciers en artikelen.  
-3. Kies de actie **Grootboekrekeningregels maken**.  
+3. Kies de actie **Grootboekrekeningregels maken** .  
 4. Vul het sneltabblad **Opties** in en stel zo nodig filters in. Voer bijvoorbeeld in het veld **Dagboeksjabloon** een naam in.  
-5. Kies de knop **OK**. De records bevinden zich nu in het dagboek, maar de bedragen zijn leeg.  
+5. Kies de knop **OK** . De records bevinden zich nu in het dagboek, maar de bedragen zijn leeg.  
 6. Exporteer de dagboektabel naar Excel en voer handmatig de gegevens voor boeking en tegenrekening in vanuit de oude gegevens.
 7. Importeer en pas de tabelgegevens toe op het nieuwe bedrijf. De dagboekregels zijn gereed om te worden geboekt.  
-8. Selecteer op het configuratiewerkblad de dagboekregeltabel en kies de actie **Databasegegevens**.  
-9. Controleer de informatie en kies de actie **Boeken**.  
+8. Selecteer op het configuratiewerkblad de dagboekregeltabel en kies de actie **Databasegegevens** .  
+9. Controleer de informatie en kies de actie **Boeken** .  
 10. Herhaal de stappen voor het importeren en boeken van andere beginsaldi.  
 
 > [!TIP]

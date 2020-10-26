@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f0d7f5af6750eba3622ca697f81eb0804f6be16
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917688"
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
 XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
@@ -30,7 +30,7 @@ XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde
  [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt het bedrijven mogelijk gegevens in XBRL te implementeren en te profiteren van de hierdoor mogelijk gemaakte flexibiliteit en automatisering voor het verzamelen en delen van gegevens.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is een op XML gebaseerde taal voor financiële verslaglegging. XBRL biedt een standaardindeling waarmee een uniforme rapportage mogelijk wordt voor alle gebruikers die betrokken zijn bij de financiële gegevensstroom, zoals overheidsbedrijven en particuliere bedrijven, accountants, regelgevende instanties, analisten, investeringsmaatschappijen, de kapitaalmarkt en financiers, alsmede belangrijke derden zoals softwareontwikkelaars en gegevensbanken.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) is een op XML gebaseerde taal voor financiële verslaglegging. XBRL biedt een standaardindeling waarmee een uniforme rapportage mogelijk wordt voor alle gebruikers die betrokken zijn bij de financiële gegevensstroom, zoals overheidsbedrijven en particuliere bedrijven, accountants, regelgevende instanties, analisten, investeringsmaatschappijen, de kapitaalmarkt en financiers, alsmede belangrijke derden zoals softwareontwikkelaars en gegevensbanken.  
 
 De taxonomieën worden beheerd door www.xbrl.org. Op deze website kunt u taxonomieën downloaden en meer informatie over XBRL lezen.  
 
@@ -68,14 +68,14 @@ U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
 2.  Selecteer op de pagina **XBRL-taxonomieën** een taxonomie uit de lijst.  
-3.  Kies de actie **Regels**.  
+3.  Kies de actie **Regels** .  
 4.  Selecteer een regel en vul de velden in.   
 5.  Kies de actie **Informatie** voor meer informatie over wat u moet invullen.  
-6.  Om de koppeling tussen de grootboekrekeningen in het rekeningschema en de XBRL-regels in te stellen, kiest u de actie **Grootboekkoppelingsregels**.  
-7.  Als u notities aan het financieel overzicht wilt toevoegen, kiest u de actie **Notities**.  
+6.  Om de koppeling tussen de grootboekrekeningen in het rekeningschema en de XBRL-regels in te stellen, kiest u de actie **Grootboekkoppelingsregels** .  
+7.  Als u notities aan het financieel overzicht wilt toevoegen, kiest u de actie **Notities** .  
 
 > [!NOTE]  
->  U kunt alleen gegevens (inclusief omschrijving en notities) exporteren die overeenkomen met het bronsoort dat u hebt geselecteerd in het veld **Bronsoort**.  
+>  U kunt alleen gegevens (inclusief omschrijving en notities) exporteren die overeenkomen met het bronsoort dat u hebt geselecteerd in het veld **Bronsoort** .  
 
 > [!NOTE]  
 >  U kunt niet-relevante regels markeren met het regelsoort **NOT APPLICABLE** (niet van toepassing) zodat ze niet worden geëxporteerd.
@@ -86,8 +86,8 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
 2.  Maak op de pagina **XBRL-taxonomieën** een nieuwe regel en voer de naam en de omschrijving van de taxonomie in.  
 3.  Kies de actie **Schema's** en voeg de omschrijving van het schema in.  
-4.  Om het schema te importeren, kiest u op de pagina **XBRL-schema's** de actie **Importeren** en selecteert u een map en een XSD-bestand. Kies de knop **Openen**.  
-5.  Om de linkbase te importeren, kiest u op de pagina **XBRL-schema's** de actie **Linkbases** en selecteert u een map en een XML-bestand. Kies de knop **Openen**.  
+4.  Om het schema te importeren, kiest u op de pagina **XBRL-schema's** de actie **Importeren** en selecteert u een map en een XSD-bestand. Kies de knop **Openen** .  
+5.  Om de linkbase te importeren, kiest u op de pagina **XBRL-schema's** de actie **Linkbases** en selecteert u een map en een XML-bestand. Kies de knop **Openen** .  
 6.  U kunt de linkbase nu op het stelsel toepassen. Doe hetzelfde om de overige linkbases te importeren.  
 7. Kies de actie **Op taxonomie toepassen** om de linkbase op het schema toe te passen.  
 
@@ -98,8 +98,8 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerken. De reden voor de update kan een gewijzigd schema, een gewijzigde linkbase of een nieuwe linkbase zijn. Nadat u de taxonomie hebt bijgewerkt, moet u alleen nog de regels koppelen voor de gewijzigde of nieuwe regels.  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
-2.  Kies op de pagina **XBRL-taxonomieën** de actie **Schema's**.  
-3.  Werk een schema bij door het schema te selecteren dat u wilt bijwerken en kies de actie **Importeren**.  
+2.  Kies op de pagina **XBRL-taxonomieën** de actie **Schema's** .  
+3.  Werk een schema bij door het schema te selecteren dat u wilt bijwerken en kies de actie **Importeren** .  
 4.  Kies de actie **Linkbases** voor het bijwerken of toevoegen van een nieuwe linkbase.  
 5.  Selecteer de betreffende linkbase of druk op Ctrl+N voor een nieuwe regel, selecteer het soort linkbase en voer een omschrijving in.  
 6.  U importeert de linkbase door de actie **Importeren** te kiezen.  

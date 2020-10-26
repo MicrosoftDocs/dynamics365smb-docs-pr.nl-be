@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da7eedc909425b9f09da8d68c1b697974ec8fba4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910042"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Artikelen opslaan met magazijnopslag
 Wanneer voor de vestiging magazijnopslag- en -ontvangstverwerking is vereist, beheert u de opslag van artikelen met de functie voor magazijnopslagdocumenten.  
@@ -38,7 +38,7 @@ Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag** in en kies de desbetreffende koppeling.
     Als er opslaginstructies zijn gemaakt, wordt er een magazijnopslag weergegeven.  
 2.  Open de magazijnopslag waaraan u wilt werken.  
-3.  Als voor het magazijn een gebruikers-id is vereist, voert u deze eerst in op het sneltabblad **Algemeen**. Daarna kunt u de gewenste opslag bewerken.  
+3.  Als voor het magazijn een gebruikers-id is vereist, voert u deze eerst in op het sneltabblad **Algemeen** . Daarna kunt u de gewenste opslag bewerken.  
 4.  Voer de Nemen- en Plaatsen-acties uit in het veld **Actiesoort** op de regels.  
 
     Elke ontvangstregel is in de magazijnopslag omgezet in ten minste twee regels:  
@@ -46,11 +46,11 @@ Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit 
     -   De eerste regel met **Nemen** in het veld **actiesoort** geeft aan waar de artikelen zich in het ontvangstgebied bevinden. U kunt de zone en de opslaglocatie op deze regel niet wijzigen.  
     -   De volgende regel met **Plaatsen als** in het veld **actiesoort** geeft aan waar u de artikelen in de magazijnopslag moet plaatsen. Als er een groot aantal artikelen via één ontvangstregel het magazijn is binnengekomen, moeten de artikelen mogelijk op verschillende opslaglocaties worden opgeslagen en wordt er een Plaatsen-regel voor elke opslaglocatie weergegeven.  
 
-        Als de Nemen- en Plaatsen-regels op de ontvangstregels niet opeenvolgend worden weergegeven, kunt u de regels sorteren door **Artikel** te selecteren in het veld **Sorteringsmethode** op het sneltabblad **Algemeen**.  
+        Als de Nemen- en Plaatsen-regels op de ontvangstregels niet opeenvolgend worden weergegeven, kunt u de regels sorteren door **Artikel** te selecteren in het veld **Sorteringsmethode** op het sneltabblad **Algemeen** .  
 
         Als de fysieke indeling van het magazijn en de rangorde van opslaglocaties met elkaar overeenkomen, kunt u de sorteermethode **Opslaglocatievolgorde** gebruiken om een opslag voor te bereiden waarin uw rondgang door het magazijn zo efficiënt mogelijk verloopt.  
 
-5.  Als u alle artikelen volgens de instructies op de opslaglocaties hebt geplaatst, kiest u de actie **Opslag registreren**.  
+5.  Als u alle artikelen volgens de instructies op de opslaglocaties hebt geplaatst, kiest u de actie **Opslag registreren** .  
 
 Op locaties die zijn ingesteld voor gestuurde opslag en pick, zijn de volgende instellingen vereisten voor bovenstaande procedure:  
 
@@ -65,12 +65,12 @@ De opslaglocatievolgorde wordt gebruikt wanneer meerdere opslaglocaties voldoen 
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte magazijnontvangsten** in en kies de desbetreffende koppeling.  
 2.  Selecteer een geboekte ontvangst die mogelijk moet worden opgeslagen.  
-3.  Kies de actie **Kaart**.  
+3.  Kies de actie **Kaart** .  
 
     Als het veld **Documentstatus** leeg is, is de ontvangst nog niet opgeslagen. Anders geeft het veld aan dat de ontvangst gedeeltelijk opslaan of volledig opslaan betreft.  
 
-4.  Als de ontvangst gedeeltelijk is opgeslagen of nog niet is opgeslagen, kiest u de actie **Opslag maken**.  
-5.  Vul de aanvraagpagina voor de batchverwerking in om de opslaginstructies te maken en klik op **OK**.   
+4.  Als de ontvangst gedeeltelijk is opgeslagen of nog niet is opgeslagen, kiest u de actie **Opslag maken** .  
+5.  Vul de aanvraagpagina voor de batchverwerking in om de opslaginstructies te maken en klik op **OK** .   
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

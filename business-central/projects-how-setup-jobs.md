@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527972"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915347"
 ---
 # <a name="set-up-jobs"></a>Projecten instellen
 
@@ -30,12 +30,12 @@ Voor elk project kunt u afzonderlijke projectkaarten opgeven met informatie over
 
 ### <a name="to-set-up-job-usage-tracking"></a>Bijhouden van projectgebruik instellen
 
-Als u een project uitvoert, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
+Als u een project uitvoert, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel **Budget** , maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
 Als u het veld **Gebruikslink standaard toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
 
 > [!TIP]  
-> U kunt tracking van projectgebruik in- of uitschakelen voor een bepaald project. De waarde van het veld **Gebruikslink toepassen** op de individuele projectkaart heeft voorrang op de instelling op de pagina **Projectinstellingen**.  
+> U kunt tracking van projectgebruik in- of uitschakelen voor een bepaald project. De waarde van het veld **Gebruikslink toepassen** op de individuele projectkaart heeft voorrang op de instelling op de pagina **Projectinstellingen** .  
 
 Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld en het soort projectplanningsregel **Factureerbaar** is, wordt een projectplanningsregel van het soort **Budget** gemaakt nadat u een projectdagboekregel hebt geboekt.
 
@@ -48,27 +48,27 @@ Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld e
 2. Schakel het selectievakje **Gebruikslink standaard toepassen** in.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
-U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project**.
+U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project** .
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Resource**.
+2. Selecteer het betreffende project en kies vervolgens de actie **Resource** .
 3. Vul op de pagina **Resourceprijzen project** indien nodig de velden in.
 
-De optionele informatie in de velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor** wordt gebruikt op de projectplanningsregels en in de gebruiksdagboeken wanneer deze resource wordt ingevoerd en wordt toegevoegd aan het project.  
+De optionele informatie in de velden **Projecttaaknr.** , **Werksoort** , **Valutacode** , **Regelkorting %** en **Kostprijsfactor** wordt gebruikt op de projectplanningsregels en in de gebruiksdagboeken wanneer deze resource wordt ingevoerd en wordt toegevoegd aan het project.  
 
 De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd.  
 
 > [!NOTE]  
->   Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.
+>   Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs** .
 
 ## <a name="to-set-up-prices-for-job-items"></a>Prijzen instellen voor projectartikelen
-U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor de pagina **Artikelprijzen project**.
+U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor de pagina **Artikelprijzen project** .
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Artikel**.
+2. Selecteer het betreffende project en kies vervolgens de actie **Artikel** .
 3. Vul op de pagina **Artikelprijzen project** indien nodig de velden in.
 
-De optionele informatie in de velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer dit artikel wordt ingevoerd of wordt toegevoegd aan het project.  
+De optionele informatie in de velden **Projecttaaknr.** , **Valutacode** en **Regelkorting %** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer dit artikel wordt ingevoerd of wordt toegevoegd aan het project.  
 
 De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd.  
 
@@ -76,13 +76,13 @@ De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplan
 >   Deze prijs komt altijd in de plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Prijzen instellen voor GB-rekeningen voor een project
-U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U gebruikt hiervoor de pagina **GB-rekeningprijzen project**.
+U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U gebruikt hiervoor de pagina **GB-rekeningprijzen project** .
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening**.  
+2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening** .  
 3. Vul op de pagina **GB-rekeningprijzen project** indien nodig de velden in.
 
-De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project.  
+De optionele informatie in de velden **Projecttaaknr.** , **Valutacode** , **Regelkorting %** , **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project.  
 
 De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.
 

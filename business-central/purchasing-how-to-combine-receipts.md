@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70433ce496c79edcd053ae345b3b0559cf60b744
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: df36e96ce30193344d8c8d92679c16ee9255e658
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782911"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918850"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Ontvangsten combineren op één factuur
 
@@ -31,8 +31,8 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 ## <a name="to-combine-receipts"></a>Ontvangsten combineren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
-3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen**.  
+2. Kies de actie **Nieuw** . Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
+3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen** .  
 4. Selecteer meerdere ontvangstregels die u wilt opnemen in de factuur.  
 
     Als een onjuiste ontvangstregel is geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de inkoopfactuur gewoon verwijderen en vervolgens de functie **Ontvangstregels ophalen** opnieuw gebruiken.  
@@ -42,7 +42,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde inkooporders verwijderen** in en selecteer de desbetreffende koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Kies de knop **OK**.  
+3. Kies de knop **OK** .  
 
 U kunt de afzonderlijke orders ook handmatig verwijderen.
 

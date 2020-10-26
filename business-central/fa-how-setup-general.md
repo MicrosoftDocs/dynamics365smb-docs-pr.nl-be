@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57e0bef687225ff6a510aa54ec1c5c938ea96ab4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184304"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920659"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.
@@ -29,7 +29,7 @@ U definieert het algemene gedrag of de functionaliteit voor vaste activa en stel
 Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Posten voor deze boekingsgroepen worden naar dezelfde grootboekrekeningen geboekt.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**.
+2. Kies de actie **Nieuw** .
 3. Vul indien nodig de velden op de pagina **VA-boekingsgroep** in.
 
     > [!NOTE]  
@@ -60,7 +60,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjab
 U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke dagboeksjabloon zijn. Werknemers kunnen bijvoorbeeld hun eigen dagboekbatch hebben, waarbij de initialen van de werknemer als batchnaam worden gebruikt. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeksjablonen** in en kies de gerelateerde koppeling.  
-2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
+2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches** .
 3. Vul op de pagina **VA-dagboekbatches** indien nodig de velden in.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Herindelingsdagboeksjablonen voor vaste activa instellen
@@ -73,7 +73,7 @@ U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet ve
 U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke herindelingsdagboeksjabloon zijn. Werknemers kunnen bijvoorbeeld hun eigen herindelingsdagboekbatch hebben, waarbij de initialen van de werknemer als herindelingsbatchnaam worden gebruikt. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-herindelingsdagboeksjablonen** in en kies de gerelateerde koppeling.  
-2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
+2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches** .
 3. Vul op de pagina **VA-herindelingsdagboekbatches** indien nodig de velden in.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Categorieën voor vaste activa instellen

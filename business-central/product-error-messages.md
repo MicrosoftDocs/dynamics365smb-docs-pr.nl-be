@@ -4,14 +4,14 @@ description: Leer hoe u problemen kunt oplossen en oplossingen kunt vinden voor 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62a60610b565cc37c812023dd2bea08c3f5c8834
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 6e261b1ec22f24638b29ec28531008362475a484
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611733"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916638"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Waarschuwingen en foutmeldingen in Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Tijdens uw werkdag ziet u mogelijk meldingen in [!INCLUDE [prodshort](includes/p
 
 ## <a name="in-product-user-assistance"></a>Gebruikersassistentie in het product
 
-De standaardversie van [!INCLUDE [prodshort](includes/prodshort.md)] bevat beschrijvingen voor de meeste velden, kolommen en acties die toegankelijk zijn wanneer u de naam kiest. In combinatie met beschrijvende bijschriften en instructietekst vormt deze knopinfo, of toelichtingen, onze huidige implementatie van *ingebouwde gebruikersondersteuning*, wat een belangrijk principe is in de huidige wereld van softwareontwerp.  
+De standaardversie van [!INCLUDE [prodshort](includes/prodshort.md)] bevat beschrijvingen voor de meeste velden, kolommen en acties die toegankelijk zijn wanneer u de naam kiest. In combinatie met beschrijvende bijschriften en instructietekst vormt deze knopinfo, of toelichtingen, onze huidige implementatie van *ingebouwde gebruikersondersteuning* , wat een belangrijk principe is in de huidige wereld van softwareontwerp.  
 
 Als u een vraag hebt over een veld of een ander element van de gebruikersinterface, kies dan de naam en er verschijnt een korte beschrijving. Kies de koppeling *Meer informatie* als dat niet genoeg is.  
 
@@ -27,7 +27,7 @@ Zie voor meer informatie [Dynamics 365 Business Central-model voor gebruikersond
 
 ## <a name="help-and-support-page"></a>Pagina Help en ondersteuning
 
-In [!INCLUDE[prodshort](includes/prodshort.md)] geeft de menuoptie Help (het vraagteken in de rechterbovenhoek) u toegang tot de pagina **Help en ondersteuning**, waar u koppelingen vindt naar resources die u kunnen helpen antwoorden op uw vragen te vinden. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
+In [!INCLUDE[prodshort](includes/prodshort.md)] geeft de menuoptie Help (het vraagteken in de rechterbovenhoek) u toegang tot de pagina **Help en ondersteuning** , waar u koppelingen vindt naar resources die u kunnen helpen antwoorden op uw vragen te vinden. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
 
 ## <a name="help-others"></a>Anderen helpen
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786908"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912583"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 
@@ -32,7 +32,7 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Sorteervolgorde
 
-Met de sorteerfunctie krijgt u snel een overzicht van de gegevens. Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.
+Met de sorteerfunctie krijgt u snel een overzicht van de gegevens. Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.** , **Klantboekingsgroep** , **Valutacode** , **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.
 
 Als u een lijst wilt sorteren, kunt u een kolomkoptekst kiezen om te schakelen tussen op- en aflopend, of de pijl-omlaag in de kolomkop kiezen en vervolgens de actie **Oplopend** of **Aflopend** kiezen.  
 
@@ -64,11 +64,11 @@ In de volgende tabel vindt u enkele voorbeelden om aan te geven hoe u de zoekact
 
 |Zoekcriteria|Zoekt…|
 |---------------|----------|
-|`man`<br />of <br />`Man`|Alle records met velden die de tekst **man** bevatten, ongeacht hoofdletters. Bijvoorbeeld **Manchester**, **manual** of **Sportsman**. |
+|`man`<br />of <br />`Man`|Alle records met velden die de tekst **man** bevatten, ongeacht hoofdletters. Bijvoorbeeld **Manchester** , **manual** of **Sportsman** . |
 |`'Man'`|Alle records met velden die alleen **Man** bevatten, ongeacht hoofdletters.|
-|`Man*`|Alle records met velden die beginnen met de tekst <b>Man</b>, met identieke hoofdletters/kleine letters. Bijvoorbeeld **Manchester**, maar niet **manual** of **Sportsman**.|
-|`@Man*`|Alle records met velden die beginnen met **man**, ongeacht hoofdletters. Bijvoorbeeld **Manchester** en **manual**, maar niet **Sportsman**.|
-|`@*man`|Alle records met velden die eindigen met **man**, ongeacht hoofdletters. Bijvoorbeeld **Sportsman**, maar niet **Manchester** of **manual**.|
+|`Man*`|Alle records met velden die beginnen met de tekst <b>Man</b>, met identieke hoofdletters/kleine letters. Bijvoorbeeld **Manchester** , maar niet **manual** of **Sportsman** .|
+|`@Man*`|Alle records met velden die beginnen met **man** , ongeacht hoofdletters. Bijvoorbeeld **Manchester** en **manual** , maar niet **Sportsman** .|
+|`@*man`|Alle records met velden die eindigen met **man** , ongeacht hoofdletters. Bijvoorbeeld **Sportsman** , maar niet **Manchester** of **manual** .|
 
 > [!TIP]
 > U kunt op **F3** drukken om het zoekvak te activeren en te deactiveren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
@@ -93,45 +93,45 @@ Voor lijsten worden de filters weergegeven in een filtervenster dat links van de
 
 Voor 'gewone' velden die gegevens, instellingsdatum of bedrijfsgegevens bevatten, kunt u filters instellen door gegevens te selecteren en filterwaarden te typen, en u kunt symbolen gebruiken om geavanceerde filtercriteria te definiëren. Zie voor meer informatie [Filtercriteria invoeren](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-Voor velden van het type **Optie** kunt u echter alleen een filter instellen door een of meer opties te selecteren in een vervolgkeuzelijst met beschikbare opties. Een voorbeeld van een optieveld is het veld **Status** op de pagina **Verkooporders**.
+Voor velden van het type **Optie** kunt u echter alleen een filter instellen door een of meer opties te selecteren in een vervolgkeuzelijst met beschikbare opties. Een voorbeeld van een optieveld is het veld **Status** op de pagina **Verkooporders** .
 
 > [!NOTE]
-> Wanneer u meerdere opties als filterwaarde selecteert, wordt de relatie tussen de opties gedefinieerd als *OF*. Als u bijvoorbeeld zowel het selectievakje **Open** als **Vrijgegeven** selecteert in het filterveld **Status** op de pagina **Verkooporders**, betekent dit dat verkooporders die open of vrijgegeven zijn, worden weergegeven.
+> Wanneer u meerdere opties als filterwaarde selecteert, wordt de relatie tussen de opties gedefinieerd als *OF* . Als u bijvoorbeeld zowel het selectievakje **Open** als **Vrijgegeven** selecteert in het filterveld **Status** op de pagina **Verkooporders** , betekent dit dat verkooporders die open of vrijgegeven zijn, worden weergegeven.
 
 ### <a name="setting-filters-on-lists"></a>Filters instellen voor lijsten
 
-In lijsten stelt u filters in met behulp van het filtervenster. Als u het filtervenster voor een lijst wilt weergeven, kiest u de vervolgkeuzepijl naast de naam van de pagina en kiest u vervolgens de actie **Filtervenster weergeven**. U kunt ook drukken op **Shift+F3**.
+In lijsten stelt u filters in met behulp van het filtervenster. Als u het filtervenster voor een lijst wilt weergeven, kiest u de vervolgkeuzepijl naast de naam van de pagina en kiest u vervolgens de actie **Filtervenster weergeven** . U kunt ook drukken op **Shift+F3** .
 
-Als u het filtervenster voor een kolom in een lijst wilt weergeven, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter**. U kunt ook drukken op **Shift+F3**. Het filtervenster wordt geopend met de geselecteerde kolom weergegeven als een filterveld in de sectie **Filter lijst op**.
+Als u het filtervenster voor een kolom in een lijst wilt weergeven, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter** . U kunt ook drukken op **Shift+F3** . Het filtervenster wordt geopend met de geselecteerde kolom weergegeven als een filterveld in de sectie **Filter lijst op** .
 
 Het filterdeelvenster bevat de huidige filters voor een lijst en biedt u de mogelijkheid uw eigen filters in te stellen op een of meer velden door de actie **+ Filter** te kiezen.
 
- Een filterdeelvenster is verdeeld in drie gedeelten: **Weergaven**, **Filter lijst op** en **Filter totalen op**:
+ Een filterdeelvenster is verdeeld in drie gedeelten: **Weergaven** , **Filter lijst op** en **Filter totalen op** :
 
 - **Weergaven**
 
-  Sommige lijsten bevatten het gedeelte **Weergaven**. Weergaven zijn variaties van de lijst die vooraf zijn ingesteld met filters. U kunt per lijst zoveel weergaven definiëren en opslaan als u wilt, en de weergaven zijn voor u beschikbaar op elk apparaat waarop u zich aanmeldt. Zie voor meer informatie [Lijstweergaven opslaan en personaliseren](ui-views.md).
+  Sommige lijsten bevatten het gedeelte **Weergaven** . Weergaven zijn variaties van de lijst die vooraf zijn ingesteld met filters. U kunt per lijst zoveel weergaven definiëren en opslaan als u wilt, en de weergaven zijn voor u beschikbaar op elk apparaat waarop u zich aanmeldt. Zie voor meer informatie [Lijstweergaven opslaan en personaliseren](ui-views.md).
 
 - **Filter lijst op**
 
-  Hier voegt u filters toe aan specifieke velden om het aantal weergegeven records te reduceren. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
+  Hier voegt u filters toe aan specifieke velden om het aantal weergegeven records te reduceren. Als u een filter wilt toevoegen, kiest u de actie **+ Filter** , typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
 - **Filter totalen op**
 
-  Sommige lijsten met berekende velden, zoals bedragen en aantallen, bevatten het gedeelte **Filter totalen op**, waarin u verschillende dimensies kunt aanpassen die van invloed zijn op berekeningen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
+  Sommige lijsten met berekende velden, zoals bedragen en aantallen, bevatten het gedeelte **Filter totalen op** , waarin u verschillende dimensies kunt aanpassen die van invloed zijn op berekeningen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter** , typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
   > [!NOTE]
   > Filters in het gedeelte **Filter totalen op** worden bepaald door FlowFilters in het paginaontwerp. Zie voor technische informatie [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-U kunt een eenvoudig filter rechtstreeks in een lijst instellen met behulp van het filtervenster, namelijk een filter dat alleen records weergeeft met dezelfde waarde als in de geselecteerde cel. Selecteer een cel in de lijst, kies de vervolgkeuzepijl en kies vervolgens de actie **Filteren op deze waarde**. U kunt ook drukken op **Alt+F3**.
+U kunt een eenvoudig filter rechtstreeks in een lijst instellen met behulp van het filtervenster, namelijk een filter dat alleen records weergeeft met dezelfde waarde als in de geselecteerde cel. Selecteer een cel in de lijst, kies de vervolgkeuzepijl en kies vervolgens de actie **Filteren op deze waarde** . U kunt ook drukken op **Alt+F3** .
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Filters instellen in rapporten, batchtaken en XMLports
 
-Voor rapporten, batchtaken en XMLports zijn de filters direct zichtbaar op de aanvraagpagina. De aanvraagpagina toont de laatst gebruikte filters volgens uw selectie in het veld **Standaardwaarden gebruiken uit**. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
+Voor rapporten, batchtaken en XMLports zijn de filters direct zichtbaar op de aanvraagpagina. De aanvraagpagina toont de laatst gebruikte filters volgens uw selectie in het veld **Standaardwaarden gebruiken uit** . Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
-De hoofdsectie **Filter** toont de standaardfiltervelden die u gebruikt om af te bakenen welke records in het rapport of de XMLport moeten worden opgenomen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
+De hoofdsectie **Filter** toont de standaardfiltervelden die u gebruikt om af te bakenen welke records in het rapport of de XMLport moeten worden opgenomen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter** , typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
-In de sectie **Totalen filteren op** kunt u verschillende dimensies aanpassen die van invloed zijn op berekeningen in het rapport of de XMLport. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
+In de sectie **Totalen filteren op** kunt u verschillende dimensies aanpassen die van invloed zijn op berekeningen in het rapport of de XMLport. Als u een filter wilt toevoegen, kiest u de actie **+ Filter** , typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
 ## <a name="entering-filter-criteria"></a>Filtercriteria invoeren
 
@@ -139,7 +139,7 @@ Zowel in het filtervenster als op een aanvraagpagina voert u uw filtercriteria i
 
 Het type filterveld bepaalt welke criteria u kunt invoeren. Als u bijvoorbeeld filtert op een veld dat vaste waarden heeft, kunt u alleen kiezen uit die waarden. Voor meer informatie over speciale filtersymbolen raadpleegt u [Filtercriteria](#FilterCriteria) en [Filtertokens](#FilterTokens)
 
-Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterpictogram](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
+Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterpictogram](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen** .
 
 > [!TIP]
 > Versnel het zoeken en analyseren van uw gegevens met combinaties van toetsenbordsneltoetsen. Selecteer bijvoorbeeld een veld, gebruik **Shift+Alt+F3** om dat veld aan het filterdeelvenster toe te voegen, typ het filtercriterium, gebruik **Ctrl+Enter** om terug te keren naar de rijen, selecteer een ander veld en gebruik **Alt+F3** om op die waarde te filteren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
@@ -149,7 +149,7 @@ Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterp
 U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Daarnaast kunt u speciale symbolen (of operatoren) gebruiken om de resultaten verder te filteren. De volgende tabellen bevatten de symbolen die in filters kunnen worden gebruikt. Voor datums en tijden kunt u ook [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md) raadplegen voor meer gedetailleerde informatie.
 
 > [!IMPORTANT]  
-> Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R*, is de filterexpressie bijvoorbeeld `'S&R*'`.
+> Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R* , is de filterexpressie bijvoorbeeld `'S&R*'`.
 
 In de volgende secties wordt beschreven hoe u de verschillende operatoren kunt gebruiken.
 
@@ -252,7 +252,7 @@ Wanneer u filtercriteria invoert, kunt u ook woorden typen die een speciale bete
 
 #### <a name="me-or-userid-records-assigned-to-you"></a>(%me of %userid) Records die aan u zijn toegewezen
 
-Gebruik `%me` of `%userid` wanneer u velden filtert die de gebruikers-id bevatten, zoals het veld **Toegewezen aan gebruikers-id**, om alle records weer te geven die aan u zijn toegewezen.
+Gebruik `%me` of `%userid` wanneer u velden filtert die de gebruikers-id bevatten, zoals het veld **Toegewezen aan gebruikers-id** , om alle records weer te geven die aan u zijn toegewezen.
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
@@ -260,7 +260,7 @@ Gebruik `%me` of `%userid` wanneer u velden filtert die de gebruikers-id bevatte
 
 #### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Klanten in Mijn klanten
 
-Gebruik `%mycustomers` in het veld klant**nr.** om alle records weer te geven voor klanten die deel uitmaken van de lijst **Mijn klanten** in uw rolcentrum.
+Gebruik `%mycustomers` in het veld klant **nr.** om alle records weer te geven voor klanten die deel uitmaken van de lijst **Mijn klanten** in uw rolcentrum.
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
@@ -268,7 +268,7 @@ Gebruik `%mycustomers` in het veld klant**nr.** om alle records weer te geven vo
 
 #### <a name="myitems-items-in-my-items"></a>(%myitems) Artikelen in Mijn artikelen
 
-Gebruik `%myitems` in het veld artikel**nr.** om alle records weer te geven voor artikelen die deel uitmaken van de lijst **Mijn artikelen** in uw rolcentrum.
+Gebruik `%myitems` in het veld artikel **nr.** om alle records weer te geven voor artikelen die deel uitmaken van de lijst **Mijn artikelen** in uw rolcentrum.
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
@@ -276,7 +276,7 @@ Gebruik `%myitems` in het veld artikel**nr.** om alle records weer te geven voor
 
 #### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Leveranciers in Mijn leveranciers
 
-Gebruik `%myvendors` in het veld leveranciers**nr.** om alle records weer te geven voor leveranciers die deel uitmaken van de lijst **Mijn leveranciers** in uw rolcentrum.
+Gebruik `%myvendors` in het veld leveranciers **nr.** om alle records weer te geven voor leveranciers die deel uitmaken van de lijst **Mijn leveranciers** in uw rolcentrum.
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  

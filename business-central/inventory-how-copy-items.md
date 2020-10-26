@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b60d8f9ede1be72fce5f5dd61afc5398220d2f2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ebba20114f658bd440908d7346d467ae885fbb76
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777703"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920484"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Bestaande items kopiëren om nieuwe items te maken
 
@@ -24,16 +24,16 @@ Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Een bestaand item naar een nieuw item kopiëren.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
-2. Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren**.  
+2. Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren** .  
 
-    Als u de actie **Item kopiëren** niet kunt vinden, kiest u ervoor om meer opties weer te geven en zoekt u de actie vervolgens onder **Acties**, **Functies**.  
+    Als u de actie **Item kopiëren** niet kunt vinden, kiest u ervoor om meer opties weer te geven en zoekt u de actie vervolgens onder **Acties** , **Functies** .  
 
 3. Vul op de pagina **Item kopiëren** de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > U kunt een specifiek itemnummer invoeren in het veld **Doelartikelnr.** dat u het nieuwe item wilt geven. Als alternatief kunt u een bestaande nummerreeks selecteren in het veld **Reeks doelnrs.**. Het nieuwe item krijgt dan het volgende beschikbare nummer in die nummerreeks.  
+    > U kunt een specifiek itemnummer invoeren in het veld **Doelartikelnr.** dat u het nieuwe item wilt geven. Als alternatief kunt u een bestaande nummerreeks selecteren in het veld **Reeks doelnrs.** . Het nieuwe item krijgt dan het volgende beschikbare nummer in die nummerreeks.  
 
-4. Om uw selecties naar het nieuwe item te kopiëren kiest u de knop **OK**.  
+4. Om uw selecties naar het nieuwe item te kopiëren kiest u de knop **OK** .  
 
 ## <a name="see-also"></a>Zie ook
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d53932be1597a96ced906ed7546ce8ff011639e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782480"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912633"
 ---
 # <a name="copy-and-paste-faq"></a>Veelgestelde vragen over kopiëren en plakken
 U kunt een of meer rijen (records) uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail). Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
@@ -38,7 +38,7 @@ Als u één rij wilt kopiëren, selecteert u deze en drukt u op Ctrl+C.
 
 Als u meerdere rijen wilt kopiëren, kunt u:
 - Op Ctrl drukken en op een andere rij klikken of op Shift drukken en klikken om de rij en alle rijen ertussenin te selecteren. Zie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows) voor meer muis- en toetsenbordcombinaties voor het selecteren van rijen.
-- Selecteer ![Meer opties weergeven](media/show-more-options-icon.png "Pictogram Meer opties weergeven") in de eerste kolom, kies **Meer selecteren**, schakel het selectievakje in naast elke rij die u wilt kopiëren, en druk op Ctrl+C.
+- Selecteer ![Meer opties weergeven](media/show-more-options-icon.png "Pictogram Meer opties weergeven") in de eerste kolom, kies **Meer selecteren** , schakel het selectievakje in naast elke rij die u wilt kopiëren, en druk op Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>Hoe plak ik rijen?
 Selecteer een lege rij, met focus in een willekeurige cel, en druk vervolgens op Ctrl + V.

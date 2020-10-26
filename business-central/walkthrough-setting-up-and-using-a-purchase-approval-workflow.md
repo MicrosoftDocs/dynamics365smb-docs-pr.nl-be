@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 25d94f27f1a440342c8e24310b5c853aa832b4db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786658"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910217"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie. Voordat u goedkeuringswerkstromen maakt, moet u eerst een fiatteur en een vervangende fiatteur instellen voor elke goedkeuringsgebruiker. U kunt ook limietbedragen instellen voor fiatteurs om te definiëren welke verkoop- en inkooporders zij mogen goedkeuren. U kunt goedkeuringsverzoeken en andere berichten als e-mail of interne notitie verzenden. Voor elke instelling van een goedkeuringsgebruiker kunt u ook instellen wanneer zij berichten ontvangen.
@@ -47,7 +47,7 @@ Wanneer u bent aangemeld als uzelf, stelt u Alicia in als een goedkeuringsgebrui
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Uzelf en Alicia instellen als goedkeuringsgebruikers  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies de gerelateerde koppeling.  
-2.  Kies op de pagina **Gebruikersinstellingen voor goedkeuring** die wordt geopend, de actie **Nieuw**.  
+2.  Kies op de pagina **Gebruikersinstellingen voor goedkeuring** die wordt geopend, de actie **Nieuw** .  
 
     > [!NOTE]  
     >  U moet een fiatteur instellen voordat u gebruikers kunt instellen die goedkeuring van de fiatteur vereisen. Daarom moet u uzelf instellen voordat u Alicia instelt.  
@@ -63,19 +63,19 @@ Wanneer u bent aangemeld als uzelf, stelt u Alicia in als een goedkeuringsgebrui
 In deze procedure wordt de gebruiker door een interne notitie geïnformeerd over goed te keuren aanvragen. Een goedkeuringsbericht kan ook via e-mail worden verzonden. Zie voor meer informatie [Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Instellen hoe en wanneer u bericht ontvangt  
-1.  Selecteer op de pagina **Gebruikersinstellingen voor goedkeuring** de regel voor uzelf en kies vervolgens de actie **Berichtinstellingen**.  
-2.  Kies op de pagina **Berichtinstellingen** in het veld **Berichttype** de waarde **Goedkeuring**.  
-3.  Kies in het veld **Berichtmethode** de optie **Opmerking**.  
-6.  Kies op de pagina **Berichtinstellingen** de actie **Berichtplanning**.  
-7.  Selecteer op de pagina **Berichtplanning** in het veld **Herhaling** de optie **Meteen**.  
+1.  Selecteer op de pagina **Gebruikersinstellingen voor goedkeuring** de regel voor uzelf en kies vervolgens de actie **Berichtinstellingen** .  
+2.  Kies op de pagina **Berichtinstellingen** in het veld **Berichttype** de waarde **Goedkeuring** .  
+3.  Kies in het veld **Berichtmethode** de optie **Opmerking** .  
+6.  Kies op de pagina **Berichtinstellingen** de actie **Berichtplanning** .  
+7.  Selecteer op de pagina **Berichtplanning** in het veld **Herhaling** de optie **Meteen** .  
 
 ## <a name="creating-the-approval-workflow"></a>De goedkeuringswerkstroom maken  
  Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroomsjabloon Goedkeuringswerkstroom inkooporder te kopiëren. Laat de bestaande werkstroomstappen ongewijzigd en schakel vervolgens de werkstroom in.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Een werkstoorm voor goedkeuring van inkooporders maken en inschakelen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2.  Kies op de pagina **Werkstromen** de actie **Nieuwe werkstroom uit sjabloon**.  
-3.  Selecteer op de pagina **Werkstroomsjablonen** de werkstroomsjabloon genaamd Goedkeuringswerkstroom inkooporder en kies vervolgens de knop **OK**.  
+2.  Kies op de pagina **Werkstromen** de actie **Nieuwe werkstroom uit sjabloon** .  
+3.  Selecteer op de pagina **Werkstroomsjablonen** de werkstroomsjabloon genaamd Goedkeuringswerkstroom inkooporder en kies vervolgens de knop **OK** .  
 
     De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. Aan de waarde in het veld **Code** wordt "- 01" toegevoegd, om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon Goedkeuringswerkstroom inkooporder.  
 5.  Schakel in de koptekst van de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
@@ -86,19 +86,19 @@ Gebruik de nieuwe werkstroom voor goedkeuring van inkooporders door u eerst aan 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Goedkeuring aanvragen voor een inkooporder als Alicia  
 1. Meld u aan als Alicia.
 2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
-3.  Selecteer de regel voor open inkooporder 106001 en kies de actie **Bewerken**.  
-4.  Kies op de pagina **Inkooporder** de actie **Goedkeuringsaanvraag verzenden**.  
+3.  Selecteer de regel voor open inkooporder 106001 en kies de actie **Bewerken** .  
+4.  Kies op de pagina **Inkooporder** de actie **Goedkeuringsaanvraag verzenden** .  
 
-Zoals u ziet is de waarde in het veld **Status** veranderd in **Wacht op goedkeuring**.  
+Zoals u ziet is de waarde in het veld **Status** veranderd in **Wacht op goedkeuring** .  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>De inkooporder goedkeuren, als Sean  
 1. Meld u aan als Sean.
-2. In het gebied **Self-service** van het rolcentrum kiest u de tegel **Aanvragen ter goedkeuring**.
-3. Selecteer op de pagina **Aanvragen ter goedkeuring** de regel over de inkooporder van Alicia en kies de actie **Goedkeuren**.  
+2. In het gebied **Self-service** van het rolcentrum kiest u de tegel **Aanvragen ter goedkeuring** .
+3. Selecteer op de pagina **Aanvragen ter goedkeuring** de regel over de inkooporder van Alicia en kies de actie **Goedkeuren** .  
 
-De waarde in het veld **Status** op de inkooporder van Alicia verandert in **Vrijgegeven**.  
+De waarde in het veld **Status** op de inkooporder van Alicia verandert in **Vrijgegeven** .  
 
-U hebt nu een eenvoudige goedkeuringswerkstroom ingesteld en getest op basis van de eerste twee stappen van de werkstroom Goedkeuringswerkstroom inkooporder. U kunt op eenvoudige wijze deze werkstroom uitbreiden zodat de inkooporder van Alicia automatisch wordt geboekt wanneer Sean deze heeft goedgekeurd. Als u dit wilt doen, moet u de werkstroom Goedkeuringswerkstroom inkooporder inschakelen, waarin het antwoord op een vrijgegeven inkoopfactuur het boeken van deze inkoopfactuur is. Als eerste moet u de gebeurtenisvoorwaarde in de eerste werkstroomstap wijzigen van (inkoop) **Factuur** in **Order**.  
+U hebt nu een eenvoudige goedkeuringswerkstroom ingesteld en getest op basis van de eerste twee stappen van de werkstroom Goedkeuringswerkstroom inkooporder. U kunt op eenvoudige wijze deze werkstroom uitbreiden zodat de inkooporder van Alicia automatisch wordt geboekt wanneer Sean deze heeft goedgekeurd. Als u dit wilt doen, moet u de werkstroom Goedkeuringswerkstroom inkooporder inschakelen, waarin het antwoord op een vrijgegeven inkoopfactuur het boeken van deze inkoopfactuur is. Als eerste moet u de gebeurtenisvoorwaarde in de eerste werkstroomstap wijzigen van (inkoop) **Factuur** in **Order** .  
 
 De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal werkstroomsjablonen voor scenario's die worden ondersteund door de toepassingscode. De meeste hiervan zijn voor goedkeuringswerkstromen.  
 

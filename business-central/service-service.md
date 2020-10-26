@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a7856041b30ebf61284583370cd1c9d81ab9c740
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782630"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913058"
 ---
 # <a name="service-management"></a>CRM - Service
 > [!NOTE]
-> Functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
+> Functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium** -ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
 Het voortdurend kunnen bieden van service aan klanten vormt een belangrijk onderdeel van de activiteiten van elke onderneming en kan de bron vormen van klanttevredenheid en -loyaliteit, en van inkomsten. Het beheren en bijhouden van services kan heel wat voeten in de aarde hebben, maar [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt u een reeks hulpmiddelen waarmee dit gemakkelijker wordt. Deze hulpmiddelen ondersteunen de werkzaamheden in herstelwerkplaatsen en serivcewerkzaamheden op locatie, en kunnen worden toegepast in bedrijfsscenario's die uiteenlopen van complexe distributiesystemen voor klantenservice, industriële serviceomgevingen met stuklijsten en het veelvuldig uitzenden van servicetechnici met vereisten voor het beheer van reserveonderdelen.  
 

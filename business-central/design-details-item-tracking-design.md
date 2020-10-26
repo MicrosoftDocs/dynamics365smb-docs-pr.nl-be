@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1742447287273a1661ccb87056ca93abbbab76b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917438"
 ---
 # <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
 In de eerste versie van Artikeltracering in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 werden serienummers of lotnummers direct geregistreerd in artikelposten. Dit ontwerp bood volledige beschikbaarheidsgegevens en eenvoudige tracering van historische posten, maar het miste flexibiliteit en functionaliteit.  

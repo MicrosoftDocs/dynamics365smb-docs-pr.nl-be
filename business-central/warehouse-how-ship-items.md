@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9beffaa8e881717506d0c471b9e8bfb9feaf3168
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779146"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911933"
 ---
 # <a name="ship-items"></a>Artikelen verzenden
 
@@ -34,8 +34,8 @@ Hieronder wordt beschreven hoe u artikelen verzendt vanuit een verkooporder. De 
 2. Open een bestaande verkooporder of maak een nieuwe. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Voer in het veld **Te verzenden aantal** het aantal in dat u hebt verzonden.
 
-    De waarde in het veld **Verzonden aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke verzending is, is de waarde lager dan de waarde in het veld **Aantal**.
-4. Kies de actie **Boeken**.
+    De waarde in het veld **Verzonden aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke verzending is, is de waarde lager dan de waarde in het veld **Aantal** .
+4. Kies de actie **Boeken** .
 
 > [!NOTE]
 > Als uw organisatie geen verkooporders gebruikt, dan, wanneer u de verkoopfactuur boekt, gaat [!INCLUDE [prodshort](includes/prodshort.md)] ervan uit dat u de volledige hoeveelheid heeft verzonden. Als dit in tegenspraak is met hoe uw organisatie werkt, raden we u aan verkooporders te gebruiken en zendingen te registreren zoals uitgelegd in dit artikel.
@@ -49,7 +49,7 @@ Eerst maakt u een verzendingsdocument op basis van een bedrijfsbrondocument. Ver
 Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is, een magazijnverzending. De volgende procedure beschrijft hoe u de zending handmatig kunt maken in de standaardversie van [!INCLUDE[prodshort](includes/prodshort.md)], maar uw organisatie heeft mogelijk een geautomatiseerd deel van het proces, zoals het gebruik van draagbare of gemonteerde scanners die worden ondersteund door externe providers.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw**.  
+2. Kies de actie **Nieuw** .  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  
 
@@ -57,22 +57,22 @@ Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is, een mag
 
     > [!NOTE]  
     > Als u artikelen wilt verzenden met andere magazijnklassen dan de magazijnklasse van de opslaglocatie in het veld **Opslaglocatie** in de documentkop, moet u de inhoud van het veld **Opslaglocatie** in de kop verwijderen voordat u de brondocumentregels voor de artikelen ophaalt.  
-3. Kies de actie **Brondocumenten ophalen**. De pagina **Brondocumenten** verschijnt.
+3. Kies de actie **Brondocumenten ophalen** . De pagina **Brondocumenten** verschijnt.
 
     U kunt vanuit een nieuwe of geopende magazijnverzending de pagina **Filters om brondoc. op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden verzonden.
 
-    1. Kies de actie **Filters om brondoc. op te halen gebruiken**.  
+    1. Kies de actie **Filters om brondoc. op te halen gebruiken** .  
     2. U stelt een nieuw filter in door een omschrijvende code in te voeren in het veld **Code** en vervolgens de actie **Wijzigen** te kiezen.  
     3. Definieer het soort brondocumentregels dat u wilt ophalen door de relevante filtervelden in te vullen.  
-    4. Kies de actie **Uitvoeren**.  
+    4. Kies de actie **Uitvoeren** .  
 
     Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden nu ingevoegd op de pagina **Mag. -verzending** van waaruit u de filterfunctie hebt geactiveerd.  
 
     De filtercombinaties die u definieert, worden opgeslagen op de pagina **Filters om brondoc. op te halen** tot de volgende keer dat u deze nodig hebt. U kunt een onbeperkt aantal filtercombinaties maken. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
 
-4. Selecteer de brondocumenten waarvoor u artikelen wilt verzenden en klik op **OK**.  
+4. Selecteer de brondocumenten waarvoor u artikelen wilt verzenden en klik op **OK** .  
 
-De regels van de brondocumenten verschijnen op de pagina **Mag. -verzending**. Het veld **Te verzenden aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke verzendregel een opslaglocatie invullen.  
+De regels van de brondocumenten verschijnen op de pagina **Mag. -verzending** . Het veld **Te verzenden aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke verzendregel een opslaglocatie invullen.  
 
 > [!NOTE]  
 > U kunt niet meer artikelen verzenden dan het aantal in het veld **Openstaand aantal** op de brondocumentregel. Als u meer artikelen wilt verzenden, haalt u een ander brondocument op dat een regel voor het item bevat. U gebruikt de filterfunctie om brondocumenten met het artikel op te halen.  
@@ -84,8 +84,8 @@ Als u alle regels voor de verzending hebt, kunt u het proces starten dat deze do
 Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geopend door een magazijnmedewerker die verantwoordelijk is voor pickactiviteiten.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.
-2. Selecteer de magazijnverzending waarvoor u wilt picken en kies de actie **Pick maken**.
-3. Vul de velden op de pagina in en klik vervolgens op de knop **OK**. Het opgegeven magazijnpickdocument wordt gemaakt.
+2. Selecteer de magazijnverzending waarvoor u wilt picken en kies de actie **Pick maken** .
+3. Vul de velden op de pagina in en klik vervolgens op de knop **OK** . Het opgegeven magazijnpickdocument wordt gemaakt.
 
     U kunt ook een bestaande magazijnpick openen.
 4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies de desbetreffende koppeling. Selecteer de magazijnpick waaraan u wilt werken.
@@ -95,7 +95,7 @@ Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geop
     U kunt deze regels sorteren, een werknemer aan de pick toewijzen, een breakbulkfilter instellen als u met gestuurde opslag en pick werkt en de pickinstructies afdrukken.
 
 5. Voer de pick uit en plaats de artikelen in de opgegeven opslaglocatie voor verzending of in de verzendruimte als u niet met opslaglocaties werkt.
-6. Kies de actie **Pick registreren**.
+6. Kies de actie **Pick registreren** .
 
     De velden **Te verzenden aantal** en **Documentstatus** op de kop van het verzenddocument worden bijgewerkt. De gepickte artikelen zijn niet meer beschikbaar voor een andere verzending of voor interne bewerkingen.
 7. Druk de verzenddocumenten af, bereid de zending voor en boek de zending.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e2099599edcf5217b0130e75bbb171fddd39839e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611471"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915147"
 ---
 # <a name="the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse
 
@@ -49,7 +49,7 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365f
 1. Als u de extensie Afbeeldingsanalyse wilt inschakelen, voert u een van de volgende handelingen uit:
 
 * Open een artikel- of contactkaart. Kies op de berichtbalk **Afbeeldingen analyseren** en volg vervolgens de stappen in de begeleide instelling.  
-* Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies **Instelling van afbeeldingsanalyse**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
+* Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies **Instelling van afbeeldingsanalyse** . Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
 
     > [!TIP]  
     > De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
@@ -59,7 +59,7 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365f
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
-2. Kies het artikel en kies vervolgens de actie **Afbeelding analyseren**.  
+2. Kies het artikel en kies vervolgens de actie **Afbeelding analyseren** .  
 3. De pagina **Kenmerken van afbeeldinganalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de opties **Uit te voeren acties** om aan te geven wat er met het kenmerk moet gebeuren.  
 
     > [!TIP]  
@@ -70,7 +70,7 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.  
-2. Kies de contactpersoon en kies vervolgens de actie **Afbeelding analyseren**.  
+2. Kies de contactpersoon en kies vervolgens de actie **Afbeelding analyseren** .  
 3. Op het sneltabblad **Profielvragenlijst** controleert u de voorstellen en maakt u correcties, indien nodig.  
 
 ## <a name="block-suggested-attributes"></a>Voorgestelde attributen blokkeren
@@ -92,11 +92,11 @@ U kunt ook uw eigen account gebruiken voor de Computer Vision-API, bijvoorbeeld 
 U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de huidige periode nog kunt doen.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van afbeeldingsanalyse** in en kies de gerelateerde koppeling.  
-2. De **Limietsoort**, **Limietwaarde** en **Analyses uitgevoerd** bieden de gebruiksinformatie.  
+2. De **Limietsoort** , **Limietwaarde** en **Analyses uitgevoerd** bieden de gebruiksinformatie.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Stoppen met het gebruik van de extensie Afbeeldingsanalyse
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies **Instelling van afbeeldingsanalyse**.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies **Instelling van afbeeldingsanalyse** .  
 2. Schakel het selectievakje **Afbeeldingsanalyse inschakelen** uit.  
 
 ## <a name="see-also"></a>Zie ook

@@ -4,15 +4,15 @@ description: Antwoorden op veelgestelde vragen over hoe u zich aanmeldt voor Bus
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611596"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918113"
 ---
 # <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -59,11 +59,11 @@ Aanvullend materiaal vindt u in de [!INCLUDE[prodshort](includes/prodshort.md)]-
 Zie de secties [Help en ondersteuning](product-help-and-support.md) en [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
-Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
+Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential** , zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
 ## <a name="where-is-the-save-button"></a>Waar is de knop Opslaan?
 
-Er is geen knop *Opslaan* op pagina's zoals in andere programma's waarmee u mogelijk vertrouwd bent. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden wijzigingen die u aanbrengt in een veld, automatisch opgeslagen zodra u naar het volgende veld gaat of de pagina sluit, zo lang er geen fouten zijn. Wanneer u wijzigingen in een veld aanbrengt en naar een ander veld gaat, ziet u de tekst **Opslaan** in de rechterbovenhoek van de pagina, wat snel verandert in **Opgeslagen** als er geen fouten optreden. Als er een fout is opgetreden, wordt de tekst gewijzigd in **Niet opgeslagen**.
+Er is geen knop *Opslaan* op pagina's zoals in andere programma's waarmee u mogelijk vertrouwd bent. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden wijzigingen die u aanbrengt in een veld, automatisch opgeslagen zodra u naar het volgende veld gaat of de pagina sluit, zo lang er geen fouten zijn. Wanneer u wijzigingen in een veld aanbrengt en naar een ander veld gaat, ziet u de tekst **Opslaan** in de rechterbovenhoek van de pagina, wat snel verandert in **Opgeslagen** als er geen fouten optreden. Als er een fout is opgetreden, wordt de tekst gewijzigd in **Niet opgeslagen** .
 
 ## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Voor [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
@@ -72,18 +72,18 @@ Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u ee
 
 Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises wilt gebruiken, kunt u andere verificatiemethoden gebruiken. Zie voor meer informatie [Implementatie van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Moet ik Office 365 aanschaffen?
-Nr. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Office 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Office 365 van een maand [hier](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Moet ik Microsoft 365 aanschaffen?
+Nee. Maar als u [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt uitproberen terwijl het volledig met Microsoft 365 is geïntegreerd, kunt u zich [hier](https://products.office.com/try) aanmelden voor een gratis proefversie van Microsoft 365 van een maand.  
 
-Als het account waarmee u zich aanmeldt, een niet-Office 365-werkaccount is (bijvoorbeeld joe@mysolution.com) en u een Office 365-abonnement hebt, kunt u uw domein (*mysolution.com*) koppelen aan het abonnement op Office 365. Zie voor meer informatie [Hulp krijgen met Office 365-domeinen](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Als het account waarmee u zich aanmeldt, een niet-Microsoft 365-werkaccount is (bijvoorbeeld joe@mysolution.com) en u een Microsoft 365-abonnement hebt, kunt u uw domein ( *mysolution.com* ) koppelen aan het abonnement op Microsoft 365. Zie voor meer informatie [Hulp krijgen met Microsoft 365-domeinen](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Als u geen abonnement op Office 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een Azure Active Directory-tenant, zodat u toegang hebt tot de Azure-portal, waar u gebruik kunt maken van geavanceerde beheertools.  
+Als u geen abonnement op Microsoft 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een Azure Active Directory-tenant, zodat u toegang hebt tot de Azure Portal, waar u gebruik kunt maken van geavanceerde beheertools.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Waar gaat de integratie met Office 365 over?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] online is volledig geïntegreerd met Office 365, zodat u vrij kunt navigeren tussen Office 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>Waar gaat de integratie met Microsoft 365 over?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online is volledig geïntegreerd met Microsoft 365 zodat u vrij kunt navigeren tussen Microsoft 365-toepassingen en [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan ik mijn 'Nieuw bedrijf'-proefperiode van 30 dagen verlengen?
-Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md).
+Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen** , die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md).
 
 > [!NOTE]
 > Het kan maximaal twee werkdagen duren voordat de verlenging van de proefperiode is voltooid.  
@@ -97,7 +97,7 @@ Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw toegewe
 Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunnen uw gegevens worden verwijderd of bewaard. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md) annuleren.  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan ik multifactorverificatie gebruiken?
-Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten te verzenden. App-wachtwoorden geven een app of apparaat toegang tot uw e-mailaccount. De stappen voor het ophalen van een app-wachtwoord variëren, afhankelijk van uw e-mailprovider. Zie de Help van uw provider voor meer informatie. Als u bijvoorbeeld Outlook gebruikt, raadpleegt u [Een app-wachtwoord maken voor Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten te verzenden. App-wachtwoorden geven een app of apparaat toegang tot uw e-mailaccount. De stappen voor het ophalen van een app-wachtwoord variëren, afhankelijk van uw e-mailprovider. Zie de Help van uw provider voor meer informatie. Als u bijvoorbeeld Outlook gebruikt, raadpleegt u [Een app-wachtwoord maken voor Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hoe vind ik een partner-reseller?
 

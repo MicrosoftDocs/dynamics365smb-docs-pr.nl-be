@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458945"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917088"
 ---
 # <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
@@ -24,7 +24,7 @@ Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canades
 
 ## <a name="to-select-a-check-layout"></a>Een cheque-indeling selecteren
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselecties - Bankrekening** in en kies de gerelateerde koppeling.
-2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
+2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque** .
 3. Selecteer een van de volgende rapport-id's.
 
 | Rapport-id | Rapportnaam | Omschrijving |
@@ -34,7 +34,7 @@ Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canades
 | 10412 |Cheque (strook/cheque/strook) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/cheque/strook. |
 | 10413 |Drie cheques per pagina |Dit rapport is ontworpen voor het afdrukken van drie cheques op elke pagina. |
 
-Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit de pagina **Betalingsdagboek**. Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
+Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit de pagina **Betalingsdagboek** . Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
 
 Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de integratie van Word of RDLC om dit te doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 

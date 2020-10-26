@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc25efa746e7dd3282159b13ecea66ec66ac5e82
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e4de0f59788bb49ebaead7a4ee2516ff32147eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785408"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912458"
 ---
 # <a name="change-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht de grootte en complexiteit. In de kern van het product vindt u essentiële functies, zoals financiële rapportage, verkoop-, inkoop- en voorraadbeheer. Naarmate de bedrijfscomplexiteit toeneemt, kunt u bijvoorbeeld functionaliteit inschakelen voor productie en servicebeheer.
 
-U kunt het complexiteitsniveau van het product definiëren, en daarmee tot welke functies de gebruikers van het bedrijf toegang krijgen. Daartoe stelt u de instelling **Ervaring** in op de pagina **Bedrijfsgegevens**. De ingestelde ervaring kan ook worden gewijzigd door bepaalde extensies uit AppSource toe te voegen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
+U kunt het complexiteitsniveau van het product definiëren, en daarmee tot welke functies de gebruikers van het bedrijf toegang krijgen. Daartoe stelt u de instelling **Ervaring** in op de pagina **Bedrijfsgegevens** . De ingestelde ervaring kan ook worden gewijzigd door bepaalde extensies uit AppSource toe te voegen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met extensies](ui-extensions.md).
 
 In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar zijn.
 
@@ -40,7 +40,7 @@ Voordat u de ervaring van een bedrijf instelt, definieert u de toegang van gebru
 De instelling **Ervaring** is van toepassing op alle gebruikers in een bedrijf, maar elke gebruiker kan zijn eigen ervaring verder personaliseren door paginalay-outs en inhoud te wijzigen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-functies inschakelen na een upgrade van het plan
-Gebruikers worden aan plannen toegewezen in het Microsoft 365-beheercentrum, in verband met het algemene werk om de Business Central-gebruikers te maken. Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Gebruikers worden aan plannen toegewezen in het Microsoft 365-beheercentrum, in verband met het algemene werk om de Business Central-gebruikers te maken. Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Microsoft 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Planwijzigingen bijwerken in gebruikersgroepen
 Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Microsoft 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u de wijziging doorvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -54,7 +54,7 @@ Alle nieuwe informatie over de plannen van gebruikers en hun toegewezen gebruike
 ### <a name="to-select-the-premium-experience"></a>De Premium-ervaring selecteren
 U kunt nu doorgaan met de nieuwe ervaring te selecteren.
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
-2. Selecteer op de pagina **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
+2. Selecteer op de pagina **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring** .
 
 ## <a name="help-assumes-premium-experience"></a>In de Help wordt uitgegaan van de Premium-ervaring
 Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[d365fin](includes/d365fin_md.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten.

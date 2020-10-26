@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e38ffe59525ca1ef8c124028365bbb597a54a350
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785158"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916230"
 ---
 # <a name="export-and-import-workflows"></a>Werkstromen exporteren en importeren
 Als u werkstromen wilt overbrengen naar andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-databases, bijvoorbeeld om tijd te besparen wanneer u nieuwe werkstromen maakt, kunt u werkstromen exporteren en importeren.  
@@ -26,14 +26,14 @@ Als u werkstromen wilt overbrengen naar andere [!INCLUDE[d365fin](includes/d365f
 
 ## <a name="to-export-a-workflow"></a>Een werkstroom exporteren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2.  Selecteer een werkstroom en kies de actie **Exporteren naar bestand**.  
-3.  Kies op de pagina **Bestand exporteren** de knop **Opslaan**.  
-4.  Selecteer op de pagina **Exporteren** een bestandslocatie en kies vervolgens de knop **Opslaan**.  
+2.  Selecteer een werkstroom en kies de actie **Exporteren naar bestand** .  
+3.  Kies op de pagina **Bestand exporteren** de knop **Opslaan** .  
+4.  Selecteer op de pagina **Exporteren** een bestandslocatie en kies vervolgens de knop **Opslaan** .  
 
 ## <a name="to-import-a-workflow"></a>Een werkstroom importeren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Importeren uit bestand**.  
-3.  Selecteer op de pagina **Importeren** het XML-bestand dat de werkstroom bevat, en klik vervolgens op **Openen**.  
+2.  Kies de actie **Importeren uit bestand** .  
+3.  Selecteer op de pagina **Importeren** het XML-bestand dat de werkstroom bevat, en klik vervolgens op **Openen** .  
 
 > [!CAUTION]  
 >  Als de werkstroomcode al in de database bestaat, worden de werkstroomstappen overschreven door de stappen in de geïmporteerde werkstroom.  

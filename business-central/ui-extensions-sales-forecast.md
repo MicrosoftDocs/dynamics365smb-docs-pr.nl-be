@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: daff9e471ce62f4885703a1fd11bbf35620360f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918625"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>De extensie Verkoop- en voorraadprognose
 Voorraadbeheer is een wisselwerking tussen klantenservice en het beheren van uw kosten. Enerzijds is voor weinig voorraad minder werkkapitaal nodig, maar anderzijds leiden nulvoorraden mogelijk tot gemiste verkopen. De extensie Verkoop- en voorraadprognose voorspelt potentiële verkopen aan de hand van historische gegevens en biedt een helder overzicht van verwachte nulvoorraden. Op basis van de prognose helpt de extensie aanvullingsaanvragen aan leveranciers te maken en bespaart u tijd.  
@@ -42,14 +42,14 @@ Deze webservices zijn staatloos, wat betekent dat ze gegevens alleen gebruiken o
 >   U kunt ook uw eigen voorspellende webservice gebruiken in plaats van de onze. Zie [Uw eigen voorspellende webservice voor verkoop- en voorraadprognoses maken en gebruiken](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Vereiste gegevens voor prognoses
-Om voorspellingen te doen over toekomstige verkopen, heeft de webservice kwantitatieve gegevens nodig over verkopen in het verleden. Die gegevens zijn afkomstig van de velden **Boekingsdatum**, **Artikelnr.** en **Hoeveelheid** op de pagina **Artikelposten**, waar:
+Om voorspellingen te doen over toekomstige verkopen, heeft de webservice kwantitatieve gegevens nodig over verkopen in het verleden. Die gegevens zijn afkomstig van de velden **Boekingsdatum** , **Artikelnr.** en **Hoeveelheid** op de pagina **Artikelposten** , waar:
 -    De boekingssoort is 'Verkoop'.
 - De boekingsdatum ligt tussen de datum die wordt berekend op basis van de waarden in de velden **Historische perioden** en **Periodesoort** op de pagina **Instelling van verkoop- en voorraadprognose** en de werkdatum.
 
-Voordat de webservice wordt gebruikt, comprimeert [!INCLUDE[d365fin](includes/d365fin_md.md)] transacties op **Artikelnr.** en **Boekingsdatum**, op basis van de waarde in het veld **Periodesoort** op de pagina **Instelling van verkoop- en voorraadprognose**.
+Voordat de webservice wordt gebruikt, comprimeert [!INCLUDE[d365fin](includes/d365fin_md.md)] transacties op **Artikelnr.** en **Boekingsdatum** , op basis van de waarde in het veld **Periodesoort** op de pagina **Instelling van verkoop- en voorraadprognose** .
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Uw eigen voorspellende webservice voor verkoop- en voorraadprognoses maken en gebruiken
-U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
+U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central** . Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Azure AI-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Zoek naar **Prognosemodel voor Microsoft Business Central** en open het model in Azure Machine Learning Studio.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484273"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917788"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Gebruikersaccounts instellen voor integratie met Common Data Service
 Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[d365fin](includes/cds_long_md.md)] te integreren met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -24,7 +24,7 @@ Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vere
 U moet uw beheerdersaccount toevoegen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] als gebruiker in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Bij het opzetten van de verbinding tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste componenten te installeren en configureren. 
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Wanneer u de CDS-basisintegratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen handmatig zijn gewijzigd, kunt u deze opnieuw instellen. U kunt dat doen door de CDS-basisintegratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Common Data Service-verbinding instellen**. De beveiligingsrol van Business Central CDS-integratie is geïmplementeerd.
+Wanneer u de CDS-basisintegratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen handmatig zijn gewijzigd, kunt u deze opnieuw instellen. U kunt dat doen door de CDS-basisintegratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Common Data Service-verbinding instellen** . De beveiligingsrol van Business Central CDS-integratie is geïmplementeerd.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].

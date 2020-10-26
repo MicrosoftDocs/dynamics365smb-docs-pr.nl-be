@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0b5370b8babf000b1dc2f5b1980ada383788067
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785758"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920559"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen.
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
@@ -65,24 +65,24 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen  
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
-2. Selecteer op de pagina **Rekeningschema** de relevante rekening en kies de actie **Bewerken**.  
-3. Selecteer op de pagina **Grootboekrekening** de relevante methode in het veld **Wisselkoersherwaardering**.  
+2. Selecteer op de pagina **Rekeningschema** de relevante rekening en kies de actie **Bewerken** .  
+3. Selecteer op de pagina **Grootboekrekening** de relevante methode in het veld **Wisselkoersherwaardering** .  
 
     Als u in een extra rapportagevaluta boekt, geeft u in het veld **Wisselkoersherwaardering** aan hoe deze grootboekrekening wordt gecorrigeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta. De volgende tabel bevat de opties waaruit u kunt kiezen.  
 
     |Veld|Beschrijving|  
     |----------------------------------|---------------------------------------|  
     |**Geen**|Er wordt geen wisselkoersherwaardering uitgevoerd op de grootboekrekening. Dit is de standaardwaarde.<br /><br /> **OPMERKING:** Deze optie moet altijd zijn geselecteerd als de wisselkoers tussen het LV en de extra rapportagevaluta altijd vast is.|  
-    |**Bedrag**|Het bedrag in LV is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
-    |**Bedrag (Rapp.-val.)**|De extra rapportagevaluta is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
+    |**Bedrag**|Het bedrag in LV is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's** .|  
+    |**Bedrag (Rapp.-val.)**|De extra rapportagevaluta is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's** .|  
 
     Wisselkoerswinsten en -verliezen worden geboekt wanneer u de batchverwerking **Wisselkoers herwaarderen** uitvoert. In die batchverwerking wordt de herwaarderingswisselkoers geïdentificeerd op de pagina **Valutawisselkoersen** en worden vervolgens de bedragen in de velden **Bedrag** en **Bedrag (Rapp.-val.)** in de grootboekpost vergeleken om te bepalen of er een wisselkoerswinst of -verlies is. Voor de batchverwerking wordt de optie gebruikt die u in het veld **Wisselkoersherwaardering** selecteert om te bepalen hoe wisselkoerswinsten of -verliezen voor grootboekrekeningen moeten worden berekend en geboekt.  
 
-4.  Sluit de pagina **Grootboekrekening**.  
+4.  Sluit de pagina **Grootboekrekening** .  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen  
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
-2. Selecteer op de pagina **Boekhoudinstellingen** de relevante methode in het veld **Btw-herwaardering**.  
+2. Selecteer op de pagina **Boekhoudinstellingen** de relevante methode in het veld **Btw-herwaardering** .  
 3. Als u in een extra valuta boekt, kunt u in het veld **Btw-herwaardering** aangeven hoe de rekeningen die zijn ingesteld voor btw-boekingen op de pagina **Btw-boekingsinstellingen** worden geherwaardeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
     Wanneer u de batchverwerking **Wisselkoers herwaarderen** uitvoert, wordt de wisselkoersherwaardering bepaald op de pagina **Valutawisselkoers** en worden vervolgens de bedragen in het veld **Bedrag** en **Bedrag (Rapp.-val.)** in de btw-boeking vergeleken om te bepalen of er een wisselkoerswinst of -verlies is. Op basis van de optie die u opgeeft in dit veld, wordt in de batchverwerking bepaald hoe wisselkoerswinsten of -verliezen voor btw-rekeningen worden geboekt.  
@@ -92,8 +92,8 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
     |Veld|Description|  
     |----------------------------------|---------------------------------------|  
     |**Geen**|Er wordt geen wisselkoersherwaardering uitgevoerd op de grootboekrekening. Dit is de standaardwaarde.|  
-    |**Bedrag**|Het bedrag in LV is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
-    |**Bedrag (Rapp.-val.)**|De extra rapportagevaluta is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
+    |**Bedrag**|Het bedrag in LV is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's** .|  
+    |**Bedrag (Rapp.-val.)**|De extra rapportagevaluta is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's** .|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>De extra rapportagevaluta activeren  
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
@@ -102,7 +102,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 4. Kies de knop **Ja** om te bevestigen dat u de valuta wilt activeren.  
 5. De batchtaak **Rapp.-val. herwaarderen** wordt geopend.
 
-    Met deze batchverwerking worden LV-bedragen van bestaande posten geconverteerd in de rapportagevaluta. Voor de batchverwerking wordt een standaardwisselkoers gebruikt die gekopieerd wordt van de wisselkoers die geldig is op de werkdatum op de pagina **Valutawisselkoersen**. Verschillenbedragen die ontstaan bij de conversie van LV naar de rapportagevaluta worden geboekt naar de verschillenrekeningen (winst of verlies) die zijn opgegeven op de pagina **Valuta's**. De boekingsdatum en het documentnummer van deze posten zijn gelijk aan de oorspronkelijke grootboekpost. Nadat alle verschilposten zijn geboekt, boekt de batchverwerking vervolgens een afrondingspost op de sluitdatum van elk afgesloten jaar naar de rekening voor ingehouden winst. Hiermee wordt ervoor gezorgd dat het eindsaldo van de resultatenrekeningen voor elk afgesloten jaar 0 is voor de LV en de rapportagevaluta.
+    Met deze batchverwerking worden LV-bedragen van bestaande posten geconverteerd in de rapportagevaluta. Voor de batchverwerking wordt een standaardwisselkoers gebruikt die gekopieerd wordt van de wisselkoers die geldig is op de werkdatum op de pagina **Valutawisselkoersen** . Verschillenbedragen die ontstaan bij de conversie van LV naar de rapportagevaluta worden geboekt naar de verschillenrekeningen (winst of verlies) die zijn opgegeven op de pagina **Valuta's** . De boekingsdatum en het documentnummer van deze posten zijn gelijk aan de oorspronkelijke grootboekpost. Nadat alle verschilposten zijn geboekt, boekt de batchverwerking vervolgens een afrondingspost op de sluitdatum van elk afgesloten jaar naar de rekening voor ingehouden winst. Hiermee wordt ervoor gezorgd dat het eindsaldo van de resultatenrekeningen voor elk afgesloten jaar 0 is voor de LV en de rapportagevaluta.
 6. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Kies **OK** om de batchverwerking te starten.  
 

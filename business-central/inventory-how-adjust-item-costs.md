@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ec1d07793b90e180bd22b57dc45c717b456e317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780072"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914176"
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
 De kostprijs van een artikel (voorraadwaarde) dat u inkoopt en later verkoopt, kan tijdens de levensduur veranderen, bijvoorbeeld omdat vrachtkosten worden toegevoegd aan aanschafkosten nadat u het artikel hebt verkocht. Kostenherwaardering is met name belangrijk als u goederen verkoopt voordat u de inkoop van deze goederen factureert. Als u altijd de juiste voorraadwaarde wilt weten, moeten artikelkosten daarom regelmatig worden geherwaardeerd. Hierdoor worden verkoop- en winststatistieken bijgewerkt en gezorgd dat de financiële KPI's kloppen. Zie [Ontwerpdetails: kostenwaardering](design-details-cost-adjustment.md) voor meer informatie.
@@ -39,7 +39,7 @@ De kostenherwaardering verwerkt alleen posten die nog niet zijn geherwaardeerd. 
 ## <a name="to-adjust-item-costs-manually"></a>Artikelkosten handmatig herwaarderen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostprijs herwaarderen - Artikelposten** in en kies de gerelateerde koppeling.
 2. Geef op de pagina **Kostprijs herwaarderen - Artikelposten** op voor welke artikelen kosten moeten worden aangepast.
-3. Kies de knop **OK**.
+3. Kies de knop **OK** .
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Ga als volgt te werk om algemene wijzigingen aan te brengen in de directe kostprijs:
 Als u de directe kostprijs voor een aantal artikelen moet wijzigen, kunt u de batchverwerking **Artikelprijzen herwaarderen** gebruiken.  
@@ -50,7 +50,7 @@ Als u de directe kostprijs voor een aantal artikelen moet wijzigen, kunt u de ba
 2. Geef in het veld **Aan te passen prijs** op welk artikel- of SKU-kaartveld u wilt aanpassen.  
 3. Geef in het veld **Herwaarderingsfactor** de factor op waarmee de waarde wordt aangepast. Voer bijvoorbeeld **1.5** in om de waarde met 50% te verhogen.  
 4. Stel op het sneltabblad **Artikel** filters in om, bijvoorbeeld, op te geven welke artikelen moeten worden verwerkt met de batchverwerking.  
-5. Kies de knop **OK**.  
+5. Kies de knop **OK** .  
 
 ## <a name="understanding-unit-cost-calculation"></a>Kostprijsberekening
 Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kostprijs** op de artikelkaart doorgaans gebaseerd op de vaste verrekenprijs. Voor artikelen met alle andere waarderingsmethoden is de waarde gebaseerd op de berekening van de beschikbare voorraad (gefactureerde kosten en verwachte kosten) gedeeld door het aantal in voorraad.  

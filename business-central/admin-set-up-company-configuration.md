@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5698110875799fe39cf3544dce0ea39f7c3dd5ba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 571261190274fc74535e7b18b2c949d7f7714c1b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786233"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917738"
 ---
 # <a name="set-up-company-configuration"></a>Een bedrijfsconfiguratie instellen
 Het implementatieproces begint met de Microsoft-partner. Het is de verantwoordelijkheid van de partner om de configuratiedetails uit te werken en een pakket op te stellen dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt, moet u plannen hoe dit zal worden geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.
 
 RapidStart Services bieden u ook de hulpmiddelen die u gebruikt om uw oude gegevens te migreren, zoals klanten en leveranciers.  
 
-Het is raadzaam om configuratiepakketten te maken met de meeste van de instellingentabellen al ingevuld, zodat klanten slechts enkele instellingen hoeven te wijzigen nadat het pakket is toegepast. Bijvoorbeeld wanneer u een nieuw bedrijf maakt, worden de tabellen, **Nr.-reeksen** en **Nr.-reeksregel**, gevuld met een verzameling nummerreeksen en begingetallen. De bijbehorende **Nr.-reeks**-velden in de instellingentabellen worden ook automatisch ingevuld. U hoeft de nummerreeksen en andere basisinstellingsgegevens niet zelf in te voeren. U kunt alle standaardgegevens die worden gebruikt met RapidStart Services, ook handmatig wijzigen met behulp van het configuratiewerkblad.  
+Het is raadzaam om configuratiepakketten te maken met de meeste van de instellingentabellen al ingevuld, zodat klanten slechts enkele instellingen hoeven te wijzigen nadat het pakket is toegepast. Bijvoorbeeld wanneer u een nieuw bedrijf maakt, worden de tabellen, **Nr.-reeksen** en **Nr.-reeksregel** , gevuld met een verzameling nummerreeksen en begingetallen. De bijbehorende **Nr.-reeks** -velden in de instellingentabellen worden ook automatisch ingevuld. U hoeft de nummerreeksen en andere basisinstellingsgegevens niet zelf in te voeren. U kunt alle standaardgegevens die worden gebruikt met RapidStart Services, ook handmatig wijzigen met behulp van het configuratiewerkblad.  
 
 De configuratiepakketten zijn gebaseerd op een vooraf geconfigureerd bedrijf. Nadat u een bedrijf hebt ingesteld dat aan uw behoeften voldoet, kunt u een configuratiepakket met relevante gegevens maken op basis van dit bedrijf. U kunt deze dan gebruiken wanneer u een nieuw bedrijf maakt dat op dezelfde manier moet worden geconfigureerd.  
 

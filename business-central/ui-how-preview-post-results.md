@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 56adf1822da10e4743d242df29aacad122fc954f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189663"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910192"
 ---
 # <a name="preview-posting-results"></a>Voorbeeld van boekingsresultaten weergeven
 In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorbeeld van boeking weergeven** kiezen om de verschillende soorten posten te bekijken die worden gemaakt wanneer u het document of het dagboek boekt.
@@ -24,8 +24,8 @@ In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorb
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Een voorbeeld weergeven van grootboekposten die resulteren na boeking van een inkoopfactuur
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
 2. Maak een inkoopfactuur. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
-3. Kies **Voorbeeld van boeking weergeven**.
-4. Selecteer op de pagina **Voorbeeld van boeking weergeven** **Grootboekpost** en kies vervolgens **Verwante posten weergeven**.  
+3. Kies **Voorbeeld van boeking weergeven** .
+4. Selecteer op de pagina **Voorbeeld van boeking weergeven** **Grootboekpost** en kies vervolgens **Verwante posten weergeven** .  
    Op de pagina **Voorbeeld GB-posten** ziet u welke posten worden gemaakt wanneer u de inkoopfactuur boekt.
 
 ## <a name="see-also"></a>Zie ook

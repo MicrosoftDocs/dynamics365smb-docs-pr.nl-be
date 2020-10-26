@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 05/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333896"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914626"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
 Als u met uw gegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[d365fin](includes/d365fin_md.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.
 
 ## <a name="opening-lists-in-excel"></a>Lijsten openen in Excel
-U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U opent gewoon de gewenste pagina en kiest vervolgens **Openen in Excel**. Open bijvoorbeeld de lijst met klanten (zoek naar **Klanten**) en kies vervolgens **Openen in Excel**. Uw browser vraagt of u het gegenereerde Excel-werkboek wilt openen of opslaan.  
+U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U opent gewoon de gewenste pagina en kiest vervolgens **Openen in Excel** . Open bijvoorbeeld de lijst met klanten (zoek naar **Klanten** ) en kies vervolgens **Openen in Excel** . Uw browser vraagt of u het gegenereerde Excel-werkboek wilt openen of opslaan.  
 
 > [!NOTE]
 > Gebruik deze optie wanneer u geen wijzigingen wilt aanbrengen en deze wijzigingen wilt terug publiceren naar [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,7 +42,7 @@ U kunt natuurlijk alle pagina's exporteren, maar dat is misschien meer dan u wer
 * Banken  
 * Artikelen  
 
-Als u ook al uw financiële transacties wilt, gaat het om een grote hoeveelheid gegevens. De export ervan duurt vaak een aantal minuten. De financiële transacties worden weergegeven op de pagina **Grootboekposten**.  
+Als u ook al uw financiële transacties wilt, gaat het om een grote hoeveelheid gegevens. De export ervan duurt vaak een aantal minuten. De financiële transacties worden weergegeven op de pagina **Grootboekposten** .  
 
 Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te exporteren:  
 
@@ -69,7 +69,7 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 > [!NOTE]
 > U moet ten minste een van de volgende machtigingen hebben om gegevens in Excel te openen of te bewerken:
 >    - Machtiging ingesteld *D365 Excel-exportactie*  
->    - Systeemmachtiging 6110 *Actie Exporteren naar Excel toestaan*.  
+>    - Systeemmachtiging 6110 *Actie Exporteren naar Excel toestaan* .  
 
 Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

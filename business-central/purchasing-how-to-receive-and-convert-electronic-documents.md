@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34a9461a967760b682f9a219389bd4078e3e654c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fcc8e97a61c777a7857e95db04fe16973c4c7b07
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782886"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918825"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
 De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document op de pagina Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -28,7 +28,7 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 
  Het verkeer van elektronische documenten in en uit [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt beheerd door de functie Taakwachtrij. Voordat u elektronische documenten kunt ontvangen, moet de relevante taakwachtrij worden gestart.  
 
- U kunt de conversie van elektronische documenten handmatig starten, zoals in deze procedure wordt beschreven, of u kunt een werkstroom inschakelen om elektronische documenten automatisch te converteren wanneer deze worden ontvangen. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een werkstroomsjabloon, *Werkstroom van inkomend elektronisch via OCR naar open Inkoopfactuur*, die naar een werkstroom kan worden gekopieerd en kan worden ingeschakeld. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
+ U kunt de conversie van elektronische documenten handmatig starten, zoals in deze procedure wordt beschreven, of u kunt een werkstroom inschakelen om elektronische documenten automatisch te converteren wanneer deze worden ontvangen. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een werkstroomsjabloon, *Werkstroom van inkomend elektronisch via OCR naar open Inkoopfactuur* , die naar een werkstroom kan worden gekopieerd en kan worden ingeschakeld. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
 
 > [!NOTE]  
 >  Wanneer u elektronische documenten die van de OCR-service worden ontvangen, converteert naar documenten of journaalregels in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden meerdere regels in het brondocument op één regel gecombineerd. De ene regel krijgt het type Grootboekrekening en de velden **Omschrijving** en **Nr.** (van grootboekrekening) zijn leeg. De waarde in het veld **Bedrag** is gelijk aan het totaalbedrag, exclusief btw van alle regels in het brondocument.  
@@ -43,19 +43,19 @@ De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt h
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies de desbetreffende koppeling.  
 
-2.  Selecteer de regel voor het inkomende documentrecord dat staat voor een nieuwe inkomende elektronische factuur en kies de actie **Bewerken**.  
+2.  Selecteer de regel voor het inkomende documentrecord dat staat voor een nieuwe inkomende elektronische factuur en kies de actie **Bewerken** .  
 
      Op de pagina **Kaart inkomend document** wordt het gerelateerde XML-bestand gekoppeld en worden de meeste velden vooraf ingevuld met informatie uit de elektronische factuur. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
 
-3.  Kies in het veld **Soort gegevensuitwisseling** de optie **PEPPOL-factuur** of **OCR-factuur**, afhankelijk van de bron van het elektronische document.  
+3.  Kies in het veld **Soort gegevensuitwisseling** de optie **PEPPOL-factuur** of **OCR-factuur** , afhankelijk van de bron van het elektronische document.  
 
-4.  Als u tekst in de leveranciersfactuur wilt toewijzen aan een specifieke debetrekening, kiest u op het tabblad **Acties** in de groep **Algemeen** de optie **Tekst afstemmen op rekening**. Vervolgens vult u de pagina **Toewijzing tekst aan rekening** in.  
+4.  Als u tekst in de leveranciersfactuur wilt toewijzen aan een specifieke debetrekening, kiest u op het tabblad **Acties** in de groep **Algemeen** de optie **Tekst afstemmen op rekening** . Vervolgens vult u de pagina **Toewijzing tekst aan rekening** in.  
 
-5.  Kies de actie **Document maken**.  
+5.  Kies de actie **Document maken** .  
 
      Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] een inkoopfactuur gemaakt op basis van de gegevens in het elektronische document.  
 
-     Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende hoofdgegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Foutmeldingen**.  
+     Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende hoofdgegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Foutmeldingen** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

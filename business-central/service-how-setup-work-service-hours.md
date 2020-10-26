@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b44648e169d9692e0124c79d170eab1fa9087a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784471"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910167"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Service- en werkuren instellen
 Met een servicebeheersysteem worden de resource-uren en serviceorderstatus bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft ingebouwde tools die u kunt aanpassen om dit soort informatie vast te leggen.  
@@ -48,9 +48,9 @@ Op de pagina **Service-uren** kunt u specifieke service-uren instellen voor de k
 Als u geen specifieke service-uren voor het servicecontract instelt, worden de standaardservice-uren voor servicecontracten gebruikt.  
   
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** in en kies de desbetreffende koppeling.  
-2. Open het servicecontract waarvoor u specifieke service-uren wilt instellen en kies **Service-uren**.  
-4. Als u service-uren op basis van standaardservice-uren wilt instellen, kiest u de actie **Std. service-uren kopiëren**.  
-5. De velden in de posten voor service-uren bewerken. Invoegen of verwijderen van vermeldingen voor het instellen van de service-uren voor het contract. Merk op dat de velden **Dag**, **Begintijd** en **Eindtijd** zijn vereist voor elke regel.  
+2. Open het servicecontract waarvoor u specifieke service-uren wilt instellen en kies **Service-uren** .  
+4. Als u service-uren op basis van standaardservice-uren wilt instellen, kiest u de actie **Std. service-uren kopiëren** .  
+5. De velden in de posten voor service-uren bewerken. Invoegen of verwijderen van vermeldingen voor het instellen van de service-uren voor het contract. Merk op dat de velden **Dag** , **Begintijd** en **Eindtijd** zijn vereist voor elke regel.  
 6. Als u de service-uren wilt laten gelden vanaf een specifieke datum, vult u het veld **Begindatum** in.  
 7. Als u de service-uren wilt laten gelden op vakantiedagen, schakelt u het selectievakje **Geldig op vakantiedagen** in.  
 

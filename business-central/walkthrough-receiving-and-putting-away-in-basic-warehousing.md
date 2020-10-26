@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2b7a0c52417e9eff00ac692788b9eae073186e6c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b119883babf1f44ff78482c4849faff72c1ec257
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786733"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918450"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties
 
@@ -66,9 +66,9 @@ U moet het volgende doen om deze procedure uit te voeren:
 -   Maak van uzelf een magazijnwerknemer bij vestiging ZILVER door de volgende stappen uit te voeren:  
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
-    2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
+    2.  Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers** .  
     3.  Voer ZILVER in het veld **Vestiging** in.  
-    4.  Selecteer het veld **Standaard**.  
+    4.  Selecteer het veld **Standaard** .  
 
 ## <a name="story"></a>Scenario  
 Ellen, de magazijnmanager bij CRONUS International Ltd., maakt een inkooporder voor 10 eenheden van artikel LS-75 en 30 eenheden van artikel LS-81 van leverancier 10000 om te worden afgeleverd bij magazijn ZILVER. Wanneer de bezorging in het magazijn aankomt, zet de magazijnmedewerker Johanna de artikelen in de standaardopslaglocaties die voor de artikelen zijn gedefinieerd. Wanneer Johanna de voorraadopslag boekt, worden de artikelen als ontvangen en beschikbaar voor verkoop of andere oproepen in de voorraad.  
@@ -80,17 +80,17 @@ Ellen, de magazijnmanager bij CRONUS International Ltd., maakt een inkooporder v
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
 2.  Open de vestigingskaart ZILVER.  
-3.  Selecteer het selectievakje **Opslag vereist**.  
+3.  Selecteer het selectievakje **Opslag vereist** .  
 
     Ga door met het instellen van een standaardopslaglocatie voor de twee artikelnummers om te bepalen waar deze worden opgeslagen.  
 
-4.  Kies de actie **Opslaglocaties**.  
-5.  Selecteer de eerste rij voor opslaglocatie S-01-0001 en kies vervolgens de actie **Inhoud**.  
+4.  Kies de actie **Opslaglocaties** .  
+5.  Selecteer de eerste rij voor opslaglocatie S-01-0001 en kies vervolgens de actie **Inhoud** .  
 
     U ziet op de pagina **Opslaglocatie-inhoud** dat artikel LS-75 al is ingesteld als inhoud in opslaglocatie S-01-0001.  
 
-6.  Kies de actie **Nieuw**.  
-7.  Selecteer de velden **Vast** en **Standaard**.  
+6.  Kies de actie **Nieuw** .  
+7.  Selecteer de velden **Vast** en **Standaard** .  
 8.  Voer in het veld **Artikelnr.** de waarde LS-81 in.  
 
 ## <a name="creating-the-purchase-order"></a>De inkooporder maken  
@@ -99,7 +99,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
 ### <a name="to-create-the-purchase-order"></a>De inkooporder maken  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
+2.  Kies de actie **Nieuw** .  
 3.  Maak een inkooporder voor leverancier 10000 op 23 januari (werkdatum) met de volgende inkooporderregels.  
 
     |Artikel|Vestiging|Opslaglocatie|Aantal|  
@@ -112,7 +112,7 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
 
     Ga door om het magazijn te informeren dat de inkooporder klaar is voor de magazijnverwerking wanneer de bezorging aankomt.  
 
-4.  Kies de actie **Vrijgeven**.  
+4.  Kies de actie **Vrijgeven** .  
 
     Het leveren van luidsprekers van leverancier 10000 is aangekomen op magazijn SILVER en Jan bergt ze op.  
 
@@ -122,17 +122,17 @@ Op de pagina **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor 
 ### <a name="to-receive-and-put-the-items-away"></a>De artikelen ontvangen en opslaan  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
-3.  Selecteer het veld **Brondocument** en selecteer vervolgens **Inkooporder**.  
-4.  Selecteer het veld **Bronnr.**, selecteer de regel voor de inkoop van leverancier 10000, en kies vervolgens de knop **OK**.  
+2.  Kies de actie **Nieuw** .  
+3.  Selecteer het veld **Brondocument** en selecteer vervolgens **Inkooporder** .  
+4.  Selecteer het veld **Bronnr.** , selecteer de regel voor de inkoop van leverancier 10000, en kies vervolgens de knop **OK** .  
 
     U kunt ook de actie **Brondocument ophalen** kiezen en de inkooporder kiezen.  
 
-5.  Kies de actie **Te verwerken aantal autom. invullen**.  
+5.  Kies de actie **Te verwerken aantal autom. invullen** .  
 
     Of voer in het veld **Te verwerken aantal** respectievelijk 10 en 30 in op de twee voorraadopslagregels.  
 
-6.  Kies de actie **Boeken**, selecteer de actie **Ontvangen** en kies vervolgens de knop **OK**.  
+6.  Kies de actie **Boeken** , selecteer de actie **Ontvangen** en kies vervolgens de knop **OK** .  
 
     Nu zijn de 40 luidsprekers geregistreerd als opgeslagen in opslaglocatie S-01-0001 en een positieve artikelpost is gemaakt om de geboekte inkoopontvangst te weerspiegelen.  
 

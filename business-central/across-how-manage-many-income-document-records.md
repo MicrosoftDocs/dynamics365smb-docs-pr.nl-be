@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d59987e7bb826b1230f726f40854c36404037c9a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780547"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919650"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vele inkomende documentrecords beheren
 Terwijl u inkomende documentrecords maakt of verwerkt, kan het aantal regels op de pagina **Inkomende documenten** zozeer toenemen dat u het overzicht verliest. Daarom kunt u inkomende documentrecords op Verwerkt instellen om ze te verwijderen uit de standaardweergave. Als u **Alles weergeven** kiest, kunt u zowel verwerkte als onverwerkte records weergeven.
@@ -32,25 +32,25 @@ Het selectievakje **Verwerkt** wordt automatisch ingeschakeld voor inkomende doc
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Inkomende documentrecords verwijderen uit de standaardweergave
 1. Selecteer op de pagina **Inkomende documenten** een of meer regels voor inkomende documentrecords die u uit de standaardweergave wilt verwijderen.
-2. Kies de actie **Instellen op verwerkt**.
+2. Kies de actie **Instellen op verwerkt** .
 
     De inkomende documentrecords worden verwijderd uit de standaardweergave en het selectievakje **Verwerkt** wordt ingeschakeld op de regels.
 
 > [!NOTE]  
->   U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document**.
+>   U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document** .
 
 ## <a name="to-view-all-incoming-document-records"></a>Alle inkomende documentrecords weergeven
-1. Kies op de pagina **Inkomende documenten** de actie **Alles weergeven**.
+1. Kies op de pagina **Inkomende documenten** de actie **Alles weergeven** .
 
 Alle inkomende documentrecords worden weergegeven, inclusief de records waarvan het selectievakje **Verwerkt** niet is ingeschakeld.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Inkomende documentrecords toevoegen aan de standaardweergave
-1. Kies op de pagina **Inkomende documenten** de actie **Alles weergeven**.
+1. Kies op de pagina **Inkomende documenten** de actie **Alles weergeven** .
 2. Selecteer een of meer regels voor inkomende documentrecords die u in de standaardweergave wilt laten weergeven.
-3. Kies de actie **Instellen op niet-verwerkt**.  
+3. Kies de actie **Instellen op niet-verwerkt** .  
 
 > [!NOTE]  
->   U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document**.
+>   U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document** .
 
 ## <a name="see-also"></a>Zie ook
 [Inkomende documenten verwerken](across-process-income-documents.md)  

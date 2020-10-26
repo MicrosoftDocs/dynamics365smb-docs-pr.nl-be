@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693036"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911691"
 ---
 # <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
 [!INCLUDE[d365fin](includes/cds_long_md.md)] bevat slechts drie optiesetvelden die optiewaarden bevatten die u kunt toewijzen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]-velden van het type Optie<!-- Option type, not enum? @Onat can you vertify this? --> voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Deze sectie beschrijft hoe dat werkt.
@@ -36,7 +36,7 @@ De pagina **Toewijzing van integratietabel** bevat drie toewijzingen voor velden
 | Expediteur: VOLLEDIGELADING   | 6            | Volledige lading            |
 | Expediteur: AFHALEN   | 7            | Afhalen            |
 
-De inhoud van de pagina **Toewijzing van CDS-optie** is gebaseerd op opsommingswaarden in de tabel **CDS-account**. In [!INCLUDE[d365fin](includes/cds_long_md.md)] worden de volgende velden van de accountentiteit toegewezen aan velden in de klant- en leveranciersrecords:
+De inhoud van de pagina **Toewijzing van CDS-optie** is gebaseerd op opsommingswaarden in de tabel **CDS-account** . In [!INCLUDE[d365fin](includes/cds_long_md.md)] worden de volgende velden van de accountentiteit toegewezen aan velden in de klant- en leveranciersrecords:
 
 - **Adres 1: vrachtvoorwaarden** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
 
@@ -109,7 +109,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-d365fin-option-mapping"></a>[!INCLUDE[d365fin](includes/cds_long_md.md)]-optietoewijzing bijwerken
 Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[d365fin](includes/cds_long_md.md)]-opties en [!INCLUDE[d365fin](includes/d365fin_md.md)]-records.
 
-Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Toewijzing van CDS-optie** wordt bijgewerkt met de aanvullende records hieronder.
+Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren** . De pagina **Toewijzing van CDS-optie** wordt bijgewerkt met de aanvullende records hieronder.
 
 |         Record                 | Optiewaarde   | Bijschrift optiewaarde |
 |--------------------------------|----------------|----------------------|

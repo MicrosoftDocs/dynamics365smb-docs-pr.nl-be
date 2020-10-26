@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20cca6b2c91c58573d5bef1c8330ca4c691fdfb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780447"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910767"
 ---
 # <a name="setting-up-cost-accounting"></a>Kostenboekhouding instellen
 Voordat u begint te werken met kostprijsboekhouding, moet u insteltaken uitvoeren.
@@ -37,7 +37,7 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Het grootboekrekeningschema overbrengen naar het kostensoortschema  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostensoortschema** in en kies de desbetreffende koppeling.  
-2.  Kies de actie **Kostensoorten ophalen uit rekeningschema**. Kies in dialoogvenster de knop **Ja** om de overdracht te bevestigen. De functie maakt gebruik van het rekeningschema om een kostensoortschema te maken.  
+2.  Kies de actie **Kostensoorten ophalen uit rekeningschema** . Kies in dialoogvenster de knop **Ja** om de overdracht te bevestigen. De functie maakt gebruik van het rekeningschema om een kostensoortschema te maken.  
 
     Het kostensoortschema bevat nu alle resultatenrekeningen in het grootboek inclusief koppen en subtotalen. U kunt het kostensoortschema zo nodig wijzigen. U kunt bijvoorbeeld dubbele kostensoorten verwijderen.  
 
@@ -49,13 +49,13 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
 2.  Vul de velden indien nodig in zoals beschreven. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  U kunt kostensoorten instellen en onderhouden op de pagina **Kostensoortkaart** of op de pagina **Kostensoortschema**. In deze procedure stelt u kostensoorten op de pagina **Kostensoortschema** in.
+    >  U kunt kostensoorten instellen en onderhouden op de pagina **Kostensoortkaart** of op de pagina **Kostensoortschema** . In deze procedure stelt u kostensoorten op de pagina **Kostensoortschema** in.
 
-3.  Nadat u alle kostensoorten hebt gemaakt, kiest u de actie **Kostensoorten inspringen**. Kies in het dialoogvenster de knop **Ja**.  
+3.  Nadat u alle kostensoorten hebt gemaakt, kiest u de actie **Kostensoorten inspringen** . Kies in het dialoogvenster de knop **Ja** .  
 4.  Koppel het nieuwe kostensoort aan de corresponderende grootboekrekening.  
 
     > [!IMPORTANT]  
-    >  Als u definities hebt ingevoerd in de **Samentelling**-velden voor het regelsoort **Eindtotaal** voordat u de functie **Kostensoorten inspringen** uitvoert, moet u de definities opnieuw invoeren omdat de functie de waarden in alle velden **Eindtotaal** overschrijft.  
+    >  Als u definities hebt ingevoerd in de **Samentelling** -velden voor het regelsoort **Eindtotaal** voordat u de functie **Kostensoorten inspringen** uitvoert, moet u de definities opnieuw invoeren omdat de functie de waarden in alle velden **Eindtotaal** overschrijft.  
 
 ### <a name="to-update-cost-types"></a>Kostensoorten bijwerken  
 1.  Op de pagina **Instelling kostprijsboekhouding** selecteert u of het kostensoortschema automatisch wilt laten bijwerken als het rekeningschema wordt gewijzigd.  
@@ -97,7 +97,7 @@ Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengs
 -   Door een nieuw schema van kostenplaatsen te maken dat onafhankelijk is van het grootboek of door een nieuwe kostenplaats toe te voegen aan een bestaand schema van kostenplaatsen. U moet elke kostenplaats afzonderlijk maken.  
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensiewaarden in het grootboek overbrengen naar het schema van kostenplaatsen  
-1.  Stel een dimensie als kostenplaats in met de pagina **Dimensies kostprijsboekhouding bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
+1.  Stel een dimensie als kostenplaats in met de pagina **Dimensies kostprijsboekhouding bijwerken** . Alleen de waarden uit deze dimensie worden overgebracht.  
 2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenplaatsschema** in en kies de desbetreffende koppeling.  
 3.  Op het tabblad **Acties** in de groep **Functies** kiest u **Kostenplaatsen ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenplaatsen. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
@@ -107,21 +107,21 @@ Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengs
 Het schema van kostenplaatsen bevat nu alle opgegeven dimensiewaarden van het grootboek waaronder titels en subtotalen.  
 
 ### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Nieuwe kostenplaatsen maken op de pagina Kostenplaatsschema  
-U kunt kostenplaatsen instellen en onderhouden op de kaart **Kostenplaatskaart** of op de pagina **Kostenplaatsschema**. In deze procedure stelt u kostenplaatsen op de pagina **Kostenplaatsschema** in.  
+U kunt kostenplaatsen instellen en onderhouden op de kaart **Kostenplaatskaart** of op de pagina **Kostenplaatsschema** . In deze procedure stelt u kostenplaatsen op de pagina **Kostenplaatsschema** in.  
 
 1. Open de pagina **Kostenplaatsschema** in de bewerkmodus.  
 2. Voer in het veld **Code** de kostenplaatscode in. Alle kostenplaatsen moeten een code hebben.  
 3. Voer in het veld **Naam** de naam van de kostenplaats in.  
 4. Kies de vervolgkeuzepijl in het veld **Regelsoort** om het doel van de kostenplaats aan te geven.  
 
-    - Voor kostenplaatsen van het soort **Totaal** moet u het veld **Samentelling** invullen. Gebruik de operator **of**, die uit een verticale lijn (**&#124;**) bestaat om bereiken voor kostenplaatsen in te stellen.  
+    - Voor kostenplaatsen van het soort **Totaal** moet u het veld **Samentelling** invullen. Gebruik de operator **of** , die uit een verticale lijn ( **&#124;** ) bestaat om bereiken voor kostenplaatsen in te stellen.  
     - Voor kostenplaatsen van het regelsoort **Eindtotaal** wordt dit veld automatisch ingevuld wanneer u de inspringfunctie gebruikt.  
 5.  Vul de velden **Sorteervolgorde** en **Kostensubtype** in.  
 6.  Kies de volgende lege regel om een nieuwe kostenplaats te maken en herhaal vervolgens stap 2 tot en met 5.  
-7.  Nadat u alle kostenplaatsen hebt ingesteld, kiest u de actie **Kostenplaatsen inspringen**. Kies de knop **Ja**.  
+7.  Nadat u alle kostenplaatsen hebt ingesteld, kiest u de actie **Kostenplaatsen inspringen** . Kies de knop **Ja** .  
 
 > [!IMPORTANT]  
->  Als u definities in de velden **Samentelling** voor de kostenplaatsen **Eindtotaal** hebt ingevoerd voordat u de inspringfunctie uitvoerde, moet u deze opnieuw invoeren. De functie overschrijft de waarden in alle velden **Eindtotaal**.
+>  Als u definities in de velden **Samentelling** voor de kostenplaatsen **Eindtotaal** hebt ingevoerd voordat u de inspringfunctie uitvoerde, moet u deze opnieuw invoeren. De functie overschrijft de waarden in alle velden **Eindtotaal** .
 
 ## <a name="setting-up-cost-objects"></a>Kostenobjecten instellen
 Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema van kostenobjecten is vergelijkbaar met de dimensiegegevens voor het grootboek. U kunt het schema van kostenobjecten op de volgende manieren instellen:  
@@ -130,7 +130,7 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 * Door een nieuw schema van kostenobjecten te maken dat onafhankelijk is van het grootboek of door een nieuw kostenobject toe te voegen aan een bestaand schema van kostenobjecten. U moet elk kostenobject afzonderlijk maken.  
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Door de dimensiewaarden vanuit het grootboek over te brengen naar het schema van kostenobjecten.  
-1.  Stel een dimensie als kostenobjectdimensie in op de pagina **CA-dimensies bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
+1.  Stel een dimensie als kostenobjectdimensie in op de pagina **CA-dimensies bijwerken** . Alleen de waarden uit deze dimensie worden overgebracht.  
 2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenobjectschema** in en kies de desbetreffende koppeling.  
 3.  Kies de actie **Kostenobjecten ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenobjecten. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
@@ -140,27 +140,27 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 Het schema van kostenobjecten bevat nu alle opgegeven dimensiewaarden van het grootboek waaronder titels en subtotalen.  
 
 ### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Nieuwe kostenobjecten maken op de pagina Kostenobjectschema  
-U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart** of op de pagina **Kostenobjectschema**. In deze procedure stelt u kostenobjecten op de pagina **Kostenobjectschema** in.  
+U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart** of op de pagina **Kostenobjectschema** . In deze procedure stelt u kostenobjecten op de pagina **Kostenobjectschema** in.  
 
 1.  Open de pagina **Kostenobjectschema** in de bewerkmodus.  
 2.  Voer in het veld **Code** de kostenobjectcode in. Alle kostenobjecten moeten een code hebben.  
 3.  Voer in het veld **Naam** de naam van het kostenobject in.  
 4.  Kies de vervolgkeuzepijl in het veld **Regelsoort** om het doel van het kostenobject aan te geven.  
 
-    * Voor kostenobjecten van het regelsoort **Totaal** vult u het veld **Totaal van/tot** in. Gebruik de operator **of**, die uit een verticale lijn (**&#124;**) bestaat om bereiken voor kostenobjecten in te stellen.  
+    * Voor kostenobjecten van het regelsoort **Totaal** vult u het veld **Totaal van/tot** in. Gebruik de operator **of** , die uit een verticale lijn ( **&#124;** ) bestaat om bereiken voor kostenobjecten in te stellen.  
     * Voor kostenobjecten van het regelsoort **Eindtotaal** wordt dit veld automatisch ingevuld wanneer u de inspringfunctie gebruikt.  
 5.  Vul het veld **Sorteervolgorde** in.  
 6.  Kies de volgende lege regel om een nieuw kostenobject te maken en herhaal vervolgens stap 2 tot en met 5.  
-7.  Nadat u alle kostenobjecten hebt ingesteld, kiest u de actie **Kostenobjecten inspringen**. Kies de knop **Ja**.  
+7.  Nadat u alle kostenobjecten hebt ingesteld, kiest u de actie **Kostenobjecten inspringen** . Kies de knop **Ja** .  
 
 > [!IMPORTANT]  
->  Als u definities in de velden **Totaal van/tot** voor de kostenobjecten **Eindtotaal** hebt ingevoerd voordat u de inspringfunctie uitvoert, moet u deze opnieuw invoeren. De functie overschrijft de waarden in alle velden **Eindtotaal**.
+>  Als u definities in de velden **Totaal van/tot** voor de kostenobjecten **Eindtotaal** hebt ingevoerd voordat u de inspringfunctie uitvoert, moet u deze opnieuw invoeren. De functie overschrijft de waarden in alle velden **Eindtotaal** .
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kostenplaatsen en kostenobjecten voor rekeningschema's definiëren
 In het grootboek kunt u de inkomsten- en onkostenposten automatisch overbrengen naar de kostprijsboekhouding, hetzij voor elke grootboekboeking of met behulp van een batchtaak. Wanneer u de overdracht uitvoert, worden door [!INCLUDE[d365fin](includes/d365fin_md.md)] alleen de posten overgebracht die al zijn gekoppeld aan een kostenplaats of een kostenobject. Om tot een zinvolle overdracht te komen, moet u ervoor zorgen dat kostenplaatsen en de kostenobjecten juist zijn gedefinieerd.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Standaarddimensiewaarden definiëren voor grootboekrekeningen  
-Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **Standaarddimensie**. In het volgende voorbeeld ziet u hoe u kunt definiëren dat er altijd een AFDELING als kostenplaats, maar nooit een PROJECT als kostenobject moet voorkomen bij het boeken naar een grootboekrekening.  
+Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **Standaarddimensie** . In het volgende voorbeeld ziet u hoe u kunt definiëren dat er altijd een AFDELING als kostenplaats, maar nooit een PROJECT als kostenobject moet voorkomen bij het boeken naar een grootboekrekening.  
 
 |**Dimensiecode**|**Waardeboeking**|  
 |------------------------------------------|-----------------------------------------|  

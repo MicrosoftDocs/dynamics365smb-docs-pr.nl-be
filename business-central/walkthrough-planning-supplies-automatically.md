@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219b7aa5bdeff1ba0a7a527ba35ff23b846920ed
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6f0d7b5c90777e46a3cfca2ceb4603aa9173aec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786808"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912108"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedure: Goederen automatisch plannen
 
@@ -68,8 +68,8 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 ### <a name="to-create-stockkeeping-units"></a>SKU's maken  
 
 1.  Open de artikelkaart voor artikel 1001, Toerfiets.  
-2.  Kies de actie **SKU maken**.  
-3.  Laat op de pagina **SKU maken** alle opties en filters ongewijzigd en klik op de knop **OK**.  
+2.  Kies de actie **SKU maken** .  
+3.  Laat op de pagina **SKU maken** alle opties en filters ongewijzigd en klik op de knop **OK** .  
 4.  Herhaal stap 1 tot en met 3 voor alle artikelen in het getallenbereik tussen 1100 en 1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Geselecteerde planningsparameters wijzigen  
@@ -92,7 +92,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
+2.  Kies de actie **Nieuw** .  
 3.  Vul op de pagina **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
     |Naam van orderklant|Verzenddatum|Artikelnr.|Vestiging|Aantal|  
@@ -104,7 +104,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Een regeneratief plan maken om aan de vraag op de vestiging BLAUW te voldoen  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Regeneratief plan berekenen**.  
+2.  Kies de actie **Regeneratief plan berekenen** .  
 3.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
     |Planning berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot|  
@@ -115,19 +115,19 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
      Er wordt één planningsregel gemaakt met het voorstel dat er een geplande productieorder wordt uitgegeven voor de productie van de tien toerfietsen, artikel 1001, vóór 5 februari 2014, de verzenddatum van de verkooporder.  
 
-     Controleer vervolgens of deze planningsregel gaat over de Cannon Group-verkooporder met de functie **Ordertracering**, die vraag en gepland aanbod dynamisch koppelt.  
+     Controleer vervolgens of deze planningsregel gaat over de Cannon Group-verkooporder met de functie **Ordertracering** , die vraag en gepland aanbod dynamisch koppelt.  
 
-5.  Selecteer de nieuwe planningsregel en kies de actie **Ordertracering**.  
-6.  Kies op de pagina **Ordertracering** de actie **Weergeven**.  
+5.  Selecteer de nieuwe planningsregel en kies de actie **Ordertracering** .  
+6.  Kies op de pagina **Ordertracering** de actie **Weergeven** .  
 
      De verkooporder voor de verzending van vijf toerfietsen naar klantnummer 10000, op 05-02-2014, wordt weergegeven.  
 
-7.  Sluit de pagina's **Verkooporder** en **Ordertracering**.  
+7.  Sluit de pagina's **Verkooporder** en **Ordertracering** .  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>MRP berekenen om onderliggende materiaalbehoeften op te nemen  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Regeneratief plan berekenen**.  
+2.  Kies de actie **Regeneratief plan berekenen** .  
 3.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
     |Berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot:|  
@@ -147,26 +147,26 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-view-order-tracking-entries-for-item-1300"></a>Ordertraceringposten voor artikel 1300 weergeven  
 
-1.  Selecteer de planningsregel voor artikel 1300 en kies de actie **Ordertracering**.  
+1.  Selecteer de planningsregel voor artikel 1300 en kies de actie **Ordertracering** .  
 
-     De twee regels op de pagina **Ordertracering** laten zien dat er vijf stuks worden getraceerd vanaf de planningsregel (eerste ordertraceringsregel) tot aan verkooporder 1001 (tweede traceringsregel). De laatste vijf stuks die in de planning worden voorgesteld, houden geen verband met documentregels, maar met een planningsparameter, een prognosepost of een raamcontractpost. Dergelijke niet-getraceerde aantallen worden opgeteld in het veld **Niet getraceerd aantal** in de koptekst van de pagina **Ordertracering**.  
+     De twee regels op de pagina **Ordertracering** laten zien dat er vijf stuks worden getraceerd vanaf de planningsregel (eerste ordertraceringsregel) tot aan verkooporder 1001 (tweede traceringsregel). De laatste vijf stuks die in de planning worden voorgesteld, houden geen verband met documentregels, maar met een planningsparameter, een prognosepost of een raamcontractpost. Dergelijke niet-getraceerde aantallen worden opgeteld in het veld **Niet getraceerd aantal** in de koptekst van de pagina **Ordertracering** .  
 
-2.  Selecteer het veld **Niet getraceerd aantal**.  
+2.  Selecteer het veld **Niet getraceerd aantal** .  
 
      Op de pagina **Niet-getraceerd planningselementen** ziet u dat artikel 1300 gebruikmaakt van een planningsparameter, Min. bestelaantal, met de waarde 10,00. Daarom is de planningsregel voor tien stuks in totaal, waarvan er slechts vijf worden getraceerd naar een vraag. De laatste vijf stuks zijn een niet-getraceerd aantal om aan de planningsparameter te voldoen. Ga verder met het bekijken van de planningsparameter.  
 
 ### <a name="to-check-the-planning-parameter"></a>De planningsparameter controleren  
 
 1.  Op de pagina **Niet-getraceerde planningselementen** selecteert u de ordertraceringsregel van artikel 1300.  
-2.  Kies het veld **Artikelnr.** en kies vervolgens de actie **Geavanceerd**.  
-3.  Kies op de pagina **Artikeloverzicht** de actie **SKU's**.  
+2.  Kies het veld **Artikelnr.** en kies vervolgens de actie **Geavanceerd** .  
+3.  Kies op de pagina **Artikeloverzicht** de actie **SKU's** .  
 4.  Open op de pagina **SKU-overzicht** de BLAUWE SKU-kaart.  
 5.  Op het sneltabblad **Planning** ziet u dat het veld **Min. bestelaantal** de waarde 10 bevat.  
-6.  Sluit alle pagina's behalve **Planningsvoorstel**.  
+6.  Sluit alle pagina's behalve **Planningsvoorstel** .  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Meer ordertraceringsposten weergeven  
 
-1.  Selecteer de planningsregel voor artikel 1110 Velg en kies de actie **Ordertracering**.  
+1.  Selecteer de planningsregel voor artikel 1110 Velg en kies de actie **Ordertracering** .  
 
      De pagina **Ordertracering** geeft aan dat vijf velgen per productieorder nodig zijn voor respectievelijk voor- en achterwielen.  
 
@@ -174,11 +174,11 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
      De planningsregel voor artikel 1150 voor zes stuks lijkt onregelmatig. Ga door om te analyseren.  
 
-2.  Selecteer de planningsregel voor artikel 1150 en kies de actie **Ordertracering**.  
+2.  Selecteer de planningsregel voor artikel 1150 en kies de actie **Ordertracering** .  
 
      De pagina **Ordertracering** toont dat vijf eenheden worden getraceerd naar het voorwiel, en één eenheid niet is getraceerd. Ga door het niet-getraceerde aantal weer te geven.  
 
-3.  Selecteer het veld **Niet getraceerd aantal**.  
+3.  Selecteer het veld **Niet getraceerd aantal** .  
 
      Op de pagina **Niet-getraceerde planningselementen** blijkt dat artikel 1150 een planningsparameter Vaste lotgrootte gebruikt met de waarde 2.00. Dit geeft aan dat het artikel moet worden besteld in aantallen die deelbaar zijn door 2. Het getal dat het dichtst bij 5 ligt en dat deelbaar is door 2, is 6.  
 
@@ -187,12 +187,12 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
  Hiermee is de analyse van het oorspronkelijke voorraadplan voltooid. Het selectievakje **Planningsboodschap accepteren** is ingeschakeld in alle planningsregels, wat aangeeft dat ze gereed zijn om te worden geconverteerd naar voorzieningenorders.  
 
 ## <a name="carrying-out-action-messages"></a>Planningsboodschappen uitvoeren  
- Vervolgens converteert Eduardo de voorgestelde planningsregels naar voorraadorders met de functie **Planningsboodschap uitvoeren**.  
+ Vervolgens converteert Eduardo de voorgestelde planningsregels naar voorraadorders met de functie **Planningsboodschap uitvoeren** .  
 
 ### <a name="to-automatically-create-the-suggested-supply-orders"></a>Automatisch de voorgestelde voorraadorders maken  
 
 1.  Schakel het selectievakje **Planningsboodschap accepteren** in op alle planningsregels met een waarschuwing van het soort Uitzondering.  
-2.  Kies de actie **Planningsboodschap uitvoeren**.  
+2.  Kies de actie **Planningsboodschap uitvoeren** .  
 3.  Vul op de pagina **Planningsboodschap uitvoeren - Plan.** de velden in, zoals is beschreven in de volgende tabel.  
 
     |Productieorder|Inkooporder|Transferorder|  
@@ -200,7 +200,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
     |Vast gepland|Inkooporders maken|Transferorders maken|  
 
 4.  Klik op **OK** om automatisch alle voorgestelde voorraadorders te maken.  
-5.  Sluit de lege pagina **Planningsvoorstel**.  
+5.  Sluit de lege pagina **Planningsvoorstel** .  
 
  Hiermee is de oorspronkelijke berekening, de analyse en het maken van een voorraadplan voor de vraag op de vestiging BLAUW in de eerste week van februari voltooid. In het volgende gedeelte bestelt een andere klant tien toerfietsen en moet Eduardo opnieuw plannen.  
 
@@ -211,7 +211,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>De nieuwe verkoopvraag maken en dienovereenkomstig opnieuw plannen  
 
-1.  Kies de actie **Nieuw**.  
+1.  Kies de actie **Nieuw** .  
 2.  Vul op de pagina **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
     |Naam van orderklant|Verzenddatum|Artikelnr.|Vestiging|Aantal|  
@@ -221,7 +221,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 3.  Accepteer de beschikbaarheidswaarschuwing en klik op **Ja** om het gevraagde aantal vast te leggen.  
 4.  Plan vervolgens opnieuw voor aanpassing van het huidige voorraadplan.  
 5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies de gerelateerde koppeling.  
-6.  Kies de actie **Mutatieplan berekenen**.  
+6.  Kies de actie **Mutatieplan berekenen** .  
 7.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
     |Planning berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot|  
@@ -230,11 +230,11 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 8.  Kies **OK** om de planning te starten.  
 
- In totaal zijn er 14 planningsregels gemaakt. In de eerste planningsregel ziet u dat in het veld **Planningsboodschap** de tekst **Nieuw** wordt weergegeven, in het veld **Aantal** staat 10 en in het veld **Vervaldatum** staat 12 februari 2014. Deze nieuwe regel voor het bovenliggende artikel, 1001, toerfiets, is gemaakt omdat het artikel gebruikmaakt van een bestelbeleid volgens **Order**, wat betekent dat deze moet worden geleverd in een één-op-één-relatie met de vraag, de verkooporder van tien stuks.  
+ In totaal zijn er 14 planningsregels gemaakt. In de eerste planningsregel ziet u dat in het veld **Planningsboodschap** de tekst **Nieuw** wordt weergegeven, in het veld **Aantal** staat 10 en in het veld **Vervaldatum** staat 12 februari 2014. Deze nieuwe regel voor het bovenliggende artikel, 1001, toerfiets, is gemaakt omdat het artikel gebruikmaakt van een bestelbeleid volgens **Order** , wat betekent dat deze moet worden geleverd in een één-op-één-relatie met de vraag, de verkooporder van tien stuks.  
 
- De volgende twee planningsregels zijn de productieorders voor de wielen van de toerfiets. Elke bestaande order van vijf, in het veld **Oorspr. aantal**, wordt verhoogd tot 15 in het veld **Aantal**. Beide productieorders hebben ongewijzigde vervaldatums, zoals aangegeven in het veld **Planningsboodschap** dat **Aantal wijzigen** bevat. Dit is ook het geval voor de planningsregel voor artikel 1300, behalve dat diens lotgrootte van 10,00 de getraceerde vraag voor 15 stuks afrondt naar 20.  
+ De volgende twee planningsregels zijn de productieorders voor de wielen van de toerfiets. Elke bestaande order van vijf, in het veld **Oorspr. aantal** , wordt verhoogd tot 15 in het veld **Aantal** . Beide productieorders hebben ongewijzigde vervaldatums, zoals aangegeven in het veld **Planningsboodschap** dat **Aantal wijzigen** bevat. Dit is ook het geval voor de planningsregel voor artikel 1300, behalve dat diens lotgrootte van 10,00 de getraceerde vraag voor 15 stuks afrondt naar 20.  
 
- Alle andere planningsregels hebben een planningsboodschap met **Herplannen en aantal wijzigen**. Dit betekent dat, los van een verhoging in aantal, de vervaldatums worden verplaatst conform het voorraadplan om het extra aantal op te nemen in de beschikbare productietijd (capaciteit). Ingekochte materialen worden opnieuw gepland en verhoogd om voor de productieorders te leveren. Ga door om de nieuwe planning te analyseren.  
+ Alle andere planningsregels hebben een planningsboodschap met **Herplannen en aantal wijzigen** . Dit betekent dat, los van een verhoging in aantal, de vervaldatums worden verplaatst conform het voorraadplan om het extra aantal op te nemen in de beschikbare productietijd (capaciteit). Ingekochte materialen worden opnieuw gepland en verhoogd om voor de productieorders te leveren. Ga door om de nieuwe planning te analyseren.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Het gewijzigde planningsresultaat analyseren  
  Omdat alle lot-voor-lot-geplande artikelen in het filter, 1100 tot 1300, een herplanningsperiode van twee weken hebben, worden de bestaande leveringsorders allemaal gewijzigd om aan de nieuwe vraag te voldoen, die binnen de opgegeven twee weken plaatsvindt.  
@@ -243,21 +243,21 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-view-order-tracking-entries-for-item-1250"></a>Ordertraceringposten voor artikel 1250 weergeven  
 
-1.  Selecteer de planningsregel voor artikel 1250 en kies de actie **Ordertracering**.  
+1.  Selecteer de planningsregel voor artikel 1250 en kies de actie **Ordertracering** .  
 
      De zeven regels op de pagina **Ordertracering** geven weer dat vijf en tien stuks worden getraceerd van het achterwiel naar de toerfietsen op de twee respectievelijke verkooporders.  
 
      De laatste vijf stuks zijn niet-getraceerd. Ga door om te analyseren.  
 
-2.  Selecteer het veld **Niet getraceerd aantal**.  
+2.  Selecteer het veld **Niet getraceerd aantal** .  
 
      Op de pagina **Niet-getraceerd planningselementen** ziet u dat artikel 1250 gebruikmaakt van een planningsparameter Vaste lotgrootte, met de waarde 10,00. Daarom bevat de planningsregel de waarde 20, om de werkelijke behoefte naar boven af te ronden op het eerstvolgende getal dat deelbaar is door 10. De laatste vijf stuks zijn een niet-getraceerd aantal om aan de planningsparameter te voldoen.  
 
-3.  Sluit alle pagina's behalve **Planningsvoorstel**.  
+3.  Sluit alle pagina's behalve **Planningsvoorstel** .  
 
 ### <a name="to-view-an-existing-order"></a>Een bestaande order bekijken  
 
-1.  Selecteer in de planningsregel voor artikel 1250 het veld **Referentieordernummer**. toe te wijzen.  
+1.  Selecteer in de planningsregel voor artikel 1250 het veld **Referentieordernummer** . toe te wijzen.  
 2.  Op de pagina **Vast geplande productieorder** voor de achternaaf. De bestaande order voor tien stuks die u in de eerste planning hebt gemaakt, opent.  
 3.  Sluit de vast geplande productieorder.  
 

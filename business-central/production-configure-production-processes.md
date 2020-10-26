@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b491287a3d59ffe220e91246fd6fbccbb9768115
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786933"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915422"
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
 Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
@@ -30,7 +30,7 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsparameters.|De pagina **Productie-instellingen**.|
+|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsparameters.|De pagina **Productie-instellingen** .|
 |Stel op het tabblad **Planning** op de pagina **Productie-instellingen** globale planningsparameters in die parameters overschrijven die op individuele artikelkaarten zijn ingesteld.|[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)|
 |Een standaardwerkweek in de productieafdeling definiëren met de begin- en eindtijd van elke werkdag en de bijbehorende dienst.|[Productieagenda's maken](production-how-to-create-work-center-calendars.md)|  
 |Vaste waarden en vereisten van productieresources indelen als afdelingen of bewerkingsplaatsen om de productie-output te bepalen.|[Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)|

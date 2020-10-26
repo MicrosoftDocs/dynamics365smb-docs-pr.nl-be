@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194175"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915072"
 ---
 # <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling  
 Effectief beheer van tegoeden is belangrijk voor de algemene financiële status van een bedrijf. De extensie Voorspelling van te late betaling kan u helpen uitstaande tegoeden te reduceren en uw inningsstrategie af te stemmen door te voorspellen of verkoopfacturen op tijd worden betaald. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen.
@@ -30,20 +30,20 @@ Als u de extensie handmatig wilt inschakelen, voert u de volgende stappen uit:
 2. Vul de vereiste velden in.
 
 > [!Note]
-> Houd er rekening mee dat als u besluit de extensie handmatig in te schakelen, [!INCLUDE[d365fin](includes/d365fin_md.md)] dit niet toestaat als de kwaliteit van het model laag is. De modelkwaliteit geeft aan hoe accuraat de voorspellingen van het model waarschijnlijk zijn. Verschillende factoren kunnen de kwaliteit van een model beïnvloeden. Bijvoorbeeld dat er onvoldoende gegevens waren of dat de gegevens niet voldoende variatie bevatten. U kunt de kwaliteit van het model dat u momenteel gebruikt, bekijken op de pagina **Voorspelling van te late betalingen instellen**. U kunt ook een minimumdrempelwaarde voor de modelkwaliteit opgeven.   
+> Houd er rekening mee dat als u besluit de extensie handmatig in te schakelen, [!INCLUDE[d365fin](includes/d365fin_md.md)] dit niet toestaat als de kwaliteit van het model laag is. De modelkwaliteit geeft aan hoe accuraat de voorspellingen van het model waarschijnlijk zijn. Verschillende factoren kunnen de kwaliteit van een model beïnvloeden. Bijvoorbeeld dat er onvoldoende gegevens waren of dat de gegevens niet voldoende variatie bevatten. U kunt de kwaliteit van het model dat u momenteel gebruikt, bekijken op de pagina **Voorspelling van te late betalingen instellen** . U kunt ook een minimumdrempelwaarde voor de modelkwaliteit opgeven.   
 
 ## <a name="viewing-all-payment-predictions"></a>Alle betalingsvoorspellingen weergeven
-Als u de extensie inschakelt, is de tegel **Voorspelling van te late betalingen instellen** beschikbaar in het rolcentrum **Bedrijfsmanager**. De tegel bevat het aantal betalingen dat voorspeld wordt te laat te zijn en u kunt de pagina **Klantenposten** openen waarin u dieper op de geboekte facturen kunt inzoomen. Er zijn drie kolommen om aandacht aan te besteden:  
+Als u de extensie inschakelt, is de tegel **Voorspelling van te late betalingen instellen** beschikbaar in het rolcentrum **Bedrijfsmanager** . De tegel bevat het aantal betalingen dat voorspeld wordt te laat te zijn en u kunt de pagina **Klantenposten** openen waarin u dieper op de geboekte facturen kunt inzoomen. Er zijn drie kolommen om aandacht aan te besteden:  
 
-* **Te late betaling**: geeft aan of de betaling van de factuur voorspeld wordt om te laat te zijn.
-* **Zekerheid van voorspelling**: geeft aan hoe betrouwbaar de voorspelling is. **Hoog** betekent dat de voorspelling minimaal 90% zeker is, **Gemiddeld** ligt tussen 80 en 90% en **Laag** ligt onder 80%.
-* **Zekerheidspercentage van voorspelling**: toont het werkelijke percentage achter de betrouwbaarheidsscore. Standaard wordt deze kolom niet weergegeven, maar u kunt deze toevoegen als u wilt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
+* **Te late betaling** : geeft aan of de betaling van de factuur voorspeld wordt om te laat te zijn.
+* **Zekerheid van voorspelling** : geeft aan hoe betrouwbaar de voorspelling is. **Hoog** betekent dat de voorspelling minimaal 90% zeker is, **Gemiddeld** ligt tussen 80 en 90% en **Laag** ligt onder 80%.
+* **Zekerheidspercentage van voorspelling** : toont het werkelijke percentage achter de betrouwbaarheidsscore. Standaard wordt deze kolom niet weergegeven, maar u kunt deze toevoegen als u wilt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 > [!Tip]
 > De pagina Klantenposten bevat ook een feitenblok aan de rechterkant. Terwijl u voorspellingen bekijkt, kunnen de gegevens in de sectie **Klantdetails** handig zijn. Wanneer u de factuur in de lijst hebt gekozen, bevat het gedeelte gegevens over de klant. U kunt ook direct actie ondernemen. Als een klant bijvoorbeeld slecht betaalt, kunt u de klantenkaart vanuit het feitenblok openen en de klant blokkeren voor toekomstige verkopen.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Een betalingsvoorspelling weergeven voor een specifiek verkoopdocument
-U kunt vooraf te late betalingen voorspellen. Op de pagina's **Verkoopoffertes**, **Verkooporders** en **Verkoopfacturen** kunt u de actie **Betaling voorspellen** gebruiken om een voorspelling te genereren voor het verkoopdocument dat u bekijkt.
+U kunt vooraf te late betalingen voorspellen. Op de pagina's **Verkoopoffertes** , **Verkooporders** en **Verkoopfacturen** kunt u de actie **Betaling voorspellen** gebruiken om een voorspelling te genereren voor het verkoopdocument dat u bekijkt.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
@@ -64,7 +64,7 @@ Deze webservices zijn staatloos, wat betekent dat ze gegevens alleen gebruiken o
 ### <a name="data-required-to-train-and-evaluate-the-model"></a>Gegevens die nodig zijn om het model te trainen en te evalueren 
 Voor elke **klantenpost** die een gerelateerde **geboekte verkoopfactuur** heeft:
 - Bedrag (LV) inclusief btw
-- Betalingsvoorwaarden in dagen worden berekend als **Vervaldatum** min **Boekingsdatum**.
+- Betalingsvoorwaarden in dagen worden berekend als **Vervaldatum** min **Boekingsdatum** .
 - Of er een toegepaste creditnota is. 
 
 Bovendien is de record verrijkt met geaggregeerde gegevens van andere facturen die betrekking hebben op dezelfde klant. Dit omvat het volgende:
@@ -92,11 +92,11 @@ Als blijkt dat uw processen niet overeenkomen met het standaardmodel, kunt u de 
 
 #### <a name="to-train-and-use-your-model"></a>Uw model trainen en gebruiken
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorspelling van te late betalingen instellen** in en kies de desbetreffende koppeling.  
-2. Kies in het veld **Geselecteerd model** de optie **Mijn model**.
+2. Kies in het veld **Geselecteerd model** de optie **Mijn model** .
 3. Kies de actie **Mijn model maken** om het model met uw gegevens te trainen.  
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Uw eigen voorspellende webservice voor voorspellingen van te laten betalingen maken en gebruiken
-U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Voorspellend experiment voor Dynamics 365 Business Central**. Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
+U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Voorspellend experiment voor Dynamics 365 Business Central** . Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Azure AI-galerie](https://go.microsoft.com/fwlink/?linkid=2086310).  
 2. Zoek naar **Voorspellend experiment voor Dynamics 365 Business Central** en open het model in Azure Machine Learning Studio.  
@@ -104,7 +104,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
 6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorspelling van te late betalingen instellen** in en kies de desbetreffende koppeling.  
-7. Kies het selectievakje **Mijn Azure-abonnement gebruiken**.
+7. Kies het selectievakje **Mijn Azure-abonnement gebruiken** .
 8. Voer op het sneltabblad **Aanmeldingsgegevens van mijn model** de API-URL en API-sleutel voor uw model op.  .  
 
 ## <a name="see-also"></a>Zie ook  

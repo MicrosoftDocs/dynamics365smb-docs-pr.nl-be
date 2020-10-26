@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dc74627139ceed4f475686d57b64737e7e42b47
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789362"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916055"
 ---
 # <a name="change-the-current-report-layout"></a>De huidige rapportindeling wijzigen
 Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen.
@@ -34,9 +34,9 @@ Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit
    De pagina **Selectie van rapportlay-out** bevat een overzicht van alle rapporten die beschikbaar zijn voor het bedrijf dat in het veld **Bedrijf** boven aan de pagina wordt opgegeven. Met het veld **Geselecteerde lay-out** wordt de lay-out opgegeven die momenteel in het rapport wordt gebruikt.
 2. Stel het veld **Bedrijf** boven aan de pagina in op het bedrijf dat het rapport bevat.
 3. Als u de lay-out wilt wijzigen die door een rapport wordt gebruikt, stelt u in de rij voor het rapport het veld **Geselecteerde lay-out** in op een van de volgende opties:
-   * **RDLC (ingebouwd)**, gebruikt de ingebouwde RDLC-rapportlay-out in het rapport.
-   * **Word (ingebouwd)**, gebruikt de ingebouwde Word-rapportlay-out in het rapport.
-   * **Aangepast**, gebruikt een aangepaste lay-out in het rapport.  
+   * **RDLC (ingebouwd)** , gebruikt de ingebouwde RDLC-rapportlay-out in het rapport.
+   * **Word (ingebouwd)** , gebruikt de ingebouwde Word-rapportlay-out in het rapport.
+   * **Aangepast** , gebruikt een aangepaste lay-out in het rapport.  
 
 > [!NOTE]
 > Als u een rapportlay-out van het type **RDLC (ingebouwd)** of **Word (ingebouwd)** kiest en een foutbericht krijgt dat het rapport geen lay-out van de opgegeven soort heeft, moet u een andere lay-outoptie kiezen of een aangepaste rapportlay-out maken van het soort dat u wilt gebruiken. Zie de volgende procedure.
@@ -46,10 +46,10 @@ Als u een ingebouwde RDLC- of Word-rapportlay-out hebt geselecteerd, is er verde
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>De aangepaste lay-out wijzigen die voor een rapportlay-out wordt gebruikt
 Misschien wilt u ook de huidige gebruikte aangepaste lay-out wijzigen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-Alle aangepaste rapportlay-outs die bestaan voor rapportlay-outs in een bedrijf, worden vermeld op de pagina **Aangepaste rapportlay-outs**. Op de pagina **Selectie van rapportlay-out** ziet u welke aangepaste lay-outs voor elk rapport beschikbaar zijn in het feitenblok **Aangepaste lay-outs**.
+Alle aangepaste rapportlay-outs die bestaan voor rapportlay-outs in een bedrijf, worden vermeld op de pagina **Aangepaste rapportlay-outs** . Op de pagina **Selectie van rapportlay-out** ziet u welke aangepaste lay-outs voor elk rapport beschikbaar zijn in het feitenblok **Aangepaste lay-outs** .
 
-1. Kies op de pagina **Selectie van rapportlay-out**, op de regel voor de rapportlay-out die u wilt wijzigen, de opzoekknop in het veld **Aangepaste lay-outbeschrijving**.
-2. Selecteer op de pagina **Aangepaste rapportlay-outs** de rij voor de aangepaste lay-out die u wilt gebruiken, en kies vervolgens de knop **OK**.
+1. Kies op de pagina **Selectie van rapportlay-out** , op de regel voor de rapportlay-out die u wilt wijzigen, de opzoekknop in het veld **Aangepaste lay-outbeschrijving** .
+2. Selecteer op de pagina **Aangepaste rapportlay-outs** de rij voor de aangepaste lay-out die u wilt gebruiken, en kies vervolgens de knop **OK** .
 
 De naam van de geselecteerde aangepaste lay-out wordt nu weergegeven in het veld **Aangepaste lay-outbeschrijving** en deze wordt de volgende keer dat het rapport of document wordt bekeken, afgedrukt of verzonden, gebruikt.
 

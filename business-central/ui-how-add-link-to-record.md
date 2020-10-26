@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 39aae609e588635a07fdc406faa63dd4ced3606d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789387"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918575"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
@@ -32,23 +32,23 @@ Bijlagen, koppelingen en notities blijven gekoppeld terwijl de kaart of het docu
 U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
-> Bestanden die zijn gekoppeld met de functie Inkomende documenten, worden niet opgenomen op het tabblad **Bijlagen**. Zie voor meer informatie [Inkomende documenten](across-income-documents.md).
+> Bestanden die zijn gekoppeld met de functie Inkomende documenten, worden niet opgenomen op het tabblad **Bijlagen** . Zie voor meer informatie [Inkomende documenten](across-income-documents.md).
 
 De volgende procedure is gebaseerd op een inkoopfactuur. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
 2. Open de verkooporder waaraan u een bestand wilt koppelen.
-3. Open het feitenblok **Bijlagen**.
-4. Kies de waarde achter het veld **Documenten**, zoals '0'.
-5. Kies op de pagina **Gekoppelde documenten** in het veld **Bijlage** de actie **Bestand selecteren**.
-5. Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.
+3. Open het feitenblok **Bijlagen** .
+4. Kies de waarde achter het veld **Documenten** , zoals '0'.
+5. Kies op de pagina **Gekoppelde documenten** in het veld **Bijlage** de actie **Bestand selecteren** .
+5. Selecteer een bestand van een willekeurige locatie en kies de knop **Openen** .
 
 Het bestand wordt nu gekoppeld aan de inkoopfactuur.
 
 ## <a name="to-view-an-attached-file"></a>Een gekoppeld bestand weergeven
-1. Open het feitenblok **Bijlagen**.
-2. Kies de waarde achter het veld **Documenten**, zoals '1'.
-3. Kies op de pagina **Gekoppelde documenten** de actie **Voorbeeld**.
+1. Open het feitenblok **Bijlagen** .
+2. Kies de waarde achter het veld **Documenten** , zoals '1'.
+3. Kies op de pagina **Gekoppelde documenten** de actie **Voorbeeld** .
 4. Open het gedownloade bestand.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Een document als PDF-bijlage opslaan
@@ -57,7 +57,7 @@ Wanneer u een document als bestand moet opslaan, kunt u de actie **Bijvoegen als
 De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelijkbaar voor alle ondersteunde documenten.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
-2. Selecteer een verkooporder en kies de actie **Bijvoegen als PDF**.
+2. Selecteer een verkooporder en kies de actie **Bijvoegen als PDF** .
 
 Een PDF-bestand met de huidige inhoud van de verkooporder wordt toegevoegd aan het tabblad **Bijlagen** in het feitenblok.
 
@@ -68,13 +68,13 @@ De volgende procedure is gebaseerd op een artikelkaart. De stappen lijken op all
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Selecteer het item waaruit u een koppeling wilt toevoegen en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
-3. Kies in de **Koppelingen** het pictogram **+**.
+3. Kies in de **Koppelingen** het pictogram **+** .
 4. Voer in het veld **Koppelingsadres** de koppeling in.
 
     De koppeling moet een geldige internet- of intranet-URL zijn.
 
 5. Voer in het veld **Beschrijving** informatie over de koppeling in.  
-6. Kies de knop **Ok**.
+6. Kies de knop **Ok** .
 
 De koppeling is nu gekoppeld aan de artikelkaart.  
 
@@ -88,9 +88,9 @@ De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op all
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Selecteer de verkooporder waarin u een notitie wilt schrijven en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
-3. Kies in de sectie **Notities** het pictogram **+**.
+3. Kies in de sectie **Notities** het pictogram **+** .
 4. Schrijf in het veld **Notitie** tekst, zoals "Dit is een dringende bestelling."
-5. Kies de knop **Ok**.
+5. Kies de knop **Ok** .
 
 De notitie is nu aan de verkooporder toegevoegd.
 

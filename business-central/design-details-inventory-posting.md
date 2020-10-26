@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f95d82b3dc73b50f310fe2d4932d78a450f9b21b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787733"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913725"
 ---
 # <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
 
@@ -109,7 +109,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 > 
 > Het veld **Vrd.-waarde geboekt** in de tabel **Waardepost** wordt gevuld.  
 
- De relatie tussen waardeposten en grootboekposten wordt opgeslagen in de tabel **Relatie GB-artikeljournaal**.  
+ De relatie tussen waardeposten en grootboekposten wordt opgeslagen in de tabel **Relatie GB-artikeljournaal** .  
 
 ### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Relatieposten in het grootboek - tabel Artikelpostrelatie (3)
 

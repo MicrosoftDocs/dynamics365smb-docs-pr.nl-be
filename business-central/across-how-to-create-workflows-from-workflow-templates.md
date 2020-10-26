@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5e3f26e45a4c990a3614011e21fe8d661973035
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b2ee2dcba364f7b89bae49c3f15f098c51d2c5a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784746"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913559"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Werkstromen maken van werkstroomsjablonen
 Om tijd te besparen bij het maken van nieuwe werkstromen kunt u werkstromen maken van werkstroomsjablonen.  
@@ -30,8 +30,8 @@ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappe
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Een werkstroom maken van een werkstroomsjabloon  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Werkstroom maken van sjabloon**. De pagina **Werkstroomsjablonen** verschijnt.  
-3.  Selecteer een werkstroomsjabloon en kies vervolgens de knop **OK**.  
+2.  Kies de actie **Werkstroom maken van sjabloon** . De pagina **Werkstroomsjablonen** verschijnt.  
+3.  Selecteer een werkstroomsjabloon en kies vervolgens de knop **OK** .  
 
      De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. De waarde in het veld **Code** wordt uitgebreid met bijvoorbeeld '- 01' om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon.  
 4.  Ga verder met het maken van de werkstroom door de werkstroomstappen te bewerken of nieuwe stappen toe te voegen. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  

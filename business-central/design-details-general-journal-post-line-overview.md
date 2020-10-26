@@ -1,6 +1,6 @@
 ---
 title: Overzicht dagboekboekingsregel | Microsoft Docs
-description: In dit onderwerp worden de wijzigingen beschreven die zijn doorgevoerd in Codeunit 12, **Dagboek - Boekingsregel**, het belangrijkste toepassingsobject voor grootboekboekingen en de enige plaats om grootboek-, btw-, klanten- en leveranciersposten in te voegen.
+description: In dit onderwerp worden de wijzigingen beschreven die zijn doorgevoerd in Codeunit 12, **Dagboek - Boekingsregel** , het belangrijkste toepassingsobject voor grootboekboekingen en de enige plaats om grootboek-, btw-, klanten- en leveranciersposten in te voegen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3891d97788cbb4751a9ee9e06baab39f7088f67f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787958"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911117"
 ---
 # <a name="general-journal-post-line-overview"></a>Overzicht dagboekboekingsregel
-Codeunit 12, **Dagboek - Boekingsregel**, is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
+Codeunit 12, **Dagboek - Boekingsregel** , is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
   
 Terwijl de codeunit in elke versie gedurende de laatste tien jaar is verbeterd, bleef de architectuur hoofdzakelijk ongewijzigd. De codeunit werd zeer groot, met ongeveer 7.600 coderegels. In deze versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] is de architectuur gewijzigd en is de codeunit eenvoudiger en makkelijker te beheren. Deze documentatie introduceert de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
   

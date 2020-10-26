@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c94a02cdbd658efcf96c5cff443ebfe03cb3feef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f5a1933e803322367b241e772d796f1365f9d11
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785908"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915472"
 ---
 # <a name="set-up-stockkeeping-units"></a>SKU's instellen
 In SKU's kunt u gegevens opnemen over de artikelen voor een bepaalde vestiging of een bepaalde variantcode.  
@@ -25,15 +25,15 @@ In SKU's kunt u gegevens opnemen over de artikelen voor een bepaalde vestiging o
 ## <a name="to-set-up-a-stockkeeping-unit"></a>SKU's instellen  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU's** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
-3.  Vul de velden op de kaart in. De volgende velden zijn vereist: **Artikelnr.**, **Vestigingscode** en/of **variantcode**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2.  Kies de actie **Nieuw** .  
+3.  Vul de velden op de kaart in. De volgende velden zijn vereist: **Artikelnr.** , **Vestigingscode** en/of **variantcode** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Als u de eerste SKU voor een artikel hebt ingesteld, wordt het selectievakje **SKU bestaat** op de kaart **Artikel** ingeschakeld.  
 
 Als u meerdere SKU's voor een artikel wilt maken, kunt u de batchverwerking **SKU maken** gebruiken.  
 
 > [!NOTE]  
->  De gegevens op de **SKU**-kaart hebben voorrang op de gegevens op de **artikelkaart**.
+>  De gegevens op de **SKU** -kaart hebben voorrang op de gegevens op de **artikelkaart** .
 
 > [!Warning]
 > Wanneer de SKU wordt geleverd via productie, wordt het veld **Vaste verrekenprijs** niet gebruikt bij de facturering en de berekening van de werkelijke kosten van een geproduceerd artikel. In plaats daarvan wordt het veld **Vaste verrekenprijs** van de onderliggende artikelkaart gebruikt en worden eventuele afwijkingen berekend tegen het kostenaandeel van dat artikel.<br /><br />

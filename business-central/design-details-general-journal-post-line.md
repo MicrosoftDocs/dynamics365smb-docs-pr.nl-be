@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4186a97957e48b6d36c478d0280374cce0fbfc76
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aaffac8fe7e10d0155649c960803f65a8136c46d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787883"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911092"
 ---
 # <a name="design-details-general-journal-post-line"></a>Ontwerpdetails: dagboekboekingsregel
 Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en principes die worden gebruikt om de functie voor dagboekboekingsregels in [!INCLUDE[d365fin](includes/d365fin_md.md)] opnieuw te ontwerpen. Door het nieuwe ontwerp wordt codeunit 12 eenvoudiger en makkelijker te beheren. In de documentatie wordt als eerste het conceptoverzicht van het nieuwe ontwerp beschreven. Vervolgens wordt de technische architectuur uitgelegd om de wijzigingen door het nieuwe ontwerp te tonen.  

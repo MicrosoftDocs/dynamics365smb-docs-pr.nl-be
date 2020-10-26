@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d431995907f18e8439f415e1f724d4bbf9f77a31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782180"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913875"
 ---
 # <a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
 Soms moet u mogelijk een geboekte assemblageorder verwijderen, zoals wanneer de order is geboekt met fouten die moeten worden gecorrigeerd of omdat deze niet geboekt had mogen worden en moet worden teruggedraaid.
@@ -24,7 +24,7 @@ Wanneer u een geboekte assemblageorder ongedaan wilt maken, wordt er een set met
 
 Wanneer u een volledig geboekte assemblageorder ongedaan maakt, kunt u er vervolgens voor kiezen om de assemblageorder opnieuw te maken op basis van de oorspronkelijke staat, zodat u bijvoorbeeld correcties kunt aanbrengen voordat u deze opnieuw boekt. U kunt er ook voor kiezen om de assemblageorder niet opnieuw te maken.  
 
-Wanneer u een gedeeltelijk geboekte assemblageorder ongedaan maakt, worden vervolgens alle betrokken velden, zoals de velden **Geassembleerde hoeveelheid**, **Verbruikt aantal** en **Resterend aantal**, opnieuw ingesteld op de waarden die deze hadden voordat de desbetreffende boeking werd uitgevoerd.  
+Wanneer u een gedeeltelijk geboekte assemblageorder ongedaan maakt, worden vervolgens alle betrokken velden, zoals de velden **Geassembleerde hoeveelheid** , **Verbruikt aantal** en **Resterend aantal** , opnieuw ingesteld op de waarden die deze hadden voordat de desbetreffende boeking werd uitgevoerd.  
 
 Als u assemblageorders opnieuw wilt maken of wilt terugzetten, moeten het assemblage-artikel dat in de oorspronkelijke boeking is uitgevoerd, voldoen aan de volgende voorwaarden:  
 
@@ -43,12 +43,12 @@ De volgende procedure beschrijft het ongedaan maken van geboekte assemblageorder
 1.  Als u een volledig of gedeeltelijk geboekte assemblageorder ongedaan wilt maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geboekte assemblageorders** in en kiest u de gerelateerde koppeling.  
 
     De pagina **Geboekte assemblageorders** wordt geopend met een of meer assemblageorders die zijn geboekt voor de assemblageorder in kwestie. Elke gedeeltelijke boeking leidt tot het maken van een afzonderlijk geboekte assemblageorder.  
-2.  Open de geboekte assemblyorder die u ongedaan wilt maken en kies vervolgens de actie **Assemblage ongedaan maken**.  
+2.  Open de geboekte assemblyorder die u ongedaan wilt maken en kies vervolgens de actie **Assemblage ongedaan maken** .  
 
     Als de geboekte assemblageorder die u ongedaan wilt maken betrekking heeft op een volledig geboekte assemblageorder die nu wordt verwijderd, hebt u de mogelijkheid om deze opnieuw te maken omdat u deze gewoonlijk opnieuw zult willen verwerken.  
 3.  Klik op de knop **Ja** als u de assemblageorder opnieuw wilt maken. Klik op de knop **Nee** als u de boeking ongedaan wilt maken zonder de bijbehorende assemblageorder opnieuw te maken.  
 
-Het veld **Tegengeboekt** in de assemblageorder verandert in **Ja**. De assemblageorderboeking is nu teruggedraaid en u kunt doorgaan met het verwerken van de gehele assemblageorder als u ervoor kiest om deze opnieuw te maken of om de assemblageorder die u in de oorspronkelijke hebt teruggezet, te openen.  
+Het veld **Tegengeboekt** in de assemblageorder verandert in **Ja** . De assemblageorderboeking is nu teruggedraaid en u kunt doorgaan met het verwerken van de gehele assemblageorder als u ervoor kiest om deze opnieuw te maken of om de assemblageorder die u in de oorspronkelijke hebt teruggezet, te openen.  
 
 > [!NOTE]  
 >  Als u aantallen uit meerdere gedeeltelijke boekingen voor een assemblageorder wilt herstellen, moet u alle geboekte assemblageorders in kwestie ongedaan maken door voor elke geboekte assemblageorder de hiervoor beschreven stappen 1 tot en met 3 uit te voeren.  

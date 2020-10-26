@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 854970fc2d47110375cf905236df19c90db27e33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181400"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914051"
 ---
 # <a name="record-interactions-with-contacts"></a>Interacties met contacten vastleggen
 Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
@@ -39,9 +39,9 @@ Er zijn twee manieren om interacties te registreren:
 * U kunt automatisch interacties registreren wanneer u acties uitvoert in de toepassing, bijvoorbeeld wanneer u een factuur of offerte afdrukt. Zie voor meer informatie [Automatisch interacties met contacten registreren](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren
-U kunt alle geregistreerde interacties die niet zijn verwijderd, weergeven op de pagina **Interactielogposten**. U kunt deze pagina openen door:
+U kunt alle geregistreerde interacties die niet zijn verwijderd, weergeven op de pagina **Interactielogposten** . U kunt deze pagina openen door:
 
-* Het pictogram **Zoeken naar pagina of rapport** gebruiken om te zoeken naar **Interactielogposten**.
+* Het pictogram **Zoeken naar pagina of rapport** gebruiken om te zoeken naar **Interactielogposten** .
 * De actie **Interactielogposten** kiezen voor een contact of segment.
   De pagina **Interactielogpost** bevat de interacties die u handmatig maakt en de interacties die automatisch worden geregistreerd.
 

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 98b0f0542d5d6123b1d512e343b89bd6059bb739
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a1f6002f0c57530282b5688c0fe81c36a1d4e7e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782555"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912933"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Aanbevolen procedures instellen: Planningparameters
 Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsketen van een bedrijf. De juiste planningsparameters instellen is zeer belangrijk voor efficiënt voorraadbeheer en sterke klantenservice.  
 
- De volgende tabel bevat de aanbevolen procedures voor het instellen van de geselecteerde planningparametervelden. Voor meer informatie over een veld, kiest u de koppeling in de kolom **Veld instellen**.  
+ De volgende tabel bevat de aanbevolen procedures voor het instellen van de geselecteerde planningparametervelden. Voor meer informatie over een veld, kiest u de koppeling in de kolom **Veld instellen** .  
 
 |Veld instellen|Aanbevolen procedure|Opmerking|  
 |-----------------|-------------------|-------------|  
@@ -38,7 +38,7 @@ Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsk
 > [!NOTE]  
 >  Aanbevolen procedures voor de planningsparameters op artikelkaarten zijn ook van toepassing op dezelfde velden op de SKU-kaarten.  
 >   
->  Als bedrijven de vraag voor verschillende vestigingen plannen, dan is het ten zeerste aanbevolen om SKU's te definiëren voor elke locatie en om alle vraag te maken met een waarde in het veld **vestigingscode**. Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
+>  Als bedrijven de vraag voor verschillende vestigingen plannen, dan is het ten zeerste aanbevolen om SKU's te definiëren voor elke locatie en om alle vraag te maken met een waarde in het veld **vestigingscode** . Zie [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook  
  [Aanbevolen procedures instellen: Voorraadplanning](setup-best-practices-supply-planning.md)   

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192159"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912808"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Waarschuwingen verzenden over land/regio-specifieke wettelijke functies
 
@@ -51,8 +51,8 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
         |Title  | Voer een omschrijvende titel in om het invloedsgebied aan te geven. Voer bijvoorbeeld *Wijzigingen in factuurdocument vanaf juli* in. |
         |Description  | Voer een kort overzicht van de wet in. Uw omschrijving moet zich richten op problemen die relevant zijn voor Enterprise Resource Planning (ERP), zodat gebruikers de vereisten op een hoog niveau begrijpen zonder eerst de wetgeving te lezen.|
         |Land  | Geef het land of de regio op waarop de wetgeving van toepassing is.|
-        |Sector| Geef de branche op als de vereiste alleen op bepaalde branches van toepassing is. Kies bijvoorbeeld **Openbare sector**, **Detailhandel** of **Productie**.|
-        |Functiereferentie  | Dit is niet relevant voor Dynamics 365 Business Central, maar u kunt een functiereferentie invoeren, als u deze kent. De lijst van functies voor het specifieke land kan worden gevonden in de [Lokalisatieportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) op de CustomerSource-site. |
+        |Sector| Geef de branche op als de vereiste alleen op bepaalde branches van toepassing is. Kies bijvoorbeeld **Openbare sector** , **Detailhandel** of **Productie** .|
+        |Functiereferentie  | Dit is niet relevant voor Dynamics 365 Business Central, maar u kunt een functiereferentie invoeren, als u deze kent. De lijst van functies voor het specifieke land/regio kan worden gevonden in de [Lokalisatieportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) op de CustomerSource-site. |
         |Datum van wetgeving  | Geef de datum op waarop betrokken klanten moeten beginnen te voldoen aan de wet.|
         |Datum van overheidsaankondiging  | Geef de datum op waarop de autoriteit de wijziging aankondigde.|
         |Laatste archiveringsdatum  | Selecteer de deadline voor de eerste indiening van het nieuwe of gewijzigde rapport.|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b0ff7e3de9de21a37c0cacf6ff1d4b0a4871f61d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9cb31546dcefaba5f15cb630467d759812d48c81
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190287"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916763"
 ---
 # <a name="block-vendors"></a>Leveranciers blokkeren
 U kunt een leverancier blokkeren, bijvoorbeeld vanwege insolventie, zodat de leverancier niet aan inkoopdocumenten kan worden toegevoegd of zodat geen betalingen voor de leverancier kunnen worden geboekt.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782455"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912683"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
@@ -26,13 +26,13 @@ Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen
 
 -   Bovenaan kunt u met de navigatie schakelen tussen klanten, leveranciers, artikelen en andere belangrijke lijsten met informatie. Op dezelfde manier kunt u met acties taken starten, zoals een nieuwe verkoopfactuur maken, direct vanuit het Rolcentrum.
 
--   In het midden ziet u het gebied **Activiteiten**, dat actuele gegevens toont en waarop kan worden geklikt of getikt om meer gedetailleerde informatie te bekijken. KPI´s (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met favoriete klanten maken in het rolcentrum voor zakelijke accounts waarmee u vaak zaken doet of waaraan u speciale aandacht moet geven.
+-   In het midden ziet u het gebied **Activiteiten** , dat actuele gegevens toont en waarop kan worden geklikt of getikt om meer gedetailleerde informatie te bekijken. KPI´s (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met favoriete klanten maken in het rolcentrum voor zakelijke accounts waarmee u vaak zaken doet of waaraan u speciale aandacht moet geven.
 
 ### <a name="to-change-the-role"></a>De rol wijzigen
-De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om een rolcentrum te selecteren dat beter aan uw behoeften voldoet.
-1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
-2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant**.
-3. Kies de knop **Ok**.
+De standaardrol is **Bedrijfsmanager** , maar u kunt een andere rol selecteren om een rolcentrum te selecteren dat beter aan uw behoeften voldoet.
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen** .
+2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant** .
+3. Kies de knop **Ok** .
 
 ## <a name="company"></a><a name="company"></a>Bedrijf
 Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
@@ -40,9 +40,9 @@ Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes
 Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw bedrijf met aangepaste gegevens maken. Zie [Nieuwe bedrijven](about-new-company.md) maken voor meer informatie.
 
 ## <a name="to-change-the-company-name"></a>De bedrijfsnaam wijzigen
-De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum. U kunt deze naam wijzigen op de pagina **Bedrijfsgegevens**.
+De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum. U kunt deze naam wijzigen op de pagina **Bedrijfsgegevens** .
 
-1. Kies het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en kies vervolgens de actie **Bedrijfsgegevens**.
+1. Kies het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en kies vervolgens de actie **Bedrijfsgegevens** .
 2. Voer in het veld **Naam** de nieuwe bedrijfsnaam in.
 3. Verlaat de pagina. Het systeem start opnieuw op en geeft het nieuwe bedrijf in de linkerbovenhoek weer.
 
@@ -59,7 +59,7 @@ U kunt een aangepaste badge in de rechterbovenhoek toevoegen, die u kunt kiezen 
 De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet de datum van vandaag is.
 
 > [!TIP]  
-> Typ in alle datumvelden **v** om snel de datum van vandaag in te voeren en typ **w** om snel de werkdatum in te voeren. Dit is de waarde in het veld **Werkdatum** op de pagina **Mijn instellingen**.
+> Typ in alle datumvelden **v** om snel de datum van vandaag in te voeren en typ **w** om snel de werkdatum in te voeren. Dit is de waarde in het veld **Werkdatum** op de pagina **Mijn instellingen** .
 
 > [!IMPORTANT]  
 >  Nadat u de werkdatum wijzigt, als u zich afmeldt of naar een ander bedrijf gaat, krijgen de werkgegevens weer de standaardwerkdatum. Als u zich de volgende keer aanmeldt of teruggaat naar het originele bedrijf, moet u de werkdatum mogelijk weer instellen.
@@ -67,7 +67,7 @@ De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogeli
 ### <a name="work-date-indication"></a>Indicatie van werkdatum
 Wanneer de werkdatum niet is ingesteld op de datum van vandaag, verschijnen er twee soorten indicatoren op pagina's die kunnen worden bewerkt en waar de werkdatum daarom van cruciaal belang is:
 
-* Boven aan de pagina wordt een herinnering weergegeven die aangeeft waar de werkdatum op is ingesteld. De herinnering biedt een directe koppeling naar de instelling van de werkdatum op de pagina **Mijn instellingen**, zodat u de datum kunt wijzigen als u dat wilt. Vanuit de herinnering kunt u er ook voor kiezen om de herinnering voor de rest van uw sessie te negeren. Tenzij u de werkdatum wijzigt in 'vandaag', verschijnt de herinnering de volgende keer dat u zich aanmeldt.
+* Boven aan de pagina wordt een herinnering weergegeven die aangeeft waar de werkdatum op is ingesteld. De herinnering biedt een directe koppeling naar de instelling van de werkdatum op de pagina **Mijn instellingen** , zodat u de datum kunt wijzigen als u dat wilt. Vanuit de herinnering kunt u er ook voor kiezen om de herinnering voor de rest van uw sessie te negeren. Tenzij u de werkdatum wijzigt in 'vandaag', verschijnt de herinnering de volgende keer dat u zich aanmeldt.
 
 * Als u de herinnering negeert, wordt de werkdatum weergegeven in de titel van de pagina.  
 

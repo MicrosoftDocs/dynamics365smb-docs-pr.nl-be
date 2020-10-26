@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f82b0a8f6734a9711cb0a6e2cc5a96c9f0dd1b34
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786408"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913333"
 ---
 # <a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
 Tijdens kostenverdelingen worden kosten en opbrengsten verplaatst tussen kostensoorten , kostenplaatsen en kostenobjecten. U kunt zo veel verdelingen definiëren als u nodig hebt. Elke verdeling bestaat uit:  
@@ -39,14 +39,14 @@ Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De 
 
 ### <a name="to-set-up-cost-allocations"></a>Kostenverdeling instellen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies de desbetreffende koppeling.  
-2.  Kies op de pagina **Kostenverdeling** de actie **Bewerken**.  
-3.  Geef een id voor de verdelingsbron op in het veld **ID**.  
-4.  Definieer een niveau als een getal tussen 1 en 99 in het veld **Niveau**. De verdelingsboeking volgt de volgorde van de niveaus.  
-5.  Voer een kostensoort in om te bepalen welke typen kosten worden toegerekend in het veld **Kostensoortbereik**. Als alle kosten voor een kostensoort worden toegerekend, wordt geen bereik gedefinieerd.  
-6.  Voer een kostenplaats met kosten in om toe te wijzen in het veld **Kostenplaatscode**.  
-7.  Voer een kostenobject met kosten in om toe te wijzen in het veld **Kostenobjectcode**. In de meeste gevallen blijft dit veld leeg, omdat kostenobjecten zelden worden toegewezen aan andere kostenobjecten.  
+2.  Kies op de pagina **Kostenverdeling** de actie **Bewerken** .  
+3.  Geef een id voor de verdelingsbron op in het veld **ID** .  
+4.  Definieer een niveau als een getal tussen 1 en 99 in het veld **Niveau** . De verdelingsboeking volgt de volgorde van de niveaus.  
+5.  Voer een kostensoort in om te bepalen welke typen kosten worden toegerekend in het veld **Kostensoortbereik** . Als alle kosten voor een kostensoort worden toegerekend, wordt geen bereik gedefinieerd.  
+6.  Voer een kostenplaats met kosten in om toe te wijzen in het veld **Kostenplaatscode** .  
+7.  Voer een kostenobject met kosten in om toe te wijzen in het veld **Kostenobjectcode** . In de meeste gevallen blijft dit veld leeg, omdat kostenobjecten zelden worden toegewezen aan andere kostenobjecten.  
 8.  Voer een kostensoort in het veld **Credit naar kostensoort** in. De kosten die zijn toegewezen worden gecrediteerd aan de bronkostensoort. De creditboeking wordt geboekt naar de hier opgegeven kostensoort.  
-9. Definieer de toewijzingsdoelen op het sneltabblad **Regels**. Voer op de eerste regel een kostensoort in het veld **Doelkostensoort** in. Hiermee wordt gedefinieerd van welke kostensoort de toerekening wordt gedebiteerd.  
+9. Definieer de toewijzingsdoelen op het sneltabblad **Regels** . Voer op de eerste regel een kostensoort in het veld **Doelkostensoort** in. Hiermee wordt gedefinieerd van welke kostensoort de toerekening wordt gedebiteerd.  
 10. Voer op de eerste regel het eerste toewijzingsdoel in het veld **Doelkostenplaats** **Doelkostenobject** in. Deze twee velden definiëren van welke kostenplaats of kostenobject de toewijzing wordt gedebiteerd. U kunt slechts een van deze velden invullen, maar niet beide.  
 11. Herhaal de dezelfde stappen op de tweede regel om extra verdeeldoelen in te stellen.  
 12. Nadat u het verdeeldoel en de verdelingsbronnen hebt ingesteld, kiest u de actie **Verdeelsleutel berekenen** om de totaalwaarden van de aandelen te berekenen.  
@@ -58,7 +58,7 @@ Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De 
 De methode voor dynamische toewijzing is gebaseerd op wijzigbare waarden. Bijvoorbeeld het aantal werknemers in een kostenplaats, of de verkochte artikelen van een kostenobject in een bepaalde periode. Er zijn negen vooraf gedefinieerde toewijzingsgrondslagen en twaalf dynamische periodes. U stelt verschillende filters in op basis van de toewijzingsgrondslag.  
 
 ### <a name="setting-filters-for-dynamic-allocation-bases"></a>Filters instellen voor dynamische toewijzingsgrondslagen  
- De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende toewijzingsgrondslagen en welke waarden geldig zijn in de velden **Nr.-filter** en **Groepfilter**. Druk op F1 in het veld **Datumfiltercode** om gedetailleerde omschrijvingen te lezen.  
+ De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende toewijzingsgrondslagen en welke waarden geldig zijn in de velden **Nr.-filter** en **Groepfilter** . Druk op F1 in het veld **Datumfiltercode** om gedetailleerde omschrijvingen te lezen.  
 
 |**Basis**|**Nr.-filter**|**Datumfiltercode**|**Kostenplaatsfilter**|**Kostenobjectfilter**|**Groepfilter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -83,9 +83,9 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdeling** in en kies de desbetreffende koppeling.  
-2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
+2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw** .  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
-4.  Geef **1** op in het veld **Niveau**.  
+4.  Geef **1** op in het veld **Niveau** .  
 5.  Voer in de velden **Geldig vanaf** en **Geldig tot** juiste datums in.  
 6.  Voer in het veld **Kostenplaatscode** **PROD** in.  
 7.  Voer in het veld **Credit naar kostensoort** het kostensoort **9903** in.  
@@ -93,17 +93,17 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 ### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Verdeeldoelen voor kostenobjecten op de sneltabblad Regels definiëren  
 
 1.  Voer op de eerste regel in het veld **Doelkostensoort** **9903** in.  
-2.  Selecteer op de eerste regel in het veld **Doelkostenobject** **ACCESSO**.  
+2.  Selecteer op de eerste regel in het veld **Doelkostenobject** **ACCESSO** .  
 3.  Selecteer op de eerste regel in het veld **Verdelingsdoelsoort** de optie **Alle kosten** om te definiëren hoe te betalen kosten moeten worden toegewezen.  
 4.  Op de eerste regel in het veld **Basis** selecteert u **Statisch** om de statische toewijzingsmethode te gebruiken.  
 5.  Op de eerste regel in het veld **Deel** voert u de verdeelsleutel **5** in.  
 6.  Voer op de tweede regel in het veld **Doelkostensoort** **9903** in.  
-7.  Selecteer op de tweede regel in het veld **Doelkostenobject** **PAINT**.  
+7.  Selecteer op de tweede regel in het veld **Doelkostenobject** **PAINT** .  
 8.  Selecteer op de tweede regel in het veld **Verdelingsdoelsoort** de optie **Alle kosten** om te definiëren hoe te betalen kosten moeten worden toegewezen.  
 9. Op de tweede regel in het veld **Basis** selecteert u **Statisch** om de statische toewijzingsmethode te gebruiken.  
 10. Op de tweede regel in het veld **Deel** voert u de verdeelsleutel **2** in.  
 11. Voer op de derde regel in het veld **Doelkostensoort** **9903** in.  
-12. Selecteer op de derde regel in het veld **Doelkostenobject** **FITTINGS**.  
+12. Selecteer op de derde regel in het veld **Doelkostenobject** **FITTINGS** .  
 13. Selecteer op de derde regel in het veld **Verdelingsdoelsoort** de optie **Alle kosten** om te definiëren hoe te betalen kosten moeten worden toegewezen.  
 14. Op de derde regel in het veld **Basis** selecteert u **Statisch** om de statische toewijzingsmethode te gebruiken.  
 15. Op de derde regel in het veld **Deel** voert u de verdeelsleutel **4** in.  
@@ -120,16 +120,16 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies de desbetreffende koppeling.  
-2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
+2.  Kies op de pagina **Kostenverdeling** de actie **Nieuw** .  
 3.  Druk in het veld **ID** op Enter of voer een id in.  
-4.  Geef **1** op in het veld **Niveau**.  
+4.  Geef **1** op in het veld **Niveau** .  
 5.  Voer in de velden **Geldig vanaf** en **Geldig tot** juiste datums in.  
 6.  Voer in het veld **Kostenplaatscode** **SALES** in.  
 7.  Voer in het veld **Credit naar kostensoort** het kostensoort **9903** in.  
 8.  Voer in het veld **Doelkostensoort** het kostensoort **9903** in.  
-9. Kies in het veld **Doelkostenobject** de optie **Nieuw** om een nieuw kostenobject IT-APPARATUUR te maken en vul waar nodig de velden in. Selecteer **IT-APPARATUUR**. Laat het veld **Doelkostenplaats** leeg.  
+9. Kies in het veld **Doelkostenobject** de optie **Nieuw** om een nieuw kostenobject IT-APPARATUUR te maken en vul waar nodig de velden in. Selecteer **IT-APPARATUUR** . Laat het veld **Doelkostenplaats** leeg.  
 10. Selecteer in het veld **Verdelingsdoelsoort** de optie **Alle kosten** om te definiëren hoe alle gecumuleerde kosten moeten worden toegewezen.  
-11. In het veld **Basis** selecteert u de toewijzingsbasis **Artikelen verkocht (bedrag)**.  
+11. In het veld **Basis** selecteert u de toewijzingsbasis **Artikelen verkocht (bedrag)** .  
 12. Voer in het veld **Nr.-filter** **8904-W..8924-W** in.  
 13. Voer in het veld **Datumfiltercode** **Vorig jaar** in.  
 14. Kies de actie **Verdeelsleutel berekenen** om het aandeel te berekenen.  

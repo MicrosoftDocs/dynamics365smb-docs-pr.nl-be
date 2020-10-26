@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787508"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917388"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Ontwerpdetails: Boekingsstructuur artikeltracering
 Artikelposten worden gebruikt als primaire bron van artikeltraceringsnummers om af te stemmen met de functionaliteit voor voorraadwaardering en om een eenvoudigere en robuustere oplossing te bieden.  
   
-Artikeltraceringsnummers van ordernetwerkentiteiten en niet-ordernetwerkentiteiten worden opgegeven in tabel (T337) **Reserveringspost**. Artikeltraceringsnummers die zijn gerelateerd aan historische gegevens, worden direct opgehaald uit de artikelposten die gerelateerd zijn aan de desbetreffende transactie. Dit betekent dat de artikelposten de artikeltraceringspecificatie van de geboekte orderregel aangeven.  
+Artikeltraceringsnummers van ordernetwerkentiteiten en niet-ordernetwerkentiteiten worden opgegeven in tabel (T337) **Reserveringspost** . Artikeltraceringsnummers die zijn gerelateerd aan historische gegevens, worden direct opgehaald uit de artikelposten die gerelateerd zijn aan de desbetreffende transactie. Dit betekent dat de artikelposten de artikeltraceringspecificatie van de geboekte orderregel aangeven.  
   
 Op de pagina **Artikeltraceringsregels** wordt de informatie opgehaald uit T337 en de artikelposten, en wordt deze getoond via de tijdelijke tabel **Traceringsspecificatie** (T336). T336 bevat ook de tijdelijke gegevens op de pagina **Artikeltraceringsregels** voor artikeltraceringsaantallen die nog moet worden gefactureerd.  
   
 ## <a name="one-to-many-relation"></a>Een-op-veel-relatie  
-De tabel **Artikelpostrelatie**, die wordt gebruikt om een geboekte documentregel te koppelen aan de gerelateerde artikelposten, bestaat uit twee hoofdonderdelen:  
+De tabel **Artikelpostrelatie** , die wordt gebruikt om een geboekte documentregel te koppelen aan de gerelateerde artikelposten, bestaat uit twee hoofdonderdelen:  
   
-* Een verwijzing naar de geboekte documentregel, het veld **Orderregelnr.**. te kiezen.  
-* Een volgnummer dat verwijst naar een artikelpost, het veld **Artikelpostnr.**.  
+* Een verwijzing naar de geboekte documentregel, het veld **Orderregelnr.** . te kiezen.  
+* Een volgnummer dat verwijst naar een artikelpost, het veld **Artikelpostnr.** .  
   
-De functionaliteit van het bestaande veld **Volgnummer**, waarmee een artikelpost aan een geboekte documentregel wordt gekoppeld, verwerkt de veelvoorkomende één-op-één-relatie wanneer er geen artikeltraceringsnummers bestaan op de geboekte documentregel. Als er artikeltraceringsnummers bestaan, wordt het veld **Volgnummer** leeg gelaten en wordt de één-op-veel relatie verwerkt door de tabel **Artikelpostrelatie**. Als de geboekte documentregel artikeltraceringsnummers heeft, maar slechts betrekking heeft op één artikelpost, verwerkt het veld **Volgnummer** de relatie en wordt geen record gemaakt in de tabel **Artikelpostrelatie**.  
+De functionaliteit van het bestaande veld **Volgnummer** , waarmee een artikelpost aan een geboekte documentregel wordt gekoppeld, verwerkt de veelvoorkomende één-op-één-relatie wanneer er geen artikeltraceringsnummers bestaan op de geboekte documentregel. Als er artikeltraceringsnummers bestaan, wordt het veld **Volgnummer** leeg gelaten en wordt de één-op-veel relatie verwerkt door de tabel **Artikelpostrelatie** . Als de geboekte documentregel artikeltraceringsnummers heeft, maar slechts betrekking heeft op één artikelpost, verwerkt het veld **Volgnummer** de relatie en wordt geen record gemaakt in de tabel **Artikelpostrelatie** .  
   
 ## <a name="codeunits-80-and-90"></a>Codeunits 80 en 90  
 Om de artikelposten te splitsen tijdens het boeken, wordt de code in codeunit 80 en 90 omringd door lussen die door globale tijdelijke recordvariabelen lopen. Deze code roept de codeunit 22 aan met een artikeldagboekregel. Deze variabelen zijn geïnitialiseerd wanneer artikeltraceringsnummers aanwezig zijn voor de documentregel. Om de code eenvoudig te houden, wordt deze lusstructuur altijd gebruikt. Als er geen artikeltraceringsnummers bestaan voor de documentregel, wordt één record ingevoegd en wordt de lus slechts eenmaal uitgevoerd.  

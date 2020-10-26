@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339934"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912233"
 ---
 # <a name="send-remittance-advice"></a>Afdrachtsadvies verzenden
 
 Als afdrachtsadvies wordt gebruikt om leveranciers te informeren over gedane betalingen, kunt u nu afdrachtsadviezen in bulk verzenden vanuit het betalingsdagboek en deze opnieuw verzenden nadat betalingen vanuit leveranciersposten zijn gedaan, met behulp van documentverzendprofielen.
 
 > [!NOTE]
-> Deze functionaliteit wordt alleen ondersteund in Business Central online en on-premises in de volgende landen: Verenigd Koninkrijk, Verenigde Staten, Canada, Australië, Nieuw Zeeland en Zuid-Afrika.  
+> Deze functionaliteit wordt alleen ondersteund in Business Central online en on-premises in de volgende landen/regio's: Verenigd Koninkrijk, Verenigde Staten, Canada, Australië, Nieuw Zeeland en Zuid-Afrika.  
 
 U kunt afdrachtsadvies op twee verschillende manieren verzenden:
 
-* Kies in het **Betalingsdagboek** **Navigeren**, **Betalingen**, **Afdrachtsadvies verzenden** om afdrachtsadvies te verzenden voor een of meer betalingsdagboekregels.
-* Kies op de pagina **Leveranciersposten** op **Acties**, **Functies**, **Afdrachtsadvies verzenden** om afdrachtsadvies te e-mailen na boeking van leveranciersbetalingen voor een of meer leveranciersposten
+* Kies in het **Betalingsdagboek** **Gerelateerd** , **Betalingen** , **Afdrachtsadvies verzenden** om afdrachtsadvies te verzenden voor een of meer betalingsdagboekregels
+* Kies op de pagina **Leveranciersposten** op **Acties** , **Functies** , **Afdrachtsadvies verzenden** om afdrachtsadvies te e-mailen na boeking van leveranciersbetalingen voor een of meer leveranciersposten
 
 ## <a name="see-also"></a>Zie ook
 

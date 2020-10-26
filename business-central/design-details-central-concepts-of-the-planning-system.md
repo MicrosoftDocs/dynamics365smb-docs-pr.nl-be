@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788133"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917513"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
@@ -91,6 +91,14 @@ In een productieomgeving leidt de vraag naar een voltooid, verkoopbaar artikel t
 De cijfers laten zien in welke volgorde voorstellen worden gemaakt voor voorzieningenorders op het hoogste niveau en, ervan uitgaande dat de gebruiker deze voorstellen accepteert, ook voor de artikelen op een lager niveau.  
 
 Zie [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) voor meer informatie over overwegingen voor productie.  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Prestaties optimaliseren voor berekeningen op laag niveau
+Codeberekeningen op laag niveau kunnen de systeemprestaties beïnvloeden. Om de impact te verminderen kunt u **Dynamische codeberekening op laag niveau** uitschakelen op de pagina **Productie-instellingen** . Als u dat doet, zal [!INCLUDE[d365fin](includes/d365fin_md.md)] voorstellen dat u een terugkerende taakwachtrijvermelding maakt die dagelijks low-level codes zal bijwerken. U kunt ervoor zorgen dat de taak buiten werktijd wordt uitgevoerd door een starttijd op te geven in het veld **Vroegste begindatum/-tijd** .
+
+U kunt ook logica inschakelen die codeberekeningen op laag niveau versnelt door **Berekening van low-levelcode optimaliseren** te selecteren op de pagina **Productie-instellingen** . 
+
+> [!IMPORTANT]
+> Als u ervoor kiest om de prestaties te optimaliseren, zal [!INCLUDE[d365fin](includes/d365fin_md.md)] nieuwe berekeningsmethoden gebruiken om low-levelcodes te bepalen. Als u een extensie hebt die afhankelijk is van de gebeurtenissen die door de oude berekeningen worden gebruikt, werkt de extensie mogelijk niet meer.   
 
 ### <a name="locations--transfer-level-priority"></a>Prioriteit op niveau van vestigingen/transfers  
 Bedrijven die in meerdere vestigingen actief zijn, moeten mogelijk voor elke vestiging afzonderlijk plannen. Het veiligheidsvoorraadniveau van een artikel en het bestelbeleid ervan kunnen bijvoorbeeld van vestiging tot vestiging verschillen In dit geval moeten per artikel en ook per vestiging de planningsparameters worden opgegeven.  

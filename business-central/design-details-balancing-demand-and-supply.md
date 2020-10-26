@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b039c15a3e55135576dfe6341248bde936d58093
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788158"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917563"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Ontwerpdetails: Vraag en aanbod afstemmen
 Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen. De belangrijkste hiervan zijn om te zorgen dat:  
@@ -99,7 +99,7 @@ Tijdens het sluitend maken beschouwt het planningssysteem voorzieningen met seri
 
 Een andere reden dat voorziening met serienummers/lotnummers inflexibel is, is dat serienummers/lotnummers over het algemeen zo laat in het proces worden toegewezen dat het verwarrend zou zijn als er wijzigingen werden voorgesteld.  
 
-Het vereffenen van serie-/lotnummers heeft geen betrekking op de *vaste zone*. Als de vraag en het aanbod niet zijn gesynchroniseerd, zal het planningssysteem wijzigingen of nieuwe orders voorstellen, ongeacht de geplande begindatum.  
+Het vereffenen van serie-/lotnummers heeft geen betrekking op de *vaste zone* . Als de vraag en het aanbod niet zijn gesynchroniseerd, zal het planningssysteem wijzigingen of nieuwe orders voorstellen, ongeacht de geplande begindatum.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-naar-order koppelingen worden nooit verbroken  
 Bij het plannen van een order-naar-order-artikel moet de gekoppelde voorziening alleen worden gebruikt voor de vraag waarvoor het oorspronkelijk is bedoeld. De gekoppelde vraag moet niet door een willekeurige andere voorziening worden verwerkt, zelfs wanneer het in de huidige situatie beschikbaar is wat betreft tijd en aantal. Een assemblageorder die is gekoppeld aan een verkooporder in een op-order-assembleren scenario, kan bijvoorbeeld niet worden gebruikt om aan andere vraag te voldoen.  
@@ -209,7 +209,7 @@ Als de gebruiker een bestaande voorzieningenorder wil uitsluiten van de planning
 
 In het algemeen heeft elk aanbod een planningsflexibiliteit die wordt beperkt door de voorwaarden van elk van de voorgestelde acties.  
 
--   **Opnieuw uitplannen**: de datum van een bestaande voorzieningenorder kan worden uitgepland om te voldoen aan de vervaldatum van de vraag tenzij:  
+-   **Opnieuw uitplannen** : de datum van een bestaande voorzieningenorder kan worden uitgepland om te voldoen aan de vervaldatum van de vraag tenzij:  
 
     -   De order vertegenwoordigt voorraad (altijd op dag nul).  
     -   De order een order-naar-order koppeling met andere vraag heeft.  
@@ -219,7 +219,7 @@ In het algemeen heeft elk aanbod een planningsflexibiliteit die wordt beperkt do
     -   De voorzieningenorder is al gekoppeld aan een andere vraag op een eerdere datum.  
     -   De benodigde herplanning is zo minimaal dat de gebruiker het verwaarloosbaar vindt.  
 
--   **Opnieuw inplannen**: de datum van een bestaande voorzieningenorder kan worden ingepland, behalve in de volgende omstandigheden:  
+-   **Opnieuw inplannen** : de datum van een bestaande voorzieningenorder kan worden ingepland, behalve in de volgende omstandigheden:  
 
     -   De order is direct aan andere vraag gekoppeld.  
     -   De order ligt buiten de herplanningspagina die door het tijdsinterval wordt gedefinieerd.  
@@ -227,18 +227,18 @@ In het algemeen heeft elk aanbod een planningsflexibiliteit die wordt beperkt do
 > [!NOTE]  
 >  Bij het plannen van een artikel via een bestelpunt kan de voorzieningenorder altijd worden ingepland, indien noodzakelijk. Dit is gebruikelijk bij voorwaarts-geplande voorzieningenorders die worden geactiveerd door een bestelpunt.  
 
--   **Aantal verhogen**: Het aantal van een bestaande voorzieningenorder kan worden verhoogd om aan de vraag te voldoen, tenzij de voorzieningenorder rechtstreeks aan een vraag is gekoppeld door een order-op-order koppeling.  
+-   **Aantal verhogen** : Het aantal van een bestaande voorzieningenorder kan worden verhoogd om aan de vraag te voldoen, tenzij de voorzieningenorder rechtstreeks aan een vraag is gekoppeld door een order-op-order koppeling.  
 
 > [!NOTE]  
 >  Hoewel het mogelijk is om de order voor voorzieningen te verhogen, kan het vanwege een gedefinieerd maximaal orderaantal beperkt zijn.  
 
--   **Aantal verlagen**: Een bestaande voorzieningenorder met een surplus vergeleken met bestaande vraag kan worden verminderd om aan de vraag te voldoen.  
+-   **Aantal verlagen** : Een bestaande voorzieningenorder met een surplus vergeleken met bestaande vraag kan worden verminderd om aan de vraag te voldoen.  
 
 > [!NOTE]  
 >  Hoewel het aantal kan worden verlaagd, kan er toch nog overschot zijn in vergelijking met de vraag wegens een gedefinieerd minimaal orderaantal of orderveelvoud.  
 
--   **Annuleren**: Als een speciaal incident van de aantal verlagende actie kan de voorzieningenorder worden geannuleerd als deze tot nul is verlaagd.  
--   **Nieuw**: Als er nog geen voorzieningenorder bestaat en er geen bestaande order kan worden gewijzigd om op de gevraagde vervaldatum te voldoen aan het benodigde aantal, wordt een nieuwe voorzieningenorder voorgesteld.  
+-   **Annuleren** : Als een speciaal incident van de aantal verlagende actie kan de voorzieningenorder worden geannuleerd als deze tot nul is verlaagd.  
+-   **Nieuw** : Als er nog geen voorzieningenorder bestaat en er geen bestaande order kan worden gewijzigd om op de gevraagde vervaldatum te voldoen aan het benodigde aantal, wordt een nieuwe voorzieningenorder voorgesteld.  
 
 ### <a name="determining-the-supply-quantity"></a>Het voorzieningsaantal bepalen  
 Planningsparameters die worden gedefinieerd door de gebruiker, bepalen het voorgestelde aantal van elke voorzieningenorder.  

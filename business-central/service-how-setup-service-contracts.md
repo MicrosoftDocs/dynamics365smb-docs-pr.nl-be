@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 49860fff57d4fb1ea79ca77d5401aaf1b3ecf8b7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784571"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910317"
 ---
 # <a name="set-up-service-contracts"></a>Servicecontracten instellen
 Voordat u met contracten kunt werken, moet u het volgende instellen: 
 
-* **Servicecontractgroepen**, waarmee gerelateerde servicecontracten worden verzameld.
-* **Servicecontractboekingsgroepen**, die worden gebruikt om de servicecontractboekingen te groeperen voor servicefacturen die worden gemaakt voor servicecontracten. U wijst deze groepen toe aan servicecontracten.  
+* **Servicecontractgroepen** , waarmee gerelateerde servicecontracten worden verzameld.
+* **Servicecontractboekingsgroepen** , die worden gebruikt om de servicecontractboekingen te groeperen voor servicefacturen die worden gemaakt voor servicecontracten. U wijst deze groepen toe aan servicecontracten.  
 * **Contractsjablonen** waarmee contractindelingen worden gedefinieerd van contracten waarin de meestvoorkomende servicecontractdetails zijn opgenomen. U kunt servicecontractoffertes maken met sjablonen. Wanneer u een contractofferte maakt, bevatten de velden automatisch de inhoud van de sjabloonvelden.
 * **Klantensjablonen** waarmee u offertes voor contacten of potentiële klanten kunt maken die niet als klant zijn geregistreerd in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -44,14 +44,14 @@ Voordat u met contracten kunt werken, moet u het volgende instellen:
   
      Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor contractsjablonen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare contractsjabloonnummer in te voeren. Vul eventueel de andere velden in.  
   
-4. Vul op het sneltabblad **Factuur** het veld **Serv.-contractboekingsgroep**, de **Factuurperiode**, enzovoort in. Vul eventueel de andere velden in.  
+4. Vul op het sneltabblad **Factuur** het veld **Serv.-contractboekingsgroep** , de **Factuurperiode** , enzovoort in. Vul eventueel de andere velden in.  
 5. Kies de actie **Servicekortingen** om contractkortingen toe te voegen.  
 
 ## <a name="to-set-up-a-customer-template"></a>Klantsjablonen instellen  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantsjablonen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe klantensjabloonkaart.  
-3. Typ op het sneltabblad **Algemeen** een code en omschrijving voor de klantensjabloonkaart in de velden **Code** en **Omschrijving**. 
-4. Als u zoekcriteria wilt opgeven, vult u de andere velden in, zoals **Land-/regiocode**, **Regio** en **Taal**.  
+3. Typ op het sneltabblad **Algemeen** een code en omschrijving voor de klantensjabloonkaart in de velden **Code** en **Omschrijving** . 
+4. Als u zoekcriteria wilt opgeven, vult u de andere velden in, zoals **Land-/regiocode** , **Regio** en **Taal** .  
 5. Vul de velden **Bedrijfsboekingsgroep** en **Klantboekingsgroep** in.  
 
 ## <a name="see-also"></a>Zie ook

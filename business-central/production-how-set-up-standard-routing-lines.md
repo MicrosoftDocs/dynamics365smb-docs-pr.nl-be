@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 498b3410ee635a4e31b9bd20e509950541371c43
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779972"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916613"
 ---
 # <a name="set-up-standard-routing-lines"></a>Standaardbewerkingsplanregels instellen
 
@@ -24,15 +24,15 @@ Met behulp van standaardtaken vereenvoudigt u het maken en onderhouden van bewer
 ## <a name="to-set-up-a-standard-task"></a>Een standaardtaak instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardtaken** in en kies de desbetreffende koppeling.
-2. Kies de actie **Nieuw**.
+2. Kies de actie **Nieuw** .
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de actie **Extra**, **Medewerkers**, **Omschrijving**, of **Extra** en voeg vervolgens op de geopende pagina het relevante item toe.
+4. Kies de actie **Extra** , **Medewerkers** , **Omschrijving** , of **Extra** en voeg vervolgens op de geopende pagina het relevante item toe.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Een standaardtaak toevoegen aan een bewerking
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.
 2. Open het betreffende bewerkingsplan.
-3. Selecteer een relevant bewerkingsplan, kies de actie **Bewerkingen** en kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
+3. Selecteer een relevant bewerkingsplan, kies de actie **Bewerkingen** en kies de actie **Extra** , **Medewerkers** , **Beschrijving** of **Extra** .
 
 Wanneer u het bewerkingsplanblad afdrukt, kunt u ervoor kiezen om de elementen op te nemen van de standaardtaak die u aan de bewerkingsplanregels hebt toegevoegd.
 

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410704"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910667"
 ---
 # <a name="track-packages"></a>Pakketten traceren
 
@@ -24,9 +24,9 @@ De volgende procedure laat zien hoe u een pakket kunt traceren vanaf een geboekt
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzending** in en kies de desbetreffende koppeling.
 2. Open de betreffende zending.
-3. Kies de actie **Document bijwerken**.
+3. Kies de actie **Document bijwerken** .
 4. Voer in het veld **Traceringsnummer (zending)** het traceringsnummer in dat u van de expediteur hebt ontvangen. Werk **Expediteur** indien nodig bij en sluit de pagina.
-5. Kies de actie **Zending traceren**.
+5. Kies de actie **Zending traceren** .
 
 De traceringspagina van uw expediteur wordt geopend in uw standaardbrowser.
 
