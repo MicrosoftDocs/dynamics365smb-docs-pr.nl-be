@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4186a97957e48b6d36c478d0280374cce0fbfc76
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aaffac8fe7e10d0155649c960803f65a8136c46d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787883"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911092"
 ---
-# <a name="design-details-general-journal-post-line"></a><span data-ttu-id="0579a-103">Ontwerpdetails: dagboekboekingsregel</span><span class="sxs-lookup"><span data-stu-id="0579a-103">Design Details: General Journal Post Line</span></span>
-<span data-ttu-id="0579a-104">Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en principes die worden gebruikt om de functie voor dagboekboekingsregels in [!INCLUDE[d365fin](includes/d365fin_md.md)] opnieuw te ontwerpen.</span><span class="sxs-lookup"><span data-stu-id="0579a-104">This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="0579a-105">Door het nieuwe ontwerp wordt codeunit 12 eenvoudiger en makkelijker te beheren.</span><span class="sxs-lookup"><span data-stu-id="0579a-105">The redesign makes codeunit 12 simpler and more maintainable.</span></span> <span data-ttu-id="0579a-106">In de documentatie wordt als eerste het conceptoverzicht van het nieuwe ontwerp beschreven.</span><span class="sxs-lookup"><span data-stu-id="0579a-106">The documentation starts by describing conceptual overviews of the redesign.</span></span> <span data-ttu-id="0579a-107">Vervolgens wordt de technische architectuur uitgelegd om de wijzigingen door het nieuwe ontwerp te tonen.</span><span class="sxs-lookup"><span data-stu-id="0579a-107">Then it explains the technical architecture to show the changes that result from the redesign.</span></span>  
+# <a name="design-details-general-journal-post-line"></a><span data-ttu-id="dcfcc-103">Ontwerpdetails: dagboekboekingsregel</span><span class="sxs-lookup"><span data-stu-id="dcfcc-103">Design Details: General Journal Post Line</span></span>
+<span data-ttu-id="dcfcc-104">Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en principes die worden gebruikt om de functie voor dagboekboekingsregels in [!INCLUDE[d365fin](includes/d365fin_md.md)] opnieuw te ontwerpen.</span><span class="sxs-lookup"><span data-stu-id="dcfcc-104">This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="dcfcc-105">Door het nieuwe ontwerp wordt codeunit 12 eenvoudiger en makkelijker te beheren.</span><span class="sxs-lookup"><span data-stu-id="dcfcc-105">The redesign makes codeunit 12 simpler and more maintainable.</span></span> <span data-ttu-id="dcfcc-106">In de documentatie wordt als eerste het conceptoverzicht van het nieuwe ontwerp beschreven.</span><span class="sxs-lookup"><span data-stu-id="dcfcc-106">The documentation starts by describing conceptual overviews of the redesign.</span></span> <span data-ttu-id="dcfcc-107">Vervolgens wordt de technische architectuur uitgelegd om de wijzigingen door het nieuwe ontwerp te tonen.</span><span class="sxs-lookup"><span data-stu-id="dcfcc-107">Then it explains the technical architecture to show the changes that result from the redesign.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="0579a-108">In dit gedeelte</span><span class="sxs-lookup"><span data-stu-id="0579a-108">In This Section</span></span>  
-[<span data-ttu-id="0579a-109">Overzicht dagboekboekingsregel</span><span class="sxs-lookup"><span data-stu-id="0579a-109">General Journal Post Line Overview</span></span>](design-details-general-journal-post-line-overview.md)  
-[<span data-ttu-id="0579a-110">Ontwerpdetails: boekingsinterfacestructuur</span><span class="sxs-lookup"><span data-stu-id="0579a-110">Design Details: Posting Interface Structure</span></span>](design-details-posting-interface-structure.md)  
-[<span data-ttu-id="0579a-111">Ontwerpdetails: boekingsenginestructuur</span><span class="sxs-lookup"><span data-stu-id="0579a-111">Design Details: Posting Engine Structure</span></span>](design-details-posting-engine-structure.md)  
-[<span data-ttu-id="0579a-112">Wijzigingen in codeunit 12: Algemene variabelen toewijzen voor dagboekboekingsregel</span><span class="sxs-lookup"><span data-stu-id="0579a-112">Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line</span></span>](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-[<span data-ttu-id="0579a-113">Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen</span><span class="sxs-lookup"><span data-stu-id="0579a-113">Codeunit 12 Changes: Changes in General Journal Post Procedures</span></span>](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
+## <a name="in-this-section"></a><span data-ttu-id="dcfcc-108">In dit gedeelte</span><span class="sxs-lookup"><span data-stu-id="dcfcc-108">In This Section</span></span>  
+[<span data-ttu-id="dcfcc-109">Overzicht dagboekboekingsregel</span><span class="sxs-lookup"><span data-stu-id="dcfcc-109">General Journal Post Line Overview</span></span>](design-details-general-journal-post-line-overview.md)  
+[<span data-ttu-id="dcfcc-110">Ontwerpdetails: boekingsinterfacestructuur</span><span class="sxs-lookup"><span data-stu-id="dcfcc-110">Design Details: Posting Interface Structure</span></span>](design-details-posting-interface-structure.md)  
+[<span data-ttu-id="dcfcc-111">Ontwerpdetails: boekingsenginestructuur</span><span class="sxs-lookup"><span data-stu-id="dcfcc-111">Design Details: Posting Engine Structure</span></span>](design-details-posting-engine-structure.md)  
+[<span data-ttu-id="dcfcc-112">Wijzigingen in codeunit 12: Algemene variabelen toewijzen voor dagboekboekingsregel</span><span class="sxs-lookup"><span data-stu-id="dcfcc-112">Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line</span></span>](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+[<span data-ttu-id="dcfcc-113">Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen</span><span class="sxs-lookup"><span data-stu-id="dcfcc-113">Codeunit 12 Changes: Changes in General Journal Post Procedures</span></span>](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
-## <a name="see-also"></a><span data-ttu-id="0579a-114">Zie ook</span><span class="sxs-lookup"><span data-stu-id="0579a-114">See Also</span></span>  
-[<span data-ttu-id="0579a-115">Werken met diversendagboeken</span><span class="sxs-lookup"><span data-stu-id="0579a-115">Working with General Journals</span></span>](ui-work-general-journals.md)
+## <a name="see-also"></a><span data-ttu-id="dcfcc-114">Zie ook</span><span class="sxs-lookup"><span data-stu-id="dcfcc-114">See Also</span></span>  
+[<span data-ttu-id="dcfcc-115">Werken met diversendagboeken</span><span class="sxs-lookup"><span data-stu-id="dcfcc-115">Working with General Journals</span></span>](ui-work-general-journals.md)
