@@ -8,30 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 33be858c687381a50f42d1c59ca735358f113d72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b33b0642d8cee6e26edeeece47c8fceb72c2bfa1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788762"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921579"
 ---
-# <a name="reverse-output-posting"></a><span data-ttu-id="e16cf-104">Outputboeking tegenboeken</span><span class="sxs-lookup"><span data-stu-id="e16cf-104">Reverse Output Posting</span></span>
-<span data-ttu-id="e16cf-105">Het kan voorkomen dat een outputboeking moet worden tegengeboekt.</span><span class="sxs-lookup"><span data-stu-id="e16cf-105">There are times when output posting must be reversed.</span></span> <span data-ttu-id="e16cf-106">Dit is bijvoorbeeld het geval als er een gegevensinvoerfout is gemaakt en er een onjuiste hoeveelheid output is geboekt op een productieorder.</span><span class="sxs-lookup"><span data-stu-id="e16cf-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span></span>  
+# <a name="reverse-output-posting"></a><span data-ttu-id="8f232-104">Outputboeking tegenboeken</span><span class="sxs-lookup"><span data-stu-id="8f232-104">Reverse Output Posting</span></span>
+<span data-ttu-id="8f232-105">Het kan voorkomen dat een outputboeking moet worden tegengeboekt.</span><span class="sxs-lookup"><span data-stu-id="8f232-105">There are times when output posting must be reversed.</span></span> <span data-ttu-id="8f232-106">Dit is bijvoorbeeld het geval als er een gegevensinvoerfout is gemaakt en er een onjuiste hoeveelheid output is geboekt op een productieorder.</span><span class="sxs-lookup"><span data-stu-id="8f232-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span></span>  
 
-## <a name="to-reverse-an-output-posting"></a><span data-ttu-id="e16cf-107">Een outputboeking tegenboeken</span><span class="sxs-lookup"><span data-stu-id="e16cf-107">To reverse an output posting</span></span>  
-1.  <span data-ttu-id="e16cf-108">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="e16cf-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span> <span data-ttu-id="e16cf-109">Selecteer uw batch.</span><span class="sxs-lookup"><span data-stu-id="e16cf-109">Select your batch.</span></span>  
-2. <span data-ttu-id="e16cf-110">Vul de benodigde velden in.</span><span class="sxs-lookup"><span data-stu-id="e16cf-110">Fill in the fields as necessary.</span></span> <span data-ttu-id="e16cf-111">Zie voor meer informatie [Output en bewerkingstijd in batches boeken](production-how-to-post-output-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="e16cf-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span></span>
-3.  <span data-ttu-id="e16cf-112">Selecteer in het veld **Vereffenen met post** de bijbehorende artikelpost.</span><span class="sxs-lookup"><span data-stu-id="e16cf-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span></span> <span data-ttu-id="e16cf-113">Hiermee voert u een tegenboeking uit van de capaciteit en artikelposten.</span><span class="sxs-lookup"><span data-stu-id="e16cf-113">This reverses the capacity and item ledger entries.</span></span>  
-4. <span data-ttu-id="e16cf-114">Boek de tegenboeking door het dagboek te boeken.</span><span class="sxs-lookup"><span data-stu-id="e16cf-114">Post the reversal by posting the journal.</span></span>  
+## <a name="to-reverse-an-output-posting"></a><span data-ttu-id="8f232-107">Een outputboeking tegenboeken</span><span class="sxs-lookup"><span data-stu-id="8f232-107">To reverse an output posting</span></span>  
+1.  <span data-ttu-id="8f232-108">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="8f232-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal** , and then choose the related link.</span></span> <span data-ttu-id="8f232-109">Selecteer uw batch.</span><span class="sxs-lookup"><span data-stu-id="8f232-109">Select your batch.</span></span>  
+2. <span data-ttu-id="8f232-110">Vul de benodigde velden in.</span><span class="sxs-lookup"><span data-stu-id="8f232-110">Fill in the fields as necessary.</span></span> <span data-ttu-id="8f232-111">Zie voor meer informatie [Output en bewerkingstijd in batches boeken](production-how-to-post-output-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="8f232-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span></span>
+3.  <span data-ttu-id="8f232-112">Selecteer in het veld **Vereffenen met post** de bijbehorende artikelpost.</span><span class="sxs-lookup"><span data-stu-id="8f232-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span></span> <span data-ttu-id="8f232-113">Hiermee voert u een tegenboeking uit van de capaciteit en artikelposten.</span><span class="sxs-lookup"><span data-stu-id="8f232-113">This reverses the capacity and item ledger entries.</span></span>  
+4. <span data-ttu-id="8f232-114">Boek de tegenboeking door het dagboek te boeken.</span><span class="sxs-lookup"><span data-stu-id="8f232-114">Post the reversal by posting the journal.</span></span>  
 
-<span data-ttu-id="e16cf-115">De posten van het outputdagboek worden als positieve herwaardering geboekt op de artikelposten.</span><span class="sxs-lookup"><span data-stu-id="e16cf-115">The output journal entries are posted to the item ledger as a positive adjustment.</span></span>  
+<span data-ttu-id="8f232-115">De posten van het outputdagboek worden als positieve herwaardering geboekt op de artikelposten.</span><span class="sxs-lookup"><span data-stu-id="8f232-115">The output journal entries are posted to the item ledger as a positive adjustment.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="e16cf-116">Zie ook</span><span class="sxs-lookup"><span data-stu-id="e16cf-116">See Also</span></span>  
- <span data-ttu-id="e16cf-117">[Productie](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="e16cf-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
- [<span data-ttu-id="e16cf-118">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="e16cf-118">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
- <span data-ttu-id="e16cf-119">[Gepland](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="e16cf-119">[Planning](production-planning.md)    </span></span>  
- [<span data-ttu-id="e16cf-120">Voorraad</span><span class="sxs-lookup"><span data-stu-id="e16cf-120">Inventory</span></span>](inventory-manage-inventory.md)  
- [<span data-ttu-id="e16cf-121">Inkoop</span><span class="sxs-lookup"><span data-stu-id="e16cf-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
- <span data-ttu-id="e16cf-122">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e16cf-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="8f232-116">Zie ook</span><span class="sxs-lookup"><span data-stu-id="8f232-116">See Also</span></span>  
+ <span data-ttu-id="8f232-117">[Productie](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="8f232-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+ [<span data-ttu-id="8f232-118">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="8f232-118">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+ <span data-ttu-id="8f232-119">[Gepland](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="8f232-119">[Planning](production-planning.md)    </span></span>  
+ [<span data-ttu-id="8f232-120">Voorraad</span><span class="sxs-lookup"><span data-stu-id="8f232-120">Inventory</span></span>](inventory-manage-inventory.md)  
+ [<span data-ttu-id="8f232-121">Inkoop</span><span class="sxs-lookup"><span data-stu-id="8f232-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+ <span data-ttu-id="8f232-122">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8f232-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
