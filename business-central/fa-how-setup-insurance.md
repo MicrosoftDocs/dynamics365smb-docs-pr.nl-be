@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f0711159c2a78b81932d429b6e8ff5c915fafaa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e7396b4acfbed7199e1364287cfb7e8dcbe57c19
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788608"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924240"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Verzekering van vaste activa instellen
 Om de verzekeringsdekking voor vaste activa te beheren, moet u eerst enkele algemene verzekeringsgegevens en een verzekeringskaart per polis instellen.
@@ -51,11 +51,11 @@ Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een verzeker
 Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De waarden in de dagboekbatch worden als standaardwaarden gebruikt als de velden op de dagboekregels niet zijn ingevuld. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeksjablonen** in en kies de desbetreffende koppeling.  
-2. Selecteer een verzekeringsdagboeksjabloon en kies vervolgens de actie **Batches**.
+2. Selecteer een verzekeringsdagboeksjabloon en kies vervolgens de actie **Batches** .
 3. Vul op de pagina **Verzekeringsdagboekbatches** indien nodig de velden in.
 
 > [!NOTE]  
->   Nummers hebben een speciale functie in dagboeknamen. Als een dagboeksjabloon of dagboekbatch een nummer bevat, wordt dit nummer bij elke boeking van het dagboek automatisch verhoogd. Als HH1 bijvoorbeeld is opgegeven in het veld **Naam**, verandert de naam van het dagboek in HH2 als het dagboek met de naam HH1 is geboekt.
+>   Nummers hebben een speciale functie in dagboeknamen. Als een dagboeksjabloon of dagboekbatch een nummer bevat, wordt dit nummer bij elke boeking van het dagboek automatisch verhoogd. Als HH1 bijvoorbeeld is opgegeven in het veld **Naam** , verandert de naam van het dagboek in HH2 als het dagboek met de naam HH1 is geboekt.
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b277c8363ec831a803081898ca6bea591140bac
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779223"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923029"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
@@ -48,6 +48,9 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 | Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
 |Zorg dat een post in een grootboek wordt toegewezen aan verschillende rekeningen wanneer u het dagboek boekt, hetzij aantal, percentage of bedrag.|[Verdeelsleutels in dagboeken gebruiken](ui-how-use-allocation-keys-general-journals.md)|
 |Broncodes en redencodes instellen die u kunt gebruiken om audittrails bij te houden|[Broncodes en redencodes instellen voor audittrails](finance-setup-trail-codes.md)|
+
+> [!TIP]
+> Afhankelijk van uw geografische locatie kunnen sommige pagina's velden bevatten die niet worden beschreven in de artikelen die hier worden vermeld, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 

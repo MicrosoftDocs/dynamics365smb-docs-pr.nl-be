@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46c94de4b1852549aea9fb7d2279fe045e33df1f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e12f68f56c5ffe06bf37c51b2e85ea1074a4c92
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789037"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926117"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 
@@ -40,7 +40,7 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Een verkoopprijs voor een klant instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
-2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Prijzen**.
+2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Prijzen** .
 
     Op de pagina **Verkoopprijzen** wordt het veld **Verkoopsoort** vooraf ingevuld met **Klant** en wordt het veld **Verkoopscode** vooraf ingevuld met het klantnummer.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopprijs aan de klant wordt verleend.
@@ -48,13 +48,13 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
-2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen**.
+2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen** .
 
     Op de pagina **Verkoopregelkortingen** wordt het veld **Verkoopsoort** vooraf ingevuld met **Klant** en wordt het veld **Verkoopscode** vooraf ingevuld met het klantnummer.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopregelkorting aan de klant wordt verleend.
 
 > [!Note]
-> Wanneer u de vensters **Verkoopprijzen** en **Verkoopregelkortingen** vanuit een specifieke klant opent, zijn de velden **Verkoopsoortfilter** en **Verkoopcodefilter** ingesteld voor de klant en kunnen deze niet worden gewijzigd of verwijderd, aangegeven door de grijze waarde in het veld **Verkoopcodefilter**.
+> Wanneer u de vensters **Verkoopprijzen** en **Verkoopregelkortingen** vanuit een specifieke klant opent, zijn de velden **Verkoopsoortfilter** en **Verkoopcodefilter** ingesteld voor de klant en kunnen deze niet worden gewijzigd of verwijderd, aangegeven door de grijze waarde in het veld **Verkoopcodefilter** .
 >
 > Als u prijzen of regelkortingen voor alle klanten, een klantprijsgroep of een campagne wilt instellen, moet u de vensters van een artikelkaart openen. Als alternatief kunt u voor verkoopprijzen de pagina **Verkoopprijsvoorstel** gebruiken. Zie voor meer informatie [Artikelprijzen in bulk bijwerken](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
@@ -71,7 +71,7 @@ Wanneer u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, 
 
 Ga door met het instellen van de nieuwe voorwaarden voor de nieuwe verkoopfactuurkorting.
 
-1. Kies op de pagina **Klantenkaart** de actie **Factuurkortingen**. De pagina **Verkoopfactuurkorting** verschijnt.
+1. Kies op de pagina **Klantenkaart** de actie **Factuurkortingen** . De pagina **Verkoopfactuurkorting** verschijnt.
 2. Geef in het veld **Valutacode** de code op voor een valuta waarvoor de factuurkortingscondities op de regel van toepassing zijn. Laat het veld leeg als u factuurkortingscondities in de lokale valuta wilt instellen.
 3. Geef in het veld **Minimumbedrag** op hoe hoog het factuurbedrag minimaal moet zijn voordat een korting wordt berekend.
 4. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
@@ -90,11 +90,11 @@ U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens heb
 - welke klanten in aanmerking komen voor dit soort korting;  
 - welke kortingspercentages u gebruikt.  
 
-Als u factuurkortingen automatisch wilt berekenen, kunt u dit opgeven op de pagina **Verkoopinstellingen**.  
+Als u factuurkortingen automatisch wilt berekenen, kunt u dit opgeven op de pagina **Verkoopinstellingen** .  
 
 Voor elke klant kunt u opgeven of u factuurkortingen verleent als aan de voorwaarde is voldaan (als dus het factuurbedrag hoog genoeg is). U kunt de voorwaarden voor factuurkortingen definiëren in de lokale valuta voor binnenlandse klanten en in een vreemde valuta voor buitenlandse klanten.  
 
-U koppelt kortingspercentages aan specifieke factuurbedragen op **Verkoopfactuurkortingen**-pagina's. U kunt een willekeurig aantal percentages invoeren op elke pagina. Elke klant kan een eigen pagina hebben, of u kunt verschillende klanten aan dezelfde pagina koppelen.  
+U koppelt kortingspercentages aan specifieke factuurbedragen op **Verkoopfactuurkortingen** -pagina's. U kunt een willekeurig aantal percentages invoeren op elke pagina. Elke klant kan een eigen pagina hebben, of u kunt verschillende klanten aan dezelfde pagina koppelen.  
 
 Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan een specifiek factuurbedrag koppelen.  
 
@@ -128,7 +128,7 @@ Als er geen speciale prijs kan worden berekend voor het artikel op de regel, wor
 
 ## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren
 
-Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele klant naar een klantenprijsgroep, moet u de batchverwerking **Verkoopprijsvoorstellen maken** uitvoeren, die u start vanaf de pagina **Verkoopprijsvoorstel**.  
+Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele klant naar een klantenprijsgroep, moet u de batchverwerking **Verkoopprijsvoorstellen maken** uitvoeren, die u start vanaf de pagina **Verkoopprijsvoorstel** .  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Verkoopprijsvoorstellen maken** .  
@@ -138,11 +138,11 @@ Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele
 6. Kies de knop **OK** om de regels op de pagina **Verkoopprijsvoorstel** in te vullen met de voorgestelde nieuwe prijzen. Hiermee geeft u aan dat deze prijzen geldig zijn voor de geselecteerde Verkoopsoort.  
 
 > [!NOTE]  
-> Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u tevreden bent met de suggesties en deze wilt implementeren (invoegen op de pagina **Verkoopprijzen**), kiest u de actie **Prijsaanpassing doorvoeren** op de pagina **Verkoopprijsvoorstel**.
+> Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u tevreden bent met de suggesties en deze wilt implementeren (invoegen op de pagina **Verkoopprijzen** ), kiest u de actie **Prijsaanpassing doorvoeren** op de pagina **Verkoopprijsvoorstel** .
 
 ## <a name="to-bulk-update-item-prices"></a>Artikelprijzen bulksgewijs bijwerken
 
-Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijzen met een bepaald percentage wilt verhogen, moet u de batchverwerking **Artikelprijsvoorstellen maken** uitvoeren. U vindt een koppeling voor de batchverwerking op de pagina **Verkoopprijsvoorstel**.  
+Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijzen met een bepaald percentage wilt verhogen, moet u de batchverwerking **Artikelprijsvoorstellen maken** uitvoeren. U vindt een koppeling voor de batchverwerking op de pagina **Verkoopprijsvoorstel** .  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Artikelprijsvoorstellen maken** .  
@@ -150,10 +150,10 @@ Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijze
 4. Gebruik in het bovenste gedeelte van de aanvraagpagina de velden **Verkoopsoort** en **Verkoopcode** om aan te geven waarnaar u de verkoopprijzen wilt kopiëren.
 5. Als u de batchverwerking automatisch voorgestelde artikelprijzen wilt laten aanpassen, voert u in het veld **Herwaarderingsfactor** de herwaardering in. Typ bijvoorbeeld 1,15 in het veld **Herwaarderingsfactor** voor een 15%-toename van de artikelprijs.  
 6. Als u nieuwe prijzen wilt maken met de batchverwerking, schakelt u het selectievakje **Nieuwe prijzen maken** in.  
-7. Kies de knop **OK** om de nieuwe prijsvoorstellen in te vullen op de pagina **Verkoopprijsvoorstel**. Hiermee geeft u aan dat deze prijzen geldig zijn voor het geselecteerde **Artikel**.  
+7. Kies de knop **OK** om de nieuwe prijsvoorstellen in te vullen op de pagina **Verkoopprijsvoorstel** . Hiermee geeft u aan dat deze prijzen geldig zijn voor het geselecteerde **Artikel** .  
 
 > [!NOTE]
-> Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u de voorstellen wilt toepassen, voegt u de gegevens in de tabel **Verkoopprijzen** in. Hiervoor kunt u de batchverwerking **Prijsaanpassing doorvoeren** gebruiken onder **Acties**, in de groep **Functies** op de pagina **Verkoopprijsvoorstel**.
+> Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u de voorstellen wilt toepassen, voegt u de gegevens in de tabel **Verkoopprijzen** in. Hiervoor kunt u de batchverwerking **Prijsaanpassing doorvoeren** gebruiken onder **Acties** , in de groep **Functies** op de pagina **Verkoopprijsvoorstel** .
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 

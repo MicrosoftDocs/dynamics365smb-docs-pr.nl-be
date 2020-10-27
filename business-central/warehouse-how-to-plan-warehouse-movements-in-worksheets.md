@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c751d6925af74e7e4c1a0e37f6d22ea9144adff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4b5293ace8fe0fc59b0e1f499574355397fb2d84
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779398"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923232"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Plannen van magazijnverplaatsingen in werkbladen
 Met de functie voor de opslaglocatieaanvulling kunt u verplaatsingen plannen in het voorstel. U kunt de regels die u wilt instellen als verplaatsingsinstructies echter ook handmatig plannen.  
@@ -24,7 +24,7 @@ Met de functie voor de opslaglocatieaanvulling kunt u verplaatsingen plannen in 
 Naarmate meer artikelen worden verzonden naar klanten, bevatten de opslaglocaties met de hoogste classificatie steeds minder artikelen. Als u deze opslaglocaties met de hoogste classificatie wilt vullen, voert u de functie **Opslagloc.-aanvulling berekenen** uit op de pagina **Verplaatsingsvoorstel**
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Opslaglocatieaanvulling berekenen**.  
+2.  Kies de actie **Opslaglocatieaanvulling berekenen** .  
 
     [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt regels die precies aangeven hoe u artikelen moet verplaatsen van laag- naar hooggeclassificeerde opslaglocaties.  
 
@@ -45,13 +45,13 @@ Naarmate meer artikelen worden verzonden naar klanten, bevatten de opslaglocatie
 Met het verplaatsingsvoorstel kunt u ook andere verplaatsingen van magazijnartikelen uitvoeren. Als u bijvoorbeeld artikelen in een opslaglocatie wilt plaatsen voor kwaliteitscontrole, kunt u deze actie met het voorstel plannen en vervolgens een verplaatsing maken met instructies voor een werknemer.  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Opslaglocatie-inhoud ophalen**. Gebruik de aanvraagpagina om te filteren op de opslaglocaties en artikelen die op de verplaatsingsvoorstelregels moeten verschijnen.  
+2.  Kies de actie **Opslaglocatie-inhoud ophalen** . Gebruik de aanvraagpagina om te filteren op de opslaglocaties en artikelen die op de verplaatsingsvoorstelregels moeten verschijnen.  
 3.  Vul de relevante velden op de aanvraagpagina voor de batchverwerking in. Als u bijvoorbeeld de opslaglocatie-inhoud van alle opslaglocaties in een bepaalde zone van de vestiging wilt weergeven, vult u het veld **Zone** in. Als u regels wilt ophalen voor elke opslaglocatie met een bepaald artikel, vult u het veld **Artikelnr.** in.  
 
     > [!NOTE]  
     >  U kunt artikelen niet handmatig van of naar een opslaglocatie van het soort Ontvangen verplaatsen, omdat artikelen in een dergelijke opslaglocatie moeten worden geregistreerd als opgeslagen voordat ze deel uitmaken van de beschikbare voorraad.  
 
-4.  Als u een groot aantal regels ophaalt, klikt u op **Sorteren** om een sortering te selecteren voor de regels in het voorstel. Klik vervolgens op **OK**.  
+4.  Als u een groot aantal regels ophaalt, klikt u op **Sorteren** om een sortering te selecteren voor de regels in het voorstel. Klik vervolgens op **OK** .  
 
     > [!NOTE]  
     >  Verplaatsingsregels worden opgehaald volgens FEFO wanneer u de functie **Opslaglocatie-inhoud ophalen** activeert indien voor een artikel aan de volgende voorwaarden wordt voldaan:  
@@ -61,7 +61,7 @@ Met het verplaatsingsvoorstel kunt u ook andere verplaatsingen van magazijnartik
     > -   Het selectievakje op de vestigingskaart **Opslaglocatie verplicht** is ingeschakeld.  
     > -   De velden **Van zone** en **Van opslaglocatie** zijn leeg.  
 
-5.  Maak de gewenste wijzigingen in een aantal van de opgehaalde regels. U moet voor elk te verplaatsen artikel de velden **Artikelnr.**, **Van opslaglocatie**, **Naar opslaglocatie** en **Aantal** invullen.  
+5.  Maak de gewenste wijzigingen in een aantal van de opgehaalde regels. U moet voor elk te verplaatsen artikel de velden **Artikelnr.** , **Van opslaglocatie** , **Naar opslaglocatie** en **Aantal** invullen.  
 6.  Verwijder de onvolledige regels waaruit u de informatie hebt overgenomen.  
 7.  Wanneer u in de verplaatsingsvoorstelregels precies hebt aangegeven hoe de verplaatsing moet worden uitgevoerd door de magazijnmedewerker, kiest u de actie **Verplaatsing maken** om de instructies voor de werknemer te maken.  
 

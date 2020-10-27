@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 770e1323c91273f7f20236e6afe842a13c7c5792
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f03bb162bc73d45068579a20bcdd90f632ede9de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779872"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922756"
 ---
 # <a name="create-production-order-headers"></a>Productieorderkoppen maken
 U kunt een productieorder handmatig maken. De eerste stap is het maken van een productieorderkop.
@@ -26,7 +26,7 @@ In de volgende procedure wordt een vast geplande productieorder gemaakt. U kunt 
 
 ## <a name="to-create-a-production-order-header"></a>Productieorderkoppen maken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
+2.  Kies de actie **Nieuw** .  
 3.  Selecteer in het veld **Nr.** het volgende nummer uit de reeks in.  
 4.  Selecteer in het veld **Bronsoort** de bron van de productieorder.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185216"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924284"
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
 Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -106,7 +106,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Voor scenario 2 identificeert u het probleem op een van de volgende manieren:  
 
--   Zoek een openstaande uitgaande artikelpost en een inkomende artikelpost met hetzelfde nummer in het veld **Documentnr.** en met Ja in het veld **Storno**. Zie het volgende voorbeeld van een dergelijke situatie met een artikelpost.  
+-   Zoek een openstaande uitgaande artikelpost en een inkomende artikelpost met hetzelfde nummer in het veld **Documentnr.** en met Ja in het veld **Storno** . Zie het volgende voorbeeld van een dergelijke situatie met een artikelpost.  
 
 |Postnr.|Boekingsdatum|Boekingssoort|Documenttype|Documentnr.|Artikelnr.|Vestiging|Aantal|Tot. werk. kosten|Geboekt aantal|Resterend aantal|Openen|Storno|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
@@ -120,7 +120,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Voor beide scenario's identificeert u de betrokken kostenvereffening als volgt:  
 
-1.  Open de tabel **Artikelvereffeningspost**.  
+1.  Open de tabel **Artikelvereffeningspost** .  
 
 2.  Filter op het veld **Artikelpostnr.** met het nummer van de Verkoopretourartikelpost.  
 

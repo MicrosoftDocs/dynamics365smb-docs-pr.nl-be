@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779798"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924465"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals instellen
 Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] de extensie AMC Banking 365 Fundamentals genoemd.
@@ -51,9 +51,9 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>De lijst met momenteel ondersteunde bankgegevensindelingen weergeven of bijwerken
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Conversieservice voor bankgegevens instellen** in en kies de desbetreffende koppeling.
 2. Kies op de pagina **Instelling gegevensconv.service bank** de actie **Banknaam - Gegevensconversielijst** om de lijst met banknamen te openen die bankgegevensindelingen vertegenwoordigen die door de conversieservice worden ondersteund.
-3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken**.
+3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken** .
 
-De lijst met indelingen voor bankgegevens die worden ondersteund door de extensie AMC Banking 365 Fundamentals, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** op de pagina **Bankrekeningkaart**.
+De lijst met indelingen voor bankgegevens die worden ondersteund door de extensie AMC Banking 365 Fundamentals, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** op de pagina **Bankrekeningkaart** .
 
 > [!NOTE]  
 >   De bijwerking van ondersteunde bankgegevensindelingen treedt ook op wanneer u een waarde selecteert of invoert in het veld **Banknaam - Gegevensconversie** voor de bankrekening.

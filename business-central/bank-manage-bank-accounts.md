@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d7ca565218f45a753abd7e468e201538d0e6841
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786533"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924365"
 ---
 # <a name="reconciling-bank-accounts"></a>Bankrekeningen reconciliëren
 
 Voor al uw bankrekeningen moet op gezette tijden een bankafstemming worden uitgevoerd om ervoor te zorgen dat de kasgegevens van het bedrijf correct zijn. U doet dit door boekingen op uw interne bankrekeningen te vergelijken en af te stemmen met banktransacties bij uw bank en vervolgens de saldi op uw interne bankrekeningen te boeken om totalen beschikbaar te stellen voor financiële managers. Bankafstemming is ook een praktische manier om ontbrekende betalingen en boekhoudfouten te ontdekken en op te lossen.
 
-U kunt de taak uitvoeren op de pagina **Bankreconciliatie**, waar u bankafschriftregels in het linkerdeelvenster afstemt met uw interne bankposten in het rechterdeelvenster. U kunt deze taak ook uitvoeren op de pagina **Betalingsreconciliatiedagboek** als onderdeel van de verwerking van betalingen op een bankafschrift. Op beide pagina's kunt u de bankafschriftinformatie invullen door een bestand of een feed te importeren en kunt u automatische afstemmingsvoorstellen gebruiken.
+U kunt de taak uitvoeren op de pagina **Bankreconciliatie** , waar u bankafschriftregels in het linkerdeelvenster afstemt met uw interne bankposten in het rechterdeelvenster. U kunt deze taak ook uitvoeren op de pagina **Betalingsreconciliatiedagboek** als onderdeel van de verwerking van betalingen op een bankafschrift. Op beide pagina's kunt u de bankafschriftinformatie invullen door een bestand of een feed te importeren en kunt u automatische afstemmingsvoorstellen gebruiken.
 
 > [!NOTE]  
-> In de Noord-Amerikaanse versies kunt u bankreconciliatie ook uitvoeren op de pagina **Werkblad bankreconciliatie**, dat geschikter is voor cheques en borgsommen, maar geen importeren van bankafschriftbestanden biedt. Als u deze pagina wilt gebruiken in plaats van de pagina **Bankreconciliatie**, schakelt u het veld **Bankreconciliatie met automatische afstemming** uit op de pagina **Boekhoudinstellingen**. Zie voor meer informatie [Bankrekeningen reconciliëren](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) onder Lokale functionaliteit voor de Verenigde Staten.
+> In de Noord-Amerikaanse versies kunt u bankreconciliatie ook uitvoeren op de pagina **Werkblad bankreconciliatie** , dat geschikter is voor cheques en borgsommen, maar geen importeren van bankafschriftbestanden biedt. Als u deze pagina wilt gebruiken in plaats van de pagina **Bankreconciliatie** , schakelt u het veld **Bankreconciliatie met automatische afstemming** uit op de pagina **Boekhoudinstellingen** . Zie voor meer informatie [Bankrekeningen reconciliëren](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) onder Lokale functionaliteit voor de Verenigde Staten.
 
 Voordat u uw bankrekeningen kunt beheren in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u elke bankrekening als bankrekeningkaart instellen. Daarnaast moet u elektronische services instellen die u kunt gebruiken voor de import van bankafschriften en de export van het betalingsbestand. Zie [Bankieren instellen](bank-setup-banking.md) voor meer informatie.
 
@@ -32,8 +32,8 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 
 | Als u dit wilt doen: | Zie |
 | --- | --- |
-| Bankrekeningen reconciliëren als afzonderlijke taak op de pagina **Bankreconciliatie**. |[Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md) |
-| Bankrekeningen reconciliëren met betrekking tot betalingsverwerking op de pagina **Betalingsreconciliatiedagboek**. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Bankrekeningen reconciliëren als afzonderlijke taak op de pagina **Bankreconciliatie** . |[Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md) |
+| Bankrekeningen reconciliëren met betrekking tot betalingsverwerking op de pagina **Betalingsreconciliatiedagboek** . |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
 > [!TIP]
 > Gebruik bankreconciliatie om te controleren of uw boeken up-to-date zijn en boek de reconciliatie pas als u er tevreden mee bent.

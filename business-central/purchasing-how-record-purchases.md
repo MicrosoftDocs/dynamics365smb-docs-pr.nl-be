@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d01903b88919c498e804429c10be1beae7baf05
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4073ccccd36f6ec62804a5c1bd1881fb4d7a167d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783011"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926809"
 ---
 # <a name="record-purchases"></a>Inkopen vastleggen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u voorraad moet controleren, worden inkoopfacturen en inkooporders ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen of orders, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
 
-Naast het kopen van fysieke artikelen (artikelsoort **Voorraad**), die van invloed zijn op de voorraadwaardering, kunt u services aanschaffen die worden weergegeven door tijdseenheden. U kunt dit doen met de artikelsoort **Service** of met de regelsoort **Resource**.
+Naast het kopen van fysieke artikelen (artikelsoort **Voorraad** ), die van invloed zijn op de voorraadwaardering, kunt u services aanschaffen die worden weergegeven door tijdseenheden. U kunt dit doen met de artikelsoort **Service** of met de regelsoort **Resource** .
 
 > [!NOTE]  
 > U moet inkooporders gebruiken als uw inkoopproces vereist dat u gedeeltelijke ontvangsten van een orderhoeveelheid registreert, bijvoorbeeld omdat de volledige hoeveelheid niet beschikbaar was bij de leverancier. Als u artikelen verkoopt door rechtstreeks van uw leverancier bij de klant te leveren, als een doorverzending, moet u ook inkooporders gebruiken. Zie [Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie. Wat betreft alle andere aspecten werken inkooporders op dezelfde manier als inkoopfacturen. De volgende procedure is gebaseerd op een inkoopfactuur. De stappen zijn vergelijkbaar met de stappen voor een inkooporder.
@@ -33,7 +33,7 @@ Wanneer u de voorraadartikelen ontvangt of wanneer de ingekochte service wordt v
 
 U kunt een geboekte inkoopfactuur gemakkelijk corrigeren of annuleren voordat u de leverancier betaalt. Dit is handig als u een typefout wilt corrigeren of als u de aankoop in het begin van het orderproces wilt wijzigen. Zie voor meer informatie [Onbetaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Als u al hebt betaald voor artikelen of services op de geboekte inkoopfactuur, moet u een inkoopcreditnota maken om de inkoop tegen te boeken. Zie voor meer informatie [Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md).
 
-De artikelkaart kan van het type **Voorraad**, **Service** en **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt gehouden, is. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het inkoopfactureringsproces is hetzelfde voor alle drie de artikeltypen.
+De artikelkaart kan van het type **Voorraad** , **Service** en **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt gehouden, is. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het inkoopfactureringsproces is hetzelfde voor alle drie de artikeltypen.
 
 > [!NOTE]
 > Met de inkoopregelsoort **Resource** kunt u ook externe resources aanschaffen, bijvoorbeeld om een leverancier te factureren voor geleverd werk. Zie [Resources instellen](projects-how-setup-resources.md) voor meer informatie.<br /><br />
@@ -52,11 +52,11 @@ Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen zijn vergel
 
     Overige velden op de pagina **Inkoopfactuur** worden nu ingevuld met de standaardinformatie over de geselecteerde leverancier. Als de leverancier niet is geregistreerd, volgt u deze stappen:
 3. Voer in het veld **Leverancier** de naam van de nieuwe leverancier in.
-4. Kies in dialoogvenster voor het registreren van de nieuwe leverancier de knop **Ja**.
-5. Kies op de pagina **Selecteer een sjabloon voor een nieuwe leverancier** een sjabloon om de leverancierskaart op te baseren en kies vervolgens de knop **OK**.
+4. Kies in dialoogvenster voor het registreren van de nieuwe leverancier de knop **Ja** .
+5. Kies op de pagina **Selecteer een sjabloon voor een nieuwe leverancier** een sjabloon om de leverancierskaart op te baseren en kies vervolgens de knop **OK** .
 6. Een nieuwe leverancierskaart wordt geopend, die vooraf is ingevuld met de informatie over de geselecteerde leveranciersjabloon. Het veld **Naam** is vooraf ingevuld met de naam van de nieuwe leverancier die u op de inkoopfactuur hebt ingevoerd.
 7. Ga verder met het invullen van de overige velden op de leverancierskaart. Zie voor meer informatie [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md).  
-8. Wanneer u de leverancierskaart hebt voltooid, kiest u de knop **OK** om terug te keren naar de pagina **Inkoopfactuur**.
+8. Wanneer u de leverancierskaart hebt voltooid, kiest u de knop **OK** om terug te keren naar de pagina **Inkoopfactuur** .
 
     Verschillende velden op de pagina **Inkoopfactuur** worden gevuld met gegevens die u op de nieuwe leverancierskaart hebt opgegeven.
 9. Vul desgewenst de overige velden op de pagina **Inkoopfactuur** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -71,7 +71,7 @@ Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen zijn vergel
     > [!NOTE]  
     >   Voor artikelen van de soort **Service** en voor regels van de soort **Resource** is de hoeveelheid een tijdseenheid, bijvoorbeeld uren, zoals aangegeven in het veld **Eenheidscode** op de regel.
 
-    Het veld **Regelbedrag** wordt bijgewerkt met de waarde in het veld **Directe kostprijs**, vermenigvuldigd met de waarde in het veld **Aantal**.
+    Het veld **Regelbedrag** wordt bijgewerkt met de waarde in het veld **Directe kostprijs** , vermenigvuldigd met de waarde in het veld **Aantal** .
 
     De prijs en het regelbedrag worden weergegeven met of zonder btw afhankelijk van wat u hebt geselecteerd in het veld **Prijzen inclusief btw** op de leverancierskaart.
 
@@ -83,8 +83,8 @@ Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen zijn vergel
 12. In het veld **Kortingsbedrag op factuur** voert u een bedrag in dat moet worden afgetrokken van de waarde in het veld **Totaal incl. btw** onder in de factuur.
 
     > [!NOTE]  
-    >   Als u factuurkortingen voor de leverancier hebt opgegeven, wordt het percentage automatisch ingevoegd in het veld **Kortingspercentage op leveranciersfactuur** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Kortingsbedrag op factuur**.
-13. Als u de ingekochte artikelen of diensten ontvangt, kiest u **Boeken**.
+    >   Als u factuurkortingen voor de leverancier hebt opgegeven, wordt het percentage automatisch ingevoegd in het veld **Kortingspercentage op leveranciersfactuur** als aan de voorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Kortingsbedrag op factuur** .
+13. Als u de ingekochte artikelen of diensten ontvangt, kiest u **Boeken** .
 
 De inkoop wordt nu weerspiegeld in de voorraad, resourcejournalen en financiële records, en de leveranciersbetaling wordt geactiveerd. De inkoopfactuur wordt verwijderd uit het overzicht met inkoopfacturen en wordt vervangen door een nieuw document in het overzicht van geboekte inkoopfacturen.
 

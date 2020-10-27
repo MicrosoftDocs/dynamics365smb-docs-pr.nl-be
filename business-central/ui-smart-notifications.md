@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 45916dc92513a223ca74cb3d76629fb36b8afa39
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9ea6568f858dd154b7126f6444b45e4e548c6d18
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189519"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923357"
 ---
 # <a name="manage-notifications"></a>Berichten beheren
 
@@ -32,7 +32,7 @@ Bovendien kunt u voor sommige berichten de voorwaarden opgeven wanneer deze moet
 
 Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is alleen voor u van toepassing.  
 
-1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.  
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen** .  
 2. Kies op de pagina **Mijn instellingen** in het veld **Berichten** de optie *Wijzigen wanneer ik berichten ontvang.* koppeling.  
 3. Schakel op de pagina die verschijnt een bericht in of uit door het selectievakje **Geactiveerd** in of uit te schakelen.  
 4. Als u voorwaarden wilt opgeven die een bericht activeren, kiest u de koppeling **Filtergegevens weergeven** en vult u de velden in.  

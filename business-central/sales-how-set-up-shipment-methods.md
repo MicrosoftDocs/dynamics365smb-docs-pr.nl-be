@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 117af16fe6536f8db49eb3066e7e06a88450897f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 48a75bd1d5a47e6e91ed64868f15743713e40ec4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780873"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926059"
 ---
 # <a name="set-up-shipment-methods"></a>Verzendmethoden instellen
 Verzendmethoden, ook incoterms genoemd, zijn vaak afhankelijk van de artikelen, klanten en leveranciers. Een klant die op een eiland woont, zal aangeven dat artikelen altijd per vliegtuig of per boot moeten worden verzonden. Sommige klanten kunnen levering op de volgende dag vereisen. Sommigen willen de order ophalen. Op de klantenkaart en de leverancierskaart kunt u opgeven welke soort levering is gewenst.
 
-U stelt de omschrijving en de code voor elke verzendmethode in op de pagina **Verzendwijze**. U kunt bijvoorbeeld de code FOB instellen en Free on Board invoeren in het veld **Omschrijving**. Vervolgens kunt u de code invoeren in de velden **Code van verzendwijze**, elders in het systeem, bijvoorbeeld op een klantenkaart. Als u vervolgens orders, facturen, creditnota's, enzovoort maakt, wordt automatisch de omschrijving ingevoerd die bij de code hoort. U kunt het indien nodig in het document wijzigen.
+U stelt de omschrijving en de code voor elke verzendmethode in op de pagina **Verzendwijze** . U kunt bijvoorbeeld de code FOB instellen en Free on Board invoeren in het veld **Omschrijving** . Vervolgens kunt u de code invoeren in de velden **Code van verzendwijze** , elders in het systeem, bijvoorbeeld op een klantenkaart. Als u vervolgens orders, facturen, creditnota's, enzovoort maakt, wordt automatisch de omschrijving ingevoerd die bij de code hoort. U kunt het indien nodig in het document wijzigen.
 
 ## <a name="to-set-up-a-shipment-code"></a>Een verzendcode instellen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendmethoden** in en kies de gerelateerde koppeling.
-2. Kies op de pagina **Verzendmethoden** de actie **Nieuw**.
+2. Kies op de pagina **Verzendmethoden** de actie **Nieuw** .
 3. Geef op de nieuwe regel een code en omschrijving op voor de verzendwijze.
 
 ## <a name="see-also"></a>Zie ook

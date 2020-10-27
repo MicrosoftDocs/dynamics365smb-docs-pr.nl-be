@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693111"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924665"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Proefversies en abonnementen
 
@@ -53,11 +53,11 @@ Om u te helpen bij het opzetten van uw bedrijf bevat de pagina **Ondersteunde in
 | Een goedkeuringswerkstroom voor klanten instellen |Hiermee wordt de mogelijkheid ingesteld om een fiatteur automatisch te informeren wanneer een gebruiker een klantenkaart probeert te maken of te wijzigen. |
 | Een betalingsgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding te sturen naar een fiatteur wanneer een gebruiker betalingsdagboekregels voor goedkeuring verzendt. |
 | Een Dynamics 365 Sales-verbinding instellen |Hiermee wordt een verbinding met Dynamics 365 Sales ingesteld waarmee u gegevens, zoals contacten en verkoopordergegevens, kunt synchroniseren. |
-| Cashflowprognose instellen |Hiermee wordt het diagram Cashflowprognose ingesteld, zodat u de voorspelde verplaatsing van contant geld in en uit uw bedrijf kunt weergeven. Het diagram is beschikbaar in **Rolcentrum Accountant**. |
+| Cashflowprognose instellen |Hiermee wordt het diagram Cashflowprognose ingesteld, zodat u de voorspelde verplaatsing van contant geld in en uit uw bedrijf kunt weergeven. Het diagram is beschikbaar in **Rolcentrum Accountant** . |
 | Rapportagegegevens instellen|Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
 | Externe accountant uitnodigen |Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[prodshort](includes/prodshort.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. |
 
-De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u een instelling doorloopt, wordt deze gemarkeerd als **Voltooid**. U kunt extra gebieden van het bedrijf instellen met behulp van handmatige configuratie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).  
+De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u een instelling doorloopt, wordt deze gemarkeerd als **Voltooid** . U kunt extra gebieden van het bedrijf instellen met behulp van handmatige configuratie. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).  
 
 ### <a name="resetting-your-prodshort-trial-experience"></a>Uw [!INCLUDE[prodshort](includes/prodshort.md)]-proefomgeving opnieuw instellen
 
@@ -70,7 +70,7 @@ Als u gegevens aan uw gratis [!INCLUDE[prodshort](includes/prodshort.md)]-proef 
 
 Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prodshort](includes/prodshort.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prodshort](includes/prodshort.md)] aanpassen door apps toe te voegen vanuit [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online gebruikt Office 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises moet gebruiken.  
+[!INCLUDE[prodshort](includes/prodshort.md)] online maakt gebruik van Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises moet gebruiken.  
 
 U kunt ook contact opnemen met het [[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 

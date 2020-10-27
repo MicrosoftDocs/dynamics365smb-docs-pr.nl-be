@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2d9afd30c3b81912797ad95871256207d135b673
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783994"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921479"
 ---
 # <a name="planning-with-or-without-locations"></a>Planning met of zonder vestigingen
 Ten aanzien van de planning met of zonder vestigingscodes op vraagregels, werkt het planningssysteem eenvoudig en duidelijk wanneer:  
@@ -50,7 +50,7 @@ Tijdens de uitvoering van een planning controleert het systeem een voor een de w
 
     Als dit niet het geval is dan:  
 
-    Het artikel is gepland aan de hand van: Bestelbeleid =  *Lot-for-Lot*, Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg. (Artikelen die gebruikmaken van het bestelbeleid  *Order* blijven zowel  *Order* als de andere instellingen gebruiken.)  
+    Het artikel is gepland aan de hand van: Bestelbeleid =  *Lot-for-Lot* , Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg. (Artikelen die gebruikmaken van het bestelbeleid  *Order* blijven zowel  *Order* als de andere instellingen gebruiken.)  
 
 > [!NOTE]  
 >  Dit minimale alternatief dekt alleen de exacte vraag. Alle gedefinieerde planningsparameters worden genegeerd.  
@@ -59,7 +59,7 @@ Zie de variaties in de onderstaande scenario's.
 
 ## <a name="demand-at-blank-location"></a>Vraag op 'lege vestiging'  
 Zelfs als het selectievakje **Vestiging verplicht** ingeschakeld is, kan het systeem vraagregels zonder een vestigingscode maken, ook wel *LEGE* vestigingen genoemd. Dit is een afwijking voor het systeem omdat verschillende instellingswaarden zijn afgestemd op gebruik van vestigingen (zie boven). De planningsengine maakt hierdoor geen planningsregel voor een dergelijke vraagregel. Als het veld **Vestiging verplicht** niet ingeschakeld is, maar een van de instellingswaarden voor vestigingen bestaat, wordt er ook uitgegaan van een afwijking en reageert het planningssysteem met het 'minimale alternatief' als uitvoer:   
-Het artikel wordt gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft *Order)*, Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg.  
+Het artikel wordt gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft *Order)* , Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg.  
 
 Zie de variaties in de onderstaande configuratiescenario's.  
 
@@ -79,7 +79,7 @@ Het artikel is gepland aan de hand van de planningsparameters op de artikelkaart
 
 #### <a name="case-13-demand-is-at--green-location"></a>Case 1.3: vraag is op  *GROENE* vestiging  
 
-Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order*), Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg.  
+Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order* ), Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Case 1.4: vraag is op *LEGE* vestiging  
 
@@ -93,7 +93,7 @@ Het artikel is niet gepland omdat er geen vestiging is gedefinieerd op de vraagr
 
 #### <a name="case-21-demand-is-at--red-location"></a>Case 2.1: vraag is op  *RODE* vestiging  
 
-Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order*), Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg.  
+Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order* ), Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Case 2.2: vraag is op *BLAUWE* vestiging  
 
@@ -107,7 +107,7 @@ Het artikel is gepland aan de hand van de planningsparameters op de artikelkaart
 
 #### <a name="case-31-demand-is-at--red-location"></a>Case 3.1: vraag is op  *RODE* vestiging  
 
-Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order*), Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg.  
+Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order* ), Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Case 3.2: vraag is op *BLAUWE* vestiging  
 
@@ -115,7 +115,7 @@ Het artikel is gepland aan de hand van de planningsparameters op de artikelkaart
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Case 3.3: Vraag is op  *LEGE* vestiging  
 
-Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order*), Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg.  
+Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order* ), Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg.  
 
 ### <a name="setup-4"></a>Instelling 4:  
 
@@ -125,7 +125,7 @@ Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Case 4.1: vraag is op  *BLAUWE* vestiging  
 
-Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order*), Inclusief voorraad =  *Ja*, alle andere planningsparameters = Leeg.  
+Het artikel is gepland volgens: Bestelbeleid =  *Lot-for-Lot* ( *Order* blijft  *Order* ), Inclusief voorraad =  *Ja* , alle andere planningsparameters = Leeg.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Case 4.2: Vraag is op  *LEGE* vestiging  
 

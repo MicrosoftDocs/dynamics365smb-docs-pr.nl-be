@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6dfa7237cde2a88c8d36baa2daa69f4cde97a4eb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 177fb324e39a59abbfc1b50e6ceaa34d4ae06f56
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783111"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926909"
 ---
 # <a name="prioritize-vendors"></a>De prioriteit van leveranciers bepalen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft een functie die voorstellen kan doen voor betalingen aan leveranciers, bijvoorbeeld bij betalingen die binnenkort moeten worden betaald, of als voor een betaling een korting mogelijk is. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
@@ -28,7 +28,7 @@ Eerst moet u aan uw leveranciers eerst een prioriteit toewijzen door nummers aan
 
 ## <a name="to-prioritize-vendors"></a>Leveranciers in een prioriteitsvolgorde plaatsen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
-2. Selecteer de relevante leverancier en kies **Bewerken**.
+2. Selecteer de relevante leverancier en kies **Bewerken** .
 3. Voer in het veld **Prioriteit** een nummer in.
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft het laagste nummer, 0 uitgezonderd, de hoogste prioriteit. Als u bijvoorbeeld de nummers 1, 2 en 3 toewijst, heeft nummer 1 de hoogste prioriteit.

@@ -1,34 +1,37 @@
 ---
-title: Algemene voorraadinstellingen definiëren| Microsoft Docs
-description: Beschrijft hoe u algemene voorraadinstellingen definieert, zoals nummerreeksen en locaties, zodat u bijvoorbeeld uw magazijn en voorraad kunt beheren.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Algemene voorraadinstellingen definiëren
+description: Beschrijft hoe u de algemene voorraadinstellingen definieert, zodat u uw magazijn en voorraad kunt beheren.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9ca38111f2a5f61bd9a815d7b37dd8696b85a7d0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785683"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923757"
 ---
 # <a name="set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
+
 U geeft uw algemene voorraadinstellingen op de pagina **Voorraadinstelling** op.
 
 ## <a name="to-set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
+
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraad instellen** in en kies de desbetreffende koppeling.
 2. Vul op de pagina **Voorraadinstelling** de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Meer informatie over de kostprijsvelden **Automatische kostprijsboekingen** en **Verwachte kostprijsboekingen in grootboek** kunt u terecht bij [Voorraadkosten afstemmen op grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md) en [Ontwerpdetails: verwachte kostprijsboekingen](design-details-expected-cost-posting.md).
+Voor gedetailleerde informatie over de kostprijsvelden **Autom. voorraadwaarde boeken** , **Verw. kostprijs naar GB boeken** en **Standaardwaarderingsmethode** raadpleegt u [Voorraadkosten afstemmen op grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md) en [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md). Zie voor meer informatie over kostprijsberekening in het algemeen [Voorraadkosten beheren](finance-manage-inventory-costs.md).  
 
-Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad, op de pagina **Voorraadinstellingen**, en de vestiging. Zie voor meer informatie [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md).  
+Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad, op de pagina **Voorraadinstellingen** , en de vestiging. Zie voor meer informatie [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md).  
+
+> [!NOTE]
+> De schakelaar **Automatische kostenaanpassing** is standaard ingeschakeld om ervoor te zorgen dat voorraadwaarden altijd correct zijn in het grootboek, waardoor uw verkoop- en winststatistieken up-to-date blijven. Kostenwijzigingen vanuit inkomende posten, zoals voor inkopen of productie-output, worden toegewezen aan de bijbehorende uitgaande posten, zoals verkopen of transfers. Dit is handig voor nieuwe [!INCLUDE[d365fin](includes/d365fin_md.md)]-klanten en kleine bedrijven met relatief lage voorraadtransactieniveaus. Als een bedrijf echter groeit en de voorraadniveaus toenemen, kan dit de systeemprestaties vertragen. Om verminderde prestaties tijdens het boeken te minimaliseren, selecteert u een tijdoptie om te definiëren hoe ver terug in de tijd vanaf de werkdatum een inkomende transactie kan plaatsvinden om mogelijk een aanpassing van gerelateerde uitgaande waardeposten te activeren. Als alternatief kunt u de kosten met regelmatige tussenpozen handmatig aanpassen met de batchverwerking Kostprijs herwaarderen - Artikelposten.
 
 ## <a name="see-also"></a>Zie ook
 [Voorraad instellen](inventory-setup-inventory.md)  

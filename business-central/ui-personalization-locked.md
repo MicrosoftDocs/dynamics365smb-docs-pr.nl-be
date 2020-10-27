@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d24e78d7f0286e1ef633008e22ceb3f922b48768
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0bd24833f37fe70f8e642685be4d28dbb593a16d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781372"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923407"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
 
@@ -38,7 +38,7 @@ Hiervoor kunnen twee redenen bestaan:
 
 ### <a name="unlocking-the-page"></a>De pagina ontgrendelen
 
-Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") en kiest u vervolgens de actie **Ontgrendelen**.  
+Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") en kiest u vervolgens de actie **Ontgrendelen** .  
 
 Voordat u de pagina ontgrendelt, houdt u rekening met het volgende:
 

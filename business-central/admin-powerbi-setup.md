@@ -1,6 +1,6 @@
 ---
-title: Power BI-integratie met Business Central mogelijk maken| Microsoft Docs
-description: U kunt eenvoudig inzichten verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens met de Business Central-apps voor Power BI.
+title: Power BI-integratie met Business Central inschakelen
+description: Leer hoe u de verbinding met Power Bi instelt, zodat u inzichten, business intelligence en KPI's uit uw Business Central-gegevens kunt halen met de Business Central-apps voor Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697825"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927084"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Power BI-integratie met [!INCLUDE[prodshort](includes/prodshort.md)] mogelijk maken
 
@@ -27,8 +27,8 @@ Bij [!INCLUDE[prodshort](includes/prodshort.md)] krijgen gebruikers een gratis P
 
 |Power-licentie|Rapporten weergeven|Rapporten maken|Rapporten delen|Rapporten vernieuwen| [!INCLUDE[prodshort](includes/prodshort.md)]-apps|
 |-------------|--------||
-|Power BI gratis|![vinkje](media/check.png)|![vinkje](media/check.png)|(beperkt)|(beperkt)||
-|Power BI Pro|![vinkje](media/check.png)|![vinkje](media/check.png)|![vinkje](media/check.png)|(uitgebreid)|![vinkje](media/check.png)|
+|Power BI gratis|![een vinkje](media/check.png)|![nog een vinkje](media/check.png)|(beperkt)|(beperkt)||
+|Power BI Pro|![en nog een vinkje](media/check.png)|![het is een vinkje](media/check.png)|![weer een vinkje](media/check.png)|(uitgebreid)|![laatste vinkje](media/check.png)|
 
 Zie [Licenties voor de Power BI-service voor gebruikers in uw organisatie](/power-bi/admin/service-admin-licensing-organization) of [U aanmelden voor de Power BI-service als individu](/power-bi/fundamentals/service-self-service-signup-for-power-bi) voor meer informatie.
 

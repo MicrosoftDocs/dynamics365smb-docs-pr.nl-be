@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b80a2f89ae958a58b8cddd3c239df1a11e63a0f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784596"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925809"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Prijzen en aanvullende kosten voor services instellen
 Met de prijsstellingsfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u uw toepassing zo instellen en aanpassen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen. Deze prijsbeslissingen kunnen vervolgens gemakkelijk worden overgebracht naar het factureringsproces.  
@@ -28,11 +28,11 @@ U kunt groepen met serviceartikelen instellen waarvoor dezelfde speciale service
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceprijsgroepen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe serviceprijsgroep.  
 3. Vul de velden **Code** en **Omschrijving** in.  
-4. Kies de actie **Instellingen**.  
+4. Kies de actie **Instellingen** .  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
  > [!Tip]
- > Op basis van de velden **Herwaarderingssoort** en **Bedrag** wordt bepaald of een herwaardering om een vast bedrag gaat of alleen van toepassing is als de totale serviceprijs hoger of lager is dan het bedrag in het veld **Bedrag**.  
+ > Op basis van de velden **Herwaarderingssoort** en **Bedrag** wordt bepaald of een herwaardering om een vast bedrag gaat of alleen van toepassing is als de totale serviceprijs hoger of lager is dan het bedrag in het veld **Bedrag** .  
 
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Serviceprijsherwaarderingsgroepen instellen  
 U kunt prijsaanpassingsgroepen instellen om de serviceprijzen van serviceartikelen aan te passen. U kunt bijvoorbeeld de prijsaanpassingsgroep instellen om de prijzen van vracht of reserveonderdelen aan te passen.  
@@ -42,7 +42,7 @@ U kunt prijsaanpassingsgroepen instellen om de serviceprijzen van serviceartikel
 3. Vul de velden **Code** en **Omschrijving** in.  
 4. Voer in het veld **Soort** de soort post in die u wilt aanpassen.  
   
-    * Als u slechts één bepaalde post wilt aanpassen, moet u het nummer van deze post in het veld **Nr.** invoeren. Als u dit veld leeg laat, worden met de herwaarderingsgroep alle posten aangepast van de soort die is gedefinieerd in het veld **Soort**.  
+    * Als u slechts één bepaalde post wilt aanpassen, moet u het nummer van deze post in het veld **Nr.** invoeren. Als u dit veld leeg laat, worden met de herwaarderingsgroep alle posten aangepast van de soort die is gedefinieerd in het veld **Soort** .  
     * Vul het veld **Werksoort** in als u serviceprijzen wilt aanpassen die zijn gerelateerd aan slechts één bepaalde service. Als u dit veld leeg laat, wordt het genegeerd.  
   
 5. In het veld **Omschrijving** voert u een korte omschrijving van de serviceprijsherwaardering in.  

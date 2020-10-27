@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 07/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c6bbddbdc6dcfc75fc32ada91a5d6d6ec5bde1e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b3d45d4a058ea21adefafd13e640346e61a249d3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783086"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926884"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
 
@@ -42,7 +42,7 @@ Er zijn twee functies om kosten automatisch exact tegen te boeken.
 |Functie|Description|  
 |------------------|---------------------------------------|  
 |De functie **Geboekte documentregels ophalen voor tegenboeking** op de pagina **Inkoopretourorder**|Kopieert regels van een of meer geboekte documenten, die in de inkoopretourorder worden tegengeboekt. Zie voor meer informatie [Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|De functie **Kopiëren uit document** op de pagina's **Inkoopcreditnota** en **Inkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Inkoopinstellingen**.|
+|De functie **Kopiëren uit document** op de pagina's **Inkoopcreditnota** en **Inkoopretourorder**|Kopieert zowel de kop als de regels van één geboekt document voor tegenboeking.<br /><br /> Vereist dat het selectievakje **Precieze kostenvereff. verplicht** is ingeschakeld op de pagina **Inkoopinstellingen** .|
 
 Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld **Vereffenen met artikelpost** selecteren op elk soort retourdocumentregel en vervolgens het nummer van de oorspronkelijke inkooppost selecteren. Hierdoor wordt de inkoopcreditnota of de inkoopretourorder gekoppeld aan de oorspronkelijke inkooppost en wordt het artikel gewaardeerd tegen de oorspronkelijke kostprijs.
 
@@ -51,19 +51,19 @@ Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inv
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopfacturen** in en kies de desbetreffende koppeling.  
-2. Selecteer op de pagina **Geboekte inkoopfacturen** de geboekte inkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken**.
+2. Selecteer op de pagina **Geboekte inkoopfacturen** de geboekte inkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken** .
 
     De meeste velden op de inkoopcreditnotakop worden ingevuld met de gegevens van de geboekte inkoopfactuur. U kunt alle velden bewerken, bijvoorbeeld met nieuwe gegevens die overeenkomen met de retourovereenkomst.
 3. Bewerk informatie op de regels volgens de overeenkomst, zoals het nummer van geretourneerde artikelen of het terug te betalen bedrag.
-4. Kies de actie **Posten vereffenen**.
-5. Selecteer op de pagina **Leveranciersposten vereffenen** de regel met het geboekte inkoopdocument waarmee u de inkoopcreditnota wilt vereffenen, en kies vervolgens de actie **Vereffenings-id**. Het nummer van de inkoopcreditnota wordt ingevoegd in het veld **Vereffenings-id**.
+4. Kies de actie **Posten vereffenen** .
+5. Selecteer op de pagina **Leveranciersposten vereffenen** de regel met het geboekte inkoopdocument waarmee u de inkoopcreditnota wilt vereffenen, en kies vervolgens de actie **Vereffenings-id** . Het nummer van de inkoopcreditnota wordt ingevoegd in het veld **Vereffenings-id** .
 6. Voer in het veld **Te vereffenen bedrag** het bedrag in dat u wilt vereffenen als het kleiner is dan het oorspronkelijke bedrag.
 
     Onder op de pagina **Leveranciersposten vereffenen** ziet u het totale te vereffenen bedrag om alle betrokken posten tegen te boeken, namelijk als de waarde in het veld **Saldo** nul is.
-7. Kies de knop **Ok**. Wanneer u de inkoopcreditnota boekt, wordt deze vereffend met de opgegeven geboekte inkoopdocumenten.
+7. Kies de knop **Ok** . Wanneer u de inkoopcreditnota boekt, wordt deze vereffend met de opgegeven geboekte inkoopdocumenten.
 
     Wanneer u de nodige inkoopcreditnotaregels hebt gemaakt of bewerkt en de enkele of meerdere vereffeningen worden opgegeven, kunt u doorgaan om de inkoopcreditnota te boeken.
-8. Kies de actie **Boeken**.
+8. Kies de actie **Boeken** .
 
 De geboekte inkoopfacturen die u met de creditnota vereffent, worden nu tegengeboekt. Als u de oorspronkelijke factuur al hebt betaald, moet de leverancier de betaling nu aan u terugbetalen. Als de creditnota slechts voor een gedeelte van het product op de oorspronkelijke factuur is, kunt u alleen het resterende bedrag op de oorspronkelijke inkoopfactuur betalen om deze te sluiten.
 
@@ -74,24 +74,24 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopcreditnota's** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege inkoopcreditnota te openen.
 3. Voer in het veld **Leverancier** de naam in van een bestaande leverancier.
-4. Kies de actie **Kopiëren uit document**.
-5. Selecteer op de pagina **Inkoopdocument kopiëren** in het veld **Documentsoort** **Geboekte factuur**.
+4. Kies de actie **Kopiëren uit document** .
+5. Selecteer op de pagina **Inkoopdocument kopiëren** in het veld **Documentsoort** **Geboekte factuur** .
 6. Selecteer het veld **Documentnr.** om de pagina **Geboekte inkoopfacturen** te openen, en selecteer vervolgens de geboekte inkoopfactuur met de regels die u wilt tegenboeken.
 7. Schakel het selectievakje **Regels opnieuw berekenen** in als u wilt dat de gekopieerde geboekte inkoopfactuurregels worden bijgewerkt met de wijzigingen in de artikelprijs en kostprijs sinds de factuur is geboekt.
-8. Kies de knop **Ok**. De gekopieerde factuurregels worden ingevoegd in de kredietnota van de aankoop.
+8. Kies de knop **Ok** . De gekopieerde factuurregels worden ingevoegd in de kredietnota van de aankoop.
 9. Voltooi de inkoopcreditnota, zoals is uitgelegd in [Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopretourorders** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw**.  
+2. Kies de actie **Nieuw** .  
 3. Vul de velden op het sneltabblad **Algemeen** in met de benodigde gegevens.
 4. Vul op het sneltabblad **Regels** de regels handmatig in of kopieer informatie vanuit andere documenten om de regels automatisch in te vullen:
 
     - Met de functie **Geboekte documentregels ophalen voor tegenboeking** kopieert u een of meer geboekte documentregels uit een of meer geboekte documenten. Deze functie boekt altijd exact de kosten tegen vanuit de geboekte documentregel. Deze functie wordt in de volgende stappen beschreven.    
     - Met de functie **Kopiëren uit document** kunt u een bestaand document kopiëren naar de retourorder. Gebruik deze functie om het volledige document te kopiëren. Dit kan een geboekt document zijn of een document dat nog niet is geboekt. Deze functie maakt exact tegenboeken van de kosten alleen mogelijk als het selectievakje **Precieze kostenvereff. verplicht** op de pagina **Verkoopinstellingen** is ingeschakeld.  
 
-5. Kies de actie **Geboekte documentregels ophalen voor tegenboeking**.
+5. Kies de actie **Geboekte documentregels ophalen voor tegenboeking** .
 6. Schakel bovenaan de pagina **Geboekte inkoopdocumentregels** het selectievakje **Alleen tegengeboekte regels weergeven** in als u alleen regels wilt weergeven die aantallen bevatten die nog niet zijn geretourneerd. Als bijvoorbeeld een aantal op een geboekte inkoopfactuur al is geretourneerd, wilt u dat aantal misschien niet opnemen op een nieuw inkoopretourdocument.
 
     > [!NOTE]  
@@ -99,7 +99,7 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 
     Links op de pagina worden de andere documenttypen weergegeven. Het aantal tussen haakjes geeft aan hoeveel documenten beschikbaar zijn van elk documenttype.
 
-7. Selecteer in het veld **Documentsoortfilter**, het soort geboekte documentregels dat u wilt gebruiken.  
+7. Selecteer in het veld **Documentsoortfilter** , het soort geboekte documentregels dat u wilt gebruiken.  
 8. Selecteer de regels die u naar het nieuwe document wilt kopiëren.  
 
     > [!NOTE]  
@@ -121,7 +121,7 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 
     - Als de geboekte documentregel artikeltraceringsregels bevat, wordt het veld **Vereffenen met artikelpost** op de artikeltraceringsregel gevuld met de desbetreffende artikelpostnummers uit de geboekte artikeltraceringsregels.  
 
-     Wanneer u vanuit een geboekte factuur of geboekte creditnota kopieert, worden alle relevante factuurkortingen en regelkortingen die geldig zijn op het moment van boeking, gekopieerd van het geboekte document naar de nieuwe documentregel. Houd er echter rekening mee dat als de optie **Factuurkorting berekenen** is geactiveerd op de pagina **Inkoopinstellingen**, de factuurkorting opnieuw wordt berekend als u de nieuwe documentregel boekt. Het kan daardoor gebeuren dat het regelbedrag voor de nieuwe regel afwijkt van het regelbedrag voor de geboekte documentregel, afhankelijk van de nieuwe berekening van de factuurkorting.  
+     Wanneer u vanuit een geboekte factuur of geboekte creditnota kopieert, worden alle relevante factuurkortingen en regelkortingen die geldig zijn op het moment van boeking, gekopieerd van het geboekte document naar de nieuwe documentregel. Houd er echter rekening mee dat als de optie **Factuurkorting berekenen** is geactiveerd op de pagina **Inkoopinstellingen** , de factuurkorting opnieuw wordt berekend als u de nieuwe documentregel boekt. Het kan daardoor gebeuren dat het regelbedrag voor de nieuwe regel afwijkt van het regelbedrag voor de geboekte documentregel, afhankelijk van de nieuwe berekening van de factuurkorting.  
 
     > [!NOTE]  
     >  Als een deel van de hoeveelheid van de geboekte documentregel als is tegengeboekt of verkocht of geconsumeerd, wordt alleen een regel gemaakt voor de hoeveelheid die nog in voorraad is of die nog niet is geretourneerd. Als de volledige hoeveelheid van de geboekte documentregels al is tegengeboekt, wordt geen nieuwe documentregel gemaakt.  
@@ -129,16 +129,16 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
     >  Als de goederenstroom in het geboekte document gelijk is aan de goederenstroom in het nieuwe document, wordt gewoon een kopie van de oorspronkelijke geboekte documentregel gemaakt in het nieuwe document. Het veld **Vereffenen met artikelpost** wordt niet ingevuld, omdat in dit geval het exact tegenboeken van kosten niet mogelijk is. Als u bijvoorbeeld met de functie **Geboekte documentregels ophalen voor tegenboeking** een geboekte inkoopcreditnotaregel wilt ophalen voor een nieuwe inkoopcreditnota, wordt alleen de oorspronkelijke creditnotaregel naar de nieuwe creditnota gekopieerd.  
 
 10. Selecteer op de pagina **Inkoopretourorder** in het veld **Retourreden** op elke regel de reden voor de retour.
-11. Kies de actie **Boeken**.
+11. Kies de actie **Boeken** .
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Een vervangende inkooporder maken vanuit een inkoopretourorder
 
 U kunt met de leverancier afspreken dat deze een ingekocht artikel vervangt. Het vervangende artikel kan hetzelfde of een ander artikel zijn. Dit kan voorkomen als de leverancier per ongeluk het verkeerde artikel verzendt.  
 
-1.  Maak op de pagina **Inkoopretourorder** voor een actief retourproces op een lege regel een negatieve post aan voor het vervangende artikel, door een negatief bedrag in te voeren in het veld **Aantal**.  
-2. Kies de actie **Negatieve regels verplaatsen**.  
+1.  Maak op de pagina **Inkoopretourorder** voor een actief retourproces op een lege regel een negatieve post aan voor het vervangende artikel, door een negatief bedrag in te voeren in het veld **Aantal** .  
+2. Kies de actie **Negatieve regels verplaatsen** .  
 3. Vul op de pagina **Neg. inkoopregels verplaatsen** in de velden de gewenste gegevens in.
-4. Kies de knop **OK**. De negatieve regel wordt verwijderd uit de inkoopretourorder en er wordt een nieuwe inkooporder gemaakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
+4. Kies de knop **OK** . De negatieve regel wordt verwijderd uit de inkoopretourorder en er wordt een nieuwe inkooporder gemaakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Een inkooptegoed maken
 
@@ -149,13 +149,13 @@ U kunt deze korting op de inkoopkosten als artikeltoeslag op een creditnota of r
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopcreditnota's** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege inkoopcreditnota te openen.  
 3. Vul op de creditnotakop de gegevens in van de leverancier die u het inkooptegoed heeft gestuurd.  
-4. Selecteer **Toeslag (artikel)** in het veld **Soort** op het sneltabblad **Regels**.  
+4. Selecteer **Toeslag (artikel)** in het veld **Soort** op het sneltabblad **Regels** .  
 5. Selecteer in het veld **Nr.** de juiste artikeltoeslagwaarde.  
 
     Stel desgewenst een speciaal artikeltoeslagnummer voor inkooptegoeden in.  
-6. Geef **1** op in het veld **Aantal**.  
+6. Geef **1** op in het veld **Aantal** .  
 7. Typ in het veld **Directe kostprijs** het bedrag van het inkooptegoed.  
-8. Nu moet u het inkooptegoed als artikeltoeslag  toewijzen aan de artikelen op de geboekte ontvangst. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar de pagina **Inkoopcreditnota**.
+8. Nu moet u het inkooptegoed als artikeltoeslag  toewijzen aan de artikelen op de geboekte ontvangst. Zie voor meer informatie [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) Wanneer u het tegoed hebt toegewezen, gaat u terug naar de pagina **Inkoopcreditnota** .
 
 Wanneer u de inkoopretourorder boekt, wordt het inkooptegoed opnieuw toegevoegd aan het bedrag van de betreffende inkooppost. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.  
 
@@ -173,18 +173,18 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 > In de volgende procedure wordt ervan uitgegaan dat er meerdere inkoopretourorders zijn voor de leverancier en dat deze zijn geboekt als verzonden.     
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopcreditnota's** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw**.  
+2. Kies de actie **Nieuw** .  
 3. Vul indien nodig de velden op het sneltabblad **Algemeen** in.  
-4. Kies de actie **Retourverzendregels ophalen**.  
+4. Kies de actie **Retourverzendregels ophalen** .  
 5. Selecteer meerdere retourverzendregels die u wilt opnemen in de factuur.  
 
     Als een onjuiste retourverzendregel is geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de inkoopcreditnota gewoon verwijderen en vervolgens de functie **Retourverzendregels ophalen** opnieuw gebruiken.  
-6. Kies de actie **Boeken**.  
+6. Kies de actie **Boeken** .  
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Open inkoopretourorders verwijderen na gecombineerde boeking van retourverzendingen  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde inkoopretourorders verwijderen** in en kies de desbetreffende koppeling.  
-2. Vul de overige velden desgewenst in en kies de knop **OK**.  
+2. Vul de overige velden desgewenst in en kies de knop **OK** .  
 3. U kunt de afzonderlijke inkoopretourorders ook handmatig verwijderen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
@@ -193,4 +193,5 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)  

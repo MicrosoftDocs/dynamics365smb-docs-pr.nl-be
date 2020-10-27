@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8e6f248768f558f3bc5e12002234ffb56b006759
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780022"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925309"
 ---
 # <a name="set-up-put-away-templates"></a>Opslagsjablonen instellen
 
@@ -26,12 +26,12 @@ U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren 
 ## <a name="to-set-up-put-away-templates"></a>U kunt als volgt opslagsjablonen instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagsjablonen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**.  
+2. Kies de actie **Nieuw** .  
 3. Voer een unieke id in voor de sjabloon die u wilt maken.  
 4. Typ desgewenst een korte omschrijving.  
 5. Voer op de eerste regel de opslaglocatievereisten in die u de hoogste prioriteit wilt geven bij opslagactiviteiten in het programma.
 
-    Als u bijvoorbeeld wilt dat de standaardopslagmethode gebaseerd is op vaste opslaglocaties, kiest u het veld **Vaste opslaglocatie zoeken**. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    Als u bijvoorbeeld wilt dat de standaardopslagmethode gebaseerd is op vaste opslaglocaties, kiest u het veld **Vaste opslaglocatie zoeken** . [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 6. Op de tweede regel voert u de vereisten in die u van secundair belang acht bij het zoeken naar een opslaglocatie. De tweede regel wordt alleen gebruikt indien een opslaglocatie die aan de voorwaarden van de eerste regel voldoet niet kan worden gevonden.  
 7. Vul de regels in totdat u alle acceptabele plaatsingsvereisten hebt ingevoerd waaraan moet worden voldaan bij de opslag van artikelen.  
 8. Schakel het selectievakje **Vrije opslaglocatie zoeken** op de laatste regel van de opslagsjabloon in.  

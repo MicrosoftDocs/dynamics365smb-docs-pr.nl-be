@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697710"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968398"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -34,21 +34,21 @@ Geef de gegevensbron op die de gegevens bevat die gerelateerd zijn aan de lijst.
 
 ## <a name="defining-the-report-filter"></a>Het rapportfilter definiëren
 
-Als u wilt dat de gegevens worden bijgewerkt op basis van de geselecteerde record in de lijst, voegt u een filter toe aan het rapport. Het filter moet een veld bevatten van de gegevensbron die wordt gebruikt als *primaire sleutel*. In de meeste gevallen is de primaire sleutel voor een lijst **Nr.** toevoegen.
+Als u wilt dat de gegevens worden bijgewerkt op basis van de geselecteerde record in de lijst, voegt u een filter toe aan het rapport. Het filter moet een veld bevatten van de gegevensbron die wordt gebruikt als *primaire sleutel* . In de meeste gevallen is de primaire sleutel voor een lijst **Nr.** toevoegen.
 
-Als u een filter voor het rapport wilt definiëren, selecteert u de primaire sleutel in de lijst met beschikbare velden en sleept u dat veld vervolgens en zet u het neer in de sectie **Rapportfilter**. Het filter moet een basisrapportfilter zijn. Het kan geen pagina, visueel element of geavanceerd filter zijn. 
+Als u een filter voor het rapport wilt definiëren, selecteert u de primaire sleutel in de lijst met beschikbare velden en sleept u dat veld vervolgens en zet u het neer in de sectie **Rapportfilter** . Het filter moet een basisrapportfilter zijn dat voor alle pagina's is gedefinieerd. Het kan geen pagina, visueel element of geavanceerd filter zijn.
 
-![Het rapportfilter instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Het rapportfilter instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>De rapportgrootte en kleur instellen
 
 De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Deze grootte is vereist voor een juiste schaling van het rapport in de beschikbare ruimte van het Power BI-besturingselement Feitenblok in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
 
-![De breedte en hoogte van het rapport instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![De breedte en hoogte van het rapport instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 U kunt de breedte en hoogte van het rapport wijzigen door **Aangepast** in het veld **Soort** te kiezen.
 
-Als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondkleur van het Power BI-besturingselement Feitenblok, stelt u de achtergrondkleur van het rapport in op *#FFFFFF*. 
+Als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondkleur van het Power BI-besturingselement Feitenblok, stelt u de achtergrondkleur van het rapport in op *#FFFFFF* . 
 
 ## <a name="using-reports-with-multiple-pages"></a>Rapporten met meerdere pagina's gebruiken
 
@@ -56,7 +56,7 @@ Met Power BI kunt u één rapport met meerdere pagina's maken. Voor rapporten di
 
 ## <a name="naming-the-report"></a>Het rapport een naam geven
 
-Geef het rapport een naam die de naam bevat van de lijstpagina die aan het rapport is gekoppeld. Is het rapport bijvoorbeeld gemaakt voor de lijstpagina **Verkoper**, neem dan het woord *verkoper* op in de naam.  
+Geef het rapport een naam die de naam bevat van de lijstpagina die aan het rapport is gekoppeld. Is het rapport bijvoorbeeld gemaakt voor de lijstpagina **Verkoper** , neem dan het woord *verkoper* op in de naam.  
 
 Deze naamgevingsconventie is geen vereiste. Deze zorgt er echter wel voor dat gebruikers de gewenste rapporten sneller kunnen selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wanneer de rapportselectiepagina wordt geopend vanuit een lijstpagina, wordt de lijst met rapporten automatisch gefilterd op basis van de paginanaam. De rapporten worden gefilterd om het aantal weergegeven rapporten te beperken. Gebruikers kunnen het filter ook verwijderen als ze de volledige lijst met rapporten die beschikbaar zijn in Power BI, willen bekijken.  
 

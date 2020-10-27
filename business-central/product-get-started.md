@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d040507dad53ad6e9ba5407dcf457e04afa751c7
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528750"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970451"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Registreren is gemakkelijk en u kunt bestaande bedrijfsgegevens migreren vanuit uw legacysysteem.  
@@ -38,10 +38,10 @@ In het demonstratiebedrijf omvatten de rolcentra Bedrijfsmanager en Accountant d
 
 Als u klaar bent om aan de slag te gaan en enkele bedrijfsprocessen wilt bekijken die in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund, raadpleegt u [Bedrijfsfunctionaliteit](across-business-functionality.md).
 
-Voordat u de functionaliteit kunt gaan gebruiken, moet u bepaalde instellingen uitvoeren. Om aan de slag te gaan kiest u gewoon het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en vervolgens de actie **Begeleide instelling**. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
+Voordat u de functionaliteit kunt gaan gebruiken, moet u bepaalde instellingen uitvoeren. Om aan de slag te gaan kiest u gewoon het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en vervolgens de actie **Begeleide instelling** . Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.  
 
 > [!TIP]
-> Sommige installatiestappen kunne semi-automatisch worden uitgevoerd met behulp van begeleide instellingen. Anderen vereisten handmatige instelling en u vindt een lijst op de pagina **Geavanceerde instellingen**.
+> Sommige installatiestappen kunne semi-automatisch worden uitgevoerd met behulp van begeleide instellingen. Anderen vereisten handmatige instelling en u vindt een lijst op de pagina **Geavanceerde instellingen** .
 
 <!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -56,7 +56,7 @@ De pagina Rolcentrum gebruikt een rolgericht ontwerp om u snel toegang te verlen
 ## <a name="trying-things-out-in-your-own-company"></a>Zaken in uw eigen bedrijf uitproberen
 Overweegt u zich in te schrijven? U kunt gemakkelijk van het demobedrijf overschakelen en een eigen bedrijf maken en erin werken. Dit is een prachtige manier om uit te zoeken of u een abonnement wilt. Instellingen voor financiële zaken zijn al geconfigureerd, u hoeft alleen maar uw klanten, leveranciers en de door u verkochte producten of services te maken of te importeren. Daarna kunt u facturen boeken en bedrijfsinformatiehulpmiddelen gebruiken om uw bedrijf te analyseren. U kunt uw bedrijf gratis gebruiken tijdens een proefperiode van 30 dagen. Als u zich gedurende die tijd abonneert op [!INCLUDE[d365fin](includes/d365fin_md.md)], bent u al actief en kunt u gewoon verder werken. U kunt dan doorgaan met het werk waarmee u tijdens de proefperiode bezig was.  
 
-Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf**. Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u het rolcentrum en zoekt u de actie **Begeleide instelling**.  
+Als u een bedrijf wilt maken om zaken uit te proberen, gaat u naar het menu **Mijn instellingen** in de rechterbovenhoek, en wijzigt u het bedrijf in **Mijn bedrijf** . Meld u af bij [!INCLUDE[d365fin](includes/d365fin_md.md)] en meld u vervolgens weer aan om de wijziging door te voeren. Een begeleide instelling helpt u bij het opgeven van basisgegevens voor uw bedrijf. Als dat is gebeurd, bekijkt u het rolcentrum en zoekt u de actie **Begeleide instelling** .  
 
 U kunt ook contact opnemen met een wederverkoper van Dynamics 365. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
@@ -64,7 +64,7 @@ U kunt ook contact opnemen met een wederverkoper van Dynamics 365. Zie [Hoe vind
 
 Als u niet zeker weet hoe u iets doet in [!INCLUDE[d365fin](includes/d365fin_md.md)], vindt u het antwoord hopelijk door de knopinfo te lezen voor het veld waarover u twijfelt, of door de inhoud te lezen door de koppeling *Meer informatie* te openen in knopinfo (gebruik de sneltoets Ctrl+F1). U kunt ook de documentatie ophalen door de gerelateerde koppeling te kiezen op de pagina [Help en ondersteuning](product-help-and-support.md).  
 
-Alle velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden beschreven in knopinfo. U kunt knopinfo openen door de naam van het veld te selecteren. Bijvoorbeeld op een pagina zoals **Klantenkaart**, kiest u de naam van het veld om de knopinfo te lezen. In een lijst zoals de lijst **Klanten** of de regels in een document zoals een verkooporder, moet u het vervolgkeuzemenu kiezen rechts van de naam van de kolom en vervolgens de menuoptie **Wat is dit?** kiezen.  
+Alle velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden beschreven in knopinfo. U kunt knopinfo openen door de naam van het veld te selecteren. Bijvoorbeeld op een pagina zoals **Klantenkaart** , kiest u de naam van het veld om de knopinfo te lezen. In een lijst zoals de lijst **Klanten** of de regels in een document zoals een verkooporder, moet u het vervolgkeuzemenu kiezen rechts van de naam van de kolom en vervolgens de menuoptie **Wat is dit?** kiezen.  
 
 Als u extra vragen hebt, is het raadzaam dat u het de community vraagt of contact opneemt met uw verkopende partner. Zie voor meer informatie [Waar ga ik met mijn vragen naartoe?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
@@ -74,8 +74,6 @@ Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende ti
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365-apps
 Navigeer naar inhoud over de andere Dynamics 365-apps via de koppeling [Dynamics 365](/dynamics365/) in de zwarte banner boven aan deze pagina. Ook op de [Dynamics 365 Business Central-website](https://dynamics.microsoft.com/business-central/overview/) vindt u meer informatie.  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 

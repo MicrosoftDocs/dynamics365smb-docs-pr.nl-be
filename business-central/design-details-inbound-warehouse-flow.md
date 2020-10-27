@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d893b810c85faaa297f7775cbf02c208fc67a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787858"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922154"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
 De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.  
@@ -87,15 +87,15 @@ De gebruiker vult het veld **Te verwerken aantal** in en selecteert de ontvangst
 De gebruiker boekt de magazijnontvangst. Er worden positieve artikelposten gemaakt. Het veld **Ontvangen aantal** in het inkomende brondocument wordt bijvoorbeeld bijgewerkt.  
 
 ### <a name="5-create-warehouse-internal-put-away"></a>5: Interne magazijnopslag maken  
-De gebruiker die verantwoordelijk is voor de opslag van interne bewerkingen, maakt een interne magazijnopslag voor artikelen die moeten worden opgeslagen in het magazijn, zoals productie- of assemblyuitvoer. De gebruiker geeft aantal, zone en opslaglocatie op waar de artikelen moeten worden opgeslagen, eventueel met de functie **Opslaglocatie-inhoud ophalen**. De gebruiker geeft de interne magazijnopslag vrij, waardoor een inkomend magazijnverzoek wordt gemaakt zodat de taak kan worden opgehaald in magazijnopslagdocumenten of het opslagvoorstel.  
+De gebruiker die verantwoordelijk is voor de opslag van interne bewerkingen, maakt een interne magazijnopslag voor artikelen die moeten worden opgeslagen in het magazijn, zoals productie- of assemblyuitvoer. De gebruiker geeft aantal, zone en opslaglocatie op waar de artikelen moeten worden opgeslagen, eventueel met de functie **Opslaglocatie-inhoud ophalen** . De gebruiker geeft de interne magazijnopslag vrij, waardoor een inkomend magazijnverzoek wordt gemaakt zodat de taak kan worden opgehaald in magazijnopslagdocumenten of het opslagvoorstel.  
 
 ### <a name="6-create-put-away-request"></a>6: Opslagaanvraag maken  
 Wanneer het inkomende brondocument wordt geboekt, wordt automatisch een verzoek om magazijnopslag gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker. Afhankelijk van de instellingen leidt output van een productieorder ook tot een opslagaanvraag om de voltooide artikelen in voorraad op te slaan.  
 
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Opslagvoorstelregels genereren (optioneel)  
-De gebruiker die verantwoordelijk is voor het coördineren van opslagactiviteiten, haalt opslagregels op in het **Opslagvoorstel**, op basis van geboekte magazijnontvangsten of interne bewerkingen met output. De gebruiker selecteert de op te slaan regels en bereidt de opslag voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
+De gebruiker die verantwoordelijk is voor het coördineren van opslagactiviteiten, haalt opslagregels op in het **Opslagvoorstel** , op basis van geboekte magazijnontvangsten of interne bewerkingen met output. De gebruiker selecteert de op te slaan regels en bereidt de opslag voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
 
-Wanneer alle opslagactiviteiten zijn gepland en toegewezen aan magazijnmedewerkers, genereert de gebruiker de magazijnopslagdocumenten. Volledig toegewezen opslagregels worden verwijderd uit het **Opslagvoorstel**.  
+Wanneer alle opslagactiviteiten zijn gepland en toegewezen aan magazijnmedewerkers, genereert de gebruiker de magazijnopslagdocumenten. Volledig toegewezen opslagregels worden verwijderd uit het **Opslagvoorstel** .  
 
 > [!NOTE]  
 >  Als het veld **Opslagvoorstel gebruiken** niet op de vestigingskaart is geselecteerd, worden magazijnopslagdocumenten gemaakt die direct zijn gebaseerd op geboekte magazijnontvangsten. In dat geval wordt stap 7 overgeslagen.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787633"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922104"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Ontwerpdetails: Artikeltracering en reserveringen
 
@@ -36,10 +36,11 @@ De reservering van artikeltraceringsnummers bestaat uit twee categorieën, zoals
 |Niet specifiek|U selecteert geen specifiek serie- of lotnummer als u het voorraadartikel uit een vraag reserveert, zoals een verkooporder.<br /><br /> Dit is een status die wordt opgelegd voor een reserveringspost voor serie- of lotnummers die niet specifiek zijn ingeschakeld. **Opmerking:** De vraag omvat geen serie- of lotnummers. <br /><br /> U wilt bijvoorbeeld een blik blauwe verf vanuit een lot reserveren voor uw verkooporder. Een blik blauwe verf met een willekeurig serie- of lotnummer wordt naar de klant verzonden.|  
   
 Het belangrijkste verschil tussen specifieke en niet-specifieke reserveringen wordt bepaald door het bestaan van serie- of lotnummers aan de vraagkant, zoals in de volgende tabel wordt getoond.  
-  
-|<!--blank -->|**Voorraad**|**Vraag**|  
-|**Specifiek**|Serie- of partijnummer.|Serie-of partijnummer.|  
-|**Niet-specifiek**|Serie- of partijnummer.|Geen serie- of partijnummer.|  
+
+| Soort            | Voorraad                | Vraag                   |
+|-----------------|-----------------------|--------------------------|
+| **Specifiek**    | Serie- of lotnummer. | Serie- of lotnummer.    |
+| **Niet specifiek** | Serie- of lotnummer. | Geen serie- of lotnummer. |
   
 Wanneer u voorraadaantallen reserveert van een uitgaande documentregel voor een artikel waaraan artikeltraceringsnummers zijn toegewezen en dat is ingesteld voor specifieke artikeltracering, wordt op de pagina **Reservering** verschillende werkstromen getoond afhankelijk van uw behoefte aan de serie- of lotnummers.  
   

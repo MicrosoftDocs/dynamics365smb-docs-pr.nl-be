@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787383"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922005"
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
 Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ De manier waarop het planningssysteem de artikelvoorziening controleert, wordt b
 |-------------|---------------|  
 |Definiëren of het artikel moet worden gepland|Bestelbeleid = leeg|  
 |Definiëren wanneer moet worden besteld|Tijdsinterval<br /><br /> Bestelpunt<br /><br /> Veiligheidstijd|  
-|Definiëren hoeveel moet worden besteld|Veiligheidsvoorraad<br /><br /> Bestelbeleid:<br /><br /> -   Vast bestelaantal plus bestelaantal<br />-   Maximum aantal plus Maximale voorraad<br />-   Volgorde<br />-   Lot-for-Lot|  
+|Definiëren hoeveel moet worden besteld|Veiligheidsvoorraad<br /><br /> Bestelbeleid:<br /><br /> -   Vast bestelaantal plus bestelaantal<br />-   Maximum aantal plus Maximale voorraad<br />-   Order<br />-   Lot-voor-lot|  
 |Optimaliseren wanneer en hoe u bestelt|Herplanningsperiode<br /><br /> Lotaccumulatieperiode<br /><br /> Dempingsperiode|  
 |De voorzieningenorders wijzigen|Min. bestelaantal<br /><br /> Max. bestelaantal<br /><br /> Vaste lotgrootte|  
 |Het geplande artikel beperken|Productiebeleid:<br /><br /> -   Op voorraad produceren<br />-   Op order produceren|  
@@ -37,14 +37,14 @@ Als u een artikel/SKU in het planningsproces wilt opnemen, moet het een bestelbe
 ## <a name="define-when-to-reorder"></a>Definiëren wanneer moet worden besteld  
 Voorstellen voor opnieuw bestellen worden normaal gesproken alleen vrijgegeven wanneer de verwachte beschikbare hoeveelheid op of onder een bepaalde hoeveelheid komt. Dit aantal wordt bepaald door het bestelpunt. Anders wordt het nul. Nul kan worden aangepast door een veiligheidsvoorraad in te voeren. Als de gebruiker een veiligheidstijd heeft opgegeven, wordt het voorstel gedaan in de periode vóór de vereiste vervaldatum.  
 
-Het veld **Tijdsinterval** wordt gebruikt door bestelpuntbeleid (**Vast bestelaantal** en **Maximum aantal**) waarbij het voorraadniveau wordt gecontroleerd na elk tijdsinterval. Het eerste tijdsinterval begint op de begindatum van de planning.  
+Het veld **Tijdsinterval** wordt gebruikt door bestelpuntbeleid ( **Vast bestelaantal** en **Maximum aantal** ) waarbij het voorraadniveau wordt gecontroleerd na elk tijdsinterval. Het eerste tijdsinterval begint op de begindatum van de planning.  
 
 > [!NOTE]  
->  Bij de berekening van tijdsperioden negeert het planningssysteem werkagenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging**.  
+>  Bij de berekening van tijdsperioden negeert het planningssysteem werkagenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging** .  
 
 De standaardveiligheidstijd op de pagina **Productie-instellingen** moet worden ingesteld op ten minste één dag. De vervaldatum van de vraag kan bekend zijn, maar niet de vervaltijd. Er wordt terug in de tijd gepland om te voldoen aan de brutovraag. Als er geen veiligheidstijd is gedefinieerd, kunnen de goederen te laat arriveren om te voldoen aan de vraag.  
 
-Drie aanvullende bestelperiodevelden, **Herplanningsperiode**, **Lotaccumulatieperiode** en **Dempingsperiode**, spelen ook een rol bij de definitie van wanneer moet worden herbesteld. Voor meer informatie zie [Optimaliseren wanneer en hoe u bestelt](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder),  
+Drie aanvullende bestelperiodevelden, **Herplanningsperiode** , **Lotaccumulatieperiode** en **Dempingsperiode** , spelen ook een rol bij de definitie van wanneer moet worden herbesteld. Voor meer informatie zie [Optimaliseren wanneer en hoe u bestelt](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder),  
 
 ## <a name="define-how-much-to-reorder"></a>Definiëren hoeveel moet worden besteld  
 Als het planningssysteem de noodzaak voor een bestelling detecteert, wordt het geselecteerde bestelbeleid gebruikt om te bepalen wanneer en hoeveel moet worden besteld.  
@@ -57,7 +57,7 @@ Het planningssysteem volgt, onafhankelijk van het bestelbeleid, meestal deze log
 4. Als er meer brutovraag vervalt vóór de einddatum van het voorwaarts geplande ordervoorstel en de huidige berekende verwachte beschikbare voorraad door deze vraag onder het veiligheidsvoorraadaantal komt, wordt het orderaantal verhoogd om het tekort te dekken. De voorgestelde voorzieningenorder wordt vervolgens achterwaarts gepland vanaf de vervaldatum voor de brutovraag die de veiligheidsvoorraad zou hebben overschreden.  
 5. Als het veld **Tijdsinterval** niet is ingevuld, wordt alleen de brutovraag op dezelfde vervaldatum toegevoegd.  
 
-     De volgende bestelperiodevelden spelen ook een rol bij het bepalen hoeveel moet worden herbesteld: **Herplanningsperiode**, **Lotaccumulatieperiode** en **Dempingsperiode**. Voor meer informatie zie [Optimaliseren wanneer en hoe u bestelt](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder),  
+     De volgende bestelperiodevelden spelen ook een rol bij het bepalen hoeveel moet worden herbesteld: **Herplanningsperiode** , **Lotaccumulatieperiode** en **Dempingsperiode** . Voor meer informatie zie [Optimaliseren wanneer en hoe u bestelt](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder),  
 
 ### <a name="reordering-policies"></a>Bestelbeleid  
 Het volgende bestelbeleid heeft invloed op het aantal dat wordt besteld.  
@@ -78,7 +78,7 @@ Om een rationeel voorzieningenplan te verkrijgen, stemt een planner planningspar
 |**Lotaccumulatieperiode**|Met het bestelbeleid Lot-voor-Lot wordt dit veld gebruikt om meerdere voorzieningen samen te voegen in één aanvulorder. Vanaf de eerste geplande voorziening worden alle voorzieningsvereisten in de volgende lotaccumulatieperiode samengevoegd in één voorziening, die wordt geplaatst op de datum van de eerste voorziening. Vraag buiten de lotaccumulatieperiode wordt niet gedekt door deze voorziening.|  
 |**Dempingsperiode**|Dit veld wordt gebruikt om het op kleine schaal opnieuw plannen van bestaande voorzieningen te voorkomen. Wijzigingen vanaf de voorzieningsdatum tot aan één dempingsperiode vanaf de voorzieningsdatum genereren geen planningsboodschappen.<br /><br /> Met de dempingsperiode wordt een periode opgegeven waarbinnen u niet wilt dat het planningssysteem voorstelt bestaande aanvulorders opnieuw en eerder te plannen. Dit beperkt het aantal onbeduidende herplanningen van bestaande leveringen op een later tijdstip als de opnieuw geplande datum binnen de dempingsperiode valt.<br /><br /> Hierdoor is een positieve delta tussen de voorgestelde nieuwe voorzieningsdatum en de oorspronkelijke voorzieningsdatum altijd groter dan de dempingsperiode.|  
 > [!NOTE]
-> Met het herbestelbeleid Lot-voor-Lot moet de waarde van het veld **Lotaccumulatieperiode** gelijk zijn aan of groter zijn dan de waarde van het veld **Dempingsperiode**. Anders wordt de dempingsperiode tijdens de planningsroutine automatisch verkort om overeen te komen met de accumulatieperiode van de partij.  
+> Met het herbestelbeleid Lot-voor-Lot moet de waarde van het veld **Lotaccumulatieperiode** gelijk zijn aan of groter zijn dan de waarde van het veld **Dempingsperiode** . Anders wordt de dempingsperiode tijdens de planningsroutine automatisch verkort om overeen te komen met de accumulatieperiode van de partij.  
 
 De timing van de herplanningsperiode, dempingsperiode en lotaccumulatieperiode is gebaseerd op een voorzieningsdatum. Het tijdsinterval wordt gebaseerd op de begindatum van de planning, zoals in de onderstaande afbeelding is weergegeven.  
 
@@ -86,19 +86,19 @@ De timing van de herplanningsperiode, dempingsperiode en lotaccumulatieperiode i
 
 In de volgende voorbeelden geven de zwarte pijlen bestaand aanbod (omhoog) en bestaande vraag (omlaag) aan. Rode, groene en oranje pijlen zijn planningsuggesties.  
 
-**Voorbeeld 1**: De gewijzigde datum ligt buiten de herplanningsperiode, waardoor de bestaande voorziening wordt geannuleerd. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag in de lotaccumulatieperiode.  
+**Voorbeeld 1** : De gewijzigde datum ligt buiten de herplanningsperiode, waardoor de bestaande voorziening wordt geannuleerd. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag in de lotaccumulatieperiode.  
 
 ![Herplanningsperiode en lotaccumulatieperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Herplanningsperiode en lotaccumulatieperiode")  
 
-**Voorbeeld 2**: De gewijzigde datum ligt in de herplanningsperiode, waardoor de bestaande voorziening opnieuw wordt gepland. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag buiten de lotaccumulatieperiode.  
+**Voorbeeld 2** : De gewijzigde datum ligt in de herplanningsperiode, waardoor de bestaande voorziening opnieuw wordt gepland. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag buiten de lotaccumulatieperiode.  
 
 ![Herplanningsperiode, lotaccumulatieperiode en herplannen](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Herplanningsperiode, lotaccumulatieperiode en herplannen")  
 
-**Voorbeeld 3**: Er is vraag in de dempingsperiode en het voorzieningsaantal in de lotaccumulatieperiode komt overeen met het voorzieningsaantal. De volgende vraag wordt blootgelegd en er wordt een nieuwe voorziening voorgesteld.  
+**Voorbeeld 3** : Er is vraag in de dempingsperiode en het voorzieningsaantal in de lotaccumulatieperiode komt overeen met het voorzieningsaantal. De volgende vraag wordt blootgelegd en er wordt een nieuwe voorziening voorgesteld.  
 
 ![Dempingsperiode en lotaccumulatieperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dempingsperiode en lotaccumulatieperiode")  
 
-**Voorbeeld 4**: Er is vraag in de dempingsperiode en het aanbod blijft op dezelfde datum. Het huidige voorzieningaantal is echter niet voldoende om te voldoen aan de vraag in de lotaccumulatieperiode, zodat een wijzigingsactie voor het aantal wordt voorgesteld voor de bestaande voorzieningenorder.  
+**Voorbeeld 4** : Er is vraag in de dempingsperiode en het aanbod blijft op dezelfde datum. Het huidige voorzieningaantal is echter niet voldoende om te voldoen aan de vraag in de lotaccumulatieperiode, zodat een wijzigingsactie voor het aantal wordt voorgesteld voor de bestaande voorzieningenorder.  
 
 ![Dempingsperiode, lotaccumulatieperiode en aantal wijzigen](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dempingsperiode, lotaccumulatieperiode en aantal wijzigen")  
 

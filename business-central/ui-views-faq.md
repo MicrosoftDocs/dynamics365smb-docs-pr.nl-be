@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b992fe4f5db07605015a88ea69d9a510adbcca4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189327"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925528"
 ---
 # <a name="list-views-faq"></a>Veelgestelde vragen over lijstweergaven
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over het werken met lijstweergaven en het opslaan van filters.  
@@ -77,13 +77,13 @@ Houd er rekening mee dat oudere systeemweergaven zullen worden stopgezet in een 
 ### <a name="others-in-my-organization-need-similar-list-views-as-standard-what-can-i-do"></a>Anderen in mijn organisatie hebben standaard vergelijkbare lijstweergaven nodig. Wat kan ik doen?
 Werken met persoonlijke weergaven is snel en effectief, maar [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt extra hulpmiddelen om lijstweergaven te definiëren die nodig zijn voor specifieke gebruikersrollen of alle gebruikers in de organisatie.
  - Ontwikkelaars kunnen de omgeving aanpassen en lijstweergaven maken in extensies voor alle gebruikers in de organisatie.
- - Niet-codeerders zoals beheerders of afdelingsmanagers kunnen rolspecifieke lijstweergaven maken bij het aanpassen van een rol vanaf de pagina **Profielen (rollen)**.
+ - Niet-codeerders zoals beheerders of afdelingsmanagers kunnen rolspecifieke lijstweergaven maken bij het aanpassen van een rol vanaf de pagina **Profielen (rollen)** .
 
 ### <a name="i-work-with-multiple-languages-how-do-i-translate-the-name-of-the-view"></a>Ik werk met meerdere talen: hoe vertaal ik de naam van de weergave?
 Wanneer u een nieuwe weergave opslaat of een bestaande weergave hernoemt, moet u een herkenbare en betekenisvolle naam voor die weergave invoeren. De naam wordt opgeslagen voor uw huidige taal en wordt ook weergegeven wanneer u of andere gebruikers in verschillende talen werken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u vertaalde weergavenamen wilt opgeven, moet u van taal wisselen met de pagina **Mijn instellingen** en de weergave vervolgens hernoemen, waardoor de vertaalde naam in de nieuwe taal wordt opgeslagen.
 
 ### <a name="do-views-with-expressions-work-in-all-languages"></a>Werken weergaven met expressies in alle talen?
-Expressies die alleen symbolen gebruiken, zoals '**|**' of **..**, worden als veilig beschouwd voor gebruikers in elke taal. Weergaven met expressies die letters, trefwoorden of filtertokens bevatten, werken alleen voor de taal waarin ze zijn geschreven.
+Expressies die alleen symbolen gebruiken, zoals ' **|** ' of **..** , worden als veilig beschouwd voor gebruikers in elke taal. Weergaven met expressies die letters, trefwoorden of filtertokens bevatten, werken alleen voor de taal waarin ze zijn geschreven.
 
 
 ### <a name="see-also"></a>Zie ook  

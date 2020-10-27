@@ -5,38 +5,37 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 42b4591fda63bb21f9f7805f826e6c5c8337d210
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528775"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925069"
 ---
-# <a name="whats-new-in-dynamics-365-business-central"></a>Nieuwe functies in Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nieuw en gepland voor Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-U kunt altijd het releaseplan raadplegen voor een overzicht van nieuwe en aankomende functionaliteit. Hier in de documentatie vindt u vervolgens onderwerpen die u kunnen helpen meer te weten te komen over nieuwe en bestaande functies in [!INCLUDE[prodlong](includes/prodlong.md)].  
+U kunt altijd het releaseplan raadplegen voor een overzicht van nieuwe en aankomende functionaliteit. Hier in de documentatie vindt u vervolgens onderwerpen die u kunnen helpen meer te weten te komen over nieuwe en bestaande functies in [!INCLUDE[prodlong](includes/prodlong.md)]. 
 
-Als u zich nog niet hebt aangemeld voor een [proef](https://go.microsoft.com/fwlink/?linkid=847861), doe dit dan nu en laat u door de basis begeleiden van wat u kunt doen met [!INCLUDE[prodshort](includes/prodshort.md)] en probeer vervolgens dingen op eigen houtje uit. Wanneer u klaar bent, kunt u een leeg bedrijf openen en zelf zaken instellen. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+De volgende lijst bevat informatie over de nieuwste versies van [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-We voegen regelmatig nieuwe capaciteiten toe aan de kerntoepassing van [!INCLUDE[d365fin](includes/d365fin_md.md)] en brengen nieuwe extensies uit. Zie voor de huidige lijst met Microsoft-extensies [Business Central aanpassen met behulp van extensies ](ui-extensions.md).
+* [Releasewave 2 van 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
+* [Releasewave 1 van 2020](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
+* [Releasewave 2 van 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
-Om alle extensies te zien die worden aangeboden door [!INCLUDE[d365fin](includes/d365fin_md.md)]-partners raadpleegt u [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
-
-## <a name="check-the-dynamics-365-blog"></a>Het Dynamics 365-blog bekijken
-
-We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/), inclusief wanneer deze beschikbaar worden gemaakt en of er speciale overwegingen zijn.  
-
-Voor de partnergemeenschap publiceren we informatie over [Microsoft Dynamics 365 Business Central op het Dynamics 365-blog voor partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en in de [Ontwikkelaar en IT-pro Help voor [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+U kunt ook de site [Dynamics 365 Business Central-mogelijkheden](https://dynamics.microsoft.com/business-central/capabilities/) en de site [Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com) bekijken.  
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Resources voor Help en Ondersteuning](product-help-and-support.md)  
+[Bezoek onze videobibliotheek](across-videos.md)  
+[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
+[Dynamics 365 Business Central op Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Dynamics 365 Business Central-mogelijkheden](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)  
+[Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Central-prijzen](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-community](https://community.dynamics.com/business/)
 

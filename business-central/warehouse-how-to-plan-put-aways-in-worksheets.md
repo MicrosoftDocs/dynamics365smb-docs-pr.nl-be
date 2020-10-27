@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aefbc04e188cc5ac5f87c063819d673fb9cdef8a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779423"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925434"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
 Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van de toepassing voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  
@@ -32,7 +32,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>U kunt als volgt instructies plannen in het opslagvoorstel  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagvoorstel** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Magazijndocumenten ophalen**. De pagina **Opslagselectie** verschijnt.  
+2.  Kies de actie **Magazijndocumenten ophalen** . De pagina **Opslagselectie** verschijnt.  
 
     Dit venster bevat alle geboekte ontvangsten en geregistreerde interne opslagactiviteiten die zijn doorgestuurd naar de opslagfunctie, inclusief de activiteiten waarvoor de opslaginstructies al zijn gemaakt. De lijst bevat geen documenten met opslagregels die volledig zijn uitgevoerd en geregistreerd.  
 
@@ -52,15 +52,15 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
     > [!NOTE]  
     >  de verwijderde regels worden alleen uit het voorstel verwijderd, niet uit de opslagselectielijst.  
 
-7.  Kies de actie **Opslag maken**. De pagina **Document maken** wordt geopend, waar u als volgt informatie kunt toevoegen aan de opslaginstructies die u aan het maken bent:  
+7.  Kies de actie **Opslag maken** . De pagina **Document maken** wordt geopend, waar u als volgt informatie kunt toevoegen aan de opslaginstructies die u aan het maken bent:  
 
     -   U kunt de opslaginstructie toewijzen aan een bepaalde magazijnmedewerker.  
     -   U kunt de regels met opslaginstructies sorteren als in het werkblad of door middel van rangschikking van opslaglocaties. Wanneer u sorteert op basis van rangschikking van opslaglocaties, worden de nemen-regels eerst weergegeven, aangezien de meeste ontvangst-opslaglocaties een opslaglocatie-rangschikking van 0 hebben en worden de plaatsen-regels als laatste weergegeven, beginnend met de opslaglocaties met de laagste opslaglocatie-rangschikking. Indien u uw magazijn hebt gestructureerd zodat opslaglocaties met een soortgelijke opslaglocatie-rangschikking bij elkaar staan, bespaart het sorteren van regels op deze manier uiteindelijk stappen voor uw magazijnmedewerkers.  
-    -   Wanneer een bepaalde eenheid wordt opgesplitst in kleinere eenheden, worden er extra splitsingsregels weergegeven. Als u deze tussenliggende regels niet wilt weergeven, selecteert u **Breakbulkfilter plaatsen**. Zie voor meer informatie [Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Wanneer een bepaalde eenheid wordt opgesplitst in kleinere eenheden, worden er extra splitsingsregels weergegeven. Als u deze tussenliggende regels niet wilt weergeven, selecteert u **Breakbulkfilter plaatsen** . Zie voor meer informatie [Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   U kunt het veld **Te verwerken aantal** op de opslaginstructies automatisch laten invullen.  
     -   Indien gewenst kunt u het document direct afdrukken.  
 
-8.  Klik op de knop **OK**. De opslaginstructies worden geheel naar uw wens opgesteld.  
+8.  Klik op de knop **OK** . De opslaginstructies worden geheel naar uw wens opgesteld.  
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

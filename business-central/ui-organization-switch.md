@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 362a994ccda698a4bf91e42c27532af95f9c9c27
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925609"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
 
@@ -33,13 +33,13 @@ De volgende afbeelding toont tegels voor toegang tot productie- en sandboxomgevi
 
 Als u bent aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u snel overschakelen naar een ander bedrijf. Nadat u de overstap hebt gemaakt, wordt het bedrijf dat u kiest uw standaardbedrijf en wordt het de volgende keer dat u zich aanmeldt weergegeven.
 
-1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen** .
 
     > [!TIP]
     > U kunt ook de sneltoets Alt+T gebruiken om snel de pagina Mijn instellingen te openen.
 
-2. Selecteer het bedrijf op de pagina **Mijn instellingen** in het veld **Bedrijf**.  
-3. Kies de knop **Ok**.
+2. Selecteer het bedrijf op de pagina **Mijn instellingen** in het veld **Bedrijf** .  
+3. Kies de knop **Ok** .
 
 > [!TIP]
 > Een goede manier om direct naar uw standaardbedrijf te gaan wanneer u zich aanmeldt, en om te voorkomen dat u een omgeving hoeft op te geven, is door de URL toe te voegen aan uw lijst met favorieten nadat u zich hebt aangemeld.

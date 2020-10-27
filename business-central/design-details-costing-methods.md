@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617923"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927034"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 
 De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd.
 
 > [!NOTE]
-> U kunt de waarderingsmethode van een artikel niet wijzigen als er artikelposten voor het artikel bestaan.<br /><br />
-> Hier wordt binnenkort informatie gepubliceerd over oplossingen om een waarderingsmethode in speciale situaties te wijzigen.
+> U kunt de waarderingsmethode van een artikel niet wijzigen als er artikelposten voor het artikel bestaan. Zie voor meer informatie [Ontwerpdetails: de waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md).
 
 De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -41,10 +40,10 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  Waarderingsmethoden verschillen in de manier waarop ze voorraadafnamen waarderen en of ze werkelijke kosten of standaardkosten gebruiken als de waarderingsbasis. In de volgende tabel worden de verschillende kenmerken toegelicht. (De LIFO-methode is uitgesloten, omdat deze erg lijkt op de FIFO-methode.)  
 
-|<!--blank -->|FIFO|Gemiddelde|Vast|Specifiek|  
+|Categorie|FIFO|Gemiddelde|Standaard|Specifiek|  
 |-|----------|-------------|--------------|--------------|  
-|Algemeen kenmerk|Gemakkelijk te begrijpen|Gebaseerd op periodeopties: **Dag**/**Week**/**Maand**/**Kwartaal**/**Boekingsperiode**.<br /><br /> Kan worden berekend per artikel of per artikel/vestiging/variant.|Gemakkelijk te gebruiken, maar vereist gekwalificeerd onderhoud|Hiervoor is artikeltracering vereist op zowel inkomende als uitgaande transacties.<br /><br /> Meestal gebruikt voor artikelen met een serienummer.|  
-|Vereffening/Herwaardering|Vereffening houdt **het resterende aantal** bij.<br /><br /> De correctie stuurt kosten door op basis van aantalvereffening.|Vereffening houdt het **resterende aantal** bij.<br /><br /> De kosten worden berekend en doorgegeven op de **waarderingsdatum**.|Vereffening houdt het **resterende aantal** bij.<br /><br /> Vereffening wordt gebaseerd op FIFO.|Alle vereffeningen zijn vast.|  
+|Algemeen kenmerk|Gemakkelijk te begrijpen|Gebaseerd op periodeopties: **Dag**/**Week**/**Maand**/**Kwartaal**/**Boekingsperiode** .<br /><br /> Kan worden berekend per artikel of per artikel/vestiging/variant.|Gemakkelijk te gebruiken, maar vereist gekwalificeerd onderhoud|Hiervoor is artikeltracering vereist op zowel inkomende als uitgaande transacties.<br /><br /> Meestal gebruikt voor artikelen met een serienummer.|  
+|Vereffening/Herwaardering|Vereffening houdt **het resterende aantal** bij.<br /><br /> De correctie stuurt kosten door op basis van aantalvereffening.|Vereffening houdt het **resterende aantal** bij.<br /><br /> De kosten worden berekend en doorgegeven op de **waarderingsdatum** .|Vereffening houdt het **resterende aantal** bij.<br /><br /> Vereffening wordt gebaseerd op FIFO.|Alle vereffeningen zijn vast.|  
 |Herwaardering|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan alleen per artikel worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Hiermee worden gefactureerde en niet-gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|  
 |Diversen|Als u een negatieve voorraadmutatie antidateert, worden de bestaande posten NIET opnieuw toegepast om een juiste FIFO-kostenstroom te bieden.|Als u een negatieve of een positieve voorraadmutatie antidateert, worden de gemiddelde kosten opnieuw berekend en worden alle betrokken posten aangepast.<br /><br /> Als u de periode of het type berekening wijzigt, moeten alle betrokken posten worden aangepast.|Gebruik de pagina **Standaardvoorstel** om de vaste verrekenprijs regelmatig bij te werken en te berekenen.<br /><br /> Wordt NIET ondersteund per SKU.<br /><br /> Er bestaan geen historische records voor standaardkosten.|U kunt specifieke artikeltracering gebruiken zonder de waarderingsmethode Specifiek te gebruiken. De kosten volgen NIET het lotnummer, maar de kostenveronderstelling van de geselecteerde waarderingsmethode.|  
 
@@ -68,9 +67,9 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 ### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Het effect van waarderingsmethoden op de waardering van positieve voorraadmutaties  
  **FIFO**/**LIFO**/**Gemiddelde**/**Specifiek**  
 
- Voor artikelen met waarderingsmethoden die werkelijke kosten als de waarderingsbasis gebruiken (**FIFO**, **LIFO**, **Gemiddelde** of **Specifiek**), worden positieve voorraadmutaties gewaardeerd tegen de aanschafkosten van het artikel.  
+ Voor artikelen met waarderingsmethoden die werkelijke kosten als de waarderingsbasis gebruiken ( **FIFO** , **LIFO** , **Gemiddelde** of **Specifiek** ), worden positieve voorraadmutaties gewaardeerd tegen de aanschafkosten van het artikel.  
 
- De volgende tabel toont hoe positieve voorraadmutaties wordt gewaardeerd voor alle waarderingsmethoden behalve **Standaard**.  
+ De volgende tabel toont hoe positieve voorraadmutaties wordt gewaardeerd voor alle waarderingsmethoden behalve **Standaard** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
 |------------------|--------------|----------------------------|---------------|  
@@ -82,7 +81,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, worden positieve voorraadmutaties gewaardeerd tegen de huidige vaste verrekenprijs van het artikel.  
 
- De volgende tabel toont hoe positieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Standaard**.  
+ De volgende tabel toont hoe positieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Standaard** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
 |------------------|--------------|----------------------------|---------------|  
@@ -97,7 +96,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  De KPV wordt berekend met de waarde van de eerste voorraadaanwinsten.  
 
- De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **FIFO**.  
+ De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **FIFO** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
 |------------------|--------------|----------------------------|---------------|  
@@ -111,7 +110,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  De KPV wordt berekend met de waarde van de meest recente voorraadaanwinsten.  
 
- De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **LIFO**.  
+ De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **LIFO** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
 |------------------|--------------|----------------------------|---------------|  
@@ -123,7 +122,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  Voor artikelen waarvoor de waarderingsmethode **Gemiddeld** wordt gebruikt, wordt een negatieve voorraadmutatie gewaardeerd tegen het gewogen gemiddelde van de resterende voorraad op de laatste dag van de gemiddelde prijsperiode waarin de negatieve mutatie is geboekt. Zie [Ontwerpdetails: kostenwaardering](design-details-average-cost.md) voor meer informatie.  
 
- De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Gemiddeld**.  
+ De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Gemiddeld** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
 |------------------|--------------|----------------------------|---------------|  
@@ -133,9 +132,9 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  **Standaard**  
 
- Voor artikelen die de waarderingsmethode **Standaard** gebruiken, worden negatieve voorraadmutaties gewaardeerd zoals bij de waarderingsmethode **FIFO**, behalve dat waardering wordt gebaseerd op standaardkosten , niet op de werkelijke kosten.  
+ Voor artikelen die de waarderingsmethode **Standaard** gebruiken, worden negatieve voorraadmutaties gewaardeerd zoals bij de waarderingsmethode **FIFO** , behalve dat waardering wordt gebaseerd op standaardkosten , niet op de werkelijke kosten.  
 
- De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Standaard**.  
+ De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Standaard** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
 |------------------|--------------|----------------------------|---------------|  
@@ -149,7 +148,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
 
  Voor artikelen die de waarderingsmethode **Specifiek** gebruiken, wordt de negatieve voorraadmutatie gewaardeerd op basis van de positieve voorraadmutatie waar deze aan is gekoppeld door de vaste vereffening.  
 
- De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Specifiek**.  
+ De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Specifiek** .  
 
 |Boekingsdatum|Aantal|Tot. werk. kosten|Vereffenen met post|Volgnummer|  
 |------------------|--------------|----------------------------|-----------------------|---------------|  

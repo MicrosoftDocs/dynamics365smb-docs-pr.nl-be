@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cc3fd679909e51422afe75ee4a1436f5ad8cb9c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e9609ae65cd2cd23abad5680e576c3c16d89493
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789012"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926009"
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
 Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporderregel.  
@@ -69,11 +69,11 @@ Als de klant niet om een specifieke leverdatum vraagt, wordt de verzenddatum gel
 
 De verzenddatum wordt gebruikt om de beschikbaarheidscontrole uit te voeren. Als het item op deze datum beschikbaar is, bevestigt [!INCLUDE[d365fin](includes/d365fin_md.md)] dat aan de aangevraagde/toegezegde levering kan worden voldaan door de geplande leverdatum gelijk te stellen aan de aangevraagde/toegezegde leverdatum. Als het item niet beschikbaar is, verschijnt er een lege datum en kan de orderverwerker vervolgens de CTP-functionaliteit gebruiken.  
 
-Op basis van de nieuwe datums en tijden, worden alle gerelateerde datums berekend volgens de formules die eerder in deze sectie zijn weergegeven. De CTP-berekening duurt langer, maar geeft een nauwkeurige datum voor wanneer de klant het artikel kan verwachten. De datums die worden berekend vanuit CTP, worden weergegeven in de velden **Geplande leverdatum** en **Eerste verzenddatum** op de pagina **Ordertoezeggingsregels**.  
+Op basis van de nieuwe datums en tijden, worden alle gerelateerde datums berekend volgens de formules die eerder in deze sectie zijn weergegeven. De CTP-berekening duurt langer, maar geeft een nauwkeurige datum voor wanneer de klant het artikel kan verwachten. De datums die worden berekend vanuit CTP, worden weergegeven in de velden **Geplande leverdatum** en **Eerste verzenddatum** op de pagina **Ordertoezeggingsregels** .  
 
 De orderverwerker voltooit het CTP-proces door de datums te accepteren. Dit betekent dat een planningsregel en een reserveringspost voor het artikel worden gemaakt vóór de berekende datum om ervoor te zorgen dat aan de order kan worden voldaan.  
 
-Naast de externe ordertoezegging die u kunt uitvoeren op de pagina **Ordertoezeggingsregels**, kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
+Naast de externe ordertoezegging die u kunt uitvoeren op de pagina **Ordertoezeggingsregels** , kunt u ook interne of externe leverdatums voor stuklijstartikelen beloven. Zie voor meer informatie [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Ordertoezegging instellen  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ordertoezeggingsinstellingen** in en kies de desbetreffende koppeling.  
@@ -88,9 +88,9 @@ Naast de externe ordertoezegging die u kunt uitvoeren op de pagina **Ordertoezeg
     |**j**|jaar|  
 
     "3w" geeft bijvoorbeeld aan dat de uitsteltijd drie weken is. Gebruik voor alle codes "h" als voorvoegsel om de huidige tijdseenheid aan te geven. Voer bijvoorbeeld **hm** in als de uitsteltijd de huidige maand moet zijn.  
-3. Voer in het veld **Ordertoezeggingsnrs.** een nummerreeks in door een regel te selecteren in het overzicht op de pagina **Nr.-reeks**.  
+3. Voer in het veld **Ordertoezeggingsnrs.** een nummerreeks in door een regel te selecteren in het overzicht op de pagina **Nr.-reeks** .  
 4. Voer in het veld **Ordertoezeggingssjabloon** een ordertoezeggingsjabloon in door een regel te selecteren in het overzicht op de pagina **Overzicht ink.-voorstelsjabl.**  
-5. Voer in het veld **Ordertoezeggingsvoorstel** een inkoopvoorstel in door een regel te selecteren in het overzicht op de pagina **Inkoopvoorstelbatches**.
+5. Voer in het veld **Ordertoezeggingsvoorstel** een inkoopvoorstel in door een regel te selecteren in het overzicht op de pagina **Inkoopvoorstelbatches** .
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Inslagtijd invoeren op de pagina met de voorraadinstellingen  
 Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad en de vestiging.    
@@ -129,12 +129,12 @@ Als u een uitslagtijd wilt instellen voor de berekening van de ordertoezegging o
 Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zijn gemarkeerd als kritiek. Deze instellingen zorgen dat de niet-kritieke artikelen niet leiden tot irrelevante ordertoezeggingsberekeningen   
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
 2.  Open de relevante artikelkaart.  
-3.  Selecteer op het sneltabblad **Planning** het veld **Kritisch**.  
+3.  Selecteer op het sneltabblad **Planning** het veld **Kritisch** .  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Een ordertoezeggingsdatum berekenen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporder** in en kies de gerelateerde koppeling.  
 2.  Open de betreffende verkooporder en selecteer de verkooporderregels die moeten worden berekend.  
-3.  Kies de actie **Ordertoezegging** en kies daarna de actie **Ordertoezeggingsregels**.  
+3.  Kies de actie **Ordertoezegging** en kies daarna de actie **Ordertoezeggingsregels** .  
 4.  Selecteer een regel en selecteer vervolgens een van de volgende opties:  
 
     - Selecteer **ATP** als de vroegste datum moet worden berekend waarop het artikel beschikbaar is met betrekking tot de voorraad, de geplande ontvangsten en de brutobehoeften.  

@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba671c21d0e9c8ebf3df11fd75a55e5229c142cb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3a9bdba3d416610b7b137e16f20a4497b834beec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187688"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921109"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Overstappen van een QuickBooks-app op Dynamics 365 Business Central
 Steeds meer groeiende bedrijven schakelen van financiële apps als QuickBooks Desktop en QuickBooks Online, die zijn ontworpen voor startups en andere kleine bedrijven, over naar [!INCLUDE[d365fin](includes/d365fin_md.md)], dat ook grotere, complexere organisaties ondersteunt. 
 
-Bij deze overgang willen bedrijven hun bedrijfsgegevens vaak meenemen om niet helemaal opnieuw te hoeven beginnen. Om gegevens te kunnen overbrengen zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)] extensies ingebouwd waarmee gegevens, zoals klanten, leveranciers, voorraadartikelen en grootboekrekeningen, kunnen worden gemigreerd. De volgende extensies zijn geïnstalleerd en kunnen worden gebruikt als geïntegreerd onderdeel van de begeleide instelling **Gegevensmigratie**:
+Bij deze overgang willen bedrijven hun bedrijfsgegevens vaak meenemen om niet helemaal opnieuw te hoeven beginnen. Om gegevens te kunnen overbrengen zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)] extensies ingebouwd waarmee gegevens, zoals klanten, leveranciers, voorraadartikelen en grootboekrekeningen, kunnen worden gemigreerd. De volgende extensies zijn geïnstalleerd en kunnen worden gebruikt als geïntegreerd onderdeel van de begeleide instelling **Gegevensmigratie** :
 
 * QuickBooks-gegevensmigratie 
 * QuickBooks Online-gegevensmigratie

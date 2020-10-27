@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bdcbcb0fa82d799e29cfcdbb034e231635510656
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697826"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927234"
 ---
 # <a name="working-with-prodshort-data-in-power-bi"></a>Werken met [!INCLUDE [prodshort](includes/prodshort.md)]-gegevens in Power BI
 
@@ -29,7 +29,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 
 Als u eenmaal een Power BI-account hebt, kunt u zich aanmelden via [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
-De Power BI-service host alle rapporten die voor u beschikbaar zijn. Als u een rapport wilt bekijken, selecteert u **Mijn werkruimte** > **Rapporten**. Selecteer vervolgens het rapport dat u wilt bekijken.
+De Power BI-service host alle rapporten die voor u beschikbaar zijn. Als u een rapport wilt bekijken, selecteert u **Mijn werkruimte** > **Rapporten** . Selecteer vervolgens het rapport dat u wilt bekijken.
 
 Met [!INCLUDE[prodshort](includes/prodshort.md)] online hebt u automatisch de beschikking over een set standaardrapporten in uw werkruimte. Als u uw eigen rapporten wilt maken, kunt u gebruikmaken van Power BI Desktop om rapporten te maken en deze vervolgens te publiceren naar uw werkruimte. Zie [Aan de slag met het maken van rapporten in Power BI Desktop om [!INCLUDE [prodlong](includes/prodlong.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md) voor meer informatie.
 
@@ -41,11 +41,11 @@ Elk Power BI-rapport is gebaseerd op een gegevensset die gegevens ophaalt uit de
 
 ### <a name="refresh-manually"></a>Handmatig vernieuwen
 
-Selecteer in het navigatievenster onder **Gegevenssets** de opdracht **Meer opties (...)** naast de gegevensset en selecteer vervolgens **Nu vernieuwen**.
+Selecteer in het navigatievenster onder **Gegevenssets** de opdracht **Meer opties (...)** naast de gegevensset en selecteer vervolgens **Nu vernieuwen** .
 
 ### <a name="schedule-a-refresh"></a>Het vernieuwen van gegevens plannen
 
-Selecteer in het navigatievenster onder Gegevenssets de opdracht Meer opties (...) naast de gegevensset en selecteer vervolgens **Vernieuwen plannen**. Vul de gegevens in in het gedeelte **Vernieuwen plannen** en selecteer **Toepassen**.
+Selecteer in het navigatievenster onder Gegevenssets de opdracht Meer opties (...) naast de gegevensset en selecteer vervolgens **Vernieuwen plannen** . Vul de gegevens in in het gedeelte **Vernieuwen plannen** en selecteer **Toepassen** .
 
 Zie [Geplande vernieuwing configureren](/power-bi/connect-data/refresh-scheduled-refresh) voor meer informatie.
 
@@ -53,11 +53,11 @@ Zie [Geplande vernieuwing configureren](/power-bi/connect-data/refresh-scheduled
 
 Power BI-rapporten kunnen onder gebruikers worden verspreid als PBIX-bestanden. Als u een PBIX-bestand heeft, kunt u het bestand uploaden naar een werkruimte. Voer de volgende stappen uit om een rapport te uploaden:
 
-1. Selecteer in uw nieuwe werkruimte de optie **Gegevens ophalen**.
+1. Selecteer in uw nieuwe werkruimte de optie **Gegevens ophalen** .
 
-2. Selecteer in het vak Bestanden de optie **Ophalen**.
+2. Selecteer in het vak Bestanden de optie **Ophalen** .
 
-3. Selecteer **Lokaal bestand**, navigeer naar de plaats waar u het bestand hebt opgeslagen en selecteer **Openen**.
+3. Selecteer **Lokaal bestand** , navigeer naar de plaats waar u het bestand hebt opgeslagen en selecteer **Openen** .
 
 Zie [Het rapport uploaden naar de service](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service) voor meer informatie.
 
@@ -71,7 +71,7 @@ Zie [Het rapport uploaden naar de service](/power-bi/paginated-reports/paginated
 
 Zodra een rapport zich in uw werkruimte bevindt, kunt u het delen met anderen in uw organisatie.
 
-Als u een rapport wilt delen, selecteert u in een lijst met rapporten of in een geopend rapport de optie **Delen**. Voer in het deelvenster **Rapport delen** het volledige e-mailadres in van individuen of distributiegroepen waarmee u het rapport wilt delen. Volg de instructies op het scherm om het delen te voltooien. Zie [Een dashboard of rapport delen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report) voor meer informatie.
+Als u een rapport wilt delen, selecteert u in een lijst met rapporten of in een geopend rapport de optie **Delen** . Voer in het deelvenster **Rapport delen** het volledige e-mailadres in van individuen of distributiegroepen waarmee u het rapport wilt delen. Volg de instructies op het scherm om het delen te voltooien. Zie [Een dashboard of rapport delen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report) voor meer informatie.
 
 > [!NOTE]
 > U moet een [Power BI Pro-licentie](/power-bi/service-features-license-type) hebben en dat geldt ook voor de mensen met wie u het rapport deelt. De inhoud moet zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports) voor meer informatie.

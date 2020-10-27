@@ -1,6 +1,6 @@
 ---
 title: Procedures voor bedrijfsprocessen | Microsoft Docs
-description: Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.
+description: Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788383"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923332"
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
 
@@ -39,7 +39,8 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 |Een project plannen van begin tot eind. **Vereist volledige voorbeeldgegevens**|[Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)|  
 |De kosten van een project rapporteren. **Vereist volledige voorbeeldgegevens**|[Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Artikelen voor verzending in standaardmagazijnconfiguraties picken. **Vereist volledige voorbeeldgegevens**|[Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Tekortenbeheer uitvoeren. **Vereist volledige voorbeeldgegevens**|[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)|  
+|Tekortenbeheer uitvoeren. **Vereist volledige voorbeeldgegevens**|[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)|
+|Bedrijfsgegevens exporteren voor controledoeleinden in Duitsland.|[Procedure: Gegevens exporteren voor een digitale controle](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Zie ook
 

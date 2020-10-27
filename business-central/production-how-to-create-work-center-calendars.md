@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8fe746bcde1bf02c366664c02ea48029777e22ef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777948"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921678"
 ---
 # <a name="set-up-shop-calendars"></a>Productieagenda's instellen
 Een afdelings- of bewerkingsplaatsagenda bevat de werkdagen en -tijden, de diensten, vakanties en afwezigheid die bepalend zijn voor de brutocapaciteit, gemeten in tijd, van de afdeling op basis van de gedefinieerde efficiëntie- en capaciteitswaarden.
@@ -26,8 +26,8 @@ Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van be
 
 ## <a name="to-create-work-shifts"></a>Ploegen maken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ploegen** in en kies de gerelateerde koppeling.  
-2.  Geef op een lege regel in het veld **Code** een nummer op om de ploeg aan te duiden, bijvoorbeeld **1**.  
-3.  Geef een omschrijving voor de ploeg in het veld **Omschrijving**, bijvoorbeeld **Vroege ploeg**.  
+2.  Geef op een lege regel in het veld **Code** een nummer op om de ploeg aan te duiden, bijvoorbeeld **1** .  
+3.  Geef een omschrijving voor de ploeg in het veld **Omschrijving** , bijvoorbeeld **Vroege ploeg** .  
 4.  Vul eventueel regels voor een tweede of derde ploeg in.  
 
 Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcode worden opgegeven.  
@@ -35,8 +35,8 @@ Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcod
 ## <a name="to-set-up-a-shop-calendar"></a>Een productieagenda instellen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieagenda's** in en kies de desbetreffende koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op ter aanduiding van de productieagenda.  
-3.  Beschrijf de productieagenda in het veld **Omschrijving**.  
-4.  Kies de actie **Werkdagen**.
+3.  Beschrijf de productieagenda in het veld **Omschrijving** .  
+4.  Kies de actie **Werkdagen** .
 5.  Geef op de pagina **Productieagendawerkdagen** een volledige werkweek, met de begin- en eindtijden voor elke dag, op.  
 
     Selecteer in het veld **Ploeg** een van de ploegen die u eerder hebt gedefinieerd. Voeg een regel toe voor elke werkdag en elke ploeg. Voorbeeld:  
@@ -55,7 +55,7 @@ Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcod
 
     Wanneer alle werkdagen van een week zijn gedefinieerd, kunt u de pagina **Productieagendawerkdagen** sluiten en doorgaan met het invoeren van vakanties en vrije dagen.  
 
-6.  Selecteer op de pagina **Productieagenda's** de productieagenda en kies de actie **Vakantiedagen**.
+6.  Selecteer op de pagina **Productieagenda's** de productieagenda en kies de actie **Vakantiedagen** .
 7. Definieer op de pagina **Productieagendavakantiedagen** de vakantiedagen van het jaar door voor elke vakantiedag op afzonderlijke regels de begindatum en -tijd, de eindtijd en een omschrijving op te geven. Voorbeeld:  
 
     04 juli 2014 0:00:00 23:59:00 Zomervakantie  
@@ -71,17 +71,17 @@ Nu kan de productieagenda worden toegewezen aan een afdeling om de afdelingsagen
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.
 2. Open de afdeling die u wilt bijwerken.  
 3. Geef in het veld **Productieagendacode** op welke productieagenda moet worden gebruikt als basis voor de agenda van de afdeling.  
-4. Kies de actie **Agenda**.  
-5. Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven**.  
+4. Kies de actie **Agenda** .  
+5. Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven** .  
 
     In het linkerdeel van de matrixpagina worden alle afdelingen weergegeven die zijn ingesteld. In het rechterdeel ziet u een agenda met daarop de beschikbare capaciteitswaarden voor elke werkdag in de gedefinieerde eenheid, bijvoorbeeld **480** minuten. Elke regel geeft de agenda van één afdeling weer.  
 
     > [!NOTE]  
-    >  U kunt de capaciteitswaarden voor elke week of maand ook bekijken door te schakelen tussen opties in het veld **Weergeven per** op de pagina **Afdelingsagenda**.  
+    >  U kunt de capaciteitswaarden voor elke week of maand ook bekijken door te schakelen tussen opties in het veld **Weergeven per** op de pagina **Afdelingsagenda** .  
 
     Als u de nieuwe productieagenda wilt weergeven als een lijn op de geselecteerde afdeling, moet deze productieagenda eerst worden berekend.  
 
-6.  Kies de actie **Berekenen**.  
+6.  Kies de actie **Berekenen** .  
 7.  Op het sneltabblad **Afdeling** kunt u een filter instellen, zodat er maar voor één afdeling een berekening wordt gemaakt. Stelt u geen filter in, dan worden alle bestaande afdelingsagenda's berekend.  
 8.  Definieer de begin- en einddatum van de agendaperiode die moet worden berekend, bijvoorbeeld één jaar, van 1 jan. 2004 tot 31 dec. 2004.
 9. Kies de knop **OK** om de capaciteit te berekenen.  
@@ -95,13 +95,13 @@ Er zijn nu agendaposten gemaakt (of bijgewerkt) waarin de beschikbare capaciteit
 De berekende afdelingsagenda bepaalt nu wanneer en hoe veel capaciteit beschikbaar is op deze afdeling. Hiermee bepaalt u de gedetailleerde planning van bewerkingen die worden uitgevoerd op de afdeling.  
 
 ## <a name="to-record-work-center-absence"></a>Afwezigheid op de afdeling registreren  
-1.  Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven**.
-2. Selecteer op de pagina **Afdelingsagendamatrix** de afdeling en de agendadag waarop de afwezigheid moet worden geregistreerd en kies vervolgens de actie **Afwezigheid**.  
+1.  Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven** .
+2. Selecteer op de pagina **Afdelingsagendamatrix** de afdeling en de agendadag waarop de afwezigheid moet worden geregistreerd en kies vervolgens de actie **Afwezigheid** .  
 3.  Definieer op de pagina **Afwezigheid** de begintijd, de eindtijd en de omschrijving van de afwezigheid van die dag, bijvoorbeeld: Voorbeeld:  
 
     25 jan. 2001 08:00 10:00 Onderhoud  
 
-4.  Kies de actie **Bijwerken** en sluit vervolgens de pagina **Afwezigheid**.  
+4.  Kies de actie **Bijwerken** en sluit vervolgens de pagina **Afwezigheid** .  
 
 De geregistreerde afwezigheid is nu in mindering gebracht op de capaciteit van de geselecteerde dag.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18be3b3e5757f3d108ddc9b413eb075aec5ae3af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ca5104a8d4268c9f4822e98150a3e969c6c66d48
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779013"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924165"
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
 Een voorraadperiode is een periode waarin gewijzigde voorraadwaarden kunnen worden geboekt. Een voorraadperiode wordt begrensd door een einddatum. Als u een voorraadperiode hebt afgesloten, kunt u geen verwachte of gefactureerde voorraadwaarden vóór de einddatum meer boeken. U kunt geen nieuwe waarden naar de voorraad boeken vóór de einddatum. Als er nog open artikelposten, d.w.z. positieve aantallen die nog niet zijn vereffend met uitgaande transacties, zijn die binnen de afgesloten periode vallen, kunt u de uitgaande aantallen ook nadat de periode is afgesloten nog met deze posten vereffenen.  
@@ -30,7 +30,7 @@ In de volgende secties wordt uitgelegd hoe u:
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies de desbetreffende koppeling.  
 2. Een nieuwe regel maken.  
 3. Voer in het veld **Einddatum** de laatste datum van de voorraadperiode in die u wilt definiëren. Wanneer de periode is afgesloten, kunt u geen voorraadwijzigingen vóór deze datum boeken.  
-4. Typ een beschrijvende naam in het veld **Naam**. Kies de knop **Ok**.  
+4. Typ een beschrijvende naam in het veld **Naam** . Kies de knop **Ok** .  
 
 ## <a name="closing-inventory-periods"></a>Voorraadperioden afsluiten  
 Het veld **Gesloten** geeft aan of de voorraadperiode afgesloten is voor wijzigingen in voorraadwaarden. U kunt dit veld niet bewerken.  
@@ -38,7 +38,7 @@ Het veld **Gesloten** geeft aan of de voorraadperiode afgesloten is voor wijzigi
 Onder de volgende omstandigheden kunt u iedere voorraadperiode afsluiten:  
 
 * De periode bevat geen openstaande uitgaande artikelposten, dat wil zeggen negatieve voorraad.  
-* De kosten van alle artikelen zijn aangepast met gebruik van de batchverwerking **Kostprijs herwaarderen - Artikelposten**.  
+* De kosten van alle artikelen zijn aangepast met gebruik van de batchverwerking **Kostprijs herwaarderen - Artikelposten** .  
 
 Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verkooporders, uitgaande transfers, verkoopfacturen, inkoopretourorders of inkoopcreditnota's, moeten worden vereffend met bestaande aantallen in de voorraad.  
 
@@ -46,12 +46,12 @@ Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verk
 1. Voordat u een voorraadperiode sluit, kiest u de actie **Kosten corrigeren – Artikelposten** om ervoor te zorgen dat alle kostencorrecties worden geboekt.
 
      Voer de lijst **Voorraadperiode afsluiten - Controle** uit om te zien of er openstaande uitgaande posten voorkomen in de voorraadperiode of artikelen waarvan de kosten nog niet zijn geherwaardeerd.  
-2. Kies de actie **Voorraadperiode afsluiten - Controle**.  
+2. Kies de actie **Voorraadperiode afsluiten - Controle** .  
 
      Voer de batchverwerking **Voorraadwaarde boeken** uit om ervoor te zorgen dat alle kosten naar het grootboek zijn geboekt.  
-3. Kies de actie **Van Voorraadbeheer naar GB boeken**.  
+3. Kies de actie **Van Voorraadbeheer naar GB boeken** .  
 4. Selecteer op de pagina **Voorraadperioden** de voorraadperiode die u wilt sluiten.  
-5. Kies de actie **Periode afsluiten**. Wanneer de voorraadperiode eenmaal is afgesloten, kunt u geen voorraadwijzigingen boeken vóór de einddatum. U dient de kosten van alle artikelen te herwaarderen met de batchverwerking **Kostprijs herwaarderen - Artikelposten** voordat u de voorraadperiode afsluit.  
+5. Kies de actie **Periode afsluiten** . Wanneer de voorraadperiode eenmaal is afgesloten, kunt u geen voorraadwijzigingen boeken vóór de einddatum. U dient de kosten van alle artikelen te herwaarderen met de batchverwerking **Kostprijs herwaarderen - Artikelposten** voordat u de voorraadperiode afsluit.  
 6. Kies de knop **Ja** om te bevestigen dat u de periode wilt afsluiten of kies **Nee** om het afsluiten te annuleren.  
 7. De voorraadperiode wordt afgesloten en daarna wordt een bevestigingsbericht weergegeven.  
 
@@ -61,7 +61,7 @@ Nadat u de voorraadperiode hebt afgesloten, kunt u deze niet verwijderen. U kunt
 ### <a name="to-reopen-an-inventory-period"></a>Een voorraadperiode opnieuw openen  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies de desbetreffende koppeling.  
 2. Selecteer de voorraadperiode die u opnieuw wilt openen.  
-3. Kies de periodeactie **Periode opnieuw openen**. Bevestig dat u de periode opnieuw wilt openen.  
+3. Kies de periodeactie **Periode opnieuw openen** . Bevestig dat u de periode opnieuw wilt openen.  
 4. Alle voorraadperioden met latere einddatums dan de geselecteerde periode worden eveneens opnieuw geopend.  
 
 ## <a name="see-also"></a>Zie ook  

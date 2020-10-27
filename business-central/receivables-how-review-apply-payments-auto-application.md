@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d4bdd6970ac32b67af486863e0c5a1ae34ef47ed
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 386947106aedd8d0a264d04bd28c064a0f43655f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782786"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926434"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren of vereffenen
 Voor elke dagboekregel die een betaling vertegenwoordigt op de pagina **Dagboek betalingsreconciliatie** kunt u de pagina **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md) voor meer informatie over automatische vereffening.
@@ -39,13 +39,13 @@ Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet au
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Betalingen na automatische vereffening controleren of vereffenen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies de gerelateerde koppeling.
 2. Open het betalingreconciliatiedagboek voor een bankrekening waarvoor u betalingen wilt reconciliëren. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
-3. Op de pagina **Dagboek betalingsreconciliatie** selecteert u een betaling die u wilt controleren of handmatig vereffenen met een of meer openstaande posten. Vervolgens kiest u de actie **Handmatig vereffenen**.
+3. Op de pagina **Dagboek betalingsreconciliatie** selecteert u een betaling die u wilt controleren of handmatig vereffenen met een of meer openstaande posten. Vervolgens kiest u de actie **Handmatig vereffenen** .
 4. Schakel het selectievakje **Vereffend** in op de regel voor de openstaande post waarmee u de betaling wilt vereffenen.
-5. Het betalingsbedrag, dat ook in het veld **Transactiebedrag** op de pagina **Betalingsvereffening** wordt weergegeven, wordt ingevoegd in het veld **Vereffend bedrag**, maar u kunt het veld wijzigen, bijvoorbeeld als u het bedrag met meerdere openstaande posten wilt vereffenen.
+5. Het betalingsbedrag, dat ook in het veld **Transactiebedrag** op de pagina **Betalingsvereffening** wordt weergegeven, wordt ingevoegd in het veld **Vereffend bedrag** , maar u kunt het veld wijzigen, bijvoorbeeld als u het bedrag met meerdere openstaande posten wilt vereffenen.
 6. Als u een deel van het betaalde bedrag met een andere openstaande post voor de rekening wilt vereffenen, bijvoorbeeld om een bedrag ineens te vereffenen, schakelt u het selectievakje **Vereffend** voor de regel in. Het vereffende bedrag wordt automatisch afgetrokken van het transactiebedrag, in overeenstemming met de distributie over de twee openstaande posten.
 7. Als u een deel van een betaling wilt vereffenen met een of meer openstaande posten die niet in de database voorkomen, maakt u een nieuwe regel onder de regel voor dezelfde rekening. In het veld **Vereffend bedrag** voert u het te vereffenen bedrag op de nieuwe regel in en past u het veld **Vereffend bedrag** op de bestaande regel aan.
 8. Herhaal stap 5, 6 of 7 voor andere openstaande posten waarmee u een deel van het betalingsbedrag of het gehele bedrag wilt vereffenen.
-9. Wanneer u een betalingsvereffening hebt gecontroleerd of handmatig hebt vereffend met een of meer openstaande posten, kiest u de actie **Vereffening accepteren**.
+9. Wanneer u een betalingsvereffening hebt gecontroleerd of handmatig hebt vereffend met een of meer openstaande posten, kiest u de actie **Vereffening accepteren** .
 
 De pagina **Betalingsvereffening** wordt gesloten en op de pagina **Dagboek betalingsreconciliatie** verandert de waarde in het veld **Zekerheid afstemming** in **Goedgekeurd** om aan te geven dat u de betaling hebt gecontroleerd of handmatig hebt vereffend.
 

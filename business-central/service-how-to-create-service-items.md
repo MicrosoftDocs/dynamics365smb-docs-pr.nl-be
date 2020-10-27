@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22eee9eacbbc3589c41aa70e7619e2097b51aa73
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 27ebf5dbd8081c39b4d3b4671e00d49869c7bed3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784395"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925684"
 ---
 # <a name="create-service-items"></a>Serviceartikelen maken
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] verwijst de term serviceartikel naar de apparatuur of artikelen die service vereisen. Wanneer u een serviceorder maakt, geeft u de artikelen op die service nodig hebben. In de order kunt u een serviceartikel aan een artikel in de voorraad of aan een serviceartikelgroep koppelen.    
@@ -27,11 +27,11 @@ Wanneer u een artikel ontvangt dat service vereist, kunt u dit artikel registrer
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Serviceartikelen maken in serviceorders  
-Wanneer u artikelen voor service ontvangt die u wilt registreren als serviceartikelen, kunt u deze instellen als serviceartikelen op de pagina **Serviceorder** of **Serviceofferte**.  
+Wanneer u artikelen voor service ontvangt die u wilt registreren als serviceartikelen, kunt u deze instellen als serviceartikelen op de pagina **Serviceorder** of **Serviceofferte** .  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Kies de actie **Serviceartikel maken**.  
+3. Kies de actie **Serviceartikel maken** .  
 
     Er wordt een nummer aan het serviceartikel toegewezen en een kaart voor het serviceartikel gemaakt. Het nummer van het nieuwe serviceartikel wordt ingevuld in het veld **Serviceartikelnr.**
 
@@ -42,8 +42,8 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2. Open de betreffende verkooporder.  
-3. Kies de actie **Boeken** of **Boeken en afdrukken**.  
-4. Kies de actie **Verzenden** of **Verzenden en factureren**.  
+3. Kies de actie **Boeken** of **Boeken en afdrukken** .  
+4. Kies de actie **Verzenden** of **Verzenden en factureren** .  
 5. Er worden automatisch serviceartikelen gemaakt voor de artikelen op de order, wanneer deze behoren tot een serviceartikelgroep die u hebt ingesteld om serviceartikelen te maken. Als u bepaalde serienummers op de pagina **Artikeltraceringsregels** hebt geregistreerd, worden deze dienovereenkomstig aan deze serviceartikelen toegewezen.  
 
 > [!NOTE]  
@@ -53,8 +53,8 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Starttarieven invoegen voor serviceartikelen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicetaken** in en kies de desbetreffende koppeling.
-2. Kies de actie **Artikelwerkbon**.
-3. Kies de serviceregel en kies vervolgens **Acties**, **Functies** en de actie **Starttarief invoegen**.  
+2. Kies de actie **Artikelwerkbon** .
+3. Kies de serviceregel en kies vervolgens **Acties** , **Functies** en de actie **Starttarief invoegen** .  
 
     Er wordt een serviceregel van het type **Kosten** ingevoegd met het starttarief. Het starttarief is van toepassing op het geselecteerde serviceartikel.
 

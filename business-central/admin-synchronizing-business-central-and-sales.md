@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617716"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922454"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Gegevens synchroniseren in Business Central en Common Data Service
 
@@ -43,17 +43,20 @@ Entiteiten in [!INCLUDE[d365fin](includes/cds_long_md.md)], zoals accounts, zijn
 
 In de volgende tabel staat de standaardtoewijzing tussen entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] die [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt.
 
+> [!TIP]
+> U kunt configuratiewijzigingen die zijn aangebracht in integratietabel- en veldtoewijzingen terugzetten naar hun standaardinstellingen door de toewijzingen te selecteren en vervolgens **Standaardsynchronisatie-instellingen gebruiken** te kiezen.
+
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synchronisatierichting | Standaardfilter |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Verkoper/Inkoper | Gebruiker | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)]-contactfilter: **Status** is **Nee**, **Gebruiker licentie** is **Ja**, Modus Integratiegebruiker is **Nee** |
-| Klant | Rekening | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)]-rekeningfilter: **Relatietype** is **Klant** en **Status** is **Actief**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filter: **Geblokkeerd** is leeg (klant is niet geblokkeerd). |
-| Leverancier | Rekening | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)]-rekeningfilter: **Relatietype** is **Leverancier** en **Status** is **Actief**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filter: **Geblokkeerd** is leeg (leverancier is niet geblokkeerd). |
+| Verkoper/Inkoper | Gebruiker | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)]-contactfilter: **Status** is **Nee** , **Gebruiker licentie** is **Ja** , Modus Integratiegebruiker is **Nee** |
+| Klant | Rekening | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)]-rekeningfilter: **Relatietype** is **Klant** en **Status** is **Actief** . [!INCLUDE[d365fin](includes/d365fin_md.md)]-filter: **Geblokkeerd** is leeg (klant is niet geblokkeerd). |
+| Leverancier | Rekening | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)]-rekeningfilter: **Relatietype** is **Leverancier** en **Status** is **Actief** . [!INCLUDE[d365fin](includes/d365fin_md.md)]-filter: **Geblokkeerd** is leeg (leverancier is niet geblokkeerd). |
 | Contactpersoon | Contactpersoon | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)]-contactfilter: **Type** is **Persoon** en de contactpersoon is toegewezen aan een bedrijf. [!INCLUDE[d365fin](includes/cds_long_md.md)]-contactfilter: de contactpersoon is toegewezen aan een bedrijf en het bovenliggende klanttype is **Account** |
 | Valuta | Transactievaluta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Tip voor beheerders: entiteittoewijzingen weergeven
-U kunt de koppeling tussen de entiteiten in [!INCLUDE[d365fin](includes/cds_long_md.md)] en de tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken op de pagina **Toewijzingen van integratietabellen**, waar u kunt ook filters kunt toepassen. U definieert de toewijzing tussen de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en de velden in [!INCLUDE[d365fin](includes/cds_long_md.md)]-entiteiten op de pagina **Toewijzing van integratieveld**, waar u aanvullende toewijzingslogica kunt toevoegen. Dat kan bijvoorbeeld handig zijn als u problemen met synchronisatie moet oplossen.
+U kunt de koppeling tussen de entiteiten in [!INCLUDE[d365fin](includes/cds_long_md.md)] en de tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken op de pagina **Toewijzingen van integratietabellen** , waar u kunt ook filters kunt toepassen. U definieert de toewijzing tussen de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en de velden in [!INCLUDE[d365fin](includes/cds_long_md.md)]-entiteiten op de pagina **Toewijzing van integratieveld** , waar u aanvullende toewijzingslogica kunt toevoegen. Dat kan bijvoorbeeld handig zijn als u problemen met synchronisatie moet oplossen.
 
 ## <a name="see-also"></a>Zie ook  
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)   

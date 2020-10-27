@@ -1,37 +1,39 @@
 ---
-title: Inkoopfacturen meteen vereffenen | Microsoft Docs
+title: Inkoopfacturen meteen vereffenen
 description: Als u de leverancier contant of per cheque moet betalen, kunt u de noodzakelijke boekingen doen op het moment dat u de factuur boekt.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec5723088553141c1f6df55ba8bac3303ee4e2bd
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bac023393d95623a2731ef1b2ada7d30b135063b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183272"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968372"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Inkoopfacturen meteen vereffenen
+
 Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boeken op het moment dat u de factuur boekt.  
 
-### <a name="to-settle-purchase-invoices-promptly"></a>Een inkoopfactuur meteen vereffenen  
+> [!NOTE]  
+> Als u vaak inkoopfacturen contant, met een cheque of met een bankovermaking betaalt, is het verstandig om een bepaalde betalingswijze met een tegenrekening in te stellen en deze betalingswijze in te voeren in het veld **Betalingswijze** op de leverancierskaart. Telkens wanneer u hierna een nieuwe factuur maakt, wordt automatisch het tegenrekeningnummer op de factuurkop ingevoerd. Zie [Betalingsmethoden definiëren](finance-payment-methods.md) voor meer informatie.  
+
+## <a name="to-settle-purchase-invoices-promptly"></a>Een inkoopfactuur meteen vereffenen
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw**.  
-3.  Voor contante betalingen of bankoverboekingen voert u in het veld **Tegenrekeningnr.** het nummer in van de grootboekrekening of bankrekening.  
+2. Kies de actie **Nieuw** .  
+3. Voor contante betalingen of bankoverboekingen voert u in het veld **Tegenrekeningnr.** het nummer in van de grootboekrekening of bankrekening.  
 
 > [!IMPORTANT]  
->  De velden **Tegenrekeningsoort** en **Tegenrekeningnr.** worden niet standaard weergegeven op de factuurkop. Voordat u de betaling van een factuur kunt boeken, moet u deze velden eerst met behulp van de ontwerpfuncties invoegen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie. 
+> De velden **Tegenrekeningsoort** en **Tegenrekeningnr.** worden niet standaard weergegeven op de factuurkop. Om de betaling van een factuur te boeken moet u contact opnemen met een Microsoft-partner die de velden via code kan toevoegen.  
+>
+> Deze aanpassing is alleen vereist als u geen tegenrekeningen opgeeft op de betaalmethoden zoals hierboven beschreven.
 
-> [!NOTE]  
->  Als u vaak inkoopfacturen contant betaalt, is het verstandig om een bepaalde betalingswijze met een tegenrekening in te stellen en deze betalingswijze in te voeren in het veld **Betalingswijze** op de leverancierskaart. Telkens wanneer u hierna een nieuwe factuur maakt, wordt automatisch het tegenrekeningnummer op de factuurkop ingevoerd.  
+## <a name="see-also"></a>Zie ook
 
-## <a name="see-also"></a>Zie ook  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

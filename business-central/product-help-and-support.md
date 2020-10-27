@@ -6,19 +6,19 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/01/2020
-ms.openlocfilehash: 7d9ad42f501d3fe7a810fba7573488e8988e7406
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.date: 10/01/2020
+ms.openlocfilehash: 607e34730cbca4992212c293a73ff077b0b081a9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532656"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925117"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
-In [!INCLUDE[prodlong](includes/prodlong.md)] geeft de menuoptie Help (het vraagteken in de rechterbovenhoek) u toegang tot de pagina **Help en ondersteuning**, waar u koppelingen vindt naar resources die u kunnen helpen antwoorden op uw vragen te vinden. U kunt ook zien hoe u contact opneemt met technische ondersteuning voor uw [!INCLUDE[prodshort](includes/prodshort.md)].  
+In [!INCLUDE[prodlong](includes/prodlong.md)] geeft de menuoptie Help (het vraagteken in de rechterbovenhoek) u toegang tot de pagina **Help en ondersteuning** , waar u koppelingen vindt naar resources die u kunnen helpen antwoorden op uw vragen te vinden. U kunt ook zien hoe u contact opneemt met technische ondersteuning voor uw [!INCLUDE[prodshort](includes/prodshort.md)].  
 
-Deze pagina beschrijft de resources die beschikbaar voor u zijn in de verschillende secties van de pagina **Help en ondersteuning**.  
+Deze pagina beschrijft de resources die beschikbaar voor u zijn in de verschillende secties van de pagina **Help en ondersteuning** .  
 
 ## <a name="finding-answers"></a>Antwoorden zoeken
 
@@ -89,13 +89,13 @@ De site docs.microsoft.com is de standaardlocatie voor informatie over de mogeli
 
 ### <a name="content-on-the-site"></a>Inhoud op de site
 
-De inhoud die Microsoft publiceert onder het concept voor gebruikersondersteuning *Meer informatie* is gedeeltelijk bedoeld om die vragen te beantwoorden die de gebruikersinterface niet kan beantwoorden, zoals waar die pagina in de grotere werkstroom past, wat er daarna komt, of wat het alternatief zou zijn, enzovoort. Vanuit het product hebt u toegang tot deze inhoud via de koppeling *Meer informatie* in knopinfo of met behulp van de sneltoetscombinatie *Ctrl+F1*.  
+De inhoud die Microsoft publiceert onder het concept voor gebruikersondersteuning *Meer informatie* is gedeeltelijk bedoeld om die vragen te beantwoorden die de gebruikersinterface niet kan beantwoorden, zoals waar die pagina in de grotere werkstroom past, wat er daarna komt, of wat het alternatief zou zijn, enzovoort. Vanuit het product hebt u toegang tot deze inhoud via de koppeling *Meer informatie* in knopinfo of met behulp van de sneltoetscombinatie *Ctrl+F1* .  
 
-Het navigatievenster aan de linkerkant, de inhoudsopgave, groepeert artikelen op bedrijfsgebied. U leest bijvoorbeeld het artikel [Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md) en dan blijkt uit de inhoudsopgave dat er ook een artikel is met de naam [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Beide artikelen zitten in de groep genaamd *Inkoop*, die artikelen bevat die gerelateerd zijn aan de inkoopmodule in [!INCLUDE [prodshort](includes/prodshort.md)].  
+Het navigatievenster aan de linkerkant, de inhoudsopgave, groepeert artikelen op bedrijfsgebied. U leest bijvoorbeeld het artikel [Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md) en dan blijkt uit de inhoudsopgave dat er ook een artikel is met de naam [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Beide artikelen zitten in de groep genaamd *Inkoop* , die artikelen bevat die gerelateerd zijn aan de inkoopmodule in [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-De inhoudsopgave bevat een groep inhoud die lokale functionaliteit beschrijft voor de landen die Microsoft ondersteunt. Als u uw land daar niet ziet staan, komt dat waarschijnlijk omdat uw land is gelokaliseerd door een partner. Zie voor meer informatie [Beschikbaarheid per land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+De inhoudsopgave bevat een groep inhoud die lokale functionaliteit beschrijft voor de landen/regio's die Microsoft ondersteunt. Als u uw land/regio daar niet ziet staan, komt dat waarschijnlijk omdat uw land/regio is gelokaliseerd door een partner. Zie voor meer informatie [Beschikbaarheid per land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-De inhoud van de lokale functionaliteit beschrijft de mogelijkheden in [!INCLUDE [prodshort](includes/prodshort.md)] die u kunnen helpen compliant te zijn in de ondersteunde markten, zoals belastingaangiftes en andere rapporten. In sommige gevallen is het verschil tussen de standaardversie en de landspecifieke versie onzichtbaar voor gebruikers. In andere gevallen moeten gebruikers op een specifieke manier rapportage of elektronische facturering instellen. Als u een beschrijving van een bepaalde knop of actie niet kunt vinden in het standaardgedeelte van de inhoud op de site docs.microsoft.com, kunt u deze hopelijk vinden in de sectie *Lokale functionaliteit*.  
+De inhoud van de lokale functionaliteit beschrijft de mogelijkheden in [!INCLUDE [prodshort](includes/prodshort.md)] die u kunnen helpen compliant te zijn in de ondersteunde markten, zoals belastingaangiftes en andere rapporten. In sommige gevallen is het verschil tussen de standaardversie en de landspecifieke versie onzichtbaar voor gebruikers. In andere gevallen moeten gebruikers op een specifieke manier rapportage of elektronische facturering instellen. Als u een beschrijving van een bepaalde knop of actie niet kunt vinden in het standaardgedeelte van de inhoud op de site docs.microsoft.com, kunt u deze hopelijk vinden in de sectie *Lokale functionaliteit* .  
 
 ### <a name="finding-other-content"></a>Andere inhoud zoeken
 
@@ -116,18 +116,18 @@ Inhoud over zakelijke functionaliteit wordt in een aantal talen gepubliceerd. Wa
 
 U kunt de taal wijzigen door de URL te wijzigen of u kunt de taalschakelaar gebruiken in de linkerbenedenhoek van de website.  
 
-De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. In sommige gevallen kunt u deze nieuwe inhoud maximaal 4 weken niet in uw eigen taal lezen, maar in de meeste gevallen duurt het slechts een week of twee. U kunt altijd de laatste informatie bekijken door de taal te wijzigen in *en-us*.  
+De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. In sommige gevallen kunt u deze nieuwe inhoud maximaal 4 weken niet in uw eigen taal lezen, maar in de meeste gevallen duurt het slechts een week of twee. U kunt altijd de laatste informatie bekijken door de taal te wijzigen in *en-us* .  
 
-Voor elke taal wordt de inhoudsopgave vertaald, maar de inhoud in de sectie *Lokale functionaliteit* is in het Engels, behalve voor het land dat overeenkomt met de huidige taal. Bijvoorbeeld in de Deense versie van de docs.microsoft.com-site (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) kunt u de vermeldingen voor lokale Australische functionaliteit in het Deens zien in de inhoudsopgave, maar de artikelen zijn in het Engels. Alleen de artikelen voor Deense lokale functionaliteit worden in het Deens vertaald.  
+Voor elke taal wordt de inhoudsopgave vertaald, maar de inhoud in de sectie *Lokale functionaliteit* is in het Engels, behalve voor het land/regio dat overeenkomt met de huidige taal. Bijvoorbeeld in de Deense versie van de docs.microsoft.com-site (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) kunt u de vermeldingen voor lokale Australische functionaliteit in het Deens zien in de inhoudsopgave, maar de artikelen zijn in het Engels. Alleen de artikelen voor Deense lokale functionaliteit worden in het Deens vertaald.  
 
 ### <a name="providing-feedback"></a>Feedback geven
 
 Op docs.microsoft.com heeft elk artikel twee knoppen aan het einde van het artikel. De knop *Productfeedback* stuurt u naar de Ideeën-site en de knop *Aanmelden om documentatiefeedback te geven* laat u feedback geven over de inhoud via GitHub. In beide gevallen moet u een account maken als u er nog geen hebt. Voor *productfeedback* moet u zich aanmelden met het e-mailadres van uw werk of organisatie. Voor *toegang tot GitHub* kunt u elk e-mailadres gebruiken wanneer u een account maakt.  
 
-We verwelkomen uw bijdragen, zowel als pull-verzoeken met suggesties of correcties voor de inhoud, en als GitHub-problemen met bugs of vragen. Maar houd er rekening mee dat feedback en bijdragen aan de *dynamics365smb-docs*-repo gaan over de inhoud, niet over het product.  
+We verwelkomen uw bijdragen, zowel als pull-verzoeken met suggesties of correcties voor de inhoud, en als GitHub-problemen met bugs of vragen. Maar houd er rekening mee dat feedback en bijdragen aan de *dynamics365smb-docs* -repo gaan over de inhoud, niet over het product.  
 
 > [!IMPORTANT]
-> Microsoft accepteert pull-verzoeken alleen aan de *dynamics365smb-docs*-repo niet aan de taalspecifieke repo's. Als u feedback hebt over vertalingen, kunt u een GitHub-probleem melden in de relevante repo.  
+> Microsoft accepteert pull-verzoeken alleen aan de *dynamics365smb-docs* -repo niet aan de taalspecifieke repo's. Als u feedback hebt over vertalingen, kunt u een GitHub-probleem melden in de relevante repo.  
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Navigeren naar andere delen van de site
 

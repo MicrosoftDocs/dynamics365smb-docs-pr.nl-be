@@ -7,14 +7,14 @@ ms.topic: article
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 1672c163237e23510e2d8f3a5a99760018d023d9
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486333"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923932"
 ---
 # <a name="managing-vat-rate-changes"></a>Wijzigingen in btw-tarieven beheren
 
@@ -72,13 +72,13 @@ Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidin
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Het wijzigingstool btw-tarief instellen
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief instellen** in en kies de desbetreffende koppeling.  
-2. Op de sneltabbladen **Hoofdgegevens**, **Dagboeken** en **Documenten** kiest u een boekingsgroepwaarde in de lijst met opties voor verplichte velden. Voor elke groep kunt u kiezen of u btw-productboekingsgroepen of algemene productboekingsgroepen wilt converteren of beide waarden wilt converteren als deze beschikbaar zijn in het stamgegevensitem. Voor sommige gebieden kunt u ook een filter instellen om alleen een subset van waarden te converteren, bijvoorbeeld grootboekrekeningen. 
+2. Op de sneltabbladen **Hoofdgegevens** , **Dagboeken** en **Documenten** kiest u een boekingsgroepwaarde in de lijst met opties voor verplichte velden. Voor elke groep kunt u kiezen of u btw-productboekingsgroepen of algemene productboekingsgroepen wilt converteren of beide waarden wilt converteren als deze beschikbaar zijn in het stamgegevensitem. Voor sommige gebieden kunt u ook een filter instellen om alleen een subset van waarden te converteren, bijvoorbeeld grootboekrekeningen. 
 3. Kies op het sneltabblad **Prijzen incl. btw** regeltypen voor orders waarvoor u de eenheidsprijzen wilt bijwerken. Eenheidsprijzen op regels van het type Item en Resource worden altijd bijgewerkt.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief instellen** in en kies de desbetreffende koppeling.  
-2. Kies op de pagina **Wijziging btw-tarief instellen** en kies de actie **Conversie boekingsgroep btw-producten** of **Conversie boekingsgroep algemene producten**.  
+2. Kies op de pagina **Wijziging btw-tarief instellen** en kies de actie **Conversie boekingsgroep btw-producten** of **Conversie boekingsgroep algemene producten** .  
 3. Voer in het veld **Van code** de huidige boekingsgroep in.  
 4. Voer in het veld **Tot code** de nieuwe boekingsgroep in.  
 
@@ -92,14 +92,14 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 > [!IMPORTANT]  
 > Voordat u de conversie van de btw-tariefswijziging uitvoert, kunt u de conversie testen. Hiervoor volgt u de onderstaande stappen, maar zorg ervoor dat u de selectievakjes **Conversie uitvoeren** en **Wijzigingstool BTW-tarief voltooid** uitschakelt. Tijdens testconversie wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** gewist en is het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** leeg. Kies nadat de conversie is voltooid de optie **Wijzigingslogposten btw-tarief** om de resultaten van de testconversie weer te geven. Controleer elke post voordat u de conversie uitvoert. Controleer met name transacties met een oud btw-tarief.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief** in en kies de koppeling **Wijziging btw-tarief instellen**.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief** in en kies de koppeling **Wijziging btw-tarief instellen** .  
 2. Controleer of u de conversie van de btw-productboekingsgroep of de conversie van de algemene productboekingsgroep al hebt ingesteld.  
 3. Schakel het selectievakje **Conversie uitvoeren** in.  
 
     > [!IMPORTANT]  
     >  Schakel het selectievakje **Wijzigingstool BTW-tarief voltooid** uit. Het selectievakje wordt automatisch ingeschakeld wanneer de conversie btw-tariefswijziging is voltooid.  
 
-4. Kies de actie **Converteren**.  
+4. Kies de actie **Converteren** .  
 5. Wanneer de conversie voltooid is, kiest u de actie **Logbestandvermeldingen btw-tariefwijziging** om de resultaten van de conversie te zien.  
 
 > [!IMPORTANT]  

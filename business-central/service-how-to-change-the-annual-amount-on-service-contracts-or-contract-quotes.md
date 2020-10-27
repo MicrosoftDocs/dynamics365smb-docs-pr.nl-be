@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402579"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925734"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
 U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.  
@@ -26,7 +26,7 @@ U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractoffert
 2. Kies het contract of de contractofferte.  
 3. Kies de actie **Contract openen** om het contract of de contractofferte te openen en bewerken.  
 4. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u het jaarlijkse bedrag wilt wijzigen en het verschil in het jaarlijkse bedrag handmatig wilt verdelen over de contractregels. Schakel anders het selectievakje uit om het verschil in het jaarlijkse bedrag automatisch te verdelen over de contractregels nadat u het jaarlijkse bedrag hebt gewijzigd.  
-5. Wijzig de inhoud van het veld **Jaarlijks bedrag**. Als het jaarlijkse bedrag negatief is, kunt u het servicecontract niet ondertekenen (omzetten in een servicecontract als u aan een contractofferte werkt) of vergrendelen. Als u het jaarlijkse bedrag instelt op nul, moet de inhoud van het veld **Factuurperiode** **Geen** zijn als u het servicecontract ondertekent of vergrendelt.  
+5. Wijzig de inhoud van het veld **Jaarlijks bedrag** . Als het jaarlijkse bedrag negatief is, kunt u het servicecontract niet ondertekenen (omzetten in een servicecontract als u aan een contractofferte werkt) of vergrendelen. Als u het jaarlijkse bedrag instelt op nul, moet de inhoud van het veld **Factuurperiode** **Geen** zijn als u het servicecontract ondertekent of vergrendelt.  
 6. Afhankelijk van of het selectievakje **Bedragen in onbalans toestaan** is ingeschakeld, voert u de handmatige of automatische verdeling van het verschil in het jaarlijkse bedrag uit. De contractregels worden zodanig bijgewerkt dat de waarde in het veld **Berekend jaarlijks bedrag** gelijk is aan het nieuwe jaarlijkse bedrag.  
 
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Verschillen tussen nieuwe en berekende jaarlijks bedragen verdelen
@@ -41,7 +41,7 @@ Als u het jaarlijkse bedrag wijzigt van een servicecontract of contractofferte, 
 
 1. Het verschil tussen de nieuwe waarde in het veld **Jaarlijks bedrag** en de waarde in het veld **Berekend jaarlijks bedrag** wordt gedeeld door het aantal contractregels in het servicecontract of de servicecontractofferte.  
 2. De waarde van het veld **Regelbedrag** wordt bijgewerkt door er het resultaat van de voorgaande bewerking bij op te tellen.  
-3. De inhoud van de velden **Bedrag Regelkorting**, **Regelkorting %** en **Winst** worden bijgewerkt op basis van de nieuwe waarde in het veld **Bedrag Regel**. Dit gebeurt op de volgende manier:   
+3. De inhoud van de velden **Bedrag Regelkorting** , **Regelkorting %** en **Winst** worden bijgewerkt op basis van de nieuwe waarde in het veld **Bedrag Regel** . Dit gebeurt op de volgende manier:   
     * Totale regelkorting = Regelwaarde - Regelbedrag.  
     * Regelkorting % = Totale regelkorting / Regelwaarde * 100.  
     * Winst = Regelbedrag - Regelkostprijs.  
@@ -57,9 +57,9 @@ Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld op het 
 |Artikel 2|40,00|50.00|10.00|5.00|45.00|5.00|  
 |Artikel 3|50.00|70.00|10.00|7.00|63.00|13.00|  
 
-De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld **Berekend jaarlijks bedrag**, dat altijd is ingesteld op het totaal van de regelbedragen. In dit geval is de waarde gelijk aan: 40 + 45 + 63 = 148.  
+De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld **Berekend jaarlijks bedrag** , dat altijd is ingesteld op het totaal van de regelbedragen. In dit geval is de waarde gelijk aan: 40 + 45 + 63 = 148.  
 
-Als u het **Jaarlijkse bedrag** wijzigt in 139, wordt het bedrag berekend dat moet worden toegevoegd aan elke waarde in het veld **Regelbedrag**. Dit bedrag wordt berekend door het **Berekend jaarlijkse bedrag** af te trekken van de nieuwe waarde in het veld **Jaarlijks bedrag** en het resultaat te delen door het aantal contractregels in het servicecontract. In dit geval is de waarde gelijk aan: (139 + 148) / 3 = -3. Vervolgens wordt dit bedrag opgeteld bij de waarde in elke waarde in het veld **Regelbedrag** en worden de waarden in de velden **Regelkorting %**, **Totale regelkorting** en **Winst** bijgewerkt met behulp van de formules die hierboven zijn beschreven.  
+Als u het **Jaarlijkse bedrag** wijzigt in 139, wordt het bedrag berekend dat moet worden toegevoegd aan elke waarde in het veld **Regelbedrag** . Dit bedrag wordt berekend door het **Berekend jaarlijkse bedrag** af te trekken van de nieuwe waarde in het veld **Jaarlijks bedrag** en het resultaat te delen door het aantal contractregels in het servicecontract. In dit geval is de waarde gelijk aan: (139 + 148) / 3 = -3. Vervolgens wordt dit bedrag opgeteld bij de waarde in elke waarde in het veld **Regelbedrag** en worden de waarden in de velden **Regelkorting %** , **Totale regelkorting** en **Winst** bijgewerkt met behulp van de formules die hierboven zijn beschreven.  
 
 Uiteindelijk bevatten de contractregels de volgende gegevens.  
 
@@ -74,7 +74,7 @@ Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, 
 
 1. De procentuele bijdrage van het regelbedrag wordt als volgt berekend: de inhoud van het veld **Regelbedrag** wordt gedeeld door de waarde in het veld **Berekend jaarlijks bedrag** op alle contractregels.  
 2. De waarde van het veld **Regelbedrag** wordt berekend door het verschil tussen het nieuwe en het berekende jaarlijkse bedrag erbij op te tellen, nadat dat is vermenigvuldigd met de procentuele bijdrage in het regelbedrag.  
-3. De inhoud van de velden **Totale regelkorting**, **Regelkorting %** en **Winst** wordt bijgewerkt op basis van de nieuwe waarde in het veld **Totale regelkorting**. Dit gebeurt op de volgende manier:  
+3. De inhoud van de velden **Totale regelkorting** , **Regelkorting %** en **Winst** wordt bijgewerkt op basis van de nieuwe waarde in het veld **Totale regelkorting** . Dit gebeurt op de volgende manier:  
 
     * Totale regelkorting = Regelwaarde - Regelbedrag.  
     * Regelkorting % = Totale regelkorting / Regelwaarde * 100  
@@ -91,7 +91,7 @@ Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld op het 
 |Artikel 2|20.00|23.00|Geen|  0.00|55.10|3.00|  
 |Artikel 3|24.00|27.00|3.00|0.81|112.70|2.19|  
 
-De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld **Berekend jaarlijks bedrag**, dat altijd is ingesteld op het totaal van de regelbedragen. In dit geval is de waarde gelijk aan: 16,49 + 23,00 + 26,19 = 65,68.  
+De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld **Berekend jaarlijks bedrag** , dat altijd is ingesteld op het totaal van de regelbedragen. In dit geval is de waarde gelijk aan: 16,49 + 23,00 + 26,19 = 65,68.  
 
 Als u het **Jaarlijks bedrag** verandert in 60, wordt de winstpercentagebijdrage voor elke contractregel berekend:  
 
@@ -99,7 +99,7 @@ Als u het **Jaarlijks bedrag** verandert in 60, wordt de winstpercentagebijdrage
 * Artikel 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Artikel 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
 
-De waarde van het veld **Regelbedrag** wordt op elke contractregel bijgewerkt met de formule: Regelbedrag = Regelbedrag + verschil tussen het nieuwe en het berekende jaarlijkse bedrag * Bijdrage in percentage. Vervolgens wordt de waarde in de velden **Totale regelkorting**, **Regelkorting %** en **Winst** bijgewerkt met de formules uit de hierboven beschreven procedure.  
+De waarde van het veld **Regelbedrag** wordt op elke contractregel bijgewerkt met de formule: Regelbedrag = Regelbedrag + verschil tussen het nieuwe en het berekende jaarlijkse bedrag * Bijdrage in percentage. Vervolgens wordt de waarde in de velden **Totale regelkorting** , **Regelkorting %** en **Winst** bijgewerkt met de formules uit de hierboven beschreven procedure.  
 
 Uiteindelijk bevatten de contractregels de volgende gegevens.  
 
@@ -114,7 +114,7 @@ Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, 
 
 1. De procentuele bijdrage aan de winst wordt als volgt berekend: de inhoud van het veld **Winst** wordt gedeeld door de som van de waarden in het veld **Winst** op alle contractregels.  
 2. De waarde van het veld **Regelbedrag** wordt berekend door het verschil tussen het nieuwe en het berekende jaarlijkse bedrag erbij op te tellen, nadat dat is vermenigvuldigd met de procentuele bijdrage aan de winst.  
-3. De inhoud van de velden Bedrag Regelkorting, Regelkorting % en Winst worden bijgewerkt op basis van de nieuwe waarde in het veld **Bedrag Regel**. Dit gebeurt op de volgende manier:  
+3. De inhoud van de velden Bedrag Regelkorting, Regelkorting % en Winst worden bijgewerkt op basis van de nieuwe waarde in het veld **Bedrag Regel** . Dit gebeurt op de volgende manier:  
 
     * Totale regelkorting = Regelwaarde - Regelbedrag.  
     * Regelkorting % = Totale regelkorting / Regelwaarde * 100  
@@ -129,7 +129,7 @@ Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld in het 
 |Artikel 2|50.00|58.00|5.00|2.90|55.10|5.10|  
 |Artikel 3|100.00|115.00|2.00|2.30|112.70|12.70|  
 
-De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld **Berekend jaarlijks bedrag**, dat altijd is ingesteld op het totaal van de regelbedragen. In dit geval is de waarde gelijk aan: 25,00 + 55,10 + 112,70 = 192,80.  
+De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld **Berekend jaarlijks bedrag** , dat altijd is ingesteld op het totaal van de regelbedragen. In dit geval is de waarde gelijk aan: 25,00 + 55,10 + 112,70 = 192,80.  
 
  Als u het **Jaarlijks bedrag** verandert in 180, wordt de winstpercentagebijdrage voor elke contractregel berekend:  
 
@@ -137,7 +137,7 @@ De waarde in het veld **Jaarlijks bedrag** is gelijk aan de inhoud van het veld 
 * Artikel 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Artikel 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
 
-De waarde van het veld **Regelbedrag** wordt op elke contractregel bijgewerkt met de formule: Regelbedrag = Regelbedrag + verschil tussen het nieuwe en het berekende jaarlijkse bedrag * Bijdrage in percentage. Vervolgens wordt de waarde in de velden **Totale regelkorting**, **Regelkorting %** en **Winst** bijgewerkt met de formules uit stap 3 van de hierboven beschreven procedure.  
+De waarde van het veld **Regelbedrag** wordt op elke contractregel bijgewerkt met de formule: Regelbedrag = Regelbedrag + verschil tussen het nieuwe en het berekende jaarlijkse bedrag * Bijdrage in percentage. Vervolgens wordt de waarde in de velden **Totale regelkorting** , **Regelkorting %** en **Winst** bijgewerkt met de formules uit stap 3 van de hierboven beschreven procedure.  
 
 Uiteindelijk bevatten de contractregels de volgende gegevens.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48986fc36332c4bbca3f84208261fe8215e58f92
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781872"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921604"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Productieorders direct opnieuw plannen of vernieuwen
 De functie **Herplannen** in productieorders wordt doorgaans gebruikt nadat er materialen zijn toegevoegd of gewijzigd die onderliggende productieorders hebben. Met de functie worden wijzigingen berekend die in materiaal- en bewerkingsplanregels zijn aangebracht. De functie heeft betrekking op lagere productiestuklijstniveaus en er kunnen nieuwe productieorders mee worden gegenereerd.  
@@ -37,12 +37,12 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 ## <a name="to-replan-a-production-order"></a>Een productieorder herplannen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.  
 2.  Open de productieorderregel die u opnieuw wilt plannen.  
-3.  Kies op het sneltabblad **Regels** de actie **Regels** en vervolgens de actie **Materialen**.  
+3.  Kies op het sneltabblad **Regels** de actie **Regels** en vervolgens de actie **Materialen** .  
 4.  Voeg een materiaal toe. (Dat is een geproduceerd artikel of subassemblage.)  
-5.  Kies vanuit de productieorder de actie **Herplannen**.  
+5.  Kies vanuit de productieorder de actie **Herplannen** .  
 
     Definieer op de pagina **Productieorder herplannen** wat en op welke wijze u wilt herplannen.  
-6.  Selecteer een van de volgende opties in het veld **Planningsrichting**.  
+6.  Selecteer een van de volgende opties in het veld **Planningsrichting** .  
 
     |Optie|Description|  
     |----------------------------------|---------------------------------------|  
@@ -66,8 +66,8 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 Als u productieorderregels, materialen of bewerkingsplanregels hebt aangepast, moet u de informatie in de productieorder ook vernieuwen. In de volgende procedure worden de materialen berekend voor een vast geplande productieorder. De stappen zijn vergelijkbaar voor bewerkingsplanregels.
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
-3.  Kies de actie **Vernieuwen**.
+2.  Kies de actie **Nieuw** . Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
+3.  Kies de actie **Vernieuwen** .
 4. Selecteer op de pagina **Productieorder vernieuwen** een van de volgende opties:
 
     |Optie|Description|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1e6520aeb39a77ecfcbf652b8c328d1595d6f6f
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577213"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922629"
 ---
 # <a name="define-user-tasks"></a>Gebruikerstaken definiëren
 
@@ -25,7 +25,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u taken maken die u helpen h
 
 De pagina **Gebruikerstaken** bevat alle taken en u kunt gemakkelijk nieuwe taken maken en toewijzen. Wanneer u een taak maakt, kunt u de begindatum en einddatum opgeven, en u kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] een koppeling toevoegen naar de pagina of het rapport waar de gebruiker de taak moet uitvoeren.  
 
-U kunt bijvoorbeeld u een taak voor uzelf of een collega maken om alle geboekte verkoopfacturen te bekijken. In dat geval koppelt u de taak een pagina 143, **Geboekte verkoopfacturen**. In de volgende schermafbeelding maakt iemand een taak voor MeganB om de geboekte verkoopfacturen te bekijken.  
+U kunt bijvoorbeeld u een taak voor uzelf of een collega maken om alle geboekte verkoopfacturen te bekijken. In dat geval koppelt u de taak een pagina 143, **Geboekte verkoopfacturen** . In de volgende schermafbeelding maakt iemand een taak voor MeganB om de geboekte verkoopfacturen te bekijken.  
 
 :::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Voorbeeld van een gebruikerstaak":::
 

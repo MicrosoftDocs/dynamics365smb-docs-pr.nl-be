@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f0eb7a1562a8300bd7181ef6470c70f60934470
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 718d4378a897b187ba3073449869184fef5cec98
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528650"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924840"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps
 
@@ -27,16 +27,16 @@ U kunt uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens als gegevensbron
 ## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>[!INCLUDE[prodshort](includes/prodshort.md)] als gegevensbron toevoegen in Power Apps
 
 1. Navigeer in de browser naar [powerapps.microsoft.com](https://powerapps.microsoft.com/) en meld u aan.
-2. Kies op de startpagina in de sectie **Start vanuit gegevens** de tegel **Andere gegevensbronnen**.  
+2. Kies op de startpagina in de sectie **Start vanuit gegevens** de tegel **Andere gegevensbronnen** .  
 
-    Dit opent Power Apps Studio. Bij de eerste aanmelding moet u het land/de regio specificeren.  
-3. Kies in de lijst met beschikbare verbindingen **Business Central** en kies de knop **Maken**.
+    Dit opent Power Apps Studio. Bij de eerste aanmelding moet u het land/regio specificeren.  
+3. Kies in de lijst met beschikbare verbindingen **Business Central** en kies de knop **Maken** .
 
     Power Apps maakt verbinding met uw [!INCLUDE[prodshort](includes/prodshort.md)] met behulp van de aanmeldingsgegevens waarmee u bent aangemeld. Als u geen beheerder hebt van uw [!INCLUDE[prodshort](includes/prodshort.md)], kunt u zich met een ander account aanmelden.  
 
-4. Met Power Apps wordt een lijst met *omgevingen en bedrijven* weergegeven die beschikbaar zijn in [!INCLUDE[prodshort](includes/prodshort.md)]. Kies de omgeving en het bedrijf met de gegevens waarmee u verbinding wilt maken, bijvoorbeeld *PRODUCTIE - Mijn bedrijf*.  
+4. Met Power Apps wordt een lijst met *omgevingen en bedrijven* weergegeven die beschikbaar zijn in [!INCLUDE[prodshort](includes/prodshort.md)]. Kies de omgeving en het bedrijf met de gegevens waarmee u verbinding wilt maken, bijvoorbeeld *PRODUCTIE - Mijn bedrijf* .  
 
-5. Vervolgens krijgt u een lijst met tabellen te zien die worden weergegeven als onderdeel van de API voor uw omgeving. Selecteer de tabel waarmee u verbinding wilt maken en kies vervolgens **Verbinden**.
+5. Vervolgens krijgt u een lijst met tabellen te zien die worden weergegeven als onderdeel van de API voor uw omgeving. Selecteer de tabel waarmee u verbinding wilt maken en kies vervolgens **Verbinden** .
 
 Deze zogenaamde tabellen worden door de [!INCLUDE[prodshort](includes/prodshort.md)]-connector voor Power Apps als eindpunten beschikbaar gemaakt.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 11efef293064aa5624bc0a5af2c59002ccd914d6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195327"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923382"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -43,7 +43,7 @@ In het gedeelte **Op huidige pagina** kunt u acties zoeken en uitvoeren op de pa
 ### <a name="finding-a-page-or-a-task"></a>Een pagina of taak zoeken
 De resultaten in de sectie **Ga naar Pagina's en taken** bieden toegang tot andere pagina's en u kunt er taken mee uitvoeren of informatie mee opzoeken. Als u deze pagina's vaak gebruikt, kunt u het bladwijzerpictogram kiezen om een koppeling naar elke pagina toe te voegen aan uw rolcentrum. Zie voor meer informatie [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md).
 
-Welke pagina's en taken worden vermeld, is afhankelijk van de gebruikerservaring die u voor uw bedrijf hebt gekozen. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de **Essential**-ervaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
+Welke pagina's en taken worden vermeld, is afhankelijk van de gebruikerservaring die u voor uw bedrijf hebt gekozen. De **Essential** -ervaring geeft toegang tot minder dan de **Premium** -ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de **Essential** -ervaring. Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).
 
 ### <a name="finding-a-report-or-archived-information"></a>Een rapport of gearchiveerde informatie zoeken
 De sectie **Ga naar Rapporten en analyse** biedt toegang tot rapportagehulpmiddelen. U kunt bijvoorbeeld het rapport **Balans** vanuit de lijst openen of toegang krijgen tot gearchiveerde documenten en andere informatie.  

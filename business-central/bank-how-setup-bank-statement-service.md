@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fb173ee064b5b62ff110fb33dc8ecbc82d0afcd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783261"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924440"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De Envestnet Yodlee Bank Feeds-service instellen
 
@@ -42,7 +42,7 @@ Nadat u de bankfeedservice hebt ingeschakeld, moet u een bankrekening koppelen a
 * Een gekoppelde bankrekening moet worden ontkoppeld omdat u de bankfeedservice niet meer voor de rekening wilt gebruiken.
 * Online bankrekeningen zijn gewijzigd en u wilt de informatie over bankrekeningen bijwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)] .
 
-Als de bankfeedservice is ingeschakeld, kunt u een bankrekening instellen om elke twee uur automatisch nieuwe bankafschriften te importeren op de pagina **Betalingsreconciliatiedagboek**. Transacties voor betalingen die reeds zijn geboekt als vereffend en/of gereconcilieerd op de pagina **Betalingsreconciliatiedagboek**, worden niet geïmporteerd. Zie voor meer informatie het gedeelte “Automatische import van bankafschriften inschakelen”.
+Als de bankfeedservice is ingeschakeld, kunt u een bankrekening instellen om elke twee uur automatisch nieuwe bankafschriften te importeren op de pagina **Betalingsreconciliatiedagboek** . Transacties voor betalingen die reeds zijn geboekt als vereffend en/of gereconcilieerd op de pagina **Betalingsreconciliatiedagboek** , worden niet geïmporteerd. Zie voor meer informatie het gedeelte “Automatische import van bankafschriften inschakelen”.
 
 > [!NOTE]  
 > Als u de begeleide instelling Bedrijf instellen gebruikt, worden sommige stappen in de volgende procedures automatisch uitgevoerd wanneer u de instelling van de bedrijfsbankrekening uitvoert. Zie voor meer informatie [Aan de slag](product-get-started.md).
@@ -59,61 +59,61 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Een nieuwe gekoppelde bankrekening maken
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
-2. Selecteer de betreffende bankrekening en kies vervolgens **Nieuwe gekoppelde bankrekening maken**. De pagina **Bankrekening koppelen** opent na een aantal ogenblikken.
+2. Selecteer de betreffende bankrekening en kies vervolgens **Nieuwe gekoppelde bankrekening maken** . De pagina **Bankrekening koppelen** opent na een aantal ogenblikken.
 
     > [!NOTE]  
     > Deze pagina toont de daadwerkelijke webpagina van de Envestnet Yodlee Bank Feeds-service. De terminologie en functionaliteit op de pagina komen mogelijk niet overeen met de instructies in dit onderwerp.  
 3. Gebruik op de pagina **Koppeling aan online bankrekening** in het deelvenster **Rekening koppelen** de zoekfunctie om de bank te zoeken waar u een of meer online bankrekeningen hebt.
 4. Kies de banknaam. Het deelvenster **Aanmelden** wordt geopend.
-5. Voer de gebruikersnaam en het wachtwoord in die u gebruikt om u aan te melden bij de online bank en kies vervolgens de knop **Volgende**.  
+5. Voer de gebruikersnaam en het wachtwoord in die u gebruikt om u aan te melden bij de online bank en kies vervolgens de knop **Volgende** .  
 6. De bankfeedservice treft voorbereidingen om de eerste online bankrekening bij de opgegeven bank te koppelen aan een nieuwe bankrekening in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
     > Als u meer dan één online bankrekening bij de bank hebt, moet u er extra bankrekeningen voor maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie stap 8 t/m 10.  
 
     Nadat het proces is voltooid, wordt de naam van de bank in het deelvenster **Mijn rekeningen** op het tabblad **Gekoppeld** weergegeven. Het nummer tussen haakjes geeft aan hoeveel online bankrekeningen zijn gekoppeld.  
-7. Kies de knop **OK**.
+7. Kies de knop **OK** .
 
     Als u slechts één online bankrekening koppelt, wordt de pagina **Bankrekeningkaart** geopend en wordt de naam van de online bankrekening weergegeven. In dit geval is de koppeling van de bankrekening voltooid. Alleen de bankrekening hoeft nog te worden ingesteld. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 
     Als u meerdere online bankrekeningen koppelt, wordt de pagina **Bankrekening koppelen** geopend met de aanvullende online bankrekeningen die nog niet zijn gekoppeld aan bankrekeningen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In dat geval volgt u de volgende stap.  
-8. Selecteer op de pagina **Bankrekening koppelen** de regel voor een online bankrekening en kies vervolgens de actie **Koppelen aan nieuwe bankrekening**.  
+8. Selecteer op de pagina **Bankrekening koppelen** de regel voor een online bankrekening en kies vervolgens de actie **Koppelen aan nieuwe bankrekening** .  
 
     De pagina **Bankrekeningkaart** voor een nieuwe bankrekening wordt geopend en de naam van de online bankrekening wordt weergegeven.
 
     Als er al een bankrekening bestaat in [!INCLUDE[d365fin](includes/d365fin_md.md)] waaraan u de extra online de bankrekening wilt koppelen, voert u de volgende stap uit.  
-9. Selecteer op de pagina **Bankrekening koppelen** de regel voor een online bankrekening en kies vervolgens de actie **Koppelen aan bestaande bankrekening**.
-10. Selecteer op de pagina **Bankenoverzicht** de bankrekening waarmee u wilt koppelen, en kies vervolgens de knop **OK**.
+9. Selecteer op de pagina **Bankrekening koppelen** de regel voor een online bankrekening en kies vervolgens de actie **Koppelen aan bestaande bankrekening** .
+10. Selecteer op de pagina **Bankenoverzicht** de bankrekening waarmee u wilt koppelen, en kies vervolgens de knop **OK** .
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Een bankrekening koppelen aan een online bankrekening
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
-2. Selecteer de regel voor een bankrekening die niet is gekoppeld aan een online bankrekening, en kies vervolgens de actie **Koppelen aan online bankrekening**. De pagina **Koppeling aan online bankrekening** wordt geopend met de naam van de bank al ingevuld in het deelvenster **Rekening koppelen**.
+2. Selecteer de regel voor een bankrekening die niet is gekoppeld aan een online bankrekening, en kies vervolgens de actie **Koppelen aan online bankrekening** . De pagina **Koppeling aan online bankrekening** wordt geopend met de naam van de bank al ingevuld in het deelvenster **Rekening koppelen** .
 3. Kies de banknaam. Het deelvenster **Aanmelden** wordt geopend.
-4. Voer de gebruikersnaam en het wachtwoord in die u gebruikt om u aan te melden bij de online bank en kies vervolgens de knop **Volgende**.  
+4. Voer de gebruikersnaam en het wachtwoord in die u gebruikt om u aan te melden bij de online bank en kies vervolgens de knop **Volgende** .  
 
     De bankfeedservice treft voorbereidingen om uw bankrekening in [!INCLUDE[d365fin](includes/d365fin_md.md)] te koppelen aan de gerelateerde online bankrekening.  
 
     Wanneer het proces met succes is voltooid, wordt de naam van de bank in het deelvenster **Mijn rekeningen** op het tabblad **Gekoppeld** weergegeven. Als de bank meerdere bankrekening heeft, wordt alleen de bankrekening die u in stap 2 hebt geselecteerd, gekoppeld.  
-5. Kies de knop **OK**.
+5. Kies de knop **OK** .
 
 Op de pagina **Bankenoverzicht** is het selectievakje **Gekoppeld** ingeschakeld.
 
 ## <a name="to-unlink-a-bank-account"></a>Een bankrekening ontkoppelen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.  
-2. Selecteer de regel voor een gekoppelde bankrekening die u wilt ontkoppelen van de gerelateerde online bankrekening, en kies de actie **Online bankrekening ontkoppelen**.
+2. Selecteer de regel voor een gekoppelde bankrekening die u wilt ontkoppelen van de gerelateerde online bankrekening, en kies de actie **Online bankrekening ontkoppelen** .
 
 > [!NOTE]  
 > Als u **Ja** kiest in het bevestigingsdialoogvenster, wordt de koppeling met de online bankrekening verwijderd en worden de logdetails gewist. Om de bankrekening weer te koppelen aan de online bankrekening, moet u zich weer aanmelden bij de bank. Zie voor meer informatie het gedeelte “Een bankrekening koppelen aan een online bankrekening“.
 
 ## <a name="to-update-bank-account-linking"></a>Koppeling aan bankrekening bijwerken
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
-2. Selecteer de betreffende bankrekening en kies vervolgens de actie **Koppeling aan bankrekening bijwerken**.
+2. Selecteer de betreffende bankrekening en kies vervolgens de actie **Koppeling aan bankrekening bijwerken** .
 
-Als er problemen voor de gekoppelde bankrekeningen zijn op de pagina **Bankenoverzicht**, wordt de pagina **Bankrekening koppelen** geopend, waarin wordt aangegeven welke bankrekeningen problemen hebben. Problemen kunnen het beste worden opgelost door de online bankrekening te ontkoppelen en de koppeling vervolgens opnieuw te maken. Zie voor meer informatie het gedeelte “Een bankrekening koppelen aan een online bankrekening“.
+Als er problemen voor de gekoppelde bankrekeningen zijn op de pagina **Bankenoverzicht** , wordt de pagina **Bankrekening koppelen** geopend, waarin wordt aangegeven welke bankrekeningen problemen hebben. Problemen kunnen het beste worden opgelost door de online bankrekening te ontkoppelen en de koppeling vervolgens opnieuw te maken. Zie voor meer informatie het gedeelte “Een bankrekening koppelen aan een online bankrekening“.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Automatisch importeren van bankafschriften inschakelen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
-2. Selecteer de regel voor een gekoppelde bankrekening, en kies vervolgens de actie **Instelling van automatische import van bankafschriften**.
+2. Selecteer de regel voor een gekoppelde bankrekening, en kies vervolgens de actie **Instelling van automatische import van bankafschriften** .
 3. Geef op de pagina **Instelling van automatische import van bankafschriften** in het veld **Aantal opgenomen dagen** op hoe ver in het verleden u banktransacties wilt ophalen.
 
     > [!NOTE]  
@@ -123,7 +123,7 @@ Als er problemen voor de gekoppelde bankrekeningen zijn op de pagina **Bankenove
 Op de pagina **Betalingsreconciliatiedagboek** worden elk uur nieuwe betalingen weergegeven die worden gedaan op de online bankrekening.
 
 > [!NOTE]  
-> Transacties voor betalingen die reeds zijn geboekt als vereffend en/of gereconcilieerd op de pagina **Betalingsreconciliatiedagboek**, worden niet geïmporteerd.
+> Transacties voor betalingen die reeds zijn geboekt als vereffend en/of gereconcilieerd op de pagina **Betalingsreconciliatiedagboek** , worden niet geïmporteerd.
 
 ## <a name="see-also"></a>Zie ook
 [Bankieren instellen](bank-setup-banking.md)  

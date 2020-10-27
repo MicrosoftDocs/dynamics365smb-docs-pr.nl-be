@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410759"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970477"
 ---
 # <a name="finance"></a>Financiën
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
@@ -54,7 +54,12 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | De stroom van kas in en uit uw bedrijf controleren. |[Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md) |
 |Volg een complete procedure voor het gebruik van rapportageschema's om cashflowprognoses te maken.|[Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Werken met financiële overzichten in Excel. |[Financiële overzichten analyseren in Excel](finance-analyze-excel.md) |
-|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en Accountant Hub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
+|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en de bedrijfshub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Een videorondleiding volgen
+De volgende video introduceert enkele van de belangrijkste mogelijkheden voor het beheren van financiën. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Zie ook
 [Financiën instellen](finance-setup-finance.md)  

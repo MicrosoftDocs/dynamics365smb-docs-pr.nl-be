@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e244afdb7690ad10eeb99f0c8004cb171469744b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781972"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924965"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
 
@@ -37,7 +37,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
 
-3. Kies de actie **Nieuw**.  
+3. Kies de actie **Nieuw** .  
 
 4. Vul de velden in zoals beschreven in de volgende tabel.  
 
@@ -77,10 +77,10 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
     |**Actie**|Omschrijving|  
     |----------------|---------------------------------------|  
     |**Alles weergeven**|Alle knooppunten worden weergegeven.|  
-    |**Niet-verplicht verbergen**|Alleen knooppunten die elementen vertegenwoordigen die vereist zijn volgens het XML-schema, worden weergegeven. Deze knooppunten worden doorgaans aangegeven met een **1** in het veld **MinOccurs**.<br /><br /> Kies **Alles weergeven** om de weergave om te keren.|  
+    |**Niet-verplicht verbergen**|Alleen knooppunten die elementen vertegenwoordigen die vereist zijn volgens het XML-schema, worden weergegeven. Deze knooppunten worden doorgaans aangegeven met een **1** in het veld **MinOccurs** .<br /><br /> Kies **Alles weergeven** om de weergave om te keren.|  
     |**Niet-geselecteerd verbergen**|Alleen knooppunten waarbij het selectievakje **Geselecteerd** is ingeschakeld, worden weergegeven.<br /><br /> Kies **Alles weergeven** om de weergave om te keren.|  
 
-5. Kies de actie **Bewerken**.  
+5. Kies de actie **Bewerken** .  
 
 6. Geef met het selectievakje **Geselecteerd** voor elk knooppunt aan of u wilt dat het element wordt ondersteund in de definitie voor gegevensuitwisseling voor het gerelateerde SEPA-bankbestand.  
 
@@ -97,11 +97,11 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
 
-2. Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen**.  
+2. Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen** .  
 
 3. Zorg dat de relevante knooppunten zijn geselecteerd. Zie het gedeelte 'Knooppunten selecteren of wissen in een XML-schema' voor meer informatie.  
 
-4. Kies op de pagina **XML-schemaviewer** de actie **Definitie voor gegevensuitwisseling genereren**.  
+4. Kies op de pagina **XML-schemaviewer** de actie **Definitie voor gegevensuitwisseling genereren** .  
 
  Op de pagina **Uitwisselingsdefinitie van boeking** wordt een definitie voor gegevensuitwisseling gemaakt die u kunt invullen om op te geven welke elementen in het bestand moeten worden toegewezen aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
 

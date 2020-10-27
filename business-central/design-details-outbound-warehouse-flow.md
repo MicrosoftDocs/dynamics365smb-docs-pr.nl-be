@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa12b250f404f149d790b0768560cad958c26d31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787433"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922079"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
 
@@ -113,7 +113,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 
 ### <a name="7-generate-pick-worksheet-lines"></a>7: Pickvoorstelregels genereren
 
- De gebruiker die verantwoordelijk is voor het coördineren van picks, haalt magazijnpickregels op in het **Pickvoorstel**, op basis van pickverzoeken van magazijnverzendingen of interne bewerkingen met materiaalverbruik. De gebruiker selecteert de te picken regels en bereidt de picks voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
+ De gebruiker die verantwoordelijk is voor het coördineren van picks, haalt magazijnpickregels op in het **Pickvoorstel** , op basis van pickverzoeken van magazijnverzendingen of interne bewerkingen met materiaalverbruik. De gebruiker selecteert de te picken regels en bereidt de picks voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
 
  De gebruiker geeft orderverzamelmethoden op voor optimaal gebruik van magazijnverwerking en gebruikt vervolgens een functie om de corresponderende magazijnpickdocumenten te maken, die zijn toegewezen aan andere magazijnmedewerkers die magazijnpicks uitvoeren. Wanneer de magazijnpicks volledig zijn toegewezen, worden de regels in het venster **Pickvoorstel** verwijderd.  
 

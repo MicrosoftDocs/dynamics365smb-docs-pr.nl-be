@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 69f07994b6aab5444dfeb2d0adb23945a72f2524
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 236325c45ccfb8f824341778c2ac06646a3957d3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785358"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921159"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
 
 Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een standaardbestand dat een bedrijfsdocument vertegenwoordigt, zoals een factuur van een leverancier die kan worden ontvangen en geconverteerd naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf.  
 
-Vanuit PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen kunt u een externe OCR-service (Optical Character Recognition; optische tekenherkenning) elektronische documenten laten maken die u vervolgens naar documentrecords kunt converteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals u doet voor elektronische PEPPOL-documenten. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Na enkele seconden krijgt u het bestand weer terug als elektronische factuur die kan worden geconverteerd naar een inkoopfactuur voor de leverancier. Als u het bestand per e-mail naar de OCR-service verzendt, wordt automatisch een nieuwe inkomende documentrecord gemaakt wanneer u het elektronische document terugkrijgt.  
+Vanuit PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen kunt u een externe OCR-service (Optical Character Recognition; optische tekenherkenning) elektronische documenten laten maken die u vervolgens naar documentrecords kunt converteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals u doet voor elektronische PEPPOL-documenten. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten** . Na enkele seconden krijgt u het bestand weer terug als elektronische factuur die kan worden geconverteerd naar een inkoopfactuur voor de leverancier. Als u het bestand per e-mail naar de OCR-service verzendt, wordt automatisch een nieuwe inkomende documentrecord gemaakt wanneer u het elektronische document terugkrijgt.  
 
 De indeling **PEPPOL** voor elektronische documenten is vooraf geconfigureerd zodat u elektronische facturen en creditnota's kunt verzenden in de PEPPOL-indeling. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, klanten, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens in velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geconverteerd naar elementen in het uitgaande documentbestand. Tot slot moet u de indeling op de pagina **Elektronische documentindeling** selecteren voor elke klant aan wie u elektronische PEPPOL-documenten stuurt. Zie [Elektronische documenten verzenden](sales-how-to-send-electronic-documents.md) voor meer informatie.  
 
@@ -80,7 +80,7 @@ Het onderwerp bevat de volgende procedures:
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
-    |**GTIN**|Identificeert het artikel met betrekking tot het verzenden en ontvangen van elektronische documenten. Voor de PEPPOL-indeling wordt het veld als volgt gebruikt:<br /><br /> Als voor het element **StandardItemIdentification\/ID** het kenmerk **SchemeID** is ingesteld op **GTIN**, wordt het element toegewezen aan het veld **GTIN** op de artikelkaart.|  
+    |**GTIN**|Identificeert het artikel met betrekking tot het verzenden en ontvangen van elektronische documenten. Voor de PEPPOL-indeling wordt het veld als volgt gebruikt:<br /><br /> Als voor het element **StandardItemIdentification\/ID** het kenmerk **SchemeID** is ingesteld op **GTIN** , wordt het element toegewezen aan het veld **GTIN** op de artikelkaart.|  
 
 ### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Eenheden instellen voor verzending en ontvangst van elektronische documenten
 
@@ -107,8 +107,8 @@ Het onderwerp bevat de volgende procedures:
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>De indeling PEPPOL selecteren voor de verzending van elektronische documenten  
 1. Voer in het vak **Zoeken** de tekst **Verzendprofielen document** in en kies de gerelateerde koppeling.  
 2. Open een bestaand verzendprofiel voor documenten, of maak een nieuw profiel. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
-3. Kies op de pagina **Verzendprofiel van document** de optie **Elektronische indeling**, selecteer de regel voor PEPPOL en klik op **OK**.  
-4. Selecteer in het veld **Elektronisch document** de optie **Ja (via service voor documentuitwisseling)**.  
+3. Kies op de pagina **Verzendprofiel van document** de optie **Elektronische indeling** , selecteer de regel voor PEPPOL en klik op **OK** .  
+4. Selecteer in het veld **Elektronisch document** de optie **Ja (via service voor documentuitwisseling)** .  
 
     > [!NOTE]  
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] detecteert automatisch of het document een factuur of creditnota is en kiest de bijbehorende PEPPOL-indeling.  
@@ -129,11 +129,11 @@ Het onderwerp bevat de volgende procedures:
 
 ### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>De gegevensuitwisselingsdefinitie PEPPOL - Factuur selecteren voor de ontvangst van elektronische documenten  
 1. Voer in het tekstvak **Zoeken** de tekst **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.  
-2. Op de regel voor het elektronische document dat u wilt ontvangen en converteren, kiest u het veld **Soort gegevensuitwisseling** en selecteert u vervolgens **PEPPOLINVOICE**.  
+2. Op de regel voor het elektronische document dat u wilt ontvangen en converteren, kiest u het veld **Soort gegevensuitwisseling** en selecteert u vervolgens **PEPPOLINVOICE** .  
 
-     Als het te ontvangen document een creditnota is, selecteert u **PEPPOLCREDITMEMO**.  
+     Als het te ontvangen document een creditnota is, selecteert u **PEPPOLCREDITMEMO** .  
 
-    U kunt het elektronische document nu ontvangen door het proces voor gegevensconversie te starten op de pagina **Inkomende documenten**. Zie voor meer informatie [Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    U kunt het elektronische document nu ontvangen door het proces voor gegevensconversie te starten op de pagina **Inkomende documenten** . Zie voor meer informatie [Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>De grootboekrekening instellen die moet worden gebruikt voor nieuwe inkoopfactuurregels voor niet-identificeerbare artikelen en niet-artikelen  
 1. Voer in het vak **Zoeken** de tekst **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.  
@@ -141,7 +141,7 @@ Het onderwerp bevat de volgende procedures:
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
-    |**Grootboekrekening voor niet-artikelregels**|Geeft de Grootboekrekening aan die automatisch wordt ingevoegd op inkoopregels die aan de hand van elektronische documenten worden gemaakt wanneer de inkomende documentregels geen identificeerbaar artikel bevatten. Elke inkomende documentregel die geen GTIN of artikelnummer van de leverancier heeft, wordt geconverteerd naar een inkoopregel van het soort **Grootboekrekening** en het veld **Nr.** op de inkoopregel bevat de rekening die u selecteert in het veld **Grootboekrekening voor niet-artikelregels**.<br /><br /> Als u niets invult in het veld **Grootboekrekening voor niet-artikelregels** en het inkomende document regels heeft zonder identificeerbare artikelen, wordt het inkoopdocument niet gemaakt. In een foutbericht krijgt u de instructie om het veld **Grootboekrekening voor niet-artikelregels** in te vullen voordat u de taak kunt voltooien.|  
+    |**Grootboekrekening voor niet-artikelregels**|Geeft de Grootboekrekening aan die automatisch wordt ingevoegd op inkoopregels die aan de hand van elektronische documenten worden gemaakt wanneer de inkomende documentregels geen identificeerbaar artikel bevatten. Elke inkomende documentregel die geen GTIN of artikelnummer van de leverancier heeft, wordt geconverteerd naar een inkoopregel van het soort **Grootboekrekening** en het veld **Nr.** op de inkoopregel bevat de rekening die u selecteert in het veld **Grootboekrekening voor niet-artikelregels** .<br /><br /> Als u niets invult in het veld **Grootboekrekening voor niet-artikelregels** en het inkomende document regels heeft zonder identificeerbare artikelen, wordt het inkoopdocument niet gemaakt. In een foutbericht krijgt u de instructie om het veld **Grootboekrekening voor niet-artikelregels** in te vullen voordat u de taak kunt voltooien.|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

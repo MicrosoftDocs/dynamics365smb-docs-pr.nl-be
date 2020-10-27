@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196555"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922404"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Problemen met synchronisatiefouten oplossen
 Er zijn veel factoren betrokken bij de integratie van [!INCLUDE[d365fin](includes/d365fin_md.md)] met Common Data Serviceen soms gaat het mis. In dit onderwerp worden enkele van de veel voorkomende fouten beschreven en worden enkele tips gegeven voor het oplossen van deze fouten.
@@ -29,7 +29,7 @@ Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden t
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
-Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaans de aandacht van een beheerder. U kunt deze fouten bekijken op de pagina **Synchronisatiefouten bij integratie**. Voorbeelden van enkele typische problemen zijn:  
+Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaans de aandacht van een beheerder. U kunt deze fouten bekijken op de pagina **Synchronisatiefouten bij integratie** . Voorbeelden van enkele typische problemen zijn:  
   
 * De machtigingen en rollen die aan gebruikers zijn toegewezen, zijn niet correct.  
 * Het beheerdersaccount is opgegeven als de integratiegebruiker.  
@@ -50,6 +50,9 @@ Het conflictfoutbericht 'Kan de klantrecord niet bijwerken omdat deze een latere
 Het conflict treedt op omdat de doelrecord ook is gewijzigd: het tijdstempel van de record is recenter dan het tijdstempel van Verkoopintegratierecord. De bestemmingscontrole vindt alleen plaats voor bidirectionele tabellen. 
 
 Deze records worden nu verplaatst naar de pagina 'Overgeslagen synchronisatierecords', die u opent vanaf de pagina Microsoft Dynamics-verbinding instellen in Business Central. Daar kunt u opgeven welke wijzigingen moeten worden bewaard en vervolgens de records opnieuw synchroniseren.
+
+## <a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
+Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. Op de pagina **Toewijzingen van integratietabellen** kunt u **Ontkoppeling** kiezen en dan **Koppeling verwijderen** . Als alternatief kunt u op de pagina **Synchronisatiefouten met gekoppelde gegevens** de fouten kiezen en vervolgens **Koppelingen verwijderen** kiezen. 
 
 ## <a name="see-also"></a>Zie ook
 [Integreren met Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6af01d93f378a7ea96d2ff8f693115804bdd167f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788962"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925959"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Verzendingen combineren op één factuur
 Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.  
@@ -24,13 +24,13 @@ Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen vo
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Verzendingen handmatig op één factuur combineren  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies de gerelateerde koppeling  
-2. Kies de actie **Nieuw**. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
+2. Kies de actie **Nieuw** . Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 3. Voer in het veld **Orderklantnr.** de klant in die de factuur voor de verzonden artikelen zal ontvangen.  
-4. Selecteer op het sneltabblad **Regels** de actie **Verzendregels ophalen**.  
+4. Selecteer op het sneltabblad **Regels** de actie **Verzendregels ophalen** .  
 5. Selecteer de verzendregels die u wilt opnemen in de factuur:  
 
-    - Als u alle regels wilt invoegen, selecteert u alle regels en klikt u op **OK**.  
-    - Als u specifieke regels wilt invoegen, selecteert u deze regels en klikt u op **OK**. Gebruik de Ctrl-toets om meerdere niet-aaneengesloten regels te selecteren.  
+    - Als u alle regels wilt invoegen, selecteert u alle regels en klikt u op **OK** .  
+    - Als u specifieke regels wilt invoegen, selecteert u deze regels en klikt u op **OK** . Gebruik de Ctrl-toets om meerdere niet-aaneengesloten regels te selecteren.  
 
     Als u de verkeerde verzendregel hebt geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de factuur verwijderen en de functie **Verzendregels ophalen** opnieuw uitvoeren.  
 7. Kies de actie **Boeken** om de factuur te boeken.  
@@ -40,8 +40,8 @@ Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen vo
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendingen combineren** in en kies de desbetreffende koppeling. De opvraagpagina voor de batchverwerking wordt geopend.  
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Kies het selectievakje **Facturen boeken**.  
-4. Kies de knop **OK**.  
+3. Kies het selectievakje **Facturen boeken** .  
+4. Kies de knop **OK** .  
 
 > [!NOTE]  
 >  U moet de facturen handmatig boeken als het selectievakje **Facturen boeken** niet was ingeschakeld bij de batchverwerking.  
@@ -53,7 +53,7 @@ Als u op deze manier verzendingen factureert, blijven de orders van waaruit de v
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde verkooporders verwijderen** in en selecteer de gerelateerde koppeling.  
 2. Geef in het filterveld **Nr.** op welke verkooporders moeten worden verwijderd.  
-3. Kies de knop **Ok**.  
+3. Kies de knop **Ok** .  
 
 U kunt afzonderlijke verkooporders ook handmatig verwijderen.  
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1bbdf84a85470aa3d34d34a06efc8efbacd3909
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926984"
 ---
 # <a name="setting-up-fixed-assets"></a>Vaste activa instellen
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
@@ -27,9 +27,9 @@ Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:
 De onderstaande tabel heeft koppelingen naar meer informatie. Als u deze zaken hebt ingesteld, kunt u verschillende activiteiten starten. Zie [Vaste activa](fa-manage.md) voor meer informatie.  
 
 > [!NOTE]  
->   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven.  
+>   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of **VA-dagboek** , afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven.  
 
-Als u een activiteit van een vast activum inschakelt in de sectie **Grootboekintegratie** op de pagina **Afschrijvingsboek**, wordt de pagina **Financieel dagboek voor vaste activa** gebruikt om transacties voor de activiteit te boeken.
+Als u een activiteit van een vast activum inschakelt in de sectie **Grootboekintegratie** op de pagina **Afschrijvingsboek** , wordt de pagina **Financieel dagboek voor vaste activa** gebruikt om transacties voor de activiteit te boeken.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 

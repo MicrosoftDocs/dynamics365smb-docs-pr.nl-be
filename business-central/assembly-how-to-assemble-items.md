@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 249565d7a351cc2064c5bc0daa16d96f30ce24b8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782255"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924515"
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
 Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.  
@@ -42,7 +42,7 @@ In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op 
 
 ## <a name="to-assemble-an-item"></a>Een item assembleren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblageorders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**. De pagina **Nieuwe assemblageorder** wordt geopend.  
+2.  Kies de actie **Nieuw** . De pagina **Nieuwe assemblageorder** wordt geopend.  
 3.  Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Artikelnr.** het assemblageartikel dat u wilt verwerken. Het veld is gefilterd, zodat alleen de artikelen die zijn ingesteld voor assemblage weergegeven worden, wat betekent dat ze een assemblagestuklijst toegewezen hebben gekregen.  
 5.  Voer in het veld **Aantal** het aantal eenheden in dat u van het artikel wilt assembleren.  
@@ -59,13 +59,13 @@ In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op 
 
     > [!NOTE]  
     >  Om ervoor te zorgen dat het boeken van het verbruik van onderdelen overeenkomt met het boeken van de output van het assemblageartikel, worden de velden met aantallen in de orderregels van de assemblageorder automatisch aangepast aan de waarde die u in het veld **Te assembleren aantal** invoert.  
-7.  Geef op orderregels van assemblageorders van het type **Item** of **Bron**, in het veld **Te verbruiken aantal**, het aantal eenheden op dat u als verbruikt wilt boeken, de volgende keer dat u de assemblageorder boekt.
-8.  Wanneer u gereed bent om gedeeltelijk of volledig te boeken, kiest u de actie **Boeken**.  
+7.  Geef op orderregels van assemblageorders van het type **Item** of **Bron** , in het veld **Te verbruiken aantal** , het aantal eenheden op dat u als verbruikt wilt boeken, de volgende keer dat u de assemblageorder boekt.
+8.  Wanneer u gereed bent om gedeeltelijk of volledig te boeken, kiest u de actie **Boeken** .  
 
     > [!NOTE]  
     >  Indien er in de regels van de assemblageorder nog steeds waarschuwingen aanwezig zijn, wordt de boeking geblokkeerd. Een bericht over welke onderdelen niet in voorraad zijn wordt weergegeven.  
 
-Nadat het boeken is voltooid, wordt het assemblageartikel als uitvoer geboekt naar de vestigingscode en mogelijke opslaglocatiecode die op de assemblageorder zijn gedefinieerd. De locatie voor handmatig gemaakte assemblageorders kan worden gekopieerd van de instelling **Standaard locatie voor Orders**. Voor assembleren-op-order kan de vestigingscode van de verkooporderregel worden gekopieerd.  
+Nadat het boeken is voltooid, wordt het assemblageartikel als uitvoer geboekt naar de vestigingscode en mogelijke opslaglocatiecode die op de assemblageorder zijn gedefinieerd. De locatie voor handmatig gemaakte assemblageorders kan worden gekopieerd van de instelling **Standaard locatie voor Orders** . Voor assembleren-op-order kan de vestigingscode van de verkooporderregel worden gekopieerd.  
 
 ## <a name="see-also"></a>Zie ook
 [Assemblagebeheer](assembly-assemble-items.md)  

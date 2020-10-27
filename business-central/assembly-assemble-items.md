@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03b80cc7dd0ae37ba06f453e07bf585a4728039d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782280"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968318"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
@@ -26,11 +26,11 @@ ms.locfileid: "3782280"
 
  Ter ondersteuning van een just-in-time voorraadstrategie en de mogelijkheid tot het aanpassen van producten op basis van klantaanvragen, kunnen assemblageorders zodra de verkooporderregel is gemaakt automatisch worden gemaakt en worden gekoppeld. De koppeling tussen de verkoopvraag en het assemblage-aanbod stelt de verkooporderverwerkers in staat om het assemblageartikel in een handomdraai aanpassen, om leveringsdatums af te spreken op basis van de beschikbaarheid van componenten en om de uitvoer en verzending van het geassembleerde artikel rechtstreeks vanuit hun verkooporderinterface te boeken. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
- U kunt op een verkooporderregel een beschikbaar aantal dat uit de voorraad moet worden gepickt, verkopen met een aantal dat op basis van de order moet worden geassembleerd. Er bestaan bepaalde regels voor het beheren van de distributie van dergelijke aantallen om ervoor te zorgen dat aantallen voor assemblage op basis van orders voorrang krijgen op voorraadaantallen die betrekking hebben op gedeeltelijke verzending. Zie voor meer informatie de sectie Combinatiescenario's in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).  
+ U kunt op een verkooporderregel een beschikbaar aantal dat uit de voorraad moet worden gepickt, verkopen met een aantal dat op basis van de order moet worden geassembleerd. Er bestaan bepaalde regels voor het beheren van de distributie van dergelijke aantallen om ervoor te zorgen dat aantallen voor assemblage op basis van orders voorrang krijgen op voorraadaantallen die betrekking hebben op gedeeltelijke verzending. Zie voor meer informatie de sectie 'Combinatiescenario's' in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
  Er bestaan speciale functies voor het beheren van aantallen voor assemblage op basis van orders. Wanneer een aantal voor assembleren op basis van orders klaar is om te worden verzonden, boekt de magazijnmedewerker die verantwoordelijk is voor een voorraadpick de verkooporderregel(s) in kwestie. Dit leidt vervolgens tot het maken van een voorraadverplaatsing voor de componenten, tot het boeken van de assemblage-uitvoer en tot de verkooporderverzending. Zie voor meer informatie de sectie 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.   
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -48,10 +48,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
+[Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
+[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)  
+[Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
