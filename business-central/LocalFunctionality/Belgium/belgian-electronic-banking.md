@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c8a5646cf09a3b2bcf0408ab6421ea941af7bba6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8c4cc3c960264cfc3a08c339cdcef93d8c9a29c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916531"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747528"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
 Met elektronisch bankieren kunt u elektronisch gegevens uitwisselen met Belgische financiële instellingen, op diskette of via de Interbanks Standards Association Belgium (Isabel). Dit versnelt de verwerkingstijd en helpt fouten voorkomen als gevolg van handmatige gegevensinvoer of -verwerking.  
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronisch bankieren gebruiken om de volgende functies uit te voeren:  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronisch bankieren gebruiken om de volgende functies uit te voeren:  
 
 - Elektronische betalingen verzenden.  
 - Bankafschriften met CODA verwerken.  

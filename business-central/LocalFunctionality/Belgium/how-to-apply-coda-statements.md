@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2479fc9553d2626fccef33996106d8f2a7154173
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3fc48f463791daea20f145e1b102fb17da25d91
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916509"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749729"
 ---
 # <a name="apply-coda-statements"></a>CODA-afschriften vereffenen
 Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina **Bankrekeningkaart**. De vereffeningsstatus is op elke regel leeg omdat de afschriftbedragen niet zijn vereffend met openstaande posten.  
@@ -35,7 +35,7 @@ Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Rekeningnr.**|Voer het nummer van de grootboekrekening, de bank, de klant, de leverancier of een vast activum in waaraan de afschriftregel van de bankrekening is gekoppeld.|  
-    |**Beschrijving**|In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] wordt automatisch de omschrijving van het geïmporteerde CODA-bestand opgehaald, maar u kunt de inhoud van dit veld wijzigen.|  
+    |**Beschrijving**|In [!INCLUDE[prod_short](../../includes/prod_short.md)] wordt automatisch de omschrijving van het geïmporteerde CODA-bestand opgehaald, maar u kunt de inhoud van dit veld wijzigen.|  
 
 5.  Kies de knop **OK**.  
 

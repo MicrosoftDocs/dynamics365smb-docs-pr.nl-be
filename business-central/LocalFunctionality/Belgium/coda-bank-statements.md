@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc419ed95115c164c495d97ba27d036fde6f2bb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d34efc6b544fe5fe7d8a2caba8e03f49320e8bfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914021"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749735"
 ---
 # <a name="coda-bank-statements"></a>CODA-bankafschriften
 CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, waarmee elektronische bankafschriften automatisch kunnen worden verwerkt.  
 
-Aan elke soort transactie in een CODA-afschrift wordt een unieke code toegewezen. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gebruikt deze code om transacties te interpreteren en deze te vereffenen met de betreffende posten.  
+Aan elke soort transactie in een CODA-afschrift wordt een unieke code toegewezen. [!INCLUDE[prod_short](../../includes/prod_short.md)] gebruikt deze code om transacties te interpreteren en deze te vereffenen met de betreffende posten.  
 
 ## <a name="applying-statement-lines"></a>Afschriftregels vereffenen  
 Wanneer u een CODA-afschrift hebt geïmporteerd, kunt u de afschriftregels vereffenen met bestaande posten, op basis van de gegevens in de tabel **Transactiecodering**.  
 
-Als de transactiecodering van de afschriftregel niet wordt gevonden, stopt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] met de verwerking en wordt doorgegaan naar de volgende afschriftregel. Als u het veld **Standaardboeking** selecteert, wordt de afschriftregel als standaardboeking gebruikt.  
+Als de transactiecodering van de afschriftregel niet wordt gevonden, stopt [!INCLUDE[prod_short](../../includes/prod_short.md)] met de verwerking en wordt doorgegaan naar de volgende afschriftregel. Als u het veld **Standaardboeking** selecteert, wordt de afschriftregel als standaardboeking gebruikt.  
 
 Als de transactiecodering van de afschriftregel wordt gevonden, worden de afschriftregels vergeleken met de volgende rekeningsoorten en bijbehorende rekeningnummers:  
 
@@ -41,7 +41,7 @@ Als de transactiecodering van de afschriftregel wordt gevonden, worden de afschr
 
     - Als het bankrekeningnummer wordt gebruikt om de klant of leverancier te zoeken, wordt een bijbehorende post gevonden op basis van het bedrag van de afschriftregel. Als het bedrag wordt gevonden, wordt de afschriftregel vergeleken met de bijbehorende post en wordt de vereffeningsstatus ingesteld op **Vereffend**.  
 
-    - Als het bankrekeningnummer niet kan worden gebruikt om de klant of leverancier te zoeken, wordt in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gestopt met de verwerking of wordt de huidige regel als standaardboeking gebruikt, voordat wordt doorgegaan met de volgende afschriftregel.  
+    - Als het bankrekeningnummer niet kan worden gebruikt om de klant of leverancier te zoeken, wordt in [!INCLUDE[prod_short](../../includes/prod_short.md)] gestopt met de verwerking of wordt de huidige regel als standaardboeking gebruikt, voordat wordt doorgegaan met de volgende afschriftregel.  
 
 U kunt het proces zo vaak uitvoeren als u wilt. Alleen afschriftregels met een lege vereffeningsstatus worden vereffend.  
 

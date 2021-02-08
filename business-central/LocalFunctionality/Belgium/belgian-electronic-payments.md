@@ -7,29 +7,29 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2274fcc59c291a6888f748f1ae85706885dd076e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 764ee7123d981d59077f9b3ca2083320d68c9509
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914027"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747525"
 ---
 # <a name="belgian-electronic-payments"></a>Belgische elektronische betalingen
-In de module voor elektronisch bankieren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.  
+In de module voor elektronisch bankieren in [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.  
 
 |Elektronische betaling|Description|  
 |------------------------|---------------------------------------|  
-|Binnenlands|Deze betalingen worden uitgevoerd in de lokale valuta (LV) en worden verwerkt door een lokale financiële instelling voor begunstigden die rekeningen hebben bij een lokale financiële instelling. De geldigheid van de bankrekeningnummers wordt door [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gecontroleerd.|  
-|Internationaal|Deze betalingen worden uitgevoerd in een vreemde valuta of de lokale valuta (LV) en worden verwerkt door een lokale financiële instelling voor begunstigden die rekeningen hebben bij een buitenlandse financiële instelling. De geldigheid van de bankrekeningnummers wordt niet door [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gecontroleerd.|  
-|SEPA|Deze betalingen worden uitgevoerd in euro's en verwerkt in landen/regio's waar SEPA-betalingen zijn toegestaan. De geldigheid van de bankrekeningnummers wordt door [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gecontroleerd.|  
-|SEPA-betalingen in andere valuta's|Deze betalingen worden uitgevoerd in andere valuta's dan de euro en naar een land of regio buiten de EEA (European Economic Association). De geldigheid van de bankrekeningnummers wordt door [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gecontroleerd.|  
+|Binnenlands|Deze betalingen worden uitgevoerd in de lokale valuta (LV) en worden verwerkt door een lokale financiële instelling voor begunstigden die rekeningen hebben bij een lokale financiële instelling. De geldigheid van de bankrekeningnummers wordt door [!INCLUDE[prod_short](../../includes/prod_short.md)] gecontroleerd.|  
+|Internationaal|Deze betalingen worden uitgevoerd in een vreemde valuta of de lokale valuta (LV) en worden verwerkt door een lokale financiële instelling voor begunstigden die rekeningen hebben bij een buitenlandse financiële instelling. De geldigheid van de bankrekeningnummers wordt niet door [!INCLUDE[prod_short](../../includes/prod_short.md)] gecontroleerd.|  
+|SEPA|Deze betalingen worden uitgevoerd in euro's en verwerkt in landen/regio's waar SEPA-betalingen zijn toegestaan. De geldigheid van de bankrekeningnummers wordt door [!INCLUDE[prod_short](../../includes/prod_short.md)] gecontroleerd.|  
+|SEPA-betalingen in andere valuta's|Deze betalingen worden uitgevoerd in andere valuta's dan de euro en naar een land of regio buiten de EEA (European Economic Association). De geldigheid van de bankrekeningnummers wordt door [!INCLUDE[prod_short](../../includes/prod_short.md)] gecontroleerd.|  
 
- Omdat de standaard voor elektronische betalingen per land/regio verschilt, kunnen elektronische betalingen gemaakt in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] alleen worden verwerkt door financiële instellingen in België. Voor internationale betalingen moeten de lokale financiële instellingen de betaling verwerken met de buitenlandse instellingen.  
+ Omdat de standaard voor elektronische betalingen per land/regio verschilt, kunnen elektronische betalingen gemaakt in [!INCLUDE[prod_short](../../includes/prod_short.md)] alleen worden verwerkt door financiële instellingen in België. Voor internationale betalingen moeten de lokale financiële instellingen de betaling verwerken met de buitenlandse instellingen.  
 
 > [!NOTE]  
 >  Creditnota's kunnen niet afzonderlijk worden verwerkt omdat betalingen geen negatief saldo mogen hebben. Als u een creditnota wilt verwerken, moet u deze aan een of meer facturen toevoegen door betalingen te totaliseren.  
 
-Voordat u een elektronische betaling kunt uitvoeren, moet u het gebruik van elektronisch bankieren instellen in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Voordat u een elektronische betaling kunt uitvoeren, moet u het gebruik van elektronisch bankieren instellen in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="correcting-payment-lines"></a>Betalingsregels corrigeren  
 U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. U kunt betalingsregels op de volgende manieren corrigeren.  

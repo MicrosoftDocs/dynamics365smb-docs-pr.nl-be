@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c0ca67dc6af3bd20f92bee9436e4c8d0fe04cf00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7becb5c9e04fe0f8f40c71fe74b635b96920edb7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916494"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749708"
 ---
 # <a name="import-coda-statements"></a>CODA-afschriften importeren
-Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).  
+Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## <a name="to-import-a-coda-statement"></a>Een CODA-afschrift importeren  
 
