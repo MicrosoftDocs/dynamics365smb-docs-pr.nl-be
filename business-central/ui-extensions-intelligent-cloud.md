@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2020
+ms.date: 12/04/2020
 ms.author: edupont
-ms.openlocfilehash: 2f16af0f87cae376fd1ed96b02cad3a64adc94cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c68596af28753cb9825d930e55beff4e3f72c2c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915097"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757204"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Extensie Intelligente cloud Basis
 
-Deze extensie begeleidt u door het proces om uw Intelligente cloud-omgeving te configureren en te beheren. Zodra uw Intelligente cloud-omgeving is geconfigureerd, kunt u gegevensreplicaties beheren van uw on-premises oplossing naar uw [!INCLUDE[prodshort](includes/prodshort.md)]-cloudtenant. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [Intelligente inzichten](about-intelligent-cloud.md).  
+Deze extensie leidt u door het proces om een verbinding te configureren tussen uw on-premises oplossing en uw [!INCLUDE [prod_short](includes/prod_short.md)] online-omgeving, hetzij omdat u naar de cloud migreert, of omdat u verbinding maakt met de Intelligente cloud vanuit uw lokale oplossing.  
+
+Zodra de verbinding is geconfigureerd, kunt u gegevens migreren of gegevensreplicaties beheren van uw lokale oplossing naar uw [!INCLUDE[prod_short](includes/prod_short.md)]-cloudtenant. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [De tool Cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Intelligente inzichten](about-intelligent-cloud.md)  
-[Extensie Gegevensreplicatie](ui-extensions-data-replication.md)  
+[Tool voor cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  

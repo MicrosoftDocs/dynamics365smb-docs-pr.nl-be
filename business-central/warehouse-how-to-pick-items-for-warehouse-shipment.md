@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dedd89dfceeb17994ccc18b359d2b02eb086cc60
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910067"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756196"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
 Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  
@@ -48,9 +48,9 @@ U kunt ook magazijn-pickdocumenten op push-wijze vanuit de pagina **Magazijnverz
 
     Indien voor het magazijn gestuurde opslag en pick is ingesteld, wordt de opslaglocatievolgorde gebruikt voor het berekenen van de beste opslaglocaties waaruit gepickt kan worden en deze opslaglocaties worden vervolgens voorgesteld op de pickregels. De instructies worden op twee afzonderlijke regels weergegeven, minimaal één voor elk soort actie, Nemen en Plaatsen.  
 
-4.  Als u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren** .  
+4.  Als u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
-De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, op de pagina **Mag. -verzending** . Zie [Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
+De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, op de pagina **Mag. -verzending**. Zie [Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
 
 Naast het picken voor brondocumenten zoals beschreven in dit onderwerp kunt u artikelen tussen opslaglocaties nemen en plaatsen zonder te verwijzen naar de brondocumenten. Zie voor meer informatie [Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -59,7 +59,7 @@ In scenario's voor het assembleren op order, wordt het veld **Te verzenden aanta
 
 Voor andere magazijnverzendingsregels is de waarde in het veld **Te verzenden aantal** nul vanaf het begin.
 
-Wanneer werknemers die verantwoordelijk zijn voor het assembleren klaar zijn met het assembleren van onderdelen of de volledige hoeveelheid voor op order assembleren, registreren ze dit in het veld **Te verzenden aantal** op de magazijnverzendingsregel en kiezen ze de actie **Verzending boeken** . Het resultaat is dat de bijbehorende assemblageuitvoer wordt geboekt, inclusief het materiaalverbruik. Een verkoopverzending voor de hoeveelheid wordt geboekt voor de verkooporder.
+Wanneer werknemers die verantwoordelijk zijn voor het assembleren klaar zijn met het assembleren van onderdelen of de volledige hoeveelheid voor op order assembleren, registreren ze dit in het veld **Te verzenden aantal** op de magazijnverzendingsregel en kiezen ze de actie **Verzending boeken**. Het resultaat is dat de bijbehorende assemblageuitvoer wordt geboekt, inclusief het materiaalverbruik. Een verkoopverzending voor de hoeveelheid wordt geboekt voor de verkooporder.
 
 Op de assemblageorder kunt u **Magazijnverzendregel op order assembleren** om toegang te krijgen tot de magazijnverzendregel. Dit is handig voor werknemers die gewoonlijk niet de pagina **Magazijnverzending** gebruiken.
 
@@ -79,4 +79,4 @@ Na het boeken van de magazijnverzending, worden verschillende velden op de order
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

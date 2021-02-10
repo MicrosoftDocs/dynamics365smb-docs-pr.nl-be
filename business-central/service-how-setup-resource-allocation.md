@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910342"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758004"
 ---
 # <a name="set-up-resource-allocation"></a>Resourcetoewijzing instellen
-Om ervoor te zorgen dat een servicetaak goed wordt uitgevoerd, is het belangrijk een resource te vinden die gekwalificeerd is om het werk uit te voeren. U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] zo instellen dat het eenvoudig is om iemand toe te wijzen die over de juiste bekwaamheden voor het project beschikt. In [!INCLUDE[d365fin](includes/d365fin_md.md)] noemen we dit _resourcetoewijzing_ . U kunt resources toewijzen op basis van hun vaardigheden, beschikbaarheid en locatie (of ze zich in dezelfde serviceregio als de klant bevinden). 
+Om ervoor te zorgen dat een servicetaak goed wordt uitgevoerd, is het belangrijk een resource te vinden die gekwalificeerd is om het werk uit te voeren. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] zo instellen dat het eenvoudig is om iemand toe te wijzen die over de juiste bekwaamheden voor het project beschikt. In [!INCLUDE[prod_short](includes/prod_short.md)] noemen we dit _resourcetoewijzing_. U kunt resources toewijzen op basis van hun vaardigheden, beschikbaarheid en locatie (of ze zich in dezelfde serviceregio als de klant bevinden). 
 
 U moet het volgende instellen om resourcetoewijzing te gebruiken:  
   
@@ -34,8 +34,8 @@ U moet het volgende instellen om resourcetoewijzing te gebruiken:
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** of **Resources** in en kies de desbetreffende koppeling.  
 2. Open de kaart voor het serviceartikel of de resource en kies een van de volgende opties:  
   
-    * Voor serviceartikelen kiest u **Resourcebekwaamheden** .  
-    * Voor resources kiest u **Bekwaamheden** .  
+    * Voor serviceartikelen kiest u **Resourcebekwaamheden**.  
+    * Voor resources kiest u **Bekwaamheden**.  
 
 ## <a name="to-set-up-zones"></a>Regio's instellen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Zones** in en kies de desbetreffende koppeling.  
@@ -45,11 +45,11 @@ U moet het volgende instellen om resourcetoewijzing te gebruiken:
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** of **Resources** in en kies de desbetreffende koppeling.  
 2. Open de kaart voor het serviceartikel of de resource en kies een van de volgende opties:  
   
-    * Voor klanten kiest u een regio in het veld **Serviceregiocode** .  
-    * Voor resources kiest u de actie **Serviceregio's** .  
+    * Voor klanten kiest u een regio in het veld **Serviceregiocode**.  
+    * Voor resources kiest u de actie **Serviceregio's**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Opgeven wat er moet worden weergegeven wanneer een resource is gekozen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Service-instellingen** in en kies de desbetreffende koppeling. 
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicebeheerinstellingen** in en kies de desbetreffende koppeling. 
 2. Kies in het veld **Optie resourcebekwaamheden** een van de opties die in de volgende tabel worden beschreven.  
   
     |**Optie**|**Beschrijving**|  
@@ -62,15 +62,15 @@ U moet het volgende instellen om resourcetoewijzing te gebruiken:
 U kunt de resourcecapaciteit desgewenst wijzigen.  
   
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourcecapaciteit** in en kies de desbetreffende koppeling.  
-2. Kies de resource en kies vervolgens de actie **Capaciteit instellen** .  
-3. Breng de wijzigingen aan en kies **Capaciteit bijwerken** .  
+2. Kies de resource en kies vervolgens de actie **Capaciteit instellen**.  
+3. Breng de wijzigingen aan en kies **Capaciteit bijwerken**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Bekwaamheden voor artikelen, serviceartikelen of serviceartikelgroepen bijwerken
-Wilt u de bekwaamheidscodes wijzigen die aan artikelen zijn toegewezen, bijvoorbeeld van **PC** in **STUKS** , dan kunt u dit voor een artikel, serviceartikel of alle items in een serviceartikelgroep doen.  
+Wilt u de bekwaamheidscodes wijzigen die aan artikelen zijn toegewezen, bijvoorbeeld van **PC** in **STUKS**, dan kunt u dit voor een artikel, serviceartikel of alle items in een serviceartikelgroep doen.  
   
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** of **Serviceartikelen** of **Serviceartikelgroep** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de entiteit die u wilt bijwerken en kies vervolgens de actie **Resourcebekwaamheden** .  
-3. Op de regel met de code die u wilt wijzigen, selecteert u de betreffende bekwaamheidscode in het veld **Bekwaamheidscode** .  
+2. Kies de entiteit die u wilt bijwerken en kies vervolgens de actie **Resourcebekwaamheden**.  
+3. Op de regel met de code die u wilt wijzigen, selecteert u de betreffende bekwaamheidscode in het veld **Bekwaamheidscode**.  
 4.  Als er serviceartikelen aan het artikel zijn gekoppeld, wordt er een dialoogvenster geopend met de volgende twee opties:  
   
     * De bekwaamheidscodes wijzigen in de geselecteerde waarde: selecteer deze optie als u de oude bekwaamheidscode voor alle gerelateerde serviceartikelen wilt vervangen door de nieuwe code.  

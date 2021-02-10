@@ -12,15 +12,15 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dced6a3ae539e795c9207acd7eb7873798e570ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 07c6e22e6bd9729fbf5ba436644834fbeba0d085
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923457"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757429"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>De extensie Tax-bestandsindelingen (DK)
-Als u zaken doet met andere bedrijven, of met eigen filialen of dochterondernemingen in andere EU-landen/regio's, moet u informatie over de activiteiten aan SKAT en Statistics Denmark doorgeven. Als u de rapportagefuncties voor btw en Intrastat gebruikt in [!INCLUDE[d365fin](includes/d365fin_md.md)], zorgt deze extensie ervoor dat het bestand dat u exporteert compatibel is met de vereisten van deze organisaties. De extensie voegt de indieningscodeunits van het rapportage-exportbestand MS-ECLS en van de Intrastat-exportregels toe aan de configuratie van uw btw-aangifte, zodat u de gegevens rechtstreeks in de nieuwe indeling kunt exporteren.
+Als u zaken doet met andere bedrijven, of met eigen filialen of dochterondernemingen in andere EU-landen/regio's, moet u informatie over de activiteiten aan SKAT en Statistics Denmark doorgeven. Als u de rapportagefuncties voor btw en Intrastat gebruikt in [!INCLUDE[prod_short](includes/prod_short.md)], zorgt deze extensie ervoor dat het bestand dat u exporteert compatibel is met de vereisten van deze organisaties. De extensie voegt de indieningscodeunits van het rapportage-exportbestand MS-ECLS en van de Intrastat-exportregels toe aan de configuratie van uw btw-aangifte, zodat u de gegevens rechtstreeks in de nieuwe indeling kunt exporteren.
 
 De extensie is gratis, u hoeft deze alleen maar te installeren.
 

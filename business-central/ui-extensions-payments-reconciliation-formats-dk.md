@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912333"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757504"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
 
@@ -51,17 +51,17 @@ Er zijn een aantal stappen vereist als u aan de slag wilt.
 * Geef de betalingswijze voor elke leverancier op. Betalingswijzen bepalen hoe u facturen van de leverancier betaalt. Bijvoorbeeld bank, contant, cheque of rekening.  
 * Geef het type indeling op dat voor elk van uw bankrekeningen moet worden gebruikt. Voorbeelden zijn NORDEA, DANSKEBANK, SDC enzovoort.  
 
-Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsgroep** en een **leveranciersboekingsgroep** . De instelling Land/regio voor de leverancier moet Denemarken (DK) zijn. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
+Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsgroep** en een **leveranciersboekingsgroep**. De instelling Land/regio voor de leverancier moet Denemarken (DK) zijn. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] toestaan betalingsgegevens te exproteren
+### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] toestaan betalingsgegevens te exproteren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies de desbetreffende koppeling.  
-2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank** .  
+2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  
 3. Schakel het selectievakje **Exporteren betaling toestaan** in.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Een betalingswijze voor een leverancier opgeven
 
-De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die door [!INCLUDE[d365fin](includes/d365fin_md.md)] worden ondersteund.
+De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die door [!INCLUDE[prod_short](includes/prod_short.md)] worden ondersteund.
 
 |Combinatie|Soort 01 | Soort 04 | Soort 71 | Soort 73 |
 |----|--------|---------|---------|---------|
@@ -87,24 +87,24 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 4. In het veld **Betalingsreferentie** voert u het nummer van 15 cijfers van de factuur van de leverancier in.  
 
     > [!Tip]
-    > U hoeft slechts de laatste 11 cijfers van het nummer toe te voegen. [!INCLUDE[d365fin](includes/d365fin_md.md)] voegt vier nullen aan het begin van het nummer toe.  
+    > U hoeft slechts de laatste 11 cijfers van het nummer toe te voegen. [!INCLUDE[prod_short](includes/prod_short.md)] voegt vier nullen aan het begin van het nummer toe.  
 
 5. Boek de factuur.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>De extensie gebruiken om betalingsgegevens te exporteren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Leveranciersbetalingsdagboeken voorstellen** .  
+2. Kies de actie **Leveranciersbetalingsdagboeken voorstellen**.  
 
     > [!Tip]
     > Als u alleen bepaalde betalingen wilt exporteren, gebruikt u de opties om de gegevens te filteren.  
 
 3. Indien nodig kunt u filters toevoegen als u alleen bepaalde betalingen wilt exporteren.  
-4. Selecteer **Elektronische betaling** in het veld **Betalingssoort** .  
-5. Kies de actie **Exporteren** .  
+4. Selecteer **Elektronische betaling** in het veld **Betalingssoort**.  
+5. Kies de actie **Exporteren**.  
 
 ## <a name="see-also"></a>Zie ook
 
-[Business Central aanpassen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] met extensies](ui-extensions.md)  
+[Business Central aanpassen voor [!INCLUDE[prod_short](includes/prod_short.md)] met extensies](ui-extensions.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  

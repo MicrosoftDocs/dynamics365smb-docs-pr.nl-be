@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915272"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757854"
 ---
 # <a name="planning-services"></a>Services plannen
-Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u de standaardtaken instellen die nodig zijn om te kunnen voldoen aan de vereisten van de klantenservice. Hiervoor moet u bepalen welke serviceartikelen en welk serviceaanbod uw serviceorganisatie ondersteunt en tegen welke prijs.   
+Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u de standaardtaken instellen die nodig zijn om te kunnen voldoen aan de vereisten van de klantenservice. Hiervoor moet u bepalen welke serviceartikelen en welk serviceaanbod uw serviceorganisatie ondersteunt en tegen welke prijs.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
   
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
   

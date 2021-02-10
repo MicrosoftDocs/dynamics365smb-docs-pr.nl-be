@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914922"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756705"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Pagina's zoeken met de Rolverkenner
 U kunt een overzicht krijgen van alle zakelijke functies die beschikbaar zijn voor uw rol en voor andere rollen als u nog een stap verder gaat. In de volgende documentatie wordt dit functieoverzicht de *Rolverkenner* genoemd.
 
-Elk element in de rolverkenner is een actie waarmee een pagina wordt geopend. Dienovereenkomstig kunt u de rolverkenner ook gebruiken als middel om te navigeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Elk element in de rolverkenner is een actie waarmee een pagina wordt geopend. Dienovereenkomstig kunt u de rolverkenner ook gebruiken als middel om te navigeren in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-U kunt de rolverkenner openen vanuit het Rolcentrum en alle lijstpagina's en vanuit het venster **Vertel me** .
+U kunt de rolverkenner openen vanuit het Rolcentrum en alle lijstpagina's en vanuit het venster **Vertel me**.
 
 - Kies in uw Rolcentrum of een willekeurige lijstpagina de knop ![Menu-knop](media/ui_menu_button.png "Menu-knop") rechts van de navigatiebalk of druk op Shift+F12.
 - Kies in het venster **Vertel me** de actie **Verkennen** onderaan.
@@ -32,7 +32,7 @@ Kies de actie **Zoeken** bovenaan de rolverkenner om snel functienamen te vinden
 Kies de actie **Alles verkennen** boven aan de rolverkenner om een overzicht te krijgen van alle bedrijfsfuncties die beschikbaar zijn voor alle rollen, inclusief de uwe.
 
 > [!NOTE]
-> Alleen Rolcentrumacties voor profielen waarvoor het selectievakje **Weergeven in Rolverkenner** is ingeschakeld, worden weergegeven in de uitgebreide versie van de rolverkenner (weergegeven met de actie **Alles verkennen** ). Zie [Profielen beheren](admin-users-profiles-roles.md) voor meer informatie.
+> Alleen Rolcentrumacties voor profielen waarvoor het selectievakje **Weergeven in Rolverkenner** is ingeschakeld, worden weergegeven in de uitgebreide versie van de rolverkenner (weergegeven met de actie **Alles verkennen**). Zie [Profielen beheren](admin-users-profiles-roles.md) voor meer informatie.
 
 ## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>Knooppunten in de rolverkenner uitvouwen/samenvouwen
 De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten die zijn genoemd naar de functies of toepassingsgebieden. Elk knooppunt kan afzonderlijk worden samengevouwen of uitgebreid en u kunt alle knooppunten samenvouwen/uitvouwen.
@@ -44,4 +44,4 @@ De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten 
 ## <a name="see-also"></a>Zie ook
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

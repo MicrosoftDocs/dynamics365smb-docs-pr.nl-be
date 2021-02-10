@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b405d883d42af98a95066fc9e918a69d9ce99e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f33ac3e581325eb714af67ee7040157a61e59fc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921504"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758879"
 ---
 # <a name="work-with-production-families"></a>Werken met productfamilies
 Een productfamilie is een verzameling afzonderlijke artikelen die vanwege een vergelijkbaar productieproces onderling gerelateerd zijn. Door de vorming van productfamilies kunnen sommige artikelen twee keer of vaker worden geproduceerd tijdens één verwerking, wat het materiaalverbruik optimaliseert.
@@ -34,7 +34,7 @@ Wanneer u productfamilies vormt, vermindert u de uitvalhoeveelheid. Wat bij de p
 ## <a name="to-produce-based-on-a-production-family"></a>Produceren op basis van een productfamilie
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.
 2. Maak een nieuwe productieorder. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).
-3. Selecteer in het veld **Brontype** de optie **Familie** .  
+3. Selecteer in het veld **Brontype** de optie **Familie**.  
 4. Selecteer de relevante productfamilie in het veld **Bronnr.**
 
 ## <a name="see-also"></a>Zie ook
@@ -44,4 +44,4 @@ Wanneer u productfamilies vormt, vermindert u de uitvalhoeveelheid. Wat bij de p
 [Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,25 +10,25 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915222"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757304"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente cloud-extensies voor cloudmigratie
 
-Afhankelijk van uw on-premises oplossing moet u verschillende extensies gebruiken om uw gegevens te verbinden met [!INCLUDE[prodshort](includes/prodshort.md)] online om uw oplossing naar de cloud te migreren.  
+Afhankelijk van uw on-premises oplossing moet u verschillende extensies gebruiken om uw gegevens te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)] online om uw oplossing naar de cloud te migreren.  
 
-Als u een van de ondersteunde on-premises producten gebruikt, kunt u uw cloudomgeving configureren op basis van een productspecifieke extensie. Zodra uw cloudomgeving is geconfigureerd, kunt u gegevens migreren van uw on-premises oplossing naar [!INCLUDE[prodshort](includes/prodshort.md)]. Zo kunt u optimaal gebruikmaken van wat de cloud uw bedrijf te bieden heeft, zoals verbeterde inzichten in uw bedrijf, kunstmatige intelligentie, toegang met meerdere apparaten en overal en altijd toegang.  
+Als u een van de ondersteunde on-premises producten gebruikt, kunt u uw cloudomgeving configureren op basis van een productspecifieke extensie. Zodra uw cloudomgeving is geconfigureerd, kunt u gegevens migreren van uw on-premises oplossing naar [!INCLUDE[prod_short](includes/prod_short.md)]. Zo kunt u optimaal gebruikmaken van wat de cloud uw bedrijf te bieden heeft, zoals verbeterde inzichten in uw bedrijf, kunstmatige intelligentie, toegang met meerdere apparaten en overal en altijd toegang.  
 
-Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prodshort](includes/prodshort.md)].  
+Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Business Central on-premises
 
-Als u een on-premises implementatie van [!INCLUDE[prodshort](includes/prodshort.md)] gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** en de extensie **Business Central Intelligente cloud** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
+Als u een on-premises implementatie van [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** en de extensie **Business Central Intelligente cloud** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 
@@ -39,7 +39,7 @@ Als u Dynamics GP gebruikt, verkrijgt u de **extensie Intelligente cloud Basis**
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** , de extensie **Microsoft Dynamics SL Intelligente cloud** en de extensie **Microsoft Dynamics SL-historie slimme lijsten** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
+Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis**, de extensie **Microsoft Dynamics SL Intelligente cloud** en de extensie **Microsoft Dynamics SL-historie slimme lijsten** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
 
 ## <a name="see-also"></a>Zie ook
 

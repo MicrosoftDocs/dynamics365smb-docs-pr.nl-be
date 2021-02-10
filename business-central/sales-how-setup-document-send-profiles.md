@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 424d497154e9fc8023ba38cbd22859c0874124ec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ec87cbf0885b392dc92bbd9a25fca81db38c5a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926034"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758154"
 ---
 # <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
 U kunt elke klant instellen met een voorkeursmethode voor de verzending van verkoopdocumenten, zodat u niet elke keer dat u de actie **Boeken en verzenden** kiest een verzendoptie hoeft te selecteren.
@@ -31,7 +31,7 @@ Wanneer u de actie **Boeken en verzenden** in een verkoopdocument kiest, wordt i
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendprofielen van document** in en kies de desbetreffende koppeling.
-2. Kies op de pagina **Verzendprofielen van documenten** de actie **Nieuw** .
+2. Kies op de pagina **Verzendprofielen van documenten** de actie **Nieuw**.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Een verzendprofiel op een klantenkaart opgeven
@@ -42,4 +42,4 @@ Wanneer u de actie **Boeken en verzenden** in een verkoopdocument kiest, wordt i
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

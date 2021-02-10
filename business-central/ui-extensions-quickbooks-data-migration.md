@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912283"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757129"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>De QuickBooks-extensie gegevensmigratie
 
-Met deze extensie kunt u gemakkelijk klanten, leveranciers, artikelen en accounts vanuit QuickBooks naar [!INCLUDE[d365fin](includes/d365fin_md.md)] migreren. Als uw bedrijf momenteel QuickBooks gebruikt, kunt u de relevante gegevens exporteren en vervolgens een begeleide instelling openen om de gegevens naar [!INCLUDE[d365fin](includes/d365fin_md.md)] te uploaden.  
+Met deze extensie kunt u gemakkelijk klanten, leveranciers, artikelen en accounts vanuit QuickBooks naar [!INCLUDE[prod_short](includes/prod_short.md)] migreren. Als uw bedrijf momenteel QuickBooks gebruikt, kunt u de relevante gegevens exporteren en vervolgens een begeleide instelling openen om de gegevens naar [!INCLUDE[prod_short](includes/prod_short.md)] te uploaden.  
 Zie [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md) voor meer informatie.
 
 ## <a name="data-from-quickbooks-desktop"></a>Gegevens vanuit QuickBooks Desktop
@@ -50,7 +50,7 @@ Een belangrijk deel van het migratieproces is de rekeningen opgeven waarnaar tra
 Business Central vereist dat aan grootboekrekeningen rekeningnummers zijn toegewezen. Zorg ervoor dat rekeningnummers zijn toegewezen aan uw rekeningen in QuickBooks.
 Als transacties in QuickBooks belastingbedragen hebben, moet u eerst een belastingrekening instellen voor uw belastingjurisdictie in Business Central, voordat u transacties kunt boeken.
 
-Als u de gegevens uit de QuickBooks Desktop-toepassing wilt ophalen, moet u de Microsoft-tool Data Exporter downloaden.  De instructies voor de tool bevinden zich in de wizard Gegevensmigratie in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Het hulpprogramma maakt verbinding met uw QuickBooks-toepassing en exporteert de toepasselijke gegevens naar een .zip-bestand.  
+Als u de gegevens uit de QuickBooks Desktop-toepassing wilt ophalen, moet u de Microsoft-tool Data Exporter downloaden.  De instructies voor de tool bevinden zich in de wizard Gegevensmigratie in [!INCLUDE[prod_short](includes/prod_short.md)]. Het hulpprogramma maakt verbinding met uw QuickBooks-toepassing en exporteert de toepasselijke gegevens naar een .zip-bestand.  
 
 > [!NOTE]
 > Momenteel werkt de tool Data Exporter alleen met QuickBooks 2017 en 2018.
@@ -69,4 +69,4 @@ Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks slaat h
 ## <a name="see-also"></a>Zie ook
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  

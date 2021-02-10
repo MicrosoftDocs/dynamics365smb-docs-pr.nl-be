@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918914"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758604"
 ---
 # <a name="date-calculation-for-purchases"></a>Datumberekening voor inkoop
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch de datum waarop u een artikel moet bestellen om het op een bepaalde datum in voorraad te hebben. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.  
+[!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch de datum waarop u een artikel moet bestellen om het op een bepaalde datum in voorraad te hebben. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.  
 
-Als u een aangevraagde ontvangstdatum opgeeft op een inkooporder is de berekende besteldatum de datum waarop de order moet worden geplaatst om de artikelen te ontvangen op de datum die u hebt aangevraagd. Vervolgens wordt de datum waarop de artikelen beschikbaar zijn om te worden gepickt berekend en ingevoerd in het veld **Verwachte ontvangstdatum** .  
+Als u een aangevraagde ontvangstdatum opgeeft op een inkooporder is de berekende besteldatum de datum waarop de order moet worden geplaatst om de artikelen te ontvangen op de datum die u hebt aangevraagd. Vervolgens wordt de datum waarop de artikelen beschikbaar zijn om te worden gepickt berekend en ingevoerd in het veld **Verwachte ontvangstdatum**.  
 
 Als u geen aangevraagde ontvangstdatum opgeeft, wordt automatisch de orderdatum op de regel gebruikt voor de berekening van de datum waarop de artikelen naar verwachting worden ontvangen en de datum waarop de artikelen beschikbaar zijn voor picken.  
 
@@ -50,7 +50,7 @@ Als u de orderdatum op de kop wijzigt, wordt deze datum automatisch gekopieerd n
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standaardwaarden voor levertijdtijdberekening
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de waarde van het veld **Levertermijnberek.** op de inkooporderregel om de order en de verwachte ontvangstdatums te berekenen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de waarde van het veld **Levertermijnberek.** op de inkooporderregel om de order en de verwachte ontvangstdatums te berekenen.  
 
 U kunt de waarde op de regel handmatig specificeren of het programma de waarden laten gebruiken die zijn gedefinieerd op de leverancierskaart, artikelkaart, SKU-kaart of de artikelleverancierscatalogus.
 De levertermijnwaarde op de leverancierskaart wordt echter alleen gebruikt als er geen doorlooptijd is opgegeven op de artikelkaart, de SKU-kaart of de artikelleverancierscatalogus voor het artikel. Dit is ook de escalerende volgorde van prioriteit voor deze waarden. Als ze allemaal worden verstrekt, heeft de levertermijn van de leverancierskaart de laagste prioriteit en heeft de levertermijn van de artikelleverancierscatalogus de hoogste prioriteit.  
@@ -59,4 +59,4 @@ De levertermijnwaarde op de leverancierskaart wordt echter alleen gebruikt als e
 
 [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)   
 [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

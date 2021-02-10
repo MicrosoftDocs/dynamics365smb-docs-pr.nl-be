@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df36e96ce30193344d8c8d92679c16ee9255e658
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8c3158874dc83d634ea09cac986820c615c3924d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918850"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758454"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Ontvangsten combineren op één factuur
 
@@ -31,8 +31,8 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 ## <a name="to-combine-receipts"></a>Ontvangsten combineren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** . Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
-3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen** .  
+2. Kies de actie **Nieuw**. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
+3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen**.  
 4. Selecteer meerdere ontvangstregels die u wilt opnemen in de factuur.  
 
     Als een onjuiste ontvangstregel is geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de inkoopfactuur gewoon verwijderen en vervolgens de functie **Ontvangstregels ophalen** opnieuw gebruiken.  
@@ -42,7 +42,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde inkooporders verwijderen** in en selecteer de desbetreffende koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Kies de knop **OK** .  
+3. Kies de knop **OK**.  
 
 U kunt de afzonderlijke orders ook handmatig verwijderen.
 
@@ -52,4 +52,4 @@ Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals inkoopraamcont
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

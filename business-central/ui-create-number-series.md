@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75a841fd2d6bf8321f15bb0a6fe88d41bf152308
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912658"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757629"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
@@ -26,16 +26,16 @@ Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als g
 Als u hiaten in bepaalde nummerreeksen wilt toestaan, raadpleegt u eerst uw auditor of boekhoudkundige manager om ervoor te zorgen dat u zich houdt aan de wettelijke vereisten in uw land/regio. Zie voor meer informatie [Hiaten in nummerreeksen](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
->   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[d365fin](includes/d365fin_md.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
+>   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[prod_short](includes/prod_short.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
 
 U maakt een nummeringssysteem door een of meer codes in te stellen voor elk soort hoofdgegevens of document. U kunt bijvoorbeeld een code instellen voor het nummeren van klanten, een andere code voor het nummeren van verkoopfacturen en weer een andere code voor het nummeren van documenten in algemene dagboeken. Nadat u een code hebt ingesteld, moet u minimaal één nummerreeksregel instellen. De nummerreeksregel bevat gegevens, zoals het eerste en laatste nummer in de reeks en de begindatum. U kunt meer dan één nummerreeksregel per nummerreekscode invoeren, met een andere begindatum voor elke regel. De reeks wordt opeenvolgend gebruikt, waarbij elke reeks wordt gestart op de betreffende begindatum.
 
-U configureert normaal gesproken de nummerreeks zodanig dat automatisch het eerstvolgende nummer wordt ingevoegd op nieuwe kaarten of documenten die u maakt. U kunt echter ook een nummerreeks instellen die toestaat dat u handmatig het nieuwe nummer invoert. U geeft dit aan met het selectievakje **Handm. nummering** .
+U configureert normaal gesproken de nummerreeks zodanig dat automatisch het eerstvolgende nummer wordt ingevoegd op nieuwe kaarten of documenten die u maakt. U kunt echter ook een nummerreeks instellen die toestaat dat u handmatig het nieuwe nummer invoert. U geeft dit aan met het selectievakje **Handm. nummering**.
 
 Als u meer dan één nummerreekscode wilt gebruiken voor één soort hoofdgegevens (als u bijvoorbeeld verschillende nummerreeksen voor verschillende artikelcategorieën wilt gebruiken), kunt u relaties tussen nummerreeksen gebruiken.
 
 ## <a name="gaps-in-number-series"></a>Hiaten in nummerreeksen
-Niet alle records die u maakt in [!INCLUDE[d365fin](includes/d365fin_md.md)], zijn financiële transacties die opeenvolgende nummering moeten gebruiken. Klantenkaarten, verkoopoffertes en magazijnactiviteiten zijn voorbeelden van records waaraan een nummer uit een nummerreeks wordt toegewezen, maar die niet worden onderworpen aan financiële controle en/of kunnen worden verwijderd. Voor dergelijke nummerreeksen kunt u het selectievakje **Lacunes in nummers toestaan** inschakelen op de pagina **Nr.-reeksregels** . Deze instelling kan ook worden gewijzigd nadat de nummerreeks is gemaakt. Zie [Een nieuwe nummerreeks maken](ui-create-number-series.md#to-create-a-new-number-series) voor meer informatie.
+Niet alle records die u maakt in [!INCLUDE[prod_short](includes/prod_short.md)], zijn financiële transacties die opeenvolgende nummering moeten gebruiken. Klantenkaarten, verkoopoffertes en magazijnactiviteiten zijn voorbeelden van records waaraan een nummer uit een nummerreeks wordt toegewezen, maar die niet worden onderworpen aan financiële controle en/of kunnen worden verwijderd. Voor dergelijke nummerreeksen kunt u het selectievakje **Lacunes in nummers toestaan** inschakelen op de pagina **Nr.-reeksregels**. Deze instelling kan ook worden gewijzigd nadat de nummerreeks is gemaakt. Zie [Een nieuwe nummerreeks maken](ui-create-number-series.md#to-create-a-new-number-series) voor meer informatie.
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Werking van het veld Nr. in documenten en kaarten
 In verkoop-, inkoop-, en transferdocumenten en op alle kaarten kan het veld **Nr.** automatisch vanuit een nummerreeks of handmatig worden ingevuld en kan het onzichtbaar worden gemaakt.
@@ -45,7 +45,7 @@ Het veld **Nr.** kan op drie manieren worden gevuld:
 1. Als er slechts één nummerreeks voor het soort document of kaart bestaat waarbij het veld **Autom. nummering** is ingeschakeld en het veld **Handm. nummering** niet is ingeschakeld, wordt het veld automatisch gevuld met het volgende nummer in de reeks en is het veld **Nr.** niet zichtbaar.
 
     > [!NOTE]  
-    > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen op de pagina **Nr.-reeks** .
+    > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen op de pagina **Nr.-reeks**.
 
 2. Als er meer dan één nummerreeks voor het soort document of kaart bestaat en het selectievakje **Autom. nummering** niet is ingeschakeld voor de nummerreeks die momenteel is toegewezen, is het veld **Nr.** zichtbaar en kunt u opzoeken naar de pagina **Nr.-reeks** en de nummerreeks selecteren die u wilt gebruiken. Het volgende nummer in de reeks wordt dan ingevoegd in het **Nr.** veld.
 
@@ -54,13 +54,13 @@ Het veld **Nr.** kan op drie manieren worden gevuld:
 Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, wordt de relevante pagina **Instelling nummerreeks** geopend, zodat u een nummerreeks kunt instellen voor dat type document of kaart voordat u doorgaat met verdere gegevensinvoer.
 
 > [!NOTE]  
-> Als u handmatige nummering moet inschakelen op, bijvoorbeeld, nieuwe artikelkaarten die zijn gemaakt met een gegevensmigratieproces, waarop het **Nr.** standaard is verborgen, gaat u naar de pagina **Voorraadinstellingen** en kiest u het veld **Artikelnrs.** om de gerelateerde nummerreeks te openen en in te stellen op **Handm. nummering** .
+> Als u handmatige nummering moet inschakelen op, bijvoorbeeld, nieuwe artikelkaarten die zijn gemaakt met een gegevensmigratieproces, waarop het **Nr.** standaard is verborgen, gaat u naar de pagina **Voorraadinstellingen** en kiest u het veld **Artikelnrs.** om de gerelateerde nummerreeks te openen en in te stellen op **Handm. nummering**.
 
 ## <a name="to-create-a-new-number-series"></a>Een nieuwe nummerreeks maken
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeks** in en kies de desbetreffende koppeling.
-2. Kies de actie **Nieuw** .
+2. Kies de actie **Nieuw**.
 3. Vul op de nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de actie **Regels** .
+4. Kies de actie **Regels**.
 5. Vul op de pagina **Nr.-reeksregels** de velden in om het daadwerkelijke gebruik en de inhoud van de nummerreeks die u in stap 2 hebt gemaakt, te definiëren.
 6. Herhaal stap 5 voor zo veel verschillende toepassingen van de nummerreeks die u nodig hebt. Het veld **Begindatum** definieert welke nummerreeksregel actief is.
 
@@ -75,7 +75,7 @@ Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of he
 Als u meerdere nummerreekscodes hebt ingesteld voor hetzelfde soort basisgegevens of transacties, kunt u relaties tussen de codes instellen. Met deze functie kunt u een code kiezen wanneer u een nummer gebruikt.
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeks** in en kies de desbetreffende koppeling.
-2. Selecteer de regel met de nummerreeks waarvoor u relaties wilt instellen en kies vervolgens **Relaties** .
+2. Selecteer de regel met de nummerreeks waarvoor u relaties wilt instellen en kies vervolgens **Relaties**.
 3. Geef in het veld **Reeks** de code op voor de nummerreeks die u wilt koppelen aan de reeks die u in stap 2 hebt geselecteerd.
 4. Voeg een regel toe voor elke code die u wilt koppelen aan de geselecteerde nummerreeksen.
 5. Sluit de pagina.
@@ -85,5 +85,5 @@ Wanneer u nu iets instelt waarvoor u een nummer nodig hebt, kunt u de relaties g
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
-[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

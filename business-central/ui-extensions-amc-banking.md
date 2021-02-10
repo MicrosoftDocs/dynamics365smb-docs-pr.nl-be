@@ -10,23 +10,23 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912408"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757579"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals gebruiken
-Met de extensie AMC Banking 365 Fundamentals kunt u eenvoudiger en nauwkeuriger gegevens naar uw banken verzenden. De extensie verbindt [!INCLUDE[d365fin](includes/d365fin_md.md)] met de service AMC Banking 365 Fundamentals voor Microsoft Dynamics 365 Business Central. Hiermee kunnen bankgegevens worden geconverteerd van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar indelingen die worden gebruikt door meer dan 600 banken over de hele wereld. Dit maakt het bijvoorbeeld gemakkelijker om betalingen en tegoeden over te dragen aan leveranciers door de betalingen in te voeren in [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens te uploaden naar uw bank. De indelingen kunnen ook bankafstemmingsprocessen vereenvoudigen. Zie voor meer informatie [AMC Banking voor Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+Met de extensie AMC Banking 365 Fundamentals kunt u eenvoudiger en nauwkeuriger gegevens naar uw banken verzenden. De extensie verbindt [!INCLUDE[prod_short](includes/prod_short.md)] met de service AMC Banking 365 Fundamentals voor Microsoft Dynamics 365 Business Central. Hiermee kunnen bankgegevens worden geconverteerd van [!INCLUDE[prod_short](includes/prod_short.md)] naar indelingen die worden gebruikt door meer dan 600 banken over de hele wereld. Dit maakt het bijvoorbeeld gemakkelijker om betalingen en tegoeden over te dragen aan leveranciers door de betalingen in te voeren in [!INCLUDE[prod_short](includes/prod_short.md)] en vervolgens te uploaden naar uw bank. De indelingen kunnen ook bankafstemmingsprocessen vereenvoudigen. Zie voor meer informatie [AMC Banking voor Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
-> AMC Banking heeft extra extensies gebouwd die werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]. In dit onderwerp wordt alleen de Fundamentals-extensie beschreven.
+> AMC Banking heeft extra extensies gebouwd die werken met [!INCLUDE[prod_short](includes/prod_short.md)]. In dit onderwerp wordt alleen de Fundamentals-extensie beschreven.
 
 ## <a name="using-our-demonstration-account"></a>Ons demonstratieaccount gebruiken
-[!INCLUDE[d365fin](includes/d365fin_md.md)] wordt geleverd met een demonstratieaccount waarmee u de extensie AMC Banking 365 Fundamentals kunt uitproberen. We bieden standaardinstellingen om verbinding te maken met AMC Banking, met vermelding van de bankrekeningen waarvan gegevens kunnen worden opgehaald naar [!INCLUDE[d365fin](includes/d365fin_md.md)], plus enkele definities van gegevensuitwisseling. U kunt de verbindingsinstellingen bekijken op de pagina **AMC Banking instellen** . Voor bankrekeningen voert de extensie waarden in in de velden **Banknaam** , **Berichtnummers krediettransfer** , **Importindeling van bankafschrift** en **Exportindeling betaling** op bankrekeningkaarten.
+[!INCLUDE[prod_short](includes/prod_short.md)] wordt geleverd met een demonstratieaccount waarmee u de extensie AMC Banking 365 Fundamentals kunt uitproberen. We bieden standaardinstellingen om verbinding te maken met AMC Banking, met vermelding van de bankrekeningen waarvan gegevens kunnen worden opgehaald naar [!INCLUDE[prod_short](includes/prod_short.md)], plus enkele definities van gegevensuitwisseling. U kunt de verbindingsinstellingen bekijken op de pagina **AMC Banking instellen**. Voor bankrekeningen voert de extensie waarden in in de velden **Banknaam**, **Berichtnummers krediettransfer**, **Importindeling van bankafschrift** en **Exportindeling betaling** op bankrekeningkaarten.
 
-Wij verstrekken de instellingen, maar om de extensie uit te proberen, moet u de gids van de begeleide instelling uitvoeren om ze toe te passen. Om de gids uit te voeren, kiest u op de pagina **AMC Banking instellen** de actie **Begeleide instelling** .
+Wij verstrekken de instellingen, maar om de extensie uit te proberen, moet u de gids van de begeleide instelling uitvoeren om ze toe te passen. Om de gids uit te voeren, kiest u op de pagina **AMC Banking instellen** de actie **Begeleide instelling**.
 
 > [!Note]
 > Het demo-account heeft een aantal beperkingen. Wanneer u bijvoorbeeld betalingen converteert, komt het bedrag in het geconverteerde bestand niet overeen met het werkelijke bedrag. In plaats daarvan bestaat het bedrag altijd uit vijf eenheden van de valuta die u gebruikt voor betalingen.  
@@ -44,12 +44,12 @@ Voordat iemand deze extensie kan gebruiken, moet uw beheerder de volgende machti
 
 Zie voor meer informatie [Een machtigingenset kopiëren](ui-define-granular-permissions.md#to-copy-a-permission-set).
 
-Geef voor elke nieuwe machtigingenset alleen de machtiging **Lezen** voor de **AMC Banking-instellingentabel (20101)** . Zie voor meer informatie [Machtigingen handmatig maken of wijzigen](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+Geef voor elke nieuwe machtigingenset alleen de machtiging **Lezen** voor de **AMC Banking-instellingentabel (20101)**. Zie voor meer informatie [Machtigingen handmatig maken of wijzigen](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>De extensie verbinden met AMC Banking
 1. Verkrijg een module en een serviceplan voor AMC Banking. Ga daarvoor naar de pagina [AMC-licentie](https://license.amcbanking.com/register).
-2. Kies in [!INCLUDE[d365fin](includes/d365fin_md.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **AMC Banking instellen** in en kies de gerelateerde koppeling.  
-3. Kies op de pagina **AMC Banking instellen** de actie **Begeleide instelling** .
+2. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **AMC Banking instellen** in en kies de gerelateerde koppeling.  
+3. Kies op de pagina **AMC Banking instellen** de actie **Begeleide instelling**.
 4. Voer de stappen uit in het handleiding met begeleide instellingen.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>De bankrekeningen verbinden met de extensie
@@ -76,14 +76,14 @@ Het gebruik van deze extensie is een kwestie van gegevens exporteren naar de pag
 
    > [!Note]
    > Denk eraan dat u voor elke regel de optie **Elektronische betaling** in het veld **Betalingssoort** kiest.
-3. Kies de actie **Exporteren** .
+3. Kies de actie **Exporteren**.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>Het geconverteerde bestand importeren en toepassen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboek** in en kies de gerelateerde koppeling.
 2. Kies de actie **Banktransactie importeren** en kies vervolgens het geconverteerde bestand.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt een nieuw betalingsreconciliatiedagboek dat gegevens uit het bestand bevat. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] maakt een nieuw betalingsreconciliatiedagboek dat gegevens uit het bestand bevat. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Aan de slag](product-get-started.md)

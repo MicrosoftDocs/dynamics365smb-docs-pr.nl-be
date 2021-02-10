@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914822"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756429"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedure: Vooruitbetalingen verkoop instellen en factureren
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U kunt een aanbetaling vragen voordat u bestelde artikelen fabriceert, of u kunt een betaling vragen voordat u artikelen naar een klant verzendt. Met de vooruitbetalingsfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.  
+Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U kunt een aanbetaling vragen voordat u bestelde artikelen fabriceert, of u kunt een betaling vragen voordat u artikelen naar een klant verzendt. Met de vooruitbetalingsfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.  
 
  Vooruitbetalingsvereisten kunnen worden gedefinieerd voor een klant of leverancier, voor alle artikelen of bepaalde artikelen. Nadat u de benodigde instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders voor het berekende vooruitbetalingsbedrag. U kunt indien nodig de standaardbedragen op de facturen wijzigen. U kunt bijvoorbeeld tevens aanvullende vooruitbetalingsfacturen versturen, als er extra artikelen worden toegevoegd aan de order.  
 
@@ -43,7 +43,7 @@ Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een ve
 -   Administratie vorderingen (Arnie)  
 
 ## <a name="story"></a>Scenario  
- Phyllis is administrateur. Ze is administrateur en bepaalt welke klanten een aanbetaling moeten doen voordat artikelen worden gefabriceerd of verzonden. Phyllis stelt [!INCLUDE[d365fin](includes/d365fin_md.md)] in op het automatisch berekenen van vooruitbetalingen.  
+ Phyllis is administrateur. Ze is administrateur en bepaalt welke klanten een aanbetaling moeten doen voordat artikelen worden gefabriceerd of verzonden. Phyllis stelt [!INCLUDE[prod_short](includes/prod_short.md)] in op het automatisch berekenen van vooruitbetalingen.  
 
  Susan is verkooporderverwerker. Als een klant belt om een order te plaatsen, voert ze de order in het systeem in terwijl ze de klant aan de telefoon heeft. Op deze manier kan ze prijzen en betalingsvoorwaarden meteen met de klant controleren en ze kan de order aanpassen terwijl ze met de klant onderhandelt.  
 
@@ -69,7 +69,7 @@ In de volgende procedures wordt beschreven hoe de taken van Phyllis worden uitge
 #### <a name="to-set-up-number-series-for-prepayments"></a>Nummerreeks voor vooruitbetalingen instellen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.  
 2.  Vouw op de pagina **Verkoopinstellingen** het sneltabblad **Nummering** uit.  
-3.  Controleer of de nummerreeks voor geboekte vooruitbetalingsfacturen in het veld **Geboekte vooruitbetalingsfactuurnrs.** overeenkomt met de reeks voor geboekte verkoopfacturen ( **Factuurnrs. (Geboekt)** ) en of de nummerreeks voor geboekte vooruitbetalingscreditnota's ( **Geboekte vooruitbetalingscreditnotanrs.** ) overeenkomt met de reeks voor geboekte creditnota's ( **Creditnotanrs. (Geboekt)** ).  
+3.  Controleer of de nummerreeks voor geboekte vooruitbetalingsfacturen in het veld **Geboekte vooruitbetalingsfactuurnrs.** overeenkomt met de reeks voor geboekte verkoopfacturen (**Factuurnrs. (Geboekt)**) en of de nummerreeks voor geboekte vooruitbetalingscreditnota's (**Geboekte vooruitbetalingscreditnotanrs.**) overeenkomt met de reeks voor geboekte creditnota's (**Creditnotanrs. (Geboekt)**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Verzendingen blokkeren voor niet voldane vooruitbetalingen  
 1.  Schakel op de pagina **Verkoopinstellingen** op het sneltabblad **Algemeen** het selectievakje **Vooruitbetaling controleren bij boeken** in.
@@ -83,11 +83,11 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Standaardpercentages voorvooruitbetaling toewijzen aan klanten en artikelen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
 2.  Open de kaart voor klant 20000 (Selangorian)
-3.  Typ **30** in het veld **Vooruitbetaling %** .  
+3.  Typ **30** in het veld **Vooruitbetaling %**.  
 4.  Kies de knop **OK** om de klantenkaart te sluiten.  
 5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
 6.  Open de kaart voor klant 1100.
-7.  Kies de actie **Vooruitbetalingspercentages** .  
+7.  Kies de actie **Vooruitbetalingspercentages**.  
 8.  Vul twee regels op de pagina **Vooruitbetalingspercentages verkoop** als volgt in.  
 
     |**Verkoopsoort**|**Verkoopscode**|**Artikelnr.**|**Vooruitbetaling %**|  
@@ -96,15 +96,15 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
     |**Alle klanten**||**1100**|**20**|  
 
     > [!IMPORTANT]  
-    >  Afhankelijk van uw land/regio, moet u voor artikelen 1000 en 1100 ook een belastinggroepcode opgeven op het sneltabblad **Facturering** .  
+    >  Afhankelijk van uw land/regio, moet u voor artikelen 1000 en 1100 ook een belastinggroepcode opgeven op het sneltabblad **Facturering**.  
 
 9. Sluit alle pagina's.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Een vooruitbetalingsrekening verkoop opgeven in de boekingsgroepinstellingen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsgroepinstellingen** in en kies de desbetreffende koppeling.  
-2.  Selecteer de regel waar de **Bedrijfsboekingsgroep** is ingesteld op **EXPORTEREN** en de **Productboekingsgroep** op **DETAILHANDEL** en kies vervolgens de actie **Bewerken** .  
+2.  Selecteer de regel waar de **Bedrijfsboekingsgroep** is ingesteld op **EXPORTEREN** en de **Productboekingsgroep** op **DETAILHANDEL** en kies vervolgens de actie **Bewerken**.  
 3.  Geef op de pagina **Boekingsgroepinstellingen** in het veld **Vooruitbetalingsrekening** verkoop de desbetreffende rekening op.  
-4.  Kies de knop **Ok** .  
+4.  Kies de knop **Ok**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Een order maken waarvoor vooruitbetaling is vereist  
  In het volgende scenario maakt Susan, de orderprocessor, een order terwijl ze met een klant praat. Voor de artikelen die de klant bestelt is een vooruitbetaling vereist en de klant heeft in het verleden een aantal keer te laat betaald. Susan heeft daarom de instructie gekregen om een vast bedrag van 2.000 als vooruitbetaling op de order te eisen.  
@@ -115,8 +115,8 @@ Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Een verkooporder maken met een vooruitbetaling  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw** .  
-3.  Selecteer in het veld **Orderklantnr.** de waarde **20000** .  
+2.  Kies de actie **Nieuw**.  
+3.  Selecteer in het veld **Orderklantnr.** de waarde **20000**.  
 5.  Accepteer de waarschuwing voor saldo-overschrijding die verschijnt.  
 6.  Vul op twee verkoopregels de volgende gegevens in.  
 
@@ -129,25 +129,25 @@ Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.
 
 7. Controleer of het veld **Vooruitbetaling %** op de regel voor artikel **1000** op **30** staat. Dit is standaard overgenomen van de verkoopkop die wordt gevuld op basis van de klantkaart.  
 
-    Het veld **Vooruitbetaling %** op de regel voor artikel **1100** is **40** . Dit is het percentage dat u hebt ingevoerd op de pagina **Vooruitbetalingspercentages verkoop** voor artikel **1100** en klant **20000** .  
+    Het veld **Vooruitbetaling %** op de regel voor artikel **1100** is **40**. Dit is het percentage dat u hebt ingevoerd op de pagina **Vooruitbetalingspercentages verkoop** voor artikel **1100** en klant **20000**.  
 
     Zie voor meer informatie [Vooruitbetalingen instellen](finance-set-up-prepayments.md) voor meer informatie.  
-8. Kies de actie **Statistieken** .  
-9. Op het sneltabblad **Vooruitbetaling** bevat het veld **Vooruitbetalingsregelbedrag excl. btw** het bedrag **1.560** . Als u nu een vooruitbetalingsfavtuur voor de order maakt, is dit het bedrag dat op de factuur wordt weergegeven.  
+8. Kies de actie **Statistieken**.  
+9. Op het sneltabblad **Vooruitbetaling** bevat het veld **Vooruitbetalingsregelbedrag excl. btw** het bedrag **1.560**. Als u nu een vooruitbetalingsfavtuur voor de order maakt, is dit het bedrag dat op de factuur wordt weergegeven.  
 
     In dit scenario heeft Susan instructies ontvangen om een totale vooruitbetaling van 2000 voor te stellen voor de order.  
 
     > [!IMPORTANT]  
     >  De volgende stap kunt u in uw land\regio misschien niet uitvoeren.  
 10. Wijzig het bedrag in het veld **Vooruitbetalingsregelbedrag excl. btw** in **2000** en sluit de pagina.  
-11. Controleer het veld **Vooruitbetaling %** op de verkoopregels en u ziet dat dit is herberekend als **40,81625** .  
+11. Controleer het veld **Vooruitbetaling %** op de verkoopregels en u ziet dat dit is herberekend als **40,81625**.  
 
     Bij de herberekening zijn alle regels meegenomen die een vooruitbetalingspercentage hebben dat hoger is dan 0.  
 
     De klant vraagt nu of het vooruitbetalingspercentage op 35% kan worden gezet. De leidinggevende van Susan keurt de wijziging goed.  
 
 12. Voer op de pagina **Verkooporder** in het veld **Vooruitbetaling %** de waarde **35** in.  
-13. In de waarschuwing die wordt weergegeven, kiest u de knop **Ja** . Er wordt een tarief van 35% toegepast als het betalingspercentage voor de hele order.  
+13. In de waarschuwing die wordt weergegeven, kiest u de knop **Ja**. Er wordt een tarief van 35% toegepast als het betalingspercentage voor de hele order.  
 14. Controleer of de regels juist zijn bijgewerkt.  
 
 ## <a name="creating-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken  
@@ -155,7 +155,7 @@ Nadat de juiste vooruitbetalingswaarden voor de order zijn ingevoerd, maakt Susa
 
 #### <a name="to-create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken  
 
-1.  Kies op de pagina **Verkooporder** de actie **Vooruitbetalingsfactuur boeken** .  
+1.  Kies op de pagina **Verkooporder** de actie **Vooruitbetalingsfactuur boeken**.  
 
 > [!NOTE]  
 >  Susan kan het beste **Vooruitbetalingsfactuur boeken en afdrukken** kiezen en de factuur naar de klant verzenden.  
@@ -165,11 +165,11 @@ De volgende dag belt de klant op en vraagt Susan om een wijziging in de order te
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Een extra vooruitbetalingsfactuur maken  
 
-1.  Kies op de pagina **Verkooporder** de actie **Opnieuw openen** .  
-2.  Typ **2** in het veld **Aantal** voor artikel **1100** .  
+1.  Kies op de pagina **Verkooporder** de actie **Opnieuw openen**.  
+2.  Typ **2** in het veld **Aantal** voor artikel **1100**.  
 
-    Ga naar de velden vooruitbetaling. Het veld **Vooruitbetalingsregelbedrag excl. btw** bevat nu **630** en het veld **Gefactureerd vooruitbetalingsbedrag excl. btw** bevat **315** . Dit geeft aan dat er een extra vooruitbetalingsbedrag bestaat dat nog niet is gefactureerd.  
-3.  Als u een factuur voor het extra vooruitbetalingsbedrag wilt boeken en afdrukken, kiest u de actie **Vooruitbetalingsfactuur boeken** .  
+    Ga naar de velden vooruitbetaling. Het veld **Vooruitbetalingsregelbedrag excl. btw** bevat nu **630** en het veld **Gefactureerd vooruitbetalingsbedrag excl. btw** bevat **315**. Dit geeft aan dat er een extra vooruitbetalingsbedrag bestaat dat nog niet is gefactureerd.  
+3.  Als u een factuur voor het extra vooruitbetalingsbedrag wilt boeken en afdrukken, kiest u de actie **Vooruitbetalingsfactuur boeken**.  
 
 ## <a name="applying-the-prepayments"></a>Vooruitbetalingen vereffenen  
 De klant betaalt het vooruitbetalingsbedrag en Arnie, die op de afdeling Vorderingen werkt, registreert de betaling en vereffent deze met de vooruitbetalingsfacturen.  
@@ -184,10 +184,10 @@ De klant betaalt het vooruitbetalingsbedrag en Arnie, die op de afdeling Vorderi
     |**Documentsoort**|**Betaling**|  
     |**Rekeningsoort**|**Klant**|  
     |**Rekeningnr.**|**20000**|  
-3. Kies de actie **Posten vereffenen** .  
-4.  Op de pagina **Klantenposten vereffenen** selecteert u de eerste vooruitbetalingsfactuur en vervolgens kiest u de optie **Vereffenings-id instellen** .  
+3. Kies de actie **Posten vereffenen**.  
+4.  Op de pagina **Klantenposten vereffenen** selecteert u de eerste vooruitbetalingsfactuur en vervolgens kiest u de optie **Vereffenings-id instellen**.  
 5.  Herhaal de vorige stap voor de tweede vooruitbetaling.  
-6.  Kies de knop **OK** .  
+6.  Kies de knop **OK**.  
 
     In het bedragveld is nu het totaal van de twee vooruitbetalingsfacturen ingevuld.  
 
@@ -198,7 +198,7 @@ Arnie heeft nu doorgekregen dat de artikelen voor de order zijn verzonden en dat
 
 #### <a name="to-invoice-the-remaining-amount"></a>Het resterende bedrag factureren  
 1. Open de verkooporder.  
-2. Kies hierin **Verzenden en factureren** en klik vervolgens de knop **OK** .  
+2. Kies hierin **Verzenden en factureren** en klik vervolgens de knop **OK**.  
 
 > [!NOTE]  
 >  Gewoonlijk heeft de verzendafdeling de verzending al geboekt.  
@@ -208,14 +208,14 @@ Arnie kan de geschiedenis bekijken om te controleren of de verkoopfactuur volgen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.  
 
 ## <a name="next-steps"></a>Volgende stappen  
-In dit overzicht hebt u de stappen doorlopen om [!INCLUDE[d365fin](includes/d365fin_md.md)] in te stellen voor het afhandelen van vooruitbetalingen. U hebt gezien hoe u standaard vooruitbetalingspercentages voor klanten en artikelen kunt instellen, en u hebt verschillende methoden gebruikt om de vooruitbetalingen van een order te berekenen. U hebt geprobeerd één totaal vooruitbetalingsbedrag aan de order toe te wijzen en u hebt het vooruitbetalingsbedrag laten berekenen als een percentage van de gehele order.  
+In dit overzicht hebt u de stappen doorlopen om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen voor het afhandelen van vooruitbetalingen. U hebt gezien hoe u standaard vooruitbetalingspercentages voor klanten en artikelen kunt instellen, en u hebt verschillende methoden gebruikt om de vooruitbetalingen van een order te berekenen. U hebt geprobeerd één totaal vooruitbetalingsbedrag aan de order toe te wijzen en u hebt het vooruitbetalingsbedrag laten berekenen als een percentage van de gehele order.  
 
 Ook hebt u geleerd hoe u een vooruitbetalingsfactuur boekt, een tweede vooruitbetalingsfactuur maakt als de order wordt gewijzigd en de uiteindelijke factuur boekt voor het resterende bedrag.  
 
-De functie voor vooruitbetalingen in [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt het eenvoudig om vooruitbetalingsregels voor klanten en artikelen in te stellen en stelt u in staat om alle betalingen tegen een factuur te boeken.  
+De functie voor vooruitbetalingen in [!INCLUDE[prod_short](includes/prod_short.md)] maakt het eenvoudig om vooruitbetalingsregels voor klanten en artikelen in te stellen en stelt u in staat om alle betalingen tegen een factuur te boeken.  
 
 ## <a name="see-also"></a>Zie ook  
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)

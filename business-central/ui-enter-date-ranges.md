@@ -11,26 +11,26 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912483"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757379"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] biedt meerdere manieren om datums en tijden in te voeren, inclusief krachtige functies die gegevensinvoer versnellen of u helpen complexe agenda-expressies te schrijven. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
+[!INCLUDE[prod_short](includes/prod_long.md)] biedt meerdere manieren om datums en tijden in te voeren, inclusief krachtige functies die gegevensinvoer versnellen of u helpen complexe agenda-expressies te schrijven. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
 
 ## <a name="check-your-region-and-language-settings"></a>Uw regio- en taalinstellingen controleren
 De pagina **Mijn instellingen** geeft de **Regio** en **Taal** op die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert.
 
 -   De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
 
--   Voor datumpatronen met woorden moet de taal van de woorden overeenkomen met de instelling **Taal** .
+-   Voor datumpatronen met woorden moet de taal van de woorden overeenkomen met de instelling **Taal**.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruikt het Gregoriaanse kalendersysteem.
+> [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt het Gregoriaanse kalendersysteem.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -72,19 +72,19 @@ Een datumveld kan twee, vier, zes of acht cijfers bevatten:
 
 ### <a name="today"></a>Vandaag
 
-Voer voor vandaag in de taal die is ingesteld door **Taal** , het woord in waarmee de datum op de huidige datum wordt ingesteld. In plaats van het hele woord in te voeren kunt u een deel van het woord invoeren, te beginnen met het begin, bijvoorbeeld v of van, zolang het niet ook het begin van een ander woord is.
+Voer voor vandaag in de taal die is ingesteld door **Taal**, het woord in waarmee de datum op de huidige datum wordt ingesteld. In plaats van het hele woord in te voeren kunt u een deel van het woord invoeren, te beginnen met het begin, bijvoorbeeld v of van, zolang het niet ook het begin van een ander woord is.
 
 ### <a name="period"></a>Periode
 
 Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21.3.20** is, wordt met p1 of alleen p gefilterd op de eerste boekingsperiode van het boekjaar 2020 (bijvoorbeeld 1.1.20..31.1.20). Met p15 wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2020 (bijvoorbeeld 1.3.21..31.3.21).
 
-De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden** . Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
+De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Huidige werkdatum
 
 Met de werkdatumfunctie kunt u transacties vastleggen met een datum die afwijkt van de huidige datum.
 
-Het woord voor 'werkdatum' in de taal die is ingesteld door de instelling **Taal** , stelt de datum in op de huidige ingestelde werkdatum die wordt opgegeven op de pagina **Mijn instellingen** . U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin, bijvoorbeeld 'w' of 'werk'.
+Het woord voor 'werkdatum' in de taal die is ingesteld door de instelling **Taal**, stelt de datum in op de huidige ingestelde werkdatum die wordt opgegeven op de pagina **Mijn instellingen**. U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin, bijvoorbeeld 'w' of 'werk'.
 
 Als u geen werkdatum hebt gedefinieerd, wordt de huidige datum als de werkdatum gebruikt. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.
 
@@ -98,7 +98,7 @@ Als u een datum wilt opgeven die een ultimodatum is, plaatst u U vlak vóór de 
 
 ### <a name="examples"></a>Voorbeelden
 
-De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uitgegaan van regio-instellingen die datums noteren volgens: **jaar.maand.dag.** , een week na maandag en de Engelse taal.
+De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uitgegaan van regio-instellingen die datums noteren volgens: **jaar.maand.dag.**, een week na maandag en de Engelse taal.
 
 |**Invoer**      |**Interpretatie**      |
 |---------------|------------------------|
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Houd er rekening mee dat milliseconden als decimale notatie worden geïnterprete
 
 U kunt 24:00 niet voor middernacht gebruiken of een waarde groter dan 24:00 gebruiken.
 
-Het woord voor 'tijd' in de taal die [!INCLUDE[d365fin](includes/d365fin_long_md.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals t of TIJ.
+Het woord voor 'tijd' in de taal die [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals t of TIJ.
 
 ## <a name="entering-combined-dates-and-times"></a>Gecombineerde datums en tijden invoeren
 Wanneer u een datumtijd invoert (een datum en een tijd gecombineerd tot één veld), moet u een spatie invoeren tussen de datum en de tijd. Het datumdeel kan alleen spaties in de vorm van het officiële datumscheidingsteken van uw regio-instellingen bevatten. De tijd kan spaties bevatten rond de AM/PM-indicator.
@@ -366,6 +366,6 @@ Als u wilt nagaan welke eenheid wordt gebruikt in het veld Duur, voert u een get
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
 ## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
 [Criteria in filters invoeren](ui-enter-criteria-filters.md)  

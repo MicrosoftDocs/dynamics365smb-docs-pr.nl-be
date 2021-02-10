@@ -10,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 91e77f25c111ffda32e94b82f23c7d56433e16cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 75b46ba1f7133bcad85b94c67ca4a27368caa32e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921539"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758953"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Werken met productiebatcheenheden
-Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen** . Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd.  
+Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen**. Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Een productiestuklijst maken met behulp van een batcheenheid  
 1.  De productiebatcheenheid wordt ingesteld als alternatieve eenheid op de pagina **Artikeleenheden** bij het artikel dat moet worden geproduceerd. De batcheenheid komt niet in de plaats van de basiseenheid van het artikel.  
 2.  Maak een productiestuklijst voor het artikel dat is ingesteld met de productiebatcheenheid. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-production-boms.md).  
-3.  Selecteer de eenheidscode voor de productiebatcheenheid in het veld **Eenheidscode** .  
+3.  Selecteer de eenheidscode voor de productiebatcheenheid in het veld **Eenheidscode**.  
 4.  Voer voor elke productiestuklijstregel in het veld **Aantal per** het aantal van dit onderdeelartikel in dat nodig is om deze batcheenheid te maken.  
 5.  Open **Artikel** voor het betreffende artikel.  
 
     Selecteer op het sneltabblad **Aanvulling** in de groep **Prod.-stuklijstnr.** de hierboven gemaakte productiestuklijst.  
 6.  Maak een productieorderkop met het artikel dat is ingesteld met de productiebatcheenheid. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
-7.  Kies de actie **Vernieuwen** en kies vervolgens de knop **OK** .  
+7.  Kies de actie **Vernieuwen** en kies vervolgens de knop **OK**.  
 
 Kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Materialen** om het resultaat te bekijken. De toepassing berekent het juiste aantal materialen dat nodig is om aan de productiestuklijst te voldoen op basis van de productiebatcheenheid.  
 
@@ -37,10 +37,10 @@ Kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de acti
 1.  Maak een productieorderkop met het artikel dat is ingesteld met de productiebatcheenheid.  
 2.  Typ in het veld **Artikelnr.** in de productieorderregel hetzelfde artikelnummer dat wordt gebruikt in de kop.  
 3.  Voer in het veld **Aantal** hetzelfde aantal in dat wordt gebruikt in de kop.  
-4.  Selecteer de eenheidscode voor de productiebatcheenheid in het veld **Eenheidscode** .  
-5.  Kies de actie **Vernieuwen** .
+4.  Selecteer de eenheidscode voor de productiebatcheenheid in het veld **Eenheidscode**.  
+5.  Kies de actie **Vernieuwen**.
 6.  Schakel op het sneltabblad **Berekenen** het selectievakje **Regels** uit.  
-7.  Kies de knop **OK** .  
+7.  Kies de knop **OK**.  
 8.  Kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Materialen** om het resultaat te bekijken. Het juiste aantal materialen dat nodig is om aan de productiestuklijst te voldoen wordt berekend op basis van de productiebatcheenheid.  
 
 ## <a name="see-also"></a>Zie ook  
@@ -51,4 +51,4 @@ Kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de acti
 [Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

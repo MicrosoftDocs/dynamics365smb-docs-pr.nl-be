@@ -8,70 +8,63 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72ed1cba131e76eba2020e4cca9c900b9b2ed45c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f318825b87b0c9aa51ef8493ba89a74a02384b73
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923432"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756879"
 ---
-# <a name="send-documents-by-email"></a>Documenten per e-mail verzenden
+# <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
+U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen. 
 
-Om de inhoud van bedrijfsdocumenten snel aan uw zakelijke partners door te geven, zoals de betalingsgegevens over verkoopdocumenten aan klanten, kunt u de functie Rapportlay-out gebruiken om documentspecifieke inhoud te definiëren die automatisch wordt ingevoegd in hoofdteksten van e-mail. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
+U kunt bijna alle soorten documenten als pdf-bijlage verzenden. U kunt ook een rapportlay-out instellen die informatie uit het document in de e-mailtekst bevat, samen met tekst die de e-mail vriendelijker maakt, bijvoorbeeld een standaardbegroeting. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
-Als u e-mails vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] wilt inschakelen, start u de begeleide instelling **E-mail instellen** in het rolcentrum.
+Wanneer u facturen verzendt, kunt u het klanten gemakkelijker maken om betalingen te doen via een betalingsservice, zoals PayPal, door automatisch informatie en een link naar de service in de e-mail toe te voegen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
-U kunt vrijwel alle documentsoorten als bijlagen bij e-mailberichten direct e-mailen vanuit de pagina die het document bevat. Naast de bijlage kunt u documentspecifieke hoofdteksten van e-mail met basisgegevens van het document instellen voorafgegaan door standaardtekst waarin de e-mailgeadresseerde wordt begroet en het betreffende document wordt geïntroduceerd. Om uw klanten aan te bieden voor verkoop elektronisch te betalen met een betalingsservice, zoals PayPal, kunt u de PayPal-informatie en hyperlink in de hoofdtekst van de e-mail invoegen.
+Als u e-mails vanuit [!INCLUDE[prod_short](includes/prod_short.md)] wilt inschakelen, start u de begeleide instelling **E-mail instellen**. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
 
-Vanuit alle documenten start u het e-mailen door in geboekte documenten de actie **Verzenden** te kiezen of in niet-geboekte documenten de actie **Boeken en verzenden** .
-
-Als het veld **E-mail** op de pagina **Document verzenden naar** is ingesteld op **Ja (prompt voor instellingen)** , wordt de pagina **E-mail verzenden** geopend waarin de contactpersoon al is ingevuld in het veld **Aan:** en het document als een pdf-bestand is bijgevoegd. In het veld **Hoofdtekst** kunt u tekst handmatig invoeren of kunt u in het veld een documentspecifieke e-mailhoofdtekst invoeren die u hebt ingesteld.
-
-In de volgende procedure wordt beschreven hoe u het rapport **Verkoop - factuur** zo instelt dat het kan worden gebruikt voor documentspecifieke e-mailhoofdteksten wanneer u geboekte verkoopfacturen via e-mail verstuurt.
-
-## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Een documentspecifieke e-mailhoofdtekst instellen voor verkoopfacturen
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies de gerelateerde koppeling.
-2. Selecteer op de pagina **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur** .
-3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
-4. Schakel het selectievakje **Gebruiken voor hoofdtekst van e-mailbericht** in.
-5. Kies het veld **Indelingscode van hoofdtekst van e-mailbericht** en selecteer een indeling in de vervolgkeuzelijst.
-
-    Met rapportlay-outs wordt zowel de stijl als de inhoud van de e-mailhoofdtekst gedefinieerd, inclusief de standaardtekst die voorafgaat aan de basisdocumentinformatie in de hoofdtekst van de e-mail. U kunt alle beschikbare lijstindelingen bekijken als u de knop **Selecteren vanuit volledige lijst** kiest in de vervolgkeuzelijst.
-6. Als u de lay-out wilt weergeven of bewerken waarop de e-mailhoofdtekst is gebaseerd, selecteert u op de pagina **Aangepaste rapportlay-outs** de gewenste lay-out en vervolgens de actie **Lay-out bewerken** .
-7. Als u klanten wilt aanbieden om voor verkoop elektronisch te betalen, kunt u de gerelateerde betalingsservice, zoals PayPal, instellen en vervolgens ook de PayPal-informatie en hyperlink in de hoofdtekst van de e-mail invoegen. Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
-8. Kies de knop **OK** .
-
-Wanneer u nu bijvoorbeeld de actie **Verzenden** kiest op de pagina **Geboekte verkoopfactuur** , bevat de e-mailhoofdtekst de documentgegevens van rapport 1306, voorafgegaan door standaardtekst die is geformatteerd volgens de rapportlay-out die u in stap 5 hebt geselecteerd.
-
-In de volgende procedure wordt beschreven hoe u een geboekte verkoopfactuur als een e-mailbericht verzendt met het document als een PDF-bestand bijgevoegd en met een documentspecifieke e-mailhoofdtekst.
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)]] ondersteunt alleen uitgaande e-mailcommunicatie. U kunt ook geen antwoorden ontvangen vanuit de app.
 
 ## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
+In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. <!--update this-->
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.
-2. Selecteer de relevante geboekte verkoopfactuur en kies de actie **Verzenden** . De pagina **Document verzenden naar** verschijnt.
-3. Selecteer in het veld **E-mail** **Ja (prompt voor instellingen)** . Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
-4. Kies de knop **OK** . De pagina **E-mail verzenden** wordt geopend.
+2. Selecteer de factuur en kies de actie **Afdrukken/Verzenden**.
+3. Kies in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
+    
+    Als het veld **E-mail** op de pagina **Document verzenden naar** is ingesteld op **Ja (prompt voor instellingen)**, wordt de pagina **E-mail verzenden** geopend en vooraf gevuld met de contactpersoon in het veld **Aan:** en het document is als een pdf-bestand bijgevoegd. In het veld **Hoofdtekst** kunt u tekst handmatig invoeren of kunt u in het veld een documentspecifieke e-mailhoofdtekst invoeren die u hebt ingesteld.
+
+4. Kies de knop **OK**.
 5. Voer in het veld **Aan** een geldig e-mailadres. De standaardwaarde is het e-mailadres van de klant.
 6. Voer in het veld **Onderwerp** een beschrijvende onderwerptekst in. De standaardwaarde is de naam van de klant en het factuurnummer.
 7. In het veld **Bijlage** wordt de gegenereerde factuur standaard gekoppeld als een PDF-bestand.
 8. Voer in het veld **Hoofdgedeelte** een kort bericht aan de ontvanger in.
 
-    Als een documentspecifieke e-mailhoofdtekst is ingesteld op de pagina **Rapportselectie - Verkoop** , wordt het veld **Hoofdtekst** automatisch ingevuld. Zie voor meer informatie [Een documentspecifieke e-mailhoofdtekst instellen voor verkoopfacturen](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
+    Als een documentspecifieke e-mailtekst is ingesteld op de pagina **Rapportselectie - Verkoop**, wordt het veld **Hoofdtekst** automatisch ingevuld. Zie voor meer informatie [Herbruikbare e-mailteksten en lay-outs instellen voor verkoop- en inkoopdocumenten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
 9. Kies de knop **OK** om het e-mailbericht te verzenden.
 
 > [!NOTE]  
 > Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
+## <a name="to-compose-and-send-an-email"></a>Een e-mail opstellen en verzenden
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **E-mailaccounts** in en kies de desbetreffende koppeling.
+2. Kies het account van waaruit u de e-mail wilt verzenden en kies vervolgens de actie **E-mail opstellen**.
+
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
+Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een veld dat aangeeft hoe vaak het document is afgedrukt. Het nummer in dat veld <!--"that field?" need a name...--> wordt ook bijgewerkt als u het document per e-mail verstuurt, omdat er een pdf-bestand voor wordt gegenereerd. Het nummer wordt bijgewerkt, zelfs als u de e-mail niet verzendt. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-Sommige documenten in [!INCLUDE[prodshort](includes/prodshort.md)] hebben een veld dat aangeeft hoe vaak dat document is afgedrukt. Het veld wordt ook bijgewerkt als u het document niet afdrukt maar in plaats daarvan per e-mail verzendt. Het veld wordt zelfs bijgewerkt als u het document niet daadwerkelijk verzendt, bijvoorbeeld wanneer uw organisatie geen e-mail heeft ingesteld of wanneer de contactpersoon naar wie u het document wilt sturen geen vermeld e-mailadres heeft. In alle scenario's, voor zover [!INCLUDE[prodshort](includes/prodshort.md)] betreft, wordt het document afgedrukt omdat er een PDF-bestand wordt gegenereerd.  
+## <a name="sent-emails-and-your-email-outbox"></a>Verzonden e-mails en uw e-mailpostvak
+[!INCLUDE[prod_short](includes/prod_short.md)]] slaat de e-mails die u verzendt, op de pagina **Verzonden items** op. Dat is om u e-mails opnieuw te laten verzenden of door te sturen naar iemand anders. Als u geen e-mail kunt vinden in uw verzonden items, zoekt u deze op de pagina **E-mail-outbox**. 
 
-De gebruiker ziet dit gegenereerde bestand mogelijk niet, maar daarom wordt het veld bijgewerkt.
+> [!NOTE]
+> Afhankelijk van de extensie die uw bedrijf gebruikt voor e-mail, kunnen beheerders een lijst zien met berichten die iedereen heeft verzonden, maar niet de inhoud van de berichten
+
+In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.
 
 ## <a name="see-also"></a>Zie ook
-
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

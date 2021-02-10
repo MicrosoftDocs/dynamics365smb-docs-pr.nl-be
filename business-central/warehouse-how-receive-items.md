@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911958"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756354"
 ---
 # <a name="receive-items"></a>Artikelen ontvangen
 
@@ -32,11 +32,11 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stap
 3. Voer in het veld **Te ontvangen aantal** het aantal in dat u hebt ontvangen.
 
   > [!NOTE]
-  > Als het ontvangen aantal groter is dan het bestelde aantal, zoals aangegeven op de inkooporder in het veld **Aantal** , en als voor de leverancier is ingesteld dat meerontvangsten zijn toegestaan, gebruikt u het veld **Te veel ontvangen** bovenaan om het overtollige aantal te verwerken. Voor meer informatie zie [Meer artikelen ontvangen dan besteld](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Als het ontvangen aantal groter is dan het bestelde aantal, zoals aangegeven op de inkooporder in het veld **Aantal**, en als voor de leverancier is ingesteld dat meerontvangsten zijn toegestaan, gebruikt u het veld **Te veel ontvangen** bovenaan om het overtollige aantal te verwerken. Voor meer informatie zie [Meer artikelen ontvangen dan besteld](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 
-4. Kies de actie **Boeken** .
+4. Kies de actie **Boeken**.
 
-  De waarde in het veld **Ontvangen aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke ontvangst is, is de waarde lager dan de waarde in het veld **Aantal** .
+  De waarde in het veld **Ontvangen aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke ontvangst is, is de waarde lager dan de waarde in het veld **Aantal**.
 
 > [!NOTE]
 > Als u een magazijndocument gebruikt om de ontvangst te boeken, kunt u de actie **Boeken** in de inkooporder gebruiken. In plaats daarvan heeft een magazijnmedewerker de inkooporderhoeveelheid al geboekt als ontvangen. Zie voor meer informatie [Artikelen ontvangen met een magazijnontvangst](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
@@ -44,7 +44,7 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stap
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Artikelen ontvangen met een magazijnontvangst
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw** .  
+2. Kies de actie **Nieuw**.  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  
 
@@ -52,25 +52,25 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stap
 
     > [!NOTE]  
     > Als u artikelen wilt ontvangen met andere magazijnklassen dan de magazijnklasse van de opslaglocatie in het veld **Opslaglocatie** op de documentkop, moet u de inhoud van het veld **Opslaglocatie** op de kop verwijderen voordat u de brondocumentregels voor de artikelen ophaalt.  
-3. Kies de actie **Brondocumenten ophalen** . De pagina **Brondocumenten** verschijnt.
+3. Kies de actie **Brondocumenten ophalen**. De pagina **Brondocumenten** verschijnt.
 
     U kunt vanuit een nieuwe of geopende magazijnontvangst de pagina **Filters om brondoc. op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden ontvangen of verzonden.
 
-    1. Kies de actie **Filters om brondoc. op te halen gebruiken** .  
+    1. Kies de actie **Filters om brondoc. op te halen gebruiken**.  
     2. U stelt een nieuw filter in door een omschrijvende code in te voeren in het veld **Code** en vervolgens de actie **Wijzigen** te kiezen.  
     3. Definieer het soort brondocumentregels dat u wilt ophalen door de relevante filtervelden in te vullen.  
-    4. Kies de actie **Uitvoeren** .  
+    4. Kies de actie **Uitvoeren**.  
 
     Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden nu ingevoegd op de pagina **Magazijnontvangst** van waaruit u de filterfunctie hebt geactiveerd.  
 
     De filtercombinaties die u definieert, worden opgeslagen op de pagina **Filters om brondoc. op te halen** tot de volgende keer dat u deze nodig hebt. U kunt een onbeperkt aantal filtercombinaties maken. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
 
-4. Selecteer de brondocumenten waarvoor u artikelen wilt ontvangen en klik op **OK** .  
+4. Selecteer de brondocumenten waarvoor u artikelen wilt ontvangen en klik op **OK**.  
 
-    De regels van de brondocumenten verschijnen op de pagina **Magazijnontvangst** . Het veld **Te ontvangen aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke ontvangstregel een opslaglocatie invullen.  
+    De regels van de brondocumenten verschijnen op de pagina **Magazijnontvangst**. Het veld **Te ontvangen aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke ontvangstregel een opslaglocatie invullen.  
 
     > [!NOTE]  
-    >  Kies de actie **Te ontvangen aantal verwijderen** als u op alle regels nul wilt invullen in het veld **Te ontvangen aantal** . Om het veld nogmaals in te vullen met het openstaande aantal, kiest u de actie **Te ontvangen aantal automatisch invullen** .  
+    >  Kies de actie **Te ontvangen aantal verwijderen** als u op alle regels nul wilt invullen in het veld **Te ontvangen aantal**. Om het veld nogmaals in te vullen met het openstaande aantal, kiest u de actie **Te ontvangen aantal automatisch invullen**.  
 
     > [!NOTE]  
     >  U kunt niet meer artikelen ontvangen dan het aantal in het veld **Openstaand aantal** op de brondocumentregel. Om meer artikelen te ontvangen, haalt u een ander brondocument op dat een regel bevat voor het item met behulp van de filterfunctie om brondocumenten met het artikel op te halen.  
@@ -98,21 +98,21 @@ Hieronder wordt beschreven hoe u een meerontvangstcode instelt en toewijst aan e
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Open de kaart voor een artikel waarvan u vermoedt dat het soms wordt geleverd met een grotere hoeveelheid dan besteld.
-3. Kies de opzoekknop in het veld **Meerontvangstcode** .
-4. Kies de actie **Nieuw** .
+3. Kies de opzoekknop in het veld **Meerontvangstcode**.
+4. Kies de actie **Nieuw**.
 5. Maak op de pagina **Meerontvangstcodes** een of meer nieuwe regels die verschillend meerontvangstbeleid definiëren. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-6. Selecteer een regel en kies de knop **OK** .
+6. Selecteer een regel en kies de knop **OK**.
 
 De meerontvangstcode wordt toegewezen aan het artikel. Met elke inkooporder of magazijnontvangst voor het artikel kan nu meer worden ontvangen dan de bestelde hoeveelheid volgens het opgegeven tolerantiepercentage voor meerontvangst.
 
 > [!NOTE]
-> U kunt een goedkeuringswerkstroom instellen om te vereisen dat meerontvangsten moeten worden goedgekeurd voordat ze kunnen worden afgehandeld. In dat geval moet u het selectievakje **Goedkeuring vereist** inschakelen op de pagina **Meerontvangstcodes** . Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).
+> U kunt een goedkeuringswerkstroom instellen om te vereisen dat meerontvangsten moeten worden goedgekeurd voordat ze kunnen worden afgehandeld. In dat geval moet u het selectievakje **Goedkeuring vereist** inschakelen op de pagina **Meerontvangstcodes**. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).
 
 ### <a name="to-perform-an-over-receipt"></a>Een meerontvangst uitvoeren
 
-Op inkoopregels en magazijnontvangstregels wordt het veld **Meer ontvangen hoeveelheid** gebruikt om meer ontvangen hoeveelheden vast te leggen, dat wil zeggen hoeveelheden die de waarde in het veld **Aantal** , het bestelde aantal, overschrijden.
+Op inkoopregels en magazijnontvangstregels wordt het veld **Meer ontvangen hoeveelheid** gebruikt om meer ontvangen hoeveelheden vast te leggen, dat wil zeggen hoeveelheden die de waarde in het veld **Aantal**, het bestelde aantal, overschrijden.
 
-Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvangen aantal** verhogen tot het werkelijk ontvangen aantal. Het veld **Meer ontvangen hoeveelheid** wordt dan bijgewerkt om de overtollige hoeveelheid weer te geven. U kunt ook de overtollige hoeveelheid invoeren in het veld **Meer ontvangen hoeveelheid** . Het veld **Te ontvangen aantal** wordt dan bijgewerkt om het bestelde aantal plus de overtollige hoeveelheid aan te geven. In de volgende procedure wordt beschreven hoe u het veld **Te ontvangen aantal** invult.  
+Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvangen aantal** verhogen tot het werkelijk ontvangen aantal. Het veld **Meer ontvangen hoeveelheid** wordt dan bijgewerkt om de overtollige hoeveelheid weer te geven. U kunt ook de overtollige hoeveelheid invoeren in het veld **Meer ontvangen hoeveelheid**. Het veld **Te ontvangen aantal** wordt dan bijgewerkt om het bestelde aantal plus de overtollige hoeveelheid aan te geven. In de volgende procedure wordt beschreven hoe u het veld **Te ontvangen aantal** invult.  
 
 1. Op een inkooporder of een magazijnontvangstdocument waarbij de ontvangen hoeveelheid hoger is dan besteld, voert u de werkelijk ontvangen hoeveelheid in het veld **Te ontvangen aantal** in.
 
@@ -123,7 +123,7 @@ Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvang
 2. Boek de ontvangst zoals u zou doen voor elke andere ontvangst.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat geen functionaliteit om automatisch de financiële administratie van meerontvangsten te initiëren. U moet dit handmatig afhandelen in overleg met de leverancier, bijvoorbeeld doordat de leverancier een nieuwe of bijgewerkte factuur stuurt.
+> [!INCLUDE[prod_short](includes/prod_short.md)] bevat geen functionaliteit om automatisch de financiële administratie van meerontvangsten te initiëren. U moet dit handmatig afhandelen in overleg met de leverancier, bijvoorbeeld doordat de leverancier een nieuwe of bijgewerkte factuur stuurt.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvang
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

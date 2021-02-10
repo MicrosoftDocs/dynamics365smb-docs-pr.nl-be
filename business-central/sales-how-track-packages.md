@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910667"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758029"
 ---
 # <a name="track-packages"></a>Pakketten traceren
 
@@ -24,9 +24,9 @@ De volgende procedure laat zien hoe u een pakket kunt traceren vanaf een geboekt
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzending** in en kies de desbetreffende koppeling.
 2. Open de betreffende zending.
-3. Kies de actie **Document bijwerken** .
+3. Kies de actie **Document bijwerken**.
 4. Voer in het veld **Traceringsnummer (zending)** het traceringsnummer in dat u van de expediteur hebt ontvangen. Werk **Expediteur** indien nodig bij en sluit de pagina.
-5. Kies de actie **Zending traceren** .
+5. Kies de actie **Zending traceren**.
 
 De traceringspagina van uw expediteur wordt geopend in uw standaardbrowser.
 
@@ -36,4 +36,4 @@ De traceringspagina van uw expediteur wordt geopend in uw standaardbrowser.
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

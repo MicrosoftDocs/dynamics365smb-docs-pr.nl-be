@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915397"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758979"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt verscheidene hulpmiddelen voor het beheren van uitbesteed werk:  
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt verscheidene hulpmiddelen voor het beheren van uitbesteed werk:  
 
 - Afdelingen met toegewezen leveranciers: met behulp van deze functie kunt u een afdeling instellen die is gekoppeld aan een leverancier (toeleverancier). Dit wordt een uitbestedingsafdeling genoemd. U kunt een uitbestedingsafdeling specificeren bij een bewerking in een bewerkingsplan, waarmee u op eenvoudige wijze de uitbestede activiteit kunt verwerken. Daarnaast kunnen de kosten van de bewerking worden toegewezen op het niveau van het bewerkingsplan of van de afdeling.  
 - Afdelingskosten gebaseerd op eenheden of tijd: met behulp van deze functie kunt u opgeven of kosten die samenhangen met de afdeling worden gebaseerd op de productietijd of een vaste toeslag per eenheid. Hoewel toeleveranciers gewoonlijk werken met een vaste toeslag per eenheid die in rekening wordt gebracht voor hun diensten, kan de toepassing overweg met beide opties (productietijd en vaste toeslag per eenheid).  
@@ -34,7 +34,7 @@ Dit veld **Toeleveranciersnr.** geeft aan dat de afdeling een uitbestedingsafdel
 
 Als u elk proces uitbesteedt voor een ander tarief bij de leverancier, schakelt u het selectievakje **Specifieke kostprijs** in. Op die manier kunt u kosten instellen op elke bewerkingsplanregel en spaart u de tijd van het opnieuw invoeren van elke inkooporder. De kosten op de bewerkingsplanregel worden gebruikt bij de verwerking in plaats van de kosten in de kostenvelden van de afdeling. Als u **Specifieke kostprijs** inschakelt, worden kosten voor de leverancier berekend per bewerkingsplanbewerking.  
 
-Als u tegen één tarief per leverancier uitbesteedt, laat u het veld **Specifieke kostprijs** leeg. De kosten worden ingesteld door het invullen van de velden **Directe kostprijs** , **Indirecte kosten %** en **Overheadtarief** .  
+Als u tegen één tarief per leverancier uitbesteedt, laat u het veld **Specifieke kostprijs** leeg. De kosten worden ingesteld door het invullen van de velden **Directe kostprijs**, **Indirecte kosten %** en **Overheadtarief**.  
 
 ### <a name="routings-that-use-subcontract-work-centers"></a>Bewerkingsplannen die gebruikmaken van uitbestedingsafdelingen  
 Uitbestedingsafdelingen kunnen op dezelfde manier als reguliere afdelingen worden gebruikt voor bewerkingen in bewerkingsplannen.  
@@ -53,17 +53,17 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Het uitbestedingsvoorstel berekenen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies de desbetreffende koppeling.  
-2.  Als u het voorstel wilt berekenen, klikt u op de actie **Uitbestedingen berekenen** .  
+2.  Als u het voorstel wilt berekenen, klikt u op de actie **Uitbestedingen berekenen**.  
 3.  Stel op de pagina **Uitbestedingen berekenen** filters in voor de uitbestede bewerkingen of de werkplaatsen waar ze worden uitgevoerd, om zo alleen de relevante productieorders te berekenen.  
-4.  Kies de knop **OK** .  
+4.  Kies de knop **OK**.  
 
-    Bekijk de regels op de pagina **Uitbestedingsvoorstel** . De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
+    Bekijk de regels op de pagina **Uitbestedingsvoorstel**. De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>De uitbestedingsinkooporder genereren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies de desbetreffende koppeling.  
-2.  Kies de actie **Planningsboodschap uitvoeren** .  
+2.  Kies de actie **Planningsboodschap uitvoeren**.  
 3.  Plaats een vinkje in het veld **Orders afdrukken** om de inkooporder af te drukken wanneer deze wordt gemaakt.  
-4.  Kies de knop **OK** .  
+4.  Kies de knop **OK**.  
 
 Als alle uitbestede bewerkingen naar dezelfde leveranciersvestiging worden gestuurd, wordt slechts één inkooporder opgesteld.  
 
@@ -76,9 +76,9 @@ Zodra de inkooporders voor toeleveranciers zijn opgesteld, kunnen deze worden ge
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer de desbetreffende koppeling.  
 2.  Open een inkooporder die op basis van het uitbestedingsvoorstel is gemaakt.  
 
-    Op de inkooporderregels kunt u dezelfde gegevens zien als die in het voorstel stonden. De velden **Prod.-ordernr.** , **Prod.-orderregelnr.** , **Bewerkingsnr.** en **Afdelingsnr.** worden ingevuld met de informatie van de bronproductieorder.  
+    Op de inkooporderregels kunt u dezelfde gegevens zien als die in het voorstel stonden. De velden **Prod.-ordernr.**, **Prod.-orderregelnr.**, **Bewerkingsnr.** en **Afdelingsnr.** worden ingevuld met de informatie van de bronproductieorder.  
 
-3.  Kies de actie **Boeken** .  
+3.  Kies de actie **Boeken**.  
 
 Wanneer de inkooporder wordt geboekt als ontvangen, wordt automatisch een output-dagboekpost voor de productieorder geboekt. Dit is alleen van toepassing als de uitbestedingsbewerking de laatste bewerking in het productieorderbewerkingsplan is.  
 
@@ -95,4 +95,4 @@ Wanneer de inkooporder wordt geboekt als gefactureerd, worden de directe kosten 
 [Gepland](production-planning.md)      
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
