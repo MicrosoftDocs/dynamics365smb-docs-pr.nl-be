@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923029"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024474"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
@@ -28,13 +28,15 @@ Veel van de instellingstaken moeten worden voltooid voordat u financiële transa
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
-| Als u dit wilt doen | Zie |
+| Als u dit wilt doen: | Zie |
 | --- | --- |
-| Bepaal hoe u uw leveranciers wilt betalen. |[Betalingsmethoden definiëren](finance-payment-methods.md) |
+| Geef aan hoe u wilt worden betaald door klanten en hoe u uw leveranciers wilt betalen. |[Betalingsmethoden instellen](finance-payment-methods.md) |
+| Geef betalingsvoorwaarden op voor het beheren van vervaldatums en het berekenen van mogelijke betalingskortingen.|[Betalingsvoorwaarden instellen](finance-payment-terms.md) |
 | Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
 |Maak rapportageschema's en definieer rekeningcategorieën om de inhoud van financiële grafieken en rapporten te definiëren, zoals de rapporten Balans en Resultatenrekening.|[Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)|
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Stel boekperioden in. |[Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md) |
+|Stel aanmaningsvoorwaarden in om u te helpen bij het innen van achterstallige betalingen.|[De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)|
 | Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Btw instellen](finance-setup-vat.md)|
 |Verwerking voorbereiden van niet gerealiseerde btw in verband met op kas gebaseerde boekhoudingsmethoden.|[Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)|
 | Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -48,6 +50,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 | Intrastat-rapportage instellen en het rapport indienen bij een autoriteit | [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)|
 |Zorg dat een post in een grootboek wordt toegewezen aan verschillende rekeningen wanneer u het dagboek boekt, hetzij aantal, percentage of bedrag.|[Verdeelsleutels in dagboeken gebruiken](ui-how-use-allocation-keys-general-journals.md)|
 |Broncodes en redencodes instellen die u kunt gebruiken om audittrails bij te houden|[Broncodes en redencodes instellen voor audittrails](finance-setup-trail-codes.md)|
+|Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Afhankelijk van uw geografische locatie kunnen sommige pagina's velden bevatten die niet worden beschreven in de artikelen die hier worden vermeld, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -61,6 +64,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Werken met dimensies](finance-dimensions.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

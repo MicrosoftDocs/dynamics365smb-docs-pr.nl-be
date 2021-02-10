@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920909"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035593"
 ---
 # <a name="design-details-transfers-in-planning"></a>Ontwerpdetails: Transfers in planning
 Transferorders zijn ook een voorzieningenbron bij het werken op SKU-niveau. Als meerdere vestigingen (magazijnen) worden gebruikt, kan de SKU-aanvullingsmethode worden ingesteld op Transfer, wat aangeeft dat de vestiging wordt aangevuld door goederen van een andere vestiging over te brengen. In een situatie met meerdere magazijnen hebben bedrijven mogelijk een transferketen waarbij voorziening aan de GROENE vestiging wordt overgebracht vanuit GEEL, voorziening aan GEEL wordt overgebracht vanuit ROOD, enzovoort. Aan het begin van de keten is er een aanvullingssysteem Prod.-order of Inkoop.  
 
 ![Voorbeeld van overdrachtsstroom](media/nav_app_supply_planning_7_transfers1.png "Voorbeeld van overdrachtsstroom")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Bij vergelijking van een situatie waarin een voorzieningenorder rechtstreeks betrekking heeft op een vraagorder, en een situatie waarin de verkooporder door een keten van SKU-transfers wordt geleverd, is het duidelijk dat de planningstaak in de laatste situatie erg complex kan worden. Als de vraag verandert, kan er een rimpelingseffect door de keten optreden, omdat alle transferorders plus de inkoop/productie-order aan het andere einde van de keten moet worden gemanipuleerd om weer evenwicht te krijgen tussen vraag en aanbod.  
 

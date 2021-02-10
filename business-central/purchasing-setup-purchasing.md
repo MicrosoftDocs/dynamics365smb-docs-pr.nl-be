@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918749"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024599"
 ---
 # <a name="setting-up-purchasing"></a>Inkoop instellen
 Voordat u inkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het inkoopbeleid van het bedrijf configureren.
@@ -32,6 +32,7 @@ Inkoopinstellingen met betrekking tot financiën, zoals betalingswijzen en valut
 | De verschillende kortingen en speciale prijzen invoeren die leveranciers u verlenen, afhankelijk van artikel, hoeveelheden en/of datum |[Procedure: afspraken over prijzen, kortingen en betalingen van inkopen vastleggen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | De prioriteit van leveranciers bepalen |[De prioriteit van leveranciers bepalen](purchasing-how-prioritize-vendors.md) |
 | Inkopers instellen |[Inkopers instellen](purchasing-how-setup-purchasers.md) |
+|Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Afhankelijk van uw geografische locatie kunnen sommige pagina's velden bevatten die niet worden beschreven in de artikelen die hier worden vermeld, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,4 +42,4 @@ Inkoopinstellingen met betrekking tot financiën, zoals betalingswijzen en valut
 ## <a name="see-also"></a>Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

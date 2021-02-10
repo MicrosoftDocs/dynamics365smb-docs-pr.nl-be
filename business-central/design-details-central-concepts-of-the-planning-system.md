@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917513"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013641"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
@@ -49,7 +49,7 @@ Met andere woorden, er wordt vanuit gegaan dat de planning voor het verleden is 
 Zie [Werken met orders vóór de geplande begindatum](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date) voor meer informatie.  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamische ordertracering (tracering van de behoefte)  
-Dynamische ordertracering met het gelijktijdig maken van planningsboodschappen in het planningsvoorstel maakt geen deel uit van het voorzieningsplanningssysteem in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Deze functie koppelt, in realtime, de vraag en de aantallen die ze kunnen verwerken, wanneer een nieuwe vraag of voorziening wordt gemaakt of gewijzigd.  
+Dynamische ordertracering met het gelijktijdig maken van planningsboodschappen in het planningsvoorstel maakt geen deel uit van het voorzieningsplanningssysteem in [!INCLUDE[prod_short](includes/prod_short.md)]. Deze functie koppelt, in realtime, de vraag en de aantallen die ze kunnen verwerken, wanneer een nieuwe vraag of voorziening wordt gemaakt of gewijzigd.  
 
 Als de gebruiker bijvoorbeeld een verkooporder invoert of wijzigt, zoekt het dynamisch ordertraceringssysteem direct geschikt aanbod om aan de vraag te voldoen. Dit kan uit voorraad zijn of van een verwachte order voor voorzieningen (zoals een inkooporder of productieorder). Wanneer een voorzieningsbron wordt gevonden, wordt een koppeling tussen de vraag en de voorziening gemaakt en weergegeven op alleen-weergavepagina's die toegankelijk zijn via de betreffende documentregels. Wanneer geen passende voorziening kan worden gevonden, maakt het dynamische ordertraceringssysteem planningsboodschappen in het planningsvoorstel met voorstellen voor het voorzieningenplan die de dynamische vereffening aangeven. Het dynamische ordertraceringssysteem biedt een zeer elementair planningssysteem dat nuttig kan zijn voor de planner en voor andere rollen in de interne leveringsketen.  
 
@@ -76,12 +76,12 @@ Het planningssysteem werkt echter met alle vraag en aanbod voor een bepaald arti
 
 Na de planning blijven geen planningsboodschappen achter in de tabel Planningsboodschappost, omdat ze door de voorgestelde acties in het planningsvoorstel zijn vervangen.  
 
-Zie Ordertraceringskoppelingen tijdens planning in [Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand) voor meer informatie.  
+Zie voor meer informatie [Ordertraceringskoppelingen tijdens planning](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Volgorde en prioriteit in planning  
 Bij het vaststellen van een plan is de volgorde van de berekeningen belangrijk om de taak binnen een redelijke tijd te voltooien. Bovendien speelt de prioriteitsvolgorde van vereisten en resources een belangrijke rol in het behalen van de beste resultaten.  
 
-Het planningssysteem in [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gestuurd door de vraag. Artikelen op hoog niveau moeten worden gepland vóór artikelen op laag niveau, omdat de planning voor artikelen op hoog niveau aanvullende vraag kan genereren voor de artikelen op het lagere niveau. Dit betekent bijvoorbeeld dat detailhandelvestigingen moeten worden gepland voordat distributiecentra worden gepland, omdat het plan voor een detailhandelvestiging extra vraag voor het distributiecentrum kan inhouden. Op een gedetailleerd afstemmingsniveau betekent dit ook dat een verkooporder niet tot een nieuwe voorzieningenorder moet leiden als een reeds bestaande voorzieningenorder aan de verkooporder kan voldoen. Zo moet een voorziening met een specifiek lotnummer ook niet worden toegewezen om aan algemene vraag te voldoen als er andere vraag bestaat die deze specifieke lot vereist.  
+Het planningssysteem in [!INCLUDE[prod_short](includes/prod_short.md)] wordt gestuurd door de vraag. Artikelen op hoog niveau moeten worden gepland vóór artikelen op laag niveau, omdat de planning voor artikelen op hoog niveau aanvullende vraag kan genereren voor de artikelen op het lagere niveau. Dit betekent bijvoorbeeld dat detailhandelvestigingen moeten worden gepland voordat distributiecentra worden gepland, omdat het plan voor een detailhandelvestiging extra vraag voor het distributiecentrum kan inhouden. Op een gedetailleerd afstemmingsniveau betekent dit ook dat een verkooporder niet tot een nieuwe voorzieningenorder moet leiden als een reeds bestaande voorzieningenorder aan de verkooporder kan voldoen. Zo moet een voorziening met een specifiek lotnummer ook niet worden toegewezen om aan algemene vraag te voldoen als er andere vraag bestaat die deze specifieke lot vereist.  
 
 ### <a name="item-priority--low-level-code"></a>Prioriteit/low-levelcode artikel  
 In een productieomgeving leidt de vraag naar een voltooid, verkoopbaar artikel tot afgeleide vraag naar onderdelen die het voltooide artikel vormen. De stuklijststructuur bepaalt de onderdeelstructuur en kan verschillende niveaus half afgewerkte artikelen verwerken. Een artikel op één niveau plannen leidt tot afgeleide vraag voor onderdelen op het volgende niveau, enzovoort. Uiteindelijk leidt dit tot afgeleide vraag naar ingekochte artikelen. Daarom plant het planningssysteem voor artikelen in de volgorde van hun rangorde in de totale stuklijsthiërarchie, te beginnen met verkoopbare voltooide artikelen op het hoogste niveau, en dan omlaag door de productstructuur naar de artikelen van het lagere niveau (op basis van de low-levelcode).  
@@ -93,12 +93,12 @@ De cijfers laten zien in welke volgorde voorstellen worden gemaakt voor voorzien
 Zie [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) voor meer informatie over overwegingen voor productie.  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Prestaties optimaliseren voor berekeningen op laag niveau
-Codeberekeningen op laag niveau kunnen de systeemprestaties beïnvloeden. Om de impact te verminderen kunt u **Dynamische codeberekening op laag niveau** uitschakelen op de pagina **Productie-instellingen** . Als u dat doet, zal [!INCLUDE[d365fin](includes/d365fin_md.md)] voorstellen dat u een terugkerende taakwachtrijvermelding maakt die dagelijks low-level codes zal bijwerken. U kunt ervoor zorgen dat de taak buiten werktijd wordt uitgevoerd door een starttijd op te geven in het veld **Vroegste begindatum/-tijd** .
+Codeberekeningen op laag niveau kunnen de systeemprestaties beïnvloeden. Om de impact te verminderen kunt u **Dynamische codeberekening op laag niveau** uitschakelen op de pagina **Productie-instellingen**. Als u dat doet, zal [!INCLUDE[prod_short](includes/prod_short.md)] voorstellen dat u een terugkerende taakwachtrijvermelding maakt die dagelijks low-level codes zal bijwerken. U kunt ervoor zorgen dat de taak buiten werktijd wordt uitgevoerd door een starttijd op te geven in het veld **Vroegste begindatum/-tijd**.
 
-U kunt ook logica inschakelen die codeberekeningen op laag niveau versnelt door **Berekening van low-levelcode optimaliseren** te selecteren op de pagina **Productie-instellingen** . 
+U kunt ook logica inschakelen die codeberekeningen op laag niveau versnelt door **Berekening van low-levelcode optimaliseren** te selecteren op de pagina **Productie-instellingen**. 
 
 > [!IMPORTANT]
-> Als u ervoor kiest om de prestaties te optimaliseren, zal [!INCLUDE[d365fin](includes/d365fin_md.md)] nieuwe berekeningsmethoden gebruiken om low-levelcodes te bepalen. Als u een extensie hebt die afhankelijk is van de gebeurtenissen die door de oude berekeningen worden gebruikt, werkt de extensie mogelijk niet meer.   
+> Als u ervoor kiest om de prestaties te optimaliseren, zal [!INCLUDE[prod_short](includes/prod_short.md)] nieuwe berekeningsmethoden gebruiken om low-levelcodes te bepalen. Als u een extensie hebt die afhankelijk is van de gebeurtenissen die door de oude berekeningen worden gebruikt, werkt de extensie mogelijk niet meer.   
 
 ### <a name="locations--transfer-level-priority"></a>Prioriteit op niveau van vestigingen/transfers  
 Bedrijven die in meerdere vestigingen actief zijn, moeten mogelijk voor elke vestiging afzonderlijk plannen. Het veiligheidsvoorraadniveau van een artikel en het bestelbeleid ervan kunnen bijvoorbeeld van vestiging tot vestiging verschillen In dit geval moeten per artikel en ook per vestiging de planningsparameters worden opgegeven.  
@@ -121,7 +121,7 @@ Prognoses en raamcontracten vertegenwoordigen beide verwachte vraag. Het raamcon
 
 ![Planning met prognoses](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning met prognoses")  
 
-Zie voor meer informatie het gedeelte 'Prognosevraag wordt verlaagd door verkooporders' in [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Zie voor meer informatie [Prognosevraag wordt verlaagd door verkooporders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Planningsopdracht  
 Alle artikelen moeten worden gepland, maar er is geen reden om een planning voor een artikel te berekenen tenzij er een verandering in het vraag- of aanbodpatroon is opgetreden sinds er voor het laatst een planning is berekend.  
@@ -136,12 +136,12 @@ De reden voor het selecteren van artikelen voor planning heeft te maken met syst
 
 U vindt een volledige lijst met redenen voor het toewijzen van een artikel voor de planning in [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md).  
 
-De planningsopties in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn:  
+De planningsopties in [!INCLUDE[prod_short](includes/prod_short.md)] zijn:  
 
 -   Regeneratief plan berekenen - berekent alle geselecteerde artikelen, of het nodig is of niet.  
 -   Mutatieplan berekenen - berekent alleen de geselecteerde artikelen die een wijziging hebben ondergaan in het vraag/aanbod-patroon en daarom zijn toegewezen voor planning.  
 
-Een aantal gebruikers is van mening dat de mutatieplanning tussendoor moet worden uitgevoerd, bijvoorbeeld wanneer verkooporders worden ingevoerd. Dit kan echter verwarrend zijn omdat dynamische ordertracering en planningsboodschappen ook ad hoc worden berekend. Bovendien biedt [!INCLUDE[d365fin](includes/d365fin_md.md)] real-time ATP-besturing, waardoor pop-upwaarschuwingen worden weergegeven wanneer verkooporders worden ingevoerd als niet aan de vraag kan worden voldaan onder het huidige leveringsplan.  
+Een aantal gebruikers is van mening dat de mutatieplanning tussendoor moet worden uitgevoerd, bijvoorbeeld wanneer verkooporders worden ingevoerd. Dit kan echter verwarrend zijn omdat dynamische ordertracering en planningsboodschappen ook ad hoc worden berekend. Bovendien biedt [!INCLUDE[prod_short](includes/prod_short.md)] real-time ATP-besturing, waardoor pop-upwaarschuwingen worden weergegeven wanneer verkooporders worden ingevoerd als niet aan de vraag kan worden voldaan onder het huidige leveringsplan.  
 
 Naast deze overwegingen plant het planningssysteem alleen artikelen die de gebruiker heeft voorbereid met de juiste planningsparameters. Anders wordt ervan uitgegaan dat de gebruiker de artikelen handmatig of semiautomatisch plant met de functie Orderplanning.  
 
@@ -179,7 +179,7 @@ Artikelen met een serie-/lotnummer zonder specifieke artikeltraceringinstellinge
 
 Vraag-aanbod met serie-/lotnummers, specifiek of niet-specifiek, wordt gezien als hoge prioriteit en is daarom vrijgesteld van de vaste zone, wat betekent dat het onderdeel is van planning zelfs als het vervalt vóór de geplande begindatum.  
 
-Zie voor meer informatie het gedeelte 'Serie-/lotnummers worden geladen per specificatieniveau' in [Voorraadprofielen laden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Zie voor meer informatie [Serie-/lotnummers worden geladen per specificatieniveau](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Voor meer informatie over hoe het planningssysteem kenmerken afstemt raadpleegt u [Serie-/lotnummers en order-naar-order koppelingen zijn vrijgesteld van de vaste zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -270,13 +270,13 @@ Het veld kan handmatig worden ingesteld door de gebruiker, maar in sommige geval
 Zie [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md) voor meer informatie over het gebruik van dit veld.  
 
 ## <a name="order-planning"></a>Orderplanning  
-De planningfunctie voor algemene voorzieningen wordt weergegeven op de pagina **Orderplanning** en is bedoeld voor handmatige besluitvorming. Deze houdt geen rekening met planningsparameters en wordt daarom niet verder besproken in dit document. Voor meer informatie over de orderplanningsfunctie raadpleegt u de Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De planningfunctie voor algemene voorzieningen wordt weergegeven op de pagina **Orderplanning** en is bedoeld voor handmatige besluitvorming. Deze houdt geen rekening met planningsparameters en wordt daarom niet verder besproken in dit document. Zie voor meer informatie [Nieuwe vraag order voor order plannen](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Het is niet raadzaam Orderplanning te gebruiken als het bedrijf al gebruikmaakt van plannings- of inkoopvoorstellen. Orders voor voorzieningen die zijn gemaakt via de pagina **Orderplanning** kunnen worden gewijzigd of verwijderd tijdens de automatisch uitgevoerde planningen. Dat komt doordat voor de geautomatiseerde planning planningsparameters worden gebruikt en deze niet in aanmerking kunnen worden genomen door gebruikers die handmatig plannen op de pagina Orderplanning.  
 
 ##  <a name="finite-loading"></a>Eindige bezettingsplanning  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is een standaard ERP-systeem, geen verzend- of werkvloercontrolesysteem. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is een standaard ERP-systeem, geen verzend- of werkvloercontrolesysteem. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.  
 
 Het bedoelde gebruik van de functie Capaciteitsbegrensde resource is 1): overbelasting uit specifieke resources te voorkomen, en 2): ervoor te zorgen dat alle capaciteit toegewezen is als dit de omlooptijd van een productieorder kan verhogen. De functie omvat geen voorzieningen of opties om bewerkingen te prioriteren of te optimaliseren, zoals mag worden verwacht in een systeem voor verzending. De functie kan echter ruwe capaciteitsinformatie leveren die nuttig is om knelpunten te vinden en overbelasting van resources te voorkomen.  
 
@@ -287,7 +287,7 @@ Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen
 
 De dempingstijd kan bij resources worden opgeteld om splitsen van bewerkingen te minimaliseren. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.  
 
-Hiermee wordt het overzicht afgesloten van centrale concepten die betrekking hebben op de planning van voorzieningen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In de volgende secties worden deze concepten verder geanalyseerd en in de context geplaatst van de kernplanningsprocedures, het afstemmen van vraag en voorziening, en het gebruik van bestelbeleid.  
+Hiermee wordt het overzicht afgesloten van centrale concepten die betrekking hebben op de planning van voorzieningen in [!INCLUDE[prod_short](includes/prod_short.md)]. In de volgende secties worden deze concepten verder geanalyseerd en in de context geplaatst van de kernplanningsprocedures, het afstemmen van vraag en voorziening, en het gebruik van bestelbeleid.  
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)   

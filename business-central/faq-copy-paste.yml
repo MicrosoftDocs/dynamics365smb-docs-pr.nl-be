@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over gegevens kopiëren en plakken
+  description: Krijg antwoorden op veelgestelde vragen over het kopiëren en plakken van gegevens uit velden en rijen van Business Central-pagina's.
+  author: SorenGP
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: accessibility, shortcuts, keyboarding
+  ms.date: 01/08/2021
+  ms.author: edupont
+  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: nl-BE
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013933"
+title: Veelgestelde vragen over kopiëren en plakken
+summary: "U kunt een of meer rijen (records) uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail).  \n\nAls u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs). Er zijn verschillende andere toetsenbordsneltoetsen voor het kopiëren en plakken die u helpen tijd te besparen wanneer u gegevens invoert. Zie voor meer informatie hierover [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows). In dit artikel worden veelgestelde vragen beantwoord over kopiëren en plakken.  \n"
+sections:
+- name: Alge&meen
+  questions:
+  - question: Wat kan ik kopiëren en plakken?
+    answer: >
+      U kunt dit type gegevens kopiëren en plakken:
+
+      - Een of meer rijen in [!INCLUDE[prod_short](includes/prod_short.md)] kopiëren naar dezelfde lijst of naar een lijst met identieke kolommen.
+
+      - Een of meer rijen in [!INCLUDE[prod_short](includes/prod_short.md)] kopiëren en plakken in Excel of andere toepassingen.
+
+      - Een of meer rijen in Excel kopiëren en plakken in een [!INCLUDE[prod_short](includes/prod_short.md)]-lijst.
+
+      - De waarde van een afzonderlijk veld in [!INCLUDE[prod_short](includes/prod_short.md)] kopiëren en deze ergens anders plakken.
+  - question: Werkt kopiëren en plakken met tegels?
+    answer: >
+      Ja, maar alleen voor een enkele geselecteerde tegel.
+  - question: Hoe kopieer ik een rij?
+    answer: >
+      Als u één rij wilt kopiëren, selecteert u deze en drukt u op Ctrl+C.
+
+
+      Als u meerdere rijen wilt kopiëren, kunt u:
+
+      - Op Ctrl drukken en op een andere rij klikken of op Shift drukken en klikken om de rij en alle rijen ertussenin te selecteren. Zie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows) voor meer muis- en toetsenbordcombinaties voor het selecteren van rijen.
+
+      - Selecteer ![Meer opties weergeven](media/show-more-options-icon.png "Pictogram Meer opties weergeven") in de eerste kolom, kies **Meer selecteren**, schakel het selectievakje in naast elke rij die u wilt kopiëren, en druk op Ctrl+C.
+  - question: Hoe plak ik rijen?
+    answer: >
+      Selecteer een lege rij, met focus in een willekeurige cel, en druk vervolgens op Ctrl + V.
+
+
+      Als u bestaande rijen wilt vervangen, selecteert u de rijen en drukt u op Ctrl+V. In dit geval kunt u alleen hetzelfde aantal rijen plakken als u hebt geselecteerd.
+
+
+      > [!NOTE]
+
+      > De lijst waarin u plakt, moet bewerkbaar zijn.
+
+
+      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+  - question: Kan ik rijen plakken in een Outlook-e-mailbericht?
+    answer: >
+      Ja. Dit wordt geplakt als een keurig geformatteerde tabel die de inspringing, numerieke uitlijning en kleur behoudt, zoals u zou zien in [!INCLUDE[prod_short](includes/prod_short.md)].
+  - question: In welke lijsten kan ik rijen kopiëren en plakken?
+    answer: >
+      U kunt rijen in een willekeurige lijst plakken, inclusief werkbladen, feitenblokken of lijsten die zijn ingesloten in een pagina (zoals regels van een verkooporder). Als u rijen wilt plakken, moet de lijst echter bewerkbaar zijn.
+
+
+      Op sommige pagina's kan het toepassingsontwerp voorkomen dat u rijen plakt. Neem contact op met de beheerder of toepassingsontwikkelaar om de [eigenschap Bewerkbaar](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) op de pagina te wijzigen of de eigenschap [PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) te wijzigen in de brontabel.
+  - question: In welke clients is kopiëren en plakken beschikbaar?
+    answer: >
+      Kopiëren en plakken is beschikbaar in de browser of de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Windows 10.
+  - question: Wat is het maximale aantal rijen dat kan worden gekopieerd?
+    answer: >
+      U kunt zoveel rijen kopiëren als u in beeld hebt geschoven. Als u bijvoorbeeld alle 1000 rijen op een pagina wilt kopiëren, moet u eerst naar de onderzijde van de pagina schuiven en wachten tot de rijen worden weergegeven voordat u kopieert. Het maximale aantal rijen dat u kunt kopiëren wordt alleen beperkt door het geheugen van uw apparaat.
+  - question: Moet ik exact hetzelfde aantal kolommen hebben wanneer ik rijen plak?
+    answer: >
+      Ja. Ongeacht of u rijen kopieert uit [!INCLUDE[prod_short](includes/prod_short.md)], uit Excel of uit een andere tabelbron, de rijen die u plakt in [!INCLUDE[prod_short](includes/prod_short.md)], moeten exact overeenkomende kolommen hebben; niet meer en niet minder.
+  - question: Waarom krijg ik fouten wanneer ik rijen plak?
+    answer: >
+      Wanneer u plakt in [!INCLUDE[prod_short](includes/prod_short.md)], wordt elke rij gecontroleerd om ervoor te zorgen dat waarden in elke kolom geldig zijn. Als een kolom een waarde bevat die niet geldig is, wordt het plakken gestopt en wordt een foutbericht weergegeven. Als u dit wilt vermijden, zorgt u dat de kolommen geldige waarden bevatten voordat u deze plakt.
+additionalContent: "## <a name=\"next-steps\"></a>Volgende stappen\nVind hier gerelateerde informatie: \n  - [Assisterende functies](ui-accessibility.md)  \n  - [Aan de slag](product-get-started.md)  \n  - [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Veelgestelde vragen](across-faq.md)"

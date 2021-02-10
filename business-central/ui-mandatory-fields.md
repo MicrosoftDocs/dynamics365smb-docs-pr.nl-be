@@ -11,15 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: cf2a64ef102dec16ad0df83e8c911e2b6c3bd88e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f525077069107e1365728aaaaf1e4791a250c6ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912133"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760379"
 ---
 # <a name="detecting-mandatory-fields"></a>Verplichte velden detecteren
-Wanneer u gegevens invoert op pagina's in [!INCLUDE[d365fin](includes/d365fin_md.md)], zijn bepaalde velden gemarkeerd met een rode asterisk. De rode asterisk betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien dat het veld gebruikt, zoals het boeken van een transactie die de waarde in het veld gebruikt.
+Wanneer u gegevens invoert op pagina's in [!INCLUDE[prod_short](includes/prod_short.md)], zijn bepaalde velden gemarkeerd met een rode asterisk. De rode asterisk betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien dat het veld gebruikt, zoals het boeken van een transactie die de waarde in het veld gebruikt.
 
 Zelfs als het veld een rode asterisk bevat, wordt u niet gedwongen het veld te vullen voordat u verdergaat naar andere velden of de pagina sluit. De rode asterisk dient alleen als een herinnering dat u wordt geblokkeerd van het voltooien van een bepaald proces.
 
@@ -29,4 +29,4 @@ Op de pagina **Klantenkaart** verschijnt een rode asterisk in het veld **Naam** 
 Op de pagina **Artikelkaart** verschijnt de rode asterisk in het veld **Omschrijving** om aan te geven dat u het artikel niet kunt invoeren op een documentregel, zoals een verkooporder, tenzij dit veld is ingevuld.
 
 ## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

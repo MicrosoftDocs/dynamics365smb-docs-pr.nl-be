@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1caac5faaaf62fc8e8e53cbb5c6bcce8ce767d6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4135547ae45f561a84b7952ecec07f8d4abad437
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911873"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759929"
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
 Als de vestiging is ingesteld voor het gebruik van gestuurde opslag en pick, worden de prioriteiten van de opslagsjabloon voor de vestiging in aanmerking genomen wanneer de ontvangsten worden opgeslagen. Prioriteiten omvatten de minimale en maximale aantallen van de opslaglocatie-inhoud die zijn vastgesteld voor een bepaalde opslaglocatie en de zonevolgordes. Dus als er in een rustig tempo artikelen worden afgeleverd, worden de meestgebruikte opslaglocaties gevuld met de artikelen.  
@@ -30,8 +30,8 @@ Als u aan de bulkopslaglocaties alleen de activiteit **Opslag** hebt toegewezen,
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocatieaanvulling berekenen** om de rapportaanvraagpagina te openen.  
 3.  Geef op de opvraagpagina voor de batchverwerking criteria op om het aantal aanvullingsvoorstellen te beperken dat wordt berekend. Wellicht bent u alleen geïnteresseerd in bepaalde artikelen, zones of opslaglocaties.  
-4.  Kies de knop **Ok** . Er worden regels gemaakt voor de aanvullingsverplaatsingen die moeten worden uitgevoerd. Dit gebeurt op basis van de voorschriften die zijn opgesteld voor de opslaglocaties en de bijhorende inhoud, zijnde artikelen in de opslaglocaties.  
-5.  Als u alle voorgestelde aanvullingen wilt uitvoeren, kiest u de actie **Verplaatsing maken** . De magazijnmedewerkers kunnen de instructies bekijken onder het menu-item **Verplaatsingen** , ze uitvoeren en vervolgens registreren.  
+4.  Kies de knop **Ok**. Er worden regels gemaakt voor de aanvullingsverplaatsingen die moeten worden uitgevoerd. Dit gebeurt op basis van de voorschriften die zijn opgesteld voor de opslaglocaties en de bijhorende inhoud, zijnde artikelen in de opslaglocaties.  
+5.  Als u alle voorgestelde aanvullingen wilt uitvoeren, kiest u de actie **Verplaatsing maken**. De magazijnmedewerkers kunnen de instructies bekijken onder het menu-item **Verplaatsingen**, ze uitvoeren en vervolgens registreren.  
 6.  Als u alleen wilt dat sommige voorstellen worden uitgevoerd, verwijdert u de minder belangrijke regels. Vervolgens maakt u een verplaatsingsinstructie.  
 
 De volgende keer dat u de aanvulling van de opslaglocaties berekent, worden de verwijderde voorstellen automatisch opnieuw gemaakt,op voorwaarde dat deze voorstellen nog steeds geldig zijn.  
@@ -41,7 +41,7 @@ De volgende keer dat u de aanvulling van de opslaglocaties berekent, worden de v
 >   
 >  -   het artikel heeft een vervaldatum en  
 > -   Het veld **Picken volgens FEFO** op de vestigingskaart is geselecteerd, en  
-> -   u gebruikt de functionaliteit **Opslaglocatieaanvulling berekenen** ,  
+> -   u gebruikt de functionaliteit **Opslaglocatieaanvulling berekenen**,  
 >   
 >  zijn de velden **Van zone** en **Van opslaglocatie** leeg, omdat het algoritme waarmee wordt berekend waar vandaan de artikelen worden verplaatst, alleen wordt geactiveerd als u de functie **Verplaatsing maken** activeert.  
 
@@ -52,4 +52,4 @@ De volgende keer dat u de aanvulling van de opslaglocaties berekent, worden de v
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

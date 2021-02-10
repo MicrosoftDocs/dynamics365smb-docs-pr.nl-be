@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914897"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760254"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over de functie Vertel me.
@@ -32,14 +32,14 @@ Acties, pagina's en rapporten die afkomstig zijn uit extensies worden opgepikt d
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Wat maakt dit anders dan de eerdere paginazoekfunctie?
 De paginazoekfunctie is tot Vertel me geëvolueerd om u te helpen sneller te werken. De paginazoekfunctie kon u alleen helpen navigeren naar pagina's of rapporten. Op technisch niveau is Vertel me niet meer gebaseerd op het oude MenuSuite-concept.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omvat dat Vertel me?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Omvat dat Vertel me?
 U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en rapporten, maar geen documentatie, of apps en consultingservices te vinden in AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Vertel me beschikbaar voor alle formulierfactoren?
 Vertel me is alleen beschikbaar in de webclient of de Windows-desktopapp.
 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Zijn de documentatieresultaten beschikbaar in elke taal?
-De Help-artikelen worden weergegeven in de taal die u hebt opgegeven in **Mijn instellingen** , als er Help in die taal beschikbaar is.
+De Help-artikelen worden weergegeven in de taal die u hebt opgegeven in **Mijn instellingen**, als er Help in die taal beschikbaar is.
 
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Waarom zie ik geen bladwijzerpictogram voor mijn zoekresultaten?
 Het bladwijzerpictogram wordt niet weergegeven in het venster Vertel me wanneer personalisatie is uitgeschakeld voor een gebruikersrol.

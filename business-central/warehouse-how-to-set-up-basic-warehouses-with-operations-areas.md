@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: faad42bcd32080d43495020105bc8654af3f95bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d74bdc6d2c712742374993141cdd4d557caf80d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918350"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759678"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u de volgende standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren:  
@@ -64,7 +64,7 @@ In dit stroomdiagram is weergegeven hoe het veld **Opslaglocatie** op de product
 ![Stroomdiagram Opslaglocatie](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Een standaard opslaglocatiestructuur in het assemblagegebied definiëren
-Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan de pagina **Voorraadverplaatsing** . Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan de pagina **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Als u verkoopregelaantallen pickt en verzendt die worden geassembleerd voor de order, moet u bepaalde regels volgen wanneer u de voorraadpickregels maakt. Zie voor meer informatie de sectie 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -117,9 +117,9 @@ Dezelfde opslaglocatie wordt vervolgens naar het veld **Opslaglocatie** gekopiee
 ## <a name="to-create-dedicated-component-bins"></a>Specifieke componentopslaglocaties maken
 U kunt opgeven dat hoeveelheden in een opslaglocatie niet mogen worden gepickt voor andere vraag dan het huidige doel.
 
-Hoeveelheden in specifieke opslaglocaties kunnen nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** op de pagina **Reservering** .
+Hoeveelheden in specifieke opslaglocaties kunnen nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.
 
-Een voorbeeld is een afdeling die is ingesteld met een opslaglocatie in het veld **Code verbruikslocatie** . Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor de materialenvragen die deze specifieke opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor de opslaglocatie op de pagina **Opslaglocaties** die u vanuit de vestigingskaart opent.
+Een voorbeeld is een afdeling die is ingesteld met een opslaglocatie in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor de materialenvragen die deze specifieke opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor de opslaglocatie op de pagina **Opslaglocaties** die u vanuit de vestigingskaart opent.
 
 Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het gebruik van opslaglocaties, die alleen beschikbaar zijn in geavanceerde magazijnbeheer. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.
 
@@ -127,7 +127,7 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 > Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer ze zijn gepickt en worden verbruikt als onderdelen van de productie met de pagina Voorraadpick.
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling. Selecteer de vestiging die u wilt bijwerken.  
-2.  Kies de actie **Opslaglocaties** .  
+2.  Kies de actie **Opslaglocaties**.  
 3.  Selecteer het veld **Speciaal** voor elke opslaglocatie die u uitsluitend voor bepaalde interne bewerkingen wilt gebruiken en waarin u aantallen voor de desbetreffende interne bewerking wilt reserveren zodra deze daar zijn geplaatst.  
 
 > [!NOTE]  
@@ -139,4 +139,4 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

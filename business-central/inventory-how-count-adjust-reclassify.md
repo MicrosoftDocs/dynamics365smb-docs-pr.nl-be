@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056ed7dd978d4c9cc5c3745997912bd32c40bed8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922931"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827105"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Voorraad tellen, corrigeren en herindelen met dagboeken
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
@@ -33,7 +33,7 @@ Als u kenmerken van artikelposten wilt wijzigen, kunt u daarvoor het artikelheri
 Aan het einde van het boekjaar, zo niet vaker, moet u de inventaris opmaken (de beschikbare artikelen tellen) om te controleren of het geregistreerde aantal gelijk is aan het aantal in voorraad. Als er verschillen zijn, moet u deze naar de artikelrekeningen boeken voordat u de voorraadwaardering uitvoert.
 
 > [!NOTE]
-> In deze procedure wordt beschreven hoe u een inventarisatie uitvoert met een dagboek, de pagina **Inventarisatiedagboek** . U kunt de taak ook uitvoeren met documenten, de pagina's **Inventarisatieorder** en **Inventarisatieregistratie** , die meer controle bieden en distributie van het tellen naar meerdere werknemers ondersteunen. Zie voor meer informatie [Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md).<br /><br />
+> In deze procedure wordt beschreven hoe u een inventarisatie uitvoert met een dagboek, de pagina **Inventarisatiedagboek**. U kunt de taak ook uitvoeren met documenten, de pagina's **Inventarisatieorder** en **Inventarisatieregistratie**, die meer controle bieden en distributie van het tellen naar meerdere werknemers ondersteunen. Zie voor meer informatie [Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md).<br /><br />
 > De op documenten gebaseerde functionaliteit kan niet worden gebruikt om artikelen te tellen in opslaglocaties en magazijnposten.
 
 Afgezien van de fysieke tellingstaak omvat het volledige proces de volgende drie taken:
@@ -44,54 +44,24 @@ Afgezien van de fysieke tellingstaak omvat het volledige proces de volgende drie
 
 U kunt de inventarisatie op een van de volgende manieren uitvoeren, afhankelijk van de magazijninstellingen. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
--   Als u in de vestiging niet met gestuurde opslag en pick werkt (standaardmagazijnconfiguratie), gebruikt u de pagina **Inventarisatiedagboek** in het menu **Voorraad** . De procedure is grotendeels hetzelfde als die van een inventarisatie zonder periodieke tellingen.  
--   Als uw locatie gestuurde opslag en pick gebruikt (geavanceerde magazijnconfiguratie), gebruikt u eerst de pagina **Mag. inventarisatiedagboek** en vervolgens de pagina **Artikeldagboek** voor het uitvoeren van de functie **Magazijnherwaardering berekenen** .
+-   Als u in de vestiging niet met gestuurde opslag en pick werkt (standaardmagazijnconfiguratie), gebruikt u de pagina **Inventarisatiedagboek** in het menu **Voorraad**. De procedure is grotendeels hetzelfde als die van een inventarisatie zonder periodieke tellingen.  
+-   Als uw locatie gestuurde opslag en pick gebruikt (geavanceerde magazijnconfiguratie), gebruikt u eerst de pagina **Mag. inventarisatiedagboek** en vervolgens de pagina **Artikeldagboek** voor het uitvoeren van de functie **Magazijnherwaardering berekenen**.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>De verwachte voorraad in standaardmagazijnconfiguraties berekenen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatiedagboeken** in en kies de desbetreffende koppeling.
-2. Kies de actie **Voorraad berekenen** .
+2. Kies de actie **Voorraad berekenen**.
 3. Specificeer op de pagina **Voorraad berekenen** de voorwaarden die moeten worden gebruikt om de dagboekregels te maken, zoals of artikelen die niet op voorraad zijn al dan niet moeten worden opgenomen.
 4. Stel alleen filters in als u de voorraad voor bepaalde artikelen, opslaglocaties, vestigingen of dimensies wilt berekenen.
-5. Kies de knop **Ok** .
+5. Kies de knop **Ok**.
 
 > [!NOTE]  
->   De artikelposten worden verwerkt volgens de informatie die u hebt opgegeven en de regels in het inventarisatiedagboek worden gemaakt. U ziet dat het veld **Aantal (inventaris)** automatisch wordt ingevuld met hetzelfde aantal als het veld **Aantal (Berekend)** . Met deze functie hoeft u de getelde voorraad niet handmatig in te voeren voor artikelen die overeenkomen met de berekende hoeveelheid. Als het aantal echter afwijkt van wat is ingevoerd in het veld **aantal (Berekend)** , moet u deze overschrijven met de hoeveelheid die daadwerkelijk is geteld.
-
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>De verwachte voorraad in geavanceerde magazijnconfiguraties berekenen
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboek** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Magazijnherwaardering berekenen** .  
-3.  Vul op de opvraagpagina voor de batchtaak de nummers van de artikelen in die u wilt tellen en uw locatie.
-4. Kies de knop **OK** en boek eventuele aanpassingen.
-
-    Indien u dit niet doet voordat u de magazijninventarisatie uitvoert, zullen de resultaten die u in het tweede deel van het proces naar het voorraaddagboek en naar de artikelposten boekt bestaan uit de inventarisatieresultaten en andere magazijnaanpassingen voor de artikelen die zijn geteld.  
-5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. inventarisatiedagboek** in en kies de desbetreffende koppeling.  
-6. Kies de actie **Voorraad berekenen** . De aanvraagpagina voor batchverwerking **Voorraad berekenen** verschijnt.  
-7.  Stel de gewenste filters in om het aantal artikelen dat wordt geteld in het dagboek te beperken en klik vervolgens op **OK** .
-
-    Er wordt een regel gemaakt voor elke opslaglocatie die voldoet aan de filtercriteria. Op dit moment kunt u nog enkele regels verwijderen, maar als u het resultaat wilt boeken als inventarisatie, moet u alle opslaglocaties opnemen in de artikeltelling.  
-
-     Als u alleen tijd hebt om het artikel in sommige opslaglocaties te tellen, kunt u alsnog discrepanties tegenkomen die u kunt registreren en op een later tijdstip in het artikeldagboek boeken met de functie **Magazijncorrectie** berekenen.  
-8.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijn - Inventarisatielijst** in en kies de desbetreffende koppeling.  
-9.  Open de rapportaanvraagpagina en druk de lijsten af waarin de werknemers het getelde aantal artikelen voor elke opslaglocatie moeten vastleggen.  
-10. Wanneer de artikelen zijn geteld, geeft u de aantallen op in het veld **Aantal (Inventarisatie)** in het inventarisatiedagboek van het magazijn.  
-
-    > [!NOTE]  
-    >  In het magazijninventarisatiedagboek wordt het veld **Aantal (Berekend)** automatisch gevuld op basis van gegevens van magazijn-opslaglocaties en worden deze hoeveelheden gekopieerd naar het veld **Aantal (Fysiek)** op elke regel. Als het aantal dat de magazijnwerknemer geteld heeft, afwijkt van wat de toepassing heeft ingevoerd in het veld Aantal (Fysiek), moet u het werkelijk getelde aantal invoeren.  
-
-11. Wanneer u alle getelde aantallen hebt ingevoerd, kiest u de actie **Registreren** .  
-
-    Wanneer u het dagboek registreert, worden er twee magazijnposten gemaakt in het magazijnregister voor elke getelde en geregistreerde regel.  
-
-    -   Als de berekende aantallen niet overeenkomen met de getelde aantallen, wordt een negatief of positief aantal geregistreerd voor de opslaglocatie. Vervolgens wordt een tegengesteld aantal geboekt naar de correctieopslaglocatie van de vestiging.  
-    -   Als het berekende aantal wel overeenkomt met het getelde aantal, wordt een post met de waarde 0 geregistreerd voor zowel de opslaglocatie als de correctieopslaglocatie. De post bestaat uit de record dat een inventarisatie heeft plaatsgevonden op de registratiedatum en dat er geen verschillen zijn aangetroffen voor het artikel.  
-
-Wanneer u de magazijninventarisatie registreert, boekt u niet naar de artikelposten, de inventarisatieposten of de waardeposten, maar de gegevens zijn er voor het geval deze nodig zijn. Indien u echter nauwkeurige administratie bij wilt houden van wat er in het magazijn gebeurt en u alle opslaglocaties waar de artikelen zijn geregistreerd zou tellen, moet u onmiddellijk de magazijnresultaten als een voorraadinventarisatie boeken. Zie [De werkelijk getelde voorraad in geavanceerde magazijnconfiguraties invoeren en boeken](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
+>   De artikelposten worden verwerkt volgens de informatie die u hebt opgegeven en de regels in het inventarisatiedagboek worden gemaakt. U ziet dat het veld **Aantal (inventaris)** automatisch wordt ingevuld met hetzelfde aantal als het veld **Aantal (Berekend)**. Met deze functie hoeft u de getelde voorraad niet handmatig in te voeren voor artikelen die overeenkomen met de berekende hoeveelheid. Als het aantal echter afwijkt van wat is ingevoerd in het veld **aantal (Berekend)**, moet u deze overschrijven met de hoeveelheid die daadwerkelijk is geteld.
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Het rapport afdrukken dat bij het tellen moet worden gebruikt
-1. Klik op de pagina **Inventarisatiedagboek** met de berekende verwachte voorraad op de actie **Afdrukken** .
+1. Klik op de pagina **Inventarisatiedagboek** met de berekende verwachte voorraad op de actie **Afdrukken**.
 2. Specificeer op de pagina **Inventarisatielijst** of het rapport het berekende aantal moet tonen en of het rapport voorraadartikelen op serie-/lotnummers moet tonen.
 3. Stel filters in als u het rapport alleen wilt afdrukken voor bepaalde artikelen, opslaglocaties, vestigingen of dimensies.
-4. Klik op **Afdrukken** .
+4. Klik op **Afdrukken**.
 
 Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijkingen in het afgedrukte rapport vastleggen.
 
@@ -106,32 +76,54 @@ Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijki
     > [!NOTE]  
     >   Als de verschillen in de telling worden veroorzaakt door artikelen die met de verkeerde vestigingscode zijn geboekt, moet u de verschillen niet invoeren in het inventarisatiedagboek. Gebruik in plaats daarvan het herindelingsdagboek of een transferorder om items om te leiden naar de juiste vestigingen. Zie voor meer informatie Art.-herindelingsdagboek of Transferorders maken.
 
-2. Als de berekende aantallen wilt aanpassen aan de feitelijk getelde aantallen, kiest u de actie **Boeken** .
+2. Als de berekende aantallen wilt aanpassen aan de feitelijk getelde aantallen, kiest u de actie **Boeken**.
 
     Zowel de artikelposten als de inventarisatieposten worden gemaakt. Open de artikelkaart om de resulterende inventarisatieposten te bekijken.
 
 3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
-4. Als u de inventarisatie wilt controleren, opent u de betreffende artikelkaart en kiest u de actie **Inventarisatieposten** .
+4. Als u de inventarisatie wilt controleren, opent u de betreffende artikelkaart en kiest u de actie **Inventarisatieposten**.
+
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>De verwachte voorraad in geavanceerde magazijnconfiguraties berekenen
+Synchroniseer artikelpost en magazijn voordat u de magazijninventarisatie uitvoert, anders zullen de resultaten die u in het laatste deel van het proces naar het voorraaddagboek en naar de artikelposten boekt, bestaan uit de inventarisatieresultaten en andere magazijnaanpassingen voor de artikelen die zijn geteld. Zie voor meer informatie [hoeveelheden synchroniseren in artikelpost en magazijn](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. inventarisatiedagboek** in en kies de desbetreffende koppeling.  
+2. Kies de actie **Voorraad berekenen**. De aanvraagpagina voor batchverwerking **Voorraad berekenen** verschijnt.  
+3. Stel de gewenste filters in om het aantal artikelen dat wordt geteld in het dagboek te beperken en klik vervolgens op **OK**.
+
+    Er wordt een regel gemaakt voor elke opslaglocatie die voldoet aan de filtercriteria. Op dit moment kunt u nog enkele regels verwijderen, maar als u het resultaat wilt boeken als inventarisatie, moet u alle opslaglocaties opnemen in de artikeltelling.  
+
+     Als u alleen tijd hebt om het artikel in sommige opslaglocaties te tellen, kunt u alsnog discrepanties tegenkomen die u kunt registreren en op een later tijdstip in het artikeldagboek boeken met de functie **Magazijncorrectie** berekenen.  
+
+
+### <a name="to-print-the-report-to-be-used-when-counting"></a>Het rapport afdrukken dat bij het tellen moet worden gebruikt
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Fysieke voorraadlijst van magazijn** in en kies de desbetreffende koppeling.  
+2. Open de rapportaanvraagpagina en druk de lijsten af waarin de werknemers het getelde aantal artikelen voor elke opslaglocatie moeten vastleggen.  
+
+Medewerkers kunnen nu verder met het tellen van de voorraad en eventuele afwijkingen in het afgedrukte rapport vastleggen.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>De werkelijk getelde voorraad in geavanceerde magazijnconfiguraties invoeren en boeken
+1. Wanneer de artikelen zijn geteld, geeft u de aantallen op in het veld **Aantal (Inventarisatie)** in het inventarisatiedagboek van het magazijn.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboek** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Magazijnherwaardering berekenen** .  
-3.  Selecteer dezelfde artikelen die u hebt geteld in de inventarisatie door middel van periodieke tellingen die u zojuist hebt uitgevoerd en andere artikelen die moeten worden aangepast en kies vervolgens de knop **OK** .  
+    > [!NOTE]  
+    >  In het magazijninventarisatiedagboek wordt het veld **Aantal (Berekend)** automatisch gevuld op basis van gegevens van magazijn-opslaglocaties en worden deze hoeveelheden gekopieerd naar het veld **Aantal (Fysiek)** op elke regel. Als het aantal dat de magazijnwerknemer geteld heeft, afwijkt van wat de toepassing heeft ingevoerd in het veld Aantal (Fysiek), moet u het werkelijk getelde aantal invoeren.  
 
-     De pagina **Voorraaddagboek** wordt geopend en voor deze artikelen worden regels gemaakt. Merk op dat de netto aantallen die u zojuist per opslaglocatie hebt geteld en geregistreerd nu gereed zijn om als artikelposten geconsolideerd en gesynchroniseerd te worden.  
+2. Wanneer u alle getelde aantallen hebt ingevoerd, kiest u de actie **Registreren**.  
 
-4.  Boek het dagboek zonder de aantallen te wijzigen.  
+    Wanneer u het dagboek registreert, worden er twee magazijnposten gemaakt in het magazijnregister voor elke getelde en geregistreerde regel.  
 
-De aantallen op de artikel- en de magazijnposten zijn nu wederom gelijk voor deze artikelen. De toepassing heeft de laatste tellingsdatum van het artikel of de SKU bijgewerkt.  
+    -   Als de berekende aantallen niet overeenkomen met de getelde aantallen, wordt een negatief of positief aantal geregistreerd voor de opslaglocatie. Vervolgens wordt een tegengesteld aantal geboekt naar de correctieopslaglocatie van de vestiging.  
+    -   Als het berekende aantal wel overeenkomt met het getelde aantal, wordt een post met de waarde 0 geregistreerd voor zowel de opslaglocatie als de correctieopslaglocatie. De post bestaat uit de record dat een inventarisatie heeft plaatsgevonden op de registratiedatum en dat er geen verschillen zijn aangetroffen voor het artikel.  
+
+Wanneer u de magazijninventarisatie registreert, boekt u niet naar de artikelposten, de inventarisatieposten of de waardeposten, maar de gegevens zijn er voor het geval deze nodig zijn. Indien u echter nauwkeurige administratie bij wilt houden van wat er in het magazijn gebeurt en u alle opslaglocaties waar de artikelen zijn geregistreerd zou tellen, moet u onmiddellijk de magazijnresultaten als een voorraadinventarisatie boeken. Zie voor meer informatie [hoeveelheden synchroniseren in artikelpost en magazijn](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
 
 ## <a name="to-perform-cycle-counting"></a>Clustertelling uitvoeren
 Hoewel alle artikelen in het magazijn minimaal een keer per jaar worden geteld, wilt u sommige artikelen misschien vaker tellen omdat ze waardevoller zijn of snel worden omgezet en belangrijk zijn voor het bedrijf. U kunt tellingsperioden instellen en toewijzen aan magazijnartikelen. Voor dit doel kunt u speciale telperioden aan die artikelen toewijzen.
 
 U kunt de periodieke tellingen op een van de volgende manieren uitvoeren, afhankelijk van de magazijninstellingen. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
--   Als u in de vestiging niet met gestuurde opslag en pick werkt (standaardmagazijnconfiguratie), gebruikt u de pagina **Inventarisatiedagboek** in het menu **Voorraad** . De procedure is grotendeels hetzelfde als die van een inventarisatie zonder periodieke tellingen.  
--   Als uw locatie gestuurde opslag en pick gebruikt (geavanceerde magazijnconfiguratie), gebruikt u eerst de pagina **Mag. inventarisatiedagboek** en vervolgens de pagina **Artikeldagboek** voor het uitvoeren van de functie **Magazijnherwaardering berekenen** .  
+-   Als u in de vestiging niet met gestuurde opslag en pick werkt (standaardmagazijnconfiguratie), gebruikt u de pagina **Inventarisatiedagboek** in het menu **Voorraad**. De procedure is grotendeels hetzelfde als die van een inventarisatie zonder periodieke tellingen.  
+-   Als uw locatie gestuurde opslag en pick gebruikt (geavanceerde magazijnconfiguratie), gebruikt u eerst de pagina **Mag. inventarisatiedagboek** en vervolgens de pagina **Artikeldagboek** voor het uitvoeren van de functie **Magazijnherwaardering berekenen**.  
 
 ### <a name="to-set-up-counting-periods"></a>U kunt als volgt tellingsperioden instellen
 Een inventarisatie wordt gewoonlijk periodiek uitgevoerd, bijvoorbeeld maandelijks, per kwartaal of jaarlijks. U kunt elke gewenste periode instellen.
@@ -149,30 +141,30 @@ U stelt de inventarisatieperioden in die u wilt gebruiken en wijst er vervolgens
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Een inventarisatie uitvoeren op basis van tellingsperioden in standaardmagazijnconfiguraties
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatiedagboek** in en kies de desbetreffende koppeling.
-2. Kies de actie **Tellingsperiode berekenen** .
+2. Kies de actie **Tellingsperiode berekenen**.
 
     De pagina **Inventarisatieartikelselectie** wordt geopend en bevat de artikelen waaraan tellingsperioden zijn toegewezen en die op basis daarvan moeten worden geteld.
 3. Voer de inventarisatie uit. Zie voor meer informatie [Een inventarisatie uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Een inventarisatie uitvoeren op basis van tellingsperioden in geavanceerde magazijnconfiguraties
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. inventarisatiedagboek** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Tellingsperiode berekenen** .
+2. Kies de actie **Tellingsperiode berekenen**.
 
     De pagina **Inventarisatieartikelselectie** wordt geopend en bevat de artikelen waaraan tellingsperioden zijn toegewezen en die op basis daarvan moeten worden geteld.
 3. Voer de inventarisatie uit. Zie voor meer informatie [Een inventarisatie uitvoeren](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
-    >  U moet het artikel tellen in alle opslaglocaties die het betreffende artikel bevatten. Als u enkele opslaglocatieregels verwijdert die de toepassing heeft opgehaald om te tellen op de pagina **Mag. Inventarisatie** , worden niet alle artikelen geteld die in het magazijn zijn. Indien u later dergelijke onvolledige resultaten in het inventarisatiedagboek boekt, zijn de geboekte aantallen onjuist.  
+    >  U moet het artikel tellen in alle opslaglocaties die het betreffende artikel bevatten. Als u enkele opslaglocatieregels verwijdert die de toepassing heeft opgehaald om te tellen op de pagina **Mag. Inventarisatie**, worden niet alle artikelen geteld die in het magazijn zijn. Indien u later dergelijke onvolledige resultaten in het inventarisatiedagboek boekt, zijn de geboekte aantallen onjuist.  
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>De voorraad van één artikel aanpassen
 Nadat u een fysieke telling hebt uitgevoerd van een artikel in uw voorraadgebied, kunt u de functie **Voorraad wijzigen** gebruiken om het werkelijke voorraadaantal vast te leggen.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
-2. Selecteer het artikel waarvoor u voorraad wilt aanpassen, en kies vervolgens de actie **Voorraad wijzigen** .
+2. Selecteer het artikel waarvoor u voorraad wilt aanpassen, en kies vervolgens de actie **Voorraad wijzigen**.
 3. Voer in het veld **Nieuwe voorraad** het voorraadaantal in dat u voor het artikel wilt vastleggen.
-4. Kies de knop **Ok** .
+4. Kies de knop **Ok**.
 
-De voorraad van het artikel is nu aangepast. Het nieuwe aantal wordt weergegeven in het veld **Huidige voorraad** op de pagina **Voorraad wijzigen** en in het veld **Voorraad** op de pagina **Artikelkaart** .
+De voorraad van het artikel is nu aangepast. De nieuwe hoeveelheid wordt weergegeven in het veld **Beschikbare hoeveelheid** op de pagina **Artikelkaart**.
 
 U kunt ook de functie **Voorraad wijzigen** gebruiken als eenvoudige manier om gekochte artikelen op voorraad te plaatsen als u geen inkoopfacturen of orders gebruikt om uw inkopen te registreren. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
@@ -185,11 +177,8 @@ Op de pagina **Artikeldagboek** kunt u rechtstreeks artikeltransacties boeken om
 Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregels te boeken, bijvoorbeeld met betrekking tot materiële consumptie, kunt u de pagina **Standaardartikeldagboek** gebruiken om deze terugkerende taak gemakkelijker te maken. Zie [Werken met standaarddagboeken](ui-work-general-journals.md#working-with-standard-journals) voor meer informatie.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.
-2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Kies de actie **Boeken** om de voorraadherwaarderingen te maken.
-
-> [!NOTE]  
->   Als u voorraad hebt aangepast, moet u deze bijwerken met de huidige, berekende waarde. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Opslaglocatieaantallen in geavanceerde magazijnconfiguraties aanpassen  
 Als uw locatie met gestuurde opslag en pick werkt, wordt het **Mag.artikeldagboek** gebruikt om, buiten de context van de inventarisatie, alle positieve en negatieve correcties van het artikelaantal te boeken waarbij het gaat om werkelijke winst (bijvoorbeeld "verloren" artikelen die worden teruggevonden) of werkelijk verlies, bijvoorbeeld breekbare artikelen die stukgaan.  
@@ -201,7 +190,7 @@ In tegenstelling tot bij het boeken van herwaarderingen in het voorraadartikelda
 3.  Vul het veld **Artikelnr.** op de regel in.  
 4.  Voer de naam van de opslaglocatie in waar u de extra artikelen wilt opslaan of waar de artikelen verloren zijn gegaan.  
 5.  In het veld **Aantal** voert u het verschil in dat u hebt waargenomen. Als u extra artikelen hebt aangetroffen, voert u een positief aantal in. Bij ontbrekende artikelen voert u een negatieve waarde in.  
-6.  Kies de actie **Registreren** .
+6.  Kies de actie **Registreren**.
 
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>De aangepaste magazijnposten synchroniseren met de gerelateerde artikelposten
 U moet op basis van toepasselijke intervallen, zoals deze via bedrijfsbeleid zijn gedefinieerd, de opslaglocatierecords voor magazijnherwaardering in de artikelpost boeken. In sommige bedrijven worden dergelijke herwaarderingen dagelijks bijgewerkt, terwijl dit proces in andere bedrijven minder vaak plaatsvindt.
@@ -209,8 +198,8 @@ U moet op basis van toepasselijke intervallen, zoals deze via bedrijfsbeleid zij
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboek** in en kies de gerelateerde koppeling.  
 2.  Vul de velden op de dagboekregels in.  
 3.  Kies de actie **Magazijnherwaardering berekenen** en vul de gewenste filters op de aanvraagpagina voor de batchtaak in. De herwaarderingen worden alleen berekend voor de posten in de opslaglocatieherwaardering die aan filtervereisten voldoen.  
-4.  Op het sneltabblad **Opties** geeft u een waarde op voor het veld **Documentnr.** . Aangezien er geen getalreeks is ingesteld voor deze batchverwerking, kunt u het getalschema aanhouden dat is ingesteld voor het magazijn. Omdat er geen nummerreeks is ingesteld voor deze batchverwerking, moet u het nummerschema gebruiken dat is ingesteld door het magazijn of moet u de datum opgeven, gevolgd door uw initialen.  
-5.  Kies de knop **OK** . Vervolgens worden er in het artikeldagboek regels gemaakt voor elk artikel waarvan de totale waarde een positief of negatief aantal is.  
+4.  Op het sneltabblad **Opties** geeft u een waarde op voor het veld **Documentnr.**. Aangezien er geen getalreeks is ingesteld voor deze batchverwerking, kunt u het getalschema aanhouden dat is ingesteld voor het magazijn. Omdat er geen nummerreeks is ingesteld voor deze batchverwerking, moet u het nummerschema gebruiken dat is ingesteld door het magazijn of moet u de datum opgeven, gevolgd door uw initialen.  
+5.  Kies de knop **OK**. Vervolgens worden er in het artikeldagboek regels gemaakt voor elk artikel waarvan de totale waarde een positief of negatief aantal is.  
 6.  Boek de dagboekregels om de verschillen in aantal in te voeren op de artikelposten. De voorraad in de opslaglocaties van het magazijn komt nu precies overeen met de voorraad op de artikelposten.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Het lotnummer van een artikel herindelen
@@ -224,7 +213,7 @@ Het volgende voorbeeld is gebaseerd op een vestigingscode. De stappen zijn verge
 2. Vul op de pagina **Artikelherindelingsdagboeken** indien nodig de velden in.
 3. In het veld **Vestiging** voert u de huidige vestigingscode voor het artikel in.
 4. In het veld **Nieuwe vestiging** voert u de nieuwe vestigingscode voor het artikel in.
-5. Kies de actie **Boeken** .
+5. Kies de actie **Boeken**.
 
 Zie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md) voor het overbrengen van artikelen met volledige controle over verzonden en ontvangen hoeveelheden.
 
@@ -234,4 +223,4 @@ Zie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-loc
 [Magazijnbeheer](warehouse-manage-warehouse.md)    
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

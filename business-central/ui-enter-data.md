@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912508"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840265"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -24,7 +24,7 @@ Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker 
 In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
 
 ## <a name="working-with-editable-fields"></a>Werken met bewerkbare gegevens
-Velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
+Velden in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
 
 Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specificeren.  
 
@@ -33,7 +33,7 @@ Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specific
 |------------------|------------------------------------|
 |Datumkiezer       |Deze kiezer geeft een kalender weer die is gebaseerd op uw huidige regionale instellingen. Het helpt u bij het kiezen van een enkele datum.|
 |Vervolgkeuzelijst          |Vervolgkeuzelijsten bieden een keuze uit vaste waarden of verwijzen naar records uit een andere tabel|
-|Schakelaar of selectievakje|Sommige velden bieden een eenvoudige keuze uit *Ja* - of *Nee* -waarden. De schakelaar wordt gebruikt om deze waarde op te geven en wordt altijd weergegeven als een selectievakje in lijsten|
+|Schakelaar of selectievakje|Sommige velden bieden een eenvoudige keuze uit *Ja*- of *Nee*-waarden. De schakelaar wordt gebruikt om deze waarde op te geven en wordt altijd weergegeven als een selectievakje in lijsten|
 |AssistEdit       |Sommige velden bieden aangepaste kiezers die geschikt zijn om de beste waarde op te zoeken en voor dat veld te kiezen, zoals een pop-upvenster|
 
 
@@ -41,20 +41,20 @@ Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specific
 
 Om de waarde van een veld te wijzigen, moet u eerst de focus op dat veld instellen. U stelt de focus in door de volgende acties uit te voeren:
 
-- Gebruik de **Tab** -toets. De actie selecteert de volledige waarde.
+- Gebruik de **Tab**-toets. De actie selecteert de volledige waarde.
 - Klik met de linkerknop van de muis of vergelijkbaar invoerapparaat. Deze actie selecteert alleen de volledige veldwaarde als het veld in een lijst staat.  
 
-Wanneer u interactie hebt met velden in de gebruikersinterface, selecteert [!INCLUDE[d365fin](includes/d365fin_md.md)] meestal de volledige veldwaarde, zodat u die gemakkelijker kunt vervangen.
+Wanneer u interactie hebt met velden in de gebruikersinterface, selecteert [!INCLUDE[prod_short](includes/prod_short.md)] meestal de volledige veldwaarde, zodat u die gemakkelijker kunt vervangen.
 
 Wanneer de volledige veldwaarde is geselecteerd:
-- Vervang de waarde door gewoon te typen om een nieuwe waarde op te geven. Als het veld een kiezer biedt, kunt u deze activeren met de sneltoets **Alt+Pijl-omlaag** .
+- Vervang de waarde door gewoon te typen om een nieuwe waarde op te geven. Als het veld een kiezer biedt, kunt u deze activeren met de sneltoets **Alt+Pijl-omlaag**.
 - Gebruik de toets **Delete** of **Backspace** om de waarde te wissen.
 
 Druk op de toets **F2** om te wisselen tussen het selecteren van de volledige veldwaarde of het plaatsen van de cursor achter de veldwaarde. Door de cursor aan het einde van de waarde te plaatsen, kunt u gemakkelijker aan de bestaande waarde toevoegen.
 
 Als de cursor wordt weergegeven aan het einde van de veldwaarde:
 - Voeg toe aan de waarde door gewoon te typen.
-- Gebruik de toetsen **Home** , **End** , **Pijl-links** en **Pijl-rechts** om de cursor binnen de waarde te verplaatsen. Als u een veld in een lijst bewerkt en u nogmaals u op de toets **Pijl-links** drukt wanneer de cursor aan het begin van de waarde staat, wordt de focus ingesteld op het vorige veld. Als u nogmaals op de toets **Pijl-rechts** drukt wanneer de cursor aan het einde van de waarde staat, wordt de focus op het volgende veld gezet.
+- Gebruik de toetsen **Home**, **End**, **Pijl-links** en **Pijl-rechts** om de cursor binnen de waarde te verplaatsen. Als u een veld in een lijst bewerkt en u nogmaals u op de toets **Pijl-links** drukt wanneer de cursor aan het begin van de waarde staat, wordt de focus ingesteld op het vorige veld. Als u nogmaals op de toets **Pijl-rechts** drukt wanneer de cursor aan het einde van de waarde staat, wordt de focus op het volgende veld gezet.
 
 > [!NOTE]
 > Nadat u een waarde hebt opgegeven, controleert Business Central pas of deze geldig is nadat u buiten het veld hebt geklikt of de focus hebt ingesteld op een ander element, zoals het volgende veld.  
@@ -74,7 +74,7 @@ U kunt de Tab-toets gebruiken om van het ene veld op een pagina naar het volgend
 
 ### <a name="how-quick-entry-works"></a>Hoe snelinvoer werkt
 
-Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer* . Velden die zijn opgenomen in snelinvoer, worden in het pad opgenomen wanneer u op Enter drukt. Velden die zijn uitgesloten van snelinvoer, worden dat niet.
+Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die zijn opgenomen in snelinvoer, worden in het pad opgenomen wanneer u op Enter drukt. Velden die zijn uitgesloten van snelinvoer, worden dat niet.
 
 Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Sneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
 
@@ -85,7 +85,7 @@ De volgende lijst bevat wat nuttige informatie over het gebruik van snelinvoer.
 - Het is beschikbaar voor bewerkbare velden.
 - Het werkt ook over kolommen en rijen.
 - Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze elementen zijn nog toegankelijk met behulp van Tab en Shift+Tab.  
-- Het is niet vereist dat sneltabbladen worden uitgevouwen om snelle invoer te laten werken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het gekozen veld. [!INCLUDE[d365fin](includes/d365fin_md.md)] onthoudt dat het sneltabblad de volgende keer dat u de pagina bezoekt, moet worden uitgevouwen.  
+- Het is niet vereist dat sneltabbladen worden uitgevouwen om snelle invoer te laten werken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het gekozen veld. [!INCLUDE[prod_short](includes/prod_short.md)] onthoudt dat het sneltabblad de volgende keer dat u de pagina bezoekt, moet worden uitgevouwen.  
 - Snelinvoer werkt ongeacht of velden verplicht zijn. Het is dus een goed idee te zorgen dat verplichte velden zijn opgenomen in snelinvoer.
 - Standaard worden de meeste velden automatisch opgenomen in snelinvoer. In eerste instantie moet u dus waarschijnlijk velden uitsluiten van snelinvoer.
 
@@ -93,8 +93,8 @@ De volgende lijst bevat wat nuttige informatie over het gebruik van snelinvoer.
 
 Om snelinvoer op velden in te stellen, gebruikt u personalisatie.
 
-1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te selecteren en vervolgens de actie **Personaliseren** .
-2. Selecteer een veld dat u wilt wijzigen. Selecteer in lijsten de bijbehorende kolomkop. Kies dan **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer** .
+1. Start personalisatie door het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") te selecteren en vervolgens de actie **Personaliseren**.
+2. Selecteer een veld dat u wilt wijzigen. Selecteer in lijsten de bijbehorende kolomkop. Kies dan **Opnemen in snelinvoer** of **Uitsluiten van snelinvoer**.
 
 Zie voor meer informatie over personalisatie [Uw werkruimte personaliseren](ui-personalization-user.md).
 
@@ -120,7 +120,7 @@ U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren
 
 Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, drukt u op F8.
 
-Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md).
+Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Regelitems filteren
 
@@ -162,7 +162,7 @@ Kies om de huidige kaart of het huidige document in een nieuw venster te openen 
 > Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Hetzelfde kan gebeuren in andere browsers, zoals Firefox. Zie [Instellingen voor pop-upblokkering in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) voor meer informatie.  
 
-Een andere manier om te multitasken is om [!INCLUDE[d365fin](includes/d365fin_md.md)] te openen op twee of meer browsertabbladen. Wanneer u dit zo doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
+Een andere manier om te multitasken is om [!INCLUDE[prod_short](includes/prod_short.md)] te openen op twee of meer browsertabbladen. Wanneer u dit zo doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
 
 > [!NOTE]
 > Gebruik niet de functie **Dupliceren** van de browser om het nieuwe tabblad te maken, omdat hierdoor acties op één tabblad acties op andere tabbladen kunnen blokkeren omdat ze deel uitmaken van dezelfde sessie.
@@ -199,7 +199,7 @@ U kunt negatieve getallen op twee manieren invoeren. Nummer -20.5 kan worden ing
 U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan datums (datumvelden). U kunt datums met of zonder scheidingstekens invoeren.
 
 > [!NOTE]  
-> Hoe u datums en tijden invoert, hangt af van uw instellingen onder **Regio** . Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
+> Hoe u datums en tijden invoert, hangt af van uw instellingen onder **Regio**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Datums invoeren
 
@@ -294,4 +294,4 @@ Hier volgen enkele voorbeelden.
 
 ## <a name="see-also"></a>Zie ook  
  [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

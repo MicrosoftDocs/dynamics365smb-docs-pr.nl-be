@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922706"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759354"
 ---
 # <a name="create-routings"></a>Bewerkingsplannen maken
 
@@ -33,21 +33,21 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 ## <a name="to-create-a-routing"></a>Een bewerkingsplan maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw** .  
+2. Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Selecteer in het veld **Soort** de optie **Serieel** om bewerkingen in het productiebewerkingsplan te berekenen op basis van de waarde in het veld **Bewerkingsnr.** . te kiezen.  
+4. Selecteer in het veld **Soort** de optie **Serieel** om bewerkingen in het productiebewerkingsplan te berekenen op basis van de waarde in het veld **Bewerkingsnr.**. te kiezen.  
     Selecteer **Parallel** om de bewerkingen te berekenen op basis van de waarde in het **Volgend bewerkingsnr.** te kiezen.  
-5. Als u het bewerkingsplan wilt bewerken, stelt u het veld **Status** in op **Nieuw** of **In ontwikkeling** . Als u het wilt inschakelen, stelt u het veld **Status** in op **Gecertificeerd** .  
+5. Als u het bewerkingsplan wilt bewerken, stelt u het veld **Status** in op **Nieuw** of **In ontwikkeling**. Als u het wilt inschakelen, stelt u het veld **Status** in op **Gecertificeerd**.  
 
     Vul de bewerkingsplanregels in.
-6. Voer in het veld **Bewerkingsnr.** het nummer in van de eerste bewerking in, bijvoorbeeld **10** .  
-7. In het veld **Soort** geeft u op wat voor soort resource wordt gebruikt (bijvoorbeeld **Afdeling** ).  
+6. Voer in het veld **Bewerkingsnr.** het nummer in van de eerste bewerking in, bijvoorbeeld **10**.  
+7. In het veld **Soort** geeft u op wat voor soort resource wordt gebruikt (bijvoorbeeld **Afdeling**).  
 8. Selecteer in het veld **Nr.** de resource of typ deze resource in het veld.  
 9. In het veld **Bewerkingsplankoppeling** voert u een code in om het onderdeel aan een bepaalde bewerking te koppelen. Zie [Bewerkingsplankoppelingen maken](production-how-to-create-routings.md#to-create-routing-links) voor meer informatie.
 10. Geef in de velden **Bewerkingstijd** en **Insteltijd** de verwerkingstijden op die nodig zijn voor de uitvoering van de bewerking.
 
-    > [!NOTE]
-    > De insteltijd wordt per productieorder berekend en de bewerkingstijd per geproduceerd artikel.  
+     > [!NOTE]
+     > De insteltijd wordt per productieorder berekend en de bewerkingstijd per geproduceerd artikel.  
 
 11. Geef in het veld **Gelijktijdige capaciteit** op hoeveel eenheden van de geselecteerde resource worden gebruikt om de bewerking uit te voeren. Bij toewijzing van twee personen aan één verpakkingsbewerking wordt de bewerkingstijd bijvoorbeeld gehalveerd  
 12. Ga door met het invullen van de regels voor alle bewerkingen die betrokken zijn bij de productie van het desbetreffende artikel.  
@@ -56,7 +56,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 15. U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen door het veld **Bew.-plannr.** in te vullen. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> Zorg ervoor dat u de vaste verrekenprijs van het artikel opnieuw berekent vanuit de kaart **Artikel** : kies hiervoor achtereenvolgens de acties **Productie** , **Vaste verrekenprijs berekenen** en **Alle niveaus** .  
+> Zorg ervoor dat u de vaste verrekenprijs van het artikel opnieuw berekent vanuit de kaart **Artikel**: kies hiervoor achtereenvolgens de acties **Productie**, **Vaste verrekenprijs berekenen** en **Alle niveaus**.  
 
 ## <a name="to-create-routing-links"></a>Bewerkingsplankoppelingen maken
 
@@ -77,7 +77,7 @@ Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is 
     >
     > Het is aan te raden om de bewerkingsplankoppeling dezelfde naam te geven als de bewerking zelf om er zeker van te zijn dat materialen maar aan één bewerking worden gekoppeld.
 
-5. Stel de status van het bewerkingsplan in op **Gecertificeerd** .  
+5. Stel de status van het bewerkingsplan in op **Gecertificeerd**.  
 
     Nu worden bewerkingsplankoppelingen aan bewerkingen toegewezen. Vervolgens moet u de feitelijke koppeling maken door dezelfde codes toe te wijzen aan bepaalde materialen in de desbetreffende productiestuklijst.  
 
@@ -85,7 +85,7 @@ Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is 
 7. Controleer of de status van de stuklijst **In ontwikkeling** is.  
 8. Op de regel van de desbetreffende productiestuklijst in het veld **Bewerkingsplankoppeling** selecteert u de code die u zojuist hebt toegewezen aan de desbetreffende bewerking.  
 9. Ga door met het toevoegen van materialen aan unieke bewerkingen waar dat nodig is.  
-10. Stel de status van de productiestuklijst in op **Gecertificeerd** .  
+10. Stel de status van de productiestuklijst in op **Gecertificeerd**.  
 
     > [!NOTE]  
     > In een bestaande productieorder kunnen de bewerkingsplankoppelingen pas worden gebruikt nadat u die productieorder hebt vernieuwd. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
@@ -98,7 +98,7 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
 2. Open het betreffende bewerkingsplan.  
-3. Op het sneltabblad **Regels** selecteert u de regel die u wilt verwerken, kiest u de actie **Bewerkingen** en vervolgens kiest u de actie **Medewerkers** .  
+3. Op het sneltabblad **Regels** selecteert u de regel die u wilt verwerken, kiest u de actie **Bewerkingen** en vervolgens kiest u de actie **Medewerkers**.  
 4. Vul de velden op de pagina **Medewerkers bewerkingsplan** in.  
 5. Kies de knop **OK** om de pagina af te sluiten. De ingevoerde waarden worden gekopieerd en toegewezen aan de bewerking.  
 
@@ -107,19 +107,19 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan te beheren. De structuur van de bewerkingsplanversie komt overeen met de structuur van het bewerkingsplan: een bewerkingsplanversiekop en -regels. Het belangrijkste verschil wordt bepaald door de begindatum.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
-2. Selecteer het bewerkingsplan dat u wilt kopiëren en kies de actie **Versies** .  
-3. Kies op de pagina **Bewerkingsplanversies** de actie **Nieuw** .
+2. Selecteer het bewerkingsplan dat u wilt kopiëren en kies de actie **Versies**.  
+3. Kies op de pagina **Bewerkingsplanversies** de actie **Nieuw**.
 4. Vul de benodigde velden in.
 5. Voer in het veld **Versiecode** de unieke identificatie van de versie in. Alle combinaties van cijfers en letters zijn toegestaan.  
 
-    De nieuwe versie krijgt automatisch de status **Nieuw** .  
+    De nieuwe versie krijgt automatisch de status **Nieuw**.  
 6. Als u bewerkingsregels wilt maken, selecteert u de eerste lege regel en vult u bij **Bewerkingsnr.** de waarde in die overeenkomt met de volgorde van de bewerkingen.
 
     De bewerkingsregels worden in oplopende volgorde gesorteerd op bewerkingsnummers. Als u later nog wijzigingen of toevoegingen wilt maken, is het raadzaam dat u tussen iedere stap voldoende ruimte voor tussenstappen laat. Het veld **Volgend bewerkingsnr.** verwijst naar de volgende bewerking. Het nummer van de bewerking kan rechtstreeks worden ingevoerd.
 
-7. Wanneer de bewerkingsplanversie is voltooid, wordt het veld **Status** ingesteld op **Gecertificeerd** .
+7. Wanneer de bewerkingsplanversie is voltooid, wordt het veld **Status** ingesteld op **Gecertificeerd**.
 
-De geldigheid van de versie wordt aangegeven in het veld **Begindatum** .  
+De geldigheid van de versie wordt aangegeven in het veld **Begindatum**.  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -129,4 +129,4 @@ De geldigheid van de versie wordt aangegeven in het veld **Begindatum** .
 [Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

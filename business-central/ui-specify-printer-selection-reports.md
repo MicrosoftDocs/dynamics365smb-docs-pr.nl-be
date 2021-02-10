@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916005"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760304"
 ---
 # <a name="set-up-printers"></a>Printers instellen
-Omdat [!INCLUDE[prodshort](includes/prodshort.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
+Omdat [!INCLUDE[prod_short](includes/prod_short.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
 
-Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde printer niet werkt, wordt het afdrukken standaard ingesteld op de afdrukopties voor de browser. Dit wordt aangegeven door deze waarde in het veld **Printer** op de rapportaanvraagpagina: *(geen, afgehandeld door de browser)* .
+Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde printer niet werkt, wordt het afdrukken standaard ingesteld op de afdrukopties voor de browser. Dit wordt aangegeven door deze waarde in het veld **Printer** op de rapportaanvraagpagina: *(geen, afgehandeld door de browser)*.
 
 Op de pagina **Printerbeheer** ziet u de printers die zijn ingesteld. Wanneer u een of meer printers hebt ingesteld, kunt u de pagina **Printerselecties** openen om voor uw gebruikersaccount in te stellen welke specifieke rapporten met welke printer moeten worden afgedrukt.
 
@@ -40,14 +40,14 @@ De volgende procedure beschrijft hoe u de bestaande **e-mailprinter** instelt, w
 > Om e-mailafdrukken te kunnen gebruiken, moet e-mailfunctionaliteit zijn ingesteld. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerbeheer** in en selecteer de desbetreffende koppeling.
-2. Selecteer de regel voor de **e-mailprinter** en kies vervolgens de actie **Printerinstellingen bewerken** .
+2. Selecteer de regel voor de **e-mailprinter** en kies vervolgens de actie **Printerinstellingen bewerken**.
 3. Vul de vereiste velden op de pagina **Instellingen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
     > U moet handmatig het juiste papierformaat voor een printer selecteren, omdat er geen lokale printer of gebruikersinstellingen kunnen worden opgeslagen.
     >
-    > Houd er rekening mee dat de extensie E-mailprinter standaard is ingesteld op **A4** -papierformaat, dat bijvoorbeeld niet geschikt is in Noord-Amerika.
-4. Om een printer uw standaard te maken, kiest u op de pagina **Printerbeheer** de optie **Instellen als mijn standaardprinter** .
+    > Houd er rekening mee dat de extensie E-mailprinter standaard is ingesteld op **A4**-papierformaat, dat bijvoorbeeld niet geschikt is in Noord-Amerika.
+4. Om een printer uw standaard te maken, kiest u op de pagina **Printerbeheer** de optie **Instellen als mijn standaardprinter**.
 
 ### <a name="privacy-notice"></a>Privacyverklaring
 Als u de extensie E-mailprinter gebruikt, worden alle of sommige afdruktaken verzonden naar het e-mailadres dat u hebt opgegeven bij het configureren van de printer. We raden ten zeerste aan om een unieke e-mail-ID te koppelen aan een printerapparaat met alleen de officiële services van de hardwarefabrikant, zoals HP ePrint, KonicaMinolta EveryonePrint of Epson Email Print.
@@ -59,19 +59,19 @@ U moet alle benodigde privacyvoorzorgsmaatregelen nemen, inclusief ervoor zorgen
 Op de pagina **Printerselecties** kunt u voor uw gebruikersaccount instellen welke rapporten door welke printer worden afgedrukt. Dit is handig als u met verschillende rapporten werkt waarvoor verschillende printers nodig zijn vanwege hun plaatsing in het bedrijf of hun uitvoermogelijkheden.
 
 > [!IMPORTANT]
-> Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kan de pagina **Printerselecties** alleen worden gebruikt voor printers die zijn gedefinieerd door printerextensies. Het kan niet worden gebruikt voor lokale printers.
+> Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan de pagina **Printerselecties** alleen worden gebruikt voor printers die zijn gedefinieerd door printerextensies. Het kan niet worden gebruikt voor lokale printers.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerselecties** in en selecteer de desbetreffende koppeling. Als alternatief selecteert u vanaf de pagina **Printerbeheer** een printer en kiest u vervolgens de actie **Printerselecties** .
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerselecties** in en selecteer de desbetreffende koppeling. Als alternatief selecteert u vanaf de pagina **Printerbeheer** een printer en kiest u vervolgens de actie **Printerselecties**.
 2. Kies de actie **Nieuw** om een printerselectie toe te voegen voor een specifiek rapport.
 3. Vul de vereiste velden in.
 
 Het opgegeven rapport is nu ingesteld om standaard te worden afgedrukt op de geselecteerde printer.
 
 > [!NOTE]
-> Wanneer u het betreffende rapport afdrukt, kunt u deze instelling negeren door een andere printer te selecteren op de aanvraagpagina **Afdrukinstellingen** .
+> Wanneer u het betreffende rapport afdrukt, kunt u deze instelling negeren door een andere printer te selecteren op de aanvraagpagina **Afdrukinstellingen**.
 
 > [!NOTE]
-> Als u geen rapport instelt voor een specifieke printer op de pagina **Printerselecties** , wordt het afgedrukt op de standaardprinter van het bedrijf, zoals gedefinieerd vanuit de pagina **Printerbeheer** .
+> Als u geen rapport instelt voor een specifieke printer op de pagina **Printerselecties**, wordt het afgedrukt op de standaardprinter van het bedrijf, zoals gedefinieerd vanuit de pagina **Printerbeheer**.
 
 U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afdrukvarianten voor gebruikers en rapporten te definiëren. De volgende tabel beschrijft de combinatie van waarden wanneer u andere printerinstellingen instelt voor een rapport.
 
@@ -84,10 +84,10 @@ U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afd
 |Een specifiek rapport naar een specifieke printer afdrukken voor een specifieke gebruiker|Geef waarden in alle drie de velden op.|
 
 > [!NOTE]
-> Specifiekere printerselecties hebben voorrang op algemenere printerselecties. Bijvoorbeeld een printerselectie met waarden in de velden **Gebruikers-ID** , **Rapport-id** en **Printernaam** heeft voorrang op een printerselectie met lege vermeldingen in de velden **Gebruikers-ID** of **Rapport-id** .
+> Specifiekere printerselecties hebben voorrang op algemenere printerselecties. Bijvoorbeeld een printerselectie met waarden in de velden **Gebruikers-ID**, **Rapport-id** en **Printernaam** heeft voorrang op een printerselectie met lege vermeldingen in de velden **Gebruikers-ID** of **Rapport-id**.
 
 ## <a name="see-also"></a>Zie ook
 [Een rapport afdrukken](ui-work-report.md#PrintReport)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Batchverwerkingen uitvoeren](ui-how-run-batch-jobs.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  

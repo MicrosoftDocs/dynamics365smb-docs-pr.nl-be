@@ -10,48 +10,50 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924280"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035443"
 ---
 # <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
 
-De magazijnfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie. Bovendien bepalen de toepassingsobjecten in de licentie welke UI-documenten moeten worden gebruikt voor de ondersteunde magazijnactiviteiten.  
+De magazijnfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie. Bovendien bepalen de toepassingsobjecten in de licentie welke UI-documenten moeten worden gebruikt voor de ondersteunde magazijnactiviteiten.  
+<!--
+The following warehouse-related granules exist:  
 
-Er zijn de volgende magazijngerelateerde granules:  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
+- Automated Data Capture System (4640)
+- Bin Setup (4660)  
 
-- Basisvoorraad (4010)  
-- Opslagloc (4170)  
-- Opslag (4180)  
-- Magazijnontvangst (4190)  
-- Picken (4200)  
-- Magazijnverzending (4210)  
-- Magazijnbeheersystemen (4620)  
-- Interne picks en interne opslag (4630)  
-- Geautomatiseerd systeem voor gegevensvastlegging (4640)
-- Instelling opslaglocatie (4660)  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Zie voor meer informatie over elke granule [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prijsvoorstellen](https://go.microsoft.com/fwlink/?LinkId=238341) (vereist een PartnerSource-account).  
+In de volgende tabel wordt getoond welke granules vereist zijn om de verschillende niveaus van magazijncomplexiteit te definiëren, welke UI-documenten elk niveau ondersteunen en welke vestigingscode deze niveaus aanduiden in de [!INCLUDE[prod_short](includes/prod_short.md)]-demonstratiedatabase.  
 
-In de volgende tabel wordt getoond welke granules vereist zijn om de verschillende niveaus van magazijncomplexiteit te definiëren, welke UI-documenten elk niveau ondersteunen en welke vestigingscode deze niveaus aanduiden in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstratiedatabase.  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-|Complexiteitniveau|Description|UI-document|CRONUS-locatie|Minimale granulevereiste|  
+|Complexiteitniveau|Omschrijving|UI-document|Voorbeeldlocatie|Minimale granulevereiste|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.|Order|BLAUW|Basisvoorraad|  
 |2|Geen specifieke magazijnactiviteit.<br /><br /> Boekingen vanuit orders ontvangen/verzenden.<br /><br /> Opslaglocatie is vereist.|Order met opslaglocatiecode|ZILVER|Basisvoorraad/opslaglocatie|  
-|3 <br /><br /> **OPMERKING** : hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.|Elementaire magazijnactiviteit, order-voor-order.<br /><br /> Boeking uit voorraadopslag/pickdocumenten ontvangen/verzenden. <br /><br /> Opslaglocatie is vereist.|Voorraadopslag/Voorraadverplaatsing/Voorraadpick. met opslaglocatiecode|(ZILVER + opslag vereist of opslag vereist)|Basisvoorraad/Opslaglocatie/Opslag/Pick|  
+|3 <br /><br /> **OPMERKING**: hoewel de instellingen **Pick vereist** en **Opslag vereist** worden genoemd, kunt u nog wel ontvangsten en verzendingen rechtstreeks vanuit de bronbedrijfsdocumenten boeken voor vestigingen waarvoor u deze selectievakjes inschakelt.|Elementaire magazijnactiviteit, order-voor-order.<br /><br /> Boeking uit voorraadopslag/pickdocumenten ontvangen/verzenden. <br /><br /> Opslaglocatie is vereist.|Voorraadopslag/Voorraadverplaatsing/Voorraadpick. met opslaglocatiecode|(ZILVER + opslag vereist of opslag vereist)|Basisvoorraad/Opslaglocatie/Opslag/Pick|  
 |4|Geavanceerde magazijnactiviteit, voor meerdere orders.<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Pickvoorstel|GROEN|Basisvoorraad/Magazijnontvangst/Opslag/Pick/Magazijnverzending|  
 |5|Geavanceerde magazijnactiviteit, voor meerdere orders.<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Pickvoorstel/Opslagvoorstel met opslaglocatiecode|(GROEN + opslaglocatie verplicht)|Basisvoorraad/Opslaglocatie/Magazijnontvangst/Opslag/Pick/Magazijnverzending|  
-|6 <br /><br /> **Opmerking** : dit niveau wordt WMS genoemd, omdat het de meest geavanceerde granule vereist: Warehouse Management Systems.|Geavanceerde magazijnactiviteit, voor meerdere orders<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.<br /><br /> De zone-/klassecode is optioneel.<br /><br /> Magazijnmedewerkers geleid door werkstroom<br /><br /> Planning aanvulling opslaglocatie<br /><br /> Opslaglocatievolgorde<br /><br /> Instelling opslaglocatie op capaciteit<br /><br /> Plaatsen  <!-- Hand-held device integration -->|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Magazijnverplaatsing/Pickvoorstel/Opslagvoorstel/Interne mag.- pick/Interne magazijnopslag met opslaglocatie/klasse/zonecode<br /><br /> Diverse voorstellen voor opslaglocatiebeheer<br /><br /> ADCS-schermen|WIT|Basisvoorraad/Opslaglocatie/Opslag/Magazijnontvangst/Pick/Magazijnverzending/Magazijnbeheersystemen/Interne picks en opslag/Opslaglocatie-instelling/<!-- Automated Data Capture System/ -->Instelling opslaglocatie|  
+|6 <br /><br /> **Opmerking**: dit niveau wordt 'WMS' genoemd, omdat het de meest geavanceerde granule vereist: Warehouse Management Systems.|Geavanceerde magazijnactiviteit, voor meerdere orders<br /><br /> Geconsolideerde ontvangst/verzendboeking op basis van registraties van magazijnopslag/-pick.<br /><br /> Opslaglocatie is vereist.<br /><br /> De zone-/klassecode is optioneel.<br /><br /> Magazijnmedewerkers geleid door werkstroom<br /><br /> Planning aanvulling opslaglocatie<br /><br /> Opslaglocatievolgorde<br /><br /> Instelling opslaglocatie op capaciteit<br /><br /> Plaatsen  <!-- Hand-held device integration -->|Magazijnontvangst/Magazijnopslag/Magazijnpick/Magazijnverzending/Magazijnverplaatsing/Pickvoorstel/Opslagvoorstel/Interne mag.- pick/Interne magazijnopslag met opslaglocatie/klasse/zonecode<br /><br /> Diverse voorstellen voor opslaglocatiebeheer<br /><br /> ADCS-schermen|WIT|Basisvoorraad/Opslaglocatie/Opslag/Magazijnontvangst/Pick/Magazijnverzending/Magazijnbeheersystemen/Interne picks en opslag/Opslaglocatie-instelling/<!-- Automated Data Capture System/ -->Instelling opslaglocatie|  
 
 Zie voor voorbeelden van hoe UI-documenten worden gebruikt per niveau van magazijncomplexiteit [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Opslaglocatie en inhoud
 
-Een opslaglocatie is een opslagapparaat dat is ontworpen om afzonderlijke onderdelen te bevatten. Het is de kleinste containereenheid in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Artikelaantallen in opslaglocaties worden opslaglocatie-inhoud genoemd. Een opzoekactie vanuit het veld **Artikel** of het veld **Opslaglocatie** op een magazijngerelateerde documentregel geeft de berekende beschikbaarheid van het artikel op de opslaglocatie weer.  
+Een opslaglocatie is een opslagapparaat dat is ontworpen om afzonderlijke onderdelen te bevatten. Het is de kleinste containereenheid in [!INCLUDE[prod_short](includes/prod_short.md)]. Artikelaantallen in opslaglocaties worden opslaglocatie-inhoud genoemd. Een opzoekactie vanuit het veld **Artikel** of het veld **Opslaglocatie** op een magazijngerelateerde documentregel geeft de berekende beschikbaarheid van het artikel op de opslaglocatie weer.  
 
 Aan een opslaglocatie-inhoud kan de eigenschap Vast, Speciaal of Standaard worden gegeven om te definiëren hoe de opslaglocatie-inhoud kan worden gebruikt. Opslaglocaties die geen van deze eigenschappen hebben, worden vrije opslaglocaties genoemd.  
 
@@ -102,7 +104,7 @@ Als u het maximale aantal van een bepaald artikel wilt instellen dat in een bepa
 Voordat u capaciteitsbeperkingen instelt voor inhoud van een opslaglocatie, moet u eerst zorgen dat de eenheid en de dimensies van het artikel zijn ingesteld op de artikelkaart.  
 
 > [!NOTE]  
-> Er kan alleen met meerdere eenheden worden gewerkt in WMS-installaties. In alle andere configuraties kan opslaglocatie-inhoud alleen worden uitgedrukt in de basiseenheid. In alle transacties met een hogere eenheid dan de basiseenheid van het artikel wordt het aantal geconverteerd naar de basiseenheid.  
+> Er kan alleen met meerdere eenheden worden gewerkt in WMS-installaties. In alle andere configuraties kan opslaglocatie-inhoud alleen worden uitgedrukt in de basiseenheid. In alle transacties met een hogere maateenheid dan de basismaateenheid van het artikel wordt het aantal geconverteerd naar de basismaateenheid.  
 
 ## <a name="zone"></a>Regio
 

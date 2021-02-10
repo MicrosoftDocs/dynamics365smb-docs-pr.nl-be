@@ -1,6 +1,6 @@
 ---
-title: Een vraagprognose maken | Microsoft Docs
-description: U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose** .
+title: Een vraagprognose maken
+description: U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913283"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013704"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
-U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose** .  
+U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
 
 De prognosefunctionaliteit wordt gebruikt om een verwachte vraag aan te maken; de werkelijke vraag komt voort uit verkoop- en productieorders. Tijdens het opstellen van het MPS (Master Production Schedule) wordt de prognose tot een nettowaarde teruggebracht tegen de verkoop- en productieorders. De optie *Onderdeel* op de prognose bepaalt met welke soort vraag rekening wordt gehouden in het proces van het berekenen van de nettowaarde. Als de prognose wordt uitgevoerd voor een verkoopartikel, worden alleen verkooporders gebruikt tegen de prognose. Als het materialen betreft, wordt alleen afhankelijke vraag van productieordermaterialen gebruikt tegen de prognose.  
 
@@ -32,11 +32,11 @@ De prognosefunctionaliteit in de toepassing kan worden gebruikt voor het maken v
 
 In de meeste gevallen wijzigt dus de productieplanner de verkoopprognose zodat deze past bij de productieomstandigheden, terwijl toch aan de verkoopprognose wordt voldaan.  
 
-U kunt handmatig prognoses maken op de pagina **Vraagprognose** . Er kunnen in het systeem meerdere prognoses bestaan, die aan de hand van de naam en de soort van elkaar worden onderscheiden. Prognoses kunnen desgewenst worden gekopieerd en bewerkt. Het is wel zo dat op elk moment slechts één prognose geldig kan zijn voor planningsdoeleinden.  
+U kunt handmatig prognoses maken op de pagina **Vraagprognose**. Er kunnen in het systeem meerdere prognoses bestaan, die aan de hand van de naam en de soort van elkaar worden onderscheiden. Prognoses kunnen desgewenst worden gekopieerd en bewerkt. Het is wel zo dat op elk moment slechts één prognose geldig kan zijn voor planningsdoeleinden.  
 
 De prognose bestaat uit een aantal records, die elk het artikelnummer, de prognosedatum en het prognoseaantal bevatten. De prognose van een artikel bestrijkt een periode, die wordt bepaald door de prognosedatum en de prognosedatum van de volgende (latere) prognoserecord. Vanuit het oogpunt van planning moet het prognoseaantal beschikbaar zijn bij aanvang van de vraagperiode.  
 
-Een prognose moet worden aangeduid als *Verkoopartikel* , *Materiaal* of *Beide* . De prognosesoort *Verkoopartikel* wordt gebruikt voor verkoopprognoses. De productieprognose wordt gemaakt met behulp van de soort *Onderdeel* . De prognosesoort *Beide* wordt alleen gebruikt om de planner een overzicht te geven van zowel de verkoopprognose als de productieprognose. Bij deze optie kunnen de prognoseposten niet worden bewerkt. Door deze prognosesoorten hier aan te duiden kunt u hetzelfde werkblad gebruiken voor het invoeren van een verkoopprognose als u doet bij een productieprognose, en kunt u hetzelfde blad gebruiken om beide prognoses tegelijkertijd te bekijken. Het is wel zo dat het systeem de verschillende inputs (verkoop en productie) verschillend gebruikt bij het berekenen van de planning, gebaseerd op artikel, productie en productie-instellingen.  
+Een prognose moet worden aangeduid als *Verkoopartikel*, *Materiaal* of *Beide*. De prognosesoort *Verkoopartikel* wordt gebruikt voor verkoopprognoses. De productieprognose wordt gemaakt met behulp van de soort *Onderdeel*. De prognosesoort *Beide* wordt alleen gebruikt om de planner een overzicht te geven van zowel de verkoopprognose als de productieprognose. Bij deze optie kunnen de prognoseposten niet worden bewerkt. Door deze prognosesoorten hier aan te duiden kunt u hetzelfde werkblad gebruiken voor het invoeren van een verkoopprognose als u doet bij een productieprognose, en kunt u hetzelfde blad gebruiken om beide prognoses tegelijkertijd te bekijken. Het is wel zo dat het systeem de verschillende inputs (verkoop en productie) verschillend gebruikt bij het berekenen van de planning, gebaseerd op artikel, productie en productie-instellingen.  
 
 ## <a name="component-forecast"></a>Materiaalprognose  
 De materiaalprognose kan worden beschouwd als een optieprognose in relatie tot een hoofdartikel. Dit kan bijvoorbeeld nuttig zijn als de planner de vraag naar het materiaal kan schatten.  
@@ -47,20 +47,54 @@ Omdat de materiaalprognose is ontworpen om opties te definiëren voor een hoofda
  De prognoseperiode is geldig vanaf de begindatum tot de datum waarop de volgende prognose begint. Het tijdsintervalvenster biedt u meerdere keuzemogelijkheden om de vraag op en bepaalde datum in een periode in te voegen. Het is daarom raadzaam om het bereik van de prognoseperiode niet te wijzigen, tenzij u alle prognoseposten naar de begindatum van deze periode wilt verplaatsen.  
 
 ## <a name="forecast-by-locations"></a>Prognose per locatie  
-In de productie-instellingen kan worden gesteld dat u prognoses wilt filteren volgens locatie wanneer u een plan berekent. Het is wel zo dat indien op locatie gebaseerde prognoses los van elkaar worden bekeken, de totale prognose mogelijk niet representatief is.
+
+Het kan op de pagina **Productie-instellingen** worden vermeld hoe u wilt omgaan met locaties die in prognoses zijn gedefinieerd wanneer u een plan berekent. 
+
+### <a name="use-forecast-by-locations"></a>Prognose per vestiging gebruiken
+
+Als u het veld **Prognose per vestiging gebruiken** kiest, respecteert [!INCLUDE[prod_short](includes/prod_short.md)] alle locatiecodes die zijn opgegeven voor elke vraagprognose en berekent de resterende prognose voor elke locatie.  
+
+Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee locaties: OOST en WEST. Voor beide locaties heeft u een lot-naar-lot bestelbeleid geconfigureerd. U maakt een prognose voor de twee locaties:
+
+- 10 stuks voor locatie OOST
+- 4 stuks voor locatie WEST
+
+Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 12 stuks. Het planningssysteem stelt voor dat u het volgende doet:
+
+- Vul 10 stuks aan voor locatie OOST, op basis van gegevens uit de prognose.  
+- Vul 12 stuks aan voor locatie WEST, op basis van verkooporder. De 4 stuks die in de prognose zijn gespecificeerd, worden volledig verbruikt door de werkelijke vraag van de verkooporder. Zie voor meer informatie [Prognosevraag wordt verlaagd door verkooporders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Als op locatie gebaseerde prognoses los van elkaar worden bekeken, is de totale prognose mogelijk niet representatief.
+
+### <a name="do-not-use-forecast-by-locations"></a>Gebruik prognose per vestiging niet
+Als u het veld **Prognose per vestiging gebruiken** uitschakelt, negeert [!INCLUDE[prod_short](includes/prod_short.md)] alle locatiecodes die zijn opgegeven voor elke vraagprognose en combineert de prognoses tot een prognose voor lege vestigingen.  
+
+Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee locaties: OOST en WEST. Voor beide locaties heeft u een lot-naar-lot bestelbeleid geconfigureerd. U maakt een prognose voor de twee locaties:
+
+- 10 stuks voor locatie OOST
+- 4 stuks voor locatie WEST
+
+Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 12 stuks. Het planningssysteem stelt voor dat u het volgende doet:
+
+- Vul 12 stuks aan voor vestiging WEST, op basis van de verkooporder. 
+- Vul 2 stuks bij voor de lege vestiging. De 10 en 4 stuks die in de prognose zijn gespecificeerd, worden gedeeltelijk verbruikt door de werkelijke vraag van de verkooporder. [!INCLUDE[prod_short](includes/prod_short.md)] negeerde de locatiecodes die door de gebruiker waren opgegeven en gebruikt in plaats daarvan een lege vestiging.
+
+> [!NOTE]  
+>  U kunt een filter op vestigingen instellen, maar vestiginggebaseerde resultaten komen mogelijk niet overeen met planningsresultaten zonder filters.
 
 ## <a name="to-create-a-demand-forecast"></a>Een vraagprognose maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vraagprognose** in en kies de desbetreffende koppeling.  
-2. Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Vraagprognosenaam** . Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
+2. Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Vraagprognosenaam**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
 3. Selecteer in het veld **Vestigingsfilter** de vestiging waarop deze prognose van toepassing is.
-4. In het veld **Weergeven per** om de periode te wijzigen die in elke kolom wordt weergegeven. U kunt kiezen uit de volgende intervallen: **Dag** , **Week** , **Maand** , **Kwartaal** , **Jaar** of de **Boekingsperiode** , zoals ingesteld in financiële gebied.    
+4. In het veld **Weergeven per** om de periode te wijzigen die in elke kolom wordt weergegeven. U kunt kiezen uit de volgende intervallen: **Dag**, **Week**, **Maand**, **Kwartaal**, **Jaar** of de **Boekingsperiode**, zoals ingesteld in financiële gebied.    
 
 > [!NOTE]  
 >  Bedenk goed welk tijdsinterval u wilt gebruiken voor toekomstige prognoses, zodat u steeds dezelfde tijdsinterval gebruikt. Wanneer u een voorspeld aantal invoert, is dast geldig vanaf de eerste dag van het door u geselecteerde tijdsinterval. Als u bijvoorbeeld een maand selecteert, voert u het voorspelde aantal op de eerste dag van de maand in. Als u een kwartaal selecteert, voert u het voorspelde aantal op de eerste dag van de eerste maand van het kwartaal in.
 
 5. Selecteer in het veld **Weergeven als** hoe de voorspelde aantallen voor het tijdsinterval moeten worden weergegeven. Als u **Mutatie** selecteert, wordt de mutatie in het saldo weergegeven voor het tijdsinterval. Als u **Saldo t/m datum** selecteert, wordt op de pagina het saldo van de laatste dag van het tijdsinterval weergegeven.  
-6. Selecteer in het veld **Prognosesoort** **Verkoopartikel** , **Component** of **Beide** . Als u **Verkoopartikel** of **Component** selecteert, kunt u het aantal per periode bewerken. Als u **Beide** selecteert, kunt u het aantal niet bewerken, maar wel de knop met de pijl omlaag kiezen om de posten voor de vraagprognose weer te geven.  
+6. Selecteer in het veld **Prognosesoort** **Verkoopartikel**, **Component** of **Beide**. Als u **Verkoopartikel** of **Component** selecteert, kunt u het aantal per periode bewerken. Als u **Beide** selecteert, kunt u het aantal niet bewerken, maar wel de knop met de pijl omlaag kiezen om de posten voor de vraagprognose weer te geven.  
 7. Geef een **datumfilter** op als u de hoeveelheid gegevens die wordt weergegeven wilt beperken.  
 8. Voer op het sneltabblad **Matrix voor vraagprognose** de voorspelde hoeveelheden in door een hoeveelheid te typen in de cel die een item op een bepaalde datum of periode vertegenwoordigt. In lege cellen opent de opzoekknop een lege pagina die aangeeft dat u handmatig een waarde moet invoeren.   
 
@@ -74,4 +108,4 @@ In de productie-instellingen kan worden gesteld dat u prognoses wilt filteren vo
 [Inkoop](purchasing-manage-purchasing.md)  
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

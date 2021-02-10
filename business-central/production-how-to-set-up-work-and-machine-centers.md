@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910717"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817293"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 
@@ -34,10 +34,10 @@ De beschikbaarheid wordt opgeslagen in agendaposten.
 
 ## <a name="to-set-up-a-work-center"></a>Een afdeling instellen
 
-Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor het instellen van een bewerkingsplaatsagenda komen overeen, met uitzondering van het sneltabblad **Bewerkingsplaninstelling** .  
+Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor het instellen van een bewerkingsplaatsagenda komen overeen, met uitzondering van het sneltabblad **Bewerkingsplaninstelling**.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** .  
+2. Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Selecteer in het veld **Afdelingsgroep** de hoger gelegen resourcegroep waaronder de afdeling is georganiseerd, indien van toepassing. Kis de actie **Nieuw** in de vervolgkeuzelijst.  
 5. Selecteer het veld **Geblokkeerd** als u wilt voorkomen dat de afdeling wordt gebruikt in de verwerking. Dit betekent dat er geen output kan worden geboekt voor een artikel dat in de afdeling wordt geproduceerd. Zie voor meer informatie [Productie-output boeken](production-how-to-post-output-quantity.md).
@@ -49,7 +49,7 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 
     Kostprijs = Directe kostprijs + (Directe kostprijs x Indirecte kosten %) + Overheadtarief.  
 
-9. Definieer in het veld **Kostprijsberekening** of de bovenstaande berekening moet worden gebaseerd op de gebruikte tijd: **Tijd** of op het aantal geproduceerde eenheden: **Eenheden** .  
+9. Definieer in het veld **Kostprijsberekening** of de bovenstaande berekening moet worden gebaseerd op de gebruikte tijd: **Tijd** of op het aantal geproduceerde eenheden: **Eenheden**.  
 10. Schakel het selectievakje **Specifieke kostprijs** in wanneer u de afdelingskostprijs wilt definiëren op de bewerkingsplanregel waarop deze wordt gebruikt. Dit kan nodig zijn voor bewerkingen waarvan de capaciteitskosten enorm verschillen met die van bewerkingen die normaal op de afdeling worden uitgevoerd.  
 11. Selecteer in het veld **Afboekingsmethode** of de outputboeking op deze afdeling handmatig moet worden berekend en geboekt of dat dit automatisch moet gebeuren op een van de volgende wijzen.
 
@@ -68,11 +68,14 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
     > [!NOTE]  
     > Als u kiest voor het gebruik van dagen, moet u eraan denken dat 1 dag bestaat uit 24 uur en niet uit 8 (werkuren).
 
-13. Definieer in het veld **Capaciteit** of er op de afdeling meer dan één machine of persoon tegelijkertijd aan het werk zijn. Wanneer in [!INCLUDE[d365fin](includes/d365fin_md.md)] niet de module Bewerkingsplaats is geïnstalleerd, moet de waarde in dit veld **1** zijn.  
+13. Definieer in het veld **Capaciteit** of er op de afdeling meer dan één machine of persoon tegelijkertijd aan het werk zijn. Wanneer in [!INCLUDE[prod_short](includes/prod_short.md)] niet de module Bewerkingsplaats is geïnstalleerd, moet de waarde in dit veld **1** zijn.  
 14. Voer in het veld **Efficiëntie** het percentage van de verwachte standaardoutput in dat deze afdeling werkelijk oplevert. Wanneer u hier **100** invoert, betekent dit dat de werkelijke output van de afdeling net zo hoog is als de standaardoutput.  
 15. Schakel het selectievakje **Geconsolideerde agenda** in als u ook bewerkingsplaatsen gebruikt. Hierdoor worden agendaposten berekend op basis van bewerkingsplaatsagenda's.  
-16. Selecteer een productieagenda in het veld **Productieagendacode** . Zie voor meer informatie [Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
-17. In het veld **Wachttijd voor bew.** geeft u op hoeveel tijd er moet verstrijken voordat toegewezen werk op deze afdeling kan beginnen. De wachttijd wordt toegevoegd aan de overige niet-productieve tijdselementen, zoals wachttijd na bewerking en transporttijd, die u kunt definiëren op de bewerkingsplanregels die gebruikmaken van deze afdeling.  
+16. Selecteer een productieagenda in het veld **Productieagendacode**. Zie voor meer informatie [Productieagenda's maken](production-how-to-create-work-center-calendars.md).  
+17. In het veld **Wachttijd voor bew.** geeft u op hoeveel tijd er moet verstrijken voordat toegewezen werk op deze afdeling kan beginnen. 
+
+> [!NOTE]
+> Gebruik wachttijden om een buffer te bieden tussen het moment waarop een component aankomt op een bewerkingsplaats of afdeling en het moment waarop de bewerking daadwerkelijk begint. Een onderdeel wordt bijvoorbeeld om 10.00 uur afgeleverd bij een bewerkingsplaats, maar het duurt een uur om het op de machine te monteren, zodat de bewerking pas om 11.00 uur begint. Om rekening te houden met dat uur, zou de wachttijd een uur zijn. De waarde van het veld **Wachttijd voor bew.** op een bewerkings- of afdelingskaart, opgeteld bij de waarden in de velden **Insteltijd**, **Bewerkingstijd**, **Wachttijd na bew.** en **Transporttijd** op de bewerkingsplanregel vormen samen de productietijd van het artikel. Dit zorgt voor nauwkeurige totale productietijden.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Voorbeeld - Verschillende bewerkingsplaatsen die aan een afdeling zijn toegewezen
 
@@ -88,14 +91,14 @@ Als de capaciteit van afdelingen niet moet bijdragen aan de totale capaciteit, k
 
 U kunt een beperkte werklast toewijzen aan productieresources die als kritiek worden beschouwd door deze te markeren, in plaats van de onbeperkte werklast die door andere resources worden geaccepteerd. Een resource met beperkte capaciteit kan een afdeling of bewerkingsplaats zijn die als knelpunt wordt beschouwd en waarvoor u een beperkte (begrensde) werklast wilt instellen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt geen ondersteuning voor gedetailleerd werkvloerbeheer. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt geen ondersteuning voor gedetailleerd werkvloerbeheer. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.
 
 Op de pagina **Capaciteitsbegrensde resource** kunt u instellingen configureren waarmee overbelasting van specifieke resources kan worden voorkomen, en kunt u ervoor zorgen dat alle capaciteit wordt toegewezen als dit de omlooptijd van een productieorder kan verhogen. In het veld **Demping (% van totale capaciteit)** kunt u dempingstijd aan resources toevoegen om bewerkingsplitsen te verkleinen. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.
 
 Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen resources boven de gedefinieerde capaciteit (kritieke werklastpercentage) worden geladen. Dit gebeurt door elke bewerking toe te wijzen aan de dichtstbijzijnde beschikbare periode. Als de periode niet groot genoeg is om de hele bewerking uit te voeren, wordt de bewerking in twee of meer delen gesplitst in de dichtstbijgelegen perioden.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Capaciteitsbegrensde resources** in en kies de desbetreffende koppeling.
-2. Kies de actie **Nieuw** .
+2. Kies de actie **Nieuw**.
 3. Vul de velden in.
 
 > [!NOTE]
@@ -111,4 +114,4 @@ Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen
 [Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

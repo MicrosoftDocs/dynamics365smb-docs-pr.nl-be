@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925042"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759479"
 ---
 # <a name="about-planning-functionality"></a>Informatie over het plannen van functionaliteit
 
@@ -148,13 +148,13 @@ De pagina **Inkoopvoorstel** vermeldt artikelen die u wilt bestellen. U kunt op 
 
 - Voer de artikelen handmatig in op het voorstel en vul de relevante velden in.
 
-- Gebruik de batchverwerking **Planning berekenen** . Hiermee wordt een aanvullingsplan berekend voor artikelen en SKU's waarvoor de aanvullingsmethode **Inkoop** of **Transfer** is ingesteld. Wanneer u deze batchverwerking gebruikt, wordt het veld **Planningsboodschap** automatisch ingevuld met een aanvullingsvoorstel voor het artikel. Hierdoor kan het aantal artikelen op een bestaande order worden vergroot of er kan bijvoorbeeld een nieuwe order worden gemaakt.
+- Gebruik de batchverwerking **Planning berekenen**. Hiermee wordt een aanvullingsplan berekend voor artikelen en SKU's waarvoor de aanvullingsmethode **Inkoop** of **Transfer** is ingesteld. Wanneer u deze batchverwerking gebruikt, wordt het veld **Planningsboodschap** automatisch ingevuld met een aanvullingsvoorstel voor het artikel. Hierdoor kan het aantal artikelen op een bestaande order worden vergroot of er kan bijvoorbeeld een nieuwe order worden gemaakt.
 
 - Als u vanaf de pagina **Planningsvoorstel** de batchverwerking **Planning berekenen** hebt geselecteerd, kunt u de batchverwerking **Planningsboodschap uitvoeren** gebruiken om inkoop- en transferordervoorstellen te kopiëren van het planningsvoorstel naar het inkoopvoorstel. Dit is praktisch wanneer voor de verwerking van productieorders en inkoop-/transferorders aparte gebruikers verantwoordelijk zijn.
 
-- U kunt de actie **Doorverzending** gebruiken om de inkoopvoorstelregels in te vullen. Hierbij wordt gebruikgemaakt van de batchverwerking **Verkooporders ophalen** , zodat u kunt bepalen welke verkooporderregels voor een doorverzending zijn bestemd.
+- U kunt de actie **Doorverzending** gebruiken om de inkoopvoorstelregels in te vullen. Hierbij wordt gebruikgemaakt van de batchverwerking **Verkooporders ophalen**, zodat u kunt bepalen welke verkooporderregels voor een doorverzending zijn bestemd.
 
-- U kunt de actie **Doorverzending** gebruiken om de inkoopvoorstelregels in te vullen. Hierbij wordt gebruikgemaakt van de batchverwerking **Verkooporders ophalen** , zodat u kunt bepalen welke verkooporderregels voor een aparte opdracht zijn bestemd.
+- U kunt de actie **Doorverzending** gebruiken om de inkoopvoorstelregels in te vullen. Hierbij wordt gebruikgemaakt van de batchverwerking **Verkooporders ophalen**, zodat u kunt bepalen welke verkooporderregels voor een aparte opdracht zijn bestemd.
 
 Inkoopvoorstelregels bevatten gedetailleerde informatie over de artikelen die moeten worden besteld. U kunt de regels van het aanvullingsplan bewerken en verwijderen en vervolgens met de batchverwerking **Planningsboodschap uitvoeren** verwerken.
 
@@ -169,4 +169,4 @@ Zie voor details over het plannen met locaties en transfers [Planning met of zon
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

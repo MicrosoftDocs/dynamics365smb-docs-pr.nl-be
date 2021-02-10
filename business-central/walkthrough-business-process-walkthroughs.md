@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923332"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760152"
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
 
 Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  
 
- De procedures zijn complete scenario's en geven het beste resultaat als ze van begin tot eind worden uitgevoerd. Veel procedures zijn gebaseerd op de demogegevens van [!INCLUDE[d365fin](includes/d365fin_md.md)] en u kunt deze zelf uitproberen in uw eigen tempo.  
+ De procedures zijn complete scenario's en geven het beste resultaat als ze van begin tot eind worden uitgevoerd. Veel procedures zijn gebaseerd op de demogegevens van [!INCLUDE[prod_short](includes/prod_short.md)] en u kunt deze zelf uitproberen in uw eigen tempo.  
 
 > [!NOTE]
-> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prodshort](includes/prodshort.md)]. Zie voor meer informatie [Een bedrijf maken met volledige voorbeeldgegevens in een sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Een bedrijf maken met volledige voorbeeldgegevens in een sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Als u dit wilt doen:|Zie|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

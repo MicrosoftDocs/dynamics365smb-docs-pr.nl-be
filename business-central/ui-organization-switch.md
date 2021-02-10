@@ -7,23 +7,23 @@ ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925609"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760429"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Zie voor meer informatie [Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)] Zie voor meer informatie [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Als u vaak tussen bedrijven wisselt, kan het gemakkelijk zijn om uit het oog te verliezen waar u bent. Om u te helpen dit bij te houden kunt u een badge toevoegen met de bedrijfsnaam, zodat u snel kunt controleren of u op de juiste plaats bent. Zie voor meer informatie [Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
 
 ## <a name="switch-to-another-environment"></a>Overschakelen op een andere omgeving
 
-Als u bent aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op de Dynamics 365-startpagina. U kunt de pagina openen door het pictogram **Startprogramma** ![Startprogramma](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies") te kiezen en **Dynamics 365** te kiezen. Kies de tegel om naar uw standaardbedrijf in die omgeving te gaan. Er is één tegel voor elk type omgeving. Als u meer dan één omgeving van een bepaald type hebt, kunt u bij het kiezen van de tegel de omgeving kiezen die u wilt openen.
+Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op de Dynamics 365-startpagina. U kunt de pagina openen door het pictogram **Startprogramma** ![Startprogramma](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies") te kiezen en **Dynamics 365** te kiezen. Kies de tegel om naar uw standaardbedrijf in die omgeving te gaan. Er is één tegel voor elk type omgeving. Als u meer dan één omgeving van een bepaald type hebt, kunt u bij het kiezen van de tegel de omgeving kiezen die u wilt openen.
 
 De volgende afbeelding toont tegels voor toegang tot productie- en sandboxomgevingen op de Dynamics 365-startpagina.
 
@@ -31,15 +31,15 @@ De volgende afbeelding toont tegels voor toegang tot productie- en sandboxomgevi
 
 ## <a name="switch-to-another-company"></a>Overschakelen op een ander bedrijf
 
-Als u bent aangemeld bij [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u snel overschakelen naar een ander bedrijf. Nadat u de overstap hebt gemaakt, wordt het bedrijf dat u kiest uw standaardbedrijf en wordt het de volgende keer dat u zich aanmeldt weergegeven.
+Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], kunt u snel overschakelen naar een ander bedrijf. Nadat u de overstap hebt gemaakt, wordt het bedrijf dat u kiest uw standaardbedrijf en wordt het de volgende keer dat u zich aanmeldt weergegeven.
 
-1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen** .
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
 
     > [!TIP]
     > U kunt ook de sneltoets Alt+T gebruiken om snel de pagina Mijn instellingen te openen.
 
-2. Selecteer het bedrijf op de pagina **Mijn instellingen** in het veld **Bedrijf** .  
-3. Kies de knop **Ok** .
+2. Selecteer het bedrijf op de pagina **Mijn instellingen** in het veld **Bedrijf**.  
+3. Kies de knop **Ok**.
 
 > [!TIP]
 > Een goede manier om direct naar uw standaardbedrijf te gaan wanneer u zich aanmeldt, en om te voorkomen dat u een omgeving hoeft op te geven, is door de URL toe te voegen aan uw lijst met favorieten nadat u zich hebt aangemeld.

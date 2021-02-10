@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29bb70d54c4e5bb1dbc366a8f566e8247f4117ef
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915422"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759454"
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
 Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
@@ -30,7 +30,7 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsparameters.|De pagina **Productie-instellingen** .|
+|De productiefuncties configureren, zoals het definiëren van shopfloorwerkuren en het selecteren van planningsparameters.|De pagina **Productie-instellingen**.|
 |Stel op het tabblad **Planning** op de pagina **Productie-instellingen** globale planningsparameters in die parameters overschrijven die op individuele artikelkaarten zijn ingesteld.|[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)|
 |Een standaardwerkweek in de productieafdeling definiëren met de begin- en eindtijd van elke werkdag en de bijbehorende dienst.|[Productieagenda's maken](production-how-to-create-work-center-calendars.md)|  
 |Vaste waarden en vereisten van productieresources indelen als afdelingen of bewerkingsplaatsen om de productie-output te bepalen.|[Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)|
@@ -46,4 +46,4 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 [Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

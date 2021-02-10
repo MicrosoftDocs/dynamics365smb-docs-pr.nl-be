@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f03bb162bc73d45068579a20bcdd90f632ede9de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 76d4b69de41343815175a7acd4329bb47b889f5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922756"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759381"
 ---
 # <a name="create-production-order-headers"></a>Productieorderkoppen maken
 U kunt een productieorder handmatig maken. De eerste stap is het maken van een productieorderkop.
@@ -26,7 +26,7 @@ In de volgende procedure wordt een vast geplande productieorder gemaakt. U kunt 
 
 ## <a name="to-create-a-production-order-header"></a>Productieorderkoppen maken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw** .  
+2.  Kies de actie **Nieuw**.  
 3.  Selecteer in het veld **Nr.** het volgende nummer uit de reeks in.  
 4.  Selecteer in het veld **Bronsoort** de bron van de productieorder.
 
@@ -42,4 +42,4 @@ Wanneer productievereisten veranderen, bijvoorbeeld onderdelen of bewerkingen, k
 [Gepland](production-planning.md)      
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 5482460acb6ce0e92b1d6dbe876b1b64267974ae
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 43442680578eca60fabdc620e1f8bd04036d214c
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919700"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024449"
 ---
-# <a name="creating-a-sandbox-environment-in-prodshort"></a>Een sandboxomgeving maken in [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prod_short"></a>Een sandboxomgeving maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Met [!INCLUDE[prodshort](includes/prodshort.md)] kunt u eenvoudig een veilige omgeving creëren waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
+Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u eenvoudig een veilige omgeving creëren waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
 
-Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), maar als u snel iets wilt testen, kunt u een sandbox-omgeving maken vanuit [!INCLUDE[prodshort](includes/prodshort.md)].  
+Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), maar als u snel iets wilt testen, kunt u een sandbox-omgeving maken vanuit [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
 > Technisch gezien zijn sandbox-omgevingen heel anders dan productieomgevingen, zelfs als uw beheerder een sandbox maakt die productiegegevens bevat. U kunt geen sandbox gebruiken voor benchmarking en u kunt bijvoorbeeld geen database-export aanvragen. Als u een sandbox voor benchmarking wilt maken, kan uw beheerder een speciale productieomgeving maken in het beheercentrum. Zie [Typen omgevingen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) voor meer informatie.
 
-## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Een sandboxomgeving maken in uw [!INCLUDE[prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>Een sandboxomgeving maken in uw [!INCLUDE[prod_short](includes/prod_short.md)]
 
-1. Meld u aan bij uw productie-exemplaar van [!INCLUDE[d365fin](includes/d365fin_md.md)].
+1. Meld u aan bij uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)].
 
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Sandboxomgeving** in en kies de gerelateerde koppeling.
     <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Kies de knop **Maken** .  
+3. Kies de knop **Maken**.  
 
-    Er wordt een ander tabblad met [!INCLUDE[d365fin](includes/d365fin_md.md)] geopend, waar u de installatie van uw sandbox-omgeving kunt voltooien.
+    Er wordt een ander tabblad met [!INCLUDE[prod_short](includes/prod_short.md)] geopend, waar u de installatie van uw sandbox-omgeving kunt voltooien.
 
     > [!NOTE]  
     >  Als u pop-upblokkering hebt ingeschakeld in uw browser, wijzigt u deze om URL's van het adres *.businesscentral.dynamics.com toe te staan.
@@ -42,19 +42,14 @@ Uw beheerder kan sandbox-omgevingen maken in het [beheercentrum](/dynamics365/bu
 Wanneer de sandboxomgeving gereed is, wordt u omgeleid naar de welkomstwizard van de sandboxomgeving.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-U kunt de knop **Meer informatie** kiezen om te lezen over ontwikkelaarsscenario's die u in een sandboxomgeving kunt proberen of kies de knop **Sluiten** om door te gaan naar het rolcentrum van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandboxexemplaar.
+U kunt de knop **Meer informatie** kiezen om te lezen over ontwikkelaarsscenario's die u in een sandboxomgeving kunt proberen of kies de knop **Sluiten** om door te gaan naar het rolcentrum van uw [!INCLUDE[prod_short](includes/prod_short.md)]-sandboxexemplaar.
 
 Boven in het rolcentrum verschijnt een bericht om u te laten weten dat dit een sandboxomgeving is. Ook in de titelbalk van de client wordt de soort omgeving weergegeven.
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
 > Een sandbox-omgeving die op deze manier is gemaakt, bevat alleen de standaarddemonstratiegegevens voor het CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.<br /><br />
-> U kunt ook een sandbox-omgeving maken met de productiegegevens. U moet dit doen via het beheercentrum. Zie voor meer informatie [Omgevingen beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in de Ontwikkelaar en IT Pro Help.
-
-U kunt op elk moment terugkeren naar de pagina **Sandboxomgeving** en de sandboxomgeving herstellen.
-
-> [!NOTE]  
-> Wanneer u de sandboxomgeving herstelt, wordt deze volledig verwijderd en vervolgens opnieuw gemaakt met de standaarddemonstratiegegevens.  
+> U kunt ook een sandbox-omgeving maken met de productiegegevens. U moet dit doen via het beheercentrum. Zie voor meer informatie [Omgevingen beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in de Ontwikkelaar en IT Pro Help.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
@@ -69,23 +64,23 @@ De sandboxomgeving is niet alleen nuttig omdat deze een aantal handige functies 
 
 ### <a name="to-enable-the-advanced-user-experience"></a>De geavanceerde gebruikerservaring inschakelen
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium* . Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen":::.  
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen":::.  
 
-Nadat u de *Premium* -gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
+Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
 ### <a name="to-enable-complete-sample-data"></a>Volledige voorbeeldgegevens inschakelen
 
-In de sandboxomgeving kunt u ook een nieuw bedrijf maken met de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** , zodat u training kunt volgen of procedures kunt doorlopen waarvoor aanvullende voorbeeldgegevens nodig zijn, zoals [Procedure: Ontvangen en opslaan in basismagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+In de sandboxomgeving kunt u ook een nieuw bedrijf maken met de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens**, zodat u training kunt volgen of procedures kunt doorlopen waarvoor aanvullende voorbeeldgegevens nodig zijn, zoals [Procedure: Ontvangen en opslaan in basismagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Een bedrijf maken met volledige voorbeeldgegevens in een sandbox
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijven** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** en kies vervolgens **Nieuw bedrijf maken** .  
-3. Kies op de pagina **Begeleide instelling voor het maken van een bedrijf** **Volgende** .  
-4. Geef een naam op voor het nieuwe bedrijf en kies vervolgens in het veld **Selecteer de gegevens en de instelling om aan de slag te gaan** **Geavanceerde evaluatie - volledige voorbeeldgegevens** .  
+2. Kies de actie **Nieuw** en kies vervolgens **Nieuw bedrijf maken**.  
+3. Kies op de pagina **Begeleide instelling voor het maken van een bedrijf** **Volgende**.  
+4. Geef een naam op voor het nieuwe bedrijf en kies vervolgens in het veld **Selecteer de gegevens en de instelling om aan de slag te gaan** **Geavanceerde evaluatie - volledige voorbeeldgegevens**.  
 5. Voer de rest van de begeleide instelling uit.  
 
-Wanneer de begeleide instelling is voltooid, kunt u beginnen met het verkennen van het nieuwe bedrijf met de volledige voorbeeldgegevens. Zie [Nieuwe bedrijven maken in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md) voor meer informatie.  
+Wanneer de begeleide instelling is voltooid, kunt u beginnen met het verkennen van het nieuwe bedrijf met de volledige voorbeeldgegevens. Zie [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md) voor meer informatie.  
 
 ### <a name="designer"></a>Ontwerper
 
@@ -95,6 +90,6 @@ In een sandboxomgeving is de **Ontwerper** ingeschakeld. U kunt de Ontwerper act
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-proefversies en -abonnementen](across-preview.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](across-preview.md)  
 [Omgevingen beheren in het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
