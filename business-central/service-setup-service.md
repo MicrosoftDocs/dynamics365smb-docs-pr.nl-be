@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913008"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747905"
 ---
 # <a name="setting-up-service-management"></a>CRM - Service instellen
-Voordat u de functies van CRM - Service in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt gebruiken, moet u een aantal dingen instellen. U kunt bijvoorbeeld codering opgeven voor standaardservices, symptoom- en probleemcodes, en de soorten serviceartikelen instellen die de klantenservice van uw onderneming nodig heeft.  
+Voordat u de functies van CRM - Service in [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken, moet u een aantal dingen instellen. U kunt bijvoorbeeld codering opgeven voor standaardservices, symptoom- en probleemcodes, en de soorten serviceartikelen instellen die de klantenservice van uw onderneming nodig heeft.  
 
 Bij het instellen van CRM - Service dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken. Een service is een type taak die door een of meerdere resources wordt uitgevoerd en die aan een klant wordt geleverd. Een service kan bijvoorbeeld een type computerreparatie zijn. Een serviceartikel bestaat uit de apparatuur of het artikel waarvoor de service moet worden uitgevoerd, bijvoorbeeld de computer die moet worden hersteld en die ter plekke bij een klant is geïnstalleerd. U kunt services instellen als een onderdeel van een groep aan elkaar gerelateerde artikelen met betrekking tot herstel en onderhoud.  
   

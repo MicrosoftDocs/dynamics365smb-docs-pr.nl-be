@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931283"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749792"
 ---
 Voordat u e-mailregistratie kunt instellen, moet u uw Exchange Online voorbereiden met [openbare mappen](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). U kunt dit doen in het [Exchange-beheercentrum](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) of u kunt de [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) gebruiken.  
 
@@ -53,7 +53,7 @@ De volgende lijst beschrijft de belangrijkste stappen met koppelingen voor meer 
 
   Zie voor meer informatie [Anonieme gebruikers toestaan om e-mail te verzenden naar een voor e-mail geschikte openbare map](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
 
-- Stel de gebruiker van e-mailregistratie in als eigenaar van beide openbare mappen, *Wachtrij* en *Opslag* , die Outlook of de Exchange Management Shell gebruiken op basis van de informatie in de volgende tabel:
+- Stel de gebruiker van e-mailregistratie in als eigenaar van beide openbare mappen, *Wachtrij* en *Opslag*, die Outlook of de Exchange Management Shell gebruiken op basis van de informatie in de volgende tabel:
 
   |Eigenschap        |Waarde                     |
   |----------------|--------------------------|
@@ -72,4 +72,4 @@ De volgende lijst beschrijft de belangrijkste stappen met koppelingen voor meer 
   Zie voor meer informatie [Poststroomregels beheren in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) en [Poststroomregelacties in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Als u wijzigingen aanbrengt in de Exchange Management Shell, worden de wijzigingen met vertraging zichtbaar in het Exchange-beheercentrum. De wijzigingen die in Exchange zijn aangebracht, zijn ook beschikbaar in [!INCLUDE[prodshort](prodshort.md)] na een vertraging.
+> Als u wijzigingen aanbrengt in de Exchange Management Shell, worden de wijzigingen met vertraging zichtbaar in het Exchange-beheercentrum. De wijzigingen die in Exchange zijn aangebracht, zijn ook beschikbaar in [!INCLUDE[prod_short](prod_short.md)] na een vertraging.

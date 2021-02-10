@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922079"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751317"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
 
@@ -37,7 +37,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 
  Processen en UI-documenten in uitgaande magazijnstromen zijn verschillend voor standaard- en geavanceerde magazijnconfiguraties. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd in standaardmagazijnconfiguraties en dat ze worden samengevoegd voor meerdere orders in geavanceerde magazijnconfiguraties. Zie voor meer informatie over de verschillende niveaus van de magazijncomplexiteit [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-setup.md).  
 
- In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
+ In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
 
 |Methode|Uitgaand proces|Opslaglocaties|Magazijnpicks|Verzendingen|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
@@ -113,7 +113,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 
 ### <a name="7-generate-pick-worksheet-lines"></a>7: Pickvoorstelregels genereren
 
- De gebruiker die verantwoordelijk is voor het coördineren van picks, haalt magazijnpickregels op in het **Pickvoorstel** , op basis van pickverzoeken van magazijnverzendingen of interne bewerkingen met materiaalverbruik. De gebruiker selecteert de te picken regels en bereidt de picks voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
+ De gebruiker die verantwoordelijk is voor het coördineren van picks, haalt magazijnpickregels op in het **Pickvoorstel**, op basis van pickverzoeken van magazijnverzendingen of interne bewerkingen met materiaalverbruik. De gebruiker selecteert de te picken regels en bereidt de picks voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
 
  De gebruiker geeft orderverzamelmethoden op voor optimaal gebruik van magazijnverwerking en gebruikt vervolgens een functie om de corresponderende magazijnpickdocumenten te maken, die zijn toegewezen aan andere magazijnmedewerkers die magazijnpicks uitvoeren. Wanneer de magazijnpicks volledig zijn toegewezen, worden de regels in het venster **Pickvoorstel** verwijderd.  
 

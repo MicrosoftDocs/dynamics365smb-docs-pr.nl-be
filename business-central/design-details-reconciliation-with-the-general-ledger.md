@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917288"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751242"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Ontwerpdetails: Reconciliatie met het grootboek
 Als u voorraadtransacties, zoals verkoopverzendingen, productie-output, of negatieve herwaarderingen boekt, worden de gewijzigde aantallen en waarden van de voorraad vastgelegd in de artikel- en waardeposten. Vervolgens boekt u de voorraadwaarden naar de voorraadrekeningen in het grootboek.  
@@ -30,7 +30,7 @@ Wanneer u de batchverwerking **Voorraadwaarde boeken** uitvoert, worden de groot
 
 De boekingsdatums van de grootboekposten worden ingesteld op de boekingsdatum van de bijbehorende waardepost, behalve wanneer de waardepost in een afgesloten boekhoudperiode valt. In dit geval wordt de waardepost overgeslagen en moet u de algemene grootboekinstelling of de gebruikersinstelling wijzigen om boeking in het datumbereik mogelijk te maken.  
 
-Wanneer u de batchverwerking **Voorraadwaarde boeken** uitvoert, treden mogelijk fouten op met betrekking tot ontbrekende instellingen of incompatibele dimensie-instellingen. Als de batchverwerking fouten aantreft in de dimensie-instellingen, worden deze fouten overschreven en worden de dimensies van de waardepost gebruikt. De batchverwerking boekt geen waardeposten voor alle andere fouten en vermeldt deze aan het einde van de lijst in de sectie **Overgeslagen posten** . U dient de fouten te corrigeren om deze posten te kunnen boeken. Als u een lijst met fouten wilt weergeven voordat u de batchverwerking uitvoert, kunt u het rapport **Voorraadkosten naar GB boeken - Controle** uitvoeren. In deze lijst worden alle fouten vermeld die zijn opgetreden tijdens een controleboeking. U kunt de fouten corrigeren en dan de batchverwerking voor het boeken van voorraadkosten uitvoeren zonder posten over te slaan.  
+Wanneer u de batchverwerking **Voorraadwaarde boeken** uitvoert, treden mogelijk fouten op met betrekking tot ontbrekende instellingen of incompatibele dimensie-instellingen. Als de batchverwerking fouten aantreft in de dimensie-instellingen, worden deze fouten overschreven en worden de dimensies van de waardepost gebruikt. De batchverwerking boekt geen waardeposten voor alle andere fouten en vermeldt deze aan het einde van de lijst in de sectie **Overgeslagen posten**. U dient de fouten te corrigeren om deze posten te kunnen boeken. Als u een lijst met fouten wilt weergeven voordat u de batchverwerking uitvoert, kunt u het rapport **Voorraadkosten naar GB boeken - Controle** uitvoeren. In deze lijst worden alle fouten vermeld die zijn opgetreden tijdens een controleboeking. U kunt de fouten corrigeren en dan de batchverwerking voor het boeken van voorraadkosten uitvoeren zonder posten over te slaan.  
 
 ## <a name="automatic-cost-posting"></a>Autom. voorraadwaarde boeken  
 Als u kostenboeking naar het grootboek wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, schakelt u het selectievakje **Autom. voorraadwaarde boeken** op de pagina **Voorraadinstelling** in. De boekingsdatum van de grootboekpost is gelijk aan de boekingsdatum van de artikelpost.  
@@ -123,4 +123,4 @@ Voor meer informatie over de relatie tussen de rekeningsoorten en de verschillen
 [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

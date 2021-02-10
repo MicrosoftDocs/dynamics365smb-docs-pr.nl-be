@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910817"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750492"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Werken met periodieke inkomsten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Werken met periodieke inkomsten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Veel bedrijven gaan over van een bedrijfsinkomstenmodel waarbij inkomsten worden gegenereerd uit de eenmalige aankoop van een klant naar een abonnementsmodel waarbij inkomsten worden verdiend op een periodieke basis, in ruil voor consistente toegang tot de levering van een goed of dienst.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] heeft de volgende opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. 
+[!INCLUDE[prod_short](includes/prod_short.md)] heeft de volgende opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Inkomsten registreren met een periodiek dagboek
 
@@ -31,7 +31,7 @@ Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van t
 
 Met deze optie definieert u flexibele factureringsperioden met [datumformules](ui-enter-date-ranges.md#using-date-formulas).
 
-Met deze optie kunt u echter geen facturen afdrukken en verzenden in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Met deze optie kunt u echter geen facturen afdrukken en verzenden in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Zie [Werken met periodieke dagboeken](ui-work-general-journals.md#working-with-recurring-journals) voor meer informatie.  
 
@@ -39,7 +39,7 @@ Zie [Werken met periodieke dagboeken](ui-work-general-journals.md#working-with-r
 
 Het periodieke taakdagboek is een geavanceerder alternatief voor het dagboek. U definieert artikelen, resources en grootboekrekeningen, die voor elke taak moeten worden herhaald, en u specificeert de frequentie van herhaling.  
 
-Na het plaatsen van een periodiek taakdagboek, kunt u meerdere facturen maken met de taak **Projectverkoopfactuur maken** . U kunt gemaakte facturen bekijken en boeken op de pagina **Verkoopfacturen** .
+Na het plaatsen van een periodiek taakdagboek, kunt u meerdere facturen maken met de taak **Projectverkoopfactuur maken**. U kunt gemaakte facturen bekijken en boeken op de pagina **Verkoopfacturen**.
 
 ### <a name="why-use-this-option"></a>Waarom deze optie gebruiken?
 
@@ -57,7 +57,7 @@ Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u p
 
 Met deze optie kunt u dezelfde terugkerende regels aan meerdere klanten toewijzen. U kunt een geldigheidsperiode definiëren voor de periodieke verkoopregels voor een specifieke klant. U kunt meerdere periodieke regels aan dezelfde klant toewijzen en ze worden allemaal op de factuur vermeld.
 
-Er is echter geen manier om vaste prijzen voor artikelen in te stellen, omdat [!INCLUDE[d365fin](includes/d365fin_md.md)] de werkelijke prijzen en kortingen zal gebruiken die geldig zijn op documentdatum, in een poging de beste combinatie te vinden die de laagste prijs oplevert.  
+Er is echter geen manier om vaste prijzen voor artikelen in te stellen, omdat [!INCLUDE[prod_short](includes/prod_short.md)] de werkelijke prijzen en kortingen zal gebruiken die geldig zijn op documentdatum, in een poging de beste combinatie te vinden die de laagste prijs oplevert.  
 
 Zie voor meer informatie [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Voor deze optie is echter de Premium-licentie vereist. Servicebeheer instellen e
 Zie voor meer informatie [Werken met servicecontracten en offertes voor servicecontracten](service-how-to-create-service-contracts-and-service-contract-quotes.md) en [Meerdere servicecontracten factureren](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Gerelateerde functies
-Er zijn verschillende gerelateerde mogelijkheden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Er zijn verschillende gerelateerde mogelijkheden in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Verkoopraamcontracten
 
@@ -103,7 +103,7 @@ Met deze optie kunt u kiezen tussen vaste en "beste" prijzen.
 
 Deze optie is echter alleen beschikbaar in Noorwegen. De geldigheidsperiode kan worden gedefinieerd op het periodieke groepsniveau.
 
-Zie [Periodieke orders (Noorwegen)](/localfunctionality/norway/recurring-orders.md) voor meer informatie.
+Zie [Periodieke orders](LocalFunctionality/Norway/recurring-orders.md) voor meer informatie.
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Periodieke inkomsten en abonnementsfacturering door andere providers
 
@@ -120,4 +120,4 @@ Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies 
 [Meerdere servicecontracten factureren](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Vraagprognoses en raamcontracten](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)  
-[Periodieke orders (Noorwegen)](/localfunctionality/norway/recurring-orders.md)  
+[Periodieke orders (Noorwegen)](LocalFunctionality/Norway/recurring-orders.md)  

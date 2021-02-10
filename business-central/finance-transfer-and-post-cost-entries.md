@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9063126f0b8bd1b9ef8deadcbeb0451b3009f10d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e70d34effb16c7fc4daa3bde19cf1fb0ac03902c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919475"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750317"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Kostenposten overbrengen en boeken
 Voordat u kostenverdelingen definieert, moet u begrijpen hoe kostenposten uit de volgende bronnen worden opgehaald:  
@@ -42,7 +42,7 @@ Grootboekposten worden niet overgebracht in de volgende gevallen:
 -   De posten zijn van een grootboekrekening die is verwijderd.  
 -   De posten hebben een grootboekrekening die niet van het soort **Resultatenrekening** is.  
 -   De posten hebben een grootboekrekening waaraan geen kostensoort is toegewezen.  
--   De posten hebben een boekingsdatum vóór de **Begindatum voor GB-overdracht** .  
+-   De posten hebben een boekingsdatum vóór de **Begindatum voor GB-overdracht**.  
 -   De posten zijn geboekt met een ultimodatum. Dit zijn meestal de posten die een negatief effect hebben op het saldo van de resultatenrekening aan het einde van het jaar.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Grootboekposten overbrengen naar kostenposten.
@@ -76,25 +76,25 @@ In kostprijsboekhouding kunt u grootboekposten overbrengen naar een kostensoort 
 |Maand|Alle grootboekposten in dezelfde kalendermaand worden als één post overgeboekt naar de bijbehorende kostensoort.|  
 
 > [!IMPORTANT]  
->  Als u het selectievakje **Automatisch overdragen van GB** op de pagina **Instelling kostprijsboekhouding** hebt ingeschakeld, wordt de kostprijsboekhouding automatisch bijgewerkt in [!INCLUDE[d365fin](includes/d365fin_md.md)] na elke boeking in het grootboek. Gecombineerde posten zijn niet mogelijk.
+>  Als u het selectievakje **Automatisch overdragen van GB** op de pagina **Instelling kostprijsboekhouding** hebt ingeschakeld, wordt de kostprijsboekhouding automatisch bijgewerkt in [!INCLUDE[prod_short](includes/prod_short.md)] na elke boeking in het grootboek. Gecombineerde posten zijn niet mogelijk.
 
 ## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultaten van het overbrengen van grootboekposten naar kostenposten
-Tijdens de overdracht van grootboekposten naar kostenposten, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] verbindingen aan in de posten in de tabel **Grootboekpost** , de tabel **Kostenpost** en de tabel **Kostenregister** om de verbindingen tussen kostenposten en grootboekposten te kunnen traceren.  
+Tijdens de overdracht van grootboekposten naar kostenposten, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbindingen aan in de posten in de tabel **Grootboekpost**, de tabel **Kostenpost** en de tabel **Kostenregister** om de verbindingen tussen kostenposten en grootboekposten te kunnen traceren.  
 
 ### <a name="general-ledger-entries"></a>Grootboekposten  
-Voor elke grootboekpost die wordt overgebracht naar kostprijsboekhouding, vult [!INCLUDE[d365fin](includes/d365fin_md.md)] de kosten in het veld **Postnr.** in.  
+Voor elke grootboekpost die wordt overgebracht naar kostprijsboekhouding, vult [!INCLUDE[prod_short](includes/prod_short.md)] de kosten in het veld **Postnr.** in.  
 
 ### <a name="cost-entries"></a>Kostenposten  
-Voor elke kostenpost slaat [!INCLUDE[d365fin](includes/d365fin_md.md)] het nummer van de bijbehorende grootboekpost op in het veld **Grootboekpostnr.** in de tabel **Kostenpost** .  
+Voor elke kostenpost slaat [!INCLUDE[prod_short](includes/prod_short.md)] het nummer van de bijbehorende grootboekpost op in het veld **Grootboekpostnr.** in de tabel **Kostenpost**.  
 
-Voor gecombineerde kostenposten slaat [!INCLUDE[d365fin](includes/d365fin_md.md)] het nummer van de laatste grootboekpost op; dit is de post met het hoogste nummer.  
+Voor gecombineerde kostenposten slaat [!INCLUDE[prod_short](includes/prod_short.md)] het nummer van de laatste grootboekpost op; dit is de post met het hoogste nummer.  
 
 Het veld **Grootboekrekening** in de tabel **Kostenpost** bevat het nummer van de grootboekrekening waaruit de kostenpost afkomstig is.  
 
-Voor enkele kostenposten wordt de boekingstekst door [!INCLUDE[d365fin](includes/d365fin_md.md)] uit de grootboekpost overgebracht naar het tekstveld **Beschrijving** . Voor gecombineerde posten laat dit tekstveld zien dat deze posten als gecombineerde posten zijn overgebracht. Voor een gecombineerde post voor de maand oktober 2013 luidt de tekst mogelijk bijvoorbeeld **Gecombineerde posten, oktober 2013** .  
+Voor enkele kostenposten wordt de boekingstekst door [!INCLUDE[prod_short](includes/prod_short.md)] uit de grootboekpost overgebracht naar het tekstveld **Beschrijving**. Voor gecombineerde posten laat dit tekstveld zien dat deze posten als gecombineerde posten zijn overgebracht. Voor een gecombineerde post voor de maand oktober 2013 luidt de tekst mogelijk bijvoorbeeld **Gecombineerde posten, oktober 2013**.  
 
 ### <a name="cost-register"></a>Kostenregister  
-In de tabel **Kostenregister** , wordt door [!INCLUDE[d365fin](includes/d365fin_md.md)] een post gemaakt met de bronoverdracht van het grootboek. Door de post worden de eerste en laatste nummers van de overgebrachte grootboekposten vastgelegd, evenals de eerste en laatste nummers van de kostenposten die zijn gemaakt.
+In de tabel **Kostenregister**, wordt door [!INCLUDE[prod_short](includes/prod_short.md)] een post gemaakt met de bronoverdracht van het grootboek. Door de post worden de eerste en laatste nummers van de overgebrachte grootboekposten vastgelegd, evenals de eerste en laatste nummers van de kostenposten die zijn gemaakt.
 
 ## <a name="see-also"></a>Zie ook  
  [Kostprijsboekhouding](finance-about-cost-accounting.md)   

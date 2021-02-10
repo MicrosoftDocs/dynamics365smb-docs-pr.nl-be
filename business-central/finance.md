@@ -1,8 +1,6 @@
 ---
-title: Financieel beheer | Microsoft Docs
-description: Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
-services: project-madeira
-documentationcenter: ''
+title: Financieel beheer
+description: Lees meer over hoe Business Central uw behoeften op het gebied van financieel beheer, boekhouding, audits of boekhouding ondersteunt.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970477"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750292"
 ---
 # <a name="finance"></a>Financiën
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
 De standaardconfiguratie omvat een rekeningschema en standaardboekingsgroepen die het proces vormen van het efficiënter toewijzen van standaardgrootboekrekeningen aan klanten, leveranciers en artikelen.  
 
@@ -57,18 +56,20 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en de bedrijfshub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Een videorondleiding volgen
+
 De volgende video introduceert enkele van de belangrijkste mogelijkheden voor het beheren van financiën. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Zie ook
+
 [Financiën instellen](finance-setup-finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
-[Projecten beheren](projects-manage-projects.md)    
+[Projecten beheren](projects-manage-projects.md)  
 [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920634"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747253"
 ---
 # <a name="fixed-assets"></a>Vast activum
-De functionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
+De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
 
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Vervolgens kunt u beginnen met het aanschaffen, onderhouden en verkopen van de vaste activa. U kunt ook gebudgetteerde activa instellen. Hierdoor is het mogelijk om verwachte aan- en verkopen op te nemen in lijsten.
 
-Om afschrijvingen van vaste activa en andere financiële transacties gerelateerd aan vaste activa bij te houden, kunt u een of meer afschrijvingsboeken voor elk vast activum in uw bedrijf instellen. Afschrijving vindt plaats door een rapport uit te voeren om periodieke afschrijving te berekenen en een dagboek in te vullen met de resulterende posten, die gereed zijn voor boeking. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt verschillende afschrijvingsmethoden. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie. U kunt meerdere afschrijvingsboeken per vast activum instellen voor verschillende doeleinden, bijvoorbeeld één boek voor belastingrapportage en een ander boek voor interne rapportage.
+Om afschrijvingen van vaste activa en andere financiële transacties gerelateerd aan vaste activa bij te houden, kunt u een of meer afschrijvingsboeken voor elk vast activum in uw bedrijf instellen. Afschrijving vindt plaats door een rapport uit te voeren om periodieke afschrijving te berekenen en een dagboek in te vullen met de resulterende posten, die gereed zijn voor boeking. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt verschillende afschrijvingsmethoden. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie. U kunt meerdere afschrijvingsboeken per vast activum instellen voor verschillende doeleinden, bijvoorbeeld één boek voor belastingrapportage en een ander boek voor interne rapportage.
 
 Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastleggen. Het bijhouden van onderhoudskosten is belangrijk voor budgetdoeleinden en bij het maken van een beslissing over het al dan niet vervangen van een vast activum.
 
 Elk vast activum kan aan een of meer verzekeringspolissen zijn gekoppeld. Op deze manier kunt u gemakkelijk nagaan of de bedragen in de verzekeringspolis overeenkomen met de waarde van de activa die aan de polis zijn gekoppeld. Hierdoor kunt u bovendien de jaarpremies controleren.
 
 > [!NOTE]  
->   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek** , afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
+>   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
 Voordat u vaste activa gaat beheren, moet u standaardwaarden, boekhouding voor vaste activa, boekingsgroepen, verdeelsleutels, dagboeken en boekingssoorten instellen. Zie [Vaste activa instellen](fa-setup.md) voor meer informatie.
 
@@ -58,7 +58,7 @@ De volgende video behandelt de basisprincipes van vaste activa.
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51e16908aff4e4877d93a2828d2400185c3213ca
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915697"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751817"
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
 Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.  
@@ -72,7 +72,7 @@ De volgende afbeelding toont de structuur van de herwaarderingspost en hoe assem
 ![Aan assemblage gerelateerde invoerstroom tijdens kostenwaardering](media/design_details_assembly_posting_3.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
 
 ### <a name="performing-the-adjustment"></a>De aanpassing doorvoeren  
-De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de assemblyuitvoerposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten** . Deze bevat de functie Aanpassing op meerdere niveaus aanbrengen, die bestaat uit de volgende twee elementen:  
+De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de assemblyuitvoerposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Deze bevat de functie Aanpassing op meerdere niveaus aanbrengen, die bestaat uit de volgende twee elementen:  
 
 -   Assemblageordercorrectie aanbrengen - hiermee worden kosten van materiaal en resourcegebruik doorgestuurd naar de assemblage-uitvoerpost. Regel 5 en 6 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 -   Correcties op één niveau aanbrengen - hiermee worden kosten voor afzonderlijke artikelen doorgestuurd met behulp van de waarderingsmethode ervan. Regels 9 en 10 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
@@ -105,7 +105,7 @@ Alleen werkelijke kosten worden geboekt naar het grootboek en er worden geen int
 ## <a name="assemble-to-order"></a>Op order assembleren  
 De artikelpost die het resultaat is van het boeken van een op-order-assembleren-verkoop wordt vast toegepast op de bijbehorende artikelpost voor de assemblageuitvoer. Dienovereenkomstig, worden de kosten van een op-order-assembleren-verkoop afgeleid van de assemblageorder waaraan deze verkoop is gekoppeld.  
 
-Artikelposten van de soort Verkoop die het gevolg zijn van het boeken van op-order-assembleren aantallen, worden gemarkeerd met **Ja** in het veld **Op order assembleren** .  
+Artikelposten van de soort Verkoop die het gevolg zijn van het boeken van op-order-assembleren aantallen, worden gemarkeerd met **Ja** in het veld **Op order assembleren**.  
 
 Bij het boeken van verkooporderregels waarbij een gedeelte afkomstig is uit voorraad en een ander gedeelte een op-order-assembleren aantal is, worden afzonderlijke artikelposten gemaakt, één voor het voorraadaantal en één voor het op-order-assembleren aantal.  
 
@@ -115,4 +115,4 @@ Bij het boeken van verkooporderregels waarbij een gedeelte afkomstig is uit voor
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

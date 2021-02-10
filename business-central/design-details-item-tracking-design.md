@@ -10,25 +10,25 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917438"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751342"
 ---
 # <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
-In de eerste versie van Artikeltracering in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 werden serienummers of lotnummers direct geregistreerd in artikelposten. Dit ontwerp bood volledige beschikbaarheidsgegevens en eenvoudige tracering van historische posten, maar het miste flexibiliteit en functionaliteit.  
+In de eerste versie van Artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] 2.60 werden serienummers of lotnummers direct geregistreerd in artikelposten. Dit ontwerp bood volledige beschikbaarheidsgegevens en eenvoudige tracering van historische posten, maar het miste flexibiliteit en functionaliteit.  
 
-Vanaf [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00 bevond de artikeltraceringfunctionaliteit zich in een afzonderlijke objectstructuur met complexe koppelingen naar geboekte documenten en artikelposten. Dit ontwerp was flexibel en bood uitgebreide functionaliteit, maar artikeltraceringsposten werden niet volledig betrokken bij beschikbaarheidsberekeningen.  
+Vanaf [!INCLUDE[prod_short](includes/prod_short.md)] 3.00 bevond de artikeltraceringfunctionaliteit zich in een afzonderlijke objectstructuur met complexe koppelingen naar geboekte documenten en artikelposten. Dit ontwerp was flexibel en bood uitgebreide functionaliteit, maar artikeltraceringsposten werden niet volledig betrokken bij beschikbaarheidsberekeningen.  
 
-Vanaf [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 is de artikeltraceringfunctionaliteit geïntegreerd in het reserveringsysteem, waarmee reserveringen, ordertracering en planningsboodschappen worden verwerkt. Zie voor meer informatie "Ontwerpdetails: Reservering, ordertracering en planningsboodschappen" in "Ontwerpdetails: Voorraadplanning".  
+Vanaf [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 is de artikeltraceringfunctionaliteit geïntegreerd in het reserveringsysteem, waarmee reserveringen, ordertracering en planningsboodschappen worden verwerkt. Zie voor meer informatie "Ontwerpdetails: Reservering, ordertracering en planningsboodschappen" in "Ontwerpdetails: Voorraadplanning".  
 
-Dit laatste ontwerp integreert artikeltraceringsposten in berekeningen van de totale beschikbaarheid in het hele systeem, inclusief planning, productie en magazijnactiviteiten. Het klassieke concept van het overzetten van serie- en lotnummers in de artikelposten, wordt opnieuw gebruikt om te zorgen voor eenvoudige toegang tot historische gegevens voor artikeltracering. In verband met verbeteringen in de artikeltracering in [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 is het reserveringsysteem uitgebreid tot niet-order netwerkentiteiten, zoals dagboeken, facturen en creditnota's.  
+Dit laatste ontwerp integreert artikeltraceringsposten in berekeningen van de totale beschikbaarheid in het hele systeem, inclusief planning, productie en magazijnactiviteiten. Het klassieke concept van het overzetten van serie- en lotnummers in de artikelposten, wordt opnieuw gebruikt om te zorgen voor eenvoudige toegang tot historische gegevens voor artikeltracering. In verband met verbeteringen in de artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 is het reserveringsysteem uitgebreid tot niet-order netwerkentiteiten, zoals dagboeken, facturen en creditnota's.  
 
 Met het toevoegen van serie- of lotnummers verwerkt het reserveringssysteem permanente artikelkenmerken terwijl ook cyclische koppelingen tussen voorziening en vraag in de vorm van ordertraceringsposten en reserveringsposten worden verwerkt. Een ander kenmerk van serie- of lotnummers in vergelijking met de conventionele reserveringsgegevens is het feit dat deze gedeeltelijk of volledig kunnen worden geboekt. De tabel **Reserveringspost** (T337) werkt daarom nu met een gekoppelde tabel, de tabel **Traceringsspecificatie** (T336), waarmee optellingen tussen traceringsaantallen actieve en geboekte artikelen worden beheerd en weergegeven. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  
 
-In het volgende diagram wordt het ontwerp van artikeltraceringfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] aangegeven.  
+In het volgende diagram wordt het ontwerp van artikeltraceringfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] aangegeven.  
 
 ![Voorbeeld van een artikeltraceringsstroom](media/design_details_item_tracking_design.png "Voorbeeld van een artikeltraceringsstroom")  
 

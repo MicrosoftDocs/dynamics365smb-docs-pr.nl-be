@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d063b4b6a78f9a75cdb16050ffe14305df27d95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9908544b55e09f5a6578eec0cba000a763e917
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916688"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749131"
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
 
-Als u betalingen aan leveranciers of klanten doet of vergoedingen aan uw werknemers uitvoert, boekt u de gerelateerde betalingsregels op de pagina **Betalingsdagboek** . Het betalingsdagboek is een diversendagboek dat is geoptimaliseerd voor het doen van betalingen en bevat een aantal krachtige functies zoals de functie **Leveranciersbetalingen voorstellen** , die verschuldigde betalingen zoekt, en het rapport **Leverancier - Open posten** dat een overzicht bevat van verschuldigde leveranciersbetalingen.  
+Als u betalingen aan leveranciers of klanten doet of vergoedingen aan uw werknemers uitvoert, boekt u de gerelateerde betalingsregels op de pagina **Betalingsdagboek**. Het betalingsdagboek is een diversendagboek dat is geoptimaliseerd voor het doen van betalingen en bevat een aantal krachtige functies zoals de functie **Leveranciersbetalingen voorstellen**, die verschuldigde betalingen zoekt, en het rapport **Leverancier - Open posten** dat een overzicht bevat van verschuldigde leveranciersbetalingen.  
 
 U kunt het betalingsproces starten vanuit de lijsten, kaarten, en posten voor leveranciers, klanten en medewerkers. Elk van de pagina's heeft een knop die de betalingsstroom start en u helpt het betalingsdagboek in te vullen.  
 
-Vanuit het betalingsdagboek kunt u automatische cheques afdrukken of vastleggen wanneer cheques worden uitgeschreven. Wanneer **Automatische cheque** is geselecteerd in het veld **Betalingssoort** , moeten de cheques worden afgedrukt voordat de dagboekregels kunnen worden geboekt.
+Vanuit het betalingsdagboek kunt u automatische cheques afdrukken of vastleggen wanneer cheques worden uitgeschreven. Wanneer **Automatische cheque** is geselecteerd in het veld **Betalingssoort**, moeten de cheques worden afgedrukt voordat de dagboekregels kunnen worden geboekt.
 
 Wanneer de betalingen worden geboekt, kunt u deze exporteren naar een bankbestand om ze te uploaden naar uw bank voor verwerking.
 
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 | Aan | Zie |
 | --- | --- |
-|Basisfuncties begrijpen van de pagina **Betalingsdagboek** , die is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
+|Basisfuncties begrijpen van de pagina **Betalingsdagboek**, die is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
 |Boek betalingen aan leveranciers of werknemers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
 | Gebruik een functie op de pagina **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
 | Geef cheques uit voor leveranciersbetalingen of terugbetalingen aan klanten, hetzij als afdrukken, hetzij als automatische cheques. Cheques nietig verklaren voor of na het boeken. |[Chequebetalingen doen](payables-how-work-checks.md) |
@@ -45,4 +45,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

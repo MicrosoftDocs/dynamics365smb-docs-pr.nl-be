@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920659"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749256"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.
@@ -29,7 +29,7 @@ U definieert het algemene gedrag of de functionaliteit voor vaste activa en stel
 Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Posten voor deze boekingsgroepen worden naar dezelfde grootboekrekeningen geboekt.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** .
+2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **VA-boekingsgroep** in.
 
     > [!NOTE]  
@@ -51,7 +51,7 @@ Verdeelsleutels zijn van toepassing op klassen voor vaste activa en niet op afzo
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Dagboeksjablonen voor vaste activa instellen
 Een sjabloon is een vooraf gedefinieerd model voor een dagboek. De sjabloon bevat informatie over traceringscodes, lijsten en nummerreeksen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjabloon voor vaste activa gemaakt als u de pagina **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] wordt automatisch een dagboeksjabloon voor vaste activa gemaakt als u de pagina **Dagboek voor vaste activa** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeksjablonen** in en kies de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -60,11 +60,11 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een dagboeksjab
 U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke dagboeksjabloon zijn. Werknemers kunnen bijvoorbeeld hun eigen dagboekbatch hebben, waarbij de initialen van de werknemer als batchnaam worden gebruikt. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeksjablonen** in en kies de gerelateerde koppeling.  
-2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches** .
+2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
 3. Vul op de pagina **VA-dagboekbatches** indien nodig de velden in.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Herindelingsdagboeksjablonen voor vaste activa instellen
-U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet verplaatsen, combineren of splitsen. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt automatisch een herindelingsdagboeksjabloon voor vaste activa gemaakt wanneer u de pagina **VA-herindelingsdagboek** voor het eerst opent, maar u kunt extra VA-herindelingsdagboeksjablonen instellen. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
+U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet verplaatsen, combineren of splitsen. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt automatisch een herindelingsdagboeksjabloon voor vaste activa gemaakt wanneer u de pagina **VA-herindelingsdagboek** voor het eerst opent, maar u kunt extra VA-herindelingsdagboeksjablonen instellen. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-herindelingsdagboeksjablonen** in en kies de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -73,7 +73,7 @@ U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet ve
 U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke herindelingsdagboeksjabloon zijn. Werknemers kunnen bijvoorbeeld hun eigen herindelingsdagboekbatch hebben, waarbij de initialen van de werknemer als herindelingsbatchnaam worden gebruikt. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-herindelingsdagboeksjablonen** in en kies de gerelateerde koppeling.  
-2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches** .
+2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
 3. Vul op de pagina **VA-herindelingsdagboekbatches** indien nodig de velden in.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Categorieën voor vaste activa instellen
@@ -95,7 +95,7 @@ U gebruikt vestigingen voor vaste activa om de locatie van het vaste activum te 
 2. Voer codes en namen in voor de vestigingen van vaste activa die u wilt maken.
 
 ## <a name="to-register-opening-entries"></a>Beginsaldi registreren
-Als u de module Vaste activa in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst gebruikt, moet u eerst het toepassingsgebied Financieel instellen voordat u vaste activa gaat instellen. Bepalend voor de manier waarop deze informatie wordt ingevuld, is de vraag of vaste activa is geïntegreerd met het grootboek.  
+Als u de module Vaste activa in [!INCLUDE[prod_short](includes/prod_short.md)] voor het eerst gebruikt, moet u eerst het toepassingsgebied Financieel instellen voordat u vaste activa gaat instellen. Bepalend voor de manier waarop deze informatie wordt ingevuld, is de vraag of vaste activa is geïntegreerd met het grootboek.  
 
  Als VA-transacties naar het grootboek moeten worden geboekt, wordt de onderstaande procedure gebruikt.  
 
@@ -110,7 +110,7 @@ Als u de module Vaste activa in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor
 7. In het dagboek voor vaste activa voert u voor elk activum de volgende regels in:
    * Een regel met de aanschafkosten.
    * Een regel met de gecumuleerde afschrijving tot het einde van het vorige boekjaar.
-   * Een regel met de gecumuleerde afschrijving vanaf het begin van het lopende boekjaar tot de datum waarop [!INCLUDE[d365fin](includes/d365fin_md.md)] is ingesteld om te beginnen met het berekenen van de afschrijving.
+   * Een regel met de gecumuleerde afschrijving vanaf het begin van het lopende boekjaar tot de datum waarop [!INCLUDE[prod_short](includes/prod_short.md)] is ingesteld om te beginnen met het berekenen van de afschrijving.
 
     Als er nog andere beginsaldi zijn, zoals waardevermindering of waardevermeerdering, kunt u deze nu ook opgeven.  
 8. Nadat u de dagboekregels voor elk activum hebt ingevoerd en geboekt, schakelt u grootboekintegratie in de afschrijvingsboeken in.
@@ -122,4 +122,4 @@ Als de vaste activa niet zijn geïntegreerd met het grootboek, slaat u de stappe
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

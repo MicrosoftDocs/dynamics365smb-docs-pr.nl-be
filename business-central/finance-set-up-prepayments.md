@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914251"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750442"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
@@ -39,7 +39,7 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
     - **Vooruitbetalingsrekening inkoop**  
 
 > [!TIP]
-> Als u de velden niet kunt zien op de pagina **Boekingsgroepinstellingen** , gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
+> Als u de velden niet kunt zien op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
 
 Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u de pagina **Grootboekrekeningoverzicht** openen vanuit het relevante rekeningveld.  
 
@@ -64,7 +64,7 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
-2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages** .  
+2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages**.  
 3. Vul op de pagina **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in.
@@ -93,4 +93,4 @@ Met andere woorden: het vooruitbetalingspercentage op de klantenkaart geldt alle
 [GST op vooruitbetalingen berekenen in Nieuw-Zeeland](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Het grootboek en COA begrijpen](finance-general-ledger.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923532"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745984"
 ---
 # <a name="managing-relationships"></a>Relaties beheren
-De relatiebeheerfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.
+De relatiebeheerfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.
 
-Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.
+Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. [!INCLUDE[prod_short](includes/prod_short.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 

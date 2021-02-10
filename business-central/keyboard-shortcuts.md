@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746128"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
-Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
+Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Zie [Sneltoetsen (alleen pc)](keyboard-shortcuts-cheatsheet.md) voor een overzicht van de meestgebruikte sneltoetsen.
 
@@ -37,7 +37,7 @@ Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficië
 De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Sommige sneltoetsen verschillen echter voor macOS. Deze snelkoppelingen worden aangegeven met haakjes in de volgende secties.
 
 > [!NOTE]
-> Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
+> Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record wanneer u de record opent in een kaart. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Algemene sneltoetsen
 
@@ -52,7 +52,7 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |Alt+Shift+F2|Schakelen tussen **Details** en **Bijlagen** in het deelvenster Feitenblok.|
 |Alt+O|Een nieuwe notitie toevoegen voor de geselecteerde record, zelfs als het deelvenster Feitenblok niet is geopend.|
 |Alt+Q<br />(Ctrl+Option+Q)|Het venster **Vertel me** openen. Zie voor meer informatie [Pagina's en informatie zoeken met Vertel me](ui-search.md).|
-|Alt+N |Een pagina openen om een nieuwe record te maken. (Gelijk aan het kiezen van de acties **Nieuw** en **+** .)|
+|Alt+N |Een pagina openen om een nieuwe record te maken. (Gelijk aan het kiezen van de acties **Nieuw** en **+**.)|
 |Alt+Shift+N |Een nieuw gemaakte pagina sluiten en een nieuwe openen om een nieuwe record te maken. Met Alt+F9 publiceert u een document en maakt u een nieuw.|
 |Alt+T|De pagina **Mijn instellingen** openen.|
 |Alt+Pijl rechts|Zoek aanvullende informatie of onderliggende waarden voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "Knop AssistEdit") bevat. Dit wordt gebruikt wanneer de gebruikelijke vervolgkeuzeknop (Alt+Pijl-omlaag) in hetzelfde veld voor een ander doel wordt gebruikt.|
@@ -63,13 +63,13 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |Ctrl+F1|De Help van Business Central voor de pagina openen.|
 |Ctrl+F12|Schakelen tussen brede en smalle indelingweergave.|
 |Ctrl+klikken|Navigeren tijdens het personaliseren of aanpassen wanneer de actie is gemarkeerd met een pijlpunt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.|  
-|Ctrl+F5|De [!INCLUDE[prodshort](includes/prodshort.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
+|Ctrl+F5|De [!INCLUDE[prod_short](includes/prod_short.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
 |F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik deze toets om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
 |Voer in|Het (besturings)element met focus inschakelen of openen.|
 |Esc|De huidige pagina of vervolgkeuzelijst sluiten.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
-|J en N|De knoppen **Ja** en **Nee** activeren in dialoogvensters. De werkelijke toetsen zijn afhankelijk van uw huidige taal die is opgegeven in **Mijn instellingen** . Druk bijvoorbeeld op J om de knop **Ja** te activeren bij gebruik van de Nederlandse taal.|
+|J en N|De knoppen **Ja** en **Nee** activeren in dialoogvensters. De werkelijke toetsen zijn afhankelijk van uw huidige taal die is opgegeven in **Mijn instellingen**. Druk bijvoorbeeld op J om de knop **Ja** te activeren bij gebruik van de Nederlandse taal.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
 
@@ -83,12 +83,12 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave|Als u dit wilt doen in een tegelweergave |
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |De geselecteerde kolom sorteren in oplopende of aflopende volgorde.|Niet van toepassing.|
-|Alt+N|Een nieuwe regel invoegen in een bewerkbare lijst in, zoals de pagina **Grootboekbudgetten** .|Zelfde.|
+|Alt+N|Een nieuwe regel invoegen in een bewerkbare lijst in, zoals de pagina **Grootboekbudgetten**.|Zelfde.|
 |Shift+F10 |Een menu openen met opties die beschikbaar zijn voor de geselecteerde rij.|Zelfde.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
 
-Veel paginatypen in [!INCLUDE[prodshort](includes/prodshort.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels** -onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
+Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
 
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
 |--------------------------------|--------------------------|--------------------------|
@@ -130,8 +130,8 @@ Veel paginatypen in [!INCLUDE[prodshort](includes/prodshort.md)] bevatten raster
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
 |F3|Schakelt het zoekvak in of uit.<ul><li>Het zoekvak activeren, zodat u kunt beginnen met typen van uw zoektekst.</li><li>Als het zoekvak al is geactiveerd, keert F3 terug naar de lijst zonder de zoektekst te wissen.</li><ul>|
-|Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filtervenster niet open is, opent Shift+F3 het en richt het zich op de **+ Filteren** -actie onder **Filter lijst op** . U kunt dan gewoon op Enter drukken om een veldfilter toe te voegen.</li><li>Als het filterdeelvenster nog openstaat, sluit Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>|
-|Ctrl+Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filtervenster niet open is, opent Ctrl+Shift+F3 het en richt het zich op de **+ Filteren** -actie onder **Filter totaal op** . U kunt dan gewoon op Enter drukken om een totalenfilter toe te voegen.</li><li>Als het filterdeelvenster nog openstaat, sluit Ctrl+Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>  |
+|Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filtervenster niet open is, opent Shift+F3 het en richt het zich op de **+ Filteren**-actie onder **Filter lijst op**. U kunt dan gewoon op Enter drukken om een veldfilter toe te voegen.</li><li>Als het filterdeelvenster nog openstaat, sluit Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>|
+|Ctrl+Shift+F3|Het filterdeelvenster openen en sluiten.<ul><li> Als het filtervenster niet open is, opent Ctrl+Shift+F3 het en richt het zich op de **+ Filteren**-actie onder **Filter totaal op**. U kunt dan gewoon op Enter drukken om een totalenfilter toe te voegen.</li><li>Als het filterdeelvenster nog openstaat, sluit Ctrl+Shift+F3 het, maar worden geen filters gewist die u hebt toegevoegd.</li></ul>  |
 |Alt+F3|Filtering op de geselecteerde waarde omschakelen.<ul><li>Past een kolomfilter op de geselecteerde veldwaarde in de lijst toe. Dit doet hetzelfde als **Filteren op deze waarde** kiezen vanuit een kolomkop. Opent het filterdeelvenster, stelt het filter in op de geselecteerde waarde en de focus blijft op de cel in de lijst.</li><li>Als de kolom al is gefilterd, wist Alt+F3 het filter op die kolom.</li></ul> |
 |Shift+Alt+F3|Het filterdeelvenster openen en een filter toevoegen op de geselecteerde kolom in de lijst. De focus is op het nieuwe filterveld waardoor u meteen kunt beginnen met typen van het filtercriterium.<br /><br /> Dit doet hetzelfde als **Filter** selecteren vanuit de kolomkop.<br /><br />Als er al een filter op het veld is, wordt een nieuw filter toegevoegd. |
 |Ctrl+Shift+Alt+F3|Filters opnieuw instellen. Dit doet hetzelfde als **Filters opnieuw instellen** kiezen in het filterdeelvenster en geldt voor veld- en totalenfilters.<br /><br /> Filters krijgen weer de standaardfilters voor de huidige weergave. Als de huidige weergave **Alle** is, is dit het equivalent van terugkeren naar een ongefilterde weergave met alle records. |
@@ -139,7 +139,7 @@ Veel paginatypen in [!INCLUDE[prodshort](includes/prodshort.md)] bevatten raster
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Toetsenbordsneltoetsen in kaarten en documenten
 
-De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant** , en documentpagina's, zoals **Verkooporder** , voor het weergeven en wijzigen van records.
+De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en documentpagina's, zoals **Verkooporder**, voor het weergeven en wijzigen van records.
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
@@ -173,7 +173,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
-|Ctrl+Home|De agenda openen als deze is gesloten. **Opmerking** : dit werkt niet als het datumveld in een raster staat, waar Ctrl+Home naar de eerste rij springt.|
+|Ctrl+Home|De agenda openen als deze is gesloten. **Opmerking**: dit werkt niet als het datumveld in een raster staat, waar Ctrl+Home naar de eerste rij springt.|
 |Ctrl+Home<br />(Cmd+Home)|Naar de huidige maand, huidige dag gaan.|
 |Ctrl + pijl-links<br />(Cmd+Pijl links)|Naar de vorige dag gaan.|
 |Ctrl + pijl-rechts<br />(Cmd+Pijl rechts)|Naar de volgende dag gaan.|
@@ -206,11 +206,19 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Page Down<br />(Fn+pijl omlaag)|Naar de volgende pagina's van het rapport gaan.|
 |Page up<br />(Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Sneltoetsen voor het in- en uitzoomen
+
+|Druk op deze toetsen|Actie|
+|--------------------------------|----------|
+|Ctrl++|Inzoomen op de huidige pagina.|  
+|Ctrl+-|Uitzoomen op de huidige pagina.|  
+|Ctrl+0|Inzoomen of uitzoomen tot 100% op de huidige pagina.|  
+
 ## <a name="see-also"></a>Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Assisterende functies](ui-accessibility.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
 [Posten zoeken](ui-find-entries.md)  

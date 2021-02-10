@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fbd27caed8be1e7231f98964890fafed66c7bbbb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910567"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748230"
 ---
 # <a name="set-up-shipping-agents"></a>Expediteurs instellen
 U kunt een code instellen voor al uw expediteurs en gegevens over hen opgeven.  
@@ -30,7 +30,7 @@ Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt
 ## <a name="to-set-up-a-shipping-agent"></a>Een expediteur instellen  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Expediteurs** in en kies de gerelateerde koppeling.  
 2.  Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
-3.  Kies de actie **Expediteurservices** .
+3.  Kies de actie **Expediteurservices**.
 4. Vul de velden in **Expediteurservices** naar wens in.
 
 > [!NOTE]  
@@ -44,4 +44,4 @@ Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

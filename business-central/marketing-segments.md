@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923582"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749842"
 ---
 # <a name="managing-segments"></a>Segmenten beheren
 U kunt segmenten maken om een groep contacten te selecteren overeenkomstig een bepaald criterium. Een segment kan bijvoorbeeld de sector zijn waartoe de contacten behoren of uw zakenrelatie met de contacten. U kunt een segment maken om te selecteren op welke contacten u een campagne wilt richten.
@@ -38,4 +38,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

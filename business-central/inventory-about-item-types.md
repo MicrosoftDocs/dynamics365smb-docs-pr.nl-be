@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3c9b79701296cd21492752e94b2a0ec7848658b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924015"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746328"
 ---
 # <a name="about-item-types"></a>Over artikeltypen
 In het veld **Soort** op de pagina **Artikel** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt en dus hoe het wordt beheerd in het systeem. Er zijn drie opties:
@@ -43,9 +43,9 @@ De drie artikeltypen ondersteunen respectievelijk de volgende functies.
 ## <a name="costing-methods-for-types-of-items"></a>Waarderingsmethoden voor soorten artikelen
 Als u voorraadtransacties boekt, worden de gewijzigde voorraadaantallen en -waarden vastgelegd in respectievelijk de artikel- en waardeposten. 
 
-Voor voorraadartikelen worden de kosten geregistreerd in het veld **Tot. werk. kosten** op de pagina **Waardeposten** en wanneer deze zijn gereconcilieerd met het grootboek, worden de kosten weergegeven in het veld **Kosten geboekt naar grootboek** . Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
+Voor voorraadartikelen worden de kosten geregistreerd in het veld **Tot. werk. kosten** op de pagina **Waardeposten** en wanneer deze zijn gereconcilieerd met het grootboek, worden de kosten weergegeven in het veld **Kosten geboekt naar grootboek**. Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
-Voor niet-voorraad- en serviceartikelen worden de kosten geregistreerd in het veld **Kostenbedrag (Niet-inv.)** op de pagina **Waardeposten** . Voor niet-voorraad- en serviceartikelen worden de kosten gespecificeerd op de verkoop-, assembly- en productiedocumenten en -dagboeken. De standaardkosten kunnen worden gespecificeerd in het veld **Kostprijs** op de pagina's **Artikelkaart** en **SKU** . Kosten voor dit soort artikelen worden niet gereconcilieerd met het grootboek. 
+Voor niet-voorraad- en serviceartikelen worden de kosten geregistreerd in het veld **Kostenbedrag (Niet-inv.)** op de pagina **Waardeposten**. Voor niet-voorraad- en serviceartikelen worden de kosten gespecificeerd op de verkoop-, assembly- en productiedocumenten en -dagboeken. De standaardkosten kunnen worden gespecificeerd in het veld **Kostprijs** op de pagina's **Artikelkaart** en **SKU**. Kosten voor dit soort artikelen worden niet gereconcilieerd met het grootboek. 
 
 ## <a name="catalog-and-service-items"></a>Catalogus- en serviceartikelen
 Artikelen die u aan uw klanten aanbiedt, maar die u niet in uw systeem wilt beheren tot u ze begint te verkopen, kunnen worden ingesteld als catalogusartikelen. Catalogusartikelen moeten niet worden verward met normale artikelen van het type Niet-voorraad. Zie voor meer informatie [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).
@@ -57,4 +57,4 @@ Artikelen van klanten waaraan u onderhoud verricht, zoals een printer, worden se
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

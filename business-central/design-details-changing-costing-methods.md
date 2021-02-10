@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917538"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751745"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een waarderingsmethode voor een artikel niet wijzigen nadat u het artikel in een transactie hebt opgenomen. Bijvoorbeeld nadat u het artikel hebt gekocht of verkocht. Als aan het artikel of de artikelen een onjuiste waarderingsmethode is toegewezen, ontdekt u het probleem mogelijk pas wanneer u uw financiële rapportage uitvoert.
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een waarderingsmethode voor een artikel niet wijzigen nadat u het artikel in een transactie hebt opgenomen. Bijvoorbeeld nadat u het artikel hebt gekocht of verkocht. Als aan het artikel of de artikelen een onjuiste waarderingsmethode is toegewezen, ontdekt u het probleem mogelijk pas wanneer u uw financiële rapportage uitvoert.
 
 In dit onderwerp wordt beschreven hoe u deze situatie kunt oplossen. De aanbevolen aanpak is om het artikel met de onjuiste waarderingsmethode te vervangen door een nieuw artikel en een assemblageorder te gebruiken om de voorraad van het oude artikel naar het nieuwe over te dragen.
 
@@ -35,7 +35,7 @@ Waarderingsmethode bepalen de kostenberekeningen wanneer goederen worden gekocht
 
 *brutowinst* = *inkomsten - KPV*
 
-Wanneer u voorraadartikelen instelt, moet u een waarderingsmethode toewijzen. De methode kan van bedrijf tot bedrijf en van artikel tot artikel verschillen, dus het is belangrijk om de juiste te kiezen. De volgende waarderingsmethoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+Wanneer u voorraadartikelen instelt, moet u een waarderingsmethode toewijzen. De methode kan van bedrijf tot bedrijf en van artikel tot artikel verschillen, dus het is belangrijk om de juiste te kiezen. De volgende waarderingsmethoden worden ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 * Gemiddelde
 * FIFO
@@ -60,7 +60,7 @@ In deze sectie worden de volgende stappen beschreven voor het wijzigen van de wa
 
 ### <a name="define-a-default-costing-method"></a>Een standaardwaarderingsmethode opgeven
 
-Om toekomstige fouten te voorkomen kunt u een standaardwaarderingsmethode voor nieuwe artikelen specificeren. Telkens wanneer iemand een nieuw artikel maakt, stelt [!INCLUDE[d365fin](includes/d365fin_md.md)] de standaardwaarderingsmethode voor. U specificeert de standaardmethode in het veld **Standaardwaarderingsmethode** op de pagina **Voorraadinstellingen** . 
+Om toekomstige fouten te voorkomen kunt u een standaardwaarderingsmethode voor nieuwe artikelen specificeren. Telkens wanneer iemand een nieuw artikel maakt, stelt [!INCLUDE[prod_short](includes/prod_short.md)] de standaardwaarderingsmethode voor. U specificeert de standaardmethode in het veld **Standaardwaarderingsmethode** op de pagina **Voorraadinstellingen**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>De artikelen identificeren waarvoor u de waarderingsmethode wilt wijzigen en deze hernummeren
 
@@ -68,7 +68,7 @@ Mogelijk wilt u uw nieuwe artikelen dezelfde nummers geven als de artikelen die 
 
 ### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Handmatig nieuwe artikelen met het oude nummeringsschema maken en de hoofdgegevens in een batch kopiëren
 
-Maak de nieuwe artikelen met het huidige nummeringschema. Met uitzondering van het veld **Waarderingsmethode** moeten de nieuwe artikelen dezelfde stamgegevens bevatten als de bestaande. Gebruik om de hoofdgegevens voor het artikel en gerelateerde gegevens van andere functies over te dragen de actie **Item kopiëren** op de pagina **Artikelkaart** . Zie voor meer informatie [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md).
+Maak de nieuwe artikelen met het huidige nummeringschema. Met uitzondering van het veld **Waarderingsmethode** moeten de nieuwe artikelen dezelfde stamgegevens bevatten als de bestaande. Gebruik om de hoofdgegevens voor het artikel en gerelateerde gegevens van andere functies over te dragen de actie **Item kopiëren** op de pagina **Artikelkaart**. Zie voor meer informatie [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md).
 
 Nadat u de nieuwe artikelen hebt gemaakt en de hoofdgegevens hebt overgedragen, wijst u de juiste waarderingsmethode toe.
 
@@ -79,20 +79,20 @@ Om de nieuwe artikelen volledig bruikbaar te maken moet u sommige hoofdgegevens 
 |District  |Wat te kopiëren  |Hoe u dit doet  |
 |---------|---------|---------|
 |Voorraad     |SKU's         |Controleer of er een SKU is gespecificeerd voor het originele artikel. Als voor elke SKU-kaart planningsparameters zijn ingevoerd, moet u de SKU voor het nieuwe artikel handmatig maken. Als de parameters niet zijn gespecificeerd, kunt u de batchtaak **SKU maken** vanaf de pagina **Artikelkaart** gebruiken om de gegevens te maken.        |
-|     |Artikelvervangingen         |Controleer of er artikelvervangingen zijn gedefinieerd voor het oorspronkelijke artikel. Als dat zo is, breng die gegevens dan over naar het nieuwe artikel. Als u vervangende artikelen wilt weergeven, gebruikt u de actie **Vervangingen** op de pagina **Artikelkaart** .         |
+|     |Artikelvervangingen         |Controleer of er artikelvervangingen zijn gedefinieerd voor het oorspronkelijke artikel. Als dat zo is, breng die gegevens dan over naar het nieuwe artikel. Als u vervangende artikelen wilt weergeven, gebruikt u de actie **Vervangingen** op de pagina **Artikelkaart**.         |
 |     |Analyserapporten         |Bekijk de rapporten Artikelanalyse, Verkoopanalyse en Inkoopanalyse. Voor als naar de oorspronkelijke artikelen wordt verwezen kunt u een nieuw analyserapport maken met een verwijzing naar het nieuwe artikel (en het originele analyserapport behouden om als historie te gebruiken) of de rapporten aanpassen zodat deze naar het nieuwe artikel verwijzen.         |
 |     |Standaarddagboeken         |Controleer of standaarddagboeken verwijzen naar het oorspronkelijke artikel en breng die gegevens indien nodig over naar het nieuwe artikel. Deze informatie is te vinden in de standaarddagboeken, die beschikbaar zijn in het artikeldagboek.          |
-|Verkoop     |Vooruitbetalingspercentages verkoop         | Controleer of er voor het oorspronkelijke artikel verkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Verkoop** en dan **Vooruitbetalingspercentages** .        |
-|Inkoop     |Vooruitbetalingspercentage inkoop         |Controleer of er voor het oorspronkelijke artikel inkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Inkopen** en dan **Vooruitbetalingspercentages** .                 |
-|Magazijn     |Opslaglocatie-inhoud         |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[d365fin](includes/d365fin_md.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
-|Project     |Projectprijzen         |Controleer of er voor het oorspronkelijke artikel projectprijzen zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Deze informatie is beschikbaar op de pagina **Projectkaart** in het gedeelte **Projectdetails - Aantal prijzen** in het **deelvenster Feitenblok** .         |
-|Service     |Serviceresourcevaardigheid         |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart** .          |
-|     |Serviceartikelonderdelen         |Controleer of er onderdelen voor het oorspronkelijke serviceartikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om onderdelen van serviceartikelen te bekijken gebruikt u op de pagina **Artikelkaart** de actie **Serviceartikel** om de lijst met gerelateerde serviceartikelen te openen en kiest u vervolgens de actie **Materialen** .          |
-|Productie     |Productiestuklijsten         |Controleer of productiestuklijsten het originele artikel bevatten en vervang het door het nieuwe artikel. Om het originele artikel te vervangen kiest u op de pagina **Productiestuklijsten** de actie **Prod.-stuklijstartikel vervangen** .         |
+|Verkoop     |Vooruitbetalingspercentages verkoop         | Controleer of er voor het oorspronkelijke artikel verkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Verkoop** en dan **Vooruitbetalingspercentages**.        |
+|Inkoop     |Vooruitbetalingspercentage inkoop         |Controleer of er voor het oorspronkelijke artikel inkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Inkopen** en dan **Vooruitbetalingspercentages**.                 |
+|Magazijn     |Opslaglocatie-inhoud         |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[prod_short](includes/prod_short.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
+|Project     |Projectprijzen         |Controleer of er voor het oorspronkelijke artikel projectprijzen zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Deze informatie is beschikbaar op de pagina **Projectkaart** in het gedeelte **Projectdetails - Aantal prijzen** in het **deelvenster Feitenblok**.         |
+|Service     |Serviceresourcevaardigheid         |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart**.          |
+|     |Serviceartikelonderdelen         |Controleer of er onderdelen voor het oorspronkelijke serviceartikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om onderdelen van serviceartikelen te bekijken gebruikt u op de pagina **Artikelkaart** de actie **Serviceartikel** om de lijst met gerelateerde serviceartikelen te openen en kiest u vervolgens de actie **Materialen**.          |
+|Productie     |Productiestuklijsten         |Controleer of productiestuklijsten het originele artikel bevatten en vervang het door het nieuwe artikel. Om het originele artikel te vervangen kiest u op de pagina **Productiestuklijsten** de actie **Prod.-stuklijstartikel vervangen**.         |
 |Assemblage     |Assemblagestuklijsten         |Controleer of assemblagestuklijsten het originele artikel bevatten en vervang het handmatig door het nieuwe artikel.         |
 
 > [!IMPORTANT]
-> Als de nieuwe waarderingsmethode Standaard is, moet u een waarde invoeren in het veld **Vaste verrekenprijs** op de pagina **Artikelkaart** . U kunt de pagina **Vaste-verrekenprijsvoorstel** gebruiken om de kostenaandelen dienovereenkomstig in te stellen. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.
+> Als de nieuwe waarderingsmethode Standaard is, moet u een waarde invoeren in het veld **Vaste verrekenprijs** op de pagina **Artikelkaart**. U kunt de pagina **Vaste-verrekenprijsvoorstel** gebruiken om de kostenaandelen dienovereenkomstig in te stellen. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.
 
 ### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>De voorraadhoeveelheid bepalen die u wilt converteren van het oorspronkelijke artikel naar het nieuwe artikel
 
@@ -138,7 +138,7 @@ Gebruik bij het maken van assemblageorders de informatie uit het inventarisatied
 > Een assemblageorder kan slechts één SKU van een artikel tegelijk verwerken. U moet een assemblageorder maken voor elke combinatie van SKU met een hoeveelheid in voorraad.
 
 > [!NOTE]
-> Voor een magazijnlocatie moet u mogelijk picks maken voordat u de assemblageorder kunt boeken. Om dat te onderzoeken bekijkt u de instelling voor picken op de pagina **Locatiekaart** . Zie voor meer informatie [Artikelen en locaties instellen voor gestuurde opslag en pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
+> Voor een magazijnlocatie moet u mogelijk picks maken voordat u de assemblageorder kunt boeken. Om dat te onderzoeken bekijkt u de instelling voor picken op de pagina **Locatiekaart**. Zie voor meer informatie [Artikelen en locaties instellen voor gestuurde opslag en pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Voorraadhoeveelheden verwerken die zijn toegewezen aan vraag
 
@@ -169,7 +169,7 @@ Als de voorraad voor het oorspronkelijke artikel nul is, kunt u het artikel blok
 
 ## <a name="summary"></a>Overzicht
 
-Het wijzigen van de waarderingsmethode voor artikelen die in transacties zijn gebruikt, is een proces en geen standaardactie in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt de in dit onderwerp beschreven stappen gebruiken als sjabloon voor het proces.
+Het wijzigen van de waarderingsmethode voor artikelen die in transacties zijn gebruikt, is een proces en geen standaardactie in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt de in dit onderwerp beschreven stappen gebruiken als sjabloon voor het proces.
 
 Het proces kan tijdrovend zijn omdat er verschillende handmatige stappen zijn. Als u echter de tijd neemt om het te voltooien, wordt de impact van fouten op uw grootboek geminimaliseerd.
 

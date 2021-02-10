@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9fceeeda18b846edd79b9fdc71ab1a22d80203bd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913358"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750967"
 ---
 # <a name="creating-cost-budgets"></a>Kostenbudgetten maken
 Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een kostenbudget wordt gemaakt op basis van kostensoorten zoals een budget voor het grootboek wordt gemaakt op basis van grootboekrekeningen.  
@@ -37,4 +37,4 @@ U gebruikt de volgende pagina's om kostenbudgetten te maken en te analyseren. Ki
 [Grootboekbudgetten maken](finance-how-create-budgets.md)  
 [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

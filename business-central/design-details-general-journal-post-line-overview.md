@@ -1,6 +1,6 @@
 ---
 title: Overzicht dagboekboekingsregel | Microsoft Docs
-description: In dit onderwerp worden de wijzigingen beschreven die zijn doorgevoerd in Codeunit 12, **Dagboek - Boekingsregel** , het belangrijkste toepassingsobject voor grootboekboekingen en de enige plaats om grootboek-, btw-, klanten- en leveranciersposten in te voegen.
+description: In dit onderwerp worden de wijzigingen beschreven die zijn doorgevoerd in Codeunit 12, **Dagboek - Boekingsregel**, het belangrijkste toepassingsobject voor grootboekboekingen en de enige plaats om grootboek-, btw-, klanten- en leveranciersposten in te voegen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911117"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751617"
 ---
 # <a name="general-journal-post-line-overview"></a>Overzicht dagboekboekingsregel
-Codeunit 12, **Dagboek - Boekingsregel** , is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
+Codeunit 12, **Dagboek - Boekingsregel**, is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
   
-Terwijl de codeunit in elke versie gedurende de laatste tien jaar is verbeterd, bleef de architectuur hoofdzakelijk ongewijzigd. De codeunit werd zeer groot, met ongeveer 7.600 coderegels. In deze versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] is de architectuur gewijzigd en is de codeunit eenvoudiger en makkelijker te beheren. Deze documentatie introduceert de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
+Terwijl de codeunit in elke versie gedurende de laatste tien jaar is verbeterd, bleef de architectuur hoofdzakelijk ongewijzigd. De codeunit werd zeer groot, met ongeveer 7.600 coderegels. In deze versie van [!INCLUDE[prod_short](includes/prod_short.md)] is de architectuur gewijzigd en is de codeunit eenvoudiger en makkelijker te beheren. Deze documentatie introduceert de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
   
 ## <a name="old-architecture"></a>Oude architectuur  
 De oude architectuur had de volgende functies:  
@@ -34,7 +34,7 @@ De oude architectuur had de volgende functies:
 * Boeken, Vereffenen, Vereffening ongedaan maken, Tegenboeken, Contantkorting en betalingstolerantie, en Wisselkoersherwaardering waren aan elkaar gekoppeld in codeunit 12 met gebruik van een lange lijst van algemene variabelen.  
   
 ### <a name="new-architecture"></a>Nieuwe architectuur  
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft codeunit 12 de volgende verbeteringen:  
+In [!INCLUDE[prod_short](includes/prod_short.md)] heeft codeunit 12 de volgende verbeteringen:  
   
 * Codeunit 12 is opnieuw gestructureerd in kleinere procedures (alle korter dan 100 coderegels).  
 * Gestandaardiseerde patronen voor de zoekopdracht van grootboekrekeningen zijn geïmplementeerd door het gebruik van Help-functies uit de boekingsgroeptabellen.  

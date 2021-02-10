@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b692183d377bbe2bcf420608cb02c1ec52dd9b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed874c647dd5c3526df38a3c4d6ee43293737786
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910964"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751092"
 ---
 # <a name="design-details-supply-planning"></a>Ontwerpdetails: Voorzieningsplanning
-Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadplanning in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadplanning in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Er wordt uitgelegd hoe het planningssysteem werkt en hoe de algoritmen kunnen worden aangepast om te voldoen aan planningsvereisten in verschillende omgevingen. Eerst worden de centrale oplossingsconcepten geïntroduceerd en vervolgens wordt de logica beschreven van het centrale mechanisme, de afstemming van voorzieningen, waarna wordt uitgelegd hoe voorraadplanning wordt uitgevoerd met gebruikmaking van bestelbeleid.  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a8a7967bdb0947fbfb0b86cc073fc4f96ea0595
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5e14b19b2e8be97a683dfbb9fb7a46e2c825b4e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920608"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750817"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
 Om een foutieve dagboekpost ongedaan te maken, selecteert en maakt u een tegenboeking (posten die identiek zijn aan de oorspronkelijke post, maar met een tegenovergesteld teken in het bedragveld) met hetzelfde documentnummer en dezelfde boekingsdatum als de originele post. Nadat een post is tegengeboekt, moet u de juiste post maken.
@@ -31,10 +31,10 @@ Als u een onjuist negatief aantal hebt geboekt, dat wil zeggen, als u een inkoop
 Als u een onjuist positief aantal hebt geboekt, dat wil zeggen, als u een verkoopverzending of een inkoopretourzending hebt gemaakt met bijvoorbeeld het verkeerde aantal artikelen en deze hebt geboekt als verzonden (maar niet gefactureerd), kunt u de boeking ongedaan maken.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>De dagboekboeking van een grootboekpost tegenboeken
-U kunt posten vanuit alle **Posten** -pagina's tegenboeken. De volgende procedure is gebaseerd op de pagina **Grootboekposten** .
+U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure is gebaseerd op de pagina **Grootboekposten**.
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten** in en kies de desbetreffende koppeling.
-2. Selecteer de post die u wilt tegenboeken en kies vervolgens de actie **Transactie tegenboeken** . Het moet afkomstig zijn uit een dagboekboeking.
-3. Kies op de pagina **Transactieposten tegenboeken** de actie **Tegenboeken** .
+2. Selecteer de post die u wilt tegenboeken en kies vervolgens de actie **Transactie tegenboeken**. Het moet afkomstig zijn uit een dagboekboeking.
+3. Kies op de pagina **Transactieposten tegenboeken** de actie **Tegenboeken**.
 4. Kies de knop **Ja** in het bevestigingsbericht.
 
 > [!NOTE]
@@ -46,8 +46,8 @@ U kunt het veld **Storno** gebruiken om een negatief debetbedrag in plaats van e
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies de desbetreffende koppeling.  
 2.  Selecteer in het veld **Batchnaam** de juiste batchnaam.  
 3.  Voer informatie in de relevante velden in.  
-4.  Selecteer op de dagboekregel die u wilt activeren voor negatieve posten het selectievakje **Storno** .  
-5.  Als u naar het dagboek wilt boeken, kiest u de actie **Boeken** en kiest u vervolgens de knop **Ja** .
+4.  Selecteer op de dagboekregel die u wilt activeren voor negatieve posten het selectievakje **Storno**.  
+5.  Als u naar het dagboek wilt boeken, kiest u de actie **Boeken** en kiest u vervolgens de knop **Ja**.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Een aantalsboeking ongedaan maken op een geboekte inkoopontvangst  
 Hieronder wordt beschreven hoe u een geboekte ontvangst van artikelen of resources ongedaan kunt maken. De stappen zijn vergelijkbaar met de stappen voor geboekte verzendingen.
@@ -55,7 +55,7 @@ Hieronder wordt beschreven hoe u een geboekte ontvangst van artikelen of resourc
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopontvangsten** in en kies de desbetreffende koppeling.  
 2.  Open de geboekte ontvangst die u ongedaan wilt maken.  
 3.  Selecteer de regel(s) die u ongedaan wilt maken.  
-4.  Kies de actie **Ontvangst ongedaan maken** .
+4.  Kies de actie **Ontvangst ongedaan maken**.
 
 Er wordt een correctieregel ingevoegd onder de geselecteerde ontvangstregel. Als de hoeveelheid in een magazijnontvangst is ontvangen, wordt een correctieregel ingevoegd op de geboekte magazijnontvangst.  
 
@@ -68,7 +68,7 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 2.  Open de geboekte retourzending die u ongedaan wilt maken.
 3. Selecteer de regel(s) die u ongedaan wilt maken.  
 
-4.  Kies de actie **Retourverzending ongedaan maken** .  
+4.  Kies de actie **Retourverzending ongedaan maken**.  
 
     In het geboekte document wordt een gecorrigeerde regel ingevoegd. Op de retourorder worden de velden **Retouraantal verzonden** en **Retourverzending niet gefact.** ingesteld op nul.  
 
@@ -76,7 +76,7 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 
 5.  Let op de pagina **Geboekte retourverzending** op het nummer in het **Retourordernr.** veld.  
 6.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopretourorders** in en selecteer de desbetreffende koppeling.  
-7.  Open de retourorder en kies de actie **Opnieuw openen** .  
+7.  Open de retourorder en kies de actie **Opnieuw openen**.  
 8.  Corrigeer de post in het veld **Aantal** en boek de inkoopretourorder opnieuw.  
 
 ## <a name="see-also"></a>Zie ook
@@ -84,4 +84,4 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

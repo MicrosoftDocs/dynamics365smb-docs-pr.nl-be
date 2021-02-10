@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7021b09fd113ec87ff8d155fff24b31ca497bc42
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924465"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752417"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals instellen
-Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] de extensie AMC Banking 365 Fundamentals genoemd.
+Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit wordt in [!INCLUDE[prod_short](includes/prod_short.md)] de extensie AMC Banking 365 Fundamentals genoemd.
 
 U kunt betalingsregels uit de pagina **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-U kunt bankafschriftbestanden op de pagina **Betalingsreconciliatiedagboek** importeren door de extensie AMC Banking 365 Fundamentals te gebruiken om een bestand dat u van de bank ontvangt, te converteren naar een gegevensstroom die [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+U kunt bankafschriftbestanden op de pagina **Betalingsreconciliatiedagboek** importeren door de extensie AMC Banking 365 Fundamentals te gebruiken om een bestand dat u van de bank ontvangt, te converteren naar een gegevensstroom die [!INCLUDE[prod_short](includes/prod_short.md)] kan importeren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Als alternatief voor het importeren van bankafschriften met de extensie AMC Banking 365 Fundamentals kunt u de service Envestnet Yodlee Bank Feeds gebruiken. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
@@ -40,7 +40,7 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 3. Kies in het veld **Inschrijvings-URL** de browserknop om de aanmeldingspagina van de serviceprovider te openen.  
 4. Voer op de inschrijvingspagina van de serviceprovider van bankgegevens de gebruikersnaam en het wachtwoord in van het abonnement van uw bedrijf op de service en voltooi vervolgens het aanmeldingsproces volgens de instructies van de serviceprovider.
 
-    Uw bedrijf is nu aangemeld bij de extensie AMC Banking 365 Fundamentals. Ga door met het invoeren van de gebruikersnaam en het wachtwoord, die u voor de service hebt opgegeven in de gerelateerde instellingsvelden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Uw bedrijf is nu aangemeld bij de extensie AMC Banking 365 Fundamentals. Ga door met het invoeren van de gebruikersnaam en het wachtwoord, die u voor de service hebt opgegeven in de gerelateerde instellingsvelden in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 5. Voer op de pagina **Instelling gegevensconv.service bank** in het veld **Naam** dezelfde waarde in die u in stap 4 als aanmeldnaam op de pagina van de serviceprovider hebt ingevoerd.
 6. Voer in het veld **Wachtwoord** dezelfde waarde in die u in stap 4 in het veld **Wachtwoord** op de pagina van de serviceprovider hebt ingevoerd.
@@ -51,9 +51,9 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>De lijst met momenteel ondersteunde bankgegevensindelingen weergeven of bijwerken
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Conversieservice voor bankgegevens instellen** in en kies de desbetreffende koppeling.
 2. Kies op de pagina **Instelling gegevensconv.service bank** de actie **Banknaam - Gegevensconversielijst** om de lijst met banknamen te openen die bankgegevensindelingen vertegenwoordigen die door de conversieservice worden ondersteund.
-3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken** .
+3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken**.
 
-De lijst met indelingen voor bankgegevens die worden ondersteund door de extensie AMC Banking 365 Fundamentals, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** op de pagina **Bankrekeningkaart** .
+De lijst met indelingen voor bankgegevens die worden ondersteund door de extensie AMC Banking 365 Fundamentals, wordt nu bijgewerkt. Dit is de lijst met banknamen, gefilterd op land/regio, die u kunt selecteren vanuit het veld **Banknaam - Gegevensconversie** op de pagina **Bankrekeningkaart**.
 
 > [!NOTE]  
 >   De bijwerking van ondersteunde bankgegevensindelingen treedt ook op wanneer u een waarde selecteert of invoert in het veld **Banknaam - Gegevensconversie** voor de bankrekening.
@@ -63,4 +63,4 @@ Uw hebt zich nu aangemeld bij de extensie AMC Banking 365 Fundamentals. Ga verde
 ## <a name="see-also"></a>Zie ook
 [Bankieren instellen](bank-setup-banking.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

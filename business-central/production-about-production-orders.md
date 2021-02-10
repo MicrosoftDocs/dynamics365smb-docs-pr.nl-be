@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: feeb8913f54b003d003caf1363194cbcf1a7a2b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925017"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749055"
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  
@@ -38,7 +38,7 @@ Productieorders vormen het beginpunt voor:
 -   Traceren van gereedgemelde productie  
 
 ## <a name="production-order-creation"></a>Productieorders opstellen  
-Productieorders kunnen handmatig worden opgesteld op basis van order voor order vanuit de pagina **Productieorder** of kunnen worden gegenereerd vanuit de pagina **Verkooporderplanning** of **Orderplanning** . Meerdere orders worden opgesteld vanuit de pagina **Planningsvoorstel** .  
+Productieorders kunnen handmatig worden opgesteld op basis van order voor order vanuit de pagina **Productieorder** of kunnen worden gegenereerd vanuit de pagina **Verkooporderplanning** of **Orderplanning**. Meerdere orders worden opgesteld vanuit de pagina **Planningsvoorstel**.  
 
 Productieorders worden opgesteld met informatie uit:  
 
@@ -61,7 +61,7 @@ Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-deman
 Productieorders die op een andere manier tot stand komen, worden niet automatisch gereserveerd en getraceerd.   
 
 ## <a name="production-order-status"></a>Productieorderstatus  
-De productieorderstatus bepaalt hoe de productieorder wordt behandeld in de toepassing. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen** .  
+De productieorderstatus bepaalt hoe de productieorder wordt behandeld in de toepassing. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen**.  
 
 ### <a name="simulated-production-order"></a>Gesimuleerde productieorder  
 Een gesimuleerde productieorder is uniek vanwege de volgende kenmerken:  
@@ -128,7 +128,7 @@ Bij voorwaartse verbruiksrapportage wordt ervan uitgegaan dat de verwachte aanta
 - Voor alle artikelen in de productiestuklijst op het hoogste niveau moet voorwaarts afboeken worden geselecteerd op de betreffende artikelkaart.  
 - Alle bewerkingsplankoppelingen op de productiestuklijst moeten worden verwijderd.  
 
-Bij achterwaartse verbruiksrapportage worden de werkelijke aantallen geregistreerd van alle materialen die zijn gepickt of verbruikt wanneer de status van een productieorder wordt gewijzigd in *Gereedgemeld* , tenzij bewerkingsplankoppelingen worden gebruikt. Wanneer bewerkingsplankoppelingen worden gebruikt, wordt het materiaal verbruikt nadat een aantal van de hoofdartikelen wordt geregistreerd voor de bewerkingsstap in het Outputdagboek.  
+Bij achterwaartse verbruiksrapportage worden de werkelijke aantallen geregistreerd van alle materialen die zijn gepickt of verbruikt wanneer de status van een productieorder wordt gewijzigd in *Gereedgemeld*, tenzij bewerkingsplankoppelingen worden gebruikt. Wanneer bewerkingsplankoppelingen worden gebruikt, wordt het materiaal verbruikt nadat een aantal van de hoofdartikelen wordt geregistreerd voor de bewerkingsstap in het Outputdagboek.  
 
 Wanneer de productieorder wordt bijgewerkt, wordt de afboekingsmethode gekopieerd van de artikelkaart. Omdat de afboekingsmethode voor elk onderdeel van de productieorder bepaalt hoe en wanneer het verbruik wordt geregistreerd, is het belangrijk te weten dat u de afboekingsmethode voor specifieke artikelen direct kunt wijzigen in de productieorder.  
 
@@ -178,7 +178,7 @@ Het bedrag van de afboeking is voor het aantal per montage dat vermeld staat op 
 #### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatische rapportage - de hele order achterwaarts afboeken  
 Bij deze rapportagemethode wordt geen rekening gehouden met bewerkingsplankoppelingen.  
 
-Er worden geen onderdelen gepickt totdat de status van de vrijgegeven productieorder is gewijzigd in *Gereedgemeld* . Het bedrag van de afboeking is het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat is gereedgemeld en in voorraad is geplaatst.  
+Er worden geen onderdelen gepickt totdat de status van de vrijgegeven productieorder is gewijzigd in *Gereedgemeld*. Het bedrag van de afboeking is het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat is gereedgemeld en in voorraad is geplaatst.  
 
 Voor achterwaarts afboeken van de hele productieorder moeten dezelfde instellingen worden gebruikt als bij voorwaarts afboeken: de rapportagemethode moet worden ingesteld op achterwaarts bij elk artikel voor alle artikelen in de hoofdstuklijst waarvoor de rapportage is bedoeld. Bovendien moeten alle bewerkingsplankoppelingen zijn verwijderd uit de productiestuklijst.  
 
@@ -200,7 +200,7 @@ Bij de achterwaartse methode wordt de verwachte output (en tijd) geregistreerd, 
 ### <a name="posting-consumption-and-output"></a>Verbruik en output boeken  
 U kunt elke combinatie van automatische afboeking en handmatig geregistreerde informatie gebruiken voor zowel verbruik als output. U kunt bijvoorbeeld onderdelen automatisch voorwaarts afboeken, maar toch nog gebruikmaken van het verbruiksdagboek om uitval te registreren. Of wellicht wilt u de output automatisch registreren, maar het outputdagboek gebruiken voor de registratie van uitval van het hoofdartikel of de extra tijd die aan de order is besteed.  
 
-Tot slot is het zo dat als u het verbruik en de output handmatig invoert, u moet bepalen in welke volgorde u deze informatie wilt vastleggen. U kunt eerst het verbruik registreren en met behulp van een snelkoppelingsmethode de informatie invoeren die is gebaseerd op het verwachte aantal van de output. Of u kunt eerst de output invoeren, met behulp van de functie **Bewerkingsplan weergeven** . U registreert dan het verbruik op basis van het werkelijke aantal van de output.  
+Tot slot is het zo dat als u het verbruik en de output handmatig invoert, u moet bepalen in welke volgorde u deze informatie wilt vastleggen. U kunt eerst het verbruik registreren en met behulp van een snelkoppelingsmethode de informatie invoeren die is gebaseerd op het verwachte aantal van de output. Of u kunt eerst de output invoeren, met behulp van de functie **Bewerkingsplan weergeven**. U registreert dan het verbruik op basis van het werkelijke aantal van de output.  
 
 ### <a name="production-journal"></a>Productiedagboek  
 Het productiedagboek combineert de functies van het verbruiksdagboek en outputdagboeken in één dagboek, dat direct toegankelijk is vanuit de vrijgegeven productieorder.  
@@ -234,4 +234,4 @@ In het productiedagboek worden verbruiksaantallen geboekt als negatieve artikelp
 [Gepland](production-planning.md)      
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

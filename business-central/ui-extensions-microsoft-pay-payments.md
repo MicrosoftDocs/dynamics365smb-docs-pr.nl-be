@@ -11,19 +11,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5885674316e082323462cbad9fce3f20590f06d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 748316c411c4b04947685c6053e9c53aa9102c35
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915047"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747580"
 ---
 # <a name="the-microsoft-pay-extension"></a>De extensie Microsoft Pay
 
 > [!IMPORTANT]
-> Met ingang van 8 februari 2020 hebben wijzigingen in de Microsoft Pay-service invloed op de Microsoft Pay-uitbreiding in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Vanwege de wijzigingen zullen na 8 februari de betalingskoppelingen **Nu betalen** die de Microsoft Pay-uitbreiding genereert voor facturen in [!INCLUDE[d365fin](includes/d365fin_md.md)], Microsoft Pay niet openen. Klanten die de uitbreiding gebruiken, moeten hun betalingsservices instellen om in plaats daarvan de PayPal-uitbreiding te gebruiken.<br /></br>
+> Met ingang van 8 februari 2020 hebben wijzigingen in de Microsoft Pay-service invloed op de Microsoft Pay-uitbreiding in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Vanwege de wijzigingen zullen na 8 februari de betalingskoppelingen **Nu betalen** die de Microsoft Pay-uitbreiding genereert voor facturen in [!INCLUDE[prod_short](includes/prod_short.md)], Microsoft Pay niet openen. Klanten die de uitbreiding gebruiken, moeten hun betalingsservices instellen om in plaats daarvan de PayPal-uitbreiding te gebruiken.<br /></br>
 >
-> Vanaf 8 januari zullen we een melding weergeven in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De melding bevat een koppeling naar de instellingen die u moet wijzigen en naar meer informatie. Na 8 februari is de Microsoft Pay-uitbrieding niet meer beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> Vanaf 8 januari zullen we een melding weergeven in [!INCLUDE[prod_short](includes/prod_short.md)]. De melding bevat een koppeling naar de instellingen die u moet wijzigen en naar meer informatie. Na 8 februari is de Microsoft Pay-uitbrieding niet meer beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
 > De wijzigingen zijn van invloed op de volgende versies van Business Central:
 > - Microsoft Dynamics 365 Business Central oktober 2018
@@ -42,9 +42,9 @@ De extensie Microsoft Pay biedt de volgende voordelen:
 - De Microsoft Pay-koppeling kan automatisch worden ingesloten op elk factuurdocument of door de gebruiker.
 - Aangezien deze functie als extensie wordt samengesteld, hebt u de volledige controle om deze in te schakelen wanneer uw bedrijfsprocessen dit vereisen.
 
-Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](includes/d365fin_md.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
+Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[prod_short](includes/prod_short.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

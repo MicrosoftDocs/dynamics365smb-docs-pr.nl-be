@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66a0e679a97bff7071a20197c804143cf11539d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40af4b0010b46938a9ce53a12dd95f1b2a687cc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910492"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748181"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  
@@ -25,8 +25,8 @@ In de volgende procedures wordt beschreven hoe u werkt met standaardverkoopregel
 ## <a name="to-set-up-recurring-sales-lines"></a>Periodieke verkoopregels instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodieke verkoopregels** in en kies de gerelateerde koppeling.  
-2. Kies op de pagina **Periodieke verkoopregels** de actie **Nieuw** .  
-3. Vul de benodigde velden in op het sneltabblad **Algemeen** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Kies op de pagina **Periodieke verkoopregels** de actie **Nieuw**.  
+3. Vul de benodigde velden in op het sneltabblad **Algemeen**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Voer op het sneltabblad **Regels** gegevens in de velden in om verkoopregels voor te bereiden die de standaardregels reflecteren die u verwacht te gebruiken als terugkerende regels in verkoopdocumenten.  
 
 > [!NOTE]
@@ -40,7 +40,7 @@ Wijs een of meer periodieke verkoopregels aan een klant toe zodat deze beschikba
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Open de projectkaart voor een relevante klant.
-3. Kies de actie **Periodieke verkoopregels** .
+3. Kies de actie **Periodieke verkoopregels**.
 4. Selecteer op de pagina **Periodieke verkoopregels** codes voor de periodieke verkoopregels die u wilt kunnen invoegen op verkoopdocumenten voor de klant.
 5. Vul de overige velden in om te definiëren wanneer, hoe en waar de periodieke verkoopregels moeten worden gebruikt.  
 
@@ -53,16 +53,16 @@ Wijs een of meer periodieke verkoopregels aan een klant toe zodat deze beschikba
 |Optie|Omschrijving|
 |------|-----------|
 |**Handmatig**|U moet handmatig een terugkerende verkoopregel zoeken en invoegen die bestaat voor de klant.|
-|**Automatisch**|Als er meerdere terugkerende verkoopregels voor de klant zijn, ontvangt u een bericht van waaruit u er een kunt kiezen om in te voegen. Als er slechts één terugkerende verkoopregel bestaat, wordt deze automatisch ingevuld.<br /><br />Merk op dat dit alleen werkt als het nieuwe document is gemaakt op basis van een documentenlijst, bijvoorbeeld door kiezen van de actie **Nieuw** op de pagina **Verkooporders** . Het werkt niet als het document bijvoorbeeld is gemaakt op basis van een klantenkaart.|
+|**Automatisch**|Als er meerdere terugkerende verkoopregels voor de klant zijn, ontvangt u een bericht van waaruit u er een kunt kiezen om in te voegen. Als er slechts één terugkerende verkoopregel bestaat, wordt deze automatisch ingevuld.<br /><br />Merk op dat dit alleen werkt als het nieuwe document is gemaakt op basis van een documentenlijst, bijvoorbeeld door kiezen van de actie **Nieuw** op de pagina **Verkooporders**. Het werkt niet als het document bijvoorbeeld is gemaakt op basis van een klantenkaart.|
 |**Altijd vragen**|Er wordt een bericht weergegeven en alle bestaande terugkerende verkoopregels worden weergegeven zodat u er een kunt selecteren.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Periodieke verkoopregels invoegen op een verkoopfactuur
 
-Als er periodieke verkoopregels voor de klant zijn, kunt u deze invoegen of laten invoegen op alle typen verkoopdocumenten, zoals een verkoopfactuur. Als u de **Altijd vragen** -opties hebt geactiveerd, wordt u geïnformeerd als er periodieke verkoopregels zijn.
+Als er periodieke verkoopregels voor de klant zijn, kunt u deze invoegen of laten invoegen op alle typen verkoopdocumenten, zoals een verkoopfactuur. Als u de **Altijd vragen**-opties hebt geactiveerd, wordt u geïnformeerd als er periodieke verkoopregels zijn.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Facturen** in en kies de gerelateerde koppeling.
 2. Open de verkoopfactuur waarin u een of meer standaardverkoopregels wilt invoegen.
-3. Kies de actie **Periodieke verkoopregels ophalen** .
+3. Kies de actie **Periodieke verkoopregels ophalen**.
 4. Kies op de pagina **Periodieke verkoopregels** de opzoekknop in het veld **Code** en selecteer een set standaardverkoopregels.
 5. Kies de knop **OK** om de standaardverkoopregels op de factuur in te voegen, waar u deze zo kunt gebruiken of de gegevens kunt bewerken.
 
@@ -72,11 +72,11 @@ U kunt de batchverwerking **Periodieke verkoopfacturen maken** gebruiken om verk
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodieke verkoopfacturen maken** in en kies de gerelateerde koppeling.
 2. Vul de velden op de pagina **Periodieke verkoopfacturen maken** in met de benodigde gegevens.
 3. In het filterveld **Code** voert u de code in voor standaardverkoopregels die aan een klant worden toegewezen voor wie u verkoopfacturen wilt maken.
-4. Kies de knop **OK** .
+4. Kies de knop **OK**.
 
 Verkoopfacturen worden gemaakt voor klanten met de opgegeven standaard klantverkoopcode en een waarde opgegeven voor automatische incasso-informatie voor het boeken op de opgegeven datum.
 
 ## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

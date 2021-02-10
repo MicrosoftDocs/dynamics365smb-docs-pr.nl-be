@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a7fd3068cbcaeae1180781cd1377f0913406af4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917338"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751367"
 ---
 # <a name="design-details-item-tracking"></a>Ontwerpdetails: Artikeltracering
 Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het vermogen artikelen te traceren steeds belangrijker voor de betrokken bedrijven. De transactiestroom van een artikel controleren is een juridische vereiste op het gebied van medische en chemische voorziening, maar in andere bedrijfstaken kunnen producten met garanties of vervaldatums worden gecontroleerd om redenen van klantenservice.  
 
-Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.  
+Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht. [!INCLUDE[prod_short](includes/prod_short.md)] heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.  
 
 ## <a name="in-this-section"></a>In dit gedeelte  
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  

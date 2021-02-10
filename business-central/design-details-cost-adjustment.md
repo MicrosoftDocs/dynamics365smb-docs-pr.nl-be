@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920959"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751792"
 ---
 # <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
 
@@ -27,7 +27,7 @@ Hierna volgen secundaire doelen, of functies, van kostenherwaardering:
 
 * Gereedgemelde productieorders factureren:  
 
-  * Wijzig de status van waardeposten van **Verwacht** in **Werkelijk** .  
+  * Wijzig de status van waardeposten van **Verwacht** in **Werkelijk**.  
   * Wis OHW-rekeningen. Zie [Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md) voor meer informatie.  
   * Verschil boeken. Zie voor meer informatie [Ontwerpdetails: Verschil](design-details-variance.md).  
   * Werk de kostprijs op de artikelkaart bij.  
@@ -36,9 +36,9 @@ Voorraadkosten moeten worden bijgewerkt als de gerelateerde waardeposten kunnen 
 
 ## <a name="detecting-the-adjustment"></a>De correctie detecteren
 
-De taak van het detecteren of kostenwaardering moet worden uitgevoerd, wordt hoofdzakelijk uitgevoerd door de routine Artikeldagboek. - Regel boeken. De taak van het berekenen en genereren van kostenherwaarderingsposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten** .  
+De taak van het detecteren of kostenwaardering moet worden uitgevoerd, wordt hoofdzakelijk uitgevoerd door de routine Artikeldagboek. - Regel boeken. De taak van het berekenen en genereren van kostenherwaarderingsposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**.  
 
-Voor het doorsturen van kosten bepaalt het detectiemechanisme welke bronnen zijn gewijzigd wat betreft kosten en naar welke bestemming deze kosten moeten worden doorgestuurd. Er zijn de volgende drie detectiefuncties in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Voor het doorsturen van kosten bepaalt het detectiemechanisme welke bronnen zijn gewijzigd wat betreft kosten en naar welke bestemming deze kosten moeten worden doorgestuurd. Er zijn de volgende drie detectiefuncties in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Artikelvereffeningspost  
 * Invoerpunt gemiddelde kostprijscorrectie  
@@ -49,7 +49,7 @@ Voor het doorsturen van kosten bepaalt het detectiemechanisme welke bronnen zijn
 Deze detectiefunctie wordt gebruikt voor artikelen die de waarderingsmethoden FIFO, LIFO, Standaard en Specifiek gebruiken en voor vaste vereffeningenscenario's. De functie werkt als volgt:  
 
 * Kostenherwaardering wordt gedetecteerd door de bronartikelposten te markeren als *Vereff. post herwaarderen* wanneer een artikelpost of waardepost wordt geboekt.  
-* Kosten worden doorgestuurd volgens de ketens van de kosten die zijn vastgelegd in de tabel **Artikelvereffeningspost** .  
+* Kosten worden doorgestuurd volgens de ketens van de kosten die zijn vastgelegd in de tabel **Artikelvereffeningspost**.  
 
 ### <a name="average-cost-adjustment-entry-point"></a>Invoerpunt gemiddelde kostprijscorrectie
 
@@ -82,9 +82,9 @@ Het is goed om de kostenwaardering automatisch uit te voeren wanneer u boekt, om
 
 Omdat het belangrijk is de kostprijs van een artikel bijgewerkt te houden, wordt het aangeraden de batchverwerking **Kostprijs herwaarderen - Artikelposten** zo vaak mogelijk gedurende vrije uren uit te voeren. Of u gebruikt automatische kostenwaardering. Hierdoor wordt gezorgd dat de kostprijs dagelijks wordt bijgewerkt voor artikelen.  
 
-Ongeacht of u kostenwaardering handmatig of automatisch uitvoert, het waarderingsproces en de gevolgen ervan zijn hetzelfde. [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent de waarde van de inkomende transactie en stuurt die kosten door naar uitgaande transacties, zoals verkopen of verbruik, die met de inkomende transactie zijn vereffend. Door de kostenherwaardering worden waardeposten gemaakt die correctiebedragen bevatten en bedragen die afrondingen compenseren.  
+Ongeacht of u kostenwaardering handmatig of automatisch uitvoert, het waarderingsproces en de gevolgen ervan zijn hetzelfde. [!INCLUDE[prod_short](includes/prod_short.md)] berekent de waarde van de inkomende transactie en stuurt die kosten door naar uitgaande transacties, zoals verkopen of verbruik, die met de inkomende transactie zijn vereffend. Door de kostenherwaardering worden waardeposten gemaakt die correctiebedragen bevatten en bedragen die afrondingen compenseren.  
 
-De nieuwe waardeposten voor herwaardering en afronding hebben de boekingsdatum van de bijbehorende factuur. Uitzonderingen zijn als de waardeposten in een afgesloten voorraadperiode of boekhoudperiode vallen of als de boekingsdatum eerder is dan de datum in het veld **Boeken toegest. vanaf** op de pagina **Grootboekinstellingen** . Als dit gebeurt, wordt door de batchverwerking de boekingsdatum toegewezen als de eerste datum van de volgende open periode.  
+De nieuwe waardeposten voor herwaardering en afronding hebben de boekingsdatum van de bijbehorende factuur. Uitzonderingen zijn als de waardeposten in een afgesloten voorraadperiode of boekhoudperiode vallen of als de boekingsdatum eerder is dan de datum in het veld **Boeken toegest. vanaf** op de pagina **Grootboekinstellingen**. Als dit gebeurt, wordt door de batchverwerking de boekingsdatum toegewezen als de eerste datum van de volgende open periode.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Batchverwerking Voorraadwaarde (Werk.-kosten)
 
@@ -151,7 +151,7 @@ Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd o
 
 ## <a name="automatic-cost-adjustment"></a>Automatische kostenwaardering
 
-Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, gebruikt u het veld **Automatische kostenwaardering** op de pagina **Voorraadinstelling** . Dit veld biedt u de mogelijkheid te selecteren hoe lang vóór de huidige werkdatum automatische kostenwaardering mag worden uitgevoerd. De volgende opties zijn mogelijk.  
+Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, gebruikt u het veld **Automatische kostenwaardering** op de pagina **Voorraadinstelling**. Dit veld biedt u de mogelijkheid te selecteren hoe lang vóór de huidige werkdatum automatische kostenwaardering mag worden uitgevoerd. De volgende opties zijn mogelijk.  
 
 |Optie|Description|
 |------|-----------|
@@ -163,7 +163,7 @@ Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u
 |jaar|De kostprijs wordt geherwaardeerd als de boeking binnen een jaar vóór de werkdatum plaatsvindt.|  
 |Altijd|De kostprijs wordt altijd geherwaardeerd wanneer u boekt, ongeacht de boekingsdatum.|  
 
-De keuze die u in het veld **Automatische kostenwaardering** maakt is belangrijk voor de prestaties en nauwkeurigheid van de kosten. Kortere perioden, bijvoorbeeld **Dag** of **Week** , hebben invloed op systeemprestaties omdat hiermee de strengere vereiste geldt dat alleen kosten die op de laatste dag of in de laatste week zijn geboekt, automatisch kunnen worden aangepast. Dit betekent dat de automatische kostenwaardering niet zo frequent wordt uitgevoerd, wat invloed heeft op systeemprestaties. Dit betekent echter ook dat de kostprijs minder nauwkeurig kan zijn.  
+De keuze die u in het veld **Automatische kostenwaardering** maakt is belangrijk voor de prestaties en nauwkeurigheid van de kosten. Kortere perioden, bijvoorbeeld **Dag** of **Week**, hebben invloed op systeemprestaties omdat hiermee de strengere vereiste geldt dat alleen kosten die op de laatste dag of in de laatste week zijn geboekt, automatisch kunnen worden aangepast. Dit betekent dat de automatische kostenwaardering niet zo frequent wordt uitgevoerd, wat invloed heeft op systeemprestaties. Dit betekent echter ook dat de kostprijs minder nauwkeurig kan zijn.  
 
 ### <a name="example"></a>Opmerking
 
@@ -188,4 +188,4 @@ Als u automatische kostenwaardering hebt ingesteld om toe te passen op boekingen
 [Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

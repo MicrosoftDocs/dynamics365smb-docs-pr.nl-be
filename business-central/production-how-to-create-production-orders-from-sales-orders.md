@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aafd30be751440c9afd124f07ada43d57b799555
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919250"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748980"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Productieorders maken op basis van verkooporders
 U kunt direct op basis van verkooporders productieorders maken voor geproduceerde artikelen.  
@@ -24,8 +24,8 @@ U kunt direct op basis van verkooporders productieorders maken voor geproduceerd
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Selecteer de verkooporder die u wilt omzetten in een productieorder.  
-3.  Kies de actie **Planning** . Op de pagina **Verkooporderplanning** kunt u de beschikbaarheid van het verkooporderartikel weergeven.  
-4.  Kies de actie **Prod.-order maken** .  
+3.  Kies de actie **Planning**. Op de pagina **Verkooporderplanning** kunt u de beschikbaarheid van het verkooporderartikel weergeven.  
+4.  Kies de actie **Prod.-order maken**.  
 5.  Selecteer de status en het ordersoort.  
 6.  Kies de knop **Ja** knop om de productieorder te maken.
 
@@ -38,4 +38,4 @@ U kunt er ook voor kiezen om een projectproductieorder te maken. Zie [Projectord
 [Inkoop](purchasing-manage-purchasing.md)  
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

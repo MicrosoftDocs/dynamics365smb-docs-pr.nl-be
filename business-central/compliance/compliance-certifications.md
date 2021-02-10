@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 55ed4b00a4d4140a625f914e148a51d83170fbd7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b7dbdaa20391723ec91811c3cce4226b224a4aa5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921034"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751992"
 ---
 # <a name="certifications"></a>Certificeringen
 
-Deze inhoud bevat informatie over certificeringen in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Deze inhoud bevat informatie over certificeringen in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 ## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificeringen en accrediteringen in landen/regio's
 
@@ -45,4 +45,4 @@ Business Central als cloudservice heeft ook certificeringen verkregen, zoals ISO
 [Toepassingsnaleving](compliance-application-compliance.md)  
 [Servicenaleving](compliance-service-compliance.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

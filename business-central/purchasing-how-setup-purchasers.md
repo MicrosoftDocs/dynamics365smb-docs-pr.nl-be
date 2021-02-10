@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: befc5fc1c79f3cd24f5f1af9437aebab01b62945
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ac4f7d716d9b8603617c32d219c8149aa58fc11e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918875"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748705"
 ---
 # <a name="set-up-purchasers"></a>Inkopers instellen
 Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.<br><br>  
@@ -26,7 +26,7 @@ Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina i
 
 ## <a name="to-set-up-purchasers"></a>Inkopers instellen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers/Inkopers** in en kies de desbetreffende koppeling.
-2. Kies op de pagina **Verkopers/Inkopers** de actie **Nieuw** .
+2. Kies op de pagina **Verkopers/Inkopers** de actie **Nieuw**.
 3. Vul in de velden op de pagina **Verkopers/Inkopers** de gewenste waarden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Inkopers toewijzen aan leveranciers
@@ -37,4 +37,4 @@ Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina i
 ## <a name="see-also"></a>Zie ook
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

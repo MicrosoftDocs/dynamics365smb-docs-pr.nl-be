@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917613"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752017"
 ---
 # <a name="application-compliance"></a>Toepassingsnaleving
 
-Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)], zoals de International Financial Reporting Standards, lokale functionaliteit, GDPR, enzovoort. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
+Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)], zoals de International Financial Reporting Standards, lokale functionaliteit, GDPR, enzovoort. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
 
 ## <a name="data-privacy"></a>Gegevensprivacy
 
@@ -108,5 +108,5 @@ Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aan
 [Servicenaleving](compliance-service-compliance.md)  
 [Certificeringen](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

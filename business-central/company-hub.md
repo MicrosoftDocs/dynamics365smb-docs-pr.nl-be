@@ -5,29 +5,30 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: 7ed69f86a941a216ef948488d3756c06f298549d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e8a1e6de5cc8889f144e08db8ed77e4543cb9b4c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927804"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752067"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Werk beheren tussen meerdere bedrijven in de bedrijfshub
 
-Sommige mensen werken in meerdere bedrijven in [!INCLUDE [prodshort](includes/prodshort.md)] en sommige werken ook in meer dan één organisatie, zoals externe accountants, of werknemers en managers van bedrijven met meerdere dochterondernemingen. Voor deze gebruikers, en vele anderen, fungeert de bedrijfshub als een landingspagina voor het beheren van werk in de verschillende omgevingen waarin ze werken, tussen bedrijven, omgevingen en regio's.  
+Sommige mensen werken in meerdere bedrijven in [!INCLUDE [prod_short](includes/prod_short.md)] en sommige werken ook in meer dan één organisatie, zoals externe accountants, of werknemers en managers van bedrijven met meerdere dochterondernemingen. Voor deze gebruikers, en vele anderen, fungeert de bedrijfshub als een landingspagina voor het beheren van werk in de verschillende omgevingen waarin ze werken, tussen bedrijven, omgevingen en regio's.  
 
 U krijgt toegang tot de bedrijfshub door over te schakelen naar de rol **Bedrijfshub** in Mijn instellingen of door de pagina **Bedrijfshub** rechtstreeks te openen. U kunt op beide plaatsen hetzelfde werk doen, maar acties worden in menu's iets anders geplaatst.  
 
+> [!NOTE]
+> U kunt de bedrijfshub met zoveel bedrijven verbinden als u nodig heeft. U kunt de bedrijfshub echter alleen verbinden met bedrijven die worden gehost in [!INCLUDE [prod_short](includes/prod_short.md)] online.
+
 ## <a name="company-hub-home-page"></a>Startpagina van de bedrijfshub
 
-Als u de rol **Bedrijfshub** gebruikt, toont uw startpagina een lijst met bedrijven waartoe u toegang hebt, inclusief informatie over KPI's en koppelingen om elk bedrijf te openen. U kunt het dashboard aanpassen om de gegevenspunten weer te geven die u wilt zien door kolommen toe te voegen of te verwijderen. U wilt bijvoorbeeld zien hoeveel belasting verschuldigd is, hoeveel open verkoopdocumenten elk bedrijf heeft of het aantal inkoopfacturen dat volgende week moet worden betaald. U kunt de weergave aanpassen aan uw behoeften. Wanneer u veel bedrijven hebt toegevoegd, kunt u filters gebruiken om de weergave te sorteren.  
-
-Kies de actie **Bedrijfshub** om de bedrijfshub te openen, waar u nauwer kunt samenwerken met elk bedrijf.  
+Als u de rol **Bedrijfshub** gebruikt, toont uw startpagina een lijst met bedrijven waartoe u toegang hebt, inclusief informatie over KPI's en koppelingen om elk bedrijf te openen. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Kies de actie **Bedrijfshub** om de bedrijfshub te openen, waar u nauwer kunt samenwerken met elk bedrijf.  
 
 > [!TIP]
-> Om toegang te krijgen tot een specifiek bedrijf in [!INCLUDE [prodshort](includes/prodshort.md)] kiest u de naam van het bedrijf of kiest u het menu-item **Ga naar bedrijf** . U wordt automatisch aangemeld op een nieuw browsertabblad.
+> Om toegang te krijgen tot een specifiek bedrijf in [!INCLUDE [prod_short](includes/prod_short.md)] kiest u de naam van het bedrijf of kiest u het menu-item **Ga naar bedrijf**. U wordt automatisch aangemeld op een nieuw browsertabblad.
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Acties voor een bedrijf dat wordt vermeld in de bedrijfshub":::
 
@@ -52,7 +53,7 @@ Otherwise, close the details pane and continue to the next company.  -->
 
 ## <a name="assigned-tasks"></a>Toegewezen taken
 
-In [!INCLUDE [prodshort](includes/prodshort.md)] kunt u taken toewijzen aan uzelf en anderen, en anderen kunnen taken aan u toewijzen. De bedrijfshub biedt u een overzicht van toegewezen taken voor elk bedrijf en u kunt een lijst met alle toegewezen taken openen door **Mijn gebruikerstaken** op de **Startpagina** te kiezen.  
+In [!INCLUDE [prod_short](includes/prod_short.md)] kunt u taken toewijzen aan uzelf en anderen, en anderen kunnen taken aan u toewijzen. De bedrijfshub biedt u een overzicht van toegewezen taken voor elk bedrijf en u kunt een lijst met alle toegewezen taken openen door **Mijn gebruikerstaken** op de **Startpagina** te kiezen.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
@@ -70,22 +71,22 @@ Zie voor meer informatie over bedrijven en omgevingen [Omgevingskoppelingen](com
 
 ## <a name="access-the-company-hub"></a>Toegang tot de bedrijfshub
 
-Om toegang te krijgen tot de bedrijfshub moet u toegang hebben via de gebruikersgroep *D365 BEDRIJFSHUB* of via de machtigingenset *D365 BEDRIJFSHUB* . U moet ook toegang hebben tot de bedrijven die in uw bedrijfshub worden vermeld, wat betekent dat u een gebruiker in die bedrijven moet zijn. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.  
+Om toegang te krijgen tot de bedrijfshub moet u toegang hebben via de gebruikersgroep *D365 BEDRIJFSHUB* of via de machtigingenset *D365 BEDRIJFSHUB*. U moet ook toegang hebben tot de bedrijven die in uw bedrijfshub worden vermeld, wat betekent dat u een gebruiker in die bedrijven moet zijn. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.  
 
 > [!IMPORTANT]
-> De bedrijfshub is een bedrijvenlijst, zodat elke gebruiker die toegang heeft tot de bedrijfshub, alle bedrijven in de eigen [!INCLUDE [prodshort](includes/prodshort.md)]-tenant kan zien en alle KPI's voor de bedrijven waartoe ze toegang hebben.
+> De bedrijfshub is een bedrijvenlijst, zodat elke gebruiker die toegang heeft tot de bedrijfshub, alle bedrijven in de eigen [!INCLUDE [prod_short](includes/prod_short.md)]-tenant kan zien en alle KPI's voor de bedrijven waartoe ze toegang hebben.
 
-Als u de bedrijfshub niet kunt vinden en u weet dat u er toegang toe hebt gekregen, neem dan contact op met uw beheerder als de bedrijfshub wordt vermeld op de pagina **Extensiebeheer** . Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.  
+Als u de bedrijfshub niet kunt vinden en u weet dat u er toegang toe hebt gekregen, neem dan contact op met uw beheerder als de bedrijfshub wordt vermeld op de pagina **Extensiebeheer**. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.  
 
 ## <a name="set-up-the-company-hub"></a>De bedrijfshub instellen
 
 Om de bedrijfshub te gaan gebruiken moet u een of meer bedrijven aan uw dashboard toevoegen. Zie voor meer informatie [Bedrijven toevoegen aan uw bedrijfshub](company-hub-add-company.md).  
 
-Maar om een bedrijf toe te voegen moet u toegang hebben gekregen tot een of meer exemplaren van [!INCLUDE [prodshort](includes/prodshort.md)], naast het bedrijf waarin u de bedrijfshub gebruikt.  
+Maar om een bedrijf toe te voegen moet u toegang hebben gekregen tot een of meer exemplaren van [!INCLUDE [prod_short](includes/prod_short.md)], naast het bedrijf waarin u de bedrijfshub gebruikt.  
 
-Als u bijvoorbeeld accountant bent, kunnen uw klanten u uitnodigen voor hun [!INCLUDE [prodshort](includes/prodshort.md)]. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).  
+Als u bijvoorbeeld accountant bent, kunnen uw klanten u uitnodigen voor hun [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).  
 
-Beheerders kunnen dezelfde begeleide instelling gebruiken om u toe te voegen aan hun [!INCLUDE [prodshort](includes/prodshort.md)] of ze kunnen u toevoegen aan het relevante Azure AD-account in het Microsoft 365-beheercentrum. Zie [Gebruikers en groepen beheren](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true) voor meer informatie.  
+Beheerders kunnen dezelfde begeleide instelling gebruiken om u toe te voegen aan hun [!INCLUDE [prod_short](includes/prod_short.md)] of ze kunnen u toevoegen aan het relevante Azure AD-account in het Microsoft 365-beheercentrum. Zie [Gebruikers en groepen beheren](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
 

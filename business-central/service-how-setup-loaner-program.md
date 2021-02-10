@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d167d55196f651ea3b6286ba969829042fabefaf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925884"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747955"
 ---
 # <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
-Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  
+Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  
   
 * Een notitie of opmerking over het uitleenartikel invoeren.  
 * Een notitie over een serviceartikel invoeren over de behoefte aan een uitleenartikel.  
@@ -27,8 +27,8 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 1. Kies het pictogram ![Service-instellingen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe uitleenartikelkaart. 
 3. Selecteer in het veld **Nr.** een nummer voor het uitleenartikel in. Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor uitleenartikelen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare uitleenartikelnummer in te voeren.  
-4. Vul de velden **Omschrijving** , **Omschrijving 2** en **Serienummer** in.  
-5. Kies de betreffende eenheidscode in het veld **Eenheidscode** .  
+4. Vul de velden **Omschrijving**, **Omschrijving 2** en **Serienummer** in.  
+5. Kies de betreffende eenheidscode in het veld **Eenheidscode**.  
   
 ## <a name="see-also"></a>Zie ook
 [Uitleenartikelen uitlenen en ontvangen](service-how-to-lend-receive-loaners.md)  

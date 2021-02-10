@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926959"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748855"
 ---
 # <a name="project-management"></a>Projectbeheer
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
 
-Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen. Raadpleeg voor meer informatie [Projectbeheer instellen](projects-setup-projects.md).  
+Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen. Raadpleeg voor meer informatie [Projectbeheer instellen](projects-setup-projects.md).  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 ## <a name="get-started-with-projects"></a>Aan de slag met projecten
 
-Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE[prodshort](includes/prodshort.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-kanaal.  
+Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanaal.  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -46,6 +46,6 @@ Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onder
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

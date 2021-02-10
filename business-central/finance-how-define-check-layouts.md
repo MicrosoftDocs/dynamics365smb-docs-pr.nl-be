@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917088"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747003"
 ---
 # <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
@@ -24,7 +24,7 @@ Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canades
 
 ## <a name="to-select-a-check-layout"></a>Een cheque-indeling selecteren
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselecties - Bankrekening** in en kies de gerelateerde koppeling.
-2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque** .
+2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
 3. Selecteer een van de volgende rapport-id's.
 
 | Rapport-id | Rapportnaam | Omschrijving |
@@ -34,20 +34,20 @@ Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canades
 | 10412 |Cheque (strook/cheque/strook) |Dit rapport is ontworpen om cheques af te drukken in de indeling strook/cheque/strook. |
 | 10413 |Drie cheques per pagina |Dit rapport is ontworpen voor het afdrukken van drie cheques op elke pagina. |
 
-Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit de pagina **Betalingsdagboek** . Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
+Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit de pagina **Betalingsdagboek**. Zie voor meer informatie [Werken met cheques](payables-how-work-checks.md).
 
 Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de integratie van Word of RDLC om dit te doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>MICR en beveiligingslettertypen gebruiken
-De online versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het definiëren van cheque-indelingen. Het volgende geeft aan welke lettertypen beschikbaar zijn en bevat koppelingen naar gedetailleerde informatie van de externe leveranciers van de lettertypen.
+De online versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het definiëren van cheque-indelingen. Het volgende geeft aan welke lettertypen beschikbaar zijn en bevat koppelingen naar gedetailleerde informatie van de externe leveranciers van de lettertypen.
 
 > [!Important]
-> MICR- en chequebeveiligingslettertypen in Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn gelicentieerd in een lettertypepakket van IDAutomation.com, Inc. Deze producten mogen alleen worden gebruikt als onderdeel van en in verband met Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR- en chequebeveiligingslettertypen in Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] zijn gelicentieerd in een lettertypepakket van IDAutomation.com, Inc. Deze producten mogen alleen worden gebruikt als onderdeel van en in verband met Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 In update 15.3 en nieuwer zijn MICR-lettertypen (Magnetic Ink Character Recognition) geïnstalleerd en beschikbaar voor gebruik. Zowel E-13B als de CMC-7-standaarden worden ondersteund. Naast MICR-lettertypen zijn er speciale beveiligingslettertypen beschikbaar voor het genereren van tekst, namen, bedragen en de valutasymbolen dollar, euro, pond en yen, die moeilijk te manipuleren zijn nadat een cheque is afgedrukt.
 
 > [!NOTE]
-> Om veiligheids- en juridische redenen kunt u geen aangepaste lettertypen uploaden naar de [!INCLUDE[d365fin](includes/d365fin_md.md)]-omgeving.
+> Om veiligheids- en juridische redenen kunt u geen aangepaste lettertypen uploaden naar de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B-specificaties
 Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
@@ -60,7 +60,7 @@ Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettert
 De volledige specificatie van MICR E-13B-lettertypen vindt u in de documentatie van de leverancier: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-specificaties
-De volgende CMC-7-lettertypen zijn beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+De volgende CMC-7-lettertypen zijn beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ Hieronder volgt een samenvatting van de specificaties voor de chequebeveiligings
 
 De volledige specificatie van chequebeveiligingslettertypen vindt u hier in de documentatie van de leverancier: (https://www.idautomation.com/security-fonts/).
 
-Lettertypen voor andere doeleinden zijn ook beschikbaar in [!INCLUDE[prodshort](includes/prodshort.md)]. Voor meer informatie zie [Beschikbare lettertypen](ui-fonts.md)
+Lettertypen voor andere doeleinden zijn ook beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)]. Voor meer informatie zie [Beschikbare lettertypen](ui-fonts.md)
 
 ## <a name="see-also"></a>Zie ook
 [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Lettertypen voor andere doeleinden zijn ook beschikbaar in [!INCLUDE[prodshort](
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)   
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  
-[Werken met [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
