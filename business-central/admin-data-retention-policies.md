@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 279a76751b6652221d83ee453cc171bf357c0328
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927798"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754054"
 ---
 # <a name="define-retention-policies"></a>Bewaarbeleid definiëren
-Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prodshort](includes/prodshort.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 
+Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 
 
 ## <a name="required-setups-and-permissions"></a>Vereiste instellingen en machtigingen
 Voordat u bewaarbeleid kunt maken, moet u het volgende instellen.
@@ -31,10 +31,10 @@ Voordat u bewaarbeleid kunt maken, moet u het volgende instellen.
 Bovendien moet u beschikken over de SUPER-gebruikersmachtigingen of de machtigingenset Bewaarbeleid instellen. Gebruikers aan wie de machtigingenset Bewaarbeleid instellen is verleend, kunnen bewaarbeleid voor tabellen definiëren, zelfs als ze geen machtigingen voor lezen en verwijderen voor die tabellen hebben. De taakwachtrij-invoer moet worden uitgevoerd als een gebruiker met machtigingen om de gegevens te lezen en te verwijderen. We raden u aan de machtigingenset Bewaarbeleid instellen niet te verlenen aan gebruikers die geen toestemming mogen krijgen om gegevens te verwijderen.
 
 > [!NOTE]
-> Als u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises gebruikt en u wilt bewaarbeleid uitproberen in de Cronus-demonstratiedatabase, zijn er een paar dingen die u moet doen. Het demonstratiebedrijf bevat geen tabellen die u kunt gebruiken met bewaarbeleid, dus u moet deze toevoegen. Om dat te doen maakt u een nieuw, leeg bedrijf in de demonstratiedatabase. Importeer in het nieuwe bedrijf het RapidStart-configuratiepakket voor uw land/regio, dat overeenkomt met het standaardpakket NAV17.0.W1.ENU.STANDARD.rapidstart. De instellingsgegevens voor het bewaarbeleid zijn beschikbaar in het nieuwe bedrijf.
+> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en u wilt bewaarbeleid uitproberen in de Cronus-demonstratiedatabase, zijn er een paar dingen die u moet doen. Het demonstratiebedrijf bevat geen tabellen die u kunt gebruiken met bewaarbeleid, dus u moet deze toevoegen. Om dat te doen maakt u een nieuw, leeg bedrijf in de demonstratiedatabase. Importeer in het nieuwe bedrijf het RapidStart-configuratiepakket voor uw land/regio, dat overeenkomt met het standaardpakket NAV17.0.W1.ENU.STANDARD.rapidstart. De instellingsgegevens voor het bewaarbeleid zijn beschikbaar in het nieuwe bedrijf.
 
 ### <a name="to-create-retention-periods"></a>Bewaarperioden maken
-Bewaarperioden kunnen zo lang of kort zijn als u wilt. Om bewaartermijnen te maken gebruikt u op de pagina **Bewaarbeleid** de actie **Bewaarperiode** . De door u gedefinieerde perioden zijn beschikbaar voor al het beleid.
+Bewaarperioden kunnen zo lang of kort zijn als u wilt. Om bewaartermijnen te maken gebruikt u op de pagina **Bewaarbeleid** de actie **Bewaarperiode**. De door u gedefinieerde perioden zijn beschikbaar voor al het beleid.
 
 > [!NOTE]
 > Om complianceredenen hebben we voor sommige tabellen een minimale bewaartermijn gedefinieerd. Als u een bewaartermijn instelt die korter is dan vereist, wordt een bericht weergegeven met de verplichte periode.
@@ -53,15 +53,15 @@ U kunt een taakwachtrij-item gebruiken om bewaarbeleid toe te passen om gegevens
 
 Om automatisch een bewaarbeleid toe te passen hoeft u alleen maar een beleid te maken en in te schakelen. Wanneer u een beleid inschakelt, maken we een taakwachtrij-item dat het bewaarbeleid toepast volgens de bewaarperiode die u opgeeft. Al het bewaarbeleid gebruikt hetzelfde taakwachtrij-item. Standaard past het taakwachtrij-item het beleid elke dag toe om 0200. U kunt de standaardinstelling wijzigen, maar als u dat doet, raden we u aan om het buiten kantooruren te laten doen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md). 
 
-U kunt handmatig een beleid toepassen met behulp van de actie **Handmatig vereffenen** op de pagina **Bewaarbeleid** . Als u een beleid altijd handmatig wilt toepassen, schakelt u de schakelaar **Handmatig** in. Het taakwachtrij-item negeert het beleid wanneer het wordt uitgevoerd.
+U kunt handmatig een beleid toepassen met behulp van de actie **Handmatig vereffenen** op de pagina **Bewaarbeleid**. Als u een beleid altijd handmatig wilt toepassen, schakelt u de schakelaar **Handmatig** in. Het taakwachtrij-item negeert het beleid wanneer het wordt uitgevoerd.
 
 ## <a name="viewing-retention-policy-log-entries"></a>Logboekvermeldingen voor bewaarbeleid bekijken
-U kunt activiteiten met betrekking tot bewaarbeleid bekijken op de pagina **Logboek van bewaarbeleid** . Er worden bijvoorbeeld vermeldingen gemaakt wanneer een beleid wordt toegepast, of als er fouten zijn opgetreden toen dat gebeurde. 
+U kunt activiteiten met betrekking tot bewaarbeleid bekijken op de pagina **Logboek van bewaarbeleid**. Er worden bijvoorbeeld vermeldingen gemaakt wanneer een beleid wordt toegepast, of als er fouten zijn opgetreden toen dat gebeurde. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Uw extensie opnemen in een bewaarbeleid (hulp van een ontwikkelaar vereist)
-Het bewaarbeleid heeft standaard alleen betrekking op tabellen die zijn opgenomen in de lijst met [!INCLUDE[prodshort](includes/prodshort.md)]-tabellen die we verstrekken. U kunt standaardtabellen uit de lijst verwijderen en u kunt tabellen toevoegen waarvan u de eigenaar bent. Dat wil zeggen dat u geen tabel kunt toevoegen die u niet zelf hebt gemaakt. U kunt bijvoorbeeld geen andere tabellen toevoegen vanuit [!INCLUDE[prodshort](includes/prodshort.md)] of vanuit een extensie die u hebt gekocht.
+Het bewaarbeleid heeft standaard alleen betrekking op tabellen die zijn opgenomen in de lijst met [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen die we verstrekken. U kunt standaardtabellen uit de lijst verwijderen en u kunt tabellen toevoegen waarvan u de eigenaar bent. Dat wil zeggen dat u geen tabel kunt toevoegen die u niet zelf hebt gemaakt. U kunt bijvoorbeeld geen andere tabellen toevoegen vanuit [!INCLUDE[prod_short](includes/prod_short.md)] of vanuit een extensie die u hebt gekocht.
 
-Om uw tabellen toe te voegen aan de lijst met toegestane tabellen moet een ontwikkelaar wat code toevoegen, bijvoorbeeld aan de installatie-codeunit voor de extensie (een codeunit met het subtype *install* ). 
+Om uw tabellen toe te voegen aan de lijst met toegestane tabellen moet een ontwikkelaar wat code toevoegen, bijvoorbeeld aan de installatie-codeunit voor de extensie (een codeunit met het subtype *install*). 
 
 Wanneer ontwikkelaars een tabel toevoegen, kunnen ze verplichte en standaardfilters specificeren. Verplichte filters kunnen later niet worden verwijderd of gewijzigd wanneer u tabellen toevoegt om een bewaarbeleid te definiëren. Standaardfilters zijn slechts vriendelijke suggesties.
 
@@ -104,4 +104,4 @@ Nadat een ontwikkelaar tabellen aan de lijst heeft toegevoegd, kan een beheerder
 [Wijzigingen controleren in Business Central](across-log-changes.md)  
 [Filteren](ui-enter-criteria-filters.md#filtering)  
 [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

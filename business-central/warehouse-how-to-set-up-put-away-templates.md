@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b2f31804dace5371da17a4c6e1eeaaac24815c6f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925309"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755945"
 ---
 # <a name="set-up-put-away-templates"></a>Opslagsjablonen instellen
 
@@ -26,12 +26,12 @@ U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren 
 ## <a name="to-set-up-put-away-templates"></a>U kunt als volgt opslagsjablonen instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagsjablonen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** .  
+2. Kies de actie **Nieuw**.  
 3. Voer een unieke id in voor de sjabloon die u wilt maken.  
 4. Typ desgewenst een korte omschrijving.  
 5. Voer op de eerste regel de opslaglocatievereisten in die u de hoogste prioriteit wilt geven bij opslagactiviteiten in het programma.
 
-    Als u bijvoorbeeld wilt dat de standaardopslagmethode gebaseerd is op vaste opslaglocaties, kiest u het veld **Vaste opslaglocatie zoeken** . [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    Als u bijvoorbeeld wilt dat de standaardopslagmethode gebaseerd is op vaste opslaglocaties, kiest u het veld **Vaste opslaglocatie zoeken**. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 6. Op de tweede regel voert u de vereisten in die u van secundair belang acht bij het zoeken naar een opslaglocatie. De tweede regel wordt alleen gebruikt indien een opslaglocatie die aan de voorwaarden van de eerste regel voldoet niet kan worden gevonden.  
 7. Vul de regels in totdat u alle acceptabele plaatsingsvereisten hebt ingevoerd waaraan moet worden voldaan bij de opslag van artikelen.  
 8. Schakel het selectievakje **Vrije opslaglocatie zoeken** op de laatste regel van de opslagsjabloon in.  
@@ -45,4 +45,4 @@ U kunt verschillende opslagsjablonen maken en deze naar wens toepassen. Er wordt
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

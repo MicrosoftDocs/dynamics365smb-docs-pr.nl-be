@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915897"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754804"
 ---
 # <a name="create-workflows"></a>Werkstromen maken
 U kunt werkstromen maken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
 Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurteniscondities, en een werkstroomantwoord met antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.  
 
-Wanneer u werkstromen maakt, kunt u de stappen van bestaande werkstromen of van werkstroomsjablonen kopiëren. Werkstroomsjablonen vertegenwoordigen niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bestaan. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd hebben het voorvoegsel "MS-", zoals in "MS-PIW". Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
+Wanneer u werkstromen maakt, kunt u de stappen van bestaande werkstromen of van werkstroomsjablonen kopiëren. Werkstroomsjablonen vertegenwoordigen niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] bestaan. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd hebben het voorvoegsel "MS-", zoals in "MS-PIW". Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet worden ondersteund, moet een Microsoft-partner ze implementeren door de toepassingscode aan te passen.  
 
@@ -31,10 +31,10 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 
 ## <a name="to-create-a-workflow"></a>Een workflow maken  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** . De pagina **Werkstroom** verschijnt.  
+2. Kies de actie **Nieuw**. De pagina **Werkstroom** verschijnt.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
-4. Als u de werkstroom wilt maken van een werkstroomsjabloon, kiest u op de pagina **Werkstromen** de actie **Werkstroom maken van sjabloon** . Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
-5. Beschrijf de werkstroom in het veld **Omschrijving** .  
+4. Als u de werkstroom wilt maken van een werkstroomsjabloon, kiest u op de pagina **Werkstromen** de actie **Werkstroom maken van sjabloon**. Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
+5. Beschrijf de werkstroom in het veld **Omschrijving**.  
 6. Geef in het veld **Categorie** op tot welke categorie de werkstroom hoort.  
 7. Geef in het veld **Als gebeurtenis** de gebeurtenis op die zich moet voordoen om de werkstroomstap te starten.  
 
@@ -46,7 +46,7 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
     Als de werkstroomgebeurtenis de wijziging van een specifiek veld in een record is, wordt de pagina **Gebeurtenisvoorwaarden** geopend met opties om het veld te selecteren en het type wijziging.  
 
     1.  Als u een veldwijziging voor de gebeurtenis wilt opgeven, selecteert u op de pagina **Gebeurtenisvoorwaarden** in het veld **Veld** die wijziging.  
-    2.  Selecteer in het veld **Operator** **Afgenomen** , **Toegenomen** of **Aangepast** .  
+    2.  Selecteer in het veld **Operator** **Afgenomen**, **Toegenomen** of **Aangepast**.  
 9. Geef in het veld **Dan reactie** het antwoord op dat volgt als de werkstroomgebeurtenis plaatsvindt.  
 
      Als u het veld kiest, wordt de pagina **Werkstroomreacties** geopend waarin u uit alle bestaande werkstroomantwoorden kunt selecteren en antwoordopties kunt instellen voor het geselecteerde antwoord.  
@@ -56,18 +56,18 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 
         |Veld|Omschrijving|  
         |----------------------------------|---------------------------------------|  
-        |**Afzender informeren**|Geef op of de aanvrager van de goedkeuring op de hoogte wordt gebracht in plaats van de ontvanger van de goedkeuringsaanvraag. Als u het selectievakje inschakelt, wordt het veld **Gebruikers-id ontvanger** uitgeschakeld omdat de aanvrager van de goedkeuring, de afzender, wordt geïnformeerd in plaats van de ontvanger. De naam van de werkstroomreactie verandert dienovereenkomstig in **Maak een bericht voor &lt;afzender&gt;** . Als het selectievakje niet is ingeschakeld, is de naam van de werkstroomreactie **Maak een bericht voor &lt;gebruiker&gt;** .
+        |**Afzender informeren**|Geef op of de aanvrager van de goedkeuring op de hoogte wordt gebracht in plaats van de ontvanger van de goedkeuringsaanvraag. Als u het selectievakje inschakelt, wordt het veld **Gebruikers-id ontvanger** uitgeschakeld omdat de aanvrager van de goedkeuring, de afzender, wordt geïnformeerd in plaats van de ontvanger. De naam van de werkstroomreactie verandert dienovereenkomstig in **Maak een bericht voor &lt;afzender&gt;**. Als het selectievakje niet is ingeschakeld, is de naam van de werkstroomreactie **Maak een bericht voor &lt;gebruiker&gt;**.
         |**Gebruikers-id ontvanger**|Geef de gebruiker op die de melding moet ontvangen. Opmerking: deze optie is alleen beschikbaar voor werkstroomantwoorden met een tijdelijke aanduiding voor een bepaalde gebruiker. Voor werkstroomantwoorden zonder tijdelijke aanduidingen voor gebruikers, wordt de meldingsontvanger meestal bepaald door de goedkeuringsgebruikersinstelling.|  
         |**Type berichtitem**|Geeft aan of het werkstroombericht wordt geactiveerd door een recordwijziging, een goedkeuringsverzoek of een verstreken vervaldatum.|
-        |**Doelpagina van koppeling**|Geef een andere pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] op die de koppeling in het bericht opent in plaats van de standaardpagina.<br /><br />De pagina moet dezelfde brontabel moet hebben als de betrokken record.|  
-        |**Aangepaste koppeling**|Geef de URL op van een koppeling die wordt toegevoegd aan de melding naast de koppeling naar een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Doelpagina van koppeling**|Geef een andere pagina in [!INCLUDE[prod_short](includes/prod_short.md)] op die de koppeling in het bericht opent in plaats van de standaardpagina.<br /><br />De pagina moet dezelfde brontabel moet hebben als de betrokken record.|  
+        |**Aangepaste koppeling**|Geef de URL op van een koppeling die wordt toegevoegd aan de melding naast de koppeling naar een pagina in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van een goedkeuringsaanvraag, vult u de velden in de volgende tabel in.  
 
         |Veld|Description|  
         |----------------------------------|---------------------------------------|  
         |**Formule van vervaldatum**|Geef het aantal dagen op waarbinnen de goedkeuringsaanvraag moet worden opgelost vanaf de datum waarop de aanvraag is verzonden.|  
         |**Delegeren na**|Geef aan of en wanneer een goedkeuringsaanvraag automatisch aan de relevante vervanger wordt gedelegeerd. U kunt selecteren dat één, twee of, vijf dagen na de datum automatisch wordt gedelegeerd als de goedkeuring is aangevraagd.|  
-        |**Soort fiatteur**|Geef op wie de fiatteur is, op basis van de instellingen voor goedkeuringsgebruikers en werkstroomgebruikers.<br /><br /> De volgende opties zijn mogelijk:<br /><br /> -   **Verkoper/Inkoper** geeft aan dat de gebruiker die is ingesteld in het veld **Verkoper/inkoper** op de pagina **Gebruikersinstellingen voor goedkeuring** , de fiatteur bepaalt. Goedkeuringsaanvragen worden vervolgens gemaakt op basis van de waarde in het veld **Limietsoort van fiatteur** .<br />     Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-workflow-users.md).|  
+        |**Soort fiatteur**|Geef op wie de fiatteur is, op basis van de instellingen voor goedkeuringsgebruikers en werkstroomgebruikers.<br /><br /> De volgende opties zijn mogelijk:<br /><br /> -   **Verkoper/Inkoper** geeft aan dat de gebruiker die is ingesteld in het veld **Verkoper/inkoper** op de pagina **Gebruikersinstellingen voor goedkeuring**, de fiatteur bepaalt. Goedkeuringsaanvragen worden vervolgens gemaakt op basis van de waarde in het veld **Limietsoort van fiatteur**.<br />     Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-workflow-users.md).|  
         |**Bevestigingsbericht tonen**|Geef aan of er een bevestigingsbericht aan gebruikers wordt weergegeven nadat ze een goedkeuring hebben aangevraagd.|  
         |**Limietsoort van fiatteur**|Geef op wat het effect is van goedkeuringslimieten van fiatteurs als posten voor goedkeuringsaanvragen voor ze worden gemaakt. Een gekwalificeerde fiatteur is een fiatteur met een goedkeuringslimiet die hoger is dan de waarde op de uitgevoerde aanvraag.<br /><br /> De volgende opties zijn mogelijk:<br /><br /> 1. **Fiatteursketting** geeft aan dat posten voor goedkeuringsaanvragen worden gemaakt voor alle fiatteurs van de aanvrager tot en met de eerste gekwalificeerde fiatteur.<br />2. **Directe fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de directe fiatteur van de aanvrager, ongeacht de goedkeuringslimiet van de fiatteur.<br />3. **Eerste gekwalificeerde fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de eerste gekwalificeerde fiatteur van de aanvrager.<br />|  
     3.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van dagboekregels vult u de velden in de volgende tabel in.  

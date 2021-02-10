@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 280915af533d27efd5067518cd5492815662371d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 71f6109c7e4fc2a66896cd14352c19e2e08b51c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910092"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756079"
 ---
 # <a name="restructure-warehouses"></a>Magazijnen herstructureren
 Misschien wilt u op een dag de magazijnstructuur aanpassen en nieuwe opslaglocaties en kenmerken instellen. Dit zal niet vaak voorkomen, maar in sommige gevallen is een aanpassing van het magazijn noodzakelijk om een meer efficiënte bedrijfsvoering te bereiken of behouden. Voorbeeld:  
@@ -28,16 +28,16 @@ Indien voor het magazijn opslaglocaties worden gebruikt, maar niet gestuurde ops
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Herstructureren van een standaardmagazijn dat alleen opslaglocaties gebruikt  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
-2.  Stel op het sneltabblad **Magazijn** het veld **Std. opslaglocatieselectie** in op **Laatst gebruikte opslaglocatie** .  
+2.  Stel op het sneltabblad **Magazijn** het veld **Std. opslaglocatieselectie** in op **Laatst gebruikte opslaglocatie**.  
 3.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelherindelingsdagboek** in en kies de desbetreffende koppeling.  
-    2.  Selecteer een dagboekregel en kies de actie **Opslaglocatie-inhoud ophalen** .  
-    3.  Stel op het sneltabblad **Opslaglocatie-inhoud** filters in de velden **Locatiecode** , **Opslaglocatiecode** en **Artikelnr.** in voor het opgeven van de inhoud die u wilt verplaatsen.  
+    2.  Selecteer een dagboekregel en kies de actie **Opslaglocatie-inhoud ophalen**.  
+    3.  Stel op het sneltabblad **Opslaglocatie-inhoud** filters in de velden **Locatiecode**, **Opslaglocatiecode** en **Artikelnr.** in voor het opgeven van de inhoud die u wilt verplaatsen.  
     4.  Kies de knop **OK** om een dagboekregel te vullen.  
-    5.  Selecteer de opslaglocatie waarnaar de artikelen moeten worden verplaatst in het veld **Nieuwe opslaglocatie** .  
+    5.  Selecteer de opslaglocatie waarnaar de artikelen moeten worden verplaatst in het veld **Nieuwe opslaglocatie**.  
     6.  Herhaal stap b tot en met e voor alle opslaglocatie-inhoud die u wilt verplaatsen.  
-    7.  Kies de actie **Boeken** .  
+    7.  Kies de actie **Boeken**.  
 
 U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standaardopslaglocaties voor de artikelen zijn nu gewijzigd in de nieuwe opslaglocaties.  
 
@@ -47,34 +47,34 @@ U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standa
 2.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnherindelingsdagboek** in en kies de desbetreffende koppeling.  
-    2.  Als u opslaglocaties hebt waarvan de inhoud niet wordt verplaatst, maakt u een regel voor elke huidige opslaglocatie in het **magazijnherindelingsdagboek** . Hierin neemt u zowel de oude opslaglocatie **Van opslaglocatie** als de nieuwe opslaglocatie **Naar opslaglocatie** op.  
+    2.  Als u opslaglocaties hebt waarvan de inhoud niet wordt verplaatst, maakt u een regel voor elke huidige opslaglocatie in het **magazijnherindelingsdagboek**. Hierin neemt u zowel de oude opslaglocatie **Van opslaglocatie** als de nieuwe opslaglocatie **Naar opslaglocatie** op.  
     3.  Als sommige verplaatsingen fysiek moeten worden uitgevoerd door magazijnmedewerkers, gebruikt u **Verplaatsingsvoorstellen** om verplaatsingsinstructies te maken. U gebruikt in dit geval niet het herindelingsdagboek van het magazijn. Zie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) voor meer informatie.  
 
 3.  Wanneer de oude opslaglocaties worden leeggemaakt, moeten ze als opslaglocatie van het type **QC** worden ingedeeld zodat ze niet worden opgenomen in de artikelstroom.  
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
-    2.  Selecteer de regel met de locatie en kies vervolgens de actie **Opslaglocaties** .  
-    3.  Voer op de pagina **Opslaglocaties** , in het veld **Code opslaglocatiesoort** , **QC** in voor elk van de oude opslaglocaties die u in stap 3 in de vorige procedure hebt leeggemaakt.  
+    2.  Selecteer de regel met de locatie en kies vervolgens de actie **Opslaglocaties**.  
+    3.  Voer op de pagina **Opslaglocaties**, in het veld **Code opslaglocatiesoort**, **QC** in voor elk van de oude opslaglocaties die u in stap 3 in de vorige procedure hebt leeggemaakt.  
 
 U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw ingedeeld als QC-opslaglocaties. Dit zijn opslaglocaties die niet beschikken over de activiteitenvelden op de pagina **Opslaglocatiesoorten** en daarom niet door de artikelstroom worden meegenomen. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.  
 
 ## <a name="to-delete-a-bin"></a>Een opslaglocatie verwijderen  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
-2.  Selecteer de vestiging waar u opslaglocaties wilt gebruiken en kies de actie **Opslaglocaties** .  
+2.  Selecteer de vestiging waar u opslaglocaties wilt gebruiken en kies de actie **Opslaglocaties**.  
 3.  Selecteer de regels voor de opslaglocaties die u wilt verwijderen.  
-4.  Kies de actie **Verwijderen** .  
+4.  Kies de actie **Verwijderen**.  
 
 Als u op **Ja** klikt, wordt de opslaglocatie verwijderd voor toekomstig gebruik. De opslaglocatie blijft echter ongewijzigd voor alle geboekte magazijnposten.  
 
-Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aan de opslaglocatie eveneens worden hernoemd, kunt u deze wijziging doorvoeren op de pagina **Opslaglocaties** . Het gaat hierbij om regels met opslaglocatie-inhoud, magazijnactiviteiten, magazijnvoorstelregels, regels voor magazijnontvangst, magazijnverzending en magazijnposten.  
+Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aan de opslaglocatie eveneens worden hernoemd, kunt u deze wijziging doorvoeren op de pagina **Opslaglocaties**. Het gaat hierbij om regels met opslaglocatie-inhoud, magazijnactiviteiten, magazijnvoorstelregels, regels voor magazijnontvangst, magazijnverzending en magazijnposten.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Een opslaglocatie een andere naam geven en de opslaglocatie in alle records wijzigen  
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
-2.  Selecteer de vestiging waar u de naam of code van een opslaglocatie wilt wijzigen en kies vervolgens de actie **Opslaglocaties** .  
+2.  Selecteer de vestiging waar u de naam of code van een opslaglocatie wilt wijzigen en kies vervolgens de actie **Opslaglocaties**.  
 3.  Selecteer de opslaglocatie die u wilt wijzigen en voer in het veld **Code** een code voor een nieuwe opslaglocatie in.  
-4.  Kies de knop **Ja** .  
+4.  Kies de knop **Ja**.  
 
 > [!NOTE]  
 >  Als u op **Ja** klikt en veel posten van toepassing zijn op deze opslaglocatie, bijvoorbeeld omdat u een lange tijd geen magazijndocumenten hebt verwijderd, kan het een tijd duren voordat alle records zijn hernoemd. Overweeg daarom, indien u deze methode gebruikt, om de batchtaak **Geregistreerde magazijndocumenten verwijderen** uit te voeren voordat u begint met het wijzigen van het proces. Voor deze batchverwerking geldt dat alleen opslag-, pick- en verplaatsingsdocumenten worden verwijderd.  
@@ -87,4 +87,4 @@ Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aa
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

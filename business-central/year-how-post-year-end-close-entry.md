@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3181fe2bfa72897a4e8db8dd1bae6b0f235c6eaa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca92d9535a9a15d46d93de6febdfd169c3d7d17a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923182"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755554"
 ---
 # <a name="post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
 Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.
@@ -35,4 +35,4 @@ Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaare
 [Boekhoudperioden afsluiten](year-close-account-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
 [Afsluiten WenV-rekening](year-close-income-statement.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

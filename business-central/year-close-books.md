@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0b2536d39bf0121f68172429513bce2ad3180110
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925284"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755654"
 ---
 # <a name="closing-the-books"></a>De boeken sluiten
 Nadat gezorgd hebt dat alle rekeningen actueel zijn, en u kosten en inkomsten hebt verdeeld, kunt u de boeken van een boekhoudperiode of boekjaar sluiten.
@@ -27,7 +27,7 @@ Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
 1. De boekingsperiode afsluiten.
 
-    Een boekjaar wordt gedefinieerd als een of meer open perioden zoals die zijn gedefinieerd op de pagina **Boekingsperioden** . Een boekjaar bestaat over het algemeen uit 12 perioden van een maand, maar u kunt een jaar ook anders definiëren.
+    Een boekjaar wordt gedefinieerd als een of meer open perioden zoals die zijn gedefinieerd op de pagina **Boekingsperioden**. Een boekjaar bestaat over het algemeen uit 12 perioden van een maand, maar u kunt een jaar ook anders definiëren.
 
     Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
 2. Naboekingen registreren.
@@ -54,4 +54,4 @@ U kunt in een eerder boekjaar boeken, zelfs nadat de resultatenrekeningen zijn g
 ## <a name="see-also"></a>Zie ook
 
 [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

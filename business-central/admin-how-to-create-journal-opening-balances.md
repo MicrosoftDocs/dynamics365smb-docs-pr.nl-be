@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915781"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753979"
 ---
 # <a name="create-journal-opening-balances"></a>Beginsaldi van dagboeken maken
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.
 
 De eerste stap is het maken van een configuratiepakket dat de instellingentabellen voor deze dagboeken bevat. In de volgende procedure wordt ervan uitgegaan dat deze stap is voltooid. Zie [Bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md) voor meer informatie. In de procedure worden de daaropvolgende stappen beschreven, waaronder de toepassing van het pakket dat wordt geleverd door een partner.  
 
@@ -34,17 +34,17 @@ Voordat u begint, moet u ervoor zorgen dat u de rolcentrumpagina Beheer gebruikt
 2. Open het configuratiewerkblad en importeer bestaande gegevens over klanten, artikelen, leveranciers en het grootboek. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
     Nu beschikt u over hoofdgegevens. Vervolgens voegt u de beginsaldi toe. De volgende stappen beschrijven hoe u dagboekregels voor grootboekrekeningen maakt, maar hetzelfde geldt voor het maken van dagboekregels voor klanten, leveranciers en artikelen.  
-3. Kies de actie **Grootboekrekeningregels maken** .  
+3. Kies de actie **Grootboekrekeningregels maken**.  
 4. Vul het sneltabblad **Opties** in en stel zo nodig filters in. Voer bijvoorbeeld in het veld **Dagboeksjabloon** een naam in.  
-5. Kies de knop **OK** . De records bevinden zich nu in het dagboek, maar de bedragen zijn leeg.  
+5. Kies de knop **OK**. De records bevinden zich nu in het dagboek, maar de bedragen zijn leeg.  
 6. Exporteer de dagboektabel naar Excel en voer handmatig de gegevens voor boeking en tegenrekening in vanuit de oude gegevens.
 7. Importeer en pas de tabelgegevens toe op het nieuwe bedrijf. De dagboekregels zijn gereed om te worden geboekt.  
-8. Selecteer op het configuratiewerkblad de dagboekregeltabel en kies de actie **Databasegegevens** .  
-9. Controleer de informatie en kies de actie **Boeken** .  
+8. Selecteer op het configuratiewerkblad de dagboekregeltabel en kies de actie **Databasegegevens**.  
+9. Controleer de informatie en kies de actie **Boeken**.  
 10. Herhaal de stappen voor het importeren en boeken van andere beginsaldi.  
 
 > [!TIP]
-> U kunt dezelfde batchtaken gebruiken om beginsaldi toe te voegen wanneer u een nieuwe klant of leverancier registreert waarmee u eerder zaken hebt gedaan, maar niet geregistreerd in [!INCLUDE [prodshort](includes/prodshort.md)]. Zoek gewoon naar de relevante taak en kies vervolgens de relevante koppeling.
+> U kunt dezelfde batchtaken gebruiken om beginsaldi toe te voegen wanneer u een nieuwe klant of leverancier registreert waarmee u eerder zaken hebt gedaan, maar niet geregistreerd in [!INCLUDE [prod_short](includes/prod_short.md)]. Zoek gewoon naar de relevante taak en kies vervolgens de relevante koppeling.
 
 ## <a name="see-also"></a>Zie ook
 

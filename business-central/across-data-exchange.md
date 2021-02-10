@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914384"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753504"
 ---
 # <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners.
 
-In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in functies, zoals elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
+In de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in functies, zoals elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
 
 Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door in te stellen welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
 

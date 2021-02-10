@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 104f63e07e4bfd8945f73581a4fb7810f946304f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918250"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755579"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Overzicht van taken voor het sluiten van boekingsperioden
-[!INCLUDE[d365fin](includes/d365fin_md.md)] dwingt u niet om perioden te sluiten, maar er zijn veel activiteiten voor periode-einden (maandeinden) die u kunt uitvoeren. In dit onderwerp vindt u een overzicht van optionele processen en activiteiten voor het afsluiten van perioden.  
+[!INCLUDE[prod_short](includes/prod_short.md)] dwingt u niet om perioden te sluiten, maar er zijn veel activiteiten voor periode-einden (maandeinden) die u kunt uitvoeren. In dit onderwerp vindt u een overzicht van optionele processen en activiteiten voor het afsluiten van perioden.  
 
 ## <a name="general-ledger"></a>Grootboek
 * Geef de boekingsperioden voor het gehele systeem of een specifieke gebruiker op.  
@@ -30,7 +30,7 @@ ms.locfileid: "3918250"
 * Wijzig en boek periodieke dagboeken.  
   <!--* Process Consolidations-->
 * Voer rapportageschema's als volgt uit:  
-  * Open de pagina **Rapportageschema** en kies de actie **Afdrukken** .  
+  * Open de pagina **Rapportageschema** en kies de actie **Afdrukken**.  
 
 ## <a name="sales-and-receivables"></a>Verkopen en tegoeden
 * Boek alle verkooporders, facturen, creditnota's en retourorders.  
@@ -62,4 +62,4 @@ Intercomp
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

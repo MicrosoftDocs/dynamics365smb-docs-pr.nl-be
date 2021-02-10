@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d9263f2dda3a944b49ee449ef5f71bb56eb201f2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9ed05b047732a171970219c9a24f5fdd6f96f0b1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925144"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755404"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Verkoopcycli instellen voor opportunities en cyclusfasen
 Voordat u verkoopopportunities in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Een verkoopcyclus bestaat uit een reeks fasen vanaf het eerste contact tot aan het sluiten van een verkoop. Elke fase kan bepaalde vereisten hebben waaraan moet worden voldaan, zoals een verkoopofferte, voordat een opportunity naar de volgende fase kan gaan. U kunt ook aangeven of een fase kan worden overgeslagen. U kunt elk gewenst aantal verkoopcycli instellen en u kunt binnen een verkoopcyclus elk gewenst aantal verkoopcyclusfasen instellen.
@@ -31,7 +31,7 @@ In dit onderwerp wordt ook beschreven hoe u taken en activiteiten instelt en hoe
 Herhaal deze stappen om het gewenste aantal verkoopcycli in te stellen. Nadat u de opportunityverkoopcycli hebt ingesteld, kunt u de verschillende fases instellen binnen elke cyclus.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Fasen van opportunityverkoopcycli definiëren
-1. Selecteer op de pagina **Verkoopcycli** de opportunityverkoopcyclus waarvoor u fases wilt instellen en kies vervolgens de actie **Fasen** . De pagina **Verkoopcyclusfasen** verschijnt.
+1. Selecteer op de pagina **Verkoopcycli** de opportunityverkoopcyclus waarvoor u fases wilt instellen en kies vervolgens de actie **Fasen**. De pagina **Verkoopcyclusfasen** verschijnt.
 2. Kies de actie **Nieuw** om een nieuwe fase in de verkoopcyclus in te voeren.
 
 Herhaal deze stappen om het gewenste aantal fasen binnen de verkoopcyclus in te stellen.
@@ -53,16 +53,16 @@ Wanneer u een taak hebt ingesteld, kunt u deze toewijzen aan een verkoopopportun
 >   In deze procedure wordt beschreven hoe u activiteittaken toekent aan opportunities. de stappen zijn soortgelijk wanneer u taken toewijst aan contacten en verkopers.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity's** in en kies de gerelateerde koppeling.
-2. Selecteer een opportunity en kies vervolgens de actie **Taken** .
-3. Kies op de pagina **Taakoverzicht** de actie **Taak maken** .
+2. Selecteer een opportunity en kies vervolgens de actie **Taken**.
+3. Kies op de pagina **Taakoverzicht** de actie **Taak maken**.
 4.  Vul op de pagina **Taak maken** de benodigde velden in.
 
     U ziet in het veld **Opportunity** dat het automatisch is toegewezen aan de betreffende opportunity.
-5. Kies de knop **OK** .
-6. Selecteer op de pagina **Taakoverzicht** de nieuwe taak en kies vervolgens de actie **Activiteiten toewijzen** .
-7. Vul op de pagina **Activiteit toewijzen** desgewenst de velden in en kies vervolgens de knop **OK** .
+5. Kies de knop **OK**.
+6. Selecteer op de pagina **Taakoverzicht** de nieuwe taak en kies vervolgens de actie **Activiteiten toewijzen**.
+7. Vul op de pagina **Activiteit toewijzen** desgewenst de velden in en kies vervolgens de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook
 [Verkoopopportunities verwerken](marketing-processing-sales-opportunities.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

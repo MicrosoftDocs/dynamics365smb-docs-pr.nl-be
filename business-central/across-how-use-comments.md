@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f84b6d7d03bd8766bfd485870cef8401a3e3382
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924890"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754579"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Opmerkingen toevoegen aan kaarten en documenten
 U kunt extra informatie toevoegen aan grootboekrekeningen, klantenkaarten of verkooporders om uitzonderingen of speciale overeenkomsten te doen toekomen aan andere gebruikers.
-Vrijwel alle kaarten en documenten hebben een actie **Opmerkingen** , waarmee de pagina **Opmerkingen** wordt geopend. Op die pagina kunt u opmerkingen schrijven of lezen. In documenten kunt u ook opmerkingen toevoegen aan afzonderlijke regels.
+Vrijwel alle kaarten en documenten hebben een actie **Opmerkingen**, waarmee de pagina **Opmerkingen** wordt geopend. Op die pagina kunt u opmerkingen schrijven of lezen. In documenten kunt u ook opmerkingen toevoegen aan afzonderlijke regels.
 
 Opmerkingen over voortdurende documenten worden overgebracht naar het gerelateerde geboekte document. Een opmerking in een verkooporder wordt bijvoorbeeld overgebracht naar een resulterende, geboekte verzending.
 
-Daarnaast kunt u aangeven of u wilt dat opmerkingen worden overgenomen van het ene soort document naar een ander, resulterend soort document, zoals van een verkooporder naar een verkoopfactuur. U doet dit in het veld **Verkopen en Klanten** en de respectievelijk pagina's **Inkopen en Leveranciers** .
+Daarnaast kunt u aangeven of u wilt dat opmerkingen worden overgenomen van het ene soort document naar een ander, resulterend soort document, zoals van een verkooporder naar een verkoopfactuur. U doet dit in het veld **Verkopen en Klanten** en de respectievelijk pagina's **Inkopen en Leveranciers**.
 
 > [!NOTE]
 > Opmerkingen worden niet afgedrukt of uitgevoerd naar rapporten of extern beschikbare documenten.
@@ -33,9 +33,9 @@ Hierna wordt beschreven hoe u een opmerking aan een artikelkaart toevoegt. De st
 ## <a name="to-add-a-comments-to-an-item-card"></a>Een opmerking toevoegen aan een artikelkaart
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Open de relevante artikelkaart.
-3. Kies de actie **Opmerkingen** .
-4. Voer op de pagina **Opmerkingen** tekst in en kies de knop **OK** .
+3. Kies de actie **Opmerkingen**.
+4. Voer op de pagina **Opmerkingen** tekst in en kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

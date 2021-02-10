@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a053692e9e58dc7b64962c8d117e8cec832fd8fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927309"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752962"
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
 
 Het is bekend dat sommige mensen liever materiaal bekijken dan lezen. Daarom hebben we enkele korte, gemakkelijk te verwerken video's gemaakt die op zichzelf kunnen worden bekeken of als aanvulling op onze gebruikersondersteuning.  
 
-Als u nog niet bekend bent met [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u de introductievideo's vanaf de welkomstpagina starten. Als u al in [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen.  
+Als u nog niet bekend bent met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de introductievideo's vanaf de welkomstpagina starten. Als u al in [!INCLUDE[prod_short](includes/prod_short.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen.  
 
-U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-afspeellijst die we hebben gemaakt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de video's nu wilt bezoeken, [klikt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
+U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-afspeellijst die we hebben gemaakt voor [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de video's nu wilt bezoeken, [klikt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Video's in de bibliotheek worden in een vrij klein kader weergegeven. U kunt dit kader groter maken door op de dubbelzijdige pijl in de rechterbovenhoek te klikken. Vervolgens worden video's in het grotere kader weergegeven tot u dit weer kleiner maakt.

@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 658816cfb65580404bc8ef10472a5b62c6815c9e
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 2220b5227cfe0e99a53071829096a67b6aeb0521
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989501"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754929"
 ---
 # <a name="publish-a-web-service"></a>Een webservice publiceren
 
-Webservices zijn een lichtgewicht manier om toepassingsfunctionaliteit aan allerlei soorten externe systemen en gebruikers beschikbaar te maken. Standaard stelt [!INCLUDE[d365fin](includes/d365fin_md.md)] een aantal objecten bloot als webservices voor een betere integratie met andere Microsoft-services. U kunt andere webservices toevoegen als uw bedrijf dit vereist.  
+Webservices zijn een lichtgewicht manier om toepassingsfunctionaliteit aan allerlei soorten externe systemen en gebruikers beschikbaar te maken. Standaard stelt [!INCLUDE[prod_short](includes/prod_short.md)] een aantal objecten bloot als webservices voor een betere integratie met andere Microsoft-services. U kunt andere webservices toevoegen als uw bedrijf dit vereist.  
 
-Stel een webservice in [!INCLUDE[d365fin](includes/d365fin_md.md)] in en publiceer vervolgens de webservice zodat deze beschikbaar is voor geverifieerde gebruikers. Alle bevoegde gebruikers hebben toegang tot metagegevens voor webservices, maar alleen gebruikers die beschikken over voldoende machtigingen hebben toegang tot de werkelijke gegevens.  
+Stel een webservice in [!INCLUDE[prod_short](includes/prod_short.md)] in en publiceer vervolgens de webservice zodat deze beschikbaar is voor geverifieerde gebruikers. Alle bevoegde gebruikers hebben toegang tot metagegevens voor webservices, maar alleen gebruikers die beschikken over voldoende machtigingen hebben toegang tot de werkelijke gegevens.  
 
 ## <a name="creating-and-publishing-a-web-service"></a>Een webservice maken en publiceren
 
@@ -27,7 +27,7 @@ In de volgende stappen wordt uitgelegd hoe u een webservice maakt en publiceert.
 ### <a name="to-create-and-publish-a-web-service"></a>Een webservice maken en publiceren  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webservices** in en kies de desbetreffende koppeling.  
-2. Kies op de pagina **Webservices** de optie **Nieuw** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Kies op de pagina **Webservices** de optie **Nieuw**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > **Codeunit** en **Pagina** zijn geldige typen voor SOAP-webservices. **Pagina** en **Query** zijn geldige typen voor OData-webservices. Vanaf versie 16.3, is **Codeunit** ook een geldig type voor OData v4-webservices, maar dan wordt er geen URL weergegeven in de gebruikersinterface. Als de database meerdere bedrijven bevat, kunt u een specifieke object-id voor een van de bedrijven kiezen.  
@@ -40,9 +40,9 @@ Wanneer u de webservice publiceert, bevatten de velden **OData-URL** en **SOAP-U
 U kunt de webservice direct controleren door de koppelingen in de velden **OData-URL** en **SOAP-URL** te kiezen. U kunt eventueel de waarde van het veld kopiëren en opslaan voor later gebruik. Om codeunits te testen die worden weergegeven als ongebonden OData v4-acties, volgt u de instructies in de sectie [Beschikbaarheid van webservice verifiëren](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) in de ontwikkelaarscontent.
 
 > [!NOTE]
-> Als de objecten die u beschikbaar maakt als webservices, niet toegankelijk mogen zijn vanuit [!INCLUDE[prodshort](includes/prodshort.md)] online, moet u de methoden die in de code beschikbaar worden gemaakt, markeren als `[Scope('OnPrem')]`. Zie voor meer informatie [Bereikkenmerk](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Als de objecten die u beschikbaar maakt als webservices, niet toegankelijk mogen zijn vanuit [!INCLUDE[prod_short](includes/prod_short.md)] online, moet u de methoden die in de code beschikbaar worden gemaakt, markeren als `[Scope('OnPrem')]`. Zie voor meer informatie [Bereikkenmerk](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
-Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. U kunt de beschikbaarheid van die webservice verifiëren door een browser te gebruiken of u kunt de koppeling in de velden **OData-URL** en **SOAP-URL** kiezen op de pagina **Webservices** . In de volgende procedure wordt beschreven hoe u de beschikbaarheid van de webservice kunt controleren voor later gebruik.  
+Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. U kunt de beschikbaarheid van die webservice verifiëren door een browser te gebruiken of u kunt de koppeling in de velden **OData-URL** en **SOAP-URL** kiezen op de pagina **Webservices**. In de volgende procedure wordt beschreven hoe u de beschikbaarheid van de webservice kunt controleren voor later gebruik.  
 
 ### <a name="to-verify-the-availability-of-a-web-service"></a>De beschikbaarheid van een webservice verifiëren  
 
@@ -56,7 +56,7 @@ Wanneer u een webservice publiceert, is deze beschikbaar voor externe partijen. 
 
 2. Controleer de informatie die verschijnt in de browser. Controleer of u de naam ziet van de webservice die u hebt gemaakt.  
 
-Als u toegang hebt tot een webservice en gegevens wilt terugschrijven naar [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u de bedrijfsnaam opgeven. U kunt het bedrijf opgeven als onderdeel van de URI zoals weergegeven in de volgende voorbeelden, of u kunt het bedrijf opgeven als onderdeel van de queryparameters. De volgende URI's wijzen bijvoorbeeld naar dezelfde OData-webservice en zijn beide geldige URI's.  
+Als u toegang hebt tot een webservice en gegevens wilt terugschrijven naar [!INCLUDE[prod_short](includes/prod_short.md)], moet u de bedrijfsnaam opgeven. U kunt het bedrijf opgeven als onderdeel van de URI zoals weergegeven in de volgende voorbeelden, of u kunt het bedrijf opgeven als onderdeel van de queryparameters. De volgende URI's wijzen bijvoorbeeld naar dezelfde OData-webservice en zijn beide geldige URI's.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  

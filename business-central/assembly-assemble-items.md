@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: b734d867401697b1c554f321d5b153f093dd5cd8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968318"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753246"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
 
  Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
@@ -56,6 +56,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
 [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)  
 [Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

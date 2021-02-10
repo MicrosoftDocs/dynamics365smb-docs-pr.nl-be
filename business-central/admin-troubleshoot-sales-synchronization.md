@@ -12,24 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1c2181ee381425a168a9b6b6ce321e595a01ed8e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922404"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755004"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Problemen met synchronisatiefouten oplossen
-Er zijn veel factoren betrokken bij de integratie van [!INCLUDE[d365fin](includes/d365fin_md.md)] met Common Data Serviceen soms gaat het mis. In dit onderwerp worden enkele van de veel voorkomende fouten beschreven en worden enkele tips gegeven voor het oplossen van deze fouten.
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Fouten komen vaak voor als gevolg van iets wat een gebruiker heeft gedaan met gekoppelde records of er is iets mis met de manier waarop de integratie is ingesteld. Fouten met betrekking tot gekoppelde records kunnen gebruikers zelf oplossen. Deze fouten worden veroorzaakt door acties zoals het verwijderen van een record in één, maar niet beide, zakelijke apps en vervolgens synchroniseren. Zie voor meer informatie [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md),
+Er zijn veel factoren betrokken bij de integratie van [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[prod_short](includes/cds_long_md.md)]en soms gaat het mis. In dit onderwerp worden enkele van de veel voorkomende fouten beschreven en worden enkele tips gegeven voor het oplossen van deze fouten.
+
+Fouten komen vaak voor als gevolg van iets wat een gebruiker heeft gedaan met gekoppelde records of er is iets mis met de manier waarop de integratie is ingesteld. Fouten met betrekking tot gekoppelde records kunnen gebruikers zelf oplossen. Deze fouten worden veroorzaakt door acties zoals het verwijderen van gegevens in één, maar niet beide, zakelijke apps en vervolgens synchroniseren. Zie voor meer informatie [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md),
 
 ## <a name="example"></a>Voorbeeld
 Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden tijdens het synchroniseren met Sales. Het proces is voor alle integraties hetzelfde. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
-Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaans de aandacht van een beheerder. U kunt deze fouten bekijken op de pagina **Synchronisatiefouten bij integratie** . Voorbeelden van enkele typische problemen zijn:  
+Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaans de aandacht van een beheerder. U kunt deze fouten bekijken op de pagina **Synchronisatiefouten bij integratie**. Voorbeelden van enkele typische problemen zijn:  
   
 * De machtigingen en rollen die aan gebruikers zijn toegewezen, zijn niet correct.  
 * Het beheerdersaccount is opgegeven als de integratiegebruiker.  
@@ -38,25 +40,25 @@ Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaa
   
 U moet de fouten handmatig oplossen, maar er zijn een paar manieren waarop de pagina u helpt. Voorbeeld:  
 
-* De velden **Bron** en **Bestemming** kunnen koppelingen bevatten naar de record waar de fout is gevonden. Klik op de koppeling om de record te openen en de fout te onderzoeken.  
+* De velden **Bron** en **Bestemming** kunnen koppelingen bevatten naar de rij waar de fout is gevonden. Klik op de link om de fout te onderzoeken.  
 * De acties **Posten ouder dan 7 dagen verwijderen** en **Alle items verwijderen** schonen de lijst op. Meestal gebruikt u deze acties nadat u de oorzaak van een fout hebt opgelost die van invloed is op veel records. Wees echter voorzichtig. Met deze acties kunnen fouten worden verwijderd die nog steeds relevant zijn.
 
-Soms kunnen de tijdstempels in records conflicten veroorzaken. De tabel 'CDS-integratierecord' bevat de tijdstempels 'Laatste synchronisatie gewijzigd op' en 'Laatste synchr. CDS gewijzigd op' voor de laatste integratie in beide richtingen voor een record. Deze tijdstempels worden vergeleken met tijdstempels in Business Central- en Sales-records. In Business Central staat de tijdstempel in de tabel Integratierecord.
+Soms kunnen de tijdstempels in records conflicten veroorzaken. De tabel 'CDS-integratierecord' bevat de tijdstempels 'Laatste synchronisatie gewijzigd op' en 'Laatste synchr. CDS gewijzigd op' voor de laatste integratie in beide richtingen voor een rij. Deze tijdstempels worden vergeleken met tijdstempels in Business Central- en Sales-records. In Business Central staat de tijdstempel in de tabel Integratierecord.
 
-U kunt filteren op records die moeten worden gesynchroniseerd door de tijdstempels van records te vergelijken in de tabel 'Toewijzing van integratietabel', namelijk de velden 'Filter synchr. gewijzigd op' en 'Filter synchr. int.-tbl gewijz. op fltr.'.
+U kunt filteren op records die moeten worden gesynchroniseerd door de tijdstempels van rijen te vergelijken in de tabel 'Toewijzing van integratietabel', namelijk de velden 'Filter synchr. gewijzigd op' en 'Filter synchr. int.-tbl gewijz. op fltr.'.
 
-Het conflictfoutbericht 'Kan de klantrecord niet bijwerken omdat deze een latere wijzigingsdatum heeft dan de accountrecord' of "Kan de accountrecord niet bijwerken omdat deze een latere wijzigingsdatum heeft dan de klantrecord' kan optreden als een record een tijdstempel heeft dat is groter dan Toewijzing van integratietabel.'Filter synchr. gewijzigd op' maar niet recenter is dan het tijdstempel op Verkoopintegratierecord. Dit betekent dat de bronrecord handmatig is gesynchroniseerd, niet door de taakwachtrijpost. 
+Het conflictfoutbericht 'Kan de klantrecord niet bijwerken omdat deze een latere wijzigingsdatum heeft dan de accountrecord' of "Kan de accountrecord niet bijwerken omdat deze een latere wijzigingsdatum heeft dan de klantrecord' kan optreden als een rij een tijdstempel heeft dat groter is dan Toewijzing van integratietabel.'Filter synchr. gewijzigd op' maar niet recenter is dan het tijdstempel in Verkoopintegratierecord. Dit betekent dat de bronrij handmatig is gesynchroniseerd, niet door de taakwachtrijpost. 
 
-Het conflict treedt op omdat de doelrecord ook is gewijzigd: het tijdstempel van de record is recenter dan het tijdstempel van Verkoopintegratierecord. De bestemmingscontrole vindt alleen plaats voor bidirectionele tabellen. 
+Het conflict treedt op omdat de doelrij ook is gewijzigd: het tijdstempel van de rij is recenter dan het tijdstempel van Verkoopintegratierecord. De bestemmingscontrole vindt alleen plaats voor bidirectionele tabellen. 
 
 Deze records worden nu verplaatst naar de pagina 'Overgeslagen synchronisatierecords', die u opent vanaf de pagina Microsoft Dynamics-verbinding instellen in Business Central. Daar kunt u opgeven welke wijzigingen moeten worden bewaard en vervolgens de records opnieuw synchroniseren.
 
 ## <a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
-Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. Op de pagina **Toewijzingen van integratietabellen** kunt u **Ontkoppeling** kiezen en dan **Koppeling verwijderen** . Als alternatief kunt u op de pagina **Synchronisatiefouten met gekoppelde gegevens** de fouten kiezen en vervolgens **Koppelingen verwijderen** kiezen. 
+Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. U kunt een of meer records loskoppelen van lijstpagina's of de pagina **Fouten met gekoppelde gegevenssynchronisatie** door een of meer regels te kiezen en **Koppeling verwijderen** te kiezen. U kunt ook alle koppelingen verwijderen voor een of meer tabeltoewijzingen op de pagina **Integratietabeltoewijzingen**. 
 
 ## <a name="see-also"></a>Zie ook
-[Integreren met Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Gebruikersaccounts instellen voor integratie met Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  
-[Een verbinding instellen met Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Integreren met Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Gebruikersaccounts instellen voor integratie met Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
+[Een verbinding instellen met Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)  
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  

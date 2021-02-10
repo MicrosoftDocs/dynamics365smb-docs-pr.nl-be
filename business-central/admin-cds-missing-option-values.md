@@ -8,15 +8,17 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
-ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752887"
 ---
 # <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
-[!INCLUDE[d365fin](includes/cds_long_md.md)] bevat slechts drie optiesetvelden die optiewaarden bevatten die u kunt toewijzen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]-velden van het type Optie<!-- Option type, not enum? @Onat can you vertify this? --> voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Deze sectie beschrijft hoe dat werkt.
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)] bevat slechts drie optiesetvelden die optiewaarden bevatten die u kunt toewijzen aan [!INCLUDE[prod_short](includes/prod_short.md)]-velden van het type Optie<!-- Option type, not enum? @Onat can you vertify this? --> voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Deze sectie beschrijft hoe dat werkt.
 
 De pagina **Toewijzing van integratietabel** bevat drie toewijzingen voor velden die een of meer toegewezen optiewaarden bevatten. Na een volledige synchronisatie bevat de pagina **Toewijzing van CDS-optie** de niet-toegewezen opties in de drie velden respectievelijk.
 
@@ -36,7 +38,7 @@ De pagina **Toewijzing van integratietabel** bevat drie toewijzingen voor velden
 | Expediteur: VOLLEDIGELADING   | 6            | Volledige lading            |
 | Expediteur: AFHALEN   | 7            | Afhalen            |
 
-De inhoud van de pagina **Toewijzing van CDS-optie** is gebaseerd op opsommingswaarden in de tabel **CDS-account** . In [!INCLUDE[d365fin](includes/cds_long_md.md)] worden de volgende velden van de accountentiteit toegewezen aan velden in de klant- en leveranciersrecords:
+De inhoud van de pagina **Toewijzing van CDS-optie** is gebaseerd op opsommingswaarden in de tabel **CDS-account**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] worden de volgende velden van de accounttabel toegewezen aan velden in de klant- en leveranciersrecords:
 
 - **Adres 1: vrachtvoorwaarden** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
 
@@ -82,9 +84,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-Alle bovenstaande [!INCLUDE[d365fin](includes/d365fin_md.md)]-enums zijn toegewezen aan optiesets in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+Alle bovenstaande [!INCLUDE[prod_short](includes/prod_short.md)]-enums zijn toegewezen aan optiesets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-d365fin"></a>Optiesets uitbreiden in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="extending-option-sets-in-prod_short"></a>Optiesets uitbreiden in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Maak een nieuwe AL-extensie.
 
 2. Voeg een Enum-extensie toe voor de opties die u wilt uitbreiden. Zorg ervoor dat u dezelfde waarde gebruikt. 
@@ -98,18 +100,18 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> U moet dezelfde optie-ID-waarden gebruiken van [!INCLUDE[d365fin](includes/cds_long_md.md)] wanneer u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-enum uitbreidt. Anders mislukt de synchronisatie.
+> U moet dezelfde optie-ID-waarden gebruiken van [!INCLUDE[prod_short](includes/cds_long_md.md)] wanneer u de [!INCLUDE[prod_short](includes/prod_short.md)]-enum uitbreidt. Anders mislukt de synchronisatie.
 
 > [!IMPORTANT]  
-> Gebruik niet het teken "," in de Enum-waarden en bijschriften. Dit wordt momenteel niet ondersteund door de [!INCLUDE[d365fin](includes/d365fin_md.md)]-runtime.
+> Gebruik niet het teken "," in de Enum-waarden en bijschriften. Dit wordt momenteel niet ondersteund door de [!INCLUDE[prod_short](includes/prod_short.md)]-runtime.
 
 > [!NOTE]
 > De eerste tien tekens van de nieuwe namen en bijschriften van de optiewaarden moeten uniek zijn. Twee opties met de naam "Transfer 20 werkdagen" en "Transfer 20 kalenderdagen" veroorzaken bijvoorbeeld een fout omdat beide dezelfde eerste 10 tekens hebben, "Transfer 2". Noem ze bijvoorbeeld "TRF20 WD" en "TRF20 KD".
 
-### <a name="update-d365fin-option-mapping"></a>[!INCLUDE[d365fin](includes/cds_long_md.md)]-optietoewijzing bijwerken
-Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[d365fin](includes/cds_long_md.md)]-opties en [!INCLUDE[d365fin](includes/d365fin_md.md)]-records.
+### <a name="update-prod_short-option-mapping"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)]-optietoewijzing bijwerken
+Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties en [!INCLUDE[prod_short](includes/prod_short.md)]-records.
 
-Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren** . De pagina **Toewijzing van CDS-optie** wordt bijgewerkt met de aanvullende records hieronder.
+Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Toewijzing van CDS-optie** wordt bijgewerkt met de aanvullende records hieronder.
 
 |         Record                 | Optiewaarde   | Bijschrift optiewaarde |
 |--------------------------------|----------------|----------------------|
@@ -120,7 +122,7 @@ Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing
 | **Betalingsvoorwaarden: CONTANTE BETALING**  | **779800001**  | **Contante betaling**     |
 | **Betalingsvoorwaarden: TRANSFER**    | **779800002**  | **Transfer**         |
 
-De tabel **Betalingsvoorwaarden** in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat dan nieuwe records voor de [!INCLUDE[d365fin](includes/cds_long_md.md)]-opties. In de volgende tabel zijn nieuwe opties vetgedrukt. Cursieve rijen vertegenwoordigen alle opties die nu kunnen worden gesynchroniseerd. Resterende rijen vertegenwoordigen opties die niet in gebruik zijn en worden genegeerd tijdens synchronisatie. U kunt ze verwijderen of CDS-opties met dezelfde namen uitbreiden.)
+De tabel **Betalingsvoorwaarden** in [!INCLUDE[prod_short](includes/prod_short.md)] bevat dan nieuwe records voor de [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties. In de volgende tabel zijn nieuwe opties vetgedrukt. Cursieve rijen vertegenwoordigen alle opties die nu kunnen worden gesynchroniseerd. Resterende rijen vertegenwoordigen opties die niet in gebruik zijn en worden genegeerd tijdens synchronisatie. U kunt ze verwijderen of CDS-opties met dezelfde namen uitbreiden.)
 
 | Code       | Vervaldatumberekening | Kortingsdatumberekening | Korting % | Contantkorting op creditnota's berekenen | Omschrijving       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -134,12 +136,13 @@ De tabel **Betalingsvoorwaarden** in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 | 30 DAGEN    | 30D                  |                           | 0.         | ONWAAR                         | Netto 30 dagen       |
 | 60 DAGEN    | 60D                  |                           | 0.         | ONWAAR                         | Netto 60 dagen       |
 | 7 DAGEN     | 7D                   |                           | 0.         | ONWAAR                         | Netto 7 dagen        |
-| ***CONTANTE BETALING*** |                      |                           | 0.         | ONWAAR                         |                   |
+| ***CONTANTE BETALING** |                      |                           | 0.         | ONWAAR                         |                   |
 | LM         | LM                   |                           | 0.         | ONWAAR                         | Lopende maand     |
 | REMBOURS        | 0D                   |                           | 0.         | ONWAAR                         | Rembours  |
-| *NETTO 30*      |                      |                           | 0.         | ONWAAR                         |                   |
+| _NETTO30*      |                      |                           | 0.         | ONWAAR                         |                   |
 | *NETTO45*      |                      |                           | 0.         | ONWAAR                         |                   |
 | *NETTO60*      |                      |                           | 0.         | ONWAAR                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | ONWAAR                         |                   |
 
 ## <a name="see-also"></a>Zie ook
+[De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)

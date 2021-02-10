@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d11bc57066c0124bcb004894ed6b2c9dc4b812e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916230"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754779"
 ---
 # <a name="export-and-import-workflows"></a>Werkstromen exporteren en importeren
-Als u werkstromen wilt overbrengen naar andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-databases, bijvoorbeeld om tijd te besparen wanneer u nieuwe werkstromen maakt, kunt u werkstromen exporteren en importeren.  
+Als u werkstromen wilt overbrengen naar andere [!INCLUDE[prod_short](includes/prod_short.md)]-databases, bijvoorbeeld om tijd te besparen wanneer u nieuwe werkstromen maakt, kunt u werkstromen exporteren en importeren.  
 
  Een andere manier om werkstromen snel te maken is werkstromen te maken van werkstroomsjablonen. Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -26,14 +26,14 @@ Als u werkstromen wilt overbrengen naar andere [!INCLUDE[d365fin](includes/d365f
 
 ## <a name="to-export-a-workflow"></a>Een werkstroom exporteren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2.  Selecteer een werkstroom en kies de actie **Exporteren naar bestand** .  
-3.  Kies op de pagina **Bestand exporteren** de knop **Opslaan** .  
-4.  Selecteer op de pagina **Exporteren** een bestandslocatie en kies vervolgens de knop **Opslaan** .  
+2.  Selecteer een werkstroom en kies de actie **Exporteren naar bestand**.  
+3.  Kies op de pagina **Bestand exporteren** de knop **Opslaan**.  
+4.  Selecteer op de pagina **Exporteren** een bestandslocatie en kies vervolgens de knop **Opslaan**.  
 
 ## <a name="to-import-a-workflow"></a>Een werkstroom importeren  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Importeren uit bestand** .  
-3.  Selecteer op de pagina **Importeren** het XML-bestand dat de werkstroom bevat, en klik vervolgens op **Openen** .  
+2.  Kies de actie **Importeren uit bestand**.  
+3.  Selecteer op de pagina **Importeren** het XML-bestand dat de werkstroom bevat, en klik vervolgens op **Openen**.  
 
 > [!CAUTION]  
 >  Als de werkstroomcode al in de database bestaat, worden de werkstroomstappen overschreven door de stappen in de geïmporteerde werkstroom.  

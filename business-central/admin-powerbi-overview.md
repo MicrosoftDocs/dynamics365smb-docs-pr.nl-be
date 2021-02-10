@@ -11,16 +11,16 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d02740b0f4c73b96be9268cfdf5e4c3de157d5d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23a0c72775dbddc89a81105de3b2ed79d1f09432
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924540"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753782"
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-prodshort"></a>Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]
 
-In dit artikel komt u meer te weten over de verschillende aspecten van de Power BI-integratie met [!INCLUDE[prodshort](includes/prodshort.md)], wat u kan helpen bij de implementatie en het gebruik ervan.
+In dit artikel komt u meer te weten over de verschillende aspecten van de Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)], wat u kan helpen bij de implementatie en het gebruik ervan.
 
 ## <a name="components"></a>Onderdelen
 
@@ -30,39 +30,39 @@ In de volgende tabel worden de belangrijkste onderdelen beschreven die betrokken
 |---------|-----------|
 |Power BI|Een cloudservice voor het hosten en beheren van rapporten.|
 |Power BI Desktop|Een bewerkingsprogramma waarmee u rapporten en dashboards kunt maken en waarmee u ook rapporten kunt uitvoeren. Het programma is beschikbaar als gratis download in de Microsoft Store en wordt lokaal geïnstalleerd.|
-|[!INCLUDE[prodshort](includes/prodshort.md)]|Online- of on-premises oplossing met connectors die beschikbaar zijn voor Power BI en de mogelijkheid om een Power BI-gedeelte in te sluiten.|
+|[!INCLUDE[prod_short](includes/prod_short.md)]|Online- of on-premises oplossing met connectors die beschikbaar zijn voor Power BI en de mogelijkheid om een Power BI-gedeelte in te sluiten.|
 
 ## <a name="whats-available-from-the-start"></a>Wat er vanaf het begin beschikbaar is
 
 In de volgende tabel worden de beschikbare functies beschreven.
 
-|Functie|Ondersteuning voor [!INCLUDE[prodshort](includes/prodshort.md)] online of on-premises|
+|Functie|Ondersteuning voor [!INCLUDE[prod_short](includes/prod_short.md)] online of on-premises|
 |-------|---------------------|
 |Power BI-connectors|Beide. Verschillende connectors voor online en on-premises. Dezelfde connector wordt gebruikt voor Power BI Desktop en de Power BI-service |
-|Ingesloten gedeelte voor het weergeven van een bepaald rapport in een feitenblok in [!INCLUDE[prodshort](includes/prodshort.md)]|Beide. Vereist configuratie om rapporten weer te geven voor on-premises.|
-|Power BI-rapportbeheer vanuit [!INCLUDE[prodshort](includes/prodshort.md)]|Online|
+|Ingesloten gedeelte voor het weergeven van een bepaald rapport in een feitenblok in [!INCLUDE[prod_short](includes/prod_short.md)]|Beide. Vereist configuratie om rapporten weer te geven voor on-premises.|
+|Power BI-rapportbeheer vanuit [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Standaard Power BI-rapporten in rolcentra die zijn geïmplementeerd in Power BI|Online|
 |Power BI-apps in Microsoft AppSource|Online.|
 
 ## <a name="architecture"></a>Architectuur
 
-[!INCLUDE[prodshort](includes/prodshort.md)] kan worden geïntegreerd met Power BI via een connector die OData gebruikt. De gegevensbron voor Power BI-rapporten wordt beschikbaar gemaakt in de vorm van OData-webservices.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan worden geïntegreerd met Power BI via een connector die OData gebruikt. De gegevensbron voor Power BI-rapporten wordt beschikbaar gemaakt in de vorm van OData-webservices.
 
 ![Power BI-architectuur voor integratie met Business Central](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Algemene stroom
 
-In het volgende diagram wordt de basiswerkstroom voor gebruikers getoond wanneer ze [!INCLUDE[prodshort](includes/prodshort.md)] verbinden met Power BI.
+In het volgende diagram wordt de basiswerkstroom voor gebruikers getoond wanneer ze [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met Power BI.
 
 ![Power BI-werkstroom voor integratie met Business Central](./media/power-bi-flow.png)
 
 1. Gebruiker meldt zich aan voor een Power BI-account.
-2. Gebruiker maakt verbinding met Power BI vanuit [!INCLUDE[prodshort](includes/prodshort.md)].
-3. [!INCLUDE[prodshort](includes/prodshort.md)] verifieert de licentie.
-4. [!INCLUDE[prodshort](includes/prodshort.md)] implementeert standaardrapporten in de Power BI-service. Deze stap vindt alleen plaats voor [!INCLUDE[prodshort](includes/prodshort.md)] online.
-5. [!INCLUDE[prodshort](includes/prodshort.md)] maakt rapporten in Power BI beschikbaar voor selectie in [!INCLUDE[prodshort](includes/prodshort.md)]. Standaardrapporten worden automatisch weergegeven in Power BI-gedeeltes.
+2. Gebruiker maakt verbinding met Power BI vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
+3. [!INCLUDE[prod_short](includes/prod_short.md)] verifieert de licentie.
+4. [!INCLUDE[prod_short](includes/prod_short.md)] implementeert standaardrapporten in de Power BI-service. Deze stap vindt alleen plaats voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
+5. [!INCLUDE[prod_short](includes/prod_short.md)] maakt rapporten in Power BI beschikbaar voor selectie in [!INCLUDE[prod_short](includes/prod_short.md)]. Standaardrapporten worden automatisch weergegeven in Power BI-gedeeltes.
 6. Gebruiker maakt een rapport aan in Power BI Desktop.
-7. Gebruiker publiceert het rapport naar de Power BI-service. De rapporten zijn vervolgens beschikbaar voor selectie in [!INCLUDE[prodshort](includes/prodshort.md)].
+7. Gebruiker publiceert het rapport naar de Power BI-service. De rapporten zijn vervolgens beschikbaar voor selectie in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -76,9 +76,9 @@ In het volgende diagram wordt de basiswerkstroom voor gebruikers getoond wanneer
 [Bedrijfsinformatie](bi.md)  
 [Aan de slag](product-get-started.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

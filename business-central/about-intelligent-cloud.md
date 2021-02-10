@@ -10,25 +10,25 @@ ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 28bc5ac96d8a14ba57b4defa0140a065f81b0221
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: a186166e73d4c6dcda01bbda6ac2c88a18b2babb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914601"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753729"
 ---
-# <a name="intelligent-insights-with-prodshort-online"></a>Intelligente inzichten met [!INCLUDE[prodshort](includes/prodshort.md)] Online
+# <a name="intelligent-insights-with-prod_short-online"></a>Intelligente inzichten met [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-Als gebruiker van [!INCLUDE[prodshort](includes/prodshort.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI. Terwijl [!INCLUDE[prodshort](includes/prodshort.md)] echter een cloud-eerst service is, kunnen ook klanten die hun volledige werklast on-premises of op de intelligente rand, verbonden met de cloud, moeten uitvoeren, dat ook doen.  
+Als gebruiker van [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI. Terwijl [!INCLUDE[prod_short](includes/prod_short.md)] echter een cloud-eerst service is, kunnen ook klanten die hun volledige werklast on-premises of op de intelligente rand, verbonden met de cloud, moeten uitvoeren, dat ook doen.  
 
-Als u geïnteresseerd bent in [!INCLUDE[prodshort](includes/prodshort.md)], kunt u zich online aanmelden voor een gratis proefversie of kunt u ervoor kiezen te werken met een partner om [!INCLUDE[prodshort](includes/prodshort.md)] lokaal te implementeren op uw keuze van hardware. Vervolgens kunt u bepalen of u intelligente inzichten wilt door verbinding te maken met een tenant in de cloud. Dientengevolge worden de gegevens uit uw geïmplementeerde [!INCLUDE[prodshort](includes/prodshort.md)] on-premises naar de cloud gerepliceerd voor intelligente cloudscenario's.  
+Als u geïnteresseerd bent in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u zich online aanmelden voor een gratis proefversie of kunt u ervoor kiezen te werken met een partner om [!INCLUDE[prod_short](includes/prod_short.md)] lokaal te implementeren op uw keuze van hardware. Vervolgens kunt u bepalen of u intelligente inzichten wilt door verbinding te maken met een tenant in de cloud. Dientengevolge worden de gegevens uit uw geïmplementeerde [!INCLUDE[prod_short](includes/prod_short.md)] on-premises naar de cloud gerepliceerd voor intelligente cloudscenario's.  
 
-Verbinding maken met de Intelligente cloud vanuit een on-premises oplossing vereist dat uw beheerder informatie over uw database opgeeft. De tools waarmee u uw on-premises implementatie kunt verbinden met [!INCLUDE[prodshort](includes/prodshort.md)] online zijn hetzelfde als die ook worden gebruikt voor migratie van on-premises naar online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prodshort](includes/prodshort.md)].  
+Verbinding maken met de Intelligente cloud vanuit een on-premises oplossing vereist dat uw beheerder informatie over uw database opgeeft. De tools waarmee u uw on-premises implementatie kunt verbinden met [!INCLUDE[prod_short](includes/prod_short.md)] online zijn hetzelfde als die ook worden gebruikt voor migratie van on-premises naar online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Intelligente cloud-inzichten weergeven in [!INCLUDE[prodshort](includes/prodshort.md)] Online
+## <a name="viewing-intelligent-cloud-insights-in-prod_short-online"></a>Intelligente cloud-inzichten weergeven in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-In uw [!INCLUDE[prodshort](includes/prodshort.md)] online-bedrijf bevat de pagina **Intelligente cloud-inzichten** vier belangrijke aandachtspunten voor de meeste bedrijven:
+In uw [!INCLUDE[prod_short](includes/prod_short.md)] online-bedrijf bevat de pagina **Intelligente cloud-inzichten** vier belangrijke aandachtspunten voor de meeste bedrijven:
 
 - Cashbeschikbaarheid
 - Winstgevendheid van verkoop
@@ -44,7 +44,7 @@ De pagina maakt ook verbinding met Power BI voor nog meer inzichten.
 
 ## <a name="viewing-intelligent-insights-on-premises"></a>Intelligente cloud-inzichten on-premises weergeven
 
-Wanneer uw Dynamics 365 doorverkopende partner de juiste licentie heeft verkregen voor uw on-premises oplossing om verbinding met de cloud te maken via [!INCLUDE[prodshort](includes/prodshort.md)], kan uw beheerder de verbinding instellen. Als dat is gebeurd, kunt u dezelfde inzichten uit de cloud weergeven in uw on-premises toepassing Afhankelijk van de on-premises oplossing kan de pagina **Intelligente cloud-inzichten** in de homepage worden ingesloten of een aparte pagina zijn, zoals in [!INCLUDE[prodshort](includes/prodshort.md)] online en on-premises.  
+Wanneer uw Dynamics 365 doorverkopende partner de juiste licentie heeft verkregen voor uw on-premises oplossing om verbinding met de cloud te maken via [!INCLUDE[prod_short](includes/prod_short.md)], kan uw beheerder de verbinding instellen. Als dat is gebeurd, kunt u dezelfde inzichten uit de cloud weergeven in uw on-premises toepassing Afhankelijk van de on-premises oplossing kan de pagina **Intelligente cloud-inzichten** in de homepage worden ingesloten of een aparte pagina zijn, zoals in [!INCLUDE[prod_short](includes/prod_short.md)] online en on-premises.  
 
 ## <a name="see-also"></a>Zie ook
 

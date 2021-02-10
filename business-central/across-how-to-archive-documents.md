@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919600"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754879"
 ---
 # <a name="archive-documents"></a>Documenten archiveren
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten comprimeren, bijvoorbeeld omdat u een kopie van een document voor hergebruik later wilt opslaan. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.
 
 Voor gearchiveerde documenten waarvan het origineel nog bestaat en niet is geboekt, kunt u de functie **Herstellen** gebruiken om het origineel te overschrijven met de gearchiveerde versie van het document. Dit is handig als u de inhoud van een document naar een eerdere status moet herstellen.
 
-Voor gearchiveerde documenten waarvan het origineel is verwijderd, kunt u de inhoud alleen opnieuw gebruiken door de gegevens te kopiëren, bijvoorbeeld met de functie **Kopiëren uit document** .   
+Voor gearchiveerde documenten waarvan het origineel is verwijderd, kunt u de inhoud alleen opnieuw gebruiken door de gegevens te kopiëren, bijvoorbeeld met de functie **Kopiëren uit document**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Automatische documentarchivering instellen  
 U kunt automatische archivering van verkoop- en inkooporders, offertes, raamcontracten en retourorders instellen voordat u documenten verwijdert.
@@ -42,15 +42,15 @@ In de volgende procedure wordt beschreven hoe u een verkooporder archiveert. De 
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Open een verkooporder die u wilt archiveren.  
-3.  Kies de actie **Document archiveren** .
+3.  Kies de actie **Document archiveren**.
 
-De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders** .
+De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**.
 
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Een niet-geboekte verkooporder vanuit het archief herstellen
 In de volgende procedure wordt beschreven hoe de inhoud van een gearchiveerde verkooporder terug wordt gebracht tot de oorspronkelijke verkooporder. Dit kan alleen als het oorspronkelijke document niet is geboekt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearchiveerde verkooporders** in en kies de gerelateerde koppeling.
-2. Selecteer de gearchiveerde verkooporder of versie ervan die u wilt herstellen en kies vervolgens de actie **Herstellen** .  
+2. Selecteer de gearchiveerde verkooporder of versie ervan die u wilt herstellen en kies vervolgens de actie **Herstellen**.  
 
 De inhoud van de oorspronkelijke verkooporder wordt vervangen door die van de geselecteerde gearchiveerde versie.
 
@@ -59,10 +59,10 @@ In de volgende procedure wordt beschreven hoe gearchiveerde verkooporders verwij
 
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gearch. verk.-orderversies verwijderen** in en kies de gerelateerde koppeling.  
 2.  Selecteer op de pagina **Gearch. verk.-orderversies verwijderen** de gewenste filters.  
-3.  Kies de knop **OK** .
+3.  Kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook
 [Documentregels traceren](across-how-to-track-document-lines.md)  
 [Verkoop](sales-manage-sales.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
