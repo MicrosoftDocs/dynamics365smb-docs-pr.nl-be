@@ -5,7 +5,7 @@
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Leren
 ### [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central op Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
+### [Business Central op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procedures voor bedrijfsprocessen
 #### [Beschikbare procedures](walkthrough-business-process-walkthroughs.md)
 #### [Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)
@@ -101,13 +101,17 @@
 ### [Business Central instellen](setup.md)
 ### Financiën instellen
 #### [Financiën instellen](finance-setup-finance.md)
-#### [Betalingsmethoden definiëren](finance-payment-methods.md)
+#### [Betalingsmethoden instellen](finance-payment-methods.md)
+#### [Betalingsvoorwaarden instellen](finance-payment-terms.md)
 #### [Boekingsgroepen instellen](finance-posting-groups.md)
 #### [Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)
+#### [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)
+#### [Rentefactuurcondities instellen](finance-setup-finance-charges.md)
 #### [Btw instellen](finance-setup-vat.md)
 #### [Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)
+#### [Btw-nummers valideren.](finance-how-validate-vat-registration-number.md)
 #### [Broncodes en redencodes instellen voor audittrails](finance-setup-trail-codes.md)
 #### [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)
@@ -190,6 +194,7 @@
 #### [Productiestuklijsten maken](production-how-to-create-production-boms.md)
 #### [Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen](production-how-to-flush-components-according-to-operation-output.md)
 #### [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Omgaan met lotgroottes in productie](production-handling-lot-sizes.md)
 #### [Werken met productfamilies](production-how-work-family.md)
 #### [Standaardbewerkingsplanregels instellen](production-how-set-up-standard-routing-lines.md)
 #### [Productie uitbesteden](production-how-to-subcontract-manufacturing.md)
@@ -238,11 +243,13 @@
 #### [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)
 #### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Business Central gebruiken met Outlook](admin-no-outlook.md)
-### Microsoft Teams-integratie
+### Microsoft Teams gebruiken met Business Central
 #### [Overzicht](across-teams-overview.md)
 #### [Teams-integratie beheren](admin-teams-integration.md)
 #### [Business Central-app voor teams installeren](across-install-app-for-teams.md)
 #### [Werken met Business Central-gegevens in Teams](across-working-with-teams.md)
+#### [Veelgestelde vragen over Teams](teams-faq.md)
+#### [Problemen oplossen](admin-teams-troubleshooting.md)
 ### Power BI gebruiken met Business Central
 #### [Inleiding](admin-powerbi.md)
 #### Beheerder
@@ -266,14 +273,18 @@
 ### [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)
 ### [E-mail instellen](admin-how-setup-email.md)
 ### [Nummerreeksen maken](ui-create-number-series.md)
+### [Rapportselectie](across-report-selections.md)
 ### [Basisagenda's instellen](across-how-to-assign-base-calendars.md)
-<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Veelgestelde vragen
-### [Algemeen gestelde vragen](across-faq.md)
+### [Veelgestelde vragen](across-faq.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)
 ### [Veelgestelde vragen over lijstweergaven](ui-views-faq.md)
+### [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)
+### [Veelgestelde vragen over mobiele apps](ui-mobile-faq.md)
+### [Veelgestelde vragen over Teams](teams-faq.md)
+### [Veelgestelde vragen over elektronische facturering](faq-electronic-invoicing.yml)
 ### [Minimumbehoeften](product-requirements.md)
 
 ## Help en ondersteuning
@@ -282,7 +293,7 @@
 ### [Bezoek onze videobibliotheek](across-videos.md)
 ### [Technische ondersteuning](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
@@ -304,7 +315,7 @@
 ## [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
 ## [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)
 ## [Gegevens invoeren](ui-enter-data.md)
-## [Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md)
+## [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)
 ## [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)
 ## [Verplichte velden detecteren](ui-mandatory-fields.md)
 ## [Taal en regio wijzigen](about-locale-language.md)
@@ -381,7 +392,7 @@
 ##### [Werkstromen instellen](across-set-up-workflows.md)
 ##### [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)
 ##### [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)
-##### [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)
+##### [Werkstroomberichten](across-setting-up-workflow-notifications.md)
 ##### [Opgeven wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)
 ##### [E-mail instellen](admin-how-setup-email.md)
@@ -389,7 +400,6 @@
 ##### [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)
 ##### [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-##### [Procedure: Nieuwe werkstroomgebeurtenissen en -reacties implementeren](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Werkstromen gebruiken
 ##### [Werkstromen gebruiken](across-use-workflows.md)
 ##### [Werkstromen inschakelen](across-how-to-enable-workflows.md)
@@ -439,17 +449,16 @@
 #### [Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)
 #### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
-#### [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Klanten blokkeren](receivables-how-block-customers.md)
-#### [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md)
 
 ### Betalingsverplichtingen beheren
 #### [Overzicht van crediteuren](payables-manage-payables.md)
 #### Betalingen uitvoeren
-#### [Betalingsoverzicht](payables-make-payments.md)
-##### [Werken met diversendagboeken](ui-work-general-journals.md)
+##### [Betalingen uitvoeren](payables-make-payments.md)
+##### [Werken met dagboeken](ui-work-general-journals.md)
 ##### [Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)
 ##### [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md)
 ##### [Chequebetalingen doen](payables-how-work-checks.md)
@@ -486,6 +495,7 @@
 #### [Intercompany instellen](intercompany-how-setup.md)
 #### [Werken met intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md)
 #### [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md)
+#### [Kosten toewijzen aan intercompany-partners](intercompany-allocate-costs.md)
 
 ### Kosten verantwoorden
 #### [Overzicht van kostprijsboekhouding](finance-manage-cost-accounting.md)
@@ -500,6 +510,7 @@
 ### Voorraadkosten beheren
 #### [Overzicht van voorraadwaardering](finance-manage-inventory-costs.md)
 #### [Over voorraadwaardering](finance-learn-about-costing.md)
+#### [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 #### [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)
 #### [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)
 #### [Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)
@@ -510,10 +521,7 @@
 #### [Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)
 #### [Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Kosten rapporteren en afstemmen met het grootboek
-##### [Rapportage van kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)
+#### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
 ### Afsluitingsjaren en -perioden
 #### [Overzicht van jaarafsluiting](year-close-years-periods.md)
@@ -538,7 +546,6 @@
 ### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 ### [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)
 ### [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)
-### [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 ### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
 ### [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)
 ### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
@@ -562,7 +569,6 @@
 ### [Analyselijsten maken](bi-how-create-analysis-views-reports.md)
 ### [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)
 ### [Databasetoegangsintentie beheren](admin-data-access-intent.md)
-<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## Verkoop
 ### [Verkoopoverzicht](sales-manage-sales.md)
@@ -577,14 +583,13 @@
 ### [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)
 ### [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)
 ### [Speciale orders maken:](sales-how-to-create-special-orders.md)
-### [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)
 ### [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)
+### [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)
 ### [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)
 ### [Verzendingen combineren op één factuur](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)
 ### [Pakketten traceren](sales-how-track-packages.md)
 ### [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)
-### [Een prognose maken](production-how-to-create-a-forecast.md)
 ### [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)
 ### [Werken met periodieke inkomsten](finance-recurring-invoicing.md)
 
@@ -624,7 +629,7 @@
 ## Projectbeheer
 ### [Overzicht van projectbeheer](projects-manage-projects.md)
 ### [Projecten maken](projects-how-create-jobs.md)
-## [Resources gebruiken voor projecten](projects-how-use-resources.md)
+### [Resources gebruiken voor projecten](projects-how-use-resources.md)
 ### [Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md)
 ### [Projectbudgetten maken](projects-how-manage-budgets.md)
 ### [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md)
@@ -923,16 +928,19 @@
 #### Bankieren en betalingen
 ##### [Bankfunctie](LocalFunctionality/Czech/bank-feature.md)
 ##### [Kasbeheer](LocalFunctionality/Czech/cash-desk-management.md)
+##### [Lokalisatie van kas voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registratie van verkoop (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Geavanceerd](LocalFunctionality/Czech/advances.md)
 #### Schulden en tegoeden
 ##### [Schulden en tegoeden](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Lokalisatie van compensaties voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Voorraad
 ##### [Voorraad](LocalFunctionality/Czech/inventory.md)
 #### Alge&meen
 ##### [Uitgebreide gebruikerscontrole](LocalFunctionality/Czech/general.md)
 ##### [Aanbevolen procedures](LocalFunctionality/Czech/best-practices.md)
+##### [Kernlokalisatiepakket voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1114,7 +1122,7 @@
 ###### [GST-reconciliatie](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [Aanpassing van GST-inputkrediet](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [GST-vereffening](LocalFunctionality/India/GST-Settelement.md)
+###### [Btw-vereffening](LocalFunctionality/India/GST-Settelement.md)
 #### TDS
 ##### [TDS-overzicht](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-transacties](LocalFunctionality/India/TDS-Transactions.md)
@@ -1592,12 +1600,12 @@
 #### [Business Central-extensies van andere providers](ui-extensions-other.md)
 ## Integreren met Dynamics 365 Sales
 ### [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Integreren met Common Data Service
-### [Integreren met Common Data Service](admin-common-data-service.md)
+## Integreren met Microsoft Dataverse
+### [Integreren met Microsoft Dataverse](admin-common-data-service.md)
 ### [Modellen voor gegevenseigendom](admin-cds-company-concept.md)
-### [Gebruikersaccounts instellen voor integratie met Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
-### [Verbinding maken met Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Business Central en Common Data Service synchroniseren](admin-synchronizing-business-central-and-sales.md)
+### [Gebruikersaccounts instellen voor integratie met Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Verbinding maken met Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Business Central en Microsoft Dataverse synchroniseren](admin-synchronizing-business-central-and-sales.md)
 ### [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
