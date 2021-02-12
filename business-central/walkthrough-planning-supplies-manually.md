@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918475"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035643"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u de pagina **Orderplanning** , een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
+In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u de pagina **Orderplanning**, een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
  In deze procedure worden de volgende taken beschreven:  
@@ -38,10 +38,10 @@ In het volgende overzicht ziet u het proces voor het plannen van voorraadorders 
 -   Verkooporderverwerker  
 
 ## <a name="prerequisites"></a>Vereisten  
- Voordat u met dit scenario begint, moet u de [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren. Breng de volgende wijzigingen aan in de database:  
+ Voordat u met dit scenario begint, moet u de [!INCLUDE[prod_short](includes/prod_short.md)] installeren. Breng de volgende wijzigingen aan in de database:  
 
 -   Verwijder alle bestaande verkooporders voor fietsen.  
--   Maak één verkooporder voor 10 fietsen op de locatie BLAUW.  
+-   Maak één verkooporder voor 10 fietsen op de locatie OOST.  
 -   Verwijder alle geplande en vast geplande productieorders. Verwijder geen gestarte orders met posten die al zijn geboekt.  
 
  Gebruik als algemene regel de voorgestelde gegevens uit deze procedure aangezien deze gegevens de benodigde records bevatten.  
@@ -71,7 +71,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Als de pagina **Orderplanning** voor het eerst wordt geopend, moet er een planning worden berekend om de nieuwe vraag weer te geven sinds deze voor het laatst is berekend.  
 
-2.  Kies de actie **Plan berekenen** .  
+2.  Kies de actie **Plan berekenen**.  
 
      Het planningssysteem analyseert de nieuwe vraag die is geïntroduceerd, zoals nieuwe of gewijzigde verkoop- of productieorders.  
 
@@ -83,7 +83,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      U ziet dat CRONUS diverse orders heeft met niet-afgehandelde vraag. Elke vette planningsregel geeft een order weer, verkoop of productie, met inbegrip van ten minste één orderregel met onvoldoende beschikbaarheid.  
 
-4.  Selecteer in het veld **Vraag weergeven als** het filter **Alle vraag** .  
+4.  Selecteer in het veld **Vraag weergeven als** het filter **Alle vraag**.  
 
      In het veld **Soort vraag** kunt u kiezen welke soorten orders u wilt weergeven.  
 
@@ -95,9 +95,9 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 ### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Een inkooporder plannen om te voldoen aan de onderdelenbehoefte voor de productie  
 
 1.  Vouw de eerste regel uit (klik op het symbool +).  
-2.  Kies de eerste vraagregel met, artikel, **LSU-15** en kies de actie **Document weergeven** .  
-3.  Sluit de geopende productieorder om terug te keren naar de pagina **Orderplanning** .  
-4.  Selecteer **Inkoop** in het veld **Aanvullingsmethode** .  
+2.  Kies de eerste vraagregel met, artikel, **LSU-15** en kies de actie **Document weergeven**.  
+3.  Sluit de geopende productieorder om terug te keren naar de pagina **Orderplanning**.  
+4.  Selecteer **Inkoop** in het veld **Aanvullingsmethode**.  
 
      De standaardwaarde komt van de artikelkaart (of SKU-kaart), maar u kunt dit wijzigen in een van de volgende opties:  
 
@@ -115,16 +115,16 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
     > [!NOTE]  
     >  Als voor de onderdelen een standaardleveranciernummer is ingesteld op de artikelkaarten, zijn de regels vooraf ingevuld.  
 
-6.  Kies het veld **Aanleveren van** .  
-7.  Kies op de pagina **Artikelleveranciers** de actie **Nieuw** en selecteer leverancier **30000** .  
-8.  Kies de knop **OK** om terug te gaan naar de pagina **Orderplanning** .  
+6.  Kies het veld **Aanleveren van**.  
+7.  Kies op de pagina **Artikelleveranciers** de actie **Nieuw** en selecteer leverancier **30000**.  
+8.  Kies de knop **OK** om terug te gaan naar de pagina **Orderplanning**.  
 9. Kopieer leveranciernummer **30000** naar de overige regels voor luidsprekeronderdelen in deze productieorder.  
 
      U kunt nu een inkooporder gaan maken.  
 
-10. Kies de actie **Orders maken** . De pagina **Orders voor voorzieningen maken** wordt geopend.  
-11. Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order** .  
-12. Kies op het sneltabblad **Opties** in het veld **Inkooporder maken** de optie **Inkooporders maken** .  
+10. Kies de actie **Orders maken**. De pagina **Orders voor voorzieningen maken** wordt geopend.  
+11. Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order**.  
+12. Kies op het sneltabblad **Opties** in het veld **Inkooporder maken** de optie **Inkooporders maken**.  
 13. Klik op **OK** om inkooporders te maken voor alle onderdelen van de order.  
 
      De inkooporders worden gemaakt en opgeslagen als de laatste orders in de lijst met inkooporders.  
@@ -134,12 +134,12 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
 ### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Een transferorder plannen om aan de verkoopvraag te voldoen  
 
-1.  Verplaats de aanwijzer naar de planningsregel voor ordernummer **2008** .  
+1.  Verplaats de aanwijzer naar de planningsregel voor ordernummer **2008**.  
 2.  Vouw de regel uit en verplaats de aanwijzer naar de vraagregel.  
 
      Verkooporder **2008 betreft** tien luidsprekers van het type **LS-120** die zijn besteld door John Haddock Insurance Co.  
 
-     Voor het artikel is het aanvulsysteem geselecteerd en de standaardleverancier wordt weergegeven.  
+     Het voor het artikel gedefinieerde aanvulsysteem en de standaardleverancier worden weergegeven.  
 
     > [!NOTE]  
     >  Onder aan de pagina staan vier informatievelden. In het veld **Vroegste beschikbaarheidsdatum** zijn de tien stuks die nodig zijn, beschikbaar via een inkomende voorraadorder, maar pas negen dagen na de huidige vervaldatum. Als dat te laat is voor de klant, bevat het veld **Beschikbaar voor transfer** 13 stuks van het artikel op een andere locatie. U gaat voor deze voorraad een planning maken.  
@@ -148,11 +148,11 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 4.  Klik op **OK** om de tien beschikbare artikelen te boeken.  
 
     > [!NOTE]  
-    >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie GROEN. Met de functie **Orders maken** maakt u een transferorder van GROEN naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
+    >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie HOOFD. Met de functie **Orders maken** maakt u een transferorder van HOOFD naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
 
-5.  Kies de actie **Orders maken** . De pagina **Orders voor voorzieningen maken** wordt geopend.  
-6.  Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order** .  
-7.  Selecteer op het sneltabblad **Opties** in het veld **Transferorder maken** de optie **Transferorders maken** .  
+5.  Kies de actie **Orders maken**. De pagina **Orders voor voorzieningen maken** wordt geopend.  
+6.  Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order**.  
+7.  Selecteer op het sneltabblad **Opties** in het veld **Transferorder maken** de optie **Transferorders maken**.  
 8.  Klik op **OK** om de transferorder te maken om te voldoen aan de verkooporder.  
 
      De transferorder is nu gemaakt en in de lijst opgeslagen als de laatste order in de lijst met open transferorders.  
@@ -167,13 +167,13 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
      Deze vraag is een verkoopregel maar voor het artikel is het aanvulsysteem **Prod.-order** gedefinieerd. Voeg een tweede bel toe aan de onderdelenlijst voor elke fiets.  
 
 2.  Kies de actie **Materialen** om de pagina **Planningsmaterialen** te openen.  
-3.  Wijzig in de regel voor de fietsbel het veld **Aantal per** van **1** in **2** .  
+3.  Wijzig in de regel voor de fietsbel het veld **Aantal per** van **1** in **2**.  
 4.  Bekijk op de pagina **Orderplanning** de planningsalternatieven. In dit geval zijn er geen alternatieve leveringsmethoden, geen transfer, geen vervangend artikel en geen latere levering. U moet de voorgestelde voorzieningsorder, een productieorder, maken.  
 5.  Kies de actie **Orders maken** om de productieorder te maken.  
 
      U ziet dat op de pagina **Orderplanning** de planningsregel voor verkooporder **1001** niet meer bestaat en dat aan de eerste verkoopvraag is voldaan.  
 
-6.  Sluit de pagina **Orderplanning** .  
+6.  Sluit de pagina **Orderplanning**.  
 
      U zou nu in deze weergave kunnen blijven om alle planningstaken te voltooien. In plaats daarvan neemt u nu de rol van de productieplanner op en gaat u naar de zojuist gemaakte productieorder om de pagina **Orderplanning** te openen.  
 
@@ -181,13 +181,13 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
 ### <a name="to-plan-a-specific-production-order"></a>Een specifieke productieorder plannen  
 
-1.  Open de productieorder **101001** (voor tien fietsen) die u hebt gemaakt met de functie **Orders maken** .  
+1.  Open de productieorder **101001** (voor tien fietsen) die u hebt gemaakt met de functie **Orders maken**.  
 2.  Open de pagina **Prod.-ordermaterialen** om te controleren of de extra bel wordt weergegeven op de productieorder.  
-3.  Kies de actie **Planning** .  
+3.  Kies de actie **Planning**.  
 
      De pagina **Orderplanning** wordt geopend in een weergave die altijd wordt gefilterd op de specifieke productievraag. De verkoopvraag wordt niet weergegeven. U moet eerst een planning berekenen voordat een nieuwe vraag wordt weergegeven.  
 
-4.  Kies de actie **Plan berekenen** .  
+4.  Kies de actie **Plan berekenen**.  
 
      U ziet dat er vier nieuwe productieorders verschijnen voor de niet-geplande productievraag op basis van order **101001.** De nieuwe regels geven de nieuwe productievraag weer voor de subassemblages die moeten worden gemaakt om de order te produceren.  
 
@@ -201,9 +201,9 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      De standaardinstellingen voor aanvulling zijn al ingevuld en u kunt de orders gaan maken.  
 
-6.  Kies de actie **Orders maken** .  
+6.  Kies de actie **Orders maken**.  
 
-     Lees, voordat u de knop **OK** kiest, de tekst op het sneltabblad **Orderplanning** . Deze tekst is belangrijk omdat u weet dat de productstructuur van de fiets een aantal geproduceerde onderdelen (subassemblages) bevat die in de vraag worden opgenomen wanneer u deze productieorder maakt.  
+     Lees, voordat u de knop **OK** kiest, de tekst op het sneltabblad **Orderplanning**. Deze tekst is belangrijk omdat u weet dat de productstructuur van de fiets een aantal geproduceerde onderdelen (subassemblages) bevat die in de vraag worden opgenomen wanneer u deze productieorder maakt.  
 
 7.  Kies op de pagina **Orders voor voorzieningen maken** in het veld **Orders maken voor** de optie **Alle regels** en kies vervolgens de knop **OK** om productieorders te maken voor het tweede productniveau van de order.  
 
@@ -219,9 +219,9 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Het voorgestelde voorzieningsplan geeft aan dat er in totaal vier inkooporders worden gemaakt voor de onderdelen. U besluit de voorgestelde orders te maken.  
 
-10. Kies de actie **Orders maken** .  
-11. Selecteer in het veld **Orders maken voor** de optie **Alle regels** en kies vervolgens de knop **OK** . Controleer of er een aanvullende vraag bestaat voor de productie van het hoofdartikel, de fiets (verkocht op verkooporder 1001).  
-12. Kies de actie **Plan berekenen** .  
+10. Kies de actie **Orders maken**.  
+11. Selecteer in het veld **Orders maken voor** de optie **Alle regels** en kies vervolgens de knop **OK**. Controleer of er een aanvullende vraag bestaat voor de productie van het hoofdartikel, de fiets (verkocht op verkooporder 1001).  
+12. Kies de actie **Plan berekenen**.  
 
      Het bericht geeft aan dat nu in alle vereiste artikelen is voorzien. Controleer de vast gepland productieorders die worden gemaakt.  
 

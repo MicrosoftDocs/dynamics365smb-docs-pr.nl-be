@@ -1,6 +1,6 @@
 ---
-title: Taken toewijzen en beheren | Microsoft Docs
-description: Meer informatie over het toekennen van taken aan gebruikers, zoals uw accountant, in Business Central
+title: Taken toewijzen en beheren
+description: Leer hoe u taken toewijst aan gebruikers, inclusief uw accountant, in Business Central, en hoe u taken ophaalt en voltooit.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922629"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068394"
 ---
 # <a name="define-user-tasks"></a>Gebruikerstaken definiëren
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u taken maken die u helpen herinneren aan werk dat moet worden uitgevoerd. U kunt taken maken voor uzelf maken, maar u kunt ook taken aan anderen toewijzen of een andere taak krijgen toegewezen door iemand anders in uw organisatie.  
 
 ## <a name="managing-user-tasks"></a>Gebruikerstaken beheren
 
-De pagina **Gebruikerstaken** bevat alle taken en u kunt gemakkelijk nieuwe taken maken en toewijzen. Wanneer u een taak maakt, kunt u de begindatum en einddatum opgeven, en u kunt in [!INCLUDE[d365fin](includes/d365fin_md.md)] een koppeling toevoegen naar de pagina of het rapport waar de gebruiker de taak moet uitvoeren.  
+De pagina **Gebruikerstaken** bevat alle taken en u kunt gemakkelijk nieuwe taken maken en toewijzen. Wanneer u een taak maakt, kunt u de begindatum en einddatum opgeven, en u kunt in [!INCLUDE[prod_short](includes/prod_short.md)] een koppeling toevoegen naar de pagina of het rapport waar de gebruiker de taak moet uitvoeren.  
 
-U kunt bijvoorbeeld u een taak voor uzelf of een collega maken om alle geboekte verkoopfacturen te bekijken. In dat geval koppelt u de taak een pagina 143, **Geboekte verkoopfacturen** . In de volgende schermafbeelding maakt iemand een taak voor MeganB om de geboekte verkoopfacturen te bekijken.  
+U kunt bijvoorbeeld u een taak voor uzelf of een collega maken om alle geboekte verkoopfacturen te bekijken. In dat geval koppelt u de taak een pagina 143, **Geboekte verkoopfacturen**. In de volgende schermafbeelding maakt iemand een taak voor MeganB om de geboekte verkoopfacturen te bekijken.  
 
 :::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Voorbeeld van een gebruikerstaak":::
 
@@ -47,4 +47,4 @@ Als u met een bulkbewerking alle of bepaalde gebruikerstaken wilt verwijderen, k
 ## <a name="see-also"></a>Zie ook
 
 [Zoeken naar een pagina of rapport](ui-search.md)  
-[Accountantervaringen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Accountantervaringen binnen [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

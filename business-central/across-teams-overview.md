@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 01/08/2021
 ms.author: jswymer
-ms.openlocfilehash: c63746dae80703eb332dfc3156acb630b39f2ed3
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: b3aea433c732ad10d0ca3c4250cce920afd1bfc2
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989397"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046518"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is een Microsoft 365-product waarmee u mensen met wie u werkt, kunt ontmoeten en met ze kunt chatten, bellen en samenwerken. [!INCLUDE [prodshort](includes/prodshort.md)] biedt een app die Microsoft Teams verbindt met uw bedrijfsgegevens in [!INCLUDE [prodshort](includes/prodshort.md)], zodat u snel details met teamleden kunt delen en sneller op vragen kunt reageren.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is een Microsoft 365-product waarmee u verbinding maakt met anderen, naadloos samenwerkt en werk vereenvoudigt. [!INCLUDE [prod_short](includes/prod_short.md)] biedt een app die Microsoft Teams verbindt met uw bedrijfsgegevens in [!INCLUDE [prod_short](includes/prod_short.md)], zodat u snel details met teamleden kunt delen en sneller op vragen kunt reageren.
 
 ## <a name="overview"></a>Overzicht
 
-Met de [!INCLUDE [prodshort](includes/prodshort.md)]-app kunt u:
+Met de [!INCLUDE [prod_short](includes/prod_short.md)]-app kunt u:
 
-- Een koppeling kopiëren naar een Business Central-record en plakken in een Teams-gesprek om met uw collega's te delen. De koppeling wordt uitgebreid tot een compacte, interactieve kaart die informatie over de record weergeeft.
+- Een koppeling naar een Business Central-record kopiëren en plakken in een Teams-gesprek om met uw collega's te delen. De app breidt de koppeling dan uit tot een compacte, interactieve kaart die informatie over de record weergeeft.
 - Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen zonder Teams te verlaten.
 
 [![Teams-integratie met Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
@@ -36,12 +36,13 @@ De app is beschikbaar op de Teams-marktplaats en u kunt deze gebruiken met de we
 
 ## <a name="get-started"></a>Aan de slag
 
-1. Zie als beheerder [Microsoft Teams-integratie met Business Central beheren](admin-teams-integration.md) voor informatie over het instellen van gebruikers om te werken met [!INCLUDE [prodshort](includes/prodshort.md)] en Teams.
-2. [!INCLUDE [prodshort](includes/prodshort.md)]-app installeren in Teams. Zie [De [!INCLUDE [prodshort](includes/prodshort.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).
+1. Zie als beheerder [Microsoft Teams-integratie met Business Central beheren](admin-teams-integration.md) voor informatie over het instellen van gebruikers om te werken met [!INCLUDE [prod_short](includes/prod_short.md)] en Teams.
+2. [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren in Teams. Zie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).
 3. Zodra de app is geïnstalleerd, bent u klaar om te beginnen. Zie [Werken met Business Central-gegevens in Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Zie ook
 
+[Veelgestelde vragen over Teams](teams-faq.md)  
+[Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Aan de slag](product-get-started.md)  
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

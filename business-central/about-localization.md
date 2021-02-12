@@ -1,6 +1,6 @@
 ---
-title: Lokale functionaliteit in Business Central | Microsoft Docs
-description: Meer informatie over de beschikbaarheid en wettelijke naleving van Dynamics 365 Business Central.
+title: Lokale functionaliteit in Business Central
+description: Lees meer over de lokale beschikbaarheid en naleving van regelgeving van Business Central voor de landen/regio's waar Microsoft de lokale functionaliteit biedt.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cce4a885fd4b183149e2d072daf556bdbe0e5fca
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914538"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068420"
 ---
-# <a name="local-functionality-in-prodlong"></a>Lokale functionaliteit in [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prod_long"></a>Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
+[!INCLUDE[prod_short](includes/prod_short.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
 
 Zie voor een lijst van momenteel ondersteunde markten [Beschikbaarheid in landen en regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -55,7 +55,7 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de 
 
 ### <a name="other-countries"></a>Andere landen/regio's
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[prod_short](includes/prod_short.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Zie ook
 

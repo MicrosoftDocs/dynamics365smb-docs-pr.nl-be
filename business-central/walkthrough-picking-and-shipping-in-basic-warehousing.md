@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918501"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035768"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.  
 
 |Methode|Inkomend proces|Opslaglocaties|Magazijnpicks|Verzendingen|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen uitgaande processen voor p
 Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md).  
 
 De volgende procedure geeft methode B in de vorige tabel weer.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
@@ -46,6 +49,9 @@ In deze procedure worden de volgende taken gedemonstreerd:
 - Een voorraadpick maken op basis van een vrijgegeven brondocument.  
 - De magazijnverplaatsing van het magazijn vastleggen en tegelijkertijd de verkoopverzending voor de bronverkooporder boeken.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Rollen
 
 In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:  
@@ -58,13 +64,13 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 
 U moet het volgende doen om deze procedure uit te voeren:  
 
-- Voor [!INCLUDE[prodshort](includes/prodshort.md)] online, een bedrijf gebaseerd op de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** in een sandboxomgeving. Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. geïnstalleerd.  
+- Voor [!INCLUDE[prod_short](includes/prod_short.md)] online, een bedrijf gebaseerd op de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** in een sandboxomgeving. Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS International Ltd. geïnstalleerd.  
 - Maak van uzelf een magazijnwerknemer bij de vestiging ZILVER door de volgende stappen uit te voeren:  
 
   1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
-  2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers** .  
+  2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
   3. Voer ZILVER in het veld **Vestiging** in.  
-  4. Selecteer het veld **Standaard** .  
+  4. Selecteer het veld **Standaard**.  
 
 - Maak artikel LS-81 beschikbaar op locatie ZILVER door deze stappen te volgen:  
 
@@ -76,11 +82,11 @@ U moet het volgende doen om deze procedure uit te voeren:
         |Pos. correctie|LS-81|ZILVER|S-01-0001|20|  
         |Pos. correctie|LS-81|ZILVER|S-01-0002|20|  
 
-  3. Kies de actie **Boeken** en selecteer de knop **Ja** .  
+  3. Kies de actie **Boeken** en selecteer de knop **Ja**.  
 
 ## <a name="story"></a>Scenario
 
-Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick** , dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
+Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
 
 ## <a name="setting-up-the-location"></a>De locatie instellen
 
@@ -99,7 +105,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** .  
+2. Kies de actie **Nieuw**.  
 3. Maak een verkooporder voor klant 10000 op 23 januari (werkdatum) met de volgende verkooporderregel.  
 
     |Artikel|Vestiging|Aantal|  
@@ -108,7 +114,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 
      Ga door om het magazijn te informeren dat de verkooporder klaar is voor magazijnverwerking.  
 
-4. Kies de actie **Vrijgeven** .  
+4. Kies de actie **Vrijgeven**.  
 
     John gaat door met het picken en verzenden van de verkochte artikelen.  
 
@@ -119,17 +125,17 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 ### <a name="to-pick-and-ship-items"></a>U kunt als volgt artikels picken en verzenden
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies de desbetreffende koppeling.  
-2. Kies de actie **Nieuw** .  
+2. Kies de actie **Nieuw**.  
 
     Zorg ervoor dat het veld **Nee.** op het sneltabblad **Algemeen** is ingevuld.
-3. Selecteer het veld **Brondocument** en selecteer vervolgens **Verkooporder** .  
-4. Selecteer het veld **Bronnr.** , selecteer de regel voor de verkoop aan klant 10000, en kies vervolgens de knop **OK** .  
+3. Selecteer het veld **Brondocument** en selecteer vervolgens **Verkooporder**.  
+4. Selecteer het veld **Bronnr.**, selecteer de regel voor de verkoop aan klant 10000, en kies vervolgens de knop **OK**.  
 
     U kunt ook de actie **Brondocument ophalen** kiezen en de verkooporder kiezen.  
-5. Kies de actie **Te verwerken aantal autom. invullen** .  
+5. Kies de actie **Te verwerken aantal autom. invullen**.  
 
     Of voer in het veld **Te verwerken aantal** respectievelijk 10 en 20 in op de twee voorraadpickregels.  
-6. Kies de actie **Boeken** , selecteer **Verzenden** en kies de knop **OK** .  
+6. Kies de actie **Boeken**, selecteer **Verzenden** en kies de knop **OK**.  
 
     Nu zijn de 30 luidsprekers geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
 
@@ -143,4 +149,4 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 [Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
