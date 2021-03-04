@@ -63,3 +63,6 @@ U kunt serviceschappen instellen om de opslaglocatie van uw serviceartikelen aan
 ## <a name="see-also"></a>Zie ook
 [Codes voor standaardservices instellen](service-how-setup-service-coding.md)   
 [Troubleshooting instellen](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

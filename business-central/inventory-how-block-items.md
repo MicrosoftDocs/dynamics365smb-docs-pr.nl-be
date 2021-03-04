@@ -48,3 +48,6 @@ Wanneer u de functie **Kopiëren uit document** gebruikt om nieuwe documenten te
 ## <a name="see-also"></a>Zie ook  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

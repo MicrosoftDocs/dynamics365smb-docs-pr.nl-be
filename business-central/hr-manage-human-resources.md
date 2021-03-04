@@ -37,3 +37,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)        
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

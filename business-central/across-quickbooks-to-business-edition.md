@@ -37,3 +37,6 @@ Als u klaar bent om nu aan de slag te gaan, kiest u het pictogram ![Lampje dat d
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Business Central aanpassen met extensies](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

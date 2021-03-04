@@ -43,3 +43,6 @@ U gebruikt een externe serviceprovider om elektronische documenten uit te wissel
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

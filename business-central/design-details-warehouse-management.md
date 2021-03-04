@@ -30,3 +30,6 @@ Om onderscheid te kunnen maken tussen de verschillende complexiteitsniveaus van 
 [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)  
 [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)  
 [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

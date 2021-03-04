@@ -63,3 +63,6 @@ Intercomp
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

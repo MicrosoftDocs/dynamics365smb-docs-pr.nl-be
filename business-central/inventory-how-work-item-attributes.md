@@ -80,3 +80,6 @@ De artikelen op de **Artikelen**-pagina's worden gefilterd door de opgegeven art
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

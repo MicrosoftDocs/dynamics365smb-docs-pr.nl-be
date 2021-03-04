@@ -77,3 +77,6 @@ Als een bedrijf eenmaal is gemaakt, kunt u de naam ervan niet meer wijzigen. Maa
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

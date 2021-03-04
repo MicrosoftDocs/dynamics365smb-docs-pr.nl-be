@@ -45,3 +45,6 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

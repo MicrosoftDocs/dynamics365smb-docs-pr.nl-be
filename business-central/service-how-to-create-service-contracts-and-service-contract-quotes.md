@@ -200,3 +200,6 @@ U kunt servicecontracten en contractoffertes op elk moment archiveren om een kop
 [Servicecontracten instellen](service-how-setup-service-contracts.md)  
 [Servicebeheer](service-service.md)  
 [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

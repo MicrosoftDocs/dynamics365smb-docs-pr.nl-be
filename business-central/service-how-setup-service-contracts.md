@@ -56,3 +56,5 @@ Voordat u met contracten kunt werken, moet u het volgende instellen:
 
 ## <a name="see-also"></a>Zie ook
 [CRM - Service instellen](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

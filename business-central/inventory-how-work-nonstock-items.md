@@ -73,3 +73,6 @@ U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewe
 [Speciale orders maken](sales-how-to-create-special-orders.md)|  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

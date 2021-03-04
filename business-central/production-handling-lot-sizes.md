@@ -52,3 +52,6 @@ Voor leveringsplanning werkt de lotgrootte-instelling op artikelen met het **Dem
 [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Bewerkingsplannen maken](production-how-to-create-routings.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

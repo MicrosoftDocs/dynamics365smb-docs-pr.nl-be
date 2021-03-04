@@ -115,3 +115,6 @@ Wanneer de btw-aangifte van de btw-groepsvertegenwoordiger namens de hele groep 
 ## <a name="see-also"></a>Zie ook
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Btw instellen](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

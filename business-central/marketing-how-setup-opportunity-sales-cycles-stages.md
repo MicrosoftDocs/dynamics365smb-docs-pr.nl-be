@@ -66,3 +66,6 @@ Wanneer u een taak hebt ingesteld, kunt u deze toewijzen aan een verkoopopportun
 [Verkoopopportunities verwerken](marketing-processing-sales-opportunities.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

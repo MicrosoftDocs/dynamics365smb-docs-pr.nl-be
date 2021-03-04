@@ -44,3 +44,6 @@ Als de afschriftregels naar het dagboek zijn overgebracht, kunt u de afschriftre
  [CODA-afschriften vereffenen](how-to-apply-coda-statements.md)   
  [Financiële dagboeken maken](how-to-create-financial-journals.md)   
  [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

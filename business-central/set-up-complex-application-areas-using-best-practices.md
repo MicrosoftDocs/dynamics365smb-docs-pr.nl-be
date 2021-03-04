@@ -35,3 +35,6 @@ Voor het succes van nieuwe zakelijke software is het van belang dat vanaf het be
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

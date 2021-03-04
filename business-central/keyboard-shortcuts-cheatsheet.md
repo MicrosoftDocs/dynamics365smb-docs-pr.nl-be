@@ -59,3 +59,6 @@ ms.locfileid: "3921729"
 > Kies de volgende afbeelding voor een grafische, afdrukbare weergave en download het PDF-bestand.
 >
 > [![Pictogram dat een PDF opent](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

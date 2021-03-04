@@ -112,3 +112,6 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Lokale functionaliteit in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

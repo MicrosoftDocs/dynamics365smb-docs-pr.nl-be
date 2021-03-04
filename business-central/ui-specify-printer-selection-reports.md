@@ -91,3 +91,6 @@ U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afd
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Batchverwerkingen uitvoeren](ui-how-run-batch-jobs.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

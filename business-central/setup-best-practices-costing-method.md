@@ -38,3 +38,6 @@ De **waarderingsmethode** op de artikelkaart definieert hoe de kostenstroom van 
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

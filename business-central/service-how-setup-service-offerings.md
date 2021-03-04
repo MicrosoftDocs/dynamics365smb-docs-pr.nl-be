@@ -29,3 +29,5 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
   
 ## <a name="see-also"></a>Zie ook  
 [CRM - Service instellen](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

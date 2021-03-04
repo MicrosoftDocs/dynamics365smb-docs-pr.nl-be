@@ -39,3 +39,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Gegevens uitwisselen](across-exchange-data.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

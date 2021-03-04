@@ -118,3 +118,6 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

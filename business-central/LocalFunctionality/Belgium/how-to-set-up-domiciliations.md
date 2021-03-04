@@ -44,3 +44,6 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)   
  [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

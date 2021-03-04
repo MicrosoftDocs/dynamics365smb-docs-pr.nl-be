@@ -65,3 +65,6 @@ Als u een transactie voor een leverancier hebt geboekt, kunt u de kaart niet ver
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)   
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

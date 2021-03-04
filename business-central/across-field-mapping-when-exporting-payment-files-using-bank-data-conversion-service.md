@@ -72,3 +72,6 @@ De volgende tabel bevat de velden in [!INCLUDE[prod_short](includes/prod_short.m
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
 [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)   
 [Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

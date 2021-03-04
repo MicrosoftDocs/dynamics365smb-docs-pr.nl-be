@@ -37,3 +37,6 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 [Aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
 [Troubleshooting instellen](service-how-setup-troubleshooting.md)  
 [Servicebeheer](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

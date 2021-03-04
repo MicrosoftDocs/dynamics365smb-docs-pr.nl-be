@@ -56,3 +56,6 @@ Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart leveranc
 [Boekingsgroepen instellen](finance-posting-groups.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

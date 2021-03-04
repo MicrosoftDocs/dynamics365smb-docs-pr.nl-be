@@ -46,3 +46,6 @@ Op de pagina **Algemeen Serviceopmerking** kunt u opmerkingen over geregistreerd
   
 ## <a name="see-also"></a>Zie ook  
 [Uitleenprogramma instellen](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

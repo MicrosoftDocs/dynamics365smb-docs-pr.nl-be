@@ -62,3 +62,6 @@ Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet me
 [Een verbinding instellen met Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)  
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

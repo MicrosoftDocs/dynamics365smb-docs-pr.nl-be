@@ -141,3 +141,6 @@ De site docs.microsoft.com host inhoud voor andere producten, evenals andere soo
 [Documenten voor Business Central-ontwikkelaars en beheerders](/dynamics365/business-central/dev-itpro/)  
 [Resources voor Help en ondersteuning voor partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technische ondersteuning](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

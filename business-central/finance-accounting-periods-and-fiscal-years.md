@@ -70,3 +70,6 @@ Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten naar 
 [De boeken sluiten](year-close-books.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met rapportageschema's](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ U kunt deze uitgebreide tekst nu aan documenten toevoegen. De volgende procedure
 
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

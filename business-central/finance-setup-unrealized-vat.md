@@ -50,3 +50,6 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 
 ## <a name="see-also"></a>Zie ook
 [Btw instellen](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

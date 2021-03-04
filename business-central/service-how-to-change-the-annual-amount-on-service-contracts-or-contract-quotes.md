@@ -150,3 +150,6 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 ## <a name="see-also"></a>Zie ook  
 [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [CRM - Service instellen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

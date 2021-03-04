@@ -129,3 +129,6 @@ Als een of meer assemblageonderdelen niet beschikbaar zijn, wordt dit weerspiege
 [Producten verkopen](sales-how-sell-products.md)      
 [Werken met Business Central](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

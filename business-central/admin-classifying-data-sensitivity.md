@@ -50,3 +50,6 @@ Met het werkblad Gegevensclassificatie kunt u bijvoorbeeld het volgende doen:
 ## <a name="see-also"></a>Zie ook
 
 [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

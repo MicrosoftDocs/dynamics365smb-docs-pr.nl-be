@@ -76,3 +76,6 @@ Nadat u een selectie hebt gemaakt, voert u de relevante zoekinformatie in de vel
 [Werken met Business Central](ui-work-product.md)  
 [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md)  
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

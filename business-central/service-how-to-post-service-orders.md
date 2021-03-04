@@ -132,3 +132,6 @@ De volgende procedure beschrijft het boeken van verzendingen rechtstreeks vanuit
 ## <a name="see-also"></a>Zie ook  
 [Boeken in CRM - Service](service-service-posting.md)  
 [Een serviceorder maken](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

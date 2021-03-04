@@ -61,3 +61,6 @@ Het is eenvoudig: schuif naar de onderzijde van de browserpagina en kies het wer
 [Resources voor Help en Ondersteuning](product-help-and-support.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

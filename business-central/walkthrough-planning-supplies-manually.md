@@ -232,3 +232,6 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
  [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

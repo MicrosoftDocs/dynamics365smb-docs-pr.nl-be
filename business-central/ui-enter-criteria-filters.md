@@ -307,3 +307,6 @@ Gebruik `%myvendors` in het veld leveranciers **nr.** om alle records weer te ge
 [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

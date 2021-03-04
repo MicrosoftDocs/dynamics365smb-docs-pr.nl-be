@@ -93,3 +93,6 @@ Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt o
 [Nieuwe bedrijven maken](about-new-company.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ EXIT(DimSet.ID);
  [Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)   
  [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

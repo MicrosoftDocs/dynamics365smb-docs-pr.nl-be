@@ -27,3 +27,6 @@ ms.locfileid: "3916522"
 [SEPA-betalingen indienen](how-to-file-sepa-payments.md)  
 [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md)  
 [Exportprotocollen instellen](how-to-set-up-export-protocols.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

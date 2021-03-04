@@ -47,3 +47,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)  
 [Werken met Business Central](ui-work-product.md)  
 [Financiën](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

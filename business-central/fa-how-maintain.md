@@ -90,3 +90,6 @@ In het rapport **Onderhoud - Details** kunt u onderhoudsposten voor een of meerd
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

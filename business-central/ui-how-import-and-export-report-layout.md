@@ -55,3 +55,6 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
  [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
  [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

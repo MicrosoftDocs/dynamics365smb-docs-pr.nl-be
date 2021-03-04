@@ -49,3 +49,6 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)   
 [Ontwerpdetails: Bestelbeleid](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

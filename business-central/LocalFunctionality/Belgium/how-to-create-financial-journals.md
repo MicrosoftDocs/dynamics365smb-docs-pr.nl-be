@@ -38,3 +38,6 @@ In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een fi
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e
 [E-mail instellen](admin-how-setup-email.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

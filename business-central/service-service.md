@@ -49,3 +49,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

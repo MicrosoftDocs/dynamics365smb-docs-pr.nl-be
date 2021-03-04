@@ -71,3 +71,6 @@ Er zijn enkele dingen die u met name moet doen:
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

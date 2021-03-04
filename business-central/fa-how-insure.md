@@ -119,3 +119,6 @@ Het vaste activum wordt losgekoppeld van de foutieve verzekeringspolis op de twe
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

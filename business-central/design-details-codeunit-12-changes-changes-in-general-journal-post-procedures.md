@@ -191,3 +191,6 @@ De volgende wijzigingen zijn geïmplementeerd in versies van [!INCLUDE [navnow_m
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Wijzigingen in codeunit 12: Algemene variabelen toewijzen voor dagboekboekingsregel](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogra
 ## <a name="see-also"></a>Zie ook  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Wilt u de bekwaamheidscodes wijzigen die aan artikelen zijn toegewezen, bijvoorb
 [Codes voor standaardservices instellen](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

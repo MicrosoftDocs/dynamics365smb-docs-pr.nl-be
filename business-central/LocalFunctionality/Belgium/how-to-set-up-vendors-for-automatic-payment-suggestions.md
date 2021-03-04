@@ -42,3 +42,6 @@ U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

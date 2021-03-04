@@ -70,3 +70,6 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

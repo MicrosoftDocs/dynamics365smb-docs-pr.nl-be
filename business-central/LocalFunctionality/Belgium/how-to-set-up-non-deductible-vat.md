@@ -33,3 +33,6 @@ U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk al
 ## <a name="see-also"></a>Zie ook  
  [Belgische btw](belgian-vat.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

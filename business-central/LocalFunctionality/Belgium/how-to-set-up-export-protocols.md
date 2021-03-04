@@ -57,3 +57,6 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

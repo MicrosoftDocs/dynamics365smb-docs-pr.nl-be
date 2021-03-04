@@ -114,3 +114,6 @@ Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerke
 [Financiën](finance.md)    
 [Bedrijfsinformatie](bi.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

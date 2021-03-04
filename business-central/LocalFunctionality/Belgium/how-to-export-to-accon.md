@@ -30,3 +30,6 @@ Met het rapport **Koppelen aan Accon** kunt u een bestand maken dat in ACCON Plu
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

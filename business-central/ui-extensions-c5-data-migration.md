@@ -161,3 +161,6 @@ U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kieze
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

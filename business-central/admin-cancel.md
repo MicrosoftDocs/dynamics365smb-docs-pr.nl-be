@@ -46,3 +46,6 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] in uw opstartprogramma voor
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Microsoft 365-beheercentrum](https://admin.microsoft.com/)  
 [Hoe lang duurt de proeftijd en hoe kan ik opzeggen?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

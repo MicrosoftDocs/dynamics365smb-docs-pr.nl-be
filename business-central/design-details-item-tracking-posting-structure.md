@@ -48,3 +48,5 @@ Codeunit 22 doorloopt de artikeltraceringsnummers en splitst de boeking in de re
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)   
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Het sneltabblad **Planning** op de pagina **Productie-instellingen** bevat versc
  [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

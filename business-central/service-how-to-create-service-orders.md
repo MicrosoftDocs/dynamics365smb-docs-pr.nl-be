@@ -110,3 +110,6 @@ Serviceorders worden echter niet automatisch verwijderd als het totale aantal op
 [CRM - Service instellen](service-setup-service.md)  
 [Werken aan servicetaken](service-how-to-work-on-service-tasks.md)  
 [Resources toewijzen](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

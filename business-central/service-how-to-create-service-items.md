@@ -62,3 +62,6 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Servicebeheer](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

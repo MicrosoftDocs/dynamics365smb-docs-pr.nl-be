@@ -365,3 +365,6 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

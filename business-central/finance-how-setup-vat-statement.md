@@ -51,3 +51,6 @@ Nadat u een btw-aangifte hebt gedefinieerd, kunt u er een voorbeeld van bekijken
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Lokale functionaliteit in Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

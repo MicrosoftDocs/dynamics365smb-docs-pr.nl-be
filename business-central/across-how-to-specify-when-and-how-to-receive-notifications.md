@@ -66,3 +66,6 @@ Wanneer u gebruikers in goedkeuringswerkstromen instelt, moet u op de pagina's *
  [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)   
  [Werkstromen instellen](across-set-up-workflows.md)   
  [Werkstromen gebruiken](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

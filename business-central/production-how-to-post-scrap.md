@@ -37,3 +37,6 @@ Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

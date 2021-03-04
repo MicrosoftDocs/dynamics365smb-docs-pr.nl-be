@@ -369,3 +369,6 @@ Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 u
 [Werken met [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
 [Criteria in filters invoeren](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

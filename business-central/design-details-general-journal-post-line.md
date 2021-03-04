@@ -29,3 +29,6 @@ Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en princ
 
 ## <a name="see-also"></a>Zie ook  
 [Werken met diversendagboeken](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

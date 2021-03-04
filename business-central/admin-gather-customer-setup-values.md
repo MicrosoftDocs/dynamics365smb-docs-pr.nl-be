@@ -147,3 +147,6 @@ De installatie is nu geconfigureerd met de zakelijke gegevens en regels van de k
 ## <a name="see-also"></a>Zie ook  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

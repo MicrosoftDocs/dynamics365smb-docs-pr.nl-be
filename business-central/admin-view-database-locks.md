@@ -33,3 +33,6 @@ Zie voor meer informatie over databasevergrendeling [Databasevergrendelingen bew
 ## <a name="see-also"></a>Zie ook
 
 [Databasevergrendelingen bewaken](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

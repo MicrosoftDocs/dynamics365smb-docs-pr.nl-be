@@ -38,3 +38,6 @@ U gebruikt de volgende pagina's om kostenbudgetten te maken en te analyseren. Ki
 [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Op de pagina's **Rapportselectie - Verkoop** en **Rapportselectie - Aankoop** he
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md)  
 [Printers instellen](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

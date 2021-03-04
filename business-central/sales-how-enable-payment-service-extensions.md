@@ -45,3 +45,6 @@ De extensies Microsoft Pay, PayPal Payments Standard en WorldPay Payments Standa
 [Verkoop](sales-manage-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

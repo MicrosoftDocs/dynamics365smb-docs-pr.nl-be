@@ -33,3 +33,6 @@ Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het le
 ## <a name="see-also"></a>Zie ook  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren
 ## <a name="see-also"></a>Zie ook
 [Relaties beheren](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

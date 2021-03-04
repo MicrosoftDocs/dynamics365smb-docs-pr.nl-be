@@ -46,3 +46,6 @@ U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exportere
  [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

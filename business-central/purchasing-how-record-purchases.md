@@ -100,3 +100,6 @@ De inkoop wordt nu weerspiegeld in de voorraad, resourcejournalen en financiële
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Doorverzendingen voorbereiden](sales-how-drop-shipment.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

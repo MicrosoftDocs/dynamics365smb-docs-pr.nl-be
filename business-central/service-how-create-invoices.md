@@ -99,3 +99,6 @@ Servicecreditnotadocumenten worden meestal gebruikt wanneer klanten artikelen te
 [Servicefacturen boeken](service-how-to-post-service-orders.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Serviceboekingen](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

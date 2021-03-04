@@ -77,3 +77,6 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

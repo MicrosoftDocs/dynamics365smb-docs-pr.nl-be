@@ -28,3 +28,6 @@ SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Eu
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   
  [SEPA-betalingen indienen](how-to-file-sepa-payments.md)   
  [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

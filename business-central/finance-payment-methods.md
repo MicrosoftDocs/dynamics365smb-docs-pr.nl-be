@@ -49,3 +49,6 @@ Wijs desgewenst betalingsvoorwaarden toe aan uw betalingsmethode. Zie voor meer 
 [Betalingsvoorwaarden instellen](finance-payment-terms.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

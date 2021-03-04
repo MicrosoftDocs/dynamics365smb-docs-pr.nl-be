@@ -121,3 +121,6 @@ Als u een verkeerde vereffening ongedaan maakt, worden er stornoposten gemaakt d
 [Schulden](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Met de volgende procedure kunt u een analyseweergave bijwerken vanuit de pagina 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

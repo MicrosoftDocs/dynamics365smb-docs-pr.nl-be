@@ -54,3 +54,6 @@ In Outlook worden de contacten uit [!INCLUDE[prod_short](includes/prod_short.md)
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Contactpersonen (personen) gebruiken in Outlook op het web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

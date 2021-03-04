@@ -64,3 +64,6 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

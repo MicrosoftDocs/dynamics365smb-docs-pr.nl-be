@@ -117,3 +117,6 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

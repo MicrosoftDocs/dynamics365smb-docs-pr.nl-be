@@ -123,3 +123,6 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
   
 ## <a name="see-also"></a>Zie ook  
  [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

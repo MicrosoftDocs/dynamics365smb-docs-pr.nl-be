@@ -62,3 +62,6 @@ De volgende video behandelt de basisprincipes van vaste activa.
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Voor een overzicht van momenteel ondersteunde markten voor Dynamics 365 raadplee
 [Lokale functionaliteit](about-localization.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationale beschikbaarheid van Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -93,3 +93,6 @@ De volgende tabel bevat de velden op het sneltabblad **Opties** die beschikbaar 
 ## <a name="see-also"></a>Zie ook
 
 [Beheer](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

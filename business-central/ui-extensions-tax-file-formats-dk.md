@@ -26,3 +26,6 @@ De extensie is gratis, u hoeft deze alleen maar te installeren.
 
 ## <a name="see-also"></a>Zie ook
 [Business Central aanpassen met extensies](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,3 +24,6 @@ Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en princ
 [Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
 [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)  
 [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

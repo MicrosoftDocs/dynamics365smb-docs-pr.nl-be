@@ -59,3 +59,6 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
 [Aan de slag](product-get-started.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

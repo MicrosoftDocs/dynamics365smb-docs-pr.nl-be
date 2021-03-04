@@ -56,3 +56,6 @@ Wanneer u alle afschriftregels hebt vereffend met een grootboekrekening of een b
  [Financiële dagboeken maken](how-to-create-financial-journals.md)   
  [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md)   
  [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

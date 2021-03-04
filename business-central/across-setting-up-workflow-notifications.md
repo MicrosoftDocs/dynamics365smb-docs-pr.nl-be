@@ -59,3 +59,6 @@ U stelt verschillende aspecten van werkstroomberichten op de volgende plaatsen i
 [E-mail instellen](admin-how-setup-email.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Werkstroom](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

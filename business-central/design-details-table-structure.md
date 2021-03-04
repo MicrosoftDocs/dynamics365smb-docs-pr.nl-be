@@ -186,3 +186,6 @@ Veld 480 bestaat in de volgende buffertabellen.
  [Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)   
  [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -50,3 +50,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

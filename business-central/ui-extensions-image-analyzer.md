@@ -104,3 +104,6 @@ U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de hui
 [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

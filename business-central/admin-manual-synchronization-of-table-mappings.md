@@ -85,3 +85,6 @@ U kunt de pagina **Toewijzingen van integratietabellen** gebruiken om een synchr
 ## <a name="see-also"></a>Zie ook  
 [Business Central en Dynamics 365 Sales synchroniseren](admin-synchronizing-business-central-and-sales.md)   
 [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

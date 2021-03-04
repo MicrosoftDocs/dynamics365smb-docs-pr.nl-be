@@ -73,3 +73,6 @@ De meeste lijsten en statistieken zijn gebaseerd op de geboekte kostenposten. U 
  [Financiën](finance.md)   
  [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

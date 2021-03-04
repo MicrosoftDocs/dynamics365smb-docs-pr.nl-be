@@ -67,3 +67,6 @@ Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Zie [
 
 [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)  
 [De Business Central-app voor Microsoft Teams installeren](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaare
 [Boeken afsluiten](year-close-books.md)  
 [Afsluiten WenV-rekening](year-close-income-statement.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

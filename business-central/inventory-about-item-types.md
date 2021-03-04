@@ -58,3 +58,6 @@ Artikelen van klanten waaraan u onderhoud verricht, zoals een printer, worden se
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

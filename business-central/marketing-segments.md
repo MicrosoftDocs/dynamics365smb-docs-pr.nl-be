@@ -39,3 +39,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

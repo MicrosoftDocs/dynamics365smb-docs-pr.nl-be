@@ -46,3 +46,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Inkoop](purchasing-manage-purchasing.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prij
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)      
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

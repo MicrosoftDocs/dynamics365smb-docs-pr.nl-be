@@ -42,3 +42,6 @@ Als u een beheerder of superuser bent, kunt u anderen helpen door foutmeldingen 
 [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

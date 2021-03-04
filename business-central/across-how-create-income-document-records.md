@@ -70,3 +70,6 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

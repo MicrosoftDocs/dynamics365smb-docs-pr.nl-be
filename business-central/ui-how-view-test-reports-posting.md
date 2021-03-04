@@ -34,3 +34,6 @@ Alle delen van de inkoopfactuur worden getest en het resultaat wordt weergegeven
 ## <a name="see-also"></a>Zie ook
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

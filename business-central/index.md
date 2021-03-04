@@ -98,3 +98,6 @@ De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen ver
 [Inleiding in docs.microsoft.com (originele blogpost)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

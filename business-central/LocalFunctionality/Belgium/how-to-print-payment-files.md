@@ -57,3 +57,6 @@ In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels in
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

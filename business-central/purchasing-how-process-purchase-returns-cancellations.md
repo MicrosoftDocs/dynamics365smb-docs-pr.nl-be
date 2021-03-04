@@ -195,3 +195,6 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

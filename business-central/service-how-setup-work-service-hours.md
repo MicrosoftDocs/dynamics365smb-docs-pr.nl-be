@@ -58,3 +58,6 @@ Als u geen specifieke service-uren voor het servicecontract instelt, worden de s
 [Toewijzingsstatus en herstelstatus begrijpen](service-allocation-status-and-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Serviceorderstatus en herstelstatus begrijpen](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

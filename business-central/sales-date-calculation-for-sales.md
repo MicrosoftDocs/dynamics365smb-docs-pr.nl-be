@@ -46,3 +46,6 @@ Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als
  [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)   
  [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -59,3 +59,6 @@ De pagina **Grootboekposten** wordt geopend. Op deze pagina kunt u de posten zie
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Posten zoeken](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

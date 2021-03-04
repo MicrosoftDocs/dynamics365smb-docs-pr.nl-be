@@ -133,3 +133,6 @@ Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

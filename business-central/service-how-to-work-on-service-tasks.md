@@ -107,3 +107,6 @@ Nadat u een serviceartikel hebt hersteld, kunt u de probleemcode en de oplossing
 [Probleemrapportage instellen](service-how-setup-fault-reporting.md)
 [Toewijzingsstatus en herstelstatus](service-allocation-status-and-repair-status.md)  
 [Serviceboekingen](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

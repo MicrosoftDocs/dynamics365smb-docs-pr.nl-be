@@ -118,3 +118,6 @@ De kosten van de artikelen waaruit de assemblagestuklijst bestaat, worden gekopi
 [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)     
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

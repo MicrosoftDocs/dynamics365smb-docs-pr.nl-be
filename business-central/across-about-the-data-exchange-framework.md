@@ -66,3 +66,6 @@ Voor alle uitwisselingen van gegevens in XML-bestanden kunt u de instellingen va
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

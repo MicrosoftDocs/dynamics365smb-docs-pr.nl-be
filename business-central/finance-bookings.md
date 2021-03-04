@@ -43,3 +43,6 @@ De ondersteuning voor het factureren van afspraken vanuit Bookings is eenvoudige
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

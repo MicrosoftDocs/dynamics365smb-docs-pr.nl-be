@@ -158,3 +158,6 @@ Wanneer de elektronische betaling is verwerkt door de bank, boekt u de betalinge
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

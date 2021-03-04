@@ -41,3 +41,6 @@ In de volgende procedure wordt beschreven hoe u het boeken van inkooporders kunt
 ## <a name="see-also"></a>Zie ook  
 [Werkstromen maken](across-how-to-create-workflows.md)   
 [Werkstroom](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

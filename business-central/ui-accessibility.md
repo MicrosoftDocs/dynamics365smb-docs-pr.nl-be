@@ -81,3 +81,6 @@ Meer informatie over toegankelijkheid voor Microsoft-producten en ondersteunende
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

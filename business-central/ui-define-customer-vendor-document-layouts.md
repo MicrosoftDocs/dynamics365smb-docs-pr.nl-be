@@ -62,3 +62,6 @@ Het e-mailadres van de contactpersoon wordt nu ingevoegd op de documentlay-outre
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

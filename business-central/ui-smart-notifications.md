@@ -40,3 +40,6 @@ Het in- of uitschakelen van berichten en de door u ingestelde voorwaarden, is al
 ## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

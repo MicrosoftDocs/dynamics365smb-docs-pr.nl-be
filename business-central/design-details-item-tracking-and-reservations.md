@@ -92,3 +92,5 @@ Dit bedrijfsscenario wordt ondersteund met de functie voor late binding die zorg
   
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

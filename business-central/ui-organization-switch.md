@@ -48,3 +48,6 @@ Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], kunt u 
 
 [Het beheercentrum van Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Zie voor meer informatie [Ontwerpdetails: Boekingsstructuur artikeltracering](de
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

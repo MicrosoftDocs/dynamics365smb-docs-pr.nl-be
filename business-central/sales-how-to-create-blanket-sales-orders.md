@@ -100,3 +100,6 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
 [Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -267,3 +267,6 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
  [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)   
  [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

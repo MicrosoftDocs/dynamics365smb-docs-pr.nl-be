@@ -82,3 +82,6 @@ Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebr
 [Financiën](finance.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

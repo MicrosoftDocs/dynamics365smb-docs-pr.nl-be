@@ -71,3 +71,6 @@ Beheerders hebben de mogelijkheid om deze instellingen voor gebruikers in elk be
 [Aan de slag](product-get-started.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Taal en landinstellingen wijzigen](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

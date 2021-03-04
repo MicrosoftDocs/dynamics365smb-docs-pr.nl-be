@@ -40,3 +40,5 @@ U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder 
 [Werken aan servicetaken](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

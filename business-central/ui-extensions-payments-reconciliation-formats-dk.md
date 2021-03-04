@@ -108,3 +108,6 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 [Business Central aanpassen voor [!INCLUDE[prod_short](includes/prod_short.md)] met extensies](ui-extensions.md)  
 [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

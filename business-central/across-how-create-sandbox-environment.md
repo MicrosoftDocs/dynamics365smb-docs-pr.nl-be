@@ -93,3 +93,6 @@ In een sandboxomgeving is de **Ontwerper** ingeschakeld. U kunt de Ontwerper act
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](across-preview.md)  
 [Omgevingen beheren in het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

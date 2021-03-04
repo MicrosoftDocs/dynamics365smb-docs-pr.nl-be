@@ -92,3 +92,6 @@ Sommige extensies zijn vereist. U kunt deze niet verwijderen vanaf de pagina **E
 [Aan de slag](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

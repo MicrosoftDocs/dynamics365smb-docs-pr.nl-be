@@ -35,3 +35,6 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 [CRM - Service instellen](service-setup-service.md)  
 [Service leveren](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

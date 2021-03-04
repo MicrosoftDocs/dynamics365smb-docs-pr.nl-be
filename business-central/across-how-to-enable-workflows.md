@@ -35,3 +35,6 @@ Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te s
  [Werkstromen gebruiken](across-use-workflows.md)   
  [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Werkstroom](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

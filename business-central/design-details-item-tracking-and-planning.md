@@ -56,3 +56,6 @@ Zie voor meer informatie [Ontwerpdetails: Vraag en aanbod afstemmen](design-deta
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

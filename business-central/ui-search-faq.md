@@ -50,3 +50,6 @@ Het bladwijzerpictogram wordt niet weergegeven in het venster Vertel me wanneer 
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  
 [Een bladwijzer van een pagina of rapport maken in uw rolcentrum](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

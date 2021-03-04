@@ -39,3 +39,6 @@ U kunt de picklijst ook als document opslaan, bijvoorbeeld om naar iemand te stu
 [Voorraad](inventory-manage-inventory.md)  
 [Artikelen picken](warehouse-pick-items.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

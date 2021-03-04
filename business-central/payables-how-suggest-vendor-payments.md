@@ -57,3 +57,6 @@ U kunt eventueel handmatig betalingsregels maken, waarbij de vervaldatum wordt g
 [Betalingen uitvoeren](payables-make-payments.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

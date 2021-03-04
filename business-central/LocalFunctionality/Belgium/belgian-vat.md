@@ -41,3 +41,6 @@ U moet ook een gedrukt afschrift met details van de btw-transacties verstrekken 
  [Belgische lokale functionaliteit](belgium-local-functionality.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

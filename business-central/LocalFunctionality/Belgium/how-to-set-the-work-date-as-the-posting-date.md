@@ -31,3 +31,6 @@ U kunt het grootboek zo instellen dat de werkdatum als boekingsdatum wordt gebru
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)   
  [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

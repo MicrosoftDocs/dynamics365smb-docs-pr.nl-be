@@ -31,3 +31,6 @@ Het reserveringsysteem houdt echter rekening met magazijnactiviteiten wanneer be
 [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md)  
 [Ontwerpdetails: Magazijnbeschikbaarheid](design-details-availability-in-the-warehouse.md)  
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

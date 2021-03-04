@@ -132,3 +132,6 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

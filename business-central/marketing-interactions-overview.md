@@ -31,3 +31,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Uw systeem instellen om interacties te registreren. |[Contactpersonen instellen](marketing-setup-contacts.md) |
 |Maak interacties om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld e-mail.|[Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md)|
 |Stel uw systeem in om automatisch interacties te registreren voor verkoop-, inkoop- en servicedocumenten, zoals wanneer een document wordt gemaakt, geboekt of afgedrukt.|[Automatisch recordinteracties met contacten vastleggen](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

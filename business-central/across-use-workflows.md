@@ -39,3 +39,6 @@ U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden di
 [Werkstromen instellen](across-set-up-workflows.md)   
 [Werkstroom](across-workflow.md)   
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

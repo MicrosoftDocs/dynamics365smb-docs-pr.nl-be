@@ -36,3 +36,6 @@ U kunt instellen dat [!INCLUDE[prod_short](../../includes/prod_short.md)] automa
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

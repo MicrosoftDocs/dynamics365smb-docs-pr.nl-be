@@ -145,3 +145,6 @@ Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kunt u sessies b
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
 [Uw werkruimte personaliseren](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

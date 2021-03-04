@@ -71,3 +71,6 @@ De volgende keer dat u rapportageschema's genereert, bevat uw saldo-overzicht ee
 [Financiën](finance.md)  
 [De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)  
 [Bedrijfsinformatie](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

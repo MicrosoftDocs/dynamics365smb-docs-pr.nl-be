@@ -40,3 +40,6 @@ De volgende tabel beschrijft de opties voor het blokkeren van klanten.
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

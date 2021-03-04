@@ -34,3 +34,6 @@ Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek ku
 [Financiën](finance.md)  
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

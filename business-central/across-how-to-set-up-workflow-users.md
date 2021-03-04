@@ -52,3 +52,6 @@ Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers al
 [Werkstromen gebruiken](across-use-workflows.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Werkstroom](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

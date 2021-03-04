@@ -40,3 +40,6 @@ U kunt ook de site [Dynamics 365 Business Central-mogelijkheden](https://dynamic
 [Dynamics 365 Business Central-community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

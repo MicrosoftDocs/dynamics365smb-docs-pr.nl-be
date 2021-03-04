@@ -79,3 +79,6 @@ Als u Business Central on-premises wilt implementeren, moet u de systeemvereiste
 
 [Aan de slag](product-get-started.md)  
 [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

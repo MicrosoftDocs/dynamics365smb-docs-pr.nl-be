@@ -69,3 +69,6 @@ Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[prod_shor
 [[!INCLUDE[prod_short](includes/prod_short.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

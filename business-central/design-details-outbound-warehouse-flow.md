@@ -134,3 +134,6 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 ## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

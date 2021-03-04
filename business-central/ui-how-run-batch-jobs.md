@@ -36,3 +36,6 @@ U kunt plannen wanneer een batchtaak wordt uitgevoerd. Zie voor meer informatie 
 [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
 [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

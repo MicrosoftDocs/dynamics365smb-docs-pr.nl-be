@@ -35,3 +35,6 @@ Als u elektronische bankierservices wilt gebruiken om bankafschriften te importe
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

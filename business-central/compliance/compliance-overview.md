@@ -35,3 +35,6 @@ In dit gedeelte leest u meer over onze benadering van naleving vanuit een toepas
 |Meer informatie over de voorwaarden van de dienstverleningsovereenkomst en andere voorwaarden voor de service|[Servicevoorwaarden](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

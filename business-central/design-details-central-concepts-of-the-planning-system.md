@@ -295,3 +295,6 @@ Hiermee wordt het overzicht afgesloten van centrale concepten die betrekking heb
 [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)   
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -219,3 +219,6 @@ De functie voor vooruitbetalingen in [!INCLUDE[prod_short](includes/prod_short.m
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

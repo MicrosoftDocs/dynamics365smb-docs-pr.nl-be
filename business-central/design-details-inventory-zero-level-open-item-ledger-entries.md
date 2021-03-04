@@ -151,3 +151,6 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)   
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

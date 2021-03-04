@@ -34,3 +34,6 @@ Als u de pagina **Interactiesjablooninstellingen** wilt openen, kiest u het pict
 ## <a name="see-also"></a>Zie ook
 [Interacties vastleggen met contacten](marketing-interactions.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

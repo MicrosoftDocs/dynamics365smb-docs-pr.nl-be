@@ -68,3 +68,6 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 ## <a name="see-also"></a>Zie ook  
  [Belgische btw](belgian-vat.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

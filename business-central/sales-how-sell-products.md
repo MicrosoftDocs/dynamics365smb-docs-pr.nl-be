@@ -133,3 +133,6 @@ Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het
 [Voorraad](inventory-manage-inventory.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

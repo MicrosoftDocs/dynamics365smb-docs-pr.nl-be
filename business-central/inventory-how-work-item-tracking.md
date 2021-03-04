@@ -275,3 +275,6 @@ Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wij
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

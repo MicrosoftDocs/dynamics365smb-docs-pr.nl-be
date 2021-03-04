@@ -65,3 +65,6 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
 [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

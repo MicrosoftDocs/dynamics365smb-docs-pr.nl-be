@@ -68,3 +68,6 @@ We hebben Vertel me aan een reeks belanghebbenden laten zien, vragen die ze geme
 ## <a name="see-also"></a>Zie ook
 [Werken met Business Central](ui-work-product.md)  
 [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item 
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad instellen](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

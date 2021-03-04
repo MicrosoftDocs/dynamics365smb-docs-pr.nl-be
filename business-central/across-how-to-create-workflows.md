@@ -103,3 +103,6 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
 [Werkstromen instellen](across-set-up-workflows.md)   
 [Werkstromen gebruiken](across-use-workflows.md)   
 [Werkstroom](across-workflow.md)      
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

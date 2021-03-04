@@ -25,3 +25,6 @@ Meer informatie over [functiebeheer](/dynamics365/business-central/dev-itpro/adm
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe en geplande functies](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

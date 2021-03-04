@@ -79,3 +79,6 @@ U kunt meerdere vaste activa combineren in één vast activum, bijvoorbeeld als 
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

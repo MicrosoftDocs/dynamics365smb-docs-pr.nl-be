@@ -36,3 +36,6 @@ Wanneer u een rentefactuur verzendt, bevat de factuur de rentefacturen met meerd
 ## <a name="see-also"></a>Zie ook  
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Financiën instellen](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -158,3 +158,6 @@ De standaardwaarden van de gekozen klantensjabloon worden ingevoegd in de klante
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

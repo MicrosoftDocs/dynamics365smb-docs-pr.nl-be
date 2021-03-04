@@ -52,3 +52,6 @@ Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-che
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

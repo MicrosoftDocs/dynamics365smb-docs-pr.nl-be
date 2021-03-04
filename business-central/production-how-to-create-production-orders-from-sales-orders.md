@@ -39,3 +39,6 @@ U kunt er ook voor kiezen om een projectproductieorder te maken. Zie [Projectord
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

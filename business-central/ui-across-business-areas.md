@@ -54,3 +54,6 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 [Beheer](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

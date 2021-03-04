@@ -78,3 +78,6 @@ De waarde in het veld **Wisselkoers** op de pagina **Valuta's** wordt bijgewerkt
 [Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

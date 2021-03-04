@@ -46,3 +46,6 @@ De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier
  [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

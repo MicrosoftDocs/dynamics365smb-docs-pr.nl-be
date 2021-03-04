@@ -263,3 +263,6 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om wijzigingen d
 [Beheer](admin-setup-and-administration.md)  
 [Gebruikers toevoegen aan Microsoft 365 voor bedrijven](https://aka.ms/CreateOffice365Users)  
 [Beveiliging en bescherming in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in de Help voor ontwikkelaars en IT-professionals
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

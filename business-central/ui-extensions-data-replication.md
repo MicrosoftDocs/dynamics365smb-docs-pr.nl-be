@@ -45,3 +45,6 @@ Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis**
 
 [Intelligente inzichten](about-intelligent-cloud.md)  
 [Extensie Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

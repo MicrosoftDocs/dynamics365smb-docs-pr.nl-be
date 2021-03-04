@@ -93,3 +93,6 @@ Lettertypen voor andere doeleinden zijn ook beschikbaar in [!INCLUDE[prod_short]
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

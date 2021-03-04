@@ -138,3 +138,6 @@ Er zijn een aantal manieren om rapporten beschikbaar te maken voor uw collega's 
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Financiën](finance.md)  
 [Snelle start: Uw gegevens verbinden in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

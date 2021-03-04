@@ -70,3 +70,6 @@ Er wordt een nieuwe toewijzingspost gemaakt met de nieuwe resource en de status 
 [Resourcetoewijzingen instellen](service-how-setup-resource-allocation.md)  
 [Resources toewijzen](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

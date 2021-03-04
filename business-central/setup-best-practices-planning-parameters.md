@@ -46,3 +46,6 @@ Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsk
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
  [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Sommige antivirussoftware blokkeert standaard de toegang tot de camera en de loc
 ## <a name="see-also"></a>Zie ook
 [De camera implementeren in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [De locatie implementeren in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

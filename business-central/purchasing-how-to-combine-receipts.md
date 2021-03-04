@@ -53,3 +53,6 @@ Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals inkoopraamcont
 [Inkoop](purchasing-manage-purchasing.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

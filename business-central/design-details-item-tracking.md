@@ -31,3 +31,6 @@ Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te
 [Ontwerpdetails: Artikeltracering en planning](design-details-item-tracking-and-planning.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

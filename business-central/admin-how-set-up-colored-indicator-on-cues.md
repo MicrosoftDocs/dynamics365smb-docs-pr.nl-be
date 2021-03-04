@@ -64,3 +64,6 @@ Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die d
     |**Ondergeschikt**|Grijs|  
 
 ## <a name="see-also"></a>Zie ook
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

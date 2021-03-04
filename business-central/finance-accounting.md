@@ -109,3 +109,6 @@ Als u toegang wilt geven aan meerdere bedrijven, moet u zich bij elk bedrijf aan
 [Werk beheren tussen meerdere bedrijven in de bedrijfshub](company-hub.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

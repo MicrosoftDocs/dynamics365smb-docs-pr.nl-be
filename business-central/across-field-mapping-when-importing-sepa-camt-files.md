@@ -68,3 +68,6 @@ ms.locfileid: "4753354"
 [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)   
 [Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

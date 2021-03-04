@@ -444,3 +444,6 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
  [Ontwerpdetails: Inkomende magazijnstromen](design-details-internal-warehouse-flows.md)   
  [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)   
  [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

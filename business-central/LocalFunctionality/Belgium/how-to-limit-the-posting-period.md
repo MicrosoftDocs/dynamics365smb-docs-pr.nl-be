@@ -45,3 +45,6 @@ Wanneer u op de pagina **Financieel-dagboeksjablonen** boekt, wordt de inhoud va
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)   
  [Boekingsperioden opgeven](../../finance-how-specify-posting-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de
 [Beheer](admin-setup-and-administration.md)  
 [Gebruikers toevoegen aan Microsoft 365 voor bedrijven](https://aka.ms/CreateOffice365Users)  
 [Beveiliging en bescherming in Business Central (beheerinhoud)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

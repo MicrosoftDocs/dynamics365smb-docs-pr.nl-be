@@ -38,3 +38,6 @@ In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar d
 [Geboekte documenten bewerken](across-edit-posted-document.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

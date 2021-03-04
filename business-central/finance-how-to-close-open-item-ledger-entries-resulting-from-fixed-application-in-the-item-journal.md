@@ -46,3 +46,6 @@ De volgende procedure laat zien hoe u dergelijke posten kunt sluiten door het ui
 [Voorraadwaardering en kostprijsberekening instellen](finance-set-up-inventory-valuation-and-costing.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

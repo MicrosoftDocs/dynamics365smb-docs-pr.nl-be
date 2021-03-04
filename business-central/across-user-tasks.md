@@ -48,3 +48,6 @@ Als u met een bulkbewerking alle of bepaalde gebruikerstaken wilt verwijderen, k
 
 [Zoeken naar een pagina of rapport](ui-search.md)  
 [Accountantervaringen binnen [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

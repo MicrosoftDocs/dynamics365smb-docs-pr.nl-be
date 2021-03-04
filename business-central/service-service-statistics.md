@@ -112,3 +112,6 @@ De pagina **Statistiek servicecreditnota's** biedt een statistisch overzicht van
 [Serviceorders maken](service-how-to-create-service-orders.md)   
 [Serviceartikelen maken](service-how-to-create-service-items.md)   
 [Service plannen](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

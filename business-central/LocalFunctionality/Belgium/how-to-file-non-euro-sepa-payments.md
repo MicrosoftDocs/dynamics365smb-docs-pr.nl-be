@@ -44,3 +44,6 @@ Voordat u een dergelijke SEPA-betalingen kunt indienen, moet u de volgende behee
  [SEPA-betalingen indienen](how-to-file-sepa-payments.md)   
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   
  [SEPA-betalingen](sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

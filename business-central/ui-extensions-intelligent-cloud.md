@@ -29,3 +29,6 @@ Zodra de verbinding is geconfigureerd, kunt u gegevens migreren of gegevensrepli
 [Intelligente inzichten](about-intelligent-cloud.md)  
 [Tool voor cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

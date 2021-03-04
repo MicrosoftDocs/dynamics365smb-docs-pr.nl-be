@@ -110,3 +110,6 @@ In standaardkostenomgevingen is de kostprijsberekening van een productieorder ge
  [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  
  [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

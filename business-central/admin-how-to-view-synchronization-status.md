@@ -55,3 +55,6 @@ Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status 
 ## <a name="see-also"></a>Zie ook  
 [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Microsoft Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

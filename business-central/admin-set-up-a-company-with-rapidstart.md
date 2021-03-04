@@ -49,3 +49,6 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 [Beheer](admin-setup-and-administration.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ In de volgende tabel wordt de informatie voor elke tabel beschreven:
 
 [Pagina's inspecteren](across-inspect-page.md)  
 [Prestatieartikelen voor ontwikkelaars](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

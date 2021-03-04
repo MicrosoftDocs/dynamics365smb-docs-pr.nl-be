@@ -32,3 +32,6 @@ U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-af
 
 [Aan de slag](product-get-started.md)  
 [Dynamics 365-kanaal op YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/pro
 [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

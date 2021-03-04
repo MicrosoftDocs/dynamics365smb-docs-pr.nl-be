@@ -79,3 +79,6 @@ Ter afstemming met de financiële begrippen van inkopen en verkopen verwijst de 
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

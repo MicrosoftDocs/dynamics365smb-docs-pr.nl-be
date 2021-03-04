@@ -64,3 +64,6 @@ U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het **Tracer
 [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -33,3 +33,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronisch bank
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  
 [CODA-bankafschriften](coda-bank-statements.md)  
 [Incasso via domiciliëring](direct-debit-using-domiciliation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

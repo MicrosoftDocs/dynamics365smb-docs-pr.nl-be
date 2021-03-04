@@ -50,3 +50,6 @@ Naarmate het aantal weergaven op een pagina groeit, hebt u mogelijk extra contro
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

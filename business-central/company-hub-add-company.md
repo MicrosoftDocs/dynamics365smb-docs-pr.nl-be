@@ -47,3 +47,6 @@ Wanneer u uw omgevingen hebt toegevoegd, verschijnen uw bedrijven automatisch. A
 
 [Werk beheren tussen meerdere bedrijven in de bedrijfshub](company-hub.md)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Met de batchverwerking **Domiciliëringen voorstellen** maakt u domiciliëringsv
  [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md)   
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringen exporteren en boeken](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

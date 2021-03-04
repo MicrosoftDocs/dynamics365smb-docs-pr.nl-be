@@ -51,3 +51,6 @@ Het ondernemingsnummer is ingesteld op de volgende locaties:
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

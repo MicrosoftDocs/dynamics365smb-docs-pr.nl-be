@@ -126,3 +126,6 @@ Verkooporders die binnen de gedefinieerde filters vallen, worden nu elke week om
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

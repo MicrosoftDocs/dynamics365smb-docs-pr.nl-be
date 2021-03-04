@@ -50,3 +50,6 @@ Als u een bedrijf hebt toegevoegd, maar het wordt niet weergegeven in de lijst, 
 [Werk beheren tussen meerdere bedrijven in de bedrijfshub](company-hub.md)  
 [Bedrijven toevoegen aan uw bedrijfshub](company-hub-add-company.md)  
 [Accountantervaringen in Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

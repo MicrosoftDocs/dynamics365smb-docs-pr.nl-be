@@ -56,3 +56,6 @@ Met de invoegtoepassing kunt u up-to-date gegevens krijgen vanuit [!INCLUDE [pro
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

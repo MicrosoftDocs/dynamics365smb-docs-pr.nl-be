@@ -49,3 +49,6 @@ Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artik
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

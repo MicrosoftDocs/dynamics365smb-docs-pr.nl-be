@@ -175,3 +175,6 @@ Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met h
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Traceringstelemetrie van configuratiepakketten analyseren](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

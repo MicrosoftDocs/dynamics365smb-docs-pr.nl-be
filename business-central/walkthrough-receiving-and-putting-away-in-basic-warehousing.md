@@ -148,3 +148,6 @@ Op de pagina **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor 
  [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles w
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)  
 [Posten zoeken](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

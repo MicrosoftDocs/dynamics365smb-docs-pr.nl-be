@@ -62,3 +62,6 @@ Als u wijzigingen aanbrengt in de invoegtoepassing, moet u deze opnieuw laden om
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
 [Werken met Business Central](ui-work-product.md)  
 [Verbeteringen aan Excel-integratie in releasewave 2 van 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Als u een rapport wilt zien, kiest u het pictogram ![Lampje dat de functie Verte
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

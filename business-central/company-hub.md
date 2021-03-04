@@ -94,3 +94,6 @@ Beheerders kunnen dezelfde begeleide instelling gebruiken om u toe te voegen aan
 [Accountantervaringen in Business Central](finance-accounting.md)  
 [De extensie Bedrijfshub voor Business Central](ui-extensions-company-hub.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  
 [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

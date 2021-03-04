@@ -104,3 +104,6 @@ Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zi
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)      
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

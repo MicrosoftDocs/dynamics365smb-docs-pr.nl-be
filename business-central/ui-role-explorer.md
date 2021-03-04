@@ -45,3 +45,6 @@ De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten 
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

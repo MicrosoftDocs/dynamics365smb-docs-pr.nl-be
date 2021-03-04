@@ -161,3 +161,6 @@ Op de pagina **Magazijnopslag** kunt u opslagactiviteiten beheren voor een speci
  [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md)   
  [Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

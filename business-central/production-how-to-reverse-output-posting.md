@@ -35,3 +35,6 @@ De posten van het outputdagboek worden als positieve herwaardering geboekt op de
  [Voorraad](inventory-manage-inventory.md)  
  [Inkoop](purchasing-manage-purchasing.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

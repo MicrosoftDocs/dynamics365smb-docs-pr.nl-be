@@ -88,3 +88,6 @@ Zie voor meer informatie de [documentatie van Power Automate](/power-automate/ge
 [Gebruikersinstellingen voor goedkeuring](across-how-to-set-up-approval-users.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Financiën](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

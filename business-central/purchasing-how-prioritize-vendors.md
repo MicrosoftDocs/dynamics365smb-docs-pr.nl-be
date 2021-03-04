@@ -39,3 +39,6 @@ Als u geen prioriteitsnummer wilt toekennen aan een leverancier, laat u het veld
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

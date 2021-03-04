@@ -105,3 +105,5 @@ Nadat een ontwikkelaar tabellen aan de lijst heeft toegevoegd, kan een beheerder
 [Filteren](ui-enter-criteria-filters.md#filtering)  
 [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

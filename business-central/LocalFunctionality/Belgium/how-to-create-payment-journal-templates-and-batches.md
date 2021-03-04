@@ -54,3 +54,6 @@ Als u een bankrekening toewijst aan de betalingsdagboeksjabloon, wordt de bankre
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

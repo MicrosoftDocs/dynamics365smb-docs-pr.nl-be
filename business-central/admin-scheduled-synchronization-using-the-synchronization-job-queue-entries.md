@@ -100,3 +100,6 @@ Standaard zoekt het taakwachtrij-item VALUTA, dat valuta's in [!INCLUDE[cds_long
 [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)  
 [Een synchronisatie plannen tussen Business Central en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Over integratie van Dynamics 365 Business Central met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

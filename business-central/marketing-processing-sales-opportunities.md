@@ -87,3 +87,6 @@ Als een opportunity een verkoopcyclus volgt, kunt u deze voorwaarts of achterwaa
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

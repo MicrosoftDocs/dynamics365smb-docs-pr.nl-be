@@ -39,3 +39,5 @@ Boekingsinterface en enkele andere functies in codeunit 12 gebruiken boekingseng
   
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

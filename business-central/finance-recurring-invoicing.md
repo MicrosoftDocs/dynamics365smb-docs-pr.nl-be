@@ -121,3 +121,6 @@ Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies 
 [Vraagprognoses en raamcontracten](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)  
 [Periodieke orders (Noorwegen)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

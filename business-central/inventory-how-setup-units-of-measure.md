@@ -87,3 +87,6 @@ Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt
 [Inkopen beheren](purchasing-manage-purchasing.md)  
 [Verkopen beheren](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

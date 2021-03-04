@@ -62,3 +62,6 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [Veelgestelde vragen over elektronische facturering](faq-electronic-invoicing.yml)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

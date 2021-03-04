@@ -182,3 +182,6 @@ Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificate
 ## <a name="see-also"></a>Zie ook  
 [Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)   
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

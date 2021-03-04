@@ -54,3 +54,6 @@ Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er 
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

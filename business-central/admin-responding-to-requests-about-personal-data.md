@@ -62,3 +62,6 @@ Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleef
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Wijzigingen registreren](across-log-changes.md)  
 [Aanvragen van gegevensonderwerpen voor de Algemene verordening gegevensbescherming](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

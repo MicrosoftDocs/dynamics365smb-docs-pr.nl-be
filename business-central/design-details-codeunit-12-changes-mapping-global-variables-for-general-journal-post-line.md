@@ -110,3 +110,6 @@ De volgende wijzigingen zijn geïmplementeerd in versies van [!INCLUDE [navnow_m
 
 ## <a name="see-also"></a>Zie ook  
  [Designdetails: Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

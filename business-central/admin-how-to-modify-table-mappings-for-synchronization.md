@@ -106,3 +106,6 @@ Als u de standaardsynchronisatie-instelling installeert, worden meestal automati
 [Over integratie van Dynamics 365 Business Central met [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )   
 [Gegevens synchroniseren in Business Central en [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)   
 [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

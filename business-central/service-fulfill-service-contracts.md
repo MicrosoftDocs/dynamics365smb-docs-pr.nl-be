@@ -37,3 +37,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Service leveren](service-deliver-service.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

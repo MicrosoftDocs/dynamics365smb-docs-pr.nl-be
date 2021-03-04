@@ -87,3 +87,6 @@ Het gebruik van deze extensie is een kwestie van gegevens exporteren naar de pag
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Aan de slag](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

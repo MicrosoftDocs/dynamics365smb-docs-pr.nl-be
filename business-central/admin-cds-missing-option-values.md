@@ -146,3 +146,5 @@ De tabel **Betalingsvoorwaarden** in [!INCLUDE[prod_short](includes/prod_short.m
 
 ## <a name="see-also"></a>Zie ook
 [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

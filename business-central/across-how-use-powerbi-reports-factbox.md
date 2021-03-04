@@ -89,3 +89,6 @@ Controleer of de grootte van het rapport is ingesteld op 325 x 310 pixels. Sla h
 [Aan de slag](product-get-started.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Financiën](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

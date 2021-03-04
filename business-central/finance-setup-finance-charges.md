@@ -73,3 +73,6 @@ Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de su
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)  
 [Financiën instellen](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Het veld **Omschrijving** op de regel wordt overschreven met de artikelomschrijv
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

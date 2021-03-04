@@ -36,3 +36,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u de Intrastat-aang
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)   
  [Intrastat-rapportage instellen](../../finance-how-setup-report-intrastat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

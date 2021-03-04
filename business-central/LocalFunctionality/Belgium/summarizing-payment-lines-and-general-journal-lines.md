@@ -64,3 +64,6 @@ De EndToEndId in het SEPA-bericht wordt gehaald uit het betalingsbericht en kan 
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [Financiën instellen](../../finance-setup-finance.md)  
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

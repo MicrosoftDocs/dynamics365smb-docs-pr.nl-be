@@ -51,3 +51,6 @@ Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprij
  [Kostprijsboekhouding](finance-about-cost-accounting.md)   
  [Kosten verantwoorden](finance-manage-cost-accounting.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

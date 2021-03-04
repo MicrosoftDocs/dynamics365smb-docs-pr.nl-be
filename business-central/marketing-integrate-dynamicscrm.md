@@ -106,3 +106,6 @@ Als de klantbetaling voor de verkoopfactuur is ontvangen in [!INCLUDE[prod_short
 [Overzicht van Sales en Verkoophub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

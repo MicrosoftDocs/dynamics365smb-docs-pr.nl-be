@@ -69,3 +69,6 @@ Nadat u de voorraadperiode hebt afgesloten, kunt u deze niet verwijderen. U kunt
 [Financiën](finance.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

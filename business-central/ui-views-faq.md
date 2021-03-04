@@ -115,3 +115,6 @@ Expressies die alleen symbolen gebruiken, zoals `|` of `..`, worden als veilig b
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
 [Functies en informatie zoeken](ui-search.md)  
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

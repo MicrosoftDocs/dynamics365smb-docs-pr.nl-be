@@ -164,3 +164,6 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
  [OHW-methoden](projects-understanding-wip.md)   
  [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

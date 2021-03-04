@@ -67,3 +67,6 @@ De volgende tabel geeft een beschrijving van de berekeningen.
 ## <a name="see-also"></a>Zie ook  
 [Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
 [CRM - Service instellen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

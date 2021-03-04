@@ -103,3 +103,6 @@ Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst)
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Rentefactuurcondities instellen](finance-setup-finance-charges.md)  
 [Financiën instellen](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

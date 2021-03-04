@@ -31,3 +31,6 @@ Er wordt uitgelegd hoe het planningssysteem werkt en hoe de algoritmen kunnen wo
 [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
 [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

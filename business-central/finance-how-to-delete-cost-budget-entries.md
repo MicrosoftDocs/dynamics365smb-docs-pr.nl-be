@@ -38,3 +38,6 @@ Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u 
 [Kosten verantwoorden](finance-manage-cost-accounting.md)
 [Kostenbudgetten maken](finance-create-cost-budgets.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

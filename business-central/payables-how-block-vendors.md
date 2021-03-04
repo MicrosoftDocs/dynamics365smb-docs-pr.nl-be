@@ -37,3 +37,6 @@ De volgende tabel beschrijft de opties voor het blokkeren van leveranciers.
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Betalingen uitvoeren](payables-make-payments.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

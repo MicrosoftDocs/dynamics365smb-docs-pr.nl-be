@@ -84,3 +84,6 @@ Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te ver
 [Bankieren instellen](bank-setup-banking.md)  
 [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

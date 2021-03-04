@@ -39,3 +39,6 @@ Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microso
 [Certificeringen](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

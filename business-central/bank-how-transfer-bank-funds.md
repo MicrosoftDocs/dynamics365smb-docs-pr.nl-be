@@ -58,3 +58,6 @@ Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's g
 [Bankieren instellen](bank-setup-banking.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

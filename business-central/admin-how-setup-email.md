@@ -199,3 +199,6 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

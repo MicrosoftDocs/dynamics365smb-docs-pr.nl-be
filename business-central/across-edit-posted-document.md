@@ -54,3 +54,6 @@ De geboekte verkoopverzending wordt bijgewerkt.
 [Inkoop](purchasing-manage-purchasing.md)  
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

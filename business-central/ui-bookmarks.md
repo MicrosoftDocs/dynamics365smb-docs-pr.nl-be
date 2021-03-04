@@ -84,3 +84,6 @@ Wanneer u een nieuwe actie toevoegt, wordt alle vertaalde tekst die op dat momen
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

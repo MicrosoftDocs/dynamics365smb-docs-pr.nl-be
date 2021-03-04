@@ -228,3 +228,6 @@ U kunt afzonderlijke retourorders ook handmatig verwijderen.
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de bat
 [Financiën](finance.md)  
 [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

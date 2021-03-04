@@ -34,3 +34,6 @@ U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijv
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Voordat u elektronische documenten kunt verzenden en ontvangen of bankbestanden 
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

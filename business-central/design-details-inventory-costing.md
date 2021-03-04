@@ -41,3 +41,6 @@ Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastle
 [Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md)  
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ U kunt handmatig een serviceorder maken voor een serviceartikel dat is geregistr
 ## <a name="see-also"></a>Zie ook  
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
 [Serviceorders maken](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

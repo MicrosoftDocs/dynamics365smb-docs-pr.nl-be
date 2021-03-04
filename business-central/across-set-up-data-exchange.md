@@ -42,3 +42,6 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

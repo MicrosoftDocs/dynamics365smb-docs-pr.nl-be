@@ -37,3 +37,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
 [Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

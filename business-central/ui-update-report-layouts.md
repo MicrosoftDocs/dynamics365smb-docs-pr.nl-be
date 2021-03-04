@@ -67,3 +67,6 @@ Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.
 ## <a name="see-also"></a>Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

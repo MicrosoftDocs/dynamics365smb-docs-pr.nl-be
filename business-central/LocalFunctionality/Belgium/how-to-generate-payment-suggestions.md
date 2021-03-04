@@ -49,3 +49,6 @@ Wanneer de batchverwerking is uitgevoerd, bevat het betalingsdagboek alle levera
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

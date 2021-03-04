@@ -33,3 +33,6 @@ Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instelle
  [Elektronisch bankieren voor België](belgian-electronic-banking.md)   
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

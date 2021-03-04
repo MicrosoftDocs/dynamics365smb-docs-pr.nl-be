@@ -52,3 +52,6 @@ Op de pagina **Geregistreerde segmenten** kunt u besluiten een follow-upsegment 
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

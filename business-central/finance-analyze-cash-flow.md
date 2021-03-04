@@ -55,3 +55,6 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

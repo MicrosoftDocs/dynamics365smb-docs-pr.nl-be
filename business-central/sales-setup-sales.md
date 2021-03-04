@@ -44,3 +44,6 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

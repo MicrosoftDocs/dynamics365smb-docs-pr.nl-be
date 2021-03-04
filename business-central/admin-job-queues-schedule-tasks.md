@@ -93,3 +93,6 @@ Zie voor meer informatie [Boeking op de achtergrond instellen met taakwachtrijen
 [Business Central instellen](setup.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -183,3 +183,6 @@ Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **
 [Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

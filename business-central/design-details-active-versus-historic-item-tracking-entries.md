@@ -62,3 +62,6 @@ Wanneer delen van een documentregelaantal worden geboekt, wordt alleen dat bepaa
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)   
  [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Als één serviceartikel bijvoorbeeld de herstelstatus **Eerste** heeft, gekoppe
 
 [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

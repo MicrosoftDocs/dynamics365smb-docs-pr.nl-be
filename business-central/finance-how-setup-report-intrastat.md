@@ -131,3 +131,6 @@ Voeg op de pagina **Tariefcodes** alle codes toe die u gebruikt. U moet de codes
 
 ## <a name="see-also"></a>Zie ook
 [Financieel beheer](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

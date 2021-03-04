@@ -182,3 +182,6 @@ We raden het volgende aan:
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Overzicht](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

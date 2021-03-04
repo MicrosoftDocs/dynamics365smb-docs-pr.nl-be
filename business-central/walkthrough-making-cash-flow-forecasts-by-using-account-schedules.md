@@ -90,3 +90,6 @@ Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.
  [Werken met rekeningschema's](bi-how-work-account-schedule.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

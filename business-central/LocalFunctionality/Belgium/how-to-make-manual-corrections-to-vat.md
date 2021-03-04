@@ -47,3 +47,6 @@ U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboe
  [Belgische btw](belgian-vat.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

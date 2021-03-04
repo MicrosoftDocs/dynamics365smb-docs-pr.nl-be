@@ -86,3 +86,6 @@ De artikeltoeslag op de afzonderlijke inkoopfactuur wordt nu toegewezen aan het 
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

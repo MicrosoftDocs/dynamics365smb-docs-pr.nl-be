@@ -46,3 +46,6 @@ Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

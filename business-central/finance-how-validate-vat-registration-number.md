@@ -49,3 +49,6 @@ Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIE
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Lokale functionaliteit in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

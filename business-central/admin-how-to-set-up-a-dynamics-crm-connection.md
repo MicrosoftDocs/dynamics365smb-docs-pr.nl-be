@@ -144,3 +144,6 @@ Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren
 ## <a name="see-also"></a>Zie ook
 
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

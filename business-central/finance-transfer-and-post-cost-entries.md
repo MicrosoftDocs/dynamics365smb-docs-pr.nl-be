@@ -101,3 +101,6 @@ In de tabel **Kostenregister**, wordt door [!INCLUDE[prod_short](includes/prod_s
  [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)   
  [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)   
  [Kosten verantwoorden](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

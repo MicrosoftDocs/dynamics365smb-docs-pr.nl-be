@@ -46,3 +46,6 @@ Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en 
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md) [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

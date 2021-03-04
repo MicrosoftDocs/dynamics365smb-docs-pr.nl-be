@@ -67,3 +67,6 @@ Bij het berekenen van een MPS of MRP gelden de volgende beperkingen:
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)   
 [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

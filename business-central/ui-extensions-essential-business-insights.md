@@ -38,3 +38,6 @@ De volgende tabel beschrijft de inzichten die deze extensie biedt voor elk rolce
 
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

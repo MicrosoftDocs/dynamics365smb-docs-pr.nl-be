@@ -37,3 +37,6 @@ Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boek
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

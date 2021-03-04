@@ -170,3 +170,6 @@ Zie voor details over het plannen met locaties en transfers [Planning met of zon
 [Inkoop](purchasing-manage-purchasing.md)  
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

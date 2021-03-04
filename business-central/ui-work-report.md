@@ -163,3 +163,6 @@ De velden onder **Geavanceerd** stellen beperkingen in voor het gegenereerde rap
 [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)  
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

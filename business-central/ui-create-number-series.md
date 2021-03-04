@@ -87,3 +87,6 @@ Wanneer u nu iets instelt waarvoor u een nummer nodig hebt, kunt u de relaties g
 ## <a name="see-also"></a>Zie ook
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

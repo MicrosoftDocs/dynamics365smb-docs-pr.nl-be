@@ -197,3 +197,6 @@ Bedragen in documenten die nog niet zijn geboekt, worden afgerond en weergegeven
 [Lokale functionaliteit in Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

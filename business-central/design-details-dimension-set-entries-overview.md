@@ -50,3 +50,6 @@ Door dimensiesets eenmalig in de database op te slaan, wordt databaseruimte besp
 [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   
 [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)   
 [Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

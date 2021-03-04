@@ -77,3 +77,5 @@ Wanneer u verkopers in [!INCLUDE[prod_short](includes/prod_short.md)] koppelt aa
 
 ## <a name="see-also"></a>Zie ook
 [Informatie over [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

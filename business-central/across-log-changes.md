@@ -88,3 +88,5 @@ U kunt bewaarbeleid maken om onnodige gegevens in logboeken te verwijderen na ee
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Bewaarbeleid definiëren](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

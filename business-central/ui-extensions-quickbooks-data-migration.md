@@ -70,3 +70,6 @@ Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks slaat h
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

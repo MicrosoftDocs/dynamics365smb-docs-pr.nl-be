@@ -162,3 +162,6 @@ Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-op
 ## <a name="see-also"></a>Zie ook  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Servicebeheer](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

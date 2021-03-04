@@ -59,3 +59,6 @@ U kunt een of meer records loskoppelen van lijstpagina's of de pagina **Fouten m
 
 ## <a name="see-also"></a>Zie ook  
 [Microsoft Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

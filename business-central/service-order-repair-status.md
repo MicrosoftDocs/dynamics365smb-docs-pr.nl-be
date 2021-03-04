@@ -52,3 +52,6 @@ Herhaal deze stappen voor elke herstelstatusoptie die u wilt maken.
 
 [Serviceorderstatus en herstelstatus](service-service-order-status-and-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

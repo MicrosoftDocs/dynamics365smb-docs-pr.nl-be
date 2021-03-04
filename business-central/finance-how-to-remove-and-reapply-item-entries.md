@@ -78,3 +78,6 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)   
  [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -111,3 +111,6 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 [Documentatie van Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Business Central aanpassen met extensies](ui-extensions.md)  
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

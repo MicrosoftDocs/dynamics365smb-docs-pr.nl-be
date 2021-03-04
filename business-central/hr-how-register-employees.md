@@ -61,3 +61,6 @@ U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bi
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

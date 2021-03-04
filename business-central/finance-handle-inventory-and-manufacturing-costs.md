@@ -38,3 +38,6 @@ Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt 
 ## <a name="see-also"></a>Zie ook  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)
 [Ontwerpdetails: Voorraadkosten](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

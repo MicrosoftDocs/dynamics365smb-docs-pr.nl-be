@@ -42,3 +42,6 @@ Elke werkstroomsjabloon die u maakt met Power Automate wordt toegevoegd aan de l
 [Inkoop](purchasing-manage-purchasing.md)  
 [Projecten beheren](projects-manage-projects.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

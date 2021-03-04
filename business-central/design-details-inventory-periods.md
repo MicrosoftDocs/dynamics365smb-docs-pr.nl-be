@@ -33,3 +33,6 @@ Geantidateerde boekingen of kostprijscorrecties zijn vaak van invloed op saldi e
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  
  [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

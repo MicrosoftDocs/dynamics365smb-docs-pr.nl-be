@@ -80,3 +80,6 @@ Verkoopfacturen worden gemaakt voor klanten met de opgegeven standaard klantverk
 
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook 
 [CRM - Service](service-service.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

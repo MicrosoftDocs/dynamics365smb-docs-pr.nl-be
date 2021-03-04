@@ -210,3 +210,6 @@ De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist,
 [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)  
 [Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md)  
 [Werken met intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

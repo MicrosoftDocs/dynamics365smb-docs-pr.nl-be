@@ -149,3 +149,6 @@ Het onderwerp bevat de volgende procedures:
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Verkopen factureren](sales-how-invoice-sales.md)   
 [Inkopen vastleggen](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

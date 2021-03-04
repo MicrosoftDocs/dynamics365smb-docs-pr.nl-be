@@ -60,3 +60,6 @@ Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende ge
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  
 [Aan de slag](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

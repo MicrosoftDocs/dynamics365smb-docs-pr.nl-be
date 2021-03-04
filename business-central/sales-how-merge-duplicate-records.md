@@ -68,3 +68,6 @@ De volgende procedure is gebaseerd op een klantenkaart. De stappen zijn voor lev
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen instellen](marketing-setup-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

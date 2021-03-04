@@ -63,3 +63,6 @@ Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomge
 [Werkstromen instellen](across-set-up-workflows.md)   
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Werkstroom](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

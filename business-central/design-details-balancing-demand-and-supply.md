@@ -291,3 +291,6 @@ Hiermee worden de omschrijvingen afgerond van hoe vraag en voorzieningen worden 
  [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)   
  [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
  [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

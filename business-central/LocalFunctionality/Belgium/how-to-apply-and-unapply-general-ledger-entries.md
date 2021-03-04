@@ -25,3 +25,6 @@ ms.locfileid: "3914011"
 
 [Het grootboek en COA begrijpen](../../finance-general-ledger.md)  
 [Belgische lokale functionaliteit](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Zie voor meer informatie [Gegevens versleutelen in Dynamics 365 Business Central
 
 ## <a name="see-also"></a>Zie ook  
 [Beheer](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

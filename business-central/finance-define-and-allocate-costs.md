@@ -143,3 +143,6 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
  [Kosten verantwoorden](finance-manage-cost-accounting.md)   
  [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   
  [Kostprijsboekhouding](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

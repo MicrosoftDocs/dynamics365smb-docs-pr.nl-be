@@ -39,3 +39,6 @@ Hierna wordt beschreven hoe u een opmerking aan een artikelkaart toevoegt. De st
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

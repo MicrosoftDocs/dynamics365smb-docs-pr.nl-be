@@ -47,3 +47,6 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
  [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

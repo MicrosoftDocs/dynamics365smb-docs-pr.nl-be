@@ -56,3 +56,6 @@ U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielog
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -130,3 +130,6 @@ Als een bedrijfsscenario een werkstroomgebeurtenis of -reactie vereist die niet 
 [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)  
 [Werkstroom](across-workflow.md)  
 [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Er zijn drie manieren om gegevenssynchronisatie in te schakelen tussen contacten
 [Contactpersonen beheren](marketing-contacts.md)  
 [Contactpersonen instellen](marketing-setup-contacts.md)  
 [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

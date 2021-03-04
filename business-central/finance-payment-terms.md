@@ -47,3 +47,6 @@ Nadat u de betalingscondities hebt ingesteld, wijst u deze toe aan klanten en le
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -51,3 +51,5 @@ Breng uw Dynamics C5-gegevens mee. Nadat uw Microsoft-partner de extensie Basise
 
 ## <a name="see-also"></a>Zie ook
 [De extensie C5-gegevensmigratie](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

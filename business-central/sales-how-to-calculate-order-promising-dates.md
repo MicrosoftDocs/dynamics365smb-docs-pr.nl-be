@@ -145,3 +145,6 @@ Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zi
 [Verkoop](sales-manage-sales.md)  
 [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

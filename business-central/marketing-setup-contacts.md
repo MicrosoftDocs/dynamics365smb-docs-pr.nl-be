@@ -161,3 +161,6 @@ Wanneer u een dubbel contact hebt gevonden, kunt u de pagina **Dubbele records s
 [Contacten maken](marketing-create-contact-companies.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

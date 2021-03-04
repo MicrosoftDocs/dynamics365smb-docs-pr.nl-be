@@ -59,3 +59,6 @@ De reden hiervoor is dat het rolcentrum of de rol die op dat moment aan uw gebru
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

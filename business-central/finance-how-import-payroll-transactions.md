@@ -38,3 +38,6 @@ Als u salarisbetalingen en gerelateerde transacties wilt verantwoorden, moet u f
 [Financiën](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

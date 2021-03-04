@@ -51,3 +51,6 @@ Campagnes worden gehouden door verkopers en u moet activiteiten maken voor elke 
 [Segmenten beheren](marketing-segments.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

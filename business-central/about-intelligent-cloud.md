@@ -51,3 +51,6 @@ Wanneer uw Dynamics 365 doorverkopende partner de juiste licentie heeft verkrege
 [Welkom bij Business Central](index.md)  
 [Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  
 [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

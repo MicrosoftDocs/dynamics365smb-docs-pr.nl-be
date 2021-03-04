@@ -105,3 +105,6 @@ Het proces van bijwerken of berekenen van vaste verrekenprijzen bestaat gewoonli
  [Werken met stuklijsten](inventory-how-work-BOMs.md)   
  [Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)   
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

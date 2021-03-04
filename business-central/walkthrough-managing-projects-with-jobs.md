@@ -489,3 +489,6 @@ Door prijzen, projecttaakregels en projectplanningsregels voor twee taken te ver
  [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)   
  [Projecten factureren](projects-how-invoice-jobs.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

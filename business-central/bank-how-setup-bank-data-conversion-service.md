@@ -64,3 +64,6 @@ Uw hebt zich nu aangemeld bij de extensie AMC Banking 365 Fundamentals. Ga verde
 [Bankieren instellen](bank-setup-banking.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

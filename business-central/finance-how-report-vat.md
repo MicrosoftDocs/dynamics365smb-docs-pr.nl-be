@@ -121,3 +121,6 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

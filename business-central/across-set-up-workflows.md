@@ -53,3 +53,6 @@ Deze video laat zien hoe u een werkstroom instelt waarvoor iemand de goedkeuring
  [Werkstroom](across-workflow.md)   
  [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

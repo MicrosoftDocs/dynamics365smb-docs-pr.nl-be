@@ -35,3 +35,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Verwerk inkomende potentiële klanten door opportunity's te maken en aan verkopers te koppelen, zodat u potentiële verkopen kunt bijhouden.|[Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)|
 |Maak marketingplannen om klanten te identificeren, aan te trekken en vast te houden.|[Marketingcampagnes beheren](marketing-campaigns.md)|
 |Gebruik Dynamics 365 Sales voor contacten met klanten en profiteer van naadloze integratie in het lead-naar-cash proces door Business Central te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.|[Integreren met Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

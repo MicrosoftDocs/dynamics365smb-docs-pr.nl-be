@@ -46,3 +46,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Service plannen](service-plan-service.md)  
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
 [Projecten beheren](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

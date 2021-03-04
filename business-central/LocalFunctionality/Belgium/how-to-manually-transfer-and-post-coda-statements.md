@@ -39,3 +39,6 @@ Zie [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-tr
  [CODA-afschriften vereffenen](how-to-apply-coda-statements.md)   
  [Financiële dagboeken maken](how-to-create-financial-journals.md)   
  [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

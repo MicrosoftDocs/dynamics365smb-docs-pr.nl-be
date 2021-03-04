@@ -66,3 +66,6 @@ In dit voorstel werkt u met een aantal regels voor de inhoud van verschillende o
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

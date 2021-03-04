@@ -43,3 +43,6 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
  [CODA-bankafschriften](coda-bank-statements.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [CODA-afschriften importeren](how-to-import-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

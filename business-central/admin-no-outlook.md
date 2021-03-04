@@ -29,3 +29,6 @@ U kunt documenten zoals facturen als e-mail verzenden met behulp van uw bedrijfs
 [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [Business Central op mijn mobiele apparaat krijgen](install-mobile-app.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -82,3 +82,6 @@ De invoegtoepassingen zijn ontworpen om te worden gebruikt met Microsoft 365. Al
 [Inkoop](purchasing-manage-purchasing.md)  
 [Minimale vereisten voor Outlook](product-requirements.md#outlook)  
 [Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

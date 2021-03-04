@@ -78,3 +78,6 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
  [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md)   
  [Domiciliëringen testen](how-to-test-domiciliations.md)   
  [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

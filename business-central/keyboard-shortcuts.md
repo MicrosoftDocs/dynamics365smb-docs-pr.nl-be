@@ -222,3 +222,6 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
 [Posten zoeken](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

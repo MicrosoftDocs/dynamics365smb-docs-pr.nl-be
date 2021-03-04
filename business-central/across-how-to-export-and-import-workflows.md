@@ -47,3 +47,6 @@ Als u werkstromen wilt overbrengen naar andere [!INCLUDE[prod_short](includes/pr
  [Werkstromen instellen](across-set-up-workflows.md)   
  [Werkstromen gebruiken](across-use-workflows.md)   
  [Werkstroom](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

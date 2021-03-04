@@ -63,3 +63,6 @@ Om ervoor te zorgen dat verkoop- en inkoopfacturen automatisch worden afgerond, 
 ## <a name="see-also"></a>Zie ook  
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

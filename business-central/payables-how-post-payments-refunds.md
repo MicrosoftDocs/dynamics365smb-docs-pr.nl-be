@@ -57,3 +57,6 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Uw werkruimte personaliseren](ui-personalization-user.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

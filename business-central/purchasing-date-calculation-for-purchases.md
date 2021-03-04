@@ -60,3 +60,6 @@ De levertermijnwaarde op de leverancierskaart wordt echter alleen gebruikt als e
 [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)   
 [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

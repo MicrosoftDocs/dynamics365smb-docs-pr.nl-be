@@ -117,3 +117,6 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 [Productie](production-manage-manufacturing.md)    
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

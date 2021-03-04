@@ -41,3 +41,6 @@ Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van op
 ## <a name="see-also"></a>Zie ook
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

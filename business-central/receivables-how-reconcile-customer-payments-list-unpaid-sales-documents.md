@@ -187,3 +187,6 @@ Als u de dagboekregel ongeboekt laat, wordt deze toegevoegd aan de waarde in het
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

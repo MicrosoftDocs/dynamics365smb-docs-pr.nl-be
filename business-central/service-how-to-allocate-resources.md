@@ -143,3 +143,6 @@ U kunt resourcetoewijzingen voor servicetaken annuleren zonder de taken opnieuw 
 ## <a name="see-also"></a>Zie ook
 [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
 [Toewijzingsstatus en herstelstatus](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

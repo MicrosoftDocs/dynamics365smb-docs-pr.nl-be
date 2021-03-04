@@ -39,3 +39,6 @@ U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkop
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)    
 [Financiën](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

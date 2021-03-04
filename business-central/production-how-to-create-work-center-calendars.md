@@ -111,3 +111,6 @@ De geregistreerde afwezigheid is nu in mindering gebracht op de capaciteit van d
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

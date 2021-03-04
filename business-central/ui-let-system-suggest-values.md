@@ -44,3 +44,6 @@ Uw hoofdacties op de pagina bestaan eruit het selectievakje **Is betaald** en he
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Financiën](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

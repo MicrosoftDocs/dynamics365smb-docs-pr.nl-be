@@ -305,3 +305,6 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 [Posten zoeken](ui-find-entries.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

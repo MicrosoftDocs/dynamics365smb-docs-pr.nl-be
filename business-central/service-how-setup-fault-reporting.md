@@ -47,3 +47,6 @@ Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke rep
 ## <a name="see-also"></a>Zie ook
 [CRM - Service instellen](service-setup-service.md)  
 [Servicebeheer](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

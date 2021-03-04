@@ -87,3 +87,6 @@ De volgende tabel beschrijft ze.
 [Verkoop](sales-manage-sales.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

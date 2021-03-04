@@ -83,3 +83,6 @@ Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiks
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)      
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

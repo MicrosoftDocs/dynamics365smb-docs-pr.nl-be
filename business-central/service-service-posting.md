@@ -58,3 +58,6 @@ In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruik
 ## <a name="see-also"></a>Zie ook  
 [Serviceorders boeken](service-how-to-post-service-orders.md)   
 [Serviceorders maken](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

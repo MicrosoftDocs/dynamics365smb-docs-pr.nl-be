@@ -65,3 +65,6 @@ Wanneer u met serviceartikelen en -orders werkt, moet u mogelijk aanvullende kos
 ## <a name="see-also"></a>Zie ook
 [CRM - Service instellen](service-setup-service.md)  
 [Servicebeheer](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

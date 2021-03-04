@@ -120,3 +120,6 @@ De geëxporteerde posten bevatten de volgende velden: **Bankrekeningnr.**, **Boe
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

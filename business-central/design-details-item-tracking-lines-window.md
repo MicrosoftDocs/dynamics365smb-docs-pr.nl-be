@@ -32,3 +32,5 @@ De regels voor het invoeren van gegevens op de pagina **Artikeltraceringsregels*
   
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

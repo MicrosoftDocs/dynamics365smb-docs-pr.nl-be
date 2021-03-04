@@ -98,3 +98,6 @@ De notitie is nu aan de verkooporder toegevoegd.
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

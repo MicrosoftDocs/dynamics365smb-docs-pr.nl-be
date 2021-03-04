@@ -63,3 +63,6 @@ Als u dit wilt instellen, moet u divisies toewijzen aan gebruikers in drie basis
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

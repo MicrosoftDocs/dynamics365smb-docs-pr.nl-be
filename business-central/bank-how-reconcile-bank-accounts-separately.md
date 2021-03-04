@@ -159,3 +159,6 @@ Als de volgende bankreconciliatie die u uitvoert voor augustus is, kunt u overwe
 [Bankieren instellen](bank-setup-banking.md)  
 [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

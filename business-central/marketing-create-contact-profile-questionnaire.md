@@ -158,3 +158,6 @@ Wanneer u de profielvragenlijst met deze vraag aan een contact toewijst, wordt h
 
 ## <a name="see-also"></a>Zie ook
 [Contacten maken](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

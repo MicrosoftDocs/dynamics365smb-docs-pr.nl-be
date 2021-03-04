@@ -34,3 +34,6 @@ Wanneer u de extensie in uw [!INCLUDE [prod_short](includes/prod_short.md)] inst
 [Werk beheren tussen meerdere bedrijven in de bedrijfshub](company-hub.md)  
 [Accountantervaringen in Business Central](finance-accounting.md)  
 [Financiën](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

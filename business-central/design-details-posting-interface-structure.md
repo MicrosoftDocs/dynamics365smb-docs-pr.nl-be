@@ -28,3 +28,5 @@ In de boekingsinterfacestructuur van [!INCLUDE[prod_short](includes/prod_short.m
   
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

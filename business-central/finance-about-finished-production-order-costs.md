@@ -24,3 +24,6 @@ Het gereedmelden van de productieorder is een belangrijke taak in het voltooien 
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Productie](production-manage-manufacturing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -63,3 +63,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Aan de slag](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

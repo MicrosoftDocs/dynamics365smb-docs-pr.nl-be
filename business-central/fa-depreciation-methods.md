@@ -357,3 +357,6 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het ve
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

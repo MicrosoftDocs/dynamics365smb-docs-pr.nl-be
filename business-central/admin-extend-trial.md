@@ -56,3 +56,6 @@ Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonne
 [Hoe vind ik een partner-reseller?](across-faq.md#findpartner)  
 [Proeven verlengen (als beheerder)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Aan de slag gaan als reseller van Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

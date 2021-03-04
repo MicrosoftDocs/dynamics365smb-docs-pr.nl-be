@@ -234,3 +234,6 @@ Wanneer u documenten of dagboekregels boekt die dimensies bevatten, kunnen versc
 [Financiën](finance.md)  
 [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

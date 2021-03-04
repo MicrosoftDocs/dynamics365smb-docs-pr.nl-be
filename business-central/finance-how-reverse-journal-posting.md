@@ -85,3 +85,6 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

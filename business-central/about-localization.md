@@ -64,3 +64,6 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de 
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationale beschikbaarheid van Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Ontwikkeling van een lokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

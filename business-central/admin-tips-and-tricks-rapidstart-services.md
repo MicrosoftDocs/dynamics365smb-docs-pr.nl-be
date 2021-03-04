@@ -50,3 +50,6 @@ Wanneer u configuratiepakketten gebruikt om gegevens te migreren, kunt u de gege
 
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

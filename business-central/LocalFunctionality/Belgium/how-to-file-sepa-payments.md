@@ -46,3 +46,6 @@ Voordat u een SEPA-betaling kunt indienen, moet u de volgende beheertaken uitvoe
  [Exportprotocollen instellen](how-to-set-up-export-protocols.md)   
  [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md)   
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

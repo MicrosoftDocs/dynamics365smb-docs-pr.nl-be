@@ -67,3 +67,6 @@ Tijdens het instellen van de verbinding worden integratietabeltoewijzingen gemaa
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

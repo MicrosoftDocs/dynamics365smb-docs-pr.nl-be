@@ -141,3 +141,6 @@ De opslagsjabloon kan worden toegewezen aan een artikel en aan een vestiging. De
 
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)   
 [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Bovendien hebben alle toekomstige posten van hetzelfde type bedragen in zowel de
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -138,3 +138,6 @@ Als u slechts een deel van een bedrijf bezit, kunt u een percentage van elke tra
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

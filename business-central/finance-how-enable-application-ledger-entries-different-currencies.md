@@ -51,3 +51,6 @@ Als u posten in verschillende valuta's vereffent, moet u instellen naar welke gr
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
