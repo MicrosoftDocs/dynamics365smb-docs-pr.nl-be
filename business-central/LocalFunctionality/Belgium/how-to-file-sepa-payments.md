@@ -3,16 +3,16 @@ title: SEPA-betalingen indienen
 description: In Business Central kunt u SEPA-kredietoverboekingen (Single Euro Payments Area) gebruiken om SEPA-betalingen in te dienen bij de bank.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5500d3cf6a1f155ff2d8f0db537215bccb47990f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4784e9181c188634084123ed8cb94b7da8eff6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749705"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379550"
 ---
 # <a name="file-sepa-payments"></a>SEPA-betalingen indienen
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u SEPA-kredietoverboekingen (Single Euro Payments Area) gebruiken om SEPA-betalingen in te dienen bij de bank.  

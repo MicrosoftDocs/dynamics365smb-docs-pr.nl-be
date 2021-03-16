@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 849270909d695367348cff2b639712e0973a22c4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bb581979047aa8edcaf8849a05711ad4657bb906
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379493"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Leveranciers voor automatische betalingsvoorstellen instellen
 U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen. Voor elke leverancier moet u bepalen of er automatisch betalingsvoorstellen moeten worden gegenereerd. Als u geen betalingsvoorstellen voor een leverancier wilt genereren, schakelt u het selectievakje **Betalingen voorstellen** niet in. In dat geval worden de openstaande posten voor de leverancier niet opgenomen in betalingsvoorstellen.  

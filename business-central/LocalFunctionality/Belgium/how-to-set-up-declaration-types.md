@@ -3,19 +3,19 @@ title: Aangiftesoorten instellen
 description: In Business Central zijn er twee soorten aangiftes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f4a1cc1950fbaee6743fe8ae41c903cfdf667243
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d184bdf9e5778cd786fa08941545604264e6f549
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749718"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379514"
 ---
 # <a name="set-up-declaration-types"></a>Aangiftesoorten instellen
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] zijn er twee soorten aangiftes:  

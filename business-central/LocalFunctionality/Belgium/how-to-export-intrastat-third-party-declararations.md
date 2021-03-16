@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 0d6ca22a5d06a5a273e7c5e9d70272620a86f7d4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a83740591c253bf50917ac17040da57c6b3571ac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916506"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379559"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn. 

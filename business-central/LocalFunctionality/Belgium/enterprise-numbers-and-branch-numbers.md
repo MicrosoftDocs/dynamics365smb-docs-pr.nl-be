@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c7abf8c8e104841389b208fc6843e5c1b7bb777
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cce3f97e302aa3863555f9e480844041c0615eb3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914018"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379586"
 ---
 # <a name="enterprise-numbers-and-branch-numbers"></a>Ondernemingnummers en filiaalnummers
 Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen. Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.  

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f28c476d79bc52f879c6b4e0e81cf5c83cc6448f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0ad74ec86aa6c13793433926bb7be47c1b28a0e9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916503"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379565"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Domiciliëringsregels bewerken en verwijderen
 Nadat u domiciliëringsvoorstellen hebt gegenereerd, wilt u wellicht de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  

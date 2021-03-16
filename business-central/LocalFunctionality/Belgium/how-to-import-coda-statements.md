@@ -3,19 +3,19 @@ title: CODA-afschriften importeren
 description: Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7becb5c9e04fe0f8f40c71fe74b635b96920edb7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e0597cbd38be327e999132182d8cc480c0b845a6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749708"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379541"
 ---
 # <a name="import-coda-statements"></a>CODA-afschriften importeren
 Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).  
