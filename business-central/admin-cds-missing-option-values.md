@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752887"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492975"
 ---
 # <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] bevat slechts drie optiesetvelden die optiewaarden bevatten die u kunt toewijzen aan [!INCLUDE[prod_short](includes/prod_short.md)]-velden van het type Optie<!-- Option type, not enum? @Onat can you vertify this? --> voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Deze sectie beschrijft hoe dat werkt.
+Dit onderwerp is bedoeld voor een technisch publiek. De processen die het beschrijft, hebben de hulp van een ontwikkelaar nodig.
 
-De pagina **Toewijzing van integratietabel** bevat drie toewijzingen voor velden die een of meer toegewezen optiewaarden bevatten. Na een volledige synchronisatie bevat de pagina **Toewijzing van CDS-optie** de niet-toegewezen opties in de drie velden respectievelijk.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] bevat drie optiesetvelden die waarden bevatten die u kunt toewijzen aan [!INCLUDE[prod_short](includes/prod_short.md)]-velden van het type Optie, voor geautomatiseerde synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en toegevoegd aan de systeemtabel **Dataverse-optietoewijzing** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken.
+
+De pagina **Toewijzing van integratietabel** bevat drie velden die een of meer toegewezen optiewaarden bevatten. Na een volledige synchronisatie bevat de pagina **Dataverse-optietoewijzing** de niet-toegewezen opties in de drie velden.
 
 |         Record             | Optiewaarde | Bijschrift optiewaarde |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ De pagina **Toewijzing van integratietabel** bevat drie toewijzingen voor velden
 | Expediteur: VOLLEDIGELADING   | 6            | Volledige lading            |
 | Expediteur: AFHALEN   | 7            | Afhalen            |
 
-De inhoud van de pagina **Toewijzing van CDS-optie** is gebaseerd op opsommingswaarden in de tabel **CDS-account**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] worden de volgende velden van de accounttabel toegewezen aan velden in de klant- en leveranciersrecords:
+De inhoud van de pagina **Dataverse-optietoewijzing** is gebaseerd op opsommingswaarden in de tabel **CRM-account**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] worden de volgende velden van de accounttabel toegewezen aan velden in de klant- en leveranciersrecords:
 
 - **Adres 1: vrachtvoorwaarden** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Adres 1: verzendmethode** van het gegevenstype Enum, waar waarden als volgt worden gedefinieerd:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)]-optietoewijzing bijwerken
 Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties en [!INCLUDE[prod_short](includes/prod_short.md)]-records.
 
-Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Toewijzing van CDS-optie** wordt bijgewerkt met de aanvullende records hieronder.
+Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Dataverse-optietoewijzing** wordt bijgewerkt met de aanvullende records hieronder.
 
 |         Record                 | Optiewaarde   | Bijschrift optiewaarde |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing
 | **Betalingsvoorwaarden: CONTANTE BETALING**  | **779800001**  | **Contante betaling**     |
 | **Betalingsvoorwaarden: TRANSFER**    | **779800002**  | **Transfer**         |
 
-De tabel **Betalingsvoorwaarden** in [!INCLUDE[prod_short](includes/prod_short.md)] bevat dan nieuwe records voor de [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties. In de volgende tabel zijn nieuwe opties vetgedrukt. Cursieve rijen vertegenwoordigen alle opties die nu kunnen worden gesynchroniseerd. Resterende rijen vertegenwoordigen opties die niet in gebruik zijn en worden genegeerd tijdens synchronisatie. U kunt ze verwijderen of CDS-opties met dezelfde namen uitbreiden.)
+De tabel **Betalingsvoorwaarden** in [!INCLUDE[prod_short](includes/prod_short.md)] bevat dan nieuwe records voor de [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties. In de volgende tabel zijn nieuwe opties vetgedrukt. Cursieve rijen vertegenwoordigen alle opties die nu kunnen worden gesynchroniseerd. Resterende rijen vertegenwoordigen opties die niet in gebruik zijn en worden genegeerd tijdens synchronisatie. U kunt deze verwijderen of Dataverse-opties met dezelfde namen uitbreiden.
 
 | Code       | Vervaldatumberekening | Kortingsdatumberekening | Korting % | Contantkorting op creditnota's berekenen | Omschrijving       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ De tabel **Betalingsvoorwaarden** in [!INCLUDE[prod_short](includes/prod_short.m
 | 30 DAGEN    | 30D                  |                           | 0.         | ONWAAR                         | Netto 30 dagen       |
 | 60 DAGEN    | 60D                  |                           | 0.         | ONWAAR                         | Netto 60 dagen       |
 | 7 DAGEN     | 7D                   |                           | 0.         | ONWAAR                         | Netto 7 dagen        |
-| ***CONTANTE BETALING** |                      |                           | 0.         | ONWAAR                         |                   |
+| ***CONTANTE BETALING*** |                      |                           | 0.         | ONWAAR                         |                   |
 | LM         | LM                   |                           | 0.         | ONWAAR                         | Lopende maand     |
 | REMBOURS        | 0D                   |                           | 0.         | ONWAAR                         | Rembours  |
-| _NETTO30*      |                      |                           | 0.         | ONWAAR                         |                   |
+| *NETTO 30*      |                      |                           | 0.         | ONWAAR                         |                   |
 | *NETTO45*      |                      |                           | 0.         | ONWAAR                         |                   |
 | *NETTO60*      |                      |                           | 0.         | ONWAAR                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | ONWAAR                         |                   |

@@ -3,19 +3,19 @@ title: Toetsenbordsneltoetsen
 description: De volledige lijst met toetsenbordsneltoetsen om efficiënt met uw gegevens te werken.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746128"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470499"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -56,7 +56,6 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |Alt+Shift+N |Een nieuw gemaakte pagina sluiten en een nieuwe openen om een nieuwe record te maken. Met Alt+F9 publiceert u een document en maakt u een nieuw.|
 |Alt+T|De pagina **Mijn instellingen** openen.|
 |Alt+Pijl rechts|Zoek aanvullende informatie of onderliggende waarden voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "Knop AssistEdit") bevat. Dit wordt gebruikt wanneer de gebruikelijke vervolgkeuzeknop (Alt+Pijl-omlaag) in hetzelfde veld voor een ander doel wordt gebruikt.|
-|Shift+F12|Open de rollenverkenner, een functieoverzicht. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Informatie weergeven in de bedrijfsbadge.|
 |Ctrl+Alt+F1|Het pagina-inspectiedeelvenster openen en sluiten. Het pagina-inspectiedeelvenster bevat informatie over de pagina, zoals de brontabel, velden, filters, extensies en meer.<br /><br />Zie [Pagina's inspecteren](across-inspect-page.md) voor meer informatie.|
 |Ctrl+C |De waarde van het veld kopiëren. Als het veld de focus heeft en u geen tekst in het veld hebt geselecteerd, wordt hiermee de hele waarde gekopieerd. Als u een tekst in het veld hebt geselecteerd, wordt alleen de geselecteerde tekst gekopieerd.|
@@ -213,6 +212,18 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Ctrl++|Inzoomen op de huidige pagina.|  
 |Ctrl+-|Uitzoomen op de huidige pagina.|  
 |Ctrl+0|Inzoomen of uitzoomen tot 100% op de huidige pagina.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Sneltoetsen voor rollenverkenner
+
+Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke functies die beschikbaar zijn voor uw rol. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
+
+|Druk op deze toetsen<br />(in macOS)|Actie|
+|--------------------------------|----------|
+|Shift+F12|De rollenverkenner openen.|
+|F3|Het vak **Zoeken** openen in rollenverkenner om functies te vinden op basis van een bepaald zoekwoord of een bepaalde term.|
+|F3 or Ctrl+Pijl omlaag|Verplaatst de focus naar de volgende gevonden functie in de rollenverkenner. F3 verplaatst de focus naar het vak **Zoeken** na de laatst gevonden functie.|
+|Shift F3 of Ctrl+Pijl-omhoog|Verplaatst de focus naar de vorige gevonden functie in de rollenverkenner.|
+|Ctrl+Shift|Alle subknooppunten uitvouwen of samenvouwen, naast knooppunten op het hoogste niveau, wanneer u de actie **Uitvouwen** of **Samenvouwen** kiest.|
 
 ## <a name="see-also"></a>Zie ook
 

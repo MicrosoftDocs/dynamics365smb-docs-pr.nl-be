@@ -3,19 +3,19 @@ title: Taken plannen voor automatische uitvoering
 description: Geplande taken worden beheerd door de taakwachtrij. Met deze taken worden rapporten en codeunits uitgevoerd. U kunt taken éénmalig of herhaaldelijk uitvoeren.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013958"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470274"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 
@@ -57,7 +57,7 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
 
 > [!TIP]
-> Met [!INCLUDE [prod_short](includes/prod_short.md)] online kunt u ook de status van taakwachtrijposten bekijken met Application Insights in Microsoft Azure. Zie voor meer informatie [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] Help voor ontwikkelaars en IT Pro.
+> Met [!INCLUDE [prod_short](includes/prod_short.md)] online kunt u ook de status van taakwachtrijposten bekijken met Application Insights in Microsoft Azure. Zie voor meer informatie [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] Help voor ontwikkelaars en beheerders.
 
 ## <a name="the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij
 In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrijposten weergegeven die u hebt gestart, maar die nog niet zijn voltooid. Standaard is het onderdeel niet zichtbaar, zodat u het moet toevoegen aan uw rolcentrum. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  
@@ -92,7 +92,7 @@ Zie voor meer informatie [Boeking op de achtergrond instellen met taakwachtrijen
 [Beheer](admin-setup-and-administration.md)  
 [Business Central instellen](setup.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
-[Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

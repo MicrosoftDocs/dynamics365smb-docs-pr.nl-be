@@ -1,37 +1,38 @@
 ---
-title: Jaareinde-ultimopost controleren en boeken | Microsoft Docs
+title: De jaareinde-ultimopost boeken
 description: Beschrijft hoe u het dagboek opent dat u hebt opgegeven in de batchverwerking Afsluiten WenV-rekening en vervolgens de jaareinde-ultimopost controleert en boekt.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2020
-ms.author: jswymer
-ms.openlocfilehash: ca92d9535a9a15d46d93de6febdfd169c3d7d17a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.date: 02/23/2021
+ms.author: edupont
+ms.openlocfilehash: 728a3edc1ef2200d4f28130cad6653d6b26a5b3b
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755554"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493365"
 ---
 # <a name="post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
-Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.
+
+Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.  
+
+> [!TIP]
+> Afhankelijk van de werkprocessen van uw organisatie, kunt u ervoor kiezen om boekhoudkundige perioden en boekjaren wel of niet af te sluiten in [!INCLUDE [prod_short](includes/prod_short.md)]. Bij de volgende procedure wordt ervan uitgegaan dat u het boekjaar hebt afgesloten met de optie *Boekhoudperioden*, een jaarafsluitingspost hebt gegenereerd met behulp van de batchverwerking **Resultatenrekeningen sluiten** en nu klaar bent om de jaarafsluitingspost te boeken samen met de uitstellende vermogensrekeningboekingen. Uw organisatie kan ervoor kiezen om anders te werken, zoals het boeken van de jaarafsluitingspost als onderdeel van het afsluiten van het boekjaar.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.
 2. Selecteer op de pagina **Diversendagboek** in het veld **Batchnaam** de batch die de ultimoposten bevat.
 3. Controleer de posten.
 4. Kies de actie **Boeken** om het dagboek te boeken.
 
 > [!NOTE]  
->   Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven. Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald. Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.
+> Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven. Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald. Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.
 
 ## <a name="see-also"></a>Zie ook
+
 [Boekhoudperioden afsluiten](year-close-account-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
 [Afsluiten WenV-rekening](year-close-income-statement.md)  

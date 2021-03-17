@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Centrale begrippen van het planningssysteem | Microsoft 
 description: De planningsfuncties bevinden zich in een batchverwerking waarmee eerst de relevante artikelen en periode voor de planning worden geselecteerd en vervolgens mogelijke acties voor de gebruiker worden voorgesteld op basis van de vraag-aanbodsituatie en de planningsparameters van de artikelen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: ff18b81f71c8d4877c42f614c5ef485a43b2b494
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390686"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  

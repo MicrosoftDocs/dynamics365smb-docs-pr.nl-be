@@ -3,19 +3,19 @@ title: Magazijntoewijzingen zoeken | Microsoft Docs
 description: Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b3656ff58273999a1059392795914b5926835c57
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eadfc0d2e2dc89f1445a4def8f1ceb33cf7fae55
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391611"
 ---
 # <a name="find-your-warehouse-assignments"></a>Magazijntoewijzingen zoeken
 Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).

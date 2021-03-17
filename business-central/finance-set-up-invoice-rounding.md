@@ -3,19 +3,19 @@ title: Factuurafronding instellen | Microsoft Docs
 description: U kunt factuurbedragen afronden wanneer u facturen maakt. Volgens lokale voorschriften of gebruiken moet de factuur mogelijk op een specifieke manier worden afgerond, bijvoorbeeld op een bedrag dat door 0,05 kan worden gedeeld.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 302552a32e2c6322c156a22095c926dee40b4cf7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 59be392bd10805728af2c060e8a2ea2ecab6bb73
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746603"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392286"
 ---
 # <a name="set-up-invoice-rounding"></a>Factuurafronding instellen
 Als u factuurbedragen moet afronden wanneer u facturen maakt, kunt u de automatische afrondingsfunctie gebruiken. Wanneer een factuur wordt afgerond, wordt een extra regel met het afrondingsbedrag toegevoegd. Deze regel wordt tegelijk met andere factuurregels geboekt.

@@ -3,19 +3,19 @@ title: Pagina's aanpassen | Microsoft Docs
 description: Meer informatie over hoe u de gebruikersinterface kunt aanpassen aan uw manier van werken in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 083692ce38e9403705c6d683afb58a17dbecec90
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756779"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393811"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.

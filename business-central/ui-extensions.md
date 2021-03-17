@@ -3,20 +3,20 @@ title: Extensies installeren om Business Central aan te passen
 description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Business Central door extensies te installeren.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 03/02/2021
 ms.author: edupont
-ms.openlocfilehash: fa72fad5899fab4830bf6c0956eaf99b6c773a53
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757029"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493290"
 ---
-# <a name="customizing-business-central-using-extensions"></a>Business Central aanpassen met extensies
+# <a name="customizing-business-central-online-using-extensions"></a>Business Central Online aanpassen met extensies
 
-U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
+U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
 
 > [!NOTE]
 > Als u extensies wilt installeren vanuit AppSource extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet lid zijn van de gebruikersgroep D365 EXTENSIEBEHEER of u moet beschikken over de machtigingenset D365 EXTENSIEBEHEER. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
@@ -24,7 +24,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te
 Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 
 > [!IMPORTANT]  
-> Het uploaden van extensies per huurder en de installatie van AppSource-extensies wordt niet ondersteund via de pagina **Extensiebeheer** voor lokale installaties.
+> Het uploaden van extensies per huurder en de installatie van AppSource-extensies wordt niet ondersteund via de pagina **Extensiebeheer** voor lokale installaties. U kunt AppSource-extensies niet on-premises installeren, inclusief in op Docker gebaseerde implementaties.
 
 Wanneer u [!INCLUDE[prod_short](includes/prod_short.md)] voor het eerst start, zijn bepaalde extensies al voor u geïnstalleerd. In de loop van de tijd zullen meer extensies beschikbaar voor u worden gemaakt en u kunt dan zelf bepalen of u de extensie wilt gebruiken of niet.
 
@@ -37,7 +37,7 @@ U beheert de extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina t
 > Als u denkt u dat toegang tot een extensie zou moeten hebben maar de functionaliteit ervan niet vindt, kijk dan op de pagina **Extensiebeheer**. Als de extensie daar niet wordt vermeld, kunt u de extensie installeren zoals beschreven in het volgende gedeelte.  
 
 > [!NOTE]  
-> Meld u bij [AppSourceAppSource.microsoft.com](https://appsource.microsoft.com/) aan met het e-mailaccount dat u gebruikt voor [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
+> Meld u aan bij [AppSourceAppSource.microsoft.com](https://appsource.microsoft.com/) met het e-mailaccount dat u gebruikt voor [!INCLUDE[prod_short](includes/prod_short.md)] online. Gebruik voor het gemak dezelfde e-mailaccount voor andere producten en services.  
 
 U kunt ook naar de marktplaats gaan vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Op de pagina **Extensiebeheer** kunt u de extensies bekijken die momenteel zijn geïnstalleerd en kunt u de pagina **Extensiemarktplaats** openen waarop de extensies van [!INCLUDE[prod_short](includes/prod_short.md)] worden weergegeven die momenteel beschikbaar zijn in AppSource. Als u de koppeling *Meer apps* kiest, komt u terecht op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -77,7 +77,7 @@ Microsoft biedt de volgende extensies:
 * [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> Nieuwe extensies zijn niet direct in AppSource beschikbaar nadat we een update aankondigen. U kunt de extensies in de gaten houden op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> U kunt op de hoogte blijven van nieuwe extensies van Microsoft en andere leveranciers op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Zie ook
 

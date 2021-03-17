@@ -3,19 +3,19 @@ title: Velden toevoegen aan een Word-rapportlay-out | Microsoft Docs
 description: Hier wordt beschreven hoe u velden uit een rapportgegevensset toevoegt aan een bestaande Word-rapportlay-out voor een rapport.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757004"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393900"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Velden toevoegen aan een Word-rapportlay-out
 Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeeldingen bevatten. In dit onderwerp wordt de procedure beschreven om velden uit een rapportgegevensset toe te voegen aan een bestaande Word-rapportlay-out voor een rapport. U voegt velden toe door het aangepaste Word XML-onderdeel voor het rapport te gebruiken en u voegt inhoudsbesturingselementen toe waarmee de velden worden toegewezen aan de rapportgegevensset. Het toevoegen van velden vereist dat u enige kennis van de gegevensset van het rapport hebt, zodat u kunt bepalen welke velden u aan de lay-out wilt toevoegen.  

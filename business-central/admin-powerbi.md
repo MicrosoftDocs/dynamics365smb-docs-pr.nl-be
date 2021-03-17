@@ -1,6 +1,6 @@
 ---
 title: Business Central en Power BI - een inleiding| Microsoft Docs
-description: U kunt eenvoudig inzichten verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens met de Business Central-apps voor Power BI.
+description: Met Power BI kunt u eenvoudig inzicht verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 51c9e2cd05deba5fd8ace46382ebeb4eb41d13ba
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9768fca2bea274a8124c34e151d399baa23f9f03
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753754"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493129"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
@@ -24,15 +24,14 @@ Inzicht krijgen in uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens is
 
 ![Power BI en Business Central](media/power-bi-intro.png)
 
-
 ## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Sommige dingen kunt u doen vanuit Power BI, terwijl u andere dingen kunt doen vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige functies zijn ook alleen beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online en niet in on-premises. De volgende tabel biedt u een overzicht.
 
 |Functie|Omschrijving|Online|On-premises|Meer informatie|
 |-------|-----------|--------------|-----------|----------------|
-|[!INCLUDE[prod_short](includes/prod_short.md)]-gegevens weergeven in Power BI|U kunt uw gegevens vanuit [!INCLUDE[prod_short](includes/prod_short.md)] weergeven in rapporten in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online bevat een aantal vooraf gedefinieerde Power BI-rapporten. Mogelijk heeft uw organisatie enkele aangepaste rapporten aan u beschikbaar gesteld.|![Werkt online](media/check.png)|![Werkt on-premises](media/check.png)|[Zie...](across-working-with-powerbi.md)|
-|Power BI-rapporten weergeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-client.| Power BI-rapporten waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven, kunnen rechtstreeks worden ingesloten in gedeelten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's. U kunt in een dergelijk gedeelte van een pagina elk gewenst rapport weergeven dat beschikbaar is gemaakt voor u. |![werkt online](media/check.png)|![Werkt on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Zie...](across-working-with-business-central-in-powerbi.md).|
+|[!INCLUDE[prod_short](includes/prod_short.md)]-gegevens weergeven in Power BI|U kunt uw gegevens vanuit [!INCLUDE[prod_short](includes/prod_short.md)] weergeven in rapporten in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online bevat een aantal vooraf gedefinieerde Power BI-rapporten. Mogelijk heeft uw organisatie enkele aangepaste rapporten aan u beschikbaar gesteld.|![Werkt online](media/check.png)|![Werkt on-premises](media/check.png)|[Zie...](across-working-with-business-central-in-powerbi.md)|
+|Power BI-rapporten weergeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-client.| Power BI-rapporten waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven, kunnen rechtstreeks worden ingesloten in gedeelten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's. U kunt in een dergelijk gedeelte van een pagina elk gewenst rapport weergeven dat beschikbaar is gemaakt voor u. |![werkt online](media/check.png)|![Werkt on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Zie...](across-working-with-powerbi.md).|
 |Maak rapporten en dashboards in Power BI waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven.|Gebruik Power BI Desktop om uw eigen rapporten en dashboards te maken. U kunt de rapporten publiceren naar uw eigen Power BI-service of deze delen met anderen binnen uw organisatie.|![Werkt online](media/check.png)|![werkt on-premises](media/check.png)|[Zie...](across-how-use-financials-data-source-powerbi.md)
 |[!INCLUDE[prod_short](includes/prod_short.md)]-apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiceert drie apps voor Power BI in Microsoft AppSource. Met deze apps kunnen gedetailleerde rapporten en dashboards worden gemaakt in uw Power BI-service voor het weergeven van [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens. De volgende apps zijn beschikbaar: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Werkt online](media/check.png)||[Zie...](across-powerbi-business-central-apps.md)
 
@@ -47,7 +46,7 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 2. Publiceer gegevens als webservices.
 
     Codeunits, pagina's en query's die u wilt gebruiken als gegevensbron in Power BI-rapporten, moeten als webservices worden gepubliceerd. Er worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden, is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)].
-    
+
     Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
 
 3. Maak een Power BI-account aan.

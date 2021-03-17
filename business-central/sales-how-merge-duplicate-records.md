@@ -1,23 +1,21 @@
 ---
-title: Klant- of leveranciersrecords samenvoegen | Microsoft Docs
-description: Beschrijft hoe u een klantenkaart maakt om informatie te registreren over elke nieuwe klant of cliënt aan wie u verkoopt.
-services: project-madeira
-documentationcenter: ''
+title: Klant- of leveranciersrecords samenvoegen
+description: Beschrijft hoe u informatie over klanten of leveranciers kunt consolideren wanneer u dubbele vermeldingen over sommige van hen heeft.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f79035d6bfa841f6bf9e82acc4bd4cdc45e1bc28
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748370"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573488"
 ---
 # <a name="merge-duplicate-records"></a>Dubbele records samenvoegen
 Aangezien verschillende gebruikers in de loop van de tijd nieuwe klant-, leveranciers- of contactkaarten maken, of de nieuwe records automatisch worden gemaakt tijdens migratie, kan een klant, leverancier of contact in het systeem worden voorgesteld door meer dan één record. In dit geval kunt u de pagina **Dubbele records samenvoegen** gebruiken vanaf de kaart of de record die u wilt behouden. De pagina geeft u een overzicht van dubbele veldwaarden en biedt functies om te selecteren welke waarden worden behouden of verwijderd wanneer twee records tot één worden samengevoegd.

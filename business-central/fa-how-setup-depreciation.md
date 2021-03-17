@@ -1,30 +1,29 @@
 ---
-title: VA-afschrijving instellen| Microsoft Docs
+title: VA-afschrijving instellen
 description: U geeft in een afschrijvingsboek op hoe u wilt dat vaste activa worden afgeschreven of in waarde verminderd.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749281"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493240"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
- U kunt diverse afschrijvingsmethoden gebruiken ter voorbereiding van financiële stukken en de aangifte van inkomstenbelasting. Veel grote ondernemingen gebruiken lineaire afschrijving voor hun jaarverslag omdat deze methode in het algemeen tot hogere netto-inkomsten leidt. Voor inkomstenbelastingdoeleinden gebruiken veel bedrijven echter een versnelde afschrijvingsmethode, zoals boekwaarde-afschrijving. U definieert de afschrijvingsmethode van een activum met het veld **Afschrijvingsmethode** op de pagina **Vast activum**. Zie voor meer informatie over wat de verschillende methoden doen [Afschrijvingsmethoden](fa-depreciation-methods.md).
 
- In afschrijvingsboeken definieert u de verschillende manieren waarop afschrijvingen moeten worden berekend voor uw verschillende vaste activa. In elk boek kunt u afzonderlijke afschrijvingsvoorwaarden opgeven. U kunt bijvoorbeeld opgeven dat een vast activum binnen een periode van drie jaar moet worden afgeschreven in het ene boek, en binnen een periode van vijf jaar in een ander boek.
+U kunt diverse afschrijvingsmethoden gebruiken ter voorbereiding van financiële stukken en de aangifte van inkomstenbelasting. Veel grote ondernemingen gebruiken lineaire afschrijving voor hun jaarverslag omdat deze methode in het algemeen tot hogere netto-inkomsten leidt. Voor inkomstenbelastingdoeleinden gebruiken veel bedrijven echter een versnelde afschrijvingsmethode, zoals boekwaarde-afschrijving. U definieert de afschrijvingsmethode van een activum met het veld **Afschrijvingsmethode** op de pagina **Vast activum**. Zie voor meer informatie over wat de verschillende methoden doen [Afschrijvingsmethoden](fa-depreciation-methods.md).
 
- Wanneer u de betreffende afschrijvingsboeken hebt ingesteld, moet u aan elk vast activum een of meer afschrijvingsboeken toewijzen. Naar een afschrijvingsboek dat aan een vast activum wordt toegewezen, wordt als een afschrijvingsboek voor vaste activa verwezen. Het aantal afschrijvingsboeken dat u kunt instellen, is oneindig voor een vast activum. 
+U stelt afschrijvingsboeken in waarin u de verschillende manieren definieert waarop afschrijvingen moeten worden berekend voor verschillende typen vaste activa. In elk afschrijvingsboek kunt u afzonderlijke afschrijvingsvoorwaarden opgeven. U kunt bijvoorbeeld opgeven dat een vast activum binnen een periode van drie jaar moet worden afgeschreven in het ene boek, en binnen een periode van vijf jaar in een ander boek.
+
+Wanneer u de betreffende afschrijvingsboeken hebt ingesteld, moet u aan elk vast activum een of meer afschrijvingsboeken toewijzen. Naar een afschrijvingsboek dat aan een vast activum wordt toegewezen, wordt als een afschrijvingsboek voor vaste activa verwezen. Het aantal afschrijvingsboeken dat u kunt instellen, is oneindig voor een vast activum.  
 
 ## <a name="to-create-a-depreciation-book"></a>Een afschrijvingsboek maken
+
 In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden afgeschreven. Het is mogelijk om meerdere afschrijvingsboeken in te stellen om diverse afschrijvingsmethoden toe te passen.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies de desbetreffende koppeling.
@@ -32,9 +31,14 @@ In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden af
 3. Vul op de pagina **Afschrijvingsboek** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. Voer de volgende stap uit om te definiëren welk soort dagboek standaard wordt gebruikt voor de verschillende activiteiten voor vaste activa.
+    > U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. Voer de volgende stap uit om te definiëren welk soort dagboek standaard wordt gebruikt voor de verschillende activiteiten voor vaste activa.
 4. Schakel op het sneltabblad **Integratie** het selectievakje in voor elke activiteit voor vaste activa waarvan u transacties wilt boeken met de pagina **Financieel dagboek voor vaste activa**.
 5. Herhaal stap 2 t/m 4 voor elke afschrijvingsmethode of boekingsmethode die u aan vaste activa als afschrijvingsboek wilt toewijzen.
+
+> [!IMPORTANT]
+> Kies het veld **Period. afschr. afronden** veld om de berekende periodieke afschrijving op hele getallen af te ronden. Als uw bedrijf bijvoorbeeld ook factuurafronding op hele getallen gebruikt op de pagina **Grootboekinstellingen**, kan afschrijvingsbedragen op hele getallen ook afronden transparantie verschaffen.
+
+Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvingsboek geen afronding is gespecificeerd, maar het grootboek van uw bedrijf afronding vereist, ziet u bij het uit gebruik nemen van het vaste activum een foutmelding dat een bedrag moet worden afgerond in een post.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Een afschrijvingsboek aan een vast activum toewijzen
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.

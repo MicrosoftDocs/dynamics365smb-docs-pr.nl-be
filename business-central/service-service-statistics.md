@@ -3,19 +3,19 @@ title: Servicestatistieken | Microsoft Docs
 description: Krijg een snel overzicht van de inhoud van servicedocumenten, zoals orders, offertes, facturen of creditnota's, van de details op de afzonderlijke serviceregels en van de serviceartikelen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55c534d1f8a836775548d118f68383622ca25dec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0529242e3c19fa09d7cf8f5acd125f557e5c3b60
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913083"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391236"
 ---
 # <a name="viewing-service-statistics"></a>Servicestatistieken weergeven
 U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
@@ -23,7 +23,7 @@ U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te 
 ## <a name="viewing-statistics-for-service-orders"></a>Statistieken voor serviceorders weergeven
 De functie serviceorderstatistiek biedt u een overzicht van de inhoud van de volledige serviceorder, de details op de serviceregels en gegevens met betrekking tot facturering, verzending en verbruik, evenals het saldo van de klant.  
 
-De statistiekgegevens voor een serviceorder worden weergegeven op de pagina **Serviceorderstatistiek** voor de desbetreffende order. U kunt de desbetreffende pagina openen vanuit een serviceorder. Kies **Statistieken** op de pagina **Serviceorders** . Op de sneltabbladen op de pagina worden gegevens als aantal, bedrag, btw, kosten, winst en de kredietlimiet van de klant weergegeven. De bedragen op de pagina zijn gesteld in de valuta van de serviceorder, tenzij anders aangegeven.  
+De statistiekgegevens voor een serviceorder worden weergegeven op de pagina **Serviceorderstatistiek** voor de desbetreffende order. U kunt de desbetreffende pagina openen vanuit een serviceorder. Kies **Statistieken** op de pagina **Serviceorders**. Op de sneltabbladen op de pagina worden gegevens als aantal, bedrag, btw, kosten, winst en de kredietlimiet van de klant weergegeven. De bedragen op de pagina zijn gesteld in de valuta van de serviceorder, tenzij anders aangegeven.  
 
 ### <a name="view-totals-for-a-service-order"></a>Totalen voor een serviceorder weergeven  
 U kunt het totaalbedrag op de serviceregels (inclusief en exclusief btw), het btw-gedeelte, de kosten en de winst op de serviceregels weergeven. Daarnaast wordt er artikelspecifieke informatie weergegeven, zoals het gewicht, het volume en het aantal colli.  
@@ -71,7 +71,7 @@ Wanneer u de lijst doorloopt, worden de bedragen berekend op basis van het opgeg
 U kunt de lijst filteren door op te geven welke serviceartikelen moeten worden opgenomen.  
 
 > [!Tip]  
->  Als u **Dag** hebt gekozen als tijdsinterval en een lange periode moet doorlopen, kunt u dat sneller doen door een groter interval te kiezen, bijvoorbeeld **Kwartaal** . Zodra u de gewenste periode hebt gevonden, kunt u teruggaan naar het originele interval om de gegevens gedetailleerder te bekijken.   
+>  Als u **Dag** hebt gekozen als tijdsinterval en een lange periode moet doorlopen, kunt u dat sneller doen door een groter interval te kiezen, bijvoorbeeld **Kwartaal**. Zodra u de gewenste periode hebt gevonden, kunt u teruggaan naar het originele interval om de gegevens gedetailleerder te bekijken.   
 
 ## <a name="viewing-gains-and-losses-on-contracts"></a>Winsten en verliezen op contracten weergeven  
 Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contractofferte wordt omgezet in een servicecontract, als contractregels worden toegevoegd of verwijderd uit een servicecontract of wanneer een contract wordt geannuleerd. U kunt contractwinsten of -verliezen bekijken op de volgende pagina's.  
@@ -85,13 +85,13 @@ Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contr
 |**Winst/verlies contract (Divisie)**|Het winst-/verliescontract per divisie weergeven.|  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam van de weer te geven pagina in en kies de desbetreffende koppeling.  
-2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld op de pagina **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter** .  
-3. Kies de actie **Matrix weergeven** .
+2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld op de pagina **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter**.  
+3. Kies de actie **Matrix weergeven**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Statistieken voor geboekte servicedocumenten weergeven
 Met de functie voor servicestatistieken kunt u een statistisch overzicht opstellen van de inhoud van geboekte servicedocumenten, zoals geboekte verzendingen, facturen en creditnota's.  
 
-De statistische informatie wordt weergegeven op de statistiekpagina voor het bijbehorende geboekte servicedocument. U kunt de desbetreffende statistiekpagina openen vanuit een geboekte serviceverzending, geboekte servicefactuur of geboekte servicecreditnota. Kies voor elk van deze documenttypen de actie **Statistieken** . Kies bijvoorbeeld op de pagina **Geboekte servicefacturen** de actie **Statistieken** .  
+De statistische informatie wordt weergegeven op de statistiekpagina voor het bijbehorende geboekte servicedocument. U kunt de desbetreffende statistiekpagina openen vanuit een geboekte serviceverzending, geboekte servicefactuur of geboekte servicecreditnota. Kies voor elk van deze documenttypen de actie **Statistieken**. Kies bijvoorbeeld op de pagina **Geboekte servicefacturen** de actie **Statistieken**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiek geboekte serviceverzendingen  
 Op de pagina **Statistiek serviceverzendingen** wordt een overzicht gegeven van een geboekte serviceverzending. Het venster bevat informatie over de fysieke inhoud van de verzending, zoals het aantal verzonden artikelen, resource-uren of -kosten, en gewicht en volume van de verzonden artikelen.  

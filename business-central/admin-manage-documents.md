@@ -3,15 +3,15 @@ title: Opslag beheren door documenten te verwijderen of gegevens te comprimeren
 description: Ontdek hoe u uw historische gegevens kunt behouden door grootboekposten te comprimeren of door ze te verwijderen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753879"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493059"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Opslag beheren door documenten te verwijderen of gegevens te comprimeren
 
@@ -47,7 +47,13 @@ U kunt de volgende soorten gegevens comprimeren in [!INCLUDE [prod_short](includ
   Na de compressie kunt u met de functie **Te bewaren velden** de inhoud van de velden **Documentnr., Ons contact**, **Globale dimensiecode 1** en **Globale dimensiecode 2** bewaren.
 * Leveranciersposten
 
-  Na de compressie blijft de inhoud van de volgende velden altijd behouden: **Boekingsdatum**, **Leveranciersnr.**, **Documentsoort**, **Valutacode**, **Boekingsgroep**, **Bedrag**, **Restbedrag**, **Oorspronkelijk bedrag (LV)**, **Restbedrag (LV)**, **Bedrag (LV)**, **Inkoop (LV)**, **Factuurkorting (LV)**, **Contantkorting verleend (LV)** en **Contantkorting**.
+> [!NOTE]
+> Gecomprimeerde boekingen voor klanten, leveranciers, bank- en FA-subgrootboeken worden iets anders geboekt dan standaardboekingen. Dit is bedoeld om het aantal nieuwe grootboekposten dat wordt gecreëerd door datumcompressie te verminderen, en is vooral belangrijk wanneer u informatie bewaart, zoals dimensies en documentnummers. Met datacompressie worden als volgt nieuwe posten gemaakt:
+>* Op de pagina **Grootboekposten** worden nieuwe posten gemaakt met nieuwe postnummers voor de gecomprimeerde posten. Het veld **Omschrijving** bevat **Datum gecomprimeerd** zodat de gecomprimeerde posten gemakkelijk te identificeren zijn. 
+>* Op grootboekpagina's, zoals de pagina **Klantenposten** worden een of meer posten gemaakt met nieuwe postnummers. 
+> Het boekingsproces creëert hiaten in de nummerreeks voor posten op de pagina **Grootboekposten**. Die nummers worden alleen toegewezen aan de posten op de grootboekpagina's. Het nummerbereik dat aan de posten is toegewezen, is beschikbaar op de **pagina Grootboekjournaal** in de velden **Van volgnr.** en **Tot volgnr.**. 
+
+Na de compressie blijft de inhoud van de volgende velden altijd behouden: **Boekingsdatum**, **Leveranciersnr.**, **Documentsoort**, **Valutacode**, **Boekingsgroep**, **Bedrag**, **Restbedrag**, **Oorspronkelijk bedrag (LV)**, **Restbedrag (LV)**, **Bedrag (LV)**, **Inkoop (LV)**, **Factuurkorting (LV)**, **Contantkorting verleend (LV)** en **Contantkorting**.
 
   Met de functie **Te bewaren velden** kunt u ook de inhoud van deze extra velden bewaren: **Documentnr.**, **Orderleveranciersnr.**, **Code van inkoper**, **Globale dimensiecode 1** en **Globale dimensiecode 2**.
 

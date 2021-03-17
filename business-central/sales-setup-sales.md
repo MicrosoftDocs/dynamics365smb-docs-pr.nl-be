@@ -3,19 +3,19 @@ title: Overzicht van taken om verkoopprocessen te configureren | Microsoft Docs
 description: Schetst taken om regels en waarden in te stellen om uw verkoopbeleid en -processen te definiëren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83b27cbc0b1ddfe3114995218bc29c282d3508ca
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 2a7964b255f78fa599ab58f66cb9425befaa038d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393336"
 ---
 # <a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.

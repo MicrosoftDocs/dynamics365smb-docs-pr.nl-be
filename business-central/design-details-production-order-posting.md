@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Productieorderboeking | Microsoft Docs'
 description: Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b64fc6117ce1b241152a94e0c0006c1dbe66c542
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917313"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390754"
 ---
 # <a name="design-details-production-order-posting"></a>Ontwerpdetails: Productieorderboeking
 Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie. De kostenstroom voor assemblageorders is echter minder complex, met name omdat de assemblagekostenboeking slechts eenmaal plaatsvindt en daarom geen OHW-voorraad genereert.
@@ -103,7 +103,7 @@ In standaardkostenomgevingen is de kostprijsberekening van een productieorder ge
 
     > [!NOTE]  
     >  Dit verschilt van assemblageorderboeking, waarbij altijd werkelijke kosten worden geboekt. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
-2.  Wanneer de productieorder is ingesteld op **Gereedgemeld** , wordt de order gefactureerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten** . Hierdoor worden de totale kosten van de order berekend op basis van de standaardkosten van de verbruikte materialen en de capaciteit. De verschillen tussen de berekende vaste verrekenprijs en de werkelijke productiekosten worden berekend en geboekt.  
+2.  Wanneer de productieorder is ingesteld op **Gereedgemeld**, wordt de order gefactureerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Hierdoor worden de totale kosten van de order berekend op basis van de standaardkosten van de verbruikte materialen en de capaciteit. De verschillen tussen de berekende vaste verrekenprijs en de werkelijke productiekosten worden berekend en geboekt.  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   

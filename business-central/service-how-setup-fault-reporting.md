@@ -3,19 +3,19 @@ title: Probleemrapportage instellen in CRM - Service | Microsoft Docs
 description: Leer hoe u processen voor probleemrapportage instelt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 465160091928dce5bb71bb2c809243fb67b10174
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc0222b14d5c67149797b1f3ceb3813699a171d2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910517"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392136"
 ---
 # <a name="set-up-fault-reporting"></a>Foutrapportage instellen
 Met probleemrapportage kunt u standaarden voor het vastleggen van probleemgegevens voor service-items bepalen. U kunt bijvoorbeeld opgeven wat het probleem is, welke symptomen u ziet, wat de oorzaak van het probleem is en hoe het probleem moet worden verholpen.  
@@ -29,15 +29,15 @@ Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernome
     |**Probleemniveau**|**Beschrijving**|  
     |------------|-------------|  
     |Geen | Er worden geen rapportagecodes gebruikt.|  
-    |Probleem | De codes worden weergegeven in de tabel **Probleemcodes** . Deze codes duiden op problemen met serviceartikelen of acties die moeten worden ondernomen voor de serviceartikelen. U kunt gerelateerde codes groeperen in groepen van het type **Probleemgebiedcode** .|  
-    |Probleem + symptoom. | U geeft een combinatie van codes op in de tabellen **Probleemcodes** en **Symptoomcodes** . Veelvoorkomende symptoomcodes kunnen bijvoorbeeld bestaan uit indicaties die een klant kan gebruiken om een probleem te beschrijven, zoals een geluid of kwaliteit.|  
+    |Probleem | De codes worden weergegeven in de tabel **Probleemcodes**. Deze codes duiden op problemen met serviceartikelen of acties die moeten worden ondernomen voor de serviceartikelen. U kunt gerelateerde codes groeperen in groepen van het type **Probleemgebiedcode**.|  
+    |Probleem + symptoom. | U geeft een combinatie van codes op in de tabellen **Probleemcodes** en **Symptoomcodes**. Veelvoorkomende symptoomcodes kunnen bijvoorbeeld bestaan uit indicaties die een klant kan gebruiken om een probleem te beschrijven, zoals een geluid of kwaliteit.|  
     |Probleem + symptoom + gebied | U gebruikt probleem-, symptoom- en probleemgebiedcodes als een implementatie van IRIS, het internationale systeem voor reparatiecodes.|  
 
-Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke reparaties of oplossingen aan een probleem of defect zijn gekoppeld. U stelt dit in op de pagina **Relaties probleem-/oplossingscodes** , waar u combinaties van codes instelt voor de serviceartikelgroep van het serviceartikel van waaruit u het venster hebt geopend. Tevens wordt aangegeven hoe vaak elke combinatie voorkomt.
+Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke reparaties of oplossingen aan een probleem of defect zijn gekoppeld. U stelt dit in op de pagina **Relaties probleem-/oplossingscodes**, waar u combinaties van codes instelt voor de serviceartikelgroep van het serviceartikel van waaruit u het venster hebt geopend. Tevens wordt aangegeven hoe vaak elke combinatie voorkomt.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Relaties tussen probleem- en oplossingscodes maken
 <!--this needs to go in a working with topic-->
- Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen op de pagina **Rel. probleem-/oplossingscodes** .
+ Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen op de pagina **Rel. probleem-/oplossingscodes**.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rel. probleem-/oplossingscodes invoegen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer datums in om de periode op te geven die u in de batchverwerking wilt opnemen.  

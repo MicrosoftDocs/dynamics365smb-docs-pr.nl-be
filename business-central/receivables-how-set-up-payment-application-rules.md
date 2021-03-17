@@ -3,19 +3,19 @@ title: Regels instellen voor automatische vereffening van betalingen
 description: Op de pagina Regels betalingsvereffening stelt u de regels in die bepalen hoe betalingen/banktransacties automatisch moeten worden vereffend met de gerelateerde openstaande dagboekposten wanneer u de functie Automatisch vereffenen gebruikt in het venster Betalingsreconciliatiedagboek.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758354"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392611"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
 
@@ -50,8 +50,9 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 |**Gerelateerde partij afgestemd**|Geeft op hoeveel gegevens over de klant of leverancier, zoals adres, plaats en bankrekeningnummer, op de dagboekregel van de betalingsreconciliatie met gegevens op de openstaande post moeten overeenkomen voordat de vereffeningsregel wordt gebruikt om de betaling automatisch te vereffenen met de openstaande post.|
 |**Doc.nr./extern documentnr. afgestemd**|Hiermee wordt opgegeven of tekst op de regel van het betalingsreconciliatiedagboek moet overeenkomen met de waarde in het veld **Documentnummer** of het veld **Extern documentnummer** in de openstaande post voordat de vereffeningsregel wordt gebruikt om de betaling automatisch met de openstaande post te vereffenen.|
 |**Bedrag incl. tolerantie afgestemd**|Geeft aan hoeveel posten voor een klant of leverancier moeten overeenkomen met het bedrag inclusief betalingstolerantie voordat de vereffeningsregel wordt gebruikt om automatisch een betaling toe te passen op de openstaande post.|
+|**Controle vereist**|Geeft aan of de automatische betalingstoepassing wordt aanbevolen voor handmatige beoordeling door de gebruiker voordat wordt gepost. Het kiezen van het veld **Te controleren regels** veld op de pagina **Betalingsvereffeningsjournaal** start een begeleide ervaring waarin u gemakkelijk meerdere vereffeningen achter elkaar kunt beoordelen op de pagina **Controle van betalingsvereffening**.|
 
-De volgende tabel laat zien welke betalingsvereffeningsregels zijn ingesteld in de algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)].
+De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
 > De regels voor betalingsvereffening kunnen in uw implementatie van [!INCLUDE[prod_short](includes/prod_short.md)] verschillen.

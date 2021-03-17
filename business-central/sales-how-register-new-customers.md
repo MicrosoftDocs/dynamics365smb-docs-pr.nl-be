@@ -1,21 +1,21 @@
 ---
-title: Een klantenkaart maken om nieuwe klanten registreren | Microsoft Docs
+title: Nieuwe klanten registreren door een klantenkaart te maken
 description: Beschrijft hoe u een klantenkaart maakt om informatie te registreren over elke nieuwe klant of cliënt aan wie u verkoopt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748331"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573438"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 
@@ -64,6 +64,29 @@ De klantensjabloon wordt toegevoegd aan de lijst met klantensjabloon, zodat u de
 
 Als u een transactie voor een klant hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u klantenkaarten met grootboekposten wilt verwijderen, neemt u contact op met uw Microsoft-partner om dat via code te doen.  
 
+## <a name="managing-credit-limits"></a>Kredietlimieten beheren
+
+Op basis van kredietlimieten, saldobedragen en betalingscondities kan [!INCLUDE [prod_short](includes/prod_short.md)] een kredietwaarschuwing of een waarschuwing voor openstaande saldo's genereren zodra u een verkooporder invoert.  Bovendien kunt u met aanmaningscondities en rentefactuurcondities rente en/of aanvullende kosten factureren.  
+
+Het veld **Kredietlimiet** op een klantenkaart specificeert het maximale bedrag dat u de klant toestaat om het betalingssaldo te overschrijden voordat waarschuwingen worden afgegeven. Wanneer u vervolgens informatie invoert in dagboeken, offertes, bestellingen en facturen, test [!INCLUDE [prod_short](includes/prod_short.md)] de verkoopkop en individuele verkoopregels om te zien of de kredietlimiet is overschreden.
+
+Ook als de kredietlimiet is overschreden, kunt u boeken. Als het veld leeg is, geldt er geen kredietlimiet voor de klant.  
+
+U kunt ervoor kiezen om geen waarschuwingen te ontvangen die u vertellen dat de kredietlimiet van de klant is overschreden, en u kunt aangeven welke soorten waarschuwingen u wilt zien.
+
+### <a name="to-specify-credit-limit-warnings"></a>Waarschuwingen voor kredietlimieten opgeven
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
+
+2. Kies op het sneltabblad **Algemeen** in het veld **Waarschuwingen** de relevante optie zoals beschreven in de volgende tabel:
+
+    |Optie| Omschrijving|
+    |------|------------|
+    |**Beide**| Zowel het veld **Kredietlimiet** als het veld **Openstaand saldo** op de klantenkaart wordt ingeschakeld en er wordt een waarschuwing weergegeven als de klant de kredietlimiet heeft overschreden of als de klant een openstaand saldo heeft.|
+    |**Kredietlimiet**|De waarde in het veld **Kredietlimiet** op de klantenkaart wordt vergeleken met het klantsaldo en er wordt een waarschuwing weergegeven als het klantsaldo dit bedrag overschrijdt.|
+    |**Openstaand saldo**|Het veld **Openstaand bedrag** op de klantenkaart wordt ingeschakeld en er wordt een waarschuwing weergegeven als de klant een openstaand saldo heeft.|
+    |**Geen**|Er worden geen waarschuwingen weergegeven over de status van de klant.|
+
 ## <a name="see-also"></a>Zie ook
 
 [Betalingsmethoden definiëren](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Als u een transactie voor een klant hebt geboekt, kunt u de kaart niet verwijder
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Artikeltracering en planning | Microsoft Docs'
 description: Omdat ze in het reserveringsysteem worden opgeslagen, zijn artikeltraceringsnummers volledig gecoördineerd met ordertraceringsrecords.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927009"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390989"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Ontwerpdetails: Artikeltracering en planning
 Omdat ze in het reserveringsysteem worden opgeslagen, zijn artikeltraceringsnummers volledig gecoördineerd met ordertraceringsrecords. Dit betekent dat aan artikelen met ordertraceringsrecords artikeltraceringsnummers kunnen worden toegewezen. Andersom kunnen artikelen die artikeltraceringsnummers hebben, ordertraceringsrecords worden. Zie [Ontwerpdetails: artikeltraceringsontwerp](design-details-item-tracking-design.md) voor meer informatie.

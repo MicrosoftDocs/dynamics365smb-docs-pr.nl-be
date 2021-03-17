@@ -3,24 +3,27 @@ title: Met btw werken bij verkoop en inkoop | Microsoft Docs
 description: In dit onderwerp wordt beschreven hoe u taken, zoals het corrigeren van geboekte btw, uitvoert. In EU-landen/-regio's moet voor elke verkoop- en inkooptransactie btw worden berekend. In dit onderwerp wordt beschreven hoe.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746628"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493104"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Stel [!INCLUDE[prod_short](includes/prod_short.md)] in om automatisch btw te berekenen in verkoop- en inkoopdocumenten als u in uw land of regio btw in rekening moet brengen voor verkoop- en inkooptransacties, zodat u de bedragen bij de belastingdienst kunt aangeven. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
 
-Er zijn echter enkele taken met betrekking tot de berekening van btw die u handmatig kunt uitvoeren. Het kan bijvoorbeeld voorkomen dat u een geboekt bedrag moet corrigeren als u ontdekt dat een leverancier een andere afrondingsmethode gebruikt.
+Er zijn echter enkele taken met betrekking tot de berekening van btw die u handmatig kunt uitvoeren. Het kan bijvoorbeeld voorkomen dat u een geboekt bedrag moet corrigeren als u ontdekt dat een leverancier een andere afrondingsmethode gebruikt.  
+
+> [!TIP]
+> U kunt [!INCLUDE[prod_short](includes/prod_short.md)] btw-registratienummers en andere bedrijfsinformatie laten valideren wanneer u documenten maakt of bijwerkt. Zie voor meer informatie [Btw-registratienummers valideren](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Btw-bedragen berekenen en weergeven in verkoop- en inkoopdocumenten  
 U kunt btw-bedragen op verschillende manieren berekenen en weergeven in verkoop- en inkoopdocumenten, afhankelijk van het type klant of leverancier waarmee u zakendoet. U kunt tevens het berekende btw-bedrag laten vervangen zodat het bedrag overeenkomt met het btw-bedrag dat door uw leverancier voor een bepaalde transactie is berekend.  
@@ -173,15 +176,16 @@ Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificate
 
     > [!NOTE]  
     >  U kunt geen nieuw certificaat van levering op de pagina **Certificaat van levering** maken als u ernaar toe navigeert met deze procedure. Als u een certificaat wilt maken voor een verzending die geen certificaat vereist, opent u de geboekte verkoopverzending en gebruikt u een van de twee hierboven beschreven procedures:  
-    >   
+    >
     > * Handmatig een certificaat van levering maken  
     > * Een certificaat van levering afdrukken.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook  
-[Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)   
-[Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)   
+## <a name="see-also"></a>Zie ook
 
+[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)  
+[Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
+[Een btw-nummer valideren.](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

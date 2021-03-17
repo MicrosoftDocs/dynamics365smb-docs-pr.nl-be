@@ -3,19 +3,19 @@ title: Beschikbare lettertypen
 description: De online versie van Business Central bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het genereren van rapporten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756979"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493266"
 ---
 # <a name="available-fonts"></a>Beschikbare lettertypen
 
@@ -26,7 +26,7 @@ De online versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat vooraf
 
 ## <a name="document-fonts"></a>Documentlettertypen
 
-De volgende lettertypen zijn geïnstalleerd en beschikbaar voor gebruik in Word- en RDLC-documentrapporten:
+De volgende lettertypen zijn geïnstalleerd en beschikbaar voor gebruik in Word- en RDLC-rapportlay-outs:
 
 * Arial
 * Consolas
@@ -46,6 +46,17 @@ MICR-lettertypen (Magnetic Ink Character Recognition) zijn geïnstalleerd en bes
 Naast MICR-lettertypen zijn er speciale beveiligingslettertypen beschikbaar voor het genereren van tekst, namen, bedragen en de valutasymbolen dollar, euro, pond en yen, die moeilijk te manipuleren zijn nadat een cheque is afgedrukt.  
 
 Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Lettertypen voor streepjescodes
+Lettertypen voor het genereren van eendimensionale streepjescodes zijn geïnstalleerd en beschikbaar voor gebruik in zowel Word- als RDLC-rapportlay-outs.
+
+De volgende streepjescodesymbolen worden ondersteund:
+* Code 3 van 9 (Code 39)
+* Code 128
+* Code 93
+* Codabar
+* MSI
+* Interleaved 2 van 5
 
 ## <a name="see-also"></a>Zie ook
 

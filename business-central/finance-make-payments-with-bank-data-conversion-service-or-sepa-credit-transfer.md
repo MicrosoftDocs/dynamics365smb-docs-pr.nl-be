@@ -3,19 +3,19 @@ title: Betalingen doen met de extensie AMC Banking (US) of SEPA-kredietoverdrach
 description: Verwerk betalingen aan uw leveranciers door samen met de betalingsgegevens van de dagboekregels een bestand te exporteren.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a94cde16f61ccb42c580db1f93fe6cdca0b639eb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 210dbfd3450d4cc703f73fc2cd078b0155c599da
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391861"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht
 

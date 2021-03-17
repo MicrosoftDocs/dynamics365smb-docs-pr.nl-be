@@ -3,17 +3,17 @@ title: Projectprijzen en projectboekingsgroepen instellen| Microsoft Docs
 description: Beschrijft hoe u algemene projectgegevens instelt en prijzen instelt voor projectartikelen, resources en grootboekrekeningen, en projectboekingsgroepen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758654"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476782"
 ---
 # <a name="set-up-jobs"></a>Projecten instellen
 
@@ -47,44 +47,31 @@ Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld e
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Projectinstellingen** in en kies de desbetreffende koppeling.
 2. Schakel het selectievakje **Gebruikslink standaard toepassen** in.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
-U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project**.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
+> [!NOTE]
+> In releasewave 2 van 2020 hebben we nieuwe processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+U kunt prijzen instellen voor de artikelen, resources en grootboekrekeningen die gerelateerd zijn aan een project. 
+
+#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Resource**.
-3. Vul op de pagina **Resourceprijzen project** indien nodig de velden in.
+2. Selecteer het betreffende project en kies vervolgens de actie **Resource**, **Artikel** of **Grootboekrekening**.
+3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
 
-De optionele informatie in de velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor** wordt gebruikt op de projectplanningsregels en in de gebruiksdagboeken wanneer deze resource wordt ingevoerd en wordt toegevoegd aan het project.  
+De volgende tabel laat zien hoe de informatie in de optionele velden wordt gebruikt op taakplanningsregels en dagboeken wanneer de resource, het artikel of de grootboekrekening voor het project wordt gekozen.
 
-De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd.  
+|Kolom1  |Kolom2  |
+|---------|---------|
+|**Projectresources**|De velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor**. De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd. Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.|
+|**Projectartikelen**|De velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %**. De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd. Deze prijs komt altijd in plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.|
+|**Grootboekrekeningen**|De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project. De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.|
 
-> [!NOTE]  
->   Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.
-
-## <a name="to-set-up-prices-for-job-items"></a>Prijzen instellen voor projectartikelen
-U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor de pagina **Artikelprijzen project**.
-
+---
+#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Artikel**.
-3. Vul op de pagina **Artikelprijzen project** indien nodig de velden in.
+2. Selecteer het betreffende project en kies vervolgens de actie **Verkoopprijslijsten**.
 
-De optionele informatie in de velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer dit artikel wordt ingevoerd of wordt toegevoegd aan het project.  
-
-De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd.  
-
-> [!NOTE]  
->   Deze prijs komt altijd in de plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Prijzen instellen voor GB-rekeningen voor een project
-U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U gebruikt hiervoor de pagina **GB-rekeningprijzen project**.
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening**.  
-3. Vul op de pagina **GB-rekeningprijzen project** indien nodig de velden in.
-
-De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project.  
-
-De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Projectboekingsgroepen instellen
 Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen moeten worden gebruikt voor projectwaardering. Om projecten te kunnen boeken, moet u rekeningen instellen voor het boeken voor elke projectboekingsgroep. Een boekingsgroep vertegenwoordigt een koppeling tussen het project en de wijze waarop het moet worden behandeld in het grootboek. Wanneer u een project maakt, geeft u een boekingsgroep op en wordt elk project dat u voor de taak maakt standaard gekoppeld aan die boekingsgroep. Als u echter taken maakt, kunt u de standaardinstellingen overschrijven en een boekingsgroep selecteren die meer geschikt is.  

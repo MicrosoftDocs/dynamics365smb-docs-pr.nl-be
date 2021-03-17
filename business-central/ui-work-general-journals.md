@@ -1,21 +1,21 @@
 ---
-title: Dagboeken gebruiken om direct naar grootboek te boeken| Microsoft Docs
-description: Leren over het gebruik van dagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen.
+title: Werken met dagboeken om direct naar het grootboek te boeken
+description: Leren over het gebruik van dagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen. Gebruik periodieke dagboeken om transitoria te boeken en saldi toe te wijzen op dimensiewaarden.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393611"
 ---
 # <a name="working-with-general-journals"></a>Werken met diversendagboeken
 
@@ -74,24 +74,27 @@ Als u op de pagina **Dagboeken** standaardtegenrekeningen hebt ingesteld voor de
 >   Btw wordt afzonderlijk berekend voor de hoofdrekening en de tegenrekening, zodat er gebruik kan worden gemaakt van verschillende percentages.
 
 ## <a name="working-with-recurring-journals"></a>Werken met periodieke dagboeken
-Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen en elektriciteit. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. U kunt ook automatische tegenboekingposten voor de dag na de boekingsdatum opgeven. U kunt ook verdeelsleutels gebruiken om de periodieke posten over verschillende rekeningen te verdelen. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen en elektriciteit. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. U kunt ook automatische tegenboekingposten voor de dag na de boekingsdatum opgeven. U kunt ook verdeelsleutels gebruiken om de periodieke posten over verschillende rekeningen te verdelen. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Als u een periodiek dagboek gebruikt, hoeft u de gegevens slechts éénmaal in te voeren. De ingevulde gegevens, zoals rekeningen, dimensies en dimensiewaarden, worden na het boeken in het dagboek bewaard. Later kunt u eventueel wijzigingen aanbrengen en de informatie opnieuw boeken.
 
 ### <a name="recurring-method-field"></a>Veld Methode
+
 Dit veld bepaalt hoe het bedrag op de dagboekregel na het boeken wordt verwerkt. Wanneer u de regel bijvoorbeeld altijd met hetzelfde bedrag wilt boeken, kunt u het bedrag ongewijzigd laten. Wilt u dezelfde rekeningen en dezelfde tekst gebruiken, maar een ander bedrag, dan kunt u het bedrag na het boeken verwijderen.
 
-| Aan | Zie |
+| Als u dit wilt doen: | Zie |
 | --- | --- |
-|Vast|het bedrag op de dagboekregel wordt na het boeken bewaard.|
-|Variabel|het bedrag op de dagboekregel wordt na het boeken verwijderd.|
-|Saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel in de tabel Dagboekverdeelsleutel. Het saldo op de rekening wordt zo op nul ingesteld. Vul het veld **Verdeelsleutel %** op de pagina **Verdeelsleutels** in. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Omgekeerd vast|Het bedrag wordt na het boeken bewaard en de tegenboeking wordt de volgende dag geboekt.|
-|Omgekeerd variabel|Het bedrag wordt na het boeken verwijderd en de tegenboeking wordt de volgende dag geboekt.|
-|Omgekeerd saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel op de pagina **Verdeelsleutels**. Het saldo op de rekening moet op nul zijn ingesteld en een tegenrekeningspost wordt de dag erop geboekt.|
+|V Vast|het bedrag op de dagboekregel wordt na het boeken bewaard.|
+|V Variabel|het bedrag op de dagboekregel wordt na het boeken verwijderd.|
+|S Saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel in de tabel Dagboekverdeelsleutel. Het saldo op de rekening wordt zo op nul ingesteld. Vul het veld **Verdeelsleutel %** op de pagina **Verdeelsleutels** in. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](#allocating-recurring-journal-amounts-to-several-accounts).|
+|OV Omgekeerd vast|Het bedrag wordt na het boeken bewaard en de tegenboeking wordt de volgende dag geboekt.|
+|OR Omgekeerd vaRiabel|Het bedrag wordt na het boeken verwijderd en de tegenboeking wordt de volgende dag geboekt.|
+|OS Omgekeerd saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel op de pagina **Verdeelsleutels**. Het saldo op de rekening moet op nul zijn ingesteld en een tegenrekeningspost wordt de dag erop geboekt.|
+|SD Saldo per dimensie|De dagboekregel wijst kosten toe op basis van het saldo van een grootboekrekening per dimensie. U wordt gevraagd de dimensiefilters in te stellen die moeten worden gebruikt om het saldo van de brongrootboekrekening te berekenen per dimensie waaruit u kosten wilt toewijzen. U kunt ook later de actie **Dimensiefilters instellen** kiezen.|
+|OSD Omgekeerd saldo per dimensie|De dagboekregel wijst kosten toe op basis van het omgekeerd saldo van een grootboekrekening per dimensie. U wordt gevraagd de dimensiefilters in te stellen die moeten worden gebruikt om het saldo van de brongrootboekrekening te berekenen per dimensie waaruit u kosten wilt toewijzen. U kunt ook later de actie **Dimensiefilters instellen** kiezen.|
 
 > [!NOTE]  
->  De btw-velden kunnen worden ingevuld op de periodieke dagboekregel of op de verdelingsdagboekregel, maar niet op beide. De btw-velden kunt u alleen invullen op de pagina **Verdeelsleutels** als de overeenkomende regels in het periodieke dagboek niet zijn ingevuld.
+> De btw-velden kunnen worden ingevuld op de periodieke dagboekregel of op de verdelingsdagboekregel, maar niet op beide. De btw-velden kunt u alleen invullen op de pagina **Verdeelsleutels** als de overeenkomende regels in het periodieke dagboek niet zijn ingevuld.
 
 ### <a name="recurring-frequency-field"></a>Veld Frequentie
 Dit veld bepaalt hoe vaak de dagboekregelpost moet worden geboekt. Dit is een datumformuleveld en het moet worden ingevuld voor periodieke dagboekregels. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ Voordeel van dit veld is dat de regel niet onmiddellijk uit het dagboek wordt ve
 Als het veld leeg is, wordt de regel geboekt totdat deze uit het dagboek wordt verwijderd.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Periodieke dagboekbedragen toewijzen aan meerdere rekeningen
+
 Op de pagina **Periodiek dagboek** kunt u de actie **Verdeelsleutels** kiezen om te zien of beheren hoe bedragen op de periodieke dagboekregel worden verdeeld over verschillende rekeningen en dimensies. Een verdeelsleutel fungeert als tegenrekeningregel is voor de periodieke dagboekregel.
 
 Net als in een periodiek dagboek hoeft u een toewijzing maar eenmaal in te voeren. De verdeelsleutel blijft na het boeken in het verdelingsdagboek, zodat u bedragen en toewijzingen niet telkens hoeft in te voeren wanneer u de periodieke dagboekregel boekt.
 
-Als de periodieke methode in het periodieke dagboek is ingesteld op **Saldo** of **Omgekeerd saldo**, wordt geen rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dit betekent dat als u op de pagina **Verdeelsleutels** een periodieke regel verdeelt over verschillende dimensiewaarden, er slechts één tegenpost wordt gemaakt. Wanneer u een periodieke dagboekregel verdeelt die een dimensiewaardecode bevat, moet u dezelfde code daarom niet invoeren op de pagina **Verdeelsleutels**. Als u dat wel doet, zijn de dimensiewaarden onjuist.
+Als de *periodieke methode* in het periodieke dagboek is ingesteld op **Saldo** of **Omgekeerd saldo**, wordt geen rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dit betekent dat als u op de pagina **Verdeelsleutels** een periodieke regel verdeelt over verschillende dimensiewaarden, er slechts één tegenpost wordt gemaakt. Wanneer u een periodieke dagboekregel verdeelt die een dimensiewaardecode bevat, moet u dezelfde code daarom niet invoeren op de pagina **Verdeelsleutels**. Als u dat wel doet, zijn de dimensiewaarden onjuist.  
+
+Om periodieke journaalbedragen toe te wijzen op basis van dimensies, stelt u in plaats daarvan het veld **Periodieke methode** in op **Saldo per dimensie** of **Omgekeerd saldo per dimensie**. Als de periodieke methode in het periodieke dagboek is ingesteld op **Saldo per dimensie** of **Omgekeerd saldo per dimensie**, wordt rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dus als u een terugkerende regel toewijst aan verschillende dimensiewaarden op de pagina **Toewijzingen**, dan wordt een aantal tegenboekingen gemaakt die overeenkomen met het aantal dimensiewaardecombinaties waaruit het saldo bestaat. Als u rekeningsaldo toewijst via het periodieke dagboek dat een dimensiewaardecode bevat, vergeet dan niet om **Saldo per dimensie** of **Omgekeerd saldo per dimensie** te gebruiken om ervoor te zorgen dat de dimensiewaarden correct in evenwicht zijn of worden omgekeerd ten opzichte van de bronaccount.  
+
+Uw bedrijf heeft bijvoorbeeld een aantal bedrijfsunits en een handvol afdelingen die uw controllers als dimensies hebben ingesteld. Om het invoerproces van inkoopfacturen te versnellen besluit u dat de crediteurenadministratie alleen bedrijfsunitdimensies moet invoeren. Aangezien elke bedrijfsunit specifieke verdeelsleutels heeft voor de dimensie Afdeling, bijvoorbeeld op basis van het aantal werknemers, kunt u de periodieke methoden **Saldo per dimensie** of **Omgekeerd saldo per dimensie** gebruiken om kosten voor elke bedrijfsunit opnieuw toe te wijzen aan de juiste afdelingen op basis van de verdeelsleutels.  
+
+> [!NOTE]
+> Dimensies die u op verdeelsleutelregels instelt, worden niet automatisch berekend en u moet specificeren welke dimensiewaarden moeten worden ingesteld voor de verdelingsrekeningen. Als u de koppeling tussen de dimensie van de bronrekening en de dimensie van de verdelingsrekening wilt behouden, raden we u aan in plaats daarvan de mogelijkheden van [Kostprijsboekhouding](finance-about-cost-accounting.md) te gebruiken.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Voorbeeld: huurbetalingen aan verschillende kostenplaatsen toewijzen
 U betaalt elke maand huur en u hebt het huurbedrag dus ingevoerd op de kasrekening op een periodieke dagboekregel. Op de pagina **Verdeelsleutels** kunt u de kosten verdelen over verschillende kostenplaatsen (dimensie Kostenplaats), afhankelijk van het aantal vierkante meter per kostenplaats. De berekening is gebaseerd op het verdelingspercentage op elke regel. U kunt verschillende rekeningen invoeren op verschillende verdelingsdagboekregels (als de huur ook wordt verdeeld over verschillende rekeningen). U kunt ook dezelfde rekening invoeren, maar op elke regel een andere dimensiewaardecode voor de dimensie Kostenplaats opgeven.
@@ -167,7 +178,7 @@ Wanneer u het standaardartikeldagboek hebt opgeslagen, wordt de pagina Artikelda
 
     Het artikeldagboek wordt nu gevuld met de regels die u als het standaardartikeldagboek hebt opgeslagen. Als er al dagboekregels in het artikeldagboek voorkomen, worden de ingevoegde regels onder de bestaande dagboekregels geplaatst.
 
-    Als u het veld **Eenheidsprijs opslaan** niet hebt ingeschakeld toen u de functietaak **Opslaan als standaardartikeldagboek** gebruikte, wordt het veld **Eenheidsprijs** op regels die zijn ingevoegd vanaf het standaarddagboek, automatisch gevuld met de huidige waarde van het artikel, gekopieerd van het veld **Kostprijs** op de artikelkaart.
+    Als u het veld **Eenheidsprijs opslaan** niet hebt ingeschakeld toen u de functietaak **Opslaan als standaardartikeldagboek** gebruikte, wordt het veld **Eenheidsprijs** op regels die zijn ingevoegd vanuit het standaarddagboek, automatisch gevuld met de huidige waarde van het artikel, gekopieerd van het veld **Kostprijs** op de artikelkaart.
 
     > [!NOTE]  
     >   Als u de velden **Eenheidsprijs opslaan** of **Aantal opslaan** hebt geselecteerd, moet u controleren of de ingevoegde waarden voor deze bepaalde voorraadwijziging correct zijn voordat u het artikeldagboek boekt.

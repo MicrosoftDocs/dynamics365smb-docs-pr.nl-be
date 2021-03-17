@@ -3,19 +3,19 @@ title: Resultatenrekeningen sluiten | Microsoft Docs
 description: Bij jaarafsluiting moet u de batchverwerking Afsluiten WenV-rekening uitvoeren om de boekhoudperioden te sluiten die het boekjaar vormen.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d221e0960eb49ba018ae34f73f2360a502465d61
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: bafd9b1f76d2279a23d87704473b47cd1fa8e64c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755604"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392311"
 ---
 # <a name="close-income-statement-accounts"></a>Resultatenrekeningen sluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten. Voer hiervoor de batchverwerking **Afsluiten WenV-rekening** uit. Met deze taak wordt het jaarresultaat overgeboekt naar een rekening op de balans en worden de resultatenrekeningen afgesloten. In een dagboek worden regels gemaakt die u vervolgens kunt boeken.

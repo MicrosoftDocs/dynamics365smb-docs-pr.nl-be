@@ -4,19 +4,19 @@ description: U kunt met andere bedrijven samenwerken om een btw-groep te vormen 
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757054"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498599"
 ---
 # <a name="the-vat-group-management-extension"></a>De extensie Btw-groepsbeheer
 
@@ -111,6 +111,9 @@ Wanneer de btw-aangifte van de btw-groepsvertegenwoordiger namens de hele groep 
 
 > [!NOTE]
 > Leden van de btw-groep kunnen ingediende btw-aangiften corrigeren zolang de groepsvertegenwoordiger de btw-aangifte voor de groep niet heeft vrijgegeven. Om een correctie door te voeren moet het btw-groepslid een nieuwe btw-aangifte voor de btw-aangifteperiode maken en deze indienen bij de btw-groepsvertegenwoordiger. Aan de kant van de btw-groepsvertegenwoordiger wordt de laatste btw-aangifte opgenomen op de pagina **Btw-aangiften**. 
+
+> [!IMPORTANT]
+> De btw-groepsfunctionaliteit wordt alleen ondersteund in markten waar [!INCLUDE[prod_short](includes/prod_short.md)] een btw-raamwerk gebruikt dat bestaat uit btw-aangiften en btw-aangifteperioden. U kunt geen btw-groepen gebruiken in andere markten die andere implementaties van lokale btw-rapportage hebben, zoals Oostenrijk, Duitsland, Italië, Spanje en Zwitserland. 
 
 ## <a name="see-also"></a>Zie ook
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  

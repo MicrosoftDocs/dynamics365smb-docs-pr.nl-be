@@ -3,19 +3,19 @@ title: Pagina's per rol verkennen en navigeren | Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756705"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470324"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Pagina's zoeken met de Rolverkenner
 U kunt een overzicht krijgen van alle zakelijke functies die beschikbaar zijn voor uw rol en voor andere rollen als u nog een stap verder gaat. In de volgende documentatie wordt dit functieoverzicht de *Rolverkenner* genoemd.
@@ -39,7 +39,9 @@ De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten 
 
 - Kies een knooppunt om een knooppunt uit of samen te vouwen. Dit is van toepassing op knooppunten op het hoogste niveau en subknooppunten.
 - Als u alle knooppunten op het hoogste niveau op de pagina wilt uitvouwen/samenvouwen, kiest u de actie **Uitbreiden** of **Samenvouwen** in de rechterbovenhoek.
-- Als u een knooppunt op het hoogste niveau en alle onderliggende knooppunten wilt uitvouwen/samenvouwen, drukt u op de toetsen Ctrl+Shift terwijl u de actie **Uitvouwen** of **Samenvouwen** in de rechterbovenhoek kiest.
+- Voer een van de volgende stappen uit om alle knooppunten op het hoogste niveau en alle onderliggende knooppunten uit te vouwen/samen te vouwen:
+    - Druk op de Ctrl + Shift-toetsen terwijl u de actie **Uitvouwen** of **Samenvouwen** kiest in de rechterbovenhoek.
+    - Kies **...** in de rechterbovenhoek en kies vervolgens de actie **Alles uitvouwen** of **Alles samenvouwen**.
 
 ## <a name="see-also"></a>Zie ook
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  

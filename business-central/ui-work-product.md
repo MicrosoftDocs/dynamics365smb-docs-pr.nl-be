@@ -3,18 +3,18 @@ title: Werken met de algemene functionaliteit in Business Central | Microsoft Do
 description: Beschrijft de algemene functies die u gebruikt om te werken met gegevens in Business Central, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840190"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393586"
 ---
 # <a name="working-with-prod_short"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.

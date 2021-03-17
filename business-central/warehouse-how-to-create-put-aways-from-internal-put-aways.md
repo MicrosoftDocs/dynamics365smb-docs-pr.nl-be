@@ -1,21 +1,21 @@
 ---
-title: Een opslaginstructie maken van de interne opslaginstructie | Microsoft Docs
+title: Opslag maken vanuit interne opslag
 description: Artikelen die worden opgeslagen om te worden gepickt voor een productieorder of verzending, maken deel uit van de beschikbare voorraad in het magazijn.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d0f91182196aebf9b0123225603ed303cd39e66f
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756254"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498624"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Picken en opslaan zonder een brondocument
 Artikelen die worden opgeslagen om te worden gepickt voor een productieorder of verzending, maken deel uit van de beschikbare voorraad in het magazijn.  
@@ -35,15 +35,21 @@ Met **Interne opslag** hebt u de mogelijkheid opslagactiviteiten uit te voeren z
 
 ## <a name="to-create-an-internal-pick"></a>Een interne pick maken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne mag.-pick** in en kies de gerelateerde koppeling.  
-2.  Vul het veld **Nr.** en **Naar opslaglocatie** in op het sneltabblad **Algemeen**. Het veld **Naar opslaglocatie** geeft aan uit welke opslaglocatie de artikelen moeten worden gehaald. Voor productiedoeleinden is deze locatie de inkomende productieopslaglocatie of open-shopopslaglocatie. In alle andere gevallen moet u een opslaglocatie kiezen van een soort die niet wordt gebruikt voor pickactiviteiten, zoals een opslaglocatie voor staging, verzending of speciale doeleinden.  
-3.  Selecteer een artikel in het veld **Artikelnr.** en geef het gewenste pickaantal op.  
-4. Kies de actie **Pick maken**. De pickinstructie voor het magazijn kan nu worden uitgevoerd door een magazijnmedewerker.  
+2. Kies de actie **Nieuw**.
+3. Vul het veld **Nr.**, het veld **Vestiging** en het veld **Naar opslaglocatie** in op het sneltabblad **Algemeen**. Het veld **Naar opslaglocatie** geeft aan waar u de gepickte artikelen wilt plaatsen. Voor productiedoeleinden is deze locatie de inkomende productieopslaglocatie of open-shopopslaglocatie. In alle andere gevallen moet u een opslaglocatiecode kiezen van een soort die niet wordt gebruikt voor pickactiviteiten, zoals een opslaglocatie voor staging, verzending of speciale doeleinden.  
+4.  Selecteer een artikel in het veld **Artikelnr.** en geef het gewenste pickaantal op.  
+5. Kies de actie **Pick maken**. De pickinstructie voor het magazijn kan nu worden uitgevoerd door een magazijnmedewerker. Als alternatief kunt u de actie **Vrijgeven** kiezen en magazijnpicks maken met het **Pickvoorstel**. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie
 
 ## <a name="to-create-an-internal-put-away"></a>Een interne opslag maken  
 1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne mag.-opslag** in en kies de gerelateerde koppeling.  
-2.  Vul het veld **Nr.** en **Van opslaglocatie** in op het sneltabblad **Algemeen**. Het veld **Naar opslaglocatie** geeft aan naar welke opslaglocatie het artikel wordt geretourneerd (mogelijk vanuit de productieafdeling).  
-3.  Voer de artikelnummers en aantallen in op de regels.  
-4.  Kies de actie **Opslag maken**. De opslaginstructie voor het magazijn kan nu worden uitgevoerd door een magazijnmedewerker.  
+2. Kies de actie **Nieuw**.
+3. Vul de kop van een nieuwe interne opslag in met ten minste het **nummer**. en de **vestiging**.
+4. Vul voor ieder artikel dat u naar het magazijn wilt verplaatsen een regel in. U hoeft alleen de velden **Artikelnr.** en **Aantal** in te vullen.
+
+  > [!NOTE]  
+  > Wanneer u het veld **Artikelnr.** kiest, wordt het **Opslaglocatie-inhoudsoverzicht** geopend in plaats van de **artikellijst**. U wilt namelijk een artikel in een bepaalde opslaglocatie - *bininhoud* - opslaan, niet een willekeurig artikel. Bovendien weet u al uit welke opslaglocatie het artikel moet worden gehaald.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
+5. Kies de actie **Opslaglocatie-inhoud ophalen** om de voorstelregels te vullen met de volledige of gefilterde inhoud van de opslaglocaties in de vestiging.  
+6. Kies de actie **Opslag maken**. De opslaginstructie voor het magazijn kan nu worden uitgevoerd door een magazijnmedewerker. Als alternatief kunt u de actie **Vrijgeven** kiezen en magazijnopslag maken met het **Opslagvoorstel**. Zie [Opslag plannen in voorstellen](warehouse-how-to-plan-put-aways-in-worksheets.md) voor meer informatie
 
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

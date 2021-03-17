@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754354"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470374"
 ---
 # <a name="auditing-changes-in-business-central"></a>Wijzigingen controleren in Business Central
 Een veelvoorkomende uitdaging bij veel bedrijfsbeheertoepassingen is het vermijden van ongewenste wijzigingen in gegevens. Het probleem kan variëren van een foutief telefoonnummer van een klant tot een foutieve boeking naar het grootboek. In dit onderwerp worden de mogelijkheden beschreven om erachter te komen wat er is gewijzigd, wie het heeft gewijzigd en wanneer de wijziging is aangebracht.
 
 ## <a name="about-the-change-log"></a>Over het wijzigingslogbestand 
 Met het wijzigingslogbestand kunt u alle directe wijzigingen bijhouden die een gebruiker aanbrengt in de databasegegevens. U moet elke tabel en elk veld opgeven dat u door het systeem wilt laten registreren. Vervolgens moet u het wijzigingslogbestand instellen.  
+
+Het bijhouden van wijzigingen kan invloed hebben op de prestaties, doordat het tijd kan kosten en de database groter kan maken, wat u geld kan kosten. Houd rekening met het volgende om die kosten te verlagen:
+- Wees voorzichtig met het kiezen van tabellen en bewerkingen.
+- Voeg geen grootboekposten en geboekte documenten toe. Geef in plaats daarvan prioriteit aan systeemvelden zoals Gemaakt door en Aanmaakdatum.
+- Gebruik niet het trackingtype Alle velden. Kies in plaats daarvan Sommige velden en volg alleen de belangrijkste velden.
 
 Het wijzigingslogbestand is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. Op de pagina **Wijzigingslogposten** worden posten chronologisch geordend en worden alle wijzigingen weergeven die worden aangebracht in de waarden in velden in tabellen die u opgeeft.
 

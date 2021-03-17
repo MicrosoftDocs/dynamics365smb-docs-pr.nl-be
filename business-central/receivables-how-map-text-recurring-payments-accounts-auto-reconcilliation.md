@@ -3,19 +3,19 @@ title: Tekst-aan-rekening koppeling instellen voor periodieke betalingen | Micro
 description: Koppel tekst aan betalingen met bepaalde rekeningen, zodat betalingen naar de rekeningen geboekt worden als u het betalingsreconciliatiedagboek boekt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e389d31d6f9a28c9cff12950c37f01c1cf51004
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 225883d8b5d6c3d6fe327340d32ae4dbfd2a718b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748580"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392636"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 Op de pagina **Toewijzing tekst aan rekening**, die u opent vanuit de pagina **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.

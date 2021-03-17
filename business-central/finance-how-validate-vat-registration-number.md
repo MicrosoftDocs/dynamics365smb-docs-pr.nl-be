@@ -1,38 +1,38 @@
 ---
 title: Btw-nummers valideren
-description: Laat Business Central de VIES-service gebruiken om btw-nummers automatisch voor u te valideren.
-author: kielkenny
+description: Laat Business Central btw-registratienummers en andere bedrijfsinformatie voor uw contacten, klanten en leveranciers valideren, op basis van de VIES btw-nummervalidatieservice van de Europese Unie.
+author: andregu
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.date: 02/25/2021
 ms.author: andregu
-ms.openlocfilehash: 80e955e96a64c5a0bd91d0a72297b32d67ff4ab6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 867ae5e726de5f2f78e4862a2d8c55dbc3d43ca0
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750579"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492929"
 ---
 # <a name="validate-vat-registration-numbers"></a>Btw-nummers valideren
 
-Het is belangrijk dat de btw-registratienummers die u voor klanten, leveranciers en contactpersonen hebt, geldig zijn. Bedrijven wijzigen bijvoorbeeld soms hun belastingschuldstatus, en in sommige landen/regio's kan de belastingdienst u vragen om rapporten te verschaffen, zoals het rapport Verkoopoverzicht EU, waarin de btw-registratienummers worden weergegeven die u gebruikt wanneer u zaken doet.
+Het is belangrijk dat de btw-registratienummers die u voor klanten, leveranciers en contacten hebt, geldig zijn als u [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt in een land/regio die btw gebruikt. Bedrijven wijzigen bijvoorbeeld soms hun belastingplichtigheidsstatus en in sommige landen/regio's kan de belastingdienst u vragen om rapporten te verschaffen, zoals het rapport **Verkoopoverzicht EU**, waarin de btw-registratienummers worden weergegeven die u gebruikt wanneer u zaken doet.
 
-De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE[prod_short](includes/prod_short.md)] kan u moeite besparen. U kunt namelijk de VIES-service om btw-nummers voor klanten, leveranciers en contactpersonen te valideren en bij te houden, rechtstreeks van de klanten-, leveranciers en contactkaarten gebruiken. De service in [!INCLUDE[prod_short](includes/prod_short.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar op de pagina **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen aanmelding vereist.
+De Europese commissie verschaft de VIES-service voor btw-nummervalidatie op de website. Deze service is openbaar en gratis. [!INCLUDE [prod_short](includes/prod_short.md)] kan u moeite besparen. U kunt namelijk de VIES-service gebruiken om btw-nummers en andere bedrijfsgegevens voor klanten, leveranciers en contacten te valideren en bij te houden. De service in [!INCLUDE [prod_short](includes/prod_short.md)] heet **Instelling van validatieservice van EU-btw-nummers**. De service is beschikbaar op de pagina **Serviceverbindingen** en u kunt deze service meteen gebruiken. De serviceverbinding is gratis en er is geen extra aanmelding vereist.
 
-## <a name="to-verify-vat-registration-numbers"></a>Btw-nummers controleren
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configureer de service om btw-registratienummers automatisch te verifiëren
 
-Als u de **Validatieservice van EU-btw-nummers** wilt inschakelen, opent u het item op de pagina **Serviceverbinding**. Het veld **Eindpunt van service** moet al zijn ingevuld. Als dit niet het geval is, kunt u de actie **Standaardeindpunt instellen** gebruiken. Stel vervolgens het veld **Geactiveerd** in en u bent klaar.
+Als u de **validatieservice van EU-btw-nummers** wilt inschakelen, opent u het item op de pagina **Serviceverbinding**. Als het veld **Eindpunt van service** nog niet is ingevuld, gebruikt u de actie **Standaardeindpunt instellen**. Stel vervolgens het veld **Geactiveerd** in en u bent klaar.  
 
-> [!NOTE]
-> Als u de validatieservice van EU-btw-nummers wilt inschakelen, moet u over beheerdertoegangsrechten beschikken.
+> [!IMPORTANT]
+> Als u de validatieservice wilt inschakelen, moet u over beheerdersmachtigingen beschikken.
+
+Stel optioneel sjablonen in voor de soorten btw-gerelateerde gegevens die u ook door de service wilt laten controleren. Zie het gedeelte [Validatiesjablonen](#validation-templates) voor meer informatie.
 
 Wanneer u onze serviceverbinding gebruikt, registreren we een overzicht van btw-nummers en verificaties voor elke klant, leverancier of contactpersoon in het **Btw-log**, zodat u deze eenvoudig kunt bijhouden. Het logboek is specifiek voor elke klant. Het logboek is bijvoorbeeld handig om te bewijzen dat u hebt gecontroleerd dat het huidige btw-nummer juist is. Wanneer u een btw-nummer verifieert, wordt in de kolom **Aanvraag-id** in het logboek aangegeven dat u actie hebt ondernomen.
 
 U kunt het btw-log weergeven op de klanten-, leveranciers- of contactkaarten, op het sneltabblad **Facturering**, door de zoekknop te kiezen in het veld **Btw-nummer**.  
-
-Onze service kan u ook wat tijd besparen als u een klant of een leverancier maakt. Als u het btw-nummer van de klant weet, kunt u het in het veld **Btw-nummer** op de klanten- of leverancierskaart invoeren. De klantnaam wordt dan voor u ingevuld. Sommige landen/regio's verschaffen ook bedrijfsadressen in een gestructureerde indeling. In deze landen/regio's wordt het adres ook door ons ingevuld.  
 
 Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIES-service voor btw-nummervalidatie:
 
@@ -41,6 +41,19 @@ Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIE
 
 > [!IMPORTANT]
 > Het is uw verantwoordelijkheid om te controleren of de gegevens kloppen. Soms worden gegevens met fouten geretourneerd door de VIES-service voor btw-nummervalidatie. Als de validatie mislukt, valideert u de btw-registratienummers op de [website](https://ec.europa.eu/taxation_customs/vies/), drukt u het resultaat af of slaat u het op een gedeelde locatie op, en voegt u vervolgens de koppeling toe aan de record voor uw klant, leverancier of contactpersoon. Zie voor meer informatie [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md).
+
+## <a name="validation-templates"></a>Validatiesjablonen
+
+[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
+
+U kunt de VIES-service gebruiken om ook andere bedrijfsinformatie, zoals het adres en het btw-nummer, te controleren. Maak op de pagina **Validatiesjablonen voor btw-nummers** een vermelding voor elk land/regio waarvoor u verdere validatie wilt krijgen, en specificeer vervolgens de informatie die u automatisch wilt laten valideren.  
+
+Voeg bijvoorbeeld een vermelding toe voor Spanje waar u validatie wilt krijgen voor naam, straat, stad en postcode, en vervolgens een vermelding voor Duitsland waar u bijvoorbeeld alleen validatie voor postcode wilt. Geef vervolgens op de pagina **Instelling van validatieservice van EU-btw-nummers** de standaardsjabloon op.  
+
+> [!NOTE]
+> Zorg er altijd voor dat de standaardsjabloon werkt voor uw behoeften. U kunt de standaardinstelling aanpassen aan uw vereisten, zoals validatie voor alle velden of geen velden.
+
+De volgende keer dat u een btw-nummer opgeeft, valideert de service het nummer en eventuele aanvullende gegevens zoals bepaald door uw validatiesjablonen. Als de opgegeven waarden verschillen van de waarden die door de service worden geretourneerd, ziet u de details op de pagina **Validatiegegevens**, waar u de waarden kunt accepteren of resetten.  
 
 ## <a name="see-also"></a>Zie ook
 

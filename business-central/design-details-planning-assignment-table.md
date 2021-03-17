@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Tabel Planningstoewijzing | Microsoft Docs'
 description: Dit onderwerp biedt inzicht in wat er gebeurt wanneer u wijzigt hoe u plant voor een artikel.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b981fc2d234c2f8c32e0fe10daa1ce20f25bb4f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c98e89340ac85f48a4341ac9c9b714c1135db683
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922028"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390836"
 ---
 # <a name="design-details-planning-assignment-table"></a>Ontwerpdetails: Tabel Planningstoewijzing
 Alle artikelen moeten worden gepland, maar er is geen reden om een planning voor een artikel te berekenen tenzij er een verandering in het vraag- of aanbodpatroon is opgetreden sinds er voor het laatst een planning is berekend.  

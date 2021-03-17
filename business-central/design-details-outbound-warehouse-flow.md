@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Uitgaande magazijnstroom | Microsoft Docs'
 description: De uitgaande stroom in het magazijn begint met een aanvraag vanuit vrijgegeven brondocumenten om de artikelen uit de magazijnvestiging te halen, ofwel om te worden verzonden naar een externe partij of naar een andere bedrijfsvestiging. Vanuit het opslaggebied worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen naar de verzenddoks te brengen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 13902c650606ef7a4464b367283abc9d610b9e4c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390861"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
 

@@ -3,19 +3,19 @@ title: Ongerealiseerde btw instellen | Microsoft Docs
 description: Als u op kas gebaseerde boekhouding gebruikt, kunt u opgeven hoe ongerealiseerde btw voor verkopen en inkopen moet worden verwerkt.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 36404306909fb7c2e9d2de97e43fa181dc65a069
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9320a06b8224aae334e8b3b8682df4d8b5fbdb81
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746552"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492904"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
 Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen om ongerealiseerde btw te verwerken.
@@ -49,7 +49,6 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 > Het btw-bedrag wordt naar deze rekening geboekt en blijft daar tot de betaling van de klant is geboekt. Daarna wordt het bedrag overgeboekt naar de rekening voor inkoop-btw.
 
 ## <a name="see-also"></a>Zie ook
-[Btw instellen](finance-setup-vat.md)
-
+[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: E-maillogboekregistratie instellen | Microsoft Docs
 description: Leer hoe u e-mailinteracties tussen verkopers en klanten kunt omzetten in echte opportunities.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749817"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470349"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen
 
@@ -65,7 +65,7 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure Active Directory gebru
     > Als u de omleidings-URL niet opgeeft, kunt u dit later doen door **Een platform toevoegen** te kiezen en dan **Web** te kiezen om de webtoepassing en de omleidings-URL toe te voegen. 
 
 3. Kies onder **Beheren** **Manifest**.
-4. Zoek de eigenschap **requiredResourceAccess** in het manifest en voeg de volgende code tussen haakjes ([]) toe om de vereiste machtigingen toe te voegen. Zie [Uw toepassing registreren](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application) voor meer informatie.
+4. Zoek de eigenschap **requiredResourceAccess** in het manifest en voeg de volgende code tussen haakjes ([]) toe om de vereiste machtigingen toe te voegen. Zie [Uw toepassing registreren](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application) voor meer informatie.
 
 ```
 {

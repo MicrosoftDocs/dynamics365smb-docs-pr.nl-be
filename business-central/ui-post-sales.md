@@ -3,19 +3,19 @@ title: Verkoopdocumenten boeken | Microsoft Docs
 description: Meer informatie over de verschillende boekingsfuncties om verkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392061"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
 
@@ -28,7 +28,7 @@ In het menu **Boeken** in een verkoopdocument kunt u kiezen uit de volgende boek
 * **Batchboeken**
 * **Testrapport**
 
-> [OPMERKING!] Voor verkooporders ziet u ook opties met betrekking tot de vooruitbetalingsfunctionaliteit. Zie voor meer informatie [Vooruitbetalingen factureren](finance-invoice-prepayments.md). 
+> [!NOTE] Voor verkooporders ziet u ook opties met betrekking tot de vooruitbetalingsfunctionaliteit. Zie voor meer informatie [Vooruitbetalingen factureren](finance-invoice-prepayments.md). 
 
 Wanneer u alle regels hebt ingevuld en alle informatie hebt ingevoerd op de verkooporder, kunt u de order boeken. Hiermee worden een verzending en een factuur gemaakt.
 

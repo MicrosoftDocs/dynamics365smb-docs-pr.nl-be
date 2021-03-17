@@ -3,16 +3,16 @@ title: Vooruitbetalingen instellen | Microsoft Docs
 description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5704444994ba8cdbd6ac4e9d562c781cd4f97d4c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391486"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).

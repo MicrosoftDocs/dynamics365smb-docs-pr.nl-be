@@ -3,19 +3,19 @@ title: 'Procedure: ontvangen en opslaan in basismagazijnconfiguraties'
 description: In Business Central kunnen de inkomende processen voor ontvangst en opslag op vier verschillende manieren worden uitgevoerd, afhankelijk van het complexiteitsniveau van het magazijn.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 674b095c515c6c8be5dde41861ab2cfdc943855f
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 88916553b39b6420e7d56c8c5ce0ec25682c466a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391661"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties
 

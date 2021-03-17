@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 965171f23fb774ecfd865c1004cb9a224015ea21
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 836c3957f43d4b2d6ccb5e10bf8ef5efa3ba1177
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817218"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493215"
 ---
 # <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -32,7 +32,7 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij
 U kunt ook [onze videobibliotheek bezoeken](across-videos.md) of beginnen met het leertraject [Aan de slag met Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Tenzij anders aangegeven, weerspiegelt de inhoud op de Docs.microsoft.com-site de nieuwste versie van [!INCLUDE[prod_short](includes/prod_short.md)] online. Als uw organisatie een andere versie van [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, zijn sommige mogelijkheden mogelijk nog niet beschikbaar. Ook als uw organisatie gebruik maakt van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, gebruikt u mogelijk een eerdere versie. Zie voor meer informatie [Veelgestelde Vragen](across-faq.md).
+> Tenzij anders aangegeven, weerspiegelt de inhoud op de [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/)-site de nieuwste versie van [!INCLUDE[prod_short](includes/prod_short.md)] online. Als uw organisatie een andere versie van [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, zijn sommige mogelijkheden mogelijk nog niet beschikbaar. Ook als uw organisatie gebruik maakt van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, gebruikt u mogelijk een eerdere versie. Zie voor meer informatie [Veelgestelde Vragen](across-faq.md).
 
 De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen vertrouwd te raken met [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -69,6 +69,10 @@ De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen ver
 - [Ontwikkeling in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regels en richtlijnen voor AL-code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## <a name="learn"></a>Leren
+
+U vindt gratis e-learninginhoud op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 ## <a name="community-resources"></a>Communityresources
 

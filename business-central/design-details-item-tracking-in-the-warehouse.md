@@ -3,24 +3,24 @@ title: Ontwerpdetails - Artikeltracering in het magazijn | Microsoft Docs
 description: De verwerking van serie- en lotnummers is hoofdzakelijk een magazijntaak. Daarom hebben alle inkomende en uitgaande magazijndocumenten standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers. Omdat het reserveringsysteem echter op artikelposten is gebaseerd, worden magazijnactiviteitsdocumenten die alleen magazijnposten registreren, niet volledig ondersteund.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e369517d05cd4a9e9c0586f6d7407f0351966def
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6deebef5b1413ac04febe3333d21fe730e3bdea7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390961"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Ontwerpdetails: Artikeltracering in het magazijn
 De verwerking van serie- en lotnummers is hoofdzakelijk een magazijntaak. Daarom hebben alle inkomende en uitgaande magazijndocumenten standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers.  
 
-Omdat het reserveringsysteem echter op artikelposten is gebaseerd, worden magazijnactiviteitsdocumenten die alleen magazijnposten registreren, niet volledig ondersteund. Omdat reserveringen en artikeltraceringsnummers alleen op locatieniveau kunnen worden verwerkt, en niet op het niveau van de opslaglocatie en de zone, kan de pagina **Artikeltraceringsregels** niet worden geopend vanuit magazijnactiviteitsdocumenten. Hetzelfde geldt voor de pagina **Reservering** .  
+Omdat het reserveringsysteem echter op artikelposten is gebaseerd, worden magazijnactiviteitsdocumenten die alleen magazijnposten registreren, niet volledig ondersteund. Omdat reserveringen en artikeltraceringsnummers alleen op locatieniveau kunnen worden verwerkt, en niet op het niveau van de opslaglocatie en de zone, kan de pagina **Artikeltraceringsregels** niet worden geopend vanuit magazijnactiviteitsdocumenten. Hetzelfde geldt voor de pagina **Reservering**.  
 
 Nadat een serienummer of lotnummer is toegevoegd aan een artikel op een magazijnlocatie, kan het vrijelijk binnen het magazijn worden verplaatst en geherclassificeerd met behulp van een onafhankelijke artikeltraceringstructuur die niet gerelateerd is aan het reserveringsysteem. De velden **Serienummer** en **Lotnr.** zijn rechtstreeks toegankelijk op magazijndocumentregels. Wanneer het serie- of lotnummer later wordt gebruikt bij uitgaande posten, wordt het gesynchroniseerd met het reserveringssysteem als onderdeel van de normale opslaglocatieherwaardering. Zie [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md) voor meer informatie.  
 

@@ -3,19 +3,19 @@ title: Uw boekingen factureren in Business Central | Microsoft Docs
 description: Leren hoe u massaal factureert vanuit Microsoft Bookings in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b683fa14801c00904c131ada5bcce1f669c9b2a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a53467265f0dac62de95c4d8e93ee6c897ef3d01
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391136"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massaal factureren voor Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 Als uw bedrijf de app Bookings gebruikt in Microsoft 365, kunt u massaal factureren voor afspraken. De pagina **Niet-gefactureerde Bookings** in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van de voltooide boekingen van het bedrijf. Op deze pagina kunt u snel afspraken selecteren die u wilt factureren en conceptfacturen maken voor de geleverde services.  

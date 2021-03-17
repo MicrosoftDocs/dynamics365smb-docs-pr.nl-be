@@ -3,23 +3,23 @@ title: Overschakelen naar een ander bedrijf of een andere omgeving | Microsoft D
 description: Als u werkt voor meerdere organisaties,kunt u snel tussen de omgevingen en bedrijven schakelen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760429"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573463"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Zie voor meer informatie [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Als u vaak tussen bedrijven wisselt, kan het gemakkelijk zijn om uit het oog te verliezen waar u bent. Om u te helpen dit bij te houden kunt u een badge toevoegen met de bedrijfsnaam, zodat u snel kunt controleren of u op de juiste plaats bent. Zie voor meer informatie [Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Als u vaak wisselt tussen bedrijven of met [!INCLUDE[prod_short](includes/prod_short.md)] werkt vanuit een andere app, zoals Microsoft Teams, kan het gemakkelijk zijn om uit het oog te verliezen waar u zich bevindt. Om u te helpen dit bij te houden kunt u een badge toevoegen met de bedrijfsnaam, zodat u snel kunt controleren of u op de juiste plaats bent. Zie voor meer informatie [Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Overschakelen op een andere omgeving
 

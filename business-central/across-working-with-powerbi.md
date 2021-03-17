@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752987"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492963"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet 
 
 Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Verbinding maken met Power BI - eenmalig
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Verbinding maken met Power BI - eenmalig
 
 Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE [prod_short](includes/prod_short.md)], ziet u misschien een leeg Power BI-gedeelte op een pagina, zoals weergegeven in de vorige afbeelding. Het eerste dat u moet doen, is verbinding maken met uw Power BI-account. Als de verbinding eenmaal tot stand is gebracht, worden er rapporten weergegeven. U hoeft deze stap maar één keer uit te voeren.
 
-Als u verbinding wilt maken met Power BI, selecteert u de koppeling **Aan de slag met Power BI** in het gedeelte **Power BI-rapporten**.
+Als u verbinding wilt maken met Power BI, selecteert u de koppeling **Aan de slag met Power BI** in het gedeelte **Power BI-rapporten**. 
 
 Tijdens het verbindingsproces communiceert [!INCLUDE [prod_short](includes/prod_short.md)] met de Power BI-service om te bepalen of u een geldig Power BI-account en geldige bijbehorende licentie hebt. Zodra uw licentie is geverifieerd, wordt het standaard Power BI-rapport weergegeven op de pagina. Als er geen rapport wordt weergegeven, kunt u in het gedeelte een rapport selecteren.
 
@@ -53,7 +53,7 @@ Tijdens het verbindingsproces communiceert [!INCLUDE [prod_short](includes/prod_
 
 ##### <a name="from-prod_short-on-premises"></a>Vanuit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Het maken van een verbinding met Power BI vanuit [!INCLUDE [prod_short](includes/prod_short.md)] gaat op ongeveer dezelfde manier als in de online versie. U wordt echter op de pagina **MACHTIGINGEN VAN AZURE ACTIVE DIRECTORY-SERVICE** gevraagd om toegang te verlenen tot Power BI-services. Selecteer om toegang te verlenen de optie **Azure-services autoriseren** en vervolgens **Accepteren**.
+Het maken van een verbinding met Power BI vanuit [!INCLUDE [prod_short](includes/prod_short.md)] gaat op ongeveer dezelfde manier als in de online versie. U kunt echter op de pagina **MACHTIGINGEN VAN AZURE ACTIVE DIRECTORY-SERVICE** worden gevraagd om toegang te verlenen tot Power BI-services. Selecteer om toegang te verlenen de optie **Azure-services autoriseren** en vervolgens **Accepteren**.
 
 Als de verbinding eenmaal tot stand is gebracht, kunt u een rapport selecteren uit het Power BI-gedeelte op pagina's.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752762"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470449"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen dat gemakkelijker maken door een of meer e-mailaccounts te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Beheerders kunnen ook rapportlay-outs instellen die alleen de belangrijkste informatie uit documenten bevatten. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -37,7 +37,7 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 
 |Extensie  |Omschrijving  |Voorbeelden van wanneer te gebruiken  |
 |---------|---------|---------|
-|**Microsoft 365**|Iedereen verstuurt e-mail vanuit een gedeelde mailbox in Exchange Online.|Wanneer alle berichten bijvoorbeeld van dezelfde afdeling komen, verstuurt uw verkooporganisatie berichten vanaf een sales@cronus.com-account. Dit vereist dat u een gedeelde mailbox instelt in het Office 365-beheercentrum. Zie voor meer informatie [Gedeelde mailboxen](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Iedereen verstuurt e-mail vanuit een gedeelde mailbox in Exchange Online.|Wanneer alle berichten bijvoorbeeld van dezelfde afdeling komen, verstuurt uw verkooporganisatie berichten vanaf een sales@cronus.com-account. Dit vereist dat u een gedeelde mailbox instelt in het Office 365-beheercentrum. Zie voor meer informatie [Gedeelde mailboxen](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Huidige gebruiker**|Iedereen verstuurt e-mail vanaf het account waarmee ze zich hebben aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)].|Communicatie vanuit individuele accounts toestaan.|
 |**Overige (SMTP)**|SMTP-protocol gebruiken om e-mails te verzenden.|Communicatie via uw SMTP-mailserver toestaan. |
 
@@ -47,7 +47,7 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Oude SMTP-instellingen en de extensie E-mail - SMTP-connector
-Als u al gebruikmaakt van [!INCLUDE[prod_short](includes/prod_short.md)] en e-mail hebt geconfigureerd via de oude SMTP-instelling, kunt u uw instelling parallel met de extensie E-mail - SMTP-connector blijven gebruiken. Wanneer we uw [!INCLUDE[prod_short](includes/prod_short.md)] naar de volgende releaseversie bijwerken, zullen we uw oude SMTP-instellingen kopiëren naar de extensie E-mail - SMTP-connector. Als u klaar bent, kan uw beheerder de verbeterde e-mailmogelijkheden inschakelen en gaat u de extensie E-mail - SMTP-connector gebruiken. Zie [Over functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management) voor meer informatie. Er is echter geen synchronisatie tussen de extensie SMTP-connector en de oude instellingen. Als u de SMTP-instellingen in de extensie wijzigt, moet u dezelfde wijzigingen aanbrengen in de oude SMTP-instellingen of vice versa.
+Als u al gebruikmaakt van [!INCLUDE[prod_short](includes/prod_short.md)] en e-mail hebt geconfigureerd via de oude SMTP-instelling, kunt u uw instelling parallel met de extensie E-mail - SMTP-connector blijven gebruiken. Wanneer we uw [!INCLUDE[prod_short](includes/prod_short.md)] naar de volgende releaseversie bijwerken, zullen we uw oude SMTP-instellingen kopiëren naar de extensie E-mail - SMTP-connector. Als u klaar bent, kan uw beheerder de verbeterde e-mailmogelijkheden inschakelen en gaat u de extensie E-mail - SMTP-connector gebruiken. Zie [Over functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management) voor meer informatie. Er is echter geen synchronisatie tussen de extensie SMTP-connector en de oude instellingen. Als u de SMTP-instellingen in de extensie wijzigt, moet u dezelfde wijzigingen aanbrengen in de oude SMTP-instellingen of vice versa.
 
 > [!NOTE]
 > Als u aanpassingen heeft die afhankelijk zijn van de oude SMTP-e-mailconfiguratie, bestaat de kans dat er iets misgaat met uw aanpassingen als u e-mailextensies gaat gebruiken. We raden u aan de extensies in te stellen en te testen voordat u de functieschakelaar inschakelt voor verbeterde e-mailmogelijkheden.
@@ -157,7 +157,7 @@ De stappen om [!INCLUDE[prod_short](includes/prod_short.md)] te registreren in A
 > * Omleidings-URI (optioneel)
 > * Clientgeheim
 
-Voor algemene richtlijnen voor het registreren van een app raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app.md). 
+Voor algemene richtlijnen voor het registreren van een app raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
 Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de begeleide instelling **AAD-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.

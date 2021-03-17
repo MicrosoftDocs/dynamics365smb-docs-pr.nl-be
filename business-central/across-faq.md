@@ -3,16 +3,16 @@ title: Veelgestelde vragen over het gebruik Business Central
 description: Antwoorden op veelgestelde vragen over hoe u zich aanmeldt voor Business Central of Business Central aanschaft, een proefversie verlengt, een abonnement annuleert en training en andere ondersteuning krijgt.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014037"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498574"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Veelgestelde vragen over het gebruik van Business Central
 
@@ -40,7 +40,9 @@ Ten slotte kunt u contact opnemen met uw partner die [!INCLUDE[prod_short](inclu
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Waarom kan ik die mogelijkheid niet vinden in mijn [!INCLUDE[prod_short](includes/prod_short.md)]?
 Hebt u onlangs in het releaseplan of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk nog niet geüpgraded naar de laatste versie. U kunt controleren op welke versie uw [!INCLUDE[prod_short](includes/prod_short.md)] is gebaseerd op de pagina [Help en ondersteuning](product-help-and-support.md).  
 
-Als de mogelijkheid is gepubliceerd als een extensie in AppSource, is er ook een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource.  
+Dit heeft betrekking op [!INCLUDE [prod_short](includes/prod_short.md)] online en on-premises.  
+
+Als de mogelijkheid is gepubliceerd als een extensie in AppSource, is er ook een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource. Dit heeft alleen betrekking op [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Zijn er verschillen tussen een on-premises implementatie en de cloudversie van Business Central?
 Ja. Sommige cloudgebaseerde functies kunnen in bepaalde gevallen on premises worden uitgevoerd en andere worden helemaal niet ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -65,8 +67,9 @@ Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **E
 
 Er is geen knop *Opslaan* op pagina's zoals in andere programma's waarmee u mogelijk vertrouwd bent. In [!INCLUDE[prod_short](includes/prod_short.md)] worden wijzigingen die u aanbrengt in een veld, automatisch opgeslagen zodra u naar het volgende veld gaat of de pagina sluit, zo lang er geen fouten zijn. Wanneer u wijzigingen in een veld aanbrengt en naar een ander veld gaat, ziet u de tekst **Opslaan** in de rechterbovenhoek van de pagina, wat snel verandert in **Opgeslagen** als er geen fouten optreden. Als er een fout is opgetreden, wordt de tekst gewijzigd in **Niet opgeslagen**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[prod_short](includes/prod_short.md)]?
-Voor [!INCLUDE[prod_short](includes/prod_short.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[prod_short](includes/prod_short.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[prod_short](includes/prod_short.md)] online?
+
+Voor [!INCLUDE[prod_short](includes/prod_short.md)] online moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[prod_short](includes/prod_short.md)] online worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken. Zie [Aanmelden bij Troubleshooting Self-Service](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ De eerste releases van [!INCLUDE[prod_short](includes/prod_short.md)] on premise
 [Veelgestelde vragen over ontwikkelaars- en ITPro-ervaringen](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

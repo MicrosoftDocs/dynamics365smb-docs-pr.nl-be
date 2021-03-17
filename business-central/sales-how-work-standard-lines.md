@@ -3,19 +3,19 @@ title: Standaardregels instellen voor periodieke verkoop en inkopen | Microsoft 
 description: U kunt verkoopregels en inkoopregels instellen die u vaak maakt en deze vervolgens invoeren op verkoop- en inkoopdocumenten om de regels snel te vullen met standaardgegevens.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40af4b0010b46938a9ce53a12dd95f1b2a687cc9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 229176ed145387c1b51d1d85fce2007d7aa4541b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748181"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393561"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  

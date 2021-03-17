@@ -1,23 +1,26 @@
 ---
 title: Speciale en alternatieve leveranciersprijzen en -kortingen instellen | Microsoft Docs
 description: U kunt verschillende alternatieve prijzen en kortingen definiëren en deze toepassen op inkoopdocumenten voor leveranciers.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.author: bholtorf
+ms.openlocfilehash: f1c036b33d80d3f8a4f7b45e38b823631b93fc53
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748781"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476757"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Speciale inkoopprijzen en kortingen registreren
+> [!NOTE]
+> In releasewave 2 van 2020 hebben we gestroomlijnde processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en die versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
 De verschillende prijs- en kortingsovereenkomsten die van toepassing zijn wanneer u koopt van verschillende leveranciers, moeten worden gedefinieerd, zodat de overeengekomen regels en waarden worden toegepast op documenten die u voor de leveranciers maakt.
 
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[prod_short](includes/prod_short.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie voor meer informatie [De beste prijs berekenen](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
@@ -34,12 +37,26 @@ U kunt twee soorten inkoopkortingen instellen en gebruiken:
 Omdat inkoopregelkortingen en inkoopprijzen gebaseerd zijn op een combinatie van artikel en leverancier, kunt u deze configuratie ook invoeren vanuit de artikelkaart, waarop de regels en waarden zijn gedefinieerd. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Een speciale inkoopprijs voor een leverancier instellen
+
+#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)  
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
 2. Open de desbetreffende leverancierskaart en kies vervolgens de actie **Prijzen**.
-
-    Het veld **Soort inkoop** wordt vooraf ingevuld met **Leverancier** en het veld **Inkoopcode** wordt vooraf ingevuld met het leveranciersnummer.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vul een regel in voor elke combinatie waarvoor de leverancier u een inkoopregelkorting verleent.
+
+#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
+2. Kies de leverancier en kies vervolgens de actie **Verkoopprijslijsten**. 
+3. Kies **Nieuw** om een nieuwe inkoopprijslijst te maken.
+4. Vul indien nodig de velden in op de sneltabbladen **Algemeen** en **Btw**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Voer een van de volgende handelingen uit om items aan de lijst toe te voegen:
+   * Kies om veel items toe te voegen **Regels voorstellen** en voer vervolgens filtercriteria in om de typen items op te geven die moeten worden toegevoegd. Optioneel kunt u ook enkele aanvullende instellingen invoeren voor de artikelen die specifiek zijn voor de prijslijst. U kunt dit later indien nodig wijzigen.
+   * Kies om items uit een andere prijslijst te kopiëren **Regels kopiëren** en kies vervolgens de prijslijst die u wilt kopiëren.
+   * Als u handmatig artikelen wilt toevoegen, kiest u in het raster in het veld **Producttype** het type product waarvoor de prijslijst bedoeld is. Vul indien nodig de overige velden in, afhankelijk van uw selectie. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Om de prijslijst te gaan gebruiken, kiest u in het veld **Status** **Actief**.
+
+---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Een speciale regelkorting voor een leverancier instellen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
