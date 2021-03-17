@@ -3,19 +3,19 @@ title: Over het berekenen van vaste verrekenprijzen | Microsoft Docs
 description: In een vaste-verrekenprijssysteem wordt de voorraadkostprijs bepaald op basis van redelijkerwijs te verwachten of historische kosten. Onderzoek van in het verleden gebruikte en voor de toekomst geschatte kosten vormen de basis voor de vaste verrekenprijs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917225"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376648"
 ---
 # <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
 Veel productiebedrijven kiezen een waarderingsbasis voor de vaste verrekenprijs. Dit geldt ook voor bedrijven die lichte productie zoals assemblage en kitting uitvoeren. In een vaste-verrekenprijssysteem wordt de voorraadkostprijs bepaald op basis van redelijkerwijs te verwachten of historische kosten. Onderzoek van in het verleden gebruikte en voor de toekomst geschatte kosten vormen de basis voor de vaste verrekenprijs. Deze prijs ligt vast totdat wordt besloten deze prijs te wijzigen. Het is mogelijk dat de feitelijke productiekosten van een product afwijken van de geschatte vaste verrekenprijs. Vanuit managementoverwegingen wordt de feitelijke prijs voor een bepaald artikel vergeleken met de vaste verrekenprijs en worden eventuele *verschillen* geïdentificeerd en geanalyseerd.  
@@ -48,7 +48,7 @@ De volgende belangrijke kostenelementen vormen samen de totale directe kosten va
  Onder materiaalkosten worden de kosten verstaan die te maken hebben met de subassemblages en de aangeschafte grondstoffen. Materiaalkosten kunnen bestaan uit directe en indirecte kostenelementen.  
 
 -   Directe materiaalkosten worden gevormd door een gefactureerd bedrag voor aangeschafte grondstoffen of de verwerkingskosten van een subassemblage.  
--   Indirecte materiaalkosten (ofwel *overheads* ) kunnen bijvoorbeeld bestaan uit de opslagkosten voor voltooide artikelen nadat deze zijn geproduceerd.  
+-   Indirecte materiaalkosten (ofwel *overheads*) kunnen bijvoorbeeld bestaan uit de opslagkosten voor voltooide artikelen nadat deze zijn geproduceerd.  
 
 De instelling van de materiaalkosten voor aangeschafte artikelen die invloed hebben op directe en indirecte kosten wordt bepaald door de waarderingsmethode die is geselecteerd voor het opgeven artikel. U stelt kostengegevens in voor beide waarderingsmethoden op de artikelkaart. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
@@ -81,7 +81,7 @@ U stelt de tarieven voor al deze tijdtypen voor iedere afdeling of bewerkingspla
 > [!NOTE]  
 >  Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast. Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte. U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.  
 
-Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** op de pagina **Productie-instelling** .  
+Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** op de pagina **Productie-instelling**.  
 
 Als van één niveau wordt uitgegaan, zijn dit de arbeidskosten die nodig zijn om het afgewerkte productieartikel te produceren en wordt dit aangegeven op het bewerkingsplan van het productieartikel. Als van meerdere niveaus wordt uitgegaan, zijn dit de capaciteitskosten die voor elk afzonderlijk geproduceerd artikel dat is opgenomen in de stuklijst van het hoofdartikel zijn opgegeven.  
 
@@ -95,9 +95,9 @@ Om de vaste verrekenprijs van assemblageartikelen bij te werken of te berekenen,
 
 Het proces van bijwerken of berekenen van vaste verrekenprijzen bestaat gewoonlijk uit de volgende taken:  
 
-1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerkingen **Vaste verrekenprijs artikel voorstellen** en **Vaste verrekenprijs capaciteit voorstellen** .  
+1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerkingen **Vaste verrekenprijs artikel voorstellen** en **Vaste verrekenprijs capaciteit voorstellen**.  
 2.  Het consolideren en berekenen van de materiaal- en capaciteitskosten om de totale assemblage- of productiekosten van de artikelen te berekenen. Zie voor meer informatie [De vaste verrekenprijs van een assemblageartikel berekenen](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Zie voor meer informatie de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren** .  
+3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Zie voor meer informatie de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren**.  
 4.  De wijzigingen implementeren om het veld **Kostprijs** op de artikelkaart bij te werken en voorraadherwaardering uit te voeren. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook  

@@ -2,18 +2,12 @@
 metadata:
   title: Veelgestelde vragen over elektronische facturering
   description: Krijg antwoorden over de documentuitwisselingsservice en ondersteunde versies van PEPPOL.
-  author: sorenfriisalexandersen
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: e-invoicing, PEPPOL, NemHandel
-  ms.date: 01/05/2021
-  ms.author: edupont
-  ms.openlocfilehash: 5fd42d8165e4f10e0c09d7efcfc021eb42a74ea8
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: a71f81306cffb6b223d39b3104fcbb33ad4ab7ff
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013779"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181816"
 title: Veelgestelde vragen over elektronische facturering
 summary: "De ingebouwde documentuitwisselingsservice verzendt elektronische facturen naar TradeShift, een serviceprovider die elektronische facturen doorstuurt naar PEPPOL- of NemHandel-ontvangers. Maar de service ondersteunt een beperkt aantal versies.   \n\nDeze veelgestelde vragen beantwoorden enkele van de belangrijkste vragen over elektronische facturering.  \n"
 sections:

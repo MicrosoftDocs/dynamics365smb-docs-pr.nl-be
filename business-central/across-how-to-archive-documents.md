@@ -3,19 +3,19 @@ title: Verkoop- en inkoopdocumenten archiveren | Microsoft Docs
 description: U kunt verkoop- en inkooporders, offertes, raamcontracten, retourorders en raamcontracten archiveren en u kunt het gearchiveerde document gebruiken om het document waaruit het is gearchiveerd, opnieuw te maken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8ec1ab53a2df71d46c671f71673a0b25ea6704bf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754879"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384586"
 ---
 # <a name="archive-documents"></a>Documenten archiveren
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten comprimeren, bijvoorbeeld omdat u een kopie van een document voor hergebruik later wilt opslaan. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.

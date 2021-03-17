@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87d2f7c7fe2d395d16b41b288500f22e16bd0ba0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c8cafd66724c8244abe311c8d7395a98ebe966ab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758554"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386036"
 ---
 # <a name="prioritize-vendors"></a>De prioriteit van leveranciers bepalen
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft een functie die voorstellen kan doen voor betalingen aan leveranciers, bijvoorbeeld bij betalingen die binnenkort moeten worden betaald, of als voor een betaling een korting mogelijk is. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).

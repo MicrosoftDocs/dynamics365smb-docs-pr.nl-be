@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Dagboekboekingsregel | Microsoft Docs'
 description: Dit onderwerp biedt inzicht in de concepten en principes die worden gebruikt om de functie voor dagboekboekingsregels in Business Central opnieuw te ontwerpen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e7e61b572b2a7a1538d58430cbbcbb19d7cda999
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751592"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390086"
 ---
 # <a name="design-details-general-journal-post-line"></a>Ontwerpdetails: dagboekboekingsregel
 Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en principes die worden gebruikt om de functie voor dagboekboekingsregels in [!INCLUDE[prod_short](includes/prod_short.md)] opnieuw te ontwerpen. Door het nieuwe ontwerp wordt codeunit 12 eenvoudiger en makkelijker te beheren. In de documentatie wordt als eerste het conceptoverzicht van het nieuwe ontwerp beschreven. Vervolgens wordt de technische architectuur uitgelegd om de wijzigingen door het nieuwe ontwerp te tonen.  

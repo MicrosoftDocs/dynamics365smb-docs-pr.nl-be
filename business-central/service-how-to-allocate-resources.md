@@ -3,19 +3,19 @@ title: Resources toewijzen | Microsoft Docs
 description: U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ba566597b9dcf8d34b677df759c8c31d200b8584
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380393"
 ---
 # <a name="allocate-resources"></a>Resources toewijzen
 Het belangrijkste element van servicebeheer bestaat uit de personen die de service uitvoeren. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] zo instellen dat de juiste personen aan de betreffende projecten worden toegewezen. Toewijzingen kunnen worden gebaseerd op serviceregio's waarin de personen zich bevinden of waarin de service plaatsvindt. U kunt resources ook groeperen in reactie op serviceaanvragen. Zie [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) voor meer informatie.

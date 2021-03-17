@@ -3,19 +3,19 @@ title: Marketingcampagnes instellen in Business Central | Microsoft Docs
 description: Hier wordt beschreven hoe u marketingcampagnes in Business Central instelt en uitvoert om prospects te vinden en aan te trekken en klanten vast te houden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd309537e7f2e5c57f722345f2c33dc7bc6dfebb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7136a37778d25fac1365c9619402d0fd697199f8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922806"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377535"
 ---
 # <a name="managing-marketing-campaigns"></a>Marketingcampagnes beheren
 Als u over een krachtig marketingplan beschikt, kunt u klanten vaststellen, aantrekken en vasthouden. Een marketingplan bestaat uit diverse campagnes en andere interacties in verband met uw verkoop- en marketingactiviteiten. Terwijl u een campagne plant, moet u bepalen op welke contacten u zich wilt richten, aan welk type campagne u de voorkeur geeft (zoals een beurs of direct mail) en welke verkopers elke taak uitvoeren.
@@ -23,7 +23,7 @@ Als u over een krachtig marketingplan beschikt, kunt u klanten vaststellen, aant
 Elke campagne bestaat uit diverse activiteiten en taken. U kunt meerdere taken combineren, bijvoorbeeld taken die elk een stap in activiteiten vertegenwoordigen. Activiteittaken worden gerelateerd aan elkaar met een datumformule. Afzonderlijke taken kunnen alleen worden toegewezen aan verkopers. Activiteiten kunnen aan opportunities, verkopers, groepen verkopers en contacten worden toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Afzonderlijke campagnes definiëren
-Voordat u een campagne kunt maken, moet u *campagnestatuscodes* instellen. Met deze codes kunt u uw campagnes beheren door een status aan de campagne toe te wijzen. Terwijl u de fasen van een campagne doorloopt, kunt u bekijken in welke stap een campagne zich bevindt en wat de volgende stap is. U configureert campagnestatuscodes op de pagina **Campagnestatus** .
+Voordat u een campagne kunt maken, moet u *campagnestatuscodes* instellen. Met deze codes kunt u uw campagnes beheren door een status aan de campagne toe te wijzen. Terwijl u de fasen van een campagne doorloopt, kunt u bekijken in welke stap een campagne zich bevindt en wat de volgende stap is. U configureert campagnestatuscodes op de pagina **Campagnestatus**.
 
 U kunt een campagnekaart maken voor elke campagne die u wilt volgen. U kunt deze campagnekaarten ook weergeven als u algemene informatie over uw campagnes wilt bekijken.
 U kunt campagneposten verwijderen, bijvoorbeeld als in de post een actie is geregistreerd die is geannuleerd. Alleen geannuleerde campagneposten kunnen worden verwijderd.
@@ -32,7 +32,7 @@ U kunt campagneposten verwijderen, bijvoorbeeld als in de post een actie is gere
 Nadat u een campagne hebt gemaakt, kunt u beginnen met het maken van segmenten die de doelgroep van de campagne specificeren. Zie [Segmenten beheren](marketing-segments.md) voor meer informatie.
 
 ### <a name="registering-discount-percentages"></a>Kortingspercentages vastleggen
-Wanneer u uw campagne hebt ingesteld en hebt besloten op welke segmenten de campagne betrekking heeft en tevens de startdatum en de einddatum hebt ingesteld, legt u vast welk kortingspercentage de klant krijgt voor de individuele artikelen op de regels op de pagina **Verkoopregelkortingen** . U kunt de verkoopprijzen voor de individuele artikelen ook vastleggen op de pagina **Verkoopprijzen** . U kunt beide pagina's openen vanuit de campagnekaart.
+Wanneer u uw campagne hebt ingesteld en hebt besloten op welke segmenten de campagne betrekking heeft en tevens de startdatum en de einddatum hebt ingesteld, legt u vast welk kortingspercentage de klant krijgt voor de individuele artikelen op de regels op de pagina **Verkoopregelkortingen**. U kunt de verkoopprijzen voor de individuele artikelen ook vastleggen op de pagina **Verkoopprijzen**. U kunt beide pagina's openen vanuit de campagnekaart.
 
  Wanneer u verkoopprijzen/regelkortingen en de segmenten op de campagnekaart hebt ingesteld, moet u deze activeren zodat de campagneprijzen/kortingen op de regels verschijnen.
 

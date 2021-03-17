@@ -3,19 +3,19 @@ title: Artikelkruisverwijzingen gebruiken
 description: Stel verwijzingen in tussen de beschrijvingen die u en uw leverancier voor een artikel gebruiken, zodat u de artikelbeschrijving van de leverancier op inkoopdocumenten kunt invoegen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2f500d7df80235b8f092fc3f0a7ae8fd27cd8aea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013804"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377635"
 ---
 # <a name="use-item-cross-references"></a>Artikelkruisverwijzingen gebruiken
 Als u een kruisverwijzing instelt tussen de artikelbeschrijving die u voor een artikel gebruikt, en de beschrijving die de leverancier van dat artikel gebruikt, wordt de artikelbeschrijving van de leverancier automatisch in inkoopdocumenten voor de leverancier ingevuld wanneer u het veld **Kruisverwijzingsnr..** invult. Dezelfde functionaliteit geldt voor klantartikelnummers in verkoopdocumenten.

@@ -3,18 +3,18 @@ title: Grootboek VA instellen| Microsoft Docs
 description: Voordat u werkt met vaste activa, moet u standaardgrootboekrekeningen instellen, boekingsgroepen, verdeelsleutels, dagboeksjablonen en batches, en klassecodes.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749256"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380214"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.

@@ -3,19 +3,19 @@ title: Wijzigingen in het toewijzen van globale variabelen voor boeking in Codeu
 description: In eerdere versies is codeunit 12 gewijzigd om de prestaties bij het boeken vanuit het dagboek te verbeteren. Lees meer over de wijzigingen in de globale variabelen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: bb041e7be2a0c644d1c19e34b892bd9480123734
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390536"
 ---
 # <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Historische wijzigingen in codeunit 12: Globale variabelen toewijzen voor dagboekboekingsregel
 

@@ -3,19 +3,19 @@ title: 'Procedure: Serie-/lotnummers traceren | Microsoft Docs'
 description: Dit onderwerp beschrijft de acties die moeten worden ondernomen om de verkoop van een defect artikel te stoppen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756379"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385736"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedure: Serie-/lotnummers traceren
 
@@ -25,7 +25,7 @@ Als er productdefecten optreden, moeten de fouten worden opgespoord en de betref
 
 De eerste taak van defectenbeheer is om te onderzoeken waar de defecte artikelen vandaan zijn gekomen en waar ze zijn gebruikt. Dit onderzoek is gebaseerd op historische gegevens en het wordt vergemakkelijkt als er kan worden gezocht via vermeldingen voor het traceren van artikelen op de pagina **Artikeltracering**.  
 
-De tweede taak van defectenbeheer is vaststellen of de getraceerde artikelen zijn gepland in open documenten zoals niet-geboekte verkooporders of verbruiksdagboeken. Dit werk wordt uitgevoerd op de pagina ****. U kunt de functie Posten zoeken gebruiken om alle soorten databaserecords te zoeken.  
+De tweede taak van defectenbeheer is vaststellen of de getraceerde artikelen zijn gepland in open documenten zoals niet-geboekte verkooporders of verbruiksdagboeken. Dit werk wordt uitgevoerd op de pagina **Posten zoeken**. U kunt de functie Posten zoeken gebruiken om alle soorten databaserecords te zoeken.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 

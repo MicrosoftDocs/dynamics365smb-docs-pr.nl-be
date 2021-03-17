@@ -3,19 +3,19 @@ title: 'Procedure: Ordertoezeggingsdatums berekenen | Microsoft Docs'
 description: Met de functie Ordertoezegging wordt de vroegst mogelijke datum berekend waarop een artikel beschikbaar is voor verzending of levering. Met deze functie worden ook behoefteregels gemaakt voor de datums die u accepteert.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 150c5c552e314d17af15968ebcbe57d8e8bc3fc1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ad3b5b283e8a9a07c3590ee3d3a7afb132c6d26c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383112"
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
 Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporderregel.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385211"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ De [!INCLUDE [prod_short](includes/prod_short.md)]-app biedt geen ondersteuning 
 
 Met sommige browsers, zoals het nieuwe Microsoft Edge, kunt u kiezen welke apparaatcamera u wilt gebruiken wanneer uw apparaat meerdere camera's ondersteunt. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams geeft verschillende talen weer voor mijn kaarten en kaartgegevens 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams geeft verschillende talen weer voor mijn kaarten en kaartgegevens
 
 Om kaarten en kaartdetails consistent weer te geven in dezelfde taal in Teams, moeten de taal van uw Teams-client en de taal die u gebruikt in de [!INCLUDE [prod_short](includes/prod_short.md)]-webclient, overeenkomen.
 
@@ -116,6 +116,21 @@ Voor meer informatie over hoe talen werken tussen Teams en [!INCLUDE [prod_short
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Ik heb een veld in het detailvenster bewerkt, maar mijn wijziging is niet opgeslagen
 
 Wijzigingen die u aanbrengt in een veld in de detailvensters, worden automatisch opgeslagen wanneer u het veld verlaat. Voordat u het venster sluit nadat u een veld heeft gewijzigd, moet u op de Tab-toets drukken of buiten het veld klikken/tikken.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Er is een nieuwe tegel verschenen in het startprogramma. Hoe verwijder ik deze?
+
+Wanneer u uw apps op de Office 365-startpagina (https://home.office.com) of in het startprogramma bekijkt, verschijnt een nieuwe tegel met de naam 'Business Central Teams Integration Service Connector' na installatie van de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams. Deze tegel heeft op zichzelf geen waarde en kan veilig worden verborgen.
+
+Als beheerder met Azure Active Directory-beheerdersmachtigingen kunt u de tegel verbergen door de volgende stappen uit te voeren:
+
+1. Meld u aan bij het [Azure Active Directory-beheercentrum](https://aad.portal.azure.com/).
+2. Selecteer **Enterprise-apps** en selecteer **Business Central Teams Integration Service Connector**.
+3. Selecteer **Eigenschappen** en stel vervolgens de schakelaar **Zichtbaar voor gebruikers** in op **Nee**.
+4. Selecteer **Opslaan**.
+
+> [!NOTE]
+> Het zal even duren voordat deze wijziging van kracht wordt.
+
 
 ## <a name="see-also"></a>Zie ook
 

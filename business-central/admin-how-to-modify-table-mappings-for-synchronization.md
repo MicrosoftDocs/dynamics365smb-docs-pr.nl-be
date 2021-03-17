@@ -3,19 +3,19 @@ title: De te synchroniseren tabellen en velden toewijzen | Microsoft Docs
 description: Hier vindt u informatie over het toewijzen van tabellen en velden voor de synchronisatie van gegevens tussen Business Central en Microsoft Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a1324a9774c655d5353039d1645135adc87320e2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cdaaa805ec25529c0675a00a647830019926f216
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753954"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378235"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

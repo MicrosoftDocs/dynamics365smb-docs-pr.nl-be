@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Vraag en aanbod | Microsoft Docs'
 description: In dit onderwerp worden de concepten van vraag beschreven, de verzamelterm voor elk soort brutovraag, zoals een verkooporder en materiaalbehoefte van een productieorder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4661104e32e648cc134b3ba0c3d44b5a8c6daca6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cbafba8d012244b10c142912b357188a1f7eece4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911217"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386961"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Ontwerpdetails: Vraag op lege vestiging
 Wanneer een gebruiker een vraaggebeurtenis maakt, zoals een verkooporderregel, kan de gebruiker soms een vestigingscode toevoegen, maar soms ook niet. In dat geval wordt een lege vestiging gebruikt.

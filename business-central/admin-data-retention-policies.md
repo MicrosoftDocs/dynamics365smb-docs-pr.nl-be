@@ -3,19 +3,19 @@ title: Gegevens opschonen met bewaarbeleid | Microsoft Docs
 description: U kunt aangeven hoe vaak u bepaalde soorten gegevens wilt verwijderen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754054"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378540"
 ---
 # <a name="define-retention-policies"></a>Bewaarbeleid definiëren
 Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 

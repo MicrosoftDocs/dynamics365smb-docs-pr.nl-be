@@ -7,13 +7,13 @@ ms.author: bholtorf
 ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
-ms.topic: article
-ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.topic: conceptual
+ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385361"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[prod_long](includes/prod_long.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  

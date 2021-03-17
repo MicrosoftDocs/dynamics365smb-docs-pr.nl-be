@@ -3,19 +3,19 @@ title: Serviceartikelen maken | Microsoft Docs
 description: Wanneer u een niet-geregistreerd artikel voor service ontvangt, kunt u dit artikel registreren als serviceartikel.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e45c23c8ed3b6f96c24e78666822c6fb9ef9859f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d77fd11748d4e537914a1209d6b2a9e66a6ee0e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757904"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390361"
 ---
 # <a name="create-service-items"></a>Serviceartikelen maken
 In [!INCLUDE[prod_short](includes/prod_short.md)] verwijst de term serviceartikel naar de apparatuur of artikelen die service vereisen. Wanneer u een serviceorder maakt, geeft u de artikelen op die service nodig hebben. In de order kunt u een serviceartikel aan een artikel in de voorraad of aan een serviceartikelgroep koppelen.    

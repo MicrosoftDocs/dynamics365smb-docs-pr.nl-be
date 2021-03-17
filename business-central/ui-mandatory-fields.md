@@ -5,18 +5,18 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: f525077069107e1365728aaaaf1e4791a250c6ee
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8c631dcbb2c6afa6abec9ace86df0f0babb23b2d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760379"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385511"
 ---
 # <a name="detecting-mandatory-fields"></a>Verplichte velden detecteren
 Wanneer u gegevens invoert op pagina's in [!INCLUDE[prod_short](includes/prod_short.md)], zijn bepaalde velden gemarkeerd met een rode asterisk. De rode asterisk betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien dat het veld gebruikt, zoals het boeken van een transactie die de waarde in het veld gebruikt.

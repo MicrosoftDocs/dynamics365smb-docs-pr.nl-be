@@ -4,19 +4,19 @@ description: U kunt Dynamics 365 Sales vanuit Business Central gebruiken om gege
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7234536ff432140b1606ffe685bb0225f4963612
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c61156f5f156f037ed3b36aeadd2a1d21b1666cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387861"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Microsoft Dynamics 365 Sales gebruiken vanuit Business Central
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[prod_short](includes/prod_short.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.

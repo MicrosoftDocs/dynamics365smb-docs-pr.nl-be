@@ -3,19 +3,19 @@ title: Picken voor interne bewerkingen in geavanceerde magazijnconfiguraties
 description: Als uw locaties zowel picking als verzending gebruiken, pickt u componenten voor productie- en assemblageactiviteiten op de pagina Magazijnpick.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c1f51e722e3ec41e4c31170dca8ea891e9786e2
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 3aa0ae0d65fd719e2cd5ae2bd05568163109da16
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014087"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386761"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Picken voor assemblage of productie in geavanceerde magazijnconfiguraties
 In geavanceerde magazijnconfiguraties waarbij de locatie is ingesteld voor het gebruik van picken en verzending, kunt u componenten voor productie- en assemblageactiviteiten kiezen via de pagina **Magazijnpick**.  

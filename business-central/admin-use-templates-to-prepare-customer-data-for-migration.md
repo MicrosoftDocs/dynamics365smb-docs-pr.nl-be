@@ -3,19 +3,19 @@ title: Migratie van klantgegevens met sjablonen voorbereiden | Microsoft Docs
 description: Leer hoe u configuratiesjablonen gebruikt om bestaande klantgegevens te structureren voordat u de gegevens migreert naar het nieuwe bedrijf in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fa5d6eb28a76da3cd2b98bd5596137509c5ece1e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745928"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387036"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migratie van klantgegevens met sjablonen voorbereiden
 

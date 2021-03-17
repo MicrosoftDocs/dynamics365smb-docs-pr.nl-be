@@ -3,19 +3,19 @@ title: Aankopen van leveranciers blokkeren
 description: U kunt leveranciers blokkeren, zodat ze niet in transacties kunnen worden opgenomen, of alleen nieuwe betalingen aan hen blokkeren.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cb31546dcefaba5f15cb630467d759812d48c81
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b1dcda8bed565ef37b712daa15554765a3c45846
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380493"
 ---
 # <a name="block-vendors"></a>Leveranciers blokkeren
 U kunt een leverancier blokkeren, bijvoorbeeld vanwege insolventie, zodat de leverancier niet aan inkoopdocumenten kan worden toegevoegd of zodat geen betalingen voor de leverancier kunnen worden geboekt.

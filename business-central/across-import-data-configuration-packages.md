@@ -3,19 +3,19 @@ title: Excel gebruiken om gegevens te importeren in Business Central
 description: Gebruik het standaardconfiguratiepakket om klantgegevens in Excel toe te voegen en de gegevens weer te importeren in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 413e9b2f6ec872a03ca2e7e95df240fc3308cab2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3885d9e07a6ea417bf2dc7de5881e6d3278ca10
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754454"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379260"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 

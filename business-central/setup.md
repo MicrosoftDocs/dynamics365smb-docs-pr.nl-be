@@ -3,19 +3,19 @@ title: Overzicht van taken om Business Central in te stellen
 description: Beschrijft taken om Business Central in te stellen, te initialiseren en te configureren naar uw behoeften.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: 32003217f6ffdeb5c5aad0fdc0fd3648a3ef5863
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385561"
 ---
 # <a name="setting-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] instellen
 

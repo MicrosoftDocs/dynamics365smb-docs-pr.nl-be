@@ -3,19 +3,19 @@ title: Artikelen picken met een voorraadpick | Microsoft Docs
 description: Als voor een vestiging wel een pickverwerking vereist is maar geen verzendingsverwerking, gebruikt u de voorraadpickdocumenten om pick- en verzendingsinformatie voor de brondocumenten te verzamelen en boeken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7b3dafdf2341567d2bf294065cf7508295e60aa3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: df60c429276c0da354b34c9355be37b97a93c67b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759779"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386361"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikelen picken met een voorraadpick
 

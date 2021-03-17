@@ -3,16 +3,16 @@ title: Pagina's aanpassen voor rollen | Microsoft Docs
 description: Leer hoe u de gebruikersinterface voor een profiel (rol) kunt aanpassen, zodat alle gebruikers aan wie die rol is toegewezen, een aangepaste werkruimte zien.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7588c74db57022e9e1fced9262408d0dd37e1181
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760354"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389261"
 ---
 # <a name="customize-pages-for-profiles"></a>Pagina's aanpassen voor profielen
 Gebruikers kunnen pagina's die hun werkruimte vormen, aan hun eigen voorkeuren aanpassen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.

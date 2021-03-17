@@ -3,17 +3,17 @@ title: Documentspecifieke e-mailinhoud instellen | Microsoft Docs
 description: U kunt inhoud definiëren die moet worden ingevoegd in het hoofdgedeelte van een e-mailbericht, bijvoorbeeld een PayPal-koppeling. U kunt ook documenten koppelen aan e-mailberichten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f318825b87b0c9aa51ef8493ba89a74a02384b73
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8e22efc92cba6d9a59cc06c66422387d5b35f227
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756879"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389636"
 ---
 # <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
 U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen. 

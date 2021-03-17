@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Waarderingsmethoden | Microsoft Docs'
 description: Dit onderwerp beschrijft hoe de waarderingsmethode bepaalt of werkelijke of gebudgetteerde waarden worden gekapitaliseerd en gebruikt in de kostenberekening.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8d9abdd7e38e0b0604e2895d92bfa1a1561748da
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380289"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 

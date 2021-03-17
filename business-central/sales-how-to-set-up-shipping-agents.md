@@ -3,19 +3,19 @@ title: Expediteurs instellen| Microsoft Docs
 description: U kunt een code instellen voor al uw expediteurs en gegevens over hen opgeven.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbd27caed8be1e7231f98964890fafed66c7bbbb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 68c271cc452d60cef8b457f5dc1273279d9cb351
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382962"
 ---
 # <a name="set-up-shipping-agents"></a>Expediteurs instellen
 U kunt een code instellen voor al uw expediteurs en gegevens over hen opgeven.  

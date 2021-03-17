@@ -3,19 +3,19 @@ title: Rapporten maken in Power BI Desktop om Business Central-gegevens weer te 
 description: Maak uw gegevens als gegevensbron in Power BI beschikbaar en maak krachtige rapporten met de status van uw bedrijf.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754529"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384186"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven
 
@@ -99,7 +99,7 @@ U wordt aangeraden om voordat u uw rapport maakt het [!INCLUDE [prod_short](incl
 
 Het themabestand is beschikbaar als JSON-bestand in de themagalerij van de Microsoft Power BI-community. Voer de volgende stappen uit om het themabestand te downloaden:
 
-1. Ga naar de [themagalerie van de Microsoft Power BI-community voor Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
+1. Ga naar de themagalerij van de [Microsoft Power BI-community voor Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Selecteer de downloadbijlage **Microsoft Dynamics Business Central.json**.
 
 ### <a name="import-the-theme-on-a-report"></a>Het thema in een rapport importeren

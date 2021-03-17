@@ -3,19 +3,19 @@ title: Een btw-aangifte instellen | Microsoft Docs
 description: Een btw-aangifte instellen
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05c186b87935efa4a0adbafb6f3096f0dd26abae
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389061"
 ---
 # <a name="set-up-a-vat-statement"></a>Een btw-aangifte instellen
 
@@ -26,20 +26,20 @@ De belastingdienst kan de vereisten om btw te boeken wijzigen en doet dat ook. M
 Met btw-aangiften kunt u het btw-vereffeningsbedrag voor een bepaalde periode berekenen, bijvoorbeeld voor een kwartaal.
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-overzichten** in en kies de desbetreffende koppeling.  
-2. Kies het veld **Naam** kies vervolgens **Nieuw** op de pagina **Btw-aangiftes** .
+2. Kies het veld **Naam** kies vervolgens **Nieuw** op de pagina **Btw-aangiftes**.
 3. Vul de vereiste velden in. Gewoonlijk wilt u een instelling voor elke combinatie van btw-bedrijfsboekingsgroep en btw-productboekingsgroep hebben. Voor rijnummers is het logisch om equivalente nummers of codes te gebruiken zoals in uw officiële btw-overzicht [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
 > [!Tip]
-> U kunt de gegevens filteren die het afschrift zal bevatten, afhankelijk van uw keuze in het veld **Soort** . **Rekeningsamentelling** is handig als u de btw van een bepaalde rekening wilt.
-**Btw-postentotaal** haalt btw van de rekeningen die zijn toegewezen aan de selecties in de velden **Algemeen boekingssoort** , **Btw-bedr.-boekingsgroep** en/of **Btw-prod.-boekingsgroep** . Met **Vak-/Rubrieksamentelling** kunt u een waarde of snelfiltercriterium invoeren in het veld **Vak-/Rubrieksamentelling** . Zie voor meer informatie [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md). **Omschrijving** wordt vaak gebruikt om een notitie aan de aangifte toe te voegen. U kunt het bijvoorbeeld gebruiken als een kop wanneer u vak/rubrieksamentelling gebruikt.
+> U kunt de gegevens filteren die het afschrift zal bevatten, afhankelijk van uw keuze in het veld **Soort**. **Rekeningsamentelling** is handig als u de btw van een bepaalde rekening wilt.
+**Btw-postentotaal** haalt btw van de rekeningen die zijn toegewezen aan de selecties in de velden **Algemeen boekingssoort**, **Btw-bedr.-boekingsgroep** en/of **Btw-prod.-boekingsgroep**. Met **Vak-/Rubrieksamentelling** kunt u een waarde of snelfiltercriterium invoeren in het veld **Vak-/Rubrieksamentelling**. Zie voor meer informatie [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md). **Omschrijving** wordt vaak gebruikt om een notitie aan de aangifte toe te voegen. U kunt het bijvoorbeeld gebruiken als een kop wanneer u vak/rubrieksamentelling gebruikt.
 
 ## <a name="to-preview-the-vat-statement"></a>Een voorbeeld van een btw-overzicht bekijken
 Nadat u een btw-aangifte hebt gedefinieerd, kunt u er een voorbeeld van bekijken om te controleren of het aan uw wensen voldoet.
 > [!Tip]
-> Het is het best om één sectie in de btw-aangifte te hebben die **Type** **Btw-postentotaal** gebruikt en een andere sectie eronder die **Type** **Rekeningsamentelling** gebruikt, om de bedragen te reconciliëren op basis van de tabel **Btw-post** vergeleken met het bedrag in de **grootboekrekeningen** . U kunt ook het rapport **GB - Btw-reconciliatie** hiervoor gebruiken.
+> Het is het best om één sectie in de btw-aangifte te hebben die **Type** **Btw-postentotaal** gebruikt en een andere sectie eronder die **Type** **Rekeningsamentelling** gebruikt, om de bedragen te reconciliëren op basis van de tabel **Btw-post** vergeleken met het bedrag in de **grootboekrekeningen**. U kunt ook het rapport **GB - Btw-reconciliatie** hiervoor gebruiken.
 
-1. Kies **Voorbeeld** .
+1. Kies **Voorbeeld**.
 2. Voer een datumfilter in om de aangifte te beperken tot een specifieke periode. Zie voor meer informatie over het aanpassen van de pagina om het datumfilter weer te geven [Gegevens zoeken, filteren en sorteren](ui-enter-criteria-filters.md).
 3. U kunt verschillende opties selecteren om het soort btw-posten aan te geven dat u in de aangifte wilt opnemen.
 4. Op de regels waarop het veld **Soort** de waarde **Btw-postentotaal** bevat, kunt u een lijst zien met btw-posten door het bedrag in het veld **Bedrag** te kiezen.

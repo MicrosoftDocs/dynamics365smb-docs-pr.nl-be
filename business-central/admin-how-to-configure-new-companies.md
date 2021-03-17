@@ -3,19 +3,19 @@ title: Nieuwe bedrijven configureren | Microsoft Docs
 description: U kunt een nieuw bedrijf dat u hebt gemaakt configureren en aanpassen. U kunt uw implementatie verder afstellen door de configuratie te voltooien in drie fasen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 886f698d2e2e872530fc8d4bee8395c1f7897c83
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752712"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378410"
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
 Als u een nieuw bedrijf in uw oplossingimplementatie wilt configureren, volgt u doorgaans drie fasen. In de eerste fase importeert u het configuratiepakket. Dit is een .rapidstart-bestand met de configuratie-informatie. In de tweede fase wijzigt u de configuratiegegevens en past u deze vervolgens toe op uw nieuwe bedrijf. In de laatste fase controleert en corrigeert u fouten.  

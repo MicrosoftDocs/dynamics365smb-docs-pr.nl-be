@@ -3,19 +3,19 @@ title: Zakelijke contacten maken
 description: Geeft een overzicht van de taken om contacten te maken en uw zakelijke relaties te definiëren.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 42645a038c3937644fe90ce895ee454e1d1b5d5c
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388911"
 ---
 # <a name="create-contacts"></a>Contacten maken
 Wanneer u een zakelijke relatie ontwikkelt met iemand in een ander bedrijf, voegt u deze persoon toe als contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Voeg vervolgens alle informatie over hen of hun bedrijf toe die nuttig kan zijn voor toekomstige communicatie. Op de pagina **Contactkaart** kunt u de volgende soorten contacten maken:

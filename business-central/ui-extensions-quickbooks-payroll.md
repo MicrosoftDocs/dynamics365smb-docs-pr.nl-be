@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: eae93ea8cf81a2fad6af2c3810f94d5292eef93f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fc8767f1e6a33f957b33f9076a8cee485b2f1412
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757104"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386386"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>De QuickBooks-extensie Salarisbestand importeren
 Gebruik de QuickBooks-extensie Salarisbestand importeren om loonlijsttransacties te importeren uit QuickBooks in grootboekrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit is bijvoorbeeld handig als u overstapt van QuickBooks op [!INCLUDE[prod_short](includes/prod_short.md)] of als u uw salarisadministratie uitbesteedt, maar deze ook wilt bijhouden in [!INCLUDE[prod_short](includes/prod_short.md)].

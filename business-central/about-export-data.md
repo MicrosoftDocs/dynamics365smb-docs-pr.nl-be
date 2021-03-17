@@ -3,19 +3,19 @@ title: Uw Business Central-gegevens exporteren naar Excel | Microsoft Docs
 description: U kunt uw financiële rapporten en bedrijfsinformatiegegevens uit Business Central exporteren naar Excel of uw gegevens in Excel openen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0058fd8aa684fd12392e641dda3bbb0ee6862134
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a65087c484e9e26cead2c6fb879e31184ed1a8cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753704"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385161"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
 Als u met uw gegevens van [!INCLUDE[prod_short](includes/prod_short.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[prod_short](includes/prod_short.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.

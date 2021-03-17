@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44f6fa0f4f5b957a3164fb8cda68c0397f639bc1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f6ca484b55da68aed24c74f1127c997e7d4360b8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388984"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompany-transacties beheren
 Uw organisatie bestaat wellicht uit meerdere bedrijven, maar heeft mogelijk niet hetzelfde aantal boekhoud- en administratieteams. Met de intercompany-functionaliteit kunt u zaken doen met uw dochteronderneming en uw interne partnerorganisaties op dezelfde wijze als met uw externe leveranciers en klanten. U geeft de intercompany-transactiegegevens slechts eenmaal op in de relevante documenten. U kunt de functies gebruiken waarmee u al vertrouwd bent, zoals Klanten en Leveranciers. De toewijzingsmogelijkheden voor het rekeningschema en de dimensies helpen ervoor te zorgen dat de informatie op de juiste plaatsen wordt weergegeven.  

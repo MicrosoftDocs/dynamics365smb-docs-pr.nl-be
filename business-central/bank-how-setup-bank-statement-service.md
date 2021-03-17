@@ -3,19 +3,19 @@ title: Yodlee Bank Feeds instellen
 description: U kunt betalingsgegevens naar elke gegevensindeling converteren die uw bank vereist en het exporteren of importeren van bankbestanden inschakelen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7c5954bfd8b8186638c3a696d355fdeb4b7c9d59
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 362f5ca0ac71d226c29bff3f03aaa4d9f30fb171
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752392"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376574"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>De Envestnet Yodlee Bank Feeds-service instellen
 

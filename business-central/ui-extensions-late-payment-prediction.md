@@ -3,19 +3,19 @@ title: Te late betaling voorspellen voor verkoopdocumenten | Microsoft Docs
 description: Gebruik ons voorspellend model om te voorspellen of een factuur op tijd betaald zal worden.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817066"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386861"
 ---
 # <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling  
 Effectief beheer van tegoeden is belangrijk voor de algemene financiële status van een bedrijf. De extensie Voorspelling van te late betaling kan u helpen uitstaande tegoeden te reduceren en uw inningsstrategie af te stemmen door te voorspellen of verkoopfacturen op tijd worden betaald. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen.

@@ -3,19 +3,19 @@ title: Extensie Basiservaring | Microsoft Docs
 description: Deze extensie is een gemoderniseerd alternatief voor Microsoft Dynamics C5.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 259fe5539482dfe893c230cb5574e4816788b56e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757354"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386211"
 ---
 # <a name="the-basic-experience-extension"></a>De extensie Basiservaring
 Als u Microsoft Dynamics C5 gewend bent, kunnen Microsoft-partners u helpen bij de overgang naar een modernere oplossing die is gebaseerd op [!INCLUDE[prod_short](includes/prod_short.md)], zodat u kunt blijven genieten van dezelfde gestroomlijnde mogelijkheden als Dynamics C5.
@@ -47,7 +47,7 @@ Deze extensie is een beetje anders dan de meeste en u hebt hulp van een Microsof
 6. Download en installeer de extensie Basiservaring vanuit AppSource.
 
 ## <a name="migrating-data"></a>Gegevens migreren
-Breng uw Dynamics C5-gegevens mee. Nadat uw Microsoft-partner de extensie Basiservaring heeft geïnstalleerd, hebt u een leeg bedrijf. Een eenvoudige manier om uw gegevens van Dynamics C5 naar Basiservaring te verplaatsen, is door de extensie C5-gegevensmigratie te gebruiken, die is opgenomen in [!INCLUDE[prod_short](includes/prod_short.md)]. De extensie migreert klanten, leveranciers, artikelen en uw grootboekrekeningen en hun boekingen.
+Breng uw Dynamics C5-gegevens mee. Nadat uw Microsoft-partner de extensie Basiservaring heeft geïnstalleerd, hebt u een leeg bedrijf. Een eenvoudige manier om uw gegevens van Dynamics C5 naar de Basiservaring te verplaatsen, is door de extensie C5-gegevensmigratie te gebruiken, die is opgenomen in [!INCLUDE[prod_short](includes/prod_short.md)]. De extensie migreert klanten, leveranciers, artikelen en uw grootboekrekeningen en hun boekingen.
 
 ## <a name="see-also"></a>Zie ook
 [De extensie C5-gegevensmigratie](ui-extensions-c5-data-migration.md)

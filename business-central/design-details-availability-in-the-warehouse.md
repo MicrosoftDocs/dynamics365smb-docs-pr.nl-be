@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Beschikbaarheid in het magazijn | Microsoft Docs'
 description: Het systeem moet een constante controle op artikelbeschikbaarheid in het magazijn hebben, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8381f2f41fedb4f41fd0515124b74254fc74517e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7fecbb14cda87289e0c3ce9d89df2ed346569e45
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915672"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390211"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Ontwerpdetails: Beschikbaarheid in het magazijn
 Het systeem moet een constante controle op artikelbeschikbaarheid in het magazijn hebben, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.  
@@ -35,7 +35,7 @@ Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmel
 ## <a name="quantity-available-to-pick"></a>Beschikbaar aantal voor picken  
  Wanneer het pickalgoritme bijvoorbeeld geen rekening houdt met artikelaantallen die zijn gereserveerd voor een wachtende verkooporderverzending, kunnen die artikelen worden gepickt voor een andere verkooporder die eerder wordt verzonden, wat voorkomt dat aan de eerste verkoop wordt voldaan. Om deze situatie te voorkomen, wordt met het algoritme voor picken aantallen afgetrokken die zijn gereserveerd voor andere uitgaande documenten, aantallen op bestaande pickdocumenten, en aantallen die zijn gepickt maar nog niet verzonden of verbruikt.  
 
- Het resultaat wordt weergegeven in het veld **Beschikb. te picken aantal** op de pagina **Pickvoorstel** , waar het veld dynamisch wordt berekend. De waarde wordt ook berekend wanneer gebruikers magazijnpicks direct voor uitgaande documenten maken. Dergelijke uitgaande documenten kunnen verkooporders, productieverbruik of uitgaande transfers zijn, waar het resultaat wordt weergegeven in de bijbehorende velden met aantallen, zoals **Te verwerken aantal** .  
+ Het resultaat wordt weergegeven in het veld **Beschikb. te picken aantal** op de pagina **Pickvoorstel**, waar het veld dynamisch wordt berekend. De waarde wordt ook berekend wanneer gebruikers magazijnpicks direct voor uitgaande documenten maken. Dergelijke uitgaande documenten kunnen verkooporders, productieverbruik of uitgaande transfers zijn, waar het resultaat wordt weergegeven in de bijbehorende velden met aantallen, zoals **Te verwerken aantal**.  
 
 > [!NOTE]  
 >  Voor wat betreft de prioriteit van reserveringen wordt het te reserveren aantal afgetrokken van het aantal dat beschikbaar is voor picken. Als het beschikbare aantal in pickopslaglocaties bijvoorbeeld 5 eenheden is, maar 100 eenheden zich in opslaglocaties bevinden en u probeert meer dan 5 eenheden voor een andere order te reserveren, wordt een foutbericht weergegeven omdat het extra aantal in pickopslaglocaties beschikbaar moet zijn.  
@@ -61,9 +61,9 @@ Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmel
 -   Aantal in naar-assemblageopslaglocaties  
 -   Aantal in correctieopslaglocaties  
 
- Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** op de pagina **Reservering** .  
+ Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.  
 
- Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** op de pagina **Reservering** .  
+ Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** op de pagina **Reservering**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Het aantal berekenen dat beschikbaar is voor reservering  
  Het aantal dat beschikbaar is voor reserveringen, wordt als volgt berekend:  

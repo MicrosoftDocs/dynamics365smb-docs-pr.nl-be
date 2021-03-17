@@ -3,19 +3,19 @@ title: 'Procedure: Verkoopcycli en cyclusfasen instellen voor opportunities| Mic
 description: Beschrijft hoe u verkoopstadia definieert, van eerste contact tot sluiten, om een verkoopcyclus te maken en toe te wijzen aan opportunities in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 9ed05b047732a171970219c9a24f5fdd6f96f0b1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 36a96fc198f5ebcef9614a864b6882865dbf9e5a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387886"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Verkoopcycli instellen voor opportunities en cyclusfasen
 Voordat u verkoopopportunities in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Een verkoopcyclus bestaat uit een reeks fasen vanaf het eerste contact tot aan het sluiten van een verkoop. Elke fase kan bepaalde vereisten hebben waaraan moet worden voldaan, zoals een verkoopofferte, voordat een opportunity naar de volgende fase kan gaan. U kunt ook aangeven of een fase kan worden overgeslagen. U kunt elk gewenst aantal verkoopcycli instellen en u kunt binnen een verkoopcyclus elk gewenst aantal verkoopcyclusfasen instellen.

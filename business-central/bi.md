@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa4cfa543fc7c5cf1ea527468a50bc80afcaeade
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 245e77cb34f3b7b1a8f02c17f17ebd26269d3691
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389161"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.

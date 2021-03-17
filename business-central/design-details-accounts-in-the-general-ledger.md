@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Rekeningen in het grootboek | Microsoft Docs'
 description: Om voorraad- en capaciteitsposten te reconciliëren met het grootboek, worden de gerelateerde waardeposten naar verschillende rekeningen in het grootboek geboekt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3f3f0ed06681b50350f409800c4e2ac0c61e42d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751892"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390136"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Ontwerpdetails: Rekeningen in het grootboek
 Om voorraad- en capaciteitsposten te reconciliëren met het grootboek, worden de gerelateerde waardeposten naar verschillende rekeningen in het grootboek geboekt. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  

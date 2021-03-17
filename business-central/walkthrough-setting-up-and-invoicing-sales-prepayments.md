@@ -3,19 +3,19 @@ title: 'Procedure: Vooruitbetalingen verkoop instellen en factureren | Microsoft
 description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U kunt een aanbetaling vragen voordat u bestelde artikelen fabriceert, of u kunt een betaling vragen voordat u artikelen naar een klant verzendt. Met de vooruitbetalingsfunctionaliteit in Business Central kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 636950f569944907b76660dbcf61f5e8ad2b4340
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756429"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385436"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedure: Vooruitbetalingen verkoop instellen en factureren
 

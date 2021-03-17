@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Voorraadwaardering | Microsoft Docs'
 description: Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97aa9dc23397403b74fc8f1c65d302733ab3301c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a14c2a81a6aa36ce57384decb9342660297f9a84
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389936"
 ---
 # <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)].  

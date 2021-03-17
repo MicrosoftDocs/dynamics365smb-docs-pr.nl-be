@@ -3,19 +3,19 @@ title: Volledige planning, MPS en MRP uitvoeren | Microsoft Docs
 description: De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 612f010e754bdbecef12cc25b338315d0723124a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759029"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383387"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
 De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  

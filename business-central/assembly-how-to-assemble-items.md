@@ -3,19 +3,19 @@ title: 'Procedure: Artikelen assembleren | Microsoft Docs'
 description: Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2e2202b3477b19b26c50627f4ee72a6bb11306b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: abf02afda9528d3dac3e59b2def34bd89090d9ae
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747403"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386736"
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
 Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.  

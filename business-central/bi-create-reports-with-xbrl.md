@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752292"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382641"
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
 XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
@@ -27,7 +27,12 @@ XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde
  • Niet-financiële informatie  
  • Wettelijke archivering, zoals jaarlijkse en driemaandelijkse financiële overzichten  
 
- [!INCLUDE[prod_short](includes/prod_short.md)] maakt het bedrijven mogelijk gegevens in XBRL te implementeren en te profiteren van de hierdoor mogelijk gemaakte flexibiliteit en automatisering voor het verzamelen en delen van gegevens.  
+> [!NOTE]
+> U kunt grootboekgerelateerde schema's importeren en XBRL-instantiedocumenten maken door grootboekgegevens uit het rekeningschema toe te wijzen aan elementen in taxonomieën die zijn ontworpen voor financiële rapporten, zoals balansen, resultatenrekeningen, enzovoort.
+> 
+> De XBRL-mogelijkheden in Business Central ondersteunen taxonomieën voor specificatie 2.1, maar taxonomieën kunnen niet-ondersteunde elementen bevatten, zoals Formula linkbases of iXBRL, of andere structurele verschillen hebben. We raden u aan de XBRL-mogelijkheid te valideren voordat u deze voor rapportage gebruikt.
+> 
+> Volledige ondersteuning voor taxonomieën vereist mogelijk XBRL-tagging en tools van derden. De XBRL International-organisatie heeft een lijst met tools en services die u kunt gebruiken voor XBRL-rapportage. Afhankelijk van de XBRL-rapportagevereisten voor een bepaalde taxonomie wilt u misschien die resources verkennen. Zie voor meer informatie [Aan de slag voor bedrijven](https://go.microsoft.com/fwlink/?linkid=2153466) en [Tools en services](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) is een op XML gebaseerde taal voor financiële verslaglegging. XBRL biedt een standaardindeling waarmee een uniforme rapportage mogelijk wordt voor alle gebruikers die betrokken zijn bij de financiële gegevensstroom, zoals overheidsbedrijven en particuliere bedrijven, accountants, regelgevende instanties, analisten, investeringsmaatschappijen, de kapitaalmarkt en financiers, alsmede belangrijke derden zoals softwareontwikkelaars en gegevensbanken.  

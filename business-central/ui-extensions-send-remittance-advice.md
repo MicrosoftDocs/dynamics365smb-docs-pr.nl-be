@@ -3,19 +3,19 @@ title: Extensie Afdrachtsadvies verzenden | Microsoft Docs
 description: Beschrijft de extensie Afdrachtsadvies verzenden, waarmee afdrachtsadviezen kunnen worden ge-e-maild en opnieuw worden verzonden vanuit de betalingsdagboek- en leveranciersposten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3ae8d131b714b0d7ffb60727d1a991cd6e4ab692
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e0868a5919f82af9d19dbd692c8d27577e64b6b0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757079"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376974"
 ---
 # <a name="send-remittance-advice"></a>Afdrachtsadvies verzenden
 

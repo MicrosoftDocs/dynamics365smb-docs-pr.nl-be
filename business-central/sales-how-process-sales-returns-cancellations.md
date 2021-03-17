@@ -3,19 +3,19 @@ title: Verkoopretouren of annuleringen verwerken | Microsoft Docs
 description: Beschrijft hoe u een verkoopcreditnota maakt, rechtstreeks of via een verkoopretourorder, om een retour, een annulering of terugbetaling te verwerken voor artikelen of diensten waarvoor u betaling hebt ontvangen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6a65f67a7ac07196f5b4738c59fa5180e512f89c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748405"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385586"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.

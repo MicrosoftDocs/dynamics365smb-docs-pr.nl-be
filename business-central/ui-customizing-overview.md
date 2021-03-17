@@ -4,19 +4,19 @@ description: Meer informatie over het toevoegen van functies en over het aanpass
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec80608757a8865cdea62af54ceda855e673942a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 38022164846c9463a91179a6d71b9ebb8e4bd2a2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747655"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385936"
 ---
 # <a name="customize-business-central"></a>Business Central aanpassen
 Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw collega's toegang hebben tot de functies, de functionaliteit en de gegevens die u het hardst nodig hebt. En dat op een manier die het best bij uw dagelijks werk past. Wie de wijzigingen ziet, is afhankelijk van wat u doet, zoals beschreven in deze tabel.

@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Bestelbeleid verwerken | Microsoft Docs'
 description: Overzicht van taken voor het definiëren van een bestelbeleid in voorraadplanning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390061"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Ontwerpdetails: Bestelbeleid verwerken
 Om een artikel deel te laten nemen aan voorraadplanning, moet een bestelbeleid worden gedefinieerd. Er zijn vier soorten bestelbeleid:  
@@ -81,9 +81,9 @@ Hierna wordt een grafische illustratie van dit principe getoond:
 
      Hiermee wordt het voorspelde voorraadniveau verhoogd (A: +0 => +4 of B: +2 = +6).  
 
-7. Er wordt een laatste controle gedaan: zijn er eventuele afnameaanmaningen? Ja, er is één op de datum van **Da** .  
+7. Er wordt een laatste controle gedaan: zijn er eventuele afnameaanmaningen? Ja, er is één op de datum van **Da**.  
 8. Het systeem voegt de afnameherinnering -3 toe aan het verwachte voorraadniveau, hetzij A: +4 -3 = 1 of B: +6 -3 = +3.  
-9. In het geval van A maakt het systeem een voorwaarts geplande order die begint op de datum **Da** .  
+9. In het geval van A maakt het systeem een voorwaarts geplande order die begint op de datum **Da**.  
 
      In het geval van B, wordt het bestelpunt bereikt en wordt een nieuwe order gemaakt.
 
@@ -195,14 +195,14 @@ Het bestelpunt drukt de verwachte vraag uit tijdens de doorlooptijd van het arti
 
  ![Suggestie voor noodplanning om negatieve inventaris te voorkomen](media/nav_app_supply_planning_2_negative_inventory.png "Suggestie voor noodplanning om negatieve inventaris te voorkomen")  
 
-1.  Voorziening **A** , de oorspronkelijk geplande voorraad, is onder het bestelpunt.  
-2.  Er is een nieuwe voorwaarts-geplande voorziening gemaakt ( **C** ).  
+1.  Voorziening **A**, de oorspronkelijk geplande voorraad, is onder het bestelpunt.  
+2.  Er is een nieuwe voorwaarts-geplande voorziening gemaakt (**C**).  
 
      (Aantal = Maximale voorraad – Gepland voorraadniveau)  
-3.  Voorziening **A** wordt afgesloten door vraag **B** , die niet volledig is verwerkt.  
+3.  Voorziening **A** wordt afgesloten door vraag **B**, die niet volledig is verwerkt.  
 
      (Vraag **B** zou kunnen proberen Aanbod C in te plannen, maar dat gebeurt niet op basis van het tijdsintervalconcept.)  
-4.  Er wordt nieuw aanbod ( **D** ) gemaakt om te voldoen aan het resterende aantal van de vraag **B** .  
+4.  Er wordt nieuw aanbod (**D**) gemaakt om te voldoen aan het resterende aantal van de vraag **B**.  
 5.  Vraag **B** wordt gesloten (waarbij een aanmaning voor de geplande voorraad wordt gemaakt).  
 6.  De nieuwe voorziening **D** is afgesloten.  
 7.  Geplande voorraad wordt gecontroleerd; bestelpunt is niet overschreden.  
@@ -234,7 +234,7 @@ Orders voor voorzieningen die specifiek zijn gemaakt om te voldoen aan een beste
 De ordervelden Min. bestelaantal, Max. bestelaantal en Vaste lotgrootte zouden geen grote rol moeten afspelen wanneer het beleid voor vaste bestelaantallen wordt gebruikt. Het planningssysteem houdt echter toch rekening met deze wijzigingsfactoren en verlaagt het aantal tot het opgegeven maximum orderaantal (en maakt twee of meer voorzieningen om het totale orderaantal te bereiken), verhoogt de order tot het opgegeven maximum aantal of rondt het orderaantal af op een opgegeven orderveelvoud.  
 
 #### <a name="combines-with-calendars"></a>Combineert met agenda's  
-Voordat het planningssysteem een nieuwe voorzieningenorder voorstelt, wordt gecontroleerd of de order is gepland voor een niet-werkdag, volgens agenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging** .  
+Voordat het planningssysteem een nieuwe voorzieningenorder voorstelt, wordt gecontroleerd of de order is gepland voor een niet-werkdag, volgens agenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging**.  
 
 Als de verwachte datum een vrije dag is, verplaatst het planningssysteem de order voorwaarts naar de dichtstbijzijnde werkdatum. Dit kan resulteren in een order die voldoet een bestelpunt maar aan een bepaalde vraag niet voldoet. Voor dergelijke vraag in onbalans maakt het systeem een extra voorziening.  
 
@@ -258,7 +258,7 @@ Het systeem zorgt dat de geplande voorraad ten minste het bestelpuntniveau berei
 Afhankelijk van de instellingen kan het het beste zijn om het maximale aantal-beleid te combineren met orderwijzigingen om een minimaal orderaantal te garanderen of af te ronden op een geheel aantal inkoopeenheden, of te splitsen in meerdere lots zoals bepaald door het maximale orderaantal.  
 
 ### <a name="combines-with-calendars"></a>Combineert met agenda's  
-Voordat het planningssysteem een nieuwe voorzieningenorder voorstelt, wordt gecontroleerd of de order is gepland voor een niet-werkdag, volgens agenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging** .  
+Voordat het planningssysteem een nieuwe voorzieningenorder voorstelt, wordt gecontroleerd of de order is gepland voor een niet-werkdag, volgens agenda's die zijn gedefinieerd in het veld **Basisagendacode** op de pagina's **Bedrijfsgegevens** en **Vestiging**.  
 
 Als de verwachte datum een vrije dag is, verplaatst het planningssysteem de order voorwaarts naar de dichtstbijzijnde werkdatum. Dit kan resulteren in een order die voldoet een bestelpunt maar aan een bepaalde vraag niet voldoet. Voor dergelijke vraag in onbalans maakt het systeem een extra voorziening.
 
@@ -282,7 +282,7 @@ Het lot-for-lot-beleid is het meest flexibel omdat het systeem alleen reageert o
 
 In sommige opzichten lijkt het lot-voor-lot beleid op het orderbeleid, maar het hanteert een algemene aanpak van artikelen; het kan aantallen in voorraad accepteren en het bundelt vraag en corresponderend aanbod in tijdsintervallen die door de gebruiker worden gedefinieerd.  
 
-Het tijdsinterval wordt gedefinieerd in het veld **Tijdsinterval** . Er wordt gewerkt met een minimumtijdsinterval van één dag, aangezien dit de kleinste tijdseenheid voor vraag- en voorzieningsgebeurtenissen in het systeem is (hoewel in de praktijk de tijdseenheid voor productieorders en materiaalbehoeften zelfs seconden kan zijn).  
+Het tijdsinterval wordt gedefinieerd in het veld **Tijdsinterval**. Er wordt gewerkt met een minimumtijdsinterval van één dag, aangezien dit de kleinste tijdseenheid voor vraag- en voorzieningsgebeurtenissen in het systeem is (hoewel in de praktijk de tijdseenheid voor productieorders en materiaalbehoeften zelfs seconden kan zijn).  
 
 Met het tijdsinterval worden ook limieten ingesteld wanneer een bestaande voorzieningenorder opnieuw moet worden gepland om te voldoen aan een bepaalde vraag. Als het aanbod binnen het tijdsinterval ligt, wordt het opnieuw in of uit gepland om aan de vraag te voldoen. Als de voorziening eerder ligt, ontstaat onnodige opeenhoping van voorraad en moet worden geannuleerd. Als het later ligt, wordt in plaats daarvan een nieuwe order gemaakt.  
 

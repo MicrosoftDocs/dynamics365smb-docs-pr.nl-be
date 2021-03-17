@@ -3,19 +3,19 @@ title: De termijnen en niveaus van aanmaningen instellen
 description: Leer hoe u Business Central zo instelt dat u een aanmaning aan een klant kunt verzenden over een betaling die achterstallig is, en kosten aan de betaling kunt toevoegen vanwege de vertraging.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 1bef0a7598846f0ea3fe74b03bbef70bb5c940ef
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 2d8e233fb1796515314c954d883bda7302fdcd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377049"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>De termijnen en niveaus van aanmaningen instellen
 

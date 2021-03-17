@@ -3,19 +3,19 @@ title: Serie- en lotnummers toewijzen aan artikelen voor tracering | Microsoft D
 description: U kunt serie- en lotnummers toevoegen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746103"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377585"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Werken met serie- en lotnummers
 U kunt serie- en lotnummers toewijzen aan elk uitgaand of inkomend document en de bijbehorende geboekte artikeltraceringsposten worden in de artikelposten weergegeven. U voert het werk uit op de pagina **Artikeltraceringsregels**, die u opent vanuit een inkomend of uitgaand document.
@@ -226,9 +226,9 @@ Op een informatiekaart voor serie- of lotnummers kunt u gegevens koppelen aan ee
 5. Kies de actie **Opmerking** om een aparte record met een opmerking maken.  
 6. Schakel het selectievakje **Geblokkeerd** in om het serie- of lotnummer uit te sluiten van transacties.  
 
-Als u serienummers in bulk maakt met behulp van de actie **Aangepast serienr. maken** of **Serienummer toewijzen**, kunt u **Serienummergegevens maken** inschakelen. Er wordt dan voor elke traceringsregel een informatiekaart gemaakt.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Als alternatief kunt u een informatiekaart maken wanneer u dagboeken of documenten boekt op de pagina **Artikeltraceringscode**. Zet de schakelaar **Serienummergegevens maken bij boeken** of **Serienummergegevens maken bij boeken** aan. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 U kunt aangemaakte serie- of partijinformatiekaarten later wijzigen.
 

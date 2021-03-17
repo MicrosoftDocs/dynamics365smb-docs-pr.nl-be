@@ -3,23 +3,23 @@ title: Codes voor standaardservices instellen | Microsoft Docs
 description: Leer hoe u codes instelt voor serviceactiviteiten die u vaak uitvoert.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2db9480789e90b15e0a9d4e737817d3b8ff3b3c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d1d017d74eff9a4bd017cb9417913c0bd37ec500
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388836"
 ---
 # <a name="set-up-standard-service-codes"></a>Standaardservicecodes instellen
 
-Bij het uitvoeren van de services moeten vaak servicedocumenten worden opgesteld waarbij de serviceregels vergelijkbare informatie bevatten. Om het gemakkelijk te maken om deze regels te maken, kunt u standaardservicecodes met een vooraf gedefinieerde reeks serviceregels instellen. Wanneer u de code voor een servicedocument kiest, worden de regels automatisch ingevuld. U kunt elk gewenst aantal standaardservicecodes instellen en aan elke code kan een onbeperkt aantal serviceregels van verschillende soorten, inclusief artikel, resource, kosten of standaardtekst, worden gekoppeld. U kunt serviceregels van elke standaardservicecode maken op de kaart **Standaardservicecode** . Vervolgens kunt u standaardservicecodes toewijzen aan serviceartikelgroepen op de pagina **Std. serviceartikelgroepcodes** . Later, wanneer u een servicedocument opstelt, kunt u de actie **Standaardservicecodes ophalen** gebruiken om serviceregels toe te voegen.  
+Bij het uitvoeren van de services moeten vaak servicedocumenten worden opgesteld waarbij de serviceregels vergelijkbare informatie bevatten. Om het gemakkelijk te maken om deze regels te maken, kunt u standaardservicecodes met een vooraf gedefinieerde reeks serviceregels instellen. Wanneer u de code voor een servicedocument kiest, worden de regels automatisch ingevuld. U kunt elk gewenst aantal standaardservicecodes instellen en aan elke code kan een onbeperkt aantal serviceregels van verschillende soorten, inclusief artikel, resource, kosten of standaardtekst, worden gekoppeld. U kunt serviceregels van elke standaardservicecode maken op de kaart **Standaardservicecode**. Vervolgens kunt u standaardservicecodes toewijzen aan serviceartikelgroepen op de pagina **Std. serviceartikelgroepcodes**. Later, wanneer u een servicedocument opstelt, kunt u de actie **Standaardservicecodes ophalen** gebruiken om serviceregels toe te voegen.  
   
 > [!Tip]
 > U kunt hetzelfde concept gebruiken om regels in verkoop- en inkoopdocumenten te maken. Zie voor meer informatie [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).  
