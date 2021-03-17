@@ -3,30 +3,33 @@ title: 'Ontwerpdetails: Magazijnbeheer | Microsoft Docs'
 description: Dit onderwerp bevat een overzicht van het ontwerp, de concepten en principes achter de magazijnbeheerfuncties in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 36e8d8dadc52ab10492fb5ab1cbfe158b069cd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749580"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381479"
 ---
-# <a name="design-details-warehouse-management"></a><span data-ttu-id="fea7d-103">Ontwerpdetails: Magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="fea7d-103">Design Details: Warehouse Management</span></span>
-<span data-ttu-id="fea7d-104">Deze documentatie bevat een overzicht van de concepten en principes die worden gehanteerd in de magazijnbeheerfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="fea7d-104">This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="fea7d-105">Er wordt uitgelegd wat het ontwerp is achter centrale magazijnfuncties en hoe deze functies worden geïntegreerd met andere leveringsketenfuncties.</span><span class="sxs-lookup"><span data-stu-id="fea7d-105">It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.</span></span>  
+# <a name="design-details-warehouse-management"></a><span data-ttu-id="37cac-103">Ontwerpdetails: Magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="37cac-103">Design Details: Warehouse Management</span></span>
+<span data-ttu-id="37cac-104">Deze documentatie bevat een overzicht van de concepten en principes die worden gehanteerd in de magazijnbeheerfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="37cac-104">This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="37cac-105">Er wordt uitgelegd wat het ontwerp is achter centrale magazijnfuncties en hoe deze functies worden geïntegreerd met andere leveringsketenfuncties.</span><span class="sxs-lookup"><span data-stu-id="37cac-105">It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.</span></span>  
 
-<span data-ttu-id="fea7d-106">Om onderscheid te kunnen maken tussen de verschillende complexiteitsniveaus van magazijnfuncties, wordt deze documentatie verdeeld in twee algemene groepen, standaard- en geavanceerde magazijnconfiguraties, aangeduid met sectietitels.</span><span class="sxs-lookup"><span data-stu-id="fea7d-106">To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles.</span></span> <span data-ttu-id="fea7d-107">Dit eenvoudig onderscheid omvat verschillende complexiteitniveaus zoals gedefinieerd door productgranules en vestigingsinstellingen.</span><span class="sxs-lookup"><span data-stu-id="fea7d-107">This simple differentiation covers different complexity levels as defined by product granules and location setup.</span></span> <span data-ttu-id="fea7d-108">Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).</span><span class="sxs-lookup"><span data-stu-id="fea7d-108">For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).</span></span>  
+<span data-ttu-id="37cac-106">Om onderscheid te kunnen maken tussen de verschillende complexiteitsniveaus van magazijnfuncties, wordt deze documentatie verdeeld in twee algemene groepen, standaard- en geavanceerde magazijnconfiguraties, aangeduid met sectietitels.</span><span class="sxs-lookup"><span data-stu-id="37cac-106">To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles.</span></span> <span data-ttu-id="37cac-107">Dit eenvoudig onderscheid omvat verschillende complexiteitniveaus zoals gedefinieerd door productgranules en vestigingsinstellingen.</span><span class="sxs-lookup"><span data-stu-id="37cac-107">This simple differentiation covers different complexity levels as defined by product granules and location setup.</span></span> <span data-ttu-id="37cac-108">Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).</span><span class="sxs-lookup"><span data-stu-id="37cac-108">For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="fea7d-109">In dit gedeelte</span><span class="sxs-lookup"><span data-stu-id="fea7d-109">In This Section</span></span>  
-[<span data-ttu-id="fea7d-110">Ontwerpdetails: Magazijnoverzicht</span><span class="sxs-lookup"><span data-stu-id="fea7d-110">Design Details: Warehouse Overview</span></span>](design-details-warehouse-overview.md)  
-[<span data-ttu-id="fea7d-111">Ontwerpdetails: Magazijninstelling</span><span class="sxs-lookup"><span data-stu-id="fea7d-111">Design Details: Warehouse Setup</span></span>](design-details-warehouse-setup.md)  
-[<span data-ttu-id="fea7d-112">Ontwerpdetails: Inkomende magazijnstroom</span><span class="sxs-lookup"><span data-stu-id="fea7d-112">Design Details: Inbound Warehouse Flow</span></span>](design-details-inbound-warehouse-flow.md)  
-[<span data-ttu-id="fea7d-113">Ontwerpdetails: Inkomende magazijnstromen</span><span class="sxs-lookup"><span data-stu-id="fea7d-113">Design Details: Internal Warehouse Flows</span></span>](design-details-internal-warehouse-flows.md)  
-[<span data-ttu-id="fea7d-114">Ontwerpdetails: Beschikbaarheid in het magazijn</span><span class="sxs-lookup"><span data-stu-id="fea7d-114">Design Details: Availability in the Warehouse</span></span>](design-details-availability-in-the-warehouse.md)  
-[<span data-ttu-id="fea7d-115">Ontwerpdetails: Uitgaande magazijnstroom</span><span class="sxs-lookup"><span data-stu-id="fea7d-115">Design Details: Outbound Warehouse Flow</span></span>](design-details-outbound-warehouse-flow.md)  
-[<span data-ttu-id="fea7d-116">Ontwerpdetails: Integratie met voorraad</span><span class="sxs-lookup"><span data-stu-id="fea7d-116">Design Details: Integration with Inventory</span></span>](design-details-integration-with-inventory.md)
+## <a name="in-this-section"></a><span data-ttu-id="37cac-109">In dit gedeelte</span><span class="sxs-lookup"><span data-stu-id="37cac-109">In This Section</span></span>  
+[<span data-ttu-id="37cac-110">Ontwerpdetails: Magazijnoverzicht</span><span class="sxs-lookup"><span data-stu-id="37cac-110">Design Details: Warehouse Overview</span></span>](design-details-warehouse-overview.md)  
+[<span data-ttu-id="37cac-111">Ontwerpdetails: Magazijninstelling</span><span class="sxs-lookup"><span data-stu-id="37cac-111">Design Details: Warehouse Setup</span></span>](design-details-warehouse-setup.md)  
+[<span data-ttu-id="37cac-112">Ontwerpdetails: Inkomende magazijnstroom</span><span class="sxs-lookup"><span data-stu-id="37cac-112">Design Details: Inbound Warehouse Flow</span></span>](design-details-inbound-warehouse-flow.md)  
+[<span data-ttu-id="37cac-113">Ontwerpdetails: Inkomende magazijnstromen</span><span class="sxs-lookup"><span data-stu-id="37cac-113">Design Details: Internal Warehouse Flows</span></span>](design-details-internal-warehouse-flows.md)  
+[<span data-ttu-id="37cac-114">Ontwerpdetails: Beschikbaarheid in het magazijn</span><span class="sxs-lookup"><span data-stu-id="37cac-114">Design Details: Availability in the Warehouse</span></span>](design-details-availability-in-the-warehouse.md)  
+[<span data-ttu-id="37cac-115">Ontwerpdetails: Uitgaande magazijnstroom</span><span class="sxs-lookup"><span data-stu-id="37cac-115">Design Details: Outbound Warehouse Flow</span></span>](design-details-outbound-warehouse-flow.md)  
+[<span data-ttu-id="37cac-116">Ontwerpdetails: Integratie met voorraad</span><span class="sxs-lookup"><span data-stu-id="37cac-116">Design Details: Integration with Inventory</span></span>](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,23 +3,23 @@ title: Planningsuggesties in een grafische weergave wijzigen | Microsoft Docs
 description: Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie Planningsboodschap uitvoeren uit te voeren. In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d00650a3490cd4995e4c531aca5346c8c0256179
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a17ce72c88ecb9df07169814a50701635239d725
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381327"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="bb751-104">Planningsuggesties in een grafische weergave wijzigen</span><span class="sxs-lookup"><span data-stu-id="bb751-104">Modify Planning Suggestions in a Graphical View</span></span>
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="46d95-104">Planningsuggesties in een grafische weergave wijzigen</span><span class="sxs-lookup"><span data-stu-id="46d95-104">Modify Planning Suggestions in a Graphical View</span></span>
 
-<span data-ttu-id="bb751-105">Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="bb751-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="bb751-106">In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.</span><span class="sxs-lookup"><span data-stu-id="bb751-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="bb751-107">Dit wordt momenteel echter niet ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="bb751-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="46d95-105">Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u ze vastlegt door de functie **Planningsboodschap uitvoeren** uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="46d95-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="46d95-106">In plaats van dit in het planningsvoorstel te doen, kunt u ook een grafische weergave gebruiken.</span><span class="sxs-lookup"><span data-stu-id="46d95-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="46d95-107">Dit wordt momenteel echter niet ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="46d95-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -93,13 +93,16 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="bb751-108">Zie ook</span><span class="sxs-lookup"><span data-stu-id="bb751-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="46d95-108">Zie ook</span><span class="sxs-lookup"><span data-stu-id="46d95-108">See Also</span></span>
 
-[<span data-ttu-id="bb751-109">Gepland</span><span class="sxs-lookup"><span data-stu-id="bb751-109">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="bb751-110">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="bb751-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="bb751-111">Productie</span><span class="sxs-lookup"><span data-stu-id="bb751-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="bb751-112">Voorraad</span><span class="sxs-lookup"><span data-stu-id="bb751-112">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="bb751-113">Inkoop</span><span class="sxs-lookup"><span data-stu-id="bb751-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="bb751-114">Ontwerpdetails: Voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="bb751-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
-[<span data-ttu-id="bb751-115">Aanbevolen procedures instellen: voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="bb751-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="bb751-116">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bb751-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="46d95-109">Gepland</span><span class="sxs-lookup"><span data-stu-id="46d95-109">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="46d95-110">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="46d95-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="46d95-111">Productie</span><span class="sxs-lookup"><span data-stu-id="46d95-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="46d95-112">Voorraad</span><span class="sxs-lookup"><span data-stu-id="46d95-112">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="46d95-113">Inkoop</span><span class="sxs-lookup"><span data-stu-id="46d95-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="46d95-114">Ontwerpdetails: Voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="46d95-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
+[<span data-ttu-id="46d95-115">Aanbevolen procedures instellen: voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="46d95-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="46d95-116">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="46d95-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
