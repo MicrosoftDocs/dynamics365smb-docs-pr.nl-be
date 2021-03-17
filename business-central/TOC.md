@@ -110,6 +110,7 @@
 #### [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)
 #### [Rentefactuurcondities instellen](finance-setup-finance-charges.md)
 #### [Btw instellen](finance-setup-vat.md)
+#### [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)
 #### [Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)
 #### [Btw-nummers valideren.](finance-how-validate-vat-registration-number.md)
 #### [Broncodes en redencodes instellen voor audittrails](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Veldtoewijzing voor de extensie AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Financiën
 ### [Overzicht van financiën](finance.md)
+### [Financiële rapporten](finance-reports.md)
 ### Tegoeden beheren
 #### [Overzicht van debiteuren](receivables-manage-receivables.md)
 #### Betalingen automatisch vereffenen en bankrekeningen reconciliëren
@@ -560,8 +562,9 @@
 ### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
 ### [Accountantervaringen in Business Central](finance-accounting.md)
 
-## Bedrijfsinformatie
-### [BI-overzicht](bi.md)
+## Bedrijfsinformatie en financiële rapportage
+### [Overzicht van bedrijfsinformatie en financiële rapportage](bi.md)
+### [Financiële rapporten](finance-reports.md)
 ### [Werkelijke bedragen analyseren in vergelijking met budgetbedragen](bi-how-analyze-actual-versus-budget.md)
 ### [Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)
 ### [KPI-webservices instellen en publiceren op basis van rekeningschema's](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Beveiliging, privacy, compliance
 ## Beveiliging en bescherming
-### [Overzicht van beveiliging en bescherming](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Overzicht van beveiliging en bescherming (alleen in het Engels)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
 ### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Naleving
@@ -1541,6 +1544,7 @@
 ### [Toepassingsnaleving](compliance/compliance-application-compliance.md)
 ### [Servicenaleving](compliance/compliance-service-compliance.md)
 ### [Certificeringen](compliance/compliance-certifications.md)
+## [Serviceoverzicht (alleen in het Engels)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Ontwikkeling en beheer
 ## [Aan de slag met ontwikkelings- en administratiedocumentatie](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
