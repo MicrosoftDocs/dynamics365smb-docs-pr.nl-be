@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 683fe2b81a638d3b4089a0cdaf2da2a61957c874
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f3c9399765e75e6145f8dd5d0884cdc4bd7fa540
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379580"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779245"
 ---
-# <a name="apply-and-unapply-general-ledger-entries-in-the-belgian-version"></a><span data-ttu-id="2b07a-104">Grootboekposten toepassen en verwijderen in de Belgische versie</span><span class="sxs-lookup"><span data-stu-id="2b07a-104">Apply and Unapply General Ledger Entries in the Belgian Version</span></span>
+# <a name="apply-and-unapply-general-ledger-entries-in-the-belgian-version"></a><span data-ttu-id="d7c79-104">Grootboekposten toepassen en verwijderen in de Belgische versie</span><span class="sxs-lookup"><span data-stu-id="d7c79-104">Apply and Unapply General Ledger Entries in the Belgian Version</span></span>
 
 [!INCLUDE [apply-unapply-general-ledger-entries](../includes/BENL/apply-unapply-general-ledger-entries.md)]
 
-## <a name="see-also"></a><span data-ttu-id="2b07a-105">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2b07a-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7c79-105">Zie ook</span><span class="sxs-lookup"><span data-stu-id="d7c79-105">See Also</span></span>
 
-[<span data-ttu-id="2b07a-106">Het grootboek en COA begrijpen</span><span class="sxs-lookup"><span data-stu-id="2b07a-106">Understanding the General Ledger and the COA</span></span>](../../finance-general-ledger.md)  
-[<span data-ttu-id="2b07a-107">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="2b07a-107">Belgium Local Functionality</span></span>](belgium-local-functionality.md)
+[<span data-ttu-id="d7c79-106">Het grootboek en COA begrijpen</span><span class="sxs-lookup"><span data-stu-id="d7c79-106">Understanding the General Ledger and the COA</span></span>](../../finance-general-ledger.md)  
+[<span data-ttu-id="d7c79-107">Belgische lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="d7c79-107">Belgium Local Functionality</span></span>](belgium-local-functionality.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
